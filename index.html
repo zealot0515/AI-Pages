@@ -1,0 +1,382 @@
+﻿<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI NewsPage</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4f1ea;
+      --panel: #ffffff;
+      --text: #1e2528;
+      --muted: #667074;
+      --line: #d8d1c3;
+      --accent: #006c67;
+      --accent-strong: #ba4a2b;
+      --ink: #101415;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
+      line-height: 1.5;
+    }
+
+    main {
+      width: min(1040px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 48px;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 28px;
+      align-items: end;
+      padding: 24px 0 22px;
+      border-top: 4px solid var(--ink);
+      border-bottom: 1px solid var(--ink);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 44px;
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .kicker {
+      margin: 0 0 10px;
+      color: var(--accent-strong);
+      font-family: "Segoe UI", "Noto Sans TC", sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .dek {
+      max-width: 680px;
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-family: "Segoe UI", "Noto Sans TC", sans-serif;
+      font-size: 13px;
+      text-align: right;
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 20px;
+      font-family: "Segoe UI", "Noto Sans TC", sans-serif;
+    }
+
+    button {
+      border: 1px solid var(--ink);
+      border-radius: 999px;
+      background: transparent;
+      color: var(--ink);
+      cursor: pointer;
+      font: inherit;
+      min-height: 36px;
+      padding: 6px 14px;
+    }
+
+    button[aria-pressed="true"] {
+      background: var(--ink);
+      color: #fff;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(260px, 0.8fr);
+      gap: 24px;
+      margin-top: 28px;
+    }
+
+    article {
+      background: var(--panel);
+      border: 1px solid var(--ink);
+      border-radius: 8px;
+      box-shadow: 6px 6px 0 rgba(16, 20, 21, 0.12);
+    }
+
+    .lead-story {
+      padding: 22px;
+      margin-bottom: 18px;
+    }
+
+    .story-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .story {
+      padding: 18px;
+    }
+
+    h2 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 0 0 8px;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    a {
+      color: var(--accent);
+      overflow-wrap: anywhere;
+    }
+
+    p {
+      margin: 8px 0;
+    }
+
+    .story-meta {
+      color: var(--muted);
+      font-family: "Segoe UI", "Noto Sans TC", sans-serif;
+      font-size: 13px;
+    }
+
+    .highlights {
+      margin: 14px 0 0;
+      padding-left: 20px;
+    }
+
+    .highlights li {
+      margin: 6px 0;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 12px;
+    }
+
+    .tag {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 2px 8px;
+      color: var(--muted);
+      font-family: "Segoe UI", "Noto Sans TC", sans-serif;
+      font-size: 12px;
+    }
+
+    aside {
+      border-left: 1px solid var(--line);
+      padding-left: 20px;
+    }
+
+    aside h2 {
+      font-size: 18px;
+      font-family: "Segoe UI", "Noto Sans TC", sans-serif;
+    }
+
+    .source-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .source {
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--line);
+      font-family: "Segoe UI", "Noto Sans TC", sans-serif;
+      font-size: 14px;
+    }
+
+    .source strong {
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        width: min(100% - 24px, 1040px);
+        padding: 24px 0;
+      }
+
+      header,
+      .layout {
+        display: block;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      .meta {
+        text-align: left;
+        margin-top: 12px;
+      }
+
+      aside {
+        border-left: 0;
+        padding-left: 0;
+        margin-top: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <p class="kicker">AI NewsPage test edition</p>
+        <h1>AI NewsPage</h1>
+        <p class="dek">A static GitHub Pages test site generated from a private source repository.</p>
+      </div>
+      <div class="meta">
+        <div>3 public stories</div>
+        <div>1 public sources</div>
+        <div>Generated 2026-05-12T16:16:03Z</div>
+      </div>
+    </header>
+    <nav id="filters" class="toolbar" aria-label="News filters"></nav>
+    <div class="layout">
+      <section id="news" aria-live="polite"></section>
+      <aside>
+        <h2>Public Sources</h2>
+        <div id="sources" class="source-list"></div>
+      </aside>
+    </div>
+  </main>
+  <script>
+    const newsEl = document.querySelector("#news");
+    const filtersEl = document.querySelector("#filters");
+    const sourcesEl = document.querySelector("#sources");
+    let allNews = [];
+    let activeCategory = "All";
+
+    Promise.all([
+      fetch("./data/news.json").then((response) => {
+        if (!response.ok) throw new Error("Failed to load public news");
+        return response.json();
+      }),
+      fetch("./data/sites.json").then((response) => {
+        if (!response.ok) throw new Error("Failed to load public sources");
+        return response.json();
+      })
+    ])
+      .then(([news, sources]) => {
+        allNews = news;
+        renderFilters(news);
+        renderNews(news);
+        renderSources(sources);
+      })
+      .catch((error) => {
+        newsEl.textContent = error.message;
+      });
+
+    function renderFilters(news) {
+      const categories = ["All", ...new Set(news.map((item) => item.category).filter(Boolean))];
+      filtersEl.innerHTML = categories.map((category) => (
+        `<button type="button" aria-pressed="${category === activeCategory}" data-category="${escapeAttribute(category)}">${escapeHtml(category)}</button>`
+      )).join("");
+
+      filtersEl.querySelectorAll("button").forEach((button) => {
+        button.addEventListener("click", () => {
+          activeCategory = button.dataset.category;
+          renderFilters(allNews);
+          renderNews(allNews);
+        });
+      });
+    }
+
+    function renderNews(news) {
+      const visible = activeCategory === "All"
+        ? news
+        : news.filter((item) => item.category === activeCategory);
+
+      if (visible.length === 0) {
+        newsEl.textContent = "No public stories in this category.";
+        return;
+      }
+
+      const [lead, ...rest] = visible;
+      newsEl.innerHTML = `
+        <article class="lead-story">
+          <div class="story-meta">${escapeHtml(formatDate(lead.published_at))} / ${escapeHtml(lead.category)}</div>
+          <h2>${escapeHtml(lead.title)}</h2>
+          <p>${escapeHtml(lead.summary)}</p>
+          ${renderHighlights(lead.highlights)}
+          ${renderTags(lead.tags)}
+          <p><a href="${escapeAttribute(lead.source_url)}" rel="noopener noreferrer" target="_blank">${escapeHtml(lead.source)}</a></p>
+        </article>
+        <div class="story-list">
+          ${rest.map((item) => `
+            <article class="story">
+              <div class="story-meta">${escapeHtml(formatDate(item.published_at))} / ${escapeHtml(item.category)}</div>
+              <h3>${escapeHtml(item.title)}</h3>
+              <p>${escapeHtml(item.summary)}</p>
+              ${renderTags(item.tags)}
+            </article>
+          `).join("")}
+        </div>
+      `;
+    }
+
+    function renderSources(sources) {
+      sourcesEl.innerHTML = sources.map((source) => `
+        <div class="source">
+          <strong>${escapeHtml(source.name || source.id)}</strong>
+          <a href="${escapeAttribute(source.url)}" rel="noopener noreferrer" target="_blank">${escapeHtml(source.url)}</a>
+          <p>${escapeHtml(source.public_notes || "")}</p>
+        </div>
+      `).join("");
+    }
+
+    function renderHighlights(highlights) {
+      const items = (highlights || []).map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+      return items ? `<ul class="highlights">${items}</ul>` : "";
+    }
+
+    function renderTags(tags) {
+      const items = (tags || []).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
+      return `<div class="tags">${items}</div>`;
+    }
+
+    function formatDate(value) {
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return value || "";
+      return new Intl.DateTimeFormat("zh-TW", {
+        year: "numeric",
+        month: "short",
+        day: "numeric"
+      }).format(date);
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function escapeAttribute(value) {
+      return escapeHtml(value).replaceAll("`", "&#096;");
+    }
+  </script>
+</body>
+</html>

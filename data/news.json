@@ -1,0 +1,62 @@
+﻿[
+    {
+        "id":  "ai-news-test-001",
+        "title":  "AI Agents Move From Demos Into Daily Workflows",
+        "source":  "AI NewsPage Test Desk",
+        "source_url":  "https://example.com/ai-agents-workflows",
+        "published_at":  "2026-05-12T08:00:00Z",
+        "category":  "AI agents",
+        "summary":  "Enterprises are testing AI agents on repeatable research, reporting, and support tasks where review checkpoints are clear.",
+        "highlights":  [
+                           "Teams are starting with low-risk internal workflows.",
+                           "Human review remains the main control point.",
+                           "Useful pilots focus on measured time saved, not novelty."
+                       ],
+        "tags":  [
+                     "agents",
+                     "workflow",
+                     "enterprise"
+                 ],
+        "public_notes":  "Synthetic test article for the first public site release."
+    },
+    {
+        "id":  "ai-news-test-002",
+        "title":  "Open Models Increase Pressure on Product Teams",
+        "source":  "AI NewsPage Test Desk",
+        "source_url":  "https://example.com/open-model-product-teams",
+        "published_at":  "2026-05-11T13:30:00Z",
+        "category":  "Models",
+        "summary":  "New open-weight models are making it easier for smaller teams to prototype AI features while keeping deployment costs visible.",
+        "highlights":  [
+                           "Open models make local and private deployments easier to evaluate.",
+                           "Teams still need benchmarks that match their own data.",
+                           "Cost, latency, and safety reviews are becoming product requirements."
+                       ],
+        "tags":  [
+                     "models",
+                     "open-source",
+                     "product"
+                 ],
+        "public_notes":  "Synthetic test article for layout and data flow validation."
+    },
+    {
+        "id":  "ai-news-test-003",
+        "title":  "Newsrooms Experiment With AI-Assisted Research Desks",
+        "source":  "AI NewsPage Test Desk",
+        "source_url":  "https://example.com/newsrooms-ai-research",
+        "published_at":  "2026-05-10T22:15:00Z",
+        "category":  "Media",
+        "summary":  "Editorial teams are testing AI research desks that gather background links, compare claims, and prepare source briefs before writing begins.",
+        "highlights":  [
+                           "The strongest use case is pre-writing research support.",
+                           "Source traceability matters more than generated prose.",
+                           "Public trust depends on clear editorial accountability."
+                       ],
+        "tags":  [
+                     "media",
+                     "research",
+                     "newsroom"
+                 ],
+        "public_notes":  "Synthetic test article for the AI news website."
+    }
+]
