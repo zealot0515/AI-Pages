@@ -119,6 +119,16 @@
       margin-bottom: 18px;
     }
 
+    .story-image {
+      display: block;
+      width: 100%;
+      max-height: 280px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 16px;
+      background: var(--line);
+    }
+
     .story-list {
       display: grid;
       gap: 14px;
@@ -164,6 +174,13 @@
 
     .highlights li {
       margin: 6px 0;
+    }
+
+    .why {
+      border-left: 3px solid var(--accent-strong);
+      margin-top: 14px;
+      padding-left: 12px;
+      color: var(--text);
     }
 
     .tags {
@@ -248,7 +265,7 @@
       <div class="meta">
         <div>3 public stories</div>
         <div>1 public sources</div>
-        <div>Generated 2026-05-12T23:18:56Z</div>
+        <div>Generated 2026-05-12T23:19:44Z</div>
       </div>
     </header>
     <nav id="filters" class="toolbar" aria-label="News filters"></nav>
@@ -316,19 +333,24 @@
       newsEl.innerHTML = `
         <article class="lead-story">
           <div class="story-meta">${escapeHtml(formatDate(lead.published_at))} / ${escapeHtml(lead.category)}</div>
+          ${renderImage(lead)}
           <h2>${escapeHtml(lead.title)}</h2>
           <p>${escapeHtml(lead.summary)}</p>
           ${renderHighlights(lead.highlights)}
+          ${renderWhy(lead.why_it_matters)}
           ${renderTags(lead.tags)}
-          <p><a href="${escapeAttribute(lead.source_url)}" rel="noopener noreferrer" target="_blank">${escapeHtml(lead.source)}</a></p>
+          <p><a href="${escapeAttribute(lead.original_url || lead.source_url)}" rel="noopener noreferrer" target="_blank">閱讀原文：${escapeHtml(lead.source)}</a></p>
         </article>
         <div class="story-list">
           ${rest.map((item) => `
             <article class="story">
               <div class="story-meta">${escapeHtml(formatDate(item.published_at))} / ${escapeHtml(item.category)}</div>
+              ${renderImage(item)}
               <h3>${escapeHtml(item.title)}</h3>
               <p>${escapeHtml(item.summary)}</p>
+              ${renderWhy(item.why_it_matters)}
               ${renderTags(item.tags)}
+              <p><a href="${escapeAttribute(item.original_url || item.source_url)}" rel="noopener noreferrer" target="_blank">閱讀原文</a></p>
             </article>
           `).join("")}
         </div>
@@ -348,6 +370,15 @@
     function renderHighlights(highlights) {
       const items = (highlights || []).map((item) => `<li>${escapeHtml(item)}</li>`).join("");
       return items ? `<ul class="highlights">${items}</ul>` : "";
+    }
+
+    function renderWhy(value) {
+      return value ? `<p class="why">${escapeHtml(value)}</p>` : "";
+    }
+
+    function renderImage(item) {
+      if (!item.image_url) return "";
+      return `<img class="story-image" src="${escapeAttribute(item.image_url)}" alt="" loading="lazy">`;
     }
 
     function renderTags(tags) {

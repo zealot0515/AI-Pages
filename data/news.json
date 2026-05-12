@@ -2,8 +2,10 @@
   {
     "id": "ai-news-test-001",
     "title": "AI Agents Move From Demos Into Daily Workflows",
+    "title_original": null,
     "source": "AI NewsPage Test Desk",
     "source_url": "https://example.com/ai-agents-workflows",
+    "original_url": "https://example.com/ai-agents-workflows",
     "published_at": "2026-05-12T08:00:00Z",
     "category": "AI agents",
     "summary": "Enterprises are testing AI agents on repeatable research, reporting, and support tasks where review checkpoints are clear.",
@@ -12,18 +14,22 @@
       "Human review remains the main control point.",
       "Useful pilots focus on measured time saved, not novelty."
     ],
+    "why_it_matters": null,
     "tags": [
       "agents",
       "workflow",
       "enterprise"
     ],
+    "image_url": null,
     "public_notes": "Synthetic test article for the first public site release."
   },
   {
     "id": "ai-news-test-002",
     "title": "Open Models Increase Pressure on Product Teams",
+    "title_original": null,
     "source": "AI NewsPage Test Desk",
     "source_url": "https://example.com/open-model-product-teams",
+    "original_url": "https://example.com/open-model-product-teams",
     "published_at": "2026-05-11T13:30:00Z",
     "category": "Models",
     "summary": "New open-weight models are making it easier for smaller teams to prototype AI features while keeping deployment costs visible.",
@@ -32,18 +38,22 @@
       "Teams still need benchmarks that match their own data.",
       "Cost, latency, and safety reviews are becoming product requirements."
     ],
+    "why_it_matters": null,
     "tags": [
       "models",
       "open-source",
       "product"
     ],
+    "image_url": null,
     "public_notes": "Synthetic test article for layout and data flow validation."
   },
   {
     "id": "ai-news-test-003",
     "title": "Newsrooms Experiment With AI-Assisted Research Desks",
+    "title_original": null,
     "source": "AI NewsPage Test Desk",
     "source_url": "https://example.com/newsrooms-ai-research",
+    "original_url": "https://example.com/newsrooms-ai-research",
     "published_at": "2026-05-10T22:15:00Z",
     "category": "Media",
     "summary": "Editorial teams are testing AI research desks that gather background links, compare claims, and prepare source briefs before writing begins.",
@@ -52,11 +62,13 @@
       "Source traceability matters more than generated prose.",
       "Public trust depends on clear editorial accountability."
     ],
+    "why_it_matters": null,
     "tags": [
       "media",
       "research",
       "newsroom"
     ],
+    "image_url": null,
     "public_notes": "Synthetic test article for the AI news website."
   }
 ]
