@@ -1,74 +1,75 @@
 [
   {
-    "id": "ai-news-test-001",
-    "title": "AI Agents Move From Demos Into Daily Workflows",
-    "title_original": null,
-    "source": "AI NewsPage Test Desk",
-    "source_url": "https://example.com/ai-agents-workflows",
-    "original_url": "https://example.com/ai-agents-workflows",
-    "published_at": "2026-05-12T08:00:00Z",
-    "category": "AI agents",
-    "summary": "Enterprises are testing AI agents on repeatable research, reporting, and support tasks where review checkpoints are clear.",
+    "id": "2026-05-12-n8n-io-n8n",
+    "title": "n8n brings AI-native workflow automation back into focus",
+    "title_original": "n8n-io/n8n",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/n8n-io/n8n",
+    "published_at": "2026-05-12T17:10:12Z",
+    "category": "agent-skills",
+    "summary": "n8n is a workflow automation platform with native AI capabilities, visual building, custom code, self-hosting, cloud hosting, and hundreds of integrations.",
     "highlights": [
-      "Teams are starting with low-risk internal workflows.",
-      "Human review remains the main control point.",
-      "Useful pilots focus on measured time saved, not novelty."
+      "Useful for connecting AI agents with real business workflows.",
+      "Supports visual workflow building and custom code paths.",
+      "Can be self-hosted, which matters for private automation."
     ],
-    "why_it_matters": null,
+    "why_it_matters": "Agent workflows become more useful when they can trigger reliable tools, route approvals, and connect to existing systems. n8n is one of the practical bridges between AI ideas and repeatable operations.",
     "tags": [
-      "agents",
+      "agent-skills",
       "workflow",
-      "enterprise"
+      "automation",
+      "typescript"
     ],
-    "image_url": null,
-    "public_notes": "Synthetic test article for the first public site release."
+    "image_url": "https://avatars.githubusercontent.com/u/45487711?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
-    "id": "ai-news-test-002",
-    "title": "Open Models Increase Pressure on Product Teams",
-    "title_original": null,
-    "source": "AI NewsPage Test Desk",
-    "source_url": "https://example.com/open-model-product-teams",
-    "original_url": "https://example.com/open-model-product-teams",
-    "published_at": "2026-05-11T13:30:00Z",
-    "category": "Models",
-    "summary": "New open-weight models are making it easier for smaller teams to prototype AI features while keeping deployment costs visible.",
+    "id": "2026-05-12-autogpt",
+    "title": "AutoGPT remains a reference point for autonomous agent tooling",
+    "title_original": "Significant-Gravitas/AutoGPT",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "published_at": "2026-05-12T17:09:09Z",
+    "category": "agent-skills",
+    "summary": "AutoGPT is an open-source agent project focused on making AI agents easier to use, build on, and extend.",
     "highlights": [
-      "Open models make local and private deployments easier to evaluate.",
-      "Teams still need benchmarks that match their own data.",
-      "Cost, latency, and safety reviews are becoming product requirements."
+      "Still a recognizable open-source reference for agent experiments.",
+      "Useful as a signal for how agent frameworks package autonomous workflows.",
+      "Best treated as a project to evaluate, not as a finished product claim."
     ],
-    "why_it_matters": null,
+    "why_it_matters": "Many newer agent tools still borrow concepts from early AutoGPT-style workflows: task loops, tool use, planning, and human-visible automation traces.",
     "tags": [
-      "models",
+      "agent-skills",
       "open-source",
-      "product"
+      "automation"
     ],
-    "image_url": null,
-    "public_notes": "Synthetic test article for layout and data flow validation."
+    "image_url": "https://avatars.githubusercontent.com/u/106969341?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
-    "id": "ai-news-test-003",
-    "title": "Newsrooms Experiment With AI-Assisted Research Desks",
-    "title_original": null,
-    "source": "AI NewsPage Test Desk",
-    "source_url": "https://example.com/newsrooms-ai-research",
-    "original_url": "https://example.com/newsrooms-ai-research",
-    "published_at": "2026-05-10T22:15:00Z",
-    "category": "Media",
-    "summary": "Editorial teams are testing AI research desks that gather background links, compare claims, and prepare source briefs before writing begins.",
+    "id": "2026-05-12-langflow-ai-langflow",
+    "title": "Langflow keeps visual agent-building accessible",
+    "title_original": "langflow-ai/langflow",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/langflow-ai/langflow",
+    "published_at": "2026-05-12T16:48:49Z",
+    "category": "agent-skills",
+    "summary": "Langflow is a visual tool for building and deploying AI-powered agents and workflows.",
     "highlights": [
-      "The strongest use case is pre-writing research support.",
-      "Source traceability matters more than generated prose.",
-      "Public trust depends on clear editorial accountability."
+      "Good candidate for prototyping agent chains without writing every step by hand.",
+      "Makes workflow structure visible, which helps review and debugging.",
+      "Useful to compare against code-first agent frameworks."
     ],
-    "why_it_matters": null,
+    "why_it_matters": "Visual agent builders are becoming a serious category because teams need to inspect, edit, and explain agent flows before trusting them in production.",
     "tags": [
-      "media",
-      "research",
-      "newsroom"
+      "agent-skills",
+      "workflow",
+      "python"
     ],
-    "image_url": null,
-    "public_notes": "Synthetic test article for the AI news website."
+    "image_url": "https://avatars.githubusercontent.com/u/85702467?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   }
 ]

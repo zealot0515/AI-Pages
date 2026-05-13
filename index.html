@@ -7,14 +7,15 @@
   <style>
     :root {
       color-scheme: light;
-      --bg: #f4f1ea;
+      --bg: #ffffff;
       --panel: #ffffff;
-      --text: #1e2528;
-      --muted: #667074;
-      --line: #d8d1c3;
-      --accent: #006c67;
-      --accent-strong: #ba4a2b;
-      --ink: #101415;
+      --text: #050505;
+      --muted: #707070;
+      --line: #dedede;
+      --accent: #057dbc;
+      --accent-strong: #000000;
+      --soft: #f5f5f5;
+      --ink: #000000;
     }
 
     * {
@@ -25,37 +26,34 @@
       margin: 0;
       background: var(--bg);
       color: var(--text);
-      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
+      font-family: "Aptos", "Segoe UI", "Noto Sans TC", sans-serif;
       line-height: 1.5;
     }
 
     main {
-      width: min(1040px, calc(100% - 32px));
+      width: min(1180px, calc(100% - 32px));
       margin: 0 auto;
-      padding: 32px 0 48px;
+      padding: 20px 0 56px;
     }
 
     header {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 28px;
-      align-items: end;
-      padding: 24px 0 22px;
-      border-top: 4px solid var(--ink);
-      border-bottom: 1px solid var(--ink);
+      padding: 14px 0 20px;
+      border-top: 8px solid var(--ink);
+      border-bottom: 2px solid var(--ink);
     }
 
     h1 {
       margin: 0;
-      font-size: 44px;
-      line-height: 1;
+      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
+      font-size: 64px;
+      font-weight: 400;
+      line-height: 0.95;
       letter-spacing: 0;
     }
 
     .kicker {
       margin: 0 0 10px;
-      color: var(--accent-strong);
-      font-family: "Segoe UI", "Noto Sans TC", sans-serif;
+      color: var(--ink);
       font-size: 13px;
       font-weight: 700;
       letter-spacing: 0;
@@ -64,35 +62,46 @@
 
     .dek {
       max-width: 680px;
-      margin: 12px 0 0;
+      margin: 14px 0 0;
       color: var(--muted);
-      font-size: 18px;
+      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
+      font-size: 19px;
     }
 
     .meta {
       color: var(--muted);
-      font-family: "Segoe UI", "Noto Sans TC", sans-serif;
       font-size: 13px;
-      text-align: right;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+      margin-top: 18px;
+      padding-top: 10px;
+      border-top: 1px solid var(--line);
+      text-transform: uppercase;
     }
 
     .toolbar {
       display: flex;
       flex-wrap: wrap;
-      gap: 8px;
+      gap: 0;
       margin-top: 20px;
-      font-family: "Segoe UI", "Noto Sans TC", sans-serif;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
     }
 
     button {
-      border: 1px solid var(--ink);
-      border-radius: 999px;
+      border: 0;
+      border-right: 1px solid var(--line);
+      border-radius: 0;
       background: transparent;
       color: var(--ink);
       cursor: pointer;
       font: inherit;
-      min-height: 36px;
-      padding: 6px 14px;
+      font-size: 13px;
+      font-weight: 700;
+      min-height: 40px;
+      padding: 8px 14px;
+      text-transform: uppercase;
     }
 
     button[aria-pressed="true"] {
@@ -102,59 +111,69 @@
 
     .layout {
       display: grid;
-      grid-template-columns: minmax(0, 2fr) minmax(260px, 0.8fr);
-      gap: 24px;
-      margin-top: 28px;
+      grid-template-columns: minmax(0, 2.1fr) minmax(280px, 0.9fr);
+      gap: 32px;
+      margin-top: 26px;
     }
 
     article {
       background: var(--panel);
-      border: 1px solid var(--ink);
-      border-radius: 8px;
-      box-shadow: 6px 6px 0 rgba(16, 20, 21, 0.12);
+      border-bottom: 1px solid var(--line);
+      border-radius: 0;
+      box-shadow: none;
     }
 
     .lead-story {
-      padding: 22px;
-      margin-bottom: 18px;
+      padding: 0 0 26px;
+      margin-bottom: 22px;
+      border-bottom: 2px solid var(--ink);
     }
 
     .story-image {
       display: block;
       width: 100%;
-      max-height: 280px;
+      max-height: 360px;
       object-fit: cover;
-      border-radius: 6px;
+      border-radius: 0;
       margin-bottom: 16px;
       background: var(--line);
     }
 
     .story-list {
       display: grid;
-      gap: 14px;
+      gap: 0;
     }
 
     .story {
-      padding: 18px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 180px;
+      gap: 18px;
+      padding: 18px 0;
     }
 
     h2 {
       margin: 0 0 8px;
-      font-size: 28px;
-      line-height: 1.15;
+      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
+      font-size: 42px;
+      font-weight: 400;
+      line-height: 1.05;
       letter-spacing: 0;
     }
 
     h3 {
       margin: 0 0 8px;
-      font-size: 20px;
-      line-height: 1.2;
+      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 1.12;
       letter-spacing: 0;
     }
 
     a {
       color: var(--accent);
       overflow-wrap: anywhere;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
     }
 
     p {
@@ -163,8 +182,10 @@
 
     .story-meta {
       color: var(--muted);
-      font-family: "Segoe UI", "Noto Sans TC", sans-serif;
-      font-size: 13px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0;
+      text-transform: uppercase;
     }
 
     .highlights {
@@ -181,6 +202,7 @@
       margin-top: 14px;
       padding-left: 12px;
       color: var(--text);
+      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
     }
 
     .tags {
@@ -191,22 +213,23 @@
     }
 
     .tag {
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      padding: 2px 8px;
+      border: 1px solid var(--ink);
+      border-radius: 0;
+      padding: 3px 7px;
       color: var(--muted);
-      font-family: "Segoe UI", "Noto Sans TC", sans-serif;
       font-size: 12px;
+      text-transform: uppercase;
     }
 
     aside {
       border-left: 1px solid var(--line);
-      padding-left: 20px;
+      padding-left: 24px;
     }
 
     aside h2 {
-      font-size: 18px;
-      font-family: "Segoe UI", "Noto Sans TC", sans-serif;
+      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
+      font-size: 22px;
+      font-weight: 400;
     }
 
     .source-list {
@@ -217,8 +240,14 @@
     .source {
       padding-bottom: 12px;
       border-bottom: 1px solid var(--line);
-      font-family: "Segoe UI", "Noto Sans TC", sans-serif;
       font-size: 14px;
+    }
+
+    .empty-state {
+      background: var(--soft);
+      border-top: 2px solid var(--ink);
+      border-bottom: 1px solid var(--line);
+      padding: 24px 0;
     }
 
     .source strong {
@@ -238,7 +267,7 @@
       }
 
       h1 {
-        font-size: 36px;
+        font-size: 42px;
       }
 
       .meta {
@@ -251,6 +280,10 @@
         padding-left: 0;
         margin-top: 24px;
       }
+
+      .story {
+        display: block;
+      }
     }
   </style>
 </head>
@@ -258,14 +291,14 @@
   <main>
     <header>
       <div>
-        <p class="kicker">AI NewsPage test edition</p>
+        <p class="kicker">Daily reviewed AI brief</p>
         <h1>AI NewsPage</h1>
-        <p class="dek">A static GitHub Pages test site generated from a private source repository.</p>
+        <p class="dek">A source-backed morning briefing for AI models, agent skills, open-source projects, and developer workflows.</p>
       </div>
       <div class="meta">
         <div>3 public stories</div>
-        <div>1 public sources</div>
-        <div>Generated 2026-05-12T23:19:44Z</div>
+        <div>3 public sources</div>
+        <div>Generated 2026-05-13T12:45:30Z</div>
       </div>
     </header>
     <nav id="filters" class="toolbar" aria-label="News filters"></nav>
@@ -332,25 +365,27 @@
       const [lead, ...rest] = visible;
       newsEl.innerHTML = `
         <article class="lead-story">
-          <div class="story-meta">${escapeHtml(formatDate(lead.published_at))} / ${escapeHtml(lead.category)}</div>
+          <div class="story-meta">${escapeHtml(formatDate(lead.published_at))} / ${escapeHtml(categoryLabel(lead.category))}</div>
           ${renderImage(lead)}
           <h2>${escapeHtml(lead.title)}</h2>
           <p>${escapeHtml(lead.summary)}</p>
           ${renderHighlights(lead.highlights)}
           ${renderWhy(lead.why_it_matters)}
           ${renderTags(lead.tags)}
-          <p><a href="${escapeAttribute(lead.original_url || lead.source_url)}" rel="noopener noreferrer" target="_blank">閱讀原文：${escapeHtml(lead.source)}</a></p>
+          <p><a href="${escapeAttribute(lead.original_url || lead.source_url)}" rel="noopener noreferrer" target="_blank">Read original: ${escapeHtml(lead.source)}</a></p>
         </article>
         <div class="story-list">
           ${rest.map((item) => `
             <article class="story">
-              <div class="story-meta">${escapeHtml(formatDate(item.published_at))} / ${escapeHtml(item.category)}</div>
-              ${renderImage(item)}
-              <h3>${escapeHtml(item.title)}</h3>
-              <p>${escapeHtml(item.summary)}</p>
-              ${renderWhy(item.why_it_matters)}
-              ${renderTags(item.tags)}
-              <p><a href="${escapeAttribute(item.original_url || item.source_url)}" rel="noopener noreferrer" target="_blank">閱讀原文</a></p>
+              <div>
+                <div class="story-meta">${escapeHtml(formatDate(item.published_at))} / ${escapeHtml(categoryLabel(item.category))}</div>
+                <h3>${escapeHtml(item.title)}</h3>
+                <p>${escapeHtml(item.summary)}</p>
+                ${renderWhy(item.why_it_matters)}
+                ${renderTags(item.tags)}
+                <p><a href="${escapeAttribute(item.original_url || item.source_url)}" rel="noopener noreferrer" target="_blank">Read original</a></p>
+              </div>
+              <div class="story-media">${renderImage(item)}</div>
             </article>
           `).join("")}
         </div>
@@ -394,6 +429,19 @@
         month: "short",
         day: "numeric"
       }).format(date);
+    }
+
+    function categoryLabel(value) {
+      return ({
+        "hot-topics": "Hot AI Topics",
+        "agent-skills": "Agent Skills",
+        "open-source-ai": "Open Source AI",
+        "ai-deals": "AI Deals",
+        "new-models": "New Models",
+        "AI agents": "Agent Skills",
+        "Models": "New Models",
+        "Media": "AI Media"
+      })[value] || value || "AI";
     }
 
     function escapeHtml(value) {
