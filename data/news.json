@@ -1,75 +1,419 @@
-﻿[
-    {
-        "id":  "2026-05-12-n8n-io-n8n",
-        "title":  "n8n brings AI-native workflow automation back into focus",
-        "title_original":  "n8n-io/n8n",
-        "source":  "GitHub AI Agent Repositories",
-        "source_url":  "https://github.com",
-        "original_url":  "https://github.com/n8n-io/n8n",
-        "published_at":  "2026-05-12T17:10:12Z",
-        "category":  "agent-skills",
-        "summary":  "n8n is a workflow automation platform with native AI capabilities, visual building, custom code, self-hosting, cloud hosting, and hundreds of integrations.",
-        "highlights":  [
-                           "Useful for connecting AI agents with real business workflows.",
-                           "Supports visual workflow building and custom code paths.",
-                           "Can be self-hosted, which matters for private automation."
-                       ],
-        "why_it_matters":  "Agent workflows become more useful when they can trigger reliable tools, route approvals, and connect to existing systems. n8n is one of the practical bridges between AI ideas and repeatable operations.",
-        "tags":  [
-                     "agent-skills",
-                     "workflow",
-                     "automation",
-                     "typescript"
-                 ],
-        "image_url":  "https://avatars.githubusercontent.com/u/45487711?v=4",
-        "public_notes":  "Reviewed daily crawler item. Original link preserved."
-    },
-    {
-        "id":  "2026-05-12-autogpt",
-        "title":  "AutoGPT remains a reference point for autonomous agent tooling",
-        "title_original":  "Significant-Gravitas/AutoGPT",
-        "source":  "GitHub AI Agent Repositories",
-        "source_url":  "https://github.com",
-        "original_url":  "https://github.com/Significant-Gravitas/AutoGPT",
-        "published_at":  "2026-05-12T17:09:09Z",
-        "category":  "agent-skills",
-        "summary":  "AutoGPT is an open-source agent project focused on making AI agents easier to use, build on, and extend.",
-        "highlights":  [
-                           "Still a recognizable open-source reference for agent experiments.",
-                           "Useful as a signal for how agent frameworks package autonomous workflows.",
-                           "Best treated as a project to evaluate, not as a finished product claim."
-                       ],
-        "why_it_matters":  "Many newer agent tools still borrow concepts from early AutoGPT-style workflows: task loops, tool use, planning, and human-visible automation traces.",
-        "tags":  [
-                     "agent-skills",
-                     "open-source",
-                     "automation"
-                 ],
-        "image_url":  "https://avatars.githubusercontent.com/u/106969341?v=4",
-        "public_notes":  "Reviewed daily crawler item. Original link preserved."
-    },
-    {
-        "id":  "2026-05-12-langflow-ai-langflow",
-        "title":  "Langflow keeps visual agent-building accessible",
-        "title_original":  "langflow-ai/langflow",
-        "source":  "GitHub AI Agent Repositories",
-        "source_url":  "https://github.com",
-        "original_url":  "https://github.com/langflow-ai/langflow",
-        "published_at":  "2026-05-12T16:48:49Z",
-        "category":  "agent-skills",
-        "summary":  "Langflow is a visual tool for building and deploying AI-powered agents and workflows.",
-        "highlights":  [
-                           "Good candidate for prototyping agent chains without writing every step by hand.",
-                           "Makes workflow structure visible, which helps review and debugging.",
-                           "Useful to compare against code-first agent frameworks."
-                       ],
-        "why_it_matters":  "Visual agent builders are becoming a serious category because teams need to inspect, edit, and explain agent flows before trusting them in production.",
-        "tags":  [
-                     "agent-skills",
-                     "workflow",
-                     "python"
-                 ],
-        "image_url":  "https://avatars.githubusercontent.com/u/85702467?v=4",
-        "public_notes":  "Reviewed daily crawler item. Original link preserved."
-    }
+[
+  {
+    "id": "2026-05-13-deepseek-r1",
+    "title": "DeepSeek-R1 開源推理模型突破",
+    "title_original": "deepseek-ai/DeepSeek-R1",
+    "source": "Hugging Face Trending Models",
+    "source_url": "https://huggingface.co",
+    "original_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+    "published_at": "2026-05-13T13:48:47.788788+00:00",
+    "category": "open-source-ai",
+    "summary": "DeepSeek-R1 為中國深度求索公司開源的大型推理模型，採用 DeepSeek-V3 架構，支援 Transformers 格式。擁有超過 13000 個喜歡與 380 萬次下載，引發開源社群熱議。",
+    "highlights": [
+      "採用 DeepSeek-V3 架構",
+      "MIT 開源授權，使用門檻低",
+      "支援 safetensors 安全格式",
+      "下載量突破 380 萬次"
+    ],
+    "why_it_matters": "DeepSeek-R1 為開源推理模型樹立新標竿，其高效能與開源特性將加速 AI 應用落地與研究創新。",
+    "tags": [
+      "open-source-ai",
+      "hf_models",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-13-flux-1-dev",
+    "title": "FLUX.1-dev 先進開源圖像生成模型",
+    "title_original": "black-forest-labs/FLUX.1-dev",
+    "source": "Hugging Face Trending Models",
+    "source_url": "https://huggingface.co",
+    "original_url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+    "published_at": "2026-05-13T13:48:47.788788+00:00",
+    "category": "open-source-ai",
+    "summary": "FLUX.1-dev 為 Black Forest Labs 開發的高品質文字生成圖像模型，支援 Diffusers 框架。具備出色的圖像品質與prompt理解能力，獲得超過 12000 個喜歡。",
+    "highlights": [
+      "Black Forest Labs 開發",
+      "支援 Diffusers 框架整合",
+      "文字生成圖像能力優異",
+      "超過 73 萬次下載"
+    ],
+    "why_it_matters": "FLUX.1-dev 以開源方式提供高品質圖像生成能力，將與 Midjourney 等商業方案競爭，推動生成式 AI 普及。",
+    "tags": [
+      "open-source-ai",
+      "hf_models",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-13-openhuman-ai-agent",
+    "title": "OpenHuman：本地優先的個人 AI Agent 框架，支援記憶樹與多元整合",
+    "title_original": "OpenHuman: local-first personal AI agent with memory tree and integrations",
+    "source": "Manual Seed Links",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tinyhumansai/openhuman",
+    "published_at": "2026-05-13T13:48:43.854623+00:00",
+    "category": "open-source-ai",
+    "summary": "OpenHuman 是一個開源桌面端 Agent 開發框架，主打本地優先的隱私保護個人 AI 應用。核心功能包括記憶樹機制、本地化上下文處理、網頁搜尋與爬取、語音互動、模型路由及 token 壓縮技術。專案目前仍處於早期 beta 階段，部分功能尚未完全成熟，屬於新興專案而非成熟產品。",
+    "highlights": [
+      "支援本地優先架構，強調個人資料隱私不上雲",
+      "具備記憶樹（Memory Tree）機制，強化長期上下文理解",
+      "整合網頁搜尋、爬取、語音輸出等多元工具",
+      "支援模型路由，可動態切換不同 AI 模型",
+      "提供 token 壓縮功能以最佳化資源消耗"
+    ],
+    "why_it_matters": "在 AI 個人化需求與隱私意識同步提升的趨勢下，OpenHuman 提供了一個重視本地處理的 Agent 開發起點，適合對資料主權有高度需求的開發者關注其後續發展。",
+    "tags": [
+      "open-source-ai",
+      "manual_seed",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Manual watch item. Original link preserved; verify source strength before acting."
+  },
+  {
+    "id": "2026-05-13-minimax-m3-2026-5",
+    "title": "MiniMax M3 傳聞：瞄準辦公場景的多模態模型，預計 2026 年 5 月亮相",
+    "title_original": "MiniMax M3 reported as upcoming office-focused multimodal model",
+    "source": "Manual Seed Links",
+    "source_url": "https://www.chaobro.com",
+    "original_url": "https://www.chaobro.com/en/posts/minimax-m3-office-agent-preview-may-2026/",
+    "published_at": "2026-05-13T13:48:43.854623+00:00",
+    "category": "new-models",
+    "summary": "根據次級消息來源報導，MiniMax M3 模型預計於 2026 年 5 月發布，首波應用場景將聚焦於辦公室文書處理。據傳 M3 將支援文件、表格截圖等多模態輸入能力。然而目前 MiniMax 官方尚未發布任何 M3 相關公告頁面，此資訊應列為傳聞處理，待官方證實。",
+    "highlights": [
+      "預計 2026 年 5 月發布，時間點尚未獲官方確認",
+      "首波應用場景鎖定辦公文書處理情境",
+      "支援文件、表格截圖等多模態輸入（傳聞功能）",
+      "目前 MiniMax 官網尚無 M3 專屬頁面",
+      "建議搭配官方 MiniMax Token Plan 了解現有模型能力"
+    ],
+    "why_it_matters": "若 MiniMax M3 確實瞄準辦公場景並支援文件理解，該模型可能與 Microsoft Copilot、Notion AI 等產品形成直接競爭，值得持續追蹤其官方動態。",
+    "tags": [
+      "new-models",
+      "manual_seed",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Manual watch item. Original link preserved; verify source strength before acting."
+  },
+  {
+    "id": "2026-05-13-minimax-token-plan",
+    "title": "MiniMax Token Plan 揭露全光譜多模態模型接入方案",
+    "title_original": "MiniMax Token Plan documents full-spectrum multimodal access",
+    "source": "Manual Seed Links",
+    "source_url": "https://platform.minimax.io",
+    "original_url": "https://platform.minimax.io/docs/token-plan/intro",
+    "published_at": "2026-05-13T13:48:43.854623+00:00",
+    "category": "new-models",
+    "summary": "MiniMax 官方平台文件顯示，Token Plan 方案涵蓋文字、語音、視訊、音樂及圖像等五種模型類型。在 M2.7 模型上設有明確的請求配額限制，而非文字模型則採用獨立的每日配額制度。此官方文件可作為評估 MiniMax 目前多模態實際支援能力的主要參考依據。",
+    "highlights": [
+      "支援五大模型類型：文字、語音、視訊、音樂、圖像",
+      "M2.7 模型設有請求配額上限",
+      "非文字模型各自獨立計算每日配額",
+      "屬 MiniMax 官方平台文件，可信度高",
+      "可與 M3 傳聞搭配閱讀以掌握完整多模態藍圖"
+    ],
+    "why_it_matters": "MiniMax 作為中國主要 AI 模型提供商之一，其 Token Plan 反映出多模態服務的商業化成熟度，有助於評估其在企業級應用場景中的實用性。",
+    "tags": [
+      "new-models",
+      "manual_seed",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Manual seed reviewed by crawler. Original link preserved."
+  },
+  {
+    "id": "2026-05-13-aionui-24-7",
+    "title": "AionUi - 本地開源 24/7 代理協作工具",
+    "title_original": "iOfficeAI/AionUi",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/iOfficeAI/AionUi",
+    "published_at": "2026-05-13T13:47:09Z",
+    "category": "agent-skills",
+    "summary": "AionUi 是一款完全免費、本地運行的開源代理協作應用，專為 OpenClaw、Claude Code、Codex 等 20 多款 CLI 代理工具提供 24 小時不中斷的工作環境。",
+    "highlights": [
+      "完全本地運行，保護隱私與數據安全",
+      "開源免費，降低使用門檻",
+      "支援 20+ 主流 CLI 代理工具",
+      "24 小時持續運作強化工作效率",
+      "支援高度自定義助手配置"
+    ],
+    "why_it_matters": "讓開發者能在一個統一介面中管理多個 AI 代理，尤其適合需要同時調度多種工具的複雜工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/145246968?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-13-sglang-llm",
+    "title": "SGLang - 高效能 LLM 服務框架",
+    "title_original": "sgl-project/sglang",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sgl-project/sglang",
+    "published_at": "2026-05-13T13:45:52Z",
+    "category": "open-source-ai",
+    "summary": "SGLang 專為大型語言模型和多模態模型設計的高效能推論框架，透過優化調度與批量處理顯著提升吞吐量，降低延遲與硬體成本。",
+    "highlights": [
+      "優化推論吞吐量與延遲",
+      "支援大語言模型與多模態場景",
+      "批量處理與動態调度機制",
+      "簡化模型部署與服務流程",
+      "Python 友好，易於整合"
+    ],
+    "why_it_matters": "在大模型落地應用中，推論效率直接決定成本與體驗，SGLang 提供開源方案協助企業以更低資源實現高效服務。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/147780389?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-13-hugging-face-transformers",
+    "title": "Hugging Face Transformers - 先進模型定義框架",
+    "title_original": "huggingface/transformers",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/huggingface/transformers",
+    "published_at": "2026-05-13T13:38:37Z",
+    "category": "new-models",
+    "summary": "Transformers 是 Hugging Face 旗下最熱門的開源模型定義框架，涵蓋文本、視覺、音頻及多模態任務，支援從訓練到推論的完整生命週期管理。",
+    "highlights": [
+      "支援文字、視覺、音頻等多元任務",
+      "涵蓋數千個預訓練模型資源",
+      "提供統一 API 簡化開發流程",
+      "支援 PyTorch、TensorFlow、JAX",
+      "持續更新領先的模型架構"
+    ],
+    "why_it_matters": "作為機器學習領域最基礎的工具之一，Transformers 的更新直接影響全球數百萬開發者的模型選擇與部署策略。",
+    "tags": [
+      "new-models",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-13-zeroclaw-ai",
+    "title": "ZeroClaw - 輕量級自主 AI 代理基礎設施",
+    "title_original": "zeroclaw-labs/zeroclaw",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/zeroclaw-labs/zeroclaw",
+    "published_at": "2026-05-13T13:35:15Z",
+    "category": "open-source-ai",
+    "summary": "ZeroClaw 是用 Rust 開發的高速、輕量級自主 AI 代理基礎設施，主打任意作業系統與平台的靈活部署能力，並支援自由切換底層模型。",
+    "highlights": [
+      "Rust 語言確保高效能與記憶體安全",
+      "支援任意 OS 與平台部署",
+      "完全自主代理，減少人工干預",
+      "模型可自由替換提升靈活性",
+      "輕量化設計適配邊緣設備"
+    ],
+    "why_it_matters": "Rust 帶來的安全高效與跨平台特性，使其成為部署 AI 代理到各類環境的理想選擇，尤其適合追求效能與可控性的開發團隊。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/261820148?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-13-cherry-studio-ai",
+    "title": "Cherry Studio - AI 生產力工作室",
+    "title_original": "CherryHQ/cherry-studio",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/CherryHQ/cherry-studio",
+    "published_at": "2026-05-13T13:26:38Z",
+    "category": "open-source-ai",
+    "summary": "Cherry Studio 是一款整合智能對話、自主代理與 300 多個助手於一體的 AI 生產力平台，支援統一接入多個前沿大語言模型，提供一站式創作與協作體驗。",
+    "highlights": [
+      "智能對話功能，整合聊天與創意工具",
+      "支援自主代理自動化任務處理",
+      "內建 300+ 預設助手涵蓋多元場景",
+      "統一介面接入多個主流 LLM",
+      "開源免費，TypeScript 開發"
+    ],
+    "why_it_matters": "以一站式平台簡化 AI 工具使用，降低學習門檻同時提升團隊協作效率，對個人開發者和企業用戶皆具吸引力。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/187777663?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-13-lobehub-lobehub-agent",
+    "title": "lobehub/lobehub：打造協作式 Agent 團隊的下一代工作空間",
+    "title_original": "lobehub/lobehub",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/lobehub/lobehub",
+    "published_at": "2026-05-13T12:57:53Z",
+    "category": "agent-skills",
+    "summary": "lobehub 定位為整合工作與生活的 AI Agent 協作平台，致力於將 Agent 從單一工具進化為可共同成長的團隊成員。核心願景包括支援多 Agent 協作、輕鬆設計 Agent 團隊，以及將 Agent 確立為工作互動的基本單位。專案星標數近 7.7 萬，採用 TypeScript 開發。",
+    "highlights": [
+      "專案星標數約 7.7 萬，採用 TypeScript 架構",
+      "強調 Agent 之間的協作而非獨立運作",
+      "提供直覺的 Agent 團隊設計工具",
+      "將 Agent 視為工作互動的最小單位",
+      "整合發現、構建與協作三大核心功能"
+    ],
+    "why_it_matters": "lobehub 提出的多 Agent 協作概念反映 AI 應用從單一代理走向複雜系統的趨勢，其「Agent 為單位」的工作模式可能成為未來人機協作的新範式。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/131470832?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-13-langgenius-dify-14-agent",
+    "title": "langgenius/dify：星標逾 14 萬的生產就緒型 Agent 工作流平台",
+    "title_original": "langgenius/dify",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/langgenius/dify",
+    "published_at": "2026-05-13T12:24:35Z",
+    "category": "agent-skills",
+    "summary": "dify 是一款開源 Agent 工作流開發平台，累積超過 14 萬顆星標，已具備生產環境部署能力。平台提供視覺化工作流設計、豐富的 API 整合、支援多種大型語言模型，並強調快速上手與高度客製化的平衡。目前已被許多企業採用於建構內部 AI 助理與自動化流程。",
+    "highlights": [
+      "GitHub 星標數超過 14 萬，社群高度關注",
+      "提供視覺化工作流設計，降低開發門檻",
+      "支援多模型接入，包括 OpenAI、Anthropic 等",
+      "具備 API 優先架構，適合系統整合",
+      "已有實際生產環境部署案例"
+    ],
+    "why_it_matters": "dify 的高星標數與生產就緒特性，反映市場對低門檻 Agent 開發工具的強烈需求，是當前建構企業 AI 工作流的主流選擇之一。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/127165244?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-13-cowagent-ai",
+    "title": "CowAgent：支援多平台的超級 AI 助理",
+    "title_original": "zhayujie/CowAgent",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/zhayujie/CowAgent",
+    "published_at": "2026-05-13T08:15:33Z",
+    "category": "agent-skills",
+    "summary": "CowAgent 基於大模型的超級 AI 助理，支援主動思考、任務規劃、作業系統存取及長期記憶。支援微信、飛書、釘釘等十餘種平台接入，可選 DeepSeek、OpenAI、Claude 等模型，星標超過 44,000。",
+    "highlights": [
+      "支援主動思考與任務規劃能力",
+      "支援微信、飛書、釘釘、企業微信、QQ、公眾號、網頁等十餘種平台",
+      "支援 DeepSeek、OpenAI、Claude、Gemini、MiniMax、Qwen、GLM 等多種模型",
+      "具備長期記憶與知識庫功能",
+      "可處理文字、語音、圖片、檔案等多模態輸入"
+    ],
+    "why_it_matters": "CowAgent 整合多平台接入與多模型支援，大幅降低個人及企業部署 AI 助理的門檻，具備實際應用價值。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/26161723?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-12-n8n-io-n8n",
+    "title": "n8n brings AI-native workflow automation back into focus",
+    "title_original": "n8n-io/n8n",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/n8n-io/n8n",
+    "published_at": "2026-05-12T17:10:12Z",
+    "category": "agent-skills",
+    "summary": "n8n is a workflow automation platform with native AI capabilities, visual building, custom code, self-hosting, cloud hosting, and hundreds of integrations.",
+    "highlights": [
+      "Useful for connecting AI agents with real business workflows.",
+      "Supports visual workflow building and custom code paths.",
+      "Can be self-hosted, which matters for private automation."
+    ],
+    "why_it_matters": "Agent workflows become more useful when they can trigger reliable tools, route approvals, and connect to existing systems. n8n is one of the practical bridges between AI ideas and repeatable operations.",
+    "tags": [
+      "agent-skills",
+      "workflow",
+      "automation",
+      "typescript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/45487711?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-12-autogpt",
+    "title": "AutoGPT remains a reference point for autonomous agent tooling",
+    "title_original": "Significant-Gravitas/AutoGPT",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "published_at": "2026-05-12T17:09:09Z",
+    "category": "agent-skills",
+    "summary": "AutoGPT is an open-source agent project focused on making AI agents easier to use, build on, and extend.",
+    "highlights": [
+      "Still a recognizable open-source reference for agent experiments.",
+      "Useful as a signal for how agent frameworks package autonomous workflows.",
+      "Best treated as a project to evaluate, not as a finished product claim."
+    ],
+    "why_it_matters": "Many newer agent tools still borrow concepts from early AutoGPT-style workflows: task loops, tool use, planning, and human-visible automation traces.",
+    "tags": [
+      "agent-skills",
+      "open-source",
+      "automation"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/106969341?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-12-langflow-ai-langflow",
+    "title": "Langflow keeps visual agent-building accessible",
+    "title_original": "langflow-ai/langflow",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/langflow-ai/langflow",
+    "published_at": "2026-05-12T16:48:49Z",
+    "category": "agent-skills",
+    "summary": "Langflow is a visual tool for building and deploying AI-powered agents and workflows.",
+    "highlights": [
+      "Good candidate for prototyping agent chains without writing every step by hand.",
+      "Makes workflow structure visible, which helps review and debugging.",
+      "Useful to compare against code-first agent frameworks."
+    ],
+    "why_it_matters": "Visual agent builders are becoming a serious category because teams need to inspect, edit, and explain agent flows before trusting them in production.",
+    "tags": [
+      "agent-skills",
+      "workflow",
+      "python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/85702467?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  }
 ]

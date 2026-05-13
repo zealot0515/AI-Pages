@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="zh-Hant">
 <head>
   <meta charset="utf-8">
@@ -205,6 +205,12 @@
       font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
     }
 
+    .public-note {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 12px;
+    }
+
     .tags {
       display: flex;
       flex-wrap: wrap;
@@ -296,9 +302,9 @@
         <p class="dek">A source-backed morning briefing for AI models, agent skills, open-source projects, and developer workflows.</p>
       </div>
       <div class="meta">
-        <div>3 public stories</div>
+        <div>16 public stories</div>
         <div>3 public sources</div>
-        <div>Generated 2026-05-13T12:44:50Z</div>
+        <div>Generated 2026-05-13T13:56:06Z</div>
       </div>
     </header>
     <nav id="filters" class="toolbar" aria-label="News filters"></nav>
@@ -371,6 +377,7 @@
           <p>${escapeHtml(lead.summary)}</p>
           ${renderHighlights(lead.highlights)}
           ${renderWhy(lead.why_it_matters)}
+          ${renderPublicNote(lead.public_notes)}
           ${renderTags(lead.tags)}
           <p><a href="${escapeAttribute(lead.original_url || lead.source_url)}" rel="noopener noreferrer" target="_blank">Read original: ${escapeHtml(lead.source)}</a></p>
         </article>
@@ -381,9 +388,11 @@
                 <div class="story-meta">${escapeHtml(formatDate(item.published_at))} / ${escapeHtml(categoryLabel(item.category))}</div>
                 <h3>${escapeHtml(item.title)}</h3>
                 <p>${escapeHtml(item.summary)}</p>
+                ${renderHighlights(item.highlights)}
                 ${renderWhy(item.why_it_matters)}
+                ${renderPublicNote(item.public_notes)}
                 ${renderTags(item.tags)}
-                <p><a href="${escapeAttribute(item.original_url || item.source_url)}" rel="noopener noreferrer" target="_blank">Read original</a></p>
+                <p><a href="${escapeAttribute(item.original_url || item.source_url)}" rel="noopener noreferrer" target="_blank">Read original: ${escapeHtml(item.source)}</a></p>
               </div>
               <div class="story-media">${renderImage(item)}</div>
             </article>
@@ -409,6 +418,10 @@
 
     function renderWhy(value) {
       return value ? `<p class="why">${escapeHtml(value)}</p>` : "";
+    }
+
+    function renderPublicNote(value) {
+      return value ? `<p class="public-note">${escapeHtml(value)}</p>` : "";
     }
 
     function renderImage(item) {
