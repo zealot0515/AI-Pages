@@ -1,50 +1,50 @@
 [
-  {
-    "id": "hacker-news-ai-search",
-    "name": "Hacker News AI Search",
-    "url": "https://hn.algolia.com/",
-    "category": "hot-topics",
-    "language": "en",
-    "region": "global",
-    "purpose": "Find high-signal AI, LLM, agent, and developer tooling discussions.",
-    "summary": "HN search is used as a public discussion source for AI trend discovery.",
-    "tags": [
-      "hn",
-      "discussion",
-      "ai"
-    ],
-    "public_notes": "Used for public AI trend discovery."
-  },
-  {
-    "id": "github-ai-search",
-    "name": "GitHub AI Project Search",
-    "url": "https://github.com/search?q=ai+agent+mcp+claude-code+codex&type=repositories",
-    "category": "open-source-ai",
-    "language": "en",
-    "region": "global",
-    "purpose": "Track popular open-source AI projects, agent frameworks, and workflow tools.",
-    "summary": "GitHub repository search provides real project links and public project metadata.",
-    "tags": [
-      "github",
-      "open-source",
-      "agent"
-    ],
-    "public_notes": "Used for open-source AI and agent workflow discovery."
-  },
-  {
-    "id": "hugging-face-models",
-    "name": "Hugging Face Models",
-    "url": "https://huggingface.co/models",
-    "category": "new-models",
-    "language": "en",
-    "region": "global",
-    "purpose": "Track model releases and popular open model pages.",
-    "summary": "Hugging Face provides model cards, metadata, and original model pages.",
-    "tags": [
-      "hugging-face",
-      "models",
-      "open-models"
-    ],
-    "public_notes": "Used for model discovery and comparison leads."
-  }
+    {
+        "id":  "hacker-news-ai-search",
+        "name":  "Hacker News AI Search",
+        "url":  "https://hn.algolia.com/",
+        "category":  "hot-topics",
+        "language":  "en",
+        "region":  "global",
+        "purpose":  "Find high-signal AI, LLM, agent, and developer tooling discussions.",
+        "summary":  "HN search is used as a public discussion source for AI trend discovery.",
+        "tags":  [
+                     "hn",
+                     "discussion",
+                     "ai"
+                 ],
+        "public_notes":  "Used for public AI trend discovery."
+    },
+    {
+        "id":  "github-ai-search",
+        "name":  "GitHub AI Project Search",
+        "url":  "https://github.com/search?q=ai+agent+mcp+claude-code+codex\u0026type=repositories",
+        "category":  "open-source-ai",
+        "language":  "en",
+        "region":  "global",
+        "purpose":  "Track popular open-source AI projects, agent frameworks, and workflow tools.",
+        "summary":  "GitHub repository search provides real project links and public project metadata.",
+        "tags":  [
+                     "github",
+                     "open-source",
+                     "agent"
+                 ],
+        "public_notes":  "Used for open-source AI and agent workflow discovery."
+    },
+    {
+        "id":  "hugging-face-models",
+        "name":  "Hugging Face Models",
+        "url":  "https://huggingface.co/models",
+        "category":  "new-models",
+        "language":  "en",
+        "region":  "global",
+        "purpose":  "Track model releases and popular open model pages.",
+        "summary":  "Hugging Face provides model cards, metadata, and original model pages.",
+        "tags":  [
+                     "hugging-face",
+                     "models",
+                     "open-models"
+                 ],
+        "public_notes":  "Used for model discovery and comparison leads."
+    }
 ]
