@@ -303,8 +303,8 @@
       </div>
       <div class="meta">
         <div>37 public stories</div>
-        <div>3 public sources</div>
-        <div>Generated 2026-05-13T23:05:57Z</div>
+        <div>5 public sources</div>
+        <div>Generated 2026-05-14T14:46:54Z</div>
       </div>
     </header>
     <nav id="filters" class="toolbar" aria-label="News filters"></nav>
@@ -346,7 +346,7 @@
     function renderFilters(news) {
       const categories = ["All", ...new Set(news.map((item) => item.category).filter(Boolean))];
       filtersEl.innerHTML = categories.map((category) => (
-        `<button type="button" aria-pressed="${category === activeCategory}" data-category="${escapeAttribute(category)}">${escapeHtml(category)}</button>`
+        `<button type="button" aria-pressed="${category === activeCategory}" data-category="${escapeAttribute(category)}">${escapeHtml(categoryLabel(category))}</button>`
       )).join("");
 
       filtersEl.querySelectorAll("button").forEach((button) => {
@@ -446,13 +446,14 @@
 
     function categoryLabel(value) {
       return ({
-        "hot-topics": "Hot AI Topics",
+        "All": "全部",
+        "hot-topics": "熱門 AI 話題",
         "agent-skills": "Agent Skills",
-        "open-source-ai": "Open Source AI",
-        "ai-deals": "AI Deals",
-        "new-models": "New Models",
+        "open-source-ai": "熱門開源 AI 專案",
+        "ai-deals": "優惠專區",
+        "new-models": "新模型新聞與比較",
         "AI agents": "Agent Skills",
-        "Models": "New Models",
+        "Models": "新模型新聞與比較",
         "Media": "AI Media"
       })[value] || value || "AI";
     }

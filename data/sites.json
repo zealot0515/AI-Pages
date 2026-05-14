@@ -46,5 +46,38 @@
       "open-models"
     ],
     "public_notes": "Used for model discovery and comparison leads."
+  },
+  {
+    "id": "hacker-news-ai-deals",
+    "name": "Hacker News AI Deals Search",
+    "url": "https://hn.algolia.com/",
+    "category": "ai-deals",
+    "language": "en",
+    "region": "global",
+    "purpose": "Find public discussions about AI subscription discounts, trials, student credits, and pricing changes.",
+    "summary": "HN search is used as a deal-signal source for AI subscription and credit offers.",
+    "tags": [
+      "hn",
+      "ai-deals",
+      "subscriptions"
+    ],
+    "public_notes": "Used for AI deal and subscription discount discovery."
+  },
+  {
+    "id": "google-news-cn-ai-deals",
+    "name": "Google News 中文 AI 优惠搜索",
+    "url": "https://news.google.com/",
+    "category": "ai-deals",
+    "language": "zh-CN",
+    "region": "cn",
+    "purpose": "Track Chinese AI tool, subscription, free-trial, coupon, and 薅羊毛 deal leads.",
+    "summary": "Google News Chinese search feeds provide public AI subscription discount and 薅羊毛 news leads that still require manual review because offers can expire or include risky channels.",
+    "tags": [
+      "google-news",
+      "ai-deals",
+      "china",
+      "discounts"
+    ],
+    "public_notes": "Used for Chinese AI deal discovery and review-mode discount leads."
   }
 ]
