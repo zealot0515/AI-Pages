@@ -583,6 +583,31 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-05-14-openai-windows-codex",
+    "title": "OpenAI 如何在 Windows 上打造安全沙盒以支援 Codex",
+    "title_original": "Building a safe, effective sandbox to enable Codex on Windows",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/building-codex-windows-sandbox",
+    "published_at": "2026-05-13T11:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布技術文章，詳細說明如何為 Codex 在 Windows 環境中建構安全的沙盒隔離環境。透過嚴格控管檔案存取權限與網路連線限制，確保 AI 程式碼代理在安全邊界內執行，兼顧效率與系統防護。這項設計對於企業級 AI 開發工具的部署至關重要。",
+    "highlights": [
+      "採用多層次隔離技術將 Codex 與底層系統分離",
+      "嚴格限制檔案系統存取範圍，防止未授權操作",
+      "網路連線受到精細控制，避免資料外洩風險",
+      "沙盒設計平衡安全性與程式碼執行效率"
+    ],
+    "why_it_matters": "安全沙盒是企業大規模部署 AI 程式碼工具的基礎設施保障，能讓開發者在享受 AI 輔助便利的同時，確保系統安全與企業資料不受威脅。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-05-13-xinference-api-llm",
     "title": "Xinference：統一 API 的開源 LLM 推論平台",
     "title_original": "xorbitsai/inference",
@@ -718,6 +743,31 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-05-14-openai-tanstack-npm",
+    "title": "OpenAI 回應 TanStack npm 供應鏈攻擊事件",
+    "title_original": "Our response to the TanStack npm supply chain attack",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
+    "published_at": "2026-05-13T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 公布針對 TanStack「Mini Shai-Hulud」供應鏈攻擊事件的回應與補救措施。說明已採取的系統安全強化措施與憑證保護機制，並提醒 macOS 用戶須在 2026 年 6 月 12 日前更新 OpenAI 應用程式。此事件突顯軟體供應鏈安全的嚴峻挑戰。",
+    "highlights": [
+      "攻擊者透過 TanStack npm 套件植入惡意程式碼",
+      "OpenAI 已啟動憑證重新簽發與系統強化程序",
+      "macOS 用戶需在期限前完成應用程式更新",
+      "公司正加強對軟體供應鏈威脅的防禦能力"
+    ],
+    "why_it_matters": "供應鏈攻擊已成為近年最嚴重的資安威脅之一，OpenAI 的回應與防護措施為業界提供了重要的安全實踐參考。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-05-12-n8n-io-n8n",
     "title": "n8n brings AI-native workflow automation back into focus",
     "title_original": "n8n-io/n8n",
@@ -791,6 +841,81 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-05-14-codex",
+    "title": "金融團隊如何使用 Codex 提升工作效率",
+    "title_original": "How finance teams use Codex",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/academy/how-finance-teams-use-codex",
+    "published_at": "2026-05-12T15:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "OpenAI 分享金融專業人員如何運用 Codex 自動化日常任務，包括建立月度營收報告、編製財務報告套裝、分析差異橋樑、執行模型檢查，以及構建規劃情境模型。從實際工作輸入快速生成所需文件，大幅縮短作業時間。",
+    "highlights": [
+      "自動生成 MBR（月度營收報告）文件",
+      "快速編製差異分析與橋樑報告",
+      "協助建立財務模型檢查機制",
+      "從原始資料快速生成規劃情境"
+    ],
+    "why_it_matters": "AI 代理正在重塑金融工作流程程，讓分析師能專注於高價值的策略分析，而非耗時的資料整理與報告製作。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-14-autoscout24-ai",
+    "title": "AutoScout24 如何透過 AI 工作流程程擴展工程效能",
+    "title_original": "AutoScout24 scales engineering with AI-powered workflows",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/autoscout24",
+    "published_at": "2026-05-12T00:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "歐洲汽車交易平台 AutoScout24 Group 分享如何採用 Codex 與 ChatGPT 加速開發週期、改善程式碼品質並擴大 AI 應用範圍。透過系統性整合 AI 工具，團隊在保持品質標準的同時顯著提升交付速度，為傳統產業數位轉型提供範本。",
+    "highlights": [
+      "Codex 協助提升程式碼開發速度與品質",
+      "ChatGPT 用於文件撰寫與技術溝通",
+      "系統化推動全團隊 AI 工具採用",
+      "兼顧開發效率提升與品質標準維護"
+    ],
+    "why_it_matters": "AutoScout24 的成功案例證明 AI 工具能有效協助中型科技團隊在競爭激烈的市場中保持技術領先優勢。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-14-parameter-golf-ai",
+    "title": "Parameter Golf 競賽揭示 AI 輔助研究的啟示",
+    "title_original": "What Parameter Golf taught us about AI-assisted research",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/what-parameter-golf-taught-us",
+    "published_at": "2026-05-12T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 舉辦的 Parameter Golf 挑戰賽吸引超過 1,000 名參與者提交 2,000 多件作品，探討在嚴格約束條件下運用 AI 輔助機器學習研究、程式碼代理、模型量化及創新架構設計的可能性。這項實驗為理解人機協作研究模式提供重要數據。",
+    "highlights": [
+      "超過千人參與的開源 AI 研究競賽",
+      "探索程式碼代理在模型設計中的應用",
+      "研究量化技術與模型效率優化",
+      "累積大量人機協作研究方法論數據"
+    ],
+    "why_it_matters": "這類社群實驗有助於識別 AI 輔助研究的有效範式與當前限制，為未來研究工具的改進方向提供實證基礎。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-05-13-vllm-mlx-apple-silicon",
     "title": "vLLM-MLX Apple Silicon 推論伺服器",
     "title_original": "waybarrios/vllm-mlx",
@@ -815,6 +940,81 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/6794828?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-14-openai",
+    "title": "OpenAI校園網絡計畫啟動募集學生社團加入",
+    "title_original": "OpenAI Campus Network: Student club interest form",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+    "published_at": "2026-05-11T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI宣布推出Campus Network計畫，歡迎全球學生社團報名加入，提供AI工具資源、活動舉辦支援與跨校社群連結，協助學生建立AI驅動的校園社群。",
+    "highlights": [
+      "開放全球學生社團申請加入",
+      "提供AI工具與資源支援",
+      "協助舉辦相關活動",
+      "促進跨校交流與連結"
+    ],
+    "why_it_matters": "此計畫有助於在年輕世代中推廣AI應用，為未來AI人才培育與社區建設奠定基礎，對AI教育普及具有長期正面影響。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-14-ai",
+    "title": "企業AI規模化部署實踐指南",
+    "title_original": "How enterprises are scaling AI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+    "published_at": "2026-05-11T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI Business發布企業AI規模化指南，闡述從早期實驗走向規模化應用的關鍵要素，包括建立信任、完善治理、優化工作流程程設計與提升輸出品質等核心原則。",
+    "highlights": [
+      "強調信任與治理機制建立",
+      "工作流程程設計優化為關鍵步驟",
+      "品質一致性是規模化基礎",
+      "需從實驗階段逐步過渡至系統性部署"
+    ],
+    "why_it_matters": "為企業提供明確的AI落地路徑參考，降低部署失敗風險，有助於加速AI在商業環境中的實際應用與價值創造。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-14-openai-deployco-ai",
+    "title": "OpenAI成立DeployCo子公司協助企業部署AI",
+    "title_original": "OpenAI launches DeployCo to help businesses build around intelligence",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/openai-launches-the-deployment-company",
+    "published_at": "2026-05-11T06:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI宣布成立名為DeployCo的新企業部署公司，專門協助組織將前沿AI技術導入實際營運，期望將AI轉化為可衡量的商業價值與業務影響。",
+    "highlights": [
+      "DeployCo為OpenAI新創子公司",
+      "專注協助企業AI實際部署",
+      "協助轉化為可測量商業影響",
+      "填補技術與應用之間的落地缺口"
+    ],
+    "why_it_matters": "此舉顯示OpenAI正積極拓展企業服務市場，透過專業部署服務協助客戶充分發揮AI潛力，對企業AI採用生態具有推動作用。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
