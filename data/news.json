@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-05-15-home-assistant",
+    "title": "Home Assistant 自然語言自動化代理開源組件",
+    "title_original": "sbenodiz/ai_agent_ha",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sbenodiz/ai_agent_ha",
+    "published_at": "2026-05-15T19:17:22Z",
+    "category": "agent-skills",
+    "summary": "一款專為 Home Assistant 打造的 AI 代理組件，可根據自然語言查詢自動生成智慧家庭自動化腳本。該代理連接 Home Assistant 實體，透過 OpenAI 或 Llama API 將用戶需求翻譯為可執行的家庭操作指令。",
+    "highlights": [
+      "支援自然語言驅動的家庭自動化生成",
+      "整合 OpenAI 與 Llama API 雙平台",
+      "直接讀取並操作 Home Assistant 所有實體",
+      "可將用戶請求轉換為有效自動化腳本",
+      "以 Python 開發，GitHub 獲得 122 顆星"
+    ],
+    "why_it_matters": "將自然語言處理能力融入智慧家庭場景，降低了一般用戶設定自動化規則的技術門檻，是代理技能落地日常生活的實用範例。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1709324?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-05-13-stability-ai-stable-diffusion-3-medium",
     "title": "Stability AI Stable Diffusion 3 Medium 模型",
     "title_original": "stabilityai/stable-diffusion-3-medium",
@@ -866,31 +893,6 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
-    "id": "2026-05-14-autoscout24-ai",
-    "title": "AutoScout24 如何透過 AI 工作流程程擴展工程效能",
-    "title_original": "AutoScout24 scales engineering with AI-powered workflows",
-    "source": "OpenAI Blog",
-    "source_url": "https://openai.com/news/rss.xml",
-    "original_url": "https://openai.com/index/autoscout24",
-    "published_at": "2026-05-12T00:00:00+00:00",
-    "category": "agent-skills",
-    "summary": "歐洲汽車交易平台 AutoScout24 Group 分享如何採用 Codex 與 ChatGPT 加速開發週期、改善程式碼品質並擴大 AI 應用範圍。透過系統性整合 AI 工具，團隊在保持品質標準的同時顯著提升交付速度，為傳統產業數位轉型提供範本。",
-    "highlights": [
-      "Codex 協助提升程式碼開發速度與品質",
-      "ChatGPT 用於文件撰寫與技術溝通",
-      "系統化推動全團隊 AI 工具採用",
-      "兼顧開發效率提升與品質標準維護"
-    ],
-    "why_it_matters": "AutoScout24 的成功案例證明 AI 工具能有效協助中型科技團隊在競爭激烈的市場中保持技術領先優勢。",
-    "tags": [
-      "agent-skills",
-      "rss",
-      "en"
-    ],
-    "image_url": "",
-    "public_notes": "Reviewed daily crawler item. Original link preserved."
-  },
-  {
     "id": "2026-05-14-parameter-golf-ai",
     "title": "Parameter Golf 競賽揭示 AI 輔助研究的啟示",
     "title_original": "What Parameter Golf taught us about AI-assisted research",
@@ -909,6 +911,31 @@
     "why_it_matters": "這類社群實驗有助於識別 AI 輔助研究的有效範式與當前限制，為未來研究工具的改進方向提供實證基礎。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-14-autoscout24-ai",
+    "title": "AutoScout24 如何透過 AI 工作流程程擴展工程效能",
+    "title_original": "AutoScout24 scales engineering with AI-powered workflows",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/autoscout24",
+    "published_at": "2026-05-12T00:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "歐洲汽車交易平台 AutoScout24 Group 分享如何採用 Codex 與 ChatGPT 加速開發週期、改善程式碼品質並擴大 AI 應用範圍。透過系統性整合 AI 工具，團隊在保持品質標準的同時顯著提升交付速度，為傳統產業數位轉型提供範本。",
+    "highlights": [
+      "Codex 協助提升程式碼開發速度與品質",
+      "ChatGPT 用於文件撰寫與技術溝通",
+      "系統化推動全團隊 AI 工具採用",
+      "兼顧開發效率提升與品質標準維護"
+    ],
+    "why_it_matters": "AutoScout24 的成功案例證明 AI 工具能有效協助中型科技團隊在競爭激烈的市場中保持技術領先優勢。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
@@ -1096,6 +1123,106 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/4158466?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-15-nvidia-nemotron-3-nano-omni",
+    "title": "NVIDIA Nemotron 3 Nano Omni：長上下文多模態智慧模型",
+    "title_original": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+    "published_at": "2026-04-28T15:58:57+00:00",
+    "category": "new-models",
+    "summary": "NVIDIA 推出 Nemotron 3 Nano Omni 模型，專為處理文件、音頻和視頻的代理系統設計。該模型支援長上下文理解，具備多模態智慧能力，可同時處理文字、音頻與視覺資訊，適用於構建智慧代理應用。",
+    "highlights": [
+      "支援文件、音頻、視頻多模態處理",
+      "專為AI代理系統優化設計",
+      "具備長上下文理解能力",
+      "可用於構建多用途智慧代理"
+    ],
+    "why_it_matters": "多模態長上下文模型是AI代理發展的關鍵技術，Nemotron 3 Nano Omni 的發布代表NVIDIA在智慧代理領域的重要布局，為開發者提供更強大的多模態處理工具。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-15-openai",
+    "title": "使用 OpenAI 隱私過濾器構建可擴展網頁應用",
+    "title_original": "How to build scalable web apps with OpenAI's Privacy Filter",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+    "published_at": "2026-04-27T00:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "文章介紹如何使用 OpenAI 隱私過濾器技術在網頁應用中保護用戶敏感資料。該技術可在雲端和本地端部署，幫助開發者在保持資料安全的同時構建可擴展的AI驅動網頁服務。",
+    "highlights": [
+      "隱私過濾器可保護用戶敏感資料",
+      "支援雲端和本地端部署選項",
+      "有助於構建可擴展的AI網頁應用",
+      "平衡資料安全與AI功能需求"
+    ],
+    "why_it_matters": "隱私保護是AI網頁應用開發的核心挑戰，此技術為開發者提供實用工具，在確保資料安全合規的前提下充分發揮AI能力，對企業級應用部署具有重要參考價值。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-15-deepseek-v4-token",
+    "title": "DeepSeek-V4：可實際使用的百萬Token上下文模型",
+    "title_original": "DeepSeek-V4: a million-token context that agents can actually use",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/deepseekv4",
+    "published_at": "2026-04-24T00:00:00+00:00",
+    "category": "new-models",
+    "summary": "DeepSeek 發布 V4 版本模型，支援高達百萬Token的超長上下文窗口。這項突破使AI代理能夠處理極長的文件、代碼庫或對話歷史，為需要深度理解的複雜任務提供強大支援。",
+    "highlights": [
+      "支援百萬Token超長上下文",
+      "適用於處理長文件和大型代碼庫",
+      "大幅提升AI代理複雜任務處理能力",
+      "降低長程對話理解的技術門檻"
+    ],
+    "why_it_matters": "百萬Token上下文能力是AI模型的重要里程碑，使代理系統能夠處理真正大型的任務如完整代碼庫分析、厚重文件理解等，為AI應用開闢更廣闘的應用場景。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-15-qimma",
+    "title": "QIMMA 阿拉伯語大型語言模型品質排行榜",
+    "title_original": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+    "published_at": "2026-04-21T10:09:58+00:00",
+    "category": "open-source-ai",
+    "summary": "阿布扎比科技創新研究所（TII）發布 QIMMA 阿拉伯語 LLM 排行榜，以品質優先為原則評估各阿拉伯語言模型表現。該排行榜旨在促進阿拉伯語AI發展，為研究者和開發者提供標準化評測基準。",
+    "highlights": [
+      "TII 發布的阿拉伯語模型評測排行榜",
+      "採用品質優先的評估原則",
+      "促進阿拉伯語AI生態系統發展",
+      "提供標準化模型評測基準"
+    ],
+    "why_it_matters": "阿拉伯語AI資源相對匱乏，QIMMA 排行榜的推出將幫助研究者識別優質阿拉伯語模型，推動該領域的技術進步與應用創新，對語言多樣性AI發展具有重要意義。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   }
 ]
