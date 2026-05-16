@@ -1,5 +1,30 @@
 [
   {
+    "id": "2026-05-16-openai-chatgpt-plus",
+    "title": "OpenAI與馬爾他合作　全民免費享用ChatGPT Plus",
+    "title_original": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/malta-chatgpt-plus-partnership",
+    "published_at": "2026-05-16T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI宣布與馬爾他政府達成策略合作夥伴關係，將向全體馬爾他公民提供ChatGPT Plus訂閱服務。這是首次有國家層級政府與OpenAI合作推動AI普及化，目標是幫助公民建立實用AI技能並負責任地使用AI技術。",
+    "highlights": [
+      "馬爾他成為首個與OpenAI達成國家級合作的國家",
+      "全體公民將獲得ChatGPT Plus使用權",
+      "包含AI技能培訓計劃",
+      "旨在提升公民AI素養與負責任使用"
+    ],
+    "why_it_matters": "此合作代表AI普及化的重要里程碑，若成功推行可能成為其他國家參考的範本，推動更多政府與AI企業合作的模式出現。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-05-15-home-assistant",
     "title": "Home Assistant 自然語言自動化代理開源組件",
     "title_original": "sbenodiz/ai_agent_ha",
@@ -24,6 +49,106 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/1709324?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-16-openai-codex",
+    "title": "OpenAI發布企業營運團隊應用Codex實戰指南",
+    "title_original": "How business operations teams use Codex",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
+    "published_at": "2026-05-15T00:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "OpenAI發布官方指南，展示企業營運團隊如何利用Codex提升工作效率。內容涵蓋如何自動生成策略簡報、領導決策報告、進度更新等文件，幫助營運團隊將日常工作輸入轉化為結構化輸出。",
+    "highlights": [
+      "可自動生成策略更新簡報",
+      "協助製作領導決策包",
+      "自動產生進度更新報告",
+      "將原始工作資料轉化為結構化文件"
+    ],
+    "why_it_matters": "此指南顯示AI助理正深入企業營運核心流程，有助於提升企業內部協作效率，降低行政作業負擔。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-16-databricks-gpt-5-5",
+    "title": "Databricks整合GPT-5.5強化企業代理工作流程",
+    "title_original": "Databricks brings GPT-5.5 to enterprise agent workflows",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/databricks",
+    "published_at": "2026-05-15T00:00:00+00:00",
+    "category": "new-models",
+    "summary": "Databricks宣布將GPT-5.5整合至其企業代理工作流程平台。GPT-5.5此前在OfficeQA Pro基準測試中創下最新最佳成績，其強大的企業文件理解與分析能力使其成為代理工作流程的理想選擇。",
+    "highlights": [
+      "GPT-5.5已整合至Databricks平台",
+      "在OfficeQA Pro測試中創下最佳成績",
+      "專注企業代理工作流程應用場景",
+      "強化企業文件處理與分析能力"
+    ],
+    "why_it_matters": "GPT-5.5在企業應用領域的表現獲肯定，將加速AI代理技術在企業環境中的實際部署與應用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-16-openai-codex",
+    "title": "OpenAI指南：數據科學團隊如何運用Codex提升效能",
+    "title_original": "How data science teams use Codex",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+    "published_at": "2026-05-15T00:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "OpenAI發布專為數據科學團隊設計的Codex應用指南，說明如何運用AI助理進行根本原因分析、影響報告、KPI備忘錄、範圍分析與儀表板規格開發等工作，有效簡化數據分析流程。",
+    "highlights": [
+      "自動生成根本原因分析簡報",
+      "協助製作影響分析報告",
+      "可產生KPI備忘錄",
+      "協助建立儀表板規格文件"
+    ],
+    "why_it_matters": "Codex在數據科學領域的應用展現AI助理在專業技術工作中的實用價值，有助於數據團隊提高分析效率與產出品質。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-16-openai-codex",
+    "title": "OpenAI指南：銷售團隊運用Codex優化工作流程程",
+    "title_original": "How sales teams use Codex",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+    "published_at": "2026-05-15T00:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "OpenAI發布銷售團隊專用的Codex應用指南，介紹如何利用AI助理創建銷售管道簡報、會議準備包、預測審查、客戶計劃及停滯交易診斷等文件，全面提升銷售團隊的準備效率與決策品質。",
+    "highlights": [
+      "自動生成銷售管道簡報",
+      "協助準備客戶會議材料",
+      "可進行預測審查與分析",
+      "幫助診斷停滯交易原因"
+    ],
+    "why_it_matters": "AI助理在銷售領域的應用有助於縮短銷售準備時間，提升客戶互動品質與交易成交率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
@@ -893,31 +1018,6 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
-    "id": "2026-05-14-parameter-golf-ai",
-    "title": "Parameter Golf 競賽揭示 AI 輔助研究的啟示",
-    "title_original": "What Parameter Golf taught us about AI-assisted research",
-    "source": "OpenAI Blog",
-    "source_url": "https://openai.com/news/rss.xml",
-    "original_url": "https://openai.com/index/what-parameter-golf-taught-us",
-    "published_at": "2026-05-12T00:00:00+00:00",
-    "category": "hot-topics",
-    "summary": "OpenAI 舉辦的 Parameter Golf 挑戰賽吸引超過 1,000 名參與者提交 2,000 多件作品，探討在嚴格約束條件下運用 AI 輔助機器學習研究、程式碼代理、模型量化及創新架構設計的可能性。這項實驗為理解人機協作研究模式提供重要數據。",
-    "highlights": [
-      "超過千人參與的開源 AI 研究競賽",
-      "探索程式碼代理在模型設計中的應用",
-      "研究量化技術與模型效率優化",
-      "累積大量人機協作研究方法論數據"
-    ],
-    "why_it_matters": "這類社群實驗有助於識別 AI 輔助研究的有效範式與當前限制，為未來研究工具的改進方向提供實證基礎。",
-    "tags": [
-      "hot-topics",
-      "rss",
-      "en"
-    ],
-    "image_url": "",
-    "public_notes": "Reviewed daily crawler item. Original link preserved."
-  },
-  {
     "id": "2026-05-14-autoscout24-ai",
     "title": "AutoScout24 如何透過 AI 工作流程程擴展工程效能",
     "title_original": "AutoScout24 scales engineering with AI-powered workflows",
@@ -936,6 +1036,31 @@
     "why_it_matters": "AutoScout24 的成功案例證明 AI 工具能有效協助中型科技團隊在競爭激烈的市場中保持技術領先優勢。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-14-parameter-golf-ai",
+    "title": "Parameter Golf 競賽揭示 AI 輔助研究的啟示",
+    "title_original": "What Parameter Golf taught us about AI-assisted research",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/what-parameter-golf-taught-us",
+    "published_at": "2026-05-12T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 舉辦的 Parameter Golf 挑戰賽吸引超過 1,000 名參與者提交 2,000 多件作品，探討在嚴格約束條件下運用 AI 輔助機器學習研究、程式碼代理、模型量化及創新架構設計的可能性。這項實驗為理解人機協作研究模式提供重要數據。",
+    "highlights": [
+      "超過千人參與的開源 AI 研究競賽",
+      "探索程式碼代理在模型設計中的應用",
+      "研究量化技術與模型效率優化",
+      "累積大量人機協作研究方法論數據"
+    ],
+    "why_it_matters": "這類社群實驗有助於識別 AI 輔助研究的有效範式與當前限制，為未來研究工具的改進方向提供實證基礎。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -1219,6 +1344,188 @@
     "why_it_matters": "阿拉伯語AI資源相對匱乏，QIMMA 排行榜的推出將幫助研究者識別優質阿拉伯語模型，推動該領域的技術進步與應用創新，對語言多樣性AI發展具有重要意義。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-16-railway-1-aws-ai",
+    "title": "Railway獲得1億美元融資，挑戰AWS打造AI原生雲端基礎設施",
+    "title_original": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/category/ai/feed/",
+    "original_url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+    "published_at": "2026-01-22T14:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "舊金山雲端平台Railway宣布獲得1億美元B輪融資，由TQ Ventures領投。公司僅靠30名員工已達到每月處理超過10億次請求的規模。Railway宣稱其部署速度較傳統AWS等服務快達七倍，成本更可節省87%，並已成功放棄Google Cloud轉而自建資料中心。這筆資金將用於擴展全球資料中心網路並組建正式的商業團隊。",
+    "highlights": [
+      "獲得1億美元B輪融資，估值屬AI基礎設施領域翹楚",
+      "30人團隊每月處理逾10億次請求，創下驚人效率",
+      "部署速度比傳統雲端快七倍，基礎設施費用大幅降低",
+      "已完全停止使用Google Cloud，自建資料中心硬體",
+      "Fortune 500企業中已有31%採用Railway平台"
+    ],
+    "why_it_matters": "Railway的快速發展顯示，開發者對傳統雲端巨頭的不滿正為新興基礎設施公司開闢機會。隨著AI編碼工具普及，更快速、更經濟的部署需求正在急速增長。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-16-claude-code-200-goose",
+    "title": "Claude Code月費最高200美元，開源替代方案Goose免費提供相同功能",
+    "title_original": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/category/ai/feed/",
+    "original_url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+    "published_at": "2026-01-19T14:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Block公司（前身為Square）發布的開源AI代理工具Goose在GitHub上已獲超過26,100顆星標，支援完全本地運行，無需訂閱費用或速率限制。相較之下，Anthropic的Claude Code最高月費達200美元，但用戶反映即使付費仍受到嚴格限制。Goose可與Ollama等本地模型搭配使用，在無網路的飛行模式下仍可正常運作，為開發者提供免費、隱私優先的替代選擇。",
+    "highlights": [
+      "Goose為開源項目，在GitHub獲得超過26,100顆星標",
+      "支援完全本地運行，無訂閱費、無速率限制、無網路依賴",
+      "Claude Code最高月費200美元，但用戶反映限制嚴格",
+      "可與Ollama等本地模型整合，保障程式碼隱私",
+      "Block創辦人Jack Dorsey旗下公司主導開發"
+    ],
+    "why_it_matters": "Goose的崛起代表開發者社區對昂貴AI工具的不滿。當開源模型能力持續追趕商業方案，免費替代品的出現可能重塑AI編碼工具市場的價格結構。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-16-listen-labs-6900-ai",
+    "title": "Listen Labs以病毒行銷看板獲得關注，成功融資6900萬美元擴展AI客戶訪談業務",
+    "title_original": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/category/ai/feed/",
+    "original_url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+    "published_at": "2026-01-16T14:01:00+00:00",
+    "category": "ai-deals",
+    "summary": "Listen Labs宣布獲得6900萬美元B輪融資，估值5億美元。公司透過在舊金山放置包含AI密碼挑戰的看板進行創意招募，病毒式傳播後吸引數千人嘗試解題，最終招募到合適人才。Listen Labs的AI研究者可代替傳統問卷調查，以開放式錄影對話方式進行客戶訪談並交付可行建議，九個月內年收入增長15倍，已執行超過100萬次AI訪談。",
+    "highlights": [
+      "由Ribbit Capital領投6900萬美元，估值達5億美元",
+      "透過AI密碼挑戰看板創意招募，吸引數千人參與",
+      "AI主持人以開放式錄影對話取代傳統問卷",
+      "年收入在九個月內增長15倍，突破八位數",
+      "已執行超過100萬次AI驅動的客戶訪談"
+    ],
+    "why_it_matters": "Listen Labs展示AI如何變革市場研究行業。當研究成本大幅下降，Jevons悖論效應顯現——更便宜的研究工具反而創造更大需求，為企業客戶理解帶來全新商業模式。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-16-salesforce-slackbot-ai-claude-microsoft-google-ai",
+    "title": "Salesforce推出新版Slackbot AI代理，整合Claude挑戰Microsoft和Google企業AI市場",
+    "title_original": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/category/ai/feed/",
+    "original_url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+    "published_at": "2026-01-13T13:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Salesforce發布全新Slackbot，由Anthropic的Claude模型驅動，將簡單的通知工具轉型為能搜尋企業數據、草擬文件並代表員工執行動作的完整AI代理。Slack內部80,000名員工中已有三分之二試用新版Slackbot，滿意度高達96%，員工反映每週可節省2至20小時。這款產品已免費提供給Business+和Enterprise+客戶，並計劃擴展至其他AI模型供應商。",
+    "highlights": [
+      "新版Slackbot由Claude驅動，可存取Salesforce、Google Drive和歷史對話",
+      "80,000名員工中有96%滿意度，平均每週節省2至20小時",
+      "免費提供給Business+和Enterprise+客戶，無額外費用",
+      "定位為企業超級代理，最終將連接各類第三方代理工具",
+      "將於2026年支援Google Gemini等其他AI模型"
+    ],
+    "why_it_matters": "Salesforce將Slackbot定位為企業AI的核心入口，與Microsoft Copilot和Google Gemini正面競爭。將AI直接嵌入員工已熟悉的工作工具，可能是企業AI普及的關鍵策略。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-16-anthropic-cowork-claude",
+    "title": "Anthropic發布Cowork：無需編碼即可操作本機檔案的Claude桌面代理",
+    "title_original": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/category/ai/feed/",
+    "original_url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+    "published_at": "2026-01-12T11:30:00+00:00",
+    "category": "new-models",
+    "summary": "Anthropic發布Cowork功能，將Claude Code的代理能力延伸至非技術用戶。該工具讓用戶指定本機資料夾，Claude可讀取、編輯或建立檔案，例如從截圖生成費用報表或整理混亂的下載資料夾。據悉整個功能僅用約一週半開發時間，大部分工作由Claude Code本身完成。Cowork目前僅限Claude Max訂閱者使用macOS桌面應用，計劃未來支援跨設備同步和Windows版本。",
+    "highlights": [
+      "用戶指定資料夾後，Claude可讀取、編輯或建立檔案",
+      "約一週半完成開發，部分由Claude Code本身構建",
+      "目前僅限Claude Max訂閱者（100-200美元/月）使用",
+      "支援瀏覽器自動化並整合Asana、Notion等連接器",
+      "計劃未來支援跨設備同步和Windows版本"
+    ],
+    "why_it_matters": "Cowork的出現代表AI助理從單純的對話工具進化為可實際操作檔案的代理。AI系統用於加速自身開發的循環模式，預示AI能力將以超出組織評估速度持續增長。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-16-nous-research-nouscoder-14b",
+    "title": "Nous Research 推出 NousCoder-14B 開源程式碼模型，四天訓練即可比肩頂級專有系統",
+    "title_original": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/category/ai/feed/",
+    "original_url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+    "published_at": "2026-01-07T20:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Nous Research 發布 NousCoder-14B 開源程式碼模型，僅用四天、48 張 Nvidia B200 GPU 訓練完成，在 LiveCodeBench 評測中達到 67.87% 準確率，相較基座模型 Qwen3-14B 提升逾 7 個百分點。該模型同步開源完整訓練環境 Atropos、基準測試套件及訓練框架，採用 DAPO 強化學習技術與 24,000 道競賽程式題進行訓練。研究顯示該領域已接近高品質訓練資料上限，未來需依靠合成資料生成突破瓶頸。",
+    "highlights": [
+      "NousCoder-14B 在 LiveCodeBench v6 達到 67.87% 準確率，相當於 Codeforces 2100-2200 分級",
+      "訓練僅用四天、48 張 B200 GPU，展現極高訓練效率",
+      "完整開源訓練環境 Atropos，含強化學習框架、評測套件與訓練工具",
+      "採用動態抽樣與漸進式上下文擴展技術提升效能",
+      "研究人員指出競爭程式設計領域的高品質資料已接近耗盡邊緣"
+    ],
+    "why_it_matters": "此模型展示開源社群能在極短時間內打造比肩專有系統的程式碼模型，且完全開源訓練流程降低研究壁壘，對推動 AI 程式設計民主化具有重要意義。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-16-claude-code-boris-cherny-ai",
+    "title": "Claude Code 創辦人 Boris Cherny 揭露工作流程程，單人操控五個 AI 代理成焦點",
+    "title_original": "The creator of Claude Code just revealed his workflow, and developers are losing their minds",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/category/ai/feed/",
+    "original_url": "https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are",
+    "published_at": "2026-01-05T07:45:00+00:00",
+    "category": "hot-topics",
+    "summary": "Anthropic Claude Code 創辦人 Boris Cherny 在 X 平台公開其工作流程程，引發開發者社群熱議。他使用五個 Claude 代理同時並列運行，配合 iTerm2 系統通知管理進度，並堅持選用最慢但最強的 Opus 4.5 模型以減少校正成本。團隊透過專案根目錄的 CLAUDE.md 檔案建立集體記憶，讓 AI 能從每次錯誤中學習並自動更新指示，實現「每一個錯誤都成為一條規則」的自學習循環。",
+    "highlights": [
+      "Cherny 同時運行五個 Claude 代理於本機終端，並於瀏覽器另開 5-10 個實例處理不同任務",
+      "堅持使用 Opus 4.5 而非較快的 Sonnet，認為智慧模型長期反而更有效率",
+      "透過 CLAUDE.md 檔案將程式碼風格與架構決策傳遞給 AI，打造自糾正機制",
+      "使用自訂斜線指令如 /commit-push-pr 自動化版本控制流程",
+      "Claude Code 已據報達到年營收 10 億美元，驗證循環被視為關鍵成功因素"
+    ],
+    "why_it_matters": "這套工作流程程揭示 AI 程式設計已從自動補全進化為代理人作業系統，單人可發揮小型工程團隊產能。開發者從中學習如何有效管理 AI 代理、減少校正成本並建立持續學習機制。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
