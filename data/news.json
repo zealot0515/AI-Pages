@@ -1,5 +1,84 @@
 [
   {
+    "id": "2026-05-17-minimax-token-plan",
+    "title": "MiniMax Token Plan：全譜系多模態模型接入方案",
+    "title_original": "MiniMax Token Plan documents full-spectrum multimodal access",
+    "source": "Manual Seed Links",
+    "source_url": "https://platform.minimax.io",
+    "original_url": "https://platform.minimax.io/docs/token-plan/intro",
+    "published_at": "2026-05-17T21:23:09.515855+00:00",
+    "category": "new-models",
+    "summary": "MiniMax 官方文件顯示 Token Plan 涵蓋文字、語音、視訊、音樂及圖像模型，並說明 M2.7 的請求配額與非文字模型的獨立每日額度。此為官方技術文件，可作為 MiniMax 多模態支援的依據。",
+    "highlights": [
+      "支援文字、語音、視訊、音樂、圖像五種模態",
+      "M2.7 提供標準化請求配額",
+      "非文字模型設有獨立每日額度",
+      "官方平台統一管理模型接入",
+      "可作為 M3 傳聞的技術背景參考"
+    ],
+    "why_it_matters": "MiniMax 官方證實其全模態模型生態系，為開發者提供完整的多模態 API 接入藍圖。",
+    "tags": [
+      "new-models",
+      "manual_seed",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Manual seed reviewed by crawler. Original link preserved."
+  },
+  {
+    "id": "2026-05-17-awesome-datasets-hub-llm",
+    "title": "Awesome-Datasets-Hub：LLM 資料集精選集",
+    "title_original": "ahammadmejbah/Awesome-Datasets-Hub",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ahammadmejbah/Awesome-Datasets-Hub",
+    "published_at": "2026-05-17T21:16:50Z",
+    "category": "new-models",
+    "summary": "Awesome-Datasets-Hub 是一個精選的 LLM 資料集彙整計畫，涵蓋醫療 AI、自然語言處理、多模態學習、指令微調、推論、程式碼生成及評測基準等領域。GitHub 累計 105 顆星。",
+    "highlights": [
+      "收錄多領域 LLMs 訓練資料集",
+      "涵蓋醫療、NLP、多模態及程式碼等場景",
+      "包含推論與指令微調相關資源",
+      "提供評測基準資料集參考",
+      "開源彙整促進模型研究"
+    ],
+    "why_it_matters": "集中整理多元資料集，為 LLM 研究與開發提供便捷的資源入口。",
+    "tags": [
+      "new-models",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/56669333?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-17-docsgpt-ai",
+    "title": "DocsGPT：專為代理及企業搜尋打造的私密 AI 平台",
+    "title_original": "arc53/DocsGPT",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/arc53/DocsGPT",
+    "published_at": "2026-05-17T21:15:08Z",
+    "category": "agent-skills",
+    "summary": "DocsGPT 是一款專注於私密 AI 的代理平台及企業搜尋工具，具備內建代理構建器、深度研究、文件分析、多模型支援與 API 串接功能。GitHub 累積超過 17,800 顆星，為熱門的開源 AI 專案。",
+    "highlights": [
+      "內建代理構建器與深度研究功能",
+      "支援文件分析與多模型切換",
+      "提供 API 方便系統整合",
+      "GitHub 星數超過 17,800",
+      "主打企業級私密 AI 搜尋"
+    ],
+    "why_it_matters": "DocsGPT 以高星數證明市場需求，為企業與開發者提供開源替代方案。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/103419759?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-05-16-openai-chatgpt-plus",
     "title": "OpenAI與馬爾他合作　全民免費享用ChatGPT Plus",
     "title_original": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
@@ -1095,31 +1174,6 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
-    "id": "2026-05-14-openai",
-    "title": "OpenAI校園網絡計畫啟動募集學生社團加入",
-    "title_original": "OpenAI Campus Network: Student club interest form",
-    "source": "OpenAI Blog",
-    "source_url": "https://openai.com/news/rss.xml",
-    "original_url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-    "published_at": "2026-05-11T10:00:00+00:00",
-    "category": "hot-topics",
-    "summary": "OpenAI宣布推出Campus Network計畫，歡迎全球學生社團報名加入，提供AI工具資源、活動舉辦支援與跨校社群連結，協助學生建立AI驅動的校園社群。",
-    "highlights": [
-      "開放全球學生社團申請加入",
-      "提供AI工具與資源支援",
-      "協助舉辦相關活動",
-      "促進跨校交流與連結"
-    ],
-    "why_it_matters": "此計畫有助於在年輕世代中推廣AI應用，為未來AI人才培育與社區建設奠定基礎，對AI教育普及具有長期正面影響。",
-    "tags": [
-      "hot-topics",
-      "rss",
-      "en"
-    ],
-    "image_url": "",
-    "public_notes": "Reviewed daily crawler item. Original link preserved."
-  },
-  {
     "id": "2026-05-14-ai",
     "title": "企業AI規模化部署實踐指南",
     "title_original": "How enterprises are scaling AI",
@@ -1136,6 +1190,31 @@
       "需從實驗階段逐步過渡至系統性部署"
     ],
     "why_it_matters": "為企業提供明確的AI落地路徑參考，降低部署失敗風險，有助於加速AI在商業環境中的實際應用與價值創造。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-14-openai",
+    "title": "OpenAI校園網絡計畫啟動募集學生社團加入",
+    "title_original": "OpenAI Campus Network: Student club interest form",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+    "published_at": "2026-05-11T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI宣布推出Campus Network計畫，歡迎全球學生社團報名加入，提供AI工具資源、活動舉辦支援與跨校社群連結，協助學生建立AI驅動的校園社群。",
+    "highlights": [
+      "開放全球學生社團申請加入",
+      "提供AI工具與資源支援",
+      "協助舉辦相關活動",
+      "促進跨校交流與連結"
+    ],
+    "why_it_matters": "此計畫有助於在年輕世代中推廣AI應用，為未來AI人才培育與社區建設奠定基礎，對AI教育普及具有長期正面影響。",
     "tags": [
       "hot-topics",
       "rss",
