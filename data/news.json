@@ -1,24 +1,24 @@
 [
   {
-    "id": "2026-05-17-minimax-token-plan",
-    "title": "MiniMax Token Plan：全譜系多模態模型接入方案",
+    "id": "2026-05-18-minimax-token-plan",
+    "title": "MiniMax Token Plan 官方文件揭露全模態支援範圍",
     "title_original": "MiniMax Token Plan documents full-spectrum multimodal access",
     "source": "Manual Seed Links",
     "source_url": "https://platform.minimax.io",
     "original_url": "https://platform.minimax.io/docs/token-plan/intro",
-    "published_at": "2026-05-17T21:23:09.515855+00:00",
+    "published_at": "2026-05-18T17:28:00.953503+00:00",
     "category": "new-models",
-    "summary": "MiniMax 官方文件顯示 Token Plan 涵蓋文字、語音、視訊、音樂及圖像模型，並說明 M2.7 的請求配額與非文字模型的獨立每日額度。此為官方技術文件，可作為 MiniMax 多模態支援的依據。",
+    "summary": "MiniMax 官方文檔確認 Token Plan 涵蓋文字、語音、視訊、音樂、影像模型，M2.7 有請求配額，非文字模型另有每日配額，是了解 MiniMax 實際能力邊界的重要官方參考。",
     "highlights": [
-      "支援文字、語音、視訊、音樂、圖像五種模態",
-      "M2.7 提供標準化請求配額",
-      "非文字模型設有獨立每日額度",
-      "官方平台統一管理模型接入",
-      "可作為 M3 傳聞的技術背景參考"
+      "文字模型（推測含 M2.7）有獨立請求配額限制",
+      "語音、視訊、音樂、影像各有每日配額，分開計算",
+      "MiniMax 已具備多模態矩陣，非單一文字模型",
+      "Token Plan 是官方文件，可作為能力邊界依據",
+      "可用於與 M3 謠傳對照，確認多模態支援是否為既有規劃"
     ],
-    "why_it_matters": "MiniMax 官方證實其全模態模型生態系，為開發者提供完整的多模態 API 接入藍圖。",
+    "why_it_matters": "官方文檔確立了 MiniMax 已有完整多模態矩陣，有助開發者評估其在 AI 自動化工作中的實際可用性。",
     "automation_angle": null,
-    "automation_angle_zh": null,
+    "automation_angle_zh": "開發者查閱 token-plan 頁面可系統性評估各模態配額與費用結構，規劃多模態工作流程整合方案。",
     "tags": [
       "new-models",
       "manual_seed",
@@ -26,6 +26,91 @@
     ],
     "image_url": "",
     "public_notes": "Manual seed reviewed by crawler. Original link preserved."
+  },
+  {
+    "id": "2026-05-18-redhat-ai",
+    "title": "RedHat 安全技能庫：給 AI 助理的安全編碼技能集",
+    "title_original": "RedHatProductSecurity/prodsec-skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/RedHatProductSecurity/prodsec-skills",
+    "published_at": "2026-05-18T15:43:23Z",
+    "category": "agent-skills",
+    "summary": "RedHat Product Security 團隊發布的 prodsec-skills 專案，為 AI 程式碼助理和代理系統提供安全編碼技能集。採用 Python 編寫，可整合至 Claude、GPT 等常見 AI 助理的提示詞中，協助自動化安全審查與漏洞預防。",
+    "highlights": [
+      "Python 語言實現，易於與現有開發工具整合",
+      "專為 AI 編碼助理設計，可注入 system prompt 提升安全能力",
+      "涵蓋 OWASP Top 10、常見漏洞模式識別等安全知識",
+      "開源專案，可直接 fork 並客製化至工作流程程",
+      "協助 AI 助理在生成程式碼時即時發現安全問題"
+    ],
+    "why_it_matters": "AI 程式碼助理生成的安全漏洞層出不窮，該技能集可讓技術人員直接為 AI 助理注入安全審查能力，降低人為疏忽導致的資安風險，今天就能部署使用。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此技能集整合至 Claude Desktop 或 GitHub Copilot 的自訂指令中，讓 AI 在輔助編碼時自動檢測 OWASP Top 10 等常見漏洞模式。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/8826520?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-18-ibm-research-open-agent",
+    "title": "IBM Research 發布 Open Agent 基準測試排行榜",
+    "title_original": "The Open Agent Leaderboard",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
+    "published_at": "2026-05-18T14:12:58+00:00",
+    "category": "open-source-ai",
+    "summary": "IBM Research 在 Hugging Face 發布 Open Agent Leaderboard，提供開源 AI 代理系統的標準化評測框架。該排行榜針對多代理協作、工具調用規劃、長期任務執行等能力進行量化評分，有助技術人員選擇與比較開源代理方案。",
+    "highlights": [
+      "由 IBM Research 發布，具學術與產業背書",
+      "提供開源代理系統的公平評測標準",
+      "涵蓋工具調用、任務規劃、多代理協作維度",
+      "結果公開於 Hugging Face，方便下載與擴展",
+      "可作為自建代理系統的效能對照基準"
+    ],
+    "why_it_matters": "開源代理系統百花齊放，缺乏統一度量標準讓技術選型困難。該排行榜提供可信的橫向比較依據，協助開發者快速篩選符合需求的開源代理框架。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用該排行榜的評測方法，對自建或選用的代理系統進行效能基準測試，找出瓶頸環節並針對性優化。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-18-openai-dell-codex",
+    "title": "OpenAI 與 Dell 合作將 Codex 引進混合／本地企業環境",
+    "title_original": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/dell-codex-enterprise-partnership",
+    "published_at": "2026-05-18T10:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 與 Dell 合作將 Codex 部署至混合雲與本地環境，協助企業在資料不離開網路的情況下安全使用 AI 程式碼助理，瞄準高合規需求的企業用戶。",
+    "highlights": [
+      "Codex 進入 Dell 基礎設施作為托管服務提供",
+      "支援混合雲與本地環境，緩解資料主權疑慮",
+      "OpenAI 專注模型層，Dell 負責本地部署與硬體支援",
+      "瞄準金融、醫療等對資料落地有嚴格要求的產業",
+      "為企業 IT 團隊提供合規 AI 程式碼助理選項"
+    ],
+    "why_it_matters": "此合作將 Codex 的程式碼生成能力帶入資料不能外送的企業場景，大幅擴展可用市場與落地條件。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業技術決策者可評估 Dell 基礎架構現況，確認是否具備接入條件並規劃內網 AI 程式碼助理試點。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-05-17-awesome-datasets-hub-llm",
