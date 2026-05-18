@@ -3,316 +3,317 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI NewsPage</title>
+  <title>AI Morning Radar</title>
   <style>
     :root {
       color-scheme: light;
-      --bg: #ffffff;
-      --panel: #ffffff;
-      --text: #050505;
-      --muted: #707070;
-      --line: #dedede;
-      --accent: #057dbc;
-      --accent-strong: #000000;
-      --soft: #f5f5f5;
-      --ink: #000000;
+      --paper: #f3eedf;
+      --paper-2: #fff9e8;
+      --ink: #171713;
+      --muted: #6f6a5d;
+      --line: rgba(23, 23, 19, 0.16);
+      --panel: rgba(255, 249, 232, 0.82);
+      --signal: #b5ff41;
+      --amber: #ffb000;
+      --cyan: #16a6a3;
+      --danger: #c9462c;
+      --mono: "IBM Plex Mono", "JetBrains Mono", "Cascadia Mono", Consolas, monospace;
+      --serif: "Noto Serif TC", "Source Han Serif TC", Georgia, serif;
+      --sans: "Noto Sans TC", "Aptos", "Segoe UI", sans-serif;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: "Aptos", "Segoe UI", "Noto Sans TC", sans-serif;
-      line-height: 1.5;
+      background:
+        radial-gradient(circle at 12% 8%, rgba(181, 255, 65, 0.22), transparent 24rem),
+        radial-gradient(circle at 86% 2%, rgba(22, 166, 163, 0.15), transparent 22rem),
+        linear-gradient(135deg, rgba(23, 23, 19, 0.035) 25%, transparent 25%) 0 0 / 18px 18px,
+        var(--paper);
+      color: var(--ink);
+      font-family: var(--sans);
+      line-height: 1.55;
     }
 
     main {
-      width: min(1180px, calc(100% - 32px));
+      width: min(1240px, calc(100% - 32px));
       margin: 0 auto;
-      padding: 20px 0 56px;
+      padding: 28px 0 64px;
     }
 
-    header {
-      padding: 14px 0 20px;
-      border-top: 8px solid var(--ink);
-      border-bottom: 2px solid var(--ink);
+    header.hero {
+      position: relative;
+      overflow: hidden;
+      min-height: 320px;
+      padding: 28px;
+      border: 1px solid var(--ink);
+      border-radius: 28px;
+      background:
+        linear-gradient(110deg, rgba(255,249,232,0.94), rgba(243,238,223,0.82)),
+        repeating-linear-gradient(0deg, transparent 0 29px, rgba(23,23,19,0.08) 30px),
+        repeating-linear-gradient(90deg, transparent 0 29px, rgba(23,23,19,0.08) 30px);
+      box-shadow: 10px 10px 0 rgba(23, 23, 19, 0.12);
     }
 
-    h1 {
-      margin: 0;
-      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
-      font-size: 64px;
-      font-weight: 400;
-      line-height: 0.95;
-      letter-spacing: 0;
+    header.hero::after {
+      content: "";
+      position: absolute;
+      right: -120px;
+      top: -120px;
+      width: 360px;
+      height: 360px;
+      border: 1px solid rgba(23,23,19,0.22);
+      border-radius: 50%;
+      background: conic-gradient(from 0.9turn, transparent, rgba(181,255,65,0.46), transparent 26%);
+      animation: sweep 8s linear infinite;
+      pointer-events: none;
+    }
+
+    @keyframes sweep { to { transform: rotate(360deg); } }
+
+    .kicker, .story-meta, .tag, button, .metric span, .lane-count, .source a {
+      font-family: var(--mono);
     }
 
     .kicker {
-      margin: 0 0 10px;
-      color: var(--ink);
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0;
+      margin: 0 0 14px;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .12em;
       text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 900px;
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(3.8rem, 11vw, 8.5rem);
+      font-weight: 900;
+      line-height: .84;
+      letter-spacing: -0.08em;
     }
 
     .dek {
-      max-width: 680px;
-      margin: 14px 0 0;
+      max-width: 760px;
+      margin: 24px 0 0;
       color: var(--muted);
-      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
-      font-size: 19px;
+      font-family: var(--serif);
+      font-size: clamp(1.1rem, 2vw, 1.55rem);
     }
 
-    .meta {
-      color: var(--muted);
-      font-size: 13px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px 16px;
-      margin-top: 18px;
-      padding-top: 10px;
-      border-top: 1px solid var(--line);
-      text-transform: uppercase;
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(130px, 1fr));
+      gap: 12px;
+      margin-top: 28px;
+      max-width: 840px;
     }
+
+    .metric {
+      border: 1px solid var(--ink);
+      border-radius: 18px;
+      padding: 12px 14px;
+      background: rgba(255,255,255,0.38);
+    }
+
+    .metric strong { display: block; font-size: 1.8rem; line-height: 1; }
+    .metric span { color: var(--muted); font-size: 11px; text-transform: uppercase; }
 
     .toolbar {
       display: flex;
       flex-wrap: wrap;
-      gap: 0;
-      margin-top: 20px;
-      border-top: 1px solid var(--line);
-      border-bottom: 1px solid var(--line);
+      gap: 10px;
+      margin: 30px 0 22px;
     }
 
     button {
-      border: 0;
-      border-right: 1px solid var(--line);
-      border-radius: 0;
-      background: transparent;
+      border: 1px solid var(--ink);
+      border-radius: 999px;
+      background: var(--paper-2);
       color: var(--ink);
       cursor: pointer;
-      font: inherit;
-      font-size: 13px;
-      font-weight: 700;
-      min-height: 40px;
-      padding: 8px 14px;
+      font-size: 12px;
+      font-weight: 800;
+      padding: 10px 14px;
       text-transform: uppercase;
+      transition: transform .16s ease, box-shadow .16s ease, background .16s ease;
     }
 
-    button[aria-pressed="true"] {
-      background: var(--ink);
-      color: #fff;
-    }
+    button:hover { transform: translateY(-2px); box-shadow: 4px 4px 0 rgba(23,23,19,.16); }
+    button[aria-pressed="true"] { background: var(--ink); color: var(--signal); }
 
     .layout {
       display: grid;
-      grid-template-columns: minmax(0, 2.1fr) minmax(280px, 0.9fr);
-      gap: 32px;
-      margin-top: 26px;
+      grid-template-columns: minmax(0, 1fr) 310px;
+      gap: 28px;
+      align-items: start;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin: 28px 0 14px;
+      border-bottom: 1px solid var(--ink);
+      font-family: var(--mono);
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .must-read-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
     }
 
     article {
+      position: relative;
+      border: 1px solid var(--ink);
+      border-radius: 22px;
       background: var(--panel);
-      border-bottom: 1px solid var(--line);
-      border-radius: 0;
-      box-shadow: none;
+      box-shadow: 6px 6px 0 rgba(23,23,19,0.1);
+      overflow: hidden;
+      animation: rise .45s ease both;
     }
 
-    .lead-story {
-      padding: 0 0 26px;
-      margin-bottom: 22px;
-      border-bottom: 2px solid var(--ink);
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+    .must-card { padding: 18px; min-height: 100%; }
+    .must-card:nth-child(1) { background: linear-gradient(160deg, rgba(181,255,65,.26), var(--panel) 44%); }
+    .must-card:nth-child(2) { background: linear-gradient(160deg, rgba(255,176,0,.22), var(--panel) 44%); }
+    .must-card:nth-child(3) { background: linear-gradient(160deg, rgba(22,166,163,.18), var(--panel) 44%); }
+
+    h2, h3 {
+      margin: 0 0 10px;
+      font-family: var(--serif);
+      line-height: 1.08;
+      letter-spacing: -0.035em;
+    }
+
+    h2 { font-size: clamp(1.45rem, 3vw, 2.25rem); }
+    h3 { font-size: 1.25rem; }
+
+    a { color: var(--ink); text-decoration-color: var(--cyan); text-decoration-thickness: 2px; text-underline-offset: 3px; overflow-wrap: anywhere; }
+    p { margin: 9px 0; }
+
+    .story-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 12px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
     }
 
     .story-image {
       display: block;
       width: 100%;
-      max-height: 360px;
+      height: 160px;
       object-fit: cover;
-      border-radius: 0;
-      margin-bottom: 16px;
+      border-bottom: 1px solid var(--ink);
       background: var(--line);
     }
 
-    .story-list {
+    .lane-grid {
       display: grid;
-      gap: 0;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
     }
 
-    .story {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) 180px;
-      gap: 18px;
-      padding: 18px 0;
-    }
+    .story { display: grid; grid-template-rows: auto 1fr; }
+    .story-body { padding: 16px; }
 
-    h2 {
-      margin: 0 0 8px;
-      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
-      font-size: 42px;
-      font-weight: 400;
-      line-height: 1.05;
-      letter-spacing: 0;
-    }
-
-    h3 {
-      margin: 0 0 8px;
-      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
-      font-size: 25px;
-      font-weight: 400;
-      line-height: 1.12;
-      letter-spacing: 0;
-    }
-
-    a {
-      color: var(--accent);
-      overflow-wrap: anywhere;
-      text-decoration-thickness: 1px;
-      text-underline-offset: 3px;
-    }
-
-    p {
-      margin: 8px 0;
-    }
-
-    .story-meta {
-      color: var(--muted);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0;
-      text-transform: uppercase;
-    }
-
-    .highlights {
-      margin: 14px 0 0;
-      padding-left: 20px;
-    }
-
-    .highlights li {
-      margin: 6px 0;
-    }
-
-    .why {
-      border-left: 3px solid var(--accent-strong);
+    .why, .automation {
+      border-left: 4px solid var(--signal);
       margin-top: 14px;
-      padding-left: 12px;
-      color: var(--text);
-      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
-    }
-
-    .public-note {
-      color: var(--muted);
-      font-size: 13px;
-      margin-top: 12px;
-    }
-
-    .tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      margin-top: 12px;
-    }
-
-    .tag {
-      border: 1px solid var(--ink);
-      border-radius: 0;
-      padding: 3px 7px;
-      color: var(--muted);
-      font-size: 12px;
-      text-transform: uppercase;
-    }
-
-    aside {
-      border-left: 1px solid var(--line);
-      padding-left: 24px;
-    }
-
-    aside h2 {
-      font-family: Georgia, "Times New Roman", "Noto Serif TC", serif;
-      font-size: 22px;
-      font-weight: 400;
-    }
-
-    .source-list {
-      display: grid;
-      gap: 12px;
-    }
-
-    .source {
-      padding-bottom: 12px;
-      border-bottom: 1px solid var(--line);
+      padding: 10px 12px;
+      background: rgba(181,255,65,0.13);
       font-size: 14px;
     }
 
-    .empty-state {
-      background: var(--soft);
-      border-top: 2px solid var(--ink);
-      border-bottom: 1px solid var(--line);
-      padding: 24px 0;
+    .automation { border-color: var(--cyan); background: rgba(22,166,163,0.11); }
+    .automation strong, .why strong { font-family: var(--mono); font-size: 11px; text-transform: uppercase; }
+
+    .highlights { margin: 12px 0 0; padding-left: 18px; }
+    .highlights li { margin: 5px 0; }
+
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+    .tag { border: 1px solid rgba(23,23,19,.28); border-radius: 999px; padding: 4px 8px; background: rgba(255,255,255,.32); color: var(--muted); font-size: 11px; }
+    .tag.hot { border-color: var(--ink); background: var(--signal); color: var(--ink); }
+    .tag.warn { border-color: var(--danger); color: var(--danger); }
+
+    aside {
+      position: sticky;
+      top: 16px;
+      display: grid;
+      gap: 16px;
     }
 
-    .source strong {
-      display: block;
-      margin-bottom: 3px;
+    .side-card {
+      border: 1px solid var(--ink);
+      border-radius: 22px;
+      background: rgba(255,249,232,.78);
+      padding: 16px;
+      box-shadow: 5px 5px 0 rgba(23,23,19,.1);
+    }
+
+    aside h2 { font-family: var(--mono); font-size: 13px; letter-spacing: .08em; text-transform: uppercase; }
+    .source-list { display: grid; gap: 12px; max-height: 560px; overflow: auto; padding-right: 4px; }
+    .source { border-bottom: 1px solid var(--line); padding-bottom: 10px; font-size: 13px; }
+    .source strong { display: block; margin-bottom: 3px; }
+    .source a { color: var(--muted); font-size: 11px; }
+
+    .brief-list { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+    .brief-list li { border-bottom: 1px solid var(--line); padding-bottom: 10px; font-size: 14px; }
+
+    .empty-state { border: 1px solid var(--ink); border-radius: 22px; padding: 22px; background: var(--paper-2); }
+    .public-note { color: var(--muted); font-size: 13px; }
+
+    @media (max-width: 920px) {
+      .layout { display: block; }
+      aside { position: static; margin-top: 26px; }
+      .metrics, .must-read-grid, .lane-grid { grid-template-columns: 1fr 1fr; }
     }
 
     @media (max-width: 640px) {
-      main {
-        width: min(100% - 24px, 1040px);
-        padding: 24px 0;
-      }
-
-      header,
-      .layout {
-        display: block;
-      }
-
-      h1 {
-        font-size: 42px;
-      }
-
-      .meta {
-        text-align: left;
-        margin-top: 12px;
-      }
-
-      aside {
-        border-left: 0;
-        padding-left: 0;
-        margin-top: 24px;
-      }
-
-      .story {
-        display: block;
-      }
+      main { width: min(100% - 22px, 1240px); padding-top: 16px; }
+      header.hero { padding: 20px; border-radius: 22px; min-height: 0; }
+      .metrics, .must-read-grid, .lane-grid { grid-template-columns: 1fr; }
+      h1 { letter-spacing: -0.055em; }
     }
   </style>
 </head>
 <body>
   <main>
-    <header>
-      <div>
-        <p class="kicker">Daily reviewed AI brief</p>
-        <h1>AI NewsPage</h1>
-        <p class="dek">A source-backed morning briefing for AI models, agent skills, open-source projects, and developer workflows.</p>
-      </div>
-      <div class="meta">
-        <div>62 public stories</div>
-        <div>5 public sources</div>
-        <div>Generated 2026-05-17T21:25:15Z</div>
+    <header class="hero">
+      <p class="kicker">AI Morning Radar // Technical Brief</p>
+      <h1>AI Morning Radar</h1>
+      <p class="dek" id="dailyDek">A source-backed morning briefing for model shifts, AI deals, tools you can try today, and automation signals worth your attention.</p>
+      <div class="metrics" id="metrics">
+        <div class="metric"><strong>62</strong><span>public signals</span></div>
+        <div class="metric"><strong>--</strong><span>actionable</span></div>
+        <div class="metric"><strong>--</strong><span>deals / credits</span></div>
+        <div class="metric"><strong>5</strong><span>sources</span></div>
       </div>
     </header>
     <nav id="filters" class="toolbar" aria-label="News filters"></nav>
     <div class="layout">
       <section id="news" aria-live="polite"></section>
       <aside>
-        <h2>Public Sources</h2>
-        <div id="sources" class="source-list"></div>
+        <section class="side-card">
+          <h2>Morning Brief</h2>
+          <ul id="brief" class="brief-list"></ul>
+        </section>
+        <section class="side-card">
+          <h2>Public Sources</h2>
+          <div id="sources" class="source-list"></div>
+        </section>
       </aside>
     </div>
   </main>
@@ -320,6 +321,9 @@
     const newsEl = document.querySelector("#news");
     const filtersEl = document.querySelector("#filters");
     const sourcesEl = document.querySelector("#sources");
+    const metricsEl = document.querySelector("#metrics");
+    const briefEl = document.querySelector("#brief");
+    const dailyDekEl = document.querySelector("#dailyDek");
     let allNews = [];
     let activeCategory = "All";
 
@@ -335,6 +339,8 @@
     ])
       .then(([news, sources]) => {
         allNews = news;
+        renderMetrics(news);
+        renderBrief(news);
         renderFilters(news);
         renderNews(news);
         renderSources(sources);
@@ -342,6 +348,32 @@
       .catch((error) => {
         newsEl.textContent = error.message;
       });
+
+    function renderMetrics(news) {
+      const actionable = news.filter((item) => badgesFor(item).includes("可動手")).length;
+      const deals = news.filter((item) => item.category === "ai-deals").length;
+      const models = news.filter((item) => item.category === "new-models").length;
+      metricsEl.innerHTML = `
+        <div class="metric"><strong>${news.length}</strong><span>public signals</span></div>
+        <div class="metric"><strong>${actionable}</strong><span>可動手</span></div>
+        <div class="metric"><strong>${deals}</strong><span>省錢 / 額度</span></div>
+        <div class="metric"><strong>${models}</strong><span>模型變化</span></div>
+      `;
+      dailyDekEl.textContent = buildDailyDek(news, actionable, deals, models);
+    }
+
+    function buildDailyDek(news, actionable, deals, models) {
+      if (!news.length) return "No public signals yet. Promote reviewed items to build today's radar.";
+      const top = news[0];
+      return `今天雷達：${models} 個模型/產品變化、${actionable} 個可動手線索、${deals} 個可能省錢訊號。頭條是「${top.title}」。`;
+    }
+
+    function renderBrief(news) {
+      const items = news.slice(0, 5).map((item) => `
+        <li><strong>${escapeHtml(categoryLabel(item.category))}</strong><br>${escapeHtml(item.title)}</li>
+      `).join("");
+      briefEl.innerHTML = items || "<li>No reviewed stories yet.</li>";
+    }
 
     function renderFilters(news) {
       const categories = ["All", ...new Set(news.map((item) => item.category).filter(Boolean))];
@@ -364,40 +396,73 @@
         : news.filter((item) => item.category === activeCategory);
 
       if (visible.length === 0) {
-        newsEl.textContent = "No public stories in this category.";
+        newsEl.innerHTML = `<div class="empty-state">No public stories in this category.</div>`;
         return;
       }
 
-      const [lead, ...rest] = visible;
+      const mustRead = visible.slice(0, 3);
+      const rest = visible.slice(3);
+      const lanes = groupIntoLanes(rest);
       newsEl.innerHTML = `
-        <article class="lead-story">
-          <div class="story-meta">${escapeHtml(formatDate(lead.published_at))} / ${escapeHtml(categoryLabel(lead.category))}</div>
-          ${renderImage(lead)}
-          <h2>${escapeHtml(lead.title)}</h2>
-          <p>${escapeHtml(lead.summary)}</p>
-          ${renderHighlights(lead.highlights)}
-          ${renderWhy(lead.why_it_matters)}
-          ${renderPublicNote(lead.public_notes)}
-          ${renderTags(lead.tags)}
-          <p><a href="${escapeAttribute(lead.original_url || lead.source_url)}" rel="noopener noreferrer" target="_blank">Read original: ${escapeHtml(lead.source)}</a></p>
+        <div class="section-title"><span>Top 3 Must Read</span><span class="lane-count">${mustRead.length} picks</span></div>
+        <div class="must-read-grid">${mustRead.map(renderMustCard).join("")}</div>
+        ${Object.entries(lanes).map(([lane, items]) => renderLane(lane, items)).join("")}
+      `;
+    }
+
+    function groupIntoLanes(items) {
+      const lanes = {
+        "Model / Product Radar": [],
+        "Tools To Try": [],
+        "Deals & Credits": [],
+        "Signals & Open Source": []
+      };
+      items.forEach((item) => {
+        if (item.category === "new-models") lanes["Model / Product Radar"].push(item);
+        else if (item.category === "ai-deals") lanes["Deals & Credits"].push(item);
+        else if (badgesFor(item).includes("可動手") || item.category === "agent-skills") lanes["Tools To Try"].push(item);
+        else lanes["Signals & Open Source"].push(item);
+      });
+      return Object.fromEntries(Object.entries(lanes).filter(([, items]) => items.length));
+    }
+
+    function renderLane(lane, items) {
+      return `
+        <div class="section-title"><span>${escapeHtml(lane)}</span><span class="lane-count">${items.length} signals</span></div>
+        <div class="lane-grid">${items.map(renderStoryCard).join("")}</div>
+      `;
+    }
+
+    function renderMustCard(item, index) {
+      return `
+        <article class="must-card" style="animation-delay:${index * 70}ms">
+          <div class="story-meta"><span>#${index + 1}</span><span>${escapeHtml(formatDate(item.published_at))}</span><span>${escapeHtml(categoryLabel(item.category))}</span></div>
+          <h2>${escapeHtml(item.title)}</h2>
+          <p>${escapeHtml(item.summary)}</p>
+          ${renderWhy(item.why_it_matters)}
+          ${renderAutomation(item)}
+          ${renderTags(item)}
+          <p><a href="${escapeAttribute(item.original_url || item.source_url)}" rel="noopener noreferrer" target="_blank">Open source: ${escapeHtml(item.source)}</a></p>
         </article>
-        <div class="story-list">
-          ${rest.map((item) => `
-            <article class="story">
-              <div>
-                <div class="story-meta">${escapeHtml(formatDate(item.published_at))} / ${escapeHtml(categoryLabel(item.category))}</div>
-                <h3>${escapeHtml(item.title)}</h3>
-                <p>${escapeHtml(item.summary)}</p>
-                ${renderHighlights(item.highlights)}
-                ${renderWhy(item.why_it_matters)}
-                ${renderPublicNote(item.public_notes)}
-                ${renderTags(item.tags)}
-                <p><a href="${escapeAttribute(item.original_url || item.source_url)}" rel="noopener noreferrer" target="_blank">Read original: ${escapeHtml(item.source)}</a></p>
-              </div>
-              <div class="story-media">${renderImage(item)}</div>
-            </article>
-          `).join("")}
-        </div>
+      `;
+    }
+
+    function renderStoryCard(item, index) {
+      return `
+        <article class="story" style="animation-delay:${index * 55}ms">
+          ${renderImage(item)}
+          <div class="story-body">
+            <div class="story-meta"><span>${escapeHtml(formatDate(item.published_at))}</span><span>${escapeHtml(categoryLabel(item.category))}</span></div>
+            <h3>${escapeHtml(item.title)}</h3>
+            <p>${escapeHtml(item.summary)}</p>
+            ${renderHighlights(item.highlights)}
+            ${renderWhy(item.why_it_matters)}
+            ${renderAutomation(item)}
+            ${renderPublicNote(item.public_notes)}
+            ${renderTags(item)}
+            <p><a href="${escapeAttribute(item.original_url || item.source_url)}" rel="noopener noreferrer" target="_blank">Read original: ${escapeHtml(item.source)}</a></p>
+          </div>
+        </article>
       `;
     }
 
@@ -406,18 +471,31 @@
         <div class="source">
           <strong>${escapeHtml(source.name || source.id)}</strong>
           <a href="${escapeAttribute(source.url)}" rel="noopener noreferrer" target="_blank">${escapeHtml(source.url)}</a>
-          <p>${escapeHtml(source.public_notes || "")}</p>
+          <p>${escapeHtml(source.public_notes || source.summary || "")}</p>
         </div>
       `).join("");
     }
 
     function renderHighlights(highlights) {
-      const items = (highlights || []).map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+      const items = (highlights || []).slice(0, 3).map((item) => `<li>${escapeHtml(item)}</li>`).join("");
       return items ? `<ul class="highlights">${items}</ul>` : "";
     }
 
     function renderWhy(value) {
-      return value ? `<p class="why">${escapeHtml(value)}</p>` : "";
+      return value ? `<div class="why"><strong>Why it matters</strong><br>${escapeHtml(value)}</div>` : "";
+    }
+
+    function renderAutomation(item) {
+      const value = item.automation_angle || item.automation_angle_zh || inferAutomationAngle(item);
+      return value ? `<div class="automation"><strong>Automation angle</strong><br>${escapeHtml(value)}</div>` : "";
+    }
+
+    function inferAutomationAngle(item) {
+      const text = `${item.title || ""} ${item.summary || ""} ${(item.tags || []).join(" ")}`.toLowerCase();
+      if (item.category === "ai-deals") return "先確認官方條款與到期日，評估是否能降低常用 AI 工具成本。";
+      if (item.category === "new-models") return "檢查 API、價格、上下文與工具調用能力，評估是否值得放入模型路由。";
+      if (text.includes("github") || text.includes("agent") || text.includes("mcp") || text.includes("workflow")) return "先看 README 與安裝方式，判斷能否接進個人自動化工作流。";
+      return "可作為早晨情報線索，確認原文後再決定是否深入研究。";
     }
 
     function renderPublicNote(value) {
@@ -429,24 +507,43 @@
       return `<img class="story-image" src="${escapeAttribute(item.image_url)}" alt="" loading="lazy">`;
     }
 
-    function renderTags(tags) {
-      const items = (tags || []).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
+    function renderTags(item) {
+      const tags = [...badgesFor(item), ...(item.tags || [])];
+      const seen = new Set();
+      const items = tags.filter((tag) => {
+        if (!tag || seen.has(tag)) return false;
+        seen.add(tag);
+        return true;
+      }).slice(0, 7).map((tag) => `<span class="tag ${tagClass(tag)}">${escapeHtml(tag)}</span>`).join("");
       return `<div class="tags">${items}</div>`;
+    }
+
+    function badgesFor(item) {
+      const text = `${item.title || ""} ${item.summary || ""} ${(item.highlights || []).join(" ")} ${(item.tags || []).join(" ")}`.toLowerCase();
+      const badges = [];
+      if (item.category === "new-models") badges.push("模型變化");
+      if (item.category === "ai-deals") badges.push("省錢");
+      if (item.category === "agent-skills") badges.push("自動化");
+      if (text.includes("github") || text.includes("api") || text.includes("mcp") || text.includes("workflow") || text.includes("agent")) badges.push("可動手");
+      if (text.includes("rumor") || text.includes("傳聞") || text.includes("待驗證")) badges.push("需驗證");
+      return badges;
+    }
+
+    function tagClass(tag) {
+      if (["模型變化", "可動手", "自動化"].includes(tag)) return "hot";
+      if (["需驗證"].includes(tag)) return "warn";
+      return "";
     }
 
     function formatDate(value) {
       const date = new Date(value);
       if (Number.isNaN(date.getTime())) return value || "";
-      return new Intl.DateTimeFormat("zh-TW", {
-        year: "numeric",
-        month: "short",
-        day: "numeric"
-      }).format(date);
+      return new Intl.DateTimeFormat("zh-TW", { month: "short", day: "numeric" }).format(date);
     }
 
     function categoryLabel(value) {
       return ({
-        "All": "All",
+        "All": "All Signals",
         "hot-topics": "Hot AI Topics",
         "agent-skills": "Agent Skills",
         "open-source-ai": "Open Source AI",

@@ -17,6 +17,8 @@
       "可作為 M3 傳聞的技術背景參考"
     ],
     "why_it_matters": "MiniMax 官方證實其全模態模型生態系，為開發者提供完整的多模態 API 接入藍圖。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "new-models",
       "manual_seed",
@@ -43,6 +45,8 @@
       "開源彙整促進模型研究"
     ],
     "why_it_matters": "集中整理多元資料集，為 LLM 研究與開發提供便捷的資源入口。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "new-models",
       "github_search",
@@ -69,6 +73,8 @@
       "主打企業級私密 AI 搜尋"
     ],
     "why_it_matters": "DocsGPT 以高星數證明市場需求，為企業與開發者提供開源替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "github_search",
@@ -95,6 +101,8 @@
       "旨在提升公民AI素養與負責任使用"
     ],
     "why_it_matters": "此合作代表AI普及化的重要里程碑，若成功推行可能成為其他國家參考的範本，推動更多政府與AI企業合作的模式出現。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "hot-topics",
       "rss",
@@ -121,6 +129,8 @@
       "以 Python 開發，GitHub 獲得 122 顆星"
     ],
     "why_it_matters": "將自然語言處理能力融入智慧家庭場景，降低了一般用戶設定自動化規則的技術門檻，是代理技能落地日常生活的實用範例。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "github_search",
@@ -147,6 +157,8 @@
       "將原始工作資料轉化為結構化文件"
     ],
     "why_it_matters": "此指南顯示AI助理正深入企業營運核心流程，有助於提升企業內部協作效率，降低行政作業負擔。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "rss",
@@ -172,6 +184,8 @@
       "強化企業文件處理與分析能力"
     ],
     "why_it_matters": "GPT-5.5在企業應用領域的表現獲肯定，將加速AI代理技術在企業環境中的實際部署與應用。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "new-models",
       "rss",
@@ -197,6 +211,8 @@
       "協助建立儀表板規格文件"
     ],
     "why_it_matters": "Codex在數據科學領域的應用展現AI助理在專業技術工作中的實用價值，有助於數據團隊提高分析效率與產出品質。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "rss",
@@ -222,6 +238,8 @@
       "幫助診斷停滯交易原因"
     ],
     "why_it_matters": "AI助理在銷售領域的應用有助於縮短銷售準備時間，提升客戶互動品質與交易成交率。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "rss",
@@ -237,7 +255,7 @@
     "source": "Hugging Face Trending Models",
     "source_url": "https://huggingface.co",
     "original_url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium",
-    "published_at": "2026-05-13T21:35:58.67911+00:00",
+    "published_at": "2026-05-13T21:35:58.679110+00:00",
     "category": "new-models",
     "summary": "Stable Diffusion 3 Medium 是 Stability AI 推出的最新文字生成圖像模型，採用創新的擴散架構，在影像品質和文字理解方面有顯著提升。",
     "highlights": [
@@ -248,6 +266,8 @@
       "支援英文提示詞輸入"
     ],
     "why_it_matters": "SD3 Medium 的發布顯示生成式 AI 在圖像品質和Prompt遵循度上的持續進步，為創意應用提供更強大工具。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "new-models",
       "hf_models",
@@ -274,6 +294,8 @@
       "Hugging Face 平台上獲得超過 5000 個讚"
     ],
     "why_it_matters": "BLOOM 展示開源社區協作打造大型多語言模型的能力，對研究低資源語言處理和促進AI民主化具有重要意義。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "open-source-ai",
       "hf_models",
@@ -300,6 +322,8 @@
       "效能領先，在 ASR 基準測試中表現優異"
     ],
     "why_it_matters": "Whisper 的開源大幅提升了語音轉文字技術的可及性，其多語言支援和開源特性使其成為會議紀錄、字幕生成、語音分析等應用的核心技術，對各行業的數位轉型有深遠影響。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "open-source-ai",
       "hf_models",
@@ -326,6 +350,8 @@
       "可用於建構 AI 代理和對話系統"
     ],
     "why_it_matters": "Llama 3.1 8B-Instruct 的多語言能力和開源特性，使其成為亞洲市場本地化 AI 應用的重要基石，對繁體中文對話式 AI 的發展具有關鍵價值。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "new-models",
       "hf_models",
@@ -352,6 +378,8 @@
       "支援英文語音合成，音色自然度佳"
     ],
     "why_it_matters": "Kokoro-82M 的出現讓開發者能以極低成本整合高品質語音合成功能，對智慧助理、無障礙應用、有聲書等領域有重要推動作用，是邊緣 AI 應用的優秀案例。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "open-source-ai",
       "hf_models",
@@ -378,6 +406,8 @@
       "可用於研究和商業場景（需遵守授權條款）"
     ],
     "why_it_matters": "Llama 3 8B 的開源推動了大型語言模型的普及化，其高效能與相對較小的參數量使其成為本地部署和邊緣運算的理想選擇，對開源 AI 生態影響深遠。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "new-models",
       "hf_models",
@@ -404,6 +434,8 @@
       "衍生版本眾多，生態系統成熟"
     ],
     "why_it_matters": "Stable Diffusion 開源後大幅降低了 AI 繪圖的技術門檻，催生了大量應用和商業模式。v1-4 版本作為早期經典版本，至今仍是許多新技術比較的基準參照點。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "open-source-ai",
       "hf_models",
@@ -430,6 +462,8 @@
       "擁有超過 36,000 GitHub 星星與活躍社群"
     ],
     "why_it_matters": "LibreChat 為企業與開發者提供了一個無需依賴官方 API 的自托管 AI 聊天方案，大幅降低使用成本並提升資料隱私保障。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "open-source-ai",
       "github_search",
@@ -457,6 +491,8 @@
       "擁有超過 31,000 星星與活躍開發社群"
     ],
     "why_it_matters": "前端與 AI 的結合是構建智慧應用的關鍵，CopilotKit 大幅降低了開發者整合 AI Agent 能力的技術門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "github_search",
@@ -484,6 +520,8 @@
       "獲得 45k GitHub 星標，社群關注度極高"
     ],
     "why_it_matters": "Goose 將 AI 助理從被動建議升級為主動執行，Rust 的高效能特性使其成為追求實用性與安全的開發團隊理想選擇，45k 星標反映其實際價值受到廣泛認可。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "github_search",
@@ -511,6 +549,8 @@
       "已有 1100+ GitHub stars"
     ],
     "why_it_matters": "Inkeep 降低了 AI Agent 開發的技術門檻，讓非工程師也能快速構建和部署智慧代理，加速企業 AI 應用落地。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "github_search",
@@ -538,6 +578,8 @@
       "JavaScript/TypeScript 開源項目"
     ],
     "why_it_matters": "Ethora 為區塊鏈應用提供即時通訊和 AI 助理能力，有助於推動 Web3 應用的智能化，促進加密貨幣與生成式 AI 的結合。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "github_search",
@@ -565,6 +607,8 @@
       "擁有超過 32,000 星星的開源社群"
     ],
     "why_it_matters": "AstrBot 讓開發者能夠輕鬆將 AI 助理部署到使用者活跃的即時通訊平台，大幅擴展了 AI Agent 的實際應用場景與使用者觸達率。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "github_search",
@@ -591,6 +635,8 @@
       "下載量突破 380 萬次"
     ],
     "why_it_matters": "DeepSeek-R1 為開源推論模型樹立新標竿，其高效能與開源特性將加速 AI 應用落地與研究創新。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "open-source-ai",
       "hf_models",
@@ -616,6 +662,8 @@
       "超過 73 萬次下載"
     ],
     "why_it_matters": "FLUX.1-dev 以開源方式提供高品質圖像生成能力，將與 Midjourney 等商業方案競爭，推動生成式 AI 普及。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "open-source-ai",
       "hf_models",
@@ -642,6 +690,8 @@
       "支援高度自定義助理配置"
     ],
     "why_it_matters": "讓開發者能在一個統一介面中管理多個 AI 代理，尤其適合需要同時調度多種工具的複雜工作流程程。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "github_search",
@@ -669,6 +719,8 @@
       "Python 友好，易於整合"
     ],
     "why_it_matters": "在大模型落地應用中，推論效率直接決定成本與體驗，SGLang 提供開源方案協助企業以更低資源實現高效服務。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "open-source-ai",
       "github_search",
@@ -696,6 +748,8 @@
       "持續更新領先的模型架構"
     ],
     "why_it_matters": "作為機器學習領域最基礎的工具之一，Transformers 的更新直接影響全球數百萬開發者的模型選擇與部署策略。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "new-models",
       "github_search",
@@ -723,6 +777,8 @@
       "輕量化設計適配邊緣設備"
     ],
     "why_it_matters": "Rust 帶來的安全高效與跨平台特性，使其成為部署 AI 代理到各類環境的理想選擇，尤其適合追求效能與可控性的開發團隊。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "open-source-ai",
       "github_search",
@@ -750,6 +806,8 @@
       "開源免費，TypeScript 開發"
     ],
     "why_it_matters": "以一站式平台簡化 AI 工具使用，降低學習門檻同時提升團隊協作效率，對個人開發者和企業用戶皆具吸引力。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "open-source-ai",
       "github_search",
@@ -777,6 +835,8 @@
       "整合發現、構建與協作三大核心功能"
     ],
     "why_it_matters": "lobehub 提出的多 Agent 協作概念反映 AI 應用從單一代理走向複雜系統的趨勢，其「Agent 為單位」的工作模式可能成為未來人機協作的新範式。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "github_search",
@@ -804,6 +864,8 @@
       "已有實際生產環境部署案例"
     ],
     "why_it_matters": "dify 的高星標數與生產就緒特性，反映市場對低門檻 Agent 開發工具的強烈需求，是當前建構企業 AI 工作流程的主流選擇之一。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "github_search",
@@ -830,6 +892,8 @@
       "沙盒設計平衡安全性與程式碼執行效率"
     ],
     "why_it_matters": "安全沙盒是企業大規模部署 AI 程式碼工具的基礎設施保障，能讓開發者在享受 AI 輔助便利的同時，確保系統安全與企業資料不受威脅。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "hot-topics",
       "rss",
@@ -856,6 +920,8 @@
       "使用 Python 開發生態整合順暢"
     ],
     "why_it_matters": "Xinference 解決了模型部署碎片化問題，讓企業能夠統一管理與調度多個 AI 模型，提升開發效率並降低運維成本。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "new-models",
       "github_search",
@@ -883,6 +949,8 @@
       "由 InternLM 團隊維護，品質有一定保證"
     ],
     "why_it_matters": "MoE 模型是當前大模型發展的重要方向，xtuner 提供開源解決方案，有助於降低研究機構和企業訓練超大模型的技術門檻，加速 AI 基礎設施的民主化。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "open-source-ai",
       "github_search",
@@ -910,6 +978,8 @@
       "可處理文字、語音、圖片、檔案等多模態輸入"
     ],
     "why_it_matters": "CowAgent 整合多平台接入與多模型支援，大幅降低個人及企業部署 AI 助理的門檻，具備實際應用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "github_search",
@@ -937,6 +1007,8 @@
       "以 Java 為核心，適合企業級開發場景"
     ],
     "why_it_matters": "結合 AI 能力的低代碼平台可大幅降低企業內部系統開發門檻，JeecgBoot 藉 46k 星的高關注度證明市場對 AI 辅助開發現有需求，為企業數位化提供捷徑。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "open-source-ai",
       "github_search",
@@ -964,6 +1036,8 @@
       "Python 開源框架已有 2700+ stars"
     ],
     "why_it_matters": "HELM 為 AI 業界提供統一的模型評測標準，有助於解決評測碎片化問題，讓開發者和研究者能更公平地比較模型性能。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "new-models",
       "github_search",
@@ -990,6 +1064,8 @@
       "公司正加強對軟體供應鏈威脅的防禦能力"
     ],
     "why_it_matters": "供應鏈攻擊已成為近年最嚴重的資安威脅之一，OpenAI 的回應與防護措施為業界提供了重要的安全實踐參考。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "hot-topics",
       "rss",
@@ -1014,6 +1090,8 @@
       "Can be self-hosted, which matters for private automation."
     ],
     "why_it_matters": "Agent workflows become more useful when they can trigger reliable tools, route approvals, and connect to existing systems. n8n is one of the practical bridges between AI ideas and repeatable operations.",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "workflow",
@@ -1039,6 +1117,8 @@
       "Best treated as a project to evaluate, not as a finished product claim."
     ],
     "why_it_matters": "Many newer agent tools still borrow concepts from early AutoGPT-style workflows: task loops, tool use, planning, and human-visible automation traces.",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "open-source",
@@ -1063,6 +1143,8 @@
       "Useful to compare against code-first agent frameworks."
     ],
     "why_it_matters": "Visual agent builders are becoming a serious category because teams need to inspect, edit, and explain agent flows before trusting them in production.",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "workflow",
@@ -1088,6 +1170,8 @@
       "從原始資料快速生成規劃情境"
     ],
     "why_it_matters": "AI 代理正在重塑金融工作流程程，讓分析師能專注於高價值的策略分析，而非耗時的資料整理與報告製作。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "rss",
@@ -1113,6 +1197,8 @@
       "兼顧開發效率提升與品質標準維護"
     ],
     "why_it_matters": "AutoScout24 的成功案例證明 AI 工具能有效協助中型科技團隊在競爭激烈的市場中保持技術領先優勢。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "rss",
@@ -1138,6 +1224,8 @@
       "累積大量人機協作研究方法論數據"
     ],
     "why_it_matters": "這類社群實驗有助於識別 AI 輔助研究的有效範式與當前限制，為未來研究工具的改進方向提供實證基礎。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "hot-topics",
       "rss",
@@ -1164,6 +1252,8 @@
       "可整合 Claude Code 使用"
     ],
     "why_it_matters": "此工具讓 Mac 用戶能在本地高效運行大語言模型，降低 AI 應用開發的硬體門檻，促進邊緣 AI 運算的普及。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "open-source-ai",
       "github_search",
@@ -1171,31 +1261,6 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/6794828?v=4",
-    "public_notes": "Reviewed daily crawler item. Original link preserved."
-  },
-  {
-    "id": "2026-05-14-ai",
-    "title": "企業AI規模化部署實踐指南",
-    "title_original": "How enterprises are scaling AI",
-    "source": "OpenAI Blog",
-    "source_url": "https://openai.com/news/rss.xml",
-    "original_url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
-    "published_at": "2026-05-11T10:00:00+00:00",
-    "category": "hot-topics",
-    "summary": "OpenAI Business發布企業AI規模化指南，闡述從早期實驗走向規模化應用的關鍵要素，包括建立信任、完善治理、優化工作流程程設計與提升輸出品質等核心原則。",
-    "highlights": [
-      "強調信任與治理機制建立",
-      "工作流程程設計優化為關鍵步驟",
-      "品質一致性是規模化基礎",
-      "需從實驗階段逐步過渡至系統性部署"
-    ],
-    "why_it_matters": "為企業提供明確的AI落地路徑參考，降低部署失敗風險，有助於加速AI在商業環境中的實際應用與價值創造。",
-    "tags": [
-      "hot-topics",
-      "rss",
-      "en"
-    ],
-    "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
@@ -1215,6 +1280,35 @@
       "促進跨校交流與連結"
     ],
     "why_it_matters": "此計畫有助於在年輕世代中推廣AI應用，為未來AI人才培育與社區建設奠定基礎，對AI教育普及具有長期正面影響。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-14-ai",
+    "title": "企業AI規模化部署實踐指南",
+    "title_original": "How enterprises are scaling AI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+    "published_at": "2026-05-11T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI Business發布企業AI規模化指南，闡述從早期實驗走向規模化應用的關鍵要素，包括建立信任、完善治理、優化工作流程程設計與提升輸出品質等核心原則。",
+    "highlights": [
+      "強調信任與治理機制建立",
+      "工作流程程設計優化為關鍵步驟",
+      "品質一致性是規模化基礎",
+      "需從實驗階段逐步過渡至系統性部署"
+    ],
+    "why_it_matters": "為企業提供明確的AI落地路徑參考，降低部署失敗風險，有助於加速AI在商業環境中的實際應用與價值創造。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "hot-topics",
       "rss",
@@ -1240,6 +1334,8 @@
       "填補技術與應用之間的落地缺口"
     ],
     "why_it_matters": "此舉顯示OpenAI正積極拓展企業服務市場，透過專業部署服務協助客戶充分發揮AI潛力，對企業AI採用生態具有推動作用。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "hot-topics",
       "rss",
@@ -1266,6 +1362,8 @@
       "獲得 39k GitHub 星標，企業應用廣泛"
     ],
     "why_it_matters": "在 RAG 與 Agent 應用火熱之際，MindsDB 解決了 AI 存取企業資料的難題，使 Agent 能安全便捷地查詢各類資料源，為企業級 AI 應用提供關鍵基礎設施。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "github_search",
@@ -1293,6 +1391,8 @@
       "累積超過 34,000 星星廣受開發者關注"
     ],
     "why_it_matters": "隨著 AI Agent 需求增長，系統性學習 LLM 與 RAG 技術已成為工程師必備技能，此教程填補了市場上缺乏實戰導向教材的缺口。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "github_search",
@@ -1320,6 +1420,8 @@
       "獲得超過 33,000 星星人氣持續攀升"
     ],
     "why_it_matters": "多模態 Agent 是未來 AI 發展的重要方向，UI-TARS 為開發者提供了一個可直接使用的開源參照實現，加速產業應用落地。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "github_search",
@@ -1346,6 +1448,8 @@
       "可用於構建多用途智慧代理"
     ],
     "why_it_matters": "多模態長上下文模型是AI代理發展的關鍵技術，Nemotron 3 Nano Omni 的發布代表NVIDIA在智慧代理領域的重要布局，為開發者提供更強大的多模態處理工具。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "new-models",
       "rss",
@@ -1371,6 +1475,8 @@
       "平衡資料安全與AI功能需求"
     ],
     "why_it_matters": "隱私保護是AI網頁應用開發的核心挑戰，此技術為開發者提供實用工具，在確保資料安全合規的前提下充分發揮AI能力，對企業級應用部署具有重要參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "agent-skills",
       "rss",
@@ -1396,6 +1502,8 @@
       "降低長程對話理解的技術門檻"
     ],
     "why_it_matters": "百萬Token上下文能力是AI模型的重要里程碑，使代理系統能夠處理真正大型的任務如完整代碼庫分析、厚重文件理解等，為AI應用開闢更廣闘的應用場景。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "new-models",
       "rss",
@@ -1421,6 +1529,8 @@
       "提供標準化模型評測基準"
     ],
     "why_it_matters": "阿拉伯語AI資源相對匱乏，QIMMA 排行榜的推出將幫助研究者識別優質阿拉伯語模型，推動該領域的技術進步與應用創新，對語言多樣性AI發展具有重要意義。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "open-source-ai",
       "rss",
@@ -1447,6 +1557,8 @@
       "Fortune 500企業中已有31%採用Railway平台"
     ],
     "why_it_matters": "Railway的快速發展顯示，開發者對傳統雲端巨頭的不滿正為新興基礎設施公司開闢機會。隨著AI編碼工具普及，更快速、更經濟的部署需求正在急速增長。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "ai-deals",
       "rss",
@@ -1473,6 +1585,8 @@
       "Block創辦人Jack Dorsey旗下公司主導開發"
     ],
     "why_it_matters": "Goose的崛起代表開發者社區對昂貴AI工具的不滿。當開源模型能力持續追趕商業方案，免費替代品的出現可能重塑AI編碼工具市場的價格結構。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "hot-topics",
       "rss",
@@ -1499,6 +1613,8 @@
       "已執行超過100萬次AI驅動的客戶訪談"
     ],
     "why_it_matters": "Listen Labs展示AI如何變革市場研究行業。當研究成本大幅下降，Jevons悖論效應顯現——更便宜的研究工具反而創造更大需求，為企業客戶理解帶來全新商業模式。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "ai-deals",
       "rss",
@@ -1525,6 +1641,8 @@
       "將於2026年支援Google Gemini等其他AI模型"
     ],
     "why_it_matters": "Salesforce將Slackbot定位為企業AI的核心入口，與Microsoft Copilot和Google Gemini正面競爭。將AI直接嵌入員工已熟悉的工作工具，可能是企業AI普及的關鍵策略。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "hot-topics",
       "rss",
@@ -1551,6 +1669,8 @@
       "計劃未來支援跨設備同步和Windows版本"
     ],
     "why_it_matters": "Cowork的出現代表AI助理從單純的對話工具進化為可實際操作檔案的代理。AI系統用於加速自身開發的循環模式，預示AI能力將以超出組織評估速度持續增長。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "new-models",
       "rss",
@@ -1577,6 +1697,8 @@
       "研究人員指出競爭程式設計領域的高品質資料已接近耗盡邊緣"
     ],
     "why_it_matters": "此模型展示開源社群能在極短時間內打造比肩專有系統的程式碼模型，且完全開源訓練流程降低研究壁壘，對推動 AI 程式設計民主化具有重要意義。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "open-source-ai",
       "rss",
@@ -1603,6 +1725,8 @@
       "Claude Code 已據報達到年營收 10 億美元，驗證循環被視為關鍵成功因素"
     ],
     "why_it_matters": "這套工作流程程揭示 AI 程式設計已從自動補全進化為代理人作業系統，單人可發揮小型工程團隊產能。開發者從中學習如何有效管理 AI 代理、減少校正成本並建立持續學習機制。",
+    "automation_angle": null,
+    "automation_angle_zh": null,
     "tags": [
       "hot-topics",
       "rss",
