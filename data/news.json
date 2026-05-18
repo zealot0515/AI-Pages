@@ -1,24 +1,24 @@
 [
   {
     "id": "2026-05-18-minimax-token-plan",
-    "title": "MiniMax Token Plan 官方文件揭露全模態支援範圍",
+    "title": "MiniMax Token Plan 揭露全譜系多模態支援",
     "title_original": "MiniMax Token Plan documents full-spectrum multimodal access",
     "source": "Manual Seed Links",
     "source_url": "https://platform.minimax.io",
     "original_url": "https://platform.minimax.io/docs/token-plan/intro",
-    "published_at": "2026-05-18T17:28:00.953503+00:00",
+    "published_at": "2026-05-18T21:32:11.459600+00:00",
     "category": "new-models",
-    "summary": "MiniMax 官方文檔確認 Token Plan 涵蓋文字、語音、視訊、音樂、影像模型，M2.7 有請求配額，非文字模型另有每日配額，是了解 MiniMax 實際能力邊界的重要官方參考。",
+    "summary": "MiniMax 官方文件顯示 Token Plan 涵蓋文字、語音、影片、音樂、圖像模型，並有 M2.7 的請求配額與非文字模型獨立每日配額。技術用戶可據此評估整合可行性。",
     "highlights": [
-      "文字模型（推測含 M2.7）有獨立請求配額限制",
-      "語音、視訊、音樂、影像各有每日配額，分開計算",
-      "MiniMax 已具備多模態矩陣，非單一文字模型",
-      "Token Plan 是官方文件，可作為能力邊界依據",
-      "可用於與 M3 謠傳對照，確認多模態支援是否為既有規劃"
+      "Token Plan 官方文件，可信度高",
+      "支援文字、語音、影片、音樂、圖像五類模型",
+      "M2.7 有獨立請求配額（requests quota）",
+      "非文字模型另有獨立每日配額（daily quota）",
+      "可作為 MiniMax 產品能力官方參考基準"
     ],
-    "why_it_matters": "官方文檔確立了 MiniMax 已有完整多模態矩陣，有助開發者評估其在 AI 自動化工作中的實際可用性。",
+    "why_it_matters": "這是 MiniMax 多模態能力的官方一手資料，技術用戶可用來對比 M3 傳聞與實際產品的落差，判斷是否值得投入整合。",
     "automation_angle": null,
-    "automation_angle_zh": "開發者查閱 token-plan 頁面可系統性評估各模態配額與費用結構，規劃多模態工作流程整合方案。",
+    "automation_angle_zh": "技術用戶可依 Token Plan 配額計算成本，用 API 串接圖像與語音模型，測試文件處理流水線中的多模態輸入整合。",
     "tags": [
       "new-models",
       "manual_seed",
@@ -26,6 +26,405 @@
     ],
     "image_url": "",
     "public_notes": "Manual seed reviewed by crawler. Original link preserved."
+  },
+  {
+    "id": "2026-05-18-openhuman-ai-agent",
+    "title": "OpenHuman：本地優先個人 AI Agent，含記憶樹與整合支援",
+    "title_original": "OpenHuman: local-first personal AI agent with memory tree and integrations",
+    "source": "Manual Seed Links",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tinyhumansai/openhuman",
+    "published_at": "2026-05-18T21:32:11.459511+00:00",
+    "category": "open-source-ai",
+    "summary": "OpenHuman 是開源桌面 Agent 框架，主打隱私優先的本地個人 AI。核心功能包括記憶樹（Memory Tree）、本地優先上下文、多模型路由、語音、網頁搜尋與截圖。現為早期 beta 版本，功能聲稱待驗證。",
+    "highlights": [
+      "開源桌面 Agent 工具箱，可在本機運行保護隱私",
+      "記憶樹結構追蹤對話歷史與長期上下文",
+      "支援模型路由與 Token 壓縮降低 API 成本",
+      "整合語音、網頁爬取等多種輸入模式",
+      "現為 beta，功能穩定性待社群驗證"
+    ],
+    "why_it_matters": "個人 AI Agent 走向本地化是趨勢，OpenHuman 將記憶管理與隱私整合進同一框架，技術用戶可評估其是否勝過現有解決方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝後將其作為本地個人助理，測試記憶樹是否能取代外部笔记工具處理長期任務追蹤。",
+    "tags": [
+      "open-source-ai",
+      "manual_seed",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Manual watch item. Original link preserved; verify source strength before acting."
+  },
+  {
+    "id": "2026-05-18-shokunin-62-ai",
+    "title": "Shokunin 職人技能集：62 種 AI 代理能力框架",
+    "title_original": "EliasOulkadi/shokunin",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/EliasOulkadi/shokunin",
+    "published_at": "2026-05-18T21:32:01Z",
+    "category": "agent-skills",
+    "summary": "職人 Shokunin 提供 62 種 AI 代理技能，專為 OpenCode、Claude Code、Cursor、Windsurf 設計，整合 ChromaDB 向量記憶、MCP 伺服器與聲明式自我更新，多模型支援且開源零成本。",
+    "highlights": [
+      "62 種專業 AI 代理技能即取即用",
+      "ChromaDB 向量記憶實現長期脈絡保持",
+      "MCP 伺服器整合擴展工具邊界",
+      "聲明式自我更新機制保持技能最新",
+      "完全開源免費，無供應商鎖定"
+    ],
+    "why_it_matters": "擴展 AI 代理技能邊界，透過向量記憶與自我更新機制，可打造更持久、更智慧的自動化工作流程程。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可選用 Shokunin 技能集快速增強 AI 代理能力，透過 ChromaDB 記憶系統實現跨工作階段的脈絡保持。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "HTML"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/170938260?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-18-roam-code-cli",
+    "title": "Roam Code：本地端程式碼智慧 CLI 工具",
+    "title_original": "Cranot/roam-code",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Cranot/roam-code",
+    "published_at": "2026-05-18T21:27:56Z",
+    "category": "open-source-ai",
+    "summary": "本地端程式碼智慧 CLI，內建 SQLite 程式碼圖譜，支援 28 種語言、238 個命令、224 個 MCP 工具整合，提供變更安全閘道與審計證據，無需 API 金鑰。",
+    "highlights": [
+      "SQLite 本地程式碼圖譜，無需雲端依賴",
+      "支援 28 種程式語言的深度理解",
+      "238 個命令與 224 個 MCP 工具整合",
+      "變更安全閘道功能，防止破壞性重構",
+      "零 API 金鑰需求，保護程式碼隱私"
+    ],
+    "why_it_matters": "本地端程式碼理解工具可強化 AI 代理對專案架構的掌握度，降低對雲端 API 的依賴，同時提升隱私安全性。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可整合 Roam Code 至 CI/CD 流程，運用其程式碼圖譜功能自動驗證大型重構的安全性與影響範圍。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/44682693?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-18-rocketride-server-c-ai",
+    "title": "rocketride-server：C++ 高效能 AI 流水線引擎",
+    "title_original": "rocketride-org/rocketride-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/rocketride-org/rocketride-server",
+    "published_at": "2026-05-18T21:27:40Z",
+    "category": "agent-skills",
+    "summary": "RocketRide Server 是一款高效能 AI 流水線引擎，C++ 核心搭配 50+ Python 擴充節點。支援 13+ 模型供應商、8+ 向量資料庫與 Agent 編排，含 VS Code 擴充功能、SDK 與 Docker 部署。",
+    "highlights": [
+      "C++ 高效能核心，Python 擴充彈性佳",
+      "支援 13+ 模型供應商與 8+ 向量資料庫",
+      "含 VS Code 擴充與完整 SDK，方便 IDE 整合",
+      "提供 Agent 編排與 Docker 部署方案",
+      "GitHub 星星 3,000+，生態持續成長"
+    ],
+    "why_it_matters": "對需要處理大量推論請求的技術團隊，C++ 核心提供低延遲與高吞吐量，Python 節點則保持擴充靈活性，是值得評估的 Agent 基礎設施。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可用 Docker 快速啟動本地實驗環境，測試多模型路由與向量檢索流水線，評估是否能替代現有 LangChain 方案。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C++"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/258325502?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-18-ingero-gpu-ebpf-agent-mcp",
+    "title": "ingero：GPU 因果可觀測性 eBPF Agent 與 MCP 伺服器",
+    "title_original": "ingero-io/ingero",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ingero-io/ingero",
+    "published_at": "2026-05-18T21:24:21Z",
+    "category": "agent-skills",
+    "summary": "ingero 是一款以 C 語言實作的開源工具，結合 eBPF 技術與 MCP 伺服器，提供 GPU 運算的因果可觀測性。能追蹤 GPU 事件並暴露給 AI Agent，幫助理解模型訓練與推論過程中的資源調度行為。",
+    "highlights": [
+      "C 語言實作，效能導向，記憶體佔用低",
+      "eBPF 核心層追蹤，無需修改目標程式碼",
+      "MCP 協定介面相容 AI Agent 接入",
+      "聚焦 GPU 因果鏈追蹤而非傳統指標監控"
+    ],
+    "why_it_matters": "LLM 訓練與推論的 GPU 行為往往是黑盒子，ingero 可幫助 ML 工程師與 AI Agent 理解資源競爭與效能瓶頸的因果關係。",
+    "automation_angle": null,
+    "automation_angle_zh": "ML 平台工程師可將此整合進監控系統，讓 AI Agent 在偵測到 GPU 異常時自動分析根因並建議緩解策略。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/261648352?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-18-googleapis-mcp-toolbox-google-mcp",
+    "title": "googleapis/mcp-toolbox：Google 開源 MCP 資料庫工具箱",
+    "title_original": "googleapis/mcp-toolbox",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/googleapis/mcp-toolbox",
+    "published_at": "2026-05-18T21:20:42Z",
+    "category": "open-source-ai",
+    "summary": "Google 官方團隊發布的 MCP Toolbox for Databases 是一個開源 MCP 伺服器，專為資料庫操作設計，基於 Go 語言，獲得超過 15,000 GitHub 星星，迅速竄升至 MCP 專案排行榜。",
+    "highlights": [
+      "Google 官方團隊維護，可信度與支援高",
+      "基於 Go 語言，效能佳且易部署",
+      "GitHub星星超過 15,000，社群熱度高",
+      "屬 Model Context Protocol（MCP）生態系",
+      "可直接讓 AI Agent 安全存取資料庫"
+    ],
+    "why_it_matters": "Google 官方的 MCP 資料庫工具代表 MCP 生態正走向企業級應用，技術用戶可用它快速為 AI Agent 建置受控的資料庫查詢能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可用 pip install 或 Docker 快速部署，立即讓 LLM Agent 以安全、受控方式查詢 SQL 資料庫，取代直接暴露資料庫帳密的舊模式。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/16785467?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-18-pentest-mcp-server-mcp",
+    "title": "pentest-mcp-server：滲透測試 MCP 伺服器開源專案",
+    "title_original": "exjskdjsdfks/pentest-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/exjskdjsdfks/pentest-mcp-server",
+    "published_at": "2026-05-18T21:08:21Z",
+    "category": "open-source-ai",
+    "summary": "一款新興開源工具，讓 AI Agent 能對 Linux 環境執行自動化滲透測試。透過 Model Context Protocol 建立持久連線，提升 Agent 在資安測試場景的穩定性與可控性。目前僅 13 顆星，但概念具體可落地。",
+    "highlights": [
+      "基於 Model Context Protocol 架構，支援持久化連線",
+      "瞄準 Linux 環境滲透測試自動化場景",
+      "Python 實作，技術門檻適中",
+      "可與現有 Agent 系統整合進行資安審計"
+    ],
+    "why_it_matters": "資安審計重複性高，此 MCP Server 可讓 Agent 自動執行滲透測試流程，工程師能專注解讀結果而非手動操作工具鏈。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將此 MCP Server 整合進現有 CI/CD 流程，設計自動化資安掃描管線，定時對部署環境執行黑箱滲透測試。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/183780180?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-18-hol-guard-ai",
+    "title": "Hol Guard：AI 代理的安全防護罩",
+    "title_original": "hashgraph-online/hol-guard",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/hashgraph-online/hol-guard",
+    "published_at": "2026-05-18T21:06:28Z",
+    "category": "agent-skills",
+    "summary": "專為開發者代理設計的 AI 病毒防護工具，在工具執行前對 Codex、Claude Code、Cursor、OpenCode 等主流 AI 代理進行安全檢查與惡意工具偵測。",
+    "highlights": [
+      "支援主流 AI 程式碼代理的安全檢測",
+      "MCP 伺服器與插件防護整合",
+      "覆蓋完整 AI 工具鏈的安全檢查",
+      "提供威脅偵測與即時阻斷能力",
+      "開源且可本地部署審計"
+    ],
+    "why_it_matters": "AI 代理可能執行惡意工具或被挾持，造成安全漏洞。Hol Guard 提供主動式防護，可在危害發生前阻斷可疑操作。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業安全團隊可將 Hol Guard 整合至 AI 代理工作流程程，自動阻擋可疑工具呼叫並記錄完整審計日誌。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/160371962?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-18-claude-code",
+    "title": "Claude Code 團隊入職工具套件",
+    "title_original": "kumaran-is/claude-code-onboarding",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/kumaran-is/claude-code-onboarding",
+    "published_at": "2026-05-18T21:05:09Z",
+    "category": "agent-skills",
+    "summary": "Claude Code 的團隊入職工具包，預設整合代理、技能、斜線命令與 MCP，支援 Java 21/Spring Boot WebFlux、Angular、Flutter、PostgreSQL、Firebase 等技術棧，Clone 即可開始建置。",
+    "highlights": [
+      "開箱即用的 Claude Code 團隊配置",
+      "涵蓋 Java 21、Angular、Flutter 等主流框架",
+      "PostgreSQL 與 Firebase 資料庫整合預設",
+      "預先配置的代理技能與 MCP 工具鏈",
+      "一鍵複製安裝，縮短團隊準備時間"
+    ],
+    "why_it_matters": "將 Claude Code 標準化為團隊工具有助於新人快速上手，同時確保程式碼品質與工具使用的一致性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術主管可使用此工具包建立團隊統一的 AI 程式碼輔助標準，自動化新進成員的開發環境配置流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6869139?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-18-moltis-rust-agent",
+    "title": "moltis：Rust 打造的 安全持久個人 Agent 伺服器",
+    "title_original": "moltis-org/moltis",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/moltis-org/moltis",
+    "published_at": "2026-05-18T20:56:29Z",
+    "category": "agent-skills",
+    "summary": "Moltis 是一款 Rust 開發的安全個人 Agent 伺服器，單一二進位、沙盒執行，支援多供應商 LLM、語音、記憶、Telegram、WhatsApp、Discord、Teams 與 MCP 工具整合。",
+    "highlights": [
+      "Rust 語言開發記憶體安全，單一二進位部署簡便",
+      "沙盒執行環境提升安全性，隔離風險",
+      "支援多個即時通訊平台：Telegram/WhatsApp/Discord/Teams",
+      "整合 MCP 工具擴充生態，記憶與語音模組內建",
+      "在個人硬體上運行，資料不出本機"
+    ],
+    "why_it_matters": "Moltis 將安全、隱私與多平台整合整合成單一解決方案，對希望自架 Agent 而不依賴雲端的技術用戶提供高價值起點。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在樹莓派或個人伺服器上部署 Moltis，用 Telegram 指令控制本地 Agent，測試跨平台自動化工作流程的可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/258745078?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-18-fast-mcp-telegram-ai-telegram",
+    "title": "Fast MCP Telegram：橋接 AI 代理與 Telegram 生態",
+    "title_original": "leshchenko1979/fast-mcp-telegram",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/leshchenko1979/fast-mcp-telegram",
+    "published_at": "2026-05-18T20:49:58Z",
+    "category": "agent-skills",
+    "summary": "Telegram MCP 伺服器，支援 HTTP-MTProto 橋接、直接 API/curl 存取、多使用者 Bearer 認證、檔案附件、語音轉文字，Docker 部署並最佳化上下文以降低 Token 消耗。",
+    "highlights": [
+      "HTTP-MTProto 橋接突破網路限制",
+      "多使用者 Bearer 認證機制",
+      "支援檔案附件與語音轉文字功能",
+      "Docker 容器化快速部署",
+      "上下文最佳化減少 API 成本"
+    ],
+    "why_it_matters": "將 Telegram 訊息生態與 AI 代理整合，可開發 Telegram 介面的 AI 助理或自動化訊息處理流程，擴展 AI 觸及範圍。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可使用此專案建立 Telegram AI 助理，自動化客服、監控警報或團隊協作流程，並利用上下文最佳化降低 API 成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/60138889?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-18-mcp-gateway-ai",
+    "title": "MCP Gateway 登錄系統：企業級 AI 工具治理方案",
+    "title_original": "agentic-community/mcp-gateway-registry",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/agentic-community/mcp-gateway-registry",
+    "published_at": "2026-05-18T19:32:07Z",
+    "category": "agent-skills",
+    "summary": "企業級 MCP 閘道器與登錄系統，支援 OAuth 認證、動態工具探索，整合 Keycloak/Entra ID，實現 AI 代理與程式碼助理的統一安全存取管控。",
+    "highlights": [
+      "支援 OAuth 2.0 認證機制，企業 SSO 整合",
+      "動態工具發現與註冊，治理混亂的 MCP 伺服器",
+      "Keycloak 與 Microsoft Entra ID 整合能力",
+      "提供審計追蹤與合規報告功能",
+      "適用於自主式 AI 代理與 AI 程式碼輔助工具"
+    ],
+    "why_it_matters": "企業部署 AI 工具時，治理與安全是首要挑戰。此專案提供集中化管控機制，可降低 AI 工具散落所帶來的安全與合規風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術主管可用此專案統一管理組織內的 MCP 工具存取，透過 OAuth 實現細粒度權限控制並生成審計日誌。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/207105784?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-18-github-copilot-agent-rest-api",
+    "title": "GitHub 推出 Copilot 雲端 Agent 組態稽核 REST API",
+    "title_original": "Audit repository Copilot cloud agent configuration via the REST API",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-05-18-audit-repository-copilot-cloud-agent-configuration-via-the-rest-api",
+    "published_at": "2026-05-18T16:43:19+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 新增公開預覽 REST API，可透過程式化方式稽核 repository 的 Copilot 雲端 Agent 設定。支援查詢組織層級與 repository 層級的配置狀態，便於大規模管理與合規查核。",
+    "highlights": [
+      "公開預覽階段，功能仍在演進",
+      "可稽核 Copilot 雲端 Agent 的啟用狀態與權限設定",
+      "支援批量查詢，適合大型組織管理",
+      "可用於自動化合規報告生成"
+    ],
+    "why_it_matters": "企業導入 Copilot 需面對治理與合規要求，此 API 讓 DevOps 團隊能自動化稽核所有 repository 的 Copilot 設定，降低人為錯誤與管理成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "資安或 DevOps 工程師可寫腳本定期掃描組織內所有 repository 的 Copilot 設定，超出口袋名單或未授權配置的立即告警。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-18-copilot-spaces-api-ga",
+    "title": "Copilot Spaces API 正式發布 GA 版",
+    "title_original": "Copilot Spaces API now generally available",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-05-18-copilot-spaces-api-now-generally-available",
+    "published_at": "2026-05-18T16:07:12+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot Spaces API 結束預覽，正式邁入正式可用階段。開發者現可透過程式化方式對 Spaces 進行 CRUD 操作，包括建立、讀取、更新、刪除，並可將 Spaces 整合至自建應用程式，實現工作區管理的自動化。",
+    "highlights": [
+      "正式 GA，代表 API 穩定性達生產標準",
+      "支援 Spaces 的完整生命週期管理",
+      "可整合進企業內部工具與工作流程系統",
+      "解鎖 Copilot 應用生態的建構可能性"
+    ],
+    "why_it_matters": "Spaces 是 Copilot 的長期記憶與上下文管理核心，GA 版 API 讓第三方工具能自動化管理 Spaces，工程師可打造客製化知識管理與專案協作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "平台工程師可利用此 API 開發自動化腳本，依據專案生命周期自動建立或封存 Spaces，打造無縫的專案初始化與結案流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-05-18-redhat-ai",
@@ -104,6 +503,33 @@
     "why_it_matters": "此合作將 Codex 的程式碼生成能力帶入資料不能外送的企業場景，大幅擴展可用市場與落地條件。",
     "automation_angle": null,
     "automation_angle_zh": "企業技術決策者可評估 Dell 基礎架構現況，確認是否具備接入條件並規劃內網 AI 程式碼助理試點。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-18-gpt-5-3-codex-copilot-business-enterprise",
+    "title": "GPT-5.3-Codex 正式成為 Copilot Business 與 Enterprise 底層模型",
+    "title_original": "GPT-5.3-Codex is now the base model for Copilot Business and Enterprise",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-05-17-gpt-5-3-codex-is-now-the-base-model-for-copilot-business-and-enterprise",
+    "published_at": "2026-05-18T04:01:11+00:00",
+    "category": "new-models",
+    "summary": "GitHub 宣布 GPT-5.3-Codex 全面接管 Business 與 Enterprise 層級 Copilot 的底層模型，原有的 GPT-4.1 已正式退役。此模型在程式碼生成與多步推論任務上有結構性提升，組織內所有 Copilot 體驗將自動受益。",
+    "highlights": [
+      "全面取代 GPT-4.1，底層模型升級無需用戶操作",
+      "涵蓋 Copilot Chat、inline edits、agent 模式全場景",
+      "3 月 18 日公告，5 月 17 日正式上線",
+      "組織管理員無需變更任何設定即可獲得更新"
+    ],
+    "why_it_matters": "底層模型升級直接影響每日開發體驗，GPT-5.3-Codex 的推論能力與程式碼品質提升，可能顯著改變 Copilot 在複雜任務上的表現，工程師應重新評估工作流程中的 Copilot 使用策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發團隊可安排一次 Copilot 使用情境回顧，對比新舊模型在長程式碼補全、多檔案重構、測試生成等高價值任務的表現差異。",
     "tags": [
       "new-models",
       "rss",
@@ -223,6 +649,33 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/1709324?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-18-grok-code-fast-1",
+    "title": "Grok Code Fast 1 模型正式廢棄",
+    "title_original": "Grok Code Fast 1 deprecated",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-05-15-grok-code-fast-1-deprecated",
+    "published_at": "2026-05-15T17:58:15+00:00",
+    "category": "new-models",
+    "summary": "GitHub Copilot 宣布廢棄 Grok Code Fast 1 模型，涵蓋所有 Copilot 體驗包含 Chat、inline edits、agent 模式及 code completions。此模型已於 2026 年 5 月 15 日全面下線，使用該模型的組織將自動切換至其他可用模型。",
+    "highlights": [
+      "2026 年 5 月 15 日正式廢棄，所有體驗端點同步下線",
+      "覆蓋 Copilot 全使用情境",
+      "組織若仍在使用該模型將被自動遷移",
+      "為更強模型讓路，預期效能將提升"
+    ],
+    "why_it_matters": "仍在使用 Grok Code Fast 1 的組織需注意模型切換可能帶來的行為變化，Agent 模式若依賴特定模型特性可能需要重新調校提示詞或驗證輸出品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "若組織的 Copilot 工作流程依賴 Grok Code Fast 1，技術人員應儘速進行端對端測試，確保遷移後的程式碼建議品質與失敗率符合預期。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
