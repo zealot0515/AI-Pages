@@ -1,5 +1,378 @@
 [
   {
+    "id": "2026-05-19-mcp-flutter-flutter-ai",
+    "title": "mcp_flutter：Flutter AI 代理開發工具包，閉環視覺+語義快照",
+    "title_original": "Arenukvern/mcp_flutter",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Arenukvern/mcp_flutter",
+    "published_at": "2026-05-19T18:34:14Z",
+    "category": "agent-skills",
+    "summary": "專為 Flutter 打造的 MCP 伺服器與工具包，透過視覺快照與語義快照構成閉環反饋，讓 AI 代理能自主理解 UI 層、修正 Widget 狀態。支援任意 Flutter 應用高度客製化。",
+    "highlights": [
+      "閉環反饋：每輪修改後自動截圖比對，確保 UI 正確性",
+      "視覺快照：讓 AI 看見實際 UI，而非僅依賴程式碼描述",
+      "高客製化：任何 Flutter 應用皆可接入",
+      "Dart 實作：原生相容 Flutter 生態",
+      "適用於 Cursor、Cline 等 MCP 客戶端"
+    ],
+    "why_it_matters": "Flutter UI 複雜性高，AI 代理常誤解 Widget 層級與狀態。此工具提供視覺反饋，大幅提升代理修復 UI 問題的成功率。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Flutter 專案執行 flutter pub add mcp_flutter，啟動 MCP 伺服器後讓代理修改一個有狀態的 Widget，觀察快照比對是否正確。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Dart"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/15068151?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-19-aislop-ai-0-100",
+    "title": "aislop：AI 程式碼工程品質閘門，0-100 評分與多語言品質鉤子",
+    "title_original": "scanaislop/aislop",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/scanaislop/aislop",
+    "published_at": "2026-05-19T18:33:01Z",
+    "category": "agent-skills",
+    "summary": "AI 程式碼工程標準層與品質閘門，自動偵測 AI 代理留下的「slop」程式碼、強制團隊規範，並對每次變更評分 0-100。支援 8+ 語言，提供 per-edit 鉤子與 MCP 伺服器。",
+    "highlights": [
+      "自動偵測 slop：揪出低品質、易出錯的 AI 生成程式碼",
+      "強制團隊規範：可設定客製規則，自動阻擋不符合的提交",
+      "確定性評分：每次變更皆有量化分數，0 到 100",
+      "8+ 語言支援：覆蓋主流開發語言",
+      "MCP 整合：支援 Claude Code、Cursor、Codex"
+    ],
+    "why_it_matters": "AI 代理生成速度極快，但品質參差不齊。此工具作為自動化品質守門員，確保團隊不會無意間引入大量技術債。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 CI/CD 流程加入 aislop 檢查，或直接作為 MCP 工具讓代理在提交前自我審查，觀察評分波動與常見錯誤模式。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/277436772?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-19-purple-rust-tui-ssh-mcp-server-16",
+    "title": "Purple：Rust TUI 終端 SSH 管理器，支援 MCP Server 與 16 雲廠商同步",
+    "title_original": "erickochen/purple",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/erickochen/purple",
+    "published_at": "2026-05-19T18:23:31Z",
+    "category": "agent-skills",
+    "summary": "Purple 是 MIT 授權的 Rust TUI 工具，自動同步 ~/.ssh/config 與 16 家雲廠商基礎設施，支援 Vault SSH 憑證、live tunnel 監控、跨雲 fleet Docker/Podman 管理，並內建 MCP Server 供 AI Agent 操作基礎設施。",
+    "highlights": [
+      "Rust TUI，效能優異且跨平台",
+      "一鍵同步 ~/.ssh/config 與雲端 VM 狀態",
+      "摧毀 VM 後自動從 SSH config 移除",
+      "支援 Vault SSH 憑證管理",
+      "內建 MCP Server，AI Agent 可直接發指令操控基礎設施"
+    ],
+    "why_it_matters": "基礎設施操作自動化一直是痛點，Purple 把 SSH 設定同步變成即時事件流，結合 MCP 讓 AI Agent 具備主動式雲端操控能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "今天安裝 Rust 編譯測試，將一組雲端 VM 加入管理，透過 MCP 協議讓 AI Agent 自動執行「有新 VM 上線就發通知」的工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/80683800?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-19-genexus18mcp-ai-genexus-18-mcp",
+    "title": "Genexus18MCP：讓 AI 代理操作 GeneXus 18 知識庫物件的 MCP 伺服器",
+    "title_original": "lennix1337/Genexus18MCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/lennix1337/Genexus18MCP",
+    "published_at": "2026-05-19T18:17:41Z",
+    "category": "agent-skills",
+    "summary": "GeneXus 18 的 MCP 伺服器，讓 Claude、Cursor 等 AI 代理能讀取、編輯、分析 KB 物件（Transaction、Web Panel、Procedure、SDT）。透過 Model Context Protocol 提供企業級低程式碼平台的 AI 操控能力。",
+    "highlights": [
+      "覆蓋完整 KB 物件：Transaction、SDT、Web Panel、Procedure 皆可操作",
+      "企業級應用：支援傳統產業的低程式碼現代化",
+      "MCP 標準介面：通用於 Claude、Cursor 等主流 AI 工具",
+      "C# 實作：可整合进 .NET 生態",
+      "讀寫皆可：不只分析，還能主動修改 KB 結構"
+    ],
+    "why_it_matters": "企業若使用 GeneXus，AI 代理以往難以介入。此 MCP 打破黑箱，讓 AI 能理解並操作整個 KB 生態，開啟自動化重構可能。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Visual Studio 安裝套件後設定 MCP 端點，讓代理分析一個大型 Transaction 的依賴關係，測試其理解複雜物件模型的能力。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/28357644?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-19-coddy-agent-go-distroless-agent",
+    "title": "Coddy-Agent：Go 語言無作業系統依賴的 Distroless 程式碼生成 Agent",
+    "title_original": "coddy-project/coddy-agent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/coddy-project/coddy-agent",
+    "published_at": "2026-05-19T18:16:01Z",
+    "category": "agent-skills",
+    "summary": "Coddy-Agent 是用 Go 實作的 distroless 程式碼生成 Agent，透過 ACP 協議對接任意 IDE，並以 OpenAI 兼容 REST API 服務任何模型供應商，同時支援 Skills 與 MCP Servers。",
+    "highlights": [
+      "Go 語言實作，產出無外部依賴的單一二進制",
+      "支援 ACP（IDE 整合）與 OpenAI 兼容 API",
+      "可對接任意 OpenAI 兼容模型",
+      "具備 Skills 與 MCP Server 擴展能力",
+      "目前 stars 偏低（20），成熟度待觀察"
+    ],
+    "why_it_matters": "Distroless 部署方式極度適合企業級 CI/CD 流程，若 MCP 整合穩定，可成為乾淨的程式碼生成基底。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 binary 測試與 Cursor/VS Code 的 ACP 整合，用內網模型評估程式碼生成品質與部署便利性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/270343782?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-19-krusch-context-mcp-mcp-ide",
+    "title": "krusch-context-mcp：零信任 MCP 伺服器為 IDE 代理提供本地語義搜尋",
+    "title_original": "kruschdev/krusch-context-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/kruschdev/krusch-context-mcp",
+    "published_at": "2026-05-19T18:11:24Z",
+    "category": "agent-skills",
+    "summary": "統一零信任 MCP 伺服器，為 IDE 代理提供本地語義程式碼庫搜尋、隔離的情節式專案記憶、以及無幻覺的框架 RAG。目標是解決 AI 代理在大型專案中上下文丟失、記憶衝突的問題。",
+    "highlights": [
+      "Zero-Trust 架構：所有資料留在本地，無需信任外部服務",
+      "隔離式情節記憶：每個專案獨立記憶空間，防止上下文污染",
+      "框架 RAG：整合熱門框架知識，降低幻覺機率",
+      "本地語義搜尋：不依賴雲端 API，保護程式碼隱私",
+      "JavaScript 實作，可直接整合进 Node.js 專案"
+    ],
+    "why_it_matters": "IDE 代理常在長程任務中遺失上下文，此工具提供本地化、長期化的記憶方案，工程師可自行部署，兼顧隱私與效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "今日可 npm 安裝並測試，配置 MCP 客戶端指向本地專案，觀察代理在大型 codebase 中是否能保持上下文連貫性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/249158235?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-19-vexa-api-meet-teams-zoom-mcp",
+    "title": "Vexa：開源會議轉錄 API，支援 Meet/Teams/Zoom 即時字幕與 MCP 整合",
+    "title_original": "Vexa-ai/vexa",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Vexa-ai/vexa",
+    "published_at": "2026-05-19T18:10:15Z",
+    "category": "agent-skills",
+    "summary": "開源 TypeScript 專案 Vexa 提供會議 Bot 自動加入、WebSocket 即時轉錄，支援 Google Meet、MS Teams、Zoom，並附 MCP Server 供 AI Agent 調用，可自架或用 SaaS 版本。",
+    "highlights": [
+      "支援三大主流會議平台自動轉錄",
+      "WebSocket 即時字幕，延遲低",
+      "提供 MCP Server，AI Agent 可直接消費轉錄結果",
+      "可自架（完整控制資料）或選 SaaS",
+      "GitHub 2066 stars，社群關注度高"
+    ],
+    "why_it_matters": "會議錄音轉文字是剛需，Vexa 把轉錄變成 AI Agent 可消費的結構化資料流，自動化價值明確。",
+    "automation_angle": null,
+    "automation_angle_zh": "今天安裝 Docker 部署測試，用 MCP 協議讓自己的 AI Agent 自動接收會議摘要，驗證準確率與延遲是否符合需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/168629894?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-19-memex-mvp-mcp",
+    "title": "memex-mvp：本地優先 MCP 記憶伺服器，索引並搜尋跨平台聊天記錄",
+    "title_original": "parallelclaw/memex-mvp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/parallelclaw/memex-mvp",
+    "published_at": "2026-05-19T18:07:15Z",
+    "category": "agent-skills",
+    "summary": "本地優先的 MCP 記憶伺服器，可索引 Claude Code、Cowork、Telegram 等平台的聊天記錄，讓任何 MCP 相容 AI 代理（Cursor、Cline、Continue）統一搜尋對話歷史。",
+    "highlights": [
+      "本地儲存：所有聊天資料留在本機，無需上傳雲端",
+      "多平台支援：Claude Code、Cowork、Telegram 皆可索引",
+      "MCP 兼容：標準化介面適用主流 AI 代理工具",
+      "快速搜尋：跨對話的長期上下文召回",
+      "輕量易部署：JavaScript 實作，5 分鐘啟動"
+    ],
+    "why_it_matters": "開發者常在多個平台切換對話，導致代理失去重要上下文。本工具提供統一的本地記憶層，讓 AI 代理跨平台召回歷史資訊。",
+    "automation_angle": null,
+    "automation_angle_zh": "clone repo 後執行 npm install，設定要索引的聊天目錄，立即測試搜尋功能是否能召回三天前的程式碼修改討論。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/280923466?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-19-moo-tasks-mcp-task",
+    "title": "moo-tasks：開源多使用者看板式 MCP Task 管理伺服器",
+    "title_original": "dizlexic/moo-tasks",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/dizlexic/moo-tasks",
+    "published_at": "2026-05-19T18:02:46Z",
+    "category": "open-source-ai",
+    "summary": "基於 Vue 的自架多使用者多看板 MCP 伺服器，專為本地部署的 Agent 工作管理設計，提供看板介面分配與追蹤任務狀態。",
+    "highlights": [
+      "開源 MCP 協定相容 Task 管理工具",
+      "支援多使用者協作與看板視圖",
+      "可自架部署，保障資料隱私",
+      "Stars 32，社群關注度尚低",
+      "Vue 前端技術棧，可客製化 UI"
+    ],
+    "why_it_matters": "對於需要在本機執行 Agent 並管理任務流的開發者，此工具提供輕量的自架替代方案，避免依賴外部 SaaS 任務管理平台。",
+    "automation_angle": null,
+    "automation_angle_zh": "整合至本地 MCP Agent 工作流程，將 moo-tasks 作為任務佇列後端，測試 Agent 自動化排程與狀態回報功能。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Vue"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3574726?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-19-gemini-3-5-flash-github-copilot",
+    "title": "Gemini 3.5 Flash 正式登上 GitHub Copilot",
+    "title_original": "Gemini 3.5 Flash is generally available for GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-05-19-gemini-3-5-flash-is-generally-available-for-github-copilot",
+    "published_at": "2026-05-19T17:56:38+00:00",
+    "category": "new-models",
+    "summary": "Google 最新 Flash 等級模型 Gemini 3.5 Flash 已全面推送至 GitHub Copilot，早期測試顯示其具備接近 Pro 等級的程式碼生成品質，成本卻僅為 Flash 等級。",
+    "highlights": [
+      "Gemini 3.5 Flash 已 GA 可用",
+      "官方聲稱 Coding 品質接近 Pro 等級",
+      "速度和成本維持 Flash 等級",
+      "Copilot 訂閱者可直接切換使用",
+      "與 Claude、GPT 模型形成價格階梯競爭"
+    ],
+    "why_it_matters": "若實測編碼能力確實接近 Pro 水準，此模型將成為 Copilot 中性價比最高的選項，開發者應重新評估預設模型設定。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Copilot 模型設定中將 Gemini 3.5 Flash 設為預設，建議任務比對其與預設模型的回應品質差異，觀察速度與準確度的取捨。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-19-codegraph-claude-cursor-codex-api-94",
+    "title": "Codegraph 宣稱可將 Claude、Cursor、Codex API 工具呼叫減少 94%",
+    "title_original": "Public Repository \"Codegraph\" claims to reduce Claude, Cursor, Codex, and OpenCode API tool calls by 94% locally, an innovation that could directly offset the most recent Claude API pricing model.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1thtymd/public_repository_codegraph_claims_to_reduce/",
+    "published_at": "2026-05-19T17:30:13+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 流傳的專案 Codegraph 聲稱可在本地將主流 AI 編碼工具的 API 工具呼叫次數減少 94%，直接抵消最新 Claude API 定價模式的成本影響。此說法尚未獲得官方或第三方驗證。",
+    "highlights": [
+      "聲稱本地處理：所有分析在本地執行，不增加 API 負擔",
+      "94% 降本宣稱：若屬實，開發成本將大幅下降",
+      "適用多工具：覆蓋 Claude Code、Cursor、Codex、OpenCode",
+      "Reddit 消息源：缺乏技術文件與 benchmark",
+      "未驗證聲明：需自行測試確認實際效果"
+    ],
+    "why_it_matters": "若此數據屬實，則能顯著降低 AI 編碼工具的使用成本；但未經驗證的消息可能誤導技術決策，需保持謹慎。",
+    "automation_angle": null,
+    "automation_angle_zh": "將其部署在測試專案，運行一個標準 benchmark（如 500 行重構任務），比較 API 呼叫次數與成本差異。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-19-openai-ai-content-credentials-synthid",
+    "title": "OpenAI 推進 AI 內容溯源標準：Content Credentials 與 SynthID",
+    "title_original": "Advancing content provenance for a safer, more transparent AI ecosystem",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/advancing-content-provenance",
+    "published_at": "2026-05-19T10:45:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布強化 AI 生成內容溯源能力，透過 Content Credentials 標準、C2PA 協定整合及 SynthID 浮水印技術，協助使用者識別並信任 AI 生成媒體。",
+    "highlights": [
+      "Content Credentials 整合 C2PA 開放標準",
+      "SynthID 為影像與音訊添加不可見浮水印",
+      "提供內容來源驗證工具",
+      "對抗深度偽造與虛假資訊",
+      "非即時功能，屬長期生態佈局"
+    ],
+    "why_it_matters": "內容溯源將成未來 AI 監管焦點，開發者若涉及生成式應用需提前關注合規需求，特別是高風險場景的內容驗證機制。",
+    "automation_angle": null,
+    "automation_angle_zh": "在自建生成式應用中評估加入 Content Credentials 或類似浮水印機制的可行性，確保輸出內容符合未來監管要求。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-19-copilot-agent-github-actions",
+    "title": "Copilot 雲端 Agent 一鍵修復失敗的 GitHub Actions",
+    "title_original": "One-click fixes for failing Actions with Copilot cloud agent",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent",
+    "published_at": "2026-05-18T22:29:27+00:00",
+    "category": "agent-skills",
+    "summary": "Copilot Business 與 Enterprise 訂閱者現在可在 Actions 失敗時直接點擊「Fix with Copilot」按鈕，由 Agent 自動分析失敗原因並提出修復建議。",
+    "highlights": [
+      "一鍵觸發 AI 分析失敗日誌",
+      "目前僅支援 Business/Enterprise 層級",
+      "可加速 CI/CD 問題排查流程",
+      "減少開發者手動查日誌時間",
+      "修復建議基於 Copilot 雲端 Agent 推論能力"
+    ],
+    "why_it_matters": "Actions 失敗是日常痛點，一鍵修復能大幅減少工程師在 CI/CD 排查上的時間，提升團隊部署頻率。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此功能整合進團隊 CI 流程監控，當 Actions 失敗時自動觸發 Copilot 分析，並透過 webhook 通知相關人員修復建議。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-05-18-minimax-token-plan",
     "title": "MiniMax Token Plan 揭露全譜系多模態支援",
     "title_original": "MiniMax Token Plan documents full-spectrum multimodal access",
@@ -198,6 +571,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/16785467?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-19-copilot-agent",
+    "title": "Copilot 雲端 Agent 開放挑選高效能低成本模型",
+    "title_original": "Copilot cloud agent: Fast, cost-efficient models for simple tasks",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-05-18-copilot-cloud-agent-fast-cost-efficient-models-for-simple-tasks",
+    "published_at": "2026-05-18T21:15:35+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 雲端 Agent 現在支援更多模型選項，讓開發者可針對簡單任務指定快速、低成本的模型處理，不必統一使用同一模型代價。",
+    "highlights": [
+      "可為簡單任務指定專用模型，降低整體推論成本",
+      "多模型支援提升任務分流效率",
+      "官方 GitHub Changelog 公告，可信度高",
+      "符合企業對成本控管的需求",
+      "拉開 Copilot 與一般聊天介面的功能差距"
+    ],
+    "why_it_matters": "將任務分流至合適模型可顯著節省 Copilot Enterprise 訂閱成本，工程師應評估自身工作負載特性以最佳化模型選用策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "工程師可檢視日常 PR 描述、簡單重構等輕量任務，改用成本較低的模型，同時保留複雜任務使用高階模型，估算每月節省比例。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-05-18-pentest-mcp-server-mcp",
@@ -477,6 +878,34 @@
     "automation_angle_zh": "使用該排行榜的評測方法，對自建或選用的代理系統進行效能基準測試，找出瓶頸環節並針對性優化。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-19-copilot-cli-ga",
+    "title": "Copilot CLI 遠端控制正式GA：跨裝置無縫銜接工作階段",
+    "title_original": "Remote control for Copilot CLI sessions now generally available on mobile, web, and VS Code",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-05-18-remote-control-for-copilot-cli-sessions-now-generally-available-on-mobile-web-and-vs-code",
+    "published_at": "2026-05-18T13:00:16+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot CLI 遠端控制功能已在 GitHub Mobile、github.com 與 VS Code 全面開放，開發者可在一處終端開始工作，隨時切換至手機或網頁繼續操作。",
+    "highlights": [
+      "已正式邁入 GA 階段",
+      "支援 Mobile、Web、VS Code 三大平台",
+      "工作階段狀態跨裝置同步",
+      "改善行動不便時的 CLI 操作體驗",
+      "可隨時中斷與恢復終端工作"
+    ],
+    "why_it_matters": "工程師時常面臨外出時需處理 CLI 任務的情境，此功能消除平台限制，讓 Copilot CLI 工作流程真正跨設備無縫延續。",
+    "automation_angle": null,
+    "automation_angle_zh": "測試在不同裝置間中斷並恢復 Copilot CLI 工作階段，驗證其穩定性與同步速度，評估是否能在通勤或外出時取代部分遠端桌面需求。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
