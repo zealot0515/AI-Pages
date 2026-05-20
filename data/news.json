@@ -1,5 +1,320 @@
 [
   {
+    "id": "2026-05-20-cc-connect-ai-agent",
+    "title": "cc-connect：將本地 AI 程式設計 Agent 橋接到企業通訊平台",
+    "title_original": "chenhg5/cc-connect",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/chenhg5/cc-connect",
+    "published_at": "2026-05-20T12:47:08Z",
+    "category": "agent-skills",
+    "summary": "cc-connect 是一款 Go 語言開源專案（Stars: 9,918），可將 Claude Code、Cursor、Gemini CLI、Codex 等本地 AI 程式設計 Agent 橋接到飛書、釘釘、Slack、Telegram、Discord、Line、微信企業版等訊息平台，無需公開 IP 即可運作。",
+    "highlights": [
+      "支援主流 AI coding agent：Claude Code、Cursor、Gemini CLI、Codex",
+      "橋接多個企業通訊平台，降低溝通壁壘",
+      "多數平台無需公開 IP，提升安全性",
+      "Go 語言實現，效能與跨平台部署友好",
+      "星標數 9,918 顯示社群關注度與活躍度"
+    ],
+    "why_it_matters": "對於跨時區或遠端協作的開發團隊，cc-connect 能讓程式設計師在任何訊息平台上直接與 AI coding agent 互動，減少切換工具的上下文損耗。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可將 cc-connect 部署在內網伺服器，讓成員透過釘釘或飛書直接下指令給 AI agent，實現行動端的程式碼審查或快速除錯輔助。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/4344486?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-20-gossipcat",
+    "title": "Gossipcat：多代理程式碼審查網格",
+    "title_original": "gossipcat-ai/gossipcat-ai",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/gossipcat-ai/gossipcat-ai",
+    "published_at": "2026-05-20T12:42:20Z",
+    "category": "agent-skills",
+    "summary": "Gossipcat 是一款多代理程式碼審查系統，協調來自多個供應商的 AI 代理並行審查程式碼，並讓代理相互交叉檢視發現，逐步建立準確率profile。會自動降低愛 hallucinate 的代理優先序，31 顆星。",
+    "highlights": [
+      "多代理並行審查：同時調用多供應商 AI 代理（Claude、GPT 等）",
+      "交叉驗證機制：代理彼此檢視發現，提升審查可信度",
+      "準確率追蹤：系統記錄各代理的發現品質，動態調整優先序",
+      "減少幻覺問題：透過交叉比對過濾虛假警報",
+      "MCP 協議整合：支援 Claude Code、Cursor 等主流 IDE"
+    ],
+    "why_it_matters": "單一 AI 代理審查容易產生幻覺或盲點，Gossipcat 透過多代理協作與相互監督機制，模擬多人 code review 的效果，為團隊提供更可靠的程式碼品質把關。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將 Gossipcat 接入 CI/CD pipeline 或本地 IDE，針對 pull request 自動觸發多代理審查，比較不同供應商代理的發現差異，評估其在實際程式碼庫的表現。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/274130854?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-atom-agent",
+    "title": "Atom Agent：自然語言驅動的工作流程自動化代理",
+    "title_original": "rush86999/atom",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/rush86999/atom",
+    "published_at": "2026-05-20T12:37:47Z",
+    "category": "agent-skills",
+    "summary": "Atom Agent 提供類似與真人助理對話般的工作流程自動化體驗，具備記憶、搜尋與任務處理能力。開發者可用自然語言指令驅動 AI 完成複雜任務，並讓系統自動記憶偏好與上下文。目前已累積 751 顆星，採用 Python 實作，整合門檻低。",
+    "highlights": [
+      "自然語言驅動：直接用口語指令控制工作流程，無需繁瑣設定",
+      "具備記憶能力：AI 能跨 session 記住用戶偏好與任務狀態",
+      "搜尋整合：內建資訊檢索功能，可在執行任務時查詢資料",
+      "751 顆星顯示社群關注度高，Python 生態豐富",
+      "適合用來自動化日常重複性任務，如郵件分類、資料整理"
+    ],
+    "why_it_matters": "相較於傳統腳本或規則引擎，Atom Agent 用自然語言降低自動化門檻，讓非 DevOps 背景的開發者也能快速打造個人工作流程助理，提升日常效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可即時 clone 此 repo，替換 API key 後立刻用自然語言測試自動化場景，如「每早整理昨日專案變更摘要」，觀察其記憶與任務規劃能力。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/16848240?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-20-infomaniak-mcp-agent",
+    "title": "Infomaniak 非官方 MCP Agent 開源發布",
+    "title_original": "Mogacode-ma/infomaniak-mcp-agent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Mogacode-ma/infomaniak-mcp-agent",
+    "published_at": "2026-05-20T12:32:52Z",
+    "category": "agent-skills",
+    "summary": "一款基於 TypeScript 的開源 MCP 伺服器，可讓 AI Agent 自動化操作 Infomaniak 的網站代管、郵件、kDrive 雲端儲存、網域及 DNS 設定，降低手動管理主機的成本。",
+    "highlights": [
+      "支援 Infomaniak 全產品線的 MCP 工具定義",
+      "可用於自動化部署、管網域設定等重複性任務",
+      "TypeScript 實作，Stars 16，目前為早期專案"
+    ],
+    "why_it_matters": "對於已使用 Infomaniak 的技術用戶，可將主機管理任務交給 Agent，節省維運時間與人力成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合進自建的 AI Agent 工作流程，自動執行 DNS 變更或部署腳本，減少登入控制台的繁瑣操作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/280684819?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-rustyhand-rust",
+    "title": "Rustyhand：Rust 實現的全功能代理作業系統",
+    "title_original": "ginkida/rustyhand",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ginkida/rustyhand",
+    "published_at": "2026-05-20T12:29:19Z",
+    "category": "open-source-ai",
+    "summary": "Rustyhand 是一款用 Rust 實作的全功能代理作業系統，單一二進位檔包含 37 個代理、支援 26 個 LLM 供應商、37 個頻道（Telegram/Discord/Slack...），並提供 MCP 伺服器、A2A 協議與 web dashboard，共 120+ API 端點。",
+    "highlights": [
+      "Rust 實作：強調高效能、低記憶體佔用與記憶體安全",
+      "單一二進位部署：簡化安裝與維運流程",
+      "多供應商支援：整合 26 個主流 LLM API，降低單點依賴",
+      "多頻道接入：Telegram、Discord、Slack 等即時通訊皆可作為代理介面",
+      "提供 MCP 伺服器與 A2A 協議：方便與其他 AI 工具生態對接"
+    ],
+    "why_it_matters": "Rustyhand 試圖成為「一站式代理基礎設施」，用 Rust 的效能優勢解決傳統 Python 代理框架在高併發或長時間運行時的穩定性痛點，為需要長期運行代理系統的場景提供新選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可下載單一二進位檔，在本地或 serverless 環境快速部署多代理系統，並透過 web dashboard 即時監控 37 個代理的任務狀態與 API 消耗。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3363127?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-personal-assistant-plugin-obsidian",
+    "title": "Personal Assistant Plugin：Obsidian 智能筆記管理助理",
+    "title_original": "edonyzpc/personal-assistant",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/edonyzpc/personal-assistant",
+    "published_at": "2026-05-20T12:28:06Z",
+    "category": "agent-skills",
+    "summary": "此專案為 Obsidian 打造 AI 代理插件，運用自動化技術幫助使用者智慧管理筆記庫。TypeScript 實作，可自動分類、標籤、搜尋與摘要筆記內容，減少手動整理的時間成本。目前 145 顆星。",
+    "highlights": [
+      "Obsidian 原生整合：直接在筆記軟體內啟用 AI 助理功能",
+      "智慧分類：AI 自動為新筆記添加標籤與分類",
+      "內容摘要：長文自動生成摘要，節省閱讀時間",
+      "自動化工作流程：減少手動整理與歸檔的繁瑣操作",
+      "TypeScript 生態：方便與其他 VS Code 擴充功能串接"
+    ],
+    "why_it_matters": "知識工作者每日產生大量筆記，Personal Assistant 將 AI 代理能力直接帶入筆記流程，解決「寫完筆記懶得整理」的痛點，讓知識沉澱更有效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可安裝插件並定義自訂規則，例如「所有含有 [待辦] 標籤的筆記自動彙整至每週回顧」，實際體驗 AI 驅動的知識管理自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/7744664?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-20-activepieces-ai-400-mcp",
+    "title": "ActivePieces：開源 AI 工作流程程自動化平台，內建 ~400 個 MCP 伺服器",
+    "title_original": "activepieces/activepieces",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/activepieces/activepieces",
+    "published_at": "2026-05-20T12:27:11Z",
+    "category": "agent-skills",
+    "summary": "ActivePieces 是一款 TypeScript 開源專案（Stars: 22,270），定位為 AI Agents 與 MCP（Model Context Protocol）的工作流程程自動化平台。內建約 400 個 MCP 伺服器整合，支援 AI Agent 串接與工作流程編排。",
+    "highlights": [
+      "開源工作流程程自動化平台，TypeScript 實現",
+      "內建約 400 個 MCP 伺服器，生態豐富",
+      "支援 AI Agent 之間的串接與自動化觸發",
+      "星標數 22,270 顯示高度社群採用",
+      "可用於建構企業級 AI 工作流程"
+    ],
+    "why_it_matters": "對需要整合多個 AI 工具與 API 的技術團隊，ActivePieces 提供了一個開箱即用的自動化框架，省去從零建構工作流程引擎的時間成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 ActivePieces 部署為企業內部 AI 工作流程中樞，串接 MCP 伺服器來自動化文件處理、資料同步、通知發送等重複性任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/99494700?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-20-glia-ai-ide",
+    "title": "Glia-AI：瀏覽器到 IDE 的跨平台記憶同步層",
+    "title_original": "Eshaan-Nair/Glia-AI",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Eshaan-Nair/Glia-AI",
+    "published_at": "2026-05-20T12:26:07Z",
+    "category": "agent-skills",
+    "summary": "Glia-AI 是 Chrome 擴充功能與本地 MCP 伺服器的組合，能將瀏覽器內 AI 對話（Claude、ChatGPT、DeepSeek）的上下文與決策同步至本地 IDE 代理（Cursor、Claude Code、Windsurf）。採用 SQLite 知識圖譜儲存，47 顆星。",
+    "highlights": [
+      "瀏覽器到 IDE 橋接：將線上 AI 對話上下文無縫帶入本地開發環境",
+      "SQLite 知識圖譜：本地儲存，隱私可控，無需雲端依賴",
+      "支援主流 AI 工具：Claude、ChatGPT、DeepSeek 等皆可整合",
+      "IDE 代理支援：Cursor、Windsurf、Claude Code 等皆可接入",
+      "長期記憶能力：AI 代理可存取跨 session 的對話歷史"
+    ],
+    "why_it_matters": "開發者在瀏覽器與 IDE 間切換時常需重複提示上下文，Glia-AI 解決了這一斷層，讓 AI 代理能真正保持跨工具、跨 session 的連續記憶，顯著提升代理任務的準確性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可安裝 Chrome 擴充並啟動 MCP server，在瀏覽器解決複雜問題後，直接在本地 IDE 延續任務，測試跨平台記憶的一致性與延續效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/128076795?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-universal-mcp-to-lsp-bridge",
+    "title": "Universal MCP to LSP Bridge 開源工具",
+    "title_original": "bug-ops/mcpls",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/bug-ops/mcpls",
+    "published_at": "2026-05-20T12:25:36Z",
+    "category": "agent-skills",
+    "summary": "一款 Rust 開發的橋接工具，將 Language Server Protocol（LSP）能力以 MCP 工具形式暴露給 AI Agent，讓 Agent 能直接呼叫 IDE 的程式碼分析與補全功能。",
+    "highlights": [
+      "Stars 34，Rust 效能導向實作",
+      "將 LSP 的語義分析、語法檢查等能力轉為 MCP 工具",
+      "可用於增強 AI Agent 的程式碼理解與修改能力"
+    ],
+    "why_it_matters": "讓 AI Agent 不再只能靠純文字推論，可直接存取 LSP 的精確語義資訊，提升程式碼生成與重構的準確度。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合進 VS Code Agent 或自訂 IDE 助理，實現「AI 直接操控 LSP 服務」的高精度自動化編碼流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/12019904?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-engram-ai-agent-agent",
+    "title": "Engram：AI 程式設計 Agent 的持久化記憶系統，支援跨 Agent 通用",
+    "title_original": "Gentleman-Programming/engram",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Gentleman-Programming/engram",
+    "published_at": "2026-05-20T12:23:51Z",
+    "category": "agent-skills",
+    "summary": "Engram 是用 Go 開發的持久化記憶系統（Stars: 3,657），專為 AI coding agent 設計。提供 SQLite + FTS5 儲存、MCP 伺服器、HTTP API、CLI 與 TUI 介面，支援跨 agent 通用記憶存取。",
+    "highlights": [
+      "Go 語言實現，輕量高效",
+      "SQLite + FTS5 提供全文檢索能力",
+      "提供 MCP 伺服器、HTTP API、CLI、TUI 多種介面",
+      "Agent 無關性設計，可跨不同 AI agent 共用記憶",
+      "適合需要長期上下文維護的複雜專案"
+    ],
+    "why_it_matters": "現有 Agent 在長會話中常面臨上下文丟失問題，Engram 的持久化記憶機制可讓 AI agent 跨 session 記住專案背景與重要決策，提升長期任務的可靠性。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在大型重構或長期維護專案中接入 Engram，讓 AI agent 記住之前的架構決策與已知問題，減少每次對話都需要重新交代背景的成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/97131605?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-mmclaw-python",
+    "title": "MMClaw：超輕量純 Python 多模態代理框架",
+    "title_original": "CrawlScript/MMClaw",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/CrawlScript/MMClaw",
+    "published_at": "2026-05-20T12:06:21Z",
+    "category": "open-source-ai",
+    "summary": "MMClaw 標榜超輕量與純 Python 實作，專為需要在邊緣或資源受限環境運行多模態代理的開發者設計。整體封裝精簡，依賴少，適合嵌入既有專案或快速原型開發。目前 137 顆星。",
+    "highlights": [
+      "超輕量設計：移除不必要的抽象層，記憶體與啟動時間皆極小",
+      "純 Python 實作：無需編譯或額外語言工具鏈",
+      "多模態支援：可處理文字、圖像等多種輸入類型",
+      "適配邊緣場景：可在本地端或低配設備運行",
+      "作為 MMAgent 家族的一員，具備社群基礎與擴展潛力"
+    ],
+    "why_it_matters": "多模態代理在端側部署需求日益增加，MMClaw 的輕量化設計填補了「高效能 + 低資源」之間的缺口，為需要在本地運行 AI 代理的場景提供了解方。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將 MMClaw 整合進自架服務或 IoT 專案，例如在 Raspberry Pi 上驅動影像分類 + 自然語言回應的自動化監控流程。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6380226?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-20-aris-ai-offer-ml-llm",
     "title": "ARIS AI Offer：ML/LLM 面試速查單頁手冊開源專案",
     "title_original": "wanshuiyin/ARIS-in-AI-Offer",
@@ -316,6 +631,32 @@
       "Rust"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/84815296?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-openai-ai",
+    "title": "OpenAI 宣布各國 AI 教育推廣新階段",
+    "title_original": "The next phase of OpenAI’s Education for Countries",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+    "published_at": "2026-05-20T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布「Education for Countries」計畫進入新階段，透過與各國政府及學校合作，提供師資培訓與教學工具，加速 AI 在全球教育場域的落地應用。",
+    "highlights": [
+      "擴展至更多國家，聚焦 K-12 與高等教育",
+      "提供教師培訓與課程資源",
+      "以工具輔助改善學習成果為核心目標"
+    ],
+    "why_it_matters": "此計畫屬政策與公益性質，對一般技術開發者的工作流程影響有限，但可能影響未來 AI 教育的工具需求走向。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注 OpenAI 是否釋出教育專用 API 或定價方案，若有則可評估用於開發教育相關自動化工具。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -2938,6 +3279,58 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-05-20-replicate-agent-skills",
+    "title": "Replicate 推出 Agent Skills 功能",
+    "title_original": "Agent skills for Replicate",
+    "source": "Replicate Changelog",
+    "source_url": "https://replicate.com/changelog/rss",
+    "original_url": "https://replicate.com/changelog/2026-04-21-agent-skills",
+    "published_at": "2026-04-21T09:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Replicate 為程式碼助理新增 Agent Skills 功能，使 AI 能具備在平台上查找、比較、執行與提示 AI 模型的專業知識，簡化人與模型的互動。",
+    "highlights": [
+      "賦予 Agent 對 Replicate 平台模型的專業理解能力",
+      "支援比較模型效能、自動化執行模型推論",
+      "可用於提升 AI 助理的模型調度與提示工程效率"
+    ],
+    "why_it_matters": "開發者將能以更高層次的自然語言指令調度 Replicate 模型，降低平台使用的學習曲線與模型選擇成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在自建 AI Agent 中啟用此技能，讓 Agent 自動根據任務性質選擇最佳模型並執行推論鏈，減少人工干預。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-nano-banana-pro",
+    "title": "Nano Banana Pro 新增備援模型機制",
+    "title_original": "Fallback model for Nano Banana Pro",
+    "source": "Replicate Changelog",
+    "source_url": "https://replicate.com/changelog/rss",
+    "original_url": "https://replicate.com/changelog/2026-03-02-fallback-model-for-nano-banana-pro",
+    "published_at": "2026-03-02T09:00:00+00:00",
+    "category": "new-models",
+    "summary": "Replicate 上的 Nano Banana Pro 影像生成服務，現已支援在 Google API 容量滿載時自動切換至備援模型，提升服務可用性。",
+    "highlights": [
+      "新增自動備援邏輯，降低 API 調用失敗率",
+      "不影響原有模型的提示格式與輸出品質",
+      "提升需要高穩定性的影像生成工作流程可靠性"
+    ],
+    "why_it_matters": "對於需要大量生成影像的自動化腳本，備援機制可避免因 API 限流導致的工作流程中斷，提升系統韌性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在影像自動化管線中啟用 Nano Banana Pro，評估備援觸發頻率與輸出穩定性，作為高可用影像生成方案的參考。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-16-railway-1-aws-ai",
     "title": "Railway獲得1億美元融資，挑戰AWS打造AI原生雲端基礎設施",
     "title_original": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
@@ -3132,5 +3525,31 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-20-replicate-search-api-beta",
+    "title": "Replicate 推出 Search API Beta 版",
+    "title_original": "New search API, now in beta",
+    "source": "Replicate Changelog",
+    "source_url": "https://replicate.com/changelog/rss",
+    "original_url": "https://replicate.com/changelog/2025-09-16-new-search-api",
+    "published_at": "2025-09-16T16:00:00+00:00",
+    "category": "new-models",
+    "summary": "Replicate 發布新搜尋 API Beta 版，可用程式查詢平台上的模型、集合與文件資訊，取代手動在網頁上查找模型的流程。",
+    "highlights": [
+      "支援模型名稱、任務類型、標籤等維度搜尋",
+      "可程式化整合進自動化腳本或 Agent 工作流程",
+      "Beta 階段，API 規格可能仍有變動"
+    ],
+    "why_it_matters": "開發者可藉此在腳本中自動搜尋符合需求的模型，省去人工比對的時間，加速模型選型決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在 CI/CD 或模型選擇腳本中呼叫此 API，根據任務描述自動推薦並部署最適模型，實現模型選型的自動化。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   }
 ]
