@@ -1,5 +1,285 @@
 [
   {
+    "id": "2026-05-20-agentgateway-agentgateway-ai-agent",
+    "title": "agentgateway/agentgateway：下一代 AI Agent 代理閘道",
+    "title_original": "agentgateway/agentgateway",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/agentgateway/agentgateway",
+    "published_at": "2026-05-20T18:41:20Z",
+    "category": "agent-skills",
+    "summary": "Rust 實作的下一代 Agentic Proxy，專為 AI Agent 與 MCP 伺服器設計，2768 Stars。提供統一的代理層，可管理多個 Agent 與 MCP 工具的路由與認證。",
+    "highlights": [
+      "Rust 高效能實作",
+      "支援多 Agent 與 MCP 伺服器的統一路由",
+      "適合建構複雜的 Agent 協作系統",
+      "2768 Stars，社群關注度佳",
+      "可作為企業級 Agent 架構的骨幹"
+    ],
+    "why_it_matters": "當你需要同時管理多個 Agent 與工具時，agentgateway 提供一個可靠的統一代理層，避免各自為政的工具孤島問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可用 agentgateway 建構多 Agent 協作框架，將不同的 MCP 工具統一管理並動態路由，評估其對複雜工作流程的適用性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/208695296?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-crw-rust-mcp",
+    "title": "crw：Rust 實現的高效能網頁爬蟲 MCP 伺服器",
+    "title_original": "us/crw",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/us/crw",
+    "published_at": "2026-05-20T18:38:06Z",
+    "category": "agent-skills",
+    "summary": "用 Rust 開發的輕量級網頁爬蟲，支援 MCP 協定，可作為 Firecrawl 的替代方案。提供 /v1/scrape、/v1/crawl、/v1/search API，1K URL 測試中比 Tavily 快 2.3 倍，比 Firecrawl 快 1.5 倍，記憶體僅需 6 MB。",
+    "highlights": [
+      "• Rust 實現，單一二進制檔案即可部署",
+      "• API 相容 Firecrawl，降低遷移成本",
+      "• MCP 伺服器，支援 AI Agent 直接呼叫",
+      "• 99 stars，社群關注度較高"
+    ],
+    "why_it_matters": "自托管爬蟲服務能大幅節省 API 成本，且 MCP 介面讓 Agent 無需額外包裝即可直接使用。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 crw 二進制檔案，在本地啟動 MCP 伺服器，用 curl 或任何 LLM 工具測試 /v1/scrape 端點，評估其與目前爬蟲方案的效能差異。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/22618852?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-getsentry-xcodebuildmcp-ios-macos-mcp",
+    "title": "getsentry/XcodeBuildMCP：iOS/macOS 專案的 MCP 工具鏈",
+    "title_original": "getsentry/XcodeBuildMCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/getsentry/XcodeBuildMCP",
+    "published_at": "2026-05-20T18:25:16Z",
+    "category": "agent-skills",
+    "summary": "getsentry 開源的 MCP 伺服器與 CLI，為處理 iOS/macOS 專案的 AI Agent 提供專用工具。TypeScript 實作，5686 Stars，屬於成熟工具。",
+    "highlights": [
+      "專為 iOS/macOS 專案打造的 MCP 工具",
+      "提供 Agent 可用的建構、測試、部署工具",
+      "TypeScript 實作，社群活躍（5686 Stars）",
+      "可直接整合進 CI/CD 流程",
+      "Sentry 團隊維護，穩定性有保障"
+    ],
+    "why_it_matters": "如果你的工作涉及 iOS/macOS 開發，這個 MCP 工具讓 Agent 能直接操作 Xcode 建構流程，節省手動操作與腳本維護成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本機安裝此 MCP 工具，讓 AI Agent 直接執行 Xcode 建構、單元測試等任務，實現 iOS 開發流程的部分自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1396951?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-20-codescout-ide-rust-mcp",
+    "title": "codescout：IDE 等級程式碼智慧的 Rust MCP 伺服器",
+    "title_original": "mareurs/codescout",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mareurs/codescout",
+    "published_at": "2026-05-20T18:19:34Z",
+    "category": "agent-skills",
+    "summary": "高效能程式碼 Agent 工具包 MCP 伺服器，號稱提供 IDE 等級的程式碼智慧能力。採用 Rust 開發，強調與 LLM 的深度整合。",
+    "highlights": [
+      "• Rust 實作，追求效能與記憶體效率",
+      "• MCP 協定支援，易於整合進 Agent 工作流程",
+      "• 定位為程式碼分析與理解工具",
+      "• 21 stars，專案成熟度待觀察"
+    ],
+    "why_it_matters": "若需要讓 LLM 具備更強的程式碼理解能力，此 MCP 伺服器可能提供除現成方案外的另一選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝 codescout 並對一個中型專案進行測試，評估其在程式碼搜尋、語義理解等場景的表現，與現有方案（如 Sourcegraph）比較。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3381095?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-langgraph-dev-navigator-langgraph-agent",
+    "title": "langgraph-dev-navigator：LangGraph 生產級 Agent 開發框架",
+    "title_original": "botingw/langgraph-dev-navigator",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/botingw/langgraph-dev-navigator",
+    "published_at": "2026-05-20T18:07:44Z",
+    "category": "agent-skills",
+    "summary": "專為 LangGraph 打造的開發生框架，可接地氣地整合 AI 程式碼助理（Cursor、Windsurf、Cline），引導其使用本地官方文件，確保可靠、安全且可觀測的 Agent 工作流程。",
+    "highlights": [
+      "• 為 LangGraph 專案提供結構化開發範式",
+      "• 整合主流 AI 編碼助理，統一文件查詢行為",
+      "• 強調安全性與可觀測性，適合生產環境",
+      "• 23 stars，但有實際程式碼可驗證"
+    ],
+    "why_it_matters": "若你用 LangGraph 建構 Agent，這框架能減少文件幻覺與錯誤引用問題，提升開發調試效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "clone 此專案，將其文件接地機制整合進現有 Cursor/Windsurf 工作流程，測試是否能減少 Agent 的錯誤引用。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "HTML"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/33360357?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-wide-moat-open-computer-use-llm-mcp",
+    "title": "Wide-Moat/open-computer-use：讓任何 LLM 擁有獨立電腦環境的 MCP 伺服器",
+    "title_original": "Wide-Moat/open-computer-use",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Wide-Moat/open-computer-use",
+    "published_at": "2026-05-20T18:02:45Z",
+    "category": "agent-skills",
+    "summary": "開源 MCP 伺服器，為 LLM 提供受管理的 Docker 工作空間，內含瀏覽器、終端機、程式碼執行、文檔技能與自原子 Agent。支援自架、可插拔至任意模型。",
+    "highlights": [
+      "受管理 Docker 工作空間，隔離安全",
+      "內建即時瀏覽器、終端機、程式碼執行環境",
+      "支援文件處理技能與自原子 Agent",
+      "自架部署，不依賴第三方雲服務",
+      "可插拔至任意模型，通用性強"
+    ],
+    "why_it_matters": "對於需要 AI Agent 直接操作電腦的任務（如自動化測試、網頁爬蟲），open-computer-use 提供一個安全的沙盒環境，避免直接操作主機的風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地架設此 MCP 伺服器，讓 AI Agent 在隔離環境中執行瀏覽、終端、程式碼任務，評估其在自動化測試與爬蟲場景的實用性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/285202894?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-github-copilot",
+    "title": "GitHub Copilot 網頁版模型選擇調整",
+    "title_original": "Updates to available models in Copilot on web",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-05-20-updates-to-available-models-in-copilot-on-web",
+    "published_at": "2026-05-20T17:11:42+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 網頁版更新可用模型組合，旨在提供更一致、更高品質的回應。官方表示將限制模型選擇數量，具體調整內容尚未完全公開。這是 Copilot 持續優化產品體驗的一環，但具體上線哪些模型仍待確認。",
+    "highlights": [
+      "Copilot Chat 網頁版模型選擇有所調整",
+      "官方目標是提升回應一致性與品質",
+      "將限制可選模型數量，具體項目未完全揭露"
+    ],
+    "why_it_matters": "Copilot 是開發者最常用 AI 工具之一，模型選擇的變化直接影響日常工作流程程與輸出品質，需關注實際影響範圍。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 Copilot 網頁版實際測試新配置，觀察程式碼生成、錯誤偵測等任務的表現差異，評估是否需要切換本地或 API 方案。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-tomoribot-discord-ai",
+    "title": "TomoriBot：支援長期記憶的 Discord 自律型 AI 機器人",
+    "title_original": "Bredrumb/TomoriBot",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Bredrumb/TomoriBot",
+    "published_at": "2026-05-20T16:23:08Z",
+    "category": "agent-skills",
+    "summary": "高度可定制的 Discord AI 助理，具備長期記憶、人物設定、工具呼叫等 Agent 能力。採用 TypeScript 開發，強調次世代自自律型 AI 代理的開發範式。",
+    "highlights": [
+      "• 長期記憶系統，讓 Bot 跨會話保持上下文",
+      "• 人物設定與工具整合能力",
+      "• TypeScript 實作，易於擴展",
+      "• 38 stars，Discord 應用場景明確"
+    ],
+    "why_it_matters": "若你有社群運維或 Discord 機器人開發需求，此專案提供了現成的 Agent 化架構參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 TomoriBot 部署到測試 Discord 伺服器，評估其記憶機制是否適合你的使用場景，作為開發類似功能時的參考範本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/65227425?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-joanium-classic-ai",
+    "title": "Joanium-Classic：簡潔友善的個人 AI 助理",
+    "title_original": "Joanium/Joanium-Classic",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Joanium/Joanium-Classic",
+    "published_at": "2026-05-20T16:20:29Z",
+    "category": "agent-skills",
+    "summary": "標榜智慧、可靠、友善的個人 AI 助理專案，採用 JavaScript 開發。描述較為簡潔，具體功能與特色需進一步探索原始碼確認。",
+    "highlights": [
+      "• JavaScript 實現，入門門檻低",
+      "• 定位為個人助理，場景明確",
+      "• 28 stars，社群關注度一般",
+      "• 文件資訊有限，需自行閱讀原始碼"
+    ],
+    "why_it_matters": "作為個人助理類專案的參考起點，技術深度待驗證，適合有興趣探索但時間有限的讀者先觀望。",
+    "automation_angle": null,
+    "automation_angle_zh": "快速瀏覽其 GitHub README 與核心原始碼，若無具體文件則降低優先處理。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/271912814?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-github-copilot",
+    "title": "GitHub Copilot 自動模型選擇功能正式支援任務路由",
+    "title_original": "Auto model selection now routes based on your task in VS Code",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-05-20-auto-model-selection-now-routes-based-on-your-task-in-vs-code",
+    "published_at": "2026-05-20T15:24:40+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 的自動模型選擇功能現已能根據任務類型自動路由至最佳模型，結合利用率與模型健康度指標，提供高品質、穩定且節省 token 的編碼體驗。",
+    "highlights": [
+      "• 官方 GitHub 部落格公告，來源可靠",
+      "• 自動選擇最佳模型，減少人工干預",
+      "• 強調 token 效率與可靠性",
+      "• VS Code 整合，開發者直接受惠"
+    ],
+    "why_it_matters": "此功能上線後，Copilot 使用者無需手動切換模型即可獲得最佳性價比體驗，對日常工作流程有實質影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 VS Code 中啟用 Copilot 最新版本，觀察自動路由行為，記錄其在不同任務（補全、重構、測試）下的模型選擇與回應品質。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-05-20-cc-connect-ai-agent",
     "title": "cc-connect：將本地 AI 程式設計 Agent 橋接到企業通訊平台",
     "title_original": "chenhg5/cc-connect",
@@ -1059,6 +1339,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-20-google-25-ai",
+    "title": "Google 25年來首次重塑搜尋框：全面 AI 化",
+    "title_original": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/category/ai/feed/",
+    "original_url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+    "published_at": "2026-05-19T17:45:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google 在 I/O 大會宣布搜尋框重大改版，從關鍵字輸入改為動態 AI 對話介面。支援文字、圖片、PDF、影片等多模態輸入，AI Overviews 與 AI Mode 正式合併。底層由 Gemini 3.5 Flash 驅動，號稱四倍速輸出。搜尋框可即時生成互動視覺與自訂小工具，並引入資訊代理功能。",
+    "highlights": [
+      "搜尋框從關鍵字輸入改為多模態 AI 對話介面",
+      "支援圖片、PDF、影片直接上傳或拖入",
+      "Gemini 3.5 Flash 提供接近頂級模型品質但四倍速",
+      "可即時生成互動視覺、自訂小工具",
+      "資訊代理可24/7監控特定條件並主動通知"
+    ],
+    "why_it_matters": "Google 搜尋是全球最大 AI 產品（月處理 3.2 兆 tokens），此改版象徵 AI 原生介面的時代來臨。對 SEO、內容策略、廣告投放生態都將產生深遠影響，開發者需重新思考資訊獲取方式。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用自然語言取代多個關鍵字搜尋，測試複雜查詢的 AI 回應品質；可研究搜尋 API 是否支援新功能整合，用於自動化資訊收集或工作流程程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-19-codegraph-claude-cursor-codex-api-94",
@@ -3415,6 +3723,32 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-05-20-replicate-api",
+    "title": "Replicate 預測清單 API 新增來源過濾功能",
+    "title_original": "Filter predictions by source",
+    "source": "Replicate Changelog",
+    "source_url": "https://replicate.com/changelog/rss",
+    "original_url": "https://replicate.com/changelog/2026-01-14-filter-web-predictions-via-api",
+    "published_at": "2026-01-14T09:00:00+00:00",
+    "category": "new-models",
+    "summary": "Replicate 新增 API 功能，可過濾預測清單僅顯示來自網頁介面建立的項目。這項變更有助於區分人為操作與程式呼叫的預測，方便進行操作審計或流程分析。",
+    "highlights": [
+      "API 支援預測來源過濾",
+      "可篩選僅顯示網頁建立的預測",
+      "有助於操作追蹤與審計"
+    ],
+    "why_it_matters": "來源過濾功能讓模型使用記錄更透明，對需要管理多位使用者或追蹤實驗的團隊有實際價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用此 API 追蹤團隊成員的網頁操作，區分自動化腳本與手動測試的消耗，便於成本控制與效能優化。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-16-salesforce-slackbot-ai-claude-microsoft-google-ai",
     "title": "Salesforce推出新版Slackbot AI代理，整合Claude挑戰Microsoft和Google企業AI市場",
     "title_original": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
@@ -3525,6 +3859,84 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-20-replicate-mcp-code-mode",
+    "title": "Replicate 推出 MCP 伺服器 Code Mode",
+    "title_original": "Code mode for Replicate's MCP server",
+    "source": "Replicate Changelog",
+    "source_url": "https://replicate.com/changelog/rss",
+    "original_url": "https://replicate.com/changelog/2025-11-15-mcp-code-mode",
+    "published_at": "2025-11-15T09:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Replicate 實驗性功能讓語言模型能在沙盒環境中撰寫並執行 TypeScript 程式碼。這項功能可讓 AI 直接運行代碼而非僅生成文字，對需要即時計算或資料處理的工作流程程特別有幫助。",
+    "highlights": [
+      "實驗性功能，模型可撰寫並執行 TypeScript",
+      "在沙盒環境中運行，安全性較高",
+      "可直接返回程式執行結果而非靜態文字"
+    ],
+    "why_it_matters": "Code Mode 讓 AI 能真正「做事情」而非僅「說事情」，對自動化工作流程程、資料分析、即時運算等場景有實質價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合至代理工作流程程，讓 AI 直接執行爬蟲、數據處理、檔案操作等任務，減少人為干預需求。測試時可觀察執行速度與錯誤率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-replicate-models-list-api-creation-date",
+    "title": "Replicate models.list API 支援creation date排序",
+    "title_original": "Sort models by creation date via API",
+    "source": "Replicate Changelog",
+    "source_url": "https://replicate.com/changelog/rss",
+    "original_url": "https://replicate.com/changelog/2025-10-08-models-api-sorting",
+    "published_at": "2025-10-08T16:00:00+00:00",
+    "category": "new-models",
+    "summary": "Replicate 的 models.list API 現在支援按模型 creation date 或最新版本 creation date 排序。這項變更讓開發者能更方便地管理大量模型，快速找到最新或最早的模型版本。",
+    "highlights": [
+      "API 現在支援排序參數",
+      "可按模型建立時間或版本建立時間排序",
+      "有助於大規模模型管理"
+    ],
+    "why_it_matters": "API 增加排序能力簡化了模型版本管理流程，對需要追蹤模型迭代或自動化部署的團隊有實質幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可利用排序功能自動找出最新版本模型，結合 CI/CD 流程實現模型更新自動化，減少手動檢查負擔。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-replicate-api",
+    "title": "Replicate API 現在可更新模型元資料",
+    "title_original": "Update model metadata via API",
+    "source": "Replicate Changelog",
+    "source_url": "https://replicate.com/changelog/rss",
+    "original_url": "https://replicate.com/changelog/2025-10-06-update-models-via-api",
+    "published_at": "2025-10-06T20:00:00+00:00",
+    "category": "new-models",
+    "summary": "Replicate 開放 API 直接更新模型屬性，開發者不再需要透過網頁介面手動修改。這項功能對於需要大量管理模型的團隊或自動化模型發布流程至關重要。",
+    "highlights": [
+      "支援透過 API 更新模型屬性",
+      "可批次管理模型元資料",
+      "減少網頁操作需求"
+    ],
+    "why_it_matters": "API 直接修改模型元資料能力，讓模型管理流程更順暢，對需要自動化發布流水線的團隊有直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "結合模型排序 API，可實現從版本創建到元資料更新的全自動流水線，例如自動設定標籤、更新描述、發布上線。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-20-replicate-search-api-beta",
