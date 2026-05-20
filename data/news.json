@@ -1,5 +1,436 @@
 [
   {
+    "id": "2026-05-20-aris-ai-offer-ml-llm",
+    "title": "ARIS AI Offer：ML/LLM 面試速查單頁手冊開源專案",
+    "title_original": "wanshuiyin/ARIS-in-AI-Offer",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/wanshuiyin/ARIS-in-AI-Offer",
+    "published_at": "2026-05-20T07:07:44Z",
+    "category": "open-source-ai",
+    "summary": "一個雙語（中文/英文）機器學習與 LLM 面試備考開源專案，透過 ARIS /render-html 工作流程自動生成單一 HTML 檔，可於手機、平板、筆電隨處閱讀，內容涵蓋多模態、生成模型、Agent 等熱門議題。",
+    "highlights": [
+      "44 Stars，Python 實作，單一 HTML 輸出",
+      "涵蓋 ML/LLM/多模態/生成模型/Agent 面試重點",
+      "響應式 HTML 設計，跨設備閱讀體驗佳",
+      "自動生成流程便於持續更新內容",
+      "屬於備考型工具，非直接生產力工具，信號偏弱"
+    ],
+    "why_it_matters": "對於需要快速複習 LLM 核心概念或準備面試的技術人員，這是一個便攜的離線參考資源。但作為開源專案影響力有限，需注意訊號強度。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接下載 HTML 離線使用；如需自動化生成類似內容，可 Fork 研究 /render-html 工作流程，改造成自訂知識庫輸出工具。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/76990859?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-oh-my-coder-12",
+    "title": "oh-my-coder：支援 12+ 國產大模型的多智能體程式設計助理",
+    "title_original": "VOBC/oh-my-coder",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/VOBC/oh-my-coder",
+    "published_at": "2026-05-20T07:04:38Z",
+    "category": "agent-skills",
+    "summary": "多智能體 AI 程式設計助理，明確支援 DeepSeek、GLM、MiMo 等 12 款以上國產大模型，實現多智能體協作編碼。Python 實作，108 stars，強調國產模型生態整合。",
+    "highlights": [
+      "• 支援 DeepSeek、GLR、MiMo 等 12+ 國產模型",
+      "• 多智能體協作：規劃 → 實作 → 測試分工明確",
+      "• Python 實作，與現有 Python 生態無縫整合",
+      "• 適合想用國產模型降本或避免 OpenAI 依賴的團隊",
+      "• 可對接本地部署的國產模型，保障資料安全"
+    ],
+    "why_it_matters": "在中美科技戰背景下，國產模型替代需求上升。oh-my-coder 直接整合 12+ 國產模型，讓技術團隊能用低成本、本地化的方案實現 AI 輔助編程，降低 API 費用與合規風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "已在用國產模型（如 DeepSeek）的團隊可直接接入 oh-my-coder，測試多代理協作編碼的輸出品質與效率，看能否取代或輔助現有的單一模型 coding assistant。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/44053174?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-gortex-50x-token",
+    "title": "gortex：本地程式碼圖譜引擎，號稱節省 50x token",
+    "title_original": "zzet/gortex",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/zzet/gortex",
+    "published_at": "2026-05-20T07:04:20Z",
+    "category": "open-source-ai",
+    "summary": "Go 語言開發的高效能程式碼圖譜與智慧引擎，支援 256 種語言、跨多倉儲、在記憶體中建立知識圖譜。透過 CLI、MCP Server、API 三種介面暴露圖譜資料，目標是讓 AI 編碼代理只取所需的資訊，官方宣稱可減少 50 倍 token 用量。100% 本地運行。",
+    "highlights": [
+      "• 支援 256 種語言，覆蓋主流與冷門程式語言",
+      "• 多倉儲支援，跨專案建立統一的程式碼圖譜",
+      "• In-memory 知識圖譜，查詢速度快",
+      "• 三種介面：CLI、MCP Server、REST API，彈性整合",
+      "• 聲稱減少 50x token 用量，實際效果待實測"
+    ],
+    "why_it_matters": "Code agent 常常因為 context window 限制而無法處理大型專案。gortex 的知識圖譜可以只抽取代理需要的程式碼關係，大幅降低 token 消耗，等於直接省錢且提升處理上限。",
+    "automation_angle": null,
+    "automation_angle_zh": "本地架設 gortex，串接到自己的 coding agent pipeline，測量對 token 消耗與回應品質的實際影響。若 token 省 50x 為真，API 成本可砍半以上，值得做 A/B 測試。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/510788?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-codex-octopus-mcp-codex",
+    "title": "codex-octopus：MCP 伺服器形式的多元 Codex 代理框架",
+    "title_original": "xiaolai/codex-octopus",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/xiaolai/codex-octopus",
+    "published_at": "2026-05-20T07:03:42Z",
+    "category": "agent-skills",
+    "summary": "xiaolai/codex-octopus 將一個大腦（主代理）與多個專門化的 Codex 子代理透過 MCP 協定連接，TypeScript 開發，目前 13 顆星。強調單一主體能生成多個任務專精的代理。",
+    "highlights": [
+      "基於 MCP 協定與其他工具整合",
+      "支援 spawning 多個專門化子代理",
+      "TypeScript/Node 生態，易於整合現有專案",
+      "概念類似多代理協作系統",
+      "目前星數低但概念完整可實驗"
+    ],
+    "why_it_matters": "多代理協作是 AI 自動化熱點，此專案提供可直接部署的 MCP 架構，技術用戶可評估其是否能取代手動拆解的多步驟工作流程程。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此 MCP 伺服器部署至本機，測試讓一個主代理自動調度子代理完成複雜任務如文件處理＋程式碼生成。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/152970?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-qveris-agent-toolkit-agent",
+    "title": "QVeris Agent Toolkit：Agent 能力路由網路的開源工具包",
+    "title_original": "QVerisAI/qveris-agent-toolkit",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/QVerisAI/qveris-agent-toolkit",
+    "published_at": "2026-05-20T06:53:42Z",
+    "category": "agent-skills",
+    "summary": "QVeris 開源工具包提供 CLI、MCP Server、Python SDK 與 REST API，幫助 Agent 發現、檢查、呼叫並審計真實世界工具。屬於「工具路由」基礎設施，目標是標準化 Agent 與外部工具的對接方式。",
+    "highlights": [
+      "227 Stars，JavaScript 實作，輕量級工具包",
+      "CLI、MCP Server、Python SDK、REST API 多元接入",
+      "專注於「工具發現」與「呼叫審計」兩個環節",
+      "支援 Agent 對外部工具進行元資料檢索",
+      "可與現有 Agent 框架整合提升工具調用可靠性"
+    ],
+    "why_it_matters": "當 Agent 需整合多個外部 API 與工具時，統一路由與審計機制是降低出錯率的關鍵。QVeris 填補了「工具發現」這一容易被忽視的環節。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將 QVeris 作為工具閘道，整合進內部 Agent 系統，統一管理工具授權、呼叫日誌與錯誤追蹤。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/245123302?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-yantrikdb-server-ai",
+    "title": "yantrikdb-server：AI 代理的認知記憶資料庫",
+    "title_original": "yantrikos/yantrikdb-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/yantrikos/yantrikdb-server",
+    "published_at": "2026-05-20T06:47:33Z",
+    "category": "agent-skills",
+    "summary": "專為 AI 代理設計的認知記憶資料庫，具備去重、矛盾偵測與時間衰減三大機制，自動整理代理的記憶品質。Rust + AGPL 授權，可當 library、MCP server 或 HTTP 叢集部署。146 stars，概念新穎。",
+    "highlights": [
+      "• 自動去重：相同資訊不重複儲存，節省 context",
+      "• 矛盾偵測：識別代理記憶中的邏輯衝突",
+      "• 時間衰減：淡化過時資訊，保持記憶新鮮度",
+      "• 三種部署模式：library、MCP server、HTTP 叢集",
+      "• AGPL 開源，企業使用需注意授權條款"
+    ],
+    "why_it_matters": "AI 代理長期運行後context 會累積垃圾資訊，yantrikdb 用認知科學啟發的機制自動清理，等於給代理裝了一個「記憶健康管理系統」，可提升長期任務的穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 yantrikdb 當 MCP server 串接到自己的 agent pipeline，觀察去重與矛盾偵測對任務成功率與 token 消耗的影響，評估是否值得加入記憶管理層。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/266386478?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-omem-ai",
+    "title": "omem：AI 代理的共享持久記憶體框架",
+    "title_original": "ourmem/omem",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ourmem/omem",
+    "published_at": "2026-05-20T06:45:52Z",
+    "category": "agent-skills",
+    "summary": "Rust 實現的 AI 代理持久化記憶體系統，支援 Space 機制跨代理/團隊共享記憶。提供 OpenCode、Claude Code、OpenClaw、MCP Server 等插件，號稱「永不遺忘」的共享記憶方案。197 stars，剛釋出不久即獲社群關注。",
+    "highlights": [
+      "• Rust 實作，保證高效與記憶體安全",
+      "• Space 機制實現跨代理、跨團隊的記憶體共享",
+      "• 支援主流 AI 編碼工具：Claude Code、OpenCode、OpenClaw",
+      "• MCP Server 介面，方便快速整合進現有工作流程",
+      "• 解決多代理協作時的上下文斷裂問題"
+    ],
+    "why_it_matters": "多代理系統最大的痛點之一是記憶體隔離——omem 用 Space 機制讓代理間共享 context，團隊協作或長期任務不再需要每次重新 context injection，大幅提升生產力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將 omem 整合進自己的 Claude Code 或 OpenCode 工作流程，測試多代理記憶體共享是否適用於自己的專案自動化流程，特別是跨階段、長周期的任務（如 code review → refactor → test）。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/271586396?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-20-apify-mcp-server-agent-mcp",
+    "title": "Apify MCP Server：讓 Agent 無痛爬取全網資料的 MCP 擴展",
+    "title_original": "apify/apify-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/apify/apify-mcp-server",
+    "published_at": "2026-05-20T06:40:39Z",
+    "category": "agent-skills",
+    "summary": "Apify 釋出官方 MCP Server，讓 AI Agent 可直接呼叫 Apify Store 數千個預設爬蟲與自動化工具，涵蓋社群媒體、搜尋引擎、地圖、電商等網站類型，無需自行維運爬蟲基礎設施。",
+    "highlights": [
+      "已獲 1241 Stars，TypeScript 實作，社群關注度高",
+      "支援社群、搜尋引擎、地圖、電商等常見網站類型",
+      "透過 MCP 協定與主流 Agent 框架無縫對接",
+      "無需自建/維運爬蟲基礎設施，按用量付費",
+      "可與本地模型結合，避免敏感資料外流"
+    ],
+    "why_it_matters": "資料取得往往是自動化瓶頸。Apify MCP Server 將「爬蟲」這件事標準化為 Agent 可呼叫的工具，大幅降低資料收集層的開發成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 Apify MCP Server 整合進自己的 Agent，針對特定網站（如競爭對手定價頁、新聞來源）建立自動資料抓取管線。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/24586296?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-20-ai-duino-arduino-ide-ai",
+    "title": "AI.duino：在 Arduino IDE 中直接召唤 AI 助理",
+    "title_original": "NikolaiRadke/AI.duino",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/NikolaiRadke/AI.duino",
+    "published_at": "2026-05-20T06:17:25Z",
+    "category": "agent-skills",
+    "summary": "將 Claude、ChatGPT、Gemini、LM Studio 等主流 AI 模型直接整合進 Arduino IDE 的插件。Maker 可以在寫硬體程式碼時即時獲得 AI 協助，不需切換視窗或複製貼上。目前 31 stars，JS 實作，入門門檻低。",
+    "highlights": [
+      "• 支援 Claude、ChatGPT、Gemini、LM Studio 等多種模型",
+      "• 原生整合 Arduino IDE，無需離開開發環境",
+      "• JavaScript 實作，易於修改或擴充模型清單",
+      "• 適合嵌入式/Maker 場景的 AI 輔助編碼",
+      "• 可對接本地 LM Studio，保護智慧財產或隱私"
+    ],
+    "why_it_matters": "硬體開發者長期缺乏好的 AI coding assistant，AI.duino 填補了這個缺口。若能串接本地 LM Studio，還能避免敏感電路設計上傳雲端，一舉兩得。",
+    "automation_angle": null,
+    "automation_angle_zh": "Maker 或嵌入式工程師可安裝此插件，用本地 LM Studio + Arduino 實現離線 AI 輔助編碼，自動化常見的感測器驅動程式生成或除錯流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/16576820?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-iclaw-ios-ai-app-ai",
+    "title": "iClaw：原生 iOS AI 助理 App，可自訂多個 AI 代理",
+    "title_original": "samhjn/iClaw",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/samhjn/iClaw",
+    "published_at": "2026-05-20T05:35:50Z",
+    "category": "agent-skills",
+    "summary": "samhjn/iClaw 是一款 Swift 開發的原生 iOS AI 代理應用，支援多個可自訂的 AI 助理，能直接在手機上運行。現有 66 顆星，屬於早期專案但已具備實際功能。",
+    "highlights": [
+      "Swift 原生開發，可直接安裝至 iPhone",
+      "支援多個可自訂 AI 助理同時運行",
+      "本地化執行減少網路依賴",
+      "開源專案，星數顯示社群關注度尚在起步",
+      "可作為移動端 AI 工作流程的一環"
+    ],
+    "why_it_matters": "若你需要在 iOS 設備上直接測試或使用 AI 代理，此專案提供可自訂的框架，技術用戶可 fork 後客製化整合至現有工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載原始碼，將特定任務的 prompt 寫入，成為個人手機端的自動化 AI 助理。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Swift"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/4426124?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-frona-rust",
+    "title": "frona：Rust 實作的自主代理平台",
+    "title_original": "fronalabs/frona",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/fronalabs/frona",
+    "published_at": "2026-05-20T05:12:00Z",
+    "category": "agent-skills",
+    "summary": "用 Rust 開發的個人 AI 代理系統，使用者可透過聊天介面建立自主代理、赋予工具，代理會自己瀏覽網頁、執行程式、開發應用、搜尋資料、撥打電話，並能相互委派任務。177 stars，架構頗具野心。",
+    "highlights": [
+      "• Rust 實作，效能與安全性兼具",
+      "• 支援網頁瀏覽、程式執行、應用開發等多元工具",
+      "• 代理間可相互委派任務，建構自動化協作鏈",
+      "• 聊天介面降低使用門檻",
+      "• 100% 本地運行，資料不外流"
+    ],
+    "why_it_matters": "frona 的代理委派機制是亮點——不同專長的代理可以分工合作，例如 research agent 搜集資料後委派給 coding agent 執行。若成熟可大幅簡化複雜任務的自動化設計。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術愛好者可架設 frona，定義不同角色的代理，串接自己的工具鏈（瀏覽器、終端、API），測試多代理協作在真實工作流程中的可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/84815296?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-reddit-api",
+    "title": "Reddit 熱議：代理工作流程視覺化與 API 閘道器方案",
+    "title_original": "Agentic Workflow Visualization and API Gateway",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1ti3q87/agentic_workflow_visualization_and_api_gateway/",
+    "published_at": "2026-05-19T23:14:02+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/OpenAI 討論串分享代理工作流程視覺化工具與 API 閘道器整合方案，屬於社群討論而非官方發布，具體工具名稱與實作細節待驗證。",
+    "highlights": [
+      "屬於 Reddit 社群討論非官方產品",
+      "涉及代理工作流程 Debug 與追蹤需求",
+      "反映開發者對可視化工具的強烈需求",
+      "缺乏具體效能數據或開源链接",
+      "可作為需求趨勢參考而非技術採用"
+    ],
+    "why_it_matters": "代理工作流程 Debug 是當前痛點，社群熱度顯示技術用戶急需可靠的追蹤與視覺化方案，可作為工具選型的方向參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "可搜尋串中提到的工具名稱，評估是否能整合至現有 AI pipeline 充當監控層。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-20-github-copilot",
+    "title": "GitHub Copilot 雲端代理支援一鍵套用程式碼審查建議",
+    "title_original": "Easily apply Copilot code review feedback with Copilot cloud agent",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-05-19-easily-apply-copilot-code-review-feedback-with-copilot-cloud-agent",
+    "published_at": "2026-05-19T22:28:17+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 程式碼審查功能的「Implement suggestion」按鈕已更名為「Fix with Copilot」，並新增 UI 對話框讓用戶控制建議套用方式，支援 Copilot 雲端代理。",
+    "highlights": [
+      "「Fix with Copilot」取代原有實作按鈕",
+      "新增對話框控制套用細節",
+      "整合 Copilot cloud agent 能力",
+      "屬於 GitHub 官方功能更新",
+      "對團隊程式碼審查流程有實質影響"
+    ],
+    "why_it_matters": "直接加速程式碼審查後的修復速度，減少開發者手動套用 AI 建議的繁瑣步驟，是工作流程自動化的具體落地。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 PR 審查後直接點擊「Fix with Copilot」，觀察 AI 是否能正確理解上下文並產出符合團隊規範的修改。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-20-openai-ai",
+    "title": "OpenAI 宣佈與新加坡達成多年 AI 合作協議",
+    "title_original": "Introducing OpenAI for Singapore",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/introducing-openai-for-singapore",
+    "published_at": "2026-05-19T20:30:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 宣佈與新加坡政府及學術機構建立多年 AI 夥伴關係，旨在擴展部署、建立當地人才，並支援企業與公共服務採用 AI 技術。",
+    "highlights": [
+      "屬於國家級 AI 基礎設施合作",
+      "聚焦人才培育與企業應用落地",
+      "對亞洲市場戰略意義明顯",
+      "尚未揭露具體 API 定價或模型版本",
+      "屬於政策/市場擴展新聞非技術突破"
+    ],
+    "why_it_matters": "此類國家級合作往往帶動當地 AI 服務可用性與定價調整，技術用戶可關注新加坡是否獲得 API 折扣或專用模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤新加坡市場動態，若有本地化 API 端點或優惠，企業級用戶可評估成本節省空間。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-20-allenai-olmoearth-v1-1",
+    "title": "AllenAI 發布 OlmoEarth v1.1：更高效的開源模型族",
+    "title_original": "OlmoEarth v1.1: A more efficient family of models",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+    "published_at": "2026-05-19T18:38:09+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格介紹 OlmoEarth v1.1，宣稱為更高效的開源模型族，具體架構與效能數據需查閱完整文件。目前部落格摘要資訊有限。",
+    "highlights": [
+      "屬於 Allen Institute for AI 開發的開源模型",
+      "強調效率提升（推論成本降低）",
+      "可在 Hugging Face 直接下載",
+      "屬於 Hugging Face 官方推廣內容",
+      "詳細 benchmark 數據需閱讀完整文章"
+    ],
+    "why_it_matters": "如果效率確實提升，可作為替換現有開源模型的候選，尤其適合對推論成本敏感的部署場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載模型權重至本地，用預設測試集評估其與當前使用模型的延遲與準確度比較。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-19-mcp-flutter-flutter-ai",
     "title": "mcp_flutter：Flutter AI 代理開發工具包，閉環視覺+語義快照",
     "title_original": "Arenukvern/mcp_flutter",
