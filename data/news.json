@@ -1,5 +1,150 @@
 [
   {
+    "id": "2026-05-21-agenticx-mcp-hub-agent",
+    "title": "AgenticX：整合 MCP Hub 的量產就緒多 Agent 平台",
+    "title_original": "DemonDamon/AgenticX",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/DemonDamon/AgenticX",
+    "published_at": "2026-05-21T07:07:53Z",
+    "category": "agent-skills",
+    "summary": "AgenticX 是以 Python SDK 為核心的多 Agent 框架，除指令列工具 agx 外亦提供 Studio 服務端與 Machi 桌面端。支援 Meta-Agent 編排、15 家以上 LLM 提供者、MCP Hub 工具集、階層式記憶與企業 IM 接入，屬於功能完整的開源 Agent 平台。",
+    "highlights": [
+      "支援 Meta-Agent 編排，可定義複雜多 Agent 協作流程",
+      "內建 MCP Hub，統一管理外部工具接入",
+      "15+ LLM 提供者整合，模型路由彈性高",
+      "支援飛書、微信等 IM 閘道，方便整合至內部通訊",
+      "提供桌面端 Machi，降低非技術人員操作門檻"
+    ],
+    "why_it_matters": "AgenticX 將模型路由、MCP 工具鏈與 IM 整合三大需求統一收斂，適合需要快速搭建企業級 Agent 系統的技術團隊，Python SDK 也降低了 Python 開發者的學習成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 AgenticX 建構內部客服或文件處理 Agent 流程，透過 MCP Hub 快速接入既有工具 API，IM 閘道則可直接將結果推送至飛書或微信群組，實現端到端自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/20499644?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-mcp-video-ai-87-ffmpeg-mcp",
+    "title": "mcp-video：提供 AI 代理 87 種 FFmpeg 工具的影片剪輯 MCP 伺服器",
+    "title_original": "KyaniteLabs/mcp-video",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/KyaniteLabs/mcp-video",
+    "published_at": "2026-05-21T07:02:38Z",
+    "category": "agent-skills",
+    "summary": "KyaniteLabs 開源專案，提供 87 個 FFmpeg 與 Hyperframes 工具，讓 AI 代理能直接操控影片編輯。Python 用戶端與 CLI 支援，完全本地運行，無需雲端費用。",
+    "highlights": [
+      "87 個 FFmpeg 工具涵蓋剪輯、轉檔、截圖等常見需求",
+      "Hyperframes 工具支援時間軸操作",
+      "Python 用戶端方便整合到現有 Python 專案",
+      "CLI 介面可直接在終端機執行影片任務",
+      "完全本地部署，處理速度取決於本機硬體"
+    ],
+    "why_it_matters": "讓 AI 代理具備影片後製能力，可自動化處理大量素材，降低對 Premiere 等傳統軟體的依賴。適合需要批次處理行銷影片的技術團隊。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 mcp-video 整合進代理工作流程，自動完成：素材轉檔 → 裁切 → 加上浮水印 → 匯出成多格式。開發者可用 pip install mcp-video 立即測試。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/272754061?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-aghub-rust-ai",
+    "title": "aghub：用 Rust 打造的全域 AI 編碼助理統一配置中心",
+    "title_original": "AkaraChen/aghub",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/AkaraChen/aghub",
+    "published_at": "2026-05-21T06:50:55Z",
+    "category": "agent-skills",
+    "summary": "aghub 是 Rust 實作的配置管理工具，目標是統一管理 22 種以上 AI 編碼助理的設定，支援跨編輯器與 IDE 的統一配置同步。屬於輕量級 CLI 工具，適合在多設備或多助理間切換的開發者快速統一配置。",
+    "highlights": [
+      "Rust 實作，執行效率高且跨平台支援佳",
+      "統一介面管理 22+ 主流 AI 程式碼助理配置",
+      "CLI 工具設計，適合作業自動化與 Script 整合",
+      "可簡化多設備、多專案間的配置遷移流程",
+      "屬於配置管理工具而非 Agent 框架，定位明確"
+    ],
+    "why_it_matters": "開發者常因專案需求切換 Cursor、Copilot、Cline 等不同編碼助理，aghub 提供統一路由層減少重複配置時間，Rust 效能也確保在大專案或 CI 環境中不會成為瓶頸。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在 CI/CD Pipeline 中加入 aghub 命令，自動根據分支或專案類型套用對應 AI 助理配置；或在團隊共享統一 dotfiles 時用 aghub 同步所有成員的 AI 工具設定。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/85140972?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-openosint-mcp-ai",
+    "title": "OpenOSINT：支援 MCP 介面的 AI 驅動開源情報工具",
+    "title_original": "OpenOSINT/OpenOSINT",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/OpenOSINT/OpenOSINT",
+    "published_at": "2026-05-21T06:44:27Z",
+    "category": "agent-skills",
+    "summary": "OpenOSINT 是一款聚焦開源情報收集的 AI Agent，提供互動式 REPL、MCP 服務端與 CLI，包含 9 種內建工具，可對接 Claude、GPT-4 或本地模型。僅限授權安全研究使用。",
+    "highlights": [
+      "互動式 REPL 支援即時查詢與除錯",
+      "9 種內建 OSINT 工具涵蓋常見情報蒐集需求",
+      "MCP 介面可與其他 Agent 平台串接",
+      "支援本地模型部署，資料不留外部",
+      "明確標示僅供授權安全研究，需注意合規邊界"
+    ],
+    "why_it_matters": "對安全研究與滲透測試場景的技術人員，OpenOSINT 提供了將 LLM 能力結合 OSINT 工具鏈的捷徑，可在一次對話中完成情報規劃、工具調用與結果整理的閉環。",
+    "automation_angle": null,
+    "automation_angle_zh": "安全研究人員可將 OpenOSINT 整合入現有滲透測試工作流程，用自然語言驅動情報收集任務，MCP 介面則可與自架 Agent 平台串接成自動化威脅情報報告生成系統。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/281987694?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-toolhive-registry-mcp",
+    "title": "ToolHive Registry：企業級 MCP 伺服器探索與存取治理平台",
+    "title_original": "stacklok/toolhive-registry-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/stacklok/toolhive-registry-server",
+    "published_at": "2026-05-21T06:41:43Z",
+    "category": "agent-skills",
+    "summary": "Stacklok 推出的 MCP 工具樞紐，幫助企業發現、治理並控制組織內所有 MCP 伺服器與代理技能的存取權限。支援跨團隊權限管理與合規稽核。",
+    "highlights": [
+      "統一探索企業內所有已部署的 MCP 伺服器",
+      "細緻的存取權限控制，支援 RBAC 角色",
+      "可用於審計哪些代理有權限執行敏感操作",
+      "Go 語言實作，性能表現佳",
+      "開源可自托管，適合對資料主權有需求的企業"
+    ],
+    "why_it_matters": "隨著 MCP 生態膨脹，企業需要治理工具防止未授權代理存取外部工具。此專案填補企業 AI 治理缺口，技術決策者可評估其取代自建的白名單機制。",
+    "automation_angle": null,
+    "automation_angle_zh": "安全團隊可架設 ToolHive Registry，集中管理哪些 MCP 工具對哪些開發者或代理開放，並生成存取日誌用於合規報告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/110237746?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-21-mcp-agent-mail-rust-rust-agent",
     "title": "mcp_agent_mail_rust：Rust 多 Agent 協調工具",
     "title_original": "Dicklesworthstone/mcp_agent_mail_rust",
@@ -113,6 +258,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/6454132?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-21-github-copilot-github",
+    "title": "GitHub Copilot 使用量報告下載網址遷移至 GitHub 自有網域",
+    "title_original": "Copilot usage metrics reports now use GitHub-owned download URLs",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-05-20-copilot-usage-metrics-reports-now-use-github-owned-download-urls",
+    "published_at": "2026-05-20T23:58:35+00:00",
+    "category": "agent-skills",
+    "summary": "Copilot 用量報告的下載 URL 已從 Azure Front Door 網域遷移至 GitHub 自有穩定網域。這個變更改善了 URL 穩定性，減少第三方依賴，適合有嚴格網域白名單政策的企業。",
+    "highlights": [
+      "下載網址由 Azure 網域改為 GitHub 域名",
+      "對終端用戶影響最小，報告內容不變",
+      "適合 MDM 或防火牆規則依賴 URL 白名單的組織",
+      "此前已在 2026-03-04 公告過此遷移計畫",
+      "本次為正式執行階段的變更公告"
+    ],
+    "why_it_matters": "企業 IT 若有網域白名單限制，過去可能需要將 Azure 網域加入信任清單。現在遷移後簡化政策維護，技術管理員可更新防火牆規則。",
+    "automation_angle": null,
+    "automation_angle_zh": "自動化報告擷取腳本若硬編碼 Azure URL，應更新為新網域。建議檢查現有 CI/CD 中對 Copilot 報告下載的程式碼，確保取用不受影響。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
@@ -4256,6 +4429,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-replicate",
+    "title": "Replicate 部署監控：企業版可自訂部署失敗通知與逾時等待時間",
+    "title_original": "Deployment setup monitoring",
+    "source": "Replicate Changelog",
+    "source_url": "https://replicate.com/changelog/rss",
+    "original_url": "https://replicate.com/changelog/2025-11-03-deployment-setup-monitoring",
+    "published_at": "2025-11-03T09:00:00+00:00",
+    "category": "new-models",
+    "summary": "Replicate 為企業版客戶新增部署失敗通知功能，並允許自訂等待逾時時間。部署卡住時可主動告警，減少模型服務的無預警中斷風險。",
+    "highlights": [
+      "部署啟動失敗時自動發送通知",
+      "可自訂逾時門檻，適用不同規模模型",
+      "僅限 Enterprise 方案用戶使用",
+      "降低模型 API 服務中斷的被動發現時間",
+      "可與 Slack / PagerDuty 等告警工具整合"
+    ],
+    "why_it_matters": "自託管模型的部署監控通常需要自行建置。Replicate 此功能讓技術團隊省去自建監控的成本，適合重視模型 SLA 的 AI 應用開發商。",
+    "automation_angle": null,
+    "automation_angle_zh": "結合 Webhook 將 Replicate 部署失敗事件傳入內部監控系統，自動觸發除錯腳本或通知 on-call 工程師。可評估是否值得從自建遷移至此受控環境。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-05-20-replicate-models-list-api-creation-date",
