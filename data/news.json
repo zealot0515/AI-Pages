@@ -1,5 +1,376 @@
 [
   {
+    "id": "2026-05-21-wayflow-agent-spec-python",
+    "title": "WayFlow：Agent Spec 標準的 Python 執行期",
+    "title_original": "oracle/wayflow",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/oracle/wayflow",
+    "published_at": "2026-05-21T12:59:44Z",
+    "category": "agent-skills",
+    "summary": "WayFlow 是 Oracle 釋出的 Python 函式庫，專為建構 AI 助理設計，同時是 Agent Spec 的參考執行期。原生支援所有 Agent Spec Agents 與 Flows，提供直覺的 API 介面，讓開發者快速建立複雜 AI 工作流程。",
+    "highlights": [
+      "原生支援 Agent Spec Agents 與 Flows，符合業界標準",
+      "Python 實作，生態系豐富，易於整合現有工具",
+      "Agent Spec 參考執行期，確保跨框架相容性",
+      "提供直覺的高階 API，降低工作流程建構門檻",
+      "Oracle 支援，品質與維護有一定保障"
+    ],
+    "why_it_matters": "Agent Spec 若成為業界標準，WayFlow 就是讓技術用戶能第一時間實作該標準的工具。搶先熟悉此執行期，可在標準正式推廣時快速遷移或建構相容的 AI 工作流程，佔得先機。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 WayFlow 實驗 Agent Spec 定義的工作流程模式，評估其表達能力與限制；若符合需求，將其作為新專案的基礎框架，避免鎖定特定模型供應商。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/4430336?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-mcp-ai-agent",
+    "title": "MCP 任務編排器：伺服器強制的 AI Agent 工作流程纪律",
+    "title_original": "jpicklyk/task-orchestrator",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jpicklyk/task-orchestrator",
+    "published_at": "2026-05-21T12:55:33Z",
+    "category": "agent-skills",
+    "summary": "jpicklyk/task-orchestrator 是一個 MCP 伺服器，專為 AI Agent 提供持久化工件追蹤、依賴圖建構、品質閘門與執行者歸因機制。框架定義了 Agent 必須產出的內容，若產出不符規範，伺服器會直接阻擋呼叫。支援任意 MCP 相容客戶端。",
+    "highlights": [
+      "持久化工件與依賴圖機制，確保任務狀態不遺失",
+      "品質閘門（Quality Gates）自動驗證 Agent 產出是否符合 schema",
+      "伺服器端攔截機制，未達標的輸出直接阻擋，強制 Agent 遵守約定",
+      "支援任意 MCP 相容客戶端，彈性整合現有工作流程",
+      "以 Kotlin 實作，已有 186 stars 社群關注"
+    ],
+    "why_it_matters": "在多步驟 AI 工作流程中，常見 Agent 產生不合格輸出導致流程中斷的問題。此工具提供伺服器端強制的紀律機制，讓工作流程更可靠且易於除錯，技術用戶可用它建立可預測的 AI 任務管線。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 task-orchestrator 整合進 CI/CD pipeline，作為 AI 生成程式碼的品質閘門：所有 AI 產出的程式碼必須通過 schema 驗證，才能進入下一個部署階段。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Kotlin"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/5747775?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-21-toolhive-studio-mcp",
+    "title": "ToolHive Studio：MCP 伺服器安裝管理工具",
+    "title_original": "stacklok/toolhive-studio",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/stacklok/toolhive-studio",
+    "published_at": "2026-05-21T12:50:12Z",
+    "category": "agent-skills",
+    "summary": "ToolHive 是讓你安裝、管理並執行 MCP 伺服器的應用程式，可將 MCP 伺服器連接至 AI Agent。TypeScript/Node.js 實作，提供圖形化介面管理 MCP 工具，降低技術門檻，讓非技術成員也能操作 MCP 工具。",
+    "highlights": [
+      "圖形化介面管理 MCP 伺服器，降低操作門檻",
+      "一鍵安裝與更新 MCP 工具集",
+      "支援將 MCP 伺服器連接至任意相容 AI Agent",
+      "TypeScript 實作，與現代 AI 工具鏈無縫整合",
+      "130 stars，社群有一定關注度"
+    ],
+    "why_it_matters": "MCP 工具管理常需手動設定，容易出錯且難以追蹤版本。ToolHive 提供集中管理界面，團隊可以標準化 MCP 工具部署，讓技術用戶專注開發，而非浪費時間在環境設定上。",
+    "automation_angle": null,
+    "automation_angle_zh": "在團隊中使用 ToolHive 作為 MCP 工具的標準管理平台，確保所有成員使用相同版本；或利用其 API 整合進自動化腳本，實現 MCP 工具的 CI/CD 管理。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/110237746?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-kilo-marketplace-skills-mcp",
+    "title": "Kilo Marketplace：Skills 與 MCP 伺服器精選市集",
+    "title_original": "Kilo-Org/kilo-marketplace",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Kilo-Org/kilo-marketplace",
+    "published_at": "2026-05-21T12:35:17Z",
+    "category": "agent-skills",
+    "summary": "Kilo Marketplace 是一個精選的 Skills、MCP 伺服器與 Modes 集合，用於擴展 Kilo 生態系的能力，包含 VS Code 擴充 Kilo Code、Kilo CLI 及相容 AI Agent。整合多種工具與服務，一次安裝即可增強 AI 助理功能。",
+    "highlights": [
+      "匯集多個 Skills 與 MCP 伺服器，一站下載",
+      "支援 VS Code 擴充 Kilo Code，在編輯器直接使用 AI 能力",
+      "Kilo CLI 整合，命令行場景也能使用 MCP 工具",
+      "與主流 AI Agent 相容，彈性選擇使用場景",
+      "125 stars，已有一定社群關注"
+    ],
+    "why_it_matters": "MCP 工具數量爆炸，選型耗時。Kilo Marketplace 提供預篩選過的工具集合，技術用戶可直接在此找尋符合需求的工具，省去大海撈針的時間，快速增強 AI 工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "瀏覽 Kilo Marketplace 找到符合工作需求的 MCP 工具，透過 Kilo CLI 安裝測試；或評估其作為 AI 助理標準工具集的可能性，統一團隊的 AI 工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/201822503?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-brilliant-directories-mcp",
+    "title": "Brilliant Directories 官方 MCP 伺服器開源",
+    "title_original": "brilliantdirectories/brilliant-directories-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/brilliantdirectories/brilliant-directories-mcp",
+    "published_at": "2026-05-21T12:34:49Z",
+    "category": "agent-skills",
+    "summary": "Brilliant Directories 發布官方 MCP 伺服器，讓 AI Agent 可透過統一介面管理會員、貼文、潛在客戶、評論、頁面等資源。專案基於 JavaScript，附 OpenAPI 3.1 規格文件，方便開發者快速整合至現有工作流程。",
+    "highlights": [
+      "支援會員、貼文、潛在客戶、評論、頁面等 CRUD 操作",
+      "基於 JavaScript，附完整 OpenAPI 3.1 規格文件",
+      "可直接與任何 MCP 兼容 Agent（如 Claude、Cursor）串接",
+      "適合做為企業目錄、社群平台的管理自動化底層"
+    ],
+    "why_it_matters": "若你有客戶管理或內容網站需求，此 MCP 可讓 AI Agent 直接代為執行日常管理操作，省去手動登入後台的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "可讓 AI Agent 自動回覆評論、更新會員資料、批量發布內容，降低人力重複操作成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/277158031?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-21-bb-browser-cli-mcp-ai-agent-chrome",
+    "title": "bb-browser：CLI + MCP 協議讓 AI Agent 控制你的 Chrome",
+    "title_original": "epiral/bb-browser",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/epiral/bb-browser",
+    "published_at": "2026-05-21T12:34:46Z",
+    "category": "agent-skills",
+    "summary": "bb-browser 是 TypeScript 開源專案，以 CLI + MCP 伺服器形式讓 AI Agent 接管已登入的 Chrome 瀏覽器，支援操作你的登入狀態，Stars 5,375，適合需要模擬人類瀏覽行為的自動化場景。",
+    "highlights": [
+      "MCP 協議整合：標準化 AI 與瀏覽器的溝通介面",
+      "保留登入態：Agent 可操作已認證的工作環境，突破反爬限制",
+      "CLI 工具：輕量、易整合進現有腳本工作流程",
+      "場景：自動填表、資料抓取、登入後才能訪問的頁面操作",
+      "5.3k stars：TypeScript 專案中成長快速的瀏覽器自動化工具"
+    ],
+    "why_it_matters": "結合 MCP 協議的瀏覽器控制工具可大幅簡化 Web 自動化腳本，技術宅值得評估其對現有 Playwright/Puppeteer 的替代性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可先用 CLI 實驗 AI 操控瀏覽器自動填寫表單、截圖，比 Playwright 更容易對接 Agent 框架。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/259771830?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-mcp-macos-ai-agent",
+    "title": "微信本地端 MCP 讓 macOS AI Agent 讀取聊天記錄",
+    "title_original": "r266-tech/wechat-local-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/r266-tech/wechat-local-mcp",
+    "published_at": "2026-05-21T12:31:38Z",
+    "category": "agent-skills",
+    "summary": "r266-tech 開發的微信本地 MCP 伺服器，可在 macOS 上讓 AI Agent 讀取本地微信 4.x 的訊息、聯絡人、媒體、收藏、轉帳、红包、朋友圈及全文搜索。此工具基於 Go 語言，目前獲 27 星。",
+    "highlights": [
+      "支援訊息、聯絡人、媒體、收藏、轉帳、红包、朋友圈讀取",
+      "提供本地全文搜索功能，無需上傳至雲端",
+      "基於 Go 語言，效能與跨平台潛力佳",
+      "所有資料處理均在本地執行，符合隱私需求"
+    ],
+    "why_it_matters": "業務人員可透過 AI 分析微信對話記錄，快速生成客戶摘要或跟進提醒，但需注意隱私合規與資料使用授權。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於自動追蹤客戶訊息、生成對話摘要、提醒重要待辦，甚至訓練客戶服務機器人理解歷史互動。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/233881301?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-snyk-agent-scan-ai-agent",
+    "title": "Snyk agent-scan：AI Agent 技能的安全掃描工具",
+    "title_original": "snyk/agent-scan",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/snyk/agent-scan",
+    "published_at": "2026-05-21T12:29:01Z",
+    "category": "agent-skills",
+    "summary": "Snyk 推出 agent-scan，專為 AI Agent、MCP 伺服器與 Agent Skills 設計的安全漏洞掃描工具，Python 實作，Stars 2,442，技術宅可在部署前自動檢測 Agent 程式碼的安全風險。",
+    "highlights": [
+      "目標明確：針對 Agent、MCP 伺服器、Skills 的專屬掃描",
+      "Snyk 品牌：可信賴的安全廠商，掃描品質有保障",
+      "Python 原生：易於整合進 CI/CD 流程",
+      "2.4k stars：安全類開源工具中成長速度可觀",
+      "可用於：Agent 上線前的安全把關，防止prompt injection等風險"
+    ],
+    "why_it_matters": "Agent 應用爆炸的時代，安全掃描是部署前必備環節，agent-scan 可填補現有安全工具對 Agent 場景的盲區。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可在 CI pipeline 加入 agent-scan，自動化掃描自建 MCP 伺服器與 Agent 技能，防止帶漏洞上線。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/12959162?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-mcp-use-ts-mcp",
+    "title": "mcp-use-ts：打造最高開發體驗的 MCP 框架",
+    "title_original": "mcp-use/mcp-use-ts",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mcp-use/mcp-use-ts",
+    "published_at": "2026-05-21T12:16:49Z",
+    "category": "agent-skills",
+    "summary": "mcp-use 是目前開發體驗（DX）最佳的 MCP 框架，支援 AI Agent 建構、MCP 伺服器 UI Widget 開發，並內建強大的偵錯工具。提供客戶端 SDK、伺服器 SDK、React Hooks 以及 Inspector 工具，TypeScript 實作。",
+    "highlights": [
+      "客戶端 SDK 與伺服器 SDK 完整支援，快速上手",
+      "內建 Inspector 工具，方便追蹤 MCP 呼叫與除錯",
+      "支援 React Hooks，直接在 React 專案中整合 MCP 工具",
+      "UI Widget 機制，讓 MCP 伺服器能呈現互動式介面",
+      "TypeScript 實作，型別安全，175 stars 社群關注"
+    ],
+    "why_it_matters": "開發 MCP 工具時，常面臨除錯困難與 DX 體驗差的痛點。mcp-use-ts 提供完整工具鏈，讓技術用戶能快速原型驗證 MCP 工具、視覺化偵錯，並將工具整合进 React 前端。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 mcp-use 的 Inspector 追蹤複雜 AI 工作流程的 MCP 呼叫，識別效能瓶頸；或利用 React Hooks 在既有 React 應用中快速嵌入 MCP 工具，擴展 AI 能力。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/207005519?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-21-db-gpt-ai-data-18-8k-stars",
+    "title": "DB-GPT：開源 AI+Data 世代的資料庫代理框架（18.8k stars）",
+    "title_original": "eosphoros-ai/DB-GPT",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/eosphoros-ai/DB-GPT",
+    "published_at": "2026-05-21T11:57:01Z",
+    "category": "open-source-ai",
+    "summary": "DB-GPT 是聚焦 AI 與資料庫結合的開源 Agent 框架，支援自然語言查詢資料庫、SQL 生成與資料分析，GitHub 累積逾 18,800 顆星，Python 生態，適合建構企業級資料對話介面。",
+    "highlights": [
+      "自然語言轉 SQL：直接用中文提問，框架自動生成查詢",
+      "多資料源支援：MySQL、PostgreSQL、ClickHouse 等主流 DB",
+      "18.8k stars：社群活躍，文件與範例相對完整",
+      "開箱即用：提供 Docker 部署選項，降低自架門檻",
+      "可用於：內部資料儀表板、客服查詢、報表自動化"
+    ],
+    "why_it_matters": "DB-GPT 成熟度高，技術宅可直接用來將資料查詢自動化，省去繁瑣的 BI 工具串接流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可 Docker 起一個 DB-GPT 實例，串接公司內部 MySQL，讓非技術人員用自然語言查資料，降低重複性 SQL 需求。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/140580304?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-aimaxxing-ai-agent",
+    "title": "AIMAXXING：終極個人 AI Agent 開源專案",
+    "title_original": "undead-undead/AIMAXXING",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/undead-undead/AIMAXXING",
+    "published_at": "2026-05-21T10:31:10Z",
+    "category": "open-source-ai",
+    "summary": "AIMAXXING 是一個以 Rust 實作的個人 AI Agent 專案，標榜「終極完整版」。專案描述較為抽象，社群關注度偏低（50 stars），缺乏詳細文件，但 Rust 的高效能與記憶體安全特性值得注意。",
+    "highlights": [
+      "Rust 實作，享有高效能與記憶體安全特性",
+      "標榜完整的個人 AI Agent 解決方案",
+      "社群關注度低（50 stars），成熟度待驗證",
+      "文件說明不足，需要實際 clone 研究原始碼",
+      "專案名稱具攻擊性，適合研究用途"
+    ],
+    "why_it_matters": "Rust 在 AI 工具的應用逐漸增加，AIMAXXING 若能提供高效可靠的本地 AI Agent 解決方案，可作為邊緣運算或隱私敏感場景的工具。然而當前資訊不足，技術用戶應抱持觀望態度。",
+    "automation_angle": null,
+    "automation_angle_zh": "Clone 研究原始碼，評估其 Rust 實作的架構設計是否值得參考；若效能與記憶體安全是優先考量，可將其作為本地 AI Agent 的基礎進行實驗。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/244278928?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-am-i-openai-compatible-ai-api",
+    "title": "「Am I OpenAI Compatible」工具統一開源 AI API 標準",
+    "title_original": "'Am I OpenAI compatible' - a tool and documentation for unified api signatures in open source AI.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjgceg/am_i_openai_compatible_a_tool_and_documentation/",
+    "published_at": "2026-05-21T10:26:06+00:00",
+    "category": "open-source-ai",
+    "summary": "社群推出「Am I OpenAI Compatible」工具與文件，旨在為開源 AI 模型建立統一的 API 簽名標準。解決目前各模型 API 格式不一時，開發者需頻繁適配的痛點，降低跨模型遷移成本。",
+    "highlights": [
+      "提供統一的 API 簽名規範文件",
+      "幫助開源專案對齊 OpenAI API 格式",
+      "降低開發者切換模型的適配成本",
+      "可用於評估模型與現有工具的相容性"
+    ],
+    "why_it_matters": "統一 API 標準可加速開源模型生態整合，讓技術宅更容易在本地部署不同模型時，保持工具鏈一致性，減少無效的適配工作。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用此工具測試新模型是否符合現有工作流程的 API 要求，快速判斷是否可直接替換，節省評估時間。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-amd-ryzen-ai-halo-agent",
+    "title": "AMD 發布 Ryzen AI Halo 平台為 Agent 電腦供電",
+    "title_original": "AMD Powers Next-Generation Agent Computers with New Ryzen AI Halo Developer Platform and Ryzen AI Max PRO 400 Series Processors",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjdz92/amd_powers_nextgeneration_agent_computers_with/",
+    "published_at": "2026-05-21T08:18:33+00:00",
+    "category": "new-models",
+    "summary": "AMD 推出 Ryzen AI Halo 開發平台與 Ryzen AI Max PRO 400 系列處理器，主打為下一代 Agent 電腦提供算力。強調本地 AI 推論效能，目標減少對雲端 API 呼叫的依賴。",
+    "highlights": [
+      "Ryzen AI Max PRO 400 系列針對 Agent 工作負載優化",
+      "強調本地端 AI 推論能力，減少雲端依賴",
+      "瞄準 AI PC 市場，適合需要離線運算的開發者",
+      "可能衝擊 NVIDIA 在本地 AI 推論市場的份額"
+    ],
+    "why_it_matters": "若本地推論效能足夠，技術宅可考慮部署 AMD 平台以降低 AI API 成本，尤其適合長時間跑 Agent 工作流程的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於評估本地部署大型 Agent 工作流程的硬體需求，計算每小時成本與雲端 API 成本的差異，決定是否自建算力。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-21-agenticx-mcp-hub-agent",
     "title": "AgenticX：整合 MCP Hub 的量產就緒多 Agent 平台",
     "title_original": "DemonDamon/AgenticX",
@@ -142,6 +513,33 @@
       "Go"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/110237746?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-qwen3-6-27b-github-copilot-claude-code-opencode",
+    "title": "Qwen3.6 27B 在 GitHub Copilot、Claude Code、OpenCode 實測對比",
+    "title_original": "Same task in github-copilot, pi, claude-code, and opencode with Qwen3.6 27B",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjbhjk/same_task_in_githubcopilot_pi_claudecode_and/",
+    "published_at": "2026-05-21T06:02:36+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶在同一任務下測試 Qwen3.6 27B 模型在 GitHub Copilot、Claude Code、OpenCode 等工具上的表現，並分享各工具在程式碼生成、推論速度與任務完成度上的差異。",
+    "highlights": [
+      "Qwen3.6 27B 在多個主流 coding 工具上進行實測",
+      "比較各工具的程式碼生成品質與任務完成率",
+      "可作為本地模型選型的實證參考",
+      "揭露不同 Agent 工具在同一任務上的能力差異"
+    ],
+    "why_it_matters": "對於想用本地大模型替代雲端 coding 助理的技術宅，此類實測可提供具體選型依據，避免只看 benchmark 分數的盲點。",
+    "automation_angle": null,
+    "automation_angle_zh": "可依據實測結果選擇性部署本地 coding 工具，在離線環境下仍保持一定程式碼生成能力，降低對雲端 API 的依賴。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -401,6 +799,33 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/6764685?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-cohere-command-a",
+    "title": "Cohere Command-A 模型系列現況引熱議",
+    "title_original": "Re. what ever happened to Cohere’s Command-A series of models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tizmar/re_what_ever_happened_to_coheres_commanda_series/",
+    "published_at": "2026-05-20T21:25:50+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶提問 Cohere Command-A 系列模型後續發展，社群熱議該系列是否仍在維護或已被戰略性放棄。Cohere 官方尚未有明確公告，此為非官方討論串。",
+    "highlights": [
+      "Command-A 系列未見官方近期更新公告",
+      "社群對其產品路線圖存疑",
+      "Cohere 目前主推 Command R 系列",
+      "此為論壇猜測，非正式資訊"
+    ],
+    "why_it_matters": "若 Cohere 確實停滯 Command-A，可能影響已整合該模型的開發者，需提前規劃遷移或替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可留意 Cohere 官方公告，若 Command-A 真的停產，需評估現有整合是否需要遷移至 Command R 系列。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
