@@ -1,5 +1,264 @@
 [
   {
+    "id": "2026-05-21-mcp-agent-mail-rust-rust-agent",
+    "title": "mcp_agent_mail_rust：Rust 多 Agent 協調工具",
+    "title_original": "Dicklesworthstone/mcp_agent_mail_rust",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Dicklesworthstone/mcp_agent_mail_rust",
+    "published_at": "2026-05-21T00:30:54Z",
+    "category": "agent-skills",
+    "summary": "Rust 實現的 MCP 伺服器，專注多 Agent 協調與郵件處理。提供34種工具、Git 歸檔、SQLite 索引、 advisory 檔案鎖與互動式 TUI 主控台，適合建構複雜的自動化工作流程。",
+    "highlights": [
+      "34種工具涵蓋常見 Agent 操作",
+      "Git 歸檔保留操作歷史",
+      "SQLite 索引加速查詢",
+      "支援 advisory 檔案鎖防並發衝突",
+      "互動式 TUI 方便除錯與監控"
+    ],
+    "why_it_matters": "多 Agent 協作需要協調機制，此專案提供完整工具鏈且用 Rust 實現效能佳。適合需要建構郵件自動化或複雜 Agent 工作流程的技術人員參考或直接使用。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接 Clone 後運行 TUI 測試各工具功能。若需建構郵件處理自動化流程，可基於此框架擴展。Rust 效能適合高頻率 API 呼叫場景。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/35050222?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-javalens-mcp-ai-agent-java",
+    "title": "javalens-mcp：AI Agent 專用 Java 程式碼分析工具",
+    "title_original": "pzalutski-pixel/javalens-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/pzalutski-pixel/javalens-mcp",
+    "published_at": "2026-05-21T00:29:46Z",
+    "category": "agent-skills",
+    "summary": "基於 Eclipse JDT 建構的 MCP 伺服器，為 AI Agent 提供語義級 Java 程式碼分析能力，包含導航、重構、搜尋與程式碼度量等工具，解決 Agent 處理大型 Java 專案的上下文不足問題。",
+    "highlights": [
+      "基於 Eclipse JDT 工業級 Java 解析引擎",
+      "提供程式碼導航、搜尋、重構工具",
+      "支援程式碼度量分析",
+      "標準化 MCP 介面相容各種 Agent",
+      "專為 AI 工具設計，非人類 IDE 使用"
+    ],
+    "why_it_matters": "Code Agent 在處理 Java 專案時常因缺乏語義理解而失敗，javalens-mcp 填補了這個缺口，能讓 AI Agent 真正「看懂」並修改 Java 程式碼而非檔案比對。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Claude/GPT 等程式碼 Agent 處理 Java 專案時，可整合此 MCP 伺服器提升理解深度。技術人員可測試在程式碼重構場景中的準確率提升幅度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Java"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/233374271?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-mcp-use-mcp-use-mcp-chatgpt-claude-app-agent",
+    "title": "mcp-use/mcp-use：全端 MCP 框架，快速打造 ChatGPT 與 Claude 的 App 與 Agent 工具",
+    "title_original": "mcp-use/mcp-use",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mcp-use/mcp-use",
+    "published_at": "2026-05-21T00:25:40Z",
+    "category": "agent-skills",
+    "summary": "mcp-use 是近期快速累積近萬星的 TypeScript 框架，專為開發 MCP Apps（供 ChatGPT/Claude 使用）與 MCP Servers（供 Agent 使用）而設計，降低 Model Context Protocol 實作門檻。",
+    "highlights": [
+      "一套框架同時支援 MCP Apps 與 MCP Servers 開發",
+      "可用於快速為 ChatGPT/Claude 建立工具擴展",
+      "TypeScript 實現，與現代前端生態高度整合",
+      "GitHub 近萬星，社群關注度高且有實際使用案例",
+      "可用來標準化 Agent 與 LLM 之間的工具呼叫協議"
+    ],
+    "why_it_matters": "MCP 正成為 Agent 工具標準的主流協議，學會 mcp-use 可讓你快速把自建 API 包裝成符合協議的工具，被主流 LLM 直接呼叫。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 mcp-use 將公司內部 API 包裝成 MCP Server，讓 Claude 或 GPT 直接呼叫你的工具完成資料查詢、審批流程等自動化任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/207005519?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-21-worldbank-data360-mcp-llm-agent",
+    "title": "worldbank/data360-mcp：讓 LLM Agent 直接查詢世界銀行發展指標資料庫",
+    "title_original": "worldbank/data360-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/worldbank/data360-mcp",
+    "published_at": "2026-05-21T00:02:03Z",
+    "category": "agent-skills",
+    "summary": "World Bank 官方團隊釋出的 MCP Server，可讓 LLM Agent 直接對接 Data360 平台查詢 GDP、貧困、性別平等、氣候等發展指標，減少 LLM 幻覺並提供結構化時間序列資料。",
+    "highlights": [
+      "官方 World Bank 維護，資料來源可信",
+      "支援 GDP、貧困、性別、氣候等多領域指標",
+      "提供結構化時間序列與元數據，減少幻覺風險",
+      "可直接整合進 Agent 讓 AI 查詢最新數據",
+      "可用於報告自動化與數據驅動決策流程"
+    ],
+    "why_it_matters": "在自動化報告或決策系統中加入此 MCP Server，可讓 AI Agent 实時查詢權威數據源，提升內容可信度與作業效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 data360-mcp 整合進你的 RAG 或 Agent 工作流程，讓 AI 在生成經濟報告或研究摘要時自動查詢 World Bank 最新指標，無需手動查表。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6454132?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-21-three-ws-3d-ai-agent",
+    "title": "three.ws：瀏覽器端 3D AI Agent 平台",
+    "title_original": "nirholas/three.ws",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/nirholas/three.ws",
+    "published_at": "2026-05-20T23:35:04Z",
+    "category": "agent-skills",
+    "summary": "一個可在瀏覽器運行的 3D AI Agent 平台，支援載入 GLB/glTF 虛擬角色模型，透過 LLM 赋予記憶、情緒與工具调用能力，可作為 Web Component 嵌入任何網頁，含角色工作室、鏈上身份、MCP 伺服器與 OAuth 2.1。",
+    "highlights": [
+      "支援任何 GLB/glTF 格式的 3D 角色模型",
+      "LLM 大腦具備記憶、情緒與工具使用能力",
+      "無需插件或安裝即可嵌入網頁",
+      "提供五種可嵌入的小工具類型",
+      "內建 MCP 伺服器方便與其他 Agent 整合"
+    ],
+    "why_it_matters": "3D Agent 切入 Web 應用仍是藍海市場，此專案提供開箱即用的Avatar Agent框架，工程師可直接整合到現有網站，無需從頭建構 3D 渲染與 AI 邏輯。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可用此框架快速建立具備 3D 視覺形象客服機器人，替換現有文字/語音介面。直接 Clone repo 後本地運行 demo，評估嵌入自己產品的可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/22895867?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-muaddib-ai-agent",
+    "title": "muaddib：多人 AI 助理與 Agent 系統",
+    "title_original": "pasky/muaddib",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/pasky/muaddib",
+    "published_at": "2026-05-20T23:27:38Z",
+    "category": "agent-skills",
+    "summary": "TypeScript 實現的多人多工 AI 助理系統，支援多使用者同時與 AI Agent 互動，適用於團隊協作場景。提供 Agent 任務排程、對話管理與工具调用整合能力。",
+    "highlights": [
+      "多人同時使用同一 AI Agent 服務",
+      "TypeScript/Node.js 生態，方便整合",
+      "支援 Agent 協作與任務分工",
+      "開源可自行部署掌控資料",
+      "63 Stars 代表有一定社群關注度"
+    ],
+    "why_it_matters": "企業內部部署 AI 助理需求上升，此系統提供多使用者隔離與協作機制，技術團隊可用於內部工具機器人開發，取代昂貴的 SaaS AI 服務。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發團隊可 fork 此專案作為內部 AI 助理底層框架，客製化整合公司內部 API。建議先看 README 確認部署需求與依賴。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/18439?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-halbench",
+    "title": "開發者自建HalBench評測基准，測試主流模型阿諛奉承與幻覺問題",
+    "title_original": "HalBench: I built a custom sycophancy and hallucination benchmark and tested 4 frontier models (Sonnet 4.6, Grok 4.3, GPT 5.4 and Gemini 3.1 Pro), looking for input on what OSS models to run next!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tizvih/halbench_i_built_a_custom_sycophancy_and/",
+    "published_at": "2026-05-20T21:35:16+00:00",
+    "category": "new-models",
+    "summary": "開發者在Reddit發布自建評測工具HalBench，專門測量大型語言模型的sycophancy（阿諛奉承傾向）與hallucination（幻覺生成）問題。測試對象包含Sonnet 4.6、Grok 4.3、GPT 5.4與Gemini 3.1 Pro，目前正在徵求社群意見，想擴展到開源模型的測試範圍。",
+    "highlights": [
+      "自建benchmark針對sycophancy與hallucination兩個頑固問題進行量化測量",
+      "已測試四款主流閉源模型，並公開初步結果供社群參考",
+      "徵求意見計畫納入開源模型進行橫向比較",
+      "屬於社群驅動的非官方評測，缺乏標準化驗證流程",
+      "可作為選擇模型時的輔助參考，但需注意數據可靠性"
+    ],
+    "why_it_matters": "阿諛奉承與幻覺是LLM的兩大核心缺陷，直接影響輸出可靠性。自建工具填補了官方 benchmark 未覆蓋的盲區，工程師可用它更客觀比較模型真實表現。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可 fork 此專案，在本地環境對感興趣的開源模型（如Qwen、Llama）執行相同測試流程，建立適合自己應用場景的模型篩選基準。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-ddxfish-sapphire-ai-agent",
+    "title": "ddxfish/sapphire：家用 AI Agent 開源專案，主打日常陪伴場景",
+    "title_original": "ddxfish/sapphire",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ddxfish/sapphire",
+    "published_at": "2026-05-20T21:31:10Z",
+    "category": "agent-skills",
+    "summary": "Sapphire 是一款以「回家後的 AI Agent」為概念的開源專案，Stars 約 246，使用 Python 開發，定位為日常生活的 AI 助理而非企業級工具。",
+    "highlights": [
+      "以家庭/個人日常場景為主要使用案例",
+      "Python 實現，對 Python 開發者友好",
+      "Stars 相對較少，社群規模與成熟度有限",
+      "可用來了解如何用低成本框架搭建私人 Agent",
+      "適合當作個人助理或家庭管理工具的起步參考"
+    ],
+    "why_it_matters": "若你需要一個輕量級的私人助理而非企業級 Agent，Sapphire 的簡潔定位提供了可參考的實作範式，幫你快速原型驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "Clone 專案後將其修改為你的個人日程或家庭採購助理，測試其工具呼叫與記憶機制是否符合你的使用需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6764685?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-qwen-27b",
+    "title": "Qwen傳聞將發布新27B參數模型",
+    "title_original": "Qwen will release another 27B with high probability",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tiwnpc/qwen_will_release_another_27b_with_high/",
+    "published_at": "2026-05-20T19:44:24+00:00",
+    "category": "new-models",
+    "summary": "消息人士透露Qwen可能會發布另一款27B參數量的模型。考慮到Qwen系列向來以高性價比著稱，27B規模若屬實可能成為中等硬體條件下的理想選擇，介於便攜與高性能之間填補產品線空白。",
+    "highlights": [
+      "27B規模模型適合單卡或多卡中等配置部署",
+      "Qwen系列在開源社群口碑佳，期待度高",
+      "目前僅為傳聞階段，缺乏官方確認",
+      "若為MoE架構則實際推論成本可能更低",
+      "需關注與現有Qwen 2.5 27B的差異定位"
+    ],
+    "why_it_matters": "27B模型是本地部署的熱門選擇，兼顧推論速度與效能。若Qwen確實推出新版，可能為資源受限的開發者提供更優的開源選項，值得持續追蹤。",
+    "automation_angle": null,
+    "automation_angle_zh": "可預先準備測試環境，若官方發布則第一時間下載並執行標準Benchmark，評估其與Mistral 7B、Llama 3.1 8B等競品的性價比。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-20-agentgateway-agentgateway-ai-agent",
     "title": "agentgateway/agentgateway：下一代 AI Agent 代理閘道",
     "title_original": "agentgateway/agentgateway",
@@ -253,6 +512,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-21-1password-openai-codex",
+    "title": "1Password整合OpenAI Codex，為程式碼代理提供安全防护",
+    "title_original": "1Password secures coding agents with new OpenAI Codex integration",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tipvx3/1password_secures_coding_agents_with_new_openai/",
+    "published_at": "2026-05-20T15:55:43+00:00",
+    "category": "agent-skills",
+    "summary": "密碼管理工具1Password宣佈與OpenAI Codex深度整合，旨在為AI程式碼代理提供安全的憑證管理方案。代理在執行任務時若需存取API金鑰或資料庫密碼，可透過1Password的安全通道讀取，避免將敏感資訊寫入prompt或日誌。",
+    "highlights": [
+      "1Password充當代理與敏感憑證之間的安全橋樑",
+      "代理不再需要將金鑰直接寫入程式碼或對話prompt",
+      "整合涉及API層面的深度對接，非表面外掛程式",
+      "瞄準企業內AI代理程式碼生成的安全風險",
+      "目前僅支援OpenAI Codex，其他模型/代理尚待支援"
+    ],
+    "why_it_matters": "AI代理處理程式碼時常需存取敏感資源，安全問題已成為企業採用瓶頸。此整合為代理工作流程提供了原生級別的安全防護，是工程團隊評估代理安全性的重要參考案例。",
+    "automation_angle": null,
+    "automation_angle_zh": "若在企業內部部署AI程式碼代理，可評估此整合方案作為憑證管理的範本，確保代理在操作資料庫或呼叫付費API時金鑰不會外洩。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-20-github-copilot",
     "title": "GitHub Copilot 自動模型選擇功能正式支援任務路由",
     "title_original": "Auto model selection now routes based on your task in VS Code",
@@ -278,6 +565,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-21-huggingface",
+    "title": "HuggingFace基准數據集新增模型規模篩選功能",
+    "title_original": "HuggingFace benchmark datasets now let you filter by model size",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tilvit/huggingface_benchmark_datasets_now_let_you_filter/",
+    "published_at": "2026-05-20T13:33:38+00:00",
+    "category": "open-source-ai",
+    "summary": "HuggingFace平台宣佈其基准數據集模塊現已支援按模型規模（model size）進行過濾，開發者可直接在瀏覽器或API中指定參數量範圍，快速定位符合硬體限制的評測結果，例如篩選7B以下模型的效能數據。",
+    "highlights": [
+      "平台在benchmark datasets頁面加入model size過濾器",
+      "支援參數量區間查詢（如0-7B、7B-70B），降低人工檢索成本",
+      "有利於在資源受限環境（如本地GPU）選擇合適模型",
+      "過濾功能同時支援推論階段與預訓練模型維度",
+      "是平台易用性的增量改進，非颠覆性功能"
+    ],
+    "why_it_matters": "開源模型生態龐大，找到符合硬體條件又具備足夠效能的模型並不容易。此功能節省了開發者翻找多個頁面的時間，讓模型選型流程更加高效。",
+    "automation_angle": null,
+    "automation_angle_zh": "在選擇本地部署模型時，可利用此API快速撈取7B以下Benchmark分數高於特定門檻的模型列表，結合llama.cpp或ollama自動執行初步篩選。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-20-cc-connect-ai-agent",
@@ -933,6 +1248,62 @@
     "automation_angle_zh": "可關注 OpenAI 是否釋出教育專用 API 或定價方案，若有則可評估用於開發教育相關自動化工具。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-openai-80",
+    "title": "OpenAI 模型破解80年幾何猜想",
+    "title_original": "An OpenAI model has disproved a central conjecture in discrete geometry",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+    "published_at": "2026-05-20T00:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 模型解決了離散幾何領域中具有80年歷史的單位距離問題，並推翻了一個重要猜想。這被視為 AI 在數學推導能力的重大里程碑，展示了大型語言模型在形式化數學推論上的潛力。",
+    "highlights": [
+      "解決離散幾何經典問題",
+      "推翻重要數學猜想",
+      "80年未被證明的難題",
+      "OpenAI 官方部落格發布",
+      "標誌 AI 數學推論里程碑"
+    ],
+    "why_it_matters": "AI 在數學證明上的突破代表模型推論能力進入新階段，這不只是學術成就，更預示著模型在需要嚴密邏輯的任務（如程式驗證、形式化推導）上的應用潛力。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注此模型在數學推論任務的表現，若開放 API 可申請測試。技術人員可評估是否適合輔助程式碼正確性驗證或數學密集型任務。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-ramp-codex-code-review",
+    "title": "Ramp 工程師使用 Codex 加速 Code Review",
+    "title_original": "How Ramp engineers accelerate code review with Codex",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/ramp",
+    "published_at": "2026-05-20T00:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Ramp 工程團隊透過 Codex 搭配 GPT-5.5 進行程式碼審查，在數分鐘內獲得實質回饋，取代過去數小時的人工審查流程。展示了 AI 在工程實務環節的落地成效。",
+    "highlights": [
+      "Codex + GPT-5.5 組合使用",
+      "Code Review 時間從數小時縮短至數分鐘",
+      "獲得實質且有價值的回饋",
+      "實際工程團隊生產力提升案例",
+      "OpenAI 官方合作案例"
+    ],
+    "why_it_matters": "Code Review 是開發流程中耗時的瓶頸，此案例證明 AI 輔助可大幅提升效率。對技術團隊而言，這是可直接測試與引入的工作流程改善機會。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可申請 Codex 試用，在自己的 PR 上測試 AI Code Review 效果。評估回饋品質與誤報率，決定是否整合進 CI/CD 流程。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
