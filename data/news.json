@@ -1,5 +1,284 @@
 [
   {
+    "id": "2026-05-21-ai-workspace-archive-11-000-agent-skills",
+    "title": "AI Workspace Archive：收錄 11,000+ Agent Skills 的巨型開源工具總庫",
+    "title_original": "HIDORAKAI002/ai-workspace-archive",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/HIDORAKAI002/ai-workspace-archive",
+    "published_at": "2026-05-21T18:34:59Z",
+    "category": "agent-skills",
+    "summary": "HIDORAKAI002/ai-workspace-archive 是一個自更新的本地 AI 工具存檔庫，號稱收錄 11,000+ Agent Skills、240+ MCP 伺服器、2,200+ IDE 規則（Cursor/Cline）以及 30+ 系統提示集合。一庫整合多種 AI 工具配置，適合快速探索與部署。",
+    "highlights": [
+      "號稱收錄 11,000+ Agent Skills，覆蓋範圍極廣",
+      "包含 240+ MCP 伺服器配置",
+      "2,200+ IDE 規則含 Cursor、Cline 等主流工具",
+      "30+ 系統提示集合可直接導入使用",
+      "自更新機制維持內容新度，但需驗證實際品質"
+    ],
+    "why_it_matters": "巨型工具總庫節省了開發者四處搜集 Agent Skills 與 MCP 設定的時間，可作為探索新自動化模式的第一站，但內容品質需自行過濾。",
+    "automation_angle": null,
+    "automation_angle_zh": "直接下載感興趣的 MCP 設定檔或 Agent Skill，導入自己的 Agent 框架，快速啟動特定任務的自動化實驗。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/177092554?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-kubeflow-mcp-apache-spark-history-server-ai-agent-spark",
+    "title": "Kubeflow 發布 MCP 版 Apache Spark History Server，AI Agent 可直接偵錯 Spark 任務",
+    "title_original": "kubeflow/mcp-apache-spark-history-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/kubeflow/mcp-apache-spark-history-server",
+    "published_at": "2026-05-21T18:29:57Z",
+    "category": "agent-skills",
+    "summary": "kubeflow/mcp-apache-spark-history-server 是 Kubeflow 社群推出的 MCP 伺服器與 CLI 工具，讓 AI Agent、腳本或終端機能直接查詢並除錯 Apache Spark 任務執行歷史。星數達 172，反映出對大數據工作流程與 AI 整合的實際需求。",
+    "highlights": [
+      "提供標準 MCP 介面，支援 AI Agent 直接呼叫",
+      "可用 CLI 查詢 Spark 任務歷史與錯誤日誌",
+      "星數 172，社群關注度較高",
+      "有助於將 Spark 任務監控整合進自動化工作流程",
+      "Python 實作，易於擴展或自托管"
+    ],
+    "why_it_matters": "將 Spark 任務偵錯能力暴露給 AI Agent，大幅簡化了大數據管道的故障排除流程，讓無需登入叢集即可快速定位問題成為可能。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此 MCP 工具接入 AI Agent，當 Pipeline 任務失敗時自動觸發診斷流程並產出錯誤摘要報告，減少人工干預。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/33164907?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-dev-machine-guard-ai",
+    "title": "dev-machine-guard：檢測開發環境中的 AI 代理與可疑套件",
+    "title_original": "step-security/dev-machine-guard",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/step-security/dev-machine-guard",
+    "published_at": "2026-05-21T18:18:59Z",
+    "category": "agent-skills",
+    "summary": "Step Security 開源工具 dev-machine-guard 可在數秒內掃描開發者機器，偵測 AI 代理、MCP 伺服器、IDE 擴充套件與可疑套件，保障開發環境安全。採用 Go 語言撰寫，GitHub 已獲 131 顆星，今天即可下載測試。",
+    "highlights": [
+      "Go 語言開源工具，可直接編譯運行",
+      "支援偵測 AI 代理與 MCP 伺服器",
+      "可作為 CI/CD 安全審計的一環",
+      "今天就能試用，接入工作流程成本低",
+      "有興趣者可直接貢獻程式碼或加強偵測規則"
+    ],
+    "why_it_matters": "隨著 AI 代理渗透開發流程，环境安全审计需求急剧上升。該工具填补了開發机器可见性的空白，可帮助安全團隊评估 AI 工具引入風险。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可將此工具整合進開發環境安全檢查腳本，自動偵測團隊成員機器上是否意外引入來路不明的 AI 代理或 MCP 擴充功能。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/88700172?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-reddit-ai-agent",
+    "title": "Reddit 網友實測 AI Agent 執行階段防火牆：三大學術資料集基準測試結果出爐",
+    "title_original": "I benchmarked my AI agent runtime firewall against 3 public academic datasets — here are the honest results including where it fails",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tjqg12/i_benchmarked_my_ai_agent_runtime_firewall/",
+    "published_at": "2026-05-21T16:51:20+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶分享其自製 AI Agent 執行階段防火牆在公開學術資料集上的基準測試結果，包含失敗案例分析。測試涵蓋常見威脅向量與繞過手法，可作為同類型安全工具開發的參考起點。",
+    "highlights": [
+      "測試對象為自製 AI Agent 執行階段防火牆，非商業產品",
+      "使用三個公開學術資料集進行評估",
+      "包含失敗案例與弱點分析",
+      "可作為類似安全工具開發的基準參考"
+    ],
+    "why_it_matters": "若你正在開發 Agent 安全層或紅隊測試工具，此基準測試提供了可重現的評估方法與失敗模式，有助於理解現有防護的邊界。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載測試資料集與原始指令，重現相同測試流程以評估自己架構的 Agent 防火牆。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-chatgpt",
+    "title": "受夠滾動長串 ChatGPT 對話 自製瀏覽器擴充功能解決痛點",
+    "title_original": "Tired of scrolling through long chatGPT threads so built an extension around it",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tjpskf/tired_of_scrolling_through_long_chatgpt_threads/",
+    "published_at": "2026-05-21T16:28:19+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶分享自製瀏覽器擴充功能，專門解決 ChatGPT 長對話串難以管理的問題。可能包含對話搜尋、分類或快速導航功能。屬於實用性工具類開發案例。",
+    "highlights": [
+      "解決 ChatGPT 長對話管理困難的痛點",
+      "以瀏覽器擴充功能形式實作",
+      "可能包含搜尋、分類或快速跳轉功能",
+      "為類似工具開發提供靈感參考"
+    ],
+    "why_it_matters": "若你每天處理大量 ChatGPT 對話，此類工具可直接提升瀏覽效率。對開發者而言，也是理解使用者痛點與擴充功能開發的參考案例。",
+    "automation_angle": null,
+    "automation_angle_zh": "可安裝該擴充功能實測，或參考其程式碼結構開發自用的對話管理工具。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-opencode-pi",
+    "title": "OpenCode / Pi 使用者必看：提示詞處理修復方法釋出",
+    "title_original": "For everyone that uses OpenCode / Pi - Heres your promptprocessing fix!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjoiij/for_everyone_that_uses_opencode_pi_heres_your/",
+    "published_at": "2026-05-21T15:45:40+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 討論區有用戶釋出 OpenCode 與 Pi 工具的提示詞處理修復方案，解決特定場景下的輸出異常或效能問題。適用於在本地部署這些工具的開發者。",
+    "highlights": [
+      "針對 OpenCode 與 Pi 工具的提示詞處理問題",
+      "提供具體修復步驟，非官方更新",
+      "可改善輸出穩定性或速度",
+      "需自行評估相容性與風險"
+    ],
+    "why_it_matters": "若你正在使用 OpenCode 或 Pi 作為本地 AI 編碼助理，此修復可能解決長期困擾的穩定性問題，提升日常工作效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "按照說明文件修補本機部署的 OpenCode/Pi，觀察提示詞處理是否恢復正常，並持續追蹤後續更新。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-gemma-4-tool-calling-ollama-agentic-ai",
+    "title": "Gemma 4 Tool Calling 實作：用 Ollama 在地端跑 Agentic AI 助理",
+    "title_original": "mmmayo13/gemma_4_tool_calling",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mmmayo13/gemma_4_tool_calling",
+    "published_at": "2026-05-21T15:29:36Z",
+    "category": "open-source-ai",
+    "summary": "mmmayo13/gemma_4_tool_calling 是一份 Python 實作指南，展示如何以 Ollama 在地端執行 Gemma 4，並透過即時 API 函式呼叫打造具備工具呼叫能力的 Agent。倉庫規模迷你但實作路徑清晰，適合想在地端實驗 Function Calling 的開發者參考。",
+    "highlights": [
+      "使用 Gemma 4 + Ollama 完全在地端運行",
+      "實作即時函式呼叫（Function Calling）",
+      "Python 實作，程式碼結構簡單易懂",
+      "星數 35，相對小眾但有參考價值",
+      "可用於建立輕量級本地 Agent 應用"
+    ],
+    "why_it_matters": "本地運行具 Tool Calling 能力的模型，是降低 API 成本並確保資料隱私的有效路徑，該專案提供了一條從零到有的實作捷徑。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此實作複製後，替換為自己的工具函式（如檔案處理、資料庫查詢），快速打造一個地端自動化 Agent 原型。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/4147828?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-chatgpt-reddit",
+    "title": "如何查詢目前使用哪個 ChatGPT 版本？Reddit 網友熱烈討論",
+    "title_original": "Where can I check which chatGPT version I am using?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tjmv2r/where_can_i_check_which_chatgpt_version_i_am_using/",
+    "published_at": "2026-05-21T14:49:53+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶詢問如何確認當前對話使用的 ChatGPT 版本。討論區回覆指出不同訂閱層級顯示方式不同，並提供實用查詢方法。此問題反映用戶對模型版本透明度的需求。",
+    "highlights": [
+      "ChatGPT 版本顯示依訂閱方案而異",
+      "Plus 用戶可透過設定查看模型版本",
+      "免費版通常為 GPT-3.5 但可能動態調整",
+      "版本資訊對評估模型能力變化有幫助"
+    ],
+    "why_it_matters": "了解使用的模型版本有助於評估輸出品質與重現性，若你依賴 ChatGPT 進行關鍵任務，掌握版本資訊可避免不必要的困惑。",
+    "automation_angle": null,
+    "automation_angle_zh": "透過 API 使用者可在請求回應中確認模型版本，以確保實驗或生產環境的一致性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-prompt-35-0",
+    "title": "研究發現：小模型誠實度可因 prompt 語氣從 35% 降至 0%",
+    "title_original": "Honesty in a small model drops from 35% to 0% by changing the tone of the prompt. Sharing the findings.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjmswd/honesty_in_a_small_model_drops_from_35_to_0_by/",
+    "published_at": "2026-05-21T14:47:46+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社羣分享的研究發現，小型模型在回答問題時的誠實表現會因 prompt 語氣改變而大幅波動，從 35% 驟降至接近 0%。實驗暗示模型對 prompt 情緒極度敏感，可能導致系統性偏差。",
+    "highlights": [
+      "Reddit 社羣分享的實驗觀察，未經正式學術審查",
+      "結果暗示 prompt 工程對模型輸出的巨大影響",
+      "對小模型影響尤為顯著",
+      "可用於評估特定模型的安全邊界",
+      "需謹慎看待，原始數據與方法未完全公開"
+    ],
+    "why_it_matters": "此發現對安全部署 AI 系統有重要警示意義：即使是小型模型，prompt 設計的細微變化也可能嚴重影響輸出的可靠性與誠實度。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可據此設計 prompt 測試流程，在正式部署前系統性地檢驗模型對各類 prompt 變化的敏感度，建立安全邊界基線。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-llm-planner-gpu",
+    "title": "LLM Planner：GPU 算力配置與模型選擇參考工具",
+    "title_original": "LLM planner - pick a rig for your use-case/model/budget, or pick models for your rig. 60+ builds, 50+ models, 130+ cited t/s sources, 150+ reviewer YouTube videos, idle+active watts, multi-region prices, regular updates.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjm1uk/llm_planner_pick_a_rig_for_your/",
+    "published_at": "2026-05-21T14:21:59+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶整理的 LLM Planner 提供 60+ 種 GPU 建構方案、50+ 模型選擇、130+ 實際吞吐量數據，並標示閒置與負載功耗、多區域價格。目標是協助技術人員根據預算與使用情境選擇最佳硬體配置。",
+    "highlights": [
+      "整合大量實測數據而非理論值",
+      "涵蓋 60+ 建構方案與 50+ 模型",
+      "包含功耗與多區域價格資訊",
+      "資訊來源為 YouTube 評測影片與社羣回饋",
+      "Reddit 來源且更新頻率不固定"
+    ],
+    "why_it_matters": "在本地部署 LLM 熱潮下，準確評估 GPU 性價比變得關鍵。此工具整合分散的 benchmark 資料，可節省技術人員自行收集驗證的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可用此工具根據手頭預算與用例快速篩選合適的 GPU 配置，避免昂貴的硬體後悔購買決策。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-21-wayflow-agent-spec-python",
     "title": "WayFlow：Agent Spec 標準的 Python 執行期",
     "title_original": "oracle/wayflow",
@@ -257,6 +536,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/207005519?v=4",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-21-adventhealth-openai",
+    "title": "AdventHealth 部署 OpenAI 醫療聊天機器人優化工作流程",
+    "title_original": "AdventHealth advances whole-person care with OpenAI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/adventhealth",
+    "published_at": "2026-05-21T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "AdventHealth 宣布採用 ChatGPT for Healthcare 解決方案，目標是減少行政負擔、加速資料整理，讓醫護人員能專注病患照護。此為經 OpenAI 官方背書的醫療落地案例，可反映企業級 AI 部署的成本與合規考量。",
+    "highlights": [
+      "官方 Blog 來源，資訊相對可信",
+      "醫療機構落地案例，反映合規需求",
+      "可作為企業引入 AI 的參考基准",
+      "主要價值在流程優化，非技術突破",
+      "實際節省時間與成本數據未公開"
+    ],
+    "why_it_matters": "對技術決策者而言，AdventHealth 案例可作為企業 AI 部署的參考案例，了解醫療產業如何平衡 AI 效率與法規合規需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可研究其背後的 prompt 设计逻辑，评估是否能复用到其他行業的文件处理自動化場景。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-21-db-gpt-ai-data-18-8k-stars",
@@ -536,6 +843,34 @@
     "automation_angle_zh": "可依據實測結果選擇性部署本地 coding 工具，在離線環境下仍保持一定程式碼生成能力，降低對雲端 API 的依賴。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-ipod-touch-4",
+    "title": "實驗：用 iPod Touch 4 影像從零訓練視覺模型",
+    "title_original": "Training a vision model from scratch on iPod touch 4 images",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjaedo/training_a_vision_model_from_scratch_on_ipod/",
+    "published_at": "2026-05-21T05:06:20+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 討論串記錄了一個另類實驗：使用 iPod Touch 4 拍攝的影像從頭訓練視覺模型，探索極限資料增強與特殊資料集對模型訓練的影響。屬於極客式探索，缺乏實際應用場景。",
+    "highlights": [
+      "創意實驗性項目，資料來源特殊",
+      "探索資料集品質與多樣性的邊界",
+      "未提供可重現的完整程式碼",
+      "缺乏明確的實用價值",
+      "純技術愛好者感興趣的極客項目"
+    ],
+    "why_it_matters": "雖然目前實用價值有限，但此類極限實驗可幫助研究人員理解資料集偏差與影像品質對視覺模型訓練的影響程度。",
+    "automation_angle": null,
+    "automation_angle_zh": "純屬技術探索，可作為休閒閱讀了解資料集擴充的創意極限，非工作相關自動化目標。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
@@ -848,6 +1183,33 @@
     "why_it_matters": "27B模型是本地部署的熱門選擇，兼顧推論速度與效能。若Qwen確實推出新版，可能為資源受限的開發者提供更優的開源選項，值得持續追蹤。",
     "automation_angle": null,
     "automation_angle_zh": "可預先準備測試環境，若官方發布則第一時間下載並執行標準Benchmark，評估其與Mistral 7B、Llama 3.1 8B等競品的性價比。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-openai",
+    "title": "OpenAI 模型推翻離散幾何核心猜想 數學能力再獲驗證",
+    "title_original": "An OpenAI model has disproved a central conjecture in discrete geometry",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tivwqy/an_openai_model_has_disproved_a_central/",
+    "published_at": "2026-05-20T19:18:55+00:00",
+    "category": "new-models",
+    "summary": "有研究團隊使用 OpenAI 模型成功推翻離散幾何中的核心猜想，此為 AI 模型在數學推論領域的實質進展。相關論文已發表，模型能力獲得學術社群驗證。",
+    "highlights": [
+      "數學證明方向：推翻離散幾何核心猜想",
+      "非行銷宣稱，有學術論文支援",
+      "驗證了大型語言模型的數學推論能力",
+      "可能為數學輔助研究開闢新方向"
+    ],
+    "why_it_matters": "對從事數學研究或需要形式化證明的技術用戶而言，此進展顯示 AI 在輔助推論方面已具備實用價值，可列入工具評估清單。",
+    "automation_angle": null,
+    "automation_angle_zh": "可測試使用 OpenAI 模型輔助離散數學或組合學的證明探索，評估其在特定數學任務上的實際表現。",
     "tags": [
       "new-models",
       "rss",
@@ -4603,6 +4965,33 @@
       "new-models",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-21-google-gemini-ai-1key",
+    "title": "Google 撤銷部分 Gemini AI 學生免費訂閱 以 1Key 認證方式申請者影響最大",
+    "title_original": "谷歌清退部分Gemini AI学生免費訂閱 受影响的以1Key认证方式居多 - 蓝点网",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9OczlTb0N1TGRvTkhIZThtWndsZmpvdWxGNEZ6Sk5lWF9YR0h0SzdncmJfajVoOF9pZnRiRDg5d09IUHJ5RDIxTWhONmljaHluVjlpdVdyOTRjRzdl?oc=5",
+    "published_at": "2026-02-01T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "藍點網報導 Google 正在清退部分 Gemini AI 學生免費訂閱，主要針對以 1Key 認證方式註冊的用戶。此政策變動可能影響依賴學生免費額度進行開發或測試的技術用戶。",
+    "highlights": [
+      "受影響用戶多為使用 1Key 教育認證方式註冊",
+      "Google 收緊 Gemini AI 免費訂閱資格審核",
+      "可能衝擊學生或研究人員的免費 API 使用額度",
+      "建議有長期需求的用戶評估付費方案或替代方案"
+    ],
+    "why_it_matters": "依賴 Gemini 免費額度做開發測試的技術用戶需注意訂閱狀態，建議備份或評估替代方案以避免工作中斷。",
+    "automation_angle": null,
+    "automation_angle_zh": "檢查自己或團隊的 Gemini 訂閱狀態，評估是否需要遷移至付費方案或切換至其他免費模型 API。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
