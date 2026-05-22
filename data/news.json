@@ -1,5 +1,348 @@
 [
   {
+    "id": "2026-05-22-karajan-code-agent-22-api",
+    "title": "karajan-code：本地端多 Agent 程式碼編排器，支援 22 種流程角色與零 API 成本",
+    "title_original": "manufosela/karajan-code",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/manufosela/karajan-code",
+    "published_at": "2026-05-22T12:42:23Z",
+    "category": "agent-skills",
+    "summary": "本地端運行的多 Agent 程式碼編排工具，內建 22 種流程角色、強制 TDD 開發、SonarQube 整合與自動程式碼審查，支援 Claude、Codex、Gemini 等主流模型，無需額外 API 費用。",
+    "highlights": [
+      "22 種專門化角色：規劃、實作、測試、部署等分工",
+      "強制 Test-Driven Development 流程",
+      "整合 SonarQube 進行品質把關",
+      "支援 Claude、Codex、Gemini、OpenCode、Aider",
+      "已內建 MCP Server，開箱即用"
+    ],
+    "why_it_matters": "企業級開發需要嚴謹流程但又希望利用 AI 加速，此工具提供完整流水線又能完全在本地運行，是控制成本與提升品質的雙贏方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可直接在本機啟動 karajan-code 作為團隊的 AI 開發流水線，所有生成與審核都在本地完成，無 API 費用且無資料外流疑慮。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1101670?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-22-supra-50m",
+    "title": "新模型 Supra-50M 正式發布",
+    "title_original": "[NEW] Supra-50M Released!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tkhngq/new_supra50m_released/",
+    "published_at": "2026-05-22T12:34:04+00:00",
+    "category": "new-models",
+    "summary": "Supra-50M 為新釋出的模型，據 Reddit 討論區透露主打高效能與輕量化。具體架構與基準測試數據尚待社群驗證，建議持續追蹤官方 Repo 以獲取完整技術規格。",
+    "highlights": [
+      "模型名稱包含 50M 參數量，屬輕量級 LLM",
+      "Reddit r/LocalLLaMA 社群為主要討論管道",
+      "模型能力與適用場景待實測確認",
+      "建議查看原始 Repo 獲取詳細文件",
+      "可能適合資源受限的本地部署場景"
+    ],
+    "why_it_matters": "輕量級 50M 參數模型適合邊緣裝置與本地快速推論，若效能通過驗證可成為自動化腳本的輕便後端選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "等待官方 Repo 釋出後，下載模型權重並測試其在本機 CPU 或入門 GPU 上的回應速度，評估是否可取代較大的商業 API。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-openai-codex-cmd-to-queue",
+    "title": "OpenAI Codex Cmd-to-queue 功能疑似異動",
+    "title_original": "Is Codex gaslighting me, or did Cmd-to-queue actually change?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tkhhzy/is_codex_gaslighting_me_or_did_cmdtoqueue/",
+    "published_at": "2026-05-22T12:27:33+00:00",
+    "category": "hot-topics",
+    "summary": "有用戶回報 OpenAI Codex 中 Cmd-to-queue 快捷鍵行為異常，懷疑模型或平台層面進行了變更。目前尚無官方公告，建議等待社群完整驗證或官方回應。",
+    "highlights": [
+      "Cmd-to-queue 為 Codex 內建佇列管理快捷鍵",
+      "多位用戶觀察到行為與記憶中不符",
+      "可能是模型更新或 UI 變動",
+      "尚未獲 OpenAI 官方證實",
+      "對仰賴此功能的自動化工作流程有潛在影響"
+    ],
+    "why_it_matters": "Cmd-to-queue 若行為改變，可能影響使用 Codex 做程式碼生成或批次任務的技術用戶的工作流程程，需重新校準使用方式。",
+    "automation_angle": null,
+    "automation_angle_zh": "若依賴 Codex 自動化批次程式碼生成，先測試 Cmd-to-queue 是否正常運作，必要時以 API 直接呼叫取代快捷鍵依賴。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-clawdcursor-mcp-ai-agent",
+    "title": "clawdcursor：跨平台桌面自動化 MCP 伺服器，讓 AI Agent 具備視覺與操作能力",
+    "title_original": "AmrDab/clawdcursor",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/AmrDab/clawdcursor",
+    "published_at": "2026-05-22T12:19:23Z",
+    "category": "agent-skills",
+    "summary": "一款作業系統無關、模型無關的桌面自動化伺服器，可賦予任何 AI Agent 在 Windows、macOS、Linux 上的視覺辨識、操作控制與真值驗證能力，無需額外 API 費用。",
+    "highlights": [
+      "支援 Windows、macOS、Linux 三大平台",
+      "模型無關，可用於 Claude、GPT、Gemini 等任何 Agent",
+      "提供螢幕截圖與視覺解析能力",
+      "具備滑鼠鍵盤操控與 UI 元素互動功能",
+      "TypeScript 實作，333 顆星，社群活躍"
+    ],
+    "why_it_matters": "過去桌面自動化需要撰寫腳本或依賴商業工具，現在任何 AI Agent 都能直接操作你的電腦介面，實現真正的人機協作與任務自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將此 MCP Server 接入現有 Agent 工作流程，實現自動操作 UI、填表、截圖比對等重複性桌面任務，節省手動操作時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/139714613?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-22-gaster-code-ai-cli-mcp",
+    "title": "Gaster Code：本地AI程式碼助理支援CLI與MCP",
+    "title_original": "HereditaryDog/gaster-code-releases",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/HereditaryDog/gaster-code-releases",
+    "published_at": "2026-05-22T12:16:35Z",
+    "category": "agent-skills",
+    "summary": "Gaster Code是TypeScript開發的開源本地AI程式碼助理，提供CLI、桌面應用、MCP支援、Skills、Agents框架，並附有簽署安裝程式。強調本地部署保護隱私。",
+    "highlights": [
+      "TypeScript開源本地AI程式碼助理",
+      "提供CLI與桌面應用兩種介面",
+      "支援MCP協議方便擴展",
+      "Skills/Agents框架提升靈活性",
+      "提供簽署安裝程式提升安全性"
+    ],
+    "why_it_matters": "Gaster Code提供一個完全本地執行的程式碼助理選項，對注重程式碼隱私、不希望上傳到第三方的開發團隊具有吸引力，且MCP支援使其易於整合進現有IDE工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "可作為VSCode或終端的本地程式碼生成工具，整合進開發工作流程，特別適合處理涉及機敏程式碼的任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/155228115?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-peekaboo-macos-mcp-ai",
+    "title": "Peekaboo：macOS截圖MCP工具讓AI代理看懂螢幕",
+    "title_original": "openclaw/Peekaboo",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/openclaw/Peekaboo",
+    "published_at": "2026-05-22T12:05:39Z",
+    "category": "agent-skills",
+    "summary": "Peekaboo是Swift開發的macOS命令列工具，可作為MCP伺服器使用，讓AI代理截取指定應用或整個系統畫面，並支援本地或遠端AI模型進行視覺問答。已在GitHub獲得4431顆星。",
+    "highlights": [
+      "Swift原生macOS CLI工具",
+      "可選MCP伺服器模式運行",
+      "支援應用螢幕或全系統截圖",
+      "可對接本地或遠端AI模型進行視覺问答",
+      "GitHub星標4431，受社群認可"
+    ],
+    "why_it_matters": "Peekaboo為AI代理提供視覺感知能力，在自動化UI測試、文件生成、介面審查等場景有直接應用價值，且MCP相容易於整合進現有Agent工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合進CI/CD或測試工作流程程，用於自動化截圖比對、UI元素識別，或作為文件自動化工具的視覺輸入介面。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Swift"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/252820863?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-sonarsource-sonarqube-mcp-server-ai",
+    "title": "SonarSource 官方推出 SonarQube MCP Server，強化 AI 程式碼品質與安全檢測",
+    "title_original": "SonarSource/sonarqube-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/SonarSource/sonarqube-mcp-server",
+    "published_at": "2026-05-22T12:02:59Z",
+    "category": "agent-skills",
+    "summary": "SonarSource 官方發布的 SonarQube MCP Server，讓 AI Agent 在編碼過程中可直接调用程式碼品質與安全漏洞掃描，提升開發工作流程整合度。",
+    "highlights": [
+      "官方出品，品質與更新有保障",
+      "整合 SonarQube 的 OWASP、CWE 等安全規則",
+      "支援 AI Agent 自動修正低品質程式碼",
+      "Java 實作，556 顆星，成長迅速",
+      "可直接嵌入 CI/CD 或 IDE 工作流程"
+    ],
+    "why_it_matters": "開發團隊常苦於 AI 生成程式碼的品質參差不齊，此 MCP Server 可讓 Agent 在生成後立即自檢，降低技術債務與安全風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本地或自架 SonarQube 實例上啟動此 MCP Server，讓 AI 助理在每次程式碼變更後自動執行品質閘門，實現 PR 自動審核。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Java"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/545988?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-22-arckit-codex-codex-cli-agent-mcp",
+    "title": "arckit-codex：企業架構工具包的 Codex CLI 擴展，整合技能、Agent 與 MCP 伺服器",
+    "title_original": "tractorjuice/arckit-codex",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tractorjuice/arckit-codex",
+    "published_at": "2026-05-22T12:00:39Z",
+    "category": "agent-skills",
+    "summary": "ArcKit 企業架構工具套件的 Codex CLI 擴展，提供預先封裝的技能、Agent 角色與 MCP 伺服器，適用於企業級系統架構設計與文件自動化生成。",
+    "highlights": [
+      "專為企業架構場景設計",
+      "包含多個預設 Agent 角色",
+      "整合 MCP 伺服器生態",
+      "可用於架構圖、文件、決策記錄生成",
+      "JavaScript 實作，易於客製擴展"
+    ],
+    "why_it_matters": "企業級架構文件往往耗時且難以維護，結合 Codex CLI 與 MCP 可自動化生成架構圖與設計文件，提升技術文件的維護效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "架構師可利用 arckit-codex 自動生成架構決策記錄（ADR）與系統設計文件，將重複性文件工作自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/129532814?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-deepseek-102-9",
+    "title": "DeepSeek 獲 102.9 億美元融資，承諾持續開源而非短期商業化",
+    "title_original": "DeepSeek is pushing forward with $10.29 billion financing round, with Liang Wenfeng committing to continue developing open-source AI models rather than pursuing short-term commercialization goals",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tkfvvj/deepseek_is_pushing_forward_with_1029_billion/",
+    "published_at": "2026-05-22T11:14:57+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 社群消息指出 DeepSeek 正推動 102.9 億美元巨額融資，由創辦人梁文鋒承諾將繼續發展開源模型而非追求短期商業變現。",
+    "highlights": [
+      "傳聞籌集超過百億美元資金",
+      "創辦人表態堅持開源發展路線",
+      "訊息來源為 Reddit 社群，未獲官方證實",
+      "DeepSeek 以高性價比開源模型聞名",
+      "顯示資本市場對開源 AI 的高度興趣"
+    ],
+    "why_it_matters": "若此消息屬實，DeepSeek 將成為最有資金實力的開源 AI 實驗室之一，其開源承諾若兌現將對開源模型生態產生深遠影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "密切關注 DeepSeek 後續動態，其新模型發布可能提供更高性價比的本地部署選項，值得評估進入試點專案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-claude-skills-294-ai-15-67",
+    "title": "Claude-Skills：294項AI技能覆蓋15領域含67專家代理",
+    "title_original": "borghei/Claude-Skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/borghei/Claude-Skills",
+    "published_at": "2026-05-22T10:38:20Z",
+    "category": "agent-skills",
+    "summary": "Claude-Skills收錄294項AI技能，覆蓋15個領域，專案管理最全面（54技能含實例、警示函式庫、評估工具、MCP工具），另有工程、行銷、法務等垂直領域。整合67專家代理、720+ Python工具，支援11種AI助理。",
+    "highlights": [
+      "294項AI技能覆蓋15個領域",
+      "專案管理最完善含54項技能",
+      "67個專家代理可直接調用",
+      "720+ Python工具庫",
+      "支援11種主流AI助理"
+    ],
+    "why_it_matters": "Claude-Skills提供大量可即用的AI技能與工具，對需要快速擴展AI能力範圍的技術人員很有參考價值，特別是專案管理與工程領域的技能可直接應用於工作流程自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接選用相關技能加速特定工作流程程建立，例如使用專案管理技能自動化Jira/Linear任務同步，或使用工程技能加速程式碼審查流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "HTML"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6253296?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-22-gpt-5-2-nature",
+    "title": "研究稱 GPT-5.2 在 Nature 同儕審查中匹配頂尖人類審稿者",
+    "title_original": "GPT-5.2 matches top human reviewers in Nature peer review study",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tkd3d4/gpt52_matches_top_human_reviewers_in_nature_peer/",
+    "published_at": "2026-05-22T08:48:34+00:00",
+    "category": "hot-topics",
+    "summary": "有研究論文指出 GPT-5.2 在 Nature 期刊同儕審查任務中表現與頂尖人類審稿者相當。若數據屬實，代表 AI 在學術品質把關場景已接近專業人類水準。",
+    "highlights": [
+      "研究聲稱 GPT-5.2 審查品質匹配頂尖人類審稿者",
+      "發表於或提及 Nature 期刊",
+      "尚未獲得廣泛社群驗證",
+      "可能象徵 LLM 在專業領域任務的新里程碑",
+      "需檢視原始論文方法論以判斷可信度"
+    ],
+    "why_it_matters": "若 AI 可勝任同儕審查此類高專業門檻任務，未來可能衍生自動化學術品質把關工具，節省研究機構大量人工審閱時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤研究論文完整內容，評估其基準測試設計是否可複現，若方法可靠可考慮將類似流程引入自身文件的自動審閱系統。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-amd-rocm-mlx-llm-engine",
+    "title": "AMD ROCm 版 MLX LLM Engine 新版發布",
+    "title_original": "New Release of ROCm based MLX LLM Engine - lemon-mlx-engine",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tkbupt/new_release_of_rocm_based_mlx_llm_engine/",
+    "published_at": "2026-05-22T07:38:05+00:00",
+    "category": "open-source-ai",
+    "summary": "MLX LLM Engine 新增 AMD ROCm 支援，讓原本鎖定蘋果 Silicon 的 MLX 框架得以在 AMD GPU 上運行 LLM 推論。此版本橋接了蘋果 ML 生態與 AMD 硬體，為本地端部署提供更多硬體選擇。",
+    "highlights": [
+      "MLX 框架正式支援 AMD ROCm 計算平台",
+      "可在 AMD GPU 上執行原本僅限蘋果晶片的 LLM",
+      "降低蘋果以外的本地 LLM 部署硬體門檻",
+      "ROCm 為 AMD 開源計算軟體棧",
+      "適合同時擁有 AMD 顯示卡的開發者實測"
+    ],
+    "why_it_matters": "蘋果 MLX 生態首次跨出 Apple Silicon，技術用戶現在可用 AMD GPU 測試 MLX 優化的 LLM 模型，不必額外購置蘋果硬體。",
+    "automation_angle": null,
+    "automation_angle_zh": "在配備 AMD GPU 的機器上安裝 ROCm 版 MLX Engine，替換原本需蘋果晶片才能跑的工作流程，評估推論速度與記憶體效率。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-22-smithery-ai-cli-mcp-server",
     "title": "smithery-ai/cli：MCP Server 安裝與管理的命令列工具",
     "title_original": "smithery-ai/cli",
@@ -486,6 +829,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/30220416?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-gpt-image-2-0",
+    "title": "GPT Image 2.0 新能力展示引熱議",
+    "title_original": "Yes GPT Image 2.0 can do this",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tjvzkc/yes_gpt_image_20_can_do_this/",
+    "published_at": "2026-05-21T19:56:41+00:00",
+    "category": "new-models",
+    "summary": "社群分享 GPT Image 2.0（DALL-E 或 OpenAI 圖像生成模型）的新能力演示，展示過去未有的圖像生成或編輯功能。具體功能細節需待官方說明或進一步測試。",
+    "highlights": [
+      "GPT Image 2.0 指 OpenAI 圖像生成模型迭代版本",
+      "Reddit 展示其新能力但未提供詳細技術規格",
+      "可能涉及更高解析度、編輯控制或風格遷移",
+      "需官方文件確認實際功能差異",
+      "對需要圖像自動化的開發者具參考價值"
+    ],
+    "why_it_matters": "GPT Image 2.0 若有顯著能力提升，可作為設計素材自動生成、行銷圖像批量製作等工作流程的更強大替代工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方釋出 API 後，以自動化腳本測試新功能，比較與現有 Midjourney/Stable Diffusion 工作流程的效率與成本差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -5484,6 +5855,34 @@
       "agent-skills",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-chatgpt-gemini-ai",
+    "title": "ChatGPT 還是 Gemini？轉職者訂閱 AI 工具該怎麼選",
+    "title_original": "ChatGPT還是Gemini？ 她转职想訂閱AI 過來人推這款 - e南洋",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ZVmlSYnFMd3dhX005X2hja2hCUVNiYlY5WHFNR2w0WXhwNjVwUlFuTjBvSnZDTlZnVl9WMHgyQVcwU0tSUndCRzRzX3RLZ296V2MzTXdybHVYanh1Z2xaM2R6WQ?oc=5",
+    "published_at": "2026-04-18T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "來自馬來西亞的中文報導，探討轉職者該選擇 ChatGPT 還是 Gemini 訂閱，整理兩者在功能、價格與使用場景上的差異，供讀者參考決策。",
+    "highlights": [
+      "比較 OpenAI ChatGPT Plus 與 Google Gemini Advanced",
+      "涵蓋訂閱價格與功能差異",
+      "針對轉職者使用場景提供建議",
+      "屬於通用性工具比較，缺乏深度技術分析",
+      "訊息時效性待驗證"
+    ],
+    "why_it_matters": "對於需要選擇個人 AI 工具的技術人員，此類比較可作為初步參考，但缺乏具體使用情境與成本效益的深入分析。",
+    "automation_angle": null,
+    "automation_angle_zh": "若正在評估團隊或個人 AI 工具訂閱方案，建議根據實際工作需求（程式碼生成、文件處理、創意發想）做更細緻的 POC 比較。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
