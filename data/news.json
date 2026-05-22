@@ -1,5 +1,322 @@
 [
   {
+    "id": "2026-05-22-smithery-ai-cli-mcp-server",
+    "title": "smithery-ai/cli：MCP Server 安裝與管理的命令列工具",
+    "title_original": "smithery-ai/cli",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/smithery-ai/cli",
+    "published_at": "2026-05-22T07:07:04Z",
+    "category": "agent-skills",
+    "summary": "TypeScript 開發的 CLI 工具，專門用於安裝、管理、開發 MCP（Model Context Protocol）伺服器與技能擴充。GitHub 725 星，提供標準化的 MCP 工具生態介面。",
+    "highlights": [
+      "CLI 方式管理 MCP Server",
+      "簡化 MCP 工具的安裝流程",
+      "TypeScript 開發，易擴展整合",
+      "支援技能（skill）擴充管理",
+      "幫助技術人員快速串接 MCP 生態"
+    ],
+    "why_it_matters": "MCP 協定逐漸成為 Agent 工具擴充標準，smithery-cli 提供了一個統一入口，技術人員可更快速實驗與部署 MCP 工具鏈。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地或 CI 環境以 npm/pnpm 安裝後，直接用 CLI 管理專案所需的 MCP Server，評估其對工作流程的實用程度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/190488992?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-ops-codegraph-tool-30-mcp",
+    "title": "ops-codegraph-tool：30 工具的程式碼智能 MCP 伺服器",
+    "title_original": "optave/ops-codegraph-tool",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/optave/ops-codegraph-tool",
+    "published_at": "2026-05-22T07:03:53Z",
+    "category": "agent-skills",
+    "summary": "ops-codegraph-tool 是一款程式碼智能 CLI 工具，支援 11 種語言的函式級依賴圖分析，內建 30 工具的 MCP 伺服器供 AI Agent 呼叫。提供複雜度指標、建築邊界強制執行、CI 品質閘門、Git diff 影響範圍分析，以及混合語意搜尋。全程本地執行，無需 API Key。",
+    "highlights": [
+      "函式級依賴圖視覺化，協助理解大型程式碼庫架構",
+      "30 工具 MCP 伺服器，讓 AI Agent 能深度分析程式碼",
+      "Git diff 影響分析，自動預測修改風險範圍",
+      "CI 品質閘門，可整合至現有 CI/CD 流程",
+      "全程本地執行，無 API 成本，適合企業內網環境"
+    ],
+    "why_it_matters": "開發大型專案時，程式碼依賴關係混亂是常見痛點。此工具讓 AI Agent 能在本地理解程式碼架構，自動評估變更影響範圍，減少人為 review 疏漏，同時避免向外部 API 暴露程式碼。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合至 PR 審查流程，自動分析新提交對系統的影響，生成變更風險報告；或在重構前評估受影響範圍，降低系統故障風險。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/123786295?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-22-agent-memory-mcp-ai-agent",
+    "title": "agent-memory-mcp：為 AI Agent 打造的持續記憶系統",
+    "title_original": "ipiton/agent-memory-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ipiton/agent-memory-mcp",
+    "published_at": "2026-05-22T07:03:32Z",
+    "category": "agent-skills",
+    "summary": "agent-memory-mcp 是一款用 Go 語言實作的 MCP 伺服器，專為 AI Agent 提供持久化記憶能力。支援語意搜尋，讓 Agent 能在跨對話中保留上下文狀態，累積操作經驗。GitHub 30 顆星。",
+    "highlights": [
+      "持久化記憶儲存，Agent 跨 session 保留學習成果",
+      "語意搜尋能力，快速檢索歷史互動經驗",
+      "Go 語言高效實作，記憶讀寫延遲低",
+      "MCP 協定支援，廣泛相容各種 Agent 框架",
+      "可與其他 MCP 工具串接，建構更強大的 Agent"
+    ],
+    "why_it_matters": "目前多數 AI Agent 每次對話都是全新的開始，缺乏長期記憶能力。此工具讓 Agent 能記住使用者偏好、歷史任務執行方式，逐漸成為真正「懂你」的個人助理。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用來建構個人化 AI 助理，自動記住你的程式碼風格偏好、工作流程程習慣，減少每次重新設定的時間損耗。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3993311?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-reversecore-mcp-ai-agent",
+    "title": "Reversecore_MCP：資安反向工程的 AI Agent 工具鏈",
+    "title_original": "sjkim1127/Reversecore_MCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sjkim1127/Reversecore_MCP",
+    "published_at": "2026-05-22T06:59:37Z",
+    "category": "agent-skills",
+    "summary": "Reversecore_MCP 是一款以安全為核心的 MCP 伺服器，讓 AI Agent 能自動化協調 Ghidra、Radare2、YARA 等資安工具進行反向工程。Python 實作，GitHub 61 顆星，是目前列表中人氣最高的專案。",
+    "highlights": [
+      "整合 Ghidra/Radare2/YARA 三大資安工具生態",
+      "AI Agent 可透過自然語言驅動逆向分析流程",
+      "自動化二進位分析、行為軌跡追蹤、特徵比對",
+      "適合資安研究、惡意軟體分析、漏洞挖掘場景",
+      "開源可審計，適合企業內部資安自動化"
+    ],
+    "why_it_matters": "逆向工程傳統上高度依賴手動操作和分析經驗。透過 MCP 協定將專業工具 AI 化，可加速資安分析流程，讓 AI 輔助識別模式、生成分析報告，大幅提升研究效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於自動化漏洞掃描流程，輸入惡意樣本後自動完成靜態分析、行為觀測、特徵識別，最終生成結構化威脅情報報告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/183040901?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-better-notion-mcp-markdown-notion-api",
+    "title": "better-notion-mcp：Markdown 優先的 Notion API 整合",
+    "title_original": "n24q02m/better-notion-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/n24q02m/better-notion-mcp",
+    "published_at": "2026-05-22T06:55:46Z",
+    "category": "agent-skills",
+    "summary": "better-notion-mcp 是一款以 Markdown 為核心的 Notion API 伺服器，將原本 28+ 個離散 API 端點簡化為 10 個複合工具，大幅降低 AI Agent 操作 Notion 的複雜度。TypeScript 實作，GitHub 28 顆星。",
+    "highlights": [
+      "10 個複合工具取代 28+ API 端點，學習成本低",
+      "Markdown 優先設計，AI 生成內容可直接寫入 Notion",
+      "相容 MCP 協定，方便串接其他 AI Agent",
+      "降低 API 呼叫次數，減少 Notion API 配額消耗",
+      "開源可自架，適合在意資料隱私的團隊"
+    ],
+    "why_it_matters": "Notion 是許多技術團隊的知識庫和專案管理工具。傳統 API 需多次呼叫才能完成單一操作，此 MCP 將操作批次化，讓 AI Agent 能更高效地讀寫 Notion 內容，同時節省 API 配額。",
+    "automation_angle": null,
+    "automation_angle_zh": "可讓 AI Agent 自動將 meeting minutes、程式碼註解、測試報告寫入 Notion資料庫，實現從程式開發到知識沉澱的自動化流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/135627235?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-mcp-ramparts",
+    "title": "MCP 伺服器安全掃描工具 ramparts 亮相",
+    "title_original": "highflame-ai/ramparts",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/highflame-ai/ramparts",
+    "published_at": "2026-05-22T06:52:29Z",
+    "category": "open-source-ai",
+    "summary": "highflame-ai 推出 Rust 開發的 ramparts，能掃描 MCP 伺服器或技能中的間接攻擊向量，以及安全或設定漏洞。提供自動化安全審計能力，開發者可在整合 AI 工具前先做風險評估。",
+    "highlights": [
+      "使用 Rust 編寫，效能佳且适合嵌入工作流程",
+      "專注偵測 MCP 環境中的間接攻擊面",
+      "可掃描任意 MCP 伺服器或技能定义",
+      "協助開發者在部署前識別配置風險",
+      "開源且可直接編譯使用"
+    ],
+    "why_it_matters": "MCP 生態快速擴展，但安全審計工具匱乏。ramparts 填補了 AI 工具鏈的安全缺口，讓技術使用者能在引入第三方 MCP 服務前進行自動化風險掃描。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 ramparts 整合进 CI/CD pipeline，在自動化測試階段掃描專案相依的 MCP 工具，提早發現安全漏洞並阻斷部署。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/141064602?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-agent-infra-sandbox-shell-mcp-vscode-ai-agent",
+    "title": "agent-infra/sandbox：匯集瀏覽器、Shell、檔案、MCP、VSCode 的 AI Agent 沙盒",
+    "title_original": "agent-infra/sandbox",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/agent-infra/sandbox",
+    "published_at": "2026-05-22T06:26:15Z",
+    "category": "agent-skills",
+    "summary": "GitHub 4767 星的開源專案，將瀏覽器、Shell、檔案系統、MCP 協定、VSCode Server 整合進單一 Docker 容器，方便快速架設 AI Agent 測試與開發環境。",
+    "highlights": [
+      "單一 Docker 容器包含五大工具",
+      "支援瀏覽器自動化與爬取",
+      "Shell 整合可在容器內執行指令",
+      "支援 MCP Model Context Protocol",
+      "VSCode Server 遠端開發能力"
+    ],
+    "why_it_matters": "此沙盒大幅降低 Agent 開發環境的架設門檻，技術人員可在一個乾淨容器中測試各種工具串接，節省環境配置時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "直接以 Docker 拉起容器，快速測試 MCP Server 或瀏覽器自動化腳本，適合 CI/CD 流程中的 Agent 測試需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/202636908?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-seerai-zotero-mcp",
+    "title": "SeerAI：整合 Zotero 的研究框架 MCP 助理",
+    "title_original": "dralkh/seerai",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/dralkh/seerai",
+    "published_at": "2026-05-22T06:04:27Z",
+    "category": "agent-skills",
+    "summary": "SeerAI 是一款開源研究助理，深度整合 Zotero 書目管理、MCP 協定、OCR 文件識別、表格擷取、Semantic Scholar 學術搜尋，以及 Firecrawl/Tavily 網頁爬蟲。支援 Google Drive 雲端工作區，提供從文獻調研到資料萃取的端到端自動化流程。TypeScript 實作，目前 GitHub 獲得 52 顆星。",
+    "highlights": [
+      "Zotero 書目管理無縫整合，支援研究文献自動化整理",
+      "MCP 協定支援，方便與其他 AI Agent 協作",
+      "OCR + 表格識別，可直接處理 PDF/圖片研究文獻",
+      "Semantic Scholar 學術搜尋，協助文獻回顧",
+      "支援 Google Drive 工作區，雲端協作友善"
+    ],
+    "why_it_matters": "研究人員和技術寫作者常需手動整理大量文獻，SeerAI 將整個調研流程自動化，讓 AI 能直接存取書目、讀取文件、萃取關鍵資訊，大幅減少文獻管理的人工負擔。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將其部署為研究 Agent，自動爬取特定主題的最新論文、解析 PDF 内容、生成文獻摘要報告，節省每週數小時的文獻整理時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/156125802?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-microclaw-rust-agent",
+    "title": "microclaw：Rust 打造的小型 Agent 聊天助理",
+    "title_original": "microclaw/microclaw",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/microclaw/microclaw",
+    "published_at": "2026-05-22T05:48:19Z",
+    "category": "open-source-ai",
+    "summary": "以 Rust 開發的輕量級 Agent AI 助理概念專案，靈感來自 nanoclaw，定位為可嵌入聊天的個人助理。GitHub 701 星，屬於早期探索性專案。",
+    "highlights": [
+      "Rust 語言開發，記憶體效率高",
+      "定位為聊天內嵌式助理",
+      "參考 nanoclaw 設計概念",
+      "小型、輕量的實驗性方向",
+      "非完整生產級工具"
+    ],
+    "why_it_matters": "Rust 框架適合對效能與安全性有要求的場景，若該專案成熟可成為低資源消耗的本地 Agent 選項，目前階段可視為技術參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可閱讀原始碼研究 Rust 實作方式，或將其作為個人本地 Agent 的輕量化參考架構。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/259987623?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-qwen-code-coding",
+    "title": "開發者實測 Qwen Code 模型本地coding能力",
+    "title_original": "Anyone evaluated the difference between Qwen Code for the local qwen models vs another harness? CC, OC, LC, Aider etc..",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tk8la2/anyone_evaluated_the_difference_between_qwen_code/",
+    "published_at": "2026-05-22T04:46:10+00:00",
+    "category": "agent-skills",
+    "summary": "開發者在 Reddit 分享 Qwen Code 模型與常見 coding agent 工具（如 Cursor、Copilot、Aider）的比較實測，聚焦程式碼生成品質與推論速度的差異。",
+    "highlights": [
+      "Qwen Code 模型針對程式碼任務有優化",
+      "實測比較涵蓋多個主流 coding 工具",
+      "開發者可據此選擇適合自己的工作流程組合",
+      "硬體需求與性價比是重要維度",
+      "社團討論提供第一手使用經驗"
+    ],
+    "why_it_matters": "對技術使用者而言，選擇合適的本地 coding agent 工具鏈直接影響開發效率。實測比較提供客觀參考，幫助節省試錯時間與硬體成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可根據比較結果選擇最符合需求的模型與工具組合，搭配 ramparts 做安全審計，建立高效且安全的本地自動化開發環境。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-llm-gpu-dlc",
+    "title": "LLM 對資料中心 GPU 態度如可選 DLC？",
+    "title_original": "When your LLM treats data center GPUs like an optional DLC",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tk4gyy/when_your_llm_treats_data_center_gpus_like_an/",
+    "published_at": "2026-05-22T01:35:46+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 熱文探討大型語言模型對資料中心 GPU 的依賴模式，暗示部分模型將 GPU 視為可選擴充項目而非必要元件。引發社群對模型效率與資源消耗的討論。",
+    "highlights": [
+      "模型蒸餾與量化技術持續精進",
+      "高效能模型降低 GPU 剛性需求",
+      "部署彈性成為新焦點",
+      "不代表 GPU 不重要，而是門檻降低",
+      "討論反映業界對模型效率的追求"
+    ],
+    "why_it_matters": "若模型能在有限資源下維持高效，將大幅降低 AI 部署成本，讓更多技術使用者能在邊緣設備上運行強大模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "可追蹤此趨勢，評估手上的閒置 GPU 或老舊硬體是否能跑新版蒸餾模型，找出成本優化空間。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-22-tableau-mcp-server-ai-agent",
     "title": "Tableau 官方 MCP Server 正式發布：讓 AI Agent 直接理解與操作視覺化資料",
     "title_original": "tableau/tableau-mcp",
@@ -26,6 +343,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/828667?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-20000-coding-agent",
+    "title": "20000美元硬體預算打造離線本地 coding agent",
+    "title_original": "In theory, if I have $20k-ish to spend on hardware what would actually get me closest to local coding agent that would allow me to go totally off the social grid?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tk2s09/in_theory_if_i_have_20kish_to_spend_on_hardware/",
+    "published_at": "2026-05-22T00:20:36+00:00",
+    "category": "new-models",
+    "summary": "Reddit 討論以約兩萬美元硬體預算打造完全離線的本地 coding agent，脫離網路依賴。討論涵蓋 GPU 選型、記憶體配置與模型取捨等實務規劃。",
+    "highlights": [
+      "兩萬美元可配置中高階 GPU 運算叢集",
+      "離線需求優先，強調資料隱私與網路自主",
+      "性價比與功耗是重要考量",
+      "軟體棧整合涉及多種模型與工具",
+      "社群提供具體硬體配置建議"
+    ],
+    "why_it_matters": "對高安全性需求的使用者，本地化部署是剛需。此預算級別的硬體規劃討論，可幫助技術使用者評估離線 AI 系統的可行方案與邊界。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考討論中的 GPU 配置建議，計算每 token 成本與功耗比，評估自建機房的 ROI 是否優於雲端 API 費用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -141,6 +486,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/30220416?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-qwen-3-7",
+    "title": "Qwen 3.7 即將開源權重，社群熱議新王降臨",
+    "title_original": "Waiting for Qwen 3.7 open weight... The new King has arrived...",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjvz6l/waiting_for_qwen_37_open_weight_the_new_king_has/",
+    "published_at": "2026-05-21T19:56:21+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 社群出現大量討論，指稱 Qwen 3.7 即將發布開源權重版本。社群對其效能寄予厚望，猜測可能在推論能力與程式碼生成方面有顯著提升。",
+    "highlights": [
+      "Qwen 3.7 開源權重尚未正式發布，細節待確認",
+      "社群期待其效能可超越現有本地模型",
+      "若正式發布將衝擊本地 AI 部署生態",
+      "需持續追蹤阿里雲或通義官方公告",
+      "消息來源為社群討論，非官方發布"
+    ],
+    "why_it_matters": "Qwen 系列在本地部署領域有高人氣，若 3.7 版本開源权重發布，將大幅降低開發者使用優質中文模型的門檻，值得持續關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "可先準備測試環境與 benchmark 腳本，待正式發布後立即評估其在程式碼生成與推論任務上的表現，決定是否納入自動化工作流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
