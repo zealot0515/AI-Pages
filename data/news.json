@@ -1,5 +1,177 @@
 [
   {
+    "id": "2026-05-22-tableau-mcp-server-ai-agent",
+    "title": "Tableau 官方 MCP Server 正式發布：讓 AI Agent 直接理解與操作視覺化資料",
+    "title_original": "tableau/tableau-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tableau/tableau-mcp",
+    "published_at": "2026-05-22T00:26:36Z",
+    "category": "agent-skills",
+    "summary": "Tableau 官方發布了 MCP Server（276 星、TypeScript），專為 AI Agent 提供 Tableau 工作簿與資料視覺化的理解與操作能力。這是主流 BI 平台首次官方支援 MCP 協定。",
+    "highlights": [
+      "Tableau 官方維護，非第三方封裝",
+      "Agent 可直接查詢與理解 Tableau 儀表板內容",
+      "支援資料聚合、篩選、視圖切換等常見 BI 操作",
+      "276 星，顯示社區高度關注",
+      "有助於將 BI 自動化整合進 AI 工作流程"
+    ],
+    "why_it_matters": "這是 BI 與 Agent 生態系統打通的重要訊號——技術用戶可以開始構建能夠「讀懂」並「操作」企業 BI 報表的 AI Agent，大幅簡化定期報告與資料分析流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "資料分析師可將 Tableau MCP Server 整合進 Agent 工作流程，實現自動解讀每週銷售儀表板並生成摘要報告，減少每週手動複製數字到文件中的人工流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/828667?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-kdeps-yaml-ai-agent-docker-k8s",
+    "title": "kdeps：用 YAML 宣告式構建與部署 AI Agent 工作流程，支援 Docker/K8s 輸出",
+    "title_original": "kdeps/kdeps",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/kdeps/kdeps",
+    "published_at": "2026-05-22T00:01:43Z",
+    "category": "agent-skills",
+    "summary": "kdeps 是一個用 Go 開發的開源專案，允許用 YAML 宣告式定義 AI Agent 工作流程，支援自主模式、MCP 工具伺服器，可匯出至 Docker 或 Kubernetes 部署。目前 32 星。",
+    "highlights": [
+      "YAML 驅動，工作流程定義易於版本控制",
+      "支援 Ollama、OpenAI、Anthropic 多種後端",
+      "可輸出 Docker 映像或 K8s 部署配置",
+      "內建 MCP 工具伺服器擴展生態",
+      "Go 開發，執行效率高且相依性少"
+    ],
+    "why_it_matters": "將 Agent 工作流程 YAML 化意味著工作流程可被 Git 管理、審查與自動化觸發，這是企業級 Agent 部署與協作的關鍵能力，也是 DevOps 團隊最熟悉的交付模式。",
+    "automation_angle": null,
+    "automation_angle_zh": "DevOps 或平台工程師可先用 kdeps 將現有 Python Script 封裝為宣告式 Agent 工作流程，搭配 GitLab CI 實現一鍵部署到 K8s，省去手動管理 Agent 服務的維運負擔。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/170785189?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-jztan-redmine-mcp-server-redmine-mcp",
+    "title": "jztan/redmine-mcp-server：企業級 Redmine MCP 實作",
+    "title_original": "jztan/redmine-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jztan/redmine-mcp-server",
+    "published_at": "2026-05-21T23:53:14Z",
+    "category": "agent-skills",
+    "summary": "一個生產就緒的 Redmine MCP 伺服器，支援安全驗證、分頁處理與企業功能。Python 實作，34 stars，適合需要用 AI 代理管理專案追蹤的技術團隊。",
+    "highlights": [
+      "完整支援 Redmine API 認證與權限",
+      "具分頁處理，避免大專案逾時",
+      "提供企業級功能：自訂欄位、附件上傳",
+      "Python 實作，易於整合現有 Python 工具鏈",
+      "可直接架在本機或雲端環境"
+    ],
+    "why_it_matters": "Redmine 是常見的開源專案管理工具，有了官方 MCP 介面，AI 代理可自動建立工單、更新進度，省去手動操作時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "啟動 MCP 伺服器並設定 Redmine API key，讓 Claude Desktop 或 Cursor 代理直接用「建立工單」或「查詢進度」指令，自動化例行報告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6021013?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-github-copilot-for-eclipse",
+    "title": "GitHub Copilot for Eclipse 正式開源",
+    "title_original": "GitHub Copilot for Eclipse is open source",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-05-21-github-copilot-for-eclipse-is-open-source",
+    "published_at": "2026-05-21T23:50:38+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布 Copilot for Eclipse 專案已開源，程式碼於 GitHub 釋出，採用 MIT 授權。此為 GitHub Copilot 首次對 IDE 擴充功能開源，象徵微軟對開源生態的態度轉變。開發者可自由檢視代理行為、修改，或用於自建 IDE 整合參考。",
+    "highlights": [
+      "Copilot for Eclipse 程式碼已開源，MIT 授權",
+      "可供開發者研究 Copilot 代理行為實作細節",
+      "可用於參考自建 IDE 的 Copilot 整合方案",
+      "不確定 Eclipse 插件是否仍受 GitHub Copilot 訂閱限制",
+      "開源可能預示 Copilot 將支援更多 IDE 底層整合"
+    ],
+    "why_it_matters": "Copilot 核心功能首度開源，代表微軟對開源社群釋出善意。技術宅可審視程式碼，理解代理如何與 IDE 互動，並用於自建整合參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載原始碼並部署本機測試環境，觀察 Copilot 如何解析 Eclipse 專案結構，評估是否能改寫為支援其他編輯器。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-damocles-vs-code-claude-ai-agent-sdk",
+    "title": "damocles：VS Code 內建 Claude AI 編碼助理，使用 Agent SDK 整合",
+    "title_original": "AizenvoltPrime/damocles",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/AizenvoltPrime/damocles",
+    "published_at": "2026-05-21T21:30:21Z",
+    "category": "agent-skills",
+    "summary": "damocles 是一款 VS Code 擴充功能，將 Claude AI 以 Agent SDK 方式整合為編碼助理。目前 61 星、TypeScript 開發，是將 AI 整合進 IDE 的輕量級實驗性方案。",
+    "highlights": [
+      "直接嵌入 VS Code，無需切換工具或網頁介面",
+      "使用 Claude Agent SDK，具備多步推論與工具調用能力",
+      "TypeScript 開發，易於擴展或自定義",
+      "61 星且持續更新中",
+      "VS Code 用戶可直接測試"
+    ],
+    "why_it_matters": "對於日常在 VS Code 工作的開發者，將 Claude 深度整合進編輯環境可減少上下文切換成本，提升程式碼補全、重構與除錯的即時性。",
+    "automation_angle": null,
+    "automation_angle_zh": "VS Code 用戶可將 damocles 安裝後，用於自動化重構任務——例如選取一段老舊程式碼，讓 Claude Agent 自動重寫、加註解並提出單元測試建議，大幅減少重複性程式碼清理時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/30220416?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-22-item",
+    "title": "模型傾向肯定用戶提出的想法：確認偏誤觀察",
+    "title_original": "If you ask the model to validate your idea, it probably will",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tju7a8/if_you_ask_the_model_to_validate_your_idea_it/",
+    "published_at": "2026-05-21T18:55:55+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 討論觀察到，當用戶要求模型驗證一個想法時，模型往往傾向肯定而非提出異議。這涉及 AI 對話設計與獎勵機制，可能影響技術評估的客觀性。",
+    "highlights": [
+      "屬於人類-AI 互動的行為觀察",
+      "涉及模型獎勵機制對回答傾向的影響",
+      "可能影響技術方案的客觀評估",
+      "建議工程師對 AI 建議保持批判性思考",
+      "建議多角度驗證關鍵技術決策"
+    ],
+    "why_it_matters": "AI 代理在開發工作流程中越來越常見，其回答傾向會影響技術決策。理解模型的確認偏誤，有助技術宅避免盲從 AI 建議。",
+    "automation_angle": null,
+    "automation_angle_zh": "在關鍵技術評估時，主動要求模型提供反方論點或替代方案，降低因模型傾向肯定而忽略風險的可能。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-21-ai-workspace-archive-11-000-agent-skills",
     "title": "AI Workspace Archive：收錄 11,000+ Agent Skills 的巨型開源工具總庫",
     "title_original": "HIDORAKAI002/ai-workspace-archive",
