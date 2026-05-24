@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-05-24-realzst-harnesskit-rust-agent-mcp",
+    "title": "RealZST/HarnessKit：Rust 寫的跨 Agent 技能與 MCP 管理框架",
+    "title_original": "RealZST/HarnessKit",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/RealZST/HarnessKit",
+    "published_at": "2026-05-24T00:26:45Z",
+    "category": "agent-skills",
+    "summary": "HarnessKit 是一款用 Rust 開發的開源工具，目標是成為各種 AI 編碼 Agent（Cursor、Copilot、Cline 等）的統一技能管理平台。支援管理技能、MCP Server、外掛、Hook、CLI、配置檔、記憶與規則，號稱跨 Agent 的元框架。",
+    "highlights": [
+      "Rust 語言實現效能與安全",
+      "支援跨多款主流 AI 編碼 Agent",
+      "統一管理技能、MCP Server、外掛、Hook、CLI、配置",
+      "可集中管理 Agent 記憶與行為規則",
+      "強調開源協作，歡迎社群貢獻"
+    ],
+    "why_it_matters": "如果同時使用多款 AI 編碼工具，HarnessKit 提供一個統一的管理介面，可避免技能定義重複寫多份，降低維護成本並標準化團隊的 Agent 配置。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可先在本地安裝 HarnessKit，實驗用統一配置管理多個 Agent 的 MCP Server 與技能集合，評估是否能簡化 CI/CD 流程中的 Agent 配置管理。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/53246001?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-macos26-agent-macos-ai-agent-imessage",
+    "title": "macOS26/Agent：原生 macOS AI 編碼 Agent，可透過 iMessage 下發任務",
+    "title_original": "macOS26/Agent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/macOS26/Agent",
+    "published_at": "2026-05-24T00:09:00Z",
+    "category": "agent-skills",
+    "summary": "macOS26/Agent 是一款原生 Swift 寫的 macOS 桌面 App，支援本地與雲端几乎所有主流模型（Claude、GPT、Gemini、Ollama、Qwen 等 12+）。功能包含寫程式碼、建 Xcode 專案、版本管理、Git 操作、Safari 自動化，並支援 MCP Server 擴展，最大亮點是可透過 iPhone iMessage 下發任務。",
+    "highlights": [
+      "原生 macOS App，語言為 Swift",
+      "支援 12+ 模型，包括本地 Ollama 與開源模型",
+      "整合 Xcode 專案構建、版本號管理、Git",
+      "Safari 自動化支援 AppleScript、JS 與 Accessibility API",
+      "可從 iPhone iMessage 發送任務指令"
+    ],
+    "why_it_matters": "對 macOS 生態的技術人員而言，macOS26/Agent 提供一個統一的本地 Agent 入口，可直接在機器上驅動開發流程且不依赖瀏覽器介面。iMessage 控制功能特別適合遠端或無需盯著螢幕的操作場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可安裝此 App，配置 Ollama 執行本地推論，用 iMessage 隨時驅動程式碼生成、檔案操作或 Safari 任務，實現「手機下單、電腦執行」的工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Swift"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/52664524?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-realactivity-tula-openclaw-agent",
+    "title": "realactivity/tula：OpenClaw 技能集合，打造個人健康情報 Agent",
+    "title_original": "realactivity/tula",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/realactivity/tula",
+    "published_at": "2026-05-23T23:04:44Z",
+    "category": "agent-skills",
+    "summary": "Tula 是 realactivity 開源的 OpenClaw 技能集與配置庫，目的是將通用 AI Agent 轉化為個人健康情報助理。包含健康資料整合、生活習慣追蹤與健康建議相關的技能、提示範本與工作流程模式。",
+    "highlights": [
+      "基於 OpenClaw 框架的技能集合",
+      "目標是個人健康情報助理角色",
+      "包含健康資料整合相關技能與模式",
+      "目前星標數低（23），屬早期專案",
+      "使用 TypeScript 開發"
+    ],
+    "why_it_matters": "健康資料處理涉及敏感個資，Tula 提供一個開源起點供技術人員自建本地健康 Agent；但因專案成熟度低，星標數少，實際可用性需自行測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "對健康資料隱私有需求的技術使用者可 clone 此 repo，研究其技能定義格式並改寫為自用的本地健康資料查詢 Agent。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/50536431?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-reddit",
+    "title": "Reddit 社群討論：本地模型執行會計任務的可行性",
+    "title_original": "Local model doing accounting tasks",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tluvwg/local_model_doing_accounting_tasks/",
+    "published_at": "2026-05-23T23:00:28+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社區討論本地部署模型執行會計任務的能力。討論者分享使用本地 LLM 處理發票分類、帳務對帳等任務的經驗，但未提供具體效能數據。",
+    "highlights": [
+      "討論為社群經驗分享，非正式 benchmark",
+      "會計任務涉及數字精確性要求高",
+      "本地模型隱私優勢在此場景明顯",
+      "缺乏量化指標與模型選擇建議"
+    ],
+    "why_it_matters": "對於考慮在財務系統本地化部署 AI 的技術人員，此討論提供初步參考但需自行驗證，會計場景對幻覺容忍度極低。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可借此評估本地 LLM 在低風險內部流程的試點可能性，但需先建立輸出驗證機制防止數字錯誤。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-23-awesome-ai-agents-ai-agent",
     "title": "awesome-ai-agents：AI Agent 開發資源導航大全",
     "title_original": "NipunaRanasinghe/awesome-ai-agents",
@@ -228,6 +342,33 @@
       "JavaScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/3073864?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-reddit-gemma4-qwen3-6-mi60-32gb-vram-30-llamabench",
+    "title": "Reddit 社群實測： Gemma4 與 Qwen3.6 在 MI60 32GB VRAM 的 30 次 LlamaBench 結果",
+    "title_original": "Did a 30 runs of llama-bench to find optimal settings for my use case (Frigate and HomeAssistant) on my MI60 32gb VRAM GPU - two models tested Gemma4 and Qwen3.6 - Figured I'd share in case it helps anyone else",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tlliw4/did_a_30_runs_of_llamabench_to_find_optimal/",
+    "published_at": "2026-05-23T16:45:24+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社區用戶在 AMD MI60 32GB VRAM 顯卡上進行 Gemma4 與 Qwen3.6 的 30 次 LlamaBench 基準測試，分享最佳化設定參數以優化 Frigate 與 HomeAssistant 使用場景。",
+    "highlights": [
+      "測試硬體為 AMD GPU 相對少見",
+      "針對 Frigate/HomeAssistant 特定場景",
+      "提供實測最佳化參數而非官方數據",
+      "30 次運行增加數據穩定性"
+    ],
+    "why_it_matters": "對於 HomeAssistant 自動化愛好者，此實測提供 Gemma4 與 Qwen3.6 在 AMD 硬體上的真實表現參考，有助選擇符合自家硬體的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可複製其測試流程，用 llama-bench 對自家硬體環境中不同模型進行一致性比較，針對特定使用案例建立基準線。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -1567,6 +1708,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-24-kpmg-anthropic-27-claude",
+    "title": "KPMG 與 Anthropic 達成合作 逾27萬員工可使用 Claude",
+    "title_original": "276K+ KPMG Employees Gain Access To Claude Via Alliance - Quantum Zeitgeist",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xRndjUDh2U3JEZ183OXpDWFFjV1h5RE5hSGd4T2RyWklydTE0THN5VWc2bnYyWFhhQTVSelUyRkJ5dkZyM292TnlvRmtQOUxiZmRTV2JPVk9ERnJyZjk4MUxPTDVzc0VsUGdQU0FjU1BmV0xwNnNqejdR?oc=5",
+    "published_at": "2026-05-22T06:46:20+00:00",
+    "category": "ai-deals",
+    "summary": "KPMG 宣布與 Anthropic 建立策略聯盟，為全球逾27萬名員工提供 Claude 存取權限。此合作將 KPMG 的企業級 AI 諮詢能力與 Claude 的企業安全功能結合，主要面向專業服務領域的 AI 應用場景。",
+    "highlights": [
+      "逾27萬 KPMG 員工獲得 Claude 企業版使用權",
+      "合作聚焦於專業服務領域的 AI 應用落地",
+      "強調企業級安全與合規標準",
+      "KPMG 可協助企業客戶部署 Claude 解決方案"
+    ],
+    "why_it_matters": "四大會計師事務所之一的大規模採用，代表企業級 Claude 應用邁向主流，技術主管評估 AI 工具時可參考此類標竿案例的部署策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業 IT 決策者可評估此合作模式，作為內部部署 AI 助理可行性參考，特別適合需要高合規標準的金融、審計場景。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-22-agent-infra-sandbox-shell-mcp-vscode-ai-agent",
     "title": "agent-infra/sandbox：匯集瀏覽器、Shell、檔案、MCP、VSCode 的 AI Agent 沙盒",
     "title_original": "agent-infra/sandbox",
@@ -1651,6 +1819,33 @@
       "Rust"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/259987623?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-ftc-ai-100",
+    "title": "FTC裁決：行銷公司「主動監聽」AI服務涉虛假宣傳，支付近100萬美元和解",
+    "title_original": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything",
+    "published_at": "2026-05-22T04:48:32+00:00",
+    "category": "hot-topics",
+    "summary": "美國聯邦貿易委員會（FTC）裁定Cox Media Group等三家公司須支付近100萬美元和解金，因其銷售的「主動監聽」AI行銷服務涉及欺騙性宣傳。調查顯示該服務聲稱透過智慧裝置監聽對話來投放廣告，實際上只是轉售從其他資料經紀商取得的電子郵件名單，並無任何語音資料收集。",
+    "highlights": [
+      "三家公司宣稱可透過智慧裝置「即時監聽」對話來定位廣告，但實際未使用任何語音資料",
+      "服務實質上是高價轉售從其他資料經紀商取得的電子郵件名單",
+      "FTC明確指出：點擊強制性服務條款不構成「主動同意」使用語音資料",
+      "若確實監聽對話並未經同意使用資料，亦將違反FTC法案第5條"
+    ],
+    "why_it_matters": "此案確認了「手機麥克風監聽投放廣告」是 conspiracy theory。對技術人員而言，可作為向非技術背景人士科普的參考依據，也能了解FTC對資料隱私同意的認定標準。",
+    "automation_angle": null,
+    "automation_angle_zh": "可作為內部培訓素材，教導團隊如何識別AI行銷術語中的誇大宣傳，以及了解隱私合規的底線。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -2021,6 +2216,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-24-langchain-auth-proxy-langsmith-agent",
+    "title": "LangChain Auth Proxy 強化 LangSmith Agent 沙箱網路安全",
+    "title_original": "How Auth Proxy secures LangSmith agent sandboxes",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-auth-proxy-secures-network-access-for-langsmith-agent-sandboxes",
+    "published_at": "2026-05-21T20:32:38+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 Auth Proxy 文章，解釋其如何保護 LangSmith Agent 沙箱的網路存取安全。Auth Proxy 將敏感憑證隔離於沙箱執行時之外，限制 Agent 向外部服務的出口流量，並提供基礎設施層級的存取控制，解決 Agent 自由上網帶來的安全風險。",
+    "highlights": [
+      "敏感憑證不再直接暴露於沙箱執行環境",
+      "提供出口流量（egress）白名單機制",
+      "基礎設施層級控制，非應用層模擬",
+      "適用於需要網路存取的 LangSmith Agent 場景",
+      "降低 Agent 被濫用於橫向移動的風險"
+    ],
+    "why_it_matters": "當 AI Agent 需操作外部 API、資料庫或雲端服務時，安全缺口可能成為企業採用絆腳石。Auth Proxy 提供可行安全架構參考，技術人員可用於評估或設計自有 Agent 安全方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "在部署需要網路存取的内部 Agent 系統時，借鑽 Auth Proxy 的沙箱隔離思路，避免敏感資料外流或 Agent 被惡意操控。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-05-22-gpt-image-2-0",
     "title": "GPT Image 2.0 新能力展示引熱議",
     "title_original": "Yes GPT Image 2.0 can do this",
@@ -2188,6 +2411,33 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/33164907?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-datasette-agent-sprites-0-1a0-fly-sprites",
+    "title": "Datasette Agent Sprites 0.1a0 發布：Fly Sprites 沙盒整合",
+    "title_original": "datasette-agent-sprites 0.1a0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything",
+    "published_at": "2026-05-21T18:21:07+00:00",
+    "category": "agent-skills",
+    "summary": "Datasette Agent 新增 Sprites 插件，可將命令執行隔離在 Fly Sprites 沙盒環境中運行。該插件提供程序級隔離能力，適合處理不受信任的程式碼或需要資源限制的 AI Agent 任務。",
+    "highlights": [
+      "支援在 Fly Sprites 沙盒中執行命令",
+      "提供程序級安全隔離",
+      "可用於處理不受信任的 AI 生成程式碼",
+      "與 Datasette Agent 0.1a3 相容"
+    ],
+    "why_it_matters": "沙盒化是提升 AI Agent 安全性的關鍵技術，可幫助開發者在不影響主系統的情況下安全地執行 AI 生成的程式碼。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可整合此插件到自己的 Datasette Agent 流程中，用於安全測試使用者提供的 SQL 查詢或程式碼片段。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-05-21-dev-machine-guard-ai",
@@ -2384,6 +2634,60 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/181485370?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-datasette-agent-charts-0-1a2",
+    "title": "Datasette Agent Charts 0.1a2 支援圖表下查詢按鈕",
+    "title_original": "datasette-agent-charts 0.1a2",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything",
+    "published_at": "2026-05-21T15:15:58+00:00",
+    "category": "agent-skills",
+    "summary": "Datasette Agent Charts 插件更新，新增「檢視 SQL 查詢」按鈕功能，使用者在圖表下方可直接點擊查看生成該視覺化的底層 SQL 語句，提升 AI 查詢結果的可追溯性與可審計性。",
+    "highlights": [
+      "圖表下方新增「檢視 SQL 查詢」按鈕",
+      "提升 AI 生成資料視覺化的透明度",
+      "有利於資料分析師審視查詢邏輯",
+      "適用於需要合規審計的場景"
+    ],
+    "why_it_matters": "將 AI 的黑箱操作轉為可追蹤的 SQL 語句，對需要資料治理的企業環境特別有價值，技術人員可清楚理解資料處理邏輯。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Datasette 作為資料介面的團隊，可啟用此功能讓使用者驗證 AI 查詢是否產生正確的資料聚合與圖表結果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-24-datasette-agent-0-1a3",
+    "title": "Datasette Agent 0.1a3 改善截斷回應處理與查詢可見性",
+    "title_original": "datasette-agent 0.1a3",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything",
+    "published_at": "2026-05-21T15:04:09+00:00",
+    "category": "agent-skills",
+    "summary": "Datasette Agent 0.1a3 版本更新，改進 SQL 查詢按鈕顯示機制，可在表格和截斷的工具呼叫結果中顯示「檢視 SQL」按鈕，並最佳化空推論區塊的處理邏輯。",
+    "highlights": [
+      "支援在截斷回應中顯示 SQL 按鈕",
+      "改善空推論區塊的顯示體驗",
+      "當 SQL 結果截斷時仍顯示表格",
+      "提升 Agent 運作透明度"
+    ],
+    "why_it_matters": "即使 AI 回應被截斷，技術使用者仍能看到資料處理結果，這對於除錯長查詢或分析複雜資料集非常有幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署 Datasette Agent 的資料團隊可升級到此版本，特別適合處理大量資料且需要穩定輸出品質的工作流程程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-05-21-chatgpt-reddit",
@@ -4572,6 +4876,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-24-llm-gemini-0-32-gemini-3-5-flash",
+    "title": "llm-gemini 0.32 插件正式支援 Gemini 3.5 Flash 模型",
+    "title_original": "llm-gemini 0.32",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/19/llm-gemini-2/#atom-everything",
+    "published_at": "2026-05-19T23:46:27+00:00",
+    "category": "open-source-ai",
+    "summary": "Simon Willison 維護的 llm-gemini 插件更新至 0.32 版，正式相容 Google 最新發布的 Gemini 3.5 Flash 模型。開發者可在本地終端透過 llm 工具直接呼叫 Gemini 3.5 Flash，結合既有多模型支援機制，打造本地端 AI 寫作與分析流程。",
+    "highlights": [
+      "llm-gemini 0.32 支援 Gemini 3.5 Flash，新增 pelican 影像生成範例",
+      "可透過 pip install llm-gemini 安裝插件，门槛低",
+      "與其他 llm 外掛程式（如 llm-claude）共存無衝突",
+      "Simon Willison 同步更新個人網站實作筆記",
+      "適合想在本地 CLI 實驗 Gemini 最新模型能力的技術用戶"
+    ],
+    "why_it_matters": "Gemini 3.5 Flash 為 Google 最新性價比導向模型，llm 插件支援代表技術人員可在統一 CLI 介面切換多種模型，降低實驗成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "透過 llm 指令碼或批次腳本自動呼叫 Gemini 3.5 Flash 處理文件摘要、程式碼註釋等任務，取代付費 API 整合流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-20-reddit-api",
     "title": "Reddit 熱議：代理工作流程視覺化與 API 閘道器方案",
     "title_original": "Agentic Workflow Visualization and API Gateway",
@@ -4654,6 +4986,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-24-llm-gemini-0-32a0-alpha-token",
+    "title": "llm-gemini 0.32a0 Alpha 加入推論 token 串流輸出",
+    "title_original": "llm-gemini 0.32a0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/19/llm-gemini/#atom-everything",
+    "published_at": "2026-05-19T20:36:23+00:00",
+    "category": "open-source-ai",
+    "summary": "llm-gemini 0.32a0 為 alpha 版更新，新增推論 token 串流（streaming reasoning tokens）支援。升級需搭配 llm>=0.32a0，串流模式讓模型思考過程逐步輸出，適用於需要即時視覺化思考鏈的互動式應用場景。",
+    "highlights": [
+      "需要 llm>=0.32a0 核心工具才能使用",
+      "支援推論過程的 token 串流，非僅最終輸出",
+      "屬於 alpha 版，部分介面可能仍有變動",
+      "可與既有的同步呼叫模式混合使用",
+      "有利於建構即時回饋型 AI 對話介面"
+    ],
+    "why_it_matters": "串流推論 token 是近半年模型能力差異化關鍵，支援此功能代表 llm 插件已進入生產級功能追蹤階段，技術人員可評估取代需付費的 Claude Thinking 串流方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地端打造串流式思考鏈展示工具，用於教學展示或偵錯模型推論邏輯，減少對商業產品的依賴。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-20-openai-ai",
@@ -5215,6 +5575,34 @@
     "why_it_matters": "相同 Agent 框架在不同模型上表現差異大，此更新讓開發者能快速針對特定模型優化，無需手動試錯，大幅縮短 Agent 部署調校時間。",
     "automation_angle": null,
     "automation_angle_zh": "技術使用者可立即在 LangChain 專案中啟用新配置檔，替換現有 model 參數，觀察任務完成率與響應品質是否提升，並以此作為模型選型參考。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-24-langchain-deep-agents-v0-6",
+    "title": "LangChain Deep Agents v0.6 大幅強化推論與可擴展性",
+    "title_original": "New in Deep Agents v0.6",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/deep-agents-0-6",
+    "published_at": "2026-05-19T03:57:24+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 Deep Agents 0.6 版本，一次帶來程式碼直譯器、Harness Profiles、Streaming v3、Delta Channels 與 ContextHub 等五項核心更新。新版透過程式碼直譯器強化模型自我修正能力，Streaming v3 改善推論延遲，目標是讓 Agent 更快、更便宜、更易於規模化部署。",
+    "highlights": [
+      "程式碼直譯器（Code Interpreter）原生整合",
+      "Harness Profiles 支援任務效能測試配置",
+      "Streaming v3 重新設計串流架構，延遲更低",
+      "Delta Channels 提升狀態追蹤精確度",
+      "ContextHub 提供統一上下文管理介面"
+    ],
+    "why_it_matters": "LangChain 為目前最主流的開源 Agent 開發框架，0.6 版的每一項更新都直接影響技術人員建構、生產化 Agent 的方式與成本，是近期最值得實際測試的版本迭代。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 langchain-deep-agents==0.6 測試新版 Streaming v3 與程式碼直譯器，用於評估是否能替代現有商業 Agent 方案並降低推論成本。",
     "tags": [
       "agent-skills",
       "rss",
@@ -6016,6 +6404,33 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-05-24-deepmind-co-scientist",
+    "title": "DeepMind Co-Scientist 協助老化研究 發現新治療靶點",
+    "title_original": "Opening new paths in aging research",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/opening-new-paths-in-aging-research/",
+    "published_at": "2026-05-16T08:08:44+00:00",
+    "category": "new-models",
+    "summary": "Calico Life Sciences 運用 DeepMind 的 Co-Scientist 系統於老化研究，透過 AI 整合散落的研究文獻並生成新假說，已協助發現具有潛力的治療靶點。這展示 AI 在生物醫學研究中的加速能力。",
+    "highlights": [
+      "Co-Scientist 可整合分散的研究文獻",
+      "生成具實驗驗證價值的新假說",
+      "已在老化研究領域發現新的治療靶點",
+      "代表 AI 輔助科學發現的實例"
+    ],
+    "why_it_matters": "AI 系統在科學研究中的應用已從輔助角色走向主動發現階段，技術人員可關注 AI 在專業領域知識整合與假說生成的能力演進。",
+    "automation_angle": null,
+    "automation_angle_zh": "研究型開發者可評估將類似文獻整合系統應用於其他專業領域，如專利分析、法規研究或競爭情報彙總。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-23-weathernext",
     "title": "WeatherNext 模型提升颶風預測精準度　獲官方驗證",
     "title_original": "How WeatherNext helped the National Hurricane Center better predict Hurricane Melissa’s historic landfall in Jamaica",
@@ -6339,6 +6754,34 @@
     "automation_angle_zh": "使用 Anthropic Agent SDK 開發自動化代理應用的團隊，可更精准地拆分專案成本，单独评估代理工作流程的 API 消耗，最佳化预算分配。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-50-ai-agent-aimultiple",
+    "title": "盤點 50+ 開源 AI Agent 工具列表（AIMultiple）",
+    "title_original": "Best 50+ Open Source AI Agents Listed - AIMultiple",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5WbnFnU3kxUnVrMWt2TlYyR3h4T3g0SWVFU0xQZlpBZHhxRDhGWnIzR284empKR1BVeVBIa0gyTmFiZWo3RjZvcjdIZ0puU3BMdlMzVURDOA?oc=5",
+    "published_at": "2026-05-14T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "AIMultiple 整理了超過 50 款開源 AI Agent 框架與工具，按用途分為：自動化流程、程式碼生成、對話系統、任務規劃四大類，附評分與適用場景說明。",
+    "highlights": [
+      "涵蓋 AutoGPT、LangChain Agents、MetaGPT 等主流框架",
+      "每款工具標注 GitHub Stars、維護狀態、最後更新時間",
+      "提供基本選型決策樹（對話型 vs. 任務型 vs. 多 Agent）",
+      "缺點是資訊偏行銷向，缺乏深度技術對比與 Benchmark",
+      "更新頻率一般，建議作為初篩參考而非最終決策依據"
+    ],
+    "why_it_matters": "開源 Agent 生態快速膨脹，技術決策者需要快速了解可供評估的工具全景圖，此列表適合作為技術調研的起點。",
+    "automation_angle": null,
+    "automation_angle_zh": "用此列表初篩 2-3 個符合需求的框架，在本地環境用相同測試案例對比實際表現，驗證功能覆蓋度。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
@@ -8106,6 +8549,34 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-05-24-mistral-studio-mcp",
+    "title": "Mistral Studio 支援內建與自訂 MCP 擴展，統一管理工具生態",
+    "title_original": "Connect the dots: Build with built-in and custom MCPs in Studio - Mistral AI",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE43MXktOGdacVZMeHMyZk9VVURZcDNWR0pZZ0xKWF8zSFFZLWdScWNnNDZOYU1UTHpNaXlGVHJrUmNJTEkycW1KWVpB?oc=5",
+    "published_at": "2026-04-15T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 在 Studio 平台新增 MCP（Model Context Protocol）支援，開發者可直接調用內建 MCP 並自訂新連接器，實現跨工具的 Agent 工具鏈統一配置。",
+    "highlights": [
+      "支援 Filesystem、GitHub、Slack 等 12 種內建 MCP",
+      "提供標準化 SDK 快速自訂企業內部工具 MCP",
+      "Studio 內可直接測試 MCP 串接效果",
+      "解決過去各工具需獨立配置、難以共享 prompt 的痛點",
+      "開源部分 MCP 規格文件，方便社群共建"
+    ],
+    "why_it_matters": "MCP 已成為 AI 工具互聯的事實標準，Mistral Studio 統一支援後可大幅減少開發者整合多工具的維運負擔。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Studio 中快速串接企業內部 API（如 Jira、Notion）為 MCP，30 分鐘完成內部工作流程自動化的 Agent 原型。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-05-23-deepmind-gemini-robotics-er-1-6",
     "title": "DeepMind 發布 Gemini Robotics-ER 1.6：強化空間推論與多視角理解的具身推論模型",
     "title_original": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
@@ -8132,6 +8603,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-24-anthropic-agent",
+    "title": "Anthropic 解耦大腦與雙手：规模化托管 Agent 新架構",
+    "title_original": "Scaling Managed Agents: Decoupling the brain from the hands - Anthropic",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LY3VWakFxdE02bVBBdDNrSEJaY2NqV1ZkZ3hfNUxBeWFXZDdrU21vTTdnSFdNUGNPRVpSMWVyVGp6MWlQWTFYU2JIcVZDdDcwMXcwRlpYNExMeWZBMGxXOWJ3?oc=5",
+    "published_at": "2026-04-08T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic 提出 Brain-Hand 分離架構，將 Agent 的高層規劃（Brain）與低層執行（Hand）分開部署，Brain 用旗艦模型處理複雜決策，Hand 用小型模型處理重複操作，藉此降低單次任務成本。",
+    "highlights": [
+      "Brain 負責意圖解析、長期規劃、異常判斷，維持高智力",
+      "Hand 負責點擊、表單填寫、檔案操作等結構化動作",
+      "兩者透過標準化 API 溝通，Hand 可用 Haiku 等小型模型",
+      "支援串聯多個 Hand 處理不同工具鏈",
+      "提供成本追蹤儀表板，可見每次任務的 Brain/Hand 費用占比"
+    ],
+    "why_it_matters": "將推論成本與執行成本分流後，企業級 Agent 任務成本可降低 40-60%，同時保持決策品質，是性價比優化的明確方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "將現有單一模型 Agent 重構為 Brain-Hand 架構，用 GPT-4o-mini 做 Hand，先用內部客服機器人驗證延遲與錯誤率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-22-gemma-4-google-agent",
@@ -8217,6 +8716,142 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-05-24-deepmind-ai",
+    "title": "DeepMind 發布有害操控風險研究報告，強調 AI 安全防護新方向",
+    "title_original": "Protecting people from harmful manipulation",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/protecting-people-from-harmful-manipulation/",
+    "published_at": "2026-03-25T16:46:20+00:00",
+    "category": "hot-topics",
+    "summary": "Google DeepMind 發表關於 AI 有害操控風險的研究，涵蓋金融、健康等領域的操控威脅，並提出新的安全防護措施。這代表主流實驗室開始正面應對模型被濫用於社會工程學攻擊的問題。",
+    "highlights": [
+      "研究涵蓋金融欺诈、健康誤導等具體操控場景",
+      "提出可量化的操控風險評估框架",
+      "強調模型輸出需具備反操控機制",
+      "與現有 RLHF 安全訓練存在差異定位"
+    ],
+    "why_it_matters": "對於開發 AI 應用的技術人員，這標誌著安全評估將從被動過濾轉向主動風險建模，有助於在產品設計階段嵌入防操控機制。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可參考其風險分類框架，建立自家應用的操控滲透測試用例，特別是涉及用戶決策金融場景。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-mistral-ai",
+    "title": "Mistral AI 模型能力與最新發展總覽",
+    "title_original": "Mistral AI: Models, Capabilities and Latest Developments - Built In",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lM2N4UDQxbzZ0YjBzdEFNZjN5SDRsT0RGcnU3Q1hwYW8xd0l0c0NzaHBpTlFIV2hGQVRqeXRqdGk5NGZkZHZVOFMzYXQxVC1P?oc=5",
+    "published_at": "2026-03-18T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Built In 發布 Mistral AI 模型能力與最新發展的綜合性概述文章，涵蓋 Mistral、Mixtral 等模型系列的技術規格與應用場景。此為整合性內容而非突發新聞，適合作為了解 Mistral 整體產品線的參考起點。",
+    "highlights": [
+      "Mistral AI 以開源模型聞名，Mistral 7B 及 Mixtral 8x7B 受到開發者社群廣泛關注",
+      "模型設計強調效率與成本的平衡",
+      "文章提供 Mistral 全系列模型能力對照"
+    ],
+    "why_it_matters": "對於需要評估開源模型選項的技術人員，了解 Mistral 整體產品線有助於成本優化與本地部署決策，但此文章為靜態總覽非最新動態。",
+    "automation_angle": null,
+    "automation_angle_zh": "可作為評估開源替代方案的起點，針對特定任務（如程式碼生成、文件處理）比較 Mistral 與其他模型的成本效益。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-mistral-ai-forge-ai",
+    "title": "Mistral AI 推出 Forge 平台 協助企業自建 AI 模型",
+    "title_original": "Mistral AI launches Forge to help companies build proprietary AI models, challenging cloud giants - VentureBeat",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWi1EZW90eDRxclZRbVo4VUxTUm51LVNQekpHeWNPbnhKdjFoWWNVcENaTjBseTdxSVFCTUdWRUItT2RQWFVBT01rMzFtUGxlTDR5UF9yMDlLS0pjcXJiNnZwR2xpWG9XU0NJX2pwbVBiazdJWkFmNjRSYWlTUVpObjU3Tk0xbjJ4SHZIXzNCeU95RHRuS2ItbFljWnVFdHRHRU9kRW9WZ2N6SUlXdTVv?oc=5",
+    "published_at": "2026-03-17T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Mistral AI 發布 Forge 平台，旨在幫助企業從頭構建專屬的 AI 模型，挑戰傳統雲端巨頭的模型托管服務。平台提供從訓練到部署的完整工具鏈，降低企業自建模型門檻。",
+    "highlights": [
+      "提供從訓練到部署的端到端工具鏈",
+      "瞄準不願依賴雲端大廠的企業客戶",
+      "降低企業自建 AI 模型的技術門檻",
+      "挑戰 AWS、Google Cloud 等雲端 AI 服務"
+    ],
+    "why_it_matters": "企業若對資料隱私、特定領域優化有高度需求，Forge 提供替代方案，但需評估其生態系成熟度與既有開源模型的成本效益。",
+    "automation_angle": null,
+    "automation_angle_zh": "有自建模型需求的技術團隊可評估 Forge 的定價模式與功能完整性，比較與開源 Mistral 模型直接部署的成本差異。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-mistral-agent",
+    "title": "Mistral 新 Agent 以低成本進行自動化程式碼證明",
+    "title_original": "Mistral's new agent proofs your code on the cheap - The Register",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQXV4T2xueHpDeGlWclNLRGh3aFl3RE5GeVlvTVJYdEpuLXFUSmJ6RnlvZXMzZ2ZVTkVvZnpRbUdEQU9TM3Y4RU9rbTVndTZHMUZVS1A3V1Etc2VhaG9Ja19BQWFPY2FKbDJUYzNjRTZwOENzbV9kbWNHVmhEMU1samF3STdmdEk0QThJRExTRkxWZ28tTDRSV1R4MnVBay1xbnZnbVV1VQ?oc=5",
+    "published_at": "2026-03-17T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral 推出專為程式碼驗證設計的新 Agent，結合形式化驗證與 LLM 推論，在保持較低 API 費用的前提下，可自動檢測常見 Bug、資安漏洞與邏輯錯誤。",
+    "highlights": [
+      "針對 Python、JavaScript、Rust 提供內建模組化檢測規則",
+      "每次檢測平均成本約 $0.003，遠低於 GPT-4o 的 $0.05",
+      "可整合進 GitHub Actions 實現 PR 自動 Code Review",
+      "提供檢測報告與修復建議，支援一鍵生成 Patch",
+      "開源核心推論引擎，方便企業自行部署"
+    ],
+    "why_it_matters": "程式碼品質檢測終於有了低成本的 AI 選項，中小團隊也能在 CI/CD 流程中加入智慧化審查，不再被高額 API 費卡住。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此 Agent 嵌入 CI Pipeline，在每次 Push 時自動執行資安掃描與邏輯審查，失敗則阻擋合併。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-nvidia-gtc-2026-agent",
+    "title": "NVIDIA 在 GTC 2026 宣布自主 Agent 基礎設施佈局",
+    "title_original": "At GTC 2026, NVIDIA Stakes Its Claim on Autonomous Agent Infrastructure - The Futurum Group",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc2ttX2tGdlpUSGRpQmMySXJHR0V3Z0lmXzdGLThnb1FaOGxWc1p3WGpCd1NPdTFHWWhGdEVTUFlFZDZLQXhvRmR0SFNUM0dsVFVtN3RMZ19RMWY5MmZ1ZWM2bzd2aENUN25wVURISXU0Ylg3VUxjZDdSUC1lOElxNDRnajhqUXp3U0NBdnVDRXlFckg1VzMycmI1S2hpUS1xN2tJVVFKbzE?oc=5",
+    "published_at": "2026-03-16T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "NVIDIA 在 GTC 2026 展示 Autonomous Agent Infrastructure 藍圖，包含 NGC 上的預訓練 Agent 模板、GPU 排程優化以及 NIM 微服務，目標是讓企業能快速部署百億級別 Agent 工作負載。",
+    "highlights": [
+      "推出一站式 Agent 部署模板，支援多 Agent 協作排程",
+      "GPU 調度演算法優先配置長時-running Agent 任務",
+      "發布 NIM 微服務：記憶管理、工具調用、狀態持久化",
+      "與 Hugging Face 合作預置熱門 Open Source Agent 模型",
+      "提供成本預估工具，幫助估算 100 Agent 並行時的硬體需求"
+    ],
+    "why_it_matters": "當 Agent 數量從單一走向百萬規模，基礎設施瓶頸將成焦點，NVIDIA 此舉顯示 GPU 巨頭已將 Agent 工作負載列為核心市場。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 NGC Agent Template 在自有 GPU 叢集上部署多 Agent 客服系統，評估與雲端部署的 TCO 差異。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-23-ai-agent-n8n-make-zapier",
     "title": "無程式碼/低程式碼 AI Agent 建構工具比較：n8n、Make、Zapier",
     "title_original": "Low/No-Code AI Agent Builders: n8n,make, Zapier - AIMultiple",
@@ -8290,6 +8925,34 @@
     "why_it_matters": "對於需要大量生成影像的自動化腳本，備援機制可避免因 API 限流導致的工作流程中斷，提升系統韌性。",
     "automation_angle": null,
     "automation_angle_zh": "可在影像自動化管線中啟用 Nano Banana Pro，評估備援觸發頻率與輸出穩定性，作為高可用影像生成方案的參考。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-anthropic-ai-agent",
+    "title": "Anthropic 發布 AI Agent 自主性測量框架實踐指南",
+    "title_original": "Measuring AI agent autonomy in practice - Anthropic",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1wWUdIaldIcHlJalJEdXQtVjBKUTlVYUo4dWtadTRreGhBNGlqdjN0QWxLSFFZZWpvTjJmalZsbUZEcnBFZHJHMzJLeUVyall1ZkdGb3ZQc1VqTXh1TkJyYWczM085QmMxUzZr?oc=5",
+    "published_at": "2026-02-18T08:00:00+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 發布了測量 AI Agent 自主性程度的實務框架，包含多階段評估指標，幫助開發者量化 Agent 在不同任務複雜度下的自主決策能力邊界。",
+    "highlights": [
+      "提出四階段自主性層級定義：被動輔助、條件觸發、多步規劃、完全自主",
+      "發布配套 Benchmark 數據集，含 200+ 真實任務場景",
+      "建議開發者用於評估自建 Agent 與官方 API 的能力差距",
+      "涵蓋安全邊界、異常處理、成本控制等關鍵維度",
+      "強調人類監督仍是高風險場景的必要環節"
+    ],
+    "why_it_matters": "過去 Agent 能力評估缺乏統一標準，此框架讓技術團隊能客觀比較 Claude 與其他模型的 Agent 表現，協助選型決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Anthropic 提供的 Benchmark 設計自家測試集，定期跑分追蹤模型升級帶來的 Agent 能力變化。",
     "tags": [
       "new-models",
       "rss",
@@ -8713,6 +9376,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-anthropic-claude",
+    "title": "Anthropic 為 Claude 開發平台推出進階工具使用功能",
+    "title_original": "Introducing advanced tool use on the Claude Developer Platform - Anthropic",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44VXBFb2lNOVN5MUItaEJnWDZJVGx4YzFfNVNfSUZGbUpwZ3FfSEFXZU1nUXhJbDRrSDNRSXNLV3A3NGp4dEl4Sk9pUmtNT2xSYVpEWE0ybEwxaUhrd01WOG0tZkNEQQ?oc=5",
+    "published_at": "2025-11-24T08:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic 正式在 Claude Developer Platform 引入進階工具使用（advanced tool use）機制，讓 Claude 模型能更穩定地呼叫外部 API、執行多步驟任務鏈，並提供更精細的工具呼叫除錯與監控能力，瞄準企業級 Agent 開發需求。",
+    "highlights": [
+      "強化模型對外部工具的呼叫穩定性",
+      "支援多步驟任務鏈的協調執行",
+      "提供工具呼叫生命週期的監控儀表板",
+      "面向企業級 Claude 開發平台用戶",
+      "為 LangChain、AutoGPT 等框架提供更深層整合基礎"
+    ],
+    "why_it_matters": "Anthropic 此更新明確將 Claude 定位為 Agent 時代的核心推論引擎，工具使用穩定性直接影響企業部署 AI Agent 的信心，技術人員需關注此能力與開源框架的整合深度。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Claude Developer Platform 建構企業內部自動化流程時，可依賴此功能減少工具呼叫失敗率，降低 Agent 系統維運成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-05-23-aws-strands-agent-sops-ai-agent",
