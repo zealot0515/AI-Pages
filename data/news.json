@@ -1,5 +1,464 @@
 [
   {
+    "id": "2026-05-24-reddit-40b-gpt-5-mini",
+    "title": "Reddit 討論：40B 以下模型能否超越 GPT-5 mini？",
+    "title_original": "Best sub-40B model that outpeforms (or matches) GPT-5 mini?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tmjun2/best_sub40b_model_that_outpeforms_or_matches_gpt5/",
+    "published_at": "2026-05-24T18:18:20+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群熱烈討論在 400 億參數以下區間，有哪些本地運行模型能達到或超越 GPT-5 mini 的表現。討論熱點集中在 Q4、K2.1 等近期開源模型，部分用戶分享了實測跑分與 prompt 對比結果。",
+    "highlights": [
+      "GPT-5 mini 定位為 GPT-4o mini 同級競品，目標高效能低價格",
+      "40B 以下本地模型受 GPU 記憶體限制，RTX 3090/4090 為主流硬體",
+      "Q4、K2.1 等 GGUF 量化模型在多項 benchmark 表現突出",
+      "社群回報部分任務 GPT-5 mini 領先，部分任務本地模型可匹敵",
+      "話題反映技術用戶對性價比本地部署方案的持續關注"
+    ],
+    "why_it_matters": "本地模型性價比直接影響技術宅的 API 開支，若 40B 以下模型能接近 GPT-5 mini 水準，可省下大筆月費並掌控資料隱私。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 Q4 或 K2.1 量化版本，在本機實測對比 GPT-5 mini API 的輸出品質與速度，評估是否值得遷移工作負載。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-trace-mcp-42",
+    "title": "Trace MCP：一次呼叫節省 42 分鐘探索",
+    "title_original": "nikolai-vysotskyi/trace-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/nikolai-vysotskyi/trace-mcp",
+    "published_at": "2026-05-24T18:03:23Z",
+    "category": "agent-skills",
+    "summary": "MCP server for Claude Code and Codex，號稱一次工具呼叫可替換約 42 分鐘的 Agent 自主探索。TypeScript 實作，80 stars，適合需要減少無效試探的成本導向場景。",
+    "highlights": [
+      "支援 Claude Code 和 Codex 两大主流工具",
+      "號稱一次呼叫節省 42 分鐘探索時間",
+      "TypeScript MCP server 標準形態",
+      "Star 少但切入點精準",
+      "適合成本敏感的 Agent 部署"
+    ],
+    "why_it_matters": "若實際效果接近宣稱，可大幅減少 Agent 在錯誤路徑上消耗的 tokens，直接反映在 API 費用帳單上。",
+    "automation_angle": null,
+    "automation_angle_zh": "在長任務的關鍵決策點串入 Trace MCP，測量是否真能省下那 42 分鐘的探索時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/36617970?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-headroom-agent",
+    "title": "Headroom：Agent 輸出流量压缩工具",
+    "title_original": "chopratejas/headroom",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/chopratejas/headroom",
+    "published_at": "2026-05-24T17:43:04Z",
+    "category": "agent-skills",
+    "summary": "壓縮工具輸出、日誌、檔案、RAG chunks，號稱減少 60-95% tokens同時保留回答品質。提供 Python library / proxy / MCP server 三種部署形態，Python 實作可直接整合進既有 Agent 工作流程。",
+    "highlights": [
+      "號稱 60-95% token 節省，直接降低 API 調用成本",
+      "支援 log、檔案、RAG chunk 三種常見輸入形態",
+      "提供 MCP server 模式，可快速串接到 Claude Code 等工具",
+      "Python 輕量實現，安裝門檻低",
+      "適合高頻 API 調用的自動化流程"
+    ],
+    "why_it_matters": "Token 費用是 Agent 部署的主要成本之一，若實際壓縮比屬實，可等比例降低 API 開支，對高流量工作流程幫助最大。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Agent 每次工具呼叫後串接 Headroom，自動壓縮輸出再餵給 LLM，實測省多少 token就能省多少錢。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3607994?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-agenvoy-ai",
+    "title": "Agenvoy：個人化 AI 助理框架",
+    "title_original": "pardnchiu/Agenvoy",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/pardnchiu/Agenvoy",
+    "published_at": "2026-05-24T17:39:59Z",
+    "category": "agent-skills",
+    "summary": "Make AI actually work for you——個人化 AI 助理框架，號稱讓 AI 真正為你服務。Go 實作，輕量高效，適合想自己架個人 Agent 的技術用戶。",
+    "highlights": [
+      "Go 實作，記憶體佔用低、效能高",
+      "標榜個人化，適配個人工作流程程",
+      "輕量框架，安裝部署簡單",
+      "Star 115，社群初步認可",
+      "適合自架個人 Agent 的技術用戶"
+    ],
+    "why_it_matters": "個人 Agent 市場正在成長，Agenvoy 以 Go 的高效能切入，提供一個輕量選擇，部署成本低。",
+    "automation_angle": null,
+    "automation_angle_zh": "架在本機或輕量 VPS 上，作為每日任務自動化的個人助理，串接日曆、郵件等工具。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/25631760?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-open-gitagent-opengap-git-ai-agent",
+    "title": "open-gitagent/opengap：框架無關、Git 原生的 AI Agent 定義標準",
+    "title_original": "open-gitagent/opengap",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/open-gitagent/opengap",
+    "published_at": "2026-05-24T17:31:52Z",
+    "category": "agent-skills",
+    "summary": "opengap 是一個框架無關、Git 原生的 AI Agent 定義標準，旨在建立跨平台的 Agent 互通性。作為標準化協議，可讓不同框架（LangChain、AutoGen 等）的 Agent 相互溝通，降低平台鎖定風險。GitHub 2,789 星。",
+    "highlights": [
+      "框架無關設計，支援 LangChain、AutoGen 等主流框架",
+      "Git 原生標準，Agent 定義可版本控制與協作審查",
+      "提升跨平台互通性，降低廠商鎖定風險",
+      "2,789 星反映社群對標準化需求的認可",
+      "有利於建立 Agent 市場與組合式工作流程"
+    ],
+    "why_it_matters": "AI Agent 生態目前高度碎片化，opengap 若成標準，可讓技術團隊自由混用不同框架的 Agent，降低整合與遷移成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可用 opengap 定義內部 Agent 組合流程，確保不同框架構建的工具可統一調度。例如讓 LangChain 建的爬蟲 Agent 與 AutoGen 建的決策 Agent 無縫協作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/263700766?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-ptah-extension-vs-code-ai-agent",
+    "title": "Ptah Extension：VS Code 原生 AI 編排框架，支援工作區分析與多 Agent 協作",
+    "title_original": "Hive-Academy/ptah-extension",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Hive-Academy/ptah-extension",
+    "published_at": "2026-05-24T17:22:57Z",
+    "category": "agent-skills",
+    "summary": "Ptah Extension 是一款.Provider 無關的 AI 編排工具，直接整合在 VS Code 中，具備智慧工作區分析、程式碼執行 MCP 伺服器，以及專案自適應的多 Agent 工作流程。TypeScript 開發，26 顆星，瞄準提升開發者生產力的日常場景。",
+    "highlights": [
+      "Provider 無關：可接入 OpenAI、Anthropic、本地模型等多種 AI API",
+      "智慧工作區分析自動理解專案結構與依賴關係",
+      "內建程式碼執行 MCP 伺服器，Agent 可直接運行驗證",
+      "多 Agent 工作流程支援協作式任務分解與執行",
+      "VS Code 原生整合，無需切換工具即可使用"
+    ],
+    "why_it_matters": "開發者日常編輯環境與 AI Agent 能力深度整合，改變傳統「複製貼上提示詞」的低效模式，讓 AI 能真正理解並操作你的程式碼庫。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術者可將 Ptah 作為本機開發代理，安裝後讓 AI 自動分析 PR 變更、執行測試、生成文件，直接在 VS Code 內完成原本需要手動操作的開發輔助任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/207654270?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-24-vibe-check-ai-agent",
+    "title": "Vibe Check：AI Agent 的導師級回饋系統",
+    "title_original": "PV-Bhat/vibe-check-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/PV-Bhat/vibe-check-mcp-server",
+    "published_at": "2026-05-24T17:06:31Z",
+    "category": "agent-skills",
+    "summary": "為 AI Agent 提供導師級即時回饋，防止隧道視角、過度工程和推論鎖定。適用於長時程複雜任務，減少 Agent 在錯誤方向上消耗過多 tokens，TypeScript MCP server 形態。",
+    "highlights": [
+      "防止 Agent 陷入過度複雜的過度工程陷阱",
+      "抑制長任務中的隧道視角和推論鎖定",
+      "MCP server 形態，串接 Claude Code 等工具方便",
+      "適用於 Coding、模糊任務、高風險任務",
+      "Star 485，社群關注度可觀"
+    ],
+    "why_it_matters": "長時程 Agent 任務最大的痛點是方向走偏，Vibe Check 直接提供外部校正機制，省下回滾重試的成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Claude Code 工作流程中串入 Vibe Check，當 Agent 開始鑽牛角尖時自動介入拉回正軌。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/186011573?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-connapse-ai-mcp",
+    "title": "Connapse：開源自托管 AI 知識後端，整合混合搜尋與 MCP 協議",
+    "title_original": "Destrayon/Connapse",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Destrayon/Connapse",
+    "published_at": "2026-05-24T16:43:07Z",
+    "category": "agent-skills",
+    "summary": "Connapse 是一款開源知識庫後端，專為 AI Agent 設計，支援混合搜尋（向量+關鍵詞），內建 MCP 伺服器，提供 5 種資料連接器，可透過 Docker 快速部署。採用 C# 開發，適合需要私有化知識增強的技術團隊。",
+    "highlights": [
+      "混合搜尋引擎結合向量相似度與關鍵詞精確匹配",
+      "支援 MCP 協議，可無縫接入主流 Agent 框架",
+      "提供 5 種資料Connector：支援常見知識庫格式",
+      "Docker 一鍵部署，降低維運門檻",
+      "開源 MIT 授權，11 顆星，仍在早期階段"
+    ],
+    "why_it_matters": "自托管知識後端可讓企業在保障資料隱私的前提下為 AI  Agent 提供精準的上下文，混合搜尋能同時平衡速度與準確性，是當前 RAG 架構的有力替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術者可將 Connapse 部署為公司內部文件的智慧搜尋層，讓 AI Agent 在處理客服、文件檢索等工作時直接查詢私有知識庫，提升自動化流程的準確度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/39275283?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-palvia-ios-ai-app",
+    "title": "Palvia：iOS 原生多 AI 助理 App",
+    "title_original": "samhjn/Palvia",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/samhjn/Palvia",
+    "published_at": "2026-05-24T16:41:39Z",
+    "category": "agent-skills",
+    "summary": "原生 iOS AI Agent 應用，可在手機上運行多個可自訂的 AI 助理。Swift 實作，66 stars，適合想要隨身攜帶自訂 Agent 的技術用戶。",
+    "highlights": [
+      "Swift 原生 iOS 應用，效能表現佳",
+      "支援多個可自訂 AI 助理",
+      "在手機端運行，離線可用",
+      "Star 66，早期專案",
+      "適合移動場景的個人 Agent 需求"
+    ],
+    "why_it_matters": "移動端 Agent 是新興需求，Palvia 提供原生 iOS 體驗，讓自訂助理可以隨身攜帶，不依賴雲端。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝 Palvia，配置適合自己工作流程程的助理，在通勤或外出時用語音或文字處理快速任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Swift"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/4426124?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-gitagent-agent",
+    "title": "GitAgent：將 Agent 配置全部版本控制",
+    "title_original": "open-gitagent/gitagent",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/open-gitagent/gitagent",
+    "published_at": "2026-05-24T16:36:51Z",
+    "category": "agent-skills",
+    "summary": "通用 git 原生 AI Agent 框架：Agent 的身份、規則、記憶、工具全部變成 repo 裡的版本控制檔案。TypeScript 實作，團隊協作和部署都更直觀，告別分散的 config 管理。",
+    "highlights": [
+      "身份、規則、記憶全都變成 git 檔案",
+      "TypeScript 實作，節點生態友好",
+      "團隊成員可分支、review、回滾 Agent 配置",
+      "告別散落各地的 env 和 YAML",
+      "適用於需要協作的 Agent 專案"
+    ],
+    "why_it_matters": "將 Agent 配置纳入 Git 管理，讓多人協作、版本回滾、部署重現都變成標準流程，降低維護心智負擔。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立專門的 agent-config repo，用分支管理不同場景的 Agent 配置，CI/CD 自動測試部署。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/263700766?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-xai-grok-home-assistant",
+    "title": "xAI Grok 整合 Home Assistant：開源智慧家居對話代理",
+    "title_original": "pajeronda/xai_conversation",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/pajeronda/xai_conversation",
+    "published_at": "2026-05-24T16:36:04Z",
+    "category": "agent-skills",
+    "summary": "pajeronda/xai_conversation 將 xAI Grok 模型接入 Home Assistant 智慧家居平台，讓用戶透過自然對話控制家中設備。Python 開發，25 顆星，展示了將前沿 LLM 能力落地到 IoT 場景的可行路徑。",
+    "highlights": [
+      "Grokk 為 Home Assistant 提供自然語言控制介面",
+      "支援語義理解，可解析模糊的家庭自動化指令",
+      "Python 生態，易於客製化與擴展",
+      "開源專案，社群驅動持續迭代",
+      "可用於建立家庭語音助理原型"
+    ],
+    "why_it_matters": "智慧家居長期受制於命令式控制的僵化體驗，Grok 的強大推論能力可實現更自然的對話式控制，降低智慧家庭的使用門檻，開源整合也為開發者提供實驗平台。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術者可安裝此專案，將 Grok 作為 Home Assistant 的語義理解層，實現「把客廳燈光調暗到看電影的模式」這類自然語言自動化指令，減少規則設定的繁瑣工作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/17280033?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-bitcpm-cann-ascend-npu-1-58-llm",
+    "title": "BitCPM-CANN：在華為 Ascend NPU 上實現原生 1.58 位元 LLM 訓練",
+    "title_original": "BitCPM-CANN: Native 1.58-Bit Large Language Model Training on Ascend NPU",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tmf63y/bitcpmcann_native_158bit_large_language_model/",
+    "published_at": "2026-05-24T15:24:26+00:00",
+    "category": "new-models",
+    "summary": "BitCPM-CANN 是一個研究項目，嘗試在華為 Ascend NPU 硬體上進行 1.58 位元的極致量化 LLM 訓練。消息來源為 Reddit r/LocalLLaMA 討論區，屬於技術實驗性項目，具體訓練效果與穩定性尚需驗證。",
+    "highlights": [
+      "1.58 位元極致量化，理論上可大幅降低記憶體需求",
+      "瞄準華為 Ascend NPU 硬體生態",
+      "研究性質項目，未進入生產可用階段",
+      "Reddit 社群討論，可信度資訊有限",
+      "對國產 AI 硬體生态有意義的探索方向"
+    ],
+    "why_it_matters": "1.58 位元量化若成功，可將大模型記憶體需求壓縮至極致，對在受限硬體上的 AI 部署具有重要意義；同時也反映了中國 AI 算力自主化的技術路徑。",
+    "automation_angle": null,
+    "automation_angle_zh": "對硬體成本敏感的團隊可關注此方向，若量化方法成熟，配合國產 NPU 可能實現低成本的本地化模型微調與部署，降低 AI 工具依賴雲端 API 的成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-llama-cpp-gpu-vram",
+    "title": "llama.cpp 僅使用 GPU VRAM 的可行性討論",
+    "title_original": "GPU VRAM only for small models with llama.cpp: is it possible?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tmeknt/gpu_vram_only_for_small_models_with_llamacpp_is/",
+    "published_at": "2026-05-24T15:02:03+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社區討論 llama.cpp 在僅使用 GPU VRAM、不佔用系統記憶體的情況下運行小模型的可行性。屬於技術問答討論，聚焦 llama.cpp 記憶體管理與硬體配置的最佳實踐。",
+    "highlights": [
+      "討論 llama.cpp 的 GPU 加速與記憶體配置",
+      "聚焦小模型在離散 GPU 上的最佳化運行",
+      "社區驅動的技術問答，非正式文檔",
+      "對本地部署 LLM 有實際參考價值",
+      "具體答案需閱讀 Reddit 原文獲取"
+    ],
+    "why_it_matters": " llama.cpp 是本地運行 LLM 的核心工具，硬體配置優化直接影響推論速度與資源利用率，對追求高效本地 AI 部署的技術者有實際幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術者可參考社區討論結果，針對自己的 GPU 配置優化 llama.cpp 啟動參數，在有限 VRAM 下最大化模型吞吐，實現離線環境的 AI 自動化腳本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-ai-novel-writing-assistant-ai",
+    "title": "AI-Novel-Writing-Assistant：端到端長篇小說創作 AI 原生系統",
+    "title_original": "ExplosiveCoderflome/AI-Novel-Writing-Assistant",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant",
+    "published_at": "2026-05-24T14:56:11Z",
+    "category": "agent-skills",
+    "summary": "AI-Novel-Writing-Assistant 是一個面向長篇小說創作的 AI Native 開源系統，整合 Agent、世界觀構建引擎、寫法引擎、RAG 與整本生產工作流程。從一句靈感出發，透過結構化規劃、人物設定與 Agent 驅動流程，產出完整章節。GitHub 1,372 星，TypeScript 技術棧。",
+    "highlights": [
+      "從靈感到大綱到完整小說的端到端流程支援",
+      "整合世界觀構建、寫法引擎、RAG 豐富背景知識",
+      "Agent 驅動的章節生成，支援多輪編輯與回溯",
+      "TypeScript 實現，適合前端或全端開發者切入",
+      "開源可自部署，無需依賴商業寫作工具"
+    ],
+    "why_it_matters": "長篇創作是 AI 生成的難點，系統化的工作流程設計（如世界觀、RAG、章節 Agent）比單純 prompt 工程更能產出結構一致的作品。",
+    "automation_angle": null,
+    "automation_angle_zh": "有長篇內容需求的技術用戶可直接部署此系統，自動化生成章節大綱、人物設定卡、世界觀設定，再以人工審查與微調，降低創作前期投入。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/191454658?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-antigravity-workspace-template-ai",
+    "title": "antigravity-workspace-template：將程式碼庫轉為可查詢 AI 助理的知識引擎",
+    "title_original": "study8677/antigravity-workspace-template",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/study8677/antigravity-workspace-template",
+    "published_at": "2026-05-24T14:08:38Z",
+    "category": "agent-skills",
+    "summary": "antigravity-workspace-template 是一個多 Agent 知識引擎（ag-refresh / ag-ask），可將任意程式碼庫轉化為可查詢的 AI 助理。提供 Workspace 模板與 MCP Server，支援 Claude Code、Codex CLI、Cursor、Windsurf 等主流開發工具。GitHub 1,239 星。",
+    "highlights": [
+      "支援 Claude Code、Codex CLI、Cursor、Windsurf 等熱門 AI 程式碼助理",
+      "ag-refresh 更新知識庫、ag-ask 查詢程式碼庫內容",
+      "基於 MCP Server 整合，工作流程整合成本低",
+      "可將大型程式碼庫轉為可對話式查詢，提升 Code Review 效率",
+      "Python 技術棧，部署相對簡單"
+    ],
+    "why_it_matters": "將程式碼庫轉為可對話式知識庫，可加速新人 onboarding、Code Review 與技術債排查。結合 MCP 生态，與現有 IDE 無縫整合。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 ag-refresh 建立團隊程式碼庫索引，再以 ag-ask 自動化回答「這個模組誰負責」「某功能實作在哪」等常見問題，減少開發者碎片化時間消耗。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/106414602?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-agentic-ai",
+    "title": "開發者以遊戲化互動簡報教授 Agentic AI 實戰概念",
+    "title_original": "I built 10 gamified, interactive presentation decks to teach Agentic AI (Stop falling asleep reading whitepapers).",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tmc50k/i_built_10_gamified_interactive_presentation/",
+    "published_at": "2026-05-24T13:24:46+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶分享了一套包含 10 個遊戲化互動簡報的開源教材，專為學習 Agentic AI 設計，透過互動式內容降低白皮書閱讀門檻，避免技術人員在學習過程中感到枯燥乏味。",
+    "highlights": [
+      "共有 10 套遊戲化互動簡報",
+      "專注於 Agentic AI 核心概念教學",
+      "以 Reddit 社群形式分享交流",
+      "可作為團隊內部教育訓練素材"
+    ],
+    "why_it_matters": "Agentic AI 為當前熱門發展方向，此類系統化教材可幫助開發團隊快速建立基礎認知，加速內部技術轉型。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載簡報用於團隊教育或個人快速入門，評估其內容覆蓋度是否足以輔助當前專案開發。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-matryca-plumber-logseq-ai",
     "title": "Matryca Plumber：Logseq 本地優先 AI 精靈，將筆記轉為代理工作空間",
     "title_original": "MarcoPorcellato/matryca-plumber",
@@ -588,6 +1047,33 @@
       "Swift"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/52664524?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-openai-codex-mac",
+    "title": "OpenAI Codex 升級可於鎖定狀態控制 Mac 電腦",
+    "title_original": "OpenAI's Codex is now smart enough to control your Mac even when it's locked",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tlv9xp/openais_codex_is_now_smart_enough_to_control_your/",
+    "published_at": "2026-05-23T23:17:23+00:00",
+    "category": "agent-skills",
+    "summary": "OpenAI 的 Codex 助理迎來重大能力升級，現在能夠在 Mac 電腦鎖定狀態下進行系統控制操作，代表 AI Agent 與底層作業系統的整合深度已大幅提升。",
+    "highlights": [
+      "Codex 支援鎖定狀態下的系統操作",
+      "涉及系統層級 API 整合",
+      "AI Agent 操作範圍顯著擴大",
+      "引發安全與隱私相關討論"
+    ],
+    "why_it_matters": "此功能顯示 AI Agent 正逐步掌握底層系統操控能力，為未來自動化辦公場景奠定基礎，但也需關注安全風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "可申請加入 Codex 搶先體驗計畫，設計自動化腳本實現如自動排程、資料備份等場景，評估其實用性與安全邊界。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -4122,6 +4608,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-24-langchain-agent",
+    "title": "LangChain 發布 Agent 開發生命週期完整指南",
+    "title_original": "LangChain 發布 Agent 開發生命週期完整指南",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/the-agent-development-lifecycle",
+    "published_at": "2026-05-21T02:29:19+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格發布 Agent 開發生命週期指南，涵蓋從設計、實作、部署到監控的全流程最佳實踐，為開發團隊提供系統性的 Agent 開發框架參考。",
+    "highlights": [
+      "涵蓋 Agent 開發完整生命週期",
+      "提供設計到監控各階段建議",
+      "基於 LangChain 官方最佳實踐",
+      "適合開發團隊建立標準流程"
+    ],
+    "why_it_matters": "對於正在建構 Agent 系統的開發團隊，此類系統化指南可加速開發流程、減少常見錯誤，提升整體工程品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "可立即閱讀此指南，評估其建議流程能否整合至現有專案，改進團隊的 Agent 開發標準與監控機制。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-21-mcp-agent-mail-rust-rust-agent",
     "title": "mcp_agent_mail_rust：Rust 多 Agent 協調工具",
     "title_original": "Dicklesworthstone/mcp_agent_mail_rust",
@@ -5903,6 +6416,33 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-05-24-langchain-langsmith-agent-agent",
+    "title": "LangChain 公開 LangSmith 引擎技術：如何用 Agent 改善 Agent",
+    "title_original": "LangChain 公開 LangSmith 引擎技術：如何用 Agent 改善 Agent",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-we-built-langsmith-engine-our-agent-for-improving-agents",
+    "published_at": "2026-05-19T20:27:47+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方披露 LangSmith 的核心架構，說明其如何運用代理式設計自動優化 AI 代理的執行流程、錯誤恢復與追踪機制。開發者可以從中借鑒構建更穩定的生產級代理系統。",
+    "highlights": [
+      "LangSmith 使用代理架構監控並干預代理行為",
+      "提供端到端的追蹤與錯誤回溯能力",
+      "包含自動化的測試與評估工作流程",
+      "支援自定義干預策略與回調機制"
+    ],
+    "why_it_matters": "對於在生產环境部署 AI 代理的開發者，LangSmith 的開源设计提供了可靠参考，可避免自行摸索代理稳定性與监控的陷阱。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考其設計模式實現自訂代理監控系統，或直接集成 LangSmith SDK 強化現有代理的可观测性與故障恢复能力。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-22-anthropic-mcp-tunnels-ai-agent",
     "title": "Anthropic 推 MCP Tunnels：安全地讓 AI Agent 持有長期憑證",
     "title_original": "Securing AI agent credentials with MCP tunnels - VentureBeat",
@@ -6346,6 +6886,33 @@
     "why_it_matters": "Google 明確建立三層 AI 訂閱制，$100 Ultra 方案代表消費級 AI 走向企業級定價的策略轉變，技術用戶需評估是否值得從 Pro 升級至 Ultra。",
     "automation_angle": null,
     "automation_angle_zh": "技術用戶可比較 Pro 與 Ultra 的 API 配額差異，計算每百萬 tokens 成本，評估是否有性價比更高的自動化工作流程程替代方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-24-google-ai-mode",
+    "title": "Google AI Mode 一年數據：美國用戶正從關鍵字搜尋轉向自然語言對話",
+    "title_original": "How AI Mode is changing the way people search in the U.S.",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/",
+    "published_at": "2026-05-19T17:45:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google 發布 AI Mode 推出一年後的使用洞察，顯示用戶搜尋行為顯著轉向自然語言問答模式，而非傳統關鍵字查詢。這代表 AI 搜尋引擎已開始改變用戶習慣與流量分佈。",
+    "highlights": [
+      "自然語言查詢量持續攀升",
+      "用戶開始用完整句子提問而非關鍵字堆砌",
+      "AI Mode 提供多輪對話式的搜尋體驗",
+      "對 SEO 與內容策略有深遠影響"
+    ],
+    "why_it_matters": "搜尋行為的結構性轉變將重塑網站流量與營收模式，技術人員需關注 AI 搜尋如何影響內容分發與 API 整合策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "可利用 Google AI Mode API 測試建立以自然語言驅動的內容檢索流程，或評估現有搜尋架構如何應對此轉變。",
     "tags": [
       "hot-topics",
       "rss",
@@ -9542,6 +10109,34 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-05-24-anthropic-claude-opus-4-7",
+    "title": "Anthropic 發布 Claude Opus 4.7 模型更新",
+    "title_original": "Introducing Claude Opus 4.7 - Anthropic",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rS2xYRnJxOV9fQjgxWkl0OHlJRFhxMktsVmtTdGV6dnhPTXQzSXcwRE5hQXhOUGdVMXNwVVBZb01wYTVlY0tCT3VKZTBVQzZtVXRGY25XME5rUQ?oc=5",
+    "published_at": "2026-04-16T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 發布 Claude Opus 4.7 版本更新，具體變更內容尚未完全揭露。從標題推測為 Claude Opus 4 系列的增量改進版本，可能涉及上下文窗口、推論速度或多模態能力的優化。",
+    "highlights": [
+      "Claude Opus 4.7 為 Anthropic 官方產品更新",
+      "具體改進項目需進一步查閱官方更新日誌確認",
+      "版本號跳至 4.7 的更新節奏較快，需留意穩定性",
+      "可能為 API 用戶帶來更強的長文本處理能力",
+      "建議關注官方定價是否同步調整"
+    ],
+    "why_it_matters": "Anthropic 的 Claude Opus 系列為頂級 LLM 選項之一，即使是小幅更新也可能影響長文本任務的處理效率與開發成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "用戶可透過 API 调用測試新版本與舊版本的輸出差異，評估是否值得切換或繼續使用現有版本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-22-hugging-face-embedding-reranker",
     "title": "Hugging Face 教學：訓練多模態 Embedding 與 Reranker 模型",
     "title_original": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
@@ -9756,6 +10351,33 @@
     "automation_angle_zh": "持續追蹤 Meta 官方公告，待正式發布後評估與現有 Llama 3 的能力差異與適合的應用場景。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-meta-ai",
+    "title": "Meta 正在開源下一代前沿 AI 模型",
+    "title_original": "Meta is developing open-source versions of its next frontier AI models - Techzine Global",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNlFBVHFBTExWTjFWQ1ZOVG45T3ZLcGgxcEJfam1Gb09NNHE4bUlvclk2Qkd1TjdEeFFQMkZqYU9uNnAwak00Y0JtbXk5TEVFS1N3Ny1Hd1I1emh2eVJHMjAtRDRjUml1Y1lLd3hva2JpVTgzcE9UZDkzMDFOLW5vQy1nSEtIaFB6SjNDZmFTOWF2RFRaLWFwZk14a0RPMDVxVDM3U2xNSzgwWWIwXzJqZDVheDJyTXJx?oc=5",
+    "published_at": "2026-04-07T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "根據 Techzine Global 報導，Meta 正積極開源其下一代前沿 AI 模型，採用類似先前 Llama 系列的開放策略。此舉可望為開源生態系帶來更強大的基礎模型選擇。",
+    "highlights": [
+      "Meta 規劃開源下一代前緣模型",
+      "可能採用類 Llama 開放授權模式",
+      "對開源社群與商業模型形成競爭",
+      "具體時間表與規格尚未揭露"
+    ],
+    "why_it_matters": "若 Meta 成功開源前緣模型，將大幅降低企業自架大模型的門檻，同時為開源生態系帶來更多元的選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "可追蹤 Meta AI 官方公告，在開源版本發布後立即部署測試，評估其效能與 Llama 3 的差異，選擇最適合自架需求的模型。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
@@ -10227,6 +10849,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-24-anthropic-ai-agent",
+    "title": "Anthropic 發布研究：如何實際測量 AI Agent 自主性",
+    "title_original": "Measuring AI agent autonomy in practice - Anthropic",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5VT282SnZsT21IUWZ2VU0teEVwNk96YUFqWHJpcGl0VlIyVU5keVhyWE5fSW1RNGpCTXZWOUVlZ3JVMEFnR3dtSk43ODZOeHJDSGpOVWh0eUdSM2VWaUFRLTJNMkV1dw?oc=5",
+    "published_at": "2026-02-18T08:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic 發布研究文章，深入探討如何衡量 AI Agent 在實際任務中的自主程度。內容涵蓋定義自主性邊界、多步推論可靠性、任務完成率的量化指標，以及如何在安全與效能間取得平衡。",
+    "highlights": [
+      "提出以「人類干預頻率」作為自主性核心指標",
+      "強調多步任務中的錯誤傳播問題及緩解策略",
+      "分享 Anthropic 內部對 Claude 操作邊界的安全性測試方法",
+      "對比「工具使用能力」與「任務規劃能力」的差異",
+      "可能影響 Claude AI API 與 Claude Code 的產品定位"
+    ],
+    "why_it_matters": "Agent 自主性衡量標準尚未業界統一，Anthropic 作為主要模型提供商提出具體指標，可作為技術用戶評估與選擇 Agent 框架的參考框架。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可參考 Anthropic 的衡量方法，為自己的 Agent 工作流程設計類似的干預率追蹤儀表板，量化自動化的實際效益。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-23-wolters-kluwer-health-agentic-ai",
     "title": "Wolters Kluwer Health 深化 Agentic AI 至藥物流工作流程程",
     "title_original": "Wolters Kluwer Health pushes deeper into agentic AI to tackle medication workflows - Fierce Healthcare",
@@ -10248,6 +10898,34 @@
     "automation_angle_zh": "評估其架構文件以借鑒多 Agent 協作與稽核軌跡設計，應用於其他需要合規監控的自動化工作流程程。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-anthropic-claude-opus-4-6",
+    "title": "Anthropic 發布 Claude Opus 4.6 模型更新",
+    "title_original": "Introducing Claude Opus 4.6 - Anthropic",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90b09UTmFMU3laaUE4WGQ0ejltUDEtZHdHMjlSY1pDTUhjX1A3VF9qRU56ejhuRkR3eFFvUFB4UV9ZTjMzaklkTkczSEJZWXRNOE1UX3hDd3dHdw?oc=5",
+    "published_at": "2026-02-05T08:00:00+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 發布 Claude Opus 4.6 版本更新，距離前一個版本不久。具體更新內容從標題資訊有限，需查閱官方文檔確認功能變更或效能優化細節。",
+    "highlights": [
+      "Claude Opus 4.6 為 4.x 系列的穩定迭代版本",
+      "建議查閱 Anthropic 官方更新日誌確認具體變更",
+      "版本更新節奏加快，需追蹤 breaking changes 風險",
+      "可能包含 prompt engineering 或 tool use 能力的優化",
+      "API 用戶應留意版本相容性文件更新"
+    ],
+    "why_it_matters": "Anthropic 高頻率發布 Claude 版本更新，反映激烈市場競爭。技術用戶需持續追蹤以確保使用最新最佳化版本，同時評估更新帶來的工作流程影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議建立版本追蹤腳本或使用 Anthropic 的版本公告 RSS，自動比對新舊版本在特定任務上的輸出品質差異。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -10558,6 +11236,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-24-google-gemini-3-agent",
+    "title": "Google 發布 Gemini 3 實際 Agent 應用案例博客",
+    "title_original": "Real-World Agent Examples with Gemini 3 - blog.google",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfQzRPaFlhcGtvOFozMmxBbUFubFdXeUlqM3lJRTZwcWhtalV4TFN5LVRpMU5yaWM5VnFlQWlJVDJ3cVZ2YjNGMmlBRWo5ODJRYnNyYW5qSE1MMjYwZEFtbkJtTnNpUkdaQkczM0NzU2d4UUF2VEhDbDF0c0N4eFU?oc=5",
+    "published_at": "2025-12-19T08:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google 官方博客介紹 Gemini 3 在真實場景中的 Agent 應用示例，展示其在多步推論、工具調用、程式碼生成等方面的能力。屬於官方內容而非傳言，可信度較高，但具體技術細節需閱讀原文獲取。",
+    "highlights": [
+      "Google 官方發布，具有較高可信度",
+      "聚焦實際應用而非理論效能",
+      "涵蓋多步推論與工具調用場景",
+      "Gemini 3 能力變化的官方佐證",
+      "可能包含新 API 或 SDK 的具體使用方法"
+    ],
+    "why_it_matters": "官方案例能真實反映 Gemini 3 的能力邊界與實際可用性，技術選型時應以實際應用效果為準，而非僅看 benchmark 數據，有助於評估是否將 Gemini 整合進工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術者應閱讀原文確認 Gemini 3 的工具調用能力，若支援穩定的 function calling，可評估將其作為自動化工作流程的核心調度引擎，替代部分 LangChain 複雜度。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-23-gemini-deep-research-gpt-5-2-agent",
@@ -10916,6 +11622,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-24-google-ai-plus-gemini-gmail-docs-200gb-rm23-99",
+    "title": "Google AI Plus 訂閱方案擴展至馬來西亞：Gemini 整合 Gmail 與 Docs、200GB 儲存空間，月費 RM23.99",
+    "title_original": "Google AI Plus訂閱配套擴展到大马了！圖像生成額度更多、Gmail+Google Docs支援调用Gemini、有200GB储存空间等！每月RM23.99 - Zing Gadget",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPT24yaUs0ZFU2YjZOR3lBeHJNUlkzSHUyYV9SbXdYT2NvODNfUUV2Z25ndmNtbTliT1RXVFdwNXl0aFZuam5TcG1oY3FnTnFHUVRrX0ZzYXZVRHVIZ2RXeWtpdk41Q2M1cXNyaS1UOWZNUG51cm90ZFZCS1dCMkdKQ1NTMEhjU25jemxaR2Q4bUVMRWZ4TG1KODNQd3lqLW9qZnBfdU1FYnBQUzZPTjFqTWtGeklsSTZZZ3FyWEpYdkhZeU40YWhDWDM1am1mQW5PV2FRMWpSUUhsSE45?oc=5",
+    "published_at": "2025-10-09T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Google 宣布 AI Plus 訂閱配套正式登陸馬來西亞，月費 RM23.99（約台幣 160 元）。方案包含 Gemini 在 Gmail、Google Docs 的整合呼叫、每月更多圖像生成額度、200GB 雲端儲存空間，定位為 Microsoft Copilot Plus 的直接競爭對手。",
+    "highlights": [
+      "馬來西亞為東南亞首發市場之一，台灣尚未公告",
+      "Gemini 整合 Gmail（智慧回覆/摘要）與 Docs（寫作輔助）為核心賣點",
+      "圖像生成額度較基本版顯著提升，支援 Imagen 3",
+      "200GB 儲存空間為 Google One 標準配備",
+      "與 Microsoft Copilot Plus（月費 NT$440）相比有價格優勢"
+    ],
+    "why_it_matters": "若台灣或香港技術用戶有跨境需求，可評估馬來西亞方案的實用性。Gemini 深度整合 Google 生態系是生產力工具的直接升級。",
+    "automation_angle": null,
+    "automation_angle_zh": "可嘗試以馬來西亞 Google 帳號訂閱測試，評估 Gemini API 整合的工作流程效益；或在台灣方案上線前觀望比較。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-20-replicate-models-list-api-creation-date",
     "title": "Replicate models.list API 支援creation date排序",
     "title_original": "Sort models by creation date via API",
@@ -11048,6 +11782,32 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-24-google-ai-pro",
+    "title": "Google 嚴打 AI Pro 學生優惠漏洞：已兌換用戶須補充驗證",
+    "title_original": "严打羊毛党：谷歌收紧 AI Pro 学生優惠申请条件，已兑换使用者需补充验证 - Sina finance",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ENjNYZ2QySnFnWXVJMTI3MDFwNXhjT3VmUEppT2x4dUcza2V2Rk5EQjZlUU14cUlCMlJtVmpvQjh3Yk5UdmpDS1N2Rm5ydU81bHpUbWdody1DTEk0WG50Nk1yaG00VUt4bTBOV2NEdTVDcEplRVFoTEZXMFVhZUE?oc=5",
+    "published_at": "2025-08-13T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Google 收緊 Gemini AI Pro 學生優惠的審核機制，已兌換用戶需補繳驗證資料。此舉顯示 Google 開始嚴控羊毛黨亂象，未來優惠申請門檻將提高。",
+    "highlights": [
+      "學生優惠審核從寬轉嚴",
+      "已兌換用戶需補充驗證文件",
+      "Google 收緊優惠發放資格"
+    ],
+    "why_it_matters": "依賴廉價或免費 AI 服務額度的技術從業者需注意合規風險，未來學生優惠可能更难取得。",
+    "automation_angle": null,
+    "automation_angle_zh": "若已使用學生優惠，應儘早準備驗證資料；若從未申請，可評估其他企業級方案或 API 方案的成本差異。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-05-23-replicate-api",
