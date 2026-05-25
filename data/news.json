@@ -1,5 +1,231 @@
 [
   {
+    "id": "2026-05-25-mcpland-webpage-mcp-mcp-server",
+    "title": "mcpland/webpage-mcp：將任意网頁轉換為 MCP server 的工具",
+    "title_original": "mcpland/webpage-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mcpland/webpage-mcp",
+    "published_at": "2026-05-25T18:16:11Z",
+    "category": "agent-skills",
+    "summary": "一款新的 TypeScript MCP 專案，可將现有 webpage 快速轉換為 MCP server，讓 AI agent 能直接控制、操作該网頁內容，適用於自動化測試與網頁操控場景。",
+    "highlights": [
+      "• 支援將任意 webpage exposes 為 MCP server",
+      "• Agent 能直接控制网頁元素與交互",
+      "• 使用 TypeScript 開發，11 stars",
+      "• 可用於自動化 UI 測試或資料抓取",
+      "• 適合 RPA 與 browser agent 場景"
+    ],
+    "why_it_matters": "网頁自動化一直是 agent 落地难点，此工具降低了讓 AI 控制网頁的门槛，開發者今天就能集成到工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Browser Agent pipeline 中，用此工具將目標网頁注册為 MCP server，即可讓 agent 通過标准化接口操控网頁，实现自動化資料采集或 UI 測試。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/202432877?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-c-safetensor-llm",
+    "title": "C# 存取 SafeTensor 格式 LLM 模型技術討論",
+    "title_original": "Chatgpt vs catch agent",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tnh8fd/chatgpt_vs_catch_agent/",
+    "published_at": "2026-05-25T18:15:53+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論如何在 C# 環境中正確載入與儲存 SafeTensor 格式的 LLM 模型，包含記憶體管理與型別安全等實作細節。技術層面涉及 HuggingFace safetensors 格式的 C# bindings 或替代方案。",
+    "highlights": [
+      "SafeTensor 格式比 pickle 更安全，無反序列化風險",
+      "討論 llama.cpp 或本地推論框架的 C# 整合可能性",
+      "涉及記憶體映射檔案處理以節省資源",
+      "可能需要橋接 Rust/Python 底層實作",
+      "對遊戲引擎或 Unity 整合 LLM 有參考價值"
+    ],
+    "why_it_matters": "對想在 C# 專案中整合本地 LLM 的開發者是實用技術參考，可評估在遊戲、桌面應用或伺服器端使用 safetensor 格式的可行性與限制。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估使用 LLamaSharp、ML.NET 或自建 bindings 從 C# 載入 safetensor 模型，建立本地 AI 客服或遊戲 NPC 對話系統的技術可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-arcadeai-agent-library-mcp-agent",
+    "title": "ArcadeAI/agent-library：支援 MCP 協定的個人知識庫 Agent 工具",
+    "title_original": "ArcadeAI/agent-library",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ArcadeAI/agent-library",
+    "published_at": "2026-05-25T17:35:49Z",
+    "category": "agent-skills",
+    "summary": "ArcadeAI 的 agent-library 是一個個人知識庫搜檢系統，提供 MCP Server 與 CLI 介面，支援本地模型預配置，可處理文字、圖像、OCR 視覺與程式碼嵌入，聲稱可與 Claude、Cursor、Codex、ChatGPT 等主流工具透過 MCP 協定整合。",
+    "highlights": [
+      "提供 MCP Server 與 CLI 雙介面",
+      "支援文字、圖像、OCR 與程式碼嵌入向量檢索",
+      "可對接 Claude、Cursor、Codex、ChatGPT 等主流工具",
+      "星數 26，包含 Python 實作",
+      "可用於建立個人文件或程式碼庫的本地檢索系統"
+    ],
+    "why_it_matters": "對於希望將文件或程式碼庫無痛整合進 AI 編碼輔助工具的開發者，agent-library 提供了一個 MCP 標準化的起點，今日即可安裝測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝後自行架設本地知識庫，並透過 MCP 協定與 Cursor 或 Claude Desktop 對接，實現私人文件檢索與程式碼庫問答自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/153409375?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-oasis-enterprise-mylo-home-assistant-ai-agent",
+    "title": "Oasis-Enterprise/mylo：Home Assistant 專用 AI Agent 框架",
+    "title_original": "Oasis-Enterprise/mylo",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Oasis-Enterprise/mylo",
+    "published_at": "2026-05-25T17:18:55Z",
+    "category": "agent-skills",
+    "summary": "mylo 是一個針對 Home Assistant 智慧家庭平台設計的 AI Agent 專案，允許用自然語言操控家庭自動化裝置。專案目前星數 21，使用 Python 實作，屬於早期實驗階段。",
+    "highlights": [
+      "專為 Home Assistant 智慧家庭生態設計",
+      "以自然語言指令控制家庭自動化裝置",
+      "使用 Python 實作，星數 21",
+      "屬早期專案，功能穩定性待驗證",
+      "可與現有 Home Assistant 自動化規則整合"
+    ],
+    "why_it_matters": "對智慧家庭玩家而言，mylo 提供了一個將 AI 對話能力帶入 Home Assistant 的技術骨架，可減少手動編寫自動化腳本的負擔，但目前成熟度有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在 Home Assistant 測試環境中部署 mylo，實驗用自然語音或文字指令自動控制燈光、溫控等 IoT 裝置的捷徑。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/207930001?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-reddit",
+    "title": "Reddit 討論：低量化的較小模型能否打敗高量化的較大模型？",
+    "title_original": "Is there any case of a less quantised smaller model outperforming a more quantised larger model?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tnff26/is_there_any_case_of_a_less_quantised_smaller/",
+    "published_at": "2026-05-25T17:11:42+00:00",
+    "category": "new-models",
+    "summary": "LocalLLaMA 使用者探讨模型量化對性能的影響：同等量化精度下，较小的模型能否在某些 benchmark 超越较大模型的表现。",
+    "highlights": [
+      "• 讨论 4-bit 量化 Qwen2.5-3B vs 8-bit Qwen2.5-7B 效果",
+      "• 關注 perplexity 與 downstream task 差异",
+      "• 量化方法（GPTQ vs AWQ vs GGUF）影響結果",
+      "• 通常较小模型在 quantized 後仍有優势",
+      "• 場景决定选择：延迟優先還是精度優先"
+    ],
+    "why_it_matters": "量化策略直接影响本地部署的成本效益比，理解何時选小模型可以节省 GPU 资源與 API 费用。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地部署决策時，用 LM Studio 或 llama.cpp 對相同任务跑小模型（4-bit）vs 大模型（8-bit）的 perplexity 與 task accuracy 對比，建立自己的量化性能曲線。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-reddit-qwen3-6-agentic-use",
+    "title": "Reddit 熱議：Qwen3.6 是否為本地 agentic use 現任王者？",
+    "title_original": "Is Qwen3.6 current king for local agentic use?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tnbz23/is_qwen36_current_king_for_local_agentic_use/",
+    "published_at": "2026-05-25T15:09:33+00:00",
+    "category": "new-models",
+    "summary": "LocalLLaMA 社区热议 Qwen3.6 在本地 agentic 任务的表現，網友讨论其 multi-step reasoning、tool calling 能力是否超越同规模竞品。",
+    "highlights": [
+      "• Qwen3.6 被拿來與 Llama、Gemma 等開源模型對比",
+      "• 社区關注 tool calling 與 coding 任务性能",
+      "• 部分用戶反映量化後仍是本地 agent 首选",
+      "• 讨论 4-bit/8-bit 量化效果差异"
+    ],
+    "why_it_matters": "本地 agent 性能直接决定開發者能否在隐私环境下构建自動化 workflow，此讨论提供实战經验参考。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地部署 Qwen3.6，跑 OpenHands 或類似 Agent framework，對比其在 code generation、task decomposition 的表现，判断是否适合你的自動化場景。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-google-i-o-2026",
+    "title": "Google I/O 2026 開發者大會前瞻預覽頁面上線",
+    "title_original": "Save Safetensor LLM from C#",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tnbl9p/save_safetensor_llm_from_c/",
+    "published_at": "2026-05-25T14:55:57+00:00",
+    "category": "hot-topics",
+    "summary": "Google AI Blog 發布 I/O 2026 內容集合頁面，預告將分享 AI 如何讓每個人都能更高效地使用 AI 的相關公告。此頁面為大會預熱，收錄所有 I/O 2026 公布的技術與產品更新。",
+    "highlights": [
+      "頁面為 I/O 2026 公告的彙整入口",
+      "主要聚焦 AI 實用性與 accessibility 提升",
+      "具體功能細節待大會正式揭曉",
+      "可追蹤以取得第一手官方資訊",
+      "非即時性內容，屬於公關預熱素材"
+    ],
+    "why_it_matters": "Google I/O 通常發布重要 AI 產品與 API 更新，值得技術人員追蹤以掌握 Gemini、Gemma 或開發者工具的最新走向。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此頁面加入書籤，大會期間監控有助第一時間發現可整合進工作流程程的新 API 或 AI 功能。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-nuextract3-4b-vlm-markdown-ocr",
+    "title": "NuExtract3 發布：可自托管的 4B 開源 VLM，專精 Markdown、OCR 與結構化提取",
+    "title_original": "NuExtract3 released: open-weight 4B VLM for Markdown, OCR and structured extraction (self-hostable)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tn8utn/nuextract3_released_openweight_4b_vlm_for/",
+    "published_at": "2026-05-25T13:14:58+00:00",
+    "category": "open-source-ai",
+    "summary": "NuExtract3 是一款 4B 参数的開源 Vision Language Model，专注结构化資料提取、OCR 與 Markdown 转换，可完全自托管，為本地文件处理提供輕量方案。",
+    "highlights": [
+      "• 4B 参数規模，適合單卡或 CPU 部署",
+      "• 支援 Markdown 生成、OCR 與表格提取",
+      "• 可完全自托管，資料不外傳",
+      "• 針對 RAG 文檔處理場景優化",
+      "• Open-weight，支援 fine-tuning"
+    ],
+    "why_it_matters": "4B VLM 在本地端提供了兼顾精度與资源消耗的文件处理能力，适合需要私密处理發票、合同等结构化資料的開發者。",
+    "automation_angle": null,
+    "automation_angle_zh": "在文件处理 pipeline 中，用 NuExtract3 替代雲端 OCR 服务，對比其在發票、合同结构化提取的准确率與延迟，评估成本节省與資料隐私收益。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-25-hello-halo-7-24-ai-ai",
     "title": "hello-halo：7×24全天候桌面AI助理，支援視覺AI與遠端存取",
     "title_original": "openkursar/hello-halo",
@@ -304,6 +530,56 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/135627235?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-hugging-face-agent-agent",
+    "title": "Hugging Face Agent 術語辭典：系統性理解 Agent 技術框架",
+    "title_original": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/agent-glossary",
+    "published_at": "2026-05-25T00:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格發布了一篇 Agent 術語清編文章，旨在正確定義 AI Agent 領域的核心名詞與技術邊界，包括 Harness、Scaffold 等術語的精確定義與使用語境。",
+    "highlights": [
+      "澄清 Agent 領域常見術語如 Harness、Scaffold 的意義",
+      "提供標準化的 Agent 技術詞彙參考",
+      "有助於技術團隊在溝通時避免歧義",
+      "為理解未來 Agent 相關論文與文件奠定基礎",
+      "屬教育性內容，非具體工具或產品發布"
+    ],
+    "why_it_matters": "随着 Agent 工具與框架數量增加，術語的統一定義有助於開發者在文件、論文與技術討論中建立共同語言，降低溝通成本與理解誤差。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此文作為團隊内部技術名詞統一的參考基準，在設計或審查 Agent 工作流程文件時使用一致的術語定義。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-openai-grupo-folha-grupo-uol",
+    "title": "OpenAI 與巴西兩大媒體 Grupo Folha、Grupo UOL 達成內容策略合作",
+    "title_original": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+    "published_at": "2026-05-25T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布與巴西兩大新聞集團合作，將trusted journalism引入ChatGPT，使用戶可直接在對話中 access 具備 attribution 的新聞內容。此舉為 AI 與傳統媒體的內容變現模式提供新範例。",
+    "highlights": [],
+    "why_it_matters": "此 partnership 可能影響 AI 如何整合付費 news 內容。對開發舆情分析的工程师而言，了解新闻 API 化趋势有参考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注此合作是否開放 news API，這可能成為舆情监控或 RAG pipeline 的 data source 替代方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-05-25-datasette-1-0a30-plugin-hook",
@@ -5422,6 +5698,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-25-spacex-s-1-anthropic-12-5",
+    "title": "SpaceX S-1 揭示：Anthropic 每月支付 12.5 億美元租用算力",
+    "title_original": "Quoting SpaceX S-1",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything",
+    "published_at": "2026-05-20T22:26:36+00:00",
+    "category": "ai-deals",
+    "summary": "SpaceX 公開 S-1 文件顯示，Anthropic 已簽署雲端服務協議，自 2026 年 5 月起至 2029 年 5 月，每月支付 12.5 億美元取得 COLOSSUS 超級運算叢集的使用權。這是迄今公開的最大規模 AI 算力交易之一。",
+    "highlights": [
+      "Anthropic 承諾未來三年支付總計超過 45 億美元",
+      "協議允許雙方在 90 天通知後終止",
+      "2026 年 5-6 月為容量逐步提升期，收費較低",
+      "Grok 5 目前正在 COLOSSUS II 訓練中"
+    ],
+    "why_it_matters": "此交易揭示了頂級 AI 推論與訓練的超高成本。12.5 億美元的月費證明算力已成為 AI 競賽的核心資源，也預示未來模型開發將更集中於少數具規模優勢的玩家。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可用此數據評估自建算力與雲端租用的成本邊界，並估算自家 AI 專案的基礎設施預算。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-05-21-halbench",
     "title": "開發者自建HalBench評測基准，測試主流模型阿諛奉承與幻覺問題",
     "title_original": "HalBench: I built a custom sycophancy and hallucination benchmark and tested 4 frontier models (Sonnet 4.6, Grok 4.3, GPT 5.4 and Gemini 3.1 Pro), looking for input on what OSS models to run next!",
@@ -7634,6 +7937,34 @@
     "why_it_matters": "Google 此舉代表搜尋體驗的根本性改變。開發者和內容創作者需要重新思考 SEO 策略，了解 AI 生成內容如何影響網站流量和曝光。",
     "automation_angle": null,
     "automation_angle_zh": "可測試 AI Search 的新功能，評估其對現有內容傳播和流量獲取的影響，並觀察是否需要調整自動化行銷或內容生成流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-google-ai-search",
+    "title": "Google AI Search 園藝種植技巧指南",
+    "title_original": "I/O 2026",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
+    "published_at": "2026-05-19T17:45:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google 整理利用 AI Mode、Search Live 與 Shopping 功能輔助植物種植的五大技巧，涵蓋植物病蟲害辨識、澆水建議與季節種植規劃等生活化應用場景。",
+    "highlights": [
+      "展示 Google AI 在搜尋的整合應用",
+      "非技術向內容，偏消費者導向",
+      "可了解 AI Search 的實際功能边界",
+      "與開發者工作流程關聯度低",
+      "屬於 Google 產品功能展示文稿"
+    ],
+    "why_it_matters": "對一般用戶了解 AI Search 實用性有幫助，但對技術人員尋找自動化或開發工具的價值有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可忽略此條，或作為了解 Google AI Search 功能上限的參考，不建議投入時間深入研究。",
     "tags": [
       "hot-topics",
       "rss",
@@ -10440,6 +10771,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-25-google-xprize-350-future-vision",
+    "title": "Google 與 XPRIZE 合作 350 萬美元 Future Vision 電影競賽",
+    "title_original": "5 gardening tips you can try right in Search",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
+    "published_at": "2026-05-06T16:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Google 宣布與 XPRIZE 及 Range Media Partners 合作推出總獎金 350 萬美元的 Future Vision 電影競賽，鼓勵創作者利用 AI 技術探索未來敘事，評審標準包括創意與技術整合。",
+    "highlights": [
+      "獎金規模 350 萬美元，屬大型 AI 相關競賽",
+      "強調 AI 輔助創作而非純 AI 生成",
+      "合作方包含知名非營利組織 XPRIZE",
+      "主要面向影視創作者，非開發者社群",
+      "與技術工具或 API 無直接關聯"
+    ],
+    "why_it_matters": "此競賽反映 AI 在創意產業的應用趨勢，但對多數技術人員的工作流程程或自動化需求無直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "可作為了解 AI 生成內容在創意領域應用案例的參考，但競賽性質決定其不產生可直接使用的工具或開源專案。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-22-google-alphaevolve-gemini",
     "title": "Google AlphaEvolve：Gemini 驅動的程式碼生成代理跨領域實踐",
     "title_original": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
@@ -10523,6 +10882,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/38653995?v=4",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-25-chatgpt-catch-agent",
+    "title": "ChatGPT 與 Catch Agent 功能比較討論",
+    "title_original": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/",
+    "published_at": "2026-05-05T16:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶討論 ChatGPT 內建功能與獨立 Catch Agent 工具之間的能力差異，涉及任務執行穩定性、工具調用靈活性與使用場景適用性的比較。目前討論內容較為簡短，詳細功能對比尚待社群補充。",
+    "highlights": [
+      "聚焦 ChatGPT 與第三方 Agent 工具比較",
+      "討論深度有限，缺少具體技術細節",
+      "可能涉及成本、穩定性或功能覆蓋範圍",
+      "對評估工作流程工具選擇有參考價值",
+      "需等待更多用戶回饋才有完整圖像"
+    ],
+    "why_it_matters": "Agent 工具選擇影響自動化工作流程程的效率與成本，社群反饋可幫助技術人員判斷哪類工具更適合特定任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤此討論串，收集用戶實際使用經驗作為選擇 Agent 工具的參考依據，評估切換或整合的可能性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-23-augment-code-claude-code-claude-agent-sdk",
@@ -11129,6 +11516,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-25-meta-ai-muse-spark-llama",
+    "title": "Meta 重構 AI 技術棧：Muse Spark 能否取代 Llama 的失落？",
+    "title_original": "Muse Spark: Meta’s Rebuilt AI Stack After Llama’s Disappointment - Forbes",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQ1NNZ0I1NUgtVWpESFRVTENQdVFLdFZTRWxCZGtUYzd4N2F6eXgtZS03ZjV0Uk9ZVnpTeHVoVlV5c1VPNHkxTFE5d2F0Y0NwMkxBNDJpNkQ1am1GUXRtZk1UN3ZfaU11eUhFVmUzbFNRMTU2dHR2bEFrS3FZTm40dHNFc1V6ZFRRTTJtRGdRYkVGRmppR0lHVmJYTEVOa3pFcmdrd0REWkhiZ0xVVDZkakRKWQ?oc=5",
+    "published_at": "2026-04-13T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Forbes 報導指出，Meta 內部正積極重構其 AI 技術架構，代號 Muse Spark。面對 Llama 策略受挫，公司似乎正在整合分散的 AI 資源，以更集中的方式推進下一代模型。",
+    "highlights": [
+      "Muse Spark 代表 Meta AI 技術棧的重大重構",
+      "Llama 發展遭遇瓶頸促使策略調整",
+      "Meta 試圖整合旗下多個 AI 專案",
+      "具體技術規格尚未公開"
+    ],
+    "why_it_matters": "Meta 的重構計畫顯示，大型科技公司在 AI 策略上仍處於探索階段。Muse Spark 的成敗將影響開源與閉源模型的競爭格局。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 Meta 後續技術文件與開源許可證變化，評估新架構是否更適合企業自動化流程整合。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-24-anthropic-agent",
@@ -12497,6 +12911,33 @@
     "why_it_matters": "Mistral 再次強調開源模型在 developer tooling 領域的競爭力。若效果達標，可作為 Anthropic/GitHub Copilot 的替代方案，降低 AI 編碼工具成本。",
     "automation_angle": null,
     "automation_angle_zh": "下載 Devstral 2 CLI，在本機專案測試其對長上下文程式碼庫的理解深度，比較與 Claude Code 或 Copilot 在任務完成率上的差異。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-meta-llama-ai",
+    "title": "Meta 延後 Llama 後繼者開發　轉向封閉式 AI 策略",
+    "title_original": "Meta reportedly delays Llama successor, shifts to closed-source AI amid internal reorganization - digitimes",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPM0F1NERWUDl0OUlfdnViSkZNWm9Rd1lVNzNmZWRnR2RmMHNhUkNtU0pJVTc5aHVjZko3Q3Y4WnpNMmRHNjdpZkdiVm01b2RHNHdzdmlsdk5qeTl3VWxZWGQxZTluTUE3ZFJjT3hJcW9PNC1DMmZadkhWMElBTXIyRU5NcTU?oc=5",
+    "published_at": "2025-12-11T08:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "根據 Digitimes 報導，Meta 內部正在重組，部分 AI 團隊員工被裁減。外界推測其下一代開源模型 Llama 的發布時間可能延後，公司策略正逐漸傾向封閉式 AI 發展。此變化可能影響開源 AI 社群生態。",
+    "highlights": [
+      "Meta 內部進行重組，部分 AI 團隊受到裁員影響",
+      "下一代 Llama 模型發布時間可能推遲",
+      "公司策略正轉向封閉式 AI 發展方向",
+      "Digitimes 報導屬於業界傳聞等級，尚未獲得官方證實"
+    ],
+    "why_it_matters": "若 Meta 真的放緩開源腳步，將衝擊開源 AI 社群與仰賴 Llama 生態的開發者。閉源策略可能加速 AI 資源集中化。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應評估是否需要建立替代方案，如 Mistral 或其他開源模型，降低對單一供應商的依賴。",
     "tags": [
       "open-source-ai",
       "rss",
