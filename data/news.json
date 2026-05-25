@@ -1,5 +1,257 @@
 [
   {
+    "id": "2026-05-25-better-email-mcp-ai-agent-imap-smtp",
+    "title": "Better Email MCP：為 AI Agent 打造的 IMAP/SMTP 郵件工具組",
+    "title_original": "n24q02m/better-email-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/n24q02m/better-email-mcp",
+    "published_at": "2026-05-25T00:17:12Z",
+    "category": "agent-skills",
+    "summary": "better-email-mcp 提供了 6 個複合工具，支援 IMAP/SMTP 郵件收發，包含多帳號管理與自動發現功能。星星數 20，TypeScript 實現，讓 AI Agent 能直接操作郵件工作流程。",
+    "highlights": [
+      "6 個複合工具涵蓋完整郵件操作",
+      "支援多帳號管理",
+      "IMAP/SMTP 協議支援",
+      "自動發現功能簡化設定"
+    ],
+    "why_it_matters": "要讓 AI Agent 自動化處理郵件回覆、分類、通知？Better Email MCP 提供了今天就能測試的郵件工具底層。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此 MCP 整合進 Agent 工作流程，實現郵件自動分類、回覆草稿生成、異常通知等自動化場景。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/135627235?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-datasette-1-0a30-plugin-hook",
+    "title": "Datasette 1.0a30 釋出：可擴充「跳至」選單 Plugin Hook",
+    "title_original": "datasette 1.0a30",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
+    "published_at": "2026-05-24T23:52:37+00:00",
+    "category": "open-source-ai",
+    "summary": "Datasette 1.0 alpha 版新增可自訂的「Jump to...」選單，並引入 jump_items_sql() plugin hook，讓外掛可註冊自訂跳躍目標。開發者可在 latest.datasette.io 按 / 鍵搶先體驗。",
+    "highlights": [
+      "jump_items_sql() 新 hook 允許外掛自訂「跳至」選單項目",
+      "按 / 鍵可喚出搜尋選單快速跳轉",
+      "SQL 驅動的項目註冊方式保持彈性",
+      "屬於 1.0 正式版前哨 alpha 釋出"
+    ],
+    "why_it_matters": "Datasette 是資料庫探索與發布的熱門工具，新增 plugin hook 可讓開發者將自訂資料庫動作整合進統一路由介面，提升工具鏈一致性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝 alpha 版（本pip install datasette==1.0a30），為自訂資料庫工具註冊快速路由，或用此 hook 實驗自動化查詢捷徑。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-25-goldenmatch-mcp-rest-a2a",
+    "title": "Goldenmatch：多語言實體解析與資料品質工具箱，支援 MCP/REST/A2A",
+    "title_original": "benseverndev-oss/goldenmatch",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/benseverndev-oss/goldenmatch",
+    "published_at": "2026-05-24T23:46:36Z",
+    "category": "agent-skills",
+    "summary": "Goldenmatch 是 Python 實體解析工具，支援模糊、精確、機率去重、身份圖譜、PPRL，並提供完整 TypeScript 移植版（goldenmatch、goldencheck、goldenflow、infermap、goldenpipe）。SQL 原生支援 PostgreSQL 與 DuckDB，零設定自動調參。星星數 47。",
+    "highlights": [
+      "Python 原始版 + 完整 TypeScript npm 移植版",
+      "支援模糊、精確、機率去重與 PPRL 隱私比對",
+      "SQL 原生：PostgreSQL 與 DuckDB 雙支援",
+      "零設定自動調參，降低使用門檻",
+      "提供 MCP、REST、A2A 三種服務介面"
+    ],
+    "why_it_matters": "處理客戶資料合併、去重、或需要 LLM 提升匹配準確性時，Goldenmatch 提供今天就能用的工具鏈。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 goldenmatch 整合進資料處理流程，自動化實體對齊與資料品質維護，尤其適合有多數據源的系統。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/285030165?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-mcp-adr-ai-agent",
+    "title": "MCP ADR 分析伺服器：幫 AI Agent 透視架構決策記錄",
+    "title_original": "tosin2013/mcp-adr-analysis-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tosin2013/mcp-adr-analysis-server",
+    "published_at": "2026-05-24T23:43:28Z",
+    "category": "agent-skills",
+    "summary": "tosin2013/mcp-adr-analysis-server 是基於 Model Context Protocol 的 TypeScript MCP 伺服器，可對 Architecture Decision Records（ADR）進行分析，為 AI Agent 提供深度的架構洞察。適合軟體架構相關的自動化場景。",
+    "highlights": [
+      "基於 MCP 協議與 AI Agent 無縫整合",
+      "專精於 ADR（架構決策記錄）分析",
+      "TypeScript 實現，星星數 28 顆",
+      "提供深度的架構洞察能力"
+    ],
+    "why_it_matters": "若你日常維護大量 ADR，想讓 AI Agent 能自動讀取並理解架構上下文，此工具可立即派上用場。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署此 MCP 伺服器，讓 AI Agent 能自動解析專案中的 ADR 文件，協助理解架構決策脈絡。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1975599?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-datasette-agent-0-1a4-jump",
+    "title": "datasette-agent 0.1a4新增Jump跳轉選單整合",
+    "title_original": "datasette-agent 0.1a4",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
+    "published_at": "2026-05-24T23:19:34+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison發布datasette-agent 0.1a4，新增多JumpSections() JavaScript插件鉤子整合。現在用戶在任何頁面按下/鍵即可從Jump選單啟動新的agent對話。該功能已部署至agent.datasette.io，支援GitHub帳號登入。這是Datasette 1.0a30插件系統的實例應用，展示資料庫工具與AI agent的深度整合可能性。",
+    "highlights": [
+      "利用Datasette 1.0a30新增的makeJumpSections()插件鉤子",
+      "按下/鍵即可從任何頁面快速啟動agent對話",
+      "已部署至agent.datasette.io，可直接試用",
+      "展示資料庫工具與AI交互的新範式",
+      "支援GitHub OAuth登入"
+    ],
+    "why_it_matters": "Datasette將AI agent能力無縫嵌入資料探索工作流程，讓研究人員能在查詢資料的同時即時啟動AI輔助分析。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此模式移植到自建的資料查詢介面：透過插件系統在任何頁面注入AI對話入口，實現資料分析與AI建議的contextual整合。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-25-reddit",
+    "title": "Reddit熱議：開源模型是否可被秘密訓練成木馬",
+    "title_original": "Could Open Models be trained to secretly go rogue?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tmpqrv/could_open_models_be_trained_to_secretly_go_rogue/",
+    "published_at": "2026-05-24T22:05:31+00:00",
+    "category": "hot-topics",
+    "summary": "LocalLLaMA社群熱烈討論開源模型是否可能在預訓練或微調階段被植入隱藏的惡意行為。討論涉及backdoor attacks、data poisoning、以及如何檢測模型隱藏意圖等議題。這是AI安全領域的重要議題，影響開源模型部署決策與信任模型。",
+    "highlights": [
+      "討論backdoor attacks：模型在特定trigger下表現異常",
+      "資料投毒風險：訓練資料中可能植入惡意樣本",
+      "檢測方法：紅隊測試、行為分析、模型審計工具",
+      "開源模型的可審計性是否足夠發現隱藏行為",
+      "社群意見分歧，部分認為實際風險被誇大"
+    ],
+    "why_it_matters": "對部署開源模型到生產環境的技術人員，了解此類風險有助于制定更安全的模型評估與部署策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於評估自托管模型的額外安全檢查清單：在隔離環境中進行trigger phrase測試，檢查模型是否對特定輸入有不尋常的行為模式。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-meta-ai",
+    "title": "Meta 發布新型 AI 模型，標誌著超智慧實驗室首個產品",
+    "title_original": "Should I buy chat gpt pro for unlimited image uploads?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tmnt7p/should_i_buy_chat_gpt_pro_for_unlimited_image/",
+    "published_at": "2026-05-24T20:48:43+00:00",
+    "category": "new-models",
+    "summary": "Meta 執行長祖克柏宣佈推出全新 AI 模型，源自去年收購的超智慧實驗室（Superintelligence Lab）。此為 Meta 首次從該實驗室公開發布產品，被視為公司在 AI 領域追趕 Google 與 OpenAI 的重要一步。WSJ、WIRED、NYT 等主流媒體均予以頭版報導。",
+    "highlights": [
+      "模型來自 Meta 超智慧實驗室，為該實驗室首個公開產品",
+      "祖克柏將其視為公司 AI 戰略的關鍵里程碑",
+      "WSJ 形容此為「公司野心的一次重大測試」",
+      "WIRED 稱此為 Meta「進入大人桌」的象徵",
+      "顯示 Meta 在生成式 AI 競賽中的積極姿態"
+    ],
+    "why_it_matters": "Meta 正式將超智慧實驗室技術商業化，代表開源陣營的重大進展。對技術人員而言，可能預示著 Llama 系列將迎來更強能力的後繼者。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤 Meta 官方技術文件與開源模型發布頁面，若新模型開源，可第一時間部署測試其推論、程式生成或多模態能力。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-armin-ronacher-ai-issue",
+    "title": "Armin Ronacher警告：AI生成的Issue已成為開源維護噩夢",
+    "title_original": "Quoting Armin Ronacher",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
+    "published_at": "2026-05-24T18:46:53+00:00",
+    "category": "agent-skills",
+    "summary": "Sentry核心維護者Armin Ronacher公開批評AI生成的Issue品質低落。這些提交包含觀察到的問題，但被LLM過度潤飾後變得混亂，結論常不準確卻自信滿滿。問題包括虛假的最小重現範例、錯誤的實作建議、以及與原始問題無關的類比。他呼籲回歸基本：描述你執行的命令、預期結果、實際發生的情況、以及確切的錯誤日誌。",
+    "highlights": [
+      "AI生成的Issue常包含虛假的最小重現範例與錯誤的根因分析",
+      "LLM潤飾後的描述往往偏離用戶原始觀察",
+      "Ronacher要求：命令、預期結果、實際結果、精確錯誤日誌",
+      "問題源於用戶prompt品質不佳與LLM幻覺相結合",
+      "此趨勢增加開源維護者的認知負擔與時間成本"
+    ],
+    "why_it_matters": "對開源維護者而言，辨識並過濾AI生成的低品質Issue已成必要技能。浪費在虛假重現範例上的時間直接影響專案進度。",
+    "automation_angle": null,
+    "automation_angle_zh": "可建立Issue品質過濾器：檢測LLM特徵（如過度正式、包含大量假設性程式碼）並要求用戶提交原始觀察格式，減少維護者負擔。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-25-2026-llm-nvidia",
+    "title": "2026年本地LLM：NVIDIA仍是預設最佳選擇嗎？",
+    "title_original": "Is NVIDIA still the default best choice for local LLMs in 2026?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tmkaua/is_nvidia_still_the_default_best_choice_for_local/",
+    "published_at": "2026-05-24T18:34:33+00:00",
+    "category": "new-models",
+    "summary": "LocalLLaMA社群熱烈討論消費級GPU在2026年本地LLM部署的競爭態勢。討論涵蓋AMD ROCm的成熟度、Apple Silicon的Neural Engine效率、Intel Arc的性價比，以及新興的NPU解決方案。用戶報告AMD卡在某些推論任務上已可與NVIDIA匹敵，但生態系統支援仍是瓶頸。",
+    "highlights": [
+      "AMD ROCm生態持續成熟，部分任務已追平NVIDIA",
+      "Apple Silicon的統一記憶體架構在特定場景有優勢",
+      "Intel Arc性價比提升，但軟體棧仍在追趕",
+      "NPU（如Qualcomm Snapdragon X）在邊緣部署興起",
+      "NVIDIA CUDA護城河仍然深厚，工具鏈最完整"
+    ],
+    "why_it_matters": "對於需要自托管LLM的技術人員，硬體選擇直接影響成本與部署靈活性。2026年的選擇比以往更多，需要更細緻的成本效益分析。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估專案需求：如需最高吞吐量選NVIDIA，追求性價比可考慮AMD ROCm方案，邊緣部署可評估Qualcomm NPU方案，各做基準測試後再做決定。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-reddit-40b-gpt-5-mini",
     "title": "Reddit 討論：40B 以下模型能否超越 GPT-5 mini？",
     "title_original": "Best sub-40B model that outpeforms (or matches) GPT-5 mini?",
@@ -170,6 +422,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/207654270?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-25-simon-willison-claude-usborne-1983-mad-house",
+    "title": "Simon Willison用Claude重建Usborne 1983年經典遊戲Mad House",
+    "title_original": "Mad House — Usborne Creepy Computer Games",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything",
+    "published_at": "2026-05-24T17:14:11+00:00",
+    "category": "open-source-ai",
+    "summary": "Simon Willison分享了他用Claude重建Usborne 1983年出版的經典遊戲《Mad House》的完整流程。他將掃描的PDF餵給Claude，讓AI生成完全復刻原版遊戲的vanilla JavaScript/HTML版本，包含手機友好介面與懷舊視覺效果。此案例展示現代AI在程式碼重現與歷史軟體保育方面的能力。",
+    "highlights": [
+      "完整重現1983年Usborne《Creepy Computer Games》中的Mad House",
+      "使用Claude從掃描PDF重建可玩的瀏覽器版本",
+      "生成vanilla JS/HTML，無需任何框架依賴",
+      "包含手機友好響應式設計",
+      "展示AI輔助歷史程式碼保育的可行性"
+    ],
+    "why_it_matters": "此案例證明AI可有效加速legacy軟體的現代化重寫。對於需要維護或重構數十年曆史程式碼庫的團隊，這是值得關注的方法論。",
+    "automation_angle": null,
+    "automation_angle_zh": "對於需要重構legacy系統的團隊，可嘗試：擷取原有程式碼與規格、餵給LLM生成現代化重寫版本、再進行人工校對與測試。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
@@ -878,6 +1158,33 @@
     "automation_angle_zh": "clone 或查找對應 repo，設定 Ollama backend，評估 GUI 與本地模型的整合度是否滿足交易策略自動化的需求。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-reddit-dall-e-3-gpt-image-2-0",
+    "title": "Reddit 用戶實測：DALL-E 3（GPT Image 2.0）分鏡生成功能",
+    "title_original": "Storyboard generated from GPT image 2.0",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tm0ueh/storyboard_generated_from_gpt_image_20/",
+    "published_at": "2026-05-24T03:35:20+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶展示使用 GPT Image 2.0（DALL-E 3）自動生成故事分鏡的範例，包含多個連貫場景與角色一致性測試。反映出模型在影視前期視覺化場景的潛在應用價值。",
+    "highlights": [
+      "用戶展示 AI 生成多格分鏡的實際效果",
+      "測試重點在角色一致性與場景連貫性",
+      "屬於社群用戶體驗分享，非官方發布",
+      "暗示 GPT Image 2.0 在影視設計工具的潛力"
+    ],
+    "why_it_matters": "若 GPT Image 2.0 能穩定保持角色一致性，將大幅降低影視分鏡、動態故事板的前期製作成本。技術人員可評估其是否能整合進自動化影片製作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接透過 ChatGPT Plus/Pro 測試分鏡生成 prompt，評估角色一致性與場景切換的自然度，判斷是否適合作為影片前期工具。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -5394,6 +5701,32 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-25-microsoft-build-ai-oracle-ai-database",
+    "title": "Microsoft Build 揭示企業級 AI 開發工具與 Oracle AI Database 整合",
+    "title_original": "Build enterprise-grade AI apps with Microsoft developer tools and Oracle AI Database - Learn more at Microsoft Build - Oracle Blogs",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZzU5OFBRSG5oRF9nV0FPMFBWdkFkbXpxMzlzTGxxQjZZbFEwYTZsc1VOUjlaTS0yN2tRVzJBdlZsV2Y5cGREMGZRZVI1Q0lnaUFPMjNNeTJxSjFQSXJENVF4UE96WFk2NmRYSk41dkhGMmZCSmdFUTk0d2x1NnZHMm9MU2FsbkZCVHAwcGNzNTduNzV4NklGRG81dFFWUjN0ZnVMenRMM2ktemdZVFNscW5ubW5nbDlMeU5BWUlwdF90TnNLeG9ScUdQUGhNQU8zb2pPci1zMUlMbExHakhKYzBKem8?oc=5",
+    "published_at": "2026-05-20T15:29:39+00:00",
+    "category": "ai-deals",
+    "summary": "微軟於 Build 大會展示其開發工具與 Oracle AI Database 的企業級 AI 應用整合方案，強調在 Microsoft 生態系內快速建構合規、高效 AI 系統的能力。",
+    "highlights": [
+      "Microsoft 開發工具 × Oracle AI Database 整合",
+      "瞄準企業級 AI 應用場景",
+      "強調合規性與部署便利性"
+    ],
+    "why_it_matters": "Oracle 資料庫用戶若採用 Microsoft 工具鏈，可簡化 AI 功能落地路徑；此合作顯示大型雲端廠商間的 AI 生態協作趨勢。",
+    "automation_angle": null,
+    "automation_angle_zh": "若企業技術棧包含 Oracle 資料庫，技術用戶可評估 Microsoft AI 工具鏈的整合成本，判斷是否值得將 AI 開發流程遷移至該生態。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-20-github-copilot",
     "title": "GitHub Copilot 自動模型選擇功能正式支援任務路由",
     "title_original": "Auto model selection now routes based on your task in VS Code",
@@ -6920,6 +7253,61 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-25-google-workspace-google-pics-ai-inbox",
+    "title": "Google Workspace 新語音能力、Google Pics 與 AI Inbox 升級",
+    "title_original": "New ways to create and get things done in Google Workspace",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
+    "published_at": "2026-05-19T17:45:00+00:00",
+    "category": "agent-skills",
+    "summary": "Google Workspace 宣布 Gmail、Docs、Keep 新增語音輸入能力，同時推出圖片生成工具 Google Pics，並更新 AI Inbox 功能，全面強化 Workspace 的 AI 工作流程整合。",
+    "highlights": [
+      "Gmail、Docs、Keep 新增語音驅動互動",
+      "推出專屬圖片工具 Google Pics",
+      "AI Inbox（智慧收件匣）功能強化",
+      "可能涉及 Gemini 模型整合"
+    ],
+    "why_it_matters": "語音輸入、AI 圖片生成、AI 收件匣升級直接影響每日文書協作效率，若 Workspace 用戶導入新功能，可減少跨工具切換成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可測試 Gmail / Docs 中的語音指令覆蓋範圍，評估是否可替代部分鍵盤操作；亦可觀察 Google Pics API 是否對外開放以整合進自動化流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-google-ai-search-ai",
+    "title": "Google AI Search 新紀元：整合生成式 AI 與傳統搜尋",
+    "title_original": "A new era for AI Search",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+    "published_at": "2026-05-19T17:45:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google 宣布搜尋引擎邁入新階段，正式將生成式 AI 能力與傳統搜尋深度整合。這是 Google 首次明確將 AI 功能列為搜尋核心轉型，而非附加功能。",
+    "highlights": [
+      "生成式 AI 與搜尋引擎深度整合",
+      "可能改變搜尋結果呈現方式",
+      "標誌 Google 從傳統搜尋轉型",
+      "對 SEO 和內容策略影響深遠",
+      "AI 功能已從實驗轉為核心產品"
+    ],
+    "why_it_matters": "Google 此舉代表搜尋體驗的根本性改變。開發者和內容創作者需要重新思考 SEO 策略，了解 AI 生成內容如何影響網站流量和曝光。",
+    "automation_angle": null,
+    "automation_angle_zh": "可測試 AI Search 的新功能，評估其對現有內容傳播和流量獲取的影響，並觀察是否需要調整自動化行銷或內容生成流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-19-codegraph-claude-cursor-codex-api-94",
@@ -9583,6 +9971,32 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-05-25-ai-google-finance",
+    "title": "AI 驅動 Google Finance 正式進軍歐洲市場",
+    "title_original": "The new AI-powered Google Finance is expanding to Europe.",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
+    "published_at": "2026-05-11T06:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google 宣布 AI 賦能的 Google Finance 服務擴展至歐洲，提供完整當地語言支援與一系列強化功能，為歐洲用戶提供智慧化財務資訊體驗。",
+    "highlights": [
+      "AI 功能從美國市場擴展至歐洲多國",
+      "提供完整當地語言介面",
+      "包含智慧化財務分析與視覺化功能"
+    ],
+    "why_it_matters": "歐洲市場對資料隱私要求嚴格，Google 此舉顯示其有能力在合規框架下輸出 AI 驅動的消費產品，亦反映 Google AI 平台化策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可留意 Google Finance API 是否同步開放，若有個人理財或資料視覺化需求，可評估整合可能性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-22-survey-llm",
     "title": "時序推論 Survey：LLM 在時間序列的推論能力盤點",
     "title_original": "blacksnail789521/Time-Series-Reasoning-Survey",
@@ -9664,6 +10078,32 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/31035808?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-google-ai",
+    "title": "Google「小簡報」計畫：創意傳奇用 AI 為小店打造廣告",
+    "title_original": "See what happens when creative legends use AI to make ads for small businesses.",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
+    "published_at": "2026-05-08T15:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google 發起「The Small Brief」計畫，攜手三位廣告業傳奇人物，利用 AI 工具為他們心儀的當地小商家創作廣告素材，藉此展示 AI 在創意行銷中的潛力。",
+    "highlights": [
+      "三位廣告業知名人士參與",
+      "目標為小型本地商家製作創意廣告",
+      "旨在展示 AI 輔助創意工作的實際效果"
+    ],
+    "why_it_matters": "此為 Google 品牌行銷計畫，非技術釋出，但可觀察 Google 在創意生成 AI 應用的落地方式，以及對小規模廣告場景的覆蓋策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "對行銷自動化或創意 AI 有興趣的技術用戶，可從官方案例了解 Google AI 工具在創意工作中的能力邊界，輔助自身需求評估。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -9826,6 +10266,34 @@
     "automation_angle_zh": "技術人員可追蹤此研究方向，評估未來是否有机會参與医疗 AI 系統的集成或 API 合作開發。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-axios-meta-ai",
+    "title": "Axios獨家：Meta規劃開源下一代AI模型",
+    "title_original": "Meta abandons open-source Llama for proprietary Muse Spark - The New Stack",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE00ZG1sWUNHQW9LMnZ0ek8zdTJydTFiTkhfNEZXek1zaG5lUzZKV1pQRHo1QVN1NHVmM2lDa0x4MXVWVnJrcjlVcHZLc3BxOEVjcTd5MTlKT0xucm1IZ2c?oc=5",
+    "published_at": "2026-04-30T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "據Axios引述知情人士報導，Meta計畫開源其下一代AI模型，而非僅發布縮減版本。此策略與當前Llama模式不同，暗示Meta將提供更完整模型權重，與open-source-ai社群期待一致，但細節與時間表尚未公布。",
+    "highlights": [
+      "Meta下一代模型將有官方開源版本",
+      "策略可能比現行Llama更開放",
+      "具體模型架構與發布時間未定",
+      "與The New Stack的「Muse Spark」報導互相矛盾",
+      "CEO馬克·祖克柏曾多次強調開源承諾"
+    ],
+    "why_it_matters": "若Meta真的開源完整下一代模型，將大幅降低企業部署成本，並可能重塑開源AI生態系統格局，讓技術用戶有更強大的本地部署選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤官方部落格與Meta AI GitHub，等待正式開源公告後可在本地測試模型效能，評估是否適合替代現有付費API方案。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
@@ -10358,6 +10826,61 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-25-meta-muse-spark-llama",
+    "title": "Meta 發布新專有模型 Muse Spark，Llama 時代恐告終",
+    "title_original": "Goodbye, Llama? Meta launches new proprietary AI model Muse Spark — first since Superintelligence Labs' formation - VentureBeat",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOU82OVQ1U0U3d3NVMXRHQ1NhRzhPVThxcmw1MFBJaXVvaWFwVm1VSXk2ZjQ1dVZlTm1Bby1kZDdjVzNxT1VtX3o1bG9JdEl3WTZxTGV1V2g4amZuZHFqaGp3b3ZobDQwc3JHdTk4bHBGbjZ5RXNudjJaYU56bG0yLUwyeDRSZ0NzMF9nV2RTZmszMEY1MmJPR3VKQ1NHUE1tTlE1aE1MQjlRdkd6bnA0?oc=5",
+    "published_at": "2026-04-08T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Meta 正式推出 Muse Spark 專有模型，這是自成立 Superintelligence Labs 以來首款非開源模型。此舉打破 Meta 過往開源策略，意味其 AI 策略重大轉向，可能從開源領袖轉為封閉式商業模式。",
+    "highlights": [
+      "Meta 成立 Superintelligence Labs 後首款專有模型",
+      "標誌性放棄 Llama 開源策略",
+      "與過往 Open Source AI 定位背道而馳",
+      "可能瞄準企業市場高價值應用",
+      "為 Llama 生態系開發者帶來戰略不確定性"
+    ],
+    "why_it_matters": "若 Meta 真的從開源轉向專有模型，將重塑 AI 市場格局。開發者需重新評估 Llama 生態系長期可行性，以及是否要轉向其他開源替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員應評估 Muse Spark 的能力是否值得放棄開源模型。可關注其 API 可用性、定價、與現有工作流程程整合可能性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-chatgpt-pro",
+    "title": "用戶討論：ChatGPT Pro 是否值得訂閱？無限圖片上傳成焦點",
+    "title_original": "Meta Announces New AI Model in Major Test of Company’s Ambitions - WSJ",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xc01ud0Q0NUk1WXpGRzM2WDE4ZWs2eFIyZmZZZDJxaXVLajdMcklXbEJIcXV6QXBob281VG9RNnN1ZWxsSnJZRHEwZmRHblBxbHdIMjA2aVROTENkcUU3dGp3am9PWGltZmtrZEN3?oc=5",
+    "published_at": "2026-04-08T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 熱門討論串中，用戶提問是否值得以 200 美元訂閱 ChatGPT Pro，特別關注「無限圖片上傳」功能。討論反映出 Pro 版與 Plus 版的功能差異仍被用戶高度關注。",
+    "highlights": [
+      "Pro 版月費 200 美元，核心差異在於運算優先權",
+      "「無限圖片上傳」具體限制條款官方尚未完全透明",
+      "用戶普遍關注投資報酬率與實際使用場景",
+      "此討論串反映 Pro 版行銷資訊仍存在模糊地帶"
+    ],
+    "why_it_matters": "對技術用戶而言，了解 Pro 版與 API 計費的邊際成本差異，可作為個人或小團隊選擇訂閱或使用 API 的決策依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "若圖片處理需求大，建議對比 Pro 訂閱與 API 調用成本的實際用量估算，再決定是否升級。可先計算日均圖片需求再決定。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-meta-ai",
     "title": "Meta 正在開源下一代前沿 AI 模型",
     "title_original": "Meta is developing open-source versions of its next frontier AI models - Techzine Global",
@@ -10600,6 +11123,32 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-25-mistral-ai-leanstral",
+    "title": "Mistral AI Leanstral 瞄準程式碼生成信任度問題",
+    "title_original": "Mistral AI's Leanstral Tackles Trust in Code Generation - StartupHub.ai",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbHdFXzZwYlZNVk5uNk4wTDU0TmozLWxhS3RiU2NqWVBiV1JSTHVSaDNhbDNkQ2dFVE9RUWdMV1ZJanVGcDJab1dNZzIzaHRLaWViZU1NVXBNQWVMRWc5R19hN3dJTWQxOTBibXJ6Z3N3Q2wwSnRGOEFOUFB6WWJUbHhhWGdWMzZnb1lyelpqMF9YZlBGNHAzQTY5NVhKbFFnQWEwbEpsRkxDd09tcWFSQl80X0h3dTFTVnc?oc=5",
+    "published_at": "2026-03-17T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 推出 Leanstral 模型，主打提升程式碼生成的可信賴性與可執行正確性，旨在解決 AI 輔助開發中常見的「看起來合理但跑不起來」問題。",
+    "highlights": [
+      "Leanstral 專注於程式碼生成的準確性與可信度",
+      "強調模型輸出的可執行性而非僅語法正確",
+      "屬於 Mistral AI 針對開發者工作流程程的垂直優化"
+    ],
+    "why_it_matters": "程式碼生成模型若無法產生可信賴輸出，會大幅限制 AI 在開發管道的實際採用率；Leanstral 直接回應此痛點。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可關注 Leanstral 的基準測試結果，若對 Mistral 模型有使用需求，可在自架或 API 上評估其程式碼生成成功率。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-nvidia-gtc-2026-agent",
     "title": "NVIDIA 在 GTC 2026 宣布自主 Agent 基礎設施佈局",
     "title_original": "At GTC 2026, NVIDIA Stakes Its Claim on Autonomous Agent Infrastructure - The Futurum Group",
@@ -10651,6 +11200,34 @@
       "open-source-ai",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-openai-chatgpt-pro",
+    "title": "OpenAI為開源維護者提供半年ChatGPT Pro免費訂閱",
+    "title_original": "OpenAI向開源專案開發者/維护提供半年免費ChatGPT Pro訂閱 - cnBeta.COM",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40ZXBVaFI1ODMwU0lzQUM0QTNlS0tiblpQVENQajJ0X0oyNTM4b1RTTkNiMjdJaktMbmZVMFpUdHBQeGUteVlVbTRQMjRHUThjSm5rWWstdjNRcWNrZk8yXw?oc=5",
+    "published_at": "2026-03-07T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "cnBeta獨家報導，OpenAI啟動開源維護者支援計劃，向符合條件的開源專案核心開發者和維護者提供為期六個月的ChatGPT Pro免費訂閱。申請者需證明其為活躍開源專案的貢獻者或維護者。Pro訂閱價值每月200美元，此次活動旨在建立開源社群關係。",
+    "highlights": [
+      "為期六個月的ChatGPT Pro免費訂閱",
+      "目標對象：開源專案核心維護者",
+      "需驗證開源貢獻者身份",
+      "每月200美元價值的訂閱，總價值1200美元",
+      "屬於OpenAI社群關係與開發者關係策略"
+    ],
+    "why_it_matters": "對於資金緊張的開源維護者，獲得Pro帳戶可顯著提升開發效率（存取o1、o3等高階模型），但需評估依賴商業AI工具的長期策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "符合條件的維護者應申請：用Pro帳戶處理複雜重構任務、程式碼審查或文件撰寫，提升志願者時間的槓桿效應。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
