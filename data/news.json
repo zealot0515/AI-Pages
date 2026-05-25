@@ -1,5 +1,283 @@
 [
   {
+    "id": "2026-05-25-hello-halo-7-24-ai-ai",
+    "title": "hello-halo：7×24全天候桌面AI助理，支援視覺AI與遠端存取",
+    "title_original": "openkursar/hello-halo",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/openkursar/hello-halo",
+    "published_at": "2026-05-25T12:55:24Z",
+    "category": "agent-skills",
+    "summary": "TypeScript開發的桌面AI助理，標榜7×24運行、視覺AI能力、遠端存取、檔案管理與內建AI瀏覽器。星標1504，具一定社群關注度。",
+    "highlights": [
+      "運行模式：7×24全天候桌面代理",
+      "核心功能：視覺AI、遠端存取、檔案管理",
+      "技術棧：TypeScript",
+      "星標數：1504",
+      "特點：內建AI瀏覽器，支援自動化操作介面"
+    ],
+    "why_it_matters": "對於需要持久運行桌面AI助理並進行遠端操作的技術用戶，hello-halo提供一個可部署的自託管選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝後設定自動化任務，利用其內建瀏覽器與檔案管理功能執行重複性桌面操作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/224754962?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-pentest-ai-205-17-mcp",
+    "title": "pentest-ai：具205工具、17專業代理的進攻性安全MCP伺服器",
+    "title_original": "0xSteph/pentest-ai",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/0xSteph/pentest-ai",
+    "published_at": "2026-05-25T12:51:47Z",
+    "category": "agent-skills",
+    "summary": "Python開源專案，提供205個包裝工具、17個專業代理、60個SPA感知探針，覆蓋OWASP Top 10。支援CLI與MCP模式，自備LLM即可使用，MCP路徑無需API Key。",
+    "highlights": [
+      "工具數量：205個包裝工具",
+      "專業代理：17個領域專家代理",
+      "OWASP覆蓋：60個SPA感知探針",
+      "使用模式：CLI或MCP，自備LLM",
+      "MCP路徑優勢：無需API Key即可運行"
+    ],
+    "why_it_matters": "安全研究人員與滲透測試工程師可利用此MCP伺服器快速建立AI輔助的安全自動化工作流程，降低工具整合門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署pentest-ai並透過MCP介面接入自備LLM，自動化執行OWASP Top 10滲透測試流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/245668117?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-lizhipay-claude-mcp-server-rust-claude-mcp",
+    "title": "lizhipay/claude-mcp-server：用 Rust 實現 Claude 原生 MCP 協議中轉站",
+    "title_original": "lizhipay/claude-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/lizhipay/claude-mcp-server",
+    "published_at": "2026-05-25T12:31:29Z",
+    "category": "open-source-ai",
+    "summary": "開源專案將 Codex 與 Claude 原生 MCP 協議橋接，透過 Rust 實作中轉層，讓外部 Agent 可直接呼叫 Claude 工具鏈，支援本地部署與自訂路由。",
+    "highlights": [
+      "Rust 語言實作，效能與記憶體安全兼顧",
+      "支援 Codex 與 Claude MCP 協定互通",
+      "可用於建構子 Agent 架構的工具調用層",
+      "可直接 fork 改造成企業內部 MCP 代理服務"
+    ],
+    "why_it_matters": "若你正在建構多 Agent 協作系統，此專案可省去自行實作 MCP 協定的時間，現在 fork 就能整合进工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此專案部署為本地 MCP 中轉服務，測試讓小型 Agent 透過 Claude 工具完成自動化任務鏈。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/68234346?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-callstackincubator-agent-skills-ai-react-native",
+    "title": "callstackincubator/agent-skills：AI程式碼助理專用React Native技能庫",
+    "title_original": "callstackincubator/agent-skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/callstackincubator/agent-skills",
+    "published_at": "2026-05-25T12:25:49Z",
+    "category": "agent-skills",
+    "summary": "GitHub星標1372的開源專案，提供專為AI程式碼助理優化的React Native技能集合。JavaScript/TypeScript技術棧的技術用戶可直接整合至開發工作流程。",
+    "highlights": [
+      "星標數：1372，社群關注度高",
+      "技術棧：JavaScript/TypeScript",
+      "用途：AI程式碼助理的React Native專用技能",
+      "開源許可：可直接Fork並客製化",
+      "立即可用：可整合至現有開發環境測試"
+    ],
+    "why_it_matters": "React Native開發者現在就能利用此技能庫強化AI程式碼助理能力，加速移動端開發迭代。",
+    "automation_angle": null,
+    "automation_angle_zh": "將agent-skills整合至現有AI程式碼助理，測試其在React Native專案中的實際產出品質。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/40356278?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-llm-react-agent-qwen-3-5-9b-gemma4",
+    "title": "用小型 LLM 打造 React 風格循環 Agent：Qwen 3.5 9B 與 Gemma4 實驗",
+    "title_original": "Want Built a React-style looping agent with small LLMs (Qwen 3.5 9B / Gemma4) + LangGraph?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tn6xn3/want_built_a_reactstyle_looping_agent_with_small/",
+    "published_at": "2026-05-25T11:55:37+00:00",
+    "category": "new-models",
+    "summary": "Reddit 技術討論展示使用 Qwen 3.5 9B 與 Gemma4 等小型模型搭配 LangGraph 建構 ReAct 風格迴圈 Agent 的方法，探索小模型 Agent 化可行性。",
+    "highlights": [
+      "Qwen 3.5 9B 具備較強中文能力",
+      "Gemma4 為 Google 最新小型模型",
+      "LangGraph 提供狀態機與迴圈控制",
+      "小模型 Agent 化效果與成本權衡"
+    ],
+    "why_it_matters": "小型模型成本低、部署彈性高，若能勝任簡單 Agent 任務，可大幅降低 AI 工作流程造價，值得實測驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "clone 程式碼，改用 Ollama 本地部署 Qwen 3.5 9B，跑同樣的 ReAct Loop，任務成功率與回應延遲就是你的 baseline。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-gpt-5-5",
+    "title": "開發者自建 GPT-5.5 基準與實際使用量對比索引",
+    "title_original": "GPT-5.5 tops the benchmarks but sits at #22 for actual usage - I built a live index that tracks both (open source)",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tn6m96/gpt55_tops_the_benchmarks_but_sits_at_22_for/",
+    "published_at": "2026-05-25T11:40:53+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/OpenAI 討論區有開發者發布開源專案，同時追蹤 GPT-5.5 在各項 benchmark 的排名以及真實使用量數據。根據該索引，GPT-5.5 在 benchmark 測試中表現第一，但實際使用量僅排名第 22，引發社群對 benchmark 評估指標與用戶實際需求脫節的討論。",
+    "highlights": [
+      "開源專案提供 benchmark 排名與實際使用量雙重視角",
+      "GPT-5.5 基準分數領先但實際滲透率偏低",
+      "反映 benchmark 與用戶需求的潛在斷層",
+      "可用於評估模型選擇策略的參考"
+    ],
+    "why_it_matters": "此索引揭露模型人氣與效能分數的落差，技術使用者在選擇模型時應同時考慮實際生態系成熟度，而非僅依賴 benchmark 數據。",
+    "automation_angle": null,
+    "automation_angle_zh": "可 fork 此開源專案，加入自定義模型評估維度，建立符合自身需求的模型選擇決策系統。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-wondermr-agents-mcp-server-ai",
+    "title": "WonderMr/Agents：通用 MCP Server 框架，支援 AI 角色與技能注入",
+    "title_original": "WonderMr/Agents",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/WonderMr/Agents",
+    "published_at": "2026-05-25T10:43:10Z",
+    "category": "agent-skills",
+    "summary": "Python 開源專案定位為 Universal MCP Server，專為 AI Agent 角色、技能與認知植入設計，支援快速擴展工具集與多模型對接。",
+    "highlights": [
+      "Python 實作，門檻低易修改",
+      "支援動態載入 Agent 角色與技能模組",
+      "可對接多種 LLM 後端",
+      "可用來快速原型化多角色協作系統"
+    ],
+    "why_it_matters": "若你需要一個能快速擴充工具與角色能力的 Agent 骨架，此框架提供開箱即用的基礎建設。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 WonderMr/Agents 作為內部 Agent 平台的核心框架，定義自己的工具註冊機制與角色切換邏輯。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/5370211?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-rag-llm",
+    "title": "開發者探討以 RAG 整合最新函式庫文件至本地 LLM",
+    "title_original": "RAG for developer docs so local llm can code using latest library?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tn4poe/rag_for_developer_docs_so_local_llm_can_code/",
+    "published_at": "2026-05-25T10:07:29+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 技術社群討論如何利用檢索增強生成（RAG）技術，讓本地运行的 LLM 能夠理解並運用最新版本的開發函式庫文件，以提升 AI 輔助編碼的準確性。討論涉及文件向量化、chunking 策略及向量資料庫選擇等實作細節。",
+    "highlights": [
+      "核心問題：本地 LLM 訓練數據有時間限制，無法理解新版本 API",
+      "技術方案：對開發文件進行 embeddings 存入向量資料庫",
+      "挑戰：文件更新頻率高，需自動化同步機制",
+      "常見工具：ChromaDB、FAISS、Milvus 等向量資料庫"
+    ],
+    "why_it_matters": "此技術方向可大幅提升 AI coding assistant 對新函式庫的支援度，對需要處理快速演進技術棧的開發者具有實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可建立文件監控 pipeline，自動抓取更新文件並重新生成 embeddings，結合 Claude Code 等工具實作本地 AI 輔助開發工作流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-mcp-node-llama-cpp-agent",
+    "title": "本地優先 MCP 教學：以 node-llama-cpp 打造自訂 Agent 循環",
+    "title_original": "I made a local-first MCP tutorial repo with node-llama-cpp and a custom agent loop",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tn1jjy/i_made_a_localfirst_mcp_tutorial_repo_with/",
+    "published_at": "2026-05-25T07:14:17+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 網友分享使用 node-llama-cpp 跑本地 LLM 並串接 MCP 協定的完整範例，包含自訂 Agent Loop 設計與除錯心得，適合想全本地跑 AI 工作流程的技術玩家。",
+    "highlights": [
+      "node-llama-cpp 支援本地跑量化模型",
+      "完整 Agent Loop 程式碼可供複製改寫",
+      "MCP 協定本地化部署教學",
+      "除錯與效能調校實戰經驗"
+    ],
+    "why_it_matters": "本地跑 AI 工作流程可省下 API 費用且無資料外流風險，此教學提供可直接複製的實作範本。",
+    "automation_angle": null,
+    "automation_angle_zh": "clone 此 repo，替換成自己的本地模型或 Llama.cpp build，實測 MCP 工具呼叫延遲與錯誤率。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-qwen-3-6-rtx-pro-6000",
+    "title": "Qwen 3.6 於雙 RTX PRO 6000 顯示卡效能基準出爐",
+    "title_original": "Qwen 3.6 benchmarks on 2x RTX PRO 6000",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tn0t7u/qwen_36_benchmarks_on_2x_rtx_pro_6000/",
+    "published_at": "2026-05-25T06:35:35+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群分享 Qwen 3.6 模型在配備雙 NVIDIA RTX PRO 6000 顯示卡的系統上的效能基準測試結果。RTX PRO 6000 為專業級 GPU，適合大規模 AI 推論工作負載，測試涵蓋文字生成速度、記憶體使用量及多項標準 benchmark 分數。",
+    "highlights": [
+      "硬體配置：雙 RTX PRO 6000（企業級顯示卡）",
+      "測試範圍：推論速度、記憶體佔用、標準 benchmark",
+      "Qwen 3.6 為阿里雲開源模型系列最新版本",
+      "結果可作為本地部署硬體規劃參考"
+    ],
+    "why_it_matters": "此基準數據可供技術使用者評估 Qwen 3.6 在特定硬體配置下的實際效能，有助於成本效益分析與部署決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據 benchmark 結果計算每美元效能，評估是否採用 RTX PRO 6000 而非 consumer GPU 進行本地部署，估算投資回報週期。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-25-better-email-mcp-ai-agent-imap-smtp",
     "title": "Better Email MCP：為 AI Agent 打造的 IMAP/SMTP 郵件工具組",
     "title_original": "n24q02m/better-email-mcp",
@@ -5228,6 +5506,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-25-google",
+    "title": "Google宣布密蘇里州社區投資計畫",
+    "title_original": "We’re announcing new community investments in Missouri.",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
+    "published_at": "2026-05-20T20:40:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google宣布將在密蘇里州投入社區建設資源，聚焦下一代勞動力培訓與能源計畫。此為Google regional infrastructure投资的一環，非直接AI技術發布。",
+    "highlights": [
+      "投資瞄準密蘇里州勞動力技能培訓",
+      "涵蓋能源相關基礎設施項目",
+      "屬於Google區域性長期投資戰略",
+      "非AI模型或產品發布",
+      "對技術開發者直接價值有限"
+    ],
+    "why_it_matters": "此投資屬企業社會責任性質，雖顯示Google在能源與人才培訓領域的佈局，但對技術開發者的日常工作流程程無直接影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "對於關注AI基礎設施供應商長期穩定性的用戶，此類區域投資可作為評估雲端服務商承諾與佈局的參考維度之一。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-21-qwen-27b",
     "title": "Qwen傳聞將發布新27B參數模型",
     "title_original": "Qwen will release another 27B with high probability",
@@ -6747,6 +7053,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-25-gemini-spark-ai-agent",
+    "title": "Gemini Spark 建構 AI Agent：架構設計與工具使用實戰指南",
+    "title_original": "Building AI Agents with Gemini Spark: Architecture, Tool Use, and Best Practices - Blockchain Council",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdG9yWHZJQlBiVDY5aGJBOXVaR0l5VW1FR0cyVG85MldjTTI5bl9SeVRfSTFGOEhad3RzSy1vWWtfXzNIcEZhem5LWUJMSC15WmF1U2VWSjdNMmNXODdmWWhTY3o3aGpJbUl6RXJ1dG12eEJDVzFKcXZ2UzI1VWtOSnhieVFDSzdOYlpnX2JRVEc4cVBGRERSdGdEdFFBQXRXQ1NNWjVrT29CU1Q1bXpjRTEyWWdZMzhXYW1KMA?oc=5",
+    "published_at": "2026-05-19T20:28:14+00:00",
+    "category": "agent-skills",
+    "summary": "Blockchain Council 發布使用 Google Gemini Spark 建構 AI Agent 的完整指南，涵蓋架構模式、工具串接與最佳實踐，屬於一般性技術教學文章。",
+    "highlights": [
+      "Gemini Spark 架構概覽",
+      "工具使用模式說明",
+      "Agent 設計最佳實踐",
+      "非獨家技術內容，資訊含金量中等"
+    ],
+    "why_it_matters": "Gemini Spark 是 Google AI 生態的一環，了解其 Agent 建構方式有助評估是否值得投入該平台。",
+    "automation_angle": null,
+    "automation_angle_zh": "取出文中架構圖與工具定義模式，對照自己現有 Agent 設計，評估哪些模組可置換為 Gemini 方案。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-24-langchain-langsmith-agent-agent",
@@ -10439,6 +10772,33 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-05-25-anthropic-claude-code",
+    "title": "Anthropic 發布 Claude Code 品質報告更新",
+    "title_original": "An update on recent Claude Code quality reports - Anthropic",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lbzBkRXBGLTl2YjRQU2NDT0piaWdaZks2ckFNNXYwXzdEOERUZHBEWVZSTktyZ0xQLTNrM2h3NXZnY3N2Ty0xdUJFRzNfUFRqWHl3VW5hMGxpTkttOVR1YXRSMnVJNWR5?oc=5",
+    "published_at": "2026-04-23T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic 官方於 Google News 發布 Claude Code 近期品質報告更新。作為該公司官方訊息源，報告內容涉及 Claude Code 在程式碼生成、任務完成率及錯誤修正能力的最新表現數據，為評估 Claude 在軟體開發場景能力變化的重要參考。",
+    "highlights": [
+      "來源為 Anthropic 官方新聞頻道，可信度高",
+      "聚焦 Claude Code 產品層面的品質變化",
+      "提供量化指標而非主觀描述",
+      "對於使用 Claude API 的開發者具直接參考價值"
+    ],
+    "why_it_matters": "官方品質報告是判斷 Claude Code 是否值得信賴用於生產環境的關鍵依據，技術使用者應仔細閱讀以調整工作流程程策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據報告中的品質指標，評估是否將 Claude Code 整合至現有 CI/CD 流程或自動化腳本開發環境。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-15-qimma",
     "title": "QIMMA 阿拉伯語大型語言模型品質排行榜",
     "title_original": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
@@ -10881,6 +11241,87 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-25-wired-meta-ai",
+    "title": "WIRED：Meta 新 AI 模型讓祖克柏登上主桌",
+    "title_original": "Meta’s New AI Model Gives Mark Zuckerberg a Seat at the Big Kid’s Table - WIRED",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE43NDBDeHFMVlpYQUprdDU0MHJhNnRETkxJY1ctVzhOdjFZWGFSV0dWWmRSbDlwMDFna09lQVJQWUhVWXgwY0M4NGdsVDAzc3BqUzQ5OUNKWnZiTm9NS3BwYno2REJOakx3ZDZwVmlJM2hBS1N5cWg2aTFB?oc=5",
+    "published_at": "2026-04-08T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "WIRED 分析 Meta 最新 AI 模型發展，認為這將鞏固 Meta 在 AI 領域的競爭地位。報道強調 Meta 從開源策略轉向更全面的 AI 布局。",
+    "highlights": [
+      "Meta 發布新型 AI 模型",
+      "分析師認為此舉提升 Meta 產業地位",
+      "與 OpenAI、Google 形成更直接競爭",
+      "細節資訊需參閱原報導"
+    ],
+    "why_it_matters": "Meta 的 AI 策略變化將影響開源模型生態系統與企業採用決策，值得關注其模型能力與授權條款後續發展。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤 Meta 模型發布日程，評估其與現有工作流程程的整合可能性與成本效益。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-meta-ai",
+    "title": "紐約時報：Meta 發布「超智能實驗室」首款 AI 模型",
+    "title_original": "Meta Unveils New A.I. Model, Its First From the Superintelligence Lab - The New York Times",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYWxqVDA3TGExLXlBb0lucmFvM1E4czh3ejNxVFBTMGR5Mk1kZV9hYTBsSEhFR05tYlVCZHM4dUw1Ukp1TndLa3pRNGN6LUs4WVdmY0hMOXctcE9GTHVmUklQSE5oN21XWmtRZTdIQ3ZZbjM0V3dfSnVsX2I5b1RtdA?oc=5",
+    "published_at": "2026-04-08T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "NYT 報道 Meta 推出來自「超智能實驗室」的首款 AI 模型。這是 Meta AI 發展的重要里程碑，標誌其向更高階 AI 能力邁進。",
+    "highlights": [
+      "Meta 成立超智能實驗室",
+      "發布首款模型產品",
+      "戰略意義重大",
+      "具體技術規格待確認"
+    ],
+    "why_it_matters": "若 Meta 確實成立專門的超智能研發部門，代表其 AI 野心進入新階段，可能重塑行業競爭格局。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方技術規格發布後，評估模型能力是否適合企業自動化流程需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-fortune-meta-muse-spark-alexandr-wang",
+    "title": "Fortune：Meta 發布 Muse Spark 自僱用 Alexandr Wang 後首款新模型",
+    "title_original": "Meta unveils Muse Spark, its first new AI model since hiring Alexandr Wang - Fortune",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUkFNaWRiWlM0NWdvR1lFVE40WVlhN3B0TWtRUG9PTW1vVk9OVkhabnEwSjVCbzBnMUVNeC1YZUJLOV9DVy1sZzZPX0hZWVUyamNnSnkxUEo5MXllbEc5SGsyWW9LSDZQcWNKRzRJeUFNUG5LYlZta1BSdGhkbWxFQmNTbXloUQ?oc=5",
+    "published_at": "2026-04-08T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Fortune 獨家報道 Meta 推出 Muse Spark，這是自聘請 Scale AI 創辦人 Alexandr Wang 加入後發布的首款新型 AI 模型。",
+    "highlights": [
+      "Meta 發布 Muse Spark 模型",
+      "這是 Alexandr Wang 入職後首款發布",
+      "明確的時間線標誌意義",
+      "具體能力細節尚待披露"
+    ],
+    "why_it_matters": "Alexandr Wang 的加入可能為 Meta AI 帶來新動能，Muse Spark 作為其首發產品值得關注技術突破程度。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤 Muse Spark 官方規格，評估其在程式碼生成、數據處理等技術任務上的表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-meta-ai",
     "title": "Meta 正在開源下一代前沿 AI 模型",
     "title_original": "Meta is developing open-source versions of its next frontier AI models - Techzine Global",
@@ -10923,6 +11364,62 @@
     "why_it_matters": "若 Meta 持續擴大開源模型版圖，將加速企業採用開源模型替代商業 API，技術用戶需持續追蹤以重新評估工作流程程中的模型選擇。",
     "automation_angle": null,
     "automation_angle_zh": "技術用戶可觀望官方公告，若屬實則提前測試新模型的能力邊界，評估對現有付費 API 方案的替代可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-meta-ai-gizmodo",
+    "title": "傳Meta下一代AI模型將開源：Gizmodo獨家報導",
+    "title_original": "As Meta Flounders, It Reportedly Plans to Open Source Its New AI Models - Gizmodo",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPejNZRFE2YkZkNTlmM2R4RmxIMW9mRjF3T01OM1V3ZXNTaF9UVW5ibDY2MFcyMUFKQmpoeUJ6TkZUQXE2VWNnX0ktOFZ4bnVoSUlVYTdsWkY4SGRMM0UyYl9rT3Y4dV9LbmYzS2VLSU55WEFIWUhjWmh1SWh0WHNqano3a3FXRzYySlRQVDBwRmhlYWJuRGZRTG9BWnhXZ0JWVTFJ?oc=5",
+    "published_at": "2026-04-06T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Gizmodo引述匿名消息指出，Meta正面臨AI發展困境，計畫將下一代AI模型開源。這是繼Llama系列後，Meta可能再次擴大開源陣容的最新跡象，但具體模型代號與時間表尚未公布。",
+    "highlights": [
+      "消息來源為匿名人士，尚未獲Meta官方證實",
+      "Meta近期在AI競賽中處於落後地位，股價承壓",
+      "Llama系列已建立開源社群基礎，下一代可能延續此策略",
+      "具體開源範圍不明，可能僅釋出部分版本",
+      "此舉可能對封閉模型供應商形成競爭壓力"
+    ],
+    "why_it_matters": "若Meta真的擴大開源，將直接衝擊OpenAI、Anthropic等封閉模型商。對開發者而言，開源模型意味著可本地部署、自行微調，降低API依賴成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "等Meta正式宣布後，可評估新開源模型的效能 benchmark，若接近GPT-4可考慮替代方案，節省每月的API呼叫費用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-axios-meta-ai",
+    "title": "Axios獨家：Meta擬開源下一代AI模型版本",
+    "title_original": "Scoop: Meta to open source versions of its next AI models - Axios",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pY0NnYlFFS0pOMmpUb0doYlRiT0NmYnVuYkZJOTZPZEVuSXhkSnVfdlMxMDFRYWpzT3hwNzZ3SVg0ajM0RXVoVmN1WVY1MjIta0w0TXM5eTk4N0s2WUI4empvRnJ2UEVScWdr?oc=5",
+    "published_at": "2026-04-06T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Axios取得獨家消息，Meta高層正討論在下一代模型發布時，一併開源部分版本。此策略與目前業界封閉為主的趨勢相悖，但可強化Meta在開發者社群的影响力與生態系黏著度。",
+    "highlights": [
+      "Axios報導可信度較高，但仍未獲Meta發言人證實",
+      "消息人士透露開源時間點可能在下一代旗艦模型發布後",
+      "開源版本可能採用與Llama相似的許可模式",
+      "此決定可能與Meta財報壓力及投資人質疑AI策略有關",
+      "開源可吸引更多研究人員使用Meta技術栈"
+    ],
+    "why_it_matters": "對技術用戶而言，Meta開源模型代表可獲得免費、高效能的替代方案，特別是對於需要大量推論或部署在自有基礎設施上的工作負載。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤Meta官方公告，若開源模型發布，立即在 Hugging Face 測試其推論能力與成本效益，評估能否整合進現有自動化流程。",
     "tags": [
       "open-source-ai",
       "rss",
@@ -10985,6 +11482,33 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-postman-claude-on-bedrock-4000-ai-api",
+    "title": "Postman 整合 Claude on Bedrock：4000 萬開發者迎來 AI 原生 API 工作流程",
+    "title_original": "Postman Integrates Anthropic’s Claude on Amazon Bedrock to Bring AI-Native API Development to 40 Million Developers - Business Wire",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOME5jZXVwWlFjWEppcDRrcy1ZaVFCbjQtcHpCNVpwVkE1cDMxVnZDOFNMWU9qb0EtanNFMXZJckVaYVJ5M3RiemQtWVVOeHlBNE9jT2tsYzhTMXVmT2VTZm9ESDlyTkxNd2U5VzhuZTEwLThCSlNHbWsxRnFTTE5vblNJeUFMRTk5YTRKRHprYnFteDVTZ25PN1plT2xHcHh4bkJQa3l2MnI2QVFVZFZmSnF1MUlYNkJfMTBYQ1NPeWI4WkxWLTcwcW12Tjlmd0hxQ3RnTEJ2R0NNNTJyS21icEt0WGhPMHRrSHJfd1ZOOFZobUdxM3Q0cXd5UHY2TTkz?oc=5",
+    "published_at": "2026-03-31T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Postman 宣佈將 Anthropic Claude 整合至 Amazon Bedrock 平台，讓 API 測試工具直接內建 AI 助理功能，目標用戶為 4000 萬 Postman 開發者社群。",
+    "highlights": [
+      "Postman 內建 Claude AI 輔助功能",
+      "基於 Amazon Bedrock 部署，符合企業合規需求",
+      "可直接在 API 請求測試中使用自然語言操作",
+      "40M 開發者潛在用戶群"
+    ],
+    "why_it_matters": "若你日常使用 Postman，此整合可讓你在測試 API 時直接用自然語言驅動，大幅減少操作步驟與上下文切換。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Postman 帳號啟用 Bedrock Claude 擴充，實測「用一句話描述 API 需求並自動生成測試案例」的流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-05-22-gemini-3-1-flash-live",
@@ -11205,6 +11729,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-25-meta-google-openai",
+    "title": "分析：Meta 能在 Google 與 OpenAI 衝刺時暫停嗎？",
+    "title_original": "Avocado on Ice: Can Meta Afford to Pause While Google and OpenAI Sprint Ahead? - 24/7 Wall St.",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQendrMmdSUUowalFrR3Rlc0JzWTEwQjN6cTJOdnFkZnhubnRldmltelAxQ3pXVnZNSUVmUlZXR2lnQ2JIbElNSFF4NWo3NUFCdUFCM2xPdnVnb2RpREtvbWVUVmF6RVFjcS1JNW90ZmlZUnVBeG5tX3NGSzdQUTdmaDRsdnBuYkNGRUd5OFl4dHhkNVltb0lBYTNHWTJZMk1DZk1LYkxyd2ZYNGw5UWVjWHR4SWVlbmdpbzlZTw?oc=5",
+    "published_at": "2026-03-13T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "24/7 Wall St. 分析 Meta 在 AI 競賽中的處境，質疑其是否能負擔在 Google、OpenAI 快速推進時放慢腳步的代價。",
+    "highlights": [
+      "Meta 面臨激烈競爭壓力",
+      "分析師質疑其發展節奏",
+      "與主要對手實力差距備受關注",
+      "純商業分析非技術報道"
+    ],
+    "why_it_matters": "商業分析有助理解 Meta AI 策略背後驅動因素，但對技術評估的直接價值有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀此類分析有助評估 Meta 生態系長期穩定性，作為技術選型風險考量參考。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-25-openai-chatgpt-pro",
     "title": "OpenAI為開源維護者提供半年ChatGPT Pro免費訂閱",
     "title_original": "OpenAI向開源專案開發者/維护提供半年免費ChatGPT Pro訂閱 - cnBeta.COM",
@@ -11366,6 +11917,34 @@
       "agent-skills",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-25-google-openclaw",
+    "title": "Google封鎖OpenClaw事件：封號、羊毛與平台焦慮",
+    "title_original": "谷歌封杀OpenClaw？封号、薅羊毛與巨头焦虑 - 新浪财經",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0yUWlBVU1yZnNhVlkydU9aZzgwN3h5Z1pYTGc0a2RFVXEzWlVZeVFVQ1VWSE1YY1dMR1ZqVHhlWGF4dDViM0dxOUxOajVSR0Ixd2xSYUdDR3poeGMyUkNrZjBDVGU4Z3p2Skxhb3otZlVVa1dWNk90RDhXODhVZw?oc=5",
+    "published_at": "2026-02-25T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "據新浪財經報導，Google近期對OpenClaw工具展開大規模封殺行動，大量用戶帳號遭停權。此事件反映大型AI平台對免費額度濫用的零容忍態度，以及雲端服務商的商業焦慮。技術社群正熱議此舉是否會影響正常開發者生態。",
+    "highlights": [
+      "Google對OpenClaw等自動化工具展開大範圍封號行動",
+      "主要針對利用漏洞或政策灰色地帶薅羊毛的用戶",
+      "平台對免費額度濫用的監管態度日趨嚴格",
+      "可能促使開發者转向付費正當API方案",
+      "此類封殺行動可能成為常態化監管信號"
+    ],
+    "why_it_matters": "對於依賴平台免費額度進行開發的技術用戶，此事件顯示平台監管力度提升，需重新評估工作流程程的合規性風險，避免帳號資源被濫殺無辜。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應審視現有自動化腳本是否符合平台服務條款，建立備用方案或考慮轉向成本可控的付費API，以避免單一平台依賴帶來的業務中斷風險。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -11813,6 +12392,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-25-genspark-2026-40",
+    "title": "Genspark 2026新年促銷：全套餐40%折扣優惠",
+    "title_original": "Genspark 2026新年促销 | 所有套餐享40%折扣🎉 - AFFiNCO",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNQ3NTWXZtaFVSRlRvdlU2T0ZrUUN5YUFPUjg4c09Ea1J4czI5Z1NCOW9LMFF6Qzl0RUotS3ZuVnpCUWJqQ0RtSFFEbnJXdlUzaFlrUHkyQjF4OWdJRWc?oc=5",
+    "published_at": "2026-01-01T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Genspark推出2026新年促銷活動，全線套餐享40%折扣。作為新興AI搜尋引擎產品，此次折扣可能為開發者提供更具成本效益的替代方案。具體套餐內容與使用限制需至官網確認。",
+    "highlights": [
+      "Genspark全線產品套餐提供40%新年折扣",
+      "活動截止時間與具體條款需至AFFiNCO頁面確認",
+      "Genspark定位為AI增強搜尋引擎工具",
+      "此類促銷資訊可能為時效性，需注意有效期",
+      "建議與競爭產品進行功能與價格對比後再做决策"
+    ],
+    "why_it_matters": "對於需要控制AI工具成本的技術用戶，此促銷可能是試用新搜尋引擎工具的窗口期，但需確認服務穩定性與長期定價策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可利用促銷期間以較低成本測試Genspark的AI搜尋能力，評估其是否能替代或補充現有工作流程程中的資訊檢索環節。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-24-google-gemini-3-agent",
