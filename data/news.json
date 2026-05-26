@@ -1,5 +1,176 @@
 [
   {
+    "id": "2026-05-26-lilbee-mcp",
+    "title": "lilbee：整合本地模型、檔案搜尋與網頁爬取的 MCP 工具",
+    "title_original": "tobocop2/lilbee",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tobocop2/lilbee",
+    "published_at": "2026-05-26T00:24:53Z",
+    "category": "agent-skills",
+    "summary": "一個新興開源專案（19 stars），可在單一程式內執行本地 AI 模型、搜尋檔案與程式碼、以及爬取網頁。支援 TUI、CLI、REST API 與 Python 函式庫，並提供 MCP server 供編碼代理使用。",
+    "highlights": [
+      "• 整合本地模型推論、檔案搜尋、網頁爬取三大功能",
+      "• 支援 TUI、CLI、REST API 三種介面",
+      "• 提供 MCP server 相容主流 AI 編碼代理",
+      "• Python 實作，REST API 易於串接",
+      "• 19 stars 表示專案初期，仍在社群建立階段"
+    ],
+    "why_it_matters": "若能以單一工具滿足本地推論加檔案/網頁檢索需求，可簡化 AI 工作流程架構。MCP server 整合則讓編碼代理能直接呼叫此工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術者可部署 lilbee 至個人伺服器，用 MCP server 將其接入 Cursor 或 Claude Code，實現「問本地程式碼庫」與「搜網路資料」的統一代理介面。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/5562156?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-ai",
+    "title": "教宗利奧十四世發布 AI 人類尊嚴通諭，涵蓋可解釋性與問責問題",
+    "title_original": "Notes on Pope Leo XIV's encyclical on AI",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-everything",
+    "published_at": "2026-05-25T23:58:17+00:00",
+    "category": "hot-topics",
+    "summary": "梵蒂岡正式發布《Magnifica Humanitas》通諭，由教宗利奧十四世署名，專門探討 AI 時代人類尊嚴保障議題。文件涵蓋可解釋性限制、演算法偏見、環保代價與權力集中風險。",
+    "highlights": [
+      "第 98 節指出：當前 AI 是「培育」而非「建造」，設計者對內部運作理解有限",
+      "第 100 節提醒：AI 回應看似客觀，實則反映設計者的文化假設與訓練資料偏見",
+      "第 101 節強調：大模型對能源、水資源需求龐大，需發展更永續的技術方案",
+      "第 102 節警示：涉及就業、信用等敏感決策不應完全委託缺乏憐憫與寬恕能力的自動化系統",
+      "文件引用托爾金名言，呼籲「以謙遜姿態在所知範圍內剷除邪惡」"
+    ],
+    "why_it_matters": "此通諭代表宗教領袖對 AI 風險最正式的系統性聲明，其可解釋性、問責機制與資料公共性的論述，將影響未來監管政策方向，技術人員需關注其具體影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀第 98-108 節核心段落，將其可解釋性與問責要求轉化為自家 AI 產品的合規自查清單。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-openai-chatgpt",
+    "title": "OpenAI 與巴西媒體簽署首份合作協議，ChatGPT 新聞功能持續擴張",
+    "title_original": "OpenAI signs first Brazil media partnership as ChatGPT news expansion continues",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tnprm6/openai_signs_first_brazil_media_partnership_as/",
+    "published_at": "2026-05-25T23:42:23+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 宣布與巴西媒體簽署首份合作協議，為 ChatGPT 新聞功能提供內容授權。此為 OpenAI 在拉丁美洲的首個媒體夥伴關係，反映其持續擴充 AI 訓練與即時資訊來源的策略。",
+    "highlights": [
+      "巴西為 ChatGPT 新聞功能的首個拉丁美洲合作夥伴",
+      "屬內容授權協議，非訓練數據直接購買",
+      "是 OpenAI 持續擴張媒體合作的最新動作",
+      "合作細節與金額未對外公開",
+      "可能引發其他地區媒體談判類似合作"
+    ],
+    "why_it_matters": "此協議顯示 OpenAI 持續在內容授權市場布局，未來可能影響搜尋引擎與新聞平台的流量與營收結構，技術人員需關注 RAG 與搜索整合的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估 API 用量與成本變化，若 ChatGPT 新聞功能逐步取代傳統搜索，可能需要加強自建 RAG 系統的優先級。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-robotics-agent-skills-ai",
+    "title": "robotics-agent-skills：讓 AI 編碼助理撰寫生產級機器人軟體",
+    "title_original": "arpitg1304/robotics-agent-skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/arpitg1304/robotics-agent-skills",
+    "published_at": "2026-05-25T23:26:20Z",
+    "category": "agent-skills",
+    "summary": "一個 GitHub 開源專案（232 stars），提供 AI 編碼助理編寫 ROS1/ROS2 機器人軟體的技能集合。內含設計模式、SOLID 原則與測試指南，相容 Claude Code、Cursor、Copilot 及其他 SKILL.md 格式代理。",
+    "highlights": [
+      "• 專為 ROS1 與 ROS2 開發場景設計",
+      "• 涵蓋 SOLID 設計原則與生產級程式碼規範",
+      "• 含單元測試與整合測試指引",
+      "• SKILL.md 格式相容多種 AI 編碼助理",
+      "• Python 為主，232 stars 顯示有一定社群關注"
+    ],
+    "why_it_matters": "機器人軟體開發需要嚴謹的架構與測試，若能讓 AI 代理直接產出符合標準的 ROS 程式碼，可大幅提升嵌入式/機器人專案的開發效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "從事機器人或嵌入式開發的技術者可將此技能集整合至 Cursor 或 Copilot，直接用自然語言生成 ROS2 功能節點並自動通過測試。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/16556719?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-a2a-200-mcp",
+    "title": "A2A 目錄專案收藏量破 200 星， MCP 代理整合新基準",
+    "title_original": "sing1ee/a2a-directory",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sing1ee/a2a-directory",
+    "published_at": "2026-05-25T23:05:56Z",
+    "category": "agent-skills",
+    "summary": "sing1ee 在 GitHub 發布 A2A 目錄開源專案，收錄 Agent2Agent 協定的 AgentCards、Servers、Clients 與文件。目前已獲 234 個星標，為開發者提供統一的 AI 代理互聯標準參考。",
+    "highlights": [
+      "收錄 A2A 協定的核心元件範例，包含 AgentCards 格式定義",
+      "提供 Servers 與 Clients 的基礎實作範本",
+      "匯總官方與社群文件資源連結",
+      "星標數快速增長反映代理互聯需求上升",
+      "可用於快速評估是否符合自家代理系統需求"
+    ],
+    "why_it_matters": "A2A 協定正成為 AI 代理間溝通的關鍵標準，此目錄提供立即可用的實作起點，省去開發者從零研究協議文件的時間成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "clone 此專案，以 AgentCards 格式定義自家代理的能力描述，加速與其他 A2A 相容代理的整合測試。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1057882?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-apify-awesome-skills-apify",
+    "title": "apify/awesome-skills：Apify 代理技能開源集合",
+    "title_original": "apify/awesome-skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/apify/awesome-skills",
+    "published_at": "2026-05-25T21:26:30Z",
+    "category": "agent-skills",
+    "summary": "Apify 社群維護的開源技能庫（185 stars），收錄各式 AI 代理適用的技能，方便開發者快速擴展 AI 編碼助理能力。Python 為主體語言。",
+    "highlights": [
+      "• 社群驅動的代理技能集合",
+      "• 185 stars，具備一定社群採用度",
+      "• Python 為主要實作語言",
+      "• 可擴充 AI 編碼助理的功能邊界",
+      "• 建議實際瀏覽具體技能內容評估實用性"
+    ],
+    "why_it_matters": "代理技能格式逐漸成為 AI 編碼助理的標準擴充機制，apify/awesome-skills 提供可參考的技能實作範本與實用工具集。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術者可瀏覽技能列表，將適合工作流程的技能（如網頁操作、資料爬取）整合至現有 AI 編碼助理，提升自動化腳本生成能力。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/24586296?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-25-mcpland-webpage-mcp-mcp-server",
     "title": "mcpland/webpage-mcp：將任意网頁轉換為 MCP server 的工具",
     "title_original": "mcpland/webpage-mcp",
