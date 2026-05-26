@@ -1,5 +1,545 @@
 [
   {
+    "id": "2026-05-26-tongyi-mai-z-image-turbo-hugging-face",
+    "title": "阿里通義 Tongyi-MAI/Z-Image-Turbo 文字生成圖像模型衝上 Hugging Face 熱榜",
+    "title_original": "Tongyi-MAI/Z-Image-Turbo",
+    "source": "Hugging Face Trending Models",
+    "source_url": "https://huggingface.co",
+    "original_url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
+    "published_at": "2026-05-26T18:46:41.059222+00:00",
+    "category": "open-source-ai",
+    "summary": "阿里巴巴通義實驗室發布的 Z-Image-Turbo 文字生成圖像模型在 Hugging Face 獲得超過 4,600 個讚與 120 萬次下載，採用 Apache-2.0 開源許可。支援 Diffusers 框架與 Safetensors 安全格式，可部署至 Azure。基於多篇 ArXiv 論文（2511.22699、2511.22677、2511.13649）開發。",
+    "highlights": [
+      "Hugging Face 4684 個讚、121 萬次下載，社群熱度高",
+      "Apache-2.0 許可允許商業使用，無授權費用風險",
+      "原生支援 Diffusers ZImagePipeline，與主流開源生態接軌",
+      "支援 Safetensors 格式，確保模型權重安全性與快速載入",
+      "可部署至 Azure，符合企業雲端基礎設施需求"
+    ],
+    "why_it_matters": "阿里通義開源圖像生成模型取得驚人的社群採用率，代表中國 AI 開源能力已進入國際舞台。Apache-2.0 許可讓技術人員零成本在商業產品中使用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可使用 Z-Image-Turbo 替代部分付費圖像生成需求，例如自動生成行銷素材縮圖、使用者頭像或文件插圖，評估時可先用 Diffusers 快速本地推斷（Inference）測試生成品質。",
+    "tags": [
+      "open-source-ai",
+      "hf_models",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-26-rhinomcp-ai-agent-rhino-3d-mcp",
+    "title": "RhinoMCP：AI Agent 驅動 Rhino 3D 建模與編輯的 MCP 伺服器",
+    "title_original": "mcneel/RhinoMCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mcneel/RhinoMCP",
+    "published_at": "2026-05-26T18:46:07Z",
+    "category": "agent-skills",
+    "summary": "RhinoMCP 是由 McNeel 官方團隊維護的 MCP 伺服器，讓 AI Agent 能夠以自然語言指令創建與編輯 Rhino 3D 模型。支援 Rhino 的參數化建模能力與 Grasshopper 腳本整合，為 AI 生成式設計與建築、工程領域的自動化建模開闢新場景。",
+    "highlights": [
+      "由 McNeel 官方支援，版本更新有保障",
+      "支援 Rhino 完整建模功能與腳本擴展",
+      "可對接 Grasshopper，實現參數化設計自動化",
+      "C# 實作，與 Rhino 生態無縫整合",
+      "88 Stars，專業領域關注度穩定"
+    ],
+    "why_it_matters": "將 AI Agent 能力延伸至專業 3D 建模領域，讓設計師能以自然語言驅動 CAD 工作流程，是 AI 輔助設計從 2D 走向 3D 的信號，值得關注其生態發展。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可評估 RhinoMCP 在自動化建模流程中的穩定性，測試 AI 生成設計參數並導出至製造流程的可能性，探索建築或工業設計領域的 AI 自動化落地。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/518254?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-devboy-tools-rust-ai-coding-mcp-cli-agent-skills",
+    "title": "devboy-tools：Rust 實作的可配置 AI  coding 工具包，支援 MCP/CLI/Agent Skills",
+    "title_original": "meteora-pro/devboy-tools",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/meteora-pro/devboy-tools",
+    "published_at": "2026-05-26T18:39:31Z",
+    "category": "agent-skills",
+    "summary": "devboy-tools 是 meteora-pro 推出的可配置工具包，為 AI coding Agent 提供一套預設的開發輔助能力。Rust 實作的核心二進制檔案通過 npm 包裝，支援 MCP 協定、CLI 介面與 Agent Skills 三種接入方式，適合需要高效本地工具鏈的開發者。",
+    "highlights": [
+      "Rust 實作確保高效能與低記憶體佔用",
+      "支援 MCP、CLI、Agent Skills 三種接入模式",
+      "npm 封裝簡化 Node.js 生態整合流程",
+      "可配置性高，可依團隊需求客製工具集",
+      "適合追求本地端高效工具鏈的技術團隊"
+    ],
+    "why_it_matters": "Rust 底層 + npm 上層的設計兼顧效能與易用性，為 AI coding Agent 提供一個輕量、高效能的本地工具層選擇，有助於減少對雲端 AI 工具的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將 devboy-tools 整合進本地 AI coding 流程，測試其在大型專案中的工具呼叫效能，評估是否能在特定場景替代或輔助現有雲端 AI coding 助理。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/72404657?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-microsoft-azure-devops-mcp-server-agent-ci-cd",
+    "title": "Microsoft 官方發布 Azure DevOps MCP Server，Agent 可直接操控 CI/CD 管線",
+    "title_original": "microsoft/azure-devops-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/microsoft/azure-devops-mcp",
+    "published_at": "2026-05-26T18:33:24Z",
+    "category": "agent-skills",
+    "summary": "微軟正式開源 azure-devops-mcp，專為 Azure DevOps 打造的 MCP（Model Context Protocol）伺服器。Agent 可透過 MCP 協議直接執行建立 Repo、觸發 Build、查詢 Release 狀態等操作，無需手動操作 UI 或 CLI。目前已獲 1,730 個 GitHub Stars，TypeScript 實作。",
+    "highlights": [
+      "MCP 協議讓 Agent 具備標準化工具呼叫能力，符合業界趨勢",
+      "支援常見 DevOps 操作：Repo 管理、Build 觸發、Release 查詢",
+      "TypeScript 實作，方便前端/全端工程師閱讀與貢獻",
+      "微軟官方維護，長期支援與更新有保障",
+      "與 Claude Desktop、Cursor 等支援 MCP 的 Agent 工具無縫整合"
+    ],
+    "why_it_matters": "MCP 協議正在成為 Agent 工具生態的標準介面。微軟搶先發布 Azure DevOps MCP，意味著 AI Agent 進入企業 CI/CD 自動化時代，技術人員可第一時間建構「說話操控 Build」的工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將 Claude Desktop 或 Cursor 連接 azure-devops-mcp，實現「用自然語言觸發部署、查詢建置狀態、自動化 Release 筆記生成」等常見 DevOps 任務，評估時可先在本地 DevOps 組織中測試 MCP 連線。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-26-pgmcp-postgresql-mcp",
+    "title": "pgmcp：用自然語言查詢任意 PostgreSQL 資料庫的 MCP 伺服器",
+    "title_original": "subnetmarco/pgmcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/subnetmarco/pgmcp",
+    "published_at": "2026-05-26T18:24:45Z",
+    "category": "agent-skills",
+    "summary": "pgmcp 是一款用 Go 實作的 MCP 伺服器，允許 AI Agent 以自然語言直接查詢任何 PostgreSQL 資料庫，無需撰寫 SQL。支援動態 Schema 解析並生成對應查詢語句，529 個 GitHub Stars 顯示其在開源社區已獲得顯著關注，實用性較高。",
+    "highlights": [
+      "自然語言轉 SQL，消除 SQL 撰寫門檻",
+      "Go 語言高效實作，適合生產環境部署",
+      "動態解析資料庫 Schema，支援結構變化的資料庫",
+      "529 Stars，社區認可度高，維護積極",
+      "可作為 Data Agent 的核心工具層"
+    ],
+    "why_it_matters": "讓非 SQL 專業的開發者或 AI Agent 能直接操作資料庫，大幅縮短從需求到資料獲取的路徑，是資料分析與自動化報表場景的理想工具層。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將 pgmcp 整合進內部資料查詢工作流程，讓非技術同事透過自然語言提問取數，同時觀察其 SQL 生成準確率與效能表現，作為選型參考。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/964813?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-26-agent-agent",
+    "title": "將本地 Agent 轉化為自我優化 Agent 的方法",
+    "title_original": "Turning local agents into self-optimizing agents",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1toejzp/turning_local_agents_into_selfoptimizing_agents/",
+    "published_at": "2026-05-26T17:51:07+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/LocalLLaMA 討論將本地部署的 LLM Agent 改造為能根據任務反饋自動調整提示詞、工具選擇與執行策略的自我優化系統。",
+    "highlights": [
+      "利用任務成功率動態調整系統提示",
+      "根據回應品質自動啟用或禁用特定工具",
+      "學習使用者偏好與任務模式",
+      "可能涉及 LoRA 微調或元學習機制",
+      "需注意本地部署的算力與延遲限制"
+    ],
+    "why_it_matters": "自我優化 Agent 能減少人工調參成本，讓本地模型在工作流程程中持續改善，是提升本地 AI 生產力的重要方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可實作一個元 Agent 監控子 Agent 的每次執行，根據 KPI（速度、準確率）自動修改提示模板，形成閉環學習系統。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-clawql-mcp-openapi-swagger-gcp-api",
+    "title": "ClawQL：MCP 伺服器一鍵對接 OpenAPI/Swagger/GCP 等熱門 API",
+    "title_original": "danielsmithdevelopment/ClawQL",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/danielsmithdevelopment/ClawQL",
+    "published_at": "2026-05-26T17:44:35Z",
+    "category": "agent-skills",
+    "summary": "ClawQL 是專為 AI Agent 設計的 MCP 伺服器，可對 OpenAPI 3、Swagger 2 或 Google Discovery 規格進行自然語義搜尋與執行。內建 GCP Top 50、Cloudflare、Jira、GitHub、Slack、Sentry、n8n 等熱門 API 規格組合，Agent 無需將完整 API 定義載入上下文即可動態發現與呼叫操作，降低 token 消耗並提升上下文效率。",
+    "highlights": [
+      "支援 OpenAPI 3、Swagger 2、Google Discovery 三種主流 API 規格解析",
+      "內建多供應商預設規格（GCP、Cloudflare、Jira、GitHub 等），開箱即用",
+      "可選 GraphQL 轉接層，輸出精簡 payload 節省上下文",
+      "TypeScript 實作，易與現有 MCP 生態整合",
+      "適合需要動態對接多種外部 API 的 Agent 工作流程"
+    ],
+    "why_it_matters": "讓 AI Agent 在不佔用大量 token 的情況下動態探索與呼叫外部 API，解決多 API 整合時上下文溢位的痛點，直接提升 Agent 的工具調用能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將 ClawQL 整合進自架 Agent 流程，用自然語言查詢 Jira Issue 或操作 GitHub Repo，測試不同 API 供應商對 Agent 的適配程度與 token 節省效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/25157442?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-agentic-ai-apis-2-036-ai-agent-api",
+    "title": "agentic-ai-apis：收錄 2,036 個 AI Agent 生產就緒 API 的開源合集",
+    "title_original": "cporter202/agentic-ai-apis",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/cporter202/agentic-ai-apis",
+    "published_at": "2026-05-26T17:37:01Z",
+    "category": "agent-skills",
+    "summary": "cporter202 維護的 agentic-ai-apis 專案彙整了 2,036 個可用於建構自主 AI Agent 的生產就緒 API，涵蓋 Agents、AI Models、MCP Servers 三大類別。行銷語為「停止浪費數週建構基礎設施，直接接入並發布你的 Agent」。JavaScript 實作，目前 321 個 Stars。",
+    "highlights": [
+      "2,036 個 API 涵蓋範圍廣，號稱涵蓋 Agent 開發常見需求",
+      "分類清晰：Agents、AI Models、MCP Servers 三軸",
+      "JavaScript/TypeScript 實作，與主流 Web 技術棧相容",
+      "可作為快速原型工具，減少初期 API 調研時間",
+      "321 Stars 顯示社群初期關注度，文件品質需自行驗證"
+    ],
+    "why_it_matters": "Agent 開發者常耗費大量時間尋找合適的外部 API。該專案提供統一入口，降低前期研究成本，但目錄涵蓋度與 API 穩定性需技術人員自行把關。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員在原型階段可利用 agentic-ai-apis 快速找到所需工具 API（例如天氣、郵件、日曆整合），直接引入專案以加速 Agent 功能疊代，評估時建議先抽樣測試 3-5 個 API 的可用性再全面採用。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/163957687?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-langchain-self-hosted-langsmith-kubernetes",
+    "title": "LangChain 推出 Self-Hosted LangSmith Kubernetes 控制台",
+    "title_original": "Mission Control for Self-Hosted LangSmith on Kubernetes",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/mission-control-operating-self-hosted-langsmith-on-kubernetes",
+    "published_at": "2026-05-26T17:32:52+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 Mission Control 功能，專為自托管 LangSmith on Kubernetes 設計。提供叢集內配置、預檢查、運行狀態監控、發布管理與診斷工具，簡化企業級 LangChain 部署維運。",
+    "highlights": [
+      "Kubernetes 原生部署工具",
+      "預檢查機制降低部署風險",
+      "健康狀態視覺化監控",
+      "支援診斷與 Release 管理",
+      "面向企業級 AI Agent 維運需求"
+    ],
+    "why_it_matters": "對於需要自托管 LLM 追蹤與監控的團隊，此工具可降低 Kubernetes 環境下的維運複雜度，減少除錯時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於自動化部署 LangChain 應用的 CI/CD pipeline，搭配預檢查機制確保部署穩定性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-raymon-ray-tui-mcp-server-rust",
+    "title": "Raymon：Ray 追蹤日誌 TUI 與 MCP Server（Rust 實作）",
+    "title_original": "bnomei/raymon",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/bnomei/raymon",
+    "published_at": "2026-05-26T17:09:04Z",
+    "category": "agent-skills",
+    "summary": "bnomei/raymon 是 Rust 實作的 Ray 分散式訓練日誌視覺化工具，同時提供 MCP Server 介面。具備 17 顆星，可整合至 AI Agent 工作流程中查詢 Ray 任務狀態。",
+    "highlights": [
+      "Rust 語言實作，效能與記憶體效率佳",
+      "提供 TUI 終端介面檢視 Ray 任務日誌",
+      "MCP Server 規格可被 AI Agent 直接呼叫",
+      "可用於監控分散式訓練/推論任務",
+      "開源可自行部署，無第三方依賴"
+    ],
+    "why_it_matters": "Ray 是許多大型模型訓練框架的底層排程引擎，能直接查詢其日誌可大幅提升除錯效率。MCP 整合讓 AI Agent 能主動監控長時間任務狀態。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 raymon MCP Server 部署後，可讓 Claude/GPT-4 等 Agent 在執行長時間訓練任務時自動查詢進度、錯誤並發出告警，無需手動 SSH 進叢集。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3265642?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-openai",
+    "title": "用戶稱 OpenAI 圖像生成能力大幅領先其他工具",
+    "title_original": "OpenAI image generation is just superior to any other tools and it's not even close",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tobxoz/openai_image_generation_is_just_superior_to_any/",
+    "published_at": "2026-05-26T16:22:26+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶議論 OpenAI 圖像生成功能在品質與功能上與競品拉開明顯差距，表示實際使用體驗後感受強烈，但此說法僅代表個人主觀意見缺乏量化驗證。",
+    "highlights": [
+      "僅為 Reddit 論壇用戶主觀評價非獨立測試",
+      "未提供具體對比數據或評測方法",
+      "OpenAI 目前主力為 DALL-E 3 整合至 ChatGPT",
+      "其他競品包括 Midjourney、Stable Diffusion、Adobe Firefly",
+      "技術人員建議等待可控的第三方評測報告"
+    ],
+    "why_it_matters": "圖像生成能力影響設計自動化工作流程，若 OpenAI真有實質突破將改變 AI 工具選型，技術人員需核實而非盲從論壇說法。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可自行設計 Prompt 對比測試，通過 GPT-4o + DALL-E 與其他工具在相同條件下生成圖像，評估工作流程整合便利性與輸出品質。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-microsoft-copilot-cowork",
+    "title": "Microsoft Copilot Cowork 存在郵件橫向滲透風險",
+    "title_original": "Microsoft Copilot Cowork Exfiltrates Files",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything",
+    "published_at": "2026-05-26T15:36:48+00:00",
+    "category": "hot-topics",
+    "summary": "Simon Willison 揭露 Microsoft Copilot Cowork 產品的安全漏洞：Agent 發送的郵件可夾帶外部圖片，觸發外網請求後結合 OneDrive 預認證連結，實現檔案外洩攻擊。",
+    "highlights": [
+      "Agent 可未經審批向使用者自身發送郵件",
+      "郵件中的外部圖片 URL 會觸發第三方請求",
+      "OneDrive 預認證下載連結可被洩漏",
+      "攻擊者可透過 prompt injection 組合利用",
+      "Simon Willison 稱之為「Lethal Trifecta」攻擊鏈"
+    ],
+    "why_it_matters": "這是 AI Agent 系統設計中資料外洩風險的具體案例，任何 Agent 具備郵件或檔案存取權限時都可能存在類似弱點。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發類似 Agent 功能時須實作外部資源載入的白名單機制，並對 OneDrive/Google Drive 的預認證連結實施存取審計，禁用自動內嵌。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-26-moss-tts-v1-5-hugging-face",
+    "title": "MOSS-TTS-v1.5 開源語音合成模型登陸 Hugging Face",
+    "title_original": "OpenMOSS-Team/MOSS-TTS-v1.5 · Hugging Face",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1toah65/openmossteammossttsv15_hugging_face/",
+    "published_at": "2026-05-26T15:32:45+00:00",
+    "category": "open-source-ai",
+    "summary": "上海復旦大學 MOSS 團隊發布 MOSS-TTS-v1.5，支援中文的開源文字轉語音模型，可本地部署。模型採用深度學習架構，強調推論效率與語音自然度，社群已開始在本地環境測試其表現。",
+    "highlights": [
+      "開源 TTS 模型，支援中文語音合成",
+      "可離線部署，保障資料隱私",
+      "推論效率優於前代版本",
+      "Hugging Face 托管，方便快速試用",
+      "適合需要本地語音生成的技术場景"
+    ],
+    "why_it_matters": "本地 TTS 模型可降低 API 費用與網路依賴，對需要語音客服、輔助工具或有隱私需求的開發者有直接價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合到自動客服、無障礙閱讀工具，或用於自動化生成語音回覆，降低對雲端 TTS API 的依賴。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-paul-graham-ai",
+    "title": "Paul Graham 觀點：AI 撰寫郵件正在破壞溝通信任",
+    "title_original": "Quoting Paul Graham",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/26/paul-graham/#atom-everything",
+    "published_at": "2026-05-26T15:02:30+00:00",
+    "category": "hot-topics",
+    "summary": "Paul Graham 指出創辦人現在大量使用 AI 撰寫郵件，導致風格趨同且易被識別。他認為用 AI 代寫郵件是一種欺騙行為，會降低作者在收件人心中的聲譽。",
+    "highlights": [
+      "AI 撰寫郵件導致風格同質化",
+      "接收方可識別 AI 生成內容",
+      "創辦人濫用 AI 撰寫商務郵件",
+      "此趨勢正在破壞溝通信任",
+      "引發對 AI 輔助寫作邊界的反思"
+    ],
+    "why_it_matters": "對技術從業者而言，此觀察揭示 AI 寫作工具的濫用風險，提醒在專業場合需注意 AI 使用方式與透明度。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估內部 AI 寫作政策時可參考此觀點，避免客戶溝通中過度依賴 AI 生成內容造成信任損失。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-clawlite-linux-ai-gateway-skills-agent",
+    "title": "ClawLite：開源 Linux 本地 AI 助理，支援 Gateway、Skills 與多 Agent 協作",
+    "title_original": "eobarretooo/ClawLite",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/eobarretooo/ClawLite",
+    "published_at": "2026-05-26T15:00:33Z",
+    "category": "agent-skills",
+    "summary": "ClawLite 是一款開源的 Linux 本地 AI 助理框架，具備 Gateway 路由、Skills 技能註冊與多 Agent 協作能力。開發者可在本地環境快速部署具有工作流程编排能力的 AI 系統，無需依赖雲端服務，適合注重資料隱私與自托管的技術團隊。",
+    "highlights": [
+      "支援本地 Linux 部署，資料不經過第三方雲端",
+      "Gateway 模組提供流量路由與負載均衡機制",
+      "Skills 系統允許動態註冊與組合 AI 技能",
+      "多 Agent 協作模式支援分工與訊息傳遞",
+      "Python 實作，社區可快速fork與客製化"
+    ],
+    "why_it_matters": "提供一個可完全自控的本地 AI 助理框架，技術團隊能在不暴露資料的前提下實現 Agent 自動化，填補開源本地 AI 助理在 Skills 與協作機制上的空白。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將 ClawLite 作為本地 AI 自動化中樞，部署後串接自訂 Skills 處理重複性工作，如日誌分析、系統監控或開發環境初始化，評估其與雲端方案的穩定性差異。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/66846166?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-dlmserve-diffusion-language-model",
+    "title": "dlmserve：首個 Diffusion Language Model 推論引擎",
+    "title_original": "[OSS] dlmserve - first serving engine for diffusion language models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1to95ja/oss_dlmserve_first_serving_engine_for_diffusion/",
+    "published_at": "2026-05-26T14:46:41+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 出現 dlmserve 專案，宣稱是首個專為 Diffusion Language Model（擴散語言模型）設計的 serving 引擎。",
+    "highlights": [
+      "針對新型擴散式語言生成架構優化",
+      "解決 DLM 推論的獨特計算模式",
+      "開源可供社群測試與貢獻",
+      "詳細效能數據與部署文件待補",
+      "屬早期專案，穩定性有待驗證"
+    ],
+    "why_it_matters": "擴散語言模型是新興架構方向，專屬 serving 引擎的出現代表該領域正從研究走向實際部署準備。",
+    "automation_angle": null,
+    "automation_angle_zh": "可 clone repo 嘗試部署，觀察其在 GPU 上的吞吐量與延遲表現，搶先熟悉 DLM 部署流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-harbor-v0-4-19-vllm-sglang-llama-cpp",
+    "title": "Harbor v0.4.19 新增 vllm/sglang/llama.cpp 啟動支援，代碼助理整合升級",
+    "title_original": "Harbor v0.4.19 - vllm/sglang/llama.cpp launch codex/claude/pi/opencode",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1to8t53/harbor_v0419_vllmsglangllamacpp_launch/",
+    "published_at": "2026-05-26T14:34:19+00:00",
+    "category": "open-source-ai",
+    "summary": "Harbor v0.4.19 版本在 LocalLLaMA 社區引發討論，新版新增對 vllm、sglang、llama.cpp 等推論引擎的啟動支援，並整合 codex、claude、pi、opencode 等多種代碼助理。作為本地大模型部署框架的更新，其對 sglang 的支援值得關注，因 sglang 在推論速度上有顯著優勢。",
+    "highlights": [
+      "新增 vllm 推論引擎支援，高吞吐量推論",
+      "新增 sglang 支援，推論速度領先同類方案",
+      "新增 llama.cpp 後端，支援量化模型低資源運行",
+      "整合 codex、claude、pi、opencode 等多代碼助理",
+      "版本細節與 changelog 需進一步查閱官方 Repo"
+    ],
+    "why_it_matters": "Harbor 對 sglang 的支援預示著本地部署框架正在整合更高效的推論後端，若 sglang 整合成熟，可大幅提升本地 AI coding 體驗，是值得追蹤的技術演進方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可更新至 v0.4.19，測試 sglang 後端搭配自有模型的推論延遲與吞吐量，評估其在本地 AI coding 自動化流程中的實際效益。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-xai-grok-opencode",
+    "title": "xAI Grok 模型接入 OpenCode 完整指南",
+    "title_original": "How to Use Grok in OpenCode: Full Setup Guide With xAI API - memeburn.com",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQV3JKYUF2V0wtT3UyZHdNU2xWTEM2VEZfWG9rLVBkUTBncXU5TXEzSnNmX0pNRUtGMkU1cVZlOHB6Yk1MWjBDeDgxd3AxQmNYN0RmcEFHNkllWXpvcUNUekpFTzVneDUtaFdtSzNpNDJzd3Roa3dXeE40MDMxTmxjTnF5Uzg5dw?oc=5",
+    "published_at": "2026-05-26T13:30:13+00:00",
+    "category": "agent-skills",
+    "summary": "memeburn.com 發布如何在 OpenCode 開發環境中整合 xAI Grok 模型的逐步教學，含 API 金鑰設定、模型路由配置與提示詞最佳化建議。",
+    "highlights": [
+      "詳細說明 xAI API 端點與驗證流程",
+      "OpenCode 與 Grok 的對話補全整合步驟",
+      "提示詞工程與系統提示設定技巧",
+      "涵蓋流式輸出與非同步呼叫範例",
+      "可作為自架模型閘道的參考範本"
+    ],
+    "why_it_matters": "Grok 是少數非 OpenAI/Anthropic 陣營的強大模型，接入 OpenCode 可為開發者提供替代選項，在特定任務上可能更具成本效益。",
+    "automation_angle": null,
+    "automation_angle_zh": "透過此指南可將 Grok 設為 OpenCode 的預設模型，搭配本地快取與備援路由，實作自動降級與成本控制的工作流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-26-keye-vl-2-0-30b-a3b-dsa-attention",
+    "title": "Keye-VL-2.0-30B-A3B：首創 DSA Attention 融合多模態",
+    "title_original": "Keye-VL-2.0-30B-A3B -- Introducing DSA attention into multimodality for the first time",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1to63rt/keyevl2030ba3b_introducing_dsa_attention_into/",
+    "published_at": "2026-05-26T12:55:05+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 揭露 Keye-VL-2.0-30B-A3B 模型，創新地將 DSA（Dynamic Sparse Attention）機制引入多模態架構，號稱兼顧視覺理解與計算效率。",
+    "highlights": [
+      "30B 參數規模，支援視覺與語言雙模態",
+      "DSA Attention 可動態稀疏化計算，減少資源耗費",
+      "首次將稀疏注意力與多模態任務結合",
+      "具體 benchmark 與應用場景尚未完整揭露",
+      "屬於開源社群自發性研究項目"
+    ],
+    "why_it_matters": "DSA Attention 若能有效降低視覺語言模型的推論成本，對在本地部署多模態助理具有重要參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可下載權重並測試其文件分析、圖表理解能力，評估是否能在消費級 GPU 上流暢運行。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-26-zettelforge-cti-agent",
     "title": "ZettelForge：CTI 用途的 Agent 記憶系統",
     "title_original": "rolandpg/zettelforge",
@@ -11448,6 +11988,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-26-cnbc-meta-ai",
+    "title": "CNBC 分析：Meta AI 模型展現潛力但投資人關注策略清晰度",
+    "title_original": "Meta's new AI model shows early promise, but investors want to see Zuckerberg's strategy - CNBC",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONnpIZGlVLUM0LTN0YjVLdGVwR0I2VVFLOEhoN3o1NjVVamJzdlJCS3FpYjh4TDhCMjZHbzVLM21fV1EzcEM0VkZWYjhaRDMtaFJpQVAyR3NhcTQybDdtSkdoZV90NUVqZWhHNVZVY0RjdGV2aUlhUk84eFFoT1FXMUFDdzM4dEpYdVZ4dHlYY0czUVNiR281b09TZ2JLaElwcnBlb19qSTPSAa4BQVVfeXFMTVVNRmp3c1pmZGFIZ2RNQzZYanRHcHBiUmVfNlJIbmw0aU1Eb016ZTZJYzBKWXdVckNhSGd4SlZoRXdkeXU4cmVfSHl4LWVNTWtyX2E4QUZwX3o2RHM1MmZUVk5kMkhSTW9qYzljYUxMQzFzSDZQMGxXX2FCMFJDVVB1bTVOam41dFJrUW93WjhGRFlpSGpBMTh4WUI3eFhCQm4taTZpWHpFX3hEa0hR?oc=5",
+    "published_at": "2026-04-28T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "CNBC 報導 Meta 發布新 AI 模型後獲得初步好評但投資人對執行策略存疑，焦點在於如何將AI能力轉化為可持續營收與廣告業務增長。",
+    "highlights": [
+      "Meta AI 為 Llama 系列模型持續迭代",
+      "投資人担忧 AI 投入與變現路徑不明",
+      "Llama 開源特性吸引開發者生態",
+      "Meta 強調 AI 整合至核心廣告系統",
+      "競爭對手包括 Google Gemini 與 OpenAI GPT 系列"
+    ],
+    "why_it_matters": "Llama 系列的演進直接影響開源 AI 工具生態與自托管部署成本，技術人員的模型選型可能隨之調整，值得關注後續版本發布節奏。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載最新 Llama 模型至本地或雲端集群，評估推論速度與任務表現，用於成本敏感的Private部署場景。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-23-google-deepmind-ai",
