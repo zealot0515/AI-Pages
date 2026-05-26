@@ -1,5 +1,207 @@
 [
   {
+    "id": "2026-05-26-zettelforge-cti-agent",
+    "title": "ZettelForge：CTI 用途的 Agent 記憶系統",
+    "title_original": "rolandpg/zettelforge",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/rolandpg/zettelforge",
+    "published_at": "2026-05-26T12:52:24Z",
+    "category": "agent-skills",
+    "summary": "專為網路威脅情報（CTI）設計的 Agent 記憶框架。支援 STIX 知識圖譜、威脅 actor 別名解析、離線優先 RAG，並提供 MCP 伺服器供 Claude Code 與 LangChain Agent 取用。",
+    "highlights": [
+      "STIX 格式知識圖譜整合",
+      "威脅 actor 別名自動解析",
+      "離線優先的 RAG 架構",
+      "MCP 伺服器無縫接 Claude Code",
+      "LangChain Agent 兼容"
+    ],
+    "why_it_matters": "安全分析師可藉此讓 AI Agent 具備長期威脅情資記憶，自動關聯攻擊者歸因，減少人工整理情報的成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "clone 後設定本地 STIX 資料庫，用 curl 測試 MCP 端點，觀察 Agent 能否正確召回歷史威脅資料並輔助决策。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/48327651?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-26-vibeshell-ai-agent-ssh",
+    "title": "VibeShell：首款 AI Agent 專用 SSH 用戶端",
+    "title_original": "veithly/vibeshell",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/veithly/vibeshell",
+    "published_at": "2026-05-26T12:50:31Z",
+    "category": "agent-skills",
+    "summary": "專為 AI Agent 設計的 SSH 用戶端，讓 Claude Code、Codex 等 CLI Agent 透過 MCP Skills 管理遠端伺服器。Rust 開發，強調美觀介面與原生效能，號稱市場首款。",
+    "highlights": [
+      "讓 AI Agent 直接 SSH 操控伺服器",
+      "內建 MCP Skills 整合",
+      "美觀 UI 與高效能",
+      "支援 Claude Code、Codex 等主流 CLI Agent",
+      "Rust 語言保證效能"
+    ],
+    "why_it_matters": "為 AI Agent 打通遠端伺服器操作的最後一哩路，工程師可讓 AI 直接在生產環境執行指令、部署服務，提升自動化程度。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Linux 機器上編譯安裝，嘗試用 Claude Code 透過 SSH MCP 技能操作一台測試 VM，驗證端到端工作流程程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6553213?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-hugging-face-speech-to-speech-agent",
+    "title": "Hugging Face Speech-to-Speech：本地語音 Agent 開源建構套件",
+    "title_original": "huggingface/speech-to-speech",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/huggingface/speech-to-speech",
+    "published_at": "2026-05-26T12:50:30Z",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 開源的語音對語音專案，Stars 4761，Python 語言，讓開發者可基於開放模型打造本地語音助理，去除對雲端語音 API 的依賴。",
+    "highlights": [
+      "開源專案，可直接在本地部署語音 Agent",
+      "Stars 4761，社群關注度與成熟度較高",
+      "Python 生態，與 Hugging Face 生態系整合良好",
+      "可用於取代或輔助雲端語音 API",
+      "適合需要語音互動的桌面自動化或客服機器人場景"
+    ],
+    "why_it_matters": "若你不想付費使用雲端語音 API 或在意延遲，本地語音 Agent 能提供可控的替代方案，且完全自托管。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載後以 pip install -e . 安裝，搭配 Transformers 模型，測試語音對話延遲與準確度，評估能否取代現有雲端方案。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-mcp-client-for-ollama",
+    "title": "MCP Client for Ollama 開源專案",
+    "title_original": "jonigl/mcp-client-for-ollama",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jonigl/mcp-client-for-ollama",
+    "published_at": "2026-05-26T12:46:37Z",
+    "category": "agent-skills",
+    "summary": "一個可在本機使用 Ollama 對接 MCP 伺服器的 TUI 用戶端。支援 MCP Tools、Prompts、Resources，並具備 Agent 模式、多伺服器串接、模型切換、串流回應與思考模式。Python 開發，相容本地 LLM 環境。",
+    "highlights": [
+      "MCP 工具調用與本地 Ollama 整合",
+      "支援 Agent 模式與人類回饋機制",
+      "多模型切換與自訂系統提示詞",
+      "串流輸出與思考模式",
+      "可保存偏好設定"
+    ],
+    "why_it_matters": "讓技術開發者能在本機環境快速實驗 MCP 協定與本地 LLM 的整合，降低 AI Agent 建構門檻，直接用コマンド列掌控工具調用流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此專案clone下來，用 pip install 裝好相依套件，直接在本機 terminal 測試 MCP Tools 與 Ollama 模型之間的工具呼叫鏈。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/4612832?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-26-project-codeguard-ai",
+    "title": "Project CodeGuard：模型無關的 AI 程式安全框架",
+    "title_original": "cosai-oasis/project-codeguard",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/cosai-oasis/project-codeguard",
+    "published_at": "2026-05-26T12:41:48Z",
+    "category": "agent-skills",
+    "summary": "CodeGuard 是開源、模型無關的安全框架，旨在將安全最佳實踐內嵌至 AI 程式助理工作流程，自動引導 AI 生成更安全的程式碼，Stars 198，Python 專案。",
+    "highlights": [
+      "模型無關，支援主流 AI 程式助理",
+      "將安全規則嵌入 AI 編碼流程，減少漏洞產生",
+      "開源可審計，適合企業級安全合規場景",
+      "Stars 198，專案較新，社群規模有限",
+      "可用於強化內部 AI 程式工具的安全基線"
+    ],
+    "why_it_matters": "隨著 AI 程式助理普及，自動生成不安全程式碼的風險上升。CodeGuard 提供可插入的安全閘門，是 DevSecOps 自動化的候選工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 CodeGuard 整合進你的 CI/CD 流程，在 AI 產生 Pull Request 時自動觸發安全規則檢查，過濾高風險程式碼。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/175023446?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-llm",
+    "title": "多模態 LLM 評測基準論文彙整",
+    "title_original": "swordlidev/Evaluation-Multimodal-LLMs-Survey",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/swordlidev/Evaluation-Multimodal-LLMs-Survey",
+    "published_at": "2026-05-26T12:13:58Z",
+    "category": "new-models",
+    "summary": "一份關於多模態大型語言模型評測基準的綜合調查。整理現有 MLLM 評測方法、資料集與衡量指標，供研究人員參考。GitHub 已有 149 顆星，但完整論文內容需自行查閱。",
+    "highlights": [
+      "涵蓋主流 MLLM 評測基準",
+      "整理相關資料集與指標",
+      "適用研究參考",
+      "星數顯示社群關注度高",
+      "內容深度需自行驗證"
+    ],
+    "why_it_matters": "若需選擇或自訂多模態模型評測方式，此資源可節省文獻整理時間；但作者列有提醒可能偏 PR，需交叉驗證結論。",
+    "automation_angle": null,
+    "automation_angle_zh": "直接閱讀 repo 中的論文連結，用於評估團隊自研多模態模型時該選哪些基準做AB測試，而非只看別人報的數字。",
+    "tags": [
+      "new-models",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/13388942?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-openmoss-moss-tts",
+    "title": "OpenMOSS/MOSS-TTS：開源高品質語音合成模型族",
+    "title_original": "OpenMOSS/MOSS-TTS",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/OpenMOSS/MOSS-TTS",
+    "published_at": "2026-05-26T11:59:09Z",
+    "category": "open-source-ai",
+    "summary": "MOSS-TTS 家族來自 MOSI.AI 與 OpenMOSS 團隊，專為高保真、高表現力語音設計，支援穩定長文本、多人對話、角色語音、環境音效及時時串流 TTS，Stars 1874。",
+    "highlights": [
+      "支援長文本穩定語音合成，不易斷裂",
+      "多人對話與角色語音設計，適用遊戲或動漫配音",
+      "環境音效生成，可做為背景音或特效",
+      "時時串流 TTS，低延遲語音輸出",
+      "開源可本地部署，無 API 費用"
+    ],
+    "why_it_matters": "MOSS-TTS 在開源 TTS 中覆蓋場景最廣，從長文本到角色語音一站式解決，可降低語音內容生成的工具鏈複雜度。",
+    "automation_angle": null,
+    "automation_angle_zh": "將其整合至自動化內容生成流程（如報告朗讀、配音影片），替換昂貴的商業 TTS API。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/156300419?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-26-lilbee-mcp",
     "title": "lilbee：整合本地模型、檔案搜尋與網頁爬取的 MCP 工具",
     "title_original": "tobocop2/lilbee",
@@ -11907,6 +12109,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-26-anthropic-ai-agent",
+    "title": "Anthropic 推新產品簡化 AI Agent 建構",
+    "title_original": "Anthropic’s New Product Aims to Handle the Hard Part of Building AI Agents - WIRED",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jVXM4c0NMaUxENXlaVXdWNVlvU01fRm8xeHhHd1RZRXVMek95cXNWbWtNWjlnVDRXOXc0TGxlZkhoUFJUcFg0WGhJanVRWmZqZ2dzQnBvOGhnZFVKQ3g4Qkdqc0tjOE95cnU4ck1nZUlXRnFidHEzZg?oc=5",
+    "published_at": "2026-04-08T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "WIRED 報導 Anthropic 發表新產品，目標是處理建構 AI Agent 過程中最困難的部分。詳情（含功能名稱、定價）需點擊原始連結查閱，目前資訊有限。",
+    "highlights": [
+      "Anthropic 進軍 Agent 建構工具市場",
+      "瞄準「最困難部分」",
+      "WIRED 為主要消息來源",
+      "產品細節未完整揭露",
+      "可信度中等偏保守"
+    ],
+    "why_it_matters": "若 Anthropic 真能降低 Agent 建構門檻，將直接影響 Claude API 的使用場景與定價策略，值得追蹤後續官方公告。",
+    "automation_angle": null,
+    "automation_angle_zh": "先存下連結追蹤，等 Anthropic 官方部落格或 API 文檔更新後再評估功能是否適用團隊現有工作流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-meta-ai",
     "title": "Meta 正在開源下一代前沿 AI 模型",
     "title_original": "Meta is developing open-source versions of its next frontier AI models - Techzine Global",
@@ -13519,6 +13749,62 @@
     "automation_angle_zh": "待官方文件釋出後，可第一時間安裝測試，評估其與現有 LangChain、AutoGen 等框架的功能重疊與差異化優勢。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-claude-sonnet-4-5",
+    "title": "Claude Sonnet 4.5 正式發布",
+    "title_original": "Introducing Claude Sonnet 4.5 - Anthropic",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9tYzk0UFRncmJ4NHRHWEp6TkJpTTJDY2Q2dDYxVFVadjI1SlFYUkxaU0hDUWJEdVNWV1RuRWNwTmZaRkZSNjBSX2VYbU01NlhzdmxZdW85UU9UWWxw?oc=5",
+    "published_at": "2025-09-29T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 宣布推出 Claude Sonnet 4.5 版本。具體能力改進、相較 4.0 的進化幅度、上下文長度與定價變化需查閱原始公告，資訊尚不完整。",
+    "highlights": [
+      "Anthropic 最新 Sonnet 子模型",
+      "版本號 4.5 具體含義待確認",
+      "需查官方文檔了解實際改進",
+      "影響 Claude API 選型決策",
+      "目前資訊來源有限"
+    ],
+    "why_it_matters": "新版本若有大幅能力提升或降價，將直接影響選擇 Claude 作為工作流程引擎的技術決策，值得持續追蹤正式發布內容。",
+    "automation_angle": null,
+    "automation_angle_zh": "將連結加入書籤，等 Anthropic 官網更新定價與能力說明後，實際跑一次 eval 對比 4.5 與 4.0 在自家工作負載上的性價比。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-26-meta-gsa-llama",
+    "title": "Meta 與 GSA 達成協議，向美國政府免費提供 Llama 模型",
+    "title_original": "Meta offers Llama AI models to government for free in GSA deal - FedScoop",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbU4xT3FiRjA5U2xuS0Y2TldTZXNUYzBOckpKaGV5cHVmaVZUS1JaUUtpamlqNmp5bnpLeE0yTE1DbzZvZy1HOHNub0N2SVdTYlJxcmNNRWFyb2lfdGp3RnFwNzNBTFpWU19wY2NxcG5vUlN0cWt6Tk9JeGt5d2ZSQmN0U1hyb1M4UWdKM2lOb1EwMDRNSU9TcE9VVzg4RFJWa0llU0RUakVrUQ?oc=5",
+    "published_at": "2025-09-22T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Meta 與美國總務管理局（GSA）簽訂協議，將 Llama 系列模型免費提供給政府機構使用。此舉顯示 Meta 正在擴大開源模型的政府採用，同時可能為其商業 API 服務建立戰略性政府採用案例。",
+    "highlights": [
+      "Meta 透過 GSA 協議向政府機構提供 Llama 模型免費使用",
+      "這是開源模型獲得官方政府採用的重要里程碑",
+      "政府採用可能為 Llama 的企業採用樹立標竿",
+      "Meta 仍維持商業 API 服務的付費模式",
+      "此交易為合法、官方可驗證的 AI 合作"
+    ],
+    "why_it_matters": "開源模型進入政府採用供應鏈，對技術團隊意味著未來可能在政府相關專案中接觸到 Llama，也可能影響企業級 API 定價與可用性策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可評估 Llama 在政府場景的能力邊界，若有興趣可在政府雲端或合規環境中使用免費版本；同時關注企業版 Llama API 是否會因政府採用而調整定價。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
