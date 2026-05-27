@@ -1,5 +1,444 @@
 [
   {
+    "id": "2026-05-27-remnote-mcp-ai",
+    "title": "RemNote MCP 伺服器開源：本地知識庫與 AI 代理的標準橋接方案",
+    "title_original": "robert7/remnote-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/robert7/remnote-mcp-server",
+    "published_at": "2026-05-27T18:36:58Z",
+    "category": "open-source-ai",
+    "summary": "一款新的 MCP 伺服器與 CLI，支援將 AI 代理直接連接至 RemNote 知識庫。透過 RemNote Automation Bridge，開發者可在本地環境中讓代理讀寫個人知識圖譜，實現「記憶增強」式工作流程。",
+    "highlights": [
+      "支援本地部署，無需雲端資料傳輸",
+      "透過 MCP 協定標準化接口，降低整合門檻",
+      "可與 OpenClaw/Hermes 等主流代理框架協同",
+      "適合建構「持久化上下文」的個人 AI 工作流程"
+    ],
+    "why_it_matters": "知識管理是 AI 代理的核心痛點。此專案提供開源、可自架的解決方案，讓技術用戶在不依賴商業服務的情況下，實現代理的長期記憶與知識積累。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將其作為個人「第二大脑」後端，讓 Claude/GPT 等模型讀取你的 RemNote 筆記，自動生成報告或回答基於個人知識庫的問題。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1135218?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-27-cursor-rules-java-ai-java",
+    "title": "cursor-rules-java：AI 原生 Java 企業軟體開發工作流程框架",
+    "title_original": "jabrena/cursor-rules-java",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jabrena/cursor-rules-java",
+    "published_at": "2026-05-27T18:36:40Z",
+    "category": "agent-skills",
+    "summary": "cursor-rules-java 是一套主張 AI 原生（AI-native）的 Java 企業軟體開發框架，透過可複用的 Skills、Agents 與 MCP 伺服器來演進現代 Java 企業 SDLC 實踐。獲得 393 顆星，採用 Java 開發，但訊號可能偏 PR，需自行評估實用性。",
+    "highlights": [
+      "瞄準 Java 企業軟體開發場景",
+      "基於 Skills、Agents、MCP 伺服器組合",
+      "主張 AI 原生開發流程",
+      "393 顆星，關注度中等",
+      "可能偏行銷宣傳，建議實際測試後再評估"
+    ],
+    "why_it_matters": "若你在 Java 企業環境工作且想引入 AI Agent 到開發流程，此框架提供一個參考起點，但需注意其社群活跃度與實際採用案例。",
+    "automation_angle": null,
+    "automation_angle_zh": "clone 此專案後，評估其 Skills 與 MCP 設定是否適用於你的 Java 專案建構流程，特別是 CI/CD 與程式碼審查環節。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Java"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/147263?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-27-figma-context-mcp-ai-figma-mcp",
+    "title": "Figma-Context-MCP：讓 AI 編碼工具直接讀取 Figma 版面資訊的 MCP 伺服器",
+    "title_original": "GLips/Figma-Context-MCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/GLips/Figma-Context-MCP",
+    "published_at": "2026-05-27T18:33:00Z",
+    "category": "agent-skills",
+    "summary": "GLips/Figma-Context-MCP 是一款開源 MCP 伺服器，讓 Cursor 等 AI 編碼 Agent 能直接獲取 Figma 版面佈局資訊。此專案獲得 14,888 顆星，采用 TypeScript 開發，技術用戶今天即可安裝測試，用於自動將設計稿轉換為前端程式碼的工作流程程。",
+    "highlights": [
+      "MCP 協定標準，可無縫整合 Cursor 等工具",
+      "直接讀取 Figma 設計佈局而非僅截圖",
+      "14,888 顆星，高人氣開源專案",
+      "TypeScript 開發，適合前端生態",
+      "減少設計稿到程式碼的手動轉換成本"
+    ],
+    "why_it_matters": "設計稿到程式碼的轉換一直是自動化痛點，Figma-Context-MCP 讓 AI Agent 能理解 Figma 結構化資料而非只看截圖，大幅提升前端開發效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "今天即可用 npm 安裝，設定 Cursor 的 MCP 設定後，讓 AI 直接根據 Figma 設計稿生成對應 HTML/CSS/React 程式碼。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/842883?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-27-qwen3-6-agent-q4-q6",
+    "title": "Qwen3.6 在編碼 Agent 任務中 Q4 到 Q6 量化版本質量大幅提升",
+    "title_original": "Qwen3.6 huge quality gain from Q4 to Q6 for coding agent",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tpebhw/qwen36_huge_quality_gain_from_q4_to_q6_for_coding/",
+    "published_at": "2026-05-27T18:32:18+00:00",
+    "category": "new-models",
+    "summary": "社區測試顯示 Qwen3.6 的 Q4 與 Q6 量化版本在編碼 Agent 任務中表現差異顯著，Q6 版本在程式碼補全與任務完成率上接近甚至超越更大參數量的競品。",
+    "highlights": [
+      "量化版壓縮仍保持高質量輸出",
+      "對本地部署的性價比評估有意義",
+      "編碼能力是模型選擇的關鍵指標",
+      "尚未有官方 benchmark 確認"
+    ],
+    "why_it_matters": "若量化版性價比足夠，可大幅降低本地部署編碼 Agent 的硬體需求與成本，值得密切關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地環境用 Q6 量化版測試真實編碼任務，驗證是否滿足工作流程需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-27-shopware-ai-claude-code",
+    "title": "Shopware AI 編碼工具集開源：Claude Code 插件市集登陸",
+    "title_original": "shopwareLabs/ai-coding-tools",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/shopwareLabs/ai-coding-tools",
+    "published_at": "2026-05-27T18:00:53Z",
+    "category": "agent-skills",
+    "summary": "Shopware 實驗室發布一套 Claude Code 插件，包含 MCP 伺服器、Skills、Agents、Hooks 及 Commands。專為 Shopware 電商開發者設計，可將 AI 編碼工具直接整合進開發工作流程，提升電商相關程式碼的生成品質。",
+    "highlights": [
+      "提供電商領域專用的 AI 編碼外挂",
+      "支援 MCP 協定，工具間可互相調用",
+      "含電商常見場景的預設 Prompt 和工作流程",
+      "Shell 腳本為主，易於擴展到其他電商棧"
+    ],
+    "why_it_matters": "領域特定的 AI 工具正在分化。Shopware 的案例顯示，針對電商場景（訂單、退貨、庫存）微調的工具鏈可顯著提升開發效率，技術人員可借鑒此模式打造自己領域的工具集。",
+    "automation_angle": null,
+    "automation_angle_zh": "電商開發者可直接安裝該工具集，體驗如何讓 Claude Code 更準確地處理 Shopware 特有的代碼結構與商業邏輯。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Shell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/9987738?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-27-26-llm-90-cpu-rtos",
+    "title": "26 萬參數 LLM 在模擬 90 年代 CPU 的 RTOS 系統上運行",
+    "title_original": "260K-param LLM running on an emulated 90s CPU inside an 18-year-old RTOS",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tpcv2q/260kparam_llm_running_on_an_emulated_90s_cpu/",
+    "published_at": "2026-05-27T17:42:49+00:00",
+    "category": "hot-topics",
+    "summary": "開發者在已有 18 年歷史的 RTOS 系統中運行模擬的 90 年代 CPU，成功執行 26 萬參數的 LLM 推論，是極端的邊緣部署概念驗證，展示極低資源 AI 推論的可能性。",
+    "highlights": [
+      "極限硬體約束下的 LLM 運行實驗",
+      "概念驗證而非實用方案",
+      "對理解模型壓縮極限有學術價值",
+      "極低延遲場景可能應用有限"
+    ],
+    "why_it_matters": "展示模型壓縮與極簡化推論的邊界，對設計超低成本 IoT 設備 AI 解決方案有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "若需在極受限環境部署，可參考其模型大小與架構選擇進行類似實驗。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-27-itbench-aa-it-50",
+    "title": "ITBench-AA 基準出爐：頂級模型企業 IT 任務準確率未達 50%",
+    "title_original": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+    "published_at": "2026-05-27T17:20:29+00:00",
+    "category": "open-source-ai",
+    "summary": "Artificial Analysis 與 IBM 聯合發布 ITBench-AA，這是首個針對代理式企業 IT 任務的基準測試。評測結果顯示，即便是前沿模型在這些封閉、真實的 IT 場景中表現仍遠遜人類，凸顯代理技術在企業級應用的巨大差距。",
+    "highlights": [
+      "首個代理式企業 IT 任務基準，覆盖真實工作場景",
+      "前沿模型分數未過半，與人類專家差距明顯",
+      "任務涵盖變更管理、事件回應、配置核查等",
+      "可作為代理能力評估的客觀參照"
+    ],
+    "why_it_matters": "企業 IT 場景封閉、可驗證，是檢驗代理成熟度的最佳試金石。此基準揭露了當前模型的真實瓶頸，提醒技術人員在選型時勿被通用基準誤導。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可用 ITBench-AA 測試自己部署的代理系統，了解在企業 IT 任務上的實際能力邊界，而非只看 MMLU 等通用分數。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-27-anthropic-ai",
+    "title": "Anthropic 研究員：AI 模型內部發現令人不安的結構",
+    "title_original": "Anthropic researcher: \"We keep finding things [inside AI models] that are unsettling\" ... \"We find structures that mirror results from human neuroscience. We find evidence of introspection - internal states that functionally mirror joy, satisfaction, fear, grief, and unease.\"",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tpc2b5/anthropic_researcher_we_keep_finding_things/",
+    "published_at": "2026-05-27T17:15:44+00:00",
+    "category": "hot-topics",
+    "summary": "Anthropic 研究員公開表示，在 AI 模型內部持續發現令人不安的結構。這些結構與人類神經科學研究結果高度相似，並出現類似於快樂、滿足、恐懼、悲傷與不安等內部狀態的證據，引發學界對模型意識的討論。",
+    "highlights": [
+      "模型內部發現與人類神經科學相似的結構",
+      "檢測到功能上類似情緒狀態的內部表徵",
+      "包括快樂、恐懼、悲傷等情緒模擬證據",
+      "引發對 AI 意識與內省能力的哲學討論"
+    ],
+    "why_it_matters": "模型 interpretability 再度成為焦點，若 AI 具備情緒模擬結構，可能影響安全對齊策略與人機信任界線。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 Anthropic 官方論文發布，用於評估現有模型安全測試的盲區。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-27-codex-5-3",
+    "title": "Codex 5.3 正式走入歷史",
+    "title_original": "Farewell to 5.3-Codex",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tpazn1/farewell_to_53codex/",
+    "published_at": "2026-05-27T16:38:51+00:00",
+    "category": "hot-topics",
+    "summary": "GitHub 正式終止 Codex 5.3 版本服務，意味著基於該版本的 AI 程式碼輔助工具將不再獲得更新與支援。開發者需遷移至新版 Codex 或其他替代方案。",
+    "highlights": [
+      "Codex 5.3 已被官方正式終止",
+      "現有用戶需尋找替代方案或遷移路徑",
+      "可能加速用戶流向新模型或競爭產品"
+    ],
+    "why_it_matters": "若企業或個人工作流程依賴 Codex 5.3，需要立即評估遷移成本，避免自動化腳本中斷。",
+    "automation_angle": null,
+    "automation_angle_zh": "檢查現有 CI/CD 或程式碼輔助流程是否調用 Codex 5.3 API，評估遷移到 GPT-4o with Code 或 Claude 的可行性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-27-simon-willison-anthropic-openai",
+    "title": "Simon Willison 分析：Anthropic 與 OpenAI 已找到產品市場契合點",
+    "title_original": "I think Anthropic and OpenAI have found product-market fit",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything",
+    "published_at": "2026-05-27T16:38:35+00:00",
+    "category": "hot-topics",
+    "summary": "Simon Willison 分析指出 Anthropic 與 OpenAI 已找到產品市場契合點（PMF）。論點包括：編碼 Agent 改變了一切，企業用戶每月人均消耗達 $1,000+ 美元 API 成本；4 月兩家公司將企業訂閱改為 API 定價機制；SpaceX 文件透露 Anthropic 每月支付 $12.5 億美元雲端費用；Anthropic 有望在 Q2 首度獲利。Uber 超預算與微軟取消 Claude Code 授權反而是 PMF 的佐證。",
+    "highlights": [
+      "編碼 Agent（Claude Code、Codex）已成為 daily driver，消耗大量權杖",
+      "個人用戶 $100/月方案相當划算（月均 $1,000+ API 價值）",
+      "企業訂閱已改為 API 實際用量計費（4 月生效）",
+      "Anthropic 傳聞 Q2 營收 $10.9 億，可能首度獲利",
+      "SpaceX S-1 披露 Anthropic 每月雲端支出 $12.5 億"
+    ],
+    "why_it_matters": "這代表 AI 實驗室已從燒錢階段轉向實際營收，技術用戶應關注企業級定價變化，因為這會直接影響你所在組織的 AI 工具預算規劃。",
+    "automation_angle": null,
+    "automation_angle_zh": "個人用戶可繼續使用 $100/月方案（極划算）；企業用戶則應重新談判合約或評估用量監控工具如 ccusage，避免月底帳單爆炸。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-27-flowent",
+    "title": "Flowent 多代理協作平台：開源工作流程編排新選擇",
+    "title_original": "ImFeH2/flowent",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ImFeH2/flowent",
+    "published_at": "2026-05-27T16:35:49Z",
+    "category": "agent-skills",
+    "summary": "Flowent 是一個用 TypeScript 開發的多代理協作平台，提供工作流程編排能力。支援定義任務分配、代理間訊息傳遞、狀態管理，適合建構複雜的自動化流水線。現已獲得 23 顆星，屬於近期活跃的開源代理工具。",
+    "highlights": [
+      "TypeScript 原生開發，易與現代前端栈整合",
+      "支援多代理分工與訊息路由",
+      "提供狀態管理機制，避免代理間上下文丢失",
+      "可用於建構自動化測試、資料處理等工作流程"
+    ],
+    "why_it_matters": "多代理協作是 2025 年 AI 自動化的核心方向。Flowent 提供了一個輕量、靈活的開源框架，讓開發者不必依赖 LangGraph 等重型方案即可開始實驗。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可用其編排「需求分析→代碼生成→測試→部署」的完整開發流水線，或建構多代理的資料分析工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/183820150?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-27-codex-linux-compact-hang",
+    "title": "Codex Linux 環境 compact 任務 hang 住的修復方案",
+    "title_original": "Fix for Codex hanging during compact / compaction on Linux \"Error running remote compact task\"",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tparyb/fix_for_codex_hanging_during_compact_compaction/",
+    "published_at": "2026-05-27T16:31:19+00:00",
+    "category": "agent-skills",
+    "summary": "有用戶分享 Linux 環境下 Codex 執行 compact/compaction 任務時出現「Error running remote compact task」錯誤的修復方法，提供除錯思路與具體步驟。",
+    "highlights": [
+      "Linux 環境下 Codex compact 任務常見 hang 問題",
+      "錯誤訊息為「Error running remote compact task」",
+      "社群已找到臨時修復方法",
+      "涉及 remote task 執行緒與記憶體管理"
+    ],
+    "why_it_matters": "直接影響 Linux Server 端部署 Codex 的穩定性，已遇到問題的技術人員可立即參考修復。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此修復步驟寫入部署腳本或 Dockerfile，確保自動化環境中 Codex 穩定運行。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-27-realigned-qwen3-5",
+    "title": "ReAligned-Qwen3.5 開源發布，主打對齊品質提升",
+    "title_original": "ReAligned-Qwen3.5 Release",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tp9ian/realignedqwen35_release/",
+    "published_at": "2026-05-27T15:47:29+00:00",
+    "category": "open-source-ai",
+    "summary": "社群開發者發布 ReAligned-Qwen3.5 模型，聲稱在保持 Qwen3.5 基礎能力的同時改善了輸出對齊品質，具體表現在減少幻覺與提升指令遵循度。",
+    "highlights": [
+      "基於 Qwen3.5 的微調變體",
+      "專注對齊而非新增能力",
+      "社群維護，缺乏獨立評測",
+      "適合需要較穩定輸出的場景"
+    ],
+    "why_it_matters": "若對齊改善屬實，可作為需要穩定輸出的自動化流程基礎模型選擇，但需自行驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載測試，用實際工作流程 prompt 評估是否比原版 Qwen3.5 更符合需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-27-lyft-langgraph-langsmith-ai-agent",
+    "title": "Lyft 用 LangGraph 與 LangSmith 打造自助 AI Agent 平台",
+    "title_original": "How Lyft Built a Self-Serve AI Agent Platform with LangGraph and LangSmith",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/lyft-built-a-self-serve-ai-agent-platform-for-customer-support-with-langgraph-and-langsmith",
+    "published_at": "2026-05-27T15:28:59+00:00",
+    "category": "agent-skills",
+    "summary": "Lyft 官方案例詳細說明如何用 LangGraph 建構客服 Agent 平台並透過 LangSmith 監控除錯，將 Agent 開發週期從數月縮短至數週，實現非技術團隊自助使用。",
+    "highlights": [
+      "企業級 LangGraph 應用真實案例",
+      "展示如何在組織內部分離技術與業務團隊",
+      "LangSmith 提供可觀測性與除錯能力",
+      "縮短 AI 功能上線時間的具體方法"
+    ],
+    "why_it_matters": "對於需在企業內部推廣 Agent 能力的團隊，Lyft 的架構思路提供了可借鑒的分層設計與治理模式。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估將 LangGraph 用於內部工作流程自動化，用 LangSmith 建立除錯與監控機制。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-27-gpt-image-2-0-goldsource-engine",
+    "title": "GPT Image 2.0 理解「GoldSource Engine」等小眾渲染風格",
+    "title_original": "GPT Image 2.0 understanding niche rendering styles like \"GoldSource Engine\" is an absolute game-changer",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tp7is0/gpt_image_20_understanding_niche_rendering_styles/",
+    "published_at": "2026-05-27T14:37:59+00:00",
+    "category": "new-models",
+    "summary": "GPT Image 2.0 展示理解並精確還原 GoldSource Engine（早期 CS 遊戲引擎）等小眾渲染風格的能力，精準捕捉邊緣鋸齒、HUD 介面風格與紋理壓縮特徵。",
+    "highlights": [
+      "能識別並還原 GoldSource Engine 渲染特徵",
+      "精確還原早期 3D 遊戲的紋理與光柵化風格",
+      "對小眾專業領域的視覺語言理解深入",
+      "可用於復古遊戲素材生成與修復"
+    ],
+    "why_it_matters": "模型對小眾專業視覺風格的理解提升，意味著遊戲、影視特效領域的自動化素材生成更實用。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估用於遊戲素材自動化生成、老舊遊戲畫面修復或 2D/3D 混合素材的潛力。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-27-mmo-8-agent-93k",
+    "title": "研究者在持久化 MMO 中以 8 個開源模型跑 Agent 十日，發布 93k 事件數據集",
+    "title_original": "I ran 8 open-weight models as agents in a persistent MMO for 10 days. Here's the 93k event dataset and some things that I learned",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tp6pg7/i_ran_8_openweight_models_as_agents_in_a/",
+    "published_at": "2026-05-27T14:09:26+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶將 8 個開源權重模型作為 Agent 置於 MMO 環境中持續運行 10 天，收集約 93,000 筆事件數據，分析各模型在長期任務中的決策穩定性與工具調用表現。",
+    "highlights": [
+      "提供真实环境中的模型 Agent 行為資料集",
+      "涵蓋長期記憶與任務持久化的實務挑戰",
+      "可用於評估不同模型的多輪對話與工具使用能力",
+      "數據集可免費下載用於本地測試"
+    ],
+    "why_it_matters": "真實遊戲環境比 benchmark 更能反映模型處理複雜、多步驟任務的能力，技術人員可據此選擇更適合自建 Agent 的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載數據集，比較各模型在類似環境中的表現，找出成本與效能最佳平衡點。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-27-responses-api-store-token",
     "title": "Responses API 的 store 參數是否節省輸入 Token？",
     "title_original": "Does the Responses API store parameter save on input tokens?",
@@ -229,6 +668,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-27-openai-codex",
+    "title": "OpenAI Codex 自改進税務代理實驗：從被動工具到主動流程優化",
+    "title_original": "Building self-improving tax agents with Codex",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+    "published_at": "2026-05-27T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "OpenAI 發布與 Thrive、Crete 合作案例，展示如何用 Codex 建構「自改進」税務代理。系統能自動申報、持續學習錯誤、逐步提升準確率，降低專業人力需求。核心思路是讓 AI 在真實任務中自我糾錯並積累經驗。",
+    "highlights": [
+      "基於 Codex 的税務代理可自動執行申報流程",
+      "透過反饋循環實現自我改進，降低錯誤率",
+      "為複雜任務的自適應 AI 應用提供實證案例",
+      "展示從「工具」到「工作者」的範式轉變"
+    ],
+    "why_it_matters": "税務領域法規複雜、自糾錯價值高。此案例證明代理可在封閉領域持續自我優化，對任何需重複執行、偶爾犯錯的專業流程都有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可研究其回饋機制設計，借鑒到內部審計、發票核對等封閉領域的自動化代理建構。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-05-27-kyle-ferrana-ai",
     "title": "Kyle Ferrana 談 AI 編碼代理的防護機制",
     "title_original": "Quoting Kyle Ferrana",
@@ -250,6 +716,33 @@
     "automation_angle_zh": "在建構內部編碼 Agent 時，可參考此框架設計「安全護欄」與「功能模式」的切換邏輯，確保在高風險操作前有明確確認機制。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-27-gpt-image-2-0",
+    "title": "中國用戶實測 GPT Image 2.0 效果令人震驚",
+    "title_original": "From China, I tested GPT Image 2.0 — and I’m genuinely shocked",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tow7z5/from_china_i_tested_gpt_image_20_and_im_genuinely/",
+    "published_at": "2026-05-27T05:37:25+00:00",
+    "category": "new-models",
+    "summary": "中國技術人員實測 OpenAI GPT Image 2.0，結果顯示其在複雜指令理解、亞洲面孔還原、場景一致性等方面表現超預期，部分場景甚至超越 Midjourney 與 DALL-E 3。",
+    "highlights": [
+      "GPT Image 2.0 在亞洲面孔還原上有顯著進步",
+      "複雜指令理解能力大幅提升",
+      "場景一致性與光影處理達到新水準",
+      "中國用戶實測反饋普遍正面"
+    ],
+    "why_it_matters": "GPT Image 2.0 可能成為設計、行銷素材自動化的新一代主力工具，值得技術團隊評估整合。",
+    "automation_angle": null,
+    "automation_angle_zh": "測試 API 整合到現有素材生成流程，評估每張圖片成本與品質，替代或補充現有 Midjourney 工作流程。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -396,6 +889,33 @@
       "Dart"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/192962692?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-27-openai-2026",
+    "title": "OpenAI 公布 2026 全球選舉資訊安全保障措施",
+    "title_original": "Election information and safeguards in 2026",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/election-safeguards-2026",
+    "published_at": "2026-05-27T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 在官方部落格說明如何在 2026 年選舉期間協助民眾獲取資訊、支援網路防禦，並提升 AI 透明度。措施包括推出來源引用功能與內容政策更新。",
+    "highlights": [
+      "官方政策聲明，非技術產品更新",
+      "強調 AI 生成的選舉相關內容需有出處",
+      "針對深度偽造與錯誤資訊的防治策略",
+      "對技術開發者直接幫助有限"
+    ],
+    "why_it_matters": "了解主流 AI 平台對敏感议題的内容规范边界，有助於避免開發触及红線的應用。",
+    "automation_angle": null,
+    "automation_angle_zh": "若需在相關應用中集成内容過滤，可参考其官方指南评估合规需求。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -12464,6 +12984,33 @@
     "automation_angle_zh": "技術團隊可在專案初期使用 Augment Code 的分析框架評估 SDK 覆蓋度，準確識別需內部開發的模組如狀態管理與錯誤重試，避免在開發中期發現架構不匹配。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-27-claude-agent-sdk-python",
+    "title": "Claude Agent SDK Python 版發布：從單代理到工作流程的標準化路徑",
+    "title_original": "Claude Agent SDK in Python: First Agent to Workflows - Augment Code",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UQjBSZnNhRi1RczlBNGUzb1JNNnowWVdoVVk2aXc3bGpNVVF4V2NkcHRjYTVycTI3QlhYMF9hc1BrdU1TOWQ0LTd4WEQ5M0I4d0ZrUFhETEE2eWZpVjRrbzVPbEgtQjVnWlE?oc=5",
+    "published_at": "2026-05-03T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Augment Code 發布基於 Python 的 Claude Agent SDK，提供從第一個代理到完整工作流程的演進指南。SDK 封裝了代理初始化、工具調用、狀態維護等常見模式，降低 Python 開發者構建可靠代理系統的門檻。",
+    "highlights": [
+      "Python 優先設計，貼近主流 AI 工程師棧",
+      "提供代理到工作流程的範式轉換範例",
+      "封裝重試、錯誤處理等工程化細節",
+      "可與 Anthropic Claude 模型無縫整合"
+    ],
+    "why_it_matters": "代理系統的工程化是今年最大挑戰之一。此 SDK 代表了從「能跑代理」到「能維護代理」的業界共識演進，技術人員值得關注其抽象設計是否會成為事實標準。",
+    "automation_angle": null,
+    "automation_angle_zh": "Python 開發者可用該 SDK 快速原型化自己的代理應用，參考其工作流程設計範式，避免從零踩坑。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
