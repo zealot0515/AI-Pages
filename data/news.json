@@ -1,5 +1,231 @@
 [
   {
+    "id": "2026-05-28-vestige-fsrs-6-rust-mcp-server",
+    "title": "vestige：FSRS-6間隔重複記憶系統，Rust打造的認知記憶MCP Server",
+    "title_original": "samvallad33/vestige",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/samvallad33/vestige",
+    "published_at": "2026-05-28T00:04:23Z",
+    "category": "open-source-ai",
+    "summary": "vestige是29個大腦模組的認知記憶系統，基於FSRS-6間隔重複演算法，附帶3D視覺化儀表板，僅需一個22MB的Rust二進位檔即可運作，同時作為MCP Server支援Claude、Cursor、VS Code、Xcode、JetBrains。",
+    "highlights": [
+      "FSRS-6間隔重複：比SM-2更現代的記憶演算法",
+      "22MB Rust binary：輕量且高效能，部署簡單",
+      "3D儀表板：視覺化記憶與學習狀態",
+      "MCP Server支援多IDE：覆蓋主流開發環境",
+      "29個認知模組：模擬大腦不同功能的記憶管理"
+    ],
+    "why_it_matters": "如果你希望AI Agent具備長期記憶與自主學習能力，vestige提供一個開源且可直接整合的方案，特別適合需要跨session記住使用者偏好或任務狀態的開發者。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載Rust binary啟動MCP Server，設定FSRS-6參數，讓Claude或其他IDE Agent自動記住你的開發上下文，省去每次描述背景的Token消耗。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/143034159?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-28-langchain-interrupt",
+    "title": "LangChain 宣布四月 Interrupt 大會及紐約舊金山聚會",
+    "title_original": "sqlite AGENTS.md",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything",
+    "published_at": "2026-05-27T23:44:37+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 宣布正式進入四月中斷大會倒數階段，並預告四月結束前將在紐約和舊金山舉辦兩場關於代理改進迴路的聚會，開放 RSVP 報名。",
+    "highlights": [
+      "LangChain 四月將舉辦 Interrupt 大會",
+      "紐約與舊金山各有一場代理技術聚會",
+      "聚會主題聚焦代理改進迴路",
+      "現已開放 RSVP 報名"
+    ],
+    "why_it_matters": "LangChain 作為主流代理框架，其大會動態可反映代理技術發展方向，但此訊息為活動預告而非技術實質內容。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注 LangChain 官網或 Discord 取得後續技術內容與代理框架更新資訊。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-28-gradle-mcp-mcp-gradle",
+    "title": "gradle-mcp：MCP 協議的 Gradle 建構自動化工具",
+    "title_original": "rnett/gradle-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/rnett/gradle-mcp",
+    "published_at": "2026-05-27T23:25:57Z",
+    "category": "agent-skills",
+    "summary": "rnett/gradle-mcp 是一個為 Gradle 建構系統設計的 MCP（Model Context Protocol）伺服器，讓 AI 代理能以標準化介面操控 Gradle 任務、查詢專案相依性、執行測試及回報建構結果，適用於 Kotlin/Java Android 或後端專案。",
+    "highlights": [
+      "51 stars，Kotlin 實作，支援 MCP 協議標準",
+      "可查詢 build.gradle 相依性、執行客製化 Gradle Task",
+      "讓 AI Coding Assistant 直接操控建構流程，無需人工干預",
+      "可整合至 Claude Desktop、Cline 等 MCP 相容工具",
+      "尚未達到 production-ready，需自行評估穩定性"
+    ],
+    "why_it_matters": "MCP 協定是 AI 代理操控外部工具的標準介面，gradle-mcp 讓 AI 直接控制 Gradle 建構，為自動化建構流程與品質檢查開闢新途徑。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地端以 Claude Desktop 接入 gradle-mcp，測試讓 AI 自動執行 Gradle 任務（如單元測試、lint、建構），觀察是否能正確操控建構系統。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Kotlin"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/32281897?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-28-10xproductivity-python-ai",
+    "title": "10xProductivity：Python打造個人AI助理的開源框架",
+    "title_original": "ZhixiangLuo/10xProductivity",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ZhixiangLuo/10xProductivity",
+    "published_at": "2026-05-27T22:41:32Z",
+    "category": "agent-skills",
+    "summary": "10xProductivity是一個Python開源框架，讓使用者從任意Coding Agent打造個人工作助理，強調零基礎架構、無IT困擾，可教導Agent技能並自動化實際工作，目前已有303 stars。",
+    "highlights": [
+      "Python框架：門檻低，多數開發者可直接上手",
+      "零基礎架構：不需要自建服務或維運",
+      "可教導Agent新技能：客製化程度高",
+      "目標是自動化真實工作而非Demo"
+    ],
+    "why_it_matters": "如果你想讓Coding Agent真正能處理你的日常工作（郵件、報告、資料整理），而非只會寫程式碼，10xProductivity提供了一個快速啟動的起點，且社群已有一定關注度。",
+    "automation_angle": null,
+    "automation_angle_zh": "clone repo，用pip install起步，定義你每天重複的任務（例：生成會議摘要、歸檔檔案），讓Agent學會後自動化執行，省下每天30分鐘的瑣事時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/33212200?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-28-langchain-interrupt-2026-sandboxes-ga-langsmith-engine-23",
+    "title": "LangChain Interrupt 2026 回顧：Sandboxes GA、LangSmith Engine 與 23 場實務演講",
+    "title_original": "Fixing agent failures in production: Interrupt 2026 recap | LangChain Newsletter",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/may-2026-langchain-newsletter",
+    "published_at": "2026-05-27T22:09:39+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 Interrupt 2026 大會回顧，重點包括 LangSmith Engine 正式 GA、LangChain Sandboxes 邁向正式版、LinkedIn/Rippling/Cisco 等公司分享 AI Agent 生產環境實踐，共 23 場演講可依需求觀看。",
+    "highlights": [
+      "LangSmith Engine 正式 GA，生產級 agent 追蹤與除錯能力",
+      "LangChain Sandboxes GA，提供安全隔離的 agent 執行環境",
+      "LinkedIn、 Rippling、Cisco 等大型團隊分享 AI Agent 實戰",
+      "所有演講錄影可隨選觀看",
+      "涵蓋 interrupt handling、failure recovery 等生產環境關鍵議題"
+    ],
+    "why_it_matters": "LangChain 生態正在將 AI Agent 從實驗階段推向生產就緒，Sandboxes GA 和 LangSmith Engine 標誌著 agent 可靠性與可观测性大幅提升。",
+    "automation_angle": null,
+    "automation_angle_zh": "觀看 Cisco 和 LinkedIn 的實務演講，了解他們如何处理 interrupt、failure recovery 等問題，直接借鑒至你的 agent 架構設計。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-28-sqlite-agents-md-ai",
+    "title": "SQLite 正式發布 AGENTS.md 明確拒絕 AI 代理生成代码",
+    "title_original": "April 2026: LangChain Newsletter",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/april-2026-langchain-newsletter",
+    "published_at": "2026-05-27T22:09:32+00:00",
+    "category": "open-source-ai",
+    "summary": "SQLite 專案在五天前加入了 AGENTS.md 文件，明確表明不接受 AI 代理提交的 Pull Request，強調必須有預先協議且代碼進入公共領域。專案同時設立專門的 SQLite Bug Forum 分流大量 AI 生成的 bug 報告。D. Richard Hipp 正積極在論壇上回應並推送相關提交。",
+    "highlights": [
+      "SQLite 要求 PR 須有預先法律協議且代碼進入公共領域",
+      "專案明確表示不接受 AI 代理直接提交的代碼",
+      "但接受附有可重現測試案例的 AI bug 報告",
+      "新建專屬論壇處理大量 AI 生成的問題報告",
+      "D. Richard Hipp 正在論壇上積極處理這些 AI 回報的問題"
+    ],
+    "why_it_matters": "這是主流開源專案首次正面回應 AI 代理程式碼提交的議題，為其他大型專案提供了應對策略參考範本，開發者需了解此政策邊界。",
+    "automation_angle": null,
+    "automation_angle_zh": "在對 SQLite 這類大型專案貢獻時，應避免直接提交 AI 生成的 PR，改用 bug 報告形式並附上測試案例，可提高被接受的機會。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-28-reddit-16gb-vram",
+    "title": "Reddit 求問：16GB VRAM 環境推薦測試哪些模型？",
+    "title_original": "Vram 16gig poor. What models do I test?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tpi8cs/vram_16gig_poor_what_models_do_i_test/",
+    "published_at": "2026-05-27T20:50:41+00:00",
+    "category": "new-models",
+    "summary": "r/LocalLLaMA 網友詢問在 16GB VRAM 限制下該測試哪些語言模型，討論涵蓋量化方法（Q4/Q8）、模型大小選擇、VRAM 估算技巧，以及哪些開源模型在此硬體限制下表現較佳。",
+    "highlights": [
+      "核心問題：16GB VRAM 的模型選擇與量化技巧",
+      "討論熱門模型：Llama 3.1 8B、Qwen 2.5 7B、Mistral 7B 等",
+      "涉及 GPTQ、AWQ、GGUF 等量化格式的 VRAM 估算",
+      "無新模型發布，屬於常見的使用問題討論",
+      "有一定實用價值，但資訊密度低"
+    ],
+    "why_it_matters": "對於受限於 16GB VRAM 的技術用戶，相關討論可提供實務配置參考，但此貼缺乏新工具或突破性資訊。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你有 16GB VRAM 環境，可直接依討論中的模型與量化建議進行實測，快速確認哪些模型適合本地部署。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-28-maplibre-agent-skills-ai",
+    "title": "MapLibre Agent Skills 開源計畫讓 AI 助理更能寫地圖程式碼",
+    "title_original": "maplibre/maplibre-agent-skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/maplibre/maplibre-agent-skills",
+    "published_at": "2026-05-27T20:40:48Z",
+    "category": "agent-skills",
+    "summary": "社群維護的 MapLibre GL JS Agent Skills 工具集，可協助 AI 程式碼助理產生更精確的地圖相關程式碼，包含地圖初始化、圖層管理、事件處理等常見操作模板，降低 AI 生成地圖程式時的錯誤率。",
+    "highlights": [
+      "114 stars，JavaScript 實作，維護活跃",
+      "涵蓋地圖初始化、圖層新增、點擊事件等常見使用場景",
+      "可直接整合至 Cursor、Claude Desktop 等支援 Tools 的 IDE",
+      "提供 prompt 範本，協助 AI 生成符合 MapLibre API 規範的程式碼",
+      "MIT 授權，可商業使用"
+    ],
+    "why_it_matters": "如果你用 AI 輔助開發 Web 地圖功能，這套工具能直接提升 AI 生成地圖程式碼的準確率，省下大量校對與修正時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 maplibre-agent-skills 設定至你的 AI Coding Assistant Tools，直接在對話中呼叫相關 Skill 生成地圖功能程式碼，省去手動查文件。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/75709127?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-27-remnote-mcp-ai",
     "title": "RemNote MCP 伺服器開源：本地知識庫與 AI 代理的標準橋接方案",
     "title_original": "robert7/remnote-mcp-server",
@@ -331,6 +557,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-28-reddit",
+    "title": "Reddit 討論：超慢輸出速度的大型模型在批次處理中是否有意義？",
+    "title_original": "Is there any use case for large models with very slow token output for batch processing?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tp9ntq/is_there_any_use_case_for_large_models_with_very/",
+    "published_at": "2026-05-27T15:52:52+00:00",
+    "category": "hot-topics",
+    "summary": "r/LocalLLaMA 社區熱烈討論大語言模型在極慢 token 輸出速度下用於批次處理的可行性，涉及推論延遲與成本權衡、streaming 架構限制、以及特定批次任務（如文件分析、批次推論）是否適合慢速模型等議題。",
+    "highlights": [
+      "討論核心：慢速輸出與批次處理成本的取捨",
+      "涉及 streaming 架構與批次 inference 的差異",
+      "部分使用者認為慢速模型在離線批次任務中仍具價值",
+      "包含對 vLLM、sglang 等推論引擎的討論",
+      "缺乏共識，屬於開放性技術討論"
+    ],
+    "why_it_matters": "對於需要在本地部署大模型處理大量批次任務的技術用戶，此討論提供了成本與效益權衡的實務參考，但無明確結論或新工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "若有批次文件分析需求，可參考討論中的配置建議，評估用慢速本地模型處理高批次量任務是否比呼叫 API 實惠。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-27-realigned-qwen3-5",
     "title": "ReAligned-Qwen3.5 開源發布，主打對齊品質提升",
     "title_original": "ReAligned-Qwen3.5 Release",
@@ -580,6 +834,34 @@
       "Go"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/112007662?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-28-cisco-openai-codex",
+    "title": "Cisco 與 OpenAI 合作用 Codex 重塑企業級工程開發流程",
+    "title_original": "Cisco and OpenAI redefine enterprise engineering with Codex",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/cisco",
+    "published_at": "2026-05-27T11:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Cisco 宣布與 OpenAI 深度合作，以 Codex 為核心重構企業軟體工程流程，聚焦 AI Defense 資安場景、加速 defect remediation，並透過 AI-native 開發方法提升工程師產出。雙方將釋出合作實踐指南供企業參考。",
+    "highlights": [
+      "合作重點：AI Defense 資安自動化、Cisco 內部 defect remediation",
+      "Codex 為核心引擎，整合至 Cisco 既有 CI/CD 流程",
+      "OpenAI Blog 官方發布，消息來源可信度高",
+      "目標是展示企業級 AI 程式碼助理的實際落地案例",
+      "可能為其他企業採用 OpenAI Codex 方案提供參考"
+    ],
+    "why_it_matters": "此案例顯示 AI 程式碼助理已進入企業生產環境的實質落地階段，代表 Codex 從開發者工具轉向企業工程流程的重要信號。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 Cisco 發布的實踐指南，了解如何在企業 CI/CD 流程中整合 Codex 處理 defect remediation 任務，並評估對應到你自己團隊的可行性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -912,6 +1194,33 @@
     "automation_angle_zh": "若需在相關應用中集成内容過滤，可参考其官方指南评估合规需求。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-28-warp-gpt-5-5-coding-agent",
+    "title": "Warp採用GPT-5.5整合開源Coding Agent工作流程",
+    "title_original": "Warp’s big bet on building open source with GPT-5.5",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/warp",
+    "published_at": "2026-05-27T00:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Warp終端宣布將GPT-5.5與OpenAI模型用於協調本地、雲端及開源開發流程中的Coding Agent，試圖打造更流暢的開發體驗。此為OpenAI官方Blog內容，可信度高，但詳細技術規格有限。",
+    "highlights": [
+      "GPT-5.5用於Coding Agent協調",
+      "支援本地、雲端、開源混合工作流程",
+      "OpenAI官方背書",
+      "主要應用場景為開發者終端體驗"
+    ],
+    "why_it_matters": "Warp將LLM整合進終端介面代表一種趨勢：AI輔助開發正在從IDE擴展到命令列，若你是CLI重度用戶，這可能直接影響你日常的程式設計效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載Warp terminal，啟用GPT-5.5模式，觀察它在處理git操作、錯誤排查、部署指令時的實際表現，評估是否比現有工具鏈更省時。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
