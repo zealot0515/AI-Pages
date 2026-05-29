@@ -1,5 +1,117 @@
 [
   {
+    "id": "2026-05-29-pipefy-mcp-server-pipefy-mcp-agent",
+    "title": "pipefy-mcp-server：Pipefy流程平台的MCP伺服器與Agent技能",
+    "title_original": "gbrlcustodio/pipefy-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/gbrlcustodio/pipefy-mcp-server",
+    "published_at": "2026-05-29T12:42:40Z",
+    "category": "agent-skills",
+    "summary": "pipefy-mcp-server為Python開源專案（星等23），提供Pipefy平台的MCP伺服器、CLI工具與Agent技能集。可讓AI Agent直接操作Pipefy工作流程，實現流程自動化。",
+    "highlights": [
+      "支援Pipefy平台的MCP標準介面",
+      "提供CLI工具，方便與既有腳本整合",
+      "Python實作，部署門檻低",
+      "可讓AI Agent操作Pipefy卡片、流程與表單",
+      "星等略高於sync-worktrees，社群關注度稍佳"
+    ],
+    "why_it_matters": "若企業內部使用Pipefy作為流程管理工具，此MCP工具讓AI Agent能直接讀寫流程狀態，實現從自然語言指令到具體流程操作的全自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此MCP工具接入Claude或Cursor，讓AI在收到特定關鍵字時自動建立Pipefy卡片、更新狀態或查詢流程進度，省去人工操作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6655028?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-vllm-hip-w4a16-amd-rocm",
+    "title": "vLLM 新增原生 HIP W4A16 核心，AMD ROCm 支援邁大步",
+    "title_original": "vLLM PR adding native HIP W4A16 kernel was merged",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tr0end/vllm_pr_adding_native_hip_w4a16_kernel_was_merged/",
+    "published_at": "2026-05-29T12:31:05+00:00",
+    "category": "open-source-ai",
+    "summary": "vLLM 開發團隊已合併 HIP W4A16 核心的 PR，為 AMD GPU 提供原生 INT4 量化支援。此改動使 ROCm 環境下的推論吞吐量大幅提升，降低了 AMD 硬體運行 vLLM 的技術門檻。",
+    "highlights": [
+      "支援 AMD Instinct 系列 GPU 的 INT4 量化推論",
+      "母親改善 ROCm 平台的記憶體利用率",
+      "可降低每 token 推論成本",
+      "需等待正式版發布後驗證穩定性"
+    ],
+    "why_it_matters": "對使用 AMD GPU 的開發者而言，此更新可顯著降低部署成本。若能在性價比上超越 NVIDIA A100/H100，將改變 self-hosted 模型的硬體選擇邏輯。",
+    "automation_angle": null,
+    "automation_angle_zh": "待 PR 合併到 stable release 後，在 AMD MI300X 上部署 Mistral 7B 測試 INT4 量化吞吐量，計算每美元 / token 的實際效能。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-sync-worktrees-git-worktree-mcp-ai-coding",
+    "title": "sync-worktrees：自動同步Git worktree的MCP伺服器，AI coding工具適用",
+    "title_original": "yordan-kanchelov/sync-worktrees",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/yordan-kanchelov/sync-worktrees",
+    "published_at": "2026-05-29T12:22:43Z",
+    "category": "agent-skills",
+    "summary": "sync-worktrees是開源TypeScript專案，可自動同步Git worktree與遠端分支，並提供MCP伺服器介面，讓Claude Code、Cursor等AI coding工具能檢視與管理worktree。GitHub星等14，屬小型但實用的開發者工具。",
+    "highlights": [
+      "自動同步worktree與遠端分支狀態",
+      "提供MCP伺服器介面，相容主流AI coding工具",
+      "TypeScript實作，方便整合至Node.js生態",
+      "可讓AI Agent在多分支情境下保持上下文一致",
+      "需注意star數偏低，社群支援度待觀察"
+    ],
+    "why_it_matters": "處理多分支開發時，AI coding工具常因分支不同步而失效。此工具提供MCP介面，讓AI能主動管理分支同步，能減少人工干預並提升Agent在複雜repo中的表現。",
+    "automation_angle": null,
+    "automation_angle_zh": "在多分支開發流程中呼叫此MCP工具，讓Claude Code自動在切換分支前先執行sync，降低因分支狀態不一致導致的程式碼衝突或錯誤。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6911558?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-google-futures-lab-ai",
+    "title": "Google Futures Lab 展示水大學生 AI 原型：手語導師與教育應用",
+    "title_original": "Check out real-life AI prototypes from the Futures Lab.",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+    "published_at": "2026-05-29T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google  Futures Lab 展出滑鐵盧大學學生開發的多項 AI 原型，其中手語導師專案利用視覺模型輔助聾啞人士學習手語，展現了多模態 AI 在教育領域的實際應用潛力。",
+    "highlights": [
+      "視覺 + 語音多模態模型在手語學習的應用",
+      "屬於展示性原型，非商業化產品",
+      "可借鑒其無障礙 AI 設計思路",
+      "具教育與社會價值但暫無直接自動化應用"
+    ],
+    "why_it_matters": "此類原型展示了多模態 AI 在教育與無障礙領域的可能性，對從事教育科技或有 accessibility 需求的開發者有參考價值，但不構成立即可用的工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "若有 accessibility 相關需求，可研究其開源程式碼或聯繫水盧大學實驗室獲取技術文件，借鑒其手勢辨識 pipeline 設計思路。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-29-yantrikdb-ai",
     "title": "yantrikdb：AI 代理認知記憶引擎",
     "title_original": "yantrikos/yantrikdb",
@@ -391,6 +503,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-29-openai-rosalind-biodefense-gpt-rosalind",
+    "title": "OpenAI Rosalind Biodefense：GPT-Rosalind擴大可信存取範圍",
+    "title_original": "Strengthening societal resilience with Rosalind Biodefense",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+    "published_at": "2026-05-29T03:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI推出Rosalind Biodefense計畫，向經審核的開發者與美國政府合作夥伴擴大GPT-Rosalind模型的可信存取權限，目標是推進生物防禦、公共衛生與疫情整備相關的前沿AI應用。",
+    "highlights": [
+      "主要針對生物防禦與公共衛生應用場景",
+      "僅開放給經審核的開發者與政府夥伴",
+      "屬Trusted Access Program的一部分，非公開產品",
+      "模型能力圍繞生物安全相關任務優化",
+      "對一般技術用戶直接價值有限，但可關注其技術能力方向"
+    ],
+    "why_it_matters": "Rosalind Biodefense標誌著OpenAI在特定領域深化模型能力的策略。技術用戶可關注其能力展示，了解高風險領域AI監管與應用的趨勢。",
+    "automation_angle": null,
+    "automation_angle_zh": "此計畫對一般開發者不可直接使用，但可關注OpenAI部落格公布的技術評測報告，了解模型在生物領域的推論能力表現，作為日後選型參考。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-29-llm-coding-agent",
@@ -16163,6 +16303,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-29-mistral-voxtral",
+    "title": "Mistral 發布 Voxtral 多語言語音模型系列",
+    "title_original": "Speaking of Voxtral - Mistral AI",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5PeTNzb25ieTVldmlmSENJWTJ6alhkYnFaSXk0WU81Mjd5dm5QbXNtQU1HZHdIVkptTE01Y2k5MmxOZV8wdFFqamFJeUo?oc=5",
+    "published_at": "2026-03-23T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 推出 Voxtral 系列音頻模型，包含 Voxtral Large（大杯）與 Voxtral 7B（輕量版）。Voxtral Large 支援 37 種語言語音識別，具備時序標注與說話者分離功能，可處理本地音頻檔案。7B 版本則提供更快的推論速度，適合嵌入式場景。",
+    "highlights": [
+      "Voxtral Large 支援 37 種語言語音轉文字，含中文",
+      "具備說話者分離（speaker diarization）與時序標注能力",
+      "7B 輕量版可在本地或邊緣設備運行",
+      "API 定價尚未公布，預計近期開放",
+      "可同時處理上傳音頻檔案與即時串流"
+    ],
+    "why_it_matters": "Mistral 補足了自家模型陣容中缺乏原生音頻能力的缺口，Voxtral 有機會成為語音客服、會议紀錄、即時翻譯等場景的低成本替代方案，尤其對已經使用 Mistral 生態的開發者而言可降低模型切換成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合 Voxtral 7B 至本地流程，實現會議錄音自動轉逐字稿+摘要，無需依賴雲端語音 API，降低延遲與費用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-mistral-ai",
     "title": "Mistral AI 模型能力與最新發展總覽",
     "title_original": "Mistral AI: Models, Capabilities and Latest Developments - Built In",
@@ -16375,6 +16543,33 @@
     "automation_angle_zh": "關注 Mistral 模型部署的技術人員可觀察後續 Benchmarks 效能報告，若推論成本降低可重新評估將 Mistral 模型整合進自己的工作流程程。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-mistral-ai-nvidia",
+    "title": "Mistral AI 與 NVIDIA 合作加速開放前沿模型",
+    "title_original": "Mistral AI partners with NVIDIA to accelerate open frontier models - Mistral AI",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ2pSTkY5MG9qcWxHa05wZUxpWmFIbldndF9icFVQVVhVbDZhTTBYUEtnYU1ncHNXdG9JMUZPMkotTDFHS0xGZXpoblBHVm1QWXVHOXhCcm9VcDFlSm5BSEhBd1lfYkwtMlJRdzBheUxHS0RXZmNfYk4zdHM0bmxySmVXRm5zYU9TZjZoWVZBWXVza0U?oc=5",
+    "published_at": "2026-03-16T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 宣布與 NVIDIA 建立合作夥伴關係，將利用 NVIDIA 的硬體與軟體堆疊加速其開放前沿模型的訓練與部署。此合作可能為 Mistral 未來模型帶來更高效的推論能力與更好的硬體支援。",
+    "highlights": [
+      "Mistral 將整合 NVIDIA GPU 資源與最佳化工具鏈",
+      "瞄準開放模型的訓練效率提升",
+      "具體合作細節與時間表尚未公布",
+      "可能影響未來 Mistral 模型的可及性與成本"
+    ],
+    "why_it_matters": "Mistral 與 NVIDIA 的深度合作可能改變開放模型在企業級部署的成本結構與效能表現，值得關注其發布時間線與實際性能測試結果。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 Mistral 官網與 GitHub 更新，待新模型發布後使用 NVIDIA H100 進行基準測試，對比 Mistral Small 與 Llama 3.1 70B 的成本效益。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -17916,6 +18111,33 @@
     "automation_angle_zh": "利用統一端點設計模型動態路由機制，透過環境變數或設定檔快速切換不同模型，快速評估各模型的任務表現與成本效益。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-zuckerberg-meta",
+    "title": "Zuckerberg 表態：Meta 未來不一定開源所有超智能模型",
+    "title_original": "Zuckerberg signals Meta won’t open source all of its ‘superintelligence’ AI models - TechCrunch",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNajF6UWZWY0diZkUtNnY5eW9qcDJ6WU1WVkxaeldVb0kyeEFKWjJLLWF2d1Z4ZEdHN1QtblJlZnIxR2hzSkh4cTZXQjZ1MzdLYkhIVkt1aC05ZDkwaGJaaFBZVVpRM0E1b2hjci1odVdsWlo3QkVPRkZMQi1tbWxQeGdkRzJwRnlGM0FRbWQ2Mll3YjVTTUc1eFQxZzNCdkhhU28zOU9CdVFMS1kxLUQtR1RLbnJUcnVlRmc?oc=5",
+    "published_at": "2025-07-30T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Mark Zuckerberg 在訪談中暗示，Meta 未來的部分「超智能」AI 模型可能不會開源。此發言顯示 Meta 對於開源策略的立場正從全面開放轉向更審慎的階段性判斷。",
+    "highlights": [
+      "Meta 對「超智能」模型採用商業限制的可能性上升",
+      "Llama 系列未來版本可能加入更嚴格授權條款",
+      "企業用戶需關注新授權合規性變化",
+      "Llama 3 與 4 的開源範圍可能出現分化"
+    ],
+    "why_it_matters": "若 Meta 收緊開源政策，使用 Llama 進行商業產品開發的企業需重新評估授權風險與備選方案。此變化可能影響開源模型生態的整體格局。",
+    "automation_angle": null,
+    "automation_angle_zh": "審查現有產品的 Llama 授權條款，準備遷移到完全開源模型（如 Mistral、Qwen）的技術方案，降低對 Meta 決策的依賴。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
