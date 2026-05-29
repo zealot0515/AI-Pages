@@ -1,5 +1,318 @@
 [
   {
+    "id": "2026-05-29-line-bot-mcp-server-line-api",
+    "title": "LINE Bot MCP Server（LINE 官方訊息 API 整合）",
+    "title_original": "line/line-bot-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/line/line-bot-mcp-server",
+    "published_at": "2026-05-29T00:15:16Z",
+    "category": "agent-skills",
+    "summary": "基於 TypeScript 的 MCP 伺服器，可將 AI Agent 連接至 LINE 官方帳號，透過 LINE 平台與用戶互動。592 星，支援訊息推送、被動回覆與 Webhook 事件處理。",
+    "highlights": [
+      "LINE 官方 Messaging API 整合，穩定性高且符合官方規範",
+      "TypeScript 實作，適合現代化 Web 技術堆疊",
+      "支援訊息主動推送與被動回覆雙向互動",
+      "可用於客服機器人、會員通知、行銷自動化等場景",
+      "今天就能部署並測試與 LINE 官方帳號的串接"
+    ],
+    "why_it_matters": "將 LINE 億級用戶觸及能力與 AI Agent 結合，可快速打造智能客服、訂單通知、會員服務系統，大幅降低與用戶互動的開發成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署此 MCP server 後，讓 Agent 自動回覆 LINE 用戶詢問、發送訂單狀態通知、管理官方帳號的所有互動，打造 24 小時自動化客服。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/13128444?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-29-claude-opus-4-8",
+    "title": "Claude Opus 4.8：誠實度與中對話系統訊息能力並進",
+    "title_original": "Claude Opus 4.8: \"a modest but tangible improvement\"",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything",
+    "published_at": "2026-05-28T23:59:50+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 釋出 Claude Opus 4.8，強調「誠實度」提升與「中對話系統訊息」功能。模型較少未經證實的聲稱，程式碼錯誤檢出率提升約四倍。定價與 4.7 相同，輸入每百萬 tokens 5 美元。",
+    "highlights": [
+      "誠實度提升：較少未經證實聲稱，錯誤檢出率提升約四倍",
+      "支援中對話系統訊息：可在對話中插入更新指示而不影響快取",
+      "Prompt 快取最小長度降至 1,024 tokens（從 4.7 的 4,096 下降）",
+      "定價不變：輸入 5/million tokens，輸出 25/million tokens",
+      "Anthropic 誠實描述這是「溫和但實質的改進」令人讚賞"
+    ],
+    "why_it_matters": "誠實度提升對技術用途有實質價值，中對話系統訊息功能可减少 Token 消耗並維持快取效率，是建構可靠 Agent 工作流程的重要基礎能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "在長時間 Agent 工作流程中利用中對話系統訊息功能動態調整指示，並利用更低的快取門檻節省成本，今天更新 SDK 就能用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-langsmith-sandboxes-ga-vm-ai-agent",
+    "title": "LangSmith Sandboxes 正式GA：隔離式微VM提升 AI Agent 安全性",
+    "title_original": "LangSmith Sandboxes are Generally Available",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langsmith-sandboxes-generally-available",
+    "published_at": "2026-05-28T23:04:43+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 宣布 LangSmith Sandboxes 正式釋出。該服務提供核心隔離的微VM 環境，支援快照與平行分支功能，內建服務 URL 與認證代理。專為編碼 Agent、CI Agent 與資料管線設計，讓開發者能在安全環境中執行並行測試。",
+    "highlights": [
+      "核心隔離微VM避免危險操作影響主系統",
+      "支援快照功能可快速還原測試狀態",
+      "平行分支功能同時測試多個 Agent 行為",
+      "內建服務 URL 和認證代理簡化整合流程",
+      "支援 Coding Agent、CI Agent、資料管線等多場景"
+    ],
+    "why_it_matters": "隨著 Agent 能力增強，安全性隔離需求增加。LangSmith Sandboxes 提供企業級安全環境，能在隔離環境中測試複雜 Agent 工作流程程，降低生產環境風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 Sandboxes 測試多個 AI Agent 並行處理任務，模擬真實場景（如自動化部署、測試生成）並驗證隔離效果再部署至生產環境。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-29-benchmark-yourself-llm-web",
+    "title": "Benchmark-Yourself：與開源 LLM 比拚程式能力的 Web 工具",
+    "title_original": "here it is: Benchmark-Yourself app - compete against open source LLMs and get your score - 5 benchmarks available - Add your results to your CV or linkedIn (if you dare)... or just paste them below for community shaming.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqiz4x/here_it_is_benchmarkyourself_app_compete_against/",
+    "published_at": "2026-05-28T22:39:29+00:00",
+    "category": "open-source-ai",
+    "summary": "社群開發者推出 Benchmark-Yourself Web 應用，讓用戶與開源 LLM（如 Qwen2.5、CodeQwen）比拚測驗成績並取得分數。可將結果加入履歷或 LinkedIn，目前支援 5 種基準測試，適合想量化自身 AI 編程能力與模型差距的開發者。",
+    "highlights": [
+      "目前開放 5 種基準測試，涵蓋程式設計與推論任務",
+      "結果可匯出至 CV 或 LinkedIn，增加求職競爭力",
+      "可與特定開源模型直接比較，了解能力差距",
+      "提供社群排行榜，形成技術交流氛圍",
+      "工具方便易用，適合快速自我評估"
+    ],
+    "why_it_matters": "開源模型能力快速提升，開發者需要知道自己與最新模型的差距。這個工具提供一個客觀基準，幫助技術人員選擇適合自己工作流程程的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可立即使用該工具測試自己程式能力，並根據結果選擇適合的本地模型或 API 服務，避免過度購買付費模型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-microsoft-azure-skills-mcp",
+    "title": "Microsoft Azure Skills（MCP 插件集）",
+    "title_original": "microsoft/azure-skills",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/microsoft/azure-skills",
+    "published_at": "2026-05-28T22:20:07Z",
+    "category": "agent-skills",
+    "summary": "微軟官方釋出的 MCP 伺服器插件集，提供 Azure 雲端情境所需的技能與設定。可讓 AI Agent 直接操作 Azure 資源、部署服務、管理雲端工作負載。Python 實作，已有超過 1100 星。",
+    "highlights": [
+      "微軟官方維護，品質與更新有保障，適合企業採用",
+      "支援 Azure 雲端操作、資源部署等多種情境",
+      "基於 Model Context Protocol，可與主流 Agent 框架整合",
+      "Python 實作，易於 Fork 改寫與客製化",
+      "今天就能 clone 下來設定 Azure 訂閱開始試用"
+    ],
+    "why_it_matters": "提供可直接使用的 Azure 自動化工具，讓 AI Agent 能操作雲端資源，省去從頭開發 MCP server 的時間，加速雲端工作負載的 Agent 化。",
+    "automation_angle": null,
+    "automation_angle_zh": "Fork 此 repo，設定 Azure 訂閱後即可讓 Claude/GPT 等 Agent 幫你自動建立 VM、部署容器或查詢資源狀態，大幅降低雲端管理門檻。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-29-claude-cli-2-1-154-vllm",
+    "title": "Claude CLI 2.1.154 導致 vLLM 本地部署相容性問題",
+    "title_original": "Claude cli >= 2.1.154 breaks local use with vLLM by introducing \"ctx\", \"msg\" and \"system\" roles for API messages. This 1-line patch to vLLM fixes it.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqiewb/claude_cli_21154_breaks_local_use_with_vllm_by/",
+    "published_at": "2026-05-28T22:16:55+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶回報 Claude CLI 版本 2.1.154 引入 ctx、msg、system 等新 API 角色，導致與 vLLM 本地部署模型不相容。社群已有 1 行修補方案，需等待 vLLM 官方更新或手動套用修補。",
+    "highlights": [
+      "Claude CLI 新版本新增 ctx、msg、system 等 API 角色",
+      "與 vLLM 本地部署模型不相容，導致呼叫失敗",
+      "社群已有 1 行修補方案可供臨時使用",
+      "來源為 Reddit 討論，強度中等，建議交叉驗證",
+      "若使用本地模型部署需特別注意版本控管"
+    ],
+    "why_it_matters": "若使用 Claude CLI 控制本地 vLLM 模型，升級到此版本後可能遭遇相容性問題，需注意版本管理或套用社群修補，是本地部署使用者需要關注的實用資訊。",
+    "automation_angle": null,
+    "automation_angle_zh": "若使用 Claude CLI 部署本地模型，建議暫緩升級至 2.1.154，或套用社群修補方案確保穩定性，降低工作流程中斷風險。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-bioreason-dna-llm-neurips-2025",
+    "title": "BioReason：結合 DNA-LLM 的多模態生物推論研究，獲 NeurIPS 2025 接收",
+    "title_original": "bowang-lab/BioReason",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/bowang-lab/BioReason",
+    "published_at": "2026-05-28T22:14:44Z",
+    "category": "new-models",
+    "summary": "BioReason 是探討將 DNA-LLM 整合進多模態生物推論的研究論文，已被 NeurIPS 2025 接收。該專案探索生物序列與視覺/語言模型的跨模態推論能力，為生物資訊學與 AI 結合的前沿參考。",
+    "highlights": [
+      "已被 NeurIPS 2025 學術會議接收，具備同行評審品質",
+      "核心概念為 DNA-LLM 與多模態推論框架結合",
+      "瞄準生物序列理解與生物學推論任務",
+      "GitHub 星數 391，有一定社群關注",
+      "屬研究階段，非生產就緒工具"
+    ],
+    "why_it_matters": "對於生醫資料處理或基因體分析有興趣的技術用戶，BioReason 揭示了將 LLM 能力延伸至生物序列的可能方向，是追蹤 AI+生科領域能力變化的指標論文。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可閱讀論文與程式碼，理解 DNA-LLM 與多模態推論的實作方式，評估是否可借鑒至生物資料的自動化分析流程。",
+    "tags": [
+      "new-models",
+      "github_search",
+      "en",
+      "Jupyter Notebook"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/50999261?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-bug-solutions-for-coding-agents-mcp",
+    "title": "Bug Solutions for Coding Agents（MCP 錯誤修復工具集）",
+    "title_original": "roshgill/bug_solutions_coding_agents",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/roshgill/bug_solutions_coding_agents",
+    "published_at": "2026-05-28T22:05:28Z",
+    "category": "agent-skills",
+    "summary": "專為 Coding Agent 設計的 MCP 伺服器，收錄常見 bug 解決方案與修復模式。Python 實作，目標是幫 AI Agent 在程式碼生成後自動對照錯誤模式進行修正，提升輸出品質。",
+    "highlights": [
+      "收錄常見程式錯誤的修復模式，供 Agent 查詢比對",
+      "作為 MCP server 提供給 Coding Agent 呼叫使用",
+      "Python 實作，輕量且易於整合進工作流程",
+      "目前星星數低（11），代表新興專案，覆蓋範圍待驗證",
+      "可Fork並擴充適合自己技術棧的錯誤解決方案"
+    ],
+    "why_it_matters": "若成熟可減少 AI 生成程式碼的錯誤，但目前星星數少、覆蓋範圍未知，需自行測試穩定性與錯誤類型覆蓋率後再考慮用於正式流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此工具集作為 Coding Agent 的一部分，在程式碼生成後自動對照錯誤模式進行修正，是學習如何擴充 MCP 工具庫的良好參考範本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/99330131?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-google-agents-cli-cli-ai-agent",
+    "title": "Google agents-cli：用 CLI 快速建立與部署 AI Agent 的開源工具",
+    "title_original": "google/agents-cli",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/google/agents-cli",
+    "published_at": "2026-05-28T21:32:19Z",
+    "category": "agent-skills",
+    "summary": "Google 發布的 agents-cli 專案提供命令列工具，可將任何程式碼助理轉化為擅長建立、評估與部署 Google Cloud AI Agent 的專家。現已在 GitHub 獲得超過 2600 顆星，是值得關注的雲端 Agent 開發工具。",
+    "highlights": [
+      "Google 官方維護的 CLI 工具鏈",
+      "支援將現有程式碼助理（Cline、Claude Code 等）整合進 Agent 開發流程",
+      "專注於 Google Cloud 平台的 Agent 部署場景",
+      "GitHub 星數達 2640，社群關注度高",
+      "可用於標準化 Agent 評估與部署流程"
+    ],
+    "why_it_matters": "若技術用戶的專案以 Google Cloud 為主，這款 CLI 可大幅簡化 AI Agent 的建立與部署，降低在雲端構建 Agent 工作流程的學習曲線。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可先用 agents-cli 快速原型一個在 GCP 上運行的對話式 Agent，再用既有程式碼助理完善 Prompt 與工具鏈，快速建立自動化服務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1342004?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-29-ai",
+    "title": "本地模型能用於 AI 會議紀錄嗎？社群實測分享",
+    "title_original": "Are local models good enough yet for AI meeting memory?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqenz3/are_local_models_good_enough_yet_for_ai_meeting/",
+    "published_at": "2026-05-28T20:01:52+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群討論本地模型是否已足夠用於 AI 會議紀錄。討論重點包括 Whisper 轉譯品質、本地 LLM 摘要能力、以及延遲對話體驗的影響。部分用戶認為 7B 模型已堪用，但硬體需求與準確度仍是挑戰。",
+    "highlights": [
+      "Whisper 系列仍是本地語音轉文字的主流選擇",
+      "本地 LLM（如 Qwen2.5、Llama3.2）可用於會議摘要但速度差異大",
+      "7B 模型對文書機型友善，13B 以上需要高階 GPU",
+      "會議紀錄需要低延遲，本地部署的網路延遲是隱憂",
+      "提示工程對摘要品質影響顯著，需針對會議格式優化"
+    ],
+    "why_it_matters": "對於需要處理敏感會議內容的開發者或企業，本地模型提供資料不上雲的選項。了解目前模型能力邊界可幫助決定是否值得投入本地部署。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可下載 Whisper + 本地 LLM 組合測試自己會議音檔，比較與雲端服務的品質與成本差異，作為內部工具選型依據。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-nvidia-deepstream-coding-agent-ai-deepstream-sdk",
+    "title": "NVIDIA DeepStream Coding Agent：用 AI 加速 DeepStream SDK 應用開發",
+    "title_original": "NVIDIA-AI-IOT/DeepStream_Coding_Agent",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/NVIDIA-AI-IOT/DeepStream_Coding_Agent",
+    "published_at": "2026-05-28T19:15:39Z",
+    "category": "agent-skills",
+    "summary": "NVIDIA-AI-IOT 發布的 Coding Agent 專案展示如何利用 Cursor、Claude Code 等 AI 程式碼助理，搭配精心設計的 Agentic Skill 與結構化 Prompt，加速 NVIDIA DeepStream SDK 的應用開發流程。",
+    "highlights": [
+      "針對 NVIDIA DeepStream SDK 的 AI 輔助開發框架",
+      "整合 Cursor、Claude Code 等主流 AI 程式碼助理",
+      "提供結構化 Prompt 與 Agentic Skill 範本",
+      "可加速影片串流、邊緣 AI 應用的開發迭代",
+      "屬早期專案，星數 63，社群參與度尚在成長"
+    ],
+    "why_it_matters": "對於需要開發邊緣 AI 影片分析或 IoT 串流應用的技術用戶，該工具可大幅減少 DeepStream SDK 的學習與開發時間，是提升產出效率的實用捷徑。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在既有 IDE 中接入 Claude Code 或 Cursor，搭配 DeepStream Coding Agent 的 Prompt 範本，快速生成影片分析管線的原型程式碼。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Shell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/29582968?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-28-item",
     "title": "開發者自測模型效能基準分享",
     "title_original": "I've just benchmarked myself:",
@@ -528,6 +841,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/98949780?v=4",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-29-endava-codex",
+    "title": "Endava 以 Codex 建構代理組織：需求分析從數週縮短至數小時",
+    "title_original": "How Endava builds an agentic organization with Codex",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/endava",
+    "published_at": "2026-05-28T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方案例，展示歐洲 IT 顧問公司 Endava 如何用 Codex 加速軟體交付。將需求分析週期從數週压縮至數小時，軟體交付速度顯著提升，代表企業級 AI Agent 採用的實證參考。",
+    "highlights": [
+      "Endava 為歐洲大型 IT 顧問公司，規模達數千人",
+      "Codex 幫助將需求分析時間大幅压縮",
+      "軟體交付整體週期縮短，代表企業採用成效",
+      "OpenAI 官方背書的企業應用案例，可信度較高",
+      "可作為向技術主管展示 AI Agent 價值的參考材料"
+    ],
+    "why_it_matters": "此案例透露 Codex 在企業級工作流程程中的實際價值，需求分析時間的大幅压缩代表開發全流程加速的可能性，是評估 AI Agent 投資回報的重要參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考 Endava 的實作方式，將 Codex 整合至需求分析、程式碼生成、測試自動化等開發階段，評估其對整體交付速度的影響。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-28-altinity-clickhouse-mcp-ai-agent",
@@ -15425,6 +15766,34 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-05-29-mistral-ai-nvidia",
+    "title": "Mistral AI 與 NVIDIA 合作加速開源前沿模型發展",
+    "title_original": "Mistral AI partners with NVIDIA to accelerate open frontier models - Mistral AI",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYTl6SDdRXzRrd1VxeUFTOHBHaHNnWVBtZlphcDVVU0Utd1R5ZmY2R1hoYnl5eU5tT3RhMFBEcWFCWXRQb1ZNV2ZtcWVyZlBOTTVTTkNHUjVuWTk4S2doWXo5MGZ1N3ZYS0RMYnpZQ2RnaEJyN0FqM3IwRVR1NjBoVl92VTNka2YweVZhYnlGV2MxZw?oc=5",
+    "published_at": "2026-03-16T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Mistral AI 宣布與 NVIDIA 建立合作關係，針對開源前沿模型進行效能優化與加速。此次合作將結合 Mistral 的模型研發能力與 NVIDIA 的硬體與軟體優化堆疊，目標是提升開源模型的訓練與推論效率。",
+    "highlights": [
+      "合作目標提升開源前沿模型的訓練與推論速度",
+      "可能涉及 NVIDIA GPU 調度與 CUDA 優化",
+      "有利於企業部署 Mistral 模型的成本控制",
+      "雙方合作象徵開源模型獲得更多硬體支援",
+      "預計提升開源模型在企業場景的可用性"
+    ],
+    "why_it_matters": "Mistral 模型的部署成本可能因此下降，讓更多企業與個人開發者能負擔得起高效能開源模型。這也代表開源生態系統在硬體支援層面更成熟。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 Mistral 模型部署的技術人員可觀察後續 Benchmarks 效能報告，若推論成本降低可重新評估將 Mistral 模型整合進自己的工作流程程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-25-meta-google-openai",
     "title": "分析：Meta 能在 Google 與 OpenAI 衝刺時暫停嗎？",
     "title_original": "Avocado on Ice: Can Meta Afford to Pause While Google and OpenAI Sprint Ahead? - 24/7 Wall St.",
@@ -16285,6 +16654,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-29-meta",
+    "title": "Meta 傳開發代號「酪梨」新模型，可能不開源",
+    "title_original": "Meta is reportedly working on a new AI model called 'Avocado' and it might not be open source - Engadget",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOGpvaVhwanJvVGxsVWZnMjFDdVBDcUtSTzdQUk9zdFFyQWZxQW9mVXQtZW8zTi1SRVRNUjBxR3V1bVBBZ25OTnloMkFkSTFJeU9vYk5KRnFPY0xlNFlzak1taTc5Q0FlejhvNjFjNF9zODZ2NHRKT0tWR1lzWWV0MkI2bjR3ZnV4a2V1VmFLNFNmaE00a1pmV1pQX29BY1d3Q2xHVFlNU1pGRVRSVU1fd0NaQWhHMjN0Qzhoc2JBS2xfQ2FFSXBKdkM2S25CeGM?oc=5",
+    "published_at": "2025-12-10T08:00:00+00:00",
+    "category": "new-models",
+    "summary": "根據 Engadget 報導，Meta 正在開發代號為「Avocado」的全新 AI 模型。但消息指出該模型可能不會開源，這與 Meta 先前開源 Llama 系列的策略不同。詳細規格與能力尚未公布，具體發布時間也未確定。",
+    "highlights": [
+      "代號 Avocado 為 Meta 新 AI 模型開發中",
+      "可能採用封閉模式而非開源",
+      "與 Llama 系列開源策略可能產生差異",
+      "詳細能力與規格尚未揭露",
+      "發布時間尚未確認"
+    ],
+    "why_it_matters": "若 Meta 轉向封閉模型，可能影響開源社群對其評價。技術人員應持續關注 Llama 4 動態，並評估是否有其他開源替代方案可滿足需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可關注後續官方公告，同時評估現有開源替代方案（如 Qwen、DeepSeek）的能力，若 Avocado 不開源則直接比較選擇。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-23-mistral-ai-devstral-2",
     "title": "Mistral AI 發布 Devstral 2 開源程式碼模型",
     "title_original": "Mistral AI launches Devstral 2 open-source coding models - TestingCatalog AI News",
@@ -16633,6 +17030,34 @@
       "agent-skills",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-chatgpt-go-35-16",
+    "title": "ChatGPT Go 月費 35 元登陸亞洲 16 國，三大限制一次看懂",
+    "title_original": "月费 35 元！ChatGPT Go 開放亚洲 16 国，但這 3 個限制你必须知道 - blog.csdn.net",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85N3BiaWdHOFhudEhpbE9wYXdnNFhXWmVIQTNzcC1kaXlZYWFQSlBDdHJHekgzWWx4djNLMkNWZGw5OGMxX2ljTDFjZ001SG8zYmpfR3JfY0JIY1dwOENWY1BoQlR2SENySllja3h6RG4?oc=5",
+    "published_at": "2025-10-13T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "ChatGPT Go 以每月 35 元（新台幣）的定價進軍亞洲 16 國市場。該服務提供 ChatGPT 基本功能，但有三項限制需要注意：可能不支援 GPT-4、API 使用可能有配額限制、以及部分國家可能有法規限制。適合想嘗試 ChatGPT 但預算有限的用戶。",
+    "highlights": [
+      "月費 35 元為亞洲市場專屬定價策略",
+      "基本 ChatGPT 功能但可能不含 GPT-4",
+      "API 配額可能有別於標準訂閱",
+      "部分國家法規可能影響服務穩定性",
+      "與其他 ChatGPT 訂閱選項相比價格較低"
+    ],
+    "why_it_matters": "相較於其他 ChatGPT 訂閱方案，ChatGPT Go 提供更平價的入門選擇。但技術用戶應注意限制是否符合需求，避免購買後發現功能不足。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可先用此方案測試基本 API 功能，若發現限制再評估是否升級至 Pro 版，藉此控制 AI 工具成本。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
