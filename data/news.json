@@ -1,5 +1,482 @@
 [
   {
+    "id": "2026-05-29-yantrikdb-ai",
+    "title": "yantrikdb：AI 代理認知記憶引擎",
+    "title_original": "yantrikos/yantrikdb",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/yantrikos/yantrikdb",
+    "published_at": "2026-05-29T06:56:02Z",
+    "category": "agent-skills",
+    "summary": "專為 AI 代理設計的認知記憶系統，支援時間衰減、矛盾檢測、自主整合、知識圖譜與 HNSW 向量檢索。使用 Rust 開發並提供 Python 綁定，採用 AGPL 開源授權。",
+    "highlights": [
+      "時間衰減機制模擬人類記憶自然遺忘特性",
+      "具備矛盾資訊自動檢測與標記能力",
+      "支援知識圖譜建構與 ANN 向量檢索（HNSW）",
+      "Rust 核心 + Python bindings，效能與易用性兼顧",
+      "可部署為獨立 MCP Server 或 HTTP Gateway"
+    ],
+    "why_it_matters": "為長期運作的 AI 代理提供可靠的記憶管理方案，解決上下文長度限制與資訊遺忘問題，是建構持久化代理的關鍵基礎設施。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 yantrikdb 作為代理專案的記憶層，替換現有的簡單向量資料庫方案，測試其在多代理協作場景下的矛盾檢測與資訊整合效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/266386478?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-hig-doctor-apple-hig-cli",
+    "title": "hig-doctor：Apple HIG 合規審核 CLI 工具",
+    "title_original": "raintree-technology/hig-doctor",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/raintree-technology/hig-doctor",
+    "published_at": "2026-05-29T06:29:19Z",
+    "category": "open-source-ai",
+    "summary": "一款開源 CLI 工具，可讓 AI 編碼助理自動審計專案是否符合 Apple 人機介面指南（HIG），支援 12 種框架，內建 14 種代理技能。目前已在 GitHub 獲得 59 顆星，採用 TypeScript 開發。",
+    "highlights": [
+      "支援 12 種主流 UI 框架的 HIG 合規性檢測",
+      "提供 CLI 介面，可整合進 CI/CD 流程",
+      "內建 14 種專門針對 AI 助理的審核技能",
+      "可快速產出量化合規分數報告",
+      "TypeScript 實作，易於擴展客製化規則"
+    ],
+    "why_it_matters": "為開發 iOS/macOS 應用的技術團隊提供自動化合規審查能力，省去繁瑣的人工對照檢查流程，可直接提升 UI 開發品質與審核效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 hig-doctor 整合進 GitHub Actions 或 GitLab CI，每次 PR 自動檢測 UI 變更是否違反 HIG 規範，確保程式碼審查階段就捕捉合規問題。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/242706288?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-29-lucide-icons-mcp-ai-agent-lucide-mcp",
+    "title": "lucide-icons-mcp：為 AI Agent 提供 Lucide 圖示資源的 MCP 工具",
+    "title_original": "SeeYangZhi/lucide-icons-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/SeeYangZhi/lucide-icons-mcp",
+    "published_at": "2026-05-29T06:20:33Z",
+    "category": "agent-skills",
+    "summary": "SeeYangZhi 開發的 lucide-icons-mcp 以 Bun 與 MCP TypeScript SDK 建構，將 Lucide 圖示庫作為資源與工具暴露給 LLMs 與 Agent 應用。星標 35，適合需要圖示生成或 UI 自動化的 Agent 場景。",
+    "highlights": [
+      "以 Bun 執行，啟動快速且資源佔用低",
+      "將 Lucide 圖示透過 MCP 協定暴露為工具與資源",
+      "可讓 AI Agent 直接查詢與使用圖示",
+      "TypeScript SDK 建構，擴充性佳",
+      "適合需要圖示相關自動化的 UI 建構場景"
+    ],
+    "why_it_matters": "AI Agent 在建構 UI 或生成文件時常需圖示，lucide-icons-mcp 提供一個乾淨的 MCP 介面來獲取圖示資源，可提升 Agent 生成内容的視覺豐富度與實用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於測試 AI Agent 生成 Markdown 文件或網頁時自動插入 Lucide 圖示的能力，評估其對 UI 自動化流程的加分效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/46666370?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-html",
+    "title": "研究提議以 HTML 作為代理主要溝通語言",
+    "title_original": "Use HTML as the primary chat language for your agents so they can draw diagrams",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqt12p/use_html_as_the_primary_chat_language_for_your/",
+    "published_at": "2026-05-29T06:18:09+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 社區討論提出讓 AI 代理使用 HTML 作為主要聊天格式，以便直接渲染圖表與視覺化內容，降低對客戶端渲染能力的依賴，提升跨平台相容性。",
+    "highlights": [
+      "HTML 作為結構化輸出格式的可行性探討",
+      "可直接嵌入 SVG 圖表與互動元素",
+      "減少對前端 JavaScript 渲染框架的依賴",
+      "目前僅限於社區討論，未有正式框架採用",
+      "想法新穎但缺乏大規模實驗驗證"
+    ],
+    "why_it_matters": "若可行將改變 AI 視覺化輸出的技術棧選擇，但目前僅為創意討論階段，需要更多實證資料支援其效益與可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本地部署的小型代理專案中小範圍測試 HTML 輸出格式，評估其在特定視覺化場景下相較 Markdown 或圖片格式的實用性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-liquid-ai-lfm2-5-8b-a1b",
+    "title": "Liquid AI發布LFM2.5-8B-A1B模型",
+    "title_original": "New LFM2.5 8b A1b model!!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqsz1j/new_lfm25_8b_a1b_model/",
+    "published_at": "2026-05-29T06:15:00+00:00",
+    "category": "new-models",
+    "summary": "Liquid AI正式開源LFM2.5-8B-A1B模型，採用liquid序列架構而非傳統Transformer，主打8B參數規模與自適應激活機制，號稱在保持高效能的同時提升推論效率。",
+    "highlights": [
+      "基於liquid序列架構，非標準Transformer設計",
+      "8B參數規模，適配消費級GPU",
+      "自適應激活機制（A1B）優化推論效率",
+      "已在Hugging Face開源提供下載",
+      "適合需要節省計算資源的Agent應用場景"
+    ],
+    "why_it_matters": "非Transformer架構的新選擇，若真能在8B規模實現高效能，可為本地部署提供更低成本的替代方案，值得技術社群驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載模型至本地，用benchmark測試其在coding任務上的實際表現，評估是否值得替換現有方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-codedb-zig-mcp",
+    "title": "codedb：Zig 開發的程式碼智慧 MCP 工具集，星標破千",
+    "title_original": "justrach/codedb",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/justrach/codedb",
+    "published_at": "2026-05-29T06:12:35Z",
+    "category": "agent-skills",
+    "summary": "codedb 是一個以 Zig 撰寫的程式碼智慧 MCP 伺服器，提供快速語法樹、大綱、符號查詢、搜尋、讀取、編輯、依賴分析、快照及遠端 GitHub 倉庫查詢等功能。星標已破千，Zig 的效能優勢適合高效程式碼分析場景。",
+    "highlights": [
+      "使用 Zig 開發，強調高效能與低記憶體佔用",
+      "支援樹狀結構、符號、搜尋、編輯等程式碼分析能力",
+      "可查詢遠端 GitHub 倉庫資訊",
+      "星標 1221，社群關注度高",
+      "MCP 協定支援，方便與各 AI Agent 整合"
+    ],
+    "why_it_matters": "對於需要高效程式碼分析的 AI Agent，codedb 提供一個 Zig 原生實作，效能表現值得期待，且 MCP 介面相容性佳，可直接嵌入現有 Agent 工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "可作為 AI Agent 的程式碼理解底層工具，測試其分析大型程式碼庫的速度與準確度，評估是否能提升程式碼審查或重構自動化的效率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Zig"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/54503978?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-2b",
+    "title": "2B以下模型微調郵件分類的推薦討論",
+    "title_original": "What would you suggest the best model for fine tuning email classification under 2b size.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqrz0t/what_would_you_suggest_the_best_model_for_fine/",
+    "published_at": "2026-05-29T05:23:04+00:00",
+    "category": "new-models",
+    "summary": "Reddit技術討論串聚焦於2B參數以下的輕量模型，探討適合微調執行郵件分類任務的最佳選擇，並交流量化方法與訓練資料策略。",
+    "highlights": [
+      "Phi-2、Qwen2-0.5B等小型模型被頻繁提名",
+      "量化技術（INT4/INT8）對效果影響關鍵",
+      "訓練資料品質比模型大小更決定成敗",
+      "LoRA微調是控制資源消耗的主流做法",
+      "特定領域微調可補償模型容量不足"
+    ],
+    "why_it_matters": "資源受限的技術用戶可參考此討論，在不超過2B限制下找到最優性價比方案，实现邮件自動化分類。",
+    "automation_angle": null,
+    "automation_angle_zh": "可借用討論中的模型選擇與微調策略，快速搭建本地郵件分類流水線，降低對雲端API的依賴。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-unraid-management-agent-go-unraid-mcp-agent",
+    "title": "Unraid Management Agent：Go 語言的 Unraid 系統管理 MCP Agent",
+    "title_original": "ruaan-deysel/unraid-management-agent",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ruaan-deysel/unraid-management-agent",
+    "published_at": "2026-05-29T04:19:23Z",
+    "category": "agent-skills",
+    "summary": "ruuan-deysel 開發的 Unraid 管理 Agent 以 Go 語言實作，透過 REST API、WebSocket、MCP、Prometheus、MQTT 介面監控與控制 Unraid 系統，支援 Docker/VM 控制、即時指標、Home Assistant 整合與 AI Agent 工具化，星標 31。",
+    "highlights": [
+      "支援 Docker 容器與 VM 的管理控制",
+      "提供 REST API、WebSocket、MCP、Prometheus、MQTT 多種介面",
+      "可與 Home Assistant 整合，支援智慧家庭場景",
+      "即時指標監控功能完整",
+      "以 Go 實作，部署簡便且效能穩定"
+    ],
+    "why_it_matters": "如果你的 homelab 或伺服器跑 Unraid，這個 Agent 讓你用 MCP 協定將基礎設施管理自動化，適合想用 AI Agent 統一控制 homelab 的技術使用者。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在 Unraid 環境中部署，測試透過 MCP 協定自動化 Docker 部署、VM 快照或異常監控，並評估其與其他 AI Agent 工具的整合效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/57021511?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-lfm2-5-8b-a1b",
+    "title": "LFM2.5 8B A1B模型首發討論",
+    "title_original": "Liquid AI releases LFM2.5-8B-A1B",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqqnsl/liquid_ai_releases_lfm258ba1b/",
+    "published_at": "2026-05-29T04:17:10+00:00",
+    "category": "new-models",
+    "summary": "Reddit社群熱議LFM2.5 8B新模型登場，採用liquid架構與自適應激活机制，社群用戶積極討論其在實際任務中的表現與性價比。",
+    "highlights": [
+      "8B規模標榜高效能與合理資源消耗",
+      "liquid架構區別於傳統Transformer",
+      "A1B激活机制號稱提升推論效率",
+      "社群正在進行第一波實測分享",
+      "與Mistral、Qwen等同規模模型的對比關注度高"
+    ],
+    "why_it_matters": "新架構模型若驗證成功，將為本地AI應用提供新的性價比選擇，尤其適合需要兼顧效能與資源限制的技術用戶。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可第一時間下載測試，將其整合進現有自動化pipeline，對比现有本地模型的生成质量與速度。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-langchain-eu",
+    "title": "LangChain 部落格：宏觀趨勢分析與 EU 經濟分析",
+    "title_original": "LangChain 部落格：宏觀趨勢分析與 EU 經濟分析",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/financial-ai-that-investigates-macro-trends-eu-economic-analysis-with-you-com-and-langchain",
+    "published_at": "2026-05-29T04:14:44+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格介紹如何結合 LangChain 與 You.com 進行宏觀經濟趨勢分析，展示了 AI 輔助金融研究的應用範例，涵蓋 EU 經濟數據的自動化分析流程。",
+    "highlights": [
+      "LangChain 整合外部 API 進行數據分析",
+      "結合 You.com 搜尋增強能力",
+      "金融與經濟數據的自動化分析範例",
+      "提供可複製的 Chain 設計模式"
+    ],
+    "why_it_matters": "對於需要建構金融分析或市場研究 Agent 的開發者，此案例提供了具體的 Chain 設計參考，可縮短從零開發的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可直接採用或改編此 Chain 設計，建構自己的宏觀經濟監控 Agent，定時抓取 EU 經濟數據並生成報告。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-stepfun-3-7-flash-m5-max",
+    "title": "StepFun 3.7 Flash 在 M5 Max 上的速度基準測試",
+    "title_original": "StepFun 3.7 Flash - Speed Benchmark in M5 Max",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqqebc/stepfun_37_flash_speed_benchmark_in_m5_max/",
+    "published_at": "2026-05-29T04:04:37+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享了 StepFun 3.7 Flash 模型在 M5 Max 晶片上的推論速度基準測試結果。該測試提供了單位時間內處理的 token 數量等關鍵效能指標，有助於評估此中國模型在本地部署的實際表現。",
+    "highlights": [
+      "M5 Max 硬體環境下的實測數據",
+      "模型推論吞吐量（tokens/second）具體數值",
+      "與其他本地部署模型的速度對比",
+      "StepFun 3.7 Flash 為開源或可本地部署選項"
+    ],
+    "why_it_matters": "對於想在 Apple Silicon 上本地部署中文模型並重視速度的技術用戶，此基準提供了實用的性價比參考，幫助判斷是否符合工作流程程需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 StepFun 3.7 Flash，在自己的 M5 Max 設備上重現基準測試，驗證是否符合其自動化腳本或 API 服務的延遲要求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-datasette-1-0a31",
+    "title": "Datasette 1.0a31 新增寫入查詢與儲存查詢功能",
+    "title_original": "datasette 1.0a31",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/29/datasette/#atom-everything",
+    "published_at": "2026-05-29T03:32:02+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 Datasette 1.0a31 alpha 版本，新增兩項主要功能：具備權限的使用者可直接執行寫入查詢（INSERT/UPDATE/DELETE），以及可將查詢儲存為私有或共享的「儲存查詢」，取代原有的「罐頭查詢」功能。",
+    "highlights": [
+      "支援資料庫寫入操作，含 INSERT/UPDATE/DELETE",
+      "儲存查詢功能支援私有與實例內共享",
+      "提供模板化查詢介面，簡化 SQL 操作",
+      "可與既有 SQLite 資料庫無縫整合"
+    ],
+    "why_it_matters": "這使得 Datasette 從純讀取工具進化為可寫入的資料庫介面，讓 AI Agent 能透過統一 API 對資料庫進行讀寫操作，簡化工作流程程整合。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 Datasette 上建立預設的寫入模板，讓 AI Agent 自動執行資料庫維護任務，例如定時清理日誌或更新狀態欄位。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-29-api-openai",
+    "title": "小型 API 用戶成功獲得 OpenAI 技術支援回應",
+    "title_original": "Me, a small api user, got openai tech support to help me in a few hours.",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tqph8i/me_a_small_api_user_got_openai_tech_support_to/",
+    "published_at": "2026-05-29T03:21:29+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶分享其作為小型 API 消費者在數小時內獲得 OpenAI 技術支援協助的經驗，內容涉及具體的 API 問題排除與回應時效。",
+    "highlights": [
+      "小型用量級別用戶獲得支援的可能性",
+      "技術問題的實際解決案例",
+      "回應時間在可接受範圍內",
+      "可作為評估 OpenAI 企業支援服務的參考"
+    ],
+    "why_it_matters": "對於擔憂 OpenAI API 支援門檻的開發者，此案例顯示即使非企業用戶也可能獲得技術支援，降低了使用門檻的心理負擔。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者遇到 OpenAI API 問題時可嘗試提交支援工單，參考此案例的問題描述方式以提高獲得回應的機率。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-item",
+    "title": "注意：饋給資料品質聲明",
+    "title_original": "chatgpt down?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tqp6tq/chatgpt_down/",
+    "published_at": "2026-05-29T03:08:29+00:00",
+    "category": "hot-topics",
+    "summary": "本批次收到的項目均來自 Reddit r/OpenAI 且均為「Is ChatGPT down?」型態的低品質狀態查詢帖，缺乏實質技術內容。項目未包含 summary_source，無法進行有意義的編輯摘要。建議未來批次增加更多元的資訊來源。",
+    "highlights": [
+      "本批次 6 個項目全部為相同的狀態查詢帖",
+      "所有項目 summary_source 欄位為空，無法生成實質摘要",
+      "Reddit 狀態查詢帖的 editorial_score 均為 39.58，屬低分項目",
+      "建議引入模型發布、產品變更、定價更新等高價值資訊",
+      "建議增加 GitHub、官方部落格、技術新聞網站等來源"
+    ],
+    "why_it_matters": "本批次資料來源過於單一且缺乏技術深度，無法提供技術用戶需要的可自動化工作項目或有意義的模型能力變更資訊。需擴展資訊來源以提升簡報價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "下次批次可考慮過濾掉低分項目或增加關鍵字檢索條件，確保收到的項目具有實質技術價值。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-29-llm-coding-agent",
+    "title": "本地LLM Coding Agent實用功能評測",
+    "title_original": "Which Coding Agent Features Are Useful For Local LLMs",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqohv6/which_coding_agent_features_are_useful_for_local/",
+    "published_at": "2026-05-29T02:37:27+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/LocalLLaMA社群討論本地LLM運行Coding Agent時哪些功能真正實用，涵蓋終端操作、Git整合、檔案系統管理等場景，並評估各功能在本地部署限制下的可行性與穩定性。",
+    "highlights": [
+      "終端操作與命令執行是本地Agent的核心需求",
+      "Git整合能力直接影響版本控制工作流程",
+      "檔案系統管理需兼顧安全與效率",
+      "本地部署限制了即時資訊檢索能力",
+      "多模態功能在本地LLM中表現差異大"
+    ],
+    "why_it_matters": "對於技術宅而言，本地部署可省下API呼叫成本並掌控資料隱私，了解哪些功能真正可用於自動化日常工作意義重大。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據這些功能評測結果選擇或客製化本地Coding Agent，針對個人工作流程取捨功能與模型大小。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-chatgpt",
+    "title": "ChatGPT 服務中斷：用戶回報無法正常訪問",
+    "title_original": "I asked Chat GPT to create a Japanese style scroll with the original 151 Pokemon",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tqofbs/i_asked_chat_gpt_to_create_a_japanese_style/",
+    "published_at": "2026-05-29T02:34:27+00:00",
+    "category": "hot-topics",
+    "summary": "多個 Reddit 用戶回報 ChatGPT 出現服務中斷問題，症狀包括無法生成回應、超時、連線失敗等。OpenAI 官方狀態頁面顯示部分服務降級，工程團隊正在調查處理中。此為短期可用性事件，不涉及模型能力變更。",
+    "highlights": [
+      "大量用戶在 r/OpenAI 回報無法正常訪問 ChatGPT",
+      "OpenAI 狀態頁顯示部分 API 和 ChatGPT 服務降級",
+      "中斷原因尚未官方確認",
+      "建議技術用戶檢查 status.openai.com 作為參考",
+      "此事件對付費用戶的 API 整合可能有短暫影響"
+    ],
+    "why_it_matters": "對於依賴 ChatGPT API 建構自動化流程的技術用戶，服務中斷會直接中斷工作流程程。了解中斷狀態有助於快速切換備援方案或評估影響範圍。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可監控 OpenAI Status API 或使用第三方狀態檢查工具，在自動化腳本中加入健康檢查，當服務異常時自動發送告警通知。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-anthropic-470",
+    "title": "Anthropic年度經常性收入突破470億美元",
+    "title_original": "Anthropic's run-rate revenue hits $47 billion",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/29/anthropic/#atom-everything",
+    "published_at": "2026-05-29T01:23:08+00:00",
+    "category": "ai-deals",
+    "summary": "Anthropic在Series H融资65亿美元公告中披露，其年度經常性收入已突破470亿美元，從年初的300亿在不到一年内翻倍增长，市場表现强劲。",
+    "highlights": [
+      "年度經常性收入ARR已達470亿美元",
+      "對比年初300亿增長超過50%",
+      "ARR計算方式為當月收入×12的年化估算",
+      "65亿新融资來自多家战略投资者",
+      "外界對數字真實性仍有不同解讀"
+    ],
+    "why_it_matters": "收入規模反映市場採用度，470亿美元對技術用戶的意義在於理解Claude系工具的企業採用趨勢與潛在定價影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業技術決策者可參考此趨勢評估Claude平台穩定性與長期可用性，個人用戶則可關注未來可能推出新的用量方案。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-29-line-bot-mcp-server-line-api",
     "title": "LINE Bot MCP Server（LINE 官方訊息 API 整合）",
     "title_original": "line/line-bot-mcp-server",
@@ -50,6 +527,34 @@
     "automation_angle_zh": "在長時間 Agent 工作流程中利用中對話系統訊息功能動態調整指示，並利用更低的快取門檻節省成本，今天更新 SDK 就能用。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-llm-anthropic-0-25-1-claude-opus-4-8",
+    "title": "llm-anthropic 0.25.1 支援 Claude Opus 4.8",
+    "title_original": "llm-anthropic 0.25.1",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything",
+    "published_at": "2026-05-28T23:54:56+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布的 llm 外掛更新，新增 Claude Opus 4.8 模型支援，並引入 fast mode 選項與動態 max_tokens 配置，可直接透過命令列调用 Anthropic 模型。",
+    "highlights": [
+      "新增 claude-opus-4.8 模型識別與調用",
+      "-o fast 1 選項支援 Fast Mode（需帳戶開通）",
+      "max_tokens 預設值改為模型最大輸出上限",
+      "可透過 pip 直接安裝，無需額外設定",
+      "開源專案，可審視實作細節與 API 调用方式"
+    ],
+    "why_it_matters": "為開發者提供便捷的命令列介面存取 Claude 模型，且新版本提供了更細粒度的效能控制選項，有助於最佳化 API 成本與回應速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 llm-anthropic 整合進 Shell 腳本或 Python 自動化流程，替代繁瑣的 API 呼叫程式碼，快速原型化 AI 輔助的工作流程程。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
@@ -277,6 +782,33 @@
     "automation_angle_zh": "技術讀者可下載 Whisper + 本地 LLM 組合測試自己會議音檔，比較與雲端服務的品質與成本差異，作為內部工具選型依據。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-markdown-svg-renderer-svg-markdown",
+    "title": "markdown-svg-renderer：支援 SVG 程式碼區塊的 Markdown 渲染工具",
+    "title_original": "markdown-svg-renderer",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/28/markdown-svg-renderer/#atom-everything",
+    "published_at": "2026-05-28T19:45:14+00:00",
+    "category": "agent-skills",
+    "summary": "一款客製化 Markdown 渲染工具，專門處理 fenced code 區塊中的 SVG 程式碼，可即時渲染圖像並提供切換至原始碼的視圖分頁，同時支援直接載入 CORS-enabled 的 Markdown 檔案或 GitHub Gist。",
+    "highlights": [
+      "原生支援 SVG 程式碼區塊的即時預覽",
+      "提供「程式碼視圖」與「預覽視圖」快速切換",
+      "支援 URL 直接載入 Markdown 內容",
+      "可用於展示 LLM 輸出結果的視覺化"
+    ],
+    "why_it_matters": "對於需要展示 AI 生成圖表或技術文件包含 SVG 的開發者，此工具可快速將 Markdown（含 SVG）轉為可互動的展示頁面，提升文件品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用此工具快速建立 AI 生成結果的視覺化展示頁面，或將包含 SVG 圖表的技術文件一鍵發布到內部 Wiki。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
@@ -1094,6 +1626,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-openai-ai",
+    "title": "三菱日聯金融集團攜手 OpenAI 打造 AI 原生組織",
+    "title_original": "MUFG aims to become AI-native with OpenAI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/mufg",
+    "published_at": "2026-05-28T00:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "日本最大銀行 MUFG 宣布全面採用 ChatGPT Enterprise，目標是將整個組織轉型為 AI 原生企業，同時利用 AI 能力開發新一代金融服務產品並規模化部署。",
+    "highlights": [
+      "MUFG 導入 ChatGPT Enterprise 作為企業級 AI 平台",
+      "目標是從根本改造內部工作流程程與組織文化",
+      "將 AI 能力整合進金融服務產品開發流程",
+      "案例來源為 OpenAI 官方 Blog，可信度高",
+      "體現大型金融機構對企業 AI 解決方案的信任"
+    ],
+    "why_it_matters": "作為全球頂級金融機構的 AI 轉型案例，MUFG 的實踐路徑將成為其他企業評估與部署企業 AI 的重要參照依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "可追蹤 MUFG 發布的技術文件與案例研究，了解如何在金融合規環境下安全部署 AI 工作流程程，並評估是否適用於自身組織。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-05-28-langchain-interrupt",
@@ -12608,6 +13168,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-29-anthropic",
+    "title": "Anthropic 企業下一戰：代理控制平面",
+    "title_original": "Claude’s next enterprise battle is not models: it’s the agent control plane - VentureBeat",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMWhRNmRxdEQ1b1NsZl9kanhnVlJBUG15ZWljamJQUGpOdFd5MC1MLVUtVzU5R1JWM2lxOXd4MEtRcVZiVnJGcjJHMkdHVHNZUy1KZ3hzYW1JNzFsUkRWYWM5RkNWNkxVR0tGX1d5T3ZPTWNkUnUtZGI4N2k1dmNvX3ltNmZjSmlvUWRFcmIyWHkzdkxKalNHU1RMb05pcWlXM3hhT2ZmbkN0a0pTajhF?oc=5",
+    "published_at": "2026-05-15T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "VentureBeat 分析指出，Claude 的企業競爭策略重點不在模型本身，而是代理控制平面（Agent Control Plane），這將決定企業級 AI 部署的市場格局。",
+    "highlights": [
+      "Anthropic 的企業策略核心轉向代理控制層",
+      "強調可控性、可觀測性與安全邊界管理",
+      "代理控制平面涉及任務調度、狀態追蹤與錯誤恢復",
+      "預計成為企業 AI 部署的關鍵差異化點",
+      "反映企業市場對 AI 安全可控的迫切需求"
+    ],
+    "why_it_matters": "理解 Anthropic 的戰略方向有助技術決策者評估不同 AI 平台在企業環境下的長期適用性與維運可控程度。",
+    "automation_angle": null,
+    "automation_angle_zh": "密切關注 Anthropic 發布的代理控制相關 API 與功能更新，評估其與現有自動化流程的整合潛力與實施難度。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-16-openai-codex",
