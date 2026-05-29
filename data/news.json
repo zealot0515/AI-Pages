@@ -1,5 +1,146 @@
 [
   {
+    "id": "2026-05-29-initrunner-yaml-ai-agent",
+    "title": "initrunner：用YAML定義AI Agent角色並任意部署",
+    "title_original": "vladkesler/initrunner",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/vladkesler/initrunner",
+    "published_at": "2026-05-29T18:39:37Z",
+    "category": "open-source-ai",
+    "summary": "initrunner允許用YAML定義AI Agent角色，可部署為CLI、API Server或自主Daemon。Python開發，現有38顆星，適合快速建立可複用的Agent腳本。",
+    "highlights": [
+      "YAML驅動的Agent角色定義",
+      "支援CLI、API Server、Daemon三種模式",
+      "Python實作易於擴展",
+      "適合快速原型與重複部署",
+      "輕量級無需額外基礎設施"
+    ],
+    "why_it_matters": "YAML定義簡化了Agent邏輯的版本控制與分享，技術用戶可快速建構、重現並部署Agent工作流程程。",
+    "automation_angle": null,
+    "automation_angle_zh": "工程師可用YAML編寫重複性任務Agent，透過CLI批次執行或作為Daemon背景服務運行。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/217212057?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-rpg-encoder-ai-coding-agent",
+    "title": "rpg-encoder：讓AI Coding Agent理解任意程式碼庫語義",
+    "title_original": "userFRM/rpg-encoder",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/userFRM/rpg-encoder",
+    "published_at": "2026-05-29T18:20:40Z",
+    "category": "agent-skills",
+    "summary": "rpg-encoder是MCP Server，為AI Coding Agent提供程式碼庫的語義理解。支援意圖搜尋、編輯時自動同步、單次呼叫全庫上下文。Rust+tree-sitter實作，支援15種語言、28種工具，28顆星。",
+    "highlights": [
+      "基於Rust與tree-sitter高效解析",
+      "支援15種程式語言",
+      "意圖導向搜尋比關鍵字更精準",
+      "編輯時自動同步上下文",
+      "單次呼叫提供全庫上下文減少來回"
+    ],
+    "why_it_matters": "rpg-encoder解決了大型程式碼庫中Agent上下文不足的問題，可顯著提升Coding Agent在陌生碼庫的工作效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者將rpg-encoder整合進CI/CD流程，讓AI工具在程式碼審查或重構時自動理解整體架構。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/101120927?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-granite-karpathy",
+    "title": "Granite：受Karpathy啟發的本地知識編譯器",
+    "title_original": "The-Vibe-Company/Granite",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/The-Vibe-Company/Granite",
+    "published_at": "2026-05-29T17:58:44Z",
+    "category": "open-source-ai",
+    "summary": "Granite是本地優先的知識編譯器，為人與Agent服務。基於Karpathy的願景設計，採用純Markdown格式，附帶CLI與MCP Server。TypeScript開發，26顆星。",
+    "highlights": [
+      "本地優先確保資料隱私",
+      "純Markdown格式無鎖定效應",
+      "提供CLI與MCP Server雙介面",
+      "支援人類與AI Agent共同使用",
+      "受Karpathy的微型知識庫願景啟發"
+    ],
+    "why_it_matters": "Granite填補了本地知識管理與AI Agent之間的缺口，Markdown格式讓技術用戶可自由遷移與修改。",
+    "automation_angle": null,
+    "automation_angle_zh": "用戶可用Granite建立個人知識庫，再透過MCP Server讓其他Agent工具直接存取該知識。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/252322352?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-gemini-omni-gemini-3-5",
+    "title": "Gemini Omni 與 Gemini 3.5 九大實際應用演示",
+    "title_original": "9 demos of Gemini Omni and Gemini 3.5 in action",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+    "published_at": "2026-05-29T17:30:00+00:00",
+    "category": "new-models",
+    "summary": "Google I/O 2026 發布九段影片展示 Gemini Omni 與 Gemini 3.5 的實際能力。這些演示涵蓋多模態理解、長文本處理等核心功能，是評估 Google AI 模型進展的重要參考。",
+    "highlights": [
+      "九段影片展示 Gemini Omni 與 3.5 實際應用",
+      "涵蓋多模態理解與長文本處理能力",
+      "為 Google I/O 2026 發布的重點內容",
+      "可供開發者評估模型能力邊界"
+    ],
+    "why_it_matters": "Gemini 系列模型的實際能力展示有助開發者選擇適合的模型供應商，了解多模態 AI 的最新進展與應用潛力。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可逐一觀看影片並測試對應 API，評估 Gemini 在其特定使用場景（如文件處理、影像分析）中的表現是否優於現有方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-langchain-interpreter-skills",
+    "title": "LangChain 推出 Interpreter Skills 讓代理能執行工作流程",
+    "title_original": "Interpreter Skills: Building Workflows for Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/interpreter-skills",
+    "published_at": "2026-05-29T16:36:25+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 Interpreter Skills 功能，透過 TypeScript 模組讓 AI 代理能夠匯入並執行自訂程式碼。此功能大幅擴展代理的工作能力範圍，使其能處理更複雜的自動化任務。",
+    "highlights": [
+      "提供 TypeScript 模組讓代理可匯入與執行",
+      "支援建構更複雜的代理工作流程",
+      "擴展 AI 代理的實際應用邊界",
+      "可即時測試與部署"
+    ],
+    "why_it_matters": "此功能讓開發者能為 AI 代理新增自訂能力，是提升代理自主性的重要元件。對於想建立複雜自動化流程的技術用戶，此為值得關注的新工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可直接安裝 LangChain 並實作 Interpreter Skills，建構能執行自訂邏輯的代理系統，測試其在文件處理、資料分析等場景的表現。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-29-pipefy-mcp-server-pipefy-mcp-agent",
     "title": "pipefy-mcp-server：Pipefy流程平台的MCP伺服器與Agent技能",
     "title_original": "gbrlcustodio/pipefy-mcp-server",
@@ -103,6 +244,60 @@
     "why_it_matters": "此類原型展示了多模態 AI 在教育與無障礙領域的可能性，對從事教育科技或有 accessibility 需求的開發者有參考價值，但不構成立即可用的工具。",
     "automation_angle": null,
     "automation_angle_zh": "若有 accessibility 相關需求，可研究其開源程式碼或聯繫水盧大學實驗室獲取技術文件，借鑒其手勢辨識 pipeline 設計思路。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-braintrust-codex",
+    "title": "Braintrust 如何用 Codex 將客戶需求轉化為程式碼",
+    "title_original": "How Braintrust turns customer requests into code with Codex",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/braintrust",
+    "published_at": "2026-05-29T12:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Braintrust 工程團隊實際展示如何結合 Codex 與 GPT-5.5 加速實驗迭代與程式碼生成流程。此案例揭示 AI 程式碼生成工具在真實產品開發中的整合方式，並說明 prompt 工程如何影響輸出品質與效率。",
+    "highlights": [
+      "Codex 搭配 GPT-5.5 可加速實驗與程式碼生成",
+      "展示從客戶需求到實際程式碼的完整工作流程",
+      "Prompt 工程是影響程式碼品質的關鍵因素",
+      "提供可參考的實際整合範例"
+    ],
+    "why_it_matters": "對於想將 AI 程式碼生成整合進開發流程的工程師，此案例提供具體的實務參考，可評估類似工具鏈的可行性與限制。",
+    "automation_angle": null,
+    "automation_angle_zh": "工程師可嘗試用 Codex API 建構類似的需求→程式碼自動化流程，評估其在實際專案中的準確率與維護成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-ai",
+    "title": "波士頓兒童醫院用 AI 解鎖新診斷可能",
+    "title_original": "Boston Children’s uses AI to unlock new diagnoses",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/boston-childrens-hospital",
+    "published_at": "2026-05-29T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "波士頓兒童醫院運用 OpenAI 技術改善病患照護，成功協助診斷超過 40 例罕見疾病。此案例展示 AI 在醫療領域的實際應用成效，以及如何減輕醫護人員的行政負擔。",
+    "highlights": [
+      "已成功診斷超過 40 例罕見疾病",
+      "AI 協助減輕醫護人員行政負擔",
+      "展示 AI 在醫療領域的實務應用",
+      "強調 AI 作為輔助工具而非替代醫師"
+    ],
+    "why_it_matters": "AI 輔助醫療診斷已從實驗階段邁向實際落地，此案例提供醫療 AI 應用的可信賴參考點，有助開發者了解該領域的實際需求與限制。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可研究其背後的 AI 模型架構與資料處理流程，評估是否可移植至其他醫療或專業診斷應用場景。",
     "tags": [
       "hot-topics",
       "rss",
@@ -281,6 +476,33 @@
       "Zig"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/54503978?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-29-ai",
+    "title": "南韓每日經濟：電信商推出青少年 AI 方案優惠",
+    "title_original": "推出最佳5种、Light 11种，现有67种新加入中断資料耗尽後，自動适用各年龄段的優惠 - 매일경제",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0xeWNRTjE4aHlRcEVBWGxtVGg0MTluUXRnYXRlRndWRTBGR0tLNUVEb2s2SThrSnJtbmZXemRfbFZ1MWREM3JTTlRsTQ?oc=5",
+    "published_at": "2026-05-29T05:25:56+00:00",
+    "category": "ai-deals",
+    "summary": "南韓電信業者推出針對青少年的 AI 方案優惠，包含最佳方案 5 種、Light 方案 11 種，資料耗盡後自動適用各年齡層優惠。此為電信 AI 服務的行銷資訊，訊號強度有限。",
+    "highlights": [
+      "南韓電信業者推出青少年 AI 方案",
+      "包含 5 種最佳方案與 11 種 Light 方案",
+      "資料耗盡後自動適用優惠",
+      "主要為行銷資訊，技術價值有限"
+    ],
+    "why_it_matters": "此資訊屬電信行銷優惠，對技術開發者的實質參考價值較低，可能作為了解 AI 服務商業化的參考，但非核心技術情報。",
+    "automation_angle": null,
+    "automation_angle_zh": "低自動化價值。如需測試可關注是否有 API 或免費額度開放，但目前無明確技術亮點。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
