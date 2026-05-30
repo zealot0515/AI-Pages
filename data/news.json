@@ -1,5 +1,113 @@
 [
   {
+    "id": "2026-05-30-agentic-devops-playbook-notebook-production",
+    "title": "開源 Agentic DevOps 互動 playbook：從 Notebook 到 Production",
+    "title_original": "We wrote an open-source interactive playbook for Agentic DevOps (How to move multi-agent systems from local notebooks to production).",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1trxjid/we_wrote_an_opensource_interactive_playbook_for/",
+    "published_at": "2026-05-30T11:36:06+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 社群分享的開源 playbook，目標幫助多 Agent 系統從本地 Notebook 遷移至 Production 環境，包含實務步驟與互動式指引，仍屬社群自發資源，非正式文件。",
+    "highlights": [
+      "多 Agent 系統本地到生產環境遷移指南",
+      "互動式 playbook 形式"
+    ],
+    "why_it_matters": "對搭建多 Agent 系統的技術團隊，生產化部署文件有實務參考價值，但需自行驗證適用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 playbook，結合自身 CI/CD 流程，測試其中模板是否能加速現有多 Agent 專案的部署驗收。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-claude-code-studio-claude-code-cli-web",
+    "title": "claude-code-studio：Claude Code CLI 的 Web 化工作區",
+    "title_original": "Lexus2016/claude-code-studio",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Lexus2016/claude-code-studio",
+    "published_at": "2026-05-30T10:32:31Z",
+    "category": "agent-skills",
+    "summary": "開源 Web 工作區將 Claude Code CLI 包裝成交互式介面，內建 Kanban 面板、任務排程、MCP 伺服器整合與多 Agent 協同，支援 Web、SSH、Telegram 遠端存取，目前 110 星。",
+    "highlights": [
+      "即時串流回應與 Web 介面",
+      "Kanban 任務板與排程功能",
+      "多 Agent 協同作業支援",
+      "MCP 伺服器整合擴展性",
+      "SSH 與 Telegram 遠端存取"
+    ],
+    "why_it_matters": "將 CLI 工具視覺化，降低團隊非技術成員使用 Claude Code 的門檻，並透過 MCP 整合延伸至更多自動化場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可部署此專案，用作團隊內部的 Claude Code 操作面板；測試 MCP 擴展是否支援現有工具鍊（Jira、Slack、Notion）。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "HTML"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/25110505?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-item",
+    "title": "開源專案：將聲音模仿轉換為音效",
+    "title_original": "Open source : Turning vocal imitations into sound effects. (New UX for sound generation)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1trve9e/open_source_turning_vocal_imitations_into_sound/",
+    "published_at": "2026-05-30T09:40:08+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 出現一個開源專案，可將人聲模仿直接轉換為音效。該工具可能基於音頻生成模型，實現從語音輸入到音效輸出的新 UX。具體技術棧、使用方式及輸出品質尚待社群驗證，但開源属性意味著技術用戶可本地部署測試。",
+    "highlights": [
+      "開源專案，可本地部署運行",
+      "核心功能：將人聲模仿轉換為音效",
+      "可能應用於遊戲、音頻創作、虛擬助理場景",
+      "具體模型架構與效能數據需進一步確認"
+    ],
+    "why_it_matters": "聲音生成從文字/音效庫邁向語音直譯，降低創意音頻製作門檻。對於需要快速生成測試音效的開發者尤其實用。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載原始碼，评估其對特定音效類型的生成品質，用於自動化遊戲開發或音頻測試流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-windows-ai-api-key",
+    "title": "Windows 本地語音 AI：支援任意語言、自備 API Key",
+    "title_original": "made a local voice AI for windows you can talk to in any language. open source, bring your own key",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1trt8e3/made_a_local_voice_ai_for_windows_you_can_talk_to/",
+    "published_at": "2026-05-30T07:36:07+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 發布一款 Windows 本地語音 AI 工具，用戶可用任意語言與其對話，採用自備 API Key 的開源模式。該工具可能整合 Whisper 語音辨識 + 本地 LLM + TTS，實現完全本地化的對話體驗，適合注重隱私或希望降低 API 呼叫成本的用戶。",
+    "highlights": [
+      "完全本地運行，無需網路上傳語音數據",
+      "支援任意語言，基於 Whisper 的語音辨識能力",
+      "開源免費，但需自備 LLM API Key（如 OpenAI、Anthropic）",
+      "可用於開發者本地調試或隱私敏感場景"
+    ],
+    "why_it_matters": "本地語音助理可在不暴露數據的前提下使用 AI 能力。對於處理機密文件的工程師或需要在離線環境開發的用戶價值顯著。",
+    "automation_angle": null,
+    "automation_angle_zh": "可部署於內網環境，用於自動化客服測試、內部文件語音查詢等場景，節省雲端 API 費用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-30-langfuse-mcp-ai-agent-mcp",
     "title": "Langfuse-MCP：讓 AI Agent 可查詢追蹤資料的 MCP 伺服器",
     "title_original": "avivsinai/langfuse-mcp",
@@ -16144,6 +16252,30 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-30-adobe-ai-agent",
+    "title": "Adobe 部署 AI Agent 自動化行銷流程",
+    "title_original": "Adobe Deploys AI Agents to Automate Marketing Workflows - Let's Data Science",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaHRadExvdGNXbHoyMEFxNTlWeHR2NFkzR2FrT3VvOFdxWWlqQjdzU2ltYnhqbEphWHNWMjJBdmxSYmN6MVRPWE5oeHlvVERMTGJYUTFQWlY5SnBiYW5raUNWSlBUbjV0SndfS1VYNlFxLTJ4VzQxSm1HcUlBN3dva3EyWWFLd0k0UWlrVzFibmtTSjdYZng3VmduS3ZBZw?oc=5",
+    "published_at": "2026-04-20T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Adobe 宣布將 AI Agent 整合至行銷工作流程，聚焦內容生成、個人化與分析自動化；具體技術細節與定價尚未公開，屬企業方案階段。",
+    "highlights": [
+      "聚焦行銷內容生成與個人化"
+    ],
+    "why_it_matters": "對行銷技術棧的自動化是明確方向，但缺乏開源或 API 細節，技術用戶評估價值有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可關注 Adobe AI Agent API 文件公開程度，評估是否可透過 API 整合現有 CMS 系統。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-22-chatgpt-gemini-ai",
     "title": "ChatGPT 還是 Gemini？轉職者訂閱 AI 工具該怎麼選",
     "title_original": "ChatGPT還是Gemini？ 她转职想訂閱AI 過來人推這款 - e南洋",
@@ -17630,6 +17762,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-30-30-40",
+    "title": "智譜宣布調價 30%，股價盤中大漲超 40%",
+    "title_original": "别人撒钱它涨價！智谱宣布调價30%，股價盘中大涨超40% - 证券時报",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE92NHBwU3dYN2w3X3huOWtHZllFWTRUSkdwOFo0S1RhTjB6cjVXcE5FMDE2ekgwS21PbGJUTDFKanQ4elhJaGxmR0JTTWZfMEFIQWVyUG0wdXRxMllC?oc=5",
+    "published_at": "2026-02-12T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "中國 AI 公司智譜（Zhipu AI）宣布調整 API 價格，漲幅約 30%。調價消息發布後，智譜母公司股價在盤中大漲超過 40%。此次調價可能反映中國大模型市場的價格調整趨勢，對使用智譜 API 的開發者成本產生直接影響。消息來源為《證券時報》，可信度較高。",
+    "highlights": [
+      "智譜 API 價格上調約 30%",
+      "母公司股價單日大漲 40%，市場情緒正面",
+      "來源為《證券時報》，具中國官方媒體背景",
+      "調價可能影響现有用戶的 API 調用成本規劃"
+    ],
+    "why_it_matters": "智譜是中國主要的 LLM API 提供商之一，調價反映了大模型推論成本的現實壓力。對於已整合智譜 API 的用戶，需重新評估成本結構。",
+    "automation_angle": null,
+    "automation_angle_zh": "可比較智譜與百度文心、阿里通義等競爭對手的最新定價，重新評估自動化流程中的模型選擇與成本最優化。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-anthropic-claude-opus-4-6",
     "title": "Anthropic 發布 Claude Opus 4.6 模型更新",
     "title_original": "Introducing Claude Opus 4.6 - Anthropic",
@@ -18722,6 +18881,34 @@
     "automation_angle_zh": "待官方文件釋出後，可第一時間安裝測試，評估其與現有 LangChain、AutoGen 等框架的功能重疊與差異化優勢。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-chatgpt",
+    "title": "ChatGPT 生成假截圖能力的安全意涵",
+    "title_original": "Meta Llama: Everything you need to know about the open generative AI model - TechCrunch",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZDJ6ZFl2UFZYZzBMck1VNEhzVm5vZm1tbmIxbVB0WTJZVVJ3b1RHTlIzRUtCR3R0YWwtbHU5VzM4QlhVYXFWd29SM01TektsNC05V1p4SzJpMjJxNUsxSWRoRFFlZnROSVo5bk5xZEZYdV9ITE4xNGh1VzRaTmxVR05CT09CVEliMUJqd3kzNm03T24tYXI3RGFHYTAwWjVHN2lWWUd4M3lYZERR?oc=5",
+    "published_at": "2025-10-06T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶展示可透過提示讓 ChatGPT 生成模擬截圖，引發關於 AI 圖像生成被濫用於造假、網路釣魚的討論。此能力暴露目前模型安全边界尚未完全防堵生成式欺騙內容。",
+    "highlights": [
+      "GPT-4 Vision 可生成模擬瀏覽器/應用介面截圖",
+      "可能被用於製作虛假登入畫面或偽造對話截圖",
+      "提示工程可繞過部分安全過濾機制",
+      "需持續關注模型對抗性prompt的防禦進展",
+      "對安全從業人員有測試與研究價值"
+    ],
+    "why_it_matters": "此案例揭示生成式 AI 在欺騙內容製造上的風險，若此能力普及可能影響數位信任基礎，技術人員需評估其對現有安全策略的衝擊。",
+    "automation_angle": null,
+    "automation_angle_zh": "安全研究人員可設計對抗性測試案例，評估所開發系統對 AI 生成假截圖攻擊的抵禦能力；開發者應在應用層加入截圖真實性驗證機制。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
