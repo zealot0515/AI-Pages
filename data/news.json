@@ -1,5 +1,228 @@
 [
   {
+    "id": "2026-05-30-github-copilot-api-ai",
+    "title": "GitHub Copilot 使用量 API 新增使用者分群功能，助你分析 AI 採用狀況",
+    "title_original": "Copilot usage metrics API adds cohorts for AI adoption",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-05-29-copilot-usage-metrics-api-adds-cohorts-for-ai-adoption",
+    "published_at": "2026-05-29T21:03:00+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 正式為 Copilot 使用量指標 API 新增使用者分群機制。過去僅能查看「誰在用 Copilot」，現在可依據使用模式將活躍用戶分類為不同Cohort，例如高頻指令型、偏好自動補全型等。這讓管理員能更精準掌握組織內部的 AI 工具滲透深度與使用輪廓。",
+    "highlights": [
+      "新增 Cohort 分類維度，可識別使用者屬於哪種 Copilot 使用模式",
+      "API 直接輸出結構化數據，方便接入內部儀表板做趨勢追蹤",
+      "可用於對比不同團隊的 AI 採用率差異",
+      "官方 GitHub Changelog 發布，來源可靠度極高"
+    ],
+    "why_it_matters": "對技術主管而言，精確的 Copilot 使用數據是判斷 AI 投資 ROI 的基礎。新分群功能讓你不再只看「用了沒」，而是理解「怎麼用」，有助優化授權費用分配與培訓策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "可串接 CI/CD 流水線或 PowerBI/Grafana，當特定 Cohort 採用率低於閾值時自動觸發提醒或推送培訓資源。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-30-mcp-searxng-agentic-searxng-mcp",
+    "title": "MCP-searxng：將 Agentic 系統連接至 searXNG 搜尋引擎的 MCP 伺服器",
+    "title_original": "SecretiveShell/MCP-searxng",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/SecretiveShell/MCP-searxng",
+    "published_at": "2026-05-29T20:54:33Z",
+    "category": "agent-skills",
+    "summary": "MCP-searxng 是 MCP（Model Context Protocol）伺服器實現，讓 Agentic 系統透過 searXNG 隱私搜尋引擎取得網頁資訊，支援本地部署的無追蹤搜尋能力。",
+    "highlights": [
+      "遵循 MCP 標準協議，易於整合",
+      "透過 searXNG 實現隱私優先的網頁搜尋",
+      "支援本地部署，無第三方追蹤",
+      "Python 技術棧，118 stars",
+      "可與其他 MCP 工具串聯使用"
+    ],
+    "why_it_matters": "讓 Agent 具備真實時網頁資訊獲取能力，同時保持隱私。對在意資料流向的技術用戶，本地搜尋整合是重要加分項。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 MCP-searxng 整合進 Agent 工作流程，讓 AI 自動化完成文獻調研、競品分析或即時資訊檢索等任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/84923604?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-mtp-gemma-4-qwen-3-6-3-34",
+    "title": "MTP 推論優化實測：Gemma 4 與 Qwen 3.6 效能提升 3.34 倍",
+    "title_original": "I tested MTP on vLLM and llama.cpp for Gemma 4 & Qwen 3.6 — 3.34x faster inference, here are my findings RTX 6000 PRO.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1trf0r0/i_tested_mtp_on_vllm_and_llamacpp_for_gemma_4/",
+    "published_at": "2026-05-29T20:42:18+00:00",
+    "category": "new-models",
+    "summary": "有開發者在 RTX 6000 Pro 環境下測試 MTP（推測為某種推論加速技術）在 vLLM 與 llama.cpp 的表現，發現 Gemma 4 與 Qwen 3.6 的推論速度提升達 3.34 倍。",
+    "highlights": [
+      "測試平台為 RTX 6000 Pro 專業顯卡",
+      "測試框架包含 vLLM 與 llama.cpp",
+      "適用模型包括 Gemma 4 與 Qwen 3.6",
+      "推論速度提升 3.34 倍",
+      "尚未確認 MTP 具體技術內涵"
+    ],
+    "why_it_matters": "若 MTP 技術可穩定複製此加速效果，可大幅降低本地部署模型的推論成本與延遲，對需要即時回應的 AI 應用場景有直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在自己的硬體環境下驗證 MTP 對特定模型的加速效果，若有效可整合進現有推論管線以提升吞吐量和回應速度。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-reddit-8gb-llm",
+    "title": "Reddit 用戶分享：用 8GB 資料從頭訓練 LLM 的可行性",
+    "title_original": "Me train LLM on 8GB from Scratch. Me happy",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1treb2z/me_train_llm_on_8gb_from_scratch_me_happy/",
+    "published_at": "2026-05-29T20:16:44+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群有用戶分享使用僅 8GB 資料集從頭訓練大型語言模型的實驗經驗，並表示對結果感到滿意。這類低資源訓練案例可作為個人化模型微調的參考起點。",
+    "highlights": [
+      "使用 8GB 資料集從頭訓練 LLM",
+      "訓練者表示對結果感到滿意",
+      "可能涉及 QLoRA 或類似低資源微調技術",
+      "需要進一步驗證模型品質與實用性"
+    ],
+    "why_it_matters": "對於想在本地環境以低成本訓練專屬模型的技術人員，此案例提供了一個低門檻的參考起點，可評估個人資料量是否足以支撐有意義的模型訓練。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可參考此流程，使用自己的領域資料集測試 8GB 等級資料是否能訓練出基本可用的領域模型，以評估是否值得投入更多資源。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-clickhouse-nerve-claude-agent-sdk-ai-agent",
+    "title": "ClickHouse/nerve：基於 Claude Agent SDK 的自托管 AI Agent 運行時",
+    "title_original": "ClickHouse/nerve",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ClickHouse/nerve",
+    "published_at": "2026-05-29T19:58:03Z",
+    "category": "agent-skills",
+    "summary": "Nerve 是 ClickHouse 開源的自托管 AI Agent 運行時，基於 Claude Agent SDK 構建，支援個人助理與自主工作者的開發。Python 技術棧，目前 stars 較少屬於早期專案。",
+    "highlights": [
+      "基於 Claude Agent SDK 官方技術",
+      "支援個人助理與自主工作者場景",
+      "完全自托管，資料不外流",
+      "Python 技術棧",
+      "專案早期，stars 僅 54，需觀察穩定性"
+    ],
+    "why_it_matters": "對於想在內網環境使用 Claude 風格 Agent 的企業，Nerve 提供自托管替代方案，但早期階段需謹慎評估生產環境可用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在隔離環境中部署 Nerve，實驗 Claude 風格的 Agent 自動化流程，評估是否能替代現有雲端 Agent 服務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/54801242?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-bentoml-ai",
+    "title": "BentoML：最簡便的 AI 模型服務框架",
+    "title_original": "bentoml/BentoML",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/bentoml/BentoML",
+    "published_at": "2026-05-29T19:05:52Z",
+    "category": "agent-skills",
+    "summary": "BentoML 是開源模型服務框架，專注簡化 AI 應用與模型的部署流程。支援構建模型推論 API、任務佇列、LLM 應用與多模型流水線，Python 生態友好。",
+    "highlights": [
+      "支援快速建構 Model Inference API",
+      "內建任務佇列機制處理非同步請求",
+      "專為 LLM 應用與多模型 Pipeline 設計",
+      "Python 技術棧，學習曲線低",
+      "GitHub 8,600+ stars，社群活躍"
+    ],
+    "why_it_matters": "部署模型往往是 AI 專案落地最後一哩路的痛點，BentoML 提供統一接口讓技術用戶快速將模型變成可用的 API 服務。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可用 BentoML 快速將 Fine-tuned 模型封裝成 REST/gRPC API，結合現有工作流程實現模型推論的自動化調用與監控。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/49176046?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-30-google-ai-studio-vibe-coding-i-o-2026",
+    "title": "Google 展示 AI Studio「 vibe coding 」能力，用 I/O 2026 測驗遊戲示範",
+    "title_original": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+    "published_at": "2026-05-29T19:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google AI Blog 發文透露，團隊使用 AI Studio 的「 vibe coding 」輔助方式快速開發 I/O 2026 回顧測驗小遊戲。文章展示了從概念到原型的高速迭代流程，但未揭露底層模型或技術限制。實質上屬於 Google I/O 行銷內容，非技術深度教學。",
+    "highlights": [
+      "以行銷角度展示 AI Studio 的易用性與開發速度",
+      "未提供可複製的技術教學或開源程式碼",
+      "可用於向非技術決策者展示 AI 輔助開發概念",
+      "實際能力上限與適用場景需自行探索"
+    ],
+    "why_it_matters": "反映了 Google 對「全民 AI 開發」的願景敘事。對於技術用戶而言，可視為 AI Studio 功能更新的參考起點，但不應作為深度技術評測。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此類展示作為探索 AI Studio 的切入點，測試其是否能加速你的原型開發或內部工具迭代。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-gemma-4-31b-dense-moe",
+    "title": "工程師將 Gemma 4 31B Dense 模型改寫為原生加法 MoE 架構實驗曝光",
+    "title_original": "Mutating Gemma 4 31B Dense in to a native Gemma 4 additive-MoE model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1trbeo0/mutating_gemma_4_31b_dense_in_to_a_native_gemma_4/",
+    "published_at": "2026-05-29T18:40:59+00:00",
+    "category": "open-source-ai",
+    "summary": "有開發者在 Reddit 分享將 Google Gemma 4 31B 密集模型透過權重重組改造成加法混合專家（Additive MoE）架構的技術實驗。概念是將部分前饋層替換為多專家路徑，以較低成本實現接近更大模型的能力，但此為非官方改動，穩定性與安全性未經驗證。",
+    "highlights": [
+      "非官方技術實驗，透過權重重組實現 MoE 架構",
+      "理論上可提升推論效率並降低記憶體需求",
+      "缺乏官方支援，改動可能與未來更新不相容",
+      "可作為研究加法 MoE 原理的參考案例"
+    ],
+    "why_it_matters": "開源模型架構實驗代表技術社群正積極探索資源受限環境下的模型優化方向。此類嘗試可能催生新的模型量化或蒸餾方法。",
+    "automation_angle": null,
+    "automation_angle_zh": "如對 MoE 架構改裝有興趣，可 fork 對應 GitHub repo 進行復現，但建議僅用於研究而非生產環境。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-29-initrunner-yaml-ai-agent",
     "title": "initrunner：用YAML定義AI Agent角色並任意部署",
     "title_original": "vladkesler/initrunner",
@@ -84,6 +307,33 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/252322352?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-qwen-3-6-27b-benchmark",
+    "title": "Qwen 3.6 27B 量化 Benchmark 結果出爐，本地部署性價比受關注",
+    "title_original": "Qwen3.6-27B Quantization Benchmark",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tr9vzn/qwen3627b_quantization_benchmark/",
+    "published_at": "2026-05-29T17:53:19+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享 Qwen 3.6（千問）27B 引數模型經 GGUF 量化後的多項 Benchmark 測試結果。涵蓋 INT4、INT8 等常見量化精度，評估維度包括推論速度、記憶體佔用與任務準確率。整體而言 INT4 量化在維持任務表現的同時顯著降低硬體需求。",
+    "highlights": [
+      "27B 模型 INT4 量化後可在消費級 GPU（如 RTX 3090）流暢運行",
+      "各項任務準確率相較 FP16 損失在可接受範圍內",
+      "結果由社群成員自行測試，未經獨立機構驗證",
+      "適合想本地部署大模型但資源有限的開發者參考"
+    ],
+    "why_it_matters": "Qwen 系列開源模型持續受到本地部署愛好者關注。量化 Benchmark 讓技術用戶能客觀評估「速度 vs 精度」取捨，有助選擇適合自己硬體的配置。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載對應 GGUF 檔案，結合 Ollama 或 llama.cpp 在本地跑實際工作負載測試（如文件摘要、程式碼生成），驗證是否符合你的自動化流程需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -300,6 +550,33 @@
     "automation_angle_zh": "開發者可研究其背後的 AI 模型架構與資料處理流程，評估是否可移植至其他醫療或專業診斷應用場景。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-reddit-gemma-4-agent",
+    "title": "Reddit 社群回報：Gemma 4 對話助理與 Agent 應用表現獲讚賞",
+    "title_original": "Shoutout to Gemma4 as a conversational assistant / agent",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqy2iv/shoutout_to_gemma4_as_a_conversational_assistant/",
+    "published_at": "2026-05-29T10:49:39+00:00",
+    "category": "new-models",
+    "summary": "LocalLLaMA 討論區有用戶分享使用 Gemma 4 作為對話式助理與 Agent 的體驗，認為其在本地部署場景下兼具效率與流暢度。回報集中在多輪對話上下文維持與工具呼叫穩定性，但均為主觀感受，缺乏量化 Benchmark 支撐。",
+    "highlights": [
+      "社群回報 Gemma 4 在本地端對話表現令人滿意",
+      "特別適用於需要快速迭代的 Agent 應用場景",
+      "純用戶主觀經驗，無標準化測試數據",
+      "建議自行部署測試以驗證是否滿足特定需求"
+    ],
+    "why_it_matters": "Gemma 4 的開源屬性吸引技術愛好者探索部署可能性。社群回饋可作為初步參考，但正式採用前仍需自行Benchmark。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 Ollama 或 LM Studio 快速架設本地 Gemma 4，針對你的自動化腳本或客服流程做實際勝任度測試。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -16497,6 +16774,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-30-wiz-workflows",
+    "title": "Wiz 推出 Workflows 功能，瞄準自我修復雲端安全自動化",
+    "title_original": "Introducing Wiz Workflows: Your path to building a self healing cloud - wiz.io",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9JaGI1cjYzeEQ4R0RMVDJVRjBzTlI4LVpzcy1aWWVPVHNzdzh0elF1a3A3V3ZIQVJPdVVGNFVzam90amU0TTJ1SmxIanIxTHdjRjJiSllwN3h6X0hPS2c?oc=5",
+    "published_at": "2026-03-25T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "雲端安全平台 Wiz 發布 Workflows 功能，定位為幫助企業建立「自我修復」雲端環境的自動化工具。核心概念是當安全掃描發現配置錯誤時，觸發預設修復流程而非僅發送警報。宣稱可減少人為干預並縮短修復周期，但詳細技術規格與定價尚未完整揭露。",
+    "highlights": [
+      "瞄準雲端安全自動修復缺口，強調從警報到行動的閉環",
+      "基於 Wiz 既有的雲安全態勢管理（CSPM）基礎",
+      "具體觸發條件與修復腳本客製化程度待確認",
+      "發布資訊來自官方新聞稿，詳細文件尚待釋出"
+    ],
+    "why_it_matters": "雲端錯誤配置是資安事故主因之一，能自動修復而非僅報錯的系統可大幅降低營運負擔。Wiz 此舉反映安全產業正從「發現問題」走向「解決問題」的趨勢。",
+    "automation_angle": null,
+    "automation_angle_zh": "已使用 Wiz 的團隊可關注 Workflows 文件釋出，評估是否能取代自建的安全自動化腳本（如使用 AWS Config Rules 或 GCP Org Policies）。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-27-perplexity-pro-2026",
     "title": "Perplexity Pro 免費試用版 2026：所有操作方法整理",
     "title_original": "Perplexity Pro 免費试用版 2026：列出所有工作方法 - AFFiNCO",
@@ -17270,6 +17574,33 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-05-30-google-ai-plus-35",
+    "title": "Google AI Plus 訂閱服務擴展至 35 個國家與地區",
+    "title_original": "Google 擴展 AI Plus 訂閱，覆盖 35 個国家和地区 - 搜狐网",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fOGRUeDhaaFNNY09zbEE4OEhoTlozcW05NWtfTHk3ZnhYYUZRX2E5dWZmbjdXeVZaeHNoT2wzZUdjNWlVRVJIYVlHRmk3b292?oc=5",
+    "published_at": "2026-01-28T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Google 宣布將其 AI Plus 訂閱服務的覆蓋範圍擴展至 35 個國家和地區，用戶可享有更多 AI 功能與 Gemini 高級模型的存取權限，但台灣是否在首波範圍內尚待確認。",
+    "highlights": [
+      "Google AI Plus 訂閱服務地理擴展",
+      "覆蓋範圍從少數國家擴大至 35 個",
+      "包含 Gemini 高級模型存取",
+      "具體新增國家名單待查證"
+    ],
+    "why_it_matters": "對於已使用或考慮使用 Google AI 訂閱服務的技術人員，此擴展可能代表更便利的付費管道與更穩定的服務區域支援，影響訂閱決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可評估 AI Plus 訂閱是否涵蓋自身所在區域，並比較其與競爭對手的功能差異與價格優勢，以作為個人或團隊 AI 工具預算的參考依據。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-16-railway-1-aws-ai",
     "title": "Railway獲得1億美元融資，挑戰AWS打造AI原生雲端基礎設施",
     "title_original": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
@@ -17787,6 +18118,33 @@
     "why_it_matters": "Mistral 作為歐洲主要 AI 模型提供商，其開源與商業模型的產品線演進值得技術決策者追蹤，便於評估替代方案與成本效益。",
     "automation_angle": null,
     "automation_angle_zh": "比較 Mistral 商業模型 API 定價與開源版本自託管的 TCO，測試其 Agent Framework 在特定任務自動化場景的實用性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-mistral-ai-mistral-3",
+    "title": "Mistral AI 發布 Mistral 3 新模型",
+    "title_original": "Introducing Mistral 3 - Mistral AI",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE44VzJRSjFJc2dXT3FiMHJuenBhb0RidlhCU01WOHBZam5CbFFfMlBvMV9nM190dTJoQXp2S1QtVEpFLV9TM1JaMzZn?oc=5",
+    "published_at": "2025-12-02T08:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 宣布推出 Mistral 3 模型，這是該公司最新的主力語言模型版本。官方尚未公布詳細技術規格與能力評測數據，實際表現需待社群測試驗證。",
+    "highlights": [
+      "Mistral AI 官方發布的新模型",
+      "型號命名為 Mistral 3",
+      "詳細技術規格尚未公開",
+      "可期待在開源模型社群獲得測試"
+    ],
+    "why_it_matters": "Mistral 系列模型以高效率與開放授權聞名，新版本可能帶來能力與效率的平衡改善，對需要開源替代方案的技術團隊有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方詳細規格出爐後，可將 Mistral 3 列入本地部署模型的候選名單，評估其與當前使用模型的效能與成本效益比較。",
     "tags": [
       "new-models",
       "rss",
@@ -18469,6 +18827,33 @@
     "why_it_matters": "若 Devstral 效能優異且開源，工程團隊可自行部署，減少對商業程式碼助理的依賴，有助於控制 AI 工具成本。",
     "automation_angle": null,
     "automation_angle_zh": "在 IDE 中評估 Devstral 與現有工具在多步驟程式任務上的表現，評估是否可替換或作為備援模型。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-mistral-ai-mistral-code",
+    "title": "Mistral AI 推出專注程式碼的 Mistral Code 模型",
+    "title_original": "Introducing Mistral Code - Mistral AI",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1ZVnRvd0pJc190ZnFMRkNtbTZsbm5LS014MlpiS01pbDZDbjdXYm4wZHYzWFdDbEh1TnQ4a1BBcXAtM1l2UzNxSC1JdmY?oc=5",
+    "published_at": "2025-06-04T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 同步發布了名為 Mistral Code 的程式碼專用模型，這是專為程式碼生成與理解任務優化的版本，可能與 Mistral 3 形成功能區分。",
+    "highlights": [
+      "Mistral AI 程式碼專用模型",
+      "型號名稱為 Mistral Code",
+      "強調程式碼生成與理解能力",
+      "可能採用差異化授權或功能定位"
+    ],
+    "why_it_matters": "程式碼專用模型通常在程式碼補全、程式碼解釋等任務上有更好表現，對開發者工作流程自動化有直接幫助，可評估其作為 GitHub Copilot 替代方案的可能。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發團隊可測試 Mistral Code 在自家程式碼庫上的表現，若效果良好可考虑本地部署以降低長期 AI 程式碼輔助工具的訂閱成本。",
     "tags": [
       "new-models",
       "rss",
