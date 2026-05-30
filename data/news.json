@@ -1,5 +1,144 @@
 [
   {
+    "id": "2026-05-30-langfuse-mcp-ai-agent-mcp",
+    "title": "Langfuse-MCP：讓 AI Agent 可查詢追蹤資料的 MCP 伺服器",
+    "title_original": "avivsinai/langfuse-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/avivsinai/langfuse-mcp",
+    "published_at": "2026-05-30T06:30:27Z",
+    "category": "agent-skills",
+    "summary": "一款基於 Model Context Protocol（MCP）的 Langfuse 伺服器實現，允許 AI Agent 直接查詢 Langfuse 的追蹤（trace）數據，可用於增強偵錯與可觀測性。目前 92 stars，Python 實現，技術人員可即時整合。",
+    "highlights": [
+      "實現 MCP 協議，支援標準化 Agent 接入",
+      "可直接查詢 Langfuse trace 資料",
+      "適用於 Agent 偵錯與系統可觀測性",
+      "Python 實作，社群活躍度中等（92 stars）"
+    ],
+    "why_it_matters": "Langfuse 是常見的 LLM 應用監控工具，其 MCP 介面讓 Agent 能自主分析自身行為，對除錯複雜 Agent 流程有實質幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在本地 Langfuse 實例啟動後，讓 Agent 自動查詢自身 trace 資料，實現「自我檢測與修復」的自動化除錯循環。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/16213?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-openvoiceui-ai-llm-tts",
+    "title": "OpenVoiceUI：一站式語音 AI 助理平台，支援任意 LLM 與 TTS 串接",
+    "title_original": "MCERQUA/OpenVoiceUI",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/MCERQUA/OpenVoiceUI",
+    "published_at": "2026-05-30T05:46:00Z",
+    "category": "agent-skills",
+    "summary": "開源語音驅動 AI 助理平台，可串接任意 LLM 與 TTS 模型，提供即時網頁畫布互動、音樂生成與 Agent 編排功能。支援 openclaw 框架，可透過 npx openvoiceui setup 快速安裝，51 stars。",
+    "highlights": [
+      "支援串接任意 LLM 與 TTS 服務",
+      "提供即時網頁畫布與音樂生成功能",
+      "基於 openclaw 框架進行 Agent 編排",
+      "安裝方式簡便：npx openvoiceui setup"
+    ],
+    "why_it_matters": "對需要語音介面的開發者，OpenVoiceUI 降低了多模態助理的建構門檻；其開源特性允許自架且無供應商鎖定，適合實驗語音自動化場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可快速部署並串接企業內部 LLM，建立語音驅動的內部工具（如語音指令觸發自動化腳本），評估其延遲與準確度是否符合生產需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/55824402?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-anthropic-claude-opus-4-8",
+    "title": "Anthropic 發布 Claude Opus 4.8：新增高速、高投入模式",
+    "title_original": "Anthropic Releases Claude Opus 4.8 With Faster, Higher-Effort Modes - Let's Data Science",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWEF2c3NvT2F2MEkyVXFlckFDdlYwSkp5dTlmUEN3QnlMRURDeVFTZXlHNWNTNmNfYTRvSmMtS0RCSTlsek5nOXB6cXJSVlZIUW9ub2tCWFd3b3BVSGRVNXk2MUJlVHdxWklnd1JZM2ZUU1dDUEdyNWRPODEtWnJjR2dvaUZUandCQ2VXbFhWOFJEc1JLZkVpcHBvS2F6dVlycEdZ?oc=5",
+    "published_at": "2026-05-30T04:25:20+00:00",
+    "category": "new-models",
+    "summary": "有報導指出 Anthropic 發布了 Claude Opus 4.8，新增更快執行與更高投入（Higher-Effort）模式選項。此訊息來源為第三方部落格，官方 Anthropic 尚未正式公告，建議謹慎解讀，待官方文檔確認。",
+    "highlights": [
+      "新增「高速」與「高投入」兩種執行模式",
+      "可能為 Opus 系列效能或用途優化",
+      "訊息來源為第三方，未經 Anthropic 官方證實",
+      "建議等待官方發布說明後再行採用"
+    ],
+    "why_it_matters": "若 Claude Opus 確實新增不同工作模式，可能影響需長時間推論任務的性價比選擇；惟目前來源可信度待確認，技術人員應持續關注 Anthropic 官方動態。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方確認後，技術人員可評估新模式在自動化長文本分析、程式碼生成等場景的延遲與輸出品質差異，據此優化現有 Agent 工作流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-techcrunch-meta-llama-ai",
+    "title": "TechCrunch：Meta Llama 生成式 AI 模型完整解析",
+    "title_original": "[Use Case] Making GPT Image 2.0 output come to life",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1trl5rt/use_case_making_gpt_image_20_output_come_to_life/",
+    "published_at": "2026-05-30T00:52:47+00:00",
+    "category": "open-source-ai",
+    "summary": "TechCrunch 發布 Llama 模型綜述，涵蓋 Llama 系列從開源發布到最新版本的能力演進、應用場景與部署選項。文章屬於入門向導式內容，缺乏新技術細節，但可作為 Llama 生態的參考起點。",
+    "highlights": [
+      "Llama 是 Meta 開源的大語言模型系列，已迭代至較新版本",
+      "支援本地部署與微調，適合注重資料隱私的開發者",
+      "有多種尺寸版本，可根據硬體資源選擇合適模型",
+      "生態系包含量化版本與各框架整合工具",
+      "文章為概覽性質，非深度技術分析"
+    ],
+    "why_it_matters": "Llama 作為主流開源模型，技術用戶需了解其部署選項與能力邊界。此文提供基本框架，但深度技術細節需參考論文或官方文件。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可直接下載 Llama 模型本地部署，針對特定任務微調，或評估其與閉源 API 的成本效益比。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-chatgpt",
+    "title": "ChatGPT 生成嘲諷梗圖引發熱議",
+    "title_original": "I asked ChatGPT to make a meme making fun of me",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1trjev7/i_asked_chatgpt_to_make_a_meme_making_fun_of_me/",
+    "published_at": "2026-05-29T23:35:44+00:00",
+    "category": "hot-topics",
+    "summary": "用戶分享 ChatGPT 生成自嘲梗圖的能力，引發社群對多模態生成與創意表達的討論。",
+    "highlights": [
+      "非技術突破性新聞",
+      "屬社群分享性質內容",
+      "反映多模態生成的創意應用潛力",
+      "對技術決策影響有限",
+      "不值得深入追蹤"
+    ],
+    "why_it_matters": "此類內容反映一般用戶對 AI 的使用趨勢，但對技術開發者的工作流程改善與自動化價值有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "此新聞暫無自動化價值，但可留意多模態能力的持續優化，未來可能整合進創意工作流程程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-30-github-copilot-api-ai",
     "title": "GitHub Copilot 使用量 API 新增使用者分群功能，助你分析 AI 採用狀況",
     "title_original": "Copilot usage metrics API adds cohorts for AI adoption",
@@ -17103,6 +17242,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-30-mistral-small-4",
+    "title": "Mistral Small 4 正式發布",
+    "title_original": "Introducing Mistral Small 4 - Mistral AI",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aZEwyR3JHR0swOXdSWHFFa01DQ2oxRG02Xy12M3ZEQ0pnNFd3NGJRSVo0TzRiaGhBdGNVLUM2UHdQa3BhS0w2VmwxTHl3UmI5Tmc?oc=5",
+    "published_at": "2026-03-16T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral Small 4 是 Mistral 最新的小型高效模型，針對延遲敏感場景優化，兼顧成本控制與回應速度。",
+    "highlights": [
+      "定位為輕量級高速模型",
+      "適合即時對話與邊緣部署場景",
+      "延遲表現優於同尺寸競品",
+      "價格策略親民",
+      "可通過 API 與 Hugging Face 獲取"
+    ],
+    "why_it_matters": "小型模型效能提升代表本地部署與邊緣 AI 應用的可行性增加，為需要低延遲的自動化腳本提供新選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即測試 Small 4 的回應速度與性價比，評估是否可替代大型模型處理日常客服、排程等自動化任務。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-25-meta-google-openai",
     "title": "分析：Meta 能在 Google 與 OpenAI 衝刺時暫停嗎？",
     "title_original": "Avocado on Ice: Can Meta Afford to Pause While Google and OpenAI Sprint Ahead? - 24/7 Wall St.",
@@ -18066,6 +18233,34 @@
     "automation_angle_zh": "技術宅可下載開源版本，在本機環境測試其程式碼補全、錯誤修復或單元測試生成能力，評估是否能替代部分雲端程式碼模型需求。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-mistral-devstral-2-vibe-cli",
+    "title": "Mistral 發布 Devstral 2 與 Vibe CLI",
+    "title_original": "Introducing: Devstral 2 and Mistral Vibe CLI. - Mistral AI",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE43cDdDYk1MY2YxMVRIZHhCWG9CbEItTy05YkpHWkNIMENJam9ZVmVrMW8wZExsWThVUFYzR1F0SmFUdHNHbnRzN3QxM01PUUU1UFVHX3dqOA?oc=5",
+    "published_at": "2025-12-09T08:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 正式推出 Devstral 2 模型及 Vibe CLI 工具，整合開發者工作流程與命令列互動介面，瞄準自動化程式碼生成場景。",
+    "highlights": [
+      "Devstral 2 強化程式碼生成與除錯能力",
+      "Vibe CLI 提供終端機直接调用模型的便捷方式",
+      "瞄準 DevOps 與 CI/CD 流程整合",
+      "Mistral 持續擴展開源模型生態",
+      "官方公告可信度高，屬產品能力變化"
+    ],
+    "why_it_matters": "Mistral 將模型能力直接整合進 CLI 工具鏈，降低開發者接入門檻，為自動化工作流程提供新的整合點。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即安裝 Vibe CLI 測試：可將日常 Git 操作、測試執行、部署脚本等任務編寫成 AI 驅動的自動化流程。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
