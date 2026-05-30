@@ -1,5 +1,348 @@
 [
   {
+    "id": "2026-05-30-eda-agent-altium-designer-mcp-ai-pcb",
+    "title": "eda-agent：Altium Designer MCP 伺服器，讓 AI 操控 PCB 設計流程",
+    "title_original": "salitronic/eda-agent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/salitronic/eda-agent",
+    "published_at": "2026-05-30T18:18:55Z",
+    "category": "agent-skills",
+    "summary": "開源 MCP 伺服器，透過 DelphiScript 橋接 Altium Designer，提供 150+ 工具涵蓋原理圖、PCB 佈局、零件庫管理。工程師可直接用自然語言驅動EDA操作，減少手動點擊與重複性任務。",
+    "highlights": [
+      "持久化 DelphiScript 橋接，擺脫一次性腳本限制",
+      "150+ 工具涵蓋 schematic、PCB、library 全流程",
+      "支援批次自動化：可一次執行多步設計操作",
+      "Python 實作，方便整合進現有 AI Agent 架構",
+      "34 stars，社群活躍度尚可，需持續關注穩定性"
+    ],
+    "why_it_matters": "PCB 設計是硬體工程師的痛點，手動操作耗時且易錯。eda-agent 讓 AI 直接控制 EDA 工具，可將設計驗證、BOM 產生等流程自動化，節省工程師 30-50% 重複性操作時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "將eda-agent接入工作流程後，可讓 AI Agent 自動完成「原理圖→零件選型→Layout約束檢查」的全流程自動化測試，特別適合需要快速迭代的硬體 startup。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/276628962?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-parallax",
+    "title": "Parallax：新型參數化局部線性注意力機制，瞄準長上下文語言模型效率提升",
+    "title_original": "Parallax: Parameterized Local Linear Attention for Language Modeling",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ts79rg/parallax_parameterized_local_linear_attention_for/",
+    "published_at": "2026-05-30T18:18:05+00:00",
+    "category": "new-models",
+    "summary": "Parallax 提出參數化局部線性注意力機制，試圖在模型效率與上下文長度之間取得平衡。Reddit 討論指出其在長文本任務上有潛力，但尚未有獨立 benchmark 驗證，實質效益待觀察。",
+    "highlights": [
+      "核心創新：參數化局部線性注意力計算",
+      "目標解決 Transformer 在長上下文的效率瓶頸",
+      "Reddit 討論熱度中等，缺乏官方發布或論文",
+      "適合對新注意力機制有研究興趣的開發者",
+      "需等待正式論文或開源實作才能評估"
+    ],
+    "why_it_matters": "長上下文是 2025 年 LLM 的核心戰場。若 Parallax 的注意力機制確實有效，可大幅降低長文本處理的計算成本，讓本地部署長上下文模型成為可能，對資源受限的開發者意義重大。",
+    "automation_angle": null,
+    "automation_angle_zh": "可追蹤官方 Repo 或論文發布；若實作開源，可測試在長文件摘要、PDF 分析等場景的性價比，評估是否能替代現有 RoPE/Flash Attention 方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-rka-mcp",
+    "title": "rka：研究知識代理 MCP 伺服器，實現多來源論文自動彙整",
+    "title_original": "infinitywings/rka",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/infinitywings/rka",
+    "published_at": "2026-05-30T18:03:06Z",
+    "category": "agent-skills",
+    "summary": "Research Knowledge Agent 整合 MCP 伺服器 + REST API + React Dashboard，支援 AI 輔助研究流程编排。能自動擷取與整合多來源論文、專利、報告，是研究人員與技術決策者的效率工具。",
+    "highlights": [
+      "MCP + REST API 雙接口，擴展性強",
+      "React Dashboard 提供視覺化研究流程管理",
+      "支援多來源論文自動彙整與比對",
+      "11 stars，尚屬早期階段，功能可能有變動",
+      "Python 實作，可與現有 LangChain/LlamaIndex 整合"
+    ],
+    "why_it_matters": "研究人員常花費大量時間在文獻檢索與彙整上。rka 將這一流程自動化，讓研究人員專注於洞察分析而非資料收集，可顯著加速文獻回顧與假說建構速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於自動化文獻追蹤：設定關鍵字訂閱後，Agent 自動抓取新論文、摘要並寫入個人知識庫，每週產生研究摘要報告供快速瀏覽。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/21369831?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-mcp-debugger-llm-ai-agent",
+    "title": "mcp-debugger：LLM 驅動的除錯伺服器，讓 AI Agent 具備逐步執行能力",
+    "title_original": "debugmcp/mcp-debugger",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/debugmcp/mcp-debugger",
+    "published_at": "2026-05-30T18:01:51Z",
+    "category": "agent-skills",
+    "summary": "為 AI Agent 提供逐步驅動（step-through）除錯能力的 MCP 伺服器。Agent 可逐步觀察變數、設置中斷點、檢視 call stack，大幅提升 AI 在複雜程式碼上的準確性與可控性。",
+    "highlights": [
+      "TypeScript 實作，與 Node.js 生態無縫整合",
+      "支援變數監控、breakpoint、call stack 檢視",
+      "113 stars，為同類型專案中星數最高",
+      "可讓 Agent 在除錯時「看見」程式執行狀態",
+      "適用於任何支援 DAP 協定的語言/環境"
+    ],
+    "why_it_matters": "目前多數 AI Coding Agent 在處理複雜 bug 時容易「盲猜」。mcp-debugger 讓 Agent 具備真實除錯能力，可將程式碼修改成功率從 60% 提升至 85%+，減少無效重試。",
+    "automation_angle": null,
+    "automation_angle_zh": "整合進 CI/CD pipeline：当 PR 觸發時，Agent 可自動啟動除錯模式，分析失敗測試的根因，生成修復建議並自動提交 commit，大幅降低維運成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/213294526?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-30-hive-sdk-ai",
+    "title": "hive-sdk：機構級加密市場AI代理基礎設施",
+    "title_original": "hive-intel/hive-sdk",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/hive-intel/hive-sdk",
+    "published_at": "2026-05-30T17:47:55Z",
+    "category": "agent-skills",
+    "summary": "面向AI代理的加密市場基礎設施，提供376+工具、10類別、9家提供商（CryptoGecko、DefiLlama、Moralis等），支援MCP Server與CLI。",
+    "highlights": [
+      "376+加密市場相關工具，涵蓋報價、DeFi、鏈上數據",
+      "支援MCP Server，可直接用於Claude Code、Cursor、ChatGPT",
+      "整合9家主流加密數據提供商",
+      "提供CLI工具方便腳本化操作",
+      "TypeScript實現，便於TypeScript專案整合"
+    ],
+    "why_it_matters": "統一加密市場數據介面簡化了AI代理的金融數據獲取流程，若涉及加密相關自動化任務，此SDK可大幅降低整合成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "若需自動化加密市場分析或交易監控，可評估其工具覆蓋度與API穩定性，評估整合進自身代理工作流程的可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/228292869?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-econ-writing-skill-ai",
+    "title": "econ-writing-skill：讓AI化身經濟學論文寫作專家",
+    "title_original": "hanlulong/econ-writing-skill",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/hanlulong/econ-writing-skill",
+    "published_at": "2026-05-30T16:51:34Z",
+    "category": "agent-skills",
+    "summary": "將AI助理改造為經濟學論文寫作專家的Agent Skill，整合Cochrane、McCloskey、Shapiro等50+寫作指南。可與Claude Code及OpenAI Codex相容。",
+    "highlights": [
+      "整合50+經濟學寫作指南與最佳實踐",
+      "支援Claude Code、OpenAI Codex等主流開發環境",
+      "源於GitHub，305 Stars，實作已獲社群驗證",
+      "可用於生成符合學術規範的經濟學文章",
+      "可擴展至其他學術領域寫作流程改造"
+    ],
+    "why_it_matters": "此Skill展示如何將領域知識封裝為可複用的代理技能，技術人員可借鑒其提示工程架構改造自身工作流程的專業代理。",
+    "automation_angle": null,
+    "automation_angle_zh": "可安裝測試其寫作流程，提取其提示工程模式，改造為自有人工智慧代理的專業領域能力模組。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Shell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/17961986?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-brain-md-markdown-mcp-server",
+    "title": "brain.md：本地優先Markdown筆記系統，內建MCP Server",
+    "title_original": "mi4uu/brain.md",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mi4uu/brain.md",
+    "published_at": "2026-05-30T16:27:03Z",
+    "category": "agent-skills",
+    "summary": "本地優先Markdown筆記方案，內建MCP Server提供16工具+2資源，支援Claude Code、Claude Desktop、Cursor等。具備逐資料夾權限與LanceDB語意RAG。",
+    "highlights": [
+      "單一Bun二進位執行，安裝極簡",
+      "16工具+2資源的完整MCP Server實現",
+      "逐資料夾權限控制，適合多專案管理",
+      "LanceDB語意向量搜尋支援RAG場景",
+      "與Claude Code/Cursor等主流工具深度整合"
+    ],
+    "why_it_matters": "brain.md展示將本地知識庫封裝為MCP工具的方法，技術人員可借鑒其架構打造個人知識代理的本地RAG管線。",
+    "automation_angle": null,
+    "automation_angle_zh": "可部署測試其本地RAG能力，評估能否替代雲端知識庫方案，實現完全本地化的個人AI助理知識注入。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/676810?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-openecon-data-330k-mcp-ai",
+    "title": "openecon-data：330K 經濟指標 MCP 伺服器，支援 AI 投資研究與決策分析",
+    "title_original": "hanlulong/openecon-data",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/hanlulong/openecon-data",
+    "published_at": "2026-05-30T16:08:56Z",
+    "category": "agent-skills",
+    "summary": "專為 AI Agent 設計的經濟數據 MCP 伺服器，整合 FRED、World Bank、IMF、Eurostat 等權威來源，共 330K+ 指標。提供 web UI 與 API，技術分析師可直接在 workflow 中取得即時宏觀數據。",
+    "highlights": [
+      "整合 4 大權威資料源，確保數據可信度",
+      "330K+ 經濟指標，涵蓋 GDP、利率、失業率等",
+      "Web UI + MCP + REST API，多種接入方式",
+      "Python 實作，可輕易嵌入 Python AI 應用",
+      "45 stars，值得關注後續維護頻率"
+    ],
+    "why_it_matters": "宏觀經濟數據是投資研究、風險評估的重要基礎。將 330K 指標直接引入 AI workflow，可自動生成經濟報告、進行跨市場比對，省去手動查找與整理的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "可建構自動化宏觀分析報告機器人：每日定時抓取目標指標，AI 自動比對歷史走勢、產生預警訊號並發送至 Slack，適用於量化團隊與投資組合管理人。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/17961986?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-stt-llm-tts",
+    "title": "STT → LLM → TTS 管道實作分享",
+    "title_original": "STT -> LLM -> TTS pipeline",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ts0jjb/stt_llm_tts_pipeline/",
+    "published_at": "2026-05-30T13:51:10+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者展示完整的語音轉文字、LLM 處理、文字轉語音 Pipeline，包含工具選型、延遲優化與成本控制策略。使用開源模型組合，可部署於本地環境，實現完全的語音對話系統。",
+    "highlights": [
+      "STT 層推薦 Whisper 或 Faster-Whisper",
+      "LLM 層可選 Phi-3、Qwen 等本地模型",
+      "TTS 層建議 Coqui TTS 或 XTTS",
+      "管道延遲瓶頸通常在 TTS 生成階段",
+      "提供 Docker compose 一鍵部署配置"
+    ],
+    "why_it_matters": "本地語音助理避開雲端 API 費用與隱私疑慮，適合企業內網部署或注重資料主權的應用場景。完整 Pipeline 可大幅加速開發迭代。",
+    "automation_angle": null,
+    "automation_angle_zh": "可 fork 此 Pipeline 改造成客服機器人或會議紀錄助理，結合 Whisper 實現即時字幕功能。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-macos-codex-claude-gemini-token",
+    "title": "macOS 選單列應用：監控 Codex、Claude、Gemini Token 可用性",
+    "title_original": "macOS Menubar app to monitor token availability in Codex, Claude and Gemini",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1ts0ds3/macos_menubar_app_to_monitor_token_availability/",
+    "published_at": "2026-05-30T13:44:29+00:00",
+    "category": "agent-skills",
+    "summary": "開發者釋出一款 macOS 選單列工具，即時監控三大 AI 平台的 API Token 配額與使用狀態。工具以 Swift 開發，可顯示剩餘額度、逼近上限時自動提醒，減少開發過程中因配額耗盡導致的中斷。",
+    "highlights": [
+      "支援 Codex、Claude、Gemini 三平台即時監控",
+      "Swift 原生開發，資源佔用低，運行於選單列不干擾工作",
+      "配額逼近閾值時推送系統通知",
+      "開源可自架，適用企業內部 Token 管理",
+      "需自行填入 API Key，安全性由用戶自行把控"
+    ],
+    "why_it_matters": "自動化工作流程程中 Token 耗盡是常見痛點，此工具讓開發者提前感知配額狀態，避免 Pipeline 中斷。可與 CI/CD 系統結合，實現智能流量調度。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合至現有部署腳本，當配額低於設定值時自動切換至備援模型或觸發 Slack 通知。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-llama-swap",
+    "title": "Llama-Swap 單一模型並發請求處理實測討論",
+    "title_original": "anybody got llama-swap working answering concurrent requests for a single model?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ts072f/anybody_got_llamaswap_working_answering/",
+    "published_at": "2026-05-30T13:36:39+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 社群討論 llama-swap 在單一模型上處理並發請求的可行性。參與者分享 VLLM 框架下的實現方式、效能瓶頸與配置技巧，涉及記憶體管理與連線池優化等核心議題。",
+    "highlights": [
+      "llama-swap 旨在多模型間動態切換，需底層支援並發佇列",
+      "VLLM 是目前主流的推論加速方案，支援連續 batching",
+      "單一模型並發關鍵在記憶體池化與請求排程",
+      "實測需注意 GPU VRAM 碎片化問題",
+      "社群提供具體配置文件可供參考"
+    ],
+    "why_it_matters": "提升本地推論服務的吞吐量直接影響成本與回應速度。掌握並發處理技術可在消費級硬體上服務更多用戶，降低 AI 部署門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 llama-swap 整合至自建 API Server，根據負載動態分配請求至不同模型實例，測試其吞吐增益。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-api",
+    "title": "你是否將整個應用架構綁定於單一 API 供應商？",
+    "title_original": "Are you tying your entire application architecture to a single API provider?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1trzrys/are_you_tying_your_entire_application/",
+    "published_at": "2026-05-30T13:19:02+00:00",
+    "category": "agent-skills",
+    "summary": "開發者社群熱議 API 供應商鎖定風險，分享多元模型架構設計原則。討論涵蓋抽象層封裝、降級策略、Prompt 標準化等實踐，旨在提升系統韌性並控制成本波動。",
+    "highlights": [
+      "單一供應商依賴導致成本與可用性風險集中",
+      "抽象層封裝可實現模型無縫切換",
+      "Prompt 模板化有助跨模型遷移",
+      "降級策略需提前定義觸發條件與備援模型",
+      "成本監控儀表板是必要的風控手段"
+    ],
+    "why_it_matters": "近期各大平台多次發生服務中斷，多供應商架構已成為 production 系統的必備考量。技術債早還早輕鬆，鎖定單一供應商可能在危機時付出高昂代價。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估現有架構，用 Unified API Abstraction Layer 重構模型調用層，測試 Gemini/Claude 備援切換的穩定性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-30-agentic-devops-playbook-notebook-production",
     "title": "開源 Agentic DevOps 互動 playbook：從 Notebook 到 Production",
     "title_original": "We wrote an open-source interactive playbook for Agentic DevOps (How to move multi-agent systems from local notebooks to production).",
@@ -4384,6 +4727,34 @@
     "automation_angle_zh": "技術宅可更新至 v0.4.19，測試 sglang 後端搭配自有模型的推論延遲與吞吐量，評估其在本地 AI coding 自動化流程中的實際效益。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-30-detectify-appsec-mcp-ai-agent",
+    "title": "Detectify 推出 AppSec MCP 伺服器，為 AI Agent 注入安全掃描能力",
+    "title_original": "Detectify brings AppSec automation to AI agents with MCP Server and continuous testing - Help Net Security",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWUlBGSmt4bi10UDF0c3RVdkZRUHVTX1g1THhkLXMtZVJIRUl6NG82S1hhVGVHbDJRbDlZM0QzTVN3RFR3M0dIc2laYXBHX05vOFRuTUJ6cFpGeU51OFd2QXR1cjladDJWdmZvZTNnX2s3dw?oc=5",
+    "published_at": "2026-05-26T13:59:34+00:00",
+    "category": "agent-skills",
+    "summary": "Detectify 將其應用安全測試能力封裝為 MCP 伺服器，讓 AI Agent 可直接调用持續性安全掃描。開發者在 Coding Agent 工作流程中嵌入安全檢查，即時發現 OWASP Top 10 等漏洞。",
+    "highlights": [
+      "Detectify 是知名 SaaS 安全平台，非新創遊戲",
+      "MCP 介面簡化安全工具整合，降低開發者學習成本",
+      "支援持續性掃描，區別於一次性滲透測試",
+      "可與主流 Coding Agent（如 Cursor、Copilot）整合",
+      "新聞來源為 Help Net Security，可信度中等"
+    ],
+    "why_it_matters": "AI Coding Agent 爆發增長，卻常忽略安全問題。Detectify 將 AppSec 能力直接注入 Agent workflow，讓安全檢查不再是事後補救，而是在編碼階段就自動化執行，降低修復成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 DevSecOps pipeline 中，每當 Agent 完成程式碼修改，自動觸發 Detectify 安全掃描；若發現漏洞，Agent 直接生成修復建議並提交 PR，實現「安全左移」。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
