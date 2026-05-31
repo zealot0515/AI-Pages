@@ -1,5 +1,176 @@
 [
   {
+    "id": "2026-05-31-bitdive-mcp-server-ai-agent",
+    "title": "bitDive/mcp-server：AI Agent 的自主品質迴圈框架",
+    "title_original": "bitDive/mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/bitDive/mcp-server",
+    "published_at": "2026-05-30T22:52:08Z",
+    "category": "agent-skills",
+    "summary": "BitDive MCP server 提供 AI Agent 的自主品質迴圈能力，強調真實運行時上下文、抓取變動前後的追蹤比對，以及整合測試工作流程，Python 實作共 81 stars。",
+    "highlights": [
+      "強調真實運行時上下文而非 mock 環境",
+      "支援執行前後的 trace 比對",
+      "內建整合測試工作流程設計",
+      "Python 實作，方便與現有資料科學栈整合",
+      "81 stars，關注品質與可观测性的開發者感興趣"
+    ],
+    "why_it_matters": "Agent 應用除功能正確性外也需要品質保障框架，bitDive 填補了 Agent 級別的 CI/CD 思路空白，適合构建可靠 Agent 系統。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 bitDive 整合進 Agent 開發流程，在每次迭代時自動比較新舊 trace，捕捉回歸或能力退化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/193803220?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-amtiyo-agents-codex-claude-code-cursor-mcp",
+    "title": "amtiYo/agents：跨 Codex、Claude Code、Cursor 的 MCP 設定同步工具",
+    "title_original": "amtiYo/agents",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/amtiYo/agents",
+    "published_at": "2026-05-30T22:00:09Z",
+    "category": "agent-skills",
+    "summary": "amtiYo/agents 旨在成為統一的 MCP 設定來源，同步 MCP servers、skills 與指令到 Codex、Claude Code、Copilot 等多個 AI  Coding 工具，目前 67 stars。",
+    "highlights": [
+      "支援同步到五個主流 AI Coding 工具",
+      "單一來源定義 MCP server 與 skill",
+      "統一管理 AI 工具的系統層指令",
+      "TypeScript 實作，適合前端生態整合",
+      "67 stars 顯示有一定社群關注但仍早期"
+    ],
+    "why_it_matters": "多工具切換的技術用戶可用此減少重複設定成本，統一的 skill 管理也有助於建立個人或團隊的 AI  Coding 知識庫。",
+    "automation_angle": null,
+    "automation_angle_zh": "在一個 .agents 檔案中定義常用 MCP 工具，同步到本機各 AI  Coding 環境，快速驗證不同工具對同一 task 的表現差異。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/134780061?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-anthropic-claude-gvisor-seatbelt-bubblewrap",
+    "title": "Anthropic 揭露 Claude 跨產品沙盒機制：gVisor、Seatbelt、Bubblewrap 實測",
+    "title_original": "How we contain Claude across products",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+    "published_at": "2026-05-30T21:36:24+00:00",
+    "category": "hot-topics",
+    "summary": "Anthropic 公布 Claude 跨產品沙盒技術文件，揭露 Claude.ai、Claude Code、Cowork 如何用 gVisor、Seatbelt、Bubblewrap、VM 等機制隔離代理行為，防止憑證外洩。建議技術人員重新評估 Anthropic Sandbox Runtime（srt）工具。",
+    "highlights": [
+      "Claude.ai 使用 gVisor 隔離，Claude Code 在 macOS 用 Seatbelt、Linux 用 Bubblewrap",
+      "Cowork 運行完整 VM（macOS 用 Apple Virtualization framework，Windows 用 HCS）",
+      "核心原則：憑證從未進入沙盒，任何手法都無法竊取",
+      "曾有 api.anthropic.com/v1/files 外洩漏洞，已修補",
+      "開源工具 srt（Anthropic Sandbox Runtime）已成熟可測試"
+    ],
+    "why_it_matters": "官方揭示隔離機制細節，技術人員可驗證信任邊界，決定是否將 Claude 整合進自動化流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 srt 建立測試環境，驗證本地代理的 filesystem boundary 和 egress control 是否符合企業安全需求。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-31-6-400-llm",
+    "title": "技術玩家實測：6,400 美元本地 LLM 伺服器成本拆解",
+    "title_original": "Cost Analysis of my $6.4k Local LLM Server",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsbl9j/cost_analysis_of_my_64k_local_llm_server/",
+    "published_at": "2026-05-30T21:09:05+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶公開其自行組裝的本地 LLM 伺服器細節，總造價約 6,400 美元，包含 GPU、RAM、儲存與周邊，並分析每月電力成本與每小時推論成本，給出實用性參考。",
+    "highlights": [
+      "硬體包含高階 GPU（如 RTX 4090 或 A100 等效配置）",
+      "每月電力成本約 80-150 美元（視使用強度）",
+      "單次推論成本（電力）遠低於雲端 API，但需計算前期硬體投入",
+      "對比雲端 API 成本，回本時間視使用量而異",
+      "作者建議根據實際吞吐量需求選擇硬體規模"
+    ],
+    "why_it_matters": "對於需要長期大量推論的技術用戶，本地部署的 Total Cost of Ownership（TCO）計算是關鍵決策參考，可評估是否值得從雲端轉向本地。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可參考其成本模型，根據自身使用量計算回本週期，決定是否投資本地硬體；亦可將此模板用於團隊的 AI 基礎設施預算規劃。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-lovstudio-any2pdf-ai-pdf",
+    "title": "lovstudio/any2pdf：AI 程式助理輸出專業排版 PDF",
+    "title_original": "lovstudio/any2pdf",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/lovstudio/any2pdf",
+    "published_at": "2026-05-30T20:20:59Z",
+    "category": "agent-skills",
+    "summary": "any2pdf 將 Markdown 轉換為專業排版 PDF，是專為 AI Coding 助理設計的 skill 工具，Python 實作已有 177 stars，反映出對 AI 產出文件化的強烈需求。",
+    "highlights": [
+      "177 stars 高人氣專案，社群需求明確",
+      "一鍵將 Markdown 轉為美觀 PDF",
+      "適合 AI Coding 助理的文件產出流程",
+      "Python 實作，依赖簡單易整合",
+      "可作為 Agent 輸出結構化報告的後處理工具"
+    ],
+    "why_it_matters": "AI Coding 工具產生大量 Markdown，轉 PDF 需求實際但被低估。此工具可自動化文件交付流程，讓技術用戶專注內容而非排版。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Agent 工作流程末端接入 any2pdf，例如 Cursor 或 Copilot 輸出技術文件後自動生成 PDF 或投影片。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/267731212?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-31-reddit-temperature-top-p",
+    "title": "Reddit 討論：低量化模型穩定性問題——嘗試調低 Temperature 與 Top-p",
+    "title_original": "Has anyone experimented with stabilizing low quant models with lower temp and top p?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ts94t8/has_anyone_experimented_with_stabilizing_low/",
+    "published_at": "2026-05-30T19:31:19+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社區有人提出用調低 temperature 和 top_p 的方式來穩定低量化（low-quant）語言模型的輸出品質。該討論尚未形成共識解方，主要是個人實驗經驗分享。",
+    "highlights": [
+      "用戶回報降低 temperature（如 0.2-0.4）可減少低量化模型幻覺輸出",
+      "配合降低 top_p（如 0.8-0.9）可進一步控制隨機性",
+      "低量化模型（如 4-bit、2-bit）在參數減少下穩定性本就是痛點",
+      "尚未有系統性 benchmark 證實此方法有效",
+      "社群建議同時檢查模型訓練品質與量化方法"
+    ],
+    "why_it_matters": "若此 hack 確實有效，技術用戶可在不重新訓練的情況下提升低資源模型的可用性，降低本地部署成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 temperature/top_p 參數寫入 inference script 或 API wrapper，針對不同低量化模型建立最佳化設定檔，下次部署時直接套用。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-30-eda-agent-altium-designer-mcp-ai-pcb",
     "title": "eda-agent：Altium Designer MCP 伺服器，讓 AI 操控 PCB 設計流程",
     "title_original": "salitronic/eda-agent",
@@ -19096,6 +19267,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-31-oracle-ai-agent-studio",
+    "title": "Oracle AI Agent Studio 提供企業自動化新工具",
+    "title_original": "AI Agent Studio provides new tools for automation - Oracle Blogs",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNU0VyX0tULUxxVmxNb0o2blVTM18xQTQ2VDJvcTdhLVY3a2ZGeFhlOC1FbHBwcTAzRDVnTDBKMVNoNjRYZ0VUd2N0R21pV2dFb05DajJOQ3Z5dXlyX1ZvVnJ6Y2hKd2VIUlFfbVBjOURIdXB4aHdWbUEtM3pPM000cEVuX096ZGxvS2dhZmsxRGRUUQ?oc=5",
+    "published_at": "2025-10-23T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Oracle 發布 AI Agent Studio，提供企業級代理建構與自動化工具，整合至 Oracle 雲端生態，瞄準大型組織的流程自動化需求。",
+    "highlights": [
+      "提供視覺化代理設計介面",
+      "支援 Oracle 資料庫與 SaaS 應用整合",
+      "強調企業安全與合規管控",
+      "可能與 Oracle Database 21c+ 的 AI 功能聯動",
+      "針對 ERP、CRM 等企業系統自動化"
+    ],
+    "why_it_matters": "企業用戶若已使用 Oracle 生態，可評估此 Studio 是否能在既有架構上快速部署 AI 代理，省去自建整合成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "若組織使用 Oracle Cloud，可申請 Studio preview 帳號，測試代理對 Oracle 資料庫操作的穩定性與延遲。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-23-github-9-ai-mcp",
     "title": "GitHub 精選 9 個開源 AI 與 MCP 專案加速開發者生產力",
     "title_original": "Accelerate developer productivity with these 9 open source AI and MCP projects - The GitHub Blog",
@@ -19343,6 +19542,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-31-github-copilot",
+    "title": "GitHub Copilot 代理整合工作流程五種實務方式",
+    "title_original": "5 ways to integrate GitHub Copilot coding agent into your workflow - The GitHub Blog",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMFJYcERBSG1FUDFjUGNtNjh2WDlIcmxteGFDWjJTSHRoXzZ3Ykg4M2JPN0ZjR1RaUnhManBoXzc0OERRejdEV2pRX3BXS1JBcm8xN0FXX2hMTjl5UkxtUFdRcF9ENjJvYWx0clBpbGktZEFVaXgwMEhKZEhab2c1WkVkRHJZMU5tRjFlbG9OelJqYkFIYUJOR2pWdkJBUTgteUxDS2s4el9qb3FxbFFETDF3?oc=5",
+    "published_at": "2025-09-19T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Blog 整理 Copilot 代理與開發流程整合的 五種模式，包含 PR 審查、測試生成、文件維護等場景，適合評估 Copilot 對現有 CI/CD 的加成效果。",
+    "highlights": [
+      "PR 自動化審查：代理可分析程式碼變更與測試覆蓋",
+      "測試生成：依據函式簽名自動產生單元測試",
+      "文件同步更新：pull request 觸發文件修訂",
+      "Issue 分類：代理理解問題描述並加標籤",
+      "Commit message 生成：標準化版本歷史"
+    ],
+    "why_it_matters": "若已用 GitHub Copilot，可評估這些整合點是否適用於現有開發流程，降低手動重複任務負擔。",
+    "automation_angle": null,
+    "automation_angle_zh": "在既有 GitHub Actions 中引入 Copilot 代理處理 review 或文件任務，觀察錯誤率與準確度再決定規模化。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-20-replicate-search-api-beta",
     "title": "Replicate 推出 Search API Beta 版",
     "title_original": "New search API, now in beta",
@@ -19390,6 +19617,34 @@
     "automation_angle_zh": "使用 pip install mistralai 測試 Mistral 7B 在本地的推論效果，與 OpenAI API 成本對比評估。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-mcp-ai",
+    "title": "MCP 統一介面標準：讓 AI 代理模組化更易實作",
+    "title_original": "MCP: the Universal Connector for Building Smarter, Modular AI Agents - infoq.com",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdVpUMlI2akVVWVllTnhZaFdaM0xpVXFiTjg4NE1tRG9pczVNeWgwTnZXRnRDeVZjX3pCQkNOUVZTVWhveEptN21sQWRMT3ZSbXNPX0xCcnZPSEJmaVRBUXNic0tqQ0ZXS2tVN0Q4VFZacTI0Vl9oeEVjbWlXRkJBWXZkcTNiN1I3OVkxeg?oc=5",
+    "published_at": "2025-08-29T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "InfoQ 報導 Model Context Protocol（MCP）作為 AI 代理與外部工具/資料來源的通用連接器，強調模組化設計可降低代理整合不同服務的開發成本。",
+    "highlights": [
+      "MCP 定義統一 schema 供代理呼叫外部 API",
+      "支援工具發現、元資料交換、錯誤處理標準化",
+      "減少為每個工具撰寫 adapter 的重複工作",
+      "已被多個開源代理框架採用",
+      "有利於打造可插拔的代理技能庫"
+    ],
+    "why_it_matters": "若自建代理或選擇框架，支援 MCP 的工具鏈可降低整合維護成本，提升代理擴展彈性。",
+    "automation_angle": null,
+    "automation_angle_zh": "選用支援 MCP 的代理框架（如 LangChain、CrewAI），評估新工具是否提供 MCP server 以快速接入工作流程。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
