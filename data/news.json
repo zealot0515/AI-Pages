@@ -1,5 +1,259 @@
 [
   {
+    "id": "2026-05-31-mtp-tokens-s-mtp",
+    "title": "實驗：MTP 模型 tokens/s 效率與非 MTP 模型相當",
+    "title_original": "Experiment : MTP models just as t/s efficient as non MTP models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tt2z01/experiment_mtp_models_just_as_ts_efficient_as_non/",
+    "published_at": "2026-05-31T18:18:43+00:00",
+    "category": "new-models",
+    "summary": "社群實驗測試 MTP（Multi-Token Prediction）模型在推論時的每秒 tokens 輸出效率，發現與傳統單一預測模型相比並無顯著劣勢，挑戰 MTP 增加推論成本的假設。",
+    "highlights": [
+      "測試比對 MTP 與 non-MTP 模型的 t/s 表現",
+      "實驗結果顯示 MTP 效率損失並非如預期嚴重",
+      "對 MTP 架構的推論成本假設提出質疑",
+      "仍需更多硬體與模型規模的對照實驗",
+      "為採用 MTP 模型的效益評估提供新資料點"
+    ],
+    "why_it_matters": "MTP 架構通常被認為推論成本較高，若效率差距不大，則可更放心評估其對生成品質的提升是否值得採用。",
+    "automation_angle": null,
+    "automation_angle_zh": "對你有興趣的 MTP 模型做類似基準測試，決定是否將其納入自動化流程的推論候選，權衡成本與品質。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-claude-dev-suite-claude-code-mcp",
+    "title": "claude-dev-suite：Claude Code 專用 MCP 工具套件開源",
+    "title_original": "claude-dev-suite/claude-dev-suite",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/claude-dev-suite/claude-dev-suite",
+    "published_at": "2026-05-31T18:02:43Z",
+    "category": "agent-skills",
+    "summary": "一個專為 Claude Code 設計的 MCP 伺服器與技能工具套件，包含多個專業化代理、視覺化儀表板，MIT 授權，TypeScript 實作，今日即可整合進工作流程。",
+    "highlights": [
+      "支援多個 specialized agents 串聯工作",
+      "內建 MCP servers 快速接入 Claude Code",
+      "提供視覺化 dashboard 監控代理執行狀態",
+      "MIT 授權，TypeScript，可自由 fork 改寫",
+      "GitHub 18 stars，仍在早期活躍開發"
+    ],
+    "why_it_matters": "若你已在用 Claude Code，此套件可直接擴充其能力邊界，省去自己整合 MCP 的時間成本，今天就能試用。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此專案 fork 後，替換或新增你工作流程程中常見的任務類型（如檔案處理、API 串接），做為自動化流水線的骨幹。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/259911265?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-vector-mcp-mcp",
+    "title": "vector-mcp：統一支援五種向量資料庫的 MCP 伺服器",
+    "title_original": "Knuckles-Team/vector-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Knuckles-Team/vector-mcp",
+    "published_at": "2026-05-31T17:41:04Z",
+    "category": "agent-skills",
+    "summary": "Knuckles-Team 開源的向量資料庫 MCP Server，同時支援 ChromaDB、Couchbase、MongoDB、Qdrant、PGVector，Python 實作，助 AI 代理快速存取向量檢索能力。",
+    "highlights": [
+      "一次整合支援五種主流向量資料庫",
+      "Python 實作，門檻低易維護",
+      "標準 MCP 協議，方便任何 MCP 相容代理接入",
+      "GitHub 11 stars，社群驅動迭代",
+      "可用於 RAG 流程或語義檢索場景"
+    ],
+    "why_it_matters": "切換向量資料庫時無需重寫程式碼，一個 MCP server 通吃所有，降低維運複雜度與遷移成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署此 server 後，讓你的代理程式能動態查詢不同向量資料庫，用於自動化文件檢索、語義分類等任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/119072828?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-reddit-api",
+    "title": "Reddit 討論：多代理情境下 API 成本失控怎麼解",
+    "title_original": "How do you handle runaway API costs across multiple OpenAI agents? I built something to solve this",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tt1kcd/how_do_you_handle_runaway_api_costs_across/",
+    "published_at": "2026-05-31T17:27:18+00:00",
+    "category": "hot-topics",
+    "summary": "開發者於 r/OpenAI 提問如何在多個 AI 代理同時運作時控制 OpenAI API 費用失控的問題，引發社群熱議成本監控與限流策略。",
+    "highlights": [
+      "多代理並行時 token 消耗難以預估",
+      "社群分享使用成本監控工具或自建儀表板",
+      "討論限流策略與代理工作排程",
+      "涉及 OpenAI API 具體用量管理經驗",
+      "對大型 AI 工作流程部署具參考價值"
+    ],
+    "why_it_matters": "多代理架構日漸普及，但成本控制仍是實務痛點。此討論匯集真實踩坑經驗，可供技術決策者參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "在代理工作流程中加入用量監控與自動熔斷機制，達到設定花費上限時主動暫停或降級代理規模。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-archcore-ai-cli-git-ai-agent",
+    "title": "archcore-ai/cli：Git 原生上下文，讓 AI 程式碼 Agent 理解專案結構",
+    "title_original": "archcore-ai/cli",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/archcore-ai/cli",
+    "published_at": "2026-05-31T17:12:48Z",
+    "category": "agent-skills",
+    "summary": "提供 Git 感知能力的本地 MCP 伺服器與 CLI，協助 AI 程式碼 Agent 掌握完整的提交、分支與變更歷史，提升 Code Review 與重構的準確性。",
+    "highlights": [
+      "深度整合 Git，提供完整版本控制上下文",
+      "支援本地 MCP 伺服器與 CLI",
+      "使用 Go 語言開發，效能較佳",
+      "協助 Agent 理解程式碼變更的原因與過程"
+    ],
+    "why_it_matters": "傳統 AI 程式碼生成缺乏版本歷史理解，此工具有助於提升重構與 Code Review 的上下文品質，對大型專案維護者價值明顯。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 archcore-ai/cli 整合進本地 Git 倉庫，讓 AI Agent 自動生成基於提交歷史的變更說明，降低 Code Review 負擔。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/249133516?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-binance-mcp-server-binance-mcp-ai-agent",
+    "title": "binance-mcp-server：非官方 Binance MCP 工具，助建加密交易 AI Agent",
+    "title_original": "AnalyticAce/binance-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/AnalyticAce/binance-mcp-server",
+    "published_at": "2026-05-31T17:12:45Z",
+    "category": "agent-skills",
+    "summary": "非官方工具與伺服器實現 Binance 的 Model Context Protocol，專為開發加密交易 AI Agent 的工程師設計，提供市場資料查詢與交易介面整合。",
+    "highlights": [
+      "實作 Binance MCP 標準",
+      "支援即時行情查詢",
+      "可與 AI Agent 整合執行交易邏輯",
+      "為社群非官方專案，非 Binance 官方支援"
+    ],
+    "why_it_matters": "對有加密資產自動交易需求的技術用戶，可直接將交易所功能嵌入 AI 工作流程，但需注意非官方專案的可靠性與安全風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可快速建立加密套利或量化交易的 Agent 原型，實現行情報酬監控與自動交易的串接。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/114688102?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-simon-willison-ai",
+    "title": "Simon Willison 轉載：AI 訂閱可能讓你一事無成",
+    "title_original": "The solution might be cancelling my AI subscription",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything",
+    "published_at": "2026-05-31T16:31:32+00:00",
+    "category": "hot-topics",
+    "summary": "David Wilson 分享使用 AI 編碼代理的反思：一小時內從點子生出完整專案，但快速生成等於快速廢棄。AI 是「核動力 ADHD 放大器」，導致大量無維護價值的side project。社群則有ADHD用戶認為代理幫助他們首次完成專案，觀點兩極。",
+    "highlights": [
+      "AI 代理快速產出讓人有「完成感」錯覺，但專案快速被遺棄",
+      "對有ADHD傾向的開發者，代理反而可能是聚焦工具而非干擾",
+      "缺乏紀律會讓 AI 生成的低成本回饋變成 liabilities",
+      "關鍵在於建立使用邊界與維護機制",
+      "討論獲得 Hacker News 熱烈迴響，意見分歧明顯"
+    ],
+    "why_it_matters": "這是技術從業者的自我警醒：AI 加速產出，但若無紀律管理，產出反而成為維護債務。值得反思自己與 AI 代理的協作方式。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立自己的「專案存活審查」流程：每次 AI 生成後，明確設定維護時間與目標，防止無限擴张的臨時專案佔用資源。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-mllmerging-llm-iclr-2026",
+    "title": "MLLMerging：模型融合提升多模態 LLM 能力的 ICLR 2026 論文",
+    "title_original": "WalkerWorldPeace/MLLMerging",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/WalkerWorldPeace/MLLMerging",
+    "published_at": "2026-05-31T14:10:53Z",
+    "category": "open-source-ai",
+    "summary": "收錄 ICLR 2026 論文《OptMerge：透過模型融合統一多模態 LLM 能力與模態》，提出將不同模態專長模型合併為一體化模型的技術，可減少部署多個模型的資源消耗。",
+    "highlights": [
+      "ICLR 2026 錄用論文，有完整學術引用",
+      "OptMerge 統一多模態能力與模態的融合方法",
+      "可降低部署多個專業模型的 GPU 成本",
+      "Python 實作，GitHub 星數 50"
+    ],
+    "why_it_matters": "模型融合若能落地，可讓單一部署同時處理文字與視覺任務，降低系統複雜度與推論延遲，值得追蹤其開源實作進度。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可跟蹤此專案開源後的實作細節，評估是否能用於合併自有專業模型，以減少線上部署的模型數量。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/171487592?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-gemma-4-abliteration-13-44-gpu-benchmark",
+    "title": "Gemma 4 經 Abliteration 訓練出 13 種變體，44 GPU 小時 benchmark 結果出爐",
+    "title_original": "13 abliterated Gemma 4 E2B variants, 44 GPU hours, Benchmark and Comparison - Abliterlitics",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsvs3j/13_abliterated_gemma_4_e2b_variants_44_gpu_hours/",
+    "published_at": "2026-05-31T13:44:34+00:00",
+    "category": "open-source-ai",
+    "summary": "研究團隊對 Google Gemma 4 模型進行 13 種不同的 abliterator 訓練配置（移除或削弱特定行為），在 44 GPU 小時的運算資源下完成 benchmark 對比。實驗旨在探索 abliteration 程度與模型效能、安全性的 trade-off，並提供量化數據供社群參考。",
+    "highlights": [
+      "13 種變體採用不同程度的 abliterator 訓練",
+      "總計消耗 44 GPU 小時，成本可控",
+      "提供 Benchmark 結果與横向對比",
+      "Abliteration 可調整模型的行為抑制強度",
+      "數據可複現，研究設計透明"
+    ],
+    "why_it_matters": "Abliteration 是調整開源模型行為的有效手法，此實驗提供了系統性的調參數據，技術人員可據此選擇符合需求的 abliterator 程度，在效能與行為控制間取得平衡。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載實驗中的最佳變體模型，使用 lm-evaluation-harness 在自己的下游任務上複測，評估是否適合自動化流程中的特定任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-31-openclaws-openclaw",
     "title": "Openclaws：專為 OpenClaw 代理設計的擴展套件",
     "title_original": "Openclaws, an accessory for openclaw agents",
@@ -77,6 +331,34 @@
     "automation_angle_zh": "若需評估同一模型的不同量化版本（Q4 vs Q8），可用 KL 散度或 token 級 log-likelihood 差異估算輸出分佈偏移，避免選到在關鍵任務上表現滑坡的版本。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-windows-11-linux-llama-cpp-moe",
+    "title": "實測：Windows 11 與 Linux 在 llama.cpp 中型 MoE 模型速度差異是迷思",
+    "title_original": "Speed difference between Windows 11 and Linux with llama.cpp: a myth when using medium and large MoE models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsqwtu/speed_difference_between_windows_11_and_linux/",
+    "published_at": "2026-05-31T09:49:29+00:00",
+    "category": "new-models",
+    "summary": "r/LocalLLaMA 社群實測顯示，Windows 11 與 Linux 在執行 medium 與大型 MoE 模型時，llama.cpp 的 tokens/s 表現差異並非如預期顯著，打破 Windows 效能劣勢的刻板印象。",
+    "highlights": [
+      "測試對象為 medium 至大型 MoE 架構模型",
+      "Windows 11 與 Linux 吞吐量差距在實驗中不明顯",
+      "llama.cpp 底層優化可能已抹平系統差異",
+      "為 Windows 本地部署 LLM 提供信心",
+      "實測為 Reddit 社群自發性驗證，非官方數據"
+    ],
+    "why_it_matters": "若你偏好在 Windows 環境本地跑 LLM，此結果顯示無需為效能刻意遷移到 Linux，降低本地 AI 部署的環境門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Windows 機器上直接用 llama.cpp 部署 MoE 模型做為自動化腳本的本地推論後端，省去 VM 或雙系統切換成本。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
