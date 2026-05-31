@@ -1,5 +1,173 @@
 [
   {
+    "id": "2026-05-31-openclaws-openclaw",
+    "title": "Openclaws：專為 OpenClaw 代理設計的擴展套件",
+    "title_original": "Openclaws, an accessory for openclaw agents",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tssw2a/openclaws_an_accessory_for_openclaw_agents/",
+    "published_at": "2026-05-31T11:35:09+00:00",
+    "category": "agent-skills",
+    "summary": "Openclaws 是為 OpenClaw 代理生態設計的輔助工具，提供額外功能擴展代理能力範圍。屬於開源項目，技術人可整合至現有工作流程程以提升代理的自動化效率。社群已有相關討論和初步安裝指引。",
+    "highlights": [
+      "專為 OpenClaw 代理設計的功能擴展",
+      "開源項目，可自由檢視原始碼",
+      "可整合至現有代理工作流程程",
+      "提升代理的自動化能力範圍",
+      "具體功能細節和穩定性需自行測試"
+    ],
+    "why_it_matters": "代理生態的擴展工具決定了工作流程自動化的上限。Openclaws 若能穩定運行，可成為提升代理效率的實用模組。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人可下載原始碼，研究其 API 介面，評估是否能與自己的代理框架整合，實現特定任務的自動化。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-deepseek-v4-pro-deepswe-8",
+    "title": "DeepSeek v4 Pro 的 DeepSWE 基準測試僅通過 8% 任務",
+    "title_original": "DeepSWE benchmarks indicate that DeepSeek v4 Pro only passes 8% of tasks",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsse9i/deepswe_benchmarks_indicate_that_deepseek_v4_pro/",
+    "published_at": "2026-05-31T11:09:57+00:00",
+    "category": "new-models",
+    "summary": "社群傳出 DeepSeek v4 Pro 在 DeepSWE 程式碼任務基準測試中僅通過 8%，顯示即使是最新開源模型在軟體工程任務上仍有明顯瓶頸。這對想在本地部署程式碼輔助工具的技術人具參考價值。",
+    "highlights": [
+      "DeepSWE 專為程式碼任務設計，測試 AI 能否完成軟體工程作業",
+      "8% pass rate 顯示模型在實際程式碼任務上能力嚴重不足",
+      "可作為模型選擇的硬數據參考，避免僅靠行銷宣稱",
+      "技術人可用此基準横向比較其他本地模型的程式碼能力",
+      "Reddit 匿名社群數據，未經官方驗證"
+    ],
+    "why_it_matters": "技術人需要了解各模型的真實能力邊界，錯誤選擇會導致自動化流程頻頻失敗。這個 8% 的數據提醒開源模型在軟體工程場景仍有很大進步空間。",
+    "automation_angle": null,
+    "automation_angle_zh": "若要用本地模型輔助程式碼審查或重構，需預期高失敗率並設計人類複查流程，可先用此基準篩選表現較佳的替代模型。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-kl-benchmark",
+    "title": "如何用 KL 散度 Benchmark 同系列模型的變體差異",
+    "title_original": "Is there a definitive way or cookie cutter way to benchmark variations of the same model for their KLD?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsr1xk/is_there_a_definitive_way_or_cookie_cutter_way_to/",
+    "published_at": "2026-05-31T09:57:44+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 討論探索用 KL 散度（KLD）量化同模型變體（如 fine-tune 前後）的行為差異，評論者指出 KL 散度計算複雜且需要大量樣本，標準 benchmark 分數無法捕捉這類細粒度變化。",
+    "highlights": [
+      "KL 散度可用於量化模型輸出的分佈變化",
+      "需準備大量測試樣本才能獲得穩定結果",
+      "傳統 benchmark（MMLU、HumanEval）無法反映細微行為差異",
+      "同一模型的不同變體可能產生截然不同的輸出風格",
+      "計算複雜度可能超過一般開發者的資源上限"
+    ],
+    "why_it_matters": "對 fine-tune 或量化後的模型變體進行行為評估有助於技術用戶選擇真正適合自己 pipeline 的版本，而非僅依賴公開 benchmark 排名。",
+    "automation_angle": null,
+    "automation_angle_zh": "若需評估同一模型的不同量化版本（Q4 vs Q8），可用 KL 散度或 token 級 log-likelihood 差異估算輸出分佈偏移，避免選到在關鍵任務上表現滑坡的版本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-polyrange-ai",
+    "title": "PolyRange：專為網頁安全設計的抗污染攻擊型 AI 基準測試",
+    "title_original": "PolyRange: Contamination-resistant offensive-AI benchmark for web targets (that ain't a benchmark, THAT's a benchmark)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsqvki/polyrange_contaminationresistant_offensiveai/",
+    "published_at": "2026-05-31T09:47:26+00:00",
+    "category": "hot-topics",
+    "summary": "PolyRange 是一款強調抗污染設計的攻擊型 AI 評估框架，針對網頁目標設計不同於傳統基準的測試方式。開發者聲稱能更真實反映 AI 在實際滲透測試場景中的能力，而非只靠記憶訓練資料通過測試。",
+    "highlights": [
+      "強調防止基準污染，模型無法靠記憶通過測試",
+      "專注於網頁安全場景的真實能力評估",
+      "填補現有安全 AI 評估缺口",
+      "可作為技術人驗證安全工具的參考框架",
+      "社群 Reddit 來源，具體実装細節需進一步確認"
+    ],
+    "why_it_matters": "準確的基準測試決定了技術人能否選對工具。PolyRange 若能防止污染，將是評估 AI 安全工具真實能力的關鍵參照。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 PolyRange 測試自己的 AI 滲透測試工具，驗證其在非污染環境下的真實表現，而非只看官方 benchmark 數據。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-openai-codex-desktop-app-provider",
+    "title": "OpenAI Codex Desktop App 接入任意模型與 Provider 的討論",
+    "title_original": "Use any model and any provider with the official OpenAI Codex Desktop App, without modifying its code, and continue to use the official models in parallel?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tspigk/use_any_model_and_any_provider_with_the_official/",
+    "published_at": "2026-05-31T08:27:44+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/LocalLLaMA 討論指出可在不改官方程式碼的情況下將 Codex Desktop App 接入任意模型與 provider，實現同時使用官方模型與本地模型的多模型工作流程，但具體實作方式尚未被廣泛驗證。",
+    "highlights": [
+      "Codex Desktop App 架構可能支援外部模型注入",
+      "可在不 fork 或改 Codex 原始碼前提下擴展模型來源",
+      "討論者分享具體實作方法但未提供完整 benchmark",
+      "適合需要同時使用官方模型（官方功能）與實驗模型（測試）的開發者",
+      "官方 Codex 是否支援此用法尚未得到 OpenAI 明確說明"
+    ],
+    "why_it_matters": "若 Codex Desktop App 可無縫接入第三方模型，開發者能在保留官方工具鏈的情況下進行模型對比實驗，降低實驗環境切换成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "按照 Reddit 討論的方法測試將本地 Qwen 或 Llama 模型接入 Codex，比較 Codex 原生模型與本地模型在自動化任務上的延遲與品質差異。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-item",
+    "title": "模型過度添加律師式免責聲明的行為探討",
+    "title_original": "Why does the model keep shortcutting everything into lawyer-style caveats?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tsnek4/why_does_the_model_keep_shortcutting_everything/",
+    "published_at": "2026-05-31T06:28:26+00:00",
+    "category": "hot-topics",
+    "summary": "用戶反映 AI 模型傾向在回覆中自動添加冗長的法律風險提示和免責聲明，稀釋了實質內容價值。這種防禦性輸出設計反映模型對風險的過度敏感，可能降低技術人使用效率。",
+    "highlights": [
+      "模型自動生成過多法律相關免責文字",
+      "稀釋核心回覆內容，降低可讀性",
+      "反映模型設計的風險規避傾向",
+      "影響技術人工作效率",
+      "可能是對齊訓練造成的副作用"
+    ],
+    "why_it_matters": "對技術人而言，這種行為直接影響工作效率，需要更多 tokens 來獲取同等資訊量，增加了時間和成本消耗。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 system prompt 約束模型輸出格式，或切換至更注重效率的模型變體，減少無效文字生成。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-31-codex-500",
     "title": "Codex 500萬用戶限額重置事件",
     "title_original": "Limit reset for 5 million Codex users.",
@@ -111,6 +279,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-05-31-llama-cpp-localllm",
+    "title": "基於 llama.cpp 的 LocalLLM 書籍閱讀輔助工具",
+    "title_original": "Made a program using LocalLLM based on llama.cpp for fellow Book Lovers!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tslzyc/made_a_program_using_localllm_based_on_llamacpp/",
+    "published_at": "2026-05-31T05:12:21+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者利用 llama.cpp 與 LocalLLM 打造離線書籍閱讀輔助程式，讓書籍愛好者能在本地運行 AI 協助閱讀。所有推論都在本地執行，無需雲端 API，不僅保護隱私還能省下 API 呼叫費用。",
+    "highlights": [
+      "基於 llama.cpp 的本地推論引擎",
+      "離線運行無需雲端依賴",
+      "保護閱讀資料隱私",
+      "節省 API 呼叫成本",
+      "適合有技術背景的個人用戶自建"
+    ],
+    "why_it_matters": "本地部署的閱讀輔助工具展示了大模型在特定垂直場景的落地潛力，且完全免費無使用限制。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人可 fork 此專案，改造成適合自己閱讀場景的自動化工具，如自動摘要、關鍵提取等。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-31-qwen3-6-35b-a3b-claude-4-7-opus",
     "title": "Qwen3.6-35B-A3B 蒸餾模型發布：整合 Claude 4.7 Opus 推論能力",
     "title_original": "mudler/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-APEX-MTP-GGUF just released !",
@@ -159,6 +355,34 @@
     "automation_angle_zh": "建議在调用 ChatGPT API 的腳本中加入回應長度閾值檢查，若輸出少於預期字數則自動重試或切換模型，同時記錄觸發條件以供分析。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-4b-agent-reddit",
+    "title": "4B 參數 Agent 任務最佳小模型 Reddit 討論整理",
+    "title_original": "Best small model right now (~4B params) that is good with agentic tasks for personal assistant?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tskbf9/best_small_model_right_now_4b_params_that_is_good/",
+    "published_at": "2026-05-31T03:47:28+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 討論區有多位技術用戶回報在 4B 參數量級下 Qwen2.5-3B、Qwen2.5-Coder-3B 等小模型在 agentic 任務上表現佳，適合本地部署但需注意棧上推論速度與任務複雜度的權衡。",
+    "highlights": [
+      "Qwen2.5-3B 在 4B 級別討論中被多次提名",
+      "Qwen2.5-Coder-3B 適合需要程式碼理解能力的 Agent",
+      "小型本地模型在複雜推論任務上仍有上限",
+      "4B 模型適合邊緣設備或低延遲本地場景",
+      "社群回報為主，缺乏獨立 benchmark 數據支撐"
+    ],
+    "why_it_matters": "4B 模型提供本地部署的最低硬體門檻，技術宅可用其打造不需要 GPU 伺服器的個人助理，但需自行驗證在特定 Agent 任務上的實際表現。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地 CPU 或筆電 GPU 上部署候選 4B 模型，用實際 Agent 任務（如自動化排程、郵件分類）進行品質測試，找出成本與效果的平衡點。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
@@ -17365,6 +17589,34 @@
     "why_it_matters": "若免費 AI 資源大規模縮減，依賴這些服務的個人開發者與小型團隊將面臨成本上升。及早掌握動態有助於制定備用方案與成本預算。",
     "automation_angle": null,
     "automation_angle_zh": "技術人員可評估現有 workflow 中對免費 API 的依賴程度，建立本機或開源模型作為備用方案，降低單一平台政策變動帶來的風險。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-ai",
+    "title": "新浪財經：中國免費 AI 服務可能生變",
+    "title_original": "免費AI，悬了 - 新浪财經",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jV0QwQ2JLQVFjTjgzUDVnRVowTGkyUjREaTd3dng2R3BPRkdwaElCbzV4U1hBenZRdEN4UHctYzNiS0dWS2kxR3BOQzhoR0pqYnk3NElHQlFwWmhJdWY2aS1xT0Y2YWRmbkViTUgzTmNrMV9TWFN3UTV1UnprNFk?oc=5",
+    "published_at": "2026-04-13T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "新浪財經報導指出中國免費 AI 服務面臨政策與成本壓力，多家廠商的免費 API 或許即將收費或縮減額度。對依賴免費工具的技術人而言，需要關注成本變化並提前評估替代方案。",
+    "highlights": [
+      "中國 AI 廠商免費服務可能走向收費或限額",
+      "API 成本壓力上升是主要驅動因素",
+      "新浪財經為主流財經媒體，可信度較高",
+      "具體廠商和實施時間尚待確認",
+      "技術人應提前準備備案"
+    ],
+    "why_it_matters": "若免費 AI 服務收費或額度緊縮，直接影響開發成本和現有工作流程程。技術人需提前評估替代工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "盤點現有工作流程中的免費 AI 依賴，評估開源模型或本地部署的可行性，建立備用方案以防成本突增。",
     "tags": [
       "ai-deals",
       "rss",
