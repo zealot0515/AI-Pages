@@ -1,5 +1,227 @@
 [
   {
+    "id": "2026-05-31-codex-500",
+    "title": "Codex 500萬用戶限額重置事件",
+    "title_original": "Limit reset for 5 million Codex users.",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tsn7dh/limit_reset_for_5_million_codex_users/",
+    "published_at": "2026-05-31T06:17:10+00:00",
+    "category": "new-models",
+    "summary": "Reddit社群傳出 Codex 大量用戶遭遇 API 限額重置問題，社群反應熱烈。此事件反映 GPT-4 與 Codex API 在高流量下的穩定性疑慮，開發者需關注官方是否同步調整用量政策。",
+    "highlights": [
+      "Codex 為 OpenAI 程式碼生成 API，近期用戶反映限額被重置",
+      "社群討論指向可能與模型更新或流量管制有關",
+      "OpenAI 尚未正式公告原因，資訊來源為 Reddit 論壇",
+      "開發者對此反應兩極，部分用戶已討論替代方案"
+    ],
+    "why_it_matters": "身為技術開發者，若重度依賴 Codex API 做自動化程式生成，限額異動將直接影響 CI/CD 工作流程。此事件顯示官方政策溝通不足，需主動監控用量儀表板。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可透過監控 API 回應 headers 中的 remaining requests，搭配 Slack/Discord webhook 建立超額預警，避免自動化流程無預警中斷。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-solomd-markdown-mcp-14-ai",
+    "title": "solomd：Markdown編輯器與MCP橋接工具，支援14家AI供應商",
+    "title_original": "zhitongblog/solomd",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/zhitongblog/solomd",
+    "published_at": "2026-05-31T06:04:06Z",
+    "category": "agent-skills",
+    "summary": "solomd是一款本地優先的Markdown編輯器，內建MCP Server，可讓Claude Code、Codex、Cursor等Agent直接操控你的知識庫。支援14家AI供應商自帶金鑰，MIT授權，約15MB。",
+    "highlights": [
+      "MIT授權，本地優先，資料自主",
+      "內建MCP Server可直接讓主流編碼Agent接入",
+      "支援14家AI供應商BYOK，彈性高",
+      "TypeScript開發，可自行擴展功能"
+    ],
+    "why_it_matters": "對於需要讓AI Agent直接讀寫本地Markdown知識庫的技術用戶，solomd提供了一個開箱即用的橋接方案，降低自建MCP整合的開發成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "以solomd作為本地知識庫前端，串接Cursor或Claude Code讓AI直接查詢、修改筆記，測試從閱讀到輸出的完整自動化工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/257219176?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-mcp-js-v8-javascript-mcp",
+    "title": "mcp-js：將V8 JavaScript執行環境暴露為MCP工具",
+    "title_original": "r33drichards/mcp-js",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/r33drichards/mcp-js",
+    "published_at": "2026-05-31T05:45:47Z",
+    "category": "agent-skills",
+    "summary": "用Rust開發的MCP Server，可將V8 JavaScript執行環境暴露為AI Agent工具。支援透過S3或本地檔案系統持久化堆積快照，方便Agent在多次呼叫間保持執行狀態。",
+    "highlights": [
+      "Rust實作，效能與記憶體控制較佳",
+      "支援持久化堆積快照，可跨請求維持JS執行狀態",
+      "可串接S3或本地檔案系統存放快照",
+      "相容Claude、Cursor等主流MCP用戶端"
+    ],
+    "why_it_matters": "若你需要AI Agent執行複雜JavaScript邏輯或長期狀態管理，mcp-js提供了一個可客製的執行環境，比純Prompt scripting更穩定。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估將複雜資料處理或計算任務外包給mcp-js的可行性，測試快照持久化是否能在你的工作流程中減少重複計算。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/57335981?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-wechat-cli-macos-mcp-server",
+    "title": "wechat-cli：macOS本地微信聊天紀錄的MCP Server",
+    "title_original": "r266-tech/wechat-cli",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/r266-tech/wechat-cli",
+    "published_at": "2026-05-31T05:24:29Z",
+    "category": "agent-skills",
+    "summary": "用Go實作的MCP Server，可讀取macOS本地微信4.x的聊天記錄、聯絡人、媒體、收藏、转帳、红包、朋友圈及全文搜索。適合需要操作微信資料的本地Agent場景。",
+    "highlights": [
+      "Go實作，效能佳且跨平台潛力大",
+      "支援聊天、媒體、朋友圈、轉帳等多元資料類型",
+      "本地讀取，無需雲端或第三方API",
+      "macOS限定，需本地微信資料檔"
+    ],
+    "why_it_matters": "對需要在微信生態中自動化任務的技術用戶，wechat-cli提供本地資料讀取能力，可作為構建微信輔助工具的底層介面。",
+    "automation_angle": null,
+    "automation_angle_zh": "將wechat-cli與本地Agent整合，實驗自動回覆、資料備份或聊天分析等場景，評估隱私與功能的取捨是否滿足需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/233881301?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-qwen3-6-35b-a3b-claude-4-7-opus",
+    "title": "Qwen3.6-35B-A3B 蒸餾模型發布：整合 Claude 4.7 Opus 推論能力",
+    "title_original": "mudler/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-APEX-MTP-GGUF just released !",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tslv3b/mudlerqwen3635ba3bclaude47opusreasoningdistilledap/",
+    "published_at": "2026-05-31T05:05:10+00:00",
+    "category": "open-source-ai",
+    "summary": "mudler 發布 Qwen3.6-35B-A3B 蒸餾版本，聲稱從 Claude 4.7 Opus 蒸餾推論能力並整合 APEX 與 MTP 技術，同步支援 GGUF 格式。社群期待其在小參數模型中提供接近旗艦模型的推論表現。",
+    "highlights": [
+      "Qwen3.6-35B-A3B 為基礎模型，約 35B 參數規模",
+      "從 Claude 4.7 Opus 蒸餾推論思維鏈（Reasoning Distillation）",
+      "整合 APEX 與 MTP 優化技術",
+      "支援 GGUF 格式，可使用 llama.cpp 本地運行",
+      "定位為高效能小模型替代方案"
+    ],
+    "why_it_matters": "若蒸餾效果屬實，35B 模型可在本機實現接近旗艦模型的推論能力，大幅降低部署成本並提升隱私。這是本地 AI 應用的重要進展。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 GGUF 版本，使用 llama.cpp 或 Ollama 在本地部署，測試其代理任務表現與上下文窗口大小，評估是否能替代雲端 API 完成日常自動化工作。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-chatgpt-25",
+    "title": "ChatGPT 回應被截斷至 25 字：開發者社群熱議",
+    "title_original": "Is there any way I can fix this? Chatgpt has been pretty decent for research and today its doing this bs. 25 words are we serious",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tsl7vv/is_there_any_way_i_can_fix_this_chatgpt_has_been/",
+    "published_at": "2026-05-31T04:31:59+00:00",
+    "category": "hot-topics",
+    "summary": "多位 Reddit 用戶反映 ChatGPT 近期輸出被大幅截斷，研究用途的回應僅剩 25 字左右。此問題影響學術研究與長文分析工作，社群正嘗試診斷觸發條件與暫時解法。",
+    "highlights": [
+      "用戶報告 ChatGPT 回應長度異常短，疑似系統性截斷",
+      "問題可能與特定 prompt 模式或帳戶用量狀態有關",
+      "暫無官方說明，社群提出多種 workaround 建議",
+      "此問題對需要長文輸出的自動化工作影響顯著"
+    ],
+    "why_it_matters": "若你將 ChatGPT 用於研究摘要或文件生成，被截斷的輸出將導致自動化流程產生不完整資料。在官方回應前，建議建立輸出完整性驗證機制。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議在调用 ChatGPT API 的腳本中加入回應長度閾值檢查，若輸出少於預期字數則自動重試或切換模型，同時記錄觸發條件以供分析。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-anthropic",
+    "title": "Anthropic 年化營收計算方式曝光：併計訂閱與消費模式",
+    "title_original": "Quoting Karen Kwok for Reuters Breakingviews",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything",
+    "published_at": "2026-05-31T01:48:12+00:00",
+    "category": "ai-deals",
+    "summary": "消息人士向 Reuters Breakingviews 透露 Anthropic 營收計算方式：按消費計費的最近 28 天銷售額乘以 13，加上月度訂閱額乘以 12，即為「年化營收 Run-rate」。此數字反映 AI 公司獨特的訂閱+用量混合商業模式。",
+    "highlights": [
+      "消費模式營收：取最近 28 天數據 × 13 推算年度",
+      "訂閱模式營收：月度訂閱額 × 12",
+      "兩者相加為年化營收 Run-rate",
+      "此計算方式凸顯 AI 公司收入結構的複雜性",
+      "消息來源為「熟悉內情人士」，非官方公告"
+    ],
+    "why_it_matters": "理解 AI 公司的財務指標計算方式有助評估其真實營收能力與成長趨勢。Anthropic 作為主要模型提供商，其財務健康度影響整個 AI 生態的穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶在評估 Anthropic API 成本與服務穩定性時，可參考其年化營收了解公司規模；若營收成長放緩，可能意味著 API 定價或服務條款調整壓力增加。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-05-31-m1-max-64gb-llama-cpp-mlx-vllm",
+    "title": "M1 Max 64GB 推論引擎基準測試出爐：llama.cpp、MLX、vLLM 效能比較",
+    "title_original": "Benchmarked inference engines for M1 Max 64gb-results & analysis",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsh5i6/benchmarked_inference_engines_for_m1_max/",
+    "published_at": "2026-05-31T01:14:27+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶在 M1 Max（64GB）上對主流推論引擎進行系統性基準測試，比較 llama.cpp、MLX（蘋果晶片優化庫）與 vLLM 的推論速度、記憶體使用與輸出品質，為蘋果晶片本地部署提供實測數據。",
+    "highlights": [
+      "測試平台：M1 Max + 64GB 統一記憶體",
+      "比較對象：llama.cpp、MLX、vLLM",
+      "評估維度：tokens/second、延遲、記憶體佔用",
+      "不同模型規模（7B、13B、34B）的效能表現差異",
+      "量化精度（FP16、INT8、INT4）對速度與品質的影響"
+    ],
+    "why_it_matters": "蘋果晶片用戶需要實際效能數據來選擇推論框架。MLX 在蘋果晶片上有原生優勢，但 llama.cpp 生态更成熟，vLLM 則支援更多功能。實測數據可直接影響本地部署決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據測試結果，若主要需求是高速推論且模型較小（<13B），MLX 可能最優；若需同時支援更大模型或多功能，llama.cpp 是穩定選擇。用戶可據此優化個人 AI 工作流程程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-31-bitdive-mcp-server-ai-agent",
     "title": "bitDive/mcp-server：AI Agent 的自主品質迴圈框架",
     "title_original": "bitDive/mcp-server",
@@ -141,6 +363,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/267731212?v=4",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-05-31-ai-amish-chad-whitacre",
+    "title": "開源維護者宣佈「AI Amish」退出宣言： Chad Whitacre 離開科技行業",
+    "title_original": "I Am Retiring from Tech to Live Offline",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything",
+    "published_at": "2026-05-30T19:39:08+00:00",
+    "category": "hot-topics",
+    "summary": "Deno/Grip 維護者 Chad Whitacre 發表「AI Amish」宣言，宣佈離開科技行業，專注「類比生活」。他提及使用 Claude Code 開發後感受到「另一個人共享我的內在心聲」的異樣感，認為 AI 加速了技術對生活的入侵。這反映部分開源社群對 AI 時代的深度焦慮。",
+    "highlights": [
+      "Whitacre 為資深開源維護者，曾解決 open source 可持續性問題",
+      "使用 Claude Code 12+ 小時後感受到『認知入侵』",
+      "自稱『Neo-Amish』：接受汽車與電燈開關，但拒絕 AI 與社群媒體",
+      "AI 被視為「壓垮駱駝的最後一根稻草」加劇開源困境",
+      "Simon Willison 對此表示惋惜"
+    ],
+    "why_it_matters": "開源社群資深維護者的離開反映 AI 時代對開發者身心的深層影響。隨著 AI 工具滲透開發流程，部分技術人開始反思人機邊界。這趨勢可能影響未來開源生態與開發文化。",
+    "automation_angle": null,
+    "automation_angle_zh": "若團隊使用 AI 代理工具，應關注成員心理負擔；過度依賴 AI 可能影響獨立解決問題能力。建議定期「拔插頭」檢視工作流程程是否真的提升產出品質而非僅增加數量。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-31-reddit-temperature-top-p",
