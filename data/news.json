@@ -1,5 +1,260 @@
 [
   {
+    "id": "2026-06-01-rigel-agent-ai",
+    "title": "RIGEL：多 Agent 協作式 AI 建構助理",
+    "title_original": "Zerone-Laboratories/RIGEL",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Zerone-Laboratories/RIGEL",
+    "published_at": "2026-06-01T07:38:36Z",
+    "category": "agent-skills",
+    "summary": "RIGEL 定位為多 Agent 協作 AI 助理，允許複数 AI Agent 分工處理任務並共同建構專案。屬於早期專案（Stars 27），文件尚不完整，但概念上支援多 Agent 協作模式，適合探索性技術評估。",
+    "highlights": [
+      "多 Agent 架構，任務可分工給不同 Agent 處理",
+      "定位為建構助理，可能支援程式碼生成與組裝",
+      "Stars 僅 27，專案成熟度偏低",
+      "文件稀缺，實測需親自閱讀原始碼",
+      "概念領先但穩定性需驗證"
+    ],
+    "why_it_matters": "多 Agent 協作是今年 Agent 領域熱點方向，RIGEL 雖然早期，但提供了一個可玩的開源實作，技術用戶可用來測試多 Agent 協作的實際效益與瓶頸。",
+    "automation_angle": null,
+    "automation_angle_zh": "Clone 後親自跑 demo，觀察多 Agent 如何分配任務與溝通，評估是否可移植到自己的自動化流程中。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/153111832?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-minimax",
+    "title": "MiniMax下一代模型預計十天內發布",
+    "title_original": "next MiniMax will be released in ~10 Days",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ttkz1c/next_minimax_will_be_released_in_10_days/",
+    "published_at": "2026-06-01T07:35:52+00:00",
+    "category": "new-models",
+    "summary": "Reddit社群消息指出MiniMax下一代模型可能在十天內發布，具體規格與能力尚未確認。此為未經官方證實的傳聞，需後續追蹤驗證。",
+    "highlights": [
+      "發布時間基於社群猜測，未獲官方確認",
+      "具體模型規格尚未披露",
+      "MiniMax在本地部署社群有一定人氣",
+      "建議等待官方公告再行動",
+      "若發布可能對中低階本地模型市場造成衝擊"
+    ],
+    "why_it_matters": "MiniMax在本地部署社群有穩定用戶基礎，新模型可能帶來更強Coding/Agent能力與更好的性價比，但消息未獲證實，暫不建議據此做重大決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤官方公告；不要基於謠言提前調整工作流程；準備好在消息確認後快速測試新模型效能。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-agent-dispatch-mcp-server-agent",
+    "title": "agent-dispatch：MCP Server 跨專案 Agent 任務轉派工具",
+    "title_original": "ginkida/agent-dispatch",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ginkida/agent-dispatch",
+    "published_at": "2026-06-01T06:54:53Z",
+    "category": "agent-skills",
+    "summary": "agent-dispatch 是一個 MCP Server 實作，讓 Claude Code Agent 能將任務委派給其他目錄中的 Agent。適用於大型 Mono-repo 或需要跨專案協調的工作流程。Python 開發，Stars 26，屬於新興工具。",
+    "highlights": [
+      "基於 MCP 協定，可與支援 MCP 的 AI 工具串接",
+      "實現跨目錄 Agent 任務委派",
+      "解決大型專案多 Agent 協作的目錄隔離問題",
+      "Python 實現，部署依賴簡單",
+      "屬於新興專案，生態文件較少"
+    ],
+    "why_it_matters": "在多 repo 或微服務架構下，常需要不同 Agent 處理不同子專案。agent-dispatch 提供了統一的轉派層，技術用戶可借此減少手動切換 Agent context 的成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在大型 Mono-repo 專案中部署 agent-dispatch，讓各子目錄的 Agent 自動接收並處理對應任務，實現「一個 Command 驅動整個專案」的工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3363127?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-simon-willison-ai-anthropic",
+    "title": "Simon Willison六月通訊：AI成本飆升、Anthropic表現亮眼",
+    "title_original": "May 2026 newsletter",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/1/may-newsletter/#atom-everything",
+    "published_at": "2026-06-01T04:45:00+00:00",
+    "category": "hot-topics",
+    "summary": "AI發燒友Simon Willison的六月通訊指出AI模型成本持續攀升，但Anthropic本月表現突出；同時他發布了Datasette Agent，標誌著本地AI工具整合的新階段。",
+    "highlights": [
+      "AI模型使用成本持續上升，開發者需優化使用策略",
+      "Anthropic Claude系列性價比在本月獲得積極評價",
+      "Datasette Agent正式發布，本地化AI工具鏈再添成員",
+      "AI會議與播客資訊整理實用",
+      "作者建議採用sponsorship模式支援優質內容創作"
+    ],
+    "why_it_matters": "Simon Willison作為資深技術觀察者，其觀點反映技術社群對成本與效能的敏感度；Datasette Agent代表本地化AI助理的實用化趨勢。",
+    "automation_angle": null,
+    "automation_angle_zh": "監控AI模型成本走勢以優化工具選擇；評估Datasette Agent作為本地化數據處理助理的可行性；參考其對各家模型的性價比評估。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-nvidia-cosmos-3-ai",
+    "title": "NVIDIA Cosmos 3：首個物理AI推論開源全能模型",
+    "title_original": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+    "published_at": "2026-06-01T04:44:55+00:00",
+    "category": "open-source-ai",
+    "summary": "NVIDIA 發布 Cosmos 3，這是首個針對Physical AI打造的開放式全能模型，可用於機器人、自動化設備的推論與動作規劃，降低實體世界AI應用門檻。",
+    "highlights": [
+      "首個開放式Physical AI推論模型",
+      "支援機器人動作規劃與環境理解",
+      "開源發布，降低實體自動化AI成本",
+      "可用於工廠、倉儲自動化的模型基礎",
+      "與NVIDIA Omniverse生態系統整合"
+    ],
+    "why_it_matters": "實體世界AI（機器人/自動駕駛）長期缺乏開源方案，Cosmos 3填補此缺口，讓開發者可免費取得高品質推論基礎模型，加速硬體整合開發。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估Cosmos 3在倉庫機器人或自動化設備上的推論延遲；測試與ROS框架整合的可行性；評估作為自動化設備感知層的替代方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-countbot-ai-agent",
+    "title": "CountBot：國產輕量 AI Agent，深度整合釘釘、微信、微博等平台",
+    "title_original": "countbot-ai/CountBot",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/countbot-ai/CountBot",
+    "published_at": "2026-06-01T04:42:30Z",
+    "category": "agent-skills",
+    "summary": "CountBot 是專為中文用戶優化的開源 AI Agent，支援國產大模型 Coding Plan，相容 OpenClaw Skills 生態，已接入微信、微博、飛書、釘釘、QQ、小智 AI、Telegram、DeepSeek-V4 等平台。GitHub 702 Stars，Python 開發，技術門檻低。",
+    "highlights": [
+      "中文適配優化，界面與文件親近中文開發者",
+      "支援國產大模型 Coding Plan，可對接 DeepSeek",
+      "相容 OpenClaw Skills，生態擴展性佳",
+      "多平台機器人整合，一套程式觸達多個即時通訊",
+      "Python 實現，部署與客製化難度低"
+    ],
+    "why_it_matters": "若你有跨平台訊息機器人或自動化需求，CountBot 提供了統一的開源框架，避免自己手刻多平台適配。可直接縮短 2-3 個平台的對接時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可用 CountBot 快速建置釘釘或微信機器人，串接企業內部工作流程通知或客服自動回覆，減少重複性訊息處理工作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/23535392?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-chatgpt-business",
+    "title": "ChatGPT Business五折優惠：適合程式開發者轉換？",
+    "title_original": "Got a 50% off ChatGPT Business promo (2 seats for $20). Worth switching from Plus($20) for coding/codex app",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1ttha63/got_a_50_off_chatgpt_business_promo_2_seats_for/",
+    "published_at": "2026-06-01T04:20:16+00:00",
+    "category": "ai-deals",
+    "summary": "用戶分享取得ChatGPT Business促銷碼，兩席位共20美元月費（原價40美元），欲評估是否適合從Plus方案（月費20美元）轉換至Business以獲得更佳的程式開發輔助功能如Codex應用。優惠為個人推廣碼，非官方公開活動。",
+    "highlights": [
+      "Business方案月費促銷至20美元（2席位）",
+      "相比Plus多了API存取與更高使用額度",
+      "Codex整合功能為程式開發者主要賣點",
+      "此優惠為個人分享的推廣碼，非官方公告",
+      "需注意優惠是否為一次性或長期有效"
+    ],
+    "why_it_matters": "若Business方案功能確實適合程式開發工作且能取得優惠碼，性價比可能優於Plus；技術用戶應評估自身需求與實際使用場景再決定是否轉換。",
+    "automation_angle": null,
+    "automation_angle_zh": "程式開發者可比較Business方案的Codex功能與其他IDE插件或API方案的差異，評估是否值得為整合功能支付溢價。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-llm-html",
+    "title": "創意技巧：讓LLM以HTML作為主要對話語言實現互動內容",
+    "title_original": "Use HTML as the primary chat language of your LLM's so they can make interactive content",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tter4t/use_html_as_the_primary_chat_language_of_your/",
+    "published_at": "2026-06-01T02:20:57+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit用戶分享將HTML作為LLM主要輸出格式的技巧，使模型能直接產生可互動的網頁元素、表單、動態內容等，突破純文字回覆的限制。此方法適用於需要直接產出前端介面的開發場景。",
+    "highlights": [
+      "將HTML標籤作為模型輸出主力格式",
+      "可產生可點擊按鈕、表單、下拉選單等互動元素",
+      "減少文字描述轉換為程式的中間環節",
+      "需注意模型對複雜HTML/CSS結構的準確度",
+      "適合需要快速原型製作或聊天機器人UI的場景"
+    ],
+    "why_it_matters": "此技巧可簡化AI輔助的前端開發流程，讓模型直接產出可用介面而非描述，有助提升開發者工作流程效率與原型驗證速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此方法整合至代理系統，使AI能直接生成可用的表單或資料看板，減少人工後製除錯的時間。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-minimax-m3-coding-agent",
+    "title": "MiniMax M3：百萬上下文、支援Coding與Agent的全新多模態模型",
+    "title_original": "MiniMax M3 - Coding & Agentic Frontier, 1M Context, Multimodal",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ttdiq0/minimax_m3_coding_agentic_frontier_1m_context/",
+    "published_at": "2026-06-01T01:23:45+00:00",
+    "category": "new-models",
+    "summary": "MiniMax M3 以百萬 tokens 超長上下文與多模態能力切入市場，主打 Coding 與 Agentic 任務。模型支援視覺理解與長文本分析，在代理工作流程場景中具備競爭力。",
+    "highlights": [
+      "百萬 token 超長上下文，適配長文檔分析",
+      "原生支援 Coding 任務，程式碼生成能力強化",
+      "多模態輸入：文字、圖像、文件統一處理",
+      "Agentic 能力最佳化，適合自動化工作流程整合",
+      "在 Reddit 社群引發本地部署討論熱潮"
+    ],
+    "why_it_matters": "百萬上下文大幅降低長任務拆解成本，多模態+Coding 組合適合取代現有多工具串接，能在單一模型內完成文件解析與程式碼生成。",
+    "automation_angle": null,
+    "automation_angle_zh": "可作為長文檔自動化解析+Coding的單一後端；測試百萬上下文下RAG與Agent Chain的穩定性；評估與現有Claude/GPT-4o效能差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-01-iliaal-whetstone-19-agent-30-ai",
     "title": "iliaal/whetstone：19個Agent、30項技能的AI開發工具集",
     "title_original": "iliaal/whetstone",
@@ -442,6 +697,34 @@
     "automation_angle_zh": "可下載實驗中的最佳變體模型，使用 lm-evaluation-harness 在自己的下游任務上複測，評估是否適合自動化流程中的特定任務。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-claude-opus-4-8-agent",
+    "title": "Claude Opus 4.8：編碼與Agent能力顯著升級",
+    "title_original": "Anthropic Launches Claude Opus 4.8 With Upgrades for Coding, Agents and Knowledge Work - entARABI",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWkpwaHdxaklLdVFubUdoMmNUdmNWTk5EZ1N1MEVXamo3TlBYV3VhY3ZnY2RwNngzZzdWODVWNWRNd21tbUc2eGZXd1pIblFkUmhEUTN2MVJDcVROV1BBTDUtd085TEVNczZsUk90d1JSMVBjNkVuemRfZWxDLWRyYi1WS3hGdkJfSVowSkxwTGo5NDJONVBtd24xcjhKTG9hZUhITHFLT3ZhT1lBLWF4WmF6T1FZOVNJV1E?oc=5",
+    "published_at": "2026-05-31T13:05:01+00:00",
+    "category": "new-models",
+    "summary": "Anthropic發布Claude Opus 4.8版本，主要強化Coding、Agent與知識工作場景。提升了複雜程式碼生成、工具調用穩定性，知識庫檢索精確度也有所提升。",
+    "highlights": [
+      "Coding能力增強：複雜架構與除錯提升明顯",
+      "Agent工具調用穩定性改善，減少幻覺錯誤",
+      "知識工作增強：長文檔總結與檢索更精確",
+      "可能影響Claude API定價與用量成本",
+      "與 Anthropic Claude Code CLI 深度整合"
+    ],
+    "why_it_matters": "Claude Opus 4.8的Coding與Agent升級使其更適合企業級自動化流程，若定價不變則相當於成本不變下效能提升，直接利好開發者工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "對比Claude Opus 4.8與GPT-4o在真實Coding任務的表現；測試工具調用穩定性是否達到生產環境標準；評估對Claude API成本效益影響。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -10027,6 +10310,34 @@
       "Go"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/3993311?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-mistral-ai-vibe-medium-3-5",
+    "title": "Mistral AI發布Vibe遠端代理功能，依託Medium 3.5模型",
+    "title_original": "Remote agents in Vibe. Powered by Mistral Medium 3.5. - Mistral AI",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA2dG9RX24xQ3Z0WnZyRVMtcjNEZk5Kel9zdzlGQzdYNERaLVBqeVEzUUlvMEhuem1tZXo0ZGRsazRBZnIxTS1vRk5vai1NYTZVaklVc2JBOWhGT2VULVVqZGNDMkNmVms4aGk2bG10SQ?oc=5",
+    "published_at": "2026-05-22T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Mistral AI推出Vibe平台新功能，強調支援遠端代理操作並由Medium 3.5模型提供動力。此更新顯示Mistral持續強化其模型在代理工作流程程方面的應用能力，欲在自動化市場佔有一席之地。",
+    "highlights": [
+      "Vibe平台支援遠端代理部署與管理",
+      "Medium 3.5為骨幹模型，具備多步驟任務處理能力",
+      "強調非同步、長時運行的代理執行環境",
+      "瞄準企業級自動化與遠端協作場景",
+      "具體API定價或可用區域尚未公布"
+    ],
+    "why_it_matters": "Mistral在代理技能領域持續追趕OpenAI與Anthropic，技術用戶可評估其性價比是否優於同類產品，特別是歐洲資料主權需求場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可申請搶先體驗，測試Medium 3.5在長任務自動化、跨系統協調等場景的穩定性與回應延遲。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
