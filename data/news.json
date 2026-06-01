@@ -1,5 +1,200 @@
 [
   {
+    "id": "2026-06-01-iliaal-whetstone-19-agent-30-ai",
+    "title": "iliaal/whetstone：19個Agent、30項技能的AI開發工具集",
+    "title_original": "iliaal/whetstone",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/iliaal/whetstone",
+    "published_at": "2026-06-01T00:26:44Z",
+    "category": "agent-skills",
+    "summary": "Whetstone是一套AI開發工具集，包含19個Agent、22個命令、30項技能，並內建1個MCP伺服器。功能涵蓋程式碼審查、研究、設計與工作流程程自動化。Python開發，適合想要用AI輔助日常開發任務的技術團隊。",
+    "highlights": [
+      "19個專門Agent處理不同開發任務",
+      "30項技能涵蓋程式碼審查、研究、設計等場景",
+      "內建MCP伺服器，支援模型上下文協定整合",
+      "Python實作，易與現有Python工具鏈整合",
+      "19 stars，社群規模較小，但功能密度高"
+    ],
+    "why_it_matters": "對於需要自動化程式碼審查或研究任務的團隊，這套工具集提供了開箱即用的Agent能力。MCP伺服器的支援也意味著可以與其他支援MCP的工具串接，擴展性有一定基礎。",
+    "automation_angle": null,
+    "automation_angle_zh": "pip install whetstone後先用22個命令測試常見開發場景，例如自動化程式碼審查或文檔生成。觀察MCP伺服器是否能與本地的Claude或其他工具整合，評估在團隊開發流程中的實際價值。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/158724?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-lg-u-youtube-premium-google-ai-pro",
+    "title": "LG U+ 推出 YouTube Premium + Google AI Pro 組合訂閱方案",
+    "title_original": "LG U+將于6月2日上線“YouTube Premium + Google AI Pro”組合訂閱套餐 - 디지털투데이",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLXBzc0tIUjBiZGxNQVcyVDhhemNVcWVDMzV6VUdvSDEwUjRJYTlJSWNjbGF5MUtkeExjU09sX0ZkX3kwQTVhOUt3cHl4UFJ3d2tGb0oyNk1WdUk2LUtJbjAycnBHTGN3cG5WWnlIQ0ZvN1NDVlhENUhSenJ1a2ZMYS1Jd0VkUUdValEzV3U1VnJmUlF3OURiYmt1bkstWmc?oc=5",
+    "published_at": "2026-06-01T00:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "韓國電信商 LG U+ 將於 6 月 2 日推出結合 YouTube Premium 與 Google AI Pro 的月費套餐。此方案將 Google Gemini 旗艦功能與影音服務綑綁，可能成為電信 AI 訂閱商業模式參考。",
+    "highlights": [
+      "6 月 2 日上線，韓國市場限定",
+      "結合影音娛樂與 AI 助理功能",
+      "電信通路作為 AI 服務分銷新渠道",
+      "首月定價與長期費率待確認"
+    ],
+    "why_it_matters": "電信商跨入 AI 訂閱市場，代表 AI 服務從純網路轉向硬體通路分銷的新趨勢。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注此商業模式成效，若成功可評估其他電信合作機會或作為 AI 服務分銷研究案例。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-stefanwebb-named-pipes-agent",
+    "title": "stefanwebb/named-pipes：低延遲程序間通訊函式庫，專為持久性Agent工具服務設計",
+    "title_original": "stefanwebb/named-pipes",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/stefanwebb/named-pipes",
+    "published_at": "2026-05-31T23:43:57Z",
+    "category": "agent-skills",
+    "summary": "Named Pipes是一個低延遲IPC函式庫，專為在同一機器上構建持久性Agent工具伺服器而設計。適用場景包括LLM推論、文字轉語音、向量搜尋、瀏覽器自動化等。Python開發，提供比HTTP更低的延遲與更簡潔的整合方式。",
+    "highlights": [
+      "通過命名管道實現程序間低延遲通訊",
+      "支援LLM推論、TTS、向量搜尋、瀏覽器自動化等工具整合",
+      "比HTTP RPC更適合需要極低延遲的Agent應用",
+      "Python實作，適合與現有Python Agent框架整合",
+      "15 stars，適合對底層通訊有需求的進階開發者"
+    ],
+    "why_it_matters": "如果你在構建需要多個AI工具緊密協作的Agent系統，HTTP RPC的延遲可能成為瓶頸。命名管道提供了更直接、更快的程序間通訊方式，特別適合本機上的持久性工具伺服器架構。",
+    "automation_angle": null,
+    "automation_angle_zh": "pip install後用範例程式測試本機LLM推論伺服器與TTS服務的整合，觀察延遲改善幅度。評估是否值得將現有HTTP-based工具鏈遷移到命名管道架構以提升回應速度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/4926302?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-llm",
+    "title": "語義步驟預測：透過步驟採樣實現 LLM 推論軌跡多步潛在預測",
+    "title_original": "Semantic Step Prediction: Multi-Step Latent Forecasting in LLM Reasoning Trajectories via Step Sampling",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ttalm9/semantic_step_prediction_multistep_latent/",
+    "published_at": "2026-05-31T23:14:03+00:00",
+    "category": "new-models",
+    "summary": "新研究提出 Semantic Step Prediction 方法，在 LLM 推論軌跡中進行多步潛在預測。透過語義分層的步驟採樣，可提升模型長鏈推論的準確性與可解釋性。",
+    "highlights": [
+      "提出語義層級的推論步驟預測框架",
+      "支援多步潛在空間預測",
+      "可提升 Agent 任務規劃能力",
+      "需等待開源實作與基準測試"
+    ],
+    "why_it_matters": "推論能力提升對 Agent 工作流程至關重要，此方法若驗證有效可整合進自動化流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "論文發布後可部署測試，評估是否能提升自建 Agent 的任務規劃準確率。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-kcosr-assistant-claude-code-codex",
+    "title": "kcosr/assistant：面板式個人助理，支援Claude Code、Codex與插件擴展",
+    "title_original": "kcosr/assistant",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/kcosr/assistant",
+    "published_at": "2026-05-31T22:33:16Z",
+    "category": "agent-skills",
+    "summary": "kcosr/assistant是一款面板式個人助理，採用插件架構讓AI Agent共享工作區，包含筆記、列表等面板。支援Claude Code、Codex與pi CLI等Agent，並提供文字與語音介面。內建插件可匯出為技能CLI，也支援自訂插件擴展，適合想要整合多種AI Agent到統一工作流程的技術用戶。",
+    "highlights": [
+      "面板式工作區讓多個AI Agent協同處理同一份資料",
+      "支援Claude Code、Codex、pi CLI等主流Agent",
+      "插件架構支援自訂擴展，可針對特定需求客製化",
+      "內建插件可匯出為技能CLI，直接整合進其他工具鏈",
+      "TypeScript開發，83 stars，社群活躍度中等"
+    ],
+    "why_it_matters": "如果你同時使用多個AI Agent處理不同任務，面板式架構能讓它們共享上下文，減少在不同工具間切換的認知負擔。插件系統也提供了擴展彈性，適合需要高度客製化工作流程的開發者。",
+    "automation_angle": null,
+    "automation_angle_zh": "Clone專案後用npm install部署，設定自己的任務面板後串接Claude Code或Codex。先用內建插件測試自動化流程，再用自訂插件擴展特定需求，評估是否能在日常開發中替代多個獨立工具。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/212814165?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-g7-ai",
+    "title": "G7 就開源 AI 與開放權重模型達成共用語言框架",
+    "title_original": "G7 agrees on shared language around open-source AI and open weights AI",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tt7t1x/g7_agrees_on_shared_language_around_opensource_ai/",
+    "published_at": "2026-05-31T21:19:02+00:00",
+    "category": "open-source-ai",
+    "summary": "七大工業國在 AI 監管協商中就開源 AI 達成共同表述，但尚未形成具約束力政策。專家指此為協調監管方向的第一步，具體規範仍待各國立法落實。對開源模型社群而言，短期影響有限，長期需關注合規成本是否增加。",
+    "highlights": [
+      "G7 達成開源 AI 共用語言，非具約束力條款",
+      "主要聚焦安全責任與風險分擔機制",
+      "可能影響未來開源模型商業化路徑",
+      "各國執行細節仍待立法確認"
+    ],
+    "why_it_matters": "影響全球 AI 監管走向，若主要經濟體對開源採一致立場，將形塑未來開放模型部署合規要求。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤 G7 後續立法進度，評估開源模型部署是否需新增安全審查流程，預先規劃合規架構。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-vram",
+    "title": "模型溢出 VRAM 進入系統記憶體時的實際運作機制",
+    "title_original": "Whats actually happening when a model spills out of VRAM into system memory?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tt50bu/whats_actually_happening_when_a_model_spills_out/",
+    "published_at": "2026-05-31T19:32:46+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 技術討論解析當 GPU VRAM 不足時，模型權重分塊載入系統記憶體的過程。此時張量計算需跨PCIe傳輸，延遲大增但推論仍可繼續。理解此機制有助最佳化本地部署的記憶體使用策略。",
+    "highlights": [
+      "VRAM 不足時系統會將部分權重暫存至 RAM",
+      "跨 PCIe 傳輸造成延遲瓶頸",
+      "並非所有操作都會觸發溢出",
+      "可用 KV Cache 監控實際記憶體使用"
+    ],
+    "why_it_matters": "對本地部署大模型的技術人員，了解溢出機制可避免部署失敗或效能驟降。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署前使用 vLLM 或 llama.cpp 檢測模型與 VRAM 的匹配度，設定合理的上下文長度與批次大小。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-31-mtp-tokens-s-mtp",
     "title": "實驗：MTP 模型 tokens/s 效率與非 MTP 模型相當",
     "title_original": "Experiment : MTP models just as t/s efficient as non MTP models?",
@@ -19106,6 +19301,33 @@
     "why_it_matters": "智譜是中國主要的 LLM API 提供商之一，調價反映了大模型推論成本的現實壓力。對於已整合智譜 API 的用戶，需重新評估成本結構。",
     "automation_angle": null,
     "automation_angle_zh": "可比較智譜與百度文心、阿里通義等競爭對手的最新定價，重新評估自動化流程中的模型選擇與成本最優化。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-ai-coding-plan-9-9",
+    "title": "百度千帆推出 AI 編碼訂閱服務 Coding Plan，首月新用戶 9.9 元",
+    "title_original": "百度千帆推出AI编码訂閱服务Coding Plan，新使用者首月9.9元 - 新浪财經",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMTBDRG9vYlZvODFzTkxEWU1wSE9DaThuT29VdWt6eFFxc21UaFV4VHBOeERaYXZRWU5ZTzQ2eXF2RnFNRDJ1WjZwMVlhUm1PZ25MX0laLVdMbnp0cmpoZTZxWlFyMEs1aXRsdVJzY3JWbk95OHp1S24wUmFiWUJUbUhOTnkzQjNQOVBV?oc=5",
+    "published_at": "2026-02-12T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "百度千帆平台推出 AI 輔助編碼訂閱方案，新用戶首月僅需 9.9 元人民幣。該服務整合千帆模型能力，提供程式碼生成與優化功能，正式定價尚未公布。",
+    "highlights": [
+      "新用戶首月 9.9 元人民幣",
+      "基於千帆大模型能力",
+      "提供程式碼生成與優化功能",
+      "正式定價與用量限制待公佈"
+    ],
+    "why_it_matters": "中國 AI 編碼工具價格戰加劇，低價策略吸引開發者試用，對既有工具形成競爭壓力。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用低價測試其程式碼生成品質，與 GitHub Copilot、Cursor 等工具交叉評估性價比。",
     "tags": [
       "ai-deals",
       "rss",
