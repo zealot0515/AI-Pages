@@ -1,5 +1,202 @@
 [
   {
+    "id": "2026-06-01-llm-ai-agent",
+    "title": "超越LLM：為何企業AI規模化部署取決於Agent邏輯",
+    "title_original": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+    "published_at": "2026-06-01T13:51:18+00:00",
+    "category": "agent-skills",
+    "summary": "IBM Research與Hugging Face合作發布研究，指出企業級AI成功部署的關鍵不在於模型本身，而在於Agent邏輯的設計與自動化工作流程建構。報告強調可擴展的Agent框架能降低AI落地門檻，並提供具體的企業導入策略參考。",
+    "highlights": [
+      "企業AI規模化瓶頸從模型能力轉向工作流程設計",
+      "Agent邏輯決定了自動化程度與錯誤處理能力",
+      "Hugging Face平台提供開源Agent工具支援企業部署",
+      "研究涵蓋多Agent協作與任務分解的最佳實踐"
+    ],
+    "why_it_matters": "對技術決策者而言，這篇研究印證了「AI落地靠Workflow而非模型」的趨勢。企業若只想靠更強模型解決問題，而忽略Agent設計，將付出更高成本卻達不到預期效果。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可借鑒報告中的Agent框架設計模式，用Hugging Face工具評估現有工作流程自動化程度，識別哪些環節適合LLM介入、哪些需要人類把關。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-novamira-php-ai-agent-wordpress",
+    "title": "novamira：透過 PHP 執行與檔案操作讓 AI Agent 完整操控 WordPress",
+    "title_original": "use-novamira/novamira",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/use-novamira/novamira",
+    "published_at": "2026-06-01T13:38:07Z",
+    "category": "agent-skills",
+    "summary": "novamira 是一個 PHP 開發的 MCP Server，可讓 AI Agent 透過 PHP 執行與檔案操作完整存取 WordPress 系統。適合需要將 AI 自動化能力與 WordPress 網站管理結合的技術用戶，如批量文章發布、佈景主題修改或外掛設定自動化。",
+    "highlights": [
+      "原生 MCP Server 標準，支援對接主流 AI Agent 框架",
+      "透過 PHP 執行實現 WordPress 完整操作權限",
+      "支援檔案系統操作，可修改佈景主題與外掛",
+      "PHP 生態友好，部署門檻低",
+      "適合 WordPress 站點自動化營運場景"
+    ],
+    "why_it_matters": "對於同時管理多個 WordPress 站點或需要大量內容自動化的技術用戶，novamira 提供了一個將 AI Agent 能力直接落地到 WordPress 管理的捷徑，理論上可大幅減少手動操作重複性任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可設定定時任務，讓 AI Agent 自動根據關鍵字或 RSS 源發布文章、批量更新分類，或自動檢查外掛更新並執行安全性設定，省去大量手動點擊。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "PHP"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/263951731?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-anything-analyzer-ai-mcp-server",
+    "title": "anything-analyzer：瀏覽器抓包 + AI 分析 + MCP Server 的全能協議工具",
+    "title_original": "Mouseww/anything-analyzer",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Mouseww/anything-analyzer",
+    "published_at": "2026-06-01T13:19:43Z",
+    "category": "agent-skills",
+    "summary": "anything-analyzer 是一款整合瀏覽器抓包、MITM 代理、指紋偽裝、AI 分析與 MCP Server 的全能協議分析工具，TypeScript 開發，已獲 2779 顆星。適合技術用戶進行網頁協議分析、API 逆向與 AI Agent 自動化測試。",
+    "highlights": [
+      "內建瀏覽器抓包功能，無需額外工具",
+      "MITM 代理支援，可攔截並分析 HTTPS 流量",
+      "指紋偽裝功能，繞過反爬偵測",
+      "AI 分析模組，自動解讀協議行為",
+      "MCP Server 原生支援，可無縫對接 AI Agent 與 IDE"
+    ],
+    "why_it_matters": "對需要自動化測試網頁行為、API 逆向或建構網頁操作 Agent 的技術用戶，此工具提供了開箱即用的協議分析 + AI 解讀一站式方案，2779 星的高人氣亦說明社群認可度。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其用於自動化測試 Web 應用流程，例如讓 AI Agent 透過此工具抓取特定網頁內容後自動解析，實現無需手動操作的資料抓取與分析工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/28473201?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-agent-diva-nanobot-rs-pro-rust-ai-agent",
+    "title": "agent-diva（nanobot-rs-pro）：下一代 Rust 架構 AI Agent 框架",
+    "title_original": "ProjectViVy/agent-diva",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ProjectViVy/agent-diva",
+    "published_at": "2026-06-01T12:54:32Z",
+    "category": "agent-skills",
+    "summary": "agent-diva（項目別名 nanobot-rs-pro）是一款標榜下一代架構的 AI Agent 工具，使用 Rust 開發，目前星數較少（54）。技術用戶可持續關注其發展趨勢，評估 Rust 帶來的性能與安全性優勢是否適合其使用場景。",
+    "highlights": [
+      "Rust 語言開發，原則上提供高效能與記憶體安全",
+      "標榜下一代 Agent 架構設計",
+      "目前 Stars 54，屬於早期項目",
+      "適合關注 Rust 生態 AI 工具發展的技術用戶",
+      "可用來評估 Rust 架構 Agent 的可行性"
+    ],
+    "why_it_matters": "Rust 語言的特性可能為 AI Agent 帶來更穩定與高效能的執行環境。若專案持續發展，可能成為對性能要求較高的自動化工作流程中 Rust 生態的重要選擇之一。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其加入觀察清單，待 Stars 成長或文件完善後評估其是否可用於需要高並發、長時間運行且不允許記憶體泄漏的生產環境自動化任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/262013489?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-extensityai-ontoloom-ai-agent-mcp",
+    "title": "ExtensityAI/ontoloom：讓AI Agent操作本體論的MCP伺服器",
+    "title_original": "ExtensityAI/ontoloom",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ExtensityAI/ontoloom",
+    "published_at": "2026-06-01T12:44:16Z",
+    "category": "agent-skills",
+    "summary": "ontoloom是專為建構與探索OWL 2本體論設計的MCP（Model Context Protocol）伺服器，目前GitHub上已有16星。開發者可透過此工具讓AI Agent理解並操作結構化知識表示，適用於知識圖譜建構與企業語義搜索場景。",
+    "highlights": [
+      "支援OWL 2完整語法與推論能力",
+      "可與現有MCP Client整合，擴展Agent知識處理能力",
+      "Python實作，便於嵌入現有資料科學工作流程",
+      "適合需要結構化知識管理的企業應用場景"
+    ],
+    "why_it_matters": "本體論（Ontology）是企業知識圖譜的核心，但過去AI很難直接操作。ontoloom讓Agent能理解並操作OWL語法，降低了知識圖譜自動化的技術門檻，技術團隊今天就能整合測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即clone專案並用pip install測試，評估是否能將現有文件或資料庫schema自動轉換為OWL本體論，並測試與LangChain或其他Agent框架的整合可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/124845778?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-ember-mcp-ember-js-mcp-server",
+    "title": "ember-mcp：Ember.js專案的MCP Server工具",
+    "title_original": "ember-tooling/ember-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ember-tooling/ember-mcp",
+    "published_at": "2026-06-01T12:39:32Z",
+    "category": "agent-skills",
+    "summary": "ember-mcp是專為Ember.js前端框架設計的MCP伺服器，GitHub獲得26星。使用者可透過此工具讓AI助理理解Ember應用結構、路由、組件與服務，實現前端開發流程的智慧化輔助，特別適合大型Ember專案的維護與重構。",
+    "highlights": [
+      "支援Ember CLI與ember-data模型理解",
+      "可解析route、controller、component關聯",
+      "JavaScript/TypeScript實作，貼近前端生態",
+      "有助於自動化程式碼審查與遷移重構"
+    ],
+    "why_it_matters": "前端框架維護往往缺乏AI工具支援。ember-mcp填補了Ember.js生態的MCP空白，讓開發團隊能為自家老舊Ember專案引入AI助理，降低長期維護成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "前端團隊可將ember-mcp整合至現有開發環境，測試讓AI協助生成組件、重構legacy code或自動化文件生成，評估對Ember專案的實質效益。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/64894059?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-reddit-localllama-2026-5",
+    "title": "Reddit LocalLLaMA：2026年5月開源模型月報討論",
+    "title_original": "Open Models - May 2026",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ttl45v/open_models_may_2026/",
+    "published_at": "2026-06-01T07:44:04+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA subreddit出現5月開源模型月報討論串，社群彙整當月值得關注的本地部署模型進展。討論涵蓋新興模型發布、量化技術更新與本地推論效能優化等主題，為自托管AI玩家提供實用資訊參考。",
+    "highlights": [
+      "涵蓋當月新興開源模型的效能與用途比較",
+      "社群人分享本地部署的硬體需求與優化經驗",
+      "量化方法（GGUF、AWQ等）實務討論",
+      "為避免廠商鎖定的技術讀者提供替代方案"
+    ],
+    "why_it_matters": "對於希望降低API成本或確保資料隱私的技術用戶，本地部署開源模型仍是重要選項。此月報提供高性價比模型篩選參考，節省個人測試時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可追蹤此討論串，快速識別符合自家硬體規格與任務需求的開源模型，用Ollama或LM Studio進行本地部署評估。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-01-rigel-agent-ai",
     "title": "RIGEL：多 Agent 協作式 AI 建構助理",
     "title_original": "Zerone-Laboratories/RIGEL",
@@ -83,6 +280,60 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/3363127?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-reddit-chatgpt",
+    "title": "Reddit 用戶詢問如何自動化新聞與併購情報並接入 ChatGPT 說明",
+    "title_original": "I want to make automation of news of merger and inquisition site and aftermarket report and with link to chatgpt explanation and how it'll affect In a particular format everyday.",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1ttjjwi/i_want_to_make_automation_of_news_of_merger_and/",
+    "published_at": "2026-06-01T06:16:48+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶提出想建立自動化系統，每日將併購與調查類新聞整理成報告，並附上 ChatGPT 對事件影響的分析說明。這是一個具體的 AI 代理工作流程需求，但缺乏解決方案或工具分享，屬於社群需求而非新聞本身。",
+    "highlights": [
+      "用戶希望每日自動生成併購與監管新聞報告",
+      "要求接入 ChatGPT 解釋事件影響",
+      "需要爬蟲 + AI 摘要 + 格式化輸出的自動化流程",
+      "屬於需求討論而非技術突破"
+    ],
+    "why_it_matters": "此需求反映企業級 AI 代理應用趨勢：將資訊收集、AI 摘要、自動化報告三者串聯。但需求本身尚未提供可執行的技術方案，實用性有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可參考此需求構建自己的新聞摘要代理：使用 RSS 爬蟲 → LLM 摘要 → 格式化報告的開源工具鏈，例如 n8n + OpenAI API。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-lg-u-youtube-premium-google-ai-pro",
+    "title": "LG U+ 聯手 YouTube Premium 與 Google AI Pro 推出整合方案",
+    "title_original": "LG U+1日表示,將于2日推出顾客使用最多的影像服务和生成型AI服务可以作為一個费用使用的\"YouTube Premium+谷歌AI Pro\"结合商品。此次商品可以通過LG U+的訂閱服务\"唯独\"加.. - 매일경제",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBLTTlodnRia0NQYzEwcXIteHhZWXFfRExxakRDNS04OVVoR2Z5OGxhYzluSVprNW55bjFXdkt3VE1nS3BJRGlSNE5IYw?oc=5",
+    "published_at": "2026-06-01T06:04:08+00:00",
+    "category": "ai-deals",
+    "summary": "LG U+ 宣布將於2日推出「YouTube Premium + Google AI Pro」綁定方案，透過訂閱服務「U+Subscribe」提供影視與生成式 AI 一站式服務。這是韓國電信商首次將 YouTube 付費服務與 Google AI 工具捆綁銷售，瞄準同時使用影音串流與 AI 服務的用戶族群。",
+    "highlights": [
+      "LG U+ 將 YouTube Premium 與 Google AI Pro 整合為單一訂閱方案",
+      "透過電信訂閱服務「U+Subscribe」加值銷售",
+      "韓國電信業首次將生成式 AI 工具與影音串流捆綁",
+      "目標用戶為同時使用影視和 AI 工具的高價值客戶"
+    ],
+    "why_it_matters": "電信商進入 AI 訂閱市場可能帶動更多整合式 AI 服務銷售模式，台灣或亞洲其他電信商可能跟進此商業策略，影響 AI 服務分銷管道。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可監控此類電信 AI 方案的價格變化與服務內容，評估是否值得推薦給團隊或用於企業採購談判參考。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -21099,6 +21350,33 @@
     "automation_angle_zh": "待官方發布後，可透過 API 測試 Voxtral 與現有方案的轉錄準確率延遲比較，評估是否整合進語音處理工作流程程。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-mistral-ai-voxtral",
+    "title": "Mistral AI 發布 Voxtral 新模型或產品線",
+    "title_original": "Voxtral - Mistral AI",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAtVWZGVm9TWUZ0Qkp5LWg4VE15Z0hKYlZBYkI3ZTliTVpTZjM3UTNNeU9JcGV3MjNfREpJVmNRcmFJWUR1aV9r?oc=5",
+    "published_at": "2025-07-15T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Mistral AI 旗下 Voxtral 產品曝光，可能是音訊/語音處理相關的新模型或服務。Voxtral 若為語音轉文字或音訊理解工具，將與 OpenAI 的 Whisper 及現有開源語音模型形成直接競爭，需進一步觀察其規模與開源策略。",
+    "highlights": [
+      "Mistral AI 推出 Voxtral 新產品線",
+      "可能是音訊或語音處理相關模型",
+      "與 Whisper、Stable Audio 等現有語音模型潛在競爭",
+      "需確認開源狀態與模型規模"
+    ],
+    "why_it_matters": "Mistral 持續擴展產品線，若 Voxtral 具備低成本或開源特性，可能成為語音 AI 工作流程的新選擇，降低開發者對商業語音 API 的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤 Voxtral 的技術規格與開源狀態；若為開源且效能領先，可整合至現有語音轉文字或對話式 AI 自動化流程中評估成本節省潛力。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
