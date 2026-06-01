@@ -1,5 +1,312 @@
 [
   {
+    "id": "2026-06-01-desktopcommandermcp-claude-mcp-server",
+    "title": "DesktopCommanderMCP：讓 Claude 直接掌控終端與檔案系統的 MCP Server",
+    "title_original": "wonderwhy-er/DesktopCommanderMCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+    "published_at": "2026-06-01T19:23:28Z",
+    "category": "agent-skills",
+    "summary": "為 Claude 提供直接控制終端、搜尋檔案、比較檔案差異與編輯檔案的 MCP Server。6,096 顆星，TypeScript 實作，讓 AI 助理具備完整的開發環境操作能力。",
+    "highlights": [
+      "讓 Claude 直接執行終端命令",
+      "支援檔案系統搜尋與 diff 比對",
+      "可編輯檔案，無需跳出 AI 會話",
+      "6,096 顆星，社群熱度高",
+      "TypeScript 實作，需 Node.js 環境"
+    ],
+    "why_it_matters": "將 AI 助理的操控邊界從「建議」擴展到「直接執行」，技術用戶可用自然語言驅動完整的開發工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝後對 Claude Desktop 說「在專案裡找出所有未提交的檔案並顯示 diff」，可省去手動切換終端的時間，立即驗證 AI 操作結果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1150639?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-chatgpt-claude-gemini",
+    "title": "比較 ChatGPT、Claude、Gemini 的實用工具",
+    "title_original": "Found a useful tool for comparing ChatGPT with Claude and Gemini",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tu1p34/found_a_useful_tool_for_comparing_chatgpt_with/",
+    "published_at": "2026-06-01T18:45:11+00:00",
+    "category": "agent-skills",
+    "summary": "開發者找到一個可用於横向比較 ChatGPT、Claude、Gemini 回應差異的工具，幫助選擇適合特定場景的模型。Reddit 用戶推薦但工具來源未確認。",
+    "highlights": [
+      "提供多模型横向比較功能",
+      "幫助技術人員快速評估模型適用性",
+      "來源為 Reddit 使用者分享，未驗證",
+      "適合做模型選型的參考工具"
+    ],
+    "why_it_matters": "技術人員需要頻繁選擇合適模型，此類比較工具可縮短評估時間，但需自行驗證工具的準確性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可測試此工具的比較維度是否涵蓋回應速度、準確性、成本等指標，評估是否值得日常使用。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-cross-code-organizer-claude-code-codex-cli-mcp",
+    "title": "Cross-Code Organizer：Claude Code / Codex CLI / MCP 的跨工具配置儀表板",
+    "title_original": "mcpware/cross-code-organizer",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mcpware/cross-code-organizer",
+    "published_at": "2026-06-01T18:29:42Z",
+    "category": "agent-skills",
+    "summary": "跨 Harness 設定儀表板，可同時管理 Claude Code、Codex CLI、MCP Server、Skills、記憶、Agent、Session，並內建安全掃描、上下文預算追蹤與備份功能。",
+    "highlights": [
+      "支援 Claude Code 與 Codex CLI 雙平台",
+      "統一管理 MCP Server、Skills 與記憶",
+      "內建安全掃描，檢查工具鏈風險",
+      "上下文預算追蹤，防止Token過度消耗",
+      "Session 備份功能，防止進度丟失"
+    ],
+    "why_it_matters": "解決多個 AI 工具鏈分散管理的痛點，讓技術用戶能在一處掌控所有 Agent 配置，提升維運效率與安全性。",
+    "automation_angle": null,
+    "automation_angle_zh": "同時跑 Claude Code 和 Codex CLI 的團隊，可用此工具統一管理配置，不用在多個設定檔之間來回切換，直接在儀表板做安全掃描確認無洩漏風險。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/269031962?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-kkterm-windows-rust-ai-agent-ssh-rdp-ai",
+    "title": "KKTerm：Windows 優先的 Rust AI Agent 超工具，支援 SSH / RDP / 內建 AI 助理",
+    "title_original": "ryantsai/KKTerm",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ryantsai/KKTerm",
+    "published_at": "2026-06-01T16:59:35Z",
+    "category": "agent-skills",
+    "summary": "專為 vibe coder 和系統管理員設計的 Windows AI Agent 超工具，整合終端、SSH、SFTP、RDP/VNC、儀表板、安裝助理，並內建 AI 助理。Rust 實作，適合快速建構命令列工具。",
+    "highlights": [
+      "Windows 優先，Rust 高效能實作",
+      "整合 SSH、SFTP、RDP/VNC 等遠端協定",
+      "內建 AI 助理，適合 CLI 場景",
+      "提供安裝助理，快速部署",
+      "開源 MIT 授權"
+    ],
+    "why_it_matters": "將遠端管理與 AI 助理整合在同一 CLI 介面，系統管理員與開発者可在單一終端內完成大部分日常工作。",
+    "automation_angle": null,
+    "automation_angle_zh": "在需要同時管理多台 Windows 伺服器的場景下，用 KKTerm 的 SSH/RDP 整合 + 內建 AI 助理，實現一站式遠端管理與 AI 輔助操作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/863677?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-ux-codexplain-codex",
+    "title": "本地終端機 UX 工具 Codexplain 讓 Codex 說明更易讀",
+    "title_original": "I built Codexplain, a local UX layer that makes Codex explanations easier to read in the terminal",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tty3op/i_built_codexplain_a_local_ux_layer_that_makes/",
+    "published_at": "2026-06-01T16:48:51+00:00",
+    "category": "agent-skills",
+    "summary": "一款本地部署的 UX 工具，為 Codex 輸出增加可讀性層次，降低終端機閱讀負擔。技術宅可直接安裝測試，改善 AI 程式碼解釋體驗。",
+    "highlights": [
+      "本地運行，無需雲端依賴",
+      "改善終端機內 AI 輸出可讀性",
+      "開源專案，可自行 fork 修改",
+      "適用於 Codex CLI 場景"
+    ],
+    "why_it_matters": "提升終端機內 AI 說明的可讀性，讓開發者更快理解 Codex 輸出內容，節省上下文理解時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝後可替換原本的 Codex 輸出展示方式，評估是否減少閱讀負擔與上下文切換成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-github-copilot-auto",
+    "title": "GitHub Copilot 個人方案開放評估模型，Auto 模式自動選用",
+    "title_original": "Evaluation models in auto for individual plans",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-01-evaluation-models-in-auto-for-individual-plans",
+    "published_at": "2026-06-01T16:18:17+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 為個人非企業用戶開放評估模型，並可在 Auto 模型選擇模式下自動啟用。此功能允許 Copilot 嘗試新模型以獲取用戶反饋。",
+    "highlights": [
+      "僅限個人方案，企業版未包含",
+      "評估模型進入 Auto 選項",
+      "用戶可選擇關閉評估模型使用",
+      "幫助 OpenAI 收集模型效能數據",
+      "可能影響回應品質與特性"
+    ],
+    "why_it_matters": "評估模型的上線顯示 Copilot 正在整合多元模型能力，但穩定性與隱私考量需技術用戶留意，建議了解如何停用。",
+    "automation_angle": null,
+    "automation_angle_zh": "若對回應穩定性要求高，可在 Copilot 設定中關閉評估模型，確保只使用已驗證的生產模型。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-rippling-deep-agents-langsmith-ai",
+    "title": "Rippling 如何在六個月内以 Deep Agents 與 LangSmith 實現產品全面 AI 化",
+    "title_original": "How Rippling built production AI in 6 months with Deep Agents and LangSmith",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-rippling-went-ai-native-across-every-product-in-6-months-with-deep-agents-and-langsmith",
+    "published_at": "2026-06-01T16:05:12+00:00",
+    "category": "agent-skills",
+    "summary": "Rippling 分享如何利用 LangChain Deep Agents 與 LangSmith 在 HR、IT、財務、薪資等領域全面落地 AI，整個過程歷時六個月，為企業級 AI 部署參考案例。",
+    "highlights": [
+      "跨領域 AI 落地：HR、IT、財務、薪資等",
+      "使用 LangChain Deep Agents 架構",
+      "LangSmith 用於監控與調優",
+      "六個月完成全產品線 AI 化"
+    ],
+    "why_it_matters": "企業級 AI 落地時間軸與工具棧選擇有實戰參考價值，技術人員可據此評估自身專案的可行性與時間規劃。",
+    "automation_angle": null,
+    "automation_angle_zh": "可研究 Rippling 的實作細節（是否有回放或原始碼），評估 LangChain 生態在大型專案中的適用性與維護成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-google-gemini-google-i-o-2026",
+    "title": "Google 内部如何使用 Gemini 打造 Google I/O 2026",
+    "title_original": "How we used Gemini to build Google I/O 2026",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+    "published_at": "2026-06-01T16:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google 團隊分享内部如何使用 Gemini 模型辅助內容創作、流程自動化與素材生成，完成 Google I/O 2026 的大規模活動籌備。屬官方案例但細節有限。",
+    "highlights": [
+      "Gemini 用於活動内容策劃與素材生成",
+      "展示内部 AI 工作流程整合案例",
+      "屬官方 Blog，行銷性質濃",
+      "細節不多，具體技術架構未公開"
+    ],
+    "why_it_matters": "展示大廠如何規模化應用 AI，但屬公關內容，技術深度有限，参考價值中等。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注 Google 後續是否開源相關工具或發布技術文件，目前此文的實操價值較低。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-jetbrains-mellum2-12b-moe-ai",
+    "title": "JetBrains 發布 Mellum2：12B MoE 開源模型，主打高效 AI 工作流程",
+    "title_original": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+    "published_at": "2026-06-01T15:45:17+00:00",
+    "category": "open-source-ai",
+    "summary": "JetBrains 推出 12B 參數的 Mellum2 模型，採用混合專家（MoE）架構，專為本地部署與高效 AI 工作流程程設計。模型開源可商用，強調推論速度與記憶體效率的平衡。",
+    "highlights": [
+      "12B 參數 MoE 架構，稀疏激活降低計算成本",
+      "JetBrains 官方發布，品質有保障",
+      "強調快速推論，適合作為本地開發輔助工具",
+      "開源可商用，適合企業內部部署",
+      "與 JetBrains IDE 深度整合預期"
+    ],
+    "why_it_matters": "本地可部署的高效 MoE 模型，適合需要隱私合規或成本控制的技術團隊，可作為 Claude/GPT 的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載至本地伺服器，替換需要網路的 AI API，用於程式碼補全、文檔生成等重複性開發任務，降低 API 呼叫成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-01-codex-cli-ai",
+    "title": "以 Codex CLI 作為本地 AI 引擎的桌面學習應用",
+    "title_original": "We built a desktop study app around Codex CLI as the local AI runtime",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tttrt2/we_built_a_desktop_study_app_around_codex_cli_as/",
+    "published_at": "2026-06-01T14:22:55+00:00",
+    "category": "agent-skills",
+    "summary": "開發者將 Codex CLI 整合进桌面應用，作為本地 AI 推論引擎，打造專門的學習工具。此做法繞過雲端 API，直接在本地運行 Codex 模型，降低延遲與使用成本。",
+    "highlights": [
+      "使用 Codex CLI 作為本地推論後端",
+      "桌面應用整合 AI 能力，適合離線場景",
+      "繞過雲端 API，節省費用",
+      "適合需要本地隱私或低延遲的學習工具",
+      "可作為本地 AI 整合的參考架構"
+    ],
+    "why_it_matters": "對技術人員而言，本地部署 Codex CLI 提供了一種可控、低成本的自托管 AI 方案，適合需要資料隔離或離線使用的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估 Codex CLI 的本地部署能力，測試其在桌面應用中的回應速度與穩定性，作為自建 AI 工具鏈的參考。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-github-copilot-actions",
+    "title": "GitHub Copilot 啟用使用量計費，程式碼審查消耗 Actions 分鐘數",
+    "title_original": "Updates to GitHub Copilot billing and plans",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-01-updates-to-github-copilot-billing-and-plans",
+    "published_at": "2026-06-01T14:00:26+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 正式上線使用量計費模式，非固定訂閱制。Copilot 程式碼審查功能現在也會消耗 GitHub Actions 分鐘數，而非單獨計費。",
+    "highlights": [
+      "使用量計費已全面上線",
+      "Copilot 程式碼審查納入 Actions 計費體系",
+      "企業與個人用戶皆受影響",
+      "預付分鐘數制度改變成本結構",
+      "需重新評估團隊 Copilot 使用預算"
+    ],
+    "why_it_matters": "計費模式變動直接影響開發團隊的 AI 工具成本，建議技術主管重新審視使用量與預算配置，避免帳單 surprise。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應監控 Copilot 使用量，利用 Actions 分鐘數配額最佳化自動化工作流程，避免在 CI/CD 流程中意外超支。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-06-01-llm-ai-agent",
     "title": "超越LLM：為何企業AI規模化部署取決於Agent邏輯",
     "title_original": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
@@ -167,6 +474,88 @@
       "JavaScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/64894059?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-openai-1gw-stargate",
+    "title": "OpenAI 密西根州建設 1GW 資料中心，Stargate 計畫擴張",
+    "title_original": "Building the infrastructure for the Intelligence Age in Michigan",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/stargate-michigan-data-center",
+    "published_at": "2026-06-01T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布在密西根州破土動工 1GW 資料中心，為 Stargate 基礎設施計畫的一部分，旨在擴大 AI 運算能力、支援當地就業與社區發展。",
+    "highlights": [
+      "1GW 超大規模資料中心",
+      "Stargate 計畫美國境內擴張",
+      "創造當地工作機會",
+      "支撐未來模型訓練與推論需求",
+      "象徵 AI 基礎設施投資持續升溫"
+    ],
+    "why_it_matters": "大型資料中心的建設反映 AI 算力需求持續攀升，對關注雲端成本與模型可用性的技術决策者有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注此類基礎設施動態有助預判模型能力提升節點與 API 可用性變化，間接影響自動化工作流程的穩定性規劃。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-01-antigravity-codex",
+    "title": "從 Antigravity 遷移到 Codex 的開發者經驗",
+    "title_original": "Moving from antigravity to Codex",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1ttn6h2/moving_from_antigravity_to_codex/",
+    "published_at": "2026-06-01T09:41:01+00:00",
+    "category": "new-models",
+    "summary": "開發者分享從 Antigravity 遷移到 Codex 的實際經驗，包括遷移過程中的挑戰、模型能力變化與工作流程調整。具體細節需查閱原文。",
+    "highlights": [
+      "模型遷移實戰經驗",
+      "從 Antigravity 到 Codex 的能力對比",
+      "工作流程調整細節",
+      "開發者視角的第一手回饋"
+    ],
+    "why_it_matters": "模型迭代頻繁，開發者的實遷經驗有助於了解升級成本與潛在風險，避免踩坑。",
+    "automation_angle": null,
+    "automation_angle_zh": "可查閱原文了解具體遷移步驟，評估是否適用於自己現有專案的升級規劃。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-ai",
+    "title": "用戶尋求將快照轉為棚拍效果的 AI 工具建議",
+    "title_original": "Any AI to recommend that can turn a snap shot into studio product shoot catalog and turn a fashion shoot into a video that the model will do a 360 or something?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1ttlwxb/any_ai_to_recommend_that_can_turn_a_snap_shot/",
+    "published_at": "2026-06-01T08:29:07+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶詢問可將普通快照轉為棚拍效果並能製作模特 360 度影片的 AI 工具，反映電子商務應用需求。",
+    "highlights": [
+      "電子商務自動化方向的需求",
+      "涉及圖片增強與影片生成",
+      "社群驅動的需求探索",
+      "反映市場對自動化視覺內容的渴望"
+    ],
+    "why_it_matters": "反映市場對商品視覺自動化的實際需求，可作為自動化行銷工作流程的切入點參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估現有開源方案（如 SD、WebGPU 加速工具）或商業 API 是否能整合进商品攝影自動化流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -611,6 +1000,33 @@
     "automation_angle_zh": "論文發布後可部署測試，評估是否能提升自建 Agent 的任務規劃準確率。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-chatgpt",
+    "title": "ChatGPT 新增對話串導航功能",
+    "title_original": "ChatGPT makes it easier to navigate in threads",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tt9v1j/chatgpt_makes_it_easier_to_navigate_in_threads/",
+    "published_at": "2026-05-31T22:42:54+00:00",
+    "category": "hot-topics",
+    "summary": "ChatGPT 介面更新，讓使用者在長對話中更容易跳轉與管理線程，改善長期使用的操作體驗。",
+    "highlights": [
+      "對話串導航新 UI",
+      "適用於長上下文對話場景",
+      "伺服器端更新，無需用戶端升級",
+      "提升長程對話的可操作性"
+    ],
+    "why_it_matters": "長對話管理改善後，開發者可更有效利用上下文，避免資訊遺漏或重複提示。",
+    "automation_angle": null,
+    "automation_angle_zh": "測試新版導航是否優化自動化腳本的對話管理，或評估對 API 使用體驗的影響。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -19894,6 +20310,34 @@
       "ai-deals",
       "rss",
       "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-01-bot-games-ai-agent-1-btc",
+    "title": "Bot Games 推出 AI Agent 競賽，獎池 1 BTC，限定開源專案",
+    "title_original": "Bot Games Launches AI Agent Competition with 1 BTC Prize Pool, Open Source Only - PR.com",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1lREhLYjhISXpIbkp5TWxzYnBpR3VKQ0JXTXhvbWxJMXFOOGhTMXE4MFpMNS1qU0c4U1BmMVlSV2ZKemVOQy10TXEwRkY3ZFVr?oc=5",
+    "published_at": "2026-02-08T08:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Bot Games 發起 AI Agent 競賽，總獎金池達 1 比特幣，參賽作品須為開源專案。此競賽旨在推動開源 Agent 技術發展，吸引開發者實戰競技。",
+    "highlights": [
+      "總獎金 1 BTC，約值 6-7 萬美元",
+      "報名限定開源專案",
+      "聚焦 AI Agent 自動化能力",
+      "適合開發者展示實力與交流技術",
+      "提供實戰命題測試 Agent 極限"
+    ],
+    "why_it_matters": "此競賽可窺見當前開源 Agent 的能力邊界，獲獎專案往往代表實用性與創新性的最佳實踐，值得技術團隊關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "可報名參加或觀摩優秀參賽作品，從中獲取 Agent 自動化任務的設計思路與實用範例。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
