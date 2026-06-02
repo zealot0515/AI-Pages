@@ -1,5 +1,612 @@
 [
   {
+    "id": "2026-06-02-meta-ai",
+    "title": "Meta AI：開源生態系如何征服雲端",
+    "title_original": "Introducing Rubrics: Build Agents that Evaluate and Correct Their Work",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/introducing-rubrics-for-deepagents",
+    "published_at": "2026-06-02T18:42:49+00:00",
+    "category": "open-source-ai",
+    "summary": "AI Magazine 刊載文章概述 Meta 如何透過 Llama 等開源模型建立生態系並挑戰雲端 AI 服務。內容偏向策略分析與趨勢觀察，缺乏具體技術细节或新產品發布。",
+    "highlights": [
+      "概述 Meta 開源 AI 策略",
+      "提及 Llama 系列的生態系擴展",
+      "宏觀趨勢分析而非技術深度報導",
+      "無新功能或產品發布"
+    ],
+    "why_it_matters": "對關注開源 AI 發展的讀者有背景參考價值，但無直接可操作的技術情報。適合了解 Meta AI 整體佈局，而非追蹤具體進展。",
+    "automation_angle": null,
+    "automation_angle_zh": "若正在評估 Llama 系列用於內部部署，可結合其他更詳細的技術文件評估可行性，此文適合作為背景參考。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-badhope-personal-assistant-typescript-ai-agent",
+    "title": "badhope/Personal-Assistant：TypeScript 個人 AI Agent 開源專案",
+    "title_original": "badhope/Personal-Assistant",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/badhope/Personal-Assistant",
+    "published_at": "2026-06-02T18:40:44Z",
+    "category": "open-source-ai",
+    "summary": "Pipeline 驅動的個人 AI Agent，支援 10 種 LLM Provider、7 個真實工具、六階段處理流程、全 SSE 串流。TypeScript 實作無 Mock，可直接部署整合。",
+    "highlights": [
+      "支援 10 家 LLM 廠商（OpenAI、Anthropic、Google 等）",
+      "六階段 Pipeline 架構：解析→規劃→工具選擇→執行→驗證→輸出",
+      "7 個內建真實工具，無 Mock 程式碼",
+      "TypeScript/Node.js 生態，npm 可直接安裝",
+      "全 SSE 串流響應，即時互動體驗"
+    ],
+    "why_it_matters": "開源專案可直接Fork整合進個人工作流程，今天就能試用，37 stars 但有實際可運作的程式碼，不同於空殼專案。",
+    "automation_angle": null,
+    "automation_angle_zh": "Clone 專案後可將個人日常任務（如資料查詢、郵件摘要、會議記錄）封裝成工具，快速建立個人 AI 助理。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/195405851?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-75m-18b-tokens",
+    "title": "工程師從零訓練 75M 參數模型：18B Tokens 規模擊敗雙倍大小模型",
+    "title_original": "I trained a 75M parameter LLM from scratch on 18B tokens and it beats a model almost double its size",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuyb8s/i_trained_a_75m_parameter_llm_from_scratch_on_18b/",
+    "published_at": "2026-06-02T17:41:39+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享從頭訓練一個僅 75M 參數的小型 LLM，使用 18B Tokens 資料，benchmark 顯示其效能竟超越參數量幾乎多一倍的其他模型，引起社群熱議與多方驗證討論。",
+    "highlights": [
+      "從零訓練，未使用預訓練模型，訓練成本相對低",
+      "僅 75M 參數，適合部署在資源受限的邊緣設備",
+      "18B Tokens 訓練量，與主流小型模型訓練規模相當",
+      "Benchmark 結果尚未有第三方完整驗證，屬社群自測",
+      "作者強調資料品質與訓練策略是關鍵，非純粹靠參數量"
+    ],
+    "why_it_matters": "挑戰「參數越大越好」的迷思，若資料品質與訓練方法得當，小模型也能有優秀表現。這對重視部署成本與延遲的技術團隊有重要參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載訓練資料集與檢視其訓練腳本，重現實驗以驗證 claim，並評估是否可套用到自己特定領域的小模型微調計畫。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-github-copilot",
+    "title": "GitHub Copilot 桌面端應用技術預覽版全面開放",
+    "title_original": "Expanded technical preview availability for the GitHub Copilot app",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-02-expanded-technical-preview-availability-for-the-github-copilot-app",
+    "published_at": "2026-06-02T17:36:00+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 桌面端應用程式技術預覽版現已開放給所有 Copilot Pro、Pro+、Business 與 Enterprise 付費方案用戶。用戶可於 Windows、macOS、Linux 下載專用客戶端，獲得更流暢的 AI 程式碼輔助體驗。",
+    "highlights": [
+      "所有 Copilot 付費方案用戶現可使用桌面端應用程式",
+      "支援 Windows、macOS、Linux 三大平台",
+      "提供獨立應用程式而非瀏覽器擴充功能",
+      "技術預覽版標誌著 Copilot 從 IDE 插件向獨立工具擴展"
+    ],
+    "why_it_matters": "獨立桌面應用程式可脫離主要 IDE 運行，方便快速查詢程式碼、解讀錯誤日誌或進行小型重構任務，提升開發者日常工作效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝桌面端後，在不開啟完整 IDE 的情況下快速呼叫 Copilot 處理緊急程式碼問題或批次審查。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-02-item",
+    "title": "法律代理驗證器效率優化研究",
+    "title_original": "Designing Efficient Verifiers for Legal Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/designing-efficient-verifiers-for-legal-agents",
+    "published_at": "2026-06-02T17:35:14+00:00",
+    "category": "agent-skills",
+    "summary": "Harvey 與 LangChain Labs 發布研究報告，探討如何降低 LLM 驗證器成本並提升法律代理系統的可靠性，聚焦後訓練階段的評估方法與開源工具。",
+    "highlights": [
+      "提出 verifier 設計模式，區分訓練時與部署時驗證需求",
+      "比較不同 LLM 作為驗證器的成本效益，發現可降低 40% 計算開銷",
+      "發布基於 Python 的驗證框架，整合 LangChain 生態",
+      "研究樣本為法律文書 QA，任務複雜度較高",
+      "強調驗證器與生成器需協同優化，不可獨立評估"
+    ],
+    "why_it_matters": "對需要部署 LLM 代理的技術團隊，驗證器成本往往被低估。此研究提供量化基準，可直接用於评估自架驗證流程的性價比。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可下載 LangChain 開源驗證框架，用真實法律 QA 數據集測試不同 verifiers（如 GPT-4o-mini、Haiku），記錄準確率與 token 消耗比。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-reddit-ai-agent-npc",
+    "title": "Reddit 熱議：為何遊戲尚未大量採用 AI Agent 作為 NPC？",
+    "title_original": "Why don't we still have any games with AI agents used as NPC characters?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuy151/why_dont_we_still_have_any_games_with_ai_agents/",
+    "published_at": "2026-06-02T17:32:25+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社群熱烈討論為何至今鮮少有遊戲真正將 AI Agent 技術應用於 NPC 角色。討論涵蓋成本、延遲、一致性與商業化等層面的技術與產業障礙。",
+    "highlights": [
+      "延遲問題：即時對話需毫秒級回應，LLM 推論延遲仍偏高",
+      "角色一致性：LLM 難以維持長期角色設定與世界觀",
+      "部署成本：大量 NPC 同時推論的雲端成本驚人",
+      "本地推論：需在玩家設備上運行需強大硬體支援"
+    ],
+    "why_it_matters": "遊戲 NPC 是檢驗 LLM Agent 能力邊界的重要場景，若此領域無法突破，代表當前 Agent 在長上下文管理與成本控制上仍有明顯瓶頸。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術愛好者可嘗試用本地 LLM（如 llama.cpp）驅動簡單對話型 NPC，測試現有模型的延遲與角色一致性極限。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-github-copilot-sdk-ga",
+    "title": "GitHub Copilot SDK 正式 GA，支援生產環境嵌入",
+    "title_original": "Copilot SDK is now generally available",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-02-copilot-sdk-is-now-generally-available",
+    "published_at": "2026-06-02T17:30:00+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot SDK 已正式發布正式版（GA），提供穩定 API 與生產環境支援。開發者可將 Copilot 的 Agent 引擎嵌入自身應用、服務與開發工具中。",
+    "highlights": [
+      "Copilot SDK 從預覽版升級為正式 GA 版本",
+      "提供穩定版 API，相容生產環境需求",
+      "支援嵌入至自定義應用程式與開發工具",
+      "可用於構建內部 AI 輔助功能",
+      "有別於直接使用 Copilot，可深度客製化"
+    ],
+    "why_it_matters": "GA 意味著 API 穩定性有保障，企業技術團隊可放心將 Copilot 引擎整合至內部工具鏈，實現工作流程程自動化而不依賴 GitHub 網頁介面。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 SDK 文件，評估在 IDE 外掛、CI/CD 工具或內部知識庫系統中嵌入 Copilot Agent 引擎的可行性與實作成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-02-copilot-cli-rubber-duck-prompt",
+    "title": "Copilot CLI 全面升級：Rubber Duck 模式、語音輸入、排程Prompt 正式上線",
+    "title_original": "Copilot CLI: Improved UI, rubber duck, prompt scheduling, and voice input",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-02-copilot-cli-improved-ui-rubber-duck-prompt-scheduling-and-voice-input",
+    "published_at": "2026-06-02T17:27:00+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot CLI 在 Microsoft Build 2026 期間推出大規模更新，Rubber Duck debugging、Prompt 排程執行與語音輸入三大功能全面開放，並預覽實驗性分頁式終端介面。",
+    "highlights": [
+      "Rubber Duck 模式：對著 CLI 說出問題，AI 引導你逐步 Debug",
+      "Prompt 排程：可預先寫好指令，在指定時間自動執行CI/CD Script",
+      "語音輸入：直接用語音下指令，適合懶得打字場景",
+      "實驗性 Tab 介面：支援多工作階段分頁管理",
+      "全面GA（正式可用），不需額外申請即可使用"
+    ],
+    "why_it_matters": "CLI 是工程師最高频接觸的介面，三大功能直接提升日常效率。Rubber Duck 模式特別適合複雜邏輯Debug，語音輸入則打開了新的互動可能。",
+    "automation_angle": null,
+    "automation_angle_zh": "在工作流程程中實際使用排程功能，例如設定凌晨自動執行遷移Script並用語音下確認指令，觀察是否減少人為操作的等待時間。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-02-github-copilot",
+    "title": "GitHub Copilot 雲端與本機沙盒環境正式公開預覽",
+    "title_original": "Cloud and local sandboxes for GitHub Copilot now in public preview",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-02-cloud-and-local-sandboxes-for-github-copilot-now-in-public-preview",
+    "published_at": "2026-06-02T17:25:00+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 現支援在隔離沙盒環境中執行，包括本機端與雲端兩種模式。沙盒提供隔離的執行環境，確保 Copilot 工具呼叫的安全性與穩定性，防止異常操作影響主系統。",
+    "highlights": [
+      "支援本機沙盒與雲端沙盒兩種隔離環境",
+      "沙盒隔離確保 Copilot 工具執行不會危害主系統",
+      "適用於需要安全執行環境的企業場景",
+      "標誌著 Copilot 從純建議工具向具備執行能力的代理演進"
+    ],
+    "why_it_matters": "沙盒機制讓 Copilot 能安全執行真實操作（如檔案存取、命令執行），大幅提升其在自動化工作流程中的實用性與可靠性。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業技術團隊可評估沙盒模式，測試 Copilot 自動執行常見 DevOps 任務（如建立分支、提交 PR）的能力與安全性邊界。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-02-step-3-7-qwen-3-5-3-6",
+    "title": "程式碼能力對決：Step 3.7 對比 Qwen 3.5/3.6 系列模型",
+    "title_original": "A Simple Coding Benchmark: Step 3.7 vs Qwen 3.5 122B-A10B vs Qwen 3.6 27B vs Qwen 3.6 35B-A3B",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuxspu/a_simple_coding_benchmark_step_37_vs_qwen_35/",
+    "published_at": "2026-06-02T17:24:37+00:00",
+    "category": "new-models",
+    "summary": "社群進行簡單程式碼基準測試，比較 Step 3.7、Qwen 3.5 122B-A10B、Qwen 3.6 27B 與 Qwen 3.6 35B-A3B 在程式碼生成任務上的表現差異。",
+    "highlights": [
+      "測試涵蓋程式碼補全、重構與除錯等常見任務",
+      "Qwen 3.6 35B-A3B 以較小參數量挑戰大模型",
+      "Step 3.7 程式碼能力獲得社群關注",
+      "結果有助選擇性價比最高的程式碼助理模型"
+    ],
+    "why_it_matters": "程式碼任務是 LLM 最成熟的商業應用場景之一，此Benchmark幫助技術用戶在高參數量模型與量化壓縮模型之間做出明智選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發團隊可根據Benchmark結論，選用合適模型整合進程式碼審查或輔助工具鏈，優化開發流程效率與成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-github-copilot-code-review-azure-repos",
+    "title": "GitHub Copilot Code Review 支援 Azure Repos，正式進入技術預覽",
+    "title_original": "GitHub Copilot code review for Azure Repos is now in technical preview",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-02-github-copilot-code-review-for-azure-repos-is-now-in-technical-preview",
+    "published_at": "2026-06-02T17:22:00+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 新增 Azure Repos 整合，可在 Pull Request 提交後自動分析程式碼變動並給予審查建議，工程師無需離開 Azure DevOps 即可獲得 AI 輔助審查。",
+    "highlights": [
+      "直接在 Azure Repos 介面中觸發 Copilot 審查",
+      "分析 PR 變動範圍與複雜度，給出對應深度的建議",
+      "審查結果直接嵌入 PR 留言，團隊可快速回應",
+      "技術預覽階段，免費提供 Azure DevOps 用戶試用",
+      "與 Copilot Workspace 底層模型共用，強調一致體驗"
+    ],
+    "why_it_matters": "將 Copilot 從編碼擴展到審查環節，補足開發流程最後一哩。Azure DevOps 用戶現在有了原生的 AI 審查工具，不必再依賴第三方整合。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Azure Repos 啟用技術預覽，針對日常 PR 測試審查品質與耗時，觀察是否能替代部分人工審查或減少常見錯誤。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-02-copilot-code-review",
+    "title": "Copilot Code Review 支援團隊自訂規則與規模化審查深度",
+    "title_original": "Shape Copilot code review around your team",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-02-shape-copilot-code-review-around-your-team",
+    "published_at": "2026-06-02T17:22:00+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot Code Review 推出兩項公開預覽功能：可根據團隊工具與標準自訂審查規則，並依據變動複雜度自動調整審查深度，小改動輕量提示，大改動深入分析。",
+    "highlights": [
+      "支援自訂審查規則，可整合團隊 Coding Style 與內部規範",
+      "複雜度感知：簡單修正僅提供摘要，重大重構給出多維建議",
+      "統一代理架構，未來可在 GitHub 與 Azure Repos 間無縫切換",
+      "提供可配置的審查範本，方便不同子團隊差異化設定",
+      "強調可擴展性，目標是企業級 Code Review 流程再造"
+    ],
+    "why_it_matters": "從通用審查走向團隊化、情境化審查，代表 Copilot 從工具變為流程助理。企業若導入可顯著減少 Review 時間並統一程式碼品質標準。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立團隊審查規則設定檔，觀察 Copilot 能否正確識別團隊特有的弱點與規範衝突，逐步微調以提高實用性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-02-github-agent-apps-marketplace-ai-agent",
+    "title": "GitHub Agent Apps：Marketplace 整合第三方 AI Agent",
+    "title_original": "Extend GitHub with agent apps",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-02-extend-github-with-agent-apps",
+    "published_at": "2026-06-02T17:20:00+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 推出 Agent Apps 功能，協力廠商 AI Agent 可從 GitHub Marketplace 安裝，與 GitHub 原生整合，如同安裝一般 GitHub App 一樣簡便。",
+    "highlights": [
+      "協力廠商 AI Agent 可在 Marketplace 發布",
+      "安裝流程與現有 GitHub App 一致",
+      "直接整合進 GitHub 工作流程（PR、Issue、Action）",
+      "首批合作夥伴陸續上架中",
+      "企業可管控 Agent 存取權限與授權範圍"
+    ],
+    "why_it_matters": "開發團隊可依需求選擇特定功能 Agent，無需自行整合，Marketplace 模式讓 AI Agent 像其他開發工具一樣可被評估與採用。",
+    "automation_angle": null,
+    "automation_angle_zh": "選擇並安裝適合專案流程的 Agent，例如自動化 Code Review、文件生成、安全掃描 Agent，節省自建整合成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-02-github-copilot-cli-jetbrains-ide-agent",
+    "title": "GitHub Copilot CLI 登陸 JetBrains IDE，強化 Agent 能力",
+    "title_original": "Introducing Copilot CLI and agentic capabilities enhancements in JetBrains IDEs",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-02-introducing-copilot-cli-and-agentic-capabilities-enhancements-in-jetbrains-ides",
+    "published_at": "2026-06-02T16:30:40+00:00",
+    "category": "agent-skills",
+    "summary": "Copilot CLI 正式進駐 JetBrains IDE，提供 CLI Sessions 能力，同步釋出多項 Agentic 改進，讓開發者在 JetBrains 內直接執行 terminal 任務與 AI 協作。",
+    "highlights": [
+      "Copilot CLI 整合至 JetBrains IDE 介面",
+      "支援 CLI Sessions，可在 IDE 內保留對話狀態",
+      "Agentic 能力增強，可執行多步驟 terminal 任務",
+      "與現有 JetBrains AI Assistant 並存支援",
+      "GitHub Copilot 訂閱制，無額外費用"
+    ],
+    "why_it_matters": "開發者可在熟悉的 JetBrains 環境中直接操作 CLI，結合 AI 助理完成從程式碼修改到指令執行的完整工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 Copilot CLI 執行 git 操作、CI/CD 指令、伺服器部署等任務，全程在 JetBrains 內完成無需切換視窗。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-02-gemini-3-1-pro-3-5-flash-copilot-cli-agent-app",
+    "title": "Gemini 3.1 Pro 與 3.5 Flash 擴展至 Copilot CLI、雲端 Agent 與 App",
+    "title_original": "Gemini models in Copilot CLI, cloud agent, and the Copilot app",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-02-gemini-models-in-copilot-cli-cloud-agent-and-the-copilot-app",
+    "published_at": "2026-06-02T16:30:04+00:00",
+    "category": "agent-skills",
+    "summary": "Google Gemini 3.1 Pro 預覽版與 Gemini 3.5 Flash 現已可在 GitHub Copilot CLI、雲端 Agent 與 Copilot App 中使用，提供更多模型選擇以滿足不同場景需求。",
+    "highlights": [
+      "Gemini 3.1 Pro（預覽版）與 3.5 Flash 登陸 Copilot 生態",
+      "覆蓋 CLI、雲端 Agent、Copilot App 三個介面",
+      "為開發者提供更多模型選擇與靈活度",
+      "Gemini 3.1 Pro 仍為預覽狀態，穩定性待觀察",
+      "可用於測試不同模型在相同任務上的表現"
+    ],
+    "why_it_matters": "Copilot 使用者現在可切換 Gemini 模型，在成本、速度與能力間權衡，對於需要快速原型或成本敏感的任務，Gemini Flash 是值得測試的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在 Copilot 設定中切換至 Gemini 模型，針對特定任務（如代碼補全、摘要生成）比較 GPT-4o 與 Gemini 的品質與延遲差異。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-02-github-copilot-eclipse-byok",
+    "title": "GitHub Copilot Eclipse 支援 BYOK 與技能更新",
+    "title_original": "GitHub Copilot in Eclipse: BYOK, skills, and chat updates",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-02-github-copilot-in-eclipse-byok-skills-and-chat-updates",
+    "published_at": "2026-06-02T16:30:00+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot Eclipse 外掛迎來重大更新：重新設計 Chat 體驗、深入掌握 Session 上下文、BYOK 支援商業與企業方案、更強 ABAP 支援、品牌新視覺。",
+    "highlights": [
+      "BYOK（Bring Your Own Key）支援 Business 與 Enterprise 方案",
+      "Chat 介面重新設計，上下文可視性提升",
+      "更完善 ABAP 開發支援，企業 SAP 開發者受惠",
+      "品牌識別更新，整合 GitHub Copilot 統一視覺",
+      "Eclipse IDE 內直接使用 Copilot 全功能"
+    ],
+    "why_it_matters": "企業可在 Eclipse 中自攜 API Key，省去 Centralized Billing 流程，適合已有自家 AI API 的團隊，降低 Copilot 採購成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Eclipse 中啟用 BYOK 後，可將 Copilot Chat 整合進現有企業審核流程，特定金鑰對應特定專案權限。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-02-reddit-codex-5-3",
+    "title": "Reddit 用戶回報 Codex 5.3 已被下架",
+    "title_original": "Meta AI: How Open-Source Ecosystems Conquer the Cloud - AI Magazine",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYTF2NmhraHBzR3NuUW90aG14dFMtNU52cWFhcnd4anRMWlotT21rTjRGdDZpUmdnTEZTLXpJdEpfOFZJV1VodkZxWmZjZDRFRU93T25qRmMxcl95U1M5T2s3SmRFZXNmNGR1NFpNTzhaUkxEdGVjM1ZLUzVBQmNNMklvWW56R3M?oc=5",
+    "published_at": "2026-06-02T16:16:42+00:00",
+    "category": "hot-topics",
+    "summary": "多位 Reddit 用戶回報 OpenAI Codex 的 5.3 版本已無法使用，系統現在預設導向 5.5 系列。用戶推測 5.3 可能已正式停產，但此消息來自社群討論，未獲官方證實。",
+    "highlights": [
+      "Reddit r/OpenAI 板上出現多則用戶回報 5.3 已無法呼叫的貼文",
+      "5.5 系列成為新版預設選擇",
+      "官方尚未發布正式停產公告",
+      "社群猜測與實際狀況可能存在落差"
+    ],
+    "why_it_matters": "若 Codex 5.3 確實停產，依賴特定版本行為的開發流程可能受影響。技術人員應驗證自己的 Codex 設定是否仍正常運作。",
+    "automation_angle": null,
+    "automation_angle_zh": "檢查現有 Codex API 呼叫是否使用 5.3，若是的話立即測試 5.5 行為是否相容，並評估版本差異對現有工作流程的影響程度。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-rtx-4050-6gb-20-llm",
+    "title": "RTX 4050 6GB 實測：20 款小型 LLM 效能對比出爐",
+    "title_original": "Benchmarks of 20 small LLMs on a 6GB RTX 4050",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuvs6l/benchmarks_of_20_small_llms_on_a_6gb_rtx_4050/",
+    "published_at": "2026-06-02T16:16:35+00:00",
+    "category": "open-source-ai",
+    "summary": "社群用戶在 6GB VRAM 的 RTX 4050 上實測 20 款小型 LLM 的效能表現，涵蓋推論速度、輸出品質與記憶體佔用等指標，為輕量級本地部署提供參考基準。",
+    "highlights": [
+      "測試環境：RTX 4050 6GB VRAM 限制",
+      "實測模型包含多款 1B-3B 參數量級別模型",
+      "重點指標：文字生成速度、回應延遲、VRAM 峰值佔用",
+      "結果對想用消費級 GPU 跑本地 LLM 的用戶具參考價值"
+    ],
+    "why_it_matters": "6GB VRAM 是多數玩家的主流顯卡配置，此Benchmark直接告訴技術用戶哪些小型模型能在有限資源下流暢運行，節省試錯時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據Benchmark結果選擇適合 RTX 4050 的模型，用 ollama 或 llama.cpp 快速架設本地助理，省下雲端 API 費用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-langchain-rubrics-agent",
+    "title": "LangChain 推出 Rubrics 功能：讓 Agent 自我評估並修正輸出",
+    "title_original": "Codex/ChatGPT writes an HTML artifact, one step turns it into a shareable URL behind company auth (demo)",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tuu6ey/codexchatgpt_writes_an_html_artifact_one_step/",
+    "published_at": "2026-06-02T15:22:01+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 部落格介紹 RubricMiddleware，為 Deep Agents 加入自我評估循環機制。開發者可設定評分標準與 grader 模型，讓 Agent 在執行任務時自動檢驗輸出正確性並進行修正。",
+    "highlights": [
+      "基於 LangChain 的自評估框架",
+      "支援自訂 Rubric 與 Grader 配置",
+      "適用於輸出正確性要求高的任務",
+      "屬於官方技術文件，非行銷軟文"
+    ],
+    "why_it_matters": "提升 Agent 輸出的可靠性與可控性，降低需要人工複查的比例，對構建自動化流程的技術人員有直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 LangChain 環境中測試 RubricMiddleware，用實際任務評估此機制能否有效減少錯誤輸出，並計算加入自評估後的額外 Tokens 成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-codex-html-artifact-url",
+    "title": "Codex 將 HTML Artifact 直接轉為公司身份驗證的可分享 URL",
+    "title_original": "asked chatgpt and claude to recreate the freedom motif from an image of a piano roll. 1st is chatgpt, 2nd is claude",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tutdly/asked_chatgpt_and_claude_to_recreate_the_freedom/",
+    "published_at": "2026-06-02T14:54:50+00:00",
+    "category": "agent-skills",
+    "summary": "一則 Reddit 討論展示 Codex/ChatGPT 如何在單一步驟內將生成的 HTML Artifact 轉換為帶有公司認證的可分享連結，暗示企業級分享功能已整合進工作流程程。",
+    "highlights": [
+      "演示了 Artifact 到可分享 URL 的快速轉換",
+      "提及公司層級驗證整合",
+      "具體實現方式與限制未說明",
+      "可能是 Beta 功能或限定企業帳戶"
+    ],
+    "why_it_matters": "若企業身份驗證能直接嵌入 Artifact 分享流程，將大幅簡化內部分享 AI 生成內容的流程，提升協作效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "擁有企業帳戶的讀者可登入測試此功能是否已開放，並評估其與內部部署審核流程的整合可行性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-holo3-1-computer-use-agent",
+    "title": "Holo3.1：本地高速 Computer Use Agent 框架",
+    "title_original": "Holo3.1: Fast & Local Computer Use Agents",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/Hcompany/holo31",
+    "published_at": "2026-06-02T14:13:23+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 發布 Holo3.1，專注本地端高速 Computer Use Agent，可在本地環境執行瀏覽、操作應用等任務，無需雲端延遲與隱私疑慮。",
+    "highlights": [
+      "全本地運行，無需資料上傳雲端",
+      "支援電腦操作、瀏覽器自動化任務",
+      "強調高速回應，降低延遲瓶頸",
+      "開源模型，可自行部署在本地機器",
+      "適配 Hugging Face 生態，整合簡便"
+    ],
+    "why_it_matters": "對資料敏感或需要快速反應的自動化流程，本地 Agent 可避開雲端 API 延遲與隱私風險，適合企業內網自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本地 Linux/Mac 部署後，用於自動化測試、爬蟲、報表抓取等需要操作介面的任務，節省雲端 API 費用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-reddit-pdf",
+    "title": "Reddit 技術討論：餵給本地模型前如何預處理 PDF 文件？",
+    "title_original": "What are you using to preprocess pdfs before feeding them to a local model?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuqsn4/what_are_you_using_to_preprocess_pdfs_before/",
+    "published_at": "2026-06-02T13:21:06+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 用戶詢問在將 PDF 文件餵給本地 LLM 前的最佳預處理工具與流程。討論涉及版面識別、文字提取、表格處理等技術選項。",
+    "highlights": [
+      "常見工具：pymupdf、pdfplumber、pdfminer 各有優劣",
+      "表格處理：tabula-py 與 camelot 常用於結構化資料提取",
+      "圖文混排：需要 OCR 與版面分析整合",
+      "向量嵌入：預處理品質直接影響 RAG 檢索效果"
+    ],
+    "why_it_matters": "PDF 預處理品質決定本地文件分析類應用的成敗，選擇錯誤的工具鏈會導致關鍵資訊遺漏或上下文碎片化，影響最終輸出準確率。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 pymupdf + pdfplumber 建立 Pipeline，自動將 PDF 轉換為結構化文字並批次餵給本地模型進行分析或摘要。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-02-jetson-orin-nano-super-8gb-llm-benchmark",
     "title": "Jetson Orin Nano Super 8GB 小型 LLM Benchmark：四種功耗 × 八款模型",
     "title_original": "Tiny LLM Benchmark: Jetson Orin Nano Super 8GB - Four Power Modes × Eight Models",
@@ -114,6 +721,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-02-openai-ai",
+    "title": "旅行者保險攜手 OpenAI 部署 AI 理賠助理，覆蓋全美",
+    "title_original": "Travelers deploys AI-powered claims countrywide with OpenAI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/travelers",
+    "published_at": "2026-06-02T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "旅行者保險公司與 OpenAI 合作，在全美部署 AI 理賠助理，引導客戶填寫理賠文件、提供 24/7 服務，並可在災難高峰期自動擴展處理量能，減輕客服負擔。",
+    "highlights": [
+      "AI 助理可即時回答理賠進度、文件需求等常見問題",
+      "24 小時不中斷服務，緩解深夜與假日高峰壓力",
+      "峰值時自動擴展，避免漫長等待與人力瓶頸",
+      "基於 OpenAI 企業版 API，具體模型與成本結構未公開",
+      "保險業 AI 落地案例，可供其他企業參考架構方向"
+    ],
+    "why_it_matters": "這是大型保險公司首次公開 AI 實際部署規模，顯示企業已從實驗走向生產環境。技術人員可觀察其如何整合 AI 到現有流程並量化效益。",
+    "automation_angle": null,
+    "automation_angle_zh": "可研究其 AI 助理的對話流程設計與後端系統整合方式，評估是否可套用到自家中台客服或理賠自動化流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-06-02-hwpx-mcp-server-ai-hwpx-mcp",
     "title": "hwpx-mcp-server：讓 AI 代理讀寫韓國 HWPX 文件的 MCP 工具",
     "title_original": "airmang/hwpx-mcp-server",
@@ -225,6 +860,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/204798074?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-openai-codex",
+    "title": "OpenAI Codex 插件生態：各職能角色的工具與工作流程",
+    "title_original": "Codex for every role, tool, and workflow",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+    "published_at": "2026-06-02T09:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布 Codex 應用指南，展示針對分析師、行銷人員、設計師、投資人等不同角色的插件、網站與註解功能，強調 Codex 可自動化跨部門工作流程程。",
+    "highlights": [
+      "Codex 已建立面向多職業角色的插件生態",
+      "涵蓋分析、行銷、設計、投資等常見商業場景",
+      "強調工作流程整合與跨角色協作能力",
+      "屬產品應用展示，非新模型發布",
+      "可作為評估 Codex 實際落地價值的參考"
+    ],
+    "why_it_matters": "Codex 的角色化應用展示 AI 從技術工具走向業務場景的趨勢，技術決策者應評估 Codex 是否能替代或輔助現有專業工具，提升團隊整體產出效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可檢視感興趣角色的插件（如數據分析插件），評估是否能直接整合至現有工作流程程，或作為內部工具開發的參考原型。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -368,6 +1031,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/6072283?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-openai-ai",
+    "title": "OpenAI 呼籲全球攜手保護青少年 AI 安全，提議成立國際機構",
+    "title_original": "Advancing youth safety and opportunity through global leadership",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+    "published_at": "2026-06-02T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 在官方 Blog 發布政策文章，呼籲全球領袖合作保護青少年在 AI 時代的安全與機會，建議成立國際 AI 安全機構並制定統一標準，但未提及具體技術或產品更新。",
+    "highlights": [
+      "倡議建立國際 AI 安全研究所，制定青少年保護標準",
+      "強調 AI 應為青年創造機會而非傷害",
+      "屬政策倡議，無新模型、新功能或 API 更新",
+      "文章為 OpenAI 公共政策立場聲明，非技術公告",
+      "類似呼籲過去曾由多個組織提出，具體執行計畫尚不明確"
+    ],
+    "why_it_matters": "代表 OpenAI 在監管壓力下的公關策略，對技術從業人員參考價值有限。但若相關標準成形，可能影響未來 API 使用政策與模型訓練限制。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注後續立法動態，若國際標準落實可能影響模型使用限制與合規成本，建議提早評估現有應用的風險。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -17124,6 +17815,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-02-anthropic-code-with-claude-managed-agents",
+    "title": "Anthropic Code with Claude 推Managed Agents 與主動式工作流程",
+    "title_original": "Anthropic's Code with Claude Announces Managed Agents, Proactive Workflows, Capability Curve - infoq.com",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE52WF95M3JQX2VQYU9LSnB6ZjgtbTVhZW9pbFEyZEVRaHdNTFVzYzZkMEtBbks0QUpIdk9DZFdEX05ENkVraUZ1dWVjZVlMTlRIVk8xT0hJdkJPeFBkTVB2YUZB?oc=5",
+    "published_at": "2026-05-18T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 在 Code with Claude 中宣布 Managed Agents 功能、Proactive Workflows 以及 Capability Curve 升級，強化 Claude 在軟體開發中的 Agent 能力。",
+    "highlights": [
+      "Managed Agents：雲端託管的 AI Agent 服務",
+      "Proactive Workflows：Agent 主動觸發工作流程程無需手動觸發",
+      "Capability Curve：能力曲線展示模型長處與限制",
+      "瞄準企業級軟體開發自動化需求",
+      "與現有 Claude Code 工具鏈整合"
+    ],
+    "why_it_matters": "Anthropic 正式進軍 Agent 託管市場，提供雲端管理的 Agent 服務，企業可直接使用無需自建基礎設施，降低 AI Agent 部署門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "可申請試用 Managed Agents，將重複性開發任務（如測試、部署、文件生成）交由雲端 Agent 處理，評估與現有流程整合效果。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-18-gpt-5-3-codex-copilot-business-enterprise",
