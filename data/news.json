@@ -1,5 +1,261 @@
 [
   {
+    "id": "2026-06-02-jetson-orin-nano-super-8gb-llm-benchmark",
+    "title": "Jetson Orin Nano Super 8GB 小型 LLM Benchmark：四種功耗 × 八款模型",
+    "title_original": "Tiny LLM Benchmark: Jetson Orin Nano Super 8GB - Four Power Modes × Eight Models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuq5j1/tiny_llm_benchmark_jetson_orin_nano_super_8gb/",
+    "published_at": "2026-06-02T12:56:30+00:00",
+    "category": "open-source-ai",
+    "summary": "邊緣 AI 設備 Jetson Orin Nano Super 8GB 上的 LLM 基準測試，涵蓋四種功耗模式與八款模型，幫助評估低成本邊緣部署的模型選擇。",
+    "highlights": [
+      "聚焦邊緣設備的低功耗 LLM 效能",
+      "四種功耗模式提供電量-效能權衡參考",
+      "八款模型覆蓋主流本地選項",
+      "適合評估邊緣 AI 部署策略",
+      "結果可作為硬體選型的依據"
+    ],
+    "why_it_matters": "邊緣設備部署是降低成本與提升隱私的重要方向。此 Benchmark 提供具體的功耗-效能數據，技術玩家可據此選擇適合自己硬體限制的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據自己的功耗預算與效能需求，從 Benchmark 中挑選候選模型，在 Jetson Orin Nano 上實際部署測試，驗證其是否滿足邊緣自動化任務的需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-dj-claude-mcp",
+    "title": "dj-claude：唯一具多代理協作功能的音樂MCP伺服器",
+    "title_original": "p-poss/dj-claude",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/p-poss/dj-claude",
+    "published_at": "2026-06-02T12:55:20Z",
+    "category": "agent-skills",
+    "summary": "TypeScript 開發的音樂 MCP 伺服器，強調多代理協作架構，可讓多個 AI 代理共同處理音樂相關任務。GitHub 僅 14 星但提出獨特的協作模式，對想擴展音樂生成/處理工作流程的技術玩家有參考價值。",
+    "highlights": [
+      "TypeScript 實作，強調 MCP 協定下的多代理協作",
+      "音樂領域的 MCP 工具，提供除錯與整合思路",
+      "Stars 偏低（14），但架構概念值得借鑒",
+      "適合作為 MCP 工具鏈的實驗場",
+      "開源可自架，無需 API 費用"
+    ],
+    "why_it_matters": "多代理協作是 2025 年 AI 工作流程的熱點方向，dj-claude 的音樂應用提供了具體的協作框架參考，技術玩家可用來測試與優化自己的多代理系統。",
+    "automation_angle": null,
+    "automation_angle_zh": "Clone 此專案，將其 MCP 端點接入自己的音樂處理 pipeline，評估多代理協作在實際自動化任務中的效益。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/225013815?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-vscode-mcp-ai-agent-vscode-lsp",
+    "title": "vscode-mcp：讓 AI 編碼 Agent 直接存取 VSCode LSP 診斷",
+    "title_original": "tjx666/vscode-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tjx666/vscode-mcp",
+    "published_at": "2026-06-02T12:26:01Z",
+    "category": "agent-skills",
+    "summary": "開源 TypeScript 專案，將 VSCode LSP 功能封裝為 MCP 伺服器。Claude Code、Cursor、Windsurf 等 AI 編碼 Agent 可直接取得即時診斷、類型資訊、程式碼導航，繞過慢速 tsc/eslint 檢查，82 顆星。",
+    "highlights": [
+      "提供即時 LSP 診斷，AI Agent 無需等待編譯",
+      "支援類型資訊查詢，提升程式碼理解能力",
+      "適用於 Claude Code、Cursor、Windsurf 等主流 Agent",
+      "TypeScript 開發，可自行 Fork 改進",
+      "GitHub 82 顆星，社群關注度中等"
+    ],
+    "why_it_matters": "此 MCP 伺服器解決 AI 編碼 Agent 常見延遲痛點，讓 Agent 能像人類開發者一樣即時獲得 IDE 診斷回饋，大幅提升自動修復與程式碼生成的準確性與速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 vscode-mcp 整合進 Cursor 或 Windsurf 配置，直接測試 AI Agent 在大型專案中的即時診斷響應。或 Fork 此專案加入自定義 LSP 功能，如企業內部程式碼規範檢查。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/41773861?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-rag-lora-llm",
+    "title": "用 RAG 還是 LoRA？建構免費離線 LLM 教科書導師",
+    "title_original": "Building a free, offline LLM “tutor” grounded in one university textbook — RAG, LoRA, or both? Sanity check wanted",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuozem/building_a_free_offline_llm_tutor_grounded_in_one/",
+    "published_at": "2026-06-02T12:08:08+00:00",
+    "category": "agent-skills",
+    "summary": "一篇 Reddit 討論探討如何利用單本大學教科書建構免費、離線的 LLM 導師。作者比較了 RAG（檢索增強生成）與 LoRA（低秩適配）兩種方法在知識準確性與個人化輔導上的取捨，並尋求社群驗證。",
+    "highlights": [
+      "探討 RAG 與 LoRA 兩種技術路徑",
+      "目標是離線部署，無需網路連接",
+      "適用於個人化學習輔助",
+      "討論了知識更新的便利性",
+      "目前為概念驗證階段，缺乏量化數據"
+    ],
+    "why_it_matters": "對於需要處理專業領域知識的技術人員，這種混合架構可能提升本地模型的領域準確性，同時保持離線可用性與隱私。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據自身領域書籍測試 RAG + LoRA 混合架構，評估是否能提升專業問答的準確率與上下文理解能力。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-hwpx-mcp-server-ai-hwpx-mcp",
+    "title": "hwpx-mcp-server：讓 AI 代理讀寫韓國 HWPX 文件的 MCP 工具",
+    "title_original": "airmang/hwpx-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/airmang/hwpx-mcp-server",
+    "published_at": "2026-06-02T11:58:42Z",
+    "category": "agent-skills",
+    "summary": "Python 實現的 MCP 伺服器，專門處理韓國常見的 HWPX 格式文件，可進行讀取、編輯、校驗等操作。GitHub 58 星顯示有一定社群關注度，適合處理多語言文件的技術玩家。",
+    "highlights": [
+      "Python 實作，無需 Java 環境即可運行",
+      "支援讀取、編輯、檢查、驗證 HWPX 文件",
+      "58 stars 表示社群有一定關注",
+      "可作為文件自動化處理的工具鏈環節",
+      "脫離專有軟體依賴，開源可控"
+    ],
+    "why_it_matters": "HWPX 是韓國官方文件格式，但多數 AI 工具鏈缺乏支援。此 MCP 伺服器填補了空白，讓自動化文件處理更完整，技術玩家可將其整合進文件工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署 hwpx-mcp-server，測試對批量 HWPX 文件的自動化校驗與轉換流程，評估其與現有文件自動化工具的整合可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/38392618?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-benchmark-gemma-4-qwen-3-6",
+    "title": "無視 Benchmark：新興本地模型 Gemma 4、Qwen 3.6 的實際感受討論",
+    "title_original": "Ignoring benchmarks, how do the newest local models (gemma 4 31B, 26BA4B, Qwen 3.6) “feel” to you? What do you think they compare to?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuoo81/ignoring_benchmarks_how_do_the_newest_local/",
+    "published_at": "2026-06-02T11:55:00+00:00",
+    "category": "new-models",
+    "summary": "Reddit 討論串聚焦於 Gemma 4 31B、Qwen 3.6 等最新本地模型的主觀體驗回饋，忽略傳統 Benchmark 數據，從實用角度評估模型「感受」與日常適用性。",
+    "highlights": [
+      "社群驅動的主觀體驗分享",
+      "聚焦 Gemma 4 31B、Qwen 3.6 等新模型",
+      "刻意忽略 Benchmark，追求真實使用感受",
+      "反映技術玩家對本地模型的真實期待",
+      "資訊來源為 Reddit 討論，可信度中等"
+    ],
+    "why_it_matters": "Benchmark 與實際使用感受常有落差。了解技術社群對新本地模型的真實評價，有助選擇適合自己工作負載的模型，避免盲目依賴排名數據。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考討論中的使用場景描述，挑選與自己工作負載相似的情境，親自測試相關模型，驗證其實際表現是否滿足需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-qwen3-6-27b-claude",
+    "title": "開發者實測：用 Qwen3.6-27B 取代 Claude 兩週的經驗分享",
+    "title_original": "Replaced Claude with local Qwen3.6-27B in my multi-agent orchestrator for 2 weeks",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tunmam/replaced_claude_with_local_qwen3627b_in_my/",
+    "published_at": "2026-06-02T11:05:42+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享用本地 Qwen3.6-27B 模型替換 Claude 的實測心得，涵蓋任務品質、成本節省與工作流程適配性。主觀經驗為主，但提供本地模型替代雲端 API 的參考基準。",
+    "highlights": [
+      "Qwen3.6-27B 本地部署的實際體驗報告",
+      "比較與 Claude 在日常任務上的表現差異",
+      "涉及成本節省與隱私考量",
+      "屬於個人測試，非嚴謹 Benchmark",
+      "有助評估本地模型的就緒程度"
+    ],
+    "why_it_matters": "本地模型能否真正替代雲端 API 仍是技術玩家的核心關切。此實測提供第一手使用經驗，幫助判斷是否適合將工作負載遷移到本地，節省 API 費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考此實測的任務類型與設定，自己部署 Qwen3.6-27B 並對比同類任務的處理效果與成本，驗證本地替代方案的實際可行性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-gaia-code-claude-code-perplexity",
+    "title": "GAIA Code：對標 Claude Code 的Perplexity 風格開發助理",
+    "title_original": "alexey-max-fedorov/gaia-ai",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/alexey-max-fedorov/gaia-ai",
+    "published_at": "2026-06-02T10:17:54Z",
+    "category": "agent-skills",
+    "summary": "GAIA Code 是一款開源 Agentic 編碼工具，定位為功能類似 Claude Code 的 Perplexity 風格助理。現有 23 顆星，TypeScript 開發，強調對軟體開發任務的深度理解與自動化執行能力。",
+    "highlights": [
+      "對標 Claude Code，主打軟體開發場景",
+      "開源 MIT 授權，TypeScript 實現",
+      "23 顆星，關注度尚在起步階段",
+      "強調 Agentic 能力，可自主完成複雜任務",
+      "適合需要本地部署編碼 Agent 的用戶"
+    ],
+    "why_it_matters": "GAIA Code 提供一個可本地部署的 Claude Code 替代方案，對不願依賴雲端 API 或需要自定義 Agent 行為的技術用戶有價值。但星數偏低，代表成熟度與穩定性需自行驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可 Clone 此 Repo，在本地環境測試其對常見開發任務（如重構、測試生成、文件撰寫）的處理能力。建議與 Claude Code 做對比測試，評估輸出品質差異。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/204798074?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-jetbrains-mellum2",
+    "title": "JetBrains 開源 Mellum2 模型——有人試過了嗎？",
+    "title_original": "JetBrains open-sources Mellum2 - anyone tried these?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tukilx/jetbrains_opensources_mellum2_anyone_tried_these/",
+    "published_at": "2026-06-02T08:18:32+00:00",
+    "category": "open-source-ai",
+    "summary": "JetBrains 開源了其 Mellum2 系列模型，包含 1.7B、3.8B、7B 三種規模。這是繼 Codestral 之後 JetBrains 第二個開源模型系列，目前社群反饋有限，有待實測其在程式碼補全與生成任務上的表現。",
+    "highlights": [
+      "提供 1.7B、3.8B、7B 三種參數規模",
+      "JetBrains 自家模型，可用於 IDE 整合",
+      "目前社群測試資料不足，缺少 benchmark 比較",
+      "支援程式碼補全與生成任務",
+      "可本地部署，無 API 依賴"
+    ],
+    "why_it_matters": "對於需要本地部署程式碼模型的技術宅，Mellum2 提供了一個 JetBrains 背書的新選擇。若效能達標，可用於個人 IDE 自動化輔助或內網開發環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載模型權重，在本地測試程式碼補全任務的準確率與延遲，評估是否可取代現有的 Copilot 方案以節省訂閱費用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-02-mcp-mobile-mcp-ios-android",
     "title": "MCP行動自動化框架：mobile-mcp支援iOS/Android",
     "title_original": "mobile-next/mobile-mcp",
@@ -55,6 +311,34 @@
       "Java"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/47638783?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-anthropic-claude-api",
+    "title": "Anthropic 官方發布 Claude API 整合指南（區塊鏈委員會版本）",
+    "title_original": "Claude for Developers: Anthropic API Integration Guide - Blockchain Council",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbGhfTjlxcWVqcTVpM3VsWXo4ejBBU1RYaGppb3pKZ01CREx4aGxHRE5pR19NeDktUlNYdFZfQzBNRldHWUtodTNMbG9IS1ZRUUJiaDhSOEEyU25ES3ItMVZoZDN6eGJ0VERGcGM3cnpXODRiUzlKd2J3WjJIOWo5eEdPc3ZkRm4tNE1SakltZks3RHhUZ0sxNGVsdW9tYXB3S0lCdG5UWmdKYjFneGZjTFZDczlMYlJHbEx3?oc=5",
+    "published_at": "2026-06-02T07:11:38+00:00",
+    "category": "agent-skills",
+    "summary": "Blockchain Council 發布的 Claude 開發者 API 整合指南，內容涵蓋 API 基本用法、集成模式與常見應用場景。屬於官方文件補充讀物，適合想深入掌握 Claude API 的開發者參考。",
+    "highlights": [
+      "非 Anthropic 官方網站發布的整合教學",
+      "涵蓋 API 基本呼叫與進階用法",
+      "區塊鏈背景的應用場景說明",
+      "適合對 API 整合不熟的開發者快速上手",
+      "需注意資訊可能非最新"
+    ],
+    "why_it_matters": "Claude API 的正確使用方式影響計費與效能，整合指南可幫助開發者降低錯誤使用率，節省 API 成本並提升系統穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "瀏覽此指南的整合模式章節，檢查自己的 Claude API 呼叫是否遵循最佳實踐，評估是否有優化空間以降低 token 消耗。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -361,6 +645,34 @@
     "automation_angle_zh": "技術用戶可研究 MCP SDK 文件，評估是否值得自行建立 ChatGPT → DALL-E 的 MCP 橋接器，以統一工作流程程中的多模態生成需求。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-openai-codex",
+    "title": "OpenAI Codex 正成為大眾化生產力工具",
+    "title_original": "Codex is becoming a productivity tool for everyone",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/codex-for-knowledge-work",
+    "published_at": "2026-06-02T02:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方博客發布「知識工作新時代」報告，展示 Codex 如何透過 AI 輔助研究、數據分析、工作流程自動化、內容創作來提升生產力。強調 Codex 已從程式碼助理擴展為通用知識工作工具。",
+    "highlights": [
+      "強調 Codex 可輔助研究與數據分析",
+      "展示工作流程自動化與內容創作能力",
+      "目標受眾從開發者擴展至所有知識工作者",
+      "OpenAI 官方博客背書，可信度高",
+      "與 OpenAI Plus 訂閱掛鉤"
+    ],
+    "why_it_matters": "Codex 功能拓展代表 OpenAI 將 AI 助理定位為通用生產力工具而非僅限開發者。這意味著更多企業可能採用 Codex 簡化內部流程，技術用戶需關注其對現有工具鏈的衝擊。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估 Codex 在研究整理、數據報表自動生成等場景的實用性。建議用現有 Plus 帳戶試用相關功能，比較與傳統 API 呼叫的性價比差異。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -20136,6 +20448,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-02-claude",
+    "title": "Claude 高用量戶開始被限制：限額後遭封號清退",
+    "title_original": "Claude 顶不住了：先限額，再封号，最贵那批使用者開始被清退 - Infoq.cn",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IcXh1S1ZMbHBHZExaemg3N1pfV1BBWTM2THZIQTlpOHZaOE5zT1FoRVdKUkJ3SWNjbmV2ZGhkMzc5ZmVNa3JyZHVMbng5ZlVYTUhaTjlRbk9Tdw?oc=5",
+    "published_at": "2026-04-01T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Anthropic 近期對 Claude 高用量戶實施更嚴格限制，包含對話限額收緊與帳號終止。有用戶反映在無預警情況下被停用帳號，付費最貴方案的使用者也未能倖免，引發社群對於 API 穩定性的擔憂。",
+    "highlights": [
+      "高用量戶面臨對話限額收緊",
+      "部分用戶帳號被無預警終止",
+      "付費最高方案用戶也受影響",
+      "影響依賴 Claude API 的自動化工作流程",
+      "Anthropic 尚未公布明確的觸發規則"
+    ],
+    "why_it_matters": "依賴 Claude API 建構自動化流程的技術人員需重新評估風險。帳號穩定性與成本可預測性是企業級使用的關鍵考量。",
+    "automation_angle": null,
+    "automation_angle_zh": "審計現有 Claude API 使用量，避免觸發隱性限制。建議評估備選方案（如本地模型或其他雲端 API）以確保自動化工作流程不中斷。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-25-postman-claude-on-bedrock-4000-ai-api",
     "title": "Postman 整合 Claude on Bedrock：4000 萬開發者迎來 AI 原生 API 工作流程",
     "title_original": "Postman Integrates Anthropic’s Claude on Amazon Bedrock to Bring AI-Native API Development to 40 Million Developers - Business Wire",
@@ -20189,6 +20529,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-02-mistral-ai-tts-elevenlabs",
+    "title": "Mistral AI 發布開源 TTS 模型，宣稱超越 ElevenLabs",
+    "title_original": "Mistral AI just released a text-to-speech model it says beats ElevenLabs — and it's giving away the weights for free - VentureBeat",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZUtQbHhIa2daZ01KZjVVYkw1UkhsQmlGNVBwdjA0TDBRR0Q1anY0TDdPMDBZekMxU0VTNTVfOHpTY3RtNWhROHpnLW9BamNCTGpsTktyQmhJNEVVQ1llVVh3TklMUTgtOXVaUHZKanhHYjR5TklScHA0dGxuWDI0akpyNkdyeXVGdGt1QnN5S0hGbnQ3R2hUZWRST2JjTXZZaXhKR1VUUW5mLVhRNXRnX2JjU1o?oc=5",
+    "published_at": "2026-03-26T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Mistral AI 發布了一款文字轉語音模型，不僅開放權重免費使用，官方更聲稱其在多項指標上击败 ElevenLabs。模型支援克隆、情緒控制等功能，對語音合成應用開發者而言是一個成本替代方案。",
+    "highlights": [
+      "開放權重，免費使用無 API 費用",
+      "官方宣稱效能超越 ElevenLabs，但尚待第三方驗證",
+      "支援語音克隆與情緒控制",
+      "可用於本地部署或自建服務",
+      "可能衝擊現有商業 TTS 市場"
+    ],
+    "why_it_matters": "若效能屬實，開發者可免費獲得企業級 TTS 能力，大幅降低語音應用開發成本。對需要批量語音合成的自動化流程尤其有價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "本地部署該模型，測試語音克隆與長文本朗讀效果，評估用於客服機器人或有聲內容自動生成的可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-24-deepmind-ai",
