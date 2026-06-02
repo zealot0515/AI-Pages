@@ -1,5 +1,90 @@
 [
   {
+    "id": "2026-06-02-capture0x-adstrike-mcp-ad",
+    "title": "capture0x/AdStrike：整合 MCP 的 AD 滲透測試框架",
+    "title_original": "capture0x/AdStrike",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/capture0x/AdStrike",
+    "published_at": "2026-06-02T00:33:22Z",
+    "category": "agent-skills",
+    "summary": "AdStrike 是一個以 AI 驅動的模組化 Active Directory 滲透測試框架，專為授權安全評估設計。功能涵蓋 AD 列舉、攻擊路徑分析、Kerberos 與 ADCS 工作流程程、報告生成及 MCP Server 整合。專案以 Python 開發，GitHub 星標數 214，屬於近期較受關注的安全工具。",
+    "highlights": [
+      "模組化 AD 攻擊框架，支援 Kerberos 與 ADCS 攻擊路徑分析",
+      "整合 MCP Server，可與 AI Agent 联动實現自動化滲透測試",
+      "支援攻擊報告自動生成，提升紅隊操作效率",
+      "Python 語言，可與現有滲透工具鏈（BloodHound、Impacket）結合",
+      "需在合法授權範圍內使用，嚴禁未授權滲透測試"
+    ],
+    "why_it_matters": "AD 環境的傳統滲透測試高度依賴手動操作，AdStrike 將 AI 生成攻擊策略與 MCP 自動化整合後，可顯著縮短安全評估週期，並讓安全工程師專注於高價值的漏洞驗證工作。",
+    "automation_angle": null,
+    "automation_angle_zh": "安全團隊可將 AdStrike 整合至現有滲透測試流程，使用 MCP 協議與自建 AI Agent 串接，自動執行 AD 列舉與攻擊路徑生成，並由 Agent 彙整結果生成初步滲透報告草稿，供人工審核與確認。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/61238348?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-waggle-mcp-ai-agent-mcp",
+    "title": "Waggle-mcp：AI Agent 外部記憶層 MCP 伺服器",
+    "title_original": "Abhigyan-Shekhar/Waggle-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Abhigyan-Shekhar/Waggle-mcp",
+    "published_at": "2026-06-01T23:50:35Z",
+    "category": "agent-skills",
+    "summary": "Waggle-mcp 是一個專為 AI Agent 設計的外部記憶層 MCP 伺服器，可透過 pip 直接安裝，為 Agent 提供持久化的上下文記憶能力。專案規模較小（12 stars），屬於早期工具，穩定性與功能完整性需要實際測試驗證。",
+    "highlights": [
+      "提供外部記憶層，解決 Agent 長期對話中的上下文丟失問題",
+      "標準 MCP 協定，可與主流 Agent 框架（如 Claude Desktop、本地 Agent）整合",
+      "pip 一鍵安裝，部署門檻低",
+      "專案新穎，星標數低，功能迭代節奏與維護狀況待觀察",
+      "設計適用於需要跨對話維持狀態的自動化工作流程"
+    ],
+    "why_it_matters": "Agent 在長任務或多輪對話中常面臨上下文長度限制與記憶衰減問題，外部記憶層提供了一種輕量級的解決方案，對需要維護狀態一致性的技術使用者有直接價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可將 Waggle-mcp 部署於本地開發環境，測試其能否在自建的長任務 Agent 中穩定維護外部狀態；建議搭配小型任務（如自動化程式碼審查流程）先行驗證，再評估是否用於生產環境。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/176511061?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-meta-ai-instagram",
+    "title": "Meta AI 客服機器人遭駭客利用對話指令直接接管高權重 Instagram 帳號",
+    "title_original": "Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything",
+    "published_at": "2026-06-01T21:14:47+00:00",
+    "category": "hot-topics",
+    "summary": "研究人員揭露 Meta 將支援系統直接串接 AI 聊天機器人，駭客僅需在對話中要求「將目標帳號連結新郵箱」即可繞過驗證完成帳號接管。此案例顯示 LLM 被賦予高風險操作權限時，無需複雜提示注入即可造成嚴重資安危害。",
+    "highlights": [
+      "攻擊方式極為簡單：僅需在對話中提出帳號接管要求，無需特殊提示注入技巧",
+      "Meta AI 支援系統被直接串接帳號修復流程，賦予單次對話變更郵箱的權限",
+      "攻擊者可在單次對話中完成整個帳號盜取流程",
+      "此漏洞顯示 AI 客服系統存在將高風險操作暴露於一般對話介面的設計問題"
+    ],
+    "why_it_matters": "此事件再次提醒開發者：將高風險系統操作（如帳號修復）直接暴露給 LLM 控制存在極大安全風險。對話式AI若具備敏感權限，單純依賴對話語境無法阻擋惡意操作。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應以此為案例檢視自家 AI 客服系統：確保高風險操作（帳號變更、權限調整、敏感資料存取）必須通過多因素驗證或專用 API，並非單純依賴 LLM 對話流程。可對照OWASP Top 10 for LLM Applications 中的 Insecure Output Handling 風險進行自家系統審查。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-01-desktopcommandermcp-claude-mcp-server",
     "title": "DesktopCommanderMCP：讓 Claude 直接掌控終端與檔案系統的 MCP Server",
     "title_original": "wonderwhy-er/DesktopCommanderMCP",
@@ -503,6 +588,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-02-openai-codex-aws",
+    "title": "OpenAI 前沿模型與 Codex 正式登陸 AWS",
+    "title_original": "OpenAI frontier models and Codex are now available on AWS",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+    "published_at": "2026-06-01T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布其前沿模型系列及 Codex 編碼模型已通過 AWS 全面可用，企業可直接在已有的 AWS 環境、治理流程與採購體系中使用 OpenAI 模型。官方表示此舉旨在簡化從評估到生產的轉換路徑，但內容偏重合作公告，技術實現細節有限。",
+    "highlights": [
+      "OpenAI 前沿模型與 Codex 透過 AWS Bedrock 或類似服務提供",
+      "企業可直接在既有 AWS 帳號與合規框架下使用 OpenAI 模型",
+      "簡化採購與合規流程，降低企業使用門檻",
+      "目前披露以公關聲明為主，具體 API 規格差異尚待確認",
+      "對於已有 AWS 預算與治理流程的企業，此為新增的模型接入管道"
+    ],
+    "why_it_matters": "對已深度使用 AWS 的企業團隊而言，通過 AWS 接入 OpenAI 模型可減少額外的供應商整合與合規審查，降低模型變更與多雲管理的複雜度，同時可能適用既有的 AWS 承諾用量折扣。",
+    "automation_angle": null,
+    "automation_angle_zh": "已使用 AWS 的技術團隊可評估將 OpenAI 模型接入流程統一至 AWS 環境，利用 AWS IAM 與 VPC 進行存取控制；若同時使用其他 Bedrock 模型，可將 OpenAI 整合進統一的模型路由層，實現性價比最優化。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-06-01-antigravity-codex",
@@ -4003,6 +4116,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/50999261?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-anthropic-claude-opus-4-8-1-000",
+    "title": "Anthropic 發布 Claude Opus 4.8：支援動態工作流程與低價快速模式，工作流程上限 1,000 個子代理",
+    "title_original": "Anthropic Ships Claude Opus 4.8 Alongside Dynamic Workflows and Cheaper Fast Mode, With Workflows Capped at 1,000 Subagents - MarkTechPost",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOV3l0eDNuRTdLY0dTVEFBOUlENXFrQWVBR2NvbzF3MmM4LTZidEd5eG9EdVBqSUlfRzhQQkVjNEJRNm1lamJwVnJGWWg4NFhCc2d3RkxucUF3azlzSkczUUFnVktsamNieVJNcFNSWEExbE5rRUd1UldBNTNuSmQ3RDdBaHpWdDQ0dmhRVEJTWmFJUEpQVnNSSHVrQVFSRm1VZDc0NDltQXBsTS1FbDU4Nmx0QWFuYkFuSWhWem9Gc19fTENhOXNMNkt5dG5vVFkxM0dYbDJIUEZzWU1oa3JCaUd0akgyRC11NEQ4R3lyNFZncEkx?oc=5",
+    "published_at": "2026-05-28T22:12:16+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 正式發布 Claude Opus 4.8 模型，同步推出 Dynamic Workflows 功能與更便宜的 Fast Mode。Dynamic Workflows 允許構建複雜的多代理工作流程，但每個工作流程最多限制 1,000 個子代理。Fast Mode 提供更低的延遲與成本，適合對速度敏感的應用場景。這是 Anthropic 首次將旗艦模型更新與工作流程功能深度整合，標誌著從純聊天向代理自動化邁進的戰略轉變。",
+    "highlights": [
+      "Claude Opus 4.8 發布，模型能力與性價比同步提升",
+      "Dynamic Workflows 新功能支援多代理協作，每個工作流程上限 1,000 子代理",
+      "Fast Mode 提供更低的 API 調用成本與延遲",
+      "工作流程 cap 意味著大規模自動化需分散至多個工作流程管理",
+      "官方強調這是面向代理（Agent）時代的產品策略調整"
+    ],
+    "why_it_matters": "對於需要建構自動化流水線的技術人員，Opus 4.8 結合工作流程功能可直接降低代理系統的開發成本。1,000 子代理上限提醒架構設計需考虑擴展性分散，而 Fast Mode 為高頻、低成本推論場景提供了解法。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可立即在 Console 或 API 中切換至 Opus 4.8，評估 Fast Mode 在批次文案生成、程式碼審查等場景的延遲與成本節省幅度，並測試 Dynamic Workflows 在多步驟自動化任務中的穩定性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-05-29-bug-solutions-for-coding-agents-mcp",
@@ -16168,6 +16309,34 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-06-02-anthropic-stainless-api",
+    "title": "Anthropic 收購 Stainless：API 開發工具生態佈局加速",
+    "title_original": "Anthropic acquires Stainless - Anthropic",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB4Um9GSkc0WGNQNTlDcEMtNnJmSVFmNnlETVkzSFBaTDF1YU9oUXgzSElGWGJvMjFLOVRHS2VONkhXWlJWREYyX2MxSlFfR2JzLVJYWE1VcGMxMWctekE4dHNmUWxPU2pseWJJ?oc=5",
+    "published_at": "2026-05-18T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Anthropic 正式宣佈收購 Stainless，這是一家專注於 API 開發工具與 SDK 生成的新創公司。Stainless 以其自動生成高品質 API 用戶端庫的技術聞名，能大幅減少手動維護 SDK 的工作量。此收購被視為 Anthropic 強化開發者生態、降低 API 使用門檻的戰略動作，收購細節與產品整合時間表尚未公佈。",
+    "highlights": [
+      "Anthropic 收購 API 工具公司 Stainless，交易金額未披露",
+      "Stainless 核心技術：自動生成多語言 API 用戶端 SDK",
+      "收購目的可能為改善 Claude API 的開發者體驗",
+      "SDK 生成自動化可減少 Anthropic 官方維護多語言庫的人力成本",
+      "具體整合計畫與時間表尚待官方後續公告"
+    ],
+    "why_it_matters": "對技術人員而言，自動生成的 SDK 可減少整合 Anthropic API 時的手動適配工作，尤其利好需要支援多語言後端的團隊。若整合順利，未來 Python、TypeScript、Go 等語言的 SDK 將更快與模型更新同步。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者目前可先試用 Stainless 既有產品評估其 SDK 生成品質，待官方整合完成後可評估是否遷移至更順暢的 Anthropic SDK 生態，以自動化減少 API 整合的維護負擔。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-05-18-gpt-5-3-codex-copilot-business-enterprise",
     "title": "GPT-5.3-Codex 正式成為 Copilot Business 與 Enterprise 底層模型",
     "title_original": "GPT-5.3-Codex is now the base model for Copilot Business and Enterprise",
@@ -21959,6 +22128,34 @@
     "automation_angle_zh": "可用此 API 建構自動化工作流程程代理，如文件處理、資料查詢、API 串接等場景，直接測試是否適用於自己的需求。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-mistral-ai-devstral",
+    "title": "Mistral AI 發布 Devstral：專注程式碼生成的開源模型",
+    "title_original": "Devstral - Mistral AI",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4tZHBmbGZmVlpfc01TTmRLN210TmlnTFZaYzdZcnVFczBQazlPMm5adFNFM0NuRHBvN2tSampab2Y1TmNtODdn?oc=5",
+    "published_at": "2025-05-21T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Mistral AI 推出 Devstral，這是一款專為程式碼生成任務優化的開源模型。Devstral 基於 Mistral 自家架構微調，在多語言程式碼補全與函式生成上表現突出。作為開源項目，技術人員可自由部署至本地環境，無需依賴商業 API。模型權重與技術報告同步發布，方便社群審計與二次開發。",
+    "highlights": [
+      "Devstral 為 Mistral AI 發布的開源程式碼生成模型",
+      "支援多語言程式碼補全與函式生成任務",
+      "模型權重開源，可本地部署，無商業 API 費用",
+      "技術報告同步發布，架構細節可供研究",
+      "適合作為本地 CI/CD 流程中的程式碼生成輔助工具"
+    ],
+    "why_it_matters": "開源且可本地部署的特性讓 Devstral 成為企業內部程式碼生成的安全選擇，無敏感資料外傳風險。對於成本敏感或需要離線推論的團隊，直接省去商業 API 的每 Token 費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將 Devstral 部署至本地伺服器，接入 IDE 插件或 CI/CD 流水線，實現自動化程式碼補全、單元測試生成或程式碼重構，同時完全掌控資料隱私與使用成本。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
