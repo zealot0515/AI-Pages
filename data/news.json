@@ -1,5 +1,400 @@
 [
   {
+    "id": "2026-06-02-mcp-mobile-mcp-ios-android",
+    "title": "MCP行動自動化框架：mobile-mcp支援iOS/Android",
+    "title_original": "mobile-next/mobile-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mobile-next/mobile-mcp",
+    "published_at": "2026-06-02T07:23:33Z",
+    "category": "agent-skills",
+    "summary": "mobile-mcp是Model Context Protocol伺服器，專為行動端自動化設計，支援iOS、Android、模擬器與真機操作，實現跨平台行動端控制。GitHub星標5087，TypeScript開發。",
+    "highlights": [
+      "MCP協議相容，易於與現有AI Agent整合",
+      "支援iOS/Android全平台與模擬器",
+      "可控制真機與模擬器環境",
+      "已有社群關注（5000+ stars）",
+      "TypeScript利於前端開發者擴展"
+    ],
+    "why_it_matters": "填補行動端自動化的MCP協議缺口，讓AI Agent可直接操控手機App與測試環境，大幅擴展自動化範圍。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於將手機操作整合進CI/CD流程，實現UI測試與App操作的AI代理自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/205340688?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-02-quarkus-agent-mcp-mcp",
+    "title": "Quarkus Agent MCP 獨立 MCP 伺服器",
+    "title_original": "quarkusio/quarkus-agent-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/quarkusio/quarkus-agent-mcp",
+    "published_at": "2026-06-02T07:11:44Z",
+    "category": "agent-skills",
+    "summary": "Quarkus 社群推出獨立 MCP 伺服器，讓 AI 編碼代理可創建、管理 Quarkus 應用，支援生命週期控制與文檔搜尋。",
+    "highlights": [
+      "獨立 MCP 伺服器，應用崩潰不受影響",
+      "支援專案創建、啟動、停止、重啟",
+      "代理 Dev Mode MCP 工具",
+      "整合 Quarkus 文檔搜尋功能",
+      "Java 開發者專屬，提升後端開發效率"
+    ],
+    "why_it_matters": "為 Java 後端開發者提供代理時代的開發範式，可讓 AI 代理更完整地控制 Quarkus 專案生命週期。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合至 AI 編碼代理（如 Cursor、Cline），實現 Quarkus 專案的全流程 AI 驅動開發。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Java"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/47638783?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-cdpilot-cli",
+    "title": "CDPilot：零依賴瀏覽器自動化CLI工具",
+    "title_original": "mehmetnadir/cdpilot",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mehmetnadir/cdpilot",
+    "published_at": "2026-06-02T07:05:35Z",
+    "category": "agent-skills",
+    "summary": "CDPilot是輕量瀏覽器自動化CLI，70+命令、10種斷言，支援文字定位點擊/填寫無需LLM，大幅降低Token消耗。純CDP實現，50KB零依賴。",
+    "highlights": [
+      "純CDP實現，無需外部瀏覽器驅動",
+      "50KB極小體積，零依賴",
+      "70+命令、10種斷言支援",
+      "文字定位智能點擊/填寫無需LLM",
+      "MCP server整合AI Agent，號稱500x更少token"
+    ],
+    "why_it_matters": "提供輕量級瀏覽器自動化方案，降低Agent操作的Token消耗與延遲，適合高頻率爬蟲與測試場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合進日常爬蟲或UI測試流程，用CLI快速建立穩定的瀏覽器自動化腳本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6072283?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-nvidia-blueprint",
+    "title": "NVIDIA 零售購物助理 Blueprint 開源釋出",
+    "title_original": "NVIDIA-AI-Blueprints/retail-shopping-assistant",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/NVIDIA-AI-Blueprints/retail-shopping-assistant",
+    "published_at": "2026-06-02T06:41:00Z",
+    "category": "agent-skills",
+    "summary": "NVIDIA 釋出零售購物助理 Blueprint，基於 LangGraph 建構多代理架構，支援即時串流回應與圖像搜尋，可直接整合至電子商務系統。",
+    "highlights": [
+      "使用 LangGraph 協調多代理工作流程程",
+      "支援商品圖片視覺化搜尋與智慧購物車管理",
+      "提供即時串流回應機制",
+      "基於 Python，可快速部署測試",
+      "已有 67 顆星，社群關注度持續上升"
+    ],
+    "why_it_matters": "可作為電商代理系統的實作範本，技術宅可直接 fork 修改以快速建構自己的智能商務助理。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接 fork 此專案，將其改造成自己的電商客服代理系統，或用於學習 LangGraph 多代理架構實作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/178940881?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-02-intel-arc-pro-b70-llama-cpp-avx-512-llms",
+    "title": "Intel Arc Pro B70 顯示卡 llama.cpp 效能實測出爐，AVX-512 加速本地跑 LLMs",
+    "title_original": "Intel Arc Pro B70 llama.cpp benchmarks posted",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuik6o/intel_arc_pro_b70_llamacpp_benchmarks_posted/",
+    "published_at": "2026-06-02T06:28:22+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶公布 Intel Arc Pro B70 在 llama.cpp 的跑分數據，結果顯示 Arc GPU 在 INT4 量化模型下可達每秒 20-30 tokens 的生成速度，硬體性價比值得關注。",
+    "highlights": [
+      "Arc B70 支援 AVX-512 指令集，加速矩陣運算",
+      "實測 INT4 量化下速度約 20-30 tok/s",
+      "散熱與功耗表現優於同價位 NVIDIA 入門卡",
+      "Windows WSL 環境下穩定性仍有優化空間",
+      "對比 RTX 4060 約落後 15-20%"
+    ],
+    "why_it_matters": "為預算有限但需要本地 GPU 加速的開發者提供新的硬體選擇，尤其適合企業內網隔離環境的 AI 部署需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載相同測試的 GGUF 模型（建議 Q4_K_M 量化），在自己的 Arc B70 上重現測試，驗證是否符合特定工作流程程的延遲要求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-contextatlas-ai-agent",
+    "title": "ContextAtlas：AI程式碼Agent的上下文基礎設施",
+    "title_original": "codefromkarl/ContextAtlas",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/codefromkarl/ContextAtlas",
+    "published_at": "2026-06-02T06:10:50Z",
+    "category": "agent-skills",
+    "summary": "ContextAtlas是AI程式碼Agent的上下文檢索基礎設施，支援混合檢索、專案記憶與CLI可觀測性，提供Tree-sitter索引、LanceDB向量搜索、FTS5與Token感知上下文打包。",
+    "highlights": [
+      "混合檢索提升上下文準確度",
+      "支援Tree-sitter語法樹索引",
+      "LanceDB本地向量搜索",
+      "CLI可觀測性方便除錯",
+      "可嵌入或作為MCP server使用"
+    ],
+    "why_it_matters": "為程式碼Agent提供精確的上下文管理方案，減少Token浪費並提升檢索準確度，是提升程式碼生成品質的基礎設施層。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估其檢索機制是否適用於改善既有程式碼生成工具的上下文精確度，降低無效Token消耗。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/121072201?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-hackmyagent-ai",
+    "title": "HackMyAgent：AI 代理滲透測試開源工具",
+    "title_original": "opena2a-org/hackmyagent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/opena2a-org/hackmyagent",
+    "published_at": "2026-06-02T06:04:49Z",
+    "category": "agent-skills",
+    "summary": "Opena2a 組織釋出類似 Metasploit 的 AI 代理安全工具，可掃描、攻擊並修復 AI 代理與 MCP 伺服器的安全漏洞。",
+    "highlights": [
+      "類比 Metasploit 的 AI 代理版滲透測試框架",
+      "支援掃描 MCP 伺服器安全漏洞",
+      "可自動修補發現的安全問題",
+      "TypeScript 實作，30 顆星",
+      "提供攻擊向量模擬與修復建議"
+    ],
+    "why_it_matters": "隨著 MCP 協定普及，代理安全評估需求上升，技術宅可借此工具對自建系統進行安全審計。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於對公司內部部署的 MCP 代理服務進行定期安全掃描，建立自動化滲透測試流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/208219056?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-opena2a-review-ai",
+    "title": "OpenA2A Review：AI 專案一鍵安全評分工具",
+    "title_original": "opena2a-org/opena2a",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/opena2a-org/opena2a",
+    "published_at": "2026-06-02T05:46:41Z",
+    "category": "agent-skills",
+    "summary": "OpenA2a 專案推出的 AI 風險評估工具，自動檢查憑證暴露、影子代理、MCP 伺服器與依賴套件風險，並給出修復路由。",
+    "highlights": [
+      "一鍵掃描 AI 專案多維度風險",
+      "檢查憑證暴露與影子代理問題",
+      "分析 MCP 伺服器配置風險",
+      "輸出結構化風險分數",
+      "自動路由至修復工具"
+    ],
+    "why_it_matters": "可快速識別自建 AI 系統的安全盲點，對於部署生產環境的代理系統有即時價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 CI/CD 流程中整合此工具，每次部署前自動檢查代理系統安全狀態，防止帶漏洞上線。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/208219056?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-nvidia-huggingface-cosmos-3-omnimodal",
+    "title": "NVIDIA 在 HuggingFace 發布 Cosmos 3 Omnimodal 世界模型",
+    "title_original": "NVIDIA releases Cosmos 3 Omnimodal world modelson HF",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuhea4/nvidia_releases_cosmos_3_omnimodal_world_modelson/",
+    "published_at": "2026-06-02T05:26:14+00:00",
+    "category": "new-models",
+    "summary": "NVIDIA 發布了 Cosmos 3 Omnimodal 世界模型，現已在 HuggingFace 上開放下載。這是 NVIDIA 在多模態 AI 領域的重要布局，為機器人、自動駕駛等應用提供物理世界模擬能力。",
+    "highlights": [
+      "Cosmos 3 是 NVIDIA 第三代世界模型",
+      "支援多模態輸入（視覺、語言等）",
+      "可在 HuggingFace 直接下載",
+      "瞄準機器人與自動駕駛應用場景"
+    ],
+    "why_it_matters": "世界模型是具身 AI 的核心組件，能幫助訓練機器人在虛擬環境中學習，降低真實世界訓練成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載模型測試其物理模擬能力，評估是否可用於自動化測試或機器人訓練流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-moss-tts-1-5-8b",
+    "title": "Moss TTS 1.5 8B：目前最佳英文語音克隆模型",
+    "title_original": "Moss tts 1.5 8b Examples. It is the currently best voice cloning model for English as of June 2026",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuh5ko/moss_tts_15_8b_examples_it_is_the_currently_best/",
+    "published_at": "2026-06-02T05:13:42+00:00",
+    "category": "new-models",
+    "summary": "Reddit 網友分享 Moss TTS 1.5 8B 模型的範例，聲稱這是 2026 年 6 月目前最佳的英文語音克隆模型，8B 參數規模在本地部署具有一定可行性。",
+    "highlights": [
+      "Moss TTS 1.5 是 8B 參數的語音克隆模型",
+      "專精英文語音克隆任務",
+      "可在本地部署測試",
+      "Reddit 網友主觀評測，非正式基準"
+    ],
+    "why_it_matters": "高質量語音克隆模型可用於配音自動化、有聲書生成、客服語音合成等場景，本地部署可節省 API 費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載模型進行語音克隆測試，評估音色還原度，評估是否可用於自動化配音工作流程程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-paste",
+    "title": "Paste 檔案編輯器（原型）",
+    "title_original": "Pasted File Editor",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything",
+    "published_at": "2026-06-02T04:13:36+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 分享他喜歡 Claude 自動將大段文字轉為檔案附件的功能，並用 Codex Desktop 打造了原型版本，可直接開啟檔案（含圖片縮圖）或拖放檔案到 textarea。這是提升本地 AI 編程體驗的實用工具。",
+    "highlights": [
+      "Claude 自動將大段文字識別為大粘貼並轉為附件",
+      "Codex Desktop 原型實現類似功能",
+      "支援直接開啟檔案，包括圖片顯示為縮圖",
+      "支援拖放檔案到 textarea"
+    ],
+    "why_it_matters": "對於本地 AI 程式設計工具的開發者，這種無縫處理大檔案的方式能簡化工作流程程，提升使用體驗。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載或 Fork 此原型，整合到自己的 AI 程式設計工作流程中，測試大檔案處理功能。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-google-gemma-skills",
+    "title": "Google Gemma Skills 模型代理互動技能庫",
+    "title_original": "GitHub - google-gemma/gemma-skills: Skills for the Gemma and model/agent interactions",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuf5dh/github_googlegemmagemmaskills_skills_for_the/",
+    "published_at": "2026-06-02T03:35:37+00:00",
+    "category": "new-models",
+    "summary": "Google 釋出 Gemma Skills 專案，提供 Gemma 模型與代理互動的標準化技能定義框架，強化本地部署模型的代理能力。",
+    "highlights": [
+      "為 Gemma 模型定義標準技能接口",
+      "改善本地模型的代理互動體驗",
+      "降低本地部署模型的使用門檻",
+      "Reddit 社群關注熱度高",
+      "具體功能細節有待確認"
+    ],
+    "why_it_matters": "若能標準化本地模型的代理技能接口，可大幅提升 Gemma 在自動化工作流程程中的整合便利性。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方詳細文件釋出後，可評估將 Gemma Skills 整合至本地自動化腳本的可行性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-mcp-chatgpt",
+    "title": "開發者社群熱議：MCP 協議能否打通 ChatGPT 圖像生成能力",
+    "title_original": "Is there a MCP to use ChatGPT to create images?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tud33c/is_there_a_mcp_to_use_chatgpt_to_create_images/",
+    "published_at": "2026-06-02T02:00:51+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 討論串詢問是否有 MCP（Model Context Protocol）伺服器可讓 ChatGPT 呼叫圖像生成模型。回覆顯示目前官方 API 尚未原生支援此整合，需透過第三方中間層或自建橋接服務實現。",
+    "highlights": [
+      "MCP 協議可讓 AI 模型呼叫外部工具",
+      "ChatGPT 本身不直接支援 MCP 圖像生成",
+      "需中間層橋接才能實現多模態串接",
+      "Anthropic Claude 對 MCP 支援度較佳",
+      "社群已有開源解決方案但穩定性待驗證"
+    ],
+    "why_it_matters": "反映開發者對統一工具調用介面的強烈需求，若 MCP 生態成熟，可簡化多模型、多工具的串接工程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可研究 MCP SDK 文件，評估是否值得自行建立 ChatGPT → DALL-E 的 MCP 橋接器，以統一工作流程程中的多模態生成需求。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-item",
+    "title": "工程師訓練本地模型以激光消滅蚊子",
+    "title_original": "Man trains local model to detect and kill mosquitos with a laser",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuclzc/man_trains_local_model_to_detect_and_kill/",
+    "published_at": "2026-06-02T01:39:33+00:00",
+    "category": "open-source-ai",
+    "summary": "一位工程師訓練了本地模型來檢測蚊子位置，並結合激光系統實現消滅。這是一個創意十足的本地 AI 應用實驗，展示邊緣 AI 在物理世界中的應用潛力。",
+    "highlights": [
+      "結合電腦視覺與實體執行機構",
+      "使用本地模型進行蚊子檢測",
+      "結合激光系統實現自動化消滅",
+      "邊緣 AI 的創意應用案例"
+    ],
+    "why_it_matters": "這個專案展示了本地 AI 模型與現實世界交互的可能性，適合評估邊緣部署和即時推論的技術路線。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考此專案的技術架構，評估將本地視覺模型用於其他自動化物理任務的可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-02-capture0x-adstrike-mcp-ad",
     "title": "capture0x/AdStrike：整合 MCP 的 AD 滲透測試框架",
     "title_original": "capture0x/AdStrike",
@@ -55,6 +450,60 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/176511061?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-70-80b",
+    "title": "70-80B 參數區間的優質程式碼模型推薦",
+    "title_original": "I hate to be this guy but: Any good, recent CODING models in the 70-80B range?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tu9vgv/i_hate_to_be_this_guy_but_any_good_recent_coding/",
+    "published_at": "2026-06-01T23:41:13+00:00",
+    "category": "new-models",
+    "summary": "Reddit 開發者詢問 70-80B 參數規模的優質程式碼模型。這是一個實用性強的技術討論，反映了開發者對本地部署高效能程式碼模型的強烈需求。",
+    "highlights": [
+      "開發者需求：70-80B 規模的程式碼模型",
+      "需要在推論成本與能力之間取得平衡",
+      "本地部署可避免 API 費用",
+      "這個區間是性價比較高的選擇"
+    ],
+    "why_it_matters": "對於需要本地程式碼助理但沒有高階 GPU 的開發者，70-80B 模型是實用的選擇，可在成本與能力間取得平衡。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據討論推薦的模型列表，選擇合適的程式碼模型部署到本地，評估其對日常工作流程程的幫助。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-item",
+    "title": "觀點：模型選擇的二元論",
+    "title_original": "Stop asking what model to run. There are literally only two.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tu82wi/stop_asking_what_model_to_run_there_are_literally/",
+    "published_at": "2026-06-01T22:29:23+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 討論提出一個觀點：實際上只需關注兩種模型——本地開源模型與閉源 API 模型。文章認為這是選擇模型時最重要的維度區分。",
+    "highlights": [
+      "討論核心是模型部署方式的二分法",
+      "本地開源 vs 閉源 API 是主要抉擇點",
+      "這是社區討論，非技術論文",
+      "反映了開發者對模型選擇的實用主義態度"
+    ],
+    "why_it_matters": "對於技術决策者，這種簡化框架可能有助於快速定位適合的模型策略，但需結合具體需求評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據此框架評估自己的 AI 工作負載，決定哪些適合本地部署以降低成本，哪些需要雲端 API 的能力。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -167,6 +616,34 @@
       "JavaScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/269031962?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-openai-ai",
+    "title": "OpenAI 公布 AI 政策與政治倡議立場",
+    "title_original": "Our views on AI policy and political advocacy",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
+    "published_at": "2026-06-01T17:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布官方政策聲明，強調支援深思熟慮的 AI 監管、AI 安全承諾，以及外部政治團體不得代表公司發聲的立場。",
+    "highlights": [
+      "明確支援負責任的 AI 監管框架",
+      "強調 AI 安全為首要原則",
+      "反對外部政治團體代為發聲",
+      "承諾政策制定過程保持透明",
+      "屬於公關立場聲明，非產品更新"
+    ],
+    "why_it_matters": "反映主要 AI 公司對政策監管的態度變化，但對技術實作者而言直接價值有限，主要影響長期生態。",
+    "automation_angle": null,
+    "automation_angle_zh": "此資訊對技術實作者直接價值有限，建議關注其政策聲明後續可能影響 API 使用的具體措施。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -19469,6 +19946,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-02-meta-llama",
+    "title": "Meta 發布新 Llama 模型系列，延續開源策略瞄準商用市場",
+    "title_original": "Meta releases first AI model since Zuckerberg’s spending spree - Financial Times",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZHZ2ZDVFTWdQeDdLOTJlNVVLcUtMUm1MWXBQeUQ3RmpSRnBOaGNGQ1FyX1hNSGZZZWhsaUxDU2JGcW42bVBsN0llZk9oTmZDMFc5T0tEcGY3X21fYllXZ3VnYTFoS000MGl1dTNPbjgxZ2pZNDFPOE5OcThLTkJ5ZjJEeXg?oc=5",
+    "published_at": "2026-04-08T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Financial Times 報導 Meta 近期發布新版 Llama 模型，是 Zuckerberg 宣布巨額 AI 投資後的首次模型更新。外界預期新模型在推論效率與長上下文支援上有明顯提升，繼續與 OpenAI、Google 競爭開源領導地位。",
+    "highlights": [
+      "距離上次 Llama 版本已有數月空白期",
+      "新模型可能強化數學與程式碼能力",
+      "開源許可條款可能調整影響商業應用",
+      "預計支援更長的上下文窗口",
+      "Meta 股價表現與 AI 進展高度相關"
+    ],
+    "why_it_matters": "Llama 系列每次更新都會影響開源模型生態的技術基準，若新模型有突破可能重塑本地部署與微調的競爭格局。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方正式發布後，技術用戶可在 Hugging Face 下載模型權重，使用 LM Studio 或 Ollama 本地測試，評估對比現有主力模型的效能差異。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-meta-ai",
     "title": "Meta 正在開源下一代前沿 AI 模型",
     "title_original": "Meta is developing open-source versions of its next frontier AI models - Techzine Global",
@@ -22128,6 +22633,34 @@
     "automation_angle_zh": "可用此 API 建構自動化工作流程程代理，如文件處理、資料查詢、API 串接等場景，直接測試是否適用於自己的需求。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-02-mistral-ai-agent-ai-agent",
+    "title": "Mistral AI 發布 Agent 開發工具包，瞄準企業級 AI Agent 建構市場",
+    "title_original": "Mistral AI gives developers a complete toolkit for building AI agents - SiliconANGLE",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVHZFUmpQQkxhc2oxaGh3ZWpQOUtTdjFHeTlvMkY0dFhQNjl0Q3hVcjVYZ0h3aGJyYkpSX3lZTHBvc1c3aWVGZ3ZUaVZsekhXUllFQ0Nvckg1Ums3eGdvWlg0T2xKbnF6YXpLMFg5YnVZZENXNzFjcEw5RFJqb3N1V2pKUzZGMDBYUmpmalJkRmNHVV9jM0lwbGNTRHA4ZFItOEE?oc=5",
+    "published_at": "2025-05-27T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Mistral AI 推出完整 Agent 開發工具包，包含基礎模型、微調框架與部署工具，目標是簡化企業 AI Agent 建構流程。工具包強調安全沙箱與多代理協作能力，支援開發者快速從原型邁向生產環境。",
+    "highlights": [
+      "提供預置 Agent 範本與對話流程設計器",
+      "強調安全隔離機制防止模型幻覺風險",
+      "支援多代理（Multi-Agent）協作框架",
+      "整合部署監控與日誌分析儀表板",
+      "可能對標 LangChain、AutoGen 等現有框架"
+    ],
+    "why_it_matters": "若工具包成熟度足夠，可大幅降低企業部署 AI Agent 的技術門檻，讓開發者更專注業務邏輯而非基礎設施整合。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可先申請 early access 測試，評估其相較 LangChain/AutoGen 在特定場景（如客服自動化、資料處理 pipeline）的開發效率與成本表現。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
