@@ -1,5 +1,250 @@
 [
   {
+    "id": "2026-06-03-anysearch-mcp-server-ai-agent",
+    "title": "AnySearch MCP Server：AI Agent 統一即時搜尋引擎技能",
+    "title_original": "anysearch-ai/anysearch-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/anysearch-ai/anysearch-mcp-server",
+    "published_at": "2026-06-03T00:40:45Z",
+    "category": "agent-skills",
+    "summary": "AnySearch MCP Server 為 AI Agent 提供統一的即時搜尋引擎技能，星標達 882，屬於近期高人氣 MCP 專案。旨在簡化 Agent 對外部資訊的獲取，降低多源搜尋整合的開發成本。",
+    "highlights": [
+      "星標 882，社群關注度高",
+      "統一介面整合多來源搜尋",
+      "設計為 MCP 協定相容",
+      "適合需要即時資訊的 Agent 場景"
+    ],
+    "why_it_matters": "882 星的高速成長反映技術社群對 Agent 搜尋能力的強烈需求。此專案提供開箱即用的解決方案，可節省自行整合多源搜尋的工程時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 AnySearch MCP Server 接入個人 Agent 工作流程，直接獲取即時資訊，無需維護自訂爬蟲或 API 包裝層。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/271186954?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-github-copilot-gpt-4-1",
+    "title": "GitHub Copilot 正式棄用 GPT-4.1 模型",
+    "title_original": "GPT-4.1 deprecated",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-02-gpt-4-1-deprecated",
+    "published_at": "2026-06-02T23:58:52+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布於 2026 年 6 月 1 日起，在所有 Copilot 體驗中棄用 GPT-4.1 模型，包括 Chat、內聯編輯、提問與代理模式，以及程式碼補全。此為官方公告，用戶需遷移至替代模型。",
+    "highlights": [
+      "· 棄用範圍涵蓋 Copilot 所有產品入口",
+      "· 替代模型建議尚未明確揭露",
+      "· 棄用生效日為 2026 年 6 月 1 日",
+      "· 影響所有使用 GPT-4.1 的開發工作流程"
+    ],
+    "why_it_matters": "Copilot 用戶需儘早評估替代模型對既有提示與工作流程的影響，避免停機風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即盤點現有 Copilot 使用情境，測試替代模型是否滿足需求，並更新相關腳本與提示模板。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-03-model-compose-docker-compose-ai",
+    "title": "Model-Compose：Docker Compose 風格的 AI 工作流程定義工具",
+    "title_original": "hanyeol/model-compose",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/hanyeol/model-compose",
+    "published_at": "2026-06-02T22:51:41Z",
+    "category": "agent-skills",
+    "summary": "Model-Compose 以單一 YAML 檔案定義 AI Agent、RAG pipeline、MCP server 與多 LLM 應用。定位為輕量級 LangChain 替代方案，星標 73，適合快速建構與原型驗證。",
+    "highlights": [
+      "以 YAML 定義複雜 AI 工作流程",
+      "支援 Agent、RAG、MCP server、多模型協作",
+      "標榜輕量，無 LangChain 學習曲線",
+      "星標 73，社群關注度尚在成長"
+    ],
+    "why_it_matters": "YAML 驅動的設計降低了 AI 工作流程的建構門檻，適合需要快速原型或厭倦 LangChain 複雜度的技術用戶。可作為內部工具或實驗專案的底層架構。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 Model-Compose 快速定義多模型串接流程，替換複雜的 LangChain 流水線，降低維護成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/19699721?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-mai-thinking-1-mai-code-1-flash",
+    "title": "微軟發布 MAI-Thinking-1 推論模型與 MAI-Code-1-Flash 程式碼模型",
+    "title_original": "Microsoft's new MAI models",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything",
+    "published_at": "2026-06-02T22:21:52+00:00",
+    "category": "new-models",
+    "summary": "微軟於 Build 大會發布兩款新 LLM：MAI-Thinking-1 為 35B 參數推論模型，宣稱在盲測中優於 Sonnet 4.6；MAI-Code-1-Flash 為 5B 參數程式碼模型，已整合進 GitHub Copilot VS Code 版。兩者均強調從頭訓練、使用商業授權資料，暗示可能避開未授權網路資料爭議。",
+    "highlights": [
+      "MAI-Thinking-1 僅 35B 參數卻自称超越 Sonnet 4.6，性價比值得關注",
+      "MAI-Code-1-Flash 5B 參數已推送至 GitHub Copilot 個人用戶",
+      "微軟強調訓練資料為「適當授權」乾淨資料，具體來源待揭曉",
+      "模型已可在 VS Code 中試用，技術用戶可立即驗證",
+      "低參數高效模型趨勢持續，成本控制成為廠商重點"
+    ],
+    "why_it_matters": "MAI-Code-1-Flash 直接影響 GitHub Copilot 用戶的程式碼生成體驗，而乾淨訓練資料的承諾可能為業界合規樹立新標準。",
+    "automation_angle": null,
+    "automation_angle_zh": "VS Code 用戶可立即在 GitHub Copilot 中測試 MAI-Code-1-Flash 的生成速度與品質，評估其是否能加速日常重複性程式碼編寫。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-opencode-qwen3-6",
+    "title": "OpenCode 與 Qwen3.6 的異常問題",
+    "title_original": "Weird issue with OpenCode and Qwen3.6",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tv5wmh/weird_issue_with_opencode_and_qwen36/",
+    "published_at": "2026-06-02T22:10:08+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 社區開發者回報 Qwen3.6 模型與 OpenCode 整合時出現非預期行為。問題涉及模型输出一致性或工具調用邏輯異常，具體表現為特定提示詞下的穩定失敗模式。此類實戰 bug 回報對於評估本地部署模型的實用性具體參考價值。",
+    "highlights": [
+      "Qwen3.6 為較新開源模型，與主流 agent 框架整合穩定性待驗證",
+      "OpenCode 工具調用機制與 Qwen3.6 輸出格式存在匹配問題",
+      "問題可穩定重現，有助於社群定位相容性瓶頸",
+      "開發者需注意並非所有開源模型都能無縫接入現有工作流程",
+      "建議追蹤上游修復或考慮替代模型組合"
+    ],
+    "why_it_matters": "對於在本地部署 Qwen 模型做為開發助理的技術用戶，此問題直接影響日常工作流程程的穩定性，需及時掌握並規劃替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "本地部署 Qwen3.6 的用戶應暫緩將 OpenCode 用於關鍵自動化任務，待社群確認修復後再評估整合可行性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-harness-skills-ai-ci-cd",
+    "title": "Harness Skills：AI 編碼助理驅動 CI/CD 工作流程的技能庫",
+    "title_original": "harness/harness-skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/harness/harness-skills",
+    "published_at": "2026-06-02T21:48:18Z",
+    "category": "agent-skills",
+    "summary": "Harness Skills 讓 Claude Code、Cursor、GitHub Copilot 等 AI 編碼助理透過自然語言操作 Harness CI/CD 流程。屬於 Shell 腳本套件，目前星標 24，定位於專業 DevOps 場景。",
+    "highlights": [
+      "支援主流 AI 編碼助理（Claude Code、Cursor、Copilot）",
+      "以自然語言驅動 CI/CD 工作流程",
+      "Shell 腳本形式，易於嵌入既有 pipeline",
+      "適合已在使用 Harness 的團隊"
+    ],
+    "why_it_matters": "將 AI 編碼助理延伸至 CI/CD 操作，減少開發者在 GitOps 與部署流程中的手動切換。對於已使用 Harness 的團隊，可提升端到端自動化程度。",
+    "automation_angle": null,
+    "automation_angle_zh": "若團隊使用 Harness，可將此技能庫整合進 AI 編碼助理，使模型能直接觸發部署、除錯與狀態查詢。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Shell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/34780278?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-reddit",
+    "title": "Reddit 討論：代理系統現用何種記憶機制？",
+    "title_original": "What memory system are you using for your agents?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tv4xi0/what_memory_system_are_you_using_for_your_agents/",
+    "published_at": "2026-06-02T21:33:50+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社群討論本地部署代理的記憶系統選擇議題，開發者交流向量儲存、知識圖譜與滑動窗口等方案經驗，但討論串本身未提供實質技術細節或Benchmark。",
+    "highlights": [
+      "· 僅為社群提問，未有官方技術文件",
+      "· 討論覆蓋多種記憶架構概念",
+      "· 缺乏可驗證的效能數據"
+    ],
+    "why_it_matters": "此討論可視為社群需求趨勢參考，但不宜作為技術決策依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此討論作為需求調研起點，自行測試不同記憶方案的延遲與準確率。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-datasette-agent-micropython-0-1a0",
+    "title": "datasette-agent-micropython 0.1a0 發布",
+    "title_original": "datasette-agent-micropython 0.1a0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything",
+    "published_at": "2026-06-02T19:28:36+00:00",
+    "category": "open-source-ai",
+    "summary": "Simon Willison 發布 datasette-agent-micropython 首個 Alpha 版，旨在透過 MicroPython + WebAssembly 沙盒安全執行 AI 代理生成的 Python 程式碼，目前 GPT-5.5 尚未突破沙盒防護。",
+    "highlights": [
+      "· 使用 WebAssembly 實現程式碼隔離執行",
+      "· Alpha 版本代號 0.1a0，仍屬早期階段",
+      "· 沙盒安全性初步驗證正向",
+      "· 目標是讓 Datasette Agent 能安全生成並執行 Python"
+    ],
+    "why_it_matters": "為代理工具提供可控的程式碼執行環境，降低 AI 生成程式碼的安全風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接 pip install datasette-agent-micropython 進行沙盒執行測試，評估其對代理工作流程的實用性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-micropython-wasm-0-1a1",
+    "title": "micropython-wasm 0.1a1 版本更新",
+    "title_original": "micropython-wasm 0.1a1",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything",
+    "published_at": "2026-06-02T19:20:47+00:00",
+    "category": "open-source-ai",
+    "summary": "Simon Willison 同步發布 micropython-wasm 0.1a1，修復開發 datasette-agent-micropython 過程中發現的限制問題，屬依賴底層套件的維護更新。",
+    "highlights": [
+      "· 屬 datasette-agent-micropython 的底層依賴更新",
+      "· 修復 WebAssembly 沙盒相關限制",
+      "· 兩者同為 Alpha 階段，建議同步升級"
+    ],
+    "why_it_matters": "底層修補直接影响上層代理工具的穩定性與安全性，需一併關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "更新 micropython-wasm 後重新執行沙盒測試，確認既有功能未受影響。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-02-meta-ai",
     "title": "Meta AI：開源生態系如何征服雲端",
     "title_original": "Introducing Rubrics: Build Agents that Evaluate and Correct Their Work",
@@ -19630,6 +19875,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-03-claude-platform-aws",
+    "title": "Claude Platform 正式登陸 AWS",
+    "title_original": "Introducing Claude Platform on AWS: Anthropic’s native platform, through your AWS account | Amazon Web Services - Amazon Web Services (AWS)",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUmZxSGR3dWhwMkRBNVgwSl91ZFVRLVptdTVhUERmcmF3dVROU21WT2hTeGExWldvNDBpN2RaNDY5MmxEa1llWGozcGRsZmNOeFJVLUFhVXoyYTlKMFhmWjc1dmRIckEyZVk4aTlGUk1jNGpuc2ZrMkhMN2xYRDM1dzBfWXN1SmtsRjRxaXJmYWtsMFJCb01UcEJkOWs2NEZGdWVhUjhmaktkLURIS0pnRzRham9JTldWNUREVmRLRERVNG1CLU5pSlBHbks2QQ?oc=5",
+    "published_at": "2026-05-11T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "AWS 與 Anthropic 宣布 Claude Platform 原生支援 AWS 帳戶，開發者可在熟悉的 AWS 基礎設施上直接部署 Claude API，簡化企業級 AI 整合流程。",
+    "highlights": [
+      "· Claude Platform 透過 AWS 原生提供",
+      "· 可使用既有 AWS 帳單與權限管理",
+      "· 降低跨平台整合複雜度",
+      "· 企業用戶受益明顯"
+    ],
+    "why_it_matters": "對已深度使用 AWS 的團隊，提供統一的雲端帳務與合規框架，降低 Anthropic API 整合摩擦。",
+    "automation_angle": null,
+    "automation_angle_zh": "透過 AWS Marketplace 或 IAM 角色啟用 Claude Platform，評估與現有 Lambda、ECS 工作流程的整合便利性。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-14-openai-deployco-ai",
