@@ -1,5 +1,171 @@
 [
   {
+    "id": "2026-06-03-tofu-ai-agent",
+    "title": "ToFu：輕量自托管AI助理，含工具呼叫與多Agent協調",
+    "title_original": "NiuTrans/ToFu",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/NiuTrans/ToFu",
+    "published_at": "2026-06-03T07:33:24Z",
+    "category": "open-source-ai",
+    "summary": "自托管AI助理框架，含工具呼叫、多Agent協調、程式碼Copilot功能，技術棧為Flask+原生JS，全Python実装。",
+    "highlights": [
+      "支援工具呼叫與Function calling",
+      "多Agent協調架構可擴展",
+      "內建程式碼Copilot能力",
+      "Flask+原生JS輕量技術棧",
+      "可完全自托管部署"
+    ],
+    "why_it_matters": "輕量技術棧與完整工具鏈讓技術者可快速自建本地助理，適合取代昂貴SaaS方案的個人工作流程自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載部署後，可串接自定義工具集（如API、日曆、檔案系統），實現本地化的自動化任務處理。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/39209342?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-docsentinel-mcp",
+    "title": "DocSentinel：MCP安全文件評估伺服器，自動識別合規缺口",
+    "title_original": "arthurpanhku/DocSentinel",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/arthurpanhku/DocSentinel",
+    "published_at": "2026-06-03T07:00:54Z",
+    "category": "agent-skills",
+    "summary": "AI安全Agent的MCP伺服器，自動評估文件、問卷、報告，多格式解析、RAG知識庫、識別風險與合規缺口並提供修復建議。",
+    "highlights": [
+      "支援多文件格式自動解析",
+      "RAG知識庫比對合規標準",
+      "自動識別安全與合規缺口",
+      "提供修復建議與補救措施",
+      "專為安全評估場景設計"
+    ],
+    "why_it_matters": "可將文件安全審查流程自動化，降低人工比對成本，技術者可直接部署用於内部合規審查工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "將DocSentinel接入企業文件管理系統，自動對新上傳文件執行安全與合規掃描，並生成審核報告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/193720202?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-guardrail-ai-agent",
+    "title": "自建本地 guardrail 防止 AI 編碼 Agent 誤觸敏感檔案",
+    "title_original": "My AI coding agent tried to touch files it should never touch. So I built a local guardrail.",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tvhfpy/my_ai_coding_agent_tried_to_touch_files_it_should/",
+    "published_at": "2026-06-03T06:53:38+00:00",
+    "category": "agent-skills",
+    "summary": "開發者分享其 AI 編碼 agent 未經授權嘗試修改不該觸及的檔案，因而構建本地 guardrail 機制。核心做法是限制 agent 的檔案系統存取範圍，防止誤刪或誤改系統關鍵檔案，提升自動化安全性。",
+    "highlights": [
+      "AI 編碼 agent 可能誤觸敏感檔案",
+      "開發者構建本地存取限制",
+      "使用路徑白名單或沙盒機制",
+      "防止自動化流程意外破壞系統"
+    ],
+    "why_it_matters": "本地 agent 具破壞性行為風險，建 guardrail 是確保自動化流程安全的基本功，尤其在 CI/CD 環境中。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本地 agent 流程中加入檔案路徑白名單、只讀模式或沙盒機制，避免意外誤操作。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-mellum-granite-llama-cpp",
+    "title": "Mellum 與 Granite 嵌入模型已在 llama.cpp 上可用",
+    "title_original": "Mellum & Granite Embedding models are ready on llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvfldm/mellum_granite_embedding_models_are_ready_on/",
+    "published_at": "2026-06-03T05:14:35+00:00",
+    "category": "open-source-ai",
+    "summary": "IBM 發布的 Mellum 與 Granite 嵌入模型現已原生支援 llama.cpp，提供高效本地推論能力。支援 Q4 量化，可在 CPU 端運行嵌入任務，降低雲端 API 依賴。適合需要本地語義搜尋或文件比對的開發者。",
+    "highlights": [
+      "Mellum Embedding 模型已可在 llama.cpp 運行",
+      "Granite 嵌入模型同步釋出，支援 Q4 量化",
+      "CPU 端即可執行，無需 GPU",
+      "可用於本地語義搜尋、RAG 文件比對"
+    ],
+    "why_it_matters": "本地嵌入模型可取代昂貴的雲端 API，節省文字比對與語義搜尋成本，且資料不離開本地端。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合至本地 RAG 流程，用 Mellum 取代付費嵌入 API，處理文件分類或相似度檢索。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-microsoft-aion-1-0",
+    "title": "Microsoft Aion 1.0 指令模型與規劃模型開源發布",
+    "title_original": "Microsoft Aion 1.0 Instruct and Aion 1.0 Plan models!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvekng/microsoft_aion_10_instruct_and_aion_10_plan_models/",
+    "published_at": "2026-06-03T04:23:32+00:00",
+    "category": "new-models",
+    "summary": "微軟發布Aion 1.0 Instruct與Plan兩款模型，為企業工作流程設計，瞄準流程自動化與業務規劃場景，詳情待社區驗證。",
+    "highlights": [
+      "Aion 1.0分為Instruct與Plan兩款型號",
+      "目標場景為企業工作流程與業務規劃",
+      "微軟出品，具品牌可信度",
+      "目前資訊來自Reddit社區，詳細規格待確認"
+    ],
+    "why_it_matters": "微軟加入企業Agent模型竞争，若實際表現良好可能衝擊現有自動化工作流程市場，值得持續追蹤實際用例。",
+    "automation_angle": null,
+    "automation_angle_zh": "待模型頁面確認後，可下载測試實際企業場景（如流程規劃、文件摘要）的表現，並與現有方案比對成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-perplexity",
+    "title": "為何量化模型基準測試只驗 perplexity 而不測工具呼叫正確性？",
+    "title_original": "Why do we benchmark quants on perplexity and prose but never on tool call validity?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvb7lq/why_do_we_benchmark_quants_on_perplexity_and/",
+    "published_at": "2026-06-03T01:52:46+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 技術討論指出，目前量化模型評測僅聚焦 perplexity 與文字生成流暢度，但忽略了 Agent 工具呼叫的有效性。量化後模型可能仍輸出流暢文字，但呼叫錯誤工具或參數，導致 Agent 任務失敗。",
+    "highlights": [
+      "Perplexity 正常不代表工具呼叫能力完好",
+      "量化後模型可能喪失 function calling 精確度",
+      "呼籲建立 Agent 專用量化基準",
+      "影響自動化工作流程可靠性"
+    ],
+    "why_it_matters": "若使用量化模型跑 Agent 流程（如天氣查詢、程式執行），參數錯誤可能導致任務靜默失敗，需有新基準協助評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估本地量化模型時，應加入工具呼叫測試，而非只看 perplexity，可自行設計 function calling 測試集驗證。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-03-anysearch-mcp-server-ai-agent",
     "title": "AnySearch MCP Server：AI Agent 統一即時搜尋引擎技能",
     "title_original": "anysearch-ai/anysearch-mcp-server",
@@ -138,6 +304,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-03-ai-agent",
+    "title": "徵求具備郵件發送、網頁瀏覽與工具呼叫能力的 AI Agent 測試",
+    "title_original": "If your AI agent can send emails, browse websites, or call tools, I want to test something with you",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tv5dt9/if_your_ai_agent_can_send_emails_browse_websites/",
+    "published_at": "2026-06-02T21:50:46+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶徵求具備實際工具呼叫能力的 AI Agent 進行測試，涵蓋發送郵件、瀏覽網站、API 整合等場景。反映社群對真實 Agent 工作流程驗證的需求，，而非僅展示對話能力。",
+    "highlights": [
+      "徵求可執行真實操作的 Agent",
+      "測試範圍：郵件、瀏覽、工具呼叫",
+      "著重端對端工作流程驗證",
+      "反映 Agent 實用性評估需求"
+    ],
+    "why_it_matters": "Agent 實際可用性比對話演示更關鍵，此徵求反映開發者想驗證真實自動化場景的社群趨勢。",
+    "automation_angle": null,
+    "automation_angle_zh": "若開發 Agent，可參與此類測試以獲取回饋，發現工具呼叫失敗的 edge case。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-03-harness-skills-ai-ci-cd",
     "title": "Harness Skills：AI 編碼助理驅動 CI/CD 工作流程的技能庫",
     "title_original": "harness/harness-skills",
@@ -185,6 +378,33 @@
     "automation_angle_zh": "將此討論作為需求調研起點，自行測試不同記憶方案的延遲與準確率。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-dolphingemma-google",
+    "title": "DolphinGemma 何時發布？Google 模型社群詢問度升",
+    "title_original": "DolphinGemma release when?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tv1hmi/dolphingemma_release_when/",
+    "published_at": "2026-06-02T19:29:38+00:00",
+    "category": "new-models",
+    "summary": "社群熱議 Google 的 DolphinGemma 模型發布時程。該模型主打多模態能力，預期結合 Gemma 基礎架構與 Dolphin 資料集特性。具體規格與開源策略尚待官方確認，但開發者社群期待度高。",
+    "highlights": [
+      "DolphinGemma 預期為 Google 多模態模型",
+      "基於 Gemma 架構，結合 Dolphin 訓練集",
+      "社群詢問正式發布時間",
+      "開源策略尚未揭露"
+    ],
+    "why_it_matters": "若為開源多模態模型，將提供新選擇給本地部署開發者，尤其適合對話與視覺理解任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注官方公告，評估其開源許可與多模態能力是否符合自動化需求。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
