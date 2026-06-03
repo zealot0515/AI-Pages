@@ -1,5 +1,232 @@
 [
   {
+    "id": "2026-06-03-octocode-mcp",
+    "title": "octocode：MCP 語意程式碼研究與上下文生成工具",
+    "title_original": "bgauryy/octocode",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/bgauryy/octocode",
+    "published_at": "2026-06-03T13:23:14Z",
+    "category": "agent-skills",
+    "summary": "octocode 是 TypeScript 寫成的 MCP 伺服器，支援跨公私庫自然語意搜尋、程式碼流程轉換為 AI 可理解的知識圖譜，可即時抓取實作與文件，提升 Agent 對陌生程式碼庫的理解深度。",
+    "highlights": [
+      "GitHub 854 星，快速累積關注",
+      "支援公私倉庫的語意搜尋",
+      "可將程式碼流程轉為 AI 優化知識",
+      "基於 MCP 協議，易與現有 Agent 整合",
+      "TypeScript 實作，前端/全端工程師友善"
+    ],
+    "why_it_matters": "程式碼理解是 Agent 工作流程的瓶頸，octocode 能讓 Agent 即時掌握專案結構與實作細節，減少 hallucination 並提升任務準確度。",
+    "automation_angle": null,
+    "automation_angle_zh": "在既有 Agent 工作流程中串接 octocode，讓它在處理陌生專案時自動查詢語意上下文，而非僅依賴簡報或註解。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/4633839?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-mas-mcp-agno",
+    "title": "MAS 順序推論 MCP 伺服器：用 Agno 框架實現多代理思維流程",
+    "title_original": "FradSer/mcp-server-mas-sequential-thinking",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/FradSer/mcp-server-mas-sequential-thinking",
+    "published_at": "2026-06-03T13:02:34Z",
+    "category": "agent-skills",
+    "summary": "開源 MCP 伺服器，透過 Agno 框架整合多代理系統，實現結構化順序推論流程。可直接作為工具接入 Cursor、Claude Code 等 AI 編碼工具，強化複雜任務拆解與多步推論能力。",
+    "highlights": [
+      "基於 Agno 框架建構的 MAS（多代理系統）",
+      "透過 MCP 協定提供推論服務",
+      "Python 実装，相容主流 AI 開發環境",
+      "GitHub 已有 302 顆星，社群關注度佳",
+      "可與 Claude Code、Cursor 等工具串接"
+    ],
+    "why_it_matters": "為 AI 編碼代理提供結構化推論骨架，避免模型在複雜任務中迷失。技術宅可快速實測並整合進現有工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "Clone repo 後用 Python 環境安裝，可作為 MCP 工具讓 Claude Code 執行多步驟推論任務。測試複雜程式重構或需求分析時，可觀察順序推論如何降低幻覺機率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1439628?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-delive-asr",
+    "title": "DeLive：系統音訊擷取與多後端 ASR 即時字幕工具",
+    "title_original": "XimilalaXiang/DeLive",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/XimilalaXiang/DeLive",
+    "published_at": "2026-06-03T12:30:38Z",
+    "category": "agent-skills",
+    "summary": "DeLive 是一款本地優先工具，支援系統音訊錄製、12 種 ASR 後端、60+ 語言即時字幕，並具 AI 摘要、聊天、思維導圖功能。內建 MCP 伺服器與 Agent Skill，可直接整合進 AI 工作流程。",
+    "highlights": [
+      "GitHub 220 星，TypeScript 實作",
+      "系統音訊擷取，無需特殊權限",
+      "支援 12 種 ASR 後端選擇",
+      "60+ 語言即時字幕",
+      "內建 AI 摘要、聊天、思維導圖"
+    ],
+    "why_it_matters": "會議、研討會、螢幕錄製的即時轉譯與摘要，可大幅減少人工記錄負擔。本地處理確保敏感內容不外流。",
+    "automation_angle": null,
+    "automation_angle_zh": "用它自動化會議紀錄：錄製系統音訊 → 即時轉文字 → AI 摘要 → 存入筆記系統，全程無需手動整理。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/199751282?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-uber-ai-1500-ai",
+    "title": "Uber 對 AI 編碼工具設每月 1500 美元上限：企業 AI 成本控制實錄",
+    "title_original": "Uber Caps Usage of AI Tools Like Claude Code to Manage Costs",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything",
+    "published_at": "2026-06-03T12:01:27+00:00",
+    "category": "ai-deals",
+    "summary": "Uber 將員工每款 AI 程式工具的月消費上限設為 1500 美元，以因應 2026 年 AI 預算在四個月內燒光的狀況。以中位薪資 33 萬美元計算，該上限約佔工程師年薪的 11%，透露企業對 AI 工具的真實價值判斷。",
+    "highlights": [
+      "每個 agentic 編碼工具每月上限 1500 美元",
+      "不限用工具種類，各工具預算獨立計算",
+      "適用於 Cursor、Claude Code 等代理型工具",
+      "Uber 員工 AI 支出上限約佔年薪 11%",
+      "作者自身用量約每月 1000 美元，但訂閱計畫有補貼"
+    ],
+    "why_it_matters": "企業開始以美元數字衡量 AI 工具 ROI，而非只看產出量。此案例提供技術主管評估 AI 投入效益的具體參考框架。",
+    "automation_angle": null,
+    "automation_angle_zh": "若在大型企業工作，可用 Uber 的數據（11% 薪資佔比）評估團隊 AI 工具預算是否合理，或計算自家工程師的 AI 投入產出比。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-03-pocketrb-ruby-ai-agent",
+    "title": "pocketrb：精簡型 Ruby AI Agent 框架",
+    "title_original": "mensfeld/pocketrb",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mensfeld/pocketrb",
+    "published_at": "2026-06-03T10:13:27Z",
+    "category": "open-source-ai",
+    "summary": "pocketrb 是 Ruby 語言的微型 AI Agent 框架，支援多 LLM 後端，適合 Ruby 生态中的輕量級自動化腳本與工具開發，目前星數較少，社群成熟度有待觀察。",
+    "highlights": [
+      "Ruby 語言原生框架",
+      "支援多 LLM 後端路由",
+      "精簡設計，適合嵌入式腳本",
+      "僅 38 星，社群規模小",
+      "適合現有 Ruby 專案擴展 AI 能力"
+    ],
+    "why_it_matters": "若已有 Ruby 技術棧，pocketrb 可讓你在不引入 Python 生態的情況下快速原型化 AI 功能，但穩定性與社群支援需自行評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "Ruby 工程師可用它快速為 Rails 或 Sidekiq 任務添加 LLM 判斷邏輯，如自動化資料分類或異常偵測。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Ruby"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/392754?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-codex",
+    "title": "如何優化Codex使用效率？開發者實戰討論",
+    "title_original": "How to optimize codex usage?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tvkpw1/how_to_optimize_codex_usage/",
+    "published_at": "2026-06-03T10:00:14+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit論壇上開發者討論在OpenAI Codex使用過程中遇到的效率瓶頸與優化策略，包括減少不必要的API呼叫、優化prompt結構、善用系統提示詞引導模型行為等實戰技巧，以及對比不同使用模式的成本效益。",
+    "highlights": [
+      "分塊處理（chunking）策略可有效降低單次呼叫複雜度",
+      "系統提示詞的設計直接影响任務完成率與token消耗",
+      "比較即時模式與批次模式的延遲與成本差異",
+      "快取（caching）機制的有效利用方式",
+      "錯誤重試邏輯的最佳實踐"
+    ],
+    "why_it_matters": "Codex是開發者常用的AI程式輔助工具，其使用成本與效率直接影響開發團隊的生產力與專案預算。實戰優化經驗可幫助技術人員降低工具成本同時提升輸出品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將討論中的優化策略（如批次處理、prompt模板化）整合到CI/CD流程中，自動化程式碼審查或重構任務。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-llm-2d",
+    "title": "LLM能否遵守嚴格的2D空間限制？以推箱子遊戲測試",
+    "title_original": "Can LLMs Adhere to Strict 2D Spatial Constraints? (Testing with Sokoban)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvjltc/can_llms_adhere_to_strict_2d_spatial_constraints/",
+    "published_at": "2026-06-03T08:58:09+00:00",
+    "category": "new-models",
+    "summary": "研究者透過推箱子（Sokoban）遊戲測試多種LLM的2D空間推論能力，結果顯示即使是最先進模型在處理嚴格空間約束時仍面臨挑戰。測試揭示了模型在路徑規劃、物體位置記憶等方面的具體弱點，對評估代理（Agent）在遊戲或模擬環境中的決策可靠性有重要參考價值。",
+    "highlights": [
+      "以推箱子為測試基準，量化各LLM的空間約束遵循率",
+      "測試涵蓋路徑規劃、物體位置追蹤、不可逆操作預防等維度",
+      "結果顯示空間推論仍是LLM的明顯短板",
+      "不同模型家族（GPT、Claude、Llama等）表現差異顯著",
+      "測試方法可供開發者複製，用於評估自選模型"
+    ],
+    "why_it_matters": "空間推論能力直接影響AI代理在遊戲、機器人控制、室內設計等場景的實用性。此測試提供了客觀基準，幫助技術人員選擇適合需要空間理解的任務的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可使用此測試框架評估自選模型，用於判斷是否需要對特定空間任務進行額外提示工程或結合視覺模型。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-item",
+    "title": "研究論文與模型實作之間的時間差：大型實驗室的技術黑箱",
+    "title_original": "Major labs timeshift between the research they publish on Arxiv and implementation in models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvih98/major_labs_timeshift_between_the_research_they/",
+    "published_at": "2026-06-03T07:52:38+00:00",
+    "category": "new-models",
+    "summary": "Reddit 討論揭示主要 AI 實驗室在 Arxiv 發布研究到模型實際落地之間存在顯著時間差。從研究發布到用戶可用可能歷時數月到一年，反映企業策略性保留技術的現象。",
+    "highlights": [
+      "論文發布與模型實作存在時間落差",
+      "大型實驗室傾向策略性控制技術釋出節奏",
+      "研究者可用此分析競爭對手的實際技術進度",
+      "時間差可用於評估實驗室的真實技術實力"
+    ],
+    "why_it_matters": "了解時間差有助技術宅評估實驗室的真實技術水平，避免被行銷包裝誤導。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤感興趣實驗室的論文發布時間與模型上線時間，可估算其技術成熟度並搶先布局整合。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-03-tofu-ai-agent",
     "title": "ToFu：輕量自托管AI助理，含工具呼叫與多Agent協調",
     "title_original": "NiuTrans/ToFu",
@@ -85,6 +312,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-03-chatgpt-10",
+    "title": "ChatGPT 創歷史紀錄：成為最快達成 10 億月活用戶的應用程式",
+    "title_original": "ChatGPT makes history and becomes the fastest app to reach 1 billion monthly active users.",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tvh4z4/chatgpt_makes_history_and_becomes_the_fastest_app/",
+    "published_at": "2026-06-03T06:36:40+00:00",
+    "category": "hot-topics",
+    "summary": "ChatGPT 達成一項歷史性里程碑，成為史上最快達到 10 億月活躍用戶的應用程式，創下用戶增長速度新紀錄。此成就顯示 AI 消費應用已進入主流市場。",
+    "highlights": [
+      "ChatGPT 月活用戶突破 10 億大關",
+      "用戶增長速度超越 TikTok、Instagram 等前紀錄保持者",
+      "OpenAI 產品滲透率達到前所未見的規模",
+      "反映 AI 工具從早期採用者擴展至大眾市場"
+    ],
+    "why_it_matters": "月活用戶規模直接影響 API 成本、模型迭代優先級與企業級服務穩定性。10 億用戶代表 OpenAI 有足夠資源持續優化模型，技術用戶應關注其 API 政策與用量限制的潛在變化。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應重新評估基於 ChatGPT API 的應用成本結構——用戶規模成長可能帶來更穩定的定價或新的用量層級，建議檢查現有 API 整合的容錯機制。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-03-mellum-granite-llama-cpp",
     "title": "Mellum 與 Granite 嵌入模型已在 llama.cpp 上可用",
     "title_original": "Mellum & Granite Embedding models are ready on llama.cpp",
@@ -130,6 +384,33 @@
     "why_it_matters": "微軟加入企業Agent模型竞争，若實際表現良好可能衝擊現有自動化工作流程市場，值得持續追蹤實際用例。",
     "automation_angle": null,
     "automation_angle_zh": "待模型頁面確認後，可下载測試實際企業場景（如流程規劃、文件摘要）的表現，並與現有方案比對成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-openai-gpt-image-1-mini",
+    "title": "OpenAI 宣布停用 GPT-Image-1-mini 模型",
+    "title_original": "GPT-Image-1-mini is being deprecated",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tvbi8r/gptimage1mini_is_being_deprecated/",
+    "published_at": "2026-06-03T02:05:25+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 正式宣布停用 GPT-Image-1-mini 圖像生成模型，此舉可能影響目前依賴該模型的開發者工作流程程。用戶需評估遷移至其他圖像模型的可行性與成本影響。",
+    "highlights": [
+      "GPT-Image-1-mini 即將被正式停用",
+      "可能迫使開發者遷移到其他圖像生成模型",
+      "停用時間表與替代方案尚未完全明確",
+      "對現有使用該模型的自動化流程有直接影響"
+    ],
+    "why_it_matters": "模型停用代表現有圖像生成工作流程必須重新配置，若不及時應對可能導致自動化流程中斷。技術用戶應盡快評估替代方案，避免生產環境受到影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即盤點現有腳本與工作流程中對 GPT-Image-1-mini 的調用，評估遷移至 DALL-E 3 或其他開源圖像模型的可行性與成本差異。",
     "tags": [
       "new-models",
       "rss",
@@ -4634,6 +4915,33 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/55824402?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-claude-agent-sdk-anthropic",
+    "title": "Claude Agent SDK 完整工作坊：Anthropic 官方教學資源釋出",
+    "title_original": "Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic Googlebook (4mPnkinqVh) - Mshale",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzb1YxSmNRV2hpR3hEbVVERU9TcXRRRU9MemRqcHJ5NnJNaUpHZUlaVEVLY1R0ZVVRb0hsaFZpbFhIb2xhdW5zLXIwWV9CVGpTLU1tYmlqdk9YZnVDbW5aaA?oc=5",
+    "published_at": "2026-05-30T04:30:48+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic 釋出由 Thariq Shihipar 主講的 Claude Agent SDK 完整工作坊，內容涵蓋 SDK 架構、工具調用、對話管理與生產部署要點。適合想深入整合 Claude 的開發者。",
+    "highlights": [
+      "官方釋出完整工作坊影片與教材",
+      "覆蓋 SDK 基本架構與實務應用",
+      "包含工具調用與對話狀態管理",
+      "提供生產環境部署指引"
+    ],
+    "why_it_matters": "Anthropic 官方教學代表其 SDK 生態成熟度提升，工作坊內容可直接應用於商業專案開發。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可依工作坊內容建立 Claude Agent 範本，加速內部工具或客服代理的開發流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -18945,6 +19253,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-03-anthropic",
+    "title": "Anthropic 推出「程式化信用池」機制因應代理工具使用成長",
+    "title_original": "Anthropic announces ‘programmatic credit pool’ as agentic tool use rises - SiliconANGLE",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPekQ4TWxDSDQxN0JESGl2aDRXbXdzZE1CTFUwbGxXeEJ6a1d4NU1ZMnlYSjFGLXFISll2OS11dERMaGt4ekRWUlFhWXJCTGxtbGtlOEFBQ09EODNjel9FWlhaZzlEZFI3OGZZdnRYWmsxRU9YbGxCbGJJLWVLdEpyYlo1RXJBSy1MdkxWVDJYbzdwYWpOMzBaNGwzRGwtbDZkejJVcUJaUQ?oc=5",
+    "published_at": "2026-05-14T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Anthropic 宣布「程式化信用池」（programmatic credit pool），允許企業更彈性地分配 AI API 額度，以支援代理工具消耗量快速成長的趨勢。此機制類似 Uber 限制的另一種回應方案。",
+    "highlights": [
+      "因應代理工具使用量上升而設計的新方案",
+      "提供企業更彈性的信用額度管理",
+      "與 Uber 的 1500 美元硬上限形成對比",
+      "可能影響大型企業的 AI 成本結構"
+    ],
+    "why_it_matters": "Anthropic 開始在產品層面回應企業 AI 成本管理需求，信用池機制可能成為企業採購談判的新籌碼。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業技術決策者可研究此方案與固定上限的差異，評估是否向 Anthropic 申請信用池以獲得更靈活的 AI 支出控制。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-managed-deep-agents",
     "title": "Managed Deep Agents：最快上線生產深度代理的方案",
     "title_original": "Managed Deep Agents: the fastest way to ship a production deep agent",
@@ -22145,6 +22480,34 @@
     "why_it_matters": "小型模型效能提升代表本地部署與邊緣 AI 應用的可行性增加，為需要低延遲的自動化腳本提供新選擇。",
     "automation_angle": null,
     "automation_angle_zh": "立即測試 Small 4 的回應速度與性價比，評估是否可替代大型模型處理日常客服、排程等自動化任務。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-mistral-ai-mistral-small-4",
+    "title": "Mistral AI發布Mistral Small 4模型",
+    "title_original": "Introducing Mistral Small 4 - Mistral AI",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1rUmt5OVVGTXhuUGEzbng3QkdmSTBrZDlvUmZXNDRxTGkzVUlrZTFGUVhvU3BhZnlVUDZQYkVLTXU0UDZ6TzJBd3lZbHoxVGhBdEs5U2JB?oc=5",
+    "published_at": "2026-03-16T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI推出Mistral Small 4，這是該公司Small系列的最新迭代。官方資訊顯示新版本在推論效率與上下文理解方面有所提升，提供更小的參數規模但號稱接近大型模型的效能表現，瞄準需要高效能與低成本兼顧的部署場景。",
+    "highlights": [
+      "Mistral Small 4為Small系列的最新版本",
+      "強調高效能與低資源消耗的平衡",
+      "具體效能 benchmark 數據有待官方完整釋出",
+      "可能支援更長的上下文窗口",
+      "預計提供API與開源版本"
+    ],
+    "why_it_matters": "Mistral Small系列一直是開源社群與中小型部署的首選，新版本若能在保持成本優勢的同時提升能力，將直接衝擊需要高效能推論但預算有限的開發者與企業。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方詳細規格出爐後，可用於評估作為需要快速推論的自動化流程後端，或作為本地部署的輕量級替代方案。",
     "tags": [
       "new-models",
       "rss",
