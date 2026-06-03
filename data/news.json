@@ -1,5 +1,231 @@
 [
   {
+    "id": "2026-06-03-llama-cpp-qwen3-6-3-5-mtp",
+    "title": "llama.cpp 支援 Qwen3.6/3.5-MTP 效能實測",
+    "title_original": "llama.cpp - Qwen3.6/3.5-MTP - Share your benchmarks t/s",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvzcow/llamacpp_qwen3635mtp_share_your_benchmarks_ts/",
+    "published_at": "2026-06-03T19:07:40+00:00",
+    "category": "open-source-ai",
+    "summary": "社群分享 llama.cpp 最新版本對 Qwen3.6 與 Qwen3.5-MTP 的支援效能 benchmark，焦點在 tokens/s 吞吐量表現。開發者正在收集不同硬體設定下的實際跑分數據。",
+    "highlights": [
+      "llama.cpp 新版本已加入 Qwen3.6 支援",
+      "Qwen3.5-MTP 為新架構變體",
+      "社群持續更新各硬體配置 Benchmark",
+      "主要指標為 tokens/second 吞吐量",
+      "需注意是不同的量化解讀"
+    ],
+    "why_it_matters": "本地端跑大模型已成為開發者標配需求，llama.cpp 的優化與新模型支援直接影響本地部署的可行性與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可下載最新 llama.cpp，針對自身硬體環境實測 Qwen3.6/3.5-MTP，找出最佳量化參數與效能設定。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-agentql-mcp-agentql-mcp",
+    "title": "agentql-mcp：將 AgentQL 資料抓取能力接入 MCP 協定",
+    "title_original": "tinyfish-io/agentql-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tinyfish-io/agentql-mcp",
+    "published_at": "2026-06-03T19:07:17Z",
+    "category": "agent-skills",
+    "summary": "tinyfish-io/agentql-mcp 是一個 Model Context Protocol 伺服器，將 AgentQL 的結構化資料抓取能力標準化，讓 AI Agent 可透過 MCP 協定取用網頁資料萃取功能。",
+    "highlights": [
+      "基於 Model Context Protocol（MCP）標準",
+      "整合 AgentQL 的資料萃取語法",
+      "173 stars，JavaScript 實作",
+      "可讓 Claude、Cursor 等 Agent 直接查詢網頁結構化資料",
+      "降低自行處理網頁爬蟲的開發成本"
+    ],
+    "why_it_matters": "MCP 協定逐漸成為 Agent 工具生態標準，agentql-mcp 讓技術用戶能快速為既有 Agent 補上可靠的網頁資料抓取能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "在支援 MCP 的 Agent 環境（如 Claude Desktop）中安裝此 server，即可在對話內直接下指令抓取網頁結構化資料，減少手工爬蟲工作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/119996419?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-sessiongrep-cli-agent-sqlite-fts5",
+    "title": "sessiongrep：CLI Agent 的本地記憶層，用 SQLite + FTS5 索引對話歷史",
+    "title_original": "braincompany/sessiongrep",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/braincompany/sessiongrep",
+    "published_at": "2026-06-03T18:25:07Z",
+    "category": "agent-skills",
+    "summary": "sessiongrep 是 CLI Agent 的本地記憶層，可索引 Claude Code、Codex CLI、Cursor 的 session 歷史並存入 SQLite + FTS5 全文搜尋，讓下個 Agent session 能召回上次的操作上下文。",
+    "highlights": [
+      "支援 Claude Code、Codex CLI、Cursor 三種主流 CLI Agent",
+      "使用 SQLite + FTS5 實現本地快速全文搜尋",
+      "可從 CLI、TUI 或 MCP server 查詢歷史",
+      "Rust 實作，11 stars，為早期專案",
+      "解決 Agent 無法跨 session 記憶的痛點"
+    ],
+    "why_it_matters": "CLI Agent 常見痛點是每次新 session 都要重頭解釋上下文，sessiongrep 讓技術用戶的工作累積可被搜尋復用，提升長期自動化效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者安裝後可讓自己的腳本化 Claude Code 流程具備長期記憶，例如查詢「上次用什麼參數部署到正式環境」之類的問題。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/181523743?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-openai",
+    "title": "OpenAI 公共政策議程：安全、青少年保護、勞動力轉型",
+    "title_original": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvw2ej/introducing_gemma_4_12b_a_unified_encoderfree/",
+    "published_at": "2026-06-03T17:18:20+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方發布公共政策議程文件，涵蓋 AI 安全標準、青少年使用保護、勞動力過渡支援、以及全球治理框架。屬於戰略層面文件，非直接技術規格。",
+    "highlights": [
+      "強調 AI 安全與風險管理框架",
+      "提議青少年使用限制與保護措施",
+      "涉及勞動力轉型的政策支援倡議",
+      "呼籲建立國際 AI 標準與合作機制",
+      "官方文件，可追溯與驗證"
+    ],
+    "why_it_matters": "了解主要 AI 公司的政策立場有助預判監管方向，對需要合規的技術決策者與產品規劃者有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "若從事 AI 產品開發，可將此政策框架納入合規檢查清單參考。但不直接提供可自動化技術。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-langchain-agent",
+    "title": "LangChain 自訂 Agent 測試框架建構指南",
+    "title_original": "How to Build a Custom Agent Harness",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-to-build-a-custom-agent-harness",
+    "published_at": "2026-06-03T17:07:53+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 釋出官方指南，說明如何利用 create_agent 與 middleware 建構自訂 Agent 測試框架。核心概念是 Harness 需與任務高度耦合，透過客製化 Agent Loop 實現不同的推論策略與工具調用模式。",
+    "highlights": [
+      "使用 create_agent API 快速初始化 Agent 骨架",
+      "透過 middleware 攔截與修改 Agent 行為流程",
+      "可自訂 Tool 調用順序與重試邏輯",
+      "支援不同任務的獨立 Harness 設定",
+      "與 LangSmith 整合實現完整監控與除錯"
+    ],
+    "why_it_matters": "建立標準化 Agent 測試框架是提升 AI 系統可靠性的關鍵，能幫助技術團隊快速驗證不同 Agent 設計的效能與穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可直接 clone 官方範例，依據自身需求修改 middleware 邏輯，快速建立符合業務場景的自訂 Agent 測試環境。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-ideogram-4",
+    "title": "Ideogram 4 宣稱開源引發社群熱議",
+    "title_original": "Ideogram 4 is open source! (top ranked on DesignArena)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvuaoh/ideogram_4_is_open_source_top_ranked_on/",
+    "published_at": "2026-06-03T16:18:47+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 社群討論 Ideogram 4 圖像生成模型宣布開源的消息，在 DesignArena 排名名列前茅。但開源範圍與授權細節尚待確認，社群反應兩極。",
+    "highlights": [
+      "Ideogram 4 在設計領域評價極高",
+      "官方宣稱開源但具體內容未明",
+      "DesignArena 排名為參考指標",
+      "社群質疑開源完整性與實用性",
+      "需追蹤官方後續公告"
+    ],
+    "why_it_matters": "若 Ideogram 4 真正開源將改變圖像生成格局，但消息未經官方完整確認，技術讀者應保持謹慎。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方確認後，可評估 Ideogram 4 是否值得本地部署以降低 API 成本，或整合進現有設計工作流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-harmonic-deep-agents-4",
+    "title": "Harmonic 如何用 Deep Agents 實現 4 倍用戶留存",
+    "title_original": "Harmonic 如何用 Deep Agents 實現 4 倍用戶留存",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-harmonic-rebuilt-scout-on-deep-agents-and-4xd-retention-with-langsmith",
+    "published_at": "2026-06-03T16:00:01+00:00",
+    "category": "agent-skills",
+    "summary": "案例研究揭示 Harmonic 如何基於 LangChain 與 LangSmith 建構深度 Agent 系統，用於 Scout 產品實現 4 倍用戶留存成長。關鍵在於Agent能主動預測用戶需求並執行多步驟複雜任務。",
+    "highlights": [
+      "Deep Agents 具備長期記憶與上下文理解能力",
+      "結合 LangSmith 進行即時監控與錯誤追蹤",
+      "多 Agent 協作處理複雜用戶查詢",
+      "資料驅動的用戶行為預測模型",
+      "留存提升與 Agent 自動化程度正相關"
+    ],
+    "why_it_matters": "這是真實產品應用的量化成果，證明 Agent 技術已達到可影響關鍵商業指標的成熟度，值得產品團隊關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可研究其架構設計，參考如何用 LangSmith 追蹤 Agent 效能並最佳化使用者體驗流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-github-copilot-vs-code-2026-5",
+    "title": "GitHub Copilot VS Code 2026 年 5 月更新摘要",
+    "title_original": "GitHub Copilot in Visual Studio Code, May releases",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-03-github-copilot-in-visual-studio-code-may-releases",
+    "published_at": "2026-06-03T13:30:58+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方更新日誌涵蓋 VS Code v1.120 至 v1.123 版本（2026 年 5 月至 6 月初），內容提到 Agent 功能相關更新，具體變化需參閱完整更新日誌。",
+    "highlights": [
+      "覆蓋 VS Code v1.120 - v1.123 五月更新",
+      "官方 GitHub Blog 來源，可信度高",
+      "明確提及 Agents 相關功能更新",
+      "Copilot 在 VS Code 的整合深度持續增加",
+      "建議直接查閱更新日誌確認具體改動內容"
+    ],
+    "why_it_matters": "Copilot 的 VS Code Agent 功能持續迭代，技術用戶若重度依赖 GitHub Copilot 日常 coding，了解每月更新可發現新的自動化可能性。",
+    "automation_angle": null,
+    "automation_angle_zh": "查閱完整更新日誌，若新版 Copilot Agent 支援更多操作（如自動重構、測試生成），可將其納入日常開發工作流程並評估效率提升。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-03-octocode-mcp",
     "title": "octocode：MCP 語意程式碼研究與上下文生成工具",
     "title_original": "bgauryy/octocode",
@@ -58,6 +284,32 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-03-google-search-ai",
+    "title": "Google Search 整合 AI 助力的古董與二手購物搜尋功能",
+    "title_original": "5 ways Google Search can level up your thrift and vintage shopping",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+    "published_at": "2026-06-03T13:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google AI Blog 介紹如何利用 Google Search 與 Shopping 中的 AI 功能發掘二手與古董商品。功能包括智能比價、風格辨識與賣家信譽分析，旨在提升 thrifting（撿便宜購物）體驗。",
+    "highlights": [
+      "Google Search 提供 AI 驅動的比價功能",
+      "可辨識古董與復古風格商品",
+      "結合 Shopping 平台顯示歷史價格趨勢"
+    ],
+    "why_it_matters": "對從事電商數據分析或價格監控的技術用戶而言，此功能展示 Google 將 LLM 整合進商品搜尋的實際應用方向，亦為 SEO 與電商工具開發提供參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可研究 Google Shopping API 的資料結構，評估是否能用於自動追蹤競品價格走勢或庫存變化的腳本開發。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-03-delive-asr",
     "title": "DeLive：系統音訊擷取與多後端 ASR 即時字幕工具",
     "title_original": "XimilalaXiang/DeLive",
@@ -84,6 +336,32 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/199751282?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-chatgpt",
+    "title": "用戶反映希望關閉 ChatGPT 圖像生成功能以節省成本",
+    "title_original": "How to stop chatgpt from generating images when I need only text?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tvn8j2/how_to_stop_chatgpt_from_generating_images_when_i/",
+    "published_at": "2026-06-03T12:02:02+00:00",
+    "category": "agent-skills",
+    "summary": "一名用戶在 Reddit r/OpenAI 論壇發文，反映在使用 ChatGPT 時希望能關閉圖像生成功能，僅獲得文字回覆。這顯示部分用戶對 AI 模型的多模態功能有選擇性需求，尤其可能出於成本或速度考量。",
+    "highlights": [
+      "用戶尋求關閉 DALL-E 圖像生成的選項",
+      "反映出多模態模型並非所有場景都需要",
+      "節省tokens消耗與API成本可能是主要動機"
+    ],
+    "why_it_matters": "若 OpenAI 尚未提供此選項，代表產品介面尚有改進空間；對注重成本控制的開發者與企業用戶尤為重要。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者若批量使用 ChatGPT API，可評估是否能在提示層級加入約束，避免不必要的圖像生成呼叫以降低費用。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -172,6 +450,62 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-03-gemma-4-12b-reddit",
+    "title": "Gemma 4 12B：統一無編碼器的多模態模型Reddit曝光",
+    "title_original": "OpenAI public policy agenda",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/public-policy-agenda",
+    "published_at": "2026-06-03T10:00:00+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶披露 Google 可能在開發 Gemma 4 12B，這是一款強調統一架構、移除編碼器的多模態模型。若属实可降低部署复杂度，適合本地運行與邊緣設備。消息來源為社群讨论，尚未獲得官方證實。",
+    "highlights": [
+      "主打無編碼器架構，簡化多模態處理流程",
+      "12B 參數規模，定位介於輕量與中型模型之間",
+      "強調統一設計，可能統一視頻、文字、音頻處理方式",
+      "適合本地部署與資源受限環境",
+      "目前僅Reddit消息，需等其他來源交叉驗證"
+    ],
+    "why_it_matters": "編碼器移除代表架構簡化與推論加速，若 Gemma 4 12B 真的採用此設計，對需要在本地跑多模態模型的技術用戶是重大消息。",
+    "automation_angle": null,
+    "automation_angle_zh": "等待官方發布或更多評測，確認性能與功耗表現。若驗證為真，可評估是否能取代現有的多模態 Pipeline。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-leanstral-mistral-ai-vibe-coding",
+    "title": "Leanstral：Mistral AI 發布可信賴 vibe-coding 開源框架",
+    "title_original": "A blueprint for democratic governance of frontier AI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/frontier-safety-blueprint",
+    "published_at": "2026-06-03T10:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Mistral AI 發布 Leanstral，這是一個專為 vibe-coding 設計的開源基礎框架，旨在提供可信賴的 AI 輔助程式開發體驗。具體功能與定位需進一步確認。",
+    "highlights": [
+      "Mistral AI 官方發布（Google News 可追溯來源）",
+      "專注 vibe-coding 場景，旨在提升 AI 生成程式碼的可信度",
+      "開源屬性允許技術用戶自架與客製化",
+      "具體技術規格與能力邊界待確認",
+      "比純行銷 PR 更有技術實質價值"
+    ],
+    "why_it_matters": "Vibe-coding 是新興工作流程，能提升開發體驗但可靠性存疑。Leanstral 若能提供可控框架，可成為技術用戶的自動化開發工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "查閱 Leanstral 官方文檔或 GitHub Repo，評估其對現有開發工作流程的整合潛力。測試是否能減少程式碼審查負擔。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-03-llm-2d",
     "title": "LLM能否遵守嚴格的2D空間限制？以推箱子遊戲測試",
     "title_original": "Can LLMs Adhere to Strict 2D Spatial Constraints? (Testing with Sokoban)",
@@ -193,6 +527,34 @@
     "automation_angle_zh": "開發者可使用此測試框架評估自選模型，用於判斷是否需要對特定空間任務進行額外提示工程或結合視覺模型。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-ai-openai",
+    "title": "美國前沿 AI 治理藍圖：OpenAI 提出聯邦安全框架",
+    "title_original": "What to do with Unused API credits?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tvio0m/what_to_do_with_unused_api_credits/",
+    "published_at": "2026-06-03T08:03:26+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布美國前沿 AI 治理藍圖，建議建立聯邦級安全框架以保障韌性與國家安全。屬於政策倡議文件，非技術實現細節。",
+    "highlights": [
+      "提議聯邦政府介入前沿 AI 安全監管",
+      "強調國家安全與 AI 韌性掛鉤",
+      "建議建立跨部門協調機制",
+      "屬於政策建議，具體立法進程未知",
+      "官方來源，可驗證性高"
+    ],
+    "why_it_matters": "美國監管方向會影響 AI 企業的產品發布策略與 API 可用性，技術用戶需關注政策變化對工具可用性的潛在影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注立法進展，評估對 API 使用限制或成本的潛在影響。適合加入政策追蹤清單。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -384,6 +746,32 @@
     "why_it_matters": "微軟加入企業Agent模型竞争，若實際表現良好可能衝擊現有自動化工作流程市場，值得持續追蹤實際用例。",
     "automation_angle": null,
     "automation_angle_zh": "待模型頁面確認後，可下载測試實際企業場景（如流程規劃、文件摘要）的表現，並與現有方案比對成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-openai",
+    "title": "OpenAI 公告停用部分圖像模型，用戶社群熱議因應策略",
+    "title_original": "In reaction to the email about the image models to be shutdown, some considerations and examples.",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tve66w/in_reaction_to_the_email_about_the_image_models/",
+    "published_at": "2026-06-03T04:04:21+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 向用戶發送郵件通知即將關閉部分圖像生成模型後，Reddit r/OpenAI 社群成員分享反應與替代方案討論。社區反映對依賴 GPT-4o 圖像 API 或 DALL-E 的開發者影響較大。",
+    "highlights": [
+      "OpenAI 確認停用部分圖像模型",
+      "社群用戶正尋找替代方案（如本地模型）",
+      "可能影響基於 DALL-E API 的第三方服務"
+    ],
+    "why_it_matters": "若確實停用，將迫使仰賴 OpenAI 圖像 API 的開發者遷移至其他服務（Stable Diffusion、Midjourney API 等），直接影響工作流程與成本結構。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應立即盤點使用 OpenAI 圖像模型的腳本與應用，提前評估並測試替代方案（如本地部署的 Stable Diffusion），避免突然停機。",
     "tags": [
       "new-models",
       "rss",
@@ -659,6 +1047,32 @@
     "automation_angle_zh": "將此討論作為需求調研起點，自行測試不同記憶方案的延遲與準確率。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-gpt-prompt",
+    "title": "用戶探索「繪圖轉 GPT」功能：直接以手繪輸入 Prompt",
+    "title_original": "Drawing to GPT",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tv20gd/drawing_to_gpt/",
+    "published_at": "2026-06-02T19:47:55+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶展示如何將手繪草圖直接傳送給 GPT，引發關於 GPT 視覺理解能力與互動方式的討論。雖然具體功能細節未明，但暗示 GPT 已能接收圖像輸入並理解草圖含義。",
+    "highlights": [
+      "GPT 可接收圖像輸入理解手繪內容",
+      "用戶探索非文字 prompt 的互動可能性",
+      "反映多模態介面的自然演進方向"
+    ],
+    "why_it_matters": "對需要視覺化思考、快速原型設計的開發者而言，草圖直接轉為文字 prompt 可提升創意探索效率，亦節省打字時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "若此為正式功能，可整合進設計工作流程，讓手繪流程圖直接觸發 AI 分析或程式碼生成；技術用戶可測試其準確度與延遲。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
@@ -10155,6 +10569,34 @@
     "automation_angle_zh": "架構師可研究文章中的成本控制策略，評估是否適用於自己的 Claude API 使用情境，優化 token 用量與回應延遲的平衡。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-meta-google",
+    "title": "研究：Meta與Google模型安全防護可被快速繞過",
+    "title_original": "AI guardrails stripped from Meta and Google models in minutes - Financial Times",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPemhoS1RKNzhhdWdIRDlKVFI4NHJDaDdxVjBmV0VpS29nSW1kMUJRbWx6cGVaX2lQV3FTV0hrZ1BCT29vUnY5OVVBYW9UYnp1aEUwS1M5OERPMmNNVmk4VU55elhrRFZmWVk4dmJtTnllVkgtaUxpMDhpT2s4czVSMTBZUEU?oc=5",
+    "published_at": "2026-05-25T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "安全研究顯示，Meta與Google旗下的AI模型安全防護機制可在數分鐘內被成功移除或繞過。Financial Times報導指出，研究人員利用特定技術手段測試了主流模型的防護效果，發現多項安全防線存在可被利用的漏洞。此發現對於企業部署AI模型的安全性評估具有重要參考價值，也引發業界對於模型安全測試標準的討論。",
+    "highlights": [
+      "研究由安全社群或研究機構進行，針對Meta Llama系列及Google模型進行安全防護測試",
+      "測試方法涉及提示詞注入或模型後門等技術，結果顯示防護並非無懈可擊",
+      "此類研究並非首次，但這次針對大型科技公司模型的發現引發較高關注",
+      "模型防護被繞過可能影響內容安全、過濾與合規性檢查",
+      "研究尚未公布完整技術細節，細節需待原始論文或完整報導揭露"
+    ],
+    "why_it_matters": "對於技術決策者而言，模型安全防護的有效性直接影響AI部署的風險評估。此研究揭示即使是大型科技公司的模型也存在可被繞過的防護漏洞，意味著僅依靠模型內建防護並不足以應對所有安全威脅，企業需建立額外的安全層。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可在本地部署測試用的開源替代模型（如Llama），嘗試使用越獄提示詞評估其防護強度，建立內部模型安全測試流程，用於在正式部署前發現潛在漏洞。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
@@ -22517,6 +22959,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-03-api-reddit",
+    "title": "未使用 API 積分用途討論（Reddit 社群問題）",
+    "title_original": "Leanstral: Open-Source foundation for trustworthy vibe-coding - Mistral AI",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1JZFBGam5XMUpPR2VJRTM0N1VxM3FnZDBnWXk1Z0t3bVU3czJ4N09weFBIZ3h5UHNOZ3J2UGtpQmVOTkozY0U0Ujhn?oc=5",
+    "published_at": "2026-03-16T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶詢問未使用的 API 積分如何處理，可能是技術用戶在清理帳號或優化預算時的常見問題。討論方向可能涉及積分轉移、轉換或退款選項。",
+    "highlights": [
+      "社群的實用性問題，非新聞或技術突破",
+      "可能涉及 API 積分管理最佳實踐",
+      "取決於討論內容質量",
+      "適合技術用戶了解常見痛點",
+      "自身使用積分的用戶可關注"
+    ],
+    "why_it_matters": "節省 API 成本是技術用戶的核心訴求之一，若討論有實用技巧，可直接幫助自動化工作流程程中的成本控制。",
+    "automation_angle": null,
+    "automation_angle_zh": "查閱原帖討論內容，若有省錢技巧可加入 API 管理腳本或自動化積分追蹤系統。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-25-meta-google-openai",
     "title": "分析：Meta 能在 Google 與 OpenAI 衝刺時暫停嗎？",
     "title_original": "Avocado on Ice: Can Meta Afford to Pause While Google and OpenAI Sprint Ahead? - 24/7 Wall St.",
@@ -23481,6 +23951,32 @@
       "open-source-ai",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-03-google-399-ai-google-ai-plus",
+    "title": "Google 在印度推出 399 盧比平價 AI 訂閱方案 Google AI Plus",
+    "title_original": "谷歌在印推出399卢比Google AI Plus平價AI付费訂閱计划 - Sina finance",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01T1FtVG9YZmRBNHBNTkpsTFpIblBkaThTX2ZFancxbklRLWpUREJISUNSTzBraHBscXlUNi1uaG53OS1NUVR3eE8wOEp5Q1NzS0F1VDNrcVRlRlVKZlZkUDZZTmtFOXRDNzNZckR1NHhFVWtWbXQyX0VVc2M?oc=5",
+    "published_at": "2025-12-11T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Google 在印度市場推出月費 399 印度盧比（約新台幣 150 元）的 Google AI Plus 訂閱方案，屬於針對新興市場的定價策略測試。相較歐美市場訂閱費用明顯較低，可能搭配當地化功能與免費額度。",
+    "highlights": [
+      "月費 399 盧比，約新台幣 150 元",
+      "針對印度市場的平價 AI 訂閱方案",
+      "反映大廠對新興市場的分層定價策略"
+    ],
+    "why_it_matters": "印度為全球人口最多的市場之一，Google 此舉顯示大廠願意以低價滲透新興市場；對關注 AI 定價與市場擴張策略的技術決策者具有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可關注此方案的功能限制與用量上限，評估是否適合作為跨境產品的定價參考，或用於測試低 ARPU 市場的 AI 商業模式。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
