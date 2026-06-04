@@ -1,5 +1,146 @@
 [
   {
+    "id": "2026-06-04-agent-tempo-mcp-server-claude-code-temporal-session",
+    "title": "agent-tempo：MCP Server 讓 Claude Code 透過 Temporal 實現多 Session 協調",
+    "title_original": "vinceblank/agent-tempo",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/vinceblank/agent-tempo",
+    "published_at": "2026-06-04T00:10:52Z",
+    "category": "agent-skills",
+    "summary": "vinceblank/agent-tempo是一個TypeScript寫成的MCP server，專門為Claude Code提供與Temporal工作流程引擎的整合能力，支援跨Session的長期任務協調。目前GitHub星等16，屬早期項目，適合對AI Agent工作流程有興趣的開發者測試。",
+    "highlights": [
+      "基於MCP協議：可與Claude Code無縫整合",
+      "Temporal整合：支援長期任務的狀態管理與恢復",
+      "多Session協調：解決Agent中斷後的任務延續問題",
+      "TypeScript實作：方便前端/全端工程師閱讀與改寫",
+      "僅16星，成熟度待觀察"
+    ],
+    "why_it_matters": "當Claude Code執行長時間任務時，中斷後往往需要重頭開始。agent-tempo透過Temporal提供任務持久化與恢復機制，是提升Agent可靠性的開源嘗試，值得關注其發展。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用agent-tempo將Claude Code升級為可中斷後續接的任務執行器，適用於需要數小時的程式碼生成、測試、部署等長時工作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/40546407?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-android-vulkan-llm",
+    "title": "將 Android 手機改造成 Vulkan 加速的本地 LLM 節點",
+    "title_original": "I turned an Android phone into a Vulkan-accelerated local LLM node (GGUF + LiteLLM + Tailscale)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tw63jz/i_turned_an_android_phone_into_a/",
+    "published_at": "2026-06-03T23:15:59+00:00",
+    "category": "agent-skills",
+    "summary": "技術愛好者分享如何將普通 Android 手機改造為配備 Vulkan 加速的本地 LLM 推論節點，結合 GGUF 格式模型與 LiteLLM、Tailscale 工具，在邊緣設備上實現私有的 AI 推論服務。",
+    "highlights": [
+      "利用 Android 的 Vulkan API 加速神經網路推論",
+      "支援 GGUF 格式的量化模型（如 Q4_K_M）",
+      "透過 LiteLLM 將本地模型包裝為 OpenAI API 相容介面",
+      "Tailscale 提供安全的遠端存取隧道",
+      "實際可用於輕量級任務如翻譯、摘要"
+    ],
+    "why_it_matters": "閒置的行動裝置可成為個人化的 AI 推論節點，無需額外硬體成本即可實現隱私優先的本地 AI 處理。這對於關注資料主權或希望降低 API 費用的技術用戶極具價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此設定用於自動化工作流程程，例如將手機作為本地翻譯 API 伺服器，為自架的筆記或自動化腳本提供 AI 能力，完全無需依賴第三方雲端服務。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-gemma-4-12b-rtx-4080-super",
+    "title": "Gemma 4 12B 在 RTX 4080 Super 上的程式設計代理初測",
+    "title_original": "Gemma 4 12B first coding agent test on a 4080 Super",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tw364k/gemma_4_12b_first_coding_agent_test_on_a_4080/",
+    "published_at": "2026-06-03T21:23:25+00:00",
+    "category": "agent-skills",
+    "summary": "社群用戶首次在消費級 RTX 4080 Super 顯示卡上測試 Google Gemma 4 12B 模型的程式設計代理能力，評估其在實際編碼任務中的表現。測試重點包括程式碼生成品質、推論速度與多步驟任務執行能力。",
+    "highlights": [
+      "Gemma 4 12B 可在單張 4080 Super 上運行",
+      "在簡單程式設計任務中表現合理，但複雜任務仍有挑戰",
+      "推論速度約為每秒 15-20 tokens，屬可接受範圍",
+      "模型對長程式碼的上下文理解有待提升",
+      "測試者建議搭配好的提示詞工程以提升成功率"
+    ],
+    "why_it_matters": "消費級硬體上的開源程式設計代理意味著個人開發者可以在低成本下自動化部分開發工作。這打破了昂貴雲端 API 的壟斷，讓小型團隊也能建立自己的 AI 輔助開發流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在本地使用 Gemma 4 12B 搭配 Continue.dev 或 Cursor 等 IDE 插件，建立自己的 AI 程式設計助理，用於自動化重複程式碼生成或初步 debug 工作。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-gemma-4-12b-it-qwen3-5-9b-qwen-5-8",
+    "title": "Gemma-4-12b-it 與 Qwen3.5-9B 基準對決：Qwen 以更小參數量勝出 5/8 項目",
+    "title_original": "gemma-4-12b-it vs Qwen3.5-9B on shared benchmarks: Qwen is overall winner beating gemma in 5/8 benchmarks despite a smaller footprint",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tw0lua/gemma412bit_vs_qwen359b_on_shared_benchmarks_qwen/",
+    "published_at": "2026-06-03T19:51:33+00:00",
+    "category": "new-models",
+    "summary": "社群用戶在共同基準測試中比較 Google Gemma-4-12b-it 與 Qwen3.5-9B 兩款模型，結果顯示 Qwen 以較少的參數量在 8 項測試中的 5 項取得領先，反映出模型架構與訓練策略對效能的關鍵影響。",
+    "highlights": [
+      "Qwen3.5-9B 以 9B 參數戰勝 12B 的 Gemma",
+      "Qwen 在數學推論與常識問答項目表現較佳",
+      "Gemma 在某些特定語言任務上仍有優勢",
+      "結果顯示訓練品質可能比參數數量更重要",
+      "兩款模型均為開源，技術用戶可自由測試"
+    ],
+    "why_it_matters": "此比較印證了「更大的模型不一定更好」的觀點。對於需要在效能與資源消耗間取得平衡的技術用戶，Qwen 的高效率可能使其成為本地部署的更佳選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地端用相同 prompt 測試兩款模型，針對自身的特定任務（如自動化客服、文件分類）進行 A/B 測試，選擇實際表現更優的方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-deepseek-v4-pro-vs-mimo-v2-5-pro-vs-minimax-m3",
+    "title": "大模型性價比之戰：DeepSeek V4 Pro vs MiMo-V2.5-Pro vs MiniMax M3",
+    "title_original": "Big Model Value Wars - DeepSeek V4 Pro vs MiMo-V2.5-Pro vs MiniMax M3",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvzoly/big_model_value_wars_deepseek_v4_pro_vs/",
+    "published_at": "2026-06-03T19:19:05+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群針對 DeepSeek V4 Pro、MiMo-V2.5-Pro 與 MiniMax M3 三款模型進行性價比實測比較，旨在幫助技術用戶在本地部署場景中選擇最具成本效益的模型方案。討論聚焦於推論速度、輸出品質與硬體需求等關鍵指標。",
+    "highlights": [
+      "三款模型在相同任務下的性價比表現存在差異",
+      "DeepSeek V4 Pro 在數學推論與程式碼生成方面獲得較高評價",
+      "MiMo-V2.5-Pro 的上下文窗口長度為其優勢",
+      "MiniMax M3 在特定創意任務上表現突出",
+      "社群建議根據實際使用場景選擇模型而非盲目追求最新"
+    ],
+    "why_it_matters": "對於需要在本地部署大型語言模型的開發者而言，選擇正確的模型直接影響開發成本與效率。此比較提供實證數據，協助技術用戶做出基於實際測試而非行銷文宣的決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載這些模型，使用 lm-evaluation-harness 框架進行標準化基準測試，針對自身工作負載（如自動化文案、程式碼補全）選擇最適合的模型。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-03-llama-cpp-qwen3-6-3-5-mtp",
     "title": "llama.cpp 支援 Qwen3.6/3.5-MTP 效能實測",
     "title_original": "llama.cpp - Qwen3.6/3.5-MTP - Share your benchmarks t/s",
@@ -255,6 +396,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-04-openai-gpt-rosalind",
+    "title": "OpenAI 發布 GPT-Rosalind：生科研究專用模型",
+    "title_original": "Introducing new capabilities to GPT-Rosalind",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+    "published_at": "2026-06-03T13:15:00+00:00",
+    "category": "new-models",
+    "summary": "GPT-Rosalind是OpenAI針對生命科學領域推出的模型，強化生物學推論、藥物化學、基因組分析與實驗流程支援。屬於垂直領域專用模型，不屬通用對話模型，適合生物製藥相關開發者關注。",
+    "highlights": [
+      "生物學推論能力強化",
+      "藥物化學專業知識整合",
+      "基因組分析功能",
+      "實驗流程自動化支援",
+      "非通用模型，需特定使用場景"
+    ],
+    "why_it_matters": "如果你的工作涉及生技製藥、基因分析或藥物研發，GPT-Rosalind可能是目前少數具備深度生科知識的模型，可縮短文獻閱讀與假說驗證時間，但需確認API定價與使用限制。",
+    "automation_angle": null,
+    "automation_angle_zh": "生科相關開發者可將Rosalind整合進研究輔助工具，自動化文獻摘要、分子結構描述生成、實驗假說對比等流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-06-03-mas-mcp-agno",
     "title": "MAS 順序推論 MCP 伺服器：用 Agno 框架實現多代理思維流程",
     "title_original": "FradSer/mcp-server-mas-sequential-thinking",
@@ -391,6 +560,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-04-wasmer-codex-gpt-5-5-edge-node-js-runtime",
+    "title": "Wasmer 案例：借助 Codex 與 GPT-5.5 加速 Edge Node.js Runtime 開發",
+    "title_original": "How Wasmer used Codex to build a Node.js runtime for the edge",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/wasmer",
+    "published_at": "2026-06-03T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Wasmer分享了他們使用OpenAI Codex搭配GPT-5.5在數週內完成Edge Node.js Runtime開發的故事，聲稱開發速度提升10到20倍。此為OpenAI官網的Case Study，可信度中等，具體加速倍數未提供第三方驗證。",
+    "highlights": [
+      "目標產品：Edge Node.js Runtime",
+      "使用工具：Codex + GPT-5.5",
+      "聲稱開發加速：10x-20x",
+      "實際交付：數週完成原本可能數月的項目",
+      "屬行銷類案例，數據未經獨立驗證"
+    ],
+    "why_it_matters": "此案例說明AI輔助編碼在基礎設施類項目中也能產生顯著效果。對於有興趣在邊緣運算領域嘗試AI輔助開發的團隊，這是一個參考方向，但不建議直接用作效能預期基準。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者若正評估將AI coding工具引入基礎設施開發，可參考Wasmer的實作思路，評估自身團隊在Edge Runtime場景下用Codex輔助的可能性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-06-03-pocketrb-ruby-ai-agent",
