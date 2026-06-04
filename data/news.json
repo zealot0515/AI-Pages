@@ -1,5 +1,260 @@
 [
   {
+    "id": "2026-06-04-openmetadata-ai-assistant-agent",
+    "title": "OpenMetadata：為 AI Assistant 與 Agent 打造的可信資料上下文層",
+    "title_original": "open-metadata/OpenMetadata",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/open-metadata/OpenMetadata",
+    "published_at": "2026-06-04T07:32:06Z",
+    "category": "agent-skills",
+    "summary": "OpenMetadata 是一款開源元資料平台，為人類、AI 助理與 Agent 提供可信的資料語意與業務上下文，支援 TypeScript，生態成熟。",
+    "highlights": [
+      "14102 Stars，社群成熟且維護活躍",
+      "統一資料目錄與語意層，減少 AI 幻觉風险",
+      "可直接餵給 Agent 結構化業務上下文",
+      "支援 TypeScript，與現代前端生態整合佳",
+      "可用於企業內部 AI 應用的資料治理基礎"
+    ],
+    "why_it_matters": "資料治理是 AI Agent 落地企業場景的瓶頸，OpenMetadata 提供標準化語意層，讓 Agent 能在可信資料基礎上執行任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 OpenMetadata 部署為公司內部 AI 助理的資料上下文供應源，自動彙整資料庫 schema、表格說明、業務定義等結構化提示。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/86132257?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-04-msw-mcp-ai-agent-mock-api-mcp",
+    "title": "msw-mcp：為 AI Agent 動態 Mock 外部 API 的 MCP 工具",
+    "title_original": "JasonBoy/msw-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/JasonBoy/msw-mcp",
+    "published_at": "2026-06-04T07:06:43Z",
+    "category": "agent-skills",
+    "summary": "msw-mcp 是 Mock Service Worker 的 CLI 與 MCP Server 實現，為 AI Agent 提供動態 Mock 能力，方便在開發測試階段模擬外部 API 回應。",
+    "highlights": [
+      "結合 MSW 成熟生態，支援動態 Mock 規則",
+      "以 MCP Server 形式暴露給 Agent 呼叫",
+      "可在不依赖真实 API 的情况下測試 Agent 流程",
+      "適合需要隔離外部依賴的 CI/CD 流程",
+      "55 Stars，規模較小但方向明確"
+    ],
+    "why_it_matters": "開發 Agent 時常需 Mock 外部 API，msw-mcp 將這一步標準化並可直接被 Agent 调用，降低整合測試成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 CI pipeline 中嵌入 msw-mcp，讓 Agent 測試用例在隔離環境下運行，自動比對 Mock 回應與預期行為，省去手動準備測試資料的時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/2911620?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-reddit",
+    "title": "Reddit 討論理想本地模型是否存在技術邊界",
+    "title_original": "Ideal Local model technically possible?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1twfmnw/ideal_local_model_technically_possible/",
+    "published_at": "2026-06-04T06:41:30+00:00",
+    "category": "open-source-ai",
+    "summary": "技術社群熱烈討論完美本地模型是否可實現，聚焦於模型大小、任務泛化、硬體需求與延遲之間的權衡，分析當前技術瓶頸與未來可能的突破方向。",
+    "highlights": [
+      "理想本地模型需同時滿足低延遲、高準確率與合理VRAM需求",
+      "當前 7B-13B 模型在創意任務表現佳但數學推論仍弱",
+      "量化技術可降低硬體需求但犧牲輸出品質",
+      "多模型協作也許比單一超大模型更實際",
+      "硬體發展速度將是突破的關鍵變數之一"
+    ],
+    "why_it_matters": "對於需要在本地部署但硬體受限的技術人員，了解理想模型的技術邊界有助於做出務實的模型選擇與任務規劃，避免過度期待或錯誤投資。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據自身VRAM與任務需求建立本地模型評估矩陣，收斂出符合硬體約束的最佳模型配置方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-codex",
+    "title": "Codex 對付費方案用戶重置用量限制",
+    "title_original": "Codex just reset its usage limit for paid plan users",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1twfe4u/codex_just_reset_its_usage_limit_for_paid_plan/",
+    "published_at": "2026-06-04T06:28:16+00:00",
+    "category": "hot-topics",
+    "summary": "多位 Reddit 用戶反映 OpenAI Codex 已對付費方案用戶重置了用量限制。此變更可能影響重度依賴 Codex 進行程式碼輔助開發的使用者配額與使用策略。",
+    "highlights": [
+      "付費方案用戶的用量限制已被重置",
+      "具體重置後的配額數值需查閱 OpenAI 官方儀表板",
+      "可能對高頻率使用 Codex 的開發者造成影響",
+      "社群猜測可能與月底配額刷新機制有關",
+      "建議直接查看官方用量頁面確認個人配額狀態"
+    ],
+    "why_it_matters": "若你重度使用 Codex 處理日常編碼任務，配額重置可能直接中斷你的自動化工作流程，需要重新評估使用策略與備用方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "在個人用量監控腳本中加入 API 配額查詢功能，預先提醒配額即將耗盡，避免工作流程程中斷。可使用 OpenAI API 的 usage 端點實作。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-polywise-agentic",
+    "title": "polywise：讓內容「活過來」的開源 Agentic 內容系統",
+    "title_original": "MatrixAges/polywise",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/MatrixAges/polywise",
+    "published_at": "2026-06-04T05:15:22Z",
+    "category": "agent-skills",
+    "summary": "polywise 是一款開源 Agentic 內容系統，目標是讓靜態內容具備互動與自動化能力，支援自託管，目前 Stars 仍低（54）。",
+    "highlights": [
+      "主打內容的動態化與 Agentic 改造",
+      "支援自託管，保障資料自主性",
+      "Stars 偏低，社群規模與成熟度有限",
+      "適合願意早期採用並參與貢獻的技術用戶",
+      "具體場景應用需閱讀原始文件進一步確認"
+    ],
+    "why_it_matters": "將靜態文件轉化為可互動 Agent 入口是提升知識管理效率的方向，polywise 若能落地可成為文件自動化的新選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可部署 polywise 將內部文件庫改造為可對話式查詢系統，測試其是否能取代傳統關鍵字搜尋的文件檢索流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/61690819?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-reddit-llama-cpp-parallel-1-agent",
+    "title": "Reddit 討論 llama.cpp 的 --parallel 1 設定是否影響 Agent 效能",
+    "title_original": "[llama.cpp] Does setting `--parallel 1` impact agent harness (e.g. pi/opencode) usage?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1twcrou/llamacpp_does_setting_parallel_1_impact_agent/",
+    "published_at": "2026-06-04T04:12:18+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 社群討論在使用 pi 或 opencode 等 Agent harness 時，llama.cpp 的 --parallel 1 參數是否會造成效能瓶頸或行為異常，分享實際測試結果與參數調整建議。",
+    "highlights": [
+      "--parallel 1 強制模型每次只處理一個請求，影響多工情境下的throughput",
+      "Agent harness 常依赖並發請求來實現工具調用等待機制",
+      "部分使用者回報設定後出現逾時或工具回調失敗的問題",
+      "建議依據硬體VRAM大小與模型大小調整並發數",
+      "可能是特定版本 llama.cpp 的 bug，需交叉測試不同 commit"
+    ],
+    "why_it_matters": "本地部署 AI Agent 的效能調校是技術人員持續關注的議題，此討論提供了實務參考，可幫助優化本地推論效能並避免隱藏的設定陷阱。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 llama.cpp 的 --parallel 參數進行壓測，觀察不同設定對 agent tool call 延遲與成功率的影響，找出成本與效能的最佳平衡點。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-langchain-ai",
+    "title": "LangChain 呼籲模型中立性：避免被 AI 供應商鎖定",
+    "title_original": "Model Neutrality: Why Avoiding AI Vendor Lock-In Matters",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/model-neutrality",
+    "published_at": "2026-06-04T03:06:46+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 部落格指出各 AI 實驗室在 harness 層面設計差異導致廠商鎖定，建議採用中立的開源框架來構建 Agent，確保模型可替換、成本可控，並避免被單一供應商漲價影響業務。",
+    "highlights": [
+      "不同模型在工具叫用、JSON 輸出、token 限制上的行為差異造成遷移成本",
+      "LangChain 等框架透過統一抽象層簡化模型切換流程",
+      "避免鎖定可提升談判籌碼，獲得更優惠的 API 報價",
+      "模型中立架構有助於同時調用多模型做 ensemble 或 fallback",
+      "建議在架構設計初期就定義好模型抽象介面"
+    ],
+    "why_it_matters": "對於每日處理大量 API 呼叫的技術團隊，供應商鎖定可能導致成本失控。LangChain 的中立策略提供了實務參考，可幫助技術決策者評估現有架構的廠商依賴程度。",
+    "automation_angle": null,
+    "automation_angle_zh": "檢查現有專案中使用 hardcoded API key 的模組，改為工廠模式支援多模型供應商，提升系統韌性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-reddit-api-key-bot",
+    "title": "Reddit 網友意外洩漏 API Key，自動化 Bot 迅速偵測發現",
+    "title_original": "I accidentially leaked an API key and a bot found it. What is going on here?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tw9f1f/i_accidentially_leaked_an_api_key_and_a_bot_found/",
+    "published_at": "2026-06-04T01:38:41+00:00",
+    "category": "hot-topics",
+    "summary": "論壇有使用者分享將 API key 意外部署到公開程式碼倉庫後，自動化 bot 立即偵測並嘗試使用的真實案例。社群熱烈討論這類 API 安全掃描工具的運作機制與防護對策。",
+    "highlights": [
+      "GitHub 等平台上的自動化威脅會全天候掃描公開程式碼",
+      "洩漏的 API key 可能在外流通後才被發現，通常已造成損失",
+      "Git-secrets、pre-commit hooks 等工具可在提交前自動掃描機密資訊",
+      "及時撤銷與輪換 API key 是基本自保動作",
+      "環境變數與 .env 檔案比直接寫入程式碼更安全"
+    ],
+    "why_it_matters": "你的 API key 可能正被全球的自動化掃描器盯上，一旦洩漏可能在數分鐘內就被盜用，造成實際財務損失。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地端或 CI/CD pipeline 中整合 git-secrets 或 TruffleHog，在程式碼提交前自動阻擋含有機敏資訊的 commit。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-chatgpt",
+    "title": "ChatGPT 隱喻理解能力引發使用者討論",
+    "title_original": "Metaphor usage (ChatGPT)",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tw7jy4/metaphor_usage_chatgpt/",
+    "published_at": "2026-06-04T00:16:48+00:00",
+    "category": "hot-topics",
+    "summary": "多位 Reddit 使用者注意到 ChatGPT 在處理隱喻語言時的輸出行為發生變化，部分情境下模型的隱喻解讀與過去不同，可能與近期模型更新或系統提示詞調整有關。",
+    "highlights": [
+      "社群觀察到隱喻理解輸出有變化",
+      "懷疑為模型更新導致的行為漂移",
+      "不同任務類型可能受影響程度各異",
+      "用戶正在測試與記錄具體差異案例",
+      "尚未有官方說明此為有意的功能變更"
+    ],
+    "why_it_matters": "若你在創意寫作、教學解釋或專業比喻等場景高度依賴 ChatGPT，模型行為的微小變化可能影響輸出品質的一致性。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立回歸測試案例集，定期運行並記錄模型在隱喻理解上的輸出差異，以便追蹤何時發生重大行為變更並及時調整提示詞策略。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-04-agent-tempo-mcp-server-claude-code-temporal-session",
     "title": "agent-tempo：MCP Server 讓 Claude Code 透過 Temporal 實現多 Session 協調",
     "title_original": "vinceblank/agent-tempo",
@@ -104,6 +359,34 @@
     "why_it_matters": "此比較印證了「更大的模型不一定更好」的觀點。對於需要在效能與資源消耗間取得平衡的技術用戶，Qwen 的高效率可能使其成為本地部署的更佳選擇。",
     "automation_angle": null,
     "automation_angle_zh": "技術用戶可在本地端用相同 prompt 測試兩款模型，針對自身的特定任務（如自動化客服、文件分類）進行 A/B 測試，選擇實際表現更優的方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-google-gemma-4",
+    "title": "Google Gemma 4 模型即將釋出，多規格版本搶先看",
+    "title_original": "More Gemma 4 models incoming",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvzzml/more_gemma_4_models_incoming/",
+    "published_at": "2026-06-03T19:29:39+00:00",
+    "category": "new-models",
+    "summary": "Reddit 社群透露 Google 將推出多款 Gemma 4 變體版本，規格與能力細節尚待官方確認，社群期待新模型能在本地部署場景提供更好的性價比與任務表現。",
+    "highlights": [
+      "Gemma 4 可能包含不同參數量的變體以滿足多樣需求",
+      "預期強化 instruction following 與程式碼生成能力",
+      "Google 可能持續在 Gemma 系列提供開源權重版本",
+      "預計與 Gemma 3 形成高低搭配的產品線",
+      "具體發布時間與模型規格仍待官方公告"
+    ],
+    "why_it_matters": "Gemma 系列一直是本地部署的熱門選擇，新版本若延續開源權重策略，將為技術人員提供更多離線 AI 能力的選擇，可能改變本地模型市場的競爭格局。",
+    "automation_angle": null,
+    "automation_angle_zh": "預先整備測試資料集與 benchmark 脚本，待官方發布後第一時間評估 Gemma 4 在特定任務上的性價比。",
     "tags": [
       "new-models",
       "rss",
@@ -332,6 +615,34 @@
     "automation_angle_zh": "開發者可研究其架構設計，參考如何用 LangSmith 追蹤 Agent 效能並最佳化使用者體驗流程。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-microsoft-purview-anthropic-claude",
+    "title": "Microsoft Purview 整合 Anthropic Claude 強化企業合規可視性",
+    "title_original": "Microsoft Extends Purview With Visibility and Control of Anthropic Claude - Cloud Wars",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUkFkM1pZeHM3RjhyTjhuMlVTWTNZd1BMV09GbTBQWTZjMkRTMVh0anBaRVJrcDVDRzFYS1NlRWljcFhhSlZhVVNFZFNIVzg5TngzUU52SmxEaEp5UXVyMVJHMGFqMkNFdlpTbS1vNmFPZ0x4ZWhUZmY0Nk9IQmp5dXdJd0dnSC1NaXlvZWJaUHdQci10b25ZeTlYVmU4MzZ5?oc=5",
+    "published_at": "2026-06-03T15:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Microsoft 將 Purview 資料治理範圍擴展至 Anthropic Claude，企業可在 Microsoft 生態系中統一監控 Claude API 的使用情形、資料流向與合規政策，簡化 AI 監管報表作業。",
+    "highlights": [
+      "Purview 現在支援 Claude API 呼叫的稽核日誌收集",
+      "可設定資料外洩防護原則，限制敏感資料傳入 Claude",
+      "與 Azure AD 整合，實現基于身分的存取控制",
+      "支援合規報告匯出，符合 GDPR 等法規要求",
+      "Claude 回應內容也可被納入資料分類標籤管理"
+    ],
+    "why_it_matters": "企業使用外部 AI API 常面臨監管盲點，Microsoft Purview 的 Claude 整合提供了合規可視性，讓技術團隊能在既有 Microsoft 生態系中滿足稽核需求，降低違規風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Purview 中設定Alert規則，當偵測到特定敏感資料類型被傳送至 Claude API 時自動通知或阻擋。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -24553,6 +24864,34 @@
     "automation_angle_zh": "開發者可下載 405B 模型權重，本地部署後針對特定任務微調（FINE-TUNE），評估其在企業工作流程程中的實際效能與成本節省。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-docker-mcp-cagent-ai-agent",
+    "title": "Docker MCP 與 cagent 打造可信 AI Agent 雲端安全流程",
+    "title_original": "Securing AI Agents With Docker MCP and cagent: Building Trust in Cloud-Native Workflows - Cloud Native Now",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMDQ5X2l6R0IxMVpxMlJyU0NTal9tVFRCcXVOTm5QUk5NdVBTcEFvaXE0bExTekRGc1pYNlRJRy1CeUdwNm9sMWVuYzVnQVVQaHJUSk1xTkdqUi1IMl9ReVFSSVpPbXFKOXgtVXNoNjFKa1FSS2JRbzZPV1BZWmJwUjVOQThwUFFkM095OTdxcXJJZDVWNkRybmE1aDA5VXE1OThDRExSRno3ZjdfeHJkS0E0MVFEQUFUZW5RQkN4QTgxZHZ4RWFLbUFjY3p0MVE?oc=5",
+    "published_at": "2025-10-24T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Cloud Native Now 報導如何利用 Docker MCP 與 cagent 建立雲端原生 AI Agent 的安全信任框架，強調容器化隔離與行為驗證機制，降低模型執行時的供應鏈風險與未授權操作。",
+    "highlights": [
+      "Docker MCP 提供標準化的模型呼叫介面，限制 Agent 可存取的系統資源",
+      "cagent 實現即時行為監控，可阻斷異常 API 呼叫或資料外洩",
+      "兩者結合能在不影響效能前提下建立零信任執行環境",
+      "適用於企業內部需要對外调用多模型 API 的場景",
+      "可與現有 K8s 部署流程整合，無需大幅重構"
+    ],
+    "why_it_matters": "AI Agent 安全性成為企業落地瓶頸，Docker MCP + cagent 提供了開源、可驗證的安全控制方案，技術人員可直接評估其對抗 prompt injection 與 API 濫用的效果。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地端部署一個測試環境，模擬惡意 prompt injection 攻擊，觀察 cagent 的攔截行為與日誌記錄是否符合預期。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
