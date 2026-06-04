@@ -1,5 +1,452 @@
 [
   {
+    "id": "2026-06-04-openai-chatgpt",
+    "title": "OpenAI為ChatGPT新增「做夢記憶系統」，跨對話保留使用者偏好設定",
+    "title_original": "OpenAI gives ChatGPT a new dreaming memory system to retain preferences across conversations",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1twwimu/openai_gives_chatgpt_a_new_dreaming_memory_system/",
+    "published_at": "2026-06-04T18:40:04+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI正在為ChatGPT測試新型記憶機制，代號為「Dream」或「做夢系統」。系統會在使用者離線期間自動整理並保存對話偏好與學習模式，實現跨會話的個人化體驗。此功能與傳統的明確記憶指令不同，強調被動學習。",
+    "highlights": [
+      "系統會在使用者未使用時自動處理對話資訊",
+      "著重於學習使用者偏好而非特定事實",
+      "與現有的Custom Instructions功能互補",
+      "目前仍在測試階段，尚未全面開放",
+      "引發隱私與資料控制權的討論"
+    ],
+    "why_it_matters": "這是OpenAI在持久記憶能力上的重要進展，可能改變AI助理的個人化程度，對需要長期上下文理解的應用場景意義重大。",
+    "automation_angle": null,
+    "automation_angle_zh": "在ChatGPT設定中啟用記憶功能，觀察其如何學習並應用你的偏好於新對話，評估其準確度與干擾程度。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-bilig-workpaper-node-js-agent-mcp",
+    "title": "Bilig WorkPaper：Node.js Agent 專用無頭試算表引擎與 MCP 伺服器",
+    "title_original": "proompteng/bilig",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/proompteng/bilig",
+    "published_at": "2026-06-04T18:32:15Z",
+    "category": "agent-skills",
+    "summary": "一個 TypeScript 開源專案，提供無頭試算表公式引擎，可讓 AI Agent 以程式方式編輯儲存格、觸發重新計算並持久化 JSON，支援作為 MCP 伺服器整合進代理工作流程。",
+    "highlights": [
+      "無頭運作，無需 GUI，適合自動化腳本",
+      "支援公式重算與相依性追蹤",
+      "以 JSON 格式持久化資料，易於與其他系統串接",
+      "作為 MCP 伺服器提供工具介面"
+    ],
+    "why_it_matters": "讓 Agent 能實際操作結構化資料工作表，補齊「只讀取但不能操作電子表格」的常見缺口，適合財務、資料彙整等場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "立刻 clone 並用其替換現有 Python + openpyxl 的試算表自動化脚本，評估 MCP 介面的穩定性與公式計算準確度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/234536857?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-eodhd-claude-skills-mcp-150k",
+    "title": "EODHD Claude Skills：金融資料 MCP 伺服器，150k+ 股票標的",
+    "title_original": "EodHistoricalData/eodhd-claude-skills",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/EodHistoricalData/eodhd-claude-skills",
+    "published_at": "2026-06-04T18:31:59Z",
+    "category": "agent-skills",
+    "summary": "EODHD 推出官方 Claude Code 外掛，透過 OAuth MCP 伺服器提供 150k+ 股票標的與 70+ 交易所的金融資料，含 80 工具、7 工作流程技能、財務分析 Agent 及 5 斜線命令。MIT 授權，Star 22。",
+    "highlights": [
+      "OAuth MCP 伺服器確保認證安全",
+      "覆蓋全球 150k+ 股票與 70+ 交易所",
+      "包含 7 預設工作流程與財務分析 Agent",
+      "5 斜線命令加速與 Claude Code 互動",
+      "MIT 授權，可商業使用"
+    ],
+    "why_it_matters": "提供一套可部署的金融資料 AI 工作流程，適合需要即時市場數據與分析自動化的技術團隊。相較其他金融 API，MCP 整合更符合 AI Agent 原生使用情境。",
+    "automation_angle": null,
+    "automation_angle_zh": "在量化或財務分析流程中接入 EODHD MCP，自動抓取個股資料並生成分析報告，評估其能否替代現有資料獲取流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/33543530?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-langgraph",
+    "title": "LangGraph 容錯設計實戰：重試、超時與錯誤處理",
+    "title_original": "Fault Tolerance in LangGraph: Retries, Timeouts and Error Handlers",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/fault-tolerance-in-langgraph",
+    "published_at": "2026-06-04T17:35:16+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格詳細說明 LangGraph 內建的三大容錯原語：RetryPolicy（指數退避重試）、TimeoutPolicy（牆鐘與閒置計時器）以及 error_handler（重試耗盡後的清理邏輯）。",
+    "highlights": [
+      "RetryPolicy 支援自訂重試次數與指數退避策略",
+      "TimeoutPolicy 可設定牆鐘時間或閒置超時",
+      "error_handler 在重試失敗後執行優雅降級或補償邏輯",
+      "說明 SAGA 模式在多步驟 Agent 工作流程中的應用"
+    ],
+    "why_it_matters": "生產環境 Agent 的穩定性往往取決於容錯機制，而非模型本身；此文章提供可直接抄襲的實作模板。",
+    "automation_angle": null,
+    "automation_angle_zh": "將現有 LangGraph 工作流程中缺失的 RetryPolicy 包裝進去，用 SideEffect 任務測試電網波動下的自動恢復行為。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-iphone",
+    "title": "在 iPhone 上跑你最大的本地模型",
+    "title_original": "Run (your largest) local models from your iPhone",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1twuczn/run_your_largest_local_models_from_your_iphone/",
+    "published_at": "2026-06-04T17:25:21+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶展示如何透過最佳化配置，在 iPhone 上實際執行大型本地模型。除了硬體限制外，記憶體管理與模型量化方式是關鍵瓶頸。",
+    "highlights": [
+      "iPhone 的 Neural Engine 可承載量化模型推論",
+      "需要 Q4/Q5 等極度壓縮格式才能運行大模型",
+      "散熱與續航會限制長時間推論",
+      "主要適用工具型、輕量化的本地部署場景",
+      "目前仍屬實驗性，需手動編譯優化"
+    ],
+    "why_it_matters": "展示行動裝置本地 AI 推論的可能性，為資源受限環境提供新思路。若能在手機跑動中小型開源模型，將大幅改變 edge AI 應用場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可測試在自己的 iPhone 上執行 Qwen2.5-0.5B/Q4 量化版本，評估工具型 AI 即時回覆的可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-llama-cpp-openblas-28",
+    "title": "編譯 llama.cpp 搭配 OpenBLAS 可多塞 28% 上下文",
+    "title_original": "I can fit 28% more context after building llama.cpp with OpenBLAS. Huh?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1twtkun/i_can_fit_28_more_context_after_building_llamacpp/",
+    "published_at": "2026-06-04T16:58:36+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者發現使用 OpenBLAS 替代預設 BLAS 後，相同記憶體可負載更多上下文 token，號稱提升 28% 吞吐量。底層涉及記憶體對齊與矩陣運算優化。",
+    "highlights": [
+      "OpenBLAS 比預設 BLAS 對齊更佳",
+      "記憶體邊界現在可容納更多 KV cache",
+      "需重新編譯 llama.cpp 且可能犧牲編譯便利性",
+      "對 7B 模型可多維持 16K–20K 上下文",
+      "效能提升需視硬體架構而定"
+    ],
+    "why_it_matters": "如果屬實，可以在不增加硬體的情況下將單一模型上下文承載量提升近三成，對長文件分析、長程 agent 工作流程有直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用者可檢視自己機器上編譯 llama.cpp 時是否有 OpenBLAS 選項，實測是否真的提升，並調整啟動參數。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-pcie-2-0-x4-4-rtx-3090-llms-mistral-128b",
+    "title": "隱藏PCIe 2.0 x4插槽讓4張RTX 3090 LLMs效能腰斬，修復後Mistral 128B效能翻倍",
+    "title_original": "I accidentally crippled my 4x RTX 3090 LLM rig with a hidden PCIe 2.0 x4 slot and fixing it doubled Mistral 128B performance",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1twt7n4/i_accidentally_crippled_my_4x_rtx_3090_llm_rig/",
+    "published_at": "2026-06-04T16:45:34+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit用戶發現主機板隱藏的PCIe 2.0 x4插槽被誤接，導致4張RTX 3090的LLM推論效能嚴重受限。修復PCIe配置後，Mistral 128B推論速度大幅提升。此案例顯示多GPU本地部署時，系統匯流排配置對效能影響極大。",
+    "highlights": [
+      "機架式伺服器主機板可能有多個PCIe插槽但速率不同",
+      "4x RTX 3090需要完整的PCIe 3.0/4.0 x16頻寬才能有效協同運算",
+      "修復後Mistral 128B推論吞吐量提升約100%",
+      "可透過lspci或nvidia-smi檢查GPU間通訊頻寬是否正常",
+      "此問題容易被忽略，特別是使用非標準機殼或伺服器主機板時"
+    ],
+    "why_it_matters": "本地部署大模型時，GPU間通訊瓶頸常被忽略。此案例提供免費的效能優化方向，適合有類似硬體架構的技術宅參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用nvidia-smi topo -m檢查GPU互聯拓撲，確認是否為PCIe x16直連；若發現降速，可調整BIOS設定或重新佈線。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-404-media-google-ai",
+    "title": "404 Media揭露：Google員工內部分享AI品質不佳的迷因，並要求修改新聞聲明",
+    "title_original": "Quoting Emanuel Maiberg, 404 Media",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/4/a-slightly-different-version/#atom-everything",
+    "published_at": "2026-06-04T16:38:29+00:00",
+    "category": "hot-topics",
+    "summary": "根據404 Media報導，Google內部員工流傳關於自家AI產品品質問題的迷因。更值得注意的是，Google發言人主動聯繫媒體要求修改原本的聲明——移除「人類必須保持在循環中」的關鍵表述，引發外界對Google AI政策透明度的質疑。",
+    "highlights": [
+      "Google員工對內部AI產品有批評性看法",
+      "發言人主動要求媒體修改聲明內容",
+      "原本聲明強調「人在迴路」的重要性",
+      "此事件可能影響投資者與公眾對Google AI的信任",
+      "404 Media選擇公開此資訊而非照辦"
+    ],
+    "why_it_matters": "此事件顯示大型科技公司在AI安全與商業壓力間可能存在矛盾。技術決策者需關注這類訊號，評估合作風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤此類新聞的後續發展，評估是否影響Google AI產品（如Gemini）的企業採用策略。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-deepswe",
+    "title": "DeepSWE 評測基準爭議：結果可能完全無效",
+    "title_original": "The DeepSWE benchmark was runned rather incompetently and the results are completely invalid",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1twsffj/the_deepswe_benchmark_was_runned_rather/",
+    "published_at": "2026-06-04T16:18:12+00:00",
+    "category": "hot-topics",
+    "summary": "社群反應強烈指出 DeepSWE 評測結果存在執行瑕疵，包含測試集汙染、評分方式不一致等問題。部分研究者認為若瑕疵屬實，該 benchmark 的可信度接近零。",
+    "highlights": [
+      "主要爭議在於測試樣本洩漏至訓練資料",
+      "評測環境配置各團隊不一致",
+      "benchmark 設計細節未完全公開",
+      "可能影響近期 Code Agent 模型排名",
+      "呼籲 benchmark 開發方公開原始碼與資料集"
+    ],
+    "why_it_matters": "DeepSWE 常被引用來排名程式碼 AI 能力，若評測無效將重構市場認知。選擇 Code Agent 工具時需避開依賴爭議性 benchmark 的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注後續 benchmark 修正動態，同時對已在用的 Code Agent 進行內部品質抽測，而非完全依賴外部 benchmark 決策。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-visual-studio-copilot",
+    "title": "Visual Studio Copilot 五月更新：強化規劃、審閱與工作管理能力",
+    "title_original": "GitHub Copilot in Visual Studio — May update",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-04-github-copilot-in-visual-studio-may-update",
+    "published_at": "2026-06-04T15:35:58+00:00",
+    "category": "agent-skills",
+    "summary": "VS 2026 的 GitHub Copilot 插件迎來五月更新，主打更智慧的任務規劃輔助、程式碼審閱建議，以及工作項目管理的 AI 摘要功能，並對所有 Copilot 用戶開放。",
+    "highlights": [
+      "規劃階段可援引整個方案的程式碼結構",
+      "審閱模式提供改進建議而非僅靜態分析",
+      "工作項目（Work Items）支援 AI 生成摘要",
+      "屬於 VS 插件更新，需在 IDE 端升級"
+    ],
+    "why_it_matters": "若已投入 Visual Studio 生態，此更新將 code review 與任務追蹤整合至單一視角，降低在多工具間切換的成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在處理大型重構時，用工作項目摘要功能自動生成 Sprint 報告草稿，節省文件時間。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-frappe-skills-ai-frappe",
+    "title": "frappe-skills：給 AI 程式碼助理的 Frappe 框架知識庫",
+    "title_original": "lubusIN/frappe-skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/lubusIN/frappe-skills",
+    "published_at": "2026-06-04T15:29:55Z",
+    "category": "agent-skills",
+    "summary": "Frappe Agent Skills 為 AI 程式碼助理注入結構化 Frappe 框架知識，涵蓋 DocTypes、API、Desk 自訂、前端應用、報表、測試與部署等場景。Star 數 22，屬新興專案，Python 生態可快速整合。",
+    "highlights": [
+      "提供 DocTypes、API、Desk 自訂的結構化知識",
+      "覆蓋前端應用、報表與測試情境",
+      "Python 実装，易於與現有 AI 助理整合",
+      "仍在早期階段，社區支援有限",
+      "適用於基於 Frappe/ERPNext 的專案"
+    ],
+    "why_it_matters": "為在 Frappe 框架上開發的團隊提供 AI 輔助編碼的可能，可縮短 DocType 建立與 API 開發的學習曲線。對 ERP/後台系統開發者價值最高。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Frappe/ERPNext 專案中使用 AI 程式碼助理，評估其能否自動生成 DocType、API 與測試代碼以加速開發。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3909640?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-kvarn-3-5-kv-cache",
+    "title": "華為發布 KVarN：3–5 倍 KV cache 壓縮且不拖慢速度",
+    "title_original": "KVarN: new KV-cache quant from Huawei. 3–5× KV cache compression with actual speed-up instead of slow-down, and unlike TurboQuant it holds up on reasoning (Apache 2.0, vLLM single flag)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1twptw2/kvarn_new_kvcache_quant_from_huawei_35_kv_cache/",
+    "published_at": "2026-06-04T14:47:10+00:00",
+    "category": "open-source-ai",
+    "summary": "華為開源 KVarN，宣稱可在 3–5 倍 KV cache 壓縮率下實現真實加速而非傳統量化常見的減速問題，且在推論任務上表現穩健，相容 vLLM 單一參數啟動。",
+    "highlights": [
+      "Apache 2.0 開源許可",
+      "專門針對 KV cache 而非模型權重",
+      "與 TurboQuant 相比在推論任務上更穩定",
+      "vLLM 整合門檻低，單一 flag 即可啟用",
+      "3–5 倍壓縮可在同等 VRAM 承載更長上下文"
+    ],
+    "why_it_matters": "KV cache 瓶頸長期限制長上下文模型的部署效率。若 KVarN 真的能同時達成壓縮與加速，將大幅降低長上下文部署成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 vLLM 中啟動 KVarN（需確認版本相容），對 Llama3.1 70B 等大模型測試 128K 上下文吞吐量，觀察 VRAM 節省幅度與延遲變化。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-github-copilot-chat-pr",
+    "title": "GitHub Copilot Chat PR 情境新增豐富上下文功能",
+    "title_original": "Copilot Chat brings richer context to pull requests",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-04-copilot-chat-brings-richer-context-to-pull-requests",
+    "published_at": "2026-06-04T14:40:05+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot Chat 在 Pull Request 頁面提供更完整的程式碼差異上下文，包含多檔案變更關聯分析與變更意圖推斷，並脫離預覽階段正式釋出。",
+    "highlights": [
+      "可直接在 PR 頁面以 Chat 詢問變更影響範圍",
+      "支援跨檔案相依變更的上下文理解",
+      "已脫離 Preview，正式向所有 Copilot 用戶開放",
+      "可追問「這個改動為何通過測試」等推論問題"
+    ],
+    "why_it_matters": "將 code review 的一部分推論負擔轉移給 AI，尤其適合缺乏明確任務描述的老舊重構 PR，加速維護者的理解成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在下一個需要多人 review 的大型重構 PR 中啟用，評估其能否替代部分「這行改了什麼」的基础問題。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-04-llm-rag",
+    "title": "實用LLM工程指南：RAG、檢索、重排序與評估完整教學",
+    "title_original": "I Built a Practical Guide to LLM Engineering: RAG, Retrieval, Rerankers, and Evaluation",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1twocnx/i_built_a_practical_guide_to_llm_engineering_rag/",
+    "published_at": "2026-06-04T13:53:03+00:00",
+    "category": "agent-skills",
+    "summary": "開發者分享了一份實用的LLM工程實踐指南，內容涵蓋RAG（檢索增強生成）架構設計、向量檢索優化、重排序策略、以及系統性評估方法。適合希望提升AI系統可靠性的技術人員參考。",
+    "highlights": [
+      "詳細說明RAG的實作步驟與常見陷阱",
+      "收錄多種重排序演算法的比較",
+      "提供評估指標與基準測試方法",
+      "包含實際程式碼範例",
+      "可能屬於行銷內容，需自行判斷價值"
+    ],
+    "why_it_matters": "RAG是提升LLM事實準確性的重要技術，此類實用指南可加速技術人員的學習曲線，但需注意內容品質參差不齊。",
+    "automation_angle": null,
+    "automation_angle_zh": "選擇一個模組（如重排序）實作到現有RAG系統中，透過自定義評測集驗證效果提升。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-qwen-3-6-27b-3-7-27b-6-10",
+    "title": "Qwen 3.6 27B 提前發布，3.7 27B 預計 6 月 10 日",
+    "title_original": "Qwen 3.6 27B released 20 days after its plus announcement, 3.7 27B in 10th June?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1two36u/qwen_36_27b_released_20_days_after_its_plus/",
+    "published_at": "2026-06-04T13:43:09+00:00",
+    "category": "new-models",
+    "summary": "Qwen 3.6 27B 在 plus 版本公告後 20 天即釋出，節奏異常緊湊。同時社群傳言 3.7 27B 將於 6 月 10 日發布，版本迭代速度持續加快。",
+    "highlights": [
+      "27B 規格兼顧本地部署可行性",
+      "從 3.5 到 3.6 時間壓縮明顯",
+      "Alibaba 開源策略持續放量",
+      "3.7 可能引入架構或訓練改進",
+      "需驗證 3.6 版本實際表現穩定性"
+    ],
+    "why_it_matters": "Qwen 系列快速迭代為本地模型市場持續注入新選擇。27B 規格在本地部署性價比上具有競爭力，值得持續追蹤更新。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 Qwen 3.6 27B Q4_K_M 量化版本，在 vLLM 測試長文件摘要與程式碼生成任務，與前代比較延遲與品質。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-ai",
+    "title": "為何AI模型效能正在持續退化：社群熱議中的質量問題",
+    "title_original": "Why AI model performance is worsening",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1twnro4/why_ai_model_performance_is_worsening/",
+    "published_at": "2026-06-04T13:30:54+00:00",
+    "category": "hot-topics",
+    "summary": "多位AI研究者與開發者指出近期主流模型（包括GPT-4、Claude等）在複雜推論、長上下文理解等任務上出現效能退化現象。討論涉及模型更新策略、RLHF副作用、以及量化壓縮等因素。此問題引發業界對模型版本穩定性的關注。",
+    "highlights": [
+      "模型效能退化可能在不知不覺中發生",
+      "可能與RLHF訓練導致的保守化有關",
+      "量化過程也可能引入累積誤差",
+      "開發者需建立定期基準測試機制",
+      "此現象可能影響生產環境的系統穩定性"
+    ],
+    "why_it_matters": "若模型真的在退化，使用者可能會有感但無法解釋原因。對於依賴AI輔助的技術從業者，建立自己的評測基準變得更加重要。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立一套標準化的任務測試集（包含數學、程式、推論），每月對比主流模型表現，記錄分數變化趨勢。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-04-cartog-tree-sitter-mcp",
     "title": "cartog — 基於 Tree-sitter 的程式碼知識圖譜 MCP 伺服器",
     "title_original": "jrollin/cartog",
@@ -26,6 +473,34 @@
       "Rust"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/1086565?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-gemma-4-12b-opencode",
+    "title": "Gemma 4 12B工具呼叫能力爭議：與opencode不相容還是本身表現不佳？",
+    "title_original": "Gemma 4 12B: incompatible with opencode, or just awful at tool calling?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1twmw4o/gemma_4_12b_incompatible_with_opencode_or_just/",
+    "published_at": "2026-06-04T12:57:13+00:00",
+    "category": "new-models",
+    "summary": "Reddit討論區有人反映Google Gemma 4 12B在工具呼叫（tool calling）任務上表現異常，包括與opencode框架不相容、或整體工具調用準確率偏低。此議題引發社群對小型開源模型工具使用能力的關注。",
+    "highlights": [
+      "Gemma 4 12B為Google最新的小型開源模型",
+      "工具呼叫失敗可能與微調方式或系統提示設計有關",
+      "opencode框架對模型輸出格式有特定要求",
+      "社群正在積極測試並尋找workaround",
+      "此問題影響需要 инструвтор整合的開發者工作流程程"
+    ],
+    "why_it_matters": "若Gemma 4 12B工具呼叫能力存在缺陷，會限制其在自動化代理（Agent）場景的應用，開發者需考虑其他替代模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本機環境使用opencode + Gemma 4 12B測試簡單的工具呼叫任務（如天氣查詢、計算器），觀察輸出格式是否正確。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -141,6 +616,61 @@
       "JavaScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/269844087?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-gemma-4-qat",
+    "title": "Gemma 4 QAT 版本確認即將發布",
+    "title_original": "Gemma 4 QAT confirmed to release soon!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1twid14/gemma_4_qat_confirmed_to_release_soon/",
+    "published_at": "2026-06-04T09:18:18+00:00",
+    "category": "new-models",
+    "summary": "Gemma 4 量化感知訓練（QAT）版本已獲官方確認，將於近期發布。QAT 可在訓練階段即整合量化資訊，理論上比後訓練量化（PTQ）在同等壓縮率下保留更多能力。",
+    "highlights": [
+      "QAT 版本預期在低精度下表現更佳",
+      "可能同時釋出 2B、7B 等多種規格",
+      "與標準 GGUF 模型不同，QAT 對架構有限制",
+      "Google 官方帳號間接證實，非謠言",
+      "時序接近 Google I/O 或相關開發者活動"
+    ],
+    "why_it_matters": "QAT 是量化技術的新方向，可為本地部署提供更高效能的壓縮選項。若 Gemma 4 QAT 表現優異，將衝擊開源本地模型性價比排序。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤官方 Hugging Face 頁面，Gemma 4 QAT 發布後第一時間下載測試並與 Gemma 4 FP16 版本對比能力差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-chatgpt",
+    "title": "ChatGPT 新增「做夢」記憶系統：跨對話持續學習用戶偏好",
+    "title_original": "Dreaming: Better memory for a more helpful ChatGPT",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/chatgpt-memory-dreaming",
+    "published_at": "2026-06-04T09:00:00+00:00",
+    "category": "new-models",
+    "summary": "ChatGPT 推出名為「Dreaming」的記憶更新機制，能在背景持續整合用戶對話中的偏好與習慣，使模型在全新對話中也能保持上下文連貫性，無需手動重複提示。",
+    "highlights": [
+      "基於用戶互動自動歸納偏好模式，非主動設定式記憶",
+      "新對話啟動時自動援引先前學習成果",
+      "記憶內容可於設定中檢視、編輯或清除",
+      "旨在減少重複說明相同需求的摩擦"
+    ],
+    "why_it_matters": "對技術用戶而言，此功能可減少每次新對話的 prompt 工程成本，但同時需留意隱私邊界與長期上下文汙染風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將其作為個人 AI 助理的初始設定驗證點：開新工作區前，先測試系統是否已自動繼承前次風格與技術棧偏好。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -425,6 +955,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/40546407?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-hugging-face-cli-agent-hub",
+    "title": "Hugging Face CLI 新設計：最佳化 Agent 操作 Hub",
+    "title_original": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/hf-cli-for-agents",
+    "published_at": "2026-06-04T00:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 官方 Blog 介紹重新設計的 HF CLI，旨在最佳化 Agent 與 HF Hub 的互動方式，包括模型下載、資料集存取與 Spaces 管理。屬官方技術方向說明，非產品發布。",
+    "highlights": [
+      "HF CLI 重新設計以支援 Agent 場景",
+      "最佳化模型下載、資料集存取流程",
+      "簡化 Spaces 管理的 CLI 操作",
+      "官方技術 Blog 說明設計理念",
+      "影響 HF 生態中 Agent 工作流程的基礎設施"
+    ],
+    "why_it_matters": "為 HF 生態中的 Agent 應用提供更順暢的 CLI 基礎設施。若落地，未來 Agent 存取 HF 模型與資料集將更高效，減少手工操作與踩坑。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 HF CLI 正式發布，評估其能否自動化模型批次下載與資料集處理工作流程，提升 Agent 與 HF Hub 互動效率。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
