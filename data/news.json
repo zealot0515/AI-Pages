@@ -1,5 +1,149 @@
 [
   {
+    "id": "2026-06-04-cartog-tree-sitter-mcp",
+    "title": "cartog — 基於 Tree-sitter 的程式碼知識圖譜 MCP 伺服器",
+    "title_original": "jrollin/cartog",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jrollin/cartog",
+    "published_at": "2026-06-04T12:58:14Z",
+    "category": "agent-skills",
+    "summary": "cartog 使用 Tree-sitter 對程式碼建立語法結構索引，並結合 RAG 增強查詢，透過 MCP 介面為代理提供私有、本地存儲的程式碼知識圖譜，降低代理理解陌生程式庫的門檻。",
+    "highlights": [
+      "Rust 實作，強調效能與記憶體效率",
+      "Tree-sitter 提供語法感知解析，避免純文字匹配的語義錯誤",
+      "RAG 層支援自然語言查詢程式碼結構與關係",
+      "本地優先，無需將程式碼上傳雲端，適合處理專利或敏感商業程式碼",
+      "11 stars，Rust 生態對部分開發者可能有編譯環境門檻"
+    ],
+    "why_it_matters": "代理在面對大型陌生程式碼庫時常迷失，cartog 提供了可離線部署的程式碼理解基礎設施，直接提升代理的程式碼分析品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將 cartog 部署在內網伺服器，用它對 10 萬行規模的既有專案建立索引，然後讓代理執行「找出某模組所有依賴」等任務，評估其與傳統 grep/AWK 方案的速度與準確度差異。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1086565?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-mori-mcp-server-ai",
+    "title": "mori MCP Server — AI 程式開發代理的共享記憶體層",
+    "title_original": "fjwood69/mori",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/fjwood69/mori",
+    "published_at": "2026-06-04T12:54:32Z",
+    "category": "agent-skills",
+    "summary": "mori 是一個為 AI 程式碼代理設計的共享記憶體層，透過遞進式積累讓代理能在會話之間保留上下文、任務狀態與學習成果，實現「越用越聰明」的效果。基於 Python 開發，現已在 GitHub 開源。",
+    "highlights": [
+      "支援跨會話記憶體持久化，代理重啟後仍保有前期工作上下文",
+      "以鍵值對形式組織記憶體，結構簡潔易於擴展",
+      "可用於建立專案專屬的「代理人知識庫」",
+      "與 MCP（Model Context Protocol）標準相容，可無縫接入現有代理框架",
+      "僅 13 stars，仍屬早期專案，需注意穩定性與長期維護狀況"
+    ],
+    "why_it_matters": "當代理需處理長時程任務或多步驟改寫時，缺乏記憶體會導致重複勞動。mori 提供了輕量級解決方案，讓開發者能快速為代理加上「持續學習」能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在本地 VS Code 環境或 CI pipeline 中部署 mori，測試代理在處理大型重構專案時的記憶體利用率與任務完成率，評估是否值得放棄目前的會話管理方案。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/67951118?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-endava-ai-agent",
+    "title": "Endava 案例：企業如何以 AI Agent 重新設計軟體交付流程",
+    "title_original": "How Endava is redesigning software delivery around AI agents",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/endava-frontiers",
+    "published_at": "2026-06-04T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Endava 在 OpenAI 官方 Blog 發表文章，說明其如何以 AI Agent、ChatGPT Enterprise 與 Codex 加速軟體交付、自動化工作流程，並在企業內部建立 AI 原生文化。屬於企業級應用參考案例而非新技術發布。",
+    "highlights": [
+      "文章發布於 OpenAI 官方 Blog，可驗證性高但屬 PR 內容",
+      "重點在 AI Agent 協助軟體交付的實務整合，而非底層技術突破",
+      "涵蓋 ChatGPT Enterprise 與 Codex 的具體應用場景",
+      "可作為企業級 AI 採用策略的參考，而非技術実装指引",
+      "適合了解 AI 在企業環境落地的實際障礙與對應方案"
+    ],
+    "why_it_matters": "Endava 案例展示了大型組織如何在既有 IT 環境中接入 AI Agent，為技術決策者提供企業級落地參考。雖然是 PR 內容，但來自官方 Blog，可信度較高。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考 Endava 的工作流程自動化設計思路，評估是否可將類似模式移植到自家團隊的 CI/CD 或文件審查流程中，而非直接複製其工具堆疊。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-cuba-memorys-rust-mcp",
+    "title": "cuba-memorys：Rust 實作的持久記憶 MCP 伺服器，含知識圖譜與赫布學習",
+    "title_original": "LeandroPG19/cuba-memorys",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/LeandroPG19/cuba-memorys",
+    "published_at": "2026-06-04T11:34:37Z",
+    "category": "agent-skills",
+    "summary": "cuba-memorys 是一款 Rust 實作的持久記憶 MCP 伺服器，提供 19 個工具節點，支援知識圖譜構建、赫布學習、情境記憶、矛盾檢測與貝氏校正機制。採用零配置 Docker 部署，目前 23 Stars。",
+    "highlights": [
+      "Rust 實作強調高效能與記憶安全，適合生產環境長期運行",
+      "19 個工具覆蓋知識圖譜、赫布學習、矛盾檢測等高階記憶能力",
+      "赫布學習與貝氏校正可能讓 Agent 具備自適應學習特性",
+      "零配置 Docker 部署大幅降低安裝門檻",
+      "Stars 偏低但技術實現完整，適合對記憶管理有深度需求的技術用戶"
+    ],
+    "why_it_matters": "持久記憶是提升 Agent 長期任務表現的關鍵瓶頸，cuba-memorys 以 MCP 介面提供標準化整合路徑，Rust 實作兼具效能與穩定性，值得在 MCP 生態中追蹤。",
+    "automation_angle": null,
+    "automation_angle_zh": "透過 Docker 一鍵啟動 cuba-memorys MCP 伺服器，將其接入現有支援 MCP 的 Agent（如 Claude Desktop），觀察記憶模組如何影響 Agent 在長鏈任務中的表現一致性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/151863062?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-cligate-claude-code-codex-cli-gemini-cli-openclaw",
+    "title": "cligate：統一模型代理平台，支援 Claude Code、Codex CLI、Gemini CLI 與 OpenClaw",
+    "title_original": "codeking-ai/cligate",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/codeking-ai/cligate",
+    "published_at": "2026-06-04T10:28:39Z",
+    "category": "agent-skills",
+    "summary": "cligate 是一款統一模型代理閘道，可在單一介面同時管理 Claude Code、Codex CLI、Gemini CLI 與 OpenClaw 四大 CLI 工具。提供 Skills、MCP 工具、頻道路由、任務佇列與儀表板，目前 89 Stars，採用 JavaScript 開發。",
+    "highlights": [
+      "統一代理層同時路由多個主流 AI CLI 工具，降低工具切換成本",
+      "內建 Skills、MCP 工具與任務佇列，適合多 Agent 協作場景",
+      "支援模型路由與帳戶金鑰管理，可集中管理多 API Key",
+      "提供日志與儀表板，協助追蹤使用量與成本",
+      "目前 Stars 較少，社群支援度尚待觀察，適合願意早期參與的技術用戶"
+    ],
+    "why_it_matters": "若你同時使用多個 AI CLI 工具，cligate 可作為統一管理層減少工具切換摩擦。但 Stars 數偏低，社群回饋資料不足，採用前建議評估維護活性。",
+    "automation_angle": null,
+    "automation_angle_zh": "在個人或團隊專案中安裝 cligate，透過統一介面測試不同 CLI 的任務路由效果，觀察是否能在實際開發流程中減少工具切換時間並提升產出一致性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/269844087?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-04-openmetadata-ai-assistant-agent",
     "title": "OpenMetadata：為 AI Assistant 與 Agent 打造的可信資料上下文層",
     "title_original": "open-metadata/OpenMetadata",
@@ -1555,6 +1699,34 @@
     "automation_angle_zh": "將此討論作為需求調研起點，自行測試不同記憶方案的延遲與準確率。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-anthropic-6-15-credit-pool",
+    "title": "Anthropic 將於 6 月 15 日終止代理訂閱補貼，改用 Credit Pool 計費模式",
+    "title_original": "Anthropic Ends Subscription Subsidy for Agents June 15: Credit Pool Replaces Flat-Rate Access - Tech Times",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQy01NGllNHJtUW9zbUlXUzBSY0l6aEx5cDFwVWxoZ1FXS3NPVzRqcmk3RFVtdFZUZjhYX05tdUJ0R3dGbW5wVlhGTkFrWEZwMVVMUEdaVy1jd1p0aEI5WU1qWjZ5UTJzQlhqZGo5T3JCWEJycFF4bGsxTmtyaEoxYUVXME05amJ1aGlURHVDT0VzRk5PMnU1SUZtOS1tRXUwMjBUUWkwZnBZTGNYQWczSV9XUmFLMWd4aUZHNHBUUGVmUHhLQmllYTVfU3BobGN4TF9rT3dnNGxjeG8?oc=5",
+    "published_at": "2026-06-02T19:58:16+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 將結束對 AI 代理的訂閱補貼政策，6 月 15 日起全面採用 Credit Pool（點數池）方式計費，原本的固定費率吃到飽模式將走入歷史，開發者需重新評估成本結構。",
+    "highlights": [
+      "6 月 15 日生效，時間節點明確",
+      "Credit Pool 按實際用量扣點，可能使重度代理使用者的帳單增加",
+      "固定費率取消後，小規模實驗的成本可預測性下降",
+      "消息來源為 Tech Times，需交叉驗證 Anthropic 官方公告",
+      "可能針對 API 呼叫頻率異常的帳戶進行差別定價"
+    ],
+    "why_it_matters": "若你是重度 Claude API 使用者（例如每日呼叫數萬次），此政策將直接影響專案預算編列，需提前估算 Credit Pool 模式下的單次呼叫成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即記錄當前月均 API 消耗量，用 Anthropic 官方定價計算器模擬 Credit Pool 模式下的帳單增幅，若超過 20% 就應開始尋找快取或批量處理替代方案，或評估競爭對手的 API 定價。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -23818,6 +23990,34 @@
     "why_it_matters": "Agent 自主性衡量標準尚未業界統一，Anthropic 作為主要模型提供商提出具體指標，可作為技術用戶評估與選擇 Agent 框架的參考框架。",
     "automation_angle": null,
     "automation_angle_zh": "技術用戶可參考 Anthropic 的衡量方法，為自己的 Agent 工作流程設計類似的干預率追蹤儀表板，量化自動化的實際效益。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-04-aws-agent-plugins-for-aws-ai",
+    "title": "AWS 發布 Agent Plugins for AWS — 賦予 AI 代理雲端操作能力",
+    "title_original": "Introducing Agent Plugins for AWS - Amazon Web Services (AWS)",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA3ZW8yelhqeWhLd2l5XzQ5NUF2enA0OHVEVHV3blBMc0l1ZWtJWmpYeURxeUo3alJRVGpZQlJKcllGSUo1M24wd0hLVDFUeW13SUQ1N3hzS3lFbGV1N29yM2RIYjZxaW01V0Z1X1NEbGU4UXkyNVBKam96STY1Zw?oc=5",
+    "published_at": "2026-02-17T08:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "AWS 推出 Agent Plugins 系列，讓 AI 代理能直接操作 S3、Lambda、CloudWatch 等核心服務，開發者可用自然語言指令驅動雲端資源管理，降低雲端自動化門檻。",
+    "highlights": [
+      "官方 AWS 支援，穩定性與合規性有保障",
+      "覆蓋儲存、運算、監控等常見場景",
+      "需注意 IAM 權限配置，避免過度授權安全風險",
+      "可能與現有 AWS SDK 功能重疊，需評估差異化價值",
+      "消息來源為官方公告，可信度較高"
+    ],
+    "why_it_matters": "過去需用 CLI 或 Terraform 做的雲端操作，現在可直接讓代理執行。對 DevOps 工程師而言，這是將日常運維工作自動化的捷徑。",
+    "automation_angle": null,
+    "automation_angle_zh": "在隔離的測試帳號中部署 Agent Plugin，測試「讓代理自動建立一個 S3 bucket 並上傳部署檔」這類常見工作流程，確認無需人類審批的自動化上限與錯誤恢復機制。",
     "tags": [
       "agent-skills",
       "rss",
