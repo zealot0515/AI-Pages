@@ -1,5 +1,564 @@
 [
   {
+    "id": "2026-06-05-canvas-mcp-canvas-lms-model-context-protocol",
+    "title": "Canvas MCP：Canvas LMS 的 Model Context Protocol 伺服器",
+    "title_original": "vishalsachdev/canvas-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/vishalsachdev/canvas-mcp",
+    "published_at": "2026-06-05T18:09:32Z",
+    "category": "agent-skills",
+    "summary": "Canvas MCP 為 Canvas LMS 打造專屬 MCP 伺服器，提供 80+ 工具與 5 種 Agent 技能，支援 Claude、Cursor、Codex 等 40+ Agent。v1.1.0 版本已開源，屬 Python 專案。",
+    "highlights": [
+      "• 80+ 工具覆蓋 Canvas LMS 常見操作",
+      "• 5 種內建 Agent 技能（學習追蹤、作業輔導等）",
+      "• 支援 Claude、Cursor、Codex 等主流 Agent",
+      "• Python 實作，143 顆星，社群接受度高",
+      "• 適用教育場景自動化"
+    ],
+    "why_it_matters": "教育技術場景常需大量重複操作，Canvas MCP 將 LMS API 包裝為 Agent 可呼叫的標準介面，降低自動化教務流程的開發門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "在教務自動化專案中引入 Canvas MCP，讓 Agent 自動完成成績匯入、公告發布、學生進度追蹤等常見任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/42612679?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-05-ares-rust-agentic-ai",
+    "title": "ares：Rust 實作的 Agentic AI 伺服器，支援多供應商路由",
+    "title_original": "dirmacs/ares",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/dirmacs/ares",
+    "published_at": "2026-06-05T18:08:40Z",
+    "category": "open-source-ai",
+    "summary": "ares 是一款用 Rust 開發的 Agentic AI 伺服器，具備多供應商 LLM 路由、工具呼叫、RAG、MCP 整合與多租戶工作流程支援。現階段僅 13 顆星，關注度尚低。",
+    "highlights": [
+      "• Rust 語言實作，強調高效能與記憶體安全",
+      "• 多供應商 LLM 路由，支援動態切換模型",
+      "• 整合 RAG 與 MCP 標準",
+      "• 多租戶架構支援企業場景",
+      "• 僅 13 顆星，生態系尚在早期"
+    ],
+    "why_it_matters": "Rust 生態在 AI 伺服器領域相對少見，ares 若能穩定發展，可成為高效能企業級 Agent 部署的替代選項，減少對 Python 框架的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "有高效能需求或想脫離 Python 框架的團隊可關注此專案，評估其 Rust 實作是否滿足生產環境的效能與安全要求。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/239380680?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-langchain-ai-agent",
+    "title": "LangChain 部落格：給 AI Agent 一台專屬電腦",
+    "title_original": "Give your agent its own computer",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/give-your-ai-agent-its-own-computer",
+    "published_at": "2026-06-05T17:33:10+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布文章探討 AI Agent 需要專屬運算環境的議題。指出 agent 將執行數百萬任務，每個任務需要獨立檔案系統、shell、套件管理與持久狀態。LangSmith Sandboxes 提供隔離式程式執行環境，讓 agent 在安全沙盒中操作，無需暴露真實基礎設施。",
+    "highlights": [
+      "每個 agent 需要隔離的電腦環境，不能共享主機",
+      "安全考量：不能直接給 agent 完整基礎設施權限",
+      "LangSmith Sandboxes 提供隔離執行環境",
+      "解決持久狀態、套件管理、shell 存取需求",
+      "Satya Nadella：每個 agent 都需要一台電腦"
+    ],
+    "why_it_matters": "Agent 數量爆發將催生新基礎設施需求，隔離式執行環境是安全部署 agent 的必經之路。技術團隊需提前評估沙盒方案的效能與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可評估 LangSmith Sandboxes 或類似方案（如 E2B、Coding Agents 的 containerized execution），思考如何安全自動化自己的 agent 工作流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-openai-gpt-rosalind",
+    "title": "OpenAI 擴展 GPT-Rosalind：新增生物推論、藥物化學與基因組學能力",
+    "title_original": "OpenAI expands GPT-Rosalind with biological reasoning, medicinal chemistry, and genomics for life sciences",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1txrp6v/openai_expands_gptrosalind_with_biological/",
+    "published_at": "2026-06-05T17:32:53+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 宣布 GPT-Rosalind 模型能力擴展，新增生物學推論、藥物化學與基因組學專用功能。此更新針對生命科學領域研究者，可協助文獻分析、分子特性預測與基因資料解讀等任務。",
+    "highlights": [
+      "GPT-Rosalind 新增生物學領域專業推論能力",
+      "支援藥物化學結構分析與性質預測",
+      "整合基因組學資料處理功能",
+      "瞄準製藥與生技研究機構市場"
+    ],
+    "why_it_matters": "生命科學專業模型能力增強，為生醫 AI 應用開發者提供更精準的工具。製藥公司與研究機構可評估其在藥物發現流程中的輔助價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "生醫背景的技術人員可申請 API 存取，測試其在化學分子生成、蛋白質功能註釋或文獻摘要等任務的表現，評估能否整合進現有研發流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-youtube-llm-gpt2-transformer",
+    "title": "YouTube 自製 LLM 工作坊：從零重建 GPT2 風格 Transformer",
+    "title_original": "Hi Reddit, I posted my Build Your Own LLM workshop to Youtube teaching how to rebuild OpenAI's GPT2-style Transformer",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1txq17e/hi_reddit_i_posted_my_build_your_own_llm_workshop/",
+    "published_at": "2026-06-05T16:33:52+00:00",
+    "category": "agent-skills",
+    "summary": "開發者在 Reddit 分享自製 LLM 工作坊影片教學，完整示範如何從頭建立類似 OpenAI GPT2 的 Transformer 架構。課程涵蓋模型架構、訓練流程與部署要點，適合想深入理解語言模型內部運作的工程師。",
+    "highlights": [
+      "從零實作 Transformer 核心元件",
+      "完整訓練流程教學含資料處理",
+      "涵蓋注意力機制與位置編碼實作細節",
+      "提供可運行的範例程式碼"
+    ],
+    "why_it_matters": "理解底層架構有助於最佳化提示工程與偵錯模型行為。對需要微調或最佳化開源模型的技術人員，Transformer 實作經驗是核心能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "跟隨工作坊實作後，可將模型擴展至微調實驗，評估特定任務的架構調整效果，或作為教育新團隊成員的教材。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-ios-gguf-app-store",
+    "title": "iOS 裝置 GGUF 模型效能評測工具上架 App Store",
+    "title_original": "I built a iOS app to benchmark GGUF models on your iPhone/iPad",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1txpugx/i_built_a_ios_app_to_benchmark_gguf_models_on/",
+    "published_at": "2026-06-05T16:27:03+00:00",
+    "category": "agent-skills",
+    "summary": "開發者推出 iOS 應用程式，可在 iPhone/iPad 上對 GGUF 格式模型進行效能基準測試，協助技術用戶評估行動裝置的本地推論能力。",
+    "highlights": [
+      "支援 iOS 16 以上裝置",
+      "可測量延遲、吞吐量、記憶體使用",
+      "內建多種 GGUF 模型比較功能",
+      "離線即可執行完整測試",
+      "協助開發者選擇適合行動裝置的模型"
+    ],
+    "why_it_matters": "行動裝置本地 AI 是新興領域，此工具讓技術宅能客觀量化不同模型在 iOS 裝置上的表現，避免盲目選擇導致使用者體驗不佳。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可先用此 App 測試候選模型在目標 iOS 裝置上的 FPS 與回應時間，選擇性價比最高的模型後再整合进應用程式。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-granite4-vision-llama-cpp-pr-23545",
+    "title": "Granite4 Vision 模型登陸 llama.cpp，PR #23545 整合視覺能力",
+    "title_original": "model: Granite4 Vision by gabe-l-hart · Pull Request #23545 · ggml-org/llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1txpoe1/model_granite4_vision_by_gabelhart_pull_request/",
+    "published_at": "2026-06-05T16:20:58+00:00",
+    "category": "new-models",
+    "summary": "IBM Granite4 Vision 模型正被整合進 llama.cpp 專案，由 gabe-l-hart 提交 PR #23545。此 PR 若成功合併，使用者將能在本地端跑出具備圖像理解能力的 Granite4 模型，無需依賴雲端 API。屬於模型能力變化類型新聞。",
+    "highlights": [
+      "PR #23545 將 Granite4 Vision 加入 llama.cpp 支援模型列表",
+      "Granite4 是 IBM 開源的多模態模型系列",
+      "成功合併後可用 GGUF 格式本地部署視覺模型",
+      "LLM.cpp 已有數個視覺模型支援，此為新增選項",
+      "需關注 memory 需求與量化效益是否值得部署"
+    ],
+    "why_it_matters": "本地視覺語言模型選擇增加，若 Granite4 Vision 能在低資源設備跑出合理表現，可作為 Claude/GPT-4V 的本地替代方案，降低 API 成本並提升隱私。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可測試該 PR，評估 Granite4 Vision 在本機的圖像理解準確率與速度，若表現達標可自動化文件解析、圖表問答等流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-google-2026-5-ai",
+    "title": "Google 2026年5月AI更新公告",
+    "title_original": "The latest AI news we announced in May 2026",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+    "published_at": "2026-06-05T14:45:00+00:00",
+    "category": "new-models",
+    "summary": "Google AI Blog公布2026年5月最新AI技術動態，包含多項模型與服務更新，具體功能與能力變化尚未揭露完整細節。",
+    "highlights": [
+      "來源為Google官方AI部落格",
+      "時間戳記為2026年5月",
+      "公告涵蓋多項AI更新",
+      "具體更新內容需進一步查閱原文",
+      "為官方可信來源但資訊粒度不足"
+    ],
+    "why_it_matters": "官方來源具有高可信度，但摘要資訊過於籠統，技術用戶需點擊原文確認具體模型能力變化與產品更新。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可持續追蹤Google官方部落格，設定RSS或API監控，第一時間獲取Gemini系列模型的功能更新與定價變動。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-openai-codex-sites",
+    "title": "OpenAI Codex Sites更像可部署工作區平台",
+    "title_original": "OpenAI Codex Sites feels less like a website builder and more like a deployable workspace surface",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1txmhoa/openai_codex_sites_feels_less_like_a_website/",
+    "published_at": "2026-06-05T14:25:53+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit用戶分享Codex Sites使用體驗，認為其定位更接近可部署的AI工作區介面，而非傳統網站建構工具，提供更靈活的應用場景。",
+    "highlights": [
+      "Codex Sites定位獨特",
+      "更偏向工作區而非網站建構",
+      "支援快速部署AI應用",
+      "使用者體驗持續優化",
+      "具體功能細節待探索"
+    ],
+    "why_it_matters": "Codex Sites若定位為工作區平台，可能成為開發者快速原型AI應用的新選擇，其部署流程與定價模式值得關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可申請搶先體驗，評估Codex Sites是否適合用於快速建構內部工具或自動化腳本的圖形化介面，比較與現有方案的效率差異。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-llama-cpp-server-30",
+    "title": "llama.cpp server 支援模型熱切換：30 秒內完成模型替換",
+    "title_original": "FYI llamacpp server can hot swap models now-a-days in under 30sec",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1txmg8q/fyi_llamacpp_server_can_hot_swap_models_nowadays/",
+    "published_at": "2026-06-05T14:24:26+00:00",
+    "category": "open-source-ai",
+    "summary": "llama.cpp server 新增熱切換功能，可在 30 秒內更換正在服務的模型，無需重啟伺服器，大幅提升多模型輪測與 A/B 測試效率。",
+    "highlights": [
+      "熱切換無需中斷現有服務",
+      "切換時間縮短至 30 秒以內",
+      "支援 HTTP API 觸發模型切換",
+      "節省記憶體無需多模型同時載入",
+      "適用於對話機器人與客服場景"
+    ],
+    "why_it_matters": "模型熱切換是提升開發迭代速度的關鍵功能。技術宅可在單一伺服器上快速比較不同模型表現，省去部署多實例的資源開销與管理複雜度。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 llama.cpp server 架構本地 API，透過簡單 HTTP 請求在測試、生產模型間切換，實現自動化模型評估工作流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-llama-cpp-fork-kvarn-kld",
+    "title": "開發者在 llama.cpp fork 中實作 KVarN 並完成 KLD 基準測試",
+    "title_original": "I implemented KVarN in my llama.cpp fork and ran KLD benchmarks. It's promising!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1txlhxu/i_implemented_kvarn_in_my_llamacpp_fork_and_ran/",
+    "published_at": "2026-06-05T13:48:37+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶在個人 llama.cpp fork 中實作 KVarN（Kernel Vectorized Approximation with Rotation Networks）量化方法，並進行 KLD（Kullback-Leibler Divergence）基準測試。初步結果顯示此方法有潛力，可能在保持模型品質的同時提升推論效率。",
+    "highlights": [
+      "KVarN 是一種新的量化方法",
+      "在 llama.cpp fork 中實作，非官方版本",
+      "KLD 基準測試顯示量化後品質損失可接受",
+      "屬於效能優化類型的技術實驗",
+      "需等待合併至主分支才能廣泛使用"
+    ],
+    "why_it_matters": "量化技術持續演進，若 KVarN 能以較低精度損失換取顯著效能提升，可進一步降低本地模型部署的硬體需求，延長老舊 GPU 的使用壽命。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可追蹤該 fork 的發展，測試 KVarN 在自己模型上的效果，若優於現有 Q4_K_M 等量化方法，可自動化更新部署腳本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-chatgpt",
+    "title": "ChatGPT「做夢」功能：強化記憶以提升助益性",
+    "title_original": "Dreaming: Better Memory for a More Helpful ChatGPT",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1txisku/dreaming_better_memory_for_a_more_helpful_chatgpt/",
+    "published_at": "2026-06-05T11:55:51+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit社群討論ChatGPT新記憶機制「Dreaming」，系統會在背景主動整理對話歷史與用戶偏好，據稱能提供更個人化的回應體驗。",
+    "highlights": [
+      "系統背景主動整理記憶",
+      "基於對話歷史與偏好學習",
+      "號稱提升個人化程度",
+      "資訊來源為社群討論",
+      "非OpenAI官方公告"
+    ],
+    "why_it_matters": "記憶能力強化使ChatGPT能跨session理解用戶上下文，減少重複說明需求，提升長期使用效率與代理工作能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可測試此功能對代理任務的影響，觀察系統是否能自動記住專案設定、程式碼風格偏好，減少每次對話的初始化負擔。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-ladybird-pr-ai",
+    "title": "Ladybird 瀏覽器宣布停止接受公開 PR，因 AI 程式碼責任歸屬問題",
+    "title_original": "Quoting Andreas Kling",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything",
+    "published_at": "2026-06-05T11:10:05+00:00",
+    "category": "open-source-ai",
+    "summary": "Andreas Kling 宣布 Ladybird 瀏覽器專案將不再接受公開 pull request。原因是 AI 生成的程式碼難以確保品質與責任歸屬，過去「付出大量心力」等同「善意」的假設已不再成立。Ladybird 將只接受由核心團隊認可並負責的變更。",
+    "highlights": [
+      "Ladybird 為 Andreas Kling 主導的開源瀏覽器專案",
+      "不再接受外部 PR，只接受核心團隊認可的變更",
+      "AI 生成程式碼無法保證品質與責任歸屬",
+      "此政策反映開源社群對 AI 貢獻品質的警覺",
+      "對其他大型開源專案可能產生示範效應"
+    ],
+    "why_it_matters": "AI 程式碼進入開源專案的責任歸屬問題已實際影響專案治理。此趨勢將迫使開源專案建立新的貢獻審核機制，技術讀者應關注如何在合規與開放之間取得平衡。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可關注此政策對其他開源專案的影響，若自己維護的專案面臨類似問題，可參考 Ladybird 的做法建立貢獻者身份驗證或 PR 審核流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-05-supralabs-supra-50m-reasoning",
+    "title": "SupraLabs 發布 Supra-50M-Reasoning：小參數推論模型新選擇",
+    "title_original": "[NEW MODEL] SupraLabs just released a new model! - Supra-50M-Reasoning",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1txhk6y/new_model_supralabs_just_released_a_new_model/",
+    "published_at": "2026-06-05T10:55:48+00:00",
+    "category": "new-models",
+    "summary": "SupraLabs 推出僅 50M 參數的推論專用模型 Supra-50M-Reasoning，專為資源受限環境設計，支援快速本地推論與輕量級任務。",
+    "highlights": [
+      "模型參數量僅 50M，極度輕量",
+      "專注推論能力，非通用模型",
+      "可部署於樹莓派等邊緣裝置",
+      "支援 GGUF 格式量化",
+      "適合即時性要求高的簡單推論任務"
+    ],
+    "why_it_matters": "極小參數推論模型的出現代表本地 AI 應用門檻持續降低，技術宅可用極低成本構建邊緣 AI 推論系統，特別適合 IoT 整合場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在樹莓派或舊款筆電上部署，用於簡單條件判斷、數值計算等輕量自動化任務，例如智慧家庭規則引擎或工廠感測器資料預處理。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-gemma-4-12b-google-ai-edge-agent",
+    "title": "Gemma 4 12B 筆電本地執行攻略：Google AI Edge 解鎖 Agent 工作流程",
+    "title_original": "Bringing Gemma 4 12B to your Laptop: Unlocking Local, Agentic Workflows with Google AI Edge",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1txhj2h/bringing_gemma_4_12b_to_your_laptop_unlocking/",
+    "published_at": "2026-06-05T10:54:20+00:00",
+    "category": "new-models",
+    "summary": "Reddit 技術社群分享如何在筆電上執行 Gemma 4 12B 模型，結合 Google AI Edge 工具鏈實現本地 Agent 工作流程。內容涵蓋效能調校與適用場景評估。",
+    "highlights": [
+      "Gemma 4 12B 可在消費級筆電本地執行",
+      "Google AI Edge 提供模型優化與部署工具",
+      "Agent 工作流程需要低延遲本地推論",
+      "記憶體需求約需 24GB 以上",
+      "適合開發階段快速迭代測試"
+    ],
+    "why_it_matters": " Gemma 4 12B 是 Google 近期開源的重要模型，本地執行能力直接影響開發者能否在離線環境或敏感資料場景下使用，對技術宅而言是降低 API 成本的關鍵。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可在本地環境部署 Gemma 4 12B，用於自動化文書處理、程式碼生成等任務，透過 Ollama 或 llama.cpp 框架管理模型生命週期。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-ai-agent",
+    "title": "技術社群投票：本地 AI Agent 首選技術棧出爐",
+    "title_original": "What is your current go-to stack for running a fully local AI agent?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1txhg7f/what_is_your_current_goto_stack_for_running_a/",
+    "published_at": "2026-06-05T10:50:18+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit LocalLLaMA 社群投票討論完全本地 AI Agent 的首選技術棧，包含模型、骨架框架、工具呼叫與記憶體管理方案的主流組合。",
+    "highlights": [
+      "Ollama + LangChain 仍是主流組合",
+      "llama.cpp 作為推論引擎被廣泛採用",
+      "Tool Call 多依賴 LangChain 或 Custom Script",
+      "向量資料庫常用 Chroma 或 Qdrant",
+      "Memory 方案以簡單 KV Store 為主"
+    ],
+    "why_it_matters": "技術棧選擇影響系統穩定性與維護成本。此投票結果反映社群實戰經驗，技術宅在建構本地 Agent 時可參考避開冷門方案，降低踩坑風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "依投票結果選擇技術棧，從 Ollama 管理模型、LangChain 編排流程、Chroma 處理向量檢索，逐步建構可離線運作的自動化 Agent。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-cloudflare-ceo",
+    "title": "Cloudflare CEO：機器人流量已超越人類，比預期提早一年",
+    "title_original": "‘Bots have now passed human traffic online,’ Cloudflare boss laments — says agentic traffic wasn’t expected to eclipse real people until next year",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1txh6yx/bots_have_now_passed_human_traffic_online/",
+    "published_at": "2026-06-05T10:37:01+00:00",
+    "category": "hot-topics",
+    "summary": "Cloudflare 執行長 Matthew Prince 公開表示，AI 機器人流量已正式超越人類用戶訪問量，原預期此事需等到 2026 年才會發生。意味著網路流量結構已發生根本性轉變，agentic traffic 增長速度遠超業界評估。",
+    "highlights": [
+      "機器人流量在 2025 年已超過人類流量",
+      "agentic traffic 成長速度超出預期一年",
+      "對網站擁有者而言意味著分析工具需重新校準",
+      "基礎設施壓力將持續增加，成本結構改變",
+      "對爬蟲、CDN、定價策略都有深遠影響"
+    ],
+    "why_it_matters": "流量結構改變直接影響網站分析、定價模型與基礎設施規劃。技術決策者需重新思考 bot 識別、rate limiting 策略與 API 成本分攤邏輯。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可檢查自己網站的 bot/human 流量比例，重新校準 analytics，排除 AI 爬蟲對數據的干擾，並評估是否需要調整 anti-bot 政策。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-gemma-4-12b",
+    "title": "Gemma 4 12B 效能實測：本地設定常見陷阱與修正方案",
+    "title_original": "Benchmark & Reality Check on Gemma 4 12B: Great model, but your local settings are probably breaking it (Fix inside)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1txgvrh/benchmark_reality_check_on_gemma_4_12b_great/",
+    "published_at": "2026-06-05T10:21:09+00:00",
+    "category": "new-models",
+    "summary": "社群成員對 Gemma 4 12B 進行實測發現，常見本地設定會導致效能明顯下降，並提供量化比較與具體修正方法。",
+    "highlights": [
+      "KV Cache 量化設定影響輸出品質",
+      "上下文長度設定需根據任務調整",
+      "溫度與 Top-P 參數對推論穩定性關鍵",
+      "llama.cpp 與 Ollama 效能差異可達 30%",
+      "提供修正後的 benchmark 數據對比"
+    ],
+    "why_it_matters": "模型再好，設定錯誤也會大幅折損效能。此實測報告提供可直接套用的設定參數，技術宅可省去大量試錯時間，快速發揮 Gemma 4 12B 應有實力。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考文中修正後的設定值，調整本地部署的 llama.cpp 或 Ollama 參數配置，並重新執行任務驗證效能提升幅度。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-meta-ai-llama-5-muse-spark",
+    "title": "Meta 雙軌 AI 策略：Llama 5 開源、Muse Spark 閉源",
+    "title_original": "Mark Zuckerberg's Dual-Track AI: Llama 5 Open, Muse Spark Closed - StartupHub.ai",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdE5jbE9Cdlg5SDFCQ3B5MVZMZXprR0N6YXFzeDlOOUJBcFlvX1k4VWpPT2MtQVg0WmNYVTlsWTlGb3AwYUd6ZHdYLVZxSHdzd3IyWXk3Tnd2NzJ0dUxzQ0FNOFhCYUZWZUFMVm5laXE1ODFDNW0yQnUzaHZ0aTNlSlVXQl9XMUVMVmRBUEpoY0FNR25xc0k5NF9HVUlSWGF2WFc5dk1jRmxiQQ?oc=5",
+    "published_at": "2026-06-05T09:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Mark Zuckerberg 揭示 Meta 最新 AI 策略走向雙軌制：下一代 Llama 5 將維持開源傳統，而新產品 Muse Spark 則採封閉模式營運。此策略旨在平衡開源社群貢獻與商業變現需求。",
+    "highlights": [
+      "Llama 5 確認持續開源策略，強化社群生態",
+      "Muse Spark 為新封閉式產品線，主打企業市場",
+      "Meta 藉開源建立影響力、封閉產品創造營收",
+      "此雙軌制可能影響企業採用 Llama 的長期規劃"
+    ],
+    "why_it_matters": "Llama 開源承諾不變對開源社群是正面訊號，但 Muse Spark 的封閉策略顯示 Meta 也在探索付費商業模式，開發者需關注兩者功能差異與許可限制。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業若規劃基於 Llama 建構商業產品，可繼續依賴開源版本；若有付費支援需求則可評估 Muse Spark 的企業功能與定價模式。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-ai-agent",
+    "title": "AI 程式碼 Agent 自以為只造成小問題，實際釀成大災難",
+    "title_original": "When the AI coding agent thinks it only created a small problem",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1txcrr0/when_the_ai_coding_agent_thinks_it_only_created_a/",
+    "published_at": "2026-06-05T06:24:12+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 熱門討論分享 AI 程式碼 Agent 在自動化任務中自認只造成小問題，實際卻引發嚴重後果的案例。反映出當前 AI Agent 在自我評估錯誤嚴重程度時存在系統性偏差，缺乏對系統性風險的正確判斷能力。",
+    "highlights": [
+      "AI Agent 在自動化任務中出現嚴重錯誤",
+      "Agent 低估了問題的實際影響範圍",
+      "案例反映 AI 自我評估能力的缺陷",
+      "對自動化部署場景有警示意義",
+      "需要更多人為介入與防護機制"
+    ],
+    "why_it_matters": "AI Agent 的過度自信問題若不解決，將成為自動化工作流程的安全隱患。技術團隊在部署 Agent 時需建立多層檢查機制，不能完全依賴 Agent 的自我評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者在設計 Agent 工作流程時應加入人類審核關卡，特別是涉及檔案系統操作、資料庫修改、部署指令等高風險行為的環節。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-05-after-effects-mcp-mcp-after-effects",
     "title": "after-effects-mcp：MCP協議驅動的After Effects自動化管理工具",
     "title_original": "JUNKDOGE-JOE/after-effects-mcp",
@@ -26,6 +585,90 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/111647740?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-codex-openai",
+    "title": "大量使用Codex後OpenAI帳戶遭停用",
+    "title_original": "My OpenAI Account Got Deactivated After Heavy Codex Usage",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1txafea/my_openai_account_got_deactivated_after_heavy/",
+    "published_at": "2026-06-05T04:20:01+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit用戶反映在頻繁使用Codex後其OpenAI帳戶遭到停用，引發社群對於API用量限制與帳戶風控機制的討論。",
+    "highlights": [
+      "大量Codex使用導致帳戶停用",
+      "引發風控機制討論",
+      "可能涉及用量閾值觸發",
+      "為單一用戶案例",
+      "OpenAI官方未回應"
+    ],
+    "why_it_matters": "此案例提醒技術用戶注意API用量管理，大規模自動化專案需關注帳戶狀態與用量監控，避免工作流程程中斷。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應建立用量監控機制，設定API呼叫閾值警示，並準備備用帳戶或遷移方案，防止單一帳戶問題影響自動化流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-llm-epyc-9575f-rtx-3090",
+    "title": "自建LLM推論伺服器：EPYC 9575F + 四張RTX 3090",
+    "title_original": "Finally finished my LLM server: EPYC 9575F, 4× RTX 3090 (96GB VRAM), 768GB ECC RAM",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tx9tf2/finally_finished_my_llm_server_epyc_9575f_4_rtx/",
+    "published_at": "2026-06-05T03:49:25+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit用戶展示完整自建LLM伺服器配置：AMD EPYC 9575F處理器、四張RTX 3090顯示卡共96GB VRAM、768GB ECC記憶體，打造高效能本地推論環境。",
+    "highlights": [
+      "AMD EPYC 9575F伺服器級處理器",
+      "4×RTX 3090提供96GB總VRAM",
+      "768GB ECC記憶體支援大模型",
+      "可部署LLaMA、Mistral等開源模型",
+      "適合需要資料隱私的企業場景"
+    ],
+    "why_it_matters": "本地部署開源LLM可完全掌控資料隱私，省去API呼叫費用，適合處理敏感資料或需要大量推論的開發者。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可參考此配置自建推論伺服器，使用vLLM或Ollama框架部署Mistral-7B或LLaMA-3-70B模型，實現低成本、高隱私的本地AI工作流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-openai-chatgpt",
+    "title": "OpenAI推出史上最大ChatGPT記憶升級",
+    "title_original": "OpenAI rolls out the biggest ChatGPT memory upgrade yet.",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tx6m90/openai_rolls_out_the_biggest_chatgpt_memory/",
+    "published_at": "2026-06-05T01:19:08+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit社群轉述OpenAI正式推出ChatGPT記憶功能重大升級，系統能跨對話保持更長時間的上下文理解與偏好記憶。",
+    "highlights": [
+      "記憶功能獲得實質升級",
+      "跨對話保持上下文理解",
+      "用戶偏好持續記憶",
+      "社群轉述非官方公告",
+      "具體技術細節待確認"
+    ],
+    "why_it_matters": "記憶升級直接影響代理工作流程程的連續性，技術用戶可評估此功能是否能減少每次任務的上下文重置需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶應測試記憶功能在複雜多步驟任務中的表現，記錄哪些資訊能被持久記憶，用於評估是否能用於自動化工作流程程設計。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -163,6 +806,33 @@
     "why_it_matters": "模型版本與可用性資訊的混亂會影響技術選型決策，工程師應以官方來源為準，避免基於論壇猜測做重要架構決策。",
     "automation_angle": null,
     "automation_angle_zh": "建議直接查閱 OpenAI 官方文件或 API changelog，確認實際可用的模型版本與上下文限制，勿依賴論壇資訊。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-chatgpt",
+    "title": "如何停用 ChatGPT 具爭議的「儲存記憶」升級功能",
+    "title_original": "How to avoid ChatGPT's damaging \"upgrade\" to \"saved memories,\" released today",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tx2std/how_to_avoid_chatgpts_damaging_upgrade_to_saved/",
+    "published_at": "2026-06-04T22:33:04+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶分享 ChatGPT 最新「儲存記憶」功能的關閉方法。該功能被批評為未充分告知用戶即自動啟用，可能儲存敏感對話內容。用戶可透過設定選單手動關閉以保護隱私。",
+    "highlights": [
+      "ChatGPT 更新後預設啟用儲存記憶功能",
+      "功能可能自動學習並永久儲存對話內容",
+      "隱私倡議者警告敏感資訊被長期保留風險",
+      "官方提供關閉選項但路徑不直覺"
+    ],
+    "why_it_matters": "對重視資料隱私的技術用戶而言，未經確認就啟用的記憶功能構成風險。若企業使用 ChatGPT 處理機敏資訊，需確認關閉狀態以符合內部合規要求。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業級部署建議同時檢查 API 與 UI 的資料處理設定，並建立內部 SOP 確保對話內容不會被模型用於訓練或長期儲存。",
     "tags": [
       "hot-topics",
       "rss",
@@ -1629,6 +2299,35 @@
       "en"
     ],
     "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-cc-visionrouter-claude-code",
+    "title": "cc-VisionRouter：Claude Code 透明代理，自動分流多模態請求",
+    "title_original": "Able-rip/cc-VisionRouter",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Able-rip/cc-VisionRouter",
+    "published_at": "2026-06-03T17:11:22Z",
+    "category": "agent-skills",
+    "summary": "cc-VisionRouter 是 Claude Code 的透明代理工具，當偵測到圖片請求時自動路由至多模態模型，確保非多模態主模型不會因此崩潰或中斷長時間任務。",
+    "highlights": [
+      "• 自動偵測圖片輸入並路由至多模態模型",
+      "• 對 Claude Code 用戶完全透明，無需改動 workflow",
+      "• 避免圖片請求導致長任務中斷",
+      "• 僅 21 顆星，社群關注度尚低",
+      "• JavaScript 實作，輕量整合"
+    ],
+    "why_it_matters": "Claude Code 目前主力模型非原生多模態，cc-VisionRouter 填補了圖片理解缺口，讓長任務不會被圖片需求中斷，提升使用體驗。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Claude Code 環境中串接 cc-VisionRouter，針對含截圖的 Debug 任務自動分流，評估其穩定性是否足夠取代手動模型切換。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/266413199?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -26897,6 +27596,33 @@
     "automation_angle_zh": "技術人員可將 Devstral 部署至本地伺服器，接入 IDE 插件或 CI/CD 流水線，實現自動化程式碼補全、單元測試生成或程式碼重構，同時完全掌控資料隱私與使用成本。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-mistral-ai-devstral",
+    "title": "Mistral AI 發布新模型 Devstral",
+    "title_original": "Devstral - Mistral AI",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB0VHFwSDN6OEpzY3ZtVlE3SHI1WTd2UnFGOFdsaW16aHRqV3RMa0FnY3FJRllFVERsckxoUjR3WVZoMUMtSmZDYQ?oc=5",
+    "published_at": "2025-05-21T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 發布新開源模型 Devstral，具體規格與能力尚未完全揭露。根據現有資訊，該模型瞄準開源社群開發者，可能延續 Mistral 小型高效模型的策略。詳細技術文件與基準測試結果有待官方進一步公開。",
+    "highlights": [
+      "Mistral AI 再次推出開源模型產品線新成員",
+      "Devstral 定位與詳細規格目前資訊有限",
+      "預期採用高效能架構以對標同尺寸競品",
+      "開源許可條款尚未確認"
+    ],
+    "why_it_matters": "Mistral 持續擴充開源模型矩陣，若 Devstral 延續 7B/8B 參數級別的高性價比策略，可為需要本地部署的開發者提供新選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "等待官方完整技術文件後，可透過 Ollama 或 vLLM 快速部署測試，評估其推論速度與任務準確度是否滿足特定自動化需求。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
