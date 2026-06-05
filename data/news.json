@@ -1,5 +1,34 @@
 [
   {
+    "id": "2026-06-05-after-effects-mcp-mcp-after-effects",
+    "title": "after-effects-mcp：MCP協議驅動的After Effects自動化管理工具",
+    "title_original": "JUNKDOGE-JOE/after-effects-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/JUNKDOGE-JOE/after-effects-mcp",
+    "published_at": "2026-06-05T06:16:34Z",
+    "category": "agent-skills",
+    "summary": "JUNKDOGE-JOE開源的After Effects MCP工具，結合MCP Server與CEP插件，讓Codex/Cursor/Claude Code等AI Coding工具能直接操控After Effects，通過30個ae.*工具執行自動化。GitHub目前16星，處於早期階段，但方向明確。",
+    "highlights": [
+      "基於MCP協議實現AI工具與AE的雙向溝通",
+      "支援30個ae.*工具，涵蓋圖層、合成、特效操控",
+      "可與Cursor、Claude Code、Codex等主流Coding Agent整合",
+      "CEP插件形式部署，無需修改AE本身",
+      "目前星數低，功能穩定性待社群驗證"
+    ],
+    "why_it_matters": "影視剪輯自動化是AI Agent的下一個熱點領域。若能成功整合，設計師可用自然語言驅動AE，大幅減少重複操作。技術宅可第一時間測試探索邊界。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載安裝後，用Claude Code編寫腳本自動化批量素材處理、特效套用或渲染排程，實測MCP工具覆蓋度與穩定性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/111647740?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-05-ai-ai-charity-majors",
     "title": "AI 樂觀派趕時間、AI 懷疑派趕熵增：Charity Majors 論兩極化困境",
     "title_original": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy",
@@ -22806,6 +22835,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-05-ai",
+    "title": "豆包開啟付費模式：AI 訂閱制行得通嗎？",
+    "title_original": "豆包開启付费模式：AI搞訂閱，行得通吗？ - 36Kr",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBBYUxSOHhhdXpZTXd1dTBnN2lGTzVlMUwzZEZuenZUN1RaZzBCQmxuSVNwY3hmSmVDLXkza3UwVHJ1em1LTFpUN0ZmSk1EQQ?oc=5",
+    "published_at": "2026-05-05T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "字節跳動旗下 AI 助理豆包正式推出付費訂閱方案，這是中國主流 AI 產品首度大規模商業化測試。36Kr 分析訂閱制能否在競爭激烈的 AI 市場持續盈利，並探討用戶付費意願與功能差異化策略。",
+    "highlights": [
+      "豆包為字節跳動主力 AI 產品，具備一定用戶基數",
+      "付費模式象徵中國 AI 從免費獲客轉向變現階段",
+      "36Kr 分析訂閱制定價彈性與用戶接受度",
+      "功能差異化是付費轉換率關鍵",
+      "此案例可作為其他 AI 產品定價參考"
+    ],
+    "why_it_matters": "中國 AI 產品從燒錢搶市占轉向變現，首個大型訂閱案例結果將影響後續產品定價策略與市場預期。",
+    "automation_angle": null,
+    "automation_angle_zh": "可追蹤豆包付費方案的功能限制與免費版差異，評估是否值得切換工作流程到付費版本，或觀察其 API 定價變化作為成本參照。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-23-augment-code-claude-code-claude-agent-sdk",
     "title": "Augment Code 比較 Claude Code 與 Claude Agent SDK 適用場景",
     "title_original": "Claude Code vs Claude Agent SDK: Which Is for What - Augment Code",
@@ -24837,6 +24894,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-05-ai-42-72",
+    "title": "智譜AI概念股大漲42.72%，融資動向揭露加倉標的",
+    "title_original": "AI股爆發，智谱大涨42.72%！融资最新动向出炉，大幅加仓這些股 - 证券時报",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zV3o1cnJ6OU50YzQ1UmQwdjh6bU9mYVctR2NsaFJ1dFpJZ3BlclQ3d0VheWFiekoyRm1HUjRiUTBjQlJqRm5XZTM1cUFhdEd6SGFMQmJSdmlGSC1N?oc=5",
+    "published_at": "2026-02-21T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "證券時報報導智譜AI相關概念股集體爆發，智譜本身股價大漲42.72%。文章同時揭露最新融資動向與機構加倉標的，為投資動向參考而非產品技術資訊。屬於資本市場訊息，非技術評測。",
+    "highlights": [
+      "智譜AI概念股單日大漲逾40%，市場情緒火熱",
+      "機構融資動向顯示專業資金流向",
+      "加倉標的集中於AI基礎設施與應用層",
+      "資本市場消息與產品技術進步並非直接相關",
+      "高波動市場資訊，投資決策需謹慎"
+    ],
+    "why_it_matters": "對技術人員而言，股價波動反映市場對AI賽道的信心，但不等同於技術實力變化。若智譜獲得更多資源，可能加速其GLM系列模型的商業化進程。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注智譜是否利用融資擴大API可用額度或推出新定價方案，這將直接影響技術人員的使用成本。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-anthropic-ai-agent",
     "title": "Anthropic 發布 AI Agent 自主性測量框架實踐指南",
     "title_original": "Measuring AI agent autonomy in practice - Anthropic",
@@ -26645,6 +26730,34 @@
     "automation_angle_zh": "在 IDE 中評估 Devstral 與現有工具在多步驟程式任務上的表現，評估是否可替換或作為備援模型。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-model-context-protocol-mcp-ai-agent",
+    "title": "Model Context Protocol（MCP）如何提升AI Agent工作流程",
+    "title_original": "How Model Context Protocol Boosts AI Agent Workflows - No Jitter",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWUhuOC1CTnoyeWZiNVJ1ZGNraEp1c0RxVDZNSzg4aUtyNWRtZjdqaVh4djNQWktCc0RUNXpuMUtnbDh2OUFaSE41ZkFTMUVxVFdQbERZZExsNDhlY0J0T2I3Y3Awb2kwVmowNDFaQ0lBa3hQQTZ5UmV3WEZuSWNqTFMtVE5ra1pxRUs5QVFMV2pBTDMyeGc?oc=5",
+    "published_at": "2025-07-08T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "No Jitter文章探討MCP（Model Context Protocol）在AI Agent工作流程中的應用價值，包括結構化上下文傳遞、工具調用標準化、跨Agent協同等核心概念。屬於行業趨勢分析，非技術深度教程。",
+    "highlights": [
+      "MCP試圖標準化AI Agent的工具調用介面",
+      "有助於提升Agent間的互操作性與上下文一致性",
+      "對比現有各廠商封閉協議的優劣",
+      "文章偏向概念介紹，缺少實作程式碼範例",
+      "代表業界對Agent標準化的探索方向"
+    ],
+    "why_it_matters": "MCP若成為事實標準，Agent工具生態將走向互聯互通。關注其發展可幫助技術決策者避免被單一生態鎖定。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你正在構建自定義Agent，可考慮採用MCP相容設計，讓工具未來能無縫對接其他MCP生態系統。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
