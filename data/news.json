@@ -1,5 +1,340 @@
 [
   {
+    "id": "2026-06-05-ai-ai-charity-majors",
+    "title": "AI 樂觀派趕時間、AI 懷疑派趕熵增：Charity Majors 論兩極化困境",
+    "title_original": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything",
+    "published_at": "2026-06-04T23:55:27+00:00",
+    "category": "hot-topics",
+    "summary": "知名 DevOps 專家 Charity Majors 分析了 AI 熱潮中兩種心態的張力：樂觀派擔心錯失技術紅利，懷疑派擔心技術債累積。兩者皆面臨真實的生存威脅，且缺乏有效的反饋機制來協調分歧。她建議將此議題視為組織設計與工程挑戰的交集點。",
+    "highlights": [
+      "AI 樂觀派：等待有風險，競爭對手正在加速",
+      "AI 懷疑派：快速交付正在透支技術信任",
+      "缺乏連接兩派的自然反饋機制",
+      "需同時處理領導力與工程實踐問題",
+      "適合作為團隊 AI 策略討論的切入點"
+    ],
+    "why_it_matters": "技術團隊常陷入「AI 採用過快」與「過慢」的兩極爭論，此分析提供了一個客觀框架，幫助技術決策者權衡風控與機會成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用此框架評估團隊當前的 AI 使用成熟度，識別哪些環節適合加速採用、哪些需要謹慎控制，建立平衡的 AI 工作流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-mnemos-agent",
+    "title": "Mnemos：為自主 Agent 打造的「活記憶」架構",
+    "title_original": "Riley-Coyote/mnemos",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Riley-Coyote/mnemos",
+    "published_at": "2026-06-04T23:43:21Z",
+    "category": "agent-skills",
+    "summary": "Mnemos 實現一種「Living Memory」架構，讓 AI Agent 具備信念（beliefs）、衰減（decay）與再整合（reconsolidation）機制。作為 MCP Server 部署，提供 typed connections，試圖解決 Agent 長期決策一致性問題。",
+    "highlights": [
+      "信念系統讓 Agent 維護長期目標狀態而非只靠即時上下文",
+      "衰減機制模擬人類記憶自然遺忘，避免無用資訊佔滿 token 預算",
+      "再整合讓 Agent 能在新資訊到來時修正錯誤信念",
+      "typed connections 確保與其他 MCP 工具的安全整合",
+      "Python 實作容易擴展，適合快速原型驗證"
+    ],
+    "why_it_matters": "目前多數 Agent 缺乏長期狀態管理，Mnemos 若成熟可讓 AI 在長程任務（如持續開發、持續研究）中保持決策一致性。",
+    "automation_angle": null,
+    "automation_angle_zh": "用一個為期數天的研究任務測試 Mnemos，觀察 Agent 是否能在任務中後期仍保持初期建立的假設不丟失，評估衰減參數是否需要客製。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/130717859?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-eclipse-chatgpt-plugin-eclipse-ide-mcp-server",
+    "title": "Eclipse ChatGPT Plugin：讓 Eclipse IDE 成為 MCP Server",
+    "title_original": "gradusnikov/eclipse-chatgpt-plugin",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/gradusnikov/eclipse-chatgpt-plugin",
+    "published_at": "2026-06-04T23:30:57Z",
+    "category": "agent-skills",
+    "summary": "gradusnikov/eclipse-chatgpt-plugin 是一個 Eclipse 插件，讓 Eclipse IDE 作為 MCP Server 供 AI Agent 呼叫，實現 IDE 內建操作（程式碼導航、錯誤取得、重構建議）為 Agent 可用工具。目前 152 stars，Java 實作。",
+    "highlights": [
+      "Eclipse IDE 直接暴露為 MCP Server，Agent 可呼叫 IDE 內所有功能",
+      "可用於讓 AI 代理操作 Java 專案，降低手動點擊成本",
+      "152 stars 表示有一定社群關注，但仍在早期階段",
+      "純 Java 實作，JVM 生態使用者可直接貢獻或客製",
+      "可用來評估「MCP + IDE」整合是否能加速開發迴圈"
+    ],
+    "why_it_matters": "IDE 作為 MCP Server 是讓 Agent 真正介入開發流程的關鍵一步，若成熟可讓 AI 直接操作大型 Java 專案而非只做局部建議。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Eclipse 專案中啟用該插件，設定一個簡單工作流程：讓 Agent 自動抓取當前檔案 compile error 並提出修復方案，測試錯誤修復自動化程度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Java"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/533067?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-ruvos-rust-mcp-server-agent",
+    "title": "rUvOS：零依賴 Rust 二進位檔的 MCP Server 與 Agent 作業系統",
+    "title_original": "dgdev25/ruvos",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/dgdev25/ruvos",
+    "published_at": "2026-06-04T23:27:58Z",
+    "category": "agent-skills",
+    "summary": "rUvOS 是一個靜態 Rust 二進位檔，同時作為 MCP Server、持久記憶、多代理協調、知識圖譜、安全防護與簽署審計軌跡的整合平台。宣稱零 Node.js、零 SQLite、零 daemon，強調極簡部署。",
+    "highlights": [
+      "單一二進位檔同時擔任 MCP Server 與 Agent 作業系統",
+      "持久記憶、知識圖譜、簽署審計軌跡內建，減少額外服務依賴",
+      "Rust 實作確保記憶體安全與高效能，適合長期部署",
+      "零 daemon 設計簡化部署，適合嵌入式或輕量 Server 場景",
+      "16 stars 顯示仍在早期關注階段，社群還在形成中"
+    ],
+    "why_it_matters": "如果零依賴承諾屬實，可大幅降低 MCP Server 在正式環境的維運成本，單一二進位部署適合 CI/CD 流水線整合。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 release 二進位，用一個簡單 MCP 工作流程測試：讓 Claude Code 透過 rUvOS 管理長期專案上下文，觀察記憶持久化與審計日誌是否滿足合規需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/269683623?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-reddit-gpt-5-1",
+    "title": "Reddit 用戶詢問：整合 GPT-5.1 與高上下文視窗的模型聚合器？",
+    "title_original": "Model aggregators with 5.1 and high context windows??",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tx3h5l/model_aggregators_with_51_and_high_context_windows/",
+    "published_at": "2026-06-04T23:00:52+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶在 r/OpenAI 板塊提問，詢問是否有模型聚合平台支援最新的 GPT-5.1 模型且具備高上下文視窗功能。討論中提及一些主流聚合服務如 OneReach.ai，但無官方確認的回應。問題本身反映用戶對模型可用性資訊的需求與焦慮。",
+    "highlights": [
+      "問題來源為 Reddit 用戶，未獲官方確認",
+      "GPT-5.1 版本資訊缺乏可靠來源",
+      "模型聚合器指整合多模型的統一 API 服務",
+      "討論中提及的服務非官方背書",
+      "此類帖子通常是社群猜測而非事實"
+    ],
+    "why_it_matters": "模型版本與可用性資訊的混亂會影響技術選型決策，工程師應以官方來源為準，避免基於論壇猜測做重要架構決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議直接查閱 OpenAI 官方文件或 API changelog，確認實際可用的模型版本與上下文限制，勿依賴論壇資訊。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-codex-mobile-linux-vps",
+    "title": "用戶提問：Codex Mobile 能否直接連線至常駐 Linux/VPS 主機？",
+    "title_original": "Can Codex mobile connect to an always-on Linux/VPS host directly?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tx26ff/can_codex_mobile_connect_to_an_alwayson_linuxvps/",
+    "published_at": "2026-06-04T22:08:24+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 上有開發者提問 Codex Mobile 是否支援直接與常駐的 Linux 或 VPS 主機建立連線。此問題涉及邊緣部署與混合雲架構，若支援將可讓行動裝置的 Codex 能力延伸至私有伺服器環境。",
+    "highlights": [
+      "用戶關注 Codex Mobile 的網路拓撲彈性",
+      "常駐 VPS/Linux 主機通常是企業開發環境標配",
+      "此功能若實現可強化資料隱私與延遲控制",
+      "目前社群回應有限，官方文件尚未明確說明此場景"
+    ],
+    "why_it_matters": "若 Codex Mobile 能對接自架主機，將為技術團隊提供更靈活的 AI 代理部署選項，不過此功能尚待官方確認，現階段屬於早期討論。",
+    "automation_angle": null,
+    "automation_angle_zh": "可先透過測試環境驗證 Codex Mobile 對 SSH 或自架 API 端點的支援程度，評估是否能整合至現有 DevOps 流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-copilot-github-actions",
+    "title": "Copilot 新增一鍵修復失敗 GitHub Actions 功能",
+    "title_original": "Fix with Copilot for failing Actions now in Pro, Pro+, and Max",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-04-fix-with-copilot-for-failing-actions-now-in-pro-pro-and-max",
+    "published_at": "2026-06-04T20:46:11+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 為 Pro、Pro+、Max 訂閱者推出「Fix with Copilot」功能，點擊按鈕即可讓 Copilot 雲端 Agent 自動分析並修復失敗的 GitHub Actions 工作流程程。此功能簡化了 CI/CD 問題排查流程，減少開發者手動追查錯誤的時間。",
+    "highlights": [
+      "失敗的 Actions 頁面提供一鍵修復按鈕",
+      "由 Copilot 雲端 Agent 分析失敗原因",
+      "自動生成修復建議或補丁",
+      "僅限 Copilot Pro 及以上訂閱",
+      "適用於常見 YAML 配置與腳本錯誤"
+    ],
+    "why_it_matters": "CI/CD 故障排除是常見的時間消耗點，Copilot 能快速定位問題並提出修正方案，提升開發團隊的維運效率與響應速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在團隊内部建立 SOP，當 Actions 失敗時優先嘗試「Fix with Copilot」，若仍無法解決再轉由人工接手，評估其解決率與適用範圍。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-05-copilot-pro-pro-max-agent-tasks-rest-api",
+    "title": "Copilot Pro/Pro+/Max 用戶現可使用 Agent Tasks REST API",
+    "title_original": "Agent tasks REST API now available for Copilot Pro, Pro+, and Max",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-04-agent-tasks-rest-api-now-available-for-copilot-pro-pro-and-max",
+    "published_at": "2026-06-04T20:42:10+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布 Copilot 雲端 Agent 任務的 REST API 正式開放公開預覽，適用於 Pro、Pro+ 及 Max 訂閱層級。開發者現可透過程式化方式啟動、監控並追蹤 Copilot Agent 工作流程程，擺脫手動操作介面的限制。此 API 的出現為自動化開發管線與 CI/CD 整合開闢了新可能。",
+    "highlights": [
+      "REST API 支援 Agent 任務的建立、查詢與狀態追蹤",
+      "僅限 Pro、Pro+、Max 層級用戶使用",
+      "目前為公開預覽階段",
+      "可用於與現有 DevOps 工具鏈整合",
+      "支援非同步任務處理與批次操作"
+    ],
+    "why_it_matters": "工程團隊現在可將 Copilot Agent 嵌入自動化腳本中，實現如定時 PR 審查、自動化測試修復等工作流程，減少人工干預並加速開發週期。",
+    "automation_angle": null,
+    "automation_angle_zh": "可撰寫腳本監控 Copilot Agent 任務完成狀態，並在任務失敗時自動觸發後續處理流程，例如發送 Slack 通知或建立 GitHub Issue。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-05-codex-api",
+    "title": "開發者反映 Codex API 頻觸速率上限，社群熱議資源消耗原因",
+    "title_original": "People regularly hitting Codex rate limits: what's using it all up?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1twzk8t/people_regularly_hitting_codex_rate_limits_whats/",
+    "published_at": "2026-06-04T20:29:21+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/OpenAI 討論串顯示多位開發者頻繁遭遇 Codex API 速率限制，用戶反映在短時間內大量請求後被阻擋。討論區正分析是哪些使用場景（如自動化腳本、持續整合流程）消耗了大部分配額。",
+    "highlights": [
+      "開發者社群回報 Codex API 速率限制問題日益嚴重",
+      "主要懷疑來源為自動化 CI/CD 腳本與長時運行任務",
+      "有用戶嘗試優化批次大小與請求頻率以減少限制觸發",
+      "OpenAI 目前尚未公告調整配額的計畫"
+    ],
+    "why_it_matters": "若 Codex 速率限制影響開發工作流程，會直接增加專案排程不確定性與成本評估難度，值得關注官方是否會釋出企業級配額方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可檢視自己專案中的 API 呼叫模式，計算實際配額消耗並評估是否需要遷移到 Azure OpenAI 或自架 Codex 端點以獲得更穩定的吞吐量。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-cyankiwi-awq-4-bit-nvfp4-fp8-qwen3-6-4-bit",
+    "title": "cyankiwi AWQ 4-bit 量化工具更新：支援 NVFP4 與 FP8 動態量化，Qwen3.6 4-bit 模型效能實測出爐",
+    "title_original": "cyankiwi AWQ 4-bit — 26.05 update, NVFP4 + FP8 Dynamic quantization and benchmarks across Qwen3.6 4-bit quants",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1twz9ur/cyankiwi_awq_4bit_2605_update_nvfp4_fp8_dynamic/",
+    "published_at": "2026-06-04T20:18:41+00:00",
+    "category": "open-source-ai",
+    "summary": "cyankiwi 的 AWQ 4-bit 量化工具迎來 26.05 更新，新增 NVFP4 與 FP8 動態量化支援，並針對 Qwen3.6 的多個 4-bit 量化版本進行 benchmark 測試。開發者可在此專案中找到更節省 VRAM 的量化方案，降低本地部署門檻。",
+    "highlights": [
+      "支援 NVFP4（NVIDIA FP4 格式）與 FP8 動態量化，提高推論效率",
+      "針對 Qwen3.6 4-bit 量化版本提供多項 benchmark 數據",
+      "可降低 VRAM 需求，讓中等顯卡也能運行大型開源模型",
+      "基於 AWQ（Activation-aware Weight Quantization）技術，壓縮同時保留模型精度"
+    ],
+    "why_it_matters": "開源模型量化技術持續進步，此更新讓技術宅能在資源有限的環境下運行更強大的 Qwen3.6 模型，直接影響本地部署的成本與可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可測試此 AWQ 工具鏈，用自己的資料集驗證量化後模型在自動化任務（如文件處理、程式碼生成）上的表現與 VRAM 節省幅度。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-github-copilot-token",
+    "title": "GitHub Copilot 支援百萬 token 上下文視窗與可調推論層級",
+    "title_original": "Larger context windows and configurable reasoning levels for GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-04-larger-context-windows-and-configurable-reasoning-levels-for-github-copilot",
+    "published_at": "2026-06-04T18:45:04+00:00",
+    "category": "hot-topics",
+    "summary": "GitHub Copilot 宣布支援高達一百萬 token 的上下文視窗，並提供可配置的推論層級設定。此更新使 Copilot 能應對更複雜的跨檔案分析、巨型程式碼庫理解等深層工作挑戰，大幅提升處理企業級專案的能力。",
+    "highlights": [
+      "上下文視窗擴展至一百萬 token",
+      "支援可配置推論層級調整",
+      "適用於大型程式碼庫與多檔案分析",
+      "有助於複雜系統設計與架構決策",
+      "可能影響定價與使用限制策略"
+    ],
+    "why_it_matters": "百萬 token 上下文意味著可以一次餵入整個中型專案或大量文件，減少分段處理帶來的上下文丟失問題，提升長程任務的準確性與連貫性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可測試將整個 monorepo 或大型文件集合一次性輸入 Copilot，評估其在架構規劃、程式碼遷移等場景中的表現與限制。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-05-chatgpt",
+    "title": "用戶反映 ChatGPT 輸出品質下滑，懷疑模型近期有變化",
+    "title_original": "Was it just me, or has the quality of chatgpt dropped significantly?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1twwncb/was_it_just_me_or_has_the_quality_of_chatgpt/",
+    "published_at": "2026-06-04T18:44:34+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/OpenAI 有大量回覆反映 ChatGPT 生成品質不如從前，包括回答深度下降、創意回應減少、複雜任務處理能力退化等。發文者懷疑 OpenAI 近期對模型底層做了調整。此訊息為社群主觀感受，尚無官方回應。",
+    "highlights": [
+      "多位用戶回報 ChatGPT 回答品質下降的具體範例",
+      "包括創意寫作、程式碼最佳化、複雜推論等任務",
+      "懷疑與 OpenAI 最近更新或成本優化有關",
+      "此現象缺乏可驗證數據，屬於社群傳聞"
+    ],
+    "why_it_matters": "若 ChatGPT 品質真的出現系統性下降，將影響所有仰賴其進行工作自動化的技術用戶，需等待更可靠的評測數據出爐再作判斷。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議建立一套內部品質測試基準，定期比較不同時間點 API 輸出一致性，以便客觀量化感知到的品質變化。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-04-openai-chatgpt",
     "title": "OpenAI為ChatGPT新增「做夢記憶系統」，跨對話保留使用者偏好設定",
     "title_original": "OpenAI gives ChatGPT a new dreaming memory system to retain preferences across conversations",
@@ -979,6 +1314,34 @@
     "automation_angle_zh": "關注 HF CLI 正式發布，評估其能否自動化模型批次下載與資料集處理工作流程，提升 Agent 與 HF Hub 互動效率。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-05-openai",
+    "title": "OpenAI 發布《情報時代的生物防禦》行動計畫",
+    "title_original": "Biodefense in the Intelligence Age",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+    "published_at": "2026-06-04T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布了一份 AI 生物防禦行動計畫，旨在運用 AI 技術增強生物安全韌性。該報告呼籲建立早期威脅偵測系統、分享生物風險研究成果，並強調在 AI 快速發展下需同時關注濫用風險與防禦準備。",
+    "highlights": [
+      "提出 AI 驅動的生物威脅偵測框架",
+      "呼籲建立生物安全研究共享機制",
+      "強調模型安全與濫用預防並重",
+      "屬於 OpenAI 政策與安全戰略一部分",
+      "對生技產業與 AI 安全領域有參考價值"
+    ],
+    "why_it_matters": "隨著生物科學 AI 工具門檻降低，生物安全風險上升。此計畫反映了 AI 巨頭對潛在風險的正視，工程師應關注這類政策趨勢對模型開放性的影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注報告中提到的檢測工具與開源項目，評估是否能將其應用於内部安全掃描或合規審查流程中。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
