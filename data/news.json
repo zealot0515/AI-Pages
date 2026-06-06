@@ -1,5 +1,203 @@
 [
   {
+    "id": "2026-06-06-zero-order-mezo-ggml-39",
+    "title": "Zero Order 優化函式庫 MeZo-GGML 發布，推稱前向傳遞加速 39 倍",
+    "title_original": "Made inference focused library for Zero Order optimization of LLMs. built on GGML. 39x faster forward pass and 15x faster on one MeZo step. [P]",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tyoic6/made_inference_focused_library_for_zero_order/",
+    "published_at": "2026-06-06T18:12:58+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者發布基於 GGML 的推論優化函式庫 MeZo，專為 LLM 的 Zero Order 優化設計。官方宣稱前向傳遞速度提升 39 倍，單次 MeZo 步驟加速 15 倍。目前尚未有獨立Benchmark驗證。",
+    "highlights": [
+      "基於 GGML 框架，相容主流本地推論模型",
+      "Zero Order 優化（Zo）可繞過梯度計算，降低記憶體需求",
+      "MeZo 步驟號稱加速 15 倍，適合超大規模模型微調",
+      "需實測驗證：39x 加速數據來源與測試環境未明",
+      "GitHub 有原始碼但缺少文件與依賴說明"
+    ],
+    "why_it_matters": "Zero Order 優化可大幅降低本地微調門檻，若 claims 屬實，有機會在消費級 GPU 上微調數十億參數模型，節省訓練成本與時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可 clone GitHub Repo，針對 7B 模型實際測量 GGML 量化版本的前向速度與 MeZo 更新時間，驗證是否值得從標準 PyTorch 迁移。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-kv-cache-kvarn-6-bit-q8-0-4-bit-q5-0",
+    "title": "KV cache 量化基準出爐：KVarN 6-bit 效能媲美 q8_0，4-bit 比肩 q5_0",
+    "title_original": "KV cache quant benchmarks: KVarN 6-bit matches q8_0, 4-bit matches q5_0. Massive!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tyockn/kv_cache_quant_benchmarks_kvarn_6bit_matches_q8_0/",
+    "published_at": "2026-06-06T18:06:48+00:00",
+    "category": "open-source-ai",
+    "summary": "社區 benchmarks 顯示 KVarN 量化方法在 KV cache 上取得突破：6-bit 量化幾乎與 q8_0 無損量化持平，4-bit 接近 q5_0 水準。這代表長上下文推論的記憶體佔用可大幅降低。",
+    "highlights": [
+      "KVarN 6-bit KV cache 等效於傳統 q8_0",
+      "4-bit 量化也達到實用水準",
+      "長上下文推論的記憶體瓶頸可獲顯著緩解",
+      "對長文本處理與 Agent 應用意義重大",
+      "需要社群驗證與整合到主流推論框架"
+    ],
+    "why_it_matters": "KV cache 是長上下文模型的記憶體大戶。若 6-bit 即可保持效能，則 70B 模型的長上下文部署成本將大幅下降，對技術用戶是直接利好。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 llama.cpp、vLLM 等框架對 KVarN 的整合進度。整合後可測試長文本任務的記憶體節省效果與輸出品質影響。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-codegenome-tree-sitter",
+    "title": "codegenome：以 tree-sitter 將程式碼庫轉為互動知識圖譜",
+    "title_original": "Ogro-Projukti/codegenome",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Ogro-Projukti/codegenome",
+    "published_at": "2026-06-06T17:45:57Z",
+    "category": "agent-skills",
+    "summary": "codegenome 是一個 MCP 伺服器，利用 tree-sitter 解析程式碼並將其轉為高精確度語義圖譜，流式傳遞至 Cursor 與 Claude 等編輯器。號稱「connectome」成長式設計，隨程式碼變動持續更新圖譜，支援 Agent 即時理解程式碼結構。",
+    "highlights": [
+      "使用 tree-sitter 解析，保證語法高精確度",
+      "將程式碼庫轉為語義知識圖譜，支援結構化理解",
+      "支援 Cursor、Claude 等主流 AI 編輯器串流",
+      "「connectome」概念：隨編碼進度動態擴展",
+      "19 星仍屬早期專案，功能成熟度待社區驗證"
+    ],
+    "why_it_matters": "對於需要 Agent 理解大型程式碼庫的開發者，語義圖譜比簡單 RAG 更精確，可提升程式碼生成與重構的上下文品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "在大型專案引入 codegenome，讓 AI 助理在重構或除錯時直接查詢圖譜，減少向量檢索的語義模糊問題。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/240988941?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-arcadeai-arcade-mcp-915-mcp-agent",
+    "title": "ArcadeAI/arcade-mcp：915 星 MCP 伺服器框架，開發自訂 Agent 工具",
+    "title_original": "ArcadeAI/arcade-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ArcadeAI/arcade-mcp",
+    "published_at": "2026-06-06T17:20:45Z",
+    "category": "open-source-ai",
+    "summary": "ArcadeAI 開源的 arcade-mcp 是一套 MCP Server 框架與工具開發庫，專為將自訂能力嵌入 Agent 而設計，GitHub 達 915 星。Python 為主技術棧，適合想擴充 MCP 生態或自建工具集成的技術用戶。",
+    "highlights": [
+      "GitHub 915 星，社群關注度高，屬活躍專案",
+      "提供 MCP Server 標準化框架，降低工具開發門檻",
+      "Python 技術棧廣泛相容多數 AI 開發環境",
+      "可用於自訂工具封裝，擴充 Agent 能力邊界",
+      "文件與開源生態逐漸成熟，適合快速原型驗證"
+    ],
+    "why_it_matters": "MCP 協定正成為 Agent 工具擴充的事實標準，arcade-mcp 提供框架減少重複造輪子，技術用戶可關注其工具生態的擴展速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 arcade-mcp 封裝公司內部 API 為 MCP 工具，讓 Agent 直接呼叫内部系統，實現工作流程整合的快速原型。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/153409375?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-mac-chatgpt",
+    "title": "Mac 版 ChatGPT 桌面應用記憶體佔用異常高",
+    "title_original": "mac chatgpt desktop app taking up massive amounts of memory",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tylx42/mac_chatgpt_desktop_app_taking_up_massive_amounts/",
+    "published_at": "2026-06-06T16:33:37+00:00",
+    "category": "hot-topics",
+    "summary": "多用戶回報 macOS 版 ChatGPT 桌面應用存在記憶體洩漏或異常佔用問題，導致系統資源緊張。這是產品穩定性的實用問題，可能影響日常使用體驗。",
+    "highlights": [
+      "Mac 桌面版 ChatGPT 記憶體佔用過高",
+      "長時間使用後記憶體可能持續增長",
+      "可能涉及 Electron 框架的記憶體管理問題",
+      "影響 Mac 資源有限的用戶體驗",
+      "建議等待官方修復或關注 Issue tracker"
+    ],
+    "why_it_matters": "桌面應用的穩定性影響日常使用效率。對於依賴桌面版進行開發的用戶，此問題可能造成干擾，值得關注官方修復進展。",
+    "automation_angle": null,
+    "automation_angle_zh": "如遇此問題，可暫時使用網頁版或終端 API 方案替代。建議向 OpenAI 回報以加速修復。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-06-zapier",
+    "title": "「直接用 Zapier」的建議在工作流程每次變化時就會失效",
+    "title_original": "the 'just use zapier' advice breaks the second the workflow changes between runs",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tykulr/the_just_use_zapier_advice_breaks_the_second_the/",
+    "published_at": "2026-06-06T15:52:16+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 技術社群指出 Zapier 這類無代碼自動化工具在面對動態、多變的工作流程時存在根本限制。當工作流程程在每次執行時需要根據上下文調整，或涉及需要判斷的環節時，Zapier 的靜態觸發-動作模式就會失效。",
+    "highlights": [
+      "Zapier 依賴靜態觸發條件，無法處理動態工作流程變化",
+      "多步判斷邏輯或上下文相關任務超出其能力範圍",
+      "需要 AI Agent 介入的場景會頻繁遇到此限制",
+      "討論建議在真正複雜的工作流程中需要使用 Code + AI 的組合方案",
+      "這反映了無代碼工具在 Agent 時代的邊界"
+    ],
+    "why_it_matters": "對於正在評估自動化工具的技術決策者，此討論揭示了無代碼平台的根本限制。若工作流程涉及 AI 判斷或多分支邏輯，仍需回到程式碼層面處理。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估自身工作流程是否真的適合無代碼工具，若涉及動態決策或上下文記憶，應考慮使用 LangChain 或自建 Agent 而非純 Zapier 方案。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-llama-cpp-tts",
+    "title": "在 llama.cpp 上運行 TTS/聲音克隆模型的技術討論",
+    "title_original": "Serving TTS/cloning models on llama.cpp?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tygbw1/serving_ttscloning_models_on_llamacpp/",
+    "published_at": "2026-06-06T12:44:51+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群討論如何在 llama.cpp 框架上部署 TTS 和聲音克隆模型。核心問題是 llama.cpp 主要支援 LLM，針對音頻模型的支援仍在探索階段，需要 custom implementation。",
+    "highlights": [
+      "llama.cpp 目前對 TTS 模型支援有限",
+      "社區正在探索將音頻模型整合到 GGUF 格式",
+      "聲音克隆需要特定的音色編碼器支援",
+      "可能需要修改 llama.cpp 核心架構",
+      "對本地部署 TTS 有重要意義"
+    ],
+    "why_it_matters": "若能在 llama.cpp 上運行 TTS，將實現完全本地化的語音合成，擺脫對雲端 API 的依賴。這對重視隱私或需要離線語音的場景極為關鍵。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注 llama.cpp 進展，未來或許能本地部署私密 TTS pipeline。現階段可先測試 Coqui TTS 等開源方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-06-domino",
     "title": "Domino：推測解碼新架構，將因果建模與自迴歸草案解耦",
     "title_original": "Domino: Decoupling Causal Modeling from Autoregressive Drafting in Speculative Decoding",
@@ -168,6 +366,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/146865285?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-agentic-ai-hands-on-labs-canvas-notebook",
+    "title": "免費學習 Agentic AI：Hands-on Labs、視覺化 Canvas 與 Notebook",
+    "title_original": "Learn Agentic AI with quick, easy to run hands on labs, visual canvases and notebooks for free!",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tyduua/learn_agentic_ai_with_quick_easy_to_run_hands_on/",
+    "published_at": "2026-06-06T10:39:56+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 討論一個號稱提供免費 Agentic AI 學習資源的平台，包含可運行的 Hands-on Labs、視覺化 Canvas 和 Jupyter Notebooks。但此類資源質量參差不齊，需自行評估實際價值。",
+    "highlights": [
+      "標榜免費的 Agentic AI 學習材料",
+      "包含實作實驗室而非純理論",
+      "提供視覺化工具輔助理解",
+      "內容來源與品質需自行驗證",
+      "可能是付費課程的導流內容"
+    ],
+    "why_it_matters": "Agentic AI 是當前技術趨勢，但網路上充斥着營銷導向的低質量內容。選擇可靠的學習資源對技術成長效率至關重要。",
+    "automation_angle": null,
+    "automation_angle_zh": "在投入時間前先預覽內容大綱與實作題目，確認是否符合自身需求。可優先選擇 LangChain、AutoGPT 等有官方文件的項目。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -26953,6 +27179,34 @@
     "automation_angle_zh": "技術者應閱讀原文確認 Gemini 3 的工具調用能力，若支援穩定的 function calling，可評估將其作為自動化工作流程的核心調度引擎，替代部分 LangChain 複雜度。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-mistral-ai-ocr-3-ocr",
+    "title": "Mistral AI 發布 OCR 3：小體積結構化文件 OCR 模型瞄準規模化部署",
+    "title_original": "Mistral AI Releases OCR 3: A Smaller Optical Character Recognition (OCR) Model for Structured Document AI at Scale - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQcjR4M3FWQUhfVHA2c0JsYzlVWWFreENxd1JIQm1qb08tel81U2dveDA1Rk1PVkVYa0Z6MHpSS0tuQUVDYUNmQWdWeWRZVDZlSTVHMU1aSUxSQWZlY21vVUNtcFowZkotenVWaWVZR0diYWk4OVItbFVkZGNsd1ZLRU1rczZWNDgwVmpHd3RpUHlUTm1jSzlZU2wxUElhcmdOQXV5WUQtdl9DdzBpSFVGMjlJMWVhTThaY25IZWhCTWpIbW1OdFZ3eXhUZmN0RWdCT1BKOHF1ZTBtRVR5V0xteVRiTTZmMVE?oc=5",
+    "published_at": "2025-12-19T08:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 推出專為結構化文件設計的第三代 OCR 模型，強調小體積與規模化處理能力。此模型針對發票、表單等結構化文件優化，相較大型多模態模型更具部署成本優勢。",
+    "highlights": [
+      "專為結構化文件（發票、表單）優化",
+      "強調小體積以降低部署成本",
+      "瞄準企業級規模化文件處理場景",
+      "Mistral 持續擴展 OCR 產品線",
+      "可能以開源或 API 形式提供"
+    ],
+    "why_it_matters": "文件自動化處理是企業 AI 落地的重要場景。小體積 OCR 模型可大幅降低 API 成本與部署門檻，值得技術評估團隊關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於替換昂貴的雲端 OCR API，實現本地化文件處理解決方案。可在本地測試其對中文文件的識別準確率。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
