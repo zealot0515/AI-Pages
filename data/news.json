@@ -1,5 +1,233 @@
 [
   {
+    "id": "2026-06-06-domino",
+    "title": "Domino：推測解碼新架構，將因果建模與自迴歸草案解耦",
+    "title_original": "Domino: Decoupling Causal Modeling from Autoregressive Drafting in Speculative Decoding",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tyfqmp/domino_decoupling_causal_modeling_from/",
+    "published_at": "2026-06-06T12:16:45+00:00",
+    "category": "open-source-ai",
+    "summary": "Domino 是一篇研究論文，提出將推測解碼中的因果建模與自迴歸草案生成解耦的新架構，聲稱可提升大型語言模型推論速度並減少計算資源消耗。",
+    "highlights": [
+      "提出因果建模與自迴歸草案分離的新架構",
+      "旨在優化推測解碼的效率瓶頸",
+      "可能有助於在資源受限環境加速 LLM 推論",
+      "需實際部署測試驗證效能提升幅度"
+    ],
+    "why_it_matters": "推測解碼是加速 LLM 推論的關鍵技術，若 Domino 能有效解耦兩階段，可為本地部署或成本敏感場景提供更高效的推論方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本地 LLM 部署環境中測試 Domino 方法，評估是否能降低延遲或節省 GPU 資源，適合最佳化自動化 pipeline 的推論效能。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-unlikeotherai-appreveal-mcp-server",
+    "title": "UnlikeOtherAI/AppReveal：跨平台除錯專用 MCP Server",
+    "title_original": "UnlikeOtherAI/AppReveal",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/UnlikeOtherAI/AppReveal",
+    "published_at": "2026-06-06T11:51:58Z",
+    "category": "agent-skills",
+    "summary": "AppReveal 是除錯專用的 in-app MCP server，支援 iOS、macOS、Android、Flutter、ReactNative。提供類似 Playwright 的原生應用控制能力，讓 LLM 能讀取 UI、狀態、導航與診斷資訊，透過區域網路運作不需雲端。29 stars，Swift 開發。",
+    "highlights": [
+      "除錯模式專用，生產環境不會暴露",
+      "支援 iOS、macOS、Android、Flutter、ReactNative 五大平台",
+      "LLM 可直接操控 UI 元件與讀取應用狀態",
+      "區域網路通訊，資料不離本地設備",
+      "類似 Playwright 但針對原生應用的除錯工具"
+    ],
+    "why_it_matters": "為 AI 代理打開原生應用黑箱，讓模型能主動除錯與分析應用行為，大幅提升除錯效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "整合到 CI/CD 或本地開發流程中，讓 AI 自動分析 UI 崩潰原因或驗證重構正確性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Swift"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/253458965?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-reddit-claude",
+    "title": "Reddit 熱議：本地自架程式碼代理能否挑戰 Claude 水平？",
+    "title_original": "The Gap Between Claude and Local: Can a Self-Hosted Coding Agent Compete?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tyf5x8/the_gap_between_claude_and_local_can_a_selfhosted/",
+    "published_at": "2026-06-06T11:49:21+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社群熱烈討論本地模型與 Claude 在程式碼任務上的差距。用戶分享實測結果，涵蓋 Qwen2.5-Coder、CodeQwen1.5、DeepSeek-Coder-V2 等模型在 SWE-bench 類任務的表現，討論焦點包括推論能力、上下文長度與性價比。",
+    "highlights": [
+      "Qwen2.5-Coder、CodeQwen1.5 是熱門對比標的",
+      "SWE-bench 類任務是主要評測基準",
+      "本地模型在簡單任務差距縮小，複雜任務仍有瓶頸",
+      "成本與延遲是自架的主要動機",
+      "討論缺少嚴謹控制變數，結論僅供參考"
+    ],
+    "why_it_matters": "關注本地模型程式碼能力的進展，可作為自架工作流程可行性評估的參考，但需自行驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據討論結果選擇適合任務複雜度的本地模型，避免過度投資高成本雲端方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-lukanlabs-lukan-rust-ai",
+    "title": "lukanlabs/lukan：Rust 實現的 AI 工作站框架",
+    "title_original": "lukanlabs/lukan",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/lukanlabs/lukan",
+    "published_at": "2026-06-06T11:45:22Z",
+    "category": "agent-skills",
+    "summary": "Lukan 是 Rust 寫的開源 AI 工作站，可編碼、管理郵件與行事曆、瀏覽網頁、編排多代理管線，並整合 WhatsApp、Slack、Discord、Telegram。34 stars，強調高效能與模組化，適合想自己架設一站式 AI 助理的技術用戶。",
+    "highlights": [
+      "Rust 實現，強調記憶體效率與執行速度",
+      "支援電子郵件、行事曆、網頁瀏覽自動化",
+      "多代理編排能力，可串聯任務流程",
+      "整合主流訊息平台（WhatsApp、Slack、Discord、Telegram）",
+      "開源可自部署，無需依賴商業 AI 平台"
+    ],
+    "why_it_matters": "提供從 AI 程式碼助理到日常任務自動化的完整框架，Rust 語言保證高效能且適合生產環境部署。",
+    "automation_angle": null,
+    "automation_angle_zh": "將重複性行政任務（郵件分類、行事曆更新）交由 Lukan 處理，釋放開發者時間專注coding。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/262685504?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-ctxr-dev-llm-wiki-memory-ai",
+    "title": "ctxr-dev/llm-wiki-memory：本地無外部依賴的 AI 程式碼代理記憶系統",
+    "title_original": "ctxr-dev/llm-wiki-memory",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ctxr-dev/llm-wiki-memory",
+    "published_at": "2026-06-06T11:39:48Z",
+    "category": "agent-skills",
+    "summary": "ctxr-dev 推出本地 LLM wiki 記憶工具，透過 MCP server 整合，無需 Docker 或外部服務即可讓 AI 程式碼代理跨會話保持狀態與知識。使用 on-device embeddings 實現本地向量檢索，透過 git 版本控制記憶內容，適合重視資料隱私的開發者。",
+    "highlights": [
+      "無 RAG、無 Docker、零外部依賴即可運行",
+      "透過 MCP server 讓 LLM 直接存取本地 wiki",
+      "Git 版本控制記憶，可回溯歷史狀態",
+      "18 stars，JavaScript 實現，技術債相對輕量",
+      "可與本地 LLM 整合避免雲端 API 費用"
+    ],
+    "why_it_matters": "解決 AI 程式碼代理長期記憶痛點，本地執行兼顧隱私與成本，技術宅可立即部署測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "將專案文件寫入 wiki 後，讓代理在後續對話中自動參考上下文，省去重複說明專案架構的時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/275156613?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-netlogo-mcp-ai-netlogo-mcp",
+    "title": "NetLogo-MCP：首個讓 AI 助理操控 NetLogo 模擬的 MCP 伺服器",
+    "title_original": "Razee4315/NetLogo-MCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Razee4315/NetLogo-MCP",
+    "published_at": "2026-06-06T11:20:34Z",
+    "category": "agent-skills",
+    "summary": "NetLogo-MCP 是首個支援 NetLogo 的 Model Context Protocol 伺服器，讓 AI 助理（如 Claude）能透過自然語言建立、執行與分析基於主體的模擬模型。GitHub 約 17 星，Python 開發。",
+    "highlights": [
+      "首個 NetLogo MCP 伺服器，填補該領域空白",
+      "支援自然語言驅動模擬模型建立與分析",
+      "使用 Python 開發，便於技術用戶理解與擴展",
+      "可讓 AI 助理參與複雜模擬工作流程",
+      "17 星顯示為早期小眾專案"
+    ],
+    "why_it_matters": "NetLogo-MCP 將 AI 助理能力延伸至模擬領域，對需要進行複雜系統模擬的研究者與工程師而言，可大幅降低模擬操控的技術門檻，值得關注其實際應用效果。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝 NetLogo-MCP，透過 Claude 等 AI 助理用自然語言描述模擬需求，自動生成與執行 NetLogo 模型，評估其在科研或工程模擬中的自動化潛力。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/146865285?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-taskade-ai-mcp-api",
+    "title": "Taskade 官方文件出爐：AI 原生平台的 MCP 與 API 方案",
+    "title_original": "taskade/docs",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/taskade/docs",
+    "published_at": "2026-06-06T10:37:04Z",
+    "category": "agent-skills",
+    "summary": "Taskade 官方文件揭示其 AI 原生平台能力，包含 REST API、Action API、MCP 伺服器與 Genesis 功能，支援構建應用、部署 AI Agent 與自動化工作流程。文件來源為官方 GitHub 儲存庫。",
+    "highlights": [
+      "官方文件出自 Taskade GitHub 儲存庫",
+      "支援 REST API 與 Action API 兩種接入方式",
+      "提供 MCP 伺服器整合能力",
+      "Genesis 功能為平台核心框架",
+      "技術用戶可透過 Issues/PR 參與文件完善"
+    ],
+    "why_it_matters": "Taskade 的 MCP 支援使其可與主流 AI 助理（如 Claude）整合，技術用戶可利用其 API 快速構建自動化工作流程，是當前可實際測試的 Agent 技能平台。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可閱讀 Taskade 文件，透過 MCP 協定將其整合進現有 AI 工作流程，用 REST API 觸發自動化任務，測試 Taskade 作為工作流程引擎的可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/25668295?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-metis-agent-cangjie-ai",
+    "title": "Metis-agent：Cangjie 語言開發的高效能個人 AI 助理",
+    "title_original": "l3gi0nXXXX/Metis-agent",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/l3gi0nXXXX/Metis-agent",
+    "published_at": "2026-06-06T08:03:56Z",
+    "category": "open-source-ai",
+    "summary": "Metis-agent 是一款以 Cangjie 程式語言構建的高效能個人 AI 助理，基於 magic-cli 與 CangjeMagic 框架。目前 GitHub 約 130 星，屬於新興實驗性專案，適合有 Cangjie 開發背景的技術用戶關注。",
+    "highlights": [
+      "使用 Cangjie 程式語言開發，相對小眾",
+      "基於 magic-cli 與 CangjeMagic 框架構建",
+      "定位為高效能個人 AI 助理",
+      "目前星數 130，社區關注度有限",
+      "屬於早期實驗性專案，穩定性待驗證"
+    ],
+    "why_it_matters": "Metis-agent 展示了 Cangjie 語言在 AI Agent 開發上的應用潛力，對使用該語言的開發者而言是可直接評估的替代方案，但需注意生態系尚不成熟。",
+    "automation_angle": null,
+    "automation_angle_zh": "有 Cangjie 開發經驗的技術用戶可克隆專案、閱讀原始碼，評估其架構是否可改造為自用自動化助理，並評估社群支援與維護狀況。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Cangjie"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/269360047?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-06-hermes-ai-agent-macos-ios-scarf",
     "title": "Hermes AI Agent 原生 macOS/iOS 用戶端 Scarf：多視窗、多伺服器整合",
     "title_original": "awizemann/scarf",
@@ -26,6 +254,34 @@
       "Swift"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/319078?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-reddit",
+    "title": "Reddit：用戶實測最新本地模型橫向比較",
+    "title_original": "AA comparison of the latest local models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tya05j/aa_comparison_of_the_latest_local_models/",
+    "published_at": "2026-06-06T06:53:46+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶發布最新本地模型橫向評測文，比較近期發布的開源模型在一般任務與程式碼任務上的表現。覆蓋模型包括 Mistral Small、Qwen2.5 系列、Phi-4 等，評測維度包含推論速度、輸出品質與硬體需求。",
+    "highlights": [
+      "Mistral Small、Qwen2.5 系列、Phi-4 被列入比較",
+      "評測維度包含速度、品質、硬體需求",
+      "非官方測試，缺少標準化基準",
+      "適合快速掌握各模型相對定位",
+      "需交叉驗證避免單一來源偏差"
+    ],
+    "why_it_matters": "快速掌握最新本地模型能力分布，但結論需自行驗證以免被社群偏見誤導。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據比較結果鎖定候選模型，在實際專案中做 A/B 測試後再決定部署。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -300,6 +556,61 @@
     "why_it_matters": "QAT 量化可在保持品質同時降低資源需求，對 AMD 顯示卡用戶是正面訊號。但社群測試非正式基準，數據解讀需謹慎。",
     "automation_angle": null,
     "automation_angle_zh": "技術用戶可下載 Gemma 4 QAT 版本至本地 AMD 環境實測，比較在常見任務（如程式碼生成、摘要）上的速度與品質差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-chatgpt",
+    "title": "ChatGPT 語音模式仍使用約兩年前模型，功能更新落後",
+    "title_original": "I can’t believe that chatGPT voice still uses 2 years old model.",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1txx9f9/i_cant_believe_that_chatgpt_voice_still_uses_2/",
+    "published_at": "2026-06-05T20:57:22+00:00",
+    "category": "new-models",
+    "summary": "有用戶指出 ChatGPT 語音功能仍在使用約兩年前的模型版本，暗示語音對話可能未跟上最新模型能力升級。",
+    "highlights": [
+      "ChatGPT 語音模式模型版本停滯約兩年",
+      "語音識別與合成可能未受益於 GPT-4o 等新模型",
+      "可能影響即時對話的品質與響應速度",
+      "用戶期待官方確認或說明更新時程"
+    ],
+    "why_it_matters": "若語音模式確實使用舊模型，技術用戶需了解這將影響使用體驗，並可評估是否需透過 API 直接整合新模型來改善語音應用。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估語音自動化流程時，可考慮繞過 ChatGPT 語音介面，直接使用最新語音 API 確保功能與模型能力同步。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-reddit-gemma-4",
+    "title": "Reddit：Gemma 4 模型傳聞又有新成員確認",
+    "title_original": "At least one more Gemma 4 model confirmed??",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1txu8dx/at_least_one_more_gemma_4_model_confirmed/",
+    "published_at": "2026-06-05T19:04:36+00:00",
+    "category": "new-models",
+    "summary": "Reddit 社群傳出 Google 至少還有一款 Gemma 4 模型尚未發布，但消息來源為猜測與非官方洩漏。社群討論猜測該模型可能強化多模態或數學推論能力，但官方尚未證實。",
+    "highlights": [
+      "消息來源為非官方猜測與洩漏",
+      "官方尚未證實 Gemma 4 新成員存在",
+      "猜測方向包含多模態或數學推論強化",
+      "需等待 Google 官方公告才能確認",
+      "此類傳聞準確度較低"
+    ],
+    "why_it_matters": "Gemma 4 系列若持續擴展可能衝擊開源模型市場，但目前資訊未經證實，應保持觀望。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 Google 官方部落格或 Hugging Face Gemma 頁面，第一時間獲取正式發布資訊。",
     "tags": [
       "new-models",
       "rss",
