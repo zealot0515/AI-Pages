@@ -1,5 +1,174 @@
 [
   {
+    "id": "2026-06-06-claude-certified-architect-agent-mcp",
+    "title": "Claude Certified Architect 非官方備考指南：涵蓋 Agent 系統與 MCP 實務",
+    "title_original": "vkorost/claude-certified-architect-guide",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/vkorost/claude-certified-architect-guide",
+    "published_at": "2026-06-05T23:38:52Z",
+    "category": "agent-skills",
+    "summary": "GitHub 上出現一份非官方備考指南，整理 Anthropic Claude Certified Architect（CCA-F）認證的考試範圍，包括 Agentic Loop、多 Agent 系統、MCP Server、Hook、Tool Routing、CLAUDE.md 階層、斜線指令、Plan Mode 與 Claude Code CI/CD Pipeline 等主題。",
+    "highlights": [
+      "非官方整理，內容可能不完全精確",
+      "涵蓋 CCA-F 考試核心議題：Agentic Loop、多 Agent、MCP",
+      "包含實務主題如 CI/CD 整合、Hook、Tool Routing",
+      "可用於快速掌握 Claude Code 與 Anthropic 生態",
+      "星星數僅 21，社群驗證度待觀察"
+    ],
+    "why_it_matters": "若你有計畫報考 CCA-F 認證或想系統性了解 Anthropic 的 Agent 設計理念，此備考指南可作為學習地圖。但建議搭配官方文件交叉驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可參考此指南快速建立 Claude Agent 實務的知識框架，並據此設計自己的 Claude Code 工作流程或 MCP Server 整合方案。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/45642330?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-tanstack-cli-cli-scaffold-mcp-server-agent-skills",
+    "title": "TanStack/cli 正式發布：官方 CLI 工具整合專案 scaffold、MCP Server 與 Agent Skills",
+    "title_original": "TanStack/cli",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/TanStack/cli",
+    "published_at": "2026-06-05T22:57:51Z",
+    "category": "agent-skills",
+    "summary": "TanStack 團隊正式發布官方 CLI 工具，支援專案樣板生成、MCP Server 快速架設、Agent Skills 安裝等核心功能。採用 TypeScript 開發，GitHub 已獲 1262 顆星，為當前熱門的開發工具專案。",
+    "highlights": [
+      "官方 TanStack 維護，品質與更新有保障",
+      "支援專案 scaffold 快速初始化",
+      "內建 MCP Server 架設功能，縮短整合時間",
+      "可直接安裝 Agent Skills 擴充能力",
+      "TypeScript 生態，適合前端/全端開發者"
+    ],
+    "why_it_matters": "TanStack/cli 將多個開發者常用功能整合為一站式 CLI，降低工具切換成本。若你使用 TanStack 生態或需要快速架設 MCP Server，值得一試。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝 TanStack/cli，用其初始化新專案或快速架設 MCP Server，評估是否能取代現有的專案樣板腳本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/72518640?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-thousand-token-wood-3b-agent",
+    "title": "Thousand Token Wood：在 3B 模型上運行多 Agent 經濟系統的實驗",
+    "title_original": "Thousand Token Wood: shipping a multi-agent economy on a 3B model",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
+    "published_at": "2026-06-05T22:18:46+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格分享了一個在小模型（3B）上運行多 Agent 經濟系統的概念驗證。透過設計 Agent 之間的激勵與交易機制，探索如何在有限資源下實現複雜協作，對多 Agent 系統研究有參考價值。",
+    "highlights": [
+      "以 3B 小模型承載多 Agent 協作場景",
+      "模擬 Agent 間的經濟激勵與交易機制",
+      "探討資源受限下的系統可行性",
+      "Hugging Face 官方部落格發布，有技術深度",
+      "適合研究多 Agent 協作原理的開發者閱讀"
+    ],
+    "why_it_matters": "此實驗揭示了小模型也能承載簡單的多 Agent 互動邏輯，對於想構建輕量級多 Agent 系統的開發者具有啟發性，可評估其設計模式是否能移植到實際專案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可閱讀該文章的實驗設計與程式碼，評估是否可將類似經濟機制應用於自己的多 Agent 工作流程，如任務分配或資源調度。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-openlumara-ai-agent",
+    "title": "OpenLumara：從零打造、專為本地模型設計的超高效率模組化 AI Agent",
+    "title_original": "OpenLumara - A different kind of AI agent, written from scratch, not vibecoded. Extremely token-efficient, super small system prompt, made for local models. Everything is modular.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1txxgpq/openlumara_a_different_kind_of_ai_agent_written/",
+    "published_at": "2026-06-05T21:05:08+00:00",
+    "category": "open-source-ai",
+    "summary": "OpenLumara 是一款強調從零開始編寫、非 vibecoded 的 AI Agent，主打極致 token 效率與超小 system prompt，專為本地模型優化。所有元件皆為模組化設計，讓開發者能自由組合功能。",
+    "highlights": [
+      "支援本地模型部署，降低雲端 API 依賴",
+      "token 效率極高，可降低推論成本",
+      "system prompt 體積極小，減少上下文佔用",
+      "全模組化架構，方便功能擴展與客製",
+      "開源專案，可自行部署與審計"
+    ],
+    "why_it_matters": "對技術宅而言，本地模型成本是關鍵痛點。OpenLumara 若真能以極少 token 達成同等任務，將大幅降低離線自動化門檻，尤其適合重視資料隱私的開發者。",
+    "automation_angle": null,
+    "automation_angle_zh": "可部署於本地機器作為私有化工作流程程引擎，測試其在文書處理、程式碼生成等任務上的 token 消耗與輸出品質平衡。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-github-copilot-cli",
+    "title": "GitHub Copilot CLI 企業插件管理功能進入公開預覽階段",
+    "title_original": "Enterprise-managed plugins in VS Code in public preview",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-05-enterprise-managed-plugins-in-vs-code-in-public-preview",
+    "published_at": "2026-06-05T21:01:48+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布 Copilot CLI 企業插件管理功能正式進入公開預覽，企業管理員可跨組織統一配置與分發插件給 CLI 用戶，VS Code 端支援亦已在規劃中。",
+    "highlights": [
+      "企業管理員可集中管理 Copilot CLI 插件",
+      "支援跨組織統一分發與版本控制",
+      "VS Code 端企業插件管理即將到來",
+      "提升企業內 AI 工具部署一致性",
+      "降低 IT 管理與安全合規成本"
+    ],
+    "why_it_matters": "企業級 AI 工具的一致性管理是规模化部署關鍵。此功能讓技術主管能統一管控插件版本，降低影子 IT 風險，對大型團隊開發效率有實質影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "在企業環境中，IT 管理員可借此功能批量部署預先驗證過的 Copilot 插件組合，實現開發環境標準化與合規審計。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-06-gemma-4-qat-amd-7900-xtx-vram",
+    "title": "Gemma 4 QAT 量化效能實測：AMD 7900 XTX 環境下更快、更省 VRAM 且無品質損失",
+    "title_original": "Gemma 4 QAT benchmark results (AMD 7900 XTX): faster, less VRAM, no quality loss",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1txxd7c/gemma_4_qat_benchmark_results_amd_7900_xtx_faster/",
+    "published_at": "2026-06-05T21:01:19+00:00",
+    "category": "new-models",
+    "summary": "社群用戶在 AMD 7900 XTX 顯示卡上對 Gemma 4 QAT（量化感知訓練）版本進行基準測試，結果顯示推論速度提升、VRAM 佔用減少，且未觀察到輸出品質明顯下降。",
+    "highlights": [
+      "測試平台為 AMD 7900 XTX 顯示卡",
+      "QAT 版本推論速度較原版更快",
+      "VRAM 佔用量顯著降低",
+      "輸出品質與原版相比無明顯差異",
+      "結果來自社群非官方測試"
+    ],
+    "why_it_matters": "QAT 量化可在保持品質同時降低資源需求，對 AMD 顯示卡用戶是正面訊號。但社群測試非正式基準，數據解讀需謹慎。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 Gemma 4 QAT 版本至本地 AMD 環境實測，比較在常見任務（如程式碼生成、摘要）上的速度與品質差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-05-canvas-mcp-canvas-lms-model-context-protocol",
     "title": "Canvas MCP：Canvas LMS 的 Model Context Protocol 伺服器",
     "title_original": "vishalsachdev/canvas-mcp",
