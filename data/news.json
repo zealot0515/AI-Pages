@@ -1,5 +1,174 @@
 [
   {
+    "id": "2026-06-07-tokensave-40-mcp-rust-100",
+    "title": "tokensave：40+工具的程式碼智慧MCP伺服器，Rust實作、100%本地部署",
+    "title_original": "aovestdipaperino/tokensave",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aovestdipaperino/tokensave",
+    "published_at": "2026-06-07T18:18:17Z",
+    "category": "open-source-ai",
+    "summary": "專為AI程式設計代理打造的全方位程式碼理解MCP伺服器，支援30+程式語言與40+工具，透過預索引語意知識圖譜實現即時程式碼理解，可大幅節省token消耗與工具呼叫次數，100%本地執行不依賴外部API。",
+    "highlights": [
+      "Rust語言實作，效能與記憶體效率佳",
+      "支援9種主流代理框架整合",
+      "預索引知識圖譜減少上下文長度",
+      "40+工具涵蓋程式碼搜尋、推論、修改",
+      "30+程式語言支援，覆蓋範圍廣"
+    ],
+    "why_it_matters": "本地化程式碼理解工具可降低AI Coding成本並提升隱私，減少對雲端API依賴，讓企業內部專案也能安全使用AI代理處理程式碼任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可立即部署此MCP伺服器至本機開發環境，整合至Cursor/Windsurf等AI IDE，實現本地程式碼補全、語意搜尋與重構建議，監控token節省效果與工具呼叫延遲。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/42046613?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-07-claude-3-vs-openai",
+    "title": "Claude 3 vs OpenAI最新模型上下文視窗效能比較引熱議",
+    "title_original": "Benchmarking Claude 3 against OpenAI's latest models - the context window difference is real.",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tziqxl/benchmarking_claude_3_against_openais_latest/",
+    "published_at": "2026-06-07T17:45:42+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit技術社群熱烈討論Claude 3與OpenAI新模型在長上下文任務上的效能差異，多位開發者分享實際專案中的測試結果，指出Claude 3的200K上下文在文件分析場景展現穩定優勢，但OpenAI在某些任務類型仍有領先。",
+    "highlights": [
+      "長上下文任務成為模型選擇關鍵指標",
+      "社群分享多種實際工作負載測試數據",
+      "文件分析場景Claude 3表現突出",
+      "推論延遲與準確度權衡各有優勢"
+    ],
+    "why_it_matters": "模型上下文處理能力直接影響AI應用架構設計，技術決策者需了解各模型長文本處理能力以選擇符合業務需求的解決方案，避免因上下文限制導致任務失敗。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可設計自動化評測流程，用相同長文本任務比較各模型表現，量化成本與準確度，據此建立模型選擇決策樹以支援日常開發工作流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-search-console-mcp-google-search-console-bing-ga4-mcp-server",
+    "title": "search-console-mcp：Google Search Console / Bing / GA4 的 MCP Server 方案",
+    "title_original": "saurabhsharma2u/search-console-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/saurabhsharma2u/search-console-mcp",
+    "published_at": "2026-06-07T17:12:19Z",
+    "category": "agent-skills",
+    "summary": "search-console-mcp 將 Google Search Console、Bing Webmaster Tools 與 GA4 三大 SEO/流量資料來源封裝為 MCP Server，讓 AI Agent 可直接查詢網站流量、排名與使用者行為數據。TypeScript 實作，stars 高達 156，是目前 MCP 生態中人氣最高的搜尋分析工具之一。",
+    "highlights": [
+      "支援 Google Search Console、Bing、Webmaster Tools、GA4",
+      "將流量資料以 MCP 協定暴露給 Agent",
+      "TypeScript 實作，stars 156，社群成熟",
+      "可用自然語言驅動 SEO 查詢",
+      "設計目標為 AI 原生資料基礎設施"
+    ],
+    "why_it_matters": "SEO 分析以往需要手動操作多個儀表板，search-console-mcp 讓 Agent 能直接跑「過去一個月哪些關鍵字流量掉了？」之類的診斷，大幅加速站長工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "站長或 SEO 工程師可將此 MCP Server 接入自建 Agent，自動化生成週報（例如「流量下滑原因分析」）或即時監控特定排名異動並觸發告警。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/41580629?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-07-zotpilot-zotero-mcp-server-agent",
+    "title": "ZotPilot：Zotero 研究助理的 MCP Server 與 Agent 技能",
+    "title_original": "xunhe730/ZotPilot",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/xunhe730/ZotPilot",
+    "published_at": "2026-06-07T17:11:46Z",
+    "category": "agent-skills",
+    "summary": "ZotPilot 將 Zotero 書目管理系統與 MCP 協定整合，讓 AI Agent 能夠直接查詢文獻、提取註釋、檢索 PDF。適用於研究工作流程自動化，已有 53 stars 的社群關注度。",
+    "highlights": [
+      "MCP Server 實作，支援 Zotero API 呼叫",
+      "可讓 Agent 自動化檢索書目、PDF 註釋",
+      "Python 實作，與主流 Agent 框架相容",
+      "Stars 53，社群成長中",
+      "適合學術研究、文献回顧場景"
+    ],
+    "why_it_matters": "研究人員或技術寫作者常需來回於瀏覽器 Zotero 與 AI 工具之間，ZotPilot 將此流程壓平為 Agent 内部呼叫，省下手動複製貼上的繁瑣。",
+    "automation_angle": null,
+    "automation_angle_zh": "研究人員可將 ZotPilot 接入個人 Agent，實現「根據關鍵字自動抓取 Zotero 文獻摘要」或「讓 AI 幫我整理某專案下的所有 PDF 註釋」的工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/255865148?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-agent-search-api-mcp-server",
+    "title": "agent-search：自托管搜尋 API 與 MCP Server，一行指令部署",
+    "title_original": "brcrusoe72/agent-search",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/brcrusoe72/agent-search",
+    "published_at": "2026-06-07T16:59:06Z",
+    "category": "agent-skills",
+    "summary": "agent-search 是基於 SearXNG 的自托管搜尋 API，附帶 MCP Server 實作，可讓 AI Agent 直接執行網頁搜尋而無需任何 API Key。支援一指令 Docker 部署，是 Tavily、Exa、Serper 的開源替代方案。",
+    "highlights": [
+      "基於 SearXNG，零 API Key 依賴",
+      "提供 MCP Server 協定，支援主流 Agent 框架接入",
+      "一行 Docker 指令即可本地部署",
+      "完全開源， stars 40，可審計原始碼",
+      "支援自訂搜尋引擎與過濾規則"
+    ],
+    "why_it_matters": "在 AI Agent 實際需要搜尋工具的場景下，商業搜尋 API 有訂閱費與用量限制，agent-search 提供了免費、可自管的替代，適合對資料隱私或成本敏感的技術團隊。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可在本地或伺服器跑起 Docker compose，替換現有 Agent 的 Tavily 工具呼叫，實測搜尋延遲與結果品質差異，評估是否能在特定工作流程中完全取代付費方案。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/9562894?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-llama-server",
+    "title": "Llama-server啟動器問世：輕鬆自訂本地模型配置",
+    "title_original": "A handy llama-server launcher with easy model and configuration customisation",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tzdbwr/a_handy_llamaserver_launcher_with_easy_model_and/",
+    "published_at": "2026-06-07T14:16:33+00:00",
+    "category": "open-source-ai",
+    "summary": "社群開發者推出圖形化Llama-server啟動器工具，讓使用者可在本地快速切換不同模型、調整量化參數與推論設定，降低本地LLM部署門檻，無需記憶複雜指令列參數。",
+    "highlights": [
+      "圖形化介面簡化模型切換流程",
+      "支援多種量化等級即時調整",
+      "整合常見Llama.cpp參數設定"
+    ],
+    "why_it_matters": "本地LLM部署工具持續成熟，降低了開發者試驗不同模型的成本與技術門檻，有助於快速驗證模型適用性並優化本機硬體資源使用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可使用此工具建立標準化本地模型測試環境，批次執行不同任務的效能對比，找出符合特定用途的最佳模型配置。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-07-chatgpt",
     "title": "免費版ChatGPT用戶反映使用體驗明顯下降",
     "title_original": "Free ChatGPT has become unusable",
