@@ -1,5 +1,174 @@
 [
   {
+    "id": "2026-06-07-chatgpt",
+    "title": "免費版ChatGPT用戶反映使用體驗明顯下降",
+    "title_original": "Free ChatGPT has become unusable",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tzaorc/free_chatgpt_has_become_unusable/",
+    "published_at": "2026-06-07T12:21:38+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit用戶反映免費版ChatGPT可用性大幅下滑，可能與付費用戶優先級排程、速率限制收緊或模型降級有關，免費用戶的工作效率受到影響。",
+    "highlights": [
+      "免費用戶反映回應速度明顯變慢",
+      "推測為付費用戶優先排程導致",
+      "速率限制可能更加嚴格",
+      "部分場景模型可能被降級使用",
+      "影響技術用戶的日常原型測試工作"
+    ],
+    "why_it_matters": "免費版體驗降級迫使技術用戶重新評估是否需要訂閱付費方案，增加個人或團隊的AI工具成本，需權衡功能需求與預算。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估使用開源模型（如本地Llama、Qwen）作為免費ChatGPT的替代方案，透過本地部署保持工作流程穩定性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-qwen-3-6-27b-kv-cache-75",
+    "title": "Qwen 3.6 27B KV Cache量化基準測試：75組配對完整結果出爐",
+    "title_original": "Qwen 3.6 27B KV cache quant benchmarks: 75 pairs, q8/q6/q5/q4, KVarN, Turbo/TCQ",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tza4ji/qwen_36_27b_kv_cache_quant_benchmarks_75_pairs/",
+    "published_at": "2026-06-07T11:54:15+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit用戶發布Qwen 3.6 27B模型的KV Cache量化詳細基準測試，涵蓋Q8/Q6/Q5/Q4等精度組合，並提供KVarN與Turbo/TCQ方案的效能對比數據。",
+    "highlights": [
+      "測試覆蓋75組量化配對，樣本量充足",
+      "支援Q8/Q6/Q5/Q4多精度等級",
+      "包含KVarN新型量化方案",
+      "Turbo與TCQ方案並列比較",
+      "可作為本機部署的效能與記憶體取捨參考"
+    ],
+    "why_it_matters": "KV Cache量化能大幅降低推論記憶體需求，技術用戶可依此數據選擇最佳精度配置，在消費級GPU上運行更大模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據發布的量化表格，在本機RTX 3090/4090等顯卡上選擇q6或q4精度配置，優化Qwen 27B模型的推論速度與記憶體佔用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-hugging-face-openai-codex",
+    "title": "Hugging Face 黑客松：OpenAI Codex 折價券申請機會",
+    "title_original": "Sponsors especially OPENAI CODEX voucher usage for codex - openAI challange",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/build-small-hackathon/sponsors-vouchers",
+    "published_at": "2026-06-07T11:38:54+00:00",
+    "category": "ai-deals",
+    "summary": "Hugging Face 部落格文章揭露小型黑客松活動，其中 OpenAI 提供 Codex 折價券作為贊助資源。細節如折價券面額、申請資格與使用期限需進一步查閱原文，屬一次性活動優惠，非長期產品方案。",
+    "highlights": [
+      "OpenAI Codex 折價券為黑客松贊助項目",
+      "折價券額度與限制條款需詳閱原頁面",
+      "屬限時一次性活動，非持續性產品更新",
+      "Hugging Face 為主辦平台，有興趣者可關注後續黑客松動態",
+      "可用於降低 Codex API 在黑客松專案中的使用成本"
+    ],
+    "why_it_matters": "對於參加黑客松或短期程式競賽的開發者，折價券可直接降低 API 成本，但需注意時效性與申請門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "若近期有參加類似黑客松的計畫，可透過此頁面申請 Codex 折價券，用於自動化程式碼生成或 AI 輔助重構工作，節省 API 開支。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-bearlike-assistant-agent",
+    "title": "bearlike/Assistant：終端機原生 Agent 超管理器",
+    "title_original": "bearlike/Assistant",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/bearlike/Assistant",
+    "published_at": "2026-06-07T09:40:02Z",
+    "category": "agent-skills",
+    "summary": "bearlike/Assistant 是一款具備內建 Agent 超管理器的 AI 助理，可生成、限定範圍並管理跨任務的平行子 Agent。支援從終端機、瀏覽器、API 或 Home Assistant 啟動，適合想要統一控管多 Agent 協作的技術玩家。",
+    "highlights": [
+      "內建 Agent Hypervisor 自動管理子 Agent 生命週期",
+      "支援平行子 Agent 執行多軌任務",
+      "提供終端機、瀏覽器、API、Home Assistant 四種執行介面",
+      "Python 實作，34 顆星，社群關注度尚低",
+      "可與 Home Assistant 整合打造本地智慧家庭 Agent 系統"
+    ],
+    "why_it_matters": "單一入口管理多個並行 Agent 能大幅簡化複雜工作流程的排程與除錯，技術玩家可用它實驗多 Agent 協作的最小可行性架構。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 bearlike/Assistant 部署為本地任務協調層，讓不同子 Agent 分別處理文檔摘要、程式碼生成、資料查詢等子任務，觀察超管理器如何分配資源與隔離錯誤。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/39209037?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-ai",
+    "title": "中國三大電信商大規模調整資費，迎接AI時代數據需求",
+    "title_original": "国内3家移动通信公司開始了大规模的资费制度改编。 据分析,随着人工智慧(AI)時代的到來,通信資料成為必需品,因此這是為了摆脱以下调價格為主的政策,保障\"以資料為中心的基本通信权\"的政府要求而采取的先.. - 매일경제",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9Fbkx1MzhrSkhIYUQwMmthSERnRHVja2d2c1c3VWNUMGFEcjV1aFNrMnRSWlBFWUd2N0d0RENCc2dHQmdMeXlzbnBEcw?oc=5",
+    "published_at": "2026-06-07T08:36:10+00:00",
+    "category": "ai-deals",
+    "summary": "據每日經濟新聞報導，中国三大移動通信運營商正進行大規模資費制度改革，業界分析認為是因應AI時代數據剛需，響應政府「以數據為中心的基本通信權」政策方向。",
+    "highlights": [
+      "中國移動、聯通、電信三大運營商啟動資費重構",
+      "AI應用普及使行動數據成為剛性需求",
+      "政策要求擺脫以降價為主的傳統定價模式",
+      "可能朝數據吃到飽或彈性計費方向調整",
+      "對AI開發者與邊緣運算部署有間接成本影響"
+    ],
+    "why_it_matters": "電信資費調整影響AI應用的基礎設施成本結構，若數據成本下降將降低邊緣AI部署與行動端推論的進入門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可重新評估行動網路使用策略，計算IoT設備或行動端AI代理的數據傳輸成本，優化自動化工作流程的網路費用。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-item",
+    "title": "開源模型正在取勝：開放生態系的全域優勢分析",
+    "title_original": "Open models to win ✌",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tz6h86/open_models_to_win/",
+    "published_at": "2026-06-07T08:27:51+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA社群熱議開源模型與閉源模型的競爭態勢，支援者認為開源在透明度、客製化彈性及成本控制上佔據優勢，尤其在本地部署場景中能避免API依賴與數據外流風險。",
+    "highlights": [
+      "開源模型允許完整審查Weights，杜絕隱藏行為或後門",
+      "本地部署無需支付API費用，長期成本顯著降低",
+      "可針對特定領域微調，打造垂直專用模型",
+      "隱私資料不出企業網路，符合合規要求",
+      "社群驅動的快速迭代與Bug修復生態"
+    ],
+    "why_it_matters": "對技術用戶而言，開源模型代表基礎設施自主權，可擺脫供應商定價控制，尤其適合需要資料隔離或成本敏感的企業場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估本機GPU配置與開源模型需求，在內網環境部署Llama/Qwen等模型實現完全隔離的自動化工作流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-07-graphkv-kv-cache",
     "title": "GraphKV：基於圖嵌入的 KV Cache 優化新方法",
     "title_original": "GraphKV, kv cache optimization based on graph embedding models",
@@ -49,6 +218,34 @@
     "automation_angle_zh": "技術人員可使用蒸餾功能將 70B 模型蒸餾至 7B，在保持較高任務效能的同時，大幅降低硬體需求與 API 費用。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-chatgpt",
+    "title": "ChatGPT專案功能遭用戶抱怨功能缺口過多",
+    "title_original": "ChatGPT Chats/Projects - everything missing",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tz0e02/chatgpt_chatsprojects_everything_missing/",
+    "published_at": "2026-06-07T02:54:46+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit OpenAI版塊有用戶抱怨ChatGPT的Chats/Projects功能缺少多項預期特性，包括跨對話搜尋、標籤管理、匯出功能等基礎協作工具尚不完善。",
+    "highlights": [
+      "Projects功能被反映功能嚴重不足",
+      "缺乏跨對話全文搜尋能力",
+      "標籤分類與管理機制缺失",
+      "對話匯出格式選項有限",
+      "用戶期待與實際功能落差明顯"
+    ],
+    "why_it_matters": "對依賴ChatGPT進行長期專案管理的技術用戶，功能缺口影響工作流程程效率，可能需要等待官方更新或自行建立外部管理系統。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可考慮自建對話管理腳本，透過API定期匯出並結構化儲存ChatGPT對話，補足原生功能的不足。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -26747,6 +26944,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-07-claude-app-ceo",
+    "title": "Claude App疑遭美國政府下架，CEO公開回應引發關注",
+    "title_original": "Claude被特朗普封杀24小時登顶App Store，CEO含泪首發声！ - 新浪财經",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA1aEpHbzl4aWRVVzNRY2RuTU94Unc0anB1NnZEc0NKbWY0VnZkRldKODVkbEIxeVJGY280TUVlT1BhTTcwREd3aGFCVUxkMnBZX3hSTmRTNWFfQ2ZwUmFCMF80UTN2VDlMSmtSNW5uWFhOYlNfRGc?oc=5",
+    "published_at": "2026-03-01T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "新浪財經報導Claude應用在美國App Store疑似遭短暫下架，一度登上下載榜首，Anthropic CEO隨後發聲回應事件。消息細節尚未完全證實，建議交叉查證官方聲明。",
+    "highlights": [
+      "Claude iOS應用疑似因政府要求遭短暫下架",
+      "下架期間一度登上App Store下載排行榜冠軍",
+      "Anthropic CEO公開發表聲明說明情況",
+      "事件可能涉及政府採購或國安合規議題",
+      "詳細原因及後續發展仍待官方確認"
+    ],
+    "why_it_matters": "若屬實，此事件顯示AI應用正面臨日益嚴格的政府監管環境，技術用戶需關注模型供應商的合規穩定性與替代方案準備。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶應評估備用模型（如Llama、Qwen）的部署可行性，並建立跨供應商的AI工作流程，避免單一服務中斷影響業務。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-google-adk",
     "title": "Google ADK 新增整合生態系統",
     "title_original": "Supercharge your AI agents: The New ADK Integrations Ecosystem - blog.google",
@@ -27791,6 +28016,34 @@
     "why_it_matters": "Mistral 將模型能力直接整合進 CLI 工具鏈，降低開發者接入門檻，為自動化工作流程提供新的整合點。",
     "automation_angle": null,
     "automation_angle_zh": "立即安裝 Vibe CLI 測試：可將日常 Git 操作、測試執行、部署脚本等任務編寫成 AI 驅動的自動化流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-mistral-ai-devstral-2-vibe-cli",
+    "title": "Mistral AI 發布 Devstral 2 程式碼模型與 Vibe CLI",
+    "title_original": "Mistral AI Ships Devstral 2 Coding Models And Mistral Vibe CLI For Agentic, Terminal Native Development - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNa1BsM2wxTFJCc1pDaFk4Y0pjREdpaDFQOExsYzJzd29zazY3WTZLVC1yX3ZxWDNrOWNFWlczR19zZUxpaUxmYVVwczI5S191aXhQVi05cGpkSXRuUHhQVmwxUlJ6aEZSQUVRbGJ6LXRZUEhDS0Q3RnUwWWtEQUl3V0RhdnhfaURWZGpicDVET1I0alQ1VzhvUnFRWUhZUi1XV1NQeTlOVlZ3QWoyN1k3Y294NDc0Yk54Nl9pVmVmc05LV1lXTTBYXzMzTGZnV2ZFanNyODZhMlVhSlU?oc=5",
+    "published_at": "2025-12-09T08:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 正式推出 Devstral 2 程式碼模型系列與 Mistral Vibe CLI，專為 Agent 化、終端機原生開發場景設計。Devstral 2 強調程式碼生成與理解能力，Vibe CLI 則提供直連終端機的 AI 互動介面，屬模型+工具鏈的組合發布。",
+    "highlights": [
+      "Devstral 2 為 Mistral 旗下新一代程式碼專用模型",
+      "Vibe CLI 提供終端機原生 AI 開發體驗",
+      "強調 Agent 化工作流程支援，瞄準 DevOps 場景",
+      "屬模型與工具鏈同步發布的組合拳",
+      "MarkTechPost 為二級報導，具體效能數據待官方文件驗證"
+    ],
+    "why_it_matters": "Mistral 同步推模型與 CLI 工具鏈，顯示其加速佈局 AI 原生開發工具生態的意圖，技術團隊可評估其是否能補充或取代現有 Copilot 類工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 Vibe CLI 安裝至本機開發環境，試用 Devstral 2 處理日常重構與測試生成任務，觀察其在終端機工作流程中的實際響應速度與準確度。",
     "tags": [
       "new-models",
       "rss",
