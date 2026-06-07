@@ -1,5 +1,117 @@
 [
   {
+    "id": "2026-06-07-graphkv-kv-cache",
+    "title": "GraphKV：基於圖嵌入的 KV Cache 優化新方法",
+    "title_original": "GraphKV, kv cache optimization based on graph embedding models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tz1a2n/graphkv_kv_cache_optimization_based_on_graph/",
+    "published_at": "2026-06-07T03:38:31+00:00",
+    "category": "open-source-ai",
+    "summary": "GraphKV 是一篇研究論文，提出利用圖嵌入技術優化 LLM 推論中的 KV Cache 記憶體佔用。相較於傳統全量 KV Cache，GraphKV 嘗試以圖結構選擇性保留關鍵 Key-Value 表示，目標在降低 GPU 記憶體需求的同時維持推論品質。",
+    "highlights": [
+      "圖嵌入方法用於識別 KV Cache 中的高價值表示",
+      "旨在降低長上下文推論的 GPU VRAM 消耗",
+      "研究階段，尚未進入主流框架或量化採用",
+      "對本地部署大模型有潛在意義",
+      "可與 llama.cpp、vLLM 等推論優化工具對比研究"
+    ],
+    "why_it_matters": "長上下文 LLM 推論的記憶體瓶頸是本地部署的主要障礙。GraphKV 若能落地，可能讓更長的上下文視窗在消費級 GPU 上運行，對除錯、程式碼分析等場景有實質幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤 GraphKV 的 GitHub 實作或相關論文更新，待開源實作釋出後，在本地 LLaMA 模型上測量 VRAM 節省幅度與任務品質影響。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-open-deepthink",
+    "title": "open-deepthink 正式支援完整知識蒸餾模式",
+    "title_original": "5 Months Later: open-deepthink Now Has Full Knowledge Distillation Mode",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tz0zwy/5_months_later_opendeepthink_now_has_full/",
+    "published_at": "2026-06-07T03:24:48+00:00",
+    "category": "open-source-ai",
+    "summary": "open-deepthink 專案在 5 個月後發布更新，正式支援完整知識蒸餾（Knowledge Distillation）模式。此功能允許將大型模型的知識遷移到較小模型，降低推論成本。",
+    "highlights": [
+      "支援完整蒸餾流程：教師模型到學生模型的知識遷移",
+      "蒸餾後學生模型在特定任務上的表現評估",
+      "蒸餾過程的訓練效率優化",
+      "與主流開源模型的相容性",
+      "社群提供的蒸餾配方（recipes）"
+    ],
+    "why_it_matters": "知識蒸餾是降低 AI 部署成本的核心技術。open-deepthink 的完整支援讓技術人員能在本地環境自建蒸餾流程，不需依賴商業 API。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可使用蒸餾功能將 70B 模型蒸餾至 7B，在保持較高任務效能的同時，大幅降低硬體需求與 API 費用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-reddit-xcode-20-vs-api-credits-cp",
+    "title": "Reddit 熱議：Xcode $20/月訂閱 vs 等值 API Credits，CP 值分析",
+    "title_original": "More usage/value in Xcode: $20/month subscription or $20 in API usage credits?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tyy2vf/more_usagevalue_in_xcode_20month_subscription_or/",
+    "published_at": "2026-06-07T01:00:52+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/OpenAI 討論串聚焦在 Xcode 的 $20/月訂閱方案與等值 API Credits 的使用效益比較。討論者從使用頻率、功能範圍、彈性等角度分析，結論因人而異，取決於開發者對工具生態與靈活度的取捨偏好。",
+    "highlights": [
+      "訂閱方案提供 Xcode 原生整合與便利性",
+      "API Credits 提供更高彈性與跨平台使用",
+      "高頻用戶可能從 API Credits 獲得更高價值",
+      "低頻用戶可能更適合固定訂閱制",
+      "此討論反映開發者對 AI 工具定價模式的高度關注"
+    ],
+    "why_it_matters": "開發工具定價模式的選擇直接影響團隊成本結構。技術用戶可根據自身使用量計算 break-even point，選擇更符合成本效益的方案，避免為閒置功能付費。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可記錄一個月內 Xcode 訂閱功能與純 API 的實際使用時數，計算每小時成本差異，用數據決定續訂或改用 API Credits。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-gemma-4-31b-qat-q4-benchmark",
+    "title": "Gemma 4 31B QAT Q4 量化版本 benchmark 爭議",
+    "title_original": "Gemma 4 31B QAT Q4 vs standard Q4 — Top1 KLD benchmark results have me confused. Someone please explain or poke holes in this.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tyxu55/gemma_4_31b_qat_q4_vs_standard_q4_top1_kld/",
+    "published_at": "2026-06-07T00:49:07+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群討論 Gemma 4 31B QAT Q4 量化版與標準 Q4 版本在 KLD benchmark 上的表現差異。部分用戶對 Top1 KLD 分數感到困惑，質疑量化方式對模型輸出的影響。",
+    "highlights": [
+      "QAT（量化感知訓練）vs 標準後訓練量化方法的差異",
+      "KLD（KL 散度）指標在評估量化損失的適用性",
+      "31B 參數規模在本地部署的性價比考量",
+      "社群對 benchmark 結果的可重複性存疑",
+      "需要更多實際任務測試而非僅依賴 benchmark"
+    ],
+    "why_it_matters": "Gemma 4 31B 是 Google 重要的開源模型，其量化方案的選擇直接影響本地部署成本與輸出品質。此爭議有助技術人員選擇更適合的部署策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可自行下載兩個版本，在自己的任務集上進行對比測試，決定是否採用 QAT 量化方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-07-heygen-com-hyperframes-agent-html",
     "title": "heygen-com/hyperframes：為Agent打造的HTML影片渲染工具",
     "title_original": "heygen-com/hyperframes",
@@ -26442,6 +26554,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-07-microsoft-azure-agent-factory-ai",
+    "title": "Microsoft Azure Agent Factory：代理式 AI 設計模式與常見用例",
+    "title_original": "Compare 50+ AI Agent Tools in 2026 - AIMultiple",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Id21adEZYcW8tRkkwWDhVcXpLWWVWejFoWTQxX2ZaVHJveVhfNFpIQ3FuMHpuLTZxLXdlM2szS1pOeW1RSGt3emk5aVpDQQ?oc=5",
+    "published_at": "2026-03-16T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "微軟 Azure 發布 Agent Factory 框架，提供代理式 AI 的常見用例與設計模式指引。內容涵蓋多代理協作、任務分解、工具調用等核心模式，協助開發者構建可靠的 AI 工作流程。",
+    "highlights": [
+      "多代理（Multi-Agent）協作模式的設計原則",
+      "任務自動分解與串接的實作方法",
+      "工具調用（Tool Calling）與函式執行框架",
+      "企業級代理應用的安全性與監控考量",
+      "與 Azure OpenAI Service 的深度整合"
+    ],
+    "why_it_matters": "對於需要建構複雜 AI 工作流程的技術人員，Agent Factory 提供了經微軟驗證的設計藍圖，可縮短從概念驗證到生產部署的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可參考其模式設計文件，直接複製適合自己場景的代理架構模板，減少自建框架的試錯成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-25-meta-google-openai",
     "title": "分析：Meta 能在 Google 與 OpenAI 衝刺時暫停嗎？",
     "title_original": "Avocado on Ice: Can Meta Afford to Pause While Google and OpenAI Sprint Ahead? - 24/7 Wall St.",
@@ -26686,6 +26826,34 @@
       "ai-deals",
       "rss",
       "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-augment-code-ai",
+    "title": "Augment Code 評測：規格驅動開發八大AI工具",
+    "title_original": "8 Best AI Tools for Spec-Driven Development - Augment Code",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSGZuMzNpQ251MHI2MUF6dThWbjRkN1had1Y5V1dSa2ptNDllNjlGM0oxUDJrdmd4LVhBSjhEZUdGZTVxdjgwa3lBUk5IMVNhVW5qTEJISFYwLVZsamhhNlV2T1VpTDZzRi1SSU4wY25yeFFkM1p2ZGcwd3d3ZzZULQ?oc=5",
+    "published_at": "2026-02-23T08:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Augment Code 發布AI開發工具評測，列舉八款適合規格驅動開發的AI輔助工具。內容涵蓋從代碼生成到自動測試的完整流程，瞄準提升工程師生產力需求。評測由第三方編寫，工具涵蓋範圍有待驗證。",
+    "highlights": [
+      "列出八款AI開發工具，包含代碼補全與生成功能",
+      "強調規格驅動開發（Spec-Driven）流程整合",
+      "部分工具支援自動測試與文件生成",
+      "評測來源為列表型文章，詳細功能對比有限",
+      "工具實際效能需自行驗證"
+    ],
+    "why_it_matters": "工程師每日面臨重複性編碼任務，了解合適的AI工具可縮短開發週期。規格驅動開發強調先定義行為再實作，AI輔助可加速此流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可根據評測清單，在個人專案中逐一試用感興趣的工具，評估其與現有工作流程的整合程度，重點關注能否減少樣板代碼與測試編寫時間。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -28041,6 +28209,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-07-github-blog-agentic-primitives-context-engineering-ai",
+    "title": "GitHub Blog 詳解 Agentic Primitives 與 Context Engineering 提升 AI 工作流程可靠性",
+    "title_original": "How to build reliable AI workflows with agentic primitives and context engineering - The GitHub Blog",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNYWIxVTJQUF93a0dyUkR6XzJtOXhKWS1ZaUJZcm02RmNvYUlqRjN2NUxLM05JMTQxcG1UVkpySGV0OWlyWkVMeEl0cjlwVzFWRV9odEJMM0ZvNzZuZDBFVXE0bmVUQ01NbzZqbjZRVHZUSkk3MjRVV2xOUVVlZnJONXA4U2xmcnhMcjBBeDhsUFd5enRMOEZjeW4xTEJHVnc3bVJ4QktZcVE0Rjh5TGdUeE42RDlra1o5NFpHZVVfUmtIUXRPWTVUbWVhNWtfUDZLYkVSekdZd29jQi1FMllxSTNjYVR1dG9ESW0tMlZxMFE2NTNrc1BldFJiRkdTYTVYdEV2bVNHUlk0VVZRQUpuMkJuemtYbEtsUEd4V1ZJMHAyMHlaUzhnNDRGMlVxc3M?oc=5",
+    "published_at": "2025-10-13T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方部落格介紹如何利用 Agentic Primitives（Agent 基礎構建模組）與 Context Engineering（上下文工程）提升 AI 工作流程的穩定性。內容涵蓋工具調用設計、錯誤恢復機制、Prompt 結構優化等實務主題，屬於方法論層面的技術深度文章。",
+    "highlights": [
+      "Agentic Primitives 定義了 Agent 的標準行為單元",
+      "Context Engineering 強調上下文注入的精確控制",
+      "涵蓋工具調用、超時處理、錯誤恢復的實務模式",
+      "適合希望建構、生產級 AI Pipeline 的開發者",
+      "非新產品發布，屬知識沉澱與最佳實踐分享"
+    ],
+    "why_it_matters": "此文章提供了一套可落地的 Agent 設計框架，能幫助技術用戶從實驗階段走向生產就緒的 AI 工作流程。Context Engineering 的概念尤其值得在除錯與 Prompt 優化時借鑒。",
+    "automation_angle": null,
+    "automation_angle_zh": "將文章中的 Agentic Primitives 模式應用於現有專案，重構錯誤處理邏輯，並使用 Context Engineering 技術減少 Prompt Token 消耗，觀察對任務成功率的影響。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-05-24-google-ai-plus-gemini-gmail-docs-200gb-rm23-99",
     "title": "Google AI Plus 訂閱方案擴展至馬來西亞：Gemini 整合 Gmail 與 Docs、200GB 儲存空間，月費 RM23.99",
     "title_original": "Google AI Plus訂閱配套擴展到大马了！圖像生成額度更多、Gmail+Google Docs支援调用Gemini、有200GB储存空间等！每月RM23.99 - Zing Gadget",
@@ -28367,6 +28563,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-07-aimultiple-20-ai-agent",
+    "title": "AIMultiple：20+ 熱門 AI Agent 建構工具總整理",
+    "title_original": "Agent Factory: The new era of agentic AI—common use cases and design patterns - Microsoft Azure",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcWdxS1cxRzdBYi0wMV9Za1FXZHRpbXFlSHNNOEtVS0U1Z3U5Z3pORDNkM2k0RXcwc0R0QkwzaHNyd0dkRHhGNFhEOHNHQUNQVDI4VXNibk1CR3ZnaThqeVdmUGUtcTQ5R2RzaEZfWl9PeU0tMmx6bXJQZzR4WjUzWTdJallWSTlwNkJkaFV3SjN5eXVJTWFwM2lVdWRVMGdwcTRIZGcyVkF5aGhELVVaeS1maXJmczQ?oc=5",
+    "published_at": "2025-08-13T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "AIMultiple 整理市場上 20 餘款 AI Agent 建構工具，包括 Microsoft、CrewAI、LangGraph 等主流方案，提供功能比較與適用場景說明。",
+    "highlights": [
+      "涵蓋 Microsoft Copilot Studio、AutoGen、CrewAI、LangGraph 等主流框架",
+      "提供建構工具的易用性與擴展性評估",
+      "適合快速掃描市場上有哪些代理框架可選",
+      "以比較表格形式呈現，節省調研時間"
+    ],
+    "why_it_matters": "技術選型時需要了解市場上有哪些工具可選，此類整理文章可作為初步調研參考，但需進一步驗證實際效能。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用此清單快速比較工具功能，鎖定 2-3 個候選框架後，再深入研究文件與社群評價。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-23-replicate-api",
