@@ -1,5 +1,175 @@
 [
   {
+    "id": "2026-06-07-heygen-com-hyperframes-agent-html",
+    "title": "heygen-com/hyperframes：為Agent打造的HTML影片渲染工具",
+    "title_original": "heygen-com/hyperframes",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/heygen-com/hyperframes",
+    "published_at": "2026-06-06T23:19:49Z",
+    "category": "agent-skills",
+    "summary": "標榜「寫HTML、渲染影片、為Agent而生」的開源項目，GitHub星標逾25000，TypeScript実装。實際能力待技術驗證，但定位明確。",
+    "highlights": [
+      "GitHub星標逾25000，社群關注度高",
+      "TypeScript開發，生態相容性佳",
+      "標榜為Agent場景優化",
+      "核心功能：HTML寫入、影片渲染",
+      "高星標不等於實用，需實際測試"
+    ],
+    "why_it_matters": "Agent需具備影片生成/渲染能力是趨勢，hyperframes的高星標顯示需求明確，技術人可評估其是否能整合進Agent pipeline。",
+    "automation_angle": null,
+    "automation_angle_zh": "將hyperframes整合進影片生成Agent流程，評估是否能自動化生成行銷或報告用影片內容。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/65394575?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-dvlt-cu-cuda-c",
+    "title": "dvlt.cu：從零開始的 CUDA/C++ 推論引擎",
+    "title_original": "dvlt.cu: inference engine written from scratch in CUDA/C++ for NVIDIA's DVLT 3D transformer model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tyu79c/dvltcu_inference_engine_written_from_scratch_in/",
+    "published_at": "2026-06-06T22:04:08+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者從零開始用 CUDA/C++ 撰寫 NVIDIA DVLT 3D 變壓器模型的推論引擎，旨在突破現有框架的限制。該專案展示底層優化的可能性，但同時要求極高的 CUDA 程式設計能力，目前僅供研究參考。",
+    "highlights": [
+      "從零實現 DVLT 模型推論繞過框架開銷，理論上可提升效能",
+      "需具備 CUDA 核心程式設計經驗，學習曲線陡峭",
+      "目前僅支援 DVLT 3D 變壓器模型，擴展性未知",
+      "散佈式測試數據有限，穩定性未獲社群驗證",
+      "可作為理解模型底層運算的教學素材"
+    ],
+    "why_it_matters": "自建推論引擎代表對效能優化的極致追求，適合需要定制化硬體加速的專業場景。技術宅若關注延迟瓶頸或特殊模型優化，此類專案提供深度學習框架底層視角。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於評估 DVLT 模型在自建引擎上的延遲表現，若優化顯著可整合至個人工作流程程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-sibyl-memory-sqlite-agent",
+    "title": "Sibyl-Memory：SQLite本機持久記憶，Agent自學技能",
+    "title_original": "Sibyl-Labs/Sibyl-Memory",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Sibyl-Labs/Sibyl-Memory",
+    "published_at": "2026-06-06T21:43:14Z",
+    "category": "agent-skills",
+    "summary": "Sibyl Labs開源的記憶插件，支援Hermes，強調本地SQLite持久記憶、關係式上下文、自學與自動技能創建，無需向量資料庫，屬新興專案。",
+    "highlights": [
+      "本地SQLite存儲，無需額外向量資料庫",
+      "結構化層級記憶設計",
+      "支援關係式上下文超越簡單檢索",
+      "自學機制與自動技能創建",
+      "目前星標僅11，屬早期專案"
+    ],
+    "why_it_matters": "Agent記憶管理是長期瓶頸，SQLite方案降低部署門檻，自學機制可能讓Agent真正「成長」，值得技術人關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人可將其作為本地測試平台，評估SQLite記憶方案是否能取代現有向量資料庫方案。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/285133119?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-claude-codex-html",
+    "title": "本地模型能否取代 Claude/Codex 處理簡單 HTML 任務？",
+    "title_original": "Are local models good enough to replace Claude/Codex solely for simple HTML tasks?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tyt63g/are_local_models_good_enough_to_replace/",
+    "published_at": "2026-06-06T21:20:04+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶實際測試小型本地模型（如 Qwen2.5-coder、CodeLLM）在簡單 HTML 建構任務上的表現，發現部分模型已能在低延遲下完成基礎 HTML/CSS 任務，成本幾乎為零。這引發技術社群對本地部署是否能滿足日常簡單編碼需求的討論。",
+    "highlights": [
+      "小型開源程式碼模型（0.5B-7B）在簡單 HTML 任務上錯誤率已低於預期",
+      "本地部署可完全消除 API 費用，適合高頻率小任務",
+      "延遲瓶頸取決於硬體配置，M 系列晶片表現優異",
+      "多數用戶仍需人工校對複雜佈局，但基礎結構正確率可達 85% 以上",
+      "此趨勢可能改變個人開發者的工具選擇策略"
+    ],
+    "why_it_matters": "若本地模型能可靠處理簡單 HTML 任務，個人開發者或小型團隊可省下可觀的 API 費用，並減少對雲端 API 的依賴。技術宅應評估此趨勢是否適用於自己的工作流程程。",
+    "automation_angle": null,
+    "automation_angle_zh": "可設計本地指令稿，自動將設計稿描述轉換為 HTML/CSS，並對比輸出品質與雲端 API 的成本效益。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-codex-sites",
+    "title": "Codex Sites 功能實用但恐成過渡性產品",
+    "title_original": "Sites in Codex is genuinely useful, but I think we'll look back on it as a transition phase",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tyq2v3/sites_in_codex_is_genuinely_useful_but_i_think/",
+    "published_at": "2026-06-06T19:13:56+00:00",
+    "category": "agent-skills",
+    "summary": "用戶評論 OpenAI Codex 的 Sites 功能確實提升開發體驗，但預測此功能將成為 AI 輔助開發的過渡階段，未來可能被更整合的工作流程程取代。此觀點反映業界對 AI 工具定位的反思。",
+    "highlights": [
+      "Codex Sites 提供網站快速建構能力，市場反應正面",
+      "用戶認為整合度不足，缺乏端到端支援",
+      "預測未來 IDE 將直接內建類似功能，而非獨立產品",
+      "此評論反映技術社群對 AI 工具生命周期的關注",
+      "OpenAI 可能正在調整 Codex 產品線策略"
+    ],
+    "why_it_matters": "Codex Sites 的争议凸顯 AI 工具的定位問題：究竟是獨立產品還是整合功能？技術宅應關注此類工具的演進方向，以評估長期投資價值與替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可測試 Codex Sites 與現有 IDE 流程的整合成本，若整合度高則值得作為短期工作流程補充。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-huggingface",
+    "title": "HuggingFace黑客松：五個小模型協作完成金融模擬劇",
+    "title_original": "Five labs, five minds: building a multi-model finance drama on small models",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+    "published_at": "2026-06-06T19:02:33+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face博客分享使用多個小型模型協作完成金融主題模擬的案例，展示創意十足的模型編排策略與低Token消耗開發模式。",
+    "highlights": [
+      "展示多小模型協作的可能性",
+      "強調低Token消耗的開發方式",
+      "金融模擬為具體應用場景",
+      "提供開源模型選擇與prompt策略",
+      "適合想控制成本的技术人參考"
+    ],
+    "why_it_matters": "小模型協作有助降低API成本且維持輸出品質，技術人可借鑒其編排策略優化自己的工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "借鑒其模型編排與prompt策略，評估能否用多個小模型替代單一大型模型降本增效。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-06-zero-order-mezo-ggml-39",
     "title": "Zero Order 優化函式庫 MeZo-GGML 發布，推稱前向傳遞加速 39 倍",
     "title_original": "Made inference focused library for Zero Order optimization of LLMs. built on GGML. 39x faster forward pass and 15x faster on one MeZo step. [P]",
@@ -49,6 +219,34 @@
     "automation_angle_zh": "關注 llama.cpp、vLLM 等框架對 KVarN 的整合進度。整合後可測試長文本任務的記憶體節省效果與輸出品質影響。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-07-glm-ai-agent-minecraft",
+    "title": "GLM AI Agent 成功執行 Minecraft 伺服器",
+    "title_original": "Fuck, sucessfully ran minecraft server on GLM AI's Agent lol.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1tyo4fv/fuck_sucessfully_ran_minecraft_server_on_glm_ais/",
+    "published_at": "2026-06-06T17:58:20+00:00",
+    "category": "agent-skills",
+    "summary": "開發者在 GLM AI 的 Agent 平台上成功部署 Minecraft 伺服器，展示國產大模型在長程任務規劃與工具調用上的能力。此案例被視為國產模型在 Agent 應用場景的重要驗證，但也伴隨對穩定性與實用性的質疑。",
+    "highlights": [
+      "GLM AI Agent 展示多步驟任務執行能力，包括環境配置與服務啟動",
+      "實驗性質明顯，距離生產環境部署仍有差距",
+      "國產模型在中文指令理解上具備本土優勢",
+      "遊戲伺服器屬於低風險實驗場景，失敗成本可控",
+      "社群反應兩極，部分用戶認為具里程碑意義，部分認為是 PR 操作"
+    ],
+    "why_it_matters": "GLM 的成功案例顯示國產大模型正快速接近 Agent 應用能力，技術宅應關注其工具调用 API 的開放程度與整合便利性，這可能是替代昂貴方案的切入點。",
+    "automation_angle": null,
+    "automation_angle_zh": "可研究 GLM Agent 的 API 文件，測試其在自動化遊戲伺服器管理或 NPC AI 控制上的潛力。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
