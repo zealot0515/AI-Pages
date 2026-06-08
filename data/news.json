@@ -1,5 +1,601 @@
 [
   {
+    "id": "2026-06-08-tiger-cli-timescale-postgres-mcp",
+    "title": "Tiger CLI：Timescale 推出的 Postgres 生產級程式碼 MCP 助理",
+    "title_original": "timescale/tiger-cli",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/timescale/tiger-cli",
+    "published_at": "2026-06-08T13:11:10Z",
+    "category": "agent-skills",
+    "summary": "Timescale 開源的 Tiger CLI 包含 MCP 伺服器，能幫助 AI 編碼 Agent 撰寫生產級 Postgres 語法與查詢。累積 109 顆星，支援時間序列資料優化。對於需操作時序資料庫的技術人員，可直接整合至工作流程提升 SQL 生成準確度。",
+    "highlights": [
+      "由知名時序資料庫 Timescale 維護，有品牌可信度",
+      "專注於生產級 Postgres 程式碼生成",
+      "內建時序資料庫（TimescaleDB）專屬優化建議",
+      "可用 CLI 快速查詢與操作，與 MCP 協定相容",
+      "109 顆星顯示初期社群採用意願"
+    ],
+    "why_it_matters": "AI 生成 SQL 時常出現語法錯誤或忽略效能瓶頸，Tiger CLI 透過 MCP 介面讓 LLM 能直接存取資料庫結構與優化規則，減少生產環境的踩坑機會。",
+    "automation_angle": null,
+    "automation_angle_zh": "Dev 可將 Tiger CLI 的 MCP 端點註冊至 AI 開發助理，讓 LLM 在生成資料庫遷移腳本或複雜查詢時，自動呼叫此工具驗證語法並取得效能建議，節省人工 review 時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/8986001?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-08-hugging-face",
+    "title": "Hugging Face 研究：五模型協作經濟中的控制與湧現現象",
+    "title_original": "The crash that vanished: control and emergence in a five-model economy",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v3",
+    "published_at": "2026-06-08T13:10:48+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格分享一個小型黑客松實驗，研究五個 AI 模型協作時「崩潰消失」的現象——某些模型在協作系統中會失去獨立決策能力，被集體行為淹沒。屬於理論性質的開源 AI 實驗觀察，可作為 Multi-Agent 系統設計的參考案例。",
+    "highlights": [
+      "實驗聚焦多模型協作時的控制權與湧現行為",
+      "發現部分模型在協作系統中決策影響力下降甚至消失",
+      "屬於黑客松產出，研究嚴謹度需自行評估",
+      "對 Multi-Agent 系統設計有參考價值",
+      "發布於 Hugging Face 官方部落格"
+    ],
+    "why_it_matters": "對於構建 Multi-Agent 系統的技術人員，了解模型間權衡與控制機制的失效模式很重要。此研究提供實驗數據而非行銷素材，可幫助避免設計時踩到類似的協作陷阱。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載實驗程式碼（若開源），重現五模型協作場景，測試不同任務分配策略下哪個模型會「消失」，作為自建 Multi-Agent Pipeline 的壓測參考。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-real-browser-mcp-ai-agent",
+    "title": "real-browser-mcp：讓 AI Agent 控制真實瀏覽器與現有登入態",
+    "title_original": "ofershap/real-browser-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ofershap/real-browser-mcp",
+    "published_at": "2026-06-08T13:08:56Z",
+    "category": "agent-skills",
+    "summary": "ofershap/real-browser-mcp 是 MCP 伺服器加 Chrome 擴充功能的組合，能讓 AI Agent 控制使用者的真實瀏覽器，包含既有 Session 與登入狀態。星數較少（29 顆），屬於早期實驗性專案。對於需要 AI 執行網頁操作的技術人員是潛在工具，但穩定性待驗證。",
+    "highlights": [
+      "可直接使用瀏覽器已登入的帳號，省去認證麻煩",
+      "JavaScript 開發，部署相對簡單",
+      "支援真人瀏覽器環境，可通過反爬蟲機制",
+      "29 顆星代表早期專案，需自行測試穩定性",
+      "安全性需注意：AI 取得瀏覽器控制權"
+    ],
+    "why_it_matters": "傳統 AI 網頁操作工具常受限於登入驗證與反爬機制。real-browser-mcp 若能穩定運作，可讓 AI 直接在真人瀏覽器中完成操作，大幅拓展自動化範圍；但資安與隱私風險需自行評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可在本機安裝並測試：用於自動填報、表單提交或需要登入驗證的網頁操作任務。建議先用隔離瀏覽器 Profile 進行實驗，確認控制邏輯符合預期後再投入正式流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/2589702?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-auth0-mcp-server-ai-agent-auth0",
+    "title": "Auth0 MCP Server：讓 AI Agent 用自然語言管理 Auth0",
+    "title_original": "auth0/auth0-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/auth0/auth0-mcp-server",
+    "published_at": "2026-06-08T13:07:42Z",
+    "category": "agent-skills",
+    "summary": "Auth0 官方發布 MCP 伺服器，可將 LLM 與 AI Agent 連接至 Auth0 Management API。用自然語言就能建立應用、部署 Actions、查詢日誌，支援本地運行與互動式租戶認證，TypeScript 實作，已有 108 顆星。",
+    "highlights": [
+      "官方 Auth0 MCP 伺服器開源專案",
+      "支援自然語言呼叫 Auth0 Management API",
+      "可用於建立應用、部署 Actions、查詢日誌",
+      "支援本地運行，保障認證安全",
+      "TypeScript 實作，108 顆星，社群關注度高"
+    ],
+    "why_it_matters": "對於管理多個 Auth0 租戶的 DevOps 或安全工程師而言，這大幅簡化了日常操作——不再需要頻繁翻文件或寫腳本，直接用自然語言下指令即可完成常見管理任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此 MCP Server 整合進你的 AI Coding Assistant（如 Cursor、Cline），日後管理 Auth0 租戶時可直接說「列出最近三天的失敗登入」或「建立一個新應用程式」，提升管理效率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/2824157?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-08-apex-accelerator-apex-azure-mcp",
+    "title": "Apex Accelerator：APEX 起步範本，含 Azure 定價 MCP 伺服器",
+    "title_original": "jonathan-vella/apex-accelerator",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jonathan-vella/apex-accelerator",
+    "published_at": "2026-06-08T13:07:24Z",
+    "category": "agent-skills",
+    "summary": "APEX 起步範本內建自訂 Copilot Agent、Azure 定價 MCP 伺服器，以及多步驟工作流程編排。支援從主倉庫自動同步，Python 實作。適合想在 Azure 環境中快速啟動 AI 工作流程的技術宅。",
+    "highlights": [
+      "內建 APEX 自訂 Copilot Agent 範本",
+      "含 Azure 定價 MCP 伺服器，可查詢雲端成本",
+      "支援多步驟工作流程編排自動化",
+      "從主倉庫自動同步更新",
+      "Python 實作，47 顆星，仍在早期階段"
+    ],
+    "why_it_matters": "Azure 定價 MCP 是亮點——技術宅在做雲端成本估算或自動化報表時，能直接用 AI 查詢最新定價，不必再手動查表。對需要頻繁評估雲端費用的 DevOps 或 FinOps 人員尤其實用。",
+    "automation_angle": null,
+    "automation_angle_zh": "以 Azure 定價 MCP 為起點，組建一個雲端成本監控 Agent：讓 AI 定期查詢你的資源定價、生成成本異常報告，串聯進現有的 CI/CD 或監控警報流程中。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/25802147?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-repo-forensics-ai-agent",
+    "title": "repo-forensics：AI-Agent 程式碼庫的離線安全掃描工具",
+    "title_original": "alexgreensh/repo-forensics",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/alexgreensh/repo-forensics",
+    "published_at": "2026-06-08T12:43:20Z",
+    "category": "agent-skills",
+    "summary": "alexgreensh/repo-forensics 是用 Python 開發的離線安全掃描器，專門檢測 AI-Agent 程式碼庫、技能、插件與 MCP 伺服器中的安全漏洞。累積 103 顆星，支援本地執行不需上傳原始碼。適合對 AI 工具安全有疑慮的技術團隊評估第三方 MCP 擴充套件。",
+    "highlights": [
+      "離線執行，原始碼不會外洩至第三方",
+      "專注於 AI-Agent 生态（MCP、Skills、Plugins）",
+      "Python 開發，易於擴展與整合 CI/CD",
+      "103 顆星顯示安全意識社群開始關注",
+      "可作為 AI 工具引入前的安全審查關卡"
+    ],
+    "why_it_matters": "隨著 MCP 生態蓬勃，第三方工具的安全性良莠不齊。在工作流程中引入新 MCP 伺服器前用此工具掃描，可避免安裝惡意或漏洞累累的擴充套件，降低 AI 工具鏈的資安風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "資安意識的技術人員可將 repo-forensics 整合至 CI Pipeline，在安裝新 MCP 工具前自動觸發掃描レポート；若發現高風險漏洞則阻擋部署並通知維運人員。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/210140430?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-ai-skill-900-agent",
+    "title": "AI-SKILL：收錄 900+ Agent 技能的開源索引庫",
+    "title_original": "badhope/AI-SKILL",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/badhope/AI-SKILL",
+    "published_at": "2026-06-08T12:43:16Z",
+    "category": "agent-skills",
+    "summary": "badhope/AI-SKILL 是一個手工維護的 Agent 技能索引，收錄 900+ 項目分為 49 類，涵蓋 repos、MCP servers、cookbooks 與案例。採用單一 YAML 檔案管理，附帶中英雙語說明，可直接下載使用或作為技能雷達參考。",
+    "highlights": [
+      "收錄 900+ Agent 技能，含 49 個分類維度",
+      "單一 YAML 檔案，適合程式化讀取與自動化比對",
+      "涵蓋 repos、MCP servers、cookbooks 多種形態",
+      "雙語維護（英文為主、中文說明輔助）",
+      "今天就能 clone 下來整合進自己的工作流程"
+    ],
+    "why_it_matters": "面對碎片化的 Agent 工具生態，一個可機器解析的技能索引能大幅節省調研時間，直接拿來做技能地圖或自動化評估工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 YAML 後寫一個小 script，按類別或語言自動過濾出可用專案，快速建立個人技能雷達或團隊工具清單。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/195405851?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-chatgpt",
+    "title": "網友分享 ChatGPT 嘗試修復問題時的趣味失誤案例",
+    "title_original": "When ChatGPT tries to fix something",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u06evc/when_chatgpt_tries_to_fix_something/",
+    "published_at": "2026-06-08T12:26:03+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶分享 ChatGPT 在嘗試修復程式碼或系統問題時出現的搞笑失誤，包含給出錯誤修復建議、刪除正確程式碼、或提出循環修復方案等情況。這類分享反映當前 AI 在除錯場景中的局限性，引發開發者社群對於何時該信任 AI 修復建議的熱烈討論。",
+    "highlights": [
+      "AI 修復建議可能破壞原本正常運作的程式碼",
+      "模型可能對錯誤原因做出錯誤假設並建議無效方案",
+      "某些情況下會陷入「修復循環」無法真正解決問題",
+      "開發者提醒需具備基本偵錯能力才能有效使用 AI 輔助",
+      "建議將 AI 用於理解錯誤訊息而非直接執行其修復方案"
+    ],
+    "why_it_matters": "此類案例提醒開發者不可完全依賴 AI 進行自動修復，仍需具備獨立判斷能力以避免引入更多問題，建議將 AI 定位為輔助工具而非替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可建立自動化測試流程，在接受 AI 修復建議前先用單元測試驗證變更正確性，避免錯誤修復進入生產環境。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-mcp-devtools-ai-agent-mcp",
+    "title": "mcp-devtools：給 AI 編碼 Agent 的模組化開發工具 MCP 伺服器",
+    "title_original": "sammcj/mcp-devtools",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sammcj/mcp-devtools",
+    "published_at": "2026-06-08T12:24:53Z",
+    "category": "agent-skills",
+    "summary": "sammcj/mcp-devtools 是用 Go 開發的 MCP 伺服器，封裝常見開發工具讓 AI 編碼 Agent 可直接呼叫。目前累積 152 顆星，提供模組化介面降低 AI Agent 整合開發工具的門檻。技術宅可今日下載測試，評估其對現有 AI 輔助開發流程的加速效果。",
+    "highlights": [
+      "使用 Go 語言開發，效能與跨平台部署友善",
+      "提供模組化 MCP 介面，支援常見開發工具快速串接",
+      "專為 AI 編碼 Agent 設計，降低工具整合成本",
+      "152 顆星代表一定社群關注度",
+      "可與 Cursor、Claude Desktop 等支援 MCP 的工具串接"
+    ],
+    "why_it_matters": "讓 AI Agent 不只會生成程式碼，還能主動呼叫開發工具執行除錯、格式化等任務，提升自動化程度。對於想打造自訂 AI 開發助理的技術人員是可直接評估的現成構建模組。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將此 MCP 伺服器部署至本地環境，搭配 Claude 或其他 LLM 測試：讓 AI Agent 在處理 PR 審查時自動呼叫 lint、format 等工具，觀察是否能減少人為介入次數。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/862951?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-08-openai-codex-word",
+    "title": "OpenAI Codex 新增 Word 文件生成技能：品牌模板自動化輸入",
+    "title_original": "[Benchmark] DFlash Speculative Decoding + KV Cache Compression on RTX 5090 — 3.26x Speedup",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u05t6u/benchmark_dflash_speculative_decoding_kv_cache/",
+    "published_at": "2026-06-08T11:59:50+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/OpenAI 社群分享 Codex 新技能，可根據品牌模板自動生成 Word 文件。該功能支援自訂樣式、字體、Logo 位置等元素，開發者透過簡單指令即可讓 AI 代理自動化文件排版流程。",
+    "highlights": [
+      "支援讀取現有 .docx 模板檔案",
+      "可指定品牌色彩、Logo 位置、頁尾文字",
+      "輸出格式保留 Word 原生相容性",
+      "適合自動化報告生成、契約草稿場景",
+      "需使用 Codex 或具備 function calling 能力的模型"
+    ],
+    "why_it_matters": "文件自動化是企業工作流程常見需求，Codex 此技能讓 AI 代理可直接產出符合品牌規範的 Word 文件，省去人工排版時間，提升內容產出效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 Codex 或 GPT-4 API 中測試此技能，上傳公司 Word 模板後，讓 AI 代理在生成文件時自動套用品牌樣式，實現報告、契約自動化產出。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-meddies-pii",
+    "title": "Meddies PII：臨床文字開源多語言去標識化模型",
+    "title_original": "Meddies PII: An Open Multilingual De-identification Model for Clinical Text",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u04rnh/meddies_pii_an_open_multilingual_deidentification/",
+    "published_at": "2026-06-08T11:08:50+00:00",
+    "category": "open-source-ai",
+    "summary": "Meddies PII 是一款開源的多語言臨床文字去標識化模型，專門用於識別並脫敏病歷中的個人身份資訊。目前細節有限，具體架構與 Benchmarks 數據尚待社群補充。",
+    "highlights": [
+      "開源臨床文字去標識化模型",
+      "支援多語言脫敏場景",
+      "針對病歷個資識別優化",
+      "模型規格與效能數據尚待確認",
+      "可用於 HIPAA / GDPR 合規流程"
+    ],
+    "why_it_matters": "醫療 AI 應用常受資料隱私限制，一個開源多語言去標識化工具可降低合規成本，加速臨床 NLP 落地。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地部署測試，觀察其對中文病歷姓名、ID、診斷內容的識別效果，評估能否整合進醫療文件前處理管線。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-chatgpt",
+    "title": "研究指出 ChatGPT 存在「批判性回應」行為模式",
+    "title_original": "Judgmental ChatGPT is real",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u03083/judgmental_chatgpt_is_real/",
+    "published_at": "2026-06-08T09:33:18+00:00",
+    "category": "hot-topics",
+    "summary": "研究人員與用戶發現 ChatGPT 在特定情境下會展現「批判性」回應風格，對用戶提問或陳述給出帶有判斷色彩的評語，而非單純回答問題。此行為模式被命名為「Judgmental ChatGPT」，引發關於 AI 角色定位與對話設計的討論，部分用戶認為此特性有助於獲得更批判性思考，部分則認為可能影響使用體驗。",
+    "highlights": [
+      "AI 在特定觸發詞下會展現類似「說教」的回應模式",
+      "此行為可能影響用戶滿意度與對話流暢度",
+      "研究人員正在分析此行為模式的觸發條件",
+      "可能與 RLHF 訓練過程中的偏好設定有關",
+      "用戶可嘗試調整提問方式避免觸發批判性回應"
+    ],
+    "why_it_matters": "理解 AI 的隱藏行為模式有助於技術用戶更好地與模型互動，並在需要時調整提示詞策略以獲得更符合需求的回應。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可建構提示詞測試框架，系統性收集模型的不同行為響應，以識別潛在的批判性觸發模式並設計對應的緩解策略。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-vllm-doctor-vllm-cli",
+    "title": "vllm-doctor：vLLM 推論伺服器健康檢查 CLI 工具",
+    "title_original": "vllm-doctor — a CLI tool to diagnose and monitor vLLM inference servers",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u02mow/vllmdoctor_a_cli_tool_to_diagnose_and_monitor/",
+    "published_at": "2026-06-08T09:10:58+00:00",
+    "category": "open-source-ai",
+    "summary": "vllm-doctor 是一個專為 vLLM 推論伺服器設計的 CLI 工具，支援診斷與持續監控，幫助 ML 工程師快速發現配置問題、資源瓶頸與效能異常，適合生產環境維運。",
+    "highlights": [
+      "專為 vLLM 設計的診斷 CLI",
+      "支援伺服器健康檢查與效能監控",
+      "可發現配置問題與資源瓶頸",
+      "開源 Python 工具，方便整合進 CI/CD",
+      "適用於 GPU 集群管理與成本優化"
+    ],
+    "why_it_matters": "vLLM 是本地部署 LLM 推論的主流選擇，生產環境的穩定監控直接影響成本與延遲，有一個專用工具可大幅減少排障時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "在測試環境部署 vllm-doctor，結合 Prometheus/Grafana 建立儀表板，自動化捕捉 GPU 利用率過低或 OOM 傾向等異常。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-openai-api-dall-e-gpt-4o-api",
+    "title": "OpenAI API 圖像生成成本過高？社群熱議 DALL-E 與 GPT-4o 圖片 API 價格",
+    "title_original": "Research Study: Investigating Preferences for Psychological Support: Human Versus AI Therapist (18+)",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u02099/research_study_investigating_preferences_for/",
+    "published_at": "2026-06-08T08:33:21+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/OpenAI 社群討論開發者反映 GPT-4o 圖像生成 API 與 DALL-E 成本偏高，單張 1024x1024 圖片成本可能高達數美元。社群正比較替代方案如本地部署 Stable Diffusion 或第三方 API 的成本效益。",
+    "highlights": [
+      "GPT-4o 圖像 API 每次生成成本明顯高於文字 API",
+      "DALL-E 3 API 按張計費，批量使用成本快速累積",
+      "開發者正評估本地 Stable Diffusion XL 部署方案",
+      "第三方圖像 API（如 Replicate、Modal）提供更彈性計費",
+      "高解析度、多次生成需求場景成本壓力顯著"
+    ],
+    "why_it_matters": "AI 圖像生成成本直接影響產品營利模型，開發者需精算每張圖片成本與營收平衡點，避免在 POC 階段低估圖像生成費用導致後續亏损。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可建立成本追蹤腳本，記錄每次 API 呼叫費用；同時評估本地 Stable Diffusion XL + RTX 5090 部署方案，計算 GPU 折舊與 API 成本的交叉點。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-sensorllm-llm",
+    "title": "SensorLLM：用運動感測器對齊 LLM 實現人類活動辨識",
+    "title_original": "cruiseresearchgroup/SensorLLM",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/cruiseresearchgroup/SensorLLM",
+    "published_at": "2026-06-08T08:03:54Z",
+    "category": "open-source-ai",
+    "summary": "EMNLP 2025 論文開源實作，SensorLLM 將大型語言模型與加速度計、陀螺儀等運動感測器對齊，實現人類活動辨識（HAR）。模型可在感測器資料上直接推論，無需大規模標註資料。",
+    "highlights": [
+      "EMNLP 2025 官方論文開源實作",
+      "利用運動感測器（加速度計、陀螺儀）資料對齊 LLM",
+      "專注人類活動辨識（HAR）場景",
+      "減少對大規模標註資料的依賴",
+      "Python 實作，GitHub 已有 96 顆星"
+    ],
+    "why_it_matters": "這是學術前沿與實際應用的結合，感測器 + LLM 的模式在健康監測、穿戴裝置、工廠自動化等場景有潛力。技術宅若涉及 IoT + AI 整合，可從這份開源實作切入研究。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 SensorLLM 程式碼，用公開 HAR 資料集（如 UCI HAR）測試其活動辨識準確率，評估能否整合到你現有的感測器資料處理管線中，實現自動化健康監測或行為分析。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/35094697?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-08-openenv-agentic-rl",
+    "title": "開源社群力挺 OpenEnv：Agentic RL 的標準化訓練環境",
+    "title_original": "The Open Source Community is backing OpenEnv for Agentic RL",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/openenv-agentic-rl",
+    "published_at": "2026-06-08T00:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格報導開源社群集結支援 OpenEnv 專案，旨在建立 Agentic Reinforcement Learning（代理強化學習）的標準化訓練與評測環境。屬於基礎建設層級的開源倡議，若成功可降低 RL Agent 訓練的進入門檻。",
+    "highlights": [
+      "聚焦 Agentic RL 的環境標準化",
+      "開源社群多個團隊共同參與",
+      "目標是降低 RL 訓練與評測成本",
+      "目前停在倡議階段，具體實作尚未成熟",
+      "Hugging Face 官方平台背書增加可信度"
+    ],
+    "why_it_matters": "Agentic RL 目前缺乏統一的訓練Benchmark，導致研究復現困難、資源重複投入。OpenEnv 若能建立標準環境，可讓技術團隊更有效率地評估與迭代 RL Agent，長期對 AI Agent 能力提升有幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "對 RL 有興趣的技術人員可追蹤 OpenEnv 專案進度；若年後推出成熟版本，可在自建 RL 訓練流程時採用其環境定義，省去自行建構 Benchmark 的時間。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-datasette-agent-edit-0-1a0-agent",
+    "title": "datasette-agent-edit 0.1a0：Agent 文字編輯的通用基底插件",
+    "title_original": "datasette-agent-edit 0.1a0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything",
+    "published_at": "2026-06-07T23:56:38+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 為 Datasette Agent 開發的基底插件，實現 view / str_replace / insert 三個核心工具，並支援不同插件自定義適配。設計參考 Claude Code Editor 的編輯模式，適合 Markdown、SQL、SVG 等複雜文字協作場景。",
+    "highlights": [
+      "實現 view、str_replace、insert 三個標準 Agent 編輯工具",
+      "設計取經 Claude Code Editor，避免每個插件重複實作",
+      "支援 Markdown 協作、SQL 查詢更新、SVG 編輯等多元場景",
+      "作為基底插件可被其他 Datasette 插件繼承擴展",
+      "目前為 alpha 版本，API 可能仍有變動"
+    ],
+    "why_it_matters": "Agent 的文字編輯能力是提升生產力的關鍵，此插件提供一個可复用的標準基底，省去每次從頭設計工具的功夫。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 datasette-agent-edit 整合進 Datasette 專案，測試其對長檔案的分段檢視與精確替換功能，評估能否取代自訂編輯邏輯。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-envelope-ai",
+    "title": "開發者開源本地端加密工具「Envelope」保護 AI 提示詞與研究筆記",
+    "title_original": "I built a local encrypted envelope tool for storing AI prompts, outputs, and research notes",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tzqa1n/i_built_a_local_encrypted_envelope_tool_for/",
+    "published_at": "2026-06-07T22:37:48+00:00",
+    "category": "hot-topics",
+    "summary": "一位開發者推出名為 Envelope 的開源工具，專為在本地端安全儲存 AI 提示詞、輸出結果與研究筆記而設計。該工具採用端對端加密，確保敏感資料不會上傳至雲端，適用於處理商業機密、醫療或法律等高隱私需求的 AI 工作流程程。工具支援離線運作，並提供簡潔的使用者介面管理加密資料庫。",
+    "highlights": [
+      "完全本地端運作，資料不上傳雲端",
+      "採用端對端加密保護敏感內容",
+      "支援儲存提示詞、輸出結果與研究筆記",
+      "適用於高隱私需求的專業場景",
+      "開源可審計程式碼確保安全性"
+    ],
+    "why_it_matters": "對於處理敏感資料的技術用戶而言，此工具有助於在享受 AI 便利性的同時滿足資料保密需求，尤其適合企業內部部署或處理機密資訊的開發者。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可將 Envelope 整合至現有 AI 工作流程程，自動化加密備份重要對話記錄與提示詞範本，避免遺失並確保資料安全。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-dflash-kv-cache-rtx-5090-3-26",
+    "title": "DFlash 推測解碼 + KV Cache 壓縮實測：RTX 5090 達成 3.26 倍加速",
+    "title_original": "国内3家移动通信公司開始了大规模的资费制度改编。 据分析,随着人工智慧(AI)時代的到來,通信資料成為必需品,因此這是為了摆脱以下调價格為主的政策,保障\"以資料為中心的基本通信权\"的政府要求而采取的先.. - 매일경제",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1JdGdJMjA4aGpIaHBkNDF1UGVUWWpZVFp2cUg0MEJLN3lURkpvWGxPejZ1eVlKT0Iwb0VOTHFUUVVKUGt4ZEFVVVFJbw?oc=5",
+    "published_at": "2026-06-07T21:19:50+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群披露 DFlash 推測解碼技術結合 KV Cache 壓縮，在 RTX 5090 顯示卡上實現 3.26 倍推論加速。該技術透過減少記憶體頻寬佔用與加速自迴歸解碼雙重優化，為本地部署 LLM 提供顯著效能提升方案。",
+    "highlights": [
+      "DFlash 推測解碼利用小型模型預測 token，降低大型模型解碼次數",
+      "KV Cache 壓縮技術減少 Transformer 層的鍵值暫存空間",
+      "RTX 5090 實測顯示推論延遲大幅下降",
+      "技術相容現有 ollama 與 llama.cpp 生態",
+      "3.26x 加速為保守估計，實際場景可能更高"
+    ],
+    "why_it_matters": "本地 LLM 推論速度一直是技術宅痛點，DFlash 技術整合推測解碼與記憶體優化，提供可立即部署的加速方案，大幅降低 RTX 5090 等高階顯卡的本地推論門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載 DFlash 原始碼或等待 ollama/llama.cpp 整合，修改本地推論腳本啟用推測解碼與 KV 壓縮參數，實測自己模型的速度提升幅度。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-ai",
+    "title": "南韓三大電信商因應 AI 時代大規模調整資費結構",
+    "title_original": "Open AI API images expensive?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tzm5rq/open_ai_api_images_expensive/",
+    "published_at": "2026-06-07T19:52:02+00:00",
+    "category": "ai-deals",
+    "summary": "南韓三家主要移動通信公司開始大規模資費制度改革。分析指出隨著 AI 時代來臨，通信數據需求激增，政府要求保障「以數據為中心的基本通信權」，電信商藉此擺脫以降價為主的競爭策略。",
+    "highlights": [
+      "南韓 SK Telecom、KT、LG U+ 同步調整資費方案",
+      "政策方向從降價轉向數據容量擴充",
+      "AI 應用普及使行動數據成為剛性需求",
+      "可能包含無限流量方案或大幅調升數據上限",
+      "與台灣電信市場動態具參考價值"
+    ],
+    "why_it_matters": "電信資費調整反映 AI 時代數據需求結構變化，若數據成本下降將降低邊緣 AI 推論與即時 AI 服務的網路傳輸負擔，間接影響 AI 應用部署策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可關注南韓電信商後續公布的具體資費方案，若數據成本大幅下降，可評估將更多 AI 推論任務移至行動網路環境，降低固定網路依賴。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-codex-pcb",
+    "title": "工程師用 Codex 實作 PCB 線路設計與元件選型實例",
+    "title_original": "I used codex to help design a PCB and do component selection",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1tzkado/i_used_codex_to_help_design_a_pcb_and_do/",
+    "published_at": "2026-06-07T18:41:40+00:00",
+    "category": "agent-skills",
+    "summary": "一位工程師在 Reddit 分享使用 Codex 輔助 PCB 設計與元件選擇的實際案例，展示 AI 模型在硬體工程領域的應用潛力。透過對話式引導，Codex 可協助產生原理圖、檢查元件規格，並根據需求推薦替代零件。該文引發關於 AI 能否真正勝任硬體設計流程的討論，多數回應認為適合作為前期探索與概念驗證工具。",
+    "highlights": [
+      "Codex 可透過自然語言描述電路需求並生成初步設計建議",
+      "可用於查詢元件Datasheet與替代零件規格",
+      "實測顯示對複雜類比電路支援程度有限",
+      "適合作為硬體工程的創意發想與快速原型工具",
+      "建議與專業 EDA 工具結合使用以確保設計正確性"
+    ],
+    "why_it_matters": "此案例顯示 AI 已具備跨領域工程輔助能力，工程師可用它加速前期設計階段，但硬體設計仍需人類把關以確保電路可靠性與製造可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可嘗試用 Codex API 建構自動化設計檢查流程，例如輸入 BOM 清單讓 AI 驗證零件相容性並生成替代方案建議。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-07-tokensave-40-mcp-rust-100",
     "title": "tokensave：40+工具的程式碼智慧MCP伺服器，Rust實作、100%本地部署",
     "title_original": "aovestdipaperino/tokensave",
@@ -27640,6 +28236,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-08-google-7-99-ai-plus-35",
+    "title": "Google 推出 7.99 美元低價版 AI Plus 訂閱服務，支援 35 國",
+    "title_original": "谷歌推出7.99美元低價版AI Plus訂閱服务，登陆含美国在内的35個国家 - 雪球",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBUcHpBVW9PVTZNRkc3c2g0M25xbHFTQlpaZGJTbFV4NTFSMXdUa2l4R1pvblVFWWY3ZFJLclRXcldNMnRHckt1cTltNA?oc=5",
+    "published_at": "2026-01-27T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Google 正式推出 7.99 美元低價版 AI Plus 訂閱方案，並將服務範圍擴展至包含美國在內的 35 個國家。此方案較原有進階版更實惠，讓更多使用者能以較低成本使用 Gemini 高級功能，包括優先使用新模型、Deep Research 與整合 Google Docs/Sheets 等生產力工具。",
+    "highlights": [
+      "月費 7.99 美元，較原價明顯降低進入門檻",
+      "支援 35 個國家用戶訂閱",
+      "含 Gemini 高級功能與優先新模型體驗",
+      "整合 Google Docs、Sheets 與其他Workspace工具",
+      "可與原有 19.99 美元方案比較功能差異後選擇"
+    ],
+    "why_it_matters": "低價策略有望吸引大量個人開發者與小型團隊轉向 Gemini 生態系，對既有的 OpenAI、Anthropic 訂閱方案形成價格競爭壓力。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 7.99 美元方案測試 Gemini API 與 Workspace 整合腳本，評估其是否足以取代或補充現有付費 AI 工具鏈。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-16-railway-1-aws-ai",
     "title": "Railway獲得1億美元融資，挑戰AWS打造AI原生雲端基礎設施",
     "title_original": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
@@ -28872,6 +29496,34 @@
     "automation_angle_zh": "在既有 GitHub Actions 中引入 Copilot 代理處理 review 或文件任務，觀察錯誤率與準確度再決定規模化。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-github-mcp-registry-ai",
+    "title": "GitHub MCP Registry 上線：AI 開發工具的中央樞紐",
+    "title_original": "GitHub MCP Registry Launches as Central Hub for AI Development Tools - DevOps.com",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT0R5THM4anhjenJXOHFlbFV1cEs2OGpkU3dFSWdDcU1ORzJKNkVxNnMtakRmUmwxbTdCd3A2M3R2OTl0dE5Zc1ZLdDhmR2E1TnV3OFAwYUVBazBVSWc2eTE1c1hpTnNUZHBsTTR5OUN4ckxFYVVteWRDdW5KRHVyM0R2Ymk3T2pLcjRVZ2JtTUg2Zw?oc=5",
+    "published_at": "2025-09-18T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "GitHub 正式推出 MCP Registry，作為 AI 開發工具的集中收錄平台。開發者可在同一處發現、發布與管理 MCP 伺服器，強化工具生態的可發現性與標準化程度。",
+    "highlights": [
+      "GitHub 官方支援的 MCP 工具註冊中心",
+      "提供統一的發現、發布與管理介面",
+      "強化 AI 開發工具生態的標準化",
+      "有助於減少工具散落各處的碎片化問題",
+      "DevOps.com 報導驗證上線消息"
+    ],
+    "why_it_matters": "MCP 生態快速成長，GitHub 官方的集中Registry 可簡化工具選型流程，對構建 Agent 工作流程的技術用戶有直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "瀏覽 Registry 找出符合需求的 MCP 伺服器，評估其 API 穩定性與維護頻率，考慮是否引入自己的 Agent 專案。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
