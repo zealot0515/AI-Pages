@@ -1,5 +1,312 @@
 [
   {
+    "id": "2026-06-08-gantry-macos-docker-mcp",
+    "title": "Gantry：macOS 原生 Docker 管理工具，支援 MCP 協定",
+    "title_original": "getgantry/gantry",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/getgantry/gantry",
+    "published_at": "2026-06-08T18:25:22Z",
+    "category": "agent-skills",
+    "summary": "Gantry 是一款專為 macOS 設計的 Docker 容器管理應用，支援本地與 SSH 遠端管理。內建 MCP 伺服器與 App Intents，可直接與 AI Agent 整合，完全開源免費。",
+    "highlights": [
+      "原生 macOS 介面，本地、遠端 Docker 統一管理",
+      "內建 MCP 伺服器，Agent 可直接呼叫容器操作",
+      "支援 App Intents，可整合至 Siri 捷徑或自動化流程",
+      "Swift 開發，目前 16 星，適合技術用戶測試"
+    ],
+    "why_it_matters": "Docker 管理是工程師日常高頻操作。若 Agent 能直接控制容器，意味工作流程可進一步自動化，尤其適合處理多環境部署與偵錯情境。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 Gantry 並啟用其 MCP 伺服器，用 Claude Code 或其他 Agent 嘗試「列出本地容器」→「查看日誌」→「重啟服務」的完整指令鏈。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Swift"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/290983257?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-shipyard-shipyard-cli-mcp-cli",
+    "title": "shipyard/shipyard-cli：MCP 協議的臨時環境管理 CLI",
+    "title_original": "shipyard/shipyard-cli",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/shipyard/shipyard-cli",
+    "published_at": "2026-06-08T18:16:33Z",
+    "category": "agent-skills",
+    "summary": "Shipyard CLI 是一款以 Go 開發的命令列工具，同時作為 MCP（Model Context Protocol）伺服器，支援從終端機或 AI Agent 管理臨時（ephemeral）雲端環境。星標 11 顆，屬早期專案但概念新穎。",
+    "highlights": [
+      "以 Go 語言開發，效能與部署效率佳",
+      "支援 MCP 協議，可被 AI Agent 直接呼叫",
+      "管理臨時雲端環境的生命週期",
+      "可從終端機或 AI Agent 兩端操作",
+      "星標較少，建議以研究精神先看 README 評估"
+    ],
+    "why_it_matters": "MCP 協議正在成為 AI Agent 工具擴展的標準介面之一，Shipyard 將臨時環境管理接入 MCP 生態，為技術用戶提供了一種讓 AI Agent 動態創建與銷毀雲端環境的新範式。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在 MCP 相容的 AI Agent（如 Claude Desktop）中接入 Shipyard，實現「讓 AI Agent 按需啟動測試環境、執行任務後自動銷毀」的自動化工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/83612106?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-reddit-ai",
+    "title": "Reddit 熱議：AI 基準報告氾濫與品質下滑",
+    "title_original": "When every other post is an AI generated benchmark report, a question about the best model, or a slop-coded application or engine that pretends to be groundbreaking",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0fflj/when_every_other_post_is_an_ai_generated/",
+    "published_at": "2026-06-08T17:56:59+00:00",
+    "category": "hot-topics",
+    "summary": "LocalLLaMA 社群討論近日充斥大量低品質 AI 基準測試報告、行銷文與包裝過度的應用。貼文呼籲社區重視可重現性與實際價值，而非表面聲量。",
+    "highlights": [
+      "社群對 AI 領域訊噪比下降的不滿情緒上升",
+      "批評者強調基準測試需具備可重現性",
+      "呼籲關注技術實質進步而非行銷炒作",
+      "此討論反映開發者對資訊品質的警覺需求"
+    ],
+    "why_it_matters": "當業界充斥過度行銷的「突破」，技術決策者更需培養獨立驗證能力。此類社群討論可幫助你識別哪些消息值得深究，哪些應保守看待。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此訊號加入你的「懷疑清單」：未來看到新模型 benchmark 聲稱時，先查原始論文與第三方復現，再決定是否投入評估時間。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-gemini-siri-chatgpt",
+    "title": "新版 Gemini Siri 整合對 ChatGPT 使用量的影響討論",
+    "title_original": "How will the new Gemini Siri affect ChatGPT usage?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u0f1ps/how_will_the_new_gemini_siri_affect_chatgpt_usage/",
+    "published_at": "2026-06-08T17:44:17+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 熱烈討論 Apple 將 Gemini 整合進 Siri 後對 ChatGPT 市場地位的潛在影響。用戶觀點分歧：有人認為系統層整合會搶走日常問答用戶，也有人認為 ChatGPT 的深度對話能力仍不可替代。",
+    "highlights": [
+      "Apple 將 Gemini 模型嵌入 iOS Siri 是系統層級整合",
+      "日常簡單查詢可能流向 Siri，降低 ChatGPT 打開率",
+      "複雜推論、多輪對話、程式碼生成等場景 ChatGPT 仍有優勢",
+      "實際影響需等正式上線後觀察用戶行為數據",
+      "對 API 用量影響預計較小，主要衝擊面向消費端用戶"
+    ],
+    "why_it_matters": "Siri 整合 Gemini 代表 AI 助理從「獨立 App」走向「系統無縫嵌入」。技術用戶需關注此趨勢，因為未來工作流程程中的 AI 觸點可能從 ChatGPT 擴展到系統原生助理。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可先觀望實際整合效果，同時評估自己的使用場景：若日常任務可被 Siri 取代，則可減少 ChatGPT Plus 訂閱；若仍需深度程式碼或複雜推論，則維持現有方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-nexus-agentic-xposed",
+    "title": "Nexus Agentic：以 Xposed 模組接管系統語音助理",
+    "title_original": "Xposed-Modules-Repo/com.niki914.nexus.agentic",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Xposed-Modules-Repo/com.niki914.nexus.agentic",
+    "published_at": "2026-06-08T17:23:54Z",
+    "category": "agent-skills",
+    "summary": "Nexus Agentic 是一款 Android Xposed 模組，可接管系統預設語音助理，注入 Agent 能力。GitHub 已有 121 顆星，專案將手機語音助理升級為可執行複雜任務的 Agent，適用於願意折騰 Xposed 的技術用戶。",
+    "highlights": [
+      "透過 Xposed 框架鉤入 Android 語音助理系統",
+      "將普通語音助理升級為具 Agent 能力的介面",
+      "GitHub 星標 121，社群關注度適中",
+      "需安裝 Xposed 框架，門檻較一般 App 高",
+      "可能涉及系統層級修改，穩定性需自行測試"
+    ],
+    "why_it_matters": "在手機端實現語音 Agent 是一個差異化方向，技術用戶可透過 Nexus 在日常手機操作中實驗 Agent 工作流程，但需注意 Xposed 框架的相容性與潛在系統風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 Nexus 部署於測試機上，透過語音指令驅動自動化任務，如快速查詢、天氣提醒或自訂腳本執行，探索手機端語音 Agent 的實際應用潛力。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/78217009?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-cel-ai-celai-ai",
+    "title": "cel-ai/celai：開源全渠道 AI 虛擬助理開發框架",
+    "title_original": "cel-ai/celai",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/cel-ai/celai",
+    "published_at": "2026-06-08T16:58:21Z",
+    "category": "agent-skills",
+    "summary": "celai 是一款以 Python 開發的開源框架，目標是加速全渠道（omnichannel）AI 虛擬助理的構建。支援跨平台對接，可整合網頁、App、訊息平台等多個溝通渠道，降低多渠道 AI 客服的開發門檻。",
+    "highlights": [
+      "Python 開源框架，26 顆星，關注度尚在早期",
+      "專注 omnichannel 跨渠道整合能力",
+      "可對接網頁、App、訊息平台等多種前端",
+      "降低多渠道 AI 客服開發成本",
+      "適合有 Python 基礎的後端開發者快速原型"
+    ],
+    "why_it_matters": "多渠道客戶服務是企業剛需，celai 提供了開箱即用的框架縮短開發週期。對於需要快速搭建跨平台 AI 客服的技術團隊，這是一個值得關注的低成本起點。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可用 celai 快速原型一個跨 LINE、網頁與 WhatsApp 的 AI 客服系統，結合企業現有資料庫，實現 24 小時自動回覆與資料查詢功能。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/175286999?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-llm-unity-api-key",
+    "title": "開發者將本地 LLM 嵌入 Unity 遊戲，無需網路與 API Key",
+    "title_original": "I bundled a fully local LLM inside my Unity game. No internet, no cloud, no API key. The conversation is the gameplay.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0cpbm/i_bundled_a_fully_local_llm_inside_my_unity_game/",
+    "published_at": "2026-06-08T16:21:50+00:00",
+    "category": "open-source-ai",
+    "summary": "一名開發者在 Reddit 分享其將完整本地 LLM 打包進 Unity 遊戲的實作經驗。遊戲對話本身即為核心玩法，全程離線運行，不依賴任何雲端或 API。",
+    "highlights": [
+      "本地 LLM 嵌入遊戲引擎的實作個案",
+      "對話內容成為遊戲機制的核心組成",
+      "完全離線，無 API 費用，無隱私傳輸問題",
+      "可作為嵌入式 AI 應用的參考架構"
+    ],
+    "why_it_matters": "此案例展示了本地 AI 在邊緣裝置上的應用潛力。若你想在獨立應用或敏感環境中整合 AI，本地模型仍是避免延遲與費用風險的首選。",
+    "automation_angle": null,
+    "automation_angle_zh": "檢視該 Reddit 串的技術細節，評估其模型大小與延遲表現。若你正在開發需要 AI 對話但網路不可靠的場景，可參考其 embedding 策略。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-1t-8-gpu-1000-tps",
+    "title": "小米宣稱 1T 模型在標準 8-GPU 伺服器上達到 1000+ TPS",
+    "title_original": "Xiaomi just claimed 1,000+ tps on a 1T model using a standard 8-GPU server",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0buhm/xiaomi_just_claimed_1000_tps_on_a_1t_model_using/",
+    "published_at": "2026-06-08T15:51:46+00:00",
+    "category": "new-models",
+    "summary": "小米近日宣稱其 1 兆參數模型可在標準 8-GPU 伺服器上實現超過 1000 tokens/秒的推論速度。若屬實，此效能將大幅領先目前多數本地部署方案，對需要在本地跑大模型的開發者具重要參考價值。消息源自社群討論，尚待官方技術文件驗證。",
+    "highlights": [
+      "宣稱在標準 8-GPU 環境突破 1000 TPS 門檻",
+      "1T 參數量級與 GPT-4 規模相當",
+      "來源為 Reddit r/LocalLLaMA 社群討論",
+      "小米未發布正式技術白皮書或原始碼",
+      "可能涉及新型推論優化或硬體調校"
+    ],
+    "why_it_matters": "本地大模型推論速度一直是部署瓶頸，若此效能屬實，將使 1T 模型在企業級硬體上的即時互動成為可能，顛覆目前雲端 API 的成本結構。",
+    "automation_angle": null,
+    "automation_angle_zh": "可持續追蹤此技術是否開源或釋出模型權重，若效能可重現，可評估作為企業內網 AI 助理的本地替代方案以節省 API 費用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-chatgpt",
+    "title": "用戶抱怨 ChatGPT 視覺辨識反覆出錯",
+    "title_original": "Simple Photo, ChatGPT get's it wrong everytime",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u0aokk/simple_photo_chatgpt_gets_it_wrong_everytime/",
+    "published_at": "2026-06-08T15:09:42+00:00",
+    "category": "hot-topics",
+    "summary": "有用戶反映上傳簡單照片後，ChatGPT 的視覺辨識結果屢次錯誤。這揭示了即使是基本圖像理解任務，模型仍可能產生幻覺或誤判，對需要精確視覺分析的技術場景是一大警示。",
+    "highlights": [
+      "簡單圖像的視覺辨識仍存在明顯錯誤率",
+      "可能涉及幻覺（hallucination）問題而非純識別錯誤",
+      "對需要精確視覺輸出的場景（如 UI 測試、文件解析）風險較高",
+      "建議在關鍵場景添加人工覆核機制",
+      "可作為評估視覺模型可靠性的參考案例"
+    ],
+    "why_it_matters": "視覺 AI 的可靠性直接影響文件處理、UI 自動化、數據提取等場景的可用性。技術用戶若正在評估視覺 AI 方案，需將此類失敗案例納入風險評估，而非假設基本識別必然正確。",
+    "automation_angle": null,
+    "automation_angle_zh": "正在使用視覺 AI 自動化圖像相關任務的技術用戶，應建立錯誤檢測與回退機制；可在正式部署前用簡單圖像集進行基準測試，並設定人工覆核閾值。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-openenv-huggingface-torch",
+    "title": "OpenEnv 由 HuggingFace、Torch 等機構共同接管",
+    "title_original": "OpenEnv is now owned by HF, Torch, Prime Intellect, Unsloth, Modal, Mercor, and more! Use it for training agents.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u09ybx/openenv_is_now_owned_by_hf_torch_prime_intellect/",
+    "published_at": "2026-06-08T14:43:39+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 社群宣布 OpenEnv 訓練平台現由 HuggingFace、PyTorch、Prime Intellect、Unsloth、Modal 等多家機構共同擁有與維護，定位為 Agent 訓練用途的開放環境。",
+    "highlights": [
+      "多個主流 AI 機構聯合接手 OpenEnv 維護",
+      "定位於訓練 AI Agent 的開放環境",
+      "涵蓋推論、動作規劃等任務的訓練需求",
+      "陣容堅強，後續發展值得關注"
+    ],
+    "why_it_matters": "OpenEnv 獲得多方支援後，可能成為訓練 Agent 技能的重要開源基礎設施。若你正在建構或微調 Agent，值得將其列入評估清單。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤 OpenEnv GitHub 的更新進度，了解其支援的任務類型與資料格式，評估是否能用於你的 Agent 訓練資料集準備工作。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-llama-launcher-llm",
+    "title": "llama-launcher 工具正式發布：簡化本地 LLM 部署流程",
+    "title_original": "llama-launcher Release",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u08k0x/llamalauncher_release/",
+    "published_at": "2026-06-08T13:52:19+00:00",
+    "category": "open-source-ai",
+    "summary": "llama-launcher 是一款新開源工具，旨在簡化本地 LLM 的啟動與管理流程。該工具可能整合模型下載、伺服器配置、API 端點生成等功能，降低技術門檻。具體功能細節需查閱 GitHub 原始碼庫確認。",
+    "highlights": [
+      "開源專案，可在 GitHub 取得原始碼",
+      "目標為簡化 llama 系列模型部署",
+      "可能支援模型自動下載與配置",
+      "發布於 Reddit r/LocalLLaMA 社群",
+      "具體功能文件尚待完整評估"
+    ],
+    "why_it_matters": "對於頻繁需要在本機測試不同 LLM 的開發者，統一部署工具可省去手動配置麻煩，提升實驗迭代速度，是工作流程自動化的潛在環節。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 llama-launcher 整合至 CI/CD 流程，自動化測試不同模型版本對應用程式輸出的影響，確保升級模型時的回歸測試效率。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-08-tiger-cli-timescale-postgres-mcp",
     "title": "Tiger CLI：Timescale 推出的 Postgres 生產級程式碼 MCP 助理",
     "title_original": "timescale/tiger-cli",
@@ -399,6 +706,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-08-codex-skill-word",
+    "title": "Codex Skill 可根據品牌模板自動生成 Word 文件",
+    "title_original": "Codex Skill to generate Word documents based on your brand templates",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u01xot/codex_skill_to_generate_word_documents_based_on/",
+    "published_at": "2026-06-08T08:29:02+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶分享了一個 Codex 新技能，能根據品牌模板自動生成 Word 文件。這代表 AI 助理現在可以直接輸出符合企業風格的正式文件格式，而非僅限於純文字輸出，對文書自動化流程有直接幫助。",
+    "highlights": [
+      "支援品牌模板解析與應用",
+      "直接輸出 .docx 格式文件",
+      "可用於自動生成合約、報告、提案等企業文件",
+      "需確認 Codex CLI 或 API 的具體實現方式",
+      "可能涉及文件樣式、字體、Logo 等品牌元素繼承"
+    ],
+    "why_it_matters": "文書工作是企業自動化的核心瓶頸之一。若 Codex 能可靠地套用品牌模板生成正式文件，可大幅減少人工排版時間，讓 AI 助理從「生成草稿」升級為「交付成品」。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載或部署此 Codex Skill，測試其對公司模板的識別準確度，並評估是否能整合進現有文件自動化流程（如結合 CRM 系統自動生成客戶提案）。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-08-sensorllm-llm",
     "title": "SensorLLM：用運動感測器對齊 LLM 實現人類活動辨識",
     "title_original": "cruiseresearchgroup/SensorLLM",
@@ -449,6 +784,33 @@
     "automation_angle_zh": "對 RL 有興趣的技術人員可追蹤 OpenEnv 專案進度；若年後推出成熟版本，可在自建 RL 訓練流程時採用其環境定義，省去自行建構 Benchmark 的時間。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-openai",
+    "title": "OpenAI 推出經濟研究交流平台",
+    "title_original": "Introducing the OpenAI Economic Research Exchange",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/economic-research-exchange",
+    "published_at": "2026-06-08T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布成立經濟研究交流平台（Economic Research Exchange），專門資助研究 AI 對就業、生產力與總體經濟的影響。計畫即日起開放申請，歡迎研究者提交提案。",
+    "highlights": [
+      "聚焦 AI 對勞動市場與經濟結構的實證研究",
+      "提供研究資金與 OpenAI API 資源支援",
+      "目標建立 AI 經濟影響的共享知識庫",
+      "首批入選計畫可獲得深度技術合作機會"
+    ],
+    "why_it_matters": "了解 AI 對工作市場的真實影響，有助工程師預判技能需求變化與長期職業策略。此計畫資訊公開，值得追蹤其研究發現與資料發布。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你正在評估 AI 工具對團隊生產力的影響，可關注此平台釋出的研究方法論，參考其量化框架來自建內部評估指標。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -2224,6 +2586,33 @@
     "automation_angle_zh": "生醫背景的技術人員可申請 API 存取，測試其在化學分子生成、蛋白質功能註釋或文獻摘要等任務的表現，評估能否整合進現有研發流程。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-08-microsoft-agent-ci-cd-claude-code",
+    "title": "Microsoft 分享：Agent 時代的 CI/CD 安全實踐（Claude Code 案例）",
+    "title_original": "Securing CI/CD in an agentic world: Claude Code Github action case - Microsoft",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNREJ4Wm45a0lId2d5MUxEOHdRWldESTBfVUZWNFdzMWozbGpLVFVNaEVIV0JlZUFBU0ZjMmFCeWNMazVuM1BsNUx2Z3VlajhHQURuR3cyNDd0LTY5YVJsVGpOU0E1RmtsZmVyb1JyOEgyQmNCeFJZT3U5bTBPSlZuNmdtdm10bzNwSmhyMmNLNkRrUU5EYVRxVG1McjVJSmNqZTBTb0dmRk15UlJtOWFubl9TTFRMUnJmQm5MTg?oc=5",
+    "published_at": "2026-06-05T16:46:47+00:00",
+    "category": "agent-skills",
+    "summary": "Microsoft 發布部落格文章，探討在 AI Agent 頻繁操作程式碼的環境下，如何保護 CI/CD 流程安全。以 Claude Code GitHub Action 為例，說明企業級部署的風險控制策略。",
+    "highlights": [
+      "AI Agent 操作程式碼帶來新的資安威脅面",
+      "探討 CI/CD pipeline 的權限隔離與審計機制",
+      "Claude Code 作為 GitHub Action 的安全配置建議",
+      "企業在引入 agentic 工具時的治理框架"
+    ],
+    "why_it_matters": "越來越多開發者讓 AI Agent 直接操作正式環境。理解這些風險與防護機制，是避免自動化事故的必備知識，不論你是否使用 Claude Code。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀此文章，檢查你目前的 CI/CD pipeline 是否存在 Agent 可越權操作的漏洞，並參考其最小權限原則重新配置 GitHub Actions 權限。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
