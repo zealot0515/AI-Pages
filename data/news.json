@@ -1,5 +1,450 @@
 [
   {
+    "id": "2026-06-09-claude-command-runner-claude-mcp",
+    "title": "claude-command-runner：讓 Claude 直接操作終端機的 MCP 工具",
+    "title_original": "M-Pineapple/claude-command-runner",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/M-Pineapple/claude-command-runner",
+    "published_at": "2026-06-09T18:26:18Z",
+    "category": "agent-skills",
+    "summary": "一款 Swift 寫的 MCP 伺服器，內建 39 種工具，可讓 Claude 直接在 Warp 終端機執行命令、專案設定、檔案監控、SSH、剪貼簿等操作，支援 macOS。",
+    "highlights": [
+      "39 種工具涵蓋命令執行、專案設定、檔案監控、SSH",
+      "可從 Claude Desktop 或 Warp 內建 AI 代理觸發",
+      "使用 Swift 開發，macOS 原生支援",
+      "開源專案，Stars 17（初期階段）"
+    ],
+    "why_it_matters": "將 Claude 的自然語言理解能力與真實終端機操作結合，等於讓 AI 直接操控命令列，適用於需要即時反饋與自動化腳本的技術場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合進開發者日常流程：用自然語言驅動 Warp 終端機執行建置、測試、部署指令，快速驗證 Claude 输出的命令是否正確。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Swift"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/128090761?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-09-37signals-skills-ai-rails-37signals",
+    "title": "37signals-skills：教AI寫Rails的37signals風格程式碼",
+    "title_original": "marckohlbrugge/37signals-skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/marckohlbrugge/37signals-skills",
+    "published_at": "2026-06-09T18:20:42Z",
+    "category": "agent-skills",
+    "summary": "非官方agent技能庫，萃取自Fizzy、Campfire與DHH的程式碼審查，教AI助理以37signals風格撰寫Rails程式碼，GitHub星標483。",
+    "highlights": [
+      "萃取DHH與37signals實際程式碼",
+      "適用於Rails開發的AI Coding Assistant",
+      "非官方但基於真實專案經驗",
+      "可用於提升AI程式碼生成品質"
+    ],
+    "why_it_matters": "提供一套有實際產品背書的Rails開發規範，可直接用於提升AI輔助程式設計的輸出品質與一致性。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此技能庫整合進AI Coding Assistant，評估對Rails專案程式碼生成的一致性與品質提升效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/93276?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-statspai-agent-python",
+    "title": "StatsPAI：首個Agent原生的因果推斷Python庫",
+    "title_original": "brycewang-stanford/StatsPAI",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/brycewang-stanford/StatsPAI",
+    "published_at": "2026-06-09T18:10:24Z",
+    "category": "agent-skills",
+    "summary": "首個面向Agent的因果推斷與應用經濟學Python庫，提供統一API、廣泛方法覆蓋、機器可讀結構化輸出與MCP伺服器，GitHub星標226。",
+    "highlights": [
+      "統一API介面降低學習成本",
+      "覆蓋多種因果推斷方法",
+      "輸出為機器可讀結構化格式",
+      "內建MCP伺服器方便整合",
+      "提供R/Stata結果比對驗證"
+    ],
+    "why_it_matters": "填補AI Agent缺乏可靠因果推斷工具的空白，使統計分析流程可程式化並與Agent工作流程整合。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接pip install測試，整合進Agent工作流程實現自動化因果推斷分析，降低對外部統計軟體依賴。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/199214463?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-claude-fable-5-github-copilot",
+    "title": "Claude Fable 5 登陸 GitHub Copilot，支援長時程自主任務",
+    "title_original": "Claude Fable 5 is generally available for GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-09-claude-fable-5-is-generally-available-for-github-copilot",
+    "published_at": "2026-06-09T17:39:26+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic 發表的 Claude Fable 5（Mythos 系列首款模型）已在 GitHub Copilot 全面開放，專為長時程、自主性高的程式碼與知識工作任務設計。",
+    "highlights": [
+      "隸屬 Anthropic Mythos 類模型，主打長時程任務",
+      "已在 GitHub Copilot GA，支援所有 Copilot 用戶",
+      "與其他 Claude 模型定位不同，強調自主性",
+      "可用於複雜的多步驟程式碼實作"
+    ],
+    "why_it_matters": "Mythos 系列代表 Anthropic 開始探索不同模型類型，GitHub Copilot 用戶現在有多種 Claude 模型可選，可根據任務性質選擇更適合的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Copilot 設定中切換至 Claude Fable 5，測試其在大型重構、多檔案實作等長時程任務中的表現，評估是否優於預設模型。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-09-ai-agent-a10g-gemma-4-e4b",
+    "title": "AI Agent 實戰競賽：挑戰單卡 A10G 加速 Gemma 4 E4B 推論",
+    "title_original": "Watch agents fight: a live challenge to speed up Gemma 4 E4B inference on a single A10G",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1blp1/watch_agents_fight_a_live_challenge_to_speed_up/",
+    "published_at": "2026-06-09T17:22:46+00:00",
+    "category": "agent-skills",
+    "summary": "一場直播挑戰賽中，多個 AI Agent 相互競爭，目標在單張 A10G 卡上加速 Gemma 4 E4B 的推論速度。涉及量化、批次處理與快取策略等優化技巧。",
+    "highlights": [
+      "單卡 A10G 推論優化實戰",
+      "Gemma 4 E4B 量化技巧分享",
+      "實時競賽直播呈現過程",
+      "社群分享最佳化策略與代码",
+      "延遲與吞吐量權衡實驗"
+    ],
+    "why_it_matters": "對資源受限的開發者而言，單卡部署大型模型的成功經驗可直接移植，節省 GPU 成本與部署時間，提供可複製的優化範式。",
+    "automation_angle": null,
+    "automation_angle_zh": "可借鑒競賽中分享的優化脚本與配置參數，套用到自己的部署流程，評估延遲改善幅度與任務品質影響。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-anthropic-claude-fable-5",
+    "title": "Anthropic 發布 Claude Fable 5，號稱迄今最強大通用模型",
+    "title_original": "Anthropic brings Mythos to the masses with Claude Fable 5, its most powerful generally available model ever - VentureBeat",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxON296bVlNQTJuY0RzMDdyV0dNTWhaNHVQak1wUGpKNWJsM21qWEZjQ1J5d0pIbEE4dWNFZURZWjFwVzUteHE0S2ZfQlQxYXQtVjlVc0hWeDlmVUUtVzhvSld4YldCYmJsclBxVnhrbTJza1ZZRXZxNHhzU1dfb1IyZVdCVzZZNHVTcGM1ZjhmWkV3dTBISXprMXJOUGF2dVR3MmNRWUJkVmduajRtYThXeTdaeW1XVWwyRDVFRnNNdHF3XzJiX2FiU0Z3QVppZXNPblJPT3BudnY?oc=5",
+    "published_at": "2026-06-09T17:19:29+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 正式推出 Claude Fable 5，基於 Mythos 新架構，宣稱為其迄今最強大的通用模型。主打長上下文處理與多模態理解能力，目前已在 API 上開放使用，但定價與詳細效能數據尚未完全公開。",
+    "highlights": [
+      "基於 Mythos 新架構開發",
+      "支援更長上下文窗口",
+      "多模態能力進一步增強",
+      "已作為通用模型對外開放",
+      "詳細效能基準尚未完整揭露"
+    ],
+    "why_it_matters": "若實際效能超越 GPT-4o，將直接影響企業級 AI 應用選型，尤其對需要長文本處理與複雜推論的技術開發者有吸引力，可能改變現有模型市場格局。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可申請 API 測試，設計標準化任務 Benchmark，比較其在程式碼生成、文件分析等任務上的性價比與延遲表現，決定是否遷移現有工作流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-kairon-llm-chain",
+    "title": "Kairon：視覺化LLM Chain建構主動式數位助理",
+    "title_original": "digiteinfotech/kairon",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/digiteinfotech/kairon",
+    "published_at": "2026-06-09T17:19:14Z",
+    "category": "agent-skills",
+    "summary": "Digiteinfotech開源的Agentic AI平台，透過視覺化LLM Chaining技術構建主動式數位助理，GitHub星標277，Python開發。",
+    "highlights": [
+      "視覺化Chain編排介面",
+      "支援主動式數位助理建構",
+      "基於Visual LLM Chaining技術",
+      "Python原生友善"
+    ],
+    "why_it_matters": "提供一種新的Agent建構範式，視覺化Chain設計可降低複雜工作流程搭建的技術門檻，適合快速原型開發。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於快速原型驗證Agent工作流程設計，評估視覺化Chain是否比純程式碼編排更適合特定場景。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/63786695?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-reddit",
+    "title": "為何控制模型推論過程如此困難？Reddit 技術社群熱議",
+    "title_original": "Why does it seems to be so difficult to control a model's reasoning process?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1ales/why_does_it_seems_to_be_so_difficult_to_control_a/",
+    "published_at": "2026-06-09T16:48:23+00:00",
+    "category": "hot-topics",
+    "summary": "LocalLLaMA 社群討論為何大語言模型（LLM）的推論過程難以精確控制。研究者發現模型內部推論機制複雜，現有控制方法（如提示工程、RLHF）往往只能間接影響輸出，而非直接操控思考路徑。此議題反映 LLM 可解釋性與可控性的根本挑戰。",
+    "highlights": [
+      "模型推論過程屬emergent behavior，非明確程式邏輯",
+      "現有控制方法：提示工程、RLHF、CoT 均屬間接影響",
+      "推論鏈（Chain-of-Thought）可引導但無法完全約束",
+      "研究者嘗試以內部狀態監控替代外部干預",
+      "可控性與模型能力可能存在取捨trade-off"
+    ],
+    "why_it_matters": "理解推論控制限制有助技術人員設定合理預期，避免過度依賴模型執行需要精確邏輯的任務。這對工作流程設計與模型選型至關重要。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可測試不同控制方法組合，觀察對特定任務輸出的影響，找出性價比最高的干預策略。用自動化腳本批量評估控制效果。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-icml-ntkmirror",
+    "title": "ICML 新論文：可預測幻覺與 ntkMirror 開源實現",
+    "title_original": "Our ICML paper on predictable hallucination (information-budget abstention gate), + ntkMirror: a training-free open-weight implementation we're releasing today",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u19vn2/our_icml_paper_on_predictable_hallucination/",
+    "published_at": "2026-06-09T16:23:05+00:00",
+    "category": "new-models",
+    "summary": "研究團隊在 ICML 發表可預測幻覺論文，提出「資訊預算棄權閘」（information-budget abstention gate）機制，能預測模型何時可能產生幻覺並主動拒絕回答。同時發布 ntkMirror 開源實現，無需額外訓練即可部署，為提升模型可靠性提供實用方案。",
+    "highlights": [
+      "提出可預測並主動回避幻覺的閘門機制",
+      "資訊預算概念：用戶可設定容許的錯誤率閾值",
+      "ntkMirror 為訓練-free 開源實現，可直接下載使用",
+      "有助提升 RAG、程式生成等高風險任務可靠性",
+      "學術價值與工程落地性兼具"
+    ],
+    "why_it_matters": "幻覺是 LLM 落地企業場景的主要障礙。此研究提供理論基礎與可部署工具，技術人員終於有方法量化並控制錯誤率，而非被動接受模型輸出。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即 clone ntkMirror repo，整合至現有 pipeline，測試在程式生成或數據分析任務中的實際效果。用單位測試量化準確率改善。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-unsloth-gemma-4-qat-mtp",
+    "title": "Unsloth 發布 Gemma 4 QAT MTP 助理模型，量化訓練再升級",
+    "title_original": "Unsloth Gemma 4 QAT MTP assistant models now available",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u19k2h/unsloth_gemma_4_qat_mtp_assistant_models_now/",
+    "published_at": "2026-06-09T16:12:02+00:00",
+    "category": "open-source-ai",
+    "summary": "Unsloth 團隊發布 Gemma 4 QAT MTP 助理模型，採用量化感知訓練與多令牌預測技術，標榜更高效能與更低記憶體佔用，可在消費級 GPU 上運行。",
+    "highlights": [
+      "QAT 量化感知訓練技術加持",
+      "MTP 多令牌預測提升效率",
+      "記憶體佔用大幅降低",
+      "助理模型專用調校優化",
+      "開源可自行部署至 Hugging Face"
+    ],
+    "why_it_matters": "為本地部署者提供高效選項，QAT 可在保持品質的同時大幅降低 VRAM 需求，適合資源有限的技術宅在本地進行開發與測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接下載 Hugging Face 模型，透過量化版本在消費級 GPU 上運行，節省雲端 API 成本並實現離線開發。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-46",
+    "title": "文字轉語音基準大更新：46 款模型橫向評測出爐",
+    "title_original": "Text-to-Speech (TTS) Benchmark Revamped with Objective Standards and Blind Voting (46 models and counting)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u19a8d/texttospeech_tts_benchmark_revamped_with/",
+    "published_at": "2026-06-09T16:02:37+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群重啟 TTS 基準測試，使用盲測投票與客觀指標對 46 款模型進行橫向評估，涵蓋自然度、延遲與多語言支援等維度。",
+    "highlights": [
+      "46 款 TTS 模型橫向比較",
+      "盲測投票確保公平性",
+      "涵蓋自然度與延遲指標",
+      "多語言測試覆蓋主要語種",
+      "社群驅動的開源評測方法論"
+    ],
+    "why_it_matters": "幫助技術宅快速篩選適合的 TTS 方案，避免在開源與商業選項間盲目試錯，尤其對語音客服、無障礙應用開發者有實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接下載測試音檔或使用評測脚本，針對自身語言與延遲需求選擇最適模型，節省評估時間並避免踩雷。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-gemini-3-5-live-translate",
+    "title": "Gemini 3.5 Live Translate：接近真時的流暢語音翻譯",
+    "title_original": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+    "published_at": "2026-06-09T15:16:25+00:00",
+    "category": "new-models",
+    "summary": "Gemini 3.5 Live Translate 將接近真時的自然語音翻譯帶入 Google AI Studio、Google Translate 與 Google Meet，支援流暢的對話式翻譯體驗。",
+    "highlights": [
+      "接近真時延遲的語音翻譯能力",
+      "整合至 AI Studio、Translate、Meet 三平台",
+      "針對自然語音（非文字）優化",
+      "Gemini 3.5 系列新功能"
+    ],
+    "why_it_matters": "語音翻譯從批次處理走向接近真時，代表 Gemini 在即時互動場景的能力躍進，對跨語言會議、遠端協作等場景有直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在 Google Meet 會議中測試 Live Translate，評估其對技術術語的翻譯準確度，判斷是否可作為多語言技術會議的輔助工具。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-opencode-go-zen",
+    "title": "OpenCode Go/Zen 帳戶刪除困難，用戶隱私警告",
+    "title_original": "Warning before signing up to OpenCode Go/Zen (Unable to easily delete your account/data)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u174d7/warning_before_signing_up_to_opencode_gozen/",
+    "published_at": "2026-06-09T14:48:13+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶警告 OpenCode Go/Zen 平台存在帳戶與資料刪除障礙。該服務似乎不提供簡便的帳戶刪除選項，導致用戶難以完整移除個人資料。對於重視資料自主權的技術人員而言，此問題影響平台選擇決策。",
+    "highlights": [
+      "平台未提供清晰的帳戶刪除管道",
+      "用戶反映無法完整移除個人資料",
+      "此為 SaaS 工具常見的資料治理風險",
+      "可能涉及 GDPR 或其他隱私法規合規問題",
+      "建議使用前詳閱服務條款與資料政策"
+    ],
+    "why_it_matters": "技術人員頻繁使用各種 AI 工具，平台資料刪除政策直接關乎個人隱私與企業合規。選擇資料治理友善的平台可降低長期風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "在採用新 AI 工具前，先測試帳戶刪除流程是否暢通。將此納入工具評估清單，作為安全審查標準之一。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-google-gemma-4-12b",
+    "title": "Google 發布 Gemma 4 12B：無編碼器的統一多模態模型",
+    "title_original": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+    "published_at": "2026-06-09T14:10:19+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 發表 Gemma 4 12B，是一款統一多模態模型，採用無編碼器（encoder-free）架構，可在單一模型內處理文字、圖像等多種輸入，節省部署資源。",
+    "highlights": [
+      "12B 參數規模，適合本地部署",
+      "無編碼器設計簡化架構並降低延遲",
+      "統一處理多模態輸入，無需多模型組合",
+      "屬於 Gemma 系列，延續開源策略"
+    ],
+    "why_it_matters": "無編碼器架構代表模型訓練與推論效率提升，對需要在邊緣裝置或本地跑模型的技術用戶而言，12B 規模兼顧效能與資源消耗。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本地或自架伺服器上測試 Gemma 4 12B，評估其多模態理解與程式碼生成能力，判斷是否能替代現有商業 API 方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-google-deepmind",
+    "title": "Google DeepMind 公布歐洲機器人策略與最新研究進展",
+    "title_original": "Powering the future of robotics in Europe",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+    "published_at": "2026-06-09T14:02:33+00:00",
+    "category": "hot-topics",
+    "summary": "DeepMind 發布歐洲機器人佈局計畫，展示模擬環境、遷移學習與真實世界部署策略等最新研究。旨在針對歐洲市場的合規與隱私需求優化機器人控制演算法。",
+    "highlights": [
+      "歐洲市場專屬機器人解決方案藍圖",
+      "模擬到真實遷移技術突破",
+      "新型態感知與決策模型展示",
+      "合作夥伴與部署時程初步揭露",
+      "開源程度與授權模式待確認"
+    ],
+    "why_it_matters": "歐洲市場對資料隱私與監管要求嚴格，DeepMind 此舉顯示其正針對特定法規環境優化技術，對當地 AI 應用開發者與系統整合商有直接影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "歐洲技術宅可追蹤其開源模型與論文，評估在工廠自動化或服務機器人場景的適用性，提前準備技術驗證與合規審查。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-openai-codex-plugins",
+    "title": "OpenAI Codex Plugins 實戰：哪些外掛真正提升開發效率",
+    "title_original": "What Codex Plugins are actually improving your workflow",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u15clo/what_codex_plugins_are_actually_improving_your/",
+    "published_at": "2026-06-09T13:41:47+00:00",
+    "category": "agent-skills",
+    "summary": "開發者社群分享 Codex Plugins 實際使用經驗，分析哪些外掛能真正加速工作流程。涵蓋 API 整合、自動化腳本與除錯輔助等場景，提供實用性橫向評比。",
+    "highlights": [
+      "插件實用性橫向評比出爐",
+      "API 整合便利性分析",
+      "自動化腳本實際案例分享",
+      "除錯輔助功能深度測試",
+      "付費與免費插件差異對比"
+    ],
+    "why_it_matters": "幫助技術宅識別真正有效的工具，避免在過多插件中迷失，提升程式碼生成與專案管理的效率，節省選擇成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考評比結果選擇性安裝高評價插件，測試其對自身工作流程的實際影響，選擇性整合到 VS Code 開發環境。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-09-charlotte-token-mcp",
     "title": "Charlotte：Token 高效率瀏覽器 MCP 伺服器",
     "title_original": "TickTockBent/charlotte",
@@ -310,6 +755,33 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-github-ai",
+    "title": "GitHub 開放第三方 AI 程式碼代理安全驗證功能",
+    "title_original": "Security validation for third-party coding agents",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-09-security-validation-for-third-party-coding-agents",
+    "published_at": "2026-06-09T07:12:54+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 正式開放第三方程式碼代理的安全驗證功能，支援 Claude、OpenAI Codex 等模型直接在專案內實作功能與修復問題，並對代理行為進行安全審查與許可控制。",
+    "highlights": [
+      "第三方 AI 代理（Claude、Codex 等）可直接在 GitHub 專案內操作",
+      "提供安全驗證機制，防止代理執行惡意或未授權動作",
+      "支援企業級許可政策管理",
+      "屬於 GA（正式可用）狀態，可立即部署"
+    ],
+    "why_it_matters": "企業若要讓 AI 代理在正式環境中實作程式碼，安全驗證是必備機制。此功能讓技術團隊能安全地啟用第三方代理，而非只能依賴 GitHub Copilot 單一方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "在企業內部部署時，可透過此安全驗證框架控制哪些代理能修改哪些路徑的程式碼，實現「AI 代理 + 人類審核」的自動化工作流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-06-09-gemma-4-4-bit-qat-vs-8-bit",
@@ -1176,6 +1648,33 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/25802147?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-gemini-guided-learning",
+    "title": "Gemini Guided Learning 在獅子山試點成效出爐",
+    "title_original": "Measuring the impact of learning with AI in Sierra Leone and beyond",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
+    "published_at": "2026-06-08T13:04:59+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 發表隨機對照試驗結果，顯示 Gemini 的 Guided Learning 功能能提升學習參與度與學習速度，研究涵蓋獅子山等真實教育場景。",
+    "highlights": [
+      "隨機對照試驗（RCT）設計，結果具統計意義",
+      "Gemini Guided Learning 功能具體獲益可量化",
+      "非實驗室環境，屬於真實世界資料",
+      "主要針對教育應用場景"
+    ],
+    "why_it_matters": "這是 Gemini 功能層面少見的 RCT 實證資料，代表 Google 開始用科學方法驗證 AI 教育產品的實際效果，而非僅行銷宣稱。",
+    "automation_angle": null,
+    "automation_angle_zh": "若從事教育科技或內部培訓系統開發，可參考此 RCT 的評估指標，設計自己的 AI 導學功能實驗框架。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
