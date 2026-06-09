@@ -1,5 +1,253 @@
 [
   {
+    "id": "2026-06-09-mcp-agentify-mcp-server-agent",
+    "title": "mcp-agentify：將 MCP Server 轉為 Agent 的編排工具",
+    "title_original": "steipete/mcp-agentify",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/steipete/mcp-agentify",
+    "published_at": "2026-06-09T00:16:11Z",
+    "category": "agent-skills",
+    "summary": "TypeScript 實現的 MCP 編排器，可將現有 MCP Server 包裝成具備自主決策能力的 Agent 單元。星星數 24，採用 TypeScript 開發，適合前端或 Node.js 生態的開發者。",
+    "highlights": [
+      "⚡ 支援將既有 MCP Server 升級為 Agent 行為模式",
+      "💻 TypeScript 實現，與現代 JavaScript 生態無縫整合",
+      "💡 可簡化多 MCP Server 的協調與任務分配邏輯",
+      "⭐ 星星數相對有限，需評估社群活跃度",
+      "🔗 建議查看實際範例程式碼確認功能完整性"
+    ],
+    "why_it_matters": "若需將多個 MCP 工具組合成自動化工作流程，此編排層可減少重複造輪子，技術用戶可評估是否能直接應用於現有專案。",
+    "automation_angle": null,
+    "automation_angle_zh": "克隆專案後，嘗試用 mcp-agentify 包裝一個自己常用的 MCP Server，觀察其任務協調與錯誤處理機制是否符合預期。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/58493?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-wwdc-2026-apple-siri-ai-core-ai-pytorch",
+    "title": "WWDC 2026：Apple Siri AI 升級詳解，含 Core AI 與 PyTorch 整合",
+    "title_original": "Siri AI at WWDC 2026",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything",
+    "published_at": "2026-06-08T23:58:04+00:00",
+    "category": "new-models",
+    "summary": "Apple 在 WWDC 2026 發布新 Siri AI 功能，將使用基於 Gemini 客製化模型，透過 Vision LLM 解析用戶螢幕內容。Core AI 函式庫新增 PyTorch 整合功能（coreai-torch），可將已匯出的 PyTorch 模型轉換至 Apple 硬體執行。",
+    "highlights": [
+      "Siri 將採用 Gemini 授權的自定義模型",
+      "Vision LLM 可直接讀取螢幕，無需應用程式 API 整合",
+      "Core AI 新增 PyTorch 橋接功能（coreai-torch package）",
+      "iOS 27 Developer Beta 現已開放，需排隊等待新 Siri 存取權限"
+    ],
+    "why_it_matters": "Apple 此舉標誌著 Vision LLM 技術成熟度提升，且 PyTorch 生態正式進駐 Apple 硬體平台，為本地端 AI 推論提供新選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "若需在 Apple 設備上部署本地模型，可利用 coreai-torch 將 PyTorch 模型遷移至 Apple 硬體，評估效能與功耗表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-0xarchive-mcp-agent",
+    "title": "0xArchive MCP：為編碼 Agent 打造的市場數據工具伺服器",
+    "title_original": "0xArchiveIO/0xarchive-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/0xArchiveIO/0xarchive-mcp",
+    "published_at": "2026-06-08T23:24:42Z",
+    "category": "agent-skills",
+    "summary": "GitHub 新開源專案，實現 MCP（Model Context Protocol）伺服器，提供類型化的 0xArchive 市場數據工具，可讓 AI 編碼 Agent 直接呼叫金融市場資訊。目前僅 11 顆星，JavaScript 實現。",
+    "highlights": [
+      "基於 MCP 協議，可與主流 Agent 框架整合",
+      "提供 typed API，降低 Agent 呼叫金融數據的開發成本",
+      "JavaScript 實現，適合前端/全端背景開發者",
+      "可今日部署測試"
+    ],
+    "why_it_matters": "將金融數據整合進 AI 工作流程的實用工具，若 0xArchive 數據品質可靠，可顯著提升需要即時市場資訊的自動化流程效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此 MCP server 整合進自定義編碼 Agent，使其在處理金融相關任務時具備實時市場數據查詢能力。建議評估數據來源可靠性與 rate limit。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/254180242?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-ex-mcp-elixir-mcp-acp",
+    "title": "ex_mcp：Elixir 的 MCP/ACP 客戶端/伺服器函式庫",
+    "title_original": "azmaveth/ex_mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/azmaveth/ex_mcp",
+    "published_at": "2026-06-08T23:21:03Z",
+    "category": "agent-skills",
+    "summary": "一個為 Elixir 開發者提供的 Model Context Protocol 與 Agent Client Protocol 客戶端/伺服器實現，支援在 Elixir 生態中快速接入 Agent 協定。目前星星數 17，屬於早期專案。",
+    "highlights": [
+      "🔧 Elixir 原生實現，適合熟悉函數式程式設計的團隊",
+      "🔗 支援 MCP 與 ACP 雙協定，覆蓋主流 Agent 標準",
+      "🔗 可作為 Elixir 後端服務與 AI Agent 溝通的橋樑",
+      "📦 星星數較少，建議以研究用途評估",
+      "⚠️ 需要 Elixir 環境，評估前先確認團隊技術棧"
+    ],
+    "why_it_matters": "若需在 Elixir 服務中整合 AI Agent 能力，此函式庫可降低自建 MCP 适配器的開發成本，技術用戶可評估其維護狀態。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地 Elixir 專案中加入 ex_mcp，測試是否能快速建立與主流 MCP Server 的連接，驗證協定相容性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Elixir"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/127486?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-ai",
+    "title": "韓國樂天卡攜手三星推 AI 訂閱優惠方案",
+    "title_original": "乐天卡推出“三星訂閱EnloCa”……三星AI訂閱俱乐部更便宜- 阿视亚經济 - 아시아경제",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Bc0kzMXVkQWVGQnVXeU56b2hGMHh4TURaa1Y0QWVPeGY1b2p6eFlEd25UWHA2VHRPaF9yQTdmaXlWblpmQ2dyWUxSbnA4bm5CN0dEajkyUVVUaWd5UDNhWnNCSFhCaUg5Zm5jaUpPRQ?oc=5",
+    "published_at": "2026-06-08T23:12:15+00:00",
+    "category": "ai-deals",
+    "summary": "韓國樂天信用卡與三星合作推出 EnloCa 服務，用戶可享三星 AI 訂閱俱樂部折扣。屬地區性銀行卡優惠，非全球適用。",
+    "highlights": [
+      "僅限韓國樂天卡持卡人申請",
+      "優惠內容與三星 AI 訂閱俱樂部綁定",
+      "需透過韓國當地銀行驗證身份",
+      "類似信用卡紅利兌換 AI 服務模式"
+    ],
+    "why_it_matters": "信用卡與 AI 訂閱整合可能成為其他市場參考範例，但台灣及中國用戶暫無直接受惠機會。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注信用卡公司是否引進類似 AI 訂閱回饋機制，可作為企業福利方案參考。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-chatgpt-bot",
+    "title": "開發者自建 ChatGPT 體育預測 Bot 的實務經驗分享",
+    "title_original": "I built a private Sports Prediction model using Chatgpt that I texted daily. My friends caught wind so I let them use it. They liked it so much I soft launched it 2 months ago to the public and they can’t stop using it.",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u0n5e6/i_built_a_private_sports_prediction_model_using/",
+    "published_at": "2026-06-08T22:36:53+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶分享使用 ChatGPT 建構私人體育預測模型並逐步對外開放的歷程，含技術架構、使用者留存與商業化思路。",
+    "highlights": [
+      "利用 ChatGPT API 建構每日預測訊息推播",
+      "從私人工具擴展為公開服務的迭代過程",
+      "使用者留存關鍵在於預測準確度與推播時機",
+      "可作為 AI 訂閱服務商業模式參考"
+    ],
+    "why_it_matters": "此案例展示如何將 LLM API 包裝為有價值的垂直領域工具，技術門檻低但商業價值明確。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考其訊息推播與預測模板，快速建立類似垂直領域 Bot 測試市場反應。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-qwen3-6-35b-a3b-tool-calling-byteshape-vs-unsloth-ggufs",
+    "title": "Qwen3.6-35B-A3B Tool Calling 基準測試：ByteShape vs Unsloth GGUFs 效能比較",
+    "title_original": "Qwen3.6-35B-A3B tool calling benchmark: ByteShape vs. Unsloth GGUFs, KV cache quants & long context performance",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0isbo/qwen3635ba3b_tool_calling_benchmark_byteshape_vs/",
+    "published_at": "2026-06-08T19:52:25+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享 Qwen3.6-35B-A3B 模型在 Tool Calling 任務上的基準測試結果，比較 ByteShape 與 Unsloth 兩種 GGUFs 量化格式的效能差異，同時涵蓋 KV Cache 量化與長上下文處理能力。",
+    "highlights": [
+      "測試模型為 Qwen3.6-35B-A3B，強調工具呼叫能力",
+      "比較 ByteShape 與 Unsloth GGUFs 量化方案",
+      "涵蓋 KV Cache 量化對效能的影響",
+      "長上下文情境下的表現數據"
+    ],
+    "why_it_matters": "對於在本地硬體部署小型語言模型的技術人員，此 benchmark 提供了實用的量化格式選擇參考，可幫助優化推論效率與記憶體佔用。",
+    "automation_angle": null,
+    "automation_angle_zh": "可根據測試結果選擇適合本機硬體配置的 GGUFs 量化版本，優化 tool calling 應用的部署策略。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-openai-anthropic",
+    "title": "OpenAI 與 Anthropic 資料代理技術架構差異分析",
+    "title_original": "How OpenAI and Anthropic each build data agents differently - DataChain",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u0ikqm/how_openai_and_anthropic_each_build_data_agents/",
+    "published_at": "2026-06-08T19:44:56+00:00",
+    "category": "agent-skills",
+    "summary": "技術部落格 DataChain 詳細比較兩家公司如何實作資料代理能力，包含工具呼叫、多步推論與錯誤恢復機制的設計差異。",
+    "highlights": [
+      "OpenAI 偏向原生整合減少延遲",
+      "Anthropic 強調模型推論可控性",
+      "錯誤恢復策略各有優劣",
+      "成本與延遲的取捨點不同"
+    ],
+    "why_it_matters": "選擇代理框架時需理解底層差異，此分析可直接輔助技術決策，避免踩坑。",
+    "automation_angle": null,
+    "automation_angle_zh": "依據此文對比自家需求，若重視可控性選 Anthropic，若重視整合速度選 OpenAI。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-bitnet",
+    "title": "BitNet 三元權重模型發展現況社群討論",
+    "title_original": "Was BitNet a dead end? What happened to ternary LLMs?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0hy5p/was_bitnet_a_dead_end_what_happened_to_ternary/",
+    "published_at": "2026-06-08T19:22:33+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 社群討論 Ternary LLM（-1, 0, 1 權重）研究是否停滯，分析 BitNet 系列後續發展與硬體支援瓶頸。",
+    "highlights": [
+      "三元量化可大幅降低記憶體需求",
+      "訓練穩定性仍是主要挑戰",
+      "缺乏主流框架原生支援",
+      "硬體廠商態度影響發展前景"
+    ],
+    "why_it_matters": "若三元模型突破可將大模型部署在邊緣裝置，但目前研究社群熱度下降，需觀望實驗室進展。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載 BitNet 原始碼測試延遲與記憶體表現，評估是否符合自有用戶端部署需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-08-gantry-macos-docker-mcp",
     "title": "Gantry：macOS 原生 Docker 管理工具，支援 MCP 協定",
     "title_original": "getgantry/gantry",
@@ -277,6 +525,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-openai-s-1-sec",
+    "title": "OpenAI 正式提交 S-1 草案至 SEC",
+    "title_original": "Confidential submission of draft S-1 to the SEC",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/openai-submits-confidential-s-1",
+    "published_at": "2026-06-08T14:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 在官方博客確認已向美國證券交易委員會（SEC）秘密提交 S-1 草案，但尚未確定後續行動時間表。此舉被視為 IPO 流程的關鍵一步，但具體時間與條款尚未揭露。",
+    "highlights": [
+      "📋 OpenAI 確認已提交 S-1 草案，IPO 進程正式啟動",
+      "📋 提交形式為保密，未公開財務數據與估值細節",
+      "📋 後續行動時間表尚未確定",
+      "⚠️ 距離實際上市仍有不確定性",
+      "🔗 建議追蹤 SEC 後續動態與 OpenAI 官方公告"
+    ],
+    "why_it_matters": "OpenAI 作為 AI 產業風向標，其 IPO 進程可能影響整體 AI 投資與估值環境，也關係到未來 API 定價與服務穩定性的長期走向。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估現有 OpenAI API 依賴程度，考慮在關鍵流程中加入備援方案，以應對可能的定價變動或服務調整。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-06-08-llama-launcher-llm",
@@ -761,6 +1037,33 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/35094697?v=4",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-09-openai-agi",
+    "title": "OpenAI 公布 AGI 願景藍圖：安全與普惠並重",
+    "title_original": "Built to benefit everyone: our plan",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+    "published_at": "2026-06-08T01:30:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布「Built to benefit everyone」戰略文件，重申其 AGI 發展願景，強調安全機制與全球共享繁榮目標。目前缺乏具體技術時間表或產品細節，屬於長期願景宣示而非短期技術路線圖。",
+    "highlights": [
+      "定位為原則性聲明，非產品發布或技術規格",
+      "強調 AGI 發展需兼顧安全與普惠",
+      "提及共享繁榮但無具體資源分配機制",
+      "對技術人員而言缺乏可直接執行的技術細節"
+    ],
+    "why_it_matters": "作為 AI 領域龍頭企業的戰略表態，此文反映了 OpenAI 對監管壓力與市場競爭的回應方向，值得追蹤後續具體政策與產品落地情況。",
+    "automation_angle": null,
+    "automation_angle_zh": "目前暫無直接自動化價值，建議持續關注是否有配套的 API、定價或安全機制更新。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-06-08-openenv-agentic-rl",
@@ -7752,6 +8055,33 @@
       "agent-skills",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-pewdiepie-odysseus-chatgpt-ai",
+    "title": "PewDiePie 發布 Odysseus：對標 ChatGPT 的免費 AI 工作空間",
+    "title_original": "PewDiePie發布Odysseus，一款對标ChatGPT的免費AI工作空间 - games.gg",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQTmFsZlY5aEI5el91UUhjTjZ6VlBLRGlBdWhVS1dfR0ZTcVBlTVRmdHZrUXd5SVllMGh3TnIzY0QzVnpncmtWSmFsQ0xoOFhCY28za2N6VEpVclhZS3FRODRVbHlEZDc4OVdhVncxY2cxVi1pemw1ZWtKOTJQaXlRclBGVmFnbW5sQ3QyNC1YUnM5cWZIWlBWbFlveFgxLXRfT1djeGlEM1NnMGJvbFdpaDFOZ2VVMC1zcUstTnhrc3Y2SVVoR196V3ZCV3dCOGhkSTktTVJBdTdzWXhhblRuRHptYm1BeDR0QTdfVkhFMHZhZVl4bGgtQUFWMGNva2VUUHc?oc=5",
+    "published_at": "2026-06-01T16:08:59+00:00",
+    "category": "ai-deals",
+    "summary": "知名 YouTuber PewDiePie 推出名為 Odysseus 的免費 AI 工作空間，直接對標 ChatGPT。該平台提供類似對話式 AI 的核心功能，目前主要面向一般用戶，尚未公布詳細技術規格或 API 支援計畫。",
+    "highlights": [
+      "由 PewDiePie 創立的免費 AI 工作空間產品",
+      "定位與 ChatGPT 相似的對話式 AI 體驗",
+      "具體模型架構與技術細節尚未揭露",
+      "目前未提供 API 介面或開發者文件"
+    ],
+    "why_it_matters": "對技術用戶而言，該產品缺乏技術文件與 API 支援，目前難以評估其實際價值。但若日後開源或提供 API，可能成為替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "目前資訊不足，建議先觀望。待官方釋出 API 或 SDK 文件後，可評估其與現有工作流程程的整合可行性。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -23076,6 +23406,33 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-06-09-anthropic-stainless-api",
+    "title": "Anthropic 收購 Stainless API 強化工具整合能力",
+    "title_original": "Anthropic acquires Stainless to better integrate agents and tools - Techzine Global",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbHM2RGtFRG9jbDF6WXp2Yl9UdnBfc0RobmNuSGRnMl9zQ1lBQWxUdGphRU5hbUFJOFJabEhqMG95Wk5rbzI1ZVJKb2NKY1V6V1VfRXhNX0dDNU5XUHpETWhQUFFtNVFBakpaRlJQQXRNOTMzSk5FYUNiUFI1d21aeUJuc0JtdTBSVnQ3d0ZaNWV2X1FmUUNMeFVQcGlNUGJUOHRlWjNGeDFTdXlLOHhKNDVkUVl6dw?oc=5",
+    "published_at": "2026-05-19T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic 已完成對 API 開發平台 Stainless 的收購，目標是改善 Claude 與外部工具的整合效率。Stainless 專精於 API 規格維護，此次收購可簡化 Anthropic 工具生態系的開發流程。",
+    "highlights": [
+      "Stainless 專注 API 設計與維護，與 Anthropic MCP 協定互補",
+      "收購後 Anthropic 可更精準控制工具生態系一致性",
+      "開發者期待更好的 Claude 工具呼叫穩定性",
+      "可能影響第三方 API 管理工具的市場定位"
+    ],
+    "why_it_matters": "Anthropic 正在建立封閉的工具整合生態，收購 Stainless 可減少對外部工具鏈的依賴，直接影響 Claude 在企業場景的滲透速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 Anthropic 工具文件更新，若整合順利可減少自己寫 MCP 配接器的維護成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-langchain-labs",
     "title": "LangChain Labs 成立：專注代理人持續學習的應用研究",
     "title_original": "Introducing LangChain Labs",
@@ -26669,6 +27026,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-09-google-one-ai-pro-youtube-premium",
+    "title": "Google 為 One 與 AI Pro 訂閱戶提供 YouTube Premium 五折優惠",
+    "title_original": "谷歌宣布為One和AI Pro訂閱使用者提供5折YouTube Premium訂閱权限 - 蓝点网",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxX0xacGtPQzIzTmhhbm5WX2tIOXh0QjJmTENtN0EwRUFSZFBmcFhFMVk4OGtPSXQyZnRsN2UyVjBrTUZYZ2RSaDR2ZFZzN081Q2dmTTZkOFg?oc=5",
+    "published_at": "2026-04-16T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Google 宣布 One 與 AI Pro 訂閱用戶可享有 YouTube Premium 五折優惠，優惠期與具體條款依地區而異。此優惠可降低無廣告觀影與離線下載的成本，屬於綑綁銷售策略。",
+    "highlights": [
+      "Google One 與 AI Pro 訂閱戶專屬優惠",
+      "YouTube Premium 享五折折扣",
+      "優惠適用於個人或家庭方案需確認",
+      "屬 Google 生態系綑綁銷售策略"
+    ],
+    "why_it_matters": "此優惠主要為省錢導向，對技術用戶的直接幫助有限。但若同時使用 Google AI 服務，可視為降低整體訂閱成本的附加價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "對於已訂閱 Google One 或 AI Pro 的用戶，可評估是否將 YouTube Premium 納入個人工具鏈，以無廣告環境提升技術內容學習效率。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-22-hugging-face-embedding-reranker",
     "title": "Hugging Face 教學：訓練多模態 Embedding 與 Reranker 模型",
     "title_original": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
@@ -26913,6 +27297,33 @@
       "ai-deals",
       "rss",
       "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-meta-muse-spark-ai",
+    "title": "Meta 發布 Muse Spark：首款不開源的專有 AI 模型",
+    "title_original": "Meta Launches Muse Spark, Its First Proprietary AI Model With No Open Source - gHacks",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTUJfOHpTeDN1V2N5NENVNE9SV2xhSWdMcWk5cjhrZkRqOW45MXhIbnI0ajUxSUlDa3Q4VkRlRmRRM1lNWXBhaF9iY0syY3ZDQ0tsQUNvNktBdUczWlNneDctR2hrUEM5azExZlFUVmIweUd6Nmo5WWlCWFo4SXJ3NUhfMWF5YmMzR2JFcG1oeUg5X3pIVTFOY2lvY0Z3Z29uUHU3U2hjazRQTmlSaTYw?oc=5",
+    "published_at": "2026-04-09T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Meta 正式推出 Muse Spark，為其首款完全專有的 AI 模型，無開源計畫。此舉與 Llama 系列的開放策略形成對比，代表 Meta 在 AI 商業化上的策略轉向，模型主要用於自家產品生態系。",
+    "highlights": [
+      "Meta 首款完全不開源的專有模型",
+      "與過往 Llama 開源策略明顯分歧",
+      "優先整合至 Meta 自家產品與服務",
+      "具體能力範疇與性能數據尚未公開"
+    ],
+    "why_it_matters": "開源社群可能因此失去一個潛在的開放替代方案。對於仰賴開源模型的開發者，此趨勢意味需要更多關注其他開源選項，如 Mistral、Qwen 等。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應持續關注 Muse Spark 的實際能力表現，若其整合至 Instagram、WhatsApp 等產品，可評估是否適合用於社群內容分析或客戶服務自動化。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -27953,6 +28364,33 @@
     "automation_angle_zh": "閱讀此類分析有助評估 Meta 生態系長期穩定性，作為技術選型風險考量參考。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-meta-ai",
+    "title": "Meta 因效能疑慮延後新版 AI 模型發布",
+    "title_original": "Meta Delays Rollout of New A.I. Model After Performance Concerns - The New York Times",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeXl0eGNHU29tczAwSWtkRjlkODFhVkJmdTVCTVg2bGdKZWVJMHA3NEtiZHlDWENZZ1lQLWJKd3k1dHJrOWo2a1hBRl9hcnpFemRJbEoxLUtkcnR4NlB5ZG1FVW5OVEVHT1JqY2RRalhFTkJnZzBDVlBVUFhPbFozX1RQRk1Bdk0?oc=5",
+    "published_at": "2026-03-12T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "據紐約時報報導，Meta 因效能未達預期而延後新型 AI 模型的發布。內部測試顯示該模型在特定任務上的表現不如預期，Meta 選擇暫緩發布以進行進一步優化，而非倉促上市。",
+    "highlights": [
+      "Meta 延後新 AI 模型的發布時間",
+      "主因是內部效能測試未達預期標準",
+      "體現大廠對模型品質把關的審慎態度",
+      "新模型的具體能力定位尚不明確"
+    ],
+    "why_it_matters": "即使是資源豐富的大廠也會因效能問題延後發布，反映出高階 AI 模型開發的難度。對於技術用戶，這提醒不應盲目追逐最新模型，而應關注實際驗證過的能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "此事件提醒技術用戶在引入新模型至生產流程前，應建立獨立的效能評估基準，避免因模型迭代不穩定而影響關鍵業務流程的可靠性。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -30083,6 +30521,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-09-pixel-10-google-ai-pro",
+    "title": "Pixel 10 系列可能免費附贈 Google AI Pro 訂閱",
+    "title_original": "Pixel 10 系列或將免費訂閱谷歌人工智慧专業版 - Notebookcheck CN",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1YS2RPZmVMbWpPcFh0ZDlWRWRBcDVCQURCUkpsckl3ckJFbEtRNUEzN1dfSmtCUlY1RmdIOWFTM3Y2ZDBXRnV5UVBhajMwOEIyNGJubEtHbHBMOVhWeGJGTm5WbW5YU28?oc=5",
+    "published_at": "2025-08-05T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "傳聞 Google 可能在 Pixel 10 系列上提供 Google AI Pro 的免費訂閱資格。此舉若屬實，將使 Pixel 10 用戶可直接使用 Gemini Ultra 等高階 AI 功能，無需額外付費。",
+    "highlights": [
+      "Pixel 10 系列可能綁定 Google AI Pro 免費訂閱",
+      "Google AI Pro 包含 Gemini Ultra 等旗艦模型存取權",
+      "目前仍為傳聞階段，尚未官方確認",
+      "可能成為 Android 用戶的隱性福利"
+    ],
+    "why_it_matters": "若消息屬實，將大幅降低一般用戶接觸高階 AI 工具的門檻。對於技術用戶，則是評估 Gemini Ultra 實際能力的低成本切入點。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 Google AI Pro 視為 Gemini API 的免費測試額度，用於評估其在特定任務（如推論、程式碼生成）上的表現是否適合納入生產流程。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-29-zuckerberg-meta",
     "title": "Zuckerberg 表態：Meta 未來不一定開源所有超智能模型",
     "title_original": "Zuckerberg signals Meta won’t open source all of its ‘superintelligence’ AI models - TechCrunch",
@@ -30491,6 +30956,33 @@
       "new-models",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-notepin-ai",
+    "title": "NotePin：主打長續航的 AI 硬體新成員，非手機替代品",
+    "title_original": "AI硬件再添一员，不图取代手机，NotePin反而能活更久？ - thepaper.cn",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9QcHp2VUJPRUQxWEdEVFFZWmpZNUc4M2FibkxacXdVV2JySGNmaE80NEh1TkhsOGVVNnBmZ1R3VGNFM3o1UmQ1VFBoTGgxRVJPcVI2eUxBSXdObm5Cdkg0bQ?oc=5",
+    "published_at": "2024-08-30T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "NotePin 是一款新型 AI 硬體設備，設計目標並非取代手機，而是作為語音記錄與生活助理的補充。其強調比一般行動裝置更持久的電池續航力，瞄準需要隨時記錄靈感或會議的專業用戶。",
+    "highlights": [
+      "定位為手機以外的 AI 語音助理硬體",
+      "強調超長電池續航為核心賣點",
+      "主要功能為語音記錄與生活助理",
+      "具體規格與定價尚未完全揭露"
+    ],
+    "why_it_matters": "AI 硬體市場持續擴展，NotePin 的長續航設計針對特定使用場景。若能與現有工作流程程整合，可作為會議記錄或田野調查的輔助工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估其 API 是否開放，以及是否能與現有錄音轉文字或筆記系統串接，實現會議自動化的前端收集環節。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
