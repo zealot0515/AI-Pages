@@ -1,5 +1,429 @@
 [
   {
+    "id": "2026-06-09-charlotte-token-mcp",
+    "title": "Charlotte：Token 高效率瀏覽器 MCP 伺服器",
+    "title_original": "TickTockBent/charlotte",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/TickTockBent/charlotte",
+    "published_at": "2026-06-09T12:52:55Z",
+    "category": "agent-skills",
+    "summary": "Charlotte 是針對 AI Agent 設計的瀏覽器 MCP 伺服器，輸出結構化網頁資料而非原始無障礙標籤，降低 Token 消耗的同時提升 Agent 解析效率。屬於新興工具，星數尚低但技術方向明確。",
+    "highlights": [
+      "專為 Agent 設計，輸出結構化而非原始無障礙格式",
+      "有效降低網頁抓取 Token 消耗，控制 API 成本",
+      "TypeScript 實作，易於與現有 Node.js 生態整合",
+      "新興專案，功能完整度與穩定性需自行驗證",
+      "適合需要頻繁讓 Agent 瀏覽網頁的自動化場景"
+    ],
+    "why_it_matters": "讓 Agent 瀏覽網頁時若輸出過多無效資訊會快速耗盡 Token，Charlotte 提供經濟實惠的替代方案，值得在工作流程中測試節省成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 Charlotte 整合進自動化研究 Agent，例如定期讓 Agent 抓取特定網站並總結內容，觀察 Token 節省效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/2759810?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-agent-5000-review",
+    "title": "你的 Agent 剛寫了 5000 行代碼，你真的逐行 review 了嗎？",
+    "title_original": "Did You Really Review Those 5,000 Lines Your Agent Just Wrote?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u144ly/did_you_really_review_those_5000_lines_your_agent/",
+    "published_at": "2026-06-09T12:52:42+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 討論區有開發者提出一個尖銳問題：當 AI Agent 一次性生成大量代碼時，人工 review 的成本與效益是否合理。許多開發者承認自己根本不會完整檢查 AI 生成的長代碼段，主要依靠測試覆蓋來把關，而非逐行閱讀。",
+    "highlights": [
+      "AI Agent 生成代碼量越大，人工 review 成本越高",
+      "開發者開始依賴自動化測試而非人工閱讀來確保品質",
+      "程式碼審查的邊際效益在 AI 時代值得重新思考",
+      "有開發者建議用靜態分析工具輔助審查",
+      "此議題反映 AI 輔助開發的工作流程程正在重構"
+    ],
+    "why_it_matters": "這涉及 AI 輔助開發的核心信任問題：當 AI 生成程式碼量大幅增加時，傳統 review 流程已不適用，工程師需要重新建立品質把關策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估現有的 Linter、程式碼分析工具（如 Semgrep、Ruff）能否替代部分人工 review，或建立 AI 生成的程式碼專用審查流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-cad-cae-copilot-ai-cad-cae",
+    "title": "cad-cae-copilot：AI 原生 CAD/CAE 工作台，文字直接生建立體模型",
+    "title_original": "armpro24-blip/cad-cae-copilot",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/armpro24-blip/cad-cae-copilot",
+    "published_at": "2026-06-09T12:40:18Z",
+    "category": "open-source-ai",
+    "summary": "專案提供 AI 原生的 CAD/CAE/CAX 工作環境，支援文字轉 CAD、文字轉 CAE、基於 build123d/OpenCASCADE 的幾何建模、參數化編輯、拓撲穩定指標、確定性 critique 及 MCP 工具。Agent 可直接操作 3D 模型參數。",
+    "highlights": [
+      "Text-to-CAD/CAE：自然語言描述直接生成 3D 模型",
+      "幾何引擎：基於 build123d 與 OpenCASCADE 確保準確性",
+      "參數化建模：模型具備可編輯參數，方便迭代",
+      "拓撲穩定指標：避免破面或重建失敗問題",
+      "MCP 工具：Agent 可透過程式呼叫操作 CAD 幾何"
+    ],
+    "why_it_matters": "工程師與 AI Agent 終於能在同一個介面操作 CAD 模型，Agent 可據設計規範自動生成或修改模型，大幅加速工程設計流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 MCP 工具讓 Agent 根據規格書自動生成零件模型，或自動檢查模型參數是否符合設計約束。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/231574498?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-homelab-monitor-homelab-mcp",
+    "title": "homelab-monitor：一鍵部署的 homelab 監控儀表板，含 MCP 工具",
+    "title_original": "SikamikanikoBG/homelab-monitor",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/SikamikanikoBG/homelab-monitor",
+    "published_at": "2026-06-09T12:03:29Z",
+    "category": "open-source-ai",
+    "summary": "開源專案 homelab-monitor 提供一鍵啟動的 Docker 容器，監控 GPU VRAM、本地 AI 模型負載、Docker 容器、systemd 服務與主機狀態。內建唯讀 MCP 伺服器，AI Agent 可直接查詢 homelab 狀態並據此做出決策。",
+    "highlights": [
+      "單一容器部署：docker run 即可啟動完整監控系統",
+      "GPU/VRAM 追蹤：即時掌握本地 LLM 推論資源消耗",
+      "MCP 伺服器整合：Agent 可用自然語言查詢 homelab 狀態",
+      "支援 Docker、systemd、硬體健康等多元指標",
+      "34 顆星，Python 實作，可自由 Fork 客製"
+    ],
+    "why_it_matters": "homelab 愛好者終於有統一的監控工具，且 Agent 可直接讀取 homelab 資料做自動化決策，省去自己串接監控 API 的功夫。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將此工具部署在 homelab 中，讓 AI Agent 根據 GPU 負載自動切換模型或觸發備援機制。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/46193504?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-09-microsoft-skills-mcp-coding-agent",
+    "title": "Microsoft Skills：MCP 伺服器與 Coding Agent 技能框架",
+    "title_original": "microsoft/skills",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/microsoft/skills",
+    "published_at": "2026-06-09T12:00:38Z",
+    "category": "agent-skills",
+    "summary": "微軟官方 GitHub 倉庫「Skills」提供 MCP 伺服器範本、自訂 Agent 開發指南，以及 Agents.md 標準格式，幫助 SDK 開發者為 Coding Agent 提供結構化、實時的專業知識注入。倉庫已獲 2500+ Star，具有一定社群關注度。",
+    "highlights": [
+      "提供 MCP 伺服器標準範本，可快速擴展 Agent 技能",
+      "Agents.md 格式讓 SDK 可被 Coding Agent 直接理解與呼叫",
+      "微軟官方維護，品質與更新頻率有一定保證",
+      "2500+ Star 顯示開發者社群高度興趣",
+      "可作為企業內部 Coding Agent 技能庫建置參考"
+    ],
+    "why_it_matters": "Coding Agent 的技能豐富度直接影響開發效率，Microsoft Skills 提供標準化框架讓企業或個人能快速擴展 Agent 專業領域，降低自建成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可Fork此倉庫，針對公司內部框架或工具链建立客製化 MCP 伺服器，讓 AI 助理能直接操作特定系統。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-09-chatgpt-5-5-thinking",
+    "title": "ChatGPT 5.5 Thinking 模式突現行為異常，網友熱議",
+    "title_original": "ChatGPT 5.5 Thinking behaving very differently suddenly",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u120wy/chatgpt_55_thinking_behaving_very_differently/",
+    "published_at": "2026-06-09T11:15:33+00:00",
+    "category": "new-models",
+    "summary": "多位使用者在 Reddit 回報 ChatGPT 5.5 的 Thinking 模式出現異常行為，包括回答風格突變、邏輯鏈中斷、以及輸出長度明顯變化的情況。部分用戶懷疑是模型更新或側重點調整導致，但尚未有官方說明。",
+    "highlights": [
+      "Thinking 模式輸出行為不一致",
+      "懷疑與近期模型更新有關",
+      "用戶回報多為主觀感受，缺乏官方確認",
+      "可能影響自動化流程的穩定性",
+      "社群正在彙整具體案例"
+    ],
+    "why_it_matters": "ChatGPT 行為變化可能影響已建立的自動化工作流程程穩定性，若模型側重點改變，依賴其輸出格式的管線可能需要重新調適。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在正式環境中建立輸出品質監控，當模型行為改變時自動告警；避免hard-code依賴特定輸出格式，保留降級或備援方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-jetson-orin-nx-hermes-agent-ai",
+    "title": "Jetson Orin NX 跑 Hermes Agent：邊緣 AI 推論硬體實測",
+    "title_original": "Jetson Orin NX Build for Hermes Agent + Benchmarking",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u11wvo/jetson_orin_nx_build_for_hermes_agent_benchmarking/",
+    "published_at": "2026-06-09T11:10:02+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享在 Jetson Orin NX 嵌入式平台安裝 Hermes Agent 並進行基準測試的過程。涵蓋 ARM 架構上的模型量化、記憶體優化與延遲表現，對想在邊緣裝置部署本地 AI 的技術玩家有參考價值。",
+    "highlights": [
+      "Jetson Orin NX 硬體能力：ARM 架構嵌入式 AI 推論平台",
+      "Hermes Agent 部署：開源 Agent 框架在邊緣的相容性測試",
+      "模型量化技巧：如何在受限硬體上跑動大模型",
+      "延遲與吞吐量基準：實測數據可供效能評估",
+      "邊緣部署經驗分享：散熱、功耗、網路設定等實務問題"
+    ],
+    "why_it_matters": "邊緣 AI 是 2025 熱門方向，Jetson Orin NX 是相對實惠的選項。此實測提供一手效能數據，幫助技術宅評估是否值得在邊緣部署 Agent。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考其量化與優化設定，在同款硬體上部署自己的 Agent，實現離線自動化任務如工廠監控或智慧家居控制。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-microsoftdocs-agent-skills-agent",
+    "title": "MicrosoftDocs Agent-Skills：微軟官方學習文件驅動的 Agent 技能庫",
+    "title_original": "MicrosoftDocs/Agent-Skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/MicrosoftDocs/Agent-Skills",
+    "published_at": "2026-06-09T10:59:40Z",
+    "category": "agent-skills",
+    "summary": "Agent-Skills 是 MicrosoftDocs 下的開源專案，匯聚來自 Microsoft Learn 的結構化技術文件，為 AI 程式碼助理提供即時、準確的專業知識。相較通用搜尋，此技能庫能確保 AI 回答符合微軟官方文件規範。",
+    "highlights": [
+      "技能來源為 Microsoft Learn 官方文件，權威性高",
+      "專為 AI 程式碼助理設計，回答更貼近微軟最佳實踐",
+      "可與 VS Code Copilot 或其他 Coding Agent 整合使用",
+      "開源且持續更新，Star 數穩定成長",
+      "適合 Azure / Microsoft 生態系開發者優先採用"
+    ],
+    "why_it_matters": "在 Microsoft 生態系內開發時，使用官方文件驅動的 Agent 技能可減少幻觉問題，讓 AI 生成的 Azure 程式碼更準確可靠。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 Agent-Skills 整合進內部 Coding Agent，當開發涉及 Azure 服務時自動查詢 Microsoft Learn 最新文件生成程式碼。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/22479449?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-hugging-face-agent-spaces-3d",
+    "title": "Hugging Face Agent 串接兩個 Spaces 建構 3D 巴黎藝廊",
+    "title_original": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+    "published_at": "2026-06-09T10:46:19+00:00",
+    "category": "agent-skills",
+    "summary": "Hugging Face 部落格展示如何透過 Agent 串接兩個 Spaces 服務，自動生成 3D 巴黎藝廊場景。核心技術結合多 Agent 協作與 Spaces API 串接，示範 AI 如何拆解任務、呼叫外部工具並組合輸出結果。",
+    "highlights": [
+      "多 Agent 協作模式：用一個 Agent 規劃、另一個執行 3D 渲染任務",
+      "Spaces API 串接：利用現成 Spaces 作為功能積木快速組裝",
+      "3D 場景自動生成：LLM 理解文字描述後驅動幾何建模",
+      "可重複的工作流程範本：適用於自動化展示、遊戲關卡等場景",
+      "Hugging Face 生態驗證：證明 Spaces 不只是 Demo 而是生產工具"
+    ],
+    "why_it_matters": "展示 Agent 串接外部 API 的實際範例，幫助開發者理解如何組合多個 AI 服務自動化複雜任務，而非只靠單一模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可參考其串接模式，將自家 Spaces 或第三方 API 組合成自動化工作流程，例如自動生成行銷素材或遊戲關卡。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-searxng-llm",
+    "title": "輕量級開源網頁搜尋工具支援 SearXNG，本地 LLM 也能上網了",
+    "title_original": "Still a VERY lightweight open web-search tool for smaller local LLMs - now with SearXNG support",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u106rc/still_a_very_lightweight_open_websearch_tool_for/",
+    "published_at": "2026-06-09T09:34:46+00:00",
+    "category": "open-source-ai",
+    "summary": "一款專為小型本地 LLM 設計的輕量級開源網頁搜尋工具發布更新，正式支援 SearXNG 元搜尋引擎。開發者可在本地環境中為本地模型提供網路搜尋能力，無需依賴商業 API，且資源佔用極低。",
+    "highlights": [
+      "支援 SearXNG 可聚合多個搜尋引擎結果",
+      "專為資源受限的本地 LLM 優化",
+      "可脫離商業 API 實現網路資訊獲取",
+      "開源可自行部署，無隱私疑慮",
+      "適合個人 AI 助理或離線場景使用"
+    ],
+    "why_it_matters": "為本地 LLM 增添網路搜尋能力，打破了本地模型只能處理離線資料的限制，對注重隱私或希望降低 API 成本的技術用戶有實質價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合至個人知識管理系統或本地 AI 助理，讓模型即時檢索最新資訊；可用來建構自動化的市場情報收集管線。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-llm-reddit",
+    "title": "開源LLM是否已達「堪用」臨界點？Reddit熱議",
+    "title_original": "Have we reached the point where open-source LLMs are “just good enough”?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0yo32/have_we_reached_the_point_where_opensource_llms/",
+    "published_at": "2026-06-09T08:02:32+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社群討論開源大型語言模型是否已足夠好用。多位用戶認為Llama 3.1 70B、Qwen 2.5等模型在本地部署場景下已接近付費API水平，但長上下文窗口與推論速度仍是痛點。部分人指出「夠用」的定義因任務而異，編碼與文案任務已滿足，生成長文學術內容仍嫌不足。",
+    "highlights": [
+      "Llama 3.1 70B、Qwen 2.5被認為性價比極高",
+      "本地部署已可滿足一般對話、翻譯、編碼需求",
+      "長上下文處理仍落後閉源模型",
+      "硬體需求（VRAM）仍是門檻",
+      "「夠用」標準依任務類型差異大"
+    ],
+    "why_it_matters": "對於技術決策者而言，判斷開源模型是否已足夠替代付費API，可直接影響年度AI預算規劃與技術架構選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估將非關鍵任務（如內部工具、客服機器人）遷移至本地開源模型，計算ROI與維護成本。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-gemma-4-4-bit-qat-vs-8-bit",
+    "title": "Gemma 4 4-bit QAT vs 8-bit 量化基準測試討論",
+    "title_original": "Anyone seen benchmarks comparing Gemma 4 4-bit QAT vs. 8-bit standard quants?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0vltz/anyone_seen_benchmarks_comparing_gemma_4_4bit_qat/",
+    "published_at": "2026-06-09T05:08:25+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit用戶尋找Gemma 4（Google開源模型）在4位元QAT量化與8位元標準量化下的效能對比基準。QAT（量化感知訓練）可能在保持模型品質的同時大幅降低記憶體需求，但實測數據匱乏。此類比較對想在消費級GPU（如RTX 3090）上本地運行大模型的技術用戶具參考價值。",
+    "highlights": [
+      "Gemma 4為Google最新開源模型系列",
+      "4-bit QAT可進一步壓縮模型體積",
+      "缺少官方或第三方量化效能對比數據",
+      "消費級GPU運行大模型需要精確量化方案",
+      "社群正在填補Benchmark空白"
+    ],
+    "why_it_matters": "選擇正確的量化方法可決定本地部署可行性與輸出品質權衡，對資源有限的個人開發者影響顯著。",
+    "automation_angle": null,
+    "automation_angle_zh": "可自行設計測試：用相同prompt對比4-bit QAT與8-bit版本的輸出品質與推論速度，分享結果至社群填補資料缺口。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-openai-moderation-api",
+    "title": "OpenAI Moderation API 使用疑難：開發者實測回報",
+    "title_original": "moderation api usage",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u0rubu/moderation_api_usage/",
+    "published_at": "2026-06-09T02:03:20+00:00",
+    "category": "hot-topics",
+    "summary": "開發者在 Reddit 回報使用 OpenAI Moderation API 時遇到的問題，包括回應延遲、分類標籤不一致、以及如何正確解析回傳結果。討論中有多位開發者分享了各自的實作經驗與替代方案。",
+    "highlights": [
+      "Moderation API 回應延遲問題常被提及",
+      "開發者實測不同 category 的準確度差異",
+      "有使用者建議用本地 Moderation 替代以降低成本",
+      "JSON 回應格式解析方式有技巧",
+      "此 API 適用於內容審核管線的初步過濾"
+    ],
+    "why_it_matters": "Moderation API 是構建安全 AI 應用的基礎元件，開發者社群的使用經驗對於優化內容審核管線、降低 API 成本具有實務參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 Moderation API 整合至 RAG 或聊天應用的後處理流程，自動過濾有害內容；或評估使用免費的本地 Moderation 模型（如 Transformers）替代。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-jetbrains-mellum-2-reddit",
+    "title": "JetBrains Mellum 2：程式碼生成效能獲Reddit好評",
+    "title_original": "Jetbrains Mellum 2: a really good and performant model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0r3jh/jetbrains_mellum_2_a_really_good_and_performant/",
+    "published_at": "2026-06-09T01:28:54+00:00",
+    "category": "new-models",
+    "summary": "JetBrains釋出Mellum 2程式碼模型，Reddit用戶回報其在程式碼補全與除錯場景表現優異，延遲低且資源佔用合理。模型專為JetBrains IDE優化，可直接在IntelliJ、PyCharm等工具中调用。屬7B規模，適合個人開發者或小型團隊本地部署，無需雲端API即可獲得流暢的程式碼生成體驗。",
+    "highlights": [
+      "7B規模，專為JetBrains IDE整合",
+      "延遲低，資源佔用適中",
+      "程式碼補全與除錯表現獲正向回饋",
+      "支援本地部署，無需雲端依賴",
+      "Mellum 2為升級版本，較前代有明顯改進"
+    ],
+    "why_it_matters": "開發者若已使用JetBrains系 IDE，可直接獲取免費的本地程式碼生成能力，降低對Copilot等訂閱服務的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "在JetBrains IDE中啟用Mellum 2外掛，測試其對日常編碼工作的輔助效果，評估能否替代付費方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-parakeet-0-6b-asr-mac-cuda-cpu",
+    "title": "Parakeet 0.6B醫療ASR微調：Mac/CUDA/CPU皆可運行",
+    "title_original": "I fine-tuned Parakeet 0.6B for medical ASR — open weights, local Mac/CUDA/CPU",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0q5h9/i_finetuned_parakeet_06b_for_medical_asr_open/",
+    "published_at": "2026-06-09T00:45:44+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者在Reddit分享其對Parakeet 0.6B語音辨識模型進行醫療領域微調的結果。模型開源權重，提供Mac（MPS）、CUDA、CPU三種運行方式，適合資源受限的醫療機構或研究團隊。0.6B參數量級兼顧便攜性與準確度，可部署於本地伺服器處理敏感病歷語音，降低數據上傳雲端的合規風險。",
+    "highlights": [
+      "0.6B參數，輕量化設計",
+      "支援Mac（MPS）、CUDA、CPU多平台",
+      "開源權重，可自由微調",
+      "醫療ASR場景定向微調",
+      "本地部署避免數據外流"
+    ],
+    "why_it_matters": "醫療語音轉文字需求增長，合規要求使本地部署成剛需。此專案提供開箱即用的基礎，節省從頭訓練的時間成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載模型權重，在本地環境測試醫療錄音轉文字流程，評估其對現有病歷系統的整合可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-09-mcp-agentify-mcp-server-agent",
     "title": "mcp-agentify：將 MCP Server 轉為 Agent 的編排工具",
     "title_original": "steipete/mcp-agentify",
@@ -135,6 +559,34 @@
       "ai-deals",
       "rss",
       "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-reddit-2500-openai-api",
+    "title": "Reddit 用戶中獎 2500 美元 OpenAI API 額度，討論怎麼用",
+    "title_original": "Won $2.5k in OpenAI API credits, what should I do with these?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u0nwk6/won_25k_in_openai_api_credits_what_should_i_do/",
+    "published_at": "2026-06-08T23:08:05+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶在 OpenAI 活動中赢得 2500 美元 API 額度，發文詢問社群建議用法。回覆包含自動化腳本構想、模型測試計劃等。此貼文屬用戶原創內容，非新聞或產品更新，實質情報價值有限。",
+    "highlights": [
+      "2500 美元 OpenAI API 額度：社群活動獎品",
+      "用戶徵求建議：可能獲得創意使用案例啟發",
+      "回覆創意構想：涵蓋自動化、研究測試等方向",
+      "非官方消息：非 OpenAI 正式公告或新功能",
+      "情報價值低：屬一般使用者討論，非技術突破"
+    ],
+    "why_it_matters": "此類用戶討論無實質技術情報價值，純屬社群交流。技術宅應將精力放在官方 API 更新或模型能力變化上。",
+    "automation_angle": null,
+    "automation_angle_zh": "若有機會參與 OpenAI 活動赢取額度，可參考回覆中的構想规划自己的自動化實驗，否則此資訊對日常工作無直接幫助。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -24447,6 +24899,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-09-2026-claude-seo",
+    "title": "2026 年 Claude 替代工具整理：區塊鏈委員會 SEO 文章",
+    "title_original": "Claude Alternatives in 2026: Best Tools, Free Options, and Coding Agents - Blockchain Council",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBiRGxOd3lNV29pOWlxUUdzN1ZzaElrNzBfeEVNZVNJdjFlVTlPbVVuVGhoR0hNY1hETTBoM3NiSjlEcGwwcW9KekY5Wjk0aUUtM2w4SmtydTVhOXBfVVNHZkxQT1Y1M25BT3gyVDNOMUNHUjhLTWc?oc=5",
+    "published_at": "2026-05-16T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Blockchain Council 發布一篇 2026 年 Claude 替代工具列表，包含付費與免費選項及程式碼助理工具。此類 SEO 清單文章資訊密度低，多為已知工具且缺乏新穎內容，建議僅作為參考起點而非深度情報來源。",
+    "highlights": [
+      "付費與免費替代方案整理：覆蓋主流 LLM 選項",
+      "程式碼助理工具列舉：常見的 Copilot 替代品",
+      "區塊鏈相關網站發布：非技術圈原生來源",
+      "SEO 清單類型：資訊粒度淺，缺少獨家數據",
+      "建議用途：快速瀏覽有哪些替代品，不深入研究"
+    ],
+    "why_it_matters": "此類文章資訊無新穎性，但可作為工具探索的起點。技術宅應優先參考第一手技術文件而非行銷導向內容。",
+    "automation_angle": null,
+    "automation_angle_zh": "無直接自動化價值。建議直接查看各工具官網或 GitHub 而非透過此類轉述文章獲取資訊。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-23-weathernext",
     "title": "WeatherNext 模型提升颶風預測精準度　獲官方驗證",
     "title_original": "How WeatherNext helped the National Hurricane Center better predict Hurricane Melissa’s historic landfall in Jamaica",
@@ -29360,6 +29840,34 @@
     "why_it_matters": "對於需要控制AI工具成本的技術用戶，此促銷可能是試用新搜尋引擎工具的窗口期，但需確認服務穩定性與長期定價策略。",
     "automation_angle": null,
     "automation_angle_zh": "技術用戶可利用促銷期間以較低成本測試Genspark的AI搜尋能力，評估其是否能替代或補充現有工作流程程中的資訊檢索環節。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-09-google-ai-99",
+    "title": "Google AI 訂閱新方案出爐，年費半價只要 $99 美元",
+    "title_original": "谷歌AI新訂閱账号，一年半價 $99 美元 ​ - 手机新浪网",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0zb2doNWxsX3RSWXJTSHJTRTFjMVRFd1Q1NTJjaGxSbXVmMUlLcWJxZnpPRGI5UWZ0ME9GaEFtYUNabUVsSldwNVg3TG8tMEJ5S2NVQmZfOEY1c3E5THIzLUZYYw?oc=5",
+    "published_at": "2025-12-25T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Google 推出 AI 訂閱新帳號，年費優惠價 $99 美元（約原價半價）。此方案可能包含 Gemini 高級功能或 Google One AI 追加服務，具體功能尚未完全揭露，但消息來源為中國媒體轉載，細節有待官方確認。",
+    "highlights": [
+      "年費從約 $200 降至 $99 美元",
+      "可能涵蓋 Gemini 高級功能",
+      "中國媒體報導，原始來源待查",
+      "優惠可能限時或特定地區",
+      "需注意優惠是否為限時促銷"
+    ],
+    "why_it_matters": "若屬實，Google AI 訂閱門檻大幅降低，對需要使用 Gemini 高級功能的開發者或一般用戶是利多，但需確認官方正式公告以避免促銷陷阱。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注官方公告，若功能包含 API 額度或高階模型存取，可評估是否比競爭對手更划算；注意訂閱條款中的使用限制與自動續費條款。",
     "tags": [
       "ai-deals",
       "rss",
