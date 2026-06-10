@@ -1,5 +1,170 @@
 [
   {
+    "id": "2026-06-10-bettercallclaude-claude-desktop",
+    "title": "bettercallclaude：瑞士法律專業的 Claude Desktop 外掛",
+    "title_original": "fedec65/bettercallclaude",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/fedec65/bettercallclaude",
+    "published_at": "2026-06-10T12:26:19Z",
+    "category": "agent-skills",
+    "summary": "專為 Claude Cowork Desktop 設計的法律專業外掛，內建 20 個 Agent、14 項技能、9 個 MCP 伺服器。支援法律研究自動化與文件草稿生成，專為瑞士法律場景優化，目前 GitHub 僅 21 星。",
+    "highlights": [
+      "20 個專業 Agent 處理不同法律任務",
+      "14 項法律領域技能模組",
+      "9 個 MCP 伺服器整合法律資料源",
+      "針對瑞士法律體系設計",
+      "可擴展修改以適配其他法域"
+    ],
+    "why_it_matters": "展示 Claude Desktop 透過 MCP 協議擴展專業領域能力的典範。技術用戶可借鑒其 Agent + 技能 + MCP 的組合模式，構建自訂專業場景應用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝後研究其 MCP 伺服器配置與 Agent 設計，改寫為適用於其他專業領域（如金融、醫療）的自動化工具。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/28318948?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-10-github-copilot-cli-security-review",
+    "title": "GitHub Copilot CLI 推出安全審查指令 /security-review",
+    "title_original": "Dedicated security review command now available in Copilot CLI",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-10-dedicated-security-review-command-now-available-in-copilot-cli",
+    "published_at": "2026-06-10T11:44:41+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot CLI 新增實驗性安全審查指令 /security-review，可直接在命令列對程式碼變更進行安全分析。此功能現以公開預覽形式提供，開發者無需切換至其他工具即可完成基礎資安掃描。",
+    "highlights": [
+      "以 /security-review 斜線指令觸發，語法簡潔",
+      "支援對当前 diff 或指定檔案進行掃描",
+      "整合至 CLI 流程，減少上下文切換",
+      "為實驗性功能，正式環境使用需留意限制"
+    ],
+    "why_it_matters": "對技術人員而言，安全審查與開發流程整合是提升品質把關效率的關鍵，若準確率足夠，可減少對外部 SAST 工具的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 CI/CD 鉤子或 PR 前置檢查中呼叫 /security-review，自動阻擋高風險程式碼合併，評估其誤報率是否低於現有工具。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-10-cohere-north-mini-code-agentic",
+    "title": "Cohere North Mini Code：首個開源 Agentic 程式碼模型",
+    "title_original": "Cohere released North Mini Code: It's first Open-Source Agentic Coding Model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1za0m/cohere_released_north_mini_code_its_first/",
+    "published_at": "2026-06-10T11:18:53+00:00",
+    "category": "open-source-ai",
+    "summary": "Cohere 發布 North Mini Code，為其首款開源 Agentic 程式碼生成模型。Reddit 社群熱議其程式碼補全與任務規劃能力，具體效能數據與模型權重尚未廣泛驗證。",
+    "highlights": [
+      "Cohere 首款開源 Agentic 程式碼模型",
+      "主打程式碼補全與任務規劃能力",
+      "開源屬性允許本地部署與微調",
+      "社群反饋正面但缺乏大規模基準測試",
+      "可能衝擊現有程式碼生成工具生態"
+    ],
+    "why_it_matters": "開源 Agentic 程式碼模型讓技術用戶可在本地部署程式碼生成能力，降低對商業 API 的依賴，並可能透過微調適配特定程式碼庫。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載模型權重，在本地環境測試其程式碼補全、任務拆解能力，評估是否能替代或輔助現有 Copilot 等工具。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-10-llm",
+    "title": "本地 LLM 新版本發布摘要：近期值得關注的更新",
+    "title_original": "Local LLms releases",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1x2b4/local_llms_releases/",
+    "published_at": "2026-06-10T09:18:35+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 整理近期本地 LLM 新版本動態，包含 Mistral Small、Qwen2.5-Coder 微調變體等模型更新，以及 Ollama、LM Studio 支援版本的迭代。",
+    "highlights": [
+      "Mistral Small 強調多語言與效率平衡",
+      "Qwen2.5-Coder 有新微調版本提升特定任務",
+      "主流推論工具（Ollama、LM Studio）陸續支援新模型",
+      "部分版本涉及量化精度與長上下文支援更新"
+    ],
+    "why_it_matters": "本地模型生態持續快速迭代，關注新版本可第一時間評估是否升級以提升工作流程效率或降低成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤 Ollama library 更新，在新模型通過評測後第一時間 Pull 測試，評估是否替換現有模型以獲得更好效果。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-10-api",
+    "title": "本地模型能否真正取代付費 API？技術社群實測比較",
+    "title_original": "Can you really replace paid models with a local model?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1wo8p/can_you_really_replace_paid_models_with_a_local/",
+    "published_at": "2026-06-10T08:55:33+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串聚集多位用戶，分享本地部署模型與 GPT-4、Claude 等付費選項在日常任務上的實測對比，涵蓋速度、輸出品質與成本效益。",
+    "highlights": [
+      "實測涵蓋寫程式、摘要、創意寫作等多場景",
+      "多數用戶認為本地模型在特定任務已接近付費模型水準",
+      "延遲與 VRAM 需求仍是主要痛點",
+      "長期成本節省是本地部署的核心驅動力"
+    ],
+    "why_it_matters": "對於技術人員，了解本地模型與付費 API 的實際差距，有助評估是否值得自行架設推論服務以降低工具開支。",
+    "automation_angle": null,
+    "automation_angle_zh": "選取一個日常重複性任務（如 Log 摘要），分別用本地 Qwen/Qwen-Coder 與付費 API 跑盲測，計算每千次成本差異。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-10-2026-7b-12b",
+    "title": "2026 年 7B-12B 區間最佳程式碼模型是誰？社群熱議",
+    "title_original": "What is the best 7b-12b coding model in 2026?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1w35p/what_is_the_best_7b12b_coding_model_in_2026/",
+    "published_at": "2026-06-10T08:20:11+00:00",
+    "category": "new-models",
+    "summary": "技術論壇熱烈討論 2026 年 7B 至 12B 參數量級中哪些模型在程式碼任務表現最佳，焦點落在 Qwen2.5-Coder、CodeQwen1.5、DeepSeek-Coder-V2 等模型上。",
+    "highlights": [
+      "Qwen2.5-Coder 系列仍是 7B-14B 區間熱門選擇",
+      "DeepSeek-Coder-V2 以較大參數量挑戰 7B 限制",
+      "社群強調真實任務 benchmark 而非只看論文數值",
+      "推論速度與量化後準確率為核心取捨"
+    ],
+    "why_it_matters": "選擇合適的小模型可直接影響本地開發環境的性價比，選對模型可將硬體需求降低 30-50%。",
+    "automation_angle": null,
+    "automation_angle_zh": "用 HumanEval 與 MBPP 在自己的常見任務上測試候選模型，記錄通過率與單次推論延遲，找出最佳 trade-off。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-10-mcp-zap-server-ai-owasp-zap",
     "title": "mcp-zap-server：AI代理的OWASP ZAP安全掃描整合",
     "title_original": "dtkmn/mcp-zap-server",
@@ -272,6 +437,34 @@
       "JavaScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/121303252?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-10-lseg-ai-openai",
+    "title": "LSEG 規模化信任 AI：OpenAI 企業案例",
+    "title_original": "From data to decisions: how LSEG is scaling trusted AI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/lseg",
+    "published_at": "2026-06-10T00:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 官方部落格報導倫敦證券交易所集團（LSEG）如何規模化部署信任 AI。透過 OpenAI 技術加速洞察生成、縮短發布週期，並賦能 4000 名員工。屬於大型金融機構的企業級 AI 應用案例。",
+    "highlights": [
+      "LSEG 為倫敦證券交易所集團，金融領域大型用戶",
+      "透過 OpenAI 加速洞察生成與縮短發布週期",
+      "覆蓋 4000 名員工的企業級部署規模",
+      "強調「信任 AI」合規與安全框架",
+      "為金融業 AI 落地提供參考架構"
+    ],
+    "why_it_matters": "大型金融機構的企業級 AI 部署案例，反映 AI 在金融合規、數據分析場景的成熟度。技術用戶可借鑒其企業級部署架構與安全治理思路。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可研究其企業級部署架構與安全治理模式，用於評估自組織內部部署 AI 工具的合規需求與規模化可行性。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
