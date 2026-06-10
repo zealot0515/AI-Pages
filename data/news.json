@@ -1,5 +1,259 @@
 [
   {
+    "id": "2026-06-10-iota-agent-mcp-iota-mcp-20-ai-agent",
+    "title": "iota-agent-mcp：IOTA 區塊鏈 MCP 伺服器，20 工具接入 AI Agent",
+    "title_original": "Scottcjn/iota-agent-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Scottcjn/iota-agent-mcp",
+    "published_at": "2026-06-10T00:23:51Z",
+    "category": "open-source-ai",
+    "summary": "Scottcjn/iota-agent-mcp 是一個 JavaScript 實現的 MCP（Model Context Protocol）伺服器，為 AI Agent 提供 IOTA 區塊鏈操作能力，包含錢包管理、Move CLI 執行、鏈上查詢等 20 項工具。GitHub 58 星，為區塊鏈整合場景提供標準化工具介面。",
+    "highlights": [
+      "基於 Model Context Protocol，與主流 Agent 框架相容",
+      "20 項工具涵蓋錢包操作、CLI 命令、鏈上查詢",
+      "JavaScript 實現，便於 Node.js 生態整合",
+      "58 星社群關注度，成長中專案",
+      "適用於區塊鏈資料查詢自動化或錢包操作 Agent"
+    ],
+    "why_it_matters": "區塊鏈操作與 AI Agent 結合是垂直場景熱點，iota-agent-mcp 將區塊鏈能力標準化為 MCP 工具，大幅降低開發者整合門檻，讓區塊鏈自動化工作流程成為可能。",
+    "automation_angle": null,
+    "automation_angle_zh": "若需自動化 IOTA 區塊鏈操作（如定期錢包餘額查詢、鏈上資料監控），可將此 MCP 伺服器接入支援 MCP 的 Agent 框架，快速建立自動化流程。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/121303252?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-10-claude-fable-5-api",
+    "title": "Claude Fable 5 初步評測：百萬上下文、嚴格防護、API 自動降級機制",
+    "title_original": "Initial impressions of Claude Fable 5",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything",
+    "published_at": "2026-06-09T23:59:54+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 發布 Claude Fable 5，宣稱與 Claude Mythos 5 效能相同但有嚴格防護機制。百萬 Token 上下文、128K 最大輸出、定價為 Opus 4.8 的兩倍（$10/M 輸入/$50/M 輸出）。Claude.ai 現已支援完整容器環境可執行任意程式碼。Simon Willison 實測顯示其在長程編碼任務與 API 設計上表現突出，一日內幾乎獨立完成 LLM 0.32a3 重大更新。",
+    "highlights": [
+      "百萬 Token 上下文，128K 最大輸出，知識截止 2026 年 1 月",
+      "防護機制頻繁觸發，API 新增「模型自動降級」機制",
+      "定價 $10/M 輸入 / $50/M 輸出，約 Opus 4.8 兩倍",
+      "Claude.ai 現支援完整容器環境，可 clone GitHub、安裝套件",
+      "實測顯示長程編碼任務表現優異，API 設計能力出眾"
+    ],
+    "why_it_matters": "Fable 5 的高上下文容量與長程任務穩定性，對需要處理大型程式碼庫的技術用戶有實質價值，但高成本與防護觸發頻率需納入評估，自動降級機制可緩解部分問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可透過 Claude Code CLI 對大型專案進行重構評估；或在 Claude.ai 中利用容器環境快速原型驗證，計算單次任務實際成本後再做規模化部署決策。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-10-furiosa-ai-llm",
+    "title": "Furiosa AI 消費級推論晶片瞄準本地 LLM 市場",
+    "title_original": "Furiosa AI selling inference chip to consumer market will be a game changer to local llm",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1l9u4/furiosa_ai_selling_inference_chip_to_consumer/",
+    "published_at": "2026-06-09T23:20:57+00:00",
+    "category": "open-source-ai",
+    "summary": "Furiosa AI 宣布將其推論專用晶片推向消費級市場，目標是讓本地運行大語言模型更高效。該晶片以低延遲、低功耗著稱，若定價合理可能改變本地 AI 部署的硬體格局。",
+    "highlights": [
+      "推論晶片從資料中心下沉至消費市場",
+      "低功耗設計適合邊緣裝置部署",
+      "可能與 NVIDIA Jetson 系列競爭",
+      "Reddit 社群看好其對本地 LLM 的影響",
+      "實際效能與生態系統成熟度待驗證"
+    ],
+    "why_it_matters": "本地 LLM 部署長期受制於 GPU 成本與功耗，消費級推論晶片若能量產將大幅降低進入門檻，讓技術宅能在辦公室或居家環境跑更大模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注晶片正式發售後的 benchmark 數據，評估是否值得從雲端 API 遷移部分對延遲敏感或資料隱私要求高的任務至本地。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-10-lighthouse-mcp-server-ai-agent-lighthouse",
+    "title": "lighthouse-mcp-server：讓 AI Agent 驅動 Lighthouse 網站審計",
+    "title_original": "danielsogl/lighthouse-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/danielsogl/lighthouse-mcp-server",
+    "published_at": "2026-06-09T22:55:41Z",
+    "category": "agent-skills",
+    "summary": "GitHub 新開源專案（60 stars），提供 MCP 協定伺服器讓 AI Agent 呼叫 Google Lighthouse，支援效能、 無障礙、SEO、安全等 13 項審計維度。",
+    "highlights": [
+      "基於 TypeScript，支援 MCP 協定的 AI 助理（如 Cursor、Claude Desktop）",
+      "整合 Google Lighthouse 的完整審計能力，含 PWA、SEO、可及性",
+      "可在 AI Agent 工作流程中自動生成網站體質報告",
+      "60 stars 表示初期關注度，社群穩定性待觀察",
+      "適合 DevOps 與前端團隊做自動化品質把關"
+    ],
+    "why_it_matters": "將傳統開發工具接入 AI Agent 時代，今天就能讓 AI 幫你跑網站審計。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Cursor 或 Claude Desktop 中接入 MCP，直接用自然語言要求 Agent 分析網站效能並產出優化建議。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/15234844?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-10-gpt-5-5-coding-agi",
+    "title": "GPT 5.5 真實coding能力實測討論：仍未達 AGI 水準",
+    "title_original": "So finally it’s not AGI yet. Anyone tested it? How does it really stack against GPT 5.5 in real world coding?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u1jpg4/so_finally_its_not_agi_yet_anyone_tested_it_how/",
+    "published_at": "2026-06-09T22:16:28+00:00",
+    "category": "new-models",
+    "summary": "Reddit OpenAI 社群用戶實測 GPT 5.5 後普遍認為其在真實編程任務中尚未達到 AGI 等級，與 GPT 5.5 的行銷宣稱存在落差。討論聚焦於程式碼生成正確率與複雜推論場景的具體表現。",
+    "highlights": [
+      "實測顯示 GPT 5.5 仍非通用人工智慧",
+      "程式碼生成在特定場景仍有明顯瓶頸",
+      "社群驅動的測試填補官方評測空白",
+      "對 AGI 定義與期望值的討論熱烈",
+      "實用性與行銷話術需分開評估"
+    ],
+    "why_it_matters": "對依賴 AI 程式碼生成工具的開發者而言，清楚認知模型真實能力邊界可避免過度自動化導致錯誤輸出堆積，降低 QA 成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "對關鍵程式碼生成任務建立人類審核關卡，並在 CI 中加入靜態分析與測試覆蓋率檢查，防止 AI 生成錯誤直接進入生產環境。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-10-agentsview-ai-agent-tokens",
+    "title": "AgentsView 支援自訂模型計價：追蹤本地端 AI Agent 耗費的 Tokens",
+    "title_original": "Setting a custom price for a model in AgentsView",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything",
+    "published_at": "2026-06-09T21:35:31+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 分享在 AgentsView（本地端程式碼 Agent 耗 Token 追蹤工具）中為尚未收錄的模型（如 Claude Fable 5）設定自訂計價的逆向工程方法。",
+    "highlights": [
+      "AgentsView 支援以 treemap 可視化不同專案的 Token 消耗分佈",
+      "透過 Claude Fable 5 逆向理解 AgentsView 的定價資料結構",
+      "可為新發布模型快速設定計價，避免成本估算空白",
+      "工具運行於本機，適合重視隱私的開發者",
+      "需手動修改定價資料庫，更新頻率依賴社群貢獻"
+    ],
+    "why_it_matters": "幫助技術使用者掌握本地端 AI 程式助理的真實成本，優化模型選擇與使用策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 Agent 耗 Token 納入個人或團隊的月度成本報表，量化不同任務的性價比。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-10-qwen",
+    "title": "新版 Qwen 模型摘要能力疑似退化引發社群討論",
+    "title_original": "Newer Qwen models are worse at summarization?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1ggo9/newer_qwen_models_are_worse_at_summarization/",
+    "published_at": "2026-06-09T20:15:26+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 社群用戶反映 Qwen 系列新版模型在摘要任務上表現不如舊版，疑似存在能力退化或訓練數據配比問題。此為社群驅動的品質監控觀察，可作為本地部署選型參考。",
+    "highlights": [
+      "社群反饋指向 Qwen 新版摘要能力下滑",
+      "可能原因包括訓練數據變動或最佳化方向調整",
+      "本地部署用戶需重新評估模型版本選擇",
+      "建議在目標任務上進行回歸測試",
+      "類似問題亦見於其他開源模型迭代中"
+    ],
+    "why_it_matters": "開源模型能力波動會直接影響倚賴 Qwen 的自動化流程可靠性。開發者若未做版本固定，可能遭遇預期外產出品質下降。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立自動化測試管線，對關鍵任務（如摘要、翻譯）定期跑 benchmark，記錄版本差異，發現退化立即鎖定版本或切換備援模型。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-10-hugging-face-agent",
+    "title": "Hugging Face 研究：語音 Agent 處理雙語切換客戶的能力基準測試",
+    "title_original": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+    "published_at": "2026-06-09T19:38:28+00:00",
+    "category": "agent-skills",
+    "summary": "Hugging Face 與 ServiceNow AI 合作發布 Code-Switching 語音基準測試，評估前緣 ASR 模型在雙語切換場景（如中英混雜對話）的表現。此研究填補了語音 Agent 在多語言實際應用場景的評估缺口，對跨語言客服自動化有直接參考價值。",
+    "highlights": [
+      "Benchmark 專注於 Code-Switching（混語）場景",
+      "評估前緣 ASR 模型在雙語對話中的識別準確率",
+      "填補多語言語音 Agent 評估空白",
+      "適用於跨國客服、雙語語音助理開發場景",
+      "研究結論可供技術團隊選型參考"
+    ],
+    "why_it_matters": "雙語或多語語音 Agent 是實際市場的高需求場景，但多數評測聚焦單語言。此研究提供可信的基準數據，技術團隊可據此選擇適合混語場景的 ASR 模型，避免在多語客服專案選型時踩坑。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發跨語言語音客服 Agent 時，可參考此 Benchmark 結果選擇 ASR 模型，並將雙語切換測試納入 CI 流程，確保模型在實際使用場景的穩定性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-10-andrej-karpathy-llm-jevon",
+    "title": "Andrej Karpathy 談 LLM 解放軟體產能：Jevon 悖論再現",
+    "title_original": "Quoting Andrej Karpathy",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/9/andrej-karpathy/#atom-everything",
+    "published_at": "2026-06-09T19:03:10+00:00",
+    "category": "hot-topics",
+    "summary": "AI 領域知名研究者 Andrej Karpathy 指出，隨著可用軟體如「自來水」般按需輸出，Jevon 悖論正在發生：工具越便宜越普及，需求反而爆發性增長。他預見 10 倍測試套件、客製化視覺化、專案專屬分析儀表板等需求將大量湧現。",
+    "highlights": [
+      "軟體邊際成本趨近零導致需求暴增",
+      "Karpathy 看好客製化一次性工具的市場",
+      "測試自動化與程式碼優化是近期最大受益場景",
+      "LLM 正在重構軟體開發者工作流程",
+      "「解放你的心智」成為 AI 時代新口號"
+    ],
+    "why_it_matters": "Karpathy 的觀察暗示 AI 工具將從「輔助」進化為「主力」，技術宅需重新思考工作流程程中哪些環節值得全面自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "盤點重複性高的任務（報告生成、測試撰寫、資料視覺化），將其列為 AI 自動化首要目標，评估 ROI 而非單純節省時間。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-09-claude-command-runner-claude-mcp",
     "title": "claude-command-runner：讓 Claude 直接操作終端機的 MCP 工具",
     "title_original": "M-Pineapple/claude-command-runner",
@@ -195,6 +449,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-10-anthropic-claude-fable-5-claude-mythos-5",
+    "title": "Anthropic 發布 Claude Fable 5 與 Claude Mythos 5 模型",
+    "title_original": "Claude Fable 5 and Claude Mythos 5 - Anthropic",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tNXJJQXNGZWM1d1VmMVRfOFZlYU9VUFcwdm03RFhDRE5uajJOY19mbUQ5ZVpXYW9IOWhzd3JOS3F2c0xIdFRYVUgtZF9RVVI1VW1KVExGb0RVRDBWdlpNTXN1cTA?oc=5",
+    "published_at": "2026-06-09T17:08:42+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 推出新模型系列 Claude Fable 5 與 Claude Mythos 5，瞄準不同應用場景。這次更新被視為對標 OpenAI GPT 系列的重要佈局，可能具備更強推論能力與多模態支援。具體能力變化仍待官方完整技術文件揭露。",
+    "highlights": [
+      "Claude Fable 5 與 Mythos 5 為雙軌模型策略",
+      "可能針對長文本處理與工具使用優化",
+      "消息來源為 Google News 收錄之 Anthropic 官網",
+      "技術規格尚未完整公開",
+      "對標 GPT-5 系列之競品定位"
+    ],
+    "why_it_matters": "Anthropic 模型線更新直接影響開發者 API 選型與成本決策。Fable/Mythos 雙軌策略可能為不同任務提供差異化解決方案，值得技術決策者追蹤。",
+    "automation_angle": null,
+    "automation_angle_zh": "可等待官方定價與能力文件出爐後，在 API 沙盒環境測試長文本分類與工具呼叫任務，評估相較 GPT-5 的性價比。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-09-reddit",
     "title": "為何控制模型推論過程如此困難？Reddit 技術社群熱議",
     "title_original": "Why does it seems to be so difficult to control a model's reasoning process?",
@@ -298,6 +580,34 @@
     "why_it_matters": "幫助技術宅快速篩選適合的 TTS 方案，避免在開源與商業選項間盲目試錯，尤其對語音客服、無障礙應用開發者有實用價值。",
     "automation_angle": null,
     "automation_angle_zh": "可直接下載測試音檔或使用評測脚本，針對自身語言與延遲需求選擇最適模型，節省評估時間並避免踩雷。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-10-cohere-north-mini-code",
+    "title": "Cohere 發布 North Mini Code：首款開發者導向模型",
+    "title_original": "Introducing North Mini Code: Cohere’s First Model For Developers",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+    "published_at": "2026-06-09T15:56:23+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格正式介紹 Cohere 的首個程式碼生成模型 North Mini Code，強調針對開發者工作流程優化與開源可取得性。",
+    "highlights": [
+      "North Mini Code 是 Cohere 首個專為程式碼任務設計的模型",
+      "發布於 Hugging Face，可直接下載部署或透過 API 呼叫",
+      "定位於開發者友好：強調推論速度與準確性的平衡",
+      "具體效能 benchmark 尚未完整揭露，需實際測試驗證",
+      "開源許可條款需查閱官方 repo 確認"
+    ],
+    "why_it_matters": "為開發者提供新的開源模型選項，可能作為 Anthropic、OpenAI 模型的替代或補充。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Hugging Face 上試用 demo 或部署至本地，測試程式碼補全與重構任務的表現。",
     "tags": [
       "open-source-ai",
       "rss",
@@ -589,6 +899,34 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-06-10-nextdoor-codex",
+    "title": "Nextdoor 工程師如何用 Codex 突破開發限制",
+    "title_original": "How engineers at Nextdoor use Codex to build without limits",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/nextdoor",
+    "published_at": "2026-06-09T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 部落格分享 Nextdoor 工程團隊使用 Codex 與 GPT-5.5 的實際案例，包括重現難以除錯的問題、跨平台開發、以及如何專注產品成果而非被技術細節拖累。",
+    "highlights": [
+      "Nextdoor 用 Codex 輔助排查生產環境中難以重現的 edge case",
+      "跨 iOS/Android/Web 多平台開發時 Codex 可減少上下文切換成本",
+      "工程師將精力從「怎麼寫」轉向「要什麼」，提升產品迭代速度",
+      "結合 GPT-5.5 的推論能力處理需要多步驟除錯的複雜任務",
+      "案例偏向大型團隊協作模式，個人開發者參考價值中等"
+    ],
+    "why_it_matters": "提供 Codex 在實際產品團隊落地的具體情境，工程師可評估是否適合自己的工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 Codex 整合進 CI/CD 流程，用於自動化 regression 問題分類與候選除錯方向建議。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-09-chatgpt-5-5-thinking",
     "title": "ChatGPT 5.5 Thinking 模式突現行為異常，網友熱議",
     "title_original": "ChatGPT 5.5 Thinking behaving very differently suddenly",
@@ -694,6 +1032,34 @@
     "automation_angle_zh": "開發者可參考其串接模式，將自家 Spaces 或第三方 API 組合成自動化工作流程，例如自動生成行銷素材或遊戲關卡。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-10-notion-codex",
+    "title": "Notion 如何用 Codex 釋放工程產能",
+    "title_original": "What Codex unlocks for Notion",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/notion",
+    "published_at": "2026-06-09T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Notion 團隊使用 Codex 實現一鍵生成規格文件、AI 語音輸入網頁功能，並在小團隊中達成數倍工程產出。OpenAI 部落格揭示這些功能背後的實作細節。",
+    "highlights": [
+      "Codex 可從高層描述直接生成完整的 functional specs 初稿",
+      "Notion 將 AI Voice Input 從實驗性功能推向生產級網頁元件",
+      "小型團隊透過 Codex 減少跨領域學習曲線，快速啟動新功能",
+      "強調「工程師產出」而非「工程師數量」作為團隊效能指標",
+      "與 Notion自家 AI 功能整合，可能影響其外掛生态系統"
+    ],
+    "why_it_matters": "展示 AI 程式助理如何直接提升產品功能開發速度，而非僅是內部工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用 Codex 快速生成 PRD 初稿或 API 文件草稿，節省文件維護的人力成本。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -922,6 +1288,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/58493?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-10-openai",
+    "title": "OpenAI 提出智慧時代的產業政策願景",
+    "title_original": "Industrial policy for the Intelligence Age",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+    "published_at": "2026-06-09T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布「智慧時代的產業政策」白皮書，提出以人為本、擴大機會、共享繁榮為核心的 AI 政策框架，涵蓋勞動市場、教育與制度韌性等面向。",
+    "highlights": [
+      "白皮書定位為政策倡議，非產品或技術公告",
+      "強調 AI 發展需兼顧社會公平與經濟利益分配",
+      "涵蓋員工培訓、創業支援、監管框架等系統性建議",
+      "具體立法細節與時間表尚不明確",
+      "偏向前瞻性願景而非即時可執行的技術或商業策略"
+    ],
+    "why_it_matters": "有助理解 AI 產業的政策走向，對長期規劃有參考價值，但短期技術應用直接關聯度低。",
+    "automation_angle": null,
+    "automation_angle_zh": "政策愛好者可在內部做政策風險評估；一般技術使用者可跳過或快速掃讀。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
