@@ -1,5 +1,530 @@
 [
   {
+    "id": "2026-06-11-deepseek-v4-pro-hugging-face-4-7k-400",
+    "title": "DeepSeek-V4-Pro 登上 Hugging Face 趨勢榜，4.7k 讚、400 萬下載",
+    "title_original": "deepseek-ai/DeepSeek-V4-Pro",
+    "source": "Hugging Face Trending Models",
+    "source_url": "https://huggingface.co",
+    "original_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+    "published_at": "2026-06-11T18:56:36.239235+00:00",
+    "category": "open-source-ai",
+    "summary": "DeepSeek-V4-Pro 是 Hugging Face 趨勢模型榜的熱門模型，支援 transformers、safetensors 格式，提供 8-bit 與 FP8 量化版本，MIT 授權，可直接部署至本地端點，累計近 400 萬次下載。",
+    "highlights": [
+      "MIT 授權：可商用，限制極少",
+      "量化支援：8-bit 與 FP8，適合本地部署",
+      "Hugging Face 原生支援：pipeline 直連",
+      "Endpoint 相容：可部署至雲端 API 端點",
+      "熱度極高：400 萬下載，口碑良好"
+    ],
+    "why_it_matters": "DeepSeek-V4-Pro 是目前開源文本生成模型中熱度最高的選項之一，量化版本降低硬體需求，MIT 授權適合商業應用，技術宅可用其替換昂貴的閉源 API。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 transformers 載入 DeepSeek-V4-Pro，透過 8-bit 量化在 24GB 顯存以下的 GPU 上運行，評估其在程式碼生成、文件總結等任務上相較 GPT-4o 的性價比。",
+    "tags": [
+      "open-source-ai",
+      "hf_models",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-11-claude-plugins-28-claude-code",
+    "title": "claude-plugins：28 款 Claude Code 插件一键安装套件",
+    "title_original": "2389-research/claude-plugins",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/2389-research/claude-plugins",
+    "published_at": "2026-06-11T18:53:56Z",
+    "category": "agent-skills",
+    "summary": "2389-research 整理的 Claude Code 插件集合，包含 TDD 辅助、多代理编排、迭代最佳化、二进制逆向、结构化决策等 28 种工具，一条命令即可安装任意技能。",
+    "highlights": [
+      "涵盖 TDD、多代理、二进制 RE 等专業場景",
+      "一条命令安装，零配置",
+      "JavaScript 实现，调试门槛低",
+      "持续更新，star 增速可观(69)"
+    ],
+    "why_it_matters": "Claude Code 本身功能有限，依赖插件擴展。這套件將散落的優质插件聚合，大幅降低 Claude Code 在专業場景的落地门槛。",
+    "automation_angle": null,
+    "automation_angle_zh": "挑选适合團隊工作流程的插件集成到 CI/CD pipeline，例如 TDD 插件可辅助 code review自動化，二进制 RE 工具可增强安全审计效率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/166545110?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-lmx-omni-52b-halo-open-webui",
+    "title": "LMX-Omni-52B-Halo 模型在 Open WebUI 的初步測試分享",
+    "title_original": "Having some fun with LMX-Omni-52B-Halo in Open WebUI",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u37q7u/having_some_fun_with_lmxomni52bhalo_in_open_webui/",
+    "published_at": "2026-06-11T18:47:00+00:00",
+    "category": "new-models",
+    "summary": "社群成員分享使用 LMX-Omni-52B-Halo（520 億參數）模型在 Open WebUI 上的體驗，該模型定位為具有多模態能力的開源大語言模型，測試者展示了其在中文理解、程式碼生成與對話流暢度方面的初步表現。",
+    "highlights": [
+      "LMX-Omni-52B-Halo 為 520 億參數多模態開源模型",
+      "在 Open WebUI 上的部署與調校經驗分享",
+      "中文理解能力獲得正面初步評價",
+      "程式碼生成能力有待進一步 benchmark 驗證"
+    ],
+    "why_it_matters": "開源多模態模型持續推進，LMX-Omni-52B-Halo 若表現穩定，可作為本地部署的高性價比替代方案，值得技術人員關注其後續社群回饋與 benchmark 數據。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可立即下載測試此模型，評估其是否滿足內部任務需求，特別是在需要本地部署多模態能力以降低成本的情境下。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-zotseek-zotero-mcp",
+    "title": "ZotSeek：本地运行的 Zotero 语义搜索 MCP 服务器",
+    "title_original": "introfini/ZotSeek",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/introfini/ZotSeek",
+    "published_at": "2026-06-11T18:40:42Z",
+    "category": "agent-skills",
+    "summary": "introfini 開發的 ZotSeek 為 Zotero 文献库提供 AI 语义搜索能力，内置 MCP server 可被 Claude Code、Codex 等 AI 编码工具调用。100% 本地运行，資料完全私密。",
+    "highlights": [
+      "支援按语义而非關键词搜索论文",
+      "内置 MCP server，AI agent 可直接查詢文献库",
+      "100% 本地运行，無需網路请求",
+      "TypeScript 实现，可與现有工具链無缝集成"
+    ],
+    "why_it_matters": "研究人员在写代码時常需查阅文献，ZotSeek 讓 AI agent 能在编码過程中自動检索相關论文，提升技术写作與方案调研效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將文献调研集成到代码生成工作流程：讓 AI agent 在实现功能前自動查詢相關学术论文或技术文件，确保方案有据可依。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/104880?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-11-nex-n2-pro-397b-mini-35b",
+    "title": "Nex-N2 系列新模型發布：Pro 397B 與 Mini 35B",
+    "title_original": "New models released: Nex-N2 Pro 397B and Nex-N2 Mini 35B",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u37ckw/new_models_released_nexn2_pro_397b_and_nexn2_mini/",
+    "published_at": "2026-06-11T18:33:14+00:00",
+    "category": "new-models",
+    "summary": "Reddit 社群披露 Nex-N2 Pro 397B 與 Nex-N2 Mini 35B 兩款新模型發布，提供從小型到超大型的參數選擇陣容。",
+    "highlights": [
+      "Nex-N2 Pro 397B 超大參數版本",
+      "Nex-N2 Mini 35B 輕量版本",
+      "覆蓋不同參數量級需求",
+      "社群來源可信度待驗證",
+      "模型具體能力數據尚未明確"
+    ],
+    "why_it_matters": "多元參數規模提供部署彈性，但缺乏官方規格與測試數據，需進一步驗證其實際效能與應用場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方發布後下載測試，評估 35B 版本在本地硬體上的自動化任務表現與成本效益。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-openai-codex",
+    "title": "天體物理學家利用 OpenAI Codex 模擬黑洞物理過程",
+    "title_original": "How an astrophysicist uses OpenAI's Codex to simulate black hole physics",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u37c0o/how_an_astrophysicist_uses_openais_codex_to/",
+    "published_at": "2026-06-11T18:32:41+00:00",
+    "category": "agent-skills",
+    "summary": "一位天體物理學家分享其使用 OpenAI Codex 輔助研究黑洞物理的案例，展示了 AI Agent 在科學計算領域的實際應用價值，包括方程式推導、數值模擬程式碼生成與文獻綜述輔助。",
+    "highlights": [
+      "Codex 能生成科學計算用的正確數值模擬程式碼",
+      "可輔助文獻閱讀與關鍵資訊萃取",
+      "在推導物理方程式時展現一定推論能力",
+      "研究人員仍需驗證 AI 生成程式碼的物理正確性"
+    ],
+    "why_it_matters": "此案例說明 AI Agent 在專業領域的應用潛力，特別是對需要大量計算程式碼的研究人員而言，Codex 可顯著加速從理論到實驗的轉化過程。",
+    "automation_angle": null,
+    "automation_angle_zh": "科研或工程人員可借鑒此流程，將 Codex 或類似 Agent 整合進自己的研究工作流程，測試其在特定專業任務上的準確率與效率提升幅度。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-skill-of-skills-ai",
+    "title": "skill-of-skills：AI 编码工具的技能自動發现引擎",
+    "title_original": "the911fund/skill-of-skills",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/the911fund/skill-of-skills",
+    "published_at": "2026-06-11T18:26:11Z",
+    "category": "agent-skills",
+    "summary": "the911fund 開發的 skill-of-skills 是個自主發现引擎，能索引 Claude Code、Codex、Gemini CLI 等主流 AI 编码工具的技能、插件、MCP server 與集成。当前 stars 较低(14)，但概念值得關注。",
+    "highlights": [
+      "跨平台索引多种 AI coding 工具的擴展能力",
+      "支援技能發现與自動分類",
+      "覆盖 Claude Code、Codex、Gemini CLI 等主流工具",
+      "Python 实现，擴展门槛低"
+    ],
+    "why_it_matters": "随着 AI coding 工具生态碎片化，快速找到适合当前任务的工具/技能成為痛点。這個發现引擎能帮助技术團隊避免重复造轮子。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用于自動化團隊 AI 工具选型：输入任务描述，自動推荐最合适的 MCP server 或插件組合，减少人工调研時间。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/255033766?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-aura-llm-sre",
+    "title": "AURA：把 LLM 變成 SRE 自動化代理的生產級工具鍊",
+    "title_original": "mezmo/aura",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mezmo/aura",
+    "published_at": "2026-06-11T18:26:08Z",
+    "category": "open-source-ai",
+    "summary": "Mezmo 開源的 AURA 是用 Rust 實作的 agentic harness，專為把 LLM 轉化為可執行真實 SRE 任務的自主服務而生。內建 API server、狀態管理、認證、串流、錯誤處理與工具整合，提供生產環境所需的安全護欄。",
+    "highlights": [
+      "使用 Rust 實作，效能與記憶體安全性兼具",
+      "內建 SRE 工具整合，可直接操作監控與告警系統",
+      "支援 streaming 與完整的錯誤處理機制",
+      "提供認證與狀態管理，適合作為長期運行服務"
+    ],
+    "why_it_matters": "傳統 LLM agent 缺乏生產級的執行保障，AURA 補足了這塊缺口。對需要 7x24 自動化 SRE 能力的團隊而言，這是可直接部署的解決方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將例行監控異常處理、告警分類、事件回應自動化，取代部分 on-call 工程師的初階工作。建議先在 staging 環境測試 tool call 穩定性。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/539207?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-11-gpt-memory",
+    "title": "GPT Memory 機制深度解析：記憶體審計實測",
+    "title_original": "GPT Memory Audit - Copy/Paste",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u36yb5/gpt_memory_audit_copypaste/",
+    "published_at": "2026-06-11T18:19:02+00:00",
+    "category": "hot-topics",
+    "summary": "社群成員對 GPT 的 Memory（記憶）功能進行系統性審計，測試其記憶持久性、上下文理解與干擾情形，並提供可複製的 Copy/Paste 操作流程，幫助用戶理解 GPT 如何存取與運用長期記憶。",
+    "highlights": [
+      "系統化測試 GPT 記憶功能的穩定性與限制",
+      "揭示記憶衝突與遺忘的觸發條件",
+      "提供可操作的記憶審計測試流程",
+      "對需要精確控制 Agent 行為的開發者有參考價值"
+    ],
+    "why_it_matters": "GPT 的 Memory 功能是建構個人化 Agent 的基礎，此審計幫助技術人員理解其能力邊界，避免在生產環境中因記憶機制不可預測而產生錯誤行為。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用此測試框架評估 Memory 功能是否適合其 Agent 應用場景，並據此設計額外的記憶驗證層，確保關鍵資訊不被意外覆寫。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-godot-mcp-ai-agent-godot",
+    "title": "godot-mcp：讓 AI Agent 在 Godot 遊戲引擎中「長眼睛和手」",
+    "title_original": "satelliteoflove/godot-mcp",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/satelliteoflove/godot-mcp",
+    "published_at": "2026-06-11T17:35:35Z",
+    "category": "agent-skills",
+    "summary": "godot-mcp 是一款 MCP 伺服器，為 AI Agent 提供 Godot 編輯器的場景編輯、輸入注入、確定性測試與遊戲狀態讀取能力。100 星星，GDScript 實作，適合遊戲開發者實驗 AI 驅動的遊戲開發流程。",
+    "highlights": [
+      "場景編輯：AI 可直接操作 Godot 場景圖",
+      "輸入注入：AI 可模擬玩家輸入進行測試",
+      "確定性測試：可重現遊戲行為進行自動化驗證",
+      "遊戲狀態讀取：AI 可查詢當前遊戲執行狀態",
+      "GDScript 實作：代碼簡潔易讀，可 Fork 客製"
+    ],
+    "why_it_matters": "godot-mcp 展示了 AI Agent 操控視覺化軟體的具體介面設計，對於想在遊戲或 3D 軟體中實現 AI 控制流程的技術宅，這是可直接 Fork 參考的實作範例。",
+    "automation_angle": null,
+    "automation_angle_zh": "Fork godot-mcp 並擴展其 MCP 工具集，例如新增 AI 自動生成關卡或自動修復物理碰撞問題的指令，評估其在實際遊戲專案中的可用性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "GDScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6238952?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-visa-openai-ai-agent",
+    "title": "Visa 攜手 OpenAI 讓 AI Agent 代替用戶自動購物",
+    "title_original": "Visa and OpenAI Let AI Agents Shop on Your Behalf Using Visa's Global Network",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u35aaa/visa_and_openai_let_ai_agents_shop_on_your_behalf/",
+    "published_at": "2026-06-11T17:18:26+00:00",
+    "category": "hot-topics",
+    "summary": "Visa 與 OpenAI 宣布策略合作，將 Visa 全球支付網路與 AI Agent 能力結合，讓 AI Agent 能代表用戶自動完成線上購物任務。此合作代表 AI Agent 從純文字對話迈向實際金融交易的里程碑。",
+    "highlights": [
+      "AI Agent 可透過 Visa 網路直接完成支付指令",
+      "涉及身份驗證、風控與合規的技術整合",
+      "可能支援訂單追蹤、價格比較、自動比價等能力",
+      "象徵 AI Agent 進入電商、金融實務應用階段"
+    ],
+    "why_it_matters": "這是首個大型金融機構將 AI Agent 支付能力產品化的案例，代表 AI 從「建議工具」進化為「執行工具」，對開發者探索 Agent 商業化路徑有重要參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可研究此 API 的技術文件，評估將類似支付能力整合至自己的 Agent 應用中，或評估此生態系帶來的商機與潛在合作機會。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-github-copilot-cli-settings",
+    "title": "GitHub Copilot CLI 新增 /settings 統一配置命令",
+    "title_original": "Copilot CLI: Configure everything from one place with /settings",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-11-copilot-cli-configure-everything-from-one-place-with-settings",
+    "published_at": "2026-06-11T16:44:55+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot CLI 推出 /settings 斜線命令，整合原本分散的 /theme、/streamer-mode、/experimental 等配置選項，提供統一、schema 驅動的設定管理。",
+    "highlights": [
+      "/settings 統一管理所有配置",
+      "整合 /theme、/streamer-mode、/experimental",
+      "采用 schema 驅動設計",
+      "降低配置學習成本",
+      "提升開發者使用體驗"
+    ],
+    "why_it_matters": "配置統一化簡化 CLI 工作流程，減少開發者在不同命令間切換的認知負擔，提升日常使用效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 /settings 集中管理 Copilot CLI 配置，搭配 shell script 自動化初始化新環境的開發工具鏈。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-11-github-agentic-workflows",
+    "title": "GitHub Agentic Workflows 正式进入公開预览阶段",
+    "title_original": "GitHub Agentic Workflows is now in public preview",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview",
+    "published_at": "2026-06-11T16:00:35+00:00",
+    "category": "hot-topics",
+    "summary": "GitHub Agentic Workflows 已进入 public preview，可通過 AI agent 自動化执行 issue 分類、CI 失败分析、文件更新等基于推論的任务。該功能现已對所有 GitHub 使用者開放试用。",
+    "highlights": [
+      "支援 issue 自動分類與優先級排序",
+      "CI 失败根因分析與自動修复建议",
+      "文件内容自動同步與更新",
+      "公開预览，無需申请即可體验"
+    ],
+    "why_it_matters": "Agentic Workflows 把 AI agent 深度集成到 GitHub 平台，是 DevOps 自動化的一次重要升級。開發者工作流程中的重复性任务有望被大幅替代。",
+    "automation_angle": null,
+    "automation_angle_zh": "建议先用低風险場景測試：例如讓 agent 自動為新 issue 打标签、生成初稿回复，评估输出质量後再擴展到 CI 分析等高價值場景。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-11-github-agentic-workflows-pat-github-token",
+    "title": "GitHub Agentic Workflows 移除 PAT 依赖，改用 GITHUB_TOKEN",
+    "title_original": "Agentic workflows no longer need a personal access token",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-11-agentic-workflows-no-longer-need-a-personal-access-token",
+    "published_at": "2026-06-11T15:55:49+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布 Agentic Workflows 现已不再需要 Personal Access Token，改用 GitHub Actions 内置的 GITHUB_TOKEN 认证。此举简化了 AI agent 操作 GitHub 的权限配置流程。",
+    "highlights": [
+      "不再需要创建與存储 PAT",
+      "使用 Actions 内置 GITHUB_TOKEN，权限管理更統一",
+      "降低 Agentic Workflow 的配置门槛",
+      "安全性提升：避免 PAT 泄露風险"
+    ],
+    "why_it_matters": "PAT 管理一直是自動化脚本的安全痛点。改用 GITHUB_TOKEN 後，團隊可更安全地在 CI/CD 中部署 AI agent，减少凭证泄露風险。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在 GitHub Actions workflow 中直接调用 Agentic Workflows，实现 issue 自動分類、CI 失败原因分析、文件自動更新等場景，零額外凭证管理。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-11-llama-cpp-moe-gpu-fitparams-ngl-ncmoe",
+    "title": "Llama.cpp 大型 MoE 模型多 GPU 優化實戰：fitparams 與 -ngl/-ncmoe 參數調校",
+    "title_original": "Reviewing speed optimizations on llamacpp for large MoE models on multiGPU rigs? (fitparams vs -ngl/-ncmoe vs other flags, P2P, overclocking)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u32emv/reviewing_speed_optimizations_on_llamacpp_for/",
+    "published_at": "2026-06-11T15:33:32+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 社群成員分享使用 llama.cpp 對大型 MoE（Mixture of Experts）模型在多 GPU 架構上進行效能優化的實戰經驗，涵蓋 fitparams、-ngl、-ncmoe 等關鍵參數的比較，以及 P2P 傳輸與超頻的效能影響。",
+    "highlights": [
+      "fitparams 適合精細控制模型分片與記憶體配置",
+      "-ngl 參數控制 GPU 載入層數，可平衡 VRAM 與效能",
+      "-ncmoe 專門優化 MoE 模型的專家路由計算",
+      "P2P 傳輸可降低多卡通訊延遲，但需要 NVLink 支援",
+      "超頻風險與穩定性權衡是實務部署需考量因素"
+    ],
+    "why_it_matters": "MoE 模型正在成為開源 AI 的主流架構，此文提供可直接移植到生產環境的優化參考，能幫助技術人員在有限硬體資源下榨取更多效能。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可根據此文整理的參數表，建立自動化 benchmark 腳本，對不同硬體配置下的 MoE 模型進行效能掃描，找出最佳性價比配置。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-datasette-1-0a33-api-json-extras",
+    "title": "Datasette 1.0a33 發布：API JSON extras 模式擴展至查詢與列",
+    "title_original": "datasette 1.0a33",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/11/datasette/#atom-everything",
+    "published_at": "2026-06-11T15:26:49+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 Datasette 1.0a33 alpha 版本，將 ?_extra= 模式擴展至查詢與列層級，並新增 API explorer 工具展示功能，由 Claude Code 與 Codex Desktop 輔助開發。",
+    "highlights": [
+      "?_extra= 模式現支援查詢與列資料",
+      "API explorer 工具已可免費快速構建",
+      "Claude Fable 5 參與規劃階段",
+      "GPT-5.5 xhigh 協助實作",
+      "這是邁向 1.0 穩定版的重要一步"
+    ],
+    "why_it_matters": "API 統一化與文件完善降低工具整合成本，多 AI 模型協作開發模式展示新型工作流程程的可能性。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用 Datasette 快速建構資料 API，並使用新 API explorer 驗證端點與自動化測試資料流。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-chatgpt-pdf",
+    "title": "開源工具：將 ChatGPT 對話匯出為 PDF（含數學公式可選文字）",
+    "title_original": "Built a free tool to export your entire ChatGPT conversation to PDF (selectable text + rendered math, works on shared links)",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u30xuc/built_a_free_tool_to_export_your_entire_chatgpt/",
+    "published_at": "2026-06-11T14:39:45+00:00",
+    "category": "agent-skills",
+    "summary": "開發者釋出一款免費工具，可將完整 ChatGPT 對話匯出為 PDF，支援可選取文字與數學公式渲染，並可在共享連結場景下正常運作。工具開源，技術原理可稽核，適合需要留存對話記錄的專業工作者。",
+    "highlights": [
+      "支援數學公式（LaTeX）渲染，學術用途實用",
+      "共享連結場景下仍可正常顯示",
+      "開源可審計，無隱私風險疑慮",
+      "需確認工具來源與依賴套件安全性"
+    ],
+    "why_it_matters": "工程師、研究者常需保存 AI 輔助開發的對話記錄作為文件或審計追蹤，此工具填補了官方缺乏離線匯出功能的缺口。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合至工作流程：定期自動匯出重要對話、與文件管理系統整合、建立知識庫索引。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-minimax-m3",
+    "title": "MiniMax M3 即將開源：代理與編碼能力引發社群熱議",
+    "title_original": "As we know Minimax M3 is just going to be open sourced in few days and because of that I was surfing on internet searching for its scores and I found out pretty interesting results. Is Minimax M3 really that good in agentic stuff and in coding? Is it better than older gpt models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2zfqs/as_we_know_minimax_m3_is_just_going_to_be_open/",
+    "published_at": "2026-06-11T13:41:47+00:00",
+    "category": "open-source-ai",
+    "summary": "MiniMax M3 預計於數日內開源，社群正在挖掘其效能數據。討論焦點集中於該模型在代理任務與程式碼生成方面的表現，並與 GPT 早期版本進行比較。",
+    "highlights": [
+      "MiniMax M3 即將開放開源使用",
+      "社群發現其代理與編碼任務表現不俗",
+      "有人質疑其是否優於早期 GPT 模型",
+      "開源前資訊有限，數據來源多為非官方測試",
+      "實際能力需待開源後驗證"
+    ],
+    "why_it_matters": "開源模型若具備優秀代理與編碼能力，將為本地部署提供高性價比選擇，可能影響企業 AI 工具成本結構。",
+    "automation_angle": null,
+    "automation_angle_zh": "開源後可本地部署測試，用於自動化程式碼生成或代理工作流程，評估其與付費模型的性價比。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-ai-agent",
+    "title": "選擇 AI Agent 開發公司比選模型更重要——實際落地經驗分享",
+    "title_original": "shipped a real ai agent in our mobile app, picking an ai agent development company matters more than picking the model",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u2zej9/shipped_a_real_ai_agent_in_our_mobile_app_picking/",
+    "published_at": "2026-06-11T13:40:26+00:00",
+    "category": "agent-skills",
+    "summary": "一位開發者在 Reddit 分享其將真實 AI Agent 整合至手機 App 的實務經驗，強調在選擇 AI Agent 開發合作夥伴時，開發公司的工程能力、部署經驗與客製化程度，比純粹選擇底層模型更關鍵。該文探討了 Agent 架構設計、錯誤處理與使用者體驗的取捨。",
+    "highlights": [
+      "實務落地證明：模型本身差異在 Agent 應用中影響有限",
+      "開發公司的系統整合與部署能力更影響產品穩定性",
+      "Agent 的錯誤處理機制設計比選模型更耗工程資源",
+      "手機端的延遲、離線支援是實務挑戰，非模型能力可解決"
+    ],
+    "why_it_matters": "對於正在評估 AI Agent 合作方案或自行開發 Agent 的技術人員，這是一個難得的實務參考，揭示企業級 AI 落地時「人」比「模型」更重要的真相。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可依此文評估自建 Agent 時的技術選型策略，特別是評估第三方 Agent 框架時，應將工程支援能力列入 RFP 標準，而非僅比較 benchmark 分數。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-11-axmeai-axme-code-claude-code-mcp",
     "title": "AxmeAI/axme-code：為 Claude Code 打造的 MCP 插件，支援持久記憶與安全鉤子",
     "title_original": "AxmeAI/axme-code",
@@ -75,6 +600,33 @@
     "why_it_matters": "極小型模型適合嵌入式與邊緣部署場景，技術人員可用於快速實驗或資源受限的生產環境，但仍需注意實驗性標籤帶來的風險。",
     "automation_angle": null,
     "automation_angle_zh": "技術人員可下載模型權重進行本地測試，評估其在特定任務上的表現，判斷是否值得投入後續優化資源。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-chatgpt-pro-chain-of-thought",
+    "title": "ChatGPT Pro 用戶回報：Chain of Thought 推論過程不再顯示",
+    "title_original": "My ChatGPT Pro is no longer showing the chain of thought.",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u2w5gf/my_chatgpt_pro_is_no_longer_showing_the_chain_of/",
+    "published_at": "2026-06-11T11:16:34+00:00",
+    "category": "new-models",
+    "summary": "多個 ChatGPT Pro 用戶反映，原本預設顯示的 Chain of Thought（思維鏈）推論步驟忽然消失，疑為近期模型更新或介面改動。此變化直接影響付費用戶對推論透明度的預期，可能與 OpenAI 成本優化策略相關。",
+    "highlights": [
+      "付費功能行為改變，官方尚未公告說明",
+      "Chain of Thought 隱藏可能影響除錯與學習用途",
+      "可能與成本控制或回應速度優化有關",
+      "需等待官方確認是暫時bug或正式功能調整"
+    ],
+    "why_it_matters": "Chain of Thought 是付費用戶信任模型推論過程的重要功能。若屬刻意移除，代表 OpenAI 在功能與成本間做了用戶不可見的取捨，直接影響付費價值感知。",
+    "automation_angle": null,
+    "automation_angle_zh": "用戶應監控 API 與 Plus/Pro 版本輸出差異，若 Chain of Thought 穩定性對工作流程程關鍵，可評估切換至 Claude 或 Gemini 替代方案。",
     "tags": [
       "new-models",
       "rss",
@@ -251,6 +803,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-11-asyncinject-0-7-claude",
+    "title": "asyncinject 0.7 發布：Claude 模型協助修復依賴問題",
+    "title_original": "asyncinject 0.7",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything",
+    "published_at": "2026-06-11T06:28:09+00:00",
+    "category": "open-source-ai",
+    "summary": "asyncinject 0.7 發布，該 Python asyncio 依賴注入工具庫在 Datasette 專案中使用時，Claude Fable 5 主動發現並修復了依賴中的 bug。",
+    "highlights": [
+      "asyncinject 0.7 asyncio 依賴注入工具",
+      "用於 Datasette 專案",
+      "Claude Fable 5 主動發現 bug",
+      "AI 模型協助修復自身依賴問題",
+      "展示 AI 主動式程式碼審查能力"
+    ],
+    "why_it_matters": "AI 模型主動發現並修復依賴問題，展示新型 AI 輔助開發模式，降低維護成本並提升程式碼品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Python asyncio 專案中引入 asyncinject，並使用 Claude 等模型進行自動化依賴審查與 bug 檢測。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-11-aws-agent-toolkit-for-aws-mcp",
     "title": "AWS Agent Toolkit for AWS：官方支援的 MCP 伺服器與技能庫",
     "title_original": "aws/agent-toolkit-for-aws",
@@ -365,6 +945,33 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-06-11-reddit-chatgpt",
+    "title": "Reddit 用戶實測：要求 ChatGPT 生成「資訊量最大」的圖片",
+    "title_original": "Asked ChatGPT to create an image with the most ridiculous amount of content possible",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u2n47m/asked_chatgpt_to_create_an_image_with_the_most/",
+    "published_at": "2026-06-11T03:00:31+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶展示要求 ChatGPT（結合 DALL-E）在單一圖像中塞入最大量的視覺資訊，用於測試生成模型的複雜度上限與飽和點。此類極限測試可幫助開發者理解模型在超高密度prompt下的行為邊界與失真模式。",
+    "highlights": [
+      "測試生成模型在極端prompt密度下的表現極限",
+      "觀察圖像內容飽和時模型如何取捨細節",
+      "可用於評估 DALL-E 與 GPT-4V 的生成邊界",
+      "非官方散兵測試，缺乏量化指標參考價值有限"
+    ],
+    "why_it_matters": "對於需要生成高密度資訊視覺化的開發者而言，了解模型上限有助於設計合理的prompt策略，避免生成結果在高複雜度場景下崩潰。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用類似極端prompt批量測試自己的使用情境，評估現有模型是否足以支撐自動化圖像生成需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-11-mesh-api-ai-meshtastic-30-api",
     "title": "MESH-API：離網 AI 路由器，整合 Meshtastic 與 30+ API 擴展",
     "title_original": "mr-tbot/mesh-api",
@@ -442,6 +1049,62 @@
     "automation_angle_zh": "技術人員可檢視 OpenAI 提供的內容溯源 API 文件，評估其整合至現有內容審核流程的可行性，特別是針對歐洲市場的合規需求。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-11-openai-ona-codex",
+    "title": "OpenAI 宣布收購 Ona，為 Codex 增添安全持久雲端環境",
+    "title_original": "OpenAI to acquire Ona",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/openai-to-acquire-ona",
+    "published_at": "2026-06-11T00:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 官方部落格宣布收購 Ona，旨在為 Codex 提供安全、持久的雲端執行環境，使 AI Agent 能夠跨企業工作流程執行長期任務。此收購將強化 OpenAI 在企業級 Agent 部署的能力。",
+    "highlights": [
+      "官方公告：OpenAI 部落格已發布",
+      "企業級焦點：安全雲端環境 + 長期任務支援",
+      "Codex 強化：AI Agent 可跨工作流程執行複雜任務",
+      "持久執行：解決 Agent 任務中斷問題",
+      "企業應用：瞄準大型組織工作流程自動化"
+    ],
+    "why_it_matters": "OpenAI 收購 Ona 代表其企業 Agent 策略邁向「持久化」與「安全化」，長期來看將影響企業 AI 部署的技術選型，技術宅應關注 Codex 未來功能變化與定價調整。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估 Codex 收購 Ona 後的新功能是否適用於企業內部流程自動化，關注是否有新的 API 或 SDK 支援長期任務的狀態管理與安全隔離。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-11-bbva-openai-10-chatgpt-enterprise",
+    "title": "BBVA 攜手 OpenAI：10 萬員工部署 ChatGPT Enterprise",
+    "title_original": "BBVA puts AI at the core of banking with OpenAI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/bbva",
+    "published_at": "2026-06-11T00:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "BBVA 將 ChatGPT Enterprise 規模化部署至 10 萬名員工，並與 OpenAI 建立深度合作關係，加速 AI 驅動銀行轉型。",
+    "highlights": [
+      "BBVA 員工規模達 10 萬人",
+      "全面部署 ChatGPT Enterprise",
+      "與 OpenAI 建立戰略合作夥伴關係",
+      "目標為 AI 驅動銀行業務轉型",
+      "為金融業企業級 AI 部署提供參考案例"
+    ],
+    "why_it_matters": "大型金融機構成功部署案例證明企業級 AI 規模化可行性，為技術決策者提供採購與部署參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "研究 BBVA 部署架構與使用案例，評估類似企業 AI 解決方案的成本效益與合規需求。",
+    "tags": [
+      "ai-deals",
       "rss",
       "en"
     ],
