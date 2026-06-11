@@ -1,5 +1,395 @@
 [
   {
+    "id": "2026-06-11-mesh-api-ai-meshtastic-30-api",
+    "title": "MESH-API：離網 AI 路由器，整合 Meshtastic 與 30+ API 擴展",
+    "title_original": "mr-tbot/mesh-api",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mr-tbot/mesh-api",
+    "published_at": "2026-06-11T00:00:18Z",
+    "category": "open-source-ai",
+    "summary": "MESH-API 是開源 API 路由器，內建 MCP 伺服器與超過 30 個 Meshtastic API 擴展，可串接 LM Studio、Ollama、第三方 API 與 Home Assistant，支援自訂指令、簡訊、Discord 路由與 GPS 緊急警報。",
+    "highlights": [
+      "支援離網 LoRa Mesh 環境下的 AI 呼叫",
+      "整合 Twilio SMS、Discord 與 Email 警報",
+      "可路由至 LM Studio、Ollama 等本地模型",
+      "GPS 緊急警報功能適用野外或災害場景",
+      "153 Stars，Python 實作，生態活躍"
+    ],
+    "why_it_matters": "在無網際網路或網路不穩環境中，MESH-API 可將本地 AI 能力延伸至 Mesh 網路，為偏鄉或緊急通訊提供自動化解決方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "在無網際網路環境中部署 Meshtastic 節點，通過 MESH-API 將本地 Ollama 模型暴露給 Mesh 網路成員，實現離網 AI 對話。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1672898?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-codex-ai",
+    "title": "天文物理學家利用 Codex 模擬黑洞：AI 輔助科學計算案例",
+    "title_original": "How an astrophysicist uses Codex to help simulate black holes",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+    "published_at": "2026-06-11T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布案例，天文物理學家 Chi-kwan Chan 博士使用 Codex 協助建立黑洞模擬程式，幫助科學家研究極端重力環境並驗證廣義相對論。此案例展示 AI 在科學程式開發中的實際價值。",
+    "highlights": [
+      "Codex 可輔助生成物理模擬相關程式碼，降低科學家寫 code 門檻",
+      "模擬目標為黑洞周圍吸積盤與廣義相對論效應",
+      "可加速科學假說驗證迭代速度",
+      "屬於官方發布的正式案例，非行銷素材",
+      "說明 AI 程式助理在專業領域的滲透程度"
+    ],
+    "why_it_matters": "此案例證明 AI 輔助程式開發已進入科研領域頂層應用，工程師可借鏡其將 AI 工具整合進專業工作流程的方式。",
+    "automation_angle": null,
+    "automation_angle_zh": "科學計算或工程模擬開發者可評估用 Codex 或類似工具輔助生成數值模型、資料處理腳本，加速原型驗證。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-11-datasette-agent-0-2a0",
+    "title": "datasette-agent 0.2a0：工具可在執行期間向使用者提問互動",
+    "title_original": "datasette-agent 0.2a0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything",
+    "published_at": "2026-06-10T23:57:27+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 datasette-agent 0.2a0，最大更新為工具執行期間支援向使用者提問（Yes/No、選項、自由文字），對話可跨伺服器重啟保存。新增 save_query 工具，AI 寫的 SQL 需人類核准後才儲存為 Datasette Stored Query。",
+    "highlights": [
+      "工具可中斷執行等待使用者回覆，強化人機協作模式",
+      "支援三種問題類型：Yes/No、選項列表、自由輸入",
+      "對話狀態持久化，伺服器重啟不丟失掛起狀態",
+      "save_query 强制人類審核 SQL，兼顧安全與自動化",
+      "此版本基於作者自建的 LLM alpha 實作"
+    ],
+    "why_it_matters": "此功能代表 Agent 設計的一個重要方向：工具不只執行指令，而是能在不確定時主動請示人類，提升系統可靠性與安全性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此模式移植到自訂 Agent：讓工具在遇到邊界案例時主動暫停並請求確認，避免自動執行帶來的錯誤風險。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-11-kiln-mcp-ai-3d",
+    "title": "Kiln：開源 MCP 工具讓 AI 直接設計與 3D 列印實體物件",
+    "title_original": "codeofaxel/Kiln",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/codeofaxel/Kiln",
+    "published_at": "2026-06-10T23:55:13Z",
+    "category": "agent-skills",
+    "summary": "Kiln 是開源 MCP 伺服器與 CLI，可讓 AI Agent（Claude、GPT 等）直接生成並切片 3D 模型、控制 Bambu Lab、Prusa、Creality 等熱門機型與 OctoPrint。",
+    "highlights": [
+      "支援從描述到 G-code 的完整生成流程",
+      "控制 Bambu Lab、Prusa、Creality 等多品牌印表機",
+      "整合 Klipper/Moonraker 與 Marlin 韌體",
+      "21 Stars，Python 實作，MIT 授權",
+      "可作為 Maker 工作流程的 AI 自動化示範"
+    ],
+    "why_it_matters": "將自然語言直接轉換為實體物件是 AI 與物理世界交互的關鍵一步，Maker 族群可用此快速原型，技術宅可研究其 MCP 整合模式。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝 Kiln 後，用自然語言描述零件需求，AI 自動生成 STL 並發送至 3D 列印機，實現從概念到實物的單指令自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/254173508?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-llm",
+    "title": "LLM 在桌上角色扮演遊戲中的創意應用討論",
+    "title_original": "LLMs and tabletop games",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2j0bp/llms_and_tabletop_games/",
+    "published_at": "2026-06-10T23:52:08+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶討論將 LLM 應用於桌上角色扮演遊戲（TTRPG）的可能性，包括作為 DM 助理、生成劇情、模擬 NPC 對話等創意場景。",
+    "highlights": [
+      "LLM 可輔助生成 RPG 劇情與場景描述",
+      "作為 DM 的創意發想與戰鬥模擬工具",
+      "可模擬 NPC 對話提供玩家互動體驗",
+      "偏向創意娛樂應用，非生產力導向"
+    ],
+    "why_it_matters": "此類創意應用展示 LLM 在非傳統領域的彈性，但對技術用戶的自動化工作或開發流程影響有限，屬於娛樂性探索。",
+    "automation_angle": null,
+    "automation_angle_zh": "可利用開源模型建立本地 RPG 助理，用於快速生成冒險劇本或測試本地模型的創意文字生成能力。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-reddit-80-pcie-5",
+    "title": "Reddit 討論：使用 80 通道 PCIe 5 的二手伺服器執行模型推論",
+    "title_original": "Dumb question: How would performance be if you took a used server with like 80 lanes pcie 5 and stuck NVMe on them for model run?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2ihwl/dumb_question_how_would_performance_be_if_you/",
+    "published_at": "2026-06-10T23:29:31+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶詢問在配備 80 通道 PCIe 5 的二手伺服器上使用 NVMe 進行本地模型推論的效能表現，硬體性價比引發討論。",
+    "highlights": [
+      "討論焦點在 PCIe 5 與 NVMe 的頻寬優勢",
+      "80 通道配置可支援多 GPU 或高速儲存",
+      "聚焦本地部署 LLM 的硬體成本最佳化",
+      "缺乏具體benchmark數據"
+    ],
+    "why_it_matters": "本地部署 LLM 的硬體成本是技術用戶關注焦點。PCIe 5 的高頻寬可能為多卡推論或快速模型載入提供新選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估採購二手伺服器搭配 NVMe 的總持有成本（TCO），與雲端 GPU 推算費用比較，計算本地部署的投資回收週期。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-vscode-agent-skill-ninja-vs-code-ai-agent",
+    "title": "vscode-agent-skill-ninja：VS Code 擴充功能管理 AI Agent 技能",
+    "title_original": "aktsmm/vscode-agent-skill-ninja",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aktsmm/vscode-agent-skill-ninja",
+    "published_at": "2026-06-10T22:37:09Z",
+    "category": "agent-skills",
+    "summary": "VS Code 擴充功能，可搜尋、安裝與管理 GitHub Copilot、Claude Code 等 AI 助理的 Agent Skills（SKILL.md），簡化技能分享與工作流程客製化流程。",
+    "highlights": [
+      "支援 GitHub Copilot 與 Claude Code 技能管理",
+      "提供 Skill Marketplace 搜尋與安裝介面",
+      "基於標準化 SKILL.md 格式",
+      "21 Stars，TypeScript 實作",
+      "可直接在 VS Code 中管理多人共享的技能集"
+    ],
+    "why_it_matters": "AI Agent 技能市場正在形成，此擴充功能讓技術宅能快速試用與分享自訂技能，避免重複造輪子，提升團隊協作效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 VS Code 中安裝後，搜尋並安裝符合當前任務需求的技能，例如自動化測試或文件生成技能，立即增強 AI 助理能力。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/71251920?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-codex-desktop-app-windows",
+    "title": "Codex Desktop App 在 Windows 上的相容性問題彙整",
+    "title_original": "The pain of Codex Desktop App and Windows",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u2gfp0/the_pain_of_codex_desktop_app_and_windows/",
+    "published_at": "2026-06-10T22:04:12+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/OpenAI 用戶反映 Codex Desktop App 在 Windows 環境存在多項相容性與穩定性問題，包括安裝障礙、路徑問題與功能異常等。",
+    "highlights": [
+      "Windows 用戶反映 Codex 桌面版安裝困難",
+      "路徑設定與系統整合存在問題",
+      "功能穩定性不如網頁版或 VS Code 插件",
+      "問題可能影響技術用戶的日常使用體驗"
+    ],
+    "why_it_matters": "Codex 作為 OpenAI 的程式碼代理工具，Windows 相容性問題會直接影響 Windows 開發者的使用意願與工作流程程順暢度。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶若遭遇相同問題，可在 GitHub 回報 Issue 並提供系統日誌，同時評估使用 VS Code 插件版或網頁版作為替代方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-reddit-google-eloquent",
+    "title": "Reddit 用戶嘗試基準測試 Google 端裝置聽寫模型 Eloquent 遭遇困難",
+    "title_original": "Tried to benchmark Google’s new on-device dictation models (Eloquent) and basically couldn’t",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2f8uz/tried_to_benchmark_googles_new_ondevice_dictation/",
+    "published_at": "2026-06-10T21:18:10+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 有人嘗試對 Google 新的端裝置聽寫模型 Eloquent 做基準測試，但因模型特性或存取限制而難以完成標準化評估。",
+    "highlights": [
+      "Google Eloquent 為端側聽寫模型",
+      "Reddit 用戶反映無法執行標準化基準測試",
+      "可能涉及模型存取限制或輸出格式問題",
+      "具體效能數據尚不明確"
+    ],
+    "why_it_matters": "Google 的端側 AI 模型進展值得關注，但缺乏公開效能數據讓技術用戶難以評估其實際價值與部署可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方釋出模型或更多技術文件後，可將 Eloquent 部署於樹莓派或舊筆電，測試離線語音轉文字的延遲與準確率。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-copilot-chat",
+    "title": "Copilot Chat 現在可查詢過往代理工作階段",
+    "title_original": "Copilot Chat now sees your agent sessions",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-10-copilot-chat-now-sees-your-agent-sessions",
+    "published_at": "2026-06-10T20:46:17+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 更新 Copilot Chat，使其能搜尋與查詢過往的雲端代理工作階段記錄。這改善了 Chat 與雲端代理之間的交接體驗，讓開發者能快速回溯先前的任務脈絡。",
+    "highlights": [
+      "支援查詢過去的代理工作階段歷程",
+      "改善 Copilot Chat 與雲端代理的整合度",
+      "可快速找回先前的除錯或開發脈絡",
+      "僅限 Web 版 Copilot 雲端代理"
+    ],
+    "why_it_matters": "開發者常需回溯 AI 代理的執行過程，這項功能讓 Copilot Chat 成為真正的對話式記憶介面，節省重複確認上下文的時间。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Copilot Chat 中透過自然語言查詢特定歷史工作階段，例如「上週修復 API 錯誤的代理做了什麼」，直接取得上下文而無需手動翻找日誌。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-11-droidclaw-android-ai",
+    "title": "droidclaw：Android 上的個人 AI 助理開源實作",
+    "title_original": "dgirard/droidclaw",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/dgirard/droidclaw",
+    "published_at": "2026-06-10T20:09:15Z",
+    "category": "agent-skills",
+    "summary": "droidclaw 是一款開源 Android 個人 AI 助理，採用 Dart 開發，實現 Agent 推論迴圈與工具呼叫，並同時支援 Chat 介面與 Telegram 機器人兩種互動模式。專案目前 24 星，適合研究手機端 AI 助理的技術架構。",
+    "highlights": [
+      "Dart 語言實作，適合作為跨平台 AI 助理框架參考",
+      "Agent Loop + Tool Calling 核心架構，可自訂工具擴展",
+      "支援原生 Chat UI 與 Telegram 雙介面，測試不同使用情境",
+      "開源可審視原始碼，無供應商鎖定風險",
+      "24 星規模尚小，但技術架構清晰值得關注"
+    ],
+    "why_it_matters": "手機端 Agent 框架是今年熱門方向，此專案提供可運行的參照實作，技術宅可用於實驗本地 AI 推論或建立個人自動化工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "可 fork 此專案並替換為本地模型或自訂工具鏈，打造個人專屬的 Android AI 助理，實現如自動回覆、排程管理等任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Dart"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/253406?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-google-diffusiongemma-apache-2-gemma",
+    "title": "Google DiffusionGemma 開源：Apache 2 授權的 Gemma 擴散模型",
+    "title_original": "DiffusionGemma",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything",
+    "published_at": "2026-06-10T20:00:54+00:00",
+    "category": "open-source-ai",
+    "summary": "Google 正式開源 DiffusionGemma（google/diffusiongemma-26B-A4B-it），採用 Apache 2 授權。NVIDIA NIM 雲端 API 目前提供免費託管，生成速度達每秒 500+ tokens。原始為去年實驗性 Gemini Diffusion 研究的產品化版本。",
+    "highlights": [
+      "Apache 2 授權，可商用無法律風險",
+      "26B 參數規模，26 步生成，屬中大型模型",
+      "NVIDIA NIM 免費 API 可立即試用，實測 500+ tokens/s",
+      "擴散式 LLM 架構，與主流自迴歸模型不同",
+      "來源為 Simon Willison 親測，非行銷新聞"
+    ],
+    "why_it_matters": "開源 + 免費雲端 API = 今天就能試用。擴散式 LLM 仍是少見架構，值得技術人員實際測試其生成品質與延遲表現。",
+    "automation_angle": null,
+    "automation_angle_zh": "直接呼叫 NVIDIA NIM API 測試文字生成任務，評估其延遲與品質是否適用於既有工作流程，作為替代方案儲備。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-11-openai-oracle-cloud",
+    "title": "OpenAI 與 Oracle Cloud 整合：企業可透過既有承諾額度存取模型",
+    "title_original": "Access OpenAI models and Codex through your Oracle cloud commitment",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/openai-on-oracle-cloud",
+    "published_at": "2026-06-10T20:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 宣佈企業用戶可直接透過 Oracle Cloud 基礎設施使用 GPT-4o、o3 及 Codex 等模型，並以既有 Oracle 承諾額度計費。此整合簡化企業採購流程，強調企業級安全與治理控制，瞄準需要兼顧合規與彈性的組織。",
+    "highlights": [
+      "企業可用 Oracle 既有承諾額度直接扣抵 OpenAI API 費用",
+      "支援模型包括 GPT-4o、o3 及 Codex，涵蓋生成與程式碼能力",
+      "強調企業安全、治理與合規機制",
+      "簡化採購審批流程，降低多雲成本管理複雜度",
+      "目前已開放企業客戶申請"
+    ],
+    "why_it_matters": "對已大量投資 Oracle 雲端承諾額度的企業，此整合可立即降低 AI 模型使用門檻，省去獨立 AI API 預算審批，加速內部 AI 應用落地。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業 IT 可評估將內部工作流程（如客服自動化、文件處理）從其他 API 切換至此整合，統一帳單並簡化財務核算。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-11-claude-managed-agents-cron",
+    "title": "Claude Managed Agents 新增 Cron 排程與憑證保管庫",
+    "title_original": "Claude Managed Agents Add Cron Schedules and Credential Vaults：Anthropic Beta Puts Agents on Autopilot - Tech Times",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOM2tGLWh3OElTNEwzbW90S0JFWkxTemtCREFGZkg4NjA1dWt6R29CbC1KM0hjakc2MGFVOTJrRDUtY1lWTHVoR2wyTVhobUpWNkV1ekhBMmRCMTJUWXZFYmttdVpOenZ4WldZSUJsc1NibGhlRXJwdmhkc3ItaFdsY2NmX1NSeElYbExqdkZOZk5VTFQtRFJMamtZWEFBWGNabEFJRXB6bW9fNm1tUWFTQUp4UkIyOXRqYUZ5RHBjMjJ2NzNJNFZUX05YeWItMU16dXJFOFRTMWhEWUFwMzh6dHFxOA?oc=5",
+    "published_at": "2026-06-10T18:27:34+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic 為 Claude 托管代理推出 Cron 排程與 Credential Vault 功能，讓代理可按時自動執行任務並安全存取儲存的憑證資訊。",
+    "highlights": [
+      "支援 Cron 語法設定代理執行時間",
+      "Credential Vault 提供安全的憑證儲存與取用",
+      "代理可依排程自動觸發，無需人為介入",
+      "目前為 Beta 階段，功能可能調整"
+    ],
+    "why_it_matters": "將 Claude 代理提升為真正的自動化工作者，而非每次需手動觸發的工具。這是 AI Agent 生產力的關鍵一步。",
+    "automation_angle": null,
+    "automation_angle_zh": "設定每日定時任務，例如每日自動更新技術文檔、監控系統狀態並發送報告，完全自動化日常 DevOps 工作。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-10-flutter-agent-lens-flutter-mcp",
     "title": "flutter_agent_lens：串接 Flutter 應用的 MCP 伺服器",
     "title_original": "dhruvanbhalara/flutter_agent_lens",
@@ -222,6 +612,34 @@
       "JavaScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/28318948?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-openai-ai-ai",
+    "title": "OpenAI 報告：中國關聯勢力以 AI 操作美國 AI 政策輿論",
+    "title_original": "PRC-linked influence operations are targeting AI debates in the US",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+    "published_at": "2026-06-10T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布威脅報告，指出中國關聯影響力操作正以 AI 工具瞄準美國 AI 政策辯論，試圖塑造資料中心建設、關稅政策及 ChatGPT 相關敘事。報告強調這類操作在真實性與複雜度上有所提升。",
+    "highlights": [
+      "目標為美國 AI 政策輿論，非直接技術竊取",
+      "涉及議題包括資料中心、關稅、ChatGPT 負面叙事",
+      "OpenAI 已封鎖相關帳戶並發布分析報告",
+      "屬於資安/政策層面，非產品技術更新",
+      "強調 AI 用於虛假訊息生成的威脅加劇"
+    ],
+    "why_it_matters": "對技術決策者而言，了解 AI 用於輿論操作的態勢有助於評估資安策略與資訊來源可信度，尤其在開源模型易取得的背景下。",
+    "automation_angle": null,
+    "automation_angle_zh": "資安團隊可參考此報告的帳戶行為模式，評估是否需要加強內部 AI 使用政策與異常行為偵測機制。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
