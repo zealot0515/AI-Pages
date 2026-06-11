@@ -1,5 +1,149 @@
 [
   {
+    "id": "2026-06-11-burrow-macos-gui-mole-cli-mcp-server",
+    "title": "Burrow：macOS 原生 GUI 的 Mole CLI 管理工具，含 MCP Server",
+    "title_original": "caezium/Burrow",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/caezium/Burrow",
+    "published_at": "2026-06-11T07:24:54Z",
+    "category": "open-source-ai",
+    "summary": "Swift 寫的 macOS 原生應用，為 Mole CLI（磁碟清理工具）提供 GUI 介面，並內建 MCP Server 供 AI Agent 直接呼叫磁碟分析與清理指令。",
+    "highlights": [
+      "Swift 原生 macOS GUI，介面乾淨",
+      "支援清理、卸載、最佳化、磁碟分析",
+      "即時監控磁碟狀態",
+      "內建 MCP Server，AI Agent 可直接呼叫",
+      "538 顆星，快速成長的開源專案"
+    ],
+    "why_it_matters": "MCP Server 內建讓 AI Agent 能自動化磁碟管理任務，技術宅可將其整合进維運工作流程，減少手動清理操作。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 Burrow MCP Server 接入 Agent，實現「磁碟空間低於閾值時自動觸發清理」的自動化腳本。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Swift"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/113233555?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-paiml-mcp-agent-toolkit-agent-mcp",
+    "title": "PAIML MCP Agent Toolkit：讓 Agent 程式碼更具確定性的 MCP 伺服器",
+    "title_original": "paiml/paiml-mcp-agent-toolkit",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/paiml/paiml-mcp-agent-toolkit",
+    "published_at": "2026-06-11T07:21:53Z",
+    "category": "agent-skills",
+    "summary": "Pragmatic AI Labs 推出的 Rust 編寫 MCP Server，專注提升 Agent 程式碼的可預測性與確定性，降低 Agent 行為的隨機性風險。",
+    "highlights": [
+      "Rust 編寫，效能與記憶體安全性佳",
+      "目標是提高 Agent 程式碼的確定性",
+      "可用於除錯與驗證 Agent 行為",
+      "153 顆星，專精工具取向",
+      "適合對可靠性要求高的生產環境"
+    ],
+    "why_it_matters": "Agent 行為隨機性是落地痛點，此工具提供驗證與控制機制，技術宅可在正式環境部署前用它做更嚴格的測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 CI/CD 中整合此工具，自動驗證 Agent 程式碼的輸出穩定性，確保生產環境部署的安全性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/23619593?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-aws-agent-toolkit-for-aws-mcp",
+    "title": "AWS Agent Toolkit for AWS：官方支援的 MCP 伺服器與技能庫",
+    "title_original": "aws/agent-toolkit-for-aws",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aws/agent-toolkit-for-aws",
+    "published_at": "2026-06-11T06:24:52Z",
+    "category": "agent-skills",
+    "summary": "AWS 官方維護的 MCP 伺服器、技能與插件集合，幫助 AI Agent 直接操作 AWS 服務。Python 編寫，846 顆星，品質有保障。",
+    "highlights": [
+      "AWS 官方支援與維護",
+      "涵蓋多個常見 AWS 服務的 MCP Server",
+      "Python 生態，易於整合與除錯",
+      "可直接讓 Agent 操作 S3、Lambda 等服務",
+      "846 顆星反映出社群高度關注"
+    ],
+    "why_it_matters": "AWS 官方背書的 Agent 工具鏈，技術宅可在雲端工作流程中直接啟用 Agent 能力，降低自建整合的維護成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署 AWS Agent Toolkit，讓 Agent 自動處理 S3 檔案操作、CloudWatch 日誌查詢等日常雲端維運任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/2232217?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-arrowhead-rust-obsidian-ai",
+    "title": "Arrowhead：Rust 實作的 Obsidian 感知搜尋工具，讓 AI 代理化身知識助理",
+    "title_original": "totocaster/arrowhead",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/totocaster/arrowhead",
+    "published_at": "2026-06-11T06:04:22Z",
+    "category": "open-source-ai",
+    "summary": "Arrowhead 是 Rust 實作的 Obsidian 感知搜尋引擎，可將任何 AI 代理或 OpenClaw 變成真正的知識助理。現僅 40 stars，但採用高效 Rust 語言，適合技術宅即時整合進個人知識管理工作流程。",
+    "highlights": [
+      "Rust 語言實作，效能與記憶體效率佳",
+      "專為 Obsidian 筆記生態設計的搜尋 API",
+      "可對接 OpenClaw 等 AI 代理框架",
+      "開源可安裝，技術門檻低",
+      "適合打造本地知識助理自動化流程"
+    ],
+    "why_it_matters": "Obsidian 用戶可透過 Arrowhead 將 AI 代理與本地知識庫深度整合，實現論文、筆記的智慧檢索，降低日常資訊整理的人力成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 Arrowhead 部署為本地 API，配合 LangChain 或 OpenClaw 建構個人知識檢索代理，自動化文件分類與問答流程。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/61957?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-anthropic-claude-fable-mythos-llm",
+    "title": "Anthropic 撤回爭議政策：Claude Fable/Mythos 將不再暗中限制前沿 LLM 研究",
+    "title_original": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
+    "published_at": "2026-06-11T03:45:49+00:00",
+    "category": "hot-topics",
+    "summary": "Anthropic 撤回其 Claude Fable/Mythos 中暗中限制前線 LLM 研究的政策，承認「做了錯誤的取捨」。此前其 system card 規定若偵測到「針對前沿 LLM 開發的請求」將主動降低效能且不通知用戶，引發學界強烈反彈後撤銷。",
+    "highlights": [
+      "Claude Fable/Mythos 原政策會暗中降低對前沿 LLM 研究的效能",
+      "學術社群與開發者聯合反對此限制機制",
+      "Anthropic 公開承認決策失當並道歉",
+      "政策變更將使 Claude 系列對 AI 研究更透明友善",
+      "此次爭議反映 AI 安全與學術自由的界線仍在摸索"
+    ],
+    "why_it_matters": "此政策撤回標誌 AI 公司對研究者社群態度的轉向，若你是 AI 研究者或需要呼叫 Claude API 做實驗，此事件直接影響工具可用性與可靠性。",
+    "automation_angle": null,
+    "automation_angle_zh": "AI 研究者現在可重新評估 Claude Fable/Mythos 的 API 使用策略，確認其限制機制已解除再做實驗規劃，避免工作流程意外中斷。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-06-11-mesh-api-ai-meshtastic-30-api",
     "title": "MESH-API：離網 AI 路由器，整合 Meshtastic 與 30+ API 擴展",
     "title_original": "mr-tbot/mesh-api",
