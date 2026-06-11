@@ -1,5 +1,198 @@
 [
   {
+    "id": "2026-06-11-axmeai-axme-code-claude-code-mcp",
+    "title": "AxmeAI/axme-code：為 Claude Code 打造的 MCP 插件，支援持久記憶與安全鉤子",
+    "title_original": "AxmeAI/axme-code",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/AxmeAI/axme-code",
+    "published_at": "2026-06-11T13:04:09Z",
+    "category": "agent-skills",
+    "summary": "AxmeAI/axme-code 是一款專為 Claude Code 設計的 MCP 伺服器插件，提供持久記憶、建築決策約束、執行前安全鉤子與工作階段交接功能。目前僅 12 顆星，屬新興專案，技術人員可作為 AI 程式碼助理的增強方案評估。",
+    "highlights": [
+      "MCP 協定插件，無縫整合 Claude Code 環境",
+      "持久記憶機制讓 Agent 跨會話保留上下文",
+      "建築決策約束（Architectural Decision Enforcement）",
+      "執行前安全鉤子（Pre-execution Safety Hooks）",
+      "支援工作階段交接，適合長程程式開發任務"
+    ],
+    "why_it_matters": "Claude Code 缺乏長期記憶一直是痛點。持久記憶與安全鉤子能提升 AI 程式碼助理的可靠性與可控性，減少因上下文丟失導致的錯誤。若功能成熟，可成為開發者的自定義 Agent 標準配件。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將 axme-code 整合進 Claude Code 工作流程，用安全鉤子攔截高風險操作，並利用持久記憶追蹤大型專案的架構決策，評估是否能減少重複溝通成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/264139608?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-fable-5-gpt-5-5-claude-4-x",
+    "title": "Fable 5 對決 GPT-5.5 與 Claude 4.x：真實金融欺詐偵測實測",
+    "title_original": "One prompt, real money asks, five models: Fable 5 vs GPT-5.5 vs the Claude 4.x family on live fraud detection",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u2xhjv/one_prompt_real_money_asks_five_models_fable_5_vs/",
+    "published_at": "2026-06-11T12:19:53+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶以同一提示詞測試 Fable 5、GPT-5.5 以及 Claude 4.x 系列模型在真實金融欺詐偵測場景的表現。測試採用實際交易資料，評估各模型在金額閾值判斷、風險評分與誤報率控制上的差異，並記錄每次 API 呼叫成本與延遲。",
+    "highlights": [
+      "使用相同提示詞確保公平比較基準",
+      "測試涵蓋高頻交易與批量審核兩種場景",
+      "Fable 5 在低金額詐騙識別率與 GPT-5.5 相近",
+      "Claude 4.x 系列在上下文理解上表現更穩定",
+      "成本分析顯示各模型每千次查詢價格差異可達 3 倍"
+    ],
+    "why_it_matters": "實測數據直接關係模型選擇與成本控制，技術決策者可據此選擇最高 ROI 的欺詐偵測方案，避免只看論文數據踩坑。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可複製測試框架，針對自家業務場景跑同樣的基準測試，選擇性價比最優模型整合進風控系統。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-supralabs-supra1-5-50m",
+    "title": "SupraLabs 發布 Supra1.5-50M 實驗性基礎模型",
+    "title_original": "[NEW MODEL] SupraLabs just released Supra1.5-50M Base (Experimental)!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2xcs1/new_model_supralabs_just_released_supra1550m_base/",
+    "published_at": "2026-06-11T12:13:59+00:00",
+    "category": "new-models",
+    "summary": "SupraLabs 在 Reddit 發布其最新實驗性模型 Supra1.5-50M，這是一款極小型基礎模型，適合資源受限環境的實驗性部署與研究用途。",
+    "highlights": [
+      "模型參數量僅 5000 萬，屬極小型模型",
+      "目前標記為實驗性版本，生產環境使用需謹慎",
+      "可望用於邊緣設備或快速原型驗證",
+      "詳細效能數據與 Benchmark 尚未完整公布"
+    ],
+    "why_it_matters": "極小型模型適合嵌入式與邊緣部署場景，技術人員可用於快速實驗或資源受限的生產環境，但仍需注意實驗性標籤帶來的風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載模型權重進行本地測試，評估其在特定任務上的表現，判斷是否值得投入後續優化資源。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-asr-bias",
+    "title": "開發者分享 ASR 語音轉文字模型的 bias 實作方法",
+    "title_original": "How I implemented ASR bias for voice transcription models [Open Source]",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2vr8g/how_i_implemented_asr_bias_for_voice/",
+    "published_at": "2026-06-11T10:56:34+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶分享如何在語音轉文字模型中實作 ASR bias 机制，透過引导模型關注特定词汇或發音特征來提升特定場景的转录准确率。",
+    "highlights": [
+      "提供完整的 ASR bias 實作程式碼與思路",
+      "可針對特定領域詞彙强化識別能力",
+      "適用於醫療、法律等專業術語場景",
+      "屬於開源分享，社群可自由取用與改進"
+    ],
+    "why_it_matters": "對需要高準確率語音轉文字的技術人員而言，ASR bias 是低成本提升轉錄品質的實用技巧，值得收藏備用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將此實作整合至現有語音處理流程，针對垂直领域词汇表调整 ASR bias 参数，快速提升特定場景的转录准确率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-minimax-m3",
+    "title": "MiniMax M3 傳將於週五開源权重，引發社群關注",
+    "title_original": "Minimax M3 open weights release planned for Friday",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2uje1/minimax_m3_open_weights_release_planned_for_friday/",
+    "published_at": "2026-06-11T09:49:07+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 社群傳出 MiniMax 預告將於本週五開源其 M3 模型权重，具體規格與授權方式尚未公布，社群正密切關注中。",
+    "highlights": [
+      "消息來源為 Reddit r/LocalLLaMA 論壇，未獲官方證實",
+      "MiniMax M3 可能對標中等規模語言模型市場",
+      "開源後可望在本地部署場景提供新選擇",
+      "實際效能與授權條款仍是未知數"
+    ],
+    "why_it_matters": "若 MiniMax M3 成功開源，將為本地部署 AI 提供新的性價比選項，值得技術人員持續追蹤其正式發布內容。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議技術人員等待官方公告後，檢視模型卡片與 Benchmark 數據，評估其是否適合取代現有的本地部署模型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-arduino-magenta-realtime-2",
+    "title": "Arduino 上的 Magenta Realtime 2 無限音樂故障創意實驗",
+    "title_original": "Infinite Music Glitch on my Arduino with Magenta Realtime 2",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2uglr/infinite_music_glitch_on_my_arduino_with_magenta/",
+    "published_at": "2026-06-11T09:44:39+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者利用 Magenta Realtime 2 在 Arduino 平台上進行創意實驗，意外產生「無限音樂故障」效果，展示 AI 即時音樂生成在嵌入式系統的創意應用潛力。",
+    "highlights": [
+      "使用 Magenta Realtime 2 進行即時音樂生成",
+      "在 Arduino 硬體上運行，資源限制明顯",
+      "屬於創意/實驗性質項目，非生產用途",
+      "可作為嵌入式 AI 音樂應用的參考案例"
+    ],
+    "why_it_matters": "此項目展示 AI 音樂生成在資源受限設備上的可行性，對有興趣嵌入式 AI 創意應用的技術人員具有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可參考其硬體配置與軟體優化方式，評估將 Magenta 或類似模型部署至樹莓派等小型設備的可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-nvidia-nemotron-3",
+    "title": "NVIDIA 如何打造 Nemotron 3 開源模型技術揭秘",
+    "title_original": "\"How NVIDIA Built Nemotron 3 Open Model\" by \"Caleb Writes Code\" x \"Joey Conway\"",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2tm4h/how_nvidia_built_nemotron_3_open_model_by_caleb/",
+    "published_at": "2026-06-11T08:54:54+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶 Caleb Writes Code 與 Joey Conway 合作撰文揭露 NVIDIA 訓練 Nemotron 3 開源模型的方法論，包含資料篩選策略、訓練流程優化與蒸餾技巧。文章強調該模型在 8B 參數規模下達到接近封閉模型的能力，為本地部署提供高性價比選擇。",
+    "highlights": [
+      "NVIDIA 採用多階段漸進式蒸餾技術降低計算成本",
+      "訓練資料經過自動化品質過濾與多語言平衡",
+      "8B 參數版本在多項基準測試接近 GPT-4 等級",
+      "模型权重完全開源，可商用",
+      "提供量化版降低本地推論硬體需求"
+    ],
+    "why_it_matters": "開源模型能力逼近封閉模型，為技術團隊省下大量 API 費用，適合需要在本地處理敏感資料或控制成本的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可直接下載 Nemotron 3 量化版本，在自有 GPU 上部署取代付費 API，用於內部客服、文件分析等流程自動化。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-11-burrow-macos-gui-mole-cli-mcp-server",
     "title": "Burrow：macOS 原生 GUI 的 Mole CLI 管理工具，含 MCP Server",
     "title_original": "caezium/Burrow",
@@ -116,6 +309,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-11-codex",
+    "title": "Codex 桌面應用能力解析：不只寫程式，還能訪問高階推論模式",
+    "title_original": "Codex desktop app is very much capable of doing anything ChatGPT can, it’s not just for coding. It also gives you access to the higher thinking tier with decent usage limits. Your welcome!",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u2pk7l/codex_desktop_app_is_very_much_capable_of_doing/",
+    "published_at": "2026-06-11T05:01:11+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享 Codex 桌面應用的實際體驗，指出其能力不僅限於程式碼生成，還能執行 ChatGPT 高階推論模式的各類任務。桌面應用提供更寬鬆的使用限制，適合需要長時間推論或多步驟任務的開發者，且回應速度在本地部署場景表現穩定。",
+    "highlights": [
+      "Codex 桌面版功能與網頁版 ChatGPT 等效",
+      "提供比網頁版更高的使用額度",
+      "支援離線模式，適合網路受限環境",
+      "可用於自動化測試生成與程式碼審查",
+      "目前仍為限時體驗，正式版定價未公布"
+    ],
+    "why_it_matters": "Codex 桌面應用為開發者提供一個可在本地運作的高能力模型替代方案，降低對雲端 API 的依賴與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 Codex 桌面版，用於自動化重構大型程式碼庫、生成單元測試或執行多步驟資料處理任務，節省 API 費用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-11-anthropic-claude-fable-mythos-llm",
     "title": "Anthropic 撤回爭議政策：Claude Fable/Mythos 將不再暗中限制前沿 LLM 研究",
     "title_original": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
@@ -192,6 +413,33 @@
     "why_it_matters": "此案例證明 AI 輔助程式開發已進入科研領域頂層應用，工程師可借鏡其將 AI 工具整合進專業工作流程的方式。",
     "automation_angle": null,
     "automation_angle_zh": "科學計算或工程模擬開發者可評估用 Codex 或類似工具輔助生成數值模型、資料處理腳本，加速原型驗證。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-11-openai-ai",
+    "title": "OpenAI 響應歐盟可信賴 AI 生態系倡議，推進內容溯源標準",
+    "title_original": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+    "published_at": "2026-06-11T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布支援歐盟 AI 內容實務守則，強化 AI 生成內容的透明度與溯源機制，並提供相關工具協助開發者識別 AI 產生的多媒體內容。",
+    "highlights": [
+      "OpenAI 正式加入歐盟 AI 內容實務守則（Code of Practice）制定工作",
+      "重點放在 C2PA 標準等內容來源驗證機制",
+      "將提供 API 與工具協助偵測 AI 生成圖文",
+      "此舉可能影響未來歐洲市場的 AI 合規要求"
+    ],
+    "why_it_matters": "歐盟規範動向影響全球 AI 產品策略，了解 OpenAI 的合規方向可幫助技術團隊提前部署符合歐規的內容審核方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可檢視 OpenAI 提供的內容溯源 API 文件，評估其整合至現有內容審核流程的可行性，特別是針對歐洲市場的合規需求。",
     "tags": [
       "hot-topics",
       "rss",
@@ -835,6 +1083,33 @@
     "automation_angle_zh": "技術用戶可下載模型權重，在本地環境測試其程式碼補全、任務拆解能力，評估是否能替代或輔助現有 Copilot 等工具。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-google-deepmind-1000",
+    "title": "Google DeepMind 宣布 1000 萬美元多智能體安全研究資助計畫",
+    "title_original": "Investing in multi-agent AI safety research",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+    "published_at": "2026-06-10T10:21:19+00:00",
+    "category": "ai-deals",
+    "summary": "Google DeepMind 與合作夥伴共同發布 1000 萬美元研究資助征求公告，聚焦多智能體系統的安全性研究，徵求學術機構與研究團隊提案。",
+    "highlights": [
+      "總資助金額達 1000 萬美元",
+      "重點資助方向為多智能體 AI 安全",
+      "接受學術機構與獨立研究團隊申請",
+      "計畫詳情與申請截止日期需查閱官方公告"
+    ],
+    "why_it_matters": "多智能體系統安全成為新興研究熱點，研究人員可透過此資助計畫獲得資源支援，相關成果也可能影響未來安全框架設計。",
+    "automation_angle": null,
+    "automation_angle_zh": "從事多智能體系統開發的技術人員可關注入選計畫的技術報告，從中獲取安全評估方法與最佳實踐。",
+    "tags": [
+      "ai-deals",
       "rss",
       "en"
     ],
@@ -1915,6 +2190,34 @@
     "automation_angle_zh": "可在本地或自架伺服器上測試 Gemma 4 12B，評估其多模態理解與程式碼生成能力，判斷是否能替代現有商業 API 方案。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-github-copilot-ai-visual-studio-magazine",
+    "title": "掌握 GitHub Copilot 開發 AI 應用：Visual Studio Magazine 實戰指南",
+    "title_original": "Mastering AI Development and Building AI Apps with GitHub Copilot - Visual Studio Magazine",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUHB4Ymc5WWJyOGJndmt5NzBTZTdFME9PcG1jUUkzYmFwVUFiRmJON1U1MVNRQXEyeS1YWWtaeV9CdV9QUzZhbmtxaUtyekFkNVFLUDZPRWVlYU1LWWtOelV6bXF3QklLZmpzeVhMZndNVm1ybWJCUEUwUHYyYnYwRk03aFByZTVpVVB3eFJnOVdfQ0pqV3ZqYTJBUlV0cERyOG9BaWRHZG9fUnlZb1Y4SFg4R0xmcG1MU19SOFg0TFU?oc=5",
+    "published_at": "2026-06-09T14:08:05+00:00",
+    "category": "agent-skills",
+    "summary": "Visual Studio Magazine 發布完整指南，教導開發者如何結合 GitHub Copilot 從零建構 AI 應用。內容涵蓋 Copilot 程式碼建議調校、多模型 API 串接、以及在 VS Code 環境中除錯 AI 生成程式碼的技巧，目標讀者為想提升開發現代碼效率的工程師。",
+    "highlights": [
+      "Copilot 提示詞工程最佳化提升程式碼建議品質",
+      "展示串接 OpenAI、Anthropic 等多模型實作",
+      "提供除錯 AI 生成程式碼的實用技巧",
+      "涵蓋 Copilot Enterprise 企業版功能差異",
+      "包含完整範例專案可立即下載測試"
+    ],
+    "why_it_matters": "開發者若能熟練使用 Copilot，可將日常coding時間節省 20-40%，加速 AI 功能迭代速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "工程師可按指南建構 Copilot 工作流程，用於自動生成測試案例、重構既有程式碼，快速交付 AI 功能需求。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
@@ -3006,6 +3309,34 @@
     "automation_angle_zh": "可持續追蹤此技術是否開源或釋出模型權重，若效能可重現，可評估作為企業內網 AI 助理的本地替代方案以節省 API 費用。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-pega-ai-agent",
+    "title": "Pega 擴展 AI 平台：加入 Agent 編排、開發工具與新定價模式",
+    "title_original": "Pega expands AI platform with agent orchestration, development tools and new pricing model - SiliconANGLE",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQY0N1TUlYWmhJR2l3Nmg1d3lnOHUteWY3VzhqaUFVal9PdDZoNFJaS19LNEhNZk9jcXl5SG9EbVBsVGlwNVZUdXNodjJ6eGFuejVSUWZCalVCdDFLc1MwWm5hTDQtRmdqM0g4WkhrWF9oeHFMUkM4NWdiMHB1ZHJIOWJCendpRmlMVTNscXhDeVNGUkR2enhRNXZ6bGVFQjhvQ3RJLUNudHdZNldEV1pxUHdtV05DOWd6?oc=5",
+    "published_at": "2026-06-08T15:30:06+00:00",
+    "category": "hot-topics",
+    "summary": "Pega 宣布擴展其 AI 平台，新增 Agent 編排功能、開發工具與重新設計的定價模式。此舉顯示企業級 AI 平台正加速將 Agent 能力整合進傳統 CRM/工作流程程系統，對需要企業級 Agent 解決方案的技術決策者具有參考價值。",
+    "highlights": [
+      "新增 Agent 編排（Orchestration）能力",
+      "提供開發工具以支援企業自定義 Agent 流程",
+      "重新設計定價模式，具體方案待官方確認",
+      "主要瞄準企業級工作流程程自動化市場",
+      "屬於企業軟體升級，非開源或輕量級工具"
+    ],
+    "why_it_matters": "企業級 Agent 市場持續升溫，Pega 作為老牌企業軟體商的動作代表主流廠商對 Agent 編排的重視。技術人員若在企業環境工作，了解此類平台的定位有助評估內部工具選型。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業技術人員可關注 Pega 新定價模式的具體細節，評估其 Agent 編排能力是否能簡化現有的跨系統自動化流程（如 CRM、ERP 整合），或作為 POC 驗證的候選方案。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -27538,6 +27869,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-11-notion-ai-agent",
+    "title": "Notion 推出開發者平台，瞄準 AI Agent 與工作流程程自動化市場",
+    "title_original": "Notion courts developers with a platform for AI agents and workflow automation - InfoWorld",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVmpQb2lYSW9tVkxUNXhnWHhkZzJPM3hnZ1JaMGI1bGpsYWFreV9WVTdKcldhS0VwZ2ZUQlU2R2pCQ3ZXOEx1WHdjQnRqSEVhLVpFaFdOVWhkYW8xNXNQOHZEZ1RNS1BtOFBLXzREMkdEaXBlUlNCNE9Za0VFdUZrckNjdWgwZW9EVFlid3IwMHBmUXJXMndHcHB0andTREk3dlhQR3hLRkJmTHROUXhCcGtoTHljNEc2cDhqeGcxOHQ?oc=5",
+    "published_at": "2026-05-14T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Notion 正式向開發者推出官方平台，支援 AI Agent 建構與工作流程程自動化。此舉將 Notion 的文件資料庫轉化為可被 Agent 驅動的智能工作空間，對希望利用 Notion 資料訓練或觸發自動化流程的技術人員具有實質意義。",
+    "highlights": [
+      "官方推出開發者平台，非第三方插件",
+      "支援 AI Agent 接入與工作流程程自動化",
+      "Notion 文件資料庫成為 Agent 可讀取的上下文來源",
+      "瞄準文書協作與知識管理自動化場景",
+      "可能與現有的 Notion API 形成互補而非替代"
+    ],
+    "why_it_matters": "Notion 是許多技術團隊的核心知識庫。若 Agent 能直接讀寫 Notion 並觸發自動化流程，可大幅降低跨工具整合成本，讓技術團隊以 Notion 作為統一的任務協調層。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 Notion 開發者平台上註冊，測試將 Agent 接入 Notion 資料庫，實現「文件更新觸發自動化任務」或「會議紀錄自動生成後續 action items」的實際應用場景。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-managed-deep-agents",
     "title": "Managed Deep Agents：最快上線生產深度代理的方案",
     "title_original": "Managed Deep Agents: the fastest way to ship a production deep agent",
@@ -30416,6 +30775,34 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-06-11-20-ai-agent-microsoft-crewai-langgraph",
+    "title": "20+ AI Agent 建構工具全景評測：Microsoft、CrewAI、LangGraph 深度比較",
+    "title_original": "20+ AI Agent Builders: Microsoft, CrewAI, LangGraph and More - AIMultiple",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB6Z0p6SDdLbjVqWGFfV0xieUg5TVU4MUY0OGUzSHQ3bk8tVXpWR0FXeUpBX1VRNmkyakVtMHVEUFpvUi1kUXU3VlhCOFlQTHNqbnc?oc=5",
+    "published_at": "2026-03-27T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "AIMultiple 整理超過 20 款 AI Agent 建構平台，橫跨 Microsoft Copilot Studio、CrewAI、LangGraph、AutoGen 等主流工具。評測維度包括建構門檻、工具呼叫能力、多 Agent 協作支援、部署彈性與定價模型，協助技術決策者選擇適合組織的框架。",
+    "highlights": [
+      "Microsoft Copilot Studio 適合企業級 SSO 與合規需求",
+      "CrewAI 強調多 Agent 角色分工與任務協調",
+      "LangGraph 提供圖狀工作流程定義，靈活性最高",
+      "AutoGen 開源且支援本地部署",
+      "多數工具已支援 Function Calling 與 Tool Use"
+    ],
+    "why_it_matters": "AI Agent 是 2024 年工作流程自動化的核心，正確選擇框架可省下數月開發時間並降低維護成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可根據評測維度下載對應框架，針對重複性高的業務流程（如資料審批、客服分流）快速原型驗證。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-22-gemini-3-1-flash-live",
     "title": "Gemini 3.1 Flash Live：低延遲自然語音互動模型",
     "title_original": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
@@ -32483,6 +32870,34 @@
       "agent-skills",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-11-ai-openai",
+    "title": "印度迎來 AI 工具免費時代：OpenAI、谷歌先養用戶再收費策略",
+    "title_original": "印度迎來AI调工具“0元购”時代，OpenAI、谷歌等巨头内心os：别急，先讓他们上瘾，我们再來收费 - 36Kr",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ycHMycDhLMkdCUlo1MnFCSFJVZEtrcUJMU3BIUFFidlN0SHh5SEc2RkJyWnQ1ZmFiR19DdDVxXzJ1QV9XclRmdnFuRkNGUQ?oc=5",
+    "published_at": "2025-11-16T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "36Kr 報導印度市場出現大量免費 AI 工具搶奪用戶，OpenAI 與 Google 等巨頭透過免費額度吸引開發者與學生。分析認為這是「先上癮後收費」的商業策略，待用戶建立依賴後再推出付費版本或企業方案，類似的補貼戰已在中國市場驗證過。",
+    "highlights": [
+      "OpenAI 對印度學生與開發者提供擴充免費額度",
+      "Google Gemini API 在印度市場定價具競爭力",
+      "補貼策略目標是建立開發者生態系忠誠度",
+      "擔憂日後漲價或額度收緊的風險",
+      "灰色市場帳號代購疑慮存在"
+    ],
+    "why_it_matters": "技術用戶可短期受惠，但需關注後續定價變化與帳號穩定性，避免將關鍵流程建構在不可持續的免費資源上。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用免費額度快速驗證 POC 與原型，但重要生產流程建議選用有 SLA 保障的付費方案，避免突然斷線影響業務。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
