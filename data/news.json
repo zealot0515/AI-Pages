@@ -1,5 +1,316 @@
 [
   {
+    "id": "2026-06-12-andrew-singleton-ai",
+    "title": "Andrew Singleton 談 AI 經濟學諷刺寓言：警惕估值泡沫的循環論證",
+    "title_original": "Quoting Andrew Singleton",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/12/andrew-singleton/#atom-everything",
+    "published_at": "2026-06-12T18:09:21+00:00",
+    "category": "hot-topics",
+    "summary": "Andrew Singleton 透過一則寓言諷刺 AI 投資估值亂象：一人開火葬場，另一人投資並以 propane 燒毀投資金額，卻能對外宣稱創造百億營收與擁有價值百億業務的 5% 股權。此諷刺揭示了 AI 產業中常見的循環估值邏輯與媒體報導缺乏財務審查的問題。",
+    "highlights": [
+      "AI 新創估值常透過自我循環交易虛增：燒錢、購買關聯服務、再以新資金覆蓋帳面",
+      "帳面營收可透過關係企業間的虛假交易人為創造，如案例中燒毀鈔票再以 propane 服務計入營收",
+      "媒體報導 AI 成功故事時往往缺乏獨立財務查核，傾向引用公司自述數據",
+      "此諷刺提醒技術投資人在評估 AI 專案時需追蹤現金流而非僅看估值倍數"
+    ],
+    "why_it_matters": "對技術決策者而言，理解 AI 估值泡沫的形成機制有助於避免被高估值行銷誤導。當投資敘事脫離實際營收與現金流，技術團隊可能面臨資源錯配或專案突然中斷的風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊在評估 AI 工具供應商時，可要求查看實際使用量數據與現金流報表，而非僅接受估值或ARR宣傳，尤其對新興AI新創更需審慎。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-agent-starter-ide",
+    "title": "agent-starter：跨 IDE 宣告式代理設定框架",
+    "title_original": "raintree-technology/agent-starter",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/raintree-technology/agent-starter",
+    "published_at": "2026-06-12T18:05:38Z",
+    "category": "agent-skills",
+    "summary": "raintree-technology 開源一款 agent.json 設定檔，可同步管理 Claude Code、Codex、Cursor 的技能、MCP 伺服器與堆疊設定，內建 29 個手工維護技能，支援各代理原生設定格式。",
+    "highlights": [
+      "支援 Claude Code、Codex、Cursor 三種主流代理",
+      "以 agent.json 宣告式定義技能與伺服器設定",
+      "內建 29 個預設技能可直接啟用",
+      "JavaScript 實作，GitHub 星星數 78",
+      "今天就能 clone 並整合進工作流程"
+    ],
+    "why_it_matters": "對於跨多代理開發者而言，統一設定管理大幅降低維運成本，宣告式設計讓技能配置可版本化與共享。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此 repo fork 後客製化技能集，透過統一的 agent.json 管理團隊的代理設定標準，實現設定即代碼。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/242706288?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-12-roborun-ros-1-2-mcp-server-yolo-mujoco",
+    "title": "RoboRun：ROS 1/2 的 MCP Server，支援 YOLO 視覺與 MuJoCo 模擬",
+    "title_original": "publu/RoboRun",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/publu/RoboRun",
+    "published_at": "2026-06-12T18:05:16Z",
+    "category": "agent-skills",
+    "summary": "RoboRun 是一個面向 ROS 1/2 的 MCP Server，可讓 Claude、Cursor 或其他 AI 用戶端直接操控機器人。支援 YOLO 即時視覺、Mujoco 物理模擬、熱重載 Python 行為腳本，並內建 Merkle 樹防竄改的黑盒日誌。Stars 14，Python 實作。",
+    "highlights": [
+      "作為 MCP Server 讓 AI Agent 直接控制真實或模擬機器人",
+      "整合 YOLO 視覺模型，支援即時物體偵測與機器人視覺",
+      "MuJoCo 模擬支援，可在虛擬環境驗證控制邏輯",
+      "熱重載 Python 行為腳本，加速開發迭代",
+      "Merkle 樹黑盒日誌提供可驗證的執行歷史"
+    ],
+    "why_it_matters": "RoboRun 將 AI Agent 能力延伸至實體機器人控制領域，且 MCP 協定讓整合更加標準化，對機器人開發者與 AI Agent 研究者都有較高的參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可透過 pip install ros-agent 快速安裝，用來自動化實驗室機器人的測試腳本執行與日誌收集，或結合 Cursor 測試自然語言控制機器人的開發體驗。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/4308462?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-box-ai",
+    "title": "Box AI 企業內容代理建構實例",
+    "title_original": "How Box AI built enterprise content agents with Deep Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/building-box-ai-how-an-enterprise-content-platform-went-ai-native-with-deep-agents",
+    "published_at": "2026-06-12T16:59:08+00:00",
+    "category": "agent-skills",
+    "summary": "Box 與 LangChain 合作展示如何使用 Deep Agents 建構企業內容代理，實現跨文件搜尋、分析與摘要，同時保留安全與權限管理機制。",
+    "highlights": [
+      "基於 LangChain Deep Agents 框架建構",
+      "展示企業級 RAG 與代理整合模式",
+      "包含安全、權限與模型彈性設計細節",
+      "為 LangChain 官方合作案例",
+      "實作細節可供技術參考"
+    ],
+    "why_it_matters": "提供企業級代理系統的實際架構參考，包含安全與權限管理等工程難題的解決思路，對類似需求有借鑒價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考其架構設計與代理模式，用於企業文件處理需求的自定義代理開發，評估 LangChain Deep Agents 框架的適用性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-reddit-llm",
+    "title": "Reddit 討論：超小型 LLM 的應用場景",
+    "title_original": "What are ultra-tiny llms used for?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u402xu/what_are_ultratiny_llms_used_for/",
+    "published_at": "2026-06-12T16:24:13+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 社群討論 ultra-tiny LLM 的實際用途，包括邊緣裝置部署、離線推論、低延遲任務等場景。論壇內容反映開發者對模型極度壓縮後可用性的關注。",
+    "highlights": [
+      "超小型模型適合資源受限環境",
+      "離線與隱私敏感場景有其優勢",
+      "推論速度通常優於大型模型",
+      "能力犧牲程度需個案評估",
+      "社群人提供實測經驗分享"
+    ],
+    "why_it_matters": "超小型 LLM 的出現代表模型壓縮技術進展，對需要本地部署或降低成本的使用者具參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可測試 Phi-2、Mistral-7B-nano 等小型模型，評估其是否能滿足特定自動化任務的準確率需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-selene-ai-agent-whatsapp-telegram-slack-discord",
+    "title": "Selene：桌面端本地 AI Agent，支援 WhatsApp/Telegram/Slack/Discord 整合",
+    "title_original": "tercumantanumut/selene",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tercumantanumut/selene",
+    "published_at": "2026-06-12T16:02:23Z",
+    "category": "agent-skills",
+    "summary": "Selene 是一款桌面應用，可在本地機器上執行 AI Agent，並連接 WhatsApp、Telegram、Slack、Discord 等通訊平台。支援程式碼生成、影像生成與個人助理功能，所有資料保留在本地裝置。Stars 169，TypeScript 實作。",
+    "highlights": [
+      "本地執行，資料不上雲，隱私保障高",
+      "支援主流通訊平台，可作為聊天機器人後端",
+      "整合程式碼生成與影像生成能力",
+      "TypeScript 實作，適合已有 Web 技術棧的團隊",
+      "Stars 169，仍屬早期專案，功能成熟度待驗證"
+    ],
+    "why_it_matters": "對於想快速建立本地 AI 聊天機器人且不希望資料離開本機的技術人員，Selene 提供了一個低門檻的整合方案，尤其適合個人或小型團隊的自動化需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 Selene 建構一個本地 Slack/Discord Bot，自動化回覆常見技術問題或擔任團隊文件查詢助理，降低重複性溝通成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/128206040?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-olmo-eval",
+    "title": "olmo-eval：模型開發循環評估工作台",
+    "title_original": "olmo-eval: An evaluation workbench for the model development loop",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/allenai/olmo-eval",
+    "published_at": "2026-06-12T15:56:10+00:00",
+    "category": "open-source-ai",
+    "summary": "Allen AI 發布 olmo-eval 評估工具工作台，支援模型開發與迭代評估流程，但摘要資訊不完整，且編輯評注指出可能偏公關性質，訊號強度有限。",
+    "highlights": [
+      "Allen AI 官方發布的開源專案",
+      "提供模型評估工作台功能",
+      "支援開發循環中的迭代測試",
+      "摘要缺乏具體技術細節",
+      "公關成分較高，需自行驗證"
+    ],
+    "why_it_matters": "評估工具對模型開發有意義，但缺乏具體功能說明，建議直接查看 GitHub repo 確認實際能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接存取 GitHub repo 查看原始碼與測試案例，評估是否能整合進現有的模型評估流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-openadapt-rpa-llm-lam-lmm",
+    "title": "OpenAdapt：開源生成式 RPA，以 LLM/LAM/LMM 實現流程自動化",
+    "title_original": "OpenAdaptAI/OpenAdapt",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/OpenAdaptAI/OpenAdapt",
+    "published_at": "2026-06-12T15:19:29Z",
+    "category": "agent-skills",
+    "summary": "OpenAdapt 是開源生成式流程自動化工具（Generative RPA），整合大型語言模型（LLM）、動作模型（LAM）、多模態模型（LMM）與視覺語言模型（VLM），目標是以 AI 優先方式重構傳統 RPA 流程。目前在 GitHub 已有 1608 顆星。",
+    "highlights": [
+      "以 LLM/LAM/LMM/VLM 取代傳統規則式 RPA 邏輯",
+      "支援視覺理解，可處理 GUI 介面的複雜操作",
+      "開源專案，Stars 達 1608，社群關注度中高",
+      "Python 實作，便於技術人員二次開發與整合",
+      "適合需要跨系統 UI 自動化的企業場景"
+    ],
+    "why_it_matters": "傳統 RPA 維護成本高且擴展性差；OpenAdapt 以生成式模型重新定義流程自動化，大幅降低定制化成本，是技術人員值得關注的開源替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載測試版，用來自動化跨桌面應用的重複性操作（如 ERP 資料遷移、表單填寫），並評估其相較傳統 RPA 工具的維護效率差異。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/132681217?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-12-langchain-ai-agent",
+    "title": "LangChain 指南：如何為 AI Agent 選擇合適的沙箱環境",
+    "title_original": "How to Choose the Right Sandbox for AI Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-to-choose-the-right-sandbox-for-your-agent",
+    "published_at": "2026-06-12T15:00:16+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 部落格詳細解說 AI Agent 沙箱選型要點，涵蓋檔案系統隔離、網路存取控制、資源配額限制，以及 microVM 與容器技術的取捨。這篇技術文件適合建構安全隔離環境的開發者參考。",
+    "highlights": [
+      "沙箱選擇需平衡安全性與效能開銷",
+      "檔案系統隔離可防止惡意檔案操作",
+      "網路存取控制影響 Agent 對外 API 呼叫能力",
+      "microVM 提供更完整但更重的隔離層",
+      "資源限制防止單一 Agent 耗盡系統資源"
+    ],
+    "why_it_matters": "當 Agent 需要執行任意程式碼或呼叫外部 API 時，沙箱是安全防線。選錯沙箱可能導致資料外洩或系統被濫用。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估現有專案的沙箱實作，比較 Docker 容器、gVisor、Firecracker microVM 的隔離強度與效能損耗，選擇符合需求的方案。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-open-dungeon-gemma-4-qat-flux",
+    "title": "Open Dungeon：本地 Gemma 4 QAT + FLUX 圖像角色扮演",
+    "title_original": "Open Dungeon: local roleplay with Gemma 4 QAT + inline Uncen-FLUX images, running at full 256K context under 8GB RAM (OS)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3uw8e/open_dungeon_local_roleplay_with_gemma_4_qat/",
+    "published_at": "2026-06-12T13:11:59+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 社群展示基於 Gemma 4 QAT 與 Uncensored FLUX 圖像的本地角色扮演系統，支援 256K 上下文長度，在 8GB 以下記憶體完成運行。",
+    "highlights": [
+      "結合 Gemma 4 QAT 模型與 FLUX 圖像生成",
+      "支援 256K 超長上下文本地運行",
+      "記憶體需求控制在 8GB 以內",
+      "展示 QAT 量化技術的本地部署潛力",
+      "來源為 Reddit 社群非官方實驗"
+    ],
+    "why_it_matters": "展示 Gemma 4 QAT 量化技術在本地端的突破，讓開發者能在消費級硬體上實驗超長上下文模型與圖像生成。",
+    "automation_angle": null,
+    "automation_angle_zh": "可跟隨 Reddit 教學自行架設，測試 Gemma 4 QAT 在本地工作流程中的適用性，評估量化模型對任務品質的影響。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-qwen-3-6-27b-openclaw-16gb-vram",
+    "title": "Qwen 3.6 27B + OpenClaw 在 16GB VRAM 上的執行成果",
+    "title_original": "Qwen 3.6 27B + Openclaw on 16 GB of VRAM",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3uhpr/qwen_36_27b_openclaw_on_16_gb_of_vram/",
+    "published_at": "2026-06-12T12:55:25+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享 Qwen 3.6 27B 搭配 OpenClaw 在僅 16GB VRAM 環境下的執行經驗。OpenClaw 是新興的推論解決方案，能將大模型運行在消費級顯卡上。",
+    "highlights": [
+      "Qwen 3.6 27B 是較新開源模型",
+      "OpenClaw 提供量化或推論解析優化",
+      "16GB VRAM 屬消費級顯卡門檻",
+      "需驗證推論品質是否可接受",
+      "可能是亞洲開發者的本地化貢獻"
+    ],
+    "why_it_matters": "若能在 16GB VRAM 流暢運行 27B 模型，代表本地部署門檻大幅降低，中小團隊可節省雲端 API 成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 Qwen 3.6 與 OpenClaw，在本地測試其對自動化任務的處理速度與輸出品質，評估替代雲端 API 的可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-12-supra-title-0-3b",
     "title": "Supra-Title-0.3B 小型模型發布，可在本地端運行",
     "title_original": "[NEW MODEL] Supra-Title-0.3B Just released!",
@@ -21,6 +332,34 @@
     "automation_angle_zh": "如果 0.3B 模型表現足夠，可部署在樹莓派或舊筆電執行簡單的文字分類、摘要任務，節省雲端 API 成本。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-openai-academy-ai",
+    "title": "OpenAI Academy 推出實務 AI 工作流程程課程",
+    "title_original": "New OpenAI Academy courses for the next era of work",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+    "published_at": "2026-06-12T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI Academy 新增三門課程，涵蓋建立可重複的 AI 工作流程程與日常工作中應用代理，幫助學習者掌握實務 AI 技能與代理開發模式。",
+    "highlights": [
+      "三門課程聚焦實務 AI 技能與工作流程程建立",
+      "強調可重複使用的工作流程程建構方法",
+      "涵蓋日常工作中的代理應用場景",
+      "官方來源資訊可信度高",
+      "可能包含 API 使用與成本優化內容"
+    ],
+    "why_it_matters": "官方課程通常反映最新產品策略與最佳實踐，可作為團隊內部培訓教材或驗證工作流程程設計思路。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將課程內容用於團隊內部培訓，快速建立成員對代理工作流程程的共識與標準化。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -524,6 +863,33 @@
     "automation_angle_zh": "技術宅可立即造訪 GitHub repo，檢視 README 與範例程式碼，評估其功能是否適用於現有工作流程程，或作為研究長上下文、程式碼生成等場景的替代方案。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-google",
+    "title": "Google 投資維吉尼亞州基礎設施與當地就業",
+    "title_original": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+    "published_at": "2026-06-11T20:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google AI 部落格宣布在維吉尼亞州的社區投資計畫，包括支援當地就業與能源價格方案。此內容屬於企業公關新聞，與 AI 技術本身無直接關聯。",
+    "highlights": [
+      "企業基礎設施投資公告",
+      "主要為公關與政策相關內容",
+      "可能預示資料中心擴張",
+      "對 AI 開發者直接價值較低"
+    ],
+    "why_it_matters": "此類企業新聞公關稿內容，對技術用戶的日常工作流程程與工具選擇影響甚微，僅供了解大廠布局參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注維吉尼亞資料中心的 GPU 資源可用性，若未來提供雲端算力可列入評估。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -31997,6 +32363,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-12-kdnuggets-vibe-coder-7-web-api",
+    "title": "KDnuggets：開發者與 Vibe Coder 必知的 7 個免費 Web API",
+    "title_original": "7 Free Web APIs Every Developer and Vibe Coder Should Know - KDnuggets",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObTRJZ3hNMkttaVZiczhpb3k4MlJUQnhQVkRZT1FHTVNyZVhRUVZXcGF2UkJjWXc0d0dReFV5em9Jc2NyRDQteHppMWptMVdFQjVaaThjNWo5VmZKZFlId2NYeHBYMEItOFVfSHp6NHVRV1owN3g3QlNFQjQ1QW5XQnA1T0xNNWt6cU9NRg?oc=5",
+    "published_at": "2026-03-27T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "KDnuggets 列舉七個免費 Web API 供開發者整合使用。這類 listicle 內容通常缺乏深度技術分析，適合快速瀏覽但需自行驗證 API 穩定性與用量限制。",
+    "highlights": [
+      "列點式內容便於快速掃描",
+      "免費方案可能有用量上限或速率限制",
+      "需驗證 API 文件完整度與社群活躍度",
+      "適合快速原型或個人專案驗證概念"
+    ],
+    "why_it_matters": "實用 API 清單可加速原型開發，但 listicle 形式的內容通常缺乏實測數據，技術價值有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "瀏覽後挑選符合需求的 API，申請金鑰並寫測試腳本驗證其回應速度與穩定性是否符合自動化流程要求。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-22-gemini-3-1-flash-live",
     "title": "Gemini 3.1 Flash Live：低延遲自然語音互動模型",
     "title_original": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
@@ -32878,6 +33271,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-anthropic",
+    "title": "Anthropic 技術解析：偵測與防範蒸餾攻擊",
+    "title_original": "Detecting and preventing distillation attacks - Anthropic",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOUxlWTM0OXZ3cENhMEpobm5TWEM4cVRLOXRpRHlYSUZ3bThyNE1wcXhFY2ZCSkNHYUJEV1YtZ0VkSWxfVW9tc0lkVExFSFBhRUFPZENhNFNZQk5MNjJxQTdhT3dJYjl6ZUJseVplanY4R2NDcHdSU2RJWlV2MzlGYVhR?oc=5",
+    "published_at": "2026-02-23T08:00:00+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 官方發布關於蒸餾攻擊（Distillation Attack）的技術文章，說明如何偵測與防止模型能力被非法提取。這代表 AI 安全領域的重要技術對話。",
+    "highlights": [
+      "蒸餾攻擊試圖複製閉源模型能力",
+      "Anthropic 提供官方偵測方法論",
+      "涉及模型輸出指紋分析技術",
+      "對企業部署 AI 有合規意涵",
+      "開源社群可能借鑒防護機制"
+    ],
+    "why_it_matters": "隨著模型價值提升，防蒸餾技術將影響模型部署策略與 API 定價模式。開發者需了解此趨勢以評估長期成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀原文了解防護機制，評估自家使用的模型是否易受此類攻擊，思考如何保護 API 端點。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-06-05-ai-42-72",
