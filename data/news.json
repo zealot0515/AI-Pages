@@ -1,5 +1,146 @@
 [
   {
+    "id": "2026-06-12-infinitekv-kv-cache-104-mistral-7b-2-3",
+    "title": "InfiniteKV 開源：將 KV Cache 儲存為 104 位元組可搜尋記錄，Mistral-7B 突破訓練上下文限制至 2.3 倍",
+    "title_original": "Open sourcing InfiniteKV: a KV cache that files old tokens as 104-byte searchable records in RAM or on disk instead of deleting them. Mistral-7B answered from token 76,747, 2.3x past its trained window. Colab demo",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3nicr/open_sourcing_infinitekv_a_kv_cache_that_files/",
+    "published_at": "2026-06-12T06:34:47+00:00",
+    "category": "open-source-ai",
+    "summary": "InfiniteKV 專案將 KV Cache 從刪除機制改為檔案化儲存，可選用 RAM 或磁碟，每個 token 儲存為 104 位元組可搜尋記錄。測試顯示 Mistral-7B 可正常回答至第 76,747 個 token，超越其 8K 訓練窗口的 2.3 倍限制。已提供 Colab 示範可直接運行。",
+    "highlights": [
+      "KV Cache 改為持久化儲存而非刪除，大幅延長可用上下文",
+      "每個 token 固定 104 位元組，支援 RAM 或磁碟彈性選擇",
+      "Mistral-7B 實測突破至 76,747 token，仍能正確回答",
+      "提供 Colab notebook 可直接測試，門檻低",
+      "可能適用於其他符合架構的模型"
+    ],
+    "why_it_matters": "Context window 限制一直是本地模型痛點，InfiniteKV 以極低成本突破此限制，讓開發者可在消費級硬體上實作超長上下文應用，如大型程式碼庫分析、書籍摘要等。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可下載 Colab notebook 直接測試，用於本地模型的長文件處理流程評估，或整合至現有 RAG pipeline 取代傳統截斷策略。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-ggsrun-google-drive-cli-mcp-server",
+    "title": "ggsrun：高效能 Google Drive CLI 與原生 MCP Server",
+    "title_original": "tanaikech/ggsrun",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tanaikech/ggsrun",
+    "published_at": "2026-06-12T06:24:25Z",
+    "category": "agent-skills",
+    "summary": "ggsrun 是以 Go 開發的 Google Drive 命令列工具，同時原生支援 Model Context Protocol（MCP），可讓 LLM/AI Agent 直接執行 Google Apps Script、遞迴上傳下載與 Drive 基礎設施管理，目前 GitHub 165 stars。",
+    "highlights": [
+      "Go 語言高效能實作",
+      "原生 MCP Server 介面，AI Agent 可直接呼叫",
+      "支援動態執行 Google Apps Script",
+      "具備遞迴上傳、下載與 Drive 管理功能",
+      "適合需與 Google Workspace 整合的自動化場景"
+    ],
+    "why_it_matters": "若 AI Agent 需要操作 Google Drive 或執行 Apps Script，ggsrun 提供一個無需手動 OAuth 流程的 MCP 整合方案，可縮短落地時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 ggsrun 部署為 MCP Server，讓 AI Agent 自動整理 Drive 文件、觸發 Apps Script 自動化排程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/20408540?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-llm-16-kv-cache",
+    "title": "LLM 上下文壓縮技術 16 倍壓縮率超越 KV Cache 方案",
+    "title_original": "LLM context compression at 16x beats KV cache",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3mxum/llm_context_compression_at_16x_beats_kv_cache/",
+    "published_at": "2026-06-12T06:02:48+00:00",
+    "category": "open-source-ai",
+    "summary": "新興上下文壓縮技術在 benchmark 中以 16 倍壓縮率擊敗傳統 KV Cache 方法，目標是在保持模型輸出品質的前提下大幅減少記憶體佔用。該技術針對長輸入場景最佳化，對部署成本有顯著影響。",
+    "highlights": [
+      "壓縮率達 16 倍，領先 KV Cache 優化方案",
+      "強調輸出品質不因壓縮而明顯下降",
+      "主要瞄準長輸入、長對話場景",
+      "尚未開源，但概念驗證已完成",
+      "可與 InfiniteKV 等技術互補使用"
+    ],
+    "why_it_matters": "長上下文處理的成本主要來自 KV Cache 佔用記憶體，16 倍壓縮可讓同等 VRAM 支撐更長對話或更多並發用戶，直接降低推論成本與硬體需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤該技術的正式開源或整合至現有框架的時間點，評估其與現有長上下文方案的效能差異，考慮作為 vLLM 或 Ollama 的替代優化路徑。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-mtplx-v1-ios-macos-swift-app-mlx-mtp-qwen-3-6-27b-2x-tps",
+    "title": "MTPLX V1 釋出：iOS/macOS 原生 Swift App 運行 MLX MTP 模型，Qwen 3.6 27B 達 2x TPS",
+    "title_original": "MTPLX V1: The Swift App For Running & Creating MLX MTP Models (2x TPS Qwen 3.6 27B)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3iikl/mtplx_v1_the_swift_app_for_running_creating_mlx/",
+    "published_at": "2026-06-12T02:15:01+00:00",
+    "category": "open-source-ai",
+    "summary": "MTPLX V1 是一款 Swift 原生應用，可在 Apple Silicon 設備上運行 MLX MTP 模型。官方宣稱 Qwen 3.6 27B 在此環境下可達到每秒 2 token 的吞吐量，提供模型建立與執行一站式體驗，降低蘋果生態系的本地 AI 應用門檻。",
+    "highlights": [
+      "Swift 原生開發，iOS/macOS 直接運行",
+      "支援 MLX MTP 模型格式",
+      "Qwen 3.6 27B 實測 2x TPS",
+      "提供模型建立功能，非純推論工具",
+      "針對 Apple Silicon 最佳化，M 系列晶片友好"
+    ],
+    "why_it_matters": "MLX 框架在 Apple Silicon 上已有不錯效能，MTPLX 以 App 形式封裝，讓非命令列用戶也能輕鬆使用本地模型，對想在 Mac 上開發 AI 應用的技術宅是實用工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可下載 MTPLX V1，在 MacBook/Mac Studio 上本地部署 Qwen 3.6 27B，評估其作為離線個人助理或開發環境輔助工具的可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-reddit-ai-agent",
+    "title": "Reddit 討論：AI Agent 能用於反編譯二元執行檔嗎？",
+    "title_original": "Has anyone used agents to decompile binary executables?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3i3tu/has_anyone_used_agents_to_decompile_binary/",
+    "published_at": "2026-06-12T01:55:21+00:00",
+    "category": "agent-skills",
+    "summary": "LocalLLaMA 社群討論使用 AI Agent 反編譯二進位執行檔的可能性與限制。討論涵蓋現有工具整合、模型對組合語言的理解程度，以及實際產出能否用於逆向工程的可行性評估。",
+    "highlights": [
+      "社群討論，缺乏系統性實驗數據",
+      "焦點在組合語言理解與二進位結構分析",
+      "涉及模型大小與工具鏈整合議題",
+      "對安全研究者或許可逆向場景有參考價值",
+      "具體效果取決於目標二進位複雜度"
+    ],
+    "why_it_matters": "若 AI 能輔助反編譯，可降低逆向工程門檻，但目前社群回饋顯示仍需人類專家校準，技術用戶應以輔助角色而非全自動化看待。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可嘗試用本地模型（如 CodeLlama）搭配反編譯工具鏈，測試簡單二進位的函式識別與註解生成效果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-12-chatgpt",
     "title": "用戶反映 ChatGPT 圖像生成突然嚴格審查",
     "title_original": "ChatGPT image generation suddenly insanely strict?",
@@ -131,6 +272,34 @@
     "automation_angle_zh": "若從事生科相關自動化，可參考 Benchling 的 trace 審查方法論提升 Agent 可靠性。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-mimocode",
+    "title": "MiMoCode 開源：全新開源模型/工具鏈釋出",
+    "title_original": "MiMoCode released as OSS",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u39vwn/mimocode_released_as_oss/",
+    "published_at": "2026-06-11T20:05:28+00:00",
+    "category": "open-source-ai",
+    "summary": "MiMoCode 專案正式以開源形式釋出，具體能力與定位尚待社群驗證。開源釋出代表該專案可供技術社群檢視程式碼、部署測試並貢獻改進，為本地開發者提供新的模型或工具選擇。",
+    "highlights": [
+      "已正式開源，可檢視完整程式碼",
+      "具體功能定位待社群驗證",
+      "技術宅可立即 fork 測試",
+      "開源許可證類型需進一步確認",
+      "可能具備差異化能力而非純粹複製"
+    ],
+    "why_it_matters": "開源專案的釋出代表技術社群可自主部署與審計，無需依賴封閉 API。對於注重資料隱私或希望客製化的技術宅，新開源專案始終值得關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可立即造訪 GitHub repo，檢視 README 與範例程式碼，評估其功能是否適用於現有工作流程程，或作為研究長上下文、程式碼生成等場景的替代方案。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
