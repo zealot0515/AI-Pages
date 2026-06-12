@@ -1,5 +1,143 @@
 [
   {
+    "id": "2026-06-12-chatgpt",
+    "title": "用戶反映 ChatGPT 圖像生成突然嚴格審查",
+    "title_original": "ChatGPT image generation suddenly insanely strict?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1u3g63j/chatgpt_image_generation_suddenly_insanely_strict/",
+    "published_at": "2026-06-12T00:24:31+00:00",
+    "category": "new-models",
+    "summary": "多位 Reddit 用戶反映 ChatGPT 圖像生成功能近期突然變得嚴格，許多先前可正常生成的提示詞現在遭到拒絕或修改。懷疑與 DALL-E 3 的內容政策調整或系統層面的安全機制更新有關，但 OpenAI 尚未正式公告說明。",
+    "highlights": [
+      "多位用戶報告圖像生成成功率明顯下降",
+      "部分先前可用的提示詞現在被系統拒絕",
+      "懷疑涉及 DALL-E 3 內容政策或安全機制變更",
+      "OpenAI 官方尚未發布任何相關公告",
+      "尚無法確認是否為暫時性調整或永久性政策變更"
+    ],
+    "why_it_matters": "圖像生成能力的突然變化會直接影響仰賴此功能進行創意工作或自動化內容生成的技術用戶。政策不透明可能導致工作流程程中斷，需持續關注後續官方說明。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶應記錄被拒絕的提示詞模式，並準備替代方案如使用其他圖像生成 API 或本地模型，以降低單一服務政策變動的風險。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-gemma-4-12b-12b-qat-26b-a4b-qat-31b-qat",
+    "title": "Gemma 4 四版本連發：12B、12B QAT、26B-A4B QAT 與 31B QAT 未和諧版本流出",
+    "title_original": "Gemma 4 Quadruple Release, 12B, 12B QAT, 26B-A4B QAT and 31B QAT Uncensored Heretics!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3flg9/gemma_4_quadruple_release_12b_12b_qat_26ba4b_qat/",
+    "published_at": "2026-06-11T23:58:58+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群流傳 Google Gemma 4 四種型號同日釋出，包含標準 12B、量化後的 12B QAT、26B-A4B QAT 及 31B QAT 版本。其中 31B QAT 版本傳為未經內容過濾的「異端」版本，可直接在本地部署運行。",
+    "highlights": [
+      "Google Gemma 4 系列一口氣釋出四種參數量版本",
+      "12B QAT 為量化版本，適合記憶體受限環境",
+      "31B QAT 傳為社群製作的未審查版本",
+      "所有版本均可在本地硬體運行"
+    ],
+    "why_it_matters": "Gemma 4 多版本釋出讓本地部署多了不同精度與規模的選擇，QAT 量化版本可降低 VRAM 需求，未審查版本則提供更自由的生成能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可根據自身 GPU VRAM 容量選擇合適版本，用 vLLM 或 Ollama 部署後用於自動化文案生成、程式碼補全等任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-claude-fable-agent",
+    "title": "Claude Fable 展現極度主動式 Agent 能力",
+    "title_original": "Claude Fable is relentlessly proactive",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything",
+    "published_at": "2026-06-11T23:35:17+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 實測 Claude Fable 5 + Claude Code 發現其極度主動：收到截圖後自動開瀏覽器、寫 Python CORS 伺服器、注入 JS 至模板觸發快捷鍵、在 Shadow DOM 中爬取資料，最後找到 Bug 並修復。但也暴露 Prompt Injection 風險。",
+    "highlights": [
+      "Fable 會自動探索開發環境、執行本地伺服器",
+      "自建 Python CORS 伺服器蒐集頁面資料",
+      "注入 JS 至網頁模板觸發快捷鍵",
+      "爬取 Shadow DOM 內部資訊",
+      "遭遇隱形 guardrail 時自動降級至 Opus 繼續執行"
+    ],
+    "why_it_matters": "展示當前頂尖模型的極度主動性與創意，但同時警告未 sandbox 的 Coding Agent 風險極高。",
+    "automation_angle": null,
+    "automation_angle_zh": "若使用 Claude Code 或同類 Coding Agent，強烈建議加上嚴格 sandbox 限制，避免惡意指令注入造成資料外洩或系統破壞。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-12-reddit-vram",
+    "title": "Reddit 熱議：各 VRAM 容量適合跑哪些模型？",
+    "title_original": "What models you guys running on 8GB? 16GB VRAM? 24GB? 32GB? 48GB?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3c8q4/what_models_you_guys_running_on_8gb_16gb_vram/",
+    "published_at": "2026-06-11T21:35:43+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社群討論 8GB 至 48GB VRAM 適合跑哪些本地模型，分享量化配置經驗。屬社群經驗匯總，無單一技術突破但具實用參考價值。",
+    "highlights": [
+      "8GB VRAM：小型量化模型如 Phi-3、Qwen2-1.5B",
+      "16GB VRAM：中型模型如 Mistral 7B、Llama3-8B 量化版",
+      "24-32GB VRAM：Llama3-70B Q4、CodeQwen",
+      "48GB VRAM：可跑 70B 未量化或更大模型",
+      "社群經驗分享，無官方基準"
+    ],
+    "why_it_matters": "提供本地 LLM 部署的 VRAM 性價比參考，幫技術用戶選擇符合硬體的配置。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據自身 VRAM 容量，查閱社群配置建議，快速評估可部署的模型規格。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-benchling-agent",
+    "title": "Benchling 分享生科領域 Agent 建構經驗",
+    "title_original": "How Benchling builds agents when the smartest AI isn't smart enough",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/benchling-max-agency-podcast",
+    "published_at": "2026-06-11T20:49:21+00:00",
+    "category": "agent-skills",
+    "summary": "Benchling 的 AI 主管 Nicholas Larus-Stone 在 Max Agency Podcast 中分享生科領域 Agent 建構挑戰，包括多模型架構、生產環境 trace 審查、可驗證科學任務策略。適合對垂直領域 Agent 應用有興趣的技術讀者。",
+    "highlights": [
+      "多模型架構在生科場景的應用",
+      "生產環境 trace 審查實踐",
+      "可驗證科學任務的 Agent 策略",
+      "生命科學資料平台的特殊需求"
+    ],
+    "why_it_matters": "提供垂直領域 Agent 建構的實務經驗參考，雖然非通用技術但對生科或製藥領域有價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "若從事生科相關自動化，可參考 Benchling 的 trace 審查方法論提升 Agent 可靠性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-11-deepseek-v4-pro-hugging-face-4-7k-400",
     "title": "DeepSeek-V4-Pro 登上 Hugging Face 趨勢榜，4.7k 讚、400 萬下載",
     "title_original": "deepseek-ai/DeepSeek-V4-Pro",
