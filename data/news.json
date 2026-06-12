@@ -1,5 +1,173 @@
 [
   {
+    "id": "2026-06-12-supra-title-0-3b",
+    "title": "Supra-Title-0.3B 小型模型發布，可在本地端運行",
+    "title_original": "[NEW MODEL] Supra-Title-0.3B Just released!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3tvgh/new_model_supratitle03b_just_released/",
+    "published_at": "2026-06-12T12:28:17+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群使用者發布了名為 Supra-Title-0.3B 的新模型，參數量僅 3 億，屬極小型模型。帖子內容簡短，模型來源與訓練資料不明確，僅社群內部討論。",
+    "highlights": [
+      "參數量僅 0.3B，適合資源受限的本地環境",
+      "發布於 Reddit 社群，無官方網站或技術報告",
+      "訓練資料、基準測試成績等關鍵資訊闕如",
+      "可能是特定用途的微調模型，而非通用基底",
+      "社群反應有限，關注度較低"
+    ],
+    "why_it_matters": "極小型模型對邊緣裝置或嵌入式場景有潛力，但目前資訊不足且缺乏驗證，技術用戶若對小型化模型有需求可關注後續發展。",
+    "automation_angle": null,
+    "automation_angle_zh": "如果 0.3B 模型表現足夠，可部署在樹莓派或舊筆電執行簡單的文字分類、摘要任務，節省雲端 API 成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-browser-use-wasm-wasm-agent",
+    "title": "browser-use-wasm：可在瀏覽器 WASM 環境零成本運行的瀏覽器自動化 Agent",
+    "title_original": "[browser-use-wasm] I made a browser-use agent that runs in WASM at zero cost",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3qbds/browserusewasm_i_made_a_browseruse_agent_that/",
+    "published_at": "2026-06-12T09:21:27+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者在 Reddit 發布 browser-use-wasm 專案，將 browser-use Agent 框架移植至瀏覽器 WASM 環境，聲稱可零成本運行。此專案可讓用戶直接在瀏覽器內執行網頁自動化任務，無需自建伺服器或支付雲端 API 費用，對本機部署有興趣的技術宅是個值得關注的實驗性專案。",
+    "highlights": [
+      "將 browser-use 框架移植至瀏覽器 WASM 執行環境",
+      "宣稱零成本運行，無需支付 API 或雲端費用",
+      "直接在瀏覽器內完成網頁自動化任務",
+      "原始碼預計開源，可自行部署測試",
+      "目前為實驗性專案，穩定性待驗證"
+    ],
+    "why_it_matters": "若 WASM 版本能稳定运行，將颠覆现有浏览器自動化成本结构，開發者可免費在客户端实现复杂网頁交互，降低 AI 工作流程入门门槛。",
+    "automation_angle": null,
+    "automation_angle_zh": "技术使用者可 clone 专案本地測試，评估其在自動化网頁資料抓取、表单填写、多步骤网頁操作場景下的可用性與限制。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-openpangu-2-0-6-30",
+    "title": "華為發布 openPangu 2.0，預定 6 月 30 日開源",
+    "title_original": "Huawei Released openPangu 2.0 (Will open source on June 30)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3q1j9/huawei_released_openpangu_20_will_open_source_on/",
+    "published_at": "2026-06-12T09:05:00+00:00",
+    "category": "open-source-ai",
+    "summary": "華為在 Reddit 宣布 openPangu 2.0 發布，該版本為華為盤古大模型的開源分支。官方預告將於 6 月 30 日正式開源，社群期待能獲得類似 GPT 級别的中文理解與生成能力。技術用戶應關注其許可證與實際效能表現。",
+    "highlights": [
+      "華為發布 openPangu 2.0 版本",
+      "預定 6 月 30 日開放開源",
+      "為盤古大模型的開源版本",
+      "社群關注其多語言與中文處理能力",
+      "具體許可證與模型權重尚未公布"
+    ],
+    "why_it_matters": "openPangu 若成功開源，將為中文 AI 生態提供新的開源選項，可能衝擊現有中文 LLM 市場格局，技術用戶可評估其在本地部署的可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續關注開源發布動態，預備評估環境等待模型權重釋出，測試其中文任務、程式碼生成與工具呼叫能力。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-kimi",
+    "title": "用戶反映 Kimi 模型行為異常變化，懷疑模型版本變更",
+    "title_original": "Has anyone noticed that the behavior of the Kimi model has changed?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3pz4k/has_anyone_noticed_that_the_behavior_of_the_kimi/",
+    "published_at": "2026-06-12T09:00:59+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶討論 Kimi 模型近期行為出現明顯變化，包括輸出風格、回答準確度與任務完成方式的差異。社群猜測可能涉及模型版本更新、系統提示詞修改或服務端配置變更。此類用戶觀察可作為追蹤模型穩定性與版本變化的參考依據。",
+    "highlights": [
+      "多位用戶回報 Kimi 模型輸出行為不一致",
+      "變化涉及回答風格、準確度與任務處理方式",
+      "社群猜測可能為模型版本或系統配置更新",
+      "目前缺乏官方版本變更公告",
+      "可用過去使用的 prompt 重新測試驗證"
+    ],
+    "why_it_matters": "模型行為變化直接影響基於 Kimi 建構的工作流程程可靠性。技術用戶需追蹤此類變化，評估現有自動化腳本是否需要調整 prompt 或更換模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用標準測試 prompt 對比近期輸出，若確認行為變化，可回顧版本歷史並調整自動化流程的 prompt 設計以適應新行為模式。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-pp-ocrv6",
+    "title": "飛槳 PP-OCRv6 正式發布，文字辨識能力再升級",
+    "title_original": "🚀PP-OCRv6 is officially released !",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3p2at/ppocrv6_is_officially_released/",
+    "published_at": "2026-06-12T08:06:31+00:00",
+    "category": "new-models",
+    "summary": "PaddlePaddle 團隊發布 PP-OCRv6，這是飛槳 OCR 工具鏈的重大版本更新。根據社群討論，v6 版本在文字偵測、方向分類與文字辨識三個模組均有改進，進一步提升複雜場景下的識別準確率。對於需要文件數位化、表單處理等自動化的技術用戶是實用工具。",
+    "highlights": [
+      "PP-OCRv6 為 PaddlePaddle OCR 工具鏈最新版本",
+      "偵測、方向分類、辨識三模組全面升級",
+      "複雜場景（如傾斜、模糊、低對比度）表現提升",
+      "支援多語言文字辨識",
+      "可透過 pip 直接安裝使用"
+    ],
+    "why_it_matters": "OCR 是文件自動化、工作流程數位化的基礎能力。PP-OCRv6 的提升可直接改善發票識別、文件掃描、表單處理等常見自動化場景的準確率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 PP-OCRv6 整合至文件處理 pipeline，測試其在實際資料上的辨識效果，評估是否可替代商業 OCR API 以節省成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-llm-npc",
+    "title": "主流遊戲為何尚未大規模整合 LLM 至 NPC 對話系統",
+    "title_original": "Why hasn't any mainstream game integrated LLMs into NPCs yet?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3nn4j/why_hasnt_any_mainstream_game_integrated_llms/",
+    "published_at": "2026-06-12T06:42:31+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 討論為何主流 3A 遊戲尚未採用 LLM 驅動 NPC 對話。玩家分析主要限制包括：延遲影響遊戲體驗、成本不可預測、對話品質控制困難、內容審核風險，以及離線模式需求。少數獨立遊戲已實驗性整合，但大規模採用仍面臨技術與商業挑戰。",
+    "highlights": [
+      "LLM 生成對話存在延遲問題影響即時遊戲體驗",
+      "API 呼叫成本不可預測，難以納入遊戲定價模型",
+      "對話可控性不足，可能產生偏離遊戲世界觀的回應",
+      "內容安全審核增加開發複雜度",
+      "離線遊戲場景需要本地部署或小型模型支援"
+    ],
+    "why_it_matters": "遊戲 NPC 整合是 LLM 實際應用的重要場景。理解其限制因素有助技術用戶評估在其他即時互動系統中部署 LLM 的可行性與取捨。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶若從事遊戲或互動應用開發，可參考這些限制因素評估是否使用小型本地模型或邊緣推論方案來解決延遲與成本問題。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-12-infinitekv-kv-cache-104-mistral-7b-2-3",
     "title": "InfiniteKV 開源：將 KV Cache 儲存為 104 位元組可搜尋記錄，Mistral-7B 突破訓練上下文限制至 2.3 倍",
     "title_original": "Open sourcing InfiniteKV: a KV cache that files old tokens as 104-byte searchable records in RAM or on disk instead of deleting them. Mistral-7B answered from token 76,747, 2.3x past its trained window. Colab demo",
@@ -85,6 +253,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-12-qwen-3-6-27b-openclaw-16gb-vram",
+    "title": "Qwen 3.6 27B 搭配 Openclaw 可在 16GB VRAM 運行",
+    "title_original": "Best LLM for smut stories",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u3k7t8/best_llm_for_smut_stories/",
+    "published_at": "2026-06-12T03:38:57+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群傳出 Qwen 3.6 27B 模型配合 Openclaw 框架，能在僅 16GB VRAM 的消費級 GPU 上運行。此訊息來自論壇討論，尚未獲得官方證實，但若屬實代表 Qwen 系列在推論效率上有顯著突破，能讓更多開發者在常見硬體上本地部署大型語言模型。",
+    "highlights": [
+      "Qwen 3.6 27B 為新版本開源模型，參數規模達 270 億",
+      "Openclaw 推測為推論加速或量化框架，協助降低 VRAM 需求",
+      "16GB VRAM 為 RTX 4060 Ti / RTX 3080 等常見遊戲卡規格",
+      "可大幅降低本地部署大型模型的硬體門檻",
+      "目前資訊來源為 Reddit 討論，未經官方公告確認"
+    ],
+    "why_it_matters": "若 Qwen 3.6 能在消費級 16GB 顯卡運行，代表開源模型效率已接近可實際替代部分雲端 API 的水平，技術愛好者可在無需高價專業卡的情況下本地部署強大模型，直接節省雲端推論成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可等待官方發布後，在本地 RTX 4060 Ti/3080 等 16GB 顯卡上部署 Qwen 3.6 27B，替換部分需要創意寫作、程式碼生成的閉源 API 呼叫，降低每月的 AI 工具開支。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-12-mtplx-v1-ios-macos-swift-app-mlx-mtp-qwen-3-6-27b-2x-tps",
     "title": "MTPLX V1 釋出：iOS/macOS 原生 Swift App 運行 MLX MTP 模型，Qwen 3.6 27B 達 2x TPS",
     "title_original": "MTPLX V1: The Swift App For Running & Creating MLX MTP Models (2x TPS Qwen 3.6 27B)",
@@ -162,6 +358,34 @@
     "automation_angle_zh": "技術用戶應記錄被拒絕的提示詞模式，並準備替代方案如使用其他圖像生成 API 或本地模型，以降低單一服務政策變動的風險。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-12-preply-ai",
+    "title": "Preply 結合 AI 與真人導師提供個人化語言學習",
+    "title_original": "How Preply combines AI and human tutors to personalize learning",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/preply",
+    "published_at": "2026-06-12T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Preply 發布於 OpenAI Blog，展示其如何利用 OpenAI 技術生成課程摘要、提供個人化回饋與語言練習。這是一篇應用案例報導，非新模型或工具發布。",
+    "highlights": [
+      "屬 OpenAI 客戶案例，非 OpenAI 新聞或產品發布",
+      "Preply 使用 AI 生成個人化學習內容與回饋",
+      "結合真人導師與 AI，強調混合學習模式",
+      "未揭露底層模型選擇或成本優化細節",
+      "對技術用戶的工作流程自動化參考價值有限"
+    ],
+    "why_it_matters": "此條目屬於 AI 教育應用的行銷內容，缺乏可操作技術細節，對技術用戶的日常開發或自動化工作直接幫助較小。",
+    "automation_angle": null,
+    "automation_angle_zh": "如果你是教育科技開發者，可參考其 AI 生成回饋的思路，用 GPT-4o 結合自己的教學素材建立類似系統。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
