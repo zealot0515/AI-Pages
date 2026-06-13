@@ -1,5 +1,115 @@
 [
   {
+    "id": "2026-06-13-llama-launcher-v1-3",
+    "title": "llama-launcher v1.3 發布：新增貝葉斯優化超參數自動調校",
+    "title_original": "llama-launcher v1.3 release -> Bayesian Optimisation",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u4pbax/llamalauncher_v13_release_bayesian_optimisation/",
+    "published_at": "2026-06-13T12:09:26+00:00",
+    "category": "agent-skills",
+    "summary": "llama-launcher 釋出 v1.3 版本，正式整合貝葉斯優化演算法，用於自動化搜尋 LLM 推論任務的最佳超參數組合，包含溫度、top-p、最大 token 等關鍵參數。",
+    "highlights": [
+      "支援貝葉斯優化取代 Grid Search",
+      "自動找到最優 temperature/top-p 組合",
+      "可與 Ollama、LM Studio 等本地推論引擎整合",
+      "降低本地模型調參的試錯成本"
+    ],
+    "why_it_matters": "手動調參效率低且耗時，貝葉斯優化能以更少試驗次數找到最優配置，直接提升本地模型在特定任務上的輸出品質與穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 llama-launcher 整合進 CI/CD 流程，對每個新模型版本自動跑任務專屬的最優參數，寫入設定檔供下游 Pipeline 使用。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-olcli-overleaf-mcp-latex",
+    "title": "olcli：Overleaf 命令列工具與 MCP 伺服器，支援 LaTeX 專案同步編譯",
+    "title_original": "aloth/olcli",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aloth/olcli",
+    "published_at": "2026-06-13T12:07:26Z",
+    "category": "agent-skills",
+    "summary": "olcli 是 Overleaf 的 CLI 工具、TypeScript 函式庫及 MCP 伺服器，支援 pull、push、sync、compile 操作，可從終端機使用或作為 AI Agent 的工具接入 Overleaf 專案。",
+    "highlights": [
+      "支援 pull/push/sync/compile 等完整 Overleaf 操作",
+      "提供 TypeScript 函式庫可作為模組引用",
+      "內建 MCP 伺服器供 AI Agent 呼叫",
+      "可用於自動化學術論文編譯流程",
+      "GitHub 79 stars，TypeScript 實作"
+    ],
+    "why_it_matters": "研究人員或工程師常需使用 LaTeX 撰寫論文，olcli 可將 Overleaf 整合進 AI Agent 工作流程，實現論文自動校對、編譯、版本同步。",
+    "automation_angle": null,
+    "automation_angle_zh": "AI Agent 可透過 MCP 協定呼叫 olcli，自動抓取最新草稿進行校對、重新編譯並推送更新，省去手動操作 Overleaf 的繁瑣步驟。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/12732979?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-glm-5-2-pac-man",
+    "title": "GLM 5.2 單次 Pac-Man 測試曝光，開源權重下週釋出",
+    "title_original": "GLM 5.2 is out - open weights to be released next week. How did it do on my one-shot Pac-Man test?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u4p1av/glm_52_is_out_open_weights_to_be_released_next/",
+    "published_at": "2026-06-13T11:56:01+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶公布 GLM 5.2 的單次 Pac-Man 遊戲通關測試結果，嘗試以零樣本方式驗證模型的即時推論與決策能力，並確認開源權重將於下週正式釋出。",
+    "highlights": [
+      "Pac-Man 為記憶與策略推論基準測試",
+      "單次通關結果暗示模型的長期規劃能力",
+      "開源權重時間表與官方說法一致",
+      "測試為社群自發，未提供量化對比數據"
+    ],
+    "why_it_matters": "Pac-Man 這類動態環境測試比靜態 benchmark 更能反映模型真實推論水準，可作為評估 GLM 5.2 是否值得替換現有模型的有趣參考維度。",
+    "automation_angle": null,
+    "automation_angle_zh": "待權重開源後，可自行設計類似遊戲或自動化腳本測試模型的決策鏈長度與錯誤恢復能力。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-glm-5-2-glm-coding-plan-api-mit",
+    "title": "GLM 5.2 已部署至 GLM Coding Plan，API 與 MIT 權重預計一週內開源",
+    "title_original": "GLM 5.2 is deployed in GLM Coding Plan. API and MIT weights in a week. Voting and benchmarks on X.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u4nmpl/glm_52_is_deployed_in_glm_coding_plan_api_and_mit/",
+    "published_at": "2026-06-13T10:40:25+00:00",
+    "category": "new-models",
+    "summary": "智譜 AI 發布 GLM 5.2 版本，已先行部署至 Coding Plan 付費服務。官方透露 API 介面與 MIT 授權權重將於約一週後開放，用戶可在 X 平台參與投票與基準測試討論。",
+    "highlights": [
+      "GLM 5.2 已上線 Coding Plan，支援付費 API 调用",
+      "開源權重採用 MIT 授權，降低商用門檻",
+      "X 平台有 benchmark 投票與初步評測流出",
+      "推論能力與長上下文支援為主要亮點"
+    ],
+    "why_it_matters": "GLM 系列首次同步提供付費 API 與開源權重，若基準表現接近 GPT-4 Turbo，等同為開發者提供一個高性價比且可自託管的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 GLM 5.2 API 替換現有付費模型的程式碼補全腳本，待開源後本地部署評估延遲與成本節省幅度。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-13-agent-skills-hub-agent-skills",
     "title": "agent-skills-hub：開源 Agent Skills 探索平台，含品質評分與趨勢分析",
     "title_original": "zhuyansen/agent-skills-hub",
@@ -138,6 +248,60 @@
       "ai-deals",
       "rss",
       "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-bittorrent",
+    "title": "社群提議建立 BitTorrent 網路分發開源模型權重",
+    "title_original": "We should set up a torrent network for open source models.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u4gto1/we_should_set_up_a_torrent_network_for_open/",
+    "published_at": "2026-06-13T04:07:04+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 討論提議利用 BitTorrent 協議建立去中心化網路，分發大型開源模型權重，以繞過中心化伺服器的頻寬成本與下載限制，特別針對數百 GB 的模型檔案提出解決方案。",
+    "highlights": [
+      "去中心化分發可大幅降低 CDN 成本",
+      "解決 HuggingFace 單點下載瓶頸問題",
+      "Seednode 激勵機制成為關鍵設計議題",
+      "已有 IPFS 分散式儲存先例可參考"
+    ],
+    "why_it_matters": "若實現，開發者可繞過付費 API 直接獲取權重，對開源生態與本地部署是結構性改變，但需社群協作與長期維護承諾。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 qBittorrent + 自動化腳本建立私人 seedbox，搶在官方發布前抓取熱門模型權重以備離線部署。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-anthropic-jailbreak-fable-5-mythos-5",
+    "title": "Anthropic 因 jailbreak 漏洞被迫全球停用 Fable 5 與 Mythos 5",
+    "title_original": "Anthropic forced to abruptly disable Fable 5 & Mythos 5 globally by US Gov over a jailbreak. This is exactly why we need local models.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u4e1p5/anthropic_forced_to_abruptly_disable_fable_5/",
+    "published_at": "2026-06-13T01:48:47+00:00",
+    "category": "new-models",
+    "summary": "美國政府介入後，Anthropic 緊急在全球範圍內停用 Fable 5 與 Mythos 5 角色模型，主因為發現可被繞過安全限制的 jailbreak 漏洞。此事件再次突顯對本地模型的剛性需求。",
+    "highlights": [
+      "政府層級干預導致模型直接下架",
+      "Jailbreak 漏洞涉及安全護欄繞過",
+      "Fable/Mythos 為創意寫作類角色模型",
+      "停用為全球範圍，無地區例外"
+    ],
+    "why_it_matters": "雲端模型的單點失效風險真實存在，重要業務若依賴第三方封閉模型可能面臨突發中斷。本地部署模型是對抗政策不確定性的唯一可控方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "盤點現有 Claude API 依賴業務，評估用開源模型（如 Qwen、GLM）替換的可能性與合規成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
