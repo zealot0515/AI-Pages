@@ -1,5 +1,176 @@
 [
   {
+    "id": "2026-06-13-agent-skills-hub-agent-skills",
+    "title": "agent-skills-hub：開源 Agent Skills 探索平台，含品質評分與趨勢分析",
+    "title_original": "zhuyansen/agent-skills-hub",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/zhuyansen/agent-skills-hub",
+    "published_at": "2026-06-13T07:11:08Z",
+    "category": "agent-skills",
+    "summary": "agent-skills-hub 是一個開源 TypeScript 專案，專門收錄並比較各類開源 Agent Skills、工具與 MCP 伺服器，提供品質評分與趨勢分析，並自動同步 GitHub 熱度數據，目前已有近 300 顆星。",
+    "highlights": [
+      "• TypeScript 開源專案，GitHub 星數達 290",
+      "• 收錄各類 Agent Skills、MCP 工具與伺服器",
+      "• 提供品質評分與趨勢分析，輔助技術決策",
+      "• 自動同步 GitHub 熱度數據，資訊即時性佳",
+      "• 可作為技術選型時的評估起點"
+    ],
+    "why_it_matters": "在 MCP 工具爆炸的時代，agent-skills-hub 幫技術用戶快速過濾高質量專案，省去逐一查訪 GitHub 的時間成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可定期瀏覽此平台，根據評分與趨勢快速發現新的 MCP 工具，並評估其整合進現有工作流程的可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/24306647?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-ha-nexus-agent-home-assistant-mcp-27-264",
+    "title": "ha-nexus-agent：Home Assistant MCP 伺服器，橫跨 27 領域 264 工具",
+    "title_original": "Fistacho/ha-nexus-agent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Fistacho/ha-nexus-agent",
+    "published_at": "2026-06-13T07:09:51Z",
+    "category": "agent-skills",
+    "summary": "ha-nexus-agent 是一款 Python 撰寫的 MCP 伺服器，為 Home Assistant 提供 264 種工具，覆蓋實體、自動化、儀表板、能源、語音、HACS、Supervisor 等 27 個領域，並內建 BM25 工具搜尋與自動化追蹤除錯功能。",
+    "highlights": [
+      "• Python 開源 MCP 伺服器，GitHub 星數 11",
+      "• 提供 264 種 Home Assistant 工具，覆蓋 27 領域",
+      "• 支援 BM25 工具搜尋，快速定位所需功能",
+      "• 內建自動化追蹤與除錯能力",
+      "• 可搭配 Card Builder 加速智慧家庭儀表板開發"
+    ],
+    "why_it_matters": "對於已部署 Home Assistant 的技術用戶，ha-nexus-agent 大幅簡化了智慧家庭自動化的工具整合難度，可讓 AI Agent 直接操控家中各類設備。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 ha-nexus-agent 接入 Agent 工作流程後，可實現「自然語言控制家中 IoT 設備」的自動化場景，例如語音指令開關燈光或查詢能源數據。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/98597610?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-agent-lsp-ai-agent-66",
+    "title": "agent-lsp：專為 AI Agent 設計的程式語言伺服器，含 66 種程式碼智慧工具",
+    "title_original": "blackwell-systems/agent-lsp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/blackwell-systems/agent-lsp",
+    "published_at": "2026-06-13T07:02:33Z",
+    "category": "agent-skills",
+    "summary": "agent-lsp 是一款用 Go 語言開發的語言伺服器，專為 AI Agent 場景設計，提供 66 種程式碼智慧工具，採用 GCF（General Code Format）作為主要輸出格式，GitHub 星數達 57 顆。",
+    "highlights": [
+      "• Go 語言開發，強調高效能與跨平台部署",
+      "• 66 種程式碼智慧工具，涵蓋常見程式分析需求",
+      "• 主打 GCF（General Code Format）輸出格式",
+      "• GitHub 星數 57，社群關注度持續上升",
+      "• 適合需要深度程式碼理解的 Agent 應用場景"
+    ],
+    "why_it_matters": "agent-lsp 為 AI Agent 提供了一套標準化的程式碼理解框架，若 GCF 格式獲廣泛採用，可能成為 Agent 程式碼分析的事實標準，值得技術決策者關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 agent-lsp 整合至程式碼審查或自動化重構工作流程，讓 Agent 以統一格式輸出程式碼分析結果，提升工具鏈的可組合性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/236632453?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-glm-5-2-mit",
+    "title": "GLM-5.2 將於下週開源發布，採用 MIT 授權",
+    "title_original": "GLM-5.2 next week, open weight, MIT",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u4je3d/glm52_next_week_open_weight_mit/",
+    "published_at": "2026-06-13T06:26:31+00:00",
+    "category": "new-models",
+    "summary": "據 Reddit r/LocalLLaMA 社群爆料，智譜 AI（Zhipu AI）預計於下週發布 GLM-5.2 模型，採用開源权重（open weight）並以 MIT 授權釋出。若消息屬實，將是中國主流大模型廠商中少見的高寬鬆度開源許可。",
+    "highlights": [
+      "GLM-5.2 為智譜 AI 最新一代模型，屬 GLM 系列迭代版本",
+      "預計採用 MIT 授權條款，允許商業使用、修改與再授權",
+      "發布時間預定為下週，具體日期尚未確認",
+      "MIT 授權較 Llama 的 Apache 2.0 更寬鬆，接近完全公有領域",
+      "消息來源為 Reddit 社群討論，未經官方公告驗證"
+    ],
+    "why_it_matters": "智譜 AI 若以 MIT 授權開源 GLM-5.2，將大幅降低企業採用門檻，提供企業級開源模型的替代選擇。其性能表現值得本地部署測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注 Hugging Face 或智譜官方 Repo，等待發布後下載权重進行本地部署測試，評估其與 GPT-4 等閉源模型的任務表現差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-ai",
+    "title": "韓國信用卡業者搶攻 AI 訂閱支付市場，回饋競爭白熱化",
+    "title_original": "為了吸引聊天GPT、Cloud等生成型AI訂閱者,信用卡業界的返现竞争越來越激烈。 AI訂閱费像通信费一样成為每月流失的固定支出後,信用卡公司為了抢占结算手段,接连推出了優惠。新韩信用卡表示,從本月1.. - 매일경제",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zU3NkLXNoYjFrM2xyeDQwMDFjWTZsVnFuOHVPMjdGUTV5Mk84V1dpcURMSTZhQVpUWTEyTjcxTUZjTTJOc2J3M0NLQUJ6VWNiS1E?oc=5",
+    "published_at": "2026-06-13T04:49:50+00:00",
+    "category": "ai-deals",
+    "summary": "韓國每日經濟新聞報導，當 AI 訂閱服務（如 ChatGPT、Microsoft Copilot、Google Cloud 等）逐漸成為如同電信費般的固定月支出後，韓國信用卡公司為搶占此結算場景，開始推出專屬回饋方案。新韓信用卡等從本月起提供 AI 訂閱消費特定回饋，顯示 AI 工具費用化趨勢在特定市場已獲金融業關注。",
+    "highlights": [
+      "AI 訂閱費正成為韓國消費者固定月支出項目",
+      "新韓信用卡等推出 AI 訂閱消費回饋優惠",
+      "信用卡公司將 AI 結算視為新興支付場景",
+      "此趨勢反映 AI 訂閱費用的「通信費化」",
+      "目前僅限韓國市場，其他地區讀者參考價值有限"
+    ],
+    "why_it_matters": "對在韓國使用 AI 付費服務的技術人員，若符合條件可降低訂閱成本；但此資訊地理限定，多數讀者無法直接受惠。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此視為「AI 工具成本規劃」信號——若特定市場金融機構開始提供訂閱回饋，代表該市場 AI 付費滲透率已達規模，可作為優先佈局參考。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-anthropic-fable-5-mythos-5",
+    "title": "美國政府出口管制令：Anthropic 強制停用 Fable 5 與 Mythos 5",
+    "title_original": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything",
+    "published_at": "2026-06-13T01:01:50+00:00",
+    "category": "hot-topics",
+    "summary": "美國政府以國家安全為由，向 Anthropic 發布出口管制指令，要求立即停用 Fable 5 與 Mythos 5，所有外國國民（含 Anthropic 外籍員工）均受影響。政府聲稱發現繞過安全限制的方法，但 Anthropic 審查後認為，所謂漏洞在其他模型（包括 GPT-5.5）中同樣存在，技術層面並無特殊之處。API 存取於美西時間 6:59 PM 正式中斷。",
+    "highlights": [
+      "美國政府援引出口管制法規，要求 Anthropic 對所有外國用戶停用 Fable 5 與 Mythos 5",
+      "指令未提供具體國安疑慮細節，僅口頭告知存在所謂「越獄」方法",
+      "Anthropic 審查後確認：所謂漏洞為「閱讀程式碼庫並修復錯誤」的能力，此功能在其他模型常見",
+      "除 Fable 5 與 Mythos 5 外，其他 Anthropic 模型（如 Opus 4.8）不受影響",
+      "此事件創下政府直接干預模型存取的先例，後續發展值得關注"
+    ],
+    "why_it_matters": "這是首例美國政府直接強制停用商業 AI 模型的出口管制行動，反映地緣政治對 AI 產業的干預正在升級。對技術用戶而言，雲端 API 的可用性不再完全可靠，需有本地備援方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "若已整合 Fable 5 API，應立即切換至 Opus 4.8 或其他備援模型，並評估部署本地開源模型（如 Llama、Qwen）作為長期風險對沖。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-06-13-openai-webrtc",
     "title": "OpenAI WebRTC音訊對話新增文件上下文功能",
     "title_original": "OpenAI WebRTC Audio Session, now with document context",
@@ -103,6 +274,34 @@
     "automation_angle_zh": "可用此討論為契機，評估自身使用場景是否真的需要本地部署，或評估量化各方案的實際TCO。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-reddit",
+    "title": "Reddit 討論：當看到糟糕輸出時如何逆向推斷提示詞與模型身份",
+    "title_original": "Do you ever see a post so bad that you ask yourself what was the prompt if this is the output and what model wrote this.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u46czd/do_you_ever_see_a_post_so_bad_that_you_ask/",
+    "published_at": "2026-06-12T20:16:03+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 區一篇討論貼文，網友好奇當看到一篇極糟的 AI 輸出時，該如何逆向工程推測其背後的提示詞與使用的模型。討論區成員分享利用輸出特徵、token 使用模式、已知模型缺陷等線索來做判斷的經驗。這類「模型指紋識別」在本地部署與模型評測圈有一定實用價值。",
+    "highlights": [
+      "可透過輸出特徵（如特定token濫用、截斷行為）識別模型家族",
+      "指令遵循失敗模式能間接反映訓練數據與對齊策略",
+      "此類討論在 r/LocalLLaMA 與相關評測 repo 有延伸探讨",
+      "對本地部署模型調校與 prompt engineering 有參考價值",
+      "純主觀觀察，缺乏可重現的系統化方法"
+    ],
+    "why_it_matters": "模型指紋識別可輔助評估未知模型的特性，對選擇本地部署候選與設計對應優化策略有參考意義，但純靠肉眼判斷仍屬主觀。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可建立已知模型的輸出指紋資料庫，用於自動化識別 Pipeline 中各模型輸出源，或作為模型裁判系統的輔助特徵。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
