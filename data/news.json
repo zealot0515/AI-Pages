@@ -1,5 +1,142 @@
 [
   {
+    "id": "2026-06-13-openai-webrtc",
+    "title": "OpenAI WebRTC音訊對話新增文件上下文功能",
+    "title_original": "OpenAI WebRTC Audio Session, now with document context",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything",
+    "published_at": "2026-06-12T23:53:04+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison更新其WebRTC音訊工具至GPT-Realtime-2模型，並新增文件上下文粘貼功能，現在可瀏覽器內進行帶文件背景的語音對話，適合探索長文件的互動式分析。",
+    "highlights": [
+      "使用GPT-Realtime-2模型，號稱具GPT-5級推論能力",
+      "支援在瀏覽器內粘貼文件作為上下文",
+      "可進行針對文件內容的語音問答互動",
+      "基於WebRTC API實現即時音訊傳輸",
+      "知識截止日為2024年9月30日"
+    ],
+    "why_it_matters": "這是少見的瀏覽器端語音+文件上下文實作，可作為快速原型參考；對於需要對長文件進行口頭討論的技術玩家有一定實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可fork Simon Willison的開源實作，修改為針對自己文件庫的語音問答工具，評估此模式是否比純文字對話更高效。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-opencode",
+    "title": "Opencode在後台運行後端服務方面表現不佳",
+    "title_original": "Opencode is really bad at running backends in the background",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u4adk4/opencode_is_really_bad_at_running_backends_in_the/",
+    "published_at": "2026-06-12T22:57:49+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit用戶反映Opencode在長時間後台運行後端服務時出現問題，包括連接穩定性與任務持續性障礙。此問題影響需要Agent長時間獨立完成開發任務的使用場景。",
+    "highlights": [
+      "後端服務長時運行穩定性問題",
+      "任務持續性存在障礙",
+      "影響開發Agent獨立工作場景",
+      "為Opencode改進方向提供用戶反饋"
+    ],
+    "why_it_matters": "Agent長時運行能力是自動化的核心需求，此問題揭示當前Agent框架在生產環境部署的真實限制，用戶需關注後續版本修復。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估Opencode時需測試長任務場景，避免在需要後台持久運行的自動化流程中單獨依賴此工具。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-github-copilot",
+    "title": "GitHub Copilot程式碼審查新增配置與控制項",
+    "title_original": "Copilot code review: New configurations and controls",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls",
+    "published_at": "2026-06-12T21:37:14+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot程式碼審查功能更新，新增組織級Runner控制、內容排除支援，並移除Repository自訂指令的字元限制，讓大型專案的AI輔助審查更易於客製化。",
+    "highlights": [
+      "組織Runner控制可精細管理誰能使用Copilot審查",
+      "支援內容排除，避免特定檔案或機密資訊被分析",
+      "移除Repository自訂指令的字元限制",
+      "有助於大型組織推動一致的程式碼審查標準",
+      "官方GitHub Changelog公告，可信度高"
+    ],
+    "why_it_matters": "這些更新讓Copilot程式碼審查更適合企業級使用，技術Lead可借此降低團隊成員的程式碼審查負擔，同時確保敏感資訊不會外洩。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在團隊內部Repo啟用新功能，觀察內容排除與自訂指令是否能有效減少無關緊要的建議，進而提升審查效率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-13-llm",
+    "title": "本地LLM不再是民主化工具？硬體門檻失控",
+    "title_original": "Local LLMs aren't democratic anymore... the hardware barrier has gotten out of hand.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u479jf/local_llms_arent_democratic_anymore_the_hardware/",
+    "published_at": "2026-06-12T20:51:33+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA社群討論指出，運行本地大語言模型的硬體需求持續攀升，GPU VRAM需求已從數GB暴漲至數十GB，使一般技術愛好者難以負擔。本地AI的民主化理想正面臨嚴峻硬體壁壘挑戰，許多使用者被迫轉向雲端方案。",
+    "highlights": [
+      "GPU VRAM需求持續攀升，進入門檻提高",
+      "本地LLM運行成本與雲端方案差距縮小",
+      "一般技術愛好者負擔能力受到考驗",
+      "討論反映開源本地AI推廣的實際困境"
+    ],
+    "why_it_matters": "硬體壁壘上升可能加速本地AI生態分化，技術用戶需重新評估本地部署的成本效益比，特別是與雲端API費用的比較。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用此討論為契機，評估自身使用場景是否真的需要本地部署，或評估量化各方案的實際TCO。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-2023",
+    "title": "2023年初模型微調後變得實用：實驗分享",
+    "title_original": "Finetuned a Early 2023-Era Model on 2 Instruction Following Datasets and it Became Good",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u449wv/finetuned_a_early_2023era_model_on_2_instruction/",
+    "published_at": "2026-06-12T18:56:39+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者在Reddit分享其將2023年初的開源模型透過2個指令追隨數據集微調後，模型能力顯著提升的實驗。過程展示了資料集選擇對模型指令遵循能力的影响，為模型優化提供參考路徑。",
+    "highlights": [
+      "使用2個指令追隨數據集微調",
+      "2023年初模型能力獲明顯提升",
+      "資料集選擇對指令遵循影響顯著",
+      "實驗提供模型優化的實證參考"
+    ],
+    "why_it_matters": "此實驗證明即使是較舊的開源模型，透過適當微調仍有實用價值，為資源有限但需要定製化模型的技術用戶提供可行方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可參考此微調方法，針對特定任務對開源模型進行輕量微調，降低對大型模型的依賴與成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-12-andrew-singleton-ai",
     "title": "Andrew Singleton 談 AI 經濟學諷刺寓言：警惕估值泡沫的循環論證",
     "title_original": "Quoting Andrew Singleton",
@@ -31456,6 +31593,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-13-adobe-ai",
+    "title": "Adobe推出AI代理自動化行銷工作流程程",
+    "title_original": "Adobe Launches AI Agents to Automate Marketing Workflows - PYMNTS.com",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNGx3ajNZdHo2UTJZV0RIWFVHYW5iREQ5enNPX1A3Q1pHZHJ2R2JRZnFjVjRMRE9CMjZzOFJ5ZWE5Y3h0b0Z0ZlkteTE5Z2RycEV5TWlPcm1ETWoxNi15RHRfaFZBQmJyMW5YdndwZmpTSGRxV01xZVA0REFtX0hIVDVaQS1nak5UQzAzZUlWQWlQM00xcFRZa2xTN3dma3ctR0pYYmNkVUw2OV82NTItdXFMNHM?oc=5",
+    "published_at": "2026-04-20T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Adobe宣布推出AI代理功能瞄準行銷工作流程自動化，具體技術規格與API開放程度尚待確認。消息來源為產業媒體，技術細節披露有限，適合關注行銷工具動態者參考。",
+    "highlights": [
+      "Adobe品牌的AI代理產品，瞄準行銷場景",
+      "具體功能細節尚未完全公開",
+      "來源為PYMNTS.com產業報導",
+      "對開發者而言API文件與客製化空間未知",
+      "較偏行銷從業人員，非技術開發者核心關注"
+    ],
+    "why_it_matters": "Adobe作為企業軟體大廠，其AI代理動態可能影響企業行銷自動化市場格局，但目前技術文件不足，技術玩家難以評估其實用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議等Adobe發布官方技術文件或API文件後再評估，目前階段不建議技術玩家投入整合資源。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-22-chatgpt-gemini-ai",
     "title": "ChatGPT 還是 Gemini？轉職者訂閱 AI 工具該怎麼選",
     "title_original": "ChatGPT還是Gemini？ 她转职想訂閱AI 過來人推這款 - e南洋",
@@ -35088,6 +35253,33 @@
       "open-source-ai",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-google-gemini-ai-5",
+    "title": "Google Gemini AI會員權益出爐：免費用戶每月5次深度搜索",
+    "title_original": "谷歌 Gemini AI 會員权益公布：免費使用者每月 5 次深度搜索功能 - qq.com",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xeDJPcmg1MFJ4ZnFiTTVDUzZYN1g1WmtveEp2MzBnVG9wajJSZ2xtcmhZUUs4WkFNdUFBVXhOUEhibURDMjVLNG5CQWRHR2JEbDVPcml3?oc=5",
+    "published_at": "2025-09-07T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Google公布Gemini AI付費會員權益結構，免費用戶每月僅獲得5次深度搜索配額。付費會員可獲得更多查詢額度與優先訪問新功能。消息來自騰訊新聞轉載，原始Google公告細節待確認。",
+    "highlights": [
+      "免費用戶每月5次深度搜索額度",
+      "付費會員獲得更多查詢配額",
+      "付費方案解鎖優先功能訪問權",
+      "細節待Google官方公告確認"
+    ],
+    "why_it_matters": "Gemini定價策略反映Google對AI搜尋市場的商業化步伐，技術用戶需評估此配額是否足以支援日常工作，或需考慮其他替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用此配額限制評估Gemini在自動化工作流程的適用場景，並規劃備用方案如API呼叫或本地模型。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
