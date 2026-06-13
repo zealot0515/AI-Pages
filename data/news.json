@@ -1,5 +1,235 @@
 [
   {
+    "id": "2026-06-13-help-scout-mcp-server-ai-agent-help-scout-mcp",
+    "title": "help-scout-mcp-server：AI Agent查詢Help Scout對話的MCP整合",
+    "title_original": "drewburchfield/help-scout-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/drewburchfield/help-scout-mcp-server",
+    "published_at": "2026-06-13T18:16:58Z",
+    "category": "agent-skills",
+    "summary": "TypeScript開發的MCP伺服器，讓AI Agent能搜尋Help Scout對話、討論串與收件匣。可用自然語言檢索客服歷史對話，適合客服自動化與客戶洞察場景。",
+    "highlights": [
+      "支援搜尋Help Scout對話、討論串與收件匣",
+      "讓AI Agent以自然語言查詢客服歷史",
+      "星標42，相對較高的社群關注度",
+      "TypeScript開發，需Node.js運行環境",
+      "可用於客服自動化與客戶問題模式分析"
+    ],
+    "why_it_matters": "將AI Agent能力帶入客服系統，用自然語言檢索歷史對話可加速客服自動化與客戶洞察，技術用戶可快速實驗智能客服流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署後讓AI Agent自動檢索相關客戶歷史對話，生成回覆建議或識別高價值客戶模式，自動化客服回應初篩流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1084679?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-iris-agentic-dev-intersystems-iris-rust-mcp",
+    "title": "iris-agentic-dev：InterSystems IRIS的Rust單一二進制MCP伺服器",
+    "title_original": "intersystems-community/iris-agentic-dev",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/intersystems-community/iris-agentic-dev",
+    "published_at": "2026-06-13T18:16:36Z",
+    "category": "agent-skills",
+    "summary": "Rust開發的單一二進制MCP伺服器，為InterSystems IRIS數據庫提供AI編碼工具支援，可無縫對接VS Code Copilot與Claude Code，提升資料庫開發效率。",
+    "highlights": [
+      "Rust單一二進制，易於部署與分發",
+      "原生支援VS Code Copilot與Claude Code整合",
+      "專為InterSystems IRIS數據庫場景優化",
+      "星標14，項目初期，文件可能不完整",
+      "適合已有IRIS數據庫的技術團隊評估"
+    ],
+    "why_it_matters": "將AI編碼能力直接帶入IRIS數據庫開發工作流程，用Rust確保高效能與記憶體安全，技術用戶可快速評估對現有流程的加成。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載二進制檔案，在IRIS開發環境啟動MCP伺服器，測試AI輔助SQL生成、預存程序優化等資料庫開發任務的自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/29968804?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-thingctx-w3c-web-of-things",
+    "title": "thingctx：W3C Web of Things 統一代理驅動框架",
+    "title_original": "thingctx/thingctx",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/thingctx/thingctx",
+    "published_at": "2026-06-13T18:14:00Z",
+    "category": "agent-skills",
+    "summary": "透過標準化 W3C WoT Thing 描述檔即可驅動任意物聯網設備與代理的整合框架，無需為每種設備撰寫專屬整合程式碼，大幅簡化智慧家庭與工業 IoT 場景的 Agent 接入流程。",
+    "highlights": [
+      "基於 W3C WoT 標準描述檔，設備互通性強",
+      "Python 實作，輕量依賴且易於擴展",
+      "擺脫傳統一對一適配器模式",
+      "支援從 Thing Description 自動生成代理工具",
+      "可與現有 MCP 框架協同運作"
+    ],
+    "why_it_matters": "IoT 設備整合通常是 Agent 開發的痛點，thingctx 以標準化描述檔作為通用介面，讓技術團隊只需維護一份 WoT 描述即可對接多種設備，降低維護負擔。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 thingctx 快速建立實驗性 IoT 代理原型，先用 WoT 描述檔定義設備行為，再透過 Python 指令碼驅動自動化測試流程，縮短從概念到可演示項目的時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/291583435?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-skillreaper-ai-agent",
+    "title": "skillreaper：AI Agent 技能棧證據化修剪工具",
+    "title_original": "thousandflowers/skillreaper",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/thousandflowers/skillreaper",
+    "published_at": "2026-06-13T18:06:10Z",
+    "category": "agent-skills",
+    "summary": "一個基於真實對話記錄對 AI Agent 技能、MCP 伺服器、代理進行掃描與安全修剪的開源工具，支援生成詳細報告並標記閒置項目，幫助技術團隊優化 Agent 棧的資源消耗與維護成本。",
+    "highlights": [
+      "使用真實轉錄證據而非猜測來判斷技能使用狀態",
+      "支援 MCP 伺服器與多代理架構的批量審計",
+      "生成 JSON/HTML 格式的修剪報告",
+      "Go 語言實作，單一二進制部署簡便",
+      "可整合進 CI/CD 流程進行常規化維護"
+    ],
+    "why_it_matters": "隨著 Agent 專案規模擴大，技能堆疊常變得雜亂無章，此工具提供資料驅動的修剪決策依據，避免誤刪仍在使用的關鍵技能，節省維運時間與 API 成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 skillreaper 整合進 CI 流程，每週自動生成技能使用報告並通知團隊哪些 MCP 伺服器可以卸載，實現被動的技能棧健康度監控。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/104426696?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-dense-mem-ai-agent-mcp",
+    "title": "dense-mem：自託管AI Agent記憶伺服器，支援MCP與衝突檢測",
+    "title_original": "markhuangai/dense-mem",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/markhuangai/dense-mem",
+    "published_at": "2026-06-13T17:49:42Z",
+    "category": "agent-skills",
+    "summary": "Go語言開發的自託管AI Agent記憶服務，配備MCP介面、證據溯源、類型化斷言、衝突檢測、嵌入檢索，並支援PostgreSQL與Neo4j雙資料庫後端。",
+    "highlights": [
+      "自託管部署，完全控制記憶數據",
+      "支援MCP協議，可與主流Agent框架整合",
+      "內建衝突檢測與證據溯源，提升記憶可靠性",
+      "支援PostgreSQL與Neo4j，彈性選擇存儲方案",
+      "星標16，項目初期，社群支援有限"
+    ],
+    "why_it_matters": "為需要長期記憶一致性的Agent應用提供開源自託管方案，適合對數據主權有要求且願意早期採用新技術的開發團隊。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署dense-mem作為Agent的記憶後端，實驗多Agent協作時的記憶衝突檢測與證據溯源，提升複雜任務的可靠性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/283287633?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-xgrep-mcp",
+    "title": "xgrep：支援 MCP 的超高速程式碼搜尋引擎",
+    "title_original": "momokun7/xgrep",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/momokun7/xgrep",
+    "published_at": "2026-06-13T17:42:30Z",
+    "category": "agent-skills",
+    "summary": "Rust 實作的索引式程式碼搜尋工具，在重複搜尋場景下比 ripgrep 更快、資源佔用更低，同時內建 MCP 伺服器讓 AI Agent 能直接呼叫進行程式碼庫探索與定位。",
+    "highlights": [
+      "基於 Rust，記憶體效率與速度兼顧",
+      "重複搜尋時有索引加速優勢",
+      "內建 MCP 伺服器可直接被 Agent 呼叫",
+      "同時支援快速檔案搜尋（fd/find 替代方案）",
+      "12 顆星但技術價值顯著，值得關注"
+    ],
+    "why_it_matters": "開發者工作流程中頻繁的程式碼搜尋消耗大量時間，xgrep 的索引機制與 MCP 原生支援讓 AI Agent 能更高效地探索大型程式碼庫，直接提升工程師與 Agent 的協作效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 xgrep MCP 工具註冊到自己的 Agent 配置中，讓 AI 在處理程式碼相關任務時自動使用索引搜尋，特別適合需要頻繁跨檔案分析的重構或遷移場景。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/105904524?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-128gb-bd-r-xl-m-disc",
+    "title": "128GB BD-R XL M-DISC：消費級光學封存儲存新標竿",
+    "title_original": "I don’t know who needs to hear this but 128GB BD-R XL M-DISC is SOTA for consumer-available archival optical storage (for backing up your models)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u4rarz/i_dont_know_who_needs_to_hear_this_but_128gb_bdr/",
+    "published_at": "2026-06-13T13:41:19+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 社群討論指出 128GB BD-R XL M-DISC 光學碟片是目前消費級可用封存光學儲存的領先方案，適合備份大型 AI 模型與重要資料，具備長期資料保存穩定性優勢。",
+    "highlights": [
+      "單片容量達 128GB，適合大型模型封存",
+      "M-DISC 技術標榜千年級資料保存壽命",
+      "相較固態硬碟無寫入磨損問題",
+      "光學媒體不受電磁干擾影響",
+      "硬體成本低，適合離線備份策略"
+    ],
+    "why_it_matters": "AI 模型檔案體積持續增大，傳統硬碟備份有壽命限制，M-DISC 光學方案提供離線、長期、冷儲存的替代選擇，對重視資料永續保存的技術團隊具有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估將 M-DISC 光碟納入備份策略，配合自動化腳本定期將訓練好的模型燒錄至光碟存放，實現符合成本效益的異地備份方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-32-pentium-m",
+    "title": "32位跨平台程式碼代理在Pentium M上以不到一秒啟動時間運行",
+    "title_original": "32 bit crossplatform coding agent running on pentium m with less than a second startup time",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u4pe2t/32_bit_crossplatform_coding_agent_running_on/",
+    "published_at": "2026-06-13T12:13:10+00:00",
+    "category": "new-models",
+    "summary": "Reddit網友展示一款可在老舊Pentium M處理器上運行的32位跨平台程式碼代理，啟動時間極短。這代表AI程式碼輔助工具正朝輕量化、低資源方向發展，對邊緣裝置或老舊硬體的使用者可能是實用替代方案。",
+    "highlights": [
+      "支援32位元架構，相容老舊Pentium M處理器",
+      "啟動時間少於一秒，響應速度快",
+      "跨平台支援，適用多種作業系統",
+      "輕量化設計降低硬體需求門檻",
+      "可作為低資源環境的程式碼輔助工具"
+    ],
+    "why_it_matters": "傳統AI程式碼工具往往需要高階GPU支援，此專案展示超輕量部署的可能性，對無法升級硬體的開發者或嵌入式系統場景有實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可在老舊筆電或嵌入式設備上部署此代理，測試其程式碼生成與補全能力，評估輕量化AI工具在資源受限環境下的實用性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-13-llama-launcher-v1-3",
     "title": "llama-launcher v1.3 發布：新增貝葉斯優化超參數自動調校",
     "title_original": "llama-launcher v1.3 release -> Bayesian Optimisation",
@@ -381,6 +611,34 @@
     "why_it_matters": "Agent長時運行能力是自動化的核心需求，此問題揭示當前Agent框架在生產環境部署的真實限制，用戶需關注後續版本修復。",
     "automation_angle": null,
     "automation_angle_zh": "評估Opencode時需測試長任務場景，避免在需要後台持久運行的自動化流程中單獨依賴此工具。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-13-meta-ai",
+    "title": "Meta AI部門策略混乱，高層人事與方向爭執",
+    "title_original": "Meta’s AI unit faces chaos as executives struggle with strategy - Crypto Briefing",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1VOUVQM09fMmhqNFRxLWRseGR5eW5UdkJqNmZoaTZrdjdGNUJMSWhEek9xSWtlSVFkSzBLaGJQWTFHekttWHFQSjRFRF90YUtMbWVKZ1BYU2tTVnRRNmpF?oc=5",
+    "published_at": "2026-06-12T22:25:48+00:00",
+    "category": "hot-topics",
+    "summary": "Crypto Briefing報導Meta AI部門面臨內部策略混乱問題，高層在AI發展方向上存在分歧。此類組織動態可能影響Llama系列模型後續發展節奏與開源策略，值得關注其對開發者生態的潛在影響。",
+    "highlights": [
+      "Meta AI高層存在策略分歧",
+      "部門內部運作面臨混乱",
+      "可能影響Llama模型發展節奏",
+      "開源AI策略方向不明確",
+      "資訊來源為加密貨幣媒體，可信度中等"
+    ],
+    "why_it_matters": "Meta作為開源AI重要推手，其策略變化將影響整個開源模型生態。此類組織問題若持續可能延遲新模型發布或改變Llama授權條款。",
+    "automation_angle": null,
+    "automation_angle_zh": "密切關注Llama模型版本更新動態，若Meta策略調整可能影響基於Llama的本地部署專案，需準備備選方案如Qwen或Mistral模型。",
     "tags": [
       "hot-topics",
       "rss",
@@ -16178,6 +16436,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-13-api-5-claude-ai",
+    "title": "神秘公司因員工API授權未設用量限制，單月燒掉5億美元Claude AI費用",
+    "title_original": "Mystery company accidentally blew $500 million on Claude AI in a single month — failed to put usage limit on licenses for employees - Tom's Hardware",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQV0hVVlFtTXYwNEY2RzkxeXhzYmppWGRUX2MxRVpSSENkTWdqT0dPdkw2bGJpTExyb2hmc2NpekMycF91SnBiaGYzb256dm11QkxSeExqS3E3YkpBUERxMElsbGU1WjRRM3V2QWNwQmpDYW1LeGtha21VU2Y3RHlNeGliSmdJZ2dabUpXdjliSmd0WklfLUlwMmpyTTVBeDJicWs1Nl9kZFZ5Zmp5WnVkZlkwQ3o2bkVXbTAyclNyVTlqX2VrU2hjRWxSY1JRdzROQWNYQ2Y1alEyZzItVEppLWJGVlhPejZjeE1Vc0hMa216QjNtUkFLR01NOWpYdkZucjAydlVWWVZkVWxkVG5rdFI3bWgtdElZcU42QnRIZDA?oc=5",
+    "published_at": "2026-05-29T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Tom's Hardware報導一家神秘公司因未對員工Claude API授權設定用量上限，單月支出高達5億美元。此事件暴露企業級AI API成本管理的重大漏洞，也為開發者提供寶貴的用量控制與成本監控經驗。",
+    "highlights": [
+      "員工API帳號缺乏用量上限機制",
+      "單月Claude AI支出達5億美元",
+      "事件發生於API授權管理疏失",
+      "突顯企業AI成本管控重要性",
+      "Tom's Hardware為相對可信科技媒體"
+    ],
+    "why_it_matters": "隨著企業大規模採用AI API，成本失控風險升高。此案例提醒開發者與IT管理人員必須重視用量監控與額度設定，避免意外超支。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應檢查自身專案的API用量監控機制，確保設定預算上限與用量警報。可作為企業內部AI工具成本管控最佳實踐的案例參考。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-29-yantrikdb-ai",
     "title": "yantrikdb：AI 代理認知記憶引擎",
     "title_original": "yantrikos/yantrikdb",
@@ -18891,6 +19177,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-13-2026-20-ai-agent",
+    "title": "2026 年 20 款最佳 AI Agent 工作流程工具評測",
+    "title_original": "The 20 Best AI Agent Workflow Tools Worth Using in 2026 - StartupHub.ai",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPd3BZZ2g0cHNuUTQ2V2lVbEdwR2lEQWdNc3pUSmlWWHNIMVBjZ3M1TUhzRUl1S0FHTkNpSjFCWHBpNDRKTWxLQTVpOWllZVdlNFhoVDlwcGJIbzZjV2Vjel8yeUJpRGlUdkJITDhtbzRQV0U2WFlsMzNhQUw0TkkwMXZ1ZzZrYjNH?oc=5",
+    "published_at": "2026-05-27T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "StartupHub.ai 整理的 2026 年 AI Agent 工作流程工具年度評測清單，涵蓋主流代理框架、自動化平台與監控工具的比較，適合快速掌握市場工具生態但缺乏深度技術分析。",
+    "highlights": [
+      "涵蓋 20 款主流 Agent 工作流程工具",
+      "提供橫向功能比較與適用場景說明",
+      "主要面向產品選型而非技術實作",
+      "編輯性內容，技術深度有限",
+      "可作為初步市場調研的參考起點"
+    ],
+    "why_it_matters": "對於需要快速評估 Agent 工具棧的技術決策者，這份清單提供了市場概觀，但實作細節需參考各工具官方文件與社群回饋，不宜作為最終技術選型的唯一依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此清單作為工具探索的目錄，按圖索驥逐一評估有興趣的工具，針對特定自動化場景（如 CI/CD 整合或資料處理管線）建立自己的評測矩陣。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-27-kyle-ferrana-ai",
