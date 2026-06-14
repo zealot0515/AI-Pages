@@ -1,5 +1,34 @@
 [
   {
+    "id": "2026-06-14-agent-harness-generator-ai-agent",
+    "title": "agent-harness-generator：AI Agent 框架元支架工具",
+    "title_original": "ruvnet/agent-harness-generator",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ruvnet/agent-harness-generator",
+    "published_at": "2026-06-14T07:22:08Z",
+    "category": "agent-skills",
+    "summary": "開源元支架工具，可快速生成自訂 Agent 框架，含 CLI、MCP 伺服器、記憶模組、學習迴圈與見證簽名發布機制，支援 Claude Code、Codex、pi.dev、Hermes、OpenClaw、RVM 等多種後端。",
+    "highlights": [
+      "元支架工具，一鍵生成 Agent 框架結構",
+      "內建 MCP 伺服器，支援工具擴充",
+      "記憶模組與學習迴圈，加速 Agent 開發",
+      "支援見證簽名發布，提升可審計性",
+      "相容多種 Agent 後端（Claude Code、Codex 等）"
+    ],
+    "why_it_matters": "降低 Agent 框架開發門檻，技術宅可快速原型化自訂 Agent，並整合現有工具鏈，節省從零建構的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 npx @ruvnet/agent-harness-generator 初始化專案，快速建構客製化 Agent 流程並接入工作流程測試。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/2934394?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-14-pypi-pyodide-wasm-python",
     "title": "PyPI 現已支援 Pyodide WASM 輪套件發布：Python 生態進入瀏覽器時代",
     "title_original": "Publishing WASM wheels to PyPI for use with Pyodide",
