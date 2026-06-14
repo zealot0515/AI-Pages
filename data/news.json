@@ -1,5 +1,121 @@
 [
   {
+    "id": "2026-06-14-capa-yaml-agent",
+    "title": "Capa：以 YAML 統一設定跨 Agent 的技能與工具擴展",
+    "title_original": "infragate/capa",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/infragate/capa",
+    "published_at": "2026-06-14T18:02:51Z",
+    "category": "agent-skills",
+    "summary": "Capa 是一款 MCP 專案，透過單一 capabilities.yaml 檔案即可將技能、工具、規則、子 Agent、MCP 伺服器與插件統一注入到 Cursor、Claude Code、Codex、Windsurf、GitHub Copilot 等 30+ 款 AI 程式碼助理。",
+    "highlights": [
+      "支援 30+ 款主流 AI 程式碼助理的統一擴展",
+      "以 YAML 設定檔管理，降低維護複雜度",
+      "可注入自訂技能、工具與規則至任意支援的 Agent",
+      "TypeScript 實作，適合前端或 Node.js 技術棧整合",
+      "減少重複為每款 Agent 個別設定工具的時間成本"
+    ],
+    "why_it_matters": "對於需要同時使用多款 AI 程式碼助理的技術用戶，Capa 提供一致的擴展管理方式，可大幅降低工具設定與維護的認知負擔。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可定義一套統一的 capabilities.yaml，在不同專案或團隊成員的 Agent 環境中快速部署一致的技能與工具集，實現工作流程標準化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/220209750?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-14-trinity-ai-24-7",
+    "title": "Trinity：將 AI 助理轉為 24/7 自主員工的開源框架",
+    "title_original": "Abilityai/trinity",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Abilityai/trinity",
+    "published_at": "2026-06-14T17:21:45Z",
+    "category": "agent-skills",
+    "summary": "Trinity 是 Abilityai 推出的開源專案，旨在將 Claude Code 等 AI 助理升級為可自主運作的員工角色。支援 24 小時不間斷運行、記憶機制與多 Agent 協調，採用 Apache 2.0 授權，可自架或使用托管版本。",
+    "highlights": [
+      "開源可自架，技術用戶可完整掌控部署環境",
+      "支援 24/7 不間斷運行，突破傳統對話式 AI 的使用限制",
+      "內建記憶機制，Agent 可跨 sessions 保留上下文",
+      "多 Agent 協調能力，適合建立自動化工作團隊",
+      "Apache 2.0 授權，商業使用無法律風險"
+    ],
+    "why_it_matters": "Trinity 將 AI Agent 從「工具」提升為「虛擬員工」的概念值得關注，其自主運作與記憶機制若成熟，可大幅減少人工介入自動化流程的頻率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其部署為內部自動化流程的骨幹，例如讓多個 Trinity Agent 分別處理文件審核、郵件回覆、資料同步等任務，評估其穩定性與維護成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/130743226?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-14-andorinaai-hermes-whatsapp-agent-pc",
+    "title": "AndorinaAI 推出 Hermes WhatsApp 自動化管理 Agent，支援訊息排程、語音備忘、PC 檔案分享",
+    "title_original": "AndorinaAI/Andorina-WhatsApp-Agent-for-Hermes",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/AndorinaAI/Andorina-WhatsApp-Agent-for-Hermes",
+    "published_at": "2026-06-14T16:53:51Z",
+    "category": "agent-skills",
+    "summary": "開源專案將 Hermes 模型轉化為全自動 WhatsApp 管理工具，支援訊息排程發送、語音筆記、PC 檔案分享及聯絡人快速搜尋。基於 Python 開發，目前 GitHub 獲得 29 顆星，可本地部署執行。",
+    "highlights": [
+      "✅ Python 開源專案，本地端執行無需第三方 API",
+      "✅ 支援訊息排程與自動化發送",
+      "✅ 可傳送語音訊息與 PC 檔案",
+      "✅ 聯絡人搜尋與管理功能整合",
+      "⚠️ 目前星數偏低（29），成熟度待驗證"
+    ],
+    "why_it_matters": "若穩定性足夠，可將客服、通知、行銷等重複性 WhatsApp 任務完全自動化，省去手動操作時間。對於需要定時發送通知的開發者或小型團隊尤其實用。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合進現有工作流程，例如定時向客戶發送進度更新、或當系統監控觸發時自動發送告警至指定群組。建議先 Clone 後本地測試訊息排程與檔案分享功能穩定性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/282859841?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-14-code-agent-manager-ai",
+    "title": "Code Agent Manager：一站式管理多款 AI 程式碼助理",
+    "title_original": "Chat2AnyLLM/code-agent-manager",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Chat2AnyLLM/code-agent-manager",
+    "published_at": "2026-06-14T14:54:00Z",
+    "category": "agent-skills",
+    "summary": "Code Agent Manager 提供統一介面，可同時管理 Claude Code、Codex、Gemini 等多款主流 AI 程式碼助理。對於需要在不同模型間切換或比較輸出品質的技術用戶，此工具可減少環境切換成本。",
+    "highlights": [
+      "支援同時管理多款主流 AI 程式碼助理",
+      "統一介面降低環境設定與切換成本",
+      "可用於比較不同模型在同一任務上的表現差異",
+      "Python 實作，技術門檻低易於擴展",
+      "可用於團隊統一管理多種 AI 程式碼工具"
+    ],
+    "why_it_matters": "在 AI 程式碼助理百花齊放的時代，統一管理介面可提升技術團隊的工具使用效率，減少在不同模型間手動切換的時間損耗。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可部署後用它自動化比較不同模型在特定程式碼任務上的準確率與成本，選擇最適合專案需求的模型組合。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/225776311?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-14-mimo-v2-5-1000-3000-tps-dflash",
     "title": "小米 MiMo V2.5 現正以 1000-3000 tps 服務，DFlash 模型開源在即",
     "title_original": "Xiaomi is now serving MiMo V2.5 at 1000-3000tps using DFlash & Persistent kernel. DFLash model is out, open-source release promised coming soon",
@@ -54,6 +170,33 @@
       "Go"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/2057185?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-14-meta-ai-zuckerberg",
+    "title": "Meta AI 模型合作一年後傳出售　Zuckerberg 策略轉向成焦點",
+    "title_original": "A year after Meta tapped Alexandr Wang to build a new AI model, Zuckerberg has to sell it - CNBC",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM1N2TjhCLXhKUEVfUl9RUEYtWHRDUjk1VmY5U05GUXpKenczbThfSlUtNExrYkVTMkw2YlNhdlFpTFdKV01yUElsejZzc3RieWhOV0o3ZmRGdTRKYUhXSUgzTGxjeTBYSmM2WmV3MU9qVUVsb3dBVVgtajgtckpkSTdvQVlSQVg3YU1CbVhndW1tNFhjMHZnOEUzTXdqN1EzV2pXaUNGVdIBrAFBVV95cUxPUlZCb19ObnlKTTJubG9qMnhFR24ydk1ralZlNWt4VmNpYTlyLUozeUl0eUxaVi1SZzdOWVJ3WGw5TWg5WDFuV3NIM0RxV1VXdDhJbzYxSTl2cnhQS0hmdU1yYW9rbEw5ajE3NGJrb3hYYjFCUzFPa0t2c3pOY3NFWGlYYlJ5N3VZMHp5R0dBbWlEaUtNM205d2Y0elVxUzBSR1UwZ19Jc0s5a3Ux?oc=5",
+    "published_at": "2026-06-14T12:00:02+00:00",
+    "category": "hot-topics",
+    "summary": "Meta 與 Scale AI 創辦人 Alexandr Wang 合作開發新 AI 模型，經過約一年時間，近期傳出 Zuckerberg 可能出售該項目的消息。此事反映出大型科技公司在 AI 競賽中除了技術挑戰外，同樣面臨商業化與策略調整的壓力。",
+    "highlights": [
+      "Meta 與 Alexandr Wang 合作開發 AI 模型已逾一年",
+      "項目可能面臨出售或策略轉讓",
+      "顯示 AI 模型開發成本與商業化壓力",
+      "涉及 Meta 整體 AI 發展策略調整"
+    ],
+    "why_it_matters": "此事件影響 AI 產業投資者信心，也顯示即使是 Meta 這樣的科技巨頭，在 AI 模型開發上也面臨商業化壓力，技術領先不等於商業成功。",
+    "automation_angle": null,
+    "automation_angle_zh": "可持續追蹤此項目後續，若最終開源或出售，技術團隊可評估其對現有開源模型生態的影響，判斷是否值得整合進工作流程程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -31481,6 +31624,33 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-14-ai",
+    "title": "豆包收費爭議揭露中國 AI 應用免費時代終結",
+    "title_original": "豆包收费争议背後:AI應用的免費時代结束了 - 流媒體网",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1BaHVKblNaM21DcFd4Rkg3Tk9lUGNvZHlqXzd2VGNLdFFnRExtckhIVXota3R3ZVlLWHRhTTM0NzVQaTNQRjZiaVN0UHgtR3hoM1NwaTNLZll6bWM?oc=5",
+    "published_at": "2026-05-13T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "字節跳動旗下 AI 應用「豆包」近期因收費爭議引發用戶反彈，實際反映出中國 AI 應用市場正從免費模式轉向付費訂閱或消耗credits 的商業模式。這標誌著 AI 應用免費時代的結束。",
+    "highlights": [
+      "豆包開始對部分功能收費引發用戶不滿",
+      "中國 AI 應用市場整體走向付費模式",
+      "字節跳動調整豆包商業策略",
+      "用戶需重新適應 AI 付費生態"
+    ],
+    "why_it_matters": "此趨勢意味著技術用戶必須重新評估手中的 AI 工具成本結構，免費額度可能逐步縮減，需提前規劃預算與替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊應審視現有豆包或其他中國 AI 工具的用量與費用，評估是否轉向其他免費額度更穩定的替代方案，或談判企業帳號以控制成本。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
