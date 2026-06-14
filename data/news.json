@@ -1,5 +1,225 @@
 [
   {
+    "id": "2026-06-14-pypi-pyodide-wasm-python",
+    "title": "PyPI 現已支援 Pyodide WASM 輪套件發布：Python 生態進入瀏覽器時代",
+    "title_original": "Publishing WASM wheels to PyPI for use with Pyodide",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
+    "published_at": "2026-06-13T23:55:18+00:00",
+    "category": "agent-skills",
+    "summary": "Pyodide 314.0 正式支援向 PyPI 發布 WebAssembly 輪套件，開發者可直接將 C/Rust 擴展編譯為 WASM 並透過 micropip 安裝在瀏覽器中運行。目前已有 28 個套件採用 pyemscripten_202*_wasm32 標籤。",
+    "highlights": [
+      "PEP 783 定義的 PyEmscripten 平台正式獲 PyPI 支援",
+      "C 或 Rust 擴展現在可以 WASM 形式發布到 PyPI",
+      "Simon Willison 已發布 luau-wasm 示範套件",
+      "瀏覽器端 Python 環境可直接 pip install 這些套件"
+    ],
+    "why_it_matters": "這解除了 Pyodide 多年來的套件分發瓶頸，讓瀏覽器 Python 環境能使用的原生擴展數量將快速增長。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可利用 cibuildwheel + GitHub Actions 將自己的 C/Rust 專案打包為 WASM 輪，並發布到 PyPI，供瀏覽器端 AI 工具使用。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-14-item",
+    "title": "美國聯邦命令一夜關閉頂級雲端模型：本地部署的最強論點",
+    "title_original": "A single federal order switched off the best cloud model overnight. Clearest case for running local I've seen yet.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u55vl8/a_single_federal_order_switched_off_the_best/",
+    "published_at": "2026-06-13T23:54:11+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 貼文描述一起單一聯邦命令導致某頂級雲端模型服務被關閉的事件，發文者以此作為推動本地部署的理由，但未指名具體模型或命令細節。",
+    "highlights": [
+      "事件涉及某雲端 AI 服務被美國政府命令關閉",
+      "未提供具體模型名稱或命令內容",
+      "作者以此為據主張本地部署的必要性"
+    ],
+    "why_it_matters": "地緣政治風險確實是雲端 AI 的潛在威脅，但此貼文缺乏具體細節，難以評估其真實性和普遍性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可借此思考資料主權和合規需求，評估哪些工作負載不適合放在單一雲端供應商。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-14-gargantua-macos-mlx-ai-mcp-server",
+    "title": "gargantua：macOS系統清理工具，MLX本地AI解釋+MCP Server",
+    "title_original": "inceptyon-labs/gargantua",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/inceptyon-labs/gargantua",
+    "published_at": "2026-06-13T23:50:06Z",
+    "category": "agent-skills",
+    "summary": "gargantua是macOS原生系統清理工具，YAML驅動安全規則，本地MLX模型提供AI解釋，內建MCP Server支援Agent控制清理流程。",
+    "highlights": [
+      "Swift開發，macOS原生",
+      "YAML定義安全規則避免誤刪關鍵檔案",
+      "本地MLX模型提供清理決策解釋",
+      "MCP Server讓Agent可遠端觸發清理任務",
+      "僅21星星，專案初期階段"
+    ],
+    "why_it_matters": "MCP Server整合是亮點，代表Agent可直接控制系統清理操作。技術用戶可關注其MCP實作模式，評估跨系統控制授權風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "可安裝測試，觀察MCP Server如何暴露清理權限給Agent，評估是否可改造成自動化的系統維護Agent工具。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Swift"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/241482210?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-14-maven-indexer-mcp-ai-java",
+    "title": "Maven Indexer MCP：讓 AI 代理能搜尋本地 Java 依賴的開源工具",
+    "title_original": "tangcent/maven-indexer-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tangcent/maven-indexer-mcp",
+    "published_at": "2026-06-13T23:35:20Z",
+    "category": "agent-skills",
+    "summary": "一個 MCP 伺服器，可索引本地 Maven 和 Gradle 快取，讓 AI 代理能搜尋內部或私有 Java 依賴中的類別、實作、方法簽名和原始碼。目前 19 顆星，使用 TypeScript 開發。",
+    "highlights": [
+      "支援搜尋 local Maven/Gradle 快取中的類別和方法簽名",
+      "可讓 AI 代理查閱私有 Java 依賴的實作細節",
+      "TypeScript 實作，屬於 MCP 工具生態",
+      "今天就能 clone 並整合進 AI 工作流程"
+    ],
+    "why_it_matters": "開發者常需要理解複雜的 Java 依賴樹，此工具讓 AI 能直接查詢本地快取，節省人工閱讀大型專案的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此 MCP 接入 AI 代理後，可自動查詢專案中使用的框架或 SDK 內部實作，輔助程式碼審查或除錯。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/17569144?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-14-luau-wasm-0-1a0-luau",
+    "title": "Luau-WASM 0.1a0 發布：Luau 程式碼可在瀏覽器執行",
+    "title_original": "luau-wasm 0.1a0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything",
+    "published_at": "2026-06-13T23:14:30+00:00",
+    "category": "open-source-ai",
+    "summary": "Luau-WASM 0.1a0 正式發布，將 Roblox 的 Luau 指令碼語言編譯為 WebAssembly，可在瀏覽器環境執行。此版本支援發布 WASM 格式的 Python 輪胎至 PyPI，並可在 Pyodide 環境中使用，為前端開發者提供熟悉的 Lua 語法生態。",
+    "highlights": [
+      "Luau（Roblox 指令碼語言）成功編譯為 WebAssembly",
+      "支援 PyPI 發布 WASM 格式 Python 輪胎",
+      "可在 Pyodide 瀏覽器環境中直接使用",
+      "早期 alpha 版本，功能完整性待驗證"
+    ],
+    "why_it_matters": "Luau-WASM 開啟了在瀏覽器中執行高效 Lua 指令碼的可能性。對於需要客戶端指令碼處理且重視效能的應用，這是值得關注的技術方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可試用此專案評估 Luau 在瀏覽器端的效能表現，判斷是否適合用於替代或輔助現有的 JavaScript 指令碼處理流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-14-claude-code-sqlite",
+    "title": "Claude Code 成功破解 SQLite 欄位溯源難題",
+    "title_original": "Mapping SQLite result columns back to their source `table.column`",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything",
+    "published_at": "2026-06-13T23:05:00+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 嘗試讓 Claude Code（Opus 4.8）解決 Datasette 的 SQL 查詢欄位溯源問題，最終找出三種可行方案：使用 apsw 函式庫直接查詢、使用 ctypes 呼叫 SQLite C API 的 sqlite3_column_table_name() 函式、以及解析 EXPLAIN 輸出結果。此技術可讓任意 SQL 查詢結果自動標註來源資料表與欄位名稱。",
+    "highlights": [
+      "Claude Code 被用來自動推論複雜 SQL 查詢的欄位出處",
+      "方案一：apws 函式庫可直接取得欄位來源資訊",
+      "方案二：ctypes 呼叫 SQLite 內部 C 函式 sqlite3_column_table_name()",
+      "方案三：解析 EXPLAIN QUERY PLAN 輸出推斷資料表關聯",
+      "成功處理 JOIN、CTE 等複雜語法"
+    ],
+    "why_it_matters": "此技術展示了 AI Agent 解決資料庫底層問題的能力，可大幅簡化元資料推斷與資料溯源工作。對於需要理解陌生 SQL 結構的開發者或工具，這是實用性極高的技術。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將此技術整合至 SQL 分析工具，自動生成查詢結果的「來源地圖」，尤其適合資料品質檢測或 Schema 文件自動生成場景。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-14-reddit",
+    "title": "Reddit 討論：去中心化儲存模型權重的可行性",
+    "title_original": "Is there a decentralized place where model weights are stored/uploaded?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u50r3l/is_there_a_decentralized_place_where_model/",
+    "published_at": "2026-06-13T20:06:35+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論區有人在詢問是否有去中心化儲存或上傳模型權重的地方，反映社群對模型分發和備份方式的關注，但目前沒有明確的技術方案或產品。",
+    "highlights": [
+      "討論聚焦於模型權重的分散式儲存需求",
+      "目前尚無成熟或被廣泛採用的去中心化方案",
+      "屬於社群討論階段，缺乏具體產品或工具"
+    ],
+    "why_it_matters": "隨著模型權重檔案越來越大，如何高效、便宜、去中心化地分發和備份模型成為重要議題，但目前仍在探索階段。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可關注 IPFS、BitTorrent 或其他 P2P 協議在模型分發領域的應用，評估其可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-14-jarvis-ai-hud",
+    "title": "jarvis_ai：鋼鐵人風格本地語音助理與全息HUD",
+    "title_original": "eadmin2/jarvis_ai",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/eadmin2/jarvis_ai",
+    "published_at": "2026-06-13T20:05:33Z",
+    "category": "open-source-ai",
+    "summary": "jarvis_ai是一款Iron Man風格語音助理，整合本地Whisper STT與ElevenLabs語音，具Agent召喚的全息媒體面板，硬體自備。",
+    "highlights": [
+      "結合本地Whisper做語音轉文字",
+      "使用ElevenLabs合成語音輸出",
+      "全息HUD面板由Agent召喚生成",
+      "需自備硬體運行",
+      "僅55星星，成熟度待驗證"
+    ],
+    "why_it_matters": "展示語音+視覺Agent整合的酷炫形態，但55星星顯示專案關注度低。技術用戶可評估其語音Stack是否適合自建語音助理。",
+    "automation_angle": null,
+    "automation_angle_zh": "可研究其Whisper+ElevenLabs整合程式碼，作為自建語音Agent的參考範本，HUD部分則視需求評估實用性。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/60562795?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-13-help-scout-mcp-server-ai-agent-help-scout-mcp",
     "title": "help-scout-mcp-server：AI Agent查詢Help Scout對話的MCP整合",
     "title_original": "drewburchfield/help-scout-mcp-server",
@@ -1010,6 +1230,35 @@
       "en"
     ],
     "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-14-agent-reach-ai-agent",
+    "title": "Agent-Reach：讓AI Agent一眼看遍全網的開源工具",
+    "title_original": "Panniantong/Agent-Reach",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Panniantong/Agent-Reach",
+    "published_at": "2026-06-12T14:55:09Z",
+    "category": "agent-skills",
+    "summary": "Agent-Reach是一款開源CLI工具，支援AI Agent讀取與搜尋Twitter、Reddit、YouTube、GitHub、Bilibili、小紅書等平台，零API費用。",
+    "highlights": [
+      "GitHub星星數達27,406，社群高度關注",
+      "支援Twitter、Reddit、YouTube、GitHub、Bilibili、小紅書",
+      "CLI介面，無需支付平台API費用",
+      "Python實現，可整合進現有Agent Pipeline",
+      "為Agent提供即時社群資料獲取能力"
+    ],
+    "why_it_matters": "27K星星說明市場對零費用社群資料獲取有強烈需求。技術用戶可用此工具為Agent打造競爭情報、趨勢追蹤等自動化工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "整合進現有Agent框架，自動抓取指定關鍵詞在Twitter/Reddit/Bilibili的討論，生成每日輿情報告或竞品監控。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/73925474?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
