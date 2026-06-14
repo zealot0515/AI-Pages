@@ -1,5 +1,91 @@
 [
   {
+    "id": "2026-06-14-mimo-v2-5-1000-3000-tps-dflash",
+    "title": "小米 MiMo V2.5 現正以 1000-3000 tps 服務，DFlash 模型開源在即",
+    "title_original": "Xiaomi is now serving MiMo V2.5 at 1000-3000tps using DFlash & Persistent kernel. DFLash model is out, open-source release promised coming soon",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u5jtr8/xiaomi_is_now_serving_mimo_v25_at_10003000tps/",
+    "published_at": "2026-06-14T12:26:02+00:00",
+    "category": "new-models",
+    "summary": "Reddit 社群消息指出小米 MiMo V2.5 現正以 1000-3000 tps 提供服務，使用 DFlash 與 Persistent Kernel 技術，DFlash 模型已發布，開源版本承諾近期釋出。",
+    "highlights": [
+      "MiMo V2.5 服務吞吐量達 1000-3000 tps",
+      "採用 DFlash 與 Persistent Kernel 技術",
+      "DFlash 模型已對外發布",
+      "開源版本承諾即將釋出",
+      "來源為 Reddit 社群，未獲官方完全確認"
+    ],
+    "why_it_matters": "小米在本地模型推論優化上的進展可能為高效能本地部署提供新選擇，高吞吐量對生產環境部署具參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可關注 DFlash 開源進度，評估其推論效率是否適合用於本地部署的自動化服務，並測試與現有方案的效能差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-14-gograph-mcp-go",
+    "title": "gograph：內建 MCP 伺服器的 Go 靜態分析引擎",
+    "title_original": "ozgurcd/gograph",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ozgurcd/gograph",
+    "published_at": "2026-06-14T12:08:18Z",
+    "category": "open-source-ai",
+    "summary": "gograph 是一款本地優先的 Go 靜態分析引擎，內建 MCP 伺服器，可為 AI 程式碼 Agent 提供呼叫圖、影響分析、符號搜尋等確定性結構感知能力，176 stars 已驗證社群興趣。",
+    "highlights": [
+      "呼叫圖與影響分析能力",
+      "符號搜尋與結構感知",
+      "內建 MCP 伺服器相容 AI Agent",
+      "本地執行不依賴雲端",
+      "176 stars 顯示較高社群認可"
+    ],
+    "why_it_matters": "AI 程式碼 Agent 常缺乏確定性結構理解，gograph 可補足此缺口，提升程式碼分析與重構任務的準確性與可靠性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 gograph 整合至程式碼審查或重構 Agent 工作流程，利用其呼叫圖能力自動化大型程式碼庫的分析任務。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/2057185?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-14-cmuxlayer-agent-mcp",
+    "title": "cmuxlayer：終端 Agent 生命週期管理的 MCP 工具箱",
+    "title_original": "EtanHey/cmuxlayer",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/EtanHey/cmuxlayer",
+    "published_at": "2026-06-14T11:50:12Z",
+    "category": "agent-skills",
+    "summary": "cmuxlayer 是一個 MCP 伺服器，提供 25 種工具用於終端 Agent 生命週期管理，可生成、監控、協調 Claude、Codex、Cursor、Gemini、Kiro 等多種 Agent，並支援思考狀態偵測與批次輸入。",
+    "highlights": [
+      "支援 5 種主流 Agent 協調管理",
+      "25 種工具涵蓋生命週期全流程",
+      "思考狀態偵測提升 Agent 穩定性",
+      "支援批次輸入與版面管理",
+      "TypeScript 實作，11 stars 新興專案"
+    ],
+    "why_it_matters": "多 Agent 協作是工作流程自動化的重要方向，cmuxlayer 提供統一介面管理多種 Agent，可簡化複雜工作流程的建構與監控。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可整合 cmuxlayer 至自動化系統，用統一介面管理多個 Agent 任務，測試多 Agent 協作的效率提升。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/93338119?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-14-agent-harness-generator-ai-agent",
     "title": "agent-harness-generator：AI Agent 框架元支架工具",
     "title_original": "ruvnet/agent-harness-generator",
@@ -26,6 +112,61 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/2934394?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-14-r9700-ai-pro-llm",
+    "title": "雙顯卡 R9700 AI Pro 訓練 LLM 可行嗎？",
+    "title_original": "Dual r9700 ai pro for training llms?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u5bu25/dual_r9700_ai_pro_for_training_llms/",
+    "published_at": "2026-06-14T04:51:39+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群討論使用雙 AMD R9700 AI Pro 顯卡進行大型語言模型訓練的可行性。這是一個關於本地端 LLM 訓練硬體配置的使用者提問，反映出技術社群對於低成本本地訓練方案的持續關注。",
+    "highlights": [
+      "AMD R9700 AI Pro 為 AI 運算專用顯卡，討論焦點在雙卡並行訓練可行性",
+      "Reddit 討論品質參差不齊，此帖獲得 46.8 編輯分數，屬中等資訊價值",
+      "雙 GPU 訓練涉及 NVLink/交叉互連頻寬、VRAM 分配與訓練框架支援等技術細節",
+      "本地訓練 LLM 可繞過 API 費用，但需評估硬體投入與時間成本",
+      "類似提問常見於 LocalLLaMA，代表技術宅對自架模型的強烈需求"
+    ],
+    "why_it_matters": "對於技術宅而言，GPU 硬體成本是本地訓練最大障礙。此討論可幫助評估 AMD AI Pro 系列是否為 NVIDIA 以外的具性價比替代方案，尤其針對訓練而非推論場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可參考此討論的實際硬體配置與測試結果，評估是否值得將現有工作站升級為雙顯卡設定，並據此估算本地訓練 7B/13B 模型所需的時間與電力成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-14-qwen3-6-27b",
+    "title": "Qwen3.6-27B 面對大型程式碼庫的效能瓶頸",
+    "title_original": "Codebase getting larger - Qwen3.6-27B starting to compound issues - how to work smartly with this model?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u56yr7/codebase_getting_larger_qwen3627b_starting_to/",
+    "published_at": "2026-06-14T00:46:54+00:00",
+    "category": "agent-skills",
+    "summary": "開發者反映 Qwen3.6-27B 在處理大型程式碼庫時出現上下文組合問題，模型開始展現上下文窗口限制的徵兆。屬技術實務討論，有一定參考價值。",
+    "highlights": [
+      "Qwen3.6-27B 面對大型程式碼庫效能下降",
+      "上下文窗口限制開始顯現",
+      "模型組合問題逐漸累積",
+      "開發者尋求更聰明的工作方式"
+    ],
+    "why_it_matters": "27B 參數量級模型在實際專案中的表現瓶頸，直接影響開發者對模型選型的判斷，需實測驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可測試 Qwen3.6-27B 的上下文截斷策略，或考慮採用程式碼索引工具（如 Sourcegraph Cody）來輔助大型專案分析。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
