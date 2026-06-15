@@ -1,5 +1,116 @@
 [
   {
+    "id": "2026-06-15-reddit-3090-agent",
+    "title": "Reddit 熱帖：前端模型規劃、本地模型執行的雙 3090 Agent 方案",
+    "title_original": "An agent that plans with a frontier model but runs most of tokens locally (built it for my own dual-3090 rig)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u698b1/an_agent_that_plans_with_a_frontier_model_but/",
+    "published_at": "2026-06-15T07:05:07+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶分享自建 Agent 架構，使用前沿模型（如 GPT-4）做任務規劃，本地雙 RTX 3090 跑量化模型執行大部分 Tokens，兼具規劃品質與本地隱私。屬個人實驗分享，無正式開源專頁。",
+    "highlights": [
+      "使用 Frontier Model 做高層規劃，本地模型執行細節",
+      "雙 RTX 3090 跑量化模型以降低推論成本",
+      "提升隱私保護，大部分推論在本地完成",
+      "屬 Reddit 個人實驗分享，無正式開源 repo",
+      "可作為節省 API 成本的參考架構思路"
+    ],
+    "why_it_matters": "混合架構（雲端規劃 + 本地執行）是平衡成本與隱私的有效策略。技術用戶可借鑒此思路優化自己的 Agent 工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "擁有雙 GPU 的技術用戶可參考此架構，使用本地量化模型執行重複性任務，僅在關鍵決策點調用雲端 Frontier Model 以節省 API 費用。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-15-dum-e-ai-agent",
+    "title": "Dum-E：受鋼鐵人啟發的語音視覺 AI Agent 搭配機械臂",
+    "title_original": "aaronsu11/Dum-E",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aaronsu11/Dum-E",
+    "published_at": "2026-06-15T06:24:01Z",
+    "category": "agent-skills",
+    "summary": "Dum-E 專案旨在打造具備語音與視覺能力的 AI Agent，可與人類即時互動並操控機械臂執行實體操作。現為早期概念驗證階段，星數 23，實際功能與穩定性待評估。",
+    "highlights": [
+      "具備語音與視覺感知能力，支援即時人機互動",
+      "可操控機械臂執行實體任務",
+      "受電影《鋼鐵人》Dum-E 啟發的概念專案",
+      "目前僅 23 星，屬早期實驗性專案",
+      "Python 實作，有興趣的技術用戶可參與貢獻"
+    ],
+    "why_it_matters": "語音視覺 Agent 搭配實體執行器是 Agent 發展的前沿方向。技術用戶可關注其架構設計，評估與現有 Agent 框架的整合潛力。",
+    "automation_angle": null,
+    "automation_angle_zh": "有機械臂的實驗室或創客可 fork 此專案，測試將 AI Agent 能力延伸至實體操作的可行性與改進空間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/52497982?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-15-android-llm",
+    "title": "Android 本地 LLM 應用：筆記與回溯功能全機上處理，資料不離開手機",
+    "title_original": "I made a private on-device LLM app for Android (notes + recall, nothing leaves the phone)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u67pw3/i_made_a_private_ondevice_llm_app_for_android/",
+    "published_at": "2026-06-15T05:41:20+00:00",
+    "category": "agent-skills",
+    "summary": "開發者推出 Android 本地 LLM 應用，主打隱私保護：所有筆記與回溯功能均在設備端處理，強調「無資料離開手機」。此類工具適合對資料隱私有高度要求的使用者，可評估其在工作場景的實用性。",
+    "highlights": [
+      "完全本地化運行，無網路傳輸",
+      "功能包含筆記與回溯（recall）機制",
+      "強調隱私優先，適合企業敏感資料場景",
+      "屬於實驗性開源專案，需評估模型效能與相容性"
+    ],
+    "why_it_matters": "本地 LLM 在移動端的應用逐漸成熟，工程師可評估此類工具是否能在確保資料安全的前提下替代部分雲端 AI 工作流程程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 APK 測試，評估其能否勝任會議記錄、任務追蹤等個人知識管理場景，並探索與現有工具鏈整合的可能性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-15-macos-gemma-4-e2b-macos-app",
+    "title": "開發者打造 macOS 應用：使用 Gemma 4 E2B 等小型模型自動生成個人化 macOS App",
+    "title_original": "Made a macOS app that creates highly personal macOS apps. Works with models as small as Gemma 4 E2B",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u63qny/made_a_macos_app_that_creates_highly_personal/",
+    "published_at": "2026-06-15T02:20:11+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶展示一款能在 macOS 上自動生成個人化應用的工具，宣稱支援 Gemma 4 E2B 等小至 40 億參數的模型。此專案若屬實，代表本地端 AI 驅動的個人化工具開發门坎大幅降低，開發者可評估其自動化潜力。",
+    "highlights": [
+      "使用 Gemma 4 E2B 等小型模型（約 40 億參數）作為骨幹",
+      "強調在 macOS 平台運行，無需雲端 API",
+      "目標為快速生成個人化應用，降低開發成本",
+      "屬於 Reddit 開源/實驗性專案，需自行驗證穩定性"
+    ],
+    "why_it_matters": "若小型本地模型真能驅動應用生成，代表未來個人化工具與自動化工作流程程可在無網路依賴下實現，降低 AI 使用成本與隱私風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可關注其 GitHub 頁面，評估是否能整合進日常開發流程，用於快速原型生成或自動化重複性 UI 任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-15-ai",
     "title": "為何 AI 未取代軟體工程師且未來也不會",
     "title_original": "Why AI hasn’t replaced software engineers, and won’t",
@@ -164,6 +275,35 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/220209750?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-15-gemini-desktop-electron-gemini",
+    "title": "gemini-desktop：Electron 封裝的 Gemini 桌面用戶端",
+    "title_original": "Abhi01k/gemini-desktop",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Abhi01k/gemini-desktop",
+    "published_at": "2026-06-14T17:43:06Z",
+    "category": "open-source-ai",
+    "summary": "一款使用 Electron 開發的 Gemini 桌面包裝工具，支援 Windows、macOS、Linux，具備語音指令與多模態能力。目前星數僅 24，屬小型實驗性專案，功能成熟度有限。",
+    "highlights": [
+      "基於 Electron 跨平台桌面包裝，方便安裝使用",
+      "支援 Gemini 的語音指令與多模態互動",
+      "星數僅 24，專案成熟度與維護狀態不明",
+      "提供快捷鍵與背景運行模式",
+      "適合想要在桌面環境整合 Gemini 的技術用戶試玩"
+    ],
+    "why_it_matters": "若能穩定運行，可將 Gemini 作為本地桌面助理使用。但星數偏低，需評估其穩定性與長期維護意願。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝測試，將 Gemini 桌面化後透過快捷鍵快速呼叫，評估其回應速度與日常文書輔助的實用性。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/173990544?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
