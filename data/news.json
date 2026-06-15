@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-06-15-windows-computer-use-mcp-windows-gui-mcp",
+    "title": "windows-computer-use-mcp：Windows GUI自動化MCP伺服器",
+    "title_original": "sandraschi/windows-computer-use-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sandraschi/windows-computer-use-mcp",
+    "published_at": "2026-06-15T13:48:54Z",
+    "category": "agent-skills",
+    "summary": "開源Python專案，提供Windows電腦使用MCP伺服器，支援點擊、截圖、OCR、GUI自動化，可用於AI代理操作Windows應用。",
+    "highlights": [
+      "支援點擊、截圖、OCR基礎操作",
+      "提供Windows GUI自動化能力",
+      "MCP協議相容方便整合",
+      "Python實作易於擴展修改",
+      "18 stars，專案早期但可測試"
+    ],
+    "why_it_matters": "AI代理需要操作傳統Windows應用時，GUI自動化是關鍵能力，此專案提供開源可用的解決方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署測試讓AI代理操作Excel、Outlook等Windows桌面應用，實現傳統軟體的智慧化控制。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/34750307?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-15-tower-plus-72b-ultra-uncensored-heretic-22",
+    "title": "Tower-Plus-72B-Ultra-Uncensored-Heretic：22語言無審查翻譯模型",
+    "title_original": "Tower-Plus-72B-Ultra-Uncensored-Heretic, a Model That Support 22 Languages Making it Great for Multilingual Tasks and is Especially Strong on Translation Related Workflows Where No Censorship Is Essential, Now Ultra Uncensored With 5/100 Refusals!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u6etje/towerplus72bultrauncensoredheretic_a_model_that/",
+    "published_at": "2026-06-15T12:12:11+00:00",
+    "category": "new-models",
+    "summary": "72B參數開源模型，支援22種語言，宣稱翻譯工作流程表現強勁且Ultra Uncensored版本拒絕率僅5/100，適合無審查需求的翻譯場景。",
+    "highlights": [
+      "72B規模，22語言支援",
+      "Ultra Uncensored版本拒絕率極低",
+      "翻譯工作流程為主要應用場景",
+      "適合需要內容自由的翻譯需求",
+      "開源可本地部署"
+    ],
+    "why_it_matters": "需要無審查翻譯或內容生成的技術人員可考慮此模型，本地部署避免雲端審查限制。",
+    "automation_angle": null,
+    "automation_angle_zh": "本地部署進行翻譯工作流程自動化，處理敏感或創意翻譯內容不受審查阻礙。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-15-reddit-openrouter-artificial-analysis-design-arena",
+    "title": "Reddit 開發者整合 OpenRouter + Artificial Analysis + Design Arena 為單一可篩選表格",
+    "title_original": "I got tired of juggling OpenRouter + Artificial Analysis + Design Arena tabs to pick a model, so I put them in one filterable table",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u6edd7/i_got_tired_of_juggling_openrouter_artificial/",
+    "published_at": "2026-06-15T11:52:19+00:00",
+    "category": "agent-skills",
+    "summary": "一位 Reddit 用戶整合了三個熱門 AI 模型比較工具（OpenRouter、Artificial Analysis、Design Arena）的數據，建構出一個統一的可篩選比較表格，省去在多個分頁間來回切換的麻煩。此工具支援按價格延遲、效能指標等維度過濾，適合需要快速比較多個模型差異的技術人員。原始碼應可在 Reddit 討論串中找到或自行實作。",
+    "highlights": [
+      "整合 OpenRouter 路由資料、Artificial Analysis 評測數據、Design Arena 設計評比",
+      "支援多維度篩選（延遲、價格、效能分數等）",
+      "減少模型選型時的資訊碎片化問題",
+      "可能為開源專案，可自架部署",
+      "目前僅見 Reddit 討論串，尚未有正式網站或獨立 repo"
+    ],
+    "why_it_matters": "模型選型是日常開發中頻繁且耗時的工作，若能將分散資訊統一呈現，可大幅減少決策時間。此工具的概念證明價值高於其當前成熟度，技術人員可直接複製思路打造自用版本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可取其概念，自行爬取或串接三個資料來源，製作成公司內部的模型儀表板，自動化模型成本與效能追蹤流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-15-100b-120b",
+    "title": "為何近期缺乏新的100B-120B模型？社群討論分析",
+    "title_original": "Why there is a lack of new 100B-120B models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u6e0fo/why_there_is_a_lack_of_new_100b120b_models/",
+    "published_at": "2026-06-15T11:35:04+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit社群討論為何100B-120B參數區間的新模型減少，分析可能涉及訓練成本、推論效率、量化壓縮技術進步、小模型效能提升等因素。",
+    "highlights": [
+      "100B-120B區間模型訓練成本過高",
+      "量化技術使小模型逼近大模型效能",
+      "推論效率與部署成本考量",
+      "市場需求轉向更高效方案",
+      "反映AI模型發展趨勢變化"
+    ],
+    "why_it_matters": "理解模型規模趨勢有助技術決策，判斷何時該選大模型、小模型或量化方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估自身工作負載，決定是否需要大模型或可採用量化小模型滿足需求。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-15-reddit-3090-agent",
     "title": "Reddit 熱帖：前端模型規劃、本地模型執行的雙 3090 Agent 方案",
     "title_original": "An agent that plans with a frontier model but runs most of tokens locally (built it for my own dual-3090 rig)",
@@ -77,6 +190,33 @@
     "automation_angle_zh": "技術用戶可下載 APK 測試，評估其能否勝任會議記錄、任務追蹤等個人知識管理場景，並探索與現有工具鏈整合的可能性。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-15-reddit-100m",
+    "title": "Reddit 討論：100M 參數模型推薦",
+    "title_original": "100M model recommendation?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u66zjv/100m_model_recommendation/",
+    "published_at": "2026-06-15T05:02:52+00:00",
+    "category": "hot-topics",
+    "summary": "一位 Reddit 用戶在 r/LocalLLaMA 發文詢問 100M 參數規模的模型推薦，屬於常見的模型選擇求助帖。此類討論通常由社群回應提供建議，非正式產品發布或研究論文，資訊來源為一般用戶經驗分享，價值有限。",
+    "highlights": [
+      "屬於社群互助帖，非官方產品發布",
+      "討論內容依賴回覆者個人經驗，品質參差不齊",
+      "100M 規模模型適合邊緣裝置或極低成本部署場景",
+      "未見具體模型名稱或 benchmark 數據揭露"
+    ],
+    "why_it_matters": "此討論本身不構成可行動的技術情報，無法用於自動化決策或工作流程程改善。技術人員若有類似需求，建議直接查閱 Hugging Face 模型的量化評測報告，而非依賴論壇問答。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議改用自動化腳本爬取 Hugging Face 100M 以下模型的下載量與評測分數，而非等待社群回覆。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
