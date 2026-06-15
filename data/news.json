@@ -1,5 +1,143 @@
 [
   {
+    "id": "2026-06-15-ai",
+    "title": "為何 AI 未取代軟體工程師且未來也不會",
+    "title_original": "Why AI hasn’t replaced software engineers, and won’t",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#atom-everything",
+    "published_at": "2026-06-14T23:54:11+00:00",
+    "category": "hot-topics",
+    "summary": "Arvind Narayanan 與 Sayash Kapoor 發文分析 AI 對軟體工程職位的影響。指出軟體工程的核心瓶頸在於需求判斷、交付負責、深度領域理解，而非寫程式碼本身。AI 可加速程式碼產出，但無法自動化所有環節。",
+    "highlights": [
+      "軟體工程師工作複雜度超出純程式碼撰寫",
+      "真實瓶頸為需求確認、交付負責、領域理解",
+      "2025 年紐約州 AI 申報資料顯示無大規模裁員",
+      "AI 輔助可提升決定與驗證環節效率"
+    ],
+    "why_it_matters": "此分析有助技術從業者理解 AI 輔助開發的邊界，合理設定 AI 工具在自動化工作流程程中的角色定位。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可識別工作流程程中哪些環節確實可被 AI 自動化，將精力集中在需求確認與交付負責等高價值環節。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-15-designer-skill-agent-mcp",
+    "title": "designer-skill：賦予程式碼 Agent 生產級設計詞彙的 MCP 工具",
+    "title_original": "Pythoughts-labs/designer-skill",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Pythoughts-labs/designer-skill",
+    "published_at": "2026-06-14T23:02:33Z",
+    "category": "agent-skills",
+    "summary": "designer-skill 是一款開源 MCP 伺服器，為程式碼 Agent 提供typography、視覺美學、動效、性能、抗slop、重構等設計維度的語彙。支援 Claude Code、Codex CLI、Cursor 等主流 Agent 工具，現僅 15 stars，仍屬早期專案。",
+    "highlights": [
+      "為程式碼 Agent 注入設計決策語言，減少盲目樣式生成",
+      "支援 Claude Code、Codex CLI、Cursor 等主流 Agent",
+      "涵蓋 typography、motion、anti-slop 等高階設計概念",
+      "TypeScript 実装，便於前端開發者審閱與修改",
+      "目前 stars 偏低，功能成熟度待社群驗證"
+    ],
+    "why_it_matters": "設計能力是當前 Agent 的常見短板，designer-skill 若能穩定運作，可直接提升 UI 生成、網頁重構等任務的設計品質，讓技術用戶減少人工介入。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 designer-skill 整合進 Cursor 或 Claude Code，測試其能否在網頁重構場景中自動產出符合設計規範的程式碼，評估其實用性與維護成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/288751043?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-15-z-ai-x-mit",
+    "title": "z.ai X 投票：MIT 授權開源權重正在失去優勢",
+    "title_original": "z.ai Poll on X: MIT-licensed open weights are losing",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u5wous/zai_poll_on_x_mitlicensed_open_weights_are_losing/",
+    "published_at": "2026-06-14T21:03:23+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群引用 X 平台投票結果顯示，MIT 授權的開源模型權重熱度正在下滑。開發者偏好似乎正轉向更嚴格授權條款的模型。此趨勢可能影響開源模型生態的激勵結構。",
+    "highlights": [
+      "MIT 授權開源模型權重的社群關注度出現下降趨勢",
+      "投票來源為 X 平台，非正式調查，樣本可能有偏差",
+      "嚴格授權模型可能在合規企業場景更具優勢",
+      "此趨勢反映企業採用開源模型時更重視授權合規性"
+    ],
+    "why_it_matters": "開源模型授權方式的選擇直接影響企業部署意願。MIT 授權雖寬鬆，但企業級應用可能更偏好明確責任歸屬的授權條款。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術開發者可評估自家專案是否需要從 MIT 授權模型轉向更嚴格授權模型，以符合目標企業用戶的合規需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-15-nemotron-120b",
+    "title": "Nemotron 深度測評：120B 以下四款模型對比",
+    "title_original": "Nemotron - King of the Deep? Comparison of 4 models <=120B",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u5vqpl/nemotron_king_of_the_deep_comparison_of_4_models/",
+    "published_at": "2026-06-14T20:25:37+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群發布 Nemotron 與其他三款 120B 以下模型的多維度對比測評。涵蓋推論能力、程式碼生成、對話順暢度等指標。為技術用戶選擇本地部署模型提供參考依據。",
+    "highlights": [
+      "測評對象為 120B 參數量級以下模型",
+      "涵蓋推論、程式碼生成、對話品質等多維度評估",
+      "社群自發性測評，未經官方驗證",
+      "結果可作為本地部署模型選型的參考起點"
+    ],
+    "why_it_matters": "120B 以下模型是本地部署的主流選擇，準確的效能對比可幫助技術用戶節省測試時間並選擇符合需求的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據測評結果，挑選 2-3 款候選模型在本機環境進行實際任務測試，驗證其在自動化工作流程程中的表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-15-gemma-4-gpu",
+    "title": "Gemma 4 模型三 GPU 配置基準測試結果出爐",
+    "title_original": "Gemma 4 models benchmarked on with Triple GPU",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u5ul4k/gemma_4_models_benchmarked_on_with_triple_gpu/",
+    "published_at": "2026-06-14T19:39:41+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 社群分享 Gemma 4 在 triple GPU 設定下的基準測試表現，討論熱度中等。缺乏官方 benchmark 數據，結果來自社群個人測試，技術用戶可參考但需自行驗證。",
+    "highlights": [
+      "測試平台為 triple GPU 設定，適合高運算需求場景",
+      "結果來自 Reddit 社群，非官方發布",
+      "討論涵蓋推論速度、記憶體佔用等指標",
+      "Gemma 4 為 Google 開源模型系列最新版本",
+      "社群回饋顯示效能提升但尚未有大規模對比"
+    ],
+    "why_it_matters": "Gemma 4 的本地推論效能測試對有 GPU 資源的技術用戶有參考價值，但社群測試缺乏標準化環境，結果不宜直接用於採購決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可參考社群測試配置，在本機或雲端 GPU 環境中重現相同設定，實測 Gemma 4 在文件處理、程式碼生成等任務上的延遲與準確度。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-14-capa-yaml-agent",
     "title": "Capa：以 YAML 統一設定跨 Agent 的技能與工具擴展",
     "title_original": "infragate/capa",
@@ -55,6 +193,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/130743226?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-15-openai-1-5-ai",
+    "title": "OpenAI 合作夥伴網路正式啟動，投入 1.5 億美元加速企業 AI 部署",
+    "title_original": "Introducing the OpenAI Partner Network",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/introducing-openai-partner-network",
+    "published_at": "2026-06-14T17:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 宣布推出 Partner Network，投入 1.5 億美元協助全球合作夥伴加速企業 AI 採用、部署與轉型。此為企業級合作夥伴計畫，非個人開發者直接受益，技術用戶關注其對生態系的間接影響即可。",
+    "highlights": [
+      "投資規模 1.5 億美元，瞄準全球企業合作夥伴",
+      "目標為加速企業 AI 部署與數位轉型",
+      "屬 B2B 合作夥伴計畫，非開發者工具或 API 優惠",
+      "可能影響未來 OpenAI 生態系的工具與服務供應鏈",
+      "對技術用戶的直接價值有限，屬產業趨勢訊號"
+    ],
+    "why_it_matters": "合作夥伴網路代表 OpenAI 深化企業市場的策略方向，技術用戶可留意合作夥伴推出的工具與整合方案，可能間接影響工作環境中的 AI 工具選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可追蹤 Partner Network 中 ISV 合作夥伴的產品發布，評估是否有可直接整合進工作流程的企業級 AI 工具，搶先了解生態系擴展方向。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
