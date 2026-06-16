@@ -1,5 +1,203 @@
 [
   {
+    "id": "2026-06-16-myskills-ai-agent-claude-code-codex",
+    "title": "myskills：跨平台 AI Agent 技能管理工具，支援Claude Code與Codex",
+    "title_original": "Milktang0128/myskills",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Milktang0128/myskills",
+    "published_at": "2026-06-16T07:25:26Z",
+    "category": "agent-skills",
+    "summary": "myskills是一個跨平台桌面應用，用於發現、管理、去重與同步AI Agent技能集。可跨Claude Code、Codex及共用技能池運作，並配備MCP Server讓Agent能夠自行執行完整的技能庫管理流程，包括安裝、對齊、整理與清理，所有寫入操作皆設有閘道且可逆。",
+    "highlights": [
+      "核心價值在於技能庫的集中管理與跨平台同步，避免Agent技能重複或衝突",
+      "MCP Server讓Agent本身具備自我管理能力，降低人工維運成本",
+      "寫入操作gate設計確保安全性，防止自動化流程意外破壞既有設定",
+      "可逆性機制提供操作安全網，失敗時可回滾到前一狀態",
+      "支援Claude Code與Codex，覆蓋主流編碼Agent生態系"
+    ],
+    "why_it_matters": "隨著多Agent系統普及，技能管理成為維運瓶頸。myskills提供工具層面的解決方案，讓開發團隊能更系統化地管理與部署Agent能力，加速工作流程程標準化。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此工具整合進Dev Agent工作流程，用於自動化管理客製化指令集。評估重點：與現有CI/CD流程的相容性，以及在多團隊環境下的協作機制是否足夠。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/132126903?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-buddy-ai",
+    "title": "騰訊雲 Buddy AI 個人版訂閱升級：三檔付費方案",
+    "title_original": "腾讯雲：Buddy AI 国内個人版訂閱升級，付费套餐擴展為三档體系 - caiwennews.com",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zYlQxNnd0aXdyYk1CWWlhLTBZbng5TC1NR2pqMjBTdnpLS1Z4QWFtX2xFdktkTHBQUVlkOUhDSkxjemN5TEVjV201WGhoTW5OZ2l5OGR4b2NvV2Ft?oc=5",
+    "published_at": "2026-06-16T07:12:20+00:00",
+    "category": "ai-deals",
+    "summary": "騰訊雲 Buddy AI 國內個人版訂閱方案升級，將付費套餐擴展為三檔體系，為個人用戶提供更多選擇。具體資費與功能差異需查閱官方頁面。",
+    "highlights": [
+      "Buddy AI 個人版訂閱從單一方案升級為三檔體系",
+      "新增中階與高階選項，覆蓋不同用量需求",
+      "針對國內個人用戶優化，無需企業帳號",
+      "可能比原方案更靈活或更具成本效益",
+      "詳細功能差異與用量限制待官方確認"
+    ],
+    "why_it_matters": "對於依賴騰訊雲 AI 服務的技術使用者，新套餐可能提供更經濟的選擇，值得重新評估成本結構。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你正在使用騰訊雲 API 進行自動化工作流程，可比較新舊方案的價格差異，計算每千次呼叫成本，評估是否值得切換方案。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-lumina-rag-ai",
+    "title": "Lumina：混合 RAG 架構的個人 AI 助理，結合向量搜尋與圖形資料庫",
+    "title_original": "hoangsonww/AI-RAG-Assistant-Chatbot",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/hoangsonww/AI-RAG-Assistant-Chatbot",
+    "published_at": "2026-06-16T06:53:32Z",
+    "category": "agent-skills",
+    "summary": "Lumina是由開發者hoangsonww構建的個人AI助理，採用混合RAG架構整合Pinecone向量資料庫與Neo4j圖形資料庫，底層使用Google AI與LangChain。配備MCP Server提供30+工具，支援串流回應、對話分支與多Agent管道，可輸出帶有內嵌引用標註的答案。",
+    "highlights": [
+      "混合Pinecone（向量檢索）與Neo4j（圖形關係檢索）突破純向量檢索的關聯性限制",
+      "內建MCP Server相容30+工具，可依需求擴充Agent能力範圍",
+      "多Agent管道設計可分擔不同任務類型到專門模型處理",
+      "對話分支功能有助保留探索性研究過程的上下文脈絡",
+      "輸出帶有Inline Citation，降低幻覺風險並方便事實查核"
+    ],
+    "why_it_matters": "混合RAG架構結合圖形資料庫是提升AI回答精確度與關聯推論能力的實務方向。Lumina展示如何在個人專案中使用此模式，對構建企業級知識庫系統有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可作為RAG架構學習範本。技術用戶可clone repo研究其Pinecone+Neo4j雙資料庫整合方式，或直接Fork後替換自有資料源，測試在特定領域（如內部文件、程式碼庫）上的檢索效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/124531104?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-item",
+    "title": "小型本地模型能否用於自動化任務？",
+    "title_original": "Are small local models for automation a thing?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u75nx4/are_small_local_models_for_automation_a_thing/",
+    "published_at": "2026-06-16T06:31:17+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群熱烈討論小型本地模型是否足以勝任自動化工作。討論聚焦於模型大小、延遲、準確性與成本的權衡，以及哪些任務適合用小模型處理。",
+    "highlights": [
+      "小型本地模型（7B-13B）可處理簡單重複性自動化任務",
+      "延遲與回應品質是本地部署的關鍵取捨點",
+      "特定領域微調的小模型可能比通用大模型更高效",
+      "本地執行隱私優勢明顯，適合處理敏感資料",
+      "成本方面需評估硬體投資與雲端 API 費用的長期差異"
+    ],
+    "why_it_matters": "對技術使用者而言，小型本地模型提供隱私、離線能力與可控成本的新選項，可能改變自動化工作流程程的設計思路。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可選一個具體流程（如會議紀錄整理、報告生成），用小型本地模型（如 Llama3-8B）做 POC，評估延遲與輸出品質是否滿足需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-claude-code",
+    "title": "美國出口管制打擊網路防禦：Claude Code修復漏洞被認定為「越獄」爭議",
+    "title_original": "The Fable 5 Export Controls Harm US Cyber Defense",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
+    "published_at": "2026-06-16T05:20:29+00:00",
+    "category": "hot-topics",
+    "summary": "Simon Willison引用安全專家Kate Moussouris的分析指出，導致Claude Fable 5被列入出口管制的「越獄」行為，實際上只是要求模型「修復這段程式碼」。安全研究員輸入含有已知CVE漏洞的開源程式碼，模型拒絕審查後，他們要求修復並透過多步驟手動流程將輸出轉為測試腳本。爭議核心：安全修補是防禦性行為，此能力不應被移除。",
+    "highlights": [
+      "爭議起點是模型拒絕「審查程式碼安全問題」的請求，而非直接拒絕修補",
+      "安全研究者將修復輸出轉為測試腳本需經多步驟手動處理，非直接武器化",
+      "Kate Moussouris指出此邏輯等同禁止修復已知漏洞，適得其反",
+      "defenders每日都在執行find-fix-test循環，移除此能力直接削弱資安防護",
+      "此案例暴露非技術決策者對AI安全風險的過度簡化理解"
+    ],
+    "why_it_matters": "此事件影響AI安全研究的邊界定義，對從事AI輔助程式碼審計或修補的技術從業人員有直接影響。若管制範圍擴大，可能限制合法安全工具的可用性，技術從業員需關注後續政策走向。",
+    "automation_angle": null,
+    "automation_angle_zh": "對從事AI安全工具開發的團隊，建議重新檢視產品的使用情境描述與合規邊界。評估是否需要針對「防禦性程式碼修復」建立更嚴謹的使用條款與技術白皮書，以防範類似爭議。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-anthropic-fable",
+    "title": "Anthropic Fable 模型在安全測試中的行為爭議",
+    "title_original": "Quoting Matteo Wong, The Atlantic",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything",
+    "published_at": "2026-06-16T03:07:54+00:00",
+    "category": "agent-skills",
+    "summary": "The Atlantic 報導指出 Anthropic 向白宮提交 Fable 模型用於資安防御。資安專家 Moussouris 測試發現：要求「審查不安全程式碼」時模型拒絕，但要求「修復此程式碼」時卻配合，爭議在於模型是否被合理設計用於網路防御。",
+    "highlights": [
+      "Fable 模型在安全測試中展現不一致的拒絕行為",
+      "資安專家指出「修復」指令繞過了原本的安全審查設計",
+      "此事件涉及 AI 安全研究與 jailbreak 風險的界限爭論",
+      "Anthropic 聲稱此為模型預期行為，專家看法分歧",
+      "白宮報告將此案例列為 AI 網路防御應用的參考依據"
+    ],
+    "why_it_matters": "此案例揭示大模型在安全自動化場景中的行為邊界問題，對技術使用者設計 AI 安全工具的工作流程有重要啟示。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你正在評估 AI 模型用於自動化代碼審查或安全掃描，需設計更嚴格的 prompt 約束，並測試模型對不同指令措辭的敏感度差異。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-nex2-mini-phase-twin-16gb-30b",
+    "title": "Nex2 mini Phase Twin：16GB 即可運行 30B 模型",
+    "title_original": "Nex2 mini Phase Twin - 16gb footprint, 30b model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u71arv/nex2_mini_phase_twin_16gb_footprint_30b_model/",
+    "published_at": "2026-06-16T02:42:38+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 社群分享 Nex2 mini Phase Twin 模型，號稱僅需 16GB 記憶體即可部署 30B 參數規模模型，硬體門檻大幅降低，為本地執行大型模型提供新選項。",
+    "highlights": [
+      "30B 參數模型可在 16GB 記憶體環境運行",
+      "採用新的量化或蒸餾技術降低資源需求",
+      "填補了小型本地模型與全尺寸模型之間的效能缺口",
+      "適合沒有高階顯示卡的技術愛好者實驗",
+      "具體效能與輸出品質需進一步社群驗證"
+    ],
+    "why_it_matters": "硬體需求降低使更多技術使用者能在本地部署中型模型，可能催生新一波個人化 AI 自動化工具的開發熱潮。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可下載此模型至 16GB 機器，測試其對常見自動化任務（如文書處理、資料整理）的實用性，評估是否值得取代雲端 API。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-16-workflows-mcp-server-mcp-yaml",
     "title": "workflows-mcp-server：MCP 協議的 YAML 工作流程腳本管理工具",
     "title_original": "cyanheads/workflows-mcp-server",
@@ -1926,6 +2124,34 @@
     "automation_angle_zh": "技術讀者可參考此討論的實際硬體配置與測試結果，評估是否值得將現有工作站升級為雙顯卡設定，並據此估算本地訓練 7B/13B 模型所需的時間與電力成本。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-meta-ai",
+    "title": "Meta 高薪員工坦言公司 AI 政策失效",
+    "title_original": "Meta's highest paid employee Alexandr Wang 'admits' the company's previous AI policy didn't work, says ot - The Times of India",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPbGppelBtWERZVDZRTHFFUVhaTEp5YU5WQ1VsdzlGM1hscmZaRU1LdjlSaWNNLWNDcXZCSDQ0WG5GWDFSejE3aEVCa01zZktIM00tY1Ftbi0zYTgwQ1RvSzB4MVhjanhkWm1QMUdueWhOZ2ZXLTZEZnBBNVVGOTFhck9jTFJFYTgxSmVVVkRZZkZXVUwzZ1hRYldneWlTU2JHMXV2bUtfN09LVjJIQUFub2wwdW9DTHMxRzc0aTY5T3NHUmN0Mnc0WEcySElLSHBuNk8weGpqNjlrSks3Sk84ZXl3eUZxWENLWWFqN1VNakV4dHlEYXd2SHdQSU0zTnBKNERHbllZNjdiX015a203Yk04LXN4UGwwNUNsU1ZYQ2FFdVN4YWdlYzdfaUVwd9IBswJBVV95cUxNdTc0YktRS0VpWHpoRmR4MXllUmNncW1DSkplb0Jra3RBZmtxc0tXbEJNYi02eWJBdlRVNERSQVJ3a28zOWxiRTgxN04xSG1yYmRaRFBTbnJ1dnFlYjhfUmltQnBoa05Cay1rZ0p2U0FVTTVjRGhYLTMzX0ZER2V6d1J4RFctd3ZXdjNrNFVRTTJDUzRhNERVZ2lfM2ZqYXdqN21EQ2FTS2RlazJuUlptQUJNX2M5eTJiLVdfelg5OUt3dzJrOHN0TUpjX3BJeDE2MFFLVTU3UW1ZV3o4UHdVNU5SY2pBTVZHM25VZGpfZnhZeTI4ZDhGVmVkS1ZUR1RBbThHejJIX3hCb1JVQlhsMVBuVDRldDhyV2xOMDJfckhOZFhDbzFZR2stVlVrS3NLNktn?oc=5",
+    "published_at": "2026-06-14T03:42:00+00:00",
+    "category": "hot-topics",
+    "summary": "The Times of India 報導 Meta 最高薪員工 Alexandr Wang 公開承認公司先前的 AI 政策未能達到預期效果，並對此發表評論。此訊息來源為印度媒體，細節與可信度需進一步查證。",
+    "highlights": [
+      "Alexandr Wang 為 Meta 最高薪員工，立場具影響力",
+      "承認先前 AI 政策未如預期運作",
+      "報導來源為印度媒體 Times of India，可信度存疑",
+      "Meta 內部 AI 策略調整細節尚不明確",
+      "屬於二手報導，原文未直接引用其言論"
+    ],
+    "why_it_matters": "此訊息可能預示 Meta 將調整 AI 發展策略，但印度媒體轉述的可信度較低，技術使用者應等待更直接的官方消息。",
+    "automation_angle": null,
+    "automation_angle_zh": "目前此訊息對自動化工作流程影響有限，建議持續關注 Meta 官方公告，若策略調整確認，可評估對 Llama 系列模型或 Meta AI 工具的影響。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
