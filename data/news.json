@@ -1,5 +1,610 @@
 [
   {
+    "id": "2026-06-16-cred-1-mcp-2-673",
+    "title": "cred-1：開源事實查核 MCP 工具，2,673 個網域可信度資料集",
+    "title_original": "aloth/cred-1",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aloth/cred-1",
+    "published_at": "2026-06-16T18:57:43Z",
+    "category": "agent-skills",
+    "summary": "cred-1 是一個開放的可信度資料庫，收錄 2,673 個網域的新聞來源評級。提供 TypeScript 函式庫、CLI 工具與 MCP 伺服器，可直接從終端機或 AI Agent 查詢任何新聞來源的可靠程度，協助技術人員在閱讀資訊時快速把關。",
+    "highlights": [
+      "收錄 2,673 個網域的新聞來源可信度評級",
+      "提供 TypeScript 函式庫可直接整合进開發專案",
+      "CLI 工具讓終端機快速查詢來源可靠性",
+      "支援 MCP 協定可接入 AI Agent 工作流程",
+      "Python 實作，開源且可自行擴充資料庫"
+    ],
+    "why_it_matters": "技術人員每日接收大量未經篩選的資訊，cred-1 提供一個可程式化的事實查核起點，尤其適合需要過濾外部資料或建立資訊驗證流程的開發者與 Agent。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 cred-1 的 MCP 工具接入 RAG 或資訊彙整 Agent，在自動生成報告前先過濾低可信度來源；或作為個人資訊攝取的前置把關關卡。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/12732979?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-glm-5-2-terminal-bench-80",
+    "title": "GLM-5.2 首個開源權重模型突破 Terminal-Bench 80% 關卡",
+    "title_original": "GLM-5.2 is the first open-weights model to cross 80% on Terminal-Bench and beats every other open model available",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u7mexd/glm52_is_the_first_openweights_model_to_cross_80/",
+    "published_at": "2026-06-16T18:48:58+00:00",
+    "category": "new-models",
+    "summary": "GLM-5.2 模型宣稱在 Terminal-Bench 基準測試中達到 80% 以上分數，成為目前最強開源權重模型。GLM 系列來自中國智譜 AI，此成績若屬實，代表開源模型在 Terminal 操作能力上大幅提升。",
+    "highlights": [
+      "GLM-5.2 在 Terminal-Bench 突破 80% 門檻",
+      "號稱擊敗所有其他開源模型",
+      "來源為 Reddit 社區討論，非官方新聞稿",
+      "Terminal-Bench 測試模型操作命令列能力"
+    ],
+    "why_it_matters": "Terminal 操作能力代表模型具備實際自動化腳本編寫與除錯潛力，GLM-5.2 若真的領先，可作為 DevOps 自動化或 CI/CD 管道的新選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地環境部署 GLM-5.2，測試其自動化 Bash 腳本生成能力，評估能否輔助日常運維工作。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-factory-ai-langsmith-2",
+    "title": "Factory AI用LangSmith將產品迭代速度提升2倍",
+    "title_original": "How Factory used LangSmith to automate their feedback loop and improve iteration speed by 2x",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/customers-factory",
+    "published_at": "2026-06-16T18:11:42+00:00",
+    "category": "agent-skills",
+    "summary": "Factory AI分享如何透過LangSmith建構自動化回饋迴路，快速定位Agent問題並縮短除錯週期，聲稱整體迭代速度提升2倍。",
+    "highlights": [
+      "LangSmith追蹤Agent每輪執行的詳細軌跡",
+      "除錯時間從數天縮短到數小時",
+      "閉環回饋機制加速產品問題修復",
+      "案例具體但數據依賴廠商自述"
+    ],
+    "why_it_matters": "Agent Debugging是當前最大痛點之一。若LangSmith確實能將迭代速度加倍，對高頻部署AI應用的團隊價值顯著。",
+    "automation_angle": null,
+    "automation_angle_zh": "團隊可在現有Agent專案接入LangSmith trace功能，建立自動化回歸測試與異常偵測流程，避免部署後才發現回歸問題。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-open-swe-agent-github-pr",
+    "title": "Open SWE：開源非同步程式碼 Agent，自動處理 GitHub 任務並開 PR",
+    "title_original": "Introducing Open SWE: An Open-Source Asynchronous Coding Agent",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/introducing-open-swe-an-open-source-asynchronous-coding-agent",
+    "published_at": "2026-06-16T18:08:47+00:00",
+    "category": "agent-skills",
+    "summary": "Open SWE 是一款開源、雲端托管的程式碼 Agent，能自主處理 GitHub 任務——包括規劃、開發、測試到開啟 PR 全流程。強調非同步執行模式，適合需要大規模自動化程式碼審查或 Issue 處理的開發團隊。",
+    "highlights": [
+      "雲端托管的開源程式碼 Agent",
+      "支援 GitHub 任務全流程自動化",
+      "包含規劃、開發、測試、PR 流程",
+      "強調非同步執行提升效率",
+      "可部署私有實例保持程式碼安全"
+    ],
+    "why_it_matters": "將重複性的 GitHub Issue 處理自動化，釋放開發者時間專注於核心架構設計。對於維護開源專案或處理大量外部貢獻的團隊，Open SWE 提供了一個可自架的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "在維護的開源專案或內部 Codebase 中部署 Open SWE，設定自動接手 labeled Issue 的流程；先用低風險任務測試，觀察 PR 品質再逐步擴大應用範圍。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-monte-carlo-langgraph-langsmith-ai",
+    "title": "Monte Carlo 用 LangGraph 與 LangSmith 建構資料+AI可觀測性代理",
+    "title_original": "Monte Carlo: Building Data + AI Observability Agents with LangGraph and LangSmith",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/customers-monte-carlo",
+    "published_at": "2026-06-16T18:08:16+00:00",
+    "category": "agent-skills",
+    "summary": "Monte Carlo 展示如何以 LangGraph 建構 AI 故障排除代理，並透過 LangSmith 進行除錯，幫助資料團隊加速問題診斷與解決流程。",
+    "highlights": [
+      "以 LangGraph 定義代理工作流程程與狀態機制",
+      "整合 LangSmith 追蹤代理執行軌跡與成本",
+      "針對資料品質與 pipeline 異常提供自動化診斷",
+      "可減少資料工程師處理突發問題的時間成本"
+    ],
+    "why_it_matters": "將 LLM 代理融入資料品質監控，能讓團隊在被動救火之外，獲得主動預警與自動化根因分析能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "可借鑒其 LangGraph 流程設計，用 LangSmith 對內部資料 pipeline 建構類似故障排除代理，實測除錯效率提升幅度。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-langsmith",
+    "title": "LangSmith推出公開基準測試平台",
+    "title_original": "Sharing LangSmith Benchmarks",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/public-langsmith-benchmarks",
+    "published_at": "2026-06-16T18:07:36+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain宣布開放LangSmith公共基準測試功能，支援開發者提交RAG系統與Agent架構的評測結果，促進社群間的橫向比較與經驗交流。",
+    "highlights": [
+      "支援RAG系統與Agent架構的標準化測試",
+      "可上傳並分享自定義測試資料集",
+      "提供與業界其他方案横向比較的視圖",
+      "強調社群驅動的開源評測生態"
+    ],
+    "why_it_matters": "Eval基礎設施決定AI系統迭代速度。LangSmith公共基準若能形成規模，可大幅降低開發者建立內部評測基準的成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用LangSmith建立自家Agent的自動化回歸測試，並與社群基準對標，及時發現能力退化問題。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-langsmith",
+    "title": "LangSmith首頁改版並新增資源標籤系統",
+    "title_original": "LangSmith: Redesigned product homepage and Resource Tags for better organization",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langsmith-homepage-redesign-and-resource-tags",
+    "published_at": "2026-06-16T18:07:09+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain宣布LangSmith產品首頁重新整理為Observability、Evaluation、Prompt Engineering三大區塊，並加入Resource Tags功能以改善專案資源分類管理。",
+    "highlights": [
+      "首頁重構為三大核心功能區塊",
+      "新增Resource Tags提升資源組織效率",
+      "產品定位更清晰有利新手上手",
+      "屬於UI/UX層面改進而非核心功能升級"
+    ],
+    "why_it_matters": "產品資訊架構最佳化有助降低學習曲線，但對已熟悉介面的技術使用者影響有限。此改動訊號價值高於實質功能變化。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可留意新標籤系統是否支援API操作，若支援則可用來自動化管理大量追蹤專案與測試資料夾結構。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-ai",
+    "title": "代理工程：AI時代的新興學科",
+    "title_original": "Agent Engineering: A New Discipline",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/agent-engineering-a-new-discipline",
+    "published_at": "2026-06-16T18:06:33+00:00",
+    "category": "agent-skills",
+    "summary": "代理工程結合產品思維、軟體工程與資料科學，強調迭代測試與可靠性驗證，是建構可信賴 LLM 系統的實務方法論。",
+    "highlights": [
+      "強調跨領域協作而非單一角色",
+      "迭代式 evals 是代理開發核心流程",
+      "可靠代理需兼顧效能與風險控制",
+      "提供 Ship faster 的實務建議"
+    ],
+    "why_it_matters": "為代理開發提供系統性框架，幫助技術團隊避免僅靠直覺堆疊 prompt，轉向有結構的工程化流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "將其迭代測試方法應用到現有代理專案，建立持續評估流程以量化代理表現變化。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-langsmith",
+    "title": "在 LangSmith 中測試微調開源模型",
+    "title_original": "Testing Fine Tuned Open Source Models in LangSmith",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/testing-fine-tuned-open-source-models-in-langsmith",
+    "published_at": "2026-06-16T18:06:04+00:00",
+    "category": "agent-skills",
+    "summary": "LangSmith 支援評估與比較多個微調後的開源 LLM，透過自動化測試流程協助開發者選擇效能最佳的模型版本。",
+    "highlights": [
+      "支援多種開源模型的批次評估",
+      "可自訂評估指標與測試資料集",
+      "自動化比較不同微調版本的表現差異",
+      "有助節省模型挑選的實驗時間"
+    ],
+    "why_it_matters": "降低比較微調模型的技術門檻，讓團隊能以系統化方式快速驗證不同版本，避免盲目部署。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用 LangSmith 對自行微調的開源模型建立 benchmark，自動化回歸測試以監控模型更新品質。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-item",
+    "title": "人類判斷在代理改善循環中的角色",
+    "title_original": "Human judgment in the agent improvement loop",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/human-judgment-in-the-agent-improvement-loop",
+    "published_at": "2026-06-16T18:04:57+00:00",
+    "category": "agent-skills",
+    "summary": "AI 代理的表現取決於團隊累積的制度知識與隱性經驗，部分可文件化，部分存在於成員腦中，需有效擷取與整合。",
+    "highlights": [
+      "显性知識易於代理取用",
+      "隱性知識需透過回饋機制逐步萃取",
+      "人類判斷是代理迭代改善的關鍵輸入",
+      "建議建立雙向回饋循環"
+    ],
+    "why_it_matters": "理解知識治理對代理效能的影響，幫助團隊有意識地建立知識沉澱機制，避免代理缺乏領域專業。",
+    "automation_angle": null,
+    "automation_angle_zh": "設計人類回饋收集介面，將關鍵判斷標準結構化後餵入代理系統，形成持續學習閉環。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-deep-agents-sdk-ai",
+    "title": "Deep Agents SDK：長任務情境管理，防止 AI 上下文崩壞",
+    "title_original": "Context Management for Deep Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/context-management-for-deepagents",
+    "published_at": "2026-06-16T18:04:22+00:00",
+    "category": "agent-skills",
+    "summary": "Deep Agents SDK 專注解決長時間執行 AI 任務時的上下文損耗問題。透過 offloading、摘要與檔案系統抽象化機制，讓 Agent 在漫長工作流程程中維持任務連貫性，避免上下文 context 崩壞導致任務失敗。",
+    "highlights": [
+      "Offloading 機制卸載非活躍上下文",
+      "自動摘要保持關鍵資訊濃度",
+      "檔案系統抽象化儲存長期狀態",
+      "防止長任務執行時的 context rot",
+      "專為深度、長時 AI 任務設計"
+    ],
+    "why_it_matters": "現有 Agent 在處理複雜、多階段任務時常因上下文耗盡而失敗。Deep Agents SDK 提供的解決方案讓技術人員能建構更可靠的多步驟自動化工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "在設計複雜的自動化腳本或多步驟 Agent 工作流程時，使用 Deep Agents SDK 的 offloading 機制處理超過單次 context 限制的任務；測試長任務下的穩定性與成本節省效果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-langsmith-30",
+    "title": "LangSmith新增30+可複用評估器模板",
+    "title_original": "Reusable Evaluators and Evaluator Templates in LangSmith",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/reusable-langsmith-evaluator-templates",
+    "published_at": "2026-06-16T18:03:22+00:00",
+    "category": "agent-skills",
+    "summary": "LangSmith Evaluation功能新增30個以上預設評估器模板與中央模板庫，讓開發者無需從零開始建構Eval流程，可直接複用社群驗證過的評估邏輯。",
+    "highlights": [
+      "提供30+開箱即用的評估器模板",
+      "支援跨專案複用同一組評估標準",
+      "覆蓋常見RAG與Agent評測場景",
+      "可大幅縮短Eval系統建置時間"
+    ],
+    "why_it_matters": "評測建構耗時是AI系統自動化的常見瓶頸。預設模板若品質穩定，可將Eval建置時間從數週壓縮到數天。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可直接引用預設模板快速建立自家AI系統的自動化評測，並透過CI/CD觸發定期評估報告，實現無縫迭代監控。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-deep-agents",
+    "title": "Deep Agents 評估框架建構方法",
+    "title_original": "How we build evals for Deep Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-we-build-evals-for-deep-agents",
+    "published_at": "2026-06-16T18:02:51+00:00",
+    "category": "agent-skills",
+    "summary": "介紹如何為 Deep Agents 建構針對性評估，涵蓋資料整理、指標設計與測試策略，以提升代理行為準確度。",
+    "highlights": [
+      "評估需測量真實行為而非表面指標",
+      "資料品質是評估的基礎",
+      "多層次指標設計可捕捉不同失敗模式",
+      "迭代評估是改善代理的必經之路"
+    ],
+    "why_it_matters": "提供具體的代理評估實務做法，幫助團隊擺脫只看答案對錯的淺層評估，轉向行為驅動的深度分析。",
+    "automation_angle": null,
+    "automation_angle_zh": "借鑒其資料整理與指標設計方法，為自研代理建立客製化評估集，實現自動化品質把關。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-openevals-llm",
+    "title": "用 OpenEvals 快速啟動 LLM 評估",
+    "title_original": "Quickly Start Evaluating LLMs With OpenEvals",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/evaluating-llms-with-openevals",
+    "published_at": "2026-06-16T18:02:11+00:00",
+    "category": "open-source-ai",
+    "summary": "OpenEvals 與 AgentEvals 提供開箱即用的評估器，支援 LLM-as-judge、結構化資料驗證及代理軌跡評估，屬於可立即投入使用的評測框架。",
+    "highlights": [
+      "LLM-as-judge 模式減少人工標註需求",
+      "結構化資料驗證適用 API 回應檢核",
+      "代理軌跡評估可捕捉長程任務失敗點",
+      "屬於 LangChain 生態的開源專案"
+    ],
+    "why_it_matters": "降低評估系統的建置成本，讓小型團隊也能負擔持續性代理品質監控，無需從零打造評測管線。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接 pip install 後整合進 CI/CD 流程，在代理部署前自動執行 regression test，提升交付信心。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-monkesearch-llm",
+    "title": "monkeSearch：小規模LLM自然語言檔案搜尋基準測試",
+    "title_original": "A benchmark for tiny LLMs based on a real world problem: natural language file search (using monkeSearch)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u7kwim/a_benchmark_for_tiny_llms_based_on_a_real_world/",
+    "published_at": "2026-06-16T17:55:37+00:00",
+    "category": "new-models",
+    "summary": "Reddit社群發布monkeSearch基準測試，專為評估微小LLM在真實世界自然語言檔案搜尋場景中的表現。測試以實際使用案例為基礎，可幫助開發者判斷特定硬體條件下的小模型是否堪用。",
+    "highlights": [
+      "以實際檔案搜尋為情境，而非傳統學術基準",
+      "適用於1B至7B參數規模的小型模型評估",
+      "可作為本地部署LLM的選型參考依據",
+      "測試結果公開可供社群複現比對"
+    ],
+    "why_it_matters": "邊緣裝置與本地LLM需求上升，小模型能力評估缺口明顯。此基準提供客觀標準，幫助技術人員避免靠感覺選模型，直接用數據說話。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載monkeSearch測試集與評估腳本，在本地環境對候選小模型跑分，快速篩選符合延遲/精確度需求的模型。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-glimmer-1",
+    "title": "Glimmer 1：萬參數基礎語言模型問世",
+    "title_original": "Glimmer 1 - Glint Research. A foundational 10,000 parameter language model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u7kg4g/glimmer_1_glint_research_a_foundational_10000/",
+    "published_at": "2026-06-16T17:39:35+00:00",
+    "category": "new-models",
+    "summary": "Glint Research 發布 Glimmer 1，一個僅含 10,000 參數的超小型語言模型。此類極小型模型適合嵌入式系統或資源極度受限環境，效能自然無法與主流模型相比，但展示了極簡化路線的可行性。",
+    "highlights": [
+      "Glimmer 1 僅有 10,000 參數",
+      "目標為嵌入式或 IoT 設備",
+      "來自 Glint Research 新創團隊",
+      "屬於研究性質非實用性模型"
+    ],
+    "why_it_matters": "極小型模型的出現代表模型壓縮技術持續進步，長期可能有助於將 AI 能力下放到更低成本的硬體環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在樹莓派等低成本硬體上測試 Glimmer 1，評估極簡化 AI 在特定邊緣場景的實用性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-duduclaw-rust-python-react",
+    "title": "DuDuClaw：Rust + Python + React 多智能體平台",
+    "title_original": "zhixuli0406/DuDuClaw",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/zhixuli0406/DuDuClaw",
+    "published_at": "2026-06-16T17:03:02Z",
+    "category": "agent-skills",
+    "summary": "多智能體 AI 助理平台，技術棧選用 Rust（效能核心）、Python（彈性擴展）與 React（前端介面）。目前星星數 39，屬早期專案但架構設計值得關注 Rust 在 Agent 系統的應用趨勢。",
+    "highlights": [
+      "Rust 作為效能核心，適合高併發 Agent 任務",
+      "Python 層提供快速擴展與生態整合",
+      "React 前端提供直觀的 Agent 協作介面",
+      "多智能體設計支援任務分工與协作",
+      "現階段星星數低，成熟度待驗證"
+    ],
+    "why_it_matters": "Rust 在 AI 基礎設施的採用率正在上升，DuDuClaw 展示了一種兼顧效能與開發效率的多 Agent 架構選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "可 clone 研究其多 Agent 協作模式，將 Rust 核心替換為自己現有系統以提升高負載場景下的穩定性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/109659483?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-loop-engineering-agent",
+    "title": "Loop Engineering：如何堆疊與強化 Agent 迴圈設計",
+    "title_original": "The Art of Loop Engineering",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/the-art-of-loop-engineering",
+    "published_at": "2026-06-16T16:59:51+00:00",
+    "category": "agent-skills",
+    "summary": "文章探討可靠 Agent 系統的核心不在於模型本身，而在於精心設計的任務 harness。深入剖析 Agent 迴圈的核心機制，以及如何透過堆疊與擴展迴圈來構建更高效的 Agent，並以 LangChain 原語 инструментировать 每個層級。",
+    "highlights": [
+      "可靠 Agent 關鍵在任務 harness 而非模型",
+      "剖析核心 Agent 迴圈運作機制",
+      "迴圈堆疊與擴展的實作策略",
+      "用 LangChain 原語 инструментировать 各層級",
+      "強調針對特定任務定制的重要性"
+    ],
+    "why_it_matters": "對於正在構建 Production Agent 系統的技術人員，本文提供系統性的設計思路，幫助避免常見的 Agent 可靠性問題，是從實驗邁向穩定部署的重要參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "將本文的 Loop Engineering 框架應用於現有 Agent 專案審計，檢視每個迴圈層級是否有足夠的 instrumenting；對照 LangChain 原語重構高失敗率的任務流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-georgi-gerganov-qwen3-6-27b",
+    "title": "Georgi Gerganov 實測：Qwen3.6-27B 本地模型勝任日常程式設計",
+    "title_original": "Quoting Georgi Gerganov",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything",
+    "published_at": "2026-06-16T16:04:59+00:00",
+    "category": "open-source-ai",
+    "summary": "ggml-org 維護者 Georgi Gerganov 實測 Qwen3.6-27B，過去一個半月在 M2 Ultra 與 RTX 5090 上日常使用，認為其足以應對小型瑣碎程式設計任務。目前使用極簡 harness（pi agent offline 模式），正在評估是否引入更多場景。",
+    "highlights": [
+      "Qwen3.6-27B 能在 M2 Ultra 與 RTX 5090 本地運行",
+      "足夠勝任 ggml-org 的日常小型程式設計任務",
+      "目前使用 pi agent offline 模式運行",
+      "受限于 PR 審查時間尚未全面推廣",
+      "Georgi Gerganov 為 ggml-org 核心維護者"
+    ],
+    "why_it_matters": "ggml-org 維護者的實測案例證明 27B 級本地模型在特定程式設計任務上已實用。對於關注本地 LLM 部署的技術人員，這是一個來自一線維護者的正面訊號。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地機器上部署 Qwen3.6-27B 測試小型 Script 生成、README 撰寫、依賴查詢等瑣碎任務；記錄成功率高於 GPT-4o-mini 或 Claude Haiku 的場景，評估作為離線編碼助理的可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-16-item",
+    "title": "文章論述開源權重模型之必要性與對前沿實驗室的質疑",
+    "title_original": "[Article] The Case For Open-Weight Models And Why We Can't Trust Frontier Labs | provos.org",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u7hfh1/article_the_case_for_openweight_models_and_why_we/",
+    "published_at": "2026-06-16T15:52:55+00:00",
+    "category": "open-source-ai",
+    "summary": "provos.org 發表文章探討開源權重模型的戰略價值，批評前沿實驗室可能存在的黑箱問題，呼籲社群重視模型透明性與可審計性。屬於觀點性質分析，非新聞報導。",
+    "highlights": [
+      "文章主張開源權重模型才能確保透明性",
+      "批評前沿 AI 實驗室缺乏可審計性",
+      "觀點性文章，非產品發布或技術突破",
+      "可供決策者參考的意識形態論述"
+    ],
+    "why_it_matters": "開源與閉源之争持續影響 AI 生態走向，此類論述有助技術決策者理解本地部署的戰略意義與風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀後可評估自身組織是否應減少對商業 API 的依賴，制定更具韌性的 AI 基礎設施策略。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-fleet-agent",
+    "title": "Fleet：結合通用對話與專業 Agent 的協作框架",
+    "title_original": "Why Fleet Has General Purpose Chat and Specialized Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/why-fleet-has-both-general-purpose-chat-and-specialized-agents",
+    "published_at": "2026-06-16T15:50:43+00:00",
+    "category": "agent-skills",
+    "summary": "Fleet 設計同時支援快速臨時任務與長期循環職責。General Purpose Chat 處理即時需求，Specialized Agents 專門化執行重複性工作。這種雙軌設計讓團隊能在同一平台上分配從 ad hoc 查詢到結構化自動化的工作。",
+    "highlights": [
+      "General Purpose Chat 快速處理 ad hoc 任務",
+      "Specialized Agents 專門化重複性工作",
+      "雙軌設計平衡即時需求與長期職責",
+      "適合團隊協作場景",
+      "LangChain 生態系產品"
+    ],
+    "why_it_matters": "技術團隊往往需要同時處理即時查詢與結構化自動化。Fleet 的雙軌模式提供了一個整合視角，值得評估是否能簡化現有的多工具並行情境。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估 Fleet 架構是否能整合當前分散的即時 Chat 工具與排程 Agent 工作流程；若有類似需求，可參考其 General Purpose / Specialized 分離設計來重構內部工具。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-awesomesalesforceskills-ai-salesforce",
+    "title": "AwesomeSalesforceSkills：AI 程式碼助理的 Salesforce 知識層",
+    "title_original": "PranavNagrecha/AwesomeSalesforceSkills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/PranavNagrecha/AwesomeSalesforceSkills",
+    "published_at": "2026-06-16T15:23:35Z",
+    "category": "agent-skills",
+    "summary": "開源 Salesforce 知識層，提供 982+ 溯源技能、75 個 Agent、38 工具的 MCP 伺服器含即時組織元資料。支援 pip install sfskills-mcp，技術宅可今日整合進 AI 編碼工作流程。",
+    "highlights": [
+      "982+ 技能皆附源頭引用，提升回答可信度",
+      "75 個預設 Agent 針對不同 Salesforce 場景",
+      "38 工具 MCP 伺服器含 live-org 元資料查詢",
+      "一行 pip 安裝，降低接入門檻",
+      "Python 實作，與主流 AI 程式碼助理高度相容"
+    ],
+    "why_it_matters": "將 Salesforce 領域知識結構化注入 AI 助理，大幅減少技術宅查文件與 Debug 時間，直接提升 CRM 自動化開發效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝後讓 AI 編碼助理直接查詢 Salesforce 組織結構、元資料，大幅減少查詢文件與 Salesforce 設定頁面的時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/84324998?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-06-16-diffusiongemma",
     "title": "為何 DiffusionGemma 在工具調用表現可能優於基準測試分數",
     "title_original": "Why might DiffusionGemma be better at tool calls than its benchmark quality suggests",
@@ -54,6 +659,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/3143425?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-anthropic-claude-agent-sdk",
+    "title": "Anthropic 緊急喊停 Claude Agent SDK 訂閱方案變更",
+    "title_original": "Anthropic pauses Claude Agent SDK subscription change on day it was due to take effect - The New Stack",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSUV3RjhQdHFtT1NUQjNCbWZLSEJnOGZncFRWQ0p4U0NUTzFRUmpZYmV3WnhCNXdzR3I3UmpuVHIyYlluSEROX3A5RThIbTZPejd3LWtRYVdUWnBMVXluX1BMUjc2Mk1wZVhCOVhoX3h2ZklpZVRBTjFMaFQtX1N0d010cw?oc=5",
+    "published_at": "2026-06-16T12:11:30+00:00",
+    "category": "hot-topics",
+    "summary": "Anthropic 在原定變更生效日當天緊急暫停了 Claude Agent SDK 的訂閱方案調整，具體影響範圍與新版定價細節尚待官方進一步說明。此事件顯示 Anthropic 在 SDK 商業化路上遇到阻力。",
+    "highlights": [
+      "Claude Agent SDK 訂閱變更原定生效日當天緊急喊停",
+      "具體調整內容與替代方案尚未公告",
+      "反映 Anthropic 在 SDK 商業變現上的策略不確定性",
+      "對依賴 Claude Agent SDK 的開發者造成短期干擾",
+      "建議追蹤 Anthropic 官方更新以掌握後續動向"
+    ],
+    "why_it_matters": "Anthropic 對 SDK 商業化的態度影響技術選型決策，緊急喊停顯示社群反饋有實質影響力，工程師應保持關注後續政策走向。",
+    "automation_angle": null,
+    "automation_angle_zh": "暫緩基於新方案設計的自動化腳本，等待官方明確定價與功能範圍後再作部署規劃。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
