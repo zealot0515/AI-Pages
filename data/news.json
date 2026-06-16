@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-06-16-diffusiongemma",
+    "title": "為何 DiffusionGemma 在工具調用表現可能優於基準測試分數",
+    "title_original": "Why might DiffusionGemma be better at tool calls than its benchmark quality suggests",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u7cle9/why_might_diffusiongemma_be_better_at_tool_calls/",
+    "published_at": "2026-06-16T12:49:02+00:00",
+    "category": "new-models",
+    "summary": "社區討論 Google DiffusionGemma 在工具調用任務上可能比基準測試分數顯示的更強。分析指出傳統文字基準可能未能捕捉擴散模型在工具調用方面的實際能力。",
+    "highlights": [
+      "DiffusionGemma 為 Google 發布的擴散式語言模型",
+      "傳統文字基準可能低估其工具調用能力",
+      "擴散架構在生成動作序列上可能具備優勢",
+      "需要更多針對性工具調用測試",
+      "社區自發性分析，未有 Google 官方確認"
+    ],
+    "why_it_matters": "這提示評估 AI 模型時不應只看通用基準，針對特定任務的測試可能揭示不同面向的能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者若使用 DiffusionGemma，可設計自定義工具調用測試集來驗證其在實際工作流程中的表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-browser-devtools-mcp-vscode-ai",
+    "title": "browser-devtools-mcp：VSCode AI代理的瀏覽器除錯擴充",
+    "title_original": "serkan-ozal/browser-devtools-mcp-vscode-extension",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/serkan-ozal/browser-devtools-mcp-vscode-extension",
+    "published_at": "2026-06-16T12:31:26Z",
+    "category": "agent-skills",
+    "summary": "基於Playwright的MCP伺服器，可將瀏覽器暴露為AI代理可追蹤、可檢查、可除錯的控制環境。VSCode擴充形式，51 stars，TypeScript實作。",
+    "highlights": [
+      "基於Playwright，瀏覽器操作可控可追蹤",
+      "MCP標準介面相容各種AI代理框架",
+      "VSCode原生整合，開發體驗流暢",
+      "AI代理可直接檢查DOM與網路請求",
+      "51 stars表示有一定社群關注度"
+    ],
+    "why_it_matters": "讓AI代理能可靠控制瀏覽器完成自動化測試、爬蟲、網頁操作，比純prompt控制更精準且可除錯。",
+    "automation_angle": null,
+    "automation_angle_zh": "今天安裝VSCode擴充，用MCP連接代理框架，讓AI代理操作瀏覽器完成重複性網頁任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3143425?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-reddit-qwen-claude",
+    "title": "Reddit社群警告：Qwen/Claude蒸餾版常比原始模型差",
+    "title_original": "Be wary of Qwen/Claude distillations - they're often worse than the base model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u7a2hn/be_wary_of_qwenclaude_distillations_theyre_often/",
+    "published_at": "2026-06-16T10:48:22+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA社群討論指出，Qwen與Claude的蒸餾版本往往表現不如原始基座模型。技術用戶應驗證蒸餾模型的實際效能。",
+    "highlights": [
+      "蒸餾模型可能損失原版能力",
+      "社群經驗回饋而非官方承認",
+      "使用Qwen/Claude蒸餾版時建議先Benchmark",
+      "選型時可考慮直接用基座模型",
+      "有助於避免因行銷名稱誤判模型品質"
+    ],
+    "why_it_matters": "避免因蒸餾模型名稱誤判效能。選型時優先實測基座模型，蒸餾版則需獨立Benchmark驗證是否滿足需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "實測時建立蒸餾版與基座模型的對比Benchmark，明確差異再決定是否用蒸餾版節省成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-cc-by-4-0",
+    "title": "將編程會話捐贈為開放 CC-BY-4.0 數據集助開源模型訓練",
+    "title_original": "Donate your coding sessions to an open CC-BY-4.0 dataset to help train open-weight and open source models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u795pb/donate_your_coding_sessions_to_an_open_ccby40/",
+    "published_at": "2026-06-16T09:58:59+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶呼籲將個人編程會話捐贈為開放 CC-BY-4.0 授權數據集，旨在幫助訓練開源與開Weight模型。此為自願性貢獻，目前缺乏明確的數據收集平台或工具細節。",
+    "highlights": [
+      "採用 CC-BY-4.0 開放授權，可自由用於商業與非商業用途",
+      "捐贈內容為編程會話數據，可能包含代碼、錯誤修復過程",
+      "目標是支援開源權重模型的訓練數據需求",
+      "目前僅見 Reddit 呼籲，缺乏正式收集平台",
+      "參與方式與數據匿名處理方式未說明"
+    ],
+    "why_it_matters": "開源模型長期面臨訓練數據不足的問題，若社區能穩定貢獻高質量編程數據，可加速開源模型的代碼能力提升。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可關注後續是否有正規數據收集工具發布，目前階段可評估隱私風險再決定是否參與。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-16-myskills-ai-agent-claude-code-codex",
     "title": "myskills：跨平台 AI Agent 技能管理工具，支援Claude Code與Codex",
     "title_original": "Milktang0128/myskills",
