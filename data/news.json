@@ -1,5 +1,228 @@
 [
   {
+    "id": "2026-06-16-workflows-mcp-server-mcp-yaml",
+    "title": "workflows-mcp-server：MCP 協議的 YAML 工作流程腳本管理工具",
+    "title_original": "cyanheads/workflows-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/cyanheads/workflows-mcp-server",
+    "published_at": "2026-06-16T00:27:11Z",
+    "category": "agent-skills",
+    "summary": "cyanheads/workflows-mcp-server 是一個 MCP 伺服器實作，專門用於儲存、查詢與建立 YAML 格式的 LLM Agent 工作流程腳本。支援 STDIO 與 Streamable HTTP 傳輸模式，TypeScript 實作，現有 31 顆星。",
+    "highlights": [
+      "透過 MCP 協議與 LLM Agent 整合",
+      "以 YAML 管理工作流程腳本易於版本控制",
+      "支援 STDIO 與 HTTP 兩種傳輸模式",
+      "TypeScript 實作方便前端技術棧整合",
+      "可作為 Agent 工作流程的標準化管理方案"
+    ],
+    "why_it_matters": "將工作流程腳本標準化為 YAML 並透過 MCP 暴露給 Agent，能大幅提升多 Agent 協作的維運效率，適合有複雜工作流程需求的技術團隊。",
+    "automation_angle": null,
+    "automation_angle_zh": "將重複性的 Prompt 流程抽取為 YAML playbook，透過 MCP 讓多個 Agent 共用，減少 Prompt 複製與不一致問題。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/10339515?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-cloudflare-waf-url-captcha",
+    "title": "Cloudflare WAF 規則：只在含 & 符號的搜尋 URL 觸發 CAPTCHA",
+    "title_original": "Cloudflare CAPTCHA on at least one ampersand",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything",
+    "published_at": "2026-06-16T00:21:36+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 分享實用技巧：利用 Cloudflare WAF 的 Managed Challenge 規則，只針對含 & 符號的搜尋 URL（如 facet search）觸發 CAPTCHA，簡單的 ?q=term 查詢則繞過挑戰，大幅改善爬蟲與人類使用體驗。",
+    "highlights": [
+      "使用 WAF Custom Rules 設定規則 expression",
+      "規則邏輯：路徑為 /search/* 且 URI query 包含 & 符號",
+      "可避免簡單搜尋觸發 CAPTCHA 而影響正常使用者",
+      "需用 Cloudflare Dashboard 或 API 設定 managed challenge 規則"
+    ],
+    "why_it_matters": "對建置爬蟲或 agent 的技術人而言，此規則可避免目標網站無謂阻擋，讓自動化流程更順暢。",
+    "automation_angle": null,
+    "automation_angle_zh": "在自動化爬蟲腳本中加入邏輯：若遇到含 & 的 URL 被擋，改用較簡潔的查詢參數組合绕過 CAPTCHA 檢測。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-halbench-29",
+    "title": "HalBench：29 開源模型虛偽迎合與幻覺基準測試出爐",
+    "title_original": "HalBench: 29 OSS models tested on a custom built Sycophancy and Hallucination Benchmark, Qwen 3.6 and Gemma 4 scoring far above their weight! (While Meta keeps proving they forgot how to spend their money...)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u6y5l5/halbench_29_oss_models_tested_on_a_custom_built/",
+    "published_at": "2026-06-16T00:19:06+00:00",
+    "category": "open-source-ai",
+    "summary": "研究團隊自建 Sycophancy 與 Hallucination 基準測試，評測 29 個開源模型。Qwen 3.6 與 Gemma 4 在性價比上表現突出，超越預期表現。此 benchmark 專注模型是否會迎合使用者偏見及產生幻覺，對評估模型可靠性有參考價值。",
+    "highlights": [
+      "29 個開源模型參與評測",
+      "Qwen 3.6 與 Gemma 4 性價比表現突出",
+      "專注 Sycophancy 與幻覺兩項指標",
+      "Meta 模型表現未達預期",
+      "來源為 Reddit 社群分享"
+    ],
+    "why_it_matters": "此 benchmark 提供開源模型在認知偏差與幻覺風險上的橫向比較，技術人員可據此選擇更可靠的本地部署模型，減少生產環境中的錯誤輸出。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 HuggingFace 下載表現較好的模型，針對自身使用情境測試幻覺率，評估是否適合自動化工作流程程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-vllm-qwen3-nightly",
+    "title": "vLLM 推出 Qwen3+ 專用串流解析器，nightly 版本已可用",
+    "title_original": "vLLM has a new streaming parser for Qwen3+ available in nightly",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u6x4qr/vllm_has_a_new_streaming_parser_for_qwen3/",
+    "published_at": "2026-06-15T23:34:39+00:00",
+    "category": "open-source-ai",
+    "summary": "vLLM 開發團隊為 Qwen3+ 系列模型新增串流解析器功能，目前已在 nightly 版本提供。此解析器專為優化 Qwen3+ 的輸出解析設計，有助提升本地部署推論效率。",
+    "highlights": [
+      "專為 Qwen3+ 系列優化的串流解析器",
+      "已可在 vLLM nightly 版本體驗",
+      "有別於通用解析器，針對 Qwen3+ 格式調整",
+      "可提升本地部署的推論吞吐量"
+    ],
+    "why_it_matters": "對本地跑 Qwen3 模型的技術人而言，新解析器能減少輸出延遲並提升效率，值得關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術者可更新至 vLLM nightly，部署 Qwen3+ 模型後實測串流解析延遲變化，評估是否整合進自動化 pipeline。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-github-copilot",
+    "title": "GitHub Copilot 使用量指標全面涵蓋更多活躍使用者",
+    "title_original": "Copilot usage metrics now include more of your active users",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+    "published_at": "2026-06-15T21:30:13+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方公告指出 Copilot 使用量報告現已整合伺服器端遙測資料，不再僅依賴用戶端訊號，因此更多活躍的 Copilot 使用者會出現在使用報告中，有助 IT 管理員更準確掌握企業採用情形。",
+    "highlights": [
+      "現整合伺服器端遙測而非僅用戶端訊號",
+      "更多活躍使用者被納入報告",
+      "有助 IT 管理員評估企業 Copilot 採用率",
+      "2026 年 6 月 15 日生效",
+      "影響企業 Copilot 管理儀表板數據"
+    ],
+    "why_it_matters": "對於企業 IT 管理員而言，使用量報告數據更完整，有助評估 Copilot 投資報酬率並優化授權數量配置，技術宅可用此調整團隊使用策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "若負責企業 Copilot 管理，可比較新舊口徑的數據差異，重新評估團隊實際使用覆蓋率，並據此調整授權購買策略。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-16-ai",
+    "title": "本地運行 AI 代理的優勢討論",
+    "title_original": "Reason to run local agents instead #645",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u6tdjk/reason_to_run_local_agents_instead_645/",
+    "published_at": "2026-06-15T21:06:04+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/LocalLLaMA 社群討論本地運行 AI 代理的核心理由，包括資料隱私、延遲控制、成本可控與定制化彈性。討論涵蓋隱私敏感資料不上雲、API 成本波動風險、本地模型微調等實際考量。",
+    "highlights": [
+      "資料隱私不需上傳雲端",
+      "網路延遲可控且穩定",
+      "告別 API 成本波動風險",
+      "支援本地模型微調定制",
+      "來源為社群討論而非官方文件"
+    ],
+    "why_it_matters": "本地代理運行已成為企業級 AI 部署的重要選項，技術人員需權衡隱私、成本與效能，選擇適合的部署策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可評估現有工作流程程中哪些環節涉及敏感資料，測試本地代理是否能滿足延遲與成本要求。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-mythos-llm",
+    "title": "網路安全專用 Mythos 風格 LLM 開源發布",
+    "title_original": "We trained a cybersecurity-focused Mythos like LLM open weights on HuggingFace",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u6qw5b/we_trained_a_cybersecurityfocused_mythos_like_llm/",
+    "published_at": "2026-06-15T19:36:11+00:00",
+    "category": "open-source-ai",
+    "summary": "研究團隊在 HuggingFace 上發布專為網路安全訓練的 Mythos 風格 LLM 開源權重。模型針對威脅情報分析、漏洞識別與安全報告生成等場景優化，可在本地部署用於安全分析工作流程。",
+    "highlights": [
+      "網路安全專用 LLM 開源權重",
+      "Mythos 架構風格",
+      "發布於 HuggingFace 平台",
+      "針對威脅情報與漏洞識別優化",
+      "來源為 Reddit 社群分享"
+    ],
+    "why_it_matters": "垂直領域專用模型可提升特定任務準確度，技術人員可評估此模型是否能簡化滲透測試或威脅分析流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "安全工程師可下載模型並整合至現有 SIEM 或威脅情報系統，測試其在本地自動化分析中的實際效果。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-evalatro-llm-balatro",
+    "title": "Evalatro：LLM 在真實 Balatro 遊戲中競技的開源基準測試",
+    "title_original": "Evalatro: an open benchmark where LLMs play the real Balatro",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u6qso1/evalatro_an_open_benchmark_where_llms_play_the/",
+    "published_at": "2026-06-15T19:32:43+00:00",
+    "category": "open-source-ai",
+    "summary": "Evalatro 是一個開放基準測試框架，讓 LLM 直接操作真實的 Balatro 遊戲客戶端，透過遊戲積分評估模型的推論、規劃與即時決策能力，為能力評估提供新維度。",
+    "highlights": [
+      "• 直接對接遊戲客戶端 API，非模擬環境",
+      "• 積分排名公開可比較各模型實際表現",
+      "• 涵蓋長程規劃、風險決策與資源管理能力",
+      "• 開源可自行部署，支援新增遊戲關卡",
+      "• 可作為模型能力變化的客觀追蹤指標"
+    ],
+    "why_it_matters": "傳統基準測試多為靜態題庫，難以反映模型在動態、真實場景中的決策能力。Evalatro 提供可重現的遊戲競技環境，為技術團隊評估模型實用性提供新工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可 fork 此專案，將自訂遊戲邏輯接入現有 benchmark pipeline，用於評估內部微調模型或比較不同模型版本在特定任務上的實際表現差異。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-15-code-context-engine-94-ai-coding-token",
     "title": "code-context-engine：程式碼索引方案，聲稱節省 94% AI Coding Token",
     "title_original": "elara-labs/code-context-engine",
@@ -115,6 +338,228 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-16-langchain-pinecone-serverless-rag",
+    "title": "LangChain 整合 Pinecone Serverless 建構 RAG 應用",
+    "title_original": "Build and deploy a RAG app with Pinecone Serverless",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/pinecone-serverless",
+    "published_at": "2026-06-15T17:40:53+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格發布使用 Pinecone Serverless 建構生產級 RAG 應用的完整指南。涵蓋向量儲存設定、LangChain 整合、LangServe 部署與用量計費模式，幫助開發者快速上線可擴展的檢索增強生成系統。",
+    "highlights": [
+      "Pinecone Serverless 支援用量計費",
+      "LangChain 官方整合指南",
+      "LangServe 一鍵部署 RAG API",
+      "可擴展向量檢索架構",
+      "官方 LangChain 部落格為來源"
+    ],
+    "why_it_matters": "Serverless 向量資料庫降低 RAG 應用部署門檻，技術人員可用較低成本快速原型驗證，根據實際用量擴展。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可直接按指南搭建 RAG API，替換現有知識庫檢索系統，評估 Pinecone Serverless 的效能與成本表現。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-16-langchain-coding-agent",
+    "title": "LangChain 如何讓 Coding Agent 支出可預測",
+    "title_original": "How LangChain Made Coding Agent Spend Predictable",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-we-made-coding-agent-spend-predictable",
+    "published_at": "2026-06-15T17:40:53+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 透過 LangSmith LLM Gateway 即時追蹤 Coding Agent 的 API 消耗，支援按團隊或用戶設定預算上限，並可在超支前中斷請求，防止費用失控。",
+    "highlights": [
+      "• LangSmith LLM Gateway 提供統一的 API 路由與用量監控",
+      "• 可針對不同團隊或專案設定獨立的預算閾值",
+      "• 具備超支前的攔截機制，避免意外帳單",
+      "• 支援成本分析報表，幫助優化 prompt 與模型選擇",
+      "• 與 LangGraph 無縫整合，部署門檻低"
+    ],
+    "why_it_matters": "Coding Agent 若無成本控管機制，長時間任務極易產生巨額 API 費用。此方案提供即時攔截與預算隔離，讓技術團隊能安全部署 agent 任務而不必擔心帳單爆量。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可在 LangSmith 中設定每日/每任務預算上限，並透過 Webhook 觸發自訂中斷邏輯，結合 Slack 通知形成完整的成本監控自動化流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-16-agent-llm-agent",
+    "title": "Agent 可觀測性：如何在生產環境監控與評估 LLM Agent",
+    "title_original": "Agent Observability: How to Monitor and Evaluate LLM Agents in Production",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/production-monitoring",
+    "published_at": "2026-06-15T17:40:53+00:00",
+    "category": "agent-skills",
+    "summary": "LLM Agent 在生產環境中的行為追蹤需要新的可觀測性工具。本文介紹如何利用 LangSmith 進行完整的呼叫追蹤、自動化評估與回歸測試，確保 agent 行為一致。",
+    "highlights": [
+      "• 分散式追蹤（trace）記錄 agent 每一步推論與工具呼叫",
+      "• 自動化評估指標可對齊業務目標，快速發現回歸",
+      "• 支援人工標註與自動測試用例混合評估",
+      "• 可與 CI/CD 管線整合，實現 pull request 級別審查",
+      "• 提供即時告警與 drift 偵測功能"
+    ],
+    "why_it_matters": "Agent 一旦部署到生產環境，缺乏可觀測性將導致除錯困難且難以發現能力退化。此方案讓技術團隊能在每次變更後自動驗證 agent 行為，維持系統穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 LangSmith trace 接入現有 CI/CD，在每次部署前執行回歸測試 suite，若評估分數低於閾值則自動阻擋部署，確保上線品質。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-16-agentic-engineering-ai-agent",
+    "title": "Agentic Engineering：AI Agent 群如何重新定義軟體工程",
+    "title_original": "Agentic Engineering: How Swarms of AI Agents Are Redefining Software Engineering",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/agentic-engineering-redefining-software-engineering",
+    "published_at": "2026-06-15T17:40:53+00:00",
+    "category": "agent-skills",
+    "summary": "多 Agent 系統模擬真實工程團隊協作，不僅加速編碼更能大幅縮短除錯時間。基於 LangGraph 建構的架構可實現跨 Agent 訊息路由與共享狀態，除錯時間降低 93%。",
+    "highlights": [
+      "• 多 Agent 協作模型讓不同 agent 擔任 reviewer、coder、tester 角色",
+      "• LangGraph 提供有向圖狀態機制，支援複雜工作流程建模",
+      "• 共享記憶體與訊息佇列減少 agent 間重複請求",
+      "• 實測除錯時間縮減 93%，跨團隊交付時間壓縮",
+      "• 可擴展至數十甚至上百個協作 agent"
+    ],
+    "why_it_matters": "單一 agent 能力有限，多 agent 協作能模擬真實團隊分工，大幅提升複雜任務處理能力。此架構為技術團隊提供可落地的多 agent 系統範式，降低開發門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 LangGraph 定義多 agent 工作流程，將現有 CI pipeline 中的測試、部署、審核角色替換為對應 agent，實現 7x24 全自動化的軟體交付流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-16-new-computer-langsmith-50",
+    "title": "New Computer 如何透過 LangSmith 將記憶檢索召回率提升 50%",
+    "title_original": "Improving Memory Retrieval: How New Computer achieved 50% higher recall with LangSmith",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/customers-new-computer",
+    "published_at": "2026-06-15T17:40:53+00:00",
+    "category": "agent-skills",
+    "summary": "New Computer 團隊利用 LangSmith 追蹤對話回顧功能中的回歸問題，發現比較視圖（comparison view）環節導致召回率下降，針對性調整 prompt 後整體召回率提升 50%。",
+    "highlights": [
+      "• LangSmith trace 幫助定位具體對話環節的效能瓶頸",
+      "• 比較視圖環節被識別為主要召回率殺手",
+      "• 透過調整系統 prompt 與檢索策略逆轉退化",
+      "• 量化指標明確：召回率提升 50%，具參考價值",
+      "• 方法論可遷移至其他記憶增強型 agent"
+    ],
+    "why_it_matters": "記憶檢索是 RAG 與 agent 系統的核心能力，退化往往無聲無息。此案例展示如何利用可觀測性工具量化定位問題並以低成本 prompt 調整修復，值得技術團隊借鑒。",
+    "automation_angle": null,
+    "automation_angle_zh": "在現有 RAG pipeline 中接入 LangSmith，設定召回率監控指标，当分數低於閾值時自動觸發 prompt 回滾或重新檢索策略，實現記憶系統的主動維護。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-promptim-prompt",
+    "title": "Promptim：實驗性 Prompt 優化開源函式庫",
+    "title_original": "Promptim: an experimental library for prompt optimization",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/promptim",
+    "published_at": "2026-06-15T17:40:53+00:00",
+    "category": "open-source-ai",
+    "summary": "Promptim 是一個實驗性開源函式庫，透過自動化超參數搜尋與對比評估，幫助開發者快速優化 prompt 效能，支援模型熱切換以降低實驗成本。",
+    "highlights": [
+      "• 自動化 prompt 超參數搜尋，減少人工試錯",
+      "• 內建多模型支援，可比較不同模型上的 prompt 表現",
+      "• 提供量化評估指標與排名機制",
+      "• 開源可本地部署，無需依賴外部付費服務",
+      "• 實驗結果可匯出至現有 MLOps pipeline"
+    ],
+    "why_it_matters": "Prompt 工程高度依賴人工迭代，耗時且難以系統化。Promptim 將優化流程自動化，讓技術團隊能以更低成本快速找到最優 prompt 配置，加速 AI 應用開發週期。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 Promptim 整合至現有 prompt 開發流程，設定自動化每日回歸測試，當新 prompt 版本勝出時自動更新生產配置，省去人工審核環節。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-langchain-llm-as-a-judge",
+    "title": "LangChain 深入解析：如何將 LLM-as-a-Judge 與人類偏好對齊",
+    "title_original": "Aligning LLM-as-a-Judge with Human Preferences",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/aligning-llm-as-a-judge-with-human-preferences",
+    "published_at": "2026-06-15T17:40:53+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 部落格深入探討 LangSmith 中自我改進評估器的設計，針對 LLM-as-a-Judge 評估器結合 few-shot learning 與人類偏好對齊的研究動機與實作方式。",
+    "highlights": [
+      "說明 LLM-as-a-Judge 評估器的原理與限制",
+      "介紹如何透過 few-shot 提示改善評估一致性",
+      "LangSmith 提供 self-improving evaluator 功能",
+      "可幫助開發者建立更可靠的 LLM 應用評估流程"
+    ],
+    "why_it_matters": "對建置 LLM 應用的技術人，正確的評估機制是確保品質的關鍵，此文提供實務對齊方法。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 LangSmith 中實作 pairwise evaluation，設定 LLM-as-a-Judge 流程自動評估 prompt 變體效果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-langchain-langsmith-pairwise-evaluation",
+    "title": "LangChain 教學：LangSmith 中的 Pairwise Evaluation 實作",
+    "title_original": "Pairwise Evaluations with LangSmith",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/pairwise-evaluations-with-langsmith",
+    "published_at": "2026-06-15T17:40:53+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 部落格說明 pairwise evaluation（成對評估）的概念與使用情境，並展示如何在 LangSmith 中實作此評估方法，幫助開發者比較不同 LLM 输出的相對優劣。",
+    "highlights": [
+      "解釋 pairwise evaluation 與傳統 absolute evaluation 的差異",
+      "說明何種情境適合使用成對評估",
+      "提供 LangSmith 中的實作程式碼範例",
+      "可用於 A/B 測試不同 prompt 或模型版本"
+    ],
+    "why_it_matters": "Pairwise evaluation 是評估 LLM 應用品質的有效工具，技術人可藉此建立更客觀的模型比較流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 LangSmith 設定自動化 pairwise evaluation pipeline，定期比較新舊 prompt 或模型版本的相對表現。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-15-reddit-localharnessllm",
     "title": "Reddit 熱議：社群呼籲建立 /LocalHarnessLLM 標準化本地模型測試框架",
     "title_original": "I think we need a /LocalHarnessLLM or something ...",
@@ -141,6 +586,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-datasette-agent-0-3a0",
+    "title": "datasette-agent 0.3a0 新增資料庫寫入工具與審批機制",
+    "title_original": "datasette-agent 0.3a0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything",
+    "published_at": "2026-06-15T17:19:27+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 datasette-agent 0.3a0 版本，新增 execute_write_sql 工具可在使用者批准後寫入資料庫，並強化聊天終端模式支援審批流程。開發者可用 --unsafe 模式自動批准所有操作，實現直接透過自然語言指令管理資料庫。",
+    "highlights": [
+      "execute_write_sql 工具新增使用者批准機制",
+      "聊天終端模式支援審批流程與三種新選項",
+      "--unsafe 模式可自動批准所有操作",
+      "支援直接用對話建立資料表與新增記錄",
+      "工具可提供純文字替代 HTML 顯示"
+    ],
+    "why_it_matters": "此版本將 LLM 工具调用與資料庫操作安全結合，讓開發者能在嚴格控管下用自然語言管理資料，降低 SQL 學習門檻同時保持安全性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可用 datasette agent chat --unsafe 直接用自然語言建立資料表、寫入資料，測試 datasette 與 LLM 的工具调用整合能力。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-06-15-reddit",
@@ -38135,6 +38608,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-16-computer-weekly-mistral-ai",
+    "title": "Computer Weekly 分析：Mistral 如何以開源策略拓展企業 AI 市場",
+    "title_original": "How Mistral is driving growth through open source and enterprise AI - Computer Weekly",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU3A5R25DYkt2U21VYWt0R0tMb2FxOGpZa19pMWZKWFV6VmJfZWNVR01xWEp4ejQ3NHdNdHVfaDJNZGFvdFVsbGFsdGhWbDFEREtQa1NYaTFQRm1fMl9pQjNVa2lUMkZOYUk3RWdWTmdaOWw2ZEZQaGhwVzV5WmNUVEszNThydnVMU08wTExSTFJxZk1WUW53c2JnQ1VLVUwxUXNPTjFuNGFRb2hKMk5EcXM4QQ?oc=5",
+    "published_at": "2025-06-02T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Computer Weekly 報導 Mistral AI 透過開源模型與企業服務雙軌策略驅動成長，分析其如何平衡開放社群與商業變現的模式。",
+    "highlights": [
+      "Mistral 強調開源與企業服務並行",
+      "分析其商業模式與市場定位策略",
+      "提及與大型雲端供應商的合作",
+      "屬產業分析報導，非產品技術更新"
+    ],
+    "why_it_matters": "了解競品商業策略有助技術決策者評估開源模型生態系成熟度，但實質技術訊號有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "若需評估開源模型供應商的長期支援能力，可參考此分析做供應商盡職調查參考。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-23-mistral-agents-api-ai",
     "title": "Mistral Agents API 帶動 AI 代理生態系快速成形",
     "title_original": "AI Agent Ecosystem Expands - Mistral's Agents API - Substack",
@@ -38154,6 +38654,34 @@
     "why_it_matters": "生態系的成熟度直接影響技術的可持續性與採用率，Mistral 正逐步建立自己的代理生態，技術宅可關注其發展動態。",
     "automation_angle": null,
     "automation_angle_zh": "可評估不同代理範本的效能與適用場景，找出最有價值的整合方案，或貢獻自己的工具。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-mistral-ai-ai",
+    "title": "Mistral AI 發布 AI 代理建構工具包",
+    "title_original": "Mistral AI launches toolkit for building AI agents - Techzine Global",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVk94anQzYUNncDVmMFVCaG9QTTZzUk1uM2VoM2JpWTdBRkZodExPdks3UExLNG9EZWxBQndVSkZKQkk1LVY4MmZVS1BMZWJKYmw5SjlNaWs5MXRiRVh3RjdXSVZYZXRMeUNfcHR5MWoxVVRJYnJfbjZocFB4NmMtTDNXam00NkhjXzJwanJNY2lXbURseWpXSzRVTkhUUQ?oc=5",
+    "published_at": "2025-05-28T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Mistral AI 推出用於構建 AI 代理的工具包，整合工具调用、記憶體管理與任務規劃能力。開發者可用來快速搭建具備多步推論的代理系統，支援與現有程式碼庫整合。具體 API 與功能細節需參閱官方文件。",
+    "highlights": [
+      "Mistral AI 官方發布代理建構工具包",
+      "整合工具调用與記憶體管理功能",
+      "支援多步推論代理系統",
+      "提供與現有程式碼庫整合能力",
+      "Techzine Global 為主要報導來源"
+    ],
+    "why_it_matters": "Mistral 推出官方代理工具包代表其從純模型廠商轉向平台化策略，技術人員可評估其與現有工作流程程的整合可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應追蹤官方文件發布，評估工具包功能是否支援現有自動化需求，比較與 LangChain、AutoGen 等現有框架的差異。",
     "tags": [
       "agent-skills",
       "rss",
@@ -38296,6 +38824,34 @@
       "ai-deals",
       "rss",
       "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-16-autogen-studio-mistral-genai",
+    "title": "AutoGen Studio 結合本地 Mistral 模型實現無程式碼 GenAI 工作流程",
+    "title_original": "No Code GenAI Agents Workflow Orchestration: AutoGen Studio with Local Mistral AI model - Towards Data Science",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPY0E0ZXZ3aDlRQTZXOEZ4MWl0RnFIYWdjMVV2TVJ5T2VoOVpKVjlEM01VeW42QkZYVG1EV3FjYkxyeE5HbV9WNXVHMDIzeHo5OGZLbjh2OFphWms1MW1WbS1tWl92cHZsVmk3RXNxd3Q1Wm13eGRTTENac3pTTHVLN1JMRTZoa2I5amhPQUtKcVJ2Y0ZUMVpqcklwRWxFNUNCcWxMWkJWYndmSVVRVXpMVi00Rm53Q1pzLXFEM2FqVmxRSVJHbDRPaWhjTWZXdw?oc=5",
+    "published_at": "2024-01-23T08:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Towards Data Science 發表文章展示如何以無程式碼方式透過 AutoGen Studio 串接本地部署的 Mistral 模型，建構 GenAI Agent 工作流程編排流程，適合不寫程式但需要自動化複雜任務的使用者。",
+    "highlights": [
+      "AutoGen Studio 提供視覺化工作流程編排",
+      "支援串接本地 Mistral 模型降低成本",
+      "無需寫程式碼即可建構 Agent 流程",
+      "可用於快速原型驗證 Agent 協作邏輯",
+      "本地部署避免資料外流疑慮"
+    ],
+    "why_it_matters": "結合 AutoGen Studio 與本地模型可同時獲得無程式碼便利性與本地部署的隱私保障，是技術與非技術用戶都適用的落地方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地架設 Mistral 模型後，以 AutoGen Studio 視覺化串接多個 Agent，逐步測試並自動化重複性高的認知任務。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
