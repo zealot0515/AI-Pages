@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-06-17-claude-octopus-claude-code-agent-mcp",
+    "title": "claude-octopus：單一大腦，多條手臂——將 Claude Code Agent 掛為 MCP 伺服器",
+    "title_original": "xiaolai/claude-octopus",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/xiaolai/claude-octopus",
+    "published_at": "2026-06-17T07:19:14Z",
+    "category": "agent-skills",
+    "summary": "claude-octopus 是一個 TypeScript 專案，將 Claude Code Agent 以 MCP（Model Context Protocol）伺服器形式暴露，實現一個主控端調度多個專門化子 Agent 的架構。目前 GitHub 星標 15，屬早期專案階段。",
+    "highlights": [
+      "使用 MCP 協定，理論上與支援 MCP 的工具廣泛相容",
+      "一個主控端可Spawn 多個專門化子 Agent，提升並發處理能力",
+      "TypeScript 實作，適合已有 Node.js 技術棧的團隊",
+      "星標數低，代表性與穩定性待驗證",
+      "架構概念類似於多Agent協同，可用於複雜任務分解"
+    ],
+    "why_it_matters": "多Agent協同是提升自動化流程並發與專業化的關鍵方向。claude-octopus 的架構概念值得關注，但低星標與新穎度意味著實務採用前需自行評估穩定性與安全性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將其Fork 進行實驗，評估是否能用一個主控 Agent 協調文件分析、程式碼生成等多個子任務，進而建構更複雜的自動化工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/152970?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-reddit-glm-5-2-max",
+    "title": "Reddit 社群傳言：GLM-5.2 (max) 躋身第三強模型，含開源與閉源",
+    "title_original": "GLM-5.2 (max) is currently the third best model available, across both open and proprietary.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u832oh/glm52_max_is_currently_the_third_best_model/",
+    "published_at": "2026-06-17T07:11:20+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 討論串宣稱 GLM-5.2 (max) 目前是第三強模型（跨開源與閉源）。此為社群主觀評價，未附第三方基準測試連結，應謹慎解讀。",
+    "highlights": [
+      "Reddit 社群討論，非官方發布或第三方測試",
+      "聲稱涵蓋開源與閉源模型排名，含水量需自行判斷",
+      "GLM-5.2 屬智譜開源模型系列，若傳言屬實代表開源模型實力提升",
+      "第三名的定位暗示其性能接近 GPT-4o 等頂級模型",
+      "缺乏具體 benchmark 數據，信心偏低"
+    ],
+    "why_it_matters": "開源模型性能快速追趕閉源旗艦是值得關注的趨勢，但 Reddit 傳言缺乏嚴謹依據。技術宅應將其列為潛在觀察對象，待有可信基準測試後再做判斷。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載 GLM-5.2 測試版，在本地環境跑幾個代表性任務，實測其能力是否值得取代當前使用的模型，作為社群傳言的一手驗證。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-simon-willison-gif",
+    "title": "Simon Willison：點擊播放的 GIF 元件",
+    "title_original": "— a still that plays",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything",
+    "published_at": "2026-06-17T03:56:10+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 分享一個名為「a still that plays」的 Web Component，實現漸進式載入 GIF：初始僅載入靜態圖片，點擊後才載入完整動畫。此元件可顯著降低頁面初始載入流量，適用於展示含多個 GIF 的技術文章。",
+    "highlights": [
+      "基於 Web Component 標準，無需框架依賴",
+      "初始僅載入靜態幀，大幅減少流量",
+      "點擊後懶載入完整 GIF 動畫",
+      "可與 Datasette 等工具整合用於數據展示",
+      "符合漸進式增強（progressive enhancement）理念"
+    ],
+    "why_it_matters": "此元件可作為技術部落格或文件網站的優化手段，降低讀者流量消耗，提升頁面效能評分。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術部落格作者可整合此元件自動處理文章中的 GIF，減少讀者流量負擔同時保持動畫展示。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-ebay-w6800-v620-gpu",
+    "title": "eBay 特賣 W6800（改裝 V620）GPU 基準測試出爐",
+    "title_original": "Benchmarks from the latest eBay special: W6800 (modded V620)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u7x7zh/benchmarks_from_the_latest_ebay_special_w6800/",
+    "published_at": "2026-06-17T02:07:05+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶分享 eBay 上購買的 AMD W6800 專業卡（改裝自 V620）的 benchmark 結果。W6800 為 CDNA 架構專業 GPU，可用於特定 AI 推論任務。測試涵蓋常見 ML 負載，價格相對消費級 GPU 具有競爭力。",
+    "highlights": [
+      "W6800 為 CDNA 1 架構，適合特定 AI 工作負載",
+      "改裝自 V620 可能涉及散熱或功耗調整",
+      "性價比評估需結合實際 workload 測試",
+      "專業卡驅動和生態與 RDNA 不同",
+      "社區對此類非主流 AI 硬體的興趣增加"
+    ],
+    "why_it_matters": "對於預算有限但需要較大 VRAM 的用戶，二手專業卡是潛在選項。但需注意驅動支援和穩定性問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估此類卡作為本地推論服務的替代方案，比較成本/效能比與主流 RTX 3090/4090。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-17-starrocks-mcp-server-olap-agent",
     "title": "StarRocks MCP Server 開源發布，OLAP 資料庫進入 Agent 工具鏈",
     "title_original": "StarRocks/mcp-server-starrocks",
@@ -29,6 +142,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-17-datasette-1-0a34",
+    "title": "Datasette 1.0a34：新增介面直接新增、編輯、刪除資料列",
+    "title_original": "datasette 1.0a34",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/16/datasette/#atom-everything",
+    "published_at": "2026-06-16T21:31:24+00:00",
+    "category": "agent-skills",
+    "summary": "Datasette 1.0a34 釋出，新增透過 UI 直接新增、編輯、刪除資料列的功能。此功能靈感來自 Datasette Agent——該功能允許透過聊天介面寫入 SQL，但傳統 UI 反而不行，現在兩者終於同步。",
+    "highlights": [
+      "新增表格頁面內的 CRUD 操作入口",
+      "資料列頁面也有編輯與刪除的快捷操作",
+      "與 Datasette Agent 的 SQL 寫入能力終於對齊",
+      "Simon Willison 親自說明此功能早已應該實作",
+      "屬 alpha 版本，生產環境使用需注意穩定性"
+    ],
+    "why_it_matters": "Datasette 長期是資料探索利器，此次 CRUD 功能補完使其更接近完整的輕量級資料庫管理工具。對於需要快速架設內部工具的技術宅，Datasette 的實用性再度提升。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 Datasette 架設小型內部資料庫，配合 Datasette Agent 或自寫 Script 實現半自動化資料維護，適合取代使用 Excel 或 Google Sheets 的簡單場景。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-17-anthropic-claude-agent-sdk-token",
     "title": "Anthropic 暫停 Claude Agent SDK 的 Token 計費模式",
     "title_original": "Anthropic \"pauses\" token-based billing for its Claude Agent SDK - Ars Technica",
@@ -50,6 +191,34 @@
     "automation_angle_zh": "開發者可先暫緩大規模部署基於 Token 計費的 Claude Agent 工作流程，等待官方確認新計費方案後再優化成本結構。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-wait-token",
+    "title": "推論模型中「Wait」 token 讓我眼睛抽搐",
+    "title_original": "“Wait,” in reasoning models makes my eye twitch",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u7pfu2/wait_in_reasoning_models_makes_my_eye_twitch/",
+    "published_at": "2026-06-16T20:37:56+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社區討論推論模型（如 o1、Claude、Gemini）輸出中常見「Wait...」過渡語的現象。用戶反映這類自我修正語句影響閱讀體驗，並探討其是否為模型訓練過程中的殘留特徵。討論涉及多種模型的比較與可能的 prompt 調整策略。",
+    "highlights": [
+      "推論模型輸出常見「Wait...」、「Hmm...」等過渡性話語",
+      "社區推測是 RL 訓練中 reward hacking 的副作用",
+      "有用戶嘗試用 prompt 引導減少此類詞彙",
+      "不同模型（o1、Claude、Gemini）出現頻率各異",
+      "可能與模型「思考過程外化」的設計策略相關"
+    ],
+    "why_it_matters": "對於需要乾淨輸出的開發者，這類過渡語可能需要後處理或 prompt 干預。了解其成因有助於優化 AI 應用的使用者體驗。",
+    "automation_angle": null,
+    "automation_angle_zh": "可設計後處理 script 自動移除推論模型輸出中的「Wait」、「Hmm」等模式，或測試不同 prompt 策略對輸出乾淨度的影響。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
