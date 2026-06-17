@@ -1,5 +1,395 @@
 [
   {
+    "id": "2026-06-17-soklet-java-http-sse-mcp",
+    "title": "Soklet：零依賴 Java HTTP 與 SSE 加 MCP 伺服器框架",
+    "title_original": "soklet/soklet",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/soklet/soklet",
+    "published_at": "2026-06-17T18:31:06Z",
+    "category": "agent-skills",
+    "summary": "Soklet 是一款零外部依賴的 Java 框架，專為建構 RESTful API 與 Server-Sent Event 服務，同時原生支援 MCP 協定，適合打造 tool-backed 代理系統。",
+    "highlights": [
+      "零外部依賴，降低維護成本與攻擊面",
+      "原生支援 HTTP/1.1、SSE 與 MCP 三大協定",
+      "Java 生態成熟，企業級系統可直接採用",
+      "可作為自建 Agent 工具後端的輕量選擇",
+      "25 stars 顯示早期關注度，功能成熟度需自行驗證"
+    ],
+    "why_it_matters": "在 Java 企業環境中搭建 Agent 工具服務需要穩定、輕量的方案，Soklet 提供一個無額外包袱的選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "若企業後端為 Java，可在 Soklet 上快速實作自定義 MCP tool server，用於將內部系統 API 暴露給 AI Agent 呼叫。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Java"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/11913215?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-llm",
+    "title": "研究者在 LLM 後訓練後成功讓模型穩定擲出指定點數",
+    "title_original": "i post-trained a model to reliably roll a die",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8i8t3/i_posttrained_a_model_to_reliably_roll_a_die/",
+    "published_at": "2026-06-17T18:24:39+00:00",
+    "category": "new-models",
+    "summary": "研究者透過後訓練技術，讓大語言模型學會穩定輸出精確擲骰結果，挑戰了 LLMs 難以處理簡單隨機數生成的既定印象。",
+    "highlights": [
+      "證明 LLMs 對隨機過程的偏差可被糾正",
+      "後訓練方法相對低成本且有效",
+      "凸顯模型在數值任務上的常見缺陷",
+      "提供了量化評估 LLM 數值能力的新範式",
+      "有助於理解模型hallucination的底層機制"
+    ],
+    "why_it_matters": "此研究揭示 LLMs 的隨機數生成瓶頸可被修正，對需要精確數值輸出的自動化流程具有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "針對自己使用的模型測試隨機數輸出穩定性，若存在偏差可評估是否需要類似後訓練修正。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-ui-kit-rag-agent",
+    "title": "開源 UI Kit 發布：快速打造文件 RAG 與 Agent 聊天介面",
+    "title_original": "We built an open source UI kit for document RAG/agents",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8i3yx/we_built_an_open_source_ui_kit_for_document/",
+    "published_at": "2026-06-17T18:19:54+00:00",
+    "category": "open-source-ai",
+    "summary": "社群開發者於 Reddit r/LocalLLaMA 分享了一套開源 UI Kit，專為文件 RAG 檢索與 Agent 聊天場景設計。該工具包旨在降低建立本地 AI 文件問答系統的介面開發成本，支援快速整合至現有專案。",
+    "highlights": [
+      "專為文件 RAG 場景設計的 UI 元件",
+      "開源免費，可本地部署",
+      "支援快速整合至自建 Agent 系統",
+      "降低文件問答應用的前端開發門檻"
+    ],
+    "why_it_matters": "對想快速建立內部文件 AI 助理的技術團隊，此 UI Kit 可省去大量前端開發時間，直接專注於後端 RAG 流程的優化。",
+    "automation_angle": null,
+    "automation_angle_zh": "克隆該開源專案，在本地環境中快速架設文件問答介面，測試其與現有 RAG pipeline 的整合便利性與效能。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-jmcomic-ai-mcp-ai-agent",
+    "title": "jmcomic-ai：透過 MCP 將禁漫注入 AI Agent 框架",
+    "title_original": "hect0x7/jmcomic-ai",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/hect0x7/jmcomic-ai",
+    "published_at": "2026-06-17T17:20:03Z",
+    "category": "agent-skills",
+    "summary": "JMComic AI 是一款以 Python 開發的開源助理，透過 MCP 協定與 Skills 機制將禁漫內容查詢能力注入 AI Agent 目前累積 58 個 GitHub stars，展示 MCP 工具注入的實作範式。",
+    "highlights": [
+      "MCP 協定實作：展示如何將外部工具封裝為 Agent 可調用工具",
+      "Skills 機制示範：將特定領域能力注入現有 Agent 生態",
+      "Python 實作，程式碼結構可作為自建 MCP 工具的參照",
+      "58 stars 顯示社群對特定 domain 工具整合的興趣",
+      "可用於理解 MCP 工具設計模式，而非內容本身"
+    ],
+    "why_it_matters": "此專案的價值在於 MCP 工具封裝的實作參考，而非內容。技術宅可借鑒其工具定義與 Agent 整合模式。",
+    "automation_angle": null,
+    "automation_angle_zh": "fork 此專案，將其 MCP 工具封裝模式應用於自定義工作流程程工具（如 CRM、內部系統查詢）。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/93357912?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-loopcoder-v2-hugging-face",
+    "title": "LoopCoder-V2 多語言多模態程式碼模型登陸 Hugging Face",
+    "title_original": "Multilingual-Multimodal-NLP/LoopCoder-V2 · Hugging Face",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8gceo/multilingualmultimodalnlploopcoderv2_hugging_face/",
+    "published_at": "2026-06-17T17:16:07+00:00",
+    "category": "open-source-ai",
+    "summary": "LoopCoder-V2 是一款支援多語言與多模態能力的開源程式碼生成模型，可在 Hugging Face 直接下載使用，為本地部署程式碼助理提供新選項。",
+    "highlights": [
+      "開源模型可直接下載或透過 Spaces 試用",
+      "支援多語言程式碼生成",
+      "具備多模態輸入能力",
+      "基於 LoopCoder 系列的改進版本",
+      "可用於本地程式碼助理建置"
+    ],
+    "why_it_matters": "開源程式碼模型的選擇增加，技術人員可在本地部署專屬 AI 助理，降低 API 費用並保障程式碼隱私。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載模型至本地環境，實測其在中文註解解讀或跨語言程式碼轉換任務上的表現，評估替代商業 API 的可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-github-copilot",
+    "title": "GitHub Copilot 企業托管設定新增繞過權限控制功能，強化治理能力",
+    "title_original": "Enterprise-managed settings now support bypass permission controls",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls",
+    "published_at": "2026-06-17T17:13:47+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 為企業托管設定新增首個治理功能，管理員現可將 disableBypassPermissionsMode 設為「disable」，阻止 Copilot CLI 與 VS Code 中的繞過權限行為。此功能強化了企業對 AI 工具的安全管控。",
+    "highlights": [
+      "管理員可完全禁用 Copilot 繞過權限功能",
+      "適用於 Copilot CLI 與 VS Code 擴展",
+      "企業托管設定 JSON 格式配置",
+      "加強企業 AI 工具的安全與合規管理"
+    ],
+    "why_it_matters": "對企業安全團隊而言，此功能填補了 Copilot 在企業環境中的治理缺口，可確保 AI 工具不會繞過既有的存取控制策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "若任職企業 IT 管理角色，可評估此功能並規劃如何在內部部署環境中實施，增強 AI 工具的合規性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-17-charity-majors-ai",
+    "title": "Charity Majors：AI 讓程式碼從珍貴資產變成可拋棄品",
+    "title_original": "Quoting Charity Majors",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything",
+    "published_at": "2026-06-17T17:12:41+00:00",
+    "category": "hot-topics",
+    "summary": "知名工程師 Charity Majors 在 Simon Willison 部落格引言中指出，2025 年 AI 已徹底顛覆程式碼生產的經濟學：生成程式碼從困難、耗時、昂貴，變成幾乎免費且即時。這意味著開發者必須重新思考對程式碼的態度，從「珍藏呵護」轉向「隨用隨拋」的維運心態。",
+    "highlights": [
+      "AI 讓程式碼生成成本趨近於零、速度即時",
+      "傳統「精心維護、慎重重構」的程式碼管理邏輯正在失效",
+      "開發者需要更強的工程紀律來管理 AI 生成的大量程式碼",
+      "這對 CI/CD、測試覆蓋、程式碼審查流程提出新挑戰",
+      "工程師價值將從「寫程式」轉向「系統設計與判斷」"
+    ],
+    "why_it_matters": "當程式碼可以被快速大量生成時，工程師的核心價值不再只是「寫 code」，而在於判斷、整合與系統架構能力。這直接影響開發團隊的人才策略與工作流程程設計。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可評估團隊現有流程，引入更嚴格的自動化測試與程式碼品質門檻，確保 AI 快速生成的程式碼仍符合標準，避免技術債累積。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-gamecraft-bench-agent",
+    "title": "GameCraft-Bench：評估 Agent 在真實遊戲引擎中從零建構可玩遊戲的能力",
+    "title_original": "GameCraft-Bench: Can Agents Build Playable Games End-to-End in a Real Game Engine?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8g1om/gamecraftbench_can_agents_build_playable_games/",
+    "published_at": "2026-06-17T17:04:46+00:00",
+    "category": "new-models",
+    "summary": "GameCraft-Bench 為新提出的 AI 評測基準，測試 Agent 能否在真實遊戲引擎中從頭到尾完成可運行遊戲的建構，涵蓋策劃、程式、美術與關卡設計等全流程。",
+    "highlights": [
+      "涵蓋遊戲開發全流程的評測項目",
+      "使用真實遊戲引擎而非模擬環境",
+      "測試 Agent 的多領域協作能力",
+      "可用於衡量 LLMs 在複雜長程任務的表現",
+      "研究顯示頂級模型仍有顯著改進空間"
+    ],
+    "why_it_matters": "此 benchmark 揭示了當前 AI 在端到端複雜創意任務上的瓶頸，是評估模型代理能力的重要參考指標。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 benchmark 測試自己部署的模型，觀察其在遊戲開發場景中的成功率與瓶頸，作為代理能力橫向比較依據。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-github-copilot-chat",
+    "title": "GitHub Copilot Chat 自動模式全面開放，所有用戶皆可使用智慧模型選擇",
+    "title_original": "Auto mode in Copilot Chat available for all users",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users",
+    "published_at": "2026-06-17T16:24:33+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot Chat 的 Auto 模式現已全面開放，所有 Copilot 方案用戶皆可在 github.com 與 GitHub 行動應用上使用。Auto 模式可根據任務複雜度自動選擇最適合的模型，在效能與成本間取得平衡。",
+    "highlights": [
+      "Auto 模式自動判斷任務需求選擇模型",
+      "已登陸網頁版與行動裝置",
+      "所有 Copilot 付費方案用戶皆可使用",
+      "旨在最佳化 AI 推論成本與回應品質"
+    ],
+    "why_it_matters": "智慧模型路由可減少開發者的決策負擔，並潛在降低 API 呼叫成本。對在意費用管控的技術團隊而言，是值得關注的功能更新。",
+    "automation_angle": null,
+    "automation_angle_zh": "實際使用 Copilot Chat 的 Auto 模式，觀察其在不同任務（如簡單程式修改 vs. 複雜重構）上的模型選擇策略與回應品質。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-17-github-copilot-agent-finder-agent",
+    "title": "GitHub Copilot Agent Finder 正式上線，自動發掘合適 Agent 組合",
+    "title_original": "Agent finder for GitHub Copilot now available",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available",
+    "published_at": "2026-06-17T16:21:56+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方宣布 Copilot Agent Finder 功能上線，可自動推薦適合任務的 MCP servers、skills、canvases、agents 組合，省去手動串接與 context window 管理成本。",
+    "highlights": [
+      "官方 GitHub 發布，功能已實際可用",
+      "解決 Agent 串接時 context window 膨脹痛點",
+      "自動推薦工具組合，降低配置門檻",
+      "與 Copilot 生態深度整合，開箱即用",
+      "改變開發者與 AI 工具互動的預設流程"
+    ],
+    "why_it_matters": "Agent 生態的複雜度是採用障礙之一。Agent Finder 若確實簡化串接流程，可加速企業級 Copilot 應用落地。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Copilot 日常使用中開啟 Agent Finder，觀察其推薦的工具組合是否與自建 MCP 流程匹配，評估整合效率提升幅度。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-trellis-2-apple-mlx-3d",
+    "title": "TRELLIS.2 原生支援 Apple MLX 框架可本地端執行圖像轉3D模型",
+    "title_original": "TRELLIS.2 now runs natively on MLX (Image to 3d object model)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u8d9rf/trellis2_now_runs_natively_on_mlx_image_to_3d/",
+    "published_at": "2026-06-17T15:24:36+00:00",
+    "category": "open-source-ai",
+    "summary": "TRELLIS.2 影像轉3D物件生成模型現已原生支援 Apple MLX 框架，能在 M 系列晶片上高效本地運行，為創作者提供離線的 3D 資產生成工具。",
+    "highlights": [
+      "原生支援 Apple Silicon MLX 加速",
+      "可在 Mac 本地端離線運行無需 API",
+      "影像轉3D物件生成能力",
+      "M系列晶片上的高效推論",
+      "適用於遊戲、AR/VR等3D內容創作"
+    ],
+    "why_it_matters": "在蘋果硬體上本地跑 AI 模型的需求持續增長，TRELLIS.2 提供免費且隱私友善的 3D 生成選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Mac 上安裝 MLX 版本 TRELLIS.2，實測圖片生成 3D 模型的速度與品質，評估用於遊戲或元宇宙素材的可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-google-amie-ai-nature",
+    "title": "Google AMIE 對話式醫療 AI 在《Nature》發表疾病管理研究成果",
+    "title_original": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+    "published_at": "2026-06-17T15:00:00+00:00",
+    "category": "new-models",
+    "summary": "Google 研究團隊發表於《Nature》的論文顯示，對話式 AI 系統 AMIE 在複雜疾病管理的診斷對話中，可與基層醫師水準相當。",
+    "highlights": [
+      "發表於頂級醫學期刊 Nature 具有同行評審公信力",
+      "在疾病管理對話中達到與基層醫師相當水準",
+      "研究涵蓋多輪問診與疾病追蹤情境",
+      "強調對話式 AI 在醫療輔助的潛力",
+      "仍需更多臨床驗證與法規確認"
+    ],
+    "why_it_matters": "醫療 AI 正式進入頂級學術殿堂，代表臨床等級 AI 輔助決策的技術成熟度提升一個層級。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀論文方法論部分，評估其對話框架與推論鏈是否能遷移至其他專業領域的 AI 應用開發。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-github-copilot",
+    "title": "GitHub Copilot 個人方案重新開放註冊",
+    "title_original": "Copilot individual plan sign-ups are reopening",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening",
+    "published_at": "2026-06-17T14:10:00+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布將在未來數週內逐步重新開放 Copilot Student、Pro、Pro+ 與 Max 方案的個人新用戶註冊，此前因需求過高曾暫停受理新帳戶。",
+    "highlights": [
+      "Student、Pro、Pro+、Max 四種方案陸續恢復報名",
+      "此前因湧入流量過大暫停註冊",
+      "Max 方案提供最高額度與 Claude Max 等競品對齊",
+      "有興趣的開發者需留意官方公告時程",
+      "可趁重新開放前評估自身使用頻率與方案CP值"
+    ],
+    "why_it_matters": "Copilot 是多數開發者日常依賴的程式碼生成工具，方案重啟影響廣大技術從業者的工具鏈與預算規劃。",
+    "automation_angle": null,
+    "automation_angle_zh": "趁新用戶開放時申請試用，實測 Pro/Max 與其他方案的程式碼建議品質差異，決定是否符合工作需求。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-17-github-copilot-macos-windows-linux",
+    "title": "GitHub Copilot 桌面應用正式全面推出，支援 macOS、Windows、Linux",
+    "title_original": "GitHub Copilot app generally available",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available",
+    "published_at": "2026-06-17T13:00:33+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布 Copilot 桌面應用正式 GA，支援三大主流作業系統。該應用是 GitHub 原生打造的 AI 代理開發樞紐，整合 Copilot Chat、程式碼生成與工作流程程自動化功能，為開發者提供統一的 AI 輔助開發環境。",
+    "highlights": [
+      "原生桌面應用，跨平台支援完整",
+      "內建 Copilot Chat 聊天介面",
+      "支援 Agent 驅動的開發工作流程",
+      "與 GitHub 生態系深度整合"
+    ],
+    "why_it_matters": "統一的桌面應用簡化了開發工具鏈，技術使用者可在單一介面中完成程式碼撰寫、聊天詢問與自動化腳本生成，提升日常開發效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載並試用 Copilot 桌面應用，評估其是否能替代部分 VS Code 插件工作流程，測試其自動化程式碼修改與重構的能力。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-06-17-30b-c-fps",
     "title": "本地 30B 模型靠截圖迴圈完成純 C 語言光線追蹤 FPS 遊戲展示",
     "title_original": "Headless screenshot loops let a local 30B agent finish a raytraced FPS demo in pure C",
@@ -135,6 +525,33 @@
     "automation_angle_zh": "對機器人自動化有興趣的開發者可 clone LeRobot repo，配合 Strands Agent 範例，在支援的硬體平台上測試端到端的模型驅動控制流程。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-openai-molecule-one-gpt-5-4-ai",
+    "title": "OpenAI 與 Molecule.one 展示 GPT-5.4 近自主 AI 化學家改善藥物合成反應",
+    "title_original": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/ai-chemist-improves-reaction",
+    "published_at": "2026-06-17T10:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 部落格披露與 Molecule.one 的合作案例，展示 GPT-5.4 驅動的近自主 AI 化學家系統成功改善藥物化學中挑戰性反應的效率。此案例標誌著 LLM 在化學合成領域的實際應用突破，為製藥研究提供新途徑。",
+    "highlights": [
+      "GPT-5.4 展現化學領域專業推論能力",
+      "成功優化藥物合成關鍵反應步驟",
+      "結合 Molecule.one 的化學數據庫與反應預測",
+      "標誌 AI 從輔助工具走向半自主研究夥伴"
+    ],
+    "why_it_matters": "此案例證明大語言模型具備處理專業科學任務的能力，對從事藥物研發、AI for Science 或想評估最新模型能力的技術人員具有重要參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤後續開源或 API 釋出計畫，評估是否能整合至自有的化學資訊系統或實驗流程自動化框架中。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -368,6 +785,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-17-hugging-face-agent-ai",
+    "title": "Hugging Face 推出 Agent 資源發現功能：讓 AI 代理自主搜尋模型與資料集",
+    "title_original": "Agentic Resource Discovery: Let agents search",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+    "published_at": "2026-06-17T00:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格宣布推出 Agentic Resource Discovery 功能，讓 AI Agent 能夠自主搜尋、評估並整合 Hugging Face 平台上的模型、資料集與工具。此功能旨在簡化 Agent 開發流程，使代理系統能自動發現符合任務需求的資源，降低人工檢索成本。",
+    "highlights": [
+      "支援 AI Agent 自動探索 Hugging Face 模型生態系",
+      "可依任務需求動態匹配模型與資料集",
+      "降低 Agent 開發時資源發現的時間成本",
+      "開源實現，可部署於本地環境測試"
+    ],
+    "why_it_matters": "此功能讓開發者能建立真正自主的 AI Agent，省去人工搜尋資源的時間，對需要快速原型開發或自動化工作流程程的技術人員具有直接價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此功能整合至自建 Agent 中，測試是否能自動根據任務描述推薦合適的 Hugging Face 模型，評估其準確度與實用性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-17-datasette-1-0a34",
     "title": "Datasette 1.0a34：新增介面直接新增、編輯、刪除資料列",
     "title_original": "datasette 1.0a34",
@@ -417,6 +861,34 @@
     "automation_angle_zh": "開發者可先暫緩大規模部署基於 Token 計費的 Claude Agent 工作流程，等待官方確認新計費方案後再優化成本結構。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-le-gros-chaton",
+    "title": "「Le Gros Chaton」是開源的嗎？",
+    "title_original": "Is Le Gros Chaton opensource?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u7pj4i/is_le_gros_chaton_opensource/",
+    "published_at": "2026-06-16T20:41:25+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群正在熱烈討論一個名為「Le Gros Chaton」的 AI 模型是否會開源。該模型引發社群好奇，因為開源與否將直接影響開發者能否自由部署、微調及商業使用。由於缺乏官方公告，此討論目前仍屬猜測階段，技術讀者應保持關注後續發展。",
+    "highlights": [
+      "Le Gros Chaton 是近期 LocalLLaMA 論壇上被詢問開源與否的模型名稱",
+      "開源與否決定了開發者能否自由部署、微調及商業應用該模型",
+      "目前社群僅有猜測，未有官方來源證實其開源計畫",
+      "此類討論反映社群對開源替代方案的高度關注",
+      "技術用戶若感興趣可追蹤原始討論串以獲取第一手消息"
+    ],
+    "why_it_matters": "開源模型讓開發者能完全掌控部署環境、保護資料隱私，並省去 API 呼叫費用。確認 Le Gros Chaton 是否開源，對需要本地部署的技術團隊至關重要。",
+    "automation_angle": null,
+    "automation_angle_zh": "若確認開源，技術用戶可立即下載模型權重，透過 Ollama 或 llama.cpp 在本機運行，省去雲端 API 成本並避免資料外傳。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
