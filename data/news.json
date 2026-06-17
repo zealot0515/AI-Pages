@@ -1,5 +1,203 @@
 [
   {
+    "id": "2026-06-17-30b-c-fps",
+    "title": "本地 30B 模型靠截圖迴圈完成純 C 語言光線追蹤 FPS 遊戲展示",
+    "title_original": "Headless screenshot loops let a local 30B agent finish a raytraced FPS demo in pure C",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u89f2q/headless_screenshot_loops_let_a_local_30b_agent/",
+    "published_at": "2026-06-17T12:55:28+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶展示本地 30B 參數模型透過截圖迴圈驅動，純用 C 語言實作光線追蹤 FPS 遊戲，模型擔任規劃、指令生成與除錯角色，無需雲端 API 即可完成複雜程式生成任務。",
+    "highlights": [
+      "模型作為截圖驅動的代理，反覆閱讀畫面輸出 C 程式碼",
+      "純本地部署，無需網路或付費 API",
+      "展現 30B 模型在多步驟程式推導上的可用性",
+      "涉及即時編譯與視覺回饋的自主循環",
+      "代表 local AI 程式助理的實作極限探索"
+    ],
+    "why_it_matters": "證明本地中量級模型（30B）已能在封閉迴圈中驅動複雜程式生成任務，降低對昂貴雲端 API 的依賴，對成本敏感開發者具參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可仿效截圖+指令迴圈架構，將本地 LLM 接入自動化程式碼生成 pipeline，評估模型在自訂工作流程中的穩定度。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-llm-rpg-npc-ai",
+    "title": "開源本地 LLM 驅動 RPG：NPC、場景、道具與任務均由 AI 即時生成且持久化",
+    "title_original": "I released a local LLM-powered RPG where generated NPCs, locations, items, and quests persist as in-game objects",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u894z7/i_released_a_local_llmpowered_rpg_where_generated/",
+    "published_at": "2026-06-17T12:43:01+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者在 Reddit 發布結合本地 LLM 的 RPG 遊戲，所有 NPC、地點、道具與任務均由模型即時生成，並以遊戲內物件形式持久化儲存，屬於將生成式 AI 深度整合進遊戲引擎的開源實驗專案。",
+    "highlights": [
+      "NPC、場景、道具、任務均由 LLM 即時生成",
+      "生成內容以物件形式持久化，非每次載入重生成",
+      "完全本地執行，無外部 API 依賴",
+      "開源可 Fork 與擴展，屬實驗性專案",
+      "涉及遊戲引擎與 LLM API 的整合架構"
+    ],
+    "why_it_matters": "展示 LLM 在非聊天場景的持久狀態管理能力，為遊戲、教育、互動內容等需要動態生成與狀態維護的應用提供參考範式。",
+    "automation_angle": null,
+    "automation_angle_zh": "Fork 此專案，改寫為自動化腳本測試 LLM 的狀態一致性與長期對話記憶能力。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-se-ranking-mcp-server-claude-seo-skills",
+    "title": "SE Ranking MCP Server 發布官方 Claude SEO Skills 工具包",
+    "title_original": "seranking/seo-skills",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/seranking/seo-skills",
+    "published_at": "2026-06-17T12:39:51Z",
+    "category": "agent-skills",
+    "summary": "SE Ranking 團隊釋出專為自家 MCP Server 設計的 Claude Agent Skills，涵蓋內容簡報、AI 搜尋市占分析、網站審計、反向連結缺口、關鍵字叢集、Schema 結構化資料、Sitemap、GEO 等功能，採用 Python 開發，星數 66 屬新興專案。",
+    "highlights": [
+      "支援內容簡報自動生成與 AI 搜尋份額追蹤",
+      "具備網站審計與反向連結缺口分析模組",
+      "可生成 Schema 結構化資料與 Sitemap",
+      "整合 GEO（生成式 AI 搜尋優化）能力",
+      "Python 實作，可與現有 Claude Agent 工作流程整合"
+    ],
+    "why_it_matters": "將 SEO 繁瑣的資料收集與分析流程自動化，技術人員可在 Claude 環境中一站式完成關鍵字研究與內容優化，大幅節省重複性人力。",
+    "automation_angle": null,
+    "automation_angle_zh": "直接 pip install 或 clone 後，以 Claude Code/MCP 接入 SE Ranking API，金流自動化 SEO 報告生成流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/236332241?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-cheshire-cat-ai-ai-agent",
+    "title": "Cheshire Cat AI：可擴充的開源 AI Agent 微服務框架",
+    "title_original": "cheshire-cat-ai/core",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/cheshire-cat-ai/core",
+    "published_at": "2026-06-17T10:34:35Z",
+    "category": "agent-skills",
+    "summary": "Cheshire Cat AI Core 是一款以微服務架構設計的開源 AI Agent 框架，採用 Python 開發，目前 GitHub  stars 達 3,045。支援外掛擴充與對話管理，適合快速原型或內部工具建構。",
+    "highlights": [
+      "微服務架構，部署靈活且易於擴展",
+      "支援外掛系統，可依需求添加功能模組",
+      "Python 生態系相容性高",
+      "已有三千以上 GitHub stars，社群基礎穩健",
+      "可作為自建 Agent 系統的底層框架參考"
+    ],
+    "why_it_matters": "相較於從零建構 Agent，Cheshire Cat 提供了現成對話管理與外掛機制，技術團隊可用較少資源完成內部工具或客服系統原型。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可 pip install cheshire-cat 並啟動容器範例，快速評估其對話管理與外掛機制是否滿足特定工作流程自動化需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/135242343?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-17-hugging-face-strands-agent-lerobot-hub-ai",
+    "title": "Hugging Face Strands Agent 串接 LeRobot 實現從 Hub 到硬體的 AI 控制",
+    "title_original": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+    "published_at": "2026-06-17T10:18:05+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格文章介紹 Strands Agents 如何與 LeRobot 專案整合，將 Hub 上的模型能力直接部署到實體機器人硬體。展示了從模型選擇、任務規劃到硬體驅動的完整流程。",
+    "highlights": [
+      "Strands Agent 作為任務協調層",
+      "LeRobot 提供機器人控制的開源底層",
+      "支援將 HF Hub 模型無縫部署至實體裝置",
+      "可用於工廠或研究環境的機器人自動化",
+      "技術文件與範例程式碼已開源"
+    ],
+    "why_it_matters": "AI 從雲端生成走向實體控制是重要趨勢，Strands + LeRobot 的整合降低了研究人員與Maker 建構智慧硬體系統的門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "對機器人自動化有興趣的開發者可 clone LeRobot repo，配合 Strands Agent 範例，在支援的硬體平台上測試端到端的模型驅動控制流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-item",
+    "title": "本地模型從幾乎無用到真正實用：技術社群討論關鍵轉變點",
+    "title_original": "Local models went from mostly useless to actually useful really fast. What changed?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u85t9c/local_models_went_from_mostly_useless_to_actually/",
+    "published_at": "2026-06-17T09:55:13+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit LocalLLaMA 討論串聚集大量使用者分享本地模型近半年來的實用性躍進，從輸出品質、推論速度到工具呼叫能力均有明顯進步，討論聚焦量化技術、蒸餾方法與新架構的具體貢獻。",
+    "highlights": [
+      "量化技術（如 GPTQ/GGUF）使大模型在消費級 GPU 可跑",
+      "蒸餾與 LoRA 微調降低部署門檻",
+      "工具呼叫（Tool Use）與 Function Calling 支援改善",
+      "上下文長度提升減少任務中斷問題",
+      "社群實測回報滿意度從『不可用』升至『可用』"
+    ],
+    "why_it_matters": "實用性門檻降低代表個人開發者與小型團隊可在無預算壓力下部署 AI 能力，工作流程自動化可行性大幅提高。",
+    "automation_angle": null,
+    "automation_angle_zh": "重新評估手中的本地模型專案，若之前因效能放棄，可重新測試新量化版本在目標任務的表現。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-anthropic-claude-agent-sdk-token",
+    "title": "Anthropic 暫緩 Claude Agent SDK 按 Token 收費方案",
+    "title_original": "Anthropic pauses token-based pricing for Claude Agent SDK amid concerns over AI usage costs - The Indian Express",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY2EyaWlHWUZqMEdoUzVONnJVb01hQk9BcXNGUE1wQzM3MnlqcVB5dlFvektCREZEbGhiUWhMcGFhM0p1RXFLQjNyOW81RlgwRk1WNkg4S1JHdTd4NTYySG1TRnpyemxXcUVaMk9ER196YVpadnZnQS1GMlcxVzVYb2ZSRmo0aUh1TDJIbDRiZDVxbEUxeW1Yd1pfSDlFeV82Q3A3R1NiTUJXR1Z1UzQ5VFlkdWJNeDJvQ1JCOUdVVmVRRG1ZRnBIa9IBzwFBVV95cUxNVGtVa1ljTGQ2TXJZSFJnOU5xejd0WTJDM3FaWEl2SjZXTjRWbzM1NVBnOFVuZllnX3h5V1BfbmJqVElPYTdJQkNYX1FFVGEybUZEcWM0SGVrTkV5ZUNqSkFmYVNGWFZBOFMxYW5PU2x6WjdXVEVmMTM0UWt4YlVzeVBwR2o0dHNmel9SSjhuZ0RFbDZLNlBYcVZqQnN5eDd5dFk5RHp2NHN3VHFDUGlETWN5cGFDTHE5S1BWc2lXLXlaS3ExcllRZjBMQm5VckU?oc=5",
+    "published_at": "2026-06-17T09:05:19+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 據報因開發者對 AI 使用成本的疑慮，暫停了 Claude Agent SDK 的 Token 計價模式。具體替代方案與重啟時程尚未公告，此變動反映大型模型廠商對定價策略的謹慎態度。",
+    "highlights": [
+      "Anthropic 承認 Agent SDK 原定價策略存在問題",
+      "暫停理由與開發者成本負擔直接相關",
+      "替代定價方案尚未揭曉",
+      "可能影響未來 Claude API 的商業化走向",
+      "顯示 AI 廠商定價模式仍在試錯階段"
+    ],
+    "why_it_matters": "對已依賴 Claude API 建構自動化流程的團隊而言，定價模式的不確定性直接影響成本預測與系統設計，需要持續關注官方後續公告。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Claude API 自動化工作流程的團隊應記錄目前用量與成本，評估若未來改為訂閱或混合計價時的預算衝擊。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-17-claude-octopus-claude-code-agent-mcp",
     "title": "claude-octopus：單一大腦，多條手臂——將 Claude Code Agent 掛為 MCP 伺服器",
     "title_original": "xiaolai/claude-octopus",
@@ -78,6 +276,34 @@
     "automation_angle_zh": "技術部落格作者可整合此元件自動處理文章中的 GIF，減少讀者流量負擔同時保持動畫展示。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-17-llm-elias",
+    "title": "LLM 故事生成重複性診斷：為何「燈塔中的 Elias」現象頻發",
+    "title_original": "Elias in the Lighthouse, Again? Diagnosing Low Diversity in LLM Stories",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u7z9lk/elias_in_the_lighthouse_again_diagnosing_low/",
+    "published_at": "2026-06-17T03:44:39+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit LocalLLaMA 社群熱烈討論 LLM 在故事生成時出現的「Elias in the Lighthouse」重複命名問題。研究者透過診斷工具分析模型輸出多樣性，發現此現象與訓練數據分佈、溫度參數及採樣策略高度相關，並提供針對性修復建議。此討論對評估本地部署模型的质量控制有重要參考價值。",
+    "highlights": [
+      "「Elias in the Lighthouse」是 LLM 故事生成中高頻重複命名的俗稱，反映模型創意多樣性不足",
+      "診斷方法包括困惑度分析、n-gram 重複率統計及注意力可視化",
+      "溫度參數設太高或太低都會加劇重複，需結合 top-p 調整",
+      "訓練數據中的頻率偏差是根本原因之一，後訓練微調可改善",
+      "社群提供開源診斷腳本，可整合至本地模型評估流程"
+    ],
+    "why_it_matters": "對於在本地部署 LLM 並用於創意寫作或內容生成的技術用戶，輸出多樣性直接影響工具實用性。了解此診斷方法可幫助用戶在部署前評估模型质量，避免生成內容高度重複導致自動化流程失效。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載社群提供的診斷腳本，對自己的本地模型進行重複率基準測試，並根據結果調整 temperature、top-p 等生成參數，以提升故事/文案自動化生成的創意多樣性。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -38265,6 +38491,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-17-2025-ai-chatgpt-gemini",
+    "title": "2025 全球 AI 排名出爐：ChatGPT 穩居第一、Gemini 加速追趕",
+    "title_original": "全球AI排名2025：ChatGPT第一、Gemini快速追赶 - vibes by 8world",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qR0pzRWl1YW9PMnR2Nl9GdEpTQldoZTJzMDNLM24zVldvLTgzc2x3YktiV0ZsQTZMbTlKTWFrUjlsOWt3a1FlbV9rM0tkMV9wSDBVV2NnRWtTRzdMVlpxeUp3SUl0RUFxdVB1NzNsNkNveFlQN3ZN?oc=5",
+    "published_at": "2026-01-10T08:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "根據 vibes by 8world 引用之全球 AI 排名報告，ChatGPT 持續領先，Gemini 在多項指標快速縮小差距，整體排名反映各模型在推論速度、工具整合與價格效能比上的策略差異。",
+    "highlights": [
+      "ChatGPT 在綜合能力仍居龍頭",
+      "Gemini 在特定場景追上甚至超越",
+      "排名依據涵蓋推論、工具整合與成本",
+      "報告來源為第三方，未直接引用官方數據",
+      "對模型選擇決策有宏觀參考價值"
+    ],
+    "why_it_matters": "了解競品動態有助技術決策，Gemini 追趕態勢代表 API 定價與功能可能出現對開發者更有利的變化，值得追蹤。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此排名作為模型選型的初篩參考，針對高優先順序任務交叉測試排名前三模型的成本與輸出品質。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-28-90-ai",
