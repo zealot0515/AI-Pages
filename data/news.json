@@ -1,5 +1,258 @@
 [
   {
+    "id": "2026-06-18-ehmo-gum-cli-mcp-agent-google-api",
+    "title": "ehmo/gum：CLI 與 MCP 伺服器，賦予 Agent 呼叫 Google API 的能力",
+    "title_original": "ehmo/gum",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ehmo/gum",
+    "published_at": "2026-06-18T18:41:25Z",
+    "category": "agent-skills",
+    "summary": "ehmo/gum 是一個新興的 Go 語言專案（目前 25 顆星），同時提供 CLI 工具與 MCP 伺服器實現。開發者或 Agent 可透過它發現並呼叫 Google 各類 API，將 Google 生態的資料與能力整合進自動化工作流程。",
+    "highlights": [
+      "• 處於早期階段，星星數較少（25 stars），需自行評估穩定性",
+      "• Go 語言實現，編譯後二進制部署簡便",
+      "• 同時提供 CLI 與 MCP 介面，適用於腳本與 Agent 兩種場景",
+      "• 封裝了 Google API 呼叫，降低直接整合 Google 服務的技術門檻",
+      "• 可讓 Agent 具備查詢 Google 資料、操縱 Google 工具的能力"
+    ],
+    "why_it_matters": "若你的 Agent 需要接入 Google 生態（搜尋、地圖、Workspace 等），此工具可以省去自行封裝 OAuth 與 API 呼叫的繁瑣工作。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝並測試 gum，評估其覆蓋了哪些 Google API，若覆蓋你的需求（如 Google Drive 讀寫），可將其整合進現有的 MCP Agent 流程中。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/558128?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-18-mosaicleaks-agent",
+    "title": "MosaicLeaks：你的研究 Agent 能保守秘密嗎？安全邊界測試",
+    "title_original": "MosaicLeaks: Can your research agent keep a secret?",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+    "published_at": "2026-06-18T18:13:13+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 與 ServiceNow 合作發布研究，聚焦 Agent 在處理敏感研究資料時的資訊外洩風險。透過構造包含隱私或商業敏感資訊的測試情境，評估開源研究 Agent 是否會在對話或工具呼叫過程中不經意洩露機密資料。",
+    "highlights": [
+      "• 針對 Agent 的資訊安全研究，而非通用能力評估",
+      "• 測試情境涵蓋隱私資料與商業敏感資訊",
+      "• 揭露開源 Agent 在安全邊界處理上的常見漏洞模式",
+      "• 研究結果可作為企業部署 Agent 前的安全決策參考",
+      "• 強調在正式採用前需要做隔離與脫敏處理"
+    ],
+    "why_it_matters": "若你計畫在 Agent 工作流程中處理機密文件或商業資料，此研究揭示的洩露路徑值得高度關注，並應在部署前建立對應的安全測試流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業技術用戶可借鏡 MosaicLeaks 的測試方法，自己構造機密資料測試集，驗證現有 Agent 流程是否存在類似外洩風險，並據此制定安全使用政策。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-18-mini-code-4-bit-ollama-openrouter",
+    "title": "北Mini Code 更新：4-bit 量化版支援 Ollama 與 OpenRouter",
+    "title_original": "Updates on North Mini Code: 4 bit quant + Ollama + OpenRouter",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u9dqlm/updates_on_north_mini_code_4_bit_quant_ollama/",
+    "published_at": "2026-06-18T18:09:00+00:00",
+    "category": "open-source-ai",
+    "summary": "北Mini Code 模型迎來量化更新，推出 4-bit Q4_K_M 版本，已同步適配 Ollama 本地部署與 OpenRouter 第三方 API。記憶體需求降至約 2.5GB，仍保留程式碼理解核心能力。",
+    "highlights": [
+      "4-bit 量化後記憶體需求腰斬，適合消費級 GPU",
+      "Ollama 官方庫已收錄，拉取即用",
+      "OpenRouter 已上線，可當作 API Key 替代方案",
+      "程式碼補全與除錯能力在量化後輕微衰減",
+      "可與 Continue.dev 或 Cursor 本地模型整合"
+    ],
+    "why_it_matters": "4-bit 量化大幅降低本地跑程式碼模型的硬體門檻，讓一般開發者的筆電也能跑出堪用的程式碼補全效果，且支援 Ollama 生態方便與既有工具整合。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在 Ollama 中替換預設程式碼模型為北Mini Code Q4 版，評估在常見 IDE 中的補全延遲與準確率，若滿足需求即可停用付費的 GitHub Copilot。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-18-reddit-2-bit-ggufs-10gb",
+    "title": "Reddit 討論：2-bit GGUFs（<10Gb）在代理程式碼任務上的校準方法",
+    "title_original": "Calibrating 2-bit GGUFs (<10Gb) for agentic coding tasks",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u9dk5n/calibrating_2bit_ggufs_10gb_for_agentic_coding/",
+    "published_at": "2026-06-18T18:02:28+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 社群討論 2-bit 量化 GGUFs（低於 10GB）在代理程式碼任務上的校準技巧。創作者分享如何透過校準資料集優化低於 10GB 的 2-bit 模型，使其在代理程式碼生成任務中維持可用表現。",
+    "highlights": [
+      "極低資源量化模型（<10GB）的代理應用探索",
+      "分享 2-bit GGUF 校準方法",
+      "目標場景為 agentic coding tasks",
+      "屬於技術社群實驗性分享",
+      "需要較高技術門檻才能重現"
+    ],
+    "why_it_matters": "對資源受限但希望部署本地代理的技術人員，此討論提供一個節省成本的可行方向。但未經系統驗證，效果因任務而異，需自行評估風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "在低顯存設備（如消費級顯示卡）上，可嘗試此校準流程，將 2-bit 量化模型用於簡單代理程式碼任務（如 PR 描述生成、簡易測試撰寫），評估品質是否可接受。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-18-langchain-langsmith-no-code-agent-builder",
+    "title": "LangChain 推出 LangSmith No Code Agent Builder 無碼代理建構器",
+    "title_original": "Introducing LangSmith’s No Code Agent Builder",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langsmith-agent-builder",
+    "published_at": "2026-06-18T17:32:35+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 LangSmith Agent Builder，讓非技術人員也能透過圖形介面建立具有記憶、引導提示與 MCP 工具的 AI 代理。強調無需編寫程式碼即可快速原型化代理工作流程，降低企業內部 AI 應用的建構門檻。",
+    "highlights": [
+      "支援無需程式碼的圖形化代理建構",
+      "整合記憶（memory）功能",
+      "支援 guided prompts 與 MCP 工具",
+      "目標用戶為非技術業務人員與企業",
+      "可直接銜接 LangSmith 監控與評估工具"
+    ],
+    "why_it_matters": "將代理建構民主化的趨勢持續加速。對技術人員而言，此工具可作為快速 POC 原型的捷徑，節省前期框架搭建時間，讓團隊能更快驗證代理設計假設。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可先用 No Code Builder 快速建立代理原型，確認工作流程邏輯後再以程式碼重構或擴展，既提升內部需求評估效率，也便於與非技術協作者溝通需求。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-18-github-copilot-pr",
+    "title": "GitHub 更新：Copilot 代理提交的 PR 現在納入作者搜尋",
+    "title_original": "Copilot-authored pull requests now included in author searches",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
+    "published_at": "2026-06-18T16:24:05+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣佈 Copilot 雲端代理以用戶名義提交的 Pull Request，即日起會出現在作者搜尋結果中。用戶在 github.com/pulls 使用 author:@me 搜尋時，將一併看見 Copilot 代為開啟的 PR。此改動簡化代理工作流程的稽核與管理。",
+    "highlights": [
+      "Copilot cloud agent 代開的 PR 正式納入作者過濾",
+      "author:@me 搜尋現在包含 Copilot 代理提交",
+      "提升代理工作流程的可追蹤性與稽核便利性",
+      "為大型組織採用 AI 代理提供更好的管理機制",
+      "屬於 GitHub Copilot agent 功能的重要生態整合"
+    ],
+    "why_it_matters": "隨著 AI 代理實際執行開發任務的比例提升，將代理產出納入標準搜尋與管理流程變得必要。此更新讓技術團隊能更方便地審視、追蹤與歸因 AI 生成的程式碼變動。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可立即在真實專案中測試 Copilot agent 的 PR 功能，觀察其提交頻率與品質，並評估是否需要設定審核閘道以管控自動提交。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-18-rtk-headroom-caveman-token",
+    "title": "rtk + headroom + caveman：實測三招大幅砍 Token 成本",
+    "title_original": "Cutting LLM Token Costs with rtk, headroom, and caveman - savings measured on real workloads",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u9anzk/cutting_llm_token_costs_with_rtk_headroom_and/",
+    "published_at": "2026-06-18T16:16:12+00:00",
+    "category": "agent-skills",
+    "summary": "一篇 Reddit 技術文揭露三個開源工具 rtk、headroom、caveman 的組合技法，可在真實工作負載下將 LLM Token 消耗減少 30-70%。原理分別涉及提示压缩、輸出截斷與上下文窗口優化。",
+    "highlights": [
+      "rtk 負責提示模板壓縮與變量替換",
+      "headroom 在回應超出長度時主動截斷節流",
+      "caveman 優化上下文窗口重複利用策略",
+      "三者組合在客服、程式碼生成等場景實測有效",
+      "開源可免費部署，無供應商鎖定"
+    ],
+    "why_it_matters": "在 API 呼叫成本仍是主要開支的情況下，這套組合可直接降低 30% 以上的 Token 費用，且全部開源免費，是提升 AI 工作流程投資報酬率的實用手段。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可直接將 rtk/headroom/caveman 整合進既有 LangChain 或 AutoGen 流程，先在測試環境跑真實 prompt 集計算節省比例，再決定全量部署。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-18-reddit-glm-5-2",
+    "title": "Reddit 社群測試：GLM-5.2 被稱為最佳開源創意寫作模型",
+    "title_original": "GLM-5.2 Is The Best Open Weight Creative Writing Model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u98pc9/glm52_is_the_best_open_weight_creative_writing/",
+    "published_at": "2026-06-18T15:02:45+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群有用戶宣稱 GLM-5.2 為目前最佳開源創意寫作模型，並提供初步 benchmark 對比。但此說法缺乏獨立驗證，屬於社群主觀體驗分享，非官方發布或第三方評測。",
+    "highlights": [
+      "社群用戶主觀評價，非官方 benchmark",
+      "聲稱在創意寫作任務上表現優異",
+      "開源模型，權重可供下載測試",
+      "缺乏可控環境的標準化評測",
+      "可信度較低，需自行驗證"
+    ],
+    "why_it_matters": "開源模型社群常見此類「最佳」宣稱，技術人員應保持懷疑並親自測試。此訊息的價值在於提供一個候選模型供評估，而非直接採信其結論。",
+    "automation_angle": null,
+    "automation_angle_zh": "有興趣的技術人員可下載 GLM-5.2 權重，在本地以創意寫作任務（如故事生成、角色扮演文案）進行對比測試，驗證是否符合自身需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-18-openrouter",
+    "title": "開源模型在 OpenRouter 市佔率正式超越專有模型",
+    "title_original": "OSS models decisively overtook Proprietary models in market share (based on the last 3 months of OpenRouter data)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u96545/oss_models_decisively_overtook_proprietary_models/",
+    "published_at": "2026-06-18T13:21:46+00:00",
+    "category": "hot-topics",
+    "summary": "根據 OpenRouter 過去三個月的數據，開源模型已正式超越專有模型市佔率。Llama、Qwen、Mistral 等開源陣營全線飆升，顯示本地部署與自架 API 的成本優勢正在扭轉開發者選擇趨勢。",
+    "highlights": [
+      "OpenRouter 平台上開源模型流量佔比已過半",
+      "Llama 系列是開源流量主力，Qwen、Mistral 快速追趕",
+      "開發者從 GPT-4/Claude 轉向自架或第三方開源 API",
+      "專有模型僅剩 Anthropic 與少數高階用例撐場",
+      "顯示本地推論成本已低於部分商業 API 訂閱價"
+    ],
+    "why_it_matters": "對技術用戶而言，開源模型性價比超越專有模型的趨勢確認，意味著自架模型或選用第三方開源 API 的商業邏輯已成立，應重新評估現有 AI 工具鏈成本結構。",
+    "automation_angle": null,
+    "automation_angle_zh": "可利用 OpenRouter 儀表板追蹤模型熱度與價格變化，評估手中工作負載是否可遷移至更低成本的開源替代方案，並透過 Ollama 或 vLLM 建立本地備援。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-18-inkscape-mcp-ai-agent-inkscape",
     "title": "inkscape_mcp：讓 AI Agent 驅動開源向量繪圖工具 Inkscape",
     "title_original": "aravindev/inkscape_mcp",
@@ -78,6 +331,34 @@
     "automation_angle_zh": "參考此架構，使用 MCP 工具將本地 LLM 與 Stable Diffusion、Video Diffusion 等模型串聯，實現自動化圖文創作 pipeline，零 API 成本。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-18-openai-chatgpt",
+    "title": "OpenAI 提升 ChatGPT 健康與醫療資訊回應能力",
+    "title_original": "Improving health intelligence in ChatGPT",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+    "published_at": "2026-06-18T11:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 說明 GPT-5.5 Instant 如何改善 ChatGPT 的健康與保健回應，包括更強推論能力、更佳上下文理解、更清晰溝通，以及經醫師審核的評估機制。此更新屬於模型能力微調，非全新模型發布。",
+    "highlights": [
+      "屬於既有模型的能力改進，非新模型發布",
+      "重點優化健康資訊的推論與表達清晰度",
+      "引入 physician-informed evaluation 機制",
+      "強調為消費端體驗改善，偏產品層面",
+      "官方承認可能屬於 PR 導向更新"
+    ],
+    "why_it_matters": "對於仰賴 ChatGPT 獲取初步健康資訊的技術從業人員，了解此類模型安全護欄與能力邊界有助於評估工具可靠性，但此更新對技術工作流程的直接影響有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可測試更新後 ChatGPT 在醫學問答邊界案例的表現，評估是否已成為可信赖的初步資訊檢索工具，或仍需人工驗證關鍵健康資訊。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -168,6 +449,34 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-06-18-openai-18",
+    "title": "研究：OpenAI 推論模型助醫師確診 18 例兒童罕見遺傳疾病",
+    "title_original": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+    "published_at": "2026-06-18T08:00:00+00:00",
+    "category": "new-models",
+    "summary": "研究人員運用 OpenAI 推論模型輔助診斷罕見疾病，在已排除其他可能性的未解病例中成功確認 18 例新診斷。此研究展示大語言模型在醫學推論上的潛力，但強調 AI 僅作為輔助工具而非最終診斷者。",
+    "highlights": [
+      "成功確診 18 例此前未能解決的罕見兒童遺傳疾病",
+      "模型需在人類專家已排除其他選項的基礎上進行推論",
+      "研究強調 AI 輔助診斷的定位，終決權仍在醫師",
+      "屬於reasoning model能力的醫療應用驗證",
+      "有興趣的開發者可申請加入類似研究計畫"
+    ],
+    "why_it_matters": "此案例驗證推論模型在高價值、複雜推論任務中的實用性。對技術人員而言，了解模型何時「真的在推論」而非背誦，將影響未來應用場景的選擇與系統設計。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可評估將reasoning model整合至現有診斷輔助系統的可行性，特別是高複雜度、低樣本量的任務，並測試模型在「已排除選項」情境下的推論表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-18-anthropic-claude-agent-sdk",
     "title": "Anthropic 暫緩 Claude Agent SDK 計費變更，開發者需持續關注後續公告",
     "title_original": "Anthropic Hits Pause on Claude Agent SDK Billing Change, For Now - DevOps.com",
@@ -220,6 +529,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-18-agentic",
+    "title": "「夠 Agentic 嗎？」：在自有工具鏈上基準測試開源模型的實用指南",
+    "title_original": "Is it agentic enough? Benchmarking open models on your own tooling",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/is-it-agentic-enough",
+    "published_at": "2026-06-18T00:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 官方部落格發布文章，探討如何在自己的工具環境上基準測試開源模型的 Agent 能力，而非依賴通用基準分數。文章強調不同工具鏈組合下模型表現差異顯著，建議開發者建立本地化評估流程以獲得更具行動價值的洞察。",
+    "highlights": [
+      "• 批判通用基準的局限性，倡導在實際工具環境中測試",
+      "• 提供方法論指導，幫助開發者建立自定義 Agent 評估集",
+      "• 聚焦開源模型，可與本地部署方案結合使用",
+      "• 強調工具鏈組合對模型表現的影響力",
+      "• 適合希望選型或優化本地模型的技術團隊"
+    ],
+    "why_it_matters": "對於自建 Agent 系統的技術用戶，通用基準分數往往無法預測模型在你真實工具鏈上的表現。此文提供的評估方法論可直接用於模型選型決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可參考文中的評估框架，將候選開源模型接入自己的工作環境（如 MCP 工具），實際測量成功率與工具調用準確度，再決定是否替換或升級模型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-06-18-glm-5-2-minimax-m3-deepseek-v4-pro",
@@ -28929,6 +29266,34 @@
     "why_it_matters": "Mistral在代理技能領域持續追趕OpenAI與Anthropic，技術用戶可評估其性價比是否優於同類產品，特別是歐洲資料主權需求場景。",
     "automation_angle": null,
     "automation_angle_zh": "技術用戶可申請搶先體驗，測試Medium 3.5在長任務自動化、跨系統協調等場景的穩定性與回應延遲。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-18-mistral-studio-mcp",
+    "title": "Mistral Studio 支援內建與自訂 MCP 工具串接",
+    "title_original": "Connect the dots: Build with built-in and custom MCPs in Studio - Mistral AI",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Hc2djZ0N1MTk1dVZ0SnFtODlLV3hTNUt6M3p1RklNc2xtdWM3amZpcVdTbGhVTGIzY2VYUTduYWM4V1NGV25ldFRCVQ?oc=5",
+    "published_at": "2026-05-22T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Mistral AI 在其 Studio 平台新增 MCP（Model Context Protocol）支援，開發者可快速掛載內建工具或自訂 MCP 擴充模型能力，讓 Agent 能直接呼叫外部 API、資料庫或企業內部系統。",
+    "highlights": [
+      "Studio 內建多個常用 MCP 如天氣、搜尋、資料庫",
+      "支援開發者自行封裝 REST/GraphQL 為 MCP 工具",
+      "模型可直接 Tool Call，無需額外包裝層",
+      "提供除錯介面監控工具呼叫流程",
+      "可與 Mistral API 整合或獨立部署"
+    ],
+    "why_it_matters": "MCP 正成為 AI Agent 工具生態的新標準，Mistral 率先在 Studio 原生支援代表工具鏈整合門檻降低，讓技術團隊能更快速建構可執行動作的 AI Agent 而非僅限聊天。",
+    "automation_angle": null,
+    "automation_angle_zh": "可先試用 Studio 內建 MCP 快速原型，再將企業內部 API 包裝為自訂 MCP，實測與 Mistral 小杯模型（如 Mistral-small）的工具呼叫準確率與延遲。",
     "tags": [
       "agent-skills",
       "rss",
