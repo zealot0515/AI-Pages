@@ -1,5 +1,251 @@
 [
   {
+    "id": "2026-06-19-glm-5-2-aa-briefcase-gpt-5-5",
+    "title": "GLM-5.2 在 AA-Briefcase 代理任務評測中超越 GPT-5.5",
+    "title_original": "GLM-5.2 is above GPT-5.5 in AA-Briefcase, Artificial Analysis' new agentic knowledge work eval",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u9myi6/glm52_is_above_gpt55_in_aabriefcase_artificial/",
+    "published_at": "2026-06-19T00:17:31+00:00",
+    "category": "new-models",
+    "summary": "Reddit 社群討論指出，智譜 GLM-5.2 在 Artificial Analysis 新推出的 AA-Briefcase 代理知識工作評測中分數高於 GPT-5.5，但此說法尚未獲官方驗證。",
+    "highlights": [
+      "基於 Reddit 社群討論，非官方發布",
+      "評測為 AA-Briefcase 代理能力新基準",
+      "GLM-5.2 為國產開源模型",
+      "訊息未經獨立驗證，須謹慎解讀"
+    ],
+    "why_it_matters": "若屬實，代表開源模型在特定代理任務上已能與頂級閉源模型競爭。對成本敏感且需本地部署的團隊具有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可等待更完整的評測報告出爐後，在本地環境對 GLM-5.2 進行代理任務測試，驗證其對實際工作流程程的適用性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-scrcpy-mcp-ai-android-mcp",
+    "title": "scrcpy-mcp：讓 AI 代理控制 Android 設備的 MCP 伺服器",
+    "title_original": "JuanCF/scrcpy-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/JuanCF/scrcpy-mcp",
+    "published_at": "2026-06-19T00:17:02Z",
+    "category": "agent-skills",
+    "summary": "開源專案將 scrcpy 與 MCP 協定結合，提供 AI 代理對 Android 設備的視覺監控與adb控制能力。代理可透過此橋接層讀取螢幕、截圖，並執行觸控操作，實現手機自動化任務。",
+    "highlights": [
+      "基於 TypeScript 開發，已有 38 個 GitHub stars",
+      "整合 ADB 指令與 scrcpy 螢幕串流",
+      "支援 AI 代理讀取 Android 畫面並執行操作",
+      "可用於自動化測試、資料抓取、 RPA 流程"
+    ],
+    "why_it_matters": "手機端自動化一直缺乏標準化的 AI 控制介面。此專案提供可立即部署的解決方案，讓技術人員能在工作流程中實現 Android 任務的智慧化操控。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將此 MCP 伺服器接入現有 AI 代理，自動化手機端操作如截圖分析、表單填寫、批量測試等重複性任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/20245734?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-datasette-apps-html",
+    "title": "Datasette Apps：沙箱 HTML 應用嵌入資料庫查詢",
+    "title_original": "Datasette Apps: Host custom HTML applications inside Datasette",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
+    "published_at": "2026-06-18T23:58:38+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 Datasette 外掛，支援在沙箱 iframe 內執行自訂 HTML/JS，並透過 postMessage 協定安全執行唯讀 SQL 查詢。",
+    "highlights": [
+      "iframe sandbox 屬性防止 DOM 與 Cookie 存取",
+      "CSP header 限制對外請求，防止資料外洩",
+      "可複製 Prompt 讓 LLM 直接生成應用",
+      "支援儲存查詢執行寫入操作",
+      "錯誤日誌即時顯示除錯"
+    ],
+    "why_it_matters": "將 Claude Artifacts 概念與 SQLite 持久化資料庫結合，讓 AI 生成的介面真正能讀寫結構化資料。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 agent.datasette.io 登入 GitHub 測試，選擇一個資料庫後複製 Prompt 貼入 ChatGPT/Claude 生成自訂視覺化工具。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-github-copilot-opus-4-6-fast-6-29",
+    "title": "GitHub Copilot 將停用 Opus 4.6 fast，6/29 生效",
+    "title_original": "Upcoming deprecation of Opus 4.6 (fast)",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
+    "published_at": "2026-06-18T23:58:34+00:00",
+    "category": "hot-topics",
+    "summary": "GitHub 官方公告將於 6 月 29 日停用 Opus 4.6 fast，涵蓋 Copilot Chat、內聯編輯、Agent 模式與程式碼補全，影響範圍全面。",
+    "highlights": [
+      "官方部落格來源，確定性高",
+      "影響所有 Copilot 體驗形式",
+      "停用日期明確：6 月 29 日",
+      "需確認是否已有替代模型公告",
+      "可能觸發短暫效能波動期"
+    ],
+    "why_it_matters": "Copilot 常用 Opus fast 的技術人員需提前規劃遷移，若替代模型尚未公布，Agent 工作流程可能面臨重新調校。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即盤點團隊 Copilot Agent 配置中哪些環節依賴 Opus 4.6 fast，準備切換提示詞或切換至其他模型選項。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-19-cpu-glm-5-2",
+    "title": "技術愛好者在純 CPU 環境本地運行 GLM-5.2",
+    "title_original": "Giving GLM-5.2 a spin locally on CPU only! (poor man's rig for big models)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u9jbd4/giving_glm52_a_spin_locally_on_cpu_only_poor_mans/",
+    "published_at": "2026-06-18T21:40:26+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享如何在無 GPU 支援的純 CPU 環境下本地部署並測試 GLM-5.2 模型，為硬體受限的開發者提供一種低成本實驗途徑。",
+    "highlights": [
+      "純 CPU 推論可行但速度極慢",
+      "展示 GLM-5.2 的記憶體與計算彈性",
+      "適合探索性本地測試而非生產環境"
+    ],
+    "why_it_matters": "降低模型評估的硬體門檻，讓更多技術人員能在設備有限的情況下先行體驗新模型特性，再決定是否投入 GPU 資源。",
+    "automation_angle": null,
+    "automation_angle_zh": "無 GPU 的技術人員可參考此流程在本地驗證模型輸出品質，評估是否值得後續投入雲端 GPU 資源進行實際自動化任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-mai-code-1-flash-github-copilot",
+    "title": "MAI-Code-1-Flash 模型擴展至更多 GitHub Copilot 介面",
+    "title_original": "MAI-Code-1-Flash available on more Copilot surfaces",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+    "published_at": "2026-06-18T20:11:24+00:00",
+    "category": "agent-skills",
+    "summary": "微軟小型程式碼生成模型 MAI-Code-1-Flash 已登陸 GitHub Copilot CLI、Copilot App、Copilot Chat 及 Visual Studio 等更多平台，為開發者提供更快的本地程式碼補全體驗。",
+    "highlights": [
+      "覆蓋 Copilot CLI、App、Chat、VS 等多端",
+      "定位為輕量快速的程式碼補全模型",
+      "微軟自研小型模型策略的持續推進"
+    ],
+    "why_it_matters": "小型推論模型在特定任務上可降低延遲與成本。此擴展讓開發者能在更多場景使用針對程式碼優化的輕量模型，而非通用大型模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 CLI 環境中使用 MAI-Code-1-Flash 加速 script 生成與自動化腳本編寫，評估其與通用模型在程式碼任務上的性價比。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-19-blumi-cli-rust",
+    "title": "blumi-cli：Rust 寫的多代理協作框架",
+    "title_original": "ankurCES/blumi-cli",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ankurCES/blumi-cli",
+    "published_at": "2026-06-18T19:57:42Z",
+    "category": "agent-skills",
+    "summary": "Rust 實現的多代理框架，主打本地優先、供應商無關與 BYOK 模式，28 stars，新興專案，穩定性待驗證。",
+    "highlights": [
+      "Rust 語言提升執行效率",
+      "多個智慧代理可協調分工",
+      "支援自帶 API Key（BYOK）",
+      "完全本地執行保護隱私",
+      "28 stars，代表新興社群關注"
+    ],
+    "why_it_matters": "Rust 效能搭配多代理設計，可作為高併發自動化任務的底層框架選項，但早期專案需自行評估維護風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝後定義兩個代理角色測試協作流程，例如一個負責錯誤偵測、一個負責自動修復，作為內部工作流程示範。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/8655115?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-copilot-code-review-agents-md-ui",
+    "title": "Copilot Code Review 新增 AGENTS.md 支援與 UI 優化",
+    "title_original": "Copilot code review: AGENTS.md support and UI improvements",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
+    "published_at": "2026-06-18T19:11:51+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot Code Review 功能現支援倉庫層級的 AGENTS.md 配置，開發者可在草稿 PR 上直接點擊 Request 按鈕請求 AI 審查，流程更順暢。",
+    "highlights": [
+      "支援 repository 級別的 AI 審查規則定義",
+      "草稿 PR 可直接呼叫 Copilot Review",
+      "UI 流程簡化降低使用摩擦"
+    ],
+    "why_it_matters": "團隊可透過 AGENTS.md 統一審查標準，讓 AI 代理在不同 PR 中執行一致的质量檢查，提升程式碼審查效率與標準化程度。",
+    "automation_angle": null,
+    "automation_angle_zh": "工程團隊可在 AGENTS.md 中定義審查規則（如安全、效能規範），讓 Copilot 自動套用於所有 PR，減少人工檢查負擔。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-19-datasette-acl-0-6a0",
+    "title": "datasette-acl 0.6a0：從表格權限邁向通用資源分享系統",
+    "title_original": "datasette-acl 0.6a0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/18/datasette-acl/#atom-everything",
+    "published_at": "2026-06-18T19:03:13+00:00",
+    "category": "agent-skills",
+    "summary": "Alex Garcia 主要開發的 datasette-acl 0.6a0 將原本僅限表格的權限系統擴展為通用資源分享架構。這次更新為多使用者 Datasette 實例提供更細緻的資源存取控制能力，讓管理員能針對不同使用者設定個別資源的讀寫權限。",
+    "highlights": [
+      "從 table-only 權限擴展為 general resource-sharing 架構",
+      "Alex Garcia 主導本次開發實作",
+      "支援多使用者實例的細緻資源存取控制",
+      "可針對不同資源設定個別權限",
+      "為生產環境多租戶部署奠定基礎"
+    ],
+    "why_it_matters": "對於需要部署多使用者協作平台的技術團隊，增強的 ACL 系統可實現類似傳統資料庫的權限管理，讓 Datasette 更適合作為企業級資料門戶使用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估新版 ACL 系統是否足以支援自動化工作流程程中的角色型存取控制，例如為不同 AI Agent 設定差異化的資料查詢權限，減少誤用風險。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-06-18-ehmo-gum-cli-mcp-agent-google-api",
     "title": "ehmo/gum：CLI 與 MCP 伺服器，賦予 Agent 呼叫 Google API 的能力",
     "title_original": "ehmo/gum",
@@ -139,6 +385,32 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-openai",
+    "title": "OpenAI 為企業用戶新增使用分析與支出控制功能",
+    "title_original": "New usage analytics and updated spend controls for enterprises",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+    "published_at": "2026-06-18T17:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "ChatGPT Enterprise 新增多維度用量分析儀表板與精細支出上限設定，協助企業追蹤團隊使用模式並設定預算上限，避免月末帳單超支。",
+    "highlights": [
+      "支援團隊與專案層級的用量拆分",
+      "可設定軟性上限與硬性上限",
+      "提供 API 呼叫量與 token 消耗詳情"
+    ],
+    "why_it_matters": "企業級 AI 成本管控是大規模採用的關鍵瓶頸。此功能讓財務與技術團隊能透明掌握 AI 支出，防止意外超支導致專案預算失控。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術主管可結合 API 用量資料自動生成報告，當團隊用量逼近上限時觸發告警或自動限流，保持成本可控。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-06-18-github-copilot-pr",
@@ -3314,6 +3586,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-datasette-apps-0-1a2-csp",
+    "title": "datasette-apps 0.1a2 釋出：CSP 權限與鍵盤導航增強",
+    "title_original": "datasette-apps 0.1a2",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/15/datasette-apps/#atom-everything",
+    "published_at": "2026-06-15T17:26:11+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 釋出 datasette-apps 0.1a2，新增 apps-set-csp 權限用於控制自訂網路/CSP 來源，並提供 allowed_csp_origins 外掛allow-list。儲存查詢選擇器新增鍵盤導航，聚焦時顯示最近三筆可存取查詢。修復了全螢幕模式下連結確認視窗與日誌面板的問題。",
+    "highlights": [
+      "新增 apps-set-csp 權限控制 CSP 來源，需搭配 allowed_csp_origins 外掛設定",
+      "儲存查詢選擇器支援鍵盤導航，提升操作效率",
+      "聚焦查詢選擇器時自動顯示最近三筆可存取查詢",
+      "修復 fragment 連結不再被外部連結確認 modal 截獲",
+      "修復全螢幕 (?full=1) 模式下的連結確認與日誌面板顯示問題"
+    ],
+    "why_it_matters": "對於需要安全隔離多個 Datasette 應用的技術用戶，新版 CSP 權限機制提供了精細的來源控制能力。外掛權限系統的成熟讓部署生產環境應用更加安全可靠。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可測試 CSP 權限設定，評估其對 AI Agent 存取 Datasette 資料庫時的安全邊界影響，特別是作為 RAG 或資料查詢工具時的隔離效果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-06-16-datasette-agent-0-3a0",
