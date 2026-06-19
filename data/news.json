@@ -1,5 +1,229 @@
 [
   {
+    "id": "2026-06-19-cpu-ram-llm-rtx3050-8gb-qwen2-5-9b",
+    "title": "CPU 與 RAM 是否成為本地 LLM 運行的瓶頸？RTX3050 8GB 運行 Qwen2.5 9B 可行嗎？",
+    "title_original": "Is my CPU and RAM too weak/ lees for local LLMs? Both are going 100% for simple test prompts. GPU is not getting used fully. In theory quen3.5:9b should fit and run on RTX3050 8 GB comfortably.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua10kd/is_my_cpu_and_ram_too_weak_lees_for_local_llms/",
+    "published_at": "2026-06-19T12:44:05+00:00",
+    "category": "hot-topics",
+    "summary": "用戶提問表達困惑：CPU 與 RAM 均達 100% 使用率，但 GPU 未被充分調用，質疑是否硬體配置過弱難以運行本地 LLM。目標是在 RTX 3050 8GB 上運行 Qwen2.5 9B。討論區回覆指出推論框架配置（如 CUDA 加速、量化參數）是關鍵，非硬體絕對效能問題。",
+    "highlights": [
+      "RTX 3050 8GB 為較舊的中階 GPU，VRAM 有限但可運行量化後的 9B 模型",
+      "CPU/RAM 滿載而 GPU 閒置通常是推論框架未正確啟用 GPU 加速的信號",
+      "llama.cpp、Ollama 或 LocalAI 等框架需要正確配置 CUDA 或 Metal 環境",
+      "Qwen2.5 9B 在 4-bit 量化後約需 6-7GB VRAM，理論上可fit進 8GB",
+      "此問題為新手常見困惑，社區回覆已提供詳細除錯步驟"
+    ],
+    "why_it_matters": "本地 LLM 部署的入門門檻常被高估。該討論揭示常見配置錯誤，幫助技術用戶避免因軟體設定不當而浪費硬體資源，加速本地 AI 工作流程的落地。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶若遇到類似問題，可檢查 Ollama 的 ollama ps 輸出確認 GPU 是否被調用，並確認 CUDA 版本與驅動是否匹配。修復後 Qwen2.5 9B 在 RTX 3050 上可穩定運行 4-bit Q4 量化版本。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-item",
+    "title": "哪個開源模型最適合頭腦風暴、策略發想與高智商助理任務？",
+    "title_original": "Which open source model is the best model for brainstorming, strategizing, out of the box thinking and basically as a hugh IQ assistant?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua0wvw/which_open_source_model_is_the_best_model_for/",
+    "published_at": "2026-06-19T12:39:08+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶發起討論，詢問哪個開源模型最適合創意思考、策略規劃與跳出框架的任務。回覆區建議多集中在較大參數量與經過指令微調的模型版本，並提及特定系統提示工程對激發創意輸出的影響。討論反映技術用戶對模型創意能力的高度需求。",
+    "highlights": [
+      "創意任務對模型的要求不同於標準問答，涉及想像力與非線性推論",
+      "回覆推薦模型包括 Llama 3.1 70B、Qwen 2.5 72B 等大型開源版本",
+      "系統提示設計（如角色扮演、思維框架）被強調為關鍵因素",
+      "此事為社群經驗分享，非結構化評測，結論主觀性較高",
+      "模型選擇與任務類型、硬體資源、延遲容忍度密切相關"
+    ],
+    "why_it_matters": "創意工作流程自動化是技術用戶的核心需求之一。該討論匯集實戰經驗，幫助用戶快速定位適合頭腦風暴場景的模型與提示策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將討論中推薦的提示模板與較大開源模型結合，建立個人創意助理流程，例如自動化產品命名、Brainstorming 會議前置發想等場景。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-basemind-rust-mcp-server-agent",
+    "title": "BaseMind：Rust 實作的 MCP Server，瞄準 Agent 程式碼理解全流程",
+    "title_original": "Goldziher/basemind",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Goldziher/basemind",
+    "published_at": "2026-06-19T12:22:22Z",
+    "category": "agent-skills",
+    "summary": "BaseMind 是專為程式碼 Agent 設計的全上下文層，透過單一 MCP Server 提供 Code-map、文件 RAG、共用記憶體、Web 爬蟲、Git 歷史分析。支援 300+ 程式語言，Rust 實作強調高效能與低延遲。",
+    "highlights": [
+      "• 單一 MCP Server 整合多能力：Code-map、文件檢索、記憶、Web 爬蟲、Git",
+      "• 300+ 語言支援：涵蓋主流與冷門程式語言",
+      "• Rust 實作：高效能、低記憶體佔用，適合生產環境",
+      "• 可作為 AI 程式碼助理的上下文注入層"
+    ],
+    "why_it_matters": "BaseMind 解決了程式碼 Agent 缺乏專案級上下文的痛點，讓 AI 能理解整個程式碼庫的結構與歷史，而非僅限於單一檔案或對話窗口。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可部署 BaseMind MCP Server，評估其是否能讓現有 AI 程式碼工具（如 Cursor、Copilot）更好地理解大型專案結構，進而提升自動化程式碼重構或文件生成品質。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/30733348?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-spettro-go-agent",
+    "title": "Spettro：Go 語言打造的終端機程式碼助理，支援多 Agent 工作流程",
+    "title_original": "cesp99/spettro",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/cesp99/spettro",
+    "published_at": "2026-06-19T11:53:40Z",
+    "category": "agent-skills",
+    "summary": "Spettro 是一款用 Go 開發的終端機程式碼助理，主打自動化規劃、編碼、測試流程。支援多 Agent 協作、模型動態選擇、對話歷史管理，可連接本地或遠端 AI Provider，適合喜歡在 CLI 環境工作的開發者。",
+    "highlights": [
+      "• Go 語言實現：高效能、跨平台，適合作為終端工具",
+      "• 多 Agent 工作流程：可分工處理規劃、開發、測試階段",
+      "• 模型選擇彈性：支援切換不同 AI Provider 測試效果",
+      "• 對話歷史支援：可持續追蹤與回顧過往請求",
+      "• CLI 優先設計：符合工程師的鍵盤操作習慣"
+    ],
+    "why_it_matters": "對於偏好終端機環境的開發者，Spettro 提供從規劃到測試的端到端輔助，可直接整合進現有 CLI 工作流程，減少上下文切換。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地終端安裝 Spettro，設定對接自选的 AI Provider，自動化常見的程式碼補全、重構或測試生成任務，評估其在日常開發中的實際幫助。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/96500694?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-ai-9b-0-8b-rtx-5060-ti",
+    "title": "本地 AI 語音助理效能實測：從 9B 到 0.8B 模型在 RTX 5060 Ti 上的表現退化實驗",
+    "title_original": "Watching a local AI voice assistant get dumber (A 9B to 0.8B agent experiment on my RTX 5060 Ti)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u9zt2w/watching_a_local_ai_voice_assistant_get_dumber_a/",
+    "published_at": "2026-06-19T11:46:48+00:00",
+    "category": "hot-topics",
+    "summary": "一位 Reddit 用戶在 RTX 5060 Ti 上進行本地 AI 語音助理實測，對比 9B 與 0.8B 參數量模型的智慧表現差異。實驗發現極度縮減的 0.8B 模型出現明顯智慧退化，但在響應速度與記憶體佔用上具有優勢。RTX 5060 Ti 的 VRAM 限制使大模型運行並不輕鬆。",
+    "highlights": [
+      "RTX 5060 Ti（8GB VRAM）在本地 LLM 部署中屬於入門級 GPU",
+      "9B 模型在該硬體上勉強運行，但速度與穩定性受挑戰",
+      "0.8B 模型極度壓縮，明顯出現理解力、推論鏈完整性下降",
+      "實驗為個人測試，樣本量有限，缺乏標準化評測指標",
+      "軟體層面（推論框架、量化方法）對效能影響未被獨立控制"
+    ],
+    "why_it_matters": "硬體選擇與模型規模的平衡是本地部署的永恆議題。該實驗為 RTX 5060 Ti 等中低階顯卡用戶提供實證參考，避免不切實際的模型選型。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可參考此實驗結果，若使用同等級 GPU，建議選擇 3B-4B 量化模型作為語音助理底層，既保證響應品質，又避免 VRAM 瓶頸導致的崩潰或卡頓。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-glm-5-2-artificial-analysis",
+    "title": "GLM-5.2 躍升 Artificial Analysis 智慧指數開源模型榜首",
+    "title_original": "GLM-5.2 is the new leading open weights model on the Artificial Analysis Intelligence Index",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u9zqlx/glm52_is_the_new_leading_open_weights_model_on/",
+    "published_at": "2026-06-19T11:43:22+00:00",
+    "category": "open-source-ai",
+    "summary": "根據 Reddit 社群引用，GLM-5.2 在 Artificial Analysis Intelligence Index 中成為新晉開源權重模型領先者。該排名涵蓋多項能力維度，GLM-5.2 突破封閉模型與其他開源模型的夾擊，標誌著國產開源模型的重要進展。惟排名浮動性與數據更新頻率需留意。",
+    "highlights": [
+      "Artificial Analysis 為知名 LLM 評測平台，其 Intelligence Index 綜合多項指標",
+      "GLM-5.2 以開源權重形式登頂，對比 Llama、Qwen、Mistral 等主流開源陣營",
+      "消息來源為 Reddit 討論，未附官方公告或完整評測數據連結",
+      "GLM 系列為中國智譜 AI 開發，本次更新可能涉及架構或訓練集擴展",
+      "開源榜首位置具有宣示意義，但實際部署效果仍需實測"
+    ],
+    "why_it_matters": "開源模型效能競賽持續升溫，GLM-5.2 的崛起為本地部署用戶提供新的高效能選項。若推論成本與硬體需求合理，可作為降本替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在 Ollama、llama.cpp 或 vLLM 環境中部署 GLM-5.2，執行個人知識庫問答或程式碼生成任務，對比現有模型的成本效益與延遲表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-agentic-claude-fable-glm-5-2",
+    "title": "新 Agentic 基準出爐：Claude Fable 與 GLM 5.2 各居其列首位",
+    "title_original": "New Agentic Benchmark Out: Claude Fable and GLM 5.2 Top Their Cohorts",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u9yt6v/new_agentic_benchmark_out_claude_fable_and_glm_52/",
+    "published_at": "2026-06-19T10:54:57+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/LocalLLaMA 討論區出現新的 Agentic 評測基準，Claude Fable 與 GLM 5.2 在各自陣營表現最佳。該基準專注測試 AI 代理的任務完成能力與決策鏈條，為本地部署模型的 agent 能力提供參考依據。社群反應熱烈，但數據來源與評測方法細節有待驗證。",
+    "highlights": [
+      "新 Agentic 基準針對 AI 代理的任務規劃、工具調用、多步驟推論設計",
+      "Claude Fable 在封閉模型陣營表現突出，推測為 Claude 系列新變種",
+      "GLM 5.2 在開源陣營拔得頭籌，呼應同日另一則開源模型排名討論",
+      "評測結果僅基於 Reddit 社群轉述，缺乏官方白皮書或第三方驗證",
+      "RTX 5060 Ti 等消費級 GPU 本地運行可行性成為熱門話題"
+    ],
+    "why_it_matters": "Agentic 能力是 2025 年本地 LLM 部署的核心戰場。該基準提供量化參考，幫助技術用戶評估哪個模型更適合自動化工作流程與任務代理場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 GLM 5.2 模型權重，搭配 LangChain 或 AutoGen 框架，測試其在本地環境的 agent 任務完成率，作為採購或模型選擇的實證依據。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-32-h100-deep-research-agent",
+    "title": "研究團隊用 32 張 H100 訓練 Deep Research Agent 並開源全流程",
+    "title_original": "Researchers trained a Deep Research agent with 32 H100s and open-sourced everything",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u9w6my/researchers_trained_a_deep_research_agent_with_32/",
+    "published_at": "2026-06-19T08:20:43+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 社群傳出研究團隊使用 32 張 H100 GPU 訓練 Deep Research Agent，並將訓練流程、模型權重與資料集完整開源。訓練規模與成本顯示這是較為認真的研究項目，但尚未有正式學術論文或詳細技術報告可供查證。",
+    "highlights": [
+      "• 訓練資源可觀：32 張 H100，估算成本數十萬美元等級",
+      "• 完全開源：訓練流程、權重、資料集預計全部釋出",
+      "• Deep Research 能力：目標是自動化複雜研究任務",
+      "• 社群來源，未經正式學術發表驗證"
+    ],
+    "why_it_matters": "若開源內容完整，技術用戶可研究其訓練方法、借鑒其資料處理流程，甚至微調自己的研究助理模型。但需注意缺乏正式論文審查。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤該專案的 GitHub 頁面，待開源內容釋出後，分析其訓練資料集與方法，若適用可借鑒用於企業內部研究自動化工具的微調工作。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-19-beatos-mcp-ai",
     "title": "beatos MCP：音樂製作人的本地節拍庫與 AI 整合",
     "title_original": "averatec0773/beatos",
