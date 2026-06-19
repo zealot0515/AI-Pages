@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-06-19-beatos-mcp-ai",
+    "title": "beatos MCP：音樂製作人的本地節拍庫與 AI 整合",
+    "title_original": "averatec0773/beatos",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/averatec0773/beatos",
+    "published_at": "2026-06-19T06:43:40Z",
+    "category": "agent-skills",
+    "summary": "beatos 是開源的 TypeScript 節拍庫，提供 BPM/調性分析、授權分級、LoopKit 匯出、一鍵多平台發布等功能。內建 MCP Server 可供 Claude、Codex 等 AI Agent 直接呼叫。支援桌面端與 Web，現有 26 顆星。",
+    "highlights": [
+      "內建 MCP Server，支援 AI Agent 自動化操控",
+      "具備 BPM 與調性自動分析能力",
+      "支援 LoopKit 格式匯出與多平台發布",
+      "TypeScript 實作，便於前端開發者整合",
+      "適合需要大量節拍管理的音樂製作工作流程"
+    ],
+    "why_it_matters": "MCP Server 讓 AI Agent 能直接操控節拍庫，是 AI 輔助音樂創作的具體實現。對於從事音樂相關工具開發或自動化工作流程的技術用戶，是值得關注的整合範例。",
+    "automation_angle": null,
+    "automation_angle_zh": "音樂相關工具開發者可將 beatos MCP 整合進自己的工作流程，用 Claude 或 Codex 自動搜尋符合特定 BPM/調性的節拍，加速素材準備階段。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/87169977?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-supravl-nano-900k",
+    "title": "SupraVL-Nano-900k：從零打造的視覺語言模型",
+    "title_original": "[NEW MODEL] SupraLabs just released SupraVL-Nano-900k, a Vision-Language Model built entirely from scratch!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1u9q6m2/new_model_supralabs_just_released_supravlnano900k/",
+    "published_at": "2026-06-19T02:53:02+00:00",
+    "category": "new-models",
+    "summary": "SupraLabs 發布 SupraVL-Nano-900k，宣稱是從零開始建構的視覺語言模型。消息來源為 Reddit r/LocalLLaMA 討論串，目前缺乏詳細技術規格與基準測試數據，實際能力與效能待驗證。",
+    "highlights": [
+      "消息來源為 Reddit 討論，非官方技術報告",
+      "宣稱從零建構，具體架構細節不明",
+      "缺乏公開的基準測試或效能數據",
+      "適合關注本地 VL 模型發展趨勢的技術用戶",
+      "建議等待更完整的技術文件或第三方評測"
+    ],
+    "why_it_matters": "從零建構的 VL 模型若能達到可用水準，代表開源社群在視覺理解能力上的持續推進。但目前資訊不足，技術用戶應保持關注，等待更多驗證資料。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注本地 VL 模型發展的技術用戶可先加入 Watch List，待有明確 benchmark 數據後再評估是否值得部署測試。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-19-glm-5-2-aa-briefcase-gpt-5-5",
     "title": "GLM-5.2 在 AA-Briefcase 代理任務評測中超越 GPT-5.5",
     "title_original": "GLM-5.2 is above GPT-5.5 in AA-Briefcase, Artificial Analysis' new agentic knowledge work eval",
