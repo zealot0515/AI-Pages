@@ -1,5 +1,289 @@
 [
   {
+    "id": "2026-06-19-pipefy-ai-mcp-server-cli-agent-skills",
+    "title": "Pipefy 開源 AI 工具包：MCP Server、CLI 與 Agent Skills",
+    "title_original": "pipefy/ai-toolkit",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/pipefy/ai-toolkit",
+    "published_at": "2026-06-19T18:29:17Z",
+    "category": "agent-skills",
+    "summary": "Pipefy 釋出 AI 工具包，包含 MCP Server、CLI 工具與預設 Agent Skills，可將 AI 能力直接整合至 Pipefy 工作流程程。專案以 Python 開發，目前 GitHub 有 34 顆星，為流程自動化領域提供可測試的開源整合方案。",
+    "highlights": [
+      "支援 Model Context Protocol（MCP）標準，具備跨平台相容性",
+      "CLI 工具方便在終端機直接與 Pipefy 互動",
+      "預先封裝的 Agent Skills 可加速 AI Agent 開發",
+      "Python 実装，開發者易於擴展和自訂",
+      "可直接嵌入現有 Pipefy 自動化流程"
+    ],
+    "why_it_matters": "流程自動化平台與 AI Agent 的整合逐漸普及，Pipefy 此工具包讓技術團隊能快速將 AI 能力注入現有流程，今天就能下載測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 AI Toolkit 的 MCP Server 部署至本地或雲端環境，直接在 Pipefy 表單審核流程中加入 AI 判斷節點，減少人工處理重複性審批工作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/8105184?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-19-amd-radeon-ai-pro-r9700-vllm-0-22-1",
+    "title": "AMD Radeon AI PRO R9700 搭配 vLLM 0.22.1 修復長上下文解碼懸崖",
+    "title_original": "2× Radeon AI PRO R9700 (RDNA4/gfx1201) on vLLM 0.22.1 — how we fixed the long-context decode cliff (and what we learned chasing FP8)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua9ey2/2_radeon_ai_pro_r9700_rdna4gfx1201_on_vllm_0221/",
+    "published_at": "2026-06-19T18:14:22+00:00",
+    "category": "open-source-ai",
+    "summary": "有開發者分享在 vLLM 0.22.1 環境下使用兩張 AMD Radeon AI PRO R9700（RDNA4/gfx1201）進行推論的經驗，詳細說明如何修復長上下文解碼時出現的效能驟降問題，並分享追逐 FP8 精度優化時學到的教訓。",
+    "highlights": [
+      "RDNA4 架構（Radeon AI PRO R9700）的實用優化經驗",
+      "vLLM 0.22.1 版本的 FP8 精度應用挑戰",
+      "長上下文 decode cliff 的具體成因與修復方式",
+      "AMD GPU 在 LLM 推論的實用參考資料",
+      "對在 AMD 硬體上部署本地模型的技術人員有直接價值"
+    ],
+    "why_it_matters": "AMD GPU 在性價比上有潛力，但開源推論引擎對其支援文檔相對匱乏。此實作分享填補了 RDNA4 在 vLLM 場景的技術空白。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考文中的 FP8 配置與 decode cliff 修復方案，在同等硬體上部署自己的本地模型，評估 AMD 方案是否值得取代 NVIDIA 陣營。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-ultimate-mcp-server-mcp",
+    "title": "ultimate_mcp_server：功能最全面的MCP標準伺服器",
+    "title_original": "Dicklesworthstone/ultimate_mcp_server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Dicklesworthstone/ultimate_mcp_server",
+    "published_at": "2026-06-19T18:09:28Z",
+    "category": "agent-skills",
+    "summary": "Python開源MCP伺服器提供多供應商LLM委派、瀏覽器自動化、文件處理、向量運算與認知記憶系統，152星，快速成為MCP生態熱門專案。",
+    "highlights": [
+      "支援多LLM供應商路由與委派調用",
+      "內建瀏覽器自動化操控能力",
+      "文件解析、轉換與處理功能完整",
+      "向量資料庫操作與認知記憶框架",
+      "Python実装，152星，社群關注度高"
+    ],
+    "why_it_matters": "MCP標準日漸重要，此專案簡化Agent能力擴展，提供一站式整合方案，可大幅降低自建MCP生態的技術門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署作為MCP生態試驗平台，快速串接瀏覽器操作、文件處理與LLM路由，用於建構複雜的多工具自動化工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/35050222?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-agentcad-ai-agent-cad-mcp",
+    "title": "agentcad：AI Agent的CAD命令列工具與MCP伺服器",
+    "title_original": "jdilla1277/agentcad",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jdilla1277/agentcad",
+    "published_at": "2026-06-19T17:35:53Z",
+    "category": "agent-skills",
+    "summary": "開源Python專案同時提供CAD CLI工具與MCP伺服器，支援AutoCAD/FreeCAD等主流格式，讓AI Agent能直接操控2D/3D模型檔案，47星。",
+    "highlights": [
+      "命令列CAD操控介面，支援腳本化操作",
+      "支援AutoCAD DWG、FreeCAD等主流格式",
+      "符合MCP標準，可與其他Agent工具串接",
+      "面向工程設計輔助與自動化場景",
+      "47星，社群關注度中等，功能具體明確"
+    ],
+    "why_it_matters": "填補AI Agent在CAD工具操控領域的空缺，擴展自動化邊界，使模型能夠直接參與工程設計流程中的重複性操作。",
+    "automation_angle": null,
+    "automation_angle_zh": "串接進AI Agent工作流程，用於圖層批量處理、參數化修改、檔案格式轉換等工程設計自動化場景，提升設計效率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/89669079?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-ai-rag",
+    "title": "如何為 AI 模型設定檢索增強（RAG）流程",
+    "title_original": "How do you guys setup search with your AI models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua6xfw/how_do_you_guys_setup_search_with_your_ai_models/",
+    "published_at": "2026-06-19T16:40:40+00:00",
+    "category": "agent-skills",
+    "summary": "LocalLLaMA 社群成員熱烈討論如何在本地部署的 AI 模型上有效整合檢索系統，包括向量資料庫選型（如 Qdrant、Chroma）、chunk 策略、embedding 模型選擇，以及混合檢索與 reranking 的實務經驗分享。",
+    "highlights": [
+      "向量資料庫本地化部署方案讨论熱絡",
+      "文件 chunk 大小與重疊策略是優化關鍵",
+      "Embedding 模型（如 BGE、Snowflake）的準確度差異",
+      "混合檢索（稀疏+稠密）可提升召回率",
+      "Reranking 階段對最終準確度影響顯著"
+    ],
+    "why_it_matters": "檢索增強生成已成為企業落地 AI 的標準架構，正確的設定流程直接決定問答系統的準確率與使用者體驗，是技術宅必須掌握的核心技能。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考社群最佳實踐，快速搭建一套可量化的 RAG 評測 Pipeline，用本地開源模型測試不同檢索策略的 F1 分數，找出最適工作負載的配置組合。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-github-copilot-api-ai-credits",
+    "title": "GitHub Copilot API 新增每人每日 AI Credits 消耗追蹤",
+    "title_original": "AI credits consumed per user now in the Copilot usage metrics API",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api",
+    "published_at": "2026-06-19T16:23:29+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布 Copilot 使用量指標 API 現在可回傳每位使用者每日消耗的 AI Credits 數據。此資料與按用量計費 API 使用的 AI Credits 消耗資料來源相同，企業管理員可更精細掌握 Copilot 資源使用情形。",
+    "highlights": [
+      "API 回應包含 per-user、daily breakdown 的 credits 資料",
+      "資料與現有 billing API 一致，確保準確性",
+      "有助企業識別異常使用模式與成本來源",
+      "可用於優化團隊 Copilot 授權配置",
+      "對 AI 工具成本管理有直接幫助"
+    ],
+    "why_it_matters": "企業級 AI 工具成本控制越來越重要，此 API 讓技術管理者能精準追蹤誰在消耗多少資源，有助於優化預算分配與授權策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "透過定時呼叫此 API，拉取團隊成員的 credits 使用資料至內部儀表板，自動生成成本異常警示，取代手動檢視 Copilot 報告。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-19-europa-24-ai",
+    "title": "歐盟選定 EUROPA 聯盟建構 24 語言開源前沿 AI 模型",
+    "title_original": "Commission selects EUROPA consortium as the winner of the Frontier AI Grande Challenge, a project to build European open-source frontier AI model in all 24 EU languages",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua5otx/commission_selects_europa_consortium_as_the/",
+    "published_at": "2026-06-19T15:53:48+00:00",
+    "category": "open-source-ai",
+    "summary": "歐盟委員會正式指定 EUROPA 聯盟為 Frontier AI Grande Challenge 的得主，將負責建構涵蓋全部 24 種官方語言的歐洲開源前沿 AI 模型。此計畫旨在確保歐洲在 AI 時代的語言主權與技術自主性。",
+    "highlights": [
+      "覆蓋歐盟全部 24 種官方語言",
+      "定位為 open-source frontier model",
+      "代表歐洲官方戰略性 AI 投資",
+      "可能影響未來歐洲市場 AI 監管走向",
+      "提供歐洲本地部署的替代方案"
+    ],
+    "why_it_matters": "歐洲語言的開源前沿模型問世後，將為需要多語言能力的開發者提供新的選擇，尤其對隱私合規和在地化需求高的應用場景意義重大。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤 EUROPA 聯盟的開發進度與首個模型釋出時間，評估其對現有多語言 RAG 或翻譯工作流程的替代潛力，特別是 GDPR 敏感場景。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-reddit-api",
+    "title": "Reddit 討論：API 型「顧問」能否改善本地模型表現",
+    "title_original": "Improving local models with an API based \"consultant\"?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua5nnv/improving_local_models_with_an_api_based/",
+    "published_at": "2026-06-19T15:52:33+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 討論區中有開發者提出使用 API 型外部模型作為「顧問」來提升本地模型輸出的構想。透過讓本地模型在推論過程中諮詢更強大的遠端模型，嘗試以混合架構改善回答品質與穩定性。",
+    "highlights": [
+      "混合本地與 API 模型架構的實驗性討論",
+      "試圖以較小本地模型搭配強大遠端顧問",
+      "可降低每次呼叫全遠端模型的成本",
+      "涉及推論延遲與準確度的權衡取捨",
+      "目前為社群討論階段，無正式実装"
+    ],
+    "why_it_matters": "若此混合推論模式可行，開發者可結合本地部署的隱私優勢與雲端模型的強大能力，在成本與效能間取得更好平衡。",
+    "automation_angle": null,
+    "automation_angle_zh": "可實驗性実装：使用本地 7B 模型作主推論，API 模型僅在低置信度時介入，觀察是否能降低 API 呼叫頻率同時維持輸出品質。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-ai",
+    "title": "AI 經濟學開始傾向開源模型",
+    "title_original": "The economics of AI are starting to favor open models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua5b16/the_economics_of_ai_are_starting_to_favor_open/",
+    "published_at": "2026-06-19T15:38:43+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論區開始出現系統性論證，指開源模型在部署成本、推論延遲與資料掌控上的優勢正在逐步追上甚至超越閉源模型，尤其在特定垂直領域與中小規模部署場景中，總體持有成本（TCO）已出現明顯拐點。",
+    "highlights": [
+      "開源模型部署成本持續下降，硬體需求門檻降低",
+      "中小規模垂直場景中 TCO 已優於主流閉源 API",
+      "本地部署提供更好的資料隱私與合規控制",
+      "社群持續優化量化壓縮技術進一步拉大差距",
+      "企業開始評估混合部署策略以平衡成本與效能"
+    ],
+    "why_it_matters": "對於技術决策者而言，模型選型不再只是效能指標的比較，而是整體系統成本與資料風險的權衡。開源模型的經濟性拐點可能重塑企業 AI 基礎設施採購邏輯。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可針對自家工作負載，實際比較 Llama 3 / Mistral 等開源模型與現有閉源 API 的成本效益，計算 ROI 轉折點並評估遷移可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-agent-2-beta-ai-agent",
+    "title": "Agent-2-Beta：自托管瀏覽器自主AI Agent",
+    "title_original": "aaravshah1311/Agent-2-Beta",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aaravshah1311/Agent-2-Beta",
+    "published_at": "2026-06-19T13:15:38Z",
+    "category": "agent-skills",
+    "summary": "開源自托管Agent整合程式碼助理、終端機、安全測試工具與持久化記憶，單一介面完成瀏覽器操控與自動化任務，22星，仍屬早期專案。",
+    "highlights": [
+      "自托管本地部署，無需依賴第三方API",
+      "瀏覽器自動化操控，支援網頁操作與表單填寫",
+      "整合程式碼生成與終端機命令執行",
+      "內建安全測試工具與持久化工作空間",
+      "早期Beta，功能穩定性需實際測試"
+    ],
+    "why_it_matters": "提供免費替代商業瀏覽器Agent的選項，可降低自動化網頁任務的成本，並允許完全掌控Agent行為邏輯。",
+    "automation_angle": null,
+    "automation_angle_zh": "用於網頁爬蟲、表單批量填寫、自動化測試等場景，自托管部署適合對資料隱私有要求的工作流程自動化項目。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/154060537?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-19-cpu-ram-llm-rtx3050-8gb-qwen2-5-9b",
     "title": "CPU 與 RAM 是否成為本地 LLM 運行的瓶頸？RTX3050 8GB 運行 Qwen2.5 9B 可行嗎？",
     "title_original": "Is my CPU and RAM too weak/ lees for local LLMs? Both are going 100% for simple test prompts. GPU is not getting used fully. In theory quen3.5:9b should fit and run on RTX3050 8 GB comfortably.",
@@ -3050,6 +3334,34 @@
       "open-source-ai",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-buddy-ai",
+    "title": "騰訊雲 Buddy AI 個人版訂閱改為三檔套餐體系",
+    "title_original": "腾讯雲：Buddy AI 国内個人版訂閱升級，付费套餐擴展為三档體系|WorkBuddy|CodeBuddy|积分|权益|額度_手机新浪网 - 新浪财經",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxPbFJYZ2xpSmRGVGRtV2xQV21wclYwRU4wTXhURDE5Z2owNG1zQ3NwbEZzaGhqd05UTlk4cG5MSl9CV0lRWGZLczN3cGNHb3daZEk0dU5aUE5qN09OZkNFMTR0Ull6bXVGZFY3R3dDeXp4bVgta082U203NzFGNjJRMXFNTTBCQ190X3pkZ1VEOTRzZ3VtOW1yYldVTXNCczZwcjBLUmlKSDZnUVlCY1JJZDBtbTRwUHBrSEcxUDdZUVh1b1dlR1phMVl3U3NNamlBWkduOHRkYldJdlc1dFZ2RjZQOC1NVkc2UFBfX2s1eVhFd2VqTFFCS1QtQWNiTVFMaHRNRU4yblpmUEdPdnV6cElILVBsN2g0cDdaRkNRVGtQTmw2aEY0OS0zM09qMUpWdUFxS0lHQndBa3dtaGVQbnlHUU1jTlYxYXFVdXFCWDNfTUxvQWZndGZlMVdlbTRpcVluSHkyNGsxUDFsUUZsU2M1SQ?oc=5",
+    "published_at": "2026-06-16T08:16:10+00:00",
+    "category": "ai-deals",
+    "summary": "騰訊雲旗下 Buddy AI 針對中國大陸個人用戶推出新版訂閱方案，將付費套餐擴展為 WorkBuddy、CodeBuddy 等三檔體系，調整積分額度與功能權益。新方案旨在細分需求層級，但具體定價與功能邊界需至官網確認。",
+    "highlights": [
+      "套餐從單一方案擴展為三檔階梯定價",
+      "分為 WorkBuddy、CodeBuddy 等不同定位",
+      "積分額度與 API 呼叫限制可能調整",
+      "僅限中國大陸個人用戶",
+      "具體費率與功能差異需查閱官方最新文件"
+    ],
+    "why_it_matters": "對於需要騰訊雲 AI 服務的技術開發者，套餐結構變化可能直接影響每月成本與可用額度，建議重新評估自身使用模式是否契合新方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可利用騰訊雲定價計算器對比新舊方案成本，計算 CodeBuddy 套餐是否能滿足日常開發的 AI 輔助需求，並評估是否有性價比更高的替代方案。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -8001,6 +8313,34 @@
       "Rust"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/23619593?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-19-claude-fable-blockchain-council",
+    "title": "Claude Fable 替代方案整理（Blockchain Council）",
+    "title_original": "Best Claude Fable Alternatives for AI Agents - Blockchain Council",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV3RQMW5TM2QyZXZnYi1sM21hZmF6VndRUU1ndDFKWUxVZFJqcmdDZXJqZGF3UXJhaWJNUkh2X0J4aER5aWhuYXZUWFpwb2g5RlRWcnFPd1ZBRkh2cjNMNzBhRlBxOXlFNkR3UmpOSEhfbnU5eUE2NDhoejdoMUlISkx3?oc=5",
+    "published_at": "2026-06-11T07:11:38+00:00",
+    "category": "agent-skills",
+    "summary": "Blockchain Council 發布文章整理目前市場上用於 AI Agent 開發的 Claude Fable 替代工具，涵蓋多個競品的功能比較與適用場景，為開發者在工具選型時提供參考方向。",
+    "highlights": [
+      "收錄多個 Claude Fable 替代方案",
+      "提供功能與適用場景比較",
+      "Blockchain Council 為區塊鏈教育機構，AI 工具非其專業領域",
+      "文章風格偏向行銷整理，非深度技術評測",
+      "評測精細度有待技術讀者自行驗證"
+    ],
+    "why_it_matters": "挑選合適的 AI Agent 開發框架能顯著提升建構效率，但此來源為綜合整理文章，建議技術讀者以實際測試為準，而非依賴此文做最終決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "將文章列出的替代方案列入短名單，實際安裝測試各框架的 hello world 範例，依據文件品質與社群活躍度做最終選擇。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
