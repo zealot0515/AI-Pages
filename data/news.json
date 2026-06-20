@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-06-20-shellward-8-ai-agent-mcp",
+    "title": "Shellward：8 層防護的 AI Agent 安全中介層與 MCP 伺服器",
+    "title_original": "jnMetaCode/shellward",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jnMetaCode/shellward",
+    "published_at": "2026-06-20T00:10:13Z",
+    "category": "agent-skills",
+    "summary": "Shellward 是 TypeScript 撰寫的 AI Agent 安全中介層，具備 8 層防禦、資料外洩防護、Prompt 注入偵測，零外部依賴，提供 SDK 與 MCP 伺服器，可支援 Claude Code、Cursor、LangChain 等主流框架。",
+    "highlights": [
+      "8 層安全防護涵蓋輸入輸出過濾",
+      "內建 DLP 資料流向監控與 Prompt 注入偵測",
+      "零外部依賴，降低供應鏈攻擊風險",
+      "支援 Claude Code、Cursor、LangChain、Hermes Agent",
+      "提供 SDK 與標準 MCP 伺服器介面"
+    ],
+    "why_it_matters": "企業級 AI Agent 部署時安全性至關重要，Shellward 可在不大幅修改現有工作流程的情況下為 Agent 行為加上安全閘門，防止敏感資料外流與惡意 Prompt 注入。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在本地專案引入 Shellward SDK，將其作為 Agent 的安全閘門，測試是否能正確阻擋模擬的 Prompt 注入攻擊並監控資料流向。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/12096460?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-mcp",
+    "title": "MCP 核心價值新解：隔離認證流程而非僅作為工具通道",
+    "title_original": "Quoting Sean Lynch",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
+    "published_at": "2026-06-19T22:45:49+00:00",
+    "category": "agent-skills",
+    "summary": "Sean Lynch 在 Hacker News 評論指出，MCP 真正價值在於將認證流程隔離在 Agent 上下文視窗之外，甚至完全脫離 Harness，若能做到這點即已是重大勝利，挑戰了對 MCP 用途的傳統理解。",
+    "highlights": [
+      "MCP 核心價值是將 auth 流程外部化",
+      "認證隔離可節省上下文 Token 消耗",
+      "此觀點來自 Hacker News 評論，非官方規範",
+      "對 MCP 設計方向提出重新思考",
+      "有助於優化大型 Agent 系統的資源使用"
+    ],
+    "why_it_matters": "若 MCP 定位為認證閘道而非僅是工具橋接，可簡化 Agent 架構、降低 Token 成本並提升安全性，技術架構師應重新審視 MCP 在系統中的角色定位。",
+    "automation_angle": null,
+    "automation_angle_zh": "架構師可評估現有 MCP Server 實作，將認證邏輯抽離 Agent 上下文，測試是否能有效降低每次請求的 Token 消耗並簡化權限管理。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-driftkit-ai-framework-java-ai-dev-test-prod",
+    "title": "DriftKit AI Framework：Java 全端 AI 開發框架，支援 Dev→Test→Prod 提示詞生命週期",
+    "title_original": "driftkit-ai/driftkit-framework",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/driftkit-ai/driftkit-framework",
+    "published_at": "2026-06-19T22:44:49Z",
+    "category": "open-source-ai",
+    "summary": "DriftKit 是目前唯一以 Java 實作、涵蓋開發到部署完整提示詞生命週期的 AI 框架，具備多代理人協作與內建音訊處理能力，適合企業級 Java 生態系統整合。",
+    "highlights": [
+      "• Java 語言實現，降低企業 Java 團隊的學習曲線與整合成本",
+      "• 提供 Dev → Test → Prod 完整提示詞生命週期管理",
+      "• 內建多代理人（Multi-Agent） orchestration 機制",
+      "• 整合音訊處理功能，擴展至語音 AI 應用場景",
+      "• 現有 43 顆星，社群關注度尚在起步階段"
+    ],
+    "why_it_matters": "對於已有 Java 技術棧的團隊，可直接將 AI 能力內嵌至現有系統，無需引入新語言生態。完整生命週期支援有利於提示詞版本控制與生產環境穩定性維護。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將其作為 Java 後端的 AI 中間件，實作自動化客服、排程任務、或工作流程審批等 Agent 驅動功能，測試其多代理人協作機制是否能滿足複雜業務邏輯。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Java"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/219306768?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-reddit-r-localllama-2026-6-ai",
+    "title": "Reddit r/LocalLLaMA 熱議：2026 年 6 月最佳本地端 AI 代理人評測",
+    "title_original": "Best Local Agents - Jun 2026",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uaebfe/best_local_agents_jun_2026/",
+    "published_at": "2026-06-19T21:29:33+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 討論串集結社群對本地端 AI 代理人的使用經驗與效能評測，涵蓋模型選擇、本地部署優化、以及不同代理框架的實用性比較。",
+    "highlights": [
+      "• 討論時間標記為 2026 年 6 月，時間戳可能為 speculation 或 UI 顯示問題",
+      "• 聚焦本地部署的 LLM 代理人實作與效能表現",
+      "• 涵蓋多种代理框架（如 LangChain、Ollama 相關）的比較",
+      "• 社群人，分享實際使用經驗，非正式 benchmark 數據"
+    ],
+    "why_it_matters": "本地端 AI 代理人可脫離雲端 API 依賴，降低長期使用成本並提升資料隱私控制，對注重成本的技術團隊有實質價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考討論串中的模型與框架組合，針對自動化任務（如資料處理、程式碼生成）搭建本地測試環境，評估延遲與準確度的實際表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-19-pipefy-ai-mcp-server-cli-agent-skills",
     "title": "Pipefy 開源 AI 工具包：MCP Server、CLI 與 Agent Skills",
     "title_original": "pipefy/ai-toolkit",
@@ -83,6 +196,35 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/35050222?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-github-minimax-m3-api",
+    "title": "GitHub 開源工具整合 MiniMax M3 免費 API 與長上下文架構",
+    "title_original": "zyn26/minimax-m3-desktop-app-free-api",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/zyn26/minimax-m3-desktop-app-free-api",
+    "published_at": "2026-06-19T17:42:44Z",
+    "category": "open-source-ai",
+    "summary": "GitHub 專案 minimax-m3-desktop-app-free-api 宣稱支援 MiniMax M3 模型、100 萬上下文視窗、Sparse Attention 架構與電腦控制能力，目前 33 星、Go 語言撰寫，功能聲稱尚未廣泛驗證。",
+    "highlights": [
+      "支援百萬級上下文稀疏注意力架構",
+      "宣稱具備電腦控制與自主編碼能力",
+      "使用 Go 語言，目前星數較低",
+      "功能聲稱未獲大規模社群驗證",
+      "可對接 Hugging Face API 或本地 LLM 推論"
+    ],
+    "why_it_matters": "若此開源工具所言屬實，可作為低成本的長上下文自動化方案；但星數少且缺乏社群驗證，技術用戶應自行測試再決定是否用於生產環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可 Clone 此 Repo，根據其 README 指示部署本地環境，測試 100 萬上下文在文件比對或程式碼分析任務中的實際表現與延遲。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/95493060?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -248,6 +390,33 @@
     "automation_angle_zh": "技術人員可針對自家工作負載，實際比較 Llama 3 / Mistral 等開源模型與現有閉源 API 的成本效益，計算 ROI 轉折點並評估遷移可行性。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-benchmark-benchmarketing-ai",
+    "title": "Benchmark 還是 Benchmarketing？——AI 模型效能評測的可信度爭議",
+    "title_original": "Benchmarking or benchmarketing?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ua2oeb/benchmarking_or_benchmarketing/",
+    "published_at": "2026-06-19T13:55:15+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 技術社群針對當前 AI 模型 benchmark 數據的可信度展開辯論，質疑部分評測存在 cherry-picking、硬體不一致、或 prompt engineering 不公平等問題。",
+    "highlights": [
+      "• 批評部分 benchmark 結果存在 cherry-picking 問題",
+      "• 指出不同測試硬體配置導致結果不可比",
+      "• 質疑 prompt engineering 差異影響評測公平性",
+      "• 呼籲建立更透明的評測方法論"
+    ],
+    "why_it_matters": "工程選型常依賴 benchmark 數據，若數據可信度存疑，可能導致錯誤的模型選擇決策，浪費開發資源或錯過更優方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術決策者應自行設計貼近實際工作負載的測試用例，而非全盤信任公開 benchmark；可建立內部評測集，定期追蹤模型版本迭代的相對表現。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
