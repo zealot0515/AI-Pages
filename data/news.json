@@ -1,5 +1,173 @@
 [
   {
+    "id": "2026-06-20-item",
+    "title": "每個格子都是一個智能體的棋盤系統",
+    "title_original": "Board where every tile is an agent",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ub3e2x/board_where_every_tile_is_an_agent/",
+    "published_at": "2026-06-20T18:13:16+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶展示了一個創新概念：將棋盤每個格子都定義為獨立的智能體，每個格子擁有各自的狀態、記憶與決策能力。這種設計讓棋盤本身成為一個龐大的多智能體網路，可模擬複雜的空間互動與集體行為。",
+    "highlights": [
+      "每個棋盤格子被定義為獨立智能體單元",
+      "格子具備狀態追蹤、記憶與本地決策能力",
+      "整體系統形成多智能體空間模擬網路",
+      "可探索集體行為與 emergent 現象"
+    ],
+    "why_it_matters": "這種架構為複雜系統模擬與空間推論任務提供了新思路，可用於物流優化、城市規劃模擬或遊戲 AI 開發。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可利用此框架原型化空間優化問題，例如倉庫管理或路徑規劃的多智能體協作系統。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-agentrecall-mcp-ai",
+    "title": "AgentRecall-MCP：修正優先的AI代理長期記憶框架",
+    "title_original": "Goldentrii/AgentRecall-MCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Goldentrii/AgentRecall-MCP",
+    "published_at": "2026-06-20T17:55:00Z",
+    "category": "agent-skills",
+    "summary": "AgentRecall-MCP是MCP伺服器加SDK加CLI的組合方案，主打修正優先的持久化記憶機制，讓AI代理的經驗可在多次對話Session間累積複合，解決長程任務的Context斷裂問題。",
+    "highlights": [
+      "MCP協議相容，可對接Claude for Desktop、Cursor等",
+      "修正優先設計，降低錯誤記憶累積風險",
+      "提供SDK與CLI，技術門檻適中",
+      "Session間記憶可複合肥料",
+      "304顆星，TypeScript實作"
+    ],
+    "why_it_matters": "長程代理任務常因Context限制而遺忘早期決策。AgentRecall-MCP提供結構化記憶持久化方案，是提升代理可靠性的關鍵元件。",
+    "automation_angle": null,
+    "automation_angle_zh": "將AgentRecall-MCP整合進自建代理系統，讓AI在處理多步驟專案時能記住前置步驟的結論，避免重複討論與錯誤。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/232191022?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-calibremcp-mcp",
+    "title": "CalibreMCP：將電子書庫管理接入MCP生態",
+    "title_original": "sandraschi/calibremcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sandraschi/calibremcp",
+    "published_at": "2026-06-20T17:02:17Z",
+    "category": "agent-skills",
+    "summary": "CalibreMCP是以Python實作的FastMCP 3.2伺服器，將Calibre電子書管理系統暴露為MCP工具，含AI輔助搜尋、RAG增強與桌面GUI。目前星星數少但概念新穎，適合文件密集工作者評估。",
+    "highlights": [
+      "基於FastMCP 3.2協議，與主流MCP客戶端相容",
+      "提供Calibre電子書的AI搜尋能力",
+      "支援RAG流程，可用於書籍內容問答",
+      "含Tauri桌面應用，人類可直操作",
+      "Python實作，技術門檻低"
+    ],
+    "why_it_matters": "大量電子書庫難以有效檢索與利用。CalibreMCP將書籍轉為可問答的知識庫，讓研究人員或技術寫作者能快速從個人藏書中提取資訊。",
+    "automation_angle": null,
+    "automation_angle_zh": "將個人電子書庫接入代理Workflow，讓AI自動從書籍中檢索相關段落、生成閱讀摘要或回答技術問題，省去手動搜尋時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/34750307?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-aso-skills-ai-agent-app-store",
+    "title": "aso-skills：AI Agent專用App Store優化技能集",
+    "title_original": "Eronred/aso-skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Eronred/aso-skills",
+    "published_at": "2026-06-20T15:35:23Z",
+    "category": "agent-skills",
+    "summary": "aso-skills是開源AI Agent技能庫，專為App Store優化設計，支援關鍵詞研究、元資料優化、競爭分析等行銷任務。適用於Cursor、Claude Code等Agent Skills相容工具，1513顆星、社群活躍。",
+    "highlights": [
+      "支援關鍵詞研究與元資料自動優化",
+      "提供競爭對手分析能力",
+      "相容Cursor、Claude Code等主流Agent工具",
+      "開源Shell腳本，方便自定義修改",
+      "1513顆星表示社群認可度較高"
+    ],
+    "why_it_matters": "行銷與ASO工作繁瑣重複，aso-skills可將關鍵詞優化、競爭分析等任務自動化。對於獨立開發者或App行銷團隊，可節省大量手動操作時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "在Cursor或Claude Code中載入aso-skills，讓AI自動生成App標題、描述、關鍵詞建議，並批量更新至App Store Connect。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Shell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/43992376?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-20-z-ai",
+    "title": "z.AI 排名第二卻大力稱讚開源龍頭模型",
+    "title_original": "z.AI as the number 2 gives praise to the number 1 open source model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uaxktf/zai_as_the_number_2_gives_praise_to_the_number_1/",
+    "published_at": "2026-06-20T14:10:04+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 討論區有網友分享，z.AI 模型在排名中位居第二，卻公開高度讚賞排名第一的開源模型。討論區用戶好奇這兩個模型各自的優勢與差異，以及 z.AI 如此謙遜表態的可能原因。此貼文引發關於開源模型生態競爭與合作的熱烈討論。",
+    "highlights": [
+      "z.AI 在模型排行榜位居第二名，僅次於頂尖開源模型",
+      "z.AI 官方社群公開讚賞第一名模型的表現與品質",
+      "用戶熱烈討論兩者技術路線與能力邊界差異",
+      "此互動顯示開源模型社群存在良性競爭文化"
+    ],
+    "why_it_matters": "了解開源模型間的相互評價有助技術人員選擇適合的工具鏈，也能從社群的實測經驗中獲得模型選型的實際參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載兩種模型進行對比測試，根據自身任務需求（推論速度、指令遵循、程式碼生成等）決定部署哪個模型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-item",
+    "title": "研究：將自然語言戰術意圖注入多智能體足球策略",
+    "title_original": "Research Project: Injecting Natural-Language Tactical Intent into Multi-Agent Football Policies",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uawkdg/research_project_injecting_naturallanguage/",
+    "published_at": "2026-06-20T13:24:20+00:00",
+    "category": "new-models",
+    "summary": "一篇新研究論文探討如何將自然語言描述的戰術意圖直接注入多智能體足球策略系統中。研究團隊設計了一套方法，讓教練可以用意圖描述（如「加強防守反擊」）來調整場上多個 AI 球員的協作行為，無需重新訓練模型即可改變團隊戰術風格。",
+    "highlights": [
+      "研究提出用自然語言指令動態調整多智能體策略的框架",
+      "教練可用戰術意圖描述即時改變 AI 球員行為模式",
+      "方法無需完整模型重訓練，降低戰術調整成本",
+      "實驗顯示該方法在足球模擬環境中效果良好"
+    ],
+    "why_it_matters": "此研究展示自然語言作為人機協作介面的潛力，未來可應用於自動化工作流程程編排與即時策略調整場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用此概念設計多智能體系統的動態配置功能，例如讓 AI 助理根據自然語言指令改變自動化腳本的執行策略。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-20-ai-skills-ai",
     "title": "ai-skills：AI 程式碼助理的技能集合庫",
     "title_original": "iliaal/ai-skills",
@@ -26,6 +194,33 @@
       "Shell"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/158724?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-llm",
+    "title": "本地 LLM 英文故事摘要最佳模型討論",
+    "title_original": "Best local LLM for English story summarization",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uavbve/best_local_llm_for_english_story_summarization/",
+    "published_at": "2026-06-20T12:24:32+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 討論區有用戶提問哪個本地執行的大型語言模型最適合英文故事摘要。回覆者建議考量模型的上下文窗口長度、指令微調程度以及對長文本的壓縮能力，並列出多個候選模型的實測效能比較。",
+    "highlights": [
+      "摘要任務需大上下文窗口以處理完整故事",
+      "指令微調模型在結構化輸出上表現較佳",
+      "長上下文模型如 Mistral、Command R 獲推薦",
+      "用戶建議用 perplexity.ai 等工具做快速模型篩選"
+    ],
+    "why_it_matters": "本地 LLM 摘要能力直接影響技術人員能否在本地端處理文件自動化，降低對雲端 API 的依賴與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可架設本地 summarization pipeline，用選定的模型自動處理每日報告、文章或會議記錄的摘要任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -39412,6 +39607,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-20-meta-muse-spark-alexandr-wang-ai",
+    "title": "Meta 推出 Muse Spark，由 Alexandr Wang 主導的首個 AI 模型",
+    "title_original": "Meta debuts Muse Spark, first AI model under Alexandr Wang - Axios",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzNkdpNDdrZ0tsYW0yc2t1RkFXeElBem1qTzBRR2lqZU11YnBrdmptbXZWUnh0WDNkc3VXbEdiTVBabFZ4MGZxaHlTQUJLdlNrblljVTF0UGs4NFZBVDdzOURYa2xuUms?oc=5",
+    "published_at": "2026-04-08T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Meta 發布全新 AI 模型 Muse Spark，這是 Alexandr Wang 加入 Meta 後主導的首個產品。據 Axios 報導，Muse Spark 定位為面向創意應用的多模態生成模型，強調與 Meta 現有產品線的深度整合能力。目前官方尚未公布詳細技術規格與開源時間表。",
+    "highlights": [
+      "Muse Spark 是 Meta 全新多模態生成模型",
+      "由近期加入的 Alexandr Wang 團隊主導開發",
+      "瞄準創意應用場景與 Meta 產品生態整合",
+      "具體技術規格與開源計畫尚未公開"
+    ],
+    "why_it_matters": "Meta 新模型的發布方向反映大廠在多模態與產品整合上的戰略布局，可能影響開源模型生態的發展走向。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 Meta 官方公告，待技術規格與 API 定價公布後評估是否整合到現有工作流程程或產品中。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-meta-ai",
     "title": "Meta 正在開源下一代前沿 AI 模型",
     "title_original": "Meta is developing open-source versions of its next frontier AI models - Techzine Global",
@@ -42021,6 +42243,33 @@
     "automation_angle_zh": "在本地端部署一個測試環境，模擬惡意 prompt injection 攻擊，觀察 cagent 的攔截行為與日誌記錄是否符合預期。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-yann-lecun-llama",
+    "title": "Yann LeCun 稱他對 Llama 模型的開發僅有間接貢獻",
+    "title_original": "Meta AI's Yann LeCun says he played only an indirect role in the development of Llama models - The Decoder",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbWZlX244UE9WMXBqTy1EQklXZXMwUEFKRWdMakhiSEZ2UzZfZkFkUEFtNFRHUXBCVkw4V0k3dUJJRDVVODN6Q1NSX0NBMm1qV0ZYakpXMkQ2TGtOczVqdnA1aGFWQXRldjhKc3czZDJjazdzQzUxWk4tdnh6VnZ6dkhaWWdIcjd5cG1uNWpGa3hQOFNpa0NHc0xwMlRxUzBsZXRCRUZYQWw5cHFRYmtNS0tTREdyams?oc=5",
+    "published_at": "2025-10-24T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Meta AI 首席科學家 Yann LeCun 接受採訪時表示，他在 Llama 模型的開發過程中僅扮演間接角色，而非核心研發人員。此發言澄清了外界對 Meta 內部 AI 研究組織結構的誤解，也凸顯大型語言模型開發涉及多團隊協作的複雜性。",
+    "highlights": [
+      "LeCun 表示他的貢獻主要在研究方向指導層面",
+      "Llama 實際開發由 Meta 其他專業團隊負責",
+      "此發言有助外界理解 Meta 内部研究分工結構",
+      "引發學術界對 AI 貢獻歸屬問題的討論"
+    ],
+    "why_it_matters": "了解開源模型背後的實際研發脈絡有助評估模型的技術來源與可信度，對選型決策有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員追蹤感興趣模型的幕後團隊與技術淵源，有助判斷後續維護與更新頻率的可預期性。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
