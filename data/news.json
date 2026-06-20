@@ -1,5 +1,91 @@
 [
   {
+    "id": "2026-06-20-ai-skills-ai",
+    "title": "ai-skills：AI 程式碼助理的技能集合庫",
+    "title_original": "iliaal/ai-skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/iliaal/ai-skills",
+    "published_at": "2026-06-20T12:26:04Z",
+    "category": "agent-skills",
+    "summary": "ai-skills 是一個精選的 AI Agent 技能集合，專為 AI 程式碼助理設計。該 repo 收錄各類可增強 AI 程式碼生成與任務執行能力的技能擴充，目前獲得 23 stars。",
+    "highlights": [
+      "精選的 AI 程式碼助理技能庫",
+      "旨在擴充 AI 程式碼生成與執行能力",
+      "Shell 腳本為主要實作語言",
+      "23 stars，具一定社群關注度",
+      "可用於評估不同 AI 助理的技能擴展方案"
+    ],
+    "why_it_matters": "對於正在評估或客製化 AI 程式碼助理的開發者，此集合提供了可參考的技能擴展模式，有助於了解如何為特定工作流程增添自動化能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者瀏覽此 repo 中的技能實作，評估哪些技能可整合進現有的 AI 程式碼助理工作流程，測試其對程式碼生成品質與任務完成率的影響。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Shell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/158724?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-motus-net-node-js",
+    "title": "Motus：.NET 平台的無 Node.js 瀏覽器自動化框架",
+    "title_original": "DataficationSDK/Motus",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/DataficationSDK/Motus",
+    "published_at": "2026-06-20T12:04:14Z",
+    "category": "agent-skills",
+    "summary": "Motus 是專為 .NET 生態設計的瀏覽器自動化與測試框架，透過 WebSocket 直連 Chromium（CDP）和 Firefox（WebDriver BiDi），無需 Node.js 依賴。提供原始碼生成的通訊協定綁定、Roslyn 分析器、測試錄製工具、Blazor 視覺化執行器，以及 AI Agent 專用的 MCP 伺服器。",
+    "highlights": [
+      "專為 .NET 設計，不依賴 Node.js 生態",
+      "直接使用 CDP 與 WebDriver BiDi 協定",
+      "包含 Roslyn 分析器提升開發體驗",
+      "提供測試錄製與 Blazor 視覺化工具",
+      "內建 MCP 伺服器可供 AI Agent 控制瀏覽器"
+    ],
+    "why_it_matters": "對熟悉 .NET 的技術開發者而言，Motus 提供一個輕量且無外部 JS 依賴的瀏覽器自動化方案，尤其 MCP 伺服器功能可讓 AI Agent 直接操控瀏覽器執行任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 .NET 專案中整合 Motus，利用其 MCP 介面讓 AI Agent 控制瀏覽器完成網頁操作、資料抓取等自動化任務，評估其穩定性與 CDP 相容性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/178159696?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-biblemate-ai-agent-mcp",
+    "title": "BibleMate：聖經研究專用 AI Agent，提供 MCP 伺服器",
+    "title_original": "eliranwong/biblemate",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/eliranwong/biblemate",
+    "published_at": "2026-06-20T11:51:09Z",
+    "category": "agent-skills",
+    "summary": "BibleMate 是一款自主式 AI Agent，專門用於聖經相關任務，可規劃並執行多步驟操作完成聖經研經需求。提供 CLI 版本、MCP 伺服器、Web UI、HTTP 伺服器與 API 伺服器等多種接入方式。",
+    "highlights": [
+      "專為聖經研究場景設計的自主 Agent",
+      "支援 CLI、MCP、Web UI、HTTP API 等多元接入",
+      "可執行多步驟複雜研經任務",
+      "開源專案，技術實作可供參考",
+      "17 stars，社群關注度適中"
+    ],
+    "why_it_matters": "BibleMate 展示了如何用 MCP 框架包裝特定領域知識庫與工具鏈，為技術用戶提供一個可借鑒的領域 Agent 開發範本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可研究其 MCP 伺服器實作方式，借鑒其領域知識庫整合與多步驟任務規劃邏輯，應用於其他專業領域的 Agent 開發。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/25262722?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-20-byteask-embedded-mcp-firmware-driver-mcp",
     "title": "ByteAsk-Embedded-MCP：為 Firmware/Driver 開發者打造的引用溯源 MCP 伺服器",
     "title_original": "ByteAsk/ByteAsk-Embedded-MCP",
