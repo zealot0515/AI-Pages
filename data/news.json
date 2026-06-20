@@ -1,5 +1,260 @@
 [
   {
+    "id": "2026-06-20-byteask-embedded-mcp-firmware-driver-mcp",
+    "title": "ByteAsk-Embedded-MCP：為 Firmware/Driver 開發者打造的引用溯源 MCP 伺服器",
+    "title_original": "ByteAsk/ByteAsk-Embedded-MCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ByteAsk/ByteAsk-Embedded-MCP",
+    "published_at": "2026-06-20T06:55:36Z",
+    "category": "agent-skills",
+    "summary": "ByteAsk-Embedded-MCP 是開源 MCP 伺服器，讓 Claude Code、Codex、Cursor 等編碼 Agent 在撰寫 Firmware、驅動或協定層程式碼時，能取得具頁面引用的事實依據，降低幻覺風險與除錯成本。",
+    "highlights": [
+      "支援頁面級引用，減少 AI 幻覺錯誤",
+      "專為嵌入式、Firmware、Driver 場景設計",
+      "可對接主流 AI 編碼工具",
+      "開源 Python 實作，部署門檻低",
+      "17 Stars，社群關注度相對較高"
+    ],
+    "why_it_matters": "硬體相關程式碼出錯代價高昂，引用溯源能力能讓 AI 生成結果更可信，技術用戶應評估其是否能整合進現有 CI/CD 流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本機啟動 MCP 伺服器，測試其能否為 Firmware 程式碼審查提供準確的資料手冊引用，驗證回答品質。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/250865407?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-sigil-fleet-ai-ai-agent",
+    "title": "Sigil：Fleet AI 安全態勢管理工具，監控 AI 編碼 Agent 風險面",
+    "title_original": "Ju571nK/sigil",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Ju571nK/sigil",
+    "published_at": "2026-06-20T06:52:48Z",
+    "category": "agent-skills",
+    "summary": "Sigil 是一款 Rust 實作的 AI-SPM（安全態勢管理）工具，在各開發者機器部署客戶端 Agent，對 Claude Code、Cursor、Codex、Gemini CLI 等編碼工具的許可權、Hook、沙盒與 mcp.json 進行評分，並將雜湊錨定事件上報至中央 SIEM。",
+    "highlights": [
+      "用 Rust 實作效能與記憶體佔用優化",
+      "支援主流 AI 編碼工具的安全面評估",
+      "事件以雜湊錨定，確保不可竄改性",
+      "對接企業 SIEM 進行集中態勢監控",
+      "目前測量為主，不主動阻斷危险操作"
+    ],
+    "why_it_matters": "企業引入 AI 編碼工具時，合規與安全團隊需要可量化視角，Sigil 提供了一個起點，技術宅可評估其能否滿足組織的 AI 使用政策。",
+    "automation_angle": null,
+    "automation_angle_zh": "在團隊測試環境部署 Sigil 客戶端，觀察各 AI 編碼工具的許可權配置是否符合最小權限原則，產出安全報告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/14155317?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-llama-cpp-b70-sycl-gpu",
+    "title": "llama.cpp B70 SYCL 效能實測：GPU 推論新標杆？",
+    "title_original": "Some llama.cpp B70 SYCL benchmarks",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uao1pk/some_llamacpp_b70_sycl_benchmarks/",
+    "published_at": "2026-06-20T05:20:12+00:00",
+    "category": "open-source-ai",
+    "summary": "社群釋出 llama.cpp 在 Intel B70 GPU 上運行 SYCL 後端的基準測試數據。測試涵蓋 Qwen、Llama 等主流開源模型，結果顯示每秒輸出 tokens（tok/s）在大context 場景下顯著優於 CPU 推論，但相比 NVIDIA CUDA 仍有差距。散熱與功耗表現是亮點。",
+    "highlights": [
+      "SYCL 後端讓 llama.cpp 支援 Intel GPU 生態，減少 CUDA 依賴",
+      "B70 在長上下文（8K+）場景下 tok/s 提升明顯",
+      "功耗效率優於同等算力 NVIDIA 卡，散熱壓力較低",
+      "與 CUDA 相比仍有 20-40% 性能差距",
+      "適合預算有限但想上 GPU 的技術愛好者"
+    ],
+    "why_it_matters": "Intel GPU + SYCL 為 llama.cpp 用戶提供第三條路，降低 NVIDIA 顯示卡依賴。對想省電、省錢跑本地模型的玩家，B70 是值得關注的選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你手邊有 Intel 獨立顯卡，可編譯 llama.cpp SYCL 版本測試自己的模型，評估能否替代現有 CPU 推論方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-rhoiscribe-hoi4-mcp",
+    "title": "RHoiScribe：HoI4 模組開發專用本地 MCP 伺服器",
+    "title_original": "czxieddan/RHoiScribe",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/czxieddan/RHoiScribe",
+    "published_at": "2026-06-20T05:03:33Z",
+    "category": "agent-skills",
+    "summary": "RHoiScribe 是 Rust 實作的本地 MCP 伺服器，為 Hearts of Iron IV 模組開發 Agent 提供專用技能與工具鏈，可自動化模組資產生成與資料結構操作，屬於領域專用工具案例。",
+    "highlights": [
+      "Rust 實作，效能與跨平台支援佳",
+      "專為 HoI4 模組開發情境設計",
+      "提供本地端執行，無需雲端依賴",
+      "展示 MCP 協定在領域專用工具的潛力",
+      "12 Stars，屬於小眾但具啟發性的專案"
+    ],
+    "why_it_matters": "MCP 生態正朝領域專用工具擴展，技術用戶可從 RHoiScribe 了解如何用相同架構為自有關鍵領域建構專屬 Agent 工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "clone 專案並執行，觀察 MCP 工具定義與 HoI4 資料結構的對應方式，參考其架構為自己的專業領域建立原型。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/171586211?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-amd-gpu-llm",
+    "title": "AMD 未來 GPU 陣容曝光：LLM 訓練/推論硬體新選擇？",
+    "title_original": "AMD future GPU offerings. Some interesting offerings for a LLM build. What type of LLM rig would you build with these?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uanol4/amd_future_gpu_offerings_some_interesting/",
+    "published_at": "2026-06-20T05:00:55+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 討論區整理 AMD 未來消費級與專業級 GPU 產品路線圖，包含 RDNA 4 與 CDNA 架構更新。玩家熱議若 AMD 能在 ROCm 生態補上 LLM 推論缺口，未來打造平價 LLM 主機將有新選擇，但目前軟體支援仍是最大障礙。",
+    "highlights": [
+      "AMD 規劃多款高記憶體頻寬晶片，理論適合 LLM 推論",
+      "ROCm 對 PyTorch Transformers 支援仍落後 CUDA 生態",
+      "散熱與功耗設計瞄準長時間推論場景",
+      "價格策略若具競爭力，可能打破 NVIDIA 壟斷",
+      "軟體棧成熟度決定開發者採用意願"
+    ],
+    "why_it_matters": "NVIDIA GPU 短缺與高價讓技術社群渴望替代方案。AMD 若能解決軟體相容性，未來本地 LLM 硬體成本有望大幅下降。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續關注 AMD ROCm 更新進度，若下一代版本對 llama.cpp 支援完善，可評估作為本地推論伺服器新硬體選項。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-qwen3-6-27b-8k-tool-calling",
+    "title": "Qwen3.6 27B 8K Tool Calling 實測：開源模型工具調用能力評估",
+    "title_original": "Tool calling, opencode qwen3.6 27b 8K",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uamck8/tool_calling_opencode_qwen36_27b_8k/",
+    "published_at": "2026-06-20T03:50:36+00:00",
+    "category": "agent-skills",
+    "summary": "開發者在本地測試 Qwen3.6 27B 8K 上下文模型的 tool calling 能力，使用開放工具集驗證 JSON 格式正確率與意圖識別精度。初步結果顯示模型在簡單工具鏈上表現穩定，但複雜多步驟任務仍偶有格式錯誤或遺漏步驟問題。",
+    "highlights": [
+      "測試集涵蓋天氣查詢、計算器、API 呼叫等常見工具",
+      "JSON Schema 解析成功率約 85%，尚有改進空間",
+      "單步工具調用穩定，多步任務衰減明顯",
+      "8K 上下文對單次對話足夠，但長程規劃有限制",
+      "相比 GPT-4 仍有差距，但勝在可在本地運行"
+    ],
+    "why_it_matters": "Tool calling 是 Agent 能力核心，Qwen3.6 的開源可部署性對不想受制於 API 的技術宅極具吸引力。實測結果提供技術選型參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 Qwen3.6 27B，用 Ollama 部署後接入你的工具集（Slack、Google Sheet API），評估能否勝任你的自動化需求。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-agent-searxng-scrapling",
+    "title": "本地 Agent 免費上網撈資料：SearXNG + Scrapling 實戰",
+    "title_original": "Giving a local agent web access without paid search/scrape APIs: SearXNG + Scrapling",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uam3iv/giving_a_local_agent_web_access_without_paid/",
+    "published_at": "2026-06-20T03:36:50+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶分享如何在本地部署 SearXNG 搜尋引擎與 Scrapling 網頁解析工具，讓本地 LLM Agent 不靠 Google/Bing API 就能即時爬取網頁資料，成本降為零。流程包含 Docker 部署 SearXNG、Docker + Ollama 串接，實測可正常提取搜尋結果與結構化內容。",
+    "highlights": [
+      "SearXNG 為開源隱私搜尋聚合器，支援多引擎彙整結果",
+      "Scrapling 專為 AI 設計，可提取結構化 HTML 內容",
+      "全程無需付費搜尋 API，零成本實現網頁資訊檢索",
+      "需注意 SearXNG 實例穩定性與robots.txt 倫理規範",
+      "結合 Ollama 本地模型即可打造完全離線的網路 Agent"
+    ],
+    "why_it_matters": "對技術宅而言，付費搜尋 API 是自動化工作流程的隱形瓶頸。此方案讓你在家就能架一套免費網路檢索管道，成本從月付數十美元直接歸零。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此堆疊整合進你的自動化腳本，例如定時抓取競品資訊、股票資料或技術文件，完全在本地運行，無需擔心 API 限額或隱私外洩。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-supralabs-supra-title-fft-preview-115k",
+    "title": "SupraLabs 開源聊天標題資料集：supra-title-FFT-preview 釋出，115K 樣本量",
+    "title_original": "[NEW MODEL] SupraLabs just released supra-title-FFT-preview, 115K samples, almost 10x our first chat title dataset",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ualbn2/new_model_supralabs_just_released/",
+    "published_at": "2026-06-20T02:56:51+00:00",
+    "category": "open-source-ai",
+    "summary": "SupraLabs 發布新版對話標題生成資料集 supra-title-FFT-preview，規模達 11.5 萬筆，為初代版本的近十倍。資料來源為真實聊天記錄脫敏後處理，適用於訓練小型語言模型或微調聊天摘要能力，目前已在 HuggingFace 開放下載。",
+    "highlights": [
+      "樣本量從初代 12K 大幅擴增至 115K，涵蓋多元對話場景",
+      "資料經脫敏處理，可直接用於模型訓練無版權疑慮",
+      "主要用途為訓練對話標題生成任務",
+      "開源於 HuggingFace，部署門檻低",
+      "屬於模型訓練前準備環節，非可直接使用模型"
+    ],
+    "why_it_matters": "高品質對話資料集是微調模型的稀缺資源，此版本十倍擴充且開源，對想打造垂直領域聊天機器人的開發者來說是捷徑。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載此資料集，用 LLaMA-Factory 或 Ollama 對 7B 以下模型做 LoRA 微調，訓練你自己的對話摘要或標題生成模組。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-claude-c",
+    "title": "實測 Claude「快速 C++」模式：速度並未更快",
+    "title_original": "I benchmarked Claude's \"Fast C++\". It wasn't faster",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uairua/i_benchmarked_claudes_fast_c_it_wasnt_faster/",
+    "published_at": "2026-06-20T00:49:14+00:00",
+    "category": "hot-topics",
+    "summary": "開發者在 Reddit 發布嚴謹 benchmark 結果，測試 Anthropic 宣稱的 Claude 快速模式（Fast Mode）用於 C++ 程式碼生成是否真的加速。實驗設計包含多輪相同 Prompt 計時對比，結論為：快速模式平均回應時間與標準模式無顯著差異，甚至部分場景更慢。",
+    "highlights": [
+      "測試控制變量：相同 Prompt、相同模型版本、多次取樣平均值",
+      "快速模式未展現延遲優勢，回應時間差異在統計誤差範圍內",
+      "輸出品質（正確性）未在此次測試中系統性評估",
+      "可能原因包含：快速模式僅影響推論深度，非底層延遲",
+      "建議用戶勿為速度期待支付額外費用"
+    ],
+    "why_it_matters": "若付費使用快速模式卻無加速效果，對成本敏感的開發者應重新評估訂閱方案。實測結果打破行銷承諾，技術決策應基於數據而非宣傳。",
+    "automation_angle": null,
+    "automation_angle_zh": "在正式專案選型前，用自己真實 workload 做類似 benchmark，而非依賴官方宣稱。記錄回應時間與成本，自己跑一輪就知道值不值。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-20-shellward-8-ai-agent-mcp",
     "title": "Shellward：8 層防護的 AI Agent 安全中介層與 MCP 伺服器",
     "title_original": "jnMetaCode/shellward",
@@ -3447,6 +3702,34 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-20-8000-ai-618",
+    "title": "8000萬詞元+全套AI研發工具，國家超算互聯網開啟618大促",
+    "title_original": "8000万词元+全套AI研發工具，国家超算互联网開启618大促 - Sohu",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdkZQMnFkbmdKUHVMWEZUWU8xQ0EwZ1E5X3Etb2w2dDRwUW1pdEtqajVBTTVXQUZBS0VpTU1jS2FLUXg2LXlFcUhHMk5ZdDRXUm1uQm03dWRyenk5cjdaTjV2QjUwOFRaTk4tVGVlNDE5aS1MZTZacUxPT2FvM01QN2FlU0pfY1Qt?oc=5",
+    "published_at": "2026-06-16T11:51:31+00:00",
+    "category": "ai-deals",
+    "summary": "中國國家超算互聯網平台推出618促銷活動，提供8000萬詞元配額及全套AI研發工具，包含模型訓練、部署、優化等服務。活動時間有限，適合需要大量算力的企業或研究機構評估使用。",
+    "highlights": [
+      "提供8000萬詞元配額，額度可用於模型推論或訓練",
+      "附贈全套AI研發工具，含模型開發、測試、部署流程",
+      "為國家級超算平台提供的官方促銷，非灰市服務",
+      "限時活動，需注意使用期限與兌換條件",
+      "可能支援國產大模型與異構算力調度"
+    ],
+    "why_it_matters": "對於需要穩定算力來跑大模型或微調的技術團隊，國家級平台的優惠方案可降低成本並確保資源穩定性。建議評估其工具鏈完整性是否符合實際開發需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將部分批次推論任務（如大量文件分析、程式碼生成）遷移至此平台，利用其優惠額度做成本試算，比較自建叢集與雲端服務的CP值。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
