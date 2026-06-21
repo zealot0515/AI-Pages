@@ -1,5 +1,175 @@
 [
   {
+    "id": "2026-06-21-sidekick-agent-hub-vs-code-ai",
+    "title": "Sidekick Agent Hub：VS Code 與終端多提供者 AI 助理會話監控面板",
+    "title_original": "cesarandreslopez/sidekick-agent-hub",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/cesarandreslopez/sidekick-agent-hub",
+    "published_at": "2026-06-21T18:28:28Z",
+    "category": "agent-skills",
+    "summary": "Sidekick Agent Hub 是多提供者 AI 編碼助理與會話監控工具，內嵌 VS Code 與終端環境，提供內聯補全、代碼轉換，並有完整 TUI 儀表板追蹤 Token 消耗、成本與上下文狀態，支援跨帳號切換 Claude Code 與 Codex。",
+    "highlights": [
+      "支援 VS Code 內聯補全與代碼轉換",
+      "TUI 儀表板即時監控 Token 與成本",
+      "多 Claude Code / Codex 帳號自由切換",
+      "TypeScript 實作，71 Stars 增速中",
+      "可審視 AI 編碼 Agent 的實際行為"
+    ],
+    "why_it_matters": "技術宅常同時使用多個 AI 編碼工具，Sidekick 提供統一看板監控成本與上下文消耗，能幫助避免意外超支並優化工作流程配置。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝 VS Code 插件後，技術讀者可將 Sidekick 作為統一面板，監控不同專案使用 Claude Code 與 Codex 的實際消耗，據此調整 Prompt 或切換帳號控制成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/14029177?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-21-reddit-r-localllama-benchmark-2026-06-21",
+    "title": "Reddit r/LocalLLaMA：本地視覺模型 Benchmark 第二輪更新（2026/06/21）",
+    "title_original": "Best local model for vision - 2nd benchmark update - 21 Jun 2026",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubx4rw/best_local_model_for_vision_2nd_benchmark_update/",
+    "published_at": "2026-06-21T18:18:07+00:00",
+    "category": "open-source-ai",
+    "summary": "社群發起的本地運行視覺語言模型效能橫向評測更新，涵蓋 Qwen2-VL、InternVL、LLaVA 系列在圖像理解、多模態推論上的相對表現，但缺乏標準化測試環境。",
+    "highlights": [
+      "社群驅動的非正式 benchmark，納入多個開源視覺模型",
+      "測試維度包括圖片理解、OCR、視覺推論等常見場景",
+      "結果依賴社群成員硬體環境，復現性存疑",
+      "可作為非正式參考，但不宜作為正式技術決策依據"
+    ],
+    "why_it_matters": "對於想在本地部署視覺 AI 的開發者，社群回饋比官方 benchmark 更接近真實使用體驗，有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可根據社群回饋選擇適合自己硬體的視覺模型，用 Ollama 或 vLLM 快速部署測試。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-acodex-codex-app-mcp",
+    "title": "Acodex：Codex 桌面 App 本地 MCP 自動化橋接工具",
+    "title_original": "maksimzayats/acodex",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/maksimzayats/acodex",
+    "published_at": "2026-06-21T18:07:52Z",
+    "category": "agent-skills",
+    "summary": "Acodex 為 Codex 桌面應用提供本地 MCP（Model Context Protocol）自動化橋接，附帶 CLI、HTTP Server，並暴露 live codex_app.* 工具接口。Python 實作，54 Stars，為 Codex 用戶提供本地擴展能力。",
+    "highlights": [
+      "本地 MCP 橋接 Codex 桌面 App",
+      "CLI 與 HTTP Server 雙模式接口",
+      "暴露 codex_app.* 工具觸發自動化",
+      "Python 實作，輕量級整合",
+      "適合需要自定義 Codex 工作流程的技術用戶"
+    ],
+    "why_it_matters": "Codex 用戶若想將 AI 能力嵌入本地自動化腳本，Acodex 提供官方未直接支援的 MCP 層，降低整合門檻，值得測試實用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可 pip install acodex，啟動 HTTP Server 後將 Codex 能力接入自建腳本，實現本地檔案處理與 AI 任務的自動化串接。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/49313691?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-theodosia-burr-mcp-server-ai-agent",
+    "title": "Theodosia：將 Burr 狀態機掛載為 MCP Server 為 AI Agent 上軌道",
+    "title_original": "msradam/theodosia",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/msradam/theodosia",
+    "published_at": "2026-06-21T17:29:21Z",
+    "category": "agent-skills",
+    "summary": "一款實驗性 Python 工具，可將 Burr 有限狀態機掛載為 MCP Server，讓 Agent 只能在允許的狀態轉移中行動，所有步驟皆可錄製與回放，實現可審計的 Agent 行為控制。",
+    "highlights": [
+      "Python 實作，12 stars，輕量級整合 Burr 狀態機框架",
+      "MCP Server 模式讓 Agent 可被任何 MCP 相容客戶端呼叫",
+      "每個狀態轉移皆記錄，支援時間旅行式回放除錯",
+      "可定義嚴格的工作流程約束，避免 Agent 自由發揮過度",
+      "狀態機定義與 Agent 推論邏輯分離，模組化程度高"
+    ],
+    "why_it_matters": "企業部署 Agent 常需合規審計，此專案提供免費開源方案將 Agent 行為約束與記錄機制標準化，降低合規成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將此整合進自建的 AI 工作流程系統，替需要監管場景（如客服自動化、資料處理 Pipeline）加入不可篡改的執行日誌。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/19861960?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-500m-llm-330m",
+    "title": "從零訓練 500M LLM 與 330M 圖像生成器",
+    "title_original": "I pretrained and post trained a 500M parameter LLM and 330M parameter Image generator from scratch",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubuy8w/i_pretrained_and_post_trained_a_500m_parameter/",
+    "published_at": "2026-06-21T16:52:01+00:00",
+    "category": "open-source-ai",
+    "summary": "一位開發者在 Reddit 分享從零開始預訓練與後訓練 500M 參數語言模型及 330M 參數圖像生成器的完整流程，包含資料處理、訓練配置與成本估算。這為本地化模型訓練提供可參考的實作範例。",
+    "highlights": [
+      "完整從零預訓練流程，含資料集準備與清洗",
+      "提供後訓練（post-training）技術細節",
+      "成本估算與硬體需求公開",
+      "附訓練配置文件與關鍵超參數",
+      "可在消費級 GPU 實現"
+    ],
+    "why_it_matters": "降低模型訓練門檻，展示從零建立小型模型的完整路徑，讓技術愛好者評估自行訓練特定領域模型的可行性與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載其訓練腳本與配置，針對特定領域資料集（如技術文檔、程式碼）微調，建立內部使用的精簡模型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-rocm-vulkan-vllm-r9700",
+    "title": "ROCm 與 Vulkan 和 vLLM 在雙 R9700 上的效能比較",
+    "title_original": "ROCm vs Vulkan vs vLLM on Dual R9700's",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubqn87/rocm_vs_vulkan_vs_vllm_on_dual_r9700s/",
+    "published_at": "2026-06-21T13:53:25+00:00",
+    "category": "hot-topics",
+    "summary": "開發者比較 AMD R9700 雙卡在 ROCm、Vulkan 與 vLLM 三種方案下的推論效能。Vulkan 後端在特定場景展現優勢，提供 AMD 消費級 GPU 推論的最佳化參考。",
+    "highlights": [
+      "ROCm 為 AMD 官方 Linux 方案",
+      "Vulkan 支援 Windows 並可能更高效",
+      "vLLM 為主流推論框架",
+      "雙 R9700 組合測試多模型量化場景",
+      "結果依模型與量化方式有顯著差異"
+    ],
+    "why_it_matters": "AMD 消費級顯卡在 AI 推論的生態逐漸成熟，此比較提供實測資料幫助技術用戶選擇最佳軟體堆疊以節省成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "若使用 AMD 顯卡，可參考其最佳化配置，在本地部署量化模型以降低推論延遲與記憶體佔用。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-21-auxilia-web-mcp-mcp",
     "title": "auxilia：輕量級 Web MCP 用戶端，專注遠端 MCP 伺服器",
     "title_original": "keurcien/auxilia",
@@ -1574,6 +1744,35 @@
       "Rust"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/30733348?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-aris-movie-director-agent",
+    "title": "ARIS Movie Director：長程視覺生成 Agent，故事腳本至多模型審核影像",
+    "title_original": "wanshuiyin/ARIS-Movie-Director",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/wanshuiyin/ARIS-Movie-Director",
+    "published_at": "2026-06-19T12:11:53Z",
+    "category": "new-models",
+    "summary": "ARIS Movie Director 展示代理式長程視覺生成流程：將模糊故事轉為多模型交叉審核的圖像電影。核心思路是智慧存在於 Agent 架構中，擴散模型僅負責渲染。現階段輸出為圖像，影片生成在規劃中。",
+    "highlights": [
+      "Agent 調度多模型進行交叉審核",
+      "模糊故事輸入轉結構化視覺輸出",
+      "圖像為當前能力，影片生成待實現",
+      "研究 Wiki 與多 Agent 辯論機制融入",
+      "22 Stars，Python 實作，仍屬早期實驗"
+    ],
+    "why_it_matters": "此專案預示未來生成式工作流程可能從簡單 prompt 轉向多 Agent 協作審核，對想自動化創意產出流程的技術宅具有方向性參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可在 GitHub 查看源碼邏輯，理解如何用多 Agent 辯論提升生成品質，並評估是否可移植至自己的圖像自動化工作流程中。",
+    "tags": [
+      "new-models",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/76990859?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -21853,6 +22052,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-21-nvidia-ai-agent",
+    "title": "NVIDIA 開源物理 AI Agent 工具與技能集，加速機器人與自動駕駛開發",
+    "title_original": "NVIDIA Releases Major Collection of Open Source Agent Tools and Skills for Physical AI - NVIDIA Newsroom",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaXh6M3BwdlF3a3VWWEhQSUdhQTR5WFk4UGJINUFwa0ZCQW0ybUljYWoxbzNETmViNGJpS2llXzV6R01iemV0QndtSzIzMmlwMXlhOTJmZUxrSGxWUlhGb0ZSRWJlcVhaMURQMHhzRjRIYzhnUl9OYzRaaWZOSjNPOVA1b25Gcm9PNXBCcnI3bG9ucThQRXBzUzExX3NWQ1VURjZxNXhLSWdMRXFhNUV2ajZoZnRieVc5dUQ3ZXBB?oc=5",
+    "published_at": "2026-05-31T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "NVIDIA 官方發布涵蓋機器人控制、感測器模擬、工廠數位孿生場景的開源 Agent 工具集，包括操控技能、任務規劃介面與 Isaac Sim 整合範例，屬正式產品公告。",
+    "highlights": [
+      "官方新聞室發布，來源可信度極高",
+      "工具集針對實體世界互動場景，包含視覺-運動策略、場景理解",
+      "支援與 Isaac Sim 物理引擎深度整合，模擬訓練更真實",
+      "開源許可證與商業使用條款需進一步查閱文件"
+    ],
+    "why_it_matters": "物理 AI 浪潮下，NVIDIA 此舉將加速機器人與自動駕駛領域的 AI Agent 研究與落地，降低入門門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": " robotics 工程師可利用這批工具快速建立模擬環境，用 Foundation Pose 等技能做姿態估計原型驗證。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-05-31-item",
     "title": "模型過度添加律師式免責聲明的行為探討",
     "title_original": "Why does the model keep shortcutting everything into lawyer-style caveats?",
@@ -40382,6 +40608,33 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-06-21-2026-agent-aimultiple",
+    "title": "2026 年五大開源 Agent 框架評測：AIMultiple 年度整理",
+    "title_original": "Top 5 Open-Source Agentic AI Frameworks in 2026 - AIMultiple",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1NR2p3cU1wUktvV19FWUhQY3hSRjhZYks1TmNiTmZ4NkNNcEs0MEJOVEdvYXpRTmdMZTk0VmdJYWltM2gxWXpOamN6VHVFa0UtaXVn?oc=5",
+    "published_at": "2026-03-30T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "AIMultiple 整理 2026 年值得關注的五大開源 Agent 框架，涵蓋架構設計、多 Agent 協作能力與企業落地案例，但內容偏向行銷向，技術深度有限。",
+    "highlights": [
+      "盤點框架包含主流開源選項，適合作為技術雷達掃描起點",
+      "各框架能力對比維度包括：規劃、記憶、工具調用、容錯機制",
+      "文章提供基礎應用場景建議，但缺乏 benchmark 數據支撐",
+      "多為摘要性質，有興趣的讀者需自行深入各專案文件"
+    ],
+    "why_it_matters": "作為快速了解 2026 年開源 Agent 框架生態的地圖文，但不可作為技術選型依據，需交叉驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於每季一次的開源 Agent 工具雷達掃描，篩選有潛力整合進自己工作流程的框架候選。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-11-20-ai-agent-microsoft-crewai-langgraph",
     "title": "20+ AI Agent 建構工具全景評測：Microsoft、CrewAI、LangGraph 深度比較",
     "title_original": "20+ AI Agent Builders: Microsoft, CrewAI, LangGraph and More - AIMultiple",
@@ -43873,6 +44126,33 @@
     "automation_angle_zh": "等待官方完整技術文件後，可透過 Ollama 或 vLLM 快速部署測試，評估其推論速度與任務準確度是否滿足特定自動化需求。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-microsoft-build-2025-ai-agent-agentic-web",
+    "title": "Microsoft Build 2025：AI Agent 時代與開放 Agentic Web 建構藍圖",
+    "title_original": "Microsoft Build 2025: The age of AI agents and building the open agentic web - The Official Microsoft Blog",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdVpFaXladWxsX3pIbENvd053TXpNMVZ1bFNEZUFUZ1lRUG0yaktubWFiWG5JSUNub3ZlT3BFX0VialBfMGVidVQxSVEwWnVmc2owbkxLZHVvSGRhNHdoc3d5ZjZhb1dtOWJVNXJ5TjRCMEtZZUVzYmJZLVh1aTU2SFRCMEpfYVp1aFVjeUR0M0FudXo1QnNMSDYzdGNIZDBxSGYySFpmdXNLN2dORmhvWXZGdFZmUU1BQldQNQ?oc=5",
+    "published_at": "2025-05-19T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "微軟 Build 2025 官方主題演講聚焦 AI Agent 基礎設施、Copilot 延伸生態與 Semantic Kernel 增強功能，宣示從工具走向自主代理的策略方向，但多為方向性宣示。",
+    "highlights": [
+      "Microsoft 正式將 Agent 定位為下一代運算介面核心",
+      "Semantic Kernel 新增多 Agent 協調與長期記憶支援",
+      "Azure AI Agent Service 正式 GA，定價與 SLA 細節待確認",
+      "與 MCP 協作承諾吸引第三方工具生態整合"
+    ],
+    "why_it_matters": "Microsoft 龐大企業用戶基礎意味著其 Agent 平台走向將影響業界標準，技術決策者需持續追蹤。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 Semantic Kernel 範本快速建立內部流程自動化原型，評估與現有 Microsoft 365 工具鏈的整合深度。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
