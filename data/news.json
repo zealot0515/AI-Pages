@@ -1,5 +1,120 @@
 [
   {
+    "id": "2026-06-21-skunit-c-ai-ichatclient-mcp-server",
+    "title": "skunit：C# 語言的 AI 單元測試框架，瞄準 IChatClient 與 MCP Server",
+    "title_original": "mehrandvd/skunit",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mehrandvd/skunit",
+    "published_at": "2026-06-20T23:14:13Z",
+    "category": "agent-skills",
+    "summary": "skunit 是專為 AI 單元設計的測試工具，可測試 IChatClient、MCP Server 與 Agent 行為。採用 C# 開發，GitHub 已有 177 顆星，適合 .NET 生態系技術宅整合進 CI/CD。",
+    "highlights": [
+      "專為 AI 元件設計的測試框架",
+      "支援 IChatClient、MCP Server、Agent 測試",
+      "C# 實現，適合 .NET 生態系",
+      "177 顆星顯示社群興趣可期",
+      "可無痛接入現有 CI/CD 流程"
+    ],
+    "why_it_matters": "AI Agent 品質需要可重複的單元測試，skunit 填補 .NET 生态缺乏專用 AI 測試工具的缺口，能提升 Agent 交付可靠性。",
+    "automation_angle": null,
+    "automation_angle_zh": "在既有 C# 專案中引入 skunit，為每個 MCP Tool 與 Agent 行為編寫回歸測試，防止重構破壞關鍵功能。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/5070766?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-memoryweb-mcp-server",
+    "title": "memoryweb：圖結構記憶 MCP Server，用敘事邊連接知識節點",
+    "title_original": "corbym/memoryweb",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/corbym/memoryweb",
+    "published_at": "2026-06-20T22:35:07Z",
+    "category": "agent-skills",
+    "summary": "memoryweb 是 Go 語言實現的 MCP Server，以圖結構儲存 Agent 記憶，節點間以類型化、具敘事性的邊相連。現僅 11 顆星，但概念新穎，技術宅可評估其圖譜查詢效能。",
+    "highlights": [
+      "圖結構儲存 Agent 長期記憶",
+      "支援敘事型邊關係，超越簡單 KV 儲存",
+      "Go 語言實現，效能可期",
+      "現階段星數低，成熟度待觀察",
+      "可與其他 MCP Server 組合使用"
+    ],
+    "why_it_matters": "Agent 需要超越對話歷史的長期記憶機制，memoryweb 的圖結構提供更具表達力的知識組織方式，值得實驗室環境測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 memoryweb 作為 Agent 背景知識庫，用於追蹤專案上下文、使用者偏好，減少每次請求傳入完整歷史的 Token 消耗。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/21261837?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-cloakbrowser-mcp-playwright-mcp-server-docker",
+    "title": "cloakbrowser-mcp：Playwright 驅動的瀏覽器 MCP Server，支援 Docker",
+    "title_original": "swimmwatch/cloakbrowser-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/swimmwatch/cloakbrowser-mcp",
+    "published_at": "2026-06-20T21:43:24Z",
+    "category": "agent-skills",
+    "summary": "cloakbrowser-mcp 將 Playwright 包裝成 MCP Server，讓 AI Agent 能執行乾淨的瀏覽操作並支援多 Session HTTP 傳輸。提供 Docker 部署選項，降低環境設定門檻。",
+    "highlights": [
+      "基於 Playwright，支援現代網頁互動",
+      "乾淨的工具介面供 Agent 呼叫",
+      "支援多 Session 與 HTTP 傳輸",
+      "提供 Docker 鏡像快速部署",
+      "TypeScript 實作，易於擴展客製化"
+    ],
+    "why_it_matters": "讓 Agent 自主瀏覽、抓取動態內容一直是自動化瓶頸，cloakbrowser-mcp 提供可直接整合的 MCP 介面，省去自行封裝 Playwright 的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "作為 Agent 的網頁操作工具，用於自動化報告資料抓取、競爭情報監控或需要登入互動的後台操作場景。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/18121771?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-gemma-4-26b-a4b",
+    "title": "Gemma 4 26b a4b 被稱為語言學習與科學查詢最佳本地模型",
+    "title_original": "Gemma 4 26b a4b is genuinely the best model I have tried for language learning and scientific queries!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ub4ods/gemma_4_26b_a4b_is_genuinely_the_best_model_i/",
+    "published_at": "2026-06-20T19:05:43+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 網友表示 Google Gemma 4 26b a4b 採用 a4b 量化版本，在語言學習與科學查詢任務上表現超越其他模型。該模型支援本地部署，硬體需求相對親民，但此說法來自社群主觀體驗，缺乏第三方基準測試驗證，技術用戶應實際測試後再下結論。",
+    "highlights": [
+      "Gemma 4 26b a4b 為量化版本，理論上可在中等硬體上本地運行",
+      "社群用戶反映在語言學習任務上效果優於其他開源模型",
+      "科學查詢能力獲得正面評價，具體領域未說明",
+      "缺少獨立基準測試與官方效能數據支撐",
+      "Reddit 單一來源為主，需多方驗證"
+    ],
+    "why_it_matters": "開源模型若能在本地運行且達到高水準語言學習與科學任務能力，將大幅降低 AI 使用成本，並提升資料隱私。技術宅應評估其是否符合實際需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 GGUF 格式的 Gemma 4 26b 模型，在本地部署後測試其語言學習與科學查詢的實際表現，作為自動化工作流程程的替代方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-20-item",
     "title": "每個格子都是一個智能體的棋盤系統",
     "title_original": "Board where every tile is an agent",
