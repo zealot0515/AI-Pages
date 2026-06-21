@@ -1,5 +1,146 @@
 [
   {
+    "id": "2026-06-21-auxilia-web-mcp-mcp",
+    "title": "auxilia：輕量級 Web MCP 用戶端，專注遠端 MCP 伺服器",
+    "title_original": "keurcien/auxilia",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/keurcien/auxilia",
+    "published_at": "2026-06-21T12:28:43Z",
+    "category": "agent-skills",
+    "summary": "auxilia 是一款極簡的 Web MCP 用戶端，僅支援連接遠端 MCP 伺服器，無本地部署功能。專案使用 Python 開發，目前僅 12 顆星，屬早期實驗性質工具，適合想快速測試遠端 MCP 串接的技術用戶。",
+    "highlights": [
+      "輕量化設計，僅支援遠端 MCP 伺服器連接",
+      "使用 Python 開發，技術棧簡單",
+      "現階段星數極少（12），屬早期專案",
+      "可用於快速測試 MCP 協定與遠端服務整合",
+      "不支援本地 MCP 部署，使用場景受限"
+    ],
+    "why_it_matters": "對於需要輕量入口串接遠端 MCP 伺服器的用戶，auxilia 提供了最小化依賴的方案，但穩定性需自行評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其作為快速原型工具，測試 MCP 協定整合是否適用於自己的遠端服務場景，再決定是否自建更完整的方案。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/11570911?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-reddit-opencode-bug",
+    "title": "Reddit 玩家回報 OpenCode 本地模型出現思考循環 bug",
+    "title_original": "Thinking loop bug in OpenCode with local model?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubnen1/thinking_loop_bug_in_opencode_with_local_model/",
+    "published_at": "2026-06-21T11:12:40+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶在 LocalLLaMA 社群回報 OpenCode 搭配本地模型時，出現思考迴圈（thinking loop）問題，模型似乎陷入重複推論而無法正常輸出結果。該 bug 可能與本地模型的思考 Chain-of-Thought 實作或 token 產生機制有關。",
+    "highlights": [
+      "用戶反映 OpenCode 在呼叫本地模型時陷入思考迴圈",
+      "懷疑是本地模型思考鏈（CoT）實作與工具呼叫框架不相容",
+      "目前尚無官方修復或社群共識解法",
+      "問題嚴重程度視模型而定，可能與 temperature、top_p 參數相關",
+      "Reddit 回覆中有人建議改用特定系統 prompt 緩解"
+    ],
+    "why_it_matters": "若 OpenCode 工具鏈在本地部署場景有系統性 bug，會影響技術開發者將 coding agent 本地化的意願，需優先確認是否為特定模型或通用問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可先在本地部署的 Qwen2.5-Coder 或 DeepSeek-Coder 上重現此 bug，若確認可回報社群並貢獻 patch 或 workaround。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-agent-agents-md-claude-md-llms-txt",
+    "title": "整理常見 Agent 設定檔使用現況：AGENTS.md、CLAUDE.md、llms.txt 等",
+    "title_original": "I mapped every agent config file (AGENTS.md, CLAUDE.md, llms.txt, .cursorrules, SKILL.md...) and tagged how widely each is actually used",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubm702/i_mapped_every_agent_config_file_agentsmd/",
+    "published_at": "2026-06-21T10:01:16+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 社群整理了各類 Agent 設定檔（AGENTS.md、CLAUDE.md、llms.txt、.cursorrules、SKILL.md 等）的採用現況，歸納各格式在真實專案中的使用頻率與適用場景，屬社群觀察而非官方標準。",
+    "highlights": [
+      "盤點多種 Agent 設定檔格式的實際使用情形",
+      "歸納各格式的適用場景與限制",
+      "反映當前 Agent 配置生態的碎片化現象",
+      "有助開發者選擇適合自己工作流程的配置方式",
+      "非官方標準，資料來源為社群樣本統計"
+    ],
+    "why_it_matters": "了解各設定檔的實際採用情況，可幫助技術用戶選擇更被社群認可的配置方式，減少踩坑機會。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考整理結果選擇專案採用的 config 格式，統一團隊的 Agent 行為定義，提升協作效率與可維護性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-llm",
+    "title": "研究：觀察本地 LLM 如何逃脫設計的安全邊界",
+    "title_original": "Watch local LLMs escape the rooms you design",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ublvag/watch_local_llms_escape_the_rooms_you_design/",
+    "published_at": "2026-06-21T09:41:07+00:00",
+    "category": "hot-topics",
+    "summary": "研究社群持續關注本地部署 LLM 的安全邊界測試，透過設計隔離房間（sandbox）觀察模型是否能突破預設限制執行未授權操作。此類研究對理解本地模型對齊程度及安全部署有重要參考價值。",
+    "highlights": [
+      "屬於 AI 安全領域的紅隊測試（red teaming）研究",
+      "測試目標為本地部署而非 API 呼叫的模型",
+      "關注點在於模型對抗 prompt injection 的韌性",
+      "結果可幫助開發者設計更嚴謹的本地部署安全策略",
+      "類似研究包括 NeMo Guardrails 開源工具"
+    ],
+    "why_it_matters": "本地 LLM 安全問題直接影響企業敏感資料處理場景，技術決策者需了解模型對齊極限，避免將高風險任務託管給未充分測試的本地模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 llama-stack 或 LM-Eval 框架自建安全測試集，定期對部署的本地模型進行對齊基準測試，評估逃逸風險後再決定適用場景。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-glm-5-2-deepswe-gemini-gpt-5-4-token",
+    "title": "GLM-5.2 在 DeepSWE 基準擊敗 Gemini 與 GPT-5.4，但 token 消耗過高？",
+    "title_original": "GLM-5.2 benchmarked on DeepSWE: Beats Gemini & GPT-5.4, but the token volume/cost makes it wildly inefficient? (Theo - t3.gg)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubll9u/glm52_benchmarked_on_deepswe_beats_gemini_gpt54/",
+    "published_at": "2026-06-21T09:23:51+00:00",
+    "category": "new-models",
+    "summary": "社群討論指出 GLM-5.2 在 DeepSWE 程式碼基準測試中擊敗 Gemini 與 GPT-5.4，但有聲音認為其 token 消耗過高導致成本效益不佳。此為社群解讀Benchmark結果，需注意 benchmark 只反映特定任務表現，不代表整體能力。",
+    "highlights": [
+      "GLM-5.2 在 DeepSWE 任務上顯示出競爭力",
+      "有社群聲音質疑其 token 消耗與成本效益",
+      "Benchmark 結果僅反映特定任務，非全能評估",
+      "可作為 GLM-5.2 程式碼能力參考，但需結合實際場景測試",
+      "性價比評估需等官方定價與更全面的 benchmark 數據"
+    ],
+    "why_it_matters": "GLM-5.2 的程式碼能力值得關注，但 token 消耗與成本的實際CP值需待官方定價公開後才能準確評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 GLM-5.2 在本機或 API 測試實際程式碼任務表現，與現有方案比較輸出品質與 token 消耗比例。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-21-js-reverse-mcp-ai-agent-js-mcp-server",
     "title": "js-reverse-mcp：專為 AI Agent 設計的 JS 逆向 MCP Server",
     "title_original": "zhizhuodemao/js-reverse-mcp",
