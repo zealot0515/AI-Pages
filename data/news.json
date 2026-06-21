@@ -1,5 +1,253 @@
 [
   {
+    "id": "2026-06-21-js-reverse-mcp-ai-agent-js-mcp-server",
+    "title": "js-reverse-mcp：專為 AI Agent 設計的 JS 逆向 MCP Server",
+    "title_original": "zhizhuodemao/js-reverse-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/zhizhuodemao/js-reverse-mcp",
+    "published_at": "2026-06-21T07:31:43Z",
+    "category": "agent-skills",
+    "summary": "基於 chrome-devtools-mcp 重構的 JavaScript 逆向 MCP Server，提供 Agent 優先的工具設計與內建反偵測能力，目前已在 GitHub 獲得近 2000 Star。",
+    "highlights": [
+      "基於 chrome-devtools-mcp 重構，降低維護負擔",
+      "內建反偵測機制，適合需要繞過瀏覽器檢測的場景",
+      "專為 AI Agent 調用設計，接口易於整合",
+      "已有社群驗證，Star 數接近 2000"
+    ],
+    "why_it_matters": "對於需要自動化網頁操作的 Agent 工作流程，此專案提供開箱即用的 JS 逆向工具，能快速接入現有 MCP 生態，省去自建底層爬蟲的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 js-reverse-mcp 與你的 Agent 整合，用於自動填表、頁面巡檢或需要模擬瀏覽器操作的場景，節省自建底層工具的開發成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/47770924?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-21-scryer-ai",
+    "title": "Scryer：讓 AI 編碼代理共享責任模型的開發框架",
+    "title_original": "aklos/scryer",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aklos/scryer",
+    "published_at": "2026-06-21T07:29:01Z",
+    "category": "agent-skills",
+    "summary": "Scryer 是一款以 Rust 實作、強調模型驅動開發的開源工具。其核心理念是讓人類開發者與 AI 代理在一份共享的責任模型上共同規劃程式碼變更，代理可透過內建的 MCP 伺服器直接讀取、修改與實作計畫，適合追求可控 AI 程式碼生成的技術團隊。",
+    "highlights": [
+      "以 Rust 實作，提供高效的執行效能與記憶體安全保證",
+      "內建 MCP 伺服器，支援主流 AI 代理直接對接",
+      "支援在共享責任模型上規劃程式碼變更，提升變更可追溯性",
+      "67 個 GitHub 星標，社群關注度尚在早期階段",
+      "強調人類與 AI 代理的協作責任分配，而非純自動生成"
+    ],
+    "why_it_matters": "傳統 AI 程式碼生成常缺乏變更邏輯的可追蹤性，Scryer 嘗試在代理執行前建立結構化的規劃層，讓開發者能審核代理的修改意圖，降低錯誤合併的風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可將 Scryer 整合至現有的 CI/CD 流程，測試其是否能幫助自動生成符合團隊架構規範的程式碼變更，並評估 MCP 伺服器與自有代理系統的相容性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/8189043?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-frontagent-ai-coding-agent",
+    "title": "FrontAgent：面向前端工程的 AI Coding Agent 平台",
+    "title_original": "FrontAgent/FrontAgent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/FrontAgent/FrontAgent",
+    "published_at": "2026-06-21T06:24:12Z",
+    "category": "agent-skills",
+    "summary": "FrontAgent 是一款整合 CLI、VS Code 插件、桌面端與 MCP 服務的前端 AI Coding 平台，支援 RAG 規劃、SDD Guardrails、瀏覽器自動化與 LoRA 規劃模型。",
+    "highlights": [
+      "多端支援：CLI、VS Code 插件、桌面應用",
+      "MCP 服務與 RAG 規劃提升上下文準確度",
+      "SDD Guardrails 提供安全護欄，防止模型輸出失控",
+      "LoRA 規劃模型有助針對前端任務微調"
+    ],
+    "why_it_matters": "前端工程師若想用 AI 自動化日常開發，FrontAgent 提供了從寫碼到部署的一體化 Agent 框架，SDD 與 LoRA 組合可提升任務可控性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可安裝 VS Code 插件試用，讓 FrontAgent 輔助重構、除錯或生成前端元件，觀察其 MCP 服務能否無縫接入現有工具鏈。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/289151598?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-iofficeai-aionhub-agent-mcp",
+    "title": "iOfficeAI/AionHub：Agent 技能與 MCP 擴展中心",
+    "title_original": "iOfficeAI/AionHub",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/iOfficeAI/AionHub",
+    "published_at": "2026-06-21T05:16:35Z",
+    "category": "agent-skills",
+    "summary": "AionHub 是 AionUI 的擴展中心，收錄 Agent、Skills、Assistants、MCP 等多類型插件，提供統一管理介面，屬於較新的開源專案，Star 數尚低。",
+    "highlights": [
+      "收錄 Agent、Skills、Assistants、MCP 多類型資源",
+      "統一入口簡化插件管理與發現流程",
+      "作為 AionUI 生態的擴展中心，有一定整合潛力",
+      "目前 Star 數偏低，社群成熟度有待觀察"
+    ],
+    "why_it_matters": "若你使用 AionUI 或需要一個匯集 MCP 資源的入口，AionHub 可減少搜尋與整合成本；但目前聲量有限，需持續關注其生態發展。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 AionHub 作為探索新 MCP 工具的起點，若找到符合需求的插件再深入評估與自己工作流程的相容性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/145246968?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-allenai-molmomotion",
+    "title": "AllenAI 開源 MolmoMotion：根據少量影格預測未來動作的視覺模型",
+    "title_original": "AllenAI releases MolmoMotion vision models for predicting future motion based on short frame history",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubgj8j/allenai_releases_molmomotion_vision_models_for/",
+    "published_at": "2026-06-21T04:26:18+00:00",
+    "category": "open-source-ai",
+    "summary": "AllenAI 發布 MolmoMotion 系列視覺模型，專注於根據短暫的歷史影格序列預測物體或場景的未來運動軌跡。該模型適用於影片理解、機器人動作規劃及智慧監控等需要時序推論的場景，目前已在社群引發討論。",
+    "highlights": [
+      "基於短影格歷史預測未來運動軌跡，屬於時序預測類模型",
+      "可用於影片分析、機器人動作規劃、智慧監控等應用",
+      "由 AllenAI 發布，具有機構信用背書",
+      "目前資訊源自 Reddit 社群討論，尚未有完整技術論文或官方文件"
+    ],
+    "why_it_matters": "動作預測是機器人自動化的關鍵能力之一，若 MolmoMotion 能以較低計算資源達到合理精度，可成為本地部署的替代方案，降低對雲端 API 的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可關注其 GitHub 或 Hugging Face 頁面（如有釋出），測試在自有的影片資料集上的預測準確率，評估是否能整合至自動化控制系統中。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-supralabs-any2any",
+    "title": "SupraLabs 推出 Any2Any 模型家族：一站式任意格式轉換",
+    "title_original": "[NEW MODEL] SupraLabs started the Any2Any model family!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubfmnx/new_model_supralabs_started_the_any2any_model/",
+    "published_at": "2026-06-21T03:37:45+00:00",
+    "category": "new-models",
+    "summary": "SupraLabs 宣布啟動 Any2Any 模型家族，目標是支援任意格式之間的轉換（如文字、圖像、音訊等多模態內容）。此類 универсальная 模型若能穩定實作，可大幅簡化多模態流水線的建構難度，但目前詳細能力邊界尚待驗證。",
+    "highlights": [
+      "瞄準任意格式轉換的多模態模型家族",
+      "潛在應用場景涵蓋內容處理流水線、跨格式翻譯等",
+      "目前資訊來自社群公告，缺乏詳細技術規格與 benchmark",
+      "若能力屬實，可減少工程師拼接多個模型的成本"
+    ],
+    "why_it_matters": "多模態轉換是 AI 應用開發中的痛點，若 Any2Any 能以單一模型覆蓋多格式轉換，可簡化系統架構並降低維護複雜度，值得技術團隊持續關注其實際表現。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可在模型正式釋出後，設計一個跨格式測試集（如圖→文、文→音訊），評估其轉換品質與延遲是否能替代現有的多步驟流水線。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-rtx-6000-pro",
+    "title": "RTX 6000 Pro 上最佳圖像視覺模型實測比較",
+    "title_original": "Best image vision model runnable on RTX 6000 Pro",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubdpta/best_image_vision_model_runnable_on_rtx_6000_pro/",
+    "published_at": "2026-06-21T01:58:21+00:00",
+    "category": "hot-topics",
+    "summary": "社群成員分享在 NVIDIA RTX 6000 Ada 專業卡上測試各類開源視覺模型的表現比較，涵蓋影像分類、物體偵測與語義分割等任務。討論聚焦於推論速度與精度的平衡，為需要在專業 GPU 上本地部署視覺 AI 的技術人員提供實務參考。",
+    "highlights": [
+      "RTX 6000 Ada 具備大視訊記憶體，適合部署大型視覺模型",
+      "社群實測比較不同模型的效能與精度取捨",
+      "涵蓋影像分類、物體偵測、語義分割等常見任務",
+      "可作為專業視覺任務本地部署的硬體性價比參考"
+    ],
+    "why_it_matters": "對於需要處理大量圖像資料且對延遲敏感的自動化流程（如工廠質檢或文件掃描），選擇 RTX 6000 Pro 上性價比最高的視覺模型，可直接影響系統的實際產出效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可根據社群比較結果，在自有資料集上測試候選模型，選擇最符合延遲與精度需求的方案，並評估是否值得投資此等級專業 GPU。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-ai",
+    "title": "當 AI 廠商停止補貼訂閱，會發生什麼？",
+    "title_original": "What happens when they stop subsidizing LLM subscriptions?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubbj6n/what_happens_when_they_stop_subsidizing_llm/",
+    "published_at": "2026-06-21T00:08:25+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 社群熱烈討論當大型 AI 廠商取消訂閱補貼後，終端用戶可能面臨的價格變化與市場影響。討論指出目前多數訂閱制服務存在交叉補貼現象，若補貼退場，API 與訂閱價格可能大幅調整，使用者需提前評估成本結構。",
+    "highlights": [
+      "多數 AI 訂閱服務目前存在補貼機制以吸引用戶",
+      "一旦補貼取消，月費與 API 調用成本可能顯著上升",
+      "對企業用戶而言，需重新審視 AI 工具的總持有成本（TCO）",
+      "社群討論，缺乏官方定價政策的正式公告"
+    ],
+    "why_it_matters": "若補貼退場潮來臨，依賴低價 AI 訂閱的自動化工作流程將面臨成本上升壓力，技術決策者應提前建立成本敏感度分析與替代方案評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可利用此時機審計現有的 AI 工具使用量與成本，測試開源或本地模型的替換可行性，確保在定價變動時擁有備選方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-21-noema-atlas",
+    "title": "Noema Atlas：去中心化模型分發的新嘗試",
+    "title_original": "It’s time to decentralize model distribution! Introducing Noema Atlas",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubasxo/its_time_to_decentralize_model_distribution/",
+    "published_at": "2026-06-20T23:33:24+00:00",
+    "category": "open-source-ai",
+    "summary": "Noema 推出 Atlas 計畫，主打去中心化的模型分發機制，旨在打破傳統集中式模型托管的高成本與單點故障風險。透過分散式節點網路，使用者可更靈活地存取與部署 AI 模型，適合對資料主權有需求的開發者。",
+    "highlights": [
+      "去中心化節點網路分發模型，降低對單一托管平台的依賴",
+      "可能提升模型存取的彈性與資料主權保障",
+      "目前資訊來自 Reddit 社群，尚未有詳細技術文件",
+      "適合對資料隱私與部署彈性有高需求的技術團隊"
+    ],
+    "why_it_matters": "集中式模型托管存在成本高、易受監管影響的風險，若去中心化分發成熟，可為技術團隊提供更自主的模型部署選擇，降低供應商鎖定效應。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可關注 Atlas 的節點部署說明，評估是否能以自架節點方式參與網路，並測試模型下載速度與穩定性是否滿足自動化流水線需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-21-skunit-c-ai-ichatclient-mcp-server",
     "title": "skunit：C# 語言的 AI 單元測試框架，瞄準 IChatClient 與 MCP Server",
     "title_original": "mehrandvd/skunit",
