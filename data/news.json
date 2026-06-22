@@ -1,5 +1,34 @@
 [
   {
+    "id": "2026-06-22-headroom-ai-60-95-token",
+    "title": "headroom：AI代理輸出壓縮工具，節省60-95% Token",
+    "title_original": "headroomlabs-ai/headroom",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/headroomlabs-ai/headroom",
+    "published_at": "2026-06-22T05:57:31Z",
+    "category": "agent-skills",
+    "summary": "可將工具輸出、日誌、檔案、RAG切片壓縮後送入LLM，號稱減少60-95% Token同時保持答案品質，支援Library、Proxy、MCP Server模式。",
+    "highlights": [
+      "壓縮幅度60-95%，直接降低API呼叫成本",
+      "支援Library、Proxy、MCP Server三種部署模式",
+      "處理工具輸出、日誌、檔案、RAG切片等多元輸入",
+      "Python實作，GitHub星標45,490社群認可高",
+      "開源可審計，技術人員可直接測試驗證效果"
+    ],
+    "why_it_matters": "直接減少AI工具使用成本與延遲，與LLM互動頻繁的代理工作流程可因此獲得顯著效益，開源特性利於評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "將headroom整合進現有代理管道作為中介層，先對所有外部輸出做壓縮再送入LLM，實測節省幅度再決定是否全面採用。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/294291659?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-22-gephi-ai-ai-mcp",
     "title": "Gephi-AI：將圖論分析能力橋接 AI 助理的 MCP 插件",
     "title_original": "MattArtzAnthro/gephi-ai",
