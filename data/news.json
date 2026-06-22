@@ -1,5 +1,262 @@
 [
   {
+    "id": "2026-06-22-agent-manager-mcp-ai-agent",
+    "title": "Agent_Manager：MCP 伺服器與 AI Agent 跨平台管理工具",
+    "title_original": "Zafer-Liu/Agent_Manager",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Zafer-Liu/Agent_Manager",
+    "published_at": "2026-06-22T13:48:19Z",
+    "category": "agent-skills",
+    "summary": "TypeScript 開發的跨平台桌面應用，專門管理 AI Agent 與 MCP Server。支援本機 MCP 工具啟動、Agent 生命週期管理、配置檔視覺化編輯。星數達 161，社群接受度高，可立即下載試用。",
+    "highlights": [
+      "跨平台桌面介面（Electron/Tauri），支援 Windows/macOS/Linux",
+      "統一管理多個 MCP Server 的啟停與配置",
+      "Agent 生命週期管理：建立、監控、終止",
+      "設定檔視覺化編輯，降低指令列操作門檻",
+      "161 stars 顯示有一定社群採用，穩定性較佳"
+    ],
+    "why_it_matters": "隨著 MCP 生態快速擴展，開發者需要在本地管理多個 MCP Server 與 Agent 实例。此工具提供圖形化介面簡化繁瑣的指令列操作，讓技術宅能更專注於工作流程設計而非環境除錯。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用此工具統一管理本機開發環境中的所有 MCP Server，透過視覺化介面快速切換不同 Agent 組合，加速日常開發與測試迭代。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/273271302?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-22-8gb-vram-prompter-coder-vram",
+    "title": "8GB VRAM也能自動分流：小型Prompter配大型Coder的VRAM交換工具",
+    "title_original": "I Built a tool to stop manually swapping models on my 8GB GPU,chains a small Prompter and a large Coder into one pipeline with automatic VRAM swap",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uckyne/i_built_a_tool_to_stop_manually_swapping_models/",
+    "published_at": "2026-06-22T13:43:21+00:00",
+    "category": "agent-skills",
+    "summary": "開發者構建一套可在8GB顯卡上自動切換模型的流水線工具，小型模型負責提示詞最佳化，大型模型負責程式碼生成，根據任務階段動態載入不同模型以節省VRAM。",
+    "highlights": [
+      "透過Pipeline設計自動管理VRAM資源調度",
+      "小型Prompter模型(約3B)處理意圖識別與提示詞重寫",
+      "大型Coder模型(約7B-13B)專門處理程式碼生成",
+      "支援自動模型卸載與重新載入減少衝突",
+      "開源可用，適合資源受限的開發環境"
+    ],
+    "why_it_matters": "8GB GPU用戶過去難以同時部署多個大模型，此工具讓低顯存設備也能串接不同模型分工，提升推論效率與產出品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "Clone此Repo並配置本地模型路徑，設定自動化腳本處理日常程式碼補全或重構任務，觀察VRAM使用曲線驗證節省效果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-22-agentscan-ai",
+    "title": "AgentScan：AI 協定掃描工具",
+    "title_original": "7anX/AgentScan",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/7anX/AgentScan",
+    "published_at": "2026-06-22T13:42:46Z",
+    "category": "agent-skills",
+    "summary": "Go 語言開發的單一命令列工具，可同時發現網段內暴露的 MCP Server、A2A Agent Card、以及開放的 LLM API。協助開發者審計自身系統的暴露面，防止意外資訊外洩。",
+    "highlights": [
+      "一次掃描三種協定：MCP Server、A2A Agent Card、LLM API",
+      "命令列工具，適合 CI/CD 整合與自動化審計",
+      "協助發現意外暴露的 AI 端點，降低資安風險",
+      "Go 編寫，單一二進制部署簡單",
+      "適用於內網安全審計與合規檢查場景"
+    ],
+    "why_it_matters": "AI 系統的暴露面管理逐漸成為資安焦點。此工具讓技術宅能快速審計部署環境，確認 MCP 與 A2A 端點是否意外公開，是保障 AI 基礎設施安全的第一線工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 AgentScan 整合至部署前 CI 流程，每次部署自動執行掃描，確保無意外暴露的 AI 端點，實現安全合規的自動化審計。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/173973775?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-22-1mcp-app-agent-mcp-server-mcp",
+    "title": "1mcp-app/agent：統一 MCP Server 聚合多個 MCP 服務",
+    "title_original": "1mcp-app/agent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/1mcp-app/agent",
+    "published_at": "2026-06-22T13:41:48Z",
+    "category": "agent-skills",
+    "summary": "開源 TypeScript 專案，用單一 MCP Server 介面聚合多個不同 MCP 服務，簡化 Agent 與多工具對接的設定流程。GitHub 已有 459 星，社群關注度高。",
+    "highlights": [
+      "單一端點暴露多 MCP 能力，降低設定成本",
+      "TypeScript 實作，與現代前端/Node 生態相容",
+      "459 星表示有一定社群採用基礎",
+      "可用於統一管理公司內部的多個 MCP 工具",
+      "減少 Agent 需要維護多個連接的複雜度"
+    ],
+    "why_it_matters": "隨著 MCP 生態擴張，管理多個 MCP Server 變得繁瑣，此專案提供統一接入層，能顯著減少技術人員的配置負擔與出錯機率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將公司內部的多個 MCP 工具（飛書、GitHub、Jira）用此專案聚合，測試是否能以單一 MCP 端點驅動一個能同時操作多系統的 Agent。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/202214283?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-22-vornicx-midas-llm",
+    "title": "vornicx/Midas：攝入階段無需 LLM 的本地記憶系統",
+    "title_original": "vornicx/Midas",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/vornicx/Midas",
+    "published_at": "2026-06-22T13:41:31Z",
+    "category": "agent-skills",
+    "summary": "Python 開源專案，主打 eval-first 設計：攝入記憶時不呼叫 LLM，減少昂貴 Token 消耗。支援可溯源的召回、信念修正、選擇性遺忘，並附帶可重現的 benchmark。",
+    "highlights": [
+      "攝入時不用 LLM，大幅降低記憶儲存成本",
+      "可溯源召回：每次回憶可追蹤到原始事件",
+      "信念修正：允許記憶隨新證據更新",
+      "選擇性遺忘：主動丟棄過時或錯誤記憶",
+      "附 benchmark 可量化評估記憶系統效能"
+    ],
+    "why_it_matters": "長期 Agent 的記憶成本往往是隱性大支出，Midas 在攝入階段砍掉 LLM 呼叫，對需要長時間運行的 Agent 專案有直接的費用影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "用 Midas 替換現有 Agent 中的向量資料庫，測試同一工作流程的記憶精確度與 Token 消耗是否明顯改善。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/278606588?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-22-microscope-memory-ai-agent",
+    "title": "microscope-memory：AI Agent 分層記憶引擎",
+    "title_original": "silentnoisehun/microscope-memory",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/silentnoisehun/microscope-memory",
+    "published_at": "2026-06-22T13:34:20Z",
+    "category": "agent-skills",
+    "summary": "Rust 實作的 9 層級（D0-D8）分層記憶引擎，採用 13 層意識架構，支援 sub-microsecond 查詢延遲。純二進制 mmap + SIMD 加速，排除 JSON 序列化開銷。提供 Spine Bridge REST API 與 MCP Server 雙介面，可直接整合至 AI Agent 工作流程。",
+    "highlights": [
+      "9 層縮放深度（D0-D8）對應不同抽象層級的記憶存取",
+      "13 層意識架構支援長期記憶、情境記憶、工作記憶分層管理",
+      "mmap + SIMD 實現極低延遲，適合對延遲敏感的 Agent 場景",
+      "純二進制儲存無需 JSON 序列化，降低 CPU 開銷",
+      "同時提供 REST API 與 MCP Server 介面，相容性佳"
+    ],
+    "why_it_matters": "記憶管理是 Agent 能力的核心瓶頸。現有方案多以向量資料庫為主，缺乏結構化的多層次記憶抽象。此專案提供一個可實際部署的低延遲記憶基礎設施，技術宅可立即評估其對自身 Agent 架構的提升潛力。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此專案整合至現有 Agent 流程，替換或補充向量檢索記憶層，測試 9 層記憶抽象對任務完成率與延遲的實際影響。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/157921523?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-22-leancodepl-marionette-mcp-ai-agent-flutter-app",
+    "title": "leancodepl/marionette_mcp：讓 AI Agent 操控 Flutter App 運行時",
+    "title_original": "leancodepl/marionette_mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/leancodepl/marionette_mcp",
+    "published_at": "2026-06-22T13:13:52Z",
+    "category": "agent-skills",
+    "summary": "Dart 實作的 MCP Server，可讓 AI Agent 在運行時檢視 Flutter widget、模擬點擊、輸入文字、滾動畫面、截圖。已有 323 星，技術切入點新穎。",
+    "highlights": [
+      "支援運行時操作 Flutter App，非傳統截圖比對",
+      "可檢視 widget 樹結構，精確定位 UI 元素",
+      "模擬點擊、輸入、滾動等互動動作",
+      "適用於自動化 UI 測試與 AI 驅動的操作腳本",
+      "323 星且有 Dart 生態支援，技術可行性高"
+    ],
+    "why_it_matters": "Flutter 已成為跨平台 App 主流框架，能讓 AI 直接操作運行時 App 是自動化測試與 AI Agent 控制移動端的突破點，目前市場上類似工具極少。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將此 MCP Server 整合進自己的 App 測試流程，讓 AI Agent 自動執行 Flutter App 的 UI 驗證，取代手動點擊測試。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Dart"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/33636762?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-22-ddr5-llm",
+    "title": "歐盟DDR5價格持續下跌，德荷價差擴大有利本地LLM部署",
+    "title_original": "been tracking EU DDR5 data for 25 days: Prices are dropping, and the DE vs. NL gap is wild (good news for local LLM builders in EU)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ucixz9/been_tracking_eu_ddr5_data_for_25_days_prices_are/",
+    "published_at": "2026-06-22T12:15:55+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit用戶追蹤25天歐盟DDR5記憶體價格走勢，發現整體持續下滑，德國與荷蘭市場出現明顯價差。對想在歐洲自建本地LLM推論環境的技術人員而言記憶體成本壓力正在緩解。",
+    "highlights": [
+      "25天追蹤數據顯示歐盟DDR5均價呈下跌趨勢",
+      "德國與荷蘭出現約15-20%價差，可跨區採購",
+      "64GB套裝記憶體降至2023年中以來低點",
+      "有助降低本地LLM推論伺服器的硬體門檻"
+    ],
+    "why_it_matters": "本地LLM部署最大成本之一是記憶體費用，DDR5降價讓更多人能以較低預算組建16-32GB VRAM的推論機器。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可定期監控Mindfactory、Caseking等歐洲電商DDR5價格，在低點分批採購組建推論工作站。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-22-ling-and-ring-2-6-agent",
+    "title": "Ling and Ring 2.6 技術報告：兆參數級高效 Agent 智慧",
+    "title_original": "Ling and Ring 2.6 Technical Report: Efficient and Instant Agentic Intelligence at Trillion-Parameter Scale",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ucih9e/ling_and_ring_26_technical_report_efficient_and/",
+    "published_at": "2026-06-22T11:53:42+00:00",
+    "category": "new-models",
+    "summary": "Ling and Ring 2.6 技術報告提出兆參數規模下的高效即時 Agent 智慧方案。強調在前沿模型尺寸下保持低延遲推論的架構創新，目標是解決大模型部署的成本與延遲瓶頸。",
+    "highlights": [
+      "兆參數規模的 Agent 智慧架構設計",
+      "強調即時性與效率的平衡",
+      "針對部署成本與延遲瓶頸提出解方",
+      "技術報告形式，無可直接測試的模型或程式碼",
+      "具體技術細節需查閱原文報告"
+    ],
+    "why_it_matters": "兆參數模型的部署成本是業界痛點。若 Ling and Ring 的架構能有效降低延遲與成本，可能影響未來 Agent 系統的模型選擇策略。技術宅應持續追蹤此方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "查閱技術報告原文，評估其提出的架構創新是否適用於自身 Agent 應用場景，並評估可能的實現成本與效益。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-22-headroom-ai-60-95-token",
     "title": "headroom：AI代理輸出壓縮工具，節省60-95% Token",
     "title_original": "headroomlabs-ai/headroom",
@@ -26,6 +283,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/294291659?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-22-reddit",
+    "title": "Reddit 討論：量化模型排行榜需求",
+    "title_original": "Leaderboard for quantized models, similar to artificial analysis?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uc9aw3/leaderboard_for_quantized_models_similar_to/",
+    "published_at": "2026-06-22T03:16:32+00:00",
+    "category": "new-models",
+    "summary": "r/LocalLLaMA 討論區有人提議建立類似 Artificial Analysis 的量化模型排行榜。現有 HuggingFace Open LLM Leaderboard 未針對量化模型優化，缺乏準確的 QAT/PTQ 效能對比資料。討論聚焦於量化方法（GGUF、AWQ、GPTQ）對不同硬體的適用性。",
+    "highlights": [
+      "現有排行榜缺乏量化模型專用評測基準",
+      "不同量化方法（GGUF/AWQ/GPTQ）在各硬體上的表現差異大",
+      "社區需求明確：本地部署用戶需要實用效能參考",
+      "可能催生新的開源評測工具或網站",
+      "純討論階段，無實質專案或資料發布"
+    ],
+    "why_it_matters": "量化是本地部署的核心技術，但缺乏統一的效能參考讓選型困難。此討論反映真實需求，若有技術宅率先建立評測框架，可搶佔此領域的開源貢獻與影響力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可參與討論或自行建立自動化評測腳本，整合常用量化模型與硬體組合的效能基準，為社群填補此缺口。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -141,6 +426,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/135627235?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-22-llm",
+    "title": "本地LLM推論優化完整指南：從量化到推論引擎實戰攻略",
+    "title_original": "Local LLM Inference Optimization: The Complete Guide",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uc3wg9/local_llm_inference_optimization_the_complete/",
+    "published_at": "2026-06-21T23:01:17+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit社群整理本地LLM推論優化的完整技術指南，涵蓋量化技術選擇、推論引擎比較、KV Cache優化、批量推論策略等實用技巧，適合想榨乾硬體效能的開發者參考。",
+    "highlights": [
+      "涵蓋GGUF/GGML量化格式選擇與精度取捨",
+      "比較llama.cpp、vLLM、ExLlamaV2等推論引擎特性",
+      "詳述KV Cache配置與上下文長度取捨",
+      "提供批量推論的吞吐量提升實測數據",
+      "包含Prompt Caching與Speculative Decoding介紹"
+    ],
+    "why_it_matters": "同一硬體經過優化後可提升2-5倍吞吐量，直接降低每次推論的時間成本與能耗，是本地部署的必備知識。",
+    "automation_angle": null,
+    "automation_angle_zh": "依指南逐步測試不同量化等級與引擎組合，用lm-evaluation-harness或自建Benchmark評估延遲與品質平衡，找出最優配置。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
