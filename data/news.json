@@ -1,5 +1,174 @@
 [
   {
+    "id": "2026-06-22-roku-dev-studio-mcp-roku",
+    "title": "roku-dev-studio：含 MCP 伺服器的 Roku 跨平台開發工具",
+    "title_original": "paramount-engineering/roku-dev-studio",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/paramount-engineering/roku-dev-studio",
+    "published_at": "2026-06-22T19:01:27Z",
+    "category": "agent-skills",
+    "summary": "基於 Electron 的跨平台桌面工具，專為 Roku 開發者設計。整合遠端控制、裝置查詢、側載、telnet 主控台、BrightScript Fiddle，並內建 MCP 伺服器供 AI 代理呼叫。",
+    "highlights": [
+      "Electron 跨平台桌面應用程式",
+      "內建 MCP 伺服器供 AI 代理使用",
+      "BrightScript Fiddle 整合",
+      "提供 rds CLI 工具",
+      "支援網際網路轉發與 RALE/App Connector"
+    ],
+    "why_it_matters": "將 Roku 開發工具鏈統一，並透過 MCP 讓 AI 代理能直接操作 Roku 裝置，提升自動化測試與部署能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "讓 AI 代理透過 MCP 介面自動執行 Roku 應用的側載、測試與部署流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/103594807?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-22-best-of-agent-harnesses-100-ai",
+    "title": "best-of-Agent-Harnesses：收錄 100+ AI 代理框架的排名列表",
+    "title_original": "RyanAlberts/best-of-Agent-Harnesses",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/RyanAlberts/best-of-Agent-Harnesses",
+    "published_at": "2026-06-22T18:44:23Z",
+    "category": "open-source-ai",
+    "summary": "整理收錄超過 100 個 AI 代理框架，按實用性重新評估並排名。每週更新，含 llms.txt 和 JSON 格式，方便開發者快速比較和選擇適合的框架。",
+    "highlights": [
+      "收錄超過 100 個 AI 代理框架",
+      "每週重新評分排名",
+      "提供 llms.txt 與 JSON 中繼資料",
+      "MCP 伺服器整合",
+      "可直接推薦給 AI 代理使用"
+    ],
+    "why_it_matters": "節省技術選型時間，讓開發者快速找到符合需求的代理框架，並可自動化比較流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此 repo 的 JSON 資料接入自己的工作流程，自動評估新框架是否符合專案需求。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/25306145?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-22-openmontage-agentic",
+    "title": "OpenMontage：全球首個開源 Agentic 影片製作系統",
+    "title_original": "calesthio/OpenMontage",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/calesthio/OpenMontage",
+    "published_at": "2026-06-22T18:12:02Z",
+    "category": "agent-skills",
+    "summary": "OpenMontage 是一款開源影片製作系統，包含 12 條 Pipeline、52 種工具與 500+ Agent 技能，可將 AI 程式碼助理擴展為完整的影片製作工作室，GitHub 星標已突破 11,000。",
+    "highlights": [
+      "12 條 Pipeline 涵蓋剪輯、後製、配音全流程",
+      "52 種工具支援腳本生成、素材搜尋、特效套用",
+      "500+ Agent 技能可處理細粒度影視任務",
+      "Python 實作，支援自架部署與擴展",
+      "星標破萬，社群關注度極高"
+    ],
+    "why_it_matters": "對於需要大量影片內容的行銷或教育團隊，OpenMontage 可能大幅降低影片製作的人力成本與時間門檻，實現從腳本到成片的端對端自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "可部署為內部影片自動化產線，輸入文案或關鍵字後自動生成行銷短片，或用於批量製作教育培訓影片。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/213189893?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-22-tmax",
+    "title": "TMax：終端代理的簡單配方",
+    "title_original": "TMax: A Simple Recipe for Terminal Agents",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uco0aa/tmax_a_simple_recipe_for_terminal_agents/",
+    "published_at": "2026-06-22T15:38:08+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 討論區分享 TMax 專案，號稱提供簡單方法讓 AI 模型在終端環境中執行代理任務，具體實作細節待驗證。",
+    "highlights": [
+      "終端代理相關專案",
+      "號稱簡化代理實作",
+      "缺乏詳細技術文件",
+      "社群分享性質"
+    ],
+    "why_it_matters": "終端自動化是實用場景，但此資訊來源可信度較低，需進一步查證原始碼。",
+    "automation_angle": null,
+    "automation_angle_zh": "待取得原始碼後評估是否能用於自動化終端操作腳本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-22-github-copilot-jetbrains-ide-claude",
+    "title": "GitHub Copilot 在 JetBrains IDE 新增 Claude 代理程式提供者預覽",
+    "title_original": "New features and Claude as agent provider preview in JetBrains IDEs",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
+    "published_at": "2026-06-22T15:34:00+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 為 JetBrains IDE 引入 Claude 作為代理程式提供者，支援組織和企業代理排程、CLI 對話控制，以及新的代理偵錯日誌摘要視圖，提升開發者對 AI 代理的掌控力。",
+    "highlights": [
+      "支援 GitHub 組織和企業層級的 AI 代理設定",
+      "可排程和引導 Copilot CLI 訊息流",
+      "新增代理程式偵錯日誌摘要檢視",
+      "Claude 作為代理程式提供者加入",
+      "增強 IDE 內的代理程式管理能力"
+    ],
+    "why_it_matters": "開發者能在熟悉的 JetBrains IDE 中直接管理 Claude 代理，配合組織政策使用，提升團隊協作與除錯效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用 IDE 內的代理排程功能，自動化重複的程式碼任務，減少手動操作。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-22-item",
+    "title": "相同模型、相同提示詞：四個不同代理的表現差異",
+    "title_original": "Same model, same prompt, 4 different agents",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ucmndc/same_model_same_prompt_4_different_agents/",
+    "published_at": "2026-06-22T14:49:05+00:00",
+    "category": "new-models",
+    "summary": "Reddit 討論區有使用者測試同一模型與提示詞在不同代理框架下的表現，發現結果存在顯著差異，顯示代理框架對輸出品質影響重大。",
+    "highlights": [
+      "同一模型在不同代理框架表現各異",
+      "代理框架選擇影響最終輸出",
+      "實驗性測試，缺乏嚴謹對照",
+      "社群驅動的經驗分享"
+    ],
+    "why_it_matters": "提醒技術人員：模型選擇只是起點，代理框架的設計同樣關鍵，需實測驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "在選擇代理框架前，先用同一模型與提示詞在不同框架中進行對比測試。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-22-agent-manager-mcp-ai-agent",
     "title": "Agent_Manager：MCP 伺服器與 AI Agent 跨平台管理工具",
     "title_original": "Zafer-Liu/Agent_Manager",
@@ -257,6 +426,62 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-22-openai-patch-the-planet-daybreak",
+    "title": "OpenAI Patch the Planet：Daybreak 計畫資助開源維護者修補漏洞",
+    "title_original": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/patch-the-planet",
+    "published_at": "2026-06-22T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 推出 Patch the Planet 計畫，隸屬 Daybreak 專案，旨在透過 AI 輔助與專家審查，幫助開源維護者發現、修補並驗證安全漏洞，減輕維護者的負擔。",
+    "highlights": [
+      "結合 AI 自動化與人工專家雙重審查",
+      "目標對象為開源專案維護者",
+      "聚焦安全性漏洞的發現與修補流程",
+      "屬於 OpenAI 社群回饋與聲譽建設計畫",
+      "可能為 AI 安全工具鏈提供新範式"
+    ],
+    "why_it_matters": "若 Patch the Planet 成效顯著，可能催生 AI 驅動的開源安全審計工具鏈，為企業級 AI 部署提供更可信賴的開源元件生態。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注計畫成果與開源工具的發布，可評估其安全掃描能力是否可整合進 CI/CD 流程，提升專案依賴項目的安全性審查效率。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-22-openai-daybreak-codex-security-gpt-5-5-cyber",
+    "title": "OpenAI Daybreak：Codex Security 與 GPT-5.5-Cyber 安全工具",
+    "title_original": "Daybreak: Tools for securing every organization in the world",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/daybreak-securing-the-world",
+    "published_at": "2026-06-22T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 推出 Daybreak 安全工具組，包含 Codex Security 與 GPT-5.5-Cyber，協助組織大規模發現、驗證並修補資安漏洞。",
+    "highlights": [
+      "Codex Security 漏洞掃描工具",
+      "GPT-5.5-Cyber 網路安全模型",
+      "大規模漏洞發現與驗證",
+      "協助修補安全性問題",
+      "瞄準企業資安需求"
+    ],
+    "why_it_matters": "AI 安全能力正從理論走向產品化，開發者應關注此趨勢對未來開發流程的影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估 Codex Security 是否能整合進 CI/CD 流程，自動化安全掃描環節。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-22-headroom-ai-60-95-token",
     "title": "headroom：AI代理輸出壓縮工具，節省60-95% Token",
     "title_original": "headroomlabs-ai/headroom",
@@ -340,6 +565,34 @@
       "Java"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/56270051?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-22-openai-codex-jason-liu",
+    "title": "OpenAI Codex 長期任務實踐：Jason Liu 的工作流程分享",
+    "title_original": "Codex-maxxing for long-running work",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/codex-maxxing-long-running-work",
+    "published_at": "2026-06-22T00:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "OpenAI 官方部落格收錄 Jason Liu 的 Codex 使用案例，展示如何透過上下文維護、複雜專案管理與跨提示連續性，讓 Codex 在長時工作任務中保持效率與一致性。",
+    "highlights": [
+      "強調 Codex 的上下文維護能力",
+      "展示管理複雜、多階段專案的技巧",
+      "探討突破單次提示限制的實作方法",
+      "為 OpenAI 官方技術部落格內容",
+      "可借鑒其工作流程設計提升 Agent 穩定性"
+    ],
+    "why_it_matters": "理解 Codex 如何處理長時任務的上下文斷裂問題，有助技術人員在設計自主 Agent 時避免常見的狀態丟失與幻覺風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考其 Pipeline 設計模式，評估是否可移植到自己的 Codex API 應用中，針對需要數小時或跨天執行的任務建立健壯的上下文管理機制。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
