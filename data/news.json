@@ -1,5 +1,90 @@
 [
   {
+    "id": "2026-06-23-agent-browser-mcp-server-go",
+    "title": "agent-browser：輕量級瀏覽器自動化 MCP Server（Go 實作）",
+    "title_original": "dondai1234/agent-browser",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/dondai1234/agent-browser",
+    "published_at": "2026-06-23T00:17:48Z",
+    "category": "agent-skills",
+    "summary": "GitHub 新興專案 agent-browser 是一款基於 Go + chromedp 的 MCP Server，專為 AI Agent 提供瀏覽器自動化能力，單一二進位檔案、無需 Node/Playwright 依賴，支援隱身模式與增量快照。",
+    "highlights": [
+      "使用 Go 語言實作，單一二進位檔部署簡單",
+      "基於 chromedp，無需額外 Node 運行環境",
+      "支援隱身瀏覽模式避免網站偵測",
+      "Delta 快照減少截圖/畫面傳輸大小",
+      "作為 MCP Server 可與主流 Agent 框架整合"
+    ],
+    "why_it_matters": "相較於 Playwright 方案，agent-browser 的輕量化與 Go 部署便利性可能成為本地 Agent 專案的首選瀏覽器自動化引擎，降低維護複雜度。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 binary 啟動 MCP Server，測試與 Cursor/Cline 的 MCP 整合，評估其截圖穩定性與網站登入場景的可用性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/220873966?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-23-item",
+    "title": "提示詞注入漏洞：研究揭示模型「角色混淆」根本缺陷",
+    "title_original": "Prompt Injection as Role Confusion",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
+    "published_at": "2026-06-22T23:59:53+00:00",
+    "category": "hot-topics",
+    "summary": "學術研究證實當前大型語言模型無法有效區分自身特權文字與使用者輸入。攻擊者只需模仿模型的內部思維風格（如<think>標籤格式），就能繞過安全政策。實驗顯示「去風格化」技巧可使攻擊成功率從61%暴跌至10%，證明模型對文字形式的重視程度遠超內容本身。",
+    "highlights": [
+      "模型將文字「風格」置於「內容」之前，造成根本性安全漏洞",
+      "模仿<think>等角色標籤格式可有效混淆模型判斷",
+      "「去風格化」（去除特定格式特徵）可將攻擊成功率從61%降至10%",
+      "單純依賴角色標籤隔離無法建立可信的信任邊界",
+      "研究者認為在模型達成真正的角色認知前，注入防禦將是持續的「打地鼠」遊戲"
+    ],
+    "why_it_matters": "此研究揭示了當前LLM安全架構的核心缺陷：模型缺乏真正的角色認知能力。對於開發AI Agent或自動化工作流程的技术人員而言，這意味著任何依賴角色標籤隔離的防禦機制都可能存在漏洞。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可建立測試集，故意用不同風格重寫提示詞注入樣本，觀察模型輸出差異，據此評估自家系統對此類攻擊的脆弱程度，並將「去風格化」作為輸入清理的前置過濾步驟。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-23-simon-willison-claude-code-moebius-0-2b",
+    "title": "Simon Willison 用 Claude Code 將 Moebius 0.2B 圖像修補模型移植至瀏覽器",
+    "title_original": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything",
+    "published_at": "2026-06-22T23:43:51+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 分享使用 Claude Code 將 Moebius 0.2B 圖像修補模型（原本需 PyTorch + CUDA）成功移植到 WebGPU 瀏覽器端，含完整技術細節、ONNX 轉換流程與 CacheStorage 快取策略。",
+    "highlights": [
+      "Moebius 為 0.2B 參數的輕量級圖像修補模型",
+      "成功用 ONNX + WebGPU 在瀏覽器運行 1.3GB 模型",
+      "Claude Code 完成了 ONNX 轉換、HuggingFace 發布、網頁部署",
+      "CacheStorage API 解決大型模型權重的瀏覽器快取問題",
+      "Chrome、Firefox、Safari 均已支援 WebGPU"
+    ],
+    "why_it_matters": "此案例證明 Claude Opus 4.8 已具備端到端的模型移植能力，包括跨框架轉換、後端部署與效能優化，為 AI 工程師提供參考範式。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考 simonw.github.io/moebius-web/ 的實作，用 Claude Code 將其他 PyTorch 模型（如 U^2-Net）依樣移植到瀏覽器，評估模型大小與推論速度的取捨。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-06-22-roku-dev-studio-mcp-roku",
     "title": "roku-dev-studio：含 MCP 伺服器的 Roku 跨平台開發工具",
     "title_original": "paramount-engineering/roku-dev-studio",
