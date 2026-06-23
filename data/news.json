@@ -1,5 +1,146 @@
 [
   {
+    "id": "2026-06-23-ui5-mcp-server-ui5-mcp",
+    "title": "UI5/mcp-server：為 UI5 框架打造的 MCP 協定伺服器",
+    "title_original": "UI5/mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/UI5/mcp-server",
+    "published_at": "2026-06-23T07:09:23Z",
+    "category": "agent-skills",
+    "summary": "UI5 MCP Server 是專為 SAP UI5 框架設計的 MCP（Model Context Protocol）伺服器實作，目標是提升開發者使用 Agentic AI 工具時與 UI5 框架的協作體驗。專案以 TypeScript 編寫，目前 GitHub 星標數約 89 顆。",
+    "highlights": [
+      "專為 UI5 框架優化的 MCP 協定實作",
+      "改善 Agent 與 UI5 框架的整合開發體驗",
+      "TypeScript 編寫，適合前端/全端開發者",
+      "處於早期階段，功能完整性待驗證",
+      "可直接 Fork 或提 PR 參與貢獻"
+    ],
+    "why_it_matters": "對使用 SAP UI5 框架的企業或技術團隊而言，該專案有望簡化 AI 助理介入 UI5 開發的流程，提升 Agent 驅動開發的可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "前端或全端工程師可將其部署在本地 MCP 環境中，測試 AI 助理對 UI5 元件自動生成與修改的輔助能力。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6333374?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-23-llm",
+    "title": "如何向用戶證明 LLM 應用不收集資料？隱私信任機制探討",
+    "title_original": "How do I prove that I don't collect data from my llm app?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ud9j4k/how_do_i_prove_that_i_dont_collect_data_from_my/",
+    "published_at": "2026-06-23T06:41:44+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 有開發者提問，如何向使用其 LLM 應用的用戶證明不存在資料收集行為。討論方向包括：提供開源自託管版本讓用戶自行審查、實施可驗證的隱私聲明、采用聯邦學習或本地處理架構、以及引入第三方安全審計。核心挑戰在於多數用戶缺乏技術能力驗證隱私聲明，需要建立可操作的信任機制。",
+    "highlights": [
+      "開源自託管版本是最直接的隱私證明方式",
+      "本地處理（資料不離開設備）可消除用戶疑慮",
+      "第三方安全審計報告可增加可信度",
+      "用戶教育與技術門檻是推廣隱私保護的障礙",
+      "差分隱私、聯邦學習等技術可在保護隱私下仍收集到訓練資訊"
+    ],
+    "why_it_matters": "隱私信任是 LLM 應用能否被企業與敏感行業採用的關鍵。技術人員若能提供可驗證的隱私保護機制，將大幅提升產品的競爭力與合規性，特別適合面向醫療、金融等高隱私需求場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可評估將關鍵 LLM 處理流程改為本地執行，並提供開源版本供用戶審查，同時建立清晰的隱私白皮書與第三方審計報告，作為自動化部署時的信任基礎。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-23-qwen-3-5-4b-9b-agent-sft-rl",
+    "title": "Qwen 3.5 4B/9B Agent 多工具調用：SFT 先行還是直接上 RL？",
+    "title_original": "Training a Qwen 3.5 4B/9B agent for multi-tool use: SFT first or go directly to RL?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ud8opg/training_a_qwen_35_4b9b_agent_for_multitool_use/",
+    "published_at": "2026-06-23T05:53:41+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論區有開發者提問，在訓練 Qwen 3.5 4B/9B 小型模型擔任 Agent 角色並執行多工具任務時，應該先做監督式微調（SFT）建立基礎能力，還是直接進入強化學習（RL）階段。討論者認為小模型容量有限，SFT 可幫助模型先學會基本工具呼叫模式，RL 則適合在有基礎後探索更複雜決策策略，但也有觀點指出 RL 訓練成本高且對獎勵函數設計要求嚴格。",
+    "highlights": [
+      "Qwen 3.5 4B/9B 屬於可本地部署的小型模型，適合資源受限場景",
+      "SFT 可提供明確的工具呼叫範例，幫助小模型建立基本行為模式",
+      "直接 RL 需要設計複雜獎勵函數，小模型可能難以穩定收斂",
+      "混合式方法（先 SFT 後 RL）是目前社群較推薦的流程",
+      "工具呼叫格式（如 JSON schema）的設計會顯著影響訓練效果"
+    ],
+    "why_it_matters": "小模型 Agent 訓練是本地部署自動化的核心議題。選對訓練策略可大幅降低微調成本，並提升模型在工具呼叫任務上的穩定性，對希望自建自動化工作流程的技術人員具有直接參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可先使用開源工具呼叫資料集對 Qwen 3.5 做 SFT，建立基本工具使用能力後，再評估是否需要引入 RL 進一步最佳化，而非盲目嘗試高成本訓練流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-23-minimax-m3-eagle3-gguf-llama-cpp-minimax-m3",
+    "title": "MiniMax-M3-EAGLE3-GGUF：Llama.cpp 相容的 MiniMax M3 草稿模型",
+    "title_original": "MiniMax-M3-EAGLE3-GGUF - Llama.cpp compatible MiniMax M3 EAGLE draft model!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ud6bct/minimaxm3eagle3gguf_llamacpp_compatible_minimax/",
+    "published_at": "2026-06-23T03:49:23+00:00",
+    "category": "open-source-ai",
+    "summary": "社群愛好者將 MiniMax M3 的 EAGLE3 草稿加速模型封裝為 GGUF 格式，使其能在 Llama.cpp 環境中本地運行。這代表用戶可在無 GPU 的高效 CPU 環境下嘗試 MiniMax M3 系列的推論加速能力。",
+    "highlights": [
+      "EAGLE3 草稿模型轉換為 GGUF 格式",
+      "支援 Llama.cpp 本地推論引擎",
+      "可在高效能 CPU 環境運行，無需昂貴 GPU",
+      "屬於社群非官方轉換，穩定性未經官方驗證",
+      "對本地部署興趣者有較高參考價值"
+    ],
+    "why_it_matters": "GGUF 格式大幅降低了本地部署門檻，讓更多技術用戶能以低成本體驗 MiniMax M3 系列模型，推動開源生態與商業模型的交叉探索。",
+    "automation_angle": null,
+    "automation_angle_zh": "用戶可在本地使用 Ollama 或 Llama.cpp 載入該 GGUF 模型，用於文書草稿加速、聊天機器人等場景的離線測試。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-23-boogu-base-turbo-edit",
+    "title": "Boogu 系列：開源統一圖像生成與編輯模型（Base / Turbo / Edit）",
+    "title_original": "Boogu Base, Turbo, Edit - open-source unified image generation and editing model series",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ud5ody/boogu_base_turbo_edit_opensource_unified_image/",
+    "published_at": "2026-06-23T03:17:39+00:00",
+    "category": "open-source-ai",
+    "summary": "Boogu 是開源統一圖像生成與編輯模型系列，包含 Base、Turbo、Edit 三個版本，支援從頭生成與局部編輯能力。模型開源，社群正積極討論其與主流閉源產品的表現差異。",
+    "highlights": [
+      "包含 Base、Turbo、Edit 三種型號",
+      "支援圖像生成與局部編輯的統一框架",
+      "開源許可，可本地部署",
+      "目前缺乏官方文件，性能對比資料有限",
+      "Reddit 討論熱度顯示社群關注度高"
+    ],
+    "why_it_matters": "開源圖像模型若能在生成與編輯上同時達到可用水位，將為創意工作者提供免費、本地化的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可從 GitHub 或 Hugging Face 下載模型，評估其能否替代現有圖像生成工具（如 DALL-E、Stable Diffusion）用於自動化行銷素材生成。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-23-agent-browser-mcp-server-go",
     "title": "agent-browser：輕量級瀏覽器自動化 MCP Server（Go 實作）",
     "title_original": "dondai1234/agent-browser",
@@ -26,6 +167,34 @@
       "Go"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/220873966?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-23-fast-context",
+    "title": "微軟開源專案 Fast Context 引發討論：長上下文處理新方案？",
+    "title_original": "Why is NO one talking about Microsoft's open source Fast Context!!!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ud1lro/why_is_no_one_talking_about_microsofts_open/",
+    "published_at": "2026-06-23T00:11:05+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 有用戶驚呼為何微軟的開源專案 Fast Context 乏人問津。該專案似乎主打快速上下文處理能力，旨在最佳化大型語言模型在處理長文本時的效率與資源消耗。討論者推測此工具可能涉及上下文壓縮、稀疏注意力機制或智慧快取等技術，但詳細技術規格尚未完全明朗，呼籲更多開發者關注與實測。",
+    "highlights": [
+      "Fast Context 為微軟開源專案，專注上下文處理效率",
+      "可能涉及長上下文壓縮或稀疏注意力相關技術",
+      "目前社群討論熱度低，但開發者認為有潛力",
+      "開源屬性意味著可本地部署測試",
+      "具體效能數據與 benchmark 尚未充分公開"
+    ],
+    "why_it_matters": "長上下文處理是當前 LLM 應用的痛點之一，若 Fast Context 真能有效降低上下文處理成本與延遲，將對需要處理長文件的本地部署場景有顯著幫助，值得技術人員關注後續發展。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可持續追蹤 Fast Context 的 GitHub 專案頁面，待正式 Release 後第一時間部署測試，評估其在本地文件處理自動化流程中的實際加速效果。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
