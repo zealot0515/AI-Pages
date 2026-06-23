@@ -1,5 +1,204 @@
 [
   {
+    "id": "2026-06-23-ibm-research-cuga-24",
+    "title": "IBM Research 開源 CUGA 框架：24 個可跑代理應用範例",
+    "title_original": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+    "published_at": "2026-06-23T12:51:55+00:00",
+    "category": "open-source-ai",
+    "summary": "IBM Research 在 Hugging Face 發布 CUGA（Composable Unified Grid Agent）框架，提供輕量級代理開發支架，內含 24 個可執行的代理應用範例，涵蓋程式碼生成、資料檢索、任務規劃等場景。框架強調模組化與可組合性，降低代理應用開發門檻。",
+    "highlights": [
+      "提供 24 個可直接測試的代理應用範例",
+      "支援多種代理模式：規劃、反思、工具調用",
+      "輕量級支架設計，減少開發樣板程式碼",
+      "可與現有 LangChain、AutoGen 生態整合",
+      "Hugging Face 官方博客發布，品質有一定保障"
+    ],
+    "why_it_matters": "代理應用開發常面臨範例不足、架構選型困難的問題。CUGA 提供實戰範例庫，讓開發者能快速原型驗證代理設計，加速從概念到可部署系統的過程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可下載 CUGA 範例，依需求修改工具定義與提示模板，快速建構自動化流程代理，如自動文件生成、資料分析Pipeline等。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-23-charles-mcp-charles-proxy-ai-agent",
+    "title": "Charles-mcp：將 Charles Proxy 化身為 AI Agent 可操控的流量分析工具",
+    "title_original": "heizaheiza/Charles-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/heizaheiza/Charles-mcp",
+    "published_at": "2026-06-23T12:49:23Z",
+    "category": "agent-skills",
+    "summary": "Python 實作的 MCP Server，讓 AI Agent 能以結構化方式呼叫 Charles Proxy 的即時抓包、流量分析與互動功能。提供 Agent 友好的 Tool Contract，降低手動操作代理伺服器的門檻。星標 264，屬新興工具但概念獨特。",
+    "highlights": [
+      "將 Charles Proxy 核心功能 MCP 化，Agent 可直接驅動",
+      "支援 live capture 與結構化流量分析輸出",
+      "Tool Contract 設計降低 Agent 解析門檻",
+      "可用於除錯、測試與安全分析等自動化場景",
+      "星標量低，建議先做 POC 驗證穩定性"
+    ],
+    "why_it_matters": "對需要 Agent 在複雜網路環境下進行除錯、介接第三方 API 或執行自動化安全測試的開發者，Charles-mcp 提供了一個將傳統桌面工具 AI 化的捷徑。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立一個「API 端點健康檢查」Agent：讓 Agent 自動啟動 Charles 抓包，針對目標 API 發送請求並解析回應結構，快速發現格式差異或認證問題，節省人工除錯時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/152326633?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-23-claude-code-ultimate-guide-claude-code-430k",
+    "title": "claude-code-ultimate-guide：目前最完整的 Claude Code 實戰手冊，430K+ 行內容",
+    "title_original": "FlorianBruniaux/claude-code-ultimate-guide",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
+    "published_at": "2026-06-23T12:44:34Z",
+    "category": "agent-skills",
+    "summary": "GitHub 星標 5,174 的 Claude Code 終極指南，收錄 Agent 工作流程、Hooks、Skills、MCP Server 設定、生產級模板與測驗內容。以 Python 為主，是目前市面上最全面的 Claude Code 實作參考，適合想深度掌握 Anthropic Claude 在開發環境中潛力的技術用戶。",
+    "highlights": [
+      "涵蓋 Agentic Workflow 設計模式與實作細節",
+      "提供 MCP Server 整合範例，可直接改造用於自建專案",
+      "包含多個生產級模板，可降低自架 Claude Code 助理的啟動成本",
+      "星標量 5,174，社群驗證度高",
+      "Python 為主，與多數開發工具鏈相容"
+    ],
+    "why_it_matters": "Claude Code 作為開發者最強 Agent 工具之一，此指南將原本需要大量試錯的設定過程文件化，可直接節省技術團隊的評測與落地時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "取用指南中的 MCP Server 模板，快速為 Claude Code 接入自定義工具（如公司內部 API），並用其中的 Hooks 範例實作 CI/CD 觸發的自動化程式碼審查流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3902606?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-23-cpu-tts-kokoro-82m-supertonic-3-inflect-nano-v1",
+    "title": "CPU 專用 TTS 基準測試：Kokoro 82M、Supertonic 3、Inflect-Nano-v1 實測對比",
+    "title_original": "CPU-only TTS benchmark: Kokoro 82M vs Supertonic 3 vs Inflect-Nano-v1 (4.6M params), with UTMOS scoring on every sample",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1udg3rf/cpuonly_tts_benchmark_kokoro_82m_vs_supertonic_3/",
+    "published_at": "2026-06-23T12:43:05+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社區發布 CPU 專用文字轉語音（TTS）模型基準測試，比較 Kokoro 82M、Supertonic 3 與極輕量 Inflect-Nano-v1（僅 4.6M 參數）三款模型，並以 UTMOS 評分標準對每個樣本進行客觀品質量化，為無 GPU 的本地部署場景提供實用參考數據。",
+    "highlights": [
+      "Kokoro 82M 為最大參數量模型，預期語音品質較高但資源消耗相對大",
+      "Inflect-Nano-v1 僅 4.6M 參數，為極端輕量選擇，適合邊緣裝置或嵌入式系統",
+      "Supertonic 3 居於兩者之間，代表中等規模的平衡選項",
+      "UTMOS 為標準化 TTS 品質評估框架，可跨模型進行公平比較",
+      "全部測試在純 CPU 環境執行，模擬無獨立顯示卡的常見部署情境"
+    ],
+    "why_it_matters": "對技術使用者而言，CPU-only TTS 意味著可在無 GPU 的伺服器、筆電或樹莓派等設備上部署語音合成服務，大幅降低部署成本與門檻，而 UTMOS 基準分數提供了選擇合適模型的可量化依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可根據 UTMOS 評分與參數量關係圖，選擇符合延遲/品質需求的模型，並整合進自動化客服、無障礙閱讀或語音通知系統，評估時可下載各模型自行測試實際合成效果。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-23-linkedin-mcp-server-mcp-server-ai-agent-linkedin",
+    "title": "linkedin-mcp-server：開源 MCP Server 讓 AI Agent 直接操作 LinkedIn 個人檔案與職缺",
+    "title_original": "stickerdaniel/linkedin-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/stickerdaniel/linkedin-mcp-server",
+    "published_at": "2026-06-23T12:33:04Z",
+    "category": "agent-skills",
+    "summary": "GitHub 星標 2,485 的開源專案，提供標準化 MCP 介面讓 Claude 或任何 MCP 兼容 AI Agent 存取 LinkedIn 個人檔案、公司資訊、職缺列表與訊息功能。Python 實作，可脫離瀏覽器直接以 API 方式驅動 LinkedIn 操作。",
+    "highlights": [
+      "標準 MCP 協定，與 Claude Desktop、Cursor Agent 等無縫整合",
+      "支援 profiles、companies、jobs、messages 四大核心端點",
+      "星標量 2,485，社群接受度高且持續活躍",
+      "繞過手動操作，適合批量招聘過濾與外展自動化",
+      "需注意 LinkedIn ToS 限制，商業用途有合規風險"
+    ],
+    "why_it_matters": "對招募、工程師社群運營或 B2B 銷售團隊而言，能以 Agent 自動過濾 LinkedIn 候選人或客戶資料，大幅降低人肉爬蟲與重複性查詢的時間成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "串接此 MCP Server 至 Claude Code，建立「每日候選人摘要」Agent：自動抓取符合關鍵字的新職缺並生成興趣候選人列表，以結構化格式輸出供人類快速決策。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/63877413?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-23-reddit-llm",
+    "title": "Reddit 討論：可複用的本地 LLM 長時運行工作流程設計",
+    "title_original": "Reusable workflows for long running local llms",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uddxsr/reusable_workflows_for_long_running_local_llms/",
+    "published_at": "2026-06-23T10:58:54+00:00",
+    "category": "open-source-ai",
+    "summary": "r/LocalLLaMA 社群討論長期運行本地 LLM 的工作流程設計模式，包括容器化部署、健康檢查、斷點重啟、資源调度等實務問題，分享多個社群成員的實踐經驗與脚本。",
+    "highlights": [
+      "探討 Docker/K8s 部署長時任務的最佳實踐",
+      "分享 Ollama、LM Studio 等工具的進階用法",
+      "討論 GPU 記憶體管理與量化模型選擇",
+      "涵蓋錯誤處理與自動重試機制設計",
+      "社群驅動，方案多樣但未經系統驗證"
+    ],
+    "why_it_matters": "本地部署 LLM 的穩定性與運維問題是技術宅痛點。該討論整理實務坑點與解法，對正在搭建本地 AI 服務的團隊有參考價值，但需自行驗證適用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "選取討論中驗證過的脚本，改寫後用於自定義的本地推論服務，例如自動備份對話狀態、設定 GPU 排程規則，實現 24/7 穩定運行。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-23-v100-4-tesla-128g",
+    "title": "硬體交易帖：V100 4 卡伺服器與 Tesla 128G 配置行情",
+    "title_original": "V100 4-card AI large model, Tesla 128G server",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1udd8a9/v100_4card_ai_large_model_tesla_128g_server/",
+    "published_at": "2026-06-23T10:19:19+00:00",
+    "category": "ai-deals",
+    "summary": "Reddit 帖子討論二手 V100 4-GPU 伺服器與 Tesla 128G 配置的市場行情，包含價格區間、採購風險（如翻新卡、功耗）、適用場景分析，屬於硬體交易資訊而非 AI 模型/工具動態。",
+    "highlights": [
+      "V100 4 卡伺服器市場價格參考",
+      "Tesla 與消費級 GPU 的採購風險比較",
+      "功耗與散熱基礎評估",
+      "資訊來源為社群自發分享，未經第三方驗證",
+      "屬於硬體層面，非 AI 能力或工具進展"
+    ],
+    "why_it_matters": "對於有本地訓練需求但預算有限的團隊，硬體行情資訊有一定參考價值，但準確性依賴賣家誠信，且 AI 模型能力快速進步可能降低對高端硬體的需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "結合自身推論/訓練需求評估硬體投資是否合算；若純做推論，量化模型 + 中端 GPU 可能性價比更高。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-23-ui5-mcp-server-ui5-mcp",
     "title": "UI5/mcp-server：為 UI5 框架打造的 MCP 協定伺服器",
     "title_original": "UI5/mcp-server",
@@ -196,6 +395,62 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-23-omio-openai",
+    "title": "Omio 旅遊平台用 OpenAI 建構對話式旅遊體驗",
+    "title_original": "How Omio is building the future of conversational travel",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/omio",
+    "published_at": "2026-06-23T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "旅遊搜尋平台 Omio 分享如何將 OpenAI 模型整合至產品核心，實現自然語言航班與交通比較、行程推薦、異常處理等對話場景。案例強調 AI 原生轉型策略與產品迭代速度提升。",
+    "highlights": [
+      "對話式介面支援多國語言即時比較交通選項",
+      "模型用於意圖識別、語義理解與動態回應生成",
+      "AI 輔助後產品上線週期明顯縮短",
+      "涉及 OpenAI API 深度整合，非簡單聊天機器人",
+      "屬於企業級生產部署案例"
+    ],
+    "why_it_matters": "Omio 是大型生產系統接入 LLM 的參照架構，展示如何將 AI 能力嵌入核心業務流程，而非僅作為輔助功能，對評估企業級 AI 落地有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "工程師可研究其 API 整合模式與 Prompt 工程策略，借鑒用於自家的對話式產品（如客服機器人、内部工具），評估 GPT-4o 等模型的多模態能力是否能替代部分現有方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-23-hugging-face-ci-cd-huggingface-hub-ai",
+    "title": "Hugging Face 內部 CI/CD 曝光：每週發布 huggingface_hub 背後的 AI 流程",
+    "title_original": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+    "published_at": "2026-06-23T00:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 團隊揭露 huggingface_hub 庫每週發布流程：AI 輔助程式碼審查、自動化測試、人類把關環節相結合。強調開源工具鏈與 AI 助理的協作模式，實現高速迭代同時維持品質。",
+    "highlights": [
+      "每週定時發布循環依賴 AI + 人工審核",
+      "程式碼審查環節引入 LLM 輔助建議",
+      "測試覆蓋率與回歸測試高度自動化",
+      "開源內部工程實踐，供社群參考借鑒",
+      "展示大型開源專案維護的高效協作模型"
+    ],
+    "why_it_matters": "對於維護開源專案或内部工具鏈的團隊，HF 的實踐提供可參照的工程化模板，展示如何用 AI 加速 Code Review 而非取代人類把關。",
+    "automation_angle": null,
+    "automation_angle_zh": "採用類似 Pipeline：先用 Copilot/Code Review AI 跑初審，人類 Developer 專注架構决策與安全性審查，可將 Code Review 效率提升 30-50%。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-06-23-item",
@@ -848,6 +1103,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-23-pr-openclaw-repo",
+    "title": "本地模型免費跑 PR 分流：OpenClaw 開源 Repo 實戰經驗",
+    "title_original": "We got local models to triage the OpenClaw repo for FREE!*",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/local-models-pr-triage",
+    "published_at": "2026-06-22T00:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Hugging Face 技術團隊分享如何用本地部署的開源模型（如 Llama、Mistral 系列）自動分流 OpenClaw Repo 的 Pull Request，按類型（Bug、功能請求、文件）與緊急程度分類，零 API 成本實現開發工作流程自動化。",
+    "highlights": [
+      "完全使用本地模型，無需付費 API",
+      "PR 分類準確率達生產級別（具體數據文中未披露）",
+      "可擴展至其他開源 Repo 的 Issue/PR 管理",
+      "Workflow 開源，可 Fork 自定義規則",
+      "節省維護者審閱低優先級 PR 的時間"
+    ],
+    "why_it_matters": "開源專案維護者常被大量 PR 淹沒。本地模型分流方案提供免費、離線可用的替代方案，降低對商業 API 的依賴，讓小團隊也能實現智慧化工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "Fork 該 workflow，替換成自家 Repo 的分類標籤與緊急度規則，即可為任何 GitHub 專案部署 PR/Issue 自動分流，每天省下 30 分鐘以上的審閱時間。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-06-22-ctxo-mcp-ai",
