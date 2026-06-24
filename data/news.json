@@ -1,5 +1,338 @@
 [
   {
+    "id": "2026-06-24-llm-github-ai",
+    "title": "求職者大量使用 LLM 撰寫履歷，GitHub 專案也疑遭 AI 生成",
+    "title_original": "Quoting Tom MacWright",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
+    "published_at": "2026-06-24T18:13:51+00:00",
+    "category": "hot-topics",
+    "summary": "開發者 Tom MacWright 觀察到近期求職者履歷、作品集網站及 GitHub 專案的 commit messages 都疑似由 LLM 生成，讓他難以判斷候選人真實能力，認為這些「完美化、生成化」的履歷反而缺乏個人特色與真實性，無法作為評估依據。",
+    "highlights": [
+      "求職者履歷、作品集網站、GitHub 專案皆疑遭 LLM 生成",
+      "LLM 生成內容趨向通用化，缺乏個人特質",
+      "開發者反映此趨勢難以評估候選人實際能力",
+      "此現象反映 AI 工具門檻降低後的副作用"
+    ],
+    "why_it_matters": "對技術面試官而言，辨識候選人真實能力變得更困難，也需要新的評估方式來確認程式碼能力與實際貢獻，而非依賴表面文件。",
+    "automation_angle": null,
+    "automation_angle_zh": "面試時可加入即時程式解題或限時實作測試，避免依賴文件審查。亦可關注能驗證程式碼貢獻真實性的工具（如 git blame 分析、貢獻度統計）。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-conduit-mcp-gateway-agent-90",
+    "title": "Conduit：本地 MCP Gateway，號稱降低 Agent 代幣開銷約 90%",
+    "title_original": "tsouth89/conduit",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tsouth89/conduit",
+    "published_at": "2026-06-24T17:59:42Z",
+    "category": "agent-skills",
+    "summary": "Conduit 是 Rust 寫的本地 MCP（Model Context Protocol）閘道器，可將每個 MCP Server 的工具集統一收斂為 3 個元工具，讓 Agent 按需搜尋呼叫。官方宣稱可節省 97% 的每請求代幣量，且金鑰存於 OS Keychain，無需雲端。Stars 目前僅 30，仍屬早期專案。",
+    "highlights": [
+      "Rust 語言實現效能佳",
+      "將多個 MCP Server 工具統一抽象成 3 個元工具",
+      "官方宣稱降低代幣開銷約 90-97%",
+      "金鑰存在本地 OS Keychain，不依賴雲端",
+      "目前 Stars 低（30），成熟度待驗證"
+    ],
+    "why_it_matters": "若代幣節省數據屬實，Conduit 可大幅降低使用 MCP 工具的成本；但早期專案、樣本量小的情況下需實際測試驗證，不宜直接用於生產環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可 Clone 專案在本地跑測試，比對使用 Conduit 前後的實際代幣消耗，評估是否值得將其整合進自己的 Agent 工具鏈。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/258147599?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-khoj-ai-khoj-ai-agent",
+    "title": "khoj-ai/khoj：開源自托管 AI 第二大腦，支援自訂 Agent 與深度研究",
+    "title_original": "khoj-ai/khoj",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/khoj-ai/khoj",
+    "published_at": "2026-06-24T17:48:39Z",
+    "category": "agent-skills",
+    "summary": "Khoj 是一款開源 AI 助理，主打自托管的個人知識庫與第二大腦功能。可從網路或本地文件回答問題、構建自訂 Agent、排程自動化任務，並支援 GPT、Claude、Gemini、Llama、Qwen、Mistral 等主流模型。GitHub 星數達 35,282，社群活躍度高。",
+    "highlights": [
+      "開源自托管，部署在自己機器或伺服器",
+      "支援主流模型：GPT、Claude、Gemini、Llama、Qwen、Mistral",
+      "可對本地文件進行 RAG 問答",
+      "自訂 Agent 與排程自動化功能",
+      "35K+ Stars，社群支援與文件相對完善"
+    ],
+    "why_it_matters": "對於重視資料隱私又想使用強大 LLM 能力的技術使用者，Khoj 提供了無需訂閱商業服務的自托管方案，可直接提升個人知識管理效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可將 Khoj 部署在本地伺服器，接入自己的工作文件庫，實現文件自動摘要、會議記錄問答或定時主動總結等自動化任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/134046886?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-vllm-llama-cpp",
+    "title": "社群討論：vLLM 輸出品質是否明顯低於 llama.cpp",
+    "title_original": "Has anyone else found vLLM outputs noticeably worse than llama.cpp for the same model?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uejklg/has_anyone_else_found_vllm_outputs_noticeably/",
+    "published_at": "2026-06-24T17:12:40+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶反映在同一模型下，vLLM 的輸出品質顯著差於 llama.cpp，引發熱議。討論指向 vLLM 在特定任務（如數學推導、程式碼生成）上可能存在偏差或幻覺問題。",
+    "highlights": [
+      "同一模型下 vLLM 輸出品質爭議",
+      "數學推導、程式碼生成任務受影響較大",
+      "推測與抽樣策略或記憶體管理相關",
+      "社群正在驗證與對比"
+    ],
+    "why_it_matters": "vLLM 是生產環境主流選擇，若存在系統性偏差將影響大量部署，需社區盡快驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "團隊若使用 vLLM 部署重要任務，建議新增 llama.cpp 比對測試，確認輸出穩定性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-sipp-llama-cpp",
+    "title": "Sipp - 基於 llama.cpp 的瀏覽器內推論開源函式庫",
+    "title_original": "Sipp - an open-source library for in-browser inference built on llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ueilqc/sipp_an_opensource_library_for_inbrowser/",
+    "published_at": "2026-06-24T16:37:34+00:00",
+    "category": "open-source-ai",
+    "summary": "Sipp 是將 llama.cpp 移植至瀏覽器環境的開源函式庫，透過 WebAssembly 實現完全前端推論。開發者可在不離開瀏覽器的情況下執行 LLMs，目前支援多款主流模型。此技術為隱私敏感的本地 AI 應用提供新選項。",
+    "highlights": [
+      "基於 llama.cpp 完全移植到瀏覽器環境",
+      "使用 WebAssembly 實現高效推論",
+      "支援多種主流開源模型",
+      "完全前端運行，無需後端伺服器"
+    ],
+    "why_it_matters": "瀏覽器內推論突破隱私限制，讓敏感資料不離開用戶端，為本地 AI 應用開闢新可能性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可整合 Sipp 開發純前端的 AI 客服或文件處理工具，完全在瀏覽器內完成推論流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-gemini-3-5-flash",
+    "title": "Gemini 3.5 Flash 新增電腦操作能力",
+    "title_original": "Introducing computer use in Gemini 3.5 Flash",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+    "published_at": "2026-06-24T16:30:01+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 宣布 Gemini 3.5 Flash 支援電腦操作功能，模型可理解螢幕截圖、操控滑鼠游標、輸入文字。這代表 AI 從純文字生成進化至可直接操作 GUI 介面，為自動化工作流程程開闢新可能。",
+    "highlights": [
+      "支援螢幕截圖理解與視覺解析",
+      "可模擬滑鼠點擊、拖曳等操作",
+      "能執行多步驟的 GUI 操作序列",
+      "繼承 Flash 系列的低延遲與低成本優勢",
+      "可用於自動測試、資料擷取等場景"
+    ],
+    "why_it_matters": "電腦操作能力讓 AI 可直接操控現有軟體，繞過 API 限制執行自動化任務，是 Agent 發展的重要里程碑。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於自動化網頁測試、批量填寫表單、或從無 API 的系統中擷取資料，大幅擴展自動化邊界。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-24-github-copilot",
+    "title": "GitHub Copilot 免費版與學生版改用自動模型選擇",
+    "title_original": "Changes to model selection for Free and Student plans",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
+    "published_at": "2026-06-24T16:28:36+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布 Copilot Free 與 Student 方案將預設使用自動模型選擇功能，由系統根據任務複雜度動態挑選最適模型。此變更簡化了使用體驗，但使用者將失去明確指定模型的權限。",
+    "highlights": [
+      "免費版使用者無法再自行選擇特定模型",
+      "系統自動根據任務特性選擇模型",
+      "預期可獲得更穩定的輸出品質",
+      "企業版用戶不受影響",
+      "可能影響需要精確控制模型行為的開發者"
+    ],
+    "why_it_matters": "免費用戶的模型控制權被剝奪，若自動選擇邏輯未公開，可能無法預測成本與回應風格，建議評估替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "若依賴 Copilot 特定模型行為編寫自動化腳本，需重新測試以確認自動選擇結果符合預期。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-24-langchain-ai-agent",
+    "title": "LangChain 教你為 AI Agent 構建記憶系統",
+    "title_original": "How to Build Memory into AI Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-to-give-your-agent-memory",
+    "published_at": "2026-06-24T16:11:56+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 部落格發布完整指南，介紹如何為 Agent 系統實作短期與長期記憶機制。包括對話歷史摘要、向量資料庫檢索、以及利用 LangSmith 分析跨對話行為模式。",
+    "highlights": [
+      "短期記憶：對話緩衝區與摘要技術",
+      "長期記憶：向量資料庫檢索實作方式",
+      "LangSmith 用於追蹤 Agent 行為軌跡",
+      "支援跨對話的上下文一致性",
+      "提供程式碼範例可直接整合至現有專案"
+    ],
+    "why_it_matters": "記憶能力是構建真正實用 Agent 的基礎，可讓 AI 累積使用者偏好與任務歷史，避免重複詢問相同資訊。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此記憶框架整合至現有 LangChain Agent，實現諸如「記住使用者偏好的報告格式」等個性化自動化流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-nvidia-nemo-automodel-transformer",
+    "title": "NVIDIA NeMo AutoModel 加速 Transformer 微調",
+    "title_original": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+    "published_at": "2026-06-24T16:00:13+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格詳細介紹 NVIDIA NeMo AutoModel 如何加速 Transformer 微調流程。該工具整合自動超參數搜尋與混合精度訓練，支援多節點分散式訓練，能有效縮短模型調校時間並降低硬體資源消耗。",
+    "highlights": [
+      "整合自動超參數搜尋減少手動調參工作量",
+      "支援混合精度訓練提升計算效率",
+      "可擴展至多節點分散式訓練環境",
+      "與 Hugging Face 生態系深度整合",
+      "特別針對 Transformer 架構優化"
+    ],
+    "why_it_matters": "對於需要快速迭代實驗的 ML 工程師，NeMo AutoModel 可將微調時間從數天縮短至數小時，大幅提升研發效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在 CI/CD 流程中自動化模型微調任務，針對新資料集定期重新訓練模型而不需人工介入參數調整。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-24-glm5-2-gh200-2-5-tok-s-50-tok-s",
+    "title": "GLM5.2 在 GH200 系統上推論速度從 2.5 tok/s 提升至 50+ tok/s",
+    "title_original": "I did some model hacks, and got GLM5.2 from about 2.5 tok/s to >50 tok/s on my GH200 system.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uedlas/i_did_some_model_hacks_and_got_glm52_from_about/",
+    "published_at": "2026-06-24T13:30:36+00:00",
+    "category": "new-models",
+    "summary": "研究者在 GH200 系統上對 GLM5.2 進行優化，透過模型改編（model hacks）技術將推論速度提升約 20 倍。關鍵優化包括 KV cache 調整、量化參數微調及批次處理優化。",
+    "highlights": [
+      "GH200 專屬優化，效能提升 20 倍",
+      "KV cache 配置調整",
+      "量化參數微調",
+      "批次處理優化"
+    ],
+    "why_it_matters": "GH200 這類高頻寬記憶體系統的優化技巧可直接套用，大幅降低部署成本與延遲。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在類似的 H100/GH200 環境中測試這些優化參數，針對自家部署的模型實測加速效果。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-ai",
+    "title": "韓國銀行發布 AI 生產力研究報告",
+    "title_original": "The Bank of Korea just released a report about AI productivity",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uecytz/the_bank_of_korea_just_released_a_report_about_ai/",
+    "published_at": "2026-06-24T13:04:58+00:00",
+    "category": "hot-topics",
+    "summary": "韓國銀行發布官方研究報告，分析 AI 對勞動生產力的影響。研究顯示 AI 採用率與生產力提升呈正相關，但因產業別差異顯著。報告提供數據支援 AI 投資決策。",
+    "highlights": [
+      "韓國央行官方研究報告",
+      "AI 採用率與生產力正相關",
+      "產業別差異顯著",
+      "提供量化數據支援"
+    ],
+    "why_it_matters": "央行級數據為 AI 投資回報提供可信背書，有助於技術團隊向決策者論證 AI 專案價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可引用報告數據向企業決策層論證 AI 自動化專案的 ROI，加速專案批准。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-24-nex-n2-mini-uncensored-heretic",
+    "title": "Nex-N2-Mini-Uncensored-Heretic 開源模型發布",
+    "title_original": "Nex-N2-Mini-Ultra-Uncensored-Heretic Is Out Now, an Agentic Model With Agentic Thinking Now Uncensored With 5/100 Refusals and 0.0020 KLD, Available in Safetensors and GGUF Formats!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uecrk1/nexn2miniultrauncensoredheretic_is_out_now_an/",
+    "published_at": "2026-06-24T12:56:42+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 社區用戶發布一款名為 Nex-N2-Mini-Uncensored-Heretic 的本地運行模型，宣稱具有極低審查率（5/100 拒絕）、提供 GGUF 與 Safetensors 格式。但該模型無官方網站或論文，訊息來源為論壇貼文。",
+    "highlights": [
+      "提供 GGUF 格式支援本地量化部署",
+      "Safetensors 格式確保安全性",
+      "宣稱極低拒絕率可能違反使用政策",
+      "無正式技術文件或基準測試",
+      "Reddit 討論區為唯一消息來源"
+    ],
+    "why_it_matters": "開源社區持續產出無審查模型，但此類模型可靠性與安全性未經驗證，使用前需自行評估風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 GGUF 版本在本地 CPU/GPU 測試，評估其對特定任務的適用性，但需自行承擔合規風險。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-24-qwen-agentworld-35b-a3b",
     "title": "Qwen-AgentWorld-35B-A3B 编程能力評測引發討論",
     "title_original": "Qwen-AgentWorld-35B-A3B for Coding?",
@@ -141,6 +474,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-24-ai-38",
+    "title": "大學生願意為「AI 打工人」每月支付 38 元嗎？",
+    "title_original": "每月38元，你愿意為“AI打工人”付费吗？我们调查了20個大学生｜科技观察 - 新浪网",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdkd1eV83UmJmYTJuUUhnS1VqRXI4M09ZSlVzVTl0Q3NHUENweUVQZkNCLTF6b2lQNTh0Uzc3MU5lb2VKOVlTRmY5Qkc0a04tUkdIMmZWRzZ0dXpGVnpBZDU1SEZoVkxrSHpCcU9BMTZheXdRT2J0VDRSZ045VmF2NFJ5UTR5X2lubHVweTNn?oc=5",
+    "published_at": "2026-06-24T10:58:46+00:00",
+    "category": "ai-deals",
+    "summary": "新浪科技調查顯示，針對大學生受眾的「AI 打工人」服務定價 38 元/月，接受度因功能實用性而異。受訪者最在意任務完成度與回應速度，隱私考量相對較低。",
+    "highlights": [
+      "大學生市場定價接受度調查",
+      "月費 38 元區間具競爭力",
+      "用戶最重視功能實用性",
+      "隱私敏感度相對較低"
+    ],
+    "why_it_matters": "大學生是高意願付費的細分市場，38 元/月顯示低價策略可行，但需明確差異化功能。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者若針對學生族群開發 AI 工作流程程工具，可參考此定價區間預估市場接受度。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-24-qwen3-6-27b-vllm-llama-cpp",
     "title": "Qwen3.6 27B 在 vLLM 表現劣於 llama.cpp 引發效能爭議",
     "title_original": "Qwen3.6 27B more dumb in vLLM compared to llama.cpp",
@@ -268,6 +628,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-openai-broadcom-llm-jalape-o",
+    "title": "OpenAI 與 Broadcom 發表 LLM 優化推論晶片 Jalapeño",
+    "title_original": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+    "published_at": "2026-06-24T06:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 與 Broadcom 共同發表 Jalapeño，一款專為 LLM 推論設計的自訂 AI 晶片，旨在提升推論效能、效率與規模。此晶片瞄準資料中心層級的 AI 基礎設施，不面向一般消費者，短期內不會影響開發者日常使用的 API 成本。",
+    "highlights": [
+      "OpenAI 官方博客發布，資訊來源可靠",
+      "目標是 LLM 推論效能與效率提升",
+      "Broadcom 為晶片合作夥伴",
+      "屬資料中心基礎設施，暫不影響消費者 API 定價",
+      "代表 AI 硬體自研趨勢持續"
+    ],
+    "why_it_matters": "Jalapeño 代表 OpenAI 在基礎設施層的自研能力提升，中長期可能影響模型部署成本與可用性，但短期對一般開發者選用 API 的影響有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "一般開發者可先觀望此晶片的後續 Benchmarks 與部署規劃；若 OpenAI 未來將推論遷移至自研晶片，可能迎來價格調整或新 API 功能。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-06-24-unlimited-ocr-modelscope-3-3b-ocr",
@@ -14416,6 +14804,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-24-ai",
+    "title": "樂天卡攜手三星推出 AI 家電訂閱卡，享訂閱費折扣",
+    "title_original": "乐天卡推出三星AI家电訂閱卡，享受訂閱费折扣 - 亚洲日报",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsWEJ3cWJHRmN3VzRDaVJiaTg3X0htZXppVm1iMVlZTWlBZFQ5Ri1aeGszdWR4bHlwc1M3el9BakU0VjhKRVRXV21aMWxyOUhwZk1ONkNR?oc=5",
+    "published_at": "2026-06-09T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "樂天卡推出三星 AI 家電訂閱卡優惠，持卡訂閱指定三星 AI 家電可享有訂閱費用折扣。這是一項結合金融支付與 AI 家电訂閱服務的促銷合作，主要針對消費者市場。",
+    "highlights": [
+      "樂天卡與三星合作推出聯名訂閱卡",
+      "持卡可享三星 AI 家電訂閱費折扣",
+      "屬於消費金融與 AI 家電的跨界合作",
+      "目前資訊來源為亞洲日报中文報道"
+    ],
+    "why_it_matters": "此為金融與 AI 消費電子產品的商業結合案例，非技術開發者直接感興趣的內容，但可留意此類合作是否會影響 AI 家電訂閱制生態。",
+    "automation_angle": null,
+    "automation_angle_zh": "此優惠主要針對消費者，技術用戶較難直接從中獲得自動化工作相關價值，可忽略或留作觀察 AI 消費產品商業模式變化。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-06-09-gemma-4-4-bit-qat-vs-8-bit",
