@@ -1,5 +1,187 @@
 [
   {
+    "id": "2026-06-24-evidra-devops-mcp-ai",
+    "title": "evidra：DevOps MCP飛行記錄器，AI基礎設施代理的行為溯源工具",
+    "title_original": "vitas/evidra",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/vitas/evidra",
+    "published_at": "2026-06-24T07:02:49Z",
+    "category": "agent-skills",
+    "summary": "evidra是Go語言開發的DevOps MCP伺服器，實現「飛行記錄器」概念。prescribe/report協議在執行前後分別捕捉意圖與結果，形成帶簽名的防竄改證據鏈，可用於行為模式偵測與可靠度評分。",
+    "highlights": [
+      "• prescribe/report雙階段協議捕捉意圖與結果\n• 帶簽名的防竄改證據鏈設計\n• 可偵測AI代理的行為模式\n• 提供可靠度評分卡（reliability scorecards）\n• Go語言實現，適合高效能場景"
+    ],
+    "why_it_matters": "在AI代理執行關鍵基礎設施操作時，完整的事前意圖與事後結果記錄是合規審計與錯誤溯源的基礎設施需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "在測試環境中部署evidra MCP，監控常見DevOps腳本的執行鏈，評估可靠度評分在CI/CD流程中的實際效用。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/415304?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-figma-mcp-mcp-figma",
+    "title": "Figma MCP：開放源代碼本地MCP伺服器與Figma外掛程式",
+    "title_original": "guptaprakhariitr/aiconnect-figma-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/guptaprakhariitr/aiconnect-figma-mcp",
+    "published_at": "2026-06-24T06:34:29Z",
+    "category": "agent-skills",
+    "summary": "開源專案提供本地MCP伺服器與Figma外掛程式，支援AI代理直接操控Figma。batch_ops功能可單次呼叫完成整頁面建構，降低設計到程式碼的轉換摩擦。",
+    "highlights": [
+      "• 本地MCP伺服器，無需將設計檔上傳雲端\n• 支援從任意AI代理驅動Figma操作\n• batch_ops功能可一次呼叫建構整個頁面\n• 目前星星數較少（12 stars），屬早期專案\n• 需注意Figma API的速率限制與權限設定"
+    ],
+    "why_it_matters": "設計稿到頁面的自動化一直是前端流水線的痛點，若能穩定運作可大幅縮短設計驗證與原型開發週期。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝本地MCP伺服器，用自然語言驅動Figma建構簡單頁面，評估batch_ops的可靠性與誤操作風險。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/58157064?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-microsoft-dataverse-skills-ai-dataverse",
+    "title": "Microsoft Dataverse-skills：AI編碼代理的Dataverse專業技能庫",
+    "title_original": "microsoft/Dataverse-skills",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/microsoft/Dataverse-skills",
+    "published_at": "2026-06-24T06:10:27Z",
+    "category": "agent-skills",
+    "summary": "微軟官方發布Dataverse技能庫，封裝Dataverse MCP伺服器、CLI、Python SDK與PAC CLI為專家級技能，方便AI代理建構、查詢、部署和管理Dataverse環境。",
+    "highlights": [
+      "• 封裝四種工具：MCP伺服器、Dataverse CLI、Python SDK、PAC CLI\n• 提供建構、查詢、部署、管理四類專業技能\n• 152 stars，已有實際使用社群\n• 屬微軟官方維護的MCP工具鏈\n• 可直接整合進支援MCP的AI代理"
+    ],
+    "why_it_matters": "將Dataverse操作抽象為AI代理可呼叫的技能，降低企業內部工具的接入門檻，特別適合涉及Power Platform的自動化場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "在支援MCP的代理環境中測試Dataverse CRUD操作，評估是否可替代手動Power Apps開發流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-24-qwen-agentworld-397b-a17b-agent",
+    "title": "Qwen-AgentWorld-397B-A17B：旗艦級千億參數 Agent 世界模型",
+    "title_original": "Qwen-AgentWorld-397B-A17B",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ue56em/qwenagentworld397ba17b/",
+    "published_at": "2026-06-24T06:00:39+00:00",
+    "category": "new-models",
+    "summary": "Qwen 同步發布 AgentWorld-397B-A17B，總參數達 397B、活躍參數 17B，是 AgentWorld 系列中規模最大的模型。針對高複雜度環境模擬與長程規劃任務設計，適合需要強大推論能力的 Agent 應用場景。",
+    "highlights": [
+      "397B 總參數、17B 活躍參數，屬 Qwen 旗艦級 MoE 配置",
+      "面向需要長程決策與複雜環境模擬的場景",
+      "與 AgentWorld-35B 系列共享訓練框架與環境模擬範式",
+      "需要較高算力資源，但推論成本仍比同等規模閉源模型低"
+    ],
+    "why_it_matters": "對於需要處理高複雜度任務的企業級 Agent 應用，397B-A17B 提供了本地可控的高能力基底，有助於在保障資料隱私的前提下部署智慧自動化系統。",
+    "automation_angle": null,
+    "automation_angle_zh": "算力充足的技術團隊可將此模型用於評估多步驟自動化工作流程（如全自動化 code review、CI/CD 異常處理）的可行性，並與 35B 版本做成本效益對比。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-unlimited-ocr-modelscope-3-3b-ocr",
+    "title": "Unlimited-OCR：ModelScope 上架 3.3B 多語言一鍵 OCR 模型",
+    "title_original": "Unlimited-OCR is now on ModelScope! A 3.3B multilingual OCR model for one-shot parsing across single images, multi-page documents, and PDFs. License: MIT",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ue51uk/unlimitedocr_is_now_on_modelscope_a_33b/",
+    "published_at": "2026-06-24T05:53:49+00:00",
+    "category": "open-source-ai",
+    "summary": "Unlimited-OCR 是一款 3.3B 參數的多語言 OCR 模型，已在 ModelScope 開源。支援單圖、PDF 多頁文件的一鍵解析，採用 MIT 許可協議，可處理文件、截圖、海報等多種格式。",
+    "highlights": [
+      "3.3B 規模，單張 GPU 即可運行，適合本地部署",
+      "多語言支援，涵蓋中英文及常見國際語言",
+      "MIT 許可，商業使用無需付費",
+      "一鍵解析 PDF 多頁文件，減少現有 OCR 流水線的整合成本"
+    ],
+    "why_it_matters": "PDF 文件自動化解析是常見的技術痛點，Unlimited-OCR 以開源 MIT 方式提供可直接部署的方案，省去商業 OCR API 的費用與隱私疑慮。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可直接在 ModelScope 下載模型，用於將 PDF 發票、文件、截圖轉為結構化文字，結合 RAG 系統實現文件自動化處理工作流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-qwen-agentworld-35b-a3b-3b-moe",
+    "title": "Qwen-AgentWorld-35B-A3B：僅 3B 活躍參數的 MoE 環境模擬模型問世",
+    "title_original": "Qwen-AgentWorld-35B-A3B: a 3B-active MoE trained to simulate MCP, terminal, SWE, Android, web and OS environments",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ue5149/qwenagentworld35ba3b_a_3bactive_moe_trained_to/",
+    "published_at": "2026-06-24T05:52:40+00:00",
+    "category": "new-models",
+    "summary": "Qwen 發布 AgentWorld-35B-A3B，是一個總參數 35B 但實際推論僅需激活 3B 參數的 MoE 模型。專門針對 MCP 協議、終端、SWE 開發、Android 與 Web 環境進行訓練，具備環境模擬與 Agent 決策能力。",
+    "highlights": [
+      "MoE 架構實現 3B 活躍參數，大幅降低推論成本",
+      "訓練目標涵蓋軟體工程、終端操作、Android 與 Web 環境模擬",
+      "支援 MCP（Model Context Protocol）協議整合",
+      "可在消費級 GPU（如單張 RTX 3090）上運行"
+    ],
+    "why_it_matters": "此模型以極低成本提供接近 35B 能力的環境模擬與 Agent 決策表現，對需要本地部署測試自動化腳本或開發工作流程工具的技術團隊極具吸引力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此模型部署於本地開發機，用於自動執行終端指令、SWE-bench 等軟體工程任務評測，評估其取代或輔助程式開發流程的可行性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-qwen-agentworld-qwen-agent",
+    "title": "Qwen-AgentWorld：Qwen 開源通用 Agent 世界模型框架",
+    "title_original": "GitHub - QwenLM/Qwen-AgentWorld: Qwen-AgentWorld: Language World Models for General Agents",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ue4kia/github_qwenlmqwenagentworld_qwenagentworld/",
+    "published_at": "2026-06-24T05:26:35+00:00",
+    "category": "open-source-ai",
+    "summary": "阿里 Qwen 團隊在 GitHub 開源 Qwen-AgentWorld 框架，旨在建立語言世界模型以驅動通用 AI Agent。支援工具調用、程式碼執行、Agent 記憶等核心能力，可與 Qwen2.5 等模型整合，定位為研究與落地之間的橋樑。",
+    "highlights": [
+      "基於 Qwen2.5 開源的 Agent 開發框架，支援多輪對話與工具調用",
+      "內建模擬各類環境（MCP、終端、Web、Android）的世界模型概念",
+      "可作為本地部署 AI Agent 的起點，無需依賴閉源 API",
+      "開源許可，適合企業內部自建工作流程自動化系統"
+    ],
+    "why_it_matters": "Qwen-AgentWorld 將世界模型概念落地為可用的開源框架，為技術團隊提供本地端 Agent 開發基底，有助於在不依賴昂貴雲端 API 的前提下打造自動化工作流程程。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可 fork 此 Repo，直接在本地部署並結合 Qwen2.5-7B 以上模型，快速建構具備工具調用與環境模擬能力的自動化 Agent 原型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-24-meta-ai",
     "title": "Meta 面臨川普政府壓力　要求提交 AI 模型接受安全審查",
     "title_original": "Meta faces pressure from Trump administration to submit AI models for government safety reviews - Crypto Briefing",
@@ -134,6 +316,34 @@
     "automation_angle_zh": "技術读者可試用此 Playground 測試瀏覽器端 SQLite 操作，若穩定可用於建立本地優先的輕量資料視覺化或處理工具。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-openmythos-llm",
+    "title": "OpenMythos 本地 LLM 評測框架發布",
+    "title_original": "OpenMythos benchmarks",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1udq2ac/openmythos_benchmarks/",
+    "published_at": "2026-06-23T18:56:48+00:00",
+    "category": "open-source-ai",
+    "summary": "OpenMythos 是一個專為本地部署開源語言模型設計的評測基準，幫助開發者客觀比較不同模型在各種任務上的實際表現。該框架支援自動化測試流程，可生成標準化分數報告。",
+    "highlights": [
+      "支援多種開源模型（Llama、Mistral 等）的統一評測",
+      "提供標準化測試 Prompt 與評估指標",
+      "可本地運行，無需雲端 API 費用",
+      "旨在解決模型選擇時缺乏可信基準的問題",
+      "開源專案，社群可持續貢獻測試集"
+    ],
+    "why_it_matters": "本地部署模型時缺乏統一行業基準，開發者常需試誤。OpenMythos 提供可重現的評測方式，降低模型選型成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在本地批量測試不同模型配置，用自動化腳本比較效能，找出符合延遲/準確度需求的最佳模型。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
@@ -358,6 +568,33 @@
     "automation_angle_zh": "開發者可在本地或 HF Spaces 上快速測試 Krea 2，評估其對現有影像生成工作流程的整合可行性。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-openai-advanced-ai-appia-foundation",
+    "title": "OpenAI 推動 advanced AI 共享標準框架，與 Appia Foundation 合作",
+    "title_original": "Helping build shared standards for advanced AI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+    "published_at": "2026-06-23T13:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 在官方 Blog 發文宣布支援建立 advanced AI 的共享標準框架，並與 Appia Foundation 合作推動安全評測規範與全球協作機制。此舉被視為 AI 安全治理的制度化嘗試，但實質技術細節尚待觀察。",
+    "highlights": [
+      "OpenAI 透過 Appia Foundation 支援 AI 安全評測框架標準化",
+      "強調跨國合作與安全實踐分享",
+      "目前以政策倡議為主，具體技術規格尚不明確",
+      "屬 PR 導向內容，但反映了 AI 治理趨勢"
+    ],
+    "why_it_matters": "此趨勢值得關注但短期內對技術團隊的實際工作流程無直接影響。標準化進程可能影響未來模型評測方式與 API 合規要求，適度追蹤即可。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術決策者可將此列為被動追蹤項，無需主動行動，但留意 Appia Foundation 後續發布的評測標準，以便提前準備合規性文書與技術對接。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -30110,6 +30347,33 @@
       "open-source-ai",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-google-gemini",
+    "title": "Google Gemini 算力限額新規引發用戶不滿",
+    "title_original": "谷歌Gemini实行新算力限額机制引發使用者不满 - 虎嗅",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mbEdHVnZ0VzZnSDRCSXNYaGpiaDU5cTE3RzZ1dk1heFZ0WkNURFR3M3RsTGRFLWxvVkZwRFhEdkYxTFU4RWZqRERzYk5Sa3laemhuZw?oc=5",
+    "published_at": "2026-05-25T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Google 針對 Gemini 實行新版算力限額機制，引發開發者社群不滿。據悉新制限制了每日請求量與單次上下文長度，部分重度用戶反映工作流程因此中斷，討論區出現批量遷移至替代方案的聲音。",
+    "highlights": [
+      "Gemini 算力限額從無限制轉為按日/月配額制",
+      "單次 API 呼叫的上下文長度上限被壓縮",
+      "開發者社群反映工作流程中斷，遷移討論升溫",
+      "此政策可能影響依賴 Gemini 作為主力 API 的自動化腳本"
+    ],
+    "why_it_matters": "對於已將 Gemini 整合至自動化流程的技術團隊，算力限額新政將直接增加維運成本與不確定性。及時評估替代方案（如 Qwen、Claude、Grok）可降低營運風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議技術用戶立即盤點現有 Gemini API 依賴程度，評估將關鍵自動化腳本遷移至本地開源模型（如 Qwen-AgentWorld）或競爭 API 的成本與效益。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
