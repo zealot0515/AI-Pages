@@ -1,5 +1,174 @@
 [
   {
+    "id": "2026-06-24-qwen-agentworld-35b-a3b",
+    "title": "Qwen-AgentWorld-35B-A3B 编程能力評測引發討論",
+    "title_original": "Qwen-AgentWorld-35B-A3B for Coding?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uebvld/qwenagentworld35ba3b_for_coding/",
+    "published_at": "2026-06-24T12:16:56+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 社群熱議 Qwen 系列新變體 Qwen-AgentWorld-35B-A3B 的程式碼生成能力。部分使用者分享初步 benchmark，討論其在本地部署場景下是否能勝任日常coding輔助任務，並與同規模模型做橫向比較。官方尚未釋出完整技術報告，社群回饋呈現分歧。",
+    "highlights": [
+      "Qwen-AgentWorld-35B-A3B 為 Qwen 系列的 agent 導向變體，強調多步推論",
+      "Reddit 討論區已有初步程式碼任務測試結果，但樣本量有限",
+      "35B 參數量適合中高階消費級 GPU 本地部署",
+      "與 CodeQwen、DeepSeek-Coder 同規模競品進行對比",
+      "社群反饋顯示對 agent 類任務表現評價不一"
+    ],
+    "why_it_matters": "若此變體在 agent 鏈式推論與程式碼任務上具競爭力，本地部署者可用更小資源成本獲得可靠 coding assistant，節省雲端 API 費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載該模型至本地，對比其在SWE-bench Lite或 HumanEval 上的實際表現，評估是否替換現有雲端 coding assistant。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-qwen-orchestrator-qwen-code-cli-agent",
+    "title": "Qwen-Orchestrator：Qwen Code CLI 的多 Agent 編排框架",
+    "title_original": "Omar-Obando/qwen-orchestrator",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Omar-Obando/qwen-orchestrator",
+    "published_at": "2026-06-24T12:07:35Z",
+    "category": "agent-skills",
+    "summary": "開源專案提供 24 個專業 Agent 與 82+ 技能，模擬完整開發部門分工，基於阿里巴巴開源程式碼助理 Qwen 構建，TypeScript 實作，目前 Stars 30。",
+    "highlights": [
+      "24 個專業 Agent 各自負責不同開發任務",
+      "82+ 技能覆蓋多元程式開發場景",
+      "基於 Qwen Code CLI 建構",
+      "TypeScript 實作，可擴充自訂",
+      "Stars 30，仍屬早期專案"
+    ],
+    "why_it_matters": "將單一 LLM 編碼助理升級為分工明確的虛擬開發團隊，是多 Agent 協作實作的一個參考範例，技術用戶可從中借鑒 Agent 編排設計思路。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載研究其 Agent 設計模式與技能定義方式，將類似編排邏輯應用於自建的自動化程式碼審查或需求拆解工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/54437821?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-llama-cpp-web-ui-javascript",
+    "title": "llama.cpp Web UI 新增模型生成 JavaScript 瀏覽器執行功能",
+    "title_original": "llama.cpp's web UI now supports executing model generated JavaScript in the browser, through Web Workers (opt in)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uebknk/llamacpps_web_ui_now_supports_executing_model/",
+    "published_at": "2026-06-24T12:02:38+00:00",
+    "category": "agent-skills",
+    "summary": "llama.cpp 官方 Web UI 近期支援在瀏覽器內透過 Web Workers 執行模型生成的 JavaScript 程式碼（預設關閉，需手動開啟）。此功能讓本地部署的模型可即時渲染 UI、執行計算或與網頁互動，無需後端轉譯。",
+    "highlights": [
+      "使用 Web Workers 隔離執行環境，避免主執行緒阻塞",
+      "為安全考量，預設關閉；用戶需明確 opt-in",
+      "可用於模型生成動態視覺化、即時計算或表單驗證",
+      "結合本地模型推論與瀏覽器原生能力，拓展互動場景",
+      "需留意 XSS 風險，不建議處理不可信輸出"
+    ],
+    "why_it_matters": "此功能打通了本地模型與前端互動的最後一哩路，讓開發者可在瀏覽器內實現模型驅動的動態 UI，而不必架設獨立後端服務。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可啟用此功能，用本地模型生成前端邏輯並直接執行，省去後端 API 部署步驟，適用於本地開心測試與輕量自動化工具原型。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-vram-ram",
+    "title": "本地模型部署前 VRAM/RAM 估算工具社群討論",
+    "title_original": "What's everyone using to estimate VRAM/RAM (weights + KV cache) before spinning up a local model?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ueb2yn/whats_everyone_using_to_estimate_vramram_weights/",
+    "published_at": "2026-06-24T11:38:53+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 社群熱烈討論在啟動本地模型前如何準確估算 VRAM 與 RAM 需求，焦點在於 weights 與 KV cache 的實際佔用計算。討論中提及 lm-evaluation-harness、rtfm-calc、llama.cpp 內建狀態等工具，也有人分享自建腳本經驗。",
+    "highlights": [
+      "KV cache 記憶體與上下文長度、batch size 成正比，是估算關鍵變數",
+      "社群推薦工具包含 ollama、vLLM 內建監控與第三方計算器",
+      "量化方法（4-bit/8-bit）對記憶體佔用影響顯著",
+      "多人共享 GPU 時記憶體競爭問題常被忽略",
+      "精確估算可避免 OOM，提升本地部署穩定性"
+    ],
+    "why_it_matters": "記憶體估算錯誤是本地部署失敗的首要原因。選對工具可節省反覆試錯時間，讓模型快速上線並穩定運行。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將社群推薦的估算公式寫成腳本，整合進部署 pipeline，根據模型規格與上下文長度自動計算最低 VRAM 需求並預警。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-unlimited-ocr",
+    "title": "百度 Unlimited-OCR 單次前饋完成數十頁批量轉錄",
+    "title_original": "How Baidu's newly released Unlimited-OCR transcribes dozens of pages in one forward pass",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ueanx0/how_baidus_newly_released_unlimitedocr/",
+    "published_at": "2026-06-24T11:17:32+00:00",
+    "category": "new-models",
+    "summary": "百度發布 Unlimited-OCR，採用創新架構可在單次前饋傳遞中一次性轉錄數十頁文件，突破傳統 OCR 逐頁處理的瓶頸。該技術聲稱透過 document grounding 與 unified vision encoder 實現端到端批量識別，降低計算成本。",
+    "highlights": [
+      "單次前饋處理多頁文件，大幅降低延遲與計算成本",
+      "瞄準企業級文件數位化與 RPA 流程",
+      "與傳統 Tesseract 單頁模式形成明顯差異",
+      "技術文件尚未完整公開，實測數據待社群驗證",
+      "可能對文件自動化處理工作流程產生實質影響"
+    ],
+    "why_it_matters": "若 Unlimited-OCR 批量處理能力屬實，可將大量紙本文件數位化流程從批次作業改為即時流水線，大幅提升文件自動化效率並降低雲端 OCR API 呼叫成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用其 API 或 SDK 整合進文件處理 pipeline，測試批量文件轉錄延遲與準確率，評估替代現有商業 OCR 服務的成本效益。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-qwen3-6-27b-vllm-llama-cpp",
+    "title": "Qwen3.6 27B 在 vLLM 表現劣於 llama.cpp 引發效能爭議",
+    "title_original": "Qwen3.6 27B more dumb in vLLM compared to llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ue9v4b/qwen36_27b_more_dumb_in_vllm_compared_to_llamacpp/",
+    "published_at": "2026-06-24T10:35:30+00:00",
+    "category": "new-models",
+    "summary": "社群回報 Qwen3.6 27B 在 vLLM 推論引擎上的輸出品質明顯低於 llama.cpp，引起關於推論引擎量化策略與架構相容性的討論。部分使用者推測 vLLM 的 speculative decoding 或 KV cache 管理機制與 Qwen3.6 的 attention 實現存在衝突。",
+    "highlights": [
+      "同一模型在不同推論後端表現差異顯著，後端選型影響實際體驗",
+      "llama.cpp 的 GGUF 量化方案對 Qwen 系列支援成熟",
+      "vLLM 可能對新興架構優化不足，導致輸出品質下降",
+      "社群已在 vLLM GitHub 提 issue，官方尚未回應",
+      "此問題可能影響企業 vLLM 部署的模型選型決策"
+    ],
+    "why_it_matters": "推論引擎與模型版本的不相容問題會直接影響本地部署的實際效益。選錯後端可能導致模型明明規模合適，卻輸出不可用的結果。",
+    "automation_angle": null,
+    "automation_angle_zh": "若企業已在 vLLM 上架設 Qwen3.6 27B，應立即比對 llama.cpp 基準測試結果，並考慮切換後端或等待官方修復，同時更新部署腳本以記錄引擎版本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-24-evidra-devops-mcp-ai",
     "title": "evidra：DevOps MCP飛行記錄器，AI基礎設施代理的行為溯源工具",
     "title_original": "vitas/evidra",
@@ -40977,6 +41146,32 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-24-llm-15",
+    "title": "LLM 價格大比拚：15+ 提供商收費方案總整理",
+    "title_original": "LLM Pricing: Top 15+ Providers Compared - AIMultiple",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA4dVE0RldwT1lSTFpaYUh5eWhacWtnc3ZnTjdBam5KRXRsdk9qSmpxU0pEVWNpWFlENV8xM2djUnJxR2FTSjdvYkVn?oc=5",
+    "published_at": "2026-05-08T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "第三方研究機構 AIMultiple 整理超過 15 家 LLM 提供商的定價資訊，涵蓋主流模型與新興廠商，便於技術用戶橫向比較成本結構。",
+    "highlights": [
+      "收錄超過 15 家 LLM 提供商",
+      "涵蓋主流與新興廠商定價",
+      "第三方整理，非廠商官方文件"
+    ],
+    "why_it_matters": "LLM 成本是技術用戶選型的重要因素，系統化的價格比較可協助識別符合特定預算與效能需求的替代方案，特別是成本敏感的工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可利用此比較表評估現有工具鏈中 LLM 成本結構，識別可替換為更低成本模型的場景，實現 AI 工具成本優化。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-25-google-xprize-350-future-vision",
     "title": "Google 與 XPRIZE 合作 350 萬美元 Future Vision 電影競賽",
     "title_original": "5 gardening tips you can try right in Search",
@@ -43302,6 +43497,32 @@
     "automation_angle_zh": "此事件提醒技術用戶在引入新模型至生產流程前，應建立獨立的效能評估基準，避免因模型迭代不穩定而影響關鍵業務流程的可靠性。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-oracle-ai-agent-studio-mcp-tool",
+    "title": "Oracle AI Agent Studio MCP Tool 整合說明",
+    "title_original": "MCP Tool in AI Agent Studio | fusioncoe - Oracle Blogs",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBQLTNRNXBzVF9ObXpUcGhuZmFKRVZpM0NxVmdDajZtNkowTlVIVFIwTnFPXzJUNFBkM0hzOE85NEU0cjlydXB0c2RFblAwcUVVZm4xZTYta052SnJMU0xWam5VN2tyQms5MXgtVkRjdw?oc=5",
+    "published_at": "2026-03-12T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Oracle 部落格介紹 AI Agent Studio 中 MCP Tool 的使用方式，屬於 Oracle 雲端服務的產品文件，偏重自家生態系應用場景。",
+    "highlights": [
+      "Oracle 官方部落格內容",
+      "介紹 MCP Tool 在 AI Agent Studio 的應用",
+      "屬於 Oracle 雲端生態系文件"
+    ],
+    "why_it_matters": "若技術用戶已使用 Oracle 雲端服務，此文件可作為 Agent 工具鏈整合的參考；但對其他技術用戶信號較弱，實用價值有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Oracle 雲端服務的技術用戶可查閱此文件評估 MCP Tool 是否能簡化其 Oracle 環境中的 AI 工作流程自動化。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
