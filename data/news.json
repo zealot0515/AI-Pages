@@ -1,5 +1,174 @@
 [
   {
+    "id": "2026-06-24-meta-ai",
+    "title": "Meta 面臨川普政府壓力　要求提交 AI 模型接受安全審查",
+    "title_original": "Meta faces pressure from Trump administration to submit AI models for government safety reviews - Crypto Briefing",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sczF6QTRaejBubURrVTNndnI1bk8wbE5SSmdpdTIxRENXTG5FUUE4WWRFY2NQUkJ4ZE5TRTFhY2YyLU56ZmNfQlkwbnpRUDR0SGxOb2kySGtZYmRUb01sXzJLb0t6NTZiQ0RTMmlvRUNIdw?oc=5",
+    "published_at": "2026-06-23T22:03:33+00:00",
+    "category": "open-source-ai",
+    "summary": "川普政府正對 Meta 施壓，要求將其 AI 模型提交政府安全審查。此舉可能影響 Llama 系列開源模型的政策走向，並為 AI 產業樹立監管先例。Meta 是否能維持開源承諾，技術社群高度關注此發展對開源模型的長期影響。",
+    "highlights": [
+      "川普政府要求 Meta 提交 AI 模型接受政府安全審查",
+      "主要涉及 Meta 的 Llama 系列開源模型",
+      "可能為 AI 產業樹立新的監管先例",
+      "此趨勢可能蔓延至其他開源模型開發者",
+      "Crypto Briefing 報導可信度中等，需交叉驗證"
+    ],
+    "why_it_matters": "若政府強制開源模型接受審查，可能改變 Llama 等模型的發布節奏與可用性，直接影響仰賴開源模型的技術工作者與開發者。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可追蹤 Llama 模型在 Hugging Face 的發布狀態，若模型上架延遲或下架，需評估替代方案如 Mistral、Falcon 等開源模型的部署可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-datasette-1-0a35-api",
+    "title": "Datasette 1.0a35 釋出：新增建立/修改資料表 API 與穩定模板變數文件",
+    "title_original": "datasette 1.0a35",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything",
+    "published_at": "2026-06-23T21:34:37+00:00",
+    "category": "open-source-ai",
+    "summary": "Datasette 1.0 alpha 35 正式加入「建立資料表」與「修改資料表」功能，支援透過 JSON API 以程式化方式管理 SQLite schema，包含欄位定義、鍵約束、預設值與外鍵設定，並釋出模板變數穩定文件。",
+    "highlights": [
+      "新增 /-/create 與 /-/alter JSON API，可程式化建立與修改資料表結構",
+      "支援定義欄位類型、主鍵、NOT NULL 限制與單欄外鍵",
+      "模板變數文件化為穩定 API，開發者可安心客製化 Datasette 頁面",
+      "Alter table 對話框整合刪除資料表按鈕，管理更直覺",
+      "文件由 dataclass 定義自動生成，含測試確保文件與實際行為一致"
+    ],
+    "why_it_matters": "對於需要以程式化方式管理 SQLite 資料庫結構的開發者，create/alter API 顯著降低管理門檻，模板變數 API 文件化則確保自訂範本不會在未來版本斷裂。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在 CI/CD pipeline 中使用 /-/create 與 /-/alter API 自動初始化或遷移測試資料庫，或將 Datasette 作為輕量級資料管理介面整合到現有系統。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-24-hackbot-ai",
+    "title": "hackbot：生產級 AI 滲透測試與網路安全助理",
+    "title_original": "yashab-cyber/hackbot",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/yashab-cyber/hackbot",
+    "published_at": "2026-06-23T20:49:08Z",
+    "category": "agent-skills",
+    "summary": "hackbot 是一款生產就緒的 AI 滲透測試工具，支援 Agent、Chat、Planning 三種模式，內建桌面 GUI，提供 10 種 AI Provider 接入，內建模組化情報收集能力。專為安全研究與滲透測試場景設計，適合安全工程師日常使用。",
+    "highlights": [
+      "支援 Agent、Chat、Planning 三種操作模式",
+      "原生桌面 GUI，降低學習曲線",
+      "支援 10 種 AI Provider 接入",
+      "內建情報收集模組",
+      "Python 編寫，GitHub 開源（26 Stars）"
+    ],
+    "why_it_matters": "將 AI Agent 能力引入滲透測試流程可加速漏洞發現，但目前 Stars 數偏低，社群驗證不足，適合有安全背景的技術用戶評估使用。",
+    "automation_angle": null,
+    "automation_angle_zh": "安全工程師可安裝並測試其 Planning 模式，評估是否能自動化部分滲透測試前期偵察工作，節省手動情報收集時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/77148571?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-tmax-27b-qwen3-6-27b-dppo-gpu",
+    "title": "Tmax-27b：Qwen3.6-27b 終端代理模型，用 DPPO 強化學習訓練瞄準小 GPU",
+    "title_original": "Tmax-27b - a Qwen3.6-27b terminal agent for small GPUs trained with DPPO (RL)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1udqbdh/tmax27b_a_qwen3627b_terminal_agent_for_small_gpus/",
+    "published_at": "2026-06-23T19:05:52+00:00",
+    "category": "new-models",
+    "summary": "研究者在 Reddit 發表 Tmax-27b，為基於 Qwen3.6-27b 微調的終端代理模型，採用 DPPO（離策略近端策略優化）強化學習方法訓練，目標是能在小容量 GPU 上執行 CLI 任務自動化。",
+    "highlights": [
+      "基於 Qwen3.6-27b，採用 DPPO 強化學習訓練方法",
+      "定位為終端代理，可在 CLI 環境中執行自動化任務",
+      "設計目標支援在小 GPU（如單卡 RTX 3090 等）上運行",
+      "研究作者公布初步成果，社群可測試與回饋",
+      "屬於本地端代理探索，強調訓練方法與部署便利性"
+    ],
+    "why_it_matters": "DPPO 訓練的終端代理為本地端任務自動化提供新方向，27B 參數規模對有資源限制的開發者較友善，可能成為本地 AI 工作流程的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可下載模型在本地測試，評估其執行常見 CLI 任務（如檔案管理、腳本執行）的表現，判斷是否值得投入工作流程自動化實驗。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-simon-willison-opfs-pyodide-sqlite",
+    "title": "Simon Willison 釋出 OPFS + Pyodide 測試工具：瀏覽器內執行持久化 SQLite 編輯",
+    "title_original": "OPFS + Pyodide test harness",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything",
+    "published_at": "2026-06-23T18:58:54+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 實驗將 Datasette Lite（Pyodide + WebAssembly 瀏覽器端 Python 環境）結合 OPFS（Origin Private File System），嘗試在瀏覽器內編輯儲存於本機的持久化 SQLite 檔案。",
+    "highlights": [
+      "結合 OPFS 讓瀏覽器具備本機檔案系統存取能力",
+      "Datasette Lite 可在瀏覽器內執行完整 Python + SQLite",
+      "實驗性質 Playground UI 由 Claude Code 協助建立",
+      "測試涵蓋多瀏覽器相容性，驗證可行性與限制",
+      "代表瀏覽器端資料處理的新可能性，無需伺服器"
+    ],
+    "why_it_matters": "若 OPFS + Pyodide 組合成熟，開發者可建立完全在瀏覽器內運作的資料處理工具，資料無需上傳伺服器，對隱私敏感場景具應用潛力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術读者可試用此 Playground 測試瀏覽器端 SQLite 操作，若穩定可用於建立本地優先的輕量資料視覺化或處理工具。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-mlx-650-ner-pytorch-cpu-30-40",
+    "title": "MLX 平台釋出 650 個生物醫學 NER/去識別模型，推估較 PyTorch-CPU 快 30-40 倍",
+    "title_original": "650+ Apache-2.0 biomedical NER/de-id models that run on-device in MLX. Same fp32 weights, identical outputs: the clinical NER models run 30-40x faster than PyTorch-CPU on a 3-year-old M3 Max. Repro inside.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1udoruf/650_apache20_biomedical_nerdeid_models_that_run/",
+    "published_at": "2026-06-23T18:09:54+00:00",
+    "category": "open-source-ai",
+    "summary": "研究團隊在 Reddit r/LocalLLaMA 公布 650 個 Apache-2.0 授權的生物醫學 NER 與去識別模型，專為 Apple MLX 框架優化，在 M3 Max 上推估比 PyTorch-CPU 快 30-40 倍，支援本地端推論。",
+    "highlights": [
+      "650 個生物醫學領域 NER 與去識別模型，全數採用 Apache-2.0 授權",
+      "MLX 優化版本在 Apple M3 Max 上較 PyTorch-CPU 速度快 30-40 倍",
+      "提供 fp32 權重，可直接在設備端執行，無需網路",
+      "適用於醫療記錄去識別化、臨床研究資料萃取等場景",
+      "研究者在 Reddit 公布初步成果，社群可驗證重現"
+    ],
+    "why_it_matters": "這批模型為本地端醫療文本處理提供高效、低延遲的 NER 能力，開發者可在無需雲端 API 的情況下於 Apple 硬體上建立合規的臨床資料處理流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可直接用 MLX 框架載入這些模型，在本機測試 NER 推論速度並評估整合到自己醫療資料處理流程的可行性，特別適合需要資料不出本機的法規遵循場景。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-23-obsidian-mcp-rust-mcp-obsidian",
     "title": "obsidian-mcp：Rust 编写的高速 MCP 服务器，赋能本地 Obsidian 笔记库",
     "title_original": "lstpsche/obsidian-mcp",
@@ -134,6 +303,34 @@
     "automation_angle_zh": "開發醫療或法遵相關自動化工具時，可參考此測試框架建立自己的模型評估流程，特別關注假陰性率而非僅準確率，並將資訊遺漏納入評估維度。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-claude-8-000-ipo-agentic-pipeline",
+    "title": "Claude 大規模故障：逾 8,000 份報告，IPO 前 Agentic Pipeline 受衝擊",
+    "title_original": "Claude Outage Tops 8,000 Reports: Agentic Pipeline Failures Mount Before Anthropic IPO - Tech Times",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVmRfZFVzc0RVWEVoNFNkRDViT0dCRmRiMFNlZGRuemFfejhESVpvS1NBc3dWWTJHT2ZiWFU4TEgyVmpQaGlPcnlObUR6MExZcGtrdzFEMzJzS3J2RE5FSnVCY2ZRdnJzc1N3Y2hkYzU3T3J4SzliaWlHRGpyMXFOMHd4dldkUVR4dldyT3VERDd0LUNpRTZ6R2poYTg2ODBZMDV1aE5CZ1FQTnE0MnBDTkFKaEFCOVB6UW9LTnJSZDdiZWZNTW11NWo2Sy1rX2RHeGtpQm53?oc=5",
+    "published_at": "2026-06-23T15:39:57+00:00",
+    "category": "hot-topics",
+    "summary": "Claude 服務出現大規模中斷，Tech Times 報導累積超過 8,000 份故障報告，多個依賴 Claude 的 Agentic Pipeline 出现失敗案例。故障發生在 Anthropic IPO 前夕，引發市場對其服務穩定性的關注，具體故障原因尚未公布。",
+    "highlights": [
+      "Claude 服務中斷累積逾 8,000 份用戶報告",
+      "多個 Agentic Pipeline 因此失敗",
+      "故障發生在 IPO 前夕，引發穩定性疑慮",
+      "故障原因尚未公開說明",
+      "Tech Times 報導，消息來源為新聞轉載"
+    ],
+    "why_it_matters": "Claude 故障暴露了依賴單一模型供應商的 Agentic Pipeline 風險，對於高可用性要求的生產系統需要建立備援機制。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶應檢視自身 Agentic Pipeline 是否存在 Claude 單點故障，考慮加入模型路由降級機制，確保關鍵任務在單一模型故障時仍可正常運作。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -365,6 +562,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-24-github-copilot-app-byok",
+    "title": "GitHub Copilot App 支援 BYOK：自帶模型鑰匙新選項",
+    "title_original": "GitHub Copilot app support for BYOK",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok",
+    "published_at": "2026-06-23T08:00:02+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot App 新增 BYOK（Bring Your Own Key）支援，用戶可使用自己的模型供應商 API Key 執行 Agent 工作階段，包括 OpenAI、Azure OpenAI、Microsoft Foundry、Anthropic、LM Studio 等主流供應商。此更新賦予開發者更大的模型選擇自由度。",
+    "highlights": [
+      "Copilot App 新增 BYOK 功能",
+      "支援 OpenAI、Azure OpenAI、Microsoft Foundry、Anthropic、LM Studio",
+      "用戶可使用自己的 API Key 計費",
+      "增加模型選擇靈活性",
+      "官方 GitHub Changelog 公告，可信度高"
+    ],
+    "why_it_matters": "BYOK 支援讓開發者可綁定自己的 API 方案，降低 Copilot 訂閱成本，同時自由選擇偏好的模型供應商，顯著提升工作流程靈活性。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可啟用 Copilot App 的 BYOK，測試使用自有 API Key 驅動 Copilot Agent，評估是否能滿足特定專案需求並優化成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-06-23-ui5-mcp-server-ui5-mcp",
