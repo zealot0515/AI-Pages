@@ -1,5 +1,287 @@
 [
   {
+    "id": "2026-06-25-langchain-smithdb",
+    "title": "LangChain 深入解析 SmithDB 全文檢索的倒排索引架構",
+    "title_original": "How we built SmithDB’s inverted index for full-text search",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/full-text-search-in-smithdb-constructing-and-querying-our-inverted-index-pt-2",
+    "published_at": "2026-06-25T18:33:49+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格詳述 SmithDB 如何構建全文檢索引擎，包括倒排索引的建構、壓縮策略，以及如何將查詢路由至本地 SSD 或物件儲存，實現高效的文件檢索能力。",
+    "highlights": [
+      "採用倒排索引（inverted index）作為核心資料結構",
+      "支援查詢路由至本地 SSD 與物件儲存兩層架構",
+      "詳細說明索引建構與合併（compaction）流程",
+      "可用於 RAG（檢索增強生成）系統的文件索引",
+      "LangChain 開源實作，可直接整合至代理工作流程"
+    ],
+    "why_it_matters": "RAG 系統的核心瓶頸在於檢索速度與準確性，了解倒排索引的底層設計有助於技術人員針對自家文件庫進行效能調優。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考其架構將 SmithDB 整合至 LangChain 代理工作流程中，針對內部文件建立檢索索引，實現自動化文件問答或資訊提取。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-25-rimbridgeserver-rimworld-mcp",
+    "title": "RimBridgeServer：在 RimWorld 遊戲中執行 MCP 伺服器",
+    "title_original": "pardeike/RimBridgeServer",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/pardeike/RimBridgeServer",
+    "published_at": "2026-06-25T17:57:25Z",
+    "category": "agent-skills",
+    "summary": "RimBridgeServer 是一個 C# 專案，在 RimWorld 遊戲內執行 MCP 伺服器，使 AI Agent 與外部工具能遠端控制並觀測遊戲狀態。現有 18 Stars，仍屬早期專案，技術實現思路有趣，適合對 Agent 工具擴展性有興趣的開發者參考。",
+    "highlights": [
+      "將 MCP 協議引入遊戲環境，拓展 Agent 觀測與控制邊界",
+      "外部工具可透過 MCP 介面讀寫 RimWorld 遊戲狀態",
+      "展示了一種將現有軟體「Agent 化」的可行架構",
+      "早期專案，生態系尚不成熟，但思路可遷移到其他領域",
+      "C# 實現，可與 .NET 生態系工具鏈整合"
+    ],
+    "why_it_matters": "這類專案展示了將任何軟體系統暴露給 Agent 操控的可能性，是研究工具擴展性與 Agent 能力邊界的有趣實驗場。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此作為參考架構，評估如何將 MCP 協議應用於自己的桌面應用或私有系統，實現類似的遠端 Agent 控制能力。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/853584?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-25-claude-artifacts",
+    "title": "將 Claude 風格 Artifacts 功能移植到本地模型",
+    "title_original": "I brought Claude-style artifacts to local models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufgv6n/i_brought_claudestyle_artifacts_to_local_models/",
+    "published_at": "2026-06-25T17:37:11+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者在 Reddit r/LocalLLaMA 分享將 Anthropic Claude 的 Artifacts 互動式輸出功能移植到本地模型的方法，目前支援多種主流本地 LLM，讓用戶可在本地環境獲得類似的即時渲染體驗。",
+    "highlights": [
+      "・透過網頁介面即時渲染程式碼、SVG 等輸出內容",
+      "・支援 Ollama、LM Studio 等常見本地推論引擎",
+      "・開源專案，技術門檻不高可自行部署",
+      "・可作為 Anthropic API 的本地替代方案測試",
+      "・需留意模型輸出格式的相容性差異"
+    ],
+    "why_it_matters": "Artifacts 功能顯著提升互動式開發體驗，移植至本地可降低成本並保護隱私，對需要本地推論又有互動需求的技術用戶是實用方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可部署此專案，用於本地文件生成、原型展示或教育演示場景，評估與官方 Claude Artifacts 的功能落差。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-25-item",
+    "title": "技術文件任務該選用哪個模型？",
+    "title_original": "Which model for technical documentation?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufgbm2/which_model_for_technical_documentation/",
+    "published_at": "2026-06-25T17:17:55+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 討論串聚集技術用戶分享使用本地模型處理技術文件寫作與維護的實戰經驗，包括模型選擇、提示詞技巧與常見痛點。",
+    "highlights": [
+      "・社群成員分享不同模型的文件處理表現",
+      "・討論焦點包括長上下文理解與格式遵循",
+      "・部分用戶推薦特定量化版本兼顧速度與品質",
+      "・文件一致性與術語精確度是主要挑戰",
+      "・提示詞工程在文件任務中扮演關鍵角色"
+    ],
+    "why_it_matters": "技術文件自動化是工程團隊高價值應用場景，社群實戰經驗可幫助快速排除不適合的模型，節省評估時間與 API 成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考討論中的模型選擇與提示詞配置，在本地環境針對自家文件集進行測試，找出成本效益最高的組合。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-25-token-allenai",
+    "title": "混合模型預測哪些 Token 效果更好？AllenAI 研究解析",
+    "title_original": "Which tokens does a hybrid model predict better?",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+    "published_at": "2026-06-25T16:11:42+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格發布 AllenAI 研究，分析混合架構模型在預測不同類型 Token 時的準確度差異。研究揭示了模型在處理創意寫作、程式碼、數學推論等任務時的預測模式差異，可為模型選擇與微調策略提供參考。",
+    "highlights": [
+      "混合架構在創意寫作與程式碼生成任務上表現出不同的預測偏好",
+      "研究提供量化數據支撐，區分了模型擅長與不擅長的 Token 類型",
+      "可用於指導特定任務的模型選型與微調方向",
+      "屬於理論研究層面，需實際測試驗證在自家資料上的效果",
+      "開源研究，附有實驗代碼可供複現"
+    ],
+    "why_it_matters": "理解模型預測偏差有助於技術用戶針對特定任務選擇最優模型配置，避免在錯誤的環節消耗算力與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可參考研究結論設計路由層，根據任務類型動態選擇擅長處理該類 Token 的模型，優化自動化流水線的性價比。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-25-llama-cpp-b9788-intel-gpu",
+    "title": "llama.cpp b9788 版本修復 Intel GPU 張量分割問題",
+    "title_original": "Tensor Split Fix for intel GPU's llama.cpp release b9788",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufctc8/tensor_split_fix_for_intel_gpus_llamacpp_release/",
+    "published_at": "2026-06-25T15:11:50+00:00",
+    "category": "open-source-ai",
+    "summary": "llama.cpp 針對 Intel GPU 的張量分割（tensor split）功能進行錯誤修復，新版本 b9788 可改善 Intel Arc 系列顯卡在本機執行大型語言模型時的穩定性與記憶體管理。",
+    "highlights": [
+      "修復 Intel GPU 張量分割導致的記憶體分配錯誤",
+      "版本 b9788 專門優化 Intel Arc / Flex 系列顯卡",
+      "可提升本機 LLM 推論的穩定性與效能",
+      "需從源碼編譯最新版本才能使用此修復",
+      "對本機部署 Llama、Mistral 等模型有直接幫助"
+    ],
+    "why_it_matters": "本地部署 AI 模型常因硬體相容性問題而崩潰，此修復降低了 Intel GPU 用戶的技術門檻，讓更多人能穩定運行開源 LLM。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本地 CI 環境中針對 Intel GPU 編譯測試 llama.cpp，驗證張量分割功能是否正常，用於自動化模型部署前的硬體相容性檢查。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-25-sierra-ai-agent",
+    "title": "Sierra 分享：最佳 AI Agent 的簡單哲學",
+    "title_original": "Why the Best AI Agents Are Simple: Sierra’s Zack Reneau-Wedeen on the Max Agency Podcast",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/why-the-best-agents-are-simpler-than-you-think-sierra-max-agency-podcast",
+    "published_at": "2026-06-25T14:53:53+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain Podcast 專訪 Sierra 的 Zack Reneau-Wedeen，探討為何成功的 AI Agent 往往採用簡單架構，強調以成果為基礎的定價模型，以及避免組織複雜性導致的「組織圖開發」問題。",
+    "highlights": [
+      "・簡單架構比複雜多層 agent 系統更可靠",
+      "・成果定價（outcome-based pricing）逐漸成為主流",
+      "・避免為每個功能建立專屬團隊的過度分工",
+      "・強調可量測的業務成果而非技術華麗度",
+      "・Agent 設計應聚焦核心任務而非擴充所有能力"
+    ],
+    "why_it_matters": "對於正在設計企業 AI Agent 的技術決策者，這些經驗可避免常見的過度工程問題，直接影響系統維護成本與部署成功率。",
+    "automation_angle": null,
+    "automation_angle_zh": "讀者可審視自身 Agent 架構是否過度複雜，評估是否可簡化 pipeline 或重新定義成功指標以提升效能。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-25-ornith-1-0-hugging-face",
+    "title": "Ornith-1.0 模型在 Hugging Face 發布",
+    "title_original": "Ornith-1.0 released on Hugging Face",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufc9vp/ornith10_released_on_hugging_face/",
+    "published_at": "2026-06-25T14:52:07+00:00",
+    "category": "new-models",
+    "summary": "一個名為 Ornith-1.0 的新模型登陸 Hugging Face 模型庫。從名稱推斷可能與鳥類相關任務或輕量級模型設計有關，詳細能力與訓練數據尚未完整揭露。",
+    "highlights": [
+      "・新模型發布於主流模型平台 HF",
+      "・模型命名暗示特定領域應用方向",
+      "・Reddit 討論區已有初步測試討論",
+      "・需要進一步閱讀模型卡確認實際能力",
+      "・可能適合特定垂直領域任務評估"
+    ],
+    "why_it_matters": "新開源模型持續湧現，技術用戶應保持追蹤以便第一時間評估是否符合自身工作需求，尤其是特定領域或輕量化場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載並在常見基準測試上評估 Ornith-1.0，比較其在程式碼、推論或特定任務上的表現與現有模型的差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-25-strands-agents-mcp-server-genai-vibe-code-strands-agents",
+    "title": "strands-agents/mcp-server：讓 GenAI 工具輕鬆 vibe-code Strands Agents",
+    "title_original": "strands-agents/mcp-server",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/strands-agents/mcp-server",
+    "published_at": "2026-06-25T14:50:47Z",
+    "category": "agent-skills",
+    "summary": "該 MCP 伺服器為 GenAI 工具提供 Strands Agents 的文檔上下文，使 AI 編碼助理能夠 vibe-code Strands Agents 專案。Python 開發，現有 287 Stars，已上架 GitHub Trending，是近期快速升溫的 Agent 開發工具。",
+    "highlights": [
+      "以 MCP 協議為橋樑，讓主流 AI 編碼助理理解 Strands Agents",
+      "降低 Strands Agents 專案的上手門檻，適合想快速整合的開發者",
+      "Python 生態系友善，與現有 LangChain、AutoGen 等框架可互補",
+      "287 Stars 的熱度顯示社群對 Agent 工具鏈整合有強烈需求",
+      "可作為 MCP 生態系實作案例參考"
+    ],
+    "why_it_matters": "MCP 協議的採用越來越廣，這類工具簡化了 AI 助理的領域知識注入問題，讓技術用戶能用自然語言高效開發複雜 Agent 邏輯。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此 MCP Server 整合進 VS Code 或 Cursor，快速用自然語言生成與調試 Strands Agents 工作流程，評估開發效率提升幅度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/209155962?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-25-bash-jq-curl-llm-repl",
+    "title": "用 Bash、jq 與 curl 打造 LLM REPL 工具",
+    "title_original": "It turns out Bash is All You Need to write a language model REPL (and jq and curl)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufc5ca/it_turns_out_bash_is_all_you_need_to_write_a/",
+    "published_at": "2026-06-25T14:47:30+00:00",
+    "category": "open-source-ai",
+    "summary": "社群開發者展示僅用 Bash 指令稿、jq 與 curl 即可建立一個輕量級的 LLM 互動式 REPL，無需額外依賴即可與主流 API 相容，適合嵌入式或極簡環境使用。",
+    "highlights": [
+      "・零額外依賴，極低資源佔用",
+      "・利用 jq 處理 JSON 輸出格式",
+      "・支援串流輸出與對話歷史管理",
+      "・可輕易整合至既有 Bash 指令稿流程",
+      "・約 100 行以內的純文字指令稿"
+    ],
+    "why_it_matters": "對需要在無 GUI 環境、遠端伺服器或容器中使用 LLM 的技術人員，提供了一個無摩擦的輕量化替代方案，降低使用門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此 REPL 整合至 CI/CD 流程或伺服器維運指令稿，實現自動化文字生成、錯誤解釋或文件處理等任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-25-mathworks-matlab-mcp-server-matlab-ai",
     "title": "MathWorks 官方 MATLAB MCP Server 開源，MATLAB 接入 AI 編碼工具",
     "title_original": "matlab/matlab-mcp-server",
