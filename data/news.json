@@ -1,5 +1,257 @@
 [
   {
+    "id": "2026-06-25-llm",
+    "title": "LLM 號稱很會寫程式但實際表現如何？",
+    "title_original": "If LLMs are so good at coding…",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uf0oso/if_llms_are_so_good_at_coding/",
+    "published_at": "2026-06-25T05:07:38+00:00",
+    "category": "hot-topics",
+    "summary": "社群討論 LLMs 程式能力的局限性，分析當前模型在真實專案中的錯誤率、重構效果與除錯輔助的真用戶體驗，非學術基準測試。",
+    "highlights": [
+      "聚焦真實專案使用體驗",
+      "分析常見失敗模式如長上下文遺忘",
+      "討論除錯輔助 vs 從零重構的差異",
+      "對比不同模型在程式任務的強弱",
+      "實用主義觀點，非行銷數據"
+    ],
+    "why_it_matters": "了解 LLMs 程式能力的邊界有助技術宅設定合理的自動化範圍，避免在關鍵路徑過度依賴 AI 程式碼而導致生產事故。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立內部測試集評估團隊所用模型在程式任務的成功率，據此設計自動化審查流程或決定人工覆核比例。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-25-supraweather-nano-preview",
+    "title": "SupraWeather-Nano-Preview 模型緊急釋出",
+    "title_original": "[NEW MODEL] SupraWeather-Nano-Preview Just released!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uey9fu/new_model_supraweathernanopreview_just_released/",
+    "published_at": "2026-06-25T03:05:26+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 社群緊急釋出 SupraWeather-Nano-Preview 模型，屬輕量級天氣預測模型。模型詳情、訓練數據與評測結果尚未完整揭露，社群正在熱烈討論其效能表現。",
+    "highlights": [
+      "輕量級天氣預測模型 Nano 等級",
+      "由社群緊急釋出，官方文件不足",
+      "主要討論在 Reddit 論壇",
+      "訓練數據與評測基準未公開",
+      "適合邊緣設備部署測試"
+    ],
+    "why_it_matters": "輕量天氣模型可部署於 IoT 設備，技術宅可評估其預測精度是否足夠替代大型天氣 API，節省資料傳輸成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載模型權重，測試在天氣資料有限的本地環境下的預測表現，評估能否整合至自動化天氣觸發流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-25-6000-pro-glm-5-2-kimi-2-7-deepseek-v4-pro",
+    "title": "多卡 6000 PRO 跑大模型體驗交流 (GLM 5.2, Kimi 2.7, DeepSeek V4 Pro)",
+    "title_original": "For users with 4x-8x 6000 PROs, how is your experience with bigger models lately? (GLM 5.2, Kimi 2.7, DeepSeek V4 Pro)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uex6pb/for_users_with_4x8x_6000_pros_how_is_your/",
+    "published_at": "2026-06-25T02:14:14+00:00",
+    "category": "new-models",
+    "summary": "持有 4-8 張 6000 PRO 顯示卡的用戶交流心得，討論 GLM 5.2、Kimi 2.7 與 DeepSeek V4 Pro 等大模型在多卡環境下的實際效能與穩定性。",
+    "highlights": [
+      "多卡 6000 PRO 部署大模型實測",
+      "GLM 5.2、Kimi 2.7、DeepSeek V4 Pro 三選一對比",
+      "探討推論速度與 VRAM 分配",
+      "社群經驗分享，非官方基準",
+      "適合評估自建推論伺服器可行性"
+    ],
+    "why_it_matters": "多卡推論效能數據是技術宅評估自建 LLM 服務成本的關鍵參考，可判斷是否值得放棄商業 API 轉向本地部署。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據社群回饋估算每 token 成本與延遲，規劃自動化部署腳本，評估是否採用 vLLM 或 TensorRT-LLM 框架。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-25-langchain-oss-eu-ai-act",
+    "title": "LangChain OSS 工具助你滿足 EU AI Act 合規要求",
+    "title_original": "How LangSmith and LangChain OSS Help You Meet EU AI Act Requirements",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langsmith-langchain-oss-eu-ai-act",
+    "published_at": "2026-06-25T00:21:53+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方博客說明 EU AI Act（2026年8月2日截止）合規要點，並展示 LangSmith 與 LangChain OSS 如何對應文件記錄、風險評估與透明度等要求。",
+    "highlights": [
+      "EU AI Act 最終截止日為 2026年8月2日",
+      "LangSmith 提供稽核軌跡與日誌記錄",
+      "LangChain OSS 支援模型可解釋性模組",
+      "文件化與風險評估自動化支援",
+      "適合在歐盟提供 AI 服務的開發者"
+    ],
+    "why_it_matters": "若你的 AI 產品服務歐盟用戶，合規已成法律義務。LangChain 提供現成工具鏈，可減少自行建置合規基礎設施的開發成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 LangSmith 的日誌與追蹤功能自動化合規審計流程，確保每筆推論都有完整紀錄可供監管機構查閱。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-25-klarna-ai-langgraph-80",
+    "title": "Klarna AI 助理如何用 LangGraph 將客服效率提升 80%",
+    "title_original": "How Klarna's AI assistant redefined customer support at scale for 85 million active users",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/customers-klarna",
+    "published_at": "2026-06-25T00:21:53+00:00",
+    "category": "agent-skills",
+    "summary": "Klarna 分享使用 LangGraph 與 LangSmith 建構 AI 客服的案例，強調在 8500萬活躍用戶規模下達成 80% 更快問題解決速度的實戰經驗。",
+    "highlights": [
+      "LangGraph 實現複雜對話流程控制",
+      "8500萬用戶規模實測驗證",
+      "80% 問題解決速度提升",
+      "結合 LangSmith 監控與除錯",
+      "電商客服自動化參考架構"
+    ],
+    "why_it_matters": "Klarna 的案例證明 LangGraph 可支撐大規模生產級 AI Agent，技術宅可參考其架構設計自動化客服或個人助理工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考 Klarna 的對話狀態機設計，用 LangGraph 重構現有客服腳本，評估引入 AI 後的自動化覆蓋率與轉人工時機。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-25-browser-compat-db-ai-sqlite",
+    "title": "browser-compat-db：用 AI 工具將瀏覽器相容資料轉為 SQLite",
+    "title_original": "simonw/browser-compat-db",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
+    "published_at": "2026-06-24T23:59:03+00:00",
+    "category": "open-source-ai",
+    "summary": "simonw/browser-compat-db 將 Mozilla 的瀏覽器相容資料轉為 SQLite 資料庫，使用 Claude Code 與 Codex Desktop 生成轉換腳本與 GitHub Actions 工作流程。可透過 Datasette Lite 直接查詢。",
+    "highlights": [
+      "使用 sqlite-utils 將 JSON 資料轉為 SQLite",
+      "Claude Code 與 Codex Desktop 輔助生成腳本",
+      "GitHub Actions 自動建置並發布到 orphan branch",
+      "~66MB 資料庫支援 CORS 可直接前端查詢",
+      "可搭配 Datasette Lite 進行視覺化探索"
+    ],
+    "why_it_matters": "展示如何用 AI 工具自動化維護公共資料庫，並提供可直接查詢的 API 端點。",
+    "automation_angle": null,
+    "automation_angle_zh": "可 fork 此專案修改為自己需要的資料轉換流程，或直接使用 SQLite 資料庫查詢瀏覽器相容性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-25-reddit-dgx-spark-ryzen-ai-max",
+    "title": "Reddit 討論：將 DGX Spark 與 Ryzen AI Max 叢集跑同一模型",
+    "title_original": "Any chance I could cluster my DGX Spark (128GB unified memory) and my AMD Ryzen AI Max 395 (128GM unified memory) together to run 1 model?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uerbyi/any_chance_i_could_cluster_my_dgx_spark_128gb/",
+    "published_at": "2026-06-24T21:57:43+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶討論是否可將兩台 128GB 統一記憶體設備（DGX Spark 與 Ryzen AI Max 395）叢集，以執行更大的模型。這是本地部署與硬體效能的技術探索。",
+    "highlights": [
+      "硬體叢集可行性技術討論",
+      "涉及 NVIDIA DGX Spark 與 AMD Ryzen AI Max",
+      "128GB 統一記憶體設備的擴展需求",
+      "社群驅動的技術交流非官方方案",
+      "對本地大模型部署有參考價值"
+    ],
+    "why_it_matters": "對於需要在本地跑大模型的技術人員，記憶體擴展與叢集方案是降低成本的重要途徑。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注此討論的結論，評估是否值得用類似方法擴展本地模型推論能力。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-25-notion-claude-ai-agent",
+    "title": "Notion 推出 Claude 驅動 AI Agent，可分析資料寫程式派任務",
+    "title_original": "Notion launches Claude-powered AI agents that can analyze data, write code, and assign tasks - Crypto Briefing",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE13bGtWUkxGdk5mZ3Jtb3o1dGRzcUJKWG5pLTU5VXdsZEd5bVBxVlRxVUdNM3lNLWxjcEc3S3FzaW01dUhKR2xkOE8yOFZxWHBsekJzUmFid3Q5OGh2T0M3WTJKYnBEMFhUYnA3S0tOenJIQQ?oc=5",
+    "published_at": "2026-06-24T20:21:07+00:00",
+    "category": "new-models",
+    "summary": "Notion 宣布推出 Claude 驅動的 AI Agent，支援資料分析、程式碼生成與任務指派。這是 Notion 產品能力的重大變化，可能影響文件自動化工作流程。",
+    "highlights": [
+      "Notion 官方產品發布，非傳聞",
+      "支援資料分析與程式碼生成",
+      "可指派任務並整合進現有工作區",
+      "基於 Claude 模型提供智慧能力",
+      "代表文件工具的 AI Agent 化趨勢"
+    ],
+    "why_it_matters": "Notion 作為廣泛使用的文件工具，其 AI Agent 能力將影響大量技術人員的日常工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在 Notion 中建立自動化流程，例如讓 Agent 自動整理會議記錄、生成任務清單或分析資料表。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-25-sdxl-webgpu",
+    "title": "SDXL 透過 WebGPU 實現瀏覽器端本地運行",
+    "title_original": "SDXL running locally in the browser on WebGPU, open-source",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uemzsb/sdxl_running_locally_in_the_browser_on_webgpu/",
+    "published_at": "2026-06-24T19:15:49+00:00",
+    "category": "open-source-ai",
+    "summary": "開源專案成功將 Stable Diffusion XL (SDXL) 移植至 WebGPU，可在瀏覽器內無需後端伺服器直接生成圖像。擺脫對雲端 GPU 的依賴，保護資料隱私。",
+    "highlights": [
+      "完全開源，無需雲端 GPU",
+      "瀏覽器原生執行，跨平台相容",
+      "生成速度受限於本機 WebGPU 效能",
+      "適合需要本地隱私的圖像生成場景",
+      "可離線運作"
+    ],
+    "why_it_matters": "瀏覽器端 SDXL 讓開發者可在任何設備快速原型圖像生成流程，省去 API 費用與隱私顧慮，是自動化設計工具的新選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "整合至網頁應用，自動化圖像素材生成流程；評估在目標設備上的生成速度是否滿足生產需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-24-llm-github-ai",
     "title": "求職者大量使用 LLM 撰寫履歷，GitHub 專案也疑遭 AI 生成",
     "title_original": "Quoting Tom MacWright",
