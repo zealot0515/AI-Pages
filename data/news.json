@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-06-26-reddit-rtx-pro-6000-blackwell-llama-cpp-qwen-2-7b",
+    "title": "Reddit 討論：RTX PRO 6000 Blackwell 上優化 llama.cpp 跑 Qwen 2.7B 程式碼任務",
+    "title_original": "Help optimizing llama.cpp + Qwen 27B on RTX PRO 6000 Blackwell for coding agents",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ug1j3i/help_optimizing_llamacpp_qwen_27b_on_rtx_pro_6000/",
+    "published_at": "2026-06-26T09:04:55+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/LocalLLaMA 有人詢問在 RTX PRO 6000 Blackwell 顯示卡上用 llama.cpp 跑 Qwen 2.7B 做程式碼任務的最佳化方式。討論涉及 CUDA 加速參數與批次大小調整，對想在高階消費級 GPU 上跑本地模型的技術人員有參考價值。",
+    "highlights": [
+      "RTX PRO 6000 屬 Blackwell 架構高階卡",
+      "llama.cpp 支援 CUDA 後端可進一步優化",
+      "Qwen 2.7B 參數量適合中階本地推論",
+      "焦點在程式碼補全/生成場景",
+      "討論為求助帖，具體優化方案需細讀原串"
+    ],
+    "why_it_matters": "在高效能消費級 GPU 上跑本地模型仍是許多技術人員的剛需。RTX PRO 6000 的 Blackwell 架構與 llama.cpp 的優化潛力值得關注，可作為本地程式碼 Agent 的成本評估參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員若持有類似等級 GPU，可參考討論中的 CUDA 參數調校方式，在本地架設 Qwen 2.7B 程式碼補全服務，替代雲端 API 降低長期使用成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-26-memlawb-ai-agent",
     "title": "memlawb：端到端加密、零知識的開源 AI Agent 記憶系統",
     "title_original": "Gitlawb/memlawb",
@@ -17193,6 +17221,34 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-06-26-meta-muse-spark-llama-4",
+    "title": "Meta Muse Spark 取代 Llama 4 部署於智慧眼鏡",
+    "title_original": "Meta's Muse Spark AI Model Replaces Llama 4 On Its Smart Glasses - UploadVR",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZWxBYktCNF9FdDhWVzZxcTVQRE9PS01NRndmRTBTNGlYbXRzSW4ycjh3NnJZLTYtdmMtaHpkUjFiX3E2UHA3MThlNG5UNDdYc19LaXZLd0l3T0o3dlJwTFFnYzV6enUzcHNTZVN0Y0xYMmNEaXJBcUJhWkxfZjRMX1RjNFN3WUtFbFE?oc=5",
+    "published_at": "2026-06-08T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "根據 UploadVR 報導，Meta 已以 Muse Spark 模型替換智慧眼鏡上的 Llama 4。Muse Spark 為 Meta 專為 AR 眼鏡場景優化的新模型，具備低延遲、低功耗特性，但目前未開源，細節有限。",
+    "highlights": [
+      "Meta 已將 Muse Spark 部署於 Ray-Ban 智慧眼鏡",
+      "取代原本的 Llama 4 模型",
+      "模型針對 AR 眼鏡低功耗、低延遲優化",
+      "目前未開源，詳細技術規格未揭露",
+      "反應 Meta 在端側 AI 模型的策略調整"
+    ],
+    "why_it_matters": "Meta 此舉顯示大廠正積極將模型蒸餾至端側，瞄準 AR/穿戴裝置市場。技術人員若關注端側 AI 部署，Muse Spark 的出現代表一種模型小型化與場景特化的趨勢。",
+    "automation_angle": null,
+    "automation_angle_zh": "目前 Muse Spark 未開源，技術人員無法直接使用，但可關注其模型壓縮與延遲優化的技術報告，日後若有蒸餾版本開源，可評估能否移植到自有的物聯網或邊緣裝置上。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-09-openai-agi",
     "title": "OpenAI 公布 AGI 願景藍圖：安全與普惠並重",
     "title_original": "Built to benefit everyone: our plan",
@@ -19488,6 +19544,34 @@
     "automation_angle_zh": "企業若規劃基於 Llama 建構商業產品，可繼續依賴開源版本；若有付費支援需求則可評估 Muse Spark 的企業功能與定價模式。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-alexandr-wang-meta-muse-spark-ai",
+    "title": "Alexandr Wang 為 Meta Muse Spark 辯護：僅為更大 AI 策略的「開胃菜」",
+    "title_original": "Alexandr Wang Defends Meta’s Muse Spark as an ‘Appetizer’ in Bigger A.I. Push - observer.com",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xSTg5eGd4YmZLS2F0X2xpWEFsell6cW9oMTFFTTNOdFZZMDdhSGU2MUllZF9pUE1ja2Fxc25fbW94bDRmUldHVTI0VnVvRGRMZ1djT3hGTDFiZ3RWR0QzNVlUZDRvN2QwSkExd1RsS0lteE55VHI0dnhySnM1dw?oc=5",
+    "published_at": "2026-06-05T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Scale AI CEO Alexandr Wang 在訪問中為 Meta 新推出的 Muse Spark 工具辯護，強調這只是 Meta 更大規模 AI 策略的開始。他暗示 Meta 的真正 AI 野心遠超目前所見，Muse Spark 只是預示未來更完整的 AI 產品線。",
+    "highlights": [
+      "Alexandr Wang 稱 Muse Spark 為「開胃菜」，暗示 Meta 有更全面的 AI 產品規劃",
+      "Meta 持續擴大 AI 工具矩陣，從 Llama 模型到創意工具形成完整生態",
+      "Scale AI 與 Meta 存在戰略合作關係，Wang 的言論可能反映雙方立場一致",
+      "Muse Spark 定位為創意與效率工具，瞄準個人與企業用戶市場",
+      "Meta AI 策略正從基礎模型向上層應用工具延伸"
+    ],
+    "why_it_matters": "Meta 的 AI 產品節奏受到業界高度關注。Wang 的言論暗示 Meta 正在構建更完整的 AI 生態系統，了解其短期與長期策略有助技術決策者評估合作與整合可能性。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 Meta 即將發布的 Muse Spark 更新，若具備 API 或工作流程整合能力，可評估其自動化創意內容生成的潛力。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
