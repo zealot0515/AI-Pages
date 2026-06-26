@@ -1,5 +1,230 @@
 [
   {
+    "id": "2026-06-26-agent-library-mcp",
+    "title": "Agent Library：知識庫 MCP 檢索伺服器",
+    "title_original": "arcadeai-labs/agent-library",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/arcadeai-labs/agent-library",
+    "published_at": "2026-06-26T00:29:16Z",
+    "category": "agent-skills",
+    "summary": "Agent Library 是個人知識庫 MCP 伺服器，提供檢索系統與 CLI，支援本地模型、文字、OCR、圖像與程式碼嵌入。可無縫對接 Claude、Cursor、ChatGPT 等主流 Agent 環境。",
+    "highlights": [
+      "支援本地模型部署，無需雲端 API",
+      "內建 OCR 視覺與程式碼嵌入能力",
+      "CLI 工具快速查詢個人知識庫",
+      "可直接插入 Claude、Cursor 環境使用",
+      "Python 開源，可自架或 Fork 客製"
+    ],
+    "why_it_matters": "把個人文件變成可被 AI Agent 即時查詢的知識庫，大幅減少每次對話時重複說明背景的 Token 消耗。",
+    "automation_angle": null,
+    "automation_angle_zh": "將內部文件庫匯入，建立本地知識檢索系統，供 Agent 即時查閱技術文件或需求規格。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/256061990?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-hugging-face-jobs-vllm",
+    "title": "Hugging Face Jobs 一鍵部署 vLLM 推論伺服器",
+    "title_original": "Run a vLLM Server on HF Jobs in One Command",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/vllm-jobs",
+    "published_at": "2026-06-26T00:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格介紹如何透過 HF Jobs 在雲端一鍵部署 vLLM 推論伺服器，簡化自托管大語言模型的基礎設施配置流程，降低自建推論服務的技術門檻。",
+    "highlights": [
+      "一個指令完成 vLLM 伺服器啟動",
+      "整合 Hugging Face 生態系可直接載入模型",
+      "支援 GPU 加速推論提升吞吐量",
+      "減少 Kubernetes 等複雜基礎設施配置需求",
+      "提供成本估算協助規劃資源使用"
+    ],
+    "why_it_matters": "將 vLLM 推論服務部署流程標準化可節省工程團隊配置基礎設施的時間，讓開發者更專注於模型應用層而非底層部署細節。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 HF Jobs 快速啟動 vLLM 端點，用 API 對自選模型進行壓測，評估延遲與吞吐量是否符合生產需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-kanban-ai",
+    "title": "開源本地優先 Kanban 工作流程讓 AI 編碼代理自主執行",
+    "title_original": "Built an open source local first Kanban workflow for running AI coding agents without babysitting every step",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufq3cz/built_an_open_source_local_first_kanban_workflow/",
+    "published_at": "2026-06-25T23:29:34+00:00",
+    "category": "open-source-ai",
+    "summary": "社群開發者開源一套本地優先的 Kanban 工作流程系統，讓 AI 編碼代理可在無需人工持續盯梢的情況下自主運作，透過任務看板管理代理的執行狀態與進度。",
+    "highlights": [
+      "完全本地運行不依賴雲端服務保障資料隱私",
+      "以 Kanban 形式視覺化 AI 代理的任務執行狀態",
+      "支援設定檢查點讓人類在關鍵節點審核代理行為",
+      "可與現有本地 LLM 流程整合",
+      "開源可自行部署修改適合企業內部使用"
+    ],
+    "why_it_matters": "為 AI 代理建立結構化工作框架可提升自動化可靠性，減少代理偏離預期行為或進入無效迴圈的風險，是工程團隊評估本地 AI 代理實用性的參考架構。",
+    "automation_angle": null,
+    "automation_angle_zh": "clone 此專案並對接自己的本地 LLM，測試代理是否能按看板狀態正確推進任務並在檢查點暫停等待確認。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-audio-cpp-12-c-python-cuda-5",
+    "title": "audio.cpp 整合 12 個音訊模型 C++ 推論比 Python CUDA 快 5 倍",
+    "title_original": "audio.cpp: 12 audio models (Qwen3-TTS, PocketTTS, VeVo2 etc) in 1 C++/ggml runtime — TTS up to 5x faster than Python on CUDA",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufpnm6/audiocpp_12_audio_models_qwen3tts_pockettts_vevo2/",
+    "published_at": "2026-06-25T23:10:53+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者將 Qwen3-TTS、PocketTTS、VeVo2 等 12 個音訊模型整合至統一的 C++/ggml 執行環境，在 CUDA 硬體上實現比 Python 實作快達 5 倍的 TTS 推論效能。",
+    "highlights": [
+      "支援 Qwen3-TTS、PocketTTS、VeVo2 等多種模型",
+      "C++/ggml 統一執行環境簡化部署",
+      "CUDA 加速理論效能提升達 5 倍",
+      "降低即時語音應用的硬體需求門檻",
+      "開源可自行編譯整合至既有音訊管線"
+    ],
+    "why_it_matters": "高效能的本地 TTS 推論對邊緣裝置和即時語音介面至關重要，C++ 實作提供更穩定的延遲表現，是建構低延遲語音應用的可行技術路徑。",
+    "automation_angle": null,
+    "automation_angle_zh": "編譯 audio.cpp 並用實際語音合成任務測試延遲，比較與 Python 實作在回應時間與記憶體佔用的差異，評估是否適合自家的語音介面專案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-ai-bruce-schneier",
+    "title": "AI與責任歸屬：Bruce Schneier論德國法院裁決",
+    "title_original": "AI and Liability",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything",
+    "published_at": "2026-06-25T22:28:46+00:00",
+    "category": "hot-topics",
+    "summary": "安全專家Bruce Schneier針對德國法院裁定Google需為其AI概述錯誤負責一事發表評論。他認為部署AI的組織應如同僱用人類員工般承擔法律責任，而非以「AI故障」作為免責藉口。此裁決若成定例，將直接影響企業部署AI工具的風險評估與合規策略。",
+    "highlights": [
+      "德國法院裁定Google需為AI概述中的錯誤負責",
+      "Schneier主張AI代理應視為部署者的工具，由部署者承擔責任",
+      "若AI可免責，企業將傾向以AI取代人類以規避法律風險",
+      "裁決可能迫使企業重新審視AI部署的風險管理機制",
+      "此先例對AI法律責任框架具有深遠影響"
+    ],
+    "why_it_matters": "此裁決確立了AI錯誤的法律歸屬原則，對所有部署生成式AI工具的企業和開發者而言，意味著必須將合規審查納入AI工作流程程，否則可能面臨與人類員工同等級的法律責任。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員在選擇或整合AI API時，應新增「供應商責任條款」審查項目，並評估輸出內容的錯誤成本是否在可接受範圍內。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-jetspec-9-64-llm",
+    "title": "JetSpec：並行樹草稿推測解碼實現9.64倍LLM推論加速",
+    "title_original": "[Research] JetSpec: Speculative Decoding with Parallel Tree Drafting Enables up to 9.64x Lossless LLM Inference Speedup with more than 1000TPS",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufntl5/research_jetspec_speculative_decoding_with/",
+    "published_at": "2026-06-25T21:55:02+00:00",
+    "category": "open-source-ai",
+    "summary": "研究團隊發表JetSpec技術，透過並行樹草稿（Parallel Tree Drafting）機制實現推測解碼加速。實測可在保持輸出品質的前提下，將LLM推論速度提升最高9.64倍，吞吐量超過1000 TPS，為本地部署大型語言模型提供顯著效能優化方案。",
+    "highlights": [
+      "採用並行樹草稿架構同時生成多個推測候選",
+      "支援超過1000 TPS的高吞吐量推論",
+      "號稱可實現無損（Lossless）的推論加速",
+      "適用於各類LLM模型的通用加速方案",
+      "源代碼與論文已公開可供驗證"
+    ],
+    "why_it_matters": "推論速度一直是本地部署LLM的主要瓶頸，JetSpec若如論文所述可實現在不犧牲輸出品質下的大幅加速，將直接降低本地AI應用的硬體需求門檻，使個人開發者更容易運行高效能的本地模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在自己的硬體環境中安裝測試JetSpec，比較其在特定模型（如Mistral、LLaMA）上的實際加速效果，並評估是否整合至現有的本地推論管線。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-copilot-code-review",
+    "title": "Copilot Code Review 成本效率升級",
+    "title_original": "Copilot code review: Analysis depth and efficiency updates",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates",
+    "published_at": "2026-06-25T21:41:18+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方公告指出 Copilot Code Review 已利用內建檔案探索工具重構，顯著提升成本效率且不改變現有工作流程程。屬於 GitHub 官方變更記錄，可信度高。",
+    "highlights": [
+      "使用 Copilot 內建檔案探索工具替代外部呼叫",
+      "成本效率提升，API 消耗預期降低",
+      "無需變更現有 CI/CD 流程即可受益",
+      "GitHub 官方變更記錄，可直接驗證",
+      "分析深度與廣度維持不變"
+    ],
+    "why_it_matters": "若成本下降，團隊可擴大 Code Review 頻率或覆蓋範圍，間接提升程式碼品質而不增加預算。",
+    "automation_angle": null,
+    "automation_angle_zh": "觀察下月 API 帳單是否有明顯降幅，若有效可考慮擴大 Copilot 集成範圍。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-26-github-copilot-strictknownmarketplaces",
+    "title": "GitHub Copilot 企業托管設定支援 strictKnownMarketplaces 插件管控",
+    "title_original": "Enterprise-managed settings now support strictKnownMarketplaces in VS Code and GitHub Copilot CLI",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli",
+    "published_at": "2026-06-25T21:30:42+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot CLI 與 VS Code 的企業托管設定新增 strictKnownMarketplaces 功能，管理員可嚴格管控組織成員能安裝的插件範圍，現已進入公開預覽階段。",
+    "highlights": [
+      "管理員可定義白名單式插件管控策略",
+      "同時支援 VS Code 與 Copilot CLI 兩端",
+      "減少未授權擴展帶來的安全與合規風險",
+      "已開放公開預覽企業可先行測試",
+      "與現有企業托管設定機制整合無需額外部署"
+    ],
+    "why_it_matters": "企業在部署 AI 輔助工具時常面臨插件生態帶來的管理盲點，此功能讓資安團隊能以白名單機制控制 AI 工具的延伸能力範圍。",
+    "automation_angle": null,
+    "automation_angle_zh": "在企業測試環境啟用 strictKnownMarketplaces，驗證政策是否正確封鎖未授權插件並評估對團隊既有工作流程程的影響。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-06-25-langchain-smithdb",
     "title": "LangChain 深入解析 SmithDB 全文檢索的倒排索引架構",
     "title_original": "How we built SmithDB’s inverted index for full-text search",
@@ -21,6 +246,34 @@
     "automation_angle_zh": "可參考其架構將 SmithDB 整合至 LangChain 代理工作流程中，針對內部文件建立檢索索引，實現自動化文件問答或資訊提取。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-rag-api-llm",
+    "title": "快速醫療 RAG API 賦予本地 LLM 精確醫療事實檢索能力",
+    "title_original": "Fast medical RAG API to give your local LLMs access to facts",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufhqys/fast_medical_rag_api_to_give_your_local_llms/",
+    "published_at": "2026-06-25T18:08:31+00:00",
+    "category": "open-source-ai",
+    "summary": "社群開發者發布快速醫療領域 RAG API，旨在為本地大語言模型提供可靠醫療事實檢索能力，減少模型在醫療應用場景中的幻覺問題並提升回答準確度。",
+    "highlights": [
+      "專為醫療文獻優化的檢索引擎",
+      "API 形式易於與現有 LLM 系統整合",
+      "可本地部署保障病患資料隱私合規",
+      "基於公開醫療資料庫建構事實基礎",
+      "開源可審視檢索邏輯與資料來源"
+    ],
+    "why_it_matters": "醫療 AI 應用對準確性要求極高，此 RAG API 提供可控的事實基礎層，讓本地模型在醫療場景的輸出更可信可用，是臨床決策支援系統的潛在建構塊。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此 API 串接至醫療文件分析工作流程，評估檢索結果的召回率與精確度，驗證是否能有效抑制模型在醫療主題上的幻覺輸出。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
@@ -139,6 +392,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-github-copilot-for-jira-ga",
+    "title": "GitHub Copilot for Jira 正式開放 GA",
+    "title_original": "GitHub Copilot for Jira is now generally available",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-25-github-copilot-for-jira-is-now-generally-available",
+    "published_at": "2026-06-25T15:18:46+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot for Jira 完成公開預覽正式開放GA，自三月預覽以來持續根據用戶回饋進行功能增強，包括模型選擇功能。開發者可在 Jira 中直接獲得 AI 輔助的任務管理體驗。",
+    "highlights": [
+      "正式支援模型選擇，可依專案需求切換不同模型",
+      "支援自動建立 Jira ticket 減少手動操作",
+      "可在 Jira 介面內直接與 Copilot 互動管理任務",
+      "基於公開預覽階段用戶回饋持續優化",
+      "整合 GitHub 生態系與專案管理流程"
+    ],
+    "why_it_matters": "將 AI 輔助直接嵌入 Jira 工作流程程，可減少開發者在專案管理工具與 AI 工具間來回切換的上下文斷裂問題，提升任務處理效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Copilot for Jira 自動化例行回報狀態、分類 issue 或生成 Sprint 摘要，減少手動更新專案板的時間成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-06-25-llama-cpp-b9788-intel-gpu",
@@ -43848,6 +44129,34 @@
     "automation_angle_zh": "追蹤Meta官方公告，若開源模型發布，立即在 Hugging Face 測試其推論能力與成本效益，評估能否整合進現有自動化流程。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-ai-developer-tools-2026",
+    "title": "AI Developer Tools 2026 工具彙整列表",
+    "title_original": "AI Developer Tools 2026: Agents, IDEs, APIs, and Self-Hosted Stack Hub - abhs.in",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12dHJzMWV1VEV3VTBFb1lRNVlqVHFIVXR1VndLMnpaYVIza1hMRl91VENwOFJLMUNzNDF3OUJsNV9zVFJvM21uc1NPTmNvS291dDlpdWVxS0F0SlFP?oc=5",
+    "published_at": "2026-04-04T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "第三方彙整文章整理 2026 年主流 AI 開發工具，涵蓋 Agent 框架、IDE 整合、API 方案與自架部署選項。屬於清單型內容，資訊量大但原創分析有限。",
+    "highlights": [
+      "收錄 2026 年主流 Agent 與 IDE 工具",
+      "涵蓋 API 串接與自架部署選項",
+      "清單式整理，適合快速掃描市場概況",
+      "第三方非官方來源，需自行驗證",
+      "原創分析內容偏少"
+    ],
+    "why_it_matters": "可作為市場現況速查參考，但不宜作為決策依據，仍需追蹤各工具官方文件或實際測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "從列表中挑選 2-3 個有興趣的工具，本週實際安裝或跑 Demo 驗證其能力。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
