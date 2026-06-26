@@ -1,5 +1,288 @@
 [
   {
+    "id": "2026-06-26-cc-codex-opencode",
+    "title": "CC、Codex 與 Opencode 的上下文壓縮技術比較",
+    "title_original": "Compaction in CC, Codex, and Opencode | Lexifina",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugf0li/compaction_in_cc_codex_and_opencode_lexifina/",
+    "published_at": "2026-06-26T18:33:03+00:00",
+    "category": "agent-skills",
+    "summary": "Lexifina 技術部落格深入分析 Copilot Workspace（CC）、OpenAI Codex 與 Opencode 在處理長上下文時的 Compaction（壓縮）策略差異。文章揭露各模型如何決定保留關鍵程式碼片段、壓縮註解、合併相似邏輯，以在有限 context window 內最大化有效資訊密度。測試涵蓋重構、代碼解釋、多檔案修改三大場景。",
+    "highlights": [
+      "CC 採用動態語意壓縮，優先保留函式簽名與變數關聯",
+      "Codex 傾向結構化摘要，犧牲註解換取邏輯完整性",
+      "Opencode 開源方案使用分层压缩策略",
+      "壓縮品質直接影響長程任務成功率",
+      "測試結果顯示無單一方案全面勝出，需依場景選擇"
+    ],
+    "why_it_matters": "上下文窗口限制是 AI 編碼助理處理大型專案的主要瓶頸。理解各方案的壓縮邏輯，有助開發者針對自身專案規模選擇最適工具或設計提示策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可利用此分析，針對超過 10K 行的大型專案，測試切換至 Opencode 或調整 Codex 的 system prompt，觀察長程重構任務的完成率變化。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-langchain-deep-agents-prompt-caching-80-token",
+    "title": "LangChain Deep Agents：Prompt Caching 技術可省 80% Token 成本",
+    "title_original": "Prompt Caching with Deep Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/deep-agents-prompt-caching",
+    "published_at": "2026-06-26T18:09:42+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 部落格揭露 Deep Agents 專案透過 Prompt Caching 在所有主流模型供應商上實現高達 80% Token 成本削減。技術原理為重複利用對話前綴，無需額外設定即可自動生效。",
+    "highlights": [
+      "無需修改現有 prompt 或額外設定",
+      "支援所有主流 LLM 供應商",
+      "理論最高節省 80% Token 消耗",
+      "LangChain 官方驗證並發布實測數據",
+      "適用於長對話或多輪 Agent 應用"
+    ],
+    "why_it_matters": "對於日均 API 呼叫量大的開發團隊，80% 成本削減可直接改善 AI 工具 ROI。此技術門檻低，建議儘早評估並部署至現有 Agent 流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 LangChain 環境中啟用 Deep Agents，觀察實際 Token 節省比例；若成效顯著，可考慮將類似邏輯移植至自架 Agent 框架以降低 API 費用。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-26-rustchain-mcp-rustchain-bottube-mcp",
+    "title": "rustchain-mcp：RustChain 區塊鏈與 BoTTube 平台的 MCP 伺服器",
+    "title_original": "Scottcjn/rustchain-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Scottcjn/rustchain-mcp",
+    "published_at": "2026-06-26T18:00:46Z",
+    "category": "agent-skills",
+    "summary": "基於 createkr 的 RustChain SDK 建構的 MCP 伺服器，提供 AI Agent 操作 RustChain 區塊鏈與 BoTTube 影片平台的功能，可用於賺取 RTC 代幣，目前 97 stars。",
+    "highlights": [
+      "Python 實作，基於 RustChain SDK",
+      "提供區塊鏈操作與影片平台工具接口",
+      "可用 AI Agent 自動化執行代幣相關任務",
+      "GitHub 97 stars，反映社群興趣",
+      "屬於新興專案，成熟度待驗證"
+    ],
+    "why_it_matters": "展示了 MCP 協定在區塊鏈與 Web3 場景的應用潛力，為 AI Agent 操控區塊鏈任務提供參考範例。",
+    "automation_angle": null,
+    "automation_angle_zh": "對 Web3 應用開發者而言，可研究其程式碼結構，將 MCP 協定應用於自有的區塊鏈自動化腳本或 Agent 工具。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/121303252?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-oculairmedia-letta-mcp-server-rust-letta-agent-mcp",
+    "title": "oculairmedia/Letta-MCP-server：Rust 實作的 Letta 記憶型 Agent MCP 伺服器",
+    "title_original": "oculairmedia/Letta-MCP-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/oculairmedia/Letta-MCP-server",
+    "published_at": "2026-06-26T17:38:53Z",
+    "category": "open-source-ai",
+    "summary": "GitHub 出現 Rust 實作的 Letta MCP 伺服器，可管理 Letta 伺服器並與 Agent 溝通。專注於讓 Agent 具備長期記憶能力，現有 76 stars。Rust 語言特性確保高效能與記憶體安全，適合需要狀態管理的 Agent 應用場景。",
+    "highlights": [
+      "Rust 實作，記憶體安全且高效能",
+      "可管理 Letta 伺服器並與 Agent 溝通",
+      "解決 Agent 長期記憶狀態管理問題",
+      "76 stars，社群關注度中等但持續成長",
+      "今天可 clone 並以 Rust 編譯測試"
+    ],
+    "why_it_matters": "Agent 若缺乏長期記憶則無法勝任複雜多步驟任務。此專案提供開源方案讓開發者快速為 Agent 加上狀態管理，降低建構，生產力 Agent 的進入門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "clone 後以 cargo build 編譯，結合現有 MCP client 測試其記憶持久化效果，評估是否可替代昂貴的外部記憶服務。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/15231545?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-linkedin-mcp-linkedin-api-mcp-profile",
+    "title": "linkedin-mcp：LinkedIn API 的 MCP 伺服器，管理 profile、貼文、連線",
+    "title_original": "quinnjr/linkedin-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/quinnjr/linkedin-mcp",
+    "published_at": "2026-06-26T17:38:44Z",
+    "category": "agent-skills",
+    "summary": "TypeScript 實作的 MCP 伺服器，完整對接 LinkedIn API，支援 AI Agent 管理個人 profile、發布貼文、建立人脈、管理技能、學歷、證照等資訊，目前 25 stars。",
+    "highlights": [
+      "TypeScript 實作，Node.js 生態友好",
+      "支援管理 LinkedIn profile、發文、建立連線",
+      "涵蓋技能、學歷、證照等豐富欄位",
+      "可讓 AI Agent 自動化 LinkedIn 操作",
+      "25 stars 顯示社群早期關注階段"
+    ],
+    "why_it_matters": "LinkedIn 操作自動化可節省業務與招募人員重複性工作時間，MCP 協定標準化介面降低整合門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將其整合進個人 LinkedIn 自動化腳本，例如自動追蹤特定用戶、定期發布預排內容、或依條件自動管理連線請求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/423821?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-item",
+    "title": "專書評測：領域特定小型語言模型發展趨勢",
+    "title_original": "Book Review: Domain-Specific Small Language Models by Guglielmo Iozzia",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugdj86/book_review_domainspecific_small_language_models/",
+    "published_at": "2026-06-26T17:38:07+00:00",
+    "category": "new-models",
+    "summary": "Guglielmo Iozzia 發布新書《Domain-Specific Small Language Models》評測，探討如何針對醫療、法律、金融等垂直領域訓練小型化語言模型。書中分析蒸餾技術、量化策略與領域微調方法，評估 1B-7B 參數模型在特定任務的性價比表現。Reddit LocalLLaMA 社群對此書在專業任務應用的實用性展開討論。",
+    "highlights": [
+      "聚焦 1B-7B 參數規模的領域專用模型訓練方法",
+      "涵蓋蒸餾、量化、領域微調三大核心技術",
+      "強調小型模型在特定任務的性價比優勢",
+      "涉及醫療、法律、金融等高價值垂直場景",
+      "Reddit 討論顯示實用性評價正面但需自行驗證"
+    ],
+    "why_it_matters": "小型領域模型是降低成本、提升部署效率的關鍵方向。對於需要在本機或邊緣裝置運行專業 AI 的開發者，此書提供系統性技術參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可依據書中方法論，評估使用 Llama 3.1 8B 或 Qwen 2.5 7B 搭配領域資料微調，替代昂貴的 GPT-4 API 完成特定任務。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-openai-gpt-5-6-sol-terra-luna",
+    "title": "OpenAI GPT-5.6 三子型正式預覽：Sol / Terra / Luna 定價與能力揭曉",
+    "title_original": "Quoting OpenAI",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/26/openai/#atom-everything",
+    "published_at": "2026-06-26T17:10:43+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 宣布 GPT-5.6 系列限量預覽，包含 Sol（旗艦）、Terra（均衡）、Luna（平價）三款模型，定價分別為 Sol $5/$30、Terra $2.50/$15、Luna $1/$6 per 1M tokens。",
+    "highlights": [
+      "Sol 為旗艦模型，$5 input / $30 output",
+      "Terra 性價比佳，號稱效能比 GPT-5.5 相當但便宜 2 倍",
+      "Luna 為最低價型號，$1 input / $6 output",
+      "支援明確快取斷點與 30 分鐘最低快取生命週期",
+      "目前限量預覽，預計數週內全面開放"
+    ],
+    "why_it_matters": "Terra 的 2x 成本優勢與 Luna 的低價定位，預期將影響 AI 工具開發者的模型選擇與成本結構，需重新評估既有工作流程的模型搭配。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可根據任務需求重新分配模型使用：簡單任務用 Luna 降低成本、複雜任務用 Terra 平衡效能與成本、旗艦任務用 Sol。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-reddit-4b-idle-on-device",
+    "title": "Reddit 實驗：4B 參數本地模型搭配 idle蒸餾管線實現on-device記憶助理",
+    "title_original": "Getting real work out of a 4B local model: the distill-on-idle pipeline behind an on-device \"memory\" assistant",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugcsfv/getting_real_work_out_of_a_4b_local_model_the/",
+    "published_at": "2026-06-26T17:10:09+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串分享如何利用閒置蒸餾管線，讓 4B 規模的本地模型在端裝置上運行具有「記憶」能力的助理。透過在idle時間預處理與蒸餾，降低本地部署的資源需求，同時保持合理的回應品質。",
+    "highlights": [
+      "4B 參數規模，適合消費級硬體",
+      "利用 idle 時間進行蒸餾降低成本",
+      "實現 on-device 長期記憶能力",
+      "Reddit 社群經驗分享，未有完整開源 repo",
+      "適合對隱私與延遲有要求的場景"
+    ],
+    "why_it_matters": "本地模型搭配記憶能力，可實現完全離線的個人 AI 助理，對在意資料隱私或網路延遲的開發者極具吸引力。若管線成熟，將大幅降低私人 AI 助理的部署門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤該討論串後續是否有作者釋出完整 code 或 step-by-step 指南，評估其與現有 Ollama 或 LM Studio 的整合可能性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-microsoft-mai-code-1-flash-copilot-business-enterprise",
+    "title": "Microsoft MAI-Code-1-Flash 登陸 Copilot Business 與 Enterprise 全面可用",
+    "title_original": "MAI-Code-1-Flash for Copilot Business and Copilot Enterprise",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
+    "published_at": "2026-06-26T16:35:06+00:00",
+    "category": "agent-skills",
+    "summary": "Microsoft AI 自研 coding 模型 MAI-Code-1-Flash 正式對 GitHub Copilot Business 與 Enterprise 全面開放。專為程式碼生成優化，整合至 Microsoft Copilot 生態系，企業用戶可直接在日常開發工具中啟用。",
+    "highlights": [
+      "Microsoft 自研 coding 模型正式 GA",
+      "已整合至 GitHub Copilot Business 與 Enterprise",
+      "專為程式碼生成任務優化",
+      "企業用戶無需額外申請即可使用",
+      "可能衝擊現有第三方 coding assistant 市場"
+    ],
+    "why_it_matters": "Microsoft 將自研 coding 模型直接注入 Copilot 生態系，企業若已使用 Microsoft 365 或 Azure 服務，可無縫獲得更符合內部需求的 coding AI，降低對外部模型的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業 IT 管理員可透過 Copilot 管理後台評估該模型在程式碼補全、測試生成等任務上的表現，對比現有方案的成本與準確率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-26-openai-gpt-5-6-sol-coding",
+    "title": "OpenAI 預覽 GPT-5.6 Sol：下一代模型強化coding、科學與資安能力",
+    "title_original": "Previewing GPT-5.6 Sol: a next-generation model",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/previewing-gpt-5-6-sol",
+    "published_at": "2026-06-26T10:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 官方博客預覽 GPT-5.6 Sol，為下一代模型，成為迄今最先進的安全堆疊。在coding、科學推論與網路安全等領域展現更強能力，為開發者與企業提供更可靠 AI 輔助工具，強調能力與安全性並重。",
+    "highlights": [
+      "官方確認為 GPT 系列下一代版本，非內部代號",
+      "強化coding、科學推論、網路安全三大領域",
+      "配備史上最強安全堆疊，強調負責任 AI",
+      "由 OpenAI 官方博客發布，可信度高",
+      "具體發布時間與定價尚未揭露"
+    ],
+    "why_it_matters": "GPT-5 系列首度有官方預覽流出，代表 OpenAI 即將進入新一代產品週期。開發者應評估其能力邊界是否匹配當前工作負載，提前規劃整合策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤其 API 定價與功能文件，待正式發布後以 Sandbox 環境測試現有工作流程遷移可行性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-26-reddit-rtx-pro-6000-blackwell-llama-cpp-qwen-2-7b",
     "title": "Reddit 討論：RTX PRO 6000 Blackwell 上優化 llama.cpp 跑 Qwen 2.7B 程式碼任務",
     "title_original": "Help optimizing llama.cpp + Qwen 27B on RTX PRO 6000 Blackwell for coding agents",
@@ -111,6 +394,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/256061990?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-lg-u-chatgpt-gemini-45",
+    "title": "LG U+ 電信用戶訂閱 ChatGPT、Gemini 最高享 45% 折扣",
+    "title_original": "ChatGPT、Gemini訂閱费使用LG U+手机支付時最高减免45% - 아시아경제",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBkQ0FFeUE0MVRpSGNjUGo0ZG8xODhheHlaU1dLaFE5VWdwMW1oSzFxTVBtVFRXc2dRTmVqZ0UybjloRlVRNlItb2lJVWpsNDQ3aDdxZXl4MjRuWl93d010eEFmQ09qZw?oc=5",
+    "published_at": "2026-06-26T00:12:54+00:00",
+    "category": "ai-deals",
+    "summary": "韓國 LG U+ 電信宣布，用戶透過其手機支付訂閱 ChatGPT Plus 或 Gemini Advanced，最高可享 45% 費用減免。此優惠適用於特定訂閱方案，詳情需至亞洲經濟新聞確認原始公告。台灣、香港用戶無法直接使用此優惠，但反映了電信業者綁定 AI 訂閱的商業模式趨勢。",
+    "highlights": [
+      "LG U+ 韓國電信用戶專屬，非全球適用",
+      "優惠幅度最高 45%，具體方案內容待確認",
+      "反映電信與 AI 服務商合作綁定趨勢",
+      "對在韓國工作或居住的技術人員可能有價值",
+      "原始連結為亞洲經濟新聞，屬於區域性財經媒體"
+    ],
+    "why_it_matters": "電信業者開始將 AI 訂閱服務納入客戶忠誠計畫，代表 AI 消費模式正走向生態系整合。技術人員若在韓國有業務，可評估此優惠實際節省幅度。",
+    "automation_angle": null,
+    "automation_angle_zh": "僅限韓國 LG U+ 用戶，建議在韓技術人員直接至電信官網或韓亞經濟確認資格與適用方案，評估是否符合自身訂閱需求。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
