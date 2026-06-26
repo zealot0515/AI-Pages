@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-06-26-memlawb-ai-agent",
+    "title": "memlawb：端到端加密、零知識的開源 AI Agent 記憶系統",
+    "title_original": "Gitlawb/memlawb",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Gitlawb/memlawb",
+    "published_at": "2026-06-26T06:37:57Z",
+    "category": "agent-skills",
+    "summary": "memlawb 是一套可自架的開源記憶系統，伺服器只儲存加密 ciphertext，無法解密 Agent 的記憶內容。支援任何 MCP 協定的 Agent，適合需要長期記憶但不想暴露資料給第三方的技術團隊。",
+    "highlights": [
+      "端到端加密，伺服器無法讀取記憶內容",
+      "支援標準 MCP 協定，與主流 Agent 框架相容",
+      "TypeScript 實作，13 stars，仍屬早期專案",
+      "可自架部署，完全掌控資料主權",
+      "Zero-knowledge 設計適合高敏感度應用場景"
+    ],
+    "why_it_matters": "當 Agent 需要跨 session 記住使用者偏好或長期任務狀態時，memlawb 提供了不必信任第三方伺服器的加密方案，對企業內部部署有吸引力。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地 Docker 架起 memlawb server，對接到現有的 MCP Agent，測試加密記憶是否能滿足專案隱私需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/268502891?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-26-lg-u-ai-45",
+    "title": "LG U+ 韓國電信推出 AI 訂閱話費代扣優惠，最高 45% 帳單減免",
+    "title_original": "LG U+推AI訂閱话费代扣優惠 最高享45%账单减免 - 디지털투데이",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUHE2UU1ZbTg0alZUQWFUT1VtcXhhZGhVaFl6UV8za0VfdFFoeE5Bd2F2U0M2Vy00SGc3REZoUjk1NklZWWVhN0VFVVd6U2xrMTVSa2lQM2ZCajg2OE5veGloZWRqM0lsSzAzcS01R19ydzdkOXZ6V2lTenM3WFZmbl9relkxbUt0YVRsMFlSTXd5R3RVZDI4SVduNHdYTTVMRDVSdWRQOEpfVlhFVkhxX212VTU4WkVGQzBMV2V0YzgwN1pfMHBoRjd3SGRZb00?oc=5",
+    "published_at": "2026-06-26T00:36:26+00:00",
+    "category": "ai-deals",
+    "summary": "南韓 LG U+ 推出 AI 訂閱服務與話費代扣優惠，號稱最高 45% 帳單減免。此優惠屬韓國地區電信方案，對台港技術讀者實用性有限，但可留意其商業模式作為參考。",
+    "highlights": [
+      "LG U+ 為南韓第三大電信商",
+      "AI 訂閱與話費代扣捆綁行銷",
+      "減免幅度最高 45%，具體門檻未揭露",
+      "主要針對韓國用戶，非全球性優惠",
+      "DIGITAL DAILY 報導，資訊粒度有限"
+    ],
+    "why_it_matters": "對非韓國讀者直接價值低，但這種「AI 訂閱 + 電信帳單整合」模式可能是未來東亞市場常見的 AI 變現方向，值得觀察趨勢。",
+    "automation_angle": null,
+    "automation_angle_zh": "此優惠目前對技術工作流程無直接幫助，可略過，但建議記住「電信 + AI 訂閱」的商業模式作為產品定價策略參考。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-26-agent-library-mcp",
     "title": "Agent Library：知識庫 MCP 檢索伺服器",
     "title_original": "arcadeai-labs/agent-library",
@@ -47823,6 +47880,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-26-mistral-agent-api-python-rag",
+    "title": "Mistral 發布 Agent API：支援 Python 執行、圖像生成與 RAG",
+    "title_original": "Mistral launches API for building AI agents that run Python, generate images, perform RAG and more - Venturebeat",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbzZaczlXbkI2Y2RqVE9YX0Z6LXoyeDBieU4teWpHemJBdlY0Y1JkdnBHNUVfWkRvV29BTGF4YWZxdXhSZmJoWmM2V2lOZWF2WGkybmxjOWtEZ0N1bzh2aFFSeHFtdVJEZnl1ZFNzZmtRWm1UcnR1LWVsaHRCWXlKNGZIcUtsVmxNZ3pkcVlRZE9FeWh4VkFGVHdXSVN4LVZxa2pMWi1ZMGZLNE9BUnc2RHBlcVFFajQ2QmhWQjZuT0c4YWI2WmdJSk5xUQ?oc=5",
+    "published_at": "2025-05-27T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Mistral 正式推出 Agent API，可直接在對話中執行 Python 程式碼、生成圖像、進行 RAG 檢索等操作。這代表 Mistral 從純文字模型供應商升級為一站式 Agent 平台，工程師可直接用 API 建構多步驟工作流程。",
+    "highlights": [
+      "原生支援程式碼執行，可做動態計算或資料處理",
+      "圖像生成與 RAG 整合在同一 API 介面",
+      "可串聯成多步驟 Agent 工作流程",
+      "與 Mistral 現有模型（Le Chat、La Plateforme）生態整合",
+      "VentureBeat 報導，可信度中等偏高"
+    ],
+    "why_it_matters": "如果你的應用需要「邊聊邊算邊生成」一條龍流程，Mistral Agent API 可能減少你需要串接的第三方服務數量，降低系統複雜度與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Mistral Platform 申請 API key，先用一個 prompt 測試「查資料→Python處理→生成報告」的三合一流程，評估能否取代現有 LangChain chain。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-06-02-mistral-ai-devstral",
