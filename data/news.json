@@ -1,5 +1,174 @@
 [
   {
+    "id": "2026-06-27-agent-memory-engine-mcp-agent",
+    "title": "agent-memory-engine：本地優先的 MCP 記憶引擎，為程式碼 Agent 注入持久記憶",
+    "title_original": "uudam42/agent-memory-engine",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/uudam42/agent-memory-engine",
+    "published_at": "2026-06-27T18:18:49Z",
+    "category": "agent-skills",
+    "summary": "agent-memory-engine 是一款本地優先的 MCP 伺服器，為程式碼 Agent 提供持久化、基於證據的專案記憶。系統會自動建構專案知識庫，於複雜任務前檢索相關架構、約束、事故與原始碼上下文，並在任務成功後留存驗證過的經驗。",
+    "highlights": [
+      "本地優先 MCP 伺服器，專為程式碼 Agent 設計",
+      "自動建構專案知識庫，包含架構與約束資訊",
+      "任務執行前自動檢索相關上下文",
+      "任務成功後留存驗證過的經驗與教訓",
+      "可減少 Agent 在長期專案中的上下文遺漏問題"
+    ],
+    "why_it_matters": "記憶持久化是 Agent 在大型長期專案中維持一致性的關鍵瓶頸，此工具提供了一套本地可控的解決方案，對維護大型程式碼庫的團隊尤其實用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其整合進現有的 MCP 工具鏈，在處理大型重構或跨模組任務時，讓 Agent 能存取完整專案歷史，減少重複犯錯與上下文斷裂。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/205391171?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-reddit-google",
+    "title": "Reddit 熱議：Google 仍看好小型模型在程式碼領域的應用",
+    "title_original": "Even Google still believes in small models for coding.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uh8ir7/even_google_still_believes_in_small_models_for/",
+    "published_at": "2026-06-27T17:24:46+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 討論區出現關於 Google 持續投入小型語言模型程式碼任務的討論。帖文未披露具體模型規格或技術報告，僅為社群猜測與方向性交流。",
+    "highlights": [
+      "討論源於 Reddit 社群，未有官方技術文件",
+      "方向為小型模型在程式碼生成 / 補全場景的應用",
+      "具體模型名稱、參數量、效能數據均未揭露",
+      "代表一種模型壓縮與專精化的技術趨勢"
+    ],
+    "why_it_matters": "若 Google 確實在小型程式碼模型上有新進展，可能衝擊 Cursor、Copilot 等 IDE 工具的市場。技術使用者可關注實際發布的模型，而非社群猜測。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤 Google 官方部落格或 AI 部落格，等待具體模型發布後進行基準測試，比較其與現有小模型（如 Qwen2.5-Coder、CodeQwen）在程式碼補全上的延遲與準確率。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-skalex-javascript-mcp",
+    "title": "skalex：無依賴 JavaScript 資料庫，內建向量搜尋與 MCP 支援",
+    "title_original": "TarekRaafat/skalex",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/TarekRaafat/skalex",
+    "published_at": "2026-06-27T17:06:39Z",
+    "category": "open-source-ai",
+    "summary": "主打 AI 優先的零依賴 JavaScript 資料庫，整合向量搜尋、Agent 記憶、MCP Server 與加密功能。支援 Node.js、Bun、Deno、瀏覽器及 Edge 執行環境，適合需要輕量化本地資料層的 AI 應用。",
+    "highlights": [
+      "零外部依賴，降低部署複雜度",
+      "內建向量搜尋，可直接做語意檢索",
+      "原生支援 MCP Server，與現有 AI Agent 框架整合",
+      "支援加密儲存，敏感資料更安全",
+      "多執行環境相容，涵蓋伺服器到瀏覽器"
+    ],
+    "why_it_matters": "傳統 AI 應用需串接多個服務才能實現記憶與向量搜尋，skalex 將這些功能整合在單一輕量庫中，大幅簡化本地 AI 系統的架構。對技術宅而言，可省去第三方向量資料庫的維運成本，直接在應用層處理檢索與記憶。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 skalex 建立本地向量資料庫，取代 Pinecone 等雲端服務，評估其查詢速度與準確性是否足以支撐小型專案的檢索需求。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3501930?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-pendant-vs-code-pi-agent-ide",
+    "title": "Pendant：VS Code 擴展為 pi agent 提供 IDE 整合介面",
+    "title_original": "cdervis/Pendant",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/cdervis/Pendant",
+    "published_at": "2026-06-27T16:00:28Z",
+    "category": "agent-skills",
+    "summary": "cdervis/Pendant 是一款 VS Code 擴展，旨在為 pi agent 提供 IDE 內的整合介面。專案規模尚小（86 stars），具體功能細節需實際安裝測試，適合關注 VS Code 生態系 Agent 工具的技術用戶持續觀察。",
+    "highlights": [
+      "VS Code 擴展，目標是整合 pi agent 進入 IDE 環境",
+      "目前 stars 數量較低（86），專案成熟度有限",
+      "具體功能細節需實際安裝後評估",
+      "屬於 IDE 端 Agent 整合的新興嘗試",
+      "可作為 VS Code 生態系 Agent 工具的研究樣本"
+    ],
+    "why_it_matters": "VS Code 是多數開發者日常使用的 IDE，pi agent 若能深度整合進 VS Code，有潛力改變開發者與 AI 助理的互動方式，目前雖早期但值得關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝此擴展測試其在日常開發中的實用性，評估是否能提升程式碼補全或重構效率，並貢獻回饋以影響專案方向。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/198066854?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-pydantic-deepagents-claude-code",
+    "title": "pydantic-deepagents：開源自托管的 Claude Code 等效框架",
+    "title_original": "vstorm-co/pydantic-deepagents",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/vstorm-co/pydantic-deepagents",
+    "published_at": "2026-06-27T15:27:43Z",
+    "category": "open-source-ai",
+    "summary": "vstorm-co/pydantic-deepagents 是一款開源 Python 框架，旨在打造自托管的 Claude Code 等效終端 AI 助理。支援工具呼叫、沙箱執行、多 Agent 協作、技能系統、Checkpoint 與無限上下文，底層基於 Pydantic AI，理論上可對接任意模型。",
+    "highlights": [
+      "開源 Python 框架，目標是自托管 Claude Code 等效能力",
+      "支援工具呼叫與沙箱執行環境",
+      "可構建多 Agent 團隊協作",
+      "基於 Pydantic AI，相容任意模型",
+      "具備技能系統與無限上下文支援"
+    ],
+    "why_it_matters": "對於想在本地或私有環境運行強大 Agent 助理的團隊，該框架提供了一套完整技術方案，且不綁定特定模型供應商，降低了供應商鎖定風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其部署為內部 Coding Agent，整合進 CI/CD 流程或日常終端輔助任務，利用多 Agent 協作處理複雜開發工作。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/80465946?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-suprasafety-18m",
+    "title": "SupraSafety-18M：超小型內容審核模型專為輕量部署設計",
+    "title_original": "[NEW MODEL] - SupraSafety-18M · Tiny Content-Moderation Model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uh1r6u/new_model_suprasafety18m_tiny_contentmoderation/",
+    "published_at": "2026-06-27T12:40:23+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 板友分享一款名為 SupraSafety-18M 的極小型內容審核模型，僅 1800 萬參數，專為邊緣裝置和低資源環境設計，可快速判斷文字是否包含不當內容。",
+    "highlights": [
+      "參數量僅 18M，適合 CPU 或邊緣裝置執行",
+      "專注於內容安全審核的單一任務",
+      "開源可用，具體授權需查閱原始頁面",
+      "可作為大型審核系統的過濾層或前置篩選"
+    ],
+    "why_it_matters": "極小型模型讓內容審核不再需要 GPU，可直接嵌入輕量級應用或客戶端。對於需要使用者生成內容審核的開發者，是一個潛在的低成本解方。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載模型並在本地測試，用少量公司 UGC 樣本評估準確率與召回率，若符合需求可取代昂貴的雲端審核 API。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-27-opsintech-platform-langgraph-ai-agent",
     "title": "OpsinTech Platform：基於 LangGraph 的企業級多租戶 AI Agent 部署平台",
     "title_original": "OpsinTech/opsintech-platform",
@@ -31066,6 +31235,33 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-36kr-ai-vibe-coding",
+    "title": "36Kr 實測：五大國產 AI 程式設計工具誰更適合 Vibe Coding",
+    "title_original": "国產AI编程冲上全球第二，实测五大模型，谁才是Vibe Coding神器 - 36 Kr",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBlOUVVLURnSDd2VmpWNUMxTWNSVEdqdnpZS244M2ItaURpVmhvM0JNdlNqV2VQd050aFdiVEZQQmZNbWdsOWtKNVY3OEpXdw?oc=5",
+    "published_at": "2026-05-27T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "36Kr 評測五大中國國產 AI 程式設計工具，涵蓋程式碼補全、自然語言生成程式碼、專案重構等場景，並進行橫向比較。實測結果可供技術團隊評估是否採用國產工具取代或輔助現有方案。",
+    "highlights": [
+      "涵蓋五大中國 AI 程式設計工具的橫向實測",
+      "測試場景包括程式碼補全、程式碼生成、重構",
+      "提供不同工具的優勢與局限分析",
+      "可能涉及免費額度或定價策略"
+    ],
+    "why_it_matters": "國產 AI 程式設計工具近年快速崛起，部分工具已進入全球排名前列。了解其實際能力與成本，有助技術團隊優化開發流程並控制 AI 工具支出。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據評測結果選擇 1-2 款工具進行為期一週的實際專案測試，評估其是否能提升個人或團隊的程式碼產出速度，並與現有 Copilot/Cursor 方案比較成本效益。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
