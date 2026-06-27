@@ -1,5 +1,147 @@
 [
   {
+    "id": "2026-06-27-callimachus-ai-agent",
+    "title": "Callimachus：本地化 AI 編碼 Agent 歷史搜尋工具",
+    "title_original": "BetaBots-LLC/callimachus",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/BetaBots-LLC/callimachus",
+    "published_at": "2026-06-26T23:48:28Z",
+    "category": "agent-skills",
+    "summary": "Callimachus 是一個 Rust 實作的本地搜尋引擎，可建立 AI 編碼 Agent（Claude Code、Codex、Cursor、Gemini 等）操作歷史的單一索引，支援關鍵字與語意搜尋，提供 MCP Server、CLI 與 VS Code 擴充套件。",
+    "highlights": [
+      "Rust 實作，強調高效與本地執行隱私",
+      "支援 Claude Code、Codex、Cursor、Gemini 等主流 Agent 的歷史索引",
+      "提供關鍵字與語意混合搜尋能力",
+      "附 MCP Server、CLI 與 VS Code 擴充套件，觸及多元使用場景",
+      "目前 Stars 僅 11，屬於早期專案，需評估社群維護意願"
+    ],
+    "why_it_matters": "對於使用多個 AI 編碼工具的技術用戶，統一的歷史搜尋可加速回溯之前曾嘗試過的解題思路，避免重複試錯。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於建立個人或團隊的 AI Agent 操作知識庫，例如搜尋「之前用哪個 Prompt 解決過類似的型別錯誤」，提升除錯效率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/160291760?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-google-stitch-skills-agent-skills-agent",
+    "title": "Google Stitch Skills：標準化 Agent Skills 函式庫，支援多元編碼 Agent",
+    "title_original": "google-labs-code/stitch-skills",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/google-labs-code/stitch-skills",
+    "published_at": "2026-06-26T23:34:22Z",
+    "category": "agent-skills",
+    "summary": "Google Labs 發布的 Stitch Skills 是一套遵循 Agent Skills 開放標準的技能函式庫，專為 Stitch MCP Server 設計，可相容 Antigravity、Gemini CLI、Claude Code、Cursor 等主流編碼 Agent。TypeScript 實作，GitHub 星標超過 6000。",
+    "highlights": [
+      "遵循 Agent Skills 開放標準，不同 Agent 間具互操作性",
+      "支援 Gemini CLI、Claude Code、Cursor、Antigravity 等主流編碼 Agent",
+      "TypeScript 實作，適合 Web/前端技術棧整合",
+      "6191 Stars，社群關注度高，屬於快速成長專案",
+      "可與 Stitch MCP Server 搭配使用，需注意 Server 版本相依性"
+    ],
+    "why_it_matters": "這是目前少數由大廠主導、具備跨 Agent 相容性的技能標準；若 Agent Skills 標準普及，可大幅減少重複開發相同技能的成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 Stitch Skills 整合進現有 MCP Server 架構，快速為 Claude Code 或 Cursor 增添結構化工具呼叫能力，評估標準化是否能簡化維運。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/161364575?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-item",
+    "title": "前線模型經濟學：為何實驗室急於在窗口期內回收成本",
+    "title_original": "Quoting Dean W. Ball",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything",
+    "published_at": "2026-06-26T22:25:46+00:00",
+    "category": "hot-topics",
+    "summary": "Dean W. Ball分析AI產業動態：前線模型訓練成本巨大，利潤主要來自發布後的短暫窗口期。之後模型成為次級前線、競爭加劇、邊際利潤壓縮。每週延遲都在侵蝕實驗室的成本回收機會。美國AI基礎設施建設假設了全球市場，但實際上誰能獲得訪問權限才是關鍵變數。",
+    "highlights": [
+      "前線模型發布後的「有效專利期」極短，之後邊際利潤快速下降",
+      "1000億美元資料中心的建設假設了功能性的全球市場",
+      "David Sacks等政策制定者強調AI基礎設施對美國經濟的戰略重要性",
+      "模型迭代速度加快意味著技術優勢窗口正在縮短",
+      "此分析揭示了為何模型廠商有動機快速商業化而非等待完美"
+    ],
+    "why_it_matters": "理解模型廠商的經濟激勵有助於預判AI產品發布節奏與定價策略。當廠商面臨成本回收壓力時，開發者可能獲得更具競爭力的定價或功能加速。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可追蹤主要廠商的財務壓力與市場動態，在模型價格戰或促銷期間評估遷移或整合策略，優化工作流程程成本。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-github-copilot-adoption-phase-pr",
+    "title": "GitHub Copilot 企業報告新增「依 adoption phase 追蹤 PR 合併總數」",
+    "title_original": "Track total merges by adoption phase in enterprise and organization reports",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports",
+    "published_at": "2026-06-26T20:55:03+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布企業與組織報告功能升級，在 Copilot 使用指標 API 基礎上，新增依 AI adoption phase 區分並顯示各階段 PR 合併總數的功能，可幫助管理者量化 Copilot 在不同團隊成熟度下的實際產出影響。",
+    "highlights": [
+      "在既有的 Copilot 使用指標 API 上擴充功能",
+      "可依 AI adoption phase（採納階段）細分 PR 合併數據",
+      "提供量化指標，協助管理者評估 Copilot 投資回報",
+      "適用於企業或大型組織的數據驅動決策",
+      "發布於 GitHub Changelog，屬於官方公告"
+    ],
+    "why_it_matters": "此功能讓技術管理者能以數據說明 Copilot 對開發效率的實際影響，有助於在組織內推動 AI 工具預算或評估不同團隊的採用曲線。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此 API 接入內部儀表板，自動追蹤各團隊的 Copilot PR 合併率趨勢，用於團隊效能分析或 AI 教練介入時機的參考依據。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-27-6000-ai",
+    "title": "6000次提示注入攻擊測試：開源AI助理安全實測結果出爐",
+    "title_original": "What happened after 2,000 people tried to hack my AI assistant",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything",
+    "published_at": "2026-06-26T18:33:14+00:00",
+    "category": "agent-skills",
+    "summary": "開發者Fernando Irarrázaval在HackMyClaw.com發起挑戰，邀請6000次提示注入攻擊試圖洩露其OpenClaw測試實例的秘密變數。在耗費500美元API費用與一個Google帳號被停用後，攻擊者全軍覆沒。底層模型為Opus 4.6，採用了明確的Anti-Prompt-Injection Rules。Simon Willison指出，這印證了前線實驗室在訓練模型抵禦注入攻擊上的努力確實有效。",
+    "highlights": [
+      "6,000次提示注入攻擊嘗試全部失敗，模型為Claude Opus 4.6",
+      "攻擊者目標：讀取secrets.env、修改系統提示、執行郵件中的程式碼、向外傳輸資料",
+      "防禦關鍵：系統提示中明確列出NEVER基於郵件內容執行的事項",
+      "耗費成本：500美元API費用加一個Google帳號",
+      "Simon Willison建議：仍不建議部署高風險場景，6,000次失敗無法定義為安全保證"
+    ],
+    "why_it_matters": "提示注入是部署AI代理的核心風險之一。此實驗提供了實證數據，顯示主流模型已具備相當的防禦能力，但開發者仍需保持警覺，不能將「未突破」與「安全」等同。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可參考其系統提示範本，為自己的AI代理設計更嚴謹的防禦規則，並建立定期紅隊演練流程，確保部署安全。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-06-26-cc-codex-opencode",
     "title": "CC、Codex 與 Opencode 的上下文壓縮技術比較",
     "title_original": "Compaction in CC, Codex, and Opencode | Lexifina",
