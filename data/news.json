@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-06-27-opsintech-platform-langgraph-ai-agent",
+    "title": "OpsinTech Platform：基於 LangGraph 的企業級多租戶 AI Agent 部署平台",
+    "title_original": "OpsinTech/opsintech-platform",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/OpsinTech/opsintech-platform",
+    "published_at": "2026-06-27T12:13:50Z",
+    "category": "agent-skills",
+    "summary": "OpsinTech Platform 是支援多租戶架構的企業 AI Agent 平台，基於 LangGraph 构建，配備角色權限控制、沙箱工具執行、管理後台，支援 Docker 部署與 PostgreSQL，生產就緒度高，現有 89 顆 GitHub 星星。",
+    "highlights": [
+      "LangGraph 生態：可直接利用 LangChain 工具鏈，降低遷移成本",
+      "多租戶 + RBAC：支援企業組織架構，適合內部 Agent 平台建設",
+      "沙箱工具執行：安全性較高，可隔離危險操作",
+      "Docker + PostgreSQL：標準化部署，生產運維門檻較低",
+      "管理後台：支援模型、MCP 伺服器、Skills、工具的視覺化管理"
+    ],
+    "why_it_matters": "若企業需要自建內部 Agent 平台而非依賴 SaaS，OpsinTech 提供了從開源到生產的最短路徑，可節省大量自研基礎設施的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可用 Docker 快速啟動本地實例，測試多租戶隔離與 MCP 工具擴展是否滿足內部工作流程程需求，評估是否可替代現有商業解決方案。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/272197219?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-gpu",
+    "title": "本地 GPU 組裝挑選器：離線單檔工具估算模型執行效能",
+    "title_original": "What’s the latest on agent browser use?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uh0uz7/whats_the_latest_on_agent_browser_use/",
+    "published_at": "2026-06-27T11:56:07+00:00",
+    "category": "open-source-ai",
+    "summary": "一位開發者製作了離線單檔 GPU 組裝挑選工具，可根據硬體配置估算本地模型執行速度（tok/s）。工具無需網路連線，支援評估特定硬體能跑哪些模型及預期效能。",
+    "highlights": [
+      "離線單檔 HTML 工具，無需安裝或網路",
+      "根據 GPU 型號、VRAM、CPU 組合估算 tok/s",
+      "可協助技術用戶評估本地部署成本與可行性",
+      "直接可在瀏覽器開啟使用",
+      "原始碼可檢視，社群可驗證算法"
+    ],
+    "why_it_matters": "省去查表或試錯時間，快速評估特定硬體能否承載目標模型，直接影響本地部署決策與成本估算。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可用此工具快速建立硬體-模型匹配表，或將邏輯整合至自動部署腳本中，減少人工估算錯誤。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-itasca-mcp-ai-agent-dem",
+    "title": "itasca-mcp：讓 AI Agent 透過自然語言操控離散元素模擬（DEM）",
+    "title_original": "yusong652/itasca-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/yusong652/itasca-mcp",
+    "published_at": "2026-06-27T11:26:06Z",
+    "category": "agent-skills",
+    "summary": "itasca-mcp 是一個 MCP 伺服器，將 AI Agent 連接到 ITASCA PFC（離散元素方法模擬工具），實現透過自然語言對話驅動顆粒力學模擬，降低工程模擬工具的使用門檻，現有 104 顆星星。",
+    "highlights": [
+      "專業領域工具橋接：填補 AI 與工程模擬軟體之間的鴻溝",
+      "自然語言介面：降低 PFC 等專業軟體的學習曲線",
+      "工程自動化潛力：可用於批量參數掃描與結果分析",
+      "技術壁壘：需具備 DEM/ PFC 領域知識才能有效使用",
+      "星星數較高（104）：說明工程領域對此類整合有實際需求"
+    ],
+    "why_it_matters": "這類垂直領域 MCP 伺服器代表 AI Agent 向專業工具滲透的趨勢，工程師可將模擬工作流程程自動化，減少重複操作。",
+    "automation_angle": null,
+    "automation_angle_zh": "有離散元素模擬需求的技術讀者可測試 itasca-mcp，評估是否可將參數調整、結果解讀等環節透過自然語言自動化，形成端到端的模擬工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/99635239?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-ai-vibe-coding",
+    "title": "國產 AI 程式設計工具實測：五大模型誰是 Vibe Coding 神器",
+    "title_original": "Orthrus (diffusion head) trained Qwen 3.5/3.6 and Gemma 4 models are dropping soon",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugyvz4/orthrus_diffusion_head_trained_qwen_3536_and/",
+    "published_at": "2026-06-27T10:08:25+00:00",
+    "category": "agent-skills",
+    "summary": "36Kr 實測五款國產 AI 程式設計模型，評估其在 Vibe Coding 場景下的表現。文章比較編碼速度、程式碼品質與功能完整性，但「全球第二」排名聲稱缺乏具體數據支撐。",
+    "highlights": [
+      "實測對象為國產 AI 程式設計工具",
+      "評估重點在 Vibe Coding 使用體驗",
+      "涵蓋程式碼生成速度與準確性比較",
+      "排名聲稱需持保留態度",
+      "對技術選型有參考價值但非唯一標準"
+    ],
+    "why_it_matters": "若國產工具有接近主流工具的表現，可作為成本較低的替代方案，尤其適合中文開發場景或特定合規需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可實際安裝測試候選工具，將其整合進現有 IDE 或 CLI 工作流程，評估自動化程式碼生成效果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-27-zettelforge-agent",
     "title": "Zettelforge：資安威脅情報專用的 Agent 記憶系統",
     "title_original": "ThreatRecall/zettelforge",
