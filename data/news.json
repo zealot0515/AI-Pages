@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-06-27-zettelforge-agent",
+    "title": "Zettelforge：資安威脅情報專用的 Agent 記憶系統",
+    "title_original": "ThreatRecall/zettelforge",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ThreatRecall/zettelforge",
+    "published_at": "2026-06-27T06:36:44Z",
+    "category": "agent-skills",
+    "summary": "Zettelforge 是一套用 Python 開發的 CTI（網路威脅情報）Agent 記憶框架，內建 STIX 知識圖譜、威脅者別名解析與離線優先的 RAG 機制。提供 MCP Server，可直接對接 Claude Code 與 LangChain Agent。目前 GitHub 僅 50 星，屬於新興專案，適合對資安自動化有興趣的技術宅關注。",
+    "highlights": [
+      "基於 STIX 標準的威脅情報知識圖譜",
+      "支援威脅者別名自動解析與消歧",
+      "離線優先的 RAG 設計，確保本地資料安全",
+      "提供 MCP Server，支援 Claude Code 與 LangChain",
+      "Python 實作，可與現有資安工具鏈整合"
+    ],
+    "why_it_matters": "對於需要自動化威脅情資分析的資安團隊，Zettelforge 提供了開源替代方案。其離線 RAG 設計特別適合不想把敏感情資送上雲端的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載後用自己收集的 CTI 資料（如 ATT&CK 框架資料）餵入，測試查詢威脅者別名與關聯攻擊鏈的能力，評估是否能自動化威脅報告生成。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/297309666?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-claude-patent-creator-mcp-server-uspto",
+    "title": "Claude-Patent-Creator：用 MCP Server 自動化 USPTO 專利生成",
+    "title_original": "RobThePCGuy/Claude-Patent-Creator",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/RobThePCGuy/Claude-Patent-Creator",
+    "published_at": "2026-06-27T06:21:06Z",
+    "category": "agent-skills",
+    "summary": "Claude-Patent-Creator 是一套專利輔助創作系統，結合 MCP Server 與 Claude Code 插件。支援混合式 RAG 搜尋（涵蓋 USPTO 專利資料庫 7600 萬+專利文件、MPEP/USC/CFR 法規）、自動 35 USC 112 合規檢查、先案檢索與示意圖生成。GPU 加速，已整合技能系統與自主 Agent 機制。",
+    "highlights": [
+      "對接 BigQuery USPTO 專利資料庫（7600萬+筆）",
+      "混合 RAG 搜尋：法規（MPEP/USC/CFR）與專利文件",
+      "自動執行 35 USC 112 文字描述合規檢查",
+      "支援先案檢索與專利示意圖自動生成",
+      "GPU 加速，內建技能系統與自主 Agent 執行緒"
+    ],
+    "why_it_matters": "對於需要快速評估專利可行性或撰寫專利草稿的工程師與法務人員，此工具能大幅縮短先案檢索與格式校對時間，降低專利申請初期的人力成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "申請 USPTO API Key 後，以公司產品技術文件測試：輸入功能描述，自動產出專利權利要求書草稿與侵權風險分析報告，評估工具實用性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/10876982?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-brigade-ai-agent-mcp",
+    "title": "Brigade：AI 編碼 Agent 的共享 MCP 工具與記憶同步層",
+    "title_original": "escoffier-labs/brigade",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/escoffier-labs/brigade",
+    "published_at": "2026-06-27T05:59:19Z",
+    "category": "agent-skills",
+    "summary": "Brigade 定位為 AI 編碼 Agent 的協作基礎設施，提供統一的 MCP Server、工具與記憶共享來源。每個 Agent 的工具使用都會同步到各自的原生設定檔，並經過 review gate 審核把關，產生可追蹤的變更憑證。不需要常駐 daemon，也不綁定特定平台。",
+    "highlights": [
+      "為多個 AI 編碼 Agent 提供共享工具庫",
+      "工具配置同步至各 Agent 原生設定檔",
+      "Review gate 機制確保工具變更經過審核",
+      "每次變更都有可追蹤的 receipt（憑證）",
+      "無 daemon 依賴，不綁定特定 Agent 平台"
+    ],
+    "why_it_matters": "若你同時使用多個 AI 編碼工具（如 Claude Code、Cursor、Windsurf），Brigade 能幫你統一管理工具集與記憶同步，減少重複設定與不一致問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地多個專案資料夾分別初始化不同 Agent，安裝 Brigade 後觀察工具配置是否自動同步，測試 review gate 是否能有效防止錯誤工具被注入。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/287470444?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-reddit",
+    "title": "Reddit 討論：如何蒸餾自己的模型？",
+    "title_original": "How to distill my own models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugo5nw/how_to_distill_my_own_models/",
+    "published_at": "2026-06-27T00:38:10+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群成員討論如何將大型模型蒸餾至較小規模，包括資料集構建、蒸餾損失函數設計與硬體需求。討論涵蓋 LoRA、DistilBERT 等技術路徑，缺乏單一標準答案。",
+    "highlights": [
+      "社群討論蒸餾技術：從大模型提取知識至小模型",
+      "常見方法包括 LoRA蒸餾、任務特定蒸餾",
+      "蒸餾可降低部署成本與延遲",
+      "討論品質參差不齊，需自行驗證"
+    ],
+    "why_it_matters": "模型蒸餾是降低推論成本的有效手段，對需要在本地或邊緣裝置部署模型的技術人員具有實用價值，可節省雲端 API 費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考討論中的蒸餾流程，使用開源蒸餾框架（如 lit-parrot、distilbert）在自有資料集上訓練較小的專用模型，替代部分 API 呼叫。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-27-callimachus-ai-agent",
     "title": "Callimachus：本地化 AI 編碼 Agent 歷史搜尋工具",
     "title_original": "BetaBots-LLC/callimachus",
@@ -86,6 +200,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-27-timothy-b-lee-llm",
+    "title": "Timothy B. Lee：LLM 並非無學習曲線，猶如管理下屬並非無門檻",
+    "title_original": "Quoting Timothy B. Lee",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything",
+    "published_at": "2026-06-26T21:15:09+00:00",
+    "category": "hot-topics",
+    "summary": "Timothy B. Lee 指出，現今許多人宣稱 LLMs 無需學習曲線，這種說法如同宣稱擔任管理者毫無困難——因為員工會服從指令。他認為這是對複雜性的過度簡化，無論是與 AI 互動還是管理下屬，都需要真正的技能與經驗。",
+    "highlights": [
+      "LLM 使用看似直覺，但有效的提示工程需要學習與練習",
+      "「會說話就能用 AI」的說法低估了專業價值",
+      "Prompt engineering 與傳統編程一樣，存在顯著的技能譜系差異",
+      "理解模型能力邊界是有效使用的前提"
+    ],
+    "why_it_matters": "對技術人員而言，這提醒我們不要輕忽 AI 工具的專業使用門檻。承認學習曲線存在，有助於認真對待 prompt 工程與模型調校，而非僅停留在表面對話層面。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此觀點用於評估團隊 AI 能力：測量成員是否僅停留在基礎聊天層次，還是能透過結構化提示、Chain-of-Thought、Few-shot 等技巧真正提升任務效率。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-27-github-copilot-adoption-phase-pr",
     "title": "GitHub Copilot 企業報告新增「依 adoption phase 追蹤 PR 合併總數」",
     "title_original": "Track total merges by adoption phase in enterprise and organization reports",
@@ -112,6 +253,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-27-reddit-llm",
+    "title": "Reddit 社群：本地 LLM 愛好者聚集帖",
+    "title_original": "Local LLM Peeps",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ughcl0/local_llm_peeps/",
+    "published_at": "2026-06-26T20:01:23+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社區聚集帖，本地用戶分享本地執行大語言模型的經驗、硬體配置與模型選擇。內容涵蓋 GGUF 格式、量化技術與 Ollama 使用心得。",
+    "highlights": [
+      "本地 LLM 社群交流平台",
+      "討論 GGUF 格式、Q4/K3 量化技術",
+      "分享 Ollama、LM Studio 等本地執行工具",
+      "硬體需求與效能優化經驗"
+    ],
+    "why_it_matters": "對於希望降低 API 依賴、保護資料隱私或節省雲端成本的技術用戶，本地 LLM 社群提供了豐富的第一手實測資訊。",
+    "automation_angle": null,
+    "automation_angle_zh": "可從討論中選取適合硬體配置的量化模型，使用 Ollama 或 vLLM 在本地建立自動化腳本，替代部分高頻 API 需求。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-06-27-6000-ai",
@@ -558,6 +726,33 @@
     "why_it_matters": "電信業者開始將 AI 訂閱服務納入客戶忠誠計畫，代表 AI 消費模式正走向生態系整合。技術人員若在韓國有業務，可評估此優惠實際節省幅度。",
     "automation_angle": null,
     "automation_angle_zh": "僅限韓國 LG U+ 用戶，建議在韓技術人員直接至電信官網或韓亞經濟確認資格與適用方案，評估是否符合自身訂閱需求。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-lg-u-chatgpt-gemini-45",
+    "title": "LG U+ 用戶透過手機支付訂閱 ChatGPT、Gemini 最高減免 45%",
+    "title_original": "ChatGPT、Gemini訂閱费使用LG U+手机支付時最高减免45% - 아시아경제",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1pNUM0cGZkSzJZVGVjcGhjTlM5bUp3S3c5cUs5U1NTR2twVXRCSkN3dUpETlBoVUJUMTBjMk1MWGZVcGJNNDQ0UVR6dnpUVzN1MGhhQl9ub1huVnYwbDVzODVhM1c?oc=5",
+    "published_at": "2026-06-26T00:12:54+00:00",
+    "category": "ai-deals",
+    "summary": "韓國電信商 LG U+ 推出限定優惠，用戶以手機帳單支付 ChatGPT Plus 或 Gemini 訂閱費用，最高可享 45% 減免。此優惠適用於特定方案，優惠期限與適用資格需詳閱官方條款。",
+    "highlights": [
+      "LG U+ 電信用戶專屬優惠，需綁定手機帳單支付",
+      "ChatGPT Plus 與 Gemini 訂閱均適用",
+      "最高減免幅度達 45%，具體折扣視方案而定",
+      "資訊來源為韓國亞洲經濟新聞，優惠條款需向 LG U+ 確認"
+    ],
+    "why_it_matters": "對於南韓技術從業人員，此優惠可大幅降低 ChatGPT 和 Gemini 的使用成本，尤其適合同時使用多個 AI 服務的開發者。",
+    "automation_angle": null,
+    "automation_angle_zh": "在南韓的技術用戶可評估是否註冊 LG U+ 方案以節省 AI 工具訂閱費用，每月最多可節省數美元用於其他付費 API。",
     "tags": [
       "ai-deals",
       "rss",
@@ -2400,6 +2595,33 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/77148571?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-38-ai",
+    "title": "每月38元大學生是否願意為「AI打工人」付費？調查揭曉",
+    "title_original": "每月38元，你愿意為“AI打工人”付费吗？我们调查了20個大学生｜科技观察 - 封面新闻",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mY2Zyczl5d2ZVZ2xsRnhhb2FBM3A3akYtNXdPeXZMSTlMcThBcU1BUU1UZ0dJWHhyUVVQbktjWTZwX2tEYlRyNkw0VXpVVmlwSnVFZF82ZXdlVDRBV1U0MTRQWQ?oc=5",
+    "published_at": "2026-06-23T19:51:00+00:00",
+    "category": "ai-deals",
+    "summary": "中國媒體調查20名大學生對於「AI打工人」產品的付費意願，發現每月38元（約新台幣170元）的訂閱費可接受度有限。調查反映Z世代對AI輔助工具的定價敏感度與使用場景偏好。",
+    "highlights": [
+      "調查對象為20名中國大學生",
+      "受訪者對每月38元訂閱費接受度不高",
+      "AI打工人泛指代理自動化工具",
+      "反映年輕用戶對AI工具付費意願的市場訊號"
+    ],
+    "why_it_matters": "定價策略對AI工具市場滲透至關重要。此調查反映學生群體對AI訂閱服務的價格敏感度，可供評估類似產品的市場定位參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此定價區間作為參考基準，評估自建AI自動化工具相比訂閱服務的成本效益比。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -7873,6 +8095,33 @@
       "agent-skills",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-27-meta-ai-7-99",
+    "title": "Meta 將推出 AI 聊天機器人訂閱服務，月費最低 7.99 美元",
+    "title_original": "Meta將推出AI聊天机器人訂閱服务，月费最低7.99美元 - MSN",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOa3JfTENrVGhSWjRFaVFfUHVBVFQ2SW12UzFoYWxRRjJJMzlJUTJSY1Z1NjhNNDQ5QlI4dlNfc1JLVW84WklyU3RQWFNJWklvTHhEUk1iUkVwMGo4aElZOVN6TVQ5RWd2YXB4LXZoNGdIakVlV3dwa1V0d1NoSUtvOTRFSzNSRzVLSTk4YzZwdk9OQTlfY2JuV2ZmSnRqV21SWElkUnRsWlNGNS1pVUZyclpCRnVpclp5UmNyQUYxSHpLaHlIdEJrSUc3MWZlQmtBUFJYOFRMVWZ4dmNINlROVkVLb2VWd1FWWlJ1SmJTNm84b3o1Z2Zxa3l1T0FzeTM4WGM4cm9qeUctT2M1c2xXRk1MYllvdUoyS3BoSWhnWkh1VWQtaGp2RE16ckdEMjVQWlZ3b1poN1FoWXZDdXRJMGRDWQ?oc=5",
+    "published_at": "2026-06-16T21:24:35+00:00",
+    "category": "ai-deals",
+    "summary": "Meta 規劃推出付費 AI 聊天機器人訂閱服務，基礎方案月費 7.99 美元起，預計整合至 Facebook、Instagram 等平台。具體功能與進階方案定價尚未公布，此為 MSN 轉載消息。",
+    "highlights": [
+      "Meta AI 訂閱服務基礎版 7.99 美元/月",
+      "將整合至 Meta 生態系產品",
+      "具體功能與高階方案資訊有限",
+      "資訊來源為 MSN 轉載，非 Meta 官方確認"
+    ],
+    "why_it_matters": "若 Meta 正式推出 AI 訂閱服務，將成為 OpenAI、Google 之外的第三大付費 AI 選項，可能影響開發者對聊天 API 與生態整合的策略選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "待 Meta 官方公告後，可評估 Meta AI API 的定價與功能是否適合整合至現有應用，或作為替代方案的成本對象。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
