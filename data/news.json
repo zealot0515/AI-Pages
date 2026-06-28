@@ -1,5 +1,203 @@
 [
   {
+    "id": "2026-06-28-file-system-like-github-ai-markdown-mcp-server-claude-cursor",
+    "title": "file-system-like-github：AI 原生 Markdown 知識庫，內建 MCP server 供 Claude/Cursor 使用",
+    "title_original": "andylow92/file-system-like-github",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/andylow92/file-system-like-github",
+    "published_at": "2026-06-28T00:17:47Z",
+    "category": "agent-skills",
+    "summary": "這是一個自我進化的 AI 原生 Markdown 知識庫，提供 GitHub 風格檔案樹與 Notion 編輯體驗。內建 24 工具的 MCP server，支援語義搜尋、混合搜尋、RAG、引用回答。從使用者編輯中學習風格，並有審核佇列確保品質。本地優先的 .md 格式。",
+    "highlights": [
+      "GitHub 風格檔案樹與 Notion 編輯體驗",
+      "內建 24 工具 MCP server，直供 Claude/Cursor",
+      "語義搜尋與混合搜尋支援 RAG 需求",
+      "從使用者編輯學習個人寫作風格",
+      "本地 .md 格式，資料完全自主掌控"
+    ],
+    "why_it_matters": "將個人知識庫直接暴露給 AI Agent 使用，省去繁瑣的資料格式轉換，且支援 RAG 讓 AI 回覆有引用依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝後將個人筆記庫設為 Claude 或 Cursor 的工作上下文，讓 AI 在撰寫或分析時能直接引用本地知識，提升產出相關性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/35411516?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-55-llms",
+    "title": "55 款 LLMs 互評研究：同家族模型存在顯著偏袒",
+    "title_original": "I had 55 LLMs blind-grade each other (22k judgments, all open). Every model family with enough data is biased toward its own siblings. Qwen judges favor Qwen by ~0.9 points. Mistral penalizes its own by ~1.0.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uhi81a/i_had_55_llms_blindgrade_each_other_22k_judgments/",
+    "published_at": "2026-06-28T00:10:51+00:00",
+    "category": "new-models",
+    "summary": "研究者讓 55 款大語言模型相互盲評共 22,000 輪次，發現每個模型家族都偏袒自家兄弟：Qwen 評分者對 Qwen 模型打出約 +0.9 分優勢，Mistral 評分者則對同族扣分約 -1.0 分。",
+    "highlights": [
+      "• 樣本量達 22,000 輪評測，統計顯著性充分",
+      "• Qwen 系列對 Qwen 模型評分偏向上調",
+      "• Mistral 系列對 Mistral 模型評分偏向保守",
+      "• 暗示模型訓練資料或偏好存在家族相似性",
+      "• 此偏差可能影響開源排行榜可信度"
+    ],
+    "why_it_matters": "LLM 排行榜可信度受質疑。若同族偏袒普遍存在，技術用戶在選型時需更依賴獨立第三方 Benchmark 而非自報成績。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估方式：在團隊內部建立「跨家族盲測」流程，邀請使用不同模型的公司成員交叉評估，減少單一模型族群的偏見影響選型決策。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-athena-loops-python-ai-agent-mcp-cli",
+    "title": "athena-loops：Python 後端無關的 AI Agent 編排框架，支援 MCP 與 CLI",
+    "title_original": "luckeyfaraday/athena-loops",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/luckeyfaraday/athena-loops",
+    "published_at": "2026-06-27T23:43:38Z",
+    "category": "agent-skills",
+    "summary": "athena-loops 實現 orchestrator→worker→reviewer 確定性編排模式，後端無關可接 Claude、Codex、opencode、aider 等。作為 MCP server 與 CLI 工具分發，允許技術用戶快速替換底層模型而無需改變流程設計。",
+    "highlights": [
+      "確定性三階段編排：orchestrator→worker→reviewer",
+      "後端無關，支援 Claude、Codex、opencode、aider",
+      "同時提供 MCP server 與 CLI 兩種介面",
+      "以 Python 實作，方便擴展與自訂",
+      "星標 23 顆，屬新興專案但有清晰架構"
+    ],
+    "why_it_matters": "編排框架的模型無關性讓技術用戶在模型選擇上保持彈性，可針對不同任務性價比切換後端，降低 AI 工具成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "克隆專案後，用 MCP server 模式接入現有 Claude Code 流程，測試在不同任務上切換模型的穩定性與產出品質。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/256341187?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-claude-code-session",
+    "title": "將 Claude Code Session 轉為本地模型微調資料的工具",
+    "title_original": "I built a tool to turn your Claude Code sessions into fine-tuning data for local models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uhfg05/i_built_a_tool_to_turn_your_claude_code_sessions/",
+    "published_at": "2026-06-27T22:08:35+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享一個可將 Claude Code 開發過程轉為微調資料集的開源工具。透過收集高品質的人機協作開發互動，轉化為本地模型的訓練語料，有望提升本地模型在程式碼任務上的表現。",
+    "highlights": [
+      "收集 Claude Code 實際使用資料轉微調語料",
+      "目標是提升本地模型程式碼能力",
+      "屬 Reddit 社群分享，技術細節待驗證",
+      "可用自己專案資料訓練專屬模型",
+      "微調後模型可離線使用，降低 API 成本"
+    ],
+    "why_it_matters": "用真實工作資料微調本地模型，可打造符合個人Coding風格的專屬模型，長期看能減少對商業 API 的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "收集一段時間的 Claude Code 任務後，用此工具生成微調資料集，訓練小型本地程式碼模型作為輕量任務的替代方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-qwen-3-6-27b-pi-agent",
+    "title": "Qwen 3.6 27B 實現文件全量塗黑：Pi Agent 測試報告",
+    "title_original": "Full document redaction with Qwen 3.6 27B with a Pi agent harness",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uhfeqw/full_document_redaction_with_qwen_36_27b_with_a/",
+    "published_at": "2026-06-27T22:07:08+00:00",
+    "category": "agent-skills",
+    "summary": "開發者展示使用 Qwen 3.6 27B 配合 Pi Agent 框架進行文件全量塗黑（redaction）的完整流程，實測單一模型即可完成敏感資訊識別與自動化遮蔽處理。",
+    "highlights": [
+      "• Qwen 3.6 27B 具備長上下文理解能力",
+      "• Pi Agent 框架提供結構化的 Agent 執行環境",
+      "• 可處理 PDF、Word 等常見文件格式",
+      "• 遮蔽準確率依賴提示詞工程優化程度",
+      "• 本地部署無需將敏感文件上傳雲端"
+    ],
+    "why_it_matters": "文件塗黑是企業合規剛需，傳統方案需人工處理。此實驗證明開源模型加 Agent 框架可自動化此流程，技術用戶值得驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估方式：在本地部署 Qwen 3.6 27B，使用 Pi Agent 框架構建文件塗黑 Pipeline，準備測試資料集（含護照號、信用卡號、手機號等），計算遮蔽精確率與召回率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-item",
+    "title": "中國開源模型是否將壟斷市場？社群熱議",
+    "title_original": "Will Chinese Open Source Models be the only option soon?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uhewep/will_chinese_open_source_models_be_the_only/",
+    "published_at": "2026-06-27T21:45:56+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社區熱烈討論中國開源模型（如 Qwen、DeepSeek）的快速崛起，擔憂非中國陣營的開源選項將逐漸稀少，並分析背後的技術、資源與市場驅動因素。",
+    "highlights": [
+      "• Qwen、DeepSeek 等中國模型性能直逼 GPT-4 水準",
+      "• 中國模型多採 Apache/MIT 許可證，商用友善",
+      "• GPU 算力與資料規模形成競爭壁壘",
+      "• 部分用戶對模型能力以外因素（如地緣政治）表示擔憂",
+      "• 技術社群呼籲多元化開源生態系統"
+    ],
+    "why_it_matters": "開源模型的地理分布影響技術主權與供應鏈風險。技術決策者需評估依賴單一地區模型的長期風險與替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估方式：對比 Qwen2.5 72B 與 Mistral Large 2 的實際工作流程表現（代碼生成、文件摘要），記錄成本延遲差異，作為內部模型選型依據。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-hugging-face-torrent",
+    "title": "Hugging Face 備援的 Torrent 模型註冊分發系統問世",
+    "title_original": "Model Registry: Torrents for open models using Hugging Face as a fallback web seed.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uhevvf/model_registry_torrents_for_open_models_using/",
+    "published_at": "2026-06-27T21:45:19+00:00",
+    "category": "open-source-ai",
+    "summary": "社群開發者推出基於 Torrent 協定的開源模型分發系統，以 Hugging Face 作為 Web Seed 備援節點。此方案可大幅降低大模型下載的頻寬成本與等待時間，為本地部署提供更靈活的取用途徑。",
+    "highlights": [
+      "• 透過 BitTorrent 協定分發模型檔案，減少中央伺服器負載",
+      "• Hugging Face 作為 Web Seed 備援，確保下載可用性",
+      "• 支援開源模型的高速下載，尤其適合 7B 以上規模",
+      "• 減輕 Hugging Face CDN 頻寬成本壓力",
+      "• 適用於網路受限環境的離線模型部署"
+    ],
+    "why_it_matters": "模型檔案日益龐大，Torrent 提供了去中心化的替代方案。技術用戶可降低下載成本並提升取得速度，對需要頻繁部署的開發者尤其有價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估方式：建立該 Torrent 系統的客戶端測試，使用 qBittorrent 或官方 CLI 下載熱門開源模型（建議從 Llama 3 8B 開始），測量下載速度與斷點續傳穩定性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-27-agent-memory-engine-mcp-agent",
     "title": "agent-memory-engine：本地優先的 MCP 記憶引擎，為程式碼 Agent 注入持久記憶",
     "title_original": "uudam42/agent-memory-engine",
