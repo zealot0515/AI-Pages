@@ -1,5 +1,148 @@
 [
   {
+    "id": "2026-06-28-pilot-ai-agent-mcp",
+    "title": "Pilot：讓 AI Agent 操控已登入瀏覽器分頁的 MCP 工具",
+    "title_original": "TacosyHorchata/Pilot",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/TacosyHorchata/Pilot",
+    "published_at": "2026-06-28T07:15:05Z",
+    "category": "agent-skills",
+    "summary": "Pilot 是 Chrome 擴展 + MCP 伺服器組合，允許 AI Agent 直接控制瀏覽器中已登入狀態的分頁，適用於需要維持登入會話的自動化操作場景。",
+    "highlights": [
+      "Chrome 擴展形式，部署簡便",
+      "AI Agent 可控制已登入的真實瀏覽器分頁",
+      "繞過登入驗證瓶頸，適合內網系統操作",
+      "32 stars，TypeScript 實作",
+      "安全風險需自行評估（操控已登入會話）"
+    ],
+    "why_it_matters": "突破了傳統瀏覽器自動化需重新登入的限制，簡化登入會話維護流程，但需注意安全與隱私風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可利用 Pilot 實現內網系統或需登入才能訪問的網頁自動化，例如批量資料填報、狀態監控等場景。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/87838875?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-atm-home-assistant-mcp",
+    "title": "ATM：Home Assistant MCP 身份驗證代理框架",
+    "title_original": "sfox38/ATM",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sfox38/ATM",
+    "published_at": "2026-06-28T06:03:20Z",
+    "category": "agent-skills",
+    "summary": "ATM 是專為 Home Assistant 設計的 MCP 伺服器，可為每個 AI Agent 分配獨立 Token、設置實體級安全範圍、完整審計日誌，並支援即時撤銷權限。",
+    "highlights": [
+      "每個 Agent 獨立 Token，隔離權限範圍",
+      "支援實體（entity）等級的精細權限控制",
+      "完整操作審計日誌，方便安全稽核",
+      "即時撤銷機制，快速回應異常行為",
+      "32 stars，Python 實作，適合智慧家庭愛好者"
+    ],
+    "why_it_matters": "解決了多 Agent 協作時的信任邊界問題，實體級權限控制讓技術用戶能在保障安全的前提下部署自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 ATM 整合進 Home Assistant，實現多 Agent 協作時的最小權限管理，特別適合需要嚴格權限控管的智慧家庭場景。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/147289550?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-jurisd-ai-mcp",
+    "title": "jurisd：澳紐法律 AI 檢索的本地優先 MCP 工具",
+    "title_original": "russellbrenner/jurisd",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/russellbrenner/jurisd",
+    "published_at": "2026-06-28T05:47:16Z",
+    "category": "agent-skills",
+    "summary": "jurisd（原 auslaw-mcp）是本地優先的 MCP 伺服器、CLI 與 TUI，專為澳洲與紐西蘭法律 AI 設計，支援 AustLII 法規檢索、AGLC4 引註校驗、可選語意搜尋與 GraphRAG。",
+    "highlights": [
+      "基於 AustLII 原始法規數據，結果可溯源",
+      "支援 AGLC4 引註格式校驗（快速校對）",
+      "Exa 支援的搜尋增強，混合檢索能力",
+      "可選 GraphRAG，支援本地法規語料庫",
+      "24 stars，TypeScript 實作，屬早期階段"
+    ],
+    "why_it_matters": "法律科技領域的本地優先方案，降低雲端依賴與資料外洩風險，對處理敏感案件的從業人員有實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "法律技術開發者可評估 jurisd 替換或補充現有雲端法規檢索流程，測試 GraphRAG 對本地法規語料的語意理解效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/5236354?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-item",
+    "title": "盲視覺範式：無需微調即可測試小模型技能遷移的新方法",
+    "title_original": "A Blind Visual Paradigm for Testing Skill Transfer in Small Models Without Fine-Tuning",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uhmz3o/a_blind_visual_paradigm_for_testing_skill/",
+    "published_at": "2026-06-28T04:01:21+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶提出一種盲視覺測試範式，用於評估小型模型在無需微調情況下的技能遷移能力。此方法模擬人類盲視測試情境，讓模型在資訊受限條件下展現推論與遷移能力，為評估輕量模型提供新角度。",
+    "highlights": [
+      "採用盲視覺設計，隔絕直接視覺線索",
+      "專注測試小模型的技能遷移而非記憶",
+      "無需微調即可評估模型泛化能力",
+      "可用於量化比較不同小型模型的表現",
+      "有助於理解模型真正學到的能力而非過擬合"
+    ],
+    "why_it_matters": "小模型能力評估一直缺乏可靠方法，此範式提供客觀基準。技術人員可用此框架測試自己部署的模型，判斷其真實泛化能力而非表面Benchmark分數。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將此測試範式集成到自己的模型評估流程中，用來篩選更適合本地部署的小型模型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-koboldcpp-v1-116-llm",
+    "title": "Koboldcpp v1.116 發布：本地LLM推論引擎更新",
+    "title_original": "Koboldcpp v1.116 released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uhj4aw/koboldcpp_v1116_released/",
+    "published_at": "2026-06-28T00:51:36+00:00",
+    "category": "open-source-ai",
+    "summary": "Koboldcpp 釋出 v1.116 版本，持續優化本地大型語言模型推論效率。此版本改善了記憶體管理與長文本處理效能，並修復多項穩定性問題。作為熱門的 GGUF 模型推論工具，其更新直接影響本地AI部署體驗。",
+    "highlights": [
+      "記憶體管理優化，支援更長上下文",
+      "修復長文本處理崩潰問題",
+      "提升多執行緒穩定性",
+      "新增部分新格式支援",
+      "持續相容主流 GGUF 量化模型"
+    ],
+    "why_it_matters": "Koboldcpp 是本地運行量化模型的核心工具之一，新版本帶來的穩定性提升對需要長期運行服務的技術人員具體實際價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "本地部署LLM服務的技術人員應升級至此版本，利用改進的記憶體管理降低OOM風險，特別適合長時間運行的客服或自動化腳本場景。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-28-file-system-like-github-ai-markdown-mcp-server-claude-cursor",
     "title": "file-system-like-github：AI 原生 Markdown 知識庫，內建 MCP server 供 Claude/Cursor 使用",
     "title_original": "andylow92/file-system-like-github",
@@ -47779,6 +47922,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-28-llama-3-meta-ai",
+    "title": "Llama 3 確立 Meta 為『開放 AI』領導者地位",
+    "title_original": "From Llamas to Avocados: Meta's shifting AI strategy is causing internal confusion - CNBC",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11RVVNOGRfY01MbEEybkdoMGdybDk4bUExRlp2UVlzNktGaGFxcnloZmhNWlVIdjVQUmlTRGxNUjlRN0duNmdFM1hROEZsTEp5ZmV5ZjRpLWxobWRmSEloaWctbENkNThzTUZaNExWUE9MMl90TnNj0gF8QVVfeXFMTnZiTDBBR2VtQzhNQ3pHUFBzYUpFZ09SWEdEZHVSVEs2ald2R0l4Z0NMYTRMVDdneVZBWFp4d25uWV8tWXYySHBzQkpQdDhEN0FvRlhGQ1Z2SHdKWVdTZEF0WWNrLWpXZi1seFZiY1lSalBEdU5mLWtXUEVUQg?oc=5",
+    "published_at": "2025-12-09T08:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "IEEE Spectrum 分析指出，Llama 3 的發布使 Meta 成功樹立開源 AI 領域的領導者形象。透過開放模型權重與訓練細節，Meta 正在複製 Android 對抗 iOS 的商業策略，試圖在 AI 時代建立類似的生態系統控制權。",
+    "highlights": [
+      "Meta 採用類似 Android 的開源策略，透過生態系統擴大影響力",
+      "Llama 3 的開放程度超越競爭對手，包括訓練數據處理方式",
+      "批評者認為『開放』仍有限制，模型需遵守使用政策",
+      "Meta 的目標是透過開源模型吸引開發者使用其廣告平台",
+      "Llama 3 性能已接近或超越部分閉源模型"
+    ],
+    "why_it_matters": "對於技術決策者而言，Meta 的開源策略意味著企業級 AI 解決方案將有更多免費選項，但需注意使用限制與商業合規要求，避免法律風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Ollama 或 LM Studio 在本地部署 Llama 3，替換付費 API 進行 POC 驗證；評估 Llama 3 在企業內部的合規性風險，確認是否允許用於商業產品。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-05-24-10-devops-mcp",
     "title": "10 款 DevOps 適用的 MCP 伺服器推薦",
     "title_original": "10 MCP servers for devops - InfoWorld",
@@ -49311,6 +49482,174 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-zuckerberg-meta-ai",
+    "title": "Zuckerberg：Meta新款AI模型瞄準行業標準地位",
+    "title_original": "Mark Zuckerberg wants Meta's newest AI model to become the industry standard - qz.com",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ3NkUHVCRjAzeF9hMzhvWnlLNVB1RG1udUpoQlhuSmxJMVVKdWJHSm9wOG9rR0Q0SXN6TnRPcHdRRGVIWjhaa0VDN3V3SHVmeE40QzFGdDJrQ3licFNQa2hNSV9SclF5NlFkQ1l5NWVFdEtGWTJPcEQtdXNkaFRFTmh1OGZmRGM?oc=5",
+    "published_at": "2024-08-06T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Mark Zuckerberg 明確表示 Meta 的最新AI模型旨在成為行業標準。Quartz 報導揭示 Meta 的戰略意圖：透過開源策略建立生態系統主導權，複製 Android 在手機作業系統的成功路徑。",
+    "highlights": [
+      "Zuckerberg 明確表態開源戰略",
+      "目標是建立類似 Android 的生態主導",
+      "開源模型可削弱競爭對手商業模式",
+      "開發者社區是核心戰略資產",
+      "長遠看有利於 Meta AI 產品矩陣"
+    ],
+    "why_it_matters": "理解 Meta 的AI戰略邏輯有助技術人員預判開源模型演進方向，並評估在此生態系統上構建解決方案的長期可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 Meta AI 路線圖的技術人員可據此評估投入開發基於 Llama 系列的工具與應用，預判支援程度與生態持續性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-meta-ai-llama-3-1-405b",
+    "title": "Meta 發布迄今最大最強開源AI模型：Llama 3.1 405B",
+    "title_original": "Meta releases the biggest and best open-source AI model yet - The Verge",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaGlGZWUxRlYzcDAxcndMdnE1aXV5a25sLUp5YlJHanFHTk5idWJ6QnByLVA0WUEwYTJIYXdQUDllbEl3cGJPOXlyd3NacUZLcnltYXc2QU9Bbk5vTk1KcHprMmUtVWI4akdjZ1RaSXFLUm5DS1FBcG9mbzh4V1ZyRlRCR0JnR1pJcGF3SGRVT2thQUdQcUJhaUExTUM0aGM?oc=5",
+    "published_at": "2024-07-23T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Meta 正式發布 Llama 3.1 系列，包含號稱迄今最大參數量的開源模型4050億參數版本。The Verge 報導指出此模型在多項基準測試中與封閉源模型性能相當，Meta 期望其成為開源AI新標準。",
+    "highlights": [
+      "Llama 3.1 旗艦版本達4050億參數",
+      "多基準測試表現與GPT-4o、Claude 3.5相當",
+      "首次支援128K上下文長度",
+      "Meta 開放模型權重與訓練數據細節",
+      "瞄準企業級AI應用場景"
+    ],
+    "why_it_matters": "開源模型正式進入與頂尖封閉模型正面競爭的時代。405B模型讓企業可以在自有基礎設施上運行接近旗艦水準的AI，大幅降低對商業API的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可評估使用Llama 3.1 405B替代部分商業API，透過vLLM或TensorRT-LLM部署，計算每token成本後評估省費效果。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-28-meta-store-ai",
+    "title": "Meta Store 發文：開源AI是前進的唯一道路",
+    "title_original": "Open Source AI is the Path Forward - Meta Store",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vNFhaekZKREhPQVFjNkwwbWwtRTVfNWpfM1hxb0QwV1R2Yzl1dU8yb0RueFlXczFZUXk0aERLcnNPZlFMSDhjZFlUUW9TUlNBUHV6cWFYblgzUm1tWkpxMS1VZzZJUF9iZGF5Q1hUSUp1aHVhZmpDZ9IBfkFVX3lxTE5raER6ZndhY2s3Vmx5b24yQ0RnQXEtellfUVZXVjNldWRBSkd6M0RaVGRuUW5oZkhyZE9fTV84d1VjSTlOdXhiaGRhTXEyMTZ3eVJLUGJYS0RQY2I4d2s3MlZKTWM2OS15c29vZGVjd0hhZmFBUnBBQWIwS2d5QQ?oc=5",
+    "published_at": "2024-07-23T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Meta Store 官網發布文章系統闡述開源AI策略，強調開放模型對於技術創新生態的重要性。文中指出開源許可與透明化是AI安全與發展的關鍵，而非封閉式開發。",
+    "highlights": [
+      "官方定調：開源AI是正確方向",
+      "強調模型透明性與可審計性",
+      "批評封閉模型的黑箱風險",
+      "開源許可賦予開發者更大自由度",
+      "將開源與AI安全掛鉤論述"
+    ],
+    "why_it_matters": "這是 Meta 官方對開源AI立場的系統性論述，反映其品牌公關與技術策略的一致性。對關注AI治理與開源發展的技術人員具有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術決策者閱讀此文有助理解主要AI玩家的策略分化，可作為評估開源 vs 封閉方案時的補充觀點。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-llama-3",
+    "title": "Llama 3發布：開源生態已今非昔比",
+    "title_original": "Meta releases Llama 3. But the open-source world is now a whole different animal - Fortune",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV1lUU3Nnc3dEOV81M0NHVVNYdVhwZDhzME1OcFNnYUY3TnhOZGg2OEtzNFZWNW5lWXVVYTJtRUQtOFdGOGtMUGVOT1I0SmxnTFFIdHhNUHNldFg5a1VzWGI1RW5Sa3ZiVS0yM3JvQ004RnBDdTlKS0JkNW1NekFRNTBxcjJ1TzNEc254aFZB?oc=5",
+    "published_at": "2024-04-18T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Fortune 分析指出，Meta 發布 Llama 3 之際，開源AI生態環境已發生根本性變化。從工具鏈成熟度到社群支援，現在的開源LLM部署體驗已可與商業方案比擬，開發者選擇權顯著擴大。",
+    "highlights": [
+      "開源部署工具鏈高度成熟",
+      "量化技術使大模型可在消費級GPU運行",
+      "社群持續貢獻微調版本與工具",
+      "企業採用開源模型的風險意識降低",
+      "Llama 3 代表開源能力新里程碑"
+    ],
+    "why_it_matters": "對於技術決策者，這標誌著開源AI已從實驗性選擇晉升為production-ready選項。成本控制與資料主權考量下，開源方案吸引力大增。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術架構師可將開源模型納入正式技術棧評估，利用成熟工具鏈快速原型驗證，降低AI功能開發的外部依賴。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-llama-3-meta",
+    "title": "Llama 3 確認下月發布：Meta 開源策略進入關鍵階段",
+    "title_original": "Introducing Meta Llama 3: The most capable openly available LLM to date - AI at Meta",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9iUFIyR3dDdTFNSGNjNjQyVVcyUnhfYVJ0THo0Z2VnM1RQcXZZSXZrTVJVWVlNX1QwZm1kWnFyQ2FlNzIyNHFzcnFON3FnVW8?oc=5",
+    "published_at": "2024-04-18T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "TechCrunch 報導 Meta 確認 Llama 3 將在一個月內正式發布，延續 Llama 2 的開源策略。此版本被視為 Meta 對抗 GPT-4 和 Gemini 的關鍵產品，同時也反映其內部對開源與封閉路線的策略爭論。",
+    "highlights": [
+      "Meta 內部對 AI 策略存在『開源派』與『封閉派』的路線分歧",
+      "Llama 3 將提供多模態版本，支援圖像理解",
+      "Meta 计划透過開源模型吸引開發者构建其 AI 生态",
+      "發布時間表可能因安全性測試而調整",
+      "業界預期 Llama 3 將整合至 Ray-Ban 智慧眼鏡等硬體產品"
+    ],
+    "why_it_matters": "Meta 的開源策略直接影響整個 AI 產業格局，Llama 3 若如期發布，將為開發者提供比 GPT-4 便宜的替代方案，同時挑戰 Google、微軟的閉源商業模式。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可提前準備 Llama 3 的部署架構，評估將現有 Claude/GPT 工作流程遷移至開源模型的可行性，特別關注其 API 相容性與微調需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-28-meta-llama-3-llm",
+    "title": "Meta 正式發布 Llama 3：號稱迄今最強開源 LLM",
+    "title_original": "Meta confirms that its Llama 3 open source LLM is coming in the next month - TechCrunch",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdlo4OF8ySFctU0dad1paUWNnejB6R3pPVWo4ei11cXFhVDg3a0NxUWo2ZzhuME1IeTBoN1N1M3d3X0Y3VzMwVDZFWlhDX2EtTGV0TDFpU0NZa0t3Q2FsdHFTazlvbHE1dkdvb1pzRG50WFBUZ01PT0dOUUx3U3FEVUVDT0o2RHRCSlFGNG5fNzBMU1VxY3Vzdm1iY19ULW80Vi1qeV9idjQ3aVBEUXc?oc=5",
+    "published_at": "2024-04-09T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Meta AI 官方宣布推出 Llama 3 系列模型，包含 8B 和 70B 兩種規格，宣稱為目前地表最強的開源大語言模型。新模型在推論、程式碼生成及多輪對話能力上均有顯著提升，並首次支援 128K 上下文長度，訓練資料量達 15 兆 tokens。",
+    "highlights": [
+      "Llama 3 8B 和 70B 雙規格同步開源，可於 Meta AI 官網及 Hugging Face 下載",
+      "模型採用 128K 超大上下文窗口，訓練資料量達 15 兆 tokens",
+      "新增工具呼叫（Function Calling）和推論思考鏈能力",
+      "開源協議允許商業使用，突破以往限制",
+      "已在多項基準測試中超越 GPT-3.5 等封閉模型"
+    ],
+    "why_it_matters": "Llama 3 的發布代表開源 LLM 首次在綜合能力上逼近 GPT-4 等閉源模型，對於企業自建 AI 系統、開發本地化部署方案具有重大意義，可顯著降低 API 依賴成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可立即下載 Llama 3 70B 模型，使用 vLLM 或 Ollama 在本地/GPU 集群部署，替換現有 Claude API 或 GPT-4 API 呼叫，評估其在程式碼生成、文件總結、客服自動化等場景的可用性與成本效益。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-06-16-autogen-studio-mistral-genai",
