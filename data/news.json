@@ -1,5 +1,120 @@
 [
   {
+    "id": "2026-06-28-google-analytics-mcp-ai-agent-ga4-schema",
+    "title": "Google Analytics MCP 讓 AI Agent 直取 GA4 數據，支援 schema 探索與聚合",
+    "title_original": "surendranb/google-analytics-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/surendranb/google-analytics-mcp",
+    "published_at": "2026-06-28T17:54:14Z",
+    "category": "agent-skills",
+    "summary": "surendranb/google-analytics-mcp 是一個 Model Context Protocol 伺服器，讓 AI Agent 能直接查詢 Google Analytics 4 的網站流量、使用者行為、績效數據。內建 schema 探索、伺服器端聚合與安全預設值，大幅減少資料清洗負擔，222 顆星顯示已獲社群認可。",
+    "highlights": [
+      "• 支援 MCP 協定，可對接 Claude Code / Cursor / Codex 等主流 Agent 工具",
+      "• 直接查詢 GA4 的網站流量、使用者行為與績效數據",
+      "• 內建 schema discovery，省去人工摸索維度的時間",
+      "• 伺服器端聚合減少用戶端資料處理的計算成本",
+      "• 安全預設值降低誤觸敏感資料的風險"
+    ],
+    "why_it_matters": "行銷與產品團隊常需要 AI 協助分析網站數據，此 MCP 讓 Agent 無需中間腳本即可直接拉取分析就緒的 GA4 資料，是今天就能部署的工作流程加速工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Claude Code 安裝此 MCP server，撰寫 prompt 讓 Agent 自動生成每週流量報告摘要，減少手動匯出 GA 數據再做分析的重複性工作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3054895?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-computer-use-mcp-mcp-macos-agent",
+    "title": "computer-use-mcp：以 MCP 協定將 macOS 電腦操作能力暴露給任何 Agent 客戶端",
+    "title_original": "minghinmatthewlam/computer-use-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/minghinmatthewlam/computer-use-mcp",
+    "published_at": "2026-06-28T16:57:19Z",
+    "category": "agent-skills",
+    "summary": "minghinmatthewlam/computer-use-mcp 是一個開源的 MCP 伺服器，將 macOS 電腦操作能力（如截圖、點擊、輸入）以標準 MCP 介面暴露出來，可對接 Claude Code、Cursor、Codex 等任何 MCP 用戶端。背景執行安全，支援全螢幕、全應用操作。",
+    "highlights": [
+      "• 以 Swift 實作，直接操作 macOS 原生 API",
+      "• 背景執行，不干擾前台工作流程程",
+      "• 支援截圖讀取、模擬點擊、鍵盤輸入等底層操作",
+      "• MCP 標準介面相容主流 Agent 工具鏈",
+      "• 適用於需要 UI 操作自動化的場景（如測試、表單填寫）"
+    ],
+    "why_it_matters": "若 Agent 需要實際操作電腦 UI（而非僅讀取資料），此專案提供了一個開箱即用的 macOS 操作層，可快速將純文字對話 Agent 升級為能操控 GUI 的實體 Agent。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 macOS 上啟動 computer-use-mcp，串接 Claude Code，測試讓 Agent 自動開啟瀏覽器、填寫網頁表單的完整流程，驗證其可靠性後作為 UI 自動化標配工具。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Swift"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/14224566?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-ai",
+    "title": "開源社群熱議：什麼是開源AI的最大公敵？",
+    "title_original": "The number 1 public enemy of open-source.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ui241x/the_number_1_public_enemy_of_opensource/",
+    "published_at": "2026-06-28T16:44:47+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA社群近期發起討論，探討開源AI發展面臨的主要挑戰。討論聚焦於資源限制、模型可取得性與商業競爭等議題，反映出開源社群對AI生態走向的關切。",
+    "highlights": [
+      "討論起源於Reddit開源社群的反思性貼文",
+      "主要爭論點包含：大型科技公司封閉策略是否阻礙開源發展",
+      "開源模型在效能與資源需求間的取捨",
+      "社群成員對開源定義與實踐方式的分歧",
+      "此為論壇討論，非具體產品或政策新聞"
+    ],
+    "why_it_matters": "開源AI的發展方向影響整個生態系。理解社群痛點有助開發者評估未來工具鏈選擇，以及開源專案的永續經營模式。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可關注討論中提及的痛點，評估自身專案是否依賴可能受限的開源資源，並提前規劃替代方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-mcpick-claude-code-mcp",
+    "title": "mcpick：Claude Code 擴充管理器，統一管理 MCP 伺服器、插件與市集",
+    "title_original": "spences10/mcpick",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/spences10/mcpick",
+    "published_at": "2026-06-28T16:15:54Z",
+    "category": "agent-skills",
+    "summary": "spences10/mcpick 是一款 TypeScript 開發的 Claude Code 擴充管理工具，支援一站式安裝 MCP 伺服器、技能插件（skills）、鉤子（hooks）與代理（agents），並整合市集功能。87 顆星且基於熱門的 Claude Code 生態，是值得關注的開發者工具。",
+    "highlights": [
+      "• 統一介面管理 MCP 伺服器與 Claude Code 插件",
+      "• 支援 skills（技能）、hooks（鉤子）、agents（代理）三大擴充類型",
+      "• 內建市集，可瀏覽與一鍵安裝社群貢獻的插件",
+      "• TypeScript 實作，方便自定義或貢獻程式碼",
+      "• 簡化 Claude Code 生態的工具探索與維護成本"
+    ],
+    "why_it_matters": "Claude Code 生態的 MCP 工具愈來愈多，手動管理容易雜亂。mcpick 提供統一入口，讓技術用戶能快速找到、測試、切换不同的 MCP 擴充，提升 Agent 客製化效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝 mcpick，透過其市集功能快速找並測試其他 MCP 專案（如 Google Analytics MCP），建立個人化的 Claude Code 工具鏈配置檔，方便在新裝置上一鍵重現。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/234708?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-28-reddit-llm-70b-350b",
     "title": "Reddit討論：閉源與開源LLM排名及70B-350B模型價值評估",
     "title_original": "Are there good closed vs open LLM rankings? Also, are 70B–350B models actually worth it?",
@@ -46124,6 +46239,34 @@
       "new-models",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-token-minimax",
+    "title": "Token訂閱價格戰開打！階躍星辰、MiniMax相繼降價，開發者將成贏家",
+    "title_original": "Token訂閱大战打响！阶跃星辰、MiniMax接连出牌，開發者將成赢家 - shobserver.cn",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EcDQxSURFcktfM0ZnUG9ZRXZxQ2NpUG1tdWlZMl84TC1TV0tpSThOZjBiTWZXM0dodmFNVl9vLUZjWXVXLWEyNVlyX1pEQVE0MndoSzg0ekpZQmFjcUE?oc=5",
+    "published_at": "2026-03-23T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "中國AI新創階躍星辰與MiniMax近期相繼推出低價Token訂閱方案，掀起API計費大戰。這波價格競爭預計將為開發者帶來更實惠的AI调用成本，尤其利好需要大量文字生成或模型微調的應用場景。",
+    "highlights": [
+      "階躍星辰推出低價Token訂閱，瞄準開發者市場",
+      "MiniMax同步跟進降價策略，雙方競爭激烈",
+      "開發者可透過比較性價比選擇更適合的供應商",
+      "價格戰可能促使其他廠商跟進調整定價",
+      "大語言模型API使用門檻持續降低"
+    ],
+    "why_it_matters": "對於需要大量調用AI API的開發團隊而言，Token訂閱價格直接影響專案成本。價格戰意味著可用更少預算取得同等算力，提升產品商業可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可評估各平台Token計費模式，計算自身應用的最佳性價比，並考慮建立自動化成本監控系統以追蹤API支出。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
