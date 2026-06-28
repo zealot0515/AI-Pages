@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-06-28-reddit-llm-70b-350b",
+    "title": "Reddit討論：閉源與開源LLM排名及70B-350B模型價值評估",
+    "title_original": "Are there good closed vs open LLM rankings? Also, are 70B–350B models actually worth it?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uhusqt/are_there_good_closed_vs_open_llm_rankings_also/",
+    "published_at": "2026-06-28T11:24:17+00:00",
+    "category": "new-models",
+    "summary": "Reddit用戶詢問是否有可信的閉源與開源LLM對比排名，並探討70B至350B參數模型是否值得使用，涉及效能、成本與適用場景的綜合評估。",
+    "highlights": [
+      "社群對閉源與開源模型排名缺乏共識",
+      "大參數量模型（70B-350B）的性價比討論",
+      "涉及推論成本與實際任務表現的取捨",
+      "可反映技術社群對模型選擇的實際關注點",
+      "缺乏結構化數據，屬社群主觀經驗分享"
+    ],
+    "why_it_matters": "模型選擇是技術決策的關鍵，社群討論能揭示官方文件未提及的實際應用痛點，但需配合第三方評測數據驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將討論內容與第三方評測結果交叉比對，作為選型決策的輔助參考，而非唯一依據。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-reddit-100-250b",
+    "title": "Reddit討論：100-250B大模型使用經驗分享",
+    "title_original": "How many of you do use Q1 or Q2 of Big models(100-250B)? How's it?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uhummm/how_many_of_you_do_use_q1_or_q2_of_big/",
+    "published_at": "2026-06-28T11:14:56+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA社群熱烈討論100-250B參數量級大模型（如Q1/Q2量化）的實際使用體驗，涵盖效能、硬體需求與應用場景等實務問題。",
+    "highlights": [
+      "討論聚焦Q1/Q2量化格式的大模型實測表現",
+      "涉及硬體需求與推論效能的取捨",
+      "反映開源大模型在本地部署的真實痛點",
+      "可作為選擇本地大模型參數量的參考依據",
+      "論壇經驗分享為非結構化資訊，需自行過濾"
+    ],
+    "why_it_matters": "對於需要在本地部署大模型的技術用戶，實務經驗比官方基準測試更有參考價值，可避免硬體與效能不匹配的問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可瀏覽討論串，根據自身硬體配置與任務需求，選擇合適的模型參數量與量化方式。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-sehoon787-my-claude-claude-code-agent",
+    "title": "sehoon787/my-claude：Claude Code一站式Agent工具箱",
+    "title_original": "sehoon787/my-claude",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sehoon787/my-claude",
+    "published_at": "2026-06-28T10:03:09Z",
+    "category": "agent-skills",
+    "summary": "開源專案為Claude Code提供全功能Agent管理界面，內建200+代理、200+技能、87條規則、3個MCP伺服器與7個鉤子，號稱單一插件即可啟用。現有11顆星，屬早期專案。",
+    "highlights": [
+      "專為Claude Code設計的元協調（Meta-Orchestrator）框架",
+      "內建豐富代理與技能庫，降低從零建置門檻",
+      "支援3個MCP伺服器整合擴展能力",
+      "JavaScript實作，需 Node.js 環境",
+      "目前星數較少，功能穩定性有待社群驗證"
+    ],
+    "why_it_matters": "若能提升Claude Code的任務規劃與工具調用能力，可能成為提升AI coding效率的捷徑，但低星數代表社群採用率尚低。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝測試，用於自動化程式碼生成、測試或重構任務，評估其代理協調能力是否優於原生Claude Code。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/59464137?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-28-whisperian-android-asr-play",
+    "title": "Whisperian：Android 本地 ASR 語音辨識利器上架 Play 商店",
+    "title_original": "Whisperian: It is one of the best applications for Android, if you want to use Mic with some local ASR models. And it is also available on Play Store.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uhsi1o/whisperian_it_is_one_of_the_best_applications_for/",
+    "published_at": "2026-06-28T09:11:27+00:00",
+    "category": "open-source-ai",
+    "summary": "Whisperian 是一款 Android 應用，可讓用戶透過麥克風直接呼叫本地部署的 Whisper 等 ASR 模型進行語音轉文字。Reddit r/LocalLLaMA 社群用戶稱其為 Android 平台上最優秀的本地語音辨識應用之一，目前已在 Google Play 商店上架。",
+    "highlights": [
+      "支援麥克風即時錄音並呼叫本地 Whisper 模型進行轉譯",
+      "可在 Google Play 商店直接安裝，無需手動編譯",
+      "所有辨識處理在設備本地完成，無需網路傳輸",
+      "適用於注重隱私或網路受限的語音輸入場景",
+      "Reddit 用戶回報整合多種 Whisper 模型變體相容"
+    ],
+    "why_it_matters": "對於技術用戶而言，Whisperian 提供了一個開箱即用的本地語音轉文字方案，可完美整合已部署的 Whisper 模型，實現完全離線的語音輸入，同時確保語音資料不離開本機。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝後將其作為本地 Whisper 模型的語音輸入前端，用於語音備忘錄、會議紀錄、或與本地 LLM 串接實現語音控制工作流程程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-28-pilot-ai-agent-mcp",
     "title": "Pilot：讓 AI Agent 操控已登入瀏覽器分頁的 MCP 工具",
     "title_original": "TacosyHorchata/Pilot",
