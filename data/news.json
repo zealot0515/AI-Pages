@@ -1,5 +1,91 @@
 [
   {
+    "id": "2026-06-29-scalasemantic-mcp-ai-lsp",
+    "title": "ScalaSemantic MCP 伺服器：為 AI 編碼代理提供超越 LSP 的深度語義分析",
+    "title_original": "MercurieVV/ScalaSemantic",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/MercurieVV/ScalaSemantic",
+    "published_at": "2026-06-29T13:21:46Z",
+    "category": "agent-skills",
+    "summary": "基於 SemanticDB 的 Scala MCP 伺服器，為 AI 編碼代理提供精確的查找引用、類層次結構追蹤、隱式解析與呼叫路徑分析。超越傳統 LSP 與 grep，專為 Claude Code 等 AI 編碼工具設計，可直接整合進開發工作流程。",
+    "highlights": [
+      "基於 SemanticDB 提供 Scala 深度語義索引",
+      "支援精確查找引用、類層次結構、隱式解析",
+      "超越標準 LSP 的呼叫路徑追蹤能力",
+      "MCP 協議支援，Claude Code、Cursor 可直接呼叫",
+      "GitHub 13 stars，技術實作可直接測試"
+    ],
+    "why_it_matters": "為 Scala 專案中的 AI 助理提供精確語義理解，解決傳統 LSP 無法處理的隱式解析問題，大幅提升複雜程式碼庫的 AI 輔助分析與重構效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Scala 專案中部署 ScalaSemantic MCP，讓 AI 編碼代理能精確追蹤隱式轉換與呼叫路徑，用於複雜重構或大型程式碼庫理解。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Scala"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1910064?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-29-aipex-ai-1122-stars",
+    "title": "AIPex：開源 AI 瀏覽器自動化助理，1122 Stars 的隱私優先方案",
+    "title_original": "AIPexStudio/AIPex",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/AIPexStudio/AIPex",
+    "published_at": "2026-06-29T10:42:47Z",
+    "category": "agent-skills",
+    "summary": "AIPex 是專注於瀏覽器自動化的開源 AI 助理，以 TypeScript 開發、1122 Stars，主打無遷移成本與隱私優先設計，被視為 Manus Browser Operator、Claude Chrome、Agent Browser 的替代方案之一。",
+    "highlights": [
+      "TypeScript 實作，適合前端或 Node.js 生態的開發者快速上手",
+      "主打隱私優先，強調使用者資料不外流，與雲端自動化工具形成差異化",
+      "1122 Stars 表示社群關注度中等偏上，有一定實用性驗證",
+      "定位為瀏覽器操作代理，可自動化網頁填表、點擊、資料抓取等重複性任務",
+      "建議閱讀原始碼評估實作品質，與既有瀏覽器自動化工具（如 Playwright + AI）比較效率"
+    ],
+    "why_it_matters": "對於需要自動化網頁操作的技術用戶，AIPex 提供了一個開源本地替代方案，可在不依賴第三方雲端服務的情況下完成瀏覽器任務，降低隱私風險與長期營運成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 AIPex 整合進現有測試或資料蒐集流程，例如自動化填寫表單、抓取動態載入的網頁內容，並評估其相較 Playwright + AI 的效率差異。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/228874529?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-29-aicoworker-agentic-ai-27-stars",
+    "title": "aicoworker：面向非技術用戶的個人 Agentic AI 助理，僅 27 Stars",
+    "title_original": "Neurons-AI/aicoworker",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Neurons-AI/aicoworker",
+    "published_at": "2026-06-29T10:08:19Z",
+    "category": "agent-skills",
+    "summary": "aicoworker 是一個標榜面向非技術用戶的個人 Agentic AI 助理開源專案，專案 stars 僅 27，社群關注度低。其定位與 OpenHuman、 AIPex 有部分重疊，但技術文件與實作成熟度待驗證。",
+    "highlights": [
+      "Stars 數僅 27，代表社群參與度與關注度低，穩定性與維護狀態不明",
+      "主打非技術用戶友好，介面設計與操作門檻可能比技術工具更低",
+      "與 AIPex 同屬瀏覽器/個人助理類工具，但成熟度落後",
+      "開源專案可查看原始碼，但需自行評估實作品質與安全性",
+      "建議列為觀察名單，等待社群成長或出現正式版本後再評估實用價值"
+    ],
+    "why_it_matters": "對於技術用戶而言，aicoworker 的定位偏向終端用戶產品，目前社群規模不足以支撐技術可信度。建議將其視為潛在競爭對手或趨勢參考，而非當前可行的技術解決方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可偶爾檢視其 GitHub 動態，觀察 stars 成長趨勢與 issue 反饋，若社群快速增長則重新評估其作為輕量級自動化工具的潛力。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/255905840?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-29-gopls-mcp-ai-agent-go-mcp",
     "title": "gopls-mcp：讓 AI Agent 具備 Go 專案語意理解能力的 MCP 伺服器",
     "title_original": "xieyuschen/gopls-mcp",
@@ -27,6 +113,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/52945328?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-29-openai-ai",
+    "title": "OpenAI 報告：歐洲 AI 就業市場機會與轉型地圖",
+    "title_original": "Mapping Europe’s AI Workforce Opportunity",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+    "published_at": "2026-06-29T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格發布報告，分析 AI 對歐盟各國就業市場的潛在影響，標註哪些職業可能面臨自動化、哪些將出現成長，以及工作流程程將如何被重新定義。屬於趨勢分析類內容，非具體產品發布。",
+    "highlights": [
+      "報告聚焦歐盟市場，涵蓋多個產業與職業的 AI 滲透率預測",
+      "區分「可自動化」與「需人類判斷」的任務邊界，有助理解 AI 能力邊緣",
+      "強調工作流程程重設計的機會，而非簡單的「失業論」",
+      "發布於 OpenAI 官方網站，內容經過一定審核，但非技術規格文件",
+      "對企業策略或人力資源規劃有參考價值，但對個人技術實作直接幫助有限"
+    ],
+    "why_it_matters": "該報告反映了 OpenAI 對 AI 應用邊界的宏觀判斷，技術決策者可從中窺見 AI 在不同場景的滲透潛力，有助於優先排序技術投資方向，但不宜作為短期技術選型的直接依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將報告中的職業分類作為需求探索的起點，例如關注高自動化潛力職業中的文書處理節點，思考如何用現有 AI 工具實現對應任務的自動化。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-06-29-preman-sdk-rest-api-mcp-typescript-sdk",
