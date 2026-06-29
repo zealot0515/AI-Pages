@@ -1,5 +1,287 @@
 [
   {
+    "id": "2026-06-29-gopls-mcp-ai-agent-go-mcp",
+    "title": "gopls-mcp：讓 AI Agent 具備 Go 專案語意理解能力的 MCP 伺服器",
+    "title_original": "xieyuschen/gopls-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/xieyuschen/gopls-mcp",
+    "published_at": "2026-06-29T07:26:36Z",
+    "category": "agent-skills",
+    "summary": "開源貢獻者 xieyuschen 發布 gopls-mcp，透過 Go 語言伺服器協議（gopls）為 MCP（Model Context Protocol）生態系統提供 Go 專案的語意理解能力，讓 AI Code Agent 能讀取精確的類型資訊、程式碼結構與編譯狀態，而非僅依賴模糊的語言模型推斷。",
+    "highlights": [
+      "基於 Go 官方 gopls 工具，支援靜態類型解析與符號查詢",
+      "MCP 協定整合，可直接對接 Claude、Cline 等主流 Agent 工具",
+      "目前 GitHub 57 stars，屬於早期專案但技術方向明確",
+      "可取得確定性的程式碼分析結果，降低 AI 幻觉風險",
+      "支援跳轉定義、查找引用、類型推斷等 IDE 核心功能"
+    ],
+    "why_it_matters": "AI 程式碼生成在 Go 專案常因缺乏精確上下文而產生型別錯誤。gopls-mcp 為 Agent 提供確定性語意資訊，能顯著提升 Go 程式碼生成與重構的準確度，是實用性很強的工具整合。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 gopls-mcp 接入現有 MCP 客戶端，在處理 Go 程式碼重構、測試生成或錯誤修復時，可要求 Agent 先透過 gopls 查詢精確的符號資訊，再執行生成任務，降低型別相關的無效輸出。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/52945328?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-29-preman-sdk-rest-api-mcp-typescript-sdk",
+    "title": "PreMan-Sdk：將 REST API 快速轉為 MCP 伺服器的 TypeScript SDK",
+    "title_original": "PreMan-Inc/PreMan-Sdk",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/PreMan-Inc/PreMan-Sdk",
+    "published_at": "2026-06-29T06:54:43Z",
+    "category": "agent-skills",
+    "summary": "PreMan-Sdk 為 TypeScript 開發的 SDK 與 CLI，幫助開發者將現有 REST API 包裝成託管式 MCP 伺服器，並提供Scoped Agent Token 與稽核日誌功能，適用於需要安全地向 AI 代理開放內部 API 的場景。",
+    "highlights": [
+      "SDK 封裝 REST API 為 MCP 協定，大幅降低 MCP 化成本",
+      "Scoped Agent Token 實現細粒度授權，避免全開 API 權限",
+      "內建稽核日誌可追蹤代理對 API 的呼叫行為",
+      "TypeScript 原生支援，便於整合進 Node.js / 前端專案",
+      "僅 13 顆星，社群成熟度較低，長期維護有待觀察"
+    ],
+    "why_it_matters": "將企業內部 REST API MCP 化是讓 AI 代理安全可控地存取系統資源的關鍵，PreMan-Sdk 將此門檻從自建降至配置，有助於加速代理整合工作流程的落地。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將公司內部 CRM、專案管理或資料庫查詢 API 用 PreMan-Sdk 包裝，讓子代理在可控範圍內查詢與寫入資料，避免直接暴露 Admin Key。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/289584275?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-29-agenttier-kubernetes-ai",
+    "title": "agenttier：Kubernetes 原生的 AI 代理沙盒執行平台",
+    "title_original": "agenttier/agenttier",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/agenttier/agenttier",
+    "published_at": "2026-06-29T05:59:28Z",
+    "category": "agent-skills",
+    "summary": "agenttier 是以 Go 開發的 Kubernetes 原生沙盒平台，專為執行 AI 代理、程式碼助理及代理測試框架而設計，提供隔離的運算環境，讓企業能在 K8s 叢集上安全、可擴展地跑代理工作負載。",
+    "highlights": [
+      "基於 Go 開發，與 Kubernetes 生態深度整合",
+      "提供沙盒隔離環境，防止代理誤操作影響主系統",
+      "支援 AI 代理、程式碼助理、代理測試框架等多種工作負載",
+      "可水平擴展以支撐多代理並行執行",
+      "42 顆星，專案尚新，需評估生產就緒程度"
+    ],
+    "why_it_matters": "在 K8s 環境中運行 AI 代理可利用現有叢集資源與治理機制，對已有 Kubernetes 基礎設施的團隊而言，是實現代理規模化與安全隔離的低門檻方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "已運行 K8s 的團隊可直接以 Helm Chart 部署 agenttier，在隔離 Pod 中執行代理測試腳本，自動收集效能與錯誤日誌，無需另建 VM 或容器叢集。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/283073154?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-29-ai-assist-skills-ai",
+    "title": "ai-assist-skills：跨 AI 程式助理的工程工作流程自動化技能集",
+    "title_original": "jparkerweb/ai-assist-skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jparkerweb/ai-assist-skills",
+    "published_at": "2026-06-29T04:22:50Z",
+    "category": "agent-skills",
+    "summary": "ai-assist-skills 是一套 JavaScript 技能集合，旨在跨多款 AI 程式助理（如 Cursor、Copilot 等）自動化常見工程工作流程，包括程式碼審查、測試生成、文件更新等任務，幫助開發團隊減少重複性手動操作。",
+    "highlights": [
+      "技能以 JavaScript 編寫，可直接嵌入支援自訂指令的 AI 助理",
+      "涵蓋程式碼審查、測試產生、CHANGELOG 更新等工程常見場景",
+      "設計為跨平台兼容，理論上支援 Cursor、Copilot、VSCodium 等",
+      "83 顆星反映社群對跨助理自動化需求的高度關注",
+      "需確認與目標 AI 助理的指令格式相容性"
+    ],
+    "why_it_matters": "工程團隊若同時使用多款 AI 助理，統一的技能集可減少學習成本與腳本維護負擔，讓不同助理執行相同工作流程時保持一致性。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 ai-assist-skills 中的程式碼審查技能注入 CI/CD Pipeline 前的 AI 助理指令集，自動在 Pull Request 開啟時觸發規範檢查與初步審閱回饋。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3073864?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-29-item",
+    "title": "小型模型程式技能遷移實測首波結果出爐",
+    "title_original": "Update: First Manual Results from Testing Procedural Skill Transfer in Small Models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uii78d/update_first_manual_results_from_testing/",
+    "published_at": "2026-06-29T04:22:02+00:00",
+    "category": "new-models",
+    "summary": "研究者在 Reddit 更新小型模型間「程式技能遷移」（Procedural Skill Transfer）的實測結果，嘗試驗證一個小型模型學到的任務能力是否能有效轉移至另一個小型模型。初步手動測試顯示遷移效果有限，高度依賴模型原有預訓練基礎。",
+    "highlights": [
+      "屬於模型蒸餾與遷移學習的交叉研究領域",
+      "實測方法為手動評估，非自動化基準測試",
+      "結果顯示技能遷移在小型模型間的效果不如預期",
+      "提示小型模型容量限制影響任務泛化能力",
+      "研究者呼籲社群提供更多測試案例"
+    ],
+    "why_it_matters": "若小型模型間的技能遷移難以實現，將影響 AI Agent 的模組化設計與微調策略。這個研究方向對於需要精簡模型部署的技術團隊有重要參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀完整研究方法論，在自己的小型模型專案設計中避免過度依賴跨模型技能遷移，優先考慮基於單一模型的多任務微調方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-29-reddit-qwen-3-5-4b-agent",
+    "title": "Reddit 開發者實測：用 Qwen 3.5 4B 打造小型模型 Agent 控制系統",
+    "title_original": "I built an agent Harness for Small Models. I got Qwen 3.5 4b managing servers.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uicweb/i_built_an_agent_harness_for_small_models_i_got/",
+    "published_at": "2026-06-29T00:02:35+00:00",
+    "category": "new-models",
+    "summary": "一位開發者在 Reddit r/LocalLLaMA 分享使用 Qwen 3.5 4B 建立 Agent 接管伺服器管理的案例。透過設計 Agent 架構（Harness），在消費級硬體上讓小型模型執行伺服器監控、簡單指令執行等任務。",
+    "highlights": [
+      "Qwen 3.5 4B 是一款參數量極小的開源模型",
+      "作者設計了專用 Harness 框架來約束模型行為",
+      "實測可在本地 CPU/GPU 上運行，無需雲端 API",
+      "功能目前限於簡單的伺服器管理指令",
+      "屬於社群實驗性質，缺乏量化效能數據"
+    ],
+    "why_it_matters": "小型模型 Agent 的可行性代表本地化 AI 部署的新方向。若能在 4B 參數規模實現基本的 Agent 能力，將大幅降低 AI 自動化的硬體與 API 成本門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "克隆專案程式碼，在本地環境部署 Qwen 3.5 4B，測試其處理自動化腳本執行、Log 分析或簡單 DevOps 任務的能力，評估是否能替代昂貴的雲端 API 方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-29-npc-engine",
+    "title": "使用本地模型驅動的 NPC Engine 遊戲引擎實驗",
+    "title_original": "NPC Engine Using Local Models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uibt9o/npc_engine_using_local_models/",
+    "published_at": "2026-06-28T23:13:52+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶展示一個基於本地模型運行的 NPC 對話引擎，可讓遊戲中的 NPC 具備動態對話、情境理解與角色扮演能力。引擎在本地硬體運行，無需網路連接或外部 API。",
+    "highlights": [
+      "強調離線運行能力，適合單機遊戲或隱私敏感場景",
+      "NPC 可根據遊戲狀態動態生成對話內容",
+      "使用本地小型語言模型，硬體需求相對親民",
+      "目前為實驗階段，整合至主流遊戲引擎的成熟度待驗證",
+      "討論串中有開發者提出延遲與記憶體管理問題"
+    ],
+    "why_it_matters": "遊戲 NPC 的智慧化是 AI 應用的具體場景之一。本地模型驅動的 NPC 若成熟，可為獨立遊戲開發者提供低成本、高彈性的對話系統方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載相關程式碼與模型，嘗試整合至 Unity 或 Godot 等遊戲引擎，測試在特定遊戲情境下 NPC 的回應品質與延遲表現，評估實用性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-29-jon-udell",
+    "title": "Jon Udell：與其說「人在環路中」，不如說「這是我們的流程」",
+    "title_original": "Quoting Jon Udell",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything",
+    "published_at": "2026-06-28T21:57:41+00:00",
+    "category": "agent-skills",
+    "summary": "知名資訊架構師 Jon Udell 反思 AI Agent 開發的協作模式。他認為「human in the loop」一詞讓人類變成機器流程的附屬品，主張翻轉敘事：我們的工作流程程本質不變，現在是招募 Agent 加入團隊，而非讓黑箱系統取代人類判斷。他以 PR 審查為例，批評那種「生成後無法審閱」的 Agent 流程，呼籲以「邀請 Agent 加入我們的流程」取代「被排除在流程外」。",
+    "highlights": [
+      "「human in the loop」一詞暗示人類是流程的例外，應改為「這是我們的流程，Agent 來加入」",
+      "理想的 Agent 輔助流程應保留人類可審閱、介入的環節，而非黑箱生成後直接交付",
+      "以「Doctor, it hurts when agents create unreviewable PRs.」諷刺不透明的 Agent 工作流程",
+      "強調人類與 Agent 應是協作團隊關係，而非取代或從屬"
+    ],
+    "why_it_matters": "對於建構靠譜 Agent 系統的技術人而言，這是一個重要的設計哲學提醒：避免生成黑箱，讓每個 Agent 步驟都可被人類審閱和接管，這直接影響系統的可維護性與錯誤率。",
+    "automation_angle": null,
+    "automation_angle_zh": "在設計 Agent 工作流程時，可在每個關鍵步驟（如 PR 生成、代碼變更）前後加入人類確認節點，確保 Agent 輸出可被審閱而非直接執行，降低錯誤傳播風險。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-29-huggingface",
+    "title": "社群熱議：HuggingFace 上大量低品質微調模型的成因分析",
+    "title_original": "Trying to understand why so many trash fine-tuned models on HuggingFace ...",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ui7xoj/trying_to_understand_why_so_many_trash_finetuned/",
+    "published_at": "2026-06-28T20:31:23+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶發起討論，分析為何 HuggingFace 上存在大量品質參差不齊的微調模型。回覆中指出原因包括：缺乏統一的品質基準、作者經驗不足、資料集污染、以及平台審核機制不完善等。",
+    "highlights": [
+      "HuggingFace 平台模型數量爆發但品質難以把關",
+      "部分微調模型僅在少量資料上訓練即發布",
+      "社群呼籲建立類似 Papers with Code 的品質追蹤機制",
+      "模型竊取與盜版問題也存在於平台生態",
+      "高讚回覆建議參考 GitHub Stars 與實際使用回饋"
+    ],
+    "why_it_matters": "對於依賴 HuggingFace 開源模型的技術團隊而言，辨識高品質模型的成本正在上升。了解這些問題有助於建立自己的模型評估與選型流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立自動化模型評估 Pipeline，針對下載的微調模型執行標準化測試（如 HumanEval、MMLU），避免直接相信模型作者的自述描述或下載量排名。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-29-hack-your-summer-4",
+    "title": "Hack Your Summer：4 週高強度專案衝刺，替代實習的新途徑",
+    "title_original": "Hack Your Summer",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/28/hack-your-summer/#atom-everything",
+    "published_at": "2026-06-28T19:26:11+00:00",
+    "category": "agent-skills",
+    "summary": "由 DJ Patil 推動的 Hack Your Summer 專案，為大學生、研究生及應屆畢業生提供為期 4 週的高強度專案開發衝刺。旨在幫助因實習市場緊縮而無法獲得傳統實習機會的學生，提供導師指導、同儕支援，並產出可展示的作品。第二期免費梯次 7 月 13 日開課，申請截止 7 月 8 日，同時招募志願導師。",
+    "highlights": [
+      "4 週高強度專案開發專案，面向美國大學生群體",
+      "因應 2026 年實習崗位減少而生的替代方案",
+      "提供導師指導、同儕協作，最終產出可展示的公開作品",
+      "第二期 7/13 開課，正在招募學生參與者與志願導師"
+    ],
+    "why_it_matters": "對技術從業者而言，這類集訓模式可作為内部黑客松或團隊協作培訓的參考；對有導師身份的技術人，亦可考慮參與志願指導，擴展社群影響力。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考其協作流程設計自己的團隊黑客松：設定明確時限、導師 Review 節點、公開交付物，以類似模式提升團隊產出效率與可見度。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-28-google-analytics-mcp-ai-agent-ga4-schema",
     "title": "Google Analytics MCP 讓 AI Agent 直取 GA4 數據，支援 schema 探索與聚合",
     "title_original": "surendranb/google-analytics-mcp",
@@ -26,6 +308,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/3054895?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-29-hp-openai-frontier-ai",
+    "title": "HP 擴大與 OpenAI Frontier 合作，加速企業 AI 部署",
+    "title_original": "HP Inc. launches Frontier strategic partnership with OpenAI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/hp-frontier-partnership",
+    "published_at": "2026-06-28T17:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "HP Inc. 宣布擴大與 OpenAI Frontier 計畫的合作範圍，將 AI 能力整合至客戶體驗、軟體開發流程及企業內部營運。雙方合作旨在透過 HP 的硬體與通路優勢，降低企業採用 OpenAI 模型的門檻。",
+    "highlights": [
+      "HP 將把 OpenAI 模型能力嵌入印表機、PC 等硬體生態",
+      "針對企業軟體開發流程提供 AI 輔助工具",
+      "合作層級提升，瞄準大型企業客戶的 AI 轉型需求",
+      "屬於策略合作夥伴關係，非單純的 API 採購",
+      "具體技術細節與定價方案尚未公開"
+    ],
+    "why_it_matters": "HP 與 OpenAI 的深度合作代表企業級 AI 落地的一種新模式：硬體廠商直接整合 AI 模型能力，對需要 IT 一站式解決方案的企業用戶具吸引力。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 HP 後續發布的 API 或 SDK 文件，若提供企業內部軟體開發的 AI 輔助功能，可評估其是否能替代或輔助現有的 GitHub Copilot、Cursor 等工具。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -3118,6 +3428,32 @@
     "why_it_matters": "大學生是高意願付費的細分市場，38 元/月顯示低價策略可行，但需明確差異化功能。",
     "automation_angle": null,
     "automation_angle_zh": "開發者若針對學生族群開發 AI 工作流程程工具，可參考此定價區間預估市場接受度。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-29-ai-38",
+    "title": "大學生願意為「AI 打工人」每月付 38 元嗎？騰訊新聞用戶調查",
+    "title_original": "每月38元，你愿意為“AI打工人”付费吗？我们调查了20個大学生｜科技观察 - QQ News",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45cUw5UVJfb2tQUEpuNEpLRVBVR3NlLVQxejZpRnVsNVB4TXlwN3htQk41RFN5ZWRoekpxeFJqcWJTRFplNXV4WlR6WnpDbGhsOHM4N2tR?oc=5",
+    "published_at": "2026-06-24T10:54:00+00:00",
+    "category": "ai-deals",
+    "summary": "騰訊新聞調查 20 名中國大學生，探討其對「AI 打工人」（即以 AI 工具取代部分實習工作的服務）的付費意願，定價為每月 38 元人民幣。調查反映大學生群體對 AI 工具的接受度與價格敏感度，但屬於市場趨勢觀察而非具體產品評測。",
+    "highlights": [
+      "調查對象為大學生群體，聚焦 38 元/月 的 AI 工具訂閱定價",
+      "旨在了解年輕用戶對「AI 替代實習」這類服務的接受程度",
+      "屬於市場調研報導，非技術評測或產品比較"
+    ],
+    "why_it_matters": "對關注 AI 工具定價策略的技術人而言，大學生群體的付費閾值可作為 SaaS 定價參考；但此調查樣本小且缺乏技術細節，信號強度有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考此定價區間評估自建 AI 工具的 B2C 訂閱模型，若服務對標大學生市場，38 元/月 可能是個心理價位參考點。",
     "tags": [
       "ai-deals",
       "rss",
@@ -47531,6 +47867,32 @@
     "why_it_matters": "低價策略有望吸引大量個人開發者與小型團隊轉向 Gemini 生態系，對既有的 OpenAI、Anthropic 訂閱方案形成價格競爭壓力。",
     "automation_angle": null,
     "automation_angle_zh": "開發者可用 7.99 美元方案測試 Gemini API 與 Workspace 整合腳本，評估其是否足以取代或補充現有付費 AI 工具鏈。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-29-item",
+    "title": "中國用戶「白嫖會員」是因為沒有付費習慣嗎？深潮深度解析",
+    "title_original": "到处可见的“白嫖會員”，是因為“中国使用者抠门”“没有付费习惯”吗？ - 深潮TechFlow",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JRlBEZjAyX1JUNWVUazNOcFVrbU8wWmtmTVZOY29sMFg0U25mN19aam5wcUJ0X2dTM2ZvNnNBVDBLSWNtdjNOYW9HNi0tX2JVZWc?oc=5",
+    "published_at": "2026-01-26T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "深潮 TechFlow 分析中國互聯網用戶普遍「白嫖」（免費使用付費功能）現象，探討背後原因是用戶「摳門」還是產品定價、付費體驗等結構性問題。屬於互聯網商業模式分析，非具體 AI 工具評測。",
+    "highlights": [
+      "分析中國用戶免費使用付費功能的普遍現象",
+      "探討是「用戶習慣」還是「產品設計」導致白嫖",
+      "屬於宏觀商業分析，非特定 AI 工具或定價資訊"
+    ],
+    "why_it_matters": "對 AI 工具開發者而言，理解用戶付費障礙有助於設計更好的變現策略；但本文為通用商業分析，缺乏具體 AI 產品定價或功能資訊，實用性偏弱。",
+    "automation_angle": null,
+    "automation_angle_zh": "若正在設計 AI 工具的免費/付費牆，可借鑒此文對用戶付費心理的分析，避免過度依賴免費策略而影響變現。",
     "tags": [
       "ai-deals",
       "rss",
