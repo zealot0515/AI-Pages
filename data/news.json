@@ -1,5 +1,199 @@
 [
   {
+    "id": "2026-06-30-robloxstudio-mcp-ai-agent-roblox",
+    "title": "robloxstudio-mcp：用 AI Agent 驅動 Roblox 開發除錯流程",
+    "title_original": "Chrrxs/robloxstudio-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Chrrxs/robloxstudio-mcp",
+    "published_at": "2026-06-30T12:27:14Z",
+    "category": "agent-skills",
+    "summary": "Lua 語言 MCP 伺服器，支援 Roblox Studio 運行時除錯、測試控制、截圖、輸入模擬、多人測試及逐 Peer 服務端/客戶端評估，目前 Stars 76。",
+    "highlights": [
+      "支援 Roblox Studio 運行時除錯與截圖",
+      "多人測試與逐 Peer 評估能力",
+      "Lua 原生實作，輕量整合 Roblox 生態",
+      "Stars 76，成長態勢值得關注"
+    ],
+    "why_it_matters": "對於遊戲開發者或需要大量測試 Roblox 專案的團隊，AI Agent 直接操控除錯流程可顯著加速開發迭代與品質驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立自動化的 Roblox 多人遊戲測試腳本，讓 AI Agent 依據截圖與日誌自動判定測試結果並生成修復建議。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Lua"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/67719167?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-openpangu-2-0-flash-920-60",
+    "title": "華為開源OpenPangu-2.0-Flash：920億參數、60億活躍",
+    "title_original": "Huawei open-sources OpenPangu-2.0-Flash - 92B total,6B active",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujn5u3/huawei_opensources_openpangu20flash_92b_total6b/",
+    "published_at": "2026-06-30T11:58:23+00:00",
+    "category": "open-source-ai",
+    "summary": "華為正式開源OpenPangu-2.0-Flash模型，總參數量達920億，但採用專家混合架構僅需60億活躍參數。該模型支援中文語境與長文本處理，已可在Ascend平台部署，為國產大模型生態提供新選擇。",
+    "highlights": [
+      "總參數920億，MoE架構僅60億活躍",
+      "專為中文語境優化",
+      "支援長文本處理能力",
+      "可於Ascend硬體平台部署",
+      "開源協議允許研究與商業應用"
+    ],
+    "why_it_matters": "華為此舉為需要中文能力且考量國產硬體的開發者提供新選項，MoE架構的稀疏激活特性可降低推論成本，值得在特定場景測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "在Ascend環境或透過相容介面測試模型性能，評估其對中文文件處理、程式碼生成等任務的表現與延遲表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-foxl-orchestrator-ai-agent-hub",
+    "title": "foxl-orchestrator：打造全天候自主個人 AI Agent Hub",
+    "title_original": "ninouanis84-sudo/foxl-orchestrator",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ninouanis84-sudo/foxl-orchestrator",
+    "published_at": "2026-06-30T11:41:12Z",
+    "category": "agent-skills",
+    "summary": "個人 AI Agent Hub 2026 框架，標榜 24/7 全天候自主助理能力。HTML 實作但 Stars 達 49，技術定位與實作深度需進一步探索原始碼確認。",
+    "highlights": [
+      "標榜 24/7 全天候自主 Agent 能力",
+      "Stars 49，相對同類專案關注度較高",
+      "HTML/JavaScript 實作，輕量化傾向",
+      "具體技術架構與穩定性需進一步驗證"
+    ],
+    "why_it_matters": "對於希望建立長期運行 Agent 系統的技術使用者，該框架提供一個起點，但需評估其穩定性與擴展性是否符合實際需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "可克隆測試，將重複性日常任務（如郵件分類、日程同步）接入 foxl-orchestrator，觀察其自動化維持能力。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "HTML"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/233602562?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-agent-brain-ai-agent",
+    "title": "agent-brain：為 AI 程式碼 Agent 注入持久決策記憶",
+    "title_original": "sandeep84397/agent-brain",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sandeep84397/agent-brain",
+    "published_at": "2026-06-30T11:35:59Z",
+    "category": "agent-skills",
+    "summary": "基於 Python 的 MCP 伺服器，為 Claude Code、Cursor、Cline 等主流 AI 程式碼工具提供跨 Session 的決策持久化能力，目前僅 11 Stars，仍屬早期專案。",
+    "highlights": [
+      "支援 Claude Code、Cursor、Cline 等主流 Agent",
+      "提供跨 Session 的持久決策記憶機制",
+      "Python 實作，輕量整合",
+      "目前 Stars 數低，功能成熟度待觀察"
+    ],
+    "why_it_matters": "若能成功保持 Agent 的決策上下文，可大幅減少重複試錯，提升長期程式碼生成任務的效率與一致性。",
+    "automation_angle": null,
+    "automation_angle_zh": "在大型重構或跨檔案任務中啟用 agent-brain，追蹤 AI 的決策邏輯演變，驗證其是否能減少同類問題的重複修正。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/58062032?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-qwen3-6-35b-a3b",
+    "title": "Qwen3.6-35B-A3B正規化保留消融術：零拒絕、基準分數完好",
+    "title_original": "Norm-preserving abliteration on Qwen3.6-35B-A3B: 0% refusal, benchmarks intact, open source dataset",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujktg5/normpreserving_abliteration_on_qwen3635ba3b_0/",
+    "published_at": "2026-06-30T09:54:54+00:00",
+    "category": "open-source-ai",
+    "summary": "研究團隊發布針對Qwen3.6-35B-A3B的正規化保留消融技術，能在移除模型安全過濾機制的同時維持基準測試分數。該技術採用新規範對齊方法，號稱實現0%拒絕率且開源完整資料集與方法論。",
+    "highlights": [
+      "成功移除安全過濾且保持效能",
+      "正規化消融技術減少效能損失",
+      "開源完整技術文件與資料集",
+      "適用於需要完全開放輸出的場景",
+      "0%拒絕率不代表完全無安全性機制"
+    ],
+    "why_it_matters": "此技術為需要無限制模型輸出的開發者提供新途徑，但同時引發安全邊界討論。技術用戶應評估其適用範圍與潛在風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載消融後模型或復現技術流程，評估在程式碼生成、翻譯等需要高自由度的任務上的表現差異。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-openpangu-2-0-flash-hugging-face",
+    "title": "OpenPangu-2.0-Flash尚未上傳至Hugging Face社群",
+    "title_original": "ascend-tribe/openPangu-2.0-Flash (They haven't uploaded it to Huggingface yet）",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujjxda/ascendtribeopenpangu20flash_they_havent_uploaded/",
+    "published_at": "2026-06-30T09:01:41+00:00",
+    "category": "open-source-ai",
+    "summary": "華為OpenPangu-2.0-Flash模型官方發布後，社群鏡像尚未出現於Hugging Face平台。部分開發者反映嘗試在Hugging Face搜尋該模型無結果，目前僅能透過華為Ascend平台或其他官方管道獲取。",
+    "highlights": [
+      "Hugging Face尚未收錄該模型",
+      "目前僅華為官方管道可取得",
+      "社群鏡像可能稍後上線",
+      "對習慣Hugging Face生態的開發者造成不便"
+    ],
+    "why_it_matters": "開源模型若未能進入主流模型分享平台，會降低其可發現性與社區貢獻機會。開發者需關注後續是否有社區鏡像出現。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤Hugging Face社群動態，或直接透過華為官方管道申請模型存取權限進行測試。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-microsoft-fastcontext",
+    "title": "Microsoft緊急下架FastContext模型，各平台已全面移除",
+    "title_original": "Microsoft has taken down fastcontext model from everywhere",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujjk9s/microsoft_has_taken_down_fastcontext_model_from/",
+    "published_at": "2026-06-30T08:39:43+00:00",
+    "category": "new-models",
+    "summary": "Microsoft突然將FastContext模型從所有平台下架，包括GitHub、Hugging Face等儲存庫。此事件引發開源社群熱議，部分使用者反映模型在移除前已可正常下載，但官方尚未說明下架原因，可能與授權爭議或安全疑慮有關。",
+    "highlights": [
+      "模型已從所有已知平台完全移除",
+      "下架原因未明，官方尚未公告說明",
+      "部分使用者已在下架前成功下載模型檔案",
+      "此事件影響依賴該模型進行本地部署的開發者"
+    ],
+    "why_it_matters": "模型突然下架顯示企業可能對開源模型的政策態度正在收緊，開發者需注意依賴單一模型來源的風險，建議建立本地快取與替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即檢查是否有專案依賴FastContext，評估Qwen3.6-35B-A3B或其他替代模型的可行性，並建立模型版本控制與離線備份機制。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-30-tesla-v100-16gb-llm-nvlink",
     "title": "Tesla V100 16GB 本地執行 LLM 效能實測：單卡與雙 NVLink 對比",
     "title_original": "Tesla V100 16GB local LLMs, single and dual NVLink benchmarks",
@@ -57,6 +251,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-06-30-internscience-agents-a1",
+    "title": "InternScience發布Agents-A1代理框架，聚焦科學研究自動化",
+    "title_original": "InternScience/Agents-A1 · Hugging Face",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujhk93/internscienceagentsa1_hugging_face/",
+    "published_at": "2026-06-30T06:43:01+00:00",
+    "category": "agent-skills",
+    "summary": "InternScience在Hugging Face上架Agents-A1框架，專為科學研究場景設計的AI代理系統。該框架支援多步驟研究任務規劃、文獻檢索整合與實驗資料處理流程，旨在協助研究人員自動化重複性研究工作。",
+    "highlights": [
+      "專為科學研究場景優化的代理框架",
+      "支援多步驟任務規劃與執行",
+      "整合文獻檢索與資料處理能力",
+      "可在Hugging Face直接體驗或部署"
+    ],
+    "why_it_matters": "研究自動化需求日益增長，Agents-A1若能有效整合研究流程，可顯著減少博士後與研究助理的文書與分析負擔，值得技術評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載框架原始碼，在本地建立研究代理原型，測試其處理文獻綜述或資料清洗任務的能力與準確度。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-30-jabrena-plinth-java-enterprise-ai-skills-agents-mcp",
     "title": "jabrena/plinth：Java Enterprise 原生 AI 工作流程框架，整合 Skills/Agents/MCP",
     "title_original": "jabrena/plinth",
@@ -83,6 +304,33 @@
       "Java"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/147263?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-google-ai",
+    "title": "Google英國發布AI經濟影響報告，推動國家人工智慧人才培育",
+    "title_original": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+    "published_at": "2026-06-30T06:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google UK發布最新經濟影響報告，阐述AI技術對英國生產力的影響，並提出擴大AI人才培訓的建議。報告強調AI工具在企業的採用率持續提升，但強調需同時關注技能落差與倫理框架建立。",
+    "highlights": [
+      "AI對英國GDP貢獻持續增長",
+      "企業AI採用率提升但仍有技能落差",
+      "強調AI素養與持續學習重要性",
+      "涉及Google在英國的AI投資計畫"
+    ],
+    "why_it_matters": "此報告屬宏觀趨勢分析，缺乏具體技術細節或可直接使用的工具，對技術用戶的實際工作指導價值有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "作為產業趨勢參考，了解歐洲AI政策走向對跨國專案或產品規劃可能有所幫助。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
