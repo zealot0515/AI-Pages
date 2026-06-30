@@ -1,5 +1,91 @@
 [
   {
+    "id": "2026-06-30-tesla-v100-16gb-llm-nvlink",
+    "title": "Tesla V100 16GB 本地執行 LLM 效能實測：單卡與雙 NVLink 對比",
+    "title_original": "Tesla V100 16GB local LLMs, single and dual NVLink benchmarks",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujhtl9/tesla_v100_16gb_local_llms_single_and_dual_nvlink/",
+    "published_at": "2026-06-30T06:57:56+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/LocalLLaMA 社群用戶實測在 Tesla V100 16GB 顯示卡上執行本地 LLM，比較單卡與 NVLink 雙卡串聯的推論效能。V100 為 2017 年資料中心卡，16GB 記憶體仍可執行中小型開源模型，此 benchmark 提供老舊 GPU 本地部署的可行性參考。",
+    "highlights": [
+      "V100 16GB 可執行 7B 以下規模的開源模型，搭配量化技術",
+      "NVLink 雙卡串聯可提升卡間頻寬，改善推論吞吐量",
+      "本地部署適合重視資料隱私或需要離線運作的場景",
+      "記憶體容量為主要瓶頸，模型量化几乎是必要優化",
+      "為資源受限的開發者提供低成本的本地 AI 測試方案"
+    ],
+    "why_it_matters": "Tesla V100 提供了在預算有限情況下執行本地 AI 模型的替代方案。此實測數據可幫助技術人員評估老舊資料中心硬體的實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可參考此 benchmark 的測試方法與結果，評估現有 V100 GPU 是否足以支援特定開源模型的本地部署需求，用於隐私敏感或離線場景的自動化工作流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-bingowon-apple-rag-mcp-mcp-apple-rag",
+    "title": "BingoWon/apple-rag-mcp：MCP 伺服器提供 Apple 開發文件 RAG 檢索",
+    "title_original": "BingoWon/apple-rag-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/BingoWon/apple-rag-mcp",
+    "published_at": "2026-06-30T06:48:54Z",
+    "category": "agent-skills",
+    "summary": "這是一個 MCP Server，專為 AI Agent 提供 Apple 開發者文件的即時 RAG 檢索能力。開發者無需手動搜尋，即可讓 Agent 在對話中查詢最新 Apple 文件、Framework 規範與 API 變更。目前 114 Stars，TypeScript 實作。",
+    "highlights": [
+      "即時檢索 Apple 官方開發文件，涵蓋 iOS/macOS SDK 更新",
+      "基於 RAG 架構，確保回覆帶有文件依據而非幻覺",
+      "以 MCP Server 形式提供，可直接對接主流 Agent 框架",
+      "TypeScript 實作，適合前端或 Node.js 生態的技術宅",
+      "可大幅縮短查閱 Apple 文件的時間，提升開發效率"
+    ],
+    "why_it_matters": "對需要頻繁查閱 Apple 開發文件的工程師而言，apple-rag-mcp 將文件檢索自動化，讓 AI Agent 在回答 iOS/macOS 問題時自帶可信賴的參考來源，是提升文件查找效率的實用工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將此 MCP Server 整合进 Cursor 或 Claude Code 等 Agent 工具，在處理 Apple 平台專案時讓 AI 自動查詢官方文件做回答，省去人工切換視窗查文件的時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/18252758?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-jabrena-plinth-java-enterprise-ai-skills-agents-mcp",
+    "title": "jabrena/plinth：Java Enterprise 原生 AI 工作流程框架，整合 Skills/Agents/MCP",
+    "title_original": "jabrena/plinth",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jabrena/plinth",
+    "published_at": "2026-06-30T06:33:21Z",
+    "category": "agent-skills",
+    "summary": "Plinth 是一個為 Java Enterprise 設計的 AI 原生開發工作流程框架，將可複用的 Skills、Agents、Commands 與 MCP Server 組合，並引入 Human-in-the-Loop 機制，目標是現代化企業級 SDLC 實務。目前 413 Stars，語言為 Java。",
+    "highlights": [
+      "專為 Java Enterprise 場景設計，贴近企業級開發需求",
+      "整合 Skills、Agents、Commands 與 MCP Server 標準",
+      "Human-in-the-Loop 設計確保關鍵環節有人工把關",
+      "可與現有 Java 工具鏈結合，降低遷移成本",
+      "Stars 數顯示有一定社群關注度，但可能包含 PR 成分"
+    ],
+    "why_it_matters": "若你維護 Java 企業系統，Plinth 提供一個將 AI Agent 整合進既有 SDLC 的明確路徑，特別是其 MCP 支援與人工把關機制，適合對自動化有要求但不能完全黑箱的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將 Plinth 的 MCP Server 接入現有 Java 專案，用 Skills 定義重複性程式碼任務，讓 Agent 輔助生成 Boilerplate 並由人類審核，評估其能否加速企業開發迭代。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Java"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/147263?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-30-comfyui-mcp-comfyui-agent-mcp-108-29-ai",
     "title": "comfyui-mcp：將 ComfyUI 化身為 Agent 原生 MCP 工具集，支援 108 工具與 29 種 AI 技能",
     "title_original": "artokun/comfyui-mcp",
@@ -140,6 +226,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/70437673?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-krea-2-turbo",
+    "title": "Krea-2-Turbo 圖片模型：號稱易於完全解禁，亦支援圖片編輯",
+    "title_original": "Krea-2-Turbo Image Model - Easy to be fully uncensored, but it can also EDIT Images!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uj638x/krea2turbo_image_model_easy_to_be_fully/",
+    "published_at": "2026-06-29T21:49:13+00:00",
+    "category": "new-models",
+    "summary": "Reddit 討論指出 Krea-2-Turbo 圖片生成模型聲稱易於完全解禁（uncensored），同時具備圖片編輯能力。但消息來源為論壇貼文，缺乏官方文件或模型卡驗證，聲稱的準確性與合規風險需自行評估。",
+    "highlights": [
+      "號稱支援完全解禁生成，但未見官方模型卡或定價頁",
+      "Reddit 社群討論為主要消息來源，訊號強度有限",
+      "強調圖片編輯能力，可能對標現有 Image-to-Image 工具",
+      "技術用戶若對 uncensored 模型有需求，需自行測試驗證",
+      "此類模型的使用需注意服務條款與當地法規"
+    ],
+    "why_it_matters": "Krea-2-Turbo 的 uncensored 與編輯能力聽起來有吸引力，但在缺乏官方來源的情況下，技術用戶應謹慎對待，以實際測試結果為準，避免在正式專案中盲目採用未驗證的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將此列入本地模型實驗清單，用非敏感素材測試其生成與編輯能力，評估是否能在創意或內部工具場景取代商業方案，以降低圖像生成成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
