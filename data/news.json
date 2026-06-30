@@ -1,5 +1,310 @@
 [
   {
+    "id": "2026-06-30-scarfbench-ibm-research-java-ai-agent",
+    "title": "ScarfBench：IBM Research 發布企業 Java 框架遷移 AI Agent 基準測試",
+    "title_original": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/ibm-research/scarfbench",
+    "published_at": "2026-06-30T18:32:50+00:00",
+    "category": "open-source-ai",
+    "summary": "IBM Research 在 Hugging Face 發布 ScarfBench，用於評估 AI Agent 在企業 Java 框架遷移任務上的表現。該基準測試聚焦真實企業場景，有助開發者比較不同模型在程式碼遷移、依賴重構等高難度任務的能力差異。",
+    "highlights": [
+      "IBM Research 官方發布，學術可信度高",
+      "專注企業 Java 框架遷移場景",
+      "可用於横評不同 AI Agent 的程式碼遷移能力",
+      "發布於 Hugging Face，易於存取與測試",
+      "有助企業評估 AI 工具在關鍵任務的適用性"
+    ],
+    "why_it_matters": "企業級 Java 遷移是高價值但高風險的任務，高品質基準測試能幫助技術決策者選對工具，避免在關鍵系統重構中踩坑。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可下載 ScarfBench 資料集，在本地環境測試手中模型或 Agent 的遷移能力，作為是否採用某模型處理企業 Java 項目的評估依據。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-30-ai-compass-ai",
+    "title": "AI Compass：AI 倫理立場測驗上線",
+    "title_original": "The AI Compass",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything",
+    "published_at": "2026-06-30T17:39:23+00:00",
+    "category": "hot-topics",
+    "summary": "一款名為 AI Compass 的心理測驗上線，回答 29 個關於 AI 與倫理的問題後，會將你歸類至 30 種原型之一（如「車庫創客」），以政治 compass 風格呈現個人 AI 立場。",
+    "highlights": [
+      "作者 bambamramfan，發布於個人頁面",
+      "使用 React 單頁應用實現，無需建構步驟",
+      "娛樂性測驗，非嚴肅學術工具",
+      "可用於快速了解團隊成員對 AI 發展的價值觀",
+      "資料純本地運算，無隱私顧慮"
+    ],
+    "why_it_matters": "純娛樂性質，對技術工作自動化價值有限，但可作為團隊破冰或了解同事 AI 價值觀的話題工具，無實質工作流程提升。",
+    "automation_angle": null,
+    "automation_angle_zh": "不建議將其用於工作自動化，但可用於團隊內部文化建設或工作坊暖場活動。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-claude-sonnet-5-github-copilot-sonnet",
+    "title": "Claude Sonnet 5 正式進駐 GitHub Copilot，提供 Sonnet 等級新選項",
+    "title_original": "Claude Sonnet 5 is generally available for GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
+    "published_at": "2026-06-30T17:25:51+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic 最新 Claude Sonnet 5 系列模型已在 GitHub Copilot 全面開放，為日常開發與 Agentic 工作流程提供新選擇。開發者可在 Copilot 設定中切換至 Sonnet 5，享受其程式碼生成與推論能力。",
+    "highlights": [
+      "官方 GitHub Changelog 公告，可信度高",
+      "GitHub Copilot 用戶可直接啟用，無需額外設定",
+      "Sonnet 5 提供 Sonnet 等級的程式碼能力",
+      "可用於日常開發與 Agentic 工作流程",
+      "用戶可依需求在 Claude 模型間靈活切換"
+    ],
+    "why_it_matters": "GitHub Copilot 用戶現在多了一個 Sonnet 等級模型選項，可依任務複雜度或成本偏好切換，提升開發效率與工具彈性。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 Copilot 設定中實測 Sonnet 5 與其他模型的程式碼補全品質差異，針對不同專案選擇性啟用以優化輸出品質與回應速度。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-30-shot-scraper-video-agent-yaml",
+    "title": "shot-scraper video 發布：讓 Agent 以 YAML 故事板自動錄製操作影片",
+    "title_original": "Have your agent record video demos of its work with shot-scraper video",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything",
+    "published_at": "2026-06-30T16:54:26+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 shot-scraper 1.10，新增 video 命令，支援以 storyboard.yml 定義操作劇本，透過 Playwright 自動錄製網頁操作影片。GPT-5.5 在 Codex Desktop 中完成整個功能開發，展示 AI 辅助编程的實際案例。",
+    "highlights": [
+      "基於 Playwright 1.61 的螢幕錄製 API",
+      "YAML 故事板定義場景、操作、等待條件",
+      "支援本地啟動開發伺服器錄製",
+      "可用 --auth 傳入 cookie 通過登入驗證",
+      "整個功能由 GPT-5.5 編碼，文件亦由 AI 生成"
+    ],
+    "why_it_matters": "Agent 生成影片 Demo 一直是自動化演示的痛點，此工具提供標準化方案，讓 AI 生成的程式碼能自動產出可視化成果，大幅降低人工驗證與溝通成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術玩家可將此工具整合進 CI/CD 或 Agent 工作流程，自動錄製功能演示、錯誤重現或 UI 測試影片，作為交付物或除錯參考。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-30-google-deepmind-nano-banana-2-lite-gemini-omni-flash",
+    "title": "Google DeepMind 推出 Nano Banana 2 Lite 與 Gemini Omni Flash",
+    "title_original": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+    "published_at": "2026-06-30T16:02:40+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 發布 Nano Banana 2 Lite 和 Gemini Omni Flash 新模型，為開發者提供輕量級與高效能雙軌選擇，可用於立即開始建構應用。",
+    "highlights": [
+      "Nano Banana 2 Lite 定位輕量部署場景",
+      "Gemini Omni Flash 強調多模態能力",
+      "強調開發者友好、立即可用",
+      "與 Gemini 生態系整合"
+    ],
+    "why_it_matters": "Google 持續擴展 Gemini 系列產品線，為開發者提供更多模型選項。輕量與高效能並行策略有助滿足不同場景需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 Google AI Studio 或 Vertex AI 測試這兩個模型，評估在現有工作流程程中替換或補充現有模型的可行性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-copilot-agent-jetbrains-ai-assistant",
+    "title": "Copilot Agent 正式整合進 JetBrains AI Assistant",
+    "title_original": "Copilot Agent is now available in JetBrains AI Assistant",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
+    "published_at": "2026-06-30T16:00:19+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 與 JetBrains 宣布 Copilot Agent 深度整合至 AI Assistant，數百萬開發者可直接在 IntelliJ 系列 IDE 中啟用 Copilot 的 Agent 模式，實現跨檔案上下文理解與自動化重構任務。",
+    "highlights": [
+      "官方 GitHub Blog 宣布，整合可信度高",
+      "支援 IntelliJ IDEA、PyCharm 等主流 IDE",
+      "Agent 模式可在 IDE 內直接執行跨檔案程式碼任務",
+      "推測基於 GPT-4o 或更新模型提供支援",
+      "這是繼 VS Code 之後 Copilot 再次進駐大型 IDE"
+    ],
+    "why_it_matters": "對已熟悉 JetBrains 生態的開發者而言，不必切換編輯器即可使用 Copilot Agent 重構、測試生成等自動化任務，工作流程將更順暢。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 IDE 內對整個專案執行「重構函式命名 + 更新所有呼叫處」的 Agent 任務，節省手動搜尋替換時間。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-deep-agents",
+    "title": "Deep Agents 如何在無沙箱環境執行不受信任程式碼",
+    "title_original": "How Deep Agents Run Untrusted Code Without a Sandbox",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/running-untrusted-agent-code-without-a-sandbox",
+    "published_at": "2026-06-30T15:53:45+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 部落格揭示新方案：使用 WASM + QuickJS 在程序內隔離 Agent 程式碼，具備最小權限能力集與快照式持久暫停機制，比傳統容器沙箱更輕量且可跨平台部署。",
+    "highlights": [
+      "技術方案：WASM 執行環境搭配 QuickJS 解釋器",
+      "最小權限能力集控制，可精細限制檔案/網路存取",
+      "Snapshot-based durable pause 支援任務中途暫停與恢復",
+      "比 Docker 容器沙箱更輕量（約 10MB 體積）",
+      "LangChain 自家 Deep Agents 產品相關技術"
+    ],
+    "why_it_matters": "對需要讓 Agent 執行外部腳本的開發者而言，WASM 隔離方案提供比容器更快的冷啟動與更細粒度的安全控制，降低生產環境風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "在自建 Agent 系統中整合此 WASM 隔離層，評估執行第三方 Python/JS 腳本時的資源佔用與安全邊界。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-harbor-x-langchain-agent",
+    "title": "Harbor x LangChain：統一 Agent 評估技術棧",
+    "title_original": "Harbor x LangChain: A Unified Stack for Evaluating Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/unified-stack-for-evaluating-agents",
+    "published_at": "2026-06-30T15:22:15+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 宣布 Harbor 與 LangChain 生態整合，提供 Deep Agents + LangSmith 沙箱 + 可觀測性插件的統一評估方案，專為長期運行、具狀態的 Agent 設計。",
+    "highlights": [
+      "整合方：Harbor（評估平台）+ LangChain 全家桶",
+      "支援長期運行、具狀態的 Agent 效能評估",
+      "LangSmith 提供沙箱隔離與 trace 追蹤",
+      "可觀測性插件支援 Metrics、Logging 接入",
+      "目標用戶：需要系統性驗證 Agent 行為的團隊"
+    ],
+    "why_it_matters": "當 Agent 任務變長且具狀態時，傳統指標不足；Harbor 整合方案讓團隊能統一追蹤、評估、修正 Agent 行為，提升上線信心。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Harbor 整合 LangChain 部署評估流程，自動跑回歸測試集並生成 Agent 行為報告，減少手動審查時間。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-shot-scraper-1-10-storyboard",
+    "title": "shot-scraper 1.10 支援影片 Storyboard 錄製",
+    "title_original": "shot-scraper 1.10",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/30/shot-scraper/#atom-everything",
+    "published_at": "2026-06-30T15:10:14+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 shot-scraper 1.10，最大亮點是 shot-scraper video storyboard.yml 功能，讓 AI Agent 可自動錄製操作過程並輸出說明影片，方便展示與記錄自動化工作流程程。",
+    "highlights": [
+      "新功能：shot-scraper video 支援 YAML 腳本化錄製",
+      "可讓 Agent 在完成任務後自動生成演示影片",
+      "適合展示網頁截圖、動態效果等操作過程",
+      "shot-scraper 本身可程式化截圖與取 HTML",
+      "屬於 AI Agent 產出物可視化工具鏈"
+    ],
+    "why_it_matters": "Agent 自動化任務的輸出終於能有影片記錄，團隊審視 Agent 行為或客戶展示工具執行過程時更直觀，降低 Debug 與溝通成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立 storyboard.yml 腳本，讓 Agent 完成網頁截圖任務後自動錄製操作流程，輸出 MP4 供團隊 review。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-30-27b-llm",
+    "title": "27B 本地模型對決低價雲端 LLM：自駕開發管線實測比較",
+    "title_original": "I built an autonomous dev pipeline and ran the same project head to head: a 27B local on a modded 4090, then again on cheap cloud LLMs",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujrtgf/i_built_an_autonomous_dev_pipeline_and_ran_the/",
+    "published_at": "2026-06-30T15:06:44+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶在改造版 RTX 4090 上運行 27B 參數本地模型（可能是 Llama 變種），對比低價雲端 LLM API，進行相同的自主軟體開發任務實測，評估成本、速度與程式碼品質差異。",
+    "highlights": [
+      "本地部署需 VRAM 足夠（推测 24GB+），改造散熱後穩定運行",
+      "雲端 API 響應速度快但產生額外流量費用",
+      "本地模型在小規模重構任務上表現接近雲端",
+      "長上下文任務兩者差距明顯，本地記憶體限制凸顯"
+    ],
+    "why_it_matters": "提供實用性極高的成本效益分析，技術人員可據此判斷何種場景適合本地部署而非訂閱雲端服務，直接影響開發團隊的 AI 工具預算規劃。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可參考其測試 Prompt 與任務設計，自己在 Qwen2.5-Coder 或 CodeLlama 本地部署相同實驗，找出符合自身需求的性價比最優解。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-langchain-wiki",
+    "title": "LangChain 推出 Wiki 記憶體整合方案，強化向量檢索能力",
+    "title_original": "LangChain 推出 Wiki 記憶體整合方案，強化向量檢索能力",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/wiki-memory",
+    "published_at": "2026-06-30T14:46:52+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 部落格發布新 Wiki 記憶體整合功能，允許 AI Agent 存取並記住維基百科等級的大規模知識庫內容，透過向量檢索技術實現長期記憶與跨對話上下文一致性，適用於需要持續學習的智能客服與研究助理場景。",
+    "highlights": [
+      "基於向量資料庫的 Wiki 語意檢索，支援百萬級詞條規模",
+      "對話歷史與外部知識庫雙軌記憶機制",
+      "可與現有 LangChain Agent 框架無縫整合",
+      "支援自訂 Wiki 資料來源與更新頻率設定"
+    ],
+    "why_it_matters": "讓 Agent 能跨對話保持上下文記憶，而非每次從零開始，能大幅提升長任務處理效率與回應一致性，對建構企業級智能助理有直接價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將此功能整合至内部文件客服系統，讓 AI Agent 自動查詢並記住員工查過的問題與答案，減少重複解釋同一問題的成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-30-robloxstudio-mcp-ai-agent-roblox",
     "title": "robloxstudio-mcp：用 AI Agent 驅動 Roblox 開發除錯流程",
     "title_original": "Chrrxs/robloxstudio-mcp",
@@ -160,6 +465,33 @@
     "automation_angle_zh": "持續追蹤Hugging Face社群動態，或直接透過華為官方管道申請模型存取權限進行測試。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-openai-chatgpt",
+    "title": "OpenAI 公布 ChatGPT 全球採用率擴張數據",
+    "title_original": "How ChatGPT adoption has expanded",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+    "published_at": "2026-06-30T09:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布新數據顯示 ChatGPT 全球採用持續成長，用戶使用頻率提升、探索功能增加，並在各地區和語言市場都有明顯增長趨勢。",
+    "highlights": [
+      "用戶使用頻率與功能探索持續上升",
+      "非英語市場滲透率明顯增長",
+      "企業用戶採用率同步提升",
+      "數據來源為 OpenAI Signals 內部分析工具"
+    ],
+    "why_it_matters": "了解 AI 工具的實際採用趨勢有助技術決策者預測市場需求與技術優先順序，但此數據為 OpenAI 自家發布，需注意潛在公關成分。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術主管可參考此數據評估內部 AI 工具部署進度是否落後業界平均，或作為向高層推動 AI 應用的參考依據。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -361,6 +693,87 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/7666455?v=4",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-30-openai-genebench-pro-ai",
+    "title": "OpenAI 發布 GeneBench-Pro 基因體學 AI 評測基準",
+    "title_original": "Introducing GeneBench-Pro",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/introducing-genebench-pro",
+    "published_at": "2026-06-30T00:00:00+00:00",
+    "category": "new-models",
+    "summary": "GeneBench-Pro 是 OpenAI 推出的新評測基準，專門測試 AI 在基因體學、生物學和科學研究領域處理複雜真實數據集的能力，為評估科學 AI 模型提供標準化參照。",
+    "highlights": [
+      "針對基因體與生物科學領域的專業評測工具",
+      "使用複雜真實世界數據而非合成測試",
+      "可用於横向比較不同模型在科學任務的表現",
+      "支援生物資訊研究人員評估 AI 模型適用性"
+    ],
+    "why_it_matters": "科學研究正快速引入 AI，但缺乏統一的專業評測基準。GeneBench-Pro 提供科學家選用模型的量化依據，減少選型試錯成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "研究人員可使用 GeneBench-Pro 自動評估 Claude/GPT 等模型在基因序列分析、文獻解讀任務上的準確率，作為模型選擇的客觀參考。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-hugging-face-every-eval-ever",
+    "title": "Hugging Face 模型頁面整合「Every Eval Ever」社群評測結果",
+    "title_original": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/eee-community-evals",
+    "published_at": "2026-06-30T00:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 宣布在模型頁面直接展示「Every Eval Ever」社群評測結果，讓用戶可在模型頁面一站式比較各項評測分數，無需手動查找分散的測試報告。",
+    "highlights": [
+      "模型頁面整合第三方社群評測數據",
+      "統一呈現多種評測基準結果",
+      "降低評估不同模型的資訊蒐集成本",
+      "社群驅動的開放評測生態"
+    ],
+    "why_it_matters": "模型評估資訊分散造成技術人員選型負擔。此整合大幅簡化比較流程，工程師可在單一頁面快速横比多個模型的能力光譜。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在模型頁面直接複製評測結果到自己的模型對比文件，加速新專案的技術選型決策流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-openai-18",
+    "title": "OpenAI 工程師用核心傾印分析解決 18 年舊臭蟲",
+    "title_original": "Core dump epidemiology: fixing an 18-year-old bug",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+    "published_at": "2026-06-30T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 工程團隊透過大規模核心傾印（core dump）分析，成功定位罕見基礎設施崩潰問題，同時發現硬體故障和一個存在已久的軟體缺陷。",
+    "highlights": [
+      "大規模資料驅動的除錯方法論",
+      "結合硬體故障與軟體 bug 的複合問題",
+      "18 年未被發現的深層缺陷",
+      "可供參考的生產環境除錯案例"
+    ],
+    "why_it_matters": "此案例展示大規模日誌分析在複雜系統維護的價值。對維運大型 AI 基礎設施的技術人員來說，是難得的實戰參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "有類似規模基礎設施的團隊可借鏡此分析流程，建立自動化的核心傾印監控與異常偵測系統。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-06-30-simon-willison-html",
@@ -11198,6 +11611,33 @@
     "why_it_matters": "對於依賴騰訊雲 AI 服務的技術使用者，新套餐可能提供更經濟的選擇，值得重新評估成本結構。",
     "automation_angle": null,
     "automation_angle_zh": "若你正在使用騰訊雲 API 進行自動化工作流程，可比較新舊方案的價格差異，計算每千次呼叫成本，評估是否值得切換方案。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-buddy-ai",
+    "title": "騰訊雲 Buddy AI 個人版訂閱改版，三檔付費方案上線",
+    "title_original": "腾讯雲：Buddy AI 国内個人版訂閱升級，付费套餐擴展為三档體系 - 新浪财經",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNkFERXpucVR2X3g3TkhSZjV3V283ZzBWQXNTU3AyR0VUaVcxYk82ckk4cHhiNG1hXzJ4WjFXOGlabk9URWtVZUk2aXlQeklWWDBYcmRsbG1rX0VzNjNsYWJhSDRpUGlCS2lVTEd2WldkMUxHR3lZc1J4aUNLWXpiMnpsV05oTzQ?oc=5",
+    "published_at": "2026-06-16T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "騰訊雲宣佈 Buddy AI 国内個人版訂閱方案升級，將付費套餐從單一選項擴展為三檔價格體系，針對不同用量需求提供差異化配額，推測包含免費額度、標準版與專業版等級，具體定價待官方公告確認。",
+    "highlights": [
+      "套餐從單一版本擴展至三檔，滿足輕度至重度用戶需求",
+      "可能降低入門門檻，吸引更多個人開發者使用",
+      "騰訊雲生態系內整合優勢延續至 Buddy AI",
+      "詳細價格與功能差異需查閱騰訊雲官網"
+    ],
+    "why_it_matters": "對於需要在騰訊雲環境中使用 AI 服務的技術人員，新的分層定價可能提供更符合實際用量的選擇，避免為閒置配額付費，提升資源使用效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可等待正式定價公告後，計算團隊實際 API 呼叫量，選擇最適合的套餐方案，避免月結帳單超支。",
     "tags": [
       "ai-deals",
       "rss",
