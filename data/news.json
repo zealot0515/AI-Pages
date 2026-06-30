@@ -1,5 +1,176 @@
 [
   {
+    "id": "2026-06-30-comfyui-mcp-comfyui-agent-mcp-108-29-ai",
+    "title": "comfyui-mcp：將 ComfyUI 化身為 Agent 原生 MCP 工具集，支援 108 工具與 29 種 AI 技能",
+    "title_original": "artokun/comfyui-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/artokun/comfyui-mcp",
+    "published_at": "2026-06-30T00:19:26Z",
+    "category": "agent-skills",
+    "summary": "comfyui-mcp 是一款開源 MCP 伺服器，同時提供 Claude Code 外掛，可將 ComfyUI 打造成 Agent 可操控的本機控制平面。支援 Flux、WAN、LTX 影片、Qwen、Z-Image 等 29 種模型技能，共 108 種工具，支援 LAN、VPS 或 Comfy Cloud 部署。",
+    "highlights": [
+      "作為 MCP 伺服器，可直接讓 Agent 工具鏈呼叫 ComfyUI",
+      "提供 108 種工具，覆蓋模型下載、節點管理、影像生成",
+      "支援本地 LAN、VPS 或雲端 Comfy Cloud 多種部署模式",
+      "整合 Claude Code，程式開發者可直接以自然語言操控工作流程",
+      "TypeScript 實作，星星數 208，社群關注度持續上升"
+    ],
+    "why_it_matters": "對需要 AI 生成圖像或影片流水線的技術宅而言，comfyui-mcp 把以前需手動操作的 ComfyUI 介面變成可程式化呼叫的工具，Agent 自動化門檻大幅降低。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝此 MCP 工具至本地 Claude Code 或其他 Agent 框架，讓 AI 直接以自然語言觸發 ComfyUI 生成流程，實現「一句話生成指定風格影像」的自動化作業。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/7666455?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-30-simon-willison-html",
+    "title": "Simon Willison 新工具：HTML 表格萃取器",
+    "title_original": "HTML table extractor",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything",
+    "published_at": "2026-06-29T23:38:21+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 HTML Table Extractor 工具，可將瀏覽器複製的富文本（含嵌入 HTML 表格）轉換為 HTML、Markdown、CSV、TSV 或 JSON 格式。支援直接貼上維基百科等頁面內容即時轉換，亦更新了 Rich Text to Markdown 工具以支援表格處理。屬於其「貼上即轉換」系列工具之一。",
+    "highlights": [
+      "支援從瀏覽器直接貼上含表格的富文本",
+      "可輸出 HTML、Markdown、CSV、TSV、JSON 五種格式",
+      "內建示例如維基百科城市列表可直接試用",
+      "同系列工具 Rich Text to Markdown 也已支援表格",
+      "無需安裝，純前端實現"
+    ],
+    "why_it_matters": "AI Agent 常需處理結構化表格數據但缺乏好用的萃取工具。Simon Willison 的這類實用小工具可直接提升 data extraction 工作流程的效率，且無需伺服器資源。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此工具 URL 加入 bookmark，處理從網頁複製的表格數據時直接使用；或基於其開源程式碼fork修改，整合進自建的資料預處理腳本中。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-06-30-the-librarian-mcp-agent",
+    "title": "the-librarian：以 MCP 伺服器實作的 Agent 記憶系統",
+    "title_original": "JimJafar/the-librarian",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/JimJafar/the-librarian",
+    "published_at": "2026-06-29T23:26:05Z",
+    "category": "agent-skills",
+    "summary": "the-librarian 是以 MCP 伺服器形式實現的 Agent 記憶框架，專為 Agent 設計的持久化上下文管理方案，讓 Agent 能跨會話存取先前累積的資訊，TypeScript 實作，星星數 16，仍屬早期專案。",
+    "highlights": [
+      "MCP 協定原生，與主流 Agent 框架無縫整合",
+      "專為 Agent 跨會話記憶設計，解決上下文丟失問題",
+      "TypeScript 實作，適合與 Claude Code 等工具鏈搭配",
+      "星星數 16，社群規模小，文件與範例尚不充足",
+      "可作為研究 Agent 長期記憶實作方式的參考起點"
+    ],
+    "why_it_matters": "Agent 的長期記憶管理是自動化工作流程能否真正「記住」使用者偏好的關鍵，the-librarian 以 MCP 形式提供了一個輕量的研究切入點，技術用戶可藉此探索記憶持久化的實作方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 the-librarian 接入自己的 Agent 工作流程，測試其在多輪對話中能否正確召回歷史資訊，評估其是否符合個人自動化場景的記憶需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/325261?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-longcat-2-0-1-6-moe",
+    "title": "LongCat-2.0：1.6 兆參數 MoE 大模型登陸開源",
+    "title_original": "Introducing LongCat-2.0 - , a large-scale MoE language model with 1.6 trillion total parameters and ~48 billion activated per token. This was the stealth model that was on Openrouter under the name 'owl-alpha'.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uj7egu/introducing_longcat20_a_largescale_moe_language/",
+    "published_at": "2026-06-29T22:42:20+00:00",
+    "category": "new-models",
+    "summary": "LongCat-2.0 是一款新型 Mixture-of-Experts（MoE）語言模型，總參數達 1.6 兆，但每次前向傳播僅激活約 480 億參數。該模型此前以「owl-alpha」代號在 OpenRouter 上低調上線測試，現正式公開。採用 MoE 架構旨在以較低計算成本實現近似大模型的表現，為本地部署提供新的性價比選擇。",
+    "highlights": [
+      "總參數量 1.6 兆，激活參數約 480 億，採用 MoE 架構",
+      "曾以 owl-alpha 代號在 OpenRouter 匿名上線測試",
+      "MoE 設計使推論成本相對純dense模型更低",
+      "開源發布可供本地部署與微調",
+      "適合需要大模型能力但算力受限的場景"
+    ],
+    "why_it_matters": "MoE 架構持續威脅純dense模型的市場地位。LongCat-2.0 的激活參數比與開源策略，對於想在本地跑大模型但 GPU 資源有限的技術用戶是潛在替代方案，值得評估其推論速度與輸出品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將其加入本地模型測試矩陣，比較 Qwen、Llama 等同規模模型在長文本生成、程式碼補全任務上的延遲與準確度，作為自動化流程的骨幹候選。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-smart-marketing-assistant-crew-ai-ai-agent-instagram",
+    "title": "Smart-Marketing-Assistant-Crew-AI：AI Agent 自動化 Instagram 行銷工作流程",
+    "title_original": "praj2408/Smart-Marketing-Assistant-Crew-AI",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/praj2408/Smart-Marketing-Assistant-Crew-AI",
+    "published_at": "2026-06-29T22:34:54Z",
+    "category": "agent-skills",
+    "summary": "該開源專案以 CrewAI 框架驅動多 Agent 協作，專門自動化 Instagram 行銷流程中的貼文、排程、受眾互動等任務，屬於行銷自動化領域的概念驗證實作，星星數 36，技術成熟度較低。",
+    "highlights": [
+      "基於 CrewAI 的多 Agent 協作框架",
+      "聚焦 Instagram 特定平台，非通用工作流程",
+      "星星數僅 36，社群關注度有限",
+      "Python 實作，技術門檻不高",
+      "屬於概念驗證階段，生產部署需自行評估風險"
+    ],
+    "why_it_matters": "若你正在評估將 Agent 應用於社群媒體行銷自動化，此專案提供了一個可參考的多 Agent 協作範本，但直接拿來做生產環境使用前需嚴格測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "Clone 並執行此 repo，理解其多 Agent 角色分配邏輯，再依需求替換為自選模型或接入其他社群平台，評估 CrewAI 框架對自訂工作流程的擴展性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/70437673?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-06-30-ornith-35b-qwen3-6-35b-dflash",
+    "title": "Ornith 35B 搭配 Qwen3.6 35B DFlash 投機解碼實測可用",
+    "title_original": "Ornith 35B works reasonably well with Qwen3.6 35B DFlash speculative model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uj4ojm/ornith_35b_works_reasonably_well_with_qwen36_35b/",
+    "published_at": "2026-06-29T20:55:47+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶實測顯示 Ornith 35B 模型能與 Qwen3.6 35B 的 DFlash 投機解碼（speculative decoding）機制良好配合。投機解碼透過較小模型預測多個 token，再由大模型驗證，可有效降低推論延遲。實測表明該組合「運作合理（works reasonably well）」，為部署優化提供參考。",
+    "highlights": [
+      "Ornith 35B 與 Qwen3.6 35B DFlash 投機解碼兼容",
+      "投機解碼可減少 LLM 推論延遲",
+      "35B 規模模型適合中等算力設備",
+      "實測結果為「合理可用」非最佳化狀態",
+      "開源模型間的互相操作性逐漸成熟"
+    ],
+    "why_it_matters": "投機解碼已成為加速 LLM 推論的標準技巧。若 35B 模型能穩定搭配不同底層模型使用，可簡化部署架構並節省 GPU 成本。技術用戶應關注此類實測以評估自身工作流程的優化空間。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本地部署 Ornith 35B 並啟用 Qwen3.6 DFlash 投機解碼，用 lm-evaluation-harness 測量延遲加速比與輸出品質變化，評估是否能整合進自動化流水線。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-29-perseus-mcp-agent",
     "title": "Perseus：MCP 伺服器即時上下文引擎，解決 Agent 上下文飢餓問題",
     "title_original": "Perseus-Computing-LLC/perseus",
