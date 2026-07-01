@@ -1,5 +1,225 @@
 [
   {
+    "id": "2026-07-01-sylphxai-pdf-reader-mcp-pdf-mcp-803",
+    "title": "SylphxAI/pdf-reader-mcp：PDF 智慧閱讀 MCP 伺服器（803 星）",
+    "title_original": "SylphxAI/pdf-reader-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/SylphxAI/pdf-reader-mcp",
+    "published_at": "2026-07-01T00:33:06Z",
+    "category": "agent-skills",
+    "summary": "為 AI Agent 打造的 PDF 智慧閱讀層，支援 Agent Document Twin、證據優先提取、視覺裁切、OCR 溯源與信任報告。支援 Claude、Cursor、VS Code 等 MCP 用戶端。",
+    "highlights": [
+      "支援 Claude、Cursor、VS Code 等主流 MCP 用戶端",
+      "提供 OCR 溯源與信任報告功能",
+      "證據優先提取適用於需要精確引用的場景",
+      "TypeScript 編寫，GitHub 803 星，社群活躍",
+      "可與現有 AI Coding 工作流程直接整合"
+    ],
+    "why_it_matters": "PDF 處理是技術工作者常見痛點，此 MCP 伺服器提供標準化介面，可直接提升 AI Agent 處理文件的能力與可信度。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Cursor 或 Claude Desktop 中安裝此 MCP，自動化文件分析與資訊提取流程，減少手動閱讀時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/206448049?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-reddit-vibe-coding-agentic-workflow",
+    "title": "Reddit 熱議：Vibe Coding 與 Agentic Workflow 實踐討論",
+    "title_original": "Vibe Coding / Agentic workflow",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uk57mi/vibe_coding_agentic_workflow/",
+    "published_at": "2026-06-30T23:30:03+00:00",
+    "category": "agent-skills",
+    "summary": "LocalLLaMA 社群用戶熱烈討論「Vibe Coding」與「Agentic Workflow」概念，分享如何透過 AI Agent 實現更自動化的軟體開發流程。討論涉及大型語言模型驅動的程式碼生成與任務自主執行。",
+    "highlights": [
+      "Vibe Coding 強調自然語言驅動開發體驗",
+      "Agentic Workflow 涉及 AI 自主決策與任務執行",
+      "社群分享本地部署模型的實踐經驗",
+      "關注點在於如何降低人工干預比例"
+    ],
+    "why_it_matters": "Agentic Workflow 正成為提升開發效率的新範式，技術使用者可從中借鑒如何讓 AI 承担更多端到端任務，減少重複性工作。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估將此類 agentic 模式應用於自動化測試、程式碼重構或文件生成等場景，測試本地模型的自主任務執行能力。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-google-nano-banana-2-lite-gemma-3-1-flash-lite",
+    "title": "Google 推出 Nano Banana 2 Lite（Gemma 3.1 Flash Lite）輕量圖像生成模型",
+    "title_original": "Nano Banana 2 Lite",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything",
+    "published_at": "2026-06-30T22:15:35+00:00",
+    "category": "new-models",
+    "summary": "Google 發布名為「Nano Banana 2 Lite」的新模型，正式型號為 gemini-3.1-flash-lite-image，主打高速與低成本的輕量級圖像生成能力。Simon Willison 測試發現生成速度佳，但存在拼字錯誤問題。",
+    "highlights": [
+      "模型正式名稱：gemini-3.1-flash-lite-image",
+      "定位為最快最便宜的 Gemini 圖像模型",
+      "支援高速生成，適合規模化應用",
+      "測試發現拼字準確度有待改善"
+    ],
+    "why_it_matters": "若定價極低且速度快，可成為需要大量生成圖像的自動化工作流程（如資料增強、內容批量生產）的理想選擇，有效控制 AI 工具成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可利用此模型批次處理圖像生成需求，評估其在自動化腳本中的成本效益與品質表現，適合對速度優先於精度的場景。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-01-angular-ui-skills-ai-angular-ui-agent",
+    "title": "angular-ui-skills：訓練 AI 助理建構 Angular UI 的 Agent 技能集",
+    "title_original": "mofirojean/angular-ui-skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mofirojean/angular-ui-skills",
+    "published_at": "2026-06-30T21:29:44Z",
+    "category": "agent-skills",
+    "summary": "Agent 技能集合，教導 AI 程式碼助理如何運用流行 UI 元件庫建構 Angular 應用。適合想在 Angular 專案中引入 AI 輔助開發的技術團隊參考。",
+    "highlights": [
+      "專注 Angular 生態系，針對性訓練 AI 程式碼助理",
+      "涵蓋熱門 UI 元件庫整合方式",
+      "可作為自建 Agent 技能的參考範本",
+      "目前 GitHub 星數偏低（21），社群關注有限",
+      "適合 Angular 技術棧的團隊評估使用"
+    ],
+    "why_it_matters": "若團隊使用 Angular 框架，此類技能集可加速 AI Coding 助理生成符合框架慣例的程式碼，減少後續修正時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考此專案的技能定義格式，自建符合公司程式碼規範的 Angular Agent 技能集，提升 AI 生成程式碼的採用率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/93985482?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-claude-sonnet-5-tokenizer-30",
+    "title": "Claude Sonnet 5 發布：新Tokenizer致有效漲價30%，但上下文達百萬",
+    "title_original": "What's new in Claude Sonnet 5",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
+    "published_at": "2026-06-30T21:23:02+00:00",
+    "category": "new-models",
+    "summary": "Claude Sonnet 5 正式發布，宣稱效能接近 Opus 4.8 但價格更低。上下文提升至 100 萬 tokens，最大輸出 12.8 萬 tokens。但新Tokenizer使英文輸入token數增加約30%，實為變相漲價。",
+    "highlights": [
+      "上下文提升至 100 萬 tokens，最大輸出 12.8 萬 tokens",
+      "定價表面不變（Sonnet 4.6 等級）",
+      "新Tokenizer使英文token增加約30%，等效漲價",
+      "中文簡體幾乎不受影響（1.01x）",
+      "Python、西班牙文約增加27-33% token"
+    ],
+    "why_it_matters": "對英文文書工作為主的用戶，Claude Sonnet 5 表面低價但實際成本上升。技術用戶需重新計算使用成本與效益比。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Simon Willison 的 Token Counter 工具測試實際文本的token消耗，重新評估在英文場景下是否應切換至 Opus 4.7 或其他模型。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-01-64gb-vram",
+    "title": "本地開發者熱議：64GB VRAM 環境下最優程式碼模型選擇",
+    "title_original": "Devs - you have 64gb of VRAM - which model do you use for coding?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ujzyf3/devs_you_have_64gb_of_vram_which_model_do_you_use/",
+    "published_at": "2026-06-30T20:03:46+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 論壇用戶討論在配備 64GB VRAM 的硬體環境下，應選擇哪些大型語言模型進行程式碼輔助。各候選模型在推論速度、上下文長度與程式碼品質間有不同的取捨。",
+    "highlights": [
+      "64GB VRAM 可同時容納中等規模開源模型",
+      "討論涵蓋多款開源模型對比",
+      "重點在速度、上下文長度、程式碼準確度的取捨",
+      "社群提供實測經驗分享"
+    ],
+    "why_it_matters": "對需要本地部署程式碼輔助模型的技術使用者，此討論提供實用的模型選擇參考，避免硬體資源浪費或效能瓶頸。",
+    "automation_angle": null,
+    "automation_angle_zh": "可根據自身 VRAM 配置與任務需求，從討論中選擇合適的開源模型部署至本地開發環境，降低對雲端 API 的依賴。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-siteimprove-mcp-server-ai",
+    "title": "Siteimprove 發布 MCP Server 將無障礙功能嵌入 AI 工具",
+    "title_original": "Siteimprove Launches MCP Server to Embed Accessibility in AI Tools - Let's Data Science",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb0RLS3RabkQ2b3BqcGJ6a2l6SDBrWDNWbzVKNlJHOG1IYWowV3RIQ25CczczY2o2X3BfNG9WZjFtYjFrYS1hY0NiNHc0ZHlJekIteUQ5V2tpMW5TUGNFWjZhNl9ST2lnMTRiemlIMkpyWlI2Zi0wSi1iRFJTeVRWdmJDVkZJTFNIU25aWlJEc3ptT2pLclRHV1FoZFdtRHBTMXZEaw?oc=5",
+    "published_at": "2026-06-30T19:19:47+00:00",
+    "category": "agent-skills",
+    "summary": "Siteimprove 推出 MCP Server（Model Context Protocol 伺服器），允許 AI 工具直接調用無障礙檢測功能。此整合可將網站可訪問性審查自動化，減少手動檢測工作量。",
+    "highlights": [
+      "支援 Model Context Protocol（MCP）標準接口",
+      "可將無障礙檢測整合至 AI 工作流程程",
+      "有助於企業滿足 WCAG 合規要求",
+      "降低手動 accessibility 審查成本"
+    ],
+    "why_it_matters": "對於需要維護無障礙合規的技術團隊，此 MCP Server 可直接將 accessibility 檢測嵌入 AI 工具鏈，大幅提升審查效率與覆蓋率。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將此 MCP Server 整合至 CI/CD 流程，在程式碼部署前自動檢測無障礙問題，實現 accessibility 審查的流水線化。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-anthropic-claude-sonnet-5-claude-api",
+    "title": "Anthropic 發布 Claude Sonnet 5 模型登陸 Claude 平台與 API",
+    "title_original": "Anthropic launches Claude Sonnet 5 model on Claude and APIs - TestingCatalog AI News",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdF9fTDVHQjFLUFJ5RHV5RTJuZlBxUm1NSFRIOWRjc3FnUjZUUkRhWGVORXZtcXJWeGIwME96V1lmR05PeGt6ci1RUl9ENldMNmpTQkN2czB1U2lGYzZwUGFZbVl2a1dIbVZoTzdwVWdvTS1kSjBoUHFJV0xreUllU19XV3FsMHBjbm1aLVhCSW0zNnFnMkE?oc=5",
+    "published_at": "2026-06-30T18:34:01+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 正式推出 Claude Sonnet 5 模型，已同步開放給 Claude 網頁介面與 API 用戶使用。測試機構 TestingCatalog 確認新模型已上線，支援開發者透過標準 API 接口調用，具備更強的推論與對話能力。",
+    "highlights": [
+      "Claude Sonnet 5 模型已正式發布",
+      "同步開放 Claude 網頁版與 API 接口",
+      "TestingCatalog 確認新模型已部署",
+      "支援開發者標準化接入"
+    ],
+    "why_it_matters": "Sonnet 5 的發布代表 Anthropic 產品線再次更新，若定價合理可作為 Claude 3.5 Sonnet 的替代方案或補充，提升開發者的工作流程程靈活性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可透過 API 將 Claude Sonnet 5 整合至自動化腳本、客服系統或程式碼輔助工具，評估其在特定任務上的性價比。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-06-30-scarfbench-ibm-research-java-ai-agent",
     "title": "ScarfBench：IBM Research 發布企業 Java 框架遷移 AI Agent 基準測試",
     "title_original": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
@@ -524,6 +744,33 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-github-copilot-ai",
+    "title": "GitHub Copilot 支援按使用者配額管理 AI 額度",
+    "title_original": "Per-user AI credit budgets available for cost centers",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-06-30-per-user-ai-credit-budgets-available-for-cost-centers",
+    "published_at": "2026-06-30T07:45:13+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 企業版管理員現可為成本中心設定「按使用者」的 AI 額度預算，系統會自動將配額應用於該成本中心內的所有成員，並隨成員變動動態調整。",
+    "highlights": [
+      "支援設定 per-user AI credit 預算",
+      "配額可綁定成本中心進行管理",
+      "成員變動時自動繼承配額規則",
+      "有助於企業精細控制 Copilot 支出"
+    ],
+    "why_it_matters": "此功能讓技術管理者能更精準地追蹤與控制團隊的 AI 工具支出，適合需要嚴格預算管控的企業開發環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "可利用此配額機制建立團隊使用報告，分析哪些開發者或專案消耗最多 AI 額度，優化資源配置與工作流程程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-06-30-tesla-v100-16gb-llm-nvlink",
