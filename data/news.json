@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-07-01-godot-agent-godot-mcp-cli",
+    "title": "godot-agent：Godot遊戲引擎MCP伺服器與CLI代理工具",
+    "title_original": "aigengame/godot-agent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aigengame/godot-agent",
+    "published_at": "2026-07-01T07:13:41Z",
+    "category": "agent-skills",
+    "summary": "基於Python的開源Godot AI代理工具，提供CLI、Skill與MCP伺服器，支援結構化JSON/Schema輸出，可實現無頭場景/腳本/匯出自動化及運行時控制，目前23星。",
+    "highlights": [
+      "支援無頭模式操作Godot引擎",
+      "結構化JSON輸出便於AI代理解析",
+      "MCP伺服器格式方便整合進現有Agent框架",
+      "可自動化場景生成、腳本編寫、匯出流程",
+      "新興專案，社群基礎仍在建立中"
+    ],
+    "why_it_matters": "遊戲開發者首個針對Godot的MCP方案，可將AI代理直接嵌入遊戲資產生成流程，節省重複性操作時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "遊戲開發者可立即試用CLI功能，用AI代理自動生成場景脚本，評估JSON Schema穩定性與工具呼叫可靠性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/283304695?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-hwpforge-rust-hwpx-mcp",
+    "title": "HwpForge：Rust實現的HWPX文檔MCP處理庫",
+    "title_original": "ai-screams/HwpForge",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ai-screams/HwpForge",
+    "published_at": "2026-07-01T06:27:42Z",
+    "category": "agent-skills",
+    "summary": "Rust語言實現的HWPX文檔控制庫，支援Markdown轉換為HWPX、JSON來回編輯，並提供MCP伺服器供AI代理呼叫，屬專精領域工具，目前11星。",
+    "highlights": [
+      "Rust高效能實現，記憶體安全",
+      "支援Markdown到HWPX格式轉換",
+      "JSON來回編輯保持文檔結構",
+      "提供MCP伺服器供AI代理整合",
+      "針對韓文HWPX格式，細分市場剛需"
+    ],
+    "why_it_matters": "處理韓文商業文檔的技術用戶可借助MCP伺服器，將AI代理直接接入HWPX文檔工作流程，解決格式轉換痛點。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可建立本地端Markdown轉HWPX自動化流程，用AI代理處理需韓文Office軟體相容的批量文檔轉換需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/220104296?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-144gb-vram-120gb-ram",
+    "title": "史上最大本地模型：144GB VRAM + 120GB RAM 全部榨乾",
+    "title_original": "Biggest, baddest model to fill 144GB VRAM + 120GB RAM to the brim, regardless of speed",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uk88ui/biggest_baddest_model_to_fill_144gb_vram_120gb/",
+    "published_at": "2026-07-01T01:48:10+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論如何在 144GB VRAM 搭配 120GB 系統 RAM 的硬體上運行最大型開源模型，突破一般消費級 GPU 的記憶體限制。",
+    "highlights": [
+      "使用量化或分層技術突破單卡 VRAM 上限",
+      "需 CPU 與 GPU 協同處理超大口徑模型",
+      "可能涉及多張 GPU 串聯或記憶體卸載機制",
+      "犧牲即時性換取更大參數量",
+      "實驗性配置，非一般使用者建議嘗試"
+    ],
+    "why_it_matters": "對想跑超大開源模型但預算有限者，揭示如何用消費者級硬體組合挑戰規模極限，技術上有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可借鏡其記憶體管理策略，用 llama.cpp 或類似的 offload 機制評估自有機器的模型承載上限。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-vibevoice-1-5b-90-podcast-22-95",
+    "title": "VibeVoice 1.5B 開源：90 分鐘 podcast 僅需 22.95 分鐘轉譯",
+    "title_original": "[audio.cpp] VibeVoice 1.5B released — 90-min podcast in 22.95 min, 4.08x real-time, 2.86x faster than Python without quantization. Native C++/ggml",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uk7khq/audiocpp_vibevoice_15b_released_90min_podcast_in/",
+    "published_at": "2026-07-01T01:15:48+00:00",
+    "category": "open-source-ai",
+    "summary": "音頻處理開源專案 audio.cpp 釋出 VibeVoice 1.5B 模型，實現 4.08 倍即時轉譯速度，比 Python 實作快 2.86 倍，採用原生 C++/ggml 架構。",
+    "highlights": [
+      "C++ 原生實作，無 Python 依賴",
+      "基於 ggml 張量庫，硬體加速友好",
+      "90 分鐘音頻 22.95 分鐘完成轉譯",
+      "適合嵌入式或資源受限環境部署",
+      "MIT 或類似開源授權，可商用"
+    ],
+    "why_it_matters": "高效能 C++ 音頻模型讓本地化語音轉文字更普及，省雲端 API 費用同時提升隱私，技術宅可完全掌控資料流。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 VibeVoice 整合進現有本地端 pipeline，取代 Whisper API 做會議錄音或 podcast 自動字幕，省下每月轉譯開銷。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-01-sylphxai-pdf-reader-mcp-pdf-mcp-803",
     "title": "SylphxAI/pdf-reader-mcp：PDF 智慧閱讀 MCP 伺服器（803 星）",
     "title_original": "SylphxAI/pdf-reader-mcp",
@@ -26,6 +140,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/206448049?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-anthropic-claude-fable-5-mythos-5",
+    "title": "Anthropic 確認：Claude Fable 5 與 Mythos 5 出口管制已解除",
+    "title_original": "Quoting Anthropic",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything",
+    "published_at": "2026-06-30T23:58:15+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 公告美國商務部已解除對 Claude Fable 5 與 Mythos 5 兩款模型的出口管制，將於明日恢復相關地區的 API 存取服務。",
+    "highlights": [
+      "Claude Fable 5 為長上下文創意寫作模型",
+      "Mythos 5 為多模態旗艦模型",
+      "出口管制解除後國際開發者可重新呼叫",
+      "恢復時間預計明日（以原文時間推算）",
+      "台灣、中國等地區用戶可受惠"
+    ],
+    "why_it_matters": "受管制地區的開發者重新取得高階 Claude 模型存取，無需額外繁瑣申請流程，可直接恢復既有專案的模型串接。",
+    "automation_angle": null,
+    "automation_angle_zh": "若曾因出口管制中斷專案，可立即重新啟動 Claude Fable 5 或 Mythos 5 的 API 串接，並檢視停擺期間的替代方案是否仍有保留價值。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -246,6 +388,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-01-anthropic-claude-sonnet-5",
+    "title": "Anthropic發布Claude Sonnet 5模型",
+    "title_original": "Introducing Claude Sonnet 5 - Anthropic",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5",
+    "published_at": "2026-06-30T18:03:16+00:00",
+    "category": "new-models",
+    "summary": "Anthropic正式推出Claude Sonnet 5模型，據稱在理解、推論、多模態處理等方面有顯著提升，具體規格與Benchmark數據需查閱官方發布頁面。",
+    "highlights": [
+      "Anthropic官方發布，可信度高",
+      "強調理解、推論、多模態處理能力提升",
+      "具體數值指標待官方頁面確認",
+      "預計影響企業級AI工具選型決策",
+      "與現有Claude系列定價策略可能相關"
+    ],
+    "why_it_matters": "新旗艦模型的實際效能提升幅度將決定是否值得遷移現有工作負載，技術用戶應第一時間關注實際Benchmark數據。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可建立Benchmark測試集，用Claude Sonnet 5與現有模型對比，推測成本效益與任務適用性，指導採購決策。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-06-30-ai-compass-ai",
@@ -45642,6 +45812,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-01-notion-ai-agent",
+    "title": "Notion 將工作區轉型為 AI Agent 中心",
+    "title_original": "Notion just turned its workspace into a hub for AI agents - TechCrunch",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYjVRZlNHM2NfM1dMQ2h2ZUpVaXYtZElZeXZRWVVIZGpvbjNjRkFGYWVoSmtSVnU2cl8wQTVlbXJ4aDhjVnAxSFFmTU9za0Znd3BRQ09EeGowWUdIS0hBM282RndLbmg2MHF0MFZTV0U1VE1ZcXA4eHJuNVUtS3B0YVotQ2tOTkxsbmRxTUo1RXE1ZUVHbU1R?oc=5",
+    "published_at": "2026-05-13T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Notion 推出全新 AI Agent 功能，讓使用者能在熟悉的工作空間中部署、管理與調度 AI 代理，直接在文件資料庫上執行自動化任務。",
+    "highlights": [
+      "Agent 能在 Notion 頁面與資料庫上讀寫操作",
+      "支援自訂工作流程程與觸發條件設定",
+      "整合現有 Notion 模板與自動化腳本",
+      "可能衝擊 Zapier、Make 等現有整合平台",
+      "提供企業級權限管理與協作控制"
+    ],
+    "why_it_matters": "Notion 的廣泛用戶基礎降低 AI Agent 學習門檻，非工程師也能在熟悉介面中建立自動化流程，工程師則可快速原型驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 Notion Agent 取代簡單的爬蟲+資料整理流程，直接在頁面中觸發條件式更新，減少外部腳本依賴。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-13-jeecgboot-ai-46k",
     "title": "JeecgBoot：AI 驅動的低代碼平台，46k 星",
     "title_original": "jeecgboot/JeecgBoot",
@@ -48127,6 +48325,34 @@
     "why_it_matters": "對於需要大量調用AI API的開發團隊而言，Token訂閱價格直接影響專案成本。價格戰意味著可用更少預算取得同等算力，提升產品商業可行性。",
     "automation_angle": null,
     "automation_angle_zh": "開發者可評估各平台Token計費模式，計算自身應用的最佳性價比，並考慮建立自動化成本監控系統以追蹤API支出。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-token-minimax",
+    "title": "Token 訂閱大戰開打！階躍星辰、MiniMax 接連出牌，開發者將成贏家",
+    "title_original": "Token訂閱大战打响！阶跃星辰、MiniMax接连出牌，開發者將成赢家 - shobserver.com",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5fZEVrRjFQZEpSQ0tUVkZNaHpfbUVlaXVIRjlJLVZqdG9yd252YzdLeG9XUHVEWGY3XzVTR2l1MFZSUnBybVpDSkMyajRBRzlQTTY5Q2daNzNRQzE4cmRZ?oc=5",
+    "published_at": "2026-03-23T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "中國 AI 新創階躍星辰與 MiniMax 相繼推出低價 Token 訂閱方案，掀起 API 定價戰。業者以更低成本的模型存取吸引開發者，可能改變中小型專案的 AI 整合成本結構。",
+    "highlights": [
+      "階躍星辰與 MiniMax 先後推出低價或免費 Token 額度",
+      "主要鎖定 API 呼叫用量計費的開發者客群",
+      "可能迫使騰訊、百度等大廠跟進降價",
+      "中國境內部署選項提供資料合規優勢",
+      "開發者可比較推論品質與成本的 C/P 值"
+    ],
+    "why_it_matters": "模型 API 成本直接影響 AI 應用可行性，低價競爭讓技術宅能用更少預算實驗更多想法，降低 AI 工具試錯門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估用 MiniMax 或階躍星辰替代現有付費 API，用相同預算增加開發迭代次數或撐大每日用量上限。",
     "tags": [
       "ai-deals",
       "rss",
