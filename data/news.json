@@ -1,5 +1,149 @@
 [
   {
+    "id": "2026-07-01-knewstimek-agent-tool-mcp-ai-coding-agent",
+    "title": "knewstimek/agent-tool：MCP 工具伺服器，賦予 AI Coding Agent 底層系統能力",
+    "title_original": "knewstimek/agent-tool",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/knewstimek/agent-tool",
+    "published_at": "2026-07-01T12:48:34Z",
+    "category": "agent-skills",
+    "summary": "knewstimek/agent-tool 是用 Go 編寫的 MCP（Model Context Protocol）工具伺服器，專為 AI Coding Agent 提供編碼感知檔案工具、二進位分析、DAP 偵錯、SSH/SFTP、程序記憶體讀取等底層系統能力，目前 Stars 19，屬於早期技術實驗專案。",
+    "highlights": [
+      "Go 語言實現的 MCP 標準相容工具伺服器",
+      "提供檔案讀寫、編碼偵測、語法分析等檔案工具",
+      "支援 DAP 偵錯協定，可遠端單步除錯",
+      "含 SSH/SFTP 功能，可遠端操作伺服器檔案",
+      "可存取程序記憶體，適合系統層 Agent 應用場景"
+    ],
+    "why_it_matters": "若想在 AI Agent 中加入真正的系統級操作能力（如遠端伺服器維護、程序除錯），這套 MCP 工具伺服器提供了標準化介面，值得評估與實驗。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在本地架設此 MCP 伺服器，將其連接到支援 MCP 的 Agent（如 Cursor、Cline），測試在遠端 SSH 環境下直接執行程式碼偵錯的體驗。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/58800634?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-borda-ai-rig-python-ml-ai-coding-assistant",
+    "title": "Borda/AI-Rig：Python/ML 開源開發專用個人 AI Coding Assistant 組合",
+    "title_original": "Borda/AI-Rig",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Borda/AI-Rig",
+    "published_at": "2026-07-01T12:47:12Z",
+    "category": "agent-skills",
+    "summary": "AI-Rig 是 Borda 維護的開源專案，收集了針對 Python 與機器學習開發優化的個人 AI Coding Assistant 配置、專家 Agent 範本與自動化工作流程，目前 GitHub 僅 21 Stars，屬於小型但針對性強的實用工具集。",
+    "highlights": [
+      "專為 Python 與 ML 開源開發者設計的配置集",
+      "包含 specialist agents 與自動化工作流程範本",
+      "Python 為主技術棧，易於與現有 ML 專案整合",
+      "Stars 數量低但目標受眾明確，品質待社群驗證",
+      "可作為個人 Coding Assistant 配置的起點參考"
+    ],
+    "why_it_matters": "對經常處理 Python 數據科學專案的開發者，直接採用或 fork 這套配置可省去從零設計 Agent Prompt 與工具鏈的時間，快速提升日常編碼效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可 fork AI-Rig repo，根據自身專案調整 Agent 配置，測試在常見 ML 任務（如資料處理、模型訓練腳本生成）中的實際效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6035284?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-codex-integration-windows-mcp-comfyui-blender-photoshop",
+    "title": "Codex-Integration：Windows 本地 MCP 橋接創意軟體（ComfyUI、Blender、Photoshop 等）",
+    "title_original": "jianbaorui07-dot/Codex-Integration-with-Creative-Industry-Software",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jianbaorui07-dot/Codex-Integration-with-Creative-Industry-Software",
+    "published_at": "2026-07-01T12:40:13Z",
+    "category": "agent-skills",
+    "summary": "此專案提供 Windows 本地的 MCP stdio 伺服器與安全橋接層，讓 AI Agent 能連接 ComfyUI、Blender、AutoCAD/DXF、Photoshop、Illustrator、CapCut/剪映等創意工具。目前 Stars 13，屬於早期興趣驅動專案，但介面覆蓋廣泛。",
+    "highlights": [
+      "Windows 優先的本地 MCP stdio 伺服器實作",
+      "支援主流創意工具：ComfyUI、Blender、AutoCAD、Photoshop 等",
+      "提供安全橋接層，減少直接操作創意軟體的風險",
+      "適用於需要 AI 操控設計/影像素材的自動化場景",
+      "Stars 低但介面覆蓋多元，適合評估整合可能性"
+    ],
+    "why_it_matters": "若工作涉及大量創意軟體操作，透過 MCP 讓 AI Agent 直接控制設計工具可大幅減少手動點擊，但需注意安全邊界與穩定性驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在 Windows 環境部署此 MCP 橋接，測試用自然語言指令操控 Photoshop 或 ComfyUI 生成素材的實際可行性與回應延遲。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/279232358?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-vaayne-agent-kit-typescript-ai",
+    "title": "vaayne/agent-kit：TypeScript AI 代理開發工具包",
+    "title_original": "vaayne/agent-kit",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/vaayne/agent-kit",
+    "published_at": "2026-07-01T12:21:46Z",
+    "category": "agent-skills",
+    "summary": "開源 TypeScript 工具包，提供 AI 編碼代理的可重用元件，包含技能、子代理、MCP 伺服器及擴展機制。現獲 50 顆星，可直接整合進開發工作流程。",
+    "highlights": [
+      "TypeScript 實作，與現代前端/Node 生態相容",
+      "提供 MCP 伺服器實例範本，降低接入門檻",
+      "支援子代理模式，方便構建多代理協作系統",
+      "技能系統模組化，復用性高",
+      "可作為自建代理的基础架構參考"
+    ],
+    "why_it_matters": "若你正在自建 AI 編碼代理或工作流程自動化系統，此工具包提供經過整理的元件，可省去從零摸索的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "克隆專案後，基於其 MCP 伺服器範本快速建立自訂工具節點，與現有 CI/CD 或 IDE 自動化流程整合。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/10231735?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-openpangu-2-0-flash",
+    "title": "openPangu-2.0-Flash 開源中文大模型",
+    "title_original": "README_EN.md · openpangu/openPangu-2.0-Flash at main",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukhu5g/readme_enmd_openpanguopenpangu20flash_at_main/",
+    "published_at": "2026-07-01T10:27:32+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享 openPangu 2.0 Flash 版本的 README 文件，但缺乏詳細技術規格或 benchmark 數據。模型定位與能力邊界尚待驗證。",
+    "highlights": [
+      "名為 Flash 的輕量版分支，暗示強調推論速度",
+      "資訊來源為 Reddit 討論串，非官方發布渠道",
+      "缺少模型權重下載連結或 demo 入口",
+      "與原版 openPangu 的差異尚不明確",
+      "需要進一步追蹤以確認實際可用性"
+    ],
+    "why_it_matters": "對關注中文本地部署模型的技術用戶有參考價值，但當前資訊不足以判斷是否值得投入時間測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "暫緩評估，待官方 Repo 正式釋出模型權重或技術報告後再評估其對本地推論流水線的適用性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-01-godot-agent-godot-mcp-cli",
     "title": "godot-agent：Godot遊戲引擎MCP伺服器與CLI代理工具",
     "title_original": "aigengame/godot-agent",
@@ -12055,6 +12199,34 @@
     "why_it_matters": "對於需要在騰訊雲環境中使用 AI 服務的技術人員，新的分層定價可能提供更符合實際用量的選擇，避免為閒置配額付費，提升資源使用效率。",
     "automation_angle": null,
     "automation_angle_zh": "開發者可等待正式定價公告後，計算團隊實際 API 呼叫量，選擇最適合的套餐方案，避免月結帳單超支。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-buddy-ai",
+    "title": "騰訊雲 Buddy AI 個人版訂閱升級，三檔付費方案上線",
+    "title_original": "腾讯雲：Buddy AI 国内個人版訂閱升級，付费套餐擴展為三档體系|WorkBuddy|CodeBuddy|积分|权益|額度_手机新浪网 - 新浪财經",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQUhHYjhwQ3JTb3JRME1iOW5BVnk4TERXdjdjME1YVEI1YXZ2YlluTGRVS3dGQVZfdE9laGJ4ZHlCbEFVdG5YTnpvMGZQcUNvbjdBY2NxYkM0dXdEaXB6cHdZSGdudl94cWRaZ2VDWHo1Wnd0R3BwOE0tZEtLZnNSYW1BNDd1UVk?oc=5",
+    "published_at": "2026-06-16T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "騰訊雲 Buddy AI 國內個人版將訂閱調整為三檔付費體系，包含 WorkBuddy 與 CodeBuddy 等產品線，積分、權益與額度規則有所變動。",
+    "highlights": [
+      "新增三檔付費套餐，差異化定價",
+      "包含 CodeBuddy（可能與程式碼生成相關）",
+      "積分與額度制度調整，需重新評估成本",
+      "針對國內個人用戶的專屬方案",
+      "新浪財經報導，來源為騰訊雲官方公告"
+    ],
+    "why_it_matters": "若你正在使用騰訊雲 AI 服務，本次套餐調整可能影響每月成本或可用額度，值得確認新方案是否符合你的使用量。",
+    "automation_angle": null,
+    "automation_angle_zh": "比較新舊套餐的額度與價格，若用量穩定可評估年付方案以降低單位成本；同時檢查現有工作流程對 API 額度的依賴程度。",
     "tags": [
       "ai-deals",
       "rss",
