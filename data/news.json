@@ -1,5 +1,510 @@
 [
   {
+    "id": "2026-07-01-github-copilot-cli-credit",
+    "title": "GitHub Copilot CLI 新增工作階段 credit 限制功能",
+    "title_original": "Set AI credit session limits in Copilot CLI and SDK",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk",
+    "published_at": "2026-07-01T18:33:24+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot CLI 與 SDK 現支援設定工作階段的 AI credit 上限，防止 Agent 在單次任務中消耗過多配額。此功能對於自動化腳本與 CI/CD 整合場景特別實用。",
+    "highlights": [
+      "可對單一 CLI 工作階段設定 credit 上限",
+      "適用於 Copilot CLI 與 SDK",
+      "有效防止異常任務產生超額費用",
+      "有利於 CI/CD 環境的資源管控",
+      "官方 GitHub Changelog 發布，來源可信"
+    ],
+    "why_it_matters": "Copilot Agent 在自動化腳本中可能因任務複雜度而消耗大量 credit。此功能讓技術團隊能安全地在非監視環境下部署 Agent，避免費用失控。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 CI/CD pipeline 或自動化部署腳本中設定合理的 credit 上限，確保 Copilot CLI 任務不會因為長尾任務產生意外帳單，同時可用於測試環境的預算隔離。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-01-vouch-git-ai-agent",
+    "title": "vouch：Git 原生的 AI Agent 審核式知識庫",
+    "title_original": "vouchdev/vouch",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/vouchdev/vouch",
+    "published_at": "2026-07-01T18:04:15Z",
+    "category": "agent-skills",
+    "summary": "vouch 是一款 Python 開源工具，讓 AI Agent 提出修改建議，用戶審核批准後才生效。每個變更都是 Repo 中的 Diff，支援 MCP 協定與 CLI 操作，強調可追溯性。",
+    "highlights": [
+      "Agent 提議寫入，用戶批准後生效的審核機制",
+      "所有變更以 Git Diff 形式記錄，完全可審計",
+      "內建引用機制，Agent 每個聲稱都有來源依據",
+      "支援 MCP 協定與 CLI，方便整合進現有流程",
+      "適用於需要嚴謹文件管理的技術團隊"
+    ],
+    "why_it_matters": "在 AI 生成的內容需要嚴格把關的場景，vouch 的審核機制與完整溯源能力可降低錯誤資訊傳播風險，適合重視文件品質的團隊。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在文件維護流程中部署 vouch，讓 AI Agent 自動更新技術文檔，所有變更經審核後才合併進主分支。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/285916225?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-mcp-ssh-orchestrator-ai-agent-ssh",
+    "title": "mcp-ssh-orchestrator：為 AI Agent 安全執行遠端 SSH 指令",
+    "title_original": "samerfarida/mcp-ssh-orchestrator",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/samerfarida/mcp-ssh-orchestrator",
+    "published_at": "2026-07-01T18:03:45Z",
+    "category": "agent-skills",
+    "summary": "透過 MCP 協定為 AI Agent 提供安全 SSH 存取能力，支援跨伺服器fleet的命令執行、策略強制執行、網路控制與完整稽核日誌。Python 實作，26 顆星。",
+    "highlights": [
+      "基於 MCP 協定的 SSH 工具整合",
+      "支援政策執行與網路存取控制",
+      "提供完整的操作稽核日誌",
+      "可用於管理多台伺服器環境",
+      "Python 實作，技術門檻低"
+    ],
+    "why_it_matters": "讓 AI Agent 能安全地操作實際伺服器是自動化了務的重要一環。此工具解決了 Agent 遠端操作的信任與安全問題，是建構自動化運維 Agent 的基礎元件。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此工具整合至內部 Agent，實現「自然語言驅動伺服器操作」的工作流程；建議先在測試環境驗證政策執行與日誌功能，確認符合組織安全規範後再部署至生產環境。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/17935320?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-reddit-deepseek-flash-v4-iq2-qwen-3-6-27b-q5km",
+    "title": "Reddit 熱議：DeepSeek Flash V4 對標 IQ2 或 Qwen 3.6 27B Q5KM 量化效能比較",
+    "title_original": "Deepseek Flash V4 at IQ2 or Qwen 3.6 27B Q5KM ? Any tests or benchmarks ?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukt1hc/deepseek_flash_v4_at_iq2_or_qwen_36_27b_q5km_any/",
+    "published_at": "2026-07-01T18:01:09+00:00",
+    "category": "new-models",
+    "summary": "LocalLLaMA 社群熱烈討論 DeepSeek Flash V4 與 Qwen 3.6 27B Q5KM 量化版本在 IQ2 精度下的效能表現。用戶尋求實際測試數據或 benchmark 結果，社群回應指出兩者在不同任務類型上各有勝負，具體取決於量化精度與硬體配置。",
+    "highlights": [
+      "DeepSeek Flash V4 採用新穎的量化策略",
+      "Qwen 3.6 27B 在 Q5KM 量化下記憶體佔用較低",
+      "IQ2 精度級別的實際效能損耗尚未有系統性測試",
+      "社群反饋顯示兩者在程式碼生成與數學推論上表現接近",
+      "硬體（VRAM 頻寬）會顯著影響實際運行效率"
+    ],
+    "why_it_matters": "對於需要本地部署大語言模型的技術用戶，選擇合適的模型與量化方式直接影響成本與效益。了解不同量化版本的真實效能差異，可避免資源浪費或效能不足的問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可使用 LM Studio 或 Ollama 對這兩個模型進行實際推論速度與輸出品質的對比測試，根據自己的任務類型選擇最優性價比方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-openwiki-agent-repo",
+    "title": "OpenWiki：用於程式碼 Agent 的開源 Repo 文件工具",
+    "title_original": "OpenWiki: Open Source Repo Documentation for Coding Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/introducing-openwiki-an-open-source-agent-for-repo-documentation",
+    "published_at": "2026-07-01T17:58:04+00:00",
+    "category": "agent-skills",
+    "summary": "OpenWiki 自動生成並維護程式碼庫文件，讓 coding agent 能快速取得所需上下文，而不必將整個 repo 載入單一提示詞。減少 token 消耗的同時提升文件相關性。",
+    "highlights": [
+      "自動生成與維護程式碼庫文件",
+      "讓 coding agent 取得精準上下文",
+      "減少單次請求的 token 消耗",
+      "可與現有程式碼庫整合",
+      "LangChain 官方支援的工具"
+    ],
+    "why_it_matters": "Coding agent 常因上下文長度限制而無法處理大型程式碼庫。OpenWiki 提供了結構化的文件存取機制，是提升大型專案 AI 程式碼助力的關鍵基礎設施。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 OpenWiki 整合至內部 coding agent 工作流程，針對大型程式碼庫建立索引；技術團隊可評估其產出文件的品質與準確度，決定是否取代現有的人工文件維護流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-fragments-sdk-ui-mcp-react",
+    "title": "fragments-sdk/ui：內建 MCP 伺服器的 React 元件庫",
+    "title_original": "fragments-sdk/ui",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/fragments-sdk/ui",
+    "published_at": "2026-07-01T17:15:37Z",
+    "category": "open-source-ai",
+    "summary": "一個基於 Base UI 建構的無障礙 React 元件庫，同時提供 MCP 伺服器供 AI Agent 直接呼叫 UI 元件與設計 token。MIT 授權，原始碼存於私人 monorepo，社群可透過 Issues 參與貢獻。",
+    "highlights": [
+      "內建 MCP 伺服器，AI Agent 可直接呼叫 React 元件",
+      "提供完整的設計 token 與 blocks 系統",
+      "基於 Base UI，確保無障礙存取支援",
+      "MIT 授權，商業可用",
+      "目前僅 12 顆星，需關注後續維護狀況"
+    ],
+    "why_it_matters": "讓 AI Agent 不只生成文字，還能操作標準化 UI 元件，是 Agent UI 能力的重要基礎建設。若能與內部設計系統整合，可加速 Agent 介面開發。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將此元件庫整合至自建 Agent，快速取得可訪問的 UI 元件庫；也可審視其 MCP 伺服器實作，作為自建 Agent UI 工具的參考範本。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/265863215?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-plurality-ai",
+    "title": "Plurality 發布：完全免費且開源的本地 AI 代理/聊天平台",
+    "title_original": "Plurality Released: fully Free and Open Source AI agents/chatbot platform for local AI",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukrm9q/plurality_released_fully_free_and_open_source_ai/",
+    "published_at": "2026-07-01T17:08:35+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 社群傳出 Plurality 項目發布消息，號稱是完全免費且開源的本地 AI 代理與聊天機器人平台，支援本地部署而無需雲端 API。消息來源為社群討論串，具體技術規格、授權條款和實際可用性尚待驗證。",
+    "highlights": [
+      "號稱完全開源並支援本地部署",
+      "提供代理和聊天機器人功能整合",
+      "強調免費使用，無 API 費用負擔",
+      "社群消息缺乏官方文件或 GitHub 連結驗證",
+      "Reddit 來源可靠性較低，需進一步確認"
+    ],
+    "why_it_matters": "若屬實，本地開源代理平台可滿足隱私敏感場景和降低 API 成本需求。但目前消息未獲充分驗證，實用價值待觀察。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方 repo 或文件確認後，可下載測試其本地推論效能與功能完整性，評估是否能替代商業代理服務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-rosetta-grid-dynamics-ai-coding-agent",
+    "title": "rosetta：Grid Dynamics 推出的 AI Coding Agent 元提示框架",
+    "title_original": "griddynamics/rosetta",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/griddynamics/rosetta",
+    "published_at": "2026-07-01T16:37:33Z",
+    "category": "agent-skills",
+    "summary": "rosetta 是 Grid Dynamics 開源的 TypeScript 專案，專注於 AI Coding Agent 的元提示（meta-prompting）與上下文工程，統一管理 Agent 指令集，311 顆星。",
+    "highlights": [
+      "聚焦元提示設計，優化 Agent 的系統提示工程",
+      "提供上下文集中管理機制",
+      "目標用戶為 AI Coding Agent 開發者",
+      "TypeScript 實現，適合前端/全端團隊",
+      "已有一定社群關注度（311 stars）"
+    ],
+    "why_it_matters": "元提示工程是提升 Agent 穩定性的關鍵技術，rosetta 提供開箱即用的框架，可節省團隊自建 Agent 指令管理系統的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將 rosetta 整合進現有 Coding Agent，統一管理提示模板，提升 Agent 在程式碼生成、審查等任務的一致性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/54911?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-marketbot-ai-agent-openclaw",
+    "title": "MarketBot：金融市場客製化 AI Agent，基於 OpenClaw",
+    "title_original": "EthanAlgoX/MarketBot",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/EthanAlgoX/MarketBot",
+    "published_at": "2026-07-01T16:34:37Z",
+    "category": "agent-skills",
+    "summary": "MarketBot 是基於 OpenClaw 框架的金融領域專用 AI Agent，專為市場情報、交易分析與決策支援設計，目前 63 顆星，屬較小規模的垂直領域應用。",
+    "highlights": [
+      "基於 OpenClaw 框架的金融垂直應用",
+      "專注市場情報收集與交易分析場景",
+      "提供決策支援功能，輔助交易判斷",
+      "Python 實現，社群規模較小（63 stars）",
+      "可作為垂直領域 Agent 開發的參考範例"
+    ],
+    "why_it_matters": "金融領域的 AI Agent 需求明確，MarketBot 展示了如何基於通用框架快速客製化垂直解決方案，對有類似需求的技術團隊有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可研究其程式碼結構，將類似模式應用於其他垂直領域（如法務、醫療）的 Agent 建構。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/22077167?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-reddit-ai",
+    "title": "Reddit 討論：尋找開源 AI 會議紀錄工具替代品",
+    "title_original": "Looking for open-source AI meeting note-takers (like Fathom, Fireflies, Notion AI)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukpttx/looking_for_opensource_ai_meeting_notetakers_like/",
+    "published_at": "2026-07-01T16:03:03+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 社群用戶公開徵求類似 Fathom、Fireflies、Notion AI 的開源會議筆記解決方案。核心需求包括本地部署、會議錄音轉文字、說話者識別、自動摘要與行動項目提取，且無需訂閱雲端服務。",
+    "highlights": [
+      "要求完全本地化部署以保障資料隱私",
+      "需支援 Whisper 等開源語音辨識模型",
+      "期待開源社群貢獻類似 Fathom 的 UX 體驗",
+      "目前尚未出現功能完整的開源替代方案"
+    ],
+    "why_it_matters": "企業級用戶對會議資料隱私有嚴格要求，開源替代方案若成熟可大幅降低採購成本並擺脫對 SaaS 訂閱的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可基於 Whisper + 開源 LLM 自建會議紀錄系統，自動化生成 meeting notes 並同步至內部知識庫。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-github-copilot-vs-code",
+    "title": "GitHub Copilot 瀏覽器工具正式開放：代理可在 VS Code 中驅動真實瀏覽器",
+    "title_original": "Browser tools for GitHub Copilot in VS Code are generally available",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available",
+    "published_at": "2026-07-01T16:01:00+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 的瀏覽器工具正式邁入全面可用階段。代理現在可以在 VS Code 內驅動真實瀏覽器、導航至即時 Web 應用，並將所見內容回傳至工作流程程。這意味著前端自動化測試、動態網頁抓取和即時資料驗證等場景可直接由 AI 代理完成。",
+    "highlights": [
+      "代理可操作 Chromium 瀏覽器執行點擊、填表、滾動等操作",
+      "支援擷取即時動態載入的內容（Single Page App 適用）",
+      "可用於自動化 UI 測試和跨瀏覽器相容性驗證",
+      "與 VS Code 深度整合，開發者可在同一環境監控代理行為",
+      "降低自動化 Web 任務的建置門檻，無需額外 Selenium/Playwright 腳本"
+    ],
+    "why_it_matters": "Web 自動化是開發者日常最高頻的需求之一。Copilot 原生支援瀏覽器操作，讓常見的測試、抓取、填報任務現在可用自然語言驅動。",
+    "automation_angle": null,
+    "automation_angle_zh": "可立即測試讓 Copilot 代理自動完成表單填寫、截圖記錄、爬取動態頁面等任務，評估其在實際工作流程程中的可用性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-01-langchain-rlms",
+    "title": "LangChain 深入解析：如何在深度代理中使用 RLMs 解決上下文腐爛問題",
+    "title_original": "How to Use RLMs in Deep Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-to-use-rlms-in-deep-agents",
+    "published_at": "2026-07-01T15:38:16+00:00",
+    "category": "agent-skills",
+    "summary": "遞迴語言模型（RLMs）透過讓代理撰寫程式碼來分散子代理處理上下文區塊，避免傳統方式將所有內容塞進單一上下文窗口導致的效能崩潰。深度代理現在實現動態子代理機制，支援類似 grep、map、reduce 的程式化任務分發，在長上下文推論任務 OOLONG 基準測試中優於逐步對話代理。",
+    "highlights": [
+      "RLMs 讓代理自己寫程式碼來調度子代理，而非依賴固定指令鏈",
+      "支援上下文分塊的程式化扇出（fan-out）處理模式",
+      "在 OOLONG 長上下文推論任務中展現優勢",
+      "整合輕量級程式碼直譯器執行生成的調度邏輯",
+      "動態子代理可根據任務需求即時創建和銷毀"
+    ],
+    "why_it_matters": "對處理長文件、數千行代碼庫或大量日誌的開發者而言，RLMs 提供了一種可擴展的代理架構，避免昂貴的長上下文窗口消耗，同時保持任務連貫性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此框架應用於自動化代碼審查、日誌分析或多文件處理流程，測試其在長輸入下的穩定性和成本節省效果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-01-claude-sonnet-5",
+    "title": "Claude Sonnet 5 對開發者有何不同？區別解析",
+    "title_original": "What Makes Claude Sonnet 5 Different for Developers? - Blockchain Council",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdThtU2F0LU5KdVBTc0NJSXdjNVdzdW0wQXdfcmozNmh2TlJpbk1yeDZTdzRVN3I0V2ZIZXI0WHB3QWJRdjlWWDlNOFZRR2RnQmduV1JKOW5FazNnY3h0ZS0yY3VhTVNrODdla29Ddmw0Q1pBVllkSG93dW14ekxvb29Ka0JPMlJJZEJxRTY2TkZCM1dUOUhqbE5hVEI4WmlYN2VOS1Q3b0M5RGlLOUJr?oc=5",
+    "published_at": "2026-07-01T15:36:14+00:00",
+    "category": "new-models",
+    "summary": "Blockchain Council 發文探討 Claude Sonnet 5 相較前代對開發者群體的差異化能力。文章涵蓋程式碼生成品質、工具使用效率、多模態支援和上下文窗口等維度，但內容偏向概述性，具體數據和對比基準有限。",
+    "highlights": [
+      "強調改進的代碼補全和重構能力",
+      "工具調用（Function Calling）延遲和準確率提升",
+      "上下文窗口維持 200K tokens 規模",
+      "多模態輸入（圖表、截圖）理解能力增強",
+      "文章缺乏具體 benchmark 數據支撐"
+    ],
+    "why_it_matters": "對考慮遷移或選型的開發團隊有參考價值，但需搭配實際測試驗證文章所述能力是否屬實。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議親自設計 POC 任務（如代碼重構、文件分析）測試 Sonnet 5 與當前使用模型的實際差距。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-item",
+    "title": "研究探討：閉源與開源模型差距可能遠小於預期",
+    "title_original": "The gap between closed and open models might be much smaller than commonly assumed, because we don’t know what closed model providers do *in addition to* model inference",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukp2bu/the_gap_between_closed_and_open_models_might_be/",
+    "published_at": "2026-07-01T15:35:24+00:00",
+    "category": "new-models",
+    "summary": "LocalLLaMA 社群熱議一篇分析文章，指出外界低估了閉源模型供應商在模型推論之外所做的額外工作：包括 prompt 工程、RLHF 微調、工具调用增強與輸出後處理等。這些看不見的加成使閉源模型實際表現優於單純的模型推論評測。",
+    "highlights": [
+      "閉源模型實際包含推論外的多層優化",
+      "開源模型加載額外組件後可能逼近閉源效能",
+      "純模型評測分數存在資訊落差",
+      "開源模型的靈活性反而是潛在優勢"
+    ],
+    "why_it_matters": "若閉源優勢主要來自工程加成而非底層模型，則開源社群透過系統優化同樣可獲得接近的實用效能，這對模型選擇策略有重大影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應評估在開源模型上疊加工具调用、RAG 與 prompt 框架後的實際表現，而非僅看基準測試分數。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-2026-6",
+    "title": "2026 年 6 月開源模型生態動態追蹤",
+    "title_original": "Open Models - June 2026",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukorvr/open_models_june_2026/",
+    "published_at": "2026-07-01T15:24:50+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 用戶整理 2026 年 6 月開源模型領域的重要更新，包含新模型發布、效能評測進展與社群貢獻。討論涵蓋 Mistral、Meta Llama、Qwen 等主流開源家族的版本迭代與能力邊界變化。",
+    "highlights": [
+      "追蹤開源模型版本迭代與新興家族",
+      "彙整各模型在各 benchmark 的相對排名",
+      "社群實測結果與官方宣稱存在差距",
+      "提供模型選型參考依據"
+    ],
+    "why_it_matters": "開源模型生態快速演進，定期追蹤可幫助技術決策者選擇性價比最高的模型，避免過度依賴單一供應商。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可根據最新評測結果，每周更新內部模型路由器配置，自動選擇最適任務的開源模型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-copilot-cli",
+    "title": "Copilot CLI 自動模型選擇功能上線，根據任務智慧路由",
+    "title_original": "Copilot CLI auto model selection routes based on task",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task",
+    "published_at": "2026-07-01T15:13:29+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot CLI 的自動模型選擇功能現已支援根據任務類型自動路由至最適合的模型，結合利用率與模型健康度指標，兼顧品質、穩定性與 token 效率。",
+    "highlights": [
+      "根據任務類型自動選擇最適模型",
+      "參考利用率與模型健康度指標",
+      "旨在提升輸出品質與穩定性",
+      "可優化 token 使用效率，降低成本",
+      "官方發布，功能已上線"
+    ],
+    "why_it_matters": "手動選擇模型耗時且容易選錯。自動路由功能讓 Copilot CLI 能針對簡單任務用小模型省成本，複雜任務才調用大模型，提升整體工作流程效率與成本效益。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可啟用自動模型選擇功能，觀察不同任務被路由至哪些模型，驗證是否符合預期；可用於評估是否仍需手動指定模型，或直接信任系統判斷。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-01-pendo-langsmith-novus-ai",
+    "title": "案例分享：Pendo 如何用 LangSmith 追蹤 Novus AI 代理",
+    "title_original": "How Pendo uses LangSmith to trace Novus from user behavior to code fixes",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-pendo-used-langsmith-to-trace-novus-from-user-behavior-to-code-fixes",
+    "published_at": "2026-07-01T15:00:02+00:00",
+    "category": "agent-skills",
+    "summary": "Pendo 產品團隊公開分享其如何利用 LangSmith 對 Novus 進行除錯、評估與監控。Novus 是將用戶行為數據與 session replay 轉化為程式碼修改建議的 AI 代理。LangSmith 在此案例中扮演追蹤從用戶行為訊號到程式碼改動的全鏈路可觀測性角色。",
+    "highlights": [
+      "LangSmith 提供端到端追蹤能力",
+      "案例展示從資料到程式碼的完整鏈路",
+      "除錯與評估是 AI 代理生產化的關鍵瓶頸",
+      "LangChain 生態在企業場景已實際落地"
+    ],
+    "why_it_matters": "AI 代理從 POC 到生產環境的最大障礙是可觀測性與除錯能力，該案例展示了可行的工程實踐路徑。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可參考此架構，在自建 AI 代理中加入 LangSmith tracing，快速定位代理行為異常與效能瓶頸。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-reddit-ram-8gb-128gb-llm",
+    "title": "Reddit 用戶整理：各 RAM 容量層級（8GB-128GB）可執行的本地 LLM 完整對照表",
+    "title_original": "I mapped which local LLMs actually fit each RAM tier, 8 to 128GB (open dataset)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukn45x/i_mapped_which_local_llms_actually_fit_each_ram/",
+    "published_at": "2026-07-01T14:22:56+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 社群成員發布了一份實用資源，根據不同 RAM 容量（從 8GB 到 128GB）列出可執行的本地 LLM 模型及其量化配置。內容基於開放資料集，收錄了模型參數量、量化精度、VRAM 需求等關鍵資訊，幫助用戶快速判斷自己的硬體能跑哪些模型。",
+    "highlights": [
+      "覆蓋範圍從 8GB 到 128GB RAM 的完整配置建議",
+      "包含多個熱門開源模型（Llama、Qwen、Mistral 等）的量化版本",
+      "標註了各配置下的 VRAM 需求與推薦量化精度",
+      "基於開放資料集，可自由驗證與補充",
+      "涵蓋推論速度與模型品質的平衡建議"
+    ],
+    "why_it_matters": "本地部署 LLM 的最大障礙之一是硬體相容性判斷。這份對照表節省了技術用戶大量的試錯時間，可快速找到符合自己硬體條件的最優模型配置。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可直接參考此對照表選擇硬體配置，結合 Ollama 或 llama.cpp 進行自動化批量推論測試，驗證實際效能是否符合預期。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-01-knewstimek-agent-tool-mcp-ai-coding-agent",
     "title": "knewstimek/agent-tool：MCP 工具伺服器，賦予 AI Coding Agent 底層系統能力",
     "title_original": "knewstimek/agent-tool",
@@ -1227,6 +1732,145 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-01-langchain-agent",
+    "title": "LangChain 發布 Agent 工具使用基準測試框架",
+    "title_original": "Benchmarking Agent Tool Use",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/benchmarking-agent-tool-use",
+    "published_at": "2026-06-30T01:27:48+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布測試環境，對比 GPT-4、Claude 及開源模型在函式呼叫、規劃與推論任務上的表現。提供 4 種測試場景，協助開發者客觀評估各模型 Agent 能力差異。",
+    "highlights": [
+      "支援 4 種測試環境，覆蓋函式呼叫、規劃、推論場景",
+      "已對比 GPT-4、Claude 與開源模型表現",
+      "可用於指導模型選擇與 prompt 優化",
+      "LangChain 官方維護，有持續更新潛力",
+      "結果可作為內部模型評估的參考基準"
+    ],
+    "why_it_matters": "不同模型在 Agent 工具使用上的能力差距明顯，選擇錯誤模型會導致工作流程失敗率飆升。此基準測試提供量化依據，協助技術團隊做出模型取捨決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在專案初期跑一遍此基準測試，針對自己所需的工具呼叫場景選擇成本效益最高的模型，而非盲目採用最新或最貴的模型。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-01-langchain",
+    "title": "LangChain 單代理效能基準測試：工具與指令數量如何影響模型表現",
+    "title_original": "Benchmarking Single Agent Performance",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/react-agent-benchmarking",
+    "published_at": "2026-06-30T01:27:48+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 實驗室比較了增加指令和工具數量對 ReAct 代理效能的影響，測試對象包括 claude-3.5-sonnet、gpt-4o、o1 和 o3-mini。實驗橫跨兩個任務領域，揭示不同模型在工具過載情境下的衰退模式與容忍度差異。",
+    "highlights": [
+      "測試 o1、o3-mini 等推論模型與傳統對話模型在代理任務上的表現差異",
+      "隨工具數量增加，各模型呈現不同的效能曲線衰減模式",
+      "claude-3.5-sonnet 在工具過載情境下保持較高穩定性",
+      "指令數量對某些模型的負面影響可能比工具數量更顯著",
+      "實驗結果可供開發者針對特定任務選擇最佳模型配置"
+    ],
+    "why_it_matters": "了解模型在工具膨脹下的表現邊界，能幫助技術團隊優化代理系統的工具設計，避免無意中降低代理效能。",
+    "automation_angle": null,
+    "automation_angle_zh": "可複製此基準測試框架，針對自家代理系統的實際工具集進行評估，找出效能瓶頸並進行工具重構。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-01-langchain",
+    "title": "LangChain 結構化資料提取基準測試發布",
+    "title_original": "Extraction Benchmarking",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/extraction-benchmarking",
+    "published_at": "2026-06-30T01:27:48+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格發布大型語言模型在結構化資料提取任務上的基準測試報告，比較 GPT-4、Claude 與主流開源模型從聊天日誌中解析結構化資料的能力。報告包含評測方法論、資料集建構細節與各模型的準確率、延遲、成本數據。",
+    "highlights": [
+      "發布統一的結構化提取評測標準",
+      "GPT-4 與 Claude 在複雜巢狀結構表現領先",
+      "開源模型如 Llama 在簡單提取任務可接受",
+      "提供可重現的 benchmark 程式碼與資料集"
+    ],
+    "why_it_matters": "企業工作流程中常有從非結構化文字提取結構化資料需求，基準測試可直接指導模型選型與成本估算。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可依報告數據選擇符合成本效益的模型，用 LangChain 的 extraction chain 建構文件處理流水線。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-langchain-agent",
+    "title": "LangChain 強調 Agent 可觀測性需要回饋機制才能實現持續學習",
+    "title_original": "LangChain 強調 Agent 可觀測性需要回饋機制才能實現持續學習",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/agent-observability-needs-feedback-to-power-learning",
+    "published_at": "2026-06-30T01:27:48+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格探討 Agent 可觀測性與回饋機制的關聯性。文章指出，若要讓 Agent 系統能從互動中學習，必須建立有效的觀測與回饋循環，讓模型能接收執行結果的回饋並據此調整行為。這涉及追蹤 Agent 的思考鏈、工具調用順序、任務完成度等關鍵指標。",
+    "highlights": [
+      "Agent 需要結構化的回饋訊號才能改進決策",
+      "可觀測性涵蓋追蹤思考鏈、工具呼叫與任務完成狀態",
+      "LangChain 正在強化相關 API 與視覺化工具",
+      "回饋機制可分為人類標註與自動評估兩種途徑",
+      "持續學習需要建立有效的 RLHF 流程"
+    ],
+    "why_it_matters": "對於建構生產級 Agent 系統的開發者而言，理解回饋機制的設計至關重要。這直接影響 Agent 的自主性與任務完成率，是從玩具 Demo 邁向可靠系統的關鍵瓶頸。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可評估 LangChain 的 tracing API，整合自定義回饋收集機制，用於監控生產環境中 Agent 的行為並據此微調。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-01-langchain",
+    "title": "LangChain 技術解析：高基數情境下的查詢分析效能基準測試",
+    "title_original": "Benchmarking Query Analysis in High Cardinality Situations",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/high-cardinality",
+    "published_at": "2026-06-30T01:27:48+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方技術文章深入探討高基數（High Cardinality）資料情境下的查詢分析效能問題。當資料維度（如使用者 ID、產品 ID）具有極多唯一值時，傳統 RAG 或 Agent 查詢策略的效能會大幅下降。文章提供了量化分析與優化方向。",
+    "highlights": [
+      "高基數資料維度會導致向量檢索精確度下降",
+      "傳統 chunking 策略在高基數情境下效果有限",
+      "LangChain 提出了針對性的 query 分析改進方案",
+      "測試涵蓋了不同的 embedding 模型與索引策略",
+      "混合檢索（關鍵詞+向量）表現優於單一方法"
+    ],
+    "why_it_matters": "對於需要處理大量使用者資料或商品目錄的 RAG 系統開發者，理解高基數問題的成因與解決方案，能顯著提升系統在生產環境中的穩定性與搜尋品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可使用 LangChain 的 query 分析工具，針對自己的資料集進行效能測試，對比不同 chunk size 與 retrieval 策略的實際效果，找出最優配置。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-06-30-comfyui-mcp-comfyui-agent-mcp-108-29-ai",
     "title": "comfyui-mcp：將 ComfyUI 化身為 Agent 原生 MCP 工具集，支援 108 工具與 29 種 AI 技能",
     "title_original": "artokun/comfyui-mcp",
@@ -1534,6 +2178,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/294389826?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-claude-microsoft-foundry-azure",
+    "title": "Claude 整合 Microsoft Foundry 正式開放：Azure 企業用戶可直接部署",
+    "title_original": "Claude in Microsoft Foundry is now generally available - Microsoft Azure",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPek1uUEdRZ21YNnBJUkFpYXpaVkJ0Q0dfOXVIaWZaSVRsQWRGMnVUZEpROEZ6cmwtZTUyOVE0RG01UnNXYWtRNWFOZ0xGSEswejR6UzdIWDRpNUhuYzhFVzNIWnI3NHNDMHpubE53dGxFSm5wVXYyV0hjM1oyU05QekhyMV9Bd0pyMUZXOWRYaU5keEV4NkxEWDhR?oc=5",
+    "published_at": "2026-06-29T17:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Anthropic 的 Claude 模型現在已透過 Microsoft Foundry 全面開放給企業用戶。這是繼 Azure OpenAI Service 之後，微軟再次將頂級 AI 模型引入自家企業平台，企業可在熟悉的 Azure 基礎架構上直接呼叫 Claude，簡化採購和合規流程。",
+    "highlights": [
+      "Claude 透過 Azure Foundry 提供企業級 API 介面",
+      "支援 SSO、RBAC 和既有 Azure 身份管理整合",
+      "符合企業資料落地和合規要求",
+      "可用既有 Azure 消費額度計費，簡化財務流程",
+      "預期將與 Azure OpenAI Service 形成直接競爭"
+    ],
+    "why_it_matters": "對已投資 Azure 生態系的企業而言，現在多了一個官方途徑使用 Claude，無需額外建立 Anthropic 帳戶或管理跨平台整合。",
+    "automation_angle": null,
+    "automation_angle_zh": "已使用 Azure 的企業可評估將部分 Claude 工作負載遷移至 Foundry，測試其延遲、定價與合規文件的實際差異。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-06-29-claude-opus-4-8-github-copilot",
@@ -49933,6 +50605,33 @@
       "new-models",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-01-claude-code-gemini",
+    "title": "技術方案：Claude Code 接入 Gemini 使用教學",
+    "title_original": "技术方案探讨：如何在Claude Code中接入使用Gemini - 80aj.com",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81Y2p0VHpuaGlkZDBkQnZVdTdVN292NG5hc1UxQXp1blQzZXdlODV0RXdpZFJRRVdhNkZLUzlqQk5KalBUSGYwTlVHaDBvQlQ5bHVXMnpzbnBIQ094SHBYSloydVh0bzItNDY1SmZYSUs?oc=5",
+    "published_at": "2026-01-14T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "80aj.com 探討如何在 Anthropic 的 Claude Code CLI 工具中接入 Google Gemini 模型。該方案允許開發者在本地終端同時利用 Claude 強大的推論能力與 Gemini 的免費額度，理論上可有效降低 API 调用成本。實作方式涉及環境變數配置與模型端點替換。",
+    "highlights": [
+      "透過修改 API endpoint 讓 Claude Code 呼叫 Gemini",
+      "可同時使用 Claude 編碼輔助與 Gemini 免費額度",
+      "需處理兩模型輸出格式差異",
+      "節省成本程度取決於使用頻率與任務類型"
+    ],
+    "why_it_matters": "開發者可在不放棄 Claude 優秀程式碼能力的前提下，利用 Gemini 免費額度處理簡單任務或作為備援，整體降低 AI 輔助開發的邊際成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將簡單程式碼補全或文件生成任務路由至 Gemini付費牆外，而複雜推論交給 Claude Code處理。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
