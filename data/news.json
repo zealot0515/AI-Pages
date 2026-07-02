@@ -1,5 +1,201 @@
 [
   {
+    "id": "2026-07-02-coding-agent-langchain",
+    "title": "Coding Agent帳單翻倍？LangChain剖析成本失控原因與解法",
+    "title_original": "Your coding agent bill doubled. Here’s how to fix it.",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/fix-your-coding-agent-bill",
+    "published_at": "2026-07-02T19:08:24+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain深入分析Coding Agent帳單失控的常見原因，提供追蹤、比較與治理Claude Code、Cursor、Copilot等工具跨平台花費的方法。",
+    "highlights": [
+      "📊 探討帳單失控的根因分析",
+      "🔍 提供跨平台費用比較方法論",
+      "💰 涵蓋Claude Code、Cursor、Copilot主流方案",
+      "📈 成本治理與用量監控最佳實踐",
+      "🔧 可透過LangChain工具落地執行"
+    ],
+    "why_it_matters": "Coding Agent已成為開發標配，但成本失控會吃掉節省的開發時間；此文提供實務治理框架，技術宅可據此優化團隊AI開支。",
+    "automation_angle": null,
+    "automation_angle_zh": "用LangChain建議的方法追蹤本週各Agent的token消耗，識別哪些任務類型最耗費配額，針對性設定使用策略。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-dspy-datasette-agent-sql",
+    "title": "用 DSPy 評估並優化 Datasette Agent 的 SQL 系統提示詞",
+    "title_original": "Using DSPy to evaluate and improve Datasette Agent's SQL system prompts",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything",
+    "published_at": "2026-07-02T18:25:00+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 嘗試用 DSPy 框架改善 Datasette Agent 的唯讀 SQL 查詢提示詞，測試中 GPT-4.1 mini/nano 發現 schema 僅列出表名會導致模型猜測列名而陷入 error-retry 迴圈，建議直接將欄位資訊寫入提示詞。",
+    "highlights": [
+      "DSPy 可自動化系統提示詞的評估與迭代",
+      "Schema 只列表格名稱會導致模型猜測行為",
+      "「不要重複呼叫 describe_table」的建議反而造成錯誤迴圈",
+      "直接內嵌欄位名稱比軟性建議更有效",
+      "實測發現小模型在特定任務上對提示詞結構特別敏感"
+    ],
+    "why_it_matters": "這類優化經驗可直接套用到其他 Agent 開發場景，特別是涉及資料庫存取的應用，可避免模型在 runtime 產生多餘的 API 呼叫。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 DSPy 建立自己的系統提示詞評估管線，對模型輸出質量進行量化追蹤，並自動搜尋最優提示詞組合。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-olostep-mcp-server-ai-agent",
+    "title": "olostep MCP Server：為AI Agent提供即時網頁爬取與搜尋能力",
+    "title_original": "olostep/olostep-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/olostep/olostep-mcp-server",
+    "published_at": "2026-07-02T18:24:18Z",
+    "category": "agent-skills",
+    "summary": "新興MCP伺服器讓AI Agent即時爬取、爬蟲、批次萃取與搜尋網頁內容，為任何MCP相容Agent開通即時網路資料獲取能力。",
+    "highlights": [
+      "⭐ GitHub新興專案，20星",
+      "📦 TypeScript實作，MCP標準相容",
+      "🔍 支援爬取、爬蟲、批次萃取、搜尋多模式",
+      "🌐 為Agent提供即時網路資料而非僅靠訓練資料",
+      "⚡ 可即裝即用測試"
+    ],
+    "why_it_matters": "網頁即時資料是Agent的關鍵缺口，olostep提供標準化方案，技術宅可快速為現有Agent補足這個能力並測試對工作流程的影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "今天用npm安裝並對接你的MCP相容Agent（如Cursor/Cline），測試即時資訊抓取是否能提升研究或報告生成效率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/145279395?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-openlumara-openai-token",
+    "title": "openlumara：支援任意 OpenAI 相容介面的超節省 token 工具架",
+    "title_original": "openlumara, my manually coded super-token-efficient harness, now works across any UI that can connect to an openAI endpoint! koboldlite, openwebui, you name it. basically, openAI bridge. yay!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulol44/openlumara_my_manually_coded_supertokenefficient/",
+    "published_at": "2026-07-02T17:23:58+00:00",
+    "category": "open-source-ai",
+    "summary": "openlumara 是一款手動編碼的節省 token 工具架，現已支援 koboldlite、openwebui 等任何相容 OpenAI API 端點的 UI，扮演 OpenAI 橋接角色，讓本地部署模型也能享受統一介面。",
+    "highlights": [
+      "支援 koboldlite、openwebui 等主流本地 UI",
+      "扮演 OpenAI API 橋接層，統一本地與雲端介面",
+      "標榜手動編碼而非框架依賴",
+      "可跨任意支援 OpenAI endpoint 的介面使用"
+    ],
+    "why_it_matters": "對於同時運行多個本地模型的技術玩家，統一 UI 介面可降低認知負擔，並減少因介面差異導致的 token 浪費。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本地部署環境中作為統一的前端層，讓不同模型共享同一套操作習慣，減少在不同 UI 間切換的學習成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-geoffrey-litt-agent",
+    "title": "Geoffrey Litt 演講：理解才能參與 Agent 協作",
+    "title_original": "Understand to participate",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything",
+    "published_at": "2026-07-02T17:07:14+00:00",
+    "category": "agent-skills",
+    "summary": "Geoffrey Litt 在 AIE 會議提出「理解才能參與」框架，強調與 AI 程式碼助理協作時需維持足夠的程式碼理解深度，否則認知債會逐漸累積，導致無法有效引導模型完成複雜任務。",
+    "highlights": [
+      "與 Agent 協作時需維持對程式碼的深度理解",
+      "認知債源於理解與實際行為的偏差",
+      "具備豐富心智模型才能流暢參與專案推進",
+      "理解深度決定了引導模型的精準度",
+      "AIE 全部 300+ 演講將在未來三週逐步公開"
+    ],
+    "why_it_matters": "這個框架幫助技術決策者重新審視 Agent 協作策略，避免盲目放大自動化範圍卻犧牲了關鍵的人機互動品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "在引入大型 Agent 重構時，先建立「可理解的最小範圍」模組化策略，確保每個變更區塊的複雜度在人類可驗證範圍內。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-02-agent-rl-for-llms-200",
+    "title": "多 Agent 協作編寫 RL for LLMs 維基百科，收錄 200+ 論文",
+    "title_original": "Agents are collaboratively writing a massive wiki on RL for LLMs (200+ papers so far) and anyone can join",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulnwop/agents_are_collaboratively_writing_a_massive_wiki/",
+    "published_at": "2026-07-02T16:59:52+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶透露一群 AI Agent 正協作編寫 RL 強化學習用於 LLMs 的大型維基，目前收錄超過 200 篇論文，並開放社群參與貢獻，但具體協作機制與品質控制方式尚不明確。",
+    "highlights": [
+      "協作主軸為強化學習應用於大語言模型",
+      "目前已收錄超過 200 篇相關論文",
+      "聲稱開放任何人參與編寫",
+      "具體使用的 Agent 架構與版本未揭露",
+      "論文分類與引用格式的品質尚待驗證"
+    ],
+    "why_it_matters": "若維基內容品質可靠，可作為 RL 領域的結構化學習資源；但來源為 Reddit 討論，準確度需自行審視。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注其 GitHub 或協作平台，驗證分類結構是否符合需求，若可用則可自動化匯出書籤或轉換為本地知識庫。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-github-enterprise-ai",
+    "title": "GitHub Enterprise成本中心現在支援AI配額上限管控",
+    "title_original": "Cost centers now support AI credit pools",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-02-cost-centers-now-support-included-usage-caps",
+    "published_at": "2026-07-02T16:00:51+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Enterprise成本中心新增AI額度使用上限功能，企業可透過REST API設定各成本中心每月可用AI配額，防止特定團隊過度消耗。",
+    "highlights": [
+      "✅ GitHub官方部落格公告，可信",
+      "📊 支援設定月度AI額度上限",
+      "🔗 已有REST API可直接管理",
+      "🏢 企業級功能，針對 Copilot Enterprise 配額",
+      "⚙️ 可細粒度控制不同團隊的用量"
+    ],
+    "why_it_matters": "Coding Agent成本失控是常見痛點，此功能讓技術主管能追蹤並管控各團隊的AI額度消耗，優化整體開發成本配置。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你是企業管理者，用REST API對接內部儀表板，設定預算上限並自動發送超額警報，防止月底帳單爆表。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-02-alez007-modelship-openai",
     "title": "alez007/modelship：自託管 OpenAI 相容推論閘道",
     "title_original": "alez007/modelship",
