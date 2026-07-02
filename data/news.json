@@ -1,5 +1,89 @@
 [
   {
+    "id": "2026-07-02-alez007-modelship-openai",
+    "title": "alez007/modelship：自託管 OpenAI 相容推論閘道",
+    "title_original": "alez007/modelship",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/alez007/modelship",
+    "published_at": "2026-07-02T13:18:59Z",
+    "category": "open-source-ai",
+    "summary": "modelship 是一款自託管推論服務，宣稱支援 OpenAI API 相容介面、推論 LLM、通用工具呼叫、Responses API，以及嵌入、語音、圖像模型，基於 Ray Serve 構建。現僅 36 stars，為早期專案。",
+    "highlights": [
+      "OpenAI API 相容介面，降低遷移成本",
+      "支援推論 LLM 與通用工具呼叫",
+      "整合 Responses API 標準",
+      "可同時託管多種模型共享 GPU 資源",
+      "基於 Ray Serve，有水平擴展潛力"
+    ],
+    "why_it_matters": "自託管 OpenAI 相容閘道可讓技術團隊在本地運行模型同時保持與現有工具鏈相容，但專案成熟度需實際測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本地机器上用 Docker 部署，測試其對現有 OpenAI SDK 程式碼的相容程度，評估是否值得取代商業 API。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/459478?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-investingpro",
+    "title": "InvestingPro 年終六折優惠（已識別為行銷內容，降權處理）",
+    "title_original": "InvestingPro年度最低價：限時享受六折優惠 提供者 Investing.com - 英為财情 Investing.com",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15d2ZQdHBxbXNDeTN5YjZDZVlxZ1A1WWQzNkF1cmRxZjlZalRJRTZGdWE1Wnc3ZGVnX1BUel9hQ1hLX25ieVhjcEZOMzkya092Z1hyWDNGS2ZUT1BKYzkzbkQ4Vl9oTVJsTHZhZ2hVbw?oc=5",
+    "published_at": "2026-07-02T12:43:00+00:00",
+    "category": "ai-deals",
+    "summary": "Investing.com 旗下的 InvestingPro 推出年終六折優惠促銷。此資訊屬金融工具行銷優惠，與 AI 技術本身關聯度低。編輯判断此條不適合列入技術向 AI 晨報，建議讀者忽略或自行評估是否需要金融分析工具。",
+    "highlights": [
+      "為 Investing.com 金融數據平台的付費訂閱優惠",
+      "六折優惠為限時行銷活動，非 AI 工具類別",
+      "與模型、API、開源專案等核心 AI 技術無直接關聯",
+      "編輯評分偏低（50.19），來源為 Google News 行銷內容"
+    ],
+    "why_it_matters": "此優惠屬金融工具促銷，非技術向 AI 晨報核心讀者感興趣的內容。金融工具與 AI 開發工作流程自動化關聯有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "若讀者從事金融數據分析，可評估是否需要此工具辅助資料處理；對多數 AI 開發者參考價值較低。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-llm-npc-npc-npc",
+    "title": "開源專案：本地 LLM NPC 後端，聚焦 NPC 對 NPC 對話",
+    "title_original": "I built a local LLM NPC backend focused on NPC-to-NPC conversations",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulg0tv/i_built_a_local_llm_npc_backend_focused_on/",
+    "published_at": "2026-07-02T11:49:39+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者在 Reddit 分享自製的本地 LLM NPC 後端系統，核心特色是支援 NPC 對 NPC 的自主對話，而非傳統的 NPC 對玩家互動。該專案可運行於本地 LLM，遊戲開發者可用來打造更動態的遊戲世界，降低對雲端 API 的依賴。",
+    "highlights": [
+      "聚焦 NPC 之間的自主對話生成，非玩家-NPC 互動",
+      "完全本地端運行，保護遊戲邏輯隱私",
+      "可整合至現有遊戲引擎作為對話系統後端",
+      "減少對商業 API 的依賴，降低長期營運成本",
+      "開源可自行部署測試，適合獨立遊戲開發者"
+    ],
+    "why_it_matters": "遊戲開發者現在有低成本方案實現智慧 NPC 互動，不必付費呼叫雲端 API。本地運行也避免網路延遲和隱私問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "獨立遊戲開發者可整合此後端，自動化生成 NPC 對話劇情，大幅減少人工撰寫對話內容的時間成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-02-neo4j-gds-agent-mcp-server-agent",
     "title": "Neo4j GDS Agent MCP Server：圖資料科學工具接入 Agent 生態",
     "title_original": "neo4j-contrib/gds-agent",
@@ -55,6 +139,34 @@
       "HTML"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/239464848?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-simplellmchat-1-2-5-windows-xp-agentic-ai",
+    "title": "SimpleLLMChat 1.2.5 更新：Windows XP 上跑 Agentic AI",
+    "title_original": "Another Update to Agentic AI on Windows XP (SimpleLLMChat 1.2.5)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulbsa2/another_update_to_agentic_ai_on_windows_xp/",
+    "published_at": "2026-07-02T07:54:01+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶發布 SimpleLLMChat 1.2.5 更新，讓老舊 Windows XP 系統也能執行 Agentic AI 功能。此版本強化了本地端 LLM 的代理能力，支援自動化任務流程，對想要在資源受限環境測試 AI 代理的技術玩家是個低成本實驗方案。",
+    "highlights": [
+      "支援 Windows XP 作業系統，突破傳統 LLM 對硬體要求限制",
+      "強化 Agentic AI 能力，支援多步驟自動化任務",
+      "完全本地端運行，無需雲端 API 費用",
+      "1.2.5 版本為增量更新，修復若干稳定性問題",
+      "適合拿來做邊緣設備或懷舊硬體上的 AI 原型實驗"
+    ],
+    "why_it_matters": "對於需要在老舊設備或隔離網路環境測試 LLM 代理的開發者，這是個零成本門檻的實驗方案。可用來驗證 Agentic Workflow 在低端硬體的可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術玩家可在閒置的舊 PC 或虛擬機上部署此工具，測試本地 AI 代理能否勝任自動化的重複性任務，如檔案整理、文字處理等。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -359,6 +471,34 @@
       "open-source-ai",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-2026-ai-chatgpt-claude-gemini-grok",
+    "title": "2026 年主流 AI 模型選型指南：ChatGPT、Claude、Gemini、Grok",
+    "title_original": "我应該使用哪种人工智慧模型？2026 年 ChatGPT、Claude、Gemini 和 Grok 指南 - Brave New Coin",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMilANBVV95cUxQeXpPVkdtampkUHpCMUFLX3ptSURNR0dHeW44N1M1MDlPU2xDeXRRMkpHdEc4aDJ6Y0xydEFtWF9YRmdtUmRURnRqTXh0aHRyNW9jNnBsRzk2Ri04ZlRYblRWSmZ3ZFVkT3dId2VKdGJyZk9PYUk0VXhkY2swR2s3blhrMHJoZDAwSnVIT0NydWNhN25LNXZReWUxVFJOeHhYOUIzc3RhTG9JZVFfRDlVeEpZamE3Y2c5Z2JYek9nS2hrY0MtbVdmNnFqRUtRenBTWkFibHhVVE1TQm0xamdDdVlYZjcxcEFxR1VTbXdXc25iUFFIRF9xdk5MTGtBVlQ5dnhVa2lsSGYyMWpUa0lwekoxLVJ3LTVyanJqa3ktLTlhd1BGcFJWUXVpaXNibm9FWW1rU09JU01Gbm15aEZNZl9qb1VFeldnUnEyRWdlYlJmTWZXYmVvLUd1RWxKVmpmV1BMR3U5OXhaVmJsQzBpVlJhLTFsXzFaN0c4dzJHTldjbVowSWh4NEdFV2xWZ0tWNVJIOQ?oc=5",
+    "published_at": "2026-07-01T21:02:00+00:00",
+    "category": "ai-deals",
+    "summary": "第三方指南比較 2026 年主流 AI 模型能力、場景適用性與成本結構，涵蓋 GPT、Claude、Gemini、Grok 四大家，適合技術選型時的宏觀參考，但非官方來源。",
+    "highlights": [
+      "覆蓋四大主流模型的能力對比",
+      "提供場景適用性建議",
+      "包含定價結構宏觀比較",
+      "第三方非官方來源，需交叉驗證",
+      "可作為技術選型的起點參考"
+    ],
+    "why_it_matters": "模型生態快速變化，定期比較有助避免路徑依賴，但指南非官方文件，具體數據應以官網為準。",
+    "automation_angle": null,
+    "automation_angle_zh": "將指南與實際業務需求對照，用官網最新定價計算 ROI，決定是否切换或同時使用多模型以優化成本。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -11263,6 +11403,34 @@
     "automation_angle_zh": "開發者應建立訂閱 Anthropic 官方公告的機制，並在政策明確後重新評估 Claude Agent SDK 在自動化工作流程中的成本效益。",
     "tags": [
       "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-anthropic-claude-agent-sdk",
+    "title": "Anthropic 暫緩 Claude Agent SDK 計費改革",
+    "title_original": "Anthropic Pauses Claude Agent SDK Billing Overhaul - Let's Data Science",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX1o0VWJoMzVlQ3dlYzc3SnpSc0RtUmZjNkp6M2QwdXhFQm5fcVQzZXFhZzFMRlVQZTc5Ty1jSkNvVnlwVXlxZDFRNlhiZnNuY2hSOVc3MnMyRUtvbE41QlhCTVBQNnJ6Q1M5UUdFbzFvclh4NXhyYUV1QjgzRzNBVXg1eXg2eHZrODd6Q3NJZWtrRlRkcGkw?oc=5",
+    "published_at": "2026-06-18T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic 宣布暫停 Claude Agent SDK 的計費方案變更，具體原因與新版計費結構尚未公開說明。此事件可能影響已基於舊計費開發的 Agent 應用成本模型。",
+    "highlights": [
+      "Anthropic 暫停 Claude Agent SDK 計費變更",
+      "具體調整內容尚未官方完整揭露",
+      "可能影響已上線的 Agent 應用成本結構",
+      "建議等待官方正式公告再做重大架構調整",
+      "第三方分析來源，可信度中等"
+    ],
+    "why_it_matters": "計費模式直接影響 Agent 應用的營運成本，政策不確定性可能迫使開發者暫緩大规模部署決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤 Anthropic 官方公告，重新評估基於 Claude Agent SDK 專案的成本模型，待政策明朗後再做優化。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
