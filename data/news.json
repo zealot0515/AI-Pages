@@ -1,5 +1,199 @@
 [
   {
+    "id": "2026-07-02-neo4j-gds-agent-mcp-server-agent",
+    "title": "Neo4j GDS Agent MCP Server：圖資料科學工具接入 Agent 生態",
+    "title_original": "neo4j-contrib/gds-agent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/neo4j-contrib/gds-agent",
+    "published_at": "2026-07-02T08:32:40Z",
+    "category": "agent-skills",
+    "summary": "Neo4j 官方社群發布的 MCP Server，將 Graph Data Science 庫的工具封裝為 Agent 可呼叫的工具集。支援圖論分析、社群偵測、路由最佳化等操作，為需要圖結構資料處理的 Agent 場景提供標準化接入方式。",
+    "highlights": [
+      "將 Neo4j GDS 圖論演算法封裝為 MCP 工具",
+      "支援社群偵測、路徑規劃等圖分析常見場景",
+      "Agent 可透過 MCP 協定直接呼叫，無需手動操作圖資料庫",
+      "Python 實作，GitHub 星數 86，社群關注度穩定",
+      "可用於知識圖譜建構、推薦系統或網路分析等任務"
+    ],
+    "why_it_matters": "圖資料處理在推薦系統、風險分析與知識圖譜等場景中至關重要。此 MCP Server 讓 Agent 能原生呼叫圖分析能力，擴展了工作流程自動化的邊界。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此 MCP Server 對接支援 Model Context Protocol 的 Agent（如 Cursor 或 Claude Desktop），測試圖結構資料的自動化分析與視覺化流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/916372?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-corpusiq-docs-1200-ai-agent",
+    "title": "Corpusiq Docs：1200 小時實戰沉澱的 AI Agent 生產知識庫",
+    "title_original": "CorpusIQ/corpusiq-docs",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/CorpusIQ/corpusiq-docs",
+    "published_at": "2026-07-02T08:25:08Z",
+    "category": "agent-skills",
+    "summary": "Corpusiq Docs 是一個收錄 406 個以上 Repo 的生產級 AI Agent 知識庫，含 MCP Servers 列表與自主 Agent 模式範例。強調基於 1200 小時以上實際運維經驗沉澱，每日更新，是技術用戶快速了解業界實作現況的濃縮資料庫。",
+    "highlights": [
+      "收錄 406+ 個 AI Agent 相關 Repo 資訊",
+      "含 AI Agent 市集與 MCP Servers 目錄",
+      "基於 1200+ 小時實際運維經驗編寫",
+      "每日更新，保持資訊時效性",
+      "涵蓋自主 Agent 模式的生產級範例"
+    ],
+    "why_it_matters": "在 AI Agent 生態快速演進之際，一個由實戰經驗驅動的知識庫能大幅節省技術用戶的調研時間，尤其適合需要快速評估工具鏈或建構生產流水線的開發者。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此知識庫作為工具調研的起點，依據其分類快速鎖定符合需求的 MCP Server 或 Agent 模式原型，加速原型驗證。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "HTML"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/239464848?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-palantir-ceo",
+    "title": "Palantir CEO 公開抨擊封閉模型路線",
+    "title_original": "Palantir CEO rages against closed models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulb4nx/palantir_ceo_rages_against_closed_models/",
+    "published_at": "2026-07-02T07:15:05+00:00",
+    "category": "hot-topics",
+    "summary": "Palantir 執行長公開表態反對封閉模型策略，批評主流 AI 企業採用黑箱商業模式。此言論在 LocalLLaMA 社群引發熱議，部分開發者視其為替開源生態發聲，亦有人認為僅是商業競爭話術。目前缺乏官方新聞稿或正式聲明，消息來源為 Reddit 討論串，尚未獲主流媒體證實。",
+    "highlights": [
+      "Palantir CEO 在公開場合表態反對封閉模型",
+      "言論僅見於 Reddit 討論，無官方新聞稿",
+      "引發 LocalLLaMA 社群對開源與封閉模型路線的辯論",
+      "可能涉及 Palantir 自身商業利益的戰略表態"
+    ],
+    "why_it_matters": "高層言論往往預示產業走向，若封閉模型策略受到龍頭企業批評，可能影響未來 AI 產業政策和投資方向，對開源社群士氣有象徵性意義。",
+    "automation_angle": null,
+    "automation_angle_zh": "此類高層言論暫無直接自動化價值，但可作為觀察 AI 產業政策風向的指標，長期追蹤可能有助於預判監管走向。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-sota-sensenova-u1-8b-mot",
+    "title": "開源 SOTA 模型 SenseNova-U1-8b-MoT 發布，主攻資訊圖設計與圖片編輯",
+    "title_original": "SenseNova-U1-8b-MoT-Infographic-V2 (released yesterday) - An open source SOTA beast for infographic design and image editing.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ul7za1/sensenovau18bmotinfographicv2_released_yesterday/",
+    "published_at": "2026-07-02T04:22:38+00:00",
+    "category": "open-source-ai",
+    "summary": "SenseNova-U1-8b-MoT-Infographic-V2 正式發布，號稱開源最強資訊圖設計與圖片編輯模型。採用 Mixture of Transformers 架構，專為視覺內容創作優化。模型體積適中，預期可在消費級 GPU 上運行，為創意工作者提供本地化替代方案。",
+    "highlights": [
+      "SenseNova-U1-8b-MoT-Infographic-V2 為開源模型",
+      "專精於資訊圖設計與圖片編輯任務",
+      "採用 MoT（Mixture of Transformers）架構",
+      "8B 參數規模，適合消費級硬體部署"
+    ],
+    "why_it_matters": "開源視覺生成模型的選擇向來不多，此模型填補了資訊圖自動生成領域的空白。對有批量視覺內容需求的技術團隊，可評估是否能替代付費 API。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝測試，用於自動化批量生成行銷素材、報告圖表、產品資訊圖，評估輸出的可用性與付費工具的差異，計算成本節省潛力。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-kimi-k2-7-code-q3-mac-studio-m3-ultra-rtx-pro-6000-llama-cpp-rpc",
+    "title": "Kimi K2.7 Code Q3 在 Mac Studio M3 Ultra + RTX PRO 6000 上的 llama.cpp RPC 效能實測",
+    "title_original": "[Benchmark] Kimi K2.7 Code Q3 on Mac Studio M3 Ultra + RTX PRO 6000 over llama.cpp RPC: prefill improves, no changes in token generation/decode",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ul7qb6/benchmark_kimi_k27_code_q3_on_mac_studio_m3_ultra/",
+    "published_at": "2026-07-02T04:09:57+00:00",
+    "category": "new-models",
+    "summary": "有開發者實際測試 Moonshot 的 Kimi K2.7 Code Q3 模型在蘋果 M3 Ultra 與 NVIDIA RTX PRO 6000 組合下的表現。使用 llama.cpp RPC 框架，結果顯示 prefill 階段有明顯改善，但 token 生成速度（decode）未見變化。此測試提供在消費級高效能硬體上部署的新參考數據。",
+    "highlights": [
+      "Kimi K2.7 Code Q3 模型在 M3 Ultra + RTX PRO 6000 上進行實測",
+      "Prefill 階段速度提升，decode 階段無顯著變化",
+      "使用 llama.cpp RPC 作為推論框架",
+      "提供蘋果晶片與 NVIDIA 專業卡的混合部署參考"
+    ],
+    "why_it_matters": "對於想在本地高效能硬體上部署中國模型的開發者，此測試提供實用的效能基準。可幫助評估硬體組合是否值得投入，避免盲目採購。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據此 benchmark 評估自身硬體配置，選擇性部署 Kimi K2.7 Code Q3 進行本地程式碼生成自動化，測試 prefilling 速度提升對實際工作流程的影響。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-llm",
+    "title": "研究揭示利用熵值提升 LLM 創意寫作能力的新方法",
+    "title_original": "Making LLMs Better at Creative Writing using Entropy",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ul6enz/making_llms_better_at_creative_writing_using/",
+    "published_at": "2026-07-02T03:06:06+00:00",
+    "category": "new-models",
+    "summary": "學術研究提出透過控制輸出機率的熵值分布，改善大型語言模型在創意寫作任務上的表現。方法涉及在生成過程中動態調整溫度與采樣策略，促使模型在保持一致性的同時增加創意多樣性。實驗結果顯示此方法對多種類型創意寫作均有正向效果。",
+    "highlights": [
+      "研究聚焦於如何用熵值控制提升創意寫作",
+      "動態調整溫度與采樣策略而非固定參數",
+      "在創意一致性與多樣性間取得平衡",
+      "方法具通用性，理論上可套用於現有模型"
+    ],
+    "why_it_matters": "創意寫作是 AI 應用熱門場景，若能透過簡單的推論時調整而非重新訓練即可提升創意表現，對內容自動化團隊有直接價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將熵值控制邏輯整合進現有 pipeline，針對創意文案、故事生成、遊戲對話等任務進行 A/B 測試，量化此方法對輸出品質與多樣性的實際影響。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-sota-ornith-35b-mtp",
+    "title": "本地 SoTA 程式碼模型 Ornith 35B 新增 MTP 模組實驗",
+    "title_original": "I added MTP to local SoTA Agentic Coding Model Ornith 35B FP8 E4M3",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ul3rr2/i_added_mtp_to_local_sota_agentic_coding_model/",
+    "published_at": "2026-07-02T01:03:05+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享了在本地 SoTA 等級的程式碼 Agent 模型 Ornith 35B（FP8 E4M3）上新增 MTP（Multi-Token Prediction）模組的實驗。屬於技術實作分享，模型與實驗結果均非官方發布，具體效能提升數據有待驗證。",
+    "highlights": [
+      "Ornith 35B 是一款本地部署的程式碼專用 Agent 模型",
+      "實驗新增 MTP 模組，理論上可提升多步推論效率",
+      "使用 FP8 E4M3 量化，在本地硬體上兼顧速度與品質",
+      "屬於 Reddit 技術討論，無官方效能Benchmark",
+      "可作為本地程式碼 Agent 模型改進思路的參考"
+    ],
+    "why_it_matters": "本地程式碼模型的能力進化直接影響邊緣部署與離線開發場景的體驗。此實驗揭示了 MTP 模組在程式碼任務上的潛力，值得技術用戶關注其後續社群驗證結果。",
+    "automation_angle": null,
+    "automation_angle_zh": "有條件的技術用戶可下載 Ornith 35B 模型，參考此實驗方法加入 MTP 模組，在程式碼補全或重構任務上進行 A/B 測試，驗證是否獲得實際收益。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-02-cqs-ai-agent-rag",
     "title": "cqs：為 AI Agent 打造的程式碼智慧搜尋與 RAG 工具鏈",
     "title_original": "jamie8johnson/cqs",
