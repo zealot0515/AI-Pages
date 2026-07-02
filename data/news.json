@@ -1,5 +1,366 @@
 [
   {
+    "id": "2026-07-02-cqs-ai-agent-rag",
+    "title": "cqs：為 AI Agent 打造的程式碼智慧搜尋與 RAG 工具鏈",
+    "title_original": "jamie8johnson/cqs",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jamie8johnson/cqs",
+    "published_at": "2026-07-02T00:29:07Z",
+    "category": "open-source-ai",
+    "summary": "cqs 專注解決 AI Agent 的程式碼理解問題，提供語意搜尋、呼叫圖分析、影響範圍分析與單一工具呼叫內的上下文封裝能力。支援 54 種語言（含工業自動化 L5X/L5K PLC），在 v3.v2 雙裁判評測中達到 R@5 70.7%、R@1 47.2%、R@20 86.7%，Daemon 模式延遲僅 3-19ms，Rust + MCP 實作，本地加速。",
+    "highlights": [
+      "支援呼叫圖與影響範圍分析，對大型程式庫重構極有價值",
+      "覆蓋 54 種語言，並包含工業自動化 PLC 格式",
+      "RAG 指標表現穩健，Daemon 模式延遲極低（3-19ms）",
+      "Rust + MCP 原生整合，適合高效能自動化場景",
+      "11 stars 顯示社群關注尚低，但技術指標亮眼，值得先行測試"
+    ],
+    "why_it_matters": "AI Agent 在處理大型陌生程式碼庫時常陷入語境迷失，cqs 以呼叫圖+語意搜尋的組合拳直接提升 Agent 的程式碼理解深度，是提升程式碼生成與重構自動化品質的底層基礎設施。",
+    "automation_angle": null,
+    "automation_angle_zh": "選一個具挑戰性的陌生程式碼庫，以 cqs 提供的 MCP 界面作為 Agent 的上下文注入源，測量相比無 RAG 干預時的程式碼生成準確率與任務完成時間。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/85816907?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-toolport-mcp",
+    "title": "toolport：統一管理所有 MCP 伺服器的本地閘道工具",
+    "title_original": "tsouth89/toolport",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tsouth89/toolport",
+    "published_at": "2026-07-02T00:27:40Z",
+    "category": "agent-skills",
+    "summary": "toolport 用 Rust 實作一個本地閘道，一次設定即可讓所有 AI 用戶端（Claude、Cursor、VS Code、Codex）共享同一套 MCP 伺服器集合。採用 lazy discovery 機制將多個工具集壓縮為 3 個 meta-tools，宣稱可節省約 90% token，相關金鑰存於 OS 原生 Keychain，無雲端上傳。",
+    "highlights": [
+      "Rust 實作，效能與記憶體佔用表現預期優於 Node.js",
+      "一次設定，多個 AI 用戶端共享，大幅降低維護成本",
+      "lazy discovery + meta-tools 設計可顯著降低 token 消耗",
+      "金鑰存 OS Keychain，不需另外管理秘密儲存",
+      "stars 50，屬於早期專案但方向明確，值得關注"
+    ],
+    "why_it_matters": "隨著 MCP 生態系擴張，工程師常需為每個 AI 工具重複配置同一套 MCP 伺服器，toolport 若能真正實現跨用戶端統一管理，將是提升日常 AI 工作流程效率的實用利器。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地機器部署 toolport，將現有的 MCP 伺服器統一接入，測量與直接個別呼叫相比的 token 節省比例與延遲差異，評估是否值得將其納入標準開發環境。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/258147599?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-projectmem-ai-agent-mcp",
+    "title": "projectmem：AI 程式碼 Agent 的本地記憶層，MCP 協定實作",
+    "title_original": "riponcm/projectmem",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/riponcm/projectmem",
+    "published_at": "2026-07-02T00:27:12Z",
+    "category": "open-source-ai",
+    "summary": "projectmem 為本地優先的 AI 程式設計記憶層，專門記錄 Issue、嘗試過程、跨專案決策與函式庫坑點，讓 AI 每次接手專案時都能從「有經驗的狀態」開始，而非每次重新摸索。已驗證支援 Claude Desktop、Cursor、Antigravity 與 Codex，MIT 授權，零遙測。",
+    "highlights": [
+      "原生 MCP 伺服器，跨多主流 AI IDE 驗證可用",
+      "100% 本地儲存，無雲端依賴，符合企業資安要求",
+      "記錄跨專案的函式庫踩坑經驗，減少重複犯錯",
+      "Python 實作，115 stars，社群關注度穩健",
+      "理論上可與 projectmem 整合，打造具備專案上下文記憶的自動化 CI 流程"
+    ],
+    "why_it_matters": "AI 程式設計工具常見的「失憶」問題在於缺乏跨session的結構化記憶，projectmem 直接對症下藥，若實際效果如宣告，可將 AI 程式碼生成的起點從零提升到具備歷史脈絡的狀態。",
+    "automation_angle": null,
+    "automation_angle_zh": "在個人或團隊的 Cursor/Claude 專案上啟用 projectmem，觀察重啟對話後 AI 是否真的能記住之前的失敗嘗試與決策，並量化對開發效率的實質影響。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/86886711?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-github-copilot",
+    "title": "GitHub Copilot 企業版支援預設自動模型選擇",
+    "title_original": "Enterprises can default to auto model selection",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-01-enterprises-can-default-to-auto-model-selection",
+    "published_at": "2026-07-01T22:27:16+00:00",
+    "category": "agent-skills",
+    "summary": "企業管理員現在可以透過 managed-settings.json 將 Copilot 的自動模型選擇設為新對話預設值。這讓組織能確保成員默認使用智慧模型路由，無需手動干預。只需在 .github-private/.github/copilot/ 目錄下配置，即可在整個組織層級生效。",
+    "highlights": [
+      "在 managed-settings.json 中設定 model 為 auto",
+      "新對話自動套用自動模型選擇機制",
+      "適用於 GitHub Enterprise Cloud 組織",
+      "可與其他企業治理設定一起集中管理"
+    ],
+    "why_it_matters": "對於大型開發團隊，預設自動模型選擇可簡化成員工作流程程，避免成員因不熟悉模型特性而選錯，提升整體程式碼生成效率與品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業 IT 管理員可在 CI/CD 流程中自動部署企業級 Copilot 設定，確保新成員加入時即獲得統一配置。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-02-senior-swe-bench",
+    "title": "Senior SWE Bench：聚焦現實不定義需求的程式碼基準測試",
+    "title_original": "Senior SWE Bench: a new benchmark focussed on realistically underspecified feature tasks",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukzavr/senior_swe_bench_a_new_benchmark_focussed_on/",
+    "published_at": "2026-07-01T21:52:55+00:00",
+    "category": "open-source-ai",
+    "summary": "研究者發布Senior SWE Bench，這是一個新型軟體工程基準測試，專注於現實中常見的「未完整定義需求」場景。不同於傳統benchmark假設清晰的規格，Senior SWE Bench要求模型處理模糊需求理解與推斷，更貼近實際軟體開發中工程師面對的挑戰。",
+    "highlights": [
+      "模擬現實中需求不完整的程式碼任務",
+      "考驗模型理解模糊需求並主動推斷的能力",
+      "更接近真實軟體工程師工作場景",
+      "可用於評估新一代程式碼模型的代理能力",
+      "填補現有coding benchmark與實際工作差距"
+    ],
+    "why_it_matters": "此benchmark揭示模型從「執行指令」到「理解意圖」的能力鴻溝。若模型能在此表現優異，代表其具備更強的自動化軟體開發潛力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載Senior SWE Bench測試集，用自己部署的本地模型跑一遍，對比各模型在模糊需求場景下的完成率，作為選型參考。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-item",
+    "title": "技術用戶分享選擇本地模型的五大理由",
+    "title_original": "My reasons to run local models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukz0t9/my_reasons_to_run_local_models/",
+    "published_at": "2026-07-01T21:41:51+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit用戶系統性整理了選擇本地運行大語言模型的理由，涵蓋資料隱私、成本控制、延遲最佳化、客製化自由度及離線可用性五大面向。隨著開源模型（如Llama、Qwen系列）在消費級GPU上的效率提升，本地部署門檻顯著下降。此類討論反映技術社群對AI自主可控的持續關注。",
+    "highlights": [
+      "資料不上傳雲端，保障敏感資訊隱私與合規需求",
+      "一次性硬體投資，長期相比API訂閱成本更低",
+      "網路延遲消除，適合對回應速度敏感的應用場景",
+      "可自由微調、量化或修改模型權重",
+      "離線環境可用，擺脫網路依賴"
+    ],
+    "why_it_matters": "對於處理機敏資料或追求成本優化的技術團隊，本地模型提供明確的替代路徑。隨著量化技術成熟，中小企業也能承擔部署成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據本文整理的維度，建立自己的本地模型評估矩陣，針對延遲（lm-evaluation-harness）、隱私（資料隔離測試）、成本（硬體攤提計算）進行量化比較。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-github-copilot-managed-settings-json",
+    "title": "GitHub Copilot 企業 managed-settings.json 正式發布",
+    "title_original": "Enterprise managed-settings.json is generally available",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-01-enterprise-managed-settings-json-is-generally-available",
+    "published_at": "2026-07-01T20:57:26+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Enterprise Cloud 客戶現在可透過 .github-private 儲存庫中的 managed-settings.json 集中定義 AI 治理標準，包括模型選擇、政策合規與使用限制。此功能將原本分散的企業設定整合至單一檔案管理，簡化大型組織的 AI 政策部署。",
+    "highlights": [
+      "設定檔存放於 .github-private 儲存庫",
+      "可定義模型選擇、政策合規與使用限制",
+      "集中化管理，提升 IT 管理效率",
+      "支援在組織層級統一部署 AI 標準"
+    ],
+    "why_it_matters": "隨著 AI 工具在企業普及，集中化治理成為剛需。此功能讓 IT 團隊能在不影響開發者日常工作的前提下，確保 AI 使用符合企業安全與合規要求。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 managed-settings.json 纳入基礎設施即代碼（IaC）流程，實現企業 AI 政策的版本控制與自動化部署演練。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-02-llm",
+    "title": "LLM商業服務失敗個案：工程師分享從營運到關站的反思",
+    "title_original": "End of an Agony. Real production service that uses LLM to earn money my team had made and now we are so happy that it will die. Here are some of my final \"experiences\".",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukx9p1/end_of_an_agony_real_production_service_that_uses/",
+    "published_at": "2026-07-01T20:35:22+00:00",
+    "category": "hot-topics",
+    "summary": "一位開發者分享其團隊運營LLM商業服務並最終決定關站的完整經驗。文中揭示LLM應用落地的現實挑戰：成本控制困難、客戶期望管理、維運複雜度等。該個案被社群視為AI創業「黑暗面」的誠實反思。",
+    "highlights": [
+      "LLM服務毛利難以覆蓋推論成本是常見痛點",
+      "客戶對AI能力期望往往高於實際表現",
+      "小規模團隊維運LLM系統的複雜度被低估",
+      "市場驗證與定價策略失誤導致商業模式不可持續",
+      "作者提出多條LLM產品設計的反面教材"
+    ],
+    "why_it_matters": "此個案提醒技術創業者：LLM應用不僅是技術問題，更是商業可行性問題。成本結構與客戶期望管理需在產品設計階段充分考量。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶在評估LLM應用商業化時，可參照此文清單逐一檢查：毛利率模型、客戶支援成本、系統可用性目標，避免重蹈覆轍。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-copilot-cli-c",
+    "title": "Copilot CLI 新增 C++ 語言伺服器配置技能",
+    "title_original": "New C++ language server config skill for Copilot CLI",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-01-new-c-language-server-config-skill-for-copilot-cli",
+    "published_at": "2026-07-01T20:32:52+00:00",
+    "category": "agent-skills",
+    "summary": "Microsoft C++ Language Server 已登陸 Copilot Plugins 市集，並提供內建安裝技能，可自動化 C++ 專案環境設定。開發者現在可用 Copilot CLI 快速配置編譯器、路徑與 IntelliSense，大幅減少手動除錯開發環境的時間。",
+    "highlights": [
+      "Microsoft C++ Language Server 作為插件提供",
+      "內建一鍵設定技能，自動化專案初始化",
+      "自動配置編譯器路徑與 IntelliSense",
+      "減少 C++ 開發者環境設定的繁瑣流程"
+    ],
+    "why_it_matters": "C++ 專案環境配置複雜，此技能將傳統需要數十分鐘的手動設定縮短至幾分鐘，讓開發者更快進入實際编码工作，尤其適合需要快速搭建多個實驗環境的研究人員。",
+    "automation_angle": null,
+    "automation_angle_zh": "在建立新 C++ 專案時，執行 copilot skill apply cpp-language-server 自動完成編譯器驗證與 IntelliSense 配置，並整合至既有 Makefile 或 CMake 流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-02-glm-zcode",
+    "title": "智譜GLM團隊發布ZCode：新型代理式程式碼編輯器",
+    "title_original": "ZCode: New Agentic Code Editor from the Makers of GLM",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukww17/zcode_new_agentic_code_editor_from_the_makers_of/",
+    "published_at": "2026-07-01T20:21:18+00:00",
+    "category": "agent-skills",
+    "summary": "智譜AI（GLM團隊）發布ZCode，這是一款新型代理式程式碼編輯器，專為AI輔助開發設計。該工具整合了大型語言模型的程式碼生成與理解能力，旨在提升開發者編碼效率。作為國產模型的延伸產品，ZCode瞄準AI輔助開發的細分市場，提供本地化部署選項。消息來源為Reddit社群討論，具體功能細節仍待官網確認。",
+    "highlights": [
+      "由智譜GLM團隊開發，定位為代理式（agentic）程式碼編輯器",
+      "強調AI輔助程式碼生成與理解整合能力",
+      "提供本地化部署可能，減少對雲端API依賴",
+      "瞄準開發者工作流程優化細分市場",
+      "詳細功能規格尚未由官方完整揭露"
+    ],
+    "why_it_matters": "對技術用戶而言，ZCode可能提供替代Copilot的本地選項，降低訂閱成本並提升資料隱私。若代理能力成熟，可實現更自動化的工作流程程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可關注其GitHub或官網發布，待正式版後在本地環境測試其代理程式碼完成率，評估是否能自動化重構、測試生成等任務。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-llm",
+    "title": "研究揭示多模態 LLM 閱讀行事曆截圖能力差距",
+    "title_original": "Open benchmark: how well can multimodal LLMs read a calendar week-view from a screenshot? Humans ~99%, Q4 local models.....",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukuph9/open_benchmark_how_well_can_multimodal_llms_read/",
+    "published_at": "2026-07-01T19:01:20+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶發起開放基準測試，評估多模態 LLM 能否從截圖中準確讀取週檢視行事曆。人類表現約達 99%，但多數本地模型表現明顯落後。此測試提供客觀數據，幫助開發者了解各模型在視覺理解細節任務上的實際能力。",
+    "highlights": [
+      "測試任務：從截圖讀取週檢視行事曆資訊",
+      "人類基準約 99% 準確率",
+      "本地運行模型普遍落後人類基準",
+      "為多模態能力評估提供可複製方法"
+    ],
+    "why_it_matters": "此基準測試揭示多模態模型在「看懂」日常視覺資訊上的真實差距，對需要處理 UI 截圖、文件掃描等任務的開發者而言，是選擇模型時的重要參考依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用類似方法自建領域特定的視覺理解基準，評估手上模型在實際自動化流程中的可用性，避免依賴官方宣稱能力。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-kimi-k2-7-code-github-copilot",
+    "title": "Kimi K2.7 Code 開源權重模型登陸 GitHub Copilot",
+    "title_original": "Kimi K2.7 Code is generally available in GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+    "published_at": "2026-07-01T19:00:21+00:00",
+    "category": "open-source-ai",
+    "summary": "Kimi K2.7 Code 是首個作為可選模型進入 Copilot 模型選擇器的開源權重模型。此模型現已全面開放，讓開發者能在 Copilot 中直接使用這個具有較強程式碼能力的開源模型，不再受限於封閉模型選項。",
+    "highlights": [
+      "Kimi K2.7 Code 為開源權重模型",
+      "首個進入 Copilot 模型選擇器的開源模型",
+      "提供一般可用（GA）等級支援",
+      "開發者可直接在 Copilot UI 中切換使用"
+    ],
+    "why_it_matters": "開源模型進入 Copilot 生態標誌著開發者有更多元的模型選擇，可根據任務需求在封閉源與開源模型間靈活切換，預期將影響未來 AI 程式碼輔助工具的定價與競爭格局。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在同一介面比較 Kimi K2.7 Code 與其他模型在特定程式碼庫上的表現，評估性價比以決定是否遷移或混合使用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-02-github-copilot-vision",
+    "title": "GitHub Copilot Vision 全面開放，整合視覺理解能力",
+    "title_original": "Copilot vision is generally available",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available",
+    "published_at": "2026-07-01T18:39:17+00:00",
+    "category": "agent-skills",
+    "summary": "Copilot Vision 現在正式向所有用戶開放，使用者可直接在對話中附加圖片與 PDF，Copilot 就能結合視覺資訊進行推論。這項能力讓 AI 不只能處理文字，還能「看懂」截圖、UI 設計稿與文件內容，開啟新的自動化可能性。",
+    "highlights": [
+      "支援直接附加圖片與 PDF 至對話",
+      "Copilot 可視覺推論，理解 UI 截圖",
+      "支援常見文件格式",
+      "正式版本，已脫離預覽階段"
+    ],
+    "why_it_matters": "視覺理解能力補足 Copilot 最後一塊拼圖，開發者現在可讓 AI 分析錯誤截圖、理解設計稿、甚至從文件中提取需求，大幅擴展自動化工作流程的邊界。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用 Vision API 建構自動化截圖審查流程：讓 Copilot 自動分析 UI 測試截圖並生成問題描述，或從設計稿直接提取實作需求。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-01-github-copilot-cli-credit",
     "title": "GitHub Copilot CLI 新增工作階段 credit 限制功能",
     "title_original": "Set AI credit session limits in Copilot CLI and SDK",
@@ -49805,6 +50166,34 @@
       "agent-skills",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-02-claude-ai",
+    "title": "Claude服務中斷引發全球AI基礎設施穩定性討論",
+    "title_original": "Claude崩了，全球AI因何“熔断”？ - 华尔街见闻",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpcmNfNEpHdlBwOFhQT3BSVG1jWFJCN043TjAyaUR0aGRoSVQ4UEZrRURPaXM3LTFUZVI5S1RqVkZWVXZrOV8yem85ZGI2MWhnYU1n?oc=5",
+    "published_at": "2026-03-03T08:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Claude服務近期出現全球性中斷，引發用戶對AI基礎設施穩定性的廣泛討論。《華爾街見聞》報導分析此次「熔斷」事件，探討單一模型供應商依赖的風險。Anthropic尚未公布詳細事故報告，業界呼籲加強備援機制與多供應商策略。",
+    "highlights": [
+      "Claude出現全球性服務中斷，影響大量依賴其API的應用",
+      "《華爾街見聞》報導此次事件並分析AI基礎設施風險",
+      "單一供應商依賴成為企業用戶關注焦點",
+      "官方尚未發布完整的事後檢討報告",
+      "業界建議採用多供應商或本地備援策略"
+    ],
+    "why_it_matters": "此事件再次提醒技術團隊：生產環境不宜單押一家模型供應商。建立failover機制與本地備援方案，是保障服務連續性的必要措施。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可利用此次事件評估自身系統的供應商依賴程度，考慮建立簡單的API切換腳本或部署本地開源模型作為備援，並制定SLA失效時的應急流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
