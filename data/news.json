@@ -1,5 +1,285 @@
 [
   {
+    "id": "2026-07-03-cavemem-agent",
+    "title": "cavemem：跨 Agent 持久化記憶方案，壓縮儲存、本地檢索",
+    "title_original": "JuliusBrussee/cavemem",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/JuliusBrussee/cavemem",
+    "published_at": "2026-07-03T13:41:47Z",
+    "category": "agent-skills",
+    "summary": "cavemem 旨在為 coding assistant 提供跨 Agent 的持久化記憶能力，資料以壓縮格式儲存，支援快速檢索，預設本地運行。TypeScript 實現，Star 數 590，在 GitHub 熱度較高。",
+    "highlights": [
+      "跨 Agent 共享對話與任務記憶",
+      "壓縮儲存節省空間",
+      "支援快速檢索機制",
+      "預設本地執行，資料不上雲",
+      "TypeScript 實作，便於與現代前端工具鏈整合"
+    ],
+    "why_it_matters": "在多步驟自動化任務中，Agent 常面臨上下文耗盡問題。cavemem 提供外部記憶方案，若穩定性獲社群驗證，可顯著提升長程自動化腳本的可靠性。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在自己的 Agent 工作流程中接入 cavemem，作為長期任務的外部上下文儲存層，避免來回耗費昂貴的上下文 Token。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/104168679?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-appwrite-docs-mcp-server-mcp",
+    "title": "Appwrite Docs MCP Server：官方文件專用 MCP",
+    "title_original": "appwrite/mcp-for-docs",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/appwrite/mcp-for-docs",
+    "published_at": "2026-07-03T13:28:20Z",
+    "category": "agent-skills",
+    "summary": "Appwrite 官方推出的文件查詢 MCP Server，讓 IDE 與 AI Agent 能直接瀏覽 Appwrite 文件，提升開發效率。",
+    "highlights": [
+      "官方支援的 MCP Server",
+      "可直接查詢 Appwrite 文件",
+      "整合進 IDE 與 Agent 工作流程",
+      "11 星星，TypeScript 實作"
+    ],
+    "why_it_matters": "若使用 Appwrite 作為後端，可透過此 MCP 讓 AI 助理直接讀取文件，減少查詢文件的上下文切換成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在已配置 MCP 的 IDE 中加入 Appwrite Docs Server，測試 AI 助理自動回答 Appwrite 相關問題的準確率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/25003669?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-skills-hub-ai-skills-mcp-claude-code-codex-cursor",
+    "title": "skills-hub：AI Skills 與 MCP 市場，支援 Claude Code、Codex、Cursor",
+    "title_original": "xuweizhengo/skills-hub",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/xuweizhengo/skills-hub",
+    "published_at": "2026-07-03T13:22:04Z",
+    "category": "agent-skills",
+    "summary": "skills-hub 是一個聚合 AI Skills、MCP Server 與 Agent 範本的社群市場，目前支援 Claude Code、Codex、Cursor 等主流 AI 程式碼工具，屬於早期專案（43 stars），實用性需自行驗證。",
+    "highlights": [
+      "匯集來自多個 AI 程式碼工具的 Skills 與範本",
+      "支援 MCP 協定，方便擴展",
+      "覆蓋 Claude Code、Codex、Cursor 等主流工具",
+      "Star 數僅 43，專案成熟度待觀察",
+      "可直接在支援 MCP 的環境中試用"
+    ],
+    "why_it_matters": "若 MCP 生態持續壯大，skills-hub 可成為快速找到現成 Agent 能力的入口，省去從頭建構的時間。對想提升程式碼工具鏈效率的開發者有潛在價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "在已配置 MCP 的 Cursor 或 Claude Code 環境中直接試用 Repo 中列出的 Skills，評估是否能加速日常重複性開發任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "HTML"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/46102975?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-remindai-ai",
+    "title": "RemindAI：跨模型的桌面 AI 工作台",
+    "title_original": "PythonnotJava/RemindAI",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/PythonnotJava/RemindAI",
+    "published_at": "2026-07-03T13:12:55Z",
+    "category": "agent-skills",
+    "summary": "Desktop 端的個人 AI 工作台，支援執行工具、安裝技能、連接 MCP Server、建立持久記憶。宣稱支援所有模型，介面統一。",
+    "highlights": [
+      "支援所有模型統一介面",
+      "整合 MCP Server 與持久記憶",
+      "Desktop 應用（使用 Dart 開發）",
+      "12 星星，仍屬早期專案"
+    ],
+    "why_it_matters": "若能真正統一多模型管理，可簡化日常 AI 工具切換流程，但需實際測試穩定性與功能完整性。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載安裝後測試其多模型管理功能，評估是否可替代目前分散的 AI 工具組合。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Dart"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/88701385?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-python-ai-kit-python-ai",
+    "title": "python-ai-kit：Python AI 開發全能模板",
+    "title_original": "the-momentum/python-ai-kit",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/the-momentum/python-ai-kit",
+    "published_at": "2026-07-03T13:06:18Z",
+    "category": "agent-skills",
+    "summary": "提供 Python AI Agent、MCP Server、API 微服務與單體服務的完整範本，降低從零建構 AI 系統的門檻。適合快速原型開發或整合進現有專案。",
+    "highlights": [
+      "支援 AI Agent 與 MCP Server 雙模式",
+      "包含 API 微服務架構範本",
+      "57 星星，社群關注度尚可",
+      "可當作專案起始點直接 fork"
+    ],
+    "why_it_matters": "節省 AI 系統初期架構時間，技術宅可直接在既有專案中引用此模板，快速建立 Agent 與 API 服務。",
+    "automation_angle": null,
+    "automation_angle_zh": "Fork 此專案作為新 AI 專案基底，整合進個人工作流程或直接部署為內部工具。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/25667436?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-03-agent-opfor-ai",
+    "title": "agent-opfor：開源 AI 代理對抗模擬框架",
+    "title_original": "KeyValueSoftwareSystems/agent-opfor",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/KeyValueSoftwareSystems/agent-opfor",
+    "published_at": "2026-07-03T13:00:41Z",
+    "category": "agent-skills",
+    "summary": "專為 AI Agent 與 MCP Server 設計的對抗模擬工具，可測試系統在惡意輸入或異常行為下的穩定性與安全性。",
+    "highlights": [
+      "開源對抗模擬（adversary emulation）",
+      "針對 Agent 與 MCP Server",
+      "TypeScript 實作",
+      "11 星星，屬測試/安全工具"
+    ],
+    "why_it_matters": "開發 AI Agent 時缺乏安全測試工具，此框架提供系統性對抗測試方法，有助於發現 Agent 漏洞。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 agent-opfor 整合進 CI/CD 流程，對自家 Agent 進行自動對抗測試，檢測 prompt injection 等風險。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/23695698?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-thermo-nn-flops",
+    "title": "Thermo-NN：熱力學成本取代 FLOPs 的模型架構優化",
+    "title_original": "Anyone looked into \"Thermo-NN\" optimizing model architecture via thermodynamic/Landauer cost instead of pure FLOPs?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1umdct9/anyone_looked_into_thermonn_optimizing_model/",
+    "published_at": "2026-07-03T12:38:23+00:00",
+    "category": "new-models",
+    "summary": "Reddit 討論提及以熱力學/Landauer 成本而非純 FLOPs 來優化模型架構的研究方向，可能為未來高效模型設計提供新思路。",
+    "highlights": [
+      "研究熱力學/物理成本模型優化",
+      "挑戰傳統 FLOPs 指標",
+      "概念階段，社群討論為主",
+      "可能影響未來模型效率評估"
+    ],
+    "why_it_matters": "若熱力學成本模型可行，可能重新定義模型效率評估標準，但目前僅為早期研究方向，實用性待驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續關注此研究方向，評估其與現有模型壓縮/蒸餾技術的結合潛力。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-surface-evolver-bench-llm",
+    "title": "Surface Evolver Bench：考驗 LLM 撰寫自訂格式複雜物理模擬程式碼的基準測試",
+    "title_original": "Surface Evolver Bench: my benchmark asking LLMs to write complex physical simulations in a custom data format",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1umcova/surface_evolver_bench_my_benchmark_asking_llms_to/",
+    "published_at": "2026-07-03T12:07:03+00:00",
+    "category": "new-models",
+    "summary": "這是一個用於測試 LLMs 能否正確生成自訂資料格式物理模擬程式碼的基準測試工具。Surface Evolver 是研究表面物理的專用工具，其語法特殊且少見於訓練資料中，能有效檢測模型對罕見領域知識與嚴謹程式邏輯的掌握程度。適用於評估本地部署模型的物理推論能力。",
+    "highlights": [
+      "測試 LLM 生成自訂格式程式碼的能力，而非通用程式碼",
+      "Surface EvEvolver 語法冷門，模型普遍訓練不足",
+      "可作為評估本地 LLM 物理推論能力的參考基準",
+      "有助識別模型在特定領域的 hallucination 風險",
+      "作者提供完整 benchmark 框架，可直接下載使用"
+    ],
+    "why_it_matters": "傳統 benchmark 多為常見任務，難以區分頂尖模型。此工具劍指 LLM 在罕見專業領域的程式碼生成極限，工程師可用它更精準地評估模型是否適合特定技術任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可直接 clone 此 benchmark repo，在本地跑完主流開源模型（如 Llama、Qwen、Mistral 系列），比較各模型在物理模擬程式碼生成任務上的正確率與語法錯誤率。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-awesome-multimodel-llm-llm",
+    "title": "Awesome_Multimodel_LLM：精選多模態 LLM 資源彙整庫",
+    "title_original": "Atomic-man007/Awesome_Multimodel_LLM",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Atomic-man007/Awesome_Multimodel_LLM",
+    "published_at": "2026-07-03T11:47:02Z",
+    "category": "open-source-ai",
+    "summary": "該 GitHub Repo 整理了多模態大型語言模型（MLLM）領域的學習資源，涵蓋資料集、微調技巧、上下文學習、視覺推論及基礎模型等方向，適合想系統性掌握 MLLM 生態的技術人員。",
+    "highlights": [
+      "收錄主流 MLLM 資料集與 benchmark",
+      "整理微調方法與 in-context learning 技巧",
+      "包含視覺推論與基礎模型論文列表",
+      "社群持續更新，Star 數 375",
+      "適合作為研究起點而非生產工具"
+    ],
+    "why_it_matters": "多模態模型發展快速，此類彙整可幫助技術人員快速掌握領域地圖，避免在資訊過載中迷失方向，是研究與技術調研的高效切入點。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可直接瀏覽 Repo 中的論文與工具列表，挑選適合自己場景的開源模型進行 POC 測試。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/55858514?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-palantir-hf",
+    "title": "Palantir HF 帳號現況：開源模型數為零",
+    "title_original": "Palantir is a free org on HF with 0 open-source models and 0 public datasets shared",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1umbw0v/palantir_is_a_free_org_on_hf_with_0_opensource/",
+    "published_at": "2026-07-03T11:28:03+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 討論指出 Palantir 的 Hugging Face 組織帳號目前沒有公開任何開源模型或資料集，可能僅為品牌展示用途。",
+    "highlights": [
+      "Palantir HF 組織開源模型數為 0",
+      "沒有公開資料集",
+      "可能僅為行銷展示帳號",
+      "資訊來源為社群觀察"
+    ],
+    "why_it_matters": "注意不要誤以為 Palantir 在 HF 有開源動作。對關注該公司技術動態的讀者有澄清作用。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注感興趣公司的 HF 組織頁面，追蹤其實際開源貢獻而非僅看品牌名稱。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-03-reddit-claude-code-anthropic-base-url",
     "title": "Reddit 熱議：Claude Code 透過 ANTHROPIC_BASE_URL 環境變數對接本地模型",
     "title_original": "Claude Code and China: The mechanism is activated when the user sets the ANTHROPIC_BASE_URL environment variable (used for local models)",
