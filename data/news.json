@@ -1,5 +1,196 @@
 [
   {
+    "id": "2026-07-03-claude-code-fable",
+    "title": "Claude Code新技巧：讓Fable自行判斷任務委派以省代幣",
+    "title_original": "Fable's judgement",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything",
+    "published_at": "2026-07-03T18:51:06+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison分享新技巧：指示Claude Code的Fable根據任務複雜度自行判斷是否委派給較低階模型處理，以節省昂貴的Fable配額。實測有效，程式碼實作留在主迴路，機械性工作下沉至子模型。",
+    "highlights": [
+      "讓Fable自行判斷任務複雜度，決定是否委派",
+      "子模型處理機械性程式碼編輯，主模型把關判斷",
+      "節省Fable代幣配額，降低使用成本",
+      "在~/.claude/projects建立記憶檔案持久化策略"
+    ],
+    "why_it_matters": "模型價格差異大，讓頂級模型專注高價值判斷工作，把機械性任務交給廉價模型，是當前成本優化的實用策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "在Claude Code專案記憶中建立委派策略，讓主模型自動決定使用sonnet處理實作、haiku處理trivial修改，審核後再合併。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-clawix-agent",
+    "title": "Clawix：開源自托管多Agent編排平台",
+    "title_original": "ClawixAI/clawix",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ClawixAI/clawix",
+    "published_at": "2026-07-03T17:20:05Z",
+    "category": "open-source-ai",
+    "summary": "開源多Agent編排框架，支援Docker隔離容器、群體協作、RBAC權限控制、代幣治理與多渠道接入。TypeScript編寫，目前GitHub僅21星，屬早期項目，可作為技術研究參考。",
+    "highlights": [
+      "Docker隔離容器保護Agent執行環境",
+      "支援多Agent群體協作與任務分配",
+      "RBAC權限控制與代幣治理機制",
+      "多渠道支援，適合企業場景",
+      "TypeScript/Node.js生態，易於整合"
+    ],
+    "why_it_matters": "企業級多Agent編排需求漸增，Clawix提供自托管選項，可避免對外部平台依賴，但星數偏低，需自行評估穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "本地部署測試叢集，評估其多Agent協作與RBAC機制是否滿足工作流程需求，檢視原始碼結構作為自建系統的參考。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/274580515?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-amalia-9b",
+    "title": "葡萄牙政府發布國家電腦語言模型 Amalia 9B",
+    "title_original": "Portugal just released their own LLM Amalia (9B)!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1umhrn8/portugal_just_released_their_own_llm_amalia_9b/",
+    "published_at": "2026-07-03T15:38:16+00:00",
+    "category": "new-models",
+    "summary": "葡萄牙宣布推出國家級大型語言模型 Amalia，採用 90 億參數設計，專為葡萄牙語任務優化。該模型由葡萄牙相關機構主導開發，旨在提升公共服務數位化與保障語言文化在地發展。",
+    "highlights": [
+      "專為葡萄牙語優化的 9B 參數模型",
+      "由葡萄牙國家機構主導開發",
+      "瞄準公共服務與官方文件處理場景",
+      "反映各國發展主權 AI 的趨勢"
+    ],
+    "why_it_matters": "國家級語言模型的出現顯示主權 AI 已成為全球趨勢。對於處理多語言任務或評估特定語言模型效能的技術人員而言，Amalia 提供了一個可對比研究的新基準點。",
+    "automation_angle": null,
+    "automation_angle_zh": "若模型開源，技術人員可用於評估非英語語言處理能力，或將其整合至葡萄牙語相關的自動化客服、文件審閱流程中，測試其在特定領域的實際表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-simon-willison-newsletter-glm-5-2-tokenmaxxing",
+    "title": "Simon Willison六月Newsletter亮點：GLM-5.2與Tokenmaxxing降溫",
+    "title_original": "June 2026 newsletter",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything",
+    "published_at": "2026-07-03T14:50:50+00:00",
+    "category": "hot-topics",
+    "summary": "Simon Willison付費通訊六月版摘要，包含GLM-5.2成為開源最佳模型、Claude Fable 5與GPT-5.6動態、以及Tokenmaxxing策略退燒等觀察。付費內容，可作趨勢參考。",
+    "highlights": [
+      "GLM-5.2被評為新最佳開源權重模型",
+      "Claude Fable 5、GPT-5.6有新版本動態",
+      "Tokenmaxxing策略熱度降溫",
+      "提及sqlite-utils等開源工具更新"
+    ],
+    "why_it_matters": "彙整技術圈觀察者的判斷，反映模型排行榜變化與策略趨勢，有助技術人員調整模型選擇與成本優化策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考GLM-5.2評測結果，若效能優異可考慮替代現有開源模型方案；關注Tokenmaxxing退燒訊號，重新審視代幣節省策略。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-mistral-leanstral-1-5-119b-a6b",
+    "title": "Mistral 發布 Leanstral-1.5-119B-A6B 模型",
+    "title_original": "Mistral released Leanstral-1.5-119B-A6B",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1umgdhx/mistral_released_leanstral15119ba6b/",
+    "published_at": "2026-07-03T14:44:12+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 在社群公布 Leanstral-1.5-119B-A6B 新模型，這是一款 1190 億參數的混合專家（MoE）架構模型。型號後綴 A6B 暗示其採用 6B 活躍參數設計，預計在保持較低推論成本的同時提供接近大模型的輸出品質。",
+    "highlights": [
+      "1190 億總參數的 MoE 架構模型",
+      "活躍參數約 60 億，推論成本較低",
+      "Mistral 持續擴展 Leanstral 系列產品線",
+      "可能具備更強的數學與程式碼能力"
+    ],
+    "why_it_matters": "MoE 架構在高參數量與低推論成本之間取得平衡，適合需要在本地部署大語言模型但硬體資源有限的技術用戶。此版本若維持 Mistral 的開放許可，可能成為性價比極高的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在本地或自有伺服器部署此模型，用於處理長文本分析、自動化程式碼生成或建構內部知識庫問答系統，評估其是否能取代付費 API 的部分工作負載。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-google-deepmind-a24",
+    "title": "Google DeepMind 與 A24 宣布首創研究合作",
+    "title_original": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+    "published_at": "2026-07-03T14:25:43+00:00",
+    "category": "hot-topics",
+    "summary": "Google DeepMind 宣布與好萊塢影視製作公司 A24 建立首創研究合作關係，旨在探索生成式 AI 在影視創作中的應用邊界。這次跨界合作聚焦於 AI 輔助敘事、視覺特效生成及創意流程優化等研究方向，雙方將共享研究成果與技術洞見。",
+    "highlights": [
+      "DeepMind 與 A24 合作探索 AI 在電影製作中的創意應用",
+      "合作聚焦於輔助敘事生成與視覺特效自動化",
+      "研究結果將以某種形式對外開放共享",
+      "此為大型 AI 實驗室與主流影視公司的首例正式合作"
+    ],
+    "why_it_matters": "此合作代表 AI 實驗室正式進軍影視創意產業，可能催生新的生成式工具。對於開發多模態應用的技術人員而言，這是觀察 AI 在創意領域實際落地能力的重要窗口。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可關注 DeepMind 後續發布的開源模型或論文，評估其對多模態生成工具鏈的潛在貢獻，特別是在影視前期製作與概念設計階段的自動化可能性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-03-amd-micro-world",
+    "title": "AMD 推出 Micro-World 動作控制互動世界模型",
+    "title_original": "Micro-World - Action-controlled Interactive world model - AMD",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1umey6p/microworld_actioncontrolled_interactive_world/",
+    "published_at": "2026-07-03T13:47:26+00:00",
+    "category": "open-source-ai",
+    "summary": "AMD 在 Reddit r/LocalLLaMA 社群公布名為 Micro-World 的實驗性項目，這是一款動作控制的互動式世界模型。該模型允許用戶透過定義的動作序列來操控虛擬環境狀態，實現基於強化學習原理的環境模擬與預測能力。",
+    "highlights": [
+      "提供動作控制的互動式環境模擬能力",
+      "基於世界模型架構，支援狀態預測",
+      "可在本地部署運行",
+      "目標為遊戲與模擬場景的 AI 代理訓練"
+    ],
+    "why_it_matters": "世界模型是訓練 AI Agent 的關鍵基礎設施。Micro-World 提供了一個可本地測試的低門檻方案，讓開發者無需依賴雲端即可實驗環境互動與決策鏈的建構方式。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將 Micro-World 整合至自己的 Agent 測試 pipeline，用於離線評估 AI 在約束環境中的決策質量與動作規劃能力，適合 RL 與 Agent 開發者快速原型驗證。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-03-cavemem-agent",
     "title": "cavemem：跨 Agent 持久化記憶方案，壓縮儲存、本地檢索",
     "title_original": "JuliusBrussee/cavemem",
