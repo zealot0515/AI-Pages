@@ -1,5 +1,344 @@
 [
   {
+    "id": "2026-07-03-hyperyond-hover-mcp-vibe-testing-ci-ai",
+    "title": "Hyperyond/Hover：MCP 協議驅動的 Vibe Testing 套件，CI 友好零 AI 回放",
+    "title_original": "Hyperyond/Hover",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Hyperyond/Hover",
+    "published_at": "2026-07-03T01:43:48Z",
+    "category": "agent-skills",
+    "summary": "Hover 是基於 MCP（Model Context Protocol）的開源 Vibe Testing 套件，包含 MCP Server、VS Code 審查介面與 CI 整合。Agent 自動探索應用並生成 Playwright 測試規格，產出的測試可在 CI 中零 AI 回放，節省回歸測試成本。",
+    "highlights": [
+      "MCP Server 實現：標準化 Agent 與開發工具的溝通協議",
+      "VS Code 整合：提供視覺化審查 cockpit，降低使用門檻",
+      "AI 探索生成：Agent 自動操作應用並結晶為 @playwright/test 規格",
+      "CI 零 AI 回放：生成後的測試脫離 LLM 依賴，CI 成本趨近零",
+      "TypeScript 開源：星星數 11，屬早期實驗性專案"
+    ],
+    "why_it_matters": "Hover 將 AI 探索測試與標準化 CI 流程結合，解決了傳統 AI Testing 每次回放都要付費的痛點。對重視測試自動化與成本控制的團隊具有實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在專案中引入 Hover MCP Server，讓 Agent 自動探索新功能並生成 Playwright 測試，再將測試寫入 CI 管道，實現一次 AI 探索、N次零成本回放的工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/248006850?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-alcove-ai-mcp",
+    "title": "Alcove：為 AI 程式設計代理打造的私有文件檢索 MCP 伺服器",
+    "title_original": "epicsagas/alcove",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/epicsagas/alcove",
+    "published_at": "2026-07-03T00:54:29Z",
+    "category": "open-source-ai",
+    "summary": "Alcove 是一款 Rust 開發的 MCP 伺服器，專為 AI 程式設計代理提供私有專案文件隨選存取能力。整合 BM25 與向量混合檢索、Tree-sitter 程式碼結構索引，並內建政策強制執行機制確保文件一致性。",
+    "highlights": [
+      "使用 Rust 開發，效能與安全性佳",
+      "BM25 + 向量混合檢索提升精準度",
+      "Tree-sitter 索引讓代理理解程式碼結構脈絡",
+      "政策引擎確保檢索文件的一致性與品質",
+      "現有 13 顆星，社群關注度尚低但技術定位清晰"
+    ],
+    "why_it_matters": "讓 AI 代理能安全取用私有文件是提升程式碼生成準確性的關鍵，類似於 MCP 生態中 RAG 管道的實作，可大幅減少代理的幻覺產生。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可將 Alcove 整合至自建的 AI 程式設計代理流程，讓代理在修改程式碼前先檢索內部設計文件與 API 文件，今天就能架設測試。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/39856742?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-github-copilot-api",
+    "title": "GitHub Copilot 使用量指標 API 三大改進：涵蓋範圍更完整、數據更精準",
+    "title_original": "Improved accuracy and coverage in Copilot usage metrics reports",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports",
+    "published_at": "2026-07-02T23:19:06+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布 Copilot 使用量指標 API 迎來三項重要改進：Copilot CLI 現在會回報建議的程式碼行數、僅出現在特定情境的使用者也會被計算，以及新增更多指標維度。這次更新讓企業能更準確地評估 Copilot 的投資回報與團隊使用情況。",
+    "highlights": [
+      "Copilot CLI 現在回報建議程式碼行數，過去只計算採納行數",
+      "修正僅出現在特定場景（如 CLI）的使用者漏計問題",
+      "新增多個指標維度，覆蓋更完整的使用行為",
+      "API 回應格式預期有結構性變動，需確認解析邏輯",
+      "適用於企業管理員追蹤 Copilot 採用率與價值"
+    ],
+    "why_it_matters": "精準的使用量數據是企業決策是否續約、擴充 Copilot 席次的依據。API 數據品質提升後，技術主管可更信賴這些數字來推動內部採用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術主管可在 Pipeline 中整合此 API，自動生成 Copilot ROI 報表，追蹤每日/每週使用趨勢，識別使用率低落的團隊。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-03-github-copilot-7-31-gemini-2-5-pro-gemini-3-flash",
+    "title": "GitHub Copilot 將於 7/31 停用 Gemini 2.5 Pro 與 Gemini 3 Flash 模型",
+    "title_original": "Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-02-upcoming-deprecation-of-gemini-2-5-pro-and-gemini-3-flash",
+    "published_at": "2026-07-02T23:07:06+00:00",
+    "category": "new-models",
+    "summary": "GitHub 宣布將於 7 月 31 日起在所有 Copilot 體驗中停用 Gemini 2.5 Pro 與 Gemini 3 Flash 模型，涵蓋 Copilot Chat、inline 編輯、ask 與 agent 模式，以及程式碼補全功能。開發者需在期限前確認切換至其他可用模型。",
+    "highlights": [
+      "停用時間點：2026 年 7 月 31 日",
+      "影響範圍：所有 Copilot 互動模式",
+      "開發者需主動遷移至其他已支援模型",
+      "具體替換模型尚未完整揭露",
+      "建議儘早測試替代方案的程式碼生成品質差異"
+    ],
+    "why_it_matters": "若開發者依賴 Gemini 模型特有的輸出風格或能力，停用後可能需要重新適應新模型，影響既有工作流程程的穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "DevRel 團隊可提前建立遷移測試腳本，比對停用前後模型在常見任務上的成功率與延遲，預估影響範圍。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-350m",
+    "title": "開源350M模型挑戰大參數模型，以開放授權提供輕量級替代方案",
+    "title_original": "Made a new 350M model to compete with lfm2.5 but with an open license",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulwo4a/made_a_new_350m_model_to_compete_with_lfm25_but/",
+    "published_at": "2026-07-02T22:28:05+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者在Reddit社群發布350M參數規模的開放授權模型，宣稱在特定任務上可與傳統大模型（如lfm2.5）競爭。該模型以Apache 2.0或MIT授權釋出，強調可在消費級硬體本地運行。",
+    "highlights": [
+      "350M參數規模，適合邊緣裝置與手機端部署",
+      "宣稱特定任務效能接近更大規模模型",
+      "採用開放授權，方便商業與學術使用",
+      "可在筆電或嵌入式系統本地執行，無需API調用",
+      "社群驅動開發，效能聲明未經獨立驗證"
+    ],
+    "why_it_matters": "小型開放模型讓開發者可在無雲端成本、無隱私疑慮下實現基礎AI功能，對需要本地推論的應用場景（如客服機器人、文件摘要）具有實際價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此模型部署為本地自動化腳本的智慧控制器，以低成本實現對話式工作流程程或任務分類，省下每次API呼叫費用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-amd-gpu-hip",
+    "title": "研究：用合成資料、多智慧體搜尋與強化學習改善AMD GPU的HIP核心生成",
+    "title_original": "Toward Better HIP Kernel Generation for AMD GPUs: Synthetic Data, Multi-Agent Search, and Reinforcement Learning",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulw7uq/toward_better_hip_kernel_generation_for_amd_gpus/",
+    "published_at": "2026-07-02T22:10:05+00:00",
+    "category": "open-source-ai",
+    "summary": "研究人員提出新方法，利用合成資料訓練配合多智慧體搜尋與強化學習，自動生成針對AMD GPU優化的HIP核心。此方法可在不需要人工撰寫底層並行程式碼的情況下，自動探索並生成高效能運算核心，為AMD ROCm生態提供自動優化途徑。",
+    "highlights": [
+      "使用合成資料而非真實硬體 profiling，降低資料收集成本",
+      "多智慧體搜尋架構可探索不同核心設計空間",
+      "強化學習獎勵函數直接優化實際執行效能",
+      "專為AMD ROCm/HIP生態設計，填補NVIDIA CUDA優化工具缺口",
+      "開源実装可供研究社群驗證與擴展"
+    ],
+    "why_it_matters": "AMD GPU在AI推論與訓練性價比逐漸提升，但ROCm工具鏈優化落後於CUDA。此研究提供自動生成高效能核心的可行路徑，降低AMD GPU開發優化門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可評估此方法是否可整合至現有編譯工具鏈，自動化生成AMD GPU運算核心，省去手動優化的繁瑣過程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-ai",
+    "title": "研究團隊開發可在本地開放權重模型上運行的自我複製AI蠕蟲",
+    "title_original": "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulw1wp/researchers_build_selfreplicating_ai_worm_that/",
+    "published_at": "2026-07-02T22:03:34+00:00",
+    "category": "hot-topics",
+    "summary": "資安研究人員展示一款自我複製AI蠕蟲，證明可在完全依賴本地開放權重模型的環境中執行並傳播。此研究凸顯未來AI系統面臨的新型安全威脅形態，引發學術與產業界對模型安全邊界的新一波討論。",
+    "highlights": [
+      "蠕蟲僅依賴本地開放權重模型運行，不需外部API",
+      "可透過自動化工作流程程在系統間傳播",
+      "屬於概念驗證，未發現實際惡意利用",
+      "對AI代理（Agent）系統安全設計提出警示",
+      "推動模型安全研究與對抗性測試的發展"
+    ],
+    "why_it_matters": "隨著AI代理系統廣泛部署，此研究提醒開發者需重新審視系統設計中的安全邊界。本地模型的可操作性為傳統網路安全框架帶來新挑戰。",
+    "automation_angle": null,
+    "automation_angle_zh": "安全研究人員可利用此概念驗證測試自家AI工作流程程的隔離機制，確保自動化代理系統不會被惡意提示注入或未授權操作利用。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-k-g-studio-daw-llm-ai",
+    "title": "K.G.Studio：瀏覽器版 DAW 結合 LLM 音樂助理，AI 輔助作曲新嘗試",
+    "title_original": "KGAudioLab/K.G.Studio",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/KGAudioLab/K.G.Studio",
+    "published_at": "2026-07-02T21:22:46Z",
+    "category": "agent-skills",
+    "summary": "K.G.Studio 是一款輕量級瀏覽器版 DAW（數位音訊工作站），內建 LLM 驅動的「K.G.Studio Musician Assistant」AI 助理，可輔助作曲與 MIDI 編輯。開源 TypeScript 專案，目前僅 21 stars，屬早期階段。",
+    "highlights": [
+      "瀏覽器優先：無需安裝，透過瀏覽器即可進行音訊編輯與 AI 輔助作曲",
+      "LLM 音樂助理：AI 助理可介入作曲流程，提供靈感或進行 MIDI 調整",
+      "TypeScript 開源：前端技術棧清晰，技術用戶可 Fork 自行擴展",
+      "DAW 基礎功能：具備基本的音軌、MIDI 編輯能力",
+      "早期專案：功能深度與穩定性尚待社群驗證"
+    ],
+    "why_it_matters": "瀏覽器版 DAW 搭配 LLM 助理降低了音樂創作的技術門檻。對有音訊處理需求的技術用戶，可作為實驗 AI 音樂能力或擴展為自動化音訊流水線的起點。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可試用其 AI 助理功能，評估其對 MIDI 指令的理解與生成能力，並評估是否可整合進現有音訊處理腳本或自動化流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/225987910?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-copilot-cli-github-actions-personal-access-token",
+    "title": "Copilot CLI 在 GitHub Actions 中不再需要 Personal Access Token",
+    "title_original": "Copilot CLI no longer needs a personal access token in GitHub Actions",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions",
+    "published_at": "2026-07-02T20:25:32+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 簡化了 Copilot CLI 在 CI/CD 環境中的驗證流程。現在於 GitHub Actions 中執行 Copilot CLI 時，可直接使用內建的 GITHUB_TOKEN，省去建立與儲存 Personal Access Token（PAT）的繁瑣步驟。",
+    "highlights": [
+      "使用 GITHUB_TOKEN 取代 PAT，降低權限管理複雜度",
+      "無需額外設定環境變數或密鑰",
+      "適用於所有在 GitHub Actions 中呼叫 Copilot CLI 的 workflow",
+      "簡化 CI/CD Pipeline 中的 Copilot 整合難度",
+      "提升安全性：減少長期有效憑證的暴露風險"
+    ],
+    "why_it_matters": "在 CI 環境中使用 Copilot CLI 的門檻大幅降低，開發團隊可以更輕鬆地在自動化流程中整合 AI 程式碼生成與分析能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發團隊可直接在 GitHub Actions workflow 中呼叫 Copilot CLI，實現自動 code review、測試案例生成或文件維護，無需管理額外憑證。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-03-rtx-3090-qwen3-6-27b-ornith",
+    "title": "RTX 3090 本地基準測試：Qwen3.6 27b 與 Ornith 模型比較",
+    "title_original": "Local benchmarks with a RTX 3090 - Qwen3.6 27b vs Ornith",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ulthkp/local_benchmarks_with_a_rtx_3090_qwen36_27b_vs/",
+    "published_at": "2026-07-02T20:24:29+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群中有使用者分享使用 RTX 3090 顯示卡進行本地 AI 模型基準測試的結果，比較 Qwen3.6 27b 與 Ornith 兩款模型在消費級硬體上的效能表現。測試環境為單張 RTX 3090 24GB，涵蓋推論速度與輸出品質等指標。",
+    "highlights": [
+      "RTX 3090 24GB 單卡運行大型語言模型基準測試",
+      "Qwen3.6 27b 為測試模型之一，規格待驗證",
+      "Ornith 模型同步進行效能對比",
+      "聚焦本地端推論速度與輸出一致性",
+      "屬於消費級 GPU 本地部署效能參考"
+    ],
+    "why_it_matters": "對於想在個人裝置上部署大型語言模型的技術使用者，散熱、VRAM 限制與推論速度是關鍵痛點。此類本地基準測試提供實用的硬體相容性參考，有助評估模型是否能在合理時間內完成推論。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可參考此 benchmark 結果評估 RTX 3090 的本地部署上限，若測試結果滿意，可進一步自動化模型篩選流程，針對特定任務（如程式碼生成、文件摘要）選擇性部署。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-nvidia-ai-aol-prodigy-ai",
+    "title": "Nvidia AI 先驅断言：封閉模型是 AOL/Prodigy 封閉網路的重演，開源才是企業AI的未來",
+    "title_original": "It's officially over. One of the fathers of AI at Nvidia doesn't believe in AGI and compares OpenAI and Anthropic's closed models to AOL and Prodigy's closed internets. Says the future is every business having a customized open source model.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ult0f4/its_officially_over_one_of_the_fathers_of_ai_at/",
+    "published_at": "2026-07-02T20:06:22+00:00",
+    "category": "hot-topics",
+    "summary": "一位被稱為「AI 教父」的 Nvidia 高層表示不看好 AGI 發展，並將 OpenAI 與 Anthropic 的封閉模型比喻為當年的 AOL 與 Prodigy 封閉互聯網。他預言未來每家企業都會運行客製化的開源模型，並暗示封閉模型的繁榮不會持久。",
+    "highlights": [
+      "言論來源為 Reddit 轉發，未直接引用官方聲明",
+      "觀點屬於高層個人意見，非 Nvidia 官方政策",
+      "預測企業將轉向自託管的開源模型客製化方案",
+      "言論時機可能與 Nvidia 近期 GPU 業務策略相關",
+      "缺乏具體數據或技術細節支撐"
+    ],
+    "why_it_matters": "這類言論反映部分業界高層對開源與封閉 AI 路線之爭的立場，但非正式產品公告，技術讀者應將其視為趨勢觀測而非行動指引。",
+    "automation_angle": null,
+    "automation_angle_zh": "對開源模型部署有興趣的技術團隊可關注此趨勢，但不宜據此立即調整架構決策，應持續觀察實際的企業採用案例與成本數據。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-llm-coding-agent-0-1a0-simon-willison-fable-5-coding-agent",
+    "title": "llm-coding-agent 0.1a0：Simon Willison 以 Fable 5 實驗的輕量 Coding Agent 框架",
+    "title_original": "llm-coding-agent 0.1a0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
+    "published_at": "2026-07-02T19:33:12+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 llm-coding-agent 0.1a0，基於其 llm 函式庫與 Fable 5 agent 框架打造。提供檔案編輯、命令執行、搜尋、列表等工具組，可透過 uvx 直接執行或以 Python API 呼叫。支援 --yolo、--allow 等快捷參數，屬於可直接 pip install 的實驗性工具。",
+    "highlights": [
+      "工具組完整：edit_file、execute_command、list_files、search_files、write_file 五項核心工具",
+      "兩種呼叫方式：CLI（uvx llm code）與 Python API（CodingAgent.run()）",
+      "TDD 驅動開發：專案本身以紅綠重構模式構建，代碼品質有一定保障",
+      "支援模型廣泛：文件提到 gpt-5.5，可替換為其他 LLM",
+      "實驗性質 Alpha：屬於早期釋出，功能穩定性待驗證"
+    ],
+    "why_it_matters": "對於想實驗本地 Coding Agent 但不想引入笨重框架的開發者，llm-coding-agent 提供了極簡切入點。Simon Willison 的實驗性專案通常品質可靠，值得關注其後續發展。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可用 uvx --prerelease=allow --with llm-coding-agent llm code --yolo 快速測試其對簡單開發任務（如生成測試、建立小型專案結構）的執行效果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-02-coding-agent-langchain",
     "title": "Coding Agent帳單翻倍？LangChain剖析成本失控原因與解法",
     "title_original": "Your coding agent bill doubled. Here’s how to fix it.",
@@ -83,6 +422,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/145279395?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-copilot-agent",
+    "title": "Copilot Agent 工作階段串流正式開放公開預覽",
+    "title_original": "Copilot agent session streaming is now in public preview",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview",
+    "published_at": "2026-07-02T18:05:05+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Enterprise Cloud 的企業管理用戶現可跨所有 Copilot 用戶端（雲端版與資料主權部署版）存取 Copilot Agent 工作階段資料。這包括 github.com 上的雲端代理以及資料落地部署環境的串流資料，方便企業進行稽核與監控。",
+    "highlights": [
+      "僅限 Enterprise Cloud 企業管理用戶（EMU）使用",
+      "支援資料主權部署的 Copilot 環境",
+      "可串流存取所有 Copilot 模式的工作階段（Chat、inline、agent）",
+      "主要用途為企業內部稽核與合規監控",
+      "公開預覽階段，可能有 API 穩定性風險"
+    ],
+    "why_it_matters": "企業 IT 與資安團隊終於能完整看見 Copilot Agent 在組織內的實際行為，有助於資料外洩防範與合規稽核。",
+    "automation_angle": null,
+    "automation_angle_zh": "資安團隊可串接此串流 API 即時監控可疑的 Agent 操作行為，自動触發警報或阻斷高風險指令。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-07-02-openlumara-openai-token",
