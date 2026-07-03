@@ -1,5 +1,116 @@
 [
   {
+    "id": "2026-07-03-reddit-claude-code-anthropic-base-url",
+    "title": "Reddit 熱議：Claude Code 透過 ANTHROPIC_BASE_URL 環境變數對接本地模型",
+    "title_original": "Claude Code and China: The mechanism is activated when the user sets the ANTHROPIC_BASE_URL environment variable (used for local models)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1um702y/claude_code_and_china_the_mechanism_is_activated/",
+    "published_at": "2026-07-03T06:50:32+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享 Claude Code 存在一個機制：設定 ANTHROPIC_BASE_URL 環境變數後，Claude Code 會嘗試將請求發送至本地模型而非 Anthropic 官方端點，聲稱與中國用戶使用行為相關。",
+    "highlights": [
+      "機制揭露基於 Reddit 討論，未獲 Anthropic 官方證實",
+      "ANTHROPIC_BASE_URL 為常見的自訂端點環境變數",
+      "具體觸發條件與行為細節尚不明確",
+      "可能是用戶實測觀察而非官方功能",
+      "對技術用戶有潛在意義但需自行驗證"
+    ],
+    "why_it_matters": "若屬實，可為技術用戶提供繞過官方 API 直接調用本地 Claude 相容模型的途徑，但未經證實前不宜直接依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "設定 ANTHROPIC_BASE_URL 並指向本地模型端點，測試 Claude Code 是否能正常運作，評估對現有工作流程的影響。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-ai-gemini-ai",
+    "title": "谷歌 AI 訂閱計畫曝光：Gemini 等最新 AI 功能將有更高用量額度",
+    "title_original": "谷歌AI计划是為包括Gemini在内的谷歌最新AI功能及型号提供更高的使用量限度,並擴大雲存储容量的訂閱服务。 - 매일경제",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1saE04dFlsckFxZ0tEeW04VmZvVEN3VVpKWElYV3hPbHpYZEZHa3pJUGpKRkhXVE1Gc3p5VGdmQk9PaUJfOF9oY0k5QQ?oc=5",
+    "published_at": "2026-07-03T04:41:34+00:00",
+    "category": "ai-deals",
+    "summary": "韓國每日經濟新聞報導，谷歌規劃推出 AI 訂閱服務，為 Gemini 等最新 AI 功能提供更高使用量限制，並擴大雲端儲存容量。具體定價與上路時間尚未揭露。",
+    "highlights": [
+      "來源為韓國每日經濟新聞（매일경제）",
+      "服務對象包含 Gemini 在內的谷歌 AI 功能",
+      "主要價值：更高用量額度與雲端儲存擴容",
+      "目前缺乏谷歌官方公告",
+      "具體訂閱方案與價格未知"
+    ],
+    "why_it_matters": "若谷歌推出官方 AI 訂閱，可能為重度 Gemini 用戶提供更穩定的用量保障，但目前資訊有限，需持續追蹤谷歌官方公告。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注谷歌官方定價與配額資訊，若有適合的訂閱方案，可考慮將其用於需要高用量保障的自動化腳本或工作流程。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-audio-cpp-ggml-10-60",
+    "title": "audio.cpp 釋出 GGML 原生音樂生成模型：10 分鐘音樂 60 秒生成",
+    "title_original": "[audio.cpp] The Sound of GGML — C++/GGML native ACE-Step, Stable Audio, HeartMuLa, RoFormer, HTDemucs released. 10-Minute Music in 60 Seconds!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1um2tbf/audiocpp_the_sound_of_ggml_cggml_native_acestep/",
+    "published_at": "2026-07-03T03:12:14+00:00",
+    "category": "open-source-ai",
+    "summary": "audio.cpp 專案在 Reddit 宣布支援多款 GGML 原生音樂生成模型，包括 ACE-Step、Stable Audio、HeartMuLa、RoFormer、HTDemucs。這些模型可在本地 C++ 環境執行，號稱能在 60 秒內生成 10 分鐘長度的高品質音樂，大幅降低音樂 AI 的硬體需求與延遲。",
+    "highlights": [
+      "支援 ACE-Step、Stable Audio、HeartMuLa、RoFormer、HTDemucs 等多款開源音樂模型",
+      "基於 GGML 框架，可在 CPU 或 GPU 本地執行，無需雲端 API",
+      "號稱 60 秒生成 10 分鐘音樂，強調生成速度優勢",
+      "純 C++ 實作，適合嵌入式系統或高效能需求場景"
+    ],
+    "why_it_matters": "本地化音樂 AI 生成一直是硬體門檻較高的領域，GGML 原生實作可讓一般開發者在無需昂貴雲端費用的情況下整合音樂生成能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將此專案整合至個人音樂工作站、遊戲音效生成工具或自動化內容創作流程，評估其生成品質與延遲是否符合實際應用需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-rag",
+    "title": "RAG 技術評測：醫療合成資料庫實驗顯示文件結構比模型調整更重要",
+    "title_original": "I benchmarked RAG techniques on a synthetic healthcare database. The biggest gains came from document shape, not model tweaks.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1um1wvh/i_benchmarked_rag_techniques_on_a_synthetic/",
+    "published_at": "2026-07-03T02:28:27+00:00",
+    "category": "hot-topics",
+    "summary": "技術人員在合成醫療資料庫上評測多種 RAG 技術，發現最大效能提升來自文件形狀與結構優化，而非模型或向量演算法的調整。此結論對文件密集型工作有直接參考價值。",
+    "highlights": [
+      "文件結構與形狀對 RAG 效果影響最大",
+      "模型選擇與向量演算法的影響相對有限",
+      "合成資料庫環境可能與實際情境有差異",
+      "提供可參考的 RAG 優化方向",
+      "原始方法論與資料集需進一步確認"
+    ],
+    "why_it_matters": "對需要處理大量文件的技術用戶而言，此評測暗示投資文件結構化（前處理）比頻繁更換模型更有效。",
+    "automation_angle": null,
+    "automation_angle_zh": "在既有 RAG 流程中加入文件結構優化步驟，例如段落分割、標題層級強化，觀察檢索準確度是否明顯提升。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-03-hyperyond-hover-mcp-vibe-testing-ci-ai",
     "title": "Hyperyond/Hover：MCP 協議驅動的 Vibe Testing 套件，CI 友好零 AI 回放",
     "title_original": "Hyperyond/Hover",
@@ -55,6 +166,33 @@
       "Rust"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/39856742?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-03-sk-telecom-t-universe-google-ai-plan-2100",
+    "title": "SK Telecom 在 T Universe 推出 Google AI Plan，月費最高優惠 2100 韓元",
+    "title_original": "SK Telecom在T Universe推出Google AI Plan，月费最高優惠2100韩元 - 디지털투데이",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNFRab1laODVkYzdSN3Nyd3JSZUhLb085NEhoSFJ0NzkxRE5sYmhmLVpTSUt5Wjg4dFo0UTUtUDJlcnVpSVR6bDlaSEFraXBSWmVndERaWUplakVRQjI1V01tTVN2MVdhckt3bXE4WHhJanBMalI5RldhR05NMmFRR0dzU3o1c0ZMb0JMTGRZQ0ZoMTlfcGE1VGQtVXpSVTBZc3ZqamtLbnFZZ2xUdllvX3BobVJGNVJfQmc?oc=5",
+    "published_at": "2026-07-03T00:14:28+00:00",
+    "category": "ai-deals",
+    "summary": "SK Telecom 宣布在自家 T Universe 平台獨家推出 Google AI Plan 訂閱方案，月費最高可享 2100 韓元優惠。該方案主要瞄準韓國市場用戶，提供 Gemini 相關 AI 功能存取權限。目前優惠細節與適用範圍尚未完全透明，技術用戶若有韓國當地需求可關注後續公告。",
+    "highlights": [
+      "SK Telecom 為韓國第二大電信商，透過 T Universe 獨家分銷 Google AI Plan",
+      "月費優惠最高達 2100 韓元（約新台幣 50 元），具體方案內容待確認",
+      "推測方案與 Gemini AI 功能整合，具體用量限制不明",
+      "目前資訊來源為韓國數位媒體，優惠可能限時或限地區"
+    ],
+    "why_it_matters": "對於需要穩定使用 Google AI 服務的技術用戶，電信商補貼方案可能降低月費成本，但需注意優惠來源是否可靠及適用範圍限制。",
+    "automation_angle": null,
+    "automation_angle_zh": "若在韓國有業務或合作夥伴，可評估此方案是否能取代直接訂閱 Google AI 服務，並計算長期成本差異。關注後續官方公告以確認方案詳情。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
