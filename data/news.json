@@ -1,5 +1,291 @@
 [
   {
+    "id": "2026-07-04-tars-claude-code",
+    "title": "TARS：Claude Code 資源管理中心",
+    "title_original": "inceptyon-labs/TARS",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/inceptyon-labs/TARS",
+    "published_at": "2026-07-04T18:22:00Z",
+    "category": "agent-skills",
+    "summary": "TARS 是 Claude Code 的集中化管理平台，提供視覺化介面管理 skills、agents、指令、hooks、MCP servers 和插件。支援跨專案安全套用/回滾操作，並可分享基於配置檔的設定。",
+    "highlights": [
+      "視覺化介面管理多專案的 Claude Code 資源",
+      "支援 safe apply/rollback 防止配置錯誤",
+      "Profile-based 設定可跨專案共享",
+      "用 Rust 實作，性能與安全性佳",
+      "目前 GitHub 35 星，仍在早期階段"
+    ],
+    "why_it_matters": "若你管理多個 Claude Code 專案，TARS 可統一配置、避免個別專案設定散落。透過 rollback 機制降低實驗風險，是團隊協作的好幫手。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 TARS 部署為團隊的 Claude Code 配置基準庫，新專案直接套用已驗證的 profile，省去重複設定時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/241482210?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-04-skilljack-mcp-agent-skills",
+    "title": "SkillJack MCP：Agent Skills 發現與服務框架",
+    "title_original": "olaservo/skilljack-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/olaservo/skilljack-mcp",
+    "published_at": "2026-07-04T18:16:19Z",
+    "category": "agent-skills",
+    "summary": "SkillJack MCP 是一個 MCP server，專門用於發現與提供 Agent Skills。允許 agent 在執行時動態查找可用技能並呼叫，實現技能熱插拔式的擴展機制。",
+    "highlights": [
+      "MCP 協定相容，易與現有 agent 整合",
+      "動態發現可用 skills，無需預先硬編碼",
+      "TypeScript 實作，擴展性佳",
+      "14 星，仍屬早期專案",
+      "概念類似 AI 時代的插件註冊中心"
+    ],
+    "why_it_matters": "Agent 需要在執行時得知自己有哪些可用技能，SkillJack 提供了標準化的發現機制，是建構動態 agent 系統的基礎設施參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將自定義 skills 註冊至 SkillJack，觀察 agent 是否能正確發現並使用，測試動態技能路由的可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/16480113?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-04-work-buddy-claude-code-obsidian-agent",
+    "title": "work-buddy：基於 Claude Code 與 Obsidian 的本地優先個人 Agent 運行時",
+    "title_original": "KadenMc/work-buddy",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/KadenMc/work-buddy",
+    "published_at": "2026-07-04T18:13:24Z",
+    "category": "agent-skills",
+    "summary": "work-buddy 是一款面向知識工作者的本地優先 AI 助理運行時，以 Claude Code 為核心推論引擎，深度整合 Obsidian 筆記系統。目前 stars 僅 24，仍屬非常早期專案，穩定性與功能完整性有待驗證。",
+    "highlights": [
+      "以 Claude Code 作為推論與程式執行引擎",
+      "深度整合 Obsidian，支援本地筆記知識庫檢索",
+      "本地優先架構，強調資料隱私與離線可用性",
+      "瞄準知識工作者，非純技術開發者客群",
+      "早期專案社群小，採用風險相對較高"
+    ],
+    "why_it_matters": "Obsidian 與 Claude Code 的組合若能穩定運作，可打造真正本地化的個人知識管理 Agent，但目前專案成熟度不足，建議觀望或以技術評估為主。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 work-buddy 作為實驗性工具安裝，測試其是否能自動整理 Obsidian 筆記、生成會議摘要或追蹤任務進度，評估實用性與穩定性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/56278650?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-04-token-savior-mcp-claude-100-77-tokens",
+    "title": "token-savior：MCP 工具讓 Claude 在真實基準達成 100% 準確率，省 77% tokens",
+    "title_original": "Mibayy/token-savior",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Mibayy/token-savior",
+    "published_at": "2026-07-04T18:03:56Z",
+    "category": "agent-skills",
+    "summary": "token-savior 是一款 MCP 伺服器，宣稱透過結構化程式碼導航與持久記憶機制，讓 Claude 在 96 項真實任務中達到 100% 完成率，同時減少 77% 活躍 tokens 與 76% 牆鐘時間。已獲 1040 stars，支援所有 MCP 用戶端。",
+    "highlights": [
+      "結構化程式碼導航提升 Claude 對大型程式庫的理解深度",
+      "持久記憶機制避免每次對話從零開始上下文丟失",
+      "聲稱 77% token 節省與 76% 時間節省，數據基於 96 項任務",
+      "與任何 MCP 用戶端相容，門檻低易於整合",
+      "已開源且有實際 star 數，社群接受度較高"
+    ],
+    "why_it_matters": "若 token 節省與任務完成率聲稱屬實，此工具可大幅降低 Claude API 使用成本並提升自動化腳本的穩定性，是值得技術團隊第一時間測試的 MCP 工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 token-savior 整合進 Claude Code 工作流程，測試在大型專案重構任務中的 token 消耗與任務成功率，驗證其宣稱的省費效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/97958526?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-04-grove-coding-agent",
+    "title": "Grove：給 coding agent 的精確程式碼存取層",
+    "title_original": "Entelligentsia/grove",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Entelligentsia/grove",
+    "published_at": "2026-07-04T17:57:32Z",
+    "category": "agent-skills",
+    "summary": "Grove 基於 tree-sitter 提供位元組精確、token 省費的程式碼庫存取方案，透過 CLI 和 MCP server 介面暴露結構化程式碼語義，讓 coding agent 能更高效理解與操作程式碼。",
+    "highlights": [
+      "tree-sitter 語法樹提供精確結構",
+      "Byte-precise 定位避免模糊匹配",
+      "Token 消耗比純 LLM 解析更低",
+      "同時提供 CLI 與 MCP 介面",
+      "JS 實作，輕量易整合"
+    ],
+    "why_it_matters": "Coding agent 解析大型程式碼庫時常浪費大量 token，Grove 提供結構化、低成本切入點，可顯著降低上下文消耗與解析時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 Grove 包裝自有的 coding agent，取代直接餵完整檔案，測量 token 節省比例並評估對任務準確度的影響。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/4726064?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-04-context-runtime-llm",
+    "title": "context-runtime：LLM 上下文決策的資料庫查詢規劃器",
+    "title_original": "redevops-io/context-runtime",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/redevops-io/context-runtime",
+    "published_at": "2026-07-04T16:43:38Z",
+    "category": "open-source-ai",
+    "summary": "context-runtime 是一個為 LLM 提供上下文查詢規劃的資料庫工具，能在模型回答前決定其可見的上下文內容，並透過可重複使用的 substrate 執行與學習。目前仍屬早期專案，stars 僅 87，技術可行性需實際驗證。",
+    "highlights": [
+      "在模型回答前先規劃所需上下文，減少無關資訊干擾",
+      "透過 substrate 機制重複利用查詢結果降低延遲",
+      "具備學習能力，可從執行結果優化未來查詢策略",
+      "將資料庫查詢 planner 概念引入 LLM 上下文管理",
+      "早期專案，社群基礎薄弱，採用需謹慎評估"
+    ],
+    "why_it_matters": "上下文管理是提升 LLM 輸出品質與效率的核心瓶頸，若 context-runtime 能落地，有潛力成為 RAG 系統的下一代替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "在自建 RAG 系統中評估 context-runtime 的查詢規劃模組，測試其是否能減少無關上下文同時保持答案準確性。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/156182550?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-04-qwen3-6-27b-rp",
+    "title": "Qwen3.6-27B 在中世紀奇幻 RP 測試中表現超預期",
+    "title_original": "Ran a classic(medival europe) fantasy RP/agentic benchmark across 8 local models Qwen3.6-27B held up better than its size suggests",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1unbm45/ran_a_classicmedival_europe_fantasy_rpagentic/",
+    "published_at": "2026-07-04T15:15:49+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶在 LocalLLaMA 分享以中世紀歐洲奇幻角色扮演基準測試 8 個本地模型，Qwen3.6-27B 體積雖小但在 agentic 任務中表現優於預期，暗示其推論與上下文管理能力被低估。",
+    "highlights": [
+      "非傳統 benchmark，使用奇幻 RP 任務",
+      "Qwen3.6-27B 以小體積達成不錯表現",
+      "測試 8 個本地模型，包含 Llama、Qwen 系列",
+      "結果來自 Reddit 社群，非正式學術測試",
+      "Agentic 任務側重多步推論與狀態追蹤"
+    ],
+    "why_it_matters": "若 Qwen3.6-27B 確實性價比高，對算力有限的個人開發者是好消息，可在消費級 GPU 上運行具有一定 agentic 能力的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "用戶可下載 Qwen3.6-27B，用同樣的奇幻 RP 腳本自行測試，驗證該模型在自動化腳本生成或多輪對話任務上的實際表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-04-xai-grok-voice-agent-builder",
+    "title": "xAI 推出企業版 Grok Voice Agent Builder",
+    "title_original": "ICYMI: xAI debuts Grok Voice Agent Builder for Enterprises - TestingCatalog AI News",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcUZ2R25FVHFfZkk0QTEwWXZNeXRJbE5LNnhSVi05RWdfZmFtTklUSXcxaHhWcEVOWlo5Rzh1R29acnVUdlJXaUUydGxSTVVCWkF0cEtsZkt5QTQ5OTVQWU9CbUxYUjRPTFpqNTlvcW1nN0RwclJHX212X1lpRWwyWE82Tld4Sk1Rb0ZVd0xpaVl0LWs?oc=5",
+    "published_at": "2026-07-04T15:15:08+00:00",
+    "category": "new-models",
+    "summary": "xAI 針對企業用戶正式推出 Grok Voice Agent Builder，讓企業能夠快速建構具備語音互動能力的 AI 代理。此工具結合 Grok 模型與即時語音合成技術，降低企業自建語音代理的技術門檻。具體定價與功能細節尚待官方進一步公布。",
+    "highlights": [
+      "xAI 發布企業級 Grok Voice Agent Builder",
+      "支援語音輸入輸出，可快速建構語音代理",
+      "降低企業自建語音 AI 代理的技術與成本門檻",
+      "結合 Grok 模型能力，整合對話與語音處理",
+      "詳細定價與功能限制尚未完全公開"
+    ],
+    "why_it_matters": "語音代理是企業自動化的重要場景，xAI 此舉代表大模型廠商正積極佈局企業級語音代理市場。技術人員可評估其與現有方案的整合可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可搶先註冊測試，探索 Grok Voice Agent Builder 與現有客服系統的整合方式，評估其語音辨識準確率與延遲表現是否滿足企業需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-04-hermes-claude-code",
+    "title": "本地模型搭配 Hermes 對比 Claude Code 實測",
+    "title_original": "Using local models with Hermes vs Claude code",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1unbjr2/using_local_models_with_hermes_vs_claude_code/",
+    "published_at": "2026-07-04T15:13:11+00:00",
+    "category": "new-models",
+    "summary": "Reddit 討論比較使用本地模型加 Hermes 框架與直接使用 Claude Code 的差異。涵蓋速度、成本、任務完成度等多維度比較，社群反饋本地方案在特定場景有替代潛力。",
+    "highlights": [
+      "比較本地部署成本與雲端 API 費用",
+      "Hermes 框架作為本地模型的中間層",
+      "涵蓋速度、輸出品質、使用便利性維度",
+      "結果為社群主觀反饋，非標準化測試",
+      "部分場景本地方案已可實用"
+    ],
+    "why_it_matters": "對於注重資料隱私或想控制 API 成本的技術用戶，本地模型加 Hermes 的組合提供了可行的 Claude Code 替代方案，但需自行承擔部署與維護成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可架設 Hermes + 本地模型環境，用相同任務集對比 Claude Code，量化兩者在自動化工作流程中的實際差距與適用場景。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-04-multi-block-diffusion-language-models",
+    "title": "論文解析：多區塊擴散語言模型（Multi-Block Diffusion Language Models）",
+    "title_original": "[Paper] Multi-Block Diffusion Language Models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1un8y5p/paper_multiblock_diffusion_language_models/",
+    "published_at": "2026-07-04T13:21:18+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群分享了一篇關於「多區塊擴散語言模型」的研究論文。該論文提出將擴散模型概念應用於語言生成的新架構，透過分段處理方式提升生成效率與可控性。具體技術細節與效能表現需閱讀原始論文才能完整評估。",
+    "highlights": [
+      "論文提出多區塊擴散語言模型新架構",
+      "將擴散模型思想應用於文字生成任務",
+      "分段處理可能提升生成效率與可控性",
+      "消息來源為 Reddit 社群，原始論文驗證性較低",
+      "具體效能數據與開源實現尚待確認"
+    ],
+    "why_it_matters": "擴散模型在影像領域已展現優異能力，若成功遷移至語言生成，可能帶來新的生成式 AI 突破。技術人員應持續追蹤此研究方向，評估其實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可追蹤原始論文，評估多區塊擴散架構是否適合特定文字生成任務，並評估與現有自迴歸模型的效能與應用場景差異。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-04-open-accountants-ai-agent-mcp-server",
     "title": "Open Accountants：AI Agent 適用的開源稅務指南 MCP Server",
     "title_original": "openaccountants/openaccountants",
@@ -27,6 +313,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/275335790?v=4",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-04-mistral-leanstral-1-5",
+    "title": "Mistral 發布 Leanstral 1.5 形式證明開源模型",
+    "title_original": "Mistral releases Leanstral 1.5 open model for proof engineering - TestingCatalog AI News",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ1o3SVM2TXoyRmR4SlF5bGNwbXZpN3d3bmxQa3RxRE1TSG9OcGpoY1E2RVZLbk1KRmMwVkhFclgxaGx5dkFUVE9aY1BQSjFxZmZoU2xlalItYXR6aGhuSUhyb3UxZDNtSm5ObjVTOTFlV0lncjc2WHhNVmE5RDV3eGpVSVYxQ0x0UlExSk45Y0RPZ1YxTzhYVTlPdw?oc=5",
+    "published_at": "2026-07-04T12:53:43+00:00",
+    "category": "new-models",
+    "summary": "Mistral 發布 Leanstral 1.5，這是專為形式證明工程設計的開源模型。Leanstral 系列瞄準數學證明輔助場景，可與 Lean 證明助理整合，協助生成或驗證數學陳述。",
+    "highlights": [
+      "專為形式證明工程優化",
+      "與 Lean 證明助理深度整合",
+      "開源發布，社群可自由使用",
+      "Mistral 持續擴展垂直領域模型線",
+      "1.5 版本為最新迭代"
+    ],
+    "why_it_matters": "形式證明模型有別於通用對話模型，瞄準高可靠性的數學/軟體驗證場景。Leanstral 1.5 若達到可用水平，對要求嚴格正確性的自動化工作有意義。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 Leanstral 1.5 輔助形式化驗證工作流程，例如讓模型建議證明步驟，再由 Lean 自動檢驗，實驗人機協作的證明加速效果。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-04-agentset-rag",
@@ -112,6 +426,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/51081940?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-04-ai",
+    "title": "AI 代理疑似誤刪新創公司正式環境資料庫，導致大規模服務中斷",
+    "title_original": "An AI agent allegedly deleted a startup's production database, causing a huge outage - Mashable",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZno5WXh4S2VvTnI0d1VsWnpxM2ZrWmQ4UVlyeE5BQTFqTG9mbmc5QWNtX3ZfR19Nbk9NQzFwZ2xCODI5anJ3WGI2RWpiTHhfcXBneGtjWVJBb1hNQ2VQQVdEQk9PdEd5bFl5MExXcWROSkJ4bG9MRG4wZFk4QlZ0STBVUDZsQ1pBQWc?oc=5",
+    "published_at": "2026-07-04T09:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "據 Mashable 報導，某 AI 代理在執行任務時疑似誤刪了一家新創公司的正式環境資料庫，導致嚴重服務中斷。此事件再次凸顯 AI 代理在自動化操作環境中缺乏足夠的安全防護機制與確認流程。事件細節仍在調查中，「allegedly」用詞暗示消息尚未完全證實。",
+    "highlights": [
+      "AI 代理在正式環境執行資料庫操作時疑似發生錯誤",
+      "誤刪行為導致新創公司服務大規模中斷",
+      "事件反映出當前 AI 代理缺乏足夠的破壞性操作保護機制",
+      "消息來源使用「allegedly」，代表尚未完全證實",
+      "此類事件對企業部署自主代理持保留態度"
+    ],
+    "why_it_matters": "對於技術人員而言，此事件提醒我們 AI 代理在生產環境中的危險性。即使是高階模型，若缺乏完善的熔斷機制與操作審核，可能造成不可逆的資料損失，影響深遠。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員應在代理腳本中加入「Dry Run」模式，並對所有刪除類操作實作多層確認機制，例如：先模擬執行、顯示影響範圍、等待人工確認後再實際操作。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -333,6 +675,34 @@
     "why_it_matters": "此趨勢反映 AI 工具對知識變現生態的深層衝擊。對技術用戶而言，既是警示（付費課程性價比下降），也是機會（如何利用 AI 提升自學效率、降低技能習得成本）。",
     "automation_angle": null,
     "automation_angle_zh": "重新評估個人技能習得策略，用開源模型（如 Longcat 2 或 Gemma 4）搭配 MCP 工具建立個人化學習助理，主動取代付費課程的角色。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-04-techcrunch-ai-ai",
+    "title": "TechCrunch 發布年度 AI 詞彙大全：你今年需要的唯一 AI 術語參考",
+    "title_original": "The only AI glossary you’ll need this year - TechCrunch",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTFI5UTA2VEN1MDducW9ac0w0QlJ3N3BVdVAxNFNkdE9pMHRrRlZIRnNSS1hnQ2d1dHUzX3ZfTUs0YjIzY24wQTJtTXlZOGdiME9qRnhzUkRjMURuQW5EUWlRaTlrZUFuXzIxZDdaeGJyM19MTWQwN25Bc2EzVTVLb18yeHZ0ZzNNRjNBOXJ1REgyWDYxMHA1OThoMVp3YzBPNm5MckNleEJpWDJZUmd4a21MQmU5bGZPdkE?oc=5",
+    "published_at": "2026-07-03T21:20:00+00:00",
+    "category": "hot-topics",
+    "summary": "TechCrunch 整理了一份年度 AI 術語完整指南，收錄當前台灣 AI 領域常見的模型、工具與技術名詞。雖然內容偏向基礎知識，但可作為團隊內部術語對齊或新手培訓的快速參考資源。",
+    "highlights": [
+      "TechCrunch 發布年度 AI 詞彙完整指南",
+      "涵蓋當前主流模型、工具與技術名詞",
+      "內容偏向基礎知識，適合團隊術語對齊",
+      "可用於新手培訓或快速複習 AI 術語",
+      "實用性高但缺乏深度技術解析"
+    ],
+    "why_it_matters": "統一的術語定義是團隊協作的基礎。雖然內容偏基礎，但技術人員可將其作為內部溝通的共用語言參考，減少術語混淆造成的溝通成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將此詞彙表作為團隊 onboarding 教材，快速對齊新成員的 AI 術語認知，或用於與非技術部門溝通時的術語解釋參考。",
     "tags": [
       "hot-topics",
       "rss",
@@ -1365,6 +1735,34 @@
     "why_it_matters": "Coding Agent已成為開發標配，但成本失控會吃掉節省的開發時間；此文提供實務治理框架，技術宅可據此優化團隊AI開支。",
     "automation_angle": null,
     "automation_angle_zh": "用LangChain建議的方法追蹤本週各Agent的token消耗，識別哪些任務類型最耗費配額，針對性設定使用策略。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-04-safari-ai-17-apple",
+    "title": "Safari 為 AI 代理提供即時瀏覽器視窗：17 種工具、無需 Apple 雲端",
+    "title_original": "Safari Gives AI Agents a Live Browser Window: 17 Tools, No Apple Cloud - Tech Times",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONXNfeXcxNGx5blNUR1FMY2Vna1ZWcmdkaXd3bUtneFg0MlBxV3BNaEtoaFZ1SjNNSjlieGZReEdBQ1RkdEwxLXdSSldPMEUtTk13S2xWaTJFc093UER4a2g0VndKNVlZSUNFOUdYTFFQdHdWY1ktRFVnNVlNOFNNb1FGUlBvQWVhWnkxSGFiZGlaT0ZSaGxfVTJMQ05FMk5Ya21ib21HcDBZWWNMaFhjRU9iM0tBc0hzTUpub1lB?oc=5",
+    "published_at": "2026-07-02T18:38:29+00:00",
+    "category": "agent-skills",
+    "summary": "Tech Times 報導指出，Safari 瀏覽器已為 AI 代理開放即時瀏覽視窗功能，支援 17 種工具调用，且完全在本地端執行，無需依賴 Apple 雲端服務。這代表蘋果在保護用戶隱私的前提下，允許 AI 代理直接操作瀏覽器，為本地端網頁自動化開闢新途徑。",
+    "highlights": [
+      "Safari 為 AI 代理開放即時瀏覽器視窗存取能力",
+      "支援 17 種工具调用用於網頁操作自動化",
+      "完全本地端執行，不依賴 Apple 雲端",
+      "隱私優先架構，適合處理敏感資料的自動化場景",
+      "為 macOS/iOS 生態系統中的 AI 代理開發提供新可能"
+    ],
+    "why_it_matters": "本地端瀏覽器代理能力對技術人員極具價值。相較於雲端方案，本地執行提供更好的隱私保障與可控性，尤其適合處理內部系統或敏感資料的自動化任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可使用 Safari 的代理工具接口，開發自動化網頁操作腳本，例如自動填表、資料抓取或 UI 測試，全部在本地執行以確保資料安全。",
     "tags": [
       "agent-skills",
       "rss",
