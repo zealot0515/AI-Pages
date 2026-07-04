@@ -1,5 +1,148 @@
 [
   {
+    "id": "2026-07-04-open-accountants-ai-agent-mcp-server",
+    "title": "Open Accountants：AI Agent 適用的開源稅務指南 MCP Server",
+    "title_original": "openaccountants/openaccountants",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/openaccountants/openaccountants",
+    "published_at": "2026-07-04T12:59:53Z",
+    "category": "agent-skills",
+    "summary": "openaccountants/openaccountants 提供超過 1000 份由執業 CPA、CA、EA 審核的 AI Agent 適用的稅務指南，覆蓋 190+ 司法管轄區。內建 MCP Server，可對接 Claude、ChatGPT、Cursor 等主流 AI 助理。",
+    "highlights": [
+      "1000+ 稅務指南，涵蓋全球 190+ 司法管轄區",
+      "由具名執業會計師審核，內容權威性較高",
+      "提供 MCP Server，與主流 Agent 工具無縫整合",
+      "支援 Claude、ChatGPT、Cursor 等熱門 AI 助理",
+      "Python 實作，方便技術用戶擴展或自建審核流程"
+    ],
+    "why_it_matters": "稅務合規是 AI Agent 在企業場景落地的關鍵障礙之一，Open Accountants 提供了結構化、經專業審核的稅務知識庫，讓 Agent 能處理跨國稅務查詢，降低誤判風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 Open Accountants MCP Server 整合進內部 Agent，自動回答跨國員工或客戶的基礎稅務問題，或作為財務 AI 助理的知識後端，減少人工查詢法規的時間成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/275335790?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-04-agentset-rag",
+    "title": "agentset：內建引用與深度研究的開源 RAG 平台",
+    "title_original": "agentset-ai/agentset",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/agentset-ai/agentset",
+    "published_at": "2026-07-04T12:37:42Z",
+    "category": "agent-skills",
+    "summary": "agentset-ai/agentset 是一款開源 RAG 平台，支援 22 種以上檔案格式、內建引用機制、深度研究功能，並提供 MCP Server。2025 顆星、TypeScript 實作，定位為可快速部署的企業級知識庫解決方案。",
+    "highlights": [
+      "支援 22+ 檔案格式，涵蓋常見文件與結構化資料",
+      "內建引用（citation）機制，提升答案可追溯性",
+      "提供 MCP Server，可與主流 AI 助理整合",
+      "深度研究模式適合需要多輪推論的複雜查詢",
+      "TypeScript 生態，便於前端或 Node.js 團隊維護"
+    ],
+    "why_it_matters": "RAG 是企業 AI 應用的核心需求之一，agentset 提供的內建引用功能解決了黑盒輸出的痛點。開源且具 MCP 支援，降低了技術用戶在企業內部部署知識庫的進入門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 agentset 部署為內部文件的 AI 檢索引擎，利用 MCP Server 將其整合進 Claude Code、Cursor 或自建 Agent 工作流程，實現文件查詢自動化與引用追蹤。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/200139246?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-04-dspark-dflash-mtp-qat",
+    "title": "dSpark、dflash、MTP、QAT等推論加速技術能否緩解模型溢出磁碟問題？",
+    "title_original": "Is dSpark, dflash, MTP, QAT, and similar tech going to increase inference speed enough to where model spillover to disk will be more tolerable?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1un6f8u/is_dspark_dflash_mtp_qat_and_similar_tech_going/",
+    "published_at": "2026-07-04T11:14:47+00:00",
+    "category": "new-models",
+    "summary": "Reddit技術討論探討dSpark、dflash、MTP、QAT等新興推論加速技術是否足以提升推論速度，使模型溢出至磁碟的延遲變得可接受。社區對這些技術的實際效益與量產時間表存在分歧。",
+    "highlights": [
+      "dSpark、dflash為記憶體優化技術，旨在減少VRAM需求",
+      "MTP（Memory Transformer Protocol）專注於記憶體層級優化",
+      "QAT（Quantization-Aware Training）可降低模型精度以換取效能",
+      "技術實際效果尚未有大量Benchmark驗證",
+      "硬體相容性與軟體生態整合仍是挑戰"
+    ],
+    "why_it_matters": "若這些推論加速技術成熟，可大幅降低本地部署大型模型的硬體門檻，讓一般開發者能在消費級GPU上運行更大模型，間接推動邊緣AI與本地Agent應用普及。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術愛好者可在開源實現釋出後，實際測試這些技術對特定模型的VRAM使用量與推論速度影響，評估是否值得整合至個人部署流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-04-ai-job-hunter",
+    "title": "AI Job Hunter：本地優先的求職自動化助理",
+    "title_original": "saeedkolivand/ai-job-hunter-app",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/saeedkolivand/ai-job-hunter-app",
+    "published_at": "2026-07-04T11:03:37Z",
+    "category": "agent-skills",
+    "summary": "ai-job-hunter-app 是一款本地優先的桌面 AI 助理，可爬取職缺版、根據履歷匹配職位，並自動生成履歷與 cover letter。支援 Ollama 離線運行、自帶 API Key 或串接 Claude Code、Codex、Gemini CLI。",
+    "highlights": [
+      "本地執行，履歷資料不上雲，隱私友好",
+      "爬蟲模組自動抓取多個求職平台職缺",
+      "履歷匹配演算法對應候選人背景與職位需求",
+      "支援離線模式（Ollama），節省雲端 API 費用",
+      "可路由至 Claude Code、Codex、Gemini CLI 等主流 Agent"
+    ],
+    "why_it_matters": "求職資訊檢索與履歷客製化是重複性高的任務，AI Job Hunter 將爬蟲、匹配、生成流程自動化，讓技術用戶能專注於面試準備而非行政文書工作。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其作為求職流水線的起點：定時爬蟲 → 自動篩選 → AI 生成客製化履歷。可結合自訂 prompt 進一步控制 cover letter 的語氣與內容，實現半自動求職流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/51081940?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-04-coding-agent",
+    "title": "完全本地化的程式碼仓库索引工具：離線Coding Agent新利器",
+    "title_original": "A fully local, self-hosted repo index for coding agents (Rust, MIT, runs offline)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1un430x/a_fully_local_selfhosted_repo_index_for_coding/",
+    "published_at": "2026-07-04T08:54:19+00:00",
+    "category": "open-source-ai",
+    "summary": "一款完全本地運行、基於Rust開發的程式碼仓库索引工具，採用MIT授權。專為Coding Agent設計，可在無網路環境下運作，讓開發者能快速檢索本地代码庫內容，提升AI輔助編碼的隱私性與響應速度。",
+    "highlights": [
+      "使用Rust編寫，效能優異且記憶體佔用低",
+      "MIT授權，允許商業與個人自由使用",
+      "完全離線運行，無需網路連接即可索引與查詢",
+      "專為Coding Agent優化，可整合至本地LLM工作流程",
+      "可自架部署，數據完全保存在本地環境"
+    ],
+    "why_it_matters": "對注重程式碼隱私的企業或開發者而言，完全本地化的代码索引能確保敏感程式碼不會外流至第三方API，同時離線運作特性適合內網環境或注重資安的開發團隊。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將此工具整合至本地LLM開發環境，實現完全離線的AI程式碼輔助，既節省API費用又提升隱私保護。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-04-petabridge-memorizer-agent-mcp",
     "title": "petabridge/memorizer：向量檢索驅動的 Agent 記憶 MCP 伺服器",
     "title_original": "petabridge/memorizer",
