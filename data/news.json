@@ -116,6 +116,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-04-mistral-leanstral-1-5-lean-4-587",
+    "title": "Mistral Leanstral 1.5：開源Lean 4程式碼代理解出587道數學題",
+    "title_original": "Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdnJkSTA0NDFkUnpDaWZTYjdKVmROaEdNNVNON3RrNTctMlBBdmZRanl0VHZmLXpZaXJRYnBFVF9haEI1eVhORFFnLTFBenJZQ3VzWE5BT25FMGtHcWJ5MVNkTnpIUDVUcFBYQk5SdE5oc2haVW1OWVd2aUJvR0taamd4N3Jpd3BXbkN3RHNXQWhrYXg2WXVzM1NvV181RHh4WVFVdl9ibDQ2UnpzTUVhRTBFTTJHY0RlaVVpWkVwczdRZXZHdENSQXo3Y0FnQkU1cFk5YVNZWHVNdFQwN2t5VFh3ZDRTOFU?oc=5",
+    "published_at": "2026-07-03T22:20:26+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI發布Leanstral 1.5，Apache-2.0授權的Lean 4程式碼代理模型，在PutnamBench上解出587/672題。模型權重開源，可本地部署。",
+    "highlights": [
+      "Apache-2.0開源許可，可商用",
+      "在PutnamBench達成87%正確率",
+      "專精Lean 4形式化數學證明",
+      "模型權重已開源可本地運行"
+    ],
+    "why_it_matters": "開源且高效的形式化推論模型可提升程式碼驗證與數學證明自動化流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "本地部署Leanstral 1.5，用於自動化程式碼邏輯驗證或數學問題求解。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-04-open-source-ai-gap-map-ai-421-mit",
     "title": "Open Source AI Gap Map：開源 AI 生態系全景圖，421 項產品 MIT 授權開放下載",
     "title_original": "Open Source AI Gap Map",
@@ -1895,6 +1922,33 @@
     "why_it_matters": "模型生態快速變化，定期比較有助避免路徑依賴，但指南非官方文件，具體數據應以官網為準。",
     "automation_angle": null,
     "automation_angle_zh": "將指南與實際業務需求對照，用官網最新定價計算 ROI，決定是否切换或同時使用多模型以優化成本。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-04-2026-chatgpt-claude-gemini-grok",
+    "title": "2026年ChatGPT、Claude、Gemini、Grok模型選擇指南",
+    "title_original": "我应該使用哪种人工智慧模型？2026 年 ChatGPT、Claude、Gemini 和 Grok 指南 - Brave New Coin",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVFFQOFNPbTJ0dTR0aEwwOTJZNnd5WjB0c2IzUlFIOVZzNXlpQlZPZ05vN1EwUlZ2RERrdFRGN0lmWHZyUEdsM0xHdUZHVWpTRXZmdXJEUE1uSExwNTNoRTRfcWxURm10MEhhU1d6VkRRS01OVE0tUEJGTVBmNlU3T3NKTWhDa3dLalRmR0JPeDZvNWdWSEY1eVB2eE9wbzdVaGo0bGs3b2RTNFZsNkU0cTJWYkxyZw?oc=5",
+    "published_at": "2026-07-01T21:02:00+00:00",
+    "category": "ai-deals",
+    "summary": "綜合指南比較2026年主流模型在文字、推論、工具调用與成本上的差異，為技術用戶提供選型參考。內容偏概覽，具體數據需查閱官網。",
+    "highlights": [
+      "横向比較四大模型能力",
+      "涵蓋推論速度與成本面向",
+      "提供基本選型建議",
+      "詳細規格仍需查官方文檔"
+    ],
+    "why_it_matters": "快速了解主流模型的相對優劣，有助於根據場景選擇性價比最高的方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據指南初步篩選候选模型，再針對特定任務實際Benchmark比較延遲與成本。",
     "tags": [
       "ai-deals",
       "rss",
