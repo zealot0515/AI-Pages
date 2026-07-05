@@ -1,5 +1,90 @@
 [
   {
+    "id": "2026-07-05-ai-primitives-hub-vs-code-ai-agent",
+    "title": "ai-primitives-hub：VS Code 擴充管理 AI Agent 構件庫",
+    "title_original": "AmadeusITGroup/ai-primitives-hub",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/AmadeusITGroup/ai-primitives-hub",
+    "published_at": "2026-07-05T11:20:51Z",
+    "category": "agent-skills",
+    "summary": "AmadeusITGroup 出品的 VS Code 擴充，可管理、共用、安裝 AI 構件集合（Agent、Skill、Prompt、Instruction、MCP），相容 GitHub Copilot 與其他 AI 助理。44 stars，仍屬早期專案。",
+    "highlights": [
+      "VS Code 內直接管理 AI 構件（Agent、Skill、Prompt 等）",
+      "支援從集中庫安裝他人分享的構件",
+      "相容 GitHub Copilot 及多種 AI 助理",
+      "TypeScript 編寫，44 GitHub stars",
+      "可自架構件庫或使用公共庫共享團隊資產"
+    ],
+    "why_it_matters": "統一的構件管理介面可加速團隊 AI 工作流程複製，降低每次從頭設計 Agent Prompt 的成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可用此工具建立標準化 Prompt/Agent 庫，新專案時一鍵安裝而非重新設計。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6802338?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-longcat-2-0-1-6t-tokens-480-mit",
+    "title": "LongCat 2.0 (1.6T tokens, 約480億活躍參數) 以MIT許可證開源",
+    "title_original": "longcat 2.0 (1.6T, ~48B active) weights are now open under MIT license",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1unyvnz/longcat_20_16t_48b_active_weights_are_now_open/",
+    "published_at": "2026-07-05T10:35:23+00:00",
+    "category": "open-source-ai",
+    "summary": "LongCat 2.0模型權重正式開源，採用1.6T tokens訓練，約480億活躍參數，MIT許可證允許商業使用。該模型專為長上下文場景優化，對需要處理長文本的技術用戶具有實用價值。",
+    "highlights": [
+      "採用1.6T tokens訓練資料，模型規模可觀",
+      "約480億活躍參數，適合消費級GPU本地部署",
+      "MIT許可證明確允許商業用途與二次開發",
+      "專為長上下文處理場景優化設計",
+      "可直接下載權重，無需額外申請"
+    ],
+    "why_it_matters": "對於需要長上下文處理的開發者，LongCat 2.0提供了一個可本地部署、商用友好的選擇，可降低對商業API的依賴與長期成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地部署LongCat 2.0，用於自動化長文檔摘要、合同分析、程式碼庫理解等工作流程程，完全掌控資料隱私並節省API費用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-localllama-40b",
+    "title": "LocalLLaMA 熱議：40B+ 參數模型最佳選擇討論",
+    "title_original": "Best choice of model 40B+ Parameters",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1unxohg/best_choice_of_model_40b_parameters/",
+    "published_at": "2026-07-05T09:21:17+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串聚集技術用戶交流 40B 以上參數模型的使用心得與選型建議，涉及多個開源模型比較，但整理較零散，缺乏統一結論。",
+    "highlights": [
+      "社群驅動的模型選型討論，實用經驗為主",
+      "涵蓋多個 40B+ 開源模型（如 Llama、Mistral 系列等）",
+      "討論內容包括速度、記憶體需求、輸出品質",
+      "適合快速了解各模型在特定硬體上的表現",
+      "非結構化文本，需自行過濾噪音"
+    ],
+    "why_it_matters": "40B 級模型是本地部署與效能的甜蜜點，社群實測經驗可補充官方文件的盲區，但需批判性閱讀。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用此討論串快速評估適合本地部署的 40B 模型，再自行做基準測試確認。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-05-reddit",
     "title": "Reddit 社群發起行星規模本地模型效能測試",
     "title_original": "A planetary test for local models",
