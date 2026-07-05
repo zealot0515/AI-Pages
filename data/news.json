@@ -1,5 +1,61 @@
 [
   {
+    "id": "2026-07-05-reddit",
+    "title": "Reddit 社群發起行星規模本地模型效能測試",
+    "title_original": "A planetary test for local models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1unuruo/a_planetary_test_for_local_models/",
+    "published_at": "2026-07-05T06:26:35+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群成員發起大規模本地模型橫向測試計畫，動員全球志願者在不同硬體環境（涵蓋 CPU、GPU、蘋果 M 系列晶片）、網路條件與作業系統下，對多款主流開源模型進行效能基準測試，重點評估延遲、吞吐量與記憶體使用效率。",
+    "highlights": [
+      "測試對象包括 LLaMA、Mistral 等主流開源模型系列",
+      "硬體涵蓋消費級顯示卡、蘋果晶片、傳統 CPU 等多種環境",
+      "關注推論延遲、每秒 tokens 吞吐量、VRAM/RAM 佔用等指標",
+      "提供可重現的 benchmark 腳本與數據收集機制",
+      "初步結果顯示模型壓縮與量化技術對本地部署影響顯著"
+    ],
+    "why_it_matters": "本地部署模型的效能資料過去分散且缺乏標準化，此測試提供跨平台、跨模型的統整基準，有助技術人員選擇符合硬體條件的模型配置，避免盲目選型導致資源浪費。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載該 benchmark 腳本，在自己的硬體環境執行自定義測試，生成與社群數據對比的報告，作為企業內部模型選型的參考依據。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-13-65k-128k-context",
+    "title": "13 款模型 65K-128K Context 基準測試：長上下文真正影響因素揭曉",
+    "title_original": "I benchmarked 13 models at 65K-128K context to find out what actually matters for agentic workloads",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1unrse9/i_benchmarked_13_models_at_65k128k_context_to/",
+    "published_at": "2026-07-05T03:37:23+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶實測 13 款模型在 65K 至 128K 上下文長度下的 Agent 工作負載表現，發現並非所有長上下文模型都能有效處理多步推論任務，個別模型存在上下文利用率差異與召回瓶頸。",
+    "highlights": [
+      "測試 13 款模型在 65K-128K 區間的 Agent 表現",
+      "長上下文並非等於高效能，召回與推論能力因模型而異",
+      "部分模型在長上下文下出現效能退化或召回失準",
+      "研究方法為社群自測，非官方機構發布",
+      "結果有助選型參考但需自行驗證"
+    ],
+    "why_it_matters": "對需要處理大量上下文（如長文件分析、對話記憶）的技術用戶而言，此測試揭露了模型宣稱的上下文容量與實際可用性的差距，避免選錯高成本長上下文模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據測試結論挑選 2-3 款模型，在自有任務場景下設計召回測試（例如檢索長文件中的特定段落），驗證模型是否真正能在目標長度下穩定工作。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-05-sqlite-utils-4-0rc2-simon-willison-claude-fable-149-25",
     "title": "sqlite-utils 4.0rc2：Simon Willison 以 Claude Fable 完成穩定版，含 $149.25 成本分析",
     "title_original": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
@@ -54,6 +110,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/44978768?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-applications",
+    "title": "「Applications」技巧：小模型也能完成大任務的新思路",
+    "title_original": "Using \"applications\" to make a smaller model more effective at bigger tasks.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1unobl4/using_applications_to_make_a_smaller_model_more/",
+    "published_at": "2026-07-05T00:26:43+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 討論提出以「Applications」方式將小模型分層應用，讓它在特定子任務上表現接近大模型，進而用較少資源完成複雜工作。核心思路是透過任務分解與模型調度，而非僅依賴單一超大模型。",
+    "highlights": [
+      "透過「Applications」概念重構任務流程",
+      "小模型可在特定子任務達到大模型水準",
+      "強調任務分解與模型分工，而非單一模型暴力堆疊",
+      "有助降低推論成本與延遲",
+      "目前為社群討論階段，缺乏系統性量化數據"
+    ],
+    "why_it_matters": "在算力成本與延遲敏感場景下，此思路提供了一條不追逐最大模型的替代路徑，技術用戶可探索以小模型組合完成原本需要大模型的任務，進而節省 API 費用與部署資源。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可選一個現有小模型擔任 Router，配合幾個專精小模型處理子任務，觀察是否能以較低總成本完成原本需要大模型的 Pipeline；建議記錄成功率與延遲做對比。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -50283,6 +50367,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-05-sap-11-6-ai",
+    "title": "SAP 宣布投資 11.6 億美元入股德國 AI 新創實驗室",
+    "title_original": "SAP bets $1.16B on 18-month-old German AI lab and says yes to NemoClaw - TechCrunch",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNN080alFyZGJaRXc2X0xtNF95RGpvUVdlWDJsQzA1YzA1QzFZQnc5RmoweEZmbWRLMjAydUFvRnF5LTQyQmRMay1tWFhMQkJrZEZUUENUdGN4R1J5SUVmeVZBY2dxQ19NY1duR2p1U2pqb2h2UTBUMVNpalpIWXlka2tTOFp5WFZPVFJmX0ZTZzdvTnBkWkNGUEcxRVJKU0ZXSEpUMFFKRQ?oc=5",
+    "published_at": "2026-05-05T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "企業軟體巨頭 SAP 宣布向成立僅 18 個月的德國 AI 實驗室投入 11.6 億美元戰略投資，並表態支援其 NemoClaw 模型家族。這是近期歐洲 AI 領域最大規模的企業級投資案之一，雙方將在企業軟體場景探索模型整合可能性。",
+    "highlights": [
+      "投資金額達 11.6 億美元，為德國 AI 新創史上最大單筆企業投資",
+      "目標實驗室成立僅 18 個月，專注企業場景 AI 應用",
+      "SAP 明確表態支援其 NemoClaw 模型系列",
+      "雙方將在 ERP 流程自動化場景展開合作",
+      "此投資反映企業級 AI 應用市場持續升溫"
+    ],
+    "why_it_matters": "此案顯示大型企業軟體公司正積極併購或投資專業 AI 實驗室以構建差異化競爭力，NemoClaw 若成功整合 SAP 生態，可能對企業 AI 工具市場格局產生深遠影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 SAP 官方技術文件與 API 更新預告，若 NemoClaw 整合至 SAP Business Technology Platform，可評估其在財務自動化、供應鏈優化等場景的客製化應用潛力。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-23-augment-code-claude-code-claude-agent-sdk",
     "title": "Augment Code 比較 Claude Code 與 Claude Agent SDK 適用場景",
     "title_original": "Claude Code vs Claude Agent SDK: Which Is for What - Augment Code",
@@ -53048,6 +53160,34 @@
     "why_it_matters": "過去需用 CLI 或 Terraform 做的雲端操作，現在可直接讓代理執行。對 DevOps 工程師而言，這是將日常運維工作自動化的捷徑。",
     "automation_angle": null,
     "automation_angle_zh": "在隔離的測試帳號中部署 Agent Plugin，測試「讓代理自動建立一個 S3 bucket 並上傳部署檔」這類常見工作流程，確認無需人類審批的自動化上限與錯誤恢復機制。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-agoda-apiagent-rest-graphql-api-mcp-server",
+    "title": "Agoda 開源 APIAgent：一鍵將 REST/GraphQL API 轉為 MCP Server",
+    "title_original": "Agoda Open Sources APIAgent to Convert Any REST pr GraphQL API into an MCP Server with Zero Code - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYWQ2SWZJVlhYeWxvMEptMlVmdHhlTVR6UmVOYi15ZGc1Vzl0TVlTYzk4ODdyVEpOZWJfLWpncFQ1a1ZsS3N5VGV2VnRaSTNfRGlENUh0b01kMFRxV2s4OWwtRlZvVEp2RC1jZWl1MVFMNklKdXlORU5OOTFOYlhwbFlMZVp1SjhzcUdUT3ZWWVdTalRwXzRMbkU1Y05BVEstbnNhRmgxV1haMUR6WDBaMVBxWTF6dE0waVRvUzNHaXVERWczelZqdWc5OVFFWng3WkNr?oc=5",
+    "published_at": "2026-02-16T08:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Agoda 開源工具 APIAgent，可將任意 REST 或 GraphQL API 零程式碼轉換為 MCP（Model Context Protocol）Server，讓 AI Agent 能以標準化方式存取外部 API。此工具有助降低 AI 助理整合企業內部系統的開發門檻。",
+    "highlights": [
+      "零程式碼將 REST/GraphQL API 轉為 MCP Server",
+      "AI Agent 透過 MCP 標準協議存取外部服務",
+      "適用於快速為 AI 助理建立 API 工具生態",
+      "可整合企業內部系統如 ERP、CRM",
+      "開源專案，可自架部署避免依賴第三方"
+    ],
+    "why_it_matters": "MCP 正在成為 AI Agent 工具呼叫的事實標準，APIAgent 可大幅簡化企業 API 的 AI 整合成本，技術用戶可用於快速原型建構與內部工具串接。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可挑選一個內部 REST API，透過 APIAgent 將其轉為 MCP Server，然後讓本地 Agent 測試呼叫該 API 完成一個實際任務（如查資料或寫入資料）。",
     "tags": [
       "agent-skills",
       "rss",
