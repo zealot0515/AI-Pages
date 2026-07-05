@@ -1,5 +1,284 @@
 [
   {
+    "id": "2026-07-05-anima-use-google-mcp-agent-google",
+    "title": "anima-use-google：MCP 伺服器讓 Agent 使用已登入的瀏覽器執行 Google 搜尋",
+    "title_original": "animaios/anima-use-google",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/animaios/anima-use-google",
+    "published_at": "2026-07-05T18:55:50Z",
+    "category": "agent-skills",
+    "summary": "MCP 伺服器與瀏覽器擴充功能，讓 AI Agent 能使用已登入的瀏覽器環境執行 Google AI Mode 搜尋，繞過一般 API 的登入限制。",
+    "highlights": [
+      "基於 MCP 協定，標準化整合方式",
+      "可使用已登入的 Google 工作階段，突破搜尋限制",
+      "適用於需要登入驗證才能取得的搜尋結果",
+      "JavaScript 語言，與前端生態相容性高",
+      "GitHub 18 星，屬於新興工具但已有基礎社群"
+    ],
+    "why_it_matters": "解決了 Agent 無法執行登入後 Google 搜尋的限制，可顯著增強需要登入驗證資訊的 Agent 工作流程能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將其整合至現有 Agent 工作流程，自動完成需要 Google 登入驗證的資料收集與競品分析任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/291361474?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-ai-granola",
+    "title": "開源 AI 記事本瞄準 Granola 替代方案",
+    "title_original": "Who Has The “Jankiest” Local LLM Setup? | Non-Official | Fun Contest | No Prizes",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoa1t3/who_has_the_jankiest_local_llm_setup_nonofficial/",
+    "published_at": "2026-07-05T18:46:53+00:00",
+    "category": "agent-skills",
+    "summary": "開發者在 Reddit 分享自製開源 AI 記事本專案，功能對標 Granola，主打本地運行與可擴充性，目前仍在早期開發階段，歡迎社群貢獻以提升功能完整性。",
+    "highlights": [
+      "● 開源替代商業 AI 記事本 Granola",
+      "● 強調本地運行與資料自主掌控",
+      "● 目前功能尚未完善依賴社群共建",
+      "● 可整合至個人工作流程"
+    ],
+    "why_it_matters": "Granola 等 AI 記事本在國外獲關注但多為商業產品，本土化或重視隱私的用戶缺乏替代選擇。此開源專案若成熟可滿足技術用戶的自託管需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "可持續關注該專案進度，若日後支援會議錄音自動摘要與標籤分類，可取代付費服務並將數據完全保留在本地 NAS 或個人伺服器上。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-qualcomm-geniex-windows-llm",
+    "title": "Qualcomm GenieX 登陸 Windows 筆電支援本地 LLM 推論",
+    "title_original": "Qualcomm launches GenieX to run LLMs on their Windows Laptops",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uo9z3c/qualcomm_launches_geniex_to_run_llms_on_their/",
+    "published_at": "2026-07-05T18:43:52+00:00",
+    "category": "new-models",
+    "summary": "Qualcomm 推出 GenieX 工具，讓 Snapdragon 處理器的 Windows 筆電能本地運行大型語言模型，瞄準輕量級 AI 推論場景，強調離線隱私與低功耗優勢。",
+    "highlights": [
+      "● 針對 Snapdragon 筆電的本地 LLM 推論方案",
+      "● 支援離線使用強調資料隱私",
+      "● 低功耗設計適合移動辦公場景",
+      "● 目前僅限特定硬體平台"
+    ],
+    "why_it_matters": "Qualcomm 試圖將 AI 推論能力延伸至 ARM 筆電，改變過去 x86 架構壟斷的局面。若生態完善，可能催生新型態的本地 AI 應用開發需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可測試現有 Python AI 工具鏈在 ARM Windows 環境的相容性，探索在 Snapdragon 筆電上本地跑輕量模型（如 7B）做會議摘要或文件分類的可行性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-reddit-llm",
+    "title": "Reddit 熱議：開放權重 LLM 模型的長期可行性是否面臨瓶頸",
+    "title_original": "Is the current Open Weight LLM model viable in the long term?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uo9m72/is_the_current_open_weight_llm_model_viable_in/",
+    "published_at": "2026-07-05T18:29:49+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 用戶熱烈討論開放權重模型的長期可行性，聚焦規模擴展瓶頸、訓練成本與商業模式可持續性等核心議題。",
+    "highlights": [
+      "聚焦開放權重模型的技術與商業可持續性議題",
+      "涉及規模定律是否接近瓶頸的討論",
+      "訓練成本與資料來源獲取難度是核心挑戰",
+      "反映技術社群對開源模型未來走勢的疑慮",
+      "討論內容多元，缺乏共識性結論"
+    ],
+    "why_it_matters": "此類討論揭示了本地部署 LLM 的長期成本與可行性疑慮，有助於技術人員評估是否持續投入本地模型資源。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可參考這些討論觀點，重新評估本地部署的成本效益，決定是否將部分工作負載轉向商業 API。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-eval-harness-cli",
+    "title": "eval-harness：個人化 CLI 代理評測工具出爐",
+    "title_original": "eval-harness: A solution for generating personal evaluations that I have put together to evaluate agentic-cli harnesses",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uo8lik/evalharness_a_solution_for_generating_personal/",
+    "published_at": "2026-07-05T17:50:17+00:00",
+    "category": "agent-skills",
+    "summary": "開發者自建開源工具，用於對本地 CLI 代理框架進行量化評估。支援自訂任務集，可快速比較不同模型或代理架構的任務完成率與錯誤模式，適合追求本地化測試流程的技術團隊。",
+    "highlights": [
+      "● 開源自製 CLI 代理評測框架",
+      "● 支援自訂任務與指標定義",
+      "● 可對比本地模型與商業模型表現差異",
+      "● 有助於識別代理系統的常見失效模式",
+      "● 降低企業內部模型評估的雲端依賴"
+    ],
+    "why_it_matters": "本地模型評測長期缺乏標準化工具，此方案提供可重現的自動化測試流程，技術團隊可在部署前量化代理能力，降低上線風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 eval-harness 整合至 CI/CD 流程，每次模型更新自動跑完任務集並生成評測報告，實現代理能力變化的持續追蹤。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-kivarro",
+    "title": "Kivarro：本地推論一站式工作台開源發布",
+    "title_original": "Built Kivarro, an all-in-one local inference workbench. Looking for brutal feedback from people who actually run models locally.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uo88oq/built_kivarro_an_allinone_local_inference/",
+    "published_at": "2026-07-05T17:36:04+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者發布名為 Kivarro 的本地推論整合工具，支援多種模型的統一管理、提示詞測試、輸出比較與 API 代理，為本地 AI 實驗提供圖形化介面。",
+    "highlights": [
+      "支援 Ollama、vLLM、lm-studio 等後端",
+      "提供模型對比測試功能",
+      "內建提示詞版本控制",
+      "可部署為本地 API 伺服器",
+      "尋求社群回饋以改善 UX"
+    ],
+    "why_it_matters": "本地 AI 工具鏈日趨成熟，Kivarro 這類整合工具可加速技術用戶的模型評估與工作流程程迭代。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝 Kivarro 統一管理本地模型，系統化比較不同模型在相同任務上的表現以選擇最佳方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-128gb-ddr5-16gb-vram-qwen-2-5-122b-moe",
+    "title": "128GB DDR5 + 16GB VRAM 能否運行 Qwen 2.5 122B MoE 模型？",
+    "title_original": "How a 128gb ddr5 ram + 16gb vram, would work for a Moe model like Qwen 3.5 122b?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uo85td/how_a_128gb_ddr5_ram_16gb_vram_would_work_for_a/",
+    "published_at": "2026-07-05T17:32:47+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 討論在有限 VRAM 環境下運行 Qwen 2.5 122B MoE 模型的可行性，分析 CPU 卸載、量化等級與 KV Cache 配置對實際可用性的影響。",
+    "highlights": [
+      "MoE 架構大幅減少激活參數",
+      "CPU 卸載為主要瓶頸",
+      "Q4 量化可降至約 70GB 總需求",
+      "互動延遲可能高達數十秒",
+      "實際可用但體驗受限"
+    ],
+    "why_it_matters": "硬體限制下的模型執行討論有助技術用戶評估本地部署邊界，優化資源配置以平衡效能與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "計算個人硬體環境下可運行的最大模型規格，評估是否值得投入升級或改用雲端方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-supra-router-51m-51m",
+    "title": "Supra-Router-51M：僅 51M 參數的提示路由模型開源",
+    "title_original": "[RELEASE] Supra-Router-51M - a tiny prompt routing model/orchestrator",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uo826q/release_suprarouter51m_a_tiny_prompt_routing/",
+    "published_at": "2026-07-05T17:28:53+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶發布僅 5100 萬參數的極小型提示路由模型，可根據用戶查詢自動選擇合適的專家模型或系統提示，適用於本地部署的模型路由場景。",
+    "highlights": [
+      "僅 51M 參數，適合邊緣裝置",
+      "可路由至多個專家模型",
+      "開源 MIT 授權",
+      "支援自訂路由規則配置",
+      "可在 CPU 上運行"
+    ],
+    "why_it_matters": "小型路由模型可降低多模型系統的調度成本，讓本地 AI 架構更高效且易於客製化。",
+    "automation_angle": null,
+    "automation_angle_zh": "將其整合至本地 LLM 堆疊，測試是否能根據任務自動選用精簡或大型模型以平衡速度與品質。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-forze-typescript-agent",
+    "title": "Forze：瞄準創辦人的 TypeScript Agent 系統，號稱五分鐘從概念到產品",
+    "title_original": "Arham-Begani/Forze",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Arham-Begani/Forze",
+    "published_at": "2026-07-05T14:42:22Z",
+    "category": "agent-skills",
+    "summary": "Forze 是一個 TypeScript 開源 Agent 框架，旨在幫助創辦人快速將概念轉化為可上線 MVP，號稱能彌補「執行差距」。目前 GitHub 僅 22 星。",
+    "highlights": [
+      "TypeScript 開發，與現代前端生態系整合便利",
+      "主打從概念到產品的端到端流程自動化",
+      "目前 GitHub 僅 22 星，社群基礎薄弱，成熟度待觀察",
+      "口號訴求明確但實際效果需實際測試驗證",
+      "開源可自架但缺乏詳細文件"
+    ],
+    "why_it_matters": "若能兌現承諾，可大幅降低 MVP 開發門檻；但目前社群回饋有限，需持續觀察後續更新與社群採用情況。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術創辦人可將其作為快速原型工具，測試是否能加速概念驗證流程，評估是否值得長期投入。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/123586002?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-qwen-3-6-27b-vllm",
+    "title": "Qwen 3.6 27B VLLM 推論效能實測出爐",
+    "title_original": "Qwen 3.6 27B - VLLM Performance Benchmark Results (BF16, FP8, NVFP4)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uo32yw/qwen_36_27b_vllm_performance_benchmark_results/",
+    "published_at": "2026-07-05T14:06:23+00:00",
+    "category": "new-models",
+    "summary": "社群成員發布 Qwen 3.6 27B 在 VLLM 推論引擎下的效能基準測試，涵蓋 BF16、FP8、NVFP4 三種量化模式，並提供吞吐量與延遲對比數據，供本地部署選型參考。",
+    "highlights": [
+      "● 涵蓋 BF16 / FP8 / NVFP4 三種精度對比",
+      "● 提供 VLLM 推論引擎下的吞吐量與延遲數據",
+      "● 27B 參數量適合中高階 GPU 本地部署",
+      "● 有助技術選型時評估性價比與效能取捨"
+    ],
+    "why_it_matters": "Qwen 3.6 系列為近期開源社群關注模型，此 benchmark 提供實測數據而非官方宣稱值，技術用戶可據此選擇適合的量化方案與硬體配置。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據測試結果選擇 NVFP4 部署可降低 VRAM 需求，在保持合理效能前提下將 27B 模型部署至消費級 GPU，節省雲端推論成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-05-ai-primitives-hub-vs-code-ai-agent",
     "title": "ai-primitives-hub：VS Code 擴充管理 AI Agent 構件庫",
     "title_original": "AmadeusITGroup/ai-primitives-hub",
@@ -50,6 +329,34 @@
     "automation_angle_zh": "技術用戶可在本地部署LongCat 2.0，用於自動化長文檔摘要、合同分析、程式碼庫理解等工作流程程，完全掌控資料隱私並節省API費用。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-agents-a1-q8-0-gguf",
+    "title": "Agents-A1-Q8_0-GGUF 量化版本實測反馈",
+    "title_original": "Agents-A1-Q8_0-GGUF works pretty well for me (anecdotal feedback)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1unxrjw/agentsa1q8_0gguf_works_pretty_well_for_me/",
+    "published_at": "2026-07-05T09:26:34+00:00",
+    "category": "new-models",
+    "summary": "社群用戶分享 Agents-A1 模型的 Q8_0 GGUF 量化版本使用體驗，該版本在保持較高準確度的同時大幅降低 VRAM 需求，適合消費級 GPU 本地運行。",
+    "highlights": [
+      "Q8_0 量化約減少 50% 記憶體佔用",
+      "實測 Agent 任務表現穩定",
+      "需至少 12GB VRAM",
+      "支援 llama.cpp 框架",
+      "社群回饋積極"
+    ],
+    "why_it_matters": "量化技術持續進步，讓更強大的 Agent 模型能在一般硬體上運行，降低本地部署的門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 GGUF 版本在本地測試 Agent 能力，評估其是否能勝任個人工作流程程中的自動化任務。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -453,6 +760,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/156182550?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-mistral-ai-openai-ai",
+    "title": "Mistral AI 完整解析：挑戰 OpenAI 的歐洲AI新星",
+    "title_original": "What is Mistral AI? Everything to know about the OpenAI competitor - TechCrunch",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOGFMWVRTUTB1Mm9LMFJBUFQ1RjZ1ckJRSi1JMmtQQWxEVFZNOUlPYW5NYkJmeF9BNU0zaERVdmh1TDVBVGhSZXMwaG5HR0dPeTlmOEt4VE5uNl8weFR4OHlwdlRjNlJBUzd4cWItNGxNWEx5ZHJzc0lUOEcwWmpKbXhpTWlWUENFNVk1akJ1M05hWVhWcUQ2NDZEeXhaaWY5dEE?oc=5",
+    "published_at": "2026-07-04T15:51:32+00:00",
+    "category": "hot-topics",
+    "summary": "TechCrunch 發布 Mistral AI 深度報導，涵蓋其模型矩陣（Mistral、Nemo、Mixtral）、開源策略、定價模式及與微軟、AWS 的合作關係，解析其商業模式與技術差異化。",
+    "highlights": [
+      "Mixtral 8x7B 採用稀疏 MoE 架構",
+      "提供開源與商業授權雙軌模式",
+      "與 Azure AI 和 AWS Bedrock 深度整合",
+      "歐洲監管合規為其重要賣點",
+      "估值已超過 20 億美元"
+    ],
+    "why_it_matters": "Mistral 作為歐洲唯一能與美國巨頭抗衡的 AI 公司，其開源策略與企業市場佈局值得技術決策者持續追蹤。",
+    "automation_angle": null,
+    "automation_angle_zh": "比較 Mixtral 與 GPT-4 在特定任務的成本效益，評估其 API 是否能作為生產環境的替代方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -4197,6 +4532,34 @@
     "why_it_matters": "對需要讓 Agent 執行外部腳本的開發者而言，WASM 隔離方案提供比容器更快的冷啟動與更細粒度的安全控制，降低生產環境風險。",
     "automation_angle": null,
     "automation_angle_zh": "在自建 Agent 系統中整合此 WASM 隔離層，評估執行第三方 Python/JS 腳本時的資源佔用與安全邊界。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-harness-ai-agent-devops",
+    "title": "Harness 推出自主 AI Agent 自動化 DevOps 工作流程程",
+    "title_original": "Harness Adds Autonomous AI Agents to Automate DevOps Workflows - DevOps.com",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUDk0bFFOTDloZEptQ2lROHlhWFBqSktyVEpvOFE5MDQ5SFlIY0tfVkpNNG1UcDB3MUtZdnk2czZMc3cyNFNoMkNVd2VvUTh1NzE1Vzg2dEVDZklfMTI0bnFJRVpYcTVock5KOHZ5R05RUVM0b2tFaTZEN1FEV0EyUU42WEptZHcxVHc?oc=5",
+    "published_at": "2026-06-30T15:22:25+00:00",
+    "category": "agent-skills",
+    "summary": "Harness 宣布將自主 AI Agent 整合至其 CI/CD 平台，實現基礎設施配置、部署監控與事故回應的端對端自動化，目標減少人工介入並加速發行週期。",
+    "highlights": [
+      "整合 LLM 驅動的 Agent 至 Harness 平台",
+      "支援基礎設施即程式碼的自動修正",
+      "可自動分析部署失敗原因並提出修復建議",
+      "提供事故回應的對話式介面",
+      "瞄準企業級 DevOps 團隊"
+    ],
+    "why_it_matters": "DevOps 自動化進入 Agent 時代，可將繁瑣的部署決策與監控分析交由 AI 處理，大幅縮短 MTTR 並釋放工程師產能。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估其 Agent 在實際 CI/CD Pipeline 中的錯誤修正能力，測試是否能減少 on-call 工程師的干預次數。",
     "tags": [
       "agent-skills",
       "rss",
@@ -46084,6 +46447,32 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/152970?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-alteryx-ai",
+    "title": "Alteryx 發布新功能強化 AI 驅動自動化",
+    "title_original": "Latest Alteryx features aim to boost AI-powered automation - TechTarget",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd3JqLWhNVXhyajRlVDFubzRxaWx0X3FVWk9qeXAyNFliMmNwWVJDMzg3QzVWLXliY204bEdxZmVTREluemVHWVhLc2w5bWN2SzJmZDc1Y0RKQ1Q4RXc2Yjg2TGNWaUR0ZVE5R2tRM3Jab1pUNndrTmdtNURMajE0WmxvdGhObEhHMm1iUkxlaTJfS2RZdG1Ya3QtRHRvT3NRbFI5dnAybmdlWU9IbnNETF9SREMwYzJqQnpxSmR3?oc=5",
+    "published_at": "2026-05-20T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Alteryx 推出新功能瞄準企業級 AI 自動化市場，強調無程式碼工作流程與生成式 AI 的整合，目標降低數據分析門檻並提升業務流程效率，具體功能更新待官網確認。",
+    "highlights": [
+      "● 強調無程式碼 AI 工作流程整合",
+      "● 瞄準企業級數據分析自動化場景",
+      "● 具體功能更新尚未完整揭露"
+    ],
+    "why_it_matters": "企業數據自動化市場持續整合 AI 能力，Alteryx 的更新反映主流 BI 工具的 AI 化趨勢，但需等官方詳細文件才能評估實質價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "若功能已落地，可評估其是否能將重複性數據處理任務（如報表生成、數據清洗）自動化和排程，以減少人工操作負擔。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
