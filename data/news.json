@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-07-05-sqlite-utils-4-0rc2-simon-willison-claude-fable-149-25",
+    "title": "sqlite-utils 4.0rc2：Simon Willison 以 Claude Fable 完成穩定版，含 $149.25 成本分析",
+    "title_original": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
+    "published_at": "2026-07-05T01:00:48+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 分享使用 Claude Fable（花費 $149.25）完成 sqlite-utils 4.0rc2 的完整過程，含交易模型重構、37 個提示詞、34 次提交。展示了 AI 編碼 Agent 在真實專案中的實際應用與成本。",
+    "highlights": [
+      "發現 delete_where() 未正確 commit 導致資料遺失的嚴重 Bug",
+      "重構交易模型：所有寫入方法現在自動 commit",
+      "db.query() 行為改變：立即執行而非延遲迭代",
+      "支援 Python 3.12+ autocommit 選項的處理方式",
+      "展示子代理與廉價模型的成本優化潛力"
+    ],
+    "why_it_matters": "這篇詳細的成本與過程分析真實呈現了 AI 編碼工具的能力邊界與實際費用，為技術決策者評估 AI 輔助開發成本提供了寶貴參照。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用類似流程：先讓強模型處理複雜重構，再用廉價模型做簡單任務；用 agentsview 等工具追蹤實際消耗，及時發現成本異常。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-05-healthclawguardrails-fhir-ai-agent",
+    "title": "HealthClawGuardrails：面向 FHIR 臨床資料的開源 AI Agent 安全護欄",
+    "title_original": "aks129/HealthClawGuardrails",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aks129/HealthClawGuardrails",
+    "published_at": "2026-07-05T00:58:35Z",
+    "category": "agent-skills",
+    "summary": "HealthClawGuardrails 是連接 AI Agent 與 FHIR 臨床資料的開源安全層，實現 PHI 去識別化、不可變審計、階梯式認證、租戶隔離。提供 MCP Server 及 OpenAI/Gemini 轉接器。",
+    "highlights": [
+      "PHI（受保護健康資訊）自動去識別化",
+      "不可變審計日誌追蹤所有資料訪問",
+      "階梯式認證機制提升安全等級",
+      "租戶隔離防止跨組織資料洩漏",
+      "支援 MCP Server 及主流模型轉接器"
+    ],
+    "why_it_matters": "在 HIPAA 合規要求下，醫療 AI 應用需要嚴格的資料訪問控制。此專案提供開箱即用的安全護欄，可加速醫療 AI 產品的合規開發。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發醫療 AI 應用的技術團隊可直接部署此護欄，配合 FHIR API 測試 PHI 去識別化效果，評估其與現有電子病歷系統的整合難度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/44978768?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-uikit-agent-skill-ai-ios-13-26-uikit",
+    "title": "UIKit-Agent-Skill：教 AI 編碼助理正確撰寫 iOS 13-26 現代 UIKit 程式碼",
+    "title_original": "tornikegomareli/UIKit-Agent-Skill",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tornikegomareli/UIKit-Agent-Skill",
+    "published_at": "2026-07-05T00:18:25Z",
+    "category": "agent-skills",
+    "summary": "UIKit Max Agent Skill 旨在教導 AI 編碼助理撰寫正確、現代且高效能的 UIKit 程式碼，支援 iOS 13 至 iOS 26 版本，是提升 iOS 開發效率的領域特定 Agent 工具。",
+    "highlights": [
+      "涵蓋 iOS 13 到 iOS 26 的 UIKit 版本相容性",
+      "專注於程式碼正確性與現代寫法",
+      "提升 AI 助理在 iOS 專案中的表現",
+      "可用於自動化 iOS UI 程式碼生成",
+      "28 Stars，社群的關注度尚在早期"
+    ],
+    "why_it_matters": "隨著 AI 輔助編碼普及，針對特定平台與框架的最佳實踐 Skill 將成為提升 AI 產出品質的關鍵，UIKit 開發者可借此減少樣板程式碼的耗時。",
+    "automation_angle": null,
+    "automation_angle_zh": "iOS 開發者可在自己的 Claude Code 或 Cursor 環境中整合此 Skill，用實際 UIKit 專案測試 AI 生成程式碼的正確性與版本相容表現。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/24585160?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-05-anthropic-claude",
+    "title": "新模型反而出錯更多：Anthropic 新版 Claude 自訂工具調用能力下降",
+    "title_original": "Better Models: Worse Tools",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything",
+    "published_at": "2026-07-04T22:53:52+00:00",
+    "category": "agent-skills",
+    "summary": "開發者 Armin 發現一個反直覺的現象：較新的 Claude Opus 4.8 和 Sonnet 5 在呼叫第三方工具時，會在編輯陣列中夾帶「發明」的欄位，導致工具調用被拒絕需重試。舊版模型反而沒有這問題。原因推測是 Anthropic 透過強化學習讓新模型特別擅長使用 Claude Code 內建的 search/replace 工具，但犧牲了對自訂 schema 的準確性。",
+    "highlights": [
+      "新版 Opus 4.8、Sonnet 5 會在 edits[] 陣列中產生 schema 未定義的欄位，導致工具呼叫失敗",
+      "舊版 Anthropic 模型反而沒有此問題，顯示能力並非線性提升",
+      "問題根源可能與 Anthropic 針對 Claude Code 工具的 RL 訓練有關",
+      "OpenAI Codex 採用 apply_patch 機制，模型訓練方向與 Anthropic 不同",
+      "第三方 coding harness（如 Pi）可能需要實作多個編輯工具以相容不同模型"
+    ],
+    "why_it_matters": "若你正在開發或使用 AI coding agent，這代表不能假設新模型一定更好用工具，可能需要針對新版 Anthropic 模型重新測試工具 schema 相容性，甚至實作多工具分流策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "你可以寫一個測試腳本，讓新舊版 Claude 模型對同一組自訂工具呼叫 100 次，統計 schema 錯誤率，藉此決定是否需要針對特定模型版本實作 fallback 工具或 schema adapter。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-04-tars-claude-code",
     "title": "TARS：Claude Code 資源管理中心",
     "title_original": "inceptyon-labs/TARS",
