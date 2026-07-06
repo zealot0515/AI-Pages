@@ -1,5 +1,115 @@
 [
   {
+    "id": "2026-07-06-mcp-observatory-mcp",
+    "title": "MCP-Observatory：MCP 伺服器測試、安全與監控開源工具",
+    "title_original": "KryptosAI/mcp-observatory",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/KryptosAI/mcp-observatory",
+    "published_at": "2026-07-06T14:59:58Z",
+    "category": "agent-skills",
+    "summary": "KryptosAI 推出的 MCP-Observatory（TypeScript，142 stars）讓開發者在 Agent 依賴 MCP 伺服器前，能對其進行測試、安全審計與效能監控，降低生產環境故障風險。",
+    "highlights": [
+      "可對 MCP 伺服器進行功能測試",
+      "提供安全審計模組，檢測潛在漏洞",
+      "效能監控功能可用於識別瓶頸",
+      "TypeScript 實作，易於整合現代 Node.js 生態"
+    ],
+    "why_it_matters": "隨著 MCP 協定被廣泛採用，未經測試的 MCP 伺服器可能成為 Agent 系統的單點故障源。此工具提供主動式品質保障，值得納入市售 Agent 專案品質關卡。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在 CI/CD Pipeline 中加入 MCP-Observatory，對每次更新的 MCP 伺服器進行自動化測試與安全掃描。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/140749029?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-06-reddit-15b",
+    "title": "Reddit 討論：小於 15B 參數本地模型醫療基準測試推薦",
+    "title_original": "<15B local models to test on medical benchmark?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uowbmv/15b_local_models_to_test_on_medical_benchmark/",
+    "published_at": "2026-07-06T12:45:33+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 討論串詢問有哪些 <15B 參數的本地模型適合醫療基準測試，涉及模型選擇與評估方法論社群交流。",
+    "highlights": [
+      "聚焦 15B 以下本地可運行模型",
+      "目標為醫療基準測試，需模型具備領域知識",
+      "來源為 Reddit 技術社群討論，非正式論文"
+    ],
+    "why_it_matters": "醫療領域 AI 對精確度要求高，適合本地部署的精簡模型能滿足隱私合規需求。此討論提供模型篩選方向，但需自行驗證 benchmark 結果。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據討論提及的模型名單，在本地使用 pubmedqa 或 medqa 等開源醫療資料集進行 POC 測試。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-06-github-codex-opencode",
+    "title": "GitHub Codex 與 Opencode 本地部署比較討論",
+    "title_original": "Using Codex instead of Opencode",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uouw10/using_codex_instead_of_opencode/",
+    "published_at": "2026-07-06T11:41:42+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶分享從 Opencode 框架切換至 GitHub Codex 的經驗，主要討論兩者在程式碼補全、任務執行與終端整合上的差異。Opencode 為開源替代方案，Codex 則為官方產品，兩者各有最佳化場景。",
+    "highlights": [
+      "Codex 整合 GitHub 原生生態，PR 審查與 issue 操作更順暢",
+      "Opencode 為開源專案，部署灵活且無 API 費用",
+      "使用者反映 Codex 在長上下文程式碼任務上表現更穩定",
+      "切換成本主要在於 prompt 模板與工具呼叫設定",
+      "兩者皆需自行架設或使用 API，金鑰管理是關鍵"
+    ],
+    "why_it_matters": "對開發者而言，選擇 Codex 或 Opencode 直接影響 AI 輔助coding的工作流程效率與成本，需依據專案需求與預算權衡。",
+    "automation_angle": null,
+    "automation_angle_zh": "可架設小型測試環境，分別用 Codex 與 Opencode 處理同一批次程式碼重構任務，量化兩者在準確率與耗時上的差異。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-06-gigachat-3-5-432b-a28b-gguf",
+    "title": "GigaChat 3.5-432B-A28B 模型發布，首日即支援 GGUF 量化格式",
+    "title_original": "New model: GigaChat3.5-432B-A28B (with day-0 GGUF support!)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uotkm7/new_model_gigachat35432ba28b_with_day0_gguf/",
+    "published_at": "2026-07-06T10:34:31+00:00",
+    "category": "new-models",
+    "summary": "俄羅斯 GigaChat 推出 4320 億參數的新模型 A28B 架構版本，並在發布當天即提供 GGUF 格式支援。Reddit 用戶回報可透過 llama.cpp 快速載入，具備初步推論能力。模型具 MoE（專家混合）特性，理論上可降低實際激活參數。",
+    "highlights": [
+      "432B 參數、A28B 架構（可能為專家混合設計）",
+      "Day-0 GGUF 支援，llama.cpp 可直接載入量化版本",
+      "Reddit 社群已有人成功載入並進行簡單對話測試",
+      "與標準 GigaChat 3.5 的能力差異尚待驗證",
+      "模型來源與訓練數據細節未公開"
+    ],
+    "why_it_matters": "對本地部署愛好者而言，Day-0 GGUF 支援節省了等待社群轉換的時間，但模型真實能力與安全性仍屬未知，建議觀望而非立刻生產使用。",
+    "automation_angle": null,
+    "automation_angle_zh": "可透過 llama.cpp 或 Ollama 快速測試 GGUF 量化檔，評估該模型在程式碼生成、摘要等任務上的性價比，再決定是否取代現有本地模型。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-06-idea-reality-mcp-ai-coding-agent-754",
     "title": "idea-reality-mcp：AI  coding agent 的專案可行性驗證工具，754 顆星",
     "title_original": "mnemox-ai/idea-reality-mcp",
