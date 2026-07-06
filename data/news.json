@@ -1,5 +1,92 @@
 [
   {
+    "id": "2026-07-06-ruvnet-metaharness-ai-agent",
+    "title": "ruvnet/metaharness：AI Agent 萬用骨架框架",
+    "title_original": "ruvnet/metaharness",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ruvnet/metaharness",
+    "published_at": "2026-07-06T02:04:47Z",
+    "category": "open-source-ai",
+    "summary": "Metaharness 是一個 AI Agent 萬用骨架，透過 npx CLI 快速生成自訂品牌 Agent，內建 MCP server、記憶系統、學習循環，並支援 Claude Code、Codex、pi.dev、OpenClaw 等主流 Agent 框架，附帶 witness 簽名機制確保發布完整性。",
+    "highlights": [
+      "• npx 一鍵生成自訂 Agent 骨架，CLI 友好",
+      "• 內建 MCP server 與記憶系統，減少重複建置",
+      "• 支援 Claude Code、Codex、OpenClaw 等多種 Agent",
+      "• 學習循環機制讓 Agent 可持續優化",
+      "• witness 簽名機制確保發布版本可驗證"
+    ],
+    "why_it_matters": "將多個 Agent 框架整合為統一骨架，大幅降低建置自訂 Agent 的初始成本，TypeScript 生態豐富，技術用戶可快速客製化並整合進現有工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "執行 npx 命令快速啟動一個測試 Agent，整合記憶系統與 MCP server，評估其是否能取代或輔助現有的 Claude Code 工作流程。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/2934394?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-06-memory-graph-mcp",
+    "title": "memory-graph：圖資料庫驅動的 MCP 記憶服務",
+    "title_original": "memory-graph/memory-graph",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/memory-graph/memory-graph",
+    "published_at": "2026-07-06T01:41:43Z",
+    "category": "agent-skills",
+    "summary": "記憶圖（Memory Graph）是一款基於圖資料庫的 MCP 記憶伺服器，專為程式碼 Agent 設計，支援智慧關係追蹤，可建立程式碼間的语义连结與上下文圖譜，幫助 Agent 理解程式碼結構與依賴關係。",
+    "highlights": [
+      "• 圖資料庫架構，支援程式碼關係網路建模",
+      "• MCP 相容，可與主流 Agent 框架整合",
+      "• 智慧關係追蹤，理解程式碼依賴與调用链",
+      "• 專為程式碼 Agent 場景優化",
+      "• TypeScript 實現，部署與擴展相對簡便"
+    ],
+    "why_it_matters": "圖資料庫驅動的記憶系統能為 Agent 提供更深層的上下文理解，特別適合需要理解複雜程式碼架構的場景，是提升程式碼 Agent 上下文品質的潛力工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "將現有程式碼 Agent（如 Claude Code）接入 Memory Graph MCP server，測試在大型程式碼庫中是否能更準確理解模組關係並給出更相關的建議。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/250423346?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-06-trusty-tools-rust-ai",
+    "title": "trusty-tools：Rust 生態系一站式 AI 開發工具集",
+    "title_original": "bobmatnyc/trusty-tools",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/bobmatnyc/trusty-tools",
+    "published_at": "2026-07-06T01:19:01Z",
+    "category": "open-source-ai",
+    "summary": "Trusty Tools 是 Rust 實現的統一工作區，包含混合程式碼搜尋、記憶宮殿、程式碼分析、PR 審查，以及 MPM 多 Agent 平台，提供 MCP server、守護程序與 CLI 工具，適合追求高效能與記憶安全的開發者。",
+    "highlights": [
+      "• Rust 語言實現，保證高效能與記憶安全",
+      "• 混合程式碼搜尋與記憶宮殿功能",
+      "• PR 審查工具支援開發流程自動化",
+      "• MPM 多 Agent 平台支援協作式任務處理",
+      "• MCP server + daemon + CLI 三種接入方式"
+    ],
+    "why_it_matters": "Rust 原生實現提供高效能與低記憶體佔用的優勢，多工具整合減少開發者維護多套工具的成本，MPM 多 Agent 平台適合大規模自動化工作流程建置。",
+    "automation_angle": null,
+    "automation_angle_zh": "Clone 專案，用 Rust toolchain 編譯後，將 trusty-search 或 MPM 整合進現有 CI/CD 流程，評估 Rust 工具鏈在大型程式碼庫中的搜尋與分析效能。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/913108?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-05-anima-use-google-mcp-agent-google",
     "title": "anima-use-google：MCP 伺服器讓 Agent 使用已登入的瀏覽器執行 Google 搜尋",
     "title_original": "animaios/anima-use-google",
