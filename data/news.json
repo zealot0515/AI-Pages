@@ -1,5 +1,258 @@
 [
   {
+    "id": "2026-07-06-idea-reality-mcp-ai-coding-agent-754",
+    "title": "idea-reality-mcp：AI  coding agent 的專案可行性驗證工具，754 顆星",
+    "title_original": "mnemox-ai/idea-reality-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mnemox-ai/idea-reality-mcp",
+    "published_at": "2026-07-06T09:36:26Z",
+    "category": "agent-skills",
+    "summary": "mnemox-ai/idea-reality-mcp 是一款專為 AI coding agent 設計的「現實檢查」工具，掃描 GitHub、HN、npm、PyPI、Product Hunt 等平台評估專案可行性。作為 MCP 伺服器提供，754 顆星顯示社群高度關注，技術實作者可直接部署使用。",
+    "highlights": [
+      "掃描多個平台（GitHub、HN、npm、PyPI、Product Hunt）",
+      "提供 MCP 伺服器接口，易於整合到 Agent 工作流程",
+      "754 顆星反映社群廣泛認可",
+      "幫助 AI agent 在執行任務前驗證創意可行性",
+      "Python 實作，擴展性強"
+    ],
+    "why_it_matters": "AI coding agent 容易產生不切實際的方案，idea-reality-mcp 提供了在任務執行前進行事實核查的手段，提升自動化工作流程的可靠性。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 idea-reality-mcp 整合進 AI coding assistant pipeline，讓 AI 在提議新專案或功能前自動檢查相關開源專案與市場趨勢。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/263367191?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-06-mathematica-mcp-ai-agent-wolfram-mathematica",
+    "title": "mathematica-mcp：讓 AI Agent 操控 Wolfram Mathematica",
+    "title_original": "AbhiRawat4841/mathematica-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/AbhiRawat4841/mathematica-mcp",
+    "published_at": "2026-07-06T09:21:43Z",
+    "category": "agent-skills",
+    "summary": "Model Context Protocol（MCP）伺服器，可將 Claude、Cursor 等 AI Agent 連接至 Wolfram Mathematica，實現符號運算、視覺化與 Notebook 操作。Python 實作，33 stars。",
+    "highlights": [
+      "MCP 協定整合：標準化 AI 與外部工具的溝通方式",
+      "支援符號計算：Mathematica 強項可被 AI Agent 调用",
+      "可用於 Cursor/Claude：覆蓋主流 AI 編碼工具生態",
+      "開源且可自架：不受第三方 API 限制"
+    ],
+    "why_it_matters": "將 Mathematica 的強大數學能力解放給 AI Agent使用，工程師與研究者可讓 AI 處理複雜計算任務而非僅依賴 Python生態。",
+    "automation_angle": null,
+    "automation_angle_zh": "科研或工程人員可讓 AI Agent 自動生成 Mathematica 程式碼、執行符號推導並回傳結果，實現研究工作流程的半自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/184198985?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-06-rosa-mcp-rest-api-ai-agent-sap-abap-cloud",
+    "title": "ROSA：MCP 伺服器與 REST API，讓 AI Agent 即時查詢 SAP ABAP Cloud 物件",
+    "title_original": "ClementRingot/ROSA",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ClementRingot/ROSA",
+    "published_at": "2026-07-06T08:28:26Z",
+    "category": "agent-skills",
+    "summary": "ClementRingot/ROSA（Released Objects Search Assistant）提供 MCP 伺服器與 REST API，使 AI Agent 能即時查詢 SAP ABAP Cloud / Clean Core 釋出的物件資訊，幫助開發者用自然語言快速定位 SAP 物件，節省文件搜尋時間。",
+    "highlights": [
+      "MCP 伺服器相容主流 Agent 框架",
+      "REST API 方便獨立呼叫或嵌入系統",
+      "專為 ABAP Cloud / Clean Core 物件設計",
+      "自然語言查詢降低 SAP 技術門檻",
+      "TypeScript 實作，屬於新興工具生態"
+    ],
+    "why_it_matters": "SAP 開發者若要讓 AI Agent 具備 SAP 領域知識，ROSA 提供了直接可用的工具鏈，值得評估整合價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 ROSA MCP 接入公司內部 AI coding assistant，讓 AI 能即時回答 ABAP 相關問題或輔助 SAP 開發任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/72977804?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-06-ha-mistralai-home-assistant-mistral-ai",
+    "title": "HA_MistralAI：Home Assistant 接入 Mistral AI 對話代理",
+    "title_original": "SnarfNL/HA_MistralAI",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/SnarfNL/HA_MistralAI",
+    "published_at": "2026-07-06T08:11:51Z",
+    "category": "agent-skills",
+    "summary": "非官方 Home Assistant 整合方案，將 Mistral AI 作為對話代理、 Voxtral 作為語音轉文字引擎接入智慧家庭系統。Python 實作，50 stars。",
+    "highlights": [
+      "語音對話介面：Mistral AI 模型驅動家庭助理對話",
+      "Voxtral 語音辨識：提供本地化 STT 能力",
+      "非官方但可用：可自行部署測試",
+      "結合智慧家庭：將 LLM 能力落地至 IoT 場景"
+    ],
+    "why_it_matters": "展示了將大語言模型接入實際 IoT 場景的可行路徑，對有自架智慧家庭需求的技術玩家有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此整合改寫為本地化物業管理或工廠監控助理，語音驅動 Mistral AI 執行開關控制與異常警報。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/88968941?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-06-aipal-agentic-cli",
+    "title": "aipal：基於 Agentic CLI 的個人助理框架",
+    "title_original": "antoniolg/aipal",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/antoniolg/aipal",
+    "published_at": "2026-07-06T07:23:53Z",
+    "category": "agent-skills",
+    "summary": "一個開源個人助理專案，透過 agentic CLI 架構讓使用者以自然語言驅動終端任務。現有 47 GitHub stars，採用 JavaScript 實作，可整合至現有工作流程程實現自動化指令執行。",
+    "highlights": [
+      "Agentic CLI 設計：讓 AI 直接執行 terminal 指令而非僅回覆文字",
+      "JavaScript 生態：可直接與 Node.js 工具鏈整合",
+      "可定製性高：能針對個人工作流程客製化指令集",
+      "現學現用：今天就能 clone 下來測試與改寫"
+    ],
+    "why_it_matters": "對技術人員而言，這是將 AI 能力直接嵌入命令列的具體範例，可用於自動化日常開發、部署、資料處理等重複性任務，節省大量時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可 clone 此專案，將其改寫為個人專屬的開發助理，例如一鍵執行 git 流程、編譯、測試並回報結果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/2178243?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-06-j1-ai-demo-ai-triage-ml-bug",
+    "title": "j1-ai-demo：企業級 AI 客服 triage 系統，含緊急度 ML 預測與自動修 bug",
+    "title_original": "LizeRaes/j1-ai-demo",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/LizeRaes/j1-ai-demo",
+    "published_at": "2026-07-06T07:12:57Z",
+    "category": "agent-skills",
+    "summary": "LizeRaes/j1-ai-demo 是一套展示企業客服場景的開源系統，整合 AI triage 分流、上下文強化、自定義 ML 緊急度預測模型，以及 autonomous coding assistant 自動修復 bug 的能力，為想在業務系統中加入 Agent 與 ML 特性的開發者提供參考範本。",
+    "highlights": [
+      "AI triage 分流引擎自動分類客服問題",
+      "自定義 ML 模型預測問題緊急程度",
+      "Autonomous coding assistant 輔助修補 bug",
+      "上下文增強提升回覆準確性",
+      "展示企業級工作流程整合模式"
+    ],
+    "why_it_matters": "將 ML 預測與 Agent 能力結合到現有業務系統是提升效率的實際方向，該 repo 提供可直接借鑒的架構思路。",
+    "automation_angle": null,
+    "automation_angle_zh": "Fork 該 repo，將其 triage 與 ML 緊急度模組改寫後接入自己公司的客服系統，實現工單優先級自動分類。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Java"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/49833622?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-06-qwen-gemma",
+    "title": "Qwen 與 Gemma 基準測試對比陷入膠著，網友實測爭議",
+    "title_original": "Qwen & Gemma on deadlock situation (For Benchmarks Numbers)?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoppuz/qwen_gemma_on_deadlock_situation_for_benchmarks/",
+    "published_at": "2026-07-06T06:51:09+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 討論串針對 Qwen2 與 Google Gemma 系列模型在各項基準測試中的表現進行對比。由於不同測試集與提示詞設定差異，雙方支援者各執一詞。討論涉及模型在數學推論、程式碼生成、多語言理解等任務的能力邊界。",
+    "highlights": [
+      "不同測試設定導致結果差異大，難以直接比較",
+      "數學推論任務為兩者主要差異點",
+      "Gemma 在 Google 生態整合具優勢",
+      "Qwen 在中文任務表現獲較多正面評價",
+      "社群呼籲建立統一的評測標準"
+    ],
+    "why_it_matters": "模型選擇影響專案成效，但基準測試的爭議提醒技術人員需根據實際任務進行評估，而非盲目相信排行榜。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載兩個模型的量化版本，用自有資料集進行對向測試，找出最适合當前任務的那個，而非依賴第三方基準。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-06-hy3-295b-21b-apache-2-0",
+    "title": "騰訊 Hy3 模型：295B 總參數 21B 活躍（Apache 2.0）",
+    "title_original": "New open model from Tencent Hy: Hy3 (295B total 21B active - apache 2.0)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoozt4/new_open_model_from_tencent_hy_hy3_295b_total_21b/",
+    "published_at": "2026-07-06T06:09:27+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 社群熱議騰訊發布的 Hy3 模型，總參數達 295B但活躍參數僅 21B，採用 Apache 2.0 許可證開源，屬於 MoE（混合專家）架構的本地部署選項。",
+    "highlights": [
+      "MoE 架構：稀疏激活降低實際計算成本",
+      "Apache 2.0 許可：完全開源可商用",
+      "騰訊出品：中國大廠的開源模型嘗試",
+      "細節待驗證：來源為 Reddit 討論，官方資訊不足"
+    ],
+    "why_it_matters": "若属实，Hy3 的 MoE 設計在本地部署場景下具有競爭力，可作為 GPT-4o 等閉源方案的成本替代選項，但需驗證其真實能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "等待官方發布後下載測試，評估 21B 活躍參數在本地硬體上的推論速度與任務表現，特別是中文任務與長文本處理。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-06-mistral-ai-leanstral-1-5-lean-4",
+    "title": "Mistral AI 發布 Leanstral 1.5 強化 Lean 4 證明工程",
+    "title_original": "Mistral AI Releases Leanstral 1.5 for Lean 4 Proof Engineering - TechGig",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTllmOGg3LUNxd3pGN01rZTlXc054MXFsN0xLc3N0V0RsRDNYWDFyS2FhcHAycWpKaXFrcThtblh1UkhBZVc3d3Fld0Eyek5EQmplb2lLb04ybmJJTFd5QlVLVFZYYWdNNGMwMXFVVjREU0owTFBKZ0ZaX3BSUlV6ZV9HWnNCMkp2QkxsSFhpczNNenZyS01hb2pmSU8zYU1QNlHSAacBQVVfeXFMTU1kM2x6YUU5R3Z2aEd4S19keHppM3hoVk9EZGp4Q0pNblFVblh2Mmdud2duTGZ5MEQ5LVA1RVRpZHd4dTBrLXpwZnhqeG96Z2t5UGstTC1LMWJMQmtKM1JsaHBBZjV1ZnRmeGxIT0IzaElvbV9NWnVPd1BGOGJsak42V2xjMnZOdFVhMXEtU2pQa1hjcjlob05WanEyb1g2OElIdmw4eUk?oc=5",
+    "published_at": "2026-07-06T04:42:51+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 發布 Leanstral 1.5，這是專為 Lean 4 形式化證明語言設計的模型，目標是輔助數學證明撰寫與驗證，屬於形式化驗證與 AI 結合的垂直領域模型。",
+    "highlights": [
+      "垂直領域模型：專精於 Lean 4 語法與證明邏輯",
+      "形式化驗證用途：可用於軟體正確性驗證",
+      "Mistral 家族新成員：延續其開源模型策略",
+      "具體效能數據待確認：TechGig 報導資訊有限"
+    ],
+    "why_it_matters": "對需要形式化證明的安全關鍵軟體（航空、醫療、金融）開發者而言，這可能是提升驗證效率的工具，但需實際測試其準確率。",
+    "automation_angle": null,
+    "automation_angle_zh": "形式化方法研究者可下載測試，觀察 Leanstral 1.5 能否自動補全數學證明步驟，評估其能否整合至 Lean 4 開發工作流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-06-ruvnet-metaharness-ai-agent",
     "title": "ruvnet/metaharness：AI Agent 萬用骨架框架",
     "title_original": "ruvnet/metaharness",
@@ -84,6 +337,90 @@
       "Rust"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/913108?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-06-localllama",
+    "title": "LocalLLaMA 社群投票：本地模型實際應用場景排行",
+    "title_original": "What do you guys use local models for?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uohu6j/what_do_you_guys_use_local_models_for/",
+    "published_at": "2026-07-06T00:09:21+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/LocalLLaMA 討論串收集網友回饋，整理本地運行開源模型的常見用途。討論涵蓋文字處理、程式碼輔助、資料分析、創意寫作等場景，並比較不同模型規模與量化版本在各任務上的表現差異。",
+    "highlights": [
+      "程式碼生成與審查為最熱門用途之一",
+      "私密資料處理（不出網路）為核心驅動因素",
+      "不同任務需匹配不同模型規模才能兼顧速度與品質",
+      "量化模型在創意任務表現可接受，複雜推論仍需較大模型",
+      "社群提供各場景的模型推薦與設定建議"
+    ],
+    "why_it_matters": "了解業界實際使用模式可幫助技術人員選擇適合的本地模型與部署策略，避免盲目追求大模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據討論中的場景分類，技術人員可建立自己的本地模型評測基準，針對實際工作流程程測試不同模型的延遲與準確度。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-06-liveportrait-25fps",
+    "title": "LivePortrait 蒸餾模型支援瀏覽器 25fps 即時人像動畫",
+    "title_original": "LivePortrait distilled model that can run at 25fps in the browser",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uodoli/liveportrait_distilled_model_that_can_run_at/",
+    "published_at": "2026-07-05T21:12:53+00:00",
+    "category": "new-models",
+    "summary": "研究團隊發布 LivePortrait 蒸餾版本，將原本需要高算力的即時人像動畫技術壓縮至可在瀏覽器環境運行。透過模型蒸餾與 WebAssembly 優化，在一般筆電瀏覽器中達到 25fps 的順暢表現，即時驅動說話頭像或表情替換。",
+    "highlights": [
+      "瀏覽器端即可運行，無需安裝任何軟體",
+      "25fps 幀率達到即時互動標準",
+      "蒸餾後模型大小大幅縮小，適合嵌入式部署",
+      "支援單張照片驅動的表情動畫",
+      "可用於遠端會議虛擬形象或客服聊天機器人"
+    ],
+    "why_it_matters": "瀏覽器端即時人像動畫大幅降低部署門檻，讓前端開發者能輕易整合 AI 虛擬形象功能。",
+    "automation_angle": null,
+    "automation_angle_zh": "前端工程師可整合此模型到網頁應用中，實現自動化客服虛擬主播或線上會議虛擬形象功能，評估其延遲與使用者體驗。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-06-2-7",
+    "title": "獨立研究者從零訓練 2.7 億參數語言模型，完整記錄開源",
+    "title_original": "I developed a 270 million parameter language model entirely from scratch as an independent research project",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uoauvk/i_developed_a_270_million_parameter_language/",
+    "published_at": "2026-07-05T19:18:27+00:00",
+    "category": "open-source-ai",
+    "summary": "一位獨立開發者在 Reddit 發布完整專案記錄，展示如何從零開始訓練 270M 參數的語言模型，包含資料集處理、訓練架構、硬體需求與超參數設定。此案例提供從頭訓練小模型的完整技術路徑，適合想深入理解模型訓練流程的技術人員參考。",
+    "highlights": [
+      "完整開源訓練流程：資料預處理、Tokenizer 選擇、模型架構設計全記錄",
+      "硬體門檻親民：單一消費級 GPU 可在合理時間內完成訓練",
+      "270M 參數為理解 Transformer 訓練機制提供合適規模",
+      "提供可重現的訓練腳本與檢查點下載",
+      "對比商業 API 可評估本地部署的成本效益"
+    ],
+    "why_it_matters": "從零訓練模型能深入理解 AI 系統底層運作，為客製化模型微調或特定領域最佳化奠定基礎。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載其開源訓練腳本，針對特定任務資料集（如技術文件、程式碼）重新訓練小型模型，評估本地部署取代商業 API 的可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -50759,6 +51096,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-06-openai-api",
+    "title": "OpenAI API 新增語音智慧功能",
+    "title_original": "OpenAI launches new voice intelligence features in its API - TechCrunch",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEVKNVBfWjRiOU9oWWM0Zkh4elFUbWtaMVd6RDVFeXVpTVU0TVZvTzVxbVVaMTdVWW9CejVZcklRTGFZWkhGRG1MS1NQb1V5VEF0MGxnbE9VZzVqZ0tBa2MzYjluZWpOME5wT0VBQzBFbFV4UDBfbDVlQ2tXeDZnUG5IMzdsODNXZ2NHa3I2VndTRk5XZUxXYg?oc=5",
+    "published_at": "2026-05-07T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "TechCrunch 報導 OpenAI 在其 API 平台推出新版語音智慧能力，可能包含更低的延遲、更好的即時互動或新的語音模型端點，具體功能細節仍待官方完整說明。",
+    "highlights": [
+      "API 層級更新：直接影響開發者整合方式",
+      "語音能力增強：可能涉及即時對話或情緒辨識",
+      "來源為 TechCrunch：可信度中等，細節待官方確認",
+      "可能影響現有語音 AI 工具的市場格局"
+    ],
+    "why_it_matters": "語音 API 的任何更新都會直接影響語音客服、輔助工具、會議摘要等產品的技術選型，值得關注其定價與能力變化。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者應追蹤官方 API 文件更新，評估新版語音 API 是否能取代現有方案（如 Whisper + GPT-4o 組合）並評估成本效益。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-25-google-xprize-350-future-vision",
     "title": "Google 與 XPRIZE 合作 350 萬美元 Future Vision 電影競賽",
     "title_original": "5 gardening tips you can try right in Search",
@@ -52208,6 +52572,34 @@
     "automation_angle_zh": "技術人員可關注此計畫釋出的安全工具或評估框架，未來可能用於強化自家 AI 應用的安全性測試流程。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-06-ai-arcee-ai",
+    "title": "微型開源 AI 新創 Arcee AI 獲得關注，持續發布小型模型",
+    "title_original": "I can’t help rooting for tiny open source AI model maker Arcee - TechCrunch",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRjEzZUZrT1hVNzBKdlNNWHIzampDVHlSUlVpN2RvSjRlYVl6ZUVsSVlOVkI2Y2xiUjNCT1dnbDJaVDdjSWl6Y2xhQkhDV2l3Z2dvSmY3MlAxWmNORVM0MTNtMW1tS3pmR0ROX0VJcl9tMWJ4TTAwRGNIWFdhV3BDTWtjLU5BaWlQQk1nMmo3Wlc5UmhwT3dyUXRBZWg?oc=5",
+    "published_at": "2026-04-07T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "TechCrunch 報導 Arcee AI 這家小型開源 AI 公司，專注於開發小型化、高效率的語言模型。其產品策略強調在保持效能的同時大幅縮減模型規模，降低部署成本。該公司近期發布新版本模型，在多項基準測試中取得不錯成績。",
+    "highlights": [
+      "專注小型高效模型，目標降低企業部署成本",
+      "開源版本提供給研究社群測試",
+      "與大型模型廠商形成差異化競爭",
+      "產品定位於邊緣設備與行動端部署場景",
+      "持續有新版本迭代，社群關注度上升"
+    ],
+    "why_it_matters": "小型模型的需求持續成長，Arcee 的發展反映邊緣 AI 部署的市場趨勢，技術人員可關注其模型在特定任務上的性價比。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可測試 Arcee 發布的開源模型，評估其在自有任務上的表現與資源消耗比例，判斷是否值得用於成本敏感的專案。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
