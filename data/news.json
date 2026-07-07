@@ -1,5 +1,229 @@
 [
   {
+    "id": "2026-07-07-sqlite-utils-4-0",
+    "title": "sqlite-utils 4.0 正式支援資料庫遷移與巢狀交易",
+    "title_original": "sqlite-utils 4.0, now with database schema migrations",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything",
+    "published_at": "2026-07-07T19:32:57+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 sqlite-utils 4.0，距上個大版本已近六年。新版核心功能為資料庫遷移系統（支援版本追蹤）、巢狀交易（db.atomic()），以及複合主鍵支援。Simon 表示文件與升級指南由 Claude Fable 5、Claude Opus 4.8 與 GPT-5.5 協作完成，他已審核確保準確性。",
+    "highlights": [
+      "遷移系統：定義 Python 遷移腳本，自動追蹤套用狀態",
+      "巢狀交易：db.atomic() 支援 savepoint，安全的巢狀寫入",
+      "複合主鍵：終於完整支援多欄位外鍵創建與轉換",
+      "breaking changes：db.query() 現為唯讀，寫入需改用 db.execute()",
+      "AI 輔助文件：Simon 稱已習慣讓模型代寫說明文件"
+    ],
+    "why_it_matters": "sqlite-utils 是處理小型資料庫自動化的瑞士刀，遷移系統讓腳本化資料庫版本管理成為可能。對於用 Python 建構資料處理流水線的開發者，4.0 的交易安全改進可避免意外資料遺失。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 uvx sqlite-utils migrate 指令為專案資料庫建立遷移腳本，確保 schema 變更在 CI/CD 環境中可重現且受版本控制。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-07-github-copilot",
+    "title": "GitHub Copilot 企業版支援按用戶設定預算上限",
+    "title_original": "Per-user budgets for cost centers in the billing UI",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-07-per-user-budgets-for-cost-centers-in-the-billing-ui",
+    "published_at": "2026-07-07T17:09:29+00:00",
+    "category": "hot-topics",
+    "summary": "GitHub Enterprise Cloud 管理者現可在帳單管理介面中，直接為每個成本中心的個別用戶設定 Copilot 使用預算。此功能讓企業能更精細地控制團隊或個人層級的 AI 工具支出，避免少數用戶產生過高的用量費用。",
+    "highlights": [
+      "支援在成本中心內設定個人用戶層級的 Copilot 預算",
+      "在 GitHub 帳單管理介面即可操作，無需其他工具",
+      "適用於 GitHub Enterprise Cloud 方案",
+      "幫助企業更精細地管理 AI 工具成本",
+      "可作為成本控管機制的一部分"
+    ],
+    "why_it_matters": "隨著 Copilot 用量增加，企業需要更細緻的成本控制機制。此功能讓技術管理者能針對不同團隊或專案設定預算上限，避免意外超支。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業技術管理者可結合用量資料與團隊需求，為高用量團隊設定合理上限，並將節省下來的預算用於其他 AI 工具或自動化項目。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-07-gepard-0-6b-tts-20-vllm-apache-2-0",
+    "title": "Gepard 0.6B 串流 TTS：20 倍即時、vLLM 原生支援、Apache 2.0 開源",
+    "title_original": "Gepard : 0.6B streaming TTS built for real-time dialogue - 20× realtime factor, ~50ms time-to-first-audio, vLLM-native, Apache 2.0",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uq10cw/gepard_06b_streaming_tts_built_for_realtime/",
+    "published_at": "2026-07-07T16:59:30+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群分享了 Gepard——一個僅 0.6B 參數的串流文字轉語音（TTS）模型。核心賣點包括：20 倍即時（20× realtime）的串流輸出能力、首音延遲約 50ms、以及與 vLLM 框架的原生生態整合。該專案採用 Apache 2.0 許可證，意味可商用。對於需要在本地端實現低延遲語音合成、同時控制資源消耗的技術用戶，提供了新的選擇。",
+    "highlights": [
+      "0.6B 參數規模，遠小於主流 TTS 模型（通常 1B+），有利本地部署",
+      "支援串流輸出，20× realtime 速度，首音延遲壓在 50ms 等級",
+      "vLLM-native 設計，可與主流 LLM serving 框架整合，降低系統整合摩擦",
+      "Apache 2.0 許可證，明確可商業使用",
+      "目前為社群分享，尚未有詳盡的基準測試與音色評估，需自行測試"
+    ],
+    "why_it_matters": "小型 TTS 模型若能在 50ms 延遲內完成語音合成，且支援 vLLM 整合，將使「本地端語音對話 Agent」的技術門檻大幅降低，對邊緣裝置部署尤其有價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可直接在本地環境部署 Gepard，結合 vLLM serving 的本地 LLM，構建一個完全離線的語音對話系統原型，實測其延遲與語音品質是否滿足需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-07-hugging-face-microsoft-foundry",
+    "title": "Hugging Face 模型進駐 Microsoft Foundry 託管運算",
+    "title_original": "Hugging Face Models on Foundry Managed Compute",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+    "published_at": "2026-07-07T15:20:06+00:00",
+    "category": "open-source-ai",
+    "summary": "微軟與 Hugging Face 合作，將 Hugging Face 模型生態系整合至 Azure Foundry 託管運算服務。開發者可在 Foundry 上直接部署與運行來自 Hugging Face 的開源模型，享受企業級託管基礎設施，簡化從模型實驗到生產部署的流程。",
+    "highlights": [
+      "Hugging Face 模型可直接部署至 Azure Foundry 託管環境",
+      "簡化開源模型從實驗到生產的部署流程",
+      "提供企業級 SLA 與安全合規保障",
+      "降低在雲端執行開源模型的技術門檻",
+      "加強微軟在開源 AI 生態的佈局"
+    ],
+    "why_it_matters": "此整合為企業提供了一條可直接使用開源模型的標準化路徑，技術團隊無需自行管理基礎設施即可運行開源模型，降低了維運成本與部署複雜度。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可評估將內部開源模型遷移至 Foundry 託管，比較成本與維運負擔，判斷是否值得從自架服務轉向託管方案以節省 DevOps 時間。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-07-reddit-anthropic-jacobian-lens",
+    "title": "Reddit 網友實測 Anthropic 新 Jacobian Lens：意外成為本地模型幻覺路由器",
+    "title_original": "I tested Anthropic’s new Jacobian Lens on open models, then it turned into a local-model hallucination router",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1upy31x/i_tested_anthropics_new_jacobian_lens_on_open/",
+    "published_at": "2026-07-07T15:15:59+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 網友實際測試 Anthropic 發布的 Jacobian Lens 工具，發現這套原本用於分析模型輸出行為的機制，在本地模型上展現出意外能力——可作為幻覺檢測路由器。該工具透過計算輸出相對於輸入的梯度變化，辨識模型輸出的「不確定性熱點」，進而標記或路由可疑內容。測試顯示對主流開放模型有一定效果，但精準度與模型規模呈負相關。",
+    "highlights": [
+      "Jacobian Lens 原本是 Anthropic 內部用於模型可解釋性的工具，透過梯度分析偵測輸出行為異常",
+      "Reddit 網友將其應用於本地模型，發現可作為低成本的幻覺檢測路由器",
+      "對 7B 以上模型效果較穩定，小模型因梯度變化過於劇烈產生大量誤判",
+      "實測結果非官方發布，精準度與泛化能力有待獨立驗證",
+      "此方向可能啟發更多將模型可解釋性工具轉為品質過濾器的嘗試"
+    ],
+    "why_it_matters": "幻覺是本地部署 LLM 的最大痛點之一。若能以極低成本（無需額外訓練）將可解釋性工具轉為品質把關機制，對在意可靠性的技術用戶極具吸引力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可 clone 該工具的開源實現（若有的話），整合進本地模型pipeline作為後處理過濾層，針對自己的用例測試 Jacobian-based 幻覺檢測的精準度與延遲代價。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-07-github-copilot",
+    "title": "GitHub Copilot 桌面應用程式全面開放",
+    "title_original": "GitHub Copilot app available to all",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-07-github-copilot-app-available-to-all",
+    "published_at": "2026-07-07T15:10:14+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 桌面應用程式現已開放所有 Copilot 方案用戶使用，支援 macOS、Windows、Linux 三平台。開發者可直接從桌面啟動代理驅動的開發流程，享受原生桌面整合體驗，擺脫瀏覽器或 VS Code 插件的限制。",
+    "highlights": [
+      "支援 macOS、Windows、Linux 三大桌面平台",
+      "使用 GitHub 帳號登入即可使用，無需額外設定",
+      "主打代理驅動開發，可主動規劃與執行任務",
+      "提供比瀏覽器更流暢的桌面原生整合體驗",
+      "所有 Copilot 方案均可使用，包括個人版與企業版"
+    ],
+    "why_it_matters": "桌面應用程式降低了 Copilot 的使用門檻，並提供更流暢的代理開發體驗。技術團隊可評估其在日常開發流程中是否能取代部分 CLI 或 IDE 插件場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可安裝桌面應用並試用代理模式，觀察其是否能自動完成重複性程式碼任務（如 PR 審查、測試生成），作為工作流程自動化候選工具。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-07-item",
+    "title": "提升代理能力就是資料挖掘問題",
+    "title_original": "Improving Agents is a Data Mining Problem",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/improving-agents-is-a-data-mining-problem",
+    "published_at": "2026-07-07T15:05:42+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布文章，阐述其如何透過挖掘代理執行軌跡（traces）來發現失敗模式、用較便宜的模型取代前沿 LLM 作為裁判模型，並以評測為基礎進行迭代優化，逐步提升代理系統表現。",
+    "highlights": [
+      "從代理軌跡資料中挖掘失敗模式與錯誤根因",
+      "訓練較小的裁判模型取代昂貴的前沿 LLM，降低評測成本",
+      "以評測驅動的迭代開發流程（evals-driven hill-climbing）",
+      "生成合成資料來微調代理，提升特定任務表現",
+      "強調資料品質比模型規模對代理提升更關鍵"
+    ],
+    "why_it_matters": "對於構建自定義代理的團隊，此方法論提供了一條可複製的低成本優化路徑：用資料驅動的方式找出代理弱點，而非僅依賴更強大的底層模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可借鑒此思路，收集並分析自己代理系統的執行軌跡，建立失敗模式資料集，用小型裁判模型自動化評測流程，大幅降低優化代理的人力成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-07-copilot-billing-preview-8-3",
+    "title": "Copilot Billing Preview 應用將於 8 月 3 日停用",
+    "title_original": "Copilot Billing Preview app will be retired on August 3",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-07-copilot-billing-preview-app-will-be-retired-on-august-3",
+    "published_at": "2026-07-07T14:51:13+00:00",
+    "category": "hot-topics",
+    "summary": "GitHub 宣布 Copilot Billing Preview 應用程式將於 2026 年 8 月 3 日正式停用。仍在使用該應用檢視 Copilot 支出的用戶，需遷移至 GitHub 內建的帳單管理功能或其他替代方案。",
+    "highlights": [
+      "Copilot Billing Preview 將於 2026 年 8 月 3 日停用",
+      "建議用戶遷移至 GitHub 內建帳單管理功能",
+      "停用後舊應用將無法正常運作",
+      "新帳單功能提供更完整的 Copilot 用量視覺化",
+      "需提前規劃遷移以避免管理斷層"
+    ],
+    "why_it_matters": "依賴該預覽應用的企業需儘早遷移至官方帳單介面。停用後若未完成轉移，團隊可能失去追蹤 Copilot 用量與成本的管道，影響預算管理。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術管理者應立即盤點是否有依賴該預覽應用的自動化腳事或報表，若有則需在停用日前將其替換為 GitHub API 或官方帳單頁面的替代方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-07-ai",
     "title": "社群駁斥北京限制中國 AI 模型海外存取的報導",
     "title_original": "Beijing IS NOT looking at curbing overseas access to China's top AI models (Debunking the Reuters report)",
@@ -197,6 +421,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-07-gemini-api-managed-agents-mcp",
+    "title": "Gemini API Managed Agents 新增背景任務與遠端 MCP 支援",
+    "title_original": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+    "published_at": "2026-07-07T08:54:00+00:00",
+    "category": "agent-skills",
+    "summary": "Google 宣布 Gemini API Managed Agents 新功能，包括背景任務執行（Background Tasks）與遠端 MCP（Model Context Protocol）整合。這些更新旨在幫助開發者構建更可靠的生產級 Agent，減少自行管理任務佇列與上下文持久化的複雜度。",
+    "highlights": [
+      "背景任務：支援長時間執行而不占用同步 API 配額",
+      "遠端 MCP：可接入外部工具或資料源作為 Agent 上下文",
+      "生產級可靠性：降低自行架設 Agent 基礎設施的門檻",
+      "與 Gemini API 深度整合，適合 Google 雲生態用戶",
+      "具體定價與限制需查閱完整文件"
+    ],
+    "why_it_matters": "背景任務功能可將需要數分鐘以上的自動化流程從同步調用中解放出來，遠端 MCP 則簡化了多工具串接的開發成本。對於已有 Google 雲投資的團隊，這是降低 Agent 工程複雜度的捷徑。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可先用 Gemini API 沙盒環境測試背景任務模式，觀察長時任務的可靠性與費用差異，評估是否值得從自架任務佇列遷移到 Managed Agents。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-07-qwen3-6-27b-nvfp4-fp8-agent",
     "title": "Qwen3.6-27B NVFP4/FP8 量化在 Agent 迴圈中表現異常：配置問題還是量化缺陷？",
     "title_original": "Qwen3.6-27B: NVFP4/FP8 agent loops vs flawless BF16. Config or quant issue?",
@@ -334,6 +586,34 @@
       "Rust"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/199387?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-07-ap-chatgpt-enterprise-codex",
+    "title": "澳洲支付機構 AP+ 用 ChatGPT Enterprise 與 Codex 加速開發",
+    "title_original": "Australian Payments Plus moves faster with ChatGPT and Codex",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/australian-payments-plus",
+    "published_at": "2026-07-07T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方案例報導，澳洲 Payments Plus 使用 ChatGPT Enterprise 與 Codex 加速支付系統開發。該機構表示節省時間成本、提升程式碼品質，同時保持人類判斷在關鍵環節的核心地位。此為企業採用案例，具體效能數據需參考原始報導。",
+    "highlights": [
+      "企業場景：支付基礎設施的程式碼生成與 review",
+      "ChatGPT Enterprise：用於文件處理、需求分析",
+      "Codex：用於實際程式碼寫作與自動化",
+      "強調人機協作而非全自動化",
+      "屬於 OpenAI 官方 PR 內容，建議對照其他獨立案例"
+    ],
+    "why_it_matters": "對於評估 AI 工具投資回報的技術決策者，真實企業案例有參考價值。但此資訊來自 OpenAI 官方 blog，建議尋找獨立第三方驗證以確保數據客觀性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可將此案例作為內部提案素材，但需注意其行銷性質。若想驗證類似效果，可在自己專案中使用 Codex 或 Claude Code 做為對照實驗，記錄實際產出品質與時間節省。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -6832,6 +7112,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-07-ai-copilot-claude-code",
+    "title": "AI 開發工具動態：Copilot、Claude Code 與代理生態",
+    "title_original": "AI Developer Tools News: Copilot, Claude Code & Agents - Let's Data Science",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pMUJ6WnQzNm9Rdl81U0tzSVQ3eEdSNEpHRUdYN25ObzNTbW03Tmh2a0tiTUxGT3VCekM0OVFST1hTZnVnN0hIMzNTbDRsaWl1YlNtQ2ctMkxlUjY1LWl4T2VINUt5WF9N?oc=5",
+    "published_at": "2026-06-29T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Let's Data Science 發布 AI 開發工具綜整報導，涵蓋 GitHub Copilot、Claude Code 及代理開發工具的最新動態。內容整合多個來源的更新，概述各工具在代理能力、IDE 整合與自動化開發場景上的進展與差異。",
+    "highlights": [
+      "彙整 Copilot 與 Claude Code 的最新功能更新",
+      "涵蓋代理開發工具的生態動態",
+      "提供主流 AI 開發工具的功能對比視角",
+      "強調各工具在自動化開發場景的應用差異",
+      "適合作為了解業界代理工具發展的入門參考"
+    ],
+    "why_it_matters": "對於關注 AI 開發工具市場的技術人員，此類綜整報導可快速掌握競爭態勢。但屬於資訊彙整而非獨家消息，實用價值在於節省自行追蹤多個來源的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可參考此類綜整，評估是否需要將現有 AI 輔助工具鏈升級或替換，選擇更適合團隊自動化需求的解決方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-06-29-preman-sdk-rest-api-mcp-typescript-sdk",
