@@ -1,5 +1,146 @@
 [
   {
+    "id": "2026-07-07-bamboo-agent-rust-ai-agent",
+    "title": "Bamboo-agent：Rust語言實現的本地優先AI Agent執行環境",
+    "title_original": "bigduu/Bamboo-agent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/bigduu/Bamboo-agent",
+    "published_at": "2026-07-07T09:20:23Z",
+    "category": "agent-skills",
+    "summary": "Bamboo-agent是一個Rust開發的本地優先AI Agent運行時，具備持久記憶、22個內建工具、Skills系統、MCP支援，並透過單一HTTP+SSE API提供工作流程與排程功能，可作為Rust crate嵌入項目或獨立Server運行。",
+    "highlights": [
+      "Rust語言實現，記憶體效率高",
+      "22個內建工具涵蓋常見操作",
+      "支援MCP（Model Context Protocol）",
+      "HTTP+SSE單一接口，易於整合",
+      "可嵌入Rust項目或獨立部署"
+    ],
+    "why_it_matters": "Bamboo以Rust為基底，提供輕量且高效能的本地Agent執行環境，適合需要嵌入式AI能力的Rust開發者，或對記憶體佔用敏感的自架場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "Rust開發者可將Bamboo作為crate整合進既有專案，快速獲得Agent能力；非Rust用戶可將其作為輕量Server部署，用於自動化指令執行與排程任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/18681616?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-07-qwen3-6-27b-nvfp4-fp8-agent",
+    "title": "Qwen3.6-27B NVFP4/FP8 量化在 Agent 迴圈中表現異常：配置問題還是量化缺陷？",
+    "title_original": "Qwen3.6-27B: NVFP4/FP8 agent loops vs flawless BF16. Config or quant issue?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uplzs7/qwen3627b_nvfp4fp8_agent_loops_vs_flawless_bf16/",
+    "published_at": "2026-07-07T05:43:07+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群討論 Qwen3.6-27B 在 NVFP4 與 FP8 量化格式下的 Agent 任務表現，指出 Agent 迴圈出現問題，而 BF16 精度運行無異常。技術社群正試圖確認是量化配置錯誤還是模型本身量化機制缺陷。",
+    "highlights": [
+      "Qwen3.6-27B 使用 NVFP4/FP8 量化時，Agent 迴圈任務出錯",
+      "相同模型 BF16 精度運行完全正常",
+      "懷疑是量化權重在多步推論時累計誤差導致",
+      "社群嘗試調整量化參數但尚未有定論",
+      "可能需要 Qwen 官方提供量化兼容性指南"
+    ],
+    "why_it_matters": "本地部署 Qwen 系列模型的開發者若打算用量化版省 VRAM，需要注意 Agent 任務場景的穩定性。此討論揭示了量化模型在長程推論任務中的潛在風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "在自動化工作流程程中使用量化 Qwen 模型前，建議先跑 10-20 步 Agent 測試案例（多輪對話、工具調用鏈），確認量化版輸出正確率與 BF16 相近再正式部署。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-07-qwen-j-space-anthropic-global-workspace",
+    "title": "Qwen J-Space 研究：Anthropic 發現大模型的 Global Workspace 內部機制",
+    "title_original": "Qwen's J-Space - Anthropic's discovery of an internal model Global Workspace",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1upl93b/qwens_jspace_anthropics_discovery_of_an_internal/",
+    "published_at": "2026-07-07T05:03:20+00:00",
+    "category": "hot-topics",
+    "summary": "有研究指出 Qwen 模型中存在類似人類 Global Workspace 的內部機制，該概念源自 Anthropic 的認知科學研究。此發現被命名為 Qwen 的 J-Space，引發社群對大語言模型意識與注意力機制的熱烈討論。",
+    "highlights": [
+      "J-Space 可能是模型內部資訊整合與跨任務泛化的關鍵",
+      "理論層面類似人類認知中的 Global Workspace Theory",
+      "目前僅為社群解讀，非 Qwen 官方發布的研究論文",
+      "有興趣的研究者可追溯 Anthropic 原始論文",
+      "對理解 Transformer 內部運算有理論價值"
+    ],
+    "why_it_matters": "雖然此討論尚屬理論層面，但若 J-Space 機制屬實，可能解釋為何某些模型能在少樣本情境下快速切換任務。這對未來模型架構設計有啟發意義。",
+    "automation_angle": null,
+    "automation_angle_zh": "目前無直接自動化應用價值，但關注此方向的技術人員可持續追蹤，若日後有實驗性論文發布，可作為評估模型內部推論透明度的參考指標。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-07-claude-code-fine-tuning-codex-pi",
+    "title": "Claude Code對話轉Fine-tuning資料工具更新：支援Codex與Pi",
+    "title_original": "UPDATE: I built a tool to turn your Claude Code sessions into fine-tuning data for local models (You can now convert your Codex and Pi sessions)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1upjgqs/update_i_built_a_tool_to_turn_your_claude_code/",
+    "published_at": "2026-07-07T03:33:30+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit用戶分享一款可將Claude Code對話歷程轉換為fine-tuning訓練資料的工具，最新更新新增支援Codex與Pi的對話轉換。技術用戶可收集自己的編碼對話資料，用於微調本地模型。",
+    "highlights": [
+      "將Claude Code對話轉為fine-tuning格式",
+      "新支援Codex與Pi會話轉換",
+      "可用個人編碼資料微調本地模型",
+      "工具開源，社群持續迭代",
+      "屬於本地模型能力優化方向"
+    ],
+    "why_it_matters": "此工具讓技術用戶能以較低成本打造符合個人編碼風格的本地模型，透過收集自身高品質對話資料，可提升本地模型的任務適配度。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可定期匯出Claude Code會話，用此工具生成訓練集，逐步微調7B-13B規模的開源模型，用於個人編碼助理場景。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-07-qwen-3-6-27b-agentic",
+    "title": "Qwen 3.6 27B 在Agentic任務上表現不佳的社群回饋",
+    "title_original": "Qwen 3.6 27B absolutely fails at agentic work",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uphzhj/qwen_36_27b_absolutely_fails_at_agentic_work/",
+    "published_at": "2026-07-07T02:24:42+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA社群用戶反映Qwen 3.6 27B在Agentic工作流程程中屢次失敗，包括多步推論、工具調用與長期規劃等場景。屬於社群單點回饋，未有大規模基準測試支援。",
+    "highlights": [
+      "27B參數規模被反映Agentic能力不足",
+      "多步推論與工具調用問題突出",
+      "社群單點回饋，樣本有限",
+      "缺乏官方性能數據對照",
+      "可能因Prompt工程或部署環境而異"
+    ],
+    "why_it_matters": "Qwen 3.6 27B在Agentic場景的表現尚存疑慮，技術用戶若計畫部署此模型用於自動化工作流程，應先進行小範圍評估，而非直接用於生產環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地部署Qwen 3.6 27B，用與社群回饋相似的Agentic任務（如Code Agent或多步規劃）進行個人評測，再決定是否投入實際工作流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-07-seiro-mcp-visionos-mcp-rust",
     "title": "seiro-mcp：輕量級visionOS開發MCP伺服器，Rust實作",
     "title_original": "karad/seiro-mcp",
