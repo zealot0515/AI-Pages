@@ -1,5 +1,117 @@
 [
   {
+    "id": "2026-07-07-seiro-mcp-visionos-mcp-rust",
+    "title": "seiro-mcp：輕量級visionOS開發MCP伺服器，Rust實作",
+    "title_original": "karad/seiro-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/karad/seiro-mcp",
+    "published_at": "2026-07-07T02:08:47Z",
+    "category": "agent-skills",
+    "summary": "seiro-mcp是一個專為visionOS開發者設計的MCP（Model Context Protocol）伺服器，以Rust語言實作，目前僅16顆星。提供輕量級的visionOS開發技能與工具整合，可讓AI coding agent直接操作visionOS專案。適合想在蘋果空間運算領域實驗AI輔助開發的技術用戶。",
+    "highlights": [
+      "Rust實作，效能與記憶體效率佳",
+      "專注visionOS開發場景",
+      "MCP協定支援與主流AI coding agent整合",
+      "新興專案，星數低但方向明確"
+    ],
+    "why_it_matters": "visionOS生態系仍在早期發展階段，能有對應的MCP工具鏈可加速AI agent在蘋果空間運算平台的開發效率。此專案規模雖小但切入點精準。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地環境安裝並連接cursor或claude code等AI coding agent，測試其是否能正確理解visionOS SwiftUI程式碼結構並提供上下文相關的開發建議。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/199387?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-07-hy3-295b-moe-21b-256k-apache-2-0",
+    "title": "騰訊Hy3開源：295B MoE模型、21B活躍參數、256K上下文，Apache 2.0授權",
+    "title_original": "tencent/Hy3",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
+    "published_at": "2026-07-06T23:57:35+00:00",
+    "category": "open-source-ai",
+    "summary": "騰訊Hy團隊發布Hy3開源MoE模型，總參數295B，活躍參數21B，另有3.8B MTP層參數。上下文長度達256K，官方宣稱效能可比擬2-5倍參數量的模型。完整模型在Hugging Face占用598GB，FP8量化版300GB。Apache 2.0授權，截至7月21日可在OpenRouter免費使用。",
+    "highlights": [
+      "Apache 2.0開源許可，商用友好",
+      "MoE架構：295B總參數、21B活躍參數",
+      "256K上下文長度領先同級開源模型",
+      "FP8量化版300GB降低部署門檻",
+      "OpenRouter限時免費至7月21日"
+    ],
+    "why_it_matters": "Hy3以相對小的活躍參數達成高效能，且Apache 2.0授權無商業限制。對於需要大上下文處理能力的技術用戶，是可部署在自有硬體上的選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即在OpenRouter試用生成測試，評估其程式碼生成與長文本任務表現，之後可下載FP8量化版在本地或自架伺服器部署。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-07-reddit-fusion-sakana-fugu",
+    "title": "Reddit 討論：本地部署版 Fusion / Sakana Fugu 整合方法是否已出現？",
+    "title_original": "Are there any interesting local versions of the OpenRouter \"Fusion\" or Sakana Fugu methods, being worked on, as of yet? I'm curious if these setups will enable us to use, say, a panel of various ~30B-ish local models together to get outputs closer to GLM quality without needing as much memory.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1updaht/are_there_any_interesting_local_versions_of_the/",
+    "published_at": "2026-07-06T23:01:23+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群討論是否有本地版本的 OpenRouter Fusion 或 Sakana Fugu 整合技術，目標是透過組合多個約 30B 參數的本地模型，達成接近旗艦模型輸出品質，同時控制記憶體需求。討論反映技術使用者對成本效益與隱私本地化部署的高度興趣。",
+    "highlights": [
+      "社群正在探索如何用多個中小型本地模型協作替代單一大型模型",
+      "Fusion/Sakana Fugu 方法核心為模型輸出整合與共識機制",
+      "約 30B 參數模型組合可能以較低硬體需求達到 GPT-4 等級表現",
+      "此方向可大幅降低企業與個人部署成本",
+      "目前尚未有成熟、易用的本地開源替代方案出現"
+    ],
+    "why_it_matters": "若此技術成熟，技術使用者可用消費級 GPU（如 4090 雙卡）運行多個 30B 模型組合，突破單一模型記憶體限制並提升輸出品質，同時保持資料完全本地化處理。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注 Hugging Face 上是否有類似 ensemble-LLM 或 model-fusion 的新專案，測試其在自動化工作流程程中處理長文本摘要、程式碼生成等任務時的性價比。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-07-prefill-llm",
+    "title": "技術分析：Prefill 階段是否被低估？本地 LLM 投資報酬率重新評估",
+    "title_original": "Prefill vs. decoding and local LLM ROI: is prefill underrated?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1up9054/prefill_vs_decoding_and_local_llm_roi_is_prefill/",
+    "published_at": "2026-07-06T20:20:52+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 技術帖探討本地 LLM 部署中 Prefill（前綴處理）與 Decoding（解碼生成）兩階段的效率差異，指出現有優化過度專注於解碼速度，但 Prefill 階段的計算成本可能被低估，影響整體 ROI 與即時互動體驗。",
+    "highlights": [
+      "Prefill 階段處理輸入 prompt 的計算成本有時被忽略",
+      "KV Cache 等技術主要優化解碼階段，但對 Prefill 效益有限",
+      "長上下文場景下 Prefill 瓶頸更明顯",
+      "硬體選擇（VRAM vs. 運算單元）需重新評估",
+      "此分析適用於追求低延遲的 Agent 工作流程場景"
+    ],
+    "why_it_matters": "對建構即時 Agent 應用的技術開發者而言，理解 Prefill vs Decoding 的資源分配可避免錯誤的硬體投資，優化本地模型在自動化流程中的響應延遲與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本地部署時使用 profiler 工具測量不同 prompt 長度下的 Prefill/Decoding 時間比例，針對目標工作流程選擇最適模型與量化方式。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-06-mcp-observatory-mcp",
     "title": "MCP-Observatory：MCP 伺服器測試、安全與監控開源工具",
     "title_original": "KryptosAI/mcp-observatory",
