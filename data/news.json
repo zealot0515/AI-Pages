@@ -1,5 +1,173 @@
 [
   {
+    "id": "2026-07-07-ai",
+    "title": "社群駁斥北京限制中國 AI 模型海外存取的報導",
+    "title_original": "Beijing IS NOT looking at curbing overseas access to China's top AI models (Debunking the Reuters report)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1upvw37/beijing_is_not_looking_at_curbing_overseas_access/",
+    "published_at": "2026-07-07T13:57:36+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 用戶對路透社限制報導提出質疑，認為消息缺乏具體文件依據且中國模型廠商多已具備國際化商業模式，限制存取與其商業利益相悖。此為社區反向解讀，屬於爭議性消息。",
+    "highlights": [
+      "社群反駁路透社報導的真實性與文件依據",
+      "指出中國模型廠商有國際化商業動機",
+      "雙方均缺乏官方正式文件佐證",
+      "代表消息面上多空訊息混雜的典型情況",
+      "技術用戶應保持資訊中立，等待官方確認"
+    ],
+    "why_it_matters": "面對相互矛盾的傳聞，技術用戶應以官方文件為準，避免基於未確認消息做重大架構決策；同時保持對政策走向的敏感度。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立消息追蹤清單：標記路透社原始報導與社群反駁，設定觀察期（如 2 週），若無後續官方聲明則降級關注度。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-07-ai",
+    "title": "中國 AI 模型因成本優勢正受美國企業關注",
+    "title_original": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1upsezw/chinese_ai_models_are_gaining_ground_with_us/",
+    "published_at": "2026-07-07T11:34:48+00:00",
+    "category": "ai-deals",
+    "summary": "Reddit r/LocalLLaMA 社群討論指出，隨 OpenAI、Anthropic 成本攀升，部分美國公司開始評估中國模型（如 MiniMax、DeepSeek 等）作為替代選項，討論聚焦性價比與合規風險。",
+    "highlights": [
+      "OpenAI / Anthropic API 成本上漲為主要驅動力",
+      "中國模型在某些任務上性價比突出",
+      "合規與資料主權問題仍是顧慮",
+      "社群回饋顯示實測中國模型有正面個案",
+      "尚未有大規模企業遷移的公開數據"
+    ],
+    "why_it_matters": "成本壓力可能加速技術選型多樣化，技術決策者需關心中國模型的能力邊界與實際成本節省幅度，以評估是否值得納入技術棧。",
+    "automation_angle": null,
+    "automation_angle_zh": "選型時可做成本對比表：將 OpenAI / Anthropic 與中國模型在相同任務下比較 API 費用與輸出品質，找出高頻低價值任務替換可能性。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-07-whisper-asr",
+    "title": "目前是否有超越Whisper的本地ASR模型？",
+    "title_original": "Are there any local ASR models that surpass Whisper right now?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ups1c8/are_there_any_local_asr_models_that_surpass/",
+    "published_at": "2026-07-07T11:16:30+00:00",
+    "category": "new-models",
+    "summary": "社群討論目前本地自動語音辨識模型的發展狀態，比較各模型在準確率、延遲與資源消耗上的表現，探索Whisper之外的替代選項。",
+    "highlights": [
+      "比較多個本地ASR模型的效能",
+      "關注識別準確率與延遲表現",
+      "討論不同硬體環境下的適用性",
+      "Whisper仍是主流基準",
+      "可能存在新興模型值得關注"
+    ],
+    "why_it_matters": "選擇適合的本地ASR模型可降低API依賴與成本，對需要即時語音處理的本地部署場景有實質幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "可測試各候選模型在自己硬體上的實際效能，找出延遲與準確率的最佳平衡點，用於本地會議轉錄或語音命令場景。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-07-ai",
+    "title": "北京擬限制海外存取中國頂尖 AI 模型（路透社報導）",
+    "title_original": "Beijing is looking at curbing overseas access to China's top AI models (Reuters)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uprmso/beijing_is_looking_at_curbing_overseas_access_to/",
+    "published_at": "2026-07-07T10:56:27+00:00",
+    "category": "hot-topics",
+    "summary": "路透社引述消息稱中國政府正在研議對頂尖 AI 模型施加入境管控，可能限制外國用戶直接呼叫中國旗艦模型 API。此政策動向尚在研議階段，正式立法或實施時間未明。",
+    "highlights": [
+      "路透社消息來源，為政策傳聞而非已生效法規",
+      "若實施可能影響依賴中國模型 API 的外國用戶",
+      "MiniMax、DeepSeek 等廠商在中國境外提供服務可能受限",
+      "具體限制範圍與生效時間尚不明確",
+      "代表中美 AI 監管分歧加劇訊號"
+    ],
+    "why_it_matters": "若政策落地，依賴中國模型 API 的工作流程須準備備案或替換方案；對技術決策者而言，及早建立模型多元供應鏈可降低政策風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "盤點現有工作流程中中國模型的使用比例，若佔比高則評估備援 Provider，並關注後續政策動態以提前調整架構。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-07-h100-5-117m-silia",
+    "title": "在H100上用5小時訓練117M參數Silia模型",
+    "title_original": "Trained a 117M parameters Silia model on an H100 in 5 hours.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1upqmjt/trained_a_117m_parameters_silia_model_on_an_h100/",
+    "published_at": "2026-07-07T10:03:50+00:00",
+    "category": "open-source-ai",
+    "summary": "社群開發者展示在單張H100 GPU上僅用5小時完成117M參數Silia模型的訓練，測試了不同的學習率、batch size與warmup策略組合的可行性。",
+    "highlights": [
+      "單卡H100 5小時完成訓練",
+      "測試多種超參數組合效果",
+      "提供可重現的訓練流程",
+      "Silia為開源模型專案",
+      "對小型模型的訓練效率有參考價值"
+    ],
+    "why_it_matters": "小型模型的快速訓練意味著更低成本的迭代開發，適合個人開發者或小型團隊進行模型實驗與微調。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考其訓練配置，在自己的資料集上測試Silia模型的成本與性能，評估是否適合作為輕量級任務的本地替代方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-07-item",
+    "title": "[論文] 語言模型到底會記住多少內容？",
+    "title_original": "[Paper] How much do language models memorize?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1upq1rc/paper_how_much_do_language_models_memorize/",
+    "published_at": "2026-07-07T09:32:09+00:00",
+    "category": "new-models",
+    "summary": "研究論文探討語言模型對訓練資料的記憶程度，分析不同模型規模、訓練epoch與記憶化之間的關係，對理解模型隱私風險與訓練最佳化有重要參考價值。",
+    "highlights": [
+      "研究量化模型對訓練資料的記憶率",
+      "分析模型規模與記憶化程度的相關性",
+      "探討不同訓練階段對記憶化的影響",
+      "提供隱私風險評估的方法論",
+      "可作為評估模型安全性的參考依據"
+    ],
+    "why_it_matters": "了解模型記憶化程度有助於評估隱私洩漏風險與版權問題，對企業部署模型時的風險管理至關重要。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用此研究的方法論測試自訂模型的記憶化程度，評估是否需要額外的資料清洗或差分隱私處理。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-07-bamboo-agent-rust-ai-agent",
     "title": "Bamboo-agent：Rust語言實現的本地優先AI Agent執行環境",
     "title_original": "bigduu/Bamboo-agent",
@@ -5712,6 +5880,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-07-anthropic-claude-sonnet-5-pro",
+    "title": "Anthropic將Claude Sonnet 5設為免費版與Pro版預設模型",
+    "title_original": "Anthropic makes Claude Sonnet 5 the default for Free and Pro users - EdTech Innovation Hub",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUmpwektDRWNfR29UaGxjZUlxMVlLOEFNd29YbHgwWGZlNTZvT3dBX095ZzhBcS1FOGUxQ2ROZU11ang3SmVSRVVXOXl0Mkh3TmZYYkZ5LVdtS3VqU1BvSlZoSEREMF9Jb1A4V0JwTGRBdmZIUXVsZ2VXc2JoZ0pONjRJdzhHS1JnYmxzTnhGVGsyLUhPQ2hFcDhaX2xBQmJvN05QSm9ia3gweXM?oc=5",
+    "published_at": "2026-06-30T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Anthropic宣布Claude Sonnet 5成為Free與Pro用戶的預設模型，付費牆後仍保留Claude 3.5 Sonnet選項，此舉將影響廣大一般用戶的使用體驗。",
+    "highlights": [
+      "Sonnet 5成為預設模型",
+      "Free與Pro用戶均受影響",
+      "付費用戶仍可選擇舊版本",
+      "模型能力可能有所提升",
+      "對API用量與成本結構可能有影響"
+    ],
+    "why_it_matters": "預設模型的變更影響數百萬用戶的日常使用體驗，若Sonnet 5能力更強則性價比提升，但需注意新模型的限制與變化。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估Sonnet 5在現有工作流程中的表現，若API整合的話注意版本切換可能帶來的輸出差異，並監控token消耗變化。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-06-30-tesla-v100-16gb-llm-nvlink",
