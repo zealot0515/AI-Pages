@@ -1,5 +1,250 @@
 [
   {
+    "id": "2026-07-08-kicad-mcp-eda-ai-mcp",
+    "title": "KiCad-MCP：開放原始碼 EDA 工具 AI 化 MCP 伺服器",
+    "title_original": "oaslananka/kicad-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/oaslananka/kicad-mcp",
+    "published_at": "2026-07-08T19:07:19Z",
+    "category": "agent-skills",
+    "summary": "oaslananka/kicad-mcp 是一個專為 KiCad 設計的 MCP 伺服器，可讓 Claude、Cursor、Copilot 等 AI Agent 驅動原理圖審查、PCB 布局、ERC/DRC 檢查、DFM 分析與 BOM 生成。目前 Star 數僅 18，仍屬早期專案，但直接對接硬體工程師的日常工具鏈。",
+    "highlights": [
+      "支援原理圖、PCB、ERC/DRC 與 BOM 自動化",
+      "可被 Claude、Cursor、Copilot 等主流 AI Agent 呼叫",
+      "Python 實作，门槛較低可自行擴展",
+      "Star 數極低，生態與文件成熟度待觀察",
+      "對於硬體工程師有高度場景價值"
+    ],
+    "why_it_matters": "EDA 工具長期缺乏 AI 整合，若 MCP 化成功，可讓硬體工程師用自然語言驅動電路審查與 BOM 生成，大幅縮短設計驗證迴圈。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝後可直接用自然語言指令讓 AI Agent 檢查 DRC、生成 BOM 或解讀原理圖，評估是否能在實際專案中取代部分手動操作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/285490571?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-lora",
+    "title": "完整本地模型資產生成管線開源，涵蓋 LoRA、微調到部署",
+    "title_original": "Complete local model asset generation pipeline",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ur1mim/complete_local_model_asset_generation_pipeline/",
+    "published_at": "2026-07-08T18:42:49+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶分享了一套從零建構到部署的本地模型資產生成完整管線，包括資料處理、LoRA 訓練、微調對齊及推論部署等階段。旨在幫助無雲端資源的開發者在本地環境完成小型化模型建置。",
+    "highlights": [
+      "提供從資料集到可部署模型的端對端腳本",
+      "涵蓋 LoRA 訓練與微調對齊流程",
+      "面向無 GPU 雲端資源的本地優先場景",
+      "需自行驗證各環節穩定性與產出品質"
+    ],
+    "why_it_matters": "對於需要快速驗證模型概念或控制資料隱私的技術用戶，全本地管線可省去雲端開支並簡化實驗迭代流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載該管線後，先用預設資料集跑通全流程，評估本地訓練時間與產出模型在特定任務上的表現。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-langchain-nvidia-nemoclaw-deep-agents",
+    "title": "LangChain 與 NVIDIA 聯合發布 NemoClaw Deep Agents 藍圖",
+    "title_original": "LangChain and NVIDIA Launch NemoClaw Deep Agents Blueprint",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langchain-and-nvidia-launch-the-nemoclaw-deep-agents-blueprint",
+    "published_at": "2026-07-08T18:09:30+00:00",
+    "category": "agent-skills",
+    "summary": "雙方合作推出企業級 Agent 開發藍圖，整合 Deep Agents Code、Nemotron 3 Ultra 與 OpenShell，提供治理、安全審計與可解釋性功能，瞄準金融與醫療等合規需求較高的場景。",
+    "highlights": [
+      "內建 RBAC 權限控制與操作日誌追蹤",
+      "支援在私有雲或本地資料中心部署",
+      "結合 NVIDIA NIM 微服務，簡化企業整合",
+      "開源藍圖但部分元件需企業授權"
+    ],
+    "why_it_matters": "企業合規 Agent 需求增長，此藍圖提供參考架構，可縮短內部合規審查與安全評估時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可參考藍圖設計自己的企業 Agent 管線，利用其中的 audit log 機制為現有系統增添合規監控能力。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-nvidia-hugging-face-data-for-agents",
+    "title": "NVIDIA 與 Hugging Face 發布「Data for Agents」開源數據集",
+    "title_original": "Data for Agents",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+    "published_at": "2026-07-08T17:16:05+00:00",
+    "category": "open-source-ai",
+    "summary": "NVIDIA 與 Hugging Face 合作發布專為 AI Agent 訓練設計的開源數據集，涵蓋多輪對話、工具調用、任務規劃等場景。該數據集旨在提升 Agent 的推論與執行能力，降低從零訓練的成本。",
+    "highlights": [
+      "數據集針對 tool-use、reasoning chains 等 Agent 核心場景優化",
+      "整合 NVIDIA NeMo 框架，可直接用於微調企業級 Agent",
+      "開源許可允許商業使用，降低開發門檻",
+      "支援 Hugging Face Transformers 格式，相容現有訓練管線"
+    ],
+    "why_it_matters": "訓練效能良好的 Agent 長期是痛點，高品質數據集可直接縮短開發週期，省去自行爬取與清洗數據的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載數據集，使用 LLaMA-Factory 或 NeMo-Aligner 對開源模型（如 Llama 3、Mistral）進行 Agent 微調，打造符合內部流程的自動化助理。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-08-reddit-chatgpt-20b",
+    "title": "Reddit 用戶推測免費版 ChatGPT 底層為亞 20B 模型",
+    "title_original": "The standard free ChatGPT LLM you get after a few messages HAS to be some sub-20b model with online search enabled, no other way to explain how awful it is",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqz1d4/the_standard_free_chatgpt_llm_you_get_after_a_few/",
+    "published_at": "2026-07-08T17:13:56+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit LocalLLaMA 社群有用戶根據對話品質與回應速度推測，免費版 ChatGPT 在數輪對話後切換至亞 20B 規模模型並啟用線上搜尋。此說法未獲 OpenAI 官方證實，屬社群猜測。",
+    "highlights": [
+      "純屬用戶主觀推測，缺乏官方文件佐證",
+      "「切換」行為可能與負載均衡、付費牆策略相關",
+      "對技術決策參考價值較低",
+      "類似的模型降級現象在業界確實存在"
+    ],
+    "why_it_matters": "若猜測屬實，意味免費版 ChatGPT 已不可靠作為技術基準，建議技術用戶以付費版或 API 作為開發參照。",
+    "automation_angle": null,
+    "automation_angle_zh": "工程師應建立自己的模型評測基準，避免依賴未公開模型的表現；對成本敏感者可考慮用 GPT-4o-mini 等定價較低的方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-qllm-transformer-mamba-o-1",
+    "title": "QLLM：無 Transformer、無 Mamba，聲稱 O(1) 推論的新架構模型問世",
+    "title_original": "QLLM, no transformer, no mamba and new noval architecture with O(1) inference is finally out as model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqykgh/qllm_no_transformer_no_mamba_and_new_noval/",
+    "published_at": "2026-07-08T16:58:12+00:00",
+    "category": "new-models",
+    "summary": "QLLM 是一款宣稱完全跳脫 Transformer 與 Mamba 架構的新型態語言模型，強調 O(1) 推論複雜度。Reddit r/LocalLLaMA 社群已有初步討論，但模型實際效能與benchmark尚未公開。技術層面放棄注意力機制的替代方案值得關注，目前缺乏第三方驗證。",
+    "highlights": [
+      "宣稱完全不使用 Transformer 或 Mamba 架構",
+      "強調 O(1) 推論複雜度，理論上可避開序列長度的計算瓶頸",
+      "社群討論熱度尚可，但缺乏正式論文或詳細技術文件",
+      "模型權重已開放，但未提供標準 benchmark 結果"
+    ],
+    "why_it_matters": "若 O(1) 推論宣稱成立，可能對長文本處理與部署成本帶來結構性影響。技術宅應持續追蹤此方向，因為任何能突破 Transformer 二次複雜度的架構都值得實測驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "可先 clone 該專案，在本地硬體上用短文本測試推論速度與生成品質，與同參數量的 llama.cpp 模型對比延遲。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-nemotron-3-ultra-prompt-opus-4-8-8",
+    "title": "Nemotron 3 Ultra 僅靠 Prompt 工程即可對標 Opus 4.8，成本降低 8 倍",
+    "title_original": "Tuning the harness, not the model: a Nemotron 3 Ultra playbook",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/tuning-the-harness-not-the-model-a-nemotron-3-ultra-playbook",
+    "published_at": "2026-07-08T15:00:46+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 實驗室發布 Nemotron 3 Ultra 最佳化攻略，透過調整 Agent 支架（scaffolding）而非重新訓練模型，在多步驟任務中達到與 Opus 4.8 相當的表現，成本僅為後者 1/8。",
+    "highlights": [
+      "核心在於優化 ReAct、Plan-and-Execute 等 Agent 模式組合",
+      "加入structured output 約束與錯誤恢復邏輯",
+      "實測在 GAIA 基準測試集上表現優異",
+      "完全開源，可在 LangChain 環境中直接部署"
+    ],
+    "why_it_matters": "此案例證明「prompt engineering + scaffold tuning」可大幅節省模型調用成本，為預算有限的團隊提供高性價比方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可 clone LangChain 範例程式碼，在自己的業務流程中替換 Nemotron 3 Ultra，逐步測試並記錄成本與準確率差異。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-deep-agents-code-nvidia-nemoclaw",
+    "title": "Deep Agents Code 登陸 NVIDIA NemoClaw：敏感程式碼現代化的安全藍圖",
+    "title_original": "Deep Agents Code on NVIDIA NemoClaw",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/deep-agents-code-on-nemoclaw-a-governed-blueprint-for-your-most-sensitive-code",
+    "published_at": "2026-07-08T15:00:21+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 部落格介紹如何在 NVIDIA NemoClaw 平台上運行 Deep Agents Code，強調 deny-by-default 網路隔離、人工審批環節與稽核日誌。適用於需改寫敏感程式碼的企業場景，在 AI 輔助生產與安全合規間取得平衡。",
+    "highlights": [
+      "NemoClaw 提供 deny-by-default 網路策略",
+      "整合人工審批環節防止自動執行危險操作",
+      "完整稽核日誌供合規追蹤",
+      "目標場景為敏感程式碼現代化與重構"
+    ],
+    "why_it_matters": "對有嚴格安全要求的企業開發流程，AI Agent 若無審批機制難以落地。此方案提供了一個可參考的安全框架，技術團隊可據此評估內部部署可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀 LangChain 官方文件後，若企業有類似需求，可評估在隔離環境中實驗 Deep Agents Code，驗證人工審批流程是否能接受。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-ternary-bonsai-1-58-bit-llama-cpp-q2-0",
+    "title": "Ternary Bonsai 1.58-bit 模型獲 llama.cpp Q2_0 量化支援",
+    "title_original": "Ternary Bonsai 1.58-bit models - ggml: add Q2_0 quantization support (CPU) by khosravipasha · Pull Request #24448 · ggml-org/llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqur7o/ternary_bonsai_158bit_models_ggml_add_q2_0/",
+    "published_at": "2026-07-08T14:45:28+00:00",
+    "category": "open-source-ai",
+    "summary": "llama.cpp 社群 PR 新增 Ternary Bonsai 1.58-bit 模型（GGML Q2_0 量化）的 CPU 推論支援。Bonsai 為極度壓縮的 ternary 模型架構，本次整合使其能在普通 CPU 上運行，降低硬體門檻。",
+    "highlights": [
+      "Ternary Bonsai 為 1.58-bit 極致量化模型",
+      "llama.cpp 新增 Q2_0 量化支援（CPU）",
+      "極低記憶體佔用可在一般 CPU 設備上運行",
+      "需確認模型準確度損耗是否在可接受範圍"
+    ],
+    "why_it_matters": "1.58-bit 量化是極致輕量化的方向，若能保留合理效能，將使邊緣裝置本地部署門檻大幅下降，值得技術宅關注其 benchmark 表現。",
+    "automation_angle": null,
+    "automation_angle_zh": "編譯最新 llama.cpp，pull 該 PR 後用量化模型在 CPU 上測試生成速度與品質，評估是否能替代雲端 API 使用場景。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-08-european-parliament-mcp-server-ai-agent",
     "title": "European-Parliament-MCP-Server：為 AI Agent 提供歐盟政治情報",
     "title_original": "Hack23/European-Parliament-MCP-Server",
@@ -161,6 +406,33 @@
     "automation_angle_zh": "可參考討論中的測試方法學，自行建立本地模型基準測試套件。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-openai-walton-foundation-k-12-ai",
+    "title": "OpenAI 與 Walton Foundation 推動 K-12 教育者 AI 技能培訓",
+    "title_original": "Helping K–12 educators build practical AI skills",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/k-12-educators-practical-skills",
+    "published_at": "2026-07-08T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI Academy 夥伴非營利組織舉辦「AI Skills Jams」工作坊，協助中小學教師掌握 ChatGPT 基本操作與課堂應用。目標群體並非技術開發者，偏向教育場景落地。",
+    "highlights": [
+      "聚焦 K-12 教師，非技術從業人員",
+      "內容涵蓋 Prompt 設計、課堂用例分享",
+      "由 Walton Family Foundation 資助，免費參與",
+      "目前僅在美國部分地區試點"
+    ],
+    "why_it_matters": "對技術用戶而言實用性有限，但反映了 AI 滲透教育領域的政策趨勢，可能影響未來 K-12 EdTech 工具需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "若有興趣拓展教育市場，可關注此計畫的課程模板開源情况，參考其 Prompt 設計逻辑應用於其他垂直領域。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -335,6 +607,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-08-github-codex-jetbrains-ide-agent-provider",
+    "title": "GitHub 宣布 Codex 成為 JetBrains IDE 新一代 Agent Provider",
+    "title_original": "Codex as agent provider and agentic enhancements in JetBrains IDEs",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-07-codex-as-agent-provider-and-agentic-enhancements-in-jetbrains-ides",
+    "published_at": "2026-07-08T02:55:53+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方公告將 Codex 引入 JetBrains IDE 作為公開預覽的 Agent Provider，並同步推出 Hooks 支援與更完整的 MCP Server 管理介面，讓開發者能在 IDE 內直接呼叫 Codex 處理程式碼任務。此更新降低在主流 IDE 內使用雲端 Agent 的門檻。",
+    "highlights": [
+      "Codex 以 Agent Provider 形態整合進 JetBrains 產品線",
+      "支援 Hooks 自訂觸發條件與擴充行為",
+      "MCP Server 管理功能更完整，方便串接外部工具",
+      "目前為公開預覽階段，非正式釋出",
+      "預期可與 GitHub Copilot 產生差異化定位"
+    ],
+    "why_it_matters": "對於已習慣在 JetBrains 環境中開發的技術人員，Codex 的整合提供直接在 IDE 內使用雲端 Agent 的替代方案，特別是對 MCP Server 有需求的進階用戶。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在支援的 JetBrains 專案啟用 Codex，測試其在重構、程式碼生成與測試撰寫場景中的實際表現，比較與 Copilot 的效率差異。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-08-codex-latex-ats",
     "title": "開源 Codex 原生求職助理：LaTeX 履歷與 ATS 檢測",
     "title_original": "I built an open-source Codex-native job search assistant with LaTeX CVs and ATS checks",
@@ -441,6 +741,61 @@
     "automation_angle_zh": "技術用戶可在 Copilot 組織設定中啟用 Kimi K2.7，並建立團隊內的 Prompt Library：例如設定統一的 PR Review Prompt，讓所有成員在提交 Pull Request 時自動觸發 Kimi K2.7 進行標準化 Code Review。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-08-openai-gpt-live",
+    "title": "OpenAI 發表 GPT-Live 新一代語音模型",
+    "title_original": "Introducing GPT-Live",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/introducing-gpt-live",
+    "published_at": "2026-07-08T00:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 官方博客宣布 GPT-Live 為下一代語音模型系列，專為自然人機對話設計，目前已在 ChatGPT Voice 中上線。此模型強調低延遲與更自然的語音節奏，但具體技術規格與 API 上線時間尚未公布。",
+    "highlights": [
+      "新語音模型系列，強調自然對話體驗",
+      "已上線 ChatGPT Voice，惠及一般用戶",
+      "具體 API 定價與延遲數據尚未公開",
+      "屬模型能力升級，非全新產品發布",
+      "對語音客服、即時翻譯場景有潛在影響"
+    ],
+    "why_it_matters": "GPT-Live 代表 OpenAI 在語音互動領域的最新進展，若未來開放 API，將對語音驅動的 AI 應用開發者有實質幫助，值得持續關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 ChatGPT Voice 中實際測試對話流暢度與回應延遲，若 API 上線可第一時間評估是否能用於語音客服或口語化資料輸入場景。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-vllm-transformer",
+    "title": "vLLM 原生速度 transformer 後端正式發布",
+    "title_original": "Native-speed vLLM transformers modeling backend",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+    "published_at": "2026-07-08T00:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格介紹 vLLM 新一代原生速度 transformer 後端，宣稱推論速度接近 CUDA 原生實現。透過優化 attention kernel 與 memory mapping，支援快速冷啟動與動態批次。",
+    "highlights": [
+      "消除 Python-GPU 通信瓶頸，throughput 提升明顯",
+      "支援 Hugging Face Transformers 模型無縫遷移",
+      "動態 KV cache 管理，降低長上下文記憶體佔用",
+      "開源且持續更新，社群活跃度較高"
+    ],
+    "why_it_matters": "推論速度直接影響部署成本與使用者體驗，vLLM 新後端可讓中小型團隊在有限 GPU 資源下服務更多並發用戶。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用新後端替換原有 vLLM 版本，編寫基準測試腳本量化 QPS 與延遲變化，評估是否值得遷移到正式環境。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
