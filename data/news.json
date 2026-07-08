@@ -1,5 +1,90 @@
 [
   {
+    "id": "2026-07-08-gaal-cli-repo-agent-mcp",
+    "title": "Gaal：單一 CLI 同步本地 Repo、Agent 技能與 MCP 設定",
+    "title_original": "getgaal/gaal",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/getgaal/gaal",
+    "published_at": "2026-07-08T07:43:12Z",
+    "category": "agent-skills",
+    "summary": "Gaal 是一個 Go 語言寫成的命令行工具，專門解決開發者常見的困擾：本地 Repo、AI Agent 技能定義、MCP 伺服器設定三者的版本同步問題。現有 26 顆星，適合需要頻繁在多個專案切換或維護多個 Agent 設定檔的技術用戶。",
+    "highlights": [
+      "用 Go 撰寫，單一二進制檔案無需額外依賴",
+      "同時管理 Repo、Agent 技能、MCP 設定三種狀態",
+      "降低多專案維護時的設定漂移風險",
+      "開源專案可直接檢視原始碼審計安全性",
+      "目前星數尚低，功能穩定性需自行測試"
+    ],
+    "why_it_matters": "多個 Agent 專案切換時，設定不一致是常見痛點。Gaal 提供統一管理介面，減少手動同步的人為錯誤，對維護多個 AI 工作流程的開發者有實質幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地環境安裝後，將現有 Agent 專案設定匯入 Gaal 管理，觀察設定檔版本是否正確追蹤，評估是否能取代手動 YAML 管理流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/273952434?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-horus-hiero",
+    "title": "Horus Hiero：象形文字翻譯模型發布",
+    "title_original": "Introducing Horus Hiero | A Hieroglyphic Language Translation Model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqk69n/introducing_horus_hiero_a_hieroglyphic_language/",
+    "published_at": "2026-07-08T06:06:08+00:00",
+    "category": "new-models",
+    "summary": "Horus Hiero 是一款專門用於古埃及象形文字翻譯的本地開源模型。模型屬性（如參數量、基底架構）在摘要中未揭露，且 Reddit 討論區為非官方來源，詳細技術規格與實際翻譯品質需進一步驗證。",
+    "highlights": [
+      "專精象形文字翻譯的垂直領域模型",
+      "屬地端開源專案，可自由部署使用",
+      "模型規格（參數量、效能Benchmark）未在摘要中說明",
+      "目前僅有 Reddit 討論串，官方文件或論文不足",
+      "適用範圍極窄，主流技術工作流程較難直接受益"
+    ],
+    "why_it_matters": "垂直領域語言模型展示 LLM 在專業翻譯上的潛力，但象形文字翻譯市場極小眾。此資訊更適合作為 LLM 多語言能力演進的觀察樣本，而非實務應用參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術愛好者可下載模型測試翻譯效果，作為評估本地 LLM 在非主流語言任務上能力的參考案例，不建議投入生產環境使用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-github-copilot-api",
+    "title": "GitHub Copilot 用量 API 新增審查週期與採用階段時間維度",
+    "title_original": "Add review cycles and time to adoption phases in the usage API",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api",
+    "published_at": "2026-07-08T04:53:01+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方宣布 Copilot 用量 API 擴展，新增企業與組織層級的程式碼審查速度指標，包含 AI 採用各階段的平均審查週期與耗時數據。此更新對於想要量化 AI 工具實際效益的技術管理層與 DevRel 人員具有參考價值。",
+    "highlights": [
+      "GitHub 官方 Blog 公告，來源完全可信",
+      "新增「審查週期」與「採用階段時間」兩個維度",
+      "僅限企業與組織層級報告，個人用戶不適用",
+      "可用於評估 Copilot 對程式碼審查效率的實際影響",
+      "採集數據需注意隱私合規與資料保留政策"
+    ],
+    "why_it_matters": "AI 工具投資回報率一直是企業決策痛點。新 API 欄位讓管理者能以數據驅動方式評估 Copilot 是否真正加速團隊開發流程，而非僅依賴主觀感受。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 GitHub API 拉取組織層級的 Copilot 用量數據，結合新的審查速度指標建立自動化儀表板，定期向技術主管匯報 AI 工具導入成效。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-08-rabbithole-mcp",
     "title": "Rabbithole：MCP 無限畫布，選取文字即可分支探索知識",
     "title_original": "shlokkhemani/rabbithole",
