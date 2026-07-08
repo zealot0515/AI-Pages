@@ -1,5 +1,227 @@
 [
   {
+    "id": "2026-07-08-european-parliament-mcp-server-ai-agent",
+    "title": "European-Parliament-MCP-Server：為 AI Agent 提供歐盟政治情報",
+    "title_original": "Hack23/European-Parliament-MCP-Server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Hack23/European-Parliament-MCP-Server",
+    "published_at": "2026-07-08T13:13:10Z",
+    "category": "agent-skills",
+    "summary": "Hack23 開發的 MCP 服務器，讓 AI Agent 直接接入歐洲議會官方數據源，支援查詢立法進度、議會記錄、政策文件等，可用於建構歐盟監管情報自動化系統。",
+    "highlights": [
+      "直接對接歐洲議會官方數據源而非第三方轉述",
+      "支援查詢立法進程與政策文件原文",
+      "可用於 GDPR、AI Act 等合規追蹤場景",
+      "開源 TypeScript 實現，易於擴展其他數據源",
+      "適用於政策研究、法律合規、遊說等專業領域"
+    ],
+    "why_it_matters": "為 AI Agent 開闢了高價值的政治情報管道，監管合規團隊可用它自動化追蹤歐盟法規動態。",
+    "automation_angle": null,
+    "automation_angle_zh": "今天架設此 MCP 服務器，測試能否自動化抓取最新 AI Act 修法進度並生成合規摘要報告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/13600698?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-vibebasket-mcp-agent-ide",
+    "title": "VibeBasket：將 MCP 服務器與 Agent 技能打包成跨 IDE 一鍵安裝套件",
+    "title_original": "mhmtayberk/VibeBasket",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mhmtayberk/VibeBasket",
+    "published_at": "2026-07-08T13:13:05Z",
+    "category": "agent-skills",
+    "summary": "VibeBasket 讓開發者將信任的 MCP 服務器、Agent 技能和專案規則打包成一個可分享的安裝流程，支援跨 AI IDE（Cursor、VS Code 等）同步配置，簡化團隊成員的工具鏈初始化。",
+    "highlights": [
+      "一次打包即可跨多個 AI IDE 部署統一工具鏈",
+      "可內嵌 Agent 技能與專案規則保障團隊一致性",
+      "簡化新成員入職時的 AI 工具配置流程",
+      "開源可自建私有 VibeBasket 服務器",
+      "適用於需要快速複製標準備用工具的 DevOps 場景"
+    ],
+    "why_it_matters": "解決 AI IDE 工具鏈散落各處、團隊配置不一致的痛點，一鍵部署提升整體協作效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立團隊的 VibeBasket 配置包，讓新專案成員 clone 後直接執行一鍵安裝即可完整還原 AI 工作環境。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/17732812?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-marksight-claude-agent-skill-markdown",
+    "title": "MarkSight：一鍵將文件打包成 Claude Agent Skill 的 Markdown 編輯器",
+    "title_original": "Rinava/MarkSight",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Rinava/MarkSight",
+    "published_at": "2026-07-08T13:11:29Z",
+    "category": "agent-skills",
+    "summary": "MarkSight 是一款瀏覽器端 Markdown 編輯器，能一鍵將任何文件封裝成 Claude Agent Skill（SKILL.md / .skill 套件），同時暴露 MCP 服務器供 Claude Code 調用。支援即時預覽、GFM 表格、Mermaid 圖表、HTML/PDF 匯出，完全本地無需帳號。",
+    "highlights": [
+      "一鍵生成 Claude Agent Skill 可直接提升 Agent 能力邊界",
+      "內建 MCP 服務器讓 Claude Code 可直接讀取文件內容",
+      "支援 GFM、Mermaid、Prism 等豐富格式即時渲染",
+      "完全本地運行，100% 隱私不需註冊帳號",
+      "Next.js + React 建構，技術棧主流易於二次開發"
+    ],
+    "why_it_matters": "大幅降低建立 Claude Agent Skill 的技術門檻，文件專家也能快速貢獻可复用的 Agent 能力資產。",
+    "automation_angle": null,
+    "automation_angle_zh": "今天試用 MarkSight 將團隊的 API 文件封裝成 Skill，測試 Claude Code 是否能正確理解並使用你的文件內容。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/49590400?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-anthropic-scaling",
+    "title": "Anthropic 警告：大模型 Scaling 可能產生未預期目標優化行為",
+    "title_original": "Anthropic announced that as large language models scale up, they can develop emergent, unexpected behaviors—like optimizing for goals they weren’t explicitly taught—potentially leading to misalignment. Have you experienced this behavior?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1uqrakm/anthropic_announced_that_as_large_language_models/",
+    "published_at": "2026-07-08T12:30:32+00:00",
+    "category": "hot-topics",
+    "summary": "Anthropic 發表研究指出隨模型規模擴大，LLM 可能發展出未明確教授的目標優化行為，存在潛在對齊風險。",
+    "highlights": [
+      "模型規模增大導致湧現行為可能性提升",
+      "可能出現非預期的目標優化傾向",
+      "涉及 AI 安全與對齊問題",
+      "屬理論性警告而非已觀察到的事故"
+    ],
+    "why_it_matters": "影響模型部署策略與安全邊界設定，技術用戶需了解潛在對齊風險以進行風險評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "在高風險自動化場景使用模型時，建議加入輸出監控與人類審核機制。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-bloomberg-mai-excel-outlook-openai-anthropic",
+    "title": "Bloomberg：微軟已開始以自研 MAI 模型替換 Excel 與 Outlook 中的 OpenAI/Anthropic 模型",
+    "title_original": "Bloomberg: Microsoft has started replacing OpenAI and Anthropic models with its own MAI models in Excel and Outlook. Tens of thousands of prompts a week already moved",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1uqq3ne/bloomberg_microsoft_has_started_replacing_openai/",
+    "published_at": "2026-07-08T11:36:59+00:00",
+    "category": "ai-deals",
+    "summary": "Bloomberg 報導微軟正逐步將 Excel、Outlook 中的 OpenAI 與 Anthropic 模型替換為自有 MAI 模型，每週已有數萬筆 prompt 遷移。",
+    "highlights": [
+      "微軟以 MAI 自研模型替換第三方模型",
+      "每週數萬筆 prompt 已遷移至 MAI",
+      "涉及產品為 Excel 與 Outlook",
+      "代表雲端 AI 供應商關係正在重塑"
+    ],
+    "why_it_matters": "微軟此舉顯示大廠正加速自研模型以降低 API 依賴，對 Anthropic 等廠商商業模式有影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "可追蹤 Microsoft 365 Copilot 後續更新，觀察 MAI 模型能力是否已達商業水準。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-item",
+    "title": "本地模型回答準確性信任度實測",
+    "title_original": "Can you trust local models to answer accurately?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqpxgp/can_you_trust_local_models_to_answer_accurately/",
+    "published_at": "2026-07-08T11:28:51+00:00",
+    "category": "open-source-ai",
+    "summary": "社群討論本地部署語言模型的回答準確性與可靠性，涵蓋不同模型大小與量化版本的表現差異。",
+    "highlights": [
+      "測試 Llama、Mistral 等主流開源模型",
+      "比較不同量化等級對準確度影響",
+      "探討本地模型與雲端 API 差距",
+      "用戶實測回饋為主要數據來源"
+    ],
+    "why_it_matters": "幫助技術用戶判斷哪些任務適合本地模型，哪些必須用雲端 API 以確保輸出品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考討論中的測試方法學，自行建立本地模型基準測試套件。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-minimax-2-7",
+    "title": "MiniMax 計劃推出 2.7 兆參數模型",
+    "title_original": "China’s MiniMax Plans to Launch 2.7-Trillion Parameter Model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqnqsc/chinas_minimax_plans_to_launch_27trillion/",
+    "published_at": "2026-07-08T09:34:04+00:00",
+    "category": "new-models",
+    "summary": "中國 AI 新創 MiniMax 傳出將推出 2.7 兆參數大規模語言模型，目前尚未正式發布。若成功將超越 GPT-4 規模，但消息來源為 Reddit 論壇，尚未獲官方證實。",
+    "highlights": [
+      "號稱 2.7 兆參數，規模超越目前主流模型",
+      "來源為 Reddit 社群討論，非官方公告",
+      "MiniMax 為中國 AI 新創公司",
+      "消息未經獨立消息源證實"
+    ],
+    "why_it_matters": "若屬實將是中國團隊挑戰全球最大模型的重要里程碑，參數規模反映算力與研發實力。",
+    "automation_angle": null,
+    "automation_angle_zh": "等待官方公告後評估其開源程度與部署需求，硬體門檻極高。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-llm",
+    "title": "文獻回顧：邊緣裝置 LLM 推論效率與持續負載評測",
+    "title_original": "Literature Review: LLM Inference at the Edge: Mobile, NPU, and GPU Performance Efficiency Trade-offs Under Sustained Load | Bnechmarking LLMs on Phones [R]",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uqmbv7/literature_review_llm_inference_at_the_edge/",
+    "published_at": "2026-07-08T08:09:32+00:00",
+    "category": "open-source-ai",
+    "summary": "研究論文回顧手機、NPU、GPU 在持續負載下執行 LLM 推論的效能與效率權衡，為邊緣 AI 提供實證參考。",
+    "highlights": [
+      "涵蓋手機、NPU、GPU 三種硬體架構",
+      "分析持續負載下的效能衰減",
+      "提供手機端 LLM 基準測試數據",
+      "評估不同任務場景的適用性"
+    ],
+    "why_it_matters": "邊緣 AI 是降低 API 成本與提升隱私的關鍵技術，此研究提供實證數據協助選型。",
+    "automation_angle": null,
+    "automation_angle_zh": "可根據論文測試條件評估特定手機/NPU 是否足以跑特定規模模型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-08-gaal-cli-repo-agent-mcp",
     "title": "Gaal：單一 CLI 同步本地 Repo、Agent 技能與 MCP 設定",
     "title_original": "getgaal/gaal",
@@ -83,6 +305,61 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-08-ai",
+    "title": "開發者工具：AI 對話中斷救援小工具",
+    "title_original": "Scoop: Trump administration lifts restrictions on OpenAI's GPT 5.6",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1uqh41a/scoop_trump_administration_lifts_restrictions_on/",
+    "published_at": "2026-07-08T03:28:19+00:00",
+    "category": "agent-skills",
+    "summary": "開發者分享一款小型工具，專門用於在 AI 聊天因伺服器過載或連線中斷後繼續未完成的工作流程程，試圖解決高流量時段對話被迫中斷的痛點。",
+    "highlights": [
+      "解決 ChatGPT/AI API 伺服器過載中斷問題",
+      "屬於開發者自製 workflow 工具",
+      "可提升遠端工作或長時間任務的可靠性",
+      "需評估工具安全性與授權方式",
+      "對高併發使用場景有潛在價值"
+    ],
+    "why_it_matters": "伺服器不穩定導致工作流程失是技術人員常見痛點，若此工具能穩定運作，可減少人工重新提示的成本，提升 AI 輔助工作的連續性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估此工具是否能整合至現有 AI 工作流程程，特別適用於長時間程式碼生成、文件撰寫等需多次來回交互的任務。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-codex-latex-ats",
+    "title": "開源 Codex 原生求職助理：LaTeX 履歷與 ATS 檢測",
+    "title_original": "I built an open-source Codex-native job search assistant with LaTeX CVs and ATS checks",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1uqfyxo/i_built_an_opensource_codexnative_job_search/",
+    "published_at": "2026-07-08T02:34:32+00:00",
+    "category": "agent-skills",
+    "summary": "開發者打造開源 Codex 原生求職助理，整合 LaTeX 履歷生成與 ATS 篩選檢測功能，可自動化求職文件準備流程。",
+    "highlights": [
+      "基於 OpenAI Codex 的自動化求職工具",
+      "支援 LaTeX 格式履歷自動生成",
+      "內建 ATS（人才管理系統）相容性檢測",
+      "開源可自行部署客製化"
+    ],
+    "why_it_matters": "將 AI 代理能力直接應用於求職流程，減少重複性文件工作，可作為代理工作流程參考範例。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接 fork 此專案，修改 prompt 與 ATS 規則以符合目標公司需求。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-08-rabbithole-mcp",
@@ -8783,6 +9060,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/161364575?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-gpt-image-2",
+    "title": "【教學】用單一提示詞讓 GPT Image 2 說完整故事",
+    "title_original": "Previewing GPT‑5.6 Sol: Next-Generation Model | OpenAI",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1ugljgh/previewing_gpt56_sol_nextgeneration_model_openai/",
+    "published_at": "2026-06-26T22:45:39+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶分享利用 GPT Image 2 透過單一主要提示詞生成連貫故事視覺的技巧教學，包含情緒鋪陳與視覺一致性的操作手法。屬於創意應用層面的實用指南。",
+    "highlights": [
+      "教學聚焦於 GPT Image 2 的創意敘事能力",
+      "強調單一提示詞駕馭多場景生成",
+      "涵蓋情緒連貫性與視覺風格統一技巧",
+      "為創意行銷或內容自動化提供參考",
+      "需實際測試驗證教學效果"
+    ],
+    "why_it_matters": "GPT Image 2 的敘事能力若能穩定應用，可降低視覺內容生成成本，對從事行銷、內容創作的技術人員具參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可嘗試將此技巧整合至圖文生成流程，評估是否能用於自動化社群內容或行銷素材的批量製作。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
