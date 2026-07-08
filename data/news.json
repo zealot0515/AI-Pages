@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-07-08-rabbithole-mcp",
+    "title": "Rabbithole：MCP 無限畫布，選取文字即可分支探索知識",
+    "title_original": "shlokkhemani/rabbithole",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/shlokkhemani/rabbithole",
+    "published_at": "2026-07-08T01:23:03Z",
+    "category": "agent-skills",
+    "summary": "Rabbithole 是一款 MCP 伺服器，內建無限畫布介面，使用者選取文字提問後，回答會以分支文件形式向外擴展，支援 Claude Code、Codex 與任何 MCP Agent。此工具將研究與學習流程可視化，適合需要大量文獻挖掘與脈絡追蹤的技術工作者。",
+    "highlights": [
+      "無限畫布讓知識分支一目了然，避免傳統對話串的線性閱讀負擔",
+      "支援 Claude Code、Codex 等主流 Agent 後端，通用性強",
+      "JavaScript 実装，Stars 135，社群關注度尚可",
+      "適合文獻回顧、技術選型分析、需求拆解等需要多路徑探索的場景",
+      "MCP 協定讓開源與商業 Agent 皆可接入，生态擴展性佳"
+    ],
+    "why_it_matters": "將研究過程結構化輸出，可減少技術決策時的遺漏項；分支結構也便於團隊共享探索路徑，提升技術評審效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 Rabbithole 整合進文件審查工作流程：例如讓 Agent 自動抓取 RFC 文本，選取關鍵段落後讓 Rabbithole 生成多條技術分支，自動產出結構化的決策分析報告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/19996714?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-remotepower-mcp",
+    "title": "RemotePower：MCP 全功能自托管機群管理平台",
+    "title_original": "tyxak/remotepower",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tyxak/remotepower",
+    "published_at": "2026-07-08T00:53:47Z",
+    "category": "agent-skills",
+    "summary": "RemotePower 是一款 Python 實現的全功能自托管 Server 與機群管理系統，提供 Web UI、補丁管理、監控（Agent 與 Agentless/SNMP）、CVE 掃描、CMDB、Ansible 整合與合規報告功能，支援 Proxmox 與 VMware。開源、MCP 化，Stars 54，適合需要本地化 RMM 能力的技術團隊。",
+    "highlights": [
+      "支援 Agent（推送）與 Agentless（SNMP 被動）雙模式監控，覆蓋實體機與虛擬機",
+      "內建 CVE 掃描與合規報告，可直接匯出滿足資安審計需求",
+      "整合 Proxmox 與 VMware，覆蓋主流虛擬化底層",
+      "Ansible、補丁管理一體化，減少工具鏈碎片化",
+      "Python 実装，Stars 54，可自行部署在私有雲或內網環境"
+    ],
+    "why_it_matters": "對於需要本地化運維管控的企業或團隊，RemotePower 提供一站式 RMM 能力，避免仰賴昂貴商業 RMM 工具，且完全可控於自己的基礎設施。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 RemotePower MCP 介面串入 CI/CD 流程：例如在部署 pipeline 中自動觸發 CVE 掃描，若發現高風險漏洞則暫停部署並發送 Webhook 通知，大幅降低自動化發布的資安風險。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/9032955?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-kimi-k2-7-github-copilot-business-enterprise",
+    "title": "Kimi K2.7 正式登陸 GitHub Copilot Business 與 Enterprise 方案",
+    "title_original": "Kimi K2.7 now available for Copilot Business and Enterprise",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise",
+    "published_at": "2026-07-08T00:05:35+00:00",
+    "category": "new-models",
+    "summary": "GitHub 官方 Changelog 宣布 Kimi K2.7 模型除原有 Pro、Pro+、Max 方案外，即日起同步開放 Business 與 Enterprise 層級使用。這代表企業團隊可在 Copilot 工作區中直接呼叫 Kimi K2.7，無需個人訂閱，對大規模部署與團隊協作場景有直接影響。",
+    "highlights": [
+      "官方 GitHub Blog 發布，消息可信度高",
+      "Kimi K2.7 原本僅對個人方案開放，現在擴展至企業方案",
+      "Business 方案通常有更高用量上限，適合高頻開發團隊",
+      "企業管理員可透過組織設定控制 Kimi K2.7 的啟用與配額",
+      "與 MiniMax M2.7 不同，這是已實際上線的模型而非 Rumor"
+    ],
+    "why_it_matters": "企業用戶現在可以在 Copilot 內直接使用 Kimi K2.7 處理程式碼生成、Review 與文件任務，技術團隊負責人可評估是否將 Kimi K2.7 設為團隊預設模型以提升整體產出品質或控制費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在 Copilot 組織設定中啟用 Kimi K2.7，並建立團隊內的 Prompt Library：例如設定統一的 PR Review Prompt，讓所有成員在提交 Pull Request 時自動觸發 Kimi K2.7 進行標準化 Code Review。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-08-glm-5-2-llm",
+    "title": "開源代理：為 GLM 5.2 或任何文字 LLM 添加視覺能力的小型代理",
+    "title_original": "I built a tiny proxy that gives GLM 5.2 vision (or any text LLM) – MIT",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uq5qqs/i_built_a_tiny_proxy_that_gives_glm_52_vision_or/",
+    "published_at": "2026-07-07T19:43:03+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者在 Reddit 分享一個輕量級代理程式，可為不具視覺能力的模型（如 GLM 5.2）添加影像理解功能。代理透過截圖與 OCR 技術，將視覺資訊轉換為文字描述後饋入文字模型處理。",
+    "highlights": [
+      "小型代理實現為文字模型添加視覺能力",
+      "適用於 GLM 5.2 或任何純文字 LLM",
+      "使用截圖與 OCR 技術轉換視覺資訊",
+      "開源 MIT 授權，可自由使用與修改",
+      "為缺乏視覺版本的模型提供低成本替代方案"
+    ],
+    "why_it_matters": "此代理提供了一種繞過模型視覺能力限制的方法，讓開發者可在資源受限環境下實驗多模態功能，降低使用商業視覺 API 的成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可部署此代理處理需要視覺理解的自動化任務，如文件解析、圖表分析等場景，作為商業視覺 API 的開源替代方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-07-sqlite-utils-4-0",
     "title": "sqlite-utils 4.0 正式支援資料庫遷移與巢狀交易",
     "title_original": "sqlite-utils 4.0, now with database schema migrations",
@@ -26,6 +140,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-08-anthropic",
+    "title": "Anthropic 研究：語言模型中的「可言語化表徵」形成全域工作區",
+    "title_original": "Anthropic Research - \"Verbalizable Representations Form a Global Workspace in Language Models\"",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uq4as2/anthropic_research_verbalizable_representations/",
+    "published_at": "2026-07-07T18:53:31+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 發表新研究，探討大型語言模型內部如何形成「可言語化表徵」，這些表徵在模型內部構成類似人類認知中「全域工作區」的機制。研究透過可控實驗設計，揭示模型推論時資訊如何跨模塊流動與整合。",
+    "highlights": [
+      "研究發現模型內部存在可被語言描述的表徵節點",
+      "這些節點如同認知科學中的「全域工作區」協調各模組",
+      "表徵具有可操控性，可透過干預改變模型行為",
+      "為理解 Transformer 架構內部運作提供新框架",
+      "可能影響未來模型可解釋性研究方向"
+    ],
+    "why_it_matters": "理解模型內部表徵機制是提升 AI 可解釋性的關鍵。此研究提供了一個新的理論框架，幫助開發者理解為何模型在複雜推論時表現出特定行為模式。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術研究者可透過干預這些表徵節點來控制模型輸出，為建立更精細的 AI 系統控制層提供理論基礎。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-07-github-copilot",
@@ -82,6 +224,90 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-sqlite-migrate-0-2-sqlite-utils-4-0",
+    "title": "sqlite-migrate 0.2 釋出：转型為 sqlite-utils 4.0 兼容層",
+    "title_original": "sqlite-migrate 0.2",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything",
+    "published_at": "2026-07-07T16:33:55+00:00",
+    "category": "agent-skills",
+    "summary": "sqlite-migrate 0.2 版本正式放棄獨立函式庫設計，改為作為 sqlite-utils 4.0 的兼容層。此版本主要解決與新版本依賴的相容性問題，讓現有用戶能無痛升級。",
+    "highlights": [
+      "0.2 版本放弃獨立函式庫設計",
+      "改為 sqlite-utils 4.0 的兼容層",
+      "解決與新版本的依賴相容問題",
+      "讓現有用戶能無痛升級到 4.0 生態",
+      "簡化維護負擔，專注單一工具鏈"
+    ],
+    "why_it_matters": "對於已使用 sqlite-migrate 的開發團隊，此更新確保遷移腳本能在新環境中繼續運作，避免因依賴斷裂導致資料庫管理流程中斷。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 sqlite-migrate 的自動化流程應盡快測試 0.2 版本，確保遷移腳本與新工具鏈相容，並更新部署腳本中的依賴版本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-08-github-code-web-component-gpt-5-5-github",
+    "title": "github-code Web Component：使用 GPT-5.5 構建的 GitHub 程式碼嵌入元件",
+    "title_original": "github-code Web Component",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything",
+    "published_at": "2026-07-07T16:18:16+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 展示如何使用 GPT-5.5 構建 Web Component，可直接嵌入 GitHub 程式碼並指定行號範圍顯示。元件自動將 GitHub URL 轉換為 raw 內容，透過 fetch 載入並顯示帶行號的程式碼區塊。",
+    "highlights": [
+      "使用 GPT-5.5 生成完整 Web Component",
+      "自動轉換 GitHub URL 為 raw.githubusercontent.com",
+      "支援指定行號範圍精確顯示",
+      "顯示帶行號的程式碼內容",
+      "無需語法高亮的輕量解決方案"
+    ],
+    "why_it_matters": "此展示說明 GPT-5.5 在生成完整可運行 Web Component 的能力。對於需要內嵌程式碼展示的技術部落格或文件站點，這是一個可立即使用的方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術部落格或文件站點可直接使用此 Web Component，透過簡單的 HTML 標籤嵌入 GitHub 程式碼，提升內容維護效率與程式碼同步性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-08-sqlite-utils-4-0-schema",
+    "title": "sqlite-utils 4.0 正式版：新增資料庫 Schema 遷移功能",
+    "title_original": "sqlite-utils 4.0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/7/sqlite-utils/#atom-everything",
+    "published_at": "2026-07-07T15:42:43+00:00",
+    "category": "agent-skills",
+    "summary": "sqlite-utils 4.0 正式版發布，最大亮點是新增資料庫 Schema 遷移功能。這使得 sqlite-utils 從純資料操作工具升級為可管理資料庫生命周期的完整方案，支援版本化的結構變更追蹤。",
+    "highlights": [
+      "正式版支援資料庫 Schema 遷移",
+      "支援版本化的結構變更追蹤",
+      "從純資料操作升級為完整生命週期管理",
+      "與 sqlite-migrate 0.2 生態整合",
+      "Python 資料庫工具鏈的重要里程碑"
+    ],
+    "why_it_matters": "Schema 遷移功能補足了 sqlite-utils 最後一塊拼圖。對於需要自動化資料庫部署與版本控制的團隊，從此可用單一工具完成結構設計、遷移與資料操作。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 sqlite-utils 4.0 整合到資料庫部署 CI/CD 流程中，使用其遷移功能管理 schema 版本，實現程式碼化的資料庫變更管理。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-07-07-hugging-face-microsoft-foundry",
@@ -475,6 +701,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-08-sqlite-utils-4-0rc4-claude-fable",
+    "title": "sqlite-utils 4.0rc4 釋出：最後候選版，納入 Claude Fable 審查回饋",
+    "title_original": "sqlite-utils 4.0rc4",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything",
+    "published_at": "2026-07-07T05:36:15+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 釋出 sqlite-utils 4.0 第四個候選版本，此為正式版前的最後 RC。主要變更來自 Claude Fable 5 的詳細程式碼審查回饋，修復了多處邊緣案例並優化錯誤訊息。4.0 版本將包含資料庫 schema 遷移功能。",
+    "highlights": [
+      "RC4 為 4.0 穩定版前最後候選版本",
+      "纳入了 Claude Fable 5 自動化審查的反饋",
+      "修復 schema 操作相關的邊緣案例",
+      "優化錯誤訊息提升開發者體驗",
+      "即將支援資料庫遷移功能"
+    ],
+    "why_it_matters": "sqlite-utils 是 AI 代理操作 SQLite 的標準工具之一。新版本加入 schema 遷移功能，讓代理能更安全地管理資料庫狀態，減少因結構變更導致的錯誤。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者現在可以測試 RC4，特別是 schema 遷移功能，為正式釋出做準備。將其整合到資料處理流程中可自動化資料庫結構管理。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-07-07-qwen-j-space-anthropic-global-workspace",
