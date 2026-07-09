@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-07-09-ai-skills-ai-github-335",
+    "title": "ai-skills：AI程式碼助理技能集合，GitHub星標335顆",
+    "title_original": "sanjay3290/ai-skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sanjay3290/ai-skills",
+    "published_at": "2026-07-09T14:18:54Z",
+    "category": "agent-skills",
+    "summary": "ai-skills是一個收錄AI程式碼助理各類技能的Python開源專案，GitHub星標335顆。旨在為AI程式設計工具提供可擴充的技能模組，加速開發工作流程整合。",
+    "highlights": [
+      "提供多种AI程式碼助理可用的技能模組",
+      "Python實作，易於二次開發與客製化",
+      "星標數量較高，社群認可度佳",
+      "可直接對接主流AI程式碼助理使用",
+      "有助減少開發者重複編寫常見輔助腳本"
+    ],
+    "why_it_matters": "技能化設計讓AI程式碼助理可像工具箱般按需組合，大幅提升開發者日常Coding的自動化程度與客製化空間。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可瀏覽技能清單，將合適的模組接入現有AI程式碼助理，自定義開發環境中的自動化輔助功能。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/24948667?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-09-awesome-agentic-finops-ai",
+    "title": "awesome-agentic-finops：AI原生雲端成本管理工具彙整清單",
+    "title_original": "gregoire-costory/awesome-agentic-finops",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/gregoire-costory/awesome-agentic-finops",
+    "published_at": "2026-07-09T12:11:51Z",
+    "category": "agent-skills",
+    "summary": "awesome-agentic-finops是一份精心策劃的開源與AI原生工具清單，聚焦雲端成本管理與FinOps領域，收錄MCP伺服器、助理技能與AI成本代理工具等，GitHub星標21顆。",
+    "highlights": [
+      "收錄多款AI原生的FinOps工具與MCP伺服器",
+      "涵蓋雲端成本監控與優化助理",
+      "可作為雲端帳單自動化審核的技能參考",
+      "開源清單，利於技術團隊評估選型",
+      "有助識別可自動化執行的成本異常偵測場景"
+    ],
+    "why_it_matters": "雲端成本管理逐漸成為技術團隊的核心痛點，AI Agent化的FinOps工具可實現主動式成本優化而非被動查帳單。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可從清單中選取合適的MCP伺服器，構建AI驅動的雲端帳單審核流程，自動偵測異常支出。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/167993533?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-09-rtx-4090-48gb-radeon-ai-pro-r9700-arc-pro-b70-llm",
+    "title": "改造版 RTX 4090 48GB 對決 Radeon AI Pro R9700 與 Arc Pro B70：本地端程式碼 LLM 效能評測",
+    "title_original": "Modded RTX 4090 48GB vs Radeon AI Pro R9700 vs Arc Pro B70 for local coding LLMs?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1urn2zh/modded_rtx_4090_48gb_vs_radeon_ai_pro_r9700_vs/",
+    "published_at": "2026-07-09T11:06:20+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群分享了改造版 RTX 4090（48GB VRAM）與 AMD Radeon AI Pro R9700 和 Intel Arc Pro B70 在本地端執行程式碼輔助 LLM 的效能比較。測試重點包括模型載入速度、推論延遲、VRAM 利用率及性價比，為想在本地部署開源程式碼模型的開發者提供實用參考。",
+    "highlights": [
+      "改造版 RTX 4090（48GB VRAM）可承載更大參數量的本地模型",
+      "AMD Radeon AI Pro R9700 在特定任務展現性價比優勢",
+      "Intel Arc Pro B70 為新興選擇，驅動優化仍在進行中",
+      "VRAM 容量直接影響可執行模型規模和上下文長度",
+      "社群提供實際 Benchmark 數據和配置建議"
+    ],
+    "why_it_matters": "本地端執行 LLM 可保護資料隱私並節省 API 費用，選擇適合的 GPU 硬體能大幅提升開發效率。隨著開源程式碼模型能力提升，越來越多技術用戶傾向本地部署。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可以根據自己的模型需求和硬體預算，參考這些 GPU 比較數據來選擇最優的本地推論硬體配置，並評估 ROI 是否優於雲端 API 方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-09-parsee-core-pdf-html",
+    "title": "parsee-core：專精PDF與HTML結構化資料萃取的開源工具",
+    "title_original": "parsee-ai/parsee-core",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/parsee-ai/parsee-core",
+    "published_at": "2026-07-09T10:34:48Z",
+    "category": "open-source-ai",
+    "summary": "parsee-core是一款專注於從PDF和HTML文件中提取結構化資料的開源Python工具，支援表格資料解析與多模態查詢，可搭配LLM或自定義模型使用，GitHub星標84顆。",
+    "highlights": [
+      "專精PDF與HTML結構化資料萃取",
+      "表格資料解析能力強，支援複雜格式",
+      "可對接任意LLM或自定義模型",
+      "Python生態，易於整合進現有資料處理流程",
+      "適用於文件自動化處理與RAG資料預處理"
+    ],
+    "why_it_matters": "將非結構化文件轉為結構化資料是企業自動化的關鍵瓶頸，此工具可直接降低文件處理的人力成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "將parsee-core整合進文件審閱或資料入庫流程，自動化從PDF報告中提取關鍵數據並寫入資料庫。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/153906801?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-09-kogiqa-mcp-agent-web-mcp",
     "title": "kogiqa-mcp：專為 Agent 設計的 Web 瀏覽器除錯 MCP 伺服器",
     "title_original": "atagon-GmbH/kogiqa-mcp",
@@ -59215,6 +59329,34 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-09-gemini-pro-google-one-ai",
+    "title": "Gemini Pro 免費試用與 Google One AI 升級攻略（中國大陸用戶指南）",
+    "title_original": "如何免費试用 Gemini Pro？国内使用者如何升級 Google One AI 和訂閱 Gemini Advanced 服务？ - paragraph.com",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qWm05SUwtWkUtbWhTSTBqNmVQU2g3WnlTS0xEbmxwUFdWZFZmNDc1VFY5OUowNG52cDk0a0JiNlFxS1JYZ1RsbXN1VWJFQnpTb1FTMnF0TGFCX3owdEZzOENRbUcwbmN5VVhMYW4xSE5rZ3dWQXFRYlFLWVpSQQ?oc=5",
+    "published_at": "2025-01-15T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "這篇指南說明如何在中國大陸地區免費試用 Gemini Pro，以及如何升級 Google One AI 訂閱和 Gemini Advanced 服務。內容涵蓋註冊流程、付款方式限制及替代方案，對希望以較低成本使用 Google 最新 AI 模型的技術用戶具有參考價值。",
+    "highlights": [
+      "Gemini Pro 提供免費試用額度，可直接體驗最新模型能力",
+      "Google One AI 升級選項提供更多 API 額度和優先使用權",
+      "中國大陸用戶需注意付款方式限制",
+      "Gemini Advanced 訂閱提供更強大模型存取權限",
+      "替代方案如使用 OpenRouter 等平台取得 Google API 額度"
+    ],
+    "why_it_matters": "Google AI 服務持續更新，及時了解免費額度和訂閱選項可幫助技術用戶以最優成本存取先進模型，避免錯過限時優惠或新功能測試機會。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估 Gemini API 的定價與功能是否滿足其自動化工作流程程需求，特別是與現有 OpenAI/Anthropic API 方案進行成本效益比較。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
