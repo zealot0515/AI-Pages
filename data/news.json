@@ -1,5 +1,371 @@
 [
   {
+    "id": "2026-07-09-nilbox-vm-ai-agent-mcp-server",
+    "title": "nilbox：用真實 VM 安全執行 AI Agent 與 MCP Server，零金鑰暴露",
+    "title_original": "rednakta/nilbox",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/rednakta/nilbox",
+    "published_at": "2026-07-09T02:02:10Z",
+    "category": "agent-skills",
+    "summary": "nilbox 是一個 Rust 開發的開源專案，可在隔離的虛擬機器環境中執行 AI Agent 與 MCP Server，確保 API 金鑰不會外洩。開發者可將其作為本地端 Agent 執行環境，降低第三方服務的資安風險。目前 GitHub 僅 12 顆星，屬於早期專案階段。",
+    "highlights": [
+      "以 Rust 編寫，強調安全性與效能",
+      "在隔離 VM 中執行 AI Agent，避免金鑰直接暴露於主系統",
+      "支援 MCP Server 協定，方便與現有工具整合",
+      "適用於需要高度資安控管的企業場景",
+      "目前星數少，屬於早期採用者階段"
+    ],
+    "why_it_matters": "AI Agent 常需持有高敏感性的 API 金鑰，nilbox 提供隔離執行環境，降低金鑰竊取風險。對於處理機密資料或需要嚴格資安合規的開發者而言，是值得關注的安全加固選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本地部署 nilbox，作為所有 AI Agent 請求的統一代理層，確保即使 Agent 被攻破，攻擊者也無法直接取得真實 API 憑證。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/64390350?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-09-amcp-ide-telegram-agent",
+    "title": "amcp：開箱即用的終端、IDE、伺服器與 Telegram 編碼 Agent 執行環境",
+    "title_original": "tao12345666333/amcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tao12345666333/amcp",
+    "published_at": "2026-07-09T01:11:29Z",
+    "category": "agent-skills",
+    "summary": "amcp 是 Python 開源專案，提供整合 MCP/ACP 協定的編碼 Agent 執行環境，支援終端、IDE、伺服器與 Telegram，內建工具、子 Agent、技能與記憶管理。",
+    "highlights": [
+      "內建 MCP/ACP 協定支援",
+      "支援終端、IDE、伺服器、Telegram 四種執行環境",
+      "內建工具、子 Agent、技能與記憶模組",
+      "Python 實作，部署門檻低",
+      "目前 GitHub 星數 24，為新興專案"
+    ],
+    "why_it_matters": "編碼 Agent 需穩定的執行環境與工具鏈整合，amcp 企圖提供一站式解決方案，可作為自動化工作流程的底層框架。",
+    "automation_angle": null,
+    "automation_angle_zh": "pip install 後可直接在本地端架設編碼 Agent，透過 Telegram 控制伺服器端的自動化腳本執行。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3264292?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-09-item",
+    "title": "哪些開源模型對生態系更有幫助？社區討論",
+    "title_original": "Which open models help the eco system more?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1urbn11/which_open_models_help_the_eco_system_more/",
+    "published_at": "2026-07-09T01:09:17+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社區討論開源模型對 AI 生態系的貢獻程度。討論涉及模型開放程度、訓練資料透明度、授權條款對社群發展的影響，以及不同開源策略對開發者友善度的差異。這反映社區對開源 AI 發展方向的關注。",
+    "highlights": [
+      "社區熱烈討論開源模型對整體 AI 生態系的貢獻",
+      "焦點包括：模型開放程度、訓練資料透明度、授權條款",
+      "不同開源策略（完全開源、部分開源、開放權重）各有支援者",
+      "討論涵蓋開源模型對開發者友善度與創新生態的影響",
+      "Reddit 討論為社群觀點，非官方結論"
+    ],
+    "why_it_matters": "開源模型的開放程度直接影響技術人員的使用方式與法律風險。了解社區對不同開源策略的看法，有助於技術決策者在選擇模型時考量授權合規性與長期可維護性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可參考社區討論，評估各開源模型的授權條款與開放程度，選擇適合自動化工作流程程且風險可控的模型進行長期使用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-09-llm",
+    "title": "LLM 模型規模與硬體需求對應關係技術解析",
+    "title_original": "Can you explain the concept behind each of the main size ranges of LLM models, as in, what hardware setups the different size niches are meant to fit into (~30b, ~70b, ~120b, ~230b, etc). Like is it mainly based on pro hardware sizing for 8-bit, or consumer GPU vram for ~Q4, or some mixture?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uramdp/can_you_explain_the_concept_behind_each_of_the/",
+    "published_at": "2026-07-09T00:23:38+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 技術討論深入分析 LLM 模型規模與硬體配置的對應關係。內容探討 ~30B、~70B、~120B、~230B 等不同參數量級模型在 8-bit 專業硬體與 Q4 消費級 GPU（VRAM）上的適用性與部署考量。這是針對模型大小與硬體匹配的實用技術分析。",
+    "highlights": [
+      "分析 ~30B、~70B、~120B、~230B 參數模型的硬體需求",
+      "探討 8-bit 量化在專業 GPU 上的運行配置",
+      "分析 Q4 量化在消費級 GPU VRAM 限制下的可行性",
+      "涵蓋混合配置方案與效能權衡",
+      "針對不同硬體預算的模型選擇建議"
+    ],
+    "why_it_matters": "模型規模與硬體匹配是本地部署的關鍵考量。了解各參數量級的硬體需求，可幫助技術人員根據現有資源選擇最適合的模型，避免資源浪費或部署失敗。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可根據本文分析，對照自身硬體配置，精確計算可用模型規模，規劃符合預算與效能需求的本地部署方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-09-llm-gui-opencode",
+    "title": "本地 LLM 開發者都在用哪些 GUI 工具？Opencode 不合適",
+    "title_original": "What GUI-first coding tool tool are you pairing your local LLMs with? Opencode isn't it for me.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ura06l/what_guifirst_coding_tool_tool_are_you_pairing/",
+    "published_at": "2026-07-08T23:57:35+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit LocalLLaMA 社群討論開發者如何搭配本地 LLM 使用 GUI 編碼工具，用戶反映 Opencode 不符合需求，分享 Windsurf、Cursor、Cline 等替代方案的使用體驗與偏好設定。",
+    "highlights": [
+      "開發者廣泛討論 GUI 工具與本地模型的整合方式",
+      "Opencode 被部分用戶認為不符合其工作流程程需求",
+      "常被提及的替代工具包括 Windsurf、Cursor、Cline 等",
+      "討論重點包含 GUI 與 CLI 工具的選擇與整合",
+      "用戶分享如何優化本地模型與 GUI 的效能配置"
+    ],
+    "why_it_matters": "對於使用本地 LLM 的開發者而言，找到合適的 GUI 前端直接影響編碼效率與模型调用體驗，社群經驗可作為工具選型參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可測試不同 GUI 工具與本地模型的延遲、上下文窗口限制，找出具體工作流程程中最穩定的組合。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-09-jarred-sumner-ai-agent-bun-zig-rust",
+    "title": "Jarred Sumner 用 AI Agent 將 Bun 從 Zig 重寫至 Rust 的完整紀錄",
+    "title_original": "Rewriting Bun in Rust",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
+    "published_at": "2026-07-08T23:57:21+00:00",
+    "category": "agent-skills",
+    "summary": "Bun 創辦人 Jarred Sumner 公開分享如何借助 Claude Mythos/Fable 模型，以 TypeScript 測試套件為合規基準，用動態工作流程、對抗式審查等 Agent 工程技術完成大規模重寫，耗費約 16.5 萬美元。",
+    "highlights": [
+      "以既有測試套件作為合規基準，大幅降低重寫風險",
+      "模型協助自動化生成 Rust 程式碼，初始階段數日後大量測試通過",
+      "工作流程包含動態調整、對抗式審查與流程修訂",
+      "新實作已進入 Claude Code 生產環境，Linux 啟動速度提升 10%",
+      "總消耗：59 億未快取輸入 Token、6.9 億輸出 Token、720 億快取讀取"
+    ],
+    "why_it_matters": "這是迄今最詳細的百萬行規模 AI 輔助重寫案例，展示了如何用合規測試套件與 Agent 協調克服「不該重寫」定律。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你有大型 TypeScript/JavaScript 專案需要遷移，可參考其「測試套件即合規基準」的策略，用 AI Agent 輔助初期遷移。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-09-gpt-live-gpt-5-5",
+    "title": "GPT-Live 語音模式升級：整合 GPT-5.5 幕後處理，支援多輪對話流暢切換",
+    "title_original": "Introducing GPT‑Live",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
+    "published_at": "2026-07-08T23:20:48+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 正式推出 GPT-Live 語音模式，底層模型從 GPT-4o 時代升級至 GPT-5.5。當用戶提問涉及網頁搜尋、深層推論或複雜任務時，系統會自動委派給 GPT-5.5 處理並將結果帶回對話。語音模式在等待回應期間仍可持續對話，維持自然的交流節奏。",
+    "highlights": [
+      "底層模型從 GPT-4o 升至 GPT-5.5，智慧程度大幅提升",
+      "複雜問題自動委派至 GPT-5.5 幕後處理",
+      "等待回應期間可繼續說話，不中斷對話流",
+      "知識截止日期更新，擺脫 2024 年舊資料限制",
+      "目前已知存在過度插話打斷的臭蟲修復中"
+    ],
+    "why_it_matters": "GPT-Live 的模型升級使語音助理真正可用於深度腦力激盪與複雜問題討論，而非僅限於簡單查詢。對於需要即時口頭討論技術問題的開發者，這是生產力工具的重要進化。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 GPT-Live 作為開發過程中的口頭討論夥伴，在走路、開車等雙手不便操作時進行程式架構或除錯思路的口語化梳理。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-09-grok-4-5-glm-5-2-xai-2-6",
+    "title": "Grok 4.5 發布：GLM-5.2 在 xAI 官方基準測試中落後 2.6 分",
+    "title_original": "Grok 4.5 released - GLM-5.2 shows up in xAI's own charts, 2.6 pts behind on SWE Bench Pro",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ur71hq/grok_45_released_glm52_shows_up_in_xais_own/",
+    "published_at": "2026-07-08T21:57:53+00:00",
+    "category": "new-models",
+    "summary": "xAI 發布 Grok 4.5 模型，其官方基准測試圖表顯示 GLM-5.2 的表現。GLM-5.2 在 SWE Bench Pro 上落後 Grok 4.5 約 2.6 個百分點。這是 xAI 官方發布的新模型，屬於重要產品更新，但詳細技術規格尚未完全揭露。",
+    "highlights": [
+      "xAI 正式發布 Grok 4.5 模型",
+      "xAI 官方图表中包含 GLM-5.2 作為對比基準",
+      "SWE Bench Pro 測試：GLM-5.2 落後 Grok 4.5 約 2.6 分",
+      "Grok 4.5 為 xAI 最新旗艦模型",
+      "詳細技術規格待進一步揭露"
+    ],
+    "why_it_matters": "Grok 4.5 的發布顯示 xAI 在大模型競爭中的最新進展。GLM-5.2 能被列入 xAI 官方對比圖表，說明其在開源模型中的領先地位。技術人員可關注其定價與 API 可用性變化。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可關注 Grok 4.5 的 API 定價與功能更新，比較其與其他模型的性價比，評估是否值得整合至自動化工作流程程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-09-github-copilot-opentelemetry",
+    "title": "GitHub Copilot 企業版新增 OpenTelemetry 集中管理匯出功能",
+    "title_original": "Enterprise-managed OpenTelemetry export for VS Code and CLI",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
+    "published_at": "2026-07-08T20:50:07+00:00",
+    "category": "agent-skills",
+    "summary": "企業組織現在可強制指定 GitHub Copilot 的 OpenTelemetry 資料傳送目的地，無需開發者個別設定 OTEL_* 環境變數。設定由系統統一推送至用戶端，確保所有成員的遙測資料流向經過核准的收集器。",
+    "highlights": [
+      "管理員可集中控管 OTel 資料流向",
+      "免除開發者手動設定 OTEL_* 環境變數",
+      "確保企業內所有 Copilot 遙測符合資料治理規範",
+      "支援 VS Code 與 CLI 兩種用戶端",
+      "屬於企業版 Copilot 的治理強化功能"
+    ],
+    "why_it_matters": "對於有嚴格資料合規要求的企業，此功能簡化了 Copilot 遙測資料的集中管理，降低資安與合規風險。開發者無需操心設定，組織也能保有完整的監控能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業 IT 可透過 MDM 或政策檔案統一部署 Copilot OTel 設定，配合現有的 SIEM 或監控系統自動收集與分析 Copilot 使用行為。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-09-github-copilot-mdm",
+    "title": "GitHub Copilot 企業版支援 MDM 部署托管設定",
+    "title_original": "Deploy managed Copilot settings via MDM in VS Code and CLI",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-08-deploy-managed-copilot-settings-via-mdm-in-vs-code-and-cli",
+    "published_at": "2026-07-08T20:38:56+00:00",
+    "category": "agent-skills",
+    "summary": "企業管理員現在可透過 MDM（行動裝置管理）將 Copilot 設定直接推送至開發者裝置，結合現有伺服器托管通道，提供更彈性的集中管理能力。此功能強化了組織對 AI 輔助工具的治理與一致性管控。",
+    "highlights": [
+      "支援 MDM 原生機制推送 Copilot 設定",
+      "可搭配檔案式配置進行大規模部署",
+      "與伺服器托管通道共存，提供雙軌管理",
+      "適用於需要严格裝置合規的企業環境",
+      "簡化跨部門、跨團隊的 Copilot 設定一致性管理"
+    ],
+    "why_it_matters": "組織可透過 MDM 大規模部署標準化 Copilot 設定，確保所有開發者使用一致的工具配置。這簡化了 IT 管理負擔，同時提高 AI 輔助工具的可預測性與安全性。",
+    "automation_angle": null,
+    "automation_angle_zh": "結合 MDM 系統與 GitHub Enterprise 管理介面，建立 Copilot 設定的標準化模板，實現新進開發者環境的自動化配置。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-09-4-bit-glm-5-2-753b-moe-4-dgx-spark-70-8",
+    "title": "4-bit 量化 GLM-5.2 (753B MoE) 在 4× DGX Spark 上達 70.8% 準確率",
+    "title_original": "4-bit GLM-5.2 (753B MoE) on 4× DGX Spark: 70.8% on Terminal-Bench 2.1 vs 81.0% for the full model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ur41ou/4bit_glm52_753b_moe_on_4_dgx_spark_708_on/",
+    "published_at": "2026-07-08T20:08:08+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享在 4 台 DGX Spark 伺服器上運行 4-bit 量化版 GLM-5.2 (753B MoE) 的測試結果。模型在 Terminal-Bench 2.1 達到 70.8% 準確率，相比完整精度版本的 81.0% 僅下降約 10 個百分點，量化損耗可控，顯示 MoE 模型良好的量化壓縮性。",
+    "highlights": [
+      "GLM-5.2 為 753B 參數的混合專家模型 (MoE)",
+      "4-bit 量化後在 4× DGX Spark 硬體上可正常運行",
+      "Terminal-Bench 2.1 測試結果：量化版 70.8% vs 完整版 81.0%",
+      "量化損耗約 10 個百分點，對 Terminal 任務影響有限",
+      "硬體需求降至可在資料中心級設備部署"
+    ],
+    "why_it_matters": "GLM-5.2 的量化測試顯示 MoE 架構對量化壓縮的容忍度較高，技術人員可在保持可接受效能的前提下大幅降低硬體需求與部署成本。這對本地化部署開源大模型有重要參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載 GLM-5.2 量化版本，在符合硬體條件的環境中部署測試，評估其用於 Terminal 任務自動化的可行性與成本效益。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-09-kenton-varda-ai-pr",
+    "title": "Kenton Varda 禁止團隊使用 AI 撰寫 PR 變更描述",
+    "title_original": "Quoting Kenton Varda",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything",
+    "published_at": "2026-07-08T20:03:34+00:00",
+    "category": "agent-skills",
+    "summary": "Kenton Varda 宣布對團隊實施 AI 變更描述禁令，批評 AI 生成的 PR 訊息僅描述程式碼細節，卻忽略理解變更所需的更高層次脈絡，反而造成 code review 負擔。",
+    "highlights": [
+      "AI 生成的變更描述常列出程式碼細節而非高層意圖",
+      "缺乏變更背景脈絡導致 reviewer 難以理解程式目的",
+      "AI 描述對比直接閱讀程式碼並無額外價值",
+      "Kenton Varda 認為此類 AI 輸出比無用更糟",
+      "此現象反映當前 LLM 在程式理解上的局限性"
+    ],
+    "why_it_matters": "此案例揭示 LLM 在生成有意義程式碼變更描述上的缺陷，對依赖 AI 輔助 code review 的團隊具有警示意義。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可評估團隊現有 AI PR 描述工具是否產生類似問題，並考慮在提示詞中加入更多高層脈絡要求。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-09-safari-mcp-server-ai-apple",
+    "title": "Safari MCP Server 將 AI 測試整合至 Apple 瀏覽器",
+    "title_original": "Safari MCP Server Brings AI Test Runs Into Apple’s Browser - AppleMagazine - AppleMagazine",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZVW1aYlBnWWpDaUdFSVJla1YtdVpEOGo4eDZCX2RNTG5wNkZCWWdhMGkxbWhka1h2X1hpT0R5Ql85WTNfTWRfQ3F5dmNZYTItNE9PY0c3cVdyWlZKNnBELV9LWDQ0UjliNjVuMUYydTBGbmZGZEHSAXZBVV95cUxNWVVtWmJQZ1lqQ2lHRUlSZWtWLXVaRDhqOHg2Ql9kTUxucDZGQllnYTBpMW1oZGtYdl9YaU9EeUJfOVkzX01kX0NxeXZjWWEyLTRPT2NHN3FXclpWSjZwRC1fS1g0NFI5YjY1bjFGMnUwRm5mRmRB?oc=5",
+    "published_at": "2026-07-08T19:32:27+00:00",
+    "category": "agent-skills",
+    "summary": "Safari MCP Server 讓開發者能在 Apple Safari 瀏覽器環境中執行 AI 驅動的自動化測試。此工具為瀏覽器內 AI 測試提供新途徑，可直接在 macOS/iOS 生態系中進行 UI 測試與資料驗證，對 Apple 平台開發者具有實用價值。",
+    "highlights": [
+      "Safari MCP Server 專為 Apple 瀏覽器環境設計的 MCP 工具",
+      "支援在 Safari 中執行 AI 驅動的自動化測試流程",
+      "可直接測試網頁應用的 UI 互動與 JavaScript 執行",
+      "整合 Apple 生態系，支援 macOS/iOS 平台",
+      "為瀏覽器自動化提供新的技術選擇"
+    ],
+    "why_it_matters": "MCP 工具日漸重要，Safari MCP Server 填補了 Apple 平台瀏覽器自動化的缺口。對於需要在 Safari 環境進行 AI 輔助測試的開發團隊，此工具可提升測試效率與覆蓋率。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 macOS 上安裝 Safari MCP Server，測試其與現有 AI 工具鏈的整合效果，評估是否能自動化 Safari 瀏覽器中的網頁測試任務。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-08-kicad-mcp-eda-ai-mcp",
     "title": "KiCad-MCP：開放原始碼 EDA 工具 AI 化 MCP 伺服器",
     "title_original": "oaslananka/kicad-mcp",
@@ -47,6 +413,34 @@
     "why_it_matters": "對於需要快速驗證模型概念或控制資料隱私的技術用戶，全本地管線可省去雲端開支並簡化實驗迭代流程。",
     "automation_angle": null,
     "automation_angle_zh": "下載該管線後，先用預設資料集跑通全流程，評估本地訓練時間與產出模型在特定任務上的表現。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-09-github-copilot-vs-code-2026-6",
+    "title": "GitHub Copilot VS Code 2026 年 6 月版本更新彙整",
+    "title_original": "GitHub Copilot in Visual Studio Code, June 2026 releases",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
+    "published_at": "2026-07-08T18:24:55+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 發布 VS Code v1.123 至 v1.127 的 Copilot 相關更新，涵蓋 6 月至 7 月初的版本變更。這些更新基於開發者日常使用的 Copilot 體驗進行功能強化，具體變更內容需參閱完整 changelog。",
+    "highlights": [
+      "涵蓋 VS Code v1.123-v1.127 五個版本",
+      "屬於 Copilot 日常使用體驗的持續優化",
+      "需查閱完整 changelog 了解具體功能變更",
+      "建議開發者保持 VS Code 為最新版本以獲得最佳體驗",
+      "企業用戶可結合前述 MDM 功能進行版本管控"
+    ],
+    "why_it_matters": "Copilot 的持續迭代代表 AI 輔助編碼功能正在快速成熟。開發者保持更新可獲得最新功能與效能優化，同時了解各版本變更有助於評估新功能對工作流程程的影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議建立 VS Code 更新檢查的自動化腳本，或使用 MDM 政策統一管理企業內的 Copilot 擴充功能版本，確保團隊使用一致的版本以利問題排查。",
     "tags": [
       "agent-skills",
       "rss",
@@ -164,6 +558,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-09-mistral-ai-le-chat",
+    "title": "Mistral AI 說明 Le Chat 使用方式與模型架構",
+    "title_original": "Mistral AI Explains Le Chat Usage and Models - Let's Data Science",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQU04ZkY4Wkh6U1NIdW5YVGwxRTlnbVRXS2czRy1tVHNLQVVZZUZtUW1rRGFLTVYySGh3ZklRWE1SNFNZYXNBei0yX3pUVzYwbFh5bHpPTDlpZGlEbHhaQVFJYWVhSkVPU2kxRTRJdmNLbDI4b243TWZ0YzJXdkw5Vlh4TXJPQkgxRXpqZnpkNA?oc=5",
+    "published_at": "2026-07-08T16:04:08+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 官方發布文章解釋其 AI 助理 Le Chat 的使用方式與底層模型選擇。文章涵蓋模型配置、適用場景與效能優化策略，讓開發者了解如何有效運用 Le Chat 進行各類任務。這是官方技術說明文件，可信度較高。",
+    "highlights": [
+      "Mistral AI 官方親自解說 Le Chat 產品定位與底層模型架構",
+      "涵蓋 Le Chat 的使用方式、適用場景與效能表現",
+      "提供開發者最佳化使用建議與模型配置指南",
+      "屬於官方技術文件，非第三方推測或行銷素材",
+      "有助於技術人員正確評估 Mistral 產品的實際能力"
+    ],
+    "why_it_matters": "官方技術說明能幫助開發者準確理解 Mistral 產品能力與限制，避免因資訊不完整導致錯誤的技術選型。對於需要評估多個 AI 服務的技術人員來說，這是重要的第一手資料。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可參考官方文件，測試 Le Chat 在自動化任務（如程式碼生成、文件處理）的實際表現，評估是否適合整合進現有工作流程程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-08-nemotron-3-ultra-prompt-opus-4-8-8",
     "title": "Nemotron 3 Ultra 僅靠 Prompt 工程即可對標 Opus 4.8，成本降低 8 倍",
     "title_original": "Tuning the harness, not the model: a Nemotron 3 Ultra playbook",
@@ -238,6 +660,34 @@
     "automation_angle_zh": "編譯最新 llama.cpp，pull 該 PR 後用量化模型在 CPU 上測試生成速度與品質，評估是否能替代雲端 API 使用場景。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-09-openai-ai",
+    "title": "OpenAI 發布政府與國安合作原則，揭示 AI 部署政策走向",
+    "title_original": "Our approach to government and national security partnerships",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/government-national-security-partnerships",
+    "published_at": "2026-07-08T13:30:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方公告其與各國政府及國安機構合作的政策框架，強調負責任 AI 使用、民主問責與公共安全三大原則。此框架可能影響未來 API 存取政策與模型部署限制，值得關注其對開發者可能產生的間接影響。",
+    "highlights": [
+      "強調負責任 AI 使用的核心理念",
+      "揭示民主問責機制的具體作法",
+      "說明公共安全考量下的模型部署限制",
+      "可能影響未來 API 服務條款與可用區域",
+      "屬於政策宣示而非具體功能變更"
+    ],
+    "why_it_matters": "OpenAI 的政府合作政策可能間接影響一般開發者的 API 存取穩定性與可用區域。了解其政策走向有助於評估是否需要提前布局替代方案或進行合規準備。",
+    "automation_angle": null,
+    "automation_angle_zh": "密切追蹤 OpenAI 政策更新，若未來特定地區或用途受限，可評估遷移至其他模型供應商的自動化腳本。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -329,6 +779,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/49590400?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-09-openai-swe-bench-pro",
+    "title": "OpenAI 分析揭 SWE-Bench Pro 編碼基準的可靠性問題",
+    "title_original": "Separating signal from noise in coding evaluations",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+    "published_at": "2026-07-08T13:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布分析指出 SWE-Bench Pro 這個人氣程式碼基準存在可靠性與準確性問題，可能影響 AI 模型程式設計能力的正確評估。",
+    "highlights": [
+      "SWE-Bench Pro 是目前最廣泛引用的程式碼模型評測之一",
+      "OpenAI 指出其試題可能存在標註錯誤或評估漏洞",
+      "研究旨在提升基準測試的嚴謹度",
+      "對模型橫向比較結論有潛在影響",
+      "屬 OpenAI 官方 blog，可能含自家模型相關行銷"
+    ],
+    "why_it_matters": "SWE-Bench 結果常被用於宣稱模型能力領先，若基準本身有缺陷，相關排名與論文結論的可信度需重新檢視。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你在選擇程式碼模型或發表模型評測論文，可查閱此分析以了解 SWE-Bench Pro 的已知問題，避免引用有缺陷的測試子集。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -57059,6 +57537,34 @@
     "automation_angle_zh": "安裝感興趣的 MCP 伺服器，設計一個能自動分析錯誤日誌並提出修復建議的 Agent 工作流程。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-09-figma-15-ai",
+    "title": "Figma 整理 15 款開發者 AI 編碼工具與助理",
+    "title_original": "15 of the best AI coding tools and assistants for developers - Figma",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB2VzYyd0puQ01JWXB1YUMwUTZ4cDV0di13OTFiOERMYVZUdDB1MG5ISkNKUkJ1Yk5mUXdXS1JOejRaVFUtcncxbzBzdzFpVnkzMlZSOWxadjh3VVBuWm5oc2V5bWtGUQ?oc=5",
+    "published_at": "2025-12-05T20:38:21+00:00",
+    "category": "hot-topics",
+    "summary": "Figma 發布文章列舉 15 款針對開發者的 AI 編碼工具與助理，涵蓋從程式碼生成到除錯的多元功能，為讀者提供市場主流選項概覽。",
+    "highlights": [
+      "收錄市場上較受關注的 AI 編碼輔助工具",
+      "工具類型涵蓋程式碼生成、重構、除錯等場景",
+      "屬於綜合性工具列表而非深度技術分析",
+      "文章風格偏向實用推薦而非技術規格比較",
+      "可作為工具調研的初步參考起點"
+    ],
+    "why_it_matters": "此類工具列表適合作為市場概覽，但缺乏技術深度與實際效能比較，技術用戶需自行驗證是否符合需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "讀者可從列表中快速識別未曾接觸的工具，再依據自身工作流程程逐一測試其自動化能力。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
