@@ -1,5 +1,168 @@
 [
   {
+    "id": "2026-07-10-mcp-memento-ai-agent",
+    "title": "MCP-memento：為 AI Agent 打造持久化倉庫記憶",
+    "title_original": "caiowilson/MCP-memento",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/caiowilson/MCP-memento",
+    "published_at": "2026-07-10T19:03:22Z",
+    "category": "agent-skills",
+    "summary": "caiowilson/MCP-memento 是一款本地優先的 MCP 伺服器，透過向量語意向量讓 Agent 快速取得程式碼庫的長期記憶與語意上下文。現僅 11 星，屬新興專案。",
+    "highlights": [
+      "基於 Go 實作，輕量化本地部署",
+      "向量化程式碼庫語意，支援快速檢索",
+      "可與 MCP 生態其他工具串接",
+      "現階段星數低，生態與文件尚在建立",
+      "適合想在本地跑 Agent 又需要長期記憶的開發者"
+    ],
+    "why_it_matters": "若取代現有昂貴的雲端向量檢索方案，可節省 AI API 成本並提升 Agent 對專案上下文理解深度。",
+    "automation_angle": null,
+    "automation_angle_zh": "在既有 MCP 流程中新增 memento 節點，讓 Agent 在大型程式碼庫中自動檢索相似模組，減少重複開發。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/2144858?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-10-1800-llm-160gb",
+    "title": "研究者從零訓練1800年代文本專用LLM使用160GB資料集",
+    "title_original": "Training an LLM from scratch on 1800's texts (160GB dataset)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uswlq8/training_an_llm_from_scratch_on_1800s_texts_160gb/",
+    "published_at": "2026-07-10T18:51:37+00:00",
+    "category": "open-source-ai",
+    "summary": "一位研究者公開其從頭訓練大型語言模型的實驗流程，使用160GB的19世紀歷史文本作為訓練資料。實驗目的是構建專精於理解古典文學與歷史文獻的領域模型。訓練過程與最終模型表現尚未完整公開，但資料集與方法論本身具有一定參考價值。",
+    "highlights": [
+      "訓練語料為19世紀出版之歷史文獻與文學作品",
+      "資料集規模160GB屬中小型訓練集",
+      "從零預訓練而非微調彰顯領域適配野心"
+    ],
+    "why_it_matters": "領域專用模型的訓練範例可供研究人員參考，若模型開源可應用於歷史研究、古籍數位化等場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "借鑒其資料清洗與訓練流程，針對特定垂直領域（如中文古籍）進行類似實驗以構建專業助理。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-10-nilay-patel-ar",
+    "title": "Nilay Patel分析AR眼鏡技術瓶頸與隱私代價",
+    "title_original": "Quoting Nilay Patel",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything",
+    "published_at": "2026-07-10T17:05:26+00:00",
+    "category": "hot-topics",
+    "summary": "The Verge主編Nilay Patel在 podcast中分析AR眼鏡的技術現實：要做到即時AR疊加必須將相機拍攝的影像串流至雲端處理，眼鏡鏡腳內的晶片無法同時滿足效能與功耗需求。他指出這意味著任何「真正的」AR眼鏡都是對使用者隱私的系統性入侵，並質疑這是否為值得追求的產品方向。",
+    "highlights": [
+      "即時AR需將視覺資料上傳雲端處理，邊緣晶片暫無法勝任",
+      "目前僅兩種硬體形態：小型眼鏡依賴雲端或笨重一體機",
+      "Patel呼籲思考AR眼鏡的社會代價是否合理"
+    ],
+    "why_it_matters": "AI與硬體結合的真實瓶頸常被行銷話術掩蓋。此分析有助技術人員評估AI穿戴裝置的可行性邊界與隱私風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發AI視覺應用時需考慮edge inference限制，評估是否值得為隱私犧牲雲端處理的能力與延遲。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-10-openwiki-brains-langchain-agent",
+    "title": "OpenWiki Brains：LangChain 開源 Agent 主動記憶系統",
+    "title_original": "OpenWiki Brains: Proactive Memory for AI Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/introducing-openwiki-brains-general-purpose-wiki-memory-for-agents",
+    "published_at": "2026-07-10T16:46:35+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方 Blog 介紹 OpenWiki Brains，可將 Gmail、Notion、Git、X、Hacker News 等來源轉為本地 Wiki，供 Agent 作為主動式記憶使用，整合度較現有 Memory 方案更高。",
+    "highlights": [
+      "支援 Gmail、Notion、Git、X、Hacker News 等常見工具",
+      "將外部資料統一成 Agent 可查詢的 Wiki",
+      "主動式記憶機制優於被動回溯",
+      "LangChain 生態直接可用，文件完整",
+      "適合需要跨平台資訊整合的知識工作者"
+    ],
+    "why_it_matters": "此系統若能取代多個獨立 API 串接，可簡化 Agent 資訊攝取架構，降低維護成本並提升自動化深度。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 OpenWiki Brains 接入日常研究 Agent，讓其自動抓取 Hacker News 最新 AI 動態並摘要，節省技術情報收集時間。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-10-reddit-databricks-pi-coding-agent-codex",
+    "title": "Reddit 傳 Databricks pi-coding-agent 成本僅 Codex 一半",
+    "title_original": "According to DataBricks, pi-coding-agent is ~2x cheaper than CC/Codex, GLM 5.2 on par with Opus 4.8 high",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1usrek0/according_to_databricks_picodingagent_is_2x/",
+    "published_at": "2026-07-10T15:46:22+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 討論引述 Databricks 說法，稱 pi-coding-agent 成本約為 Copilot / Codex 的一半；同時 GLM 5.2 在高難度任務上與 Opus 4.8 表現相當。此為社群討論，數據來源待驗證。",
+    "highlights": [
+      "pi-coding-agent 聲稱成本是 Codex 的 50%",
+      "GLM 5.2 高難度任務與 Opus 4.8 持平",
+      "消息來源為 Reddit 社群，未獲官方技術報告驗證",
+      "性價比說法對成本敏感專案有參考價值",
+      "建議查閱 Databricks 官方文件或基準測試"
+    ],
+    "why_it_matters": "若 pi-coding-agent 性價比屬實，工程團隊可考慮將部分程式碼補全任務遷移，節省 IDE AI 工具月費。",
+    "automation_angle": null,
+    "automation_angle_zh": "設計 A/B 實驗：同一任務分別用 pi-coding-agent 與現有方案執行，測量速度、成功率與費用差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-10-llm",
+    "title": "社群徵求「本地LLM生存工具包」整合方案",
+    "title_original": "Has anyone created a \"Local LLM Survival Kit\"?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uspcg0/has_anyone_created_a_local_llm_survival_kit/",
+    "published_at": "2026-07-10T14:30:51+00:00",
+    "category": "agent-skills",
+    "summary": "LocalLLaMA論壇有使用者發起討論，徵求整合本地LLM必備工具的最佳實踐方案。話題涵蓋模型量化工具、本地推論引擎、Prompt管理系統與API封裝等元件。討論尚未形成共識，但反映了技術使用者對一站式本地部署方案的需求缺口。",
+    "highlights": [
+      "社群渴望整合quantization、inference engine、UI的完整方案",
+      "常被提及的工具包括llama.cpp、Ollama、LM Studio等",
+      "需求集中在降低本地部署複雜度與提升易用性"
+    ],
+    "why_it_matters": "本地LLM生態工具鏈分散，技術人員需投入大量時間整合。本討論揭示了對封裝式解決方案的市場需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "可基於現有開源元件構建自己的「生存工具包」，將常用的部署配置腳本化以便快速重現。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-10-mcp-for-stata-stata-ai-agent-mcp",
     "title": "mcp-for-stata：將 Stata 整合進 AI Agent 的 MCP 伺服器",
     "title_original": "SepineTam/mcp-for-stata",
