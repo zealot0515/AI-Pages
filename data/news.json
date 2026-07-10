@@ -1,5 +1,258 @@
 [
   {
+    "id": "2026-07-10-mcp-for-stata-stata-ai-agent-mcp",
+    "title": "mcp-for-stata：將 Stata 整合進 AI Agent 的 MCP 伺服器",
+    "title_original": "SepineTam/mcp-for-stata",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/SepineTam/mcp-for-stata",
+    "published_at": "2026-07-10T13:51:06Z",
+    "category": "agent-skills",
+    "summary": "SepineTam 開發的 mcp-for-stata 專案（218 stars）提供一個 MCP 伺服器，能將統計軟體 Stata 無縫整合進 AI Agent 工作流程程。技術宅可透過此工具讓 AI 直接驅動 Stata 執行統計分析、迴歸建模與資料視覺化，無需手動操作 GUI。",
+    "highlights": [
+      "基於 Python 實作，支援主流 MCP 通訊協定",
+      "可讓 Agent 直接發送 Stata 指令並取回結構化結果",
+      "適用於量化研究、資料科學工作流程自動化的場景",
+      "開源專案，現在就能 fork 並測試整合"
+    ],
+    "why_it_matters": "將傳統統計工具與現代 AI Agent 串聯，能大幅縮短研究分析週期。對常需跑 Stata 的研究人員或資料分析師而言，這是今天就能試用的自動化捷徑。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此 MCP server 接入 Claude Desktop 或其他 MCP Client，直接用自然語言驅動 Stata 完成資料清洗與迴歸分析，節省重複性的 GUI 操作時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/165980942?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-10-madcop-v0-9-ai-agent-12",
+    "title": "MadCop v0.9：本地優先 AI Agent 桌面工作站，支援 12 種工作流程模式",
+    "title_original": "linmy666/madcop",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/linmy666/madcop",
+    "published_at": "2026-07-10T13:46:18Z",
+    "category": "agent-skills",
+    "summary": "MadCop 是一款 TypeScript 開發的本地 AI Agent 桌面端工具（GitHub 42 星），定位為一站式本地工作站。支援多模型聊天、工具調用、MCP 伺服器對接、知識庫管理、AI 設計工具，以及 12 種預設工作流程模式。v0.9 版已具備基本可用性，適合想在本地環境實驗 Agent 能力的開發者。",
+    "highlights": [
+      "TypeScript 開發，桌面端本地部署",
+      "支援多模型聊天與工具調用",
+      "原生支援 MCP 伺服器整合",
+      "內建 12 種工作流程模式，含知識庫管理",
+      "AI 設計工具模組一站式整合"
+    ],
+    "why_it_matters": "MadCop 將聊天、工具、MCP、工作流程整合在同一介面，降低本地 Agent 實驗門檻。與純 CLI 工具相比，桌面 GUI 更適合快速原型驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 MadCop 快速建立本地 MCP 工具鏈，測試如天氣查詢、程式碼執行、本地檔案管理等工具串聯，評估 Agent 自動化重複任務的可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/153291286?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-10-kicad-mcp-pro-kicad-eda-mcp-ai-agent",
+    "title": "kicad-mcp-pro：KiCad EDA 工具的 MCP 伺服器，讓 AI Agent 操控電路設計流程",
+    "title_original": "oaslananka/kicad-mcp-pro",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/oaslananka/kicad-mcp-pro",
+    "published_at": "2026-07-10T13:24:01Z",
+    "category": "agent-skills",
+    "summary": "kicad-mcp-pro 是專為開源 EDA 工具 KiCad 設計的 MCP 伺服器（Python 開發，22 星）。支援從電路圖、Layout、ERC/DRC 檢查到 BOM 與製造審查的完整流程AI 化。相容 Claude、Cursor、Copilot 等主流 AI Agent，可讓 AI 直接操控硬體設計工具。",
+    "highlights": [
+      "Python 實作，原生支援 KiCad 生態",
+      "覆蓋原理圖、PCB、ERC/DRC、DFM、BOM 全流程",
+      "相容 Claude、Cursor、Copilot 等主流 Agent 介面",
+      "支援製造端審查與文件生成",
+      "開源 MIT 授權，可自由擴展"
+    ],
+    "why_it_matters": "硬體工程師的重複性任務（DRC 檢查、BOM 整理、報告生成）長期缺乏自動化。kicad-mcp-pro 讓 AI Agent 直接介入 PCB 設計流程，有望提升工程師產出效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "硬體開發者可在 Cursor 或 Claude 中配置 kicad-mcp-pro，實驗讓 AI 自動完成 DRC 檢查、生成 BOM 清單、或根據規格描述自動生成原理圖框架。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/285490571?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-10-barebrowse-playwright-aria",
+    "title": "barebrowse：拋棄 Playwright，用修剪過的 ARIA 快照讓本地模型操作瀏覽器",
+    "title_original": "I built barebrowse: give a local-model agent a browser without Playwright — pruned ARIA snapshots instead of raw HTML (far fewer tokens)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1usg4cq/i_built_barebrowse_give_a_localmodel_agent_a/",
+    "published_at": "2026-07-10T07:00:43+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者在 Reddit r/LocalLLaMA 分享他打造的 barebrowse 專案，核心概念是不使用 Playwright 等傳統瀏覽器自動化框架，而是直接對網頁生成修剪過的 ARIA snapshot，大幅降低送入本地模型的 token 數量，同時保留語義可操作性。",
+    "highlights": [
+      "不走 Playwright 路線，改用 ARIA 屬性生成結構化快照",
+      "修剪後的 snapshot token 消耗遠低於原始 HTML",
+      "適用於 local 模型（資源受限環境）的瀏覽器代理需求",
+      "提供了一種本地模型操作網頁的低成本替代方案"
+    ],
+    "why_it_matters": "本地模型跑 browser agent 時，成本與速度是瓶頸。此專案揭示一種 token 優化策略，讓有限資源的本地模型也能流暢操控網頁，技術上有啟發性。",
+    "automation_angle": null,
+    "automation_angle_zh": "clone 此專案並替換現有 browser agent 的 HTML 擷取模組，實測在 ollama 環境下能否流暢完成淘寶、京東等電商頁面的自動搜尋與比價任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-10-deutsche-telekom-openai-ai",
+    "title": "Deutsche Telekom 如何用 OpenAI 重塑電信業 AI 原生架構",
+    "title_original": "How Deutsche Telekom is rewiring telecommunications with AI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/deutsche-telekom",
+    "published_at": "2026-07-10T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格揭露 Deutsche Telekom（德國電信）如何從傳統電信商轉型為 AI 原生企業。該公司將 OpenAI 模型應用於客服自動化、員工工作流程程優化、網路營運及語音交互等四大領域，目標是打造「AI-first」組織。",
+    "highlights": [
+      "客服系統已部署 AI 助理處理大量客訴分流",
+      "內部員工生產力工具接入 GPT 模型輔助文件處理",
+      "網路維運引入 AI 預測異常與優化資源調度",
+      "語音交互實驗計畫探索未來電信服務形態"
+    ],
+    "why_it_matters": "這是大型企業實際落地 OpenAI 企業方案的案例，展示 AI 整合深度可達核心營運。對評估企業 AI 導入可行性的技術決策者有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "研究其客服自動化架構設計，可作為企業內部 IT 評估 AI 客服+工單系統整合方案的參考藍圖。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-10-llm",
+    "title": "使用約束抽樣從 LLM 產生結構化輸出技術解析",
+    "title_original": "Producing Structured Outputs from LLMs with Constrained Sampling",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1use8qp/producing_structured_outputs_from_llms_with/",
+    "published_at": "2026-07-10T05:16:24+00:00",
+    "category": "hot-topics",
+    "summary": "研究提出 Constrained Sampling 方法，讓 LLM 在生成階段即遵守預定義結構規範（如 JSON Schema 或正規表達式），減少後處理需求並提升輸出可靠性，降低無效输try次數與成本。",
+    "highlights": [
+      "約束抽樣在 token 生成時即限制輸出格式",
+      "支援 JSON Schema、正規表達式等結構規範",
+      "減少昂貴的重試循環與 API 呼叫成本",
+      "提升開發者整合 LLM 的體驗",
+      "可整合至現有推論框架中"
+    ],
+    "why_it_matters": "直接影響 LLM 應用的工程效率，降低 JSON 解析失敗率，節省 API 呼叫成本與開發時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在現有 RAG 或 AI Agent 流程中評估此技術，測試是否能取代當前的輸出驗證與重試邏輯。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-10-snapllm-c-ollama-1ms",
+    "title": "SnapLLM：C++ 實作 Ollama 替代方案，強調模型切換延遲低於 1ms",
+    "title_original": "snapllm/snapllm",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/snapllm/snapllm",
+    "published_at": "2026-07-10T05:06:41Z",
+    "category": "new-models",
+    "summary": "SnapLLM 是一個 C++ 實作的大型語言模型推論框架，定位為 Ollama 的替代選擇。其核心賣點是支援多模型快速切換，宣稱延遲低於 1 毫秒。GitHub 目前 38 星，適合對延遲敏感的本地部署場景。",
+    "highlights": [
+      "C++ 高效能實作，相較 Python 框架延遲更低",
+      "支援多模型切換，官方標榜 <1ms 延遲",
+      "定位為 Ollama 替代方案",
+      "38 星，處於早期專案階段",
+      "本地部署，無需雲端 API 依賴"
+    ],
+    "why_it_matters": "對延遲敏感的互動場景（如 Agent 工具調用鏈、程式碼補全），1ms 等級延遲能顯著提升回應體驗。SnapLLM 若實測達標，可作為高效能本地推論的新選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地安裝 SnapLLM，用對話代理測試不同模型間的切換延遲，評估是否適合作為高頻工具調用場景的底層推論引擎。",
+    "tags": [
+      "new-models",
+      "github_search",
+      "en",
+      "C++"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/257098505?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-10-meta-muse-spark-1-1-ai",
+    "title": "Meta 推出 Muse Spark 1.1 正式加入 AI 定價戰",
+    "title_original": "Meta unveils Muse Spark 1.1 as it enters the AI pricing war - t2ONLINE",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLUxHY2J0MG9iTGxwVTJwMzFjREZrWXVQS3ptNTZDc2l6bk1DSXVwSFhqZmVDS1dVV1c0d0hCUWJ3T3l6dV9OekoxMllpQXUtM2RZVW8yV1VtazZ6akFuNEN2VXM3b1NDdDlqUExmZmhoSm9GM0V1VmhWdGtjMXpId1BudVVTam9jSENKUEVya2ZoTU5LTGk5NEFPbVZkLTRhR2doag?oc=5",
+    "published_at": "2026-07-10T04:13:00+00:00",
+    "category": "new-models",
+    "summary": "Meta 發布 Muse Spark 1.1 版本，正式加入 AI 服務市場的定價競爭。外界預期此舉將為企業級 AI 服務市場帶來價格壓力，也可能影響開源模型生態的定價策略。",
+    "highlights": [
+      "Meta 明確表態參與 AI 定價戰",
+      "Muse Spark 1.1 為新版本更新",
+      "可能對企業級 AI 服務定價造成影響",
+      "與 OpenAI、Google 等主要廠商形成競爭",
+      "定價策略尚未完全公開"
+    ],
+    "why_it_matters": "AI 服務市場進入價格競爭階段，企業與開發者在 API 採購與成本控管上將有更多選擇，需持續關注實際定價與效能表現。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術決策者可將 Muse Spark 1.1 納入 API 供應商評估清單，比較成本效益與功能完整性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-10-deepseek-v4-flash-rtx-6000-pro-vllm-moet",
+    "title": "Deepseek V4 Flash 在單張 RTX 6000 Pro 上運行 - vLLM-Moet",
+    "title_original": "Deepseek V4 Flash on a single RTX 6000 Pro - vLLM-Moet",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1usacge/deepseek_v4_flash_on_a_single_rtx_6000_pro/",
+    "published_at": "2026-07-10T02:06:03+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群成員成功在單張 RTX 6000 Ada 專業卡上部署 Deepseek V4 Flash 模型，採用 vLLM 推論引擎。此部署展示 48GB VRAM 足以承載壓縮後的 Deepseek 模型，為本地端部署提供新選項，降低硬體進入門檻。",
+    "highlights": [
+      "RTX 6000 Ada 具備 48GB VRAM，可承載壓縮版 Deepseek V4 Flash",
+      "使用 vLLM 推論引擎提升推論效率",
+      "單卡部署適合中小型開發環境",
+      "Deepseek V4 Flash 為量化壓縮版本",
+      "社群驗證在消費級/專業單卡環境的可行性"
+    ],
+    "why_it_matters": "為個人開發者與小型團隊提供低成本本地部署開源模型的參考範例，無需多 GPU 叢集即可運行大型語言模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可評估以此配置建立自動化推論管線，在本地環境測試模型輸出穩定性與延遲表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-10-openai-chatgpt-work",
     "title": "OpenAI 澄清 ChatGPT Work 雲端與桌面版資料隔離機制",
     "title_original": "Quoting OpenAI",
@@ -75,6 +328,33 @@
     "automation_angle_zh": "開發者應檢視 v1.117 的更新日誌，若有相關模型支援或效能改進，可更新本地部署以提升自動化腳本推論速度。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-10-model-collapse",
+    "title": "模型崩潰（Model Collapse）現象解析討論",
+    "title_original": "What's up with model collapse?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1us4pbf/whats_up_with_model_collapse/",
+    "published_at": "2026-07-09T22:08:26+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 持續討論「模型崩潰」現象：當 AI 生成內容大量流入訓練資料時，後續模型會逐漸喪失對原始真實資料分佈的學習能力，導致輸出品質退化。學術界稱此為「遞歸崩潰」或「自我毒化」問題。",
+    "highlights": [
+      "模型崩潰起因於合成資料取代真實世界資料",
+      "早期小型模型受影響最顯著",
+      "學術論文（Shumailov et al. 2023）已有正式論證",
+      "對 AI 生成內容依賴度高的應用場景有長期風險"
+    ],
+    "why_it_matters": "此議題影響深遠：隨著網路 AI 內容佔比增加，未來模型訓練的資料品質管理將成核心挑戰。技術決策者需了解此風險以評估長期 AI 策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "檢查自家 AI pipeline 是否高度依賴模型生成內容回流訓練；考慮引入資料品質篩選機制或建立真實資料優先的資料治理策略。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
