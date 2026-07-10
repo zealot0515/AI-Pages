@@ -1,5 +1,169 @@
 [
   {
+    "id": "2026-07-10-openai-chatgpt-work",
+    "title": "OpenAI 澄清 ChatGPT Work 雲端與桌面版資料隔離機制",
+    "title_original": "Quoting OpenAI",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
+    "published_at": "2026-07-10T01:05:57+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 針對 ChatGPT Work 的標籤與資料同步問題發布澄清說明，指出雲端 Work 對話不會出現在桌面版，桌面端的執行緒與本機檔案將保留在該設備上。此澄清旨在回應用戶對隱私邊界與功能一致性的疑慮。",
+    "highlights": [
+      "雲端 Work 對話預設不會同步至桌面版應用程式",
+      "桌面端 Work 執行緒與本機檔案僅存於該電腦",
+      "桌面應用可存取本機檔案與桌面程式，需用戶授權",
+      "此次為被動澄清，非新功能發布"
+    ],
+    "why_it_matters": "對企業用戶而言，了解 Work 的資料邊界至關重要。若需要在跨裝置保持上下文，需主動管理對話或依賴雲端版本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶應驗證自動化腳本在桌面版與雲端版的行為差異，避免預期外的資料隔離導致工作流程程中斷。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-10-27b-agent-75b",
+    "title": "未經微調的 27B 模型在 Agent 任務中擊敗已微調的 75B",
+    "title_original": "The untuned 27B beat the tuned 75B as an agent",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1us8x06/the_untuned_27b_beat_the_tuned_75b_as_an_agent/",
+    "published_at": "2026-07-10T01:00:31+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群討論指出，一個未經微調的 270 億參數模型在 Agent 任務表現上優於已微調的 750 億參數模型。討論聚焦於訓練方法與 Prompt 工程對實際 Agent 效能的影響，尚未有完整論文或基準支撐，建議謹慎解讀。",
+    "highlights": [
+      "未微調 27B 在 Agent 任務超越已微調 75B 的現象值得關注",
+      "可能暗示基座模型的推論能力與後訓練方法同樣關鍵",
+      "缺乏可控實驗設計與正式基準驗證，訊號強度有限",
+      "可作為本地模型選型時的參考方向，不宜直接套用結論",
+      "建議等待後續社群詳細測試或正式論文發布後再下判斷"
+    ],
+    "why_it_matters": "若此現象可重現，代表本地部署時不必盲目追求大參數量，27B 模型的成本效益可能更適合資源受限的 Agent 場景，但目前證據尚不足以定論。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地用 27B 模型（如 Qwen2.5、Llama3.1）跑 Agent 任務實測，觀察基座能力與微調版本的實際差異，再決定資源分配策略。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-10-koboldcpp-v1-117",
+    "title": "Koboldcpp v1.117 發布更新",
+    "title_original": "Koboldcpp v1.117 released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1us5p0b/koboldcpp_v1117_released/",
+    "published_at": "2026-07-09T22:46:19+00:00",
+    "category": "open-source-ai",
+    "summary": "Koboldcpp 推論引擎推出 v1.117 版本，這是一款專為本地 LLM 推論設計的工具，支援多種模型格式並優化量化效能。Reddit r/LocalLLaMA 社群確認此版本已釋出。",
+    "highlights": [
+      "Koboldcpp v1.117 為新釋出版本",
+      "支援多元模型格式與量化推論",
+      "持續維護中的本地 LLM 推論方案",
+      "版本號變更可能包含效能修正或新功能"
+    ],
+    "why_it_matters": "Koboldcpp 是本地部署 LLMs 的主流工具之一，新版本可能帶來穩定性改善或新模型支援，影響日常本地推論體驗。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應檢視 v1.117 的更新日誌，若有相關模型支援或效能改進，可更新本地部署以提升自動化腳本推論速度。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-10-mimo-v2-5-opencode",
+    "title": "MiMo v2.5 在 OpenCode 環境中展現高產出效率",
+    "title_original": "MiMo v2.5 is underrated. Feels like the tokens are pouring out of the screen in OpenCode.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1us4gim/mimo_v25_is_underrated_feels_like_the_tokens_are/",
+    "published_at": "2026-07-09T21:59:23+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群討論指出 MiMo v2.5 模型被低估，在 OpenCode 環境中使用時能感受到 token 如流水般快速輸出，暗示該版本在推論速度或任務產出量上有明顯提升。",
+    "highlights": [
+      "MiMo v2.5 在 OpenCode 場景中獲得正面評價",
+      "用戶描述輸出速度與流暢度有顯著改善",
+      "此版本在 LocalLLaMA 社群引發討論但關注度有限",
+      "缺乏官方發布說明或 benchmark 數據"
+    ],
+    "why_it_matters": "若 MiMo v2.5 確實提升產出效率，對本地部署有速度需求的開發者值得一試。但缺乏官方驗證，需自行測試確認。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 MiMo v2.5 至本地環境，在 OpenCode 或類似編碼輔助場景中進行推論速度與輸出品質的實測比較。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-10-llm-embedding-reranker-llm",
+    "title": "已付費使用 LLM 服務者：本地 Embedding 與 Reranker 比本地 LLM 更實用",
+    "title_original": "If You Already Pay for an LLM Service, Running Local Embeddings and Rerankers Feels More Useful Than Running Local LLMs",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1us3li5/if_you_already_pay_for_an_llm_service_running/",
+    "published_at": "2026-07-09T21:26:10+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 討論提出實用建議：若已訂閱商業 LLM API，本地跑 embedding 模型與 reranker 比本地完整 LLM 更有價值。此組合可降低 API 呼叫成本同時保持較佳檢索品質。",
+    "highlights": [
+      "商業 LLM API 用戶應優先考慮本地 embedding",
+      "本地 reranker 可提升檢索結果排序品質",
+      "完整本地 LLM 需較高算力，性價比較低",
+      "此策略適合已有 API 支出的團隊優化成本"
+    ],
+    "why_it_matters": "對已使用付費 LLM API 的技術團隊，此建議可有效降低 token 消耗成本，同時透過本地處理檢索階段來維持或提升 RAG 系統效果。",
+    "automation_angle": null,
+    "automation_angle_zh": "將本地 embedding model（如 sentence-transformers）與 reranker 整合至 RAG pipeline，商業 LLM 只負責生成階段，大幅減少昂貴的 token 使用量。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-10-openai-gpt-5-6-luna-terra-sol",
+    "title": "OpenAI GPT-5.6 三尺寸齊發：Luna、Terra、Sol 定價與能力解析",
+    "title_original": "The new GPT-5.6 family: Luna, Terra, Sol",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
+    "published_at": "2026-07-09T19:46:38+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 正式發布 GPT-5.6 系列，分 Luna、Terra、Sol 三種尺寸，輸入輸出每百萬 Token 分別為 $1/$6、$2.50/$15、$5/$30。支援百萬 Token 上下文、12.8 萬最大輸出，新增多 Agent 子任務並發、Prompt Cache 斷點自訂與 Programmatic Tool Calling。官方聲稱 Sol 在長時 Agent 效能測試中超越 Claude Fable 5，但 SWE-Bench Pro 上落後，OpenAI 隨後批評該基準約 30% 題目有問題。",
+    "highlights": [
+      "三尺寸定價對比：最小 Luna 僅 $1/$6，最貴 Sol 為 $5/$30",
+      "新增多 Agent 子任務並發，支援同一請求內分工協作",
+      "Programmatic Tool Calling 可在單次 Turn 內組合 CLI 工具",
+      "Prompt Cache 支援斷點自訂，可手動優化快取命中節省費用",
+      "SWEBench Pro 爭議：OpenAI 指其 30% 題目有瑕疵，自評分數可信度需自行判斷"
+    ],
+    "why_it_matters": "GPT-5.6 的多 Agent 並發與 Tool Calling 改進直接影響 Agent 工作流程設計，且 Luna 性價比對成本敏感的技術用戶極具吸引力，但 SWE-Bench 爭議提醒我們別只看排行榜數字。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可立即試用 GPT-5.6 Luna 建構低成本的長上下文 Agent Pipeline，並用 Programmatic Tool Calling 整合 CLI 工具測試自動化腳本生成能力。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-09-ai-skills-ai-github-335",
     "title": "ai-skills：AI程式碼助理技能集合，GitHub星標335顆",
     "title_original": "sanjay3290/ai-skills",
@@ -27,6 +191,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/24948667?v=4",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-10-gpt-5-6-microsoft-365-copilot",
+    "title": "GPT-5.6 成為 Microsoft 365 Copilot 預設模型",
+    "title_original": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+    "published_at": "2026-07-09T13:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 官方公告 GPT-5.6 已取代前代，成為 Microsoft 365 Copilot 的首選模型，涵蓋 Word、Excel、PowerPoint、Chat 與 Cowork 等應用。此整合代表 GPT-5.6 的企業級可靠性已獲微軟認可，將直接影響企業用戶的 Copilot 使用體驗。",
+    "highlights": [
+      "GPT-5.6 進入 Microsoft 365 Copilot 全線產品線",
+      "涵蓋文書、簡報、試算表與企業協作場景",
+      "企業用戶無需額外設定即可受益於新版模型能力",
+      "象徵 OpenAI 與微軟的深度整合進入新階段",
+      "Copilot 效能提升程度仍待實測驗證"
+    ],
+    "why_it_matters": "對企業技術決策者而言，Copilot 底層模型升級可能改善文件生成、資料分析與協作效率，若有內部 Copilot 部署需求可直接受益。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業 IT 可觀察 GPT-5.6 升級後 Copilot 在自動化報表生成與會議摘要場景的表現，評估是否加速內部文件工作流程改造。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-09-awesome-agentic-finops-ai",
