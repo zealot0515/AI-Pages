@@ -1,5 +1,59 @@
 [
   {
+    "id": "2026-07-11-mit-llm-serve-dashboard-llm",
+    "title": "MIT LLM Serve Dashboard 開源本地 LLM 監控工具",
+    "title_original": "MIT LLM Serve Dashboard I am making open source",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut3p89/mit_llm_serve_dashboard_i_am_making_open_source/",
+    "published_at": "2026-07-10T23:25:40+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 討論串中介紹 MIT LLM Serve Dashboard 為開源監控儀表板，用於視覺化本地 LLM 服務的健康狀態與效能指標，具體功能待社群驗證。",
+    "highlights": [
+      "MIT 背景的開源監控儀表板",
+      "提供本地 LLM 服務的可視化監控",
+      "功能完整性與穩定性需社群驗證",
+      "有助提升本地部署的可觀測性"
+    ],
+    "why_it_matters": "本地 LLM 部署常缺乏好用監控介面，若此專案功能完整可大幅簡化效能追蹤與問題排查流程，值得關注後續發展。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 GitHub 專案動態，待穩定版本發布後部署至本地 LLM 服務，自建監控面板追蹤延遲與錯誤率。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-11-192gb-ddr5-2-rtx-5090-vlm-llm",
+    "title": "192GB DDR5 雙通道配 2 張 RTX 5090 的最佳 VLM/LLM 選擇討論",
+    "title_original": "best vlm or llm for 192gb ddr5 (dual channel) + 2x 5090?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut1pu1/best_vlm_or_llm_for_192gb_ddr5_dual_channel_2x/",
+    "published_at": "2026-07-10T22:04:57+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 討論串詢問在 192GB DDR5 雙通道加兩張 RTX 5090 的高階硬體配置下，應該選擇哪個 VLM 或 LLM 模型跑本地部署。",
+    "highlights": [
+      "硬體配置：192GB DDR5 雙通道記憶體加雙 RTX 5090",
+      "討論焦點在高運算力下的模型選擇",
+      "可做為高階本地部署的硬體效能參考",
+      "討論內容非專業評測，建議自行驗證"
+    ],
+    "why_it_matters": "RTX 5090 搭配大記憶體為目前頂規本地推論配置，相關討論有助了解大模型在消費級頂規硬體上的實際表現與瓶頸。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據討論中的建議模型，在同級硬體上實際測試推論速度與 VRAM 使用量，驗證是否符合自動化任務的延遲要求。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-10-mcp-memento-ai-agent",
     "title": "MCP-memento：為 AI Agent 打造持久化倉庫記憶",
     "title_original": "caiowilson/MCP-memento",
@@ -59964,6 +60018,33 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-11-google-gemini-pro",
+    "title": "免費使用 Google Gemini 指南：綁卡升級 Pro 版教學",
+    "title_original": "如何免費使用 Google Gemini？教你如何绑定卡片升級到 Gemini Pro - paragraph.com",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBySFJrc3YtT3JyY1dfZU52U2NyM19SVEF2TjF6cHNCRVlTOHROc0pZaWtKd1hhcVdlaW5UZ3NwQU9EN1ZpTDhHbFZpOTR5QW8wTlFrV3I2MnI5TTNTUFhyUFFFSTUwWEE?oc=5",
+    "published_at": "2025-02-10T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "中文教學文章說明如何免費使用 Google Gemini，包含綁定信用卡升級至 Gemini Pro 的步驟。但此為第三方指南，操作風險需自行評估。",
+    "highlights": [
+      "提供免費使用 Gemini 的基本方法",
+      "說明綁定信用卡升級 Pro 的流程",
+      "文章來源為第三方平台，非 Google 官方",
+      "操作涉及個資與支付資訊，需注意風險"
+    ],
+    "why_it_matters": "Gemini Pro 提供較強模型能力，若能以免費或低成本途徑取得，可作為替代付費方案的選項，但需自行承擔操作風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考指南步驟測試 Gemini API 功能，評估其回應品質是否足以勝任特定自動化任務，再決定是否正式採用。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
