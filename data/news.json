@@ -1,5 +1,174 @@
 [
   {
+    "id": "2026-07-11-chat-api-oracle-llm-tokenizer",
+    "title": "研究：僅用兩個 Chat API Oracle 能否重建閉源 LLM 的 Tokenizer",
+    "title_original": "Can we reconstruct a closed-source LLM tokenizer using only two oracles from the chat API?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1utc5b9/can_we_reconstruct_a_closedsource_llm_tokenizer/",
+    "published_at": "2026-07-11T06:17:58+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論區有研究者嘗試透過僅呼叫 Chat API 的兩個 Oracle 來逆向推導閉源 LLM 的Tokenizer 結構。若成功，可幫助開源社群更精確地複製或相容特定模型的語言處理行為。",
+    "highlights": [
+      "研究方法：僅依賴 Chat API 介面進行逆向工程",
+      "目標：重建閉源模型的 Tokenizer",
+      "應用場景：開源模型擬合閉源能力",
+      "難度：不確定是否可完全成功",
+      "技術社群自發研究，非官方項目"
+    ],
+    "why_it_matters": "Tokenizer 是模型語言理解的基礎。若能低成本逆向，開源社群可更精準地複製特定閉源模型的語言處理特性，減少能力差距。但目前僅屬社群討論階段。",
+    "automation_angle": null,
+    "automation_angle_zh": "對Tokenizer 研究有興趣的技術用戶可追蹤該 Reddit 帖子的後續發展，若方法驗證成功，可嘗試用於讓本地模型更準確地處理特定領域術語或特殊語言格式。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-11-qwen3-5-gemma4-effort",
+    "title": "Qwen3.5 與 Gemma4 模型推論 effort 控制方法討論",
+    "title_original": "How can i limit reasoning effort on the qwen3.5 and gemma4 models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1utbros/how_can_i_limit_reasoning_effort_on_the_qwen35/",
+    "published_at": "2026-07-11T05:57:00+00:00",
+    "category": "new-models",
+    "summary": "Reddit 討論串詢問如何在 Qwen3.5 與 Gemma4 模型上限制推論 effort（即推論時的計算資源投入或思考深度）。這類需求常見於希望控制回應延遲、節省推論成本或限制模型過度思考的開發者。",
+    "highlights": [
+      "Qwen3.5 為阿里巴巴開源的大規模語言模型系列",
+      "Gemma4 為 Google 的開源 Transformer 模型",
+      "限制推論 effort 可透過 temperature、top-p、max_tokens 等參數控制",
+      "部分模型支援 reasoning budget 或思考 token 限制設定",
+      "正確設定可同時節省 API 費用與本機 GPU 資源"
+    ],
+    "why_it_matters": "對 API 使用者而言，限制推論 effort 直接影響費用；對本機部署者而言，影響 GPU 記憶體與運算資源佔用。學會控制推論深度是最佳化工作流程的第一步。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在自己的推論服務中根據任務類型自動調整推論 effort 參數，例如簡單查詢用淺層推論，任務複雜時才開放完整推論預算，實現成本與效能的動態平衡。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-11-qwen3-6-35b-a3b-q8-0-html",
+    "title": "Qwen3.6 35B-A3B Q8_0 單 HTML 飛行模擬器生成測試",
+    "title_original": "Qwen3.6 35B-A3B (Q8_0, no KV quant) single prompt in opencode: \"Create a beautiful, relaxing flight simulator in a single html file with mountains, clouds, and endless procedural terrain\"",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1utb6io/qwen36_35ba3b_q8_0_no_kv_quant_single_prompt_in/",
+    "published_at": "2026-07-11T05:24:45+00:00",
+    "category": "new-models",
+    "summary": "用戶使用 Qwen3.6 35B-A3B 模型（Q8_0 量化、無 KV 量化），給出單次提示詞要求模型在一次回應中生成一個包含山脈、雲層與無限程序生成地形的美麗飛行模擬器 HTML 檔案，並展示實際輸出結果。",
+    "highlights": [
+      "Qwen3.6 35B-A3B 採用專家混合架構（MoE），實際激活參數約 3B",
+      "Q8_0 量化保留較高質量權重，平衡大小與效能",
+      "無 KV 量化可降低記憶體佔用但可能影響長期上下文",
+      "單 HTML 生成考驗模型的多模態程式碼生成能力",
+      "飛行模擬器包含 3D 地形程序生成，對模型幾何理解要求高"
+    ],
+    "why_it_matters": "此測試直觀展示 Qwen3.6 35B-A3B 的長上下文程式碼生成能力。若能在單次回應中生成長且可運行的 HTML/JS 程式碼，可簡化部分網頁自動化或快速原型開發工作。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將此模型整合至網頁原型自動化流程，透過單次提示詞快速生成可運行的 UI 或遊戲原型，減少手動編寫前端程式碼的時間。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-11-tencentcloud-octop-agent-ai",
+    "title": "TencentCloud/Octop：多使用者、多 Agent 自托管 AI 助理",
+    "title_original": "TencentCloud/Octop",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/TencentCloud/Octop",
+    "published_at": "2026-07-11T04:20:13Z",
+    "category": "agent-skills",
+    "summary": "Octop 是騰訊雲開源的多人、多 Agent 自托管 AI 助理系統，採用 Python 開發，目前 GitHub 僅 23 星，仍屬早期專案。核心定位是提供企業或團隊共享的本地 Agent 解決方案。",
+    "highlights": [
+      "多使用者支援：可多人同時使用同一實例",
+      "多 Agent 架構：支援同時運行多個專門化 Agent",
+      "自托管部署：資料完全留在本地",
+      "Python 技術棧：便於技術團隊二次開發",
+      "早期專案：僅 23 星，生態與穩定性待驗證"
+    ],
+    "why_it_matters": "Octop 的多人多 Agent 架構適合需要團隊共享 AI 能力的場景。若騰訊雲持續維護，可能成為企業內部 AI 自動化的開源選項，但目前星數偏低需謹慎評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可 fork 該專案測試團隊協作場景，例如讓不同 Agent 分別處理客服、資料整理、程式碼審查等任務，觀察其協作穩定性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/20101770?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-11-rtx-pro-4500-oculink-prismaquant-int4-autoround-nvfp4-w4a4",
+    "title": "RTX Pro 4500 OCuLink 實測：PrismaQuant INT4 Autoround 與 NVFP4 W4A4 量化表現",
+    "title_original": "Some testing on RTX Pro 4500 (With Oculink) on PrismaQuant, INT4 Autoround and NVFP4 W4A4 quantized model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut8o8t/some_testing_on_rtx_pro_4500_with_oculink_on/",
+    "published_at": "2026-07-11T03:16:19+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶在 RTX Pro 4500 顯示卡上透過 OCuLink 外接方式測試 PrismaQuant 的 INT4 Autoround 量化以及 NVFP4 W4A4 量化模型。測試重點在驗證新興量化技術在 Blackwell 架構工作站級顯示卡的實際推論效能與記憶體頻寬表現。",
+    "highlights": [
+      "RTX Pro 4500 為 Blackwell 架構工作站顯示卡，具備較大 VRAM 與頻寬",
+      "OCuLink 提供比 TB4 更穩定的顯示卡外接方案，延遲更低",
+      "PrismaQuant INT4 Autoround 是一種新興後訓練量化方法",
+      "NVFP4 W4A4 量化格式強調資料與權重皆為 4-bit",
+      "實測數據可供評估性價比與本機部署可行性"
+    ],
+    "why_it_matters": "RTX Pro 4500 為專業級工作站顯示卡，量化技術實測結果可幫助判斷是否值得投入本地部署大型語言模型，以及何種量化格式在該硬體上能達到最佳性價比。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可根據實測的 token/s 與記憶體佔用數據，估算在 RTX Pro 4500 上能同時容納多大的量化模型，進而決定是否將部分自動化 pipeline 從雲端遷移至本機。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-11-unsloth-qwen3-6-27b-nvfp4-4-5060-ti-benchmark",
+    "title": "Unsloth Qwen3.6-27B-NVFP4 在 4 張 5060 Ti 上並發 Benchmark 實測",
+    "title_original": "Benchmark of the new unsloth/Qwen3.6-27B-NVFP4 on 4x 5060 ti's with P2P and PP=4 at 1,4,8,12, and 16 concurrency.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ut6x55/benchmark_of_the_new_unslothqwen3627bnvfp4_on_4x/",
+    "published_at": "2026-07-11T01:51:26+00:00",
+    "category": "open-source-ai",
+    "summary": "用戶針對 Unsloth 優化的 Qwen3.6-27B-NVFP4 模型，在 4 張 RTX 5060 Ti 顯示卡上使用 P2P 傳輸與 PP=4（pipeline parallelism）進行並發壓力測試，測試維度包括 1、4、8、12、16 個並發請求的吞吐量與延遲表現。",
+    "highlights": [
+      "Qwen3.6-27B 為阿里巴巴 Qwen3 系列的 270 億參數版本",
+      "NVFP4 為新興神經網路浮點格式，權重儲存更精簡",
+      "Unsloth 提供針對該格式優化的訓練與推論框架",
+      "RTX 5060 Ti 為主流消費級顯示卡，4 張組成小型叢集",
+      "PP=4 與 P2P 測試驗證多卡推論的擴展性瓶頸"
+    ],
+    "why_it_matters": "RTX 5060 Ti 為相對平價的多卡方案，此 benchmark 可評估在有限預算下是否能以多卡集群方式跑動大型開源模型，對中小團隊的本地部署策略具參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考此 benchmark 的並發吞吐量數據，評估在 4x 5060 Ti 環境下是否能支撐團隊的自動化任務需求，並計算每千次請求的 GPU 小時成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-11-mit-llm-serve-dashboard-llm",
     "title": "MIT LLM Serve Dashboard 開源本地 LLM 監控工具",
     "title_original": "MIT LLM Serve Dashboard I am making open source",
@@ -659,6 +828,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-11-meta-muse-spark-1-1-api-openai-anthropic-ai",
+    "title": "Meta Muse Spark 1.1 API 定價施壓 OpenAI 與 Anthropic，AI 價格戰升溫",
+    "title_original": "Meta's Muse Spark 1.1 API pricing squeezes OpenAI and Anthropic as the AI price war heats up - The Decoder",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVC1fZnVoOHMxQlZLMXJ6VDRJeFhlQ2k0MzBsR2lQWmE0aFBQNlM4T2lRT1h3dFl3TTA3TkhPeXZ1R1JHb2swWmItdXJLMy04MDR1blMyRy1FTFBxYzR6T1IwOVJzZGFabHd1bk5taXRTcEJVSC1tR05XMWJfQWJJTG8zSUlfWURwS1VVdzBTUy1Sc2JGSVBvQ3V1UkU3b2VvOEdpSmliSmgwcE0xTkJYTDVkc0JEYWc?oc=5",
+    "published_at": "2026-07-09T17:01:17+00:00",
+    "category": "new-models",
+    "summary": "The Decoder 報導 Meta 新模型 Muse Spark 1.1 的 API 定價策略對 OpenAI 與 Anthropic 形成壓力。隨著大廠間價格競爭加劇，開發者有更多低價選項可用於建構 AI 工作流程與自動化工具。",
+    "highlights": [
+      "Meta Muse Spark 1.1 進入 API 市場",
+      "定價策略對標 OpenAI 與 Anthropic 主流產品",
+      "AI 價格戰進入新階段",
+      "開發者成本預期持續下降",
+      "具體定價數字需查閱原文"
+    ],
+    "why_it_matters": "價格戰直接影響技術用戶的 AI 工具成本。若 Meta 能以明顯低價提供接近能力模型，許多現有商業 API 方案可能被替換，工作流程自動化成本將大幅下降。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶應比較 Muse Spark 1.1 與現有用模型的 input/output token 單價，若性價比足夠可評估將部分自動化任務遷移至 Meta API 以降低整體費用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-09-ai-skills-ai-github-335",
