@@ -1,5 +1,91 @@
 [
   {
+    "id": "2026-07-11-code-index-mcp-mcp",
+    "title": "Code-Index-MCP：程式碼索引MCP伺服器",
+    "title_original": "ViperJuice/Code-Index-MCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ViperJuice/Code-Index-MCP",
+    "published_at": "2026-07-11T12:33:19Z",
+    "category": "agent-skills",
+    "summary": "開源程式碼索引MCP伺服器（55 Stars），為Coding Agent提供語境化上下文，提升程式碼理解與生成準確度，降低上下文長度消耗。",
+    "highlights": [
+      "專為MCP生態設計，相容Claude/其他MCP Client",
+      "建立程式碼庫索引，減少Token消耗",
+      "提升Agent對大型專案的上下文理解能力",
+      "Python輕量實現，易於整合進現有工作流程",
+      "可與Cursor/Cline等編輯器結合使用"
+    ],
+    "why_it_matters": "解決大型程式碼庫中Context Window不足的痛點，讓AI程式碼助理能更高效處理企業級專案。",
+    "automation_angle": null,
+    "automation_angle_zh": "將Code-Index-MCP整合進個人Coding Agent工作流程，為大型專案提供精準的程式碼索引服務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/5369471?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-11-politico-ai",
+    "title": "Politico：美國科技業對中國開源AI崛起的焦慮",
+    "title_original": "The U.S. tech industry is increasingly anxious about the rising power and competitive price of open-source AI models from China — and whether the Trump administration will respond with yet another executive order | Politico",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uthozd/the_us_tech_industry_is_increasingly_anxious/",
+    "published_at": "2026-07-11T11:34:24+00:00",
+    "category": "hot-topics",
+    "summary": "Politico報導指出美國科技業對中國開源模型（如DeepSeek、Qwen）的價格競爭力感到焦慮，憂心川普政府可能祭出新的行政命令限制開源AI擴散。",
+    "highlights": [
+      "中國開源模型性價比威脅美國AI產業",
+      "監管不確定性可能影響開源模型使用",
+      "企業級AI採購決策需關注地緣政治風險",
+      "開源AI民主化趨勢持續但政策風險上升",
+      "消息來源為政治媒體，非技術驗證"
+    ],
+    "why_it_matters": "全球AI政策走向將直接影響開源模型的可用性與企業AI策略，需持續追蹤政策動態。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業AI策略應評估開源與閉源模型的替換彈性，避免單一來源依賴，留意政策變化。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-11-hass-ai-orchestrator-home-assistant",
+    "title": "HASS-AI-Orchestrator：Home Assistant 智慧家居編排系統",
+    "title_original": "ITSpecialist111/HASS-AI-Orchestrator",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ITSpecialist111/HASS-AI-Orchestrator",
+    "published_at": "2026-07-11T10:49:49Z",
+    "category": "agent-skills",
+    "summary": "開源多Agent編排系統，專為Home Assistant智慧家居平台設計。支援本地LLM（Ollama/DeepSeek）與RAG技術增強技術知識處理，57 Stars。",
+    "highlights": [
+      "深度整合Home Assistant生態，開箱即用",
+      "本地LLM執行，資料留存在本地網路",
+      "RAG技術提供技術文件問答能力",
+      "Python技術棧，部署門檻低",
+      "適合智慧家居愛好者自架AI控制中心"
+    ],
+    "why_it_matters": "將AI能力引入智慧家居本地控制，兼顧隱私與靈活性，為家庭自動化愛好者提供新型態方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術玩家可架設Ollama + HASS-AI-Orchestrator，用自然語言控制家中的Home Assistant裝置。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/142685548?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-11-chat-api-oracle-llm-tokenizer",
     "title": "研究：僅用兩個 Chat API Oracle 能否重建閉源 LLM 的 Tokenizer",
     "title_original": "Can we reconstruct a closed-source LLM tokenizer using only two oracles from the chat API?",
