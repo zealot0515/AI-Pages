@@ -1,5 +1,147 @@
 [
   {
+    "id": "2026-07-12-mcp-gateway-mcp-server",
+    "title": "mcp-gateway：單一端點串接無限 MCP Server 的工具路由層",
+    "title_original": "MikkoParkkola/mcp-gateway",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/MikkoParkkola/mcp-gateway",
+    "published_at": "2026-07-12T18:27:02Z",
+    "category": "agent-skills",
+    "summary": "mcp-gateway 是一個 Rust 寫成的輕量單一執行檔，可在 Agent 面前充當統一閘道，將多個 MCP Server 與 REST API 整合為固定約 15 個工具的平坦介面。官方宣稱在 100 工具堆疊下可節省約 89% Token 成本，且工具越多節省幅度越大。",
+    "highlights": [
+      "Rust 單一執行檔，部署門檻低",
+      "統一多個 MCP Server 與 REST API 為平坦工具列表",
+      "工具列表 Token 成本固定，不隨後端數量增加",
+      "官方數據：100 工具堆疊約省 89% Token",
+      "節省效果隨工具數量增加而線性成長"
+    ],
+    "why_it_matters": "建構大型工具集的 Agent 時，Prompt Token 成本往往是瓶頸。mcp-gateway 提供一個低技術負擔的解法，讓開發者在不犧牲工具廣度的前提下控制 Token 消耗。",
+    "automation_angle": null,
+    "automation_angle_zh": "有大量工具整合需求的開發者，可將既有 MCP Server 與 REST API 統一接入 mcp-gateway，觀察 Prompt Token 消耗與回應延遲的實際變化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/78788115?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-yolfi-agent-kit-ai-agent-sdk-cli-mcp-server",
+    "title": "Yolfi Agent Kit：AI 程式設計 Agent 的 SDK、CLI 與 MCP Server",
+    "title_original": "yolfinance/yolfi-agent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/yolfinance/yolfi-agent",
+    "published_at": "2026-07-12T17:55:05Z",
+    "category": "agent-skills",
+    "summary": "Yolfi Agent Kit 提供 SDK、CLI 工具與 MCP Server 三合一方案，專為 AI 程式設計 Agent 設計。GitHub 已有 213 顆星，基於 JavaScript/TypeScript 生態。目標是簡化 AI Agent 執行自動化編碼任務時的工具串接與指令執行流程。",
+    "highlights": [
+      "提供 SDK、CLI、MCP Server 三種接入方式",
+      "專注 AI 程式設計與自動化編碼場景",
+      "基於 JavaScript，生態整合便利",
+      "GitHub 213 顆星，社群關注度佳",
+      "可與現有 VS Code 或終端機工作流程整合"
+    ],
+    "why_it_matters": "對日常處理大量程式碼任務的開發者，Yolfi Agent Kit 降低串接自動化編碼工具的技術門檻，值得評估能否取代或輔助現有的腳本與 CI/CD 流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將重複性高的程式碼生成、測試腳本執行任務透過 Yolfi CLI 封裝，評估其與現有 IDE 整合的流暢度與錯誤率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/285802295?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-reddit-codex-harness",
+    "title": "Reddit 討論：Codex 作為本地模型 Harness 的可行性",
+    "title_original": "How is Codex as a harness for local models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuib36/how_is_codex_as_a_harness_for_local_models/",
+    "published_at": "2026-07-12T15:19:50+00:00",
+    "category": "new-models",
+    "summary": "LocalLLaMA 社群熱烈討論 Codex（疑似 OpenAI 旗下工具）在本地模型上的應用表現。討論聚焦其作為 Harness 的效能、相容性與限制，但缺乏具體測試數據與可控變數，屬社群交流層級的資訊，實際價值待驗證。",
+    "highlights": [
+      "Reddit r/LocalLLaMA 社群討論熱度中等",
+      "焦點為 Codex 對本地模型的支援程度",
+      "缺乏可控測試數據與 benchmark 對比",
+      "討論層級屬使用者經驗分享",
+      "實用價值有限，需自行驗證"
+    ],
+    "why_it_matters": "社群討論可反映技術社群對特定工具的關注趨勢，但缺乏量化數據時難以判斷實用性。技術人員應將此類資訊列為觀察對象，而非決策依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "有興趣的技術人員可自行下載 Codex 並在常見本地模型（如 Llama、Qwen）上進行基準測試，將延遲、成功率與現有 Harness 比較後再下結論。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-anthropic-claude-j-space-qwen3-8b",
+    "title": "Anthropic 揭露 Claude 沉默推論（J-space），研究者已對 Qwen3-8B 復現分析",
+    "title_original": "Anthropic found Claude reasoning in silence (J-space) — we ran the same lens on open Qwen3-8B",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uugulk/anthropic_found_claude_reasoning_in_silence/",
+    "published_at": "2026-07-12T14:22:37+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 發表研究指出 Claude 在回應前存在「沉默推論」階段（俗稱 J-space），Reddit 社群隨即對 Qwen3-8B 套用相同分析框架，試圖理解開源模型是否具備類似內部推論機制。",
+    "highlights": [
+      "J-space 指的是模型在輸出前於隱空間進行的隱性推論步驟",
+      "研究者將 Anthropic 的分析工具遷移至 Qwen3-8B 進行對比",
+      "Qwen3-8B 為開源模型，可自由部署與實驗",
+      "目前尚無定論，需進一步量化對齊與能力影響",
+      "有助於理解為何某些推論任務模型表現不如預期"
+    ],
+    "why_it_matters": "對模型能力變化的深層理解可幫助技術人員選型與除錯，特別是涉及長鏈推論或多步驟任務時。",
+    "automation_angle": null,
+    "automation_angle_zh": "可 clone 研究者公開的分析腳本，對自有部署的開源模型（如 Qwen、Llama 系列）進行 J-space 可視化，評估其推論特性是否符合任務需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-agent-qwen3-6-35b",
+    "title": "平行推論實測：本地跑 Agent 程式別忽略並行，Qwen3.6 35B 產出可翻倍",
+    "title_original": "If you use Open Code or other agenting programs you are leaving a lot of t/s if you don't actually use agents in parallel. Benchmark : RTX5090, Qwen3.6 35B loaded via LM studio with parallel tasks set to 8",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uueuks/if_you_use_open_code_or_other_agenting_programs/",
+    "published_at": "2026-07-12T13:00:07+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶在 RTX5090 上以 LM Studio 載入 Qwen3.6 35B，發現若未啟用 8 個平行任務同時執行，會浪費大量時間切片。實測顯示並行化可顯著提升本地推論吞吐，適用於 Open Code 等 agenting 工具。",
+    "highlights": [
+      "RTX5090 + LM Studio 環境下測試，硬體規格相對頂規",
+      "Qwen3.6 35B 為開源模型，可本地部署測試",
+      "8 個並行任務設定下產出明顯增加，非線性增益",
+      "對 Open Code、Cursor 等本地 Agent 工具有直接加速效果",
+      "需留意 VRAM 與上下文長度的硬體限制"
+    ],
+    "why_it_matters": "本地跑 Agent 工具的技術用戶，常忽略推論並行設定，導致 GPU 閒置時間過多。實測數據可供優化本地工作流程參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 LM Studio 啟用多任務並行，並監控 GPU 利用率曲線，找出符合 VRAM 容量的最佳並行數，以後自動化腳本呼叫本地模型時可直接套用。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-12-zer0fit-google-tabfm-timesfm-mcp-ml",
     "title": "Zer0Fit：將 Google TabFM 與 TimesFM 包裝為本地 MCP 伺服器，支援零樣本 ML 任務",
     "title_original": "Zer0Fit: I took Google's new TabFM & TimesFM ML foundation models and made them available as an MCP server for zero-shot ML tasks (forecasts / classifications / regressions). 100% local.",
@@ -57886,6 +58028,34 @@
       "agent-skills",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-galaxy-s26-ai",
+    "title": "三大電信預售 Galaxy S26，附贈 AI 功能與訂閱生活福利",
+    "title_original": "三大运营商開启Galaxy S26预售，提供AI、訂閱和生活福利 - 亚洲日报",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83bUticEEzMExkSTFHUjFRcktQa0toeFNra0tyeHJNNDd2dVZWZTBJUlJjbWlvWEk5dGJ6UnFCQTNuSkw3UmJjeXdYWkJmN0Q1MG94NkJn?oc=5",
+    "published_at": "2026-02-26T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "中國三大電信營運商同步開啟 Galaxy S26 系列預售，除硬體規格升級外，搭配 Galaxy AI 功能及多種訂閱生活服務福利，瞄準消費者市場的 AI 整合體驗。",
+    "highlights": [
+      "預售時間與電信通路綁定，優惠內容因營運商而異",
+      "Galaxy AI 包含翻譯、摘要等設備端 AI 功能",
+      "生活福利可能包含影音、購物等訂閱服務",
+      "屬消費級產品，非開發者或企業工具",
+      "資訊來源為亞洲日報，細節待官網確認"
+    ],
+    "why_it_matters": "對一般消費者有吸引力，但對技術開發者或 AI 工作流程自動化的價值有限，屬行銷導向資訊。",
+    "automation_angle": null,
+    "automation_angle_zh": "若需測試設備端 AI 能力，可留意 S26 的 Galaxy AI 是否開放 API 或 SDK 供開發者整合，現階段暫無可直接自動化工作流程的切入點。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
