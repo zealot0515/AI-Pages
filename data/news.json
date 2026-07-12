@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-07-12-zer0fit-google-tabfm-timesfm-mcp-ml",
+    "title": "Zer0Fit：將 Google TabFM 與 TimesFM 包裝為本地 MCP 伺服器，支援零樣本 ML 任務",
+    "title_original": "Zer0Fit: I took Google's new TabFM & TimesFM ML foundation models and made them available as an MCP server for zero-shot ML tasks (forecasts / classifications / regressions). 100% local.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uudxi8/zer0fit_i_took_googles_new_tabfm_timesfm_ml/",
+    "published_at": "2026-07-12T12:18:28+00:00",
+    "category": "open-source-ai",
+    "summary": "Zer0Fit 將 Google 最新的 TabFM（表格預測）與 TimesFM（時序預測）兩個 ML Foundation Model 包裝為 MCP 伺服器，提供 100% 本地執行的零樣本機器學習能力（預測/分類/回歸），無需雲端 API 即可在本地完成 ML 任務。",
+    "highlights": [
+      "100% 本地執行，無 API 費用，資料不出網路",
+      "整合 Google TabFM（表格/結構化數據預測）與 TimesFM（時序預測）",
+      "作為 MCP 伺服器提供標準化介面，可被 Claude Code 等工具呼叫",
+      "零樣本 ML 任務能力，降低機器學習門檻",
+      "需評估模型大小與本地 GPU 需求是否在硬體能力範圍內"
+    ],
+    "why_it_matters": "將 Google Foundation Model 本地化包裝是降低 AI 工具成本的實用方向；對於需要在本地處理機敏數據或控制預測成本的技術用戶，Zer0Fit 提供了一個可實測的起點。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地環境部署 Zer0Fit MCP 伺服器，用真實業務數據（如銷售時序或客戶分類）測試 TabFM/TimesFM 的預測品質，比較與雲端 API 的準確率差異與延遲表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-marm-memory-sqlite-claude-code-cursor",
+    "title": "marm-memory：SQLite 本地融合記憶層，為 Claude Code 與 Cursor 提供零雲端上下文",
+    "title_original": "Lyellr88/marm-memory",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Lyellr88/marm-memory",
+    "published_at": "2026-07-12T11:44:11Z",
+    "category": "agent-skills",
+    "summary": "marm-memory 是 Lyellr88 開源的本地記憶層，融合對話歷史、程式碼庫索引、概念圖譜三種上下文儲存於 SQLite，並作為 MCP 伺服器向 Claude Code 與 Cursor 提供即時檢索。目標是實現零雲端依賴、隱私優先的多 Agent 協作上下文管理。",
+    "highlights": [
+      "3 合 1 記憶架構：對話歷史 + 程式碼索引 + 概念圖譜",
+      "以 SQLite 為底層，無需額外服務，部署簡單",
+      "作為 MCP 伺服器直接服務 Claude Code 與 Cursor",
+      "支援多 Agent swarm 的本地上下文共享，零數據上雲",
+      "Python 實作，307 stars，反映社群對本地 AI 記憶的強烈需求"
+    ],
+    "why_it_matters": "隨著 AI Coding 工具普及，跨會話上下文管理成為開發者痛點；marm-memory 以 SQLite 為基礎提供輕量、本地、可擴展的解決方案，直接提升 AI Coding 的上下文品質與隱私安全。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Cursor 或 Claude Code 專案中安裝 marm-memory MCP 伺服器，觀察長期開發中 AI 對程式碼庫理解的一致性提升，評估是否減少重複解釋上下文的人工成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/215211484?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-12-voice-to-voice",
+    "title": "Voice-To-Voice 模型現狀評測：社區整理多個開源方案的能力邊界",
+    "title_original": "Current state of Voice-To-Voice models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuc4dc/current_state_of_voicetovoice_models/",
+    "published_at": "2026-07-12T10:48:34+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社區討論整理了目前開源 Voice-To-Voice（V2V）模型的現狀地圖，包括延遲、語音品質、情緒識別與多語言能力的横評。此類討論幫助技術用戶識別哪些模型適合即時對話助理，哪些仍停留在實驗室階段。",
+    "highlights": [
+      "社區驅動的横評，涵蓋多個開源 V2V 方案",
+      "重點評估延遲、語音自然度、情緒識別、多語言覆蓋",
+      "可作為技術評估的起點，但缺乏統一 Benchmark 標準",
+      "部分模型延遲過高，不適合即時互動場景",
+      "有助於過濾不成熟方案，聚焦已可在本地部署的選項"
+    ],
+    "why_it_matters": "語音對語音即時互動是 AI Agent 下一個殺手級場景，但開源 V2V 模型的成熟度差異大；社區横評節省了技術用戶逐一測試的時間成本，加速找到合適本地部署方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據社區横評結論，挑選 1-2 個延遲低於 500ms 的候選模型，在本地進行語音對話壓測，驗證其是否可作為本地 AI 助理的語音前端替代雲端 TTS/ASR 方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-rtx-5060-ti-qwen3-6-27b-int8-sglang-8",
+    "title": "RTX 5060 Ti 四卡串聯 Qwen3.6 27B INT8 推論效能實測：SGLang 8 併發表現出眾",
+    "title_original": "Benchmark - 4x 5060 Ti (64GB VRAM) (P2P) - Qwen3.6 27B (INT8 /w bf16 kv cache) @ 8 concurrency with SGLang. SGLang seems to handle higher concurrency better with this setup",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuc3pi/benchmark_4x_5060_ti_64gb_vram_p2p_qwen36_27b/",
+    "published_at": "2026-07-12T10:47:33+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶測試四張 RTX 5060 Ti（各 32GB VRAM，透過 PCIe 對等傳輸連接）執行 Qwen3.6 27B 模型，採用 INT8 量化配合 BF16 KV Cache，在 SGLang 框架下達到 8 併發穩定輸出。初步結果顯示 SGLang 在高併發場景比預期表現更好，硬體對等傳輸可有效整合多卡記憶體資源。",
+    "highlights": [
+      "四張 RTX 5060 Ti 透過 PCIe P2P 形成 64GB 合併 VRAM 池",
+      "Qwen3.6 27B 以 INT8 量化載入，KV Cache 保留 BF16 精度",
+      "SGLang 框架在高併發（8 concurrent）下穩定運作無明顯瓶頸",
+      "對等傳輸延遲未成為主要效能瓶頸，適合本地部署大模型",
+      "性價比評估：相較 A100/H100，5060 Ti 成本門檻較低"
+    ],
+    "why_it_matters": "本地部署 27B 等級模型的成本大幅降低，技術玩家可用消費級 GPU 達成過去需專業顯卡的效能。若 SGLang 優化持續，個人工作站部署高效能開源模型將更普及。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用類似配置自動化批次推論流程，例如定時處理文件摘要、客服回覆生成等任務，評估是否能在不吃緊預算下取代雲端 API 呼叫。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-12-youtube-mcp-server-ai-youtube",
     "title": "youtube-mcp-server：讓 AI 代理直搜 YouTube 字幕與時間戳",
     "title_original": "coyaSONG/youtube-mcp-server",
