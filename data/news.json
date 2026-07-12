@@ -1,5 +1,86 @@
 [
   {
+    "id": "2026-07-12-sqlite-utils-4-1-cli-code-strict",
+    "title": "sqlite-utils 4.1 釋出：CLI 新增 --code 與 --strict 模式支援",
+    "title_original": "sqlite-utils 4.1",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything",
+    "published_at": "2026-07-11T23:50:20+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 維護的 sqlite-utils 4.1 新增 --code 選項可直接在命令列寫 Python 函式生成資料列，以及 --strict 與 --no-strict 選項切換 SQLite 嚴格模式，並由 Claude Code (GPT-5.6 Sol xhigh) 輔助完成。",
+    "highlights": [
+      "--code 選項可直接在 CLI 寫 rows() 函式，無需建立中間檔案",
+      "--strict / --no-strict 可動態切換表格的 SQLite STRICT 模式",
+      "upsert 現在可自動推斷已有表格的主鍵",
+      "query 指令支援 stdin 讀取 SQL 字串",
+      "由 AI 輔助審閱 issue 與實測發現 edge case 後釋出"
+    ],
+    "why_it_matters": "對需要快速操作 SQLite 的技術人員，--code 大幅簡化一次性資料轉換流程，而 STRICT 模式支援則強化了資料型別安全性。",
+    "automation_angle": null,
+    "automation_angle_zh": "在資料處理腳本中用 sqlite-utils insert --code 取代 Python 腳本中間層，直接用 CLI 生成測試資料或執行簡單 ETL。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-12-reddit-llm",
+    "title": "Reddit 熱議：主流硬體上本地 LLM 模型配置指南彙整",
+    "title_original": "Here's your recipes for models for the most popular hardware",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uty0i8/heres_your_recipes_for_models_for_the_most/",
+    "published_at": "2026-07-11T22:45:20+00:00",
+    "category": "open-source-ai",
+    "summary": "r/LocalLLaMA 社群整理了在不同硬體規格（GPU VRAM、CPU 等）上執行本地 LLM 的模型推薦配置，含模型大小、量化選項與效能取捨，可作為硬體受限者選擇模型的參考起點。",
+    "highlights": [
+      "社群驅動的非官方彙整，尚未驗證所有推薦準確性",
+      "涵蓋從消費級到高階 GPU 的多層級配置建議",
+      "包含量化參數與 VRAM 需求對照",
+      "可用於快速評估手上硬體能跑哪些模型"
+    ],
+    "why_it_matters": "技術宅若想部署本地 LLM 但不確定模型大小與硬體匹配度，可參考此彙整做初步評估，但需自行測試驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據自己機器的 VRAM 與 CPU 規格，在彙整中找對應推薦模型，用 LM Studio 或 Ollama 實際測試生成速度與品質。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-onlyfans",
+    "title": "【已過濾】OnlyFans 支付指南",
+    "title_original": "Performance comparison on full compute performance (Anima) and LLM prompt processing of 5090 (600,475 and 400W) vs 6000 PRO MaxQ shunt modded and water cooled (at 300, 400, 475 and 600W), and 6000 PRO WS/SE (600W).",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1utvbey/performance_comparison_on_full_compute/",
+    "published_at": "2026-07-11T20:49:53+00:00",
+    "category": "ai-deals",
+    "summary": "本項目經編輯審核後判定為非 AI 相關內容，主要討論內容平台支付方式，不符合技術向 AI 晨報的選題標準。",
+    "highlights": [
+      "非 AI 相關新聞",
+      "僅涉及一般消費支付流程",
+      "對技術用戶的工作流程程無直接幫助"
+    ],
+    "why_it_matters": "本項目與 AI 工具、模型能力、工作流程程自動化或開發者效率無關，故不納入本晨報內容。",
+    "automation_angle": null,
+    "automation_angle_zh": "不適用。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-11-code-index-mcp-mcp",
     "title": "Code-Index-MCP：程式碼索引MCP伺服器",
     "title_original": "ViperJuice/Code-Index-MCP",
@@ -1556,6 +1637,33 @@
     "why_it_matters": "MCP 工具日漸重要，Safari MCP Server 填補了 Apple 平台瀏覽器自動化的缺口。對於需要在 Safari 環境進行 AI 輔助測試的開發團隊，此工具可提升測試效率與覆蓋率。",
     "automation_angle": null,
     "automation_angle_zh": "開發者可在 macOS 上安裝 Safari MCP Server，測試其與現有 AI 工具鏈的整合效果，評估是否能自動化 Safari 瀏覽器中的網頁測試任務。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-safari-mcp-server-ai-apple",
+    "title": "Safari MCP Server 將 AI 測試整合進 Apple 瀏覽器環境",
+    "title_original": "Safari MCP Server Brings AI Test Runs Into Apple’s Browser - AppleMagazine - AppleMagazine",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxVXRZbm4wYm1RVEVtb1F1MkhhU2hoaEd6VFJOWkFqMVFmQzJaZTdJWlJGOGVtd3lSVW9LM3dFOFlCR090NmFhMlowMlktVUZYVlZ5Wkw2dmY2cHVWai1iYTNGXzBIU3oxZnY4dE92MnLSAXZBVV95cUxNWVVtWmJQZ1lqQ2lHRUlSZWtWLXVaRDhqOHg2Ql9kTUxucDZGQllnYTBpMW1oZGtYdl9YaU9EeUJfOVkzX01kX0NxeXZjWWEyLTRPT2NHN3FXclpWSjZwRC1fS1g0NFI5YjY1bjFGMnUwRm5mRmRB?oc=5",
+    "published_at": "2026-07-08T19:32:27+00:00",
+    "category": "agent-skills",
+    "summary": "蘋果 Safari 瀏覽器現在可透過 MCP Server 直接執行 AI 驅動的自動化測試，將 AI 代理能力延伸至瀏覽器層級，適用於網頁應用測試與 UI 驗證場景。",
+    "highlights": [
+      "將 AI Agent 能力與瀏覽器環境深度整合",
+      "支援網頁應用的自動化 UI 測試",
+      "可能簡化前端開發的測試驗證流程",
+      "目前資訊來源為一般科技媒體，細節待補充"
+    ],
+    "why_it_matters": "若 Safari MCP Server 成熟，可讓前端開發者用自然語言驅動瀏覽器操作，減少手動點擊測試的時間成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Mac 環境安裝 Safari MCP Server，用自然語言描述測試步驟，評估其是否能替代部分 Selenium 或 Playwright 腳本。",
     "tags": [
       "agent-skills",
       "rss",
@@ -60354,6 +60462,34 @@
     "automation_angle_zh": "技術用戶可評估 Gemini API 的定價與功能是否滿足其自動化工作流程程需求，特別是與現有 OpenAI/Anthropic API 方案進行成本效益比較。",
     "tags": [
       "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-rtx-5090-6000-pro-llm",
+    "title": "RTX 5090 與 6000 PRO 在 LLM 推論效能上的完整比較",
+    "title_original": "OnlyFans如何支付？虚拟信用卡訂閱OnlyFans指南（2025最新教程） - paragraph.com",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE05Ui1GVDFIUzdldUtha09UQ2hzalhyQk5RSlhVLWlNVkx5eWE4UDd4YUEzeTJCZjVBQXNfYngwazBNeDNPY29tVjFQa3JvdkhteENEcDJVNjFfY2gxNjhJ?oc=5",
+    "published_at": "2025-01-15T08:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶發布 RTX 5090（600W/475W/400W 功耗設定）與 AMD 6000 PRO MaxQ（水冷改裝，300-600W）以及 6000 PRO WS/SE（600W）在 LLM 提示詞處理與完整計算效能上的基準測試對比結果，可作為本地部署 LLM 顯示卡選擇的參考依據。",
+    "highlights": [
+      "RTX 5090 三種功耗設定（600W/475W/400W）皆有測試數據",
+      "6000 PRO MaxQ 經水冷改裝，功耗範圍 300-600W",
+      "測試項目包含 LLM 提示詞處理速度與完整計算效能",
+      "6000 PRO WS/SE 600W 版本納入比較",
+      "結果可評估不同硬體在 LLM 推論場景的性價比"
+    ],
+    "why_it_matters": "對於規劃本地 LLM 推論伺服器的技術人員，散熱與功耗管理會直接影響部署成本與穩定性。此比較提供不同功耗設定下的實際效能數據，有助於做出更精準的硬體採購決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可根據測試結果中的功耗/效能比率，計算不同顯示卡在特定 LLM 推論工作負載下的單位成本，並據此設計自動化性價比評估腳本。",
+    "tags": [
+      "hot-topics",
       "rss",
       "zh-CN"
     ],
