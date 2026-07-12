@@ -1,5 +1,177 @@
 [
   {
+    "id": "2026-07-12-youtube-mcp-server-ai-youtube",
+    "title": "youtube-mcp-server：讓 AI 代理直搜 YouTube 字幕與時間戳",
+    "title_original": "coyaSONG/youtube-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/coyaSONG/youtube-mcp-server",
+    "published_at": "2026-07-12T07:57:45Z",
+    "category": "agent-skills",
+    "summary": "一款新的 MCP 伺服器，可為 AI 代理提供 YouTube 影片研究能力，包含字幕搜尋、精確時間戳連結、跨影片證據彙整與頻道情報。技術宅可直接整合至代理工作流程。",
+    "highlights": [
+      "支援影片字幕全文檢索與時間戳定位",
+      "可横跨多支影片彙整相關論點與證據",
+      "提供頻道級情報與訂閱者分析",
+      "標準 MCP 協定相容主流代理框架",
+      "JavaScript 實作，部署門檻低"
+    ],
+    "why_it_matters": "讓 AI 代理能直接從 YouTube 取得結構化研究素材，省去人工觀看與摘錄的時間，適合需要大量參考影片的技術研究或競品分析場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 youtube-mcp-server 整合至代理程式，讓代理自動檢索特定技術主題的 YouTube 教學影片，並直接引用時間戳與字幕作為回覆依據。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/66289470?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-ai-config-sync-manager-claude-code-codex-mcp",
+    "title": "ai-config-sync-manager：Claude Code 與 Codex 雙向設定同步 MCP 工具",
+    "title_original": "slash9494/ai-config-sync-manager",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/slash9494/ai-config-sync-manager",
+    "published_at": "2026-07-12T07:25:25Z",
+    "category": "agent-skills",
+    "summary": "新興 MCP 專案實現 Claude Code 與 GitHub Codex 間的雙向同步，涵蓋指令、技能、Agent 設定、MCP servers、hooks 與權限配置。GitHub 17 星，JavaScript 實現。對於同時使用兩大 AI  coding assistant 的技術宅，可減少重複配置的學習曲線。",
+    "highlights": [
+      "支援指令、技能、Agent、MCP servers 同步",
+      "雙向同步 Claude Code 與 GitHub Codex 設定",
+      "含 hooks 與權限配置同步機制",
+      "17 GitHub stars，關注度尚低但方向明確",
+      "JavaScript 實現，需 Node.js 環境"
+    ],
+    "why_it_matters": "若能在團隊中標準化 Claude Code 與 Codex 的設定同步，可減少開發者環境不一致問題，提升多人協作時 AI coding tool 的導入效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "本機安裝後，在兩個 IDE 中同時配置，觀察技能與 MCP servers 是否真能即時同步，評估對日常 coding workflow 的實質幫助。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/70849655?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-agent-security-scanner-mcp-ai-coding-agent-mcp-1000",
+    "title": "agent-security-scanner-mcp：AI coding agent 安全掃描 MCP，內建 1000+ 漏洞規則",
+    "title_original": "sinewaveai/agent-security-scanner-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sinewaveai/agent-security-scanner-mcp",
+    "published_at": "2026-07-12T06:27:56Z",
+    "category": "agent-skills",
+    "summary": "sinewaveai 開源的 AI coding agent 安全掃描 MCP server，具備提示注入防火牆、套件幻覺偵測（覆蓋 430 萬+ 套件）、1000+ 漏洞規則（含 AST 汙染分析）與自動修復能力。116 GitHub stars，JavaScript 實現，是目前最完整的 Agent 安全 MCP 方案之一。",
+    "highlights": [
+      "Prompt injection 防火牆，阻擋惡意指令注入攻擊",
+      "套件幻覺偵測，資料庫覆蓋 430 萬+ npm/pip 套件",
+      "1000+ 漏洞規則，結合 AST 靜態分析與汙染追蹤",
+      "支援自動修復建議，降低手動修補成本",
+      "116 stars，社群關注度快速上升中"
+    ],
+    "why_it_matters": "隨著 AI coding agent 滲透 production 程式碼，安全風險同步放大。此工具提供 Agent 層級的安全防線，是將 AI coding 導入企業流程的必要基礎設施。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 MCP server 整合进 CI/CD pipeline，對 Agent 生成的程式碼自動執行漏洞掃描與套件真實性驗證，評估對現有安全流程的增量價值。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/157084199?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-prism-mcp-gromacs",
+    "title": "PRISM：分子模擬蛋白質-配體互作建模 MCP 工具，支援 GROMACS",
+    "title_original": "AIB001/PRISM",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/AIB001/PRISM",
+    "published_at": "2026-07-12T06:08:30Z",
+    "category": "open-source-ai",
+    "summary": "浙江大學研究團隊開源的蛋白質-配體系統建模工具，內建 GROMACS 分子動力學（MD）、PMF、REST2 等模擬功能。支援 GAFF、OpenFF、CGENFF、OPLS-AA 等常見力場，提供 AI-Agent 專用 MCP server。28 GitHub stars，Python 實現。",
+    "highlights": [
+      "專精蛋白質-配體系統建構，含 MD/PMF/REST2 模擬",
+      "支援 GAFF、OpenFF、CGENFF、OPLS-AA 等力場",
+      "整合 GROMACS 主流分子動力學引擎",
+      "提供 AI-Agent MCP server，可與 LangChain 等框架串接",
+      "Python 實現，28 stars，研究向工具"
+    ],
+    "why_it_matters": "將計算生物學建模流程 MCP 化後，AI Agent 可直接驅動分子模擬任務，對製藥或生技研究者而言是降低自動化門檻的信號。",
+    "automation_angle": null,
+    "automation_angle_zh": "生物/化學領域技術宅可串接 PRISM MCP server，測試讓 AI Agent 自動生成 GROMACS 輸入檔並執行 MD 模擬的端到端流程。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/141569168?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-reddit-llm",
+    "title": "Reddit 討論：處理超大型 LLM 與硬體限制的實務經驗",
+    "title_original": "i would like to share my experience. working with huge LLMs and poor Machine",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu6qvh/i_would_like_to_share_my_experience_working_with/",
+    "published_at": "2026-07-12T05:43:37+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 討論串分享在有限硬體資源下執行超大模型（如 70B 以上）的實戰技巧，包含卸載策略、記憶體優化與推論取捨經驗。",
+    "highlights": [
+      "討論多個層級卸載（layer offload）的取捨",
+      "分享 CPU 卸載與 GPU 計算的混合策略",
+      "量化等級與模型品質的實測平衡點",
+      "處理上下文長度限制的技巧",
+      "硬體升級建議與成本考量"
+    ],
+    "why_it_matters": "對於想在消費級硬體上跑大模型的技術用戶，這類實務經驗可幫助避開常見陷阱，最佳化現有資源的利用效率，降低實驗成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考討論中的卸載策略指令碼，將其自動化為 shell 腳本，針對不同硬體配置自動選擇最優的層級卸載與量化組合。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-jacobian-lens-gguf-llama-cpp",
+    "title": "Jacobian-Lens：GGUF 模型在 llama.cpp 上的互動式特徵視覺化工具",
+    "title_original": "Interactive Jacobian-Lens visualizer and live steerer for GGUF models on llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uu32z6/interactive_jacobianlens_visualizer_and_live/",
+    "published_at": "2026-07-12T02:37:07+00:00",
+    "category": "open-source-ai",
+    "summary": "一個互動式視覺化工具，用於觀察 GGUF 格式模型在 llama.cpp 推論時的 Jacobian 矩陣變化，並支援即時調整參數以觀察模型行為差異。",
+    "highlights": [
+      "支援 GGUF 格式模型的即時 Jacobian 分析",
+      "提供互動式 lens 視圖，無需重新訓練",
+      "可觀察模型層級的特徵響應變化",
+      "與 llama.cpp 深度整合",
+      "適用於模型微調與量化效果評估"
+    ],
+    "why_it_matters": "對於在本地跑 GGUF 模型的技術用戶，Jacobian-Lens 提供了一個診斷工具，能直觀了解量化或微調對模型內部表示的影響，協助最佳化本地部署。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地 llama.cpp 環境載入 GGUF 模型後，用 Jacobian-Lens 觀察不同量化等級（Q4/Q5/Q8）下的 Jacobian 變化，輔助選擇性價比最高的量化方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-12-sqlite-utils-4-1-cli-code-strict",
     "title": "sqlite-utils 4.1 釋出：CLI 新增 --code 與 --strict 模式支援",
     "title_original": "sqlite-utils 4.1",
@@ -6794,6 +6966,34 @@
     "automation_angle_zh": "此類高層言論暫無直接自動化價值，但可作為觀察 AI 產業政策風向的指標，長期追蹤可能有助於預判監管走向。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-mistral-ai-leanstral-1-5",
+    "title": "Mistral AI 發布 Leanstral 1.5：證明增強版模型",
+    "title_original": "Leanstral 1.5: Proof Abundance for All - mistral.ai",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE12TlFuT3dEdGtDSGd1VUZVbXpUTGNaVjRtQThwZTJoMWZFQzJhVUtHTXAxLXZzSi0wd1A1azhCWU5hZEFfOUR3NGlNODVwRXc?oc=5",
+    "published_at": "2026-07-02T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 推出 Leanstral 1.5，強調「Proof Abundance」能力，瞄準需要嚴謹推論與證據支援的應用場景，具體技術規格與Benchmark數據待官方進一步揭露。",
+    "highlights": [
+      "Mistral 最新的模型變體版本",
+      "主打推論證據豐富性與嚴謹性",
+      "預期支援更長的上下文推論",
+      "官方尚未公布完整技術文件",
+      "可能作為 Mistral API 新模型上線"
+    ],
+    "why_it_matters": "Mistral 在開源與商業模型之間持續推出差異化版本，Leanstral 1.5 若證明能力突出，可能成為需要嚴謹推論場景（如技術文件分析、代碼審計）的替代選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "待 Mistral API 上線後，使用 LM Arena 或 HELM 標準 Benchmark 測試 Leanstral 1.5 與同尺寸模型的推論表現，評估是否值得切換到新版本。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -22494,6 +22694,34 @@
     "why_it_matters": "對於技術决策者而言，此事件顯示即便拥有充足资源，AI 模型的開發與商業化仍充满挑战。了解大公司的 AI 策略调整有助于评估行業趋势與技术投资方向。",
     "automation_angle": null,
     "automation_angle_zh": "技术使用者可關注 Meta 此次專案调整背後的原因，评估其對開源模型（如 Llama 系列）未來發展的潜在影响，並考虑在專案中是否继续依赖单一公司的 AI 能力。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-meta-ai",
+    "title": "Meta 坦言舊有開源 AI 策略已失效：戰略調整引發業界討論",
+    "title_original": "Meta says its old open AI strategy no longer works - Startup Fortune",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTzRrR3ZjNzRkWV9sajZzbVh2a0ZiSjJndUVEWVpweFRLdUFmdFBCOE12WThmRHVHSUVGR2M0THlmREYxYnI1S2EzdU1hb0VMdEVZNXlaWEY4dHN1d1RJb0NIU2VFQ0VFa0lZSWs1U1FWNklqR1Y5UE12ZE5JWWhyblhYOEc?oc=5",
+    "published_at": "2026-06-14T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Meta 接受 Startup Fortune 採訪時表示，其早期的開源 AI 策略已不再適用當前市場競爭格局，暗示將調整 Llama 系列的開放程度與商業模式。",
+    "highlights": [
+      "Meta 公開承認開源策略需要重新定義",
+      "Llama 系列未來可能更封閉或加收費用",
+      "監管壓力與商業利益是調整主因",
+      "對開源社群與第三方應用生態有潛在影響",
+      "具體調整方案尚未公布"
+    ],
+    "why_it_matters": "若 Meta 收緊 Llama 開源程度，依賴 Llama 的企業與開發者需評估替代方案。技術宅應關注 Meta 官方後續公告，並準備備選的開源模型策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "盤點現有基於 Llama 的自建專案，評估遷移到其他開源模型（如 Mistral、Qwen）的技術成本，並關注 Llama 4 的實際開源範圍公告。",
     "tags": [
       "hot-topics",
       "rss",
@@ -57459,6 +57687,34 @@
     "automation_angle_zh": "可在影像自動化管線中啟用 Nano Banana Pro，評估備援觸發頻率與輸出穩定性，作為高可用影像生成方案的參考。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-12-copaw-openclaw-mcp-ai",
+    "title": "阿里巴巴開源 CoPaw：對標 OpenClaw 的 MCP 相容 AI 代理",
+    "title_original": "Alibaba's OpenClaw-like AI agent 'CoPaw' is now open source, compatible with MCP and can use ClawHub skills. - gigazine.net",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcUh6UGk1N09kMXJmRGxqZl9RU2U5YU5fSU91RUNlYkdSVEN5VHVkTEc5X3NGbnZja3NzMGFKUVlDci1Fb0lNQzQ1ck5SVjJpcDdLb1NyTWZBNUt2eVBXWHR5aHpTU0pYcWVoczVIc2VuVVY5aWpTOHNaWjF4QjdrY3UyQ0gzNVZhR0E?oc=5",
+    "published_at": "2026-03-02T08:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "阿里巴巴發布開源 AI 代理 CoPaw，定位類似 OpenClaw，支援 MCP 協定並可直接使用 ClawHub 技能。開源策略與生態整合意圖明顯。",
+    "highlights": [
+      "對標 OpenClaw 的代理架構設計",
+      "完整相容 MCP 協定標準",
+      "可调用 ClawHub 技能市場的各種工具",
+      "開源許可，允許商業使用",
+      "阿里巴巴在開源代理領域的最新佈局"
+    ],
+    "why_it_matters": "CoPaw 若能穩定運作並與現有 MCP 生態接軌，可能成為企業自建代理的替代方案，降低對封閉平台的依賴，技術宅值得關注其擴展性與效能表現。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 CoPaw 原始碼，在本地環境部署測試，評估其是否能取代或補充現有的 MCP 代理流程，並測試與 ClawHub 技能的整合效果。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
