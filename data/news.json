@@ -1,5 +1,252 @@
 [
   {
+    "id": "2026-07-13-x64dbg-mcp-ai-agent-mcp",
+    "title": "x64dbg-mcp：讓 AI Agent 控制除錯器的 MCP 外掛",
+    "title_original": "SetsunaYukiOvO/x64dbg-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/SetsunaYukiOvO/x64dbg-mcp",
+    "published_at": "2026-07-13T01:48:13Z",
+    "category": "agent-skills",
+    "summary": "x64dbg-mcp 為 C++ 實作的 MCP Server 外掛，透過 JSON-RPC 2.0 over HTTP/SSE 讓外部 AI 工具與 Agent 能遠端控制 x64dbg 逆向除錯器，現有 279 Stars。",
+    "highlights": [
+      "JSON-RPC 2.0 標準化介面",
+      "支援 HTTP 與 SSE 傳輸",
+      "AI Agent 可程式化控制除錯流程",
+      "C++ 高效能實作適合整合"
+    ],
+    "why_it_matters": "將除錯能力抽象成 API 端點，Agent 即可在發現疑似漏洞或崩潰時自動呼叫除錯，實現「偵測到錯誤即除錯」的閉環工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將其整合至 CI/CD 流程或錯誤追蹤系統，讓 AI 在偵測到測試失敗時自動呼叫 x64dbg 截圖或傾印記憶體狀態。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C++"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/62491991?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-13-nix-agent-ai-agent-nixos-mcp",
+    "title": "nix-agent：讓 AI Agent 操控 NixOS 的 MCP 工具",
+    "title_original": "JEFF7712/nix-agent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/JEFF7712/nix-agent",
+    "published_at": "2026-07-13T01:24:20Z",
+    "category": "agent-skills",
+    "summary": "基於 Python 的 MCP 伺服器，讓 AI Agent 能直接管理 NixOS 系統配置與狀態查詢。提供 NixOS 環境的專屬操作介面，方便與支援 MCP 協定的 AI 工具串接。",
+    "highlights": [
+      "MCP 協定整合，可與 Claude、Cline 等工具串接",
+      "針對 NixOS 系統管理設計，支援狀態查詢",
+      "使用 Python 開發，易於擴展或修改",
+      "仍在早期階段（14 stars），有一定實驗性質",
+      "可自訂技能（skills）擴充操作能力"
+    ],
+    "why_it_matters": "為 NixOS 使用者提供 AI 驅動系統管理的可能。若你使用 NixOS 或想實驗 AI 操控基礎設施，這是今天就能測試的開源起點。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地安裝 nix-agent，測試讓 AI Agent 自動執行 nix-collect-errors 或查詢系統狀態，評估是否符合你的 NixOS 管理工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/96798866?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-13-kinocut-guardrailed-mcp-server",
+    "title": "kinocut：Guardrailed 影片剪輯 MCP Server，本地快速免費",
+    "title_original": "KyaniteLabs/kinocut",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/KyaniteLabs/kinocut",
+    "published_at": "2026-07-13T01:07:45Z",
+    "category": "agent-skills",
+    "summary": "kinocut 為 Python 實作的影片剪輯 MCP Server，內建 FFmpeg 引擎與 Guardrails 保護，支援 Hyperframes、素材再利用等功能，Stars 77，主打本地高速免費。",
+    "highlights": [
+      "Python + FFmpeg 本地執行",
+      "Guardrails 防止剪輯出錯或盜版",
+      "支援 CLI 與 Python Client 呼叫",
+      "影片素材自動再利用工具"
+    ],
+    "why_it_matters": "影片處理常為自動化流程瓶頸，kinocut 以本地 MCP 形式封裝，技術用戶可將其嵌入 Agent 工作流程，節省雲端影片 API 呼叫成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 kinocut 接入行銷自動化系統，輸入文案自動生成短影片素材，評估本地處理延遲與產出品質是否滿足需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/272754061?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-13-ai-agent-dri",
+    "title": "AI Agent 能成為專案負責人嗎？從 DRI 制度談起",
+    "title_original": "Directly Responsible Individuals (DRI)",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything",
+    "published_at": "2026-07-12T23:57:14+00:00",
+    "category": "hot-topics",
+    "summary": "探讨「直接負責人」（DRI）制度在 AI Agent 時代的適用性。作者認為 Agent 不應成為專案的 DRI，因其無法承擔人類級的問責。",
+    "highlights": [
+      "DRI 概念起源於 Apple，強調人類問責",
+      "AI Agent 可輔助執行，但決策責任仍需人類承擔",
+      "引用 IBM 1979 年訓練文件：「電腦永遠不應做管理決策」",
+      "對 AI 治理與工作流程程設計有參考價值"
+    ],
+    "why_it_matters": "對思考如何將 AI Agent 整合進團隊工作流程的技術管理者有啟發意義，強調人類問責機制不可完全外包給 AI。",
+    "automation_angle": null,
+    "automation_angle_zh": "設計你的 AI 工作流程時，明確界定 Agent 的執行邊界與人類審核環節，避免將關鍵決策完全自動化。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-13-shot-scraper-1-11-javascript",
+    "title": "shot-scraper 1.11 強化多頁截圖與 JavaScript 載入穩定性",
+    "title_original": "shot-scraper 1.11",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything",
+    "published_at": "2026-07-12T23:46:52+00:00",
+    "category": "agent-skills",
+    "summary": "優化 shot-scraper multi 與 video 的伺服器啟動等待機制，現在最多等待 30 秒讓目標 URL 就緒，並支援本地 JS 檔案載入。",
+    "highlights": [
+      "server: 進程現在等待最多 30 秒讓 URL 就緒",
+      "支援 --js-file 載入本地 JS、stdin 或 gh:username/script",
+      "多個命令新增 --timeout 選項保持一致性",
+      "屬於穩定性與 DX 改善更新"
+    ],
+    "why_it_matters": "對需要自動化網頁截圖的技術人員，新版提升了大批量截圖與影片錄製的穩定性，減少時序錯誤。",
+    "automation_angle": null,
+    "automation_angle_zh": "用 shot-scraper multi 批次截圖時，若目標網站啟動較慢，新版會更穩定。結合 --js-file 測試更複雜的截圖場景。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-13-llama-cpp-agent",
+    "title": "llama.cpp 修復 Agent 工作流程上下文檢查點問題",
+    "title_original": "llama.cpp Agentic Workflows Ctx Checkpoints Fix",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uuue5p/llamacpp_agentic_workflows_ctx_checkpoints_fix/",
+    "published_at": "2026-07-12T23:03:21+00:00",
+    "category": "open-source-ai",
+    "summary": "修正 llama.cpp 在 Agent 工作流程中 Context Checkpoints 的儲存與恢復邏輯，改善長任務執行時的中斷恢復穩定性。",
+    "highlights": [
+      "修補 Context Checkpoints 在 Agent 流程中的狀態保存問題",
+      "提升長任務失敗後的恢復能力",
+      "對本地部署 llama.cpp 的用戶直接受益",
+      "屬於底層效能與穩定性修正"
+    ],
+    "why_it_matters": "若你在本地跑 LLM 做 Agent 任務，此修正可減少任務中斷後的狀態遺失問題，提升自動化流程可靠性。",
+    "automation_angle": null,
+    "automation_angle_zh": "更新到最新 llama.cpp 主分支，重新跑你的 Agent 腳本，觀察長任務中斷恢復是否更穩定。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-13-apple-openai",
+    "title": "Apple 控告 OpenAI 涉嫌竊取商業機密",
+    "title_original": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uus189/apple_sues_openai_alleging_trade_secret_theft/",
+    "published_at": "2026-07-12T21:25:47+00:00",
+    "category": "hot-topics",
+    "summary": "Apple 對 OpenAI 提起訴訟，聲稱其涉及商業機密竊取，計畫涉及多層面。具體案情與證據尚未完全公開。",
+    "highlights": [
+      "Apple 向 OpenAI 提起商業機密竊取訴訟",
+      "聲稱涉及多層面的計畫",
+      "案件細節與具體證據尚待法院披露",
+      "屬於早期法律進展階段"
+    ],
+    "why_it_matters": "若屬實，可能影響 OpenAI 與蘋果生態的合作關係。對一般技術人員影響有限，但值得追蹤後續發展。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注後續法院文件，了解 OpenAI 是否有涉及敏感資料處理的爭議，評估對其產品合規性的潛在影響。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-13-anthropic-fable-5-openai-gpt-5-6-sol",
+    "title": "Anthropic 再次延長 Fable 5 供應期，OpenAI GPT-5.6 Sol 用量限制鬆綁",
+    "title_original": "Fable gets another bump",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
+    "published_at": "2026-07-12T21:20:07+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 將 Fable 5 在付費方案的供應期延至 7 月 19 日，同時 Claude Code 每週限額提升 50%。OpenAI 近 48 小時則取消 Plus、Business、Pro 方案的 5 小時使用限制，並預告 GPT-5.6 Sol 將更省用量。",
+    "highlights": [
+      "Fable 5 供應期延至 7/19，Claude Code 限額提高 50%",
+      "OpenAI 取消 GPT-5.6 Sol 的 5 小時限制",
+      "GPT-5.6 Sol 將優化效率減少 Token 消耗",
+      "Fable 存取不確定性促使部分用戶轉向 OpenAI"
+    ],
+    "why_it_matters": "模型可用性與定價策略直接影響自動化工作流程的成本穩定性，兩大平台同步調整說明 AI 訂閱市場競爭激烈，技術用戶應持續追蹤限額變化。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可記錄兩平台近期的用量與費用變化，重新評估 Agent 任務分配策略，優先將關鍵任務放在限額更穩定的平台。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-13-sqlite-utils-4-1-1",
+    "title": "sqlite-utils 4.1.1 修補外鍵交易邊界漏洞",
+    "title_original": "sqlite-utils 4.1.1",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything",
+    "published_at": "2026-07-12T20:55:30+00:00",
+    "category": "agent-skills",
+    "summary": "修補 transform() 在外鍵約束下執行交易時的破壞性操作漏洞，防止意外刪除關聯資料。文件交叉引用也有改善。",
+    "highlights": [
+      "修補 transform() 在 PRAGMA foreign_keys 啟用時的交易問題",
+      "防止 CASCADE/SET NULL/SET DEFAULT 意外觸發資料刪除",
+      "CLI 與 Python API 文件現在互相交叉引用",
+      "屬於安全性與穩定性更新"
+    ],
+    "why_it_matters": "如果你用 sqlite-utils 做資料庫自動化，這個修補防止了資料庫操作時的隱藏風險，提升工具可靠性。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你的腳本依賴 table.transform()，升級到 4.1.1 可避免在特定外鍵場景下意外刪除資料。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-12-mcp-gateway-mcp-server",
     "title": "mcp-gateway：單一端點串接無限 MCP Server 的工具路由層",
     "title_original": "MikkoParkkola/mcp-gateway",
