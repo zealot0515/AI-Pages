@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-07-13-kt-ai-1",
+    "title": "韓國電信KT推出生成式AI訂閱補助方案　最高可抵1萬韓元",
+    "title_original": "KT開始打折生成型人工智慧(AI)和日常訂閱服务。 其战略是,對聊天GPT和雲等生成型AI服务最多支援1万韩元,對普通訂閱服务最多優惠5000韩元,擴大手机结算服务\"KT内容支付\"的使用。13日,KT.. - 매일경제",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFByWDRXamZQRWc5MkhfYlIxWDhTdW1HNWxvYzJRczBzeFQ0U0RnWUhrY3p1TTk4X0d2YjZnWkR2WVRqTkpuTllqSDJ5TQ?oc=5",
+    "published_at": "2026-07-13T07:26:05+00:00",
+    "category": "ai-deals",
+    "summary": "韓國電信KT宣布對生成式AI服務（如ChatGPT、雲端AI）提供最高1萬韓元補助，的一般訂閱服務則補助5000韓元，透過旗下「KT內容支付」行動支付服務推動用戶採用AI訂閱內容。",
+    "highlights": [
+      "生成式AI服務補助上限1萬韓元，一般訂閱最高5000韓元",
+      "須透過KT行動支付「KT內容支付」結帳",
+      "主要瞄準ChatGPT、雲端生成式AI服務用戶",
+      "為韓國電信業進軍AI訂閱市場的一環",
+      "可與Google Play等平台優惠併用"
+    ],
+    "why_it_matters": "對於在韓國使用生成式AI服務的技術人員而言，這是可疊加省費用的機會，尤其若同時使用多個AI訂閱服務，累積補助可觀。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可整合KT行動支付服務，系統化管理多個AI訂閱的費用，評估補助後的實際月費成本。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-13-humanities-writing-companion-agent-skill",
+    "title": "humanities-writing-companion：人文學術寫作 Agent Skill 開源專案",
+    "title_original": "tizzy916/humanities-writing-companion",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tizzy916/humanities-writing-companion",
+    "published_at": "2026-07-13T06:10:43Z",
+    "category": "agent-skills",
+    "summary": "人文学術寫作助理，以 Agent Skill 格式（SKILL.md）構建。支援 11 種模式，從蘇格拉底式研究問題梳理到 AI 使用揭露。雙語（英/中）設計，覆蓋文學、歷史、哲學、藝術、宗教、語言學等領域，內建四層批評論證與聲音保留機制。",
+    "highlights": [
+      "11 種寫作模式，含研究問題聚焦、AI 使用揭露",
+      "支援六大人文學科領域與跨學科場景",
+      "四層批評論證機制與可校準的反方觀點",
+      "雙語（EN/中文）介面，適配中文學術語境",
+      "以 SKILL.md 格式封裝，方便整合進 Agent 工作流程"
+    ],
+    "why_it_matters": "學術寫作自動化一直是剛需。該專案提供學科-aware 的批判性寫作協助，比通用寫作工具更具針對性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合進個人寫作 Agent，針對論文、報告提供有結構的批評反饋，提升學術寫作品質。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/191947521?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-13-x64dbg-mcp-ai-agent-mcp",
     "title": "x64dbg-mcp：讓 AI Agent 控制除錯器的 MCP 外掛",
     "title_original": "SetsunaYukiOvO/x64dbg-mcp",
@@ -25,6 +82,34 @@
       "C++"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/62491991?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-13-kt-google-play-ai-5000",
+    "title": "KT聯手Google Play推出七月AI訂閱優惠　最高五折再減5000韓元",
+    "title_original": "KT推出7月Google Play訂閱優惠：最高享五折，生成式AI訂閱額外最高减5000韩元 - 디지털투데이",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZ3FQQ2drVFc1aXRCVThqNTJRbklmUmtUbTZoQ0x4SThPYlBWanFPSWxpajZ0MVhxSlpsYUdGekdaZDF2azY1eElOckpkRDhqTUNQZnd5VGR6Vmp4OXBnbW9QTC1aMGFmcXVBc2NLUDZseUVWUUFnV05rYWhLMmk5X2Y0ZDdYVjNRX2JTNGxQMjlzM1dlanB2M21ybjdpRThzd1FpanJMRmtLa180RmJmY24yUVRjY2lp?oc=5",
+    "published_at": "2026-07-13T01:29:32+00:00",
+    "category": "ai-deals",
+    "summary": "KT在七月推出Google Play訂閱優惠活動，指定服務最高享五折優惠，若訂閱生成式AI相關服務可再額外折抵最高5000韓元，補助名額與詳細適用範圍待官方公布。",
+    "highlights": [
+      "Google Play訂閱最高可享50%折扣",
+      "生成式AI訂閱可再減5000韓元",
+      "活動時間限定七月",
+      "需透過KT相關管道或驗證資格",
+      "優惠可與第一項補助方案疊加"
+    ],
+    "why_it_matters": "對同時使用Google Play生態系AI工具的用戶，若能同時滿足兩項補助條件，最高可省下約15000韓元，實際折扣力度取決於個人訂閱組合。",
+    "automation_angle": null,
+    "automation_angle_zh": "可設計腳本追蹤KT與Google Play的優惠窗口期，自動化比對個人AI訂閱組合的實際節省金額。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -55864,6 +55949,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-13-mistral-ai-agent-medium-3-5-swe-bench-77-6",
+    "title": "Mistral AI 發布遠端 Agent 與 Medium 3.5，SWE-Bench 達 77.6%",
+    "title_original": "Mistral AI Launches Remote Agents in Vibe and Mistral Medium 3.5 with 77.6% SWE-Bench Verified Score - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNFRxVHMxYUZsaWFoSUdybXNXRHZ1d0J5M2ZSc2xRd2NGcEhSRC11QmlPMmZ6NGlHMU9JT2dPOHVZeVBqcnc2ZWREUFpTRWY0VjV6NC1ZNl9WSkh4QWRjMVI5M0xjeHBmcTJ5V3pmVDh0UThHeTAzQWVoZjNqRU9KSlVnMUFJSVlkYm5pOTNqbTh4NkFaY2RyU25VQWtzWFhaaUplSmlYOG5YcklfTVdmM0tpWmpzR3QtRl9fNVhyVDZ4VWdrQnQ0N1F0VDRqWWhheF9acE9XSdIB3AFBVV95cUxOaGNzU05WSXNlWXlqOV8zSVc2QWRmQlJGajc0NjFRX0xUQndCcVFtSFdNa01BRUFrNHRXV1ZRQVlucHdpemMyNTdOTmxaNC1fV2lxdkQ5cmhHXzZVTmNGeUdyZ3pkUklIWWh3NGdtXzFBQXhpUnVwSW8wQzhvaDJyWjBMdjlyd3hkaE5kcV92blVqc2dBOEJacDFlOVJQOHA2OGlrdHlHb2VKS3NFSnRyaDVvbzJ1V2JfSV9BUTRSUjBGNUcxRWtxZXRkNUJZZFo0bnVvejJGam5mUFRW?oc=5",
+    "published_at": "2026-05-02T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 宣布在 Vibe 平台推出遠端 Agent，並同步發布 Mistral Medium 3.5 模型。根據 MarkTechPost 報導，該模型在 SWE-Bench Verified 達到 77.6% 分數，為程式碼生成能力的指標性進展。實際效能需独立測試驗證。",
+    "highlights": [
+      "Mistral Medium 3.5 發布，SWE-Bench Verified 達 77.6%",
+      "Vibe 平台支援遠端 Agent 部署",
+      "77.6% 為 SWE-Bench Verified 評測結果",
+      "MarkTechPost 為二級新聞源，原始技術文件待查",
+      "分數領先幅度需與 GPT-4o、Claude 等競品對照"
+    ],
+    "why_it_matters": "SWE-Bench 77.6% 表示程式碼生成與修復能力接近一線水準。若定價低於 GPT-4o，可作為高性價比程式碼 Agent 選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估用 Mistral Medium 3.5 替代或混合現有程式碼生成工具，測試 PR 修復、測試生成等常見開發任務的表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-23-google-deepmind-ai",
     "title": "Google DeepMind 展示醫療 AI 共同臨床醫師開發路径",
     "title_original": "Enabling a new model for healthcare with AI co-clinician",
@@ -61195,6 +61308,34 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-13-google-one",
+    "title": "Google One學生訂閱傳漏洞　灰色管道可免費取得會員",
+    "title_original": "谷歌海外 Google One 学生訂閱现“临時工”，人人可“喜加一”免費會員服务 - 新浪网",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJZTBaUmFyQkNyVklnSVdFcnBfUFZ4ZU5raEs4ZC1NZjRUT1o4bnhUc2p0M0hscFRzd3ZEbnVienRpNnV4U3piOUdEQk82LWZEa3k0U19RN1E5N2U2SFU5WE1CU3I1UE1tTmZrdEJmb2tEa2ZnM2pBVlVCclZIT0k?oc=5",
+    "published_at": "2025-05-06T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "有報導指出中國新浪等平台出現利用學生驗證漏洞透過「臨時工」方式，讓非學生用戶也能取得Google One免費會員資格的灰色操作方式，此途徑存在帳號風險且隨時可能被封禁。",
+    "highlights": [
+      "並非官方合法管道",
+      "依賴學生驗證漏洞",
+      "帳號有被封禁風險",
+      "主要在非官方平台傳播",
+      "不符合編輯方針的灰色優惠"
+    ],
+    "why_it_matters": "技術人員應避免使用此類灰色管道，除了帳號風險外，也可能違反Google服務條款，長期代價高於節省費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "不建議技術人員評估或使用此管道，建議關注官方合法優惠或等待正當途徑取得AI服務折扣。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
