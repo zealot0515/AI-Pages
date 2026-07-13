@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-07-13-ft",
+    "title": "FT 報導：企業轉向中國開源權重模型以降低成本",
+    "title_original": "FT: Companies Turn to Chinese Open Weight Models to Cut Costs",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvenf1/ft_companies_turn_to_chinese_open_weight_models/",
+    "published_at": "2026-07-13T15:23:49+00:00",
+    "category": "open-source-ai",
+    "summary": "Financial Times 報導指出，越來越多企業考慮採用中國開源權重模型（如 Qwen、DeepSeek 等）來降低 AI 部署成本。Reddit r/LocalLLaMA 社區對此展開討論，焦點在成本效益與模型品質的取捨。",
+    "highlights": [
+      "企業關注點在降低 API 與部署成本",
+      "中國開源模型（如 Qwen 系列）進入評估清單",
+      "LLM 本地部署需求持續成長",
+      "性能和合規性仍是企業主要疑慮",
+      "FT 為主流財經媒體，信源可信度較高"
+    ],
+    "why_it_matters": "對技術決策者而言，這代表開源亞洲模型的商業採用率正在上升，可作為內部評估本地部署方案的成本標竿參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 Qwen、DeepSeek 等模型列入 POC 候選清單，針對特定任務（如程式碼生成、文件摘要）與 GPT-4 做性價比對比測試。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-13-15-ai",
     "title": "15款「電子垃圾」顯示卡AI工作負載實測",
     "title_original": "I benchmarked 15 \"E-Waste\" GPUs with Modern Workloads",
@@ -106,6 +134,34 @@
     "automation_angle_zh": "查閱論文原始碼並應用於自有模型的蒸餾流程，評估壓縮前後的MATH/BigBench任務表現差異。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-13-prismml-qwen-3-6-27b-iphone",
+    "title": "PrismML 宣稱突破：Qwen-3.6-27B 壓縮版可在 iPhone 運行",
+    "title_original": "Compressed Version of Qwen-3.6-27B coming from PrismML - Khosla-Backed Startup Claims Breakthrough With Largest-Ever AI Model on an iPhone",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv54fv/compressed_version_of_qwen3627b_coming_from/",
+    "published_at": "2026-07-13T07:59:33+00:00",
+    "category": "open-source-ai",
+    "summary": "PrismML（獲 Khosla 創投支援的新創）宣稱成功將 Qwen-3.6-27B 壓縮至可在 iPhone 上運行的規模，號稱史上最大可在手機端運行的 AI 模型。Reddit 社區對此技術聲明保持觀望，等待實際測試數據。",
+    "highlights": [
+      "Qwen-3.6-27B 為阿里巴巴開源模型（27B 參數）",
+      "PrismML 聲稱突破性壓縮技術",
+      "目標平台為 iPhone（ARM 架構）",
+      "Khosla 創投背書增加可信度但仍待驗證",
+      "尚無公開的 Benchmark 數據支援"
+    ],
+    "why_it_matters": "若屬實，代表行動端可運行更大規模的開源模型，對需要在邊緣設備部署 AI 能力的技術用戶意義重大；但目前聲明未經獨立驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術愛好者可追蹤 PrismML 專案，等待開源釋出後在本地或行動裝置測試其推論速度與任務準確度，評估是否適合離線使用場景。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
@@ -56137,6 +56193,34 @@
     "why_it_matters": "SWE-Bench 77.6% 表示程式碼生成與修復能力接近一線水準。若定價低於 GPT-4o，可作為高性價比程式碼 Agent 選項。",
     "automation_angle": null,
     "automation_angle_zh": "可評估用 Mistral Medium 3.5 替代或混合現有程式碼生成工具，測試 PR 修復、測試生成等常見開發任務的表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-13-mistral-ai-agent-medium-3-5-swe-bench-77-6",
+    "title": "Mistral AI 發布遠端 Agent 與 Medium 3.5，SWE-Bench 達 77.6%",
+    "title_original": "Mistral AI Launches Remote Agents in Vibe and Mistral Medium 3.5 with 77.6% SWE-Bench Verified Score - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNFRxVHMxYUZsaWFoSUdybXNXRHZ1d0J5M2ZSc2xRd2NGcEhSRC11QmlPMmZ6NGlHMU9JT2dPOHVZeVBqcnc2ZWREUFpTRWY0VjV6NC1ZNl9WSkh4QWRjMVI5M0xjeHBmcTJ5V3pmVDh0UThHeTAzQWVoZjNqRU9KSlVnMUFJSVlkYm5pOTNqbTh4NkFaY2RyU25VQWtzWFhaaUplSmlYOG5YcklfTVdmM0tpWmpzR3QtRl9fNVhyVDZ4VWdrQnQ0N1F0VDRqWWhheF9acE9XSdIBjgJBVV95cUxQTlhYVDFLUERieGRSMXZqb2lPSklMcHlHaHYtSy1tOF9hellDNU9wWjg1T0oyOFhDNkhjOUt0N2NJVWNka1NHcnFMamJyMGZxOWdxeE42MUIzSTRjNHNmSHVldFNxdnl1azRKblVPUHRhNXl6ZmtOVHpMOTN3QlUzMzdTTktXYlU5amhqX1l1c28yUXZGbWNMaVJXR0xXRDhhT21KU2YyU0lzUDY3dnVMLWRqMEtHSW1uU3VOQlpHSDRUb3VRZUJObVV0T050OTFSTzRfeXRkcmZsRXpzZTQzMG4wV2MwSjl3RnlweHNZQzRvNDJVU2pSc3pPRm81LTlnR2d3eGoxOG5iWlg1MEE?oc=5",
+    "published_at": "2026-05-02T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 推出 Vibe 平台的遠端 Agent 能力，並同步發布 Mistral Medium 3.5 模型。根據 MarkTechPost 報導，該模型在 SWE-Bench Verified 取得 77.6% 的高分，顯示其軟體工程任務能力的實質提升。",
+    "highlights": [
+      "Mistral Medium 3.5 為旗艦模型更新",
+      "SWE-Bench Verified 77.6% 超越多數開源競品",
+      "支援遠端 Agent 部署（Vibe 平台）",
+      "針對軟體工程任務優化",
+      "可透過 API 或本地部署使用"
+    ],
+    "why_it_matters": "77.6% 的 SWE-Bench 分數代表開源模型在程式碼任務上逼近頂級閉源模型，技術團隊可評估將其作為程式碼生成、審查自動化的骨幹。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 Mistral Medium 3.5 替換現有程式碼補全工具（如 GitHub Copilot 部分功能），或作為 CI/CD 流程中自動化 Code Review 的引擎。",
     "tags": [
       "new-models",
       "rss",
