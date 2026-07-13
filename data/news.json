@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-07-13-15-ai",
+    "title": "15款「電子垃圾」顯示卡AI工作負載實測",
+    "title_original": "I benchmarked 15 \"E-Waste\" GPUs with Modern Workloads",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvcjd0/i_benchmarked_15_ewaste_gpus_with_modern_workloads/",
+    "published_at": "2026-07-13T14:05:18+00:00",
+    "category": "hot-topics",
+    "summary": "技術愛好者對15款老舊/低價顯示卡進行AI推論與訓練工作負載Benchmark。涵蓋NVIDIA GTX 10系列、AMD舊卡等「電子垃圾」級別硬體，實測其在LLM推論、圖像生成等場景的實際效能與性價比。",
+    "highlights": [
+      "測試涵蓋多種老舊GPU型號",
+      "實測LLM推論延遲與吞吐量",
+      "包含Stable Diffusion生成速度",
+      "計算各卡性價比與功耗比",
+      "提供詳細測試數據與方法論"
+    ],
+    "why_it_matters": "對預算有限或需要搭建本地推論伺服器的開發者而言，老舊顯示卡可能是高性價比選擇。實測數據可作為硬體採購決策參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據測試結果評估是否採購特定老卡用於本地推論農場，例如在預算限制下最大化並髑式部署密度。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-13-klinepic-agent-api-examples-k-mcp-server",
+    "title": "klinepic-agent-api-examples：券商/交易所成交資料轉K線圖的MCP Server範例",
+    "title_original": "sher1096/klinepic-agent-api-examples",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sher1096/klinepic-agent-api-examples",
+    "published_at": "2026-07-13T13:43:51Z",
+    "category": "open-source-ai",
+    "summary": "GitHub專案提供MCP Server與OpenAPI範例，讓AI Agent能將券商或交易所的成交資料自動轉換為帶註解的K線圖，屬技術原型階段， stars僅20，語言為JavaScript。",
+    "highlights": [
+      "MCP（Model Context Protocol）Server實現",
+      "支援將成交資料結構化並視覺化",
+      "可作為金融Agent工具鏈的參考範本",
+      "目前stars 20，成熟度待觀察",
+      "JavaScript實現，相容現代Node.js生態"
+    ],
+    "why_it_matters": "金融場景的Agent化是高價值應用方向，此專案展示了「成交資料→圖表」的自動化雛形，技術宅可借鑒其架構自建客製化交易回測Agent。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此MCP Server整合進自有的交易分析工作流程，實現「每日成交通知→自動生成K線圖並標註關鍵點」的半自動化流程。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/60468314?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-13-ai",
+    "title": "智譜創始人支援開源AI，全球安全爭論加劇",
+    "title_original": "Zhipu founder backs open-source AI as global security debate intensifies",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvbgvx/zhipu_founder_backs_opensource_ai_as_global/",
+    "published_at": "2026-07-13T13:23:29+00:00",
+    "category": "open-source-ai",
+    "summary": "智譜AI（中國知名大模型公司）創始人公開支援開源AI發展，表示開源模型有助於全球AI安全研究與協作。此立場與近期各國政府對開源模型的安全審查形成對比，反映出產業界對開源生態的不同聲音。",
+    "highlights": [
+      "智譜AI為中國头部大模型廠商，其創始人公開支援開源",
+      "發言背景為全球各國加強AI安全監管之際",
+      "支援者認為開源可促進安全研究透明度",
+      "批評者擔憂開源模型可能被濫用",
+      "此發言在Reddit社群引發熱烈討論"
+    ],
+    "why_it_matters": "開源AI政策走向直接影響開發者能否自由部署與微調模型。智譜作為中國代表廠商的表態，值得追蹤其是否會付諸實際開源行動。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注智譜後續是否開源其GLM系列模型，若開源可直接部署於私有環境，省去API調用成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-13-flint",
+    "title": "Flint研究：壓縮推論模型不破壞能力",
+    "title_original": "[Study/Models] Flint: Compressing Reasoning Without Breaking It",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uv9o2u/studymodels_flint_compressing_reasoning_without/",
+    "published_at": "2026-07-13T12:05:42+00:00",
+    "category": "new-models",
+    "summary": "學術研究提出Flint方法，可在保持推論能力的條件下壓縮語言模型。該研究針對現有壓縮技術會損害模型多步推論能力的問題，提出新的蒸餾與量化方案。",
+    "highlights": [
+      "研究目標為解決壓縮後推論能力下降問題",
+      "適用於需要Chain-of-Thought的任務",
+      "提出新的蒸餾與量化方法",
+      "可與現有開源模型結合使用",
+      "發布於Reddit引發技術社群討論"
+    ],
+    "why_it_matters": "壓縮推論模型對部署成本影響巨大，若Flint方法有效，可將大模型部署至更低成本的硬體，同時保持問題解決能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "查閱論文原始碼並應用於自有模型的蒸餾流程，評估壓縮前後的MATH/BigBench任務表現差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-13-kt-ai-1",
     "title": "韓國電信KT推出生成式AI訂閱補助方案　最高可抵1萬韓元",
     "title_original": "KT開始打折生成型人工智慧(AI)和日常訂閱服务。 其战略是,對聊天GPT和雲等生成型AI服务最多支援1万韩元,對普通訂閱服务最多優惠5000韩元,擴大手机结算服务\"KT内容支付\"的使用。13日,KT.. - 매일경제",
@@ -19,6 +132,34 @@
     "why_it_matters": "對於在韓國使用生成式AI服務的技術人員而言，這是可疊加省費用的機會，尤其若同時使用多個AI訂閱服務，累積補助可觀。",
     "automation_angle": null,
     "automation_angle_zh": "技術人員可整合KT行動支付服務，系統化管理多個AI訂閱的費用，評估補助後的實際月費成本。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-13-30-ai-ai",
+    "title": "韓亞信用卡推出30種AI服務統一訂閱「AI智慧包」，一帳戶跨平台使用",
+    "title_original": "韩亚信用卡13日表示,推出了可以在一個平台上使用ChatGPT、谷歌Gemini、Claude、Grok等30种高級人工智慧(AI)服务的收费訂閱服务\"AI智能包\"AI智能包的特点是,通過一個账户可以.. - 매일경제",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2RkxpSWFxNlBLNldkOVVpRWJIZE5OTEZZb2tsSklLTTR6d1huOWhjSHV3bVM5aEhTZW92eFBpMzdGTGtQeEJHZEZoNXNwU1V6dlE?oc=5",
+    "published_at": "2026-07-13T06:28:32+00:00",
+    "category": "ai-deals",
+    "summary": "韓亞信用卡宣布推出「AI智慧包」訂閱服務，可透過單一帳戶使用ChatGPT、Google Gemini、Claude、Grok等30種AI服務。屬南韓金融機構的行銷訂閱方案，具體定價與可用地區需進一步查證。",
+    "highlights": [
+      "整合30種主流AI服務的統一入口",
+      "由金融機構背書的行銷訂閱方案",
+      "目標用戶為一般消費者，非企業開發者",
+      "詳細定價與限制條款待確認",
+      "可能存在使用額度或地區限制"
+    ],
+    "why_it_matters": "對技術用戶而言，此類統合訂閱可能比個別訂閱更划算，但需注意實際使用額度與隱私政策，建議評估是否適合自己使用情境。",
+    "automation_angle": null,
+    "automation_angle_zh": "若在韓國或有韓國帳戶，可評估此統合方案是否優於個別訂閱API或Pro訂閱，計算成本節省幅度後決定是否採用。",
     "tags": [
       "ai-deals",
       "rss",
@@ -1618,6 +1759,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-13-chatgpt",
+    "title": "ChatGPT新手入門官方指南",
+    "title_original": "Getting started with ChatGPT",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/academy/getting-started",
+    "published_at": "2026-07-10T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI官方部落格發布ChatGPT基礎使用教學，包含對話起始、寫作頭腦風暴、問題求解等基本功能說明。屬基礎操作指南，非新功能或技術深度內容。",
+    "highlights": [
+      "OpenAI官方發布，可信度高",
+      "內容為基礎入門，無新功能揭露",
+      "涵蓋對話、寫作、腦力激盪場景",
+      "主要面向一般消費者用戶",
+      "技術價值有限，不建議技術用戶深入閱讀"
+    ],
+    "why_it_matters": "此內容屬基礎操作指南，對已熟悉AI工具的技術用戶無實質幫助，價值有限。建議時間用在更具技術深度的資源上。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可跳過此內容，直接查閱API文件或進階使用案例以提升工作效率。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-07-10-koboldcpp-v1-117",
