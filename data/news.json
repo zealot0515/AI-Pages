@@ -1,5 +1,309 @@
 [
   {
+    "id": "2026-07-14-atlassian-skills-cli-llm-agent-jira-confluence-bitbucket",
+    "title": "atlassian-skills：輕量 CLI 工具，讓 LLM Agent 高效操控 Jira / Confluence / Bitbucket",
+    "title_original": "eunsanMountain/atlassian-skills",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/eunsanMountain/atlassian-skills",
+    "published_at": "2026-07-14T01:29:02Z",
+    "category": "agent-skills",
+    "summary": "atlassian-skills 是一款針對 Atlassian Server/DC（Jira、Confluence、Bitbucket）的輕量 CLI 工具，以 lossless XHTML Markdown 來回格式支援 LLM Agent 讀寫，號稱是 mcp-atlassian 的精簡替代方案，支援 Claude Code、Codex、GitHub Copilot。",
+    "highlights": [
+      "支援 Jira、Confluence、Bitbucket 三合一",
+      "lossless XHTML Markdown 格式避免資訊損失",
+      "比 mcp-atlassian 更緊湊，token 消耗更低",
+      "支援 Claude Code、Codex、GitHub Copilot",
+      "適合企業內部自架 Atlassian 的 AI 自動化場景"
+    ],
+    "why_it_matters": "若企業使用自架的 Atlassian Server 而非雲端版，現有 MCP 方案往往缺失或笨重，atlassian-skills 填補了這一缺口，讓 LLM Agent 能高效操作企業內部的專案管理工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Jira ticket 建立、Confluence 頁面更新或 Bitbucket 程式碼庫操作等重複性流程中接入此 CLI，可大幅降低手動操作 Atlassian 的時間成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/46332431?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-rea-mcp",
+    "title": "rea: MCP 逆向工程工具，可透視任意二進制應用",
+    "title_original": "morluto/rea",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/morluto/rea",
+    "published_at": "2026-07-14T01:13:19Z",
+    "category": "open-source-ai",
+    "summary": "rea 是一款開源逆向工程 CLI，整合 MCP 伺服器，能完整解析任意應用的二進制層級結構。已獲 53 顆 GitHub 星標，使用 TypeScript 開發。",
+    "highlights": [
+      "整合 MCP 協議，支援 agent 串接",
+      "可深度解析應用二進制結構",
+      "CLI 工具形式，易於整合進工作流程",
+      "TypeScript 實作，可擴展性高"
+    ],
+    "why_it_matters": "逆向工程能力直接影響安全研究、系統除錯與第三方整合效率。此工具將複雜的二進制分析流程標準化，值得技術人員評估其實用邊界。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將 rea 整合進 CI/CD 流程，自動化第三方 SDK 的合規性檢測或逆向還原。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/76467478?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-quickdesk-ai-mcp-server-ai-agent",
+    "title": "QuickDesk：首款 AI 原生遠端桌面 MCP Server，讓 AI Agent 直接控制電腦",
+    "title_original": "barry-ran/QuickDesk",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/barry-ran/QuickDesk",
+    "published_at": "2026-07-14T01:04:03Z",
+    "category": "agent-skills",
+    "summary": "QuickDesk 是一款開源 AI 原生遠端桌面應用，內建 MCP Server，可讓任何 AI Agent 直接觀看並控制遠端電腦介面。使用 QML 開發，目前 GitHub 已有 305 stars，強調免費與開源。",
+    "highlights": [
+      "首個內建 MCP Server 的 AI 原生遠端桌面工具",
+      "任何支援 MCP 的 AI Agent 皆可接入控制電腦",
+      "QML 開發，跨平台潛力",
+      "開源免費，305 stars 顯示社群關注度不低",
+      "可用於遠端自動化、跨機操作場景"
+    ],
+    "why_it_matters": "QuickDesk 將遠端桌面與 MCP 協議結合，讓 AI Agent 能像人一樣操作 GUI 介面，為「讓 AI 控制你電腦」的場景提供了開源即用的實作範例。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 QuickDesk 部署為 AI Agent 的「眼睛和手」，用於自動化跨機器測試、批量 GUI 操作，或作為遠端工作站的管理介面。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "QML"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/18702692?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-spettro-go-agent",
+    "title": "Spettro：Go 語言打造的終端機程式開發助理，支援多 Agent 工作流程",
+    "title_original": "Aploide/spettro",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Aploide/spettro",
+    "published_at": "2026-07-14T01:02:21Z",
+    "category": "agent-skills",
+    "summary": "Spettro 是一款用 Go 開發的終端機程式開發助理，支援多 Agent 工作流程自動化規劃、編碼、測試流程，並可連接本地與遠端 AI Provider，具備對話歷史管理功能。",
+    "highlights": [
+      "Go 語言開發，原生高效能",
+      "多 Agent 協作：規劃 → 編碼 → 測試自動化",
+      "支援本地與遠端 AI Provider 接入",
+      "對話歷史管理，方便回溯",
+      "終端機優先，適合 CLI 環境下的技術用戶"
+    ],
+    "why_it_matters": "Spettro 將多 Agent 協作概念落地到終端環境，讓開發者能在 CLI 流程中直接用 AI 輔助編碼與測試，提升從構想到驗證的迴圈速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 CI/CD pipeline 或本地開發腳本中嵌入 Spettro，可讓 AI 自動處理重複性的程式碼產生與單元測試生成，降低手動開發成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/174396085?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-github-actions-uvx",
+    "title": "GitHub Actions 緩存友好技巧：uvx 環境變數定址方案",
+    "title_original": "Using uvx in GitHub Actions in a cache-friendly way",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything",
+    "published_at": "2026-07-14T00:56:20+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 分享在 GitHub Actions 中以 UV_EXCLUDE_NEWER 環境變數搭配快取鍵的技巧，避免每次 workflow 執行都從 PyPI 下載工具與依賴。",
+    "highlights": [
+      "設定 UV_EXCLUDE_NEWER 為固定日期",
+      "該日期納入 GitHub Actions 快取鍵",
+      "日後更新只需修改日期值即可強制刷新",
+      "大幅減少 PyPI 網路請求與 workflow 時間"
+    ],
+    "why_it_matters": "CI/CD 效率直接影响開發迭代速度。此技巧讓 Python 工具在 GitHub Actions 中的使用更高效，是技術人員應立即採用的工作流程優化。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此模式套用到所有使用 uvx 的 GitHub Actions workflow，評估快取命中率的提升幅度並計算 CI 時間節省。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-14-reddit-excel-llm",
+    "title": "Reddit討論：Excel工作該選用哪個LLM模型？",
+    "title_original": "Excel work - best model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvs9vp/excel_work_best_model/",
+    "published_at": "2026-07-13T23:45:39+00:00",
+    "category": "hot-topics",
+    "summary": "LocalLLaMA子版塊有使用者提問，針對Excel資料處理任務應選擇哪個語言模型效果最佳。討論區回應普遍建議需根據任務類型（公式生成、資料清理、圖表製作）選擇不同模型，並提到長上下文窗口對處理大型試算表的重要性。",
+    "highlights": [
+      "問題聚焦於Excel工作場景的模型選擇",
+      "回應建議依任務類型區分模型用途",
+      "長上下文處理能力被強調為關鍵指標",
+      "討論內容為社群經驗分享，缺乏系統性 benchmark 數據"
+    ],
+    "why_it_matters": "對需要將AI整合進Excel工作流程程的技術人員而言，此討論提供了實務參考，但讀者需自行驗證不同模型在具體場景的實際表現。",
+    "automation_angle": null,
+    "automation_angle_zh": "可根據討論提到的任務分類，先在本地部署2-3個候選模型，用同一份Excel測試檔案進行語法正確率與執行效率的對比測試，篩選最適合自己工作流程的模型。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-doomql-gpt-5-6-sol-sql-doom",
+    "title": "DOOMQL：用 GPT-5.6 Sol 實作全 SQL 引擎的類 DOOM 遊戲",
+    "title_original": "DOOMQL",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
+    "published_at": "2026-07-13T22:34:41+00:00",
+    "category": "agent-skills",
+    "summary": "開發者 Peter Gostev 以 GPT-5.6 Sol 建構 DOOMQL，用 SQLite 替代遊戲引擎。SQL 掌控移動、碰撞、敵人、戰鬥、進度與所有 RGB 像素。",
+    "highlights": [
+      "整個遊戲邏輯由 SQL 遞迴 CTE 實作",
+      "含完整 ray tracer 的巨型 SQL 查詢",
+      "可透過 Datasette Apps 視覺化遊戲狀態",
+      "展示 AI 程式生成非傳統架構的潛力"
+    ],
+    "why_it_matters": "此專案突破傳統程式設計邊界，驗證 AI 生成極限架構的能力。對評估 AI 在創意工程任務上的邊界有重要參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可 fork 此專案，將 SQL 遊戲引擎概念應用於資料驅動的視覺化工具，快速原型驗證複雜 SQL 查詢的視覺輸出。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-voice-ai",
+    "title": "自架語音代理方案崛起：本地化 voice AI 新進展",
+    "title_original": "Self-hosted voice for any agent/harness of your choice (open-source)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvq9ke/selfhosted_voice_for_any_agentharness_of_your/",
+    "published_at": "2026-07-13T22:21:53+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 社群討論自架語音方案，支援任意 agent 或 harness。本地化 voice AI 可降低成本並提升隱私，成為開源 harness 的熱門方向。",
+    "highlights": [
+      "完全本地部署，無雲端依賴",
+      "支援多種 agent/harness 框架",
+      "降低語音 AI 的 API 成本",
+      "提升資料隱私與回應延遲控制"
+    ],
+    "why_it_matters": "語音代理成本居高不下，本地化方案提供替代路徑。對需要低延遲或資料主權的應用場景，此方向值得追蹤。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用此方案為內部客服或會議記錄工具自建語音介面，評估本地模型與商業 API 的品質/成本比。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-j-wash-anthropic-jacobian-lens-llm",
+    "title": "J-Wash：基於Anthropic Jacobian-Lens的LLM客製化新方法",
+    "title_original": "J-Wash: A novel way to brainwash and customize large language models based on Anthropic's Jacobian-Lens!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvq1i3/jwash_a_novel_way_to_brainwash_and_customize/",
+    "published_at": "2026-07-13T22:12:52+00:00",
+    "category": "open-source-ai",
+    "summary": "研究者在Reddit分享J-Wash技術，號稱能以Jacobian-Lens分析為基礎，對大型語言模型進行「洗脑」式行為定制。此方法透過計算模型輸出對輸入的梯度敏感度，達到精準調整模型性格與回應風格的目的。",
+    "highlights": [
+      "利用Anthropic發表的Jacobian-Lens梯度分析方法",
+      "聲稱可對模型進行細緻的行為客製化",
+      "技術原理涉及輸出對輸入的敏感度計算",
+      "目前僅見Reddit社群討論，尚未有正式論文或官方驗證"
+    ],
+    "why_it_matters": "若此方法屬實，可提供比傳統fine-tuning更輕量的模型行為調整方案，對需要客製化LLM行為但缺乏訓練資源的開發者具有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可先在本地LLM（如Llama）上實現Jacobian計算，評估此方法是否能有效改變模型輸出的數值向量方向，進而驗證「洗脑」效果是否顯著。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-simon-willison-ai-agent-github",
+    "title": "Simon Willison 實證：AI 編碼 agent 時代 GitHub 提交量暴增",
+    "title_original": "datasette code-frequency chart on GitHub",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
+    "published_at": "2026-07-13T21:45:27+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 分析 Datasette 專案 GitHub 提交頻率圖，發現 Opus 4.8、GPT-5.5、Fable 5 與 GPT-5.6 Sol 等模型發布後，程式碼變更量出現顯著峰值。",
+    "highlights": [
+      "提交頻率圖直觀呈現 AI 工具對個人產出的影響",
+      "峰值與旗艦模型發布時間高度吻合",
+      "反映 AI 輔助編程已進入實質產出階段",
+      "Datasette 作為真實開源專案的量化樣本"
+    ],
+    "why_it_matters": "此圖為 AI 編碼工具實際效益提供量化證據。技術人員可據此評估哪些模型對自身工作流程最具實質提升。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可參考此方法，用 GitHub API 為自己或團隊專案建立類似的程式碼產出追蹤，量化 AI 工具投資報酬率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-14-harness-localllama",
+    "title": "本地模型與開源 harness 的剛需：LocalLLaMA 社群反思",
+    "title_original": "This is why we need local models and opensource harnesses",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvlwz0/this_is_why_we_need_local_models_and_opensource/",
+    "published_at": "2026-07-13T19:41:33+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 討論熱議本地模型與開源 harness 的必要性。發文者強調資料主權、延遲控制與成本可控性是驅動本地部署的核心動力。",
+    "highlights": [
+      "資料不出網路的合規需求",
+      "企業內網低延遲場景",
+      "避免商業 API 漲價風險",
+      "開源 harness 提供模型可控性"
+    ],
+    "why_it_matters": "隨著商業 AI API 成本波動，本地部署的戰略價值持續提升。對有長期 AI 基礎設施規劃的技術團隊，此討論提供决策參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可借此評估內部 AI 任務分層：哪些適合商業 API、哪些應遷移至本地開源模型，優化整體成本架構。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-13-ft",
     "title": "FT 報導：企業轉向中國開源權重模型以降低成本",
     "title_original": "FT: Companies Turn to Chinese Open Weight Models to Cut Costs",
