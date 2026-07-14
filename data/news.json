@@ -1,5 +1,172 @@
 [
   {
+    "id": "2026-07-14-zig-llm",
+    "title": "開發者自製 Zig 語言 LLM 推論伺服器，效能宣稱最快",
+    "title_original": "I got tired of waiting for model support, so I spent a few months writing my own LLM server in Zig. It's now the fastest.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwhakx/i_got_tired_of_waiting_for_model_support_so_i/",
+    "published_at": "2026-07-14T18:37:33+00:00",
+    "category": "open-source-ai",
+    "summary": "一位開發者因不满現有框架對特定模型支援不足，花費數月時間用 Zig 語言重寫完整 LLM 推論伺服器。根據其自行測試，效能已超越 llama.cpp、vLLM 等主流方案。Zig 的低層控制能力與手動記憶體管理被認為是效能領先的關鍵因素。代碼已開源於 GitHub，技術社群正進行獨立驗證。",
+    "highlights": [
+      "開發者以 Zig 語言從零實現 LLM 推論伺服器",
+      "作者聲稱效能超越 llama.cpp、vLLM 等主流框架",
+      "動機源於對現有框架模型支援速度的不滿",
+      "Zig 的低層記憶體控制與無运行時特性助攻效能",
+      "代碼已開源，正等待社群驗證 benchmark 結果"
+    ],
+    "why_it_matters": "Zig 實現若經獨立驗證屬實，可能為需要極致延遲或高吞吐量的技術團隊提供全新推論引擎選項。其開源性質允許深度定制與嵌入現有系統，有潛力改變本地推論部署的效能基準。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可檢視該 Zig 專案的 GitHub 原始碼，了解其 KV Cache 與矩陣運算優化策略。若效能屬實，可整合進自家部署腳本或 Docker 容器，替換現有 llama.cpp 以提升推論速度並評估延遲改善幅度。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-armin-ronacher",
+    "title": "Armin Ronacher：代理時代的軟體知識傳遞與摩擦",
+    "title_original": "Quoting Armin Ronacher",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything",
+    "published_at": "2026-07-14T18:04:23+00:00",
+    "category": "hot-topics",
+    "summary": "Armin Ronacher 指出軟體專案的共享語言存在於共同理解而非文件，代理工具興起前，修改他人程式碼的摩擦本身就是知識傳遞與同步的過程。",
+    "highlights": [
+      "軟體概念邊界與不變量需靠實際協作維護",
+      "代理時代可能繞過傳統知識傳遞環節",
+      "部分摩擦是浪費，部分是必要的理解沉澱",
+      "對代理程式改動他人程式碼的能力提出反思"
+    ],
+    "why_it_matters": "為 AI 代理輔助程式設計提供軟體工程視角：便利性與知識傳遞之間需要取捨，不能只追求速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "在團隊中建立代理程式修改程式碼的審查流程，避免快速但破壞性的變更。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-bonsai-27b-1-bit-dense-llm-webgpu",
+    "title": "Bonsai 27B：1-bit 量化dense LLM 實現瀏覽器端 WebGPU 推論",
+    "title_original": "Bonsai 27B: 1-bit dense LLM running locally in your browser using custom WebGPU kernels",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwfva9/bonsai_27b_1bit_dense_llm_running_locally_in_your/",
+    "published_at": "2026-07-14T17:48:27+00:00",
+    "category": "open-source-ai",
+    "summary": "Bonsai 27B 為一款採用 1-bit 權重压缩的dense大型語言模型，能在瀏覽器環境中透過自定義 WebGPU kernels 運行。該專案展示极端量化技術與瀏覽器端推論的結合可行性，模型大小大幅压縮後可在一般設備的瀏覽器標籤頁中執行生成任務。團隊公開了核心实现细节與 WebGPU 優化策略。",
+    "highlights": [
+      "Bonsai 27B 採用 1-bit 量化技術，大幅减少模型體積",
+      "使用自定義 WebGPU kernels 實現瀏覽器端推論",
+      "無需伺服器即可在瀏覽器中運行完整 27B 模型",
+      "极端量化可能伴随精度损失，需實際測試輸出品質",
+      "專案公開实现代码與技术博客"
+    ],
+    "why_it_matters": "瀏覽器端 1-bit LLM 推論象徵著模型部署的硬體門檻降至最低。技術人員可在無 GPU 環境下透過瀏覽器使用模型，未來有望整合進 Web 應用、瀏覽器插件或離線工具，實現真正的零基礎設施 AI 功能。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可直接在瀏覽器中開啟專案 Demo，測試 1-bit 量化後的生成品質與響應延遲。若精度损失可接受，可評估將此技術用於客服對話、文件摘要等瀏覽器端自動化場景，零成本部署 AI 功能。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-langchain-langsmith-traces-agent",
+    "title": "LangChain 教學：用 LangSmith Traces 破解程式碼 Agent 黑盒",
+    "title_original": "How to Debug Coding Agents with LangSmith Traces",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/your-coding-agents-are-a-black-box-heres-how-to-crack-them-open",
+    "published_at": "2026-07-14T16:05:06+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 部落格詳細說明如何透過 LangSmith Traces 追蹤 Claude Code、Codex、Cursor、Copilot 等程式碼 Agent 的工具呼叫、子代理錯誤、花費與重試次數，幫助開發者除錯與優化 Agent 執行流程。",
+    "highlights": [
+      "支援跨多款主流程式碼 Agent 的追蹤",
+      "可檢視 tool calls、subagents、錯誤與重試鏈",
+      "提供成本與 Token 消耗的即時視覺化",
+      "有助於定位 Agent 行為不符合預期的根因",
+      "屬於 LangSmith 生態，需具備相關帳號"
+    ],
+    "why_it_matters": "程式碼 Agent 在生產環境中若缺乏可觀測性，出錯時難以回溯，LangSmith Traces 提供統一的除錯視角，節省除錯時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 CI/CD pipeline 中接入 LangSmith Traces，自動化收集每次程式碼生成任務的成本與錯誤率，作為模型或 Agent 配置調整的依據。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-14-libr-ai-openredteaming",
+    "title": "Libr-AI/OpenRedTeaming：開源紅隊論文與工具集",
+    "title_original": "Libr-AI/OpenRedTeaming",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Libr-AI/OpenRedTeaming",
+    "published_at": "2026-07-14T15:40:55Z",
+    "category": "open-source-ai",
+    "summary": "OpenRedTeaming 專案收錄 LLM 與多模態模型紅隊研究論文與相關工具，目前在 GitHub 累積 172 顆星。內容涵蓋對抗Prompt注入、安全評測方法論與模型魯棒性檢測，屬於學術導向的工具庫。",
+    "highlights": [
+      "收錄多篇 LLM 紅隊研究論文",
+      "涵蓋多模態模型的對抗測試方法",
+      "GitHub 172 stars，社群關注度中等",
+      "工具導向，可用於模型安全評估流程",
+      "適合研究者或安全團隊建立內部測試基準"
+    ],
+    "why_it_matters": "部署 LLM 到生產環境前，紅隊測試可發現模型濫用風險與安全漏洞，是 AI 安全合規的重要一環。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 OpenRedTeaming 中的Prompt注入範例整合到 CI/CD 流程中，每次模型更新時自動執行安全回歸測試。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/133515165?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-kat-coder-air-v2-5",
+    "title": "KAT-Coder-Air V2.5 即將開源模型發布",
+    "title_original": "KAT-Coder-Air V2.5 - Open model soon",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwbe7w/katcoderair_v25_open_model_soon/",
+    "published_at": "2026-07-14T15:09:00+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社區傳出 KAT-Coder-Air V2.5 即將開源的消息。根據貼文內容，開發者預告新版模型即將發布，但尚未公布具體技術規格與效能數據。此版本預期將延續前代在程式碼任務上的優勢，並擴展開源模型的應用範疇。技術社群正密切關注後續官方公告與模型權重釋出時間。",
+    "highlights": [
+      "KAT-Coder-Air V2.5 預告即將開源，尚未提供詳細技術規格",
+      "開發者在 LocalLLaMA 社群主動預熱，社群反應熱烈",
+      "預期維持前代在程式碼生成任務上的核心能力",
+      "具體發布時間與模型架構細節仍待確認",
+      "開源屬性將有利於本地部署與自定義微調"
+    ],
+    "why_it_matters": "若如期開源，KAT-Coder-Air V2.5 可為需要本地程式碼模型的技術人員提供新選擇。其開源特性允許免費部署、整合進個人工作流程，並支援企業內網自托管以降低 API 成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可在模型正式開源後下載 GGUF/FP16 格式權重，透過 ollama 或 LM Studio 本地部署，用於自動化 Code Review、脚本生成或 IDE 輔助編程任務，並實測與現有模型的成本效益比較。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-14-vibesurfer-llm-mcp",
     "title": "vibesurfer：專為 LLM 設計的無頭瀏覽器 MCP 工具",
     "title_original": "frane/vibesurfer",
@@ -111,6 +278,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-14-openai-agent-ai",
+    "title": "OpenAI 部落格：Agent 時代的 AI 投資管理策略",
+    "title_original": "How to manage AI investments in the agentic era",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+    "published_at": "2026-07-14T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格提出企業在 Agent 時代衡量 AI 投資效益的框架，建議以「每美元完成的工作量」為指標，優化效率並規模化高價值工作流程程。內容偏策略指導，非技術實作細節。",
+    "highlights": [
+      "以『有用工作/美元』衡量 AI 投資回報",
+      "強調識別高價值工作流程程優先自動化",
+      "建議建立成本追蹤與效率監控機制",
+      "內容屬企業策略層面，非工程實作",
+      "可作為內部 AI 專案提案的論述參考"
+    ],
+    "why_it_matters": "對技術決策者而言，了解 ROI 衡量框架有助於向管理層論證 AI 專案價值，爭取預算與資源。",
+    "automation_angle": null,
+    "automation_angle_zh": "採用部落格建議的「工作/美元」指標，建立內部儀表板追蹤 AI 工作流程（如客服 Bot、程式碼生成）的實際產出與成本比。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-14-hermes-agent-llm",
     "title": "Hermes Agent支援本地LLM部署實作",
     "title_original": "Hermes Agent with local LLMs",
@@ -165,6 +360,33 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/61988662?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-item",
+    "title": "社群討論：大廠模型價格與蒸餾替代方案爭議",
+    "title_original": "I just don't get it. These big tech companies can illegally scrape the entire internet and gatekeep their better models behind higher prices. So it's natural that people look for affordable options, and there will be providers who apparently distill models from them.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvwn9q/i_just_dont_get_it_these_big_tech_companies_can/",
+    "published_at": "2026-07-14T03:01:38+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit LocalLLaMA 討論區熱議：大廠模型高價門檻與未經授權的網路抓取行為，催生蒸餾模型供應商的出現，用戶尋求更實惠的替代方案。",
+    "highlights": [
+      "大廠旗艦模型定價持續攀升",
+      "社群對未授權資料抓取合法性存疑",
+      "蒸餾模型成為灰色地帶替代方案",
+      "反映開源社群對成本與可近性的關切"
+    ],
+    "why_it_matters": "模型定價策略與蒸餾技術正在重塑 AI 產業格局，技術決策者需關注合規風險與成本最佳化平衡。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估自託管蒸餾模型的成本效益時，需同步考量法律風險與模型品質衰減程度。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -2065,6 +2287,33 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-github-copilot",
+    "title": "GitHub Copilot 代理自動修復程式碼掃描警報 公開預覽",
+    "title_original": "Agentic autofix for code scanning alerts in public preview",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-10-agentic-autofix-for-code-scanning-alerts-in-public-preview",
+    "published_at": "2026-07-10T15:49:21+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布 Copilot Agentic Autofix 進入公開預覽階段，可自動修復程式碼掃描警報。系統會像開發者一樣探索相關檔案、提出修復方案並說明理由。",
+    "highlights": [
+      "支援跨檔案修復，能理解程式碼上下文與依賴關係",
+      "提供修復理由說明，非黑箱修改",
+      "目前為公開預覽，功能可能仍有變動",
+      "可與現有 GitHub Actions 工作流程程整合"
+    ],
+    "why_it_matters": "將安全漏洞修復從人工排查轉為自動化流程，大幅降低開發者處理 SARIF 警報的時間成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在 CI/CD pipeline 中啟用，自動對新提交的程式碼進行安全修復測試，評估修復品質與覆蓋率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-07-10-reddit-databricks-pi-coding-agent-codex",
