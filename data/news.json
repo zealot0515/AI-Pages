@@ -1,5 +1,116 @@
 [
   {
+    "id": "2026-07-14-vibesurfer-llm-mcp",
+    "title": "vibesurfer：專為 LLM 設計的無頭瀏覽器 MCP 工具",
+    "title_original": "frane/vibesurfer",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/frane/vibesurfer",
+    "published_at": "2026-07-14T13:04:31Z",
+    "category": "agent-skills",
+    "summary": "vibesurfer 是以 Rust 實作的無頭瀏覽器專案，目標用戶是 AI Agent 而非人類，支援 WKWebView、WebKitGTK、WebView2 等多種渲染引擎，提供行導向的 Wire Protocol 與 MCP 伺服器介面，目前僅 11 顆星。",
+    "highlights": [
+      "專為 Agent 設計，輸出格式為行導向而非 HTML",
+      "支援三大跨平台渲染引擎：WKWebView、WebKitGTK、WebView2",
+      "提供 CLI 介面與 MCP 協定整合，可直接接入 Agent 工具鏈",
+      "專案新穎，社群關注度低，成熟度未知",
+      "Rust 實作理論上效能與記憶體效率較佳"
+    ],
+    "why_it_matters": "Agent 需要可靠的網頁擷取與操作能力，vibesurfer 的無頭瀏覽器方案若能穩定提供結搔化輸出，可簡化現有的爬蟲或頁面解析流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "在測試環境部署後，用於讓 Agent 自動抓取動態網頁內容並提取結構化資料，評估其對 JavaScript 渲染頁面的支援程度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/35420?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-github-copilot",
+    "title": "GitHub Copilot 應用程式新增安全性程式碼審查功能",
+    "title_original": "Security reviews now available in the GitHub Copilot app",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
+    "published_at": "2026-07-14T12:54:12+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方宣布 Copilot 應用程式已支援安全性程式碼審查功能，使用者可在程式碼變更進行中直接呼叫 /security-review 斜線指令，系統將對差異內容進行安全掃描，目前為公開預覽狀態。",
+    "highlights": [
+      "官方 GitHub 部落格公告，功能已上線公開預覽",
+      "/security-review 指令可在 Copilot 應用程式內直接使用",
+      "掃描目標為正在進行中的程式碼差異，而非整個儲存庫",
+      "可用於 CI/CD 流程中嵌入安全審查關卡",
+      "預覽階段功能範圍與準確度可能仍有限制"
+    ],
+    "why_it_matters": "將安全審查整合進日常編碼流程，而非留到獨立的安全掃描階段，可大幅降低漏洞進入正式環境的機會，是 Developer Workflow 自動化的實質進展。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 pull request 審查流程中啟用 Copilot /security-review，自動檢查提交的程式碼差異是否包含 OWASP 常見漏洞類型。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-14-agentic",
+    "title": "論文：單次回合非同步優化用於 Agentic 強化學習",
+    "title_original": "[2607.07508] Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw7rm8/260707508_singlerollout_asynchronous_optimization/",
+    "published_at": "2026-07-14T12:49:57+00:00",
+    "category": "agent-skills",
+    "summary": "研究提出 Single-Rollout Asynchronous Optimization 方法，讓強化學習 Agent 在單次回合互動中即時更新策略，無需等待完整回合結束。該方法專為 Agentic 流程設計，可顯著加速長時序、多步驟任務的訓練收斂，適用於需要即時反饋的自動化場景。",
+    "highlights": [
+      "突破傳統 RL 需等待完整回合結束的瓶頸",
+      "非同步更新機制可減少訓練等待時間",
+      "針對 Agentic（多步驟任務型）流程優化",
+      "有望提升自動化 Agent 的訓練效率與迭代速度"
+    ],
+    "why_it_matters": "對於開發自動化 Agent 的技術使用者，訓練效率直接影響開發迭代速度。此方法若經實證，可大幅縮短 Agent 從設計到部署的週期。",
+    "automation_angle": null,
+    "automation_angle_zh": "AI 工程師可關注此論文實驗設定，評估將非同步更新機制引入自家 Agent 框架的可行性，測試在長時序任務（如自動化測試、資料處理管線）上的收斂效果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-reddit-rl-qwen3-6-35b-a3b",
+    "title": "Reddit 用戶開源：使用 RL 訓練 Qwen3.6-35B-A3B 蒸餾小型任務專用模型",
+    "title_original": "I RL-trained Qwen3.6-35B-A3B to RL-train small task-specific Qwen models. Fully open source! 🤓",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uw7oys/i_rltrained_qwen3635ba3b_to_rltrain_small/",
+    "published_at": "2026-07-14T12:46:43+00:00",
+    "category": "open-source-ai",
+    "summary": "一位 Reddit 用戶完整開源了使用 RL（強化學習）訓練 Qwen3.6-35B-A3B 作為教練模型，再以此訓練小型任務專用 Qwen 模型的全流程，包含訓練資料與超參數設定。這是一套可複製的蒸餾方案，特別適合想在本地端打造高效任務模型的使用者。",
+    "highlights": [
+      "完整開源教練模型訓練流程與資料集",
+      "展示 RL 蒸餾可有效將大模型能力轉移至小模型",
+      "使用 Qwen3.6-35B-A3B 作為 teacher，訓練任務專用小型模型",
+      "提供可本地部署的蒸餾範本，降低任務模型訓練門檻"
+    ],
+    "why_it_matters": "這提供了一套 RL 蒸餾實作範本，技術使用者可參照此流程，用較低成本訓練出符合特定需求的小型高效模型，減少對商業 API 的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可 fork 此 repo，依據自身任務（如程式碼生成、文件摘要）準備訓練資料，透過 RL 蒸餾流程客製化小型高效模型，部署至本地或邊緣裝置。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-14-hermes-agent-llm",
     "title": "Hermes Agent支援本地LLM部署實作",
     "title_original": "Hermes Agent with local LLMs",
@@ -2508,6 +2619,32 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-item",
+    "title": "【已過濾】垃圾內容：澳門博彩網站推廣",
+    "title_original": "\"澳门管家婆免費正版资料｛官网：X999.pw｝.bki\" - Results on X | Live Posts & Updates - x.com",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNV2VVNEJFckNicUk0Ynd1RnBRaEF5SWs1cmZSVmZFTHU2QklqS1Vhb1M2N0RJalNOWmkzRmJjTjU3OEFzY0dFeC15UzVVNmh5clJfVkt6S3h4UVFIQUx5WE1NYV9SanNuRnRTTm5hUExQNFlVMGxCVHRUb3JFOWRLT2dCTzdsUUsxM3lKNC1tbmFFOFplT2kzRHdJYWtkTHpoNWc4ZWFvY2g5RWJIMGhGOGNFSWpaS25rVGV4UEFZV21LLVhraWw5WE9jaklSUjktNS1KNnl6UzR3WUhiZGNLaTBybWZoTjNzdlFaV3FvN0lDRmFQTTZ6UEl0VXFDaDJrTkc5U1QwckdFeElxM29kVmxmUkZDT05WLW9WR1kzUlU?oc=5",
+    "published_at": "2026-07-09T14:48:38+00:00",
+    "category": "hot-topics",
+    "summary": "此內容為博彩網站推廣垃圾訊息，與 AI 技術資訊無關，已從過濾清單排除。",
+    "highlights": [
+      "確認為垃圾/惡意推廣內容",
+      "與 AI 工具、工作流程程優化無任何關聯",
+      "不建議點擊或傳播此類連結"
+    ],
+    "why_it_matters": "過濾此類低價值或潛在惡意內容，確保晨報資訊品質與安全性，避免誤導讀者或接觸可疑網站。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立自動過濾規則：偵測到非技術關鍵字（如博彩、賭博相關）時自動排除，結合 RSS/關鍵字過濾系統維持資訊來源乾淨。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-07-09-ai-skills-ai-github-335",
