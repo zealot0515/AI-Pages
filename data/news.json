@@ -1,5 +1,146 @@
 [
   {
+    "id": "2026-07-14-hermes-agent-llm",
+    "title": "Hermes Agent支援本地LLM部署實作",
+    "title_original": "Hermes Agent with local LLMs",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvypn9/hermes_agent_with_local_llms/",
+    "published_at": "2026-07-14T04:44:18+00:00",
+    "category": "agent-skills",
+    "summary": "開發者在Reddit分享Hermes Agent搭配本地LLM的實作經驗，展示如何在無需雲端API的情況下運行多步驟AI代理任務。實作包含工具調用、記憶體管理與任務規劃等核心元件。",
+    "highlights": [
+      "支援Ollama、llama.cpp等本地推論引擎",
+      "提供Tool Use接口可擴展至自訂函數",
+      "記憶體管理機制支援長任務上下文",
+      "可離線運行無網路依賴",
+      "效能取決於本地硬體配置"
+    ],
+    "why_it_matters": "本地部署Agent可完全掌控資料流向，適合處理敏感資訊的企業場景，同時節省雲端API費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載Hermes Agent框架，整合自訂工具鏈，打造完全私有的自動化代理系統。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-nanochat-vlm-200-hack",
+    "title": "nanochat-VLM：200美元以下打造可hack的迷你視覺語言模型",
+    "title_original": "Masoudjafaripour/nanochat-VLM",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Masoudjafaripour/nanochat-VLM",
+    "published_at": "2026-07-14T04:05:52Z",
+    "category": "open-source-ai",
+    "summary": "基於Karpathy的nanochat框架構建的極簡視覺語言模型，讓開發者在200美元計算成本內擁有圖像理解與多模態聊天能力。程式碼結構精簡，適合作為學習VLM內部運作的教學專案。",
+    "highlights": [
+      "成本可控：理論可在200美元以內完成訓練/微調",
+      "可hack性高：程式碼精簡，適合學習VLM底層原理",
+      "基於nanochat：承襲Karpathy的簡潔教學設計理念",
+      "Python實作：主流語言，生態系統完善",
+      "新興專案：僅24 stars，社群驗證與穩定性待觀察"
+    ],
+    "why_it_matters": "nanochat-VLM以極低門檻提供VLM實作範本，適合想理解多模態模型運作機制的技術學習者，或用於快速原型驗證視覺任務的可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "fork專案後，針對特定視覺任務（如文件分類、截圖理解）進行微調實驗，評估其在特定垂直場景的實用性。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/61988662?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-open-webui-computer",
+    "title": "open-webui/computer實現任意位置遠端電腦控制",
+    "title_original": "CPTR is wonderful! open-webui/computer: Your Computer. Anywhere.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvwlym/cptr_is_wonderful_openwebuicomputer_your_computer/",
+    "published_at": "2026-07-14T03:00:07+00:00",
+    "category": "agent-skills",
+    "summary": "open-webui社群推出Computer專案，允許用戶透過自然語言介面控制遠端電腦。該工具基於開放WebUI框架，可操控滑鼠、鍵盤與螢幕截圖，支援自架部署以確保資料安全。",
+    "highlights": [
+      "支援跨平台Windows/Mac/Linux控制",
+      "自然語言指令轉換為電腦操作",
+      "螢幕截圖回饋形成視覺閉環",
+      "可整合至既有open-webui系統",
+      "開源可自架避免資料外流"
+    ],
+    "why_it_matters": "此專案可成為自動化測試、remote desktop助理的底層引擎，適合需要自然語言操控電腦的技術場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用於建立自動化測試腳本，讓AI代理直接操作GUI應用程式執行端到端測試。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-llama-cpp-hy3-mtp",
+    "title": "llama.cpp新增Hy3模型MTP推測解碼支援",
+    "title_original": "model: add Hy3 (hy_v3) support with MTP speculative decoding by satindergrewal · Pull Request #25395 · ggml-org/llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvwbb2/model_add_hy3_hy_v3_support_with_mtp_speculative/",
+    "published_at": "2026-07-14T02:46:34+00:00",
+    "category": "open-source-ai",
+    "summary": "llama.cpp Pull Request #25395整合Hy3（hy_v3）模型並加入MTP（Mined Thought Pre-training）推測解碼功能。此更新可大幅提升特定模型的推論速度，同時降低記憶體佔用。",
+    "highlights": [
+      "MTP推測解碼為新興推論優化技術",
+      "Hy3模型屬於新興開源架構",
+      "需編譯最新llama.cpp版本才能使用",
+      "推論速度提升程度視模型而定",
+      "PR已合併進入主分支"
+    ],
+    "why_it_matters": "推測解碼可顯著加速本地推論，對需要即時回應的應用場景（如對話系統）有直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可編譯最新llama.cpp並測試Hy3模型，評估MTP功能對特定工作負載的加速效果。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-ai",
+    "title": "為何美國開源AI實驗室在基準測試上遙遙落後中國？",
+    "title_original": "Why aren't any American open-source AI labs even close to Chinese ones on benchmarks yet?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvw2b3/why_arent_any_american_opensource_ai_labs_even/",
+    "published_at": "2026-07-14T02:34:56+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群討論熱烈，質疑為何美國開源AI實驗室在多項基準測試中落後中國同行。討論聚焦於訓練資料規模、模型架構創新、以及算力分配策略等可能原因，但缺乏具體數據支撑。",
+    "highlights": [
+      "討論源自社群觀察，非學術論文或官方報告",
+      "中國實驗室如DeepSeek、Qwen等在開源領域動作頻頻",
+      "訓練資料品質與多樣性被認為是關鍵差異",
+      "美國實驗室更專注閉源商業模型",
+      "benchmark評測標準本身可能存在偏見"
+    ],
+    "why_it_matters": "了解中美開源AI實力差距有助技術決策者選擇開源專案投入方向，以及評估是否需要依賴中國模型填補能力缺口。",
+    "automation_angle": null,
+    "automation_angle_zh": "可追蹤Hugging Face上的中美開源模型更新頻率，比較推論速度與成本效益，選擇符合自動化需求的模型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-14-atlassian-skills-cli-llm-agent-jira-confluence-bitbucket",
     "title": "atlassian-skills：輕量 CLI 工具，讓 LLM Agent 高效操控 Jira / Confluence / Bitbucket",
     "title_original": "eunsanMountain/atlassian-skills",
@@ -417,6 +558,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-14-google-aim-gemini-atl-saathi-ai",
+    "title": "Google AIM在印度推出Gemini驅動的ATL Saathi教育AI工具",
+    "title_original": "Empowering India’s next generation of innovators with ATL Saathi",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+    "published_at": "2026-07-13T12:37:28+00:00",
+    "category": "hot-topics",
+    "summary": "Google DeepMind與AIM合作發布ATL Saathi，一款Gemini模型驅動的AI工具，旨在賦能印度ATL學校機器人實驗室的教育工作者。官方DeepMind Blog已確認此為實際發布產品。",
+    "highlights": [
+      "官方發布：Google DeepMind Blog確認，非行銷軟文",
+      "Gemini模型支援：整合Google旗艦模型能力",
+      "教育垂直場景：針對機器人實驗室與教育工作者設計",
+      "印度市場聚焦：配合政府ATL計畫推廣",
+      "非開源：目前資訊顯示為Google托管服務，非可自部署工具"
+    ],
+    "why_it_matters": "Gemini在教育場景的實際應用案例，反映Google在垂直領域AI落地策略。技術用戶可關注其功能範圍與Gemini能力邊界是否值得借鑒。",
+    "automation_angle": null,
+    "automation_angle_zh": "存取DeepMind官方頁面了解功能說明，若有興趣可評估Gemini API接入類似教育工具的實作可行性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-13-flint",
     "title": "Flint研究：壓縮推論模型不破壞能力",
     "title_original": "[Study/Models] Flint: Compressing Reasoning Without Breaking It",
@@ -555,6 +724,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/191947521?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-anthropic-1-660-170",
+    "title": "Anthropic確認1,660萬美元帳單錯誤，企業超收170萬美元",
+    "title_original": "Anthropic Confirms $16.6M Billing Error as Auditors Find $1.7M in Enterprise Overcharges - Tech Times",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTHpncEwwZEpIXzliS3V6ZXVNYzZDYW5HUnpoNm1SWFhxbUIwT00zcjZEd01vOEJWS1RiTTJldWttZ2R5MW1vREw3YWotQXNEbjVVTjFZUFBBN1p1Y3BxZVFXT3NOZHZuMFlzM05md3dWNEVKZVVIdDlXeFlYdWJaVHprV21sWjB6RnZsTjVtQVZTeFhza05HMWdsb3ExeXNDb0VtZmZ0WTFVSG42ZG1NV1I1TjhERG1JbzAwUk9lekJFLWQtNTBSVkFpWGdqQQ?oc=5",
+    "published_at": "2026-07-13T03:48:52+00:00",
+    "category": "hot-topics",
+    "summary": "Anthropic公告帳單系統出現重大錯誤，審計發現企業用戶被超收約170萬美元，總帳單差異達1,660萬美元。事件引發企業用戶對AI服務計費透明度的擔憂，可能影響未來API採購決策。",
+    "highlights": [
+      "錯誤涉及企業級Claude方案的帳單計算",
+      "超收金額已開始退還受影響客戶",
+      "審計由第三方機構執行並確認金額",
+      "Anthropic尚未公布錯誤根本原因",
+      "競爭對手可能借此強調計費可靠性"
+    ],
+    "why_it_matters": "企業級AI服務的帳務準確性直接影響成本控制，本次事件提醒技術決策者需建立API用量監控機制，避免類似損失。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊應部署API用量追蹤腳本，設定異常消費警報，並定期對帳單與實際用量進行交叉驗證。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -56804,6 +57001,34 @@
       "agent-skills",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-14-ai-10-token-7",
+    "title": "AI程式碼助理橫評：日耗10億Token工程師的7家方案選購指南",
+    "title_original": "AI coding plan 选购指南：日耗 10 亿 Token 工程师的 7家 横评 - 腾讯新闻",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00QWluZTNUdjJPVV9ONGZJX3I2X3ZaSjl4cFZCc0N5X2YzQ2VjVG91SmlVSmJ1Mkxwa3ZSbXl0M0dlMlMwOFREaG9keF9YY3RzTklpWjJn?oc=5",
+    "published_at": "2026-04-22T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "騰訊新聞報導針對高用量開發者進行7款AI程式碼助理横評，分析各方案的Token消耗、定價、上下文長度與模型能力。日耗10億Token代表大規模團隊使用模式，評測涵蓋GitHub Copilot、Cursor、Cline等主流工具。",
+    "highlights": [
+      "評測對象包括Copilot、Cursor、Cline等7家方案",
+      "重點分析日消耗Token量級與成本關係",
+      "涵蓋上下文視窗大小與長程式碼處理能力",
+      "比較不同任務類型的模型表現差異",
+      "提供依使用場景的推薦排序"
+    ],
+    "why_it_matters": "高用量團隊需精打細算AI工具成本，本横評提供具體數據支撑採購決策，避免無效支出。",
+    "automation_angle": null,
+    "automation_angle_zh": "團隊技術負責人可根據評測數據估算自身使用量對應的月費，選擇性價比最高的方案。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
