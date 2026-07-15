@@ -1,5 +1,342 @@
 [
   {
+    "id": "2026-07-15-openclaw-agent-whatsapp-telegram-discord-slack-teams",
+    "title": "OpenClaw：開源 Agent 平台，對接 WhatsApp/Telegram/Discord/Slack/Teams",
+    "title_original": "essamamdani/openclaw-coolify",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/essamamdani/openclaw-coolify",
+    "published_at": "2026-07-15T01:21:56Z",
+    "category": "agent-skills",
+    "summary": "OpenClaw（原 Clawdbot、MoltBot）是開源 Agent 平台，可在本地運行並集成到 WhatsApp、Telegram、Discord、Slack、Teams 等聊天應用，使用 Shell 編寫，146 stars。",
+    "highlights": [
+      "開源本地 Agent 平台，146 GitHub stars",
+      "支援主流聊天應用：WhatsApp、Telegram、Discord、Slack、Teams",
+      "使用 Shell 編寫，輕量級易部署",
+      "在用戶已有的聊天工具中提供 AI 助理能力",
+      "可自架自控，資料不經過第三方服務"
+    ],
+    "why_it_matters": "技術用戶可在熟悉的聊天環境中無縫接入 AI 助理，本地運行確保隱私且延遲低。適合需要即時自動化回覆或任務執行的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "在團隊慣用的聊天平台上部署自動回覆機器人，處理常見問題或觸發後端自動化流程，降低重複性人力負擔。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Shell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/413629?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-15-audio-cpp-rtx-5090-10-3-moss-tts-tts",
+    "title": "audio.cpp 結合 RTX 5090：10 小時音頻 3 分鐘生成，MOSS-TTS 等四款 TTS 模型開源",
+    "title_original": "[audio.cpp] 10 hours of audio generated in 3 minutes on RTX 5090 (demo included)! C++/GGML based Supertonic 3, MOSS-TTS, IndexTTS2, and Irodori-TTS released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwpvt9/audiocpp_10_hours_of_audio_generated_in_3_minutes/",
+    "published_at": "2026-07-15T00:06:35+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 分享基於 C++/GGML 的音頻生成成果，RTX 5090 僅用 3 分鐘生成 10 小時音頻。同步開源的還有 Supertonic 3、MOSS-TTS、IndexTTS2、Irodori-TTS 四款 TTS 模型，均整合进 audio.cpp 生態，標誌著本地 TTS 推論效率達到新里程碑。",
+    "highlights": [
+      "RTX 5090 實現 10 小時音頻 3 分鐘生成",
+      "Supertonic 3、MOSS-TTS、IndexTTS2、Irodori-TTS 四款開源模型同步發布",
+      "全流程基於 C++/GGML，無需 Python 環境",
+      "本地推論延遲大幅降低，硬體門檻親民化",
+      "提供 demo 程式碼可直接測試"
+    ],
+    "why_it_matters": "本地 TTS 推論速度進入實用階段，技術宅可免費部署高質量語音合成服務。結合 GGML 的量化支援，消費級 GPU 也能勝任，省去雲端 API 費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載對應 GGUF 格式模型權重與 audio.cpp demo，直接在本地硬體測試音頻生成速度與質量。適合用於自動化有聲書製作、語音助理本地化或批量語音內容生成流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-15-github-copilot-in-visual-studio-2026-6",
+    "title": "GitHub Copilot in Visual Studio — 2026 年 6 月更新",
+    "title_original": "GitHub Copilot in Visual Studio — June update",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update",
+    "published_at": "2026-07-15T00:01:24+00:00",
+    "category": "hot-topics",
+    "summary": "GitHub 部落格指出 2026 年 6 月更新聚焦於可見性與信任，包含更清晰的 GitHub Copilot 使用視圖、MCP 伺服器的新信任層，以及首個 C++ 場景支援。",
+    "highlights": [
+      "提供更清晰的 GitHub Copilot 使用視圖與透明度",
+      "新增 MCP 伺服器信任層機制",
+      "迎來首個 C++ 場景支援",
+      "針對 Visual Studio 的專屬優化",
+      "提升開發者對 AI 輔助工具的信任與控制感"
+    ],
+    "why_it_matters": "C++ 支援的加入對系統程式設計開發者意義重大，MCP 信任層則為跨工具協作奠定基礎。Visual Studio 用戶應第一時間測試更新內容。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Visual Studio 中啟用新版 Copilot，測試 C++ 補全與 MCP 整合功能，評估對日常開發效率的實際影響。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-15-github-dependabot-3",
+    "title": "GitHub Dependabot 新增 3 天發布冷卻期",
+    "title_original": "Quoting GitHub Changelog",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything",
+    "published_at": "2026-07-14T22:43:35+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布 Dependabot 即日起預設等待新版本在註冊表發布滿 3 天後才會開啟更新 PR。此改動旨在避免自動化更新過快引入有問題的依賴套件。",
+    "highlights": [
+      "預設 3 天冷卻期，無需額外設定",
+      "可避免上游套件發布後立即拉取未經穩定性驗證的版本",
+      "提升自動化安全更新的可靠性",
+      "不影響手動觸發或自訂冷卻設定",
+      "可直接提升 CI/CD 工作流程的穩定性"
+    ],
+    "why_it_matters": "依賴更新是安全維護的重要環節。3 天冷卻期讓維護者有時間回滾有問題的版本，降低自動化更新引發連鎖反應的風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "檢查自身專案的 Dependabot 設定是否需要調整；若自訂了冷卻期，可考慮是否需要同步延長以保持一致的安全邊界。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-15-pedalican-simon-willison-codex",
+    "title": "Pedalican：Simon Willison 的 Codex 寵物與圖像生成精靈工作流程",
+    "title_original": "simonw/pedalican",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything",
+    "published_at": "2026-07-14T22:29:45+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 在 Codex Desktop 中創建了 Pedalican（一隻騎自行車的鵜鶘），展示如何用 GPT-5.6 Sol 和 gpt-image-2 生成遊戲精靈。OpenAI 的 hatch-pet 和 imagegen 兩個技能已 Apache 2.0 許可開源。",
+    "highlights": [
+      "GPT-5.6 Sol 可自動化生成遊戲精靈資產",
+      "圖像生成工作流程包含多輪提示優化與精靈表編譯",
+      "OpenAI hatch-pet 和 imagegen 技能已開源（Apache 2.0）",
+      "生成結果包括精靈表、動畫 GIF 與角色參考圖",
+      "展示了 LLM 搭配圖像生成的實用遊戲開發流程"
+    ],
+    "why_it_matters": "展示了如何結合 LLMs 和圖像生成創建遊戲資產，降低了遊戲開發的技術門檻。開源技能讓開發者可快速複用類似工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用開源的 hatch-pet 和 imagegen 技能自建圖像生成自動化流程，快速產出遊戲或 UI 所需的精靈圖資產。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-15-1bit",
+    "title": "1bit 模型共識：仍是夢想還是即將實現？",
+    "title_original": "So what's the consensus on 1bit models? Is it still a pipe dream?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwnhlv/so_whats_the_consensus_on_1bit_models_is_it_still/",
+    "published_at": "2026-07-14T22:28:56+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 熱烈討論 1bit 模型的可行性。社群普遍認為 1bit 量化雖能極致壓縮模型體積，但在推論品質上仍面臨瓶頸，目前更傾向於 2-4bit 量化作為實用平衡點。",
+    "highlights": [
+      "1bit 量化理論上可將模型壓縮至原大小的 1/32",
+      "目前 1bit 模型在複雜推論任務上表現仍有明顯退化",
+      "社群人認為 2-4bit 是目前實用的量化甜點區間",
+      "BitNet 等研究持續探索極致量化極限",
+      "實際應用需在模型大小與輸出品質間取捨"
+    ],
+    "why_it_matters": "對需要在邊緣裝置或低資源環境部署模型的開發者而言，量化技術直接決定了可行性與成本。了解 1bit 模型的現狀有助於做出更理性的技術選型。",
+    "automation_angle": null,
+    "automation_angle_zh": "可實際測試不同量化位元數的模型（如 Q2_K、Q4_K、Q6_K），用相同 Prompt 比對輸出品質，找出符合自身需求的最佳性價比設定。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-15-deepseek-v4-atlas-500-superpod",
+    "title": "DeepSeek V4 Atlas 500 SuperPod 展示分散式算力對單次编程基准測試的挑戰",
+    "title_original": "Me: one-shot programming is useless and should not be used as benchmark DeepSeek V4: hold my Atlas 500 SuperPod",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwm7fx/me_oneshot_programming_is_useless_and_should_not/",
+    "published_at": "2026-07-14T21:39:44+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 討論區爆出一則關於單次编程作為基準測試是否有意義的討論。用戶質疑傳統單次编程任務能否真實反映模型能力，而 DeepSeek V4 則以 Atlas 500 SuperPod 展示其分散式訓練架構下的編程實力，暗示算力規模與編程評估方式需重新定義。",
+    "highlights": [
+      "單次编程基准測試被質疑無法反映真實開發場景",
+      "DeepSeek V4 展示 Atlas 500 SuperPod 分散式算力架構",
+      "討論熱度反映技術社群對 LLM 評估方法的不满",
+      "分散式訓練可能為編程任務帶來新的能力維度",
+      "評估 LLM 需考慮任務複雜度與迭代次數"
+    ],
+    "why_it_matters": "對於技術宅而言，傳統编程基准已無法滿足評估需求。DeepSeek V4 的出現提醒我們分散式算力可能根本性改變編程能力的天花板，值得重新思考評估框架。",
+    "automation_angle": null,
+    "automation_angle_zh": "可設計多步驟、需迭代的编程任務集，在本地或 API 環境中測試不同模型的真實開發輔助能力，而非依賴單次编程排行榜。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-15-prism-ml-bonsai-27b",
+    "title": "Prism-ML 釋出 Bonsai-27B 基準測試結果",
+    "title_original": "Prism-ML's Bonsai-27B Benchmarks",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwm2hd/prismmls_bonsai27b_benchmarks/",
+    "published_at": "2026-07-14T21:34:35+00:00",
+    "category": "new-models",
+    "summary": "Prism-ML 團隊釋出 Bonsai-27B 的基準測試成績。作為一款強調能在行動裝置運作的模型，其在多項標準測試中的表現引起社群關注，但與主流 27B 模型仍有差距。",
+    "highlights": [
+      "釋出完整的基準測試數據供社群驗證",
+      "測試結果顯示在手機硬體上的可行性和效能",
+      "與 Llama-27B 等主流模型相比性能有所取捨",
+      "強調推論效率而非純粹追求分數",
+      "有助於評估此模型的實用價值"
+    ],
+    "why_it_matters": "基準測試讓技術選型有據可循。若 Bonsai-27B 在可接受的品質損耗下達成離線部署，對邊緣 AI 應用開發者極具參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據釋出的測試數據，評估 Bonsai-27B 是否能滿足自身應用場景的最低品質門檻，並規劃離線端側部署的可行性測試。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-15-reddit",
+    "title": "Reddit 提議新增「非基底模型」標籤",
+    "title_original": "Can we get a \"not base model\" flair?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwjlo4/can_we_get_a_not_base_model_flair/",
+    "published_at": "2026-07-14T20:01:52+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 用戶提議新增「not base model」標籤，以便區分基底模型與經過微調的衍生模型。此提議反映社群對模型版本辨識與分類的需求日益增加。",
+    "highlights": [
+      "提議動機為方便區分基底模型與微調模型",
+      "目前 Reddit 缺乏統一的模型版本分類機制",
+      "有助於減少使用者混淆模型來源與能力",
+      "類似標籤已在其他 AI 社群獲得正面回應",
+      "最終落實與否仍取決於版主決定"
+    ],
+    "why_it_matters": "模型生態日益複雜，正確識別模型類型對於重現實驗結果、評估性能至關重要。此分類優化將提升社群資訊品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 Reddit 版主是否採納此建議，若實施則可作為自己模型管理與標記流程的參考，建立更嚴謹的版本追蹤機制。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-15-lobsters-mariadb-sqlite-vps",
+    "title": "程式設計師社群 Lobsters 完成資料庫遷移：MariaDB → SQLite，VPS 成本減半",
+    "title_original": "lobste.rs is now running on SQLite",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything",
+    "published_at": "2026-07-14T19:44:11+00:00",
+    "category": "agent-skills",
+    "summary": "知名程式設計師社群 Lobsters 历時多年規劃，於上週末正式完成從 MariaDB 到 SQLite 的遷移。網站現在運行於單一 VPS，CPU 與記憶體使用量均顯著下降，管理層認為這將是網站的長期架構。遷移 PR 共修改 735 行、移除 593 行，涉及 30 次提交與 188 個檔案。",
+    "highlights": [
+      "Lobsters 從 MariaDB 完全遷移至 SQLite，資料庫大小 3.8GB",
+      "CPU 與記憶體使用量雙降，VPS 成本預計減半",
+      "PR 由 Thomas Dziedzic 主導，基於前序多個 PR 累積完成",
+      "額外使用 cache.db、queue.db、rack_attack.db 等小型資料庫",
+      "案例證明單伺服器 + SQLite 在 2026 年仍可支撐中等規模網站"
+    ],
+    "why_it_matters": "對於技術宅而言，Lobsters 的案例是極佳的架構參考。選擇正確的工具比追逐新技術更重要，SQLite 的簡化运維與低成本值得在合適場景中優先考慮。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估手頭項目是否適合 SQLite：資料量 < 100GB、讀取為主、無需水平擴展。對於個人專案或小型 SaaS，SQLite + Litestream 或 Turso 可實現零運維的持久化方案。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-15-gemma-4-31b-antihal-gemma",
+    "title": "Gemma-4-31B-AntiHal：抑制幻覺的改良版 Gemma",
+    "title_original": "Gemma-4-31B-AntiHal: Gemma steered to push back on false premises instead of hallucinating, without any impact to benchmark performance",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwhwt8/gemma431bantihal_gemma_steered_to_push_back_on/",
+    "published_at": "2026-07-14T18:59:33+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者將 Gemma-31B 改造為 AntiHal 版本，使模型在面對錯誤前提時會主動反駁而非直接 hallucinate，且聲稱對基準測試成績零影響。",
+    "highlights": [
+      "改造後模型會主動拒絕或反駁錯誤前提",
+      "聲稱完全不影響現有基準測試表現",
+      "開源可自行部署測試",
+      "針對 hallucination 問題提供低成本解方",
+      "可作為其他模型微調的參考架構"
+    ],
+    "why_it_matters": "幻覺是企業應用 LLM 的主要風險之一。若 AntiHal 技巧確實有效且零代價，可大幅提升 AI 系統的可信度與合規性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載此模型，用自身業務場景中的易錯 Prompt 測試，觀察其是否比原版 Gemma 更少產生幻觉，作為實際部署評估參考。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-15-bonsai-27b-27b",
+    "title": "Bonsai 27B：首款能在手機上跑的 27B 級模型",
+    "title_original": "Bonsai 27B: The First 27B-Class Model to Run on a Phone",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwhukq/bonsai_27b_the_first_27bclass_model_to_run_on_a/",
+    "published_at": "2026-07-14T18:57:20+00:00",
+    "category": "new-models",
+    "summary": "社群傳出消息，一款名為 Bonsai 的 27B 參數模型宣稱能在手機上運行。若屬實，將是本地端 LLM 部署的重大突破，讓高參數模型不再受限於高階 GPU。",
+    "highlights": [
+      "宣稱為首款可在手機上運作的 27B 級模型",
+      "可能採用極致量化技術以降低記憶體需求",
+      "目前僅限 Reddit 討論，未有官方確認",
+      "與傳統 7B/3B 手機端模型相較，參數量大幅提升",
+      "實際效能與功耗表現尚待驗證"
+    ],
+    "why_it_matters": "若能在手機上執行 27B 模型，代表未來開發者可將更強大的 LLM 能力直接部署到終端用戶裝置，降低對雲端 API 的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可關注此專案的 GitHub，若有開源釋出即可第一時間下載測試，評估其在自有機型上的實際執行效果與記憶體佔用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-14-zig-llm",
     "title": "開發者自製 Zig 語言 LLM 推論伺服器，效能宣稱最快",
     "title_original": "I got tired of waiting for model support, so I spent a few months writing my own LLM server in Zig. It's now the fastest.",
@@ -60028,6 +60365,34 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-15-ai-lovart-4000-10",
+    "title": "中國 AI 平台 Lovart 年費近 4000 元僅用 10 天即遭封號且不退款",
+    "title_original": "Lovart充值近4000元年费仅使用10天封号不退款？從Lovart的迷之操作谈中国AI平台的商業底線 - 新浪财經",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBha1hLSmttSGpXcEpabUhta0phb2Z5YkY4eXZMOVYwWmFSMnRZZloxTGNta29Cb3ZzMWNrY3huVnI1QmtWU3FTcVFkNC05NTNuUmZvMnpBZ2FZNmJUVTFmbzY3TjA0clJHNUJ4eTRJMTFxYzNGRFpCV0lTNlY?oc=5",
+    "published_at": "2026-02-08T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "新浪財經報導，用戶反映在中國 AI 行銷平台 Lovart 充值近 4000 元年度訂閱費後，僅使用 10 天便遭封號，且平台拒絕退款。爭議聚焦於平台商業誠信與用戶協議透明度，引發業界對中國 AI 平台商業底線的討論。",
+    "highlights": [
+      "用戶投訴 Lovart 收取近 4000 元年費後短期封號",
+      "平台疑似拒絕退款，引發用戶不滿",
+      "事件涉及中國 AI 行銷工具平台",
+      "引發對於平台用戶協議合理性的質疑",
+      "此類灰色地帶優惠可能存在風險"
+    ],
+    "why_it_matters": "對於技術宅而言，此事件提醒我們選擇 AI 平台時需重視商業信譽與退款機制。優惠資訊的灰色地帶可能帶來財務風險，應優先選擇有明確條款保障的服務。",
+    "automation_angle": null,
+    "automation_angle_zh": "避免依賴此類資訊作為省錢策略。選擇 AI 服務時優先使用有信用卡或 PayPal 爭議保護的官方渠道，並在充值前仔細閱讀用戶協議中的退款與封號條款。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
