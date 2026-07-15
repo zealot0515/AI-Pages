@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-07-15-roslyn-codelens-mcp-roslyn-net-c-mcp",
+    "title": "roslyn-codelens-mcp：用 Roslyn 深度理解 .NET/C# 程式碼的 MCP 工具",
+    "title_original": "MarcelRoozekrans/roslyn-codelens-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/MarcelRoozekrans/roslyn-codelens-mcp",
+    "published_at": "2026-07-15T07:25:58Z",
+    "category": "agent-skills",
+    "summary": "Roslyn Codelens MCP 是一個基於 Roslyn 編譯器平台的 MCP 伺服器，為 AI Agent 提供 57 種 .NET/C# 程式碼理解工具，含導航、呼叫圖、診斷修復、程式碼品質審計、測試洞察、依賴注入圖、IL/外部組件檢查等。GitHub 星標 30，技術實作者可直接整合到 AI Coding 流程中。",
+    "highlights": [
+      "57 種程式碼理解工具，覆蓋範圍廣",
+      "基於 Roslyn 提供語意級分析，非純文字匹配",
+      "支援呼叫圖、DI 圖、IL 分析等進階能力",
+      "可用於程式碼品質審計與自動化修復建議",
+      "直接提供給 AI Agent 使用的 MCP 介面"
+    ],
+    "why_it_matters": "對 .NET/C# 專案維護者而言，此 MCP 能讓 AI Agent 真正「看懂」程式碼結構，而非只做字面補全，可大幅提升重構、遷移、程式碼審查的自動化程度。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 roslyn-codelens-mcp 整合到 Cursor、Copilot 或自建 Agent，實現自動化 .NET 程式碼重構建議、依賴圖分析、測試覆蓋率評估等場景。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/2911728?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-15-reddit-384gb-4x-blackwell",
+    "title": "Reddit 熱議：384GB 記憶體（4x Blackwell）能跑什麼模型？",
+    "title_original": "If you had a 384GB (4x Blackwell), what model would you put on it and why?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uwv48k/if_you_had_a_384gb_4x_blackwell_what_model_would/",
+    "published_at": "2026-07-15T04:10:41+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 討論串探討在 384GB 記憶體的 4 卡 Blackwell 機器上最適合部署的模型選擇，涵蓋參數量、量化策略、推論速度與任務適用性的權衡。屬於社群討論，無單一官方結論，但反映了高階本地推論的最新需求動向。",
+    "highlights": [
+      "4x Blackwell 提供龐大 GPU 記憶體",
+      "可承載超大參數量模型（如數百 B 規模）",
+      "量化策略影響能否放入記憶體與推論品質",
+      "不同任務（對話/推論/程式碼）對模型需求不同",
+      "純社群討論，觀點多元無定論"
+    ],
+    "why_it_matters": "對於考慮建構高階本地推論工作站或評估算力投入的技術使用者，此類討論提供實務經驗參考，了解在特定硬體約束下的模型選擇策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "將討論串中的模型選擇邏輯應用於自己的本地推論規劃：先用 llama.cpp 或 vLLM 測試不同量化等級的模型，選擇在 384GB 限制內性價比最高的配置。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-15-openclaw-agent-whatsapp-telegram-discord-slack-teams",
     "title": "OpenClaw：開源 Agent 平台，對接 WhatsApp/Telegram/Discord/Slack/Teams",
     "title_original": "essamamdani/openclaw-coolify",
@@ -78,6 +135,34 @@
     "automation_angle_zh": "在 Visual Studio 中啟用新版 Copilot，測試 C++ 補全與 MCP 整合功能，評估對日常開發效率的實際影響。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-15-github-copilot-for-jetbrains-byok",
+    "title": "GitHub Copilot for JetBrains 大幅擴展 BYOK 能力，模型供應商整合更彈性",
+    "title_original": "GitHub Copilot for JetBrains expands BYOK capabilities",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities",
+    "published_at": "2026-07-14T23:37:29+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方 Changelog 顯示，Copilot for JetBrains 插件在 BYOK（Bring Your Own Key）方面有重大更新，提升所有層級的客製化彈性與模型供應商支援，並改善對話式互動體驗。技術使用者可更自由地選擇模型供應商或使用自有 API Key。",
+    "highlights": [
+      "BYOK 能力大幅擴展，支援更多模型供應商",
+      "所有訂閱層級均受益",
+      "對話式互動體驗改善",
+      "JetBrains 全家桶 IDE 均支援",
+      "官方更新，可直接查閱變更日誌"
+    ],
+    "why_it_matters": "對已有特定模型供應商偏好或需控制 API 成本的技術使用者，BYOK 擴展意味著可以在熟悉的 JetBrains IDE 中使用更符合需求的模型，提升開發效率與成本可控性。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 JetBrains IDE 中啟用 BYOK，接入自選模型供應商，在日常 Coding 流程中測試不同模型在程式碼補全、程式碼解釋、程式碼審查等場景的表現差異。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
@@ -12697,6 +12782,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/87838875?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-15-marktechpost-ai",
+    "title": "MarkTechPost 評選 AI 工程師必備六大無程式碼工具",
+    "title_original": "Top 6 No-Code Tools for AI Engineers/Developers - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNU9xRnhWc2o3NTRMbzBYdzhMM0psMzJTYmk5OXdYVmFBVFBDTzVmMXpEaXJPT1c4SVlHaUlVNjRKSlB1NXBEdU5HTUptVC1nQmV2WVZIMXN0TWxhMDhreXlERGFEMzE1SUxCNUV3NjhnRmdibGNwa2pKaFlUaVo5ZGhQVTc3dmlmeEtPc21GUnZJZw?oc=5",
+    "published_at": "2026-06-28T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "MarkTechPost 列舉六款適合 AI 工程師與開發者的無程式碼工具，涵蓋視覺化機器學習流程、自動化模型部署、資料前處理等應用場景。此類工具降低 AI 專案門檻，讓非 ML 背景的工程師也能快速實驗原型，但詳細工具名單與功能差異需自行驗證。",
+    "highlights": [
+      "列舉六款針對 AI 開發流程設計的無程式碼工具",
+      "涵蓋模型訓練、部署、資料處理等環節",
+      "主要目標讀者為希望加速原型開發的工程師",
+      "文章為彙整性質，工具實際效能需自行測試",
+      "此類工具對除錯與客製化程度有限制"
+    ],
+    "why_it_matters": "無程式碼工具正在填補 ML 專家與一般開發者之間的鴻溝。技術團隊可用這些工具快速驗證 AI 假設，評估是否值得投入完整開發資源。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可從清單中挑選 2-3 款工具，用同一組測試資料集（如 Kaggle 小型資料集）比較各工具的模型產出速度與準確度，找出最适合自己工作流程的工具。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
