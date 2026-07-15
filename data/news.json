@@ -1,5 +1,143 @@
 [
   {
+    "id": "2026-07-15-stellar-raven-stellar-mcp",
+    "title": "Stellar-Raven：整合 Stellar 生態的 MCP 伺服器",
+    "title_original": "kalepail/stellar-raven",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/kalepail/stellar-raven",
+    "published_at": "2026-07-15T13:06:13Z",
+    "category": "agent-skills",
+    "summary": "開源 MCP 伺服器，提供統一身分驗證介面存取 Stellar 官方文件、鏈上生態數據、社群情報及測試過的腳本。TypeScript 實作，適合 AI Agent 直接串接區塊鏈操作。",
+    "highlights": [
+      "整合官方文件、鏈上數據、社群情報於單一 MCP 端點",
+      "支援 AI Agent 自動化執行 Stellar 生態操作",
+      "TypeScript 實作，易與現有 Node.js 工作流程整合",
+      "11 stars，新興專案但方向明確"
+    ],
+    "why_it_matters": "區塊鏈 Agent 需求攀升，此 MCP 伺服器可省去自行整合多端點的時間，直接讓 Agent 具備 Stellar 生態操作能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 stellar-raven 整合進現有 Agent 程式碼，用 natural language 指令自動化查詢 Stellar 鏈上數據或執行交易。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/4383610?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-15-retentioneering-tools-mcp-ai-agent",
+    "title": "Retentioneering-Tools：事件日誌分析的 MCP 工具鏈，助 AI Agent 掌握用戶行為",
+    "title_original": "retentioneering/retentioneering-tools",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/retentioneering/retentioneering-tools",
+    "published_at": "2026-07-15T12:44:45Z",
+    "category": "agent-skills",
+    "summary": "Retentioneering-Tools 是 Python 開源工具包，同時提供 MCP 服務器介面，專門處理點擊流與事件日誌分析。支援可重現、可稽核的用戶旅程建構、A/B 測試分析、馬可夫鏈模擬等能力，可讓 AI Agent 具備資料驅動的產品分析技能。",
+    "highlights": [
+      "提供 MCP 服務器介面，可直接與 AI Agent 整合",
+      "支援用戶行為圖譜建構與量化 UX 分析",
+      "內建馬可夫鏈模擬與程序挖掘模型",
+      "Python 生態，易於與現有數據管道整合",
+      "GitHub 907 stars，社群關注度與成熟度較高"
+    ],
+    "why_it_matters": "讓 AI Agent 具備真實用戶行為分析能力，可提升產品優化、客服自動化與用戶分群的工作品質。是技術用戶構建數據驅動 Agent 的實用模組。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其 MCP 介面接入自定義 Agent，使其能自動分析產品日誌並生成用戶流失報告或行為異常警示，實現半自動化的產品運營工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/49256872?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-15-apple-prismml-ai-iphone",
+    "title": "Apple 傳洽談 PrismML 以壓縮 AI 模型至 iPhone 運行",
+    "title_original": "Apple in talks with startup PrismML that shrinks AI models to run on an iPhone",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux4cn2/apple_in_talks_with_startup_prismml_that_shrinks/",
+    "published_at": "2026-07-15T12:23:39+00:00",
+    "category": "new-models",
+    "summary": "據悉 Apple 正與 PrismML 洽談技術合作，目標將大型 AI 模型壓縮至可在 iPhone 本機運行。此舉顯示邊緣 AI 推論在手機端的商業化加速。",
+    "highlights": [
+      "尚在洽談階段，具不確定性",
+      "PrismML 專精模型壓縮與蒸餾技術",
+      "若成功，iPhone 可本地運行數十億參數模型",
+      "可能影響 Apple Intelligence 產品路線"
+    ],
+    "why_it_matters": "邊緣端 AI 推論是降低延遲與隱私成本的關键，若壓縮技術成熟，將開啟 iPhone 本地運行 LLM 的時代。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續關注 PrismML 技術動態，待開源後評估其蒸餾技術是否可應用於自己的模型優化流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-15-item",
+    "title": "開源模型效率前緣現況分析",
+    "title_original": "Current efficient frontier of open models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux41ue/current_efficient_frontier_of_open_models/",
+    "published_at": "2026-07-15T12:10:08+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 討論串整理當前開源模型在效率（速度/記憶體/精準度）上的最佳前緣曲線，涵蓋 Qwen、Llama、Mistral、Phi 等主流家族。",
+    "highlights": [
+      "對比主流開源模型在多維度效能的取捨",
+      "涵蓋推論速度、VRAM 需求、任務準確率",
+      "社區共識整理，非單一實驗數據",
+      "可作為模型選型的參考雷達圖"
+    ],
+    "why_it_matters": "選擇邊緣部署或本地推論的模型時，效率前緣分析可幫助技術人員快速定位符合硬體限制的最佳權重。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據該效率前緣圖，在專案需求（延遲/記憶體/精準度）確定後，自動化篩選最適合的模型尺寸與架構。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-15-ovisocr2-0-8b-omnidocbench",
+    "title": "OvisOCR2 0.8B 端對端模型稱霸 OmniDocBench",
+    "title_original": "OvisOCR2 (0.8B): first end-to-end model to top OmniDocBench - I threw 827 real scanned medical docs at it, here's everything I learned",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ux3nps/ovisocr2_08b_first_endtoend_model_to_top/",
+    "published_at": "2026-07-15T11:52:43+00:00",
+    "category": "new-models",
+    "summary": "僅 0.8B 參數的端對端 OCR 模型，在 OmniDocBench 測試中超越其他模型。開發者實測 827 份醫療掃描文件，確認其對複雜版面和手寫體的識別能力。",
+    "highlights": [
+      "0.8B 參數量，適合本地部署",
+      "端對端架構，無需多階段 OCR pipeline",
+      "OmniDocBench 基準測試領先",
+      "實測涵蓋 827 份醫療掃描文件"
+    ],
+    "why_it_matters": "小型 OCR 模型達到頂級準確率，代表本地端文件處理進入實用階段，節省雲端 API 費用與延遲。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載模型權重，接入既有的文件自動化處理腳本，取代昂貴的雲端 OCR API（如 Azure Read、AWS Textract）。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-15-roslyn-codelens-mcp-roslyn-net-c-mcp",
     "title": "roslyn-codelens-mcp：用 Roslyn 深度理解 .NET/C# 程式碼的 MCP 工具",
     "title_original": "MarcelRoozekrans/roslyn-codelens-mcp",
@@ -1008,6 +1146,34 @@
       "Go"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/174396085?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-15-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding",
+    "title": "Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8：Agentic Coding 基準測試與成本效益分析",
+    "title_original": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared - MarkTechPost",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOUzFseXVOVVdlSnNtcFhVbnNhOGtSVHFDdDFkb25iZEw1Z2FTTWFzY3JXTXNVVWZVNHJDSjJHcUc4Nk1BYnFzVzhOSjhJeGMtNmp6R2dkMlpwTFJ0Z3ZjY1MyX0hHQ2s1TnRoZjBHbml6LXpTTUZlU1RCc3RxOERtYTJDZmFsczJJOWotelZGSHhGVnF1UlctU09hSHFIVG1uaVRpNG1aT0FKSFlWX0pMM25YSlh1M1ZXY3hMbjY1VVNfbkluYmxtQ3hFWC1mV21aQmJEWVFteXg1MDJDSEdfT1NtLUkzUEdpMU10ZzFGbm9QYTJ2OEZhQS1BYTl0MUE?oc=5",
+    "published_at": "2026-07-14T00:58:47+00:00",
+    "category": "new-models",
+    "summary": "MarkTechPost 整理了 Anthropic 三代模型的 Agentic Coding 基準測試表現與 API 定價對比。涵蓋編碼任務準確率、速度與每 Token 成本等維度，幫助技術用戶在效能與費用間做出選擇。",
+    "highlights": [
+      "提供 Sonnet 5、Sonnet 4.6、Opus 4.8 三代模型横評",
+      "聚焦 Agentic Coding 場景的實測數據",
+      "包含 API 定價與成本效益比分析",
+      "消息來源為科技媒體，非官方發布，數據精確度需交叉驗證",
+      "有助於選型決策與成本預算規劃"
+    ],
+    "why_it_matters": "對於需要選擇 Claude 模型應用於開發自動化的用戶，基準測試與成本對比是直接的選型參考。可避免選用過度規格或成本不符需求的模型版本。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據測試結果選擇符合任務複雜度的模型版本，例如簡單重構任務用 Sonnet 5 控制成本，關鍵系統設計交由 Opus 4.8 處理，實現成本與品質的平衡。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -59752,6 +59918,34 @@
     "why_it_matters": "若技術用戶已使用 Oracle 雲端服務，此文件可作為 Agent 工具鏈整合的參考；但對其他技術用戶信號較弱，實用價值有限。",
     "automation_angle": null,
     "automation_angle_zh": "使用 Oracle 雲端服務的技術用戶可查閱此文件評估 MCP Tool 是否能簡化其 Oracle 環境中的 AI 工作流程自動化。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-15-context-hub-coding-agent-api",
+    "title": "吳恩達團隊發布 Context Hub：讓Coding Agent獲得最新API文件的開源工具",
+    "title_original": "Andrew Ng's Team Releases Context Hub: An Open Source Tool that Gives Your Coding Agent the Up-to-Date API Documentation It Needs - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNWlhakNYdXBMWHpBd0lvanE5eWtNZGMzMFNXdXJPSzZueWRJWEE2MHF0dGNCTV9PR0d5d1lrTXRFMnFLMkY3UEFGbnZZR1VaTkFBZURhcHZMaFoyUVdRVzBTWEhxa0hDRkU2SmJkU1ZhZEY0V3pjLWNnLUJ2NE9OUjFjZTBKdjN2MUxJRzZzaVlBOEluMnZjYnJKOVNiVHA3V1VWS3Y1c2lXYnlnemFYM3RScTJ5emRXVWp0ZGRFNVRiRnZNNEZVaTVpSGxGX2hzdXBVZmtIVS1fU0F4Wkp2T3laekR3aEFqYmVSYXlQWkJQN093TkhVNHRQbGU?oc=5",
+    "published_at": "2026-03-09T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Andrew Ng 團隊開源 Context Hub，專為 Coding Agent 設計的即時 API 文件檢索工具。可解決 Agent 使用過時 SDK 文件而產生錯誤程式碼的問題，提升程式碼生成的準確率與可靠性。",
+    "highlights": [
+      "由吳恩達團隊發布，來源可信度較高",
+      "專為 Coding Agent 場景設計，對準開發者痛點",
+      "提供即時最新 API 文件存取，減少版本過時問題",
+      "開源可部署，技術用戶可直接試用",
+      "有潛力整合進現有開發工具鏈"
+    ],
+    "why_it_matters": "Coding Agent 常因文件過時產生幻觉程式碼，Context Hub 直接對症下藥。對於依賴 AI 輔助開發的技術用戶，這是提升輸出品質的實用工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 Context Hub 整合進現有的 AI 程式碼生成工作流程，讓 Agent 在生成呼叫第三方 API 的程式碼時，自動查詢最新文件而非依賴訓練資料中的過時資訊。",
     "tags": [
       "agent-skills",
       "rss",
