@@ -1,5 +1,260 @@
 [
   {
+    "id": "2026-07-16-djtelicloud-grok-mcp-server-grok-mcp",
+    "title": "djtelicloud/grok-mcp-server：本地 Grok MCP 閘道器",
+    "title_original": "djtelicloud/grok-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/djtelicloud/grok-mcp-server",
+    "published_at": "2026-07-16T01:46:03Z",
+    "category": "agent-skills",
+    "summary": "djtelicloud/grok-mcp-server 是一款新興的本地 Grok MCP 伺服器與閘道工具，可同時為 Cursor、Claude Code、VS Code、Codex 與桌面環境提供共享 Grok Agent 能力，支援 xAI API 與 CLI 方案，目前僅 12 顆星。",
+    "highlights": [
+      "MCP 協議支援多 IDE 接入同一 Grok 後端",
+      "強調本地優先，降低資料外傳風險",
+      "支援 xAI API 與 CLI 兩種接入模式",
+      "新專案，星數低，成熟度待觀察",
+      "可作為統一 Grok 入口的實驗工具"
+    ],
+    "why_it_matters": "若 MCP 協議成為未來 Agent 工具標準介面，此類閘道工具能讓技術用戶在多個編輯器中共享同一模型後端，簡化工具鏈管理。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地架設後，將不同 IDE 的 MCP 端點指向同一 Grok 後端，實測多工環境下的延遲與一致性，評估是否值得作為日常工具鏈一部分。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/4994715?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-gofastr-yaml-go-mcp",
+    "title": "gofastr：宣告一次 YAML 就能生出完整 Go 後端與 MCP 工具鏈",
+    "title_original": "DonaldMurillo/gofastr",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/DonaldMurillo/gofastr",
+    "published_at": "2026-07-16T01:43:20Z",
+    "category": "agent-skills",
+    "summary": "gofastr 是一款實驗性 AI Agent 優先的 Go 框架，透過 gofastr.yml 宣告式設定即可自動生成具備 REST API、OpenAPI 文件、MCP 工具與資料庫遷移的標準 Go 程式碼，stdlib 導向讓技術團隊完全掌控產出。",
+    "highlights": [
+      "宣告式設定檔驅動，一次定義多端點與工具",
+      "內建 MCP 工具生成，支援 AI Agent 直接呼叫",
+      "標準 Go 程式碼輸出，無供應商鎖定",
+      "含 REST API 與 OpenAPI 文件自動產生",
+      "目前星星數 12，屬早期實驗階段"
+    ],
+    "why_it_matters": "若你正在建立 AI Agent 工具鏈，gofastr 可大幅減少從原型到可部署 API 的重複 boilerplate 工作，技術宅今天就能 clone 下來測試與改寫。",
+    "automation_angle": null,
+    "automation_angle_zh": "clone repo 後，用 gofastr.yml 定義一個簡單的工具端點，驗證 MCP 工具是否能被 Claude Code 或其他 Agent 正確呼叫與整合。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/54650861?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-simon-willison-grok-mermaid-webassembly",
+    "title": "Simon Willison 把 Grok Mermaid 渲染器編譯成瀏覽器 WebAssembly 工具",
+    "title_original": "Mermaid to Unicode box art (grok-mermaid)",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
+    "published_at": "2026-07-16T00:33:18+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 在研究 xai-grok-markdown 的 Rust Mermaid 渲染器原始碼後，將其編譯為 WebAssembly，讓 Mermaid 流程圖能在瀏覽器中直接以 Unicode 框線即時預覽，適合 CLI 文件或終端介面場景。",
+    "highlights": [
+      "純 Rust 自包含的終端 Mermaid 渲染器",
+      "編譯成 WebAssembly 可在瀏覽器直接執行",
+      "輸出 Unicode 框線圖形，適合終端與純文字環境",
+      "可用 Claude Code 生成整合於網頁工具",
+      "非官方改作，由知名 AI 部落客實作驗證"
+    ],
+    "why_it_matters": "工程師在建立文件工具或 CLI 時常需要渲染 Mermaid 圖表，此 WebAssembly 方案提供輕量、無需伺服器的即時預覽能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此 WebAssembly 工具嵌入你的文件生成流程或 CI，自動把 Mermaid 圖轉為 ASCII 截圖用於視覺化測試。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-xai-grok-build",
+    "title": "xAI Grok Build 開源但捲入隱私風波，緊急補救後開庫驗證",
+    "title_original": "xai-org/grok-build, now open source",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
+    "published_at": "2026-07-15T23:59:30+00:00",
+    "category": "open-source-ai",
+    "summary": "xAI 將 Grok Build CLI 工具開源（Apache 2.0），原始版本被發現會將整個目錄上傳至 Google Cloud，引發社群强烈不滿後緊急禁用並刪除已上傳資料。程式碼含約 84.5 萬行 Rust，其中部分工具實作疑似移植自 Codex 與 OpenCode，現已開源供審查。",
+    "highlights": [
+      "含 84.5 萬行 Rust 的龐大程式碼庫，一次性 commit 釋出",
+      "原始版本預設將整個目錄上傳至 Google Cloud，暴露嚴重隱私問題",
+      "xAI 已緊急禁用上傳功能並刪除已上傳資料",
+      "工具實作移植自 Codex 與 OpenCode，相關授權標註待驗證",
+      "開源後技術社群可自行審計隱私合規性"
+    ],
+    "why_it_matters": "Grok Build 隱私風波顯示即使是知名 AI 公司的 CLI 工具也可能預設上傳敏感資料，技術用戶需對任何新工具進行隔離測試後再部署至真實工作目錄。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可 clone 此專案至隔離環境，用 SLOCCount 與靜態分析工具審計上傳相關程式碼，並決定是否基於開源版本自建乾淨的本地推論版本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-16-dgx-spark-miniboss",
+    "title": "雙 DGX Spark 節點可運行新一波 miniboss 級模型",
+    "title_original": "New wave of miniboss models you can run on dual DGX Spark",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxkl8u/new_wave_of_miniboss_models_you_can_run_on_dual/",
+    "published_at": "2026-07-15T22:29:08+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 討論區有熱文指出新一波「miniboss」級別模型已可在雙 DGX Spark 配置上運行，暗示更強大的本地推論能力，但貼文缺乏具體模型名稱、硬體需求與效能數據。",
+    "highlights": [
+      "瞄準 DGX Spark 硬體配置",
+      "提及 miniboss 等級模型效能",
+      "缺乏具體模型型號與測試數據",
+      "屬社群猜測與早期討論",
+      "對有 DGX Spark 的用戶有參考價值"
+    ],
+    "why_it_matters": "若能在雙節點 DGX Spark 上運行更強模型，對有企業級 GPU 資源的技術團隊是成本與效能權衡的新選項，但具體型號待確認。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你有 DGX Spark 節點，可關注 Reddit 後續討論或廠商公告，在硬體就緒時第一時間下載對應模型進行本地部署評估。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-agent-agent-chatbot",
+    "title": "企業 Agent 部署真相：七成根本不是 Agent，多數還停留在 Chatbot 階段",
+    "title_original": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/category/ai/feed/",
+    "original_url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+    "published_at": "2026-07-15T22:24:17+00:00",
+    "category": "agent-skills",
+    "summary": "VentureBeat 針對 101 家百人以上企業的調查揭示，Anthropic 的 Claude 以 40% 遙遙領先，成為企業首選的 Agent  orchestration 平台。企業選擇平台時以「模型引力」為首要考量，但僅 10% 受訪者表示其部署的「Agent」有一半以上是真正的多步驟工作流程，高達 71% 坦言僅有四分之一或更少是真正的 Agent，超過四分之一完全缺乏即時燒帳預警機制。",
+    "highlights": [
+      "Anthropic Claude 佔據 40% 企業 orchestration 平台市占，是第二名的兩倍以上",
+      "71% 企業坦承部署的 Agent 僅四分之一或更少是真正的多步驟工作流程，其餘多為 chatbot 封裝",
+      "51% 企業規劃 2026 年底前採用混合控制平面，明顯是為規避供應商鎖定風險",
+      "超過四分之一（27%）企業對 Agent 燒帳完全沒有即時阻斷機制，僅能事後查看",
+      "Workflow 工具（34%）和安全權限（25%）是下一年度最大的投資方向"
+    ],
+    "why_it_matters": "這份調查戳破了企業 AI 部署的泡沫敘事：多數所謂的「Agent」其實只是加強版 chatbot，真正的 orchestration 層還在建構中，但平台佈局與投資已搶先到位，技術決策者可從中找到真實需求的著力點。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可借此報告評估自身 orchestration 成熟度，特別是即時成本控制缺口；對有意建構企業級 Agent 控制層的團隊，混合控制平面（含自建 gateway + 廠商原生能力）是值得追蹤的架構方向。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-16-aitytech-agentkits-marketing-agent",
+    "title": "aitytech/agentkits-marketing：企業級行銷自動化 Agent 工具包",
+    "title_original": "aitytech/agentkits-marketing",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aitytech/agentkits-marketing",
+    "published_at": "2026-07-15T20:41:05Z",
+    "category": "agent-skills",
+    "summary": "aitytech/agentkits-marketing 是一款開源企業級 AI 行銷自動化工具，相容 Claude Code、Cursor、GitHub Copilot 等主流 AI 助理，支援 Agent 與 Skills 擴展機制，目前 GitHub 565 顆星，以 Python 實作。",
+    "highlights": [
+      "支援三大主流 AI 程式助理（Claude Code、Cursor、Copilot）",
+      "面向企業行銷場景，具備落地實用性",
+      "開源 Python 專案，可直接 Fork 改寫或整合",
+      "Star 數 565，反映社群對行銷自動化的需求",
+      "可用於評估不同 AI 助理在行銷任務上的協作能力"
+    ],
+    "why_it_matters": "行銷流程自動化是企業剛需，該工具包提供跨平台整合能力，讓技術團隊能以統一路由對接多個 AI 助理執行行銷任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此工具包部署至行銷工作流程，測試其是否能自動生成文案、社群貼文或郵件，並透過不同 AI 助理比較輸出品質與效率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/124106070?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-inkling",
+    "title": "Inkling 被社群封為美國第一開源權重模型",
+    "title_original": "Inkling by Thinking Machines is the #1 US open weight model now",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxhpws/inkling_by_thinking_machines_is_the_1_us_open/",
+    "published_at": "2026-07-15T20:40:38+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群有貼文宣稱 Thinking Machines 的 Inkling 已成為美國境內排名第一的開源權重模型，但此說法缺乏官方數據或第三方排名依據，屬於早期社群討論。",
+    "highlights": [
+      "社群自發性貼文",
+      "號稱美國第一但無第三方驗證",
+      "可能基於少數基準測試推論",
+      "準確性存疑，需更多來源交叉比對",
+      "反映社群對新模型的關注熱度"
+    ],
+    "why_it_matters": "此訊息目前僅反映社群熱度，尚不足以作為模型選型依據，待有完整技術文件與獨立測評後再評估其實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立 GitHub alert 追蹤 Thinking Machines 官方 repo，待官方發布後再評估是否值得整合進本地部署測試名單。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-thinking-machines-inkling",
+    "title": "Thinking Machines 首個開源模型 Inkling 基準測試出爐",
+    "title_original": "The Benchmarks of Thinking Machine's first open-source model Inkling",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxgi4c/the_benchmarks_of_thinking_machines_first/",
+    "published_at": "2026-07-15T19:53:07+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 熱議 Thinking Machines 發表的首個開源模型 Inkling，社群已流出其基準測試數據，號稱在多項標準測試中達到領先水準，但詳細規格與模型權重發布情形尚待確認。",
+    "highlights": [
+      "Thinking Machines 首個開源模型",
+      "基準測試數據在 Reddit 流傳",
+      "宣稱效能表現亮眼",
+      "模型權重發布狀態待官方公告",
+      "社群討論熱度高但細節有限"
+    ],
+    "why_it_matters": "開源模型有新競爭者加入值得關注，但 Reddit 訊息源可靠性有限，需等官方正式發布與第三方獨立測評後才能確認實際能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤 Thinking Machines 官方 GitHub 或 HuggingFace 頁面，確認權重發布後第一時間下載，在本地硬體上跑 lm-evaluation-harness 驗證實際效能。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-15-langchain-agent",
     "title": "LangChain 提出 Agent 專用沙箱架構：安全隔離執行環境",
     "title_original": "Agents need their own computer. Here's how to give them one safely.",
@@ -48,6 +303,33 @@
     "automation_angle_zh": "技術用戶可將重複性查詢、會議紀錄生成、任務追蹤等流程封裝為 Slack Agent，團隊成員只需 @mention 即可觸發。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-rwkv-rnn-transformer-llm",
+    "title": "RWKV：新架構結合 RNN 與 Transformer 級 LLM 效能",
+    "title_original": "RWKV is an RNN with great LLM performance and parallelizable like a Transformer.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxe3tj/rwkv_is_an_rnn_with_great_llm_performance_and/",
+    "published_at": "2026-07-15T18:21:21+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 討論串指出 RWKV 是一種新型 RNN 架構，能在維持 LLM 任務效能的同時實現 Transformer 級平行訓練，號稱兼顧兩者優勢。該 repo 已開源一段時間，但持續獲得社群關注與效能 benchmark 討論。",
+    "highlights": [
+      "RWKV 宣稱能在 LLM 任務上達到 Transformer 等級表現",
+      "核心特性：具 RNN 的推論效率與 Transformer 的平行訓練能力",
+      "屬開源專案，有別於主流 Transformer 架構的替代方案",
+      "適合對推論成本敏感、需要長序列處理的場景"
+    ],
+    "why_it_matters": "RWKV 若真能在不犧牲效能前提下提供 RNN 的低推論成本，對追求高效能比的技術團隊是潛在替代方案；但需自行驗證 benchmark 數據而非依賴社群宣稱。",
+    "automation_angle": null,
+    "automation_angle_zh": "對有長 context 或高頻推論需求的自動化流程，可評估 RWKV 是否能替代現有 Transformer 模型以降低 Token 成本，特別適合本地部署場景。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -6554,6 +6836,34 @@
       "Java"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/49833622?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-openai-gpt-realtime-2-1-2-1-mini-agent-api",
+    "title": "OpenAI 發布 GPT-Realtime-2.1 與 2.1-mini，主打低延遲語音 Agent API",
+    "title_original": "OpenAI Releases GPT-Realtime-2.1 and GPT-Realtime-2.1-mini for Low-Latency Voice Agents in the API - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUjV2dTg5UUl2NUtTV3cza3dJVS1TX3kzU3cwVWhjTTAxeUFoZTlpSkwzX0t4TGdocVozenN3Z1ZUTGR1bC1zazBTaGlmUUhrdFJNeWFjRTFiM0htUDNtdERnd24xUnpaWlR5dXcya3ZkZ1VrX0lpWjc4WnpCenRUZkRLOWhrc2hnOTI0VmkwemZlY24yWEtz?oc=5",
+    "published_at": "2026-07-06T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 正式在 API 中推出 GPT-Realtime-2.1 與 GPT-Realtime-2.1-mini，專為低延遲語音對話場景優化，開發者可直接透過 API 建立即時語音 Agent，MarkTechPost 報導此版本在延遲指標上有明顯進步。",
+    "highlights": [
+      "瞄準低延遲語音 Agent 應用場景",
+      "提供標準版與 mini 輕量版本",
+      "直接透過 OpenAI API 调用",
+      "相比前代在延遲指標有實測提升",
+      "MarkTechPost 為二級來源，細節待官方文件驗證"
+    ],
+    "why_it_matters": "語音 Agent 是目前 Agent 應用熱點，若延遲真有突破，工程師可考慮用於客服、會議助理或即時口譯等產品的下一版建構。",
+    "automation_angle": null,
+    "automation_angle_zh": "申請 API key 後，用 GPT-Realtime-2.1-mini 建立一個簡單的語音對話腳本，測量端對端延遲並與現有方案比較。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
