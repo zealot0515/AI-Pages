@@ -1,5 +1,503 @@
 [
   {
+    "id": "2026-07-16-posthog-ai",
+    "title": "PostHog：AI 可觀測性為核心的產品分析平台",
+    "title_original": "PostHog/posthog",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/PostHog/posthog",
+    "published_at": "2026-07-16T18:55:36Z",
+    "category": "agent-skills",
+    "summary": "PostHog 是領先的產品分析開源平台，提供 AI 可觀測性、Session Replay、Feature Flags、實驗追蹤、錯誤監控、日誌等功能，並支援 Slack、Web、桌面端以及 MCP 協定操作。Python 開發、GitHub 3.5 萬星，人工智慧相關產品開發者生態成熟。",
+    "highlights": [
+      "整合 AI 可觀測性，可捕捉 Agent 診斷所需的上下文",
+      "支援 Session Replay 與錯誤追蹤，利於 AI 應用除錯",
+      "Feature Flags 與實驗功能支援 AI 功能迭代管理",
+      "提供 MCP 協定介面，可與 Agent 工具鏈整合",
+      "Python 生態，3.5 萬星，社群資源豐富"
+    ],
+    "why_it_matters": "PostHog 的 MCP 支援讓 AI Agent 能直接查詢產品分析資料，為建構資料驅動的自動化工作流程提供可操作的觀測層，是 AI 應用可觀測性的實作參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可部署 PostHog 監控自建 AI Agent 的行為模式與錯誤率，結合 MCP 讓 Agent 能自主查詢使用資料並觸發告警或優化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/60330232?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-16-overseer-cli-code-mcp-task",
+    "title": "overseer：CLI 與 Code 模式的 MCP Task 管理伺服器",
+    "title_original": "dmmulroy/overseer",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/dmmulroy/overseer",
+    "published_at": "2026-07-16T18:48:34Z",
+    "category": "agent-skills",
+    "summary": "overseer 是專為 AI Agent 任務管理設計的 MCP 伺服器，透過 CLI 介面與 Code 模式提供 Agent 工作協調能力。GitHub 220 星，屬於新興 MCP 工具生態，適合對 Agent 工作流程有自定義需求的技術用戶探索。",
+    "highlights": [
+      "專為 Agent Task 管理設計的 MCP 伺服器",
+      "提供 CLI 介面與 Code 模式兩種操作方式",
+      "220 星，處於快速成長期的新興專案",
+      "可用於自訂 Agent 工作流程協調場景",
+      "需注意早期專案穩定性可能有限"
+    ],
+    "why_it_matters": "MCP 生態持續擴展，overseer 這類專門的任務管理伺服器為建構複雜 Agent 協調流程提供新選項，對工作流程自動化有直接實作價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝 overseer 並與現有 MCP Client 整合，測試其能否替代或補充當前任務佇列方案，用於自動化腳本或 AI 工作流程的排程管理。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/2755722?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-kimi-k3-k3",
+    "title": "Kimi 官方釋出 K3 發布影片，全程由 K3 生成",
+    "title_original": "Kimi K3 Release Video [Made with Kimi K3]",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyaiw2/kimi_k3_release_video_made_with_kimi_k3/",
+    "published_at": "2026-07-16T18:07:42+00:00",
+    "category": "new-models",
+    "summary": "月之暗面官方發布 Kimi K3 宣傳影片，標榜該影片由 Kimi K3 模型輔助生成，展示模型的多模態創作與指令遵從能力。這是廠商展示模型實際表現的常見行銷策略。",
+    "highlights": [
+      "官方發布影片展示 K3 的影片生成與腳本創作能力",
+      "強調端到端由 AI 輔助完成的製作流程",
+      "屬於產品發布行銷內容，真實能力需獨立驗證",
+      "影片品質可作為模型影片生成下限參考"
+    ],
+    "why_it_matters": "廠商展示的 Demo 通常代表最佳案例而非平均水準。但作為模型能力下限參考，技術團隊可從中判斷該模型是否值得進一步深入測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "不要將 Demo 影片視為能力保證，而是作為初步判斷素材；若 Demo 展示的能力接近團隊需求，再投入正式測試資源評估實際表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-gpt-5-6-codex",
+    "title": "GPT-5.6 Codex 出現檔案誤刪漏洞",
+    "title_original": "Quoting Thibault Sottiaux",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
+    "published_at": "2026-07-16T17:45:59+00:00",
+    "category": "agent-skills",
+    "summary": "Codex 在無沙箱保護且未啟用自動審查時，GPT-5.6 會意外覆寫 $HOME 環境變數，導致錯誤刪除用戶家目錄檔案，官方已確認為真實漏洞。",
+    "highlights": [
+      "漏洞發生條件：Full Access Mode + 無沙箱 + 未開啟 auto review",
+      "模型錯誤地將 $HOME 覆寫為臨時目錄",
+      "後續操作可能導致整個家目錄被刪除",
+      "官方描述為「誠實錯誤」，非惡意行為",
+      "使用 Codex 的開發者應立即檢查防護設定"
+    ],
+    "why_it_matters": "對於依赖 Codex 自動化程式碼任務的開發者，此漏洞可能造成資料損失，所有使用者需確認已啟用沙箱與 auto review 才能規避風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Codex 前必須確認已啟用沙箱隔離與自動審查機制，並避免在無防護環境下執行完整權限的程式碼生成任務。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-16-venturebeat-ai-64",
+    "title": "VentureBeat 調查：企業 AI 算力缺口加劇，64% 企業規劃一年內更換供應商",
+    "title_original": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/category/ai/feed/",
+    "original_url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
+    "published_at": "2026-07-16T17:35:19+00:00",
+    "category": "ai-deals",
+    "summary": "VentureBeat Pulse Research 調查 107 家企業發現，AI 基礎設施支出增速遠超成本可視性。僅 21% 企業已大規模生產部署 AI，但 45% 計劃未來一年評估專業 AI 雲端；64% 打算在 12 個月內更換或新增基礎設施供應商，38% 更希望在下一季完成切換。83% 企業 GPU 利用率低於 50%，且僅 44% 能嚴格追蹤算力成本與 ROI。",
+    "highlights": [
+      "僅 21% 企業達到大規模 AI 生產部署階段",
+      "專業 AI 雲端（如 CoreWeave、Lambda）使用率接近零，但成首要評估目標（45%）",
+      "64% 企業規劃一年內更換供應商，38% 下季完成切換",
+      "83% GPU 利用率低於 50%，成本追蹤能力普遍不足",
+      "採購首要考量為系統整合（41%）與總擁有成本（35%），而非單位token價格"
+    ],
+    "why_it_matters": "這份報告揭示企業 AI 基礎設施決策正快速重塑，GPU 低效使用與成本可視性不足將迫使技術管理者重新審視算力管理策略與供應商選擇邏輯。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術管理者可利用報告數據建立算力利用率追蹤儀表板，並評估專業 AI 雲端或非 NVIDIA 加速器（如 Trainium、TPU）對自身工作負載的成本效益。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-kimi-k3",
+    "title": "Kimi K3 模型基準測試曝光：本地部署新選擇？",
+    "title_original": "Kimi K3 Benchmarks",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy9cft/kimi_k3_benchmarks/",
+    "published_at": "2026-07-16T17:25:41+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群流傳 Kimi K3 的基準測試結果，據稱是一款具備競爭力的本地部署語言模型。測試內容涵蓋標準推論、程式碼生成與多輪對話能力，但具體數值尚未完整揭露。",
+    "highlights": [
+      "Kimi K3 為月之暗面（Moonshot）旗下的新型號",
+      "Reddit 用戶分享的測試顯示在部分基準上與同級開源模型競爭",
+      "支援 Web 與 App 端訪問，本地部署可行性待社群驗證",
+      "測試來源為非官方，數據解讀需謹慎"
+    ],
+    "why_it_matters": "若 Kimi K3 確實提供良好的性價比與本地部署選項，將為需要自主控制模型的企業提供新的中國模型替代方案。但目前資訊主要來自 Reddit 討論，需等待官方規格確認。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 r/LocalLLaMA 後續的本地部署討論，若通過驗證可考慮作為 GPT-4 或 Claude 的本地替代；目前建議等待更完整的基準數據再決定是否投入測試資源。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-luciole-23b-instruct-1-1-apache-2-0",
+    "title": "法國開源模型 Luciole-23B-Instruct-1.1 發布，支援 Apache 2.0 商用授權",
+    "title_original": "OpenLLM-France/Luciole-23B-Instruct-1.1 (Apache 2.0 license, 8B and 1B also available)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy9a8f/openllmfranceluciole23binstruct11_apache_20/",
+    "published_at": "2026-07-16T17:23:33+00:00",
+    "category": "open-source-ai",
+    "summary": "OpenLLM-France 發布 Luciole-23B-Instruct-1.1 模型，採用 Apache 2.0 許可證開放商用，同時提供 8B 與 1B 參數版本。該模型由法國開源社群主導開發，可作為非英語任務的本地部署替代選項。",
+    "highlights": [
+      "Apache 2.0 許可證明確允許商業使用與二次分發",
+      "提供 23B、8B、1B 三種規模，適配不同算力條件",
+      "法語原生訓練，可能在法語任務上優於通用英語模型",
+      "開源特性允許本地部署，無 API 調用成本",
+      "可自行部署測試其指令遵循與對話能力"
+    ],
+    "why_it_matters": "開源多語言指令模型的選擇增加，有助技術團隊針對特定語言任務降低 API 依賴成本並提升資料隱私控制能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 1B 或 8B 版本在消費級 GPU 上測試法語客服、文件處理或多語言翻譯等任務的自動化可行性，評估替代商業 API 的成本效益。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-ai-57",
+    "title": "企業 AI 上下文缺口：57% 曾遇自信但錯誤的答案",
+    "title_original": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/category/ai/feed/",
+    "original_url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
+    "published_at": "2026-07-16T17:06:08+00:00",
+    "category": "hot-topics",
+    "summary": "VentureBeat 調查 101 家企業顯示，57% 的 AI 代理曾因上下文不足或不一致產生自信但錯誤的答案；RAG 已成主流上下文來源，供應商原生檢索工具（OpenAI File Search、Vertex AI Search）已超越專用向量資料庫；混合檢索預計 2026 年成主流，受治理的語意層多數仍在建設中。",
+    "highlights": [
+      "57% 企業曾遇代理自信但錯誤的答案，源於上下文問題",
+      "RAG 為主要上下文來源（38%），超越其他所有方法",
+      "OpenAI File Search（40%）和 Vertex AI Search（38%）使用率領先專用向量庫",
+      "混合檢索（向量+重排序）預計 2026 年成主流（34%）",
+      "58% 企業正在建立受治理語意層，但多數未上線"
+    ],
+    "why_it_matters": "上下文品質是企業 AI 系統成敗關鍵，檢索架構正快速演進，供應商原生方案已實際領先但企業仍希望保持模組化選擇權。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估自家 RAG 系統時需關注上下文一致性與存取控制，可考慮採用混合檢索架構並建立語意層，避免「自信錯誤」的系統性風險。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-openwiki-0-2-okf",
+    "title": "OpenWiki 0.2 支援 OKF 格式強化程式碼庫文檔",
+    "title_original": "OpenWiki 0.2 brings OKF to codebase documentation",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/openwiki-0-2-adds-okf-support",
+    "published_at": "2026-07-16T16:52:39+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 OpenWiki 0.2，能自動生成符合 OKF 格式的程式碼庫維基，包含元數據、變更日誌，並針對 AI 代理檢索優化，有助於建立機器可讀的專案文檔。",
+    "highlights": [
+      "支援 OKF（Open Knowledge Format）結構化輸出",
+      "自動生成元數據與變更日誌",
+      "優化 AI 代理的文檔檢索友好度",
+      "可整合至 LangChain 生態系統",
+      "減少手動維護程式碼庫文檔的成本"
+    ],
+    "why_it_matters": "程式碼庫文檔是 AI 代理準確回答內部問題的關鍵，OpenWiki 0.2 將文檔維護自動化，降低開發者負擔並提升代理問答品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 OpenWiki 0.2 整合進 CI/CD pipeline，每次 commit 自動更新專案維基，確保 AI 代理始終能檢索到最新的程式碼庫資訊。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-agent-157",
+    "title": "企業 Agent 評估鴻溝：157 家企業的現實對齊危機",
+    "title_original": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/category/ai/feed/",
+    "original_url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
+    "published_at": "2026-07-16T16:40:48+00:00",
+    "category": "agent-skills",
+    "summary": "VentureBeat 調查 157 家百人以上企業發現，50% 的組織曾部署通過內部評估但在生產環境中導致客戶面向故障的 Agent。僅 5% 完全信任自動化評估，最常見原因是評估與現實結果對齊度差。66% 企業已允許或規劃在一年內實現零人類介入的自動部署，但同時 26% 正增加人類審查預算。",
+    "highlights": [
+      "50% 企業曾在過去一年部署通過評估但最終客戶失敗的 Agent，四分之一發生多次",
+      "僅 5% 完全信任自動化評估，29% 指出評估與現實結果對齊度差是最大痛點",
+      "66% 企業已允許或正在建設零人類介入的自動部署管道",
+      "最常用評估工具是供應商原生工具（30%），與完全無專用工具並列（17%）",
+      "51% 企業僅監控系統運行狀態，而非輸出正確性"
+    ],
+    "why_it_matters": "企業正在加速部署 Agent 自主性，但支撐這個自主性的評估系統既不成熟也不被信任。這份調查揭示了自動部署擴張與保障機制之間的結構性斷層，對正在構建 Agent 系統的技術人員有直接警示意義。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊應將此報告作為檢查清單：驗證自家評估是否對齊實際生產場景、建立輸出正確性的實時監控、重新評估零人類介入閾線是否設置過早。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-16-nvidia-nemotron-3-embed-rteb",
+    "title": "NVIDIA Nemotron 3 Embed 登頂 RTEB 基準測試",
+    "title_original": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+    "published_at": "2026-07-16T16:01:21+00:00",
+    "category": "new-models",
+    "summary": "NVIDIA 發布 Nemotron 3 Embed 模型，在 RTEB（Retrieval Evaluation Benchmark）總排名拿下第一，專為代理式檢索優化，可提升 RAG 系統的上下文召回準確度。",
+    "highlights": [
+      "RTEB 總排名第一，超越其他專用向量模型",
+      "NVIDIA Nemotron 系列最新成員",
+      "針對代理式檢索場景優化",
+      "開源可用，部署於企業內網無外部依賴",
+      "可用於取代付費 Embedding API"
+    ],
+    "why_it_matters": "向量檢索是企業 RAG 的核心瓶頸，Nemotron 3 Embed 直接解決召回率問題，且開源可自架，節省大量 API 调用成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 Nemotron 3 Embed 部署為企業內部向量檢索服務，替換 OpenAI / Cohere 等付費 Embedding API，用於文件分類、知識庫問答自動化。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-16-openai-ai",
+    "title": "OpenAI 發布青少年安全使用 AI 指南",
+    "title_original": "Why teens deserve access to safe AI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+    "published_at": "2026-07-16T16:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方博客說明其為青少年設計的安全機制，包括年齡保護、分級學習工具、家長監護功能，以及與專家合作確保內容合宜性。",
+    "highlights": [
+      "年齡驗證與內容分級保護",
+      "家長控制面板可監管使用情況",
+      "專家合作驗證安全性設計",
+      "主要針對 ChatGPT 產品，非 API 層面",
+      "屬政策與產品公告，非技術突破"
+    ],
+    "why_it_matters": "對技術讀者實用價值有限，但了解平台安全設計有助於評估在教育場景的合規性，以及 API 使用政策的潛在影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "如需在教育產品整合 AI，可參考其年齡驗證機制設計思路，確保產品符合青少年保護合規要求。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-google-vids-gemini-omni",
+    "title": "Google Vids 整合 Gemini Omni 與個人化身功能",
+    "title_original": "Create, edit and star in videos with two Google Vids updates",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+    "published_at": "2026-07-16T16:00:00+00:00",
+    "category": "new-models",
+    "summary": "Google Vids 新增 Gemini Omni 模型能力與個人化身功能，讓用戶可以 AI 生成虛擬形象出現在影片中，並透過自然語言指令完成影片編輯。目標是降低專業影片製作門檻，Workspace 用戶可直接使用。",
+    "highlights": [
+      "Gemini Omni 驅動的個人化身：用戶可創建 AI 生成的虛擬形象代替本人出鏡",
+      "自然語言驅動編輯：透過對話指令調整腳本、剪輯順序與視覺效果",
+      "整合至 Google Workspace 生態，影片可直接發布至 Meet、Drive 等平台",
+      "主要面向企業內部通訊、行銷內容快速製作場景"
+    ],
+    "why_it_matters": "Google 將旗艦多模態模型直接嵌入協作工具，標誌著 AI 影片生成從實驗走向企業日常生產力的實際落地。對需要快速產出內部培訓或行銷影片的團隊，此功能可直接減少影片製作時間與外包依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估自家團隊的影片需求規模，若大量依賴外包或内部耗時拍攝，可申請 Workspace 試用估算 ROI；開發者也可研究 Gemini Omni API 是否支援自定義化身管道的整合。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-16-google-ai-mode",
+    "title": "Google AI Mode 開放第三方應用串接整合",
+    "title_original": "Connect more of your apps to Search",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+    "published_at": "2026-07-16T16:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Google 宣布將允許用戶安全地將常用第三方應用程式與 Google AI Mode 串接，用戶可直接在 AI Mode 內與串接的服務互動，無需切換多個應用程式。具體支援哪些應用與 API 串接規格尚未完整公布。",
+    "highlights": [
+      "官方 Google AI Blog 發布，可信度高但細節有限",
+      "目標為提升 AI Mode 使用便利性與生態整合",
+      "具體支援應用清單與串接方式待公布",
+      "可能為 Google AI 生態系統擴展的重要一步"
+    ],
+    "why_it_matters": "AI 助理與第三方工具的深度整合將影響自動化工作流程設計，技術用戶需關注此整合能力如何影響現有工具鏈與 AI 代理（Agent）的操作邊界。",
+    "automation_angle": null,
+    "automation_angle_zh": "待 API 串接規格公佈後，可評估將內部工具或常用 SaaS 應用串接至 AI Mode，實現透過自然語言驅動跨系統自動化操作的可能性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-thinking-machines-lab-inkling",
+    "title": "Thinking Machines Lab 發布 Inkling 開源權重模型",
+    "title_original": "Inkling: Our open-weights model",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything",
+    "published_at": "2026-07-16T15:35:25+00:00",
+    "category": "open-source-ai",
+    "summary": "Mira Murati 創立的 Thinking Machines Lab 發布首款開源權重模型 Inkling，採用 MoE 架構，總參數 975B、活躍 41B，採用 Apache-2.0 授權，支援文本、圖像、音頻、視頻多模態，訓練於 45 兆 tokens。另有 Inkling-Small（276B/12B 活躍）仍在測試中。",
+    "highlights": [
+      "Apache-2.0 許可，可自由商用與修改",
+      "MoE 架構：總參數 975B，活躍僅 41B，推論效率高",
+      "多模態輸入支援文字、圖片、音訊、影片",
+      "可透過 Tinker 平台進行微調客製",
+      "官方坦言非前沿模型，定位為微調基底"
+    ],
+    "why_it_matters": "美國開源 AI 生態新增有力競爭者，Apache-2.0 授權適合企業內部部署與商業產品整合，填補美國陣營在開源多模態基底模型的缺口。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 curl 直接呼叫 Tinker API 測試模型能力，或在本地微調後部署至自動化 pipeline，取代付費 API 處理特定任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-16-kimi-k3-web-app",
+    "title": "Kimi K3 正式登陸 Web 與 App 平台",
+    "title_original": "Kimi K3 released on web and app",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy3a0q/kimi_k3_released_on_web_and_app/",
+    "published_at": "2026-07-16T13:43:09+00:00",
+    "category": "new-models",
+    "summary": "Kimi K3 已開放 Web 與移動應用程式訪問，用戶可直接透過月之暗面官網或 App 體驗新版模型能力。官方尚未發布詳細技術規格，產品定位與定價資訊有待後續公告。",
+    "highlights": [
+      "Kimi K3 已上線 web.moonshot.cn 及 iOS/Android App",
+      "目前為公開測試階段，功能與限制可能調整",
+      "官方技術文件尚未完整發布，細節需持續關注",
+      "與 Kimi K1 形成產品線高低搭配"
+    ],
+    "why_it_matters": "月之暗面持續擴展 Kimi 產品線，K3 的推出顯示中國大模型廠商正加速更新週期。對亞洲市場用戶或需要中文優化模型的團隊，這是一個值得關注的選項，但具體能力邊界需待官方規格出爐。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可派員工實際測試 Kimi K3 與現有用模型的差異，評估是否符合內部任務需求；建議等待官方 API 開放後再評估系統整合可行性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-mozilla-2026-ai",
+    "title": "Mozilla 發布《2026 年開源 AI 現狀報告》",
+    "title_original": "Mozilla’s State of Open Source AI Report",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy35n6/mozillas_state_of_open_source_ai_report/",
+    "published_at": "2026-07-16T13:38:22+00:00",
+    "category": "open-source-ai",
+    "summary": "Mozilla 基金會發布年度開源 AI 現狀報告，涵蓋開源模型使用趨勢、部署痛點、生態治理等面向。報告旨在追蹤開源 AI 發展並推動負責任的 AI 生態，適合技術決策者參考開源策略。",
+    "highlights": [
+      "報告由 Mozilla 基金會主導，為較可信的第三方來源",
+      "內容涵蓋開源模型採用率、部署障礙與社群治理",
+      "可作為企業評估開源 AI 策略的參考基準",
+      "報告重點在趨勢分析而非單一模型效能排名"
+    ],
+    "why_it_matters": "開源 AI 正成為企業降低模型依賴成本與提升自主可控性的關鍵路徑，該報告提供系統性視角有助技術團隊制定開源策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可根據報告數據評估開源模型在特定任務上的成熟度，選擇合適開源工具整合至現有自動化工作流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-linus-torvalds-ai",
+    "title": "Linus Torvalds 明確表態：AI 是有價值的工具",
+    "title_original": "Quoting Linus Torvalds",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything",
+    "published_at": "2026-07-16T13:26:10+00:00",
+    "category": "hot-topics",
+    "summary": "Linux 創辦人 Linus Torvalds 在 Linux Media Mailing List 明確表示，AI 是與其他工具無異的實用工具，並對 Linux 專案採用 AI 持絕對支援立場。他指出任何人若仍質疑 AI 的實用性，顯然沒有真正使用過。",
+    "highlights": [
+      "TORVALDS：「AI 是一個工具，就像我們使用的其他工具，顯然是有用的」",
+      "明確反對 Linux 專案中的反 AI 立場，歡迎 fork 或離開",
+      "承認 AI 經濟模式的最終形態仍有疑問，但「是否有用」已無爭議",
+      "呼籲懷疑者實際使用後再下判斷"
+    ],
+    "why_it_matters": "開源社群領袖的明確支援可能加速主流開源專案採用 AI 輔助開發流程。對技術人員而言，這代表企業級開源專案將更快接受 AI 工具，降低在這些專案中使用 Copilot 等工具的社區阻力。",
+    "automation_angle": null,
+    "automation_angle_zh": "若參與開源專案或企業內部開源治理，可引用此表態減少對使用 AI 工具的內部阻力；對於仍在觀望 AI 代碼工具的團隊，Torvalds 的背書提供了組織政治上的保護。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-16-rolecraft-cli-86-agent-mcp",
     "title": "Rolecraft：零依賴 CLI 工具，86+ Agent 技能與 MCP 伺服器一鍵安裝",
     "title_original": "sametcelikbicak/rolecraft",
@@ -306,6 +804,34 @@
     "automation_angle_zh": "將此 WebAssembly 工具嵌入你的文件生成流程或 CI，自動把 Mermaid 圖轉為 ASCII 截圖用於視覺化測試。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-cars24-openai-agent",
+    "title": "Cars24 規模化部署 OpenAI 語音與對話 Agent",
+    "title_original": "How Cars24 scales conversations and builds faster with OpenAI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/cars24",
+    "published_at": "2026-07-16T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方案例披露 Cars24 每月處理超過 100 萬分鐘的 AI 對話，使用語音與聊天 Agent 回收 12% 的流失潛在客戶，並將 Agentic 工作流程推廣至公司各團隊。屬於大規模企業部署案例，有官方來源背書。",
+    "highlights": [
+      "每月 100 萬+ 分鐘 AI 對話規模，具實際生產量級",
+      "語音 + 聊天 Agent 組合，回收 12% 流失線索",
+      "Agentic 工作流程推廣至跨團隊，非單點實驗",
+      "資訊來源為 OpenAI 官方 Blog，可信度高",
+      "代表企業級 AI 部署的成熟度參考"
+    ],
+    "why_it_matters": "12% 的流失線索回收率在企業場景中具體可量化，Cars24 案例證明語音 + 對話 Agent 在實際業務流程中的ROI，是評估類似部署可行性的參照。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術架構師可參考 Cars24 的語音 Agent 架構，評估引入 OpenAI Realtime API 或 Voice API 處理客服或外呼自動化的可行性與成本模型。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
