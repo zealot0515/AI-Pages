@@ -1,5 +1,232 @@
 [
   {
+    "id": "2026-07-16-rolecraft-cli-86-agent-mcp",
+    "title": "Rolecraft：零依賴 CLI 工具，86+ Agent 技能與 MCP 伺服器一鍵安裝",
+    "title_original": "sametcelikbicak/rolecraft",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sametcelikbicak/rolecraft",
+    "published_at": "2026-07-16T13:20:08Z",
+    "category": "open-source-ai",
+    "summary": "Rolecraft 是一款無依賴的 JavaScript CLI 工具，可從任意來源安裝 AI Agent 技能與 MCP 伺服器，號稱 86+ 種 Agent，無需註冊、無遙測數據、僅 4KB 大小。適合需要快速擴展 Agent 能力的技術用戶。",
+    "highlights": [
+      "零外部依賴，4KB 極簡二進制分發",
+      "支援 86+ 種 Agent 技能與 MCP 伺服器安裝",
+      "無需註冊帳號，無遙測上傳，強調隱私",
+      "可從任意來源（URL、Git）拉取技能包",
+      "74 stars，關注度與穩定性相對 termmate 更高"
+    ],
+    "why_it_matters": "Rolecraft 以極小體積與零隱私風險為賣點，能快速為現有工作流程添加 Agent 能力。對技術用戶而言，是評估 MCP 協議生態的輕量切入點。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可使用 Rolecraft 快速為終端工作流程注入 MCP 能力，例如一鍵安裝檔案管理、程式碼審查等 Agent 技能，打造個人化的 CLI Agent 環境。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/5312741?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-fuse-net-mcp-roslyn-di",
+    "title": "Fuse：.NET 專用的 MCP 伺服器，Roslyn 驅動型別檢查與 DI 解析",
+    "title_original": "Litenova-Solutions/Fuse",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Litenova-Solutions/Fuse",
+    "published_at": "2026-07-16T12:58:44Z",
+    "category": "agent-skills",
+    "summary": "Litenova-Solutions 釋出開源專案 Fuse，為 .NET 生態系打造 MCP（Model Context Protocol）伺服器。核心功能包含使用 Roslyn 編譯器 API 做 AI 代理編輯的即時型別檢查、解析依賴注入與路由佈線，並能自動範圍化 PR 變更範圍至相關檔案。13 顆星，C# 實作。",
+    "highlights": [
+      "• 基於 Roslyn 的編譯器整合，AI 編輯時即時 catch 型別錯誤",
+      "• 解析 IServiceCollection DI 容器設定，幫 Agent 理解服務注入",
+      "• 分析路由設定，識別 MVC/WebAPI 端點變更影響範圍",
+      "• PR scope 自動縮小至相關檔案，減少無關變更噪音",
+      "• MCP 協定標準化整合，可與 Claude/Cline 等主流 Agent 互操作"
+    ],
+    "why_it_matters": "讓 AI Agent 在 .NET 專案中的編輯具備編譯器級別的正確性保障，解決目前 Agent 容易產出型別錯誤或忽略 DI 依賴的痛點。",
+    "automation_angle": null,
+    "automation_angle_zh": "今天就能 clone 下來，在本機 .NET 專案跑 `dotnet run` 測試 MCP 端點，讓 Cline 或其他 MCP Client 連線驗證型別檢查效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/177821518?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-rtx-5090-24gb-vram-llm",
+    "title": "RTX 5090 筆電（24GB VRAM）實測：終於能在筆電跑 LLM 了",
+    "title_original": "I just got my first GPU that can actually run an LLM (Laptop 5090 24 GB) what do I play with first?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uy1yl8/i_just_got_my_first_gpu_that_can_actually_run_an/",
+    "published_at": "2026-07-16T12:49:51+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享入手搭載 RTX 5090、24GB 顯示記憶體的筆電後，首次能流暢運行大語言模型的體驗。討論涵蓋可跑的模型參數量（7B-14B Q4 量化）、推論速度、散熱表現，以及推薦的工具軟體（Ollama、LM Studio）。",
+    "highlights": [
+      "• RTX 5090 Laptop GPU 具備 24GB VRAM，散熱設計是關鍵",
+      "• 可流暢跑 14B 模型 Q4 量化版本（每秒 20-30 token）",
+      "• Ollama 與 LM Studio 是社群推薦的主流前端",
+      "• 討論 Windows WSL 與原生 Linux 驅動的效能差異",
+      "• 為行動端本地 AI 開發開闢新可能性"
+    ],
+    "why_it_matters": "消費級筆電 GPU 突破 20GB VRAM 門檻，改變行動端本地 AI 開發與測試的邊界，降低隨身實驗的設備門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "若手中已有類似規格設備，立即安裝 Ollama 用 `ollama run llama3` 實測 7B/13B 模型的回應延遲與品質，作為個人工作流程的補充推論節點。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-hugging-face",
+    "title": "Hugging Face 部落格：較新模型未必帶來實質能力提升",
+    "title_original": "Newer Models, Same Advantage",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+    "published_at": "2026-07-16T11:49:48+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格文章探討新模型發布頻率加快但實際能力提升可能有限的现象，呼籲開發者關注模型評測數據而非僅看版本號。然而此項目原始摘要內容缺失，技術用戶應直接閱讀原文以驗證核心論點。",
+    "highlights": [
+      "文章來源為 Hugging Face 官方部落格",
+      "原始摘要內容缺失，無法完全還原作者論點",
+      "核心方向指向新模型性價比問題",
+      "建議依賴 benchmark 而非版本號選擇模型",
+      "需查閱原文以確認數據與結論可靠性"
+    ],
+    "why_it_matters": "此文章提醒技術用戶在選擇模型時應注重實測效能而非盲目追逐新版本，對控制 API 成本與避免過度行銷有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將文章提到的評測框架應用於自己的模型選型流程，建立客觀的性價比評估標準，避免為新版本支付溢價但獲得相近輸出品質。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-reddit-2026-7",
+    "title": "Reddit 整理：2026 年 7 月主要開源權重模型發布彙整（授權與基準評測）",
+    "title_original": "Major Open-Weight Model Releases grouped by license and benchmarks (as of July 2026)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxzflo/major_openweight_model_releases_grouped_by/",
+    "published_at": "2026-07-16T10:53:17+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 熱門串文整理截至 2026 年 7 月的重大開源權重模型發布，按授權類型分組並附上基准測試結果排名。涵蓋 Llama、Mistral、Gemma 等主流系列，以及新興開源模型的效能比較。",
+    "highlights": [
+      "• 按 Apache 2.0、MIT、CC 等授權分門別類",
+      "• 匯聚多個 benchmark（MMLU、HumanEval、IFEval）横評數據",
+      "• 涵蓋從 7B 到 70B 以上不同參數量級的模型",
+      "• 社群投票與討論提供真實使用體驗參考",
+      "• 有助快速定位符合商業合規需求的開源選項"
+    ],
+    "why_it_matters": "是技術決策者評估本地部署模型時的參考雷達圖，可節省逐一查閱各模型 release note 的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "將該串文中符合需求的模型列入本地部署候選清單，用 LM Studio 或 Ollama 快速跑 inference benchmark 比對延遲與輸出品質。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-termmate-claude-code-openai-codex-agentic",
+    "title": "termmate：整合 Claude Code、OpenAI Codex 的 Agentic 程式碼助理",
+    "title_original": "flashmodel/termmate",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/flashmodel/termmate",
+    "published_at": "2026-07-16T10:52:48Z",
+    "category": "agent-skills",
+    "summary": "termmate 是一個新興的 Agentic 程式碼助理，整合 Claude Code、OpenAI Codex 與 Pi coding agent，試圖提供統一的 CLI 介面來驅動多模型程式碼生成與任務執行。目前僅 21 stars，需持續觀察社群活躍度。",
+    "highlights": [
+      "同時支援 Claude Code、OpenAI Codex、Pi coding agent 三種引擎",
+      "瞄準統一 CLI 介面的 Agentic 程式碼生成場景",
+      "Python 實現，適合既有 Python 專案集成",
+      "目前 stars 偏低（21），成熟度有待驗證",
+      "可作為多模型程式碼生成實驗的切入點"
+    ],
+    "why_it_matters": "對於需要比較不同模型程式碼生成能力的技術用戶，termmate 提供了一個統一入口，但低關注度意味著長期維護風險需納入評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 termmate 整合進 CI/CD Pipeline，用於自動生成測試案例或重構重複性程式碼片段，並比較不同模型的輸出品質。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/250448230?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-google-deepmind-ai",
+    "title": "Google DeepMind 發表生物韌性研究方法論，AI 輔助藥物設計進入新階段",
+    "title_original": "Our approach to bioresilience",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+    "published_at": "2026-07-16T09:30:42+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 與 Isomorphic Labs 聯合發表「生物韌性」研究框架，分享雙方在 AI 輔助藥物發現的協作方法。內容涵蓋模型架構選擇、濕實驗驗證流程，以及從蛋白質結構預測到臨床候選分子的端到端最佳化策略。",
+    "highlights": [
+      "• DeepMind + Isomorphic 跨團隊協作框架首次公開方法論",
+      "• 強調 AI 模型輸出需與生物學驗證形成閉環",
+      "• 涵蓋 AlphaFold 家族模型的藥物設計應用延伸",
+      "• 討論候選分子篩選的成本與效率平衡",
+      "• 對外釋出部分評估基準與失敗案例分析"
+    ],
+    "why_it_matters": "預示 Google 在生命科學 AI 方向的商業化路徑，可能影響製藥 AI 與蛋白質結構預測工具的競爭格局。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀完整文章後，可評估是否將 AlphaFold API 或 Isomorphic 的分子生成工具列入藥物發現工作流程替代方案評估。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-16-reddit-agent",
+    "title": "Reddit 討論：如何視覺化 Agent 的工具呼叫行為？",
+    "title_original": "How do you visualise agent tool use?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxxsio/how_do_you_visualise_agent_tool_use/",
+    "published_at": "2026-07-16T09:22:43+00:00",
+    "category": "agent-skills",
+    "summary": "LocalLLaMA 社群熱烈討論 Agent 工具呼叫（tool use）的除錯與可視化方案。話題包括即時日誌紀錄、呼叫圖譜繪製、token 消耗追蹤，以及現有框架（LangSmith、Agenta、OpenRouter）提供哪些可視化能力。",
+    "highlights": [
+      "• 探討如何追蹤多步驟 Agent 的決策路徑",
+      "• 比較開源與商業監控工具的覆蓋範圍",
+      "• 討論常見痛點：迴圈呼叫、無效工具選擇",
+      "• 分享自建日誌系統的實作心得",
+      "• 呼籲標準化 Agent 可觀測性（Observability）格式"
+    ],
+    "why_it_matters": "Agent 可觀測性是 production 部署的剛需，社群討論反映當前工具鏈仍有缺口，值得關注新興除錯方案的出現。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估串文中提到的開源可視化工具，選擇一款整合進現有 Agent 開發框架，實作呼叫鏈追蹤以加速迭代除錯。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-16-djtelicloud-grok-mcp-server-grok-mcp",
     "title": "djtelicloud/grok-mcp-server：本地 Grok MCP 閘道器",
     "title_original": "djtelicloud/grok-mcp-server",
@@ -168,6 +395,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-16-grok-build-apache-2-0",
+    "title": "Grok Build 專案以 Apache 2.0 授權開源",
+    "title_original": "Grok Build open sourced under Apache 2.0 license",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxi5mf/grok_build_open_sourced_under_apache_20_license/",
+    "published_at": "2026-07-15T20:59:07+00:00",
+    "category": "open-source-ai",
+    "summary": "xAI 團隊將 Grok Build 工具鍊以 Apache 2.0 授權釋出至開源社群。該專案原為 Grok 模型訓練與部署的內部建置系統，現在外部開發者可用於自行編譯與優化 Grok 系列模型。",
+    "highlights": [
+      "• Apache 2.0 授權，商業使用無限制",
+      "• 包含模型編譯、量化、部署相關工具鍊",
+      "• 可能是首個 xAI 官方開源的基礎設施工具",
+      "• 詳細文件與使用範例尚待社群補充",
+      "• 有助降低 Grok 模型本地微調的進入門檻"
+    ],
+    "why_it_matters": "Apache 2.0 開源姿態顯示 xAI 策略轉向，允許更廣泛的社群貢獻與企業採用，可能影響閉源模型市場競爭。",
+    "automation_angle": null,
+    "automation_angle_zh": "等待文件完善後，下載 Grok Build 嘗試編譯 Grok-1 或後續版本，評估本地推論效能與成本節省空間。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-16-aitytech-agentkits-marketing-agent",
