@@ -1,5 +1,200 @@
 [
   {
+    "id": "2026-07-17-lldb-agent-lldb-mcp-http-ai-agent",
+    "title": "LLDB Agent：LLDB MCP/HTTP 伺服器，外部 AI Agent 驅動除錯",
+    "title_original": "0xeb/lldb-agent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/0xeb/lldb-agent",
+    "published_at": "2026-07-17T12:54:57Z",
+    "category": "agent-skills",
+    "summary": "LLDB Agent 將 LLDB 包裝為 MCP/HTTP 伺服器，提供 dbg_exec 工具讓外部 AI Agent 直接控制 LLDB 進行除錯。C++ 編寫，17 顆星，屬早期實驗性工具。",
+    "highlights": [
+      "將 LLDB 除錯能力以標準化介面暴露給 AI Agent",
+      "提供 dbg_exec 工具執行斷點、變數查詢等除錯命令",
+      "C++ 編寫，輕量無額外相依",
+      "可用於 AI 輔助的自動化程式碼診斷流程",
+      "目前星數低，功能成熟度待觀察"
+    ],
+    "why_it_matters": "若能實現 AI Agent 直接驅動除錯，可將 Bug 分析與修復流程部分自動化，是提升開發者工作效率的潛力方向，但目前成熟度有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可啟動 llb-agent 並透過 MCP 介面呼叫，實驗讓 AI 分析記憶體錯誤或設定斷點條件的實際可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C++"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/230851?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-soofi-s-30b-a3b",
+    "title": "Soofi S：歐洲團隊發布 30B-A3B 架構的開源模型",
+    "title_original": "Soofi S - 30B-A3B European Open Source Model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyysg1/soofi_s_30ba3b_european_open_source_model/",
+    "published_at": "2026-07-17T12:49:20+00:00",
+    "category": "open-source-ai",
+    "summary": "歐洲團隊發布 Soofi S 模型，採用 30B 參數量搭配 A3B 架構設計。這是一款專為歐洲監管環境優化的開源替代方案，目前社群正熱烈討論其效能表現與部署可行性。具體訓練數據來源與基準測試結果有待更多資訊揭露。",
+    "highlights": [
+      "30B 規模屬中大型開源模型區間",
+      "A3B 架構具體設計細節尚未完全透明",
+      "歐洲團隊背景可能影響數據合規性",
+      "社群正進行初步效能評估中"
+    ],
+    "why_it_matters": "歐洲本土開源模型有助於滿足 GDPR 等資料在地化需求，為需要嚴格資料治理的開發者提供新選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "測試 Soofi S 在歐洲法規敏感場景（如醫療、金融）的適用性，評估是否可替代現有美國模型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-redis-mcp-server-agent-redis",
+    "title": "Redis 官方 MCP Server：讓 Agent 以自然語言管理與搜尋 Redis 資料",
+    "title_original": "redis/mcp-redis",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/redis/mcp-redis",
+    "published_at": "2026-07-17T12:34:03Z",
+    "category": "agent-skills",
+    "summary": "Redis 官方發布 MCP Server，為 Agent 應用提供自然語言介面來管理與搜尋 Redis 資料。GitHub 548 顆星，為目前最高星的 MCP 工具之一，Python 編寫，屬正式維護項目。",
+    "highlights": [
+      "官方維護，品質與長期支援有保障",
+      "Agent 可用自然語言查詢 Redis 中的 Key/Value 資料",
+      "Python 編寫，便於整合至現有 Python Agent 框架",
+      "548 顆星反映社區高度關注",
+      "可直接替換部分手動 Redis CLI 操作"
+    ],
+    "why_it_matters": "將 Redis 操作納入 Agent 工作流程可大幅減少 DBA 或後端開發者的人工操作，對構建智慧化資料管理系統有直接價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在 Cursor 或其他支援 MCP 的 IDE 中接入，測試用自然語言查詢與操作 Redis 快取資料的實際效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1529926?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-17-octo-agent-go-ai-agent",
+    "title": "Octo-Agent：單一 Go 二進位檔跨八種介面的自架 AI Agent",
+    "title_original": "open-octo/octo-agent",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/open-octo/octo-agent",
+    "published_at": "2026-07-17T11:43:11Z",
+    "category": "agent-skills",
+    "summary": "Octo-Agent 為開源自架 AI Agent，使用 Go 語言編寫為零依賴單一二進位檔，支援 CLI、Web、桌面、IM、VS Code、Obsidian、SDK、手機等八種介面，強調模型與資料留存在本機。",
+    "highlights": [
+      "Go 單一二進位檔，零外部依賴，部署極簡",
+      "八種介面覆蓋日常開發與通訊工具",
+      "支援編碼與助理功能雙核心",
+      "所有資料留本地，無雲端上傳",
+      "截至目前 GitHub 22 顆星，仍屬早期項目"
+    ],
+    "why_it_matters": "對需要跨工具無縫使用 AI 輔助、又不希望資料離開本機的技術用戶，Octo-Agent 提供一個輕量級整合方案，可替代部分商業工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載二進位檔，直接在 VS Code 或 CLI 中啟動，作為本地代碼補全與日常助理整合的測試起點。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/298620621?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-reddit-ssd-raid0-llm",
+    "title": "Reddit 技術討論：使用 SSD RAID0 陣列運行 LLM 可行性驗證",
+    "title_original": "Has anyone tried running an LLM from a raid0 of a bunch of SSDs.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uytlvw/has_anyone_tried_running_an_llm_from_a_raid0_of_a/",
+    "published_at": "2026-07-17T08:19:09+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶詢問是否可透過 SSD RAID0 陣列突破 LLM 載入的 IO 瓶頸，加速大模型啟動與推論速度。討論涉及 RAID 配置、頻寬瓶頸、以及與 GPU 記憶體交換的取捨。",
+    "highlights": [
+      "探索 SSD 頻寬提升對模型載入的影響",
+      "RAID0 提供讀取速度但無容錯機制",
+      "需考慮 PCIe 通道數與控制器限制",
+      "與純 GPU 部署相比性價比存疑"
+    ],
+    "why_it_matters": "對於 VRAM 不足需使用 CPU 卸載的場景，SSD 速度確實影響模型載入時間，但普通 NVMe 已多數滿足需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 fio 工具測試現有 SSD 隨機讀取 IOPS，若瓶頸明顯可評估 RAID0 成本效益，而非盲目投入。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-item",
+    "title": "習近平於世界人工智慧大會重申開源承諾，強調開放共贏",
+    "title_original": "Chinese President Xi Jinping speaks at World AI Conference and reaffirms commitment to open source to promote\"openness and win-win\"",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uytamy/chinese_president_xi_jinping_speaks_at_world_ai/",
+    "published_at": "2026-07-17T08:00:58+00:00",
+    "category": "hot-topics",
+    "summary": "習近平在中國主辦的世界人工智慧大會發表演說，重申對開源 AI 的支援立場，強調開放與共贏的中國願景。此為政策層面聲明，尚未轉化為具體監管鬆綁或補貼措施。",
+    "highlights": [
+      "國家主席級別的 AI 開源政策背書",
+      "措辭偏向願景陳述，具體法規尚待公佈",
+      "可能影響中國科技巨頭的開源策略",
+      "為下半年潛在政策調整埋下伏筆"
+    ],
+    "why_it_matters": "中國作為全球最大 AI 市場之一，其開源政策走向將影響 Llama、Mistral 等模型在中國的落地生態與商業模式。",
+    "automation_angle": null,
+    "automation_angle_zh": "監控中國工信部、網信辦後續法規發布，評估開源模型在中國雲廠商的合規部署選項。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-item",
+    "title": "開源模型的可及性危機：社群對未來開放權重的疑慮",
+    "title_original": "Will we get accessible open-source models again?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyt8zc/will_we_get_accessible_opensource_models_again/",
+    "published_at": "2026-07-17T07:58:34+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit LocalLLaMA 社群熱烈討論未來是否還能看到真正可及（accessible）的開源模型。許多網友指出近期大型開源發布缺乏足夠硬體需求考量，讓一般用戶難以實際部署。討論聚焦在模型規模與硬體門檻之間的取捨，以及開源社群對「可及性」定義的重新反思。",
+    "highlights": [
+      "社群開始質疑大型開源模型是否真的「開放」",
+      "30B 以上模型需要高端 GPU 才能流暢運行",
+      "對「開源」定義的重新檢視成為討論焦點",
+      "用戶更在意能在消費級硬體上運行的模型"
+    ],
+    "why_it_matters": "開源 AI 的核心價值在於民主化存取，若模型規模膨脹導致門檻過高，將失去讓一般開發者參與的原意。此討論反映技術社群對 AI 發展方向的深層焦慮。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估手中硬體配置與可用模型的匹配度，考慮微調或量化方案以降低部署門檻。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-17-ai",
     "title": "習近平強調開源 AI 並暗批美國主導地位",
     "title_original": "China’s Xi Touts Open-Source AI and Takes a Swipe at U.S. Dominance",
@@ -18,6 +213,60 @@
     "why_it_matters": "政策層面支援開源 AI 可能加速中國模型走向全球開源生態，對想使用中國開源模型的技術用戶是潛在利好。",
     "automation_angle": null,
     "automation_angle_zh": "關注中國開源模型的政策動態，評估其在自動化工作流程程中的實際可用性與合規風險。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-simon-willison",
+    "title": "Simon Willison 創意提案：科技巨頭收購高爾夫球場改造成觀鳥園以節水",
+    "title_original": "Spot birds not golf",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything",
+    "published_at": "2026-07-17T02:58:07+00:00",
+    "category": "hot-topics",
+    "summary": "Simon Willison 以幽默諷刺方式提議： hyperscaler 若感受到數據中心用水壓力，可收購高爾夫球場改為公園，既滿足環保形象又實質減少水資源消耗。文中計算 Google 每日用水量與球場節水潛力。",
+    "highlights": [
+      "諷刺性提案，非實際商業計劃",
+      "引用真實數據：Google 2025年用水109億加侖",
+      "計算收購40座球場可抵消約1/3用水",
+      "反映 AI 產業水資源消耗已成公共議題"
+    ],
+    "why_it_matters": "AI 數據中心的能源與水資源消耗正成為監管焦點，技術決策者需關注此趨勢對基礎設施選址的長期影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "此話題提醒技術主管在評估雲廠商時，可將水资源效率納入 ESG 合規評估維度。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-item",
+    "title": "社群疲乏：對大型「開放權重」發布的熱情退燒",
+    "title_original": "Anyone else completely tuning out these massive \"open weight\" drops?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uylutc/anyone_else_completely_tuning_out_these_massive/",
+    "published_at": "2026-07-17T01:36:41+00:00",
+    "category": "open-source-ai",
+    "summary": "越來越多 LocalLLaMA 用戶表示對近期密集的大型開源權重發布感到麻木。批評者認為這些發布缺乏實際可部署性，僅為追求話題熱度而超大參數量。支援者則強調逐步縮小與閉源模型的差距仍有意義。此現象反映開源社群內部的路線之爭。",
+    "highlights": [
+      "「開放權重疲乏」症狀開始蔓延",
+      "用戶更在意能在本地運行的實用模型",
+      "超大模型發布被質疑為公關策略",
+      "實用性與技術突破之間的取捨成焦點"
+    ],
+    "why_it_matters": "社群熱情是開源生態的驅動力。若用戶對大型發布失去興趣，可能影響未來開源模型的資源投入與創新方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據實際硬體條件設定模型選擇標準，避免追逐發布熱點而忽視可部署性。",
     "tags": [
       "open-source-ai",
       "rss",
@@ -111,6 +360,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-17-anthropic-openai",
+    "title": "「Anthropic 與 OpenAI 沒有秘方」：社群對護城河的質疑",
+    "title_original": "Anthropic and OpenAI don't have secret sauce",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uygxt3/anthropic_and_openai_dont_have_secret_sauce/",
+    "published_at": "2026-07-16T22:04:16+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 討論引發熱議：社群觀點認為 Anthropic 與 OpenAI 的技術優勢並非不可複製，主要差距在於資源與算力而非獨特演算法。批評者指出該觀點過度簡化，訓練基礎設施、數據品質與安全對齊仍是實質壁壘。此討論反映開源社群對 AI 權力集中化的焦慮。",
+    "highlights": [
+      "部分社群成員認為頭部公司的技術差距被高估",
+      "反方指出算力與數據本身即構成實質障礙",
+      "「secret sauce」隱喻引發對創新是否可持續的辯論",
+      "對 AI 權力集中化的批判性討論持續升溫"
+    ],
+    "why_it_matters": "對 AI 巨頭技術護城河的不同解讀，將影響開發者對開源替代方案的信心與投入意願。此類討論塑造社群集體認知。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估自家需求是否可透過開源方案滿足，測試 Llama、Mistral 等模型在特定任務上的表現差距。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-17-moonshot-ai-kimi-k3-2-8-3-15",
@@ -5096,6 +5372,33 @@
     "why_it_matters": "價格戰直接影響技術用戶的 AI 工具成本。若 Meta 能以明顯低價提供接近能力模型，許多現有商業 API 方案可能被替換，工作流程自動化成本將大幅下降。",
     "automation_angle": null,
     "automation_angle_zh": "技術用戶應比較 Muse Spark 1.1 與現有用模型的 input/output token 單價，若性價比足夠可評估將部分自動化任務遷移至 Meta API 以降低整體費用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-meta-muse-spark-1-1-api-ai-anthropic-openai",
+    "title": "Meta 推出 Muse Spark 1.1 API：首個付費 AI 模型正式挑戰 Anthropic 與 OpenAI",
+    "title_original": "Meta Launches Muse Spark 1.1 API, Its First Paid AI Model, to Challenge Anthropic and OpenAI - MLQ.ai",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVzdPVUUwbktpYy01MUh4bVBhYXVHaFJMcDNRZFJrOFFtVjRXOUhiUTA2T2xiSklId3RQLXFGMEVxX2NkemtweE4wYnVBckwtaWFsTWtkbWViS0tGNW1UeUNldjNGbnNoNEZEOWh1WEVqRkVvbFNpVk1hczFJWm5vRFNodDQzSFpxb3FkeUNBZGx3TTFFWTFubWhOM2s5aURuZ3djcHFjMFhaN0FkYUpz?oc=5",
+    "published_at": "2026-07-09T15:38:37+00:00",
+    "category": "new-models",
+    "summary": "Meta 宣布推出 Muse Spark 1.1 API，這是其首個正式商業化的付費 AI 模型服務，直接劍指 Anthropic 與 OpenAI 的付費市場。MLQ.ai 報導指出此舉代表 Meta 從完全開源策略轉向混合商業模式。定價策略與模型能力細節尚待官方完整公告。",
+    "highlights": [
+      "Meta 首次推出完全付費的 AI 模型 API",
+      "瞄準企業市場，直接競爭 Claude 與 GPT 系列",
+      "Llama 開源模型與付費服務將並存",
+      "具體定價與能力規格尚未完全揭露"
+    ],
+    "why_it_matters": "Meta 此舉標誌大型科技公司對 AI 商業化的態度轉變。從純開源轉向付費服務將影響開源生態系的可持續性與開發者選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "比較 Muse Spark 1.1 API 與現有 Claude/GPT API 的定價與功能，評估對現有工作流程程的成本影響。",
     "tags": [
       "new-models",
       "rss",
@@ -17684,6 +17987,33 @@
       "Go"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/415304?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-38-ai",
+    "title": "封面新聞調查：38元月費的「AI打工人」大學生接受度研究",
+    "title_original": "每月38元，你愿意為“AI打工人”付费吗？我们调查了20個大学生｜科技观察 - 封面新闻",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE93bVlSSmxrbnVFWXpKOGJjc3FzY3lLSjBtT3ZNNTk0dTk0RE81dHJSN2ljb1FoR3ZJZ0NtcGltTWtNNElCdHQxdmN3WG52S1FhbGJOc0c4QklUMERseXJxc1ZtWVotTmRsdTgwVFlhZEo5dzgwZXcw?oc=5",
+    "published_at": "2026-06-24T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "中國封面新聞訪問20名大學生，探討其是否願意以每月38元人民幣訂閱「AI打工人」服務。調查顯示部分學生對 AI 輔助作業、論文整理有付費意願，但對隱私和效果存疑。",
+    "highlights": [
+      "月費38元約新台幣170元，定位學生市場",
+      "大學生對 AI 工具接受度高但價格敏感",
+      "主要使用場景為作業輔助與資料整理",
+      "隱私顧慮影響付費轉化率"
+    ],
+    "why_it_matters": "此定價區間反映中國 AI 訂閱服務的市場定位策略，開發者可借鏡此定價模型評估類似工具的用戶留存率。",
+    "automation_angle": null,
+    "automation_angle_zh": "若正在開發 AI 生產力工具，可將 38元/月 作為東亞學生市場的定價基準參考，測試不同價格的轉化率差異。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
