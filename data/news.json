@@ -1,5 +1,147 @@
 [
   {
+    "id": "2026-07-17-unreal-mcp-unreal-engine-ai-mcp",
+    "title": "Unreal-MCP：Unreal Engine 的 AI 遊戲開發者 MCP 插件",
+    "title_original": "IvanMurzak/Unreal-MCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/IvanMurzak/Unreal-MCP",
+    "published_at": "2026-07-17T00:55:20Z",
+    "category": "agent-skills",
+    "summary": "Unreal-MCP 是將 Unreal Engine 與 AI Agent 連接的插件，包含 C++ 編輯器插件與 .NET bridge，可對接 ai-game.dev 或本地 MCP 伺服器，實現 AI 控制遊戲場景與邏輯。",
+    "highlights": [
+      "C++ 編輯器插件與 .NET bridge 雙層架構",
+      "支援本地 MCP server 或 ai-game.dev 雲端兩種模式",
+      "可用 AI Agent 控制遊戲場景編輯與藍圖生成",
+      "適合遊戲開發者與自動化測試場景",
+      "目前僅 11 stars，屬早期專案。"
+    ],
+    "why_it_matters": "將 AI Agent 能力引入 Unreal Engine 遊戲開發工作流程，有潛力自動化關卡設計與腳本編寫，是值得關注的垂直領域整合。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本機 Unreal 專案安裝插件，透過 MCP 協議讓 AI Agent 自動生成藍圖或調整場景參數，實測對開發效率的影響。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C++"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/9135028?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-selvedge-ai-mcp",
+    "title": "selvedge：AI 程式碼庫的長期記憶 MCP 服務",
+    "title_original": "masondelan/selvedge",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/masondelan/selvedge",
+    "published_at": "2026-07-17T00:51:42Z",
+    "category": "agent-skills",
+    "summary": "selvedge 是一個 MCP 伺服器，能在 AI Agent 修改程式碼時即時擷取其推論過程並存入本地 SQLite，號稱「AI 程式碼庫的 git blame」。無外部依賴，僅 15 stars。",
+    "highlights": [
+      "MCP 協定整合，支援主流 AI 工具即時接入",
+      "本地 SQLite 儲存，零外部依賴保護隱私",
+      "為 AI 生成程式碼留下推論審計軌跡",
+      "長期維護程式碼庫時可追溯決策脈絡",
+      "目前 stars 數低，社群支援與穩定性待驗證。"
+    ],
+    "why_it_matters": "為 AI 程式碼決策留下可追溯的審計軌跡，長期而言有助於維護與理解 AI 生成程式碼的意圖，技術價值明確。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本機以 MCP server 形式啟動 selvedge，讓 Cursor/Windsurf 等 IDE Agent 邊寫程式邊記錄推論過程，觀察對工作效率的影響。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/57777824?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-firefox-webassembly",
+    "title": "Firefox 移植 WebAssembly：在瀏覽器裡跑瀏覽器",
+    "title_original": "Firefox in WebAssembly",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything",
+    "published_at": "2026-07-16T23:34:16+00:00",
+    "category": "agent-skills",
+    "summary": "Puter 團隊成功將 Firefox 編譯為 WebAssembly，使整個瀏覽器能在另一個瀏覽器中運行。此專案採用 Firefox/Gecko 是因其單行程支援良好。團隊估計消耗了價值約 25,000 美元的 Claude Opus 和 Fable token，但因使用 Claude Max 訂閱方案實際支出遠低於此。所有流量透過 WebSocket 協議和 Wisp 協議經過 Puter 伺服器轉發，以繞過瀏覽器無法開啟任意網路連線的限制。專案支援端對端加密，可驗證 HTTPS 流量為加密狀態。",
+    "highlights": [
+      "Firefox 完整移植至 WebAssembly，可在任何現代瀏覽器中運行",
+      "使用 Claude Max 訂閱降低成本，實際支出遠低於估算的 token 價值",
+      "流量需經過 WebSocket 代理伺服器轉發（目前成本較高）",
+      "支援端對端加密，HTTPS 流量可驗證為加密狀態",
+      "類似專案 theogbob/WebkitWasm 目前無可訪問的線上演示"
+    ],
+    "why_it_matters": "此專案展示了 AI 輔助程式設計的極限能力，可協助生成大量移植程式碼。對於需要隔離瀏覽環境或建立瀏覽器自動化流程的技術用戶，這是值得關注的概念驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可測試 firefox-wasm repo，在隔離的 WebAssembly 環境中執行瀏覽器自動化腳本，評估其在無頭瀏覽場景中的可行性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-17-moonshot-ai-kimi-k3-2-8-3-15",
+    "title": "Moonshot AI 發布 Kimi K3：2.8 兆參數、$3/$15 定價瞄準高階市場",
+    "title_original": "Kimi K3, and what we can still learn from the pelican benchmark",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
+    "published_at": "2026-07-16T20:19:30+00:00",
+    "category": "new-models",
+    "summary": "Moonshot AI 發布旗艦模型 Kimi K3，宣稱 2.8 兆參數為「首個開放 3T 等級模型」，自測 Elo 1547。API 定價 $3/$15/million tokens，與 Claude Sonnet 同級，比 K2.6 貴約 3 倍，但輸出代幣節省 21%。",
+    "highlights": [
+      "標榜 2.8 兆參數超越 DeepSeek V4 Pro 的 1T",
+      "自測 Elo 1547，接近 Claude Fable 5",
+      "API 定價 $3/$15，Claude Sonnet 等級，K2.6 的 3 倍",
+      "推論代幣佔比高（13,241/16,658），單次 pelican 生成成本 $0.25",
+      "承諾 2026 年 7 月 27 日開源權重。"
+    ],
+    "why_it_matters": "中國 AI 廠商最大參數模型之一，高定價反映高效能定位，但自測基準與實際應用仍有差距，技術人員應以實測驗證性價比。",
+    "automation_angle": null,
+    "automation_angle_zh": "透過 OpenRouter 立即試用，比較 pelican 生成質量與成本效率，評估是否值得從 K2.6 升級。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-ai-agent-54",
+    "title": "企業 AI Agent 安全缺口報告：54% 已發生事故，多數仍共享憑證",
+    "title_original": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/category/ai/feed/",
+    "original_url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+    "published_at": "2026-07-16T19:02:38+00:00",
+    "category": "hot-topics",
+    "summary": "VentureBeat Pulse Research 調查 107 家百人以上企業，發現 54% 已遭遇 Agent 安全事故或近失，其中 18% 為確認事件、36% 為攔截的近失。僅 32% 企業為每個 Agent 配發獨立作用域身份，多數仍共享 API Key 或服務帳號憑證。僅 30% 隔離高風險 Agent 於沙箱環境，多數依賴模型提供商原生的護欄而非專用 Agent 安全工具。",
+    "highlights": [
+      "54% 企業已有 Agent 安全事故或近失，大企業達 63%",
+      "僅 32% 實現每 Agent 獨立作用域身份，共享憑證者事故率 63.5%",
+      "僅 30% 對高風險 Agent 實施沙箱隔離",
+      "82% 企業主要依賴 OpenAI/Google/Microsoft 原生控制",
+      "59% 企業計劃一年內更換或新增安全工具"
+    ],
+    "why_it_matters": "Agent autonomy 正快速超越安全控制，身份管理與隔離是最薄弱的兩環。專用 Agent 安全工具市佔率極低，多數企業滿意度雖高但已規劃替換，反映安全缺口尚未被充分重視與修復。",
+    "automation_angle": null,
+    "automation_angle_zh": "若企業已在生產環境部署 Agent，應立即盤點 Agent 身份管理現況，評估是否為每個 Agent 建立獨立作用域身份，並對高風險 Agent 實施沙箱隔離，以降低事故影響範圍。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-16-posthog-ai",
     "title": "PostHog：AI 可觀測性為核心的產品分析平台",
     "title_original": "PostHog/posthog",
@@ -410,6 +552,34 @@
     "automation_angle_zh": "可用 curl 直接呼叫 Tinker API 測試模型能力，或在本地微調後部署至自動化 pipeline，取代付費 API 處理特定任務。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-17-mermaid-ascii-mermaid-ascii-webassembly",
+    "title": "mermaid-ascii：Mermaid 圖轉 ASCII 的 WebAssembly 工具",
+    "title_original": "Mermaid to ASCII art (mermaid-ascii)",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything",
+    "published_at": "2026-07-16T14:57:39+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 整合了 Go 語言的 AlexanderGrooff/mermaid-ascii 函式庫並編譯為 WebAssembly，與先前基於 Rust 的實作相比，支援 ANSI 色彩輸出。技術讀者可透過瀏覽器直接渲染 Mermaid 圖表為終端機友好格式，無需後端依賴。",
+    "highlights": [
+      "基於 Go 語言 mermaid-ascii 函式庫編譯為 WebAssembly",
+      "支援 ANSI 色彩輸出，相較 Rust 版本功能更完整",
+      "可直接在瀏覽器環境運行，無需安裝",
+      "可用於 CLI 輸出、文件生成或終端機呈現 Mermaid 圖",
+      "可與 Claude Fable 5 等工具整合比較不同編譯結果"
+    ],
+    "why_it_matters": "將 Mermaid 圖表轉為 ASCII 可在任何終端機環境顯示，提升技術文件的可移植性與可讀性，是工程師日常寫作與文檔場景的實用小工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在文件生成腳本或 CI/CD 流程中自動將 Mermaid 圖表轉為純文字格式，用於 README 或終端機日誌的圖形化呈現。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
