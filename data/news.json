@@ -1,5 +1,90 @@
 [
   {
+    "id": "2026-07-17-nvidia-nemo-hugging-face-diffusers",
+    "title": "NVIDIA NeMo 與 Hugging Face Diffusers 聯手：規模化微調影片與影像模型",
+    "title_original": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+    "published_at": "2026-07-17T15:57:54+00:00",
+    "category": "open-source-ai",
+    "summary": "NVIDIA 與 Hugging Face 合作發布教學文章，說明如何利用 NeMo Automodel 結合 Diffusers 框架，在大規模環境下微調影片生成與影像生成模型。此整合降低企業級模型客製化的進入門檻，但實作需具備 GPU 運算資源。",
+    "highlights": [
+      "NeMo Automodel 提供模型微調的最佳化管線，減少繁瑣設定",
+      "結合 Diffusers 生態系可直接使用 Stable Diffusion 等熱門模型的微調權重",
+      "支援影片生成模型的微調，為多模態 AI 工作流程開闢新方向",
+      "需要多 GPU 環境或雲端 GPU 運算資源，單卡用戶需評估可行性",
+      "Hugging Face 官方 blog 提供 step-by-step 操作指引，適合動手實驗"
+    ],
+    "why_it_matters": "對需要將生成式 AI 應用於特定品牌視覺、客製化影片腳本或遊戲素材的團隊而言，此整合大幅簡化模型客製化流程，能在既有 Diffusers 生態系中直接部署。",
+    "automation_angle": null,
+    "automation_angle_zh": "有 GPU 資源的技術用戶可依據此文檔，建立批次微調管線，自動針對公司產品圖庫微調影像生成模型，用於快速生成行銷素材初稿或 A/B 測試視覺變體。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-17-sevenbt-nemo-assistant-windows-ai-ocr",
+    "title": "SevenBT/nemo-assistant：Windows 本地浮動視窗 AI 助理，具備選取操作與 OCR 能力",
+    "title_original": "SevenBT/nemo-assistant",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/SevenBT/nemo-assistant",
+    "published_at": "2026-07-17T15:22:55Z",
+    "category": "agent-skills",
+    "summary": "nemo-assistant 是一款專為 Windows 設計的本地 AI 助理，以浮動視窗形式存在於桌面，支援選取文字執行動作、OCR 辨識截圖內容、筆記管理，並內建工具呼叫 Agent 能力。Python 開發，目前 24 stars，屬於早期專案但功能方向明確。",
+    "highlights": [
+      "本地執行，螢幕選取操作無需上傳資料至雲端",
+      "內建 OCR 可直接解析螢幕截圖中的文字與表格",
+      "浮動視窗設計適合隨時喚起做快速查詢或筆記",
+      "工具呼叫 Agent 架構預留擴展空間，技術用戶可自行定義工具集",
+      "Python 專案，工程師可審視原始碼或 fork 進行客製化"
+    ],
+    "why_it_matters": "相較於需要訂閱的雲端 AI 助理，nemo-assistant 提供完全本地化的桌面操作自動化，適合對資料隱私有嚴格要求、又想提升日常工作效率的技術從業人員。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其部署為日常資訊擷取工具，例如快速 OCR 螢幕上的 API 文件、選取錯誤訊息後自動查詢解決方案，省去手動複製貼上的時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/92194572?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-reddit-bonsai-27b-iphone-3-9gb",
+    "title": "Reddit 社群宣稱：Bonsai 27B 模型可在 iPhone 本地運行，體積僅 3.9GB",
+    "title_original": "Bonsai 27B runs locally on an iPhone - a 27B model in 3.9GB",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uyz9n2/bonsai_27b_runs_locally_on_an_iphone_a_27b_model/",
+    "published_at": "2026-07-17T13:08:58+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社區有使用者發文宣稱，成功在 iPhone 上本地運行 27B 參數的 Bonsai 模型，記憶體佔用約 3.9GB，並附上截圖佐證。此說法尚未獲得獨立驗證，若屬實將是小型設備運行大模型的重大突破。",
+    "highlights": [
+      "聲稱 27B 模型僅需 3.9GB 即可運行",
+      "目標設備為 iPhone，行動端推論可能性",
+      "消息來源為 Reddit 社區討論，非官方發布",
+      "缺乏量化效能數據（回應速度、準確度等）",
+      "Bonsai 模型本身架構未經廣泛驗證"
+    ],
+    "why_it_matters": "若能在手機上運行 27B 模型，代表邊緣 AI 推論的重大突破；但 Reddit 貼文可信度存疑，需實際測試驗證才能判斷其實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術愛好者可關注後續社群反饋，若確認可行，可評估將 Bonsai 整合至 iOS 應用作離線文字處理或客服機器人，節省 API 呼叫成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-17-lldb-agent-lldb-mcp-http-ai-agent",
     "title": "LLDB Agent：LLDB MCP/HTTP 伺服器，外部 AI Agent 驅動除錯",
     "title_original": "0xeb/lldb-agent",
@@ -112,6 +197,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/298620621?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-openai-ai-ai",
+    "title": "OpenAI 發布 AI 時代評分卡：四維度量化 AI 投資回報",
+    "title_original": "A scorecard for the AI age",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+    "published_at": "2026-07-17T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 財務長 Sarah Friar 在官方部落格發布 AI 評分卡框架，建議企業從「有用工作產出」、「每項成功任務成本」、「依賴度」及「算力回報」四個維度衡量 AI 投資價值，並強調 COP28 採用其 API 實現 50% 工作流程程自動化作為成功案例參考。",
+    "highlights": [
+      "提出四維度 AI ROI 評估：有用工作、成本效率、系統可靠度、算力回報",
+      "以 COP28 為例：API 整合取代 50% 人工流程",
+      "建議技術主管建立內部 AI 指標追蹤機制",
+      "強調任務完成度而非模型使用量為核心 KPI",
+      "此框架可與現有商業智慧工具整合"
+    ],
+    "why_it_matters": "對技術決策者而言，終於有官方認可的 AI 價值衡量框架可向高層彙報；過去 AI 專案常因無法量化成效而難以獲得預算支援，此評分卡提供具體評估維度。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可參考此四維度框架，為內部 AI 專案建立量化指標儀表板，自動追蹤任務成功率與成本變化，作為 DevOps 監控的一部分。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-07-17-reddit-ssd-raid0-llm",
@@ -62119,6 +62232,34 @@
     "why_it_matters": "對於需要處理大量文件和郵件的自動化流程，過去需分別整合多個 Google API，現在一款 CLI 工具即可覆蓋。這降低了企業自動化工作流程的開發复杂度。",
     "automation_angle": null,
     "automation_angle_zh": "開發者可用 Workspace CLI 构建邮件自動分類、文件批量处理、日程同步等代理工作流程，例如设置定時任务自動整理 Gmail 收件箱或生成 Sheets 报表。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-google-gws-cli-workspace-api",
+    "title": "Google 發布 gws CLI 工具：為 Workspace API 提供人機統一操作介面",
+    "title_original": "Google AI Releases a CLI Tool (gws) for Workspace APIs: Providing a Unified Interface for Humans and AI Agents - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPY0pRQkxCU1BZMXNTWW1BWXVzUlR2TEEzVzN2d2tzM2NNblpLMEJLZ3JjYy1ZcHQtbnR1OFNKVGVycmRyMUJiZWVxZjYxRjhTazNqaUNZMjU5dVRZYmV5cUk1VElhSVBSQkNJdDM0d1pEUlU1NlRtT2VlaVRuR3ZuODVGdlFoYU43UmRoWF9pLUNlNUtVNk1YMUJvMVhCbnIwdlh0TlFQTExDRm9vc1VmZ2RyYy1ibHBwcHczbWQwanVwNjI4NGpXaDVJaVY3OXd6ckhMQ19neThudVF3RFlDdVp3?oc=5",
+    "published_at": "2026-03-05T08:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Google AI 推出名為 gws 的命令列工具，為 Google Workspace API（Gmail、Google Drive、Calendar 等）提供統一介面，可供人類開發者與 AI Agent 直接呼叫。MarkTechPost 報導後引發關注，預期能簡化 Workspace 自動化腳本的開發流程。",
+    "highlights": [
+      "統一的 CLI 介面降低存取 Workspace API 的學習成本",
+      "同時支援人類手動操作與 AI Agent 程式化呼叫",
+      "可用於自動化信件處理、行程管理、檔案同步等常見工作流程",
+      "需確認是否已正式發布並開源，MarkTechPost 為科技新聞轉述",
+      "若與 Google AI Studio 或 Gemini API 整合，可能影響企業 AI 工作流程架構"
+    ],
+    "why_it_matters": "gws 若正式開源並穩定，將成為建構 Google 生態系 AI 自動化工作流程的關鍵工具，技術用戶可減少自行封裝 API 呼叫的開發成本，直接用 CLI 腳本驅動 Workspace 操作。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可等待官方 GitHub 發布後，設計腳本自動將 Gemini 摘要結果寫入 Google Docs 或依據信件內容更新 Calendar 事件，實現端到端的辦公室自動化。",
     "tags": [
       "agent-skills",
       "rss",
