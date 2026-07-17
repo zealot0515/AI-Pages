@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-07-17-ai",
+    "title": "習近平強調開源 AI 並暗批美國主導地位",
+    "title_original": "China’s Xi Touts Open-Source AI and Takes a Swipe at U.S. Dominance",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uysngh/chinas_xi_touts_opensource_ai_and_takes_a_swipe/",
+    "published_at": "2026-07-17T07:22:24+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 社區轉發習近平在公開場合提及開源 AI 發展並暗批美國在 AI 領域主導地位的新聞。此類政治表態可能影響未來中國 AI 開源政策的走向及國際合作框架。",
+    "highlights": [
+      "中國領導層公開支援開源 AI 發展",
+      "言論帶有地緣政治競爭意味",
+      "可能預示中國將加大開源模型開源力度",
+      "訊息來源為社區轉發，未見官方完整文本"
+    ],
+    "why_it_matters": "政策層面支援開源 AI 可能加速中國模型走向全球開源生態，對想使用中國開源模型的技術用戶是潛在利好。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注中國開源模型的政策動態，評估其在自動化工作流程程中的實際可用性與合規風險。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-17-unreal-mcp-unreal-engine-ai-mcp",
     "title": "Unreal-MCP：Unreal Engine 的 AI 遊戲開發者 MCP 插件",
     "title_original": "IvanMurzak/Unreal-MCP",
@@ -105,6 +132,33 @@
     "why_it_matters": "中國 AI 廠商最大參數模型之一，高定價反映高效能定位，但自測基準與實際應用仍有差距，技術人員應以實測驗證性價比。",
     "automation_angle": null,
     "automation_angle_zh": "透過 OpenRouter 立即試用，比較 pelican 生成質量與成本效率，評估是否值得從 K2.6 升級。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-kimi-k3",
+    "title": "Kimi K3 顯示開源權重模型即將超越前沿",
+    "title_original": "Kimi K3 Shows Open-Weight Models Are About to Overtake the Frontier",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uydbmc/kimi_k3_shows_openweight_models_are_about_to/",
+    "published_at": "2026-07-16T19:50:20+00:00",
+    "category": "new-models",
+    "summary": "社區討論 Kimi K3 模型在多項基準測試中表現亮眼，暗示開源權重模型可能在短期內追平甚至超越閉源前沿模型。這對 AI 開發者的工作流程程和模型選擇策略有直接影響。",
+    "highlights": [
+      "Kimi K3 在多項基準測試展現前沿級別能力",
+      "開源模型與閉源前沿的差距正在快速縮小",
+      "社區對開源模型的信心提升",
+      "缺乏獨立第三方benchmark驗證"
+    ],
+    "why_it_matters": "若開源模型達到前沿水平，技術用戶可透過自托管大幅降低 API 成本，並獲得更好的數據控制權。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議追蹤 Kimi K3 的實際部署測試，評估其是否能滿足自動化工作流程的延遲與可靠性需求。",
     "tags": [
       "new-models",
       "rss",
@@ -2733,6 +2787,34 @@
     "why_it_matters": "對於需要選擇 Claude 模型應用於開發自動化的用戶，基準測試與成本對比是直接的選型參考。可避免選用過度規格或成本不符需求的模型版本。",
     "automation_angle": null,
     "automation_angle_zh": "根據測試結果選擇符合任務複雜度的模型版本，例如簡單重構任務用 Sonnet 5 控制成本，關鍵系統設計交由 Opus 4.8 處理，實現成本與品質的平衡。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-claude-sonnet-5-sonnet-4-6-opus-4-8-agentic",
+    "title": "Claude Sonnet 5 對比 Sonnet 4.6 與 Opus 4.8：Agentic 程式碼基準與成本效益分析",
+    "title_original": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared - MarkTechPost",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOUzFseXVOVVdlSnNtcFhVbnNhOGtSVHFDdDFkb25iZEw1Z2FTTWFzY3JXTXNVVWZVNHJDSjJHcUc4Nk1BYnFzVzhOSjhJeGMtNmp6R2dkMlpwTFJ0Z3ZjY1MyX0hHQ2s1TnRoZjBHbml6LXpTTUZlU1RCc3RxOERtYTJDZmFsczJJOWotelZGSHhGVnF1UlctU09hSHFIVG1uaVRpNG1aT0FKSFlWX0pMM25YSlh1M1ZXY3hMbjY1VVNfbkluYmxtQ3hFWC1mV21aQmJEWVFteXg1MDJDSEdfT1NtLUkzUEdpMU10ZzFGbm9QYTJ2OEZhQS1BYTl0MUHSAYQCQVVfeXFMUFVoN3pfM0ZIS09GSlBjdUQyZllNOURjWW5CcHUwZ1J4SG1zOHVXak5nMmdDUkFzMTlkU3pkQV9yZlN5czI1LUNyU3VnUDFodmpHSkZJMTNGdWQxNGd3U2JJSU00N2RDVVdjS1gzdUQxY05SQVpBMnp1S3BmSUVSc2VBc3N2S0FMRUZ5YlVLQkcxXzB1XzZpeGhQNmU4YUo0dHNLWGhWdkNZelJ1U2N6OXRwUGk1ZnBrQ0JCRnlVd1JTd0V5blM0cWdzQm4tMGZKTnh2TlpmTk50VjFTQkV0ZXpMbklyODBub2x3Y3MtNnhoejJpNk5QcUl4akppWkhBWEh4YW0?oc=5",
+    "published_at": "2026-07-14T00:58:47+00:00",
+    "category": "new-models",
+    "summary": "MarkTechPost 發布 Claude Sonnet 5 與前代 Sonnet 4.6、Opus 4.8 的 Agentic 程式碼基準測試對比，涵蓋 API 訂價與成本效能權衡。數據可供技術決策者評估升級至最新 Sonnet 的投資回報率。",
+    "highlights": [
+      "Agentic 程式碼基準（SWE-bench 等）比較",
+      "API 訂價差異量化",
+      "成本效能比（Cost-Performance Tradeoff）分析",
+      "資訊來源為 MarkTechPost 第三方分析，非官方發布",
+      "可作為技術團隊模型選擇的參考依據"
+    ],
+    "why_it_matters": "升級模型涉及成本增加，Sonnet 5 的實際效能提升是否值得額外支出需有數據支撐。此類基準分析提供量化參考，協助技術團隊做 ROI 評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可對照此基準報告，選取 1-2 個自家關鍵程式碼任務跑實際測試，驗證是否值得遷移到 Sonnet 5。",
     "tags": [
       "new-models",
       "rss",
@@ -5991,6 +6073,34 @@
     "automation_angle_zh": "編譯最新 llama.cpp，pull 該 PR 後用量化模型在 CPU 上測試生成速度與品質，評估是否能替代雲端 API 使用場景。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-ai-openai-anthropic-api",
+    "title": "中國 AI 模型衝擊 OpenAI 與 Anthropic API 業務：對企業的影響分析",
+    "title_original": "Chinese AI models are eating into OpenAI and Anthropic’s API business, but it's not a bad news for your business - MIXED Reality News",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbWJlLUNwVmdQMHpJV3pPcnU5N3Q1V0pYSnFuQW1RaDRzbTV0SjBOWGwyRE9oN19zX1RvNERKNlRZY2xNMEtJaVN6T1B3djI4b2hOcHZGMWlIS3NjS1RMMjFhRUd4QV9ubkFfckM5T0M3TDZNQ1JhZWhVZzdMZjNkQnBBT3NybExQMnJob29Oc0kwWExBT0lkd2ZMelFRZVQ1Z2NHc2NTTnIzOWRmcWJHc09nQ3NkejR5cmlfUUlZRS0xY1BDZTJESHpGbnI5TFBNaUE?oc=5",
+    "published_at": "2026-07-08T13:59:10+00:00",
+    "category": "hot-topics",
+    "summary": "MIXED Reality News 報導指出中國 AI 模型正在蠶食 OpenAI 與 Anthropic 的 API 市場份額，並分析此趨勢對企業的影響。報道強調中國模型在成本與多模態支援上的競爭力，但屬於第三方分析視角，非原始數據發布。",
+    "highlights": [
+      "中國模型（如 MiniMax、DeepSeek）在 API 市場攻城掠地",
+      "價格競爭力為主要驅動因素",
+      "多模態能力覆蓋成差異化關鍵",
+      "對企業而言並非壞消息（更多選擇、成本下降）",
+      "資訊來源為第三方新聞分析，非官方市調報告"
+    ],
+    "why_it_matters": "對技術決策者而言，供應商多元化可降低單一廠商依賴風險並優化成本。中國模型的崛起正在重構 API 市場格局，技術團隊需重新評估供應商策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術架構師可建立多供應商路由層，測試中國模型與西方模型在不同任務上的成本效益比，作為長期供應商策略依據。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -60452,6 +60562,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-17-meta-ai-google-openai",
+    "title": "Meta 推新 AI 模型欲追赶 Google 與 OpenAI，據報已投入數十億美元",
+    "title_original": "Meta debuts new AI model, attempting to catch Google, OpenAI after spending billions - CNBC",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNM25rWXBKX2traWptOXQtUjRQcUtmZkNrME8zR2RLS2V0djhxdU5kMVRmS2t2YmM2anhhVzcwS1F6cDJyTWZrYl9RRW01QjJ4SWJxQnVSRUpJNldVd1RaNnNDcE9LWnI3bUw3ZllIUmN0cG1FNUp0LUJvU0RnQUpESUs0NjN1Y1B5b2x2ZjlFTDM3ek5uaXZ6ZERqaXkybV82V2VkcjZwQ0VPaW5BalI2aURNTFZMdDN2?oc=5",
+    "published_at": "2026-04-08T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Meta 正在開發新一代 AI 模型，力圖縮小與 Google、OpenAI 的差距。據悉該公司已在 AI 基礎設施與訓練方面投入數十億美元，反映出大型科技公司在生成式 AI 領域的激烈競爭態勢。",
+    "highlights": [
+      "Meta 新模型瞄準縮小與主要競爭對手的技術差距",
+      "投資金額達數十億美元，顯示硬體與資料中心成本壓力",
+      "具體模型能力與發布時間尚未公布",
+      "可能延續 Llama 系列的開放策略",
+      "此消息出自 CNBC，屬公開新聞來源"
+    ],
+    "why_it_matters": "對技術人員而言，Meta 的新模型動向攸關開源生態系與雲端 API 定價競爭。若新模型具備競爭力，可能為開發者提供更多低成本部署選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤 Meta 新模型發布动态，待正式推出後評估其在開源部署、API 成本與特定任務（如程式碼生成）上的表現，作為現有方案的替代或補充。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-meta-ai",
     "title": "Meta 正在開源下一代前沿 AI 模型",
     "title_original": "Meta is developing open-source versions of its next frontier AI models - Techzine Global",
@@ -62154,6 +62292,34 @@
     "automation_angle_zh": "技術用戶可挑選一個內部 REST API，透過 APIAgent 將其轉為 MCP Server，然後讓本地 Agent 測試呼叫該 API 完成一個實際任務（如查資料或寫入資料）。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-17-agoda-apiagent-rest-graphql-api-mcp-server",
+    "title": "Agoda 開源 APIAgent：一鍵將 REST/GraphQL API 轉為 MCP Server",
+    "title_original": "Agoda Open Sources APIAgent to Convert Any REST pr GraphQL API into an MCP Server with Zero Code - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYWQ2SWZJVlhYeWxvMEptMlVmdHhlTVR6UmVOYi15ZGc1Vzl0TVlTYzk4ODdyVEpOZWJfLWpncFQ1a1ZsS3N5VGV2VnRaSTNfRGlENUh0b01kMFRxV2s4OWwtRlZvVEp2RC1jZWl1MVFMNklKdXlORU5OOTFOYlhwbFlMZVp1SjhzcUdUT3ZWWVdTalRwXzRMbkU1Y05BVEstbnNhRmgxV1haMUR6WDBaMVBxWTF6dE0waVRvUzNHaXVERWczelZqdWc5OVFFWng3WkNr0gHYAUFVX3lxTFB2R2tmdDZ4bTgtU2VsXzFZZzloS1NJXzFYbGFkaC1UdHhLX3pSMjlxT3kyYVB5amU4N3QwM2U4Z3VFWjl5MU5nM3hXbnVUZW1meTRjRW9oSFN6Njk2T2lxb2g0Y09fczc1V182UUZ0RTM0by1zSTcxRDhBR0pzeG1Mc180UHp2TUp0YzY0RXkyczQwQ0VnN05ZbkNmSllVT3B0ZlFXb3VrZEtJcy1oaFVXakFfMWkzcWkxZngteFBZYjR1ZWlhQ3hYaVV6WTdfNHl0b1U5Ui1oNA?oc=5",
+    "published_at": "2026-02-16T08:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Agoda 將 APIAgent 開源，可將任意 REST 或 GraphQL API 零程式碼轉換為 MCP（Model Context Protocol）Server。對於已有大量內部 API 的團隊，此工具可快速打通 AI Agent 與現有系統的連接，降低整合門檻。",
+    "highlights": [
+      "零程式碼將 REST/GraphQL API 暴露為 MCP Server",
+      "適用於已有內部 API 累積的企業場景",
+      "模型無需修改即可透過 MCP 呼叫既有 API",
+      "Agoda（旅遊科技公司）實際使用後開源",
+      "可立即下載測試，風險低"
+    ],
+    "why_it_matters": "企業內部 API 往往無法被 AI Agent 直接利用，需要轉接層。APIAgent 提供無需自建橋接程式的捷徑，工程團隊可快速實驗 Agent 驅動的內部工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術玩家可選一個內部 REST API，透過 APIAgent 註冊為 MCP Server，用 Claude/GPT 測試直接呼叫該 API 完成查詢或操作。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
