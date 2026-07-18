@@ -1,5 +1,117 @@
 [
   {
+    "id": "2026-07-18-agentdeals-mcp-server-1500",
+    "title": "agentdeals MCP Server：聚合 1500+ 免費額度與開發者工具優惠",
+    "title_original": "robhunter/agentdeals",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/robhunter/agentdeals",
+    "published_at": "2026-07-18T06:41:53Z",
+    "category": "agent-skills",
+    "summary": "開源 MCP Server 彙整來自各平台的免費方案、新創credits與開發工具優惠，共 54 類、1525+ 方案，TypeScript 實作，GitHub 星數尚低但方向實用。",
+    "highlights": [
+      "整合 1525+ 工具優惠，涵蓋 54 個類別",
+      "以 MCP Server 形式提供，易於串接 Agent",
+      "4 種工具接入，擴展性可期",
+      "新創 credit 聚合節省開發者比價時間",
+      "開源可貢獻或自架維護"
+    ],
+    "why_it_matters": "開發者常需追蹤各平台優惠動態，此工具將資訊結構化並提供 API 介面，可直接整合進工作流程或 Agent 決策邏輯。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 agentdeals 接入日常 Agent，自動化檢索最新優惠並評估是否適用於當前專案，節省手動查找時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/708980?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-18-claude-fable-5-max-team-pro",
+    "title": "Claude Fable 5 確定列入 Max 與 Team 方案，Pro 用戶獲一次禮金",
+    "title_original": "Claude make Fable 5 permanent",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+    "published_at": "2026-07-18T06:00:13+00:00",
+    "category": "ai-deals",
+    "summary": "Anthropic 宣布 Fable 5 自 7/20 起回歸所有 Max 與 Team 高級方案，配額為原有限額的 50%；Pro 與 Team Standard 用戶以用量計費，並獲一次性 $100 優惠。",
+    "highlights": [
+      "Fable 5 將保留在 Max/Team 方案中，配額砍半",
+      "Pro 用戶仍可透過 API 用量計費取用",
+      "競爭壓力（GPT-5.6 Sol、Kimi 3）迫使定價策略轉向",
+      "用戶無需再擔心「Fable 大撤退」危機",
+      "Anthropic 算力問題或影響後續訓練節奏"
+    ],
+    "why_it_matters": "Fable 5 從暫時移除到全面回歸，顯示市場競爭已直接影響頂級模型定價策略，技術用戶應重新評估訂閱 vs API 的成本效益。",
+    "automation_angle": null,
+    "automation_angle_zh": "若已訂閱 Max/Team，可將 Fable 5 用量列為主要工作主力模型，並利用 $100 credit 測試高頻使用場景的實際成本。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-18-21-python-web-quixote-commit",
+    "title": "21 年老 Python Web 框架 Quixote 突然復活 Commit",
+    "title_original": "nascheme/quixote",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/18/quixote/#atom-everything",
+    "published_at": "2026-07-18T05:27:49+00:00",
+    "category": "open-source-ai",
+    "summary": "Python 老牌 Web 框架 Quixote 在沉寂 21 年後，於本週出現新 commit，距上次 fossil 遷移到 GitHub 後首次更新。Quixote 是 2000 年代初流行的 CGI/WSGI 框架，作者 Willison 本身為資深 Python 開發者。",
+    "highlights": [
+      "Quixote 2.4 最初從 Subversion 遷移至 Git，現已 21 年歷史",
+      "新 commit 距上次 fossil 導入 GitHub 不到 24 小時",
+      "屬於懷舊向電腦歷史趣聞，非主流 AI 動態",
+      "可作為 Python Web 框架演化史參考案例"
+    ],
+    "why_it_matters": "此類長尾開源專案復活通常預示維護者重啟興趣，但 Quixote 與現代 AI 無直接關聯，實用價值有限，適合當技術圈趣聞閱讀。",
+    "automation_angle": null,
+    "automation_angle_zh": "對需維護 legacy Python Web 系統的技術人員可留意後續 commit，若有重大重構或現代化計畫再評估是否整合進工作流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-18-ai",
+    "title": "支付寶發布業界首個 AI 訂閱解決方案：三步接入四大功能",
+    "title_original": "支付宝發布行業首個AI訂閱解决方案：三步接入四大功能 - 移动支付网",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBUNkRRcmhGOTI5N21yckJXVG5aYkduU05pUG1Pc1p4OG9QbWZYcloxTE5DVTdQdF9BMEpfZl9OOVctMnRTclYwQVJPdGhvTkdscVEtOFJ1VXpFaVRDYjg5RkdpVQ?oc=5",
+    "published_at": "2026-07-18T03:07:28+00:00",
+    "category": "ai-deals",
+    "summary": "支付寶（螞蟻集團）推出業界首個 AI 訂閱解决方案，提供低門檻接入途徑。據移動支付網報導，該方案瞄準中小商家，強調三步完成接入、支援智能客服、支付風控等四大功能模組。",
+    "highlights": [
+      "支付寶生態系內的 AI 工具整合方案",
+      "強調低程式碼接入，降低技術門檻",
+      "覆蓋智能客服、風險控制等核心場景",
+      "瞄準中國市場中小商家數位化需求",
+      "具體定價與可用性資訊待確認"
+    ],
+    "why_it_matters": "支付寶作為中國最大支付基礎設施之一，其 AI 方案可能影響大量商戶的客服與風控自動化決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "在中國市場營運的技術團隊可評估該方案作為支付相關 AI 自動化的快速接入選擇，比較其與自建方案的開發時程。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-18-unbrowser-chrome-agent-mcp",
     "title": "unbrowser：無需 Chrome 的 Agent 原生瀏覽器與 MCP 伺服器",
     "title_original": "protostatis/unbrowser",
@@ -29,6 +141,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-18-langchain",
+    "title": "LangChain 開源資料提取服務正式發布",
+    "title_original": "Open Source Extraction Service",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/open-source-extraction-service",
+    "published_at": "2026-07-18T01:05:38+00:00",
+    "category": "open-source-ai",
+    "summary": "LangChain 發布開源提取服務，支援結構化資料從非結構化文本中解析。該服務基於 LangChain 生態，強調可自託管、無供應商鎖定，瞄準需要對敏感資料進行本地處理的企業場景。",
+    "highlights": [
+      "開源提取服務支援 JSON Schema 定義輸出格式",
+      "可部署於本地或私有雲環境",
+      "基於 LangChain Expression Language 建構",
+      "提供可插拔的模型介面，支援多种 LLM",
+      "強調企業級資料安全合規需求"
+    ],
+    "why_it_matters": "對於處理機密文件、醫療或法律資料的開發者，可自託管的提取工具能降低資料外洩風險，同時保留模型選擇彈性。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將此服務整合至現有 RAG 流程，用於自動從長文件中提取關鍵欄位，替換需支付 API 費用的雲端提取服務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-18-genesys-ai-locomo-89-9",
     "title": "Genesys：AI代理因果圖記憶系統，LoCoMo 準確率達89.9%",
     "title_original": "rishimeka/genesys",
@@ -55,6 +195,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/92563193?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-18-langchain-agentic-ai-roi",
+    "title": "LangChain 白皮書：金融服務中 Agentic AI 的 ROI 證明",
+    "title_original": "LangChain 白皮書：金融服務中 Agentic AI 的 ROI 證明",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/proving-the-roi-of-agentic-ai-in-financial-services",
+    "published_at": "2026-07-18T01:02:09+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布白皮書探討金融服務業部署 Agentic AI 的投資回報。內容包含個案研究、ROI 計算框架與實施路徑建議，但屬於 LangChain 自行發布的營銷內容，非獨立第三方研究。",
+    "highlights": [
+      "聚焦銀行、保險等金融場景的 AI Agent 應用",
+      "提供 ROI 計算方法論框架",
+      "列舉自動化客服、風險評估等用例",
+      "白皮書由 LangChain 製作，存在產品推廣動機",
+      "缺乏可比對的競爭對手分析"
+    ],
+    "why_it_matters": "金融業 AI 落地案例可供參考，但需以批判角度閱讀，獨立驗證其聲稱的效率提升數據。",
+    "automation_angle": null,
+    "automation_angle_zh": "金融科技開發者可用此框架評估自身 Agent 應用的價值主張，但需建立獨立的 KPI 追蹤機制。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -61250,6 +61418,34 @@
     "why_it_matters": "對技術人員而言，Meta 的新模型動向攸關開源生態系與雲端 API 定價競爭。若新模型具備競爭力，可能為開發者提供更多低成本部署選項。",
     "automation_angle": null,
     "automation_angle_zh": "持續追蹤 Meta 新模型發布动态，待正式推出後評估其在開源部署、API 成本與特定任務（如程式碼生成）上的表現，作為現有方案的替代或補充。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-18-z-ai-glm-5-1-754b-swe-bench-pro-sota",
+    "title": "Z.AI 發布 GLM-5.1：754B 開源代理模型，SWE-Bench Pro 達 SOTA",
+    "title_original": "Z.AI Introduces GLM-5.1: An Open-Weight 754B Agentic Model That Achieves SOTA on SWE-Bench Pro and Sustains 8-Hour Autonomous Execution - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQWG1iSWoySDIwUGdFMV9hMGFHcEx4aTRfOFJBcXFCTURlOHNqd3VUMnJSWDhiS0ptSWVPaTRHakJmXzhFdGxPN3l1X0ZZXzZlVmF0NVRxRmlrc1R6c2Y2eEZXbGg3OXJQVGZWcjdZSGc3dUFueTM4Z1p4R2hsWDQ4M1FLV3lZS05nMWI2TUVwN1JuQ3FwYXUwSXhndmxJcHIzT2wzQ1JOMjFIM3d2NlFvc0NTdjc5VVhZTEJ6bEU1ZU9hTlhIVzZtbkdJRzA5WlVIa3hvaTZDU0hkcmpVa29CQXRQNDRaS3NBZFNkMlR4LWw5b3BFcHhzblREZUl1TURINmtCZVlR0gGLAkFVX3lxTE9ORDE4cXVfQnhqVGpXMW9EQlhjUFZOeF9OUkp0TXNKSEwxakZxSnlBS0dTRml1LU1hQVM4bW1ZVEsxanpIRHpYdTg4V1RnNDlXZTAza2c2X1lCbFUyUEtzYVpTUjRnUVJ3dVhya1ZBQzZpR1Y3NmtRak9jd1p1Q2hPaURnZ1JJSHFsSlNUWHJtZTFid2ZRZkRFckNROTZjVG1FdlV5TGcwYmpqaVFRbjc0ZnNIOFp6ZWVlbFNfQmJuSFBGQWhMcVNEdndULUtHaEljLVdlWXRyNm1zZEEwdDVqb2VBZ0MxcVBPTl8zZDNGQ0lRZDZtWnlrYVpobHR0THVTcWU5dllBanBSWQ?oc=5",
+    "published_at": "2026-04-08T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Z.AI 推出 GLM-5.1，開源 754B 參數代理模型，在 SWE-Bench Pro 取得 SOTA，並標榜支援 8 小時長時自主執行，具軟體工程自動化潛力。",
+    "highlights": [
+      "754B 參數規模，開源權重可供部署",
+      "SWE-Bench Pro 評測達頂尖表現",
+      "標榜 8 小時長時自主執行能力",
+      "軟體工程場景（代碼生成/修復）為主要應用",
+      "需驗證實際部署效能與文件品質"
+    ],
+    "why_it_matters": "若 SOTA claims 屬實，GLM-5.1 可成為替代閉源模型的本地軟體工程 Agent 選項，尤其適合需要長期自動化任務的團隊。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載開源權重，在本地或私有雲部署，用實際 SWE 任務測試其代碼生成與錯誤修復能力，評估是否符合專案需求。",
     "tags": [
       "new-models",
       "rss",
