@@ -1,5 +1,146 @@
 [
   {
+    "id": "2026-07-18-sema-tree-sitter-sbert-mcp",
+    "title": "sema：基於 tree-sitter 與 SBERT 的本地語意程式碼索引 MCP 伺服器",
+    "title_original": "masihmoloodian/sema",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/masihmoloodian/sema",
+    "published_at": "2026-07-18T12:53:31Z",
+    "category": "agent-skills",
+    "summary": "sema 是專為 Claude Code、Codex、opencode 設計的本地語意程式碼索引工具，支援語意搜尋、程式碼重用檢查與影響分析，VS Code 端整合聊天與 Agent 介面。技術堆疊包含 tree-sitter、SBERT、ChromaDB。",
+    "highlights": [
+      "基於 tree-sitter 解析程式碼語法結構",
+      "使用 SBERT 向量化實現語意搜尋",
+      "ChromaDB 做本地向量儲存保障隱私",
+      "支援 Claude Code、Codex、opencode 多種 Agent",
+      "VS Code 聊天介面方便開發者直接使用"
+    ],
+    "why_it_matters": "本地語意索引可在不暴露程式碼的前提下提升 Agent 程式碼理解準確度，對重視智財保護的團隊極具實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 sema 部署至本地開發環境後，可讓 AI Agent 自動分析大型程式碼庫的重用機會，減少重複開發並評估重構影響範圍。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/30547433?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-18-reddit-basalt-labs-qwen-7b",
+    "title": "Reddit 社群踢爆「Basalt Labs」以 Qwen-7B 假冒新模型涉欺詐爭議",
+    "title_original": "\"Basalt Labs\" pulling a generationally dumb scam. Incredibly stupid lmao. Claiming 99.44% on HLE with tools. Model they released is based on Qwen2.5-7B-Instruct and the model they're serving on their website is DeepSeek.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uztylz/basalt_labs_pulling_a_generationally_dumb_scam/",
+    "published_at": "2026-07-18T11:58:12+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 討論串指出 Basalt Labs 宣稱達 99.44% HLE 分數，但其發布模型實為基於 Qwen2.5-7B-Instruct，網站服務端則使用 DeepSeek。社群批評此為惡意行銷欺騙。",
+    "highlights": [
+      "號稱新模型實為 Qwen2.5-7B-Instruct 重新包裝",
+      "官網服務端使用 DeepSeek 而非自有模型",
+      "宣稱 HLE 99.44% 數據高度可疑",
+      "Reddit 社群已大量討論其欺詐本質",
+      "此案例可作為評估模型真實性的反面教材"
+    ],
+    "why_it_matters": "揭露開源模型市場的包裝造假亂象，提醒技術用戶在採用新模型前必須驗證原始模型與部署實況，避免被行銷話術誤導。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者評估新模型時應查閱 Hugging Face 原始權重與訓練數據，而非僅依賴官方宣稱的 benchmark 分數與行銷文案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-18-llm",
+    "title": "LLM 呼叫快取失效偵測工具：除錯新利器問世",
+    "title_original": "If you're building a harness, here is a simple tool to catch cache invalidation in your calls to LLMs",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uztipo/if_youre_building_a_harness_here_is_a_simple_tool/",
+    "published_at": "2026-07-18T11:34:48+00:00",
+    "category": "agent-skills",
+    "summary": "開發者分享一個簡單工具，能在 LLM 呼叫中捕捉快取失效問題。對於構建測試 harness 或除錯 AI 管道的技術人而言，精確掌握快取何時失效是優化成本與回應一致性的關鍵。",
+    "highlights": [
+      "工具可監控並記錄 LLM API 呼叫中的快取命中與失效",
+      "有助開發者識別哪些請求未使用快取",
+      "可降低 API 呼叫成本並提升除錯效率",
+      "適合與 LangChain、LlamaIndex 等框架整合",
+      "開源專案可直接取用或 fork 客製"
+    ],
+    "why_it_matters": "此工具直接解決 AI 系統除錯痛點，技術宅若常與 LLM API 打交道，可用來精準控制快取使用，省下不必要的 API 費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "將該工具嵌入 CI/CD pipeline，每次模型更新後自動檢測快取失效率，確保新版模型輸出穩定性並控制成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-18-ai",
+    "title": "中國 AI 模型爆量崛起：數量領先、品質不亞於西方",
+    "title_original": "How Chinese are producing so many Models? Even higher in numbers and yes with comparable Quality",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uzpn33/how_chinese_are_producing_so_many_models_even/",
+    "published_at": "2026-07-18T07:49:32+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 熱議中國 AI 實驗室何以能快速產出大量模型，論點指出中國靠開源策略與高效算力部署，在模型數量上已超越西方，且部分模型品質可與 GPT-4 等主流模型比肩。討論涉及 DeepSeek、Qwen 等代表性模型。",
+    "highlights": [
+      "中國開源模型數量激增，DeepSeek、Qwen 系列最獲關注",
+      "部分中國模型在基準測試已達 GPT-4 等級水準",
+      "中國 AI 實驗室大量採用開源生態以降低開發成本",
+      "學者指出算力資源集中與政策支援是關鍵因素",
+      "此趨勢對依賴付費 API 的開發者具省錢參考價值"
+    ],
+    "why_it_matters": "技術宅需正視中國模型崛起趨勢，這代表開源生態中又多了一類可免費部署、性價比極高的替代方案，直接影響 AI 工具選型與成本控制決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 DeepSeek 或 Qwen 模型部署至本地端作為內部自動化流程的推論引擎，評估其在特定任務上的品質與延遲是否滿足需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-18-ai",
+    "title": "支付寶發布 AI 訂閱解決方案　三步快速接入四大功能",
+    "title_original": "2026WAIC：支付宝發布AI訂閱解决方案 三步接入四大功能 - 手机新浪网",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16Mm1lQzIxTVhDVVMzazI2TGYxcU5ReDZKVnhuci1tRU1nVERTdGxyS1YzWWtMb3RLcUthdzVQcFZHVnBRWHdSTV9ZVm0taks2TndOdlJnQWRCenFFTzRXT3p4OURPcjZTYkRoazFlaHdHLW5yelpIZEVBTV91T2M?oc=5",
+    "published_at": "2026-07-18T07:39:43+00:00",
+    "category": "ai-deals",
+    "summary": "2026 WAIC 傳支付寶推出 AI 訂閱解決方案，號稱三步即可接入四大核心功能。目前流出資訊有限，具體功能與定價尚未公布，但瞄準企業級 AI 整合市場。",
+    "highlights": [
+      "支付寶為螞蟻集團旗下支付生態切入 AI 服務",
+      "主打三步驟快速接入降低企業技術門檻",
+      "四大功能細節尚待官方確認",
+      "瞄準中國本地企業的 AI 落地需求",
+      "非全球性服務，海外開發者應用有限"
+    ],
+    "why_it_matters": "支付寶的流量與支付場景若與 AI 能力結合，可為中國境內電商、客服等場景提供一站式 AI 整合方案，值得中國市場相關技術宅關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "中國本地開發者可待正式發布後評估其 API 文件與定價，若支援電商客服自動化則可快速整合至現有流程。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-18-agentdeals-mcp-server-1500",
     "title": "agentdeals MCP Server：聚合 1500+ 免費額度與開發者工具優惠",
     "title_original": "robhunter/agentdeals",
@@ -253,6 +394,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/122026167?v=4",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-18-kimi-k3",
+    "title": "Kimi k3 實測體驗：基準成績與實際感受有多大落差？",
+    "title_original": "How does Kimi k3 feel? Does it match up where it stands on benchmarks?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uzg3n3/how_does_kimi_k3_feel_does_it_match_up_where_it/",
+    "published_at": "2026-07-17T23:47:50+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶詢問 Kimi k3 的實際使用體驗與基準測試排名的落差。Kimi 由月之暗面（Moonshot AI）推出，k3 版本被認為是其旗艦推論模型之一，但用戶反映實測感受與排名存在差異。",
+    "highlights": [
+      "Kimi k3 為月之暗面推出的旗艦推論模型",
+      "基準測試排名亮眼但用戶體驗有出入",
+      "涉及長文本理解與複雜推論任務的實際表現",
+      "用戶社群正進行一手實測分享",
+      "對模型選型有參考價值"
+    ],
+    "why_it_matters": "模型基準成績不等於實際工作表現，技術宅在選型時需參考社群真實使用反饋，避免單純以排名作為決策依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "可親自向 Kimi k3 提交自家真實工作任務樣本，觀察輸出品質與延遲是否符合內部需求，再決定是否正式採用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-18-github-copilot-rest-api",
@@ -62050,6 +62219,32 @@
     "why_it_matters": "模型 API 成本直接影響 AI 應用可行性，低價競爭讓技術宅能用更少預算實驗更多想法，降低 AI 工具試錯門檻。",
     "automation_angle": null,
     "automation_angle_zh": "可評估用 MiniMax 或階躍星辰替代現有付費 API，用相同預算增加開發迭代次數或撐大每日用量上限。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-18-step-plan",
+    "title": "階躍星辰推 Step Plan「養蝦」套餐　開發者社區半價優惠",
+    "title_original": "阶跃星辰推出 Step Plan “养虾”套餐：開發者社区尊享半價，AI 编程进入普惠時代 - AIBase",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE85QnE0ZFZmcTl6Rkg4WlZzRHludlRlM0hqdlJ1SnRwOFNOdUt4dkFsb29LbGdyeVpZU3hqM0JiZ3RoQkVQRHJhOHNVSjlCdw?oc=5",
+    "published_at": "2026-03-23T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "階躍星辰（StepFun）推出 Step Plan「養蝦」套餐，鎖定開發者社區提供半價優惠，旨在降低 AI 編程工具的使用成本。此套餐預期涵蓋其 AI 程式碼生成與輔助功能。",
+    "highlights": [
+      "階躍星辰為中國 AI 獨角獸，專注多模態模型",
+      "Step Plan 套餐提供 AI 程式碼相關功能",
+      "開發者社區專屬半價優惠"
+    ],
+    "why_it_matters": "對於需要高頻使用 AI 程式碼工具的技術宅，半價優惠可直接降低每月工具支出，值得評估其功能是否滿足開發需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用半價優惠期大量測試 Step Plan 的 AI 編程能力，若品質達標可長期以優惠價使用以節省 API 開支。",
     "tags": [
       "ai-deals",
       "rss",
