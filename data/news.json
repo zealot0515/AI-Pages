@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-07-18-vault-cortex-obsidian-vault-mcp-ai-agent",
+    "title": "vault-cortex：Obsidian  vault 專用 MCP 伺服器，賦予 AI Agent 結構化記憶",
+    "title_original": "aliasunder/vault-cortex",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aliasunder/vault-cortex",
+    "published_at": "2026-07-18T18:46:32Z",
+    "category": "agent-skills",
+    "summary": "vault-cortex 是專為 Obsidian 打造的 MCP 伺服器，支援混合搜尋、結構化記憶、任務管理與完整 vault 存取，可讓任何 AI Agent 直接讀寫 Obsidian 筆記內容，現有 11 顆星。",
+    "highlights": [
+      "MCP 標準：符合 Model Context Protocol 相容各式 Agent",
+      "混合搜尋：支援語意與關鍵字混合檢索筆記",
+      "結構化記憶：將非結構化筆記轉為可查詢的結構化資料",
+      "完整 vault 存取：讀寫、搜尋、管理一站式",
+      "早期專案：星星數低，社群驗證不足，建議谨慎評估"
+    ],
+    "why_it_matters": "若能穩定運作，可讓 AI Agent 直接存取個人知識庫，實現「筆記即工作流程」的自動化場景，節省重複輸入上下文的人力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其部署於本地 MCP 環境，測試讓 Agent 自動整理會議記錄或生成待辦事項的實際效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/32620895?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-18-llama-cpp-openpangu-2-0-flash-92b-a6b-mla-mtp",
+    "title": "llama.cpp 新增 OpenPangu-2.0-Flash (92B-A6B) 模型：支援 MLA 潛在快取與多頭 MTP",
+    "title_original": "model: add openPangu-2.0-Flash (92B-A6B) with MLA-latent cache, DSA/SWA, mHC, and multi-head MTP by joelfarthing · Pull Request #2065 · ikawrakow/ik_llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v03psf/model_add_openpangu20flash_92ba6b_with_mlalatent/",
+    "published_at": "2026-07-18T18:38:39+00:00",
+    "category": "open-source-ai",
+    "summary": "llama.cpp 專案收到 Pull Request，擬新增 OpenPangu-2.0-Flash 模型（92B-A6B 規格），具備 MLA 潛在快取、DSA/SWA、mHC 及多頭 MTP 等加速技術。該 PR 由 joelfarthing 提交至 ikawrakow/ik_llama.cpp 倉庫，若成功 merge 將大幅降低本地部署門檻。",
+    "highlights": [
+      "OpenPangu-2.0-Flash 為 92B 規模模型，採用 A6B 量化規格",
+      "MLA（Multi-head Latent Attention）潛在快取可減少 KV cache 記憶體佔用",
+      "DSA/SWA（Dynamic Sparse Attention / Sliding Window Attention）優化推論效率",
+      "mHC（multi-head composite）與多頭 MTP（Multi-Token Prediction）提升生成品質",
+      "PR 尚在審核中，需關注後續 merge 進度與穩定性測試"
+    ],
+    "why_it_matters": "OpenPangu 2.0 Flash 若成功整合进 llama.cpp，將使 92B 大模型在消費級 GPU 本地運行成為可能，预计可降低 AI 推論成本並提升隐私保护。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可跟踪該 PR 进展，merge 後立即測試模型在本地机器的推論速度與内存占用，评估是否能替代现有闭源 API 完成特定自動化任务。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-18-sema-tree-sitter-sbert-mcp",
     "title": "sema：基於 tree-sitter 與 SBERT 的本地語意程式碼索引 MCP 伺服器",
     "title_original": "masihmoloodian/sema",
@@ -26,6 +83,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/30547433?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-18-waic-ai-ai",
+    "title": "支付寶於 WAIC 發布 AI 訂閱服務，瞄準 AI 應用開發者市場",
+    "title_original": "支付宝在WAIC發布适用AI應用的AI訂閱服务，加速產業發展 - 搜狐网",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNkRSejUteW45X3ZULVEwZURNVDFzUkpqeDRGWDF0SUtENHoxV0xfbUN6ZnlqRk9LM3c2cUs5LXJ2T0hwRGJMRVZkT1BDZ0h5S0stLTFCM0xLbHZmM1lKVndsa2t0eXhQSTY1STVDbXBPY0ZyODRDN3BtQTR1YzdHdWxnNnJVR3Bv?oc=5",
+    "published_at": "2026-07-18T12:39:41+00:00",
+    "category": "ai-deals",
+    "summary": "支付寶在 2025 世界人工智慧大會（WAIC）發布針對 AI 應用的訂閱服務，旨在為開發者提供穩定、低成本的 API 調用資源。服務詳情尚未完全公開，但瞄準中國市場的 AI 應用開發者群體，可能提供免費額度或企業級套餐選項。",
+    "highlights": [
+      "支付寶切入 AI API 服務領域，依托其支付生態提供變現場景",
+      "服務定位於 AI 應用開發者，而非終端用戶",
+      "具體定價與額度尚未明確，需持續追蹤官方公告",
+      "可能與現有騰訊雲、阿里雲 AI 服務形成競爭",
+      "WAIC 為中國 AI 領域重要會議，發布內容具有一定官方性質"
+    ],
+    "why_it_matters": "支付寶擁有龐大支付用戶基礎與變現場景，其 AI 服務若能與支付流程整合，可為開發者提供獨特的商業化路徑，值得關注後續 API 文檔與定價策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可先加入觀察名單，待正式上線後評估其 API 穩定性與成本結構，若提供免費額度則可用於小型自動化專案的模型調用替代方案。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -11037,6 +11122,34 @@
     "automation_angle_zh": "關注感興趣公司的 HF 組織頁面，追蹤其實際開源貢獻而非僅看品牌名稱。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-18-mistral-leanstral-1-5-apache-2-0-587-putnam",
+    "title": "Mistral Leanstral 1.5：Apache-2.0 授權，解 587 道 Putnam 數學題",
+    "title_original": "Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdnJkSTA0NDFkUnpDaWZTYjdKVmROaEdNNVNON3RrNTctMlBBdmZRanl0VHZmLXpZaXJRYnBFVF9haEI1eVhORFFnLTFBenJZQ3VzWE5BT25FMGtHcWJ5MVNkTnpIUDVUcFBYQk5SdE5oc2haVW1OWVd2aUJvR0taamd4N3Jpd3BXbkN3RHNXQWhrYXg2WXVzM1NvV181RHh4WVFVdl9ibDQ2UnpzTUVhRTBFTTJHY0RlaVVpWkVwczdRZXZHdENSQXo3Y0FnQkU1cFk5YVNZWHVNdFQwN2t5VFh3ZDRTOFXSAewBQVVfeXFMT3JYWndQZk1zV1UtU2FzeW9fS3lfdzdIZ0xGVXFaWDFYLVo5Y3Y0bjJGTGJ0Z1V0VlRQWlNZaGQtMVVQTlhXRHE0SW91UnFfdFVNX2lDeEY2RnVhUHhPcnowbG1XVkYtSXFrUDBpN21feXdzOXdGeHFRc08zMlVhY2ZBckVwVEpmaXRBeUdHQ25tU3gzVlVWd1ZfeGU2T1NWODcwOC1JbjBNbW9oVHBhMmFKTkJFZzlpcEZaUVhKb3Niby01U21JQXFHRk1zbnF6T1pkMFRGUERCeVJhZWN3WUxrd0ktRE45aFBRUjM?oc=5",
+    "published_at": "2026-07-03T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 發布 Leanstral 1.5，這是一款專為形式化數學證明設計的 Lean 4 Code Agent 模型，在 PutnamBench 測試中解出 587/672 題目，採用 Apache-2.0 開源授權。",
+    "highlights": [
+      "任務類型：Lean 4 形式化數學證明，超越通用程式生成",
+      "Benchmark 表現： PutnamBench 587/672，正確率約 87%",
+      "授權方式：Apache-2.0，允許商業使用",
+      "適用場景：形式化驗證、數學研究、程式數學題自動化",
+      "限制：高度專業領域模型，通用場景不一定適用"
+    ],
+    "why_it_matters": "Leanstral 展示了專用領域 Code Agent 的能力邊界，若此技術迁移至一般程式碼生成，可能提升自動化測試與形式化驗證的效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "對形式化方法有需求的技術用戶可直接下載模型評估其在數學證明自動化的準確率，或研究其技術報告以獲取專用 Agent 訓練靈感。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
