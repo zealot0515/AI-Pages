@@ -1,5 +1,204 @@
 [
   {
+    "id": "2026-07-18-unbrowser-chrome-agent-mcp",
+    "title": "unbrowser：無需 Chrome 的 Agent 原生瀏覽器與 MCP 伺服器",
+    "title_original": "protostatis/unbrowser",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/protostatis/unbrowser",
+    "published_at": "2026-07-18T01:31:41Z",
+    "category": "agent-skills",
+    "summary": "protostatis 團隊開發的 unbrowser 是一款用 Rust 實作的輕量級瀏覽器與 MCP 伺服器，專為 AI Agent 網頁探索場景設計。相較傳統 Selenium/Puppeteer，它無需安裝 Chrome 即可運作，並可明確升級至 Unchained 處理需要完整瀏覽器的流程。目前已獲 12 顆星。",
+    "highlights": [
+      "使用 Rust 實作，強調高效能與記憶體安全",
+      "作為 MCP 伺服器，可直接整合進 Agent 工作流程",
+      "輕量級設計，適合自動化爬蟲與網頁操作",
+      "支援與 Unchained 的明確升級路徑",
+      "可直接 pip install 或 cargo build 測試"
+    ],
+    "why_it_matters": "對於需要網頁操作的 AI Agent，傳統方案往往依赖 Selenium 或 Playwright，設定繁瑣。unbrowser 提供了更輕量的替代方案，可直接在 MCP 生態中使用，降低自動化門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 unbrowser 整合進現有 MCP 工作流程，測試其能否替代現有的瀏覽器自動化方案，並評估與 Unchained 的銜接成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/121765396?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-18-genesys-ai-locomo-89-9",
+    "title": "Genesys：AI代理因果圖記憶系統，LoCoMo 準確率達89.9%",
+    "title_original": "rishimeka/genesys",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/rishimeka/genesys",
+    "published_at": "2026-07-18T01:05:06Z",
+    "category": "agent-skills",
+    "summary": "Genesys 是一款開源因果圖記憶框架，專為 AI 代理設計，採用 ACT-R 評分、擴散激活與主動遺忘機制。在 LoCoMo 基準測試中達到 89.9% 準確率，透過 MCP 協定整合至代理工作流程。屬於新興研究導向專案，Stars 僅17，實用性待社群驗證。",
+    "highlights": [
+      "採用因果圖結構管理代理記憶，模拟人類認知機制",
+      "ACT-R 評分與擴散激活算法提升記憶關聯性",
+      "主動遺忘機制避免記憶過載，維持長期效能",
+      "LoCoMo 基準測試達 89.9% 準確率",
+      "MCP 協定整合，但目前社群採用度較低"
+    ],
+    "why_it_matters": "因果圖記憶可能是下一代代理系統的核心能力之一，Genesys 的研究驗證方向值得關注，但作為初期專案，其生產環境穩定性與大規模部署效果仍需實際測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 Genesys 整合至代理原型，測試其在對話歷史管理與長期任務追蹤場景中的記憶關聯性與主動遺忘機制，評估是否能替代現有的簡單向量檢索方案。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/92563193?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-18-surfsense-notebooklm",
+    "title": "SurfSense：開源 NotebookLM 替代方案，支援多平台即時資料連接",
+    "title_original": "MODSetter/SurfSense",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/MODSetter/SurfSense",
+    "published_at": "2026-07-18T00:36:10Z",
+    "category": "open-source-ai",
+    "summary": "SurfSense 是一款開源 AI 研究助理，主打透過即時資料連接器從 Reddit、YouTube、Amazon、Google Maps 與 Google Search 抓取公開資料，並提供統一 API 與 MCP 伺服器整合。已獲 15,272 GitHub Stars，屬於近期快速成長的開源專案。",
+    "highlights": [
+      "支援 Reddit、YouTube、Amazon、Google Maps、Google Search 等平台",
+      "提供統一 API 與 MCP 伺服器，方便整合至現有 AI 工作流程",
+      "15,272 GitHub Stars，近期成長快速的開源專案",
+      "Python 實作，適合技術團隊快速部署與客製化",
+      "可作為 AI 代理的即時資料獲取層，替代傳統爬蟲腳本"
+    ],
+    "why_it_matters": "SurfSense 為 AI 代理提供了標準化的多平台資料獲取能力，省去自行維護各平台爬蟲的維運成本，讓技術用戶能快速為研究、競品分析等場景構建即時資料流。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 SurfSense 部署為 AI 研究代理的資料前處理層，自動從多平台抓取最新資訊輸入大型語言模型，實現自動化競品追蹤或技術動態監控。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/122026167?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-18-github-copilot-rest-api",
+    "title": "GitHub Copilot 推出儲存庫層級使用量指標 REST API",
+    "title_original": "Repository-level GitHub Copilot usage metrics generally available",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
+    "published_at": "2026-07-17T22:05:18+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方公告 Copilot 使用量指標 REST API 已正式支援儲存庫層級回報。新增兩個端點可取得 Copilot 程式碼代理與 Copilot 程式碼審查的每日、每儲存庫活動概覽。技術團隊可據此追蹤各專案的 AI 輔助程式碼貢獻趨勢。",
+    "highlights": [
+      "官方 GitHub Changelog 公告，來源可靠",
+      "兩個新端點回傳每日、每儲存庫的 Copilot 活動資料",
+      "涵蓋 Copilot 程式碼代理與程式碼審查兩種使用情境",
+      "可用於分析各團隊/專案的 AI 輔助程式碼佔比",
+      "一般可用（GA）狀態，適合生產環境直接調用"
+    ],
+    "why_it_matters": "儲存庫層級的 Copilot 使用量數據讓技術主管與團隊負責人能精確評估 AI 工具的實際滲透率與效能影響，為工具選型與預算規劃提供數據依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此 API 整合至內部儀表板，自動追蹤各專案的 Copilot 使用趨勢，識別低採用率團隊並針對性推動培訓，或驗證 AI 輔助對程式碼產出質量的實際影響。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-18-github-copilot-usage-metrics-api",
+    "title": "GitHub Copilot 應用程式使用量正式納入 Usage Metrics API",
+    "title_original": "GitHub Copilot app now available in the usage metrics API",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
+    "published_at": "2026-07-17T22:05:11+00:00",
+    "category": "hot-topics",
+    "summary": "GitHub 官方宣布 Copilot 應用程式的使用數據現已整合進企業與組織的 Usage Metrics API。管理員可在 1 日與 28 日報告中檢視 Copilot 應用程式的使用情況，提升對不同客戶端使用行為的可見度。",
+    "highlights": [
+      "API 現在回傳 Copilot 應用程式的使用度量",
+      "支援 1 天與 28 天彙總報告視圖",
+      "僅限企業與組織管理員存取",
+      "可用於分析桌面端 vs 網頁端使用比例",
+      "官方 GitHub Changelog 來源，可驗證"
+    ],
+    "why_it_matters": "企業 IT 管理員終於能完整掌握 Copilot 在不同端點的使用狀況。這有助於評估授權效益、識別高使用量團隊，並優化企業 Copilot 部署策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可透過 API 自動化擷取 Copilot 使用報告，結合內部系統建立使用儀表板，或設定用量警示避免超額。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-18-copilot-code-review",
+    "title": "Copilot Code Review 支援自訂規則與分支隔離測試",
+    "title_original": "Copilot code review: Customization and configurability improvements",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements",
+    "published_at": "2026-07-17T21:08:30+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 釋出 Copilot Code Review 功能更新，新增防火牆機制、自訂設定步驟與獨立 Runner 配置。現在可從 Head Branch 讀取自訂指令，方便在隔離環境中測試與驗證 Code Review 行為。",
+    "highlights": [
+      "防火牆機制保護 Code Review 執行環境",
+      "支援從分支讀取自訂指令",
+      "獨立 Runner 配置提升彈性",
+      "可在 PR 中直接測試自訂規則效果",
+      "官方產品更新，功能變更可驗證"
+    ],
+    "why_it_matters": "過去 Copilot Code Review 的自訂能力有限，這次更新讓開發團隊能根據專案需求定義審查規則，並在隔離環境驗證後再部署，提升團隊採用信心。",
+    "automation_angle": null,
+    "automation_angle_zh": "DevOps 可利用此功能建立團隊專屬的 Code Review 政策自動化，例如對特定路徑或檔案類型套用不同審查標準，並透過 CI 驗證規則有效性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-18-item",
+    "title": "開源螢幕監控應用程式歷經一年改進獲得社群認可",
+    "title_original": "A year ago you told me my open-source screen-watching app was flaky. You were right, so I spent the year fixing it with your feedback. Thank you r/LocalLLaMA c: !!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1uz8596/a_year_ago_you_told_me_my_opensource/",
+    "published_at": "2026-07-17T18:34:33+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者於 r/LocalLLaMA 分享其開源螢幕監控應用程式經過一年迭代後的改進歷程。根據社群回饋重新設計架構，提升穩定性並修復諸多問題。此為社群驅動的產品迭代案例。",
+    "highlights": [
+      "一年前版本被社群批評穩定性不足",
+      "根據用戶回饋重構核心架構",
+      "已修復多個長期存在的問題",
+      "開源可審視原始碼",
+      "社群驗證具有參考價值"
+    ],
+    "why_it_matters": "對於需要本機螢幕監控能力的 AI 應用（如本地模型視覺輸入），這代表一個經過社群驗證的替代方案。若穩定性已提升，可評估是否用於工作流程自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載原始碼或預編譯版本，測試其螢幕擷取延遲與準確度，評估是否適用於本機 AI 視覺代理或自動化截圖需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-17-nvidia-nemo-hugging-face-diffusers",
     "title": "NVIDIA NeMo 與 Hugging Face Diffusers 聯手：規模化微調影片與影像模型",
     "title_original": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
@@ -168,6 +367,33 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/1529926?v=4",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-18-llm",
+    "title": "LLM 陳腔濫調檢測器開源工具",
+    "title_original": "LLM cliché highlighter",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
+    "published_at": "2026-07-17T12:11:11+00:00",
+    "category": "hot-topics",
+    "summary": "Simon Willison 發布開源工具，可高亮顯示十種常見的 AI 生成文字模式（如「no fluff, no filler」等典型空話），幫助識別文章是否出自 LLM 之手或檢測內容摻雜 AI 文字。",
+    "highlights": [
+      "檢測十種 LLM 寫作常見陳腔濫調模式",
+      "開源可自行部署，無需依賴外部 API",
+      "可用於內容審核、AI 生成文字識別或教學演示",
+      "基於 Fable 5 vibe 程式碼實作"
+    ],
+    "why_it_matters": "對抗「AI 味」文字有一定實用價值，可作為內容品質審核輔助工具，也可幫助理解 LLM 輸出模式的特徵。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合進內容審核流程或 CI/CD pipeline，自動標記可疑文章或檢測代理生成的內容摻雜。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-17-octo-agent-go-ai-agent",
