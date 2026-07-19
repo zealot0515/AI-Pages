@@ -1,5 +1,34 @@
 [
   {
+    "id": "2026-07-19-agentic-nexus-mcp-android",
+    "title": "agentic-nexus：用 MCP 工具接管 Android 語音助理",
+    "title_original": "niki914/agentic-nexus",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/niki914/agentic-nexus",
+    "published_at": "2026-07-19T11:40:46Z",
+    "category": "agent-skills",
+    "summary": "GitHub 上的 Kotlin 專案可接管 Android 系統語音助理，串接 Claude、GPT、Gemini 等任意 LLM，並支援 MCP 工具、Shell/SSH 與 Root/Shizuku 自動化。現有 66 顆星，適合進階 Android 用戶實驗。",
+    "highlights": [
+      "可替換 Android 原生語音助理為自訂 AI Agent",
+      "支援 MCP 工具擴展，可呼叫外部 API 或本地服務",
+      "具備 Shell/SSH 能力，可執行遠端命令",
+      "需要 Root 或 Shizuku 權限，門檻較高",
+      "目前星數偏低（66），屬早期專案"
+    ],
+    "why_it_matters": "將手機助理 AI 化是一個具潛力的自動化方向，技術用戶可藉此在手機端實現更強大的語音控制工作流程，但需注意 Root 權限的安全風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "具 Root 設備的技術用戶可安裝測試，用自然語言語音指令控制手機自動化操作，如開啟特定 App、執行脚本或遠端操控電腦。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Kotlin"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/177029856?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-19-xactions-x-twitter-api",
     "title": "XActions：X/Twitter 自動化工具箱，無 API 費用開源方案",
     "title_original": "nirholas/XActions",
@@ -55,6 +84,32 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/99635239?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-19-thinking-machines-tinker-qwen3-235b",
+    "title": "Thinking Machines 最佳公開 Tinker 成果竟出自 Qwen3-235B 基底模型",
+    "title_original": "Thinking Machines' best public Tinker result used Qwen3-235B, not Inkling. is the base model actually that important?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0ka8g/thinking_machines_best_public_tinker_result_used/",
+    "published_at": "2026-07-19T07:45:27+00:00",
+    "category": "new-models",
+    "summary": "社群討論揭示 Thinking Machines 的 Tinker 專案中表現最佳的公開結果，使用的是 Qwen3-235B 而非自家 Inkling 模型。此發現引發關於基底模型選擇對最終效能影響程度的熱議，開發者開始重新審視「基底模型本身是否才是關鍵變數」這個老問題。",
+    "highlights": [
+      "最佳公開 Tinker 成果由 Qwen3-235B 達成，非 Inkling",
+      "社群開始討論基底模型選擇與微調效果的相對重要性",
+      "Qwen3-235B 的開源屬性使其成為可驗證、可本地部署的選項"
+    ],
+    "why_it_matters": "此事提醒技術人員：即使專注特定任務，最佳成果可能來自通用基底模型而非特製方案。選擇開源、可審計的基底模型，能降低對封閉供應商的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "若在本地部署情境中追求效能，可直接測試 Qwen3-235B 而非盲目採用商業封閉模型；比對不同基底模型在本任務上的表現，作為技術決策依據。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -116,6 +171,33 @@
   },
   {
     "id": "2026-07-19-claude-code-rust-bun",
+    "title": "Claude Code 已悄悄切換至 Rust 版 Bun",
+    "title_original": "Claude Code uses Bun written in Rust now",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+    "published_at": "2026-07-19T03:54:09+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 實測發現 Claude Code v2.1.181 起已改用 Rust 重寫的 Bun。透過 strings 指令可見 Bun v1.4.0 字串與 563 個 .rs 檔案路徑，證實這套尚未正式發布的 Rust 版 Bun 已部署至數百萬裝置。Linux 環境啟動速度提升約 10%，其餘表現差異不大，開發者 Jarred Sumner 對此低調以對：「無聊就是好事」。Rust 版 Bun 已以 canary 頻道釋出。",
+    "highlights": [
+      "Claude Code v2.1.181（6/17 發布）起已內建 Rust 版 Bun，非傳統 JavaScript 實現",
+      "strings 指令可驗證：含「Bun v1.4.0」字串與 563 個 .rs 編譯檔",
+      "Linux 啟動速度提升約 10%，其餘用戶幾乎無感知差異",
+      "Rust 版 Bun 已透過 bun upgrade --canary 開放安裝"
+    ],
+    "why_it_matters": "主流 AI 編碼工具已正式擁抱 Rust 生態，效能與記憶體安全同步提升。對於重視工具鏈可靠度的開發者，這代表 Claude Code 底層架構更穩定，未來效能優化空間更大。",
+    "automation_angle": null,
+    "automation_angle_zh": "執行 strings ~/.local/bin/claude | grep 'Bun v' 驗證自身 Claude Code 版本；或透過 bun upgrade --canary 搶先體驗 Rust 版，評估對本機開發環境的實際影響。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-19-claude-code-rust-bun",
     "title": "Claude Code 已全面遷移至 Rust 版 Bun",
     "title_original": "Are you guys buying huge HDDs to store the best open models just in case?",
     "source": "Reddit r/LocalLLaMA",
@@ -140,6 +222,32 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-19-reddit",
+    "title": "Reddit 熱議：被低估的本地模型有哪些？",
+    "title_original": "What’s your favorite underrated local model?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0eszf/whats_your_favorite_underrated_local_model/",
+    "published_at": "2026-07-19T02:46:37+00:00",
+    "category": "open-source-ai",
+    "summary": "r/LocalLLaMA 板塊發起討論，邀請用戶分享自己認為被嚴重低估的本地部署模型。話題涵蓋非主流尺寸模型、長期被忽略的架構變體，以及針對特定領域優化但知名度低的開源模型。",
+    "highlights": [
+      "討論聚焦於非主流、非 Llama/Mistral 系列的模型",
+      "涵蓋不同尺寸與任務導向的隱藏寶石",
+      "可作為本地部署成本優化與差異化選擇的參考方向"
+    ],
+    "why_it_matters": "對於需要在邊緣裝置或自有伺服器上運作的技術人員，這類討論能挖掘出性價比更高、資源消耗更低的替代方案，尤其適合成本敏感的自動化場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "瀏覽討論串，針對自身自動化任務（如文件處理、程式生成）下載測試候選模型，評估在符合隱私需求下的實際可用性與成本節省幅度。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-19-thinking-machines-tinker-qwen3-235b-inkling",
