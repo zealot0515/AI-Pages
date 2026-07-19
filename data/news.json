@@ -1,5 +1,174 @@
 [
   {
+    "id": "2026-07-19-xactions-x-twitter-api",
+    "title": "XActions：X/Twitter 自動化工具箱，無 API 費用開源方案",
+    "title_original": "nirholas/XActions",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/nirholas/XActions",
+    "published_at": "2026-07-19T07:54:51Z",
+    "category": "agent-skills",
+    "summary": "XActions 是開源的 Twitter/X 自動化工具包，內建爬蟲、MCP Server（支援 Claude/GPT）、CLI、瀏覽器腳本。特色是完全免 API 費用，支援自動追蹤/取消追蹤、互動、資料監控。已獲 392 stars，社群關注度高。",
+    "highlights": [
+      "完全開源，無需 Twitter API 費用即可自動化操作",
+      "提供 MCP Server，可無縫整合 Claude、GPT 等 Agent",
+      "支援自動追蹤/取消追蹤、按讚、留言等常見操作",
+      "具備即時資料監控與分析功能",
+      "CLI 與瀏覽器腳本並存，靈活度高三百九十二星，社群活躍"
+    ],
+    "why_it_matters": "對需要大規模社群操作或建構社交 AI Agent 的開發者，XActions 繞過 API 費用的方案極具成本優勢。但需注意 Twitter 官方可能調整爬蟲政策帶來的政策風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可整合 XActions MCP Server 至現有 Agent 流程，實現社群監控、內容發布自動化，零成本建構 Twitter 相關工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "HTML"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/22895867?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-19-yade-mcp-dem-mcp-server",
+    "title": "YADE-MCP：自然語言驅動的 DEM 模擬 MCP Server",
+    "title_original": "yusong652/yade-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/yusong652/yade-mcp",
+    "published_at": "2026-07-19T07:46:20Z",
+    "category": "agent-skills",
+    "summary": "YADE-MCP 將離散元素法（DEM）模擬工具 YADE 接入 AI Agent，允許用戶透過自然語言對話控制模擬參數與執行。瞄準工程模擬自動化場景，降低 DEM 專業工具的使用門檻。",
+    "highlights": [
+      "將專業 DEM 模擬工具 YADE 帶入 AI Agent 生態",
+      "支援自然語言介面控制模擬參數",
+      "降低工程模擬工具的學習曲線",
+      "適合需要批量參數掃描的工程場景",
+      "新興專案，社群資源與文件有限"
+    ],
+    "why_it_matters": "專業工程模擬工具的 AI Agent 化是垂直場景自動化的典型案例。若整合成熟，可顯著提升工程師的參數調試效率，但需評估模擬精度與控制精確度。",
+    "automation_angle": null,
+    "automation_angle_zh": "工程領域技術人員可測試 YADE-MCP，探索自然語言驅動參數掃描的可行性，評估是否能取代部分手動操作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/99635239?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-19-genesys-ai-agent-locomo-89-9",
+    "title": "Genesys：AI Agent 因果圖譜記憶框架，LoCoMo 達 89.9%",
+    "title_original": "Astrix-Labs/genesys",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Astrix-Labs/genesys",
+    "published_at": "2026-07-19T07:39:27Z",
+    "category": "agent-skills",
+    "summary": "Genesys 是 Astrix-Labs 開源的 AI Agent 因果圖譜記憶系統，採用 ACT-R 評分、擴散激活與主動遺忘機制。在 LoCoMo 基準測試達 89.9% 準確率，專注解決 Agent 長期記憶與上下文管理問題。",
+    "highlights": [
+      "採用因果圖譜架構，比傳統向量記憶更解釋性強",
+      "ACT-R 評分機制模擬人類認知過程",
+      "擴散激活模擬神經網路資訊傳遞",
+      "主動遺忘機制防止無關資訊佔用上下文",
+      "LoCoMo 89.9% 展現長期記憶任務的競爭力"
+    ],
+    "why_it_matters": "長期記憶是 Agent 能力的關鍵瓶頸。Genesys 的因果圖譜方法在可解釋性與效能間取得平衡，對需要建構多輪對話或長期任務 Agent 的開發者有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將 Genesys MCP Server 整合至自定義 Agent，評估其因果圖譜記憶相較向量檢索在特定任務場景的效能差異與可解釋性優勢。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/306567599?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-19-ai",
+    "title": "AI 狂熱正在摧毁全球決策品質",
+    "title_original": "AI Mania Is Eviscerating Global Decision-Making",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
+    "published_at": "2026-07-19T05:06:21+00:00",
+    "category": "hot-topics",
+    "summary": "Nik Suresh 觀察到大型企業內部弥漫著一股非理性的 AI 狂熱。匿名案例顯示，部分從未使用過 AI 工具的高層卻主導百億美元營收組織的 AI 策略，而工程師為保住飯碗被迫做無意義的技術遷移。銷售方因擔心得罪客戶高層的幻想而不敢提出異議，形成系統性的集體謊言循環。",
+    "highlights": [
+      "從未使用過 ChatGPT 的高層能主導 $2B+ 組織的 AI 策略，反映高層焦慮與實務脫節",
+      "工程師為證明自身價值被迫執行「將 Go 改寫為 Zig」等無意義專案",
+      "供應商不敢挑戰客戶高層的 100x 生產力宣言，擔心丟單",
+      "敢於說實話的技術人員可能因「唱反調」而被解雇",
+      "此現象不限單一企業，已成跨產業系統性問題"
+    ],
+    "why_it_matters": "對技術人員而言，了解此現象有助識別組織內的 AI 政治風險，在推動技術決策時更懂得保護自己，同時避免成為傳播虛假期望的一環。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀此分析後可自我審視：貴組織的 AI 提案是否基於實際測試數據，而非高層幻覺；建立內部 AI 成效的客觀量測標準以對抗雜音。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-19-claude-code-rust-bun",
+    "title": "Claude Code 已全面遷移至 Rust 版 Bun",
+    "title_original": "Are you guys buying huge HDDs to store the best open models just in case?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0g429/are_you_guys_buying_huge_hdds_to_store_the_best/",
+    "published_at": "2026-07-19T03:53:46+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 實測確認 Claude Code 自 v2.1.181 起已使用 Jarred Sumner 開發的 Rust 版 Bun，取代原有 JavaScript/TypeScript 實作。Linux 啟動速度提升約 10%，macOS 變化不明顯，顯示底層重寫對終端用戶影響有限但工程品質提升。",
+    "highlights": [
+      "Claude Code v2.1.181（2025/6/17）起使用 Rust 版 Bun",
+      "strings 比對顯示同時包含 Bun v1.4.0（未發布預覽版）和 563 個 .rs 檔案路徑",
+      "Rust 重寫目標並非效能，而是提升跨平台可靠度與維護性",
+      "Linux 啟動速度提升約 10%，macOS 變化不大"
+    ],
+    "why_it_matters": "Bun 從 JavaScript 生態轉向 Rust 生態，反映 AI 開發工具對底層可靠性的重視。對 CLI 工具用戶而言，這代表更穩定的開發環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可透過 strings ~/.local/bin/claude | grep 'Bun v' 確認本機 Claude Code 版本，評估是否受益於 Rust 重寫的穩定性提升。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-19-thinking-machines-tinker-qwen3-235b-inkling",
+    "title": "Thinking Machines Tinker 最佳成績竟用 Qwen3-235B 非 Inkling",
+    "title_original": "I tried fine-tuning a ternary model, Bonsai 8b, on metal",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0egoi/i_tried_finetuning_a_ternary_model_bonsai_8b_on/",
+    "published_at": "2026-07-19T02:29:24+00:00",
+    "category": "new-models",
+    "summary": "社群討論揭示 Thinking Machines 的公開 Tinker 展示中，最佳結果使用的是 Qwen3-235B 而非其自研 Inkling 模型。該討論引發關於基座模型選擇對 AI Agent 成果影響的反思，暗示即便工具再強大，基座模型仍是關鍵瓶頸。",
+    "highlights": [
+      "Tinker 展示的最佳成果來自 Qwen3-235B 而非 Inkling",
+      "基座模型能力直接影響 Agent 工具的最終表現",
+      "開源模型（Qwen3）在特定任務上足以匹敵專有方案",
+      "思考框架（Agent）與基座模型的交互效應值得深入研究"
+    ],
+    "why_it_matters": "此發現提醒開發者在選擇 Agent 框架時，不應忽視基座模型的影響力。開源大模型已具備支撐複雜推論任務的能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 Qwen3-235B 搭配 Tinker 或類似 Agent 框架進行本地自動化任務測試，評估開源方案能否滿足工作流程需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-19-home-assistant-mcp-agent-livekit-home-assistant-mcp",
     "title": "home-assistant-mcp-agent：LiveKit 整合 Home Assistant MCP",
     "title_original": "longcw/home-assistant-mcp-agent",
