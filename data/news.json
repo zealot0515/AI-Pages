@@ -1,5 +1,117 @@
 [
   {
+    "id": "2026-07-19-home-assistant-mcp-agent-livekit-home-assistant-mcp",
+    "title": "home-assistant-mcp-agent：LiveKit 整合 Home Assistant MCP",
+    "title_original": "longcw/home-assistant-mcp-agent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/longcw/home-assistant-mcp-agent",
+    "published_at": "2026-07-19T01:41:51Z",
+    "category": "agent-skills",
+    "summary": "GitHub 專案將 LiveKit Agent 與 Home Assistant MCP 伺服器整合，採用 TypeScript 開發，目前 22 顆星。屬於新興工具，技術實作方向具參考價值，但社群支援度有限。",
+    "highlights": [
+      "LiveKit Agent 語音框架結合 Home Assistant",
+      "使用 TypeScript 開發",
+      "GitHub 星數 22，屬於早期專案",
+      "可做為智慧家庭語音 Agent 的參考實作",
+      "支援 MCP 協定連接 Home Assistant"
+    ],
+    "why_it_matters": "智慧家庭語音 Agent 的實作範例，技術用戶可從原始碼學習如何用 MCP 打通 Home Assistant 與語音對話系統。",
+    "automation_angle": null,
+    "automation_angle_zh": "可 clone 原始碼研究其 MCP 整合方式，評估是否可直接用於智慧家庭專案的語音控制需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6198400?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-19-soofi-s-30b-a3b-moe-mamba-transformer",
+    "title": "Soofi S 30B-A3B：德語與英德混合的 MoE Mamba-Transformer 模型",
+    "title_original": "German SooFi team launches Soofi S 30B-A3B , an open-source Mixture-of-Experts (MoE) hybrid Mamba–Transformer foundation model for German and English.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v0cyix/german_soofi_team_launches_soofi_s_30ba3b_an/",
+    "published_at": "2026-07-19T01:14:20+00:00",
+    "category": "open-source-ai",
+    "summary": "德國 Soofi 團隊發布 Soofi S，為 30B 參數、啟用 3B 的混合專家（MoE）模型，結合 Mamba 與 Transformer 架構，專精德語與英語。屬於 Reddit 社群消息，無官方技術文件連結，詳細效能待驗證。",
+    "highlights": [
+      "30B 總參數，實際啟用 3B（MoE 架構）",
+      "創新混合 Mamba 與 Transformer 設計",
+      "專精德語，支援英語",
+      "德國在地團隊開發",
+      "Reddit 社群消息，非官方發布"
+    ],
+    "why_it_matters": "MoE + Mamba 混合架構是近期開源模型的技術趨勢，若效能驗證通過，可在本地部署低成本取得較高效能。",
+    "automation_angle": null,
+    "automation_angle_zh": "待有正式 GitHub 頁面或技術報告後，下載測試其在德語任務上的表現，評估是否適合歐洲市場相關自動化專案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-19-nvidia-cmp-170hx-8gb-pcie-gen2",
+    "title": "NVIDIA CMP 170HX 8GB 效能解鎖：記憶體與 PCIe Gen2 優化",
+    "title_original": "CMP 170HX 8gb — Perf + Memory + PCIe Gen2 Unlock - NVIDIA Driver 610.43.03 (patched open kernel modules)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v088us/cmp_170hx_8gb_perf_memory_pcie_gen2_unlock_nvidia/",
+    "published_at": "2026-07-18T21:42:38+00:00",
+    "category": "hot-topics",
+    "summary": "社群玩家分享 CMP 170HX 8GB 顯示卡透過修補過的開放核心模組，解鎖更多記憶體容量與啟用 PCIe Gen2 傳輸模式，NVIDIA 驅動版本為 610.43.03。屬於硬體愛好者技術分享，非官方功能。",
+    "highlights": [
+      "修補驅動 610.43.03 釋放額外效能",
+      "解鎖 PCIe Gen2 傳輸模式提升頻寬",
+      "8GB 記憶體配置可獲得更大活用空間",
+      "為挖礦用退役卡種找到新用途",
+      "非官方改裝，穩定性需自行評估"
+    ],
+    "why_it_matters": "CMP 系列原本為礦卡，現在透過社群破解可作為低成本本地推論選擇，對想在預算內架設本地 AI 推論環境的技術宅具參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估此改裝是否穩定可靠，若驗證可行可作為低成本本地 LLM 推論的替代方案，自動化部署時可多一台硬體選擇。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-19-item",
+    "title": "本地端代理技能可重現管理工具問世",
+    "title_original": "Tool for reproducible management of agent skills",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v04xlm/tool_for_reproducible_management_of_agent_skills/",
+    "published_at": "2026-07-18T19:26:31+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/LocalLLaMA 社群分享一款用於可重現管理代理技能的工具，幫助開發者追蹤、版本化與部署 AI 代理的工作流程程。目前原始文章缺乏詳細說明與技術文件連結，僅社群討論階段。",
+    "highlights": [
+      "聚焦代理技能的可重現性管理",
+      "目標為簡化代理工作流程程部署",
+      "目前僅社群討論階段，無官方文件",
+      "適合本地部署與開源愛好者關注"
+    ],
+    "why_it_matters": "代理技能管理工具若能落地，可大幅減少 AI 工作流程程維運成本，對需要管理多個代理項目的技術團隊有實質幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "可持續追蹤此專案，待正式版本發布後評估能否整合至現有 CI/CD 流程，自動化代理技能測試與部署。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-18-vault-cortex-obsidian-vault-mcp-ai-agent",
     "title": "vault-cortex：Obsidian  vault 專用 MCP 伺服器，賦予 AI Agent 結構化記憶",
     "title_original": "aliasunder/vault-cortex",
@@ -57,6 +169,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-19-simon-willison-sqlite",
+    "title": "Simon Willison 推薦互動式 SQLite 查詢解釋工具",
+    "title_original": "SQLite Query Explainer",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything",
+    "published_at": "2026-07-18T17:19:10+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 推薦一款互動式 SQLite Query Explainer，由 Fable 基於 Julia Evans 靈感開發。工具在瀏覽器內透過 Pyodide 執行 SQLite，解釋 EXPLAIN 與 EXPLAIN QUERY PLAN 結果，幫助理解查詢效能瓶頸。",
+    "highlights": [
+      "純瀏覽器端運行，無需安裝任何環境",
+      "使用 Pyodide 將 Python 移植至 WebAssembly",
+      "解讀 EXPLAIN 與 EXPLAIN QUERY PLAN 結果",
+      "基於 Julia Evans 的 SQLite 學習動機",
+      "Simon Willison 親自推薦有一定公信力"
+    ],
+    "why_it_matters": "SQLite 查詢優化是本地資料庫應用的核心技能，此工具降低學習門檻，技術宅可快速診斷本地 RAG 或代理記憶體儲存的效能問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "直接開啟工具 URL，上傳或輸入本地 SQLite 查詢，快速分析效能瓶頸，用於自動化資料庫效能監控或 CI 階段的查詢審查。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-18-sema-tree-sitter-sbert-mcp",
     "title": "sema：基於 tree-sitter 與 SBERT 的本地語意程式碼索引 MCP 伺服器",
     "title_original": "masihmoloodian/sema",
@@ -105,6 +245,34 @@
     "why_it_matters": "支付寶擁有龐大支付用戶基礎與變現場景，其 AI 服務若能與支付流程整合，可為開發者提供獨特的商業化路徑，值得關注後續 API 文檔與定價策略。",
     "automation_angle": null,
     "automation_angle_zh": "技術用戶可先加入觀察名單，待正式上線後評估其 API 穩定性與成本結構，若提供免費額度則可用於小型自動化專案的模型調用替代方案。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-19-waic-ai",
+    "title": "支付寶於 WAIC 發布 AI 應用訂閱服務",
+    "title_original": "支付宝在WAIC發布适用AI應用的AI訂閱服务，加速產業發展 - 搜狐网",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0yaXRrZVdZQ1UxQjFFSlJjcnFFTjNJVjZyaWw1OEZHWkZKZ0E1ZHdpaTdNTlpKR2lBVHBuVkVxTmdJX3pGUk9KbnlvLWZ4WHRoVXc?oc=5",
+    "published_at": "2026-07-18T12:39:41+00:00",
+    "category": "ai-deals",
+    "summary": "支付寶在世界人工智慧大會（WAIC）宣布推出適用於 AI 應用的訂閱服務，旨在加速 AI 產業發展。服務詳情、定價與 API 額度尚未完全揭露，具體內容需待官方正式公告。",
+    "highlights": [
+      "支付寶正式進軍 AI 訂閱服務市場",
+      "瞄準中國本土 AI 應用開發者",
+      "WAIC 官方活動曝光具一定可信度",
+      "詳細定價與額度尚未公布",
+      "可能有螞蟻集團生態系整合優勢"
+    ],
+    "why_it_matters": "支付寶擁有龐大支付用戶基礎，其 AI 訂閱服務若提供 API 或算力支援，可能為中國開發者提供新的免費額度或低成本選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續關注支付寶 AI 服務正式上線資訊，評估是否可用於自動化工作流程程中的 AI API 替代方案或補充算力來源。",
     "tags": [
       "ai-deals",
       "rss",
