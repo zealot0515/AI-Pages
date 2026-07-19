@@ -1,5 +1,34 @@
 [
   {
+    "id": "2026-07-19-26zl-cybersec-toolkit-580-mcp-server",
+    "title": "26zl/cybersec-toolkit：一鍵安裝 580+ 安全工具的 MCP Server",
+    "title_original": "26zl/cybersec-toolkit",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/26zl/cybersec-toolkit",
+    "published_at": "2026-07-19T18:10:42Z",
+    "category": "agent-skills",
+    "summary": "cybersec-toolkit 支援 Linux 與 Termux，單一命令安裝 580+ 安全工具，含 870+ Agent 技能（CTF、滲透測試、漏洞賞金、數位取證、紅藍對抗），可對接 Claude Code、OpenCode、Ollama 等多個 Agent 用戶端。",
+    "highlights": [
+      "580+ 安全工具一鍵安裝，涵蓋主流 Kali 工具",
+      "870+ 預置 Agent 技能，無需手動配置",
+      "MCP 協議支援：Claude Code、OpenCode、Codex、Gemini CLI、Ollama",
+      "跨平台：Linux 原生與 Android Termux 環境",
+      "Stars 目前偏低（30），但工具鏈覆蓋度極高"
+    ],
+    "why_it_matters": "安全研究人員與滲透測試工程師可借此快速建構 Agent 化安全工作流程，省去手動串接工具的繁瑣設定。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Linux 環境執行安裝指令後，將 MCP Server 接入自架 Ollama 或 Claude Code，直接用自然語言驅動滲透測試與漏洞分析流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/143036376?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-19-agentic-nexus-mcp-android",
     "title": "agentic-nexus：用 MCP 工具接管 Android 語音助理",
     "title_original": "niki914/agentic-nexus",
@@ -441,6 +470,34 @@
       "open-source-ai",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-19-ai",
+    "title": "支付寶發布 AI 訂閱解決方案：三步接入四大功能",
+    "title_original": "2026WAIC：支付宝發布AI訂閱解决方案 三步接入四大功能 - 新浪网",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMinAVBVV95cUxQWVJsLXpQdVc5Q09XM2wtdUgzdFdVTlBmdjhuZXZVb2R1MFlxOU5NTHgycW52am9BbVdNY295eXF2bVRFLTFPS3JhRVdaR2dva2ZUU1gxWjlmWkVzcWZTOXVHc0pSUURoTkZnOUtmTTVJZlBVV0loeVRWek15eXFOTkFZQXhMRHN5aXZhVm1kOWx5NFpucDZ2ZEh5Rmt0MTV2Zzh1SkdpVk5yY1lIOThZQV9qMWhoRUNzZzRWeC1HSDFkMnJpLWFnNmE3eHJMZkFWWE9WZElrM0pJc18wQU5fM3VLUmZEMGZON0V4M19TUkVsSFdFUGhqYkpqdXNyM3FQNWk4UENtV1Q2Vldwd0FsSUU5X3IwY0w5WUI5TFdpTGdXZWtvS2ZmWHVVVWxjVEp6SEVQRUVhMnNiaENBTFRoNGxtUktlRUFreVdJeDNPdThzWkszcmtpcGx5eXV2VWMxajlkNXdVdjhxd0pXUFdIVUZzRHNvckdWSTJQNC1IWTFyck1oV1cxMTdZbmhpU0hXR0RvLUlvdlhaZmtIRHhkWWJQX2lZVnBfS2lmaW9NWFRTSDh4UmUxMHprZ2JSVVQ0NThpWWp5azZ1Y3BteWNMMlFjM1ZocnpLZVJyaENuVzVwOVg4RGlUM2RSYzYyODU3N3pnYnBnRm9nZ0J0YTByc09ESHlQZzJQNDhzMU9BRmVna3dkRUtvX3ladGw4TGVTN0tfN0pHWDR1R2xHdklHOHJHMzY3ejdCamZ6UFdhV0didUpsYXhJMVFKLUpTTUNUdEZsYWhxZDNwcERfTk1TYmtwV194UFc0Q244bnVSTk9HQi03S1pXU1JXUmJ4ZWZTdlpTa0tIalRxQ25fT1V5V3pqNUNSbnZPUnppcA?oc=5",
+    "published_at": "2026-07-18T18:09:46+00:00",
+    "category": "ai-deals",
+    "summary": "支付寶在 WAIC 期間發布 AI 訂閱解決方案，提供三步驟快速接入接口，涵蓋四大核心功能模組。此方案主要面向中國市場的開發者與企業用戶，提供標準化的 AI 能力接入途徑。",
+    "highlights": [
+      "提供標準化三步接入流程",
+      "涵蓋四大核心 AI 功能模組",
+      "瞄準中國市場企業用戶",
+      "支付寶生態系統整合",
+      "可能提供免費額度或試用方案"
+    ],
+    "why_it_matters": "對於需要中文 AI 能力且注重合規的技術人員，支付寶的企業級方案提供了可驗證的接入管道。但需注意其服務範圍主要限於中國市場，且實際額度與定價需進一步確認。",
+    "automation_angle": null,
+    "automation_angle_zh": "中國境內技術人員可評估其 API 穩定性與定價模型，測試是否能滿足工作流程程中的特定需求，比較與其他中文 AI API 的成本效益。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -62502,6 +62559,34 @@
     "automation_angle_zh": "可用於每季一次的開源 Agent 工具雷達掃描，篩選有潛力整合進自己工作流程的框架候選。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-19-mistral-voxtral-tts-4b",
+    "title": "Mistral Voxtral TTS：4B 參數開源流式語音模型",
+    "title_original": "Mistral AI Releases Voxtral TTS: A 4B Open-Weight Streaming Speech Model for Low-Latency Multilingual Voice Generation - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNcHoxekt4T0REbENVN1FBMExxVlNLVmVpSmFIVzZua3U3UXNWRXBRaWFCcFZUMlJmcFhuTXZuTXNheTh5aUdpUVI2UGh1b3RRSHRwOVZHclNFYzB1LVlDM3p3ZmFmbHViclczVE41MlVnODVTdjFYTC1qeFRFeUNZTEMtTHNaRnMwcGpTVDRYR2ZpZjNzWUtES0xoVW5pOXoxNDZvUFZIRlFjTzF4bURNZEdXZ1BRYUw2MU9XMmpNNWVPWk1pOFR4dmxkX0djRzNaU09vRjA4MzNUS2NNVHd4WnJiUVdUeU9rM1pPdW5IONIB9AFBVV95cUxQWXF1Zk54X21vSzh6MkUwSXdrTjlkanlhbmlZV0JYRE1jci1QNHplaWVDSGtERE02bk5zRFNTVS1vQzNkOGZpb0dzcmN1Ql9BcTJJSGRhXzNzbTlPWGxrY0RyWHNlc2RvY2o2emRXTktPak5aeThwV2otRDlRVi04UFhWbV9RcGVUNFNvMkpyR1NWRm1vLXByRDIwN2ZxQnRxR0pnT1Q1VmxLdE0tTDNjMjN1OEFzdFk1X2dRS1hJVFdhYkQtMFpQZW8wQWsySFQtZ2k4WXY2Q0dvRXo3cGJSUFBIWWhDbGlqb0JyNVREcUN0MGp6?oc=5",
+    "published_at": "2026-03-28T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 發布 Voxtral TTS，4B 參數開源權重，主打低延遲流式輸出與多語言支援，瞄準即時語音合成場景，開放權重可本地部署。",
+    "highlights": [
+      "4B 參數開源權重，支援本地部署",
+      "流式輸出設計，降低互動延遲",
+      "多語言覆蓋，適配全球化應用",
+      "Mistral 生態整合，可透過 API 或本地调用",
+      "相較封閉式 TTS API 有成本優勢"
+    ],
+    "why_it_matters": "開源 TTS 模型若延遲與品質達生產級水準，將撼動 ElevenLabs、OpenAI TTS 等付費服務的市場地位。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 Voxtral 權重，在本地或自架伺服器部署；評估流式延遲與語音自然度，替換現有付費 TTS 服務以降低語音合成成本。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
