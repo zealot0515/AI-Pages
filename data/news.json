@@ -1,5 +1,225 @@
 [
   {
+    "id": "2026-07-20-github-copilot-ai",
+    "title": "GitHub Copilot 計費介面新增成本中心 AI 額度池管理功能",
+    "title_original": "AI credit pools for cost centers in the billing UI",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
+    "published_at": "2026-07-20T18:24:14+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方 Changelog 公告，Copilot 計費介面現已支援直接管理成本中心的 AI 額度池。過去需透過 API 或指令才能配置額度，現在可在建立或編輯成本中心時同步完成。此更新簡化了企業 Copilot 團隊的預算管理工作。",
+    "highlights": [
+      "可在 GitHub 計費 UI 直接建立成本中心額度池",
+      "編輯成本中心時可同步調整 AI 額度配置",
+      "過去需透過 API 操作，現在支援 GUI 直接管理",
+      "針對企業 Copilot 團隊的預算控制優化"
+    ],
+    "why_it_matters": "對使用 GitHub Copilot 企業版的技術團隊而言，此功能降低管理門檻，讓預算配置更直觀，提升 AI 工具治理效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術主管可在 GitHub 設定頁面直接為不同團隊配置 Copilot 額度上限，監控使用量並避免超支。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-20-langchain-issuebench-engine",
+    "title": "LangChain IssueBench 詳解：如何評估 Engine 識別與分組問題的能力",
+    "title_original": "IssueBench - How We Evaluate Engine",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/issuebench-how-we-evaluate-engine",
+    "published_at": "2026-07-20T17:43:50+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格詳細說明 IssueBench 評估方法。這是一款合成基準測試工具，用於衡量 LangSmith Engine 能否準確識別、分類與分組 Agent 追蹤軌跡中的問題。IssueBench 基於合成資料產生，可標準化評估不同版本 Engine 的表現差異。",
+    "highlights": [
+      "IssueBench 是 LangChain 自建的合成基準測試",
+      "用於評估 Engine 識別 Agent 追蹤問題的能力",
+      "支援問題分類與分組效果的量化評估",
+      "幫助開發者標準化比較不同版本 Engine"
+    ],
+    "why_it_matters": "對於依賴 LangSmith 進行 Agent 除錯的團隊，IssueBench 提供客觀的 Engine 品質衡量標準，有助迭代優化。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 LangSmith 中使用 IssueBench 定期跑分，確保新版本 Engine 維持或提升問題檢測率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-simon-willison",
+    "title": "Simon Willison 轉載：誰在害怕中國模型？蒸餾權與開放政策的思考",
+    "title_original": "Who’s Afraid of Chinese Models?",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything",
+    "published_at": "2026-07-20T17:09:19+00:00",
+    "category": "hot-topics",
+    "summary": "轉載 Ben Thompson 評論，分析實驗室禁止蒸餾自家模型卻用未授權資料訓練的矛盾，並提議美國立法明確訓練資料屬於合理使用、同時禁止 ToS 限制蒸餾。亦提到習近平強調開源協作的公開談話可能影響阿里釋出 Qwen 3.8 Max 的決策。",
+    "highlights": [
+      "屬於產業政策與法規分析文章",
+      "蒸餾（Distillation）爭議涉及模型使用權",
+      "美國立法提議尚無實質進展",
+      "Qwen 3.8 Max 開放權重原因為推測",
+      "Simon Willison 為優質 AI 資訊來源"
+    ],
+    "why_it_matters": "此分析觸及開源模型生態系的核心法規問題，但距離技術用戶的日常開發決策仍有落差，建議作為產業趨勢參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶若關注開源模型的合法使用边界，可追蹤此政策討論；若主要關心工具落地，目前優先級不高。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-github-copilot-ai",
+    "title": "GitHub Copilot 新增帳單週期 AI 額度用量檢視功能",
+    "title_original": "Copilot users can now see AI credits used per billing cycle",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
+    "published_at": "2026-07-20T16:00:14+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣佈 Copilot Business 與 Enterprise 用戶現可檢視當前帳單週期的 AI 額度使用量，即使未設定個人預算也能查看。",
+    "highlights": [
+      "GitHub 官方功能更新公告",
+      "僅限 Business 與 Enterprise 方案",
+      "無需個人預算設定即可使用",
+      "有助團隊成本監控與預算分配",
+      "功能已上線，可立即使用"
+    ],
+    "why_it_matters": "對企業 IT 管理員與技術主管而言，可更透明地追蹤 Copilot 用量，有助於評估 ROI 與編列下年度預算。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可登入 GitHub 設定用量通知閾值，當額度接近上限時自動觸發告警，避免月底超額費用。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-20-gstreamer-llama-cpp-llm",
+    "title": "GStreamer 整合 llama.cpp 實現本地 LLM 文字翻譯與轉換",
+    "title_original": "Local LLM text translation or transformation in GStreamer with llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1pkjl/local_llm_text_translation_or_transformation_in/",
+    "published_at": "2026-07-20T15:59:31+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者在 Reddit 分享如何將 llama.cpp 與 GStreamer 多媒體框架結合，實現本地 LLM 的文字翻譯與轉換功能。此方案無需雲端 API，可在本地硬體運行，支援即時串流翻譯流程，為需要離線或私有化翻譯的場景提供新思路。",
+    "highlights": [
+      "使用 llama.cpp 作為本地推論引擎，避免雲端 API 依賴與費用",
+      "GStreamer 提供管線式架構，可串接音訊/影片處理與文字翻譯模組",
+      "支援即時串流翻譯，適用於直播字幕或即時通訊情境",
+      "可部署於邊緣裝置，降低延遲並保護資料隱私",
+      "開源方案，社群持續優化模型量化與效能"
+    ],
+    "why_it_matters": "對於需要本地化翻譯或對資料隱私有嚴格要求的開發者，此整合提供了一套可自部署的替代方案。擺脫雲端 API 限制後，可降低成本並實現完全控制的翻譯管線。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將此架構用於自動化字幕生成或即時文件翻譯流程，例如設定 GStreamer 接收串流輸入，經 llama.cpp 即時翻譯後輸出至下游系統，全程無需外部 API。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-langchain-governed-agents-ai",
+    "title": "LangChain 發布 Governed Agents 框架：企業 AI 的成本、控制與合規性設計指南",
+    "title_original": "Building Governed Agents: A Framework for Cost, Control, and Compliance",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/building-governed-agents-a-framework-for-cost-control-and-compliance",
+    "published_at": "2026-07-20T15:46:07+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格介紹 Governed Agents 框架，旨在幫助企業在部署 AI Agent 時實現成本管控、權限控制與合規審計。框架定義了閘道器（Gateway）作為 AI 執行時期的控制平面，可將政策轉化為跨模型呼叫、工具呼叫、Agent 跳轉的可執行決策。",
+    "highlights": [
+      "Governed Agents 框架提供企業級 Agent 治理藍圖",
+      "Gateway 作為 Runtime 控制平面，執行政策審核",
+      "支援跨模型、工具、Agent 跳轉的統一管控",
+      "強調成本控制與合規性可視化"
+    ],
+    "why_it_matters": "隨著 AI Agent 部署規模擴大，治理需求日益重要。此框架為技術團隊提供建置可控 Agent 系統的參考架構。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術架構師可參考此框架設計企業內部的 Agent 治理層，評估 LangChain Enterprise 功能是否符合需求。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-deepseek-v4-api",
+    "title": "DeepSeek v4 閃電版疑似在 API 上線，開源權重即將釋出？",
+    "title_original": "DeepSeek v4 flash release version appears to have been activated on api. Open weights imminent?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1nj6e/deepseek_v4_flash_release_version_appears_to_have/",
+    "published_at": "2026-07-20T14:43:03+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社區傳出消息，DeepSeek v4 的閃電版本疑似已在 API 端點啟動。據截圖顯示，API 路由已可存取，但尚未獲得官方確認。社群推測正式開源版本可能於短期內發布。此訊息來自論壇，未有官方聲明，技術宅應保持觀望。",
+    "highlights": [
+      "Reddit 社群截圖顯示 v4 flash API 路由已激活",
+      "尚無 DeepSeek 官方新聞稿或公告證實此事",
+      "推測正式開源權重版本可能即將發布",
+      "DeepSeek 近期在推論模型領域動作頻頻"
+    ],
+    "why_it_matters": "DeepSeek 若發布 v4 開源權重，可能對開源模型生態造成衝擊，提供更強大的本地部署選項，值得技術宅追蹤。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可關注官方 GitHub 或 HuggingFace，一旦開源權重發布即可第一時間下載測試。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-openbmb-minicpm5-2b",
+    "title": "openbmb 發布 MiniCPM5-2B 小型語言模型",
+    "title_original": "openbmb released MiniCPM5-2B, not yet available at huggingface",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1m264/openbmb_released_minicpm52b_not_yet_available_at/",
+    "published_at": "2026-07-20T13:47:33+00:00",
+    "category": "open-source-ai",
+    "summary": "openbmb（面壁智能）正式發布 MiniCPM5-2B 模型，這是 MiniPM 系列的最新小參數模型成員，專為高效推論場景設計。該模型目前尚未上架 Hugging Face，預計短期內開源發布。MiniCPM 系列以在 2B 規模達到接近更大模型的表現聞名，此次更新備受本地部署社群關注。",
+    "highlights": [
+      "MiniCPM5-2B 為 2B 參數量的小型語言模型",
+      "由 openbmb（面壁智能）開發，專注高效推論",
+      "尚未在 Hugging Face 上架，開源時間待確認",
+      "MiniCPM 系列以小參數高效率著稱",
+      "適合邊緣設備和本地部署場景"
+    ],
+    "why_it_matters": "2B 規模的高效開源模型是本地部署的理想選擇，若 MiniCPM5 延續系列高性價比表現，可成為個人開發者和小團隊的低成本推論方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "等待模型正式開源後，可用於本地自動化腳本、客服機器人或文件處理任務，評估其與 Qwen2-2B 等同規模模型的效能差異。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-20-qwen-3-7-max-minimax-m3-openai-5-6-sol",
     "title": "Qwen 3.7 Max 預覽版對決 Minimax M3 與 OpenAI 5.6 Sol 效能比較",
     "title_original": "Thoughts on Qwen 3.7 Max Preview vs Minimax M3 and OpenAI 5.6 Sol",
@@ -54,6 +274,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-openai",
+    "title": "OpenAI 分享長程模型時代的安全與對齊經驗教訓",
+    "title_original": "Safety and alignment in an era of long-horizon models",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/safety-alignment-long-horizon-models",
+    "published_at": "2026-07-20T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格分享部署長時運行 AI 模型的經驗，揭露新型安全風險、觀察到的失效模式，以及透過迭代部署改善安全防護的方法。",
+    "highlights": [
+      "官方來源，安全與對齊實務經驗",
+      "長程模型有新興安全風險尚待解決",
+      "迭代部署有助逐步改善安全防護",
+      "屬於安全研究討論，非具體產品更新",
+      "對一般開發者直接幫助有限"
+    ],
+    "why_it_matters": "對關注 AI 安全研究趨勢的技術用戶有參考價值，但此文偏向概念性討論，暫無直接可落地的工具或設定變更。",
+    "automation_angle": null,
+    "automation_angle_zh": "若從事 AI 安全相關研究，可參考此文了解長程模型的失效模式；若僅關注產品開發，此資訊優先級較低。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-07-20-minicpm-robot",
@@ -63008,6 +63256,34 @@
     "why_it_matters": "開源 TTS 模型若延遲與品質達生產級水準，將撼動 ElevenLabs、OpenAI TTS 等付費服務的市場地位。",
     "automation_angle": null,
     "automation_angle_zh": "下載 Voxtral 權重，在本地或自架伺服器部署；評估流式延遲與語音自然度，替換現有付費 TTS 服務以降低語音合成成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-mistral-ai-voxtral-tts-40",
+    "title": "Mistral AI 發布 Voxtral TTS：40億參數開源流式語音模型瞄準低延遲多語應用",
+    "title_original": "Mistral AI Releases Voxtral TTS: A 4B Open-Weight Streaming Speech Model for Low-Latency Multilingual Voice Generation - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNcHoxekt4T0REbENVN1FBMExxVlNLVmVpSmFIVzZua3U3UXNWRXBRaWFCcFZUMlJmcFhuTXZuTXNheTh5aUdpUVI2UGh1b3RRSHRwOVZHclNFYzB1LVlDM3p3ZmFmbHViclczVE41MlVnODVTdjFYTC1qeFRFeUNZTEMtTHNaRnMwcGpTVDRYR2ZpZjNzWUtES0xoVW5pOXoxNDZvUFZIRlFjTzF4bURNZEdXZ1BRYUw2MU9XMmpNNWVPWk1pOFR4dmxkX0djRzNaU09vRjA4MzNUS2NNVHd4WnJiUVdUeU9rM1pPdW5IOA?oc=5",
+    "published_at": "2026-03-28T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 正式發布 Voxtral TTS，這是一款擁有 40 億參數的開源流式語音生成模型。該模型支援低延遲流式輸出，可即時生成多語言語音，適用於對話式 AI、語音助理等場景。Voxtral 採用 open-weight 授權，開發者可自由下載微調與商業部署。",
+    "highlights": [
+      "40億參數開源權重語音生成模型",
+      "支援流式輸出，大幅降低語音生成延遲",
+      "涵蓋多語言語音合成能力",
+      "open-weight 授權可商用與微調",
+      "可部署於本地端點或雲端"
+    ],
+    "why_it_matters": "Voxtral 填補了開源語音模型在低延遲流式輸出場景的空缺，為需要即時語音互動的開發者提供新選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 HuggingFace 下載模型，評估其與現有 TTS 方案（如 Coqui、XTTS）的延遲與品質差異。",
     "tags": [
       "new-models",
       "rss",
