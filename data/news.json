@@ -1,5 +1,201 @@
 [
   {
+    "id": "2026-07-20-qwen-3-7-max-minimax-m3-openai-5-6-sol",
+    "title": "Qwen 3.7 Max 預覽版對決 Minimax M3 與 OpenAI 5.6 Sol 效能比較",
+    "title_original": "Thoughts on Qwen 3.7 Max Preview vs Minimax M3 and OpenAI 5.6 Sol",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1l6cq/thoughts_on_qwen_37_max_preview_vs_minimax_m3_and/",
+    "published_at": "2026-07-20T13:12:27+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 社群有用戶發布 Qwen 3.7 Max 預覽版與 Minimax M3、OpenAI 5.6 Sol 的對比測試，聚焦長文本推論與程式碼生成能力。初步結果顯示 Qwen 3.7 Max 在中文任務上保持優勢，但複雜數學推導略遜於 OpenAI 最新模型。此比較有助技術人員評估開源模型與閉源方案的實際差距。",
+    "highlights": [
+      "Qwen 3.7 Max 預覽版與 Minimax M3 在中文理解任務表現接近",
+      "OpenAI 5.6 Sol 在數學推導與複雜邏輯任務仍領先",
+      "Qwen 系列在本地部署性價比方面有優勢",
+      "比較基準為常見 Benchmark，但真實工作流程表現待驗證",
+      "社群呼籲更多blind test避免測試集污染"
+    ],
+    "why_it_matters": "開源模型與閉源模型的效能差距持續縮小，但技術人員選型時仍需實測。此比較提供第一手效能參考，幫助判斷哪些任務可完全依賴開源方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載 Qwen 3.7 Max 預覽版，在實際工作流程（如文件處理、程式碼輔助）上跑 blind test，對比閉源 API 成本與效能，決定是否遷移至本地部署。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-item",
+    "title": "本地模型聚焦「智慧」而外包「知識」的可行性討論",
+    "title_original": "Is it possible to run a local model focused solely on \"intelligence\" and outsource its \"knowledge\" to web searches?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1jtbx/is_it_possible_to_run_a_local_model_focused/",
+    "published_at": "2026-07-20T12:14:54+00:00",
+    "category": "new-models",
+    "summary": "有用戶提問：是否能運行一個專注「智慧」（推論、邏輯）的輕量本地模型，並將「知識」（事實檢索）外包給網路搜尋？此討論涉及 RAG 與 Agent 架構的分工設計，探索降低本地推論成本的可行路徑。",
+    "highlights": [
+      "提出智慧與知識分離的模組化架構概念",
+      "本地模型負責推論，可使用更小的參數量",
+      "知識檢索透過外部 API 動態獲取",
+      "面臨延迟與隱私的取捨",
+      "現有方案如 Toolformer 已有類似嘗試"
+    ],
+    "why_it_matters": "此架構若成熟，可大幅降低本地部署的硬體需求，讓消費級 GPU 也能運行高智慧模型，具實際商業價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可實驗：使用 Qwen 2.5-0.5B 作為本地推論引擎，接入 SerpAPI 或 DuckDuckGo API 作為知識層，評估延遲與準確度的實際表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-minicpm-robot",
+    "title": "MiniCPM-Robot 系列：機械人操控與追蹤模型開源",
+    "title_original": "MiniCPM-Robot model series - MiniCPM-RobotManip & MiniCPM-RobotTrack",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1gcok/minicpmrobot_model_series_minicpmrobotmanip/",
+    "published_at": "2026-07-20T09:14:10+00:00",
+    "category": "agent-skills",
+    "summary": "MiniCPM-Robot 模型系列正式發布，包含 MiniCPM-RobotManip（操控）與 MiniCPM-RobotTrack（追蹤）兩個版本。該系列基於 MiniCPM 架構，針對機器人任務微調，在動作預測與物體追蹤任務上展現優秀表現，且模型權重已開源。",
+    "highlights": [
+      "MiniCPM-RobotManip 專精於機械手臂操控任務",
+      "MiniCPM-RobotTrack 專注於視覺目標追蹤",
+      "基於 MiniCPM 架構，部署成本相對較低",
+      "提供完整推論代碼與範例",
+      "GitHub 已有實際部署案例"
+    ],
+    "why_it_matters": "開源機器人模型降低了自動化研究的入門門檻。技術人員可直接下載部署，結合硬體做真實世界測試，加速 Agent 技能庫的實際應用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載 MiniCPM-RobotManip 模型，結合 Webots 或 Gazebo 模擬器進行仿真測試，評估在抓取任務上的表現，據此決定是否投入實體硬體開發。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-xhc",
+    "title": "xHC 論文：擴展超連接技術提升模型智慧",
+    "title_original": "[Paper] xHC: Expanded Hyper-Connections - Scale Residual Streams Wider · Push Model Intelligence Further",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1evsq/paper_xhc_expanded_hyperconnections_scale/",
+    "published_at": "2026-07-20T07:47:42+00:00",
+    "category": "open-source-ai",
+    "summary": "一篇新論文提出 Expanded Hyper-Connections (xHC) 架構，透過擴展殘差流的寬度與連接密度來提升模型智慧。核心思想是讓資訊在不同層之間更自由地流動，而非受限於傳統殘差连接的固定路徑。實驗顯示此架構在多個任務上取得顯著提升。",
+    "highlights": [
+      "xHC 通過擴展超連接增加層間資訊流通效率",
+      "相比傳統殘差連接，梯度流動更順暢",
+      "在 benchmark 上顯示訓練穩定性提升",
+      "理論上適用於各種 Transformer 變體",
+      "論文已公開，社群正在嘗試復現結果"
+    ],
+    "why_it_matters": "若 xHC 可有效提升模型效能且易於實現，可能成為下一個廣泛採用的訓練技巧，技術人員可關注其開源實現與整合方式。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注論文代碼倉庫，待開源後可將 xHC 整合至現有訓練流程，評估在特定任務（如長文本分類）上的效能增益。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-deeix-chat-ai",
+    "title": "DEEIX-Chat：企業級AI工作空間與模型路由平台",
+    "title_original": "DEEIX-AI/DEEIX-Chat",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/DEEIX-AI/DEEIX-Chat",
+    "published_at": "2026-07-20T05:50:33Z",
+    "category": "agent-skills",
+    "summary": "DEEIX-Chat是企業AI工作空間，支援模型路由、多模態對話、檔案處理、工具呼叫、帳務與身份管理，用Go語言開發，GitHub已獲1019顆星，屬於成長中的開源專案。",
+    "highlights": [
+      "模型路由能力支援多模型動態切換",
+      "多模態聊天與檔案處理一站式整合",
+      "內建帳務系統與身份權限管理",
+      "Go語言實現，效能與部署便利性佳",
+      "星標成長中，代表一定的社群採用度"
+    ],
+    "why_it_matters": "企業若需要同時調度多模型、控管預算與權限，DEEIX-Chat提供開源替代方案，避免被單一平台鎖定。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可部署DEEIX-Chat作為內部AI代理中樞，配置不同模型的路由策略，觀察其在成本控制與工作流程自動化上的實際表現。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/282221413?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-2022-altman-openai-gpt-3",
+    "title": "2022年Altman內部郵件曝光：OpenAI曾考慮開源GPT-3等級本地模型",
+    "title_original": "Quoting Sam Altman",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+    "published_at": "2026-07-20T03:47:59+00:00",
+    "category": "hot-topics",
+    "summary": "來自Musk v. Altman (2026)訴訟的歷史郵件顯示，Sam Altman於2022年向OpenAI董事會提議發布GPT-3同等能力且可跑在消費級硬體的本地模型，動機之一是抑制同業開源競品。",
+    "highlights": [
+      "郵件日期為2022年10月1日，屬歷史文件",
+      "提議發布GPT-3等級本地模型",
+      "動機包含抑制開源競品與新創投資",
+      "由訴訟案曝光，非OpenAI主動公開",
+      "揭示OpenAI對開源策略的內部矛盾"
+    ],
+    "why_it_matters": "此郵件揭示OpenAI對開源模型的戰略思維，對理解當前AI開源生態與商業競爭態勢具有歷史參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "研究者與決策者可將此邮件與近年OpenAI實際開源动作對比，评估其战略一致性，作為開源模型生态影响分析的背景资料。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-neural-drive-supertuxkart",
+    "title": "Neural Drive：瀏覽器內運行的 SuperTuxKart 世界模型",
+    "title_original": "Neural Drive, a SuperTuxKart World Model that runs in your browser",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v19z5a/neural_drive_a_supertuxkart_world_model_that_runs/",
+    "published_at": "2026-07-20T03:16:13+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶展示一款可在瀏覽器中直接運行的 SuperTuxKart AI 世界模型，疑似基於本地大型語言模型技術實現，無需安裝額外軟體即可體驗遊戲 AI 駕駛行為。原型階段，尚未開源。",
+    "highlights": [
+      "瀏覽器端運行，零安裝門檻",
+      "基於本地 LLM 技術的可能性高",
+      "展示 World Model 在遊戲場景的應用潛力",
+      "具體模型架構與訓練數據未披露"
+    ],
+    "why_it_matters": "瀏覽器端運行 AI 模型代表 WebAssembly + 本地模型的技術可行性，對輕量級 AI 部署有參考價值，技術宅可關注其延遲與效能表現。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可在瀏覽器中直接測試 AI 駕駛行為，評估延遲是否可接受，思考此類 Web 端部署模式能否移植到自己的工具。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-20-kentcdodds-kody-mcp-ai",
     "title": "kentcdodds/kody：跨 MCP 主機攜帶的 AI 記憶與自動化工具",
     "title_original": "kentcdodds/kody",
@@ -77,6 +273,34 @@
     "why_it_matters": "若「訓練行為取代上下文」的 paradigm 成立，可能徹底改變本地模型設計方向，以極低成本實現接近 RAG 的檢索效果。技術宅可第一時間下載測試，評估其在特定任務上的性價比。",
     "automation_angle": null,
     "automation_angle_zh": "下載 Hugging Face 模型權重，在本地硬體上運行，推測此模型在文件分類、瑣事問答等場景能否以 350M 規模勝過 7B 模型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-kimi",
+    "title": "用戶因 Kimi 風波加速囤積本地最佳模型",
+    "title_original": "With all the Kimi drama I feel like I want to download all the current best models in case there is a ridiculous knee jerk political move pulled",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v170vg/with_all_the_kimi_drama_i_feel_like_i_want_to/",
+    "published_at": "2026-07-20T00:52:29+00:00",
+    "category": "open-source-ai",
+    "summary": "Kimi（月之暗面）傳出爭議消息後，LocalLLaMA 社群用戶討論「政治過敏反應」的風險，呼籲下載當前最佳開源模型以備不時之需。討論聚焦模型可得性、備份策略，以及地緣政治對 AI 工具存取的潛在影響。",
+    "highlights": [
+      "用戶因 Kimi 爭議擔憂未來模型存取的政治風險",
+      "社群推薦囤積 Qwen、MiniCPM 等非中國大陸系以外的開源模型",
+      "備份策略包括 HF 鏡像、BitTorrent 分散式下載",
+      "此討論反映技術社群對工具自主性的高度敏感",
+      "中國大陸系模型可能面臨更嚴格的使用限制"
+    ],
+    "why_it_matters": "技術人員應關注模型存取的多元性，避免單一供應商依賴。開源模型的可離線使用特性在政治不確定性下更具戰略價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立自動化模型下載腳本，定期同步 Hugging Face trending 模型列表，並設定最低硬碟空間閾值自動預留、下載TOP 10 表現優異的模型。",
     "tags": [
       "open-source-ai",
       "rss",
