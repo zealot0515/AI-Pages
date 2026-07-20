@@ -1,5 +1,176 @@
 [
   {
+    "id": "2026-07-20-kentcdodds-kody-mcp-ai",
+    "title": "kentcdodds/kody：跨 MCP 主機攜帶的 AI 記憶與自動化工具",
+    "title_original": "kentcdodds/kody",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/kentcdodds/kody",
+    "published_at": "2026-07-20T03:11:56Z",
+    "category": "agent-skills",
+    "summary": "Kody 由知名開發者 kentcdodds 開源，目標成為 AI Agent 的「家」——儲存記憶、鑰匙、程式碼與自動化腳本，並可跨 MCP 主機攜帶。使用 Cloudflare Workers 建構，現有 346 顆星。",
+    "highlights": [
+      "定位為 AI Agent 的個人知識庫與自動化中心",
+      "跨 MCP 主機可攜帶狀態與上下文",
+      "基於 Cloudflare Workers，部署快速且成本低",
+      "支援儲存 API 金鑰、程式碼片段與腳本",
+      "開源 TypeScript 專案，社群關注度較高"
+    ],
+    "why_it_matters": "若能在不同 AI 工具間保持統一的記憶與設定，開發者切換 MCP 主機時無需重複配置，大幅提升工作流程的延續性與可維護性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可將 Kody 整合至自己的 MCP 主機鏈，在 Cursor、Claude App、Cline 等工具間無縫銜接個人 Agent 的上下文與工具配置。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1500684?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-cortex-ollama-ai",
+    "title": "Cortex：基於 Ollama 的快速、本地私密桌面 AI 助理",
+    "title_original": "dovvnloading/Cortex",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/dovvnloading/Cortex",
+    "published_at": "2026-07-20T02:03:28Z",
+    "category": "open-source-ai",
+    "summary": "Cortex 是一款以 Python 開發的桌面 AI 助理，透過 Ollama 在本機執行大型語言模型。所有資料處理均在本地完成，無雲端、無外部伺服器、無第三方參與，現有 41 顆星。",
+    "highlights": [
+      "完全本地運行，零網路依賴",
+      "透過 Ollama 支援各類開源 LLM（如 Llama、Mistral）",
+      "Python 開發，可擴充性佳",
+      "無第三方資料傳輸，適合對資料敏感的使用場景",
+      "星數偏低，社群成熟度待觀察"
+    ],
+    "why_it_matters": "對在意資料隱私或網路隔離環境的開發者而言，Cortex 提供一個無需雲端 API 的本地 LLM 執行方案，可降低長期訂閱成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在無網路或高隱私需求的專案（如醫療、金融内部工具）中，可用 Cortex 替代雲端 API，將 Ollama 模型整合進自動化腳本或桌面工具。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/157447210?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-fractale-350m-base",
+    "title": "Fractale-350M-base：以訓練行為取代長上下文的新型研究模型",
+    "title_original": "Fractale-350M-base: memory as trained behaviour instead of long context, a fully open research release",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v174ql/fractale350mbase_memory_as_trained_behaviour/",
+    "published_at": "2026-07-20T00:57:32+00:00",
+    "category": "open-source-ai",
+    "summary": "Fractale-350M-base 是一款完全開源的研究模型，採用「記憶即訓練行為」的新 paradigm，擺脫對長上下文的依賴。此設計旨在以更小的參數規模實現高效資訊檢索，適合資源受限的本地部署場景。目前已在 Reddit r/LocalLLaMA 社群引發討論。",
+    "highlights": [
+      "完全開源的研究發布，非商業產品",
+      "核心創新：將記憶內化為模型行為，而非依賴 RAG 或長上下文",
+      "350M 參數規模，預期推論成本極低",
+      "可供本地測試與部署，無 API 費用",
+      "具體效能數據尚待社群驗證"
+    ],
+    "why_it_matters": "若「訓練行為取代上下文」的 paradigm 成立，可能徹底改變本地模型設計方向，以極低成本實現接近 RAG 的檢索效果。技術宅可第一時間下載測試，評估其在特定任務上的性價比。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 Hugging Face 模型權重，在本地硬體上運行，推測此模型在文件分類、瑣事問答等場景能否以 350M 規模勝過 7B 模型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-qwen-3-8b",
+    "title": "Qwen 3.8B 初測：代理式程式設計體驗",
+    "title_original": "My thoughts on qwen 3.8 so far with agentic coding.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v16r8d/my_thoughts_on_qwen_38_so_far_with_agentic_coding/",
+    "published_at": "2026-07-20T00:39:57+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享 Qwen 3.8B 在代理式程式設計（agentic coding）任務上的初步體驗。討論聚焦於模型的多步推論能力、程式碼生成品質，以及與其他同規模模型的對比。整體評價偏正向，但缺乏量化 benchmark 數據支撐。",
+    "highlights": [
+      "Qwen 3.8B 在代理式任務的表現被部分用戶認可",
+      "焦點在 multi-step 推論與程式碼補全品質",
+      "缺乏官方 benchmark 數據，純屬用戶主觀體驗",
+      "可用於評估小型模型在 agentic 場景的可行性",
+      "建議等待更完整的社群測試報告再下結論"
+    ],
+    "why_it_matters": "3.8B 規模若能在 agentic coding 上表現良好，意味著開發者可以在極低成本下運行本地 AI 程式助理，大幅降低 AI 工作流程門檻。但目前資訊不足以確認其穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 Qwen 3.8B 模型，用實際的程式碼重構或測試生成任務測試，記錄成功率與失敗模式，判斷是否適合整合進個人開發工作流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-ai",
+    "title": "開源 AI 禁令風險上升：替代下載管道討論",
+    "title_original": "given the increasing likelihood of an open source AI ban, what are the alternative channels for downloading models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v15oi3/given_the_increasing_likelihood_of_an_open_source/",
+    "published_at": "2026-07-19T23:52:46+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社群討論若開源 AI 遭遇監管禁令，用戶可透過哪些替代管道安全下載模型。討論涵蓋分散式儲存、加密傳輸及非主流託管平台等方案。此話題反映技術社群對政策風險的預警心態。",
+    "highlights": [
+      "社群對潛在開源 AI 監管禁令的擔憂加劇",
+      "提出替代下載方案包括分散式儲存與加密管道",
+      "討論具高度猜測性，缺乏實際政策動作",
+      "體現技術社群對資訊自主性的焦慮",
+      "建議關注 actual 政策動向而非恐慌性討論"
+    ],
+    "why_it_matters": "此討論目前停留在猜測階段，尚無實質政策或禁令。若真實發生，將對本地 AI 生態造成結構性影響。技術宅應持續關注相關政策進展，而非急於囤積模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估個人工作流程中哪些模型最關鍵，確認已有完整本地備份；關注 Hugging Face 等主流平台的政策聲明，而非社群恐慌情緒。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-20-lia-assistant-langgraph-agent",
+    "title": "LIA-Assistant：LangGraph 驅動的多 Agent 企業級對話助理",
+    "title_original": "jgouviergmail/LIA-Assistant",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jgouviergmail/LIA-Assistant",
+    "published_at": "2026-07-19T23:45:04Z",
+    "category": "agent-skills",
+    "summary": "LIA-Assistant 是一款以 LangGraph 编排的多 Agent 對話系統，內建人在環路（Human-in-the-Loop）、企業級可觀測性與完整 i18n 支援（6 種語言）。Python 開發，目前 21 顆星，屬早期專案。",
+    "highlights": [
+      "LangGraph 编排多 Agent 工作流程，支援分支與循環",
+      "人在環路設計：關鍵決策需人類確認後執行",
+      "企業級可觀測性：日誌、追蹤、監控一體化",
+      "6 種語言 i18n，適合國際化產品整合",
+      "星數與社群規模較小，採用前需評估維護狀態"
+    ],
+    "why_it_matters": "LangGraph 的多 Agent 编排加上人在環路設計，為需要嚴格把關審核的企業自動化流程提供可參考的開源參照架構。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可直接 fork 此 repo，替換底層模型與 Prompt，打造符合內部合規要求的多 Agent 客服或審批工作流程，並利用其可觀測性層快速定位錯誤環節。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/162059850?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-19-26zl-cybersec-toolkit-580-mcp-server",
     "title": "26zl/cybersec-toolkit：一鍵安裝 580+ 安全工具的 MCP Server",
     "title_original": "26zl/cybersec-toolkit",
@@ -6282,6 +6453,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-20-anthropic-1660-0",
+    "title": "Anthropic 計費漏洞：開發者被收取 1660 萬美元，儀表板顯示 $0",
+    "title_original": "Anthropic’s Terrifying Billing Glitch Charged A Software Developer $16.6 Million For Using Claude API, Despite The Dashboard Showing A $0.00 Amount - Wccftech",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOGhyX09LLVJyU2oxeklZZlNoUkNtR1hYb0FYNnNuMHFPeVI4TTR3LVVZNHJyaVZwdENHNUhIV0tlaVl1NXBOUUQ1SUpGZlRYa0VueHQyckJhVGhYUUllQ0NIbXM4WlZzMzc3NktnMXRlczdZYm9OVHpJQjB1QTFDSjVWY0ozRWsxY2dPRFJRTdIBlAFBVV95cUxPek9xOXU0ajFsckl5bEFRTFRqV2RURlNSQUhUMWVFSVU1RDVjVGJrLUF4Nnh5dVd4QWxXaHhrTEIwSkdNdHRITGdRVE5wb1JSRFYyQkxoLXRpbEk5SzlhLTRta2JyQVlwTGJpdkhnZDRkS1F1cWZCOGJSajBLRGt2LTZka1NpcUxueHhTWmNsb3dkQml5?oc=5",
+    "published_at": "2026-07-10T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "一位軟體開發者反映使用 Claude API 時遭異常扣款，金額高達 1660 萬美元，但 Anthroic 儀表板當時顯示應付金額為 $0.00。此事件引發社群對 API 計費系統可靠性的質疑，並可能影響企業級用戶對 Anthropic 的信任。",
+    "highlights": [
+      "異常帳單金額：$16,600,000（非測試金額）",
+      "儀表板顯示應付 $0.00，系統底層卻持續累計費用",
+      "事件由 Wccftech 報導，細節有待 Anthropic 官方確認",
+      "開發者已公開此事，但尚未有官方賠償聲明",
+      "類似超額計費在業界偶有發生，通常涉及快取或估算機制漏洞"
+    ],
+    "why_it_matters": "對企業級 API 用戶而言，計費系統的可預測性是基本要求。此漏洞若屬實，將重創開發者對 Anthropic 企業級服務的信心，並可能促使更多人考慮本地部署或競品遷移。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即檢查自己的 Anthropic API 用量，設定帳單上限 alerts；評估是否需要在 production 環境中加入用量監控與熔斷機制，防止類似超額費用。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-10-llm",
