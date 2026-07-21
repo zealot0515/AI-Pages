@@ -1,5 +1,261 @@
 [
   {
+    "id": "2026-07-21-ai-cli-mcp-mcp-claude-codex-gemini-cli",
+    "title": "ai-cli-mcp：透過 MCP 協定整合 Claude、Codex、Gemini CLI 到任何客戶端",
+    "title_original": "mkXultra/ai-cli-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mkXultra/ai-cli-mcp",
+    "published_at": "2026-07-21T12:58:44Z",
+    "category": "agent-skills",
+    "summary": "一個 MCP 伺服器，可將 Claude、Codex、Gemini 三大家 CLI 代理在背景執行，供任何 MCP 客戶端呼叫。TypeScript 實作，現有 21 顆星。技術上將多模型 CLI 統一為標準化工具呼叫介面。",
+    "highlights": [
+      "支援 Claude CLI、Codex CLI、Gemini CLI 三種主流 CLI 代理",
+      "作為 MCP 伺服器角色，讓客戶端統一呼叫不同模型後端",
+      "TypeScript 實作，星星數 21 顆，屬於早期專案",
+      "可解決多 CLI 工具分散、無法統一管理問題",
+      "適合想用一個 MCP 客戶端控制多模型代理的開發者"
+    ],
+    "why_it_matters": "將多個 CLI 代理統一為 MCP 介面，大幅簡化多模型工作流程整合難度。對需要同時調度不同模型能力的技術用戶，是省時的架構選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此專案部署在本地，直接在現有 MCP 客戶端（如 Claude Desktop 或自建前端）統一呼叫多個 CLI 代理，測試其在自動化腳本中的協同效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/34665721?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-sema-mcp-claude-code-codex-opencode",
+    "title": "Sema：本地語義程式碼索引與 MCP 伺服器（支援 Claude Code、Codex、opencode）",
+    "title_original": "get-sema/sema",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/get-sema/sema",
+    "published_at": "2026-07-21T12:54:34Z",
+    "category": "agent-skills",
+    "summary": "Sema 是 Python 實現的本地語義程式碼索引工具，配備 MCP 伺服器介面支援 Claude Code、Codex 與 opencode。功能涵蓋語義搜尋、程式碼重用檢測、影響範圍分析，並提供整合 VS Code 的聊天與 Agent 介面。",
+    "highlights": [
+      "基於 tree-sitter、SBERT、ChromaDB 的語義搜尋架構",
+      "支援多主流 Agent（Claude Code、Codex、opencode）",
+      "提供程式碼重用檢測與影響分析功能",
+      "VS Code 整合聊天與 Agent 介面",
+      "Python 實現，便於二次開發"
+    ],
+    "why_it_matters": "語義程式碼索引是提升 AI 程式碼助理準確性的關鍵基礎設施。Sema 讓本地程式碼庫具備上下文理解能力，對在意隱私且不想上傳程式碼的企業用戶有吸引力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地專案啟動 Sema 索引，將其整合至 Claude Code 工作流程，測試語義搜尋是否能減少上下文遺漏導致的幻覺問題。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/307203271?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-anthropic-claude-code-fable-claude-tag-auto-mode",
+    "title": "Anthropic Claude Code 團隊訪談：Fable、Claude Tag 與 Auto Mode 實戰經驗",
+    "title_original": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything",
+    "published_at": "2026-07-21T12:54:02+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 專訪 Anthropic Claude Code 團隊 Cat Wu 與 Thariq Shihipar，揭露 Fable 可一鍵完成功能開發、Claude Tag 承載 65% 產品工程 PR、Auto Mode 透過 Sonnet 分類器動態審核工具調用、系統提示詞縮減 80% 等關鍵內部實踐。",
+    "highlights": [
+      "Fable 已能一鍵完成大量功能，節省工程師從事更有野心的工作",
+      "Claude Tag 現已承載 Anthropic 產品工程 65% 的 PR",
+      "Auto Mode 核心是 Sonnet 分類器動態審核每次工具調用",
+      "Claude Code 系統提示詞因新模型能力提升已縮減 80%",
+      "Claude Code 已開始使用 Bun-in-Rust 內部部署"
+    ],
+    "why_it_matters": "這次訪談揭示了頂級 AI 公司如何實踐 AI Agent 工作流程，包含安全審核機制、人機協作邊界、系統提示詞優化方向，是技術用戶借鑒的最佳實踐案例。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可觀察 Anthropic 的評測迭代方法（eval-driven development），並將 Auto Mode 的動態分類審核思路應用到自己的 Agent 安全機制設計中。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-21-livetennisapi-mcp-mcp-249-stars",
+    "title": "livetennisapi-mcp：即時網球比分 MCP 伺服器（249 stars）",
+    "title_original": "livetennisapi/livetennisapi-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/livetennisapi/livetennisapi-mcp",
+    "published_at": "2026-07-21T12:37:29Z",
+    "category": "agent-skills",
+    "summary": "一個 JavaScript 實現的 MCP 伺服器，可為 Claude、Cursor 等 LLM Agent 接入即時網球比分、賠率與模型勝率預測。技術用戶可用此理解 MCP 協定如何串接即時體育資料 API。",
+    "highlights": [
+      "支援即時網球比分與赔率資料",
+      "可為 LLM Agent 提供動態體育上下文",
+      "基於 MCP 協定，標準化工具定義",
+      "249 GitHub stars，社群興趣度中等",
+      "可用於展示 Agent 如何串接第三方即時 API"
+    ],
+    "why_it_matters": "此類 MCP 專案展示了如何讓 AI Agent 存取動態即時資料，而非僅依賴訓練資料截止日期。對於想打造即時資訊 Agent 的開發者有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可克隆此 repo，理解 MCP 工具定義格式，然後將類似模式應用到自己領域的即時 API（如金融、氣象、物流）整合中。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/306618864?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-hugging-face-ceo-ai",
+    "title": "Hugging Face CEO 言論：禁用開源 AI 對防守方傷害更大",
+    "title_original": "CEO of Hugging Face: Banning open-source AI would hurt defenders 10x more than attackers, which would make the world 10x more dangerous and this is a good example why!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2g9bc/ceo_of_hugging_face_banning_opensource_ai_would/",
+    "published_at": "2026-07-21T11:55:30+00:00",
+    "category": "hot-topics",
+    "summary": "Hugging Face CEO 在社群發表看法，認為禁止開源 AI 對防守方（安全研究者）的傷害十倍於攻擊者，使世界更危險。此為個人觀點，非產品或政策公告。",
+    "highlights": [
+      "Hugging Face CEO Clement Delargue 的個人言論",
+      "觀點為政策辯論性質，無新產品或技術發布",
+      "反映開源社群對潛在監管的擔憂",
+      "對技術用戶日常工作無直接影響",
+      "缺乏具體數據或新事實支撐"
+    ],
+    "why_it_matters": "此言論屬政策討論層次，對技術用戶的開發工作或工具選型暫無實質影響。可作為了解業界態度參考，但不宜據此做技術決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "純屬資訊性內容，技術用戶了解後可作為與同事或社群討論 AI 政策時的參考，但無直接自動化應用場景。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-ally-agent-go-ai",
+    "title": "ally-agent：Go 語言實現的本地端 AI 程式碼助理",
+    "title_original": "Bronya0/ally-agent",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Bronya0/ally-agent",
+    "published_at": "2026-07-21T10:53:48Z",
+    "category": "agent-skills",
+    "summary": "一款桌面端 AI 程式碼助理，強調與本地專案互動。可理解程式碼、編輯檔案、搜尋工作區、管理任務，透過對話完成開發工作。採用 Go 語言，21 顆星。",
+    "highlights": [
+      "明確針對本地專案設計，非純雲端 API 包裝",
+      "功能含蓋理解程式碼、檔案編輯、工作區搜尋、任務管理",
+      "Go 語言實作，可能對效能敏感場景有優勢",
+      "21 顆星，社群關注度中等偏低",
+      "強調對話式開發工作流程，適合IDE整合需求"
+    ],
+    "why_it_matters": "相較於通用 IDE 插件，ally-agent 定位更偏向獨立桌面助理，可補足 IDE 插件功能限制。對想有完整對話式開發體驗的技術用戶，值得一試。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將 ally-agent 安裝測試，用於自動完成小型重構任務或批量檔案搜尋替換，評估其對日常重複開發工作的自動化潛力。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/55728567?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-prism-ml-bonsai",
+    "title": "Prism-ML 發布三元值量化 Bonsai 模型微調支援",
+    "title_original": "you can now fine tune Prism-ML's ternary Bonsai models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2egi3/you_can_now_fine_tune_prismmls_ternary_bonsai/",
+    "published_at": "2026-07-21T10:24:46+00:00",
+    "category": "open-source-ai",
+    "summary": "Prism-ML 宣布其採用三元值（Ternary）量化技術的 Bonsai 系列模型現已支援微調功能。三元值量化可將模型權重壓縮至僅有 +1/0/-1 三種數值，大幅降低記憶體需求與推論成本，同時保持模型能力。技術用戶現在可在本地對這些超壓縮模型進行任務定制。",
+    "highlights": [
+      "• 三元值量化權重僅使用 +1/0/-1，壓縮率極高",
+      "• 模型可在消費級 GPU 甚至 CPU 上運行",
+      "• 微調功能已開放，支援任務定制",
+      "• 適合資源受限的邊緣運算或嵌入式場景",
+      "• 需注意極致壓縮可能犧牲部分任務精度"
+    ],
+    "why_it_matters": "三元值量化代表模型蒸餾與部署的前沿方向，若能在極低成本下保持合理效能，將大幅擴展本地 AI 應用場景，對降低 AI 工具成本有直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 Bonsai 模型並在本地測試微調流程，比較三元值模型與 FP16 模型在特定任務上的效能差異，評估是否可替代現有大型模型用於自動化和工作流程程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-anthropic",
+    "title": "Anthropic 遭版權方訴訟，主訓練資料侵權爭議升溫",
+    "title_original": "Anthropic got sued for using copyrighted books for LLM training",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2dgs2/anthropic_got_sued_for_using_copyrighted_books/",
+    "published_at": "2026-07-21T09:29:37+00:00",
+    "category": "hot-topics",
+    "summary": "多家出版社聯合對 Anthropic 提起訴訟，指控其在 Claude 等模型訓練過程中未經授權使用受版權保護的書籍內容。此案延續近期 AI 訓練資料版權訴訟趨勢，可能影響未來模型訓練的資料來源合規要求。法律結果將為業界提供重要判例參考。",
+    "highlights": [
+      "• 訴訟焦點在於訓練資料未經授權使用",
+      "• 可能成為 AI 訓練版權責任的重要判例",
+      "• 反映業界對訓練資料合規的關注日益增加",
+      "• Anthropic 尚未公開完整訓練資料清單",
+      "• 類似訴訟也涉及 OpenAI、Google 等其他大廠"
+    ],
+    "why_it_matters": "訓練資料版權問題直接影響 AI 模型的法規風險和企業採用意願。若裁決對 AI 公司不利，可能改變未來模型訓練的資料取得方式，技術用戶應關注此趨勢對工具生態的潛在影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注訴訟進展與裁決結果，評估使用中的 AI 服務是否有資料來源合規風險。對於自建模型者，開始建立訓練資料來源追蹤機制，以備未來監管要求。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-reddit-openai-gpt-oss-350",
+    "title": "Reddit 討論：OpenAI GPT-oss 已發布 350 天，會有下一個開放權重模型嗎？",
+    "title_original": "OpenAI released gpt-oss 350 days ago. Will we ever see another open-weight model from them?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v258lo/openai_released_gptoss_350_days_ago_will_we_ever/",
+    "published_at": "2026-07-21T02:12:47+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社群討論 OpenAI 去年發布的 GPT-oss 是否會有後續。屬於社群猜測性質，無官方任何新消息或計畫洩露。",
+    "highlights": [
+      "純社群猜測，無 OpenAI 官方任何證實或否認",
+      "GPT-oss 發布已超過一年，時間軸本身不構成新聞",
+      "反映開源社群對 OpenAI 開放策略的持續關注",
+      "討論方向以情感期待為主，缺乏技術實質",
+      "對技術用戶的工作或工具選擇暫無實質影響"
+    ],
+    "why_it_matters": "此類猜測話題無助技術決策或工作流程改善。建議將時間投入已確認的開源專案，而非追逐未證實傳聞。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可忽略此類話題，除非有閒暇時間想了解社群情緒。對自動化工作無直接幫助。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-21-mcp-video-analyzer-mcp-server-ai-agent-youtube",
     "title": "mcp-video-analyzer：MCP Server 讓 AI Agent 直接分析 YouTube、抖音、本地影片",
     "title_original": "guimatheus92/mcp-video-analyzer",
@@ -29,6 +285,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-21-motif-3-beta",
+    "title": "Motif 3 Beta 版正式發布",
+    "title_original": "Motif 3 Beta released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v23c6w/motif_3_beta_released/",
+    "published_at": "2026-07-21T00:46:39+00:00",
+    "category": "new-models",
+    "summary": "Motif 3 進入 Beta 階段，社群反映新版在多模態理解與長文本處理上有明顯提升。Motif 系列以結構化輸出和任務自動化著稱，3 Beta 版據稱強化了代理（Agent）能力與工具調用穩定性。具體技術規格和 Benchmark 數據尚待社群進一步驗證。",
+    "highlights": [
+      "• 多模態理解能力提升，支援更複雜輸入格式",
+      "• 長文本處理改善，適合文件和報告分析",
+      "• 代理能力強化，工具調用穩定性優化",
+      "• 處於 Beta 階段，部分功能可能尚未穩定",
+      "• 建議等待正式版或社群回報穩定性後再生產部署"
+    ],
+    "why_it_matters": "Motif 系列在 AI Agent 應用場景有特定用戶群，3 Beta 的代理能力強化若驗證有效，可能成為工作流程程自動化工具的新選擇，值得技術用戶關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "申請 Motif 3 Beta 測試資格，使用內建代理功能測試常見工作流程程自動化場景，如文件處理、任務排程或 API 串接，評估是否可整合至現有開發流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-21-qwen3-6-27b-vllm-sglang-speculative-decoding",
     "title": "Qwen3.6-27B 在 vLLM 與 SGLang 上的 Speculative Decoding 全面效能測試",
     "title_original": "Benchmarked every spec-decode method on Qwen3.6-27B across vLLM and SGLang (single RTX PRO 6000 Max-Q)",
@@ -47,6 +331,34 @@
     "why_it_matters": "Speculative decoding 可顯著提升推論速度並降低成本。實測數據能幫助技術用戶選擇最佳配置，優化本地部署的性價比。",
     "automation_angle": null,
     "automation_angle_zh": "技術用戶可根據測試結果選擇最優的 speculative decoding 方法，直接應用於自己的 vLLM 或 SGLang 部署配置，預計可提升 20-40% 推論效率。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-hugging-face-grabette",
+    "title": "Hugging Face 部落格：Grabette 開源機器人操作資料錄製系統",
+    "title_original": "Grabette: an open system to record robot-manipulation data",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/grabette",
+    "published_at": "2026-07-21T00:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 介紹 Grabette 專案，一個用於錄製機器人操作資料的開源系統。部落格未提供完整技術規格或 GitHub 連結，屬於初步曝光階段。",
+    "highlights": [
+      "定位於機器人操作資料收集工具",
+      "屬於 Hugging Face 官方推廣的新專案",
+      "官方部落格無詳細技術實作或效能數據",
+      "缺乏可立即測試的程式碼連結或 Demo",
+      "對一般開發者或 AI 工程師的直接實用性待驗證"
+    ],
+    "why_it_matters": "機器人資料集是具體的應用領域，若 Grabette 能簡化資料收集流程，對相關研究有潛在價值。但目前資訊不足，無法評估實際效益。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議等有具體 GitHub repo 或 Demo 後再評估。技術用戶可先關注是否有 PyPI 安裝方式或 Colab notebook。",
     "tags": [
       "open-source-ai",
       "rss",
@@ -1334,6 +1646,34 @@
     "why_it_matters": "支付寶擁有龐大支付用戶基礎，其 AI 訂閱服務若提供 API 或算力支援，可能為中國開發者提供新的免費額度或低成本選擇。",
     "automation_angle": null,
     "automation_angle_zh": "持續關注支付寶 AI 服務正式上線資訊，評估是否可用於自動化工作流程程中的 AI API 替代方案或補充算力來源。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-waic-ai",
+    "title": "支付寶在 WAIC 發布 AI 訂閱服務瞄準中國市場",
+    "title_original": "支付宝在WAIC發布适用AI應用的AI訂閱服务，加速產業發展 - 砍柴网",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9KREhnQXNuTENESVI0dkZtZjV5dnJjZ2xQamg4VmhkbUZuaTREZGVBajFPRVUtdXJ2Uk5zbGF3SmZ3T2RSMkVoMWN5NlRkN1N2bU1PMFFrZDYwZW44?oc=5",
+    "published_at": "2026-07-18T12:39:00+00:00",
+    "category": "ai-deals",
+    "summary": "支付寶在 2025 年世界人工智慧大會（WAIC）上發布專為 AI 應用開發者設計的訂閱服務，整合螞蟻集團多項 AI 能力，瞄準中國市場的 AI 應用開發者。服務內容包含 API 呼叫額度、模型調用權限及開發工具，具體定價和 SLA 條款尚待官方公佈。",
+    "highlights": [
+      "• 螞蟻集團旗下支付寶切入 AI 服務市場",
+      "• 瞄準中國 AI 應用開發者族群",
+      "• 具體定價、API 規格、SLA 等資訊尚待公佈",
+      "• 可能提供支付寶生態系整合優勢",
+      "• 台灣用戶使用需注意地區限制和監管合規"
+    ],
+    "why_it_matters": "中國大型科技公司持續加碼 AI 服務，支付寶的金融場景優勢可能為 AI 應用帶來差異化能力。對於有中國市場需求的技術用戶，可能是一個值得評估的新選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方正式公告後，比較此服務與現有 API 服務（如阿里雲、騰訊雲）的功能覆蓋、價格和整合便利性，評估是否可作為中國市場 AI 應用的替代或補充方案。",
     "tags": [
       "ai-deals",
       "rss",
