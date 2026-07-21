@@ -1,5 +1,89 @@
 [
   {
+    "id": "2026-07-21-mcp-video-analyzer-mcp-server-ai-agent-youtube",
+    "title": "mcp-video-analyzer：MCP Server 讓 AI Agent 直接分析 YouTube、抖音、本地影片",
+    "title_original": "guimatheus92/mcp-video-analyzer",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/guimatheus92/mcp-video-analyzer",
+    "published_at": "2026-07-21T01:42:55Z",
+    "category": "agent-skills",
+    "summary": "這是一個 TypeScript 撰寫的 MCP Server（stars: 26），能將任意影片 URL（YouTube、Instagram、TikTok、Loom、X、Vimeo）或本地檔案轉為文字稿、關鍵畫面、OCR 文字與元資料，直接餵給 AI Agent 處理，降低影片內容結構化的進入門檻。",
+    "highlights": [
+      "支援多平台 URL：YouTube、IG、抖音、Loom 等",
+      "支援本地影片檔案直接分析",
+      "輸出包含：文字稿、關鍵畫面、OCR、metadata",
+      "以 MCP 協議與 Agent 整合，工具定位明確",
+      "stars 26 顯示早期項目，需評估維護狀態"
+    ],
+    "why_it_matters": "影片內容過去難以直接交給 Agent 處理，此 MCP Server 提供標準化接口，讓你用自然語言就能分析任何影片，大幅拓寬工作流程自動化的素材範圍。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此 MCP Server 接入你的 Agent 工具鏈，測試對內部培訓影片或客戶訪談影片自動生成摘要與關鍵片段的完整流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/11640754?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-qwen3-6-27b-vllm-sglang-speculative-decoding",
+    "title": "Qwen3.6-27B 在 vLLM 與 SGLang 上的 Speculative Decoding 全面效能測試",
+    "title_original": "Benchmarked every spec-decode method on Qwen3.6-27B across vLLM and SGLang (single RTX PRO 6000 Max-Q)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v22hu9/benchmarked_every_specdecode_method_on_qwen3627b/",
+    "published_at": "2026-07-21T00:08:33+00:00",
+    "category": "open-source-ai",
+    "summary": "研究者在單張 RTX PRO 6000 Max-Q 顯卡上，對 Qwen3.6-27B 模型在 vLLM 和 SGLang 兩種推論引擎下，全面測試各種 speculative decoding 方法的效能表現，提供實測數據供部署參考。",
+    "highlights": [
+      "完整測試 Qwen3.6-27B 在 vLLM 與 SGLang 的 speculative decoding 效能",
+      "測試環境為單張 RTX PRO 6000 Max-Q，提供實際部署參考",
+      "涵蓋多种 spec-decode 方法的延遲與吞吐量比較",
+      "結果可作為推論引擎選擇與優化的依據"
+    ],
+    "why_it_matters": "Speculative decoding 可顯著提升推論速度並降低成本。實測數據能幫助技術用戶選擇最佳配置，優化本地部署的性價比。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據測試結果選擇最優的 speculative decoding 方法，直接應用於自己的 vLLM 或 SGLang 部署配置，預計可提升 20-40% 推論效率。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-simon-willison-coding-agent",
+    "title": "Simon Willison：逆向工程現在很便宜——Coding Agent 改變維護成本方程式",
+    "title_original": "Reverse-engineering is cheap now",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
+    "published_at": "2026-07-20T19:24:05+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 觀察到越來越多技術人員使用 Coding Agent 逆向工程家中設備與非官方 API，核心洞察在於：寫程式成本下降讓 ROI 計算翻轉——過去不穩定的 API 維護負擔讓人卻步，現在 Agent 幫寫後「用完就丟」也划得來，心理負擔大幅降低。",
+    "highlights": [
+      "Coding Agent 降低寫程式的人力成本與時間",
+      "ROI 門檻降低：過去不值得做的自動化現在值得一試",
+      "維護不再是阻礙：壞了就重寫的心理負擔變小",
+      "適用場景：家庭設備、非官方 API、一次性腳本",
+      "核心變化：程式碼從「資產」變成「消耗品」"
+    ],
+    "why_it_matters": "這篇觀察揭示了 Coding Agent 對技術工作本質的深層改變：當程式碼成本趨近於零，過去被維護負擔嚇跑的自動化想法現在都值得重新評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "盤點你過去因「維護成本太高」而放棄的個人工具腳本或家庭自動化計畫，現在用 Coding Agent 重新實現並測試可行性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-20-github-copilot-ai",
     "title": "GitHub Copilot 計費介面新增成本中心 AI 額度池管理功能",
     "title_original": "AI credit pools for cost centers in the billing UI",
