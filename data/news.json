@@ -1,5 +1,424 @@
 [
   {
+    "id": "2026-07-21-aws-samples-sample-agent-cost-bench-coding-agent",
+    "title": "aws-samples/sample-agent-cost-bench：Coding Agent 成本與品質基準測試框架",
+    "title_original": "aws-samples/sample-agent-cost-bench",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aws-samples/sample-agent-cost-bench",
+    "published_at": "2026-07-21T18:57:18Z",
+    "category": "agent-skills",
+    "summary": "AWS Samples 釋出的開源框架，用於衡量 Coding Agent 的成本、品質與執行時間。支援任意 AI Coding CLI、任意模型與任意使用案例，具備可插拔驗證機制與真實 Repo 支援。Python 實作，現有 36 Stars。",
+    "highlights": [
+      "模型無關：支援任何提供 CLI 的 AI Coding 工具",
+      "成本追蹤：量化每次任務的金錢成本",
+      "品質驗證：可插拔驗證機制，支援自訂評估標準",
+      "真實 Repo 支援：可在實際程式碼庫上運行",
+      "開源可控：Python 實作，可 fork 並客製化"
+    ],
+    "why_it_matters": "Coding Agent 百花齊放的時代，缺乏統一的性價比衡量工具。此框架讓技術使用者能客觀比較 Claude、GPT、Gemini 等模型在不同任務上的成本效益，優化團隊的工具選型決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可將自己常用的 Coding Agent（如 Copilot CLI、Claude Code）接入此框架，在真實專案上跑成本對比，量化「每百行程式碼的 API 費用」與「通過率」，作為團隊工具預算依據。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/8931462?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-21-seo-mcp-50-seo-ai-agent-seo",
+    "title": "seo MCP 伺服器：整合 50+ SEO 審計工具的 AI Agent SEO 技能",
+    "title_original": "iannuttall/seo",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/iannuttall/seo",
+    "published_at": "2026-07-21T18:54:35Z",
+    "category": "agent-skills",
+    "summary": "iannuttall/seo 提供 TypeScript 開發的 MCP 伺服器，整合 50 種以上 SEO 審計工具，支援本地爬蟲、Google Search Console 與 GA4 資料串接。",
+    "highlights": [
+      "TypeScript 開發，11 stars，屬於較新專案",
+      "支援本地 CLI 與 MCP 協定雙模式運行",
+      "整合 Search Console 與 GA4 資料來源",
+      "提供 50+ SEO 審計工具一次性啟用"
+    ],
+    "why_it_matters": "SEO 分析首次以 MCP 工具形式提供，AI Agent 現在可以直接執行完整網站審計，節省行銷與技術團隊時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "讓 AI Agent 自動生成網站健康報告，找出排名問題並建議優先修復項目，全程無需開啟瀏覽器。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6681919?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-burp-mcp-bridge-burp-suite-mcp",
+    "title": "burp-mcp-bridge：將 Burp Suite 接入 MCP 生态的安全測試擴展",
+    "title_original": "fwaeytens/burp-mcp-bridge",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/fwaeytens/burp-mcp-bridge",
+    "published_at": "2026-07-21T18:49:08Z",
+    "category": "open-source-ai",
+    "summary": "這是一款 Burp Suite Professional 擴充功能，將 MCP 伺服器功能引入安全測試流程，讓 AI Agent 能直接驅動滲透測試、漏洞掃描與攻擊模擬任務。",
+    "highlights": [
+      "Java 編寫，29 stars，與 Burp Suite Pro 無縫整合",
+      "提供 MCP server 功能，支援 AI Agent 接入",
+      "可用於自動化安全測試與漏洞挖掘",
+      "可與支援 MCP 協定的 AI Agent 串接"
+    ],
+    "why_it_matters": "將 AI Agent 直接嵌入安全測試工具鏈，工程師可用自然語言驅動滲透測試，大幅縮短漏洞發現週期。",
+    "automation_angle": null,
+    "automation_angle_zh": "將自己的 AI Agent（如 Claude）接入 Burp，透過口語化指令自動化執行 Web 漏洞掃描。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Java"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1727544?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-21-apollo-deep-agents-langsmith-ai-gtm",
+    "title": "Apollo 以 Deep Agents 與 LangSmith 重構 AI 助理驅動 GTM 全流程",
+    "title_original": "How Apollo Uses Deep Agents and LangSmith for GTM AI",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-apollo-rebuilt-its-ai-assistant-on-deep-agents-to-power-the-full-gtm-loop",
+    "published_at": "2026-07-21T18:27:54+00:00",
+    "category": "agent-skills",
+    "summary": "Apollo 展示如何利用 LangChain Deep Agents 與 LangSmith 工具鏈，打造整合潛在客戶開發、資料豐富化、外展行銷、分析與 MCP 擴充的 AI 助理，實踐從線索到成交的完整 GTM 自動化。",
+    "highlights": [
+      "使用 LangChain Deep Agents 架構重構 AI 助理",
+      "支援潛在客戶開發與資料豐富化工作流程",
+      "整合 MCP（Model Context Protocol）擴充生态",
+      "端到端覆蓋 GTM（Go-to-Market）流程",
+      "LangSmith 提供監控、除錯與評估能力"
+    ],
+    "why_it_matters": "展示企業級 Agent 工作流程實作範例，含錯誤追蹤與監控，可作為建構自身 AI 自動化流程的架構參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可參考其 MCP 整合方式，評估將 LangChain Agent 應用於自身 CRM 或銷售自動化的可行性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-agentic-ai-workshop-junos-linux-agentic-ai",
+    "title": "agentic-ai-workshop：JunOS 與 Linux 的 Agentic AI 實作坊",
+    "title_original": "JNPRAutomate/agentic-ai-workshop",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/JNPRAutomate/agentic-ai-workshop",
+    "published_at": "2026-07-21T18:11:24Z",
+    "category": "agent-skills",
+    "summary": "JNPRAutomate 發布的開源工作坊教材，展示如何利用 MCP 協定讓 AI Agent 操控 JunOS 網路設備與 Linux 系統，實作網路自動化管理。",
+    "highlights": [
+      "Python 專案，18 stars，已有實際程式碼",
+      "展示 JunOS MCP Server 與 Linux MCP Server 整合",
+      "可用於網路設備的 AI 驅動自動化管理",
+      "提供學習範例與實作指引"
+    ],
+    "why_it_matters": "將 AI Agent 能力延伸至網路基礎設施管理，網路工程師可透過對話介面執行設備配置與監控。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署後可用自然語言指令管理路由器與伺服器，例如「查詢所有介面流量」或「備份設定」。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6878302?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-21-poolside-laguna-s-2-1-1200",
+    "title": "poolside發布Laguna-S-2.1：1200億參數開源模型強敵登場",
+    "title_original": "poolside/Laguna-S-2.1 released! Finally an interesting 120B contender!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2orhb/poolsidelagunas21_released_finally_an_interesting/",
+    "published_at": "2026-07-21T17:16:11+00:00",
+    "category": "new-models",
+    "summary": "Poolside AI正式發布Laguna-S-2.1，這是一款規模達1200億參數的開源大語言模型。相較於前代版本，2.1版在推論效率與長上下文處理方面有明顯改進。作為120B量級的開源模型，Laguna-S-2.1與Mistral Large、Command R+等形成競爭態勢，目前官方尚未公布完整技術報告與訓練數據細節。",
+    "highlights": [
+      "模型規模達1200億參數，為目前最大開源陣營之一",
+      "2.1版本強化了推論效率與長上下文處理能力",
+      "由Poolside AI開發，定位為企業級開源解決方案",
+      "與Mistral Large、Command R+等120B模型直接競爭",
+      "詳細技術報告尚未發布，社群正等待進一步資訊"
+    ],
+    "why_it_matters": "1200億參數級開源模型選擇增加，為需要高推論能力的企業提供替代方案。若定價合理，可成為Azure OpenAI、Claude API的成本效益替代選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注Poolside官網發布的定價與API可用性，評估將Laguna-S-2.1整合至現有RAG系統或Agent架構的可行性，特別是長文件分析場景。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-openai-chatgpt",
+    "title": "OpenAI 推出 ChatGPT 小型企業專屬方案",
+    "title_original": "Introducing the ChatGPT for small business program",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+    "published_at": "2026-07-21T17:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布 ChatGPT for Small Businesses 方案，協助小型企業主建立 AI 技能、自動化工作流程程，並透過 ChatGPT Work 工具加速業務成長。該方案提供培訓資源與工具整合服務。",
+    "highlights": [
+      "目標用戶為小型企業主，非一般消費者",
+      "強調建立 AI 技能與工作流程程自動化",
+      "整合 ChatGPT Work 工具平台",
+      "提供培訓資源與實作指導"
+    ],
+    "why_it_matters": "將 AI 應用從個人用戶擴展至企業層級，小型企業首次獲得專屬 AI 支援方案，可能影響 SMB 的 AI 採用曲線。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估 ChatGPT Work 的具體功能，看是否能替代現有的客服或內容生成流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-sensenova-u1-8b-mot-infographic-v3",
+    "title": "SenseNova U1-8b-MoT-Infographic-V3發布：僅隔兩週再更新",
+    "title_original": "SenseNova-U1-8b-MoT-Infographic-V3 has been released (2 weeks after V2)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2mszh/sensenovau18bmotinfographicv3_has_been_released_2/",
+    "published_at": "2026-07-21T16:06:37+00:00",
+    "category": "new-models",
+    "summary": "商湯科技旗下SenseNova團隊發布U1-8b-MoT-Infographic-V3版本，這是一款80億參數的混合專家模型（MoE），專為資訊圖表理解與視覺推論任務優化。距離V2版本僅兩週即推出更新，顯示開發節奏快速。新版本強化了複雜圖表的結構化資訊提取能力，並改善了多頁面文件處理流程。",
+    "highlights": [
+      "80億參數混合專家模型，專精視覺推論任務",
+      "V3版本強化資訊圖表結構化資訊提取能力",
+      "兩週內完成V2到V3迭代，開發節奏快速",
+      "改善多頁面文件處理流程與複雜圖表理解",
+      "來自商湯SenseNova團隊，具備商業支援背景"
+    ],
+    "why_it_matters": "資訊圖表理解是企業文件處理的痛點，SenseNova U1-8b的快速迭代顯示輕量視覺模型市場競爭激烈。V3版本若實際提升明顯，可成為自動化文件處理的高效工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "測試V3版本在PDF報告解析、年報關鍵數據提取、多頁投影片結構化等場景的表現，評估其取代傳統OCR+LLM組合的可行性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-langsmith-agent",
+    "title": "LangSmith 新增語音 Agent 追蹤功能支援四大平台",
+    "title_original": "Trace voice agents in LangSmith",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/trace-voice-agents-in-langsmith",
+    "published_at": "2026-07-21T16:00:37+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 宣布 LangSmith 現支援 Pipecat、LiveKit、OpenAI Realtime 與 Gemini Live 語音 Agent 的完整追蹤，可記錄音訊、STT/TTS 延遲、打斷事件與工具呼叫。",
+    "highlights": [
+      "支援 Pipecat、LiveKit、OpenAI Realtime、Gemini Live 四大語音框架",
+      "可追蹤音訊、STT、TTS 各階段延遲數據",
+      "記錄對話中的打斷事件與工具呼叫鏈",
+      "統一 LangSmith 介面查看所有語音 Agent 軌跡"
+    ],
+    "why_it_matters": "語音 Agent 開發者終於有統一的除錯與效能監控工具，可快速定位即時對話中的延遲瓶頸與錯誤原因。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 LangSmith 追蹤生產環境的語音 Agent，自動報警異常延遲或錯誤率，優化使用者體驗。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-21-20b-looping-10-qwen3-coder-30b",
+    "title": "20B Looping 模型論文：以 10% 預訓練語料超越 Qwen3 Coder 30B",
+    "title_original": "20B Looping model (paper) matches or beats Qwen3 Coder 30B at 10% of pre-training tokens",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2mhmi/20b_looping_model_paper_matches_or_beats_qwen3/",
+    "published_at": "2026-07-21T15:55:39+00:00",
+    "category": "new-models",
+    "summary": "研究論文提出 20B 規模的 Looping 架構，在僅使用 Qwen3 Coder 30B 十分之一預訓練 tokens 量的條件下，於多項基準測試達到相當或更優的效能，展現高效預訓練策略的可能性。",
+    "highlights": [
+      "20B 參數規模大幅小於對手的 30B",
+      "預訓練 tokens 量僅需 10% 即可達到相似效能",
+      "論文聲稱多項基準測試超越 Qwen3 Coder 30B",
+      "細節來自 Reddit 社群討論，原始論文需驗證",
+      "屬於高效訓練方法論的突破"
+    ],
+    "why_it_matters": "若論文數據屬實，代表小團隊可用極低成本訓練出高效程式碼模型，降低開源 coder 模型的進入門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤此論文的後續實作進度，若開源可評估作為本地程式碼助理的候選，評估性價比是否優於現有方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-item",
+    "title": "【社群精華】本地部署必備小型專業模型推薦清單",
+    "title_original": "What are some important small/tiny local models to download that aren't the main chatbot LLMs, but are things for like audio, TTS, STT, vision, or whatever random important miscellaneous things like that which might be useful to get before the bans and shutdowns come in?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2m3mh/what_are_some_important_smalltiny_local_models_to/",
+    "published_at": "2026-07-21T15:41:37+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA社群成員整理了一份實用小型本地模型清單，涵蓋語音辨識（STT）、語音合成（TTS）、音訊處理、電腦視覺等非大語言模型應用。討論焦點在於備份重要模型以因應未來可能的API關閉或政策限制，並強調這些專業模型體積小、功能專精，是建構完整本地AI工作流程不可或缺的元件。",
+    "highlights": [
+      "STT模型推薦：Whisper系列變體，體積小且支援多語言",
+      "TTS模型推薦：Piper、Coqui TTS，可在CPU上運行",
+      "電腦視覺：CLIP相關輕量模型、YOLO變體用於物體偵測",
+      "音訊處理：含噪音去除、語音分離等專用小型模型",
+      "社群建議提前備份重要模型，避免依賴雲端服務"
+    ],
+    "why_it_matters": "建構本地AI工作流程不只需要大語言模型，專業小型模型是實現端到端自動化的關鍵。提前整備可確保在雲端服務不穩定或成本上升時仍能維持生產力。",
+    "automation_angle": null,
+    "automation_angle_zh": "依據清單預先下載相關小型專業模型，整合至本地AI工具鏈。例如使用Whisper+本地LLM+TTS打造完全離線的語音助理管線。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-google-deepmind-gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber",
+    "title": "Google DeepMind 發布 Gemini 3.6 Flash、3.5 Flash-Lite 與 3.5 Flash Cyber",
+    "title_original": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+    "published_at": "2026-07-21T15:16:30+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 官方宣布推出 Gemini 3.6 Flash、3.5 Flash-Lite 與 3.5 Flash Cyber 三款新模型。3.6 Flash 主打高效能 Flash 等級推論，3.5 Flash-Lite 瞄準輕量場景，3.5 Flash Cyber 則針對資安相關應用。",
+    "highlights": [
+      "三款並發：3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyber",
+      "3.6 Flash：Gemini Flash 系列的旗艦升級",
+      "3.5 Flash-Lite：輕量化、低成本選項",
+      "3.5 Flash Cyber：資安領域專用變體",
+      "官方來源：DeepMind 部落格直接發布"
+    ],
+    "why_it_matters": "Gemini Flash 系列持續擴張，代表 Google 對高效能低成本模型的戰略承諾。Cyber 變體的出現顯示模型能力正往垂直領域分化，技術使用者可評估是否符合特定應用需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可存取 Google AI Studio 或 Vertex AI，針對任務類型選擇合適的 Flash 等級模型。例如用 3.5 Flash-Lite 做內部工具的簡單分類，用 3.6 Flash 處理複雜推論，測試成本與品質的黃金比例。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-21-unsloth-qwen3-6-27b-nvfp4-rtx-5090",
+    "title": "Unsloth Qwen3.6-27B NVFP4效能實測：RTX 5090單卡與雙卡對比",
+    "title_original": "I benchmarked Unsloth's Qwen3.6-27B NVFP4 on 1x/2x 5090s. MTP is great until it really isn't.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2l1zi/i_benchmarked_unsloths_qwen3627b_nvfp4_on_1x2x/",
+    "published_at": "2026-07-21T15:04:39+00:00",
+    "category": "hot-topics",
+    "summary": "社群用戶發布Unsloth優化版Qwen3.6-27B NVFP4模型在NVIDIA RTX 5090顯示卡的效能測試結果。測試分別在單卡與雙卡配置下進行，評估MTP（Multi-Token Prediction）在不同推論負載下的表現。實測發現MTP機制在一般推論任務表現優異，但在高負載、複雜推論場景下出現效能瓶頸，為最佳化配置提供實證參考。",
+    "highlights": [
+      "測試對象為Unsloth優化版Qwen3.6-27B NVFP4",
+      "評估RTX 5090單卡與雙卡配置效能差異",
+      "MTP多token預測機制在一般任務表現佳",
+      "高負載複雜推論場景下MTP出現效能瓶頸",
+      "提供實際部署配置建議與最佳化方向"
+    ],
+    "why_it_matters": "RTX 5090是下一代消費級AI推論主力卡，此測試為有本地部署需求的工程師提供實用配置參考。MTP效能瓶頸的發現有助於開發者調整模型配置以達最佳性價比。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據測試結果，若你的工作負載以簡單問答為主，單卡+MTP配置已足夠；若涉及複雜推論，可考慮關閉MTP或採用雙卡配置以提升吞吐量。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-gemini-3-6-flash-github-copilot",
+    "title": "Gemini 3.6 Flash 正式進駐 GitHub Copilot",
+    "title_original": "Gemini 3.6 Flash is now available in GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot",
+    "published_at": "2026-07-21T15:04:31+00:00",
+    "category": "agent-skills",
+    "summary": "Google 最新 Flash 系列模型 Gemini 3.6 Flash 已登陸 GitHub Copilot。官方介紹其設計目標為網頁與應用程式開發、程式碼撰寫及長時域 Agent 任務，具備可配置的輸出特性。Copilot 用戶現在可直接選用。",
+    "highlights": [
+      "Copilot 整合：Gemini 3.6 Flash 作為 Copilot 的模型選項之一",
+      "開發取向：專為網頁開發與程式碼任務優化",
+      "長時域 Agent 支援：適配多步驟自主任務",
+      "可配置性：推測為溫度、輸出長度等參數可調整",
+      "官方發布：GitHub Changelog 確認，非傳言"
+    ],
+    "why_it_matters": "Copilot 引入 Gemini 3.6 Flash 為開發者提供第三條模型路徑。在 Anthropic、OpenAI 模型之外，技術使用者現在可以用 Google 的 Flash 等級模型做成本敏感任務，並比較品質差異。",
+    "automation_angle": null,
+    "automation_angle_zh": "Copilot 用戶可在設定中切換至 Gemini 3.6 Flash，針對日常 Boilerplate 程式碼或快速原型開發任務測試其輸出速度與成本效益，比較與預設模型的實務差異。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-21-nativ-mac-ai",
+    "title": "Nativ：Mac 本地端跑 AI 模型的桌面應用程式",
+    "title_original": "Nativ: Run AI models locally on your Mac",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
+    "published_at": "2026-07-21T14:22:27+00:00",
+    "category": "open-source-ai",
+    "summary": "Nativ 是一款 macOS 桌面應用，透過 MLX 框架在 Mac 本地執行視覺語言模型。類似 LM Studio 提供聊天介面與 localhost API 伺服器，並能自動讀取 Hugging Face 快取中的已下載模型，支援蘋果晶片加速。",
+    "highlights": [
+      "使用 MLX 框架針對 Apple Silicon 優化",
+      "提供聊天 UI 與 localhost API 兩種存取方式",
+      "自動識別 Hugging Face 快取目錄中的模型",
+      "MLX-VLM 作者 Prince Canuma 開發",
+      "可離線運行保護隱私"
+    ],
+    "why_it_matters": "為 Mac 用戶提供本地部署視覺語言模型的替代方案，蘋果晶片加速降低推論延遲，無需雲端 API 費用即可使用開源 VLM。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在 Mac 上架設本地 API，替換昂貴的雲端視覺模型呼叫，省下 API 成本並確保資料不離開本機。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-21-ai-cli-mcp-mcp-claude-codex-gemini-cli",
     "title": "ai-cli-mcp：透過 MCP 協定整合 Claude、Codex、Gemini CLI 到任何客戶端",
     "title_original": "mkXultra/ai-cli-mcp",
@@ -2190,6 +2609,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-21-2026waic-ai",
+    "title": "2026WAIC：支付寶發布AI訂閱解決方案 三步接入四大功能",
+    "title_original": "2026WAIC：支付宝發布AI訂閱解决方案 三步接入四大功能 - 环球网",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBrUWQ5S3FWMVlld0VLNl9PWm1tckVVMzBlVHNpNXZMTWRESXNQSFd3bjE2VkdFeEJfQ2xkZjVrLXgxZEJnSFBaTmxQTHZmUDZMQnF5UHhMbw?oc=5",
+    "published_at": "2026-07-17T16:15:00+00:00",
+    "category": "ai-deals",
+    "summary": "支付寶在2026年世界人工智慧大會上發布AI訂閱解決方案，標榜三步驟即可接入四大功能模組。此方案主要面向中國市場的企業用戶，提供標準化的AI服務接入接口。詳細功能列表與定價模式尚未完整披露，實際技術規格與API文件需待官方進一步公告。",
+    "highlights": [
+      "支付寶瞄準企業級AI服務市場，推出訂閱制解決方案",
+      "行銷標語強調「三步接入」，但具體API與SDK尚未公布",
+      "四大功能細節未明，可能涵蓋對話、生成、分類等基礎能力",
+      "面向中國本地市場，國際用戶使用性待確認",
+      "需持續關注官方技術文檔與定價頁面更新"
+    ],
+    "why_it_matters": "支付寶作為支付基礎設施供應商，其AI訂閱方案若能提供穩定、實惠的API接口，可能成為企業自動化流程的新選擇，值得技術人員評估其整合潛力與成本效益。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可關注後續API文檔發布，評估其是否支援企業內部客服、訂單處理或財務對帳等場景的自動化，並與現有騰訊雲、阿里雲AI服務做功能與價格比較。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-17-nvidia-nemo-hugging-face-diffusers",
     "title": "NVIDIA NeMo 與 Hugging Face Diffusers 聯手：規模化微調影片與影像模型",
     "title_original": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
@@ -2245,6 +2692,33 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/92194572?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-21-google-gemini-3-5-flash-cyber",
+    "title": "Google 發布 Gemini 3.5 Flash Cyber 資安專用模型",
+    "title_original": "Introducing Gemini 3.5 Flash Cyber",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+    "published_at": "2026-07-17T15:00:11+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 推出 Gemini 3.5 Flash Cyber，這是一款輕量級網路安全模型，專為自動化漏洞發現、修補建議與資安威脅分析場景設計。",
+    "highlights": [
+      "Gemini 3.5 Flash 系列首款資安垂直模型",
+      "輕量化設計，適合自動化流程整合",
+      "聚焦漏洞發現與修補建議能力",
+      "可作為資安 Agent 的骨幹模型使用"
+    ],
+    "why_it_matters": "資安領域迎來專用模型，開發團隊可將其嵌入 SDLC 流程，在程式碼審查階段自動偵測漏洞。",
+    "automation_angle": null,
+    "automation_angle_zh": "將模型 API 整合至 CI/CD pipeline，實現自動化安全閘門，阻断有漏洞的程式碼進入生產環境。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-07-17-reddit-bonsai-27b-iphone-3-9gb",
