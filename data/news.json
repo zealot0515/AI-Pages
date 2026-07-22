@@ -1,5 +1,89 @@
 [
   {
+    "id": "2026-07-22-nanbeige4-2-3b-agentic-9b-12b",
+    "title": "Nanbeige4.2-3B 小模型宣稱在 Agentic 任務擊敗 9B/12B 規模模型",
+    "title_original": "Nanbeige4.2-3B drops: 3B params claiming to beat 9B/12B models on agentic tasks (atleast according to them)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v336od/nanbeige423b_drops_3b_params_claiming_to_beat/",
+    "published_at": "2026-07-22T02:33:52+00:00",
+    "category": "new-models",
+    "summary": "Reddit 社群討論指出 Nanbeige4.2-3B 這個 30 億參數模型宣稱能在 Agentic 任務上超越 9B 或 12B 規模模型。消息來源為社群自述，未經獨立 Benchmark 驗證，需審慎看待。",
+    "highlights": [
+      "3B 參數規模強調推論效率與本地部署可行性",
+      "宣稱在 Agentic 任務有競爭力但來源為 self-claim",
+      "Reddit 社群討論熱度中等",
+      "尚未有第三方 Benchmark 數據支援",
+      "若屬實對本地部署 AI Assistant 有意義"
+    ],
+    "why_it_matters": "若 3B 模型真能在 Agentic 任務達到大模型水準，將大幅降低本地部署門檻與 API 成本，但目前缺乏驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本地部署後用自己的 Agentic 任務集（如 function calling、planning）測試實際表現，自行驗證是否符合宣稱。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-22-anthropic-felix-rieseberg-mac-app-llm",
+    "title": "Anthropic 工程師 Felix Rieseberg 發布免費 Mac App 幫助從零構建 LLM",
+    "title_original": "Felix Rieseberg (Anthropic, ElectronJS) has released a free Mac app designed to help people build their own LLMs from scratch.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v32ob7/felix_rieseberg_anthropic_electronjs_has_released/",
+    "published_at": "2026-07-22T02:11:13+00:00",
+    "category": "open-source-ai",
+    "summary": "任職 Anthropic 且為 ElectronJS 知名貢獻者的 Felix Rieseberg 發布了一款免費 Mac 應用，目標是降低從頭訓練 LLM 的門檻。消息來源為 Reddit 社群，尚未找到官方發布頁或 GitHub 連結。",
+    "highlights": [
+      "作者為 Anthropic 在職員工與 ElectronJS 重要貢獻者",
+      "應用程式旨在簡化 LLM 從零訓練流程",
+      "目前為 Mac 平台限定",
+      "Reddit 來源尚未驗證，缺少官方連結",
+      "對學習 LLM 訓練的技術人員有教學價值"
+    ],
+    "why_it_matters": "若工具屬實，可作為 LLM 訓練流程的學習輔助工具；但來源為 Reddit 且缺少官方頁面，需待更多資訊確認。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方發布後可用來實驗小型 LLM 的預訓練或微調流程，作為理解模型訓練管道的輔助工具。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-22-item",
+    "title": "翻譯模型「越界」直接解題：社群觀察到的行為漂移現象",
+    "title_original": "When a translation model starts solving the problem instead of translating it (small rant)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v31z4z/when_a_translation_model_starts_solving_the/",
+    "published_at": "2026-07-22T01:40:13+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 社群抱怨翻譯任務中模型常「自行解題」而非單純翻譯，顯示模型出現行為漂移。討論反映部分模型的翻譯 prompt 可能需要更嚴格的約束才能穩定輸出。",
+    "highlights": [
+      "翻譯場景中模型傾向直接解答而非翻譯輸入",
+      "說明模型遵循 user intent 與 literal instruction 的張力",
+      "可能與 RLHF 訓練導向「幫助性」有關",
+      "此問題可能影響其他需要忠實轉換的任務",
+      "社群提出抱怨但尚未有系統性解法"
+    ],
+    "why_it_matters": "對需要精確轉換（翻譯、格式重現、程式碼遷移）的應用來說，行為漂移會導致輸出不符合預期，需要在 Prompt 層面加入約束。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你的翻譯或格式轉換 Pipeline 出現類似問題，可在 Prompt 加入「只翻譯，不要解釋或解答」的明確約束並測試。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-22-gigatoken-tokenizer-tiktoken-100",
     "title": "Gigatoken：開源Tokenizer效能突破，比Tiktoken快100倍",
     "title_original": "Gigatoken: A new open source tokenizer ~100x faster than Tiktoken, -500-1000x faster than Huggingface",
