@@ -1,5 +1,288 @@
 [
   {
+    "id": "2026-07-22-pctx-mcp",
+    "title": "pctx：MCP 工具呼叫的安全沙盒執行層",
+    "title_original": "portofcontext/pctx",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/portofcontext/pctx",
+    "published_at": "2026-07-22T13:12:11Z",
+    "category": "agent-skills",
+    "summary": "pctx 是專為 Agent 工具呼叫設計的執行層，可自動將 Agent 工具與 MCP 伺服器轉換為在安全沙盒中執行的程式碼，目標是提升 Token 使用效率並簡化多工具工作流程的部署。Rust 實作，目前 GitHub 269 星。",
+    "highlights": [
+      "自動轉換 Agent 工具為沙盒化程式碼，降低安全風險",
+      "專為 MCP（Model Context Protocol）伺服器設計",
+      "Rust 實作，強調高效能與記憶體安全",
+      "提升 Token 效率，適合成本敏感的大型 Agent 系統",
+      "GitHub 269 星，反映社群對工具呼叫執行層的需求"
+    ],
+    "why_it_matters": "隨著 MCP 生態快速成長，工具呼叫的安全隔離與效率優化成為剛需，pctx 提供了一個可直接評估的開源解法。",
+    "automation_angle": null,
+    "automation_angle_zh": "將現有 MCP 工具（如文件處理、資料庫查詢）接入 pctx 沙盒，測試其在多步驟工作流程中的效能與隔離效果，評估能否降低 Token 消耗。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/241834560?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-22-osint-agent-skills-osint-mcp",
+    "title": "osint-agent-skills：OSINT 知識庫 MCP 伺服器整合威脅情報工作流程",
+    "title_original": "frangelbarrera/osint-agent-skills",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/frangelbarrera/osint-agent-skills",
+    "published_at": "2026-07-22T13:01:15Z",
+    "category": "agent-skills",
+    "summary": "osint-agent-skills 將開源情報（OSINT）知識庫封裝為 MCP 伺服器，可供 Claude Code、Cursor、Kimi K3 等主流 AI 工具直接呼叫，內建偵察與威脅情報 playbook。PowerShell 實作，目前僅 14 星，屬早期專案。",
+    "highlights": [
+      "MCP 協議整合，支援主流 AI Coding 工具",
+      "內建 OSINT 偵察與威脅情報自動化腳本",
+      "PowerShell 實作，適合 Windows 環境或滲透測試場景",
+      "可用於自動化資安評估與外部情報收集",
+      "星星數低，社群驗證不足，需謹慎評估穩定性"
+    ],
+    "why_it_matters": "將 OSINT 能力標準化為可呼叫工具，為安全研究與威脅情報工作流程提供新的自動化維度，但早期專案建議先在測試環境驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "在隔離測試環境中將 osint-agent-skills 接入 Claude Code，測試對指定目標的自動化外部情報收集能力，驗證輸出格式與準確度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "PowerShell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/201400231?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-22-openai-project-camellia",
+    "title": "OpenAI 宣布喬治亞州 Project Camellia 資料中心計畫",
+    "title_original": "Building AI infrastructure with the Effingham County community",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+    "published_at": "2026-07-22T13:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 公布 Effingham County 社區 AI 基礎設施建設計畫 Project Camellia，承諾負責任能源使用、社區投資、就業機會，並提供當地 Codex 存取權限。屬於 OpenAI 擴大美國基礎設施布局的一環。",
+    "highlights": [
+      "地點位於喬治亞州 Effingham County",
+      "承諾創造當地就業並進行社區投資",
+      "強調使用負責任能源與環保標準",
+      "提供當地居民與學生 Codex 存取管道",
+      "屬於 OpenAI 近期多個基礎設施公告之一"
+    ],
+    "why_it_matters": "OpenAI 持續擴大基礎設施投資顯示其對算力需求預期樂觀。此類區域布局可能影響未來 API 延遲與可用區域，技術決策者需留意。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 OpenAI 基礎設施擴張公告，評估是否影響其 API 服務的區域可用性與定價策略，調整長期架構規劃。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-22-toolathlon-gym-mcp",
+    "title": "Toolathlon-Gym：MCP 代理工具能力測試框架",
+    "title_original": "eigent-ai/toolathlon_gym",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/eigent-ai/toolathlon_gym",
+    "published_at": "2026-07-22T12:53:52Z",
+    "category": "agent-skills",
+    "summary": "eigent-ai 開源 Toolathlon-Gym，專為測試 AI 代理在多種 MCP 伺服器上的真實工具使用能力而設計。專案提供標準化評測環境，可量化不同代理框架的 tool-call 準確率與穩定性，現已獲 140 顆星。",
+    "highlights": [
+      "支援跨多個 MCP server 的工具呼叫測試",
+      "提供統一的評測指標與基準分數",
+      "可用於比較 LangChain、AutoGen 等框架表現",
+      "Python 實作，可直接整合進 CI/CD",
+      "開源 MIT 授權，社群持續維護中"
+    ],
+    "why_it_matters": "對構建 AI 代理的技術人員而言，缺乏統一的工具能力評測標準。Toolathlon-Gym 填補這塊空白，讓代理開發者能客觀比較方案、找出工具調用瓶頸。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 Toolathlon-Gym 整合進代理系統的單元測試流程，自動跑完所有 MCP 工具的預期行為，快速定位失敗案例並量化改進成效。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/163795819?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-22-langchain-graph-engineering",
+    "title": "LangChain 三年 Graph Engineering 實踐回顧",
+    "title_original": "3 Years of Graph Engineering with LangGraph",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/3-years-of-graph-engineering-with-langgraph",
+    "published_at": "2026-07-22T12:37:19+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布三年 Graph Engineering 實務經驗，強調圖結構是構建可靠 AI 代理的核心方法。將模型推論放在正確位置、提供正確上下文，是提升代理穩定性的關鍵設計模式。",
+    "highlights": [
+      "圖結構是構建可靠代理的成熟方法",
+      "核心在於將推論放在正確位置與上下文",
+      "Loop Engineering 與 Harness Engineering 相輔",
+      "三年實務積累的設計模式與最佳實踐",
+      "適用於複雜多步驟任務的代理架構"
+    ],
+    "why_it_matters": "LangChain 的實務經驗顯示，圖結構代理比純鏈式呼叫更具可控性。對追求代理穩定性的開發者，此文提供了可參考的架構思路。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估自身代理系統是否適用圖結構重構，特別是涉及多步驟決策、分支邏輯或需要回溯的複雜任務場景。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-22-aa-intelligence-index-base64",
+    "title": "模型 AA Intelligence Index 與 Base64 生成能力高度相關",
+    "title_original": "Despite not being trained to, it turns out the Pearson correlation between a models AA Intelligence Index score and its ability to generate Base64 encoded responses is 0.91",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3dpsk/despite_not_being_trained_to_it_turns_out_the/",
+    "published_at": "2026-07-22T11:43:52+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 社區發現模型 AA Intelligence Index 分數與其生成 Base64 編碼回應的能力之間 Pearson 相關係數達 0.91。研究者認為這反映了模型對結構化輸出與精確指令遵循的綜合能力。",
+    "highlights": [
+      "AA Intelligence Index 與 Base64 準確度相關性 0.91",
+      "暗示結構化輸出能力是通用智能指標",
+      "可用低成本方式評估模型指令遵循能力",
+      "結果來自非針對性訓練的觀察實驗",
+      "社區正在討論其有效性與局限性"
+    ],
+    "why_it_matters": "若 Base64 生成可作為模型綜合能力的低成本代理指標，技術人員在選擇模型時多了個快速評估維度，不需跑完整測試套件。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在模型評估流程中加入 Base64 編碼任務作為快速冒煙測試，用低成本方式篩選候選模型再進行完整測試。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-22-lfm2-5-8b-a1b-tokenizer",
+    "title": "LFM2.5-8B-A1B tokenizer 原地擴展技術解析",
+    "title_original": "Tokenizer Expansion: Upgrading a Model's Tokenizer in Place - LFM2.5-8B-A1B",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3c6hx/tokenizer_expansion_upgrading_a_models_tokenizer/",
+    "published_at": "2026-07-22T10:28:29+00:00",
+    "category": "new-models",
+    "summary": "Reddit 熱議如何在不改變模型權重的情況下原地升級 LFM2.5-8B-A1B 的 tokenizer，討論了 tokenizer 擴展對詞彙覆蓋與推論效率的影響，以及對模型輸出的潛在影響。",
+    "highlights": [
+      "原地更換 tokenizer 而不重新訓練模型",
+      "影響新詞彙覆蓋率與分詞效率",
+      "可能改變模型對特定輸入的解析方式",
+      "涉及 tokenizer 與模型 embedding 的對齊問題",
+      "社區正在探索安全替換的技術方案"
+    ],
+    "why_it_matters": "Tokenizer 擴展技術可讓開源模型快速適應新領域詞彙，而無需完整重訓練。對微調資源有限的團隊具有實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "若使用 LFM 系列模型，可測試更換 tokenizer 後在特定領域任務上的表現變化，評估是否值得採用此技術降低部署成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-22-cybergym",
+    "title": "CyberGym 基準測試挑戰公開招募解題者",
+    "title_original": "Solve the CyberGym benchmark",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3ba1z/solve_the_cybergym_benchmark/",
+    "published_at": "2026-07-22T09:39:28+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 社區發起 CyberGym 基準測試解題挑戰，徵集能夠突破或最佳化該基準的模型與方法。挑戰目標聚焦於網路安全場景下的 AI 能力評估。",
+    "highlights": [
+      "CyberGym 為網路安全場景基準測試",
+      "挑戰旨在評估 AI 安全攻防能力",
+      "開放社區參與解題與方法分享",
+      "可能涉及威脅檢測、漏洞分析等任務",
+      "結果可反映模型在安全領域的實用性"
+    ],
+    "why_it_matters": "網路安全 AI 是高價值應用場景，CyberGym 提供標準化評測。對安全工具開發者而言，該基準可作為模型能力參考與驗證基準。",
+    "automation_angle": null,
+    "automation_angle_zh": "若從事安全相關 AI 開發，可用 CyberGym 評估模型表現，並與其他安全基準交叉驗證，決定是否適合作為產品後端模型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-22-upstage-solar-open2-250b-deepseek-v4-flash",
+    "title": "Upstage 發布 Solar-Open2-250B 大模型　效能對標 DeepSeek V4 Flash",
+    "title_original": "upstage/Solar-Open2-250B · Hugging Face",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3b58h/upstagesolaropen2250b_hugging_face/",
+    "published_at": "2026-07-22T09:31:39+00:00",
+    "category": "new-models",
+    "summary": "Upstage 在 Hugging Face 發布 Solar-Open2-250B 模型，根據 Reddit r/LocalLLaMA 社群初步測試，效能與 DeepSeek V4 Flash 表現相當。該模型為開源版本，為本地部署提供新選擇。",
+    "highlights": [
+      "Solar-Open2-250B 已上傳至 Hugging Face，可直接下載",
+      "社群回報推論效能與 DeepSeek V4 Flash 接近",
+      "支援本地部署，適合有隱私需求的場景",
+      "模型開源，可供研究與商業使用",
+      "250B 參數規模，屬於大型語言模型"
+    ],
+    "why_it_matters": "大型開源模型效能持續提升，Solar-Open2-250B 為本地部署提供效能與成本的新平衡點，若實測穩定可作為企業級本地推論的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本地硬體環境部署測試，用 vLLM 或 Ollama 評估推論速度與輸出品質，對比現有 DeepSeek 或 Llama 方案的成本效益。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-22-openai-presence-ai-agent",
+    "title": "OpenAI 發布 Presence：企業級語音與聊天 AI Agent 平台",
+    "title_original": "Introducing OpenAI Presence",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/introducing-openai-presence",
+    "published_at": "2026-07-22T05:30:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 正式推出 Presence 平台，為企業提供可信賴的語音與文字 Agent 部署方案，瞄準客服與內部流程自動化場景。這是 OpenAI 從純模型輸出轉向完整 Agent 平台的重要訊號，可能重塑企業 AI 部署格局。",
+    "highlights": [
+      "企業級 Agent 平台，非個人開發者工具",
+      "支援語音與文字雙模態對話",
+      "主打可信賴部署，鎖定客服與內部工作流程場景",
+      "代表 OpenAI 商業策略從模型向平台延伸",
+      "具體定價與企業合作模式待進一步揭露"
+    ],
+    "why_it_matters": "OpenAI 推出完整 Agent 平台標誌著大廠從模型能力轉向系統整合的趨勢，技術用戶需評估其對自建 Agent 架構的長期影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "若任職企業有客服或流程自動化需求，可申請早期測試，比較 Presence 與現有自架方案的效能、可靠性與成本差異。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-22-nanbeige4-2-3b-agentic-9b-12b",
     "title": "Nanbeige4.2-3B 小模型宣稱在 Agentic 任務擊敗 9B/12B 規模模型",
     "title_original": "Nanbeige4.2-3B drops: 3B params claiming to beat 9B/12B models on agentic tasks (atleast according to them)",
