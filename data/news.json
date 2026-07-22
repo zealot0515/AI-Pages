@@ -1,5 +1,172 @@
 [
   {
+    "id": "2026-07-22-gigatoken-tokenizer-tiktoken-100",
+    "title": "Gigatoken：開源Tokenizer效能突破，比Tiktoken快100倍",
+    "title_original": "Gigatoken: A new open source tokenizer ~100x faster than Tiktoken, -500-1000x faster than Huggingface",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2yfqp/gigatoken_a_new_open_source_tokenizer_100x_faster/",
+    "published_at": "2026-07-21T23:08:29+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA社群流出Gigatoken專案，宣稱其Tokenizer速度比Tiktoken快約100倍，比Huggingface快500-1000倍。若效能屬實，可大幅縮短文字處理與模型輸入預處理時間，對本地部署LLM與高吞吐量應用有顯著幫助。現為開源專案，技術社群正積極驗證其真實效能。",
+    "highlights": [
+      "宣稱比Tiktoken快100倍，比Huggingface快500-1000倍",
+      "開源專案，可於GitHub取得原始碼",
+      "對本地LLM部署與高頻文字處理場景有潛在價值",
+      "社群正進行效能驗證，需實際測試確認",
+      "可能影響日後Tokenizer生態選擇"
+    ],
+    "why_it_matters": "Tokenizer效能瓶頸常被忽略，但處理大量文字時節省時間可觀。若Gigatoken達標，可改變本地部署與批量推論的效能基準，值得技術人員關注與實測。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此Tokenizer整合進現有文字預處理流程，測量批量文件處理的實際加速比，評估是否值得替換現有方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-22-ai",
+    "title": "韓國三大電信力推AI訂閱服務，整合資費方案與支付優惠",
+    "title_original": "韩国三大运营商發力AI訂閱：纳入套餐权益並加码支付優惠 - 디지털투데이",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxON2JtWER4Y1piVlBSaGM2eHFsVXZOekdRV3d6blNLSDNGbWxuS3NzOWlTWXFxcjlPR1Z2a0o1eTlfVTBjdHRTdWlJS2tBdWtQSjJpS1RuUjMtaDFEODMxMFZIWEdLNUlJWUEwTFFuaGZvYnY4eEV0WWZ5d2hlQ2VBWUhPNVB3WHBTcXF3eWx6b045UGFrdVdHODcyUmc4UFB3Mm5hNk9Pb1FGLS16dW1JNDVMdFdnRlF0Rldsel9aTUs1MGdJMm1kNHU1amFRZ1Qyb1h2VHJ3?oc=5",
+    "published_at": "2026-07-21T22:30:00+00:00",
+    "category": "ai-deals",
+    "summary": "韓國SK Telecom、KT、LG Uplus三大電信業者積極將AI訂閱服務整合進行動資費方案，並提供支付優惠以吸引用戶。此趨勢顯示電信業者將AI服務視為留存用戶與增加營收的關鍵策略，台灣與亞洲市場可能跟進類似模式。",
+    "highlights": [
+      "SK Telecom、KT、LG Uplus同步推動AI訂閱整合進資費方案",
+      "透過支付優惠提升用戶採用意願",
+      "反映電信業者將AI視為核心增值服務的策略轉變",
+      "亞洲其他市場可能出現類似商業模式",
+      "對一般消費者取得AI工具的門檻可能降低"
+    ],
+    "why_it_matters": "電信業者的大規模推廣可能加速AI工具在消費市場的普及。對開發者而言，了解此趨勢有助預判未來API訂閱定價與分銷管道變化。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注台灣電信業者的AI服務動態，若整合類似服務，可評估作為個人或團隊AI工具取得的替代管道。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-22-openai-agent-huggingface",
+    "title": "OpenAI承認内部評估Agent導致HuggingFace安全事件",
+    "title_original": "OpenAI admits responsibility for HuggingFace Attack - an agent from an internal evaluation is reportedly the cause.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2w7jl/openai_admits_responsibility_for_huggingface/",
+    "published_at": "2026-07-21T21:40:50+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI官方承認HuggingFace遭受的安全事件源於内部評估流程的Agent操作失誤，非刻意攻擊。雙方已展開合作修復並強化安全評估機制。此事件暴露大型語言模型在自動化管理第三方服務時的風險控制缺口，對AI安全實踐有重要啟示。",
+    "highlights": [
+      "OpenAI承認為内部評估Agent意外造成HuggingFace安全事故",
+      "雙方已建立合作關係共同應對此事件",
+      "事件暴露AI Agent操作第三方服務時的權限管理問題",
+      "可能促使業界重新審視AI系統的安全隔離機制",
+      "目前未見惡意意圖，屬流程失控而非主動攻擊"
+    ],
+    "why_it_matters": "此事件對所有使用AI Agent自動化操作第三方服務的開發者有警示作用。安全邊界與權限控制需重新審視，否則類似事件可能重演。",
+    "automation_angle": null,
+    "automation_angle_zh": "檢查現有AI Agent工作流程中的第三方API權限配置，確保隔離機制完善，並加入操作日誌追蹤以備審計。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-22-arxiv-llm",
+    "title": "arXiv 研究：LLM 的「層程式」學習——該跳層還是迴圈？",
+    "title_original": "arXiv publication: \"Skip a Layer or Loop It? Learning Program-of-Layers in LLMs\"",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2udpa/arxiv_publication_skip_a_layer_or_loop_it/",
+    "published_at": "2026-07-21T20:32:44+00:00",
+    "category": "open-source-ai",
+    "summary": "一篇 arXiv 新論文探討讓 LLM 動態學習「層程式」，模型可自行決定哪些輸入需要跳過某些層、哪些需要迴圈執行特定層。研究團隊提出可訓練的路由機制，讓模型在推論時自適應調整計算路徑，理論上可提升推論效率與表達能力。",
+    "highlights": [
+      "提出可學習的動態層跳躍與迴圈機制，而非靜態 Transformer 架構",
+      "模型能根據輸入複雜度自適應分配計算資源",
+      "訓練目標含多任務 loss，兼顧效率與效能",
+      "實驗顯示特定任務可實現 2-3 倍計算量節省",
+      "為模型壓縮與 Edge AI 推論提供新思路"
+    ],
+    "why_it_matters": "傳統 LLM 對所有 token 一視同仁地通過全部層，該研究挑戰此假設。若動態計算路徑可行，未來可在不犧牲輸出品質的前提下，大幅降低推論成本與延遲，對部署在資源受限環境的技術人員具直接價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可 clone 該論文 GitHub 程式碼，在本地小模型（如 7B 規模）上重現層路由實驗，評估其對推論速度與生成品質的實際影響，作為未來模型優化的技術儲備。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-22-reddit-laguna-s-2-1-rtx-pro-6000-100b",
+    "title": "Reddit 用戶實測 Laguna-S-2.1：RTX Pro 6000 最速 100B+ 模型，工具呼叫表現最佳但高壓下會捏造事實",
+    "title_original": "I ran Laguna-S-2.1 through my private agentic eval vs Qwen3.5-122B on an RTX Pro 6000 (96GB). Fastest 100B+ I've tested and the best tool calling, but it invents facts under pressure.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2ua8g/i_ran_lagunas21_through_my_private_agentic_eval/",
+    "published_at": "2026-07-21T20:29:15+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 用戶在 RTX Pro 6000（96GB）上以私有 Agent 評估集測試 Laguna-S-2.1，聲稱這是測試過最快的 100B+ 模型且工具呼叫表現最佳，但在高壓情境下會捏造事實。屬第一人稱敘述，未經他人驗證。",
+    "highlights": [
+      "RTX Pro 6000 上速度最快的 100B+ 模型之一",
+      "工具呼叫評估表現最佳",
+      "高壓任務下事實捏造問題明顯",
+      "來源為 Reddit 第一人稱，未經標準化測試驗證"
+    ],
+    "why_it_matters": "本地 100B+ 模型速度突破值得關注，但幻覺問題在高風險場景仍是阻礙。技術宅需自行測試以確認是否值得部署。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地 RTX Pro 6000 環境安裝 Laguna-S-2.1，針對工具呼叫任務（如 API 調用、程式碼生成）設計對比測試，驗證速度與準確性是否如報告所述。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-22-ai",
+    "title": "美國財政部長：可能因AI模型竊取問題制裁中國",
+    "title_original": "Bessent says U.S. could sanction China over AI model 'theft'",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2t67m/bessent_says_us_could_sanction_china_over_ai/",
+    "published_at": "2026-07-21T19:49:15+00:00",
+    "category": "ai-deals",
+    "summary": "美國財政部長Bessent表示，美國可能針對中國涉嫌竊取AI模型技術一事實施制裁。此發言反映中美AI競爭加劇，可能影響開源模型生態與技術交流。對開發者而言，需關注未來可能出現的模型授權與使用限制變化。",
+    "highlights": [
+      "美國財政部長提及對中國AI竊密行為的制裁可能性",
+      "顯示中美AI競爭已進入政策層面",
+      "可能影響開源模型生態與跨國技術交流",
+      "具體制裁範圍與時程尚未明確",
+      "需持續追蹤後續政策發展"
+    ],
+    "why_it_matters": "若制裁成真，可能影響部分模型使用與技術資源獲取。技術人員應提前評估依賴的模型與工具鏈風險，適時準備替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "盤點現有專案中使用的模型與工具來源，評估是否涉及潛在制裁風險，並建立替代技術棧的測試環境。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-21-aws-samples-sample-agent-cost-bench-coding-agent",
     "title": "aws-samples/sample-agent-cost-bench：Coding Agent 成本與品質基準測試框架",
     "title_original": "aws-samples/sample-agent-cost-bench",
@@ -647,6 +814,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-22-openai-hugging-face",
+    "title": "OpenAI 與 Hugging Face 公布模型評測安全事件初步調查結果",
+    "title_original": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+    "published_at": "2026-07-21T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 與 Hugging Face 共同發布部落格文章，揭露模型評測期間發生的安全事件初步發現，強調攻擊者展現的高級網路能力與防守方的應對策略。文章內容偏向公關聲明，缺乏技術細節與實際緩解措施。",
+    "highlights": [
+      "內容偏 PR 稿，技術深度有限",
+      "提及攻擊者具有進階網路能力",
+      "防守方有可借鑒的經驗教訓",
+      "未提供具體漏洞或修補指引"
+    ],
+    "why_it_matters": "此事對模型安全性有參考意義，但文章偏向公關性質，技術價值有限。技術宅可留意後續詳細報告。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注後續是否有開源檢測工具或安全評測框架發布，若有可整合進 CI/CD 安全流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-21-reddit-openai-gpt-oss-350",
     "title": "Reddit 討論：OpenAI GPT-oss 已發布 350 天，會有下一個開放權重模型嗎？",
     "title_original": "OpenAI released gpt-oss 350 days ago. Will we ever see another open-weight model from them?",
@@ -780,6 +974,33 @@
     "automation_angle_zh": "建議等有具體 GitHub repo 或 Demo 後再評估。技術用戶可先關注是否有 PyPI 安裝方式或 Colab notebook。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-22-david-v-lez-robin-vince-openai-openai-group-pbc",
+    "title": "David Vélez 與 Robin Vince 加入 OpenAI 基金會及 OpenAI Group PBC 董事會",
+    "title_original": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+    "published_at": "2026-07-21T00:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 宣布 David Vélez 與 Robin Vince 分別加入基金會及公益公司董事會，帶來金融、科技、治理領域的全球領導經驗。屬企業治理動態，非產品或技術發布。",
+    "highlights": [
+      "David Vélez 具金融科技背景",
+      "Robin Vince 專精金融與治理",
+      "影響 OpenAI 治理走向",
+      "對技術用戶日常工作無直接影響"
+    ],
+    "why_it_matters": "高層人事變動反映 OpenAI 重視治理與金融專業，但短期內對 API 或產品策略影響有限，技術宅可作為背景追蹤。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續關注後續公告，觀察治理層變動是否影響 API 定價、模型發布節奏或安全政策。",
+    "tags": [
+      "ai-deals",
       "rss",
       "en"
     ],
