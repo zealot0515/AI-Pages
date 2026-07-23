@@ -1,5 +1,201 @@
 [
   {
+    "id": "2026-07-23-llm",
+    "title": "LLM 蒸餾流程：以簡化方式向決策者解釋",
+    "title_original": "The LLM distillation process simplified for politicians:",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4moxy/the_llm_distillation_process_simplified_for/",
+    "published_at": "2026-07-23T18:41:48+00:00",
+    "category": "agent-skills",
+    "summary": "社群成員發布 LLM 蒸餾技術的簡化解說，以直觀方式說明 teacher-student 模型架構的知識轉移過程。此類教育內容有助於非技術背景決策者理解 AI 核心概念，促進合理的政策討論。",
+    "highlights": [
+      "提供蒸餾技術的直觀解說",
+      "目標受眾為政策制定者與非技術人員",
+      "有助於建立理性的技術政策討論基礎",
+      "強調蒸餾作為知識轉移的正當技術本質",
+      "促進技術界與政策界的溝通"
+    ],
+    "why_it_matters": "技術政策影響開源生態走向工程師需要理解政策視角，同時協助決策者掌握技術本質以制定合理規範。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此類簡化解說用於團隊內部教育或對非技術利害關係人的說明，提升跨領域溝通效率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-23-buoy-gg-buoy-react-native-mcp-server",
+    "title": "Buoy-gg/buoy：React Native 應用內的 MCP Server 工具集",
+    "title_original": "Buoy-gg/buoy",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Buoy-gg/buoy",
+    "published_at": "2026-07-23T18:36:18Z",
+    "category": "agent-skills",
+    "summary": "Buoy 是一款專為 React Native 開發者設計的開源工具，可在 App 內運行並作為 AI Agent 的工具介面。目前收錄 15 種工具，並提供桌面端儀表板與 MCP Server 協議支援，讓 Agent 能直接操作行動端介面。GitHub 已有 665 顆星。",
+    "highlights": [
+      "專為 React Native 應用設計的 Agent 工具",
+      "內建 15 種常用開發工具",
+      "提供桌面儀表板方便監控與除錯",
+      "支援 MCP Server 協議，可與主流 Agent 框架對接",
+      "已有一定社群關注度（665 stars）"
+    ],
+    "why_it_matters": "若你正在開發需要 AI Agent 操作手機介面的場景（如自動化測試、個人化任務），Buoy 提供了一個開箱即用的橋接方案，能快速將 React Native App 暴露給 Agent 控制。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 React Native 專案中引入 Buoy，啟動本地 MCP Server，讓 Agent 直接操控 App 內的 UI 元素，實現諸如自動化表單填寫或資料抓取的場景。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/249623048?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-23-antling-3-0-flash-openrouter-2026-8",
+    "title": "AntLing-3.0-flash 免費上架 OpenRouter 至 2026 年 8 月",
+    "title_original": "AntLing-3.0-flash is now live on OpenRouter, and free to use through August 3, 2026",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4m5cr/antling30flash_is_now_live_on_openrouter_and_free/",
+    "published_at": "2026-07-23T18:23:09+00:00",
+    "category": "new-models",
+    "summary": "AntLing-3.0-flash 模型已登陸 OpenRouter 平台，並宣布免費使用至 2026 年 8 月。對於希望試用新模型或尋找低成本替代方案的開發者，這是評估其能力的絕佳時機。",
+    "highlights": [
+      "新模型 AntLing-3.0-flash 已上架 OpenRouter",
+      "免費使用期限至 2026 年 8 月",
+      "可透過 OpenRouter API 直接呼叫",
+      "提供了試用新模型的低風險機會",
+      "可用於評估特定任務的適用性"
+    ],
+    "why_it_matters": "免費試用期讓開發者可在無成本負擔下評估模型能力，為工作流程程選擇合適模型或作為備用方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用免費期測試 AntLing-3.0-flash 在實際任務中的表現，如文案生成、程式碼補全或分析工作，評估是否值得後續付費使用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-23-celeron-n5095-sbc-cpu-benchmark-0-6b-8b",
+    "title": "Celeron N5095 SBC CPU純推論Benchmark：0.6B至8B六款模型實測",
+    "title_original": "CPU-only inference on a Celeron N5095 SBC: 6 models from 0.6B to 8B, benchmarked",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4lgo3/cpuonly_inference_on_a_celeron_n5095_sbc_6_models/",
+    "published_at": "2026-07-23T17:59:34+00:00",
+    "category": "open-source-ai",
+    "summary": "用戶在Intel Celeron N5095單板電腦上進行CPU純推論Benchmark，涵蓋0.6B至8B參數共六款模型。該N5095為低功耗Apollo Lake架構處理器，TDP僅6-10W。測試結果對評估邊緣裝置、本地部署或省電場景下的模型選擇有參考價值。",
+    "highlights": [
+      "測試硬體：Celeron N5095（4核，6-10W TDP）",
+      "測試範圍：0.6B、1B、1.5B、3B、7B、8B六款模型",
+      "純CPU推論，無GPU加速",
+      "包含速度（tokens/sec）與回應品質觀察",
+      "適用場景：物聯網、NAS、本地輕量部署"
+    ],
+    "why_it_matters": "為受限硬體環境下的模型選型提供實證參考。Celeron SBC價格親民，若某規模模型能在可接受速度下運行，可大幅降低本地AI部署門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據Benchmark結果，選擇符合Celeron SBC效能預算的模型，用於本地文件處理、程式碼輔助或輕量客服等自動化任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-23-langchain-deep-agents-harbor",
+    "title": "LangChain釋出Deep Agents評測方法詳解：Harbor平台三大任務維度",
+    "title_original": "How We Benchmark Deep Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-we-benchmark-deep-agents",
+    "published_at": "2026-07-23T17:55:37+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain官方Blog詳細說明Deep Agents的評測架構。評測在Harbor平台上運行，覆蓋三大能力維度：Coding（程式碼相關任務）、Conversation（對話任務）、Retrieval（檢索任務）。文章解釋了評測設計理念與如何用於指導產品迭代。",
+    "highlights": [
+      "評測平台：Harbor（LangChain內部評測系統）",
+      "三大任務維度：Coding、Conversation、Retrieval",
+      "評測結果用於指導Deep Agents開發決策",
+      "覆蓋編碼助理、對話代理、RAG檢索等典型場景",
+      "提供評測方法論可供其他開發者參考借鑒"
+    ],
+    "why_it_matters": "Deep Agents作為LangChain的核心代理框架，其評測方法反映了業界對AI Agent能力的共識維度。評測設計對於開發者建立自身Agent評估體系有借鑒意義。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可參考LangChain的評測維度設計，為自己的Agent專案建立類似的自動化測試集，特別是Coding任務的評測框架值得研究。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-23-reddit-1b-tokens-0-5m-fineweb-edu",
+    "title": "Reddit 網友成功以 1B tokens 訓練 0.5M 參數模型於 Fineweb-edu 資料集",
+    "title_original": "I trained a 0.5M model on 1B tokens of Fineweb-edu dataset.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4hrtz/i_trained_a_05m_model_on_1b_tokens_of_finewebedu/",
+    "published_at": "2026-07-23T15:50:04+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享了使用 Fineweb-edu 教育資料集（10億tokens）訓練 0.5M 參數小型語言模型的實驗結果。此規模與訓練資料量的比例極不尋常，通常小模型訓練資料量應相對較少。原始文章缺乏詳細Benchmark數據或模型能力描述，僅作為概念驗證分享。",
+    "highlights": [
+      "訓練配置：0.5M參數模型 + 1B Fineweb-edu tokens",
+      "Fineweb-edu 為高質量教育文本過濾資料集",
+      "缺乏具體效能指標或下游任務表現數據",
+      "Reddit r/LocalLLaMA 討論區自發實驗分享",
+      "0.5M 參數屬微型模型，能力極為有限"
+    ],
+    "why_it_matters": "小參數模型與大規模高品質預訓練資料的配對實驗，反映社群探索模型Scaling Law邊界的興趣，但缺乏可重現的數據支撐。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 Fineweb-edu 資料集，在本地用相同設定重現訓練流程，評估小模型在此規模資料上的收斂表現與實際可用性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-23-solar-open2-250b-int4",
+    "title": "Solar-Open2-250B INT4 全域剪枝版本釋出",
+    "title_original": "nota-ai/Solar-Open2-250B-Nota-INT4-GlobalPruned · Hugging Face",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4el0u/notaaisolaropen2250bnotaint4globalpruned_hugging/",
+    "published_at": "2026-07-23T13:53:22+00:00",
+    "category": "open-source-ai",
+    "summary": "Nota AI 在 Hugging Face 發布 Solar-Open2-250B 的 INT4 全域剪枝版本，大幅降低記憶體需求。該版本透過全域剪枝技術，將 2500 億參數模型壓縮至更易部署的規模，為本地端執行大型模型提供新選擇。",
+    "highlights": [
+      "2500 億參數模型採用全域剪枝技術",
+      "INT4 量化進一步減少記憶體佔用",
+      "可在 Hugging Face 直接下載測試",
+      "為本地端部署大型模型提供可行方案",
+      "效能與原始模型的取捨有待實際測試驗證"
+    ],
+    "why_it_matters": "大規模開源模型的本地部署門檻降低，對有資料隱私需求或希望節省 API 成本的開發者是直接受益者。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載此剪枝版本，在本地硬體上測試推論效能與品質表現，評估是否可替代雲端 API 完成特定工作流程程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-23-autocad-mcp-122-autocad-agent",
     "title": "Autocad-MCP：122 工具的工業級 AutoCAD Agent 工具組",
     "title_original": "U-C4N/Autocad-MCP",
@@ -136,6 +332,34 @@
     "automation_angle_zh": "盤點現有專案中使用的開源模型，準備替代方案以因應可能的監管變化，優先使用明確無限制授權的模型。",
     "tags": [
       "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-23-item",
+    "title": "模型蒸餾技術爭議被過度放大",
+    "title_original": "Model \"distillation\" accusations are getting way overblown at this point",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v47kp4/model_distillation_accusations_are_getting_way/",
+    "published_at": "2026-07-23T08:13:43+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit LocalLLaMA 社區熱議模型蒸餾指控，普遍認為此類爭議被過度放大。蒸餾作為標準模型壓縮技術，廣泛用於知識轉移與效能優化，並非抄襲或侵權行為。討論指出部分指控源於商業利益衝突，而非技術本身問題。",
+    "highlights": [
+      "蒸餾是合法的模型壓縮與知識轉移技術",
+      "社區認為爭議源於商業利益而非技術問題",
+      "此類指控可能影響開源模型生態發展",
+      "技術社群呼籲理性看待蒸餾與訓練數據的界線",
+      "需要建立更清晰的技術與法律定義標準"
+    ],
+    "why_it_matters": "對於技術開發者而言，理解蒸餾技術的正當性至關重要。過度限制可能扼殺合法的模型優化技術，影響開源 AI 生態的創新與協作環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在自有資料集上進行蒸餾實驗，評估不同 teacher-student 模型組合的效果，建立內部技術標準以規避潛在爭議。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -397,6 +621,34 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-07-23-chatgpt",
+    "title": "ChatGPT 健康功能上線：可串接美國用戶醫療紀錄",
+    "title_original": "Launching Health in ChatGPT",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/health-in-chatgpt",
+    "published_at": "2026-07-23T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 在 ChatGPT 中推出「Health」功能，符合資格的美國用戶可安全地連接醫療紀錄與 Apple Health 資料，獲得更個人化的健康洞察。此功能目前僅限美國市場，且需用戶主動授權資料共享。",
+    "highlights": [
+      "僅限符合資格的美國用戶使用",
+      "支援串接醫療紀錄與 Apple Health",
+      "強調資料安全與用戶授權流程",
+      "可提供個人化健康資訊解讀",
+      "尚屬早期功能，隱私敏感度高"
+    ],
+    "why_it_matters": "此功能代表 AI 從通用對話邁向個人化健康助理場景。對技術用戶而言，關注點在於其背後的資料串接架構與隱私保護機制的實作方式。",
+    "automation_angle": null,
+    "automation_angle_zh": "非美國用戶目前無法使用，但可關注其 API 擴展可能性；若未來開放，技術用戶可探索結合醫療資料進行健康報告自動化的應用場景。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-23-thomas-ptacek",
     "title": "Thomas Ptacek：開源模型已具備滲透測試潛力",
     "title_original": "Quoting Thomas Ptacek",
@@ -474,6 +726,34 @@
     "automation_angle_zh": "技術用戶可參考此方法論，將其改編為自定義模型評估流程，例如針對特定業務場景建立專屬測試集並自動化跑分。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-23-ai",
+    "title": "美國可能對開源 AI 模型實施出口制裁",
+    "title_original": "Sanctions on Open Source. hope they don’t do anything stupid here.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v3v75j/sanctions_on_open_source_hope_they_dont_do/",
+    "published_at": "2026-07-22T22:22:40+00:00",
+    "category": "ai-deals",
+    "summary": "社區討論美國政府可能對開源 AI 模型實施出口管制的議題。隨著先進 AI 模型能力提升，監管擔憂日益增加。這可能影響全球開源 AI 協作與技術交流，對開源生態造成深遠影響。",
+    "highlights": [
+      "美國可能在考慮對開源 AI 模型實施出口管制",
+      "擔憂主要來自模型能力快速提升",
+      "可能影響全球開源 AI 協作生態",
+      "細節與實施時間尚不明確",
+      "社區呼籲關注後續政策發展"
+    ],
+    "why_it_matters": "若制裁實施，將衝擊全球 AI 開源生態，影響技術交流與協作。依賴開源模型的開發者和企業需要關注政策走向並評估風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議評估現有工作流程中對開源模型的依賴程度，準備替代方案或建立本地模型儲備，以應對潛在的政策變化。",
+    "tags": [
+      "ai-deals",
       "rss",
       "en"
     ],
