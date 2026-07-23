@@ -1,5 +1,148 @@
 [
   {
+    "id": "2026-07-23-autocad-mcp-122-autocad-agent",
+    "title": "Autocad-MCP：122 工具的工業級 AutoCAD Agent 工具組",
+    "title_original": "U-C4N/Autocad-MCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/U-C4N/Autocad-MCP",
+    "published_at": "2026-07-23T13:17:11Z",
+    "category": "agent-skills",
+    "summary": "Autocad-MCP 為 Python 實作的 AutoCAD MCP Server，提供 122 個工具，支援 COM 即時 AutoCAD 與無頭 ezdxf 引擎雙模式，並具備 ISO GD&T 與尺寸公差驗證能力。屬生產級工具。",
+    "highlights": [
+      "122 個 AutoCAD 操作工具覆蓋常見需求",
+      "支援即時 COM 與無頭 ezdxf 兩種引擎模式",
+      "ISO GD&T 幾何公差與尺寸公差驗證內建",
+      "Python 實作，易於擴展與除錯",
+      "可對接主流 AI Agent 框架直接控制 CAD"
+    ],
+    "why_it_matters": "CAD 自動化長期缺乏好用的 AI 工具鏈，Autocad-MCP 將 AutoCAD 能力標準化為 MCP 介面，讓技術用戶第一次能以 Agent 方式操控工程圖檔。",
+    "automation_angle": null,
+    "automation_angle_zh": "讓 Agent 自動讀取 CAD 圖檔執行批量尺寸標註檢查，或依自然語言指令生成標準化工程圖，節省重複性建模時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/78921017?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-23-costwise-mcp-ai-agent",
+    "title": "costwise-mcp：消除 AI Agent 重複讀取相同程式碼的開銷",
+    "title_original": "okyashgajjar/costwise-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/okyashgajjar/costwise-mcp",
+    "published_at": "2026-07-23T12:54:48Z",
+    "category": "agent-skills",
+    "summary": "costwise-mcp 為本地 Go 語言 MCP Server，專門減少 coding agent 在同一工作階段重複閱讀相同程式碼的問題，透過倉儲理解、快取寫入優化與長期記憶減少 token 消耗。100% 本地、無 API Key。",
+    "highlights": [
+      "Go 語言實作，輕量高效",
+      "倉儲理解能力避免重複上下文丟失",
+      "快取寫入優化減少無效 API 呼叫",
+      "長期記憶模組支援跨輪次狀態保持",
+      "100% 本地執行，零 API 成本"
+    ],
+    "why_it_matters": "Coding Agent 的 token 成本常被忽視，costwise-mcp 直接降低同一工作區的 API 費用，對高頻使用 AI 程式碼輔助的團隊有實際省錢效果。",
+    "automation_angle": null,
+    "automation_angle_zh": "整合進現有 Agent 工作流程，觀察同一專案的對話中 token 消耗下降幅度，計算實際成本節省。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/100580579?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-23-equibles-mcp-ai-agent",
+    "title": "Equibles MCP：自架 AI Agent 專用的迷你彭博終端",
+    "title_original": "daniel3303/Equibles",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/daniel3303/Equibles",
+    "published_at": "2026-07-23T12:53:47Z",
+    "category": "agent-skills",
+    "summary": "Equibles 為開源 C# 專案，以 MCP Server 形式為 AI Agent 提供自架金融數據終端，包含 SEC 文件、機構持倉、內線交易、國會交易與做空數據。184 stars 表示有一定社群關注度。",
+    "highlights": [
+      "MCP Server 介面可直接對接主流 Agent 框架",
+      "涵蓋 SEC 申報、機構持倉、內線交易數據",
+      "完全自架，無需第三方金融 API 訂閱費",
+      "C# 實作，適合 .NET 生態技術用戶",
+      "184 stars，社群關注度中等偏上"
+    ],
+    "why_it_matters": "金融資料向來昂貴，Equibles 讓技術用戶以零成本建立 AI 金融分析 Pipeline，若數據品質過關可替代昂貴的彭博 API。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署後讓 Agent 自動追蹤特定股票的 SEC 文件變動或內線交易異常，即時生成警示報告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/36623265?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-23-200-y-combinator-ai",
+    "title": "「小型科技協會」號召約200家新創企業包括Y Combinator，敦促川普不要禁用中國開源權重AI模型",
+    "title_original": "The Little Tech Association, a new group of ~200 companies across the startup community, including Y Combinator, urges Trump not to ban Chinese open-weight AI",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4b5nc/the_little_tech_association_a_new_group_of_200/",
+    "published_at": "2026-07-23T11:27:13+00:00",
+    "category": "open-source-ai",
+    "summary": "由Y Combinator等約200家新創公司組成的「小型科技協會」（Little Tech Association）向川普政府遞交連署信，反對禁止中國開源權重AI模型。該組織主張開源模型可促進競爭、降低AI成本，並指出禁令將損害美國企業使用Llama等模型的權利。連署行動反映開源社群對政策風險的高度警覺。",
+    "highlights": [
+      "「小型科技協會」由約200家新創公司組成，包括知名加速器Y Combinator",
+      "連署信主要反對禁止中國開源權重AI模型的政策方向",
+      "協會主張開源有助於市場競爭與降低AI技術門檻",
+      "禁令可能影響Llama、Mistral等模型的商業應用生態",
+      "代表開源社群對地緣政治風險的主動遊說行動"
+    ],
+    "why_it_matters": "若美國禁止中國開源模型，美企使用Llama等基於類似架構的模型將面臨合規風險。開發者需關注政策走向，並評估備選方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注美國外國投資委員會（CFIUS）或商務部的實際立法進展，評估團隊現有AI Pipeline是否依賴可能受限的模型或框架，提前準備合規替代方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-23-arcee-ai",
+    "title": "Arcee AI 反對禁止中國開源模型",
+    "title_original": "Arcee AI has spoken out against the ban on open Chinese models in US",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4a10b/arcee_ai_has_spoken_out_against_the_ban_on_open/",
+    "published_at": "2026-07-23T10:31:05+00:00",
+    "category": "ai-deals",
+    "summary": "Arcee AI 公開反對美國禁止開源中國模型的政策。該公司認為此舉會扼殺技術創新並傷害開源生態。政策反對者包括多家中小型 AI 企業，反映業界對監管影響的擔憂。",
+    "highlights": [
+      "Arcee AI 為模型压缩與适配服务商",
+      "禁令主要針對特定中國開源模型族",
+      "反對者憂心技術分裂與市場影響",
+      "政策可能影響 Llama 家族等模型的發展",
+      "最終走向仍待監管機構裁決"
+    ],
+    "why_it_matters": "若禁令擴大，可能影響部分開源模型的使用與微調。技術人員應評估現有專案依賴模型的風險，並關注政策進展。",
+    "automation_angle": null,
+    "automation_angle_zh": "盤點現有專案中使用的開源模型，準備替代方案以因應可能的監管變化，優先使用明確無限制授權的模型。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-23-org-mcp-server-org-mode-mcp",
     "title": "org-mcp-server：Org-mode 知識庫的 MCP 伺服器",
     "title_original": "szaffarano/org-mcp-server",
@@ -616,6 +759,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-23-ai",
+    "title": "新聞機構如何運用 AI 推進其重要使命",
+    "title_original": "How news organizations are using AI to advance their vital missions",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/how-news-organizations-are-using-ai",
+    "published_at": "2026-07-22T13:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格介紹新聞機構運用 AI 強化報導能力、擴大受眾並改善營運。包含記者工具、內容分類、摘要生成等應用案例，顯示 AI 在媒體產業的實際落地進程。",
+    "highlights": [
+      "OpenAI 工具支援全球記者與出版商的工作流程程",
+      "AI 可用於內容分類、受眾分析和自動化摘要",
+      "強調 AI 輔助而非取代人類記者的定位",
+      "新聞機構關注 AI 輔助事實查核與資訊驗證",
+      "商業營運層面包含廣告優化與訂閱增長"
+    ],
+    "why_it_matters": "對技術人員而言，了解 AI 在新聞產業的實際應用案例有助於評估類似工具的可落地性，特別是文件處理與內容分類模組的實作方式。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載 OpenAI 提供的案例文件，參考其 API 串接方式與 prompt 設計，用於企業內部文件自動化處理或客服系統建置。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-22-toolathlon-gym-mcp",
