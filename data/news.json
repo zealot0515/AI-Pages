@@ -1,5 +1,174 @@
 [
   {
+    "id": "2026-07-24-postman-mcp-server-ai-agent-api",
+    "title": "Postman MCP Server：讓 AI Agent 無縫對接 API 集合",
+    "title_original": "postmanlabs/postman-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/postmanlabs/postman-mcp-server",
+    "published_at": "2026-07-24T13:03:10Z",
+    "category": "agent-skills",
+    "summary": "Postman 官方發布 MCP Server，允許 Claude Code、Cursor、VS Code Copilot、 Gemini CLI 等主流 AI 工具直接讀取 Postman 集合、OpenAPI 規格與環境變數。技術用戶可快速賦予 Agent 真實 API 調用能力。",
+    "highlights": [
+      "支援 Claude Code、Cursor、Copilot、 Gemini CLI",
+      "直接讀取 Postman Collections 與 OpenAPI 規格",
+      "環境變數注入，無需手動配置",
+      "MCP 協議統一介面，擴展性佳",
+      "TypeScript 開源，Stars 287 持續成長"
+    ],
+    "why_it_matters": "把 Postman 累積的 API 資產直接轉化為 AI Agent 的工具鏈，大幅降低 Agent 接入真實後端的開發成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "將日常測試的 API 集合匯出，透過 MCP Server 讓 Agent 自動執行回歸測試或生成 Mock 回應。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/10251060?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-24-home-generative-agent-home-assistant",
+    "title": "Home Generative Agent：自然語言控制 Home Assistant",
+    "title_original": "goruck/home-generative-agent",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/goruck/home-generative-agent",
+    "published_at": "2026-07-24T12:27:38Z",
+    "category": "agent-skills",
+    "summary": "goruck/home-generative-agent 讓使用者用自然語言操控 Home Assistant，可創建自動化腳本、分析攝影機畫面做人臉辨識，並提供異常主動告警。支援雲端 LLM 或完全本地 Ollama 部署。",
+    "highlights": [
+      "自然語言建立 Home Assistant 自動化規則",
+      "本地 Ollama 部署，保護隱私",
+      "支援人臉辨識與異常行為告警",
+      "Python 開源，Stars 231，技術門檻適中"
+    ],
+    "why_it_matters": "把智能家居從觸發式自動化提升到意圖理解層級，省去繁瑣的 YAML 規則維護。完全本地模式適合不想把家居資料送上雲的技術愛好者。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其部署在樹莓派或 NAS 上，用自然語言定義「出門模式」等複雜情境，大幅減少自動化維護成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/12125472?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-24-hugging-face-the-stack-v3",
+    "title": "Hugging Face 發布 The Stack v3 — 迄今最大開源程式碼資料集",
+    "title_original": "Hugging Face releases The Stack v3 – largest open code dataset yet",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v59aek/hugging_face_releases_the_stack_v3_largest_open/",
+    "published_at": "2026-07-24T11:57:39+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 正式發布 The Stack v3，這是全球規模最大的開源程式碼資料集，專為訓練程式碼生成與理解模型而設計。相較於前代版本，v3 在資料品質、過濾機制與授權合規性上皆有顯著提升，涵蓋超過 300 種程式語言，總 token 數量達數兆級別。此資料集可用於微調程式碼專家模型或從頭預訓練，對開源 AI 社群具有重要意義。",
+    "highlights": [
+      "總 token 數量達兆級，為目前最大開源程式碼資料集",
+      "涵蓋 300+ 程式語言，含罕見語言的乾淨樣本",
+      "改進資料過濾機制，提升訓練資料品質",
+      "所有資料皆有明確授權，避免法律爭議",
+      "支援直接下載，可用於本地模型訓練"
+    ],
+    "why_it_matters": "對想訓練程式碼模型的技術人員而言，The Stack v3 提供了可信任、高品質且免費的訓練資料來源，大幅降低從頭預訓練的成本與時間，是提升程式碼生成能力的關鍵資源。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載該資料集用於微調 Code Llama、Qwen-Coder 等開源模型，提升特定領域程式碼生成準確率；亦可用於評估新穎架構在程式碼任務上的表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-24-kickstarter",
+    "title": "社群熱議：模型開發能否採用群眾募資 Kickstarter 模式？",
+    "title_original": "Why we don’t have kickstarter for the models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v594bk/why_we_dont_have_kickstarter_for_the_models/",
+    "published_at": "2026-07-24T11:49:43+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社群展開關於「模型 Kickstarter」的討論，探索是否可透過群眾募資方式資助大型語言模型開發。支援者認為此模式能匯集分散的算力與資金，讓開發者獲得足夠資源訓練更強大的模型；反對者則指出模型訓練的龐大成本與不確定性，使商業回報難以承諾，投資者風險過高。",
+    "highlights": [
+      "提議透過群眾募資匯集算力與資金共同開發模型",
+      "支援者認為可降低少數大公司的模型訓練壟斷",
+      "反對者憂心訓練失敗風險與投資者回報機制不明",
+      "討論涉及 LoRA、分散式訓練等技術可行性",
+      "目前尚無成功案例，屬於早期概念探討"
+    ],
+    "why_it_matters": "此討論反映社群對 AI 民主化的期望，以及對模型訓練資源集中化的反思。儘管短期難以實行，但概念本身可能催生新的協作開發模式。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可關注後續是否有實際專案嘗試此模式，評估其技術架構是否可行，並評估參與此類專案的風險與潛在收益。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-24-supralabs-reasoning-corpus-4k-5m-v1",
+    "title": "SupraLabs 發布 reasoning-corpus-4K-5M-v1：訓練小型語言模型推論能力",
+    "title_original": "[BIG DATASET RELEASE] - SupraLabs/reasoning-corpus-4K-5M-v1 - Train your tiny SLMs to think!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v58oni/big_dataset_release/",
+    "published_at": "2026-07-24T11:28:14+00:00",
+    "category": "open-source-ai",
+    "summary": "SupraLabs 發布 reasoning-corpus-4K-5M-v1 推論語料庫，內含 500 萬條高質量推論範例，專為訓練小型語言模型（SLM）的推論能力而設計。該語料庫採用 Chain-of-Thought 格式，涵蓋數學、邏輯與程式碼等多種推論任務，可顯著提升小型模型在複雜任務上的表現。",
+    "highlights": [
+      "語料庫規模達 500 萬條推論範例",
+      "採用 Chain-of-Thought 結構化格式",
+      "涵蓋數學、邏輯推導、程式碼推論等任務",
+      "目標為訓練 1B-7B 規模的小型語言模型",
+      "可用於強化學習或監督式微調"
+    ],
+    "why_it_matters": "此語料庫填補了小型模型推論訓練資源的缺口，讓開發者能在有限算力下訓練出具備接近大型模型推論能力的本地模型，大幅提升邊緣部署場景的實用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可使用此語料庫對 Qwen2.5-1.5B、Phi-3-mini 等小型模型進行監督式微調，評估推論提升幅度，並評估在本地部署後的響應速度與準確率。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-24-moe",
+    "title": "技術探討：能否將 MoE 小型專家模型獨立為專門模型？",
+    "title_original": "If MOEs have small experts (3B/4B/9B etc), then why can’t we have small expert models as a whole rather than one large model with multiple experts? Like Qwen3.6-3B Coding Expert or something",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4x3k0/if_moes_have_small_experts_3b4b9b_etc_then_why/",
+    "published_at": "2026-07-24T01:27:02+00:00",
+    "category": "hot-topics",
+    "summary": "社群提出一個創新架構構想：既然 Mixture-of-Experts（MoE）模型內含多個小型專家網路（3B/4B/9B 等），是否能將這些專家拆分為獨立的專門模型，如 Qwen3.6-3B Coding Expert，而非維持一個龐大的混合架構？討論涉及路由機制、任務分配與模型協作等技術細節。",
+    "highlights": [
+      "提議將 MoE 內的小型專家拆分為獨立專門模型",
+      "可避免完整 MoE 架構的龐大推論成本",
+      "獨立模型更易於部署與維護",
+      "挑戰在於如何保持專家間的協作能力",
+      "Qwen3.6-3B 規模被視為潛在的專家模型候選"
+    ],
+    "why_it_matters": "若此構思可行，將為模型部署帶來更靈活的選項，小型專家模型可在特定任務上接近大型 MoE 的表現，同時大幅降低部署成本與延遲。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可嘗試用 LoRA 或蒸餾技術從現有 MoE 模型中提取專家能力，測試獨立專家模型在特定任務上的效能與成本效益。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-24-audio-cpp-0-4-higgs-audio-v3-tts-4b-fish-audio-s2-pro",
     "title": "audio.cpp 0.4 版發布：支援 Higgs Audio v3 TTS 4B 與 Fish Audio S2 Pro",
     "title_original": "[audio.cpp] Release 0.4: Higgs Audio v3 TTS 4B (10x real time)+ Fish Audio S2 Pro in C++/GGML, full GGUF loading, Q8 speed and VRAM gains",
@@ -4053,6 +4222,33 @@
     "why_it_matters": "支付寶的流量與支付場景若與 AI 能力結合，可為中國境內電商、客服等場景提供一站式 AI 整合方案，值得中國市場相關技術宅關注。",
     "automation_angle": null,
     "automation_angle_zh": "中國本地開發者可待正式發布後評估其 API 文件與定價，若支援電商客服自動化則可快速整合至現有流程。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-24-2026waic-ai",
+    "title": "2026WAIC：支付寶發布AI訂閱解決方案 三步接入四大功能",
+    "title_original": "2026WAIC：支付宝發布AI訂閱解决方案 三步接入四大功能 - QQ News",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ncDlGTG9EMGtNTlNtUHMtZVY4c1dtd3M4ZnFJdVd6NVZheG5WcW1nczB6aThUS05qRkxhdjFCSS0yZlBndVNheXhoSU90VVlLZWp5UDNR?oc=5",
+    "published_at": "2026-07-18T07:23:00+00:00",
+    "category": "ai-deals",
+    "summary": "支付寶在2026世界人工智慧大會發布AI訂閱解決方案，號稱三步驟即可接入四大功能。資訊來源為騰訊QQ新聞，原始報導內容較為簡短，官方詳細規格尚未公布，建議追蹤支付寶官網或WAIC官方訊息以確認實際內容與上線時間。",
+    "highlights": [
+      "支付寶發布AI訂閱解決方案，瞄準企業用戶市場",
+      "號稱三步驟即可完成接入，降低技術門檻",
+      "涵蓋四大功能模組，具體內容待官方說明",
+      "發布時機為WAIC 2026，屬大型產業活動正式發布"
+    ],
+    "why_it_matters": "支付寶擁有龐大企業與商家生態，若此AI訂閱方案能簡化接入流程，可能加速支付場景與AI能力的整合，對電商、金融科技開發者具體應用價值值得關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業開發者可追蹤此SDK或API的正式文件，評估是否能將AI能力（如智能客服、風控、推薦）以三步驟方式快速嵌入現有支付流程，並評估定價與現有方案的成本效益。",
     "tags": [
       "ai-deals",
       "rss",
@@ -67877,6 +68073,34 @@
     "why_it_matters": "對 AI 工具開發者而言，理解用戶付費障礙有助於設計更好的變現策略；但本文為通用商業分析，缺乏具體 AI 產品定價或功能資訊，實用性偏弱。",
     "automation_angle": null,
     "automation_angle_zh": "若正在設計 AI 工具的免費/付費牆，可借鑒此文對用戶付費心理的分析，避免過度依賴免費策略而影響變現。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-24-ai",
+    "title": "中國用戶「白嫖」AI 會員現象深度解析：付費習慣與平台策略",
+    "title_original": "到处可见的“白嫖會員”，是因為“中国使用者抠门”“没有付费习惯”吗？ - 深潮TechFlow",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1KYnRxWHk2clNxSzE2VU5vMDZWZ1pwejkybFFKYmhscVA2TlVHbHJOaW1CN0s2bktVdHJCR2FWMnAza0F0YTdmOG55NFNlWmgyWXlZag?oc=5",
+    "published_at": "2026-01-26T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "深潮 TechFlow 發布分析文章，探討中國 AI 產品中普遍存在的「白嫖會員」現象，挑戰「中國用戶缺乏付費習慣」的刻板印象。文章指出，真正原因包括：平台免費額度設計不足、用戶對服務價值認知偏差、以及隱私換免費的文化因素，而非單純的「摳門」標籤。",
+    "highlights": [
+      "白嫖現象主因是平台免費額度設計不佳",
+      "用戶對 AI 服務價值認知尚未成熟",
+      "隱私換免費在中國市場具文化普遍性",
+      "付費牆設計影響用戶轉化率",
+      "低價策略（如 DeepSeek）已開始改變市場"
+    ],
+    "why_it_matters": "對 AI 產品開發者與運營者而言，理解付費行為背後邏輯有助於設計更有效的變現策略；對技術用戶而言，可評估哪些平台的免費額度真正具有長期使用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可比較各平台免費額度與付費方案，用於個人或團隊的 AI 工具選型决策；亦可關注低價或免費替代方案以降低使用成本。",
     "tags": [
       "ai-deals",
       "rss",
