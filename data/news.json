@@ -1,5 +1,282 @@
 [
   {
+    "id": "2026-07-24-oh-my-cassette-ai-mcp-server-claude-code-codex",
+    "title": "oh-my-cassette：影片剪輯 AI 副手 MCP Server，支援 Claude Code 與 Codex",
+    "title_original": "Cassette-Editor/oh-my-cassette",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Cassette-Editor/oh-my-cassette",
+    "published_at": "2026-07-24T18:57:53Z",
+    "category": "agent-skills",
+    "summary": "oh-my-cassette 是一款開源 AI 影片剪輯插件與 MCP Server，目前 GitHub 140 星，使用 Python 開發，可無縫接入 Claude Code、Codex、Hermes 與 OpenCode。定位為口袋 AI 剪輯搭檔，支援自動生成影片蒙太奇腳本與剪輯決策。",
+    "highlights": [
+      "支援 Claude Code、Codex 等主流 Coding Agent 整合",
+      "作為 MCP Server 提供標準化工具呼叫介面",
+      "Python 實作，便於自托管或修改客製化",
+      "專注於影片蒙太奇場景的 AI 輔助剪輯",
+      "目前星數較低，功能成熟度待社群驗證"
+    ],
+    "why_it_matters": "MCP 協議的普及讓 AI Agent 能標準化呼叫外部工具；此專案若成熟，可將影片後製納入 Agent 工作流程，實現「一鍵剪輯」自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可 fork 後接入個人影片素材庫，測試「以文字描述剪輯需求 → AI 自動生成時間軸」流程，評估其對現有剪輯工作流程的取代程度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/305056608?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-24-reddit-google",
+    "title": "Reddit 社群分析：Google 未簽署反對開源模型聯署引發熱議",
+    "title_original": "I want people here to open your eyes and note how Google did not sign the anti- open-source-model coalition",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5k1ke/i_want_people_here_to_open_your_eyes_and_note_how/",
+    "published_at": "2026-07-24T18:40:42+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群一篇貼文指出 Google 未參與前述二十餘家企業的反限制開源模型聯署，引發關於 Google AI 策略立場的討論。該觀察基於公開聯署名單，社群解讀其可能代表 Google 對開源監管議題保持觀望或另有立場。",
+    "highlights": [
+      "Google 是唯一未簽署聯署的大型雲端/AI 廠商",
+      "社群猜測 Google 可能傾向支援更嚴格的開源模型監管",
+      "此分析源自 Reddit 社群觀察，非官方聲明",
+      "Google 近期在開源模型領域有 Gemma 系列動作"
+    ],
+    "why_it_matters": "Google 的政策立場可能影響其 Gemini 系列及開源 Gemma 模型的未來走向。若 Google 支援監管，可能對開源生態形成不同於 NVIDIA、Hugging Face 的壓力。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤 Google 官方政策聲明，比對其開源模型發布節奏，評估是否存在策略矛盾信號。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-24-cachyllama-llama-cpp-kv-cache",
+    "title": "CachyLLama：llama.cpp 分支引入持久化 KV Cache，緩解長對話記憶瓶頸",
+    "title_original": "CachyLLama’s: llama.cpp fork with persistent KV cache that makes long local-agent sessions much less painful",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5k08a/cachyllamas_llamacpp_fork_with_persistent_kv/",
+    "published_at": "2026-07-24T18:39:22+00:00",
+    "category": "agent-skills",
+    "summary": "社群開發者發布 CachyLLama，這是 llama.cpp 的一個 fork，核心改進是實現持久化 KV Cache。該優化允許本地 Agent 在長時間對話中保留上下文狀態，減少每次請求重複計算的開銷，理論上可顯著提升長程 agent 任務的響應速度。",
+    "highlights": [
+      "持久化 KV Cache 解決 llama.cpp 長序列的記憶體重算問題",
+      "適用場景包括多輪對話、程式碼補全、文件分析等長程任務",
+      "需要額外磁碟 I/O 操作，可能有儲存空間與速度的取捨",
+      "fork 來自社群，非官方 llama.cpp 維護版本"
+    ],
+    "why_it_matters": "本地運行長程 Agent（如程式碼生成、多文件分析）時，KV Cache 瓶頸是常見痛點。此改動若穩定，可直接提升本地 AI 工作流程的效率，降低 GPU/CPU 計算負擔。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可編譯測試此 fork，在自建的程式碼生成 pipeline 或文件處理腳本中評估性能提升幅度，並反饋穩定性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-24-mcpsafari-swift-safari-mcp-server-ai-agent",
+    "title": "MCPSafari：用 Swift 打造的原生 Safari MCP Server，讓 AI Agent 直接操控瀏覽器",
+    "title_original": "Epistates/MCPSafari",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Epistates/MCPSafari",
+    "published_at": "2026-07-24T18:21:26Z",
+    "category": "agent-skills",
+    "summary": "MCPSafari 是一款 Swift 開源專案，為 Safari 瀏覽器提供原生 MCP Server 介面，使 AI Agent 能以標準化協議直接操控 Safari。目前 GitHub 42 星，尚屬早期專案，但 Swift 原生實作意味著 macOS/iOS 生態整合深度佳。",
+    "highlights": [
+      "Swift 原生實作，macOS/iOS 整合優勢明顯",
+      "提供 MCP 標準介面，非專有封裝",
+      "讓 Agent 直接控制 Safari 瀏覽行為（點擊、填表、滾動）",
+      "目前星數偏低，社群回饋與穩定性資料有限",
+      "可與 Browser-use、Puppeteer 等現有方案對比效能與可靠性"
+    ],
+    "why_it_matters": "瀏覽器操控是 Web 自動化與 AI 爬蟲的核心瓶頸；MCPSafari 若成熟，可讓 Agent 以原生 Safari 取代無頭 Chrome，大幅降低記憶體佔用與相依性複雜度。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝後讓 Agent 自動登入內部系統填報資料、截圖存證或抓取動態渲染頁面，評估其相較 Puppeteer 的易用性與穩定性差異。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Swift"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/225645584?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-24-llm-p-core-moe-e-core-llama-cpp",
+    "title": "LLM 推論：P-Core 執行 MoE 模型竟慢於 E-Core？ llama.cpp 混合部署效能疑雲",
+    "title_original": "Is corruption the lobbying against Open weights?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5jbs7/is_corruption_the_lobbying_against_open_weights/",
+    "published_at": "2026-07-24T18:14:52+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社區有開發者反映，在混合 GPU+CPU Offload 情境下，llama.cpp 執行 MoE（混合專家）模型時，P-Core（大核）效率竟不如 E-Core（小核），推測與 CPU 執行緒排程或記憶體親和性有關。此議題若屬實，可能影響本地部署 LLM 的核心排程策略。",
+    "highlights": [
+      "MoE 模型在混合 Offload 模式下，P-Core（大核）推論速度可能低於 E-Core（小核）",
+      "懷疑與 CPU 執行緒排程或 NUMA 記憶體親和性有關",
+      "llama.cpp 的 CPU 後端優化可能需要針對 MoE 架構調整",
+      "開發者社群尚未形成共識解法，需更多 benchmark 數據驗證",
+      "此問題可能影響 Apple Silicon（M 系列）big.LITTLE 架構的部署策略"
+    ],
+    "why_it_matters": "若 P-Core 在 MoE 推論中反而拖累效能，開發者需要重新評估核心排程策略，可能需強制任務綁定至特定核心群組以獲得最佳效能。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可透過 taskset 或 CPU affinity 設定，隔離測試 E-Core 與 P-Core 的實際推論吞吐量，建立該硬體組合的效能基線。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-24-item",
+    "title": "【論文】大型語言模型的統計無損量化方法",
+    "title_original": "[Paper] Statistically-Lossless Quantization of Large Language Models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5j35f/paper_statisticallylossless_quantization_of_large/",
+    "published_at": "2026-07-24T18:06:36+00:00",
+    "category": "agent-skills",
+    "summary": "一篇學術論文提出統計無損量化（Statistically-Lossless Quantization）技術，針對大型語言模型進行超低位元量化（如 4-bit、2-bit），同時聲稱保持模型輸出的統計特性不變。該方法若成立，可大幅降低 LLM 部署的記憶體需求。",
+    "highlights": [
+      "挑戰傳統觀點：4-bit 以下量化必然有資訊損失",
+      "聲稱可保持模型輸出分布的統計無損特性",
+      "學術論文階段，未見實際模型權重發布",
+      "技術細節需待同行審閱驗證"
+    ],
+    "why_it_matters": "若統計無損量化可實用化，將使更大規模模型在消費級 GPU 或 CPU 上本地運行成為可能，直接影響 AI 工具成本與隱私部署場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤論文後續是否有開源實現，評估該量化方法與現有 GGUF 格式的整合可能性，以及在實際推論任務中的效果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-24-kernel-29-6-10-llm",
+    "title": "Kernel 29 倍加速神話：實際端到端僅 6-10% 收益，LLM 推論優化真實代價揭露",
+    "title_original": "Spent two weeks on a kernel that benchmarked 29x faster. End to end it's maybe 6-10%, and it's not even wired in yet.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5hphx/spent_two_weeks_on_a_kernel_that_benchmarked_29x/",
+    "published_at": "2026-07-24T17:18:12+00:00",
+    "category": "agent-skills",
+    "summary": "有開發者分享耗時兩週優化核心 Kernel，使其 Benchmark 跑出 29 倍加速，但端到端整合後實際收益僅 6-10%，且尚未正式接入主流框架。此案例揭示 LLM 推論優化中「局部瓶頸 vs 全域瓶頸」的經典陷阱：消除一個瓶頸後，下一個瓶頸隨即成為新的限制因素。",
+    "highlights": [
+      "Kernel 層級 29 倍 Benchmark 加速，整合後端到端僅剩 6-10%",
+      "LLM 推論涉及多個串聯瓶頸，消除一個後下一個立即顯現",
+      "兩週優化工作尚未接入主要框架，實際落地時間未知",
+      "此案例反映 AI 推論優化的現實：理論收益常被系統複雜性吞噬",
+      "對需要實際部署優化的技術人員有重要借鑒意義"
+    ],
+    "why_it_matters": "此案例提醒技術人員：推論優化必須以端到端測量為準，切忌僅看 Kernel/Benchmark 數字，否則投入大量時間卻得不到預期收益。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估推論優化專案時，應建立從輸入到输出的完整 Pipeline 基準線，而非孤立測試單一環節，避免落入 29 倍加速卻無實效的陷阱。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-24-claude-opus-5-github-copilot",
+    "title": "Claude Opus 5 正式登陸 GitHub Copilot，複雜長程推論能力再升級",
+    "title_original": "Claude Opus 5 is now available in GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
+    "published_at": "2026-07-24T16:40:04+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic 最新旗艦模型 Claude Opus 5 已可在 GitHub Copilot 中選用，官方描述其專為需要嚴謹推論、有效工具呼叫與長期任務可靠性的複雜編程場景設計。Copilot 用戶可直接在 IDE 中切換模型體驗。",
+    "highlights": [
+      "GitHub Copilot 官方支援，可直接切換選用",
+      "標榜複雜長程推論能力，適合大型重構或系統設計",
+      "強調工具呼叫可靠性，減少 Agent 執行中途失敗",
+      "對比 GPT-4o 在 Copilot 端的實際體驗差異待實測",
+      "建議有 Copilot 訂閱的用戶直接開箱驗證"
+    ],
+    "why_it_matters": "Copilot 用戶現在有 Opus 5 作為替代推論引擎；對於需要嚴格邏輯推導的架構規劃或除錯任務，Opus 5 的工具可靠性可能是決定性因素。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在 Copilot 設定中切換至 Opus 5，用同一段複雜重構任務（如大型函式庫遷移）同時跑 Opus 5 與預設模型，記錄雙方的程式碼品質、工具呼叫成功率與回應時間，量化評估。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-24-zagreus-0-4b-por-4",
+    "title": "Zagreus-0.4B-Por：專為葡萄牙語設計的 4 億參數小型開源語言模型",
+    "title_original": "Zagreus-0.4B-por a small open source language model for Portuguese",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5d86e/zagreus04bpor_a_small_open_source_language_model/",
+    "published_at": "2026-07-24T14:37:23+00:00",
+    "category": "open-source-ai",
+    "summary": "Zagreus-0.4B-Por 是一款專為葡萄牙語設計的小型開源語言模型，參數量僅 4 億。該模型適用於資源受限設備或特定語言的輕量級任務，如葡萄牙語聊天、簡單問答、文本分類等。",
+    "highlights": [
+      "0.4B 參數規模，專注葡萄牙語單一語言",
+      "可用於邊緣設備或嵌入式系統的本地部署",
+      "模型權重應已開源（需確認 Hugging Face 頁面）",
+      "對非葡萄牙語用戶直接價值有限"
+    ],
+    "why_it_matters": "小型專用語言模型代表垂直語言市場的細分趨勢。對於需要葡萄牙語能力的應用場景，此類模型提供比通用大模型更低成本的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "如需處理巴西/葡萄牙市場相關文件或客戶服務，可評估此模型作為本地化 pipeline 的一環，比較其與 GPT-4o-mini 葡萄牙語能力的成本效益。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-24-nvidia-meta-hugging-face",
+    "title": "二十餘家企業聯署反對限制開源權重模型，NVIDIA、Meta、微軟、Hugging Face 均在列",
+    "title_original": "More than 20 companies including NVIDIA, Meta, Microsoft, Palantir, and Hugging Face have signed a letter urging policymakers to avoid premature restrictions on open weight models.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5c3vt/more_than_20_companies_including_nvidia_meta/",
+    "published_at": "2026-07-24T13:55:23+00:00",
+    "category": "open-source-ai",
+    "summary": "包括 NVIDIA、Meta、Microsoft、Palantir、Hugging Face 等二十餘家企業聯合簽署公開信，呼籲各國政策制定者避免對開源權重模型（open-weight models）過早立法限制。該聯署行動反映業界對監管不確定性的高度焦慮，試圖在政策落地前建立共識框架。",
+    "highlights": [
+      "聯署企業涵蓋晶片、模型、雲端、數據平台等 AI 價值鏈關鍵廠商",
+      "公開信主要訴求為反對在缺乏技術定義的情況下草率立法",
+      "開源權重模型目前缺乏統一定義，法規適用範圍存在灰色地帶",
+      "此舉可視為業界試圖參與監管框架制定的遊說行動"
+    ],
+    "why_it_matters": "開源模型的監管走向將直接影響本地部署、fine-tuning 商業模式及開發者工具鏈。若各國陸續立法限制，技術用戶可能面臨合規成本上升或模型取得管道受限的風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注歐美監管動態，提前評估現有專案所用開源模型是否可能落入管制範圍，並評估替代方案的可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-24-postman-mcp-server-ai-agent-api",
     "title": "Postman MCP Server：讓 AI Agent 無縫對接 API 集合",
     "title_original": "postmanlabs/postman-mcp-server",
@@ -134,6 +411,33 @@
     "automation_angle_zh": "可使用此語料庫對 Qwen2.5-1.5B、Phi-3-mini 等小型模型進行監督式微調，評估推論提升幅度，並評估在本地部署後的響應速度與準確率。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-24-flux-3-flow-models",
+    "title": "FLUX 3 論文：邁向多模態 Flow Models 作為視覺智慧骨幹",
+    "title_original": "FLUX 3 - Real World Models: Towards Multimodal Flow Models as the Backbone of Visual Intelligence",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v56kja/flux_3_real_world_models_towards_multimodal_flow/",
+    "published_at": "2026-07-24T09:35:44+00:00",
+    "category": "new-models",
+    "summary": "FLUX 3 團隊發布論文探討多模態 Flow Models 的架構設計，目標是將 Flow Matching 機制作為視覺智慧系統的核心骨幹。該研究試圖統一圖像生成與理解任務，並聲稱在多項 benchmark 上取得進展。",
+    "highlights": [
+      "提出以 Flow Matching 為基礎的多模態統一框架",
+      "涵蓋圖像生成、視覺問答、圖文對齊等任務",
+      "論文階段尚未發布可部署模型或開源代碼",
+      "方向類似於 DiT 架構在擴散模型中的整合思路"
+    ],
+    "why_it_matters": "Flow Models 對比傳統 Diffusion Models 在推論速度上有潛在優勢，若 FLUX 3 開源，可能為本地圖像生成提供更高效的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注論文後續是否發布模型權重或推論代碼，先行評估 Flow Matching 機制在自建 pipeline 中的整合可行性。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -22938,6 +23242,34 @@
     "why_it_matters": "此定價區間反映中國 AI 訂閱服務的市場定位策略，開發者可借鏡此定價模型評估類似工具的用戶留存率。",
     "automation_angle": null,
     "automation_angle_zh": "若正在開發 AI 生產力工具，可將 38元/月 作為東亞學生市場的定價基準參考，測試不同價格的轉化率差異。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-24-chatgpt-plus",
+    "title": "字節跳動豆包專業版來襲：辦公模式升級，訂閱價格僅 ChatGPT Plus 一半",
+    "title_original": "字节跳动豆包推出专業版：办公任务模式升級，價格仅ChatGPT Plus一半！ - blog.csdn.net",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0wd25PSE9veXZaRUdRR09Wa29yaEZfbU9mR1JjWElkQVFtdnRuSkYtUEVhWk9USmFWWkdCdHFZR1pfUTZSamVDbXo2WE5mZE9HZERkaXJ1aloyYWlSNVRCTDRpOHJnOExyUmhN?oc=5",
+    "published_at": "2026-06-24T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "據 CSDN 報導，字節跳動豆包（Doubao）推出專業版，主打辦公任務模式升級，訂閱價格設定為 ChatGPT Plus（約 20 美元）的一半左右。豆包為中國市場主要 AI 助理之一，此次定價策略明顯瞄準企業用戶的成本敏感需求。",
+    "highlights": [
+      "豆包專業版主打「辦公任務模式」，針對文件處理、資訊整理等場景優化",
+      "定價約為 ChatGPT Plus 的一半，具體金額待官方確認",
+      "屬於中國市場產品，國際化程度與資料安全合規性需自行評估",
+      "為需要節省 AI 工具預算的技術團隊提供替代方案",
+      "性價比宣稱需以實際任務表現驗證，不能只看價格"
+    ],
+    "why_it_matters": "對於需要大量使用 AI 助理的技術團隊，豆包專業版的定價若屬實，可作為控制 AI 工具預算的替代選項，尤其適合中國市場相關業務場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可比較豆包專業版在程式碼輔助、文件處理等任務上與現有工具的表現差異，若品質可接受則可評估切換以節省約 50% 訂閱成本。",
     "tags": [
       "ai-deals",
       "rss",
