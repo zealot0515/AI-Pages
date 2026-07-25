@@ -1,5 +1,89 @@
 [
   {
+    "id": "2026-07-25-dkv-kv-cache-llm",
+    "title": "DKV：開源 KV-Cache 壓縮框架，加速本地 LLM 推論",
+    "title_original": "DKV: Open-source KV-cache compression framework for local LLM inference (CLI + technical report)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5wviz/dkv_opensource_kvcache_compression_framework_for/",
+    "published_at": "2026-07-25T03:27:31+00:00",
+    "category": "open-source-ai",
+    "summary": "DKV 是一個開源 KV-Cache 壓縮框架，專為本地 LLM 推論設計，提供 CLI 工具與技術報告。透過壓縮 Key-Value Cache 減少記憶體佔用與推論延遲，理論上可讓消費級 GPU 跑更大的上下文視窗或更高並發。",
+    "highlights": [
+      "針對 KV-Cache 的壓縮演算法，減少推論時的記憶體瓶頸",
+      "CLI 工具設計，技術用戶可直接在本地環境測試",
+      "技術報告提供量化 Benchmark，可評估壓縮帶來的延遲/準確度取捨",
+      "開源可審視實作細節，適合需要合規或自定義改動的場景",
+      "需注意壓縮可能影響需要精確長距離依賴的任務表現"
+    ],
+    "why_it_matters": "對本地部署 LLM 的技術人員而言，KV-Cache 壓縮是降低硬體門檻與推論成本的有效手段。DKV 若能在可接受的準確度損耗下顯著減少記憶體使用，可讓更多本地設備支援長上下文 Agent 任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 DKV CLI，在本機測量不同模型（ 如 Llama、Qwen） 在常見 Agent 任務上的記憶體節省幅度與速度提升，評估是否值得將其整合進本地部署的自動化腳本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-inflect-v2-4m-10m-tts",
+    "title": "開發者發布 Inflect v2：僅 4M 與 10M 參數的超輕量 TTS 模型",
+    "title_original": "I released Inflect v2: two ultra-tiny complete TTS models under 4M and 10M parameters",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5ve6v/i_released_inflect_v2_two_ultratiny_complete_tts/",
+    "published_at": "2026-07-25T02:17:28+00:00",
+    "category": "open-source-ai",
+    "summary": "社群開發者於 Reddit 發布 Inflect v2，內含兩個極小型 TTS 模型，分別為 4M 與 10M 參數。兩個模型均為完整解决方案，無需額外依賴即可運行，專為本地部署場景設計。",
+    "highlights": [
+      "參數量極小，適合邊緣設備",
+      "完整 TTS 解決方案，無外部依賴",
+      "可部署於樹莓派或嵌入式系統",
+      "開源免費，降低語音合成成本",
+      "支援離線運行，無隱私疑慮"
+    ],
+    "why_it_matters": "超輕量模型讓開發者能在本地或嵌入式設備上運行語音合成，大幅降低 API 費用與網路延遲，同時確保數據不離開本地。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載模型权重，透過 pip 安装後整合至客服機器人或無障礙應用，在無網路環境下實現即時文字轉語音功能。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-openai-ai",
+    "title": "微軟官網將 OpenAI 列為開權重 AI 公開信聯署方",
+    "title_original": "Microsoft's website shows OpenAI as one of the signatories of the open weight AI letter",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5uqa3/microsofts_website_shows_openai_as_one_of_the/",
+    "published_at": "2026-07-25T01:46:26+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群指出，微軟官網將 OpenAI 列為開權重 AI 公開信的聯署方之一。此事件引發社群討論，因為 OpenAI 過往立場與開源權重模型生態存在張力。微軟官網的表述是否代表 OpenAI 政策轉向，仍待更多官方說明。",
+    "highlights": [
+      "微軟官網列出 OpenAI 為開權重 AI 公開信聯署方",
+      "此事與 OpenAI 過往對開源模型的政策存在矛盾",
+      "來源為 Reddit 社群截圖，需驗證微軟官網原始內容",
+      "可能代表大廠對 AI 監管或開放標準的策略調整",
+      "缺乏 OpenAI 官方對此聯署的單獨聲明"
+    ],
+    "why_it_matters": "若 OpenAI 確實參與開權重倡議，可能預示 AI 開源生態的政策格局出現變化。對關注開源模型發展與政策風險的技術人員而言，需持續追蹤此事是否為象徵性聯署或實質政策轉向。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可定期查閱微軟與 OpenAI 官方頁面，追蹤開權重倡議的後續發展，並評估此事對開源模型生態（如 Llama、Mistral）的長期影響是否會改變工具選擇策略。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-25-claude-opus-5-prompt-injection",
     "title": "Claude Opus 5 展現目前最強的 Prompt Injection 抗性",
     "title_original": "Quoting Boris Cherny",
@@ -158,6 +242,62 @@
     "automation_angle_zh": "技術用戶可根據此調查建立模型架構比對表，依據任務特性（如長上下文需求）篩選適合的注意力機制類型，輔助模型選擇決策。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-laguna",
+    "title": "社群質疑 Laguna 模型如何通過基準測試",
+    "title_original": "How Laguna team even passed any benchmark?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5leqb/how_laguna_team_even_passed_any_benchmark/",
+    "published_at": "2026-07-24T19:29:26+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 討論串質疑 Laguna 模型在基準測試中的表現真實性。開發者社群對其Benchmark分數提出疑問，涉及是否可能存在數據污染或評估流程漏洞。",
+    "highlights": [
+      "對基準測試誠信性的社群質疑",
+      "可能涉及測試集污染或洩漏",
+      "提醒開發者審慎評估模型聲稱效能",
+      "對開源模型發布具有監督作用",
+      "類似質疑過去也曾出現在其他模型"
+    ],
+    "why_it_matters": "基準測試爭議影響開發者對模型的信任度。在採用新模型前，技術用戶應進行獨立評估，而非僅依賴官方Benchmark數據。",
+    "automation_angle": null,
+    "automation_angle_zh": "在生產環境部署前，使用自有測試集對 Laguna 進行黑盒評估，確認其在實際工作負載下的真實表現。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-stripe-100-ai-openrouter",
+    "title": "Stripe 傳以 100 億美元收購 AI 模型市集 OpenRouter",
+    "title_original": "Stripe Eyes $10 Billion Deal for AI Model Marketplace OpenRouter",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5l9m6/stripe_eyes_10_billion_deal_for_ai_model/",
+    "published_at": "2026-07-24T19:24:03+00:00",
+    "category": "ai-deals",
+    "summary": "據 Reddit 論壇消息，支付巨頭 Stripe 正洽談以約 100 億美元收購 AI 模型聚合平台 OpenRouter。該平台聚合多家人工智慧提供者的 API，允許用戶透過單一接口訪問多種模型。",
+    "highlights": [
+      "收購金額高達百億美元級別",
+      "OpenRouter 扮演模型統一入口角色",
+      "Stripe 支付基礎設施可能整合 AI 調用",
+      "消息來源為 Reddit 討論，未獲官方證實",
+      "若屬實將影響 AI 付費生態"
+    ],
+    "why_it_matters": "若交易落實，Stripe 的支付網絡將與 AI API 深度結合，可能簡化企業採購多種 AI 模型流程，但也需關注定價主導權集中風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "目前資訊未經證實，建議技術決策者觀望官方公告。若交易完成，可評估是否透過 Stripe 整合多模型調度以簡化財務對帳流程。",
+    "tags": [
+      "ai-deals",
       "rss",
       "en"
     ],
@@ -358,6 +498,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-anthropic-claude-opus-5",
+    "title": "Anthropic 正式發布 Claude Opus 5 模型",
+    "title_original": "Introducing Claude Opus 5 - Anthropic",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9iczRhdUZaZWkyQ2RXakhsM1ViSF8wclZFX25KdEF6WU1UTEtMQXJhYnpiZnJRUWd2LXNoSkF0TnFQWEpBZzN2b0Z5TmhNZExyTVJUZDR3cw?oc=5",
+    "published_at": "2026-07-24T17:00:57+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 宣布推出旗艦級 Claude Opus 5，這是該公司截至目前最強大的模型。此版本號稱在複雜推論、創意寫作與程式碼生成方面有顯著提升，並針對長文本處理進行優化，支援更長的上下文窗口。",
+    "highlights": [
+      "旗艦定位，瞄準高複雜度任務",
+      "複雜推論與長文本處理能力增強",
+      "可能調整定價或上下文限制",
+      "對現有 Claude 3.5 Sonnet 構成替代選項",
+      "API 接口預計同步更新"
+    ],
+    "why_it_matters": "對於需要處理大型文件、長程式碼庫或複雜分析的技術用戶，Opus 5 可能顯著提升工作效率，但需評估成本與效能是否值得升級。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在 API 正式上線後，將需要高可靠性分析的工作流程程（如程式碼審查、文件摘要）切換至 Opus 5，透過 A/B 測試比較輸出品質與延遲。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-07-24-claude-opus-5-github-copilot",
