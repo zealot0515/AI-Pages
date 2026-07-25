@@ -1,5 +1,170 @@
 [
   {
+    "id": "2026-07-25-claude-opus-5-prompt-injection",
+    "title": "Claude Opus 5 展現目前最強的 Prompt Injection 抗性",
+    "title_original": "Quoting Boris Cherny",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
+    "published_at": "2026-07-25T00:42:59+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic 安全主管 Boris Cherny 指出，Opus 5 是目前 Anthropic 最難被 Prompt Injection 成功的模型，在 PI 評測與紅隊演練中表現優異。這意味著部署為 Agent 或公共介面時，遭遇惡意注入的風險更低。",
+    "highlights": [
+      "• 在 Prompt Injection 評測與紅隊測試中難以成功注入",
+      "• 對部署在公共介面或處理外部輸入的 Agent 特別重要",
+      "• Anthropic 系統卡第 73 頁有詳細安全評估數據",
+      "• 這是 Opus 系列在安全性上的持續進化",
+      "• 安全性提升不犧牲模型核心能力"
+    ],
+    "why_it_matters": "Prompt Injection 是 Agent 落地最大的安全痛點之一。Opus 5 在這方面領先，對希望構建對外服務或處理使用者生成內容之 AI 系統的技術團隊是重要訊號。",
+    "automation_angle": null,
+    "automation_angle_zh": "建構對外 API 或聊天機器人的開發者，可用 Opus 5 替換現有模型，觀察對 Prompt Injection 失敗率的實際改善，評估是否值得遷移。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-25-claude-opus-5-fable-5",
+    "title": "Claude Opus 5 發布：性價比接近 Fable 5 的高智慧模型，支援主動式問題拆解",
+    "title_original": "Introducing Claude Opus 5",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+    "published_at": "2026-07-24T23:48:50+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 發布 Claude Opus 5，定價與 Opus 4.8 相同但智慧程度接近旗艦 Fable 5，目前領先 Artificial Analysis 排行榜。亮點包括在無直接視圖的情況下自主撰寫電腦視覺管線來重建 3D 模型，以及對網安漏洞的發現能力提升但不訓練攻擊手法。",
+    "highlights": [
+      "• 智慧水平接近 Fable 5，價格相同，性價比顯著提升",
+      "• 人工分析排行榜領先所有對手",
+      "• 展示了「主動式問題拆解」能力，可自主克服限制",
+      "• 網安漏洞發現能力接近 Mythos 5，但刻意不訓練利用手法",
+      "• Anthropic 提供官方 Prompting Guide 與上下文工程建議"
+    ],
+    "why_it_matters": "Opus 5 以較低價格提供接近頂級模型的智慧，且內建安全設計不放任漏洞利用，對需要高智慧但重視安全合規的企業場景有吸引力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在 Codex 或複雜推論任務中試用 Opus 5，用其官方 Prompting Guide 優化上下文工程流程，評估是否符合高難度自動化需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-25-llm",
+    "title": "LLM 能夠解迷宮嗎？",
+    "title_original": "Can LLMs solve mazes?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5rvuq/can_llms_solve_mazes/",
+    "published_at": "2026-07-24T23:39:38+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 社群討論大型語言模型在解決迷宮問題上的能力，測試模型在空間推論、路徑規劃與邏輯推導方面的表現。此類基礎能力測試有助理解 Transformer 架構在非語言任務上的極限與潛力。",
+    "highlights": [
+      "測試 LLM 空間推論能力",
+      "迷宮任務考驗路徑規劃",
+      "探索 Transformer 非語言任務表現",
+      "基礎研究性質的社群實驗"
+    ],
+    "why_it_matters": "理解 LLM 在空間推論任務的表現，有助技術用戶判斷是否適合將其用於需要幾何思考的自動化流程，如資料中心布局規劃或物流路徑優化等應用場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可自行設計類似迷宮測試，評估手頭模型在空間推論任務的能力，判斷是否需要引入專用規劃工具搭配 LLM 使用，而非假設 LLM 已具備完整推論能力。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-gemma-4-26b-a4b-iphone-17-pro",
+    "title": "Gemma 4 26B A4B 在 iPhone 17 Pro 上透過模型分頁技術運行",
+    "title_original": "Gemma 4 26B A4B running on iPhone 17 Pro via model paging",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5p5sf/gemma_4_26b_a4b_running_on_iphone_17_pro_via/",
+    "published_at": "2026-07-24T21:47:40+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶展示 Google Gemma 4 26B 指令微調版本（A4B）成功在 iPhone 17 Pro 上運行的實際測試，透過模型分頁技術突破手機記憶體限制。雖然 iPhone 17 Pro 具體規格未明，但顯示小記憶體設備運行大型開源模型的可能性正在提升。",
+    "highlights": [
+      "Gemma 4 26B 指令微調版本（A4B）在 iPhone 17 Pro 上實際運行",
+      "使用模型分頁（model paging）技術管理記憶體",
+      "iPhone 17 Pro 硬體規格細節未披露",
+      "展示手機端運行大模型的可行方向"
+    ],
+    "why_it_matters": "端側 AI 部署是 2024-2025 年重要趨勢，若 iPhone 17 Pro 能在合理速度下運行 26B 模型，代表開源模型部署門檻大幅降低，對需要離線 AI 能力的技術用戶有直接價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估在自選硬體上實現類似分頁機制，測試 Gemma 4 26B 在嵌入式設備或老舊顯示卡的運行效果，評估是否符合離線文書處理或本地推論需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-item",
+    "title": "開源模型未來發展趨勢預測分析",
+    "title_original": "What i think the forseeable for open models will be",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5oojb/what_i_think_the_forseeable_for_open_models_will/",
+    "published_at": "2026-07-24T21:29:12+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享對開源模型短期發展方向的個人觀點與預測，涵蓋模型尺寸、效能、成本與生態系統演變等面向。內容屬社群主觀分析，非官方路線圖或研究論文，訊號強度中等。",
+    "highlights": [
+      "作者對開源模型發展的個人預判",
+      "涉及模型尺寸與效能平衡",
+      "討論成本與開源生態走向",
+      "為主觀意見而非事實陳述"
+    ],
+    "why_it_matters": "了解社群對開源模型發展的共識與分歧有助技術用戶判斷未來工具選型方向，但需獨立驗證具體預測而非直接採用作為決策依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此文作為頭腦風暴參考，結合自身需求驗證文中假設，例如親自測試較小模型是否真能滿足特定任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-2026-7-23-20b-500b",
+    "title": "2026 年 7 月注意力機制調查：23 款開源模型 20B-500B 架構分析",
+    "title_original": "Attention Survey July 2026: 23 Model Open Weight 20B-500B Architecture Analysis",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v5luta/attention_survey_july_2026_23_model_open_weight/",
+    "published_at": "2026-07-24T19:45:51+00:00",
+    "category": "open-source-ai",
+    "summary": "一份針對 23 款開源權重模型（20B 至 500B 參數量級）進行的注意力機制架構分析調查報告，涵蓋 Transformer 變體、MQA/GQA 使用、位置編碼方式等技術細節，時間戳記為 2026 年 7 月。需注意此類 Reddit 調查可能存在樣本偏差或未經同儕審查。",
+    "highlights": [
+      "覆蓋 23 款開源模型架構分析",
+      "參數量級橫跨 20B 至 500B",
+      "聚焦注意力機制變體與技術選擇",
+      "發布時間為 2026 年 7 月",
+      "來源為社群調查而非學術論文"
+    ],
+    "why_it_matters": "對於需要選型或比較開源模型底層架構差異的技術用戶，此類彙整可快速掌握各模型注意力機制設計取向，節省逐一查閱技術報告的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據此調查建立模型架構比對表，依據任務特性（如長上下文需求）篩選適合的注意力機制類型，輔助模型選擇決策。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-24-oh-my-cassette-ai-mcp-server-claude-code-codex",
     "title": "oh-my-cassette：影片剪輯 AI 副手 MCP Server，支援 Claude Code 與 Codex",
     "title_original": "Cassette-Editor/oh-my-cassette",
