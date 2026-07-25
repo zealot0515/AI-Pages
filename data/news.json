@@ -1,5 +1,174 @@
 [
   {
+    "id": "2026-07-25-ichinya-yougile-mcp-ai-agent-yougile-mcp",
+    "title": "ichinya/yougile-mcp：讓 AI Agent 操控 Yougile 專案管理平台的 MCP 工具",
+    "title_original": "ichinya/yougile-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ichinya/yougile-mcp",
+    "published_at": "2026-07-25T13:01:30Z",
+    "category": "agent-skills",
+    "summary": "開源的 Yougile MCP Server 讓 AI Agent 與開發工具能以程式化方式操控 Yougile 專案工作區。支援任務建立、查詢、更新等操作，適合想將專案管理自動化的團隊。GitHub 16 星，TypeScript 實作。",
+    "highlights": [
+      "支援與 Yougile 專案管理平台深度整合",
+      "可讓 AI Agent 自動建立、查詢、更新任務",
+      "TypeScript 實作，16 星，屬小型但活躍的工具",
+      "符合 MCP 標準，可與支援 MCP 的 AI 工具串接"
+    ],
+    "why_it_matters": "若你的團隊使用 Yougile 管理專案，這個 MCP Server 能讓 AI 直接幫你建立追蹤任務、查詢進度，省去手動操作的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 npx 直接啟動測試；將其加入 AI 助理的 MCP 設定，即可用語音或文字指令自動管理專案任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3314686?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-25-valtors-relay-mcp-server-40-agent",
+    "title": "valtors/relay：一站式 MCP Server，40 種工具含記憶、網頁、檔案與多 Agent 協調",
+    "title_original": "valtors/relay",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/valtors/relay",
+    "published_at": "2026-07-25T12:54:12Z",
+    "category": "agent-skills",
+    "summary": "relay 是用 Go 實作的 MCP Server，一個二進位檔即提供 40 種工具，涵蓋記憶管理、網頁抓取與搜尋、檔案操作、截圖與多 Agent 協調能力。GitHub 12 星，屬新興但野心勃勃的工具。",
+    "highlights": [
+      "Go 語言實作，單一二進位即可運行",
+      "內建 40 種工具，覆蓋常見自動化需求",
+      "支援多 Agent 協調機制，可擴展性較強",
+      "12 星較少，社群驗證度待觀察",
+      "可截圖、爬取網頁、管理本地檔案"
+    ],
+    "why_it_matters": "一個工具整合多種能力對想快速搭建本地 AI 工作流程的技術宅很有吸引力，但因星數少、發布時間短，需注意穩定性與社群支援。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載 Go 二進位快速部署測試其網頁截圖與檔案操作功能；建議先做 POC 驗證再投入正式工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/299794506?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-github-sahmk-mcp-ai",
+    "title": "GitHub 新開源：SAHMK MCP 伺服器提供 AI 代理取用沙烏地市場數據",
+    "title_original": "sahmk-sa/sahmk-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sahmk-sa/sahmk-mcp",
+    "published_at": "2026-07-25T12:20:33Z",
+    "category": "agent-skills",
+    "summary": "sahmk-sa/sahmk-mcp 為官方 SAHMK MCP 伺服器實作，讓 AI 代理能直接存取沙烏地阿拉伯市場相關數據。專案使用 Python 開發，現有 11 個 GitHub stars，可即時整合進支援 MCP 協定的代理系統中，為金融或電商相關自動化流程提供區域數據源。",
+    "highlights": [
+      "提供 MCP 協定介面，相容主流 AI 代理框架",
+      "專注沙烏地阿拉伯市場數據，填補中東區域市場數據缺口",
+      "Python 實作，技術門檻低，易於擴充",
+      "目前 stars 數 11，屬早期專案但具備基礎功能",
+      "可用於建構對接中東市場的自動化交易或分析流程"
+    ],
+    "why_it_matters": "對需要中東市場數據的 AI 代理開發者而言，此 MCP 伺服器可直接提供結構化資料源，省去自行串接資料 API 的成本。技術宅可將其整合進現有代理工作流程，測試區域化數據驅動的自動化場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可直接 clone 此 repo，安装依赖後將該 MCP 伺服器接入支援 MCP 協定的 AI 代理系統（如 Claude Desktop、Cline 等），測試能否自動化取得沙烏地市場即時數據並觸發後續行動。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/260981848?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-reddit-hwatu-coding-agent-chromium",
+    "title": "Reddit 熱議：hwatu——一款專為本地端 coding agent 打造的驗證瀏覽器（無 Chromium）",
+    "title_original": "hwatu: a verification browser for local coding agents. Headless WebKit, DOM eval, pixel-diff with real match %, no Chromium (MIT, Rust)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v63nip/hwatu_a_verification_browser_for_local_coding/",
+    "published_at": "2026-07-25T09:28:48+00:00",
+    "category": "agent-skills",
+    "summary": "hwatu 是一款 MIT 授權的驗證瀏覽器，使用 Rust 語言與無頭 WebKit 實作，不依賴 Chromium。其核心功能包括 DOM  eval、像素級差異比對（含真實匹配百分比），專為本地端 coding agent 提供網頁渲染驗證能力。此工具在 Reddit LocalLLaMA 社群引發討論，被視為提升本地模型瀏覽器自動化可靠性的替代方案。",
+    "highlights": [
+      "使用 Rust + Headless WebKit，完全不需 Chromium 依賴",
+      "支援 DOM eval，可在渲染後直接操作與查詢 DOM 節點",
+      "像素差異比對顯示真實匹配百分比，非二元判定",
+      "MIT 授權，適合商業專案整合",
+      "專為本地端 coding agent 設計，填補本地模型瀏覽器驗證工具缺口"
+    ],
+    "why_it_matters": "本地端 coding agent 常依賴 Chromium 或其包裝工具（如 Playwright），記憶體與啟動成本高。hwatu 以輕量 WebKit 方案提供替代選項，讓技術用戶可在資源受限環境下執行更穩定的瀏覽器自動化驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可將 hwatu 整合進本地 LLM coding agent 工作流程，用於自動化網頁截圖比對、UI 變更驗證或爬蟲結果確認，降低對外部雲端瀏覽器服務的依賴與成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-reddit",
+    "title": "Reddit 討論：純使用本地模型的開發者是誰？使用情境與模型選擇分析",
+    "title_original": "Who ONLY use local models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v62z48/who_only_use_local_models/",
+    "published_at": "2026-07-25T08:51:28+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串詢問「誰完全只使用本地模型」，引發開發者分享各自的使用情境、偏好的本地模型陣容（如 Llama、Qwen、Mistral 系列）以及對隱私、延遲、成本的取捨。此討論反映本地模型社群的使用者輪廓與實務經驗，而非新產品或技術突破。",
+    "highlights": [
+      "非新產品或模型發布，屬社群經驗交流討論串",
+      "參與者多為重視資料隱私的開發者與小型團隊",
+      "常見本地模型選擇包括 Llama 3、Qwen 2.5、Mistral 系列",
+      "主要動機：資料不出境、離線可用、節省 API 成本",
+      "常見痛點：GPU 資源需求、模型微調複雜度、推論延遲"
+    ],
+    "why_it_matters": "此討論串揭示本地模型社群的真實需求與痛點，可作為技術決策參考。若你正在評估本地部署是否適合團隊，了解這些實際使用情境有助於權衡雲端 API 與本地部署的優劣。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀此討論串可快速了解本地模型在自動化工作流程中的實務限制與成功案例，幫助你判斷是否要將特定任務遷移到本地模型以節省成本或提升隱私。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-anthropic-claude-opus-5-api",
+    "title": "Anthropic 發布 Claude Opus 5：編碼效能提升、成本降低、新 API 功能",
+    "title_original": "Anthropic launches Claude Opus 5 AI model: Higher coding performance, lower cost, and new API features - Moneycontrol.com",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQa1JtX2gwQ29aamFTdDRJcVZBNHhfQ0wtRTlYS1BtNjhkamZkVmRxZ2tjY09tU2Vpc0ZaUEtqQnJfMTNfT2dKLV9NT01JbzdaTWk5ZEN1aldqYVBFUmJiMjZlTFhJaEpkeFJtemQ5QjhLXzJfNWVqUV9ldHRlSldoc0JqMW51RktrUzQ3SlRlV0VyOTRONFNmSDdDV1VIME9TOUI1YnpsZkg2bTVNS2s2b2NXVUxncHpERXV2V3Q0YkVCbDJ6RElzeTNTSlpwNi1hX1dKRXZCOExsZXFWVGZJejVNYWI4SVJiMjFTOS1HOUwwd1XSAfgBQVVfeXFMTXZPRjU3blBzVXFJMEJjaGFxb0dvY2phZUNuenJGMl9KckdrdW0yU244VXFkdUZDdlp2cGpVQVo5LUFRdzRDTUt0Zi1zRmI3QlRBb0VFaHJ5SUI0SWdsNEZndnRDYm1IN1dXUDZkOWdjNzJMQlB2VDBwMlNrUmcyYVNVN0stbEcxQ1JxUGxwX24wakFKQ2ZyM2VRb3JleEpmcklMX0RJcjFWMEtJYUdwaFI2eWFVNmZ5TG9BN1JNYVVkWUFmSnpBTU81a3ZXeU9SZGVnTUthaTJjYWRPRFlKTTEwaVoxcE42aUpSeFRBS0NaSXYtRDUyb2M?oc=5",
+    "published_at": "2026-07-25T07:22:16+00:00",
+    "category": "new-models",
+    "summary": "Moneycontrol 報導 Anthropic 正式推出 Claude Opus 5 模型，主打更強的編碼能力、更低的成本以及新的 API 功能。這是 Anthropic 官方產品發布，為高可信度的一手新聞。",
+    "highlights": [
+      "Claude Opus 5 為 Anthropic 最新旗艦模型",
+      "編碼效能顯著提升（具體數據待查官方文件）",
+      "成本較前代降低，性價比提升",
+      "新增 API 功能，具體內容建議查閱 Anthropic 官網"
+    ],
+    "why_it_matters": "Claude Opus 5 的性價比提升對需要高可靠度 AI 程式碼生成與複雜推論的技術用戶是直接利好，可評估其是否取代現有 Claude 3.x 或其他模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議用 Anthropic API 測試 Opus 5 與 Opus 4 的實際差異；可將其納入模型路由策略，評估成本效益與任務適配度。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-25-dkv-kv-cache-llm",
     "title": "DKV：開源 KV-Cache 壓縮框架，加速本地 LLM 推論",
     "title_original": "DKV: Open-source KV-cache compression framework for local LLM inference (CLI + technical report)",
