@@ -1,5 +1,289 @@
 [
   {
+    "id": "2026-07-25-mcp-execution-mcp-typescript-98-token",
+    "title": "mcp-execution：MCP 伺服器產出可執行 TypeScript 工具，聲稱省 98% Token",
+    "title_original": "bug-ops/mcp-execution",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/bug-ops/mcp-execution",
+    "published_at": "2026-07-25T18:29:43Z",
+    "category": "agent-skills",
+    "summary": "mcp-execution 是一個 GitHub 新興專案，可將 MCP 伺服器自動生成可執行的 TypeScript 工具，專案宣稱能節省 98% Token 消耗，並採用漸進式載入模式（Progressive Loading）優化 AI Agent 效能。現有 46 個星，Rust 實作，屬於早期工具但概念新穎。",
+    "highlights": [
+      "將 MCP 伺服器輸出轉換為可執行 TypeScript 工具",
+      "聲稱可節省高達 98% 的 Token 用量",
+      "漸進式載入模式減少 Agent 初始化等待時間",
+      "Rust 語言實作，強調效能",
+      "屬於早期專案，需實際測試驗證節省比例"
+    ],
+    "why_it_matters": "若 Token 節省 98% 屬實，將大幅降低 AI Agent 的 API 呼叫成本，對需要大量工具調用的自動化腳本有直接價值，但數據待驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "本地安裝後，用一個常見 MCP 工具（如檔案操作）對比原版與 mcp-execution 版的 Token 消耗，實測省量是否接近宣稱的 98%。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/12019904?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-huashu-doubao-search-mcp-claude-code",
+    "title": "huashu-doubao-search：豆包搜尋 MCP 為 Claude Code 補上國產模型聯網能力",
+    "title_original": "alchaincyf/huashu-doubao-search",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/alchaincyf/huashu-doubao-search",
+    "published_at": "2026-07-25T18:20:55Z",
+    "category": "agent-skills",
+    "summary": "huashu-doubao-search 是專為 Claude Code 設計的 MCP 伺服器，透過字節跳動旗下豆包搜尋提供聯網能力。支援千字正文、每月 500 次免費額度，資料來源為字節系信源。對於已切換至國產模型的 Claude Code 用戶，這填補了原本缺乏的即時資訊獲取缺口。",
+    "highlights": [
+      "為 Claude Code 提供豆包搜尋聯網能力",
+      "每月 500 次免費搜尋額度",
+      "千字正文回傳，資訊量較一般搜尋充足",
+      "使用字節系信源，適合對大陸網路內容有需求的場景",
+      "JavaScript 實作，23 個星，屬工具類 MCP"
+    ],
+    "why_it_matters": "Claude Code 切換至國產模型後常面臨缺乏聯網能力的問題，此 MCP 直接補上缺口。若免費額度足夠，可成為技術用戶日常除錯與資訊查詢的穩定工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Claude Code 中接入此 MCP，測試用它查詢最新技術文件或錯誤解決方案，與原版 GPT-4o 聯網能力比較，回傳內容的時效性與準確度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/127714341?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-llm",
+    "title": "手機離線 LLM 應用實例：用來做什麼？",
+    "title_original": "Mobile Offline LLMs: What do you use them for?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6fq6p/mobile_offline_llms_what_do_you_use_them_for/",
+    "published_at": "2026-07-25T18:19:20+00:00",
+    "category": "agent-skills",
+    "summary": "技術玩家社群分享手機端離線 LLM 的實際使用情境，討論涵蓋離線可用性、隱私保護、模型尺寸與手機硬體限制等面向，探索本地 AI 在移動端的潛力與瓶頸。",
+    "highlights": [
+      "離線隱私場景（如記錄敏感會議內容）是主要驅動之一",
+      "7B 以下模型在手機上運行仍面臨記憶體與發熱挑戰",
+      "文字摘要、翻譯、任務列表生成為常見用例",
+      "Apple Neural Engine 與 Qualcomm NPU 的優化成為新焦點",
+      "離線可用性在網路不穩定地區具有特殊價值"
+    ],
+    "why_it_matters": "手機端 AI 代表推論能力從雲端向邊緣擴散的趨勢，對開發行動優先應用或需要離線可靠的工具具有直接參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可基於這些用例評估手機端模型是否足以支撐個人的日常自動化任務，例如離線會議紀錄整理或多語言即時翻譯。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-telegram-business-bridge-mcp-ai-agent-telegram-business-api",
+    "title": "telegram-business-bridge：MCP 伺服器將 AI Agent 接入 Telegram Business API",
+    "title_original": "AndyShaman/telegram-business-bridge",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/AndyShaman/telegram-business-bridge",
+    "published_at": "2026-07-25T18:17:34Z",
+    "category": "agent-skills",
+    "summary": "telegram-business-bridge 是一個 Python 專案，可將任意 AI Agent 連接至個人 Telegram 帳號，透過官方 Business API 實現讀取歷史、搜尋對話、草擬回覆，無需用戶機器人或付費 Premium，避免帳號風險。Agent 每次回覆需用戶點擊 ✅ 確認，內建 SQLite 與 FTS5 全文檢索。",
+    "highlights": [
+      "使用官方 Telegram Business API，非第三方機器人，帳號安全風險低",
+      "支援 Agent 讀取完整對話歷史並搜尋",
+      "草擬回覆需用戶手動確認 ✅，保留人工把關環節",
+      "本地 SQLite + FTS5 儲存與全文檢索，24 小時運行收集器",
+      "Python 實作，11 個星，仍屬早期專案"
+    ],
+    "why_it_matters": "Telegram 是技術人群中常見的溝通工具，將 AI Agent 整合進個人帳號可實現「助理幫我草擬，我決定是否發送」的工作流程，兼顧效率與控制。",
+    "automation_angle": null,
+    "automation_angle_zh": "架設此 MCP 伺服器，綁定個人 Telegram，測試讓 Agent 自動整理並草擬回覆高頻技術討論群組的消息，觀察 ✅ 確認流程的實際體驗。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/166172682?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-ocm-mcp-server-ai-k8s-mcp",
+    "title": "ocm-mcp-server：讓 AI 代理操作多叢集 K8s 的 MCP 伺服器",
+    "title_original": "sandeepbazar/ocm-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sandeepbazar/ocm-mcp-server",
+    "published_at": "2026-07-25T18:08:48Z",
+    "category": "agent-skills",
+    "summary": "GitHub 新興專案，基於 Python 實作 Open Cluster Management 介面的 MCP 伺服器，讓 AI 代理能以自然語言管理多個 Kubernetes 叢集，包含政策套用、審批流程與操作稽核功能。目前僅 19 顆星，但技術架構明確，今天即可部署測試。",
+    "highlights": [
+      "支援多叢集統一管理介面，透過 OCM Hub 協調",
+      "提供 policy、approval、audit 三層權限控管機制",
+      "使用 Python 開發，依賴標準 MCP 協定",
+      "代理可直接對叢集下達指令，無需手動 kubectl",
+      "開源 MIT 授權，可自行架設或整合至現有工作流程"
+    ],
+    "why_it_matters": "將 K8s 繁瑣的叢集管理操作抽象成代理工具，今天就能試用，對 DevOps 工程師提升自動化程度有直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署此 MCP 伺服器，讓 Claude/Cline 等代理直接用自然語言執行部署、擴縮容、故障排除等 K8s 操作，省去頻繁切換 kubectl 的時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/5602033?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-36gb-macbook-moe-ssd-35b-480b",
+    "title": "36GB MacBook 串流 MoE 專家模型：從 SSD 載入 35B–480B 程式碼模型",
+    "title_original": "I run 35B–480B coding models on my 36 GB MacBook by streaming MoE experts from SSD — self-contained app, and I publish the benchmarks that *failed* too",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6eqvo/i_run_35b480b_coding_models_on_my_36_gb_macbook/",
+    "published_at": "2026-07-25T17:42:20+00:00",
+    "category": "open-source-ai",
+    "summary": "技術部落格展示如何在 36GB RAM 的 MacBook 上透過 SSD 串流方式跑動 35B 到 480B 參數的 MoE 程式碼模型，強調同時公開成功與失敗的基準測試數據。屬單一作者的技術實驗，可重現性待社群驗證。",
+    "highlights": [
+      "使用 MoE 架構的稀疏特性減少記憶體需求",
+      "SSD 串流技術繞過 DRAM 容量限制",
+      "公開失敗的基準測試數據，態度透明",
+      "屬個人實驗，尚未有社群廣泛驗證",
+      "聚焦蘋果晶片（M 系列）的特殊優化路徑"
+    ],
+    "why_it_matters": "若技術成熟，MacBook 用戶也能跑動大規模程式碼模型，但作者強調公開失敗數據的做法值得肯定，可作為技術參考而非直接採用。",
+    "automation_angle": null,
+    "automation_angle_zh": "等待社群對此技術棧的驗證，若稳定可用，可在本地跑動大型程式碼模型進行離線代理任務開發。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-tensorsharp-llama-cpp",
+    "title": "TensorSharp 對決 llama.cpp：效能基準測試出爐",
+    "title_original": "Benchmarks: TensorSharp vs. llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6ect8/benchmarks_tensorsharp_vs_llamacpp/",
+    "published_at": "2026-07-25T17:27:32+00:00",
+    "category": "open-source-ai",
+    "summary": "社區成員發布 TensorSharp 與 llama.cpp 在相同硬體條件下的推論速度與記憶體使用 benchmark。測試聚焦於量化推論效能，涵蓋 FP16 與 INT4/INT8 精度表現。",
+    "highlights": [
+      "測試環境未完整揭露，硬體規格是影響結果的關鍵變數",
+      "llama.cpp 以成熟生態與廣泛優化獲得較高穩定性評價",
+      "TensorSharp 在特定張量運算展現潛力，但生態尚在早期",
+      "量化精度對輸出品質的影響在討論中被提出但未系統性測量",
+      "社群建議以實際工作負載測試為準，而非純看 benchmark"
+    ],
+    "why_it_matters": " inference 引擎的選擇直接影響本地模型部署的成本與回應速度，這類 benchmark 有助技術玩家做出informed的技術棧選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "有效能瓶頸的技術玩家可針對自己的模型與硬體親自跑這兩套引擎的對比測試，找出符合自己需求的最佳化組合。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-ai",
+    "title": "「開放 AI」的本質：聯盟而非公司",
+    "title_original": "Turns out open AI is a coalition, not a company.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6drdx/turns_out_open_ai_is_a_coalition_not_a_company/",
+    "published_at": "2026-07-25T17:04:46+00:00",
+    "category": "hot-topics",
+    "summary": "社區討論反思「開放 AI」標籤的曖昧性，探討當前 AI 產業中開放定義的模糊地帶——從開源模型、開放資料到開放研究的各種層次，以及商業公司與開源運動的複雜關係。",
+    "highlights": [
+      "OpenAI 已非開源，其命名造成品牌認知混淆",
+      "開源定義包含從 model weights 到完整訓練管道的多重層次",
+      "Meta、Google 等大廠的「開放」策略各有不同動機",
+      "社群呼籲對「開放」一詞保持審慎，區分實際開放程度",
+      "開放模型與開放資料聯盟正在形成新的生態"
+    ],
+    "why_it_matters": "理解「開放 AI」的多元定義有助技術決策者評估授權風險與生態可持續性，避免因術語混淆做出錯誤的技術依賴判斷。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估新模型或工具時，先確認其開放層級（是否開源 weights、訓練程式碼、資料集），再決定是否用於關鍵任務的自動化流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-item",
+    "title": "本地模型使用現況：技術玩家都在用什麼？",
+    "title_original": "How much are you actually using your local models these days? Which ones do you reach for the most?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6dk8t/how_much_are_you_actually_using_your_local_models/",
+    "published_at": "2026-07-25T16:57:17+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群討論技術玩家實際使用本地模型的頻率與偏好模型。討論涵蓋不同硬體配置下的模型選擇、推論速度與輸出品質的取捨，以及本地部署的實際動機。",
+    "highlights": [
+      "Llama 2/3 系列仍是本地部署主流，Mistral 和 Qwen 在特定任務獲青睞",
+      "7B-13B 參數模型為多數玩家的甜蜜點，兼顧速度與能力",
+      "隱私需求與無需網路為最主要驅動因素",
+      "GPU VRAM 限制仍是模型大小的硬約束",
+      "多數玩家反映日常輔助任務使用頻率高於預期"
+    ],
+    "why_it_matters": "了解社群實際使用模式可幫助技術決策者評估本地 LLM 的生產力價值，特別是針對隱私敏感或需要離線運作的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術玩家可根據這些使用模式選擇適合自己硬體配置的模型，用於自動化文書處理、程式碼補全或本地知識庫問答。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-25-reddit-moe-llm",
+    "title": "Reddit 討論：中規模 MoE LLM 模型效能",
+    "title_original": "Medium sized MoE LLM models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6d2ou/medium_sized_moe_llm_models/",
+    "published_at": "2026-07-25T16:37:58+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串聚焦中規模專家混合（MoE）模型的最新進展，比較不同架構在本地部署場景下的效能與記憶體需求。討論涵蓋多個開源 MoE 專案與量化技術，但缺乏統一基準或官方數據。",
+    "highlights": [
+      "中規模 MoE 模型主打本地部署的低硬體需求",
+      "Reddit 討論為社群經驗分享，非正式技術文件",
+      "量化技術（如 AWQ、GGUF）對 MoE 部署影響重大",
+      "不同 MoE 架構的專家路由效率差異顯著",
+      "討論熱度反映技術愛好者對本地 AI 的強烈興趣"
+    ],
+    "why_it_matters": "中規模 MoE 模型是本地部署的重要趨勢，若能以消費級 GPU 跑動中等規模模型，可大幅降低個人開發者的 AI 工具成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤此討論串中的量化配置與模型推薦，用 Ollama 或 llama.cpp 測試適合工作負載的中規模 MoE 模型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-25-ichinya-yougile-mcp-ai-agent-yougile-mcp",
     "title": "ichinya/yougile-mcp：讓 AI Agent 操控 Yougile 專案管理平台的 MCP 工具",
     "title_original": "ichinya/yougile-mcp",
@@ -69663,6 +69947,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-25-mistral-devstral-2-mistral-vibe-cli",
+    "title": "Mistral 發布 Devstral 2 程式碼模型與 Mistral Vibe CLI",
+    "title_original": "Mistral AI Ships Devstral 2 Coding Models And Mistral Vibe CLI For Agentic, Terminal Native Development - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNa1BsM2wxTFJCc1pDaFk4Y0pjREdpaDFQOExsYzJzd29zazY3WTZLVC1yX3ZxWDNrOWNFWlczR19zZUxpaUxmYVVwczI5S191aXhQVi05cGpkSXRuUHhQVmwxUlJ6aEZSQUVRbGJ6LXRZUEhDS0Q3RnUwWWtEQUl3V0RhdnhfaURWZGpicDVET1I0alQ1VzhvUnFRWUhZUi1XV1NQeTlOVlZ3QWoyN1k3Y294NDc0Yk54Nl9pVmVmc05LV1lXTTBYXzMzTGZnV2ZFanNyODZhMlVhSlXSAeABQVVfeXFMTXIxZGRncVdDUFFqamJTY2g5QmR4NFphWTJ3MDJ3SmdsRU0tQUhaOE9hck5qaEhmVGFYdWlFTzFpbmVyV0JFTW9GSlhodUpUTktyVUhLYXRxakFmUjRMUjdEalU0Mk9nQkhQTWxHR0FUMWpNaGR1UjBiMDRUWVpGZkxJdUVyQlZTWjc4aDRaTzRvbzhFY3VNbU9ROGloVFlUOWZvMnhPMUk3WmE4b29CcDBZQlNLZlVIX2RKcGpWV3ppd3Z0ZE9SUEdwQjZISUdLNGN1X05kQVdvSTM3d3JYZHM?oc=5",
+    "published_at": "2025-12-09T08:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 正式推出 Devstral 2 程式碼模型系列，專為代理式開發流程優化，同時發布 Mistral Vibe CLI，提供終端機原生開發體驗。模型強調與主流 IDE 和 CI/CD 工具鏈整合，支援 agentic 程式碼生成與修改任務。",
+    "highlights": [
+      "Devstral 2 為程式碼專用模型，鎖定代理開發場景",
+      "Mistral Vibe CLI 提供終端機直接可用的開發介面",
+      "強調與現有開發工具鏈整合，非封閉生態",
+      "Mistral 品牌模型通常有較親民的 API 定價",
+      "屬正式產品發布，有 MarkTechPost 等媒體報導"
+    ],
+    "why_it_matters": "Mistral 持續在代理程式碼生成領域佈局，若 API 定價具競爭力，可作為 GitHub Copilot 或 Claude Code 的替代方案評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "申請 Mistral API 測試額度，用 Devstral 2 替換或對比現有程式碼輔助工具，評估自動化程式碼生成的品質與成本效益。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-24-10-devops-mcp",
