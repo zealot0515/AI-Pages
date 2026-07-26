@@ -1,5 +1,205 @@
 [
   {
+    "id": "2026-07-26-kglite-python-rust-cypher-mcp",
+    "title": "kglite：Python/Rust 嵌入式 Cypher 知識圖譜，含 MCP 伺服器",
+    "title_original": "kkollsga/kglite",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/kkollsga/kglite",
+    "published_at": "2026-07-26T12:54:12Z",
+    "category": "agent-skills",
+    "summary": "kkollsga/kglite 是一個將 Cypher 查詢語言嵌入 Python 與 Rust 的輕量知識圖譜庫，內建 MCP 伺服器、describe() Schema 檢視及程式碼圖譜解析器，可直接供 LLM Agent 查詢結構化關係資料。現有 35 GitHub stars，Rust 實作強調高效記憶體管理。",
+    "highlights": [
+      "支援 Cypher 語法查詢，適合圖譜式關係建模",
+      "內建 MCP 伺服器，方便與 Agent 工具鏈整合",
+      "describe() 方法可快速檢視 Schema，減少摸索成本",
+      "Rust 核心提升效能，適合高效能 Agent 場景",
+      "可用於建立程式碼依賴圖、領域知識圖譜"
+    ],
+    "why_it_matters": "知識圖譜能讓 Agent 保有長期記憶與結構化推論能力，kglite 提供開箱即用的 Cypher + MCP 組合，降低自行架設 Graph DB 的門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可將 kglite 整合至 RAG 工作流程，用 Cypher 建立程式碼依賴圖或文件關係圖，讓 Agent 在規劃重構或除錯時能查詢「哪些模組呼叫了此函式」。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/58362424?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-26-obsidian-yolo-obsidian-ai",
+    "title": "obsidian-yolo：Obsidian 筆記一站式 AI 助理",
+    "title_original": "Lapis0x0/obsidian-yolo",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Lapis0x0/obsidian-yolo",
+    "published_at": "2026-07-26T12:33:07Z",
+    "category": "agent-skills",
+    "summary": "obsidian-yolo 是一款專為 Obsidian 打造的 AI 助理外掛，GitHub 星標 1276，TypeScript 開發。整合聊天、寫作、學習功能於一體，目標是讓使用者在筆記生態內直接完成資訊處理與創作。",
+    "highlights": [
+      "基於 Obsidian 生態，天然適合知識管理與筆記場景",
+      "星標數 1276 表示有一定社群採用與關注度",
+      "TypeScript 開發，技術棧主流且易於客製",
+      "整合聊天、寫作、學習，覆蓋常見 AI 輔助需求",
+      "今天即可安裝測試，門檻低"
+    ],
+    "why_it_matters": "Obsidian 是技術人員常用的本地知識庫工具。將 AI 能力直接內嵌到筆記流程，可減少在應用程式間切換的成本，提升個人知識處理效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可直接在 Obsidian 安裝此插件，測試其是否能加速文獻閱讀筆記、會議紀要生成、或作為個人學習助理的實際效用。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/70219915?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-26-hugging-face-ceo-openai",
+    "title": "Hugging Face CEO 公開詢問 OpenAI 的具體內容",
+    "title_original": "CEO of Hugging Face: \"In the spirit of transparency, here’s what I asked OpenAI\"",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v72jft/ceo_of_hugging_face_in_the_spirit_of_transparency/",
+    "published_at": "2026-07-26T12:27:55+00:00",
+    "category": "hot-topics",
+    "summary": "Hugging Face CEO Clément Delargue 在社群公開透明地說明他向 OpenAI 提出的問題，涉及模型能力評測、API 定價策略或產品方向等具體議題。此帖引發社群對 AI 開源與閉源之間透明度差異的討論。",
+    "highlights": [
+      "Hugging Face CEO 公開透明地說明與 OpenAI 的交流",
+      "引發開源社群對模型透明度與公平性的討論",
+      "具體提問內容尚未完全揭露",
+      "反映開源領袖對產業生態的關切",
+      "細節待續，屬進行中的事件"
+    ],
+    "why_it_matters": "開源與閉源陣營領袖的互動，往往影響未來模型開放程度與 API 定價走向，值得技術決策者追蹤後續發展。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可關注此事的後續揭露，若涉及 API 定價調整或模型能力揭露，可能影響現有 AI 工作流程程的成本與工具選擇。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-26-ai",
+    "title": "利用本地模型與嵌入向量分析 AI 程式碼代理的決策邏輯",
+    "title_original": "I used local models and embedders to find out how coding agents are making decisions for me and how my coding preferences are being saved",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v72fmm/i_used_local_models_and_embedders_to_find_out_how/",
+    "published_at": "2026-07-26T12:22:50+00:00",
+    "category": "agent-skills",
+    "summary": "一位開發者使用本地模型與嵌入檢索系統，分析 AI 程式碼代理在編碼過程中的決策模式，並探討如何將個人編碼偏好持久化儲存，避免每次對話都需重新描述。實驗涉及決策追蹤與偏好嵌入的實作細節。",
+    "highlights": [
+      "使用本地嵌入模型建立編碼偏好向量庫",
+      "追蹤 Agent 在程式碼修改過程中的決策鏈",
+      "探討偏好持久化對話式 AI 的可行性",
+      "涉及本地模型部署與向量檢索整合",
+      "屬技術實驗性質，缺乏大規模驗證"
+    ],
+    "why_it_matters": "讓 Agent 學習並記住個人編碼風格，可提升自動化效率並減少重複溝通成本，是提升開發者工作流程的實用方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可借鑒其嵌入偏好提取流程，建立自己的編碼風格資料庫，讓 Cursor/Windsurf 等 IDE Agent 在新專案中自動套用個人命名與架構偏好。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-26-cyberchef-mcp-mcp",
+    "title": "CyberChef-MCP：將資料處理瑞士刀以 MCP 協議暴露",
+    "title_original": "doublegate/CyberChef-MCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/doublegate/CyberChef-MCP",
+    "published_at": "2026-07-26T12:22:01Z",
+    "category": "agent-skills",
+    "summary": "CyberChef-MCP 是一個 Model Context Protocol 伺服器，將 GCHQ 開源的資料處理工具 CyberChef（俗稱資料處理瑞士刀）暴露為 463+ 個可執行的 AI Agent 工具，涵蓋加密、編碼、壓縮、數位鑑識等領域。",
+    "highlights": [
+      "將 CyberChef 463+ 工具以 MCP 協議標準化輸出",
+      "支援加密、編碼、壓縮、數位鑑識等資料處理場景",
+      "JavaScript 開發，MCP 生態兼容性佳",
+      "星標 11，目前為早期項目但方向明確",
+      "可讓 Agent 直接呼叫專業資料處理能力"
+    ],
+    "why_it_matters": "過去 Agent 常缺乏專業資料處理能力，需依賴外部腳本或 API。CyberChef-MCP 提供了一個標準化捷徑，讓 Agent 能在對話流程中直接執行進階資料轉換與分析。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 CyberChef-MCP 整合到 Agent 工作流程，用於自動化日誌解碼、檔案格式轉換、威脅情報資料處理等場景，評估 MCP 介面的穩定性與工具覆蓋度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6858123?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-26-agentmap-agent",
+    "title": "agentmap：編碼 Agent 的編譯器級倉庫地圖工具",
+    "title_original": "raymondchins/agentmap",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/raymondchins/agentmap",
+    "published_at": "2026-07-26T11:49:17Z",
+    "category": "agent-skills",
+    "summary": "agentmap 旨在解決 Agent 讀取錯誤檔案的問題，提供 100% 精度的 TypeScript/JavaScript 倉庫地圖。相比傳統 grep 的 60% 準確率，號稱編譯器級精度。提供 CLI 與 MCP 伺服器，完全本地執行，無需 vector DB。",
+    "highlights": [
+      "號稱 100% 精度地圖，優於 grep 的 60% 覆蓋",
+      "CLI + MCP 雙介面，適配性廣",
+      "完全本地執行，不依賴外部向量資料庫",
+      "星標 45，社群關注度適中",
+      "專注 TS/JS 生態，精準瞄準編碼 Agent 痛點"
+    ],
+    "why_it_matters": "上下文窗口汙染是 Agent 編碼任務的主要效能瓶頸之一。agentmap 提供精準的程式碼結構感知能力，理論上可顯著提升 Agent 在大型專案中的任務完成率與速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 agentmap 整合到編碼 Agent 工作流程，測試其在大型 TypeScript 專案中路由檔案讀取請求的準確率，評估對任務完成時間與 token 消耗的實際影響。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/12913191?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-26-pocket-35b-cpu-59-tokens-s",
+    "title": "POCKET-35B：在 CPU 上達到 59 tokens/s 的本地代理模型",
+    "title_original": "POCKET-35B agentic model on cpu 59 t/s",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6zseq/pocket35b_agentic_model_on_cpu_59_ts/",
+    "published_at": "2026-07-26T10:10:26+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 有用戶展示 POCKET-35B 模型在 CPU 環境下運行，並達到每秒 59 tokens 的推論速度。POCKET-35B 定位為輕量代理模型，強調可在消費級硬體上運行，無需 GPU。",
+    "highlights": [
+      "35B 參數規模的代理模型，支援本地 CPU 推論",
+      "實測達到 59 tokens/s，接近即時回應水準",
+      "強調 Agentic 能力（任務規劃、多步推論）",
+      "降低本地部署 AI 的硬體門檻",
+      "細節來源為社群討論，未提供官方文件"
+    ],
+    "why_it_matters": "若能在無 GPU 情況下跑 35B 代理模型，將大幅降低邊緣裝置或企業內網的 AI 部署成本，改變本地模型的使用場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可關注其量化版本（如 AWQ/GGUF），在自家 CPU 機器上測試 59 t/s 是否屬實，並評估其 Agentic 任務（如自動化測試生成）的實際表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-26-z8-ai-50",
     "title": "三星Z8系列推出「AI訂閱俱樂部」最高50%回饋",
     "title_original": "三星推出Z8系列定制版‘AI訂閱俱乐部’，最高可保障50%返還 - 亚洲日报",
@@ -167,6 +367,90 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/234524856?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-26-128gb-macbook-pro-coding",
+    "title": "128GB MacBook Pro 購入評估：能否對標前沿模型coding能力？",
+    "title_original": "Is it worth getting 128GB MacBook Pro? Will it ever be comparable to today’s frontier models for coding?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6jpvn/is_it_worth_getting_128gb_macbook_pro_will_it/",
+    "published_at": "2026-07-25T20:56:22+00:00",
+    "category": "agent-skills",
+    "summary": "用戶提問 128GB 記憶體 MacBook Pro 是否值得購入，以及能否在本地跑出接近前沿模型的 coding 能力。此屬個人決策諮詢，反映技術人員對本地 AI 開發環境的關注。",
+    "highlights": [
+      "128GB 記憶體可容納較大模型（如 70B Q4 量化）",
+      "蘋果晶片在能效上有優勢，但算力峰值不及高階 NVIDIA 卡",
+      "本地 coding 助理體驗受模型大小、量化程度影響顯著",
+      "此提問本身反映市場對本地 AI 開發環境的強烈需求",
+      "性價比評估需結合用戶既有硬體與任務需求"
+    ],
+    "why_it_matters": "本地 AI 開發環境是技術人員降低 API 成本、提升隱私的重要選項，硬體選型直接影響工作流程效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議根據實際任務（補全、重構、測試生成）制定客製化 benchmark，比較雲端 API 與本地模型的產出品質與延遲。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-26-deepseek-v4-flash-hy3-qwen3-6-27b",
+    "title": "DeepSeek V4 Flash 效能比較：Hy3 還是 Qwen3.6 27B 更適合代理與程式碼任務？",
+    "title_original": "Deepseek V4 flash - Hy3 or is Qwen3.6 27B still the most solid for agentic/coding?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6jlva/deepseek_v4_flash_hy3_or_is_qwen36_27b_still_the/",
+    "published_at": "2026-07-25T20:51:31+00:00",
+    "category": "new-models",
+    "summary": "Reddit 討論區針對 DeepSeek V4 Flash 版本與 Hy3、Qwen3.6 27B 在代理性任務與程式碼生成上的表現進行比較，用戶分享各自在推論速度、準確率與上下文保持上的實測心得，為本地部署選型提供參考。",
+    "highlights": [
+      "DeepSeek V4 Flash 新版本效能實測",
+      "Hy3 與 Qwen3.6 27B 為對比基準",
+      "側重代理性任務與程式碼能力的評測",
+      "社群驅動的選型討論，缺乏標準化 Benchmark",
+      "Qwen3.6 27B 在部分場景獲得較多正面回饋"
+    ],
+    "why_it_matters": "本地模型選型直接影響自動化工作流程的成本與效率，此類實測討論可幫助技術人員在有限資源下找到最佳性價比模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可參考討論中的測試方法與任務類型，在自有資料集上對 DeepSeek V4 Flash、Hy3、Qwen3.6 27B 進行對比，選擇最符合自身代理任務需求的模型。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-26-langchain-ai",
+    "title": "LangChain 呼籲企業：擁有自己的智慧系統才能建立持久 AI 優勢",
+    "title_original": "Own Your Intelligence: The Key to Lasting AI Advantage",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/own-your-intelligence",
+    "published_at": "2026-07-25T20:43:00+00:00",
+    "category": "hot-topics",
+    "summary": "LangChain 官方部落格發文指出，企業若僅依賴通用 AI API，無法建立持久競爭優勢；文章強調企業應掌控自家 Agent 系統、治理框架、上下文管理與回饋循環，將通用 AI 轉化為專屬業務能力。",
+    "highlights": [
+      "通用 AI API 易被複製，難以建立護城河",
+      "企業需自建 Agent 治理與合規框架",
+      "上下文管理與回饋循環是差異化關鍵",
+      "LangChain 提供相關開源工具與企業方案",
+      "屬行銷導向內容，但點出行業趨勢"
+    ],
+    "why_it_matters": "此類觀點反映企業級 AI 部署正從「用 API」走向「自建平台」，對技術架構師和 AI 工程師的選型決策有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可評估自家組織是否已建立 Agent 治理機制，若尚未則可參考 LangChain 提出的框架藍圖，規劃內部回饋循環與監控系統的建設時程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
