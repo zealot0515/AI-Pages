@@ -1,5 +1,146 @@
 [
   {
+    "id": "2026-07-26-delphi-mcp-ai-agent",
+    "title": "Delphi：開源 MCP 伺服器，助 AI Agent 建立本地知識索引",
+    "title_original": "synthetic-sciences/delphi",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/synthetic-sciences/delphi",
+    "published_at": "2026-07-26T18:56:13Z",
+    "category": "agent-skills",
+    "summary": "Delphi 為開源 MCP（Model Context Protocol）伺服器，可對程式碼庫、學術論文、資料集建立本地索引，供 AI Agent 查詢與檢索。Star 數僅 14，屬新興專案，技術成熟度待驗證。",
+    "highlights": [
+      "MCP 協定相容：支援主流 Agent 框架整合",
+      "本地執行：索引資料不外傳，適合機敏專案",
+      "支援多類型來源：程式碼、論文、資料集",
+      "Star 數極低：社群驗證不足，穩定性未知",
+      "Python 實作：便於技術宅閱讀原始碼與除錯"
+    ],
+    "why_it_matters": "若能穩定運作，可讓 AI Agent 具備專案自定義知識庫查詢能力，大幅提升程式碼理解準確度；但目前證據不足，需親測再決定是否正式引入。",
+    "automation_angle": null,
+    "automation_angle_zh": "Clone 專案後對自己的程式碼庫建立索引，觀察查詢延遲與準確度，評估能否替代現有文件檢索腳本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/220546587?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-26-minimax-x-open-weights",
+    "title": "MiniMax 官方 X 宣布 Open Weights 與開源創新",
+    "title_original": "MiniMax (official) on X: \"Open weights. Open research. Open innovation.🫶 Marching for an open future.🤍",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7bwg7/minimax_official_on_x_open_weights_open_research/",
+    "published_at": "2026-07-26T18:28:47+00:00",
+    "category": "open-source-ai",
+    "summary": "MiniMax 官方 X 帳號發文宣告「Open weights. Open research. Open innovation. Marching for an open future」，顯示其策略朝向開放權重與開源創新邁進。內容簡短，具體開源時間表與模型規模尚未揭露。",
+    "highlights": [
+      "MiniMax 官方帳號發文，一手來源",
+      "口號式宣示：open weights / open research / open innovation",
+      "尚無具體模型權重或開源時間表",
+      "與 Token Plan 的全模態商業產品線並行，策略可能雙軌",
+      "需持續追蹤後續技術公告與 GitHub 動態"
+    ],
+    "why_it_matters": "MiniMax 若正式開源將改變多模態模型的選擇格局；目前僅口號，技術宅應追蹤後續具體開源模型規格與授權條款，再評估對現有工作流程的影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤 MiniMax GitHub 組織頁面，設定 stars/releases 通知，第一時間下載測試開源模型，評估是否能在本地硬體上跑出可用結果。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-26-beellama-cpp-v0-4-1-kvarn-kv-q2-0-q3-1-kv-cache",
+    "title": "BeeLlama.cpp v0.4.1 發布：KVarN、KV 尾部精度優化、Q2_0-Q3_1 KV Cache 支援",
+    "title_original": "BeeLlama.cpp v0.4.1: KVarN, KV precision tail, q2_0-q3_1 KV cache, improved support. KLD benchmarks: tail 1024 makes kvarn5 and q6_0 match q8_0, for much less VRAM",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v78me1/beellamacpp_v041_kvarn_kv_precision_tail_q2_0q3_1/",
+    "published_at": "2026-07-26T16:28:39+00:00",
+    "category": "open-source-ai",
+    "summary": "BeeLlama.cpp 推出 v0.4.1 版本，新增 KVarN 注意力機制與 KV 尾部精度控制，並支援 Q2_0 到 Q3_1 的 KV Cache 量化。基準測試顯示 tail 1024 模式下 KVarN5 與 Q6_0 效果相當，但 VRAM 佔用大幅降低。",
+    "highlights": [
+      "KVarN 注意力機制正式支援",
+      "KV 尾部精度（tail precision）可單獨控制",
+      "支援 Q2_0、Q3_1 等更低精度的 KV Cache",
+      "Tail 1024 模式下顯著節省 VRAM",
+      "基準測試由開發者提供，具有一定可信度"
+    ],
+    "why_it_matters": "VRAM 是本地部署大模型的最大瓶頸。BeeLlama.cpp 的 KV Cache 量化優化可讓你在同等顯存下運行更大或更多模型，直接降低推論硬體門檻與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "編譯 v0.4.1 版本，在 8GB VRAM 環境中用 Q2_0/Q3_1 KV Cache 跑 Qwen2.5-7B 等模型，實測 VRAM 節省幅度與輸出質量影響，評估是否值得遷移。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-26-90-thinkingcap-fable-fusion-qwen3-6-27b",
+    "title": "90次代理任務對決：ThinkingCap、Fable Fusion 對上 Qwen3.6-27B 原生版",
+    "title_original": "90 agentic bakeoff runs: ThinkingCap vs Fable Fusion vs stock Qwen3.6-27B",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v78dzr/90_agentic_bakeoff_runs_thinkingcap_vs_fable/",
+    "published_at": "2026-07-26T16:19:45+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶進行了 90 回合的代理能力基準測試，比較 ThinkingCap、Fable Fusion 兩套代理框架，以及 Qwen3.6-27B 原生模型的表現。測試聚焦於自動化任務完成率與工具調用準確性。",
+    "highlights": [
+      "90 回合大規模代理能力對決，樣本量充足",
+      "三方對比：ThinkingCap 框架、Fable Fusion 框架、Qwen3.6-27B 原生",
+      "測試維度可能包含工具調用成功率與任務完成度",
+      "Qwen3.6-27B 為 27B 參數規模的開源模型",
+      "結果可作為本地部署代理方案的選型參考"
+    ],
+    "why_it_matters": "代理框架百花齊放，缺乏統一基準。此測試以 90 回合量化對比，為技術選型提供實證參考，而非僅憑直覺或行銷文案判斷。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載測試 prompt 集，針對自身業務場景（如客服對話、資料爬取）重新跑分，驗證哪套方案更適合你的自動化流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-26-23-gemma4-e4b-abliterator",
+    "title": "23款 Gemma4-E4B 模型 abliterator 對比：下載量最高的反而問題最多",
+    "title_original": "23 Gemma4-E4B models compared with abliterlitics: the most downloaded one is also the most broken",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v73ux4/23_gemma4e4b_models_compared_with_abliterlitics/",
+    "published_at": "2026-07-26T13:25:33+00:00",
+    "category": "new-models",
+    "summary": "研究者對 23 個 Gemma4-E4B 微調變體進行 abliterator 技術對比測試，發現下載量最高的模型反而在 Abliterlitics 指標上表現最差，暗示社群盲目追求下載量的風氣可能掩蓋了質量問題。",
+    "highlights": [
+      "Gemma4-E4B 共 23 款微調變體參與測試",
+      "使用 Abliterlitics 技術評估模型改編質量",
+      "下載量最高的模型表現最差，形成反差",
+      "研究揭示社群熱度與模型質量的不一致性",
+      "可作為 Gemma4 微調選型的避坑參考"
+    ],
+    "why_it_matters": "開源模型生態資訊不對稱嚴重，高下載量不等於高質量。此研究以數據打破「人氣=好用」的迷思，幫助技術人員做出更理性的模型選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "查閱 Abliterlitics 排行榜，避開下載量大但評測分低的 Gemma4-E4B 變體，優先選擇評測分高且經過 abliterator 驗證的版本用於生產環境。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-26-kglite-python-rust-cypher-mcp",
     "title": "kglite：Python/Rust 嵌入式 Cypher 知識圖譜，含 MCP 伺服器",
     "title_original": "kkollsga/kglite",
@@ -140,6 +281,34 @@
       "JavaScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/6858123?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-26-kimi-k3",
+    "title": "Kimi K3 即將開源權重",
+    "title_original": "Kimi K3 gets open weighted tomorrow!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v722bp/kimi_k3_gets_open_weighted_tomorrow/",
+    "published_at": "2026-07-26T12:05:47+00:00",
+    "category": "open-source-ai",
+    "summary": "消息指 Kimi K3 模型將於明日發布開源權重版本。Kimi 系列模型由月之暗面（Moonshot AI）開發，此前多為 API 调用形式提供，開源權重意味著可在本地部署。",
+    "highlights": [
+      "Kimi K3 將開放模型權重",
+      "月之暗面旗下模型首次開源權重",
+      "可擺脫 API 調用限制，實現本地部署",
+      "開源規模與授權方式待官方公告確認",
+      "此消息為 Reddit 論壇轉述，尚未獲官方證實"
+    ],
+    "why_it_matters": "若 Kimi K3 開源成功，將為本地推論提供新的選項，尤其適合對數據隱私有要求、或希望降低 API 費用的技術團隊。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注官方 GitHub 或 HuggingFace 頁面，權重發布後第一時間下載評估，用 lm_eval 跑 MMLU、HumanEval 等標準基準與現有模型對比。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
