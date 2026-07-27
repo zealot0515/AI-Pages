@@ -1,5 +1,146 @@
 [
   {
+    "id": "2026-07-27-pyscrappy-python-mcp",
+    "title": "PyScrappy：Python 網頁爬蟲工具與 MCP 伺服器",
+    "title_original": "mldsveda/PyScrappy",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mldsveda/PyScrappy",
+    "published_at": "2026-07-27T13:39:18Z",
+    "category": "agent-skills",
+    "summary": "PyScrappy 是 Python 網頁爬蟲工具包，同時提供 MCP 伺服器功能，可為 AI Agent 提供乾淨、結構成化的網頁資料。GitHub 獲得 93 顆星，屬新興專案，適合技術用戶整合進自動化工作流程。",
+    "highlights": [
+      "同時具備爬蟲工具包與 MCP 伺服器功能",
+      "為 AI Agent 提供結構化網頁資料輸出",
+      "Python 實作，易於與現有 Python 工作流程整合",
+      "新興專案，星數 93，功能成熟度待驗證",
+      "可用於取代或輔助傳統爬蟲框架"
+    ],
+    "why_it_matters": "讓 AI Agent 能可靠地抓取並解析網頁資料是實現自動化研究與監控的關鍵。PyScrappy 若穩定，可簡化 Agent 的網頁資訊獲取流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 PyScrappy MCP 伺服器整合進現有 Agent 工作流程，實現自動化技術部落格監控、競品資訊抓取或文件更新追蹤。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/86206345?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-0-34-api-27-60",
+    "title": "成本對比實測：本地模型 $0.34 對比雲端 API $27.60 完成相同任務",
+    "title_original": "just another benchmark: $0.34 vs $27.60 for the same tasks solved",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7z4is/just_another_benchmark_034_vs_2760_for_the_same/",
+    "published_at": "2026-07-27T12:35:09+00:00",
+    "category": "hot-topics",
+    "summary": "開發者進行實際任務benchmark，比較本地運行小型開源模型與調用商業 API 的總成本。本地模型含硬體折舊僅需 $0.34，而商業 API 收費達 $27.60，差距約 80 倍，凸顯本地部署的成本優勢。",
+    "highlights": [
+      "測試任務具體定義，而非抽象 benchmark",
+      "成本計算包含硬體折舊、電力等隱性開銷",
+      "本地模型選型未明，但推測為 7B-13B 規模",
+      "強調相同任務、相同品質假設下的公平比較",
+      "引發社群對本地 vs API 成本取捨的熱議"
+    ],
+    "why_it_matters": "對需要大量 API 呼叫的自動化流程，本地部署可節省驚人成本。若你的工作流程程涉及高頻率 Prompt，本地化值得認真評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "將日常重複性任務抽出來做成本效益分析，若呼叫頻率高於某閾值，即可考慮用本地模型替換商業 API。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-fpga-softmax",
+    "title": "FPGA 跑模型新攻略：Softmax 優化實作",
+    "title_original": "Softmax for People Trying To Run Models on FPGAs",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7z33m/softmax_for_people_trying_to_run_models_on_fpgas/",
+    "published_at": "2026-07-27T12:33:24+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶分享在 FPGA 上實現 Softmax 層的技術實作，針對資源受限的硬體環境優化記憶體存取與計算管線，可作為邊緣 AI 部署的參考範本。",
+    "highlights": [
+      "提供 FPGA 上 Softmax 的具體實現思路",
+      "強調記憶體頻寬優化與管線設計",
+      "適合物聯網、工業邊緣等低功耗場景",
+      "開源或附有程式碼可供參考",
+      "屬於進階技術文，需要一定硬體背景才能完全吸收"
+    ],
+    "why_it_matters": "邊緣部署硬體選擇多元，若能在 FPGA 上高效運行模型，可大幅降低推論延遲與功耗，對嵌入式系統開發者極具參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載相關程式碼，在自有的 FPGA 開發板上測試 Softmax 層效能，評估是否適合部署特定任務的模型。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-hugging-face-open-secure-ai-alliance",
+    "title": "黃仁勳：Hugging Face 資安事件後，Open Secure AI Alliance 成立",
+    "title_original": "Jensen Huang: During the Hugging Face incident, closed AI blocked essential forensics. An open-weight frontier model helped contain the intrusion. That’s why we created the Open Secure AI Alliance.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7yand/jensen_huang_during_the_hugging_face_incident/",
+    "published_at": "2026-07-27T11:59:03+00:00",
+    "category": "open-source-ai",
+    "summary": "黃仁勳在公開場合表示，Hugging Face 資安事件中，封閉 AI 阻礙了關鍵取證工作，而開源權重模型協助控制了入侵規模。NVIDIA 因此牽頭成立 Open Secure AI Alliance，旨在推動安全、可審計的開源 AI 生態。",
+    "highlights": [
+      "Hugging Face 曾發生資安事件，細節尚待證實",
+      "封閉模型延誤取證，開源模型反而提供透明度",
+      "NVIDIA 牽頭成立安全聯盟，目標建立開源 AI 安全標準",
+      "可能涉及漏洞回報、模型簽章、安全審計等機制",
+      "象徵大廠對開源 AI 安全性議題的正式表態"
+    ],
+    "why_it_matters": "資安已是 AI 部署核心議題，此聯盟若能建立標準，將影響企業採用本地模型的合規與安全評估，技術人員應關注具體技術規格。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注聯盟發布的安全框架或工具鏈，用於強化自架模型的漏洞掃描與合規審計流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-ai-anthropic",
+    "title": "業界力挺開源 AI，Anthropic 立場孤立——業界下一步怎麼走？",
+    "title_original": "The entire tech industry (save for Anthropic) has come out in favor of open source AI. So what happens next? Will Anthropic change its lobbying efforts? Not likely. Now the gaslighting begins: “Nobody is trying to ban open source.”",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7vts0/the_entire_tech_industry_save_for_anthropic_has/",
+    "published_at": "2026-07-27T09:52:17+00:00",
+    "category": "hot-topics",
+    "summary": "多方報導指出，除 Anthropic 外，主要科技公司多表態支援開源 AI。Anthropic 持續倡議更嚴格的 AI 監管，引發「沒人要禁開源」的質疑，業界推測其立場可能與商業模式相關。",
+    "highlights": [
+      "Meta、Google、Microsoft 等明確擁抱開源策略",
+      "Anthropic 持續推動監管，反對開源立場明顯",
+      "輿論開始出現「假議題」質疑，認為禁令不可行",
+      "可能影響未來 AI 法規走向與企業選型策略",
+      "屬於產業趨勢分析，非技術直接相關"
+    ],
+    "why_it_matters": "開源 vs 封閉的生態之爭將決定未來工具鏈與成本結構。即使你不關心政治，政策結果會直接影響你能用什麼工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "密切關注各國 AI 法規進展，評估對自有專案採用的模型與部署方式是否會受到限制。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-27-hkuds-nanobot-ai-agent-46k-stars",
     "title": "HKUDS/nanobot：超輕量開源個人 AI Agent 框架，46K stars",
     "title_original": "HKUDS/nanobot",
@@ -58,6 +199,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-27-meta",
+    "title": "Meta 確認將發布開源模型，但時間與規格未明",
+    "title_original": "Meta has confirmed that it will release an open source model in the future",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7smm5/meta_has_confirmed_that_it_will_release_an_open/",
+    "published_at": "2026-07-27T06:46:32+00:00",
+    "category": "open-source-ai",
+    "summary": "Meta 透過官方或高層管道確認未來會發布開源模型，但未透露具體時間表、模型規格或開源範圍。社群反應兩極，有人期待Llama系列後續，也有人質疑只是行銷話術。",
+    "highlights": [
+      "Meta 高層釋出開源承諾，但具體細節付之闕如",
+      "可能是 Llama 系列的下一代產品或全新架構",
+      "與監管壓力、開發者社群期待有關",
+      "社群對此抱持觀望態度，等待實質動作",
+      "與 OpenAI、Anthropic 的封閉策略形成對比"
+    ],
+    "why_it_matters": "若 Meta 真的發布更強大的開源模型，將直接衝擊閉源模型市場，讓本地部署成本更低、彈性更高，技術人員需密切關注後續公告。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤 Meta 官方公告，一旦確認開源即可評估將其整合進現有 CI/CD 流程或自動化腳本的可能性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-27-reddit",
     "title": "退燒後你還在用哪個本地模型？Reddit 社群盤點實用選擇",
     "title_original": "What local model do you still use after the hype wore off?",
@@ -79,6 +248,34 @@
     "automation_angle_zh": "可參考社群回饋選擇適合自己自動化工作流程的本地模型，評估功耗與效能平衡，特別適合需要長時間運行或離線使用的場景。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-openai-ai",
+    "title": "OpenAI 研究：AI 正在擴展工作者的任務邊界",
+    "title_original": "How AI is expanding what people do at work",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+    "published_at": "2026-07-27T03:30:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格發布新研究，展示 AI 如何擴展工作者任務範圍，ChatGPT 使用者開始承擔跨角色的任務，逐步重塑工作邊界。這屬於趨勢觀察類內容，非具體產品更新。",
+    "highlights": [
+      "OpenAI 官方部落格發布，來源可信",
+      "聚焦 AI 對工作邊界的宏觀影響",
+      "ChatGPT 使用者行為數據支撐論點",
+      "屬趨勢分析，非具體功能或產品更新",
+      "對技術實作者直接幫助有限"
+    ],
+    "why_it_matters": "了解 AI 應用趨勢有助預判市場需求與工具方向，但此類內容較偏行銷研究，缺乏技術深度，技術宅可作為宏觀參考但無需深入鑽研。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考報告中的任務擴展案例，評估哪些工作流程程已具備自動化成熟度，尋找自身工作中的類似切入點。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -4332,6 +4529,34 @@
     "why_it_matters": "Gemini Flash 系列持續擴張，代表 Google 對高效能低成本模型的戰略承諾。Cyber 變體的出現顯示模型能力正往垂直領域分化，技術使用者可評估是否符合特定應用需求。",
     "automation_angle": null,
     "automation_angle_zh": "開發者可存取 Google AI Studio 或 Vertex AI，針對任務類型選擇合適的 Flash 等級模型。例如用 3.5 Flash-Lite 做內部工具的簡單分類，用 3.6 Flash 處理複雜推論，測試成本與品質的黃金比例。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-27-google-gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber",
+    "title": "Google 發布 Gemini 3.6 Flash、3.5 Flash-Lite 與 3.5 Flash Cyber",
+    "title_original": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
+    "published_at": "2026-07-21T15:16:30+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 官方宣布推出三款新 Gemini 模型：Gemini 3.6 Flash 主打高效能、3.5 Flash-Lite 瞄準輕量場景、3.5 Flash Cyber 針對網路安全情境。這是 Gemini 3 系列的重要更新，值得關注其具體能力與定價。",
+    "highlights": [
+      "Google DeepMind 官方發布，可信度高",
+      "Gemini 3.6 Flash 為主打高效能版本",
+      "3.5 Flash-Lite 定位輕量、低成本場景",
+      "3.5 Flash Cyber 專注網路安全應用",
+      "填補 Gemini 3 系列在輕量與垂直場景的空白"
+    ],
+    "why_it_matters": "Gemini 3 系列一口氣推出三款定位不同的 Flash 模型，代表 Google 在模型階梯化策略上更成熟，技術用戶可依任務需求選擇更符合成本效益的版本。",
+    "automation_angle": null,
+    "automation_angle_zh": "比較 Gemini 3.6 Flash 與 3.5 Flash-Lite 在延遲、成本與輸出品質上的差異，針對日常自動化任務選擇最具成本效益的版本實際部署。",
     "tags": [
       "new-models",
       "rss",
