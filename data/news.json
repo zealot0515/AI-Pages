@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-07-27-hkuds-nanobot-ai-agent-46k-stars",
+    "title": "HKUDS/nanobot：超輕量開源個人 AI Agent 框架，46K stars",
+    "title_original": "HKUDS/nanobot",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/HKUDS/nanobot",
+    "published_at": "2026-07-27T09:25:01Z",
+    "category": "open-source-ai",
+    "summary": "nanobot 是 Python 開源的極輕量 Agent 框架，支援 WebUI、工具呼叫、記憶管理、MCP 協定、多 Agent 協作與自動化腳本。星標快速累積至 46K，社群活躍。",
+    "highlights": [
+      "Python 實作，依赖簡潔",
+      "支援 MCP 協定可擴充工具生態",
+      "提供 WebUI 與 CLI 兩種操作介面",
+      "多 Agent 協作模式支援工作流程自動化",
+      "46K stars 顯示高社群認可度"
+    ],
+    "why_it_matters": "對比同類框架，nanobot 的輕量化與 MCP 支援讓技術用戶能快速組合自定義 Agent 流程，且社群資源豐富。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可用 pip 安裝後，以 nanobot 快速原型化個人日曆管理或文件分類自動化腳本，評估是否取代現有方案。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/118165258?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-mcp-cn-commerce-mcp",
+    "title": "mcp-cn-commerce：中國電商資料 MCP 連接器，支援抖音、京東、淘寶",
+    "title_original": "TonyWang-hub/mcp-cn-commerce",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/TonyWang-hub/mcp-cn-commerce",
+    "published_at": "2026-07-27T08:36:52Z",
+    "category": "agent-skills",
+    "summary": "mcp-cn-commerce 為中國電商平台提供 MCP 協定連接器，可讓 AI Agent 直接讀取抖音電商、京東、淘寶、拼多多等商家的營業數據，目前星標極少（16）。",
+    "highlights": [
+      "支援抖音電商、京東、淘寶、拼多多",
+      "MCP 協定相容主流 Agent 框架",
+      "可讀取商家維度營業數據",
+      "星標僅 16，成熟度待觀察",
+      "需留意電商平台 API 政策風險"
+    ],
+    "why_it_matters": "中國電商資料整合是強需求，但該專案新興且缺乏社群驗證，技術用戶應評估穩定性與合規風險後再引入工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "電商從業技術者可本地測試該 MCP 工具，驗證能否自動化抓取店鋪銷售數據報告，減少手動操作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/12796568?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-reddit",
+    "title": "退燒後你還在用哪個本地模型？Reddit 社群盤點實用選擇",
+    "title_original": "What local model do you still use after the hype wore off?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7r87j/what_local_model_do_you_still_use_after_the_hype/",
+    "published_at": "2026-07-27T05:28:16+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串邀請用戶分享在 AI 熱潮退燒後，仍持續使用的本地模型。話題涵蓋各模型的穩定性、功耗效率、實際任務表現，以及哪些模型在特定場景（如程式碼生成、寫作、推論）仍具競爭力。",
+    "highlights": [
+      "社群回顧各本地模型在實際使用中的長期表現",
+      "聚焦模型穩定性而非僅看 benchmark 數據",
+      "討論功耗與效能的取捨",
+      "特定任務的模型選擇建議",
+      "實用主義視角：適合日常使用的模型"
+    ],
+    "why_it_matters": "對於需要穩定本地部署的技術用戶，了解哪些模型經得起時間考驗比追逐新模型更有價值。此討論提供真實使用經驗而非實驗室數據。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考社群回饋選擇適合自己自動化工作流程的本地模型，評估功耗與效能平衡，特別適合需要長時間運行或離線使用的場景。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-10",
+    "title": "小上下文視窗搭配知識圖譜：序列格式優化使多跳推論準確率提升一倍（10種格式基準測試）",
+    "title_original": "Small context windows + knowledge graphs: the serialization format alone doubled my multi-hop accuracy (benchmarked 10 formats)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7npse/small_context_windows_knowledge_graphs_the/",
+    "published_at": "2026-07-27T02:32:33+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶分享在有限上下文窗口的本地 LLM 中，透過改良知識圖譜序列化格式，可顯著提升多跳推論任務的準確率。實驗測試了10種不同的序列化格式，發現格式選擇對結果影響極大，部分格式能帶來近兩倍的準確率提升。",
+    "highlights": [
+      "知識圖譜序列化格式直接影響本地 LLM 的推論表現",
+      "10種格式基準測試結果顯示格式選擇至關重要",
+      "小上下文窗口場景下知識圖譜可作為外部記憶增強",
+      "部分序列化格式可使多跳準確率提升約100%",
+      "此方法可在 7B 左右的小模型上實現高效推論"
+    ],
+    "why_it_matters": "對於在本地部署 LLM 的開發者而言，在記憶體和計算資源受限的環境下，透過優化知識圖譜格式而非盲目追求更大的上下文窗口，是更經濟的方案。此技巧可降低硬體需求同時維持高準確率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此方法應用於 RAG 系統或智慧代理框架，替換現有的簡單文本檢索，用結構化知識圖譜提升複雜問題的推論能力。可用於自動化文件分析、多步驟客服機器人或研究助理。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-27-reddit-ollama-9b-agentic-dj",
     "title": "Reddit 實作：本地 Ollama 9B 模型驅動的 Agentic DJ 音樂選擇系統",
     "title_original": "My Ollama box picks the music now: an agentic DJ running on a 9B model",
@@ -77,6 +191,33 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-galaxy-z8-ai",
+    "title": "三星 Galaxy Z8 系列預售：雙倍儲存空間搭配 AI 訂閱優惠",
+    "title_original": "三星開始预售Galaxy Z8系列，提供雙倍存储和AI訂閱優惠 - 亚洲日报",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MZV9mVmlib1YwNTdkR0xaWGtuUFlIWHZ3TUc1dnNNdUk5cEtobmRUWmR4VWQ1RDlLbnlUOXFBSUs5YWVWRGVWaVI4UHh0TnFsNnhNZ3RBUE0xMWs?oc=5",
+    "published_at": "2026-07-26T23:32:00+00:00",
+    "category": "ai-deals",
+    "summary": "三星針對 Galaxy Z8 系列新機提供預售優惠，包含儲存空間加倍以及 AI 服務訂閱折扣。此優惠主要針對一般消費者，與技術開發者的 AI 工作流程自動化無直接關聯。",
+    "highlights": [
+      "硬體產品預售優惠，非 AI 工具或服務",
+      "優惠內容為儲存空間加量和訂閱折扣",
+      "目標受眾為一般手機消費者",
+      "與開發者工作流程關聯性低"
+    ],
+    "why_it_matters": "對於需要整合 AI 工具到手機使用場景的技術用戶，可能關注三星的 AI 功能。但此預售資訊屬一般消費產品新聞，非開發者向 AI 資訊。",
+    "automation_angle": null,
+    "automation_angle_zh": "對技術用戶的直接價值較低，若有手機端 AI 應用開發需求可關注三星的 AI API 生態。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
