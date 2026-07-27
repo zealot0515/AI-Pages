@@ -1,5 +1,222 @@
 [
   {
+    "id": "2026-07-27-reddit-ollama-9b-agentic-dj",
+    "title": "Reddit 實作：本地 Ollama 9B 模型驅動的 Agentic DJ 音樂選擇系統",
+    "title_original": "My Ollama box picks the music now: an agentic DJ running on a 9B model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7mmgg/my_ollama_box_picks_the_music_now_an_agentic_dj/",
+    "published_at": "2026-07-27T01:42:03+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶展示了一套在本地 Ollama 環境下運行 9B 參數模型作為 Agentic DJ 的實作。系統能根據情境自動選擇播放曲目，展示了本地小模型在創意工具型 Agent 應用中的可行性。缺乏完整程式碼與評估數據，但提供了本地部署創意 Agent 的參考方向。",
+    "highlights": [
+      "9B 參數本地模型已具備基礎 Agentic 決策能力",
+      "展示了非傳統 AI 應用場景（音樂推薦）的可能性",
+      "缺少可重現的程式碼與量化評估",
+      "本地部署避免了 API 成本與延遲問題"
+    ],
+    "why_it_matters": "這類創意工具型 Agent 展示了小模型在特定垂直場景的實用性，若能提取核心邏輯，可移植到自動化工作流程中的決策路由場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可研究其 prompt engineering 手法與工具呼叫模式，將類似決策路由機制應用於本地自動化腳本，例如根據日曆事件自動切換工作環境配置。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-datanexa-rust-mcp-sqlite-mysql-postgresql",
+    "title": "DataNexa：Rust 實作的本地桌面 MCP 伺服器，支援 SQLite/MySQL/PostgreSQL 安全唯讀存取",
+    "title_original": "MingoZacwu/DataNexa",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/MingoZacwu/DataNexa",
+    "published_at": "2026-07-27T00:59:49Z",
+    "category": "agent-skills",
+    "summary": "DataNexa 是一個新興的 MCP（Model Context Protocol）伺服器專案，現僅 11 顆星，以 Rust 實作，專為 AI Agent 提供對 SQLite、MySQL、PostgreSQL 資料庫的安全唯讀存取介面。其設計強調隔離性與最小權限原則，技術用戶可在本地環境快速整合資料庫上下文給 AI Agent，無需直接暴露資料庫憑證。",
+    "highlights": [
+      "Rust 實作，執行效率與記憶體安全兼顧",
+      "支援三大主流資料庫：SQLite、MySQL、PostgreSQL",
+      "唯讀設計降低資料外洩風險",
+      "適合本地快速測試 MCP 協定整合"
+    ],
+    "why_it_matters": "讓 AI Agent 能安全查詢資料庫是工作流程自動化的關鍵一步。唯讀 MCP 介面可在不暴露寫入權限的前提下，為 AI 提供結構化資料上下文。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地安裝 DataNexa，設定資料庫唯讀權限，然後讓 AI Agent 自動生成 SQL 查詢並解讀結果，用於報表自動化或資料審計。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/145675535?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-llm",
+    "title": "本地 LLM 的意外應用場景分享",
+    "title_original": "Unexpected use of local llm",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7l1ly/unexpected_use_of_local_llm/",
+    "published_at": "2026-07-27T00:29:33+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶分享使用本地 LLM 過程中發現的非預期應用場景，涵蓋創意寫作、程式碼輔助、資料分析等多種用法，展現本地部署的靈活性與創意潛力。",
+    "highlights": [
+      "社群分享本地 LLM 創意用法",
+      "非預期的應用場景收錄",
+      "涵蓋寫作、程式、資料分析等領域",
+      "展示本地部署的多元潛力"
+    ],
+    "why_it_matters": "對技術用戶而言，這類社群分享可激發新想法，幫助探索如何將本地 LLM 整合進現有工作流程程以提升效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "瀏覽討論串中的具體應用案例，篩選可移植到自身工作場景的創意，評估其自動化價值與實作可行性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-llm",
+    "title": "本地推論專屬用例：裝置端 LLM 理解你的人生，主動幫你完成工作",
+    "title_original": "[OSS] Use case only possible with local inference at its core: an on-device LLM understands your entire life, then proactively offers to get your work done through computer use! Open-source & free :D",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7ifsj/oss_use_case_only_possible_with_local_inference/",
+    "published_at": "2026-07-26T22:37:33+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享一種只有在本地推論才能實現的用例：讓 LLM 完全理解你的個人資料和工作內容，透過電腦控制主動完成任務。此專案開源且免費，展示了本地部署的隱私優勢與個人化 AI 助理的可能性。",
+    "highlights": [
+      "強調本地推論才能實現的「理解用戶完整人生」用例",
+      "結合電腦控制（Computer Use）能力的個人化助理",
+      "開源專案，強調免費與隱私保護",
+      "隱私敏感場景下本地部署的獨特價值"
+    ],
+    "why_it_matters": "對技術宅而言，這展示了一種「深度個人化 + 完全隱私」AI 助理的可行架構，可用來評估本地 LLM 的長期應用方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "可研究該開源專案的實作方式，評估其是否能改造成自動化工作流程程工具，例如自動處理郵件或排程任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-llm-rtx-ada-5090",
+    "title": "建本地 LLM 機器：用 RTX Ada 專業卡還是消費級 5090？",
+    "title_original": "Do people building local LLM rigs track RTX Ada/workstation card prices, or just consumer cards like the 5090?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7eb4x/do_people_building_local_llm_rigs_track_rtx/",
+    "published_at": "2026-07-26T19:58:12+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 討論組探討組建本地 LLM 推論伺服器時，專業級 RTX Ada/工作站顯示卡與消費級 RTX 5090 的價格追蹤與選擇策略，幫助技術用戶評估成本效益。",
+    "highlights": [
+      "RTX Ada 工作站卡 vs 消費級 5090 的取捨",
+      "本地 LLM 推論伺服器硬體建置成本討論",
+      "不同等級顯示卡的性價比分析",
+      "供應與價格趨勢追蹤"
+    ],
+    "why_it_matters": "硬體成本是本地部署的關鍵變數，此討論幫助技術用戶評估何種顯示卡配置能以合理成本獲得最佳推論效能。",
+    "automation_angle": null,
+    "automation_angle_zh": "可根據討論中的價格與效能數據，計算不同硬體配置的每 Token 成本，評估自動化工作流程程的長期持有成本。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-kimi-k3",
+    "title": "Kimi K3 倒計時啟動：新模型即將發布",
+    "title_original": "Kimi K3 countdown has been released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7e5ck/kimi_k3_countdown_has_been_released/",
+    "published_at": "2026-07-26T19:51:55+00:00",
+    "category": "new-models",
+    "summary": "據 Reddit 消息，Kimi（Moonshot AI）正在準備發布代號為 K3 的新模型，目前進入倒計時階段。這是繼 K1.5 之後的重大更新預告，社群關注度較高但官方尚未公布詳細規格。",
+    "highlights": [
+      "Moonshot AI 旗下 Kimi 系列新模型",
+      "代號 K3 的倒計時發布",
+      "繼 K1.5 之後的迭代版本",
+      "官方尚未釋出詳細技術規格"
+    ],
+    "why_it_matters": "Kimi 在長文本處理和中文理解上有優勢，K3 的發布可能帶來效能提升或成本優化，值得技術用戶追蹤以評估是否整合進工作流程程。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續關注 K3 的官方發布資訊，若性價比優於現有方案，可評估將其整合至自動化文案處理或長文本分析流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-relay-token",
+    "title": "Relay 市場內幕：支撐 Token 轉售與欺詐的技術生態",
+    "title_original": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
+    "published_at": "2026-07-26T19:30:54+00:00",
+    "category": "agent-skills",
+    "summary": "Matt Lenhard 的調查報導揭露一個圍繞 LLM API Token 轉售的中國市場。轉售商透過濫用免費試用、穿透未防護的客服 Bot，有時甚至使用盜竊信用卡或 Chargeback 攻擊來取得低價 tokens，再透過類似 one-api 與 new-api 等開源代理軟體轉售獲利。買家動機包括規避地理限制與降低 API 成本，部分買家更據信在收集資料用於模型蒸餾。此生態讓 LLM 應用開發者更需警惕自家 API 被濫用而產生巨額帳單。",
+    "highlights": [
+      "轉售工具 one-api / new-api 均為合法開源 API 代理產品",
+      "主要濫用手段：免費試用、未防護 Bot、盜卡、Chargeback",
+      "買家目的含蒸餾模型資料收集，技術風險上升",
+      "對 LLM 應用開發者暴露了 API 安全與成本失控風險"
+    ],
+    "why_it_matters": "此調查揭示了 Token 成本失控與 API 被濫用的真實攻擊面。技術用戶應重新審視自家 LLM 應用的 API 密鑰管理策略，避免成為攻擊目標。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即檢查 LLM API Key 是否設定花費上限（spending cap），並監控異常流量模式。可考慮啟用 IP 白名單與用量告警，防止被惡意代理轉售利用。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-harness-claude-code-vs-opencode-vs-pi-deepseek-v4-flash",
+    "title": " Harness 大對決：Claude Code vs OpenCode vs Pi 搭配 DeepSeek V4 Flash",
+    "title_original": "Harness showdown: Claude Code vs OpenCode vs Pi with DeepSeek V4 Flash",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v7d8px/harness_showdown_claude_code_vs_opencode_vs_pi/",
+    "published_at": "2026-07-26T19:17:40+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 社群針對三款 AI Coding Agent 工具（Claude Code、OpenCode、Pi）使用 DeepSeek V4 Flash 模型進行效能對比測試，結果顯示各工具在不同場景下的表現差異，可供技術開發者參考選擇。",
+    "highlights": [
+      "DeepSeek V4 Flash 作為測試基底模型",
+      "三款主流 Coding Agent 橫向比較",
+      "涵蓋多場景測試以驗證實用性",
+      "結果可供工具選型參考"
+    ],
+    "why_it_matters": "對於需要選擇 Coding Agent 的開發者，此對決提供了實證參考，可根據自身場景選擇最適合的工具組合以提升開發效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可依測試結果選擇適合的 Agent 工具，搭配本地部署的 DeepSeek V4 Flash，降低 API 成本並自動化日常編碼任務。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-26-delphi-mcp-ai-agent",
     "title": "Delphi：開源 MCP 伺服器，助 AI Agent 建立本地知識索引",
     "title_original": "synthetic-sciences/delphi",
