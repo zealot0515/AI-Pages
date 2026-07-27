@@ -1,5 +1,200 @@
 [
   {
+    "id": "2026-07-27-moonshotai-kimi-k3-hugging-face",
+    "title": "moonshotai/Kimi-K3 登上 Hugging Face 趨勢榜",
+    "title_original": "moonshotai/Kimi-K3",
+    "source": "Hugging Face Trending Models",
+    "source_url": "https://huggingface.co",
+    "original_url": "https://huggingface.co/moonshotai/Kimi-K3",
+    "published_at": "2026-07-27T19:13:31.630577+00:00",
+    "category": "open-source-ai",
+    "summary": "月之暗面（Moonshot）團隊開源的 Kimi-K3 模型現身 Hugging Face 趨勢頁，具備文字對話、圖文理解、客製化程式生成能力，目前有 5512 個讚、2850 次下載。模型以 Transformers + Safetensors 格式釋出。",
+    "highlights": [
+      "月之暗面（Moonshot）官方或關聯團隊開源",
+      "支援Conversational、Image-Text-to-Text、Feature-Extraction 任務",
+      "提供 Safetensors 格式與量化版本（8-bit、壓縮張量）",
+      "55512 個讚、2850 次下載，社群熱度高",
+      "可透過 Custom Code 方式整合進既有 Pipeline"
+    ],
+    "why_it_matters": "Kimi 系列首度開源且具備多模態能力，為本地部署中文理解 Agent 提供新選項，尤其適合需要兼顧成本與隱私的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載 8-bit 量化版本在本地 GPU 上試跑，評估其中文文件理解與摘要能力是否足以替代雲端 API。",
+    "tags": [
+      "open-source-ai",
+      "hf_models",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-hatchdoor-rust-mcp-markdown-agent",
+    "title": "Hatchdoor：用 Rust 實作的自託管 MCP 伺服器，為 Markdown 知識庫供 Agent 呼叫",
+    "title_original": "BatterWorks/Hatchdoor",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/BatterWorks/Hatchdoor",
+    "published_at": "2026-07-27T19:11:12Z",
+    "category": "open-source-ai",
+    "summary": "BatterWorks 推出 Hatchdoor，一個以 Rust 實作的自託管 MCP 伺服器，專為 Obsidian 風格的 Markdown 筆記庫設計。支援從快速 UI 或 AI Agent 兩端瀏覽、搜尋與編輯筆記，目前已有 13 顆星。",
+    "highlights": [
+      "以 Rust 實作，強調高效能和安全性",
+      "自託管 MCP 伺服器，支援 Model Context Protocol",
+      "為 Obsidian 風格 Markdown 筆記庫提供 Agent 介面",
+      "可從 UI 或 AI Agent 兩端操作"
+    ],
+    "why_it_matters": "本地知識庫正在成為 AI Agent 的標配能力，Hatchdoor 讓技術用戶能在不依賴雲端的情況下，讓 AI Agent 直接讀寫個人筆記系統，兼顧隱私與效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "將本地筆記庫部署 Hatchdoor MCP 服務，讓 Claude 或 GPT 等 Agent 能主動查詢、更新個人知識庫，實現「讓 AI 替你管筆記」的自動化場景。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/309677812?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-clearfront-3400-osint-agent",
+    "title": "Clearfront：3400+ 資料源開源 OSINT Agent",
+    "title_original": "scottmartinanderson/clearfront",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/scottmartinanderson/clearfront",
+    "published_at": "2026-07-27T18:52:13Z",
+    "category": "agent-skills",
+    "summary": "Clearfront 是開源 AI OSINT Agent，號稱可橫跨 3400 個公開資料源映射數位足跡。提供 REPL、CLI、Web Console 與 MCP Server 四種介面，Python 實現，目前 stars 僅 15，屬早期專案。",
+    "highlights": [
+      "橫跨 3400+ 公開資料源的 OSINT 工具",
+      "支援 REPL、CLI、Web Console、MCP Server 四種介面",
+      "Python 開源，屬早期專案（15 stars）",
+      "可用於數位足跡、競爭情報、安全審計等場景",
+      "開源特性允許自架部署與資料源擴展"
+    ],
+    "why_it_matters": "OSINT 能力結合 MCP Server 介面，可將外部威脅情報或品牌監控整合進 Agent 工作流程，但專案成熟度有待驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "安全或品牌團隊可將 Clearfront 部署在隔離環境，測試其資料源覆蓋範圍與查詢速度，評估是否適合作為自動化監控 Pipeline 的一環。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/217986189?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-landingai-ade-agent-skills",
+    "title": "LandingAI 發布 ADE 文件處理 Agent Skills，可直接整合進代理腳本",
+    "title_original": "landing-ai/ade-document-processing-skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/landing-ai/ade-document-processing-skills",
+    "published_at": "2026-07-27T18:48:58Z",
+    "category": "agent-skills",
+    "summary": "LandingAI 開源了 LandingAI Agentic Document Extraction (ADE) 的生產級 Agent Skills，可讓代理編碼助理直接呼叫文件 AI 能力。該專案在 GitHub 已有 60 顆星，提供可直接用於自動化和工作流程整合的實作範例。",
+    "highlights": [
+      "提供生產級文件 AI 技能，可作為 Agent 工具直接呼叫",
+      "適用於代理編碼助理整合，支援文件萃取任務",
+      "GitHub 星數 60，屬於新興但有實用價值的開源工具",
+      "可今日測試並接入工作流程程"
+    ],
+    "why_it_matters": "文件處理是企業自動化的核心瓶頸之一，直接開源 Skills 降低門檻，工程師可快速將文件 AI 能力嵌入自己的 Agent 腳本，節省自研成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 ADE Skills 整合進現有的自動化腳本，測試對發票、合同、報告等文件的萃取效果，評估是否能替代現有文件處理工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/34525670?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-27-stevesolun-ctx-79-958-agent-mcp",
+    "title": "stevesolun/ctx：79,958 節點的 Agent/MCP/技能推薦圖譜",
+    "title_original": "stevesolun/ctx",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/stevesolun/ctx",
+    "published_at": "2026-07-27T18:41:52Z",
+    "category": "agent-skills",
+    "summary": "ctx 是一個具備近八萬節點知識圖譜的工具推薦系統，收錄 68,494 項技能、467 個 Agent、10,790 個 MCP Server、207 個模型框架。可根據自有專案庫或內建圖譜推薦合適工具。",
+    "highlights": [
+      "79,958 節點的超大知識圖譜",
+      "涵蓋技能、Agent、MCP Server、Harness 四大類別",
+      "支援自有專案庫比對，給出情境化推薦",
+      "Python 實現，563 GitHub stars",
+      "可用於探索 MCP 生态或找替代工具鏈"
+    ],
+    "why_it_matters": "MCP 生態日漸龐大，ctx 提供了系統化探索與比較的工具，能幫助技術人員快速找到特定任務的最佳工具組合。",
+    "automation_angle": null,
+    "automation_angle_zh": "將自己的專案目錄餵入 ctx，查詢「文件處理」或「API 整合」類推薦，快速評估是否有更適合的 MCP Server 或 Agent 框架。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1304538?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-llama-cpp-nanbeige4-2-pr",
+    "title": "llama.cpp 新增 Nanbeige4.2 模型支援，PR 已提交等待合併",
+    "title_original": "[Model] Add support for Nanbeige4.2 by zqlcode · Pull Request #25994 · ggml-org/llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8426q/model_add_support_for_nanbeige42_by_zqlcode_pull/",
+    "published_at": "2026-07-27T15:43:25+00:00",
+    "category": "new-models",
+    "summary": "llama.cpp 社群 PR 新增了 Nanbeige4.2 模型的支援，由 zqlcode 提交，目前處於待合併狀態。此更新將使 llama.cpp 用戶能在本地運行 Nanbeige4.2 模型。",
+    "highlights": [
+      "llama.cpp 新增 Nanbeige4.2 模型的 GGUF 格式支援",
+      "PR 由社群貢獻者提交，尚待合併確認",
+      "將擴展本地 LLM 運行環境的模型選擇",
+      "llama.cpp 持續快速整合新興模型"
+    ],
+    "why_it_matters": "Nanbeige 系列屬於小型本地模型，新增支援後用戶可在 llama.cpp 環境下以更低資源消耗運行，適合邊緣設備或離線場景。需注意 PR 尚未合併，穩定性待驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤此 PR 合併進度，合併後立即測試 Nanbeige4.2 在 llama.cpp 上的推論速度與輸出品質，評估是否適合作為輕量級自動化任務的本地模型。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-kimi-k3",
+    "title": "Kimi K3 模型權重正式開源發布，可在本地部署運行",
+    "title_original": "Kimi K3 weights now released.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8364f/kimi_k3_weights_now_released/",
+    "published_at": "2026-07-27T15:11:07+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社區傳出 Kimi K3 模型權重已正式開源發布的消息。這是继 K1.5 之後 Kimi 系列模型的最新開源版本，社群正熱烈討論其效能與本地運行可行性。",
+    "highlights": [
+      "Kimi K3 模型權重正式釋出",
+      "屬於 Kimi 系列在本地 LLM 領域的最新開源嘗試",
+      "社區正在評估其推論能力與資源需求",
+      "細節資訊有限，需持續關注進一步確認"
+    ],
+    "why_it_matters": "Kimi 系列在長上下文和中文理解上表現突出，若 K3 權重可本地運行，將為技術用戶提供一個強大的中文本地 AI 替代方案，尤其適合對數據隱私有要求的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方或社群確認權重發布細節後，下載並在本地使用 ollama 或 llama.cpp 測試 K3 的實際任務表現，評估是否能替代雲端 API 完成自動化工作。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-27-pyscrappy-python-mcp",
     "title": "PyScrappy：Python 網頁爬蟲工具與 MCP 伺服器",
     "title_original": "mldsveda/PyScrappy",
@@ -278,6 +473,33 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-2026-ai-chatgpt-claude-gemini-grok",
+    "title": "2026 年主流 AI 模型選用指南：ChatGPT、Claude、Gemini 與 Grok 完整比較",
+    "title_original": "我应該使用哪种人工智慧模型？2026 年 ChatGPT、Claude、Gemini 和 Grok 指南 - Brave New Coin",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNWNkbHFqRnhqT2RNNFBsbUs5dzU5M1l2d0dfX0VybGNDSzN3b1VIYlZHeVdLeDRraFhoRndndnZxWkd3WG9uM3dnMFZSNEdQZEhZX015N3ZuQ2dyd0R1a3VYcVFWckd6eWUxeGhia1pJQmhyOHpNbHRjZncyeGh5dkdrM0J0WmFIOHc5al9ycFVxMVNlSjBPLVAxRHY3dDlGV0kxQzVGWHZNdmZ2SU15U1BlMmt6dHFG?oc=5",
+    "published_at": "2026-07-27T02:39:38+00:00",
+    "category": "ai-deals",
+    "summary": "Brave New Coin 發布 2026 年主流 AI 模型選用指南，橫向比較 ChatGPT、Claude、Gemini 與 Grok 的能力、價格與適用場景，協助技術用戶在成本與效能間做出決策。",
+    "highlights": [
+      "覆蓋 2026 年四大主流模型的最新能力變化",
+      "強調模型選擇與成本效益的實際取捨",
+      "包含各模型的定價結構比較",
+      "為技術決策者提供模型切換參考依據"
+    ],
+    "why_it_matters": "不同模型的 API 定價和能力更新頻繁，準確的比較資訊能幫助技術用戶避免選錯模型而浪費成本，或錯過更適合特定任務的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據指南中的比較結果，重新審視目前專案使用的模型，評估是否有更具成本效益的替代選項，並更新 API 調用配置。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -581,6 +803,33 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/220546587?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-27-ai",
+    "title": "美國 AI 巨頭會員漏洞遭羊毛黨大規模濫用，平台損失嚴重",
+    "title_original": "没付钱先開會員？這家美国AI巨头被羊毛党“薅秃了” - QQ News",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVzFhclNjcWxJdjZTbUhaLWwydmp2RFZJTDRIZlcwNjNkWTI0cll4VUJaLUtOelFQUFJkUXhjZVBpNzlueDVEdWJzOG0xR0JpZHdDbEZrcUxjdHZaYU84T05KOUd5NV83bzUwcDJmcGRpUHM5clBhUVMtdVlaUENIaFFmTjRrMXFoZzNoMENpOVZQclVCekw3Z2lhSmlUa1lY?oc=5",
+    "published_at": "2026-07-26T18:46:38+00:00",
+    "category": "ai-deals",
+    "summary": "報導指出某美國 AI 服務平台的會員機制存在漏洞，使用戶可在未付款狀態下提前開通會員功能，遭到羊毛黨大規模利用，造成平台收益損失。詳細平台名稱與漏洞細節尚待確認。",
+    "highlights": [
+      "美國 AI 平台會員機制存在付款漏洞",
+      "羊毛黨大規模利用該漏洞盜取付費功能",
+      "平台方已遭受實質財務損失",
+      "細節來自 QQ 新聞，源頭及數據可信度有待驗證"
+    ],
+    "why_it_matters": "此類漏洞事件提醒 AI 平台用戶：部分「免費途徑」可能涉及灰色操作，存在帳號被封禁或服務被終止的風險。對於技術用戶，了解平台風控機制有助於避免意外受波及。",
+    "automation_angle": null,
+    "automation_angle_zh": "此新聞娛樂性高但實用價值有限，建議技術用戶關注平台風控策略變化，避免使用任何可疑的自動化腳本或第三方針對付費功能的繞過方案。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
