@@ -1,5 +1,226 @@
 [
   {
+    "id": "2026-07-28-visionclaw-meta-ray-ban-ai",
+    "title": "VisionClaw：為 Meta Ray-Ban 智慧眼鏡打造的即時 AI 助理",
+    "title_original": "Intent-Lab/VisionClaw",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Intent-Lab/VisionClaw",
+    "published_at": "2026-07-28T19:01:34Z",
+    "category": "agent-skills",
+    "summary": "VisionClaw 是為 Meta Ray-Ban 智慧眼鏡設計的開源即時 AI 助理，結合語音、視覺與 Agent 行動能力，基於 Gemini Live 與 OpenClaw 技術構建，現已有 2475 顆 GitHub 星。",
+    "highlights": [
+      "基於 TypeScript，適合前端開發者改編或擴展",
+      "整合 Gemini Live 實現語音驅動的即時 AI 回應",
+      "支援視覺輸入，讓眼鏡具備所見即所知的能力",
+      "結合 Agentic Actions 可執行多步驟任務而非僅回覆",
+      "已有穩定社群基礎，技術文件相對完整"
+    ],
+    "why_it_matters": "智慧眼鏡 + AI Agent 的結合是穿戴式 AI 的重要方向，VisionClaw 展示了在邊緣裝置上整合多模態 Agent 的可行路徑，對 wearables 或無手操作場景有啟發意義。",
+    "automation_angle": null,
+    "automation_angle_zh": "擁有 Meta Ray-Ban 眼鏡的技術用戶可依據 README 部署 VisionClaw，測試語音喚醒 + 眼前物體辨識 + 任務執行的端到端延遲與穩定性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/266645482?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-microsoft-mage-vl",
+    "title": "Microsoft Mage-VL：高效原生編碼流式多模態基礎模型",
+    "title_original": "microsoft/Mage-VL · Hugging Face - An Efficient Codec-Native Streaming Multimodal Foundation Model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v97f8d/microsoftmagevl_hugging_face_an_efficient/",
+    "published_at": "2026-07-28T18:47:28+00:00",
+    "category": "open-source-ai",
+    "summary": "微軟發布 Mage-VL，這是一款高效的原聲編碼（Codec-Native）流式多模態基礎模型，旨在提升多模態處理的效率與速度。",
+    "highlights": [
+      "採用原生編碼架構，減少格式轉換開銷",
+      "支援流式處理，降低延遲",
+      "可在 Hugging Face 獲取開源模型",
+      "針對本地部署優化"
+    ],
+    "why_it_matters": "對需要在本地運行多模態模型的開發者，Mage-VL 提供高效選項，可降低 GPU 資源需求與推論成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載 Mage-VL 模型至本地環境，用於自動化圖文處理、視訊分析等工作流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-oasis-agentic",
+    "title": "OASiS：開源 Agentic 框架驅動多物理模擬驗證",
+    "title_original": "Hereon-InstituteMS/OASiS",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Hereon-InstituteMS/OASiS",
+    "published_at": "2026-07-28T18:41:19Z",
+    "category": "open-source-ai",
+    "summary": "OASiS 是一個開源 Agentic 框架，透過 MCP 協定讓 AI 模型驅動八個有限元素 / 多物理模擬程式碼（FEniCSx、deal.II、NGSolve 等），支援跨程式碼耦合與模擬結果驗證。",
+    "highlights": [
+      "支援八個主流科學計算程式碼的統一 Agent 介面",
+      "MCP 協定標準化讓不同 AI 模型皆可接入",
+      "內建模擬驗證機制，降低 Agent 幻觉帶來的風險",
+      "跨程式碼耦合能力適用於複雜多物理問題",
+      "Python 實作，易於與現有科學 Python 生態整合"
+    ],
+    "why_it_matters": "科學計算領域引入 Agentic AI 的最大障礙是可靠性，OASiS 的驗證機制與多程式碼支援提供了一個可信任的自動化模擬起點，對研究人員與工程師皆具實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "科學計算背景的技術用戶可透過 MCP 客戶端連接 OASiS，指定物理問題描述後讓 Agent 自動選擇合適的模擬器、執行参数調優並驗證結果，省去手動切換工具的負擔。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/272174283?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-item",
+    "title": "白帽黑客技術即防御：封閉模型如何阻礙安全研究？",
+    "title_original": "White-hat hacking IS the defense to black-hat hacking. The techniques are the same. How does Dario expect companies to do it if their models refuse?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v96yn8/whitehat_hacking_is_the_defense_to_blackhat/",
+    "published_at": "2026-07-28T18:31:32+00:00",
+    "category": "hot-topics",
+    "summary": "社區熱議 Dario Amodei 對 AI 安全性的觀點，討論封閉模型如何可能妨礙白帽黑客進行安全研究與對抗性測試。",
+    "highlights": [
+      "白帽黑客依赖模型可访问性进行防御研究",
+      "封閉模型的限制可能削弱安全測試能力",
+      "涉及 AI 安全與開放性的平衡",
+      "為社區主觀解讀觀點"
+    ],
+    "why_it_matters": "對關注 AI 安全與紅隊測試的技術人員，封閉模型可能限制安全研究的有效性與深度。",
+    "automation_angle": null,
+    "automation_angle_zh": "若從事 AI 安全相關工作，評估開源模型對安全測試流程的價值。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-5b",
+    "title": "作者觀點：5B 活躍參數模型知識不足不應視為缺陷",
+    "title_original": "A 5B-active model doesn't know much, and I've stopped counting that as a flaw",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v952ka/a_5bactive_model_doesnt_know_much_and_ive_stopped/",
+    "published_at": "2026-07-28T17:25:51+00:00",
+    "category": "hot-topics",
+    "summary": "技術作者提出新觀點：5B 活躍參數的小型模型知識儲備有限，但這不應被視為缺陷，而是設計取捨。",
+    "highlights": [
+      "小型模型知識邊界明顯",
+      "作者認為知識量是設計選擇非缺陷",
+      "強調特定領域應用場景",
+      "引發關於模型效率與能力平衡的討論"
+    ],
+    "why_it_matters": "對技術選型者而言，重新審視小型模型的定位，有助於在特定場景選擇更高效、成本更低的方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估本業務場景是否真正需要大參數模型，考慮用精調小模型替換以降低成本。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-openai-ai",
+    "title": "OpenAI 博客：智慧代理 AI 時代的科學計算",
+    "title_original": "Scientific computing in the age of agentic AI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/scientific-computing-agentic-ai",
+    "published_at": "2026-07-28T17:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方博客發布田野報告，闡述科學家如何利用 AI 程式碼 Agent 加速科學計算現代化，特別是在基因體學等領域，AI 顯著縮短了軟體開發與發現的週期。",
+    "highlights": [
+      "AI 程式碼 Agent 正在改變科學軟體的開發範式",
+      "基因體學是當前 AI 加速科學計算最顯著的應用場景之一",
+      "報告聚焦於軟體現代化而非純理論研究",
+      "OpenAI 官方出品，具較高可信度但屬於宏觀趨勢描述",
+      "對研究機構與需要快速原型驗證的團隊有參考價值"
+    ],
+    "why_it_matters": "這類趨勢報告印證了 AI 程式碼 Agent 已在嚴肅科學場景落地，技術決策者應評估其團隊是否可借鑒此模式加速內部工具開發，而非僅將 AI 視為聊天介面。",
+    "automation_angle": null,
+    "automation_angle_zh": "研究型技術用戶可參考報告中的工作流程設計，將 GitHub Copilot 或 Cursor 等 AI 程式碼工具整合進現有的科學計算 pipeline，評估對原型開發速度的實際影響。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-gemini-api-3-6-flash-hooks",
+    "title": "Gemini API 托管代理：3.6 Flash、hooks 功能更新",
+    "title_original": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+    "published_at": "2026-07-28T16:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Google AI 宣布 Gemini API 托管代理新增多項功能，包括 3.6 Flash 模型支援、hooks 鉤子機制等，讓開發者能構建更可靠的生產級代理應用。",
+    "highlights": [
+      "支援 Gemini 3.6 Flash 模型，提升推論效率",
+      "新增 hooks 鉤子功能，可自定義代理行為流程",
+      "強化生產環境部署穩定性",
+      "簡化代理開發與监控流程"
+    ],
+    "why_it_matters": "對技術開發者而言，托管代理降低 Agent 開發門檻，hooks 機制提供更精細的控制能力，可直接用於自動化工作流程程。",
+    "automation_angle": null,
+    "automation_angle_zh": "可利用新的 hooks API 自定義代理在特定任務節點的行為，實現如自動錯誤處理、任務分流等自動化邏輯。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-28-item",
+    "title": "前沿實驗室開放已停產閉源模型權重的可行性討論",
+    "title_original": "What would it take for the frontier labs to open the weights of their old, deprecated proprietary models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v92c7h/what_would_it_take_for_the_frontier_labs_to_open/",
+    "published_at": "2026-07-28T15:49:10+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 討論：若前沿 AI 實驗室開放已停產的舊閉源模型權重，需要哪些條件與動機。此話題反映社區對開源的期望。",
+    "highlights": [
+      "討論停產模型的開源可能性",
+      "涉及商業激勵與技術價值的平衡",
+      "社區對開源歷史模型的願景",
+      "缺乏實際行動或官方回應"
+    ],
+    "why_it_matters": "若成真，將為研究社區提供更多benchmark模型，但目前僅為猜測性討論。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續關注主流實驗室的開源動態，可能為未來自動化工作流程提供更多本地部署選項。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-28-godot-mcp-go-mcp-godot-4-7",
     "title": "godot-mcp-go：用MCP協議控制Godot 4.7遊戲引擎",
     "title_original": "regiellis/godot-mcp-go",
@@ -58,6 +279,62 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-28-google-ai",
+    "title": "Google搜尋AI模式五招助你享受真實世界",
+    "title_original": "5 ways AI Mode in Search helps you enjoy the real world",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+    "published_at": "2026-07-28T13:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google在搜尋AI模式中推出五項新功能，幫助用戶離線時也能高效處理日常事務，包括預訂演唱會門票、規劃派對、比較商品等實用場景。這些功能旨在將用戶從無止境的網頁瀏覽中解放出來，轉而專注於線下體驗。功能目前已在美國市場向一般用戶開放Beta測試。",
+    "highlights": [
+      "演唱會門票預訂可直接在搜尋結果中完成，減少跳轉次數",
+      "派對規劃功能可自動生成賓客名單與座位安排建議",
+      "商品比較功能支援多款同類產品規格的並排顯示",
+      "離線提醒與日曆整合功能幫助用戶追蹤線下活動細節",
+      "目前為美國市場Beta功能，其他地區上線時間未定"
+    ],
+    "why_it_matters": "這代表搜尋引擎正從純資訊檢索工具轉型為一站式生活助理。對技術人員而言，了解這類AI整合趨勢有助評估其對相關產業的潛在影響，以及是否符合自身工作流程程需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可申請美國帳號搶先試用，評估其商品比較與行程整合功能是否值得取代現有的Chrome書籤或第三方行事曆工具，並觀察其API擴展可能性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-google",
+    "title": "Google搜尋五招教你辦派對",
+    "title_original": "5 ways to host the ultimate dinner party with Google Search",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
+    "published_at": "2026-07-28T13:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google搜尋AI功能持續拓展至餐飲派對籌備場景，可協助用戶制定菜單、設計餐桌佈置、處理派對規劃瑣事。功能透過自然語言對話形式運作，用戶可逐步描述需求，AI則生成客製化建議。此功能與前一則新聞同屬Google消費端AI功能的推廣內容。",
+    "highlights": [
+      "菜單制定功能可根據人數與飲食偏好推薦組合",
+      "餐桌佈置建議包含配色、餐具擺放與裝飾品選擇",
+      "對話式介面支援逐步調整需求與細節優化",
+      "功能深度較淺，更接近概念展示而非專業工具",
+      "與其他派對規劃App相比缺乏離線支援"
+    ],
+    "why_it_matters": "這類消費級AI應用反映了Google將AI能力下放的策略方向。雖然對技術人員的直接幫助有限，但可作為觀察Google AI功能成熟度與介面設計趨勢的參考案例。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可比較此功能與現有開源派對規劃工具（如Copilot Extensions）的功能差異，作為評估Google AI平台競爭力的參考，而非實際工作自動化方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-28-deep-research-mcp-api-mcp",
     "title": "deep-research-mcp 整合四大深度研究API的MCP伺服器",
     "title_original": "pminervini/deep-research-mcp",
@@ -85,6 +362,33 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/227357?v=4",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-28-dario-amodei",
+    "title": "Dario Amodei 暗示：閉源黑盒模型不如開源模型？",
+    "title_original": "Sorry, but did Dario just say that closed-weights, in-secret models are worse than open-weights ones?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8tny9/sorry_but_did_dario_just_say_that_closedweights/",
+    "published_at": "2026-07-28T09:50:59+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 社區討論 Dario Amodei（Anthropic CEO）在採訪中似乎暗示閉源模型的透明度問題，認為其不如開源模型可靠。",
+    "highlights": [
+      "Dario Amodei 對閉源模型的批評引發討論",
+      "社區解讀為暗示開源模型更可信",
+      "涉及模型安全性與可審計性議題",
+      "觀點來源為社區轉述，未經官方證實"
+    ],
+    "why_it_matters": "若屬實，此言論將影響企業對開源與閉源模型的策略選擇，技術選型需考慮透明度與可控性。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估自身工作流程中模型的可審計需求，考慮是否切換至可完全控制的開源方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-28-python-hwpx-automation-mcp-server-hwpx",
@@ -10004,6 +10308,34 @@
       "C#"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/2911728?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-linkedin-ai",
+    "title": "LinkedIn審核趨嚴 使用AI寫文可能遭降級",
+    "title_original": "LinkedIn审核更严格 用AI写文章小心被降級 - e南洋",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41cXRWaVJhTEo1RXdQMnpWYmlJZE1oSmhqZ2JWd0VHdXozYWk0emdQU1VIaFJRQXZYeks5X2JxWHJGN3hFa0dfc0NDU0VkSUZvRHVhNnBOM3NpV2NQM1QyS3FqTXBQZFE?oc=5",
+    "published_at": "2026-07-15T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "LinkedIn平台近期收緊內容審核政策，對使用AI輔助生成的內容實施更嚴格審查。據報導，若系統判定用戶發布內容為AI所寫，可能面臨帳號權重下降、曝光減少等懲罰。平台此舉旨在區分人創內容與AI生成內容，並打擊大量機器人農場操作。",
+    "highlights": [
+      "平台演算法可識別AI生成內容的特徵模式",
+      "被判定為AI內容的貼文可能獲得較低有機觸及率",
+      "政策主要針對批量操作的機器人帳號，一般用戶影響較小",
+      "混合人類編輯與AI輔助的內容風險相對較低",
+      "具體判定標準與閾值尚未公開透明化"
+    ],
+    "why_it_matters": "此政策反映了社群平台對AI生成內容的態度轉變。技術人員若從事LinkedIn相關的內容行銷或自動化工具開發，需注意合規風險並重新評估AI輔助寫作的使用策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "若從事LinkedIn內容自動化工具開發，建議加入人工審核環節或AI檢測規避機制，並持續追蹤平台政策變化，避免批量發布被判定為機器人操作而遭受帳號處罰。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
