@@ -1,5 +1,249 @@
 [
   {
+    "id": "2026-07-28-warden-mcp-vaultwarden-bitwarden-mcp",
+    "title": "warden-mcp：Vaultwarden/Bitwarden 認證感知型 MCP 伺服器",
+    "title_original": "icoretech/warden-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/icoretech/warden-mcp",
+    "published_at": "2026-07-28T00:53:13Z",
+    "category": "agent-skills",
+    "summary": "warden-mcp 是一款 TypeScript 開發的 MCP 伺服器，讓 AI Agent 能以 Vaultwarden 或 Bitwarden 進行密碼管理整合，實現憑證感知的自動化操作。現有 12 stars，仍屬早期專案。",
+    "highlights": [
+      "支援 Vaultwarden 與 Bitwarden 兩種主流密碼庫",
+      "為 AI Agent 提供安全的密碼讀取能力",
+      "TypeScript 實現，12 stars",
+      "可用於建構企業級 AI 工作流程的安全認證"
+    ],
+    "why_it_matters": "讓 AI Agent 能安全存取密碼系統，適合需要自動化登入、API 認證的技術工作流程整合，填補 Agent 安全認證缺口。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可今天安裝 warden-mcp，將其整合至支援 MCP 的 Agent 框架，實現自動化登入或 API 密鑰管理。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/188930?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-35b-stock-vs-ornith-vs-kat-coder-120",
+    "title": "35B 模型代理能力實測：Stock vs Ornith vs KAT-Coder（120 次運行）",
+    "title_original": "Why Anthropic's battle is meant to poison the wells of open weight models, in 3 steps.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8idkc/why_anthropics_battle_is_meant_to_poison_the/",
+    "published_at": "2026-07-28T00:27:31+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶發布了 35B 參數模型的代理任務基準測試，比較 Stock 模型、Ornith 框架與 KAT-Coder 在 120 次運行中的表現，結果顯示各模型在複雜度較高的代理任務上有明顯差異，Ornith 框架在多步驟推論任務中勝出。",
+    "highlights": [
+      "35B 模型代理能力 benchmark，120 次運行數據",
+      "Stock、Ornith、KAT-Coder 三者比較",
+      "Ornith 框架在多步驟推論任務表現較佳",
+      "可用於選型參考與模型能力評估"
+    ],
+    "why_it_matters": "對於需要在本地部署中選擇代理模型的技術人員，此 benchmark 提供了具體的量化參考，可節省試錯時間並做出更有根據的模型選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載測試所使用的 prompt 與任務集，在本地環境重現 benchmark，用於評估自訂 fine-tune 模型或新開源模型的代理能力。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-reddit-anthropic",
+    "title": "Reddit熱議：Anthropic 安全要求被指實質為開源模型禁令",
+    "title_original": "Anthropic is calling for a ban on open-weights models by proposing mandatory requirements they will probably never be able to meet",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8hk6b/anthropic_is_calling_for_a_ban_on_openweights/",
+    "published_at": "2026-07-27T23:54:35+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社群熱烈討論 Anthropic 提出的開源模型安全要求，批評者認為這些強制要求在技術上幾乎不可能達成，質疑其本質是變相禁止開源模型。",
+    "highlights": [
+      "Reddit 用戶分析 Anthropic 提出的開源模型安全要求內容",
+      "批評者指出這些要求在實務上難以滿足",
+      "社群人們質疑 Anthropic 此舉是針對開源模型的管制策略",
+      "討論延伸至開源 AI 發展與監管的長期影響"
+    ],
+    "why_it_matters": "開源 AI 社群正面臨主要 AI 公司提出可能限制開源發展的政策倡議，若落實將影響開發者自由度與創新生態。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可追蹤此政策討論，評估自身專案是否需要提前調整合規策略或轉向更易滿足要求的技術架構。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-moonshot-ai-kimi-k3-2-8-1-56tb-openrouter",
+    "title": "Moonshot AI 發布 Kimi K3 開源權重：2.8 兆參數、1.56TB，OpenRouter 已上架",
+    "title_original": "moonshotai/Kimi-K3",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+    "published_at": "2026-07-27T23:39:04+00:00",
+    "category": "open-source-ai",
+    "summary": "Moonshot AI 發布 Kimi K3 開源權重模型，參數量達 2.8 兆，Hugging Face 占用 1.56TB。採用「Open Weight」授權，限制了大型 MaaS 商業使用。OpenRouter 已有多家提供商以 $3/$15 每百萬 Tokens 定價提供服務。",
+    "highlights": [
+      "2.8 兆參數，1.56TB 權重，為大型開源模型",
+      "授權名為「Open Weight」而非 MIT，明確區分開源",
+      "大型 MaaS 營收超過門檻需與 Moonshot 另簽協議",
+      "OpenRouter 已有多家提供商報價：輸入 $3/百萬 Tokens，輸出 $15/百萬 Tokens"
+    ],
+    "why_it_matters": "Kimi K3 是目前最大的開源權重中文模型之一，但特殊授權限制大型商業 MaaS 使用，技術用戶需評估合規風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "可透過 OpenRouter 直接 API 呼叫 K3，測試其對話、程式碼、文件處理能力，評估是否值得替代現有方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-28-github-copilot-app",
+    "title": "GitHub Copilot App 現在擁有獨立存取政策",
+    "title_original": "Dario still afraid of Chinese Open weight models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8g0bi/dario_still_afraid_of_chinese_open_weight_models/",
+    "published_at": "2026-07-27T22:51:29+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot App 現已擁有專屬政策（Dedicated Policy），組織管理員可獨立控制誰能在企業與組織層級存取 Copilot App，無需再與其他 Copilot 功能共享設定，提升了存取控制的精細度。",
+    "highlights": [
+      "Copilot App 獲得獨立政策控制項",
+      "可在組織層級設定 Copilot App 存取權",
+      "與其他 Copilot 功能政策分離管理",
+      "增強了企業對行動端 AI 工具的管控"
+    ],
+    "why_it_matters": "獨立政策讓企業能針對 Copilot App（通常是行動裝置）實施差異化合規策略，例如限制特定部門使用或要求額外驗證，強化資料外洩防護。",
+    "automation_angle": null,
+    "automation_angle_zh": "結合企業托管設定，組織可自動化建立 Copilot App 專屬政策，針對不同部門或安全等級套用對應的存取規則。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-28-anthropic",
+    "title": "Anthropic 正式發布開源模型立場聲明",
+    "title_original": "Our position on open-weights models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8f90d/our_position_on_openweights_models/",
+    "published_at": "2026-07-27T22:21:11+00:00",
+    "category": "open-source-ai",
+    "summary": "Anthropic 官方發布開源模型立場聲明，詳述其對開源 weights 模型的態度與安全考量，回應社群對於其可能推動禁令的疑慮。",
+    "highlights": [
+      "Anthropic 發布官方聲明而非僅有傳聞",
+      "聲明詳述對開源模型安全風險的立場",
+      "嘗試澄清對開源模型社群禁令的疑慮",
+      "提供原始文件供社群查證與討論"
+    ],
+    "why_it_matters": "官方立場聲明比社群解讀更具參考價值，技術人員應直接閱讀原聲明以了解 Anthropic 的實際政策方向與底層邏輯。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可直接閱讀官方聲明，評估其對自身開源專案或部署策略的具體影響，而非依賴二手解讀。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-ethan-mollick-ai-agent",
+    "title": "Ethan Mollick 的 AI 選用指南演進：從聊天邁向 Agent 系統",
+    "title_original": "An opinionated guide to which AI to use to do stuff",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
+    "published_at": "2026-07-27T21:55:53+00:00",
+    "category": "hot-topics",
+    "summary": "Ethan Mollick 的 AI 選用指南反映產業趨勢轉變：一年前仍是純聊天模型主導，如今已轉向 Agent 系統，強調「AI 在單次操作中完成數小時人類工作」。Gemini 因缺乏成熟 Agent 產品而跌出榜單。",
+    "highlights": [
+      "ChatGPT Work 與 Claude Cowork 是目前主流 Agent 入口",
+      "桌面端 ChatGPT Work 實為 Codex 介面，具備完整瀏覽器控制能力",
+      "Mobile 端 Work 模式解除網路存取限制，與桌面端功能有別",
+      "Gemini Spark 尚未證明 Agent 能力，仍在觀望名單"
+    ],
+    "why_it_matters": "指南演變反映業界對 Agent 能力的需求趨勢，但屬 Opinion piece，技術信號偏低，適合快速掌握市場概況。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可依指南快速定位主流模型的 Agent 能力定位，選擇適合工作場景的工具組合。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-anthropic",
+    "title": "Anthropic 的策略是否旨在打擊開源權重模型？分析師提出三步論",
+    "title_original": "OpenAI management decided earlier today not to join the \"Open Secure AI Alliance\", founded by Nvidia CEO Jensen Huang. The decision was shared internally and reportedly met with backlash from employees.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8e36c/openai_management_decided_earlier_today_not_to/",
+    "published_at": "2026-07-27T21:37:12+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶發布分析文章，試圖解讀 Anthropic 近期在監管、言論與產品策略上的動作，認為這些行動形成一套打擊開源權重模型的組合拳，包括遊說監管機構、公開表達安全擔憂、以及強化 Claude 的企業定位。",
+    "highlights": [
+      "分析 Anthropic 的策略意圖",
+      "指出可能存在打擊開源模型的多面向行動",
+      "涵蓋監管遊說、公開言論、產品定位",
+      "屬於社群觀察與推測，非官方證實"
+    ],
+    "why_it_matters": "理解主流 AI 公司與開源生態之間的競合關係，有助技術人員預判未來模型選擇的技術與政策風險，並評估開源替代方案的長期可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此分析與近期開源模型的發布節奏、政策動態交叉比對，建立對 AI 生態竞争格局的系統性認知，輔助長期技術決策。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-anthropic-ceo-dario",
+    "title": "Anthropic CEO Dario 再次表達對中國開源權重模型的擔憂",
+    "title_original": "Manage GitHub Copilot app access with a dedicated policy",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+    "published_at": "2026-07-27T20:43:37+00:00",
+    "category": "hot-topics",
+    "summary": "Anthropic CEO Dario Amodei 在近期訪談中再次強調對中國開源權重模型（如 Qwen、DeepSeek）快速發展的擔憂，認為這些模型在某些任務上的表現已接近頂級閉源模型，且開源特性可能加速技術擴散與安全風險。",
+    "highlights": [
+      "Dario 對中國開源模型的擔憂言論",
+      "提及 Qwen、DeepSeek 等模型的快速進展",
+      "指出開源特性加速技術擴散的風險",
+      "反映主流 AI 公司對開源生態的複雜態度"
+    ],
+    "why_it_matters": "此言論顯示大型 AI 公司對開源模型生態的戰略焦慮，技術人員應關注開源模型的能力邊界與商業化可能性，以及可能隨之而來的政策監管變化。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤中國開源模型的更新與 benchmark，評估其是否能替代現有閉源方案以降低成本，同時留意可能的出口管制或授權限制。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-27-moonshotai-kimi-k3-hugging-face",
     "title": "moonshotai/Kimi-K3 登上 Hugging Face 趨勢榜",
     "title_original": "moonshotai/Kimi-K3",
@@ -53,6 +297,33 @@
       "Rust"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/309677812?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-openai-ai",
+    "title": "OpenAI 決定不加入「開放安全 AI 聯盟」引發內部反彈",
+    "title_original": "I ran the 35B agentic comparison someone asked for (stock vs Ornith vs KAT-Coder, 120 runs)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v89yxj/i_ran_the_35b_agentic_comparison_someone_asked/",
+    "published_at": "2026-07-27T19:08:40+00:00",
+    "category": "ai-deals",
+    "summary": "據 Reddit 社群爆料，OpenAI 管理層決定不加入由 Nvidia CEO Jensen Huang 創立的「開放安全 AI 聯盟」（Open Secure AI Alliance），該決定已內部公告，但據報引發員工不滿，部分員工認為此舉不利於行業合作與安全標準制定。",
+    "highlights": [
+      "OpenAI 拒絕加入 Jensen Huang 創立的聯盟",
+      "決定已內部共享但未公開宣佈",
+      "員工對此決策表示不滿",
+      "聯盟目的與成員組成細節尚不明確"
+    ],
+    "why_it_matters": "OpenAI 的缺席可能影響該聯盟的標準制定話語權，技術人員應關注聯盟後續進展與成員陣容，以評估對開源 AI 安全生態的潛在影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤聯盟正式成立後發布的技術標準或安全框架，評估其對開源 AI 工具鏈與部署實踐的影響。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -139,6 +410,33 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/1304538?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-github-copilot-copilot-app",
+    "title": "GitHub Copilot 企業托管設定現已支援 Copilot App 與雲端代理",
+    "title_original": "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
+    "published_at": "2026-07-27T17:00:35+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣佈企業托管設定（Enterprise Managed Settings）現可直接套用至 Copilot App 與 Copilot 雲端代理，讓管理員能在單一後台集中控制所有 Copilot 產品的政策，包括存取權限、功能啟用與使用限制，無需分開設定。",
+    "highlights": [
+      "企業托管設定現在支援 Copilot App 與雲端代理",
+      "管理員可在同一介面控制所有 Copilot 產品的政策",
+      "支援細粒度的功能啟用與限制設定",
+      "簡化了 IT 管理員的設定流程"
+    ],
+    "why_it_matters": "對於企業 IT 管理員而言，統一管理介面可大幅降低多產品設定的維運成本，並確保組織內所有 Copilot 使用者遵循一致的安全合規政策。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業可透過 API 或 GraphQL 批次套用企業托管設定至多個組織，實現 Copilot 政策的自動化部署與合規檢查。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-07-27-llama-cpp-nanbeige4-2-pr",
