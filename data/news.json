@@ -1,5 +1,146 @@
 [
   {
+    "id": "2026-07-28-python-hwpx-automation-mcp-server-hwpx",
+    "title": "python-hwpx-automation：MCP Server 驅動 HWPX 文件讀寫",
+    "title_original": "airmang/python-hwpx-automation",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/airmang/python-hwpx-automation",
+    "published_at": "2026-07-28T07:30:43Z",
+    "category": "agent-skills",
+    "summary": "python-hwpx-automation 是一個 MCP（Model Context Protocol）Server 實現，讓 AI Agent 能讀取、編輯、檢驗與驗證本地 HWPX 文件。專案目前 65 顆星，採用 Python 開發，為處理韓國主流文書格式提供標準化工具介面。",
+    "highlights": [
+      "支援 HWPX 格式的讀取、編輯、檢驗與驗證",
+      "基於 MCP 協議，可無縫接入 Claude、Copilot 等 MCP 支援的 Agent",
+      "Python 實作，部署與客製化門檻低",
+      "主要適用於處理韓語文件與在地化自動化流程",
+      "目前星數有限，社群支援仍在早期"
+    ],
+    "why_it_matters": "對於需要自動化處理大量 HWPX 文件的技術用戶（如跨國文件轉換、韓國市場文件處理），此 MCP Server 提供了解決方案。相較於手動操作或呼叫商業 API，可直接在本地完成文件解析。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此 MCP Server 整合進 Claude Desktop 或支援 MCP 的 Agent，建立「接收 HWPX 附件→自動摘要→翻譯→寫入 Notion」的自動化文件處理 Pipeline。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/38392618?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-qwen3-6-27b-reasoning-medical-27b-reddit",
+    "title": "Qwen3.6-27B 微調醫療推論模型 Reasoning-Medical-27B 現身 Reddit",
+    "title_original": "Medical model: Reasoning-Medical-27B (Qwen3.6-27B finetune)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8qyl2/medical_model_reasoningmedical27b_qwen3627b/",
+    "published_at": "2026-07-28T07:19:27+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享一款以 Qwen3.6-27B 為基底的醫療推論微調模型 Reasoning-Medical-27B。模型針對醫療情境優化推論能力，但尚未有獨立 benchmark 驗證其療效，且模型來源、訓練資料與評估方式均缺乏官方說明，社群反饋亦有限。",
+    "highlights": [
+      "基於 Qwen3.6-27B 微調，定位為醫療推論",
+      "目前僅在 Reddit 社群流出，無官方發布頁",
+      "缺乏公開 benchmark 或第三方評測資料",
+      "訓練資料來源與合規性未經證實",
+      "社群討論度低，真實效能待驗證"
+    ],
+    "why_it_matters": "醫療 AI 模型需高度可靠性與合規性，社群流出版本缺乏透明度的情況下，實際應用風險較高，不建議直接用於臨床場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可關注其架構思路（Qwen + 醫療微調），但應等待官方發布或有完整 benchmark 的版本再評估實用性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-langchain-agent",
+    "title": "LangChain 如何打造以 Agent 為優先的資料技術架構",
+    "title_original": "How LangChain Built an Agent-First Data Stack",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/agent-data-stack",
+    "published_at": "2026-07-28T05:40:47+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格分享如何結合 Hex、dbt、語意模型與可觀測性工具，建立可信賴的資料代理系統。透過標準化資料層與觀測機制，該架構成功將自助式資料分析規模擴大 40 倍，證明資料治理是 AI Agent 落地企業的關鍵基礎設施。",
+    "highlights": [
+      "整合 Hex（資料筆記本）與 dbt（資料轉換）構建標準化分析流程",
+      "使用語意模型統一資料定義，減少 Agent 幻觉風險",
+      "部署完整可觀測性棧，監控 Agent 資料查詢品質",
+      "透過信任分層機制，區分高風險與低風險資料操作",
+      "實際案例：自助式分析規模提升 40 倍"
+    ],
+    "why_it_matters": "資料品質與治理是企業級 AI Agent 能否真正落地的核心瓶頸。LangChain 的實戰經驗顯示，良好的資料基礎設施比模型本身更能決定 Agent 的實際效益。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可借鑒其語意模型 + 可觀測性的雙層架構，用 dbt 定義語意層、LangSmith 做追蹤，快速建立可控的資料查詢 Agent。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-28-qwen3-7-flash-openrouter",
+    "title": "Qwen3.7 開源權重跡象浮現：Flash 版本現身 OpenRouter，預計低價長上下文",
+    "title_original": "First evidence of a pending qwen3.7 open weights release. Qwen3.7-flash is on open router. They referred to Qwen3.6-35b-a3b as Qwen3.6 flash so this is likely a small MoE. The prices are substantially cheaper than 3.6 flash with a native 1M context window.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8kbwn/first_evidence_of_a_pending_qwen37_open_weights/",
+    "published_at": "2026-07-28T01:52:34+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群發現 Qwen3.7-flash 已出現在 OpenRouter 清單中。根據 Qwen3.6 命名慣例（Qwen3.6-35b-a3b 即為 Flash），3.7-flash 預計為小型 MoE 模型，並具備原生 1M 上下文視窗，價格預期比 3.6-flash 更低。",
+    "highlights": [
+      "Qwen3.7-flash 已出現在 OpenRouter 索引中",
+      "推測為小型 MoE 架構，參數量預計較小",
+      "具備原生 1M 上下文視窗，支援超長輸入",
+      "定價預計比 Qwen3.6-flash 更具競爭力",
+      "仍屬社群觀測，尚未有阿里雲或 HuggingFace 官方公告"
+    ],
+    "why_it_matters": "若 Qwen3.7-flash 真實且低價，將是本地部署長上下文模型的成本優選。1M 上下文對需要處理大型文件、程式碼庫或長對話的技術用戶極具吸引力，且可在消費級 GPU 上運行。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在 Qwen3.7-flash 正式發布後，用 Ollama 或 LM Studio 部署本地實例，替換昂貴的 Claude 100K API，測試長文件摘要與程式碼分析的延遲與品質。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-github-copilot-for-jetbrains-opentelemetry",
+    "title": "GitHub Copilot for JetBrains 新增 OpenTelemetry 設定與模型管理功能",
+    "title_original": "GitHub Copilot for JetBrains adds improved OpenTelemetry configuration and model management",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
+    "published_at": "2026-07-28T01:23:10+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot JetBrains 外掛迎來更新，主要新增兩項能力：一是更細緻的 OpenTelemetry 遙測設定，提升 Debug 可視性；二是模型管理功能增強，可連接 MCP Server 與自訂 Agent，並在 Claude Agent Flows 中進行微調。",
+    "highlights": [
+      "支援 OpenTelemetry 追蹤，幫助開發者分析 Copilot 請求延遲與失敗原因",
+      "可連接 MCP Server，擴展 Copilot 工具生態系",
+      "支援自訂 Agent 與 Claude Agent Flows 整合",
+      "降低企業級 Copilot 部署的監控與管理門檻",
+      "此為 GitHub 官方 Changelog，可信度最高"
+    ],
+    "why_it_matters": "OpenTelemetry 整合讓技術團隊能直接觀測 Copilot 的效能瓶頸，而非依賴 GitHub Dashboard 的彙總數據。模型管理則為未來整合自訂模型或第三方 Agent 奠定基礎，提升 IDE 內 AI 工作流程的可控性。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可啟用 OpenTelemetry 設定，收集 Copilot 請求的 Latency、Token 使用量指標，自建儀表板監控團隊 Copilot 消耗，輔助成本估算與效能優化。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-28-warden-mcp-vaultwarden-bitwarden-mcp",
     "title": "warden-mcp：Vaultwarden/Bitwarden 認證感知型 MCP 伺服器",
     "title_original": "icoretech/warden-mcp",
