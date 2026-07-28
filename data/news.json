@@ -1,5 +1,92 @@
 [
   {
+    "id": "2026-07-28-godot-mcp-go-mcp-godot-4-7",
+    "title": "godot-mcp-go：用MCP協議控制Godot 4.7遊戲引擎",
+    "title_original": "regiellis/godot-mcp-go",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/regiellis/godot-mcp-go",
+    "published_at": "2026-07-28T13:35:30Z",
+    "category": "agent-skills",
+    "summary": "透過MCP伺服器驅動運行中的Godot 4.7編輯器和遊戲。Go CLI加編輯器插件，支援312條指令，即時生成工具schema，可從終端機或AI代理操控遊戲開發。",
+    "highlights": [
+      "直接控制運行中的Godot 4.7編輯器與遊戲",
+      "Go CLI加編輯器插件架構，部署簡便",
+      "312條指令涵蓋大多數編輯器操作",
+      "MCP Server自動生成工具schema",
+      "適合遊戲開發自動化與AI代理整合"
+    ],
+    "why_it_matters": "遊戲開發者現在可讓AI代理直接操控編輯器，實現自動化關卡設計、腳本生成等工作流程。對需要提升遊戲開發效率的技術用戶有實質幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載後在本地Godot專案測試，觀察312條指令涵蓋哪些操作，評估能否用AI代理自動化日常的開發任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "GDScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1148310?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-slack-mcp-server-session-token-oauth-slack",
+    "title": "slack-mcp-server：用Session Token無OAUTH接入Slack",
+    "title_original": "jtalk22/slack-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jtalk22/slack-mcp-server",
+    "published_at": "2026-07-28T13:05:24Z",
+    "category": "agent-skills",
+    "summary": "為AI Agent打造的Slack MCP伺服器，用Session Token而非OAuth接入。免除App註冊和管理員審批，提供21個Slack操作工具，適合快速原型開發。",
+    "highlights": [
+      "使用Session Token繞過傳統OAuth流程",
+      "免除Slack App註冊與管理員審批步驟",
+      "21個Slack工具涵蓋頻道、訊息、檔案等操作",
+      "JavaScript開發，目前29星",
+      "適合不想折騰Slack App上架流程的技術宅"
+    ],
+    "why_it_matters": "企業Slack用戶可直接讓AI代理操作頻道、訊息與檔案。繞過OAuth簡化部署門檻，對需要將Slack整合進自動化流程的技術用戶具有實際價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "用自己的Slack Workspace測試，評估訊息機器人的穩定性與回應延遲，確認是否符合內部自動化需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/141901428?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-28-deep-research-mcp-api-mcp",
+    "title": "deep-research-mcp 整合四大深度研究API的MCP伺服器",
+    "title_original": "pminervini/deep-research-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/pminervini/deep-research-mcp",
+    "published_at": "2026-07-28T12:53:13Z",
+    "category": "agent-skills",
+    "summary": "MCP伺服器整合OpenAI Deep Research、Gemini Deep Research Agent、Allen AI DR-Tulu、Hugging Face Open Deep Research。提供統一介面，一次串接四大研究工具。",
+    "highlights": [
+      "支援OpenAI、Gemini、Allen AI、Hugging Face四大研究API",
+      "基於MCP標準化介面，易於整合到現有AI工作流程",
+      "Python開發，目前92星，社群關注度佳",
+      "一次串接免除多工具切換麻煩",
+      "可直接用MCP Client呼叫使用"
+    ],
+    "why_it_matters": "深度研究任務需要多步驟爬梳資訊，一站式整合可大幅提升研究效率。對需要進行文獻綜述或市場分析的技術用戶有實際幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署到本地MCP Server後，用一個Client輪流測試四個研究API的輸出品質與費用，選擇最符合需求的組合。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/227357?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-28-python-hwpx-automation-mcp-server-hwpx",
     "title": "python-hwpx-automation：MCP Server 驅動 HWPX 文件讀寫",
     "title_original": "airmang/python-hwpx-automation",
