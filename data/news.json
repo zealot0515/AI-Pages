@@ -1,5 +1,422 @@
 [
   {
+    "id": "2026-07-29-universal-crypto-mcp-mcp",
+    "title": "Universal-Crypto-MCP：跨鏈區塊鏈統一操作 MCP 框架",
+    "title_original": "nirholas/universal-crypto-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/nirholas/universal-crypto-mcp",
+    "published_at": "2026-07-29T18:57:07Z",
+    "category": "open-source-ai",
+    "summary": "支援多條區塊鏈（以太坊、Arbitrum、Base、Polygon、BSC 及其測試網）的通用 MCP 伺服器。AI Agent 可透過自然語言執行 swap、跨鏈橋、Gas 管理、質押、借貸等操作。",
+    "highlights": [
+      "支援 6+ 主流區塊鏈與測試網",
+      "自然語言驅動 swap、bridge、staking、lending 等操作",
+      "Plugin 架構，方便擴充新鏈或新功能",
+      "39 stars，當前同類專案中熱度較高"
+    ],
+    "why_it_matters": "跨鏈 DeFi 操作複雜度極高，此 MCP 將其統一抽象，讓 AI Agent 能以自然語言操作多鏈資產，降低區塊鏈自動化門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用來打造「DeFi 自動化助理」，例如：「幫我把以太坊上的 USDC 跨鏈到 Arbitrum 並質押」，由 Agent 自動完成所有步驟。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/22895867?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-ucai-abi-mcp-agent",
+    "title": "UCAI：將區塊鏈ABI轉為MCP標準的智慧合約Agent介面",
+    "title_original": "nirholas/UCAI",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/nirholas/UCAI",
+    "published_at": "2026-07-29T18:56:54Z",
+    "category": "agent-skills",
+    "summary": "Universal Contract AI Interface（UCAI）是開源專案，目標是將區塊鏈智慧合約ABI自動轉換為MCP（Model Context Protocol）伺服器格式。支援以太坊、Polygon、Arbitrum、Base等EVM鏈，可讓Claude或GPT直接與Uniswap、Aave、ERC20、DeFi協議互動，含交易模擬功能。",
+    "highlights": [
+      "ABI → MCP自動轉換：省去手動寫MCP Server的繁瑣流程",
+      "支援主流DeFi協議：Uniswap、Aave、ERC20等熱門合約已預整合",
+      "多鏈支援：以太坊主網、Polygon、Arbitrum、Base均已測試",
+      "交易模擬：可先試算交易後果再實際廣播，降低失誤風險",
+      "Python CLI + Web3整合：技術人員可直接指令列操作或嵌入現有系統"
+    ],
+    "why_it_matters": "區塊鏈合約的MCP化是個新興需求，目前生態尚未成熟。此工具若能穩定維護，可成為AI Agent直接操作鏈上資產的捷徑，省去大量介面開發工作。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用它快速建立MCP Server讓Claude Desktop直接查詢錢包餘額、模擬Swap操作，或建構自動盯盤與策略執行的Agent工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/22895867?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-binance-mcp-api-mcp",
+    "title": "Binance-MCP：幣安 API 的 MCP 伺服器開源專案",
+    "title_original": "nirholas/Binance-MCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/nirholas/Binance-MCP",
+    "published_at": "2026-07-29T18:56:46Z",
+    "category": "agent-skills",
+    "summary": "開源 TypeScript/Node.js 實作，提供標準化 MCP 介面存取幣安現貨交易、錢包、質押、理財、轉換、演算法交易、借貸等功能。支援完整身份驗證與錯誤處理，可直接整合進 AI Agent 工作流程。",
+    "highlights": [
+      "覆蓋幣安 15+ 核心業務模組（交易、質押、借貸、NFT 等）",
+      "TypeScript/Node.js 實作，npm 即可安裝測試",
+      "標準化 MCP 協定，AI Agent 可直接呼叫",
+      "處理 auth、request、error 等繁瑣細節"
+    ],
+    "why_it_matters": "幣圈交易或 DeFi 工作流程需要頻繁串接交易所 API，此專案將其 MCP 化，大幅降低 AI Agent 操作加密資產的技術門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可將此 MCP 整合進自建 AI Agent，實現「用自然語言操控幣安帳戶」的交易機器人或自動化策略執行。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/22895867?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-29-extract-llms-docs-mcp-ai-agent",
+    "title": "extract-llms-docs：用 MCP 自動抓取網站文件給 AI Agent",
+    "title_original": "nirholas/extract-llms-docs",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/nirholas/extract-llms-docs",
+    "published_at": "2026-07-29T18:56:31Z",
+    "category": "agent-skills",
+    "summary": "專為 AI Agent 設計的文件擷取工具，支援任何已實作 llms.txt 的網站。提供 MCP 伺服器、REST API、批次處理與多元匯出格式，可將分散的技術文件結構化輸入大型語言模型。",
+    "highlights": [
+      "支援 llms.txt 協定，自動解析網站文件結構",
+      "MCP 伺服器 + REST API 雙介面",
+      "批次處理大量文件，支援 JSON/CSV 等格式",
+      "讓 Agent 無需手動複製貼上即可讀取文件"
+    ],
+    "why_it_matters": "開發者常需讓 AI Agent 存取各平台技術文件，此工具將文件抓取流程標準化，省去繁瑣的爬蟲與解析步驟。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用來建構「自動化文件問答 Agent」，例如讓 AI 自動查詢 AWS、Google Cloud、Stripe 等文件的最新 API 規格。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/22895867?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-29-lyra-tool-discovery-ai-mcp-server",
+    "title": "lyra-tool-discovery：AI自動探索並設定MCP Server的工具",
+    "title_original": "nirholas/lyra-tool-discovery",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/nirholas/lyra-tool-discovery",
+    "published_at": "2026-07-29T18:55:54Z",
+    "category": "agent-skills",
+    "summary": "lyra-tool-discovery是一個自動化工具，讓AI Agent自動在GitHub、npm或自訂設定中發現並分析MCP Server。給定一個目標Repo或API，GPT或Claude即可自動生成可直接部署的插件設定檔，宣稱零手動工作。",
+    "highlights": [
+      "自動探索：輸入GitHub或npm連結，自動發現相關MCP Server",
+      "AI分析API：讓GPT/Claude理解API結構並轉為MCP格式",
+      "一鍵生成Plugin設定：輸出可直接使用的MCP配置",
+      "TypeScript實作，屬新興專案（Star數偏低）",
+      "目標受眾：需要快速擴展Agent工具庫但不想手動研究文件的技術人員"
+    ],
+    "why_it_matters": "MCP生態目前最大痛點之一是「找得到Server但整合成本高」。此工具若能兌現承諾，可將MCP工具鏈的建立從天級別縮短到分鐘級別，是值得關注的效率工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用它快速評估某個新API是否值得整合進Agent工作流程：輸入Repo URL，等待AI自動生成設定檔，直接測試可用性，省去閱讀文件的時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/22895867?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-ai-word-prompt-injection",
+    "title": "AI 透過 Word 自我傳播：Prompt Injection 進化為自我複製蟲蟲",
+    "title_original": "AI Worming through Word",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
+    "published_at": "2026-07-29T18:43:03+00:00",
+    "category": "hot-topics",
+    "summary": "研究者 Håkon Måløy 發現新型 Prompt Injection 攻擊手法，能將藏在 Word 文件中的隱藏指令升級為可在 Copilot for Word 環境中自我複製的「蟲蟲」。攻擊鏈為：含惡意指令的文件 → 被 Copilot 當成上下文解讀 → 輸出文件繼承該指令 → 再感染下一份文件，全程無需攻擊者再次介入。微軟已獲通知並有 144 天修復期，但目前尚無完整緩解方案。",
+    "highlights": [
+      "白底白字隱藏指令可觸發 Copilot",
+      "Copilot 輸出文件時會複製隱藏指令",
+      "形成無需攻擊者再次介入的傳播鏈",
+      "屬於已確認漏洞，等待微軟補丁"
+    ],
+    "why_it_matters": "這是 Prompt Injection 從「單次竄改」進化為「自我複製蟲蟲」的重要訊號，技術用戶應立即意識到在 Copilot 輔助工作流程中引入外部文件的風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可檢查組織內部的 Copilot 工作流程，在引入外部文件前加入 prompt 清理（prompt sanitization）步驟，或使用獨立沙盒環境隔離文件解析環節，防止指令滲透。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-29-ilintar-localllama",
+    "title": "Ilintar 模型選擇官方指南：LocalLLaMA 社群整理",
+    "title_original": "Ilintar's Official Guide To Model Selection",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1va4i9e/ilintars_official_guide_to_model_selection/",
+    "published_at": "2026-07-29T18:23:54+00:00",
+    "category": "new-models",
+    "summary": "Ilintar 在 Reddit LocalLLaMA 發布官方模型選擇指南，旨在幫助用戶依任務需求、硬體限制挑選合適的本地運行模型，涵蓋主流開源模型與量化策略對照，社群回饋指出內容偏向入門到中階使用者。",
+    "highlights": [
+      "整理主流開源模型特性與適用場景",
+      "提供硬體需求與量化選項對照",
+      "主要讀者為入門至中階的本地部署用戶",
+      "內容未涉及最新旗艦模型或 Edge 部署"
+    ],
+    "why_it_matters": "本地模型選擇指南有助節省初學者的試錯成本，但資深技術用戶可能已掌握相關知識，實用性中等。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可直接參考指南中的硬體對照表，快速評估手中設備適合跑哪個量化版本模型，避免資源錯配。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-matthew-green-ai",
+    "title": "密碼學專家 Matthew Green：後量子加密時代正是 AI 密碼分析的最佳切入時機",
+    "title_original": "Quoting Matthew Green",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything",
+    "published_at": "2026-07-29T18:18:15+00:00",
+    "category": "hot-topics",
+    "summary": "約翰霍普金斯大學密碼學專家 Matthew Green 在 Simon Willison 部落格發表觀點，指出當前正值從傳統橢圓曲線與 RSA 公鑰演算法，轉向後量子新興問題的歷史性時刻。他認為此刻若 AI 能在密碼分析上有所突破，將能大幅強化新演算法的可信度，並豐富密碼學文獻。Anthropic 近期的密碼學研究引起社群關注，可能正是此趨勢的具體展現。",
+    "highlights": [
+      "傳統 EC 與 RSA 正向後量子演算法（如 HAWK）遷移，過渡期風險較高",
+      "AI 密碼分析工具若成熟，可加速新演算法的安全性驗證",
+      "Anthropic 近期在密碼學領域的研究引發業界討論",
+      "密碼學社群希望密碼分析能成為 AI 的強項之一",
+      "最佳情況下，AI 可同時強化進攻與防守兩端的密碼學能力"
+    ],
+    "why_it_matters": "對技術人員而言，理解 AI 在密碼分析上的邊界至關重要，既影響系統安全設計，也關係到未來對 AI 輔助滲透測試工具的評估方式。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可關注 Anthropic 是否開源相關密碼分析工具，或在隔離環境中測試現有 LLM 對簡單加密訊息的破解能力，以建立能力基線。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-vibe-blog-agent",
+    "title": "Vibe-Blog：用多Agent協作將單一提示詞擴展為萬字技術文章",
+    "title_original": "datawhalechina/vibe-blog",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/datawhalechina/vibe-blog",
+    "published_at": "2026-07-29T17:29:48Z",
+    "category": "agent-skills",
+    "summary": "Vibe-Blog是開源多Agent系統，輸入一個提示詞即可生成萬字技術長文。底層結合深度研究、智慧插圖生成、Mermaid圖表、程式碼嵌入與專業排版，目標是讓技術內容創作自動化、規律化。",
+    "highlights": [
+      "多Agent分工：研究、寫作、繪圖、程式碼注入各有專責Agent協作",
+      "萬字長文輸出：支援深度技術文章的完整結構（導言到結論）",
+      "Mermaid圖表支援：自動將概念轉為流程圖、時序圖等技術圖示",
+      "插圖自動生成：配合內容產生相關視覺素材",
+      "Python實作，GitHub已有245 Star，屬成長期項目"
+    ],
+    "why_it_matters": "對需要定期輸出技術文件的個人或團隊，這類工具若穩定可用，可將文檔生產從「手動爬格子」轉變為「提示詞驅動的自動化流水線」，大幅節省時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將Vibe-Blog整合進技術部落格或內部文檔系統，用它處理新品發布說明、技術評測等固定格式內容，人工只做最後校對與風格調整。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/46047812?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-deep-agents-v0-7-token-65",
+    "title": "Deep Agents v0.7 發布：基準輸入 token 減少 65%，效能持平",
+    "title_original": "Deep Agents v0.7",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/deep-agents-v0-7",
+    "published_at": "2026-07-29T17:00:19+00:00",
+    "category": "open-source-ai",
+    "summary": "LangChain 發布 Deep Agents v0.7，簡化基礎 harness 架構後，基準輸入 token 消耗大幅下降 65%，同時維持原有任務表現。此版本降低與 LangChain 整合的 Agent 開發成本，對需要長時間多輪對話的應用場景影響最為直接。",
+    "highlights": [
+      "基礎 harness 簡化，base input tokens 減少 65%",
+      "任務效能維持不變，未因優化而犧牲能力",
+      "LangChain 生態系可直接受益，升級成本低",
+      "對長 context 多輪對話應用節省最顯著"
+    ],
+    "why_it_matters": "65% token 節省直接轉化為 API 成本下降，對日均呼叫量大的 Agent 應用是實質性改進，值得技術團隊評估升級。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可將既有 LangChain Agent 專案升級至 v0.7，並以相同測試集跑 benchmark，驗證 token 省幅是否符合預期，若效能持平即可直接套用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-29-reddit-qwen3-7-flash-openrouter",
+    "title": "Reddit 討論：Qwen3.7 Flash 在 OpenRouter 上的表現比較",
+    "title_original": "Has anyone tried Qwen3.7 flash on openrouter? How does it compare to our Qwen 3.6 27B?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1va118v/has_anyone_tried_qwen37_flash_on_openrouter_how/",
+    "published_at": "2026-07-29T16:22:53+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群有用戶提問想了解 Qwen3.7 Flash 在 OpenRouter 上的實際表現，並希望與 Qwen3.6 27B 做對比。該討論串目前缺乏實質回覆或 Benchmark 數據，屬於常見的社群詢問帖，無法作為模型能力變化的可靠資訊來源。",
+    "highlights": [
+      "討論主題涉及 Qwen3.7 Flash 與 Qwen3.6 27B 的比較",
+      "來源為 Reddit 論壇，屬於使用者自發提問而非官方公告",
+      "目前無實質效能數據或詳細回覆可供參考",
+      "建議追蹤 OpenRouter 官方頁面或 Hugging Face 模型卡以獲取準確資訊",
+      "此類討論價值較低，建議以官方發布為主要參考依據"
+    ],
+    "why_it_matters": "Reddit 問答帖本身資訊價值有限，但反映了技術社群對 Qwen 系列模型在 API 平台表現的高度關注，側面印證 Qwen 模型生態的活躍度。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可自行在 OpenRouter 上呼叫 Qwen3.7 Flash API，設計自動化 Benchmark 腳本與 Qwen3.6 27B 在相同任務上進行對比測試。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-item",
+    "title": "小模型編排技巧實測：九成失敗，存活一成任務完成率翻倍",
+    "title_original": "I tested proven orchestration techniques on small local models. 90% failed. The 10% that survived roughly doubled task completion.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1va0cj4/i_tested_proven_orchestration_techniques_on_small/",
+    "published_at": "2026-07-29T15:59:37+00:00",
+    "category": "new-models",
+    "summary": "作者在小型本地模型上測試多套已知的編排（orchestration）技巧，發現約 90% 技法在小模型上完全失效，少數存活的技法將任務完成率提升約一倍，顯示小模型的推論特性與大模型存在根本差異，不能直接套用同樣的 Agent 框架假設。",
+    "highlights": [
+      "測試超過十種主流編排技法",
+      "小模型對大多數技法無感",
+      "存活技法可將任務完成率提升約 2x",
+      "反映小模型推論鏈的獨特性"
+    ],
+    "why_it_matters": "對希望在本地裝置部署高效 Agent 的技術用戶而言，此研究提供實證依據，避免在錯誤假設上浪費時間，是值得參考的實作參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可下載作者測試的 prompt 集與框架配置，直接在自己的小模型上重現實驗，驗證哪些編排技法在特定模型上真正有效。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-similarweb-langsmith-agent",
+    "title": "Similarweb 用 LangSmith 評估 Agent 長文研究報告實務",
+    "title_original": "How Similarweb Evaluates Agent Reports with LangSmith",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-similarweb-evaluates-long-form-agent-research-reports-with-langsmith",
+    "published_at": "2026-07-29T15:30:04+00:00",
+    "category": "agent-skills",
+    "summary": "Similarweb 公開分享其如何使用 LangSmith 的評估框架對 Agent 生成的研究報告進行品質把關，流程包含 rubric 評分、忠實度檢查、追蹤（traces）分析與基線對比。這是企業級 Agent 評估管線的實務參考案例。",
+    "highlights": [
+      "使用 LangSmith 內建 rubric 評估報告品質",
+      "透過 faithfulness checks 檢測幻覺問題",
+      "traces 分析用於理解 Agent 推論路徑",
+      "基線對比確保新版本不降級"
+    ],
+    "why_it_matters": "企業級 Agent 評估是部署落地的關鍵瓶頸，Similarweb 的實務案例提供了可直接參照的管線設計思路，技術團隊可借鑒降低自建成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可將類似評估框架移植到自己的 Agent 專案，透過 LangSmith 的 API 自動對每次部署進行品質回歸測試，避免 Agent 行為退化。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-rtx-5060-ti-vllm-nvfp4",
+    "title": "RTX 5060 Ti 搭配 vLLM NVFP4 更新：用戶經驗交流",
+    "title_original": "5060ti Chads, vllm updates and nvfp4",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9zbcr/5060ti_chads_vllm_updates_and_nvfp4/",
+    "published_at": "2026-07-29T15:23:07+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 用戶討論 RTX 5060 Ti（16GB VRAM）在執行 vLLM 最新 NVFP4 量化支援時的表現。討論串聚焦於實機部署經驗與效能表現，但目前缺乏具體 Benchmark 數據，屬於經驗分享性質的社群帖。vLLM 對 NVFP4 的支援代表著更低記憶體佔用的推論可能，對本地部署有大 VRAM 需求的使用者具參考價值。",
+    "highlights": [
+      "RTX 5060 Ti（16GB）在 vLLM NVFP4 量化下的實機表現受到關注",
+      "vLLM 新增 NVFP4 支援代表推論記憶體佔用進一步降低",
+      "社群討論以用戶經驗分享為主，缺乏系統性測試數據",
+      "NVIDIA Blackwell 系列的量化技術正快速向消費級 GPU 普及",
+      "此類討論可作為評估本地部署成本的輔助參考"
+    ],
+    "why_it_matters": "NVFP4 量化若能在 RTX 5060 Ti 等消費級 GPU 上穩定運作，將大幅降低本地 LLM 推論的硬體門檻，對有隱私需求的技術人員具體實際意義。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可安裝最新 vLLM 版本，在 RTX 5060 Ti 上測試 NVFP4 量化模型的推論速度與準確度，評估是否能取代更高階顯示卡進行日常自動化任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-github-copilot",
+    "title": "GitHub Copilot 商業版全面預設啟用新模型",
+    "title_original": "Default model enablement for Copilot Business and Enterprise",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise",
+    "published_at": "2026-07-29T14:01:07+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布 Copilot Business 與 Enterprise 方案將實施「模型預設啟用」政策。往後新模型發布時不再需要管理員手動開通，自動對所有組織成員開放，簡化企業 AI 工具管理流程。",
+    "highlights": [
+      "Business 與 Enterprise 用戶受影響，Free 方案不在範圍內",
+      "新模型發布後無需管理員手動啟用",
+      "組織 IT 管理負擔降低，版本更新更快觸及終端用戶",
+      "可能加速企業 Copilot 使用率"
+    ],
+    "why_it_matters": "對企業技術主管而言，此政策減少了 IT 管理員的手動操作，但也意味著最終用戶會更頻繁面對新模型，需關注品質波動與相容性問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業開發者預期會更快獲得新模型能力（如長上下文、程式碼生成品質提升），建議關注 Copilot 更新日誌以掌握具體新功能。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-29-form-io-uag-ai-agent",
     "title": "Form.io UAG：表單自動化的通用 AI Agent 閘道",
     "title_original": "formio/uag",
@@ -161,6 +578,33 @@
     "automation_angle_zh": "立即檢查專案中是否使用 Mage-Flow 模型，並建立 HuggingFace 模型的本地離線備份腳本，避免類似中斷影響生產環境。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-openai-chatgpt",
+    "title": "OpenAI 釋出十萬名學者免費 ChatGPT 存取額度",
+    "title_original": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/chatgpt-for-academic-researchers",
+    "published_at": "2026-07-29T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布提供十萬名學術研究人員免費使用最高階 ChatGPT 模型，旨在加速科學研究、跨領域協作與學術發現。申請者需具學術機構背景，審核通過後獲得 API 或 Plus 額度。",
+    "highlights": [
+      "十萬個名額，開放給全球學術研究者申請",
+      "提供最頂級模型（非 GPT-3.5 等基礎版）",
+      "目標加速科學研究與跨學科合作",
+      "具體審核標準與額度尚未完全公開"
+    ],
+    "why_it_matters": "此計畫可能改變學術界使用 AI 的門檻，但技術讀者應關注實際可用的模型版本與 API 限制，以評估對研究工作的實質幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "若審核通過，可將頂級模型整合進研究工作流程（如文獻分析、假說生成、論文潤稿），需留意官方公布的具體使用額度與限制條款。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -368,6 +812,32 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-29-a-x-k2",
+    "title": "A.X-K2 模型正式發布",
+    "title_original": "A.X-K2 released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9hpac/axk2_released/",
+    "published_at": "2026-07-29T01:27:42+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 社群公告 A.X-K2 模型發布，但目前缺乏詳細的效能基準測試、社群回饋或官方文件，僅停留在初步發布階段。技術用戶應待更多實測數據出爐後再做評估。",
+    "highlights": [
+      "模型已發布但缺乏 benchmark 數據",
+      "社群討論量有限，尚未形成共識",
+      "缺少官方技術規格與微調方向說明"
+    ],
+    "why_it_matters": "新模型發布資訊尚不完整，技術用戶無足夠資訊判斷是否值得試用或部署，需持續關注後續社群驗證結果。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可先將此加入觀測清單，待 Reddit 出現較完整的本地測試結果後再決定是否下載本地部署測試。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-29-rtx-4050-6gb-1-56tb-moe",
     "title": "RTX 4050 6GB 本地執行 1.56TB MoE 模型實測",
     "title_original": "I tried running a 1.56TB MoE model on a 6GB RTX 4050 Laptop, Here’s the result",
@@ -394,6 +864,33 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-simon-willison-mcp-claude-chatgpt",
+    "title": "Simon Willison 實測：將自訂 MCP 伺服器接入 Claude 與 ChatGPT",
+    "title_original": "Adding a custom MCP server to Claude and ChatGPT",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
+    "published_at": "2026-07-29T00:13:18+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 實作記錄：如何在 Claude 與 ChatGPT 標準聊天介面中新增自訂 MCP 伺服器。涵蓋設定流程、已知限制與除錯經驗，適合想擴充 AI 工具能力的開發者參考。",
+    "highlights": [
+      "Step-by-step 設定流程說明",
+      "同時支援 Claude 與 ChatGPT 兩大平台",
+      "揭露實作中遇到的卡點與解決方式",
+      "屬於操作教學文，非新工具本身"
+    ],
+    "why_it_matters": "MCP 生態正在快速成長，能將自訂 MCP 接入主流 AI 介面等於解鎖「DIY AI 工具擴充」能力，值得技術用戶關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考此流程將自訂 MCP（如 Binance-MCP、crypto-MCP）接入個人 Claude 或 ChatGPT，打造客製化 AI 工作助理。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-07-29-github-copilot-app",
