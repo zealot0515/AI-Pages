@@ -1,5 +1,200 @@
 [
   {
+    "id": "2026-07-29-form-io-uag-ai-agent",
+    "title": "Form.io UAG：表單自動化的通用 AI Agent 閘道",
+    "title_original": "formio/uag",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/formio/uag",
+    "published_at": "2026-07-29T13:42:18Z",
+    "category": "agent-skills",
+    "summary": "Form.io Universal AI Agent Gateway (UAG) 是一款 MCP 伺服器，專為 Agent 驅動的表單自動化場景設計，可橋接 AI Agent 與動態表單系統，降低表單處理的人工介入成本。",
+    "highlights": [
+      "以 MCP 協定與主流 Agent 框架整合",
+      "支援動態表單的結構化資料處理",
+      "TypeScript 實作，屬輕量級工具",
+      "GitHub 星標 12 顆，社群關注度初期",
+      "適合需要表單填報自動化的企業流程"
+    ],
+    "why_it_matters": "表單處理是企業流程中常見的繁瑣任務，UAG 若能將 AI Agent 直接對接 Form.io 生態，可大幅減少手動填報與校對時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "HR、客戶入職、問卷收集等表單密集流程可評估 UAG 是否能縮短從 AI 分析到系統入檔的端到端延遲。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/11790256?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-pkgxray-ai-agent-npm",
+    "title": "pkgxray：AI Agent 的 npm 套件安全預檢工具",
+    "title_original": "adamsjack711-ux/pkgxray",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/adamsjack711-ux/pkgxray",
+    "published_at": "2026-07-29T13:39:06Z",
+    "category": "agent-skills",
+    "summary": "pkgxray 為 AI Agent、MCP 伺服器與 npm 套件提供安裝前安全掃描。採用零依賴本地靜態分析，正常掃描不會執行套件程式碼，降低供應鏈攻擊風險。",
+    "highlights": [
+      "零外部依賴的本地靜態分析引擎",
+      "掃描過程不執行套件程式碼，確保安全",
+      "支援 AI Agent、MCP 伺服器、npm 套件三大場景",
+      "JavaScript 實作，輕量且易於整合",
+      "GitHub 星標 11 顆，屬新興工具"
+    ],
+    "why_it_matters": "隨著 MCP 生態快速擴展，未知來源的 MCP 伺服器可能帶來安全隱患。pkgxray 提供一個預防性安全檢查層，降低供應鏈風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 CI/CD 流程或 Agent 部署前加入 pkgxray 掃描步驟，可自動化阻擋惡意或可疑 npm 依賴進入生產環境。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/264055154?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-llms",
+    "title": "研究發現：未經審查 LLMs 測量上更樂觀",
+    "title_original": "\"Uncensored\" LLMs are measurably more optimistic than their base models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9vwev/uncensored_llms_are_measurably_more_optimistic/",
+    "published_at": "2026-07-29T13:15:09+00:00",
+    "category": "new-models",
+    "summary": "新研究量化發現，經過「去審查」（uncensored）微調的 LLM 相比原始基礎模型，在情緒分析與回應風格上呈現可測量的樂觀偏差。這種偏差可能影響下游應用的可靠性評估。",
+    "highlights": [
+      "未經審查 LLMs 在情緒測量上比基座模型更正面",
+      "偏差程度可量化，非主觀感受",
+      "對需要客觀分析的應用場景有潛在影響",
+      "研究者提供了標準化測量方法"
+    ],
+    "why_it_matters": "開發者在選用 uncensored 模型時需注意隱藏的樂觀偏差，這會影響客服、內容審核、金融分析等需要中性輸出的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "在選用 uncensored 模型前，先用標準情緒測試集（如 VADER）跑一次 baseline 比對，量化偏差程度再決定是否採用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-estonian-mcp-mcp",
+    "title": "estonian-mcp：愛沙尼亞語文書寫的離線 MCP 工具",
+    "title_original": "silly-geese/estonian-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/silly-geese/estonian-mcp",
+    "published_at": "2026-07-29T13:12:09Z",
+    "category": "agent-skills",
+    "summary": "estonian-mcp 是一款離線 MCP 伺服器，封裝 EstNLTK、EKI Reeglid 與 Riigi Teataja，提供 24 個唯讀工具處理愛沙尼亞語拼寫、形態、拼字與法律文書校對，在 TalTech 形態變化基準達 96.5% 準確率。",
+    "highlights": [
+      "完全離線運作，無第三方 API 依賴",
+      "專精愛沙尼亞語拼寫、形態、法律文書",
+      "24 個唯讀工具，覆蓋常見校對需求",
+      "TalTech 基準測試 96.5% 準確率",
+      "可從 Anthropic Connectors 目錄一鍵安裝或自架"
+    ],
+    "why_it_matters": "對需要處理波羅的海地區法律或政府文件的 Agent 應用，estonian-mcp 提供無 API 費用的本地化方案，降低語音/文字工具成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發涉及愛沙尼亞語文件的 Agent 時，可將此 MCP 整合至工作流程，替代昂貴的多語言模型调用，直接本地校對。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/272816475?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-html-chrome",
+    "title": "單一 HTML 檔案簡報編輯器：支援本地模型和 Chrome 環境",
+    "title_original": "A slide deck you can edit with a local model or in Chrome — the whole deck is a JSON block in one HTML file (~640KB with editor and viewer included)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9vewv/a_slide_deck_you_can_edit_with_a_local_model_or/",
+    "published_at": "2026-07-29T12:56:08+00:00",
+    "category": "agent-skills",
+    "summary": "一款將簡報內容完全封裝在 JSON 結構中的 HTML 工具，檔案約 640KB 包含編輯器和檢視器。使用者可透過本地 LLM 或直接在瀏覽器中編輯簡報內容，適合離線或私有化部署。",
+    "highlights": [
+      "整份簡報以 JSON 結構儲存於單一 HTML 檔案",
+      "內建編輯器和檢視器，無需額外依賴",
+      "支援串接本地 LLM 生成或修改內容",
+      "可在 Chrome 瀏覽器直接開啟使用"
+    ],
+    "why_it_matters": "提供了一個輕量、私有且 LLM 可讀寫的簡報格式，避免將內容交給第三方 SaaS，符合技術人員對工具可控性的需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此工具整合進 AI簡報生成 pipeline，讓 LLM 直接輸出 JSON 結構即可渲染成可編輯簡報，實現從大綱到成品的自動化。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-mage-flow-huggingface",
+    "title": "微軟 Mage-Flow 模型在 HuggingFace 上消失",
+    "title_original": "Microsoft did it .... again! (404 for their Mage-Flow models on HF)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9swx1/microsoft_did_it_again_404_for_their_mageflow/",
+    "published_at": "2026-07-29T11:02:15+00:00",
+    "category": "open-source-ai",
+    "summary": "微軟 Mage-Flow 系列模型在 HuggingFace 上突然出現 404 錯誤，疑似被移除或下架。社群猜測可能涉及授權爭議、內容政策問題或內部策略調整，但官方尚未說明原因。",
+    "highlights": [
+      "微軟 Mage-Flow 模型頁面在 HuggingFace 返回 404",
+      "模型下架原因不明，可能與授權或政策相關",
+      "社群熱議微軟近期模型發布策略不穩定",
+      "有使用者備份了模型权重可供臨時使用"
+    ],
+    "why_it_matters": "對已整合 Mage-Flow 的開發者造成中斷風險，也暴露了依賴第三方模型托管的脆弱性。技術人員應建立本地備份機制。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即檢查專案中是否使用 Mage-Flow 模型，並建立 HuggingFace 模型的本地離線備份腳本，避免類似中斷影響生產環境。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-gbnf-8b",
+    "title": "GBNF 語法編譯器讓 8B 模型可靠调用工具",
+    "title_original": "I built a GBNF grammar compiler that makes 8B models reliably call tools - here's how it works (deep dive)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9qvn3/i_built_a_gbnf_grammar_compiler_that_makes_8b/",
+    "published_at": "2026-07-29T09:14:09+00:00",
+    "category": "agent-skills",
+    "summary": "作者開發了一個 GBNF（Groff Backus–Naur Form）語法編譯器，用於約束 8B 規模模型的輸出格式，使其能穩定生成符合工具调用規範的結構化回應，而非依賴 prompt 工程或超大模型。",
+    "highlights": [
+      "使用 GBNF 語法定義嚴格的輸出 schema",
+      "編譯器直接將 schema 轉為約束生成邏輯",
+      "實測 8B 模型工具調用成功率顯著提升",
+      "相較 ReAct 或 Toolformer，無需額外訓練"
+    ],
+    "why_it_matters": "降低工具調用對超大模型的依賴，使本地部署的中小模型也能可靠執行 Agent 任務，大幅提升成本效益比。",
+    "automation_angle": null,
+    "automation_angle_zh": "直接克隆此開源專案，將自有的 8B 模型串接 GBNF 編譯器，快速实现本地 Agent 工作流程，節省 API 調用成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-29-md-redline-markdown-mcp",
     "title": "md-redline：Markdown 規格的內聯審查註解 MCP 工具",
     "title_original": "dejuknow/md-redline",
