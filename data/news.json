@@ -1,5 +1,149 @@
 [
   {
+    "id": "2026-07-29-md-redline-markdown-mcp",
+    "title": "md-redline：Markdown 規格的內聯審查註解 MCP 工具",
+    "title_original": "dejuknow/md-redline",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/dejuknow/md-redline",
+    "published_at": "2026-07-29T08:17:09Z",
+    "category": "agent-skills",
+    "summary": "一款內建 MCP 伺服器的開源工具，能直接在 Markdown 規格文件中插入審查註解，並將回饋直接傳遞給 AI Agent。適合需要多人協作審閱文件或希望 AI 根據具體行號獲取回饋的技術團隊。",
+    "highlights": [
+      "內建 MCP 伺服器，無需額外配置即可與主流 AI Agent 整合",
+      "支援在 Markdown 中直接插入內聯審查註解",
+      "AI Agent 可根據註解行號直接取得上下文回饋",
+      "TypeScript 實作，目前 GitHub 28 星",
+      "可今日安裝測試，工作流程整合門檻低"
+    ],
+    "why_it_matters": "文件審查是 AI Agent 工作流程中常被忽略的一環。此工具讓 AI 能精準理解規格變更脈絡，提升 Code Review 與文件維護效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 md-redline 整合至現有 CI/CD 流程，讓 AI Agent 在每次 PR 時自動檢視 Markdown 規格文件並提供針對性建議。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/599111?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-claudeck-claude-code-ui-mcp",
+    "title": "claudeck：瀏覽器端 Claude Code UI，整合 MCP 伺服器管理",
+    "title_original": "hamed-farag/claudeck",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/hamed-farag/claudeck",
+    "published_at": "2026-07-29T08:00:16Z",
+    "category": "agent-skills",
+    "summary": "claudeck 是 Claude Code 的瀏覽器端圖形介面，提供對話、任務執行、MCP 伺服器管理、成本追蹤與自主代理編排功能，可安裝為 PWA。適合想以視覺化方式管理 Claude Code 工作流程的技術用戶。",
+    "highlights": [
+      "瀏覽器端 UI：無需 CLI，直接透過 Web 操作 Claude Code",
+      "MCP 伺服器整合：集中管理 Claude 的擴展能力",
+      "成本追蹤：即時監控 API 消耗",
+      "支援自主代理編排：可執行多步驟自動化流程",
+      "PWA 安裝：離線可用，接近原生體驗"
+    ],
+    "why_it_matters": "claudeck 將 Claude Code 從 CLI 工具升級為視覺化工作台，MCP 管理與成本追蹤功能對需要嚴格控制 AI 工具預算與擴展能力的技術用戶具有直接實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝 claudeck 將 Claude Code 整合至日常開發介面，透過 MCP 擴展其自動化腳本能力，並以圖形化方式監控 Claude 使用成本與任務執行狀態。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/5382471?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-bettergpt-150m-150m",
+    "title": "BetterGPT-150M：精簡型 150M 參數補完模型",
+    "title_original": "Built and released BetterGPT-150M – A compact 150M parameter completion model (+ live HF Space demo)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9oa1u/built_and_released_bettergpt150m_a_compact_150m/",
+    "published_at": "2026-07-29T06:47:01+00:00",
+    "category": "new-models",
+    "summary": "社群開發者發布的紧凑型 150M 參數文字補完模型，提供即時可用的 Hugging Face Space 演示。目標是為資源受限環境提供輕量級 AI 補完能力。",
+    "highlights": [
+      "僅 150M 參數，適合邊緣裝置與本地部署",
+      "提供 Hugging Face Space 即時演示",
+      "專注於文字補完任務，非多功能對話",
+      "社區驅動，技術細節待驗證",
+      "可作為研究輕量模型壓縮技術的參考"
+    ],
+    "why_it_matters": "縮小模型規模同時保持一定補完品質，是落地邊緣 AI 的關鍵路径。此模型提供一個可快速測試的基准點。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Hugging Face Space 測試該模型的補完品質與延遲，評估是否能替代大型模型處理簡單的自動補全任務以降低成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-ax-engine-apple-silicon-llm-rust",
+    "title": "ax-engine：Apple Silicon 本地 LLM 推論引擎，Rust 實作",
+    "title_original": "defai-digital/ax-engine",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/defai-digital/ax-engine",
+    "published_at": "2026-07-29T05:52:47Z",
+    "category": "open-source-ai",
+    "summary": "ax-engine 是一款以 Rust 開發的 Mac 本地 LLM 推論執行期，針對 Apple Silicon 原生支援 MLX/Metal 加速，提供 OpenAI 相容 API、MTP 推測解碼、多模態支援與多模型服務能力。星數目前較少（22），但技術路線具參考價值。",
+    "highlights": [
+      "Rust 實作：強調效能與記憶體安全",
+      "Apple Silicon 原生：MLX/Metal 硬體加速",
+      "OpenAI 相容 API：降低遷移成本",
+      "MTP 推測解碼：提升推論速度",
+      "多模態與多模型服務：單一引擎支援多任務"
+    ],
+    "why_it_matters": "ax-engine 為 Mac 本地 LLM 推論提供 Rust 生態的高效能選項，MTP 推測解碼與 Metal 加速對想在 Mac 上高效跑模型的技術用戶有實際價值，儘管目前社群規模較小。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Mac 上有本地推論需求的技術用戶可安裝 ax-engine，測試其與本地部署的 Llama/Qwen 等模型的相容性，評估推論速度與 API 相容性是否滿足工作流程需求。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/199500438?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-skywork-r1v-skywork-ai",
+    "title": "Skywork-R1V：Skywork AI 開源視覺語言推論模型系列",
+    "title_original": "SkyworkAI/Skywork-R1V",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/SkyworkAI/Skywork-R1V",
+    "published_at": "2026-07-29T03:11:37Z",
+    "category": "open-source-ai",
+    "summary": "Skywork-R1V 是 Skywork AI 開發的高階多模態 AI 模型系列，專精視覺語言推論能力。GitHub 累計 3,161 顆星，採用 Python 開發，為開源多模態模型生態新增一個具體選項。",
+    "highlights": [
+      "定位：視覺語言推論模型，專注圖像理解與文字生成",
+      "開源可用：可直接部署或微調",
+      "GitHub 星數 3,161，反映社群關注度",
+      "Python 實作，方便 Python 生態整合",
+      "屬於新型推論模型系列，區別於傳統 VLM"
+    ],
+    "why_it_matters": "Skywork-R1V 以較高星數進入開源視覺推論領域，為需要在本地部署圖像理解能力的技術用戶提供新選擇，且屬於推論強化模型路線，具備差異化能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 Skywork-R1V 部署至本地環境，評估其在文件理解、圖表解析等辦公室自動化任務中的實際表現，與 GPT-4V 等商業方案做成本效益對比。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/147303017?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-29-mcp-cli-ent-mcp-cli",
     "title": "MCP-CLI-Ent：為 MCP 伺服器打造的上下文守護 CLI 工具",
     "title_original": "EstebanForge/mcp-cli-ent",
@@ -29,6 +173,62 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-29-rtx-4050-6gb-1-56tb-moe",
+    "title": "RTX 4050 6GB 本地執行 1.56TB MoE 模型實測",
+    "title_original": "I tried running a 1.56TB MoE model on a 6GB RTX 4050 Laptop, Here’s the result",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9hd9u/i_tried_running_a_156tb_moe_model_on_a_6gb_rtx/",
+    "published_at": "2026-07-29T01:12:50+00:00",
+    "category": "open-source-ai",
+    "summary": "技術愛好者實測在僅有 6GB VRAM 的 RTX 4050 筆電顯示卡上執行 1.56TB 稀疏專家混合模型，並分享硬體限制下的執行策略與效能表現。",
+    "highlights": [
+      "極端的硬體資源與模型規模差距",
+      "可能採用量化、切片或漸進式載入技術",
+      "實驗性質，非生產就緒方案",
+      "考驗社區對大模型本地化執行的創意極限",
+      "具參考價值但細節待驗證"
+    ],
+    "why_it_matters": "極致壓縮與本地部署是降低 AI 工具成本的重要方向。此類實驗雖不實用，但展示了技術可能性與優化方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注此類極限實驗採用的具體技術（量化方法、記憶體管理策略），評估能否借鑒至自家產品的資源優化。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-github-copilot-app",
+    "title": "GitHub Copilot App 使用量指標擴展至組織層級報表",
+    "title_original": "GitHub Copilot app usage metrics now expand across report rollups",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
+    "published_at": "2026-07-28T23:35:01+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣佈 Copilot App 個別使用活動現在可歸因至企業用戶與組織用戶報表。此變更讓管理員能更完整掌握組織內的 Copilot 採用情形與使用模式。",
+    "highlights": [
+      "Copilot App 活動現已歸入 enterprise-user 和 organization-user 報告",
+      "支援跨報表彙總查看 Copilot 使用量",
+      "管理員可追蹤個人與組織層級的 AI 工具使用情形",
+      "API 驅動，便於與企業 BI 工具整合",
+      "有助於成本分配與用量優化决策"
+    ],
+    "why_it_matters": "企業導入 AI 工具後面臨的頭號挑戰是用量可視性。此更新讓技術主管能精準掌握 Copilot 在組織內的實際滲透率與價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "透過 Copilot usage metrics API 自動匯出用量資料，建立儀表板追蹤團隊成員的 AI 輔助頻率，識別高價值使用場景。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-29-github-copilot",
     "title": "GitHub Copilot 應用程式使用量數據整合至企業管理儀表板",
     "title_original": "Discovering cryptographic weaknesses with Claude",
@@ -55,6 +255,62 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-29-modal-cto",
+    "title": "Modal CTO 回應：未認證端點導致惡意代理事件",
+    "title_original": "Quoting Akshat Bubna",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
+    "published_at": "2026-07-28T22:05:55+00:00",
+    "category": "hot-topics",
+    "summary": "Modal CTO Akshat Bubna 向 Reuters 證實，一位客戶因發布未認證端點，導致任何人都能使用其沙盒進行程式碼執行。該端點被惡意代理利用，但強調 Modal 平台本身並未被入侵或突破隔離機制。",
+    "highlights": [
+      "出事原因為客戶自行暴露未認證端點，非平台漏洞",
+      "Modal 的沙盒隔離機制未被突破",
+      "凸顯 AI Agent 安全部署中配置管理的重要性",
+      "涉及 OpenAI 與 Hugging Face 相關資安事件",
+      "沙盒化仍為主流隔離方案，但人為配置錯誤為最大風險"
+    ],
+    "why_it_matters": "AI Agent 安全事件層出不窮，此案例再次提醒技術團隊：底層隔離機制再完善，錯誤的配置仍可造成災難性後果。",
+    "automation_angle": null,
+    "automation_angle_zh": "審查所有對外暴露的 API 端點與沙盒配置，確保 AI Agent 執行環境遵循最小權限原則，並定期執行安全稽核。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-item",
+    "title": "前線實驗室代理入侵事件技術時間線解析",
+    "title_original": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1v9cph9/anatomy_of_a_frontier_lab_agent_intrusion_a/",
+    "published_at": "2026-07-28T22:02:24+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 技術社群對 2026 年 7 月發生的前線實驗室 AI Agent 入侵事件進行深入技術分析，梳理事件發生的地點、原因與影響範圍。",
+    "highlights": [
+      "涵蓋 2026 年 7 月真實發生的 AI Agent 安全事件",
+      "技術社群主導的獨立分析，非官方報告",
+      "試圖重建完整攻擊路徑與時間序列",
+      "涉及模型供應商與雲端平台",
+      "有助理解 AI Agent 在生產環境中的實際風險"
+    ],
+    "why_it_matters": "隨著 AI Agent 部署規模擴大，真實入侵案例的分析成為業界必修課題。此類技術解構有助於完善企業內部的 AI 安全策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考此時間線分析，建立自家 AI Agent 的威脅模型，檢視監控日誌與異常檢測機制是否足以應對類似攻擊手法。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-29-uv-0-12-0-src-layout",
@@ -7849,6 +8105,33 @@
     "why_it_matters": "支付寶擁有龐大企業與商家生態，若此AI訂閱方案能簡化接入流程，可能加速支付場景與AI能力的整合，對電商、金融科技開發者具體應用價值值得關注。",
     "automation_angle": null,
     "automation_angle_zh": "企業開發者可追蹤此SDK或API的正式文件，評估是否能將AI能力（如智能客服、風控、推薦）以三步驟方式快速嵌入現有支付流程，並評估定價與現有方案的成本效益。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-29-ai",
+    "title": "支付寶發布AI訂閱解決方案　三步接入四大功能",
+    "title_original": "2026WAIC：支付宝發布AI訂閱解决方案 三步接入四大功能 - 新浪财經",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQOUsxNDRNTDhkbEtpaUM0UmNKek9FVXhHMVcwV2l5X3pnc3BGRDlBeHVTRnBneDF1NFk0cVROX2wyMkJzM0trV2RhbmJYU0hsSmNmRjhHejZjRDRkWUYwTlN1bmpyVnJzR0FFR29tZEdYWDdMY0RZZFpXOU9fMU9zT19tamstaE9YbExaZVJGUjNjZjk2d2tyMFZkTE9tdVhXYlRFVVNqc3lCazNORWJreExvZ1M1Ni1XQjkweDZrQlJzTjU4Qk5QMmZTR1lhWTNTRmQxcXoxT0VNVG84VjJKd2ZFcmwyVG1qLTBpZ2RhcjNqZnlUQnhsLXFmMHBqWk9XNExCVmR5VWhhWC0tNDZPN09vNVRycHVuZHc?oc=5",
+    "published_at": "2026-07-18T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "支付寶在WAIC論壇發布「AI訂閱解決方案」，宣稱開發者可在支付寶生態內三步完成接入，獲得智能客服、內容生成、風控增強、個性化推薦四大功能模組。此方案瞄準電商與本地生活服務場景，具備API調用意料。",
+    "highlights": [
+      "瞄準支付寶生態內的中小商家與開發者",
+      "支援三步API接入，降低集成門檻",
+      "涵蓋智能客服、內容生成、風控、推薦四大模組",
+      "可能提供免費額度或補貼以吸引開發者入駐"
+    ],
+    "why_it_matters": "若補貼力度足夠，可作為低成本接入AI能力的渠道；但目前官方定價與用量限制尚未披露，實際成本效益需驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "電商開發者可評估該方案是否能在支付寶小程序中替代現有第三方對話機器人，並比較接入成本與功能完整性。",
     "tags": [
       "ai-deals",
       "rss",
