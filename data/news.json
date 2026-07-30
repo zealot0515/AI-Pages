@@ -1,5 +1,89 @@
 [
   {
+    "id": "2026-07-30-turbo-fieldfare-apple-silicon-2gb-ram-gemma-4-26b",
+    "title": "Turbo-fieldfare：開源引擎可在 Apple Silicon 2GB RAM 環境運行 Gemma 4 26B",
+    "title_original": "Turbo-fieldfare: Open-source engine running Gemma 4 26B in 2 GB RAM on Apple Silicon",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vasnys/turbofieldfare_opensource_engine_running_gemma_4/",
+    "published_at": "2026-07-30T12:46:12+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 社群分享的實驗性專案 Turbo-fieldfare，聲稱可在配備 2GB RAM 的 Apple Silicon 設備上運行 Google Gemma 4 26B 模型。若屬實，將大幅降低在行動裝置或邊緣設備部署大模型的門檻。目前專案細節與實際效能尚待社群驗證。",
+    "highlights": [
+      "可在極低記憶體（2GB RAM）的 Apple Silicon 運行",
+      "支援 Gemma 4 26B 級別模型，參數量大",
+      "屬實驗性專案，穩定性與效能未經大規模驗證",
+      "對邊緣運算與本地部署場景有潛在價值",
+      "社群討論顯示部分用戶對實際可行性持懷疑態度"
+    ],
+    "why_it_matters": "若能在 2GB RAM 運行 26B 模型，意味著普通 MacBook 或行動裝置也能承載大型開源模型，對本地 AI 應用開發者而言是重大突破，但需獨立驗證其真實性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可追蹤專案 GitHub 或社群後續驗證，若確認可用，可在無 GPU 伺服器環境下本地測試 Gemma 4 的文字生成或推論能力，降低開發環境成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-30-llama-cpp-mindcontrol",
+    "title": "Llama.cpp 效能優化：MindControl 框架基準測試出爐",
+    "title_original": "Benchmarked: MindControl for Llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vapbnl/benchmarked_mindcontrol_for_llamacpp/",
+    "published_at": "2026-07-30T10:03:44+00:00",
+    "category": "agent-skills",
+    "summary": "社群對 MindControl 框架在 Llama.cpp 上的效能進行了基準測試，MindControl 主要提供對模型推論過程的更精細控制能力。測試結果顯示其在特定場景下的吞吐量與延遲表現，可作為技術用戶評估是否引入該框架的參考依據。",
+    "highlights": [
+      "MindControl 提供 Llama.cpp 推論的進階控制能力",
+      "基準測試覆蓋吞吐量與延遲兩項關鍵指標",
+      "可幫助優化本地模型推論效率",
+      "適合需要對推論過程進行客製化的開發者",
+      "測試結果有助於評估框架引入的效能取捨"
+    ],
+    "why_it_matters": "Llama.cpp 是本地部署最廣泛使用的推論引擎之一，任何能提升其效能或控制能力的工具都直接影響技術用戶的工作效率，MindControl 可能成為優化工作流程的新選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 MindControl 並在自有資料集上跑對比測試，評估其對特定任務（如長文件推論或多輪對話）的實際加速效果，決定是否整合進現有 pipeline。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-30-gb10-dgx-spark",
+    "title": "社群熱議：單台 GB10 或 DGX Spark 最強智慧/穩定模型是哪個？",
+    "title_original": "What is the best intelligence/stable model currently for a single GB10/DGX spark?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vaorm7/what_is_the_best_intelligencestable_model/",
+    "published_at": "2026-07-30T09:32:14+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社群討論聚焦於在單台 GB10 或 DGX Spark 硬體上，哪款模型能兼顧智慧表現與穩定性的問題。討論涉及多款主流開源模型的基準測試結果與實際部署體驗，是技術用戶評估性價比的重要參考。",
+    "highlights": [
+      "討論硬體限定為單台 GB10 或 DGX Spark 規格",
+      "社群分享多款模型的實際 benchmark 數據",
+      "焦點在智慧能力與運行穩定性的平衡",
+      "可從討論中獲取模型部署的實務經驗",
+      "適合做為模型選型前的調研參考"
+    ],
+    "why_it_matters": "硬體成本是本地部署的最大限制，了解特定硬體配置下的最佳模型選擇可避免資源浪費，直接影響技術用戶的性價比決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據社群討論結果，在 GB10 或 DGX Spark 上部署被推薦的模型，用實際工作負載（如文件摘要、程式碼生成）做 A/B 測試驗證，選擇最適合自己場景的模型。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-30-jetson-nano-embedding",
     "title": "Jetson Nano 本地部署 Embedding 模型實測",
     "title_original": "Jetson Nano with embedding models",
