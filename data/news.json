@@ -1,5 +1,168 @@
 [
   {
+    "id": "2026-07-30-pingfusi-agent-mcp",
+    "title": "pingfusi：將真人引入程式碼 Agent 迴圈的 MCP 工具",
+    "title_original": "alex-durango/pingfusi",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/alex-durango/pingfusi",
+    "published_at": "2026-07-30T00:59:08Z",
+    "category": "agent-skills",
+    "summary": "MCP server 結合 CLI，讓真人即時介入程式碼 Agent 工作。Agent 發布中期產出，審查者標註問題並回傳裁決，Agent 持續迭代直至過關。",
+    "highlights": [
+      "GitHub 星數 71，JavaScript 實作",
+      "真人審查者中斷式介入，而非最終 review",
+      "產出問題可即時標註並要求修正",
+      "適用於需要品質把關的 Agent 工作流程"
+    ],
+    "why_it_matters": "將人類判斷嵌入 Agent 迴圈是提升輸出可靠性的務實做法，解決純自動生成難以把關質量的問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "今天可 npm install pingfusi 體驗，在內部 Code Agent 工作流程加入人工審查節點，測試對產出品質的影響。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/77169785?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-30-github-copilot-agent-skills-mcp-ga-pro-enterprise",
+    "title": "GitHub Copilot 程式碼審查：Agent Skills 與 MCP 支援正式 GA，Pro 到 Enterprise 全面開放",
+    "title_original": "Copilot code review: Agent skills and MCP now generally available",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available",
+    "published_at": "2026-07-29T21:26:19+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 程式碼審查功能正式邁入普遍可用階段，Agent Skills 與 MCP Server 整合已對所有 Pro、Pro+、Business 及 Enterprise 用戶開放。此前預覽階段的功能現已完整落地，開發者可直接在 Pull Request 中啟用 AI 驅動的程式碼審查，並透過 MCP 協議連接外部工具鏈。",
+    "highlights": [
+      "Agent Skills 支援讓 Copilot 能執行自訂審查規則與自動化流程",
+      "MCP 整合可對接 GitHub 以外的工具與服務",
+      "覆蓋範圍從個人開發者到企業組織皆可使用",
+      "正式版穩定性與效能較預覽版有明顯改善"
+    ],
+    "why_it_matters": "對技術團隊而言，Copilot Code Review GA 代表可將 AI 審查無縫嵌入既有 CI/CD 流程，減少人為 review 負擔，尤其適合需要快速迭代的專案。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即在組織的 GitHub Settings 中啟用 Copilot Code Review，並對關鍵分支設定自動化觸發規則，觀察其對 PR 審核時間與問題發現率的實際影響。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-30-reddit-gpt-4",
+    "title": "Reddit 熱議：開源模型效能逼近 GPT-4 時代，本地部署門檻持續下探",
+    "title_original": "Are you guys not scared of where we're heading? A year ago, GPT-5 was considered one of the best models in the world. Today, we have open-weight models like Qwen3.6-27B that are competitive enough to run locally on high-end consumer hardware. The pace of progress is absolutely brutal.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1va7nm7/are_you_guys_not_scared_of_where_were_heading_a/",
+    "published_at": "2026-07-29T20:13:52+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社區激烈討論 AI 進展速度：一年前 GPT-5 被視為頂級模型，如今如 Qwen3.6-27B 等開源權重模型已可在高階消費級硬體上本地運行並達到可競爭水準。社群觀點認為模型能力正以殘酷速度快速貶值。",
+    "highlights": [
+      "Qwen3.6-27B 等開源模型效能已接近去年旗艦封閉模型",
+      "高階消費級 GPU（如 RTX 4090）可流暢運行",
+      "本地部署成本與延遲優勢持續吸引開發者",
+      "此為社群觀察，非嚴謹Benchmark數據"
+    ],
+    "why_it_matters": "開源模型本地化趨勢意味著開發者可更低成本掌握模型控制權，對需要資料隱私、低延遲或客製化微調的場景特別有意義。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地機器上實際下載 Qwen3.6-27B（使用 Ollama 或 LM Studio），比較其在程式碼生成、摘要等任務上與雲端 API 的品質與速度差異。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-30-claude-ai-anthropic-chatbot-api",
+    "title": "Claude AI 服務中斷：Anthropic 官方證實 Chatbot 與 API 全域故障",
+    "title_original": "Claude AI down? Anthropic confirms outage as users face errors across chatbot and API - wionews.com",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZmM0UGd3amJiQjJYTU8zRU1tTWg5T0V2Smk3UXNPaDByV3VzRzYxdi1vTVpuNm85Y0MwTkdXeTNEdkI2ZUtDekVlRWVvQVZLRzBVNmNUclFRakVaQ0tZTlBXOU1PbDJGd1U0S0VTYkZ5eGdGdUZpX3M2T2x1Sm92YlIyMVN1Q1NSVWlMc1E0RnR0Ni1vdHAtNDZPSW9ic3pXanZORVZIUVZLMC1lMkNweUxNQnlJeG9xMWdWdUtNMHZFTlUxbkdLYVJuVnlRd9IB0wFBVV95cUxOdkpqY3d5dlhZTzBSREhaMlhUMEJSbjJnMVZCSHpVSW5zVmVrdVZEUHVva2V1SUwyNllaS2VVWEZDemh6T1VVdmpaS3BrWHVrbzM0N0VSQ3psREE2OTdWZlQ0MzFhbW1qbDlBRXR1ck9CS0RGQ25KQnVDSlBIVlA3bk5jTm9kZWlnb1dzMWRDSWEwb1NLRVFpOEl4NkpnUXVodDlxX1VVQU1XUXZfajdiSXNMMng4QXZ3UkI2N3pPazFqSUFyTzczcHRYanQ5WEYtd1dz?oc=5",
+    "published_at": "2026-07-29T20:03:00+00:00",
+    "category": "hot-topics",
+    "summary": "Anthropic 旗下 Claude AI 服務於近日出現大規模中斷，用戶反映在 Chatbot 介面及 API 呼叫時均收到錯誤回應。Anthropic 已官方確認此事並著手修復，但確切故障時長與根本原因尚未完整揭露。此事件再次凸顯依賴外部 AI API 的單點故障風險。",
+    "highlights": [
+      "Chatbot 網頁介面與 API 端點同時受影響",
+      "Anthropic 官方已承認中斷並展開修復",
+      "影響範圍涵蓋付費與免費層級用戶",
+      "故障原因尚未公開說明"
+    ],
+    "why_it_matters": "對於將 Claude 作為主要後端模型或商業產品核心的開發者而言，此事件提醒需要備援機制與成本預算規劃，以避免服務中斷造成業務損失。",
+    "automation_angle": null,
+    "automation_angle_zh": "檢視現有 Claude API 調用是否已有 fallback 邏輯，若依賴程度高，建議評估接入替代模型（如 Claude Haiku 本地端備份或 OpenAI 方案）的可行性與延遲差異。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-30-reddit",
+    "title": "Reddit 觀察：開源權重模型接連發布，技術迭代節奏持續加速",
+    "title_original": "The open-weights carousel never stops.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1va73s6/the_openweights_carousel_never_stops/",
+    "published_at": "2026-07-29T19:54:19+00:00",
+    "category": "open-source-ai",
+    "summary": "r/LocalLLaMA 板友以「open-weights carousel」形容當前開源模型發布節奏：各大機構接連釋出可下載、可微調的權重模型，模型數量與多樣性快速增加，但品質參差不齐，開發者需具備更強的篩選與評估能力。",
+    "highlights": [
+      "開源權重模型數量持續快速增加",
+      "各模型間能力與適用場景差異大",
+      "社群需要更多Benchmark與實測比較",
+      "開發者時間成本因選擇過多而上升"
+    ],
+    "why_it_matters": "開源模型爆炸式增長雖帶來更多選擇，但也提高選擇成本。技術人員需建立系統化的模型評估框架，才能在眾多選項中快速定位適合特定任務的方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立個人或團隊的模型評估基准池，針對常見任務（如程式碼生成、摘要、翻譯）記錄多個模型在延遲、品質、成本上的表現，以便快速決策。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-30-unsloth-kimi-k3-1-56tb-594gb",
+    "title": "Unsloth 釋出 Kimi K3 量化版：1.56TB 壓縮至 594GB，本地執行門檻大幅降低",
+    "title_original": "Kimi K3 for local use (1.56TB → 594GB) compressed and released by Unsloth",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1va6ot2/kimi_k3_for_local_use_156tb_594gb_compressed_and/",
+    "published_at": "2026-07-29T19:39:41+00:00",
+    "category": "open-source-ai",
+    "summary": "知名 AI 模型量化框架 Unsloth 宣布完成 Kimi K3 模型壓縮處理，將原始 1.56TB 參數規模壓縮至 594GB，大幅降低本地部署所需的 VRAM 與儲存需求。此版本採用高效量化技術，預期能在相對入門級 GPU 上實現合理推論速度。",
+    "highlights": [
+      "Kimi K3 原始大小約 1.56TB，Unsloth 量化後為 594GB",
+      "量化技術旨在保留較高比例模型能力的同時減少資源需求",
+      "可望在 24GB VRAM 等級 GPU 上運行",
+      "Kimi 為 Moonshot AI（月之暗面）旗下模型系列"
+    ],
+    "why_it_matters": "Unsloth 的量化成果讓大型語言模型更易於本地化，開發者無需昂貴企業級 GPU 即可實驗與部署，節省雲端 API 開支並提升資料隱私。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 Unsloth 量化後的 Kimi K3 GGUF 檔案，透過 llama.cpp 或 Ollama 在本地進行推論測試，評估其在中文化任務上的表現是否符合需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-29-universal-crypto-mcp-mcp",
     "title": "Universal-Crypto-MCP：跨鏈區塊鏈統一操作 MCP 框架",
     "title_original": "nirholas/universal-crypto-mcp",
@@ -383,6 +546,33 @@
     "automation_angle_zh": "技術人員可安裝最新 vLLM 版本，在 RTX 5060 Ti 上測試 NVFP4 量化模型的推論速度與準確度，評估是否能取代更高階顯示卡進行日常自動化任務。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-30-gpt-5-6-arc-agi-3",
+    "title": "兩個設定如何讓 GPT-5.6 在 ARC-AGI-3 得分提升三倍",
+    "title_original": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+    "published_at": "2026-07-29T15:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 部落格揭示 GPT-5.6 在 ARC-AGI-3 基準測試中，透過兩個 API 設定提升表現，保留推論能力並啟用壓縮機制。",
+    "highlights": [
+      "兩個特定 API 設定是關鍵",
+      "得分提升約三倍",
+      "保留推論能力同時啟用 compaction",
+      "具體設定名稱需查閱原文"
+    ],
+    "why_it_matters": "若這兩個設定可穩定複現，能以較低計算成本獲得更強推論能力，對高效能 Agent 開發有直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "查閱原文找出具體設定參數，在 API 调用中嘗試開啟，觀察實際任務中的推論質量與成本變化。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -891,6 +1081,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-30-gpt-5-6",
+    "title": "GPT-5.6：前沿智慧與效率的融合",
+    "title_original": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+    "published_at": "2026-07-29T00:00:00+00:00",
+    "category": "new-models",
+    "summary": "GPT-5.6 在模型、推論、Agent 工作流程層面提升 AI 效率，旨在以更少成本提供更實用的智慧輸出。官方部落格描述其效率改進。",
+    "highlights": [
+      "強調智慧與效率平衡",
+      "覆蓋模型、推論、Agent 工作流程三層優化",
+      "每美元產出更多智慧",
+      "具體 benchmark 數據需查閱原文"
+    ],
+    "why_it_matters": "效率提升直接影響 API 使用成本。對處理大量任務的技術人員，GPT-5.6 可能降低單位任務費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "若 GPT-5.6 已開放 API，可設計對比實驗，測試相同任務下的成本與輸出品質變化，評估是否切換工作流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-29-github-copilot-app",
