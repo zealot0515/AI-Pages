@@ -1,5 +1,222 @@
 [
   {
+    "id": "2026-07-30-reddit-hermes",
+    "title": "Reddit 熱議：最小模型推薦與 Hermes 智慧電腦操作實踐",
+    "title_original": "Smallest model (& tips) for intelligent computer use via Hermes?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vb2ni8/smallest_model_tips_for_intelligent_computer_use/",
+    "published_at": "2026-07-30T18:54:27+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 社群討論使用最小規模模型實現智慧電腦操作的可行方案。建議包括特定量化模型搭配 Hermes 指令集，以在消費級硬體上達成基本的自動化電腦控制。",
+    "highlights": [
+      "小型語言模型可行：7B 以下模型配合提示工程可執行基礎電腦操作",
+      "Hermes 指令集：用於約束模型輸出格式，提升操作穩定性",
+      "本地部署優先：在個人 GPU 上運行，避免雲端 API 成本",
+      "量化技巧：INT4/INT8 量化可進一步降低硬體需求"
+    ],
+    "why_it_matters": "對於資源受限的技術使用者，本地小型模型是降低成本並保持隱私的有效路徑。社群持續優化此類工作流程程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術愛好者可在本地部署量化後的 7B 模型，測試自動填表、檔案操作、瀏覽器控制等重複性任務的自動化潛力。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-30-obsidian-sync-mcp-ai-agent-obsidian",
+    "title": "obsidian-sync-mcp：讓 AI Agent 跨裝置存取 Obsidian 筆記庫",
+    "title_original": "es617/obsidian-sync-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/es617/obsidian-sync-mcp",
+    "published_at": "2026-07-30T18:29:23Z",
+    "category": "agent-skills",
+    "summary": "TypeScript 實現的 MCP 伺服器，透過自架 LiveSync 讓 AI Agent 在機器關機時也能存取 Obsidian 筆記庫，實現本地優先的知識管理同步。GitHub 目前 39 星，仍屬早期專案。",
+    "highlights": [
+      "自架 LiveSync 驅動，無需機器保持開機",
+      "MCP 標準協定，易與主流 Agent 框架整合",
+      "本地優先保障資料隱私",
+      "讓 AI Agent 讀寫 Obsidian 筆記內容"
+    ],
+    "why_it_matters": "為需要將個人知識庫與 AI Agent 整合的技術人員提供一個開源、本地化的方案，可在不犧牲隱私的前提下實現智慧化筆記存取。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝此 MCP 伺服器，讓 AI Agent 直接查詢與更新 Obsidian 筆記，用於任務追蹤、會議摘要或個人知識庫的自動化建構與檢索。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/64611135?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-30-ai",
+    "title": "布魯斯·施奈爾：如何判斷是否該用 AI 處理任務",
+    "title_original": "Quoting Bruce Schneier",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything",
+    "published_at": "2026-07-30T18:25:26+00:00",
+    "category": "hot-topics",
+    "summary": "施奈爾提出一個簡單框架：區分「健身任務」與「工作任務」。前者如撰寫政策備忘錄，目的是訓練批判性思維；後者才是真正需要自動化完成的產出。",
+    "highlights": [
+      "AI 寫作練習是心智健身，非實際工作產出",
+      "持續依賴 AI 可能導致關鍵技能退化",
+      "雇主已開始注意到這種技能萎縮現象",
+      "簡單判斷標準：這任務對我有意義嗎？"
+    ],
+    "why_it_matters": "技術人應反思哪些工作真的需要 AI 加速，哪些反而該親自動手以保持核心能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "用此框架審視自己日常的 AI 使用習慣，自動過濾「偽需求」任務",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-30-langchain-langsmith-llm-gateway",
+    "title": "LangChain LangSmith 推出 LLM Gateway 強化生產環境代理控制",
+    "title_original": "LangChain LangSmith 推出 LLM Gateway 強化生產環境代理控制",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents",
+    "published_at": "2026-07-30T17:18:13+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 LangSmith 新功能 LLM Gateway，提供生產環境下的代理運行時控制能力。支援流量管理、模型切換與成本追蹤，幫助開發者更穩定地部署 LLM 驅動的代理系統。",
+    "highlights": [
+      "運行時控制：動態調整模型參數與行為策略",
+      "流量管理：支援代理請求的負載均衡與故障轉移",
+      "成本追蹤：即時監控 API 呼叫與Token消耗",
+      "模型路由：依據任務類型自動切換不同模型供應商"
+    ],
+    "why_it_matters": "生產環境代理需要穩定的基礎設施控管。LangSmith Gateway 填補了代理開發到部署之間的控制層缺口。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將 LangSmith Gateway 整合至現有代理架構，實現模型供應商的動態切換，評估不同模型在成本與效能上的最佳平衡點。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-30-lg-ai-research-k-exaone-2-0-750b",
+    "title": "LG AI Research 開源 K-EXAONE 2.0 750B 超大韓語模型",
+    "title_original": "LG AI Research releases K-EXAONE 2.0 750B A37B",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vazdxp/lg_ai_research_releases_kexaone_20_750b_a37b/",
+    "published_at": "2026-07-30T16:59:03+00:00",
+    "category": "open-source-ai",
+    "summary": "LG AI Research 發布 K-EXAONE 2.0，號稱 7500 億參數的韓語專業大型模型。專為韓語語境與科學推論優化，支援多模態能力，並以開放權重形式釋出供研究使用。",
+    "highlights": [
+      "超大規模架構：750B 參數量級的混合專家架構",
+      "韓語專業優化：在韓語理解、推論與創作上有針對性訓練",
+      "多模態支援：涵蓋文字、程式碼與視覺理解的整合能力",
+      "開源可用：模型權重公開，支援本地部署與微調"
+    ],
+    "why_it_matters": "韓語大型語言模型的開放為非英語 NLP 研究提供新選項。對需要處理韓語內容的技術使用者是值得關注的資源。",
+    "automation_angle": null,
+    "automation_angle_zh": "研究人員可下載 K-EXAONE 2.0 至本地伺服器，針對特定韓語自動化任務（如文件分析、客服回覆）進行微調與效能測試。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-30-github-copilot-visual-studio-net-azure-agent",
+    "title": "GitHub Copilot Visual Studio 七月更新：.NET 與 Azure 專家 Agent",
+    "title_original": "GitHub Copilot in Visual Studio — July update",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update",
+    "published_at": "2026-07-30T15:01:48+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方更新日誌指出，七月更新帶來基於 Copilot SDK 建構的全新 Agent、.NET 與 Azure 團隊內建的專業知識，以及更個人化的 Copilot 客製化選項。",
+    "highlights": [
+      "新增基於 Copilot SDK 的專屬 Agent 功能",
+      "內建 .NET 與 Azure 團隊專業知識",
+      "提供更細緻的 Copilot 個人化設定",
+      "七月更新內容可直接在 VS 中啟用"
+    ],
+    "why_it_matters": "VS 開發者可直接在熟悉的 IDE 中使用更強的 AI 程式碼生成與偵錯能力，.NET/Azure 場景的專業知識內建節省查文件時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 Visual Studio 中直接啟用新版 Copilot Agent，用於自動化重構建議、Azure 部署腳本生成或 .NET 疑難排解。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-30-gemini-robotics-er-2",
+    "title": "Gemini Robotics ER 2：融合視訊理解、任務編排與多機器人協作的機器人模型",
+    "title_original": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+    "published_at": "2026-07-30T15:00:59+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 發布 Gemini Robotics ER 2，在視訊理解與多機器人協作上有重大突破。該模型整合大型語言模型的推論能力，讓機器人能理解動態視訊、編排複雜任務，並支援多台機器人同步協作。",
+    "highlights": [
+      "視訊理解升級：可即時解析攝影機畫面中的物體運動與情境脈絡",
+      "任務編排能力：透過自然語言指令協調多步驟操作流程",
+      "多機器人協作：支援群體機器人的分工與同步控制",
+      "工具使用：模型能理解並調用外部工具執行特定任務"
+    ],
+    "why_it_matters": "視訊理解與推論的結合是機器人自動化的關鍵瓶頸，ER 2 代表此領域的重要進展。對需要靈活適應動態環境的自動化系統有直接影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可申請加入 Google 的早期使用計畫，測試 ER 2 的視訊理解與機器人控制能力，評估其整合至現有自動化流程的可行性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-30-github-copilot",
+    "title": "GitHub Copilot 遠端控制功能新增托管設備限制",
+    "title_original": "Limit remote control to managed devices",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-30-limit-remote-control-to-managed-devices",
+    "published_at": "2026-07-30T14:54:47+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布企業與組織管理員現在可限制 Copilot 遠端控制功能僅在托管設備上啟用。此更新強化了企業安全邊界，防止非托管設備透過 Copilot 存取內部系統資源。",
+    "highlights": [
+      "設備級別控管：管理員可指定哪些設備允許 Copilot 遠端控制",
+      "安全合規增強：符合企業資安政策對設備管理的要求",
+      "即時生效：設定變更後立即套用至所有 Copilot 會話",
+      "組織層級設定：支援整個組織或特定團隊的差異化配置"
+    ],
+    "why_it_matters": "Copilot 越來越深入企業工作流程程，設備級安全控制成為 IT 管理必要能力。此功能讓企業在享受 AI 助力的同時維持安全治理。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業 IT 管理員應評估此功能，確保 Copilot 遠端控制僅限於 MDM 托管設備，防止敏感程式碼與內部系統透過個人裝置外洩。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-30-turbo-fieldfare-apple-silicon-2gb-ram-gemma-4-26b",
     "title": "Turbo-fieldfare：開源引擎可在 Apple Silicon 2GB RAM 環境運行 Gemma 4 26B",
     "title_original": "Turbo-fieldfare: Open-source engine running Gemma 4 26B in 2 GB RAM on Apple Silicon",
@@ -49,6 +266,33 @@
     "automation_angle_zh": "技術用戶可下載 MindControl 並在自有資料集上跑對比測試，評估其對特定任務（如長文件推論或多輪對話）的實際加速效果，決定是否整合進現有 pipeline。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-30-gpt-5-6",
+    "title": "GPT-5.6 以更低價格推進效能邊界",
+    "title_original": "Advancing the price-performance frontier with GPT-5.6",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+    "published_at": "2026-07-30T10:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 官方博客說明 GPT-5.6 如何透過更高效率的模型設計為 Luna 與 Terra 方案降低單位成本，並介紹企業如何在工作流程中大規模部署 AI，同時控管費用。",
+    "highlights": [
+      "GPT-5.6 主打價格效能比提升",
+      "Luna 與 Terra 方案獲得更優惠的定價",
+      "更高效模型支援企業大規模 AI 部署",
+      "有利於降低 AI 工作流程自動化成本"
+    ],
+    "why_it_matters": "對技術決策者而言，模型單價下降意味著相同預算可支撐更多自動化流程，GPT-5.6 的價格調整值得列入工作流程成本模型重新估算。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可計算現有工作流程在 GPT-5.6 Luna/Terra 方案下的實際花費，評估是否值得將批量自動化任務遷移到新版定價層級。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -1749,6 +1993,33 @@
       "GDScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/1148310?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-30-gemini-robotics-2",
+    "title": "Gemini Robotics 2 將全身智慧引入機器人控制",
+    "title_original": "Gemini Robotics 2 brings whole body intelligence to robots",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+    "published_at": "2026-07-28T13:21:37+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 同步發布 Gemini Robotics 2，強調「全身智慧」概念，將視覺感知、運動控制與任務推論整合為統一模型。這是從模組化控制轉向端到端智慧控制的重要里程碑。",
+    "highlights": [
+      "全身動作整合：視覺、本體感覺、運動控制一體化建模",
+      "動態環境適應：在非結構化環境中保持操作穩定性",
+      "統一策略網路：單一模型處理感知到執行的完整pipeline",
+      "運動協調優化：支援細緻的手指與肢體動作控制"
+    ],
+    "why_it_matters": "傳統機器人依賴多個獨立子系統，而端到端全身智慧代表更接近人類的通用操作能力。對工廠自動化與服務機器人是長期技術方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "研究者可透過 DeepMind 發布的技術論文與開源模型權重（若有），在模擬環境中復現全身控制策略，評估其對特定自動化場景的適用性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -73035,6 +73306,33 @@
     "why_it_matters": "對於已使用或考慮使用 Google AI 訂閱服務的技術人員，此擴展可能代表更便利的付費管道與更穩定的服務區域支援，影響訂閱決策。",
     "automation_angle": null,
     "automation_angle_zh": "技術人員可評估 AI Plus 訂閱是否涵蓋自身所在區域，並比較其與競爭對手的功能差異與價格優勢，以作為個人或團隊 AI 工具預算的參考依據。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-30-google-7-99-ai-plus-35",
+    "title": "Google 推出 7.99 美元低價 AI Plus 訂閱服務，登陸 35 國",
+    "title_original": "Google推出7.99美元低價版AI Plus訂閱服务 登陆35個国家 - cnBeta.COM",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TWDlfcEdfSThfaFQzY3FmblBrdWxyRWdPTE1QNl82OUtGQzExNVJwa05FTGU1RTQwOVVIbWVJYmEwWVpVTDNSamgtc2U0Zzg4NVE?oc=5",
+    "published_at": "2026-01-28T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Google 在美國市場推出更便宜的 AI Plus 方案，月費 7.99 美元（原為 19.99 美元），支援 35 個國家。這是 Google 在 AI 訂閱市場的降價策略。",
+    "highlights": [
+      "新方案月費 7.99 美元，約為原價四折",
+      "目前已在 35 個國家上線",
+      "可能包含 Gemini 高級功能存取權",
+      "針對 Microsoft Copilot 價格競爭"
+    ],
+    "why_it_matters": "對於需要付費 AI 工具的開發者或技術從業人員，這是降低工具成本的新選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估將現有付費 AI 工具切換至 Google AI Plus 的可行性與成本節省幅度",
     "tags": [
       "ai-deals",
       "rss",
