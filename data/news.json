@@ -1,6 +1,230 @@
 [
   {
     "id": "2026-07-31-openai-ai",
+    "title": "OpenAI 破獲柬埔寨詐騙集團利用 AI 犯罪",
+    "title_original": "Disrupting a Criminal Scam Operation",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+    "published_at": "2026-08-04T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布報告，揭露柬埔寨犯罪組織如何透過 ChatGPT 執行投資詐欺、浪漫騙局、賭博與身份冒充等手法。官方已主動阻斷相關操作並進行執法合作。",
+    "highlights": [
+      "詐騙集團使用 ChatGPT 生成多語言文案與腳本",
+      "主要手法包含投資建議、假冒名人推廣與假戀愛關係",
+      "OpenAI 結合帳號分析與內容審查主動出擊",
+      "案例顯示 AI 安全監控已從被動舉報轉向主動偵測"
+    ],
+    "why_it_matters": "此案例證明 OpenAI 已建立濫用行為偵測與執法響應機制，開發者應關注其內容政策邊界與 API 使用規範的實際執行標準。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業可參考其偵測模式，在內部部署類似日誌分析與異常行為識別系統，防止 AI 工具被用於惡意目的。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-31-engram-mcp-rust-mcp",
+    "title": "engram-mcp：Rust實作的代理持久記憶MCP伺服器",
+    "title_original": "edg-l/engram-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/edg-l/engram-mcp",
+    "published_at": "2026-07-31T19:08:46Z",
+    "category": "agent-skills",
+    "summary": "engram-mcp是以Rust編寫的MCP伺服器，專為AI代理提供持久記憶能力；支援分支感知 session移交、本地ONNX嵌入向量運算，以及SQLite後端的語意搜尋。技術棧選用Rust，強調效能與記憶體安全。",
+    "highlights": [
+      "分支感知：session移交時可保留分支上下文，支援分支式工作流程程",
+      "本地ONNX：使用本地ONNX模型計算嵌入向量，無需雲端API",
+      "SQLite後端：輕量持久化儲存，適合本地部署與邊緣場景",
+      "Rust實作：強調高效能與記憶體安全，降低執行時崩潰風險",
+      "星級較少：目前12星，屬早期專案，功能成熟度待觀察"
+    ],
+    "why_it_matters": "對需要跨session維持長期記憶的代理應用，engram-mcp提供一個無需依賴雲端服務的本地解決方案；Rust實作預期有優秀的執行效能，適合資源受限的部署環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "將engram-mcp部署於本地開發機，串接本地LLM（如Ollama），測試代理在跨日時是否仍能正確回憶前次對話的關鍵上下文，評估其分支感知與語意搜尋的實際效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/15859336?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-power-bi-modeling-mcp-bi-ai",
+    "title": "微軟Power BI Modeling MCP：將BI語意模型能力帶入AI代理",
+    "title_original": "microsoft/powerbi-modeling-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/microsoft/powerbi-modeling-mcp",
+    "published_at": "2026-07-31T19:05:48Z",
+    "category": "agent-skills",
+    "summary": "微軟發布的Power BI Modeling MCP Server讓AI代理能直接操作Power BI語意模型，支援查詢、業務邏輯檢索與模型結構探索。GitHub已獲1019星，為目前熱度較高的MCP專案之一，技術人員可快速評估其在BI自動化的潛力。",
+    "highlights": [
+      "語意模型操作：代理可直接查詢與探索Power BI底層語意層",
+      "BI自動化：無需手動開啟Power BI桌面即可驅動分析流程",
+      "企業適用：對已部署Power BI的組織可直接整合現有資料架構",
+      "微軟官方：由微軟團隊維護，長期支援與更新可預期",
+      "星級訊號：1019星反映社群高度關注與採用意願"
+    ],
+    "why_it_matters": "Power BI Modeling MCP大幅降低BI系統與AI代理的整合門檻；對處理大量Power BI報表的技術人員，可透過代理自動執行查詢、解釋結果，節省重複性分析時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "架設MCP Server並串接Claude Code或其他支援MCP的代理，測試讓代理自動登入Power BI語意模型、執行DAX查詢並生成口語化報告的完整流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-31-reddit-deepseek-v4",
+    "title": "Reddit 社群熱議：Deepseek V4 發布後模型尺寸發展趨勢預測",
+    "title_original": "With release of Deepseek V4 I wanted see how the model sizes are trending over time. The trend is that by this time next year, we probably will have Opus 4.5 level models on consumer grade laptops!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbzicu/with_release_of_deepseek_v4_i_wanted_see_how_the/",
+    "published_at": "2026-07-31T18:42:27+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群成員分析 Deepseek V4 發布後的模型尺寸演進趨勢，預測至明年此刻，可能會有接近 Opus 4.5 等級的模型可在消費級筆電上運行。此推論基於近年模型效率提升的速度與硬體發展軌跡。",
+    "highlights": [
+      "社群用戶整理近年模型尺寸縮小與效能提升的數據",
+      "預測消費級筆電運行高等級模型時間點",
+      "Deepseek V4 被視為趨勢中的重要節點",
+      "此預測屬於社群討論，非官方聲明",
+      "模型壓縮技術持續進步是核心假設"
+    ],
+    "why_it_matters": "若預測成真，工程師可在本地部署強大模型，徹底改變隱私敏感工作流程程與開發成本結構，對邊緣運算與離線 AI 應用有深遠影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可追蹤 GGUF 格式模型在量化後的實際效能表現，設定本地基準測試驗證此預測時間表是否合理。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-uipath-coder-eval-yaml-mcp",
+    "title": "UiPath coder_eval：沙箱化YAML測試框架驗證代理技能與MCP伺服器",
+    "title_original": "UiPath/coder_eval",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/UiPath/coder_eval",
+    "published_at": "2026-07-31T18:32:50Z",
+    "category": "agent-skills",
+    "summary": "UiPath開源的coder_eval提供沙箱化YAML測試套件，用於驗證Claude Code技能、MCP伺服器與CLI工具在代理環境中的實際運作效果；支援激活動作檢查、A/B實驗與CI閘門整合，適合對代理系統進行自動化品質把關。",
+    "highlights": [
+      "沙箱執行：隔離環境測試代理行為，避免影響正式系統",
+      "YAML驅動：測試案例以YAML定義，方便版本控制與協作",
+      "激活動作檢查：驗證代理是否正確觸發預期工具呼叫",
+      "A/B實驗支援：可對比不同代理配置下的行為差異",
+      "CI整合：支援作為持續整合的一環，自動化回歸測試"
+    ],
+    "why_it_matters": "coder_eval填補了代理系統缺乏標準化測試方法的缺口；對部署大量AI代理的團隊，可透過自動化測試減少代理行為偏離預期的風險，提升系統可靠性。",
+    "automation_angle": null,
+    "automation_angle_zh": "為自建的MCP伺服器編寫YAML測試案例，加入CI pipeline；每次推送更新時自動驗證代理是否仍能正確呼叫工具、產生預期輸出，並記錄失敗案例供後續調校。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/375663?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-31-github-copilot",
+    "title": "GitHub Copilot 企業版支援團隊模型政策設定",
+    "title_original": "Enterprise teams model policy targeting in public preview",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview",
+    "published_at": "2026-07-31T18:11:50+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布 Copilot Enterprise 團隊管理員可針對不同團隊配置預設模型策略，控制哪些 AI 模型可供成員使用，現已進入公開預覽。",
+    "highlights": [
+      "管理員可為不同團隊設定差異化模型存取權限",
+      "支援設定預設模型與備援模型組合",
+      "有助於控制成本與合規需求",
+      "適用於需要嚴格模型審核的企業環境"
+    ],
+    "why_it_matters": "此功能讓開發團隊能根據任務需求精準調配模型資源，在提升效率的同時有效管控 API 開支與資料外洩風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術主管可立即在組織內部測試，依專案類型分配 GPT-4 與成本較低的模型，避免全體無差別使用高價模型。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-31-langchain-reviewbench",
+    "title": "LangChain 推出 ReviewBench：用於評估程式碼審查代理的基準工具",
+    "title_original": "Evaluating code review agents with ReviewBench",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench",
+    "published_at": "2026-07-31T16:58:26+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 ReviewBench，這是一個用於評估 AI 程式碼審查代理的基準測試框架，透過對比真實可信審查者的 PR 回饋來衡量代理品質，幫助開發者客觀比較不同程式碼審查方案。",
+    "highlights": [
+      "ReviewBench 基於真實 PR 反饋建立評估標準",
+      "解決程式碼審查代理缺乏客觀評測方法的問題",
+      "可用於比較不同模型或 Prompt 的審查品質",
+      "LangChain 將其開源供社群使用",
+      "有助於建立程式碼審查自動化的品質指標"
+    ],
+    "why_it_matters": "缺乏可靠評估基準阻礙程式碼審查自動化的發展，ReviewBench 提供客觀指標讓團隊選擇與優化審查代理，直接加速 QA 自動化落地。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發團隊可使用 ReviewBench 評估自建或第三方程式碼審查方案，設定自動化測試比較不同模型在自家程式碼庫上的表現。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-longcat-flash-lite-jamba2-mini-qwen3-5",
+    "title": "開源社群釋出多款無審查模型：LongCat-Flash-Lite、Jamba2-Mini、Qwen3.5 系列",
+    "title_original": "Uncensored Multi-Model Releases, LongCat-Flash-Lite with MTPs, Jamba2-Mini, Qwen3.5-9B-Nikusui-v1 with MTPs and Qwen3.5-27B-Nikusui-v1 with MTPs, Available in Safetensors and GGUF Formats!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbwcrr/uncensored_multimodel_releases_longcatflashlite/",
+    "published_at": "2026-07-31T16:48:06+00:00",
+    "category": "open-source-ai",
+    "summary": "社群釋出包含 LongCat-Flash-Lite（支援 MTP）、Jamba2-Mini、Qwen3.5-9B-Nikusui-v1 與 Qwen3.5-27B-Nikusui-v1（均支援 MTP）等無審查模型，提供 Safetensors 與 GGUF 兩種格式，方便本地部署與量化使用。",
+    "highlights": [
+      "LongCat-Flash-Lite 整合 MTP（Multi-Token Prediction）技術",
+      "Jamba2-Mini 提供新架構選擇",
+      "Qwen3.5 變體由 Nikusui 社群微調為無審查版本",
+      "提供 GGUF 格式利於 llama.cpp 量化部署",
+      "可立即在 Ollama 或 LM Studio 載入測試"
+    ],
+    "why_it_matters": "無審查模型對於需要完整輸出控制的研究者與開發者至關重要，MTP 技術可能提升推論速度與質量，本地運行可完全掌控資料流向。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可直接下載 GGUF 版本至本地，用 Ollama 建立個人 AI 工作流程程，例如自動化文件處理或程式碼生成，完全不經第三方 API。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-openai-ai",
     "title": "OpenAI 公布歐洲負責任 AI 治理推進報告",
     "title_original": "Advancing responsible AI across Europe",
     "source": "OpenAI Blog",
@@ -25,6 +249,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-31-openai",
+    "title": "OpenAI 揭示「豐沛智慧」全端策略藍圖",
+    "title_original": "Building abundant intelligence",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/building-abundant-intelligence",
+    "published_at": "2026-07-31T15:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發表战略博文，闡述如何從底層模型、推論優化到應用層全面提升 AI 能力、降低成本並擴大實用場景，暗示將持續壓低使用門檻。",
+    "highlights": [
+      "強調全端優化而非單點突破的策略方向",
+      "預告模型能力將持續提升同時價格更具競爭力",
+      "透露將更積極整合到各種工作流程程中",
+      "對開發者生態的長期承諾"
+    ],
+    "why_it_matters": "若執行順利，開發者將能在更低成本下獲得更強推論能力，直接影響 AI 應用開發的技術選型與成本模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "密切關注後續 API 定價調整與新功能發布，提前評估現有工作流程遷移到新版模型的可行性與效能增益。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-31-file-system-brain-mcp-ai-markdown-mcp",
@@ -165,6 +416,33 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/264091041?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-univ-chatgpt-enterprise-ai",
+    "title": "Univé 企業借助 ChatGPT Enterprise 打造 AI 就緒組織",
+    "title_original": "Univé builds an AI-ready workforce",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/unive",
+    "published_at": "2026-07-31T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "荷蘭保險公司 Univé 分享如何結合領導力、負責任治理與員工驅動創新，大規模部署 ChatGPT Enterprise 改造工作流程程的實踐經驗。",
+    "highlights": [
+      "強調由上而下制定明確 AI 使用政策",
+      "員工主導試點項目並快速迭代",
+      "建立負責任 AI 的治理框架",
+      "跨部門應用案例涵蓋客服、文件分析與內部協作"
+    ],
+    "why_it_matters": "此案例展示企業級 AI 部署的完整路徑，包括組織變革與技術落地的平衡，為技術決策者提供可參照的轉型範本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載其案例白皮書，提取關鍵 KPI 與部署檢查清單，評估自身組織採用類似框架的成熟度。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-07-31-ai",
@@ -16536,6 +16814,34 @@
       "JavaScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/214830967?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-meta-ai-muse-spark-1-1",
+    "title": "Meta AI 發布 Muse Spark 1.1 版本更新",
+    "title_original": "Introducing Muse Spark 1.1 - AI at Meta",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZaGZQS2RfV05tSHU3dGRuRGFXNFd2UzNkYkJuR2tiSUg4X3RtT0UxV1VlTjNvSkZWcVUtU0NNUDJPVUo5WW5RMFR6Z055Y0dhZ1EyaG1SeGIxZlMtWFFmZTMyc2paYmxFLXE1TlBlaEg?oc=5",
+    "published_at": "2026-07-09T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Meta AI 發布 Muse Spark 1.1 版本更新，這是 Meta 旗下創意 AI 工具的最新迭代，官方新聞僅提及版本號更新，具體功能變化或效能提升尚未揭露。",
+    "highlights": [
+      "Meta AI 發布 Muse Spark 1.1 小版本更新",
+      "具體新功能或改進內容未在摘要中說明",
+      "需查閱完整新聞以確認變化細節",
+      "Meta 持續更新 Muse 系列產品",
+      "小版本更新通常代表錯誤修復或小幅改進"
+    ],
+    "why_it_matters": "Muse Spark 若有顯著能力提升，可能為創意工作流程程提供更強的圖文生成選項，但目前資訊不足難以判斷實際影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議直接查看 Meta 官方部落格確認具體更新內容，再評估是否值得測試新版本於創意自動化流程中。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -70775,6 +71081,34 @@
     "why_it_matters": "77.6% 的 SWE-Bench 分數代表開源模型在程式碼任務上逼近頂級閉源模型，技術團隊可評估將其作為程式碼生成、審查自動化的骨幹。",
     "automation_angle": null,
     "automation_angle_zh": "開發者可用 Mistral Medium 3.5 替換現有程式碼補全工具（如 GitHub Copilot 部分功能），或作為 CI/CD 流程中自動化 Code Review 的引擎。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-mistral-ai-remote-agents-mistral-medium-3-5-swe-bench-77-6",
+    "title": "Mistral AI 發布 Remote Agents 與 Mistral Medium 3.5，SWE-Bench 達 77.6%",
+    "title_original": "Mistral AI Launches Remote Agents in Vibe and Mistral Medium 3.5 with 77.6% SWE-Bench Verified Score - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNFRxVHMxYUZsaWFoSUdybXNXRHZ1d0J5M2ZSc2xRd2NGcEhSRC11QmlPMmZ6NGlHMU9JT2dPOHVZeVBqcnc2ZWREUFpTRWY0VjV6NC1ZNl9WSkh4QWRjMVI5M0xjeHBmcTJ5V3pmVDh0UThHeTAzQWVoZjNqRU9KSlVnMUFJSVlkYm5pOTNqbTh4NkFaY2RyU25VQWtzWFhaaUplSmlYOG5YcklfTVdmM0tpWmpzR3QtRl9fNVhyVDZ4VWdrQnQ0N1F0VDRqWWhheF9acE9XSdIB3AFBVV95cUxONVlOOUl4cDVkT3I5LUtvRlNPQXpYYjBUT0lOTFVGa0RHTG9qd0p1bXFwLWpzWjUwcmp0U0FSdUJNc0o4NUJ3SFlWbUtfOVFENWhrMDNlSUFSTXRKZmktSG1jVVBoZnR5cXpWV3UzSWdwUTh4MS1idF9TNFhlVU9LU2I5SGtqMXBFRXpmbnE2a2FQcFdPSk9jYVJrOVQwQ19wM25pQjFMOWZBOC1sYmQ2cURqd2lUVXlqR2c2a0NTdkVURTQ1b19qSVl5emhyVkhTdUpUck9scG1SS2xD?oc=5",
+    "published_at": "2026-05-02T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 宣布推出 Remote Agents 功能與 Mistral Medium 3.5 模型，後者在 SWE-Bench Verified 取得 77.6% 的分數，顯示其軟體工程任務能力的提升，並強調遠端代理執行能力。",
+    "highlights": [
+      "Mistral Medium 3.5 SWE-Bench Verified 分數達 77.6%",
+      "Remote Agents 支援遠端執行 AI 任務",
+      "Mistral 持續更新模型能力與代理框架",
+      "77.6% 為相對較高的軟體工程基準分數",
+      "具體發布日期與定價尚待確認"
+    ],
+    "why_it_matters": "SWE-Bench 77.6% 代表模型具備較強的真實世界程式碼修復能力，若定價合理，可作為取代昂貴 GPT-4 的程式碼代理方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估用 Mistral Medium 3.5 替代現有程式碼審查或除錯工作流程程，透過 API 或本地部署測試其 PR 自動修復能力。",
     "tags": [
       "new-models",
       "rss",
