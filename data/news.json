@@ -1,5 +1,332 @@
 [
   {
+    "id": "2026-07-31-openai-ai",
+    "title": "OpenAI 公布歐洲負責任 AI 治理推進報告",
+    "title_original": "Advancing responsible AI across Europe",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+    "published_at": "2026-07-31T15:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格發布文章說明其如何在欧洲推進負責任 AI，涵蓋安全、保安、透明度和出處追蹤等實踐。隨著歐盟 AI Act 逐步實施，OpenAI 強調將持續配合監管合規，對使用歐洲資料或服務的開發者具有參考價值。",
+    "highlights": [
+      "OpenAI 官方發布歐洲負責任 AI 推進報告",
+      "涵蓋安全、保安、透明度和資料出處追蹤",
+      "明確將配合歐盟 AI Act 合規要求",
+      "影響使用歐洲資料或服務的 AI 應用開發者"
+    ],
+    "why_it_matters": "歐盟 AI Act 已進入執行階段，了解大廠的合規策略可幫助技術宅預先調整產品架構，避免未來合規風險與法規障礙。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀報告了解 OpenAI 的資料出處追蹤機制，評估能否將類似技術引入自有 AI 流水線以符合未來監管要求。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-31-file-system-brain-mcp-ai-markdown-mcp",
+    "title": "file-system-brain-mcp：AI 原生 Markdown 知識庫，MCP 協議整合",
+    "title_original": "andylow92/file-system-brain-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/andylow92/file-system-brain-mcp",
+    "published_at": "2026-07-31T08:30:41Z",
+    "category": "agent-skills",
+    "summary": "file-system-brain-mcp 是一個自增強型 AI 原生 Markdown 知識庫，透過內建 MCP 伺服器（24 工具）暴露給 Claude/Cursor。支援語義搜尋、混合搜尋、RAG 與引用回答，並能從編輯行為學習使用者風格。",
+    "highlights": [
+      "AI 原生 Markdown 知識庫架構",
+      "內建 MCP 伺服器提供 24 工具",
+      "支援語義搜尋、混合搜尋、RAG 與引用回答",
+      "具備從編輯行為學習使用者風格的能力",
+      "本地優先的 .md 檔案格式，方便遷移"
+    ],
+    "why_it_matters": "MCP 協議逐漸成為 Agent 與工具整合的標準，file-system-brain-mcp 展示如何在本地知識庫中無縫接入 AI Agent。對希望建立個人知識管理系統的技術用戶，是一個可參考的開源範例。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝並與 Cursor 或 Claude 對接，測試其對內部文件（Markdown 格式）的 RAG 檢索效果，評估是否能作為個人或團隊的本地知識庫解決方案。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/35411516?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-31-josefalbers-phi-phi-4-mac-apple-silicon",
+    "title": "JosefAlbers/phi：Phi-4 本地跑 Mac，Apple Silicon 視覺語言模型",
+    "title_original": "JosefAlbers/phi",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/JosefAlbers/phi",
+    "published_at": "2026-07-31T08:22:37Z",
+    "category": "open-source-ai",
+    "summary": "JosefAlbers/phi 專案讓 Phi-4 能在 Mac 本地運行，針對 Apple Silicon 優化，提供 Vision 與 Language 雙能力。採用 Jupyter Notebook 格式，技術用戶可快速在本地驗證視覺理解與語言推論效果。",
+    "highlights": [
+      "Phi-4 模型本地運行於 macOS",
+      "針對 Apple Silicon（M 系列晶片）優化",
+      "支援視覺理解與語言處理",
+      "Jupyter Notebook 格式方便互動測試",
+      "277 stars，反映一定社群關注度"
+    ],
+    "why_it_matters": "Phi-4 本地化意味著可離線使用小型多模態模型，降低 API 成本並保護資料隱私。對於需要在本地處理圖像文件的技術用戶，是一個值得關注的低成本方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在配備 Apple Silicon 的 Mac 上安裝，依據 Notebook 範例測試本地圖像理解與文件分析能力，評估是否能取代部分雲端 API 需求。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Jupyter Notebook"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/146810011?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-31-openpangu-2-0-pro-505b-18b",
+    "title": "華為開源 openPangu-2.0-Pro：505B 規模 18B 專家架構",
+    "title_original": "DeepSeek-V4-Flash-0731 now far surpassing the DeepSeek-V4-Pro-Preview in benchmarks",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbkvau/deepseekv4flash0731_now_far_surpassing_the/",
+    "published_at": "2026-07-31T08:21:37+00:00",
+    "category": "open-source-ai",
+    "summary": "華為宣布開源 openPangu-2.0-Pro 模型，總參數量達 505B，採用 18B 專家架構設計，為目前最大規模開源中文模型之一，支援多語言與長文本任務。",
+    "highlights": [
+      "總參數量 505B，專家架構 18B",
+      "華為官方開源，中文能力強",
+      "支援多語言與長文本處理"
+    ],
+    "why_it_matters": "openPangu-2.0-Pro 是華為重要開源動作，提供企業級中文模型選擇，其 MoE 架構值得架構師關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載測試，評估中文任務效能與部署資源需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-agenticcrawler-rust-llm-mcp",
+    "title": "AgenticCrawler：Rust 開發的 LLM 驅動網頁爬蟲，內建 MCP 伺服器",
+    "title_original": "Mingye-Lu/AgenticCrawler",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Mingye-Lu/AgenticCrawler",
+    "published_at": "2026-07-31T07:59:31Z",
+    "category": "agent-skills",
+    "summary": "AgenticCrawler 是 Rust 開發的 LLM 驅動網頁爬蟲，支援 25 種網站並內建 MCP 伺服器。使用者可用自然語言描述需求，系統自動轉換為結構化資料輸出。單一 Rust 二進位檔案方便部署，技術宅可快速整合進自動化工作流程。",
+    "highlights": [
+      "Rust 開發，單一二進位檔案便於部署",
+      "支援 25 種網站內容抓取",
+      "內建 MCP 伺服器，可無縫對接 agent 工具鏈",
+      "自然語言輸入，結構化資料輸出"
+    ],
+    "why_it_matters": "爬蟲是資料收集與 RAG 流水線的基礎元件，AgenticCrawler 結合 LLM 理解能力，可大幅減少解析複雜頁面的開發成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 Rust 二進位檔案，安裝後用自然語言測試抓取目標網站，評估能否取代現有爬蟲腳本並整合進 AI agent 工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/186653727?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-jiuwensymbiosis-openjiuwen-agent-core-ai",
+    "title": "JiuwenSymbiosis：基於 openJiuwen agent-core 的物理 AI 助理框架",
+    "title_original": "openJiuwen-ai/jiuwensymbiosis",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/openJiuwen-ai/jiuwensymbiosis",
+    "published_at": "2026-07-31T07:37:26Z",
+    "category": "open-source-ai",
+    "summary": "JiuwenSymbiosis 是建立在 openJiuwen agent-core 框架上的物理 AI 助理開源專案，採用 Python 開發，目前 GitHub 獲得 22 顆星。該專案瞄準實體世界與 AI 系統的整合應用，提供可擴展的 agent 核心架構，技術宅可用於研究物理 AI 的實作範例。",
+    "highlights": [
+      "基於 openJiuwen agent-core 框架的物理 AI 助理",
+      "開源 Python 專案，GitHub 22 顆星",
+      "瞄準實體世界與 AI 系統整合場景",
+      "提供 agent 開發的核心架構參考"
+    ],
+    "why_it_matters": "物理 AI 是 2025 年熱門方向，該專案提供可研究實作細節的開源起點，技術宅可下載程式碼理解 agent-core 設計模式。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即 clone 專案閱讀原始碼，理解 openJiuwen agent-core 的工具調用與任務分解邏輯，用於自己的 agent 專案參考。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/264091041?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-ai",
+    "title": "馬來西亞政府推出免費三個月 AI 訂閱優惠，目標惠及十萬青年",
+    "title_original": "Huawei opensouced openPangu-2.0-Pro, 505B-A18B",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbj6uf/huawei_opensouced_openpangu20pro_505ba18b/",
+    "published_at": "2026-07-31T06:47:53+00:00",
+    "category": "ai-deals",
+    "summary": "馬來西亞總理安華宣布，完課青年可享三個月免費 AI 工具訂閱，國慶日當天正式啟動，預計惠及十萬人，為區域性 AI 工具推廣計畫。",
+    "highlights": [
+      "為馬來西亞國民的區域性優惠",
+      "三個月免費 AI 訂閱",
+      "主要目標族群為青年"
+    ],
+    "why_it_matters": "此為特定地區政策優惠，非技術用戶主要關注點，若有馬來西亞業務可留意。",
+    "automation_angle": null,
+    "automation_angle_zh": "有馬來西亞業務需求的讀者可關注是否符合資格。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-deepseek-v4-flash-api",
+    "title": "DeepSeek V4 Flash 正式登陸 API，社群首批測試出爐",
+    "title_original": "The official release Deepseek V4 flash is live on the API",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbidxt/the_official_release_deepseek_v4_flash_is_live_on/",
+    "published_at": "2026-07-31T06:05:30+00:00",
+    "category": "new-models",
+    "summary": "Reddit 社群回報 DeepSeek V4 Flash 版本已正式在官方 API 上線，多名用戶完成首批測試。作為中國領先的開源模型系列，DeepSeek V4 Flash 的定價與效能表現受到技術社群高度關注，有望衝擊高性價比 API 市場。",
+    "highlights": [
+      "DeepSeek V4 Flash 已正式在官方 API 開放使用",
+      "首批社群測試結果陸續出爐",
+      "DeepSeek 系列以高性價比聞名",
+      "可能對 Claude、GPT-4o API 市場造成價格壓力"
+    ],
+    "why_it_matters": "若 DeepSeek V4 Flash 維持低價高能路線，將成為替代 GPT-4o mini 或 Claude Haiku 的候選方案，直接降低 AI 工具使用成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用相同 prompt 測試 DeepSeek V4 Flash 與現有模型，對比輸出品質與回應速度，評估能否整合進日常自動化腳本以節省 API 費用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-deepseek-v4-flash-pro",
+    "title": "DeepSeek-V4-Flash 更新，官方預告 Pro 版本即將發布",
+    "title_original": "DeepSeek-V4-Flash has been updated, \"The official release of DeepSeek-V4-Pro will follow soon\"",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbidkp/deepseekv4flash_has_been_updated_the_official/",
+    "published_at": "2026-07-31T06:04:59+00:00",
+    "category": "new-models",
+    "summary": "DeepSeek-V4-Flash 迎來更新，官方透露 DeepSeek-V4-Pro 正式版本將於近期發布，社群對新版本充滿期待。",
+    "highlights": [
+      "DeepSeek-V4-Flash 已有更新",
+      "官方預告 Pro 版本即將發布",
+      "社群關注度較高"
+    ],
+    "why_it_matters": "DeepSeek 系列以高性價比著稱，Pro 版本發布將提供更多選擇，值得追蹤。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注官方發布動態，評估 Pro 版本是否適合工作流程程需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-tritium-rust-cuda-llm-gpu",
+    "title": "Tritium：Rust/CUDA 開源三元量化 LLM 引擎，瞄準消費級 GPU 部署",
+    "title_original": "Open Source Ternary LLM Engine in Rust/CUDA for Quantization, Serving, and Training of models on consumer GPUs, called Tritium (Apache 2.0)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbf0nt/open_source_ternary_llm_engine_in_rustcuda_for/",
+    "published_at": "2026-07-31T03:18:53+00:00",
+    "category": "open-source-ai",
+    "summary": "一個採用 Rust 與 CUDA 開發的開源三元量化 LLM 引擎 Tritium 正式發布，支援模型量化、Serving 與訓練，採用 Apache 2.0 許可，可在消費級 GPU 上運行，為本地 LLM 部署提供高效替代方案。",
+    "highlights": [
+      "Rust + CUDA 混合架構，兼顧安全性與高效運算",
+      "三元量化技術大幅降低記憶體占用",
+      "支援消費級 GPU 部署，降低硬體門檻",
+      "Apache 2.0 授權，可用於商業專案"
+    ],
+    "why_it_matters": "Tritium 提供消費級硬體高效量化引擎，讓本地 LLM 部署更實用，適合需要隱私保護或控制成本的應用場景，是 GPTQ/AWQ 的開源替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可整合 Tritium 加速推論或評估不同量化精度下的效能品質權衡，現已可 clone repo 測試。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-minimax-h3",
+    "title": "Minimax-H3 影片生成模型釋出，開源權重近日公佈",
+    "title_original": "Minimax-H3 video model released, open weights coming in the next few days",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbdsmz/minimaxh3_video_model_released_open_weights/",
+    "published_at": "2026-07-31T02:22:26+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群爆料 Minimax-H3 影片生成模型已釋出，社群傳聞開源權重將在數日內發布。若傳聞屬實將成為繼 Sora、Wan 之後又一款可供本地部署的影片生成模型，對需要離線影片生成的工作流程具重要意義。",
+    "highlights": [
+      "Minimax-H3 影片生成模型已對外釋出",
+      "社群傳聞開源權重即將在數日內發布",
+      "尚未獲得官方公告確認",
+      "可能成為第三個可本地部署的開源影片模型"
+    ],
+    "why_it_matters": "開源影片生成模型仍是稀缺資源，若 Minimax-H3 真的開源，將大幅降低影片 AI 的使用門檻與 API 成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤官方公告或社群更新，一旦開源權重釋出，立即測試本地部署的影片生成延遲與品質，評估能否取代付費 API。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-reddit-llm",
+    "title": "Reddit 熱議：現有 LLM 基準測試能否反映實際可用性？",
+    "title_original": "Is it just me, or are current LLM benchmarks failing to capture actual usability? (Gemma 4 vs. Gemini/Claude Opus)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbdpcz/is_it_just_me_or_are_current_llm_benchmarks/",
+    "published_at": "2026-07-31T02:18:16+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社群熱烈討論 Gemma 4 與 Gemini、Claude Opus 在基準測試與實際使用表現之間的落差。多名開發者反映高基準分數不等於好用，批評 MMLU、HellaSwag 等傳統測試已無法捕捉真實任務能力。",
+    "highlights": [
+      "社群反映 Gemma 4 基準高分但實際體驗不符預期",
+      "批評 MMLU、HellaSwag 等傳統基準無法反映實用性",
+      "呼籲業界採用更贴近實際任务的评估标准",
+      "引發開源與閉源模型真實能力對比討論"
+    ],
+    "why_it_matters": "基準測試失真會導致選型錯誤，浪費 API 預算或部署資源。了解社群觀點可幫助技術宅建立更可靠的模型評估方法論。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考討論中的實際任務測試方法，為自己建立一套涵蓋真實工作流程的模型評估集，避免僅依賴公開基準分數做決策。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-31-one-search-mcp-mcp-server",
     "title": "one-search-mcp：統一網頁搜尋與爬取的 MCP Server",
     "title_original": "yokingma/one-search-mcp",
@@ -76,6 +403,32 @@
     "why_it_matters": "K-EXAONE 2.0為少數提供權重的韓語專精模型，對需要處理韓文文獻或與韓語AI系統整合的開發者具實用價值。",
     "automation_angle": null,
     "automation_angle_zh": "下載模型至本地，評估其在韓文客服自動化或韓語技術文件處理的效能，作為替代昂貴API的本地方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-deepseek-v4-flash-0731-pro-preview",
+    "title": "DeepSeek-V4-Flash-0731 基準測試超越 Pro-Preview 版本",
+    "title_original": "Could we all crowdsource a dataset/model/finetune?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbcec6/could_we_all_crowdsource_a_datasetmodelfinetune/",
+    "published_at": "2026-07-31T01:18:59+00:00",
+    "category": "new-models",
+    "summary": "Reddit 社群回報 DeepSeek-V4-Flash-0731 版本在各項基準測試中已超越先前的 DeepSeek-V4-Pro-Preview，顯示新版本在效能上有顯著提升，但尚未獲得官方正式確認。",
+    "highlights": [
+      "Flash-0731 基準測試超越 Pro-Preview",
+      "消息來源為 Reddit 社群，未經官方證實",
+      "DeepSeek-V4-Pro 官方版本即將發布"
+    ],
+    "why_it_matters": "DeepSeek-V4-Flash 系列持續迭代，性價比持續提升，對關注成本優化的技術團隊具參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將其納入模型評估列表，待官方正式發布後比較成本與效能表現。",
     "tags": [
       "new-models",
       "rss",
@@ -2529,6 +2882,32 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-31-item",
+    "title": "社群提議：眾包資料集、模型與微調合作開發",
+    "title_original": "完课青年享3個月免費AI訂閱 安华：国庆日推介惠及10万人 - mediaselangor.com",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1NE9iTkhKY0FBZ2lnMXVoNmRBQXlhbDJpaUkzNzNEQWxpaEkyLVNoQjAxM2JwVDgtMW9sSElQTWl4eU90b093TFdBcE1uUlE2ZWJVQlh3?oc=5",
+    "published_at": "2026-07-28T07:48:58+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶提議社群共同協作建立資料集、模型或微調版本，號召社群成員貢獻資源與專業，尚未有具體執行方案。",
+    "highlights": [
+      "創意階段，提議性質",
+      "尚無具體執行計畫",
+      "依賴社群自發參與"
+    ],
+    "why_it_matters": "若成功可降低模型開發門檻，但現階段僅為想法，觀望後續發展。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注後續是否有具體專案啟動，評估是否值得參與。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-28-python-hwpx-automation-mcp-server-hwpx",
     "title": "python-hwpx-automation：MCP Server 驅動 HWPX 文件讀寫",
     "title_original": "airmang/python-hwpx-automation",
@@ -2611,6 +2990,35 @@
       "en"
     ],
     "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-swift-litert-lm-gemma-4-iphone-metal-gpu",
+    "title": "swift-litert-lm：Gemma 4 iPhone 本地運行，Metal GPU 加速",
+    "title_original": "john-rocky/swift-litert-lm",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/john-rocky/swift-litert-lm",
+    "published_at": "2026-07-28T05:45:27Z",
+    "category": "open-source-ai",
+    "summary": "swift-litert-lm 專案簡化在 iPhone 上本地運行 Gemma 4（LiteRT-LM）的流程，同時支援作為 Apple Foundation Models 後端。利用 Metal GPU 加速，支援多模態與應用內下載，降低行動端本地 AI 門檻。",
+    "highlights": [
+      "Gemma 4 可在 iPhone 本地運行",
+      "利用 Metal GPU 加速推論",
+      "支援多模態能力（需實測確認範圍）",
+      "可作為 Apple Foundation Models 後端",
+      "Swift 語言實現，方便 iOS 開發者整合"
+    ],
+    "why_it_matters": "在 iPhone 上本地運行 Gemma 4 代表邊緣 AI 的可能性。對於需要離線處理敏感資料或降低 API 成本的行動端應用開發者，這是一個值得關注的技術方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在支援的 iPhone 機型上編譯運行，測試 Gemma 4 本地的文字生成或多模態能力，評估是否能用於離線文件處理或個人助理應用。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Swift"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/23278992?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
