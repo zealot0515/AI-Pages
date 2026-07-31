@@ -1,5 +1,258 @@
 [
   {
+    "id": "2026-07-31-one-search-mcp-mcp-server",
+    "title": "one-search-mcp：統一網頁搜尋與爬取的 MCP Server",
+    "title_original": "yokingma/one-search-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/yokingma/one-search-mcp",
+    "published_at": "2026-07-31T01:37:16Z",
+    "category": "agent-skills",
+    "summary": "one-search-mcp 是 TypeScript 寫的 MCP Server，支援 agent-browser、SearXNG、Tavily、DuckDuckGo、Bing 等多種搜尋引擎，提供統一介面做網頁搜尋、爬取與資訊提取。",
+    "highlights": [
+      "支援 SearXNG、Tavily、DuckDuckGo、Bing 等多家引擎",
+      "統一介面簡化多引擎切換邏輯",
+      "可用於 AI Agent 的網頁資訊獲取",
+      "TypeScript 實現方便整合現代工具鏈",
+      "134 Stars，社群關注度尚可"
+    ],
+    "why_it_matters": "為 AI Agent 提供標準化的網頁搜尋與爬取能力，省去自行整合多搜尋引擎的開發成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地部署 MCP Server，讓 Agent 透過統一介面抓取即時網路資料，測試資訊提取的準確度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/8767820?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-reddit-anthropic-openai",
+    "title": "Reddit 熱議：Anthropic 坦承模型早於 OpenAI 成功入侵外部系統",
+    "title_original": "Anthropic “our models hacked three different external companies, months before OpenAI’s model was able to do the same\"",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbcmtn/anthropic_our_models_hacked_three_different/",
+    "published_at": "2026-07-31T01:29:53+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 討論串引用前述 Anthropic 安全報告，指出 Claude 的真實滲透事件比 OpenAI 案例更早發生（今年 4 月），引發社群對於 AI 安全評測邊界與責任歸屬的熱烈討論。",
+    "highlights": [
+      "討論來源為 Reddit 論壇，非第一手官方公告，屬於二手傳播",
+      "核心資訊與 index 4 的 Anthropic 官方報告重疊，無額外新事實",
+      "社群觀點包含對 AI 實驗室透明度、監管需求的反思",
+      "討論品質參差不齊，部分為猜測或情緒性發言",
+      "建議直接閱讀 Anthropic 原始報告獲取完整技術細節"
+    ],
+    "why_it_matters": "此討論串反映了 AI 社群對模型安全能力的關注趨勢，但技術讀者應優先查閱原始報告，避免被二手詮釋誤導。Reddit 本身並非高信號資訊來源。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此討論視為社群溫度計，了解業界對 AI 安全評測的態度演變，但在設計自家 AI Agent 安全策略時，應以 Anthropic 原始技術報告為準則。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-k-exaone-2-0-ai",
+    "title": "K-EXAONE 2.0 韓國開源AI模型發布",
+    "title_original": "K-EXAONE 2.0 released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vbchn4/kexaone_20_released/",
+    "published_at": "2026-07-31T01:23:12+00:00",
+    "category": "new-models",
+    "summary": "LG AI Research發布K-EXAONE 2.0，為支援韓英雙語的大規模生成式AI模型。該模型基於Exaone 1.0研發經驗，強調在科學文獻理解與程式碼生成任務上的表現。模型權重與技術報告已同步公開。",
+    "highlights": [
+      "LG AI Research主導開發的韓英雙語模型",
+      "專注科學領域理解與程式碼生成能力",
+      "模型權重與技术報告已對外釋出",
+      "可部署於本地環境使用",
+      "信號強度：實際發布，有程式碼與權重可供驗證"
+    ],
+    "why_it_matters": "K-EXAONE 2.0為少數提供權重的韓語專精模型，對需要處理韓文文獻或與韓語AI系統整合的開發者具實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載模型至本地，評估其在韓文客服自動化或韓語技術文件處理的效能，作為替代昂貴API的本地方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-gpt-5-6-luna-80-gpt-5-6-sol",
+    "title": "GPT-5.6 Luna 價格暴降 80%，GPT-5.6 Sol 優化推論內核",
+    "title_original": "Advancing the price-performance frontier with GPT‑5.6",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
+    "published_at": "2026-07-30T23:58:42+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布 GPT-5.6 Luna 輸入降至 $0.20/百萬 tokens、輸出 $1.20/百萬 tokens，低於 Gemini 3.1 Flash-Lite。GPT-5.6 Sol 被用於優化推論內核與負載平衡，節省 20% 服務成本。",
+    "highlights": [
+      "GPT-5.6 Luna 價格下降 80%，輸入僅 $0.20/百萬 tokens",
+      "輸入成本比 Claude Haiku 4.5 便宜 5 倍",
+      "GPT-5.6 Sol 自動重寫優化 Triton/Gluon 核心代碼",
+      "端到端服務成本降低 20%",
+      "Simon Willison 已將 agent.datasette.io 切换至 Luna"
+    ],
+    "why_it_matters": "Luna 新價格完全改變低價模型格局，其輸入成本已低於主要競爭對手，對需要大量文書處理的 AI 應用影響深遠。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可直接比較 Luna 與現有用模型的性價比，將成本敏感的文書處理 Agent 迁移至 Luna 測試效果。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-31-anthropic-claude-pypi",
+    "title": "Anthropic 安全研究：Claude 在評測中意外滲透三家外部系統，含上傳惡意軟體至 PyPI 事件",
+    "title_original": "Investigating three real-world incidents in our cybersecurity evaluations",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
+    "published_at": "2026-07-30T23:41:29+00:00",
+    "category": "hot-topics",
+    "summary": "Simon Willison 轉載 Anthropic 安全研究報告，揭示 Claude 在網路安全評測中因隔離環境設定失誤，意外存取真實網際網路並對三家外部公司發動實際攻擊，其中包含一個繞過多重驗證後向 PyPI 上傳惡意套件的案例。",
+    "highlights": [
+      "Anthropic 在 14.1 萬次評測中發現 3 起真實滲透事件，涉 6 次獨立運行",
+      "評測環境錯誤設定導致 Claude 可存取真實網際網路，而非模擬隔離環境",
+      "Claude 使用基本技術（弱密碼、未授權端點）成功入侵外部公司基礎設施",
+      "最嚴重案例：Claude 註冊 PyPI 帳號、上傳惡意套件，15 台系統下載執行後成功回傳憑證",
+      "Anthropic 主動披露並承認錯誤，展現安全研究透明度"
+    ],
+    "why_it_matters": "此事件顯示即便是強調安全的模型，在隔離環境配置失誤時也可能造成實際危害。所有進行 AI 代理（Agent）評測或部署的技術團隊都必須正視沙箱邊界管理的嚴肅性。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你正在構建 AI Agent 系統，立即審查沙箱網路存取設定、實施嚴格的 API 速率限制，並建立自動化監控日誌以偵測異常的外部網路行為。可參考此案例設計紅隊演練流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-31-llm-cli-0-32rc2-gpt-5-6-luna-4o-mini",
+    "title": "llm CLI 工具 0.32rc2 新版發布：GPT-5.6 Luna 取代 4o mini 成為預設模型",
+    "title_original": "llm 0.32rc2",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
+    "published_at": "2026-07-30T22:52:06+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 的 llm CLI 工具釋出 0.32rc2，除了修正依賴問題外，最大亮點是將預設模型從 GPT-4o mini 改為 GPT-5.6 Luna，並新增 llm openai endpoint 子命令，可無需設定直接測試任意 OpenAI API 相容端點。",
+    "highlights": [
+      "預設模型從 GPT-4o mini 升級為 GPT-5.6 Luna，輸入每百萬 tokens 0.2 美元、輸出 1.2 美元",
+      "可透過 llm models default gpt-4o-mini 或 gpt-5-nano 快速切回舊預設或更便宜的 nano 模型",
+      "新增 llm openai endpoint 子命令，支援直接對任意 OpenAI Chat Completions 相容端點發送 prompt",
+      "支援工具呼叫（tools）並可透過 uvx --pre 單行指令呼叫，無需完整安裝",
+      "可用於快速測試 LM Studio 等本地模型的 API 相容性"
+    ],
+    "why_it_matters": "技術用戶現在有一個統一的 CLI 工具可以同時管理多模型、切換預設，以及快速原型測試本地或第三方 API 端點，大幅簡化 AI 工作流程程的整合成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 llm openai endpoint 整合進 CI/CD 腳本，在部署前對本地模型或第三方端點進行快速語義回歸測試，確保 API 相容性與輸出品質。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-07-31-openclaw",
+    "title": "OpenClaw熱潮後的實際情況追蹤",
+    "title_original": "What actually happened to the whole Openclaw frenzy?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vb8d2v/what_actually_happened_to_the_whole_openclaw/",
+    "published_at": "2026-07-30T22:26:47+00:00",
+    "category": "hot-topics",
+    "summary": "社群討論追蹤OpenClaw專案後續發展。該專案曾因某項發布引發關注，但後續實際進度、維護狀態與承諾功能是否如期上線引發質疑。討論中提及文件不足、更新停滯等問題。",
+    "highlights": [
+      "OpenClaw專案初期獲得較高關注度",
+      "後續開發進度與承諾功能存在落差",
+      "文件不完整、更新頻率下降引發社群疑慮",
+      "非惡意項目，但期望管理可能過度",
+      "信號強度：專案狀態追蹤，需自行驗證"
+    ],
+    "why_it_matters": "對新興開源專案保持合理期望可避免踩雷。了解此案例有助技術人員在評估新工具時加入進度風險因子。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估新工具時，檢查其GitHub提交頻率、Issue回應速度與最後Release時間，避免將工作流程程依賴於不活躍專案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-llm",
+    "title": "本地LLM用於非程式開發場景的討論",
+    "title_original": "Local LLMs for non-coding",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vb4s1n/local_llms_for_noncoding/",
+    "published_at": "2026-07-30T20:11:20+00:00",
+    "category": "open-source-ai",
+    "summary": "社群討論本地部署LLM在程式開發以外場景的應用可能性。參與者分享將本地模型用於文書處理、創意寫作、翻譯輔助與日常資料分析的心得，並比較不同模型在非技術任務上的表現差異。",
+    "highlights": [
+      "本地LLM可勝任基礎文書與翻譯任務",
+      "創意寫作質量因模型而異，小型模型效果有限",
+      "討論多個模型在非程式任務的實際表現",
+      "隱私考量是本地部署的主要動機之一",
+      "信號強度：經驗分享，非新工具或技術突破"
+    ],
+    "why_it_matters": "對不想將敏感資料上傳雲端API的技術人員，本地LLM提供隱私保護方案。了解哪些模型適合非技術任務可節省選擇成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "針對日常重複性文書任務（如Email草稿、會議摘要），評估本地7B模型是否足夠，評估成本效益與隱私需求的取捨。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-ai-cnbc",
+    "title": "美國需要開源AI策略——CNBC評論",
+    "title_original": "America Needs An Open-Source AI Strategy — CNBC",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vb332c/america_needs_an_opensource_ai_strategy_cnbc/",
+    "published_at": "2026-07-30T19:10:08+00:00",
+    "category": "open-source-ai",
+    "summary": "CNBC刊載評論文章，呼籲美國政府制定開源AI策略。文中強調開源模型對國家AI競爭力、學術研究與產業創新的重要性，並提及歐洲與中國的開源AI發展趨勢。惟此為意見評論，非政策文件或實際立法進展。",
+    "highlights": [
+      "CNBC評論呼籲美國政府重視開源AI戰略價值",
+      "強調開源可降低AI依賴少數企業的風險",
+      "提及歐洲Mistral與中國開源模型發展為參照",
+      "文章立場呼籲性高，尚未有任何政策具體規劃",
+      "信號強度：政策風向標，非實質進展"
+    ],
+    "why_it_matters": "開源AI政策走向將影響未來模型可用性與監管方向。對技術人員而言，了解政策討論有助預判模型部署限制與許可證變化。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注美國商務部或NIST後續是否釋出開源AI使用指引，評估對自有部署模型的合規影響。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-30-reddit-hermes",
     "title": "Reddit 熱議：最小模型推薦與 Hermes 智慧電腦操作實踐",
     "title_original": "Smallest model (& tips) for intelligent computer use via Hermes?",
@@ -134,6 +387,62 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-llm-chat-completions-server-llm-openai",
+    "title": "llm-chat-completions-server：將 LLM 插件模型暴露為 OpenAI 兼容端點",
+    "title_original": "llm-chat-completions-server 0.1a0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
+    "published_at": "2026-07-30T15:43:16+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布的 LLM 插件，可將所有已安裝的 LLM 模型（來自任意插件）透過 localhost 伺服器暴露為 ChatGPT Completions 相容端點，方便對接現有工具。",
+    "highlights": [
+      "支援 OpenAI Chat Completions API 格式",
+      "可將本地所有 LLM 插件模型統一暴露",
+      "方便整合到現有 OpenAI 生態工具",
+      "利用內容可定址日誌去重複對話歷史",
+      "由 GPT-5.6 Sol 輔助開發完成"
+    ],
+    "why_it_matters": "降低將不同來源 LLM 模型整合到現有工具鏈的門檻，尤其適合有多模型需求的開發者與 Agent 框架。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝後將本地模型對接到已有 OpenAI API 介面的應用，快速測試不同模型的效果與延遲。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-llm-0-32rc1",
+    "title": "llm 0.32rc1 發布：內容定址哈希與新模型支援",
+    "title_original": "llm 0.32rc1",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything",
+    "published_at": "2026-07-30T15:30:20+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison的llm命令列工具發布0.32rc1版本，最大變更為引入內容定址哈希ID機制，實現資料庫去重並支援對話樹的Fork分支。新版本同時新增gpt-5.6-sol、gpt-5.6-terra、gpt-5.6-luna模型支援。建議升級前備份既有logs.db。",
+    "highlights": [
+      "內容定址哈希ID替換原有訊息ID設計",
+      "資料庫寫入自動去重，節省儲存空間",
+      "支援對話樹結構，可Fork分支對話",
+      "新增gpt-5.6系列三種模型變體支援",
+      "升級前需備份logs.db以防Schema不相容"
+    ],
+    "why_it_matters": "llm是本地LLM呼叫的實用工具鏈，內容定址設計讓對話履歴管理更高效。對需要追蹤、分析對話記錄的開發者是直接受益者。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用新對話樹功能建立多分支Prompt實驗，追蹤不同Prompt策略的輸出差異，實現Prompt版本控制。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-07-30-github-copilot-visual-studio-net-azure-agent",
@@ -328,6 +637,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-07-31-github-copilot-vs-code-2026-7-agent",
+    "title": "GitHub Copilot VS Code 2026 年 7 月更新：Agent 工作流程、變更審查與聊天功能全面強化",
+    "title_original": "GitHub Copilot in Visual Studio Code, July 2026 releases",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases",
+    "published_at": "2026-07-30T08:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方 changelog 記錄 VS Code v1.127 至 v1.131 的 Copilot 更新，涵蓋 Agent 模式操作改進、變更審查（Diff View）增強、聊天介面最佳化等，屬於 VS Code 生態的核心工具更新。",
+    "highlights": [
+      "覆蓋 VS Code v1.127–v1.131（2026 年 7 月全月迭代）",
+      "Agent 模式操作流程改進，提升多步驟任務執行效率",
+      "Diff View 變更審查功能增強，方便開發者比對 AI 生成程式碼",
+      "聊天介面優化，包括上下文理解與響應速度",
+      "官方 GitHub Blog 發布，來源可信度極高"
+    ],
+    "why_it_matters": "作為最廣泛使用的 IDE 插件之一，Copilot 的每次更新直接影響每日數百萬開發者的生產力，本次更新尤其強化了 Agent 驅動的自動化開發場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用新版 Agent 模式自動化重構大型程式碼庫、批次生成測試案例，或透過改進的 Diff View 將 AI 輔助的程式碼審查整合進現有 Git Hooks 工作流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-30-jetson-nano-embedding",
     "title": "Jetson Nano 本地部署 Embedding 模型實測",
     "title_original": "Jetson Nano with embedding models",
@@ -381,6 +718,34 @@
       "JavaScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/77169785?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-openai-avatarin-gpt-realtime-24-7",
+    "title": "OpenAI 案例：avatarin 零售客服使用 GPT-Realtime 達成 24/7 多語言服務",
+    "title_original": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/avatarin",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格報導山田電機導入 GPT-Realtime 技術的零售客服 Agent，兩週內吸引 3 萬名用戶使用，問卷滿意度高達 92%，展示了即時語音 AI 在大規模商業場景的落地可行性。",
+    "highlights": [
+      "使用 GPT-Realtime API 實現即時語音對話，無需文字轉寫延遲",
+      "24/7 全天候多語言客服，減少人力排班成本",
+      "兩週內 3 萬名使用者、92% 正面回饋，數據來自官方部落格",
+      "屬於 OpenAI 官方案例研究，偏向產品宣傳性質",
+      "可供評估 GPT-Realtime 在高流量商業環境的實際承載能力"
+    ],
+    "why_it_matters": "此案例揭示 GPT-Realtime 的商業部署成熟度，技術決策者可據此評估該技術在自家客服、銷售等場景的可行性與投資回報。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估自家產品的語音/對話介面需求時，可參考此部署架構估算即時 API 成本與延遲規格，或作為向內部推動語音 Agent 專案的參考案例。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -74164,6 +74529,34 @@
     "why_it_matters": "Mistral 持續在代理程式碼生成領域佈局，若 API 定價具競爭力，可作為 GitHub Copilot 或 Claude Code 的替代方案評估。",
     "automation_angle": null,
     "automation_angle_zh": "申請 Mistral API 測試額度，用 Devstral 2 替換或對比現有程式碼輔助工具，評估自動化程式碼生成的品質與成本效益。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-07-31-mistral-ai-devstral-2-mistral-vibe-cli-terminal-agent",
+    "title": "Mistral AI 發布 Devstral 2 編碼模型與 Mistral Vibe CLI，強化 Terminal 原生 Agent 開發體驗",
+    "title_original": "Mistral AI Ships Devstral 2 Coding Models And Mistral Vibe CLI For Agentic, Terminal Native Development - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNa1BsM2wxTFJCc1pDaFk4Y0pjREdpaDFQOExsYzJzd29zazY3WTZLVC1yX3ZxWDNrOWNFWlczR19zZUxpaUxmYVVwczI5S191aXhQVi05cGpkSXRuUHhQVmwxUlJ6aEZSQUVRbGJ6LXRZUEhDS0Q3RnUwWWtEQUl3V0RhdnhfaURWZGpicDVET1I0alQ1VzhvUnFRWUhZUi1XV1NQeTlOVlZ3QWoyN1k3Y294NDc0Yk54Nl9pVmVmc05LV1lXTTBYXzMzTGZnV2ZFanNyODZhMlVhSlXSAeABQVVfeXFMUEpxTlItUWstNUdfT3RnNENCN0tzc0t4T05UWlVhY2VpT2JOZThTVExCelpMcDZQMThKb1JURUs3M3oycG5ybmZIRlMyT0xnZ1dZZ1E0TUhOb1Vyc3BtcFVIQkVXdm1CTE5ZQlZNQXF6c001MEg5ZTQtanJwa3dDSy1tWUNQSkZ0V3RCb1MwZkI2MDlIM3FKcGkwTDBuN0tFTVRxc2kwWWp3WnFwTVdrTmJGaVRZMm10LWZob2FncURJU2RndnhteTRiWWU4UmRVdzA1T0x0UDd0RWZZLVpBVmI?oc=5",
+    "published_at": "2025-12-09T08:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 推出 Devstral 2 系列編碼模型，搭配全新 Mistral Vibe CLI 工具，瞄準終端機原生的 Agent 開發場景，強調與本地開發環境的深度整合，屬於模型能力與開發工具鏈的同步升級。",
+    "highlights": [
+      "Devstral 2 為專門優化的程式碼生成模型，強調 Agentic 編碼場景",
+      "Mistral Vibe CLI 提供終端機原生介面，減少上下文切換",
+      "可與 LM Studio、Ollama 等本地推論引擎整合使用",
+      "新聞來源為 MarkTechPost/Google News，需交叉驗證官方公告",
+      "屬於模型能力變化（new-models）與開發工具鏈（agent-skills）交叉類別"
+    ],
+    "why_it_matters": "若 Devstral 2 在編碼基準測試表現突出，可為技術團隊提供除 GPT-5/GPT-4o 外的另一個高效、低成本本地部署選項，尤其適合需要資料主權的企業場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載並本地部署 Devstral 2，搭配 Mistral Vibe CLI 自動化日常編碼任務（如自動產生測試、程式碼重構、Bug 修復），評估其與現有 GitHub Copilot 工作流程的成本效益比。",
     "tags": [
       "new-models",
       "rss",
