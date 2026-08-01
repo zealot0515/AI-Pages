@@ -27,6 +27,122 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-08-01-frontagent-ai-coding-agent-mcp",
+    "title": "FrontAgent：前端工程師的 AI Coding Agent 平台，含 MCP 服務",
+    "title_original": "ceilf6/FrontAgent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ceilf6/FrontAgent",
+    "published_at": "2026-08-01T12:57:26Z",
+    "category": "agent-skills",
+    "summary": "FrontAgent 是專為前端工程設計的 AI Coding Agent 平台，提供 CLI、VS Code 插件、桌面端三種操作介面，內建 MCP 伺服器、RAG 規劃、Skills 系統、SDD 安全防護、瀏覽器自動化與 LoRA 規劃模型。目標是將 AI 輔助程式開發整合進前端日常工作流程。",
+    "highlights": [
+      "支援 CLI、VS Code 插件、桌面端三種入口，適配不同開發者習慣",
+      "內建 MCP 伺服器，可與其他 Agent 工具快速串接",
+      "SDD Guardrails 提供程式碼安全檢查，防止模型生成危險操作",
+      "瀏覽器自動化功能可測試前端頁面與抓取動態內容",
+      "LoRA 規劃模型可針對前端任務微調，降低通用模型的 hallucination"
+    ],
+    "why_it_matters": "前端工程師長期缺乏針對性的 AI Coding 工具，FrontAgent 的 MCP 支援與前端場景定制預測能力可能大幅提升日常開發效率，特別是在處理動態頁面測試與程式碼審查場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "前端工程師可安裝 VS Code 插件，設定自己的 API key，讓 FrontAgent 自動完成重複性 UI 測試、組件開發與文件更新任務，評估其是否能減少日常 Boilerplate 程式碼時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/140817245?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-quil-ai-mcp",
+    "title": "quil：AI原生終端複用器，支援MCP協議",
+    "title_original": "artyomsv/quil",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/artyomsv/quil",
+    "published_at": "2026-08-01T12:50:15Z",
+    "category": "agent-skills",
+    "summary": "Go語言開發的跨平台終端管理工具，可視為tmux替代方案。最大特色是整合MCP伺服器，讓AI Agent能直接控制終端分頁，支援跨重啟的工作區持久化。Linux/macOS/Windows皆可用，MIT授權。",
+    "highlights": [
+      "整合MCP伺服器，Claude Code、OpenCode等AI工具可直接操控終端",
+      "工作區跨重啟自動恢復，適合長時間跑的AI任務",
+      "支援AI Agent驅動終端分頁，實現自動化腳本控制",
+      "Go語言實現，跨平台效能佳",
+      "目前11 stars，仍屬早期專案"
+    ],
+    "why_it_matters": "提供了一種讓AI Agent真正接管開發環境的方式，若MCP整合成熟，可將重複性終端操作完全自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "用quil啟動工作區，讓AI Agent透過MCP直接執行git操作、測試、部署等命令流，減少手動複製貼上。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3218389?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-ns-ui-223-react-mcp-agent",
+    "title": "ns-ui：223 個 React 元件直送原始碼，含 MCP 伺服器供 Agent 使用",
+    "title_original": "nikolas-sapa/ns-ui",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/nikolas-sapa/ns-ui",
+    "published_at": "2026-08-01T12:15:10Z",
+    "category": "agent-skills",
+    "summary": "ns-ui 是一個 React 元件庫，共 223 個元件以原始碼形式提供（無 Runtime 依賴），使用 Tailwind v4 tokens，支援 Light/Dark 模式。可透過 npx shadcn 安裝，也可連接 MCP 伺服器讓 AI Agent 直接瀏覽與呼叫整個元件目錄，實現自然語言驅動的 UI 建構流程。",
+    "highlights": [
+      "223 個元件以原始碼形式提供，無額外 Runtime bundle 負擔",
+      "使用 Tailwind v4 tokens，與現有 Tailwind 專案無縫整合",
+      "支援 Light/Dark 雙模式，開箱即用",
+      "可透過 MCP 伺服器讓 Agent 瀏覽與使用整個元件庫",
+      "npx shadcn 安裝方式，開發者已熟悉的指令流程"
+    ],
+    "why_it_matters": "將 UI 元件庫與 MCP 協議結合，讓 Agent 能「看到」可用元件並直接組合使用，是降低 UI 建構門檻的有趣嘗試。技術用戶可評估此模式是否能加速原型開發與 AI 驅動的前端自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將 ns-ui 的 MCP 服務接入自己的 Coding Agent，以自然語言描述「需要一個登入表單，包含驗證錯誤提示」，觀察 Agent 是否能正確選擇合適元件並組合成可用頁面。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/245706417?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-modelship-openai-agent",
+    "title": "modelship：自託管、OpenAI 相容的 Agent 時代推論閘道器",
+    "title_original": "modelship-ai/modelship",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/modelship-ai/modelship",
+    "published_at": "2026-08-01T09:59:24Z",
+    "category": "open-source-ai",
+    "summary": "modelship 是一個開源推論閘道器，支援自託管部署與 OpenAI API 相容介面，目標是 Agent 時代的多模型統一接入。核心特性包括支援推論 LLMs、通用工具呼叫、Responses API、Embedding、語音與圖片模型，並基於 Ray Serve 實現多模型共享 GPU 資源的彈性部署。",
+    "highlights": [
+      "完全 OpenAI API 相容，現有專案可無縫遷移無需改程式碼",
+      "支援 Reasoning LLMs 與通用工具呼叫，符合 Agent 開發趨勢",
+      "Responses API 支援，可接入新版 OpenAI 接口",
+      "Embedding、語音、圖片模型一站式整合，減少多供應商管理成本",
+      "基於 Ray Serve，支援多模型共享 GPU 資源，提升部署彈性"
+    ],
+    "why_it_matters": "自託管推論閘道器讓技術團隊能在自有 GPU 上運行多種模型，兼顧成本控制與資料隱私。modelship 的 OpenAI 相容性降低了遷移成本，是值得評估的本地部署方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其部署在自有伺服器，以 OpenAI SDK 替換 endpoint 為 modelship 地址，即可將現有 Agent 程式改為自託管模型，評估延遲、成本節省與資料隱私的實際收益。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/311723504?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-08-01-jacobian-mcp-ai",
     "title": "Jacobian：數學能力的MCP伺服器與AI工具箱",
     "title_original": "morluto/jacobian",
@@ -3744,6 +3860,33 @@
       "new-models",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-3-ai",
+    "title": "馬來西亞國慶優惠 提供青年3個月免費AI訂閱",
+    "title_original": "安华:国庆推介惠及10万人 学成青年享3個月免費AI訂閱 - e南洋",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UYzBIM1ZfMEJLTTNoWXMwYUhVRE9Vd3VFbjdvanA1SVBYdkpNZDRHQVdNYlRxVGJHMzBDT0p0bnZTeU83b3F1UFpGQW9zTlhycUZabUhKckZia0JvYXVhYmZn?oc=5",
+    "published_at": "2026-07-28T07:12:20+00:00",
+    "category": "ai-deals",
+    "summary": "馬來西亞總理安華宣布國慶推介計劃，向學成青年提供3個月免費AI工具訂閱，預計惠及10萬人。屬政府補貼型優惠，非公開技術資源。",
+    "highlights": [
+      "馬來西亞政府主導的青年就業支援計劃",
+      "3個月免費AI訂閱，細節待公佈",
+      "主要惠及馬來西亞本地青年",
+      "非技術開源或開發工具優惠"
+    ],
+    "why_it_matters": "對馬來西亞本地用戶可能省下訂閱費用，但對技術開發者尋找免費額度或工具的實用性有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "若在馬來西亞且符合資格，可關注官方公告申請；若不在當地，此優惠參考價值低。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
