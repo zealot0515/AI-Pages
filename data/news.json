@@ -27,6 +27,93 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-08-01-shellguard-ssh-llm-agent-shell",
+    "title": "ShellGuard：透過 SSH 為 LLM Agent 開啟唯讀遠端 Shell 存取",
+    "title_original": "fawdyinc/shellguard",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/fawdyinc/shellguard",
+    "published_at": "2026-08-01T18:09:05Z",
+    "category": "agent-skills",
+    "summary": "ShellGuard 是 Go 語言開發的 MCP 伺服器，能以安全唯讀模式透過 SSH 為 LLM Agent 提供遠端伺服器的 Shell 存取能力，支援自動化伺服器維運場景。",
+    "highlights": [
+      "Go 語言實作，效能與跨平台支援佳",
+      "僅提供唯讀存取，安全性較高",
+      "透過 SSH 協定連接遠端伺服器",
+      "可讓 AI Agent 執行伺服器狀態查詢",
+      "支援與現有 MCP 生態系整合"
+    ],
+    "why_it_matters": "對於需要 AI Agent 協助監控或查詢遠端伺服器狀態的 DevOps 人員，ShellGuard 提供了一個安全的可控介面。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 ShellGuard 整合進 AI Agent 工作流程，自動檢查多台伺服器的狀態、日誌或資源使用量並生成報告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/260741549?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-slack-mcp-server-bolt-js-agent-slack-app",
+    "title": "Slack MCP Server 範例：用 Bolt.js 打造具 Agent 能力的 Slack App",
+    "title_original": "slack-samples/bolt-js-slack-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/slack-samples/bolt-js-slack-mcp-server",
+    "published_at": "2026-08-01T18:07:56Z",
+    "category": "agent-skills",
+    "summary": "slack-samples 發布的範例專案，展示如何在 Slack 平台上以 Bolt.js 框架實作 MCP 協定，賦予 Agent 讀取與操作 Slack 訊息的能力。",
+    "highlights": [
+      "基於 Bolt.js 框架，程式碼結構簡潔",
+      "支援 MCP 協定與 Slack 平台整合",
+      "可用於開發Slack 內的 AI 助理",
+      "官方範例可直接Fork 修改使用",
+      "11 stars 顯示社群關注度尚在初期"
+    ],
+    "why_it_matters": "若企業已在使用 Slack，此專案提供一個低門檻起點，可快速將 AI Agent 能力嵌入現有的 Slack 工作環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "可 Fork 此專案作為基礎，在 Slack 頻道中建立自動化訊息分類、回覆生成或任務追蹤 Bot。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/98608411?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-comfyui-fal-api-1400-fal-ai-comfyui",
+    "title": "ComfyUI-fal-API：1400+ fal.ai 模型一鍵接進 ComfyUI 工作流程",
+    "title_original": "gokayfem/ComfyUI-fal-API",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/gokayfem/ComfyUI-fal-API",
+    "published_at": "2026-08-01T15:08:34Z",
+    "category": "open-source-ai",
+    "summary": "gokayfem 開發的 ComfyUI 自訂節點，可直接接入 1400 款以上的 fal.ai 模型，支援圖片、影片、音訊、LLM、VLM，並具備自動更新、快取與成本控制功能。",
+    "highlights": [
+      "涵蓋 1400+ fal.ai 模型，類別多元",
+      "支援圖片、影片、音訊、LLM、VLM 全類型",
+      "自動更新機制保持模型版本最新",
+      "內建快取降低重複請求成本",
+      "提供成本控制選項協助管理 API 支出"
+    ],
+    "why_it_matters": "ComfyUI 用戶可直接在本地工作流程中存取大量 fal.ai 模型，無需額外寫程式整合，大幅降低實驗新模型的门檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在 ComfyUI 中設計自動化生成管線，利用快取與成本控制功能建立成本可預測的批量影像生成腳本。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/88277926?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-01-frontagent-ai-coding-agent-mcp",
     "title": "FrontAgent：前端工程師的 AI Coding Agent 平台，含 MCP 服務",
     "title_original": "ceilf6/FrontAgent",
