@@ -27,6 +27,313 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-08-01-coco-389-142-agent",
+    "title": "Coco：389 位虛擬顧問驅動的 142 技能超智慧 Agent 框架",
+    "title_original": "coco-research/coco",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/coco-research/coco",
+    "published_at": "2026-08-01T01:12:01Z",
+    "category": "open-source-ai",
+    "summary": "Coco 是一款開源 JavaScript Agent 框架，宣稱由 389 位虛擬顧問組成的顧問團提供決策，內建 142 項技能、277 條命令與持久狀態。走通用相容路線，主打本地隱私且完全免費開源，GitHub 已有 197 顆星。",
+    "highlights": [
+      "「顧問委員會」設計：一個 Agent 內含多個虛擬專家角色",
+      "內建 142 項技能與 277 條命令，覆蓋範圍廣",
+      "支援持久狀態，跨會話保持上下文",
+      "強調本地隱私與通用相容性",
+      "完全開源，免費使用，語言為 JavaScript"
+    ],
+    "why_it_matters": "對於需要在單一 Agent 框架內整合多領域技能的開發者，Coco 的多角色設計提供了一種不同於 LangChain 或 CrewAI 的思路。197 星的早期人氣顯示社群對此架構有興趣，值得實際跑一遍驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可以 npm install 後試跑一個簡單任務，評估「顧問委員會」在實際工作流程中是否比單一 Agent 更可靠，並檢查 277 條命令涵蓋的自動化邊界。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/68911604?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-audio-cpp-0-5-dramabox-tts-confucius4-rocm-hip",
+    "title": "audio.cpp 釋出 0.5 版：DramaBox 表情 TTS、Confucius4 跨語言聲音遷移、ROCm/HIP 支援",
+    "title_original": "[audio.cpp] Release 0.5: DramaBox expressive TTS, Confucius4 cross-lingual voice transfer, plus 7 more models and ROCm/HIP",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vc8lpl/audiocpp_release_05_dramabox_expressive_tts/",
+    "published_at": "2026-08-01T00:43:57+00:00",
+    "category": "open-source-ai",
+    "summary": "音訊處理開源專案 audio.cpp 發布 0.5 版本，新增 DramaBox 表達式 TTS、Confucius4 跨語言聲音遷移模型，並擴充 7 個新模型，同時支援 ROCm/HIP 加速。",
+    "highlights": [
+      "DramaBox 提供具表情起伏的文字轉語音能力",
+      "Confucius4 支援跨語言語音音色遷移",
+      "一口氣新增 7 個音訊相關模型",
+      "加入 ROCm 與 HIP 硬體支援，擴大適用範圍",
+      "可脫離雲端在本地端完成高品質 TTS 任務"
+    ],
+    "why_it_matters": "開源 TTS 工具鏈持續成熟，本地化語音合成不再是高門檻，技術人員可打造完全離線的語音服務，降低對商業語音 API 的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可直接下載 audio.cpp 0.5 版，在本地測試 DramaBox 或 Confucius4，用於自動生成語音回覆、客服錄音、有聲書製作等流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-deepseek-v4-flash-0731",
+    "title": "DeepSeek-V4-Flash-0731：超值的開源推論猛獸",
+    "title_original": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
+    "published_at": "2026-07-31T23:59:44+00:00",
+    "category": "open-source-ai",
+    "summary": "DeepSeek 推出 V4 Flash 版本，號稱「大幅強化 agent 能力」，3040 億參數、167GB，卻在 Artificial Analysis 排名擊敗 4280 億參數的 MiniMax M3。輸入每百萬 tokens 僅 0.14 美元，輸出 0.27 美元，性價比極高。Simon Willison 測試預設推論等級時 pelican 輸出不佳，但將 reasoning_effort 調高後效果顯著提升。",
+    "highlights": [
+      "3040 億參數，Hugging Face 167GB 檔案",
+      "每百萬 tokens $0.14 輸入 / $0.27 輸出",
+      "Artificial Analysis 排名擊敗更大的 MiniMax M3",
+      "Agent 能力大幅強化，支援高階推論模式",
+      "OpenRouter 已收錄，可直接呼叫"
+    ],
+    "why_it_matters": "此模型以極低價格提供接近頂級推論能力，技術使用者可用它替代昂貴的 Claude/GPT 做多數任務，大幅節省 API 成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 OpenRouter 設定 reasoning_effort=high 後，用於需要複雜推論的自動化腳本；或整合進現有 agent pipeline 測試性價比。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-01-simon-willison-mcp-http",
+    "title": "Simon Willison 實測無狀態 MCP：一次 HTTP 請求即可呼叫工具",
+    "title_original": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
+    "published_at": "2026-07-31T23:13:22+00:00",
+    "category": "agent-skills",
+    "summary": "MCP 2.0（ stateless MCP，規格日期 2026-07-28）正式移除會話狀態，改用單次 HTTP 請求加 Header 攜帶客戶端資訊。Simon Willison 實測後認為新架構大幅降低客戶端與伺服器端實現難度，更適合水平擴展，且安全邊界更易審計。他同時開源 mcp-explorer 與 datasette-mcp 兩個工具供直接使用。",
+    "highlights": [
+      "新規格改用 MCP-Protocol-Version 與 Mcp-Method Header，移除 Mcp-Session-Id",
+      "一次 POST 即可完成初始化與工具呼叫，無需維護會話狀態",
+      "無狀態設計更利於水平擴展與無伺服器部署",
+      "相較開放式 Shell 執行，工具邊界更易審計，安全性更高",
+      "Simon Willison 同步開源 mcp-explorer 與 datasette-mcp 可直接使用"
+    ],
+    "why_it_matters": "stateless MCP 解決了企業級部署的最大痛點——狀態維護與路由複雜度。若你的 Agent 需要對外提供工具或接入他人工具，新規格將大幅簡化整合與安全審計工作。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可用 uvx mcp-explorer 直接探測任何 MCP 伺服器的工具列表與 Schema，或將 datasette-mcp 接入自己的 Datasette 實例，讓 LLM 直接執行 SQL 查詢，作為內部知識庫的自動化入口。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-01-llm-mcp-client-0-1a0-model-context-protocol",
+    "title": "llm-mcp-client 0.1a0：Model Context Protocol 客戶端初版",
+    "title_original": "llm-mcp-client 0.1a0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything",
+    "published_at": "2026-07-31T23:03:47+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 llm-mcp-client 早期 alpha 版本（0.1a0），專為 Model Context Protocol 設計的客戶端工具。這是目前 MCP 生態系的補充工具，讓 LLM 能更好地使用 MCP 協定。版本極早期，資訊有限，但 Simon 表示詳情見其部落格。",
+    "highlights": [
+      "Model Context Protocol 客戶端工具",
+      "早期 alpha 版本，功能尚不完整",
+      "Simon Willison 維護的專案",
+      "與 LLM 生態系深度整合"
+    ],
+    "why_it_matters": "MCP 正在成為 AI 工具標準介面，早期掌握有助於技術使用者在標準化來臨前布局工作流程整合。",
+    "automation_angle": null,
+    "automation_angle_zh": "監控專案成熟度，功能穩定後評估是否能取代現有自訂 MCP 整合方案。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-4b-60-82",
+    "title": "4B 模型分類準確度因評測框架差異竟有 60-82% 之大波動",
+    "title_original": "60-82% accuracy swing on 4B model classification task: the only variable was harness design",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vc4e00/6082_accuracy_swing_on_4b_model_classification/",
+    "published_at": "2026-07-31T21:47:42+00:00",
+    "category": "new-models",
+    "summary": "研究發現，在僅改變評測工具的情況下，4B 參數模型在分類任務的準確度出現 60% 至 82% 的巨大差距，揭示 benchmark 設計對模型排名影響深遠。",
+    "highlights": [
+      "實驗中唯一變數是評測框架設計，其餘條件相同",
+      "4B 小模型準確度在 60% 至 82% 間浮動",
+      "主流 benchmark 可能低估或高估特定模型能力",
+      "模型排名順序會因評測方法翻轉",
+      "此發現對模型選擇與比較有重要警示意義"
+    ],
+    "why_it_matters": "若 benchmark 都不可信，工程師選型將失去依據。了解各框架偏差能避免選錯模型或錯誤解讀實測結果，防止做出錯誤的技術決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員在評估小模型時，應設計貼近實際任務的自定義測試集，而非完全依賴公開排行榜，方能確保模型真正適用於自己的工作流程程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-70-80b",
+    "title": "社群熱議：70-80B 參數級別模型能否有新突破",
+    "title_original": "We've gotten some great medium sized models lately (DSV4 Flash 0731, Inkling Small, Laguna S 2.1, Step 3.7 Flash) but does anybody else want to see some new 70-80b contenders?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vc4d23/weve_gotten_some_great_medium_sized_models_lately/",
+    "published_at": "2026-07-31T21:46:40+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 社群討論近期湧現多款中型開源模型如 DSV4 Flash、Inkling Small、 Laguna S 2.1 等，用戶呼籲廠商推出新一代 70-80B 級別有力競爭者。",
+    "highlights": [
+      "DSV4 Flash 0731、Inkling Small、Laguna S 2.1、Step 3.7 Flash 為近期中型模型代表",
+      "社群反映缺乏 70-80B 層級的新鮮血液",
+      "大型模型與中型模型各有意義與應用場景",
+      "用戶期待效能與可部署性的平衡點",
+      "此討論反映開源社群對模型規格的持續關注"
+    ],
+    "why_it_matters": "70-80B 級別是本地部署與商業應用的甜蜜點，若有新模型問世將直接影響企業選擇本地或雲端的部署策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注此層級模型動態，可提前評估下一代本地部署方案，針對需要較高智能但又不適合全參數部署的企業流程做規劃。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-oxide-and-friends-simon-willison",
+    "title": "Oxide and Friends：Simon Willison 談開放權重革命",
+    "title_original": "Oxide and Friends: The Open Weight Revolution with Simon Willison",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything",
+    "published_at": "2026-07-31T21:33:13+00:00",
+    "category": "hot-topics",
+    "summary": "Bryan Cantrill 與 Adam Leventhal 的 Oxide and Friends 播客專訪 Simon Willison，探討本週 AI 大事：Kimi K3 展示開源模型與封閉模型匹敵的能力、AI 資安事件、以及產學界關於 Open Weights 的公開信。節目還預測年底前「教皇將談論開源模型」。Simon 強調該訪談已部分過時——節目錄製後 DeepSeek V4 Flash 0731 和 Anthropic 資安事件尚未納入。",
+    "highlights": [
+      "Kimi K3 展示開源模型與 frontier 模型匹敵",
+      "本週有多起 AI 相關資安事件",
+      "產學界聯署 Open Weights 公開信",
+      "預測：年底前教皇將談論開源模型"
+    ],
+    "why_it_matters": "了解開源 AI 與閉源 frontier 模型之間的競爭態勢，有助技術使用者判斷未來工具選型與策略方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "收聽完整訪談，了解開源模型實際能力與發展趨勢，用於評估專案選型與長期技術策略。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-deepseek-v4-flash-kimi-k3-50",
+    "title": "Deepseek V4 Flash 躍升開源權重模型第二名，成本較 Kimi K3 便宜逾 50 倍",
+    "title_original": "Deepseek V4 Flash is now ~#2 open weight model to Kimi K3 and >50x cheaper",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vc4041/deepseek_v4_flash_is_now_2_open_weight_model_to/",
+    "published_at": "2026-07-31T21:32:17+00:00",
+    "category": "new-models",
+    "summary": "Deepseek V4 Flash 版本在開放權重模型排行榜大幅躍進至第二位，其 API 定價較 Kimi K3 便宜超過 50 倍，性價比極高，吸引本地部署社群熱烈討論。",
+    "highlights": [
+      "Deepseek V4 Flash 在開放權重模型排名達第二名，僅次於頂級模型",
+      "API 成本較 Kimi K3 便宜 50 倍以上，適合成本敏感應用",
+      "社群用戶回報可在消費級硬體運行量化版本",
+      "支援 0328 與 0731 等多個版本迭代",
+      "性價比使其成為替代付費 API 的熱門選擇"
+    ],
+    "why_it_matters": "成本差異如此懸殊的情況下，若 V4 Flash 實際能力足夠應付任務，工程師可直接用開源部署替代昂貴的商業 API，大幅節省預算。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將需要快速處理但並非關鍵任務的流程（如摘要、翻譯、分類）切換至 Deepseek V4 Flash，實測其輸出品質是否滿足需求，以評估省錢方案可行性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-smevals-simon-willison",
+    "title": "smevals：Simon Willison 的輕量級模型評測框架",
+    "title_original": "smevals - a small eval suite for evaluating models, prompts, and harnesses",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything",
+    "published_at": "2026-07-31T21:15:23+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 推出 smevals（第三版 eval 框架），專為評測模型、提示詞與 harness 而設計。特色是極簡流程：先讓 coding agent 跑 `uvx smevals docs` 學習工具，再建立 YAML eval 套件，支援對比多模型。執行與評分分離，可用 Web UI 或靜態 HTML 檢視報告。",
+    "highlights": [
+      "可用 `uvx smevals docs` 直接讓 agent 學習框架",
+      "Eval 由 YAML 任務組成，支援自訂 grader 與 checkers",
+      "支援對比多模型：uvx smevals run -m gpt-5.5 -m claude-opus-4.6",
+      "可架 localhost 視覺化或匯出靜態 HTML",
+      "Checker 可呼叫其他模型輔助評分"
+    ],
+    "why_it_matters": "技術使用者長期缺乏好用的本地 eval 工具；smevals 可今日就建置 eval、自動化測試模型升級效果，不再只能靠感覺。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 smevals 整合進 CI/CD：每次模型版本更新自動跑 benchmark，回饋效能變化；或建立 SVG 生成、程式碼寫作等自訂任務套件。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-01-github-copilot-gemini-2-5-pro-gemini-3-flash",
+    "title": "GitHub Copilot 正式棄用 Gemini 2.5 Pro 與 Gemini 3 Flash",
+    "title_original": "Gemini 2.5 Pro and Gemini 3 Flash deprecated",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
+    "published_at": "2026-07-31T20:04:01+00:00",
+    "category": "hot-topics",
+    "summary": "GitHub 官方 Changelog 宣布自 2026 年 7 月 31 日起，Gemini 2.5 Pro 與 Gemini 3 Flash 已在 GitHub Copilot 所有體驗（Chat、內聯編輯、Ask、Agent 模式、程式碼補全）中正式棄用。依賴這兩個模型的 Copilot 使用者需儘快切換至其他可用模型。",
+    "highlights": [
+      "棄用於 2026 年 7 月 31 日生效，涵蓋所有 Copilot 功能模組",
+      "受影響模型為 Gemini 2.5 Pro 與 Gemini 3 Flash",
+      "官方 Changelog 為一手資訊，資訊可信度高",
+      "使用者需主動遷移，Copilot 不會自動降級",
+      "可能影響基於 Gemini 模型定制的 AI coding 流程"
+    ],
+    "why_it_matters": "Gemini 模型在 GitHub Copilot 中的退場意味著一個常見的 coding AI 選項消失。依賴這些模型的技術使用者需重新評估工作流程中的模型組合，並關注替代方案的性價比與功能差異。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者應檢查自己的 Copilot 設定與任何依賴 Gemini 的腳本，立即切換至仍受支援的模型（如 Claude 3.5 或 GPT-4o），並更新相應的提示詞與自動化腳本以避免工作中斷。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-07-31-engram-mcp-rust-mcp",
     "title": "engram-mcp：Rust實作的代理持久記憶MCP伺服器",
     "title_original": "edg-l/engram-mcp",
@@ -271,6 +578,33 @@
     "automation_angle_zh": "密切關注後續 API 定價調整與新功能發布，提前評估現有工作流程遷移到新版模型的可行性與效能增益。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-datasette-agent-0-4a0-js-agent",
+    "title": "datasette-agent 0.4a0：能在用戶瀏覽器執行 JS 的 Agent 工具",
+    "title_original": "datasette-agent 0.4a0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything",
+    "published_at": "2026-07-31T14:14:23+00:00",
+    "category": "agent-skills",
+    "summary": "Datasette Agent 0.4a0 新增 `context.browser_task()` 機制，允許 agent 工具直接在用戶瀏覽器中執行自訂 JavaScript。這是突破性的能力：過往 agent 工具只能操作後端或 API，現在可注入瀏覽器腳本、操控 DOM、自動化 Web 互動。",
+    "highlights": [
+      "新機制：context.browser_task() 直接在瀏覽器執行 JS",
+      "Agent 工具可操控用戶端 DOM",
+      "擴展 datasette-agent 插件能力邊界",
+      "可用於 Web 自動化與 UI 測試"
+    ],
+    "why_it_matters": "此功能將 agent 能力從後端延伸到前端瀏覽器，技術使用者可打造真正操控瀏覽器的自動化工作流程，例如自動填表、UI 測試、資料抓取。",
+    "automation_angle": null,
+    "automation_angle_zh": "結合 Datasette 插件生態：開發能在瀏覽器中自動操作的 agent 工具，用於自動化 Web 表單填寫、截圖、或 UI 互動測試。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
@@ -21627,6 +21961,33 @@
     "why_it_matters": "Leanstral 展示了專用領域 Code Agent 的能力邊界，若此技術迁移至一般程式碼生成，可能提升自動化測試與形式化驗證的效率。",
     "automation_angle": null,
     "automation_angle_zh": "對形式化方法有需求的技術用戶可直接下載模型評估其在數學證明自動化的準確率，或研究其技術報告以獲取專用 Agent 訓練靈感。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-mistral-leanstral-1-5-lean-4-587-putnam",
+    "title": "Mistral Leanstral 1.5：開源 Lean 4 程式證明模型，破解 587 道 Putnam 難題",
+    "title_original": "Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdnJkSTA0NDFkUnpDaWZTYjdKVmROaEdNNVNON3RrNTctMlBBdmZRanl0VHZmLXpZaXJRYnBFVF9haEI1eVhORFFnLTFBenJZQ3VzWE5BT25FMGtHcWJ5MVNkTnpIUDVUcFBYQk5SdE5oc2haVW1OWVd2aUJvR0taamd4N3Jpd3BXbkN3RHNXQWhrYXg2WXVzM1NvV181RHh4WVFVdl9ibDQ2UnpzTUVhRTBFTTJHY0RlaVVpWkVwczdRZXZHdENSQXo3Y0FnQkU1cFk5YVNZWHVNdFQwN2t5VFh3ZDRTOFXSAewBQVVfeXFMUExtX1ZYMksxaUVhd2dtMWZVV3lzeEdobGJtbFk5RUg3TVFoX0s1YWtTTnZMU3kxZmJ3bkM1YzlRSWNESVVvdGF2V01BeGhZdmZRTGJPSHJmYTRJUi1iNGQyUmVaMWtnX1loZ0RiVWNFQ1VUR1lpd2p6b0NqWm9sMnk3Vk1aV25fQ3JRMy11MWtlQTM5RzZONlh5cExGNGRfV25KbF80WjM0UjBBcmVGc21ucEgyei0wLW53SGRJX1lJLWpMelBjZ0t2NFlvc3RlbXhzaThXUzlxODFfTzJhc2lhVzBvMlJ5TDNtYnM?oc=5",
+    "published_at": "2026-07-03T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 發布 Leanstral 1.5，Apache-2.0 許可的 Lean 4 程式生成模型。根據 PutnamBench 基準，能解出 672 題中的 587 題，展現極強的數學證明能力。此為模型能力變化的明確訊號：開源模型在形式化數學推論上已達頂尖水準。",
+    "highlights": [
+      "Apache-2.0 完全開源許可",
+      "Leanstral 專精 Lean 4 語言程式生成",
+      "PutnamBench 587/672 解題率",
+      "專為數學定理形式化證明設計"
+    ],
+    "why_it_matters": "此模型代表開源 AI 在數學形式化證明領域的重大突破，技術使用者可用於自動化數學驗證、論文證明檢查等高價值任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "將模型整合進形式化數學工作流程：用 Lean 4 描述問題，讓模型生成證明，再自動化驗證正確性，適用於研究與教育場景。",
     "tags": [
       "new-models",
       "rss",
