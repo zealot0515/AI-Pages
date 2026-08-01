@@ -27,6 +27,150 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-08-01-jacobian-mcp-ai",
+    "title": "Jacobian：數學能力的MCP伺服器與AI工具箱",
+    "title_original": "morluto/jacobian",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/morluto/jacobian",
+    "published_at": "2026-08-01T08:02:58Z",
+    "category": "agent-skills",
+    "summary": "Jacobian是一個MCP伺服器、CLI工具和Python函式庫，為AI Agent提供可組合的數學運算工具箱。強調每個運算步驟皆可檢視，並支援獨立驗證結果，適合需要精確數學推導的自動化場景。",
+    "highlights": [
+      "作為MCP伺服器，可被主流Agent框架直接呼叫",
+      "運算過程透明可檢視，避免黑盒數學",
+      "支援獨立驗證機制，確保結果正確性",
+      "提供CLI介面，離開Agent也可獨立使用",
+      "Python函式庫形式便於整合進現有Python專案"
+    ],
+    "why_it_matters": "數學運算一直是LLM的痛點，Jacobian為Agent提供可驗證的數學工具，能有效降低Agent在科學計算、量化分析等場景中的幻覺錯誤率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將Jacobian整合進自動交易訊號生成或物理模擬Pipeline，讓Agent在處理數值運算時不再依賴LLM本身的不可靠數學能力。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/76467478?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-cartographer-go-mcp",
+    "title": "Cartographer：Go 語言實作的 MCP 治理伺服器",
+    "title_original": "BeppeTemp/cartographer",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/BeppeTemp/cartographer",
+    "published_at": "2026-08-01T07:55:59Z",
+    "category": "agent-skills",
+    "summary": "這是針對 Agentic Wiki 設計的 MCP（Model Context Protocol）治理伺服器，採用 Go 語言實作。其核心理念是「知識可組合，而非僅供查詢」，為 AI Agent 提供結構化的上下文治理能力。",
+    "highlights": [
+      "Go 語言實作，強調效能與併發處理",
+      "專為 Agentic Wiki 場景設計的治理框架",
+      "知識管理模式從被動查詢轉向主動組合",
+      "基於 MCP 協議提供標準化溝通方式",
+      "目前僅 11 stars，專案處於早期階段"
+    ],
+    "why_it_matters": "這反映出 MCP 生態正朝「治理」與「可組合性」方向深化。對於想建立企業級 Agent 系統的技術人員而言，這是值得關注的架構方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本地搭建測試環境，評估其與現有 Agent 的整合潛力。對知識管理流程有定制化需求的開發者可從此專案探索 Agentic 知識治理的實作思路。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/55873294?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-jdbasic-ai-basic-mcp",
+    "title": "jdBasic：AI時代重生的BASIC語言，內建MCP伺服器",
+    "title_original": "AtomiJD/jdBasic",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/AtomiJD/jdBasic",
+    "published_at": "2026-08-01T07:51:24Z",
+    "category": "agent-skills",
+    "summary": "jdBasic將BASIC語言帶入AI時代，支援APL風格陣列運算、SDL3遊戲開發、本地LLM整合，以及最重要的：內建MCP伺服器讓AI Agent可以直接與其配對编程，即時修改與執行代碼。",
+    "highlights": [
+      "內建MCP伺服器，Agent可直接呼叫與修改程式",
+      "支援本地LLM，脫離雲端依賴",
+      "原生LLVM編譯，C++實現高效執行",
+      "支援SDL3遊戲開發與Win32表單應用",
+      "APL風格陣列運算，適合資料處理"
+    ],
+    "why_it_matters": "jdBasic將MCP伺服器內建於語言執行環境中，提供了Agent與程式碼之間最直接的互動通道。這種設計可能成為未來AI友好語言的標配方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其作為輕量級自動化腳本引擎，利用內建MCP讓Agent即時生成、修改、執行BASIC程式，特別適合需要快速原型驗證的工作流程程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C++"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3114862?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-unity-code-mcp-ai-agent-unity",
+    "title": "Unity Code MCP：讓 AI Agent 能在 Unity 編輯器中自主編譯與測試",
+    "title_original": "hackerzhuli/unity_code_mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/hackerzhuli/unity_code_mcp",
+    "published_at": "2026-08-01T07:13:02Z",
+    "category": "agent-skills",
+    "summary": "這款 Rust 語言實作的 MCP 伺服器讓 AI Agent 能夠在 Unity 編輯器中自主執行專案相關任務，透過提供程式碼編譯與測試執行工具，實現遊戲開發流程的 AI 自動化。",
+    "highlights": [
+      "Rust 語言實作，強調記憶體安全與效能",
+      "提供 Unity 編譯工具，讓 Agent 可直接操作專案",
+      "支援在 Unity Editor 內執行測試",
+      "適用於遊戲開發自動化場景",
+      "目前僅 11 stars，屬新興專案"
+    ],
+    "why_it_matters": "這是首個針對 Unity 遊戲引擎的 MCP 整合方案，代表 AI Agent 進軍遊戲開發領域的可能性，為自動化遊戲開發流程提供新思路。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此 MCP 伺服器接入現有 AI 程式碼生成流程，實現 Unity 遊戲專案的自動編譯、測試與反饋。技術人員可用於評估 AI 輔助遊戲開發的可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/15835285?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-reddit",
+    "title": "Reddit 熱議：模型發布疲勞來襲，開發者該如何取捨",
+    "title_original": "Me: Worn out from all the new model drops this week, but still hyped for all the great new releases.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcav6l/me_worn_out_from_all_the_new_model_drops_this/",
+    "published_at": "2026-08-01T02:29:43+00:00",
+    "category": "hot-topics",
+    "summary": "LocalLLaMA 社群中有開發者發文表示本週模型發布過於密集，已感到疲憊但仍對新版本感到興奮。這反映出 AI 領域節奏加速帶給開發者的取捨壓力。",
+    "highlights": [
+      "本週多個模型集中發布，資訊量過載",
+      "開發者出現「模型疲勞」心理狀態",
+      "新模型發布速度已超出社群吸收能力",
+      "反映出對模型選擇困難的集體焦慮",
+      "屬論壇主觀發言，非技術評測"
+    ],
+    "why_it_matters": "模型發布節奏加快已影響技術社群的身心健康。技術決策者需建立篩選機制，避免盲目跟風，以維護團隊的技術專注度與產出品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議建立內部模型評估流程，按需求分類（如推論、程式碼、對話）選擇合適模型，而非追逐每週新發布。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-01-coco-389-142-agent",
     "title": "Coco：389 位虛擬顧問驅動的 142 技能超智慧 Agent 框架",
     "title_original": "coco-research/coco",
@@ -77,6 +221,34 @@
     "automation_angle_zh": "技術人員可直接下載 audio.cpp 0.5 版，在本地測試 DramaBox 或 Confucius4，用於自動生成語音回覆、客服錄音、有聲書製作等流程。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-01-openai",
+    "title": "OpenAI數學與理論電腦科學十項突破",
+    "title_original": "Ten advances in mathematics and theoretical computer science",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/ten-advances-in-mathematics",
+    "published_at": "2026-08-01T00:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI官方部落格發表長文，闡述其在數學與理論電腦科學領域的新進展，涵蓋幾何、密碼學、複雜度理論等多個長期開放問題。屬於模型能力邊界探索的公開記錄。",
+    "highlights": [
+      "官方來源，可信度較高",
+      "涉及幾何、密碼學、複雜度等基礎理論領域",
+      "非產品發布，而是研究進展報告",
+      "暗示GPT系列在數學推論上的具體提升",
+      "有助於評估模型在STEM領域的實際能力邊界"
+    ],
+    "why_it_matters": "數學推論能力是LLM邁向科學自動化的關鍵瓶頸。OpenAI公開其數學突破細節，有助技術人員評估哪些數學任務現已可交給模型處理。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據此報告選擇性測試新模型在數學證明、密碼分析、幾何推導等場景的實際表現，用於決定是否將其整合進自動化研究工具鏈。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
