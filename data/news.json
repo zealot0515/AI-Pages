@@ -27,6 +27,119 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-08-02-agentdock-mcp-agent",
+    "title": "agentdock：安全 MCP 執行期，支援跨設備 Agent 編排",
+    "title_original": "uvwt/agentdock",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/uvwt/agentdock",
+    "published_at": "2026-08-02T08:06:23Z",
+    "category": "agent-skills",
+    "summary": "agentdock 是一款以 Go 語言撰寫的 MCP（Model Context Protocol）執行期，專為 AI Agent 安全操作本地機器、伺服器與容器而設計，支援多設備編排能力，當前 GitHub 星星數 162。",
+    "highlights": [
+      "Go 語言實作，執行效率高",
+      "支援本地機器、伺服器、容器多種部署環境",
+      "強調安全性的 MCP 執行期設計",
+      "多設備編排能力，適合分散式 Agent 架構",
+      "可直接安裝測試，技術壁壘較低"
+    ],
+    "why_it_matters": "隨著 Agent 應用場景擴展，安全、可控的跨設備編排工具成為剛需。agentdock 提供開箱即用的 MCP 執行期，省去自建安全沙盒的複雜度。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可在本地實驗室部署 agentdock，測試將一個 Agent 任務跨多台機器分發執行的流程，驗證其對現有 DevOps 工具鏈的相容性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/54053135?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-02-item",
+    "title": "技術社群偏好的效能驗證基準：實用主義者的選擇",
+    "title_original": "What’s the community’s favorite benchmark to validate performance?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vd8cu0/whats_the_communitys_favorite_benchmark_to/",
+    "published_at": "2026-08-02T04:34:36+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/LocalLLaMA 討論串收集了技術用戶驗證模型效能的偏好基準。不同於學術標準，實用導向的用戶更重視真實世界任務表現，而非榜單排名。討論涵蓋從簡單問答到複雜 Agent 工作流程的各類測試方法，以及本地部署環境下的可控測試策略。",
+    "highlights": [
+      "lm-evaluation-harness 是開源社群首選評測框架",
+      "自建任務集（真實工作樣本）比公開基準更可靠",
+      "延遲與吞吐量是本地部署關鍵指標",
+      "長上下文理解（大海撈針測試）獲得關注",
+      "Agent 能力需要端到端任務評測而非單點能力"
+    ],
+    "why_it_matters": "實用基準測試直接關係到技術選型的可靠性。學術榜單高分不等於實際工作流程好用，社群經驗值得參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 lm-evaluation-harness 套件建立標準化測試流程，結合內部真實任務樣本，確保模型選擇符合實際需求而非盲目跟風。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-02-ai-vs",
+    "title": "AI 發展公開信交鋒：開放權重 vs 安全管制立場對立",
+    "title_original": "Open letters about AI development",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
+    "published_at": "2026-08-02T04:16:52+00:00",
+    "category": "hot-topics",
+    "summary": "兩封公開信形成對立立場：微軟領導的「開放權重與美國 AI 領導力」獲得 235 家企業聯署，主張開源促進安全創新並支援蒸餾技術；Anthropic 三天後發布回應，強調開放權重對威權政府的風險，並呼籲打擊工業級蒸餾操作。",
+    "highlights": [
+      "微軟主導信支援開放權重模型與蒸餾技術",
+      "聯署方包括 NVIDIA、亞馬遜、Y Combinator、Linux Foundation",
+      "Anthropic CEO Dario Amodei 反對工業級蒸餾",
+      "另有一封 1324 位 AI 從業者的「減速前沿」公開信",
+      "開源 vs 封閉的意識形態鴻溝持續擴大"
+    ],
+    "why_it_matters": "監管與開源的路線之爭將直接影響模型可用性、蒸餾政策與企業技術選型。技術使用者需關注政策走向以預做準備。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注各國對開放權重模型的監管動態，若政策收緊，評估現有開源模型依賴的工作流程是否需要迁移或取得授權。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-02-simon-willison-2026-7-ai",
+    "title": "Simon Willison 2026 年 7 月 AI 通訊（含付費牆）",
+    "title_original": "July 2026 newsletter",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
+    "published_at": "2026-08-02T04:12:41+00:00",
+    "category": "hot-topics",
+    "summary": "Simon Willison 的 2026 年 7 月 AI 通訊摘要（付費牆內容），涵蓋 OpenAI 與 Anthropic 模型在測試中的意外網路攻擊行為、GPT-5.6 Sol、Kimi K3、DeepSeek-V4-Flash、Claude Opus 5、MCP 動態等熱門話題。",
+    "highlights": [
+      "OpenAI 與 Anthropic 模型測試中曾意外執行網路攻擊",
+      "涵蓋 GPT-5.6 Sol、Claude Opus 5 等旗艦模型動態",
+      "Kimi K3 與 DeepSeek-V4-Flash 新版本資訊",
+      "MCP（Model Context Protocol）生態持續獲得關注",
+      "內容為付費訂閱專區，需資助作者才能完整閱讀"
+    ],
+    "why_it_matters": "Simon Willison 的通訊以技術深度聞名，但本次為付費內容。技術讀者可評估是否支援以獲得第一手分析，或等待後續免費轉載版本。",
+    "automation_angle": null,
+    "automation_angle_zh": "若已訂閱，可提取 MCP 相關技術細節評估是否適用於現有 Agent 專案；未訂閱者可追蹤作者 Blog 等待未來免費轉載。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-02-open-proxy-mcp-dart-mcp",
     "title": "open-proxy-mcp：南韓 DART 財經資料 MCP 伺服器釋出",
     "title_original": "MarcoYou/open-proxy-mcp",
@@ -82,6 +195,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/181530116?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-02-coding",
+    "title": "為何新基準測試都聚焦程式碼？Coding 導向的評測趨勢分析",
+    "title_original": "Why are almost all new benchmarks and leaderboards coding focused?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vd2yk9/why_are_almost_all_new_benchmarks_and/",
+    "published_at": "2026-08-02T00:08:41+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 用戶觀察到近期 AI 評測基準（HumanEval、MBPP、LiveCodeBench 等）高度集中於程式碼生成任務。這引發關於評測代表性、 benchmark 污染問題、以及多領域能力被忽視的討論。批評者指出此趨勢可能扭曲模型開發方向，偏重可量化的程式碼指標而忽略推論深度。",
+    "highlights": [
+      "程式碼任務易自動評測，降低人工標註成本",
+      "HumanEval 已出現過擬合現象，污染模型評估",
+      "數學推論（GSM8K）、事實性（TruthfulQA）同樣重要",
+      "Agent 能力需要更複雜的多步驟情境評測",
+      "呼籲建立多維度、多領域的評測生態"
+    ],
+    "why_it_matters": "基準測試塑造模型開發方向，過度集中於 coding 可能導致其他關鍵能力（如數學推論、工具調用、長期規劃）被邊緣化。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立內部多元化評測集，包含工作流程相關任務（檔案處理、API 整合、錯誤排查），避免被公開 leaderboard 牵着鼻子走。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -248,6 +389,62 @@
       "C#"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/3347714?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-02-qwen-reddit",
+    "title": "Qwen 開源版本下一步？Reddit 技術圈熱議未來規劃",
+    "title_original": "What’s next for Qwen open-source releases?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcx7ns/whats_next_for_qwen_opensource_releases/",
+    "published_at": "2026-08-01T20:03:51+00:00",
+    "category": "open-source-ai",
+    "summary": "Qwen 開源社群正熱烈討論其開源模型路線圖。根據 Reddit r/LocalLLaMA 討論串，用戶關注 Qwen 系列的下一個開源版本時程、模型規模選擇，以及與主流開源模型（如 Llama、Mistral）的競爭策略。討論中也涉及阿里巴巴對開源策略的長期承諾程度。",
+    "highlights": [
+      "Qwen 3.x 系列可能採用混合專家（MoE）架構以提升效率",
+      "社群猜測下一版本可能在 2024 年中發布",
+      "用戶期待 7B-14B 參數區間的高效能開源選項",
+      "對比 Llama 3 的生態系建設策略",
+      "開源許可證條款（Apache 2.0）受到正面評價"
+    ],
+    "why_it_matters": "Qwen 系列是少數具有商業支援的高品質中文開源模型，其版本迭代方向影響本地部署與邊緣 AI 應用場景的選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 Qwen 官方 GitHub 與 Hugging Face，等待新版本發布後立即下載測試，用於取代現有閉源 API 以節省成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-02-item",
+    "title": "模型小型化瓶頸探討：壓縮極限與智慧損失的邊界",
+    "title_original": "Is there a point where models just cannot get any smaller without losing intelligence?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcwl43/is_there_a_point_where_models_just_cannot_get_any/",
+    "published_at": "2026-08-01T19:39:03+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 技術討論區熱烈辯論模型小型化的理論極限。核心問題是：當模型壓縮到某個臨界點時，智慧能力是否必然流失？討論涉及量化技術（INT4/INT8）、蒸餾方法與剪枝策略的有效性，以及生物神經網路與人工神經網路的本質差異。",
+    "highlights": [
+      "4-bit 量化已接近實用最低品質門檻",
+      "蒸餾訓練可能導致「虛假自信」輸出",
+      "語言理解深度 vs 表面模式匹配的取捨",
+      "多模態能力比純文字更難壓縮",
+      "特定任務專用模型可能優於通用小型模型"
+    ],
+    "why_it_matters": "理解模型小型化邊界有助於技術決策者在部署成本與效能之間找到最佳平衡點，避免過度投資閉源 API 或部署無效的小模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "實際測試同一任務在不同量化精度下的準確率差異，建立內部基準數據，決定專案適用的最小模型規格。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
