@@ -27,6 +27,61 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-08-02-codex-vision-proxy-codex",
+    "title": "codex-vision-proxy：讓純文字模型直接呼叫 Codex 視覺工具",
+    "title_original": "Anionex/codex-vision-proxy",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Anionex/codex-vision-proxy",
+    "published_at": "2026-08-02T12:23:36Z",
+    "category": "open-source-ai",
+    "summary": "Anionex/codex-vision-proxy 透過封裝 view_image 等 Codex 內建視覺工具，讓純文字 LLM 無需視覺能力即可處理圖片輸入。專為純文字模型設計視覺工具包與 Skill，已獲 182 stars。",
+    "highlights": [
+      "純文字模型可直接呼叫 view_image 等視覺 API",
+      "提供專為文字模型優化的視覺工具包",
+      "降低視覺模型門檻，複用現有文字模型",
+      "Python 實作，可快速整合至現有流程"
+    ],
+    "why_it_matters": "若能在不使用視覺模型的前提下處理圖片任務，可節省大量視覺 API 費用，對成本敏感的技術用戶有直接價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將此專案整合至 Codex 流程，用純文字模型處理截圖、圖表解讀，評估與原生視覺模型的效果差異與成本節省幅度。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/123177548?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-02-wintermix-qwen3-5-122b-a10b-mlx",
+    "title": "WinterMix Qwen3.5-122B-A10B 原生 MLX 版發布",
+    "title_original": "[Release] WinterMix — Qwen3.5-122B-A10B in native MLX: an 82 GiB build that beats 94–95 GiB quants, plus a 68 GiB build for agent swarms",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdcs8e/release_wintermix_qwen35122ba10b_in_native_mlx_an/",
+    "published_at": "2026-08-02T08:42:03+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 傳出 WinterMix 以原生 MLX 格式構建 Qwen3.5-122B-A10B，82 GiB 大小宣稱效能勝過 94-95 GiB 的量化版本，另提供 68 GiB 版本供 Agent swarm 使用。尚未有獨立驗證社群。",
+    "highlights": [
+      "原生 MLX 格式，82 GiB 大小",
+      "宣稱勝過更大體積的量化模型",
+      "68 GiB 版本適合 Agent swarm 部署",
+      "MLX 為 Apple Silicon 優化"
+    ],
+    "why_it_matters": "若原生 MLX 能在 Apple Silicon 上高效運行 122B 模型，對想在 Mac 本地跑大模型的技術用戶是性價比極高的選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Apple Silicon Mac 上測試 68 GiB 版本，評估 Agent swarm 情境下的響應速度與記憶體佔用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-02-agentdock-mcp-agent",
     "title": "agentdock：安全 MCP 執行期，支援跨設備 Agent 編排",
     "title_original": "uvwt/agentdock",
@@ -53,6 +108,32 @@
       "Go"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/54053135?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-02-reddit-qwen-agent",
+    "title": "Reddit 實測：Qwen 用於自主程式碼 Agent 的現實表現",
+    "title_original": "Real-world reality check on Qwen for autonomous coding agents",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdb1n1/realworld_reality_check_on_qwen_for_autonomous/",
+    "published_at": "2026-08-02T07:00:41+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶分享 Qwen 模型實際應用於自主程式碼 Agent 的測試結果，包含成功率、常見失敗模式與適用場景限制。屬社群個人經驗，非正式 Benchmark。",
+    "highlights": [
+      "社群真實使用經驗，非官方 Benchmark",
+      "涵蓋常見失敗模式與邊界條件",
+      "可做為技術決策的參考而非定論"
+    ],
+    "why_it_matters": "對於考慮以 Qwen 作為程式碼生成 Agent 底層模型的技術用戶，社群實測可提供官方文件外的實際表現參照。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據文中失敗模式設計防護機制，例如加入人工審核環節或設定重試邏輯，降低 Qwen 程式碼 Agent 的錯誤率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -764,6 +845,34 @@
       "Rust"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/15835285?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-02-chatgpt-revolut",
+    "title": "ChatGPT 免費訂閱長達一年：開通 Revolut 帳戶即可享有新優惠",
+    "title_original": "ChatGPT 免費訂閱长达一年：開通 Revolut 账户即可享受新優惠 - Notebookcheck CN",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE14c1Brdk9zcmluYVR4MUZMb0pPZng3WEhHRGlUZGdlMDB2cEtiLUdKSHlwZmZxUWxEWTFwSGFYQWU5blQxVzJtNG5QVmw4ZjZlMzJPWFQ2a2lsZWdrS0FxOEdpWnBqZnRTdnhWSkZtbkc?oc=5",
+    "published_at": "2026-08-01T06:23:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 與金融科技公司 Revolut 合作，推出透過開戶即可獲得 ChatGPT Plus 一年免費訂閱的促銷活動。用戶需綁定 Revolut 帳戶並完成指定條件方能兌換，具體條款與有效期需至官網確認。此優惠非 OpenAI 官方直接提供，存在第三方限制風險。",
+    "highlights": [
+      "需先註冊 Revolut 帳戶並通過身份驗證才能參與",
+      "免費 ChatGPT Plus 期限最長十二個月，具體條件未完全透明",
+      "此為第三方合作優惠，非 OpenAI 官方直售或促銷",
+      "優惠可能存在地區限制或隨時變更的風險",
+      "建議詳閱 Revolut 及 OpenAI 雙方服務條款以免爭議"
+    ],
+    "why_it_matters": "此類金融科技合作優惠可能為用戶節省每年約 120 美元的 ChatGPT Plus 費用，但涉及第三方帳戶資料共享與潛在服務變動，技術用戶應評估隱私風險與優惠穩定性後再決定是否參與。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此資訊加入個人 AI 工具成本追蹤表，若決定參與則需留意 Revolut 帳戶維護成本與取消訂閱流程，避免被自動續費。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
