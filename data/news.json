@@ -27,6 +27,230 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-08-02-open-proxy-mcp-dart-mcp",
+    "title": "open-proxy-mcp：南韓 DART 財經資料 MCP 伺服器釋出",
+    "title_original": "MarcoYou/open-proxy-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/MarcoYou/open-proxy-mcp",
+    "published_at": "2026-08-02T01:48:09Z",
+    "category": "agent-skills",
+    "summary": "開發者 MarcoYou 發布 open-proxy-mcp，這是一款專為 AI Agent 設計的 MCP 伺服器，整合南韓 DART（金融監督院電子公示系統）資料接口，可查詢財務數據、公司估值、持股結構、業務分析及股東會代理投票資訊。目前 GitHub 獲得 11 顆星，採用 Python 實作。",
+    "highlights": [
+      "支援南韓 DART 系統的財務報表、估值與持股結構查詢",
+      "涵蓋 AGM 代理投票資訊，適合投資分析與盡職調查場景",
+      "以 MCP（Model Context Protocol）協定實作，可直接串接支援 MCP 的 Agent",
+      "Python 實作，技術門檻低，易於本地部署或嵌入現有工作流程",
+      "目前僅 11 顆星，需持續觀察社群維護狀況與穩定性"
+    ],
+    "why_it_matters": "對於需要分析南韓上市公司財務資料的技術使用者，此 MCP 伺服器可直接將 DART 資料接入 AI Agent 工作流程，省去手動爬蟲或購買昂貴金融資料庫的成本。對從事跨境財務分析或自動投資研究的技術宅具體實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可串接支援 MCP 的 Agent（如 Claude Desktop、Cursor），自動化抓取南韓上市公司財報並生成投資分析摘要，或設定定時任務自動監控特定企業的重大持股變動。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/45651346?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-02-chaty-100-ai-gguf-mlx-rag",
+    "title": "Chaty：100%離線的本地AI桌面應用，支援GGUF/MLX與RAG",
+    "title_original": "Fangyuan025/Chaty",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Fangyuan025/Chaty",
+    "published_at": "2026-08-02T01:40:14Z",
+    "category": "open-source-ai",
+    "summary": "Chaty是一款隱私導向的本地AI桌面工具，支援GGUF（llama.cpp）與MLX模型，內建本地Coding Agent、RAG知識庫、Deep Research、視覺與語音功能。完全離線、無帳號、無遙測。",
+    "highlights": [
+      "100%離線：無網路依賴，無隱私上傳疑慮",
+      "本地Coding Agent：可輔助程式碼生成與除錯",
+      "RAG知識庫：支援自有文件向量化檢索",
+      "Deep Research功能：本地化的研究爬蟲與摘要",
+      "支援GGUF/MLX：覆蓋主流量化模型格式"
+    ],
+    "why_it_matters": "對高度重視資料安全或網路受限環境的技術用戶，Chaty提供一套開箱即用的本地AI工作環境，無需管理雲端API或擔心資料外洩。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載並匯入自有技術文件至Chaty的RAG知識庫，快速構建本地文件問答系統，用於取代付費文件檢索服務。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/181530116?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-02-gpu-llm",
+    "title": "多 GPU 擴展 LLM 推論效能評估討論",
+    "title_original": "How well do multiple GPUs scale for LLM inference? (Trying to understand the basics)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vd2wf1/how_well_do_multiple_gpus_scale_for_llm_inference/",
+    "published_at": "2026-08-02T00:05:58+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 上有技術討論探究多張 GPU 在 LLM 推論時的擴展效率。問題聚焦於增加 GPU 數量是否能線性提升吞吐量，以及記憶體頻寬與通訊瓶頸的實際影響。",
+    "highlights": [
+      "多 GPU 推論涉及張量平行處理與資料平行處理的取捨",
+      "GPU 間通訊頻寬（如 NVLink）顯著影響實際加速比",
+      "小型批量處理時，多 GPU 可能反而增加延遲",
+      "框架支援度是實際部署的關鍵因素"
+    ],
+    "why_it_matters": "對於需要高吞吐量服務的技術團隊，了解多 GPU 擴展邊界可避免過度投資或效能落差。此資訊有助於規劃成本效益最高的硬體配置。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估時可使用 lm-eval-harness 或類似基準工具，針對實際工作負載測量不同 GPU 數量的每秒 Token 輸出量與延遲。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-02-koboldcpp-v1-118-llm",
+    "title": "Koboldcpp v1.118 釋出：本地 LLM 推論引擎更新",
+    "title_original": "Koboldcpp v1.118 released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vd13uv/koboldcpp_v1118_released/",
+    "published_at": "2026-08-01T22:45:47+00:00",
+    "category": "open-source-ai",
+    "summary": "Koboldcpp 是一款專為本地執行 LLM 設計的推論框架，最新 v1.118 版本持續優化效能與相容性。作為 LocalLLaMA 社群廣泛使用的工具，更新通常帶來更低的記憶體佔用與更快的推論速度。",
+    "highlights": [
+      "Koboldcpp v1.118 已在 Reddit r/LocalLLaMA 正式公告",
+      "本地推論框架可離線執行模型，節省 API 调用成本",
+      "新版本可能包含 GGUF 格式優化與量化支援改進",
+      "支援多種前端介面，包括 Kobold Lite 與 OpenAI API 兼容端點"
+    ],
+    "why_it_matters": "對需要本地部署模型的技術使用者而言，Koboldcpp 的每次更新都可能是優化成本與延遲的機會。本地執行可完全掌控資料隱私，適合處理敏感內容。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可將 Koboldcpp 整合至自動化腳本，用本地模型替代付費 API 完成批次任務，如文件分類或文字生成。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-02-greg-brockman-ai",
+    "title": "Greg Brockman 觀點：人類對 AI 直接介入工作的接受度問題",
+    "title_original": "Quoting Greg Brockman",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything",
+    "published_at": "2026-08-01T22:29:44+00:00",
+    "category": "agent-skills",
+    "summary": "OpenAI 總裁 Greg Brockman 指出，許多人不介意同事請求幫助，卻排斥同事的 AI 直接前來尋求協助。這反映人類對「人際關係」的在意，以及期待 AI 應該節省時間而非成為隔閡。",
+    "highlights": [
+      "實驗顯示：人類樂於接受同事請求，卻反感 AI 代為聯繫",
+      "AI 工具若未經授權主動接觸他人，可能破壞信任",
+      "設計 AI Agent 時需考量「代理行為」的社會影響",
+      "Brockman 建議 AI 應「還時間給人類」而非製造額外負擔"
+    ],
+    "why_it_matters": "此觀察對開發 AI Agent 的技術人員具有警示意義：自動化程度高的系統若缺乏透明度或人類授權機制，可能在協作場景中適得其反。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 Agent 系統中加入「人類確認」關卡，確保涉及外部溝通的任務有明確的授權與追蹤機制。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-02-datasette-apps-0-2a0-agent-apps",
+    "title": "datasette-apps 0.2a0 釋出：Agent 可直接除錯與列舉 Apps",
+    "title_original": "datasette-apps 0.2a0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything",
+    "published_at": "2026-08-01T21:23:56+00:00",
+    "category": "agent-skills",
+    "summary": "Datasette 團隊發布 datasette-apps 0.2a0 版本，新增 app_debug() 工具讓 Agent 可在隱形 iframe 中執行 JavaScript 進行冒煙測試，並具備 app_list() 工具列舉使用者有權限編輯的 Apps。此版本依賴 datasette-agent 0.4a0 的 context.browser_task() 機制，實現無需人工干預的自動化 UI 驗證流程。",
+    "highlights": [
+      "app_debug() 使用 opacity:0 iframe + pointer-events:none 技術，Agent 可在不可見環境中執行 JS 測試",
+      "支援元素尺寸測量與功能驗證，適合 CI/CD 流程中的自動回歸檢測",
+      "app_list() 工具可根據使用者權限動態過濾可編輯的 Apps",
+      "依賴 datasette-agent 0.4a0 的 context.browser_task() 機制",
+      "Python 生態系整合，技術宅可快速本地部署測試"
+    ],
+    "why_it_matters": "過往 Agent 測試 Web UI 需要人工截圖或截圖 API，現在可直接透過程式驗證元素存在性與尺寸，大幅降低自動化 UI 測試的開發成本。對於需要持續整合 Datasette Apps 的技術團隊，此功能可將手動回歸測試時間縮短至零。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在 CI pipeline 中呼叫 app_debug() 對部署的 Datasette App 進行自動化 smoke test，檢查關鍵 DOM 元素是否存在或尺寸是否符合預期，快速發現部署後的 UI 回歸問題。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-02-openai-gpt-5-6-sol-lean-4",
+    "title": "OpenAI GPT-5.6 Sol聲稱破解十個數學難題，含Lean 4形式化驗證",
+    "title_original": "Ten advances in mathematics and theoretical computer science",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
+    "published_at": "2026-08-01T20:34:49+00:00",
+    "category": "new-models",
+    "summary": "OpenAI內部版本代號Astra的模型GPT-5.6 Sol，在每題低於2000美元token成本下，聲稱解決十個十年無進展的數學問題。成果附Lean 4形式化驗證與推論軌跡重建PDF。",
+    "highlights": [
+      "成本控制明顯：每題低於2000美元完成證明",
+      "數學難題層級：每題至少十年無主要進展",
+      "Lean 4形式化：成果經數學證明助理驗證",
+      "推論軌跡公開：PDF重建解題過程，非黑盒聲稱",
+      "數學界反應分歧：部分學者持保留態度"
+    ],
+    "why_it_matters": "此結果顯示LLM在高推論成本下可能突破數學瓶頸，但實際工作流程價值取決於能否將成功模式複製到工程、程式碼等領域。",
+    "automation_angle": null,
+    "automation_angle_zh": "研究者可clone openai/ten-proofs repo，檢視Lean 4形式化證明與prompt設計，評估是否能將類似高推論策略應用於自動化形式化驗證任務。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-02-tensorsharp-net-llm-gguf",
+    "title": "TensorSharp：原生.NET LLM推論引擎支援GGUF模型",
+    "title_original": "zhongkaifu/TensorSharp",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/zhongkaifu/TensorSharp",
+    "published_at": "2026-08-01T20:21:51Z",
+    "category": "open-source-ai",
+    "summary": "TensorSharp是原生C#開發的LLM推論引擎，支援GGUF格式模型，提供網頁聊天介面與Ollama/OpenAI相容HTTP API，跨Windows/macOS/Linux全平台GPU加速。",
+    "highlights": [
+      "原生C#實作：無需Python環境即可運行LLM",
+      "GGUF支援：可直接使用主流量化模型檔案",
+      "API相容：Ollama/OpenAI格式，方便現有工具接入",
+      "跨平台GPU加速：Windows/Mac/Linux皆支援CUDA/Metal",
+      "附帶主控台工具：快速體驗與測試模型能力"
+    ],
+    "why_it_matters": "為C#/.NET技術棧開發者提供本地LLM推論選項，可在不引入Python相依的情況下，將LLM能力整合至既有.NET系統，降低維運複雜度。",
+    "automation_angle": null,
+    "automation_angle_zh": ".NET開發者可直接用NuGet評估TensorSharp，在既有C#專案中以HTTP client呼叫本地模型，測試文件分類或文字生成等常見任務。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3347714?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-01-shellguard-ssh-llm-agent-shell",
     "title": "ShellGuard：透過 SSH 為 LLM Agent 開啟唯讀遠端 Shell 存取",
     "title_original": "fawdyinc/shellguard",
@@ -679,6 +903,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-02-slack-emoji-maker-ai",
+    "title": "Slack Emoji Maker：小工具示範 AI 輔助建構影像編輯器",
+    "title_original": "Slack Emoji Maker",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Jul/31/slack-emoji-maker/#atom-everything",
+    "published_at": "2026-07-31T20:18:05+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 分享了一個名為 Slack Emoji Maker 的簡單工具，展示如何快速針對 Slack 需求（128x128 方形、透明背景）建構客製化影像編輯器。此案例體現 AI 輔助工具開發的敏捷流程。",
+    "highlights": [
+      "工具專為 Slack 表情符號規格客製化設計",
+      "展示了 AI 加速小型工具開發的實際案例",
+      "Simon Willison 用「Fable」快速建立滿足特定需求的編輯器",
+      "低技術門檻的 AI 輔助開發模式值得關注"
+    ],
+    "why_it_matters": "對於需要快速原型開發的技術人員，此案例說明如何用 AI 工具將「需求描述」直接轉化為可用的功能性工具，而非漫長的傳統開發流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可借鏡此模式：用 AI 程式碼生成工具針對重複性小任務（如格式轉換、批次命名）快速建立自訂腳本或小工具。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-01-github-copilot-gemini-2-5-pro-gemini-3-flash",
