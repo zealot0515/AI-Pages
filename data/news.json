@@ -27,6 +27,64 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-08-03-toolfunnel-mcp-agent-token",
+    "title": "toolfunnel：零依賴MCP閘道器，直擊Agent Token成本痛點",
+    "title_original": "Rendeverance/toolfunnel",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Rendeverance/toolfunnel",
+    "published_at": "2026-08-03T09:05:00Z",
+    "category": "agent-skills",
+    "summary": "toolfunnel是JavaScript寫的零依賴MCP閘道器，支援自架工具、轉發其他MCP伺服器工具、自訂政策鉤子控制每次呼叫，以及協議轉換封裝。核心價值在於降低Agent呼叫工具時的Token消耗。",
+    "highlights": [
+      "零依賴JavaScript，降低部署門檻",
+      "自訂政策鉤子可在工具執行前進行驗證或過濾",
+      "支援跨協議MCP伺服器封裝",
+      "工具精簡暴露可有效控制Token用量",
+      "可用於企業內部工具的安全治理"
+    ],
+    "why_it_matters": "Agent工作流程中工具呼叫的Token消耗往往被忽視。toolfunnel提供一個可控的中間層，讓技術團隊在提升效能與控制成本間取得平衡。",
+    "automation_angle": null,
+    "automation_angle_zh": "在既有MCP工具鏈前加一層toolfunnel，測量Token節省比例，並評估政策鉤子是否能滿足安全合規需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/153719924?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-03-zipagent-5-ai",
+    "title": "ZipAgent：號稱5分鐘建構專屬AI助理的輕量級框架",
+    "title_original": "JiayuXu0/ZipAgent",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/JiayuXu0/ZipAgent",
+    "published_at": "2026-08-03T07:52:47Z",
+    "category": "agent-skills",
+    "summary": "ZipAgent是一款輕量Python AI Agent框架，標榜5分鐘即可建立個人化助理。GitHub目前107星，屬於快速崛起的新興專案。文件與範例尚待充實，適合願意早期試用的技術人員。",
+    "highlights": [
+      "Python實作，107星，快速累積關注",
+      "標榜極速上手，5分鐘完成建構",
+      "屬於輕量級架構，非企業級解決方案",
+      "文件成熟度待驗證，建議直接看原始碼",
+      "可用於快速原型驗證Agent概念"
+    ],
+    "why_it_matters": "輕量級Agent框架適合技術人員快速試錯。相較重型框架，學習曲線低，可作為內部工具或個人工作流程自動化的切入點。",
+    "automation_angle": null,
+    "automation_angle_zh": "克隆Repo後用預設範例跑一個簡單的對話助理，評估其能否滿足你的文件處理或日程管理需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/84259897?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-03-sqliteai-waste-c-nvme",
     "title": "sqliteai/waste：C 語言無依賴推論引擎，讓超大模型在有限記憶體下跑 NVMe 串流",
     "title_original": "GitHub - sqliteai/waste: Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.",
