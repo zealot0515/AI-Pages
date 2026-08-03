@@ -27,6 +27,226 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-08-03-vybe-intelligence-vault-ai-agent-rag",
+    "title": "vybe-intelligence-vault：AI Agent 與 RAG 系統的開源資源聚合庫",
+    "title_original": "sairaman436/vybe-intelligence-vault",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sairaman436/vybe-intelligence-vault",
+    "published_at": "2026-08-03T18:57:39Z",
+    "category": "open-source-ai",
+    "summary": "一個採用 JavaScript 開發的開源 Vault 專案，自動更新收錄 AI Agent、RAG 系統、MCP 伺服器、提示詞模板、工具與下一代 Web 開發資源。目前僅 15 個 GitHub Stars，屬早期實驗性專案。",
+    "highlights": [
+      "收錄 AI Agent、RAG、MCP 伺服器等資源",
+      "包含提示詞模板與工具模板可供複製使用",
+      "自動更新機制減少手動維護成本",
+      "目前 Stars 極少，社群採用度待觀察",
+      "JavaScript 生態系統友好，適合前端背景開發者"
+    ],
+    "why_it_matters": "該 Vault 若能持續更新，可作為技術用戶發現新工具與模板的捷徑；但因 Stars 偏低，需評估其維護活躍度再決定是否投入時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將其作為每週定點檢查的資源清單，快速發掘符合自身需求的 MCP 伺服器或 RAG 模板，節省工具調研時間。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/233378322?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-03-stripe-langchain-ai-kai",
+    "title": "Stripe 如何在一週內基於 LangChain 建構企業 AI 代理 Kai",
+    "title_original": "How Stripe Built Kai on Deep Agents in 1 Week",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents",
+    "published_at": "2026-08-03T17:03:56+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格詳細披露 Stripe 如何在一週內快速建構名為 Kai 的企業級 AI 代理平台，基於 LangChain、LangGraph 與 Deep Agents 構建，整合公司內部知識庫與 API，於四週內達到 5,000 名用戶。此案例展示現代 Agent Framework 在企業場景的快速交付能力。",
+    "highlights": [
+      "使用 LangChain + LangGraph + Deep Agents 技術棧",
+      "一週完成 POC，四週達到 5,000 用戶",
+      "整合內部知識庫與 Stripe API",
+      "展示企業級 AI Agent 的快速部署範式"
+    ],
+    "why_it_matters": "此案例驗證了 LangChain 生态在企業級 Agent 開發的實用性，開發者若需快速建構內部 AI 助理，可參考其技術架構與迭代策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接採用 LangChain 官方範本，改造成適合自選企業內部文件查詢或工作流程程自動化的 Agent 系統。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-03-david-crawshaw-prompt-rebase",
+    "title": "David Crawshaw 的每夜自動化 Prompt：自動追蹤上游並 Rebase",
+    "title_original": "Quoting David Crawshaw's prompt",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
+    "published_at": "2026-08-03T16:15:27+00:00",
+    "category": "agent-skills",
+    "summary": "David Crawshaw 分享的 Prompt 設計：設定 Cron Job 每夜執行「拉取上游變更、Rebase 本地修改、驗證功能正常、替換現有版本」的完整流程，展示了如何用自然語言驅動自動化維護工作。",
+    "highlights": [
+      "每夜 Cron Job 驅動完整的上游同步流程",
+      "Prompt 指令清晰：拉取→Rebase→驗證→替換",
+      "將 LLM 作為軟體維護流水線的協調層",
+      "適用於依賴上游 Repo 的自建工具或腳本",
+      "驗證步驟確保自動化不破壞現有功能"
+    ],
+    "why_it_matters": "此模式展示了 LLM 驅動的維護自動化潛力：技術用戶可將重複性的版本同步與測試工作交由 AI Agent 處理，將精力集中在真正需要人類判斷的任務上。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此 Prompt 模板部署為每夜 Cron Job，自動維護依賴外部 Repo 的內部工具，結合測試框架確保更新後系統仍正常運作。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-03-esp32-s3-espresso-q-a",
+    "title": "ESP32-S3 微控制器完全離線運行 espresso Q/A 模型",
+    "title_original": "an espresso Q/A model running fully offline on an ESP32S3",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vegzd6/an_espresso_qa_model_running_fully_offline_on_an/",
+    "published_at": "2026-08-03T15:40:31+00:00",
+    "category": "open-source-ai",
+    "summary": "研究人員展示在 ESP32-S3 這款僅有 240KB SRAM 的微型控制器上，完全離線運行 espresso Q/A（問答）模型。此成果突破嵌入式 AI 的極限硬體限制，適合需要極低成本、極低功耗的本地推論場景，如感測器節點或工業 IoT 設備。",
+    "highlights": [
+      "在 ESP32-S3（240KB SRAM）上成功運行小型 Q/A 模型",
+      "完全離線運行，無需網路連接",
+      "目標為極低成本與極低功耗嵌入式場景",
+      "模型大小需極度蒸餾至 MB 等級以下"
+    ],
+    "why_it_matters": "將 AI 推論能力下沉至真正的嵌入式末端，為邊緣運算與 IoT 設備增添自然語言介面開闢新可能性。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估此技術是否適用於自選的嵌入式專案，可測試 espresso 模型在 ESP32-S3 上的任務準確率與功耗表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-03-simon-willison-llm",
+    "title": "Simon Willison：LLM 時代讓開源軟體審查成本大幅下降",
+    "title_original": "Devtools must be open source (exe.dev)",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+    "published_at": "2026-08-03T15:30:38+00:00",
+    "category": "hot-topics",
+    "summary": "Simon Willison 在 Hacker News 討論中指出，LLM 已改變開源軟體的可修改性。過去專家也難以投入時間閱讀並改寫程式碼，如今借助 Claude Code 或 Codex，可於十分鐘內完成 Repo 克隆、建構、理解的流程。",
+    "highlights": [
+      "LLM 大幅降低閱讀與理解陌生程式碼的成本",
+      "Claude Code / Codex 可自動執行建構與初步分析",
+      "從「無法修改」到「零時間投入」的範式轉變",
+      "每日數次使用「克隆並分析」提示已成常態",
+      "修改自用軟體的路徑已實際存在，不再是理論"
+    ],
+    "why_it_matters": "對技術用戶而言，這意味著可以更主動地客製化手中工具鏈，不必受限於 GUI 介面或等待上游修復，提升個人工作流程的自主性與效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立標準化 Prompt（如「克隆 X Repo 並生成架構摘要」），結合 Cron Job 或按需觸發，作為個人工具審計與客製化決策的自動化流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-03-deepseek-242",
+    "title": "DeepSeek 全系列模型 242 組一次性輸出對比",
+    "title_original": "All DeepSeek model oneshots: 242 outputs to look at and compare!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vegkq5/all_deepseek_model_oneshots_242_outputs_to_look/",
+    "published_at": "2026-08-03T15:25:47+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶整理 DeepSeek 全系列模型（包括 V3、R1 等）在 242 種任務上的單次輸出結果，供社群進行横向比較。此資源可幫助開發者快速了解不同 DeepSeek 模型在程式碼、數學、寫作等任務的相對表現，但需注意此為非標準化 benchmark，主觀性較強。",
+    "highlights": [
+      "收集 DeepSeek 全系列 242 種場景輸出",
+      "涵蓋程式碼、數學、寫作等多類任務",
+      "可用於快速了解模型能力邊界",
+      "非正規 benchmark，存在主觀偏差風險"
+    ],
+    "why_it_matters": "為開發者提供直觀的 DeepSeek 模型家族横向參考，有助於選擇適合特定任務的模型版本，降低試錯成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據對比結果，針對自選任務挑選模型並結合 API 成本計算，找出性價比最優的 DeepSeek 版本組合。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-03-256gb-vram-512gb-ram-ai",
+    "title": "「移動資料中心」256GB VRAM/512GB RAM AI 伺服器六至八月使用評測",
+    "title_original": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Operational Review, Stability Write Up, Benchmarks",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1veg9uq/data_center_in_a_box_on_wheels_256gb_vram512gb/",
+    "published_at": "2026-08-03T15:14:40+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶發布配備 256GB VRAM 與 512GB RAM 的可移動 AI 伺服器（戲稱「輪子上的資料中心」）為期六至八個月的長期使用評測，包含穩定性測試與各項 benchmark 結果。此類高密度記憶體伺服器適合需要本地運行大模型或進行模型微調的專業使用者。",
+    "highlights": [
+      "配備 256GB VRAM + 512GB RAM 的移動伺服器",
+      "六至八月長期使用穩定性報告",
+      "含多項實際任務的 benchmark 數據",
+      "適合大模型本地推論或微調使用場景"
+    ],
+    "why_it_matters": "對於需要處理超大模型（超過 70B 參數）且不希望依賴雲端的開發者或研究團隊，此類硬體提供了可行的本地化方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此硬體配置與雲端成本進行 TCO 計算，評估是否值得投資自建高效能本地推論/微調伺服器。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-03-llama-cpp-qwen3-next-token-mtp",
+    "title": "llama.cpp 新增 Qwen3-Next 多token預測（MTP）支援",
+    "title_original": "model: MTP support for Qwen3-Next by yomaytk · Pull Request #25589 · ggml-org/llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1veca9y/model_mtp_support_for_qwen3next_by_yomaytk_pull/",
+    "published_at": "2026-08-03T12:39:22+00:00",
+    "category": "open-source-ai",
+    "summary": "llama.cpp 專案收到 Pull Request #25589，為 Qwen3-Next 模型新增 Multi-Token Prediction（MTP）支援。MTP 為自回歸預測以外的輔助訓練目標，可提升推論時的推測解碼速度。此 PR 若合併，將使 Qwen3-Next 在 llama.cpp 環境下具備更完整的量化與加速能力。",
+    "highlights": [
+      "PR #25589 為 Qwen3-Next 新增 MTP 實作",
+      "MTP 可加速推論並改善模型輸出品質",
+      "llama.cpp 為本地端 LLM 部署的核心基礎設施",
+      "Qwen3-Next 為阿里巴巴開源的新一代 Qwen 系列模型"
+    ],
+    "why_it_matters": "llama.cpp 對新架構技術的快速跟進，決定了開源模型在本地端能否高效運行。MTP 支援將使 Qwen3-Next 在無高階 GPU 環境下更具實用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤此 PR 合併進度，合併後可測試 Qwen3-Next MTP 版本在本地機器的吞吐量與延遲改善幅度。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-03-toolfunnel-mcp-agent-token",
     "title": "toolfunnel：零依賴MCP閘道器，直擊Agent Token成本痛點",
     "title_original": "Rendeverance/toolfunnel",
