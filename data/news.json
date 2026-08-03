@@ -27,6 +27,118 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-08-03-sqliteai-waste-c-nvme",
+    "title": "sqliteai/waste：C 語言無依賴推論引擎，讓超大模型在有限記憶體下跑 NVMe 串流",
+    "title_original": "GitHub - sqliteai/waste: Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdy1nd/github_sqliteaiwaste_run_the_full/",
+    "published_at": "2026-08-03T00:16:56+00:00",
+    "category": "open-source-ai",
+    "summary": "Waste 是一款嵌入式 C 推論引擎，可透過 NVMe 直串流激活權重的方式，在有限 RAM 環境下執行完整的 2.78 兆參數 Kimi K3 模型。強調零外部依賴、可嵌入其他專案，適合資源受限但需要跑超大模型的場景。",
+    "highlights": [
+      "支援 2.78 兆參數超大模型，突破 RAM 限制",
+      "NVMe 串流技術減少記憶體佔用",
+      "零外部依賴，適合嵌入式整合",
+      "C 語言實作，極度輕量化",
+      "針對 Kimi K3 模型優化，但可評估遷移到其他 MoE 架構"
+    ],
+    "why_it_matters": "超大模型本地化推論一直是硬體瓶頸，Waste 的 NVMe 串流方案若成熟，可讓一般開發者在消費級硬體上運行超大規模模型，大幅降低 AI 部署門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "在配備高速 NVMe 的設備上編譯測試 Waste，實際測量 Kimi K3 的首 token 延遲與吞吐量，評估是否適用於延遲不敏感的批次推論任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-03-minimax-h3",
+    "title": "MiniMax H3 開源權重今日釋出，社群熱議實測",
+    "title_original": "Anyone Used MiniMAx H3 yet? Open Weights are out today!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdxeb2/anyone_used_minimax_h3_yet_open_weights_are_out/",
+    "published_at": "2026-08-02T23:48:12+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群帖子詢問是否有人已試用 MiniMax H3，並宣布開源權重於今日發布。討論熱度較高，但缺乏詳細技術規格或 Benchmark 數據，實際表現待社群回饋與獨立測試驗證。",
+    "highlights": [
+      "H3 開源權重已對外釋出，可直接下載使用",
+      "社群討論熱度上升，但實測回饋尚待累積",
+      "目前缺少官方性能規格與標準 Benchmark 數據",
+      "開源特性讓技術用戶可自行部署與微調",
+      "適合關注本地部署成本與效能平衡的用戶追蹤"
+    ],
+    "why_it_matters": "開源權重代表技術社群可自由實驗與改進，H3 若表現良好可能成為本地部署的新選擇，降低對商業 API 的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載權重，在本地硬體上測試 H3 的文字生成品質與推論速度，評估是否值得取代現有的本地模型（如 LLaMA、Qwen 系列）。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-03-condense-json-1-0-json",
+    "title": "condense-json 1.0 發布：JSON 重複字串壓縮庫",
+    "title_original": "condense-json 1.0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything",
+    "published_at": "2026-08-02T22:19:59+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 condense-json 1.0，這是一款用於壓縮 JSON 中重複字串的 Python 庫。透過自訂替換語法 {\"$r\": [...]} 標記重複內容，可有效減少 LLM 日誌和結構化輸出的儲存空間，並支援逆向解壓。",
+    "highlights": [
+      "支援自訂 replacements 映射表，將重複字串替換為 {\"$r\"} 語法",
+      "提供 uncondense_json() 函式可完整還原原始 JSON",
+      "Simon Willison 已實際用於 SQLite LLM 日誌壓縮（PR #1586）",
+      "已穩定運行一年半，1.0 版本為非破壞性修復",
+      "純 Python 實現，無外部依賴"
+    ],
+    "why_it_matters": "處理大量 LLM API 輸出時，JSON 中常見重複字串（如系統提示、欄位名）。此庫可直接降低 API 成本與儲存開銷，且還原無損。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合至 LLM 代理流程中，自動壓縮 Agent 產出的 JSON 日誌或 API 回應，例如搭配 LangChain callback 自動記錄並節省 30-50% 儲存空間。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-03-edgerazor-llm",
+    "title": "EdgeRazor：混合精度量化感知蒸餾框架，輕量化 LLM 新方案",
+    "title_original": "[Paper] EdgeRazor: A Lightweight Framework for Large Language Models via Mixed-Precision Quantization-Aware Distillation",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vdrsbg/paper_edgerazor_a_lightweight_framework_for_large/",
+    "published_at": "2026-08-02T19:55:03+00:00",
+    "category": "open-source-ai",
+    "summary": "EdgeRazor 是一篇學術論文提出的框架，結合混合精度量化與感知蒸餾技術，目標在保持模型效能的前提下大幅縮小 LLM 體積。適用於邊緣裝置部署場景，技術路徑有一定新意，但尚未看到廣泛社群採用。",
+    "highlights": [
+      "結合混合精度量化與蒸餾的雙重壓縮策略",
+      "目標保持模型效能同時減少參數量與計算量",
+      "適合邊緣運算與行動裝置部署場景",
+      "目前為學術論文階段，工程化程度待驗證",
+      "有興趣的用戶可閱讀原始論文評估技術可行性"
+    ],
+    "why_it_matters": "LLM 輕量化是邊緣 AI 的核心挑戰，EdgeRazor 的量化蒸餾結合路徑值得關注，若開源實作出現，可評估是否能替代現有的量化工具（如 GPTQ、AWQ）。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀論文並在小型模型（如 7B 規模）上重現實驗流程，測量壓縮後的精度損失比例，判斷該框架是否值得在正式專案中引入。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-02-codex-vision-proxy-codex",
     "title": "codex-vision-proxy：讓純文字模型直接呼叫 Codex 視覺工具",
     "title_original": "Anionex/codex-vision-proxy",
