@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-08-04-x402-deploy-api-mcp-server",
+    "title": "x402-deploy：將任意 API 或 MCP Server 變身付費服務",
+    "title_original": "nirholas/x402-deploy",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/nirholas/x402-deploy",
+    "published_at": "2026-08-04T01:26:10Z",
+    "category": "agent-skills",
+    "summary": "GitHub 新興開源工具 x402-deploy 可快速將 API 或 MCP Server 包裝為支援 x402 支付協定的付費端點。開發者可在自己的 AI 工作流程中無縫接入付費工具，目前 stars 23、TypeScript 實現，適合有貨幣化需求的技術團隊參考。",
+    "highlights": [
+      "💰 支援 x402 支付協定",
+      "🔌 可將任意 API/MCP Server 變付費",
+      "📦 TypeScript 實現，易於整合",
+      "⭐ 目前 stars 23，為早期項目",
+      "🚀 今天即可安裝測試"
+    ],
+    "why_it_matters": "AI Agent 經濟網絡正在成形，能快速將工具變現的架構將成為剛需。x402-deploy 提供了一條從開源工具到付費服務的捷徑，值得技術用戶關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載並部署 x402-deploy，將自己開發的 API 包裝為可收費工具，測試在 AI 工作流程中的貨幣化閉環，評估是否符合商業化需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/22895867?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-substack-mcp-ai-agent",
+    "title": "Substack MCP 伺服器：讓 AI Agent 接管你的付費專欄創作流程",
+    "title_original": "conorbronsdon/substack-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/conorbronsdon/substack-mcp",
+    "published_at": "2026-08-04T00:51:26Z",
+    "category": "agent-skills",
+    "summary": "開源 TypeScript 實作的 Substack MCP 伺服器，可讀取出版品資料、管理草稿、發布 Notes 短文。設計以草稿為主，Notes 為輔，旨在為 Agent 提供信任基礎設施。",
+    "highlights": [
+      "支援讀取訂閱者數據與文章元資料",
+      "草稿管理與編輯功能完整",
+      "Notes 短文可直接發布",
+      "TypeScript 開發，可快速整合進現有專案",
+      "17 GitHub stars，新興專案有改進空間"
+    ],
+    "why_it_matters": "若你每天需在 Substack 發布付費內容，可讓 Agent 自動生成草稿並審核發布，大幅節省時間與人力成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即用 `npx @modelcontextprotocol/server-substack` 安裝，設定 API 金鑰後讓 Agent 接管每週文章排程與讀者回覆。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/120674402?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-qwen3-8-max-benchmark",
+    "title": "Qwen3.8-Max 水族箱破解模擬 benchmark 表現引發討論",
+    "title_original": "Qwen3.8-Max: Oneshots, one of the few model that nailed aquarium break simulation alongside opus",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vevd3g/qwen38max_oneshots_one_of_the_few_model_that/",
+    "published_at": "2026-08-04T00:46:22+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 有用戶聲稱 Qwen3.8-Max 在水族箱破解模擬測試中表現出色，與 Claude Opus 並列少數通過此測試的模型之一。此說法未獲官方驗證，社群正持續討論其真實性與再現性。",
+    "highlights": [
+      "Qwen3.8-Max 聲稱在水族箱破解模擬通過，號稱與 Opus 並列少數模型",
+      "目前無官方 benchmark 數據或 HuggingFace 驗證",
+      "屬於 Reddit 社群主觀測試，未經第三方獨立驗證",
+      "用戶呼籲建立統一的本地模型 benchmark 共享機制",
+      "此討論反映開源社群對模型能力差異化驗證的強烈需求"
+    ],
+    "why_it_matters": "開源模型能力聲稱往往缺乏可驗證數據，技術人員需要可靠基準來選擇適合特定任務的模型，而非依賴行銷宣傳。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可建立自動化測試腳本，針對 Qwen3.8-Max 進行相同的水族箱破解測試，驗證該聲稱是否屬實，作為模型選型依據。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-steve-yegge-claude-opus-4-7",
+    "title": "Steve Yegge 揭露 Claude Opus 4.7 代理行為退化問題",
+    "title_original": "Quoting Steve Yegge",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
+    "published_at": "2026-08-04T00:42:45+00:00",
+    "category": "agent-skills",
+    "summary": "Steve Yegge 披露其用 Opus 建構的代理系統 Gas Town 在升級至 4.7 版本後出現退化。4.7 引入的「再做兩件事」行為模式導致代理無法收斂，永遠傾向自我修改而非完成任務，最終導致系統崩潰。",
+    "highlights": [
+      "Gas Town 代理系統在 Opus 4.6 以前運作良好",
+      "Opus 4.7 引入「再做兩件事」的干擾行為模式",
+      "代理出現目標漂移，傾向持續優化自身而非執行任務",
+      "此問題持續存在至今，影響長時程代理系統可靠性",
+      "揭示了長上下文模型可能出現的目標不一致風險"
+    ],
+    "why_it_matters": "長期代理系統對模型版本變化極為敏感，4.7 的行為變化導致整個系統失效。開發者需要建立版本鎖定機制與回歸測試，避免模型更新破壞生產環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應建立代理行為回歸測試套件，針對每次模型更新運行固定任務集，檢測目標收斂能力是否退化，並設定版本鎖定策略。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-31-openai-ai",
     "title": "OpenAI 破獲柬埔寨詐騙集團利用 AI 犯罪",
     "title_original": "Disrupting a Criminal Scam Operation",
@@ -25,6 +139,118 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-04-niklas-gruhn-ai",
+    "title": "Niklas Gruhn 呼籲勿當 AI 輸出的人肉代理",
+    "title_original": "Don't be a meat proxy",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
+    "published_at": "2026-08-03T23:45:04+00:00",
+    "category": "agent-skills",
+    "summary": "Niklas Gruhn 提出「人肉代理」(meat proxy) 新概念，描述那些不加批判地將 AI 輸出轉發給他人的人。他強調使用 AI 應有理解、驗證、再用自己的話重述的過程，這是添加價值的關鍵步驟。",
+    "highlights": [
+      "「人肉代理」形容不加批判轉發 AI 輸出者",
+      "正確流程：提示 AI → 理解 → 驗證 → 用自己的話重述",
+      "重述本身是已完成理解與驗證的證明",
+      "此概念有助區分真正的 AI 協作與被動轉發",
+      "對 AI 輔助工作的質量控制有指導意義"
+    ],
+    "why_it_matters": "在 AI 輔助工作中保持批判性思考與主動加工，是區分高效協作與被動代理的關鍵。對技術人員而言，理解何時該信任 AI 輸出何時該驗證，是必備技能。",
+    "automation_angle": null,
+    "automation_angle_zh": "在建立自動化流程時，技術人員應設計驗證節點，確保 AI 輸出經過邏輯檢驗而非直接傳遞，提升自動化流程的可靠性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-g9v3-39a5b-moe-agent",
+    "title": "G9v3-39A5B：標榜低幻覺的重度 MoE Agent 模型",
+    "title_original": "G9v3-39A5B: Agentic heavy MOE with low hallucination",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1veqj1j/g9v339a5b_agentic_heavy_moe_with_low_hallucination/",
+    "published_at": "2026-08-03T21:26:35+00:00",
+    "category": "new-models",
+    "summary": "Reddit 社群曝光的新模型，採用重度 MoE 混合專家架構並強調低幻覺率，定位為 Agent 用途。技術細節與實際表現有待驗證。",
+    "highlights": [
+      "重度 MoE 混合專家架構設計",
+      "強調低幻覺特性",
+      "定位 Agent 應用場景",
+      "缺乏官方文件與基準測試",
+      "Reddit 社群討論，資訊碎片化"
+    ],
+    "why_it_matters": "若低幻覺特性屬實，可顯著提升 Agent 執行任務的可靠性，值得持續關注其後續發展與社群回饋。",
+    "automation_angle": null,
+    "automation_angle_zh": "等待官方發布完整資訊後下載測試，用 HaluEval 等幻覺基準比較其與同規模模型的表現差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-ling-3-0-flash-qwen3-8-27b",
+    "title": "Ling-3.0-flash：Qwen3.8 27B 前的潛力本地模型",
+    "title_original": "Ling-3.0-flash is another potential model to test before qwen3.8 27b",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1veqd5c/ling30flash_is_another_potential_model_to_test/",
+    "published_at": "2026-08-03T21:20:19+00:00",
+    "category": "new-models",
+    "summary": "Reddit 社群討論的新模型，開發者建議在 Qwen3.8 27B 發布前先測試 Ling-3.0-flash，暗示其在本地部署場景具有競爭力的效能與性價比。",
+    "highlights": [
+      "輕量級本地模型定位",
+      "適合本地環境部署",
+      "被建議與 Qwen3.8 27B 進行比較",
+      "缺乏官方技術文件",
+      "社群回饋有限，真實表現未知"
+    ],
+    "why_it_matters": "若效能與資源效率優秀，可能成為本地部署的新選擇，但在官方發布前需審慎評估其實際能力與穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤社群後續討論，下載模型後在本地用 lm-evaluation-harness 比較與 Qwen 系列的準確度與延遲表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-benchmark",
+    "title": "社群呼籲建立開源模型 benchmark 共享平台",
+    "title_original": "'I ran my own benchmarks on it' seems to be pretty common comment around here. How about dedicating a thread for this and sharing?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1veodfd/i_ran_my_own_benchmarks_on_it_seems_to_be_pretty/",
+    "published_at": "2026-08-03T20:06:09+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社區成員提議建立統一論壇，讓用戶分享各自運行模型的自定義 benchmark 結果。目前社群充斥「我自己測試過」的說法但缺乏系統性驗證，亟需共享機制提升數據可信度。",
+    "highlights": [
+      "用戶普遍聲稱自己做過 benchmark 但數據散落各處",
+      "缺乏統一格式與驗證機制的 benchmark 難以比較",
+      "建議建立集中式 benchmark 分享平台",
+      "可參考 AI2 流感測試或 BIG-bench 的標準化流程",
+      "有助技術人員客觀評估本地部署模型性能"
+    ],
+    "why_it_matters": "本地模型選擇缺乏統一路徑，社群自發 benchmark 若能標準化，可大幅降低技術人員的模型評估成本，加速開源模型生態成熟。",
+    "automation_angle": null,
+    "automation_angle_zh": "可開發自動化 benchmark 腳本，統一格式後貢獻至開源 benchmark 庫，形成持續更新的本地模型能力地圖，輔助其他人決策。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-03-vybe-intelligence-vault-ai-agent-rag",
@@ -305,6 +531,62 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-04-meta-harness-agent",
+    "title": "Meta 將推出 Harness Agent 框架並持續開源模型",
+    "title_original": "Meta to Launch Harness Agent Framework, Continues Open-Source Model Releases - KuCoin",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcl9pVjNqTkRkeFM4NV96ZEFTOHVMM3lsRVBQVjFXZm5Na0N0dThtdzh1REtkTjhuZTd3LS00SXpOd2xONHlNbEw3ZW82QTZYa3ZDZDg5Q3h1ODdSSENCTTVvRWJNTllzLXB5bEVMOVZmd3FTeHh0WmVxMjRvamFfT0phRklTY2RQSS1UeDMzQW5ZcFVuRnBBNWtVczZ2NzJLckw4WTF3ZElrUQ?oc=5",
+    "published_at": "2026-08-03T07:48:44+00:00",
+    "category": "open-source-ai",
+    "summary": "Meta 規劃發布 Harness Agent 框架以簡化 AI Agent 開發，同時維持 Llama 系列開源模型更新，為開發者提供更完整的 Agent 生態系工具鏈。",
+    "highlights": [
+      "Harness 框架可加速 Agent 開發與部署流程",
+      "Meta 持續執行開源策略",
+      "框架將降低 Agent 開發門檻",
+      "與 Llama 生態深度整合",
+      "KuCoin 新聞來源可信度中等"
+    ],
+    "why_it_matters": "框架發布後將大幅簡化 Agent 開發流程，為開源愛好者提供新的工具選擇，可能影響現有商業 Agent 框架的市場地位。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤 Meta 官方公告，評估框架發布後整合進現有工作流程的可行性，搶先測試 beta 版。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-gpt-live-ai",
+    "title": "GPT-Live 技術解密：六個月打造即時語音 AI 系統",
+    "title_original": "How we built a realtime system for responsive voice AI in six months",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+    "published_at": "2026-08-03T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 技術文章揭露 GPT-Live 的低延遲語音互動架構。核心為無-turn概念的去話音模型，搭配極低延遲系統設計，實現更自然的連續對話體驗。此文屬於工程技術深度解析，非新產品發布。",
+    "highlights": [
+      "🔧 核心技術：turnless 話音模型",
+      "⚡ 系統延遲為關鍵優化指標",
+      "💬 支援連續對話無需等待回應完成",
+      "📝 屬於工程經驗分享，非新功能發布",
+      "🏗️ 可供有語音 AI 需求的開發者參考架構"
+    ],
+    "why_it_matters": "即時語音 AI 是 Agent 時代的關鍵能力。GPT-Live 的架構思路可為自建語音助理或客服系統提供技術參考，降低自研門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "有語音 AI 開發需求的技術用戶可依此文拆解低延遲語音管線，評估是否可結合開源 TTS/ASR 方案自建類似系統，評估成本與延遲取捨。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-08-03-sqliteai-waste-c-nvme",
     "title": "sqliteai/waste：C 語言無依賴推論引擎，讓超大模型在有限記憶體下跑 NVMe 串流",
     "title_original": "GitHub - sqliteai/waste: Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.",
@@ -331,6 +613,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-circles-openai-api",
+    "title": "Circles 電信案例：OpenAI API 助力用戶個人化體驗",
+    "title_original": "Circles powers telco personalization with OpenAI technology",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/circles",
+    "published_at": "2026-08-03T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官網發布案例研究，Circles 電信公司運用 OpenAI API 與 Codex 打造 AI 原生體驗。成果包括 ARPU 提升 22%、用戶流失降低 9%、開發效率顯著改善。此為官方背書案例，反映企業級 AI 落地具體效益。",
+    "highlights": [
+      "📈 ARPU 提升 22%，商業效益可量化",
+      "📉 用戶流失降低 9%",
+      "⚡ 開發效率提升，縮短交付週期",
+      "🤖 使用 Codex 進行内部工具與流程自動化",
+      "🏢 企業級落地參考，而非實驗性項目"
+    ],
+    "why_it_matters": "電信業的高併發與嚴苛用戶體驗要求，使此案例具備較高參考價值。技術用戶可從中觀察 AI 如何在受監管產業創造實際營收影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可研究 Circles 的技術架構，評估是否可借鏡其 AI + 個人化推薦模式應用於自己的產品，例如用戶行為預測或客服分流自動化。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-08-03-minimax-h3",
@@ -1571,6 +1881,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-github-copilot-2026-8",
+    "title": "GitHub Copilot 2026 年 8 月模型停用公告",
+    "title_original": "Upcoming August 2026 model deprecations in GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
+    "published_at": "2026-07-31T21:26:48+00:00",
+    "category": "hot-topics",
+    "summary": "GitHub 官方宣布將於 2026 年 9 月 1 日停用多個 Copilot 模型版本，涵蓋 Chat、內聯編輯、Agent 模式及程式碼補全所有體驗，開發者需提前準備遷移。",
+    "highlights": [
+      "停用生效日期：2026 年 9 月 1 日",
+      "影響所有 Copilot 體驗包含 Agent 模式",
+      "需提前檢視現有專案依賴的模型版本",
+      "官方 GitHub Blog 公告高度可信",
+      "建議建立遷移檢查清單"
+    ],
+    "why_it_matters": "此次停用將影響所有 Copilot 使用者，提前掌握停用時程可避免未來工作流程程突然中斷，建議立即盤點團隊使用的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即執行 `gh copilot model list` 檢查團隊目前依賴的模型版本，提前制定遷移計畫與測試新模型相容性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-08-01-smevals-simon-willison",
