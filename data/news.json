@@ -1,5 +1,91 @@
 [
   {
+    "id": "2026-08-04-bw-modeling-mcp-sap-bw-4hana-mcp-agent",
+    "title": "bw-modeling-mcp：SAP BW/4HANA 專用 MCP 伺服器，賦予 Agent 商業智慧建模能力",
+    "title_original": "dnic-dev/bw-modeling-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/dnic-dev/bw-modeling-mcp",
+    "published_at": "2026-08-04T13:43:10Z",
+    "category": "agent-skills",
+    "summary": "bw-modeling-mcp 是一款專為 SAP BW/4HANA 設計的 MCP 伺服器，目標是讓 AI Agent 能輔助商業智慧建模與資料倉儲相關開發。TypeScript 實作，目前 GitHub 星標 53，屬於高度垂直化的工具。",
+    "highlights": [
+      "鎖定 SAP BW/4HANA 生態，解決特定企業需求",
+      "TypeScript 實作，與現代 MCP 生態相容",
+      "MCP 協定標準接入，Agent 可直接呼叫",
+      "GitHub 53 星，屬於小眾但精準的關注度",
+      "需具備 SAP BW 背景知識才能有效評估價值"
+    ],
+    "why_it_matters": "對於需要維護 SAP BW 系統的技術團隊，此工具可將 AI Agent 引入建模流程，潛在提升日常維運與開發效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "具備 SAP BW/4HANA 環境的技術人員可本地測試，評估其輔助建模的能力邊界與準確度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/269294637?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-agentrecall-x-agent-session",
+    "title": "AgentRecall-X：修正優先的持久化記憶方案，助 Agent 跨 session 累積上下文",
+    "title_original": "Goldentrii/AgentRecall-X",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Goldentrii/AgentRecall-X",
+    "published_at": "2026-08-04T13:33:51Z",
+    "category": "agent-skills",
+    "summary": "AgentRecall-X 是一款 MCP 伺服器加 SDK 加 CLI 的開源工具，以「修正優先」為核心理念，讓 AI Agent 的記憶在多次 session 中複合累積。JavaScript 實作，GitHub 星標 358，社群關注度高。",
+    "highlights": [
+      "「修正優先」設計：每次修正都會更新記憶，避免錯誤資訊殘留",
+      "MCP 伺服器 + SDK + CLI 三種接入方式，靈活度高",
+      "JavaScript/TypeScript 生態，易於與現有 Node.js 專案整合",
+      "跨 session 持久化記憶，減少重複解釋成本",
+      "GitHub 358 星，社群採用訊號強"
+    ],
+    "why_it_matters": "長期運行的 Agent 常因上下文限制而遺失重要資訊，AgentRecall-X 提供低門檻的記憶持久化方案，可直接提升 Agent 的可用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將其整合至現有 Agent 流程，測試修正優先機制對長任務執行的準確度提升效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/232191022?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-04-google-2026-7-ai",
+    "title": "Google 2026 年 7 月 AI 更新公告彙整",
+    "title_original": "The latest AI news we announced in July 2026",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+    "published_at": "2026-08-04T13:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google AI 官方部落格發布 2026 年 7 月 AI 更新總覽，涵蓋當月新功能與技術進展。內容偏向宏觀敘事，缺乏具體模型版本、API 變更或定價調整等技術人員關心的細節。",
+    "highlights": [
+      "Google 官方來源，可信度高但內容較宏觀",
+      "屬於月度更新彙整，非針對特定產品的深入技術文件",
+      "未見具體 API 版本變更或定價調整資訊",
+      "建議直接查閱各產品線官方頁面以獲取詳細變更",
+      "適用於快速掌握 Google AI 整體方向，不適合作為技術決策依據"
+    ],
+    "why_it_matters": "對於關注 Google AI 整體佈局的技術人員，可作為趨勢追蹤的輔助參考，但不宜作為技術實作或選型的直接依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 Google AI 部落格加入 RSS 閱讀器，以低頻率瀏覽方式追蹤趨勢，節省時間並聚焦更具體的技術文件。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-04-skyhook-io-radar-kubernetes-ui-mcp-server-ai-agent",
     "title": "skyhook-io/radar：開源 Kubernetes UI 內建 MCP Server 供 AI Agent 操控叢集",
     "title_original": "skyhook-io/radar",
