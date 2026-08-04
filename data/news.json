@@ -1,5 +1,341 @@
 [
   {
+    "id": "2026-08-04-minimax-h3-mlx",
+    "title": "MiniMax-H3 MLX 移植版：蘋果晶片跑全模態生成",
+    "title_original": "PipeNetwork/minimax-h3-mlx",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
+    "published_at": "2026-08-04T19:10:09+00:00",
+    "category": "open-source-ai",
+    "summary": "MiniMax 發布 Omni-Modal 生成系統 MiniMax-H3，支援文字、圖片、音訊、影片輸入並生成最長 15 秒含音軌影片。PipeNetwork 已將其移植至 MLX 框架，Simon Willison 在 M5 Max MacBook Pro 實測成功，但需下載約 115GB 模型檔案，生成耗時約 45 分鐘。",
+    "highlights": [
+      "支援文字/圖片/音訊/影片四模態輸入",
+      "可生成含音軌的 15 秒短片",
+      "已移植至 Apple Silicon MLX 框架",
+      "需下載 115GB 模型權重，資源消耗大",
+      "音訊品質依提示詞引導而定"
+    ],
+    "why_it_matters": "Omni-Modal 模型在蘋果筆電本地運行意味著隱私敏感的全模態生成任務可在邊緣設備完成，但 115GB 存儲和 45 分鐘生成時間顯示尚未達實用效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可透過 MLX 版測試本地化多模態生成流程，評估將影片生成整合至自動化工作流程的延遲是否可接受。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-04-github-copilot-app",
+    "title": "GitHub Copilot 帳單預覽 App 正式退役",
+    "title_original": "Retiring the Copilot Billing Preview app",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
+    "published_at": "2026-08-04T19:09:32+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 正式停用 Copilot Billing Preview 應用程式，用戶需直接在 GitHub 帳單設定頁面管理 Copilot 消費。此變更影響使用獨立 App 追蹤費用的開發者工作流程程。",
+    "highlights": [
+      "Copilot Billing Preview App 已下架",
+      "費用管理整合至 GitHub 帳單設定頁面",
+      "對一般用戶使用體驗影響有限",
+      "依賴獨立 App 的自動化腳本可能失效",
+      "官方 Changelog 為可信來源"
+    ],
+    "why_it_matters": "對於有 Copilot 用量追蹤自動化腳本的技術用戶，需要更新腳本以適應新的 GitHub API 端點，否則費用監控流程可能中斷。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者需更新或重寫 Copilot 費用追蹤腳本，改用 GitHub 官方 API 或直接查詢帳單頁面取得用量資料。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-04-hugging-face-ceo",
+    "title": "Hugging Face CEO：中國在開源模型領域取得領先",
+    "title_original": "Hugging Face CEO says China is winning the AI race and dominating on open models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfj3q7/hugging_face_ceo_says_china_is_winning_the_ai/",
+    "published_at": "2026-08-04T18:42:38+00:00",
+    "category": "hot-topics",
+    "summary": "Hugging Face CEO Clément Delargue 在訪談中表示中國在 AI 競賽中正在取勝，尤其在開源模型方面已建立明顯優勢，並點名多個中國團隊的開源貢獻。",
+    "highlights": [
+      "Hugging Face CEO 表態中國開源模型領先",
+      "訪談內容為主觀觀察，非量化數據",
+      "DeepSeek、Qwen 等中國團隊持續產出優質開源模型",
+      "可能影響開源 AI 生態話語權格局",
+      "Reddit 轉述為二手資訊"
+    ],
+    "why_it_matters": "若中國開源模型確實領先，技術用戶在選型時應更關注中文理解、程式碼能力強的中國模型，避免錯過更適合特定任務的選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可建立系統化基準測試，對比 DeepSeek、Qwen 等中國模型與西方模型在不同任務上的實際表現差異。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-deepseek-v4-flash-qwen3-6-27b-3-5-122b-gemma-4-31b",
+    "title": "DeepSeek V4 Flash 對決 Qwen3.6-27B、3.5-122B、Gemma 4 31B 基準測試",
+    "title_original": "DeepSeek v4 Flash vs. Qwen3.6-27B, 3.5-122B, and Gemma 4 31B Benchmark",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfhqkm/deepseek_v4_flash_vs_qwen3627b_35122b_and_gemma_4/",
+    "published_at": "2026-08-04T17:54:52+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶發布 DeepSeek V4 Flash 與 Qwen3.6-27B、Qwen3.5-122B、Gemma 4 31B 的效能對比，涵蓋多項標準基準測試的量化結果。",
+    "highlights": [
+      "多模型橫向比較，涵蓋不同規模層級",
+      "Reddit 為用戶貢獻，未經嚴格同行評審",
+      "可作為初步選型參考而非最終決策依據",
+      "DeepSeek Flash 版主打輕量快速",
+      "Qwen 系列為阿里巴巴開源模型代表"
+    ],
+    "why_it_matters": "開源模型基準數據有助技術選型，但需謹慎解讀，用戶測試環境差異可能導致結論偏移。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據自身硬體條件（GPU 記憶體、延遲需求）選擇合適模型，在特定任務上進行本地基準測試驗證。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-cursor-moe-megakernel-tflop-s",
+    "title": "Cursor 發布 MoE 訓練加速 Megakernel 宣稱 TFLOP/s 接近翻倍",
+    "title_original": "Cursor releases their Mixture-of-Kittens megakernel for training MoE models - Claims to nearly double TFLOP/s",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfgxh4/cursor_releases_their_mixtureofkittens_megakernel/",
+    "published_at": "2026-08-04T17:26:24+00:00",
+    "category": "hot-topics",
+    "summary": "Cursor 發布開源 Megakernel 訓練核心「Mixture-of-Kittens」，專為 MoE（混合專家）模型設計，宣稱可將 GPU TFLOP/s 利用率提升接近 100%，大幅加速 MoE 模型訓練並降低算力成本。",
+    "highlights": [
+      "專為 MoE 架構設計的自定義 CUDA Kernel",
+      "宣稱 TFLOP/s 效率接近翻倍",
+      "Open source 可在 Cursor 官方 Repo 取得",
+      "可能對 AI Lab 訓練成本有顯著影響",
+      "需實測驗證效能聲稱"
+    ],
+    "why_it_matters": "若 TFLOP/s 提升屬實，MoE 模型訓練時間和雲端算力成本將大幅下降，對有自訓練需求的技術團隊是直接的成本優化機會。",
+    "automation_angle": null,
+    "automation_angle_zh": "有 GPU 集群的技術團隊可整合此 Kernel 至 MoE 訓練管線，實測預訓練時間縮短比例與實際 TFLOP/s 提升。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-lyft-vodafone-latam-cx",
+    "title": "Lyft、Vodafone、LATAM 航空 CX 代理實戰案例解析",
+    "title_original": "Customer Experience (CX) Agents in Production: Lessons from Lyft, Vodafone, and LATAM Airlines",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/customer-experience-cx-agents-in-production-lessons-from-lyft-vodafone-and-latam-airlines",
+    "published_at": "2026-08-04T17:18:59+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 博客發布三大企業客服代理部署個案，涵蓋 Lyft 乘客服務、Vodafone 電信用戶支援及 LATAM 航空票務處理，揭示生產環境挑戰與應對策略。",
+    "highlights": [
+      "LangChain 官方博客，內容經過整理驗證",
+      "三家知名企業實際部署經驗，含具體痛點",
+      "強調代理穩定性與錯誤處理的實務設計",
+      "跨產業應用：出行、電信、航空",
+      "提供可借鑒的代理監控與迭代方法論"
+    ],
+    "why_it_matters": "真實企業案例比理論更能指導實戰，開發者可從中學習如何將代理從 POC 推向生產級部署。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考個案中的監控指標與錯誤處理邏輯，評估自身代理系統的生產就緒程度，強化可靠性設計。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-langsmith",
+    "title": "LangSmith 語音代理評估完整指南",
+    "title_original": "How to Evaluate Voice Agents with LangSmith",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-to-evaluate-voice-agents-execution-outcomes-and-experience",
+    "published_at": "2026-08-04T17:15:48+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 詳解如何利用 LangSmith 對語音代理進行多維度評估，涵蓋執行追蹤、程式碼評估器、LLM 裁判與人工審核的完整流程。",
+    "highlights": [
+      "官方文檔提供標準化評估方法",
+      "支援追蹤（Traces）實現代理行為可視化",
+      "LLM 裁判可自動評估對話品質",
+      "程式碼評估器適合結構化任務驗證",
+      "強調執行結果與用戶體驗的雙重評估框架"
+    ],
+    "why_it_matters": "語音代理的評估一直缺乏標準方法，此指南提供可操作的量化指標，有助提升代理系統的可維護性。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即在 LangSmith 中為現有語音代理建立評估管道，設定自動回歸測試防止功能退化。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-deepseek-v4-flash-0731-agent-arena-21",
+    "title": "DeepSeek V4 Flash 0731 躋身 Agent Arena 第 21 名",
+    "title_original": "Deepseek V4 flash 0731 ranks #21 on Agent Arena",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vff300/deepseek_v4_flash_0731_ranks_21_on_agent_arena/",
+    "published_at": "2026-08-04T16:21:42+00:00",
+    "category": "new-models",
+    "summary": "DeepSeek V4 Flash 版本（版本号 0731）在 Agent Arena 測試中排名上升至第 21 位，顯示其在代理任務上的能力持續精進。",
+    "highlights": [
+      "DeepSeek 為開源模型家族，成為有力競爭者",
+      "Agent Arena 專注代理能力評測，較贴近實際應用",
+      "排名顯示 Flash 版本已具備基礎代理能力",
+      "可對標評估其他同規模模型表現",
+      "需注意 Reddit 來源為用戶分享，數據未經獨立驗證"
+    ],
+    "why_it_matters": "DeepSeek 系列持續追趕主流代理模型，開源陣營在代理任務上的表現正快速縮小與閉源模型的差距。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在本地使用 DeepSeek V4 Flash 進行代理任務測試，評估其是否能滿足特定自動化場景需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-google-api-ai",
+    "title": "Google 發布統一 API 簡化 AI 模型路由",
+    "title_original": "A unified API for AI model routing - blog.google",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45ajF2SnZGcndhTkIyOTJoS3Flc2xjM1c0ZWxwalhaN3ZEcWFzY0k0TElHS2hjYlJuUFNJQzgtdEFWTjZxSG9OcXg5NlRlcFQ5UHJiMzJVUTRKSE9CRzFzWXVkcjNrMlNEWTFHa21aQmFWX2docmpBdQ?oc=5",
+    "published_at": "2026-08-04T16:06:02+00:00",
+    "category": "new-models",
+    "summary": "Google 部落格介紹其統一 API 方案，目標簡化跨多 AI 供應商與模型的路由邏輯，幫助開發者更靈活地調度模型資源並優化成本與效能平衡。",
+    "highlights": [
+      "提供統一介面接入多個 AI 模型供應商",
+      "支援模型路由策略配置與自動選擇機制",
+      "瞄準企業級開發者簡化多供應商整合成本",
+      "可減少因模型切換帶來的開發與維護負擔",
+      "具體定價與 SLA 需查閱完整文件"
+    ],
+    "why_it_matters": "多供應商 AI 應用已成常態，統一路由 API 可大幅簡化技術團隊的整合與維運工作，讓工程師專注業務邏輯而非 API 適配層開發。",
+    "automation_angle": null,
+    "automation_angle_zh": "若專案涉及多模型調度，可評估此統一 API 是否能取代自建路由層，節省維護成本的同時獲得更好的負載均衡與容錯機制。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-deepseek-v4-flash-2-bit-sql-100",
+    "title": "Deepseek V4 Flash 2-bit 量化版首個本地模型 SQL 基準達 100%",
+    "title_original": "Deepseek V4 Flash 2-bit quant is the first model I can run locally that achieves 100% in this SQL benchmark",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfctwf/deepseek_v4_flash_2bit_quant_is_the_first_model_i/",
+    "published_at": "2026-08-04T15:00:48+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶實測 Deepseek V4 Flash 2-bit 量化版，在 SQL 基準測試中達到 100% 正確率，成為首個在本地運行且達到此成績的模型，意味著極度壓縮的模型仍可保持高任務準確度。",
+    "highlights": [
+      "2-bit 量化後仍達 100% SQL 基準",
+      "首個本地運行達到此成績的模型",
+      "量化技術大幅降低記憶體需求",
+      "SQL 任務為典型自動化工作負載",
+      "需確認量化精度損失在其他任務的影響"
+    ],
+    "why_it_matters": "2-bit 量化成功暗示未來可在普通消費級硬碟上部署接近頂級能力的模型，大幅擴展本地 AI 自動化應用場景的硬體相容性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可測試此量化模型在實際 SQL 自動化腳本、資料庫遷移工具中的表現，驗證量化後的任務品質是否足夠用於生產環境。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-deepseek-v4-flash-0731-rtx5090-800-tps",
+    "title": "Deepseek-V4-Flash-0731 單卡 RTX5090 達成百萬上下文 800 tps",
+    "title_original": "[Deepseek-V4-Flash-0731] Full 1M context on a single RTX5090 + DDR5 Desktop Setup with VLLM CPU/Ram Offloading, ~800 tps pp & 15+ tps decode [Agentic Coding]",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfbcgx/deepseekv4flash0731_full_1m_context_on_a_single/",
+    "published_at": "2026-08-04T14:06:09+00:00",
+    "category": "new-models",
+    "summary": "Deepseek 發布 V4-Flash-0731 版本，透過 vLLM CPU/RAM Offloading 技術，在單張 RTX5090 桌上型主機上實現完整 100 萬 token 上下文窗口，推測吞吐量達每秒 800 token（prefill），解碼速度超過 15 tps，支援 Agentic Coding 應用場景。",
+    "highlights": [
+      "單 RTX5090 + DDR5 桌面環境即可運行完整 1M 上下文",
+      "vLLM CPU/RAM Offloading 突破 GPU VRAM 限制",
+      "Prefill 吞吐量達 ~800 tps，解碼 ~15+ tps",
+      "原生支援 Agentic Coding 多步驟任務",
+      "需確認 officially released version 是否已開源"
+    ],
+    "why_it_matters": "1M 上下文過去需多卡伺服器才能運行，現在單消費級顯示卡即可達成，大幅降低長上下文 AI 應用的硬體門檻，技術宅可評估其本地化部署可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可部署此模型至本地工作站，測試自動化文件分析、程式碼庫全域理解、多輪 Agent 任務的實際延遲與品質。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-liquid-ai-lfm2-5-2-6b",
+    "title": "Liquid AI 發布 LFM2.5-2.6B：適合本地部署的小型高效模型",
+    "title_original": "Deploy local agents everywhere with LFM2.5-2.6B",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+    "published_at": "2026-08-04T13:58:29+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格介紹 Liquid AI 的 LFM2.5-2.6B 模型，主打輕量化本地 Agent 部署，強調高效能與低資源消耗，為本地端側 AI 應用提供新選擇。",
+    "highlights": [
+      "2.6B 參數規模，適合消費級 GPU 與邊緣設備",
+      "Liquid AI 主打液態架構優化推論效率",
+      "Hugging Face 官方博客背書，有模型卡與評測數據",
+      "可用於本地文書處理、程式碼補全等輕量任務",
+      "開源許可證需查閱模型卡確認商業使用條款"
+    ],
+    "why_it_matters": "2.6B 參數模型讓個人開發者能在無 GPU 雲端成本下運行本地 Agent，大幅降低 AI 自動化工具的進入門檻與長期運營成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地機器用 transformers 載入 LFM2.6B，替換現有雲端 API 呼叫的簡單補全任務，測試延遲與品質差異以評估成本節省潛力。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-04-bw-modeling-mcp-sap-bw-4hana-mcp-agent",
     "title": "bw-modeling-mcp：SAP BW/4HANA 專用 MCP 伺服器，賦予 Agent 商業智慧建模能力",
     "title_original": "dnic-dev/bw-modeling-mcp",
@@ -341,6 +677,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-04-chatgpt-work-codex",
+    "title": "ChatGPT Work 與 Codex 新增教育場景插件",
+    "title_original": "New ways to learn and teach with ChatGPT Work and Codex",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+    "published_at": "2026-08-04T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 部落格介紹 ChatGPT Work 與 Codex 的教育插件，針對 K-12、中小學教師與大學生，提供學習、教學、研究與建構工具。此更新以教育場景為主，非通用功能。",
+    "highlights": [
+      "主要面向教育機構與師生，非企業技術用戶核心需求",
+      "涵蓋 K-12、中小學到大學的教學輔助場景",
+      "強調研究輔助與專案建構能力",
+      "屬現有產品的場景延伸，非底層模型能力提升",
+      "技術用戶若非教育領域可直接略過此更新"
+    ],
+    "why_it_matters": "對非教育領域的技術用戶，此更新直接價值有限。但若涉及教育產品開發或機構自動化專案，可評估其 API 可擴展性以間接利用。",
+    "automation_angle": null,
+    "automation_angle_zh": "若從事教育科技產品開發，可研究其插件 API 設計作為參考；一般技術用戶可將此列為資訊追蹤項，暫無需行動。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-04-niklas-gruhn-ai",
@@ -723,6 +1087,34 @@
     "why_it_matters": "對於需要處理超大模型（超過 70B 參數）且不希望依賴雲端的開發者或研究團隊，此類硬體提供了可行的本地化方案。",
     "automation_angle": null,
     "automation_angle_zh": "可將此硬體配置與雲端成本進行 TCO 計算，評估是否值得投資自建高效能本地推論/微調伺服器。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-google-kaggle-35-3-ai",
+    "title": "Google 與 Kaggle 聯手舉辦 35.3 萬人 AI 代理集训營",
+    "title_original": "Inside our 353,000-person vibe coding course",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+    "published_at": "2026-08-03T15:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google 與 Kaggle 合作推出免費 AI 代理密集課程，匯集超過 35 萬名學習者共同構建與部署前沿 AI 應用，涵蓋代理開發全流程。",
+    "highlights": [
+      "Google 官方 Blog 發布，來源可信度高",
+      "規模達 35.3 萬人參與，史上最大型 AI 代理課程之一",
+      "課程強調實作部署，非純理論",
+      "覆蓋 AI 代理開發最佳實踐與工具鏈",
+      "可作為企業內部 AI 代理培訓的參考框架"
+    ],
+    "why_it_matters": "大規模官方課程反映 Google 對 AI 代理生態的戰略布局，開發者可從課程結構窺探業界認可的代理開發範式。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業 HR 或技術主管可借鑒此課程大綱，設計內部 AI 代理能力培訓計畫，加速團隊技能提升。",
     "tags": [
       "hot-topics",
       "rss",
