@@ -1,5 +1,121 @@
 [
   {
+    "id": "2026-08-04-skyhook-io-radar-kubernetes-ui-mcp-server-ai-agent",
+    "title": "skyhook-io/radar：開源 Kubernetes UI 內建 MCP Server 供 AI Agent 操控叢集",
+    "title_original": "skyhook-io/radar",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/skyhook-io/radar",
+    "published_at": "2026-08-04T08:21:36Z",
+    "category": "agent-skills",
+    "summary": "Radar 是一款用 Go 寫的單一二進位檔 Kubernetes UI，內建 MCP Server，讓 AI Agent 能直接查詢叢集狀態、事件時間線、Helm 部署、GitOps 狀態與服務流量。已獲 2723 顆星，屬快速成長的開源專案。",
+    "highlights": [
+      "用 Go 撰寫，單一 binary 部署極簡",
+      "內建 MCP Server，AI Agent 可直接下指令操作 K8s",
+      "支援 Issues 檢視、拓撲圖、事件時間線分析",
+      "整合 Helm 與 GitOps，可審計叢集變更",
+      "提供線上服務流量監控與叢集審計功能"
+    ],
+    "why_it_matters": "Radar 將 Kubernetes 可視化與 Agent 可操控性結合，讓 AI 能實際執行基礎設施操作而非僅讀取狀態，大幅提升 DevOps 自動化深度。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將 Radar 部署至 K8s 叢集，讓 AI Agent 透過 MCP 協定自動診斷問題、回滾 Deployment 或觸發 GitOps 流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/235391474?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-04-ypipe-ai",
+    "title": "ypipe：全封閉、本機端一站式 AI 推論引擎",
+    "title_original": "iunera/ypipe",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/iunera/ypipe",
+    "published_at": "2026-08-04T08:15:31Z",
+    "category": "open-source-ai",
+    "summary": "ypipe 是一款專為離線環境設計的全封閉本地 AI 工具。開發者將高效能推論引擎、專用模型與預設 MCP 伺服器整合進單一 JAR 執行檔，號稱零依賴、零 Python，標榜 100% 資料主權。適合需要高度資料隔離、但不願自行整合多個開源元件的技術團隊。",
+    "highlights": [
+      "單一 Java 執行檔，無需安裝 Python 環境即可部署",
+      "內建 MCP 伺服器，支援自主代理工作流程快速啟動",
+      "強調離線/封閉網路可用，適合金融、醫療等高敏感性場景",
+      "以 PowerShell 為主要操作介面，Windows 親和性較高",
+      "目前僅 12 顆星，社群支援度待觀察"
+    ],
+    "why_it_matters": "若需在隔離網路運行 LLM 工作流程，ypipe 將多個開源元件整合為一，大幅降低部署與維運成本。對重視資料主權的技術用戶而言，是值得測試的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "在隔離測試機上以 java -jar ypipe.jar 快速啟動本機推論服務，驗證 MCP 工作流程是否能直接取代雲端 API 呼叫。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "PowerShell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/9744636?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-medigenius-langgraph-agent-ai",
+    "title": "MediGenius：基於 LangGraph 的多 Agent 醫療 AI 助理",
+    "title_original": "Md-Emon-Hasan/MediGenius",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Md-Emon-Hasan/MediGenius",
+    "published_at": "2026-08-04T07:57:23Z",
+    "category": "agent-skills",
+    "summary": "MediGenius 是一款以 LangGraph 驅動的多 Agent 醫療助理，結合 LLM 推論、醫療 PDF RAG 與智慧 Fallback 工具鏈，支援 SQLite 長期記憶、動態工具路由與狀態推論，目標是提供具同理心、似醫師風格的就醫諮詢回應。",
+    "highlights": [
+      "以 LangGraph 建構多 Agent 協作流程",
+      "從醫療 PDF 建立 RAG 知識庫提升準確性",
+      "SQLite 長期記憶管理就診上下文",
+      "動態工具路由依任務類型切換推論策略",
+      "強調同理心與擬醫師風格回應"
+    ],
+    "why_it_matters": "MediGenius 展示了一種將 RAG、多 Agent 協作與長期記憶整合进醫療領域的範式，技術人員可借鑒其架構改造其他專業領域的 AI 助理。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可 fork 此 Repo，改用自有專業文件集測試 RAG 與 Agent 協作效果，評估其在非醫療場景（如法務、金融）的遷移可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Jupyter Notebook"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/99609299?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-visionpower-mcp-server-codex-claude-desktop-cursor",
+    "title": "VisionPower：便攜式圖像理解 MCP Server，支援 Codex、Claude Desktop 與 Cursor",
+    "title_original": "RunhuaHuang/VisionPower",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/RunhuaHuang/VisionPower",
+    "published_at": "2026-08-04T07:25:53Z",
+    "category": "agent-skills",
+    "summary": "VisionPower 是一款 JavaScript 撰寫的圖像理解 MCP Server，可為 Codex、Claude Desktop、Cursor 等主流 AI 工具提供視覺理解能力，讓 Agent 能直接解析截圖、圖表與文件圖片，屬輕量級整合方案。",
+    "highlights": [
+      "用 JavaScript 撰寫，跨平台易於部署",
+      "標準化 MCP 介面，與主流 AI 工具相容",
+      "讓 Agent 能直接解析截圖、圖表與圖片內容",
+      "目前僅 17 顆星，屬早期項目但方向明確",
+      "可用於提升自動化工作流程中的視覺資訊處理"
+    ],
+    "why_it_matters": "若 VisionPower 能穩定提供圖像理解能力，將成為技術人員快速為現有 Agent 工具增加視覺能力的捷徑，尤其適合文件自動化與 UI 測試場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在本地安裝 VisionPower MCP Server，並在 Cursor 或 Claude Desktop 中配置，測試圖表解析、螢幕截圖理解等視覺自動化場景。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/180506398?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-04-x402-deploy-api-mcp-server",
     "title": "x402-deploy：將任意 API 或 MCP Server 變身付費服務",
     "title_original": "nirholas/x402-deploy",
@@ -169,6 +285,62 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-04-copilot",
+    "title": "Copilot 雲端代理支援推論深度自訂",
+    "title_original": "Customize the reasoning level for Copilot cloud agent",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
+    "published_at": "2026-08-03T23:27:35+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 雲端代理現允許使用者對支援該功能的模型設定推論層級。調整推論深度可影響任務處理時間與輸出品質：較低推論層級適合簡單查詢，較高層級則針對複雜問題提供更嚴謹的分析。開發者可視任務需求動態切換。",
+    "highlights": [
+      "僅適用於支援推論層級控制的模型（如部分 o 系列模型）",
+      "可透過 Copilot 設定或 API 指定 reasoning_level 參數",
+      "較高推論深度可能增加延遲與 token 消耗",
+      "對複雜除錯、重構任務可提升準確性",
+      "官方尚未公布具體層級數量與對應行為文件"
+    ],
+    "why_it_matters": "不同任務需要不同推論深度。工程師現在可針對簡單修改使用輕量模式以節省配額，對複雜問題則開啟完整推論能力。這是成本與效能的首次可控平衡點。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Copilot 設定中分別建立「快速修錯」（低推論）與「複雜重構」（高推論）兩種代理角色，觀察配額消耗與輸出品質差異。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-04-openai-apple",
+    "title": "OpenAI 回應 Apple 訴訟：澄清事實並公開對話記錄",
+    "title_original": "Apple is getting this wrong",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/apple-is-getting-this-wrong",
+    "published_at": "2026-08-03T22:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 針對 Apple 提起之訴訟發表正式聲明，反駁 Apple 所稱「無根據指控」，並公布內部員工通訊記錄以茲佐證。此案涉及 Apple Intelligence 與 OpenAI 之間的合作細節及潛在智財爭議。雙方現已進入法律攻防階段。",
+    "highlights": [
+      "OpenAI 主動公開內部訊息，試圖建立透明度以反駁訴訟主張",
+      "案件核心可能涉及 Apple Intelligence 功能中的 ChatGPT 整合條款",
+      "目前為澄清階段，正式裁決尚需時日",
+      "對一般開發者無直接影響，但可能影響 Apple 平台 AI 整合策略",
+      "屬於商業法律爭議，不影響 OpenAI API 既有服務"
+    ],
+    "why_it_matters": "此案結果可能影響未來大型科技公司在 AI 整合上的談判籌碼與條款。若 Apple 勝訴，可能改變平台方對 AI 供應商的談判姿態，間接影響開發者的整合選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "暫無直接自動化應用。技術用戶可關注案件後續，若涉及 API 條款變更，需重新評估 Apple 平台上的 AI 功能整合策略。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-04-g9v3-39a5b-moe-agent",
     "title": "G9v3-39A5B：標榜低幻覺的重度 MoE Agent 模型",
     "title_original": "G9v3-39A5B: Agentic heavy MOE with low hallucination",
@@ -251,6 +423,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-github-copilot-comment-trigger",
+    "title": "GitHub Copilot 新增 comment trigger 自動化功能",
+    "title_original": "Trigger Copilot automations with comments",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
+    "published_at": "2026-08-03T19:14:58+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 雲端代理現在可透過 Issue 或 Pull Request 留言觸發自動化流程。典型應用場景包括：PR 提交時自動生成文件、程式碼審查時自動回應常見問題等。開發者可在 Copilot 設定頁面建立以 comment 為觸發條件的代理工作流程。",
+    "highlights": [
+      "觸發條件為 Issue comment 或 PR comment，而非傳統 webhooks",
+      "官方範例：PR 建立時自動生成技術文件草稿",
+      "工作流程定義在 Copilot 設定頁面統一管理",
+      "屬於 Copilot 雲端代理功能，需使用 GitHub Copilot 訂閱方案",
+      "支援與現有 CI/CD 流程結合，形成人機協作閉環"
+    ],
+    "why_it_matters": "將 AI 代理嵌入日常 code review 流程，工程師無需離開 GitHub 介面即可獲得自動化文件生成或審查輔助。對追求高效率的技術團隊是直接可用的工作流程優化工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 PR 範本中預留特定 comment 關鍵字（如 /gen-doc），測試 Copilot 是否能自動產生變更說明或 API 文件草稿。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-08-03-vybe-intelligence-vault-ai-agent-rag",
@@ -78995,6 +79195,34 @@
     "automation_angle_zh": "技術人員可根據測試結果中的功耗/效能比率，計算不同顯示卡在特定 LLM 推論工作負載下的單位成本，並據此設計自動化性價比評估腳本。",
     "tags": [
       "hot-topics",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-04-google-gemini-pro",
+    "title": "非官方教學：利用虛擬卡訂閱 Google Gemini Pro",
+    "title_original": "怎么免費使用 Google Gemini？教你如何使用 WildCard 虚拟卡完成 Gemini Pro 訂閱 - paragraph.com",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RaHVJZm05dEFCQ0tpcy1fNGQ2dFhmWkQ2QzZLY1NYeVM5VnZmTnJzam1uX2o1RXVsenowOFg2ZURCQ0Z6aVRkeW5SU1k0ZDdSdjUzR3YtWEwxUXM3cF9aWEktU0dEWHdPNmhpNWRubkk?oc=5",
+    "published_at": "2025-01-15T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "一篇中文教程介紹如何使用 WildCard 虛擬卡完成 Google Gemini Pro 訂閱，聲稱可繞過部分地區支付限制。然而此方法涉及第三方支付工具與潛在服務條款風險，並非 Google 官方支援的訂閱方式。",
+    "highlights": [
+      "使用 WildCard 虛擬卡作為支付媒介，非直接信用卡支付",
+      "教學來源為第三方部落格，非 Google 官方文件",
+      "可能涉及 Google 服務條款潛在違規風險",
+      "虛擬卡訂閱存在隨時被中斷的可能性",
+      "資訊來源可靠度與穩定性存疑"
+    ],
+    "why_it_matters": "對有 Gemini Pro 使用需求但受限於支付方式的技術用戶，此方法提供替代路徑。但灰色地帶的支付方式可能導致帳號風險，建議謹慎評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "若確實需要 Gemini Pro 存取，可先以 Google 官方途徑（如 Google One 試用）評估需求，再考慮是否承擔虛擬卡方案的潛在風險。",
+    "tags": [
+      "ai-deals",
       "rss",
       "zh-CN"
     ],
