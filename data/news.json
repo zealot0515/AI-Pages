@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-08-05-langchain-kubernetes-sre-agent",
+    "title": "LangChain 實戰：打造 Kubernetes 自動駕駛 SRE Agent",
+    "title_original": "How we built an autonomous SRE agent for Kubernetes",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-we-build-an-autonomous-sre-agent-for-kubernetes-deployments",
+    "published_at": "2026-08-05T16:24:31+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格分享如何構建自主 SRE Agent，專門處理 Kubernetes 部署任務。核心設計包含 Deep Agents 實現自動決策、人為審核閘門（Approval Gate）控制危險操作、LangSmith 追蹤執行軌跡，以及評估框架（Evals）驗證 Agent 行為正確性。",
+    "highlights": [
+      "• Deep Agents 支援自主決策，可自動執行常規部署操作",
+      "• 人為審核閘門確保重大變更（如刪除資源）需人工確認",
+      "• LangSmith 提供完整的 Agent 執行追蹤與除錯能力",
+      "• Evals 框架可自動化驗證 Agent 输出一致性與正確性",
+      "• 實戰案例涵蓋 Helm 部署、ConfigMap 更新、滾動更新等常見場景"
+    ],
+    "why_it_matters": "對於維運大量 Kubernetes 叢集的技術團隊，此案例展示了如何將 AI Agent 落地到實際生產環境，兼顾自動化效率與安全管控，適合作為内部 DevOps AI 化的參考架構。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可借鏡文中的審核閘門設計，將類似機制應用於自家 CI/CD 流程，實現「AI 建議 + 人類核准」的混合模式，降低誤操作風險同時減少人工負擔。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-05-timothy-go-ai",
     "title": "Timothy：Go 語言自托管個人 AI 助理，含成本追蹤功能",
     "title_original": "timothy-agent/timothy",
@@ -79459,6 +79487,34 @@
       "agent-skills",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-05-google-ai-pro",
+    "title": "Google 要求 AI Pro 學生方案用戶完成驗證，逾期未驗證恐失資格",
+    "title_original": "要翻车的节奏：谷歌要求领取AI Pro学生套餐使用者进行验证 不验证或被取消资格 - 蓝点网",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5fUlJQWDVrS3dmU1RrZTh5dXpfdENfU0pxdTlTTmlKV296eGRtSkw4YVJMRzE5dzU1MkpVUkFIYjM4Umh3b3ltZE02bkZiNmhibk1NcUx1eDU?oc=5",
+    "published_at": "2025-08-13T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "藍點網報導指出 Google 開始要求領取 AI Pro 學生方案的用戶進行資格驗證，若未在期限內完成驗證可能面臨方案資格被取消的風險。此政策變動可能影響已取得學生優惠的開發者，應留意後續官方通知與驗證截止日期。",
+    "highlights": [
+      "• Google 正加強學生方案的身份驗證審核",
+      "• 未完成驗證的用戶可能失去 AI Pro 優惠資格",
+      "• 學生方案通常提供較低的訂閱價格或額度",
+      "• 此政策可能為全球性實施，具體截止日期待確認",
+      "• 建議受影響用戶盡快登入帳戶檢查驗證狀態"
+    ],
+    "why_it_matters": "對於使用 Google AI Pro 學生方案進行開發或實驗的技術人員，若驗證失敗將直接影響日常使用的 API 額度與訂閱費用，需儘早處理以避免工作中斷或成本增加。",
+    "automation_angle": null,
+    "automation_angle_zh": "受影響的技術人員應立即登入 Google 帳戶完成驗證，同時評估若失去學生方案，是否有必要遷移到付費方案或切換至其他免費額度更充足的 AI 平台。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
