@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-08-05-timothy-go-ai",
+    "title": "Timothy：Go 語言自托管個人 AI 助理，含成本追蹤功能",
+    "title_original": "timothy-agent/timothy",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/timothy-agent/timothy",
+    "published_at": "2026-08-05T13:39:29Z",
+    "category": "agent-skills",
+    "summary": "Timothy 是新興的開源自托管 AI 助理專案，使用 Go 語言開發，提供對話、任務、成本追蹤與子 Agent 功能。GitHub 目前 22 星，仍屬早期階段。",
+    "highlights": [
+      "使用 Go 語言開發，相對輕量",
+      "內建 API 成本追蹤功能",
+      "支援任務與子 Agent 機制",
+      "可完全自托管，資料不外流",
+      "目前星數低，功能成熟度待驗證"
+    ],
+    "why_it_matters": "成本追蹤功能對技術用戶實用，但專案初期需評估穩定性。可列入觀察清單定期追蹤進度。",
+    "automation_angle": null,
+    "automation_angle_zh": "可部署測試其成本追蹤是否準確，用於監控團隊 AI API 消耗並優化預算分配。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/311925732?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-05-moe-cpu-offload-tensorsharp-llama-cpp",
+    "title": "MoE 模型 CPU-offload 效能實測：TensorSharp 對決 llama.cpp",
+    "title_original": "MoE CPU-offload benchmark on Deepseek V4/Gemma4/Qwen/GPT-OSS — TensorSharp vs llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg71ci/moe_cpuoffload_benchmark_on_deepseek/",
+    "published_at": "2026-08-05T13:13:53+00:00",
+    "category": "new-models",
+    "summary": "針對 Deepseek V4、Gemma4、Qwen、GPT-OSS 等混合專家模型，有開發者進行了 CPU-offload 場景下的效能基準測試，比較 TensorSharp 與 llama.cpp 兩種推論框架在記憶體管理與速度上的表現差異，為開源社群優化推論效率提供實測參考。",
+    "highlights": [
+      "測試對象涵蓋多個主流 MoE 模型架構",
+      "對比兩種主流推論框架的實際效能",
+      "專注於 CPU-offload 場景的資源消耗與延遲",
+      "提供量化的效能數據供開發者參考",
+      "可作為本地部署時框架選擇的依據"
+    ],
+    "why_it_matters": "混合專家模型的 CPU 推論效率直接影響本地部署成本與響應延遲，選擇合適的推論框架可顯著提升資源利用率並降低營運成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可根據測試結果選擇最適合其硬體配置的推論框架，並將效能測試整合至部署流水線中，實現自動化的框架調優。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-05-deepseek-v4-flash-0731",
+    "title": "用戶自測 DeepSeek V4 Flash 0731 本地基準出爐",
+    "title_original": "I updated my localy run benchmark with DeepSeek V4 Flash 0731",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg41ot/i_updated_my_localy_run_benchmark_with_deepseek/",
+    "published_at": "2026-08-05T10:55:29+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶發布自測 DeepSeek V4 Flash 0731 的本地基準結果。此為非官方、非標準化測試，數據僅供參考，無法與其他模型公正比較。",
+    "highlights": [
+      "非官方基準，測試環境未知",
+      "DeepSeek V4 Flash 0731 為新版本",
+      "用戶主觀測試，無嚴格控制變數",
+      "可作為初步效能參考但需謹慎解讀",
+      "建議等待權威基準如 LMSYS 或 Artificial Analysis"
+    ],
+    "why_it_matters": "可快速獲取新版本效能概況，但技術決策應基於標準化基準。自測結果偏差可能導致錯誤選型。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注該 Repo 持續更新的結果，作為非正式參考；但正式生產環境請等待 LMSYS Chatbot Arena 等權威排名。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-05-reddit",
+    "title": "Reddit 開發者提議打造純測試框架基準評估工具",
+    "title_original": "Anyone interested in building a harness-only benchmark?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vg40w8/anyone_interested_in_building_a_harnessonly/",
+    "published_at": "2026-08-05T10:54:23+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 論壇上有開發者提議建立一個僅含測試框架的基準評估工具，不綁定特定模型，旨在讓社群能更靈活地比較不同模型在統一測試條件下的表現。此提案冀望降低基準測試的進入門檻，促進開源模型評估的標準化與可重複性。",
+    "highlights": [
+      "純測試框架設計，不依賴特定模型實現",
+      "可重複使用的基準測試標準與流程",
+      "降低開發者評估模型的進入門檻",
+      "社群驅動的開源協作項目",
+      "有助於建立模型評估的最佳實踐"
+    ],
+    "why_it_matters": "基準測試框架的標準化能讓開發者更有效率地比較模型性能，避免重複造輪子，對選擇適合特定任務的模型有重要參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可整合此框架到 CI/CD 流程中，自動定期測試模型性能變化，作為模型更新時的質量關口。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-05-gpt-x2-5-135m-hugging-face-open-slm-facebook-mobilellm-r1-140m",
     "title": "GPT-X2.5-135M 在 Hugging Face Open SLM 排行榜取得第三名，超越 Facebook MobileLLM-R1-140M",
     "title_original": "GPT-X2.5-135M scores 3rd place on Open SLM Leaderboard on Huggingface, Beating Facebook's MobileLLM-R1-140M",
