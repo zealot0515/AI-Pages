@@ -1,5 +1,198 @@
 [
   {
+    "id": "2026-08-05-maple-preview-20b",
+    "title": "Maple-Preview：20B 規模三元權重推論開源模型",
+    "title_original": "Maple-Preview: 20B-A1B ternary-weight reasoning open-weight LLM",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfrr5t/maplepreview_20ba1b_ternaryweight_reasoning/",
+    "published_at": "2026-08-05T00:19:05+00:00",
+    "category": "open-source-ai",
+    "summary": "Maple-Preview 是一款採用三元權重（A1B）量化技術的 20B 推論模型，透過極致壓縮減少記憶體佔用，同時保持推論能力。此技術路線對想在本地部署大型模型的開發者具有參考價值。",
+    "highlights": [
+      "三元權重量化減少模型體積與記憶體需求",
+      "20B 參數規模屬中大型模型",
+      "開源权重可自行部署測試",
+      "推論能力為優化目標"
+    ],
+    "why_it_matters": "極致量化技術能讓一般消費級 GPU 運行更大模型，降低本地部署的硬體成本。對於重視資料隱私的應用場景極具吸引力。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 24GB VRAM 的顯示卡上測試此模型，評估其是否能替代雲端 API 處理內部文件分析或程式碼生成任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-05-zafer-liu-data-analysis-agent-agent-2400-stars",
+    "title": "Zafer-Liu/Data-Analysis-Agent：對話式資料分析 Agent，2400+ stars",
+    "title_original": "Zafer-Liu/Data-Analysis-Agent",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Zafer-Liu/Data-Analysis-Agent",
+    "published_at": "2026-08-05T00:06:54Z",
+    "category": "agent-skills",
+    "summary": "一個以 LLM 驅動的對話式資料分析助理，支援以自然語言提問並自動生成視覺化報表與商業洞察，號稱告別複雜 SQL 與 Excel 公式。已有 2406 stars，JavaScript 實作，技術用戶可直接 fork 並客製化。",
+    "highlights": [
+      "對話式介面，無需 SQL 或 Excel 技巧",
+      "自動生成視覺化圖表與商業洞察",
+      "已有 2400+ stars，社群關注度高",
+      "JavaScript 實作，可直接在 Node 環境跑起",
+      "可整合進 BI 流程或自動化報表系統"
+    ],
+    "why_it_matters": "對於需要快速從資料庫拉報告的非技術人員或希望自動化資料分析流程的工程師，此專案提供了一個可落地測試的開源起點，省去從零開發的成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可 fork 此專案，替換底層 LLM 為自己偏好的 API，串接公司資料庫，定時生成自動化分析報告並推送至 Slack 或 Email。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/273271302?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-05-llm-0-32-openai-responses-server-side-tools",
+    "title": "LLM 0.32 大改版：推論追蹤、OpenAI Responses 支援、Server-side Tools",
+    "title_original": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+    "published_at": "2026-08-04T23:58:24+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 LLM 0.32，為專案史上最大改版。新增推論過程追蹤顯示、Server-side Tools 支援、重構的 Content-addressable SQLite 日誌，並預設使用 GPT-5.6 Luna 模型。此版本使 LLM CLI 正式具備 Agent 特性。",
+    "highlights": [
+      "推論追蹤直接顯示在 stderr，可透過 -R 關閉",
+      "支援 OpenAI 與 Anthropic 的 Server-side Tools（含 CodeInterpreter、WebSearch）",
+      "Content-addressable SQLite 日誌格式，省去重複紀錄的儲存空間",
+      "新增 llm openai endpoint 一行指令對接任意 OpenAI 相容端點",
+      "Python API 全面支援 stream_events()，可區分 reasoning、text、tool_calls 等事件類型"
+    ],
+    "why_it_matters": "LLM 0.32 的 Server-side Tools 與推論追蹤大幅提升了 CLI 工具的實用性，使技術用戶能在終端內直接執行網頁搜尋、程式碼執行等操作，無需額外包裝，適合快速原型開發與自動化腳本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 llm openai endpoint 對接本地 LM Studio 或任何 OpenAI 相容 API，以一行指令執行快速任務；結合 stream_events() 可構建更細粒度的日誌追蹤與錯誤處理流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-05-ai",
+    "title": "白宮 AI 指南豁免美國開源模型免於政府審查",
+    "title_original": "White House AI Guidelines Exempt U.S. Open Models From Government Review",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfqqdb/white_house_ai_guidelines_exempt_us_open_models/",
+    "published_at": "2026-08-04T23:35:49+00:00",
+    "category": "hot-topics",
+    "summary": "美國白宮發布的最新 AI 指導方針，明確將開源模型排除在政府審查範圍之外。此政策可能加速美國本土開源模型的發展與全球採用，同時引發對開源模型安全性監管的討論。",
+    "highlights": [
+      "政策明確定義「開源模型」的豁免範圍",
+      "僅限美國本土開發的模型受惠",
+      "可能促進開源模型生態加速成長",
+      "批評者憂心監管缺口擴大"
+    ],
+    "why_it_matters": "政策走向直接影響模型開發者與使用者的合規成本。開源模型獲得豁免可能降低企業採用門檻，但也需關注後續潛在法規變化。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者若計劃使用開源模型構建商業產品，可留意此政策是否涵蓋自家模型屬地，評估合規風險與市場准入優勢。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-05-llm-anthropic-0-26-claude-5-server-side-tools",
+    "title": "llm-anthropic 0.26 更新：支援 Claude 5 全家桶與 Server-side Tools",
+    "title_original": "llm-anthropic 0.26",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
+    "published_at": "2026-08-04T22:00:58+00:00",
+    "category": "agent-skills",
+    "summary": "llm-anthropic 0.26 配合 LLM 0.32，新增多個 Claude 5 系列模型支援（fable-5、sonnet-5、opus-5），並引入 WebSearch、WebFetch、CodeExecution 與 AnthropicMCP 等 Server-side Tools，廢除舊的 -o web_search* 參數，改用統一的 -T 介面。",
+    "highlights": [
+      "支援 Claude 5 全系列：fable-5、sonnet-5、opus-5",
+      "新增 WebSearch、WebFetch、CodeExecution、AnthropicMCP",
+      "廢除舊的 -o web_search* 參數，改用 -T 統一介面",
+      "推論內容預設顯示於 stderr，可透過 -R 隱藏",
+      "需要 llm>=0.32，舊插件需升級才能使用新串流事件系統"
+    ],
+    "why_it_matters": "Claude 5 模型的推論能力搭配 Server-side Tools，使 LLM 生態更接近真正的 Agent 框架。技術用戶可在同一 CLI 內混用不同模型與工具，大幅提升本地實驗與原型驗證效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "可利用 -T AnthropicMCP 參數，讓 Claude 直接呼叫本地 Datasette MCP 端點執行查詢，實現「自然語言→資料庫查詢→回傳」的全自動流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-05-2-6b-128k-30-tok-s",
+    "title": "2.6B 模型具備工具呼叫與 128K 上下文能力　手機端達 30 tok/s",
+    "title_original": "A 2.6B model with tool calling and 128K context now runs at 30 tok/s on a phone",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfn9vc/a_26b_model_with_tool_calling_and_128k_context/",
+    "published_at": "2026-08-04T21:15:16+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群分享一款 26 億參數模型，可在手機上以每秒 30 個 token 的速度運行，同時支援工具呼叫與 128K 上下文窗口。此進展顯示小型化模型在邊緣裝置上的效能瓶頸正在被突破。",
+    "highlights": [
+      "26 億參數規模適配手機硬體",
+      "工具呼叫能力可串接外部 API 與工具鏈",
+      "128K 超長上下文無需量化即可流暢運行",
+      "30 tok/s 的推論速度適合即時互動應用"
+    ],
+    "why_it_matters": "邊緣 AI 部署一直是行動應用的痛點，此模型展示在有限算力下仍可保持完整功能，為開發者提供新的本機 AI 解決方案思路。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可下載此模型至手機，測試其工具呼叫腳本，評估是否能替代雲端 API 執行輕量級自動化工作流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-05-kimi-k3-16x-gb10-20-tps",
+    "title": "Kimi K3 全模型在 16x GB10 叢集上達 20+tps",
+    "title_original": "Kimi K3 full model running on 16x GB10 cluster at 20+tps",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfl525/kimi_k3_full_model_running_on_16x_gb10_cluster_at/",
+    "published_at": "2026-08-04T19:56:16+00:00",
+    "category": "new-models",
+    "summary": "Kimi 團隊的 K3 全模型在 16 張 GB10 加速卡的叢集架構下，達到每秒 20 個 token 以上的吞吐量。此效能展示國產大模型在多卡並行推論優化上的實力。",
+    "highlights": [
+      "16x GB10 叢集推論實測數據",
+      "Kimi K3 為國產閉源模型",
+      "20+tps 吞吐量具備實用級別",
+      "多卡擴展效率為評測重點"
+    ],
+    "why_it_matters": "對於需要高吞吐量的企業級應用，多卡推論的性價比是關鍵指標。此數據可作為成本估算與供應商比較的參考基準。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可將此吞吐量數據與現有方案對比，評估若導入 Kimi K3 作為後端引擎，每小時可處理的請求量與相應成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-04-minimax-h3-mlx",
     "title": "MiniMax-H3 MLX 移植版：蘋果晶片跑全模態生成",
     "title_original": "PipeNetwork/minimax-h3-mlx",
@@ -54,6 +247,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-05-openai",
+    "title": "OpenAI 說明第三方網路安全評測事件並強化模型測試機制",
+    "title_original": "Third-party cyber evaluations involving OpenAI models",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+    "published_at": "2026-08-04T19:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格說明近期第三方網路安全評測事件，並宣布新增安全防護措施以強化 AI 模型測試流程。此舉反映大型語言模型在安全評估上面臨的複雜挑戰，以及業界對模型可控性的持續關注。",
+    "highlights": [
+      "OpenAI 說明第三方資安測試的具體爭議點",
+      "宣布新增多層次安全防護機制",
+      "強調模型評測需符合透明與可控原則",
+      "此為官方對外界質疑的回應聲明"
+    ],
+    "why_it_matters": "對於部署 AI 到生產環境的技術人員而言，了解模型安全評測的邊界與限制，能幫助評估模型是否符合企業安全合規需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可檢視此聲明中的防護措施，評估其是否能在自家 CI/CD 流程中加入類似的自動化安全測試關卡。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-04-hugging-face-ceo",
@@ -187,6 +407,34 @@
     "why_it_matters": "語音代理的評估一直缺乏標準方法，此指南提供可操作的量化指標，有助提升代理系統的可維護性。",
     "automation_angle": null,
     "automation_angle_zh": "立即在 LangSmith 中為現有語音代理建立評估管道，設定自動回歸測試防止功能退化。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-05-llm-0-32",
+    "title": "llm 0.32 版本發布",
+    "title_original": "llm 0.32",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/4/llm/#atom-everything",
+    "published_at": "2026-08-04T17:15:33+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 維護的 llm 命令列工具迎來 0.32 版本更新。該工具可透過 CLI 直接呼叫多種 LLM API，並支援插件擴展，是技術人員測試模型能力的實用工具。此版本修正若干問題並可能包含新功能整合。",
+    "highlights": [
+      "llm 為 Python 撰寫的命令列工具，支援多供應商模型",
+      "可透過對話形式快速測試不同模型輸出差異",
+      "支援插件系統擴展功能，如 condense-json 已整合",
+      "0.32 為次版本更新，建議查閱完整 changelog",
+      "Simon Willison 持續維護，文檔與範例充足"
+    ],
+    "why_it_matters": "對於需要快速比較模型表現、開發 prompt 或測試 AI 工作流程的技術人員，llm 提供低門檻的命令列介面，可在本地自動化腳本中呼叫模型，節省 GUI 操作時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 llm 整合至 Shell 腳本或 Python 流程中，自動化批量測試不同 prompt 或模型組合，並透過指令碼比對輸出品質與延遲。",
     "tags": [
       "agent-skills",
       "rss",
@@ -819,6 +1067,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-05-meta-muse-spark-ai-openai-google",
+    "title": "Meta 發布 Muse Spark AI 模型　力圖追趕 OpenAI 與 Google",
+    "title_original": "Meta unveils Muse Spark AI model to regain ground in race with OpenAI and Google - Ynetnews",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kbFFiY0VELTNyeUdiVnJBVE5Qb2tCamR3cXVqaUVJUGg1TEhQY1JDc1JhMHdCY1F3d0dOcm1IcERSeHBGaEV6Vk5Cb1U1YldHZ2tXVkhwUVZYNmc2ZklsS29tblU5UElacXhPaQ?oc=5",
+    "published_at": "2026-08-03T21:24:36+00:00",
+    "category": "new-models",
+    "summary": "Meta 推出代號 Muse Spark 的 AI 模型，旨在與 OpenAI 和 Google 競爭。據 Ynetnews 報導，該模型聚焦於創意生成與多模態能力，顯示 Meta 在 AI 競賽中持續加大投入。",
+    "highlights": [
+      "Meta 官方發布的新模型系列",
+      "強調創意生成與多模態場景",
+      "瞄準 OpenAI 與 Google 的市場份額",
+      "具體技術規格尚未完整揭露"
+    ],
+    "why_it_matters": "大廠競品持續推出新模型，技術選型時需關注各家的功能差異與定價策略。此資訊有助於評估是否切換或整合不同模型供應商。",
+    "automation_angle": null,
+    "automation_angle_zh": "待 Meta 公布 API 或開源版本後，開發者可註冊測試帳號，將 Muse Spark 接入現有 pipeline，評估其在特定任務上的表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-04-ling-3-0-flash-qwen3-8-27b",
     "title": "Ling-3.0-flash：Qwen3.8 27B 前的潛力本地模型",
     "title_original": "Ling-3.0-flash is another potential model to test before qwen3.8 27b",
@@ -1263,6 +1538,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-05-condense-json-1-1-json",
+    "title": "condense-json 1.1 強化 JSON 結構重組與合併能力",
+    "title_original": "condense-json 1.1",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/3/condense-json/#atom-everything",
+    "published_at": "2026-08-03T04:56:26+00:00",
+    "category": "open-source-ai",
+    "summary": "condense-json 1.1 版本新增非字串替換值支援與物件層級合併操作，並引入 Hypothesis 屬性測試提升穩定性。該函式庫可用於壓縮冗長 JSON 以降低 token 消耗，已與 llm 工具整合。",
+    "highlights": [
+      "取代值現在可為非字串類型，擴展應用場景",
+      "支援物件相似度偵測與合併指令儲存",
+      "新增基於 Hypothesis 的屬性測試，增強測試覆蓋率",
+      "已整合進 llm CLI 工具，可作為插件使用",
+      "round-trip 測試確保資料序列化安全性"
+    ],
+    "why_it_matters": "處理龐大 JSON 資料時，condense-json 可有效減少 token 用量與 API 呼叫成本。物件合併功能讓差異更新更精確，適合需要傳輸結構化資料的 AI 工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在 ETL 流程或 AI 前處理管線中使用 condense-json 壓縮 JSON，再用 uncondense_json() 還原結構化結果，自動化資料準備與回寫程序。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-03-sqliteai-waste-c-nvme",
