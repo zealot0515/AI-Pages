@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-08-05-gpt-x2-5-135m-hugging-face-open-slm-facebook-mobilellm-r1-140m",
+    "title": "GPT-X2.5-135M 在 Hugging Face Open SLM 排行榜取得第三名，超越 Facebook MobileLLM-R1-140M",
+    "title_original": "GPT-X2.5-135M scores 3rd place on Open SLM Leaderboard on Huggingface, Beating Facebook's MobileLLM-R1-140M",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vfuo9d/gptx25135m_scores_3rd_place_on_open_slm/",
+    "published_at": "2026-08-05T02:31:19+00:00",
+    "category": "open-source-ai",
+    "summary": "一款名為 GPT-X2.5-135M 的小型語言模型（1.35 億參數）在 Hugging Face Open SLM 排行榜上獲得第三名，表現優於 Facebook 的 MobileLLM-R1-140M 模型。此排名顯示極小型模型在特定基準測試上已具備競爭力，為邊緣裝置與本地部署提供新的選擇。資料來源為 Reddit r/LocalLLaMA 社群討論，未有官方正式發布確認。",
+    "highlights": [
+      "模型參數量僅 1.35 億，屬於極小型語言模型（SLM）",
+      "在 Open SLM Leaderboard 排行榜擊敗 Facebook MobileLLM-R1-140M",
+      "來源為 Reddit 社群討論，非官方正式發布",
+      "模型名稱「GPT-X2.5」命名風格不常見，需謹慎驗證",
+      "極小型模型適合手機、IoT 裝置等邊緣運算場景"
+    ],
+    "why_it_matters": "極小型模型效能提升代表本地端 AI 部署成本可進一步降低。若 GPT-X2.5-135M 確實達到此表現，開發者可考慮在資源受限環境中替代較大的模型，節省雲端 API 費用與延遲。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可至 Hugging Face Open SLM Leaderboard 查看具體 benchmark 分數，若模型正式開源則可在本地或邊緣裝置測試其推論速度與任務準確率，評估是否能取代現有雲端 API 方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-05-maple-preview-20b",
     "title": "Maple-Preview：20B 規模三元權重推論開源模型",
     "title_original": "Maple-Preview: 20B-A1B ternary-weight reasoning open-weight LLM",
@@ -3745,6 +3773,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-05-openai",
+    "title": "OpenAI 大幅調降最便宜模型定價",
+    "title_original": "OpenAI刚刚將其最便宜的AI模型價格大幅下调 - Notebookcheck CN",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1NeGlmRVh1bXRhR3QtTGdjaEw1MmhTWlNOLTBnOXcwdEFfOVJqU1NkN012MWNXc0hycExMeEo5VERwdkpoVkRMNVRGVDNNZXRseUlzT094d2t1OHg1eEpGNjFPQUxqaHF0?oc=5",
+    "published_at": "2026-07-30T22:54:00+00:00",
+    "category": "ai-deals",
+    "summary": "中國媒體 Notebookcheck CN 報導，OpenAI 近期大幅調降旗下最便宜 AI 模型的價格。消息未附具體降幅數據與受影響模型名稱，原始來源指向 OpenAI 官網但未提供連結，需進一步確認官方公告以確保準確性。",
+    "highlights": [
+      "來源為中國科技媒體轉述，缺少原始連結",
+      "未說明具體降價幅度與受影響模型",
+      "屬於價格变动新闻，可降低 AI 工具使用成本",
+      "建議查 OpenAI 官方 pricing 頁面驗證",
+      "可與 MiniMax Token Plan 進行跨供應商比價"
+    ],
+    "why_it_matters": "模型降價直接影響 AI 應用開發成本結構，若降幅顯著可能讓原本預算不足的專案重啟，值得技術決策者重新估算 ROI。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在官方 pricing 頁面確認降價型號與新單價，重新跑一次自己現有 pipeline 的 token 消耗估算，評估是否值得將部分任務從其他廠商遷回 OpenAI。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-31-llm-cli-0-32rc2-gpt-5-6-luna-4o-mini",
@@ -13537,6 +13593,34 @@
       "ai-deals",
       "rss",
       "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-05-ai-llm-app-rag-agent",
+    "title": "十款開源無代碼 AI 平台整理：建構 LLM App、RAG 與 Agent",
+    "title_original": "10 Open-Source No-Code AI Platforms for Building LLM Apps, RAG Systems, and AI Agents - MarkTechPost",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd0JVS2x5eGpiQWtFUE9wRlFSWGI1NnNNajlnNGkxYXVKTXlVaVZvZXd1VlZoRUVvYlBsOFRpdlhJZnFyRmhLb200aDhOZVFFOHFRMXlueV84LUlFUGdKdTJWMGRZbVZKaUwyU0JQYVl0YmZfZnhOMl95TG1pakdjWVlwT21qQ19oazA4WHBlMTlUSkRSaTh4M0R1MlZ3TlZGZTdCQjhlczE4enBWcHJlSjVtQkw1YjBMU1JGTW5NamlQZ9IBxwFBVV95cUxNQXRKR05QaUprLTl3TmY1WkRaWW5FaWFTYnZJWXpZbm84U09mVVlITzJUekZaazdlVFJmQjMzUTdtYjgxR0gtQW9McUp4bG1wT1NXMWdHdzBsVGVqQ29wT1F3UElpVzd3QlByaXhmVmg3UER6aDFxM2lnOHZabWZJX2ZYSm9zdmxPV2poRzR6cC1CSkNoNlgyNTJhR1MxLVhpNG91WV9fX1FvT3hYVjRuZGdmZk1rbkF1QmlpbGtJOTUzdmFtUHZn?oc=5",
+    "published_at": "2026-07-18T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "MarkTechPost 列舉十款開源無代碼平台，協助無程式背景使用者快速建構 LLM 應用、RAG 系統與 AI Agent。但此屬於通用列表文章，無具體技術深度或獨家工具，資訊含金量較低，適合初步瀏覽而非深入評估。",
+    "highlights": [
+      "文章屬於通用型 listicle，非針對特定工具的評測",
+      "入選平台多為已知開源項目（如 LangFlow、Dify 等）",
+      "缺乏基準測試或實際效能數據",
+      "有助快速掌握開源 no-code 生態輪廓",
+      "建議直接查閱各項目 GitHub 以獲取更新資訊"
+    ],
+    "why_it_matters": "無代碼平台降低 AI 應用落地門檻，但清單式文章通常不提供工具優缺點比較，工程師應直接測試而非依賴此文做技術決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此列表作為「工具探索起點」，每項花 5 分鐘檢查 GitHub stars、近期更新頻率與文件完整性，快速排除維護停滯的項目。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
