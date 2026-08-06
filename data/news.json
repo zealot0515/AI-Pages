@@ -1,5 +1,61 @@
 [
   {
+    "id": "2026-08-06-webui-alpine-js",
+    "title": "開發者自薦：重寫 WebUI 改用 Alpine.js，打造輕量本地模型對話介面",
+    "title_original": "i just spent weeks rewriting my webUI from scratch, getting rid of all AI slop within the codebase and switching it over to a proper lightweight framework (alpine.js). i am now comfortable suggesting it as an alternative to openwebUI, librechat and the like! it is made for local models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgx9m5/i_just_spent_weeks_rewriting_my_webui_from/",
+    "published_at": "2026-08-06T07:24:13+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶自述歷時數週重寫 WebUI，全面移除 AI 生成的低質程式碼，改用 Alpine.js 輕量框架重構。開發者將其定位為 OpenWebUI、LibreChat 等的自托管替代方案，專為本地模型設計，但尚缺社群廣泛驗證與生產環境回饋。",
+    "highlights": [
+      "技術棧：Alpine.js 替代重型前端框架，降低部署依賴",
+      "目標定位：本地模型的自托管對話 UI，輕量優先",
+      "作者主觀評價：已可在功能上替代 OpenWebUI，但第三方驗證不足",
+      "開源許可與 GitHub 連結待確認，建議親自測試後再評估",
+      "適用場景：個人本地部署，而非團隊協作環境"
+    ],
+    "why_it_matters": "輕量級本地 UI 能降低個人開發者在邊緣裝置或低資源伺服器上跑 AI 的進入門檻；但作為 Reddit 單一用戶經驗分享，穩定性與安全性需技術人員自行審視程式碼後再決定是否採用。",
+    "automation_angle": null,
+    "automation_angle_zh": "有興趣的技術用戶可直接拉取原始碼，在本地跑一個小型模型（如 Qwen2.5-Ollama）測試 UI 響應速度與對話品質，評估是否取代現有的 OpenWebUI 或 LM Studio 內建 UI。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-06-qwen3-8-2-4t-a95b-qwen3-8-max",
+    "title": "Qwen3.8-2.4T-A95B（Qwen3.8-Max）開源發布時間確認：下週三",
+    "title_original": "Qwen3.8-2.4T-A95B (aka Qwen3.8-Max) open release time: next wednesday",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgx8yu/qwen3824ta95b_aka_qwen38max_open_release_time/",
+    "published_at": "2026-08-06T07:23:10+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社區消息指出，Qwen3.8-2.4T-A95B（亦稱 Qwen3.8-Max）將於下週三正式開源釋出。此為社區轉述，尚未有阿里巴巴或通義千問官方公告，具體模型權重規模、授權方式與 Hugging Face 上架時間仍待確認。",
+    "highlights": [
+      "模型代號：Qwen3.8-2.4T-A95B（即 Qwen3.8-Max）",
+      "發布時間：Reddit 消息稱「下週三」，精確日期視原文發布時間而定",
+      "開源形式：預期登陸 Hugging Face，具體許可證尚未確認",
+      "來源可靠性：社區論壇二級資訊，建議追蹤通義千問官網或 Hugging Face 官方 Repo",
+      "能力預期：Qwen3.8 家族續作，預計延續高效能開源模型定位"
+    ],
+    "why_it_matters": "Qwen 系列是開源大模型生態的核心之一，若 Qwen3.8-Max 如期開源，將為本地部署與微調提供新的高效能選項；但在官方公告前，技術人員應保持關注而不急於下單或重構系統。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可提前規劃測試腳本，待模型正式上線 Hugging Face 後立即下載，用 lm-evaluation-harness 做基准測試，比較與現有 Qwen3.5 或 Llama3 的推論效率與任務準確度差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-06-openai",
     "title": "OpenAI 揭露第三方資安測試中的模型意外聯網事件",
     "title_original": "An AI model from Meta also hacked another company during testing",
@@ -65537,6 +65593,34 @@
       "open-source-ai",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-06-zed-zed-pro",
+    "title": "Zed 編輯器推出教育優惠：驗證教育信箱即獲一年 Zed Pro",
+    "title_original": "AI编程開發工具Zed推出教育優惠 只需教育邮箱验证即可获得1年的Zed Pro - 蓝点网",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uTlB4X2syTlRsZE9NTjNRNXNLVjNzTWI0NVZoU3I4RXE0YkhWMnBRZUR2N05HVlRUdW1NckJEU2R6Z2U5MEptdEdaSkkzTlN6T1dWY2FqdjQ?oc=5",
+    "published_at": "2026-05-23T14:57:36+00:00",
+    "category": "ai-deals",
+    "summary": "藍點網報導，AI 程式開發工具 Zed 針對教育用戶推出優惠方案，只需透過教育信箱驗證即可獲得一年 Zed Pro 訂閱，預計可省下正式版訂閱費用。優惠具體期限與啟用流程需至 Zed 官網確認，建議有興趣的學生或學術研究者優先查證最新政策。",
+    "highlights": [
+      "驗證方式：教育信箱（.edu 類）為主要認證途徑",
+      "優惠內容：一年 Zed Pro，具體功能差異需對照官方定價頁",
+      "資訊來源：藍點網轉述，建議交叉至 Zed 官網確認最新條款",
+      "可能附帶限制：僅限個人學術用途，商業用途可能不符資格",
+      "技術價值：Zed 為高效能 AI 程式碼編輯器，支援 Copilot 類整合"
+    ],
+    "why_it_matters": "Zed 以速度快著稱，對重度寫 Code 的技術人員是值得試用的編輯器。若教育優惠可穩定取得，可降低個人或學生族群的使用成本，是值得一試的 AI 編碼工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "學生或學術研究者可直接用學校信箱至 Zed 官網申請教育授權，將 Zed 整合進日常程式開發工作流程，比較其 AI 補全速度與 VS Code + Copilot 的實際效率差異後再決定長期採用。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
