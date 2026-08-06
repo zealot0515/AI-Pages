@@ -1,5 +1,282 @@
 [
   {
+    "id": "2026-08-06-automate",
+    "title": "autoMate：自然語言驅動的本地端電腦自動化助理",
+    "title_original": "yuruotong1/autoMate",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/yuruotong1/autoMate",
+    "published_at": "2026-08-06T23:47:55Z",
+    "category": "agent-skills",
+    "summary": "autoMate 是 GitHub 熱門項目（3.9k stars），定位為 AI 驅動的本地端自動化助理，使用自然語言即可操控電腦執行各項任務。與 Manus、Computer Use Agent（CUA）、Omniparser 等專案同屬電腦操控 Agent 類別，強調本地執行與隱私保護。",
+    "highlights": [
+      "自然語言介面降低自動化門檻，無需編寫腳本",
+      "本地端執行，敏感資料不外流，適合企業內網場景",
+      "屬電腦操控 Agent 類別，可自動化 GUI 操作流程",
+      "Python 實作，社群活躍度高（3.9k stars）",
+      "可對照 Manus、CUA、Omniparser 評估功能覆蓋度"
+    ],
+    "why_it_matters": "autoMate 代表自然語言驅動電腦操控的開源趨勢，若能穩定執行，可大幅降低重複性 GUI 操作的時間成本，是值得技術宅關注的實用工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可 clone 專案後，用常見重複性任務（如批次檔案處理、表單填寫）測試其操控精準度，評估是否能取代現有 RPA 方案或簡化自動化腳本開發。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/31992251?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-06-agent-vision-toolkit",
+    "title": "agent-vision-toolkit：為純文字模型打造的視覺能力工具箱",
+    "title_original": "Anionex/agent-vision-toolkit",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Anionex/agent-vision-toolkit",
+    "published_at": "2026-08-06T22:23:12Z",
+    "category": "open-source-ai",
+    "summary": "agent-vision-toolkit 旨在為純文字 LLM 補齊視覺能力，支援多圖理解、圖片問答、長截圖 OCR、前端 UI 還原與 GUI 自動化。專案提供與 Codex、Claude Code、Pi、Oh My Pi、OpenCode 等主流 Coding Agent 的無縫整合選項，屬於早期開源工具。",
+    "highlights": [
+      "為純文字模型新增視覺理解維度，擴展應用場景",
+      "長截圖 OCR 解決長頁面資訊萃取問題",
+      "支援前端 UI 還原與 GUI 自動化測試場景",
+      "提供與主流 Coding Agent 的整合適配器",
+      "可選配無縫接入現有 Agent 工作流程，降低遷移成本"
+    ],
+    "why_it_matters": "若你的工作流程重度依賴純文字模型處理視覺資訊，agent-vision-toolkit 提供了一個輕量級補充方案，特別適合需要 UI 自動化測試或文件視覺比對的開發者。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可在自己的純文字 Coding Agent（如 Claude Code）中選配此工具包，測試長截圖 OCR 與 UI 還原功能是否滿足文件萃取或測試自動化需求。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/123177548?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-06-sharepoint-embedded-mcp",
+    "title": "微軟發布 SharePoint Embedded 官方範例暨 MCP 伺服器",
+    "title_original": "microsoft/SharePoint-Embedded-Samples",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/microsoft/SharePoint-Embedded-Samples",
+    "published_at": "2026-08-06T21:42:21Z",
+    "category": "agent-skills",
+    "summary": "微軟官方發布 SharePoint Embedded 開發範例與工具集，涵蓋 React、TypeScript、ASP.NET Core 範本，以及專為 AI 編碼 Agent 設計的 MCP 伺服器，同時提供 Copilot、Power Platform 整合資產與 Postman/Bruno 集合。此為企業文件儲存 API 的官方開發起點。",
+    "highlights": [
+      "微軟官方出品，含 MCP 伺服器直接支援 AI Agent",
+      "提供 React、TypeScript、ASP.NET Core 多種技術棧範本",
+      "內建 Copilot 與 Power Platform 整合資產，縮短企業導入時程",
+      "Postman 與 Bruno 集合方便 API 測試與文件驗證",
+      "基於 Microsoft 365 文件儲存 API，適合企業內部文件管理場景"
+    ],
+    "why_it_matters": "SharePoint Embedded MCP 伺服器讓 AI Agent 能原生理解與操作企業文件，技術讀者若需在 Copilot 或自建 Agent 中整合企業文件流，此官方範例是可靠的起點。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可在本地環境啟動 MCP 伺服器範例，測試 AI Agent 對企業文件的讀寫、搜尋與分類能力，評估是否能替代現有的手動文件整理流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-06-local-operator-ui-ai-agent",
+    "title": "Local Operator UI 開源介面：本地端 AI Agent 工作環境",
+    "title_original": "damianvtran/local-operator-ui",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/damianvtran/local-operator-ui",
+    "published_at": "2026-08-06T19:36:35Z",
+    "category": "agent-skills",
+    "summary": "Local Operator 是一款本地端 AI Agent 平台，提供整合式個人助理團隊，能在背景自動處理日常瑣碎任務。此 GitHub 專案為其打造了 TypeScript UI 介面，方便開發者直接在本地部署與測試 AI Agent 工作流程程。專案現有 26 顆星，採用 TypeScript 開發。",
+    "highlights": [
+      "本地端執行，資料不外送，提升隱私與資料安全",
+      "TypeScript UI 介面，可直接整合或客製化",
+      "支援幕後自動化處理重複性任務",
+      "26 顆星，為早期專案，有擴展潛力"
+    ],
+    "why_it_matters": "若你重視資料隱私又想嘗試 Agent 自動化，這是目前少見的開源本地端方案。可直接在本地跑，不需依賴雲端 API，適合企業內部流程自動化或敏感資料處理場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "今天就能 clone 下來跑，測試用它自動化自己的文件整理、郵件分類、或簡單的資料爬蟲流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/173644497?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-06-datasette-1-0a38-sql",
+    "title": "Datasette 1.0a38 緊急修補 SQL 注入漏洞",
+    "title_original": "datasette 1.0a38",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything",
+    "published_at": "2026-08-06T18:24:34+00:00",
+    "category": "open-source-ai",
+    "summary": "Datasette 修補一個安全漏洞，當同一資料庫同時服務公開與私人資料表時，具有公開資料表存取權限的使用者可透過 SQL 注入攻擊讀取私人資料表內容。",
+    "highlights": [
+      "漏洞影響混合公私資料表存取的 Datasette 實例",
+      "攻擊者需具備起碼一個公開資料表的存取權",
+      "修補版本包含 1.0a38 與 0.65.3",
+      "此類設定情境較罕見"
+    ],
+    "why_it_matters": "這是影響資料庫隔離的安全漏洞，若你的 Datasette 部署採用公私混合模式，需立即更新。Datasette 常被用於 AI 應用的資料視覺化，漏洞可能間接影響 AI 專案資料安全。",
+    "automation_angle": null,
+    "automation_angle_zh": "檢查目前 Datasette 版本，若使用公私混合資料表存取，暫時撤銷 execute-sql 權限或升至修補版本 1.0a38。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-06-langchain-deep-agents-langchain-langgraph",
+    "title": "LangChain 官方解析：Deep Agents、LangChain 與 LangGraph 框架適用場景比較",
+    "title_original": "Deep Agents vs LangChain vs LangGraph",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/deep-agents-vs-langchain-vs-langgraph",
+    "published_at": "2026-08-06T18:15:51+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格說明自家開源框架的定位差異，Deep Agents 適用複雜多步驟任務，LangChain 提供元件化建構，LangGraph 則專注狀態機與循環流程設計。",
+    "highlights": [
+      "Deep Agents 適合需要長期記憶與規劃的複雜代理任務",
+      "LangChain 為元件庫，適合快速原型與實驗",
+      "LangGraph 基於狀態機，適合有明確狀態轉換的工作流程",
+      "官方建議依任務複雜度選擇合適框架"
+    ],
+    "why_it_matters": "理解各框架設計理念可避免選型錯誤，節省重構時間。對於需要建構可靠代理系統的開發者，選對框架直接影響開發效率與系統穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "若正在評估代理框架，可根據任務是否需要循環、狀態管理或多步驟規劃，從 LangGraph、Deep Agents、LangChain 中選擇最符合需求的方案進行 POC。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-06-simon-willison",
+    "title": "Simon Willison 分享技術部落格寫作心法",
+    "title_original": "Simon Willison on Technical Blogging",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything",
+    "published_at": "2026-08-06T18:04:39+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 接受訪談，強調技術部落格最重要的技巧是「降低標準」：在仍不滿意的狀態下發布，因為完美主義只會讓文章永遠待在草稿夾。",
+    "highlights": [
+      "技術部落格應在未完成感時發布",
+      "自己看到的缺陷讀者往往看不出來",
+      "累積大量草稿是常見陷阱",
+      "訪談提及多個他欣賞的技術部落格"
+    ],
+    "why_it_matters": "這是個人寫作建議，非 AI 工具或技術突破。對於需要建立技術影響力的開發者有參考價值，但與自動化工作或 AI 工具選型無直接關聯。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你在建構 AI 工具或自動化腳本，可參考此心法將技術實驗快速發布成文章，既建立個人品牌又避免文章爛尾。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-06-github-copilot-kimi-k3-ai",
+    "title": "GitHub Copilot 接入 Kimi K3：中國 AI 模型整合暫停",
+    "title_original": "Kimi K3 is now available in GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
+    "published_at": "2026-08-06T17:27:25+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 原本宣佈接入 Kimi K3 模型，讓開發者可在 Copilot 環境中使用 Kimi K3 輔助程式碼生成。但因 GitHub Actions 事故，官方已暫停此功能的推廣，等待問題修復後再恢復。",
+    "highlights": [
+      "Kimi K3 原本要進入 GitHub Copilot 生態",
+      "因 GitHub Actions 事故暫停推出",
+      "具體時間表待官方公告",
+      "代表中國 AI 模型進軍國際開發工具市場"
+    ],
+    "why_it_matters": "這顯示中國 AI 模型正在積極爭取國際開發者市場。若 Kimi K3 最終上線，對使用 Copilot 的開發者而言是多了一個模型選項，可能影響訂閱決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注後續公告，待功能恢復後可比較 Kimi K3 與現有 Copilot 模型在程式碼補全、註解生成上的表現，評估哪個更適合自己的工作流程程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-06-google-deepmind-weathernext-ai",
+    "title": "Google DeepMind WeatherNext：颶風預測 AI 模型突破",
+    "title_original": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+    "published_at": "2026-08-06T15:06:15+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 發表 WeatherNext 模型，在颶風路徑預測上取得顯著突破。該模型展現 AI 在極端天氣預報領域的能力提升，可提供更精準的颶風生成與路徑預測，為氣象預測應用開闢新可能。",
+    "highlights": [
+      "專精於颶風預測的 AI 模型",
+      "路徑預測精準度提升",
+      "DeepMind 官方發布，具公信力",
+      "可能開源或提供 API 存取"
+    ],
+    "why_it_matters": "若你從事氣象、保險、物流或應急管理相關工作，這類預測模型的進步直接影響你的風險評估與決策品質。及早關注可評估是否整合進現有系統。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤此模型是否開源或提供 API，可用於自動化天氣風險通知系統或結合物流路徑規劃。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-06-chatgpt-gpt-5-6-sol-luna",
+    "title": "ChatGPT 升級 GPT-5.6 Sol 模型：免費用戶也能用 Luna 無限聊天",
+    "title_original": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+    "published_at": "2026-08-06T10:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 宣佈 ChatGPT 強化 GPT-5.6 Sol 模型，提升準確率與回答一致性。同時擴大 GPT-5.6 Luna 的免費存取，未來免費用戶也能享有不限次數的日常對話功能。付費 Plus/Pro 用戶優先獲得新功能體驗。",
+    "highlights": [
+      "GPT-5.6 Sol 準確率與一致性提升",
+      "GPT-5.6 Luna 將開放免費用戶無限日常聊天",
+      "付費用戶優先體驗新功能",
+      "這是模型能力迭代，非全新模型發布"
+    ],
+    "why_it_matters": "免費用戶的使用體驗將大幅改善，若你有用 ChatGPT 處理工作的習慣，現在有更多誘因把部分工作流程遷移到 AI 輔助。付費用戶則可觀察新模型在複雜任務上的表現差異。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用新版 API 或 ChatGPT 介面測試複雜任務（如長文本分析、多輪推論），對比舊版輸出品質，評估是否值得將關鍵流程自動化。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-08-06-webui-alpine-js",
     "title": "開發者自薦：重寫 WebUI 改用 Alpine.js，打造輕量本地模型對話介面",
     "title_original": "i just spent weeks rewriting my webUI from scratch, getting rid of all AI slop within the codebase and switching it over to a proper lightweight framework (alpine.js). i am now comfortable suggesting it as an alternative to openwebUI, librechat and the like! it is made for local models",
