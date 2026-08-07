@@ -1,5 +1,143 @@
 [
   {
+    "id": "2026-08-07-labyrinthbench-llm",
+    "title": "LabyrinthBench：本地LLM基準測試，專注上下文干擾下的回溯能力",
+    "title_original": "LabyrinthBench: a local-focused, judge-free LLM benchmark that measures context recall under interference for multi-step agentic tasks.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhz2rc/labyrinthbench_a_localfocused_judgefree_llm/",
+    "published_at": "2026-08-07T12:19:35+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit社群討論的本地LLM基準測試工具，以干擾環境下多步驟Agent任務的上下文回溯為核心指標，聲稱無需裁判模型，降低評測偏差。",
+    "highlights": [
+      "本地優先基準測試，適用自架LLM評估",
+      "測試核心：上下文干擾下的資訊回溯能力",
+      "無需裁判模型，減少評測偏差",
+      "針對多步驟Agent任務設計"
+    ],
+    "why_it_matters": "本地LLM能力評估工具匱乏，此基準若獲社群採用，可成為技術人員選擇自架模型的客觀參照。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載LabyrinthBench，在本地部署的LLM上跑分，橫向比較不同模型在長上下文干擾場景的表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-07-causal-memory-mcp-ai-agent",
+    "title": "Causal-Memory MCP：AI Agent因果記憶層",
+    "title_original": "JingxuanC/causal-memory",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/JingxuanC/causal-memory",
+    "published_at": "2026-08-07T11:55:14Z",
+    "category": "agent-skills",
+    "summary": "Rust實作的MCP Server專案，專為AI Agent設計因果記憶層，記錄決策與結果的因果關係，並能在上下文壓縮後存活。現有29星，仍屬早期專案。",
+    "highlights": [
+      "Rust語言實作，性能導向",
+      "MCP協定相容，可直接對接主流Agent框架",
+      "因果鏈記錄：決策→結果關聯追蹤",
+      "上下文壓縮後記憶仍可保留",
+      "僅29星，生態成熟度有限"
+    ],
+    "why_it_matters": "Agent長期任務的上下文丟失是常見痛點，因果記憶層若穩定可大幅提升多步驟自動化任務的可靠性。",
+    "automation_angle": null,
+    "automation_angle_zh": "在測試環境架設causal-memory MCP Server，對比長任務執行前後的決策一致性，驗證因果記憶實際效益。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/56199250?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-07-deepseek-v4-flash-0731-mi325x-vllm",
+    "title": "DeepSeek-V4-Flash-0731 在 MI325X + vLLM 環境出現相容性問題",
+    "title_original": "Anyone running DeepSeek-V4-Flash-0731 on MI325X with vLLM? Mine is behaving completely broken",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhxtoy/anyone_running_deepseekv4flash0731_on_mi325x_with/",
+    "published_at": "2026-08-07T11:19:22+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 用戶回報在 MI325X GPU 上使用 vLLM 執行 DeepSeek-V4-Flash-0731 時出現完全異常的行為，模型表現與預期不符。此為硬體-軟體-模型三方相容性的實務問題，反映出非主流組合可能存在的未文件化問題。",
+    "highlights": [
+      "MI325X GPU 與 vLLM 最新版的組合尚未完全通過社群驗證",
+      "DeepSeek-V4-Flash-0731 在特定部署環境下行為異常",
+      "問題可能源於 CUDA 版本、vLLM 分支或模型量化方式的衝突",
+      "目前尚無官方解決方案或 Workaround"
+    ],
+    "why_it_matters": "對使用 DeepSeek 系列模型的技術人員而言，了解硬體部署壁壘可節省除錯時間。若計畫在非 NVIDIA 主流卡上跑開源模型，需預先確認軟體棧相容性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可在正式部署前建立測試矩陣，將 MI325X 與其他加速卡列入回歸測試清單，避免生產環境踩雷。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-07-gemma-4-qat-q4-0-q4-k",
+    "title": "Gemma 4 QAT 模型量化優化建議：可將 q4_0 改為 q4_k 提升品質",
+    "title_original": "Gemma 4 QAT could be improved further by Google aligning the QAT model to modern q4_k instead of q4_0",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhw4f5/gemma_4_qat_could_be_improved_further_by_google/",
+    "published_at": "2026-08-07T09:46:52+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 技術討論指出，Google Gemma 4 的量化感知訓練（QAT）模型還有改進空間，建議將預設的 q4_0 量化方式替換為 q4_k，可能顯著提升模型輸出品質。這是針對 Gemma 4 本地部署的技術優化建議。",
+    "highlights": [
+      "Gemma 4 QAT 模型目前預設採用 q4_0 量化，技術社群認為非最優選擇",
+      "建議改用 q4_k 量化格式，可改善模型输出一致性與減少幻覺",
+      "此優化適用於本地部署 Ollama、llama.cpp 或 LM Studio 使用者",
+      "修改量化方式無需重新訓練，僅需轉換模型權重格式",
+      "社群已驗證此方法對 Gemma 4 系列的適用性"
+    ],
+    "why_it_matters": "對於在本地運行 Gemma 4 的開發者，此量化優化可直接提升模型品質且無額外計算成本，是值得一試的快速調優方法。",
+    "automation_angle": null,
+    "automation_angle_zh": "可使用 llama.cpp 或相關工具將 Gemma 4 QAT 模型從 q4_0 重新量化為 q4_k，對比兩種版本在實際任務上的輸出品質差異。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-07-hsp-gruppe-chatgpt-enterprise",
+    "title": "HSP GRUPPE用ChatGPT Enterprise優化稅務顧問流程",
+    "title_original": "How HSP GRUPPE builds AI capabilities for tax advisory",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/hsp-gruppe",
+    "published_at": "2026-08-07T09:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI客戶案例，介紹德國稅務顧問公司HSP GRUPPE使用ChatGPT Enterprise提升工作效率與服務品質，釋出更多顧問產能。屬行銷導向內容，具體技術細節有限。",
+    "highlights": [
+      "企業級應用案例，屬OpenAI官方推廣內容",
+      "聚焦稅務顧問的文件分析與客戶服務場景",
+      "強調產能提升與工作品質改善",
+      "缺乏技術架構與成本數據"
+    ],
+    "why_it_matters": "企業AI落地案例有參考價值，但行銷稿缺乏技術細節，難以直接複製或評估ROI。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考其應用場景構思自家業務的對應環節，但需另行評估實際部署成本與資料合規要求。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-07-slnmap-net-mcp-server",
     "title": "slnmap：.NET 程式碼庫本地知識圖譜 MCP Server",
     "title_original": "EMahmoudNabil/slnmap",
@@ -142,6 +280,33 @@
       "Rust"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/261837359?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-07-echo-dot-2-28m-llm",
+    "title": "Echo Dot 2 成功執行 28M 參數 LLM，展現超輕量推論可能性",
+    "title_original": "Echo Dot 2 can run 28M LLM at decent speed",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhocl8/echo_dot_2_can_run_28m_llm_at_decent_speed/",
+    "published_at": "2026-08-07T02:36:36+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶實測在第二代 Echo Dot（基於 ARM 處理器）上執行 28M 參數的極小型 LLM，達到「可接受速度」。此案例證明即便在資源極度受限的物聯網設備上，仍有部署基礎語言任務的可能。",
+    "highlights": [
+      "28M 參數模型屬於極輕量級別，適合簡單分類或指令解析",
+      "Echo Dot 2 硬體規格遠低於傳統 AI 推論伺服器",
+      "推論速度達「decent」代表延遲在數秒等級而非即時",
+      "為 Edge AI 與離線語音助理提供新思路"
+    ],
+    "why_it_matters": "這代表未來一般消費級 IoT 設備可能承擔基礎 NLP 任務，無需雲端回傳。對需要離線隱私保護或降低網路依賴的場景具參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可評估將簡單的意圖分類、關鍵字偵測或輕量對話功能遷移至智慧音箱或樹莓派等低成本硬體，實現本地化自動化。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
