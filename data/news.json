@@ -1,5 +1,150 @@
 [
   {
+    "id": "2026-08-07-slnmap-net-mcp-server",
+    "title": "slnmap：.NET 程式碼庫本地知識圖譜 MCP Server",
+    "title_original": "EMahmoudNabil/slnmap",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/EMahmoudNabil/slnmap",
+    "published_at": "2026-08-07T06:59:48Z",
+    "category": "agent-skills",
+    "summary": "為 AI 程式碼助理設計的本地知識圖譜工具，可解析 .NET 專案結構並生成程式碼地圖，讓 AI Agent 理解整個程式碼庫的上下文關係。",
+    "highlights": [
+      "建立 .NET 程式碼的結構化知識圖譜",
+      "為 AI coding agent 提供程式碼上下文理解能力",
+      "作為 MCP server 整合進現有 AI 工具鏈",
+      "C# 實作，13 stars，針對 .NET 開發者",
+      "解決 AI Agent 面對大型程式碼庫時「只見樹木不見森林」的問題"
+    ],
+    "why_it_matters": "提升 AI 程式碼助理的理解深度，讓它不只能處理單一檔案，而是真正理解整個專案的架構與依賴關係，大幅改善程式碼生成與重構品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在本地建置知識圖譜，讓 Claude/GPT 等 AI 助理在重構、遷移、生成單元測試時，準確理解程式碼間的呼叫關係與架構約束。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/36068951?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-07-the-librarian-mcp-server-agentic",
+    "title": "the-librarian：MCP Server 形式的 Agentic 記憶系統",
+    "title_original": "code-ministry-ltd/the-librarian",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/code-ministry-ltd/the-librarian",
+    "published_at": "2026-08-07T06:50:47Z",
+    "category": "agent-skills",
+    "summary": "the-librarian 是一個以 TypeScript 實現的 MCP（Model Context Protocol）伺服器，提供 Agentic 記憶功能，可讓 AI Agent 在對話之間保持狀態與上下文連貫性。33 stars，基於 MCP 協議意味著可與支援 MCP 的 Agent 框架無縫對接。",
+    "highlights": [
+      "基於 MCP 協議：與主流 Agent 框架如 Claude Desktop、Cursor 等互通",
+      "TypeScript 實現：便於前端或全端開發者閱讀與改寫",
+      "專注記憶管理：解決長程 Agent 任務的上下文丟失問題",
+      "33 stars 表示有興趣社群，但生態仍在早期",
+      "可作為 MCP 生態中記憶模組的替代選擇"
+    ],
+    "why_it_matters": "上下文管理是長程 Agent 任務的瓶頸，the-librarian 將記憶抽離成獨立 MCP 服務，讓開發者可以自由替換或升級記憶策略而不改動核心 Agent 邏輯。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在支援 MCP 的環境（如 Cursor IDE）中接入 the-librarian，觀察它是否能減少長任務中的上下文蒸發問題，並評估其與內建記憶機制的效果差異。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/311203173?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-07-tolato-mcp-agent",
+    "title": "Tolato：自然語言伺服器管理 MCP Agent",
+    "title_original": "momaek/tolato",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/momaek/tolato",
+    "published_at": "2026-08-07T06:38:24Z",
+    "category": "agent-skills",
+    "summary": "開源伺服器管理 AI Agent，使用 Go + Vue 構建，可透過自然語言對話執行指令、監控叢集指標與網路狀態。支援 MCP 協定，可自架部署。",
+    "highlights": [
+      "自然語言轉換系統指令，降低 SSH 操作門檻",
+      "支援多主機叢集管理與監控指標查詢",
+      "MCP-ready 可與現有 AI 工具鏈整合",
+      "開源 Go 專案，18 stars，技術實作可直接參考",
+      "自架部署，無需將伺服器控制權交給第三方"
+    ],
+    "why_it_matters": "將日常伺服器運維工作自動化，用自然語言就能執行部署、監控、排查問題，大幅減少人工作業時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將常見運維指令（重啟服務、查看日誌、監控資源）封裝為 Tolato 指令集，實現「一鍵自動化」伺服器管理流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3843588?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-07-local-operator-ai-agent",
+    "title": "local-operator：幕後任務驅動的本地 AI Agent 工作區",
+    "title_original": "damianvtran/local-operator",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/damianvtran/local-operator",
+    "published_at": "2026-08-07T06:03:54Z",
+    "category": "agent-skills",
+    "summary": "local-operator 是一個 Python 開源平台，提供類似虛擬辦公室的協作環境，讓多個個人 AI 助理在幕後分工處理日常瑣碎任務。專案目前 209 stars，仍在早期維護階段，實際穩定性與任務完成率需自行測試。",
+    "highlights": [
+      "多助理協作模式：可在幕後並行處理不同任務",
+      "Python 実装，便於二次開發或整合現有 Python 生態",
+      "目標是減少人工干預的日常重複性工作",
+      "209 stars 顯示社群有一定關注度，但非主流框架",
+      "文件與錯誤處理豐富度待驗證"
+    ],
+    "why_it_matters": "多助理協作是提升個人生產力的潛在方向，local-operator 嘗試將此模型本地化，為不想依賴雲端 SaaS 的技術用戶提供一個實驗起点。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 local-operator 部署在本機，定義幾個典型瑣事（如郵件分類、日程摘要）為任務，觀察多助理分工是否能減少自己每日的重複點擊與複製貼上。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/173644497?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-07-angles-cli-rust-agentic",
+    "title": "angles-cli：Rust 打造的終端機 Agentic 程式碼助理",
+    "title_original": "ZSJ305/angles-cli",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ZSJ305/angles-cli",
+    "published_at": "2026-08-07T05:12:57Z",
+    "category": "agent-skills",
+    "summary": "angles-cli 是一款用 Rust 開發的終端機 AI 程式碼助理，主打命令列介面與 Agent 能力，目標是讓開發者在 terminal 內直接完成程式碼生成、Debug、重構等任務。24 stars，規模型小但 Rust 語言本身對效能敏感場景有優勢。",
+    "highlights": [
+      "Rust 語言実装：啟動快速、記憶體佔用低，適合 server 環境",
+      "終端機原生介面：開發者無需切換視窗即可互動",
+      "Agent 能力：理論上可執行多步推論而非單次問答",
+      "24 stars 表示社群初期關注，成熟度待觀察",
+      "可作為 CLI 工具鏈的一環整合進現有開發腳本"
+    ],
+    "why_it_matters": "CLI 工具若能穩定提供 Agentic 程式碼輔助，可成為開發者日常鍵盤流的一部分，尤其在 SSH 遠端或低視窗化場景下價值更明顯。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在自己的 dotfiles 或專案 script 中加入 angles-cli，測試它是否能自動完成簡單的 git commit message 生成或檔案批量重命名等重複性任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/261837359?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-07-minipuft-claude-prompts-mcp-prompt-mcp",
     "title": "minipuft/claude-prompts-mcp：把 Prompt 模板變成可組合的 MCP 技能鏈",
     "title_original": "minipuft/claude-prompts-mcp",
