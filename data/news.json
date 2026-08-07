@@ -1,5 +1,91 @@
 [
   {
+    "id": "2026-08-07-minipuft-claude-prompts-mcp-prompt-mcp",
+    "title": "minipuft/claude-prompts-mcp：把 Prompt 模板變成可組合的 MCP 技能鏈",
+    "title_original": "minipuft/claude-prompts-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/minipuft/claude-prompts-mcp",
+    "published_at": "2026-08-07T02:05:33Z",
+    "category": "agent-skills",
+    "summary": "此 MCP Server 將可複用的 Prompt 模板、多步工作流程鏈與品質閘門封裝為標準化技能，可導出至 Claude Code、Cursor、OpenCode、Gemini CLI 等主流 Agent 工具。TypeScript 實作，GitHub 已有 183 顆星。",
+    "highlights": [
+      "支援多步工作流程的 Prompt 模板組合與鏈式執行",
+      "內建品質閘門機制，可設定產出標準",
+      "一鍵導出為 Claude Code、Cursor、OpenCode、Gemini CLI 技能",
+      "TypeScript 實作，輕量易改寫",
+      "已有 183 stars，社群關注度較高"
+    ],
+    "why_it_matters": "將 Prompt 工程資產化是提升 Agent 生產力的關鍵，此工具讓個人或團隊的 Prompt 庫可直接被任何主流 Agent 呼叫，減少重複勞動。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將常用的多步分析流程封裝為模板，今天就能在 Claude Code 或 Cursor 中以一個指令呼叫整條工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/65575714?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-07-bbc-ai",
+    "title": "BBC 報導引發討論：AI 被用於設計全新病毒，監管呼聲再起",
+    "title_original": "BBC is running article titled \"Artificial Intelligence used to design brand new viruses\" ... cue the \"We must regulate Open Weights Models to prevent the next Covid or worse\" articles in 3... 2..",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhn36d/bbc_is_running_article_titled_artificial/",
+    "published_at": "2026-08-07T01:37:43+00:00",
+    "category": "hot-topics",
+    "summary": "BBC 刊登報導指出 AI 被用於設計全新病毒，引發社群對開源權重模型監管的討論。批評者認為此類報導將催生過度監管，而支援者則強調風險管理必要性。",
+    "highlights": [
+      "BBC 報導 AI 設計新病毒的爭議話題",
+      "引發開源模型監管必要性辯論",
+      "擔憂催生過度監管立法",
+      "涉及生物風險與 AI 安全議題",
+      "對開源 AI 社群可能有長期影響"
+    ],
+    "why_it_matters": "監管討論可能影響開源模型發布與使用方式。技術人員需關注政策走向，評估對本地部署與模型分享的潛在限制。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可關注立法動態，同時確保自身使用符合安全最佳實踐，考慮參與公眾意見諮詢以表達技術社群觀點。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-07-demwick-polymarket-agent-mcp-48-polymarket-mcp-server",
+    "title": "demwick/polymarket-agent-mcp：48 工具覆蓋的 Polymarket 全功能 MCP Server",
+    "title_original": "demwick/polymarket-agent-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/demwick/polymarket-agent-mcp",
+    "published_at": "2026-08-07T01:09:02Z",
+    "category": "agent-skills",
+    "summary": "專為預測市場 Polymarket 設計的 MCP Server， 提供多達 48 個工具，涵蓋直接交易、市場發現、智能資金追蹤、複製交易、回測、風險管理與投資組合優化。支援 Claude Code、Cursor 等任何 MCP 相容用戶端。",
+    "highlights": [
+      "48 個工具，覆蓋從發現到交易的完整流程",
+      "支援智能資金追蹤與複製交易功能",
+      "提供回測與風險管理模組",
+      "可與 Claude Code、Cursor 等 MCP 用戶端無縫整合",
+      "目前 stars 較低（14），但功能覆蓋度極高"
+    ],
+    "why_it_matters": "對有量化或預測市場自動化需求的技術人員，此 MCP Server 將 Polymarket API 能力直接帶入主流 Agent 環境，大幅降低量化策略的開發門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可利用 MCP Server 的回測工具，先在歷史數據上驗證策略，再以 Claude Code 驅動的 Agent 執行實盤指令。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/79982521?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-06-automate",
     "title": "autoMate：自然語言驅動的本地端電腦自動化助理",
     "title_original": "yuruotong1/autoMate",
@@ -115,6 +201,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-07-qwen-3-8-max-artificial-analysis-agentic-opus-5",
+    "title": "Qwen 3.8 Max 在 Artificial Analysis agentic 指數中超越 Opus 5 登頂",
+    "title_original": "Qwen 3.8 Max now ranked as best overall model ahead of Opus 5 by Artificial Analysis agentic index",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhd416/qwen_38_max_now_ranked_as_best_overall_model/",
+    "published_at": "2026-08-06T18:50:32+00:00",
+    "category": "new-models",
+    "summary": "根據 Artificial Analysis 的 agentic 指數排名，Qwen 3.8 Max 已超越 Anthropic 的 Opus 5，成為綜合評分最高的模型。此排名涵蓋代理任務、推論能力與多步驟工作流程表現，對本地部署模型選擇具參考價值。",
+    "highlights": [
+      "Qwen 3.8 Max 在 agentic 指數中排名第一",
+      "超越 Anthropic Opus 5 登上榜首",
+      "Artificial Analysis 為知名獨立基準測試網站",
+      "排名涵蓋代理任務、推論、多步工作流程",
+      "對本地部署與模型選擇有實際參考價值"
+    ],
+    "why_it_matters": "模型排名變化直接影響技術選型。若 Qwen 3.8 Max 真的在代理任務上超越 Opus 5，對需要本地部署、高性價比推論的團隊是重要訊號。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可至 Artificial Analysis 網站查閱完整評分細項，針對自己的代理任務測試 Qwen 3.8 Max vs 目前使用模型，評估遷移可行性與成本效益。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-06-datasette-1-0a38-sql",
     "title": "Datasette 1.0a38 緊急修補 SQL 注入漏洞",
     "title_original": "datasette 1.0a38",
@@ -216,6 +330,90 @@
     "automation_angle_zh": "關注後續公告，待功能恢復後可比較 Kimi K3 與現有 Copilot 模型在程式碼補全、註解生成上的表現，評估哪個更適合自己的工作流程程。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-07-reddit-ai",
+    "title": "Reddit 討論：本地與雲端 AI 模型編排最佳開源框架為何？",
+    "title_original": "Best open-source harnesses for combining cloud and local AI model orchestration?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhadbh/best_opensource_harnesses_for_combining_cloud_and/",
+    "published_at": "2026-08-06T17:12:33+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/LocalLLaMA 社群熱烈討論整合雲端與本地模型的開源編排框架。討論涵蓋工具選擇標準、混合部署架構設計、以及如何在不同提供者之間平衡成本與延遲。",
+    "highlights": [
+      "聚焦雲端與本地模型混合編排",
+      "討論焦點在開源框架選型",
+      "涵蓋成本與延遲權衡策略",
+      "社群分享實際部署經驗",
+      "可作為工作流程設計參考"
+    ],
+    "why_it_matters": "對需要同時使用雲端 API 與本地模型的團隊，找到合適的編排框架能大幅提升工作流程效率，並節省成本。此討論反映了真實開發者需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可瀏覽原討論串，查看被推薦的框架名稱與使用場景，評估是否適合自己的混合部署需求，並考慮貢獻自己的實測經驗。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-07-kv-cache-qwen-3-6-27b-gemma-4-31b-413",
+    "title": "KV cache 量化基準測試：Qwen 3.6 27B 與 Gemma 4 31B 上 413 組實驗結果出爐",
+    "title_original": "KV cache quantization benchmarks: 413 pairs tested on Qwen 3.6 27B, Gemma 4 31B. KLD with BeeLlama.cpp v0.4.0: KVarN 6-bit beats q8_0, precision tail 1024 dominates",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhaabz/kv_cache_quantization_benchmarks_413_pairs_tested/",
+    "published_at": "2026-08-06T17:09:39+00:00",
+    "category": "hot-topics",
+    "summary": "開發者在 Qwen 3.6 27B 與 Gemma 4 31B 上進行 413 組 KV cache 量化實驗，測試 KLD 散度配合 BeeLlama.cpp v0.4.0 的效果。發現 KVarN 6-bit 在效能上擊敗 q8_0，而 precision tail 1024 配置在最優。",
+    "highlights": [
+      "共進行 413 組 KV cache 量化測試",
+      "測試模型包括 Qwen 3.6 27B 與 Gemma 4 31B",
+      "KLD with BeeLlama.cpp v0.4.0 為測試框架",
+      "KVarN 6-bit 量化表現優於 q8_0",
+      "Precision tail 1024 在測試中表現最佳"
+    ],
+    "why_it_matters": "KV cache 量化是降低 VRAM 佔用的關鍵技術。此 benchmark 提供了具體數據，技術人員可據此選擇性價比最高的量化方案，在保持輸出品質的同時節省記憶體。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載 BeeLlama.cpp v0.4.0，使用 KVarN 6-bit 或 precision tail 1024 配置，在自己的 Qwen 或 Gemma 模型上測試 VRAM 節省幅度與輸出品質變化。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-07-vllm-c-20-66-mib-python",
+    "title": "開發者將 vLLM 推論堆棧移植至 C++20：66 MiB 二進制檔、無 Python 依賴",
+    "title_original": "I ported vLLM's serving stack to C++20: 66 MiB binary, no Python at inference, output checked token-for-token against vLLM",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vh9lx4/i_ported_vllms_serving_stack_to_c20_66_mib_binary/",
+    "published_at": "2026-08-06T16:45:07+00:00",
+    "category": "hot-topics",
+    "summary": "一名開發者成功將 vLLM 的 serving 堆棧移植至 C++20，編譯出僅 66 MiB 的單一二進制檔，推論時完全不需要 Python 環境。輸出經 token-for-token 驗證與 vLLM 完全一致，為邊緣部署與高效推論提供新選項。",
+    "highlights": [
+      "完整移植 vLLM serving 堆棧至 C++20",
+      "編譯後二進制檔僅 66 MiB",
+      "推論階段零 Python 依賴",
+      "輸出與 vLLM token-for-token 驗證一致",
+      "適合邊緣裝置或資源受限環境"
+    ],
+    "why_it_matters": "移除 Python 依賴大幅降低部署複雜度與記憶體佔用。66 MiB 的小體積可在更多硬體上運行，對追求高效、低資源推論的技術團隊有實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載該 C++ 版本，在自己的硬體上測試延遲與吞吐量，評估是否適合替代現有 vLLM 部署方案，特別是對延遲敏感的場景。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -326,6 +524,34 @@
     "automation_angle_zh": "技術用戶可提前規劃測試腳本，待模型正式上線 Hugging Face 後立即下載，用 lm-evaluation-harness 做基准測試，比較與現有 Qwen3.5 或 Llama3 的推論效率與任務準確度差異。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-07-meta-ceo",
+    "title": "Meta CEO 馬克祖克柏預告「即將公布更多開源相關消息」",
+    "title_original": "Zuck will \"share more on open source\" soon",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgp8y8/zuck_will_share_more_on_open_source_soon/",
+    "published_at": "2026-08-06T00:40:40+00:00",
+    "category": "open-source-ai",
+    "summary": "Meta CEO 馬克祖克柏在公開場合表示將「很快分享更多開源相關消息」。此發言被社群解讀為 Meta 可能將開源更多 AI 資產，但具體內容與時間表尚未揭露。",
+    "highlights": [
+      "馬克祖克柏公開預告開源消息",
+      "具體內容與時間表不明",
+      "社群推測可能涉及模型或工具開源",
+      "屬於非官方訊息，需後續觀察",
+      "對 Meta AI 開源策略有指示作用"
+    ],
+    "why_it_matters": "若 Meta 擴大開源範圍，可能對本地部署生態系與 Llama 家族產生影響。但目前僅為預告，技術人員應持續關注官方公告，避免過早行動。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可追蹤 Meta AI 官方頻道，待正式公告後評估新開源資產的實用性與部署價值，目前無需採取行動。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
@@ -549,6 +775,34 @@
     "automation_angle_zh": "若正在開發 AI 代理或讓模型操控外部工具，應審視測試、生產環境的網路存取權限，確保模型輸出不會意外觸發外部 API 或掃描漏洞。可參考這些案例建立更嚴格的沙盒隔離機制。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-07-reddit-llm",
+    "title": "Reddit 熱議：LLM 本地化部署成新趨勢",
+    "title_original": "you can now buy llm's at your local supermarket",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vgj0h8/you_can_now_buy_llms_at_your_local_supermarket/",
+    "published_at": "2026-08-05T20:27:57+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 社群熱烈討論「在本地超市就能買到 LLM」，指的是在個人硬體上部署大型語言模型。開源工具如 llama.cpp、Ollama 讓消費級 GPU 甚至 CPU 也能跑得動 7B-13B 模型，降低對雲端 API 的依賴與成本。",
+    "highlights": [
+      "Reddit 社群反映本地 LLM 部署熱度上升",
+      "llama.cpp、Ollama 等開源工具成熟度提高",
+      "消費級硬體（RTX 3060 以上）可流暢運行 7B 模型",
+      "省下每百萬 tokens 的 API 呼叫費用",
+      "資料不用上傳，隱私更有保障"
+    ],
+    "why_it_matters": "對技術人員而言，本地部署 LLM 可省下大量 API 費用，同時確保敏感資料不離開本機。開源生態的成熟讓「自己的模型自己跑」不再是夢。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可用 Ollama 一鍵部署 Mistral 或 Llama 3，取代昂貴的 GPT-4 API，用於內部文書自動化、程式碼生成等工作流程程。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
@@ -7325,6 +7579,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/188930?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-07-galaxy-z-fold-flip8-512gb",
+    "title": "三星 Galaxy Z Fold/Flip8 開放預訂　贈免費升級 512GB",
+    "title_original": "“免費升級至512GB”……Galaxy Z Fold·Flip8開启预订- 阿视亚經济 - 아시아경제",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1GcS10Zk41OXFYMldLN21kd2tpcW5JRHpsV1NVODBVLW01Ri1mM2ZkLThDc09ib05QNjRMcm5HaXBzTS0xUkh5ZHU3Q1o5THVJdmZRQmVTUVZEUkhRbVpVa2F6T3U?oc=5",
+    "published_at": "2026-07-28T00:52:32+00:00",
+    "category": "ai-deals",
+    "summary": "三星 Galaxy Z Fold6 與 Flip8 新機開放預訂，韓國通路推出「免費升級至 512GB」優惠活動。此優惠與 AI 功能無直接關聯，屬消費電子促銷，非 AI 工具或模型層面的資訊。",
+    "highlights": [
+      "三星新摺疊機預訂優惠非 AI 相關新聞",
+      "512GB 升級優惠為硬體儲存空間促銷",
+      "Galaxy AI 功能（如 Circle to Search）為軟體層面整合",
+      "此資訊對 AI 工作流程程自動化幫助有限",
+      "來源為韓國媒體 Asia Economy，中文轉載"
+    ],
+    "why_it_matters": "此條新聞屬消費電子範疇，非 AI 模型、工具或定價變動。技術人員若非購入新機作為開發測試平台，實用價值較低。",
+    "automation_angle": null,
+    "automation_angle_zh": "若將 Galaxy S24/Fold6 作為手機端測試裝置，可評估三星 Galaxy AI（如即時翻譯、筆記摘要）與自建 LLM 的功能差異，作為edge AI 應用的參考基準。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -20782,6 +21064,34 @@
     "automation_angle_zh": "建議直接查看 Meta 官方部落格確認具體更新內容，再評估是否值得測試新版本於創意自動化流程中。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-07-ai-agents-with-mcp-manager-guide",
+    "title": "AI Agents with MCP: Manager Guide — 區塊鏈委員會教育文章",
+    "title_original": "AI Agents with MCP: Manager Guide - Blockchain Council",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZUFjOVU4SjN3YXFXc1dVek1XSzY5amhvZGtzaEV2SjZ4TVBtZ0Q0WFZibGdlYVFsVW53SWIzUFlSdkRyWVViRVFjOFI0UWdMS0w2S0ppVUpwY0pBMU1uZ19MUDgtbnV5UFhXNXVEUTBsWmF2VktBd3lfaXVZY3NSLVN6d2NsXzVNbmRpOQ?oc=5",
+    "published_at": "2026-07-09T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "區塊鏈委員會發布的 MCP Agent 入門指南，內容涵蓋 MCP 概念與 Manager 角色定位。來源為教育性質內容，非新工具或技術突破，建議技術讀者作為背景參考而非深度技術來源。",
+    "highlights": [
+      "屬於教育性質的 Manager 指南，非技術規格文件",
+      "覆蓋 MCP 基本概念與 Agent 協作模式",
+      "發布方為區塊鏈委員會，非核心 AI 開發社群",
+      "原創技術深度有限，屬於推廣性質內容",
+      "可作為向非技術管理者介紹 MCP 的素材"
+    ],
+    "why_it_matters": "此類文章反映 MCP 概念正在向更廣的受眾擴散，但技術深度不足以指導實作，技術人員應直接查閱 MCP 官方規格與開源實作。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可略過此教育文，直接參考 MCP 官方文件與 GitHub 上的明星專案（如本列表中的 claude-prompts-mcp）快速上手。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
