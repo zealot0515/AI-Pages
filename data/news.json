@@ -1,5 +1,88 @@
 [
   {
+    "id": "2026-08-08-opendesign-mcp-1-486",
+    "title": "OpenDesign MCP：1,486真實設計系統的機器可讀規格庫",
+    "title_original": "qiuyiwu1989-star/opendesign",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/qiuyiwu1989-star/opendesign",
+    "published_at": "2026-08-08T12:13:15Z",
+    "category": "agent-skills",
+    "summary": "OpenDesign MCP將1,486個真實網頁設計系統萃取為機器可讀規格，讓AI coding代理不只生成可用程式碼，還能繼承真實設計品味，減少「功能正確但UI粗糙」的問題。",
+    "highlights": [
+      "收錄1,486個真實設計系統的完整規格",
+      "作為MCP伺服器提供給AI代理呼叫",
+      "提升AI生成UI的設計品質而非僅功能正確",
+      "JavaScript実装，已有64 stars社群關注",
+      "可與設計工具或前端框架整合使用"
+    ],
+    "why_it_matters": "對需要同時產出功能與介面的開發者而言，OpenDesign MCP填補了AI coding代理缺乏設計sense的缺口，值得實驗其與現有工作流程的整合效果。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此MCP接入你的AI coding流程，讓代理在生成前端時查詢真實設計規範，提升自動生成介面的美觀度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/267523620?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-08-qwen3-6-27b-35b-amd-r9700-vllm",
+    "title": "Qwen3.6 27B 與 35B 模型成功在單張 AMD R9700 顯示卡上執行 vLLM 推論",
+    "title_original": "Qwen3.6 27B + 35B on vLLM, single R9700 (gfx1201)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1viq0pq/qwen36_27b_35b_on_vllm_single_r9700_gfx1201/",
+    "published_at": "2026-08-08T07:55:36+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享在 AMD R9700（gfx1201）單卡上透過 vLLM 成功運行 Qwen3.6 27B 及 35B 參數量模型的消息。這代表 AMD RDNA3 系列顯示卡在 vLLM 後端已具備穩定的大模型推論能力，打破以往需 NVIDIA 顯示卡的限制。",
+    "highlights": [
+      "Qwen3.6 27B 成功在 R9700 上執行 vLLM",
+      "Qwen3.6 35B 同樣可在單卡運行",
+      "使用 gfx1201 架構（即 R9700）",
+      "vLLM 後端已支援 AMD RDNA3 GPU"
+    ],
+    "why_it_matters": "AMD 顯示卡用戶終於能在本機跑 Qwen3.6 系列大模型，無需仰賴 NVIDIA 生態。對於想在預算內建立本地推論環境的技術玩家，此消息具體可行。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估 R9700 執行 Qwen3.6 的吞吐量與延遲表現，若滿足需求即可架構純 AMD 本地推論流水線，用於自動化客服或文件處理任務。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-08-llama-cpp-longcat-flash",
+    "title": "llama.cpp 新增 Longcat-Flash 模型支援，仍待實測驗證",
+    "title_original": "model: support Longcat-Flash (need testing) by ngxson · Pull Request #19182 · ggml-org/llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vipk8z/model_support_longcatflash_need_testing_by_ngxson/",
+    "published_at": "2026-08-08T07:28:29+00:00",
+    "category": "open-source-ai",
+    "summary": "ggml-org/llama.cpp 專案收到一個 Pull Request，旨在新增對 Longcat-Flash 模型的支援。該 PR 由 ngxson 提交，編號 #19182，目前尚未合併，需要社群實測驗證其穩定性與正確性。此功能上線後可望擴展 llama.cpp 的模型相容範圍。",
+    "highlights": [
+      "PR #19182 由 ngxson 提交至 llama.cpp 主分支",
+      "新增支援 Longcat-Flash 模型類型",
+      "目前狀態為 needs testing，需社群驗證",
+      "成功合併後可直接用 llama.cpp 跑該模型"
+    ],
+    "why_it_matters": "llama.cpp 是本地跑 LLM 的核心工具，新增模型支援等於解鎖新能力。技術玩家可追蹤此 PR 進展，第一時間測試 Longcat-Flash 在本機的推論效能。",
+    "automation_angle": null,
+    "automation_angle_zh": "若 PR 合併，可立即用 llama.cpp 量化並本地部署 Longcat-Flash，搭配 GGUF 格式加速推論，評估其對特定任務的適用性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-08-unreal-mcp-c-unreal-engine-5-6-5-8-mcp",
     "title": "unreal-mcp：C++ 實作之 Unreal Engine 5.6/5.8 MCP 伺服器",
     "title_original": "ZiggyMar/unreal-mcp",
@@ -59623,6 +59706,34 @@
       "open-source-ai",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-08-openai-codex-for-oss-chatgpt-pro",
+    "title": "OpenAI Codex for OSS：開源項目免費使用ChatGPT Pro半年攻略",
+    "title_original": "開源專案免費用 ChatGPT Pro 半年: OpenAI Codex for OSS 申请全攻略 - Pasquale Pillitteri",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR3dONTU4RnY1MmVsQ0hrWkl0Tmh1ZDgxNTM3NEJza09GNUJPc01SNzZuX2ExN3Y2dWUzMUtfbVcwZlFxZmNWTXVuYkJnSEtQWGFPWVo4Vi1idEZudndrek5iSERfajRaYkk0VWZzTTV0Wm4wbzEyV1VqYlV1aThqbEx0aFE2VWM?oc=5",
+    "published_at": "2026-05-30T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "一篇申請攻略說明如何透過OpenAI Codex for OSS計畫，讓開源項目免費使用ChatGPT Pro六個月。具體資格條件與當前是否仍開放需自行至官網確認，此優惠資訊可能已有變動。",
+    "highlights": [
+      "提供開源項目申請免費ChatGPT Pro半年機會",
+      "具體資格要求需查閱OpenAI官網最新公告",
+      "此資訊基於外部攻略文章，非官方直接來源",
+      "申請資格與審核標準可能有變動",
+      "可作為節省AI工具成本的參考方向"
+    ],
+    "why_it_matters": "若符合資格，此計畫可大幅降低團隊使用高階AI模型的成本，但需驗證當前是否仍開放申請，避免攻略過期。",
+    "automation_angle": null,
+    "automation_angle_zh": "可派團隊成員評估是否符合申請條件，若通過可在六個月內將高成本任務遷移至ChatGPT Pro測試。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
