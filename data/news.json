@@ -1,5 +1,90 @@
 [
   {
+    "id": "2026-08-09-mcp-for-woocommerce-wordpress-mcp",
+    "title": "mcp-for-woocommerce：WordPress 電商平台的 MCP 伺服器實作",
+    "title_original": "iOSDevSK/mcp-for-woocommerce",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/iOSDevSK/mcp-for-woocommerce",
+    "published_at": "2026-08-09T11:51:16Z",
+    "category": "agent-skills",
+    "summary": "一個基於 PHP 的 WordPress 外掛，實現了 Model Context Protocol（MCP）標準，專為 WooCommerce 電商系統設計。支援 STDIO 與 HTTP Streamable Transport 兩種傳輸方式，並提供可選的 JWT 身份驗證。目前僅 15 Stars，仍屬早期專案。",
+    "highlights": [
+      "實現 MCP 協定，可讓 AI Agent 與 WooCommerce 系統互動",
+      "支援 STDIO 和 HTTP 兩種傳輸模式",
+      "可選 JWT 認證，安全性可彈性調整",
+      "基於 Automattic 官方 WordPress MCP 實作",
+      "非 Automattic 官方維護，社群驅動項目"
+    ],
+    "why_it_matters": "MCP 正在成為 AI Agent 與外部系統整合的事實標準。透過此專案，技術用戶可讓 AI Agent 直接操作 WooCommerce 店舖，實現自動化訂單處理、庫存查詢等場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "有 WordPress + WooCommerce 網站的技術用戶可安裝此外掛，透過 MCP 協定讓 Claude、GPT 等 Agent 直接查詢訂單、更新庫存或生成銷售報告。今晚可嘗試在本機 WordPress 環境部署測試。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "PHP"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/8836959?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-09-reddit-embedding-reranking",
+    "title": "Reddit 熱議：本地部署最佳 Embedding 與 Reranking 模型組合",
+    "title_original": "Best Embedding + Reranking Model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjk57h/best_embedding_reranking_model/",
+    "published_at": "2026-08-09T08:10:52+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 社群討論串聚集多位開發者分享本地部署 Embedding 與 Reranking 模型的實測經驗。討論涵蓋主流開源方案如 BGE、E5、Jina 等模型的效能、速度與準確度權衡，是獲取本地向量檢索實務經驗的資訊來源。",
+    "highlights": [
+      "社群驅動的實測分享，非系統性 Benchmark",
+      "涵蓋 BGE、E5、Jina 等主流開源 Embedding 模型",
+      "討論 Reranking 模型對檢索精度的提升效果",
+      "包含硬體需求與推論速度的實務觀察",
+      "可用於評估本地 RAG 架構的模型選型"
+    ],
+    "why_it_matters": "若你正在建構本地 RAG 或知識庫系統，Embedding 與 Reranking 模型的选择直接影响检索精度與成本。此讨论串汇集了一線開發者的实战經验，可作為選型參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據討論串中的建議，在本地環境用 LM Studio 或 Ollama 快速測試不同 Embedding 模型的檢索準確率與延遲，找到符合自己延遲容忍度的最優組合。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-09-deepseek-v4-flash-slopcodebench",
+    "title": "DeepSeek V4 Flash 本地基準測試：SlopCodeBench 結果出爐",
+    "title_original": "Updated benchmark: Deepseek V4 Flash on SlopCodeBench (local)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjiypj/updated_benchmark_deepseek_v4_flash_on/",
+    "published_at": "2026-08-09T07:01:43+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群發布 DeepSeek V4 Flash 模型在 SlopCodeBench 基準測試中的本地運行表現。測試聚焦模型對低品質程式碼（Slop Code）的偵測與修復能力，為技術評估提供實證數據。",
+    "highlights": [
+      "DeepSeek V4 Flash 模型本地部署效能實測結果曝光",
+      "SlopCodeBench 專門評估模型偵測劣質程式碼能力",
+      "社群驅動的開源基準測試，非官方認證結果",
+      "可供開發者評估模型篩選程式碼品質的實用性",
+      "實驗室環境測試，實際效能可能因硬體而異"
+    ],
+    "why_it_matters": "本地模型基準測試能幫助技術人員選擇適合的開源模型，節省雲端 API 呼叫成本，並評估特定任務（如程式碼審查）的可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在本地環境下載 DeepSeek V4 Flash 模型，使用 SlopCodeBench 自行重現測試，驗證模型對自家程式碼庫的適用性，決定是否取代雲端 API 方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-09-slima4-agent-message-agent",
     "title": "slima4/agent-message：無伺服器跨 Agent 訊息傳遞框架",
     "title_original": "slima4/agent-message",
@@ -15969,6 +16054,34 @@
       "agent-skills",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-09-ai",
+    "title": "支付寶發布業界首個 AI 訂閱解決方案：三步接入四大功能",
+    "title_original": "支付宝發布行業首個AI 訂閱解决方案：三步接入四大功能 - 品玩",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4zcUlLMDRBUU8zN1oxaFk4c0tLRnJoWC0zOVB4OUV3ak9tVHlzUUNxMkg3c0VqRjZhYjdqdUE2UzdWTDJ2VjZXMg?oc=5",
+    "published_at": "2026-07-18T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "支付寶推出業界首個 AI 訂閱解決方案，主打三步驟快速接入四大核心功能。目標族群為需要整合支付場景 AI 能力的開發者與企業用戶，提供標準化接入流程以降低開發門檻。",
+    "highlights": [
+      "業界首創以支付寶為基礎的 AI 訂閱整合方案",
+      "強調三步驟快速接入，降低技術門檻",
+      "整合四大核心 AI 功能（具體功能待驗證）",
+      "面向企業與開發者的 B2B 解決方案",
+      "資訊來源為中國科技媒體品玩，需進一步查證"
+    ],
+    "why_it_matters": "此方案若屬實，可為需要支付場景 AI 能力的開發者提供捷徑，但資訊來源為中國媒體，詳細功能與定價需查閱官方文件確認。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可關注支付寶開放平台文件，評估該解決方案是否能縮短支付相關 AI 功能的開發時程，或作為中國市場本地化產品的參考架構。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -60849,6 +60962,34 @@
       "ai-deals",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-09-chatgpt-vs-claude-vs-gemini-2026",
+    "title": "ChatGPT vs Claude vs Gemini 2026 真實對比評測",
+    "title_original": "ChatGPT vs Claude vs Gemini: 2026年該如何选择 (真实對比) - Pasquale Pillitteri",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcDJUS0RJTGpDMElEWUs2RUI3MVdhcHNpRWpGYkttcGJqcGlrTlpjRVhEQncyUm5HeE16THpvVFJwU0hpOHlzNWo1SHhjZHdDckNzVFV4REZfN3M4bTU1VFNyRm52MC11SWk5ZmpBX2hDaXJyV0hSVWFWRkNGRzQzaw?oc=5",
+    "published_at": "2026-05-29T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "第三方作者 Pasquale Pillitteri 發布的 2026 年主流 AI 模型對比文章，比較 ChatGPT、Claude 與 Gemini 在實際使用場景中的表現差異。屬於個人評測觀點，非官方Benchmark，內容深度與準確度需讀者自行判斷。",
+    "highlights": [
+      "第三方獨立評測，視角為個人使用者體驗",
+      "覆蓋 2026 年最新模型版本",
+      "可能包含定價、能力與使用場景的橫向比較",
+      "非學術或官方 Benchmark，證據強度較弱",
+      "可作為選型參考但需交叉驗證"
+    ],
+    "why_it_matters": "對於需要選擇主力 AI 工具的技術團隊，橫向對比可快速掌握各模型在特定場景的優劣。但個人評測可能帶主觀偏見，應結合實際測試做最終決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考文章中的場景描述，在自己的用例上進行 A/B 測試，客製化 Benchmark 自己的 API 成本與輸出品質的權衡點，找出最適工作流程的模型組合。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
