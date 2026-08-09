@@ -1,5 +1,117 @@
 [
   {
+    "id": "2026-08-09-senzing-mcp-skill-model-context-protocol",
+    "title": "Senzing MCP Skill：實體解析的Model Context Protocol工具鏈",
+    "title_original": "Senzing/senzing-mcp-skill",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Senzing/senzing-mcp-skill",
+    "published_at": "2026-08-09T17:56:51Z",
+    "category": "agent-skills",
+    "summary": "Senzing MCP Skill是開源Agent技能，透過MCP協定提供實體解析（Entity Resolution）能力，含資料對應、SDK程式碼生成、文件搜尋與錯誤排除。目前GitHub僅13顆星，仍屬早期工具。",
+    "highlights": [
+      "基於MCP Server架構，可與主流Agent框架整合",
+      "支援資料對應與SDK程式碼自動生成",
+      "內建文件搜尋與錯誤排查指引",
+      "適用於需要資料比對、去重的企業場景",
+      "星數極低，生態系成熟度待觀察"
+    ],
+    "why_it_matters": "實體解析是資料治理核心，Senzing MCP Skill若能與企業Agent整合，可自動化處理客戶記錄匹配等繁瑣任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此MCP Skill接入自有Agent，直接對CSV或資料庫執行實體解析，減少人工資料清洗時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/43552726?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-09-deepseek-v4-flash-0731-q8-k-xl-opencode",
+    "title": "DeepSeek-V4-Flash-0731 Q8_K_XL 版本在 OpenCode 環境出現任務中斷問題",
+    "title_original": "DeepSeek-V4-Flash-0731 Q8_K_XL sometimes stops mid-task in OpenCode - anyone else seeing this?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjw0xg/deepseekv4flash0731_q8_k_xl_sometimes_stops/",
+    "published_at": "2026-08-09T17:37:52+00:00",
+    "category": "new-models",
+    "summary": "有用戶反映 DeepSeek-V4-Flash-0731 的 Q8_K_XL 量化版本在 OpenCode 環境執行任務時會不定時中斷，停在任務中途無法完成。用戶尋求社群確認是否為普遍現象或特定配置問題。",
+    "highlights": [
+      "問題發生在 OpenCode 整合環境，非獨立 API 調用",
+      "Q8_K_XL 量化等級可能影響穩定性",
+      "中斷時間點隨機，非特定任務類型觸發",
+      "目前尚無官方回應或修復說明",
+      "可能是量化精度、上下文長度或記憶體管理問題"
+    ],
+    "why_it_matters": "DeepSeek 系列模型以高性價比著稱，若量化版本存在穩定性問題，將影響本地部署用戶的使用體驗與生產環境可靠性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可在相同配置下復現問題，並嘗試更換量化精度（如 Q4_K_M）或調整上下文長度，以判斷是否為量化導致的記憶體溢出或推論中斷。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-09-regex",
+    "title": "小型本地模型實現自然語言轉 Regex 工具曝光",
+    "title_original": "small model for text-to-regex",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjvxcq/small_model_for_texttoregex/",
+    "published_at": "2026-08-09T17:33:57+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群討論一款專門將自然語言描述轉換為正規表達式的輕量級本地模型。該模型針對 regex 生成任務優化，體積小可離線運行。開發者分享實際使用案例與生成品質評估。",
+    "highlights": [
+      "針對 regex 生成任務微調的小型模型，適配本地部署場景",
+      "社群討論包含多個實際測試案例與成功率評估",
+      "可能作為 IDE 插件或 CLI 工具整合到開發流程",
+      "離線運行特性避免敏感程式碼上傳雲端",
+      "生成品質依賴 prompt 工程與模型版本"
+    ],
+    "why_it_matters": "正規表達式撰寫是開發者常見痛點，可將自然語言描述自動轉為 regex 的工具能顯著提升工作效率，尤其適合處理複雜字串匹配需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可將該模型封裝為 VS Code 擴充功能或命令列工具，輸入「找出所有以 a 開頭且包含數字的 Email」，自動生成可用 regex 並可直接測試替換。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-09-lophius-llm-heretic",
+    "title": "Lophius：LLM研究工作台，Heretic作者新作",
+    "title_original": "Lophius: A workbench for language model research, from the creator of Heretic",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjt4vi/lophius_a_workbench_for_language_model_research/",
+    "published_at": "2026-08-09T15:43:17+00:00",
+    "category": "open-source-ai",
+    "summary": "Lophius是由知名開源作者打造的LLM研究工作台，提供模型評測、實驗追蹤與訓練輔助功能。具體功能細節與技術規格尚待社群進一步揭露，目前資訊有限。",
+    "highlights": [
+      "出自Heretic開源專案作者，具開發者信任度",
+      "定位為LLM研究工作台，非終端應用工具",
+      "可能包含模型評測與實驗管理功能",
+      "細節不足，需進一步追蹤Reddit討論",
+      "評測分數中等，尚未引發廣泛關注"
+    ],
+    "why_it_matters": "研究者需要好用的LLM實驗管理工具，若Lophius能簡化評測流程，可成為開源替代方案，但需等更多功能資訊曝光。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議持續追蹤該專案，待功能文件完整後評估是否能取代現有MLflow或Weights & Biases工作流程程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-09-mcp-for-woocommerce-wordpress-mcp",
     "title": "mcp-for-woocommerce：WordPress 電商平台的 MCP 伺服器實作",
     "title_original": "iOSDevSK/mcp-for-woocommerce",
