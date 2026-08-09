@@ -1,5 +1,63 @@
 [
   {
+    "id": "2026-08-09-slima4-agent-message-agent",
+    "title": "slima4/agent-message：無伺服器跨 Agent 訊息傳遞框架",
+    "title_original": "slima4/agent-message",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/slima4/agent-message",
+    "published_at": "2026-08-09T06:09:21Z",
+    "category": "agent-skills",
+    "summary": "一個基於檔案機制的跨工具訊息框架，支援 Claude Code、Codex CLI、Cursor、Copilot、Aider 等主流 AI 編碼 Agent 之間的通訊。無需伺服器、MCP 或 Daemon，完全零 Token 消耗於終端層，實現 SAMP 參考實作。",
+    "highlights": [
+      "基於檔案系統的訊息佇列，零額外基礎設施",
+      "支援主流 AI 程式碼 Agent 的互通",
+      "不消耗任何 LLM Token（僅檔案 I/O）",
+      "實作 SAMP（Simple Agent Messaging Protocol）規格",
+      "Shell 語言寫成，輕量且易於嵌入"
+    ],
+    "why_it_matters": "當開發者同時使用多種 AI 程式碼工具時，agent-message 提供一個輕量、無成本的方式讓它們共享狀態與指令，大幅提升跨工具協作的可行性與彈性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可在本地建立多個 Agent 工作目錄，利用 agent-message 檔案訊息讓 Claude Code 生成需求規格後，自動觸發 Copilot 執行對應重構任務，全程無需額外 API 呼叫。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Shell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/668632?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-09-aws-sample-voice-agent-ai-agent",
+    "title": "AWS Sample Voice Agent：即時語音 AI Agent 建構範本",
+    "title_original": "aws-solutions-library-samples/sample-voice-agent",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aws-solutions-library-samples/sample-voice-agent",
+    "published_at": "2026-08-09T05:26:52Z",
+    "category": "agent-skills",
+    "summary": "AWS 官方樣本程式展示如何在 AWS 平台上建立即時語音 AI Agent，支援電話與 WebRTC 語音互動。提供完整的語音處理、管線與錯誤處理架構，開發者可直接基於此範本客製化部署。",
+    "highlights": [
+      "支援電話系統與 WebRTC 雙語音互動介面",
+      "基於 AWS 基礎設施，具備擴展性",
+      "完整的即時語音處理管線範例",
+      "Python 實現，程式碼可直接閱讀與改寫",
+      "星標數 47，社群關注度中等"
+    ],
+    "why_it_matters": "若需在產品中嵌入語音客服或語音助理功能，AWS Sample Voice Agent 提供經過整理的參考架構，可大幅縮短從零建構的時間，同時確保部署在熟悉的 AWS 生態系中。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將此樣本部署至 AWS 測試環境，快速驗證語音轉文字 → LLM 處理 → 語音合成的完整 Pipeline，評估其延遲與成本是否符合客服自動化需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/109766924?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-08-09-claude-code-auto-mode-pro-max-team",
     "title": "Claude Code Auto Mode 躍居 Pro/Max/Team 方案預設值",
     "title_original": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
