@@ -1,5 +1,172 @@
 [
   {
+    "id": "2026-08-10-docslicer-mcp",
+    "title": "DocSlicer：快速確定性文件解析器與 MCP 服務",
+    "title_original": "DocSlicer/DocSlicer",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/DocSlicer/DocSlicer",
+    "published_at": "2026-08-10T00:56:29Z",
+    "category": "agent-skills",
+    "summary": "DocSlicer 是一款專為 RAG 與 Agent Pipeline 設計的文件解析與分塊工具，提供 MCP 伺服器介面，方便 Agent 精準處理長文件。定位為高效、可預期的解析方案，適合需要嚴格控制分塊邏輯的技術人員。",
+    "highlights": [
+      "快速且確定性的文件解析邏輯",
+      "內建 MCP 伺服器，Agent 可直接呼叫",
+      "專為 RAG 與長文件處理優化",
+      "Python 實作，當前 stars 14，仍屬早期專案"
+    ],
+    "why_it_matters": "DocSlicer 解決了 Agent 處理長文件時分塊不精準的痛點，MCP 介面讓它可直接嵌入現有 Agent 工作流程，提升文件理解準確度。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可 pip install DocSlicer 後，立即在 RAG Pipeline 或長文件分析腳本中測試其 MCP 介面，評估對比傳統 chunking 方法的準確性提升。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/255428569?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-10-kpmg-ai-agent",
+    "title": "KPMG 報告：近半數高管因成本削減 AI Agent 部署",
+    "title_original": "KPMG Says Nearly Half Of Executives Pulled Back AI Agents Over Cost",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vk60uz/kpmg_says_nearly_half_of_executives_pulled_back/",
+    "published_at": "2026-08-10T00:31:18+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 轉發 KPMG 調查指出，近半數企業高管因 AI Agent 部署成本高於預期而暫緩相關計畫。此調查結果反映當前 AI Agent 在企業端面臨的成本控制壓力與 ROI 質疑，但原始報告細節與樣本規模有待驗證。",
+    "highlights": [
+      "KPMG 調查：近 50% 高管暫緩 AI Agent 部署",
+      "主因指向成本高於預期",
+      "Reddit 為次級轉發來源，原始報告可信度需確認",
+      "反映企業 AI Agent 商業化面臨的挑戰"
+    ],
+    "why_it_matters": "此趨勢對開源 AI Agent 解決方案可能是機會，因為企業尋求更低成本的替代方案。技術人員在評估 AI 自動化專案時也需更注重成本效益分析。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員在提案或自建 AI Agent 系統時，應加入成本預估模型（估算 token 消耗與 API 費用），展示明確的 ROI，降低此類成本疑慮對專案的影響。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-10-claude-opus-5",
+    "title": "Claude Opus 5 系統提示詞洩漏：出口管制事件完整脈絡",
+    "title_original": "Quoting Claude Opus 5 system prompt",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+    "published_at": "2026-08-09T23:31:39+00:00",
+    "category": "hot-topics",
+    "summary": "Simon Willison 揭露 Claude Opus 5 系統提示詞，揭示 Claude Fable 5 與 Mythos 5 曾因美國商務部出口管制於 2026 年 6 月被暫停存取，7 月 1 日恢復。系統提示詞指示 Claude 如實確認此事並引用官方聲明。",
+    "highlights": [
+      "Claude Fable/Mythos 5 曾被美國商務部出口管制暫停",
+      "暫停時間：2026/6/12，恢復時間：2026/7/1",
+      "系統提示詞要求模型如實回答相關問題",
+      "建議用戶參考 Anthropic 官方聲明獲取最新資訊",
+      "此事發生在模型訓練截點之後，Claude 是從通知中得知"
+    ],
+    "why_it_matters": "AI 模型的出口管制先例已出現，未來可能影響更多模型的地區可用性。對涉及跨境部署或受限地區使用情境的技術人員具有警示意義。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你的工作流程程涉及多地區 Claude API 部署，建議建立可用性監控機制，並檢視現有系統是否受類似政策影響。可參考 Anthropic 官方聲明建立應變流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-10-supraelegans-500k",
+    "title": "新模型發布：SupraElegans-500K 本地部署版本",
+    "title_original": "[NEW MODEL] SupraElegans-500K",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vk3xpb/new_model_supraelegans500k/",
+    "published_at": "2026-08-09T22:57:18+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社區近期發布名為 SupraElegans-500K 的新模型，支援本地部署。該模型為開源生態系注入新血，技術規格與效能基準仍有待社群驗證。對於偏好本地執行 LLM 的開發者而言，是一個值得關注的替代選項。",
+    "highlights": [
+      "來自 LocalLLaMA 社區的自發性模型發布",
+      "支援本地部署，無需雲端 API",
+      "模型規模與能力細節待社群測試確認",
+      "屬於開源模型，可自由研究與修改",
+      "發布管道為 Reddit 討論串，資訊透明度有限"
+    ],
+    "why_it_matters": "本地 LLM 選擇持續增加，為在意資料隱私或希望控制成本的開發者提供更多彈性。建議等待社群基準測試結果再決定是否投入測試資源。",
+    "automation_angle": null,
+    "automation_angle_zh": "若通過社群驗證，可作為自動化文字處理流程的本地 backbone，節省 API 呼叫成本。建議追蹤後續 benchmark 資料再做部署決定。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-10-github-models-ai",
+    "title": "GitHub Models 正式關閉：AI 工具鏈影響與替代方案",
+    "title_original": "GitHub Models is now retired",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+    "published_at": "2026-08-09T22:48:05+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 披露 GitHub Models 已完成退役，其 GitHub Actions 中的 LLM 呼叫因模型不可用而失敗。GitHub Models 原提供統一 API 介面與免費/補貼額度，最大便利是可直接用 Actions 環境的金鑰呼叫。推測關閉原因與 coding agent 大量耗費 token 導致成本過高有關。",
+    "highlights": [
+      "GitHub Models 已完全退役，不再可用",
+      "原支援直接用 GitHub Actions 環境金鑰呼叫 LLM",
+      "推測關閉原因：coding agent 模式 token 消耗過大",
+      "Simon Willison 已改用 OpenAI API + 每月消費上限應對",
+      "對仰賴此服務的自動化流程需緊急遷移"
+    ],
+    "why_it_matters": "GitHub Models 的關閉代表一個低成本呼叫 LLM 的免費方案終結，依賴該服務的技術人員與工作流程需立即尋找替代方案，並重新評估 AI 工具成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 GitHub Actions 進行 LLM 呼叫的技術人員應立即檢查相關 Repository，將 API 端點遷移至 OpenAI、Anthropic 或其他有每月額度限制的方案，並設定消費上限防止超支。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-10-nvfp4",
+    "title": "論文解析：NVFP4 格式下蒸餾過程的內部幾何保留技術",
+    "title_original": "[2606.05682] Beyond Output Matching: Preserving Internal Geometry in NVFP4 LLM Distillation",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vk08zl/260605682_beyond_output_matching_preserving/",
+    "published_at": "2026-08-09T20:22:47+00:00",
+    "category": "new-models",
+    "summary": "arXiv 發布新論文探討 NVFP4（4 位元原生浮點）格式下的 LLM 蒸餾方法。核心發現是傳統蒸餾僅匹配輸出，忽略內部表徵幾何；新方法在蒸餾時保留內部幾何結構，理論上可提升壓縮模型品質。",
+    "highlights": [
+      "論文提出超越輸出匹配的蒸餾概念",
+      "焦點為 4 位元浮點格式（NVFP4）的蒸餾效率",
+      "保留內部幾何結構可改善蒸餾品質",
+      "屬於模型壓縮與蒸餾領域的技術進展",
+      "發布於 arXiv，需等待同行評審"
+    ],
+    "why_it_matters": "低位元蒸餾技術突破可大幅降低模型部署成本。若驗證有效，可能催生更小但保持能力的蒸餾模型，直接利好邊緣部署場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "研究人員可關注論文開源程式碼，若有釋出可整合至現有蒸餾流程，評估是否能用更少參數達到同等任務表現。建議等待實驗室復現結果。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-09-senzing-mcp-skill-model-context-protocol",
     "title": "Senzing MCP Skill：實體解析的Model Context Protocol工具鏈",
     "title_original": "Senzing/senzing-mcp-skill",
@@ -1903,6 +2070,34 @@
       "new-models",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-10-sqlite-zstd-99-6",
+    "title": "SQLite 文字修訂歷史壓縮原型：Zstd 可實現 99.6% 壓縮率",
+    "title_original": "金年會體育app下载实時追踪平台迎來限時優惠與AI升級，訂閱價格下调30%並新增移动支付- TGBUS - 电玩巴士",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xcVc5NS1sN3JYbnViZ3dlel9iRkZ3bTdKUFRTOFNvcTZMemdjRTdOWHVTTjdzZ3BrVXlBRGw1Vm1rM3h3ZE44U1NzUjFuQkYzdkgwNQ?oc=5",
+    "published_at": "2026-08-06T02:16:56+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 實測將文件修訂歷史以 Zstandard 壓縮儲存於 SQLite 的可行性。實驗使用 GPT-5.6 Sol Pro 生成原型，模擬 1000 次修訂後，原始 20.4MB 文字壓縮至 80.3KB。建議每 128 次修訂或 3MB 為一單位分批儲存以平衡效能。",
+    "highlights": [
+      "將所有修訂版本以 JSON 字串陣列儲存",
+      "使用 zlib 或 Zstandard 壓縮整個陣列",
+      "時間戳獨立為未壓縮的整數陣列",
+      "1000 次修訂：20.4MB → 80.3KB（99.6% 壓縮率）",
+      "建議每 128 次修訂或 3MB 拆成獨立列"
+    ],
+    "why_it_matters": "對於需要版本控制但儲存空間敏感的系統（如本地知識庫、RAG 文件管理），此方法提供極低成本的历史版本保留方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此模式應用於個人文件版本控制腳本，或整合至現有的 SQLite-based 自動化工具中。Python 實現可直接取用 Simon 的原型程式碼改寫。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
