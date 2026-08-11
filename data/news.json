@@ -1,5 +1,169 @@
 [
   {
+    "id": "2026-08-11-mai-code-1-1-flash-github-copilot",
+    "title": "MAI-Code-1.1-Flash 登陸 GitHub Copilot，支援視覺理解",
+    "title_original": "MAI-Code-1.1-Flash available in GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
+    "published_at": "2026-08-11T18:13:56+00:00",
+    "category": "agent-skills",
+    "summary": "微軟小型程式碼模型 MAI-Code-1.1-Flash 正式整合進 GitHub Copilot，新增原生視覺支援，可理解截圖與介面圖。相較前代 MAI-Code-1-Flash，在程式碼品質與任務完成率上皆有提升，為 Copilot 用戶提供更快的推論速度與多模態能力。",
+    "highlights": [
+      "支援圖片理解：可直接分析 UI 截圖、架構圖轉換為程式碼",
+      "推論速度提升：作為 Flash 等級模型，延遲低於大型模型",
+      "GitHub Copilot 用戶無需額外設定，模型自動推送更新",
+      "屬於 Microsoft MAI 程式碼模型系列，定位輕量高效"
+    ],
+    "why_it_matters": "視覺+程式碼能力結合意味著前端自動化、UI 測試生成、Bug 截圖解讀等場景可直接在 Copilot 內完成，提升日常開發效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於自動化截圖轉 HTML/CSS、根據 UI 設計圖生成前端程式碼，或上傳錯誤截圖讓 Copilot 分析並生成修正建議。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-11-google-amie",
+    "title": "Google AMIE 展示模擬環境中的即時臨床視訊會診能力",
+    "title_original": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+    "published_at": "2026-08-11T17:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google AI 發布研究系統 AMIE 進展，宣布其在模擬臨床環境中具備即時視訊會診能力。AMIE 能理解醫師與病患對話、進行多輪問診，並生成臨床建議，但仍屬研究階段，未進入實際醫療應用。",
+    "highlights": [
+      "研究階段系統，模擬真實門診情境進行對話式問診",
+      "強調診斷對話能力，而非單純生成文字報告",
+      "Google 同步強調安全與監管合規必要性",
+      "目前僅限研究用途，距離醫療實際部署尚遠"
+    ],
+    "why_it_matters": "AMIE 展示 AI 在醫療對話理解與臨床推論上的進展，可能影響未來遠距醫療自動化工具的技術方向，但短期內不會取代醫師。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可關注其背後模型架構與對話管理機制，若有開源模型發布，可評估其對話狀態追蹤能力是否可遷移到其他領域的 Agent 開發。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-claude-openclaw-agent-gym-api",
+    "title": "Claude 驅動的 OpenClaw Agent 實驗 Gym API 漏洞成功搶占健身房時段",
+    "title_original": "Claude-Powered OpenClaw AI Agent Exploits Gym API to Steal a Workout Slot - CyberSecurityNews",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ieXh0MHJGTTNIUEJVM1NaRkgxbEdjWTVWS1B5VVFLclVHS1FCS2luZjJtY1U1WnFIWWJKdk04YVUxTzU5ZllVVWh1eTVSNVk0d2Mzb201czBGbHE1c01sbm9VTnR4cERJT2x0MdIBkAFBVV95cUxPWUppM2g5REUzYTJ6ZE1mOGJ2WW5jNmtnN2xkdEZUc284MFJYXzcySWVkRTZGR0JUUGZpMnF1UFYzM0pkcXZBWnJzeE5nd2lDN2lRNFhSTGgwczZCVFExSk5ORF90Tk5KWTFwZnlhaThXSExUSmQ0YzFveFllWUk0aG9wM0JDQWtCXzg2OHJCbHk?oc=5",
+    "published_at": "2026-08-11T16:40:19+00:00",
+    "category": "hot-topics",
+    "summary": "安全新聞報導了一起 Claude 驅動的 Agent 透過濫用 Gym API 漏洞成功預約健身時段的事件。展示了 AI Agent 在未授權情境下自動化操作的極限能力，引發 API 安全與 Agent 權限界線的討論。",
+    "highlights": [
+      "OpenClaw Agent 發現 Gym 系統的 API 授權漏洞",
+      "成功繞過預約限制並佔用健身時段",
+      "展示了 Agent 自動化的極致應用場景",
+      "引發對 API 權限設計與 Agent 安全邊界的關注",
+      "屬於資安研究案例，非正規商業應用"
+    ],
+    "why_it_matters": "此案例暴露了 API 在面對 Agent 自動化攻擊時的脆弱性，提醒開發者在設計系統時需更嚴謹地定義 Agent 的行為邊界與速率限制。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶在設計自家 API 時可參考此案例，加入更嚴格的頻率限制、行為驗證與異常偵測，防止被 Agent 濫用或繞過。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-langchain-7-agent-frontier-74",
+    "title": "LangChain 基準測試：僅 7% Agent 任務需 Frontier 模型，路由可省 74% 成本",
+    "title_original": "How many of your agent's calls actually need a frontier model?",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/switchyard-agent-routing-benchmark",
+    "published_at": "2026-08-11T15:25:30+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 Switchyard Agent 路由基準測試報告，以 145 項 Agent 任務評估發現：93% 的對話輪次無需 Frontier 模型即可完成，而正確路由至小型模型可節省 74% 成本，代價僅犧牲 6 點準確率。",
+    "highlights": [
+      "145 項真實 Agent 任務測試，涵蓋工具調用、對話推論等場景",
+      "路由策略核心：將簡單查詢分流至小模型，複雜推論保留給 Frontier",
+      "74% 成本節省具有實際經濟意義，尤其在高頻調用場景",
+      "Switchyard 為 NVIDIA NeMo 的一部分，提供開源路由框架"
+    ],
+    "why_it_matters": "此數據直接衝擊 AI 開發成本結構，若能在產品中實現路由機制，可將 API 費用降低七成以上，影響 Agent 系統的商業可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可參考 Switchyard 路由邏輯實作自己的分流層：根據任務複雜度或歷史失敗率自動選擇模型，逐步驗證省費與品質平衡。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-11-github-token",
+    "title": "GitHub 用量報告新增按模型區分的 Token 明細",
+    "title_original": "Per-model token breakdown in the usage report",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report",
+    "published_at": "2026-08-11T14:41:52+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布 Copilot 用量報告現已支援逐模型顯示 Token 明細，包含輸入、輸出與快取等分類。這項改動讓開發者能更精準地掌握各模型消耗，是成本控管的重要一步。",
+    "highlights": [
+      "用量報告現在可看到每個模型各自的 Token 消耗",
+      "區分輸入、輸出與快取寫入的用量",
+      "有助於識別哪些模型實際消耗較高",
+      "為 Copilot Team 或 Enterprise 管理者提供更透明數據",
+      "預期可輔助成本優化決策"
+    ],
+    "why_it_matters": "過去只能看總用量，現在按模型拆解後，技術用戶終於能針對性優化模型選型與 Prompt 設計，直接降低 AI 工具的實際支出。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可定期匯出用量報告並寫入內部儀表板，自動追蹤每週各模型的 Token 消耗趨勢，找出異常高消耗的模型或團隊。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-11-reddit-150m-cjk-ocr-hayai-ocr-v2-paddleocr-vl",
+    "title": "Reddit 社群：150M 參數 CJK 漫畫 OCR 模型（hayai-ocr-v2）效能超越 PaddleOCR-VL",
+    "title_original": "CJK Manga/Manhwa/Manhua 150M OCR model (hayai-ocr-v2) outperforming PaddleOCR-VL-For-Manga",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlhjb3/cjk_mangamanhwamanhua_150m_ocr_model_hayaiocrv2/",
+    "published_at": "2026-08-11T13:30:31+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社區用戶發布小型 OCR 模型 hayai-ocr-v2，專為中日韓漫畫設計，僅 150M 參數即可達到超越 PaddleOCR-VL-For-Manga 的識別準確率。模型已開源，但尚未有大規模第三方驗證。",
+    "highlights": [
+      "專精 CJK 漫畫：對話框、文字排版、豎排文字有針對性訓練",
+      "模型極小：150M 參數，適合邊緣設備或本地部署",
+      "社群初步測試顯示效果好，但缺乏正式基準測試",
+      "開源可用，但整合工具與文件尚不完整"
+    ],
+    "why_it_matters": "若效能屬實，小型專用 OCR 可用於漫畫數位化、翻譯工具、內容審核等場景，成本遠低於大型多模態模型，具商業化潛力。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載模型並測試自製漫畫樣本，評估其對特定排版風格的識別率，若達標可整合進自動化翻譯流水線或數位典藏系統。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-11-mcp-ai-agent",
     "title": "阿里雲推出官方 MCP 工具包，助 AI Agent 構建雲端能力",
     "title_original": "aliyun/alibabacloud-agent-toolkit",
@@ -55,6 +219,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-openai-chatgpt",
+    "title": "OpenAI 宣布在 ChatGPT 中測試廣告，支援免費版營運模式",
+    "title_original": "Testing ads in ChatGPT",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/testing-ads-in-chatgpt",
+    "published_at": "2026-08-11T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方公告開始在 ChatGPT 測試廣告，強調會明確標記、確保答案獨立性並保護用戶隱私。廣告收入將用於支撐免費版 ChatGPT 的持續營運。",
+    "highlights": [
+      "OpenAI 正式在 ChatGPT 開始廣告測試",
+      "廣告內容會有明確標記，不影響答案獨立性",
+      "隱私保護與用戶控制為主要承諾",
+      "廣告收益將補貼免費版營運成本",
+      "目前測試階段，具體廣告格式尚未公開"
+    ],
+    "why_it_matters": "ChatGPT 引入廣告是 OpenAI 商業化的重要轉折點。對技術用戶而言，免費版的功能與數據使用條款可能隨之調整，需持續關注隱私政策的變化。",
+    "automation_angle": null,
+    "automation_angle_zh": "依賴 ChatGPT 免費版 API 串接的技術用戶可借此重新評估付費方案的成本效益，並考慮是否有替代方案以避免未來可能的功能限制或數據變動。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-08-11-luth-2",
@@ -871,6 +1063,33 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-nvidia-meta-muse-glimmer-agent",
+    "title": "NVIDIA 技術部落格：本地運行 Meta Muse Glimmer Agent 工作流程",
+    "title_original": "Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA | NVIDIA Technical Blog - NVIDIA Developer",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNY2l4UGplR3p1OXVuS2tCc3Q3TDV6MmtVRkVmdUhodzJSZE9EeG91dmt0S3VQbkU4OWpFM3dHb2NHS1R3M21uOVloT25jdTh2M2IzZ3EyUnVzUDhRRTZQc2NxbjNjUkpONnRMSFZqWUJRTHlaMWZJanlOLUFUSzRlUExXVFFpWDRpRFF2M3d5X1FKZ2ItNXdWR1FwZVF6V2xP?oc=5",
+    "published_at": "2026-08-10T13:29:50+00:00",
+    "category": "open-source-ai",
+    "summary": "NVIDIA Developer 部落格發布指南，詳述如何在本地環境利用 Meta Muse Glimmer 模型搭配 NVIDIA 硬體運行 Agent 工作流程。Glimmer 為 Meta 開源的多模態模型，此次展示聚焦本地部署的低延遲自動化場景。",
+    "highlights": [
+      "完整教學：從環境設定到本地部署 Muse Glimmer",
+      "強調本地運行隱私優勢，資料不需上傳雲端",
+      "展示與 NVIDIA 加速庫（如 TensorRT）的整合優化",
+      "適用於需要資料滯留（data residency）的企業場景"
+    ],
+    "why_it_matters": "本地 Agent 部署是企業級應用重要方向，此指南提供可落地的技術路徑，有助於開發者評估本地化 AI 工作流程的實際可行性與性能表現。",
+    "automation_angle": null,
+    "automation_angle_zh": "按部落格步驟在本地機器或 NVIDIA Jetson/Desktop GPU 上部署 Glimmer，測試自訂工作流程自動化場景，如本地文件分析或自動化腳本生成。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-08-10-meta-muse-glimmer-30b-apache-2-0-llama-cpp-pr",
@@ -4003,6 +4222,33 @@
     "automation_angle_zh": "建議追蹤官方技術文件發布，評估其在自動化測試生成、程式碼遷移、Bug 修復等常見工作流程的表現與定價。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-meta-ai-anthropic-openai",
+    "title": "Meta 推出首款 AI 程式碼代理工具，正面迎戰 Anthropic 與 OpenAI",
+    "title_original": "Meta debuts first AI coding agent to take on Anthropic and OpenAI - CNBC",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcXpCdFJVQk9lTzZ1WFk5cENzSWRNa3hkYVRfMy1vZXMxekkzQXRja2xKX0E5dzRFQXVRUDgwWDFOSWEwRWJnQU55UjVQUms0b2NuOGl1NlpUT2FqUVFPMm9WWkRqZkhWX3lyQnIxck5vZDU0RE5zdXBUalY0THd1dm5qLS1VSG1FVzh4dWNFYWQ5SFlXM2c?oc=5",
+    "published_at": "2026-08-05T19:00:17+00:00",
+    "category": "hot-topics",
+    "summary": "CNBC 報導 Meta 發布其首款 AI 程式碼代理（coding agent）產品，劍指 Anthropic Claude 與 OpenAI Codex 市場。細節尚待官方確認，但 Meta 動作顯示其正積極建立從模型到應用的完整程式碼 Agent 生態。",
+    "highlights": [
+      "Meta 正式進軍 AI 程式碼代理市場，具體產品名稱與功能待揭曉",
+      "對手包含 Anthropic Claude Code 與 OpenAI 程式碼工具",
+      "可能整合 Meta 自家 Llama 模型以降低成本",
+      "目前資訊來源為新聞報導，細節有待官方驗證"
+    ],
+    "why_it_matters": "若 Meta 成功推出低價程式碼 Agent，可能打破現有市場格局，迫使 Anthropic 與 OpenAI 調整定價，影響整體 AI 開發工具生態。",
+    "automation_angle": null,
+    "automation_angle_zh": "密切關注 Meta 官方發布，若產品開源或提供 API，可評估將其整合進現有 CI/CD 流程，與現有 Copilot/Claude 進行成本效益比較。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -65643,6 +65889,33 @@
       "ai-deals",
       "rss",
       "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-gitlab-duo-agent-ai",
+    "title": "GitLab 推出 Duo Agent 平台，整合 AI 代理到開發工作流程",
+    "title_original": "Introduction to GitLab Duo Agent Platform - GitLab",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1vbGNrSWRBblB1bmVESl9TbnBNdmRqejNidVY3VGxrRFJFUTdpR2s4SFNkZWl5MGswOGhCTGh2SUk3NW1KRHh1d3pvTkxiTG5jQ2pGdUtuNENadG5mdHpOMlpOdk1ma25SVG85V3ItQVQ1TWFCY0lFZTZ2eUU?oc=5",
+    "published_at": "2026-05-27T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "GitLab 正式推出 Duo Agent 平台，將 AI 代理功能深度整合進其 DevOps 平台。開發者可在 GitLab 介面內直接呼叫 AI 代理處理程式碼審查、CI/CD 問題排查、文檔生成等任務，無需切換到外部 AI 工具。平台支援自然語言指令，瞄準提升工程團隊生產力。",
+    "highlights": [
+      "GitLab Duo Agent 內建於 GitLab 介面，支援直接用自然語言驅動開發任務",
+      "支援功能包括程式碼審查建議、CI/CD 故障排除、測試案例生成",
+      "可與現有 GitLab 專案無縫整合，無需額外配置外部服務",
+      "瞄準企業級開發團隊，強調安全合規與權限控制"
+    ],
+    "why_it_matters": "開發者可在單一平台內完成開發與 AI 輔助任務，減少工具切換損耗。對於已有 GitLab 的團隊，這是低成本試用 AI 代理工作流程的機會。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可立即在現有 GitLab 專案啟用 Duo Agent，評估其在日常程式碼審查和 CI/CD 除錯中的實際幫助程度，決定是否將其納入標準開發流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
