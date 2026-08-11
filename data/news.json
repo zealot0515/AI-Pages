@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-08-11-mcp-ai-agent",
+    "title": "阿里雲推出官方 MCP 工具包，助 AI Agent 構建雲端能力",
+    "title_original": "aliyun/alibabacloud-agent-toolkit",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aliyun/alibabacloud-agent-toolkit",
+    "published_at": "2026-08-11T12:29:16Z",
+    "category": "agent-skills",
+    "summary": "阿里雲發布官方 MCP（Model Context Protocol）工具包，包含 MCP Servers、Skills 與 Plugins，協助 AI Agent 直接调用阿里雲服務。現僅 16 stars，屬早期專案。",
+    "highlights": [
+      "阿里雲官方維護的非開源 MCP 工具包",
+      "提供 Skills 與 Plugins 擴展 AI Agent 能力",
+      "可直接整合阿里雲 OSS、函數計算等服務",
+      "現為早期階段，功能成熟度待驗證",
+      "Python 語言，適合快速原型開發"
+    ],
+    "why_it_matters": "若 MCP 工具包功能完整，可讓 AI Agent 直接操作阿里雲資源，省去手動 API 包裝，提升雲端自動化效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可安裝此工具包，測試讓 Agent 自動建立 OSS bucket 或触發函數計算，驗證雲端資源操作的自動化可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/941070?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-reddit-ai",
+    "title": "Reddit 熱議：小參數開源模型對 AI 開發格局的衝擊",
+    "title_original": "The small open weight models are scarier in AI development",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlfyn4/the_small_open_weight_models_are_scarier_in_ai/",
+    "published_at": "2026-08-11T12:23:56+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串指出，隨著小參數開源模型（如 Qwen2.5、Phi-3-mini）能力提升，本地部署門檻降低，可能顛覆傳統 AI 應用開發模式。",
+    "highlights": [
+      "社群討論，非特定產品發布",
+      "小模型量化後可在消費級 GPU 運行",
+      "本地部署可省下大量 API 費用",
+      "特定領域 fine-tuning 後效能逼近大模型",
+      "討論涵蓋成本、延遲與隱私取捨"
+    ],
+    "why_it_matters": "對成本敏感或需隱私保護的技術人員，小開源模型的崛起提供了除商業 API 外的可行替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可評估手頭工作流程中哪些環節可改用量化後的小模型本地執行，計算省下的 API 成本與效能損耗比。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-luth-2",
+    "title": "Luth-2：法語小語言模型新標杆，專為法語場景優化",
+    "title_original": "Luth-2: New State-of-the-Art French Small Language Models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlbto8/luth2_new_stateoftheart_french_small_language/",
+    "published_at": "2026-08-11T08:41:13+00:00",
+    "category": "new-models",
+    "summary": "法國研究團隊發布 Luth-2 系列小語言模型，在法語理解與生成任務上達到 State-of-the-Art 表現。模型開源可供本地部署，適合需要法語處理能力的應用場景。",
+    "highlights": [
+      "法語專精，小參數設計",
+      "法語任務達到 SOTA 水準",
+      "開源可本地部署，無 API 依賴",
+      "適合跨境電商、法務、金融法語應用",
+      "具體參數量與 benchmark 數據待查"
+    ],
+    "why_it_matters": "若需處理法語文件、客服或內容審核，Luth-2 可作為低成本本地方案，避免通用模型在法語上的語法錯誤或文化誤解。",
+    "automation_angle": null,
+    "automation_angle_zh": "對有法語需求的技術人員，可測試 Luth-2 替換現有通用模型處理法語客戶服務或文件翻譯流程，評估準確率與延遲。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-reddit-8b-12b",
+    "title": "Reddit 熱議：為何 8B-12B 模型似乎被放棄了？",
+    "title_original": "Why have 8B-12B models been dropped?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlazx6/why_have_8b12b_models_been_dropped/",
+    "published_at": "2026-08-11T07:52:50+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 社群熱烈討論為何中小型模型（8B-12B 參數級別）近期似乎被主流開發者冷落。網友指出大模型發布節奏加快、效能差距擴大、以及本地部署需求變化等因素，導致社群注意力轉向更大規模的模型。",
+    "highlights": [
+      "討論核心：8B-12B 模型是否仍值得本地部署",
+      "主要觀點：大模型能力提升速度快，中型模型性價比下降",
+      "技術分歧：部分開發者仍偏好中型模型的隱私與延遲優勢",
+      "社群態度：多數用戶已轉向嘗試更大規模模型",
+      "尚未有明確數據支援中型模型被全面放棄的結論"
+    ],
+    "why_it_matters": "對於需要本地部署 LLM 的技術用戶而言，了解中型模型的發展趨勢有助於評估何種規格最符合成本效益與效能需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可比較不同參數量模型在特定任務（如文案生成、程式碼補全）上的實際表現與資源消耗，找出最佳投入產出比。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-11-paranoia-local-mcp-agent",
     "title": "paranoia-local：用本地 MCP 實現跨 Agent 對抗性程式碼審查",
     "title_original": "subvertnormality/paranoia-local",
