@@ -1,5 +1,232 @@
 [
   {
+    "id": "2026-08-11-srclight-mcp-25",
+    "title": "SrcLight：深度程式碼索引 MCP 伺服器，25 種工具支援本地全域搜尋",
+    "title_original": "srclight/srclight",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/srclight/srclight",
+    "published_at": "2026-08-11T00:57:21Z",
+    "category": "agent-skills",
+    "summary": "SrcLight 是一款 Python 實現的 MCP 伺服器，提供深度程式碼索引能力。25 種工具涵蓋混合 FTS5 + 向量搜尋、呼叫圖譜、git blame 熱點分析、編譯系統解析。支援多 Repo 工作區、GPU 加速語意搜尋、十種語言的 tree-sitter 解析，全本地運行無雲依賴。",
+    "highlights": [
+      "混合搜尋：結合傳統 FTS5 與向量語意搜尋，召回率更高",
+      "呼叫圖譜：快速理解函式呼叫關係，加速大型重構",
+      "熱點分析：透過 git blame 識別變更頻繁的維護地獄區塊",
+      "多 Repo 工作區：支援同時索引多個專案，適合 monorepo 場景",
+      "GPU 加速：語意搜尋支援 CUDA，處理大型程式碼庫更有效率"
+    ],
+    "why_it_matters": "對需要讓 AI Agent 深度理解程式碼庫的開發者，SrcLight 提供本地、零成本、高可控的程式碼索引方案，特別適合有資安或隱私需求的企業環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 SrcLight 部署在本地程式碼伺服器，讓 AI Agent 具備跨 Repo 搜尋與理解能力，例如自動找出某 API 的所有呼叫點並評估影響範圍。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/263461239?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-devwebui-gui-mcp",
+    "title": "DevWebUI：本地開發伺服器的 GUI + MCP 控制平面",
+    "title_original": "LunarWerxs/DevWebUI",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/LunarWerxs/DevWebUI",
+    "published_at": "2026-08-11T00:47:03Z",
+    "category": "agent-skills",
+    "summary": "LunarWerxs/DevWebUI 為本地開發伺服器提供 GUI 介面與 MCP 控制平面，人類可點擊操作同一支 Daemon，Agent 也能自動化相同動作。現支援 TypeScript，14 顆星。",
+    "highlights": [
+      "提供人類與 Agent 共享的 MCP 控制平面",
+      "支援本地 Dev Server 的 GUI 操作",
+      "TypeScript 實作，可直接閱讀原始碼",
+      "Stars 數僅 14，屬新興專案",
+      "人機協作模式：點擊與自動化作為同一Daemon"
+    ],
+    "why_it_matters": "為 Agent 自動化本地開發環境提供標準控制介面，解決人類操作與 Agent 操作的介面一致性问題。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者今天就能 clone repo，部署後將本地服務納入 MCP 生态，測試人機協作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/245787895?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-visual-ui-debug-agent-mcp-dom-ui",
+    "title": "Visual UI Debug Agent MCP：截圖 + DOM 檢測的視覺化 UI 自動化測試工具",
+    "title_original": "samihalawa/visual-ui-debug-agent-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/samihalawa/visual-ui-debug-agent-mcp",
+    "published_at": "2026-08-11T00:44:23Z",
+    "category": "agent-skills",
+    "summary": "一款以 Playwright 為核心的 MCP 伺服器，專攻視覺化 UI 測試與自動化除錯。支援截圖比對、DOM 檢測、工作流程驗證與視覺差異偵測。GitHub 已有 80 顆星，技術實作明確，今天即可部署測試。",
+    "highlights": [
+      "基於 Playwright：業界主流瀏覽器自動化框架，生態成熟",
+      "截圖比對：支援視覺差異偵測，快速發現 UI 回歸問題",
+      "DOM 檢測：可取用頁面元素結構，輔助定位問題根因",
+      "工作流程驗證：可設定場景步驟，自動確認流程正確性",
+      "JavaScript 實現：門檻低，與多數前端工具鏈無縫整合"
+    ],
+    "why_it_matters": "對需要自動化 UI 測試的技術團隊，此 MCP 工具可讓 Agent 直接操作瀏覽器並比對視覺結果，大幅降低視覺回歸檢測的人工成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此 MCP 整合進 CI/CD 流程，讓 AI Agent 在每次部署後自動截圖比對關鍵頁面，發現 UI 異動時自動提報問題。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3243470?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-meta-muse-glimmer-30b-apache-2-0-agent",
+    "title": "Meta Muse Glimmer：30B 參數開源模型，Apache 2.0 授權主打 Agent 任務完成",
+    "title_original": "Introducing Muse Glimmer",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+    "published_at": "2026-08-10T23:56:03+00:00",
+    "category": "open-source-ai",
+    "summary": "Meta 發布 Muse Glimmer，30B 參數量，Apache 2.0 開源授權。專為 Agent 任務完成優化，在 DeepSearch QA、MCP-Atlas、τ-Bench、SWE-Bench 等指標表現突出。支援工具呼叫、長程推論與視覺理解，Simon Willison 已實測可用。",
+    "highlights": [
+      "Apache 2.0 授權：比 Llama 家族更乾淨的開源條款，商業使用無憂",
+      "Agent 能力驗證：在 SWE-Bench 等程式碼任務上表現優異",
+      "工具呼叫穩定：支援廣泛函式呼叫，適合串接 MCP 等工具生態",
+      "視覺理解能力：可解析圖片內容，實測 pelican 辨識正確",
+      "記憶體友好：18.16 GB 版本適合 32GB+ RAM 機器本地運行"
+    ],
+    "why_it_matters": "Muse Glimmer 填補了開源社群對高質量 Agent 專用模型的需求缺口，Apache 2.0 授權降低了企業採用門檻，是值得關注的本地模型新選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可透過 LM Studio 或 LLM 插件本地部署 Muse Glimmer，立即用於自動化程式碼審查、多步驟工具串接等 Agent 工作流程實驗。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-200-1b-llm",
+    "title": "社群玩家以200美元成本從頭訓練1B參數LLM",
+    "title_original": "I trained a 1B-parameter LLM from scratch on 20B tokens for about $200",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkydi5/i_trained_a_1bparameter_llm_from_scratch_on_20b/",
+    "published_at": "2026-08-10T21:44:43+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA用戶分享使用約20B tokens資料集從頭訓練1B參數語言模型的經驗，整個訓練流程僅花費約200美元成本。此案例展示了小型LLM個人化訓練的經濟可行性，可能降低AI開發者實驗門檻。",
+    "highlights": [
+      "訓練語料約20B tokens，屬於中小規模資料集",
+      "總成本約200美元，硬體以消費級GPU為主",
+      "從零開始預訓練，非微調或RLHF",
+      "訓練細節含框架選擇、超參數設定等實作經驗",
+      "屬於社群驗證案例，非正式學術論文"
+    ],
+    "why_it_matters": "小型模型從頭訓練的廉價化，代表個人開發者或小型團隊也能負擔得起定制LLM的預訓練成本。這將加速特定領域模型的快速迭代與實驗。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可評估此訓練流程模板，用於快速建立內部領域專屬模型，或作為低成本模型能力驗證的實驗起點。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-muse-glimmer-30b-vs-qwen-3-6-27b-vs-deepseek-v4-flash",
+    "title": "本地模型網頁設計基準測試：Muse Glimmer 30B vs Qwen 3.6 27B vs Deepseek V4 Flash",
+    "title_original": "I made a web-design benchmark for local models (Muse Glimmer 30B vs Qwen 3.6 27b vs Deepseek V4 Flash 0731)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkvdg0/i_made_a_webdesign_benchmark_for_local_models/",
+    "published_at": "2026-08-10T19:52:40+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶發布自建網頁設計基準測試，比較 Muse Glimmer 30B、Qwen 3.6 27B 與 Deepseek V4 Flash 0731 在網頁 UI 生成任務上的表現。屬社群自測，缺乏標準化驗證。",
+    "highlights": [
+      "三款本地模型對比：Muse Glimmer、Qwen 3.6、Deepseek V4 Flash",
+      "聚焦網頁設計任務，而非通用能力",
+      "社群自建基準，非學術或官方測試",
+      "可作為初步篩選參考",
+      "缺乏統計顯著性與標準化條件"
+    ],
+    "why_it_matters": "為本地模型部署者提供網頁設計場景的初步效能參考，但結果需自行驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可用相同 Prompt 測試自己部署的模型，快速評估是否符合網頁設計自動化需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-muse-glimmer-30b-opencode-agent",
+    "title": "Muse Glimmer 30B 本地編程實測：搭配 OpenCode 進行 Agent 工作",
+    "title_original": "Tested Muse Glimmer locally on coding with OpenCode & agentic work",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkvc1z/tested_muse_glimmer_locally_on_coding_with/",
+    "published_at": "2026-08-10T19:51:16+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享 Muse Glimmer 30B 在編程任務上的本地實測，搭配 OpenCode 使用時展現 Agent 工作能力。屬個人體驗報告，硬體配置與任務範圍不明確。",
+    "highlights": [
+      "Muse Glimmer 30B 搭配 OpenCode 使用",
+      "實測 Agent 模式工作流程程",
+      "屬個人體驗，非系統性評測",
+      "硬體配置（VRAM等）未披露",
+      "30B 參數量級的本地部署可行性驗證"
+    ],
+    "why_it_matters": "30B 模型在本地環境展現 Agent 編程潛力，若能在消費級 GPU 運行則具實際意義。",
+    "automation_angle": null,
+    "automation_angle_zh": "有相應 VRAM 的技術用戶可嘗試部署 Muse Glimmer 搭配 OpenCode，驗證本地程式碼自動化可行性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-reddit-claude-code",
+    "title": "Reddit 熱議：開源界有類似 Claude Code 的工具嗎？",
+    "title_original": "Best open-source harness like Claude Code?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vktpl2/best_opensource_harness_like_claude_code/",
+    "published_at": "2026-08-10T18:51:42+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串詢問開源社群是否有對標 Claude Code 的 AI 程式設計輔助工具。回應涉及 Continue.dev、Cursor、OpenCode 等選項，反映技術用戶對本地化 Agent 程式設計工具的需求。",
+    "highlights": [
+      "Continue.dev 被多次提及作為開源替代",
+      "Cursor 提供本地模式但非完全開源",
+      "OpenCode 作為輕量選項被討論",
+      "顯示市場對本地化 Claude Code 替代品的需求",
+      "回應質量參差不齊，缺乏系統性比較"
+    ],
+    "why_it_matters": "技術用戶對完全開源、可自架的程式設計 Agent 工具需求明確，市場缺口明顯。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可評估 Continue.dev 或 OpenCode，測試其在本機環境與現有 IDE 的整合效果。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-10-solana-glossary-mcp-1000-sdk",
     "title": "Solana Glossary MCP：1000+術語的區塊鏈詞典 SDK 與代理技能",
     "title_original": "solanabr/solana-glossary",
@@ -899,6 +1126,62 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-11-zapier-chatgpt-work",
+    "title": "Zapier 分享如何用 ChatGPT Work 改造核心行銷流程",
+    "title_original": "How Zapier transformed core marketing processes with ChatGPT Work",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/zapier",
+    "published_at": "2026-08-10T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Zapier 企業行銷團隊採用 ChatGPT Work，針對潛在客戶漏斗流失問題進行優化，同時用於建立活動素材與自動化報表生成。官方部落格強調可縮短決策週期，但屬於行銷案例而非功能更新。",
+    "highlights": [
+      "針對潛在客戶漏斗 Drop-off 環節優化",
+      "用於快速生成行銷活動素材",
+      "串接現有系統自動化報表流程",
+      "屬 OpenAI 官方案例分享，非新功能發布",
+      "缺乏可複製的技術實作細節"
+    ],
+    "why_it_matters": "企業應用案例反映 AI 整合趨勢，但行銷 PR 內容缺乏技術深度，技術讀者價值有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考其自動化報表的思路，用 ChatGPT Work API 串接自家 CRM 系統實作類似流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-virgin-atlantic-chatgpt-work",
+    "title": "Virgin Atlantic 用 ChatGPT Work 加速客戶旅程研究與產品規劃",
+    "title_original": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+    "published_at": "2026-08-10T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Virgin Atlantic 採用 ChatGPT Work 加速研究流程、產品規劃與決策速度，幫助團隊串聯客戶旅程各觸點的訊號。屬官方行銷案例，強調跨部門協作效率。",
+    "highlights": [
+      "用於研究與產品規劃階段",
+      "強調跨觸點訊號串聯能力",
+      "官方 OpenAI 合作案例",
+      "缺乏具體技術架構或成本數據",
+      "企業行銷導向內容"
+    ],
+    "why_it_matters": "展示航空業如何用 AI 工具整合客戶旅程數據，但行銷內容稀釋了技術實作參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可借鑒其訊號串聯概念，用 ChatGPT Work API 建構自家客戶旅程分析 Pipeline。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-10-claude-opus-5",
