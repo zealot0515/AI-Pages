@@ -1,5 +1,147 @@
 [
   {
+    "id": "2026-08-11-paranoia-local-mcp-agent",
+    "title": "paranoia-local：用本地 MCP 實現跨 Agent 對抗性程式碼審查",
+    "title_original": "subvertnormality/paranoia-local",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/subvertnormality/paranoia-local",
+    "published_at": "2026-08-11T06:47:22Z",
+    "category": "agent-skills",
+    "summary": "paranoia-local 是一個本地 MCP 伺服器，讓 Claude Code 與 Codex CLI 互相對彼此的程式碼進行對抗性批評，雙方均保有完整 Repo 存取權限，適合用於提升程式碼品質的自動化審查流程。",
+    "highlights": [
+      "Claude Code 與 Codex CLI 互相 critiques，形成對抗審查",
+      "本地 MCP 架構，無需數據外送，保障隱私",
+      "各自使用自己的訂閱，無需額外付費即可實驗",
+      "Stars 12，處於早期階段，功能成熟度待驗證",
+      "Python 實現，可擴展或自訂審查規則"
+    ],
+    "why_it_matters": "對抗性審查是一種低成本提升程式碼品質的思路，且完全本地運行不消耗外部 API 配額，技術團隊可評估其是否能替代部分人工 Code Review 工作。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將 paranoia-local 接入自己的 CI/CD 或 Git Hook 流程，在每次 Push 時觸發跨模型對抗審查，自動收集兩套模型的建議並合併報告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/5106848?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-pdfvision-cli-mcp-ai-agent-pdf",
+    "title": "pdfvision：CLI 與 MCP 伺服器，幫 AI Agent 精準提取 PDF 文字、版面與圖片",
+    "title_original": "yamadashy/pdfvision",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/yamadashy/pdfvision",
+    "published_at": "2026-08-11T06:34:59Z",
+    "category": "agent-skills",
+    "summary": "pdfvision 是一個 TypeScript 实现的 CLI 工具與 MCP 伺服器，專門將 PDF 的文字、版面結構與每頁圖片交給 AI Agent 處理。當提取失敗時，會逐頁說明失敗原因與修復建議，提升除錯效率。",
+    "highlights": [
+      "提取文字、版面結構與每頁圖片三大維度",
+      "失敗時逐頁報告原因與修復建議，而非直接沉默失敗",
+      "同時提供 CLI、MCP 伺服器與 TypeScript 函式庫三種介面",
+      "Stars 12，TypeScript 實現，易於整合進現有 Node 專案",
+      "可直接讓 Agent 理解 PDF 內容並執行下游任務"
+    ],
+    "why_it_matters": "PDF 是企業資料交換的常見格式，pdfvision 為 AI Agent 提供了一個可靠的多模態 PDF 理解管道，尤其適合文件分析、報告摘要與資料歸檔自動化場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 pdfvision MCP 接入自己的工作流程 Agent，讓 Agent 自動解析 PDF 發票、合同或技術文件，提煉關鍵資訊寫入資料庫或生成摘要報告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/5019072?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-aeman-github-projects-v2-mcp",
+    "title": "aeman：基於 GitHub Projects v2 的工程團隊短期規劃系統，附 MCP 介面",
+    "title_original": "aenix-io/aeman",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aenix-io/aeman",
+    "published_at": "2026-08-11T06:17:04Z",
+    "category": "agent-skills",
+    "summary": "aeman 是一款用 Go 打造的短期規劃工具，基於 GitHub Projects v2 運作，無需自建資料庫。提供 REST API、MCP 伺服器供 AI Agent 接入，並透過 WebSocket 實現即時面板更新，瞄準工程團隊的 Sprint 管理需求。",
+    "highlights": [
+      "基於 GitHub Projects v2，無需額外資料庫或維運成本",
+      "Go 單一二進位檔案，部署極簡",
+      "內建 MCP 伺服器，AI Agent 可直接操作 Sprint 事項",
+      "React 前端 + WebSocket 即時更新，使用體驗流暢",
+      "Stars 25，工程師友好，適合自託管"
+    ],
+    "why_it_matters": "將工程規劃系統與 AI Agent 直接打通，讓 Agent 能讀寫卡片、更新進度、追蹤非計劃工作，技術團隊可借此實現更高程度的流程自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 aeman 的 MCP 介面與自己的 AI Agent 整合，讓 Agent 自動建立每日任務卡片、標記非計劃工作比例，並將 Sprint 狀態摘要寫入工作日誌。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/150755121?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-kt-google-ai",
+    "title": "韓國電信 KT 將把 Google 生成式 AI 服務與雲端儲存捆綁至通信費用方案",
+    "title_original": "KT將推出將谷歌的生成型人工智慧(AI)服务和雲存储空间捆绑在通信费用制的商品。 在现有的Choice收费制度中提供的在線影片服务(OTT)和设备打折等訂閱優惠中,谷歌AI增加了新的选择。KT11日表.. - 매일경제",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE54YURoM2dWN3BraUFoYmdEcjVncUJ4MXM0OXlNdmw0eFRveE1OUGZOTk1HekZFdlk3V2ZxMVBGbjZHTnNHeE9yaDJjbw?oc=5",
+    "published_at": "2026-08-11T02:23:28+00:00",
+    "category": "ai-deals",
+    "summary": "韓國電信業者 KT 宣布將 Google 生成式 AI 服務及雲端儲存空間整合進其現有的 Choice 收費制度。原本的 OTT 影片、設備折扣等訂閱優惠中新增 Google AI 選項，用戶可透過通信費用方案獲得 AI 服務。",
+    "highlights": [
+      "KT 將 Google AI 服務納入電信資費方案",
+      "結合雲端儲存空間一併提供",
+      "屬於韓國電信整合 AI 服務趨勢",
+      "用戶可透過電信帳單獲得 AI 服務額度"
+    ],
+    "why_it_matters": "電信與 AI 服務整合可能提供新的優惠渠道，技術用戶可關注是否有更優惠的 AI 使用成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "若在韓國使用，可評估該方案是否比直接訂閱 Google AI 更划算，用於自動化工作負載。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-meta-muse-glimmer-30b-google-gemma-4-31b",
+    "title": "Meta 發布本地運行開源模型「Muse Glimmer」，宣稱 30B 規模效能超越 Google Gemma 4 31B",
+    "title_original": "Meta has released 'Muse Glimmer,' an open-source model that runs locally, and claims it performs better than Google's Gemma 4 31B on the 30B. - GIGAZINE",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjQWlnV2xEOGV0WHJtX29kUk81eUEwM0VVZU1mU1M3Z3ZzMHRQRWlQTEQ1WE1WckxBN1VzMktvdDRUQnoyOUtVaTVmYUtmRER5Nm41eVBvVkxhWmxYaXNiZllkUTNvMW1SU3djVw?oc=5",
+    "published_at": "2026-08-11T01:58:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Meta 發布「Muse Glimmer」開源模型，可本地運行，Meta 聲稱在 30B 規模下效能超越 Google Gemma 4 31B。此模型為 Meta 開放權重策略的一部分，降低開發者使用 AI 模型的門檻，讓技術用戶能在本地環境中部署高效能模型。",
+    "highlights": [
+      "可本地運行，無需雲端 API 依賴",
+      "Meta 聲稱 30B 規模效能超越 Gemma 4 31B",
+      "開放權重模型，允許自由微調和部署",
+      "屬於 Meta 持續推進開源 AI 策略的一部分",
+      "提供技術用戶省費用的替代方案"
+    ],
+    "why_it_matters": "本地運行可省去 API 呼叫費用，開源權重允許自行微調，聲稱的效能領先同規模競品，技術人員應評估是否能替換現有付費方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載模型至本地環境，測試是否能完成原本需付費 API 的自動化任務，計算 ROI。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-11-srclight-mcp-25",
     "title": "SrcLight：深度程式碼索引 MCP 伺服器，25 種工具支援本地全域搜尋",
     "title_original": "srclight/srclight",
@@ -87,6 +229,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-11-reddit-muse-glimmer-qwen-gemma",
+    "title": "Reddit 網友觀察：Muse Glimmer 推論軌跡明顯不同於 Qwen / Gemma 模型",
+    "title_original": "Observations on Muse-Glimmer reasoning traces being noticeably different from qwen / gemma models and questions for you guys",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vl2iio/observations_on_museglimmer_reasoning_traces/",
+    "published_at": "2026-08-11T00:38:24+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 討論串指出，Muse Glimmer 的推論軌跡（reasoning traces）與 Qwen、Gemma 模型有明顯差異。發文者分享觀察到的模式差異，並向社群提問尋求解釋，暗示該模型可能有獨特的推論架構或訓練方法。",
+    "highlights": [
+      "推論軌跡與 Qwen、Gemma 風格明顯不同",
+      "社群技術用戶正在分析內部推論模式",
+      "可能反映獨特的訓練或架構設計",
+      "討論尚在初步階段，缺乏官方說明"
+    ],
+    "why_it_matters": "推論方式的差異可能影響模型在特定任務上的表現，理解這些差異有助技術人員選擇適合的工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "觀察推論軌跡差異，評估該模型是否適合需要逐步推論的自動化工作流程程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-11-meta-muse-glimmer-30b-apache-2-0-agent",
     "title": "Meta Muse Glimmer：30B 參數開源模型，Apache 2.0 授權主打 Agent 任務完成",
     "title_original": "Introducing Muse Glimmer",
@@ -136,6 +305,60 @@
     "automation_angle_zh": "技術人員可評估此訓練流程模板，用於快速建立內部領域專屬模型，或作為低成本模型能力驗證的實驗起點。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-reddit-muse-glimmer",
+    "title": "Reddit 網友分享 Muse Glimmer 基準測試結果",
+    "title_original": "Muse glimmer benchmark",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkxpnd/muse_glimmer_benchmark/",
+    "published_at": "2026-08-10T21:19:10+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 用戶發布 Muse Glimmer 的基準測試結果，社群成員正在討論該模型在各項標準測試中的表現。測試結果尚未有共識，技術用戶正在自行驗證 Meta 的效能聲稱。",
+    "highlights": [
+      "社群正在進行獨立基準測試",
+      "測試結果尚未形成共識",
+      "技術用戶嘗試驗證官方聲稱效能",
+      "可作為評估模型真實表現的參考"
+    ],
+    "why_it_matters": "社群測試結果可幫助技術用戶驗證模型效能，避免僅依賴官方說法。",
+    "automation_angle": null,
+    "automation_angle_zh": "等待社群完整測試報告出爐，據以判斷模型是否值得投入生產環境。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-muse-spark-1-2-llama-4-behemoth",
+    "title": "Muse Spark 1.2 開源發布，趕在 Llama 4 Behemoth 之前？",
+    "title_original": "Muse Spark 1.2 Open Source before Llama 4 Behemoth!!?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkw0f7/muse_spark_12_open_source_before_llama_4_behemoth/",
+    "published_at": "2026-08-10T20:15:26+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 討論串提到 Muse Spark 1.2 已開源，有用戶以「趕在 Llama 4 Behemoth 之前」為標題，暗示該模型與 Meta 下一代開源模型的競爭關係。詳細規格與效能數據尚待社群進一步確認。",
+    "highlights": [
+      "Muse Spark 1.2 已開源發布",
+      "開源模型之間競爭激烈",
+      "Llama 4 傳闻即將發布",
+      "詳細規格待驗證"
+    ],
+    "why_it_matters": "開源模型生態持續快速演進，多個新模型接連發布，技術用戶有更多選擇可評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注後續效能評測，比較 Muse Spark 1.2 與其他開源模型在自動化任務上的適用性。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
@@ -591,6 +814,33 @@
       "C#"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/7303054?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-11-meta-ai-zuckerberg",
+    "title": "Meta 發布新 AI 模型，Zuckerberg 持續推動開放權重策略",
+    "title_original": "Meta launches new AI model as Zuckerberg champions open-weight push - Reuters",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOR21CNUV6bEJhdkl2SU1sOTRiM0N2MnVJTjhJV3YyY20wcFdHUmNOUW1lWUlVcnZLeGpnNlhYQkZCTGhpR0ZIOEp0U0VZWDlQLVdZZFFqQ196X241R1hLVXpXMU5Xclo3SFBxWHRRY1pFeTFHeEFEVDlCbDdwbWpRQUhROTFKRGFZSGE2QkhZSjdLVmJqVGdUWmFRT2R3WjhxZXptdEt3UG1KNVVqRWZOZUpR?oc=5",
+    "published_at": "2026-08-10T12:26:21+00:00",
+    "category": "open-source-ai",
+    "summary": "路透社報導 Meta 發布新 AI 模型，Zuckerberg 在公開場合重申對開放權重（open-weight）的支援。此舉延續 Meta 近年來的開源 AI 策略，旨在擴大其 AI 生態系統的影響力與開發者採用率。",
+    "highlights": [
+      "Meta CEO Zuckerberg 公開支援開放權重",
+      "新模型延續開源策略",
+      "旨在擴大 Meta AI 生態系統",
+      "路透社報導，可信度較高"
+    ],
+    "why_it_matters": "Meta 持續押注開源 AI，技術用戶可期待更多可本地部署、功能強大的模型選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注新模型的具體規格與許可證，評估對現有開源替代方案的影響。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
