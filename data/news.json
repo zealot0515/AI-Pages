@@ -1,5 +1,175 @@
 [
   {
+    "id": "2026-08-12-sub-agents-directory-100-claude-code-mcp",
+    "title": "Sub-Agents Directory：收錄 100+ 款 Claude Code 子代理提示詞與 MCP 工具",
+    "title_original": "ayush-that/sub-agents.directory",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ayush-that/sub-agents.directory",
+    "published_at": "2026-08-12T12:42:26Z",
+    "category": "agent-skills",
+    "summary": "Sub-Agents Directory 是專為 Claude Code 整理的子代理提示詞與 MCP 伺服器合集，目前已收錄超過 100 個資源，屬 TypeScript 專案。",
+    "highlights": [
+      "超過 100 個子代理提示詞與 MCP 工具",
+      "專為 Claude Code 設計，可直接複製使用",
+      "TypeScript 專案，GitHub 星星數 140",
+      "涵蓋多種常見開發與自動化場景",
+      "開源可自由修改與擴展"
+    ],
+    "why_it_matters": "節省技術人員從零構建 Claude Code 代理的時間，可直接取用社群驗證過的提示詞模式，加速開發工作流程整合。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可瀏覽目錄找到符合需求的子代理提示詞，直接整合進 Claude Code 工作流程，例如自動化測試、文件生成、程式碼重構等場景。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/110257939?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-mcp-stealth-chrome-100-ai",
+    "title": "MCP Stealth Chrome：提供 100+ 工具的 AI 代理隱形瀏覽器方案",
+    "title_original": "RobithYusuf/mcp-stealth-chrome",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/RobithYusuf/mcp-stealth-chrome",
+    "published_at": "2026-08-12T11:42:19Z",
+    "category": "agent-skills",
+    "summary": "Stealth Chrome MCP 伺服器為 AI 代理提供隱形瀏覽自動化能力，內建 Cloudflare Turnstile 繞過、雙模式 HTTP、TLS 指紋、AI 視覺 reCAPTCHA 解題等 100+ 工具。",
+    "highlights": [
+      "Cloudflare Turnstile 一鍵繞過（已驗證可用）",
+      "雙模式 HTTP 支援，帶 TLS 指紋模擬",
+      "AI 視覺模型支援 reCAPTCHA 解題",
+      "100+ 瀏覽自動化工具集",
+      "基於 Python、nodriver、curl_cffi 與 FastMCP"
+    ],
+    "why_it_matters": "對於需要爬取反爬蟲保護網站或自動化複雜登入流程的技術人員，Stealth Chrome 大幅降低開發難度，但需注意合法性邊界。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可整合 Stealth Chrome 自動化需要處理驗證的網頁操作，例如批量資料抓取、表單填寫、帳號管理等場景。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/93523118?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-omnimem-ai-agent-valkey",
+    "title": "OmniMem：自托管的 AI Agent 語義記憶系統，基於 Valkey 向量搜尋",
+    "title_original": "richarvey/OmniMem",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/richarvey/OmniMem",
+    "published_at": "2026-08-12T11:40:12Z",
+    "category": "agent-skills",
+    "summary": "OmniMem 為自托管 AI Agent 提供語義記憶能力，支援持久化會話、經驗評分與失敗經驗歸檔。從 RSS 閱讀資料中學習，透過 Valkey 向量搜尋提供 MCP 介面。",
+    "highlights": [
+      "自托管部署，無需依賴第三方記憶服務",
+      "持久化會話支援跨時間的任務連貫性",
+      "經驗評分機制區分優質與失敗嘗試",
+      "支援 RSS 來源自動攝取與學習",
+      "以 Valkey 向量搜尋為底層，提供 MCP 標準介面"
+    ],
+    "why_it_matters": "對於需要長期記憶與上下文連貫的 Agent 應用，OmniMem 提供本地可控方案，避免雲端記憶服務的隱私疑慮與額外費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將 OmniMem 部署為記憶層，讓自建 Agent 保有跨會話的學習能力，例如個人助理能記住用戶偏好、專案背景等資訊。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/532137?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-intel-llm-scaler-muse-glimmer",
+    "title": "Intel LLM-Scaler新增Muse Glimmer支援與功能更新",
+    "title_original": "Intel LLM-Scaler ready with Muse Glimmer support, other LLMs & features",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmaofu/intel_llmscaler_ready_with_muse_glimmer_support/",
+    "published_at": "2026-08-12T10:47:44+00:00",
+    "category": "new-models",
+    "summary": "Intel發布LLM-Scaler工具更新版本，正式支援Muse Glimmer等多種大型語言模型，並新增多項推論加速與記憶體優化功能。旨在幫助開發者在Intel硬體平台上更高效地部署與執行LLM。",
+    "highlights": [
+      "Muse Glimmer為Intel自家的embedding/生成模型",
+      "新版本改善了INT4量化後的模型品質保持度",
+      "提供更完整的Intel GPU（NPU/PVC）推論支援",
+      "工具鏈整合度提升，支援vLLM後端",
+      "記憶體佔用最佳化有助於在消費級硬體上運行"
+    ],
+    "why_it_matters": "對於使用Intel平台的開發者，LLM-Scaler的更新提供了更完整的本地部署方案，特別是對NPU與Arc系列GPU的支援值得關注，可能成為替代昂貴NVIDIA方案的選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用Intel Arc顯示卡或NPU的技術人員可實際測試新版LLM-Scaler，評估其能否滿足本地LLM推論的延遲與吞吐量需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-nemotron-3-5-lightning-coding",
+    "title": "Nemotron 3.5 Lightning本地Coding與代理工作測試報告",
+    "title_original": "Tested Nemotron 3.5 Lightning locally on coding, Hermes Agent and agentic work",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vma27w/tested_nemotron_35_lightning_locally_on_coding/",
+    "published_at": "2026-08-12T10:15:01+00:00",
+    "category": "new-models",
+    "summary": "開發者在本地環境測試NVIDIA Nemotron 3.5 Lightning模型在編碼任務與代理式工作流程程的表現。初步結果顯示該模型在指令遵循與程式碼生成上有不錯表現，但與其他頂尖開源模型相比仍有明顯差距。",
+    "highlights": [
+      "Nemotron 3.5 Lightning為NVIDIA近期開源的小型語言模型",
+      "測試重點包括Coding能力、與Hermes Agent框架整合",
+      "模型在長上下文任務上表現尚可但並非頂級",
+      "本地部署門檻相對較低，適合資源受限環境",
+      "代理工作流程中工具調用穩定性有待優化"
+    ],
+    "why_it_matters": "對於需要本地部署編碼助理且不想完全依賴雲端API的開發者，Nemotron系列提供了一個可測試的選項，但需根據實際需求評估其能力邊界。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載該模型至本地環境，使用EvalPlus等基準測試框架實際評估其在特定程式碼庫上的表現，決定是否取代現有雲端方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-amd-arm-ai-cpu-gpu",
+    "title": "AMD、Arm與微軟：代理式AI可能改變CPU-GPU配比架構",
+    "title_original": "According to AMD, Arm, and Microsoft, agentic AI could push CPU-to-GPU ratios from 1:4 to even1:1",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vm9w5x/according_to_amd_arm_and_microsoft_agentic_ai/",
+    "published_at": "2026-08-12T10:05:45+00:00",
+    "category": "hot-topics",
+    "summary": "根據AMD、Arm與微軟在運算研討會上的討論，代理式AI（Agentic AI）的工作負載特性可能促使傳統1:4的CPU-GPU配比轉向接近1:1的平衡架構。這意味著推論密集型任務將需要更多CPU資源而非僅依賴GPU加速。",
+    "highlights": [
+      "代理式AI需要大量協調、排程與狀態管理，更倚重CPU單執行緒效能",
+      "現有數據中心以GPU為中心的設計可能需要重新評估",
+      "晶片廠商開始針對AI代理工作負載優化CPU-GPU通訊架構",
+      "此趨勢可能影響未來硬體採購與雲端資源分配策略"
+    ],
+    "why_it_matters": "了解代理式AI的硬體需求變化，有助於技術決策者在規劃AI基礎設施時做出更前瞻性的選擇，避免過度投資單一加速器而忽略CPU協作需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可追蹤本地部署AI代理時的CPU/GPU使用率，評估是否需要調整工作負載分配比例以提升效率。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-12-localllama-agent-qol",
     "title": "LocalLLaMA 討論：本地 Agent 的客製化 QOL 改進技巧",
     "title_original": "What unique, custom QOL upgrades have you given your local agents?",
@@ -21,6 +191,34 @@
     "automation_angle_zh": "瀏覽討論串，找出可套用到自己工作流程的技巧（如特定 prompt 模板、記憶持久化方案）並實際測試效果。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-ai",
+    "title": "開源AI的未來：硬體銷售主導商業模式？",
+    "title_original": "Is the future of AI selling hardware for Open Source/Models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vm3cej/is_the_future_of_ai_selling_hardware_for_open/",
+    "published_at": "2026-08-12T03:53:52+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit社群熱烈討論開源AI模型與硬體銷售的商業模式關聯。觀點認為隨著模型能力接近同質化，硬體差異化可能成為新的價值主張，特別是針對高效能推論的自定義晶片需求。",
+    "highlights": [
+      "開源模型數量激增但能力趨同，利潤空間受壓",
+      "硬體效率可能成為下一個競爭焦點",
+      "本地部署需求推動對專用AI加速器的興趣",
+      "此趨勢可能影響傳統雲端API服務商的市場定位",
+      "但硬體開發週期長、風險高，小型團隊難以切入"
+    ],
+    "why_it_matters": "理解AI商業模式的演變趨勢，可幫助開發者與投資者在技術選型與職業規劃上做出更具策略性的判斷，特別是在硬體與軟體的取捨上。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術決策者可評估自有工作負載是否適合從雲端遷移至本地硬體，計算總體擁有成本（TCO）與部署複雜度。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
