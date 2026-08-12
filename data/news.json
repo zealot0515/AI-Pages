@@ -1,5 +1,360 @@
 [
   {
+    "id": "2026-08-12-typegraph-mcp-typescript-mcp",
+    "title": "typegraph-mcp：TypeScript 類型感知導航的 MCP 伺服器",
+    "title_original": "guyowen/typegraph-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/guyowen/typegraph-mcp",
+    "published_at": "2026-08-12T01:05:29Z",
+    "category": "agent-skills",
+    "summary": "新興 MCP 專案，提供 14 個語義工具讓 AI 編碼 Agent 能理解並導航 TypeScript 類型系統，包含類型查詢、依賴分析、語義搜尋等功能。",
+    "highlights": [
+      "14 個專為 TypeScript 設計的語義工具",
+      "支援類型繼承追蹤與依賴圖分析",
+      "可讓 Agent 理解大型 TypeScript 專案的類型結構",
+      "TypeScript/TSX 原始碼撰寫"
+    ],
+    "why_it_matters": "為 AI 編碼 Agent 提供更精準的程式碼理解能力，在大型 TypeScript 專案中尤其有價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此 MCP 整合進支援 MCP 協定的 Agent（如 Cursor、Cline），觀察是否能提升重構、遷移、型別修復等任務的準確率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/50652264?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-ai-skills-not-awesome-agent",
+    "title": "AI-Skills-Not-Awesome：可注入的 Agent 行為提示詞集合",
+    "title_original": "Tariux/AI-Skills-Not-Awesome",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Tariux/AI-Skills-Not-Awesome",
+    "published_at": "2026-08-12T00:34:29Z",
+    "category": "open-source-ai",
+    "summary": "GitHub 上新興的開源專案，收集多個 .skill.md 檔案，可作為系統提示詞直接注入 AI 助理或 LLM Agent，強制執行特定推論流程、執行模式或輸出格式。",
+    "highlights": [
+      "每個 .skill.md 為獨立行為模組，支援熱插拔",
+      "涵蓋推論、執行、格式化等多種技能模式",
+      "可同時注入多個技能檔案測試組合效果",
+      "適合想快速客製化 Agent 行為的開發者"
+    ],
+    "why_it_matters": "省去從頭設計系統提示詞的試錯成本，直接引用社群驗證過的行為模式加速開發流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載感興趣的 .skill.md，整合進現有 Agent 工作流程（如 LangChain、Dify、Coze）測試實際效果，評估是否能減少回應不一致的問題。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/86979973?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-anthropic-openai-google-meta-microsoft-mistral-ai",
+    "title": "Anthropic、OpenAI、Google、Meta、Microsoft、Mistral 共同簽署歐盟 AI 內容透明度守則",
+    "title_original": "Anthropic, OpenAI, Google, Meta, Microsoft, and Mistral all signed the EU Code of Practice on Transparency of AI-Generated Content",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlyzi6/anthropic_openai_google_meta_microsoft_and/",
+    "published_at": "2026-08-12T00:28:51+00:00",
+    "category": "hot-topics",
+    "summary": "六大 AI 巨頭與 Mistral 正式簽署歐盟「AI 生成內容透明度實踐守則」，承諾在模型輸出中標記可能由 AI 生成的內容，並建立相應的技術機制與投訴處理流程。此為自願性規範，非強制性法規，但具產業風向標意義。",
+    "highlights": [
+      "簽署方涵蓋主要商業 AI 實驗室，覆蓋市場大多數主流模型",
+      "守則要求建立 AI 生成內容的識別與標記機制",
+      "目前為自願性，未來可能演變為強制性監管依據",
+      "台灣與亞洲市場若對歐洲出口或有相應合規需求"
+    ],
+    "why_it_matters": "此守則將影響未來模型 API 的輸出格式與合規要求。開發者在設計需要跨境部署的應用時，需提前預留內容標記與審計的技術介面。",
+    "automation_angle": null,
+    "automation_angle_zh": "審視自己使用的模型 API 是否已支援 AI 生成內容的元資料欄位，並評估是否需要在 RAG 或文件處理流程中嵌入相關合規邏輯。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-12-llm",
+    "title": "跑本地 LLM 的十年老卡？技術社群熱議古董顯示卡可行性",
+    "title_original": "10 year garbage card for local llms",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vly7p7/10_year_garbage_card_for_local_llms/",
+    "published_at": "2026-08-11T23:55:40+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 技術社群討論使用老舊顯示卡（如 10 年前的型號）執行本地 LLM 的可行性。有人成功以低精度量化方式在古董級硬體上運行小型模型，但多數回應指出效率與成本效益極低，主要作為技術實驗或資源受限場景的參考。",
+    "highlights": [
+      "極限量化（如 2-bit）可使大型模型塞入低 VRAM 環境",
+      "推論速度可能降至每秒個位數 tokens，實用性有限",
+      "RTX 20 系列以下顯示卡運行 7B 模型仍需精細調校",
+      "此類實驗對了解模型量化極限有教學價值"
+    ],
+    "why_it_matters": "雖然多數技術用戶不會真的用十年老卡跑模型，但此討論揭示了量化技術的邊界，對評估不同硬體配置下的模型可行性有參考意義。",
+    "automation_angle": null,
+    "automation_angle_zh": "若手中真有閒置老卡，可測試 TinyLlama 或 Qwen2-0.5B 等極小模型，作為離線/弱網環境下的備用方案，並評估延遲是否在可接受範圍。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-ai",
+    "title": "自然語言文本沒有無損轉換——工程師使用 AI 寫作的政策紅線",
+    "title_original": "There are no lossless transformations of natural-language text",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything",
+    "published_at": "2026-08-11T23:48:35+00:00",
+    "category": "agent-skills",
+    "summary": "Sophie Alpert 提出工程師使用 AI 輔助寫作時的核心原則：工程師必須為文件中每個想法和每句話負起完全責任。當被問及「這句話是什麼意思？」時，回答「抱歉，AI 寫的，忽略吧」是不可接受的。所有自然語言的改寫和重新表述都會改變意義，若由缺乏詳細心智表徵的實體執行，資訊必然會流失。這篇短文為團隊建立 AI 寫作政策提供了實用的內部指引參考。",
+    "highlights": [
+      "所有自然語言文本轉換都是「有損」的，意義必然會改變",
+      "工程師必須為文件中每個想法和每句話背書，不能推責給 AI",
+      "讀者提問時以「AI 寫的」迴避會浪費讀者時間並造成困惑",
+      "AI 缺乏對作者真實意圖的完整心智表徵，資訊流失不可避免",
+      "團隊應建立內部政策，明確定義 AI 輔助寫作的邊界"
+    ],
+    "why_it_matters": "這篇文章為技術團隊提供了 AI 輔助寫作的政策框架。對於需要確保技術文件準確性的工程師而言，理解「無損轉換不存在」有助於建立正確的 AI 使用邊界，避免讓讀者或使用者接收到未經人類把關的內容。",
+    "automation_angle": null,
+    "automation_angle_zh": "工程師可參考此政策建立團隊內的 AI 文件審查流程：要求作者在使用 AI 輔助後必須親自審閱並為每個段落背書，而非直接採用 AI 輸出結果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-langchain-monday-com-sidekick",
+    "title": "LangChain 技術部落格：建構 Monday.com Sidekick 代理，能力強的代理不只靠工具",
+    "title_original": "LangChain 技術部落格：建構 Monday.com Sidekick 代理，能力強的代理不只靠工具",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/building-monday-com-sidekick-why-capable-agents-need-more-than-just-tools",
+    "published_at": "2026-08-11T22:44:30+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格分享 Monday.com Sidekick 代理的建構經驗，強調真正有效的代理系統不僅需要工具調用能力，更需要錯誤恢復機制、狀態管理、任務分解策略與人類回饋循環。文中詳細說明代理在企業協作場景中的實際架構選擇與迭代過程。",
+    "highlights": [
+      "工具豐富度不是代理能力的瓶頸，錯誤處理與狀態追蹤才是",
+      "任務分解與規劃能力決定代理處理複雜工作流程的效果",
+      "人類在環（Human-in-the-loop）仍是企業應用的必要安全閥",
+      "LangChain Expression Language 在代理編排中的實際應用案例"
+    ],
+    "why_it_matters": "此案例提供企業級代理系統的實務架構參考，幫助開發者避免在原型階段過度聚焦工具數量而忽略可靠性與可控性。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考文中架構圖與設計原則，檢視自己正在開發的代理系統是否具备完整錯誤恢復機制，並評估是否需要引入人類回饋循環以提升實際部署的穩定性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-item",
+    "title": "研究揭示：可從加密推論軌跡竊取專有模型的思考過程",
+    "title_original": "Stealing Reasoning Traces from Proprietary LLM APIs",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
+    "published_at": "2026-08-11T22:40:45+00:00",
+    "category": "hot-topics",
+    "summary": "研究發現 Anthropic、OpenAI、Google 模型會傳回加密的 Chain-of-Thought 區塊，攻擊者可將其Replay到較弱模型並解密，揭露從未打算讓人類看見的原始推論。供應商已修復此漏洞。",
+    "highlights": [
+      "模型返回的加密推論區塊可跨會話、跨使用者Replay",
+      "將加密區塊餵入弱模型可觸發解密還原原始推論",
+      "揭露了模型內部思考過程從未對外公開的細節",
+      "包含 Prompt Injection 變種攻擊潛力",
+      "供應商已修復，但暴露了信任模型推論的風險"
+    ],
+    "why_it_matters": "即使漏洞已修補，這項研究提醒技術人員不應盲目信任模型回傳內容的安全性，且推論過程並非真正的隔離黑箱。",
+    "automation_angle": null,
+    "automation_angle_zh": "在除錯或安全稽核時，檢視模型 API 回傳的 reasoning 欄位是否存在加密內容，確保應用程式不會意外外洩敏感推論資料",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-12-gemma-qwen-logprobs",
+    "title": "Gemma 與 Qwen 模型能否透過自我 logprobs 偵測幻覺？",
+    "title_original": "Can Gemma and Qwen models catch hallucinations by looking at their own logprobs?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlvq2s/can_gemma_and_qwen_models_catch_hallucinations_by/",
+    "published_at": "2026-08-11T22:12:00+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶提出一個研究性問題：Gemma 與 Qwen 模型是否具備透過自身 logprobs（對數機率）輸出來偵測自身幻覺的能力。社群分享初步實驗與觀察，讨论模型置信度與事實正確性之間的相關性，以及能否作為低成本的幻覺偵測訊號。",
+    "highlights": [
+      "logprobs 高不代表答案正確，幻覺與置信度並非強相關",
+      "不同模型家族的置信度校準程度差異明顯",
+      "可作為輔助訊號，但不宜作為唯一的事實查核機制",
+      "結合外部知識庫查詢或 Tool Use 效果更佳"
+    ],
+    "why_it_matters": "幻覺是企業級 AI 應用部署的主要風險之一。若能利用模型自身輸出機制低成本偵測幻覺，可簡化 Pipeline 設計並減少對外部事實查核 API 的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "在自己的推論程式碼中加入 logprobs 解析，分析模型在回答事實性問題時的置信度分布，測試是否能有效識別高風險輸出並觸發重新生成或外部驗證流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-deepseek-v4-0731-8-rtx-5090",
+    "title": "DeepSeek V4 0731 量化版本 8×RTX 5090 基準測試出爐",
+    "title_original": "We quantized DeepSeek V4 0731 and benchmarked it against popular quants on 8× RTX 5090",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlurlv/we_quantized_deepseek_v4_0731_and_benchmarked_it/",
+    "published_at": "2026-08-11T21:34:13+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 社群用戶對 DeepSeek V4 0731 進行量化處理，並在 8 張 RTX 5090 環境下進行效能對比基準測試，提供延遲、吞吐量與輸出品質的實測數據。",
+    "highlights": [
+      "針對 DeepSeek V4 0731 的量化效能測試",
+      "測試環境：8× RTX 5090 多卡配置",
+      "提供延遲、吞吐量與輸出品質對比",
+      "可作為本地部署的硬體選型參考"
+    ],
+    "why_it_matters": "為需要本地部署大語言模型的技術人員提供量化後的效能實測數據，降低選型風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據測試結果評估量化版本是否滿足延遲與品質需求，計算單位 token 成本，判斷是否值得投入本地部署。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-github-copilot-for-jetbrains-ollama",
+    "title": "GitHub Copilot for JetBrains 支援記憶持久化與本地 Ollama 模型",
+    "title_original": "Copilot memory and Ollama in GitHub Copilot for JetBrains",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
+    "published_at": "2026-08-11T20:15:55+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 更新 JetBrains 版 Copilot，帶來持久記憶、支援本地 Ollama 模型，並改善 MCP 伺服器穩定性與日常聊天工作流程。",
+    "highlights": [
+      "持久記憶讓 Copilot 能跨會話記住專案上下文",
+      "支援接入本地 Ollama 模型，保護隱私並節省 API 費用",
+      "改善 MCP 伺服器連線穩定性",
+      "提升日常聊天與程式碼生成效率",
+      "企業控制選項增強，適合團隊部署"
+    ],
+    "why_it_matters": "本地模型支援與持久記憶讓技術人員能在不依賴雲端的情況下使用 Copilot，可降低隱私風險與長期使用成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝 Ollama 並匯入本地模型到 Copilot，測試在離線環境下是否能滿足日常編碼輔助需求，評估是否可完全替代雲端方案",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-12-muse-glimmer-30b-qwen-3-6-27b-gemma4-31b",
+    "title": "本地端評測：Muse Glimmer 30B 對決 Qwen 3.6 27B 與 Gemma4 31B",
+    "title_original": "Local Benchmark : Muse Glimmer 30B vs Qwen 3.6 27B vs Gemma4 31B (and many other models and finetunes)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlsixl/local_benchmark_muse_glimmer_30b_vs_qwen_36_27b/",
+    "published_at": "2026-08-11T20:10:06+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群發布本地端模型基準測試，比較 Muse Glimmer 30B、Qwen 3.6 27B、Gemma4 31B 等多款模型與微調版本在各項任務上的表現。測試涵蓋推論、程式碼生成、多輪對話等多維度指標，供本地部署愛好者參考選型。",
+    "highlights": [
+      "Muse Glimmer 30B 與 Qwen 3.6 27B 在推論任務上各有消長",
+      "Gemma4 31B 在特定領域微調版本表現突出",
+      "測試結果可作為本地 GPU 配置與模型選擇的參考依據",
+      "社群提供原始數據可供自行驗證與交叉比對"
+    ],
+    "why_it_matters": "對於需要在本地跑模型、控制資料隱私、或節省 API 費用的技術用戶來說，選對模型架構與量化方式直接影響性價比。此測試提供實務數據參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "可根據測試結果在自己的硬體環境（如 RTX 3090/4090 或 Mac M 系列）上實際跑分，評估特定任務下哪個模型延遲最低、輸出品質最好。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-claude",
+    "title": "Claude 被發現對輸出內容進行隱式浮水印標記",
+    "title_original": "All the more reason not to use Closed Models ... Claude now officially \"marks\" AI-generated content ... steganographically, apparently ... and there are false positives already",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vlr43b/all_the_more_reason_not_to_use_closed_models/",
+    "published_at": "2026-08-11T19:18:30+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群討論指出，Anthropic 的 Claude 模型似乎會在輸出內容中嵌入隱式浮水印，且已有使用者回報誤判案例。",
+    "highlights": [
+      "Anthropic 似乎對 AI 生成內容執行隱式浮水印",
+      "社群已出現誤判（false positive）回報",
+      "引發對封閉模型透明度與可控性的質疑",
+      "討論區連結本地模型作為替代方案"
+    ],
+    "why_it_matters": "若浮水印機制成熟，將對內容溯源、著作權主張與模型選擇策略產生深遠影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "可設計實驗：輸入各類文字至 Claude，嘗試觸發浮水印偵測工具，評估其穩定性與誤判率，作為未來內容合規的參考。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-github-copilot-mai-code-1-flash-9-10",
+    "title": "GitHub Copilot 宣布 MAI-Code-1-Flash 將於 9/10 停用",
+    "title_original": "Upcoming deprecation of MAI-Code-1-Flash",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash",
+    "published_at": "2026-08-11T18:50:42+00:00",
+    "category": "hot-topics",
+    "summary": "GitHub 官方公告指出，MAI-Code-1-Flash 模型將於 2026 年 9 月 10 日全面停用，建議遷移至新發布的 MAI-Code-1.1-Flash 版本。",
+    "highlights": [
+      "停用時間：2026 年 9 月 10 日",
+      "替代方案：MAI-Code-1.1-Flash",
+      "影響範圍：所有 GitHub Copilot 體驗",
+      "建議行動：檢查現有工作流程中的模型版本設定"
+    ],
+    "why_it_matters": "若工作流程程已整合該模型，需提前測試替代版本以避免停用後作業中斷。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即審視 CI/CD 流程與 Copilot 設定檔，確認是否指名該模型，並在 9/10 前完成新舊版本的功能對齊測試。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-08-11-mai-code-1-1-flash-github-copilot",
     "title": "MAI-Code-1.1-Flash 登陸 GitHub Copilot，支援視覺理解",
     "title_original": "MAI-Code-1.1-Flash available in GitHub Copilot",
@@ -25,6 +380,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-12-startuphub-ai-anthropic-ai-agent",
+    "title": "StartupHub.ai 解析 Anthropic 的 AI Agent 演化歷程",
+    "title_original": "Anthropic's Evolution of AI Agents - StartupHub.ai",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdEZrTW9nck1BMk5YeDVFMlliM1RLTE9Td05fRTl1aWtJckNCZ3NBMFZNT0MzLUFOMGU2VjkwTnFvendmeGVaZzBCOENJTWlESzAwUnQtOHpXbW9CakV6VmczcHF2LWVyVlpmLXZzTFRMSFI1ODMtdjVET0ZIbmNOMUVDbnJibXNtc1BUVUktSEVDeFVCWkRUQlU4SGNCdw?oc=5",
+    "published_at": "2026-08-11T17:08:58+00:00",
+    "category": "hot-topics",
+    "summary": "StartupHub.ai 發布文章整理 Anthropic 在 AI Agent 方向的技術演進與策略布局，包含 Claude 在多步推論、工具使用、上下文管理上的能力提升。",
+    "highlights": [
+      "系統性整理 Anthropic Agent 技術演進",
+      "涵蓋 Claude 的推論鏈、工具調用等能力變化",
+      "提供產業趨勢視角",
+      "可能有助於評估 Anthropic 產品路線"
+    ],
+    "why_it_matters": "了解主要玩家的技術方向有助評估行業趨勢，並與自家產品路線圖做比較參照。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀後對照自家產品的 Agent 能力，評估是否需要引入類似技術或調整技術棧。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-11-google-amie",
@@ -242,6 +624,34 @@
     "automation_angle_zh": "依賴 ChatGPT 免費版 API 串接的技術用戶可借此重新評估付費方案的成本效益，並考慮是否有替代方案以避免未來可能的功能限制或數據變動。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-12-openai-daybreak-aws-bedrock",
+    "title": "OpenAI Daybreak 模型正式登陸 AWS Bedrock",
+    "title_original": "Daybreak models are now available on AWS",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+    "published_at": "2026-08-11T10:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 與 AWS 合作將 Daybreak 網路安全模型透過 Amazon Bedrock 提供，企業可直接在 AWS 環境中使用，無需額外整合。",
+    "highlights": [
+      "Daybreak 模型為網路安全專用",
+      "透過 Amazon Bedrock 接入，適合已有 AWS 基礎的企業",
+      "可與其他 Bedrock 模型統一管理與計費",
+      "支援企業安全自動化工作流程",
+      "在 AWS 生態內即可部署，降低技術門檻"
+    ],
+    "why_it_matters": "網路安全專業模型與 AWS 整合，降低企業部署門檻，技術人員可在熟悉環境中快速實驗安全自動化場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 AWS Bedrock 上啟動 Daybreak 模型，測試威脅分析、漏洞報告生成等安全自動化場景的實際效果",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -839,6 +1249,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-12-ai",
+    "title": "祖克柏為美國開源 AI 辯護：對決中國競爭對手",
+    "title_original": "Mark Zuckerberg makes his case for American open-source AI over Chinese rivals - Fortune",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZU9hOWhSMFlFQW81ZHpTOXFQSlFvNVlSTXoxcDdlejVXMW4yR0IzM0w4UlJoTTNEeGtVQi1DYVdDZFRCV0NfRHJjZlJYLTJzMnU3VnBBYVRvcUpwc3pQZW0xYW1Fb0FDVjVfcVBQUGRvTVdvaERXMGJRUGc2SDRtM1EyczVGNW43R3hsTUdnQU1zOU44R2F6VWgzY05BUkRBREZoMXM3cmhjWWFVZUpRRDNsYXAxMi1FcUNxUTZDTkhaSXZmYkowbmpUcVQ3bGN6dS1Hd0R1WEdUZw?oc=5",
+    "published_at": "2026-08-10T17:31:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Meta CEO 祖克柏在 Fortune 專訪中闡述美國開源 AI 戰略觀點，主張開源模型有助於美國在 AI 競爭中保持領先，並強調 Meta Llama 系列對產業的貢獻。報導同時討論開源與封閉模型在安全、創新與地緣政治面向的爭議。",
+    "highlights": [
+      "祖克柏強調開源可防止單一公司壟斷 AI 發展",
+      "Llama 系列已成為開源 AI 生態的事實標準之一",
+      "批評者憂心開源模型降低恶意使用門檻",
+      "地緣政治視角下中國 AI 發展戰略成為討論背景"
+    ],
+    "why_it_matters": "開源模型的政策走向與 Llama 的發展態勢將影響開發者未來的模型選擇與部署策略。此類高層表態往往預示未來資源投入方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤 Llama 系列的許可條款變化與新版本發布，評估其在特定用例（如企業內部部署、低成本推論）中的竞争力是否持续提升。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-10-openai-ai",
