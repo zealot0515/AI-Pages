@@ -1,5 +1,246 @@
 [
   {
+    "id": "2026-08-12-axiommath-axle-mcp-server-ai-agent-lean-4",
+    "title": "AxiomMath 開源 axle-mcp-server：AI Agent 的 Lean 4 數學證明引擎",
+    "title_original": "AxiomMath/axle-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/AxiomMath/axle-mcp-server",
+    "published_at": "2026-08-12T18:43:05Z",
+    "category": "agent-skills",
+    "summary": "專為 AI Agent 設計的 MCP Server，可驅動 Lean 4 形式化數學證明引擎。三十六顆星，Python 實作，讓 AI 能夠存取數學證明流程並進行可驗證的推導。",
+    "highlights": [
+      "MCP Server 標準介面，可與支援 MCP 的 Agent 整合",
+      "接入 Lean 4 形式化數學系統，具數學嚴謹性",
+      "Python 實作，入手門檻低",
+      "可用於數學研究自動化的形式化驗證流程"
+    ],
+    "why_it_matters": "將數學證明轉為可程式化流程是 AI 結合形式化方法的突破。對需要嚴格邏輯驗證的技術場景（如合約、程式碼安全）有實際價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地環境啟動 MCP Server，嘗試讓 Agent 自動完成簡單數學命題的形式化證明，評估其穩定性與 Lean 4 語法生成的準確度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/216763904?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-langsmith-byoc-aws-vpc",
+    "title": "LangSmith BYOC 正式登陸 AWS，企業可在自架 VPC 內使用托管觀測服務",
+    "title_original": "LangSmith BYOC on AWS is generally available",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws",
+    "published_at": "2026-08-12T17:43:30+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 宣布 LangSmith Bring Your Own Cloud（BYOC）已在 AWS 上全面可用。企業客戶可在自己的 Virtual Private Cloud 內部署 LangSmith，獲得托管的 Agent 觀測、評估與部署能力，符合資料主權與合規要求，不再需要將敏感資料送往第三方雲端。",
+    "highlights": [
+      "支援 AWS VPC 部署，資料不出企業網段，滿足 SOC2/ISO27001 等合規需求",
+      "提供托管觀測、評估與部署一站式服務，目標客群為 Enterprise 團隊",
+      "目前僅支援 AWS，Azure/GCP 版本仍在規劃中",
+      "屬於 LangChain 生態的企業級商業產品，非開源組件"
+    ],
+    "why_it_matters": "對需要在金融、醫療等高監管產業部署 Agent 的團隊，BYOC 模式解決了過去觀測工具無法內網部署的痛點。資料不出 VPC 的前提下仍能獲得專業的調試與監控能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估時可先申請 LangSmith 試用，測試其 trace 截取、延遲分析與 hallucination 評估功能是否滿足團隊的 Agent 觀測需求，再評估 BYOC 部署的合規必要性與成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-liquid4all-cookbook-liquid-ai-leap-sdk",
+    "title": "Liquid4All/cookbook：Liquid AI 基礎模型與 LEAP SDK 實作範例庫",
+    "title_original": "GitHub - Liquid4All/cookbook: Examples, end-2-end tutorials and apps built using Liquid AI Foundational Models (LFM) and the LEAP SDK",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmkqjh/github_liquid4allcookbook_examples_end2end/",
+    "published_at": "2026-08-12T17:28:39+00:00",
+    "category": "open-source-ai",
+    "summary": "GitHub 開源專案，收錄 Liquid AI 基礎模型（LFM）與 LEAP SDK 的端到端教學、範例碼與應用實作。涵蓋本地部署、API 整合與常見工作流程。",
+    "highlights": [
+      "提供 Liquid AI LFM 模型的實際應用範例",
+      "包含 LEAP SDK 的整合教學與程式碼",
+      "涵蓋本地部署與雲端 API 呼叫兩種模式",
+      "適合想評估 Liquid AI 模型能力的開發者"
+    ],
+    "why_it_matters": "降低 Liquid AI 模型的上手門檻，技術宅可快速驗證模型效能與工作流程整合可行性，評估是否值得投入生產環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "clone 此 repo，選一個與自己工作流程相似的範例改寫，例如將現有 pipeline 中的模型置換為 LFM 測試效果。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-qwen3-8",
+    "title": "Qwen3.8 模型規模需求投票",
+    "title_original": "Which Qwen3.8 model size do you want the most?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmjkrg/which_qwen38_model_size_do_you_want_the_most/",
+    "published_at": "2026-08-12T16:48:30+00:00",
+    "category": "new-models",
+    "summary": "Reddit 投票討論，使用者表達對 Qwen3.8 各規模型號的需求偏好。反映出社區對阿里 Qwen3.8 系列模型不同參數量的期待與使用場景差異。",
+    "highlights": [
+      "投票聚焦於 Qwen3.8 模型規模選擇",
+      "反映社區對不同參數量的需求",
+      "可作為模型發布優先順序參考"
+    ],
+    "why_it_matters": "了解社區需求有助預判 Qwen3.8 發布策略，技術宅可提前準備對應規模模型的硬體配置與測試計畫。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據投票結果預測即將發布的模型規模，提前下載對應版本做 benchmark 準備。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-2025-14b",
+    "title": "2025 年 14B 以下最佳模型盤點",
+    "title_original": "Best models 14b and smaller as of today?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmihr7/best_models_14b_and_smaller_as_of_today/",
+    "published_at": "2026-08-12T16:10:02+00:00",
+    "category": "new-models",
+    "summary": "Reddit 討論串，社區成員分享目前最佳的小型語言模型（14B 以下），涵蓋效能、成本與本地部署友善度的評比觀點。",
+    "highlights": [
+      "聚焦 14B 參數以下的模型評比",
+      "強調性價比與本地部署可行性",
+      "來自社區實測經驗分享"
+    ],
+    "why_it_matters": "14B 以下模型適合消費者級 GPU 本地部署，了解最新 benchmark 有助選型，降低推論成本與延遲。",
+    "automation_angle": null,
+    "automation_angle_zh": "從討論中列出候選模型清單，用 LM Studio 或 Ollama 逐一在本地跑簡單任務（如摘要、翻譯）比對效果。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-gemma-4-qat-kv-cache-kld",
+    "title": "Gemma 4 QAT 在 KV Cache 量化上表現大幅提升，KLD 基準測試出爐",
+    "title_original": "Gemma 4 QAT handles KV cache quantization MUCH better, KLD benchmarks show",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmhc4h/gemma_4_qat_handles_kv_cache_quantization_much/",
+    "published_at": "2026-08-12T15:28:03+00:00",
+    "category": "open-source-ai",
+    "summary": "Google 開源模型 Gemma 4 結合量化感知訓練（QAT）後，在 KV Cache 量化場景下表現顯著優於傳統 INT8/INT4 量化方法。Reddit 用戶實測顯示，KLD（KL 散度）指標顯示量化誤差大幅降低，模型回答品質更接近原始 BF16 版本，同時記憶體佔用與推論速度皆有改善空間。",
+    "highlights": [
+      "Gemma 4 + QAT 組合在 KV Cache 量化任務上 KLD 損失明顯低於純 INT4 量化",
+      "此技術突破對本地部署 LLM 的記憶體優化有實質幫助",
+      "Benchmark 結果目前僅來自 Reddit 社群實測，缺乏官方數據背書",
+      "對比 Mistral、Falcon 等同規模模型，量化表現尚未有系統性橫評"
+    ],
+    "why_it_matters": "本地部署 Gemma 4 的開發者現在有更清晰的量化方案可選，在保持回答品質的同時降低 VRAM 需求。對於資源受限的設備或需要跑多實例的場景，QAT KV Cache 是值得測試的方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可使用 llama.cpp 或相關量化工具，在自建 Gemma 4 QAT 環境中測量 KLD 指標，對比 INT4/INT8/KV QAT 三種方案在自家硬體上的速度與品質權衡，找出最佳性價比配置。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-ai-florian-herrengt",
+    "title": "AI 正在消滅軟體工程的中間層——Florian Herrengt 的沈重觀察",
+    "title_original": "Quoting Florian Herrengt",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything",
+    "published_at": "2026-08-12T15:08:47+00:00",
+    "category": "hot-topics",
+    "summary": "軟體工程師 Florian Herrengt 在 Simon Willison 的網站發表觀察：當 AI 開始處理重複 bug，開發者反而喪失對系統的深層理解，出現「問 AI 比問同事快，但 AI 答案可能全錯」的詭異局面。專案歷經多次 AI 修復後，團隊成員已無法從源頭理解資料流向，只能依賴 AI 持續生成大量文字卻無法驗證真偽。",
+    "highlights": [
+      "同一 bug 第四次由 AI 修復仍失敗，連 Fable 等專門工具也無法解決",
+      "開發者承認：「資料從哪裡來？我不知道，讓我問 Claude」",
+      "多層服務纏繞後，人與 AI 皆無法確認系統行為正確性",
+      "核心論點：AI 移除了「理解系統」這個軟體工程師的核心價值"
+    ],
+    "why_it_matters": "當 AI 輔助成為常態，工程師的系統理解能力可能加速退化。這對技術決策者是一個警訊：過度依賴 AI 修復可能累積「認知債務」，最終讓整個團隊對自家系統失去掌控力。",
+    "automation_angle": null,
+    "automation_angle_zh": "團隊可自我審視：是否有項目已變成「只有 AI 知道」的黑盒子？建議建立制度，要求人類工程師在 AI 輔助後仍能從零解釋系統行為，防止認知債務失控。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-qwen3-8-2-4t-a95b",
+    "title": "Qwen3.8-2.4T-A95B 模型正式發布",
+    "title_original": "Qwen3.8-2.4T-A95B Released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmgozv/qwen3824ta95b_released/",
+    "published_at": "2026-08-12T15:04:31+00:00",
+    "category": "new-models",
+    "summary": "Qwen3.8-2.4T-A95B 模型發布公告。2.4T 可能指上下文窗口或某種新架構特性，A95B 推測為量化或特殊訓練版本代號，具體規格待確認。",
+    "highlights": [
+      "Qwen3.8 系列新變體發布",
+      "2.4T 具體含義需進一步確認",
+      "A95B 可能為量化或特殊版本標記"
+    ],
+    "why_it_matters": "Qwen3.8 系列持續更新，提供更多規模與特性選項；新變體可能針對特定任務優化，值得評估是否適用現有 pipeline。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 Hugging Face 或阿里官方頁面，等待詳細規格釋出後，評估此變體是否比現用模型更適合特定自動化任務。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-google-deepmind-sl2t",
+    "title": "Google DeepMind 發布啞語轉文字模型 SL2T",
+    "title_original": "Putting sign language AI into users’ hands",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+    "published_at": "2026-08-12T14:01:59+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 正式推出啞語轉文字模型（SL2T），為聽障與聽力損失使用者提供即時啞語辨識功能。這是 Google 在無障礙 AI 領域的重要模型能力變化。",
+    "highlights": [
+      "模型可即時將啞語影片轉為文字輸出",
+      "屬於 Google 無障礙 AI 產品線的一部分",
+      "有助於改善聽障人士與聽力正常者之間的溝通",
+      "DeepMind 官方發布，技術規格與評估數據可查閱"
+    ],
+    "why_it_matters": "啞語 AI 是多模態理解的重要應用場景。該模型展現了視訊理解在無障礙應用的潛力，同時為 Edge 部署場景提供技術參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "若需在無障礙應用或通訊工具中加入即時啞語辨識，可評估 SL2T 的延遲與準確度是否符合產品需求，或作為相關研究的基准模型。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-08-12-sub-agents-directory-100-claude-code-mcp",
     "title": "Sub-Agents Directory：收錄 100+ 款 Claude Code 子代理提示詞與 MCP 工具",
     "title_original": "ayush-that/sub-agents.directory",
@@ -168,6 +409,33 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-openai-ai",
+    "title": "OpenAI 研究：企業如何將 AI 從輔助升級至執行",
+    "title_original": "From assistance to execution: How enterprises put AI to work",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+    "published_at": "2026-08-12T06:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方研究呈現企業如何從簡單輔助走向 Agentic AI 執行模式，頂尖企業已在工作流程程實際替代上拉開差距。內容以 ChatGPT 與 Codex 為主要案例。",
+    "highlights": [
+      "AI 應用已從「輔助建議」升級到「主動執行」階段",
+      "頂尖企業與一般企業的 AI 落地差距正在擴大",
+      "ChatGPT 企業版與 Codex 是目前企業採用的主力工具",
+      "Agentic AI 的核心在於工作流程程替代而非簡單问答"
+    ],
+    "why_it_matters": "對技術決策者而言，重點不是「用不用 AI」，而是「AI 能否替代現有流程中的某個環節」。這篇報告提供了企業級 AI 應用的參考框架。",
+    "automation_angle": null,
+    "automation_angle_zh": "盤點現有工作流程程，找出高重複性、規則明確的任務，評估以 Codex 或 ChatGPT API 替換的可能性，並計算取代前後的效率差異。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-08-12-localllama-agent-qol",
