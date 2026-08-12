@@ -1,5 +1,61 @@
 [
   {
+    "id": "2026-08-12-localllama-agent-qol",
+    "title": "LocalLLaMA 討論：本地 Agent 的客製化 QOL 改進技巧",
+    "title_original": "What unique, custom QOL upgrades have you given your local agents?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vm3fvr/what_unique_custom_qol_upgrades_have_you_given/",
+    "published_at": "2026-08-12T03:58:46+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit LocalLLaMA 社群討論本地 Agent 的客製化生活品質改進，包括工具整合、提示詞優化與長期記憶方案，屬使用者經驗分享而非產品發布。",
+    "highlights": [
+      "社群驅動的實用技巧匯總",
+      "涵蓋工具整合、提示詞工程、記憶方案",
+      "非結構化內容，需自行過濾有價值的實作",
+      "適合尋找靈感與參考別人的工作流程",
+      "品質參差不齐，需有技術判斷力"
+    ],
+    "why_it_matters": "社區經驗分享可快速獲取本地 Agent 優化的實際技巧，但需具備技術篩選能力，避免盲目採用未經驗證的方法。",
+    "automation_angle": null,
+    "automation_angle_zh": "瀏覽討論串，找出可套用到自己工作流程的技巧（如特定 prompt 模板、記憶持久化方案）並實際測試效果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-meta-llama-3-2-ray-ban-meta",
+    "title": "Meta 智慧眼鏡結合本地模型實測：Llama 3.2 在 Ray-Ban Meta 上跑得怎麼樣？",
+    "title_original": "Meta glasses with local models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vm31js/meta_glasses_with_local_models/",
+    "published_at": "2026-08-12T03:39:05+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群有開發者嘗試在 Meta Ray-Ban 智慧眼鏡上部署本地語言模型。實測結果顯示，執行小型本地模型可實現離線問答、語音助理等場景，但受限於眼鏡硬體算力，回應速度和複雜度有明顯限制。此實驗為穿戴裝置上的邊緣 AI 應用提供實務參考。",
+    "highlights": [
+      "Meta Ray-Ban 智慧眼鏡硬體可承載小型本地模型執行",
+      "Llama 3.2 等小型模型在穿戴裝置上可行性已被驗證",
+      "離線語音助理場景成為可能，無需雲端傳輸",
+      "目前限制在推論速度與記憶體容量",
+      "為未來 AR 眼鏡的本地 AI 能力鋪路"
+    ],
+    "why_it_matters": "邊緣 AI 在穿戴裝置上的落地是趨勢，若能在眼鏡這類隨身裝置運行本地模型，將大幅減少隱私疑慮與網路依賴，技術宅可評估此方向是否值得投入開發。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可下載對應模型，測試在低功耗裝置上的延遲與回應品質，評估是否適合自建離線語音助理或特定場景自動化腳本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-12-typegraph-mcp-typescript-mcp",
     "title": "typegraph-mcp：TypeScript 類型感知導航的 MCP 伺服器",
     "title_original": "guyowen/typegraph-mcp",
@@ -80,6 +136,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-12-5-mib",
+    "title": "僅 5 MiB 的對話標題模型：一個可嵌入聊天應用的極輕量方案",
+    "title_original": "Toy project: a chat title model that fits in 5 MiB of ram",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vly7u2/toy_project_a_chat_title_model_that_fits_in_5_mib/",
+    "published_at": "2026-08-11T23:55:51+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者在 Reddit 分享了一個極簡聊天標題生成模型，參數極度壓縮至僅 5 MiB（約 5MB）。該模型可自動為對話產生簡短標題，適用於聊天機器人、客服系統等需要整理對話記錄的場景。模型已開源，技術宅可下載測試。",
+    "highlights": [
+      "模型大小僅 5 MiB，適合嵌入式部署",
+      "可自動生成對話標題，減少人工整理負擔",
+      "開源可取得，無商業授權疑慮",
+      "適用於聊天機器人、客服系統整合",
+      "可用於自動化對話記錄分類與檢索"
+    ],
+    "why_it_matters": "極小型模型代表本地部署的可能性，對在意隱私或成本的技術用戶而言，可直接在本地環境處理對話摘要，省去 API 費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此模型整合進自己的聊天系統，自動為每段對話生成標題，實現對話歷史的自動化整理與檢索。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-12-llm",
@@ -246,6 +330,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-12-chatgpt",
+    "title": "ChatGPT 主動傳送通知並自創對話：自主行為引發熱議",
+    "title_original": "ChatGPT sent me a completely unsolicited notification, then created a new chat and prompted itself???",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vlspbg/chatgpt_sent_me_a_completely_unsolicited/",
+    "published_at": "2026-08-11T20:16:45+00:00",
+    "category": "hot-topics",
+    "summary": "有用戶回報 ChatGPT 在未經請求的情況下主動傳送通知，並自動創建新對話並自行填入 prompt 引導內容。此事件引發社群對於 AI 自主行為的討論，有人視為功能 bug，也有人認為是新功能測試。事件尚未得到 OpenAI 官方確認。",
+    "highlights": [
+      "ChatGPT 出現主動通知與自主對話創建行為",
+      "社群看法分歧：bug 還是功能測試",
+      "OpenAI 尚未發表官方聲明",
+      "引發 AI 自主性與安全性的討論",
+      "對企業用戶可能有合規或隱私疑慮"
+    ],
+    "why_it_matters": "此事件顯示 AI 系統可能具備超出預期的自主行為能力，對在意系統可控性與隱私的技術用戶而言，是值得關注的安全信號。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可檢查自己的 ChatGPT 設定，確認通知權限與資料使用選項，並評估此類行為對其工作流程程的潛在影響。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-12-github-copilot-for-jetbrains-ollama",
     "title": "GitHub Copilot for JetBrains 支援記憶持久化與本地 Ollama 模型",
     "title_original": "Copilot memory and Ollama in GitHub Copilot for JetBrains",
@@ -328,6 +440,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-12-chatgpt-windows-11-app-x",
+    "title": "ChatGPT 經典版 Windows 11 App – X 關閉按鈕與勾選按鈕無回應、語音輸入異常",
+    "title_original": "ChatGPT Classic Windows 11 app – glitchy/unresponsive X and checkmark buttons with voice input",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vlqp1h/chatgpt_classic_windows_11_app/",
+    "published_at": "2026-08-11T19:03:24+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶反映 ChatGPT Windows 11 桌面應用程式存在 UI 問題，X 關閉按鈕與勾選確認按鈕點擊無回應，同時語音輸入功能也出現異常。這是應用程式層面的 bug，而非模型能力問題。",
+    "highlights": [
+      "Windows 11 版 ChatGPT 桌面 App 的 X 按鈕（關閉）點擊無回應",
+      "勾選確認按鈕也出現無回應問題",
+      "語音輸入功能異常無法正常使用",
+      "此為使用者回報的 bug，尚未獲得官方確認",
+      "問題屬於前端 UI 層面，非底層模型能力問題"
+    ],
+    "why_it_matters": "桌面 App 是許多技術人員日常使用的介面，若 UI 元件頻故障會影響使用體驗和工作效率。目前尚未確認此問題是否普遍或已修復。",
+    "automation_angle": null,
+    "automation_angle_zh": "如遇此問題，可先改用網頁版或 API 作為替代方案；技術用戶可透過開發者工具觀察網頁請求，判斷是否為前端 JS 問題。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-12-github-copilot-mai-code-1-flash-9-10",
     "title": "GitHub Copilot 宣布 MAI-Code-1-Flash 將於 9/10 停用",
     "title_original": "Upcoming deprecation of MAI-Code-1-Flash",
@@ -380,6 +520,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-12-graft-1600-github-stars-codex",
+    "title": "Graft 開源上下文層突破 1600 GitHub Stars，支援 Codex",
+    "title_original": "Graft just crossed 1,600 GitHub stars. Open-source context layer for coding agents, works with Codex too.",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vlp03l/graft_just_crossed_1600_github_stars_opensource/",
+    "published_at": "2026-08-11T18:03:35+00:00",
+    "category": "open-source-ai",
+    "summary": "Graft 是一款開源上下文層工具，專為 coding agents 設計，現已突破 1600 GitHub stars，宣稱可與 Codex 等模型协同工作，提升代碼生成的上下文理解能力。",
+    "highlights": [
+      "專為 coding agents 打造的上下文管理層",
+      "已獲 1600+ GitHub stars，社群關注度高",
+      "支援與 Codex 等主流 coding 模型整合",
+      "開源可自部署測試",
+      "實際效能需透過專案 README 與範例驗證"
+    ],
+    "why_it_matters": "Coding agents 的上下文管理是提升長程式碼處理能力的關鍵，Graft 若能有效整合，可減少上下文丟失導致的生成錯誤。",
+    "automation_angle": null,
+    "automation_angle_zh": "clone 專案後，針對長程式碼重構任務測試 Graft，比較有無上下文層的程式碼生成品質與穩定性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-12-startuphub-ai-anthropic-ai-agent",
@@ -455,6 +623,34 @@
     "why_it_matters": "此案例暴露了 API 在面對 Agent 自動化攻擊時的脆弱性，提醒開發者在設計系統時需更嚴謹地定義 Agent 的行為邊界與速率限制。",
     "automation_angle": null,
     "automation_angle_zh": "技術用戶在設計自家 API 時可參考此案例，加入更嚴格的頻率限制、行為驗證與異常偵測，防止被 Agent 濫用或繞過。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-chatgpt-business",
+    "title": "ChatGPT Business 將推出進階座位方案：付費模式新變化",
+    "title_original": "Premium seats are coming to ChatGPT Business",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vllzbo/premium_seats_are_coming_to_chatgpt_business/",
+    "published_at": "2026-08-11T16:15:50+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 社群爆料 ChatGPT Business 即將推出「Premium Seats」方案，可能是針對企業用戶的更高級訂閱層級。目前詳細定價與功能差異尚未確認，但預期將與現有 Business 方案有所區隔，提供更進階的團隊協作或管理功能。",
+    "highlights": [
+      "ChatGPT Business 將新增付費座位方案",
+      "具體功能差異與定價尚未官方公告",
+      "可能針對大型企業用戶需求設計",
+      "目前資訊來自社群猜測，非官方確認",
+      "對企業技術採購有潛在影響"
+    ],
+    "why_it_matters": "企業用戶與技術決策者需關注此變化，若定價模式調整可能影響團隊 AI 工具預算規劃與採購策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可等待官方公告，評估新方案與現有 API 或 Plus 訂閱的 CP 值差異，用於團隊工具整合決策參考。",
     "tags": [
       "hot-topics",
       "rss",
@@ -682,6 +878,34 @@
       "new-models",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-12-investing-com-55-ai",
+    "title": "Investing.com 夏季特賣 55% 折扣：AI 選股功能是否有實際價值？",
+    "title_original": "夏季特卖进行中：以55%折扣優惠获取AI精选股票及更多功能 提供者 Investing.com - 英為财情 Investing.com",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1McEdZUzVyUlhXWXBNczZKRDNPdkszSXhUaEtfX1pKOHEwbGlnMUk0MURIUUxzc0RLenFmNGZHZENtUzBIZEhwVTItX3J3b2tDbVRYd3o5UERMMGZWcE5VX0tucU1fckpqQVIzNUFOLUs?oc=5",
+    "published_at": "2026-08-11T08:19:00+00:00",
+    "category": "ai-deals",
+    "summary": "Investing.com 推出夏季特賣活動，針對其 AI 選股及進階功能提供 55% 折扣。該優惠適用於其訂閱方案，包含即時新聞分析、情緒指標等 AI 功能。但這屬於行銷優惠而非技術產品本身，技術用戶應評估實際使用價值。",
+    "highlights": [
+      "55% 折扣為限時行銷活動",
+      "AI 選股功能基於新聞情緒與數據分析",
+      "需確認優惠碼與適用地區限制",
+      "該產品非技術開源工具，屬商業服務",
+      "Downrank：純行銷內容，非技術產品變化"
+    ],
+    "why_it_matters": "對於需要金融數據與 AI 分析的技術用戶，此折扣可能降低使用成本，但需自行評估功能是否滿足需求，避免因促銷衝動購買。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可先使用免費試用，評估其 API 或資料匯出能力，再決定是否以折扣價格訂閱用於自動化交易策略回測。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
