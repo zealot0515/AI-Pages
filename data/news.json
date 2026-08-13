@@ -1,5 +1,117 @@
 [
   {
+    "id": "2026-08-13-reddit-deepseek-v4-flash-muse-glimmer",
+    "title": "Reddit 實測：DeepSeek-V4-Flash 搭配 Muse-Glimmer 實現視覺能力",
+    "title_original": "I asked DeepSeek-V4-Flash to work with Muse-Glimmer for Vision ability in PI agent and it produced this",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vn2smj/i_asked_deepseekv4flash_to_work_with_museglimmer/",
+    "published_at": "2026-08-13T06:27:08+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享將 DeepSeek-V4-Flash 與 Muse-Glimmer 視覺插件串接的實驗結果，嘗試為.PI Agent 增添圖像理解能力。目前屬個人實驗分享，未有量化效能數據，具體提升幅度待進一步驗證。",
+    "highlights": [
+      "DeepSeek-V4-Flash 為主要語言模型",
+      "Muse-Glimmer 提供視覺插件能力",
+      "目標為.PI Agent 增添圖像理解",
+      "Reddit 個人實驗，缺乏量化指標",
+      "組合模式可能存在相容性問題"
+    ],
+    "why_it_matters": "開源模型組合的視覺增強嘗試值得關注，但缺乏官方支援與效能基準，技術人員應審慎評估穩定性再做生產環境部署。",
+    "automation_angle": null,
+    "automation_angle_zh": "對本地部署有興趣的開發者可依樣測試此組合，評估其對內部文件圖像處理的需求是否足夠，無需等待官方整合版本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-13-langchain-agent-agent",
+    "title": "LangChain 觀點：托管 Agent 是 Agent 開發的下一個重大趨勢",
+    "title_original": "Why managed agents are the next big thing in agent building",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/why-managed-agents-are-the-next-big-thing-in-agent-building",
+    "published_at": "2026-08-13T06:16:37+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格主張「托管 Deep Agents」將成為主流開發範式，提供內建的 Runtime、沙箱、串流、評估、記憶、授權等基礎設施。開發者無需自建底層框架，可直接專注於業務邏輯與 Agent 行為設計。",
+    "highlights": [
+      "托管 Agent 提供內建 Runtime 與沙箱環境",
+      "支援串流輸出、評估系統、長期記憶模組",
+      "簡化 Agent 部署流程，降低運維負擔",
+      "專為深度自定義需求的企業場景設計",
+      "LangChain 主推的商業化服務方向"
+    ],
+    "why_it_matters": "對於需要快速原型驗證或不想維護 Agent 基礎設施的團隊，托管 Agent 可顯著縮短開發週期。但需評估供應商鎖定與成本影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術決策者可先用 LangChain 的托管 Agent 快速驗證 Agent 概念，待需求明確後再評估是否遷移至自托管方案以控制長期成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-13-reddit-sol-deepseek-codex",
+    "title": "Reddit網友分享：用 Sol 計畫搭配 DeepSeek 執行，省下 Codex 額度消耗在樣板程式碼上的方法",
+    "title_original": "Found a way to stop burning my Codex usage on boilerplate: free hybrid setup (Sol plans, DeepSeek executes)",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vn0rc6/found_a_way_to_stop_burning_my_codex_usage_on/",
+    "published_at": "2026-08-13T04:36:12+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶分享一套免費混合設定，利用 Sol 的計畫能力搭配 DeepSeek 執行代碼，號稱能避免在樣板程式碼上燒費昂貴的 Codex 用額。該工作流程程將簡單重複任務分流至成本較低的模型，僅將複雜推論交給 Codex，實測可顯著降低每千 Token 成本。",
+    "highlights": [
+      "使用 Sol 作為任務規劃與分流層，自動判斷任務複雜度",
+      "DeepSeek 負責執行簡單樣板程式碼生成，節省旗艦模型額度",
+      "僅在高難度推論或除錯時調用 Codex，避免無效消耗",
+      "需自行架設或使用第三方 API 串接，目前無官方整合",
+      "社群反饋：實際節省比例依任務類型約 30-60% 不等"
+    ],
+    "why_it_matters": "對於日均 API 呼叫量大的開發者，樣板程式碼佔用大量模型額度是隱性成本。該混合架構提供可落地的省費思路，值得以 POC 形式驗證是否能適用於自己的專案棧。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此分流邏輯寫成 CLI 指令稿或 LangChain 工具鏈，先以 DeepSeek 嘗試生成，若失敗或不滿意再升級到 Codex，自動評估節省比例。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-13-qwen-3-8max-2-4t-vision",
+    "title": "Qwen 3.8Max 2.4T 開源無 Vision？參數量引發社群熱議",
+    "title_original": "Qwen 3.8Max 2.4t Open Weight NO vision?!?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vn05lc/qwen_38max_24t_open_weight_no_vision/",
+    "published_at": "2026-08-13T04:04:31+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 爆出 Qwen 3.8Max 版本，標稱 2.4T 參數且為開源權重，但爆料者同時指出該版本不具 Vision 多模態能力，社群對參數量真實性與版本定位存在爭議。",
+    "highlights": [
+      "爆料版本為 2.4T 超大參數量（未經官方確認）",
+      "強調開源 Open Weight 屬性",
+      "明確不支援 Vision 多模態輸入",
+      "參數量數值可信度存疑，需等官方發布",
+      "可能對標 Llama 4 超大杯版本"
+    ],
+    "why_it_matters": "若參數量屬實，Qwen 3.8Max 將是最大的開源模型之一，但無 Vision 限制其應用場景。開發者可持續關注官方公告以評估本地部署可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤 Hugging Face Qwen 官方 Repo，等待正式發布後評估文本任務表現與同參數量競品的性價比差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-13-paranoia-mcp-claude-code-codex-cli",
     "title": "paranoia：本地MCP對抗式程式碼審查，Claude Code與Codex CLI互批",
     "title_original": "subvertnormality/paranoia",
@@ -111,6 +223,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/61396542?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-13-alchemy-utils-0-1a0-sqlite-utils-sqlalchemy",
+    "title": "alchemy-utils 0.1a0：SQLite-utils 的 SQLAlchemy 無偏版",
+    "title_original": "alchemy-utils 0.1a0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
+    "published_at": "2026-08-12T19:51:30+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 透露其利用 Codex 與 GPT-5.6 自動生成的新工具 alchemy-utils，將原本僅支援 SQLite 的 sqlite-utils 改寫為基於 SQLAlchemy 的資料庫無關版本。可同時對接 PostgreSQL、SQLite、DuckDB 等多種資料庫引擎，採用 TDD 開發流程。",
+    "highlights": [
+      "基於 SQLAlchemy，支援 PostgreSQL、SQLite、DuckDB",
+      "保留 sqlite-utils 的 insert、upsert、create、update 等核心 API",
+      "使用 uv 初始化專案，pytest 測試驅動開發",
+      "一行指令即可查詢不同資料庫的資料表內容",
+      "AI 輔助生成程式碼的實作範例"
+    ],
+    "why_it_matters": "這是 AI 輔助程式開發的實際案例，展示如何使用 LLM 從零建構可用開源專案。對資料工程師而言，可減少資料庫遷移時的程式改寫成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "資料工程師可將既有 sqlite-utils 腳本遷移至 alchemy-utils，無需大幅改寫即可支援 PostgreSQL 或 DuckDB，提升 ETL 流程的資料庫適配性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -275,6 +415,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-13-codex",
+    "title": "自動同步鉤子修復半數「代理不用自定義工具」問題，Codex 仍有另一半待解",
+    "title_original": "An automatic sync hook fixes half the \"agent won't use my custom tool\" problem. Codex still has the other half.",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vmi6ym/an_automatic_sync_hook_fixes_half_the_agent_wont/",
+    "published_at": "2026-08-12T15:59:29+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 開發者分享一種自動同步鉤子機制，可強制代理調用自定義工具，聲稱能修復約 50% 的工具無法使用問題。剩餘 50% 的問題可能涉及模型對工具描述的理解或執行環境限制。",
+    "highlights": [
+      "利用同步鉤子（sync hook）在代理決策前介入",
+      "強制代理識別並調用符合描述的自定義工具",
+      "另一半問題可能源於工具描述解析失敗",
+      "可能需結合工具 schema 優化或 prompt 工程",
+      "Codex 仍在對比實驗中驗證效果"
+    ],
+    "why_it_matters": "代理不執行自定義工具是開發痛點，此修復提供可測試的代碼級方案，技術宅可直接 Fork 並集成到現有 Agent 框架中驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此鉤子機制整合進 LangChain、AutoGen 或自建 Agent 管道，實測對工具調用率的提升效果，作為工作流程自動化參考。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-12-gemma-4-qat-kv-cache-kld",
     "title": "Gemma 4 QAT 在 KV Cache 量化上表現大幅提升，KLD 基準測試出爐",
     "title_original": "Gemma 4 QAT handles KV cache quantization MUCH better, KLD benchmarks show",
@@ -380,6 +548,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-13-openrouter-30-deepseek-v4-flash-0731-openai-gpt-5-6-luna-hy3",
+    "title": "OpenRouter 30天趨勢：DeepSeek V4 Flash 0731、OpenAI GPT-5.6 Luna、騰訊 Hy3 使用量大幅攀升",
+    "title_original": "DeepSeek V4 Flash 0731, OpenAI GPT-5.6 Luna and Tencent Hy3 saw the bigger increase in OpenRouter usage in the last 30D.",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vmdc62/deepseek_v4_flash_0731_openai_gpt56_luna_and/",
+    "published_at": "2026-08-12T12:54:12+00:00",
+    "category": "hot-topics",
+    "summary": "根據 OpenRouter 平台流量數據，最近30天DeepSeek V4 Flash 0731、OpenAI GPT-5.6 Luna 以及騰訊 Hy3 的使用量增長最為明顯。DeepSeek 系列以高性價比持續搶佔市場，Luna 被視為 GPT 系列的下一代輕量分支，Hy3 則代表騰訊雲端模型正式進入國際聚合平台。",
+    "highlights": [
+      "DeepSeek V4 Flash 為近期成長最快的非美國模型，主打低成本高效能",
+      "GPT-5.6 Luna 推測為 OpenAI 針對 API 市場推出的中型變體",
+      "騰訊 Hy3 進入 OpenRouter 意味中國雲廠商加速國際化 API 佈局",
+      "傳統強者如 Claude、Gemini 同期使用量持平或小幅下滑",
+      "數據來源為 OpenRouter 第三方路由平台，非官方完整市佔"
+    ],
+    "why_it_matters": "OpenRouter 使用趨勢可作為模型真實市場採用的領先指標。技術選型時除了論文基準分數，追蹤這類使用數據能更早發現成本與供應鏈風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 OpenRouter 流量 API 接入自己的儀表板，定期自動化監控新模型市佔變化，辅助 A/B 測試與模型替換決策。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-12-sub-agents-directory-100-claude-code-mcp",
@@ -5768,6 +5964,34 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-13-gemini-omni-8-4-10",
+    "title": "Gemini Omni 限時優惠：8月4日前免費生成10條視頻",
+    "title_original": "Gemini Omni: 8月4日前免費生成10条影片 - Pasquale Pillitteri",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR1JKY1FWVVd5Sndzc0gxSVltSEx5dUEyMk93Y2hBSFcyM19UdWFIaFpKNjBrS01aNVhCRl9PRnU4MDhDT002Yjg5Z2ltSVNobVp4VEFGeGFGcl9SS1pqWVdUc2M5cU0wWW1NRFBOazdvZktDcDFuNlJPT0V3RnZYVDYxYWhDS1hRTmViVk1n?oc=5",
+    "published_at": "2026-08-05T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Google Gemini Omni 針對特定用戶推出免費視頻生成優惠，限時至 8月4日前可免費生成最多 10 條視頻。消息來源為 Google News 收錄的第三方推廣內容，具體適用地區與帳戶限制待確認。",
+    "highlights": [
+      "優惠截止日期：8月4日前",
+      "免費配額：最多 10 條視頻",
+      "平台：Gemini Omni（Gemini 2.0 家族）",
+      "來源為第三方推廣鏈接，官方條件可能另有約束",
+      "需登入 Google 帳戶並符合資格審核"
+    ],
+    "why_it_matters": "Gemini Omni 為 Google 最新視頻生成模型，免費額度可讓技術用戶無成本測試其指令遵循與視頻質量，評估是否值得付費接入工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "在截止日前申請試用，測試視頻生成質量與 API 整合便捷度，若達標可作為短視頻自動化內容生成的替代方案。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
