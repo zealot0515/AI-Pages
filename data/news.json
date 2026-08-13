@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-08-13-paranoia-mcp-claude-code-codex-cli",
+    "title": "paranoia：本地MCP對抗式程式碼審查，Claude Code與Codex CLI互批",
+    "title_original": "subvertnormality/paranoia",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/subvertnormality/paranoia",
+    "published_at": "2026-08-13T00:26:37Z",
+    "category": "agent-skills",
+    "summary": "paranoia為本地MCP伺服器，讓Claude Code和Codex CLI以對抗方式互相批判對方生成的程式碼。兩者均有完整Repo存取權限，透過競爭審查可能發現單一工具忽略的問題。現為早期專案，僅12星。",
+    "highlights": [
+      "本地MCP伺服器，資料不外洩",
+      "Claude Code與Codex CLI對抗式互審",
+      "雙方均擁有完整Repo存取權限",
+      "可能發現單一Agent遺漏的問題",
+      "現為早期專案，功能成熟度待觀察"
+    ],
+    "why_it_matters": "對抗式審查提供第二意見，可能提升程式碼品質與安全性。技術用戶可評估其作為Code Review自動化的輔助工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "將paranoia整合進開發流程，讓Claude Code與Codex CLI在每次Commit後自動對抗審查彼此產出的程式碼。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/5106848?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-13-deepseek-v4-pro-0813-openrouter",
+    "title": "DeepSeek V4 Pro 0813 現身 OpenRouter，官方公告頁面付之闕如",
+    "title_original": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+    "published_at": "2026-08-12T23:59:23+00:00",
+    "category": "open-source-ai",
+    "summary": "DeepSeek V4 Pro 0813 模型已可在 OpenRouter 上透過 API 呼叫，但官方未見公告頁面。觀察發現該模型不同推論程度（低/中/高）產出截然不同的 pelican 圖像，此種差異在其他模型上未曾見過。",
+    "highlights": [
+      "模型已上線 OpenRouter，僅支援 API 调用",
+      "deepseek-ai/DeepSeek-V4-Pro 權重已開源",
+      "不同推論程度輸出視覺差異極大",
+      "官方無正式公告，靠社群轉發"
+    ],
+    "why_it_matters": "若權重確實開源，開發者可本地部署此模型；其推論程度導致輸出大幅變化的特性，值得研究者進一步探討模型行為的可控性。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可直接在 OpenRouter 試用 API 比較三種推論程度的 pelican 生成結果，驗證模型行為差異是否屬實，再決定是否下載權重本地部署。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-13-yc-software-qm-agent-github-13-237",
+    "title": "yc-software/qm：多人協作 Agent 工具，GitHub 13,237 星",
+    "title_original": "yc-software/qm",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/yc-software/qm",
+    "published_at": "2026-08-12T23:54:05Z",
+    "category": "agent-skills",
+    "summary": "qm為TypeScript開發的多人Agent協作框架，透過qm.ycombinator.com提供服務。13,237星的高人氣反映市場對多人Agent協作的需求，支援多Agent分工處理複雜任務。",
+    "highlights": [
+      "TypeScript開發，類型安全且易於擴展",
+      "13,237 GitHub星標，人氣極高",
+      "支援多Agent分工協作處理任務",
+      "適合複雜專案的自動化拆分",
+      "可作為團隊AI工作流程的基礎框架"
+    ],
+    "why_it_matters": "高星標顯示多人Agent協作需求正快速成長。技術用戶可評估其作為團隊AI工作流程基礎的可行性，降低人工協調成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估qm框架，用於將大型任務自動拆分給多個Agent並行處理，例如同時爬取多個網站並整合結果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/153323858?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-13-py-gpt-ai-13",
+    "title": "py-gpt：跨平台桌面AI助理，支援13種模型整合",
+    "title_original": "szczyglis-dev/py-gpt",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/szczyglis-dev/py-gpt",
+    "published_at": "2026-08-12T21:54:13Z",
+    "category": "agent-skills",
+    "summary": "Python開發的桌面AI助理，整合GPT-5、GPT-4、o1、o3、Gemini、Claude、Ollama、DeepSeek等13種模型。支援聊天、視覺、語音、RAG、影像生成、MCP工具、插件擴展，支援Linux/Windows/Mac。",
+    "highlights": [
+      "支援13種主流模型統一介面",
+      "內建RAG、影像生成、MCP工具擴展",
+      "支援本地Ollama部署，成本可控",
+      "跨平台支援，桌面應用便利",
+      "1,879 GitHub星標，社群活躍"
+    ],
+    "why_it_matters": "一站式桌面AI助理降低多工具切換成本，支援本地Ollama部署兼顧隱私與費用控制。技術宅可立即下載部署使用。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝py-gpt作為統一AI工作入口，利用MCP工具和RAG功能自動化文件處理與資訊檢索流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/61396542?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-12-axiommath-axle-mcp-server-ai-agent-lean-4",
     "title": "AxiomMath 開源 axle-mcp-server：AI Agent 的 Lean 4 數學證明引擎",
     "title_original": "AxiomMath/axle-mcp-server",
@@ -26,6 +140,33 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/216763904?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-13-github-agent-plugins-1-0-vs-code-copilot-cli-copilot-app",
+    "title": "GitHub 發布 Agent Plugins 1.0 橫跨 VS Code、Copilot CLI 與 Copilot App",
+    "title_original": "Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app",
+    "published_at": "2026-08-12T18:39:11+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 於 8 月 12 日發布 Agent Plugins 1.0 規格，允許開發者一次建構插件即可在 VS Code、Copilot CLI、Copilot App 等所有相容的代理用戶端執行。初期合作夥伴包括 AWS、Anysphere、Microsoft、OpenAI 與 Vercel，共同推動跨平台的代理插件生態。",
+    "highlights": [
+      "統一的插件規範支援多個代理用戶端",
+      "AWS、OpenAI、Vercel 等大廠已加入生態",
+      "一次開發可部署至所有支援的客戶端",
+      "8 月 6 日正式發布 1.0 版本"
+    ],
+    "why_it_matters": "若插件開發者現在投入，可在第一時間搶佔跨平台生態紅利，一次開發就能觸及 VS Code 與 Copilot 全系列用戶，大幅降低維護成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可立即使用官方文件建構一個簡單插件，測試其在 VS Code 與 Copilot CLI 的行為差異，評估是否符合工作流程需求。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-08-12-langsmith-byoc-aws-vpc",
@@ -602,6 +743,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-13-ringcentral-ai",
+    "title": "RingCentral 如何從工程到營運打造 AI 原生工作流程程",
+    "title_original": "How RingCentral builds AI-native work from engineering to ops",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/ringcentral",
+    "published_at": "2026-08-12T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格刊出 RingCentral 案例，說明該公司如何結合 ChatGPT Work 與 Codex 加速 AI 產品開發，並將營運智慧集中化，應用於工程與營運兩端。",
+    "highlights": [
+      "使用 ChatGPT Work 加速產品開發流程",
+      "利用 Codex 處理營運自動化任務",
+      "案例由 OpenAI 官方發布，可信度較高",
+      "涉及工程與營運跨部門整合"
+    ],
+    "why_it_matters": "此案例展示企業如何在內部同時落地 Copilot 等工具，技術管理者可參考其整合思路，評估自家組織的 AI 部署策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業技術主管可檢視 RingCentral 的工作流程程圖，借鏡其營運自動化模式，評估是否適合引進 ChatGPT Work 處理類似任務。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-12-5-mib",
