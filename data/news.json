@@ -1,5 +1,90 @@
 [
   {
+    "id": "2026-08-13-claude-code-python-setup-python-claude-code",
+    "title": "claude-code-python-setup：Python 專案的 Claude Code 設定範本",
+    "title_original": "skateddu/claude-code-python-setup",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/skateddu/claude-code-python-setup",
+    "published_at": "2026-08-13T12:47:03Z",
+    "category": "agent-skills",
+    "summary": "此 GitHub 專案提供一套可直接用於 Python 專案的 .claude 設定模板，內含 agents、skills、commands、rules 及 MCP 伺服器範本。適用於希望快速將 Claude Code 整合進 Python 開發流程的技術用戶，目前約 27 星。",
+    "highlights": [
+      "開箱即用的 .claude 設定檔",
+      "內建 agents、skills、commands、rules 模板",
+      "包含 MCP 伺服器整合範本",
+      "專為 Python 專案設計",
+      "27 Stars，社區關注度尚在早期"
+    ],
+    "why_it_matters": "省去從零配置 Claude Code 的時間，技術用戶可將此專案作為工作流程起點，快速客製化自己的 AI 輔助開發環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "克隆此 repo 後，根據自身 Python 專案需求修改 rules 和 commands，立即在本地 VS Code 或終端中啟用 Claude Code 自動化輔助。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/37220947?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-13-deepseek-v4-pro-0813-api",
+    "title": "DeepSeek-V4-Pro-0813 已在 API 平台上線",
+    "title_original": "DeepSeek-V4-Pro-0813 released on api",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vn5jbx/deepseekv4pro0813_released_on_api/",
+    "published_at": "2026-08-13T09:07:45+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 有用戶分享 DeepSeek-V4-Pro-0813 已在 API 上線的消息，但貼文內容較簡短，缺乏模型規格、定價或具體能力說明等詳細資訊。",
+    "highlights": [
+      "DeepSeek V4 Pro 新版本 API 上線",
+      "僅有 Reddit 用戶分享，資訊片段",
+      "缺少模型能力詳細說明",
+      "無官方規格或定價文件連結",
+      "建議自行驗證官方 API 文件"
+    ],
+    "why_it_matters": "DeepSeek 持續更新模型線，V4 Pro 新版本可能帶來效能或成本改進，但需官方資料才能準確評估對工作流程的影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可直接查閱 DeepSeek 官方 API 文檔或嘗試呼叫 V4-Pro-0813 端點，驗證其實際能力與現有模型的差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-13-reddit-llm",
+    "title": "Reddit 討論：如何用 LLM 寫程式？",
+    "title_original": "How do you code with LLMs?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vn4haj/how_do_you_code_with_llms/",
+    "published_at": "2026-08-13T08:04:49+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit LocalLLaMA 社群成員熱烈討論使用大型語言模型輔助程式開發的各種方法與工具組合。留言區分享了常見工作流程程、IDE 整合方式、以及 prompt 優化技巧，反映技術社群對 LLM coding 實務經驗的高度需求。",
+    "highlights": [
+      "討論聚焦於本地部署模型與雲端 API 的取捨",
+      "常見工具包含 Continue.dev、Codeium、Cursor 等 IDE 外掛",
+      "Prompt engineering 技巧如 system prompt 設計與上下文管理",
+      "多數回覆建議針對不同任務選用不同模型",
+      "爭論點包含生成程式碼品質與幻觉問題"
+    ],
+    "why_it_matters": "此討論串集中呈現 2024 年技術社群最關注的 LLM 程式開發實務問題，可作為評估工具與工作流程程的社群參照基準。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將討論中的成功工作流程程（特定模型+IDE 組合+prompt 模板）整理成個人參考清單，選擇性試用提升個人開發效率。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-13-reddit-deepseek-v4-flash-muse-glimmer",
     "title": "Reddit 實測：DeepSeek-V4-Flash 搭配 Muse-Glimmer 實現視覺能力",
     "title_original": "I asked DeepSeek-V4-Flash to work with Muse-Glimmer for Vision ability in PI agent and it produced this",
@@ -604,6 +689,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/110257939?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-13-2-5",
+    "title": "字節跳動豆包推出大學生專屬優惠　免費額度提升 2.5 倍",
+    "title_original": "字节跳动為豆包推出在校大学生专属優惠活动：2.5 倍免費額度，专業版 38 元 / 月起 - 17173",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5oanctSWpzY1pQMFZxdXFsdkR3VjBBaGFwT1Z6bEt4RWF2MFVyZHdaR1ZhTDE0ZGF2Y0I1c2VrYjllTUNtV1cwVGZMZGNvbThHTmZRV0pya1VfQ2VEUmthTWItdXY?oc=5",
+    "published_at": "2026-08-12T12:06:19+00:00",
+    "category": "ai-deals",
+    "summary": "字節跳動旗下豆包 AI 助理針對在校大學生推出專屬優惠活動，可獲得 2.5 倍免費額度，專業版月費從 38 元起。此優惠旨在吸引學生族群使用豆包生態系。",
+    "highlights": [
+      "大學生認證後免費額度提升 2.5 倍",
+      "專業版訂閱費用 38 元/月起",
+      "可用於豆包桌面端及 App",
+      "需在校大學生身份驗證",
+      "優惠期限與具體條款待官方確認"
+    ],
+    "why_it_matters": "對於有 AI 工具需求的學生族群，可顯著降低使用成本，38 元專業版月費相比原價可能有相當折扣，值得技術學生評估是否值得入手。",
+    "automation_angle": null,
+    "automation_angle_zh": "大學生可利用豆包 API 額度進行小型自動化腳本測試、文書整理或程式碼輔助開發，月費 38 元成本可控，可評估其功能是否滿足個人需求。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
