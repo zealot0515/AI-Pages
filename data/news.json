@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-08-14-agent-airlock-mcp",
+    "title": "Agent Airlock：MCP 工具調用的類型檢查器與合約層",
+    "title_original": "sattyamjjain/agent-airlock",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sattyamjjain/agent-airlock",
+    "published_at": "2026-08-14T07:04:39Z",
+    "category": "agent-skills",
+    "summary": "Agent Airlock 是 AI Agent 工具呼叫的類型檢查器與合約層，採用預設拒絕、程序內檢查、僅 Pydantic 依賴。支援嚴格參數驗證、鬼參數剝離、MCP 伺服器與框架的自我修復重試。",
+    "highlights": [
+      "Pydantic-only，無額外大型依賴",
+      "預設拒絕（deny-by-default）安全模型",
+      "支援鬼參數剝離與嚴格類型檢查",
+      "自我修復重試機制提升工具呼叫穩定性",
+      "適用於 MCP 伺服器與主流 Agent 框架"
+    ],
+    "why_it_matters": "隨著 MCP 生態發展，工具呼叫的穩定性與安全性成為痛點。Airlock 提供了輕量級解法。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可在既有 Agent 專案中引入 Agent Airlock，替換自定義的工具驗證邏輯，測試是否能減少工具呼叫時的型別錯誤與重試負擔。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/37297369?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-nixos-ai-skill-nixos-ai-33",
+    "title": "nixos-ai-skill：NixOS 生態系的 AI 編碼助理文件，支援 33+ 工具",
+    "title_original": "marceloeatworld/nixos-ai-skill",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/marceloeatworld/nixos-ai-skill",
+    "published_at": "2026-08-14T06:33:45Z",
+    "category": "agent-skills",
+    "summary": "nixos-ai-skill 自動更新 NixOS 與 Nix 生態系中 AI 編碼助理的文件，通過 Agent Skills 標準（SKILL.md）支援 33 種以上工具，為 Shell 語言項目。",
+    "highlights": [
+      "基於 Agent Skills 標準（SKILL.md）",
+      "自動更新文件，保持時效性",
+      "支援 33+ AI 工具與 Nix 生態整合",
+      "Shell 語言，適用 DevOps/系統管理場景",
+      "目前僅 21 stars，專案成熟度待觀察"
+    ],
+    "why_it_matters": "對於使用 NixOS 的技術宅，此專案可簡化 AI 工具在 Nix 生態中的配置，降低折騰成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 NixOS 環境中安裝並測試 nixos-ai-skill，評估是否能自動化為專案生成 AI 助理的配置，節省手動整合時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Shell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/20625497?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-glm-5-3-ai",
+    "title": "GLM 5.3 正式發布：智譜 AI 開源模型再更新",
+    "title_original": "GLM 5.3 Released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vny9zs/glm_53_released/",
+    "published_at": "2026-08-14T05:23:43+00:00",
+    "category": "new-models",
+    "summary": "GLM 模型系列迎來 5.3 版本更新，具體更新內容與模型權重已可在社群取得。作為國產開源大模型代表，GLM 在中文理解與推論任務有一定使用者基礎。新版本具體改進細節尚待社群進一步實測確認。",
+    "highlights": [
+      "GLM 5.3 為智譜 AI 開源模型家族新版本",
+      "具體效能提升或新功能需查閱官方發布說明",
+      "模型權重已可透過社群管道取得",
+      "建議關注與前一版本 5.2 的具體差異比較",
+      "社群討論熱度中等，需自行驗證更新幅度"
+    ],
+    "why_it_matters": "GLM 系列在中文任務上表現穩定，新版本發布提供技術用戶更多本地部署選項，特別是對中文語境有需求的自動化工作流程程。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 GLM 5.3 整合至現有 RAG 流程或自動化腳本中，針對中文文件處理任務進行效能基準測試，評估是否值得替換當前版本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-deepseek-v4-flash-0731-motif-3-nvfp4-vllm",
+    "title": "DeepSeek V4 Flash 0731 對話風格不合？Motif 3 NVFP4 可能是目前最被低估的自訂 vLLM 模型",
+    "title_original": "If you don't like how DeepSeek V4 Flash 0731 talks, give Motif 3 NVFP4 a try (custom vLLM only) -- probably the most underrated model right now",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnuu2t/if_you_dont_like_how_deepseek_v4_flash_0731_talks/",
+    "published_at": "2026-08-14T02:30:04+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群用戶分享 DeepSeek V4 Flash 0731 與 Motif 3 NVFP4 的對話風格比較。Motif 3 NVFP4 需要透過自訂 vLLM 部署，被認為是對話體驗更佳的替代方案，但目前曝光度較低。建議對本地部署聊天應用有品質要求的技術用戶可實際測試比較。",
+    "highlights": [
+      "Motif 3 NVFP4 為自訂 vLLM 專用模型，需自架部署",
+      "相較 DeepSeek V4 Flash 0731 在對話自然度上更獲部分用戶好評",
+      "目前社群討論度低，可能是被低估的選項",
+      "兩者均為可本地部署的開源模型選項",
+      "建議有部署能力的用戶親自 A/B 測試對話品質"
+    ],
+    "why_it_matters": "對話風格主觀性高，社群實測回饋可幫技術用戶快速篩選適合特定用途的本地模型，避免花費過多時間在錯誤模型上微調或測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將兩個模型以相同 prompt 部署在 vLLM 上，設計自動化對話品質評測腳本，量化比較 BLEU/困惑度等指標。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-14-sqlite-utils-4-2-1",
     "title": "sqlite-utils 4.2.1 緊急修復版發布",
     "title_original": "sqlite-utils 4.2.1",
@@ -79,6 +193,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-14-llm-gemini-0-33-gemini-3-7-flash-server-side-tools",
+    "title": "llm-gemini 0.33 發布：支援 Gemini 3.7 Flash 與 Server-side Tools",
+    "title_original": "llm-gemini 0.33",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+    "published_at": "2026-08-13T19:37:34+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 報導 llm-gemini 0.33 新版支援 Gemini 3.7 Flash、3.6 Flash、3.5 Flash-lite 及 Gemini Embedding 模型，並相容 LLM 0.32，可展示推論追蹤與啟用 Server-side Tools。",
+    "highlights": [
+      "支援 Gemini 3.7 Flash（最新旗艦模型）",
+      "同時支援 3.6、3.5 Flash-lite 降級選項",
+      "新增 Gemini Embedding 模型支援",
+      "相容 LLM 0.32，可展示推論過程追蹤",
+      "支援 Server-side Tools 呼叫模式"
+    ],
+    "why_it_matters": "Gemini 模型家族持續擴展，此插件讓技術宅可在命令列無縫切換不同版本與能力，是日常測試模型的好幫手。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 llm-gemini 0.33 的 CodeExecution 工具，在命令列直接執行 Python 計算任務，比較不同思考層級（high/medium/low）的輸出差異與延遲。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-14-doom-llm",
