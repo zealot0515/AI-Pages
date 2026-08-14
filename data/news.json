@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-08-14-magento-bricklayer-magento-2-mcp-ai-agent",
+    "title": "magento-bricklayer：Magento 2 專用 MCP 伺服器，賦予 AI 編碼 Agent 電商開發能力",
+    "title_original": "Inchoo/magento-bricklayer",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Inchoo/magento-bricklayer",
+    "published_at": "2026-08-14T12:37:09Z",
+    "category": "agent-skills",
+    "summary": "magento-bricklayer 是一款 PHP 寫成的 MCP（Model Context Protocol）伺服器，讓 AI 編碼 Agent 能直接與 Magento 2 安裝環境互動，透過內省工具、程式碼生成能力與完整 Magento 知識庫輔助開發。目前僅 21 顆星，屬新興專案。",
+    "highlights": [
+      "基於 MCP 協議與主流 AI Agent 整合",
+      "提供 Magento 2 內省工具與程式碼生成",
+      "含完整 Magento 知識庫",
+      "PHP 語言，輕量級實作",
+      "目前星數少，社群活躍度待觀察"
+    ],
+    "why_it_matters": "若你維護 Magento 2 電商系統，此 MCP 工具可讓 AI 助理直接理解並操作你的程式碼庫，提升日常維運效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地 Magento 2 環境安裝測試，觀察 AI Agent 能否正確內省模組結構並生成符合 Magento 規範的程式碼。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "PHP"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1456937?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-reddit-agent-kv-cache",
+    "title": "Reddit 討論：Agent 開發者分享 KV Cache 最佳化技巧",
+    "title_original": "What KV cache tricks do you guys do with your agents?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo5im4/what_kv_cache_tricks_do_you_guys_do_with_your/",
+    "published_at": "2026-08-14T12:10:22+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 討論串中，開發者們分享各自在 Agent 應用中實作 KV Cache 加速與節省 Token 的技巧，屬社群技術交流，未有單一權威結論，適合技術愛好者追蹤最新實務做法。",
+    "highlights": [
+      "開發者社群驅動的技術討論",
+      "主題為 KV Cache 在 Agent 場景的應用",
+      "涉及加速推論與節省 Token 成本",
+      "無統一最佳實踐，各自經驗分享",
+      "適合關注推論最佳化的技術讀者"
+    ],
+    "why_it_matters": "KV Cache 是降低 Agent 推論延遲與成本的有效手段，社群分享的實務技巧可能適用於你的特定場景，值得追蹤。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀討論串中提到的具體技巧（如 cache 策略、上下文切片），選擇符合你 Agent 架構的方法做 POC 驗證。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-qwen3-8-27b-27b",
+    "title": "Qwen3.8-27B 模型卡搶先曝光，27B 參數新成員值得關注",
+    "title_original": "A preliminary Qwen3.8-27B model card is live!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo2iiz/a_preliminary_qwen3827b_model_card_is_live/",
+    "published_at": "2026-08-14T09:30:11+00:00",
+    "category": "new-models",
+    "summary": "Qwen3.8-27B 模型卡已搶先在 Reddit r/LocalLLaMA 曝光，屬 Qwen3 系列的 270 億參數新成員。具體架構與效能數據尚待確認，但可預期支援更強的本地部署性價比。",
+    "highlights": [
+      "Qwen3.8-27B 為 Qwen3 系列新增的 27B 參數模型",
+      "目前僅有 preliminary 模型卡，詳細規格尚未完全揭露",
+      "27B 規模在本地部署中具備性價比優勢",
+      "有望延續 Qwen3 系列的指令遵循與多語言能力",
+      "具體發布時間與開源許可仍待確認"
+    ],
+    "why_it_matters": "Qwen 系列在開源社群中以高效率著稱，27B 規模若維持良好表現，可成為本地部署與邊緣推論的新選擇，值得技術宅追蹤規格與 benchmark 數據。",
+    "automation_angle": null,
+    "automation_angle_zh": "等待官方模型卡完整揭露後，下載並在本地使用 ollama 或 vLLM 部署，針對特定任務（如程式碼生成、摘要）做對比評測。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-reddit",
+    "title": "Reddit 社群投票呼籲模型開發者提供更多模型選擇",
+    "title_original": "Do you want additional models? Just ask/remind/request the Model creators",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo1gjq/do_you_want_additional_models_just/",
+    "published_at": "2026-08-14T08:27:14+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/LocalLLaMA 社群發起聯署，呼籲各模型開發者回應用戶需求，提供更多元的模型選項。此趨勢反映開源社群對模型多樣性的期待，可能促使開發者加速小型化、專業化模型的發布。",
+    "highlights": [
+      "社群主動提出希望模型開發者新增特定模型需求",
+      "反映出用戶對專業任務模型的渴望",
+      "可能影響未來模型發布的路線圖規劃",
+      "此類需求往往催生高效能的垂直領域模型",
+      "對模型開發者而言是重要的用戶回饋信號"
+    ],
+    "why_it_matters": "社群需求的匯集可作為技術趨勢的風向球，若你關注特定領域的模型進展，可留意此類討論區的熱門主題，可能預示即將到來的新模型發布。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤此類需求討論，針對自己有興趣的任務領域，搶先準備測試資料集與 benchmark，待新模型發布即可第一時間評估是否值得替換現有工作流程中的模型。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-14-agent-airlock-mcp",
     "title": "Agent Airlock：MCP 工具調用的類型檢查器與合約層",
     "title_original": "sattyamjjain/agent-airlock",
@@ -55,6 +168,34 @@
       "Shell"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/20625497?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-deepseek-v4-prompt-harness",
+    "title": "DeepSeek V4 同一 Prompt 不同 Harness，結果差異驚人",
+    "title_original": "Same Prompt, Same Model Deepseek V4, VERY different results with different harnesses!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnzinu/same_prompt_same_model_deepseek_v4_very_different/",
+    "published_at": "2026-08-14T06:32:21+00:00",
+    "category": "open-source-ai",
+    "summary": "研究人員發現 DeepSeek V4 在不同測試環境（Harness）下，即便給予相同 Prompt，輸出結果差異顯著。此現象揭示了評測框架對模型表現的關鍵影響，暗示 benchmark 結果需謹慎解讀。",
+    "highlights": [
+      "同一 DeepSeek V4 模型、相同 Prompt，卻在不同 Harness 產生截然不同的回答",
+      "Harness 的差異可能來自溫度設置、採樣方式、輸出格式限制等",
+      "這挑戰了當前 benchmark 排行榜的可信度",
+      "可能影響模型採購與部署的決策依據",
+      "建議開發者自行設計貼近實際場景的測試集"
+    ],
+    "why_it_matters": "此發現提醒技術人員不應盲從公開 benchmark，須設計貼近自身任務的評測流程。否則可能選錯模型，導致自動化流程效率低落或輸出品質不如預期。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立自定義的 evaluation pipeline，使用 2-3 種不同 Harness 對候選模型做多維度評測，確保模型在實際工作流程中的穩定性，而非僅看排行榜分數。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -2052,6 +2193,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-14-anthropic-ai-ai",
+    "title": "Anthropic 將對 AI 生成文字加入隱形浮水印對抗 AI 垃圾內容",
+    "title_original": "Anthropic plans to add an invisible mark to AI text—as the industry scrambles to police AI slop - Fortune",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRnlwczRuRk1oblktUkRXOWtibFRMTFpvZjZPVmp1akFxUG9YalhLVEM4SHpqWVZkNVlacDZwZUw2MlVnUlNQb0pzLXc3ZnczR3lHSm5FTGZFeDRSNjhWam5YczlhQW9KZWdOVlprWHZUSTMwamxnWERiLUxtYXlEcGIybEFTX1po?oc=5",
+    "published_at": "2026-08-11T18:45:00+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 宣布將在 AI 生成文字中嵌入隱形浮水印技術，作為打擊 AI 垃圾內容的行業努力之一。此舉呼應了業界對內容溯源的迫切需求，但浮水印的魯棒性與隱蔽性仍存疑。",
+    "highlights": [
+      "Anthropic 計畫在 Claude 生成內容中加入不可見浮水印",
+      "目的在於區分人類創作與 AI 合成內容",
+      "此為業界多方正在推動的 AI 內容溯源方案之一",
+      "浮水印可能被簡單的改寫或翻譯工具移除",
+      "監管機構可能要求強制標示 AI 生成內容"
+    ],
+    "why_it_matters": "浮水印技術若成熟，將影響 AI 內容審核、工作流程程過濾、以及對 AI 生成文字的可信度評估。開發者需關注此趨勢以調整內容處理邏輯。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 Anthropic 浮水印技術的具體實現文件，評估是否需要更新內容過濾或 AI 檢測工具，以因應未來可能的大規模浮水印部署環境。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-11-mai-code-1-1-flash-github-copilot",
