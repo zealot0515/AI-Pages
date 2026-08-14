@@ -1,5 +1,401 @@
 [
   {
+    "id": "2026-08-14-qwen3-8-27b-qwen-270-hugging-face",
+    "title": "Qwen3.8-27B：Qwen 系列 270 億參數開源多模態模型登 Hugging Face 熱榜",
+    "title_original": "Qwen/Qwen3.8-27B",
+    "source": "Hugging Face Trending Models",
+    "source_url": "https://huggingface.co",
+    "original_url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "published_at": "2026-08-14T18:40:45.170187+00:00",
+    "category": "open-source-ai",
+    "summary": "Qwen3.8-27B 是阿里巴巴 Qwen 系列新開源模型，具 270 億參數，支援圖文對話，採用 Apache 2.0 授權。於 Hugging Face 獲得超過 8600 個讚，顯示開源社群高度關注。模型支援 transformers、safetensors 格式，可自行部署推論。",
+    "highlights": [
+      "參數規模：270 億參數，屬中大型開源模型",
+      "多模態能力：支援圖片理解與文字生成一體",
+      "開源授權：Apache 2.0，商業使用友好",
+      "格式支援：transformers、safetensors，部署彈性高",
+      "社群熱度：8600+ 讚，為當前 HF 熱門模型"
+    ],
+    "why_it_matters": "Qwen3.8-27B 以相對合理的參數量提供強大多模態能力，開源授權友善。技術人員可自行部署，省去商業 API 費用，適合需要本地推論的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 GGUF 量化版本部署至本地或雲端 GPU，以低成本自行托管。測試其圖文理解能力是否足以勝任文件分析、客服回覆自動化等任務。",
+    "tags": [
+      "open-source-ai",
+      "hf_models",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-dav-mcp-ai-agent",
+    "title": "dav-mcp：將 AI Agent 升級為日程、聯絡人、任務的統整管家",
+    "title_original": "PhilflowIO/dav-mcp",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/PhilflowIO/dav-mcp",
+    "published_at": "2026-08-14T18:40:13Z",
+    "category": "agent-skills",
+    "summary": "dav-mcp 是一個 MCP 協議實現，可將 AI Agent 擴展為具備日曆、聯絡人、任務管理能力的數位助理。採用 JavaScript 開發，星標數 31，屬早期專案，但展示了 AI Agent 整合個人生產力工具的可行路徑。",
+    "highlights": [
+      "MCP 協議實作：符合 Model Context Protocol 標準介面",
+      "三大核心功能：日曆管理、聯絡人查詢、任務追蹤",
+      "JavaScript 實現：前端技術棧友好，易於整合 Node.js 生態",
+      "早期階段：星標 31，穩定性與文件待驗證",
+      "概念驗證：展示 AI Agent 從對話走向實際行動的路線"
+    ],
+    "why_it_matters": "將 AI Agent 從純對話擴展至實際行動（建立會議、發送郵件）是實用化關鍵。dav-mcp 提供此方向的開源參考，技術人員可據此開發自定義的個人助理。",
+    "automation_angle": null,
+    "automation_angle_zh": "克隆專案並擴展其 MCP 工具定義，讓 AI Agent 能自動根據郵件內容建立日曆事件或任務清單，實現「AI 閱讀郵件 → 自動排程」的半自動化工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/223725160?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-hookdeck-cli-webhook-ai-agent-mcp",
+    "title": "Hookdeck CLI：Webhook 轉發工具暨 AI Agent MCP 伺服器",
+    "title_original": "hookdeck/hookdeck-cli",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/hookdeck/hookdeck-cli",
+    "published_at": "2026-08-14T18:35:18Z",
+    "category": "agent-skills",
+    "summary": "Hookdeck CLI 是 Hookdeck 平台的命令列工具，可將 Webhook 轉發至本地環境（ngrok 替代方案），同時內建 MCP 伺服器供 AI Agent 直接查詢事件資源。開發者免費使用，適合搭建 Webhook 驅動的 AI 工作流程。",
+    "highlights": [
+      "Webhook 轉發：將遠端 Webhook 隧道至 localhost，開發調試更便利",
+      "ngrok 替代：相同功能但整合 Hookdeck 事件管理生態",
+      "MCP 伺服器：AI Agent 可直接查詢 sources、connections、destinations",
+      "資源查詢：支援查詢 Event Gateway 的各類資源與事件日誌",
+      "開發免費：個人開發者無成本負擔即可試用"
+    ],
+    "why_it_matters": "Hookdeck CLI 簡化 Webhook 調試流程，且 MCP 支援讓 AI Agent 能以結構化方式查詢事件狀態。對需要 Webhook 觸發自動化的技術人員，可降低串接複雜度。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用 Hookdeck CLI 接收第三方 Webhook，串接 MCP 伺服器讓 AI Agent 自動解析事件內容並觸發對應動作（如通知、資料寫入、任務建立），實作事件驅動的自動化流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/64021423?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-gflow-cli-google-flow-mcp",
+    "title": "gflow-cli：Google Flow 命令列工具（含 MCP 伺服器）",
+    "title_original": "ffroliva/gflow-cli",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ffroliva/gflow-cli",
+    "published_at": "2026-08-14T18:32:29Z",
+    "category": "agent-skills",
+    "summary": "開源 CLI 工具驅動 Google Flow（Veo 影片、Imagen 圖片生成），支援腳本化、批次處理與管線整合，同時提供 MCP 伺服器供程式碼代理呼叫。",
+    "highlights": [
+      "支援 Veo 影片與 Imagen 圖片生成指令化",
+      "批次處理與管線腳本支援",
+      "附帶 MCP 伺服器供代理呼叫",
+      "Python 實作，113 stars",
+      "非官方 alpha 版本，非 Google 附屬產品"
+    ],
+    "why_it_matters": "將多模態生成整合進自動化腳本或代理工作流程，開發者可程式化控制影片與圖片生成，降低手動操作成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在現有代理工作流程中整合 gflow-cli MCP 伺服器，測試批次生成行銷素材或自動化文件插圖的可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/25033371?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-dreadnode",
+    "title": "Dreadnode 能力集開源公佈",
+    "title_original": "dreadnode/capabilities",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/dreadnode/capabilities",
+    "published_at": "2026-08-14T18:16:45Z",
+    "category": "open-source-ai",
+    "summary": "Dreadnode 平台將其代理能力集（工具、技能、MCP 伺服器、工作器）開源釋出，供社群參考與改編。",
+    "highlights": [
+      "公開代理工具與技能清單",
+      "MCP 伺服器原始碼可查閱",
+      "工作器（Worker）實作細節分享",
+      "Python 實作，11 stars",
+      "可用於學習代理設計模式"
+    ],
+    "why_it_matters": "開源代理能力設計可供技術團隊參考，加速內部代理框架的設計與實現，降低從零建構的學習成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀源碼學習代理工具介面設計模式，或fork後改造成符合自身需求的 MCP 工具集。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/350839?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-bar-observatory-claude-code-mcp",
+    "title": "bar-observatory：Claude Code 審計工具（MCP 伺服器）",
+    "title_original": "bar181/bar-observatory",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/bar181/bar-observatory",
+    "published_at": "2026-08-14T18:09:50Z",
+    "category": "agent-skills",
+    "summary": "本地端審計工具，專為 Claude Code 代理會話生成確定性報告。Rust + SQLite 實作，零網路呼叫，保障資料隱私，附 MCP 介面供代理查詢。",
+    "highlights": [
+      "本地端 SQLite 儲存，零網路依賴",
+      "Rust 高效能實作",
+      "Claude Code 會話確定性審計報告",
+      "MCP 介面供代理查詢歷史",
+      "14 stars，針對企業合規需求設計"
+    ],
+    "why_it_matters": "企業級代理部署需要審計追蹤，本工具提供隱私合規的本地化解決方案，解決雲端審計的資料外洩疑慮。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 bar-observatory 整合至 CI 流程，自動化記錄代理操作日誌並生成合規報告，供安全審查使用。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "HTML"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/25507260?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-ai-bittorrent-p2p",
+    "title": "為何 AI 模型傳輸沒有類似 BitTorrent 的 P2P 方案？",
+    "title_original": "Why don't we have p2p similar to torrents for AI model transfers",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vocuxh/why_dont_we_have_p2p_similar_to_torrents_for_ai/",
+    "published_at": "2026-08-14T16:58:54+00:00",
+    "category": "hot-topics",
+    "summary": "社群討論為何 AI 模型下載仍高度依賴集中式 CDN，而非採用類似 BitTorrent 的 P2P 分散式傳輸。討論涉及頻寬成本、頻寬授權、模型大小與下載便利性等議題。",
+    "highlights": [
+      "提出以 BitTorrent 模式分散模型下載的想法",
+      "討論集中式 CDN 的頻寬與成本問題",
+      "涉及模型大小對 P2P 效率的影響",
+      "目前缺乏類似 torrenting 的模型分享生態",
+      "可能與 HuggingFace 等平台商業模式相關"
+    ],
+    "why_it_matters": "若能建立 P2P 模型傳輸機制，可降低模型分發成本並提升下載速度，對需要快速部署模型的開發者有直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估建立組織內部 P2P 模型分發系統的可能性，減少重複下載頻寬消耗。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-grok-4-6-github-copilot",
+    "title": "Grok 4.6 現已登陸 GitHub Copilot",
+    "title_original": "Grok 4.6 is now available in GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+    "published_at": "2026-08-14T16:17:46+00:00",
+    "category": "agent-skills",
+    "summary": "xAI 最新推論模型 Grok 4.6 登陸 GitHub Copilot，主打代理式程式碼生成與複雜多步工作流程處理，內部測試顯示長程推論能力提升。",
+    "highlights": [
+      "Grok 4.6 主打代理式程式碼生成",
+      "支援複雜多步推論工作流程",
+      "Copilot 內建模情分析能力增強",
+      "與既有 Claude/GPT 模型並列提供",
+      "可能影響代理程式碼生成的性價比"
+    ],
+    "why_it_matters": "新增強推論模型選擇，讓開發者可根據任務特性切換最合適的模型，可能影響代理工具鏈的選擇與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "比較 Grok 4.6 與現有模型在長程重構、測試生成等任務上的準確率與 Token 消耗比率，評估是否值得切換。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-14-qwen3-8",
+    "title": "Qwen3.8 基準測試圖表出爐",
+    "title_original": "Qwen3.8 Benchmarks Converted to Charts",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vobndt/qwen38_benchmarks_converted_to_charts/",
+    "published_at": "2026-08-14T16:14:41+00:00",
+    "category": "new-models",
+    "summary": "Qwen3.8 的各項基準測試結果已整理成視覺化圖表，可供快速比較其在不同任務上的表現與其他主流模型的差距。",
+    "highlights": [
+      "包含多個主流 benchmark 的横向對比",
+      "涵蓋推論、程式碼、數學等維度",
+      "圖表化呈現方便快速評估模型能力",
+      "社區自發整理的視覺化資料"
+    ],
+    "why_it_matters": "幫助技術人員快速判斷 Qwen3.8 是否符合特定場景需求，不必逐項查閱原始數據。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將圖表中的 benchmark 數據擷取並匯入自己的評測系統，建立本地模型横向比較儀表板。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-30b-opus",
+    "title": "六個月後民調結果：30B 模型何時達到 Opus 等級？樂觀派獲勝",
+    "title_original": "Poll results 6 months later: When will we have Opus level with 30b model? Optimists win!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vob107/poll_results_6_months_later_when_will_we_have/",
+    "published_at": "2026-08-14T15:51:49+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群六個月前進行民調，詢問小型開源模型何時能達到 Claude Opus 等級。最新結果顯示樂觀派（認為較快達標）獲勝，反映社群對開源模型進展的信心提升。",
+    "highlights": [
+      "六個月前民調：30B 模型達 Opus 等級的時間預測",
+      "樂觀派陣營獲勝，代表社群信心增強",
+      "反映開源模型能力快速追趕封閉模型",
+      "屬社群共識調查，非官方技術評測",
+      "可作為開源模型發展趨勢的風向指標"
+    ],
+    "why_it_matters": "開源模型能力快速提升，若 30B 規模真能接近 Opus 水準，將大幅改變企業部署 AI 的成本架構。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤開源模型能力曲線，可預先評估何時將工作流程程從昂貴的封閉 API 遷移到開源替代方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-item",
+    "title": "開源實驗室開始重視持續後訓練技術",
+    "title_original": "Open labs are finally embracing the power of continued post training",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1voacuz/open_labs_are_finally_embracing_the_power_of/",
+    "published_at": "2026-08-14T15:26:58+00:00",
+    "category": "open-source-ai",
+    "summary": "越來越多開源 AI 實驗室開始投入持續後訓練（continued post-training）技術，透過在基礎模型上進行額外微調來提升特定能力。",
+    "highlights": [
+      "後訓練成為提升模型表現的新方向",
+      "可針對特定任務或領域進行強化",
+      "與從頭訓練相比成本較低",
+      "代表開源模型能力的持續迭代",
+      "可能改變模型發布週期"
+    ],
+    "why_it_matters": "這代表開源模型將從一次性發布轉向持續優化模式，技術人員有更多機會參與或客製化模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "可研究如何利用 LoRA 或其他高效微調技術，對開源基礎模型進行領域特定的持續後訓練。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-qwen-3-8-27b",
+    "title": "Qwen 3.8 27B 發布討論：請分享使用經驗",
+    "title_original": "Qwen 3.8 27B Released! Please Share Your Experience",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1voa3ch/qwen_38_27b_released_please_share_your_experience/",
+    "published_at": "2026-08-14T15:16:58+00:00",
+    "category": "new-models",
+    "summary": "Reddit 社群針對 Qwen 3.8 27B 發布開放討論串，收集用戶實際使用經驗與效能回饋。討論涵蓋推論速度、任務表現與部署難易度等面向。",
+    "highlights": [
+      "社群收集 Qwen 3.8 27B 實際使用反饋",
+      "涵蓋推論速度、任務表現、部署難易度",
+      "用戶自發性測試與比較",
+      "可作為官方文件外的真實效能參考",
+      "有助技術選型決策"
+    ],
+    "why_it_matters": "真實用戶回饋比官方文件更能反映模型在實際工作流程程中的表現，有助技術人員做出準確選型判斷。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考社群回饋評估該模型是否適合特定自動化任務（如客服、文件處理或程式碼生成）。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-unsloth-qwen-3-8-27b",
+    "title": "Unsloth 發布 Qwen 3.8 27B 量化權重",
+    "title_original": "Unsloth Qwen 3.8 27b Weights Released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo9qjv/unsloth_qwen_38_27b_weights_released/",
+    "published_at": "2026-08-14T15:03:42+00:00",
+    "category": "open-source-ai",
+    "summary": "Unsloth 團隊發布 Qwen 3.8 27B 的量化版本權重，採用優化過的量化技術大幅降低記憶體需求。據稱在 RTX 3090 等消費級 GPU 上即可流暢運行。",
+    "highlights": [
+      "Unsloth 發布 Qwen 3.8 27B 量化權重",
+      "專為消費級 GPU 優化（RTX 3090 等）",
+      "大幅降低 VRAM 需求",
+      "Unsloth 以高效微調工具聞名",
+      "提升本地部署可行性"
+    ],
+    "why_it_matters": "量化版本降低硬體門檻，個人開發者或小型團隊也能在消費級 GPU 上運行 27B 模型，降低使用成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地機器上部署 Qwen 3.8 27B 量化版，構建私有 AI 代理或自動化工作流程程，零 API 成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-qwen-3-8-27b",
+    "title": "Qwen 3.8-27B 正式發布：阿里開源新旗艦",
+    "title_original": "Qwen/Qwen3.8-27B · released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo9nn7/qwenqwen3827b_released/",
+    "published_at": "2026-08-14T15:00:51+00:00",
+    "category": "new-models",
+    "summary": "阿里巴巴發布 Qwen3.8-27B 大語言模型，屬 Qwen3 系列新成員。該模型提供多種量化版本，支援本地部署，並在多項基準測試中展現競爭力表現。",
+    "highlights": [
+      "阿里巴巴開源發布 Qwen3.8-27B",
+      "27B 參數規模，支援本地部署",
+      "提供多種量化版本（Q4、Q8 等）",
+      "屬 Qwen3 系列最新成員",
+      "在多種任務上對標更大規模模型"
+    ],
+    "why_it_matters": "27B 模型兼顧能力與硬體需求，是中小型團隊可負擔的高效能開源選項，可用於私有化部署或微調。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於企業內部知識庫問答、程式碼生成或文件處理流程的本地化 AI 自動化，降低 API 費用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-14-magento-bricklayer-magento-2-mcp-ai-agent",
     "title": "magento-bricklayer：Magento 2 專用 MCP 伺服器，賦予 AI 編碼 Agent 電商開發能力",
     "title_original": "Inchoo/magento-bricklayer",
@@ -50,6 +446,34 @@
     "automation_angle_zh": "閱讀討論串中提到的具體技巧（如 cache 策略、上下文切片），選擇符合你 Agent 架構的方法做 POC 驗證。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-lfm-2-5-2-6b",
+    "title": "LFM 2.5 2.6B：史上最佳小型工具调用模型",
+    "title_original": "LFM 2.5 2.6B is the best small model for tool use I have ever used.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vo4oxw/lfm_25_26b_is_the_best_small_model_for_tool_use_i/",
+    "published_at": "2026-08-14T11:31:14+00:00",
+    "category": "new-models",
+    "summary": "Liquid Foundation Model 2.5 系列推出 2.6B 參數版本，使用者實測認為其在工具調用任務上表現超越同規模模型。該模型專為 Function Calling 優化，適合部署在邊緣設備或本地端場景。",
+    "highlights": [
+      "2.6B 參數，適合本地部署",
+      "專注於工具調用（Tool Use / Function Calling）能力",
+      "Reddit 用戶反饋為「史上最佳」小型工具調用模型",
+      "Liquid Foundation Model 系列新成員",
+      "強調推論效率與工具使用精確度"
+    ],
+    "why_it_matters": "若該模型真實工具調用能力突出，工程師可用更少資源實現自動化流程，降低 API 調用成本與延遲。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於本地化 AI 代理，自動化瀏覽器操作、API 串接或檔案處理任務，降低雲端 API 依賴。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -227,6 +651,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-14-github-copilot-8-10",
+    "title": "GitHub Copilot 每週更新——8月10日",
+    "title_original": "GitHub Copilot weekly releases — August 10",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+    "published_at": "2026-08-14T03:15:56+00:00",
+    "category": "agent-skills",
+    "summary": "本週 Copilot 新增多項更新，整合新模型、便攜式插件，並支援跨編輯器、命令列和 Copilot App 的更流暢代理工作流程程，提升開發彈性。",
+    "highlights": [
+      "便攜式插件系統支援跨編輯器使用",
+      "新增模型整合增強推論能力",
+      "命令列工具鏈優化",
+      "Copilot App 工作流程程整合提升",
+      "代理模式（Agent Mode）穩定性改進"
+    ],
+    "why_it_matters": "開發者可在熟悉的編輯器環境中獲得更一致的 AI 輔助體驗，且跨工具鏈整合減少上下文切換成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估新插件系統是否可取代現有 VS Code 擴充功能，或將 Copilot 工作流程整合至 CI/CD 自動化腳本中。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-08-14-deepseek-v4-flash-0731-motif-3-nvfp4-vllm",
     "title": "DeepSeek V4 Flash 0731 對話風格不合？Motif 3 NVFP4 可能是目前最被低估的自訂 vLLM 模型",
     "title_original": "If you don't like how DeepSeek V4 Flash 0731 talks, give Motif 3 NVFP4 a try (custom vLLM only) -- probably the most underrated model right now",
@@ -248,6 +700,34 @@
     "automation_angle_zh": "技術用戶可將兩個模型以相同 prompt 部署在 vLLM 上，設計自動化對話品質評測腳本，量化比較 BLEU/困惑度等指標。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-2026",
+    "title": "開源模型現狀：2026 夏季觀察報告",
+    "title_original": "State of Open Models: Summer 2026 Observations",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+    "published_at": "2026-08-14T00:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格發布夏季開源模型生態觀察，涵蓋新興模型效能Benchmark、授權爭議、與專有模型的差距變化等關鍵趨勢。",
+    "highlights": [
+      "開源模型效能追蹤與 Benchmark 更新",
+      "模型授權模式分析（LLaMA、Mistral 等）",
+      "與 GPT-4、Claude 等專有模型的差距評估",
+      "邊緣部署與量化技術進展",
+      "社群貢獻與模型fork趨勢"
+    ],
+    "why_it_matters": "了解開源模型生態演進有助技術決策者選擇自託管或雲端方案，評估成本與效能的平衡點。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據報告更新內部模型評估表，測試新興開源模型（如 Mistral Large 2）在既有工作流程中的適用性。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
@@ -13331,6 +13811,33 @@
       "new-models",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-ai",
+    "title": "馬來西亞政府推出 AI 課程完成可獲免費軟體訂閱",
+    "title_original": "政府將出台多种AI课程，结業可获免費软體訂閱 - Malaysiakini",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDVjB4UHFIdTNXNTRGOU9IeDVRdVRvb1l6bDlrWjYxZ3BmTVJSVHh0QlZXbjdtSGxpUlZMNnAyaWp3Z1JDZ2NmMWVkellWQWN5Q2c?oc=5",
+    "published_at": "2026-07-28T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "馬來西亞政府將推出多種 AI 課程，完成結業後可獲得免費軟體訂閱服務，推動 AI 技能普及。",
+    "highlights": [
+      "政府官方主導的 AI 教育計畫",
+      "完成課程可獲得軟體訂閱優惠",
+      "有助於提升當地 AI 人才技能",
+      "具體課程內容和軟體範圍待確認"
+    ],
+    "why_it_matters": "若軟體涵蓋主流 AI 工具，可成為合法的免費或低價取得生產工具的途徑，值得關注後續細節。",
+    "automation_angle": null,
+    "automation_angle_zh": "馬來西亞讀者可追蹤官方公告，符合資格者可直接省去軟體訂閱費用，自動化團隊工具採購決策。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -81350,6 +81857,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-14-mistral-ai-python-2026",
+    "title": "Mistral AI Python 實戰指南 2026 版",
+    "title_original": "Mistral AI: What It Is, How to Install and Use It with Python Examples (2026 Guide) - Pasquale Pillitteri",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVjVCZWVIXzNRakdWZDg2QXRXT0hFUmlJYnV4eHJOeTh6X08xc2pIRGFRaVBmeWs0OG9ZR2w0N0NkWm1IUFg4eDN4NHloamxuMDZ4UGtWMVRsRl84Tnd4TW5lOG10Z1V4dTlEb0FYSzR4ajRHNnlfZHFMQnpPTmhVWVYtYTVNcXRscGdoZ2EzZw?oc=5",
+    "published_at": "2026-05-03T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "一份完整的 Mistral AI 使用指南，包含 Python 範例程式碼，涵蓋安裝、API 呼叫、常見任務等基礎到進階用法。",
+    "highlights": [
+      "2026 年最新版本內容",
+      "Python 範例程式碼實作",
+      "涵蓋本地部署與雲端 API",
+      "常見任務範例與最佳實踐"
+    ],
+    "why_it_matters": "對於想要整合 Mistral 模型到現有系統的開發者，這是實用的參考資料，可縮短上手時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "直接複製範例程式碼，快速將 Mistral API 整合到現有 Python 專案中進行測試。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-23-mistral-ai-vibe-mistral-medium-3-5-swe-bench-77-6",
     "title": "Mistral AI 推出 Vibe 遠端代理與 Mistral Medium 3.5，SWE-Bench 達 77.6%",
     "title_original": "Mistral AI Launches Remote Agents in Vibe and Mistral Medium 3.5 with 77.6% SWE-Bench Verified Score - MarkTechPost",
@@ -82277,6 +82811,33 @@
     "why_it_matters": "若免費 AI 服務收費或額度緊縮，直接影響開發成本和現有工作流程程。技術人需提前評估替代工具。",
     "automation_angle": null,
     "automation_angle_zh": "盤點現有工作流程中的免費 AI 依賴，評估開源模型或本地部署的可行性，建立備用方案以防成本突增。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-apple-id-chatgpt-plus",
+    "title": "土耳其 Apple ID 低價訂閱 ChatGPT Plus 攻略",
+    "title_original": "拒绝封号焦虑：土耳其Apple ID低價訂閱ChatGPT Plus实战攻略 - 80aj.com",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9FS0t5SlNKWHUyXzc1TDVXZXEzdkhwUTVDQ1FiZ1JteEdVT1RidTRPczlTei1sWnVhTVNUWDF5Z1NBZUJRcndEVEJkU1Z0N3Z6OWFRYm5CZTRabXFld3JtUUFKWXFQb3VTUVZkZEtkRQ?oc=5",
+    "published_at": "2026-04-13T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "透過土耳其 Apple ID 以較低價格訂閱 ChatGPT Plus 的方法，但屬於灰色地帶操作，存在封號風險。",
+    "highlights": [
+      "利用地區價格差異省錢",
+      "需要準備土耳其 Apple ID",
+      "可能違反 OpenAI 服務條款",
+      "有封號或支付失敗風險"
+    ],
+    "why_it_matters": "節省費用但存在帳號風險，技術人員應自行評估是否值得嘗試，並注意潛在的服務中斷。",
+    "automation_angle": null,
+    "automation_angle_zh": "不建議自動化此流程——帳號穩定性優先於節省少量費用，生產環境應使用正規訂閱。",
     "tags": [
       "ai-deals",
       "rss",
