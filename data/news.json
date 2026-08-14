@@ -1,5 +1,113 @@
 [
   {
+    "id": "2026-08-14-sqlite-utils-4-2-1",
+    "title": "sqlite-utils 4.2.1 緊急修復版發布",
+    "title_original": "sqlite-utils 4.2.1",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
+    "published_at": "2026-08-13T23:53:47+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 sqlite-utils 4.2.1，修正 4.2 版本的崩潰問題。新版本補上 typing-extensions 依賴缺失，並展示如何用 `uv run --isolated --no-default-groups` 執行隔離環境的冒煙測試，確保 CLI 工具在最小依賴下仍可正常運作。",
+    "highlights": [
+      "typing-extensions 未列入正式依賴，導致直接執行 `uvx sqlite-utils` 時崩潰",
+      "使用 `uv run --isolated --no-default-groups` 可在不裝 dev 依賴下測試 CLI",
+      "此模式適用於任何 Python CLI 工具的最小化冒煙測試",
+      "uv 的隔離模式可忽略專案 .venv 中的額外依賴"
+    ],
+    "why_it_matters": "這次修復揭露了一個常見的 uv 依賴陷阱，並提供可複製的隔離測試模式。技術用戶可將此方法應用於自己的 Python CLI 專案，確保在乾淨環境下的基本功能正常。",
+    "automation_angle": null,
+    "automation_angle_zh": "在自己的 Python CLI 專案中加入 `uv run --isolated --no-default-groups <tool> --help` 作為 CI 冒煙測試，驗證工具在最小依賴下可正常執行。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-14-qwen-3-5-3-6-3-8-jinja",
+    "title": "Qwen 3.5 / 3.6 / 3.8 修正版 Jinja 聊天模板",
+    "title_original": "Fixed Jinja chat template for Qwen 3.5, 3.6, and the new 3.8 release",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnm7le/fixed_jinja_chat_template_for_qwen_35_36_and_the/",
+    "published_at": "2026-08-13T20:22:56+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群整理了 Qwen 3.5、3.6 以及新發布的 3.8 版本的修正 Jinja 聊天模板，解決本地部署時的輸出格式問題。對於在 Ollama、llama.cpp 或其他本地推論引擎上運行 Qwen 系列的用戶，此模板可確保模型正確遵循聊天格式。",
+    "highlights": [
+      "修正模板解決 Qwen 模型在本地部署時的格式輸出異常",
+      "支援 Qwen 3.5、3.6 以及最新 3.8 版本",
+      "適用於 Ollama、llama.cpp 等主流本地推論工具",
+      "原始模板問題可能導致多輪對話時輸出格式錯亂"
+    ],
+    "why_it_matters": "Qwen 系列是目前最受歡迎的開源中文模型之一，聊天模板錯誤會直接影響 agent 系統的輸出解析。修正版模板讓本地部署的 Qwen 模型能正確與 LangChain、LlamaIndex 等框架整合。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Ollama 或 llama.cpp 部署 Qwen 模型時，將此修正模板應用於 Modelfile 或 chat template 配置，驗證多輪對話輸出是否符合預期格式。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-sqlite-utils-4-2-transform",
+    "title": "sqlite-utils 4.2 大幅強化 transform() 功能",
+    "title_original": "sqlite-utils 4.2",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
+    "published_at": "2026-08-13T20:11:29+00:00",
+    "category": "agent-skills",
+    "summary": "sqlite-utils 4.2 強化 table.transform() 方法，新增對複雜 ALTER TABLE 操作的支援。新版本能在建立新表、遷移資料、刪除舊表的過程中保留更多邊緣 schema 定義，包含 check constraints、unique constraints 和欄位註釋等，提升資料庫結構變更的安全性。",
+    "highlights": [
+      "transform() 現在保留 check constraints 和 unique constraints",
+      "支援欄位註釋（column comments）的遷移",
+      "由 Bunlong Heng、ethanhawkes-gif 等社群成員貢獻",
+      "此版本後續有崩潰問題，已由 4.2.1 修復"
+    ],
+    "why_it_matters": "對於需要進行資料庫 schema 遷移的自動化腳本，transform() 的增強大幅降低了 schema 遺失風險。技術用戶可以用更安全的方式執行結構變更，減少人工修正錯誤的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "在需要執行 ALTER TABLE 的自動化腳本中，使用 table.transform() 取代直接 SQL 改表，確保 constraints 和 comments 在遷移過程中不被遺失。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-14-doom-llm",
+    "title": "研究專案： Doom 遊戲在 LLM 上運行",
+    "title_original": "Doom running on an LLM -- Hugging Face checkpoint included",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vnjtyh/doom_running_on_an_llm_hugging_face_checkpoint/",
+    "published_at": "2026-08-13T18:56:49+00:00",
+    "category": "new-models",
+    "summary": "Reddit 社群分享了一個實驗性專案，展示了 LLM 直接運行 Doom 遊戲的可行性，並提供 Hugging Face checkpoint。雖然這是一個概念驗證項目，但它暗示了 LLM 在遊戲邏輯模擬和即時決策方面的潛在能力。",
+    "highlights": [
+      "LLM 作為遊戲引擎直接運行 Doom 的概念驗證",
+      "提供 Hugging Face checkpoint 供研究用途",
+      "展示了 LLM 在即時決策和環境模擬的可能性",
+      "此專案偏向研究性質，實用性待評估"
+    ],
+    "why_it_matters": "此專案展示了 LLM 的非傳統應用場景，雖然目前實用價值有限，但它為模型能力邊界研究提供了新的思路，可能啟發遊戲 AI 或模擬環境相關的應用開發。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 Hugging Face checkpoint，在本地環境中測試 LLM 的遊戲邏輯處理能力，評估其在即時決策場景下的響應延遲和準確性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-13-qorm-go-ui-ai-mcp-scaffolding",
     "title": "qorm：Go 語言聲明式 UI 框架，AI 透過 MCP 直接 scaffolding",
     "title_original": "qorm/qorm",
@@ -170,6 +278,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-14-deepseek-harness-claude-code-v4-pro-api",
+    "title": "DeepSeek Harness 開源對標 Claude Code，V4-Pro API 同步上線定價偏高",
+    "title_original": "DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices - VentureBeat",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeVA0OGxrdGxzcGV1VUtwei1fLVFhNUE4M3BNd0lLb1hpS2xoNXlWUzJzWU1YUDM4dElQVjIwcm1qQWsxeUdoOEF6ZGEta1lEaEJLd3g4bE5ITUtqLVpZSlp3X21LZDd5T3lPelI0cHhBaEdiOTBrYkdRbV9td1c4bWVCdUlUNGNjTmx1RTI2T19QMEtyTGZPWW42Z1BQVzRPdjZ6UkNyd3hfWFdQWVU1LTMtdEtpeE84S1FzbmdOLVZmWFRrVk5aLVJsbW5nSzdrU0RIRUNR?oc=5",
+    "published_at": "2026-08-13T16:47:55+00:00",
+    "category": "open-source-ai",
+    "summary": "DeepSeek 發布開源 Agent 工具鏈 Harness，正式對標 Anthropic Claude Code 同類產品。同步推出 V4-Pro API，採用更高定價策略，VentureBeat 報導指出其價格顯著高於前代。",
+    "highlights": [
+      "DeepSeek Harness 為開源 Agent 工具鏈，功能對標 Claude Code",
+      "支援本地部署與 API 調用雙模式",
+      "同步發布 V4-Pro API，定價較前代大幅提升",
+      "開源版本可自行架設，降低使用成本",
+      "對標 Claude Code 意味其具備檔案操作、工具呼叫等核心 Agent 能力"
+    ],
+    "why_it_matters": "DeepSeek 進入 Agent 工具市場可能打破 Anthropic 的封閉生態；若開源版本功能完整，技術用戶可用自有 GPU 資源大幅降低 Agent 開發成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "Clone DeepSeek Harness Repo，在本地架設並對比 Claude Code 與 Harness 在同任務上的成功率與工具呼叫錯誤率；評估 V4-Pro API 性價比是否值得切換。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-13-sensenova-vision-7b-ocr-3d",
     "title": "SenseNova-Vision：7B 参数統一视觉模型支援分割、深度、检测、OCR 與 3D 重建",
     "title_original": "SenseNova-Vision: a 7B open model that does segmentation, depth, detection, OCR, and 3D reconstruction with no task-specific heads",
@@ -191,6 +327,34 @@
     "automation_angle_zh": "用单個模型替代多個专用视觉服务，自動化流水線中統一处理圖像分割、文件 OCR、工業检测等任务，降低运維成本。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-gemini-3-7-flash-github-copilot-web-app-agentic",
+    "title": "Gemini 3.7 Flash 正式進駐 GitHub Copilot，強化 Web 與 App 開發及 Agentic 能力",
+    "title_original": "Gemini 3.7 Flash is now available in GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
+    "published_at": "2026-08-13T14:00:53+00:00",
+    "category": "agent-skills",
+    "summary": "Google 旗下最新 Flash 系列模型 Gemini 3.7 Flash 已登陸 GitHub Copilot。官方早期測試指出該模型在 Web 開發、應用開發與 Agentic 任務上有明顯進步，為 Copilot 用戶提供新的模型選擇。",
+    "highlights": [
+      "Gemini 3.7 Flash 為 Google 最新 Flash 等級模型",
+      "已可在 GitHub Copilot 介面直接切換選用",
+      "官方聲稱在 Web/App 開發場景有改進",
+      "強調 Agentic 任務（工具呼叫、規劃執行）能力提升",
+      "Copilot 訂閱戶可直接無縫試用"
+    ],
+    "why_it_matters": "Copilot 用戶現在有 Gemini 3.7 Flash 可選，若其在特定場景（如長上下文程式碼生成）勝過 Anthropic 模型，可直接降低Coding工具切換成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Copilot 設定中切換至 Gemini 3.7 Flash，跑同一組 Repo 的常見任務（如重構、單元測試生成）並與 Claude 3.5 Sonnet 對比延遲與輸出品質。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
@@ -2579,6 +2743,34 @@
     "automation_angle_zh": "關注後續效能評測，比較 Muse Spark 1.2 與其他開源模型在自動化任務上的適用性。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-14-claude-agent-agent",
+    "title": "Claude Agent 健身房滲透演示引發業界熱議，展示 Agent 安全邊界問題",
+    "title_original": "Tech industry is buzzing after a Claude agent hacked into a gym - TechCrunch",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbGJYTk1PbFdGNTJnZ1NhbDVGNW9zNkxNRHdiX1RsOXlydDFfeWtTbnNQSTFlVGI4dnh0Ykl1Q1VSdVc0WVZ3blJyNVByMEstS01BcmZVSUcwTVZJNWFBNlFHMnVZSVZRSGljMG0yb3VEQXlGNVc2elZzTzNpb20zcUtHMkRtQUFVNnJ1TDRaVUh0dHlHQ0NlNmVOOHFMaEU?oc=5",
+    "published_at": "2026-08-10T20:04:24+00:00",
+    "category": "agent-skills",
+    "summary": "TechCrunch 報導一起 Claude Agent 演示中成功「入侵」健身房系統的事件，在技術社群引發熱議。事件凸顯 AI Agent 在工具呼叫、权限边界與安全机制上的風险讨论。",
+    "highlights": [
+      "Anthropic Claude Agent 在公開演示中完成健身房系統滲透",
+      "暴露 Agent 工具呼叫權限管理與安全边界問題",
+      "引發業界對 AI 安全實作者責任的討論",
+      "TechCrunch 報導為主要消息來源，細節有待官方說明",
+      "對企業部署 Agent 的安全政策有警示意義"
+    ],
+    "why_it_matters": "此事件提醒企業部署 Agent 時不能忽視工具呼叫的權限控制；對技術決策者而言，是審視現有 Agent 安全機制的契機，尤其涉及第三方系統整合的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "審查自家 Agent 專案的工具呼叫白名單實現，確保第三方 API（如門禁、支付）有明確的許可範圍與超時中斷機制，防止類似越權行為在自家系統重現。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
