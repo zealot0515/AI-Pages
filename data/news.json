@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-08-15-heristop-leclap-mcp",
+    "title": "heristop/leclap：透過 MCP 呼叫的確定性視訊合成工具",
+    "title_original": "heristop/leclap",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/heristop/leclap",
+    "published_at": "2026-08-15T00:11:28Z",
+    "category": "agent-skills",
+    "summary": "基於 JSON 模板的確定性視訊合成引擎，支援 Node.js、瀏覽器 WebAssembly 及 React Native 純設備端渲染。無需伺服器上傳或生成式模型，可透過 MCP 整合。",
+    "highlights": [
+      "確定性渲染，結果可預測",
+      "支援 Node.js、瀏覽器 WebAssembly、React Native",
+      "無需伺服器，完全設備端運行",
+      "不依賴生成式 AI 模型",
+      "MCP 整合，Agent 可直接呼叫"
+    ],
+    "why_it_matters": "對於需要自動化視訊處理的技術用戶，leclap 提供輕量、無伺服器依賴的解決方案，特別適合對隱私敏感或需要離線運作的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Agent 工作流程中透過 MCP 呼叫 leclap，自動合成行銷素材或螢幕錄影等視訊內容，無需上傳至第三方服務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/206870?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-15-qorm-platform-ai-json-ui-go",
+    "title": "qorm/platform：讓 AI 助理用 JSON 描述式建構跨平台 UI 的 Go 框架",
+    "title_original": "qorm/platform",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/qorm/platform",
+    "published_at": "2026-08-14T22:19:01Z",
+    "category": "agent-skills",
+    "summary": "透過 JSON 描述 UI，讓 AI 助理即時建構、編輯、驗證 UI 元件並封裝至 Web、iOS、Android、桌面或小程式。基於 Go 語言，強調 Agent 原生設計，可透過 MCP 呼叫。",
+    "highlights": [
+      "描述式 UI：透過 JSON 定義介面",
+      "AI 助理即時建構與修改 UI",
+      "跨平台輸出：Web/iOS/Android/桌面/小程式",
+      "MCP 整合，Agent 可直接呼叫",
+      "基於 Go 語言，效能佳"
+    ],
+    "why_it_matters": "將自然語言轉換為跨平台 UI，大幅降低 Agent 建構介面的門檻，適合需要快速原型開發與自動化 UI 生成的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "整合到 Agent 工作流程中，透過自然語言描述自動生成對應 UI，並封裝為多平台應用。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/21352436?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-15-150m-0-0007-arc-agi-1-29-5",
+    "title": "150M 參數循環模型以 $0.0007/任務達成 ARC-AGI-1 29.5% 分數",
+    "title_original": "Stop shitting on 9B models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1voh7lk/stop_shitting_on_9b_models/",
+    "published_at": "2026-08-14T19:36:58+00:00",
+    "category": "new-models",
+    "summary": "研究人員展示一款僅 150M 參數的循環架構模型，在 ARC-AGI-1 基準取得 29.5% 分數，推論成本低至每任務 $0.0007。相較大型模型動輒 $0.01-1 的成本，此微型模型在特定任務上展現極高性價比，可能為低成本自動化場景開闢新途徑。",
+    "highlights": [
+      "僅 150M 參數，推論成本 $0.0007/任務",
+      "循環架構（Recurrent Architecture）不同於主流 Transformer",
+      "ARC-AGI-1 分數 29.5%，超越隨機基線",
+      "適合需要大量重複執行的簡單推論任務",
+      "可在消費級硬體本地運行"
+    ],
+    "why_it_matters": "極低成本推論能力意味著大規模部署門檻大幅降低。技術宅可評估此模型是否適用於自己的自動化流程，特別是需要高頻執行的瑣碎任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估此模型能否替代昂貴的 GPT-4 API，處理如文件分類、簡單問答等高頻任務，計算 ROI。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-15-simon-willison-embedding",
+    "title": "Simon Willison 解說：用幻覺取代分類——Embedding 配對新思路",
+    "title_original": "A 150M param recurrent model scores 29.5% on ARC-AGI-1 at $0.0007 per task",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1voh6tx/a_150m_param_recurrent_model_scores_295_on/",
+    "published_at": "2026-08-14T19:36:11+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 推薦 Doug Turnbull 的技巧：讓 LLM 直接「幻想」出符合內容的標籤，而非從現有詞彙庫中選擇。接著用向量 Embedding 在現有語料庫中搜尋最相似的實際標籤，實現創意分類。此法繞過了傳統分類器的限制，適合標籤數量龐大或類別模糊的場景。",
+    "highlights": [
+      "先讓 LLM 生成『幻想標籤』，不受現有詞彙限制",
+      "用向量相似度在語料庫中匹配真實標籤",
+      "Doug Turnbull 範例用於家具/家居商品分類",
+      "可處理 1,856 個標籤等大量類目場景",
+      "結合生成式 + 檢索式的混合架構"
+    ],
+    "why_it_matters": "傳統分類任務受限於預定義類目，此技巧解放 LLM 的生成能力，配合 Embedding 實現精準落地。對於需要靈活分類的自動化流程極有價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將此法應用於內容審核、SEO 標籤生成、知識庫自動歸類等流程，取代手動維護龐大分類表。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-08-14-qwen3-8-27b-qwen-270-hugging-face",
     "title": "Qwen3.8-27B：Qwen 系列 270 億參數開源多模態模型登 Hugging Face 熱榜",
     "title_original": "Qwen/Qwen3.8-27B",
