@@ -1,5 +1,90 @@
 [
   {
+    "id": "2026-08-15-llama-cpp-pr-kimi-k3",
+    "title": "llama.cpp PR 合併 Kimi-K3 文字模型支援",
+    "title_original": "model: add Kimi-K3 text model by pwilkin · Pull Request #26185 · ggml-org/llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp6haw/model_add_kimik3_text_model_by_pwilkin_pull/",
+    "published_at": "2026-08-15T15:59:13+00:00",
+    "category": "open-source-ai",
+    "summary": "llama.cpp 官方 PR #26185 合併了 Kimi-K3 文字模型支援，將其引入 llama.cpp 生態，使本地推論框架能直接載入 Kimi-K3 模型。",
+    "highlights": [
+      "PR 已合併至 llama.cpp 主線",
+      "Kimi-K3 文字模型進入本地推論生態",
+      "支援 GGUF 等 llama.cpp 標準格式",
+      "可與 llama.cpp 量化技術結合使用",
+      "提供本地無 API 成本的推論選項"
+    ],
+    "why_it_matters": "Kimi-K3 加入 llama.cpp 代表國產模型與主流本地推論框架接軌，本地用戶可直接在本地跑 Kimi 系列模型，省去雲端費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可透過 llama.cpp 量化 Kimi-K3 後在本地部署，實測其文字任務表現與雲端版本的差異，評估性價比。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-15-mimiclaw-5-agent",
+    "title": "MimiClaw：$5 硬體晶片上的 Agent 作業系統",
+    "title_original": "memovai/mimiclaw",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/memovai/mimiclaw",
+    "published_at": "2026-08-15T14:32:50Z",
+    "category": "open-source-ai",
+    "summary": "MimiClaw 是一款超精簡硬體 Agent 作業系統，標榜不需要 Linux、不需要 Node.js、不需要 Mac mini 或樹莓派，可在 5 美元晶片上直接運行，5688 Star，C 語言實作。",
+    "highlights": [
+      "極低成本部署，目標為 $5 晶片",
+      "無需傳統作業系統依賴",
+      "無需 Node.js 或外部執行環境",
+      "已有 5688 Star，社群關注度高",
+      "C 語言實作，適合嵌入式整合"
+    ],
+    "why_it_matters": "若能真正在超低成本硬體上跑 Agent OS，將開啟邊緣 AI 自動化新維度，硬體門檻從數百美元降至個位數。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可檢視 GitHub 原始碼評估實際硬體需求，若真有 $5 晶片支援，則可考慮部署離線自動化場景。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "C"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/220203124?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-15-qwen3-8-27b-clone",
+    "title": "Qwen3.8-27B 本地端一發生成超級瑪利歐 Clone 遊戲",
+    "title_original": "If you would have told me half a year ago that a local model running in my office would be able to one-shot a Super Mario clone, I would have called you nuts. Qwen3.8-27B is a different beast.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp438p/if_you_would_have_told_me_half_a_year_ago_that_a/",
+    "published_at": "2026-08-15T14:19:46+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶實測 Qwen3.8-27B 在本地端辦公室機器上一發生成可玩的超級瑪利歐 Clone，驚訝於本地模型能力已達此水準，為開源本地模型能力變化的具體案例。",
+    "highlights": [
+      "Qwen3.8-27B 為開源本地模型",
+      "本地端（辦公室機器）即可運行",
+      "成功一發生成可玩的瑪莉歐 Clone",
+      "代表本地模型遊戲生成能力突破",
+      "來源為 Reddit 用戶實測，未經官方驗證"
+    ],
+    "why_it_matters": "本地模型遊戲生成能力從「理論可行」到「實測可跑」標誌開源模型能力躍進，對遊戲開發者、創意工作者有直接參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 Qwen3.8-27B 至本地測試遊戲或創意內容生成，評估其是否能替代部分雲端 API 需求以節省成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-15-contenox-llm-agent",
     "title": "contenox：支援任意 LLM 的本地 Agent 政策伺服器",
     "title_original": "contenox/contenox",
@@ -171,6 +256,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/62018067?v=4",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-15-qwen-3-8-27b-reddit",
+    "title": "通義千問 Qwen 3.8 27B 模型發布日 Reddit 熱烈討論中",
+    "title_original": "[Megathread] Qwen 3.8 27B Release Day",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1voojjz/megathread_qwen_38_27b_release_day/",
+    "published_at": "2026-08-15T00:41:13+00:00",
+    "category": "new-models",
+    "summary": "阿里雲通義千問系列推出 Qwen 3.8 27B 版本，此為 270 億參數規模的大型語言模型，Reddit LocalLLaMA 社群已有 megathread 討論其效能表現與本機部署可能性。該模型延續 Qwen 家族的開源策略，預期支援 Apache 2.0 許可證。",
+    "highlights": [
+      "270 億參數規模，介於小型精簡模型與超大規模模型之間",
+      "Reddit megathread 已有技術社群實測討論",
+      "預期延續開源路線，許可證待確認",
+      "適合本機或自有 GPU 伺服器部署",
+      "可做為 GPT-4o mini 或 Claude Haiku 的替代方案比較"
+    ],
+    "why_it_matters": "Qwen 3.8 27B 若表現優異，可為開發者提供一個具成本效益的開源替代方案，尤其適合需要較大上下文窗口且希望自行托管的企業或個人用戶。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在模型正式開放下載後，使用 lm-evaluation-harness 框架對其進行標準化基準測試，比較在程式碼生成、數學推論、長文本理解等任務上相對於現有模型的性價比，決定是否整合至自己的 AI pipeline。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-15-heristop-leclap-mcp",
@@ -1604,6 +1717,34 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-15-2-0-19-4000",
+    "title": "超級小愛 2.0 專家模式積分會員方案：連續包月 19 元獲 4000 積分",
+    "title_original": "超級小爱2.0专家模式积分會員訂閱方案：连续包月19元/4000积分 - 電腦之家",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9iOEJOc19JdXYzZWU3aHhVaklYajgzaThndVhrZTNiUnBiVzdNWGdTUVllRXJkRUdNbS0zYUd3ODMyQzhyVjZPV3lqUVJBRHVXYjNGZg?oc=5",
+    "published_at": "2026-08-13T07:45:10+00:00",
+    "category": "ai-deals",
+    "summary": "小米超級小愛 2.0 推出專家模式積分會員訂閱方案，連續包月費用 19 元可獲得 4000 積分，用戶可依需求兌換專家模式使用額度或功能進階。相較標準版本，此方案提供更穩定的 API 額度與優先處理權，適合需要頻繁調用 AI 能力的重度用戶。",
+    "highlights": [
+      "連續包月 19 元可獲 4000 積分，性價比相對明確",
+      "專家模式提供更快的回應速度與優先佇列",
+      "積分可用於兌換高階功能或增加 API 額度",
+      "適合已有小米生態系的使用者整合工作流程",
+      "需注意連續訂閱自動扣款，取消需主動操作"
+    ],
+    "why_it_matters": "此方案為小米 AI 生態系用戶提供低成本入口，若已使用小愛同學或小米智慧裝置，可透過整合自動化腳本或工作流程程提升日常效率，減少跨平台切換成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估透過小米開放平台 API 將小愛專家模式整合至自動化腳本，例如結合 IoT 裝置控制或會議紀錄生成，先以 19 元/月試用觀察積分消耗速度與回應品質。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -87644,6 +87785,34 @@
     "why_it_matters": "對於使用 Google AI Pro 學生方案進行開發或實驗的技術人員，若驗證失敗將直接影響日常使用的 API 額度與訂閱費用，需儘早處理以避免工作中斷或成本增加。",
     "automation_angle": null,
     "automation_angle_zh": "受影響的技術人員應立即登入 Google 帳戶完成驗證，同時評估若失去學生方案，是否有必要遷移到付費方案或切換至其他免費額度更充足的 AI 平台。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-15-36kr-ai",
+    "title": "36Kr 解析付費升級 AI 前四個關鍵決策問題",
+    "title_original": "付费升級AI前必看，4 個灵魂拷问，讓你别花冤枉钱 - 36 Kr",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4wMy1iR1Ryd1hwdGpfZndva3J5SjRveHcxcDNRWjNPTDNpX0RySEdud21SUTNnb0dvQmVTV3dvdnRGc2Z6Snh4eUdIakNIdw?oc=5",
+    "published_at": "2025-08-12T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "36Kr 發布付費升級 AI 服務前的決策指南，提出四個核心問題協助用戶判斷是否值得從免費版轉向付費方案。內容聚焦於使用頻率、性價比評估、場景必要性與替代方案比較等維度，協助避免衝動訂閱導致浪費。",
+    "highlights": [
+      "評估實際使用頻率與付費額度的匹配度",
+      "比較不同 AI 平台訂閱方案的功能差異",
+      "確認付費功能是否為核心剛需而非炫耀性需求",
+      "列舉常見付費升級的誤區與省錢策略",
+      "建議先試用免費額度或測試版再做長期決策"
+    ],
+    "why_it_matters": "對於技術用戶而言，了解如何理性評估 AI 訂閱方案可避免不必要的開支，將預算導向真正能提升生產力的工具，尤其在多平台並用的情況下更需系統性評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據文中框架建立自己的 AI 工具使用追蹤表，記錄各平台月均 API call 數與功能使用率，計算實際 ROI，進而決定哪些訂閱值得保留或取消。",
     "tags": [
       "ai-deals",
       "rss",
