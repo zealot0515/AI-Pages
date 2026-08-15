@@ -1,5 +1,120 @@
 [
   {
+    "id": "2026-08-15-contenox-llm-agent",
+    "title": "contenox：支援任意 LLM 的本地 Agent 政策伺服器",
+    "title_original": "contenox/contenox",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/contenox/contenox",
+    "published_at": "2026-08-15T12:08:51Z",
+    "category": "agent-skills",
+    "summary": "contenox 是一個以 Go 編寫的 Agent 伺服器，特色是所有操作執行前都會先經過政策（policy）檢查。Agent、工具與模型皆以設定檔宣告，支援任意 LLM，部署在自己機器上，採用 Apache-2.0 授權開源。",
+    "highlights": [
+      "Go 編寫，單機部署，效能佳",
+      "所有 action 執行前皆需 policy 審核",
+      "工具、Agent、模型皆可 YAML 宣告",
+      "支援任意 LLM，不綁定特定供應商",
+      "政策化執行提供安全性與可控性"
+    ],
+    "why_it_matters": "contenox 的 policy-first 設計為 Agent 安全執行提供了框架級保障，技術人員可借此在本地實驗各類 Agent 能力而不必擔心未授權操作。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 contenox 作為本地 Agent 實驗的安全沙箱，定義嚴格的政策規則來測試 Agent 行為，確保部署前符合預期操作範圍。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/212704274?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-15-titen-bun-api-key-mcp",
+    "title": "titen：Bun 跑的無需 API Key 的本地 MCP 記憶服務",
+    "title_original": "RamaAditya49/titen",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/RamaAditya49/titen",
+    "published_at": "2026-08-15T12:03:57Z",
+    "category": "agent-skills",
+    "summary": "titen 是一個完全本地運行的 Agent 記憶系統，無需 API Key、無需 LLM、無需 Embedding 服務商。用 Bun 一鍵啟動後即透過 stdio 提供 MCP 記憶服務，後端是 SQLite。每筆記憶保留來源與誰可讀，並標記矛盾證據，適合替代 MCP 官方記憶伺服器。",
+    "highlights": [
+      "零 API 依賴，純本地 SQLite 存儲",
+      "Bun 單命令啟動，MCP over stdio",
+      "每筆記憶保存來源與讀取權限",
+      "內建矛盾證據追蹤機制",
+      "可直接替換 MCP 官方記憶伺服器"
+    ],
+    "why_it_matters": "titen 解決了本地 Agent 部署時的隱私與成本痛點，不需要任何外部服務即可運行 MCP 記憶功能，對注重資料控制權的技術人員極具吸引力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將 titen 部署在本機，作為自架 Agent 的長期記憶層，避免敏感資料送往第三方 API，同時節省 Embedding 服務費用。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/213913142?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-15-base-ai-assistant-spring-ai-agent",
+    "title": "base-ai-assistant：Spring 生態系企業級 AI Agent 基礎框架",
+    "title_original": "endcy/base-ai-assistant",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/endcy/base-ai-assistant",
+    "published_at": "2026-08-15T08:20:30Z",
+    "category": "open-source-ai",
+    "summary": "base-ai-assistant 是基於 Spring Boot + Spring AI + Spring AI Alibaba 的開源 AI Agent 框架，支援 RAG、MCP 協定與簡單工作流程。定位為智慧客服、智慧運維、垂直領域助理的基礎架構，Java 技術棧友好，目前約 93 星。",
+    "highlights": [
+      "基於 Spring 生態，Java 開發者友好",
+      "內建 RAG 與 MCP 協定支援",
+      "可用於構建智慧客服、運維助理",
+      "支援簡單工作流程與垂直領域定制",
+      "開源可商用，Apache-2.0 授權"
+    ],
+    "why_it_matters": "對已使用 Spring 技術的企業或團隊而言，base-ai-assistant 提供了一個開箱即用的 AI Agent 基礎，可大幅降低企業內部 AI 助理的開發門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "Java 團隊可將此框架作為企業內部 AI 自動化工具的基底，例如建構 IT 運維助理、內部文件問答系統，或客服機器的原型。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Java"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/41557700?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-15-qwen-3-8-27b-27b",
+    "title": "通義千問 Qwen 3.8 27B 發布：27B 參數級別的新標杆",
+    "title_original": "Try out this \"high\" reasoning mode for 27B (tested on VLLM)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vox89e/try_out_this_high_reasoning_mode_for_27b_tested/",
+    "published_at": "2026-08-15T08:19:05+00:00",
+    "category": "new-models",
+    "summary": "阿里巴巴發布 Qwen 3.8 27B 模型，這是通義千問系列中 27B 參數級別的最新版本。據 Megathread 討論，該模型整合了混合推論能力，支援更長的上下文窗口，並在多項基準測試中展現競爭力。社群正在積極測試其在本地部署的實際表現。",
+    "highlights": [
+      "27B 參數規模，定位於高效能與可本地部署的平衡點",
+      "支援混合推論模式，適合需要思考鏈的任務",
+      "上下文窗口顯著增加，利好長文本處理場景",
+      "與 Qwen 2 系列相比，指令遵循能力有所提升",
+      "已在 LM Arena 等人類偏好評估中嶄露頭角"
+    ],
+    "why_it_matters": "27B 是本地部署的黃金參數區間，兼顧效能與硬體門檻。Qwen 3.8 若能在這尺寸達成接近大模型的任務表現，將成為技術宅本地 AI 應用的首選基礎模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Ollama 或 vLLM 在本地 GPU 部署 Qwen 3.8 27B，替換現有的 7B/13B 模型，評估其在自動化代碼生成、文件摘要、客服機器人等實際工作流程程中的效能提升幅度。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-15-zorvai-ai-agent",
     "title": "ZorvAI：安卓開源AI Agent助理，支援多模型與飛書微信接入",
     "title_original": "Quor-a/ZorvAI",
@@ -254,6 +369,34 @@
       "JavaScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/223725160?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-15-meta-oss-cookbook-meta",
+    "title": "Meta OSS Cookbook：Meta 開源模型的完整使用食譜",
+    "title_original": "Muse Glimmer was frontier In the model class around 30b models for four days.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vofnnf/muse_glimmer_was_frontier_in_the_model_class/",
+    "published_at": "2026-08-14T18:39:53+00:00",
+    "category": "open-source-ai",
+    "summary": "Meta 官方發布了 meta-oss-cookbook 開源食譜庫，收錄 Llama、Segment Anything、ImageBind、DINOv2 等模型從訓練到部署的完整配方。涵蓋數據處理、訓練技巧、微調策略、生產部署等全生命週期指引，旨在幫助開發者更高效地使用 Meta 旗下開源模型。",
+    "highlights": [
+      "收錄 Llama 3、Segment Anything 等明星模型的官方最佳實踐",
+      "覆蓋從預訓練到 RLHF 的各階段技術路線",
+      "提供生產環境部署的配置範本",
+      "包含常見問題的官方解法",
+      "持續更新，標注各模型的版本兼容性"
+    ],
+    "why_it_matters": "過去開發者需自行整合分散的 GitHub issues 和論文細節。官方食譜庫的出現大幅縮短調研時間，讓技術宅能更快把開源模型落地到實際工作流程程中。",
+    "automation_angle": null,
+    "automation_angle_zh": "在启动新開源模型專案前，先查閱對應食譜，複製官方推薦的配置而非從零試錯。特別適合用於評估不同微調方案（Lora、QLoRA、Full fine-tune）的資源需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -81639,6 +81782,34 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-15-muse-glimmer-30b",
+    "title": "Muse Glimmer：短暫占据 30B 級別前沿的模型引發熱議",
+    "title_original": "OpenAI Team訂閱惊现“神級”優惠：48個月半價及两個月免費攻略流出 - 80aj.com",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4zSjlWY2RWdjlWR2NCOVFHUmpad19XRWF2YUdIblpteDF2aUlDYmh4Q0Y1a1ZrenZtQW5jX3ZacllHUEdqS3hPcDRWTjdtOGQyRWRBSDhIQXFyd2NrWXBIZHJyZ2VOcFJLb19z?oc=5",
+    "published_at": "2026-05-09T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "一款名為 Muse Glimmer 的約 30B 參數模型在特定基準測試中達到前沿水平，並在該模型類別中保持領先約四天。社群正在討論該模型背後的技術架構與訓練策略，但詳細論文和權重尚未公開。",
+    "highlights": [
+      "約 30B 參數規模，在特定任務上短暫達到前沿表現",
+      "資訊主要來源於 Reddit 討論，官方發布尚不明確",
+      "四天後被其他模型超越，領先窗口較短",
+      "引發對訓練數據與架構選擇的猜測",
+      "有興趣的開發者正在關注後續動態"
+    ],
+    "why_it_matters": "30B 級別模型的快速迭代顯示開源社群的競爭激烈程度。即使短暫領先也值得關注，因為背後的技術可能被快速吸收並復現。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續監控 Muse Glimmer 的後續發布，若權重公開，可用於評估其在本地自動化任務（代碼、摘要、翻譯）中的實際可用性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
