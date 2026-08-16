@@ -1,5 +1,231 @@
 [
   {
+    "id": "2026-08-16-agentshield-ai-agent-mcp",
+    "title": "AgentShield：專為 AI Agent 工具與 MCP 伺服器打造的安全防火牆",
+    "title_original": "aiconnai/agentshield",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aiconnai/agentshield",
+    "published_at": "2026-08-16T18:10:38Z",
+    "category": "agent-skills",
+    "summary": "Rust 實作的 Agent 安全框架，瞄準 Claude、GPT-5.6、Gemini 3.7 等主流 Agent 平台，宣稱能在 50ms 內攔截命令注入、密鑰竊取與惡意流程，支援離線 SAST 靜態分析與一鍵自動修復，輸出 SARIF 格式報告。",
+    "highlights": [
+      "Rust 實作，強調高效能與記憶體安全",
+      "專門針對 Agent 工具鏈常見攻擊向量設計",
+      "50ms 內完成威脅檢測，低延遲不影響 Agent 效能",
+      "離線 SAST 無需網路，適合安全敏感環境",
+      "一鍵自動修復功能降低運維負擔"
+    ],
+    "why_it_matters": "隨著 Agent 工具鏈廣泛應用，安全邊界問題日益突出，AgentShield 提供了一個專用化防護思路，值得關注其實務效果。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在部署 Agent 工具鏈前將 AgentShield 作為安全審計層，驗證其對自定義工具的防護效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/55674703?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-16-codex-app",
+    "title": "Codex APP 存在程式錯誤",
+    "title_original": "Codex APP Bug",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vq3fr9/codex_app_bug/",
+    "published_at": "2026-08-16T17:43:37+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit OpenAI 版使用者反映Codex APP出現程式錯誤，具體問題類型與影響範圍待確認，可能涉及API整合或本機端功能。",
+    "highlights": [
+      "Codex APP為OpenAI的程式開發輔助工具",
+      "社群回報存在Bug需官方修復",
+      "錯誤詳情與嚴重程度尚待確認",
+      "可能影響依賴此工具的開發者",
+      "建議關注官方更新與錯誤追踪"
+    ],
+    "why_it_matters": "Codex是OpenAI在coding領域的核心產品，Bug可能影響開發者自動化工作流程的穩定性，需關注後續修復進度。",
+    "automation_angle": null,
+    "automation_angle_zh": "如遇類似問題可先查閱GitHub issue或回退至穩定版本，同時評估替代工具作為備選方案。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-16-voice-satellite-card-llm-tools-home-assistant-llm",
+    "title": "voice-satellite-card-llm-tools：Home Assistant 語音衛星卡的 LLM 工具集",
+    "title_original": "jxlarrea/voice-satellite-card-llm-tools",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jxlarrea/voice-satellite-card-llm-tools",
+    "published_at": "2026-08-16T17:23:10Z",
+    "category": "agent-skills",
+    "summary": "GitHub 小型開源專案，為 Home Assistant 語音衛星卡擴充 LLM 工具，可呼叫天氣、金融、圖片與 YouTube 搜尋功能，並在螢幕上直接呈現結果，支援 OpenAI、Anthropic、Ollama 等主流模型接入。",
+    "highlights": [
+      "為 Home Assistant 生态提供 LLM 增強的語音交互能力",
+      "支援天氣、金融、圖片、視訊等多類工具呼叫",
+      "可對接 Ollama 實現完全本地運行",
+      "星數 50，社群規模較小，穩定性待驗證",
+      "Python 実装，適合智慧家居愛好者快速實驗"
+    ],
+    "why_it_matters": "為智慧家居場景提供了將大語言模型整合進本地語音助理的參考範例，技術門檻低但實用價值明確。",
+    "automation_angle": null,
+    "automation_angle_zh": "智慧家居玩家可直接部署到本地 Home Assistant 實例，測試語音控制結合 LLM 工具的自動化場景。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/309902?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-16-gpt-image-2",
+    "title": "GPT Image 2 圖像生成問題回報",
+    "title_original": "Gpt image 2 issue",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vq2nfs/gpt_image_2_issue/",
+    "published_at": "2026-08-16T17:13:15+00:00",
+    "category": "new-models",
+    "summary": "Reddit OpenAI 版有使用者反映GPT Image 2圖像生成功能存在問題，具體表現為生成質量下降或特定提示詞失效。",
+    "highlights": [
+      "GPT Image 2為OpenAI最新圖像生成模型",
+      "用戶回報生成結果與預期不符",
+      "可能涉及特定提示詞類型的兼容問題",
+      "待官方確認為Bug或限制",
+      "社群正積極收集錯誤樣本"
+    ],
+    "why_it_matters": "圖像生成是OpenAI的重要商業能力，若存在系統性問題將影響依賴此功能的工作流程程與應用開發。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應記錄具體失敗案例並回報，同時準備因應措施如降級至舊版API或使用備援方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-16-item",
+    "title": "讓小型本地模型真正實用於程式開發",
+    "title_original": "Making small local models actually useful for coding",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq128f/making_small_local_models_actually_useful_for/",
+    "published_at": "2026-08-16T16:11:14+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群討論如何提升小型本地模型在程式開發場景的實用性，涵蓋模型選擇、提示詞工程與工具整合策略。",
+    "highlights": [
+      "小型模型（7B-13B）在程式碼補全場景性價比高",
+      "需搭配專業微調版本而非通用模型",
+      "上下文長度限制需透過分割策略克服",
+      "可整合至 VS Code 等 IDE 提升開發體驗",
+      "社群分享實際可用的工作流程配置"
+    ],
+    "why_it_matters": "小型本地模型若能穩定輔助coding，可省下雲端API費用並保護程式碼隱私，適合對延遲敏感或需離線工作的開發者。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可評估將小型模型部署於本地，作為程式碼審查或重構輔助工具，測試其與現有CI流程的整合可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-16-ai",
+    "title": "預測：六個月內AI將能監看螢幕、記錄會議並掌握生活全貌",
+    "title_original": "\"in the next 6 months, a descendant of ChatGPT can watch your screen, record every meeting and call, and have perfect context of your whole life\"",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vq08dz/in_the_next_6_months_a_descendant_of_chatgpt_can/",
+    "published_at": "2026-08-16T15:38:31+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit OpenAI 版有使用者引述預測稱下一代ChatGPT後代將具備螢幕監看、會議錄製及完整生活上下文理解能力，時間線為六個月內。",
+    "highlights": [
+      "預測來源為OpenAI相關論壇討論",
+      "提到的能力包括螢幕監看與會議錄製",
+      "声称具備完整生活上下文理解",
+      "時間線聲稱六個月內實現",
+      "此為社群猜測而非官方公告"
+    ],
+    "why_it_matters": "若此預測屬實將标志AI Personal Assistant的重大突破，但時間線未經證實，技術讀者應保持審慎態度。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注OpenAI官方動態及相關API更新，評估此類能力對現有工作流程程的潛在影響。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-16-koboldcpp-v1-119",
+    "title": "KoboldCpp v1.119 更新發布",
+    "title_original": "Koboldcpp v1.119 released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpztfu/koboldcpp_v1119_released/",
+    "published_at": "2026-08-16T15:22:03+00:00",
+    "category": "open-source-ai",
+    "summary": "KoboldCpp 推出一站式本地LLM推論工具，支援多格式模型載入與高效能推論，本次更新可能包含效能優化或新功能。",
+    "highlights": [
+      "KoboldCpp 為熱門的本地LLM推論框架",
+      "支援 GGUF、PyTorch 等多種模型格式",
+      "新版本可能提升量化模型效能或穩定性",
+      "提供友善的 GUI 與 API 介面",
+      "社群驅動開發，更新節奏快"
+    ],
+    "why_it_matters": "KoboldCpp 是本地部署模型的實用工具，新版本若有效能改進可直接提升模型響應速度與降低資源佔用。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可更新至新版本並執行標準基準測試，比較新舊版在相同模型下的推論延遲與記憶體使用量。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-16-dario-amodei-ai",
+    "title": "Dario Amodei 專訪：AI 信任危機與實踐承諾",
+    "title_original": "Quoting Dario Amodei",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
+    "published_at": "2026-08-16T15:05:36+00:00",
+    "category": "hot-topics",
+    "summary": "Anthropic CEO Dario Amodei 受訪表示公眾對AI負面觀感源於信任危機，而非風險警告過多；認為空洞的行銷無效，真正能赢回信任的是兌現承諾。",
+    "highlights": [
+      "AI信任危機根源於對企業的不信任積累",
+      "「AI將治愈癌症」等行銷說詞已成陳腔濫調",
+      "真正的關鍵是實際交付承諾的價值",
+      "公司應專注於做出成果而非公關策略",
+      "批評應聚焦於未兑现的承諾"
+    ],
+    "why_it_matters": "此觀點反映AI巨頭的策略調整方向，技術決策者需關注哪家廠商真正落地應用而非只做宣傳。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估AI供應商時可將「已交付的具體價值」作為核心指標，而非被行銷敘事誤導。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-08-16-mnemory-ai-agent",
     "title": "mnemory：自託管 AI Agent 記憶系統",
     "title_original": "fpytloun/mnemory",
