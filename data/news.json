@@ -1,5 +1,61 @@
 [
   {
+    "id": "2026-08-16-mem-port-agent-mcp",
+    "title": "mem-port：可攜式 Agent 長期記憶的 MCP 伺服器",
+    "title_original": "rsl-innovation/mem-port",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/rsl-innovation/mem-port",
+    "published_at": "2026-08-16T06:21:37Z",
+    "category": "agent-skills",
+    "summary": "mem-port 是 TypeScript 寫的本地 MCP 伺服器，專為 Agent 提供可攜、長期記憶能力，概念類似「隨身碟裝 AI 上下文」。目前星星數偏低（20），但思路直擊 Agent 持久化痛點。",
+    "highlights": [
+      "基於 MCP 協定，可與主流 Agent 框架整合",
+      "設計為可攜式記憶，方便跨環境遷移 Agent 狀態",
+      "TypeScript 實作，適合前端/全端技術背景者閱讀",
+      "星星數少但概念新穎，有興趣可搶先貢獻或測試"
+    ],
+    "why_it_matters": "Agent 記憶持久化一直是痛點，mem-port 試圖以輕量可攜方式解決，若生態發展順利可能成為 Agent 開發的標準元件之一。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 mem-port 整合進自建 Agent，實驗跨 session 任務接續是否穩定，評估是否比向量資料庫方案更輕便。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/261134101?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-16-reddit-qwen-3-8-27b-vllm",
+    "title": "Reddit 用戶反映 Qwen 3.8 27B 在 vLLM 上持續產生無效思考標記",
+    "title_original": "Anyone managed to get Qwen 3.8 27B running smoothly on vLLM? Can't get rid of endless thinking",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpotfv/anyone_managed_to_get_qwen_38_27b_running/",
+    "published_at": "2026-08-16T05:47:44+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 論壇有用戶反映在 vLLM 部署 Qwen 3.8 27B 時遭遇「無盡思考（endless thinking）」問題，模型持續輸出思考標記但無法正常收斂。帖文缺乏詳細環境配置與錯誤日誌，屬於個人經驗求助，未有官方回應或已知解法。",
+    "highlights": [
+      "問題出現在 vLLM 推論引擎，非模型本身缺陷",
+      "可能與 thinking token 的 max_tokens 設定或 stop 序列配置有關",
+      "用戶未提供 GPU 型號、vLLM 版本、量化方式等關鍵資訊",
+      "Qwen 3.8 27B 官方尚未發布，相關資訊可信度存疑",
+      "無社群確認的解決方案，不建議直接套用論壇建議"
+    ],
+    "why_it_matters": "若 vLLM 與 Qwen 思考類模型存在相容性問題，將影響本地部署效率，需等待官方文件或穩定版本出爐後再評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "暫無可直接自動化之處；建議追蹤 vLLM GitHub Issues 和 Qwen 官方更新，待有穩定案例後再測試。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-16-fslangmcp-ai-agent-f-mcp",
     "title": "FsLangMCP：讓 AI 編碼 Agent 真正理解 F# 的 MCP 伺服器",
     "title_original": "Neftedollar/FsLangMCP",
@@ -58,6 +114,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-16-reddit-agent",
+    "title": "Reddit 討論：小模型的 Agent 化框架可行性",
+    "title_original": "Agentic harness for small models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpcj2j/agentic_harness_for_small_models/",
+    "published_at": "2026-08-15T19:59:31+00:00",
+    "category": "agent-skills",
+    "summary": "r/LocalLLaMA 熱帖討論如何讓小型模型（如 7B）勝任 Agent 任務，涉及工具呼叫、規劃層與記憶層的設計取捨。屬社群討論，無單一結論，資訊較碎片化。",
+    "highlights": [
+      "社群技術討論，缺乏統一方結論",
+      "焦點在工具呼叫與小型模型的效率平衡",
+      "可做為小模型 Agent 化的技術參考方向",
+      "需自行過濾資訊，不建議直接當作實作指南"
+    ],
+    "why_it_matters": "若你正在评估是否用小型模型建置本地 Agent，這類討論可快速掌握社群主流做法與常見坑，節省自己摸索的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "從討論中提取工具呼叫 Prompt 模板或框架推薦，結合 OpenHuman 之類的框架實測，看小模型能否勝任你的自動化任務。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-15-llama-cpp-pr-kimi-k3",
     "title": "llama.cpp PR 合併 Kimi-K3 文字模型支援",
     "title_original": "model: add Kimi-K3 text model by pwilkin · Pull Request #26185 · ggml-org/llama.cpp",
@@ -84,6 +167,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-16-simon-willison-cors-chat-llm",
+    "title": "Simon Willison 開源 CORS Chat：本地 LLM 測試利器",
+    "title_original": "CORS Chat",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/15/cors-chat/",
+    "published_at": "2026-08-15T14:49:54+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 CORS Chat，使用 GPT-5.6-Sol xhigh 建構，專為測試本地 Qwen 3.8 27B 模型設計。提供 OpenAI-Responses 相容介面的 Web UI，可串接 LM Studio 與 OpenRouter，對話自動保存在瀏覽器並支援 JSON 匯出，最大亮點是串流生成時可逐步渲染 SVG 圖像。",
+    "highlights": [
+      "支援 LM Studio（需加 --cors 參數）與 OpenRouter 兩種後端",
+      "對話持久化於瀏覽器 localStorage，可匯出為 JSON 備份",
+      "SVG 圖像串流時即時增量渲染，展示 token 生成過程",
+      "基於 OpenAI-Responses API 相容格式，易與其他工具整合",
+      "純前端工具，無需伺服器即可測試本地模型"
+    ],
+    "why_it_matters": "技術宅可快速建立本地模型評測環境，無需撰寫測試腳本即可驗證模型輸出品質，SVG 串流視覺化功能對除錯生成式任務特別實用。",
+    "automation_angle": null,
+    "automation_angle_zh": "直接用瀏覽器開啟，配合 LM Studio 建立本地模型 benchmark 流程，比對不同量化版本（Q4/Q8）的輸出穩定性與速度。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-08-15-mimiclaw-5-agent",
