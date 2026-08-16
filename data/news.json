@@ -1,5 +1,148 @@
 [
   {
+    "id": "2026-08-16-mnemory-ai-agent",
+    "title": "mnemory：自託管 AI Agent 記憶系統",
+    "title_original": "fpytloun/mnemory",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/fpytloun/mnemory",
+    "published_at": "2026-08-16T12:01:14Z",
+    "category": "agent-skills",
+    "summary": "mnemory 是一款自託管、安全且功能完整的 AI Agent 記憶系統，支援智慧的事實萃取、去重，以及詳細內容的構件儲存。開源 Python 專案，強調資料主權。",
+    "highlights": [
+      "自託管部署，資料不經第三方",
+      "支援智慧事實萃取與去重機制",
+      "構件儲存（Artifact Store）保存完整內容",
+      "Python 實作，易與現有 Agent 框架整合",
+      "269 stars，社群關注度穩健"
+    ],
+    "why_it_matters": "多 Agent 協作場景中，統一的長期記憶層是關鍵瓶頸。mnemory 若能穩定提供事實萃取，可大幅簡化 Agent 上下文管理。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本機 Docker 環境中部署 mnemory，對比自己搭建的向量資料庫方案，測試在多輪對話中事實一致性的表現差異。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/948799?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-16-letsfg-agent-mcp",
+    "title": "LetsFG：Agent 原生機票與飯店搜尋預訂 MCP 工具",
+    "title_original": "LetsFG/LetsFG",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/LetsFG/LetsFG",
+    "published_at": "2026-08-16T11:52:09Z",
+    "category": "agent-skills",
+    "summary": "LetsFG 是一個 Agent 友好型的機票飯店搜尋與預訂工具，提供 MCP Server、CLI 與 Python/JS SDK，支援數百家航空公司與主流預訂平台，並附每航班歷史可靠性紀錄，飯店可免費取消且支援後付。",
+    "highlights": [
+      "MCP Server 格式，LLM Agent 可直接呼叫",
+      "支援數百家航空公司即時查詢",
+      "飯店支援免費取消與後付方案",
+      "每航班有可靠性歷史數據參考",
+      "Python/JS SDK 覆蓋主流開發語言"
+    ],
+    "why_it_matters": "旅遊行程自動化長期缺乏成熟工具，LetsFG 若穩定，可讓 AI Agent 直接完成機票飯店搜尋與預訂，省去人工操作。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人可將 LetsFG MCP Server 整合進自己的工作流程 Agent，測試自動查詢與行程安排的完整度，評估能否落地取代現有流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/219992303?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-16-vecline-mcp-server",
+    "title": "Vecline：可測量的圖片與文件工具，含 MCP Server",
+    "title_original": "shunyagatha/Vecline",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/shunyagatha/Vecline",
+    "published_at": "2026-08-16T11:47:27Z",
+    "category": "open-source-ai",
+    "summary": "Vecline 是一款高精度圖片與文件轉換工具，支援 Bit-exact SVG（SSIM 1.0000）、11 種點陣格式互轉、Cut-ready DXF（含實際物理尺寸）、PDF 渲染，並提供 MCP Server 供 Agent 呼叫。核心零依賴，便攜設計。",
+    "highlights": [
+      "SVG 向量轉換 SSIM 達到理論最大值 1.0000",
+      "領先 potrace、imagetracerjs、vtracer",
+      "支援 Cut-ready DXF 與實際物理尺寸",
+      "零依賴便攜核心，易嵌入部署",
+      "MCP Server 讓 Agent 可直接呼叫"
+    ],
+    "why_it_matters": "圖片向量化的精度瓶頸長期困擾設計自動化流程，Vecline 若達宣稱精度，可直接提升設計稿轉工程圖的自動化成功率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人可用 Vecline 測試將 UI 截圖轉為 DXF，再匯入 CAD 工具，評估整條設計→工程自動化管線的可行性。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/271973542?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-16-rtx-5090-19gb-vram-720p-16fps",
+    "title": "單卡RTX 5090以19GB VRAM運行720p/16FPS可玩世界模型",
+    "title_original": "Genie-style playable world model running 720p at 16 FPS on a single 5090 in 19GB VRAM",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpujkc/geniestyle_playable_world_model_running_720p_at/",
+    "published_at": "2026-08-16T11:24:36+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit有用戶展示一款類Genie的可玩世界模型，在單張RTX 5090上以720p解析度、16 FPS運行，僅佔用19GB VRAM。此技術演示意味著在消費級硬體上實現即時互動式3D世界生成具有可行性，對遊戲、模擬、機器人模擬等領域有直接應用價值。",
+    "highlights": [
+      "RTX 5090單卡達成720p/16FPS的即時世界模型推論",
+      "VRAM佔用控制在19GB，屬中高階遊戲卡範圍",
+      "類Genie架構支援可互動的3D世界生成",
+      "技術源於開源社群實作，具可重現性",
+      "填補了高效能世界模型在消費級硬體運行的空白"
+    ],
+    "why_it_matters": "世界模型從伺服器走向消費級GPU，讓個人研究者也能實驗互動式3D生成，降低了此領域的進入門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載此Repo，在本地5090上測試，作為遊戲關卡自動生成或機器人模擬環境的基底模型評估。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-16-littlelearner",
+    "title": "LittleLearner：透過教學控制語言模型知識曝光的新研究",
+    "title_original": "LittleLearner: Language Models Under Pedagogically-Controlled Knowledge Exposure",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpsavl/littlelearner_language_models_under/",
+    "published_at": "2026-08-16T09:12:07+00:00",
+    "category": "new-models",
+    "summary": "LittleLearner是針對語言模型知識曝光控制的新研究，提出在訓練階段引入教學式約束，系統性管理模型接觸的知識範圍。該方法旨在解決LLM過度記憶與知識洩漏問題，對需要精確控制輸出內容的企業應用場景有直接意義。",
+    "highlights": [
+      "提出Pedagogically-Controlled訓練框架",
+      "可系統性限制LLM的知識攝取範圍",
+      "有助防止敏感或版權知識不當輸出",
+      "適用於需要精確內容控制的企業場景",
+      "研究階段，具學術價值與應用潛力"
+    ],
+    "why_it_matters": "對需嚴格內容合規的企業而言，知識曝光控制是核心需求，LittleLearner提供了解決思路與實驗基準。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業技術團隊可關注此論文，追蹤後續開源實現，評估能否整合至內部LLM部署流程以滿足合規需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-16-mem-port-agent-mcp",
     "title": "mem-port：可攜式 Agent 長期記憶的 MCP 伺服器",
     "title_original": "rsl-innovation/mem-port",
