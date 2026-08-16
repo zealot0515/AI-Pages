@@ -1,5 +1,63 @@
 [
   {
+    "id": "2026-08-16-fslangmcp-ai-agent-f-mcp",
+    "title": "FsLangMCP：讓 AI 編碼 Agent 真正理解 F# 的 MCP 伺服器",
+    "title_original": "Neftedollar/FsLangMCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Neftedollar/FsLangMCP",
+    "published_at": "2026-08-16T00:28:54Z",
+    "category": "agent-skills",
+    "summary": "FsLangMCP 是一個 MCP 伺服器，為 Claude Code、Cursor、Copilot、Codex 等 AI 編碼工具提供真正的 FCS/FSAC 編譯器智慧（查詢、類型檢查、重新命名），而非用 grep 猜測 F# 程式碼。",
+    "highlights": [
+      "對接 F# 官方編譯器服務（FCS/FSAC）而非語法匹配",
+      "支援查詢定義、類型檢查、重新命名等 IDE 核心功能",
+      "可直接用於 Claude Code、Cursor、Copilot、Codex",
+      "GitHub 25 星，社群關注度適中",
+      "技術宅可測試其對 F# 專案的程式碼理解準確度"
+    ],
+    "why_it_matters": "讓 AI coding agent 真正理解 F# 的型別系統而非盲目猜測，能大幅提升在 F# 專案中的程式碼生成與重構準確度。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 F# 專案中啟動 FsLangMCP，用 Claude Code 或 Cursor 測試大型重構任務，觀察是否比傳統方法減少型別錯誤與語法猜測失敗。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "F#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1009015?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-16-trudi-sans-sift-agent",
+    "title": "Trudi：基於 SANS SIFT 的自動化數位鑑識事件回應 Agent",
+    "title_original": "nebulae/trudi",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/nebulae/trudi",
+    "published_at": "2026-08-15T23:48:55Z",
+    "category": "agent-skills",
+    "summary": "Trudi 是一款自動化數位鑑識與事件回應（DFIR）Agent，以 SANS SIFT Workstation 為基礎，封裝為 MCP 伺服器，協助安全事件調查流程自動化。",
+    "highlights": [
+      "基於業界標準 SANS SIFT Workstation 工具鏈",
+      "封裝為 MCP 伺服器，可與現有 Agent 整合",
+      "適用於資安事件調查與數位鑑識場景",
+      "GitHub 11 星，專案新穎且功能單一",
+      "需要 DFIR 領域知識才能有效使用"
+    ],
+    "why_it_matters": "將專業 DFIR 工具標準化為 MCP 介面，讓安全團隊能在 AI Agent 工作流程中自動化標準化事件回應流程，降低人為遺漏風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "在隔離環境中部署 Trudi MCP，設計一個自動化事件回應流程：用 AI Agent 自動執行記憶體傾印、日誌分析、IOC 提取等步驟。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/520477?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-15-llama-cpp-pr-kimi-k3",
     "title": "llama.cpp PR 合併 Kimi-K3 文字模型支援",
     "title_original": "model: add Kimi-K3 text model by pwilkin · Pull Request #26185 · ggml-org/llama.cpp",
@@ -932,6 +990,34 @@
       "new-models",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-16-chatgpt-plus-ai",
+    "title": "馬耳他政府向全體公民免費提供ChatGPT Plus：包含三模組AI課程",
+    "title_original": "马耳他向全體公民免費提供 ChatGPT Plus：三個模块的课程如何运作 - Pasquale Pillitteri",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOU3cxM1lITjFGSHcyYVFid1JmSDBDemdmS3RkWTUtd3FnWlQ5Y2dIZW05ZlkwWlFQa3czVWt4Z0haYkN6Nl9DamxYWmFLdXAwMHhnNGo4RTZocUktTEtkdjR5Y2pvWHBRLUlkaUp4MHNmaXEwT21qU2w0T3BFS2pzX2YtZUQ?oc=5",
+    "published_at": "2026-08-14T11:23:38+00:00",
+    "category": "ai-deals",
+    "summary": "馬耳他宣布向全體公民免費提供ChatGPT Plus訂閱，並配套三個模組的AI學習課程。這是全球首個由政府主導的大規模AI教育推廣計畫，旨在提升國民AI素養並促進數位轉型。",
+    "highlights": [
+      "馬耳他是首個由政府全額補貼ChatGPT Plus的國家",
+      "配套課程分為三個模組，系統性教學AI基礎應用",
+      "此計畫由政府預算支援，公民無需自費",
+      "主要目標是提升國民AI素養而非專業技術訓練",
+      "Pasquale Pillitteri等作者對此進行了詳細報導"
+    ],
+    "why_it_matters": "此案例顯示各國政府開始重視AI普及教育，並願意投入資源補貼AI工具使用。這種模式若成功，可能被其他國家仿效。",
+    "automation_angle": null,
+    "automation_angle_zh": "馬耳他居民可免費使用ChatGPT Plus功能（包含DALL·E、Advanced Data Analysis等），技術用戶可觀察此政策的實際執行效果作為參考。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
