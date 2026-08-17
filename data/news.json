@@ -1,5 +1,63 @@
 [
   {
+    "id": "2026-08-17-continuum-agent",
+    "title": "CONTINUUM：長時運行 Agent 的可驗證語義恢復框架",
+    "title_original": "Cyrax321/CONTINUUM",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Cyrax321/CONTINUUM",
+    "published_at": "2026-08-17T06:18:20Z",
+    "category": "agent-skills",
+    "summary": "CONTINUUM 為長時運行 AI Agent 提供可驗證的語義還原能力。核心包括語義檢查點（非對話歷史傾印）、冪等動作帳本（拒絕重複副作用）、雜湊鏈防竄改事件日誌，均以拒絕式預設的 MCP 伺服器對外暴露。Python 3.11+，框架無關。",
+    "highlights": [
+      "語義檢查點：保留任務意圖而非僅存對話文本",
+      "冪等動作帳本：確保重試不產生重複副作用",
+      "雜湊鏈日誌：防範資料竄改，適合需要審計的場景",
+      "MCP 伺服器暴露：與主流 Agent 框架整合友善",
+      "框架無關：可用於 LangChain、AutoGPT 等多種生態"
+    ],
+    "why_it_matters": "長時運行 Agent 的狀態管理與錯誤恢復是業界痛點。CONTINUUM 提供可驗證的還原機制，適合金融、醫療等需高可靠性的場景。目前星標較少（14），屬早期專案，但概念領先。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶若正在開發需要長時間維護狀態的 Agent 系統，可將 CONTINUUM 作為底層持久層：例如自動化測試流程中斷後，可依據語義檢查點無縫接續，而非從頭重跑。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/124031850?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-17-claw-orchestrator-agent-runtime",
+    "title": "Claw Orchestrator：統一多 Agent 執行Runtime",
+    "title_original": "Enderfga/claw-orchestrator",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Enderfga/claw-orchestrator",
+    "published_at": "2026-08-17T06:16:15Z",
+    "category": "agent-skills",
+    "summary": "Claw Orchestrator 讓 Claude Code、Codex、Antigravity、Cursor Agent、OpenCode 共用同一 Runtime 環境，支援持久會話、多 Agent 協商、OpenAI 相容端點與 MCP 伺服器。TypeScript 編寫，GitHub 星標 547，屬新興高關注專案。",
+    "highlights": [
+      "多 Agent 統一排程：不同模型 Agent 在同一環境協作",
+      "持久會話：非每次請求重新初始化，提升效率",
+      "OpenAI 相容端點：可無痛接入現有 OpenAI 工具鏈",
+      "MCP 伺服器內建：支援 Model Context Protocol 生態",
+      "開源可控：TypeScript 原始碼可 Fork 自定義"
+    ],
+    "why_it_matters": "隨著 Agent 生態多元化，管理多個 Agent Runtime 成為痛點。Claw Orchestrator 提供統一介面，降低多工具切換成本。547 星的高人氣顯示社區對此方向有強烈需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 Claw Orchestrator 作為多 Agent 工作流程的中樞：例如讓 Claude Code 負責程式碼生成、Cursor Agent 處理 UI 整合、Codex 執行測試，三者透過統一端點通訊，實現複雜任務的分工自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/74981769?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-08-17-simon-willison-markdown-svg-mp4",
     "title": "Simon Willison 強化 Markdown + SVG 渲染工具：支援瀏覽器內 MP4 轉檔",
     "title_original": "Markdown SVG upgrades",
