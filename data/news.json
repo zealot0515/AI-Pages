@@ -1,5 +1,251 @@
 [
   {
+    "id": "2026-08-17-qwen3-8-27b-agentic-opus-5-medium",
+    "title": "Qwen3.8 27B 在 Agentic 基準超越 Opus 5 Medium",
+    "title_original": "Qwen3.8 27B > Opus 5 Medium on Artificial Analysis Agentic Index",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqzli2/qwen38_27b_opus_5_medium_on_artificial_analysis/",
+    "published_at": "2026-08-17T17:56:43+00:00",
+    "category": "open-source-ai",
+    "summary": "社群基準測試顯示，阿里 Qwen3 系列的 270 億參數模型在 Artificial Analysis 的代理能力指數上超越了 Anthropic Opus 5 Medium。這是一個 27B 開源模型擊敗大型閉源模型的罕見案例。",
+    "highlights": [
+      "Qwen3 27B 超越 Opus 5 Medium 在代理任務的表現",
+      "屬於開源陣營對閉源模型的效能挑戰",
+      "27B 規模兼顧推論能力與部署成本"
+    ],
+    "why_it_matters": "對本地部署愛好者是大利多：一個可在家用硬體運行的 27B 模型在代理任務上擊敗旗艦閉源模型，代表開源生態系的快速進步。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你需要一個能在本地運行的代理模型，Qwen3 27B 值得列入評估。可用 Ollama 或 vLLM 本地部署，測試其在你的代理工作流程程中的實際表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-17-opencode-ide",
+    "title": "開發者社群熱議：為何技術人員偏愛 opencode 等編碼工具而非傳統 IDE",
+    "title_original": "Why do people like coding harnesses like opencode etc instead of an IDE?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqxqxm/why_do_people_like_coding_harnesses_like_opencode/",
+    "published_at": "2026-08-17T16:53:34+00:00",
+    "category": "agent-skills",
+    "summary": " Reddit r/LocalLLaMA 社區討論為何越來越多開發者選擇使用 opencode 等 AI 編碼工具而非傳統 IDE，分析兩者在開發體驗、自動化程度與工作流程程整合上的差異。",
+    "highlights": [
+      "AI 編碼工具提供自然語言驅動的開發體驗",
+      "支援多檔案上下文理解與自動修改",
+      "傳統 IDE 在除錯與類型檢查方面仍有優勢",
+      "技術人員開始將 AI 工具整合進現有 VS Code/Neovim 流程",
+      "討論涉及 Copilot、Cursor、Cline 等主流解決方案"
+    ],
+    "why_it_matters": "開發工具正在經歷 AI 驅動的轉型。理解不同工具的適用場景可幫助技術人員選擇最適合的自動化開發工作流程，提升個人產出效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可比較 opencode 與現有 IDE 的自動化能力，評估哪些重複性編碼任務（如 boilerplate 生成、測試撰寫）可交由 AI 工具處理。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-17-ling-3-0-tiny-pc",
+    "title": "Ling 3.0 Tiny：低階 PC 上的最強小型模型",
+    "title_original": "Ling 3.0 Tiny is the strongest, fastest and greatest model on my low end PC!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqx6nd/ling_30_tiny_is_the_strongest_fastest_and/",
+    "published_at": "2026-08-17T16:34:29+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 社群用戶宣稱 Ling 3.0 Tiny 是其低階 PC 上最強、最快、表現最好的模型。這是一款專為資源受限環境設計的小型語言模型。",
+    "highlights": [
+      "Ling 3.0 Tiny 專為低階硬體優化",
+      "號稱在輕量設備上具有優秀速度與表現",
+      "具體性能數據需進一步驗證"
+    ],
+    "why_it_matters": "對需要在邊緣設備或老舊硬體上部署 AI 的用戶，小型模型始終有需求。若性能屬實，可在無 GPU 的環境實現基本語言處理。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載 Ling 3.0 Tiny 在你的老舊設備上實際測試，評估其是否適合你的輕量自動化任務（如文字分類、簡單問答）。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-17-extra-org-extra-ai-javascript",
+    "title": "extra-org/extra：將產品快速轉為 AI 助理的 JavaScript 框架",
+    "title_original": "extra-org/extra",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/extra-org/extra",
+    "published_at": "2026-08-17T16:23:09Z",
+    "category": "agent-skills",
+    "summary": "extra 是一個 JavaScript 開源框架，目標是協助開發者將現有產品快速整合 AI 助理功能。專案目前 106 顆星，規模較小，適合對輕量整合有需求的技術用戶實驗使用。",
+    "highlights": [
+      "JavaScript 生態，易於前端整合",
+      "目標為快速將產品轉為 AI 助理",
+      "專案規模小，星數僅 106",
+      "屬於快速啟動工具，非完整解決方案",
+      "可作為原型開發參考"
+    ],
+    "why_it_matters": "若需要在既有 JS 產品中加入 AI 助理功能，extra 提供了相對輕量的切入點。但小型專案維護風險需自行評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "克隆專案並嘗試將一個簡單 Node.js 應用整合 AI 對話功能，評估其 API 相容性與客製化空間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/301785502?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-17-404-media-ai",
+    "title": "404 Media 追蹤稀有書籍流向：亞馬遜 AI 訓練設施接收大量掃描書籍",
+    "title_original": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+    "published_at": "2026-08-17T15:21:29+00:00",
+    "category": "hot-topics",
+    "summary": "資深科技媒體 404 Media 透過蘋果 AirTag 成功追蹤一批稀有書籍的流向，證實其最終送達亞馬遜位於拉斯維加斯的 LAS8 物流設施 VGT3 區域，該區域工人論壇確認用於大量書籍破壞性掃描。此事件再次引發 AI 訓練數據來源合法性的爭議。",
+    "highlights": [
+      "亞馬遜 LAS8 設施 VGT3 區域正進行大規模書籍掃描，用於 AI 訓練",
+      "匿名買家透過 Biblio 等平台大量收購稀有書籍，單筆訂單可達千本",
+      "工人論壇討論確認該設施從事圖書數位化工作",
+      "引發關於 AI 公司訓練數據來源透明度與授權合規性的質疑",
+      "建議開發者留意模型訓練數據溯源的技術解決方案"
+    ],
+    "why_it_matters": "AI 訓練數據的合法性正受到越來越多法律挑戰。技術人員需了解所使用模型的數據背景，以評估長期合規風險與潛在的訓練數據替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可評估使用明確授權數據集（如 CC、LORA）的替代方案，或探索聯邦學習等Privacy-Preserving ML 技術來降低訓練數據法律風險。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-17-agentcore-payments-langchain",
+    "title": "AgentCore Payments：LangChain 代理的支付中介層",
+    "title_original": "AgentCore Payments middleware for LangChain agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langchain-agentcore-payments",
+    "published_at": "2026-08-17T14:52:56+00:00",
+    "category": "agent-skills",
+    "summary": "AgentCore Payments 是 LangChain 的新中介層，讓代理能以 x402 協定自動支付 API 費用，並支援確定性的工作階段預算管理。LangSmith 可完整追蹤每筆交易。",
+    "highlights": [
+      "支援 x402 支付協定實現自動扣款",
+      "可設定工作階段級別的確定性預算上限",
+      "LangSmith 提供完整支付追蹤與除錯能力",
+      "讓 LangChain 代理具備財務可控的 API 消費能力"
+    ],
+    "why_it_matters": "代理的財務控制一直是自動化部署的痛點。AgentCore Payments 讓開發者能在保持成本可控的前提下，大規模部署付費 API 依賴的代理應用。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你正在構建需要呼叫付費 API（如 Gemini、GPT-4）的 LangChain 代理，可整合 AgentCore Payments 設定每日/每工作階段預算上限，避免意外超支並透過 LangSmith 監控成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-17-llama-cpp-v0-1-0",
+    "title": " llama.cpp 推出 v0.1.0 版本更新",
+    "title_original": "llama.cpp version v0.1.0 has been released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqszw0/llamacpp_version_v010_has_been_released/",
+    "published_at": "2026-08-17T13:53:51+00:00",
+    "category": "open-source-ai",
+    "summary": " llama.cpp 正式發布 v0.1.0 版本，這是該主流本地推論引擎的重要版本更新。社群期待此版本帶來效能優化與新功能增強。",
+    "highlights": [
+      "llama.cpp 為本地 LLM 推論的領先開源解決方案",
+      "v0.1.0 可能標誌專案邁向更穩定的發展階段",
+      "預期包含 CUDA/Metal/Vulkan 等加速後端改進",
+      "持續支援 GGUF 模型格式與量化推論",
+      "建議技術用戶更新並執行既有測試流程驗證相容性"
+    ],
+    "why_it_matters": " llama.cpp 是本地部署與低成本推論的核心工具。版本更新可能直接影響推論速度與記憶體使用效率，是技術用戶優化工作流程程的關鍵組件。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶應測試新版本對現有 GGUF 模型的相容性，評估是否能以更低硬體成本達到相同吞吐量，用於自動化文字處理或程式碼生成pipeline。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-17-reddit-qwen-3-8-27b-llama-cpp-16gb-vram-73k",
+    "title": "Reddit 用戶實測：Qwen 3.8 27B 在 llama.cpp 的 16GB VRAM 最佳化配置，達成 73k 上下文",
+    "title_original": "After pushing 1M+ tokens through Qwen 3.8 27B, here is my optimal llama.cpp config for 16GB VRAM (73k Context, Agentic Coding)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqrt86/after_pushing_1m_tokens_through_qwen_38_27b_here/",
+    "published_at": "2026-08-17T13:05:26+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享在 16GB VRAM 設備上用 llama.cpp 跑 Qwen 3.8 27B 的最佳化配置，實測可達 73k 上下文與 Agentic Coding 能力。此為社群經驗分享，未經官方驗證。",
+    "highlights": [
+      "社群一手實測，有參考價值",
+      "16GB VRAM 門檻明確，屬主流硬體",
+      "達成 73k 上下文，超越多數本地模型",
+      "適合 Agentic Coding 場景",
+      "參數配置可能因硬體而異"
+    ],
+    "why_it_matters": "若想在消費級 GPU 上跑大型本地模型處理長上下文任務，此配置提供了可行的起點。但需自行驗證穩定性與產出品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 Qwen 3.8 27B 並套用分享的 llama.cpp 配置參數，測試長文件分析或複雜程式碼任務的實際表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-17-intern-s2-mobius",
+    "title": "Intern-S2-Mobius：解耦知識與推論的基礎模型",
+    "title_original": "[Paper] Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqrf6p/paper_interns2mobius_foundation_model_with/",
+    "published_at": "2026-08-17T12:49:03+00:00",
+    "category": "new-models",
+    "summary": "上海 AI Lab 發表 Intern-S2-Mobius 論文，提出將知識儲存與推論能力解耦的基礎模型設計。這種架構可能提升模型的可解釋性與可控性。",
+    "highlights": [
+      "提出知識與推論解耦的模型架構",
+      "可能提升模型可解釋性與控制能力",
+      "來自上海 AI Lab 的研究論文"
+    ],
+    "why_it_matters": "解耦架構是模型設計的新方向，若成功落地可能改變未來 AI 系統的訓練與部署方式。但目前僅為論文階段，實際應用尚待驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注此論文後續是否有開源模型或程式碼釋出。若有，可嘗試復現其實驗結果，評估解耦設計對你特定任務的影響。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-17-mail-mcp-mcp-email-imap-smtp",
     "title": "mail-mcp：MCP 協定下的 Email 代理伺服器，支援 IMAP/SMTP",
     "title_original": "kacperkwapisz/mail-mcp",
@@ -87,6 +333,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-17-deepmind",
+    "title": "DeepMind 論文揭示大型語言模型無法產生真正創新的解釋性假說",
+    "title_original": "LLM's can't \"jump\" - a paper by Deepmind showing LLMs can't generate novel explanatory hypotheses",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqnyho/llms_cant_jump_a_paper_by_deepmind_showing_llms/",
+    "published_at": "2026-08-17T09:58:16+00:00",
+    "category": "new-models",
+    "summary": "DeepMind 發表研究論文指出，即使是最先進的大型語言模型，在科學推論任務中仍無法產生真正新穎的解釋性假說，僅能重組現有知識而非突破性發現。",
+    "highlights": [
+      "研究測試多個旗艦模型在假說生成任務上的表現",
+      "LLM 傾向產生看似合理但缺乏真正創新的輸出",
+      "模型能力受限於訓練資料中的現有概念組合",
+      "對 AI 輔助科學發現的應用邊界提出質疑",
+      "可能影響制藥、材料科學等領域的 AI 應用期望"
+    ],
+    "why_it_matters": "理解 LLM 的創意極限可幫助技術人員設定合理的 AI 應用期望。對於需要真正突破性發現的場景，需考慮人機協作或新型架構。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應避免在需要真正創新的科學研究流程中完全依賴 LLM 生成假說，可將其作為文獻綜述或假說評估的工具而非創造者。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-17-langchain-agent-skills-langchain-agent",
     "title": "langchain-agent-skills：LangChain 生態系的 Agent 技能集合",
     "title_original": "soba-labs/langchain-agent-skills",
@@ -113,6 +387,32 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/293900905?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-17-google-gemini-pixel",
+    "title": "Google Gemini 與 Pixel 攜手五大足球俱樂部提升球迷體驗",
+    "title_original": "Get closer to the game with Gemini and Pixel",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+    "published_at": "2026-08-17T08:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google 宣布 Gemini 和 Pixel 設備與五家具樂部合作，利用 AI 與智慧型手機技術提升球迷在比賽日的體驗。這是 Google 消費級 AI 應用的行銷合作案。",
+    "highlights": [
+      "Gemini 與 Pixel 設備整合進足球俱樂部生態",
+      "目標是提升球迷比賽日互動體驗",
+      "屬於消費級 AI 行銷合作，非技術突破"
+    ],
+    "why_it_matters": "此新聞以行銷為主，技術用戶難以從中獲取可直接應用的工具或模型資訊。對關注實際 AI 能力的讀者參考價值有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "暫無直接自動化應用價值。這是 Google 的品牌合作案，不涉及新的 API、功能或可測試的開源工具。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -172,6 +472,60 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/74981769?v=4",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-17-openai-ai",
+    "title": "OpenAI 官方部落格：AI 時代網路攻防的新視角",
+    "title_original": "The Defender’s Window",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/the-defenders-window",
+    "published_at": "2026-08-17T05:30:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格探討 AI 對網路安全的雙面影響，說明 OpenAI 如何強化自身防禦機制，以及安全團隊當前可採取的應對措施。此為官方發布，適合了解 AI 安全趨勢。",
+    "highlights": [
+      "OpenAI 官方一手來源",
+      "分析 AI 對攻守雙方的影響",
+      "介紹 OpenAI 自身的防禦措施",
+      "提供安全團隊的實務建議",
+      "偏向趨勢洞察，非具體工具介紹"
+    ],
+    "why_it_matters": "了解 AI 驅動的資安威脅演變有助於技術用戶在引入 AI 工具時評估風險，特別是涉及敏感資料的自動化流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀後檢視現有 AI 自動化腳本是否存在資料外洩風險，評估是否需要加入額外的存取控制或日誌監控。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-17-openai-ports-pike",
+    "title": "OpenAI 加入 PORTS-Pike 社區投資計畫",
+    "title_original": "OpenAI joins PORTS-Pike project",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/openai-joins-ports-pike-project",
+    "published_at": "2026-08-17T05:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 宣布加入 PORTS-Pike 專案，這是一項社區投資計畫，目標是支援俄亥俄州南部的數千個就業機會。此舉顯示 OpenAI 開始擴大其社區參與與經濟影響力。",
+    "highlights": [
+      "OpenAI 加入 PORTS-Pike 專案進行社區投資",
+      "預計創造俄亥俄州南部數千個工作機會",
+      "屬於企業社會責任與區域經濟發展項目"
+    ],
+    "why_it_matters": "對技術用戶而言，此新聞屬於企業戰略層面，非產品或技術層面的直接更新。關注價值有限，除非關注 AI 公司的長期佈局。",
+    "automation_angle": null,
+    "automation_angle_zh": "目前無直接自動化應用場景，純屬公司社區投資公告。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-17-openai",
