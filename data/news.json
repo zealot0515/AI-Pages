@@ -1,5 +1,121 @@
 [
   {
+    "id": "2026-08-17-mail-mcp-mcp-email-imap-smtp",
+    "title": "mail-mcp：MCP 協定下的 Email 代理伺服器，支援 IMAP/SMTP",
+    "title_original": "kacperkwapisz/mail-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/kacperkwapisz/mail-mcp",
+    "published_at": "2026-08-17T12:08:24Z",
+    "category": "agent-skills",
+    "summary": "mail-mcp 是用 Go 開發的 MCP（Model Context Protocol）伺服器，橋接 IMAP/SMTP 郵件帳戶與 AI Agent，支援搜尋、讀取、發送與監看郵件。12 顆星，技術棧採用 Go，體積小且聲稱高效，適合需要將郵件操作納入自動化工作流程的技術用戶。",
+    "highlights": [
+      "🔗 遵循 MCP 協定，可與支援 MCP 的 AI Agent 無縫整合",
+      "📧 支援完整郵件生命週期：搜尋、讀取、發送、監看",
+      "⚡ Go 語言開發，理論上具高效能與低記憶體佔用",
+      "🛠️ 需要自架 IMAP/SMTP 環境，適合有伺服器資源的用戶",
+      "⭐ 12 顆星規模較小，功能範圍與穩定性需實際驗證"
+    ],
+    "why_it_matters": "郵件處理是企業工作流程中最常見的自動化需求之一。mail-mcp 若能穩定運作，可讓 AI Agent 直接操作郵箱，實現郵件分類回覆、異常通知自動處理等場景，節省大量人工操作時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "在測試環境中架設 mail-mcp，串接支援 MCP 的 Agent，實驗「收到特定條件郵件時自動回覆」或「每日郵件摘要生成」等實際用例，評估可用性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/28790717?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-17-rubenmarcus-portfolio-agent-mcp",
+    "title": "rubenmarcus/portfolio：Agent 可直接消費的 MCP 作品集",
+    "title_original": "rubenmarcus/portfolio",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/rubenmarcus/portfolio",
+    "published_at": "2026-08-17T12:06:26Z",
+    "category": "open-source-ai",
+    "summary": "AI 全端工程師 Ruben Marcus 的作品集，不只是視覺網站，更是 Agent 友好端點。提供 MCP Registry 遠端伺服器、公開 Agent Skill、llms.txt 及 curl 可取的純文字履歷。Astro 5 + Svelte 5 + Three.js + GSAP 建構，屬於今天就能接進工作流程的開源專案。",
+    "highlights": [
+      "已上架官方 MCP Registry：io.github.rubenmarcus/portfolio",
+      "支援 llms.txt 格式，方便 LLM 直接解析作者經歷",
+      "curl 即可取得純文字履歷，零瀏覽器依賴",
+      "WebGL 視覺效果保留人類可讀性，不犧牲可及性",
+      "Stars 23，仍屬早期專案，社群貢獻空間大"
+    ],
+    "why_it_matters": "過去作品集只能人類閱讀，現在可讓 Agent 直接查詢工程師技能與專案。本專案展示了如何用標準化端點同時服務人類讀者與 AI Agent，是值得參考的開源範例。",
+    "automation_angle": null,
+    "automation_angle_zh": "Clone 後自架 MCP 端點，快速建立個人或團隊的 Agent 可讀履歷系統，替代理工作流程程提供結構化上下文。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Astro"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/8454267?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-17-bridgic-agent-agent",
+    "title": "bridgic-agent：用自然語言建構與演化工作流程的開源 Agent",
+    "title_original": "bitsky-tech/bridgic-agent",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/bitsky-tech/bridgic-agent",
+    "published_at": "2026-08-17T10:54:41Z",
+    "category": "agent-skills",
+    "summary": "bridgic-agent 標榜「將你所想轉化為真正可行的工作流程」，支援 /build、Run、 Evolve 三階段迭代。Python 開發，目前 25 顆星，屬於新興專案。其核心訴求是降低工作流程自動化的進入門檻，讓非技術用戶也能透過自然語言驅動流程。",
+    "highlights": [
+      "🔄 強調工作流程的「建構→執行→演化」生命週期",
+      "💬 透過自然語言描述意圖，試圖降低自動化門檻",
+      "🐍 Python 專案，25 顆星，社群基礎尚在建立中",
+      "⚠️ 新興專案，功能成熟度與穩定性需實際測試",
+      "🎯 目標受眾包含非技術用戶，介面設計是關鍵"
+    ],
+    "why_it_matters": "工作流程自動化是 AI Agent 落地最直接的場景之一。若 bridgic-agent 的自然語言驅動機制穩定，可成為技術用戶快速原型化內部工具的新選項，節省正規 Agent 開發的前置時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "選擇一項重複性高的內部流程（如資料整理、報告生成），用 bridgic-agent 實驗「描述意圖→生成流程→演化修正」循環，評估其是否能替代手動流程設計。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/212624488?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-17-langchain-agent-skills-langchain-agent",
+    "title": "langchain-agent-skills：LangChain 生態系的 Agent 技能集合",
+    "title_original": "soba-labs/langchain-agent-skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/soba-labs/langchain-agent-skills",
+    "published_at": "2026-08-17T09:54:15Z",
+    "category": "agent-skills",
+    "summary": "soba-labs 維護的開源 Repo，專為 AI 程式碼助理提供 LangChain、LangGraph 與 LangSmith 最佳化的技能集合。專案獲得 102 顆星，採用 Python 開發，定位為可立即整合進現有 AI 輔助開發流程的實用工具包。",
+    "highlights": [
+      "⭐ 102 顆星，社群關注度在同類專案中相對可觀",
+      "🔧 聚焦 LangChain / LangGraph / LangSmith 生態系",
+      "💻 主要語言為 Python，與多數 AI 工程師技術棧契合",
+      "✅ 瞄準 AI 程式碼助理場景，具體應用方向明確",
+      "📦 屬於技能集合性質，可按需選用而非全盤引入"
+    ],
+    "why_it_matters": "LangChain 生態系是目前最活躍的 Agent 開發框架之一，這套技能集合若品質穩定，可直接提升 AI 程式碼助理在 LangChain 專案中的輔助效率，節省開發者時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 langchain-agent-skills 整合進現有的 AI 程式碼助理設定，觀察是否能自動化 LangChain 組件選型、鏈路建構或 LangSmith 日誌分析等重複性任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/293900905?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-17-continuum-agent",
     "title": "CONTINUUM：長時運行 Agent 的可驗證語義恢復框架",
     "title_original": "Cyrax321/CONTINUUM",
@@ -58,6 +174,34 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-08-17-openai",
+    "title": "OpenAI 公布智慧時代新政策構想資助計畫",
+    "title_original": "New policy ideas for the Intelligence Age",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+    "published_at": "2026-08-17T03:15:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 資助 14 個獨立研究專案，探索 AI 政策新構想，旨在擴大經濟機會並強化社會韌性。屬於智慧時代的政策願景藍圖，非產品技術發布，對開發者直接幫助有限，但可追蹤政策走向。",
+    "highlights": [
+      "14 個獨立專案獲得資助，聚焦政策實驗",
+      "核心目標：擴大 AI 經濟紅利、強化社會韌性",
+      "屬於政策倡議，非模型或 API 更新",
+      "非營利或學術機構優先",
+      "目前僅屬構想階段，尚無具體技術約束"
+    ],
+    "why_it_matters": "政策動向影響 AI 應用邊界與合規成本，技術決策者需關注此類訊號，特別是涉及模型部署地區限制或資料規範時。",
+    "automation_angle": null,
+    "automation_angle_zh": "此類政策資訊尚無直接自動化價值，建議列入每季政策追蹤清單，評估對特定產業合規要求的潛在影響。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-17-simon-willison-markdown-svg-mp4",
     "title": "Simon Willison 強化 Markdown + SVG 渲染工具：支援瀏覽器內 MP4 轉檔",
     "title_original": "Markdown SVG upgrades",
@@ -84,6 +228,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-17-anthropic-claude",
+    "title": "Anthropic Claude 服務中斷：登入失敗災情與修復狀態",
+    "title_original": "Anthropic Outage Disrupts Claude Services, Fix Deployed After Login Failures - Unite.AI",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYmNmbDBOWjBEYVBoelZDZk9SNGtwN1lxTWtBTG9KTnJ0ZUQ1TkVialVpMXd5Wm9KWF82RG5IQ2U0eGZMS1RldGpBbzR1M2FTRUFNVTJ3eGJrb2phbVZsRE9HMzBuSHk4eHU3cEtjUnU4NWZUWGFibGt0MzdmYW5FRnVvODZSUkg4TEQyNjh6d0lLUGd6bUhXUmhibHNFQQ?oc=5",
+    "published_at": "2026-08-16T23:28:03+00:00",
+    "category": "hot-topics",
+    "summary": "Anthropic Claude 服務遭遇大規模中斷，用戶反映登入失敗問題。官方已部署修復，但此次中斷提醒依賴商業模型的技術架構存在單點故障風險。建議建構模型備援或快取策略。",
+    "highlights": [
+      "Claude API 登入失敗，大規模用戶受影響",
+      "官方已確認部署修復方案",
+      "單一 API 依賴造成服務中斷風險",
+      "此事再次暴露商業模型 SLA 的真實限制",
+      "備援與降級策略的必要性提升"
+    ],
+    "why_it_matters": "對於將 Claude API 整合進正式環境的開發者，此類中斷可直接導致工作流程停擺。技術架構需考量模型備援，降低單一供應商依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 API 健康狀態監控整合進工作流程自動化，異常時自動切換至備援模型（如 GPT-4o 或本地模型），確保關鍵任務不中斷。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-17-audio-cpp-0-6-minimax-h3-3-music3",
