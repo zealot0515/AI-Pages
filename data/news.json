@@ -1,5 +1,443 @@
 [
   {
+    "id": "2026-08-18-openai",
+    "title": "OpenAI 暫停部署導向的模型訓練以強化內部系統",
+    "title_original": "OpenAI paused deployment-bound model training to harden its own research systems",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vrxewz/openai_paused_deploymentbound_model_training_to/",
+    "published_at": "2026-08-18T18:20:37+00:00",
+    "category": "new-models",
+    "summary": "社群傳聞指出 OpenAI 暫停了部分部署導向的模型訓練作業，將算力重新分配至內部安全與系統強化。此舉可能與近期安全審計或新模型發布前的準備工作有關，但官方尚未證實。",
+    "highlights": [
+      "暫停原因推測為內部系統安全加固",
+      "可能影響短期內新模型的部署時程",
+      "算力資源重新配置至核心研究系統",
+      "消息來源為非官方 Reddit 討論，可信度待確認"
+    ],
+    "why_it_matters": "若消息屬實，可能延遲部分 OpenAI 模型的更新或新功能上線。依賴 OpenAI 最新模型能力的開發者需關注後續官方公告。",
+    "automation_angle": null,
+    "automation_angle_zh": "保持關注 OpenAI 官方頻道，更新你的系統時程規劃，並考慮預備其他模型供應商作為備援方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-ibm-research-hugging-face",
+    "title": "IBM Research/Hugging Face研究：智慧代理到底需要多少記憶體？",
+    "title_original": "How Much Memory Does Your Agent Actually Need?",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+    "published_at": "2026-08-18T18:09:38+00:00",
+    "category": "agent-skills",
+    "summary": "Hugging Face部落格轉載IBM Research的研究，探討AI Agent在執行任務時究竟需要多少上下文記憶，以及如何用更少的Token達到相同效果，為代理系統的效率優化提供實證參考。",
+    "highlights": [
+      "研究問題聚焦：Agent需要多少上下文才算足夠",
+      "提供了實證數據而非主觀推測",
+      "涉及上下文視窗與Token消耗的權衡分析",
+      "可用於指導Agent系統的記憶管理策略",
+      "屬開源研究論文，有興趣者可深入閱讀原始論文"
+    ],
+    "why_it_matters": "上下文大小直接影響Token成本與回應品質，這類研究能幫助開發者用更少資源達到相同任務效果，屬於有意義的效率提升參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據此研究建議，設計Agent的上下文管理邏輯，例如定期摘要或主動丟棄低價值歷史，節省Token開支。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-langsmith-tuned-evaluators",
+    "title": "LangSmith 推出 Tuned Evaluators 可感知錯誤偵測功能",
+    "title_original": "Introducing LangSmith Tuned Evaluators",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/introducing-langsmith-tuned-evaluators-starting-with-perceived-error",
+    "published_at": "2026-08-18T18:06:31+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 LangSmith Tuned Evaluators，專注於生產環境追蹤的品質評估。首發功能「Perceived Error」可自動識別代理程式輸出中使用者可能察覺的錯誤，協助團隊優先修復真正影響體驗的問題。",
+    "highlights": [
+      "基於生產追蹤資料自動生成品質回饋",
+      "Perceived Error 評估使用者導向的錯誤而非技術性偏差",
+      "可直接整合至現有 LangSmith 工作流程程",
+      "目標是加速 AI Agent 的迭代最佳化週期"
+    ],
+    "why_it_matters": "開發 Agent 應用時，大量追蹤資料難以人工審視，Tuned Evaluators 提供自動化品質訊號，幫你快速發現並修復使用者會抱怨的錯誤。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 LangSmith 啟用 Perceived Error evaluator，對你的 Agent 生產追蹤進行批量評估，根據分數排名優先處理高影響錯誤。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-18-qwen3-8-2-4t-call-of-duty",
+    "title": "Qwen3.8 2.4T 參數版本成功複製《Call of Duty》遊戲",
+    "title_original": "Qwen3.8 2.4T open weights made a Call of Duty clone",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrwn1f/qwen38_24t_open_weights_made_a_call_of_duty_clone/",
+    "published_at": "2026-08-18T17:53:44+00:00",
+    "category": "new-models",
+    "summary": "Qwen3.8 2.4T 開源權重模型展示強大的遊戲生成能力，成功在單次提示下複製出接近《Call of Duty》風格的作品，驗證超大規模開源模型的創意生成極限。",
+    "highlights": [
+      "2.4T 參數超大規模開源模型",
+      "單次提示完成完整遊戲複製",
+      "3D 圖形與物理互動實現",
+      "開源權重可本地部署"
+    ],
+    "why_it_matters": "標誌著開源模型在遊戲與互動內容生成方面的能力躍進，技術用戶可用於快速原型製作或遊戲概念驗證，大幅縮短開發周期。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可測試 Qwen3.8 2.4T 的遊戲或 3D 內容生成能力，評估是否可整合進自動化遊戲測試或創意原型工作流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-15-ai",
+    "title": "我今年試了約15款AI簡報工具：只分兩種，只有一种真正能用於實際工作",
+    "title_original": "I've tried maybe 15 AI deck tools this year. They fall into two camps and only one matters for real work",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vrpw7h/ive_tried_maybe_15_ai_deck_tools_this_year_they/",
+    "published_at": "2026-08-18T13:55:42+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit用戶整理了今年試用眾多AI簡報工具的經驗，發現這些工具可分為兩大類：僅能生成美觀外觀的工具，以及能真正整合內容、數據與敘事邏輯的工具。作者強調，能處理真實工作流程程的工具才能在實際場景中生存。",
+    "highlights": [
+      "AI簡報工具市場飽和，但品質參差不齊",
+      "真正有用的工具需具備內容整合與邏輯敘事能力",
+      "僅提供美觀模板的工具在實際工作中價值有限",
+      "用戶需要能處理數據整合與動態內容的工具",
+      "此分類觀點可作為選擇簡報工具的評估框架"
+    ],
+    "why_it_matters": "對於需要經常製作簡報的技術人員，了解哪些AI簡報工具真正能提升工作效率而非只是花哨裝飾，可以避免浪費時間在錯誤的工具上。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可根據此分類框架評估手上的簡報需求，優先測試具備內容整合能力的工具，用於自動化例行簡報製作流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-ai-agent",
+    "title": "AI Agent 沙盒環境社群討論彙整",
+    "title_original": "What sandbox are you all using for AI agents?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrps78/what_sandbox_are_you_all_using_for_ai_agents/",
+    "published_at": "2026-08-18T13:51:22+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/LocalLLaMA 社群討論各種 AI Agent 沙盒環境的使用經驗，包括 WebArena、SWE-Bench 環境、Docker 隔離方案等工具的優劣比較。",
+    "highlights": [
+      "WebArena 常用於網頁任務自動化測試",
+      "SWE-Bench 適合程式碼任務評估",
+      "Docker 沙盒提供基礎隔離能力",
+      "無伺服器架構逐漸流行"
+    ],
+    "why_it_matters": "Agent 開發者交流實務經驗，有助技術用戶選擇適合的測試與部署環境，加速工作流程建構與除錯。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據自身 Agent 需求，選擇對應沙盒環境進行功能測試，例如用 WebArena 驗證網頁自動化流程的穩定性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-opencode-qwen",
+    "title": "OpenCode 對 Qwen 模型採樣器設為錯誤參數",
+    "title_original": "OpenCode overrides the samplers for Qwen models to the wrong values",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vroao0/opencode_overrides_the_samplers_for_qwen_models/",
+    "published_at": "2026-08-18T12:51:35+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者社群回報 OpenCode 在使用 Qwen 模型時，會自動將採樣參數覆寫為非預期數值，可能導致輸出品質下降或行為異常。此問題涉及 transformers 框架的 sampler 配置邏輯，社群正積極追蹤修復進度。",
+    "highlights": [
+      "OpenCode 自動覆寫 Qwen 模型的 temperature 與 top_p 等參數",
+      "錯誤參數可能造成輸出隨機性異常或結果不穩定",
+      "懷疑與 transformers 版本的 sampler 實作變更有關",
+      "社群建議暫時手動鎖定採樣參數以緩解問題"
+    ],
+    "why_it_matters": "若你使用 OpenCode 作為 Qwen 的前端介面，輸出的可控性可能受影響。自動化流程若依賴穩定輸出，務必檢查 sampler 參數是否被意外改寫。",
+    "automation_angle": null,
+    "automation_angle_zh": "檢查你的 OpenCode 部署中 transformers 版本，並在呼叫模型前明確設定采樣參數，避免依賴預設值。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-hugging-face-300",
+    "title": "Hugging Face 模型中心突破 300 萬模型大關",
+    "title_original": "Hugging Face just surpassed 3 million models on the Hub",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrnckt/hugging_face_just_surpassed_3_million_models_on/",
+    "published_at": "2026-08-18T12:09:54+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face Hub 模型數量已正式超過 300 萬大關，反映開源 AI 模型生態系的爆炸性成長。涵蓋從小型 NLP 模型到大型多模態模型的廣泛選擇。",
+    "highlights": [
+      "模型總數突破 300 萬",
+      "涵蓋 NLP、視覺、音頻等多類型",
+      "Llama、Mistral、Qwen 等主流開源系列齊備",
+      "持續整合新發布的開源模型"
+    ],
+    "why_it_matters": "開源模型選擇已極度豐富，技術用戶几乎可以在 Hub 找到幾乎任何任務的預訓練模型，大幅降低從零訓練的成本與時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用 Hugging Face 的 API 或本地 CLI 快速搜尋、測試、部署符合需求的模型，用於自動化文本處理、分類、摘要等工作流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-chatgpt",
+    "title": "ChatGPT 青少年專屬模式正在開發中，引發隱私與教育爭議",
+    "title_original": "ChatGPT is getting a dedicated mode for teens",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vrn6rt/chatgpt_is_getting_a_dedicated_mode_for_teens/",
+    "published_at": "2026-08-18T12:02:23+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 正在為 ChatGPT 開發專門針對青少年的使用模式，該模式可能包含家長監護功能、年齡驗證、以及針對未成年人的內容過濾機制。此消息引發關於青少年隱私保護與教育價值的討論，但具體功能尚未正式發布。",
+    "highlights": [
+      "OpenAI 確認正在開發青少年模式",
+      "可能包含家長監護與年齡驗證",
+      "針對未成年人的內容安全機制",
+      "具體上線時間尚未公佈",
+      "消息來源為 Reddit 討論，尚未官方確認"
+    ],
+    "why_it_matters": "若 ChatGPT 正式推出青少年模式，將對教育科技市場產生重大影響。技術用戶若從事 EdTech 開發，需關注此動態對競爭格局的潛在改變。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發教育相關 AI 工具的技術團隊可關注此動態，評估 ChatGPT 青少年模式的功能邊界，以判斷是否需要差異化自己的產品。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-deepseek-v4-flash-0731-strix-halo",
+    "title": "DeepSeek V4 Flash 0731 在 Strix Halo 上實現高效推論優化",
+    "title_original": "DeepSeek V4 Flash 0731 on Strix Halo: draft model, n_max sweep, and a launch line that actually helps",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrm27o/deepseek_v4_flash_0731_on_strix_halo_draft_model/",
+    "published_at": "2026-08-18T11:07:12+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者在 AMD Strix Halo 平台上測試 DeepSeek V4 Flash 0731 版本，展示 draft model 技術與 n_max sweep 參數優化，實現更快速的本地推論效果。",
+    "highlights": [
+      "Draft model 策略加速推論",
+      "n_max sweep 參數調優方法",
+      "AMD Strix Halo 平台相容性驗證",
+      "本地部署可行性的實證"
+    ],
+    "why_it_matters": "展示在消費級硬體上優化大模型推論的具體技術路徑，對想在本地部署 DeepSeek 模型的技術用戶具有實驗參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可借鑒其 draft model 與參數搜尋方法，在自己的硬體配置上測試 DeepSeek V4，評估本地部署的延遲與產出品質。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-openai-codeai-ai",
+    "title": "OpenAI 與 CodeAI 合作推動青少年 AI 教育",
+    "title_original": "Partnering with CodeAI to prepare the first AI generation",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/partnering-with-codeai",
+    "published_at": "2026-08-18T11:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布與 CodeAI 建立合作夥伴關係，旨在幫助學生建立 AI 素養、培養批判性思維，並學習負責任地使用與塑造 AI 技術。合作內容包含課程資源與實作機會。",
+    "highlights": [
+      "聚焦 K-12 階段的 AI 素養教育",
+      "強調批判性思考與負責任使用",
+      "提供學校端課程整合資源",
+      "非技術層面產品更新"
+    ],
+    "why_it_matters": "此為教育戰略布局，非技術或產品功能更新。對技術開發者而言，無直接自動化價值，但反映 AI 教育市場持續擴大。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估是否需要為旗下產品加入青少年友善功能或教育元素，暫無直接技術整合點。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-18-openai-chatgpt",
+    "title": "OpenAI 推出青少年專用 ChatGPT 版本",
+    "title_original": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/chatgpt-for-teens",
+    "published_at": "2026-08-18T11:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "ChatGPT for Teens 是專為青少年設計的版本，內建更強保護機制、健康使用提醒，並提供家長監控選項。目標是協助青少年安全地學習與使用 AI。",
+    "highlights": [
+      "內建年齡驗證與保護過濾",
+      "學習輔助功能強化",
+      "家長控制面板",
+      "健康使用時間提醒"
+    ],
+    "why_it_matters": "屬於消費者產品線擴展，非 API 或開發工具更新。對技術用戶的日常工作流程程無直接影響，僅反映市場細分策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶若開發教育類應用，可參考其保護機制設計；若無相關產品需求，實用價值有限。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-18-openai-chatgpt-16-000",
+    "title": "OpenAI 發布企業使用 ChatGPT 實證研究：涵蓋 16,000 家公司數據",
+    "title_original": "How Organizations Use AI: Evidence from ChatGPT | OpenAI",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vrll7i/how_organizations_use_ai_evidence_from_chatgpt/",
+    "published_at": "2026-08-18T10:43:26+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發表題為《How Organizations Use AI: Evidence from ChatGPT》的研究報告，基於超過 16,000 家企業的使用數據，分析組織層級採用 AI 的模式與驅動因素。報告試圖提供企業級 AI 應用的實證基礎，而非僅有傳聞或個案。",
+    "highlights": [
+      "樣本規模達 16,000+ 企業，數據來源具可信度",
+      "分析 AI 在企業中的實際使用場景分布",
+      "揭示採納障礙與驅動因素",
+      "屬於 OpenAI 官方的公開研究",
+      "研究方法論與數據維度待細讀"
+    ],
+    "why_it_matters": "這是目前少見的大規模企業 AI 使用實證研究。技術用戶與決策者可參考此報告，了解同行業使用者的實際做法，避免盲目摸索或被個案誇大宣傳誤導。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將報告中的使用模式對比自己團隊現況，找出尚未自動化的流程，評估導入 AI 的優先順序與潛在 ROI。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-18-openai-api",
+    "title": "開發者社群熱議 OpenAI API 帳單結構與費用比較",
+    "title_original": "How does your OpenAI API billing actually look? Wanna compare notes (and maybe share a sample bill?)",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vrkg2m/how_does_your_openai_api_billing_actually_look/",
+    "published_at": "2026-08-18T09:39:57+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/OpenAI 討論串中，多位開發者分享各自 API 使用帳單，比較不同模型與用量下的實際費用結構。討論涵蓋即時推論與批次處理的計費差異，以及成本優化策略。",
+    "highlights": [
+      "帳單顯示批次 API 與即時 API 存在顯著價差",
+      "開發者分享降低費用的具體策略如 prompt 快取",
+      "不同模型家族的每 token 成本差異受到關注",
+      "社群互助驗證帳單準確性與計費爭議"
+    ],
+    "why_it_matters": "了解同業如何控制 OpenAI API 成本，可幫助你發現潛在的省費空間，尤其在高用量場景下微調計費方式可能節省數百美元。",
+    "automation_angle": null,
+    "automation_angle_zh": "收集社群帳單樣本，與你的實際費用對比，評估是否可透過批次處理、提示快取或模型切換優化每月開支。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-3m-chatgpt",
+    "title": "3M 法律專家以 ChatGPT 撰寫「零過失」辯護報告引發熱議",
+    "title_original": "3M expert used ChatGPT to draft '0% at fault' defense report",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vrkcel/3m_expert_used_chatgpt_to_draft_0_at_fault/",
+    "published_at": "2026-08-18T09:33:52+00:00",
+    "category": "agent-skills",
+    "summary": "一名 3M 公司的法律專家公開案例，說明他使用 ChatGPT 輔助撰寫了一份主張「零過失」責任的汽車事故辯護報告。該報告最終被採納為法院文件，引發法律界對 AI 生成文書在專業領域合規性的討論。",
+    "highlights": [
+      "真實企業場景的 AI 法律文書應用案例",
+      "ChatGPT 被用於撰寫正式法院文件",
+      "強調 AI 作為「助理」而非「主導」工具",
+      "引發法律合規與專業責任歸屬爭議",
+      "具體內容未公開，僅為案例陳述"
+    ],
+    "why_it_matters": "這是大型企業將 AI 用於核心專業流程的實際案例，顯示生成式 AI 在法律文件領域已具實用性。但技術用戶也需注意：AI 生成的法律文件仍需專業人士審核把關，不可完全依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "法律、合規、或需要撰寫正式報告的技術從業人員，可將此案例作為參考，探索將 ChatGPT/GPT-4 用於文書初稿、條款比對、風險清單生成的可行性，但必須建立人工審核流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-openai-asana-codex-12k",
+    "title": "OpenAI案例：Asana用Codex兩週完成五年工程工作量，耗費約12K美元",
+    "title_original": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/asana",
+    "published_at": "2026-08-18T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "OpenAI官方部落格報導，Asana使用Codex取代老舊測試系統，兩週內完成原本估計需五年的工程工作，總成本約12,000美元，是AI輔助程式碼重構的具體落地案例。",
+    "highlights": [
+      "Codex在兩週內完成預估五年的測試系統替換工作",
+      "總成本約12,000美元，遠低於傳統開發成本估算",
+      "屬OpenAI官方發布的客戶案例，可信度較高",
+      "展示了AI在程式碼理解與遷移上的實用價值",
+      "可用於向非技術决策者說明AI投資回報率"
+    ],
+    "why_it_matters": "此案例展示了AI編碼工具在企業級規模的真實效益，12K美元與兩週時間的對比極具說服力，適合作為評估AI工具投資的參考基準。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估自身項目中是否有類似的技術債務或老舊系統，評估用Codex輔助重構的可行性與預期節省時間。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-18-yantrikdb-mcp-ai-agent-mcp",
     "title": "yantrikdb-mcp：為 AI Agent 打造的持久化認知記憶 MCP 服務",
     "title_original": "yantrikos/yantrikdb-mcp",
@@ -170,6 +608,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/3264292?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-hugging-face-sentence-transformers",
+    "title": "Hugging Face更新：Sentence Transformers新增多向量（晚期互動）嵌入模型",
+    "title_original": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/multi-vector-encoder",
+    "published_at": "2026-08-18T00:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face部落格介紹Sentence Transformers新增的多向量嵌入模型，支援晚期互動機制，在查詢意圖複雜或關鍵詞重疊度低的情境下，可提供比傳統稀疏向量的語意檢索品質。",
+    "highlights": [
+      "多向量嵌入讓每個段落有多個向量表示",
+      "晚期互動在檢索時才計算關聯性，提升語意匹配精確度",
+      "適合查詢與文件詞彙重疊少但語意相關的場景",
+      "已整合進Sentence Transformers庫，可直接使用",
+      "屬開源更新，技術用戶可立即在本地測試效果"
+    ],
+    "why_it_matters": "多向量嵌入能顯著提升檢索增強生成（RAG）系統的精確度，對需要高品質語意搜尋的應用場景有實質幫助，值得評估是否取代現有方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將現有RAG系統的嵌入層替換為新的多向量模型，用實際資料集測試召回率與精確度變化，驗證是否值得遷移。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -586,6 +1052,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-18-meta-llama",
+    "title": "阿里巴巴發表筆電可跑的開源模型，直接對標 Meta Llama 生態",
+    "title_original": "Alibaba answers Meta’s AI challenge with new laptop-ready model - CNBC",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNGFodld0bUNaak0zcjNiZU5MbmF6NWhrVjIxTFl5Tkl1MEFSOENuczNza1cwRGFnSXlTcU1sLUJmeWJMTjNOUG1RTFBzMTNMRGJsQzFHTlgzbkp3cmIwdy03N2tYd2RuN2Z0QnZzUGxWTmJJM2lWMVVIWkk3MUFkcjNtWkFqVHBlVjEw0gGQAUFVX3lxTE9LV0xtYUQ5UXpDNVIzYXk5VXVrUGREUFBQSlJyS0NDNzNkdDhSeVBXZkt0QVBKY09TOUtldVpUQjA4SEQ1UmsxaVpaMWdGeWFHdUg5MFVqTTRkRFItRTFWU2FiY3NSRjBMN0NDLTJMNXkwRTJrdi16OTlPd3VyU3RZeFZINEV2c29IeFFUSkhvWg?oc=5",
+    "published_at": "2026-08-17T11:24:23+00:00",
+    "category": "open-source-ai",
+    "summary": "阿里巴巴推出可在本機筆電运行的開源大語言模型，直接回應 Meta 的 Llama 策略。該模型強調低資源需求與本地部署能力，瞄準開發者不想依賴雲端 API 的場景。模型效能對標同尺寸競品，但部署彈性更佳。",
+    "highlights": [
+      "可在消費級筆電運行，無需高端 GPU",
+      "開源可商用的授權條款，降低企業導入門檻",
+      "支援離線推論，保障資料隱私",
+      "與 Meta Llama 生態形成直接競爭",
+      "效能 Benchmark 數據有待第三方驗證"
+    ],
+    "why_it_matters": "對需要資料不離開本機的企業用戶、本地推論需求的邊緣計算場景，以及想要避開 API 費用暴增的開發者，都是實用選項。若效能與 Llama 3 8B 持平，可直接取代昂貴的雲端調用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可立即在本地部署，用於內部文件自動化、客服機器人後端、或作為輕量級代理的推論引擎，省下每次 API 呼叫的費用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-17-bridgic-agent-agent",
     "title": "bridgic-agent：用自然語言建構與演化工作流程的開源 Agent",
     "title_original": "bitsky-tech/bridgic-agent",
@@ -612,6 +1106,33 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/212624488?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-openai-codex",
+    "title": "贊助廣告偽冒 OpenAI Codex 網站暗藏惡意盜版軟體",
+    "title_original": "Warning: Sponsored Google result for OpenAI Codex led me to a malicious stealer",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vqorxl/warning_sponsored_google_result_for_openai_codex/",
+    "published_at": "2026-08-17T10:42:59+00:00",
+    "category": "hot-topics",
+    "summary": "資安社群警告，Google 搜尋結果中出現以 OpenAI Codex 為名的贊助廣告連結，實際導向散布竊取密碼與敏感資料的木馬程式。受害者下載後可能面臨憑證被竊與系統被接管風險。",
+    "highlights": [
+      "攻擊者利用 Google Ads 投放偽冒官方網站廣告",
+      "下載的惡意程式屬於資訊竊取類型",
+      "目標為不知情的開發者群體",
+      "官方 Codex 網站為 openai.com/index/codex"
+    ],
+    "why_it_matters": "開發者群體是此類社交工程攻擊的高風險目標。任何從搜尋結果點擊下載工具的行為都可能危害企業內部安全。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立書籤直接存取常用 AI 工具官網，避免透過搜尋引擎下載；企業端可封鎖已知惡意網域並教育團隊識別贊助廣告風險。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -4008,6 +4529,34 @@
       "ai-deals",
       "rss",
       "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-meta-nvidia",
+    "title": "Meta與Nvidia在中國實驗室引領的開源權重模型競賽中插旗",
+    "title_original": "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs - CNBC",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rbG55ODQ1MkFvUG1lN1VpX2RiZlFkYUJLenJBaURVamhSSi1jUVRvT0VRTVI5c2tJN2xMUlhjM3dzMFJZbGo4ZUpLM2ZkYTQ4UW5CRi1aMlpUTi01TUpIYWV5N1UwdzlTUGpOTkhkdTc2TjA3Q211OHNwcHNKRk3SAYQBQVVfeXFMTTNJdG5JRE9Ca044b2JZemp6NVZuNW5ORFo0SnFveEhYWHhOYjc3WWlLY2l6SXctS2dTRjdwRlBnbDV4Z3h1ajYxVDR3SHZ1dXdDMm4xc1RzNnhvTDBXNEx5bTEtdnRnVEd3cnNZc0hKV3otZFZGQ3p1MUZ4RmJNT3lXT0hh?oc=5",
+    "published_at": "2026-08-12T12:00:01+00:00",
+    "category": "open-source-ai",
+    "summary": "CNBC報導指出Meta與Nvidia正積極布局開源權重AI領域，試圖在由中國實驗室（如阿里、智譜等）主導的開源模型競賽中建立存在感。這標誌著美國科技巨頭正式將開源AI視為戰略重點。",
+    "highlights": [
+      "Meta與Nvidia明確表態進軍開源權重AI市場",
+      "中國實驗室目前在此領域處於領先地位",
+      "此舉顯示美國巨頭將開源AI視為核心戰略",
+      "開源權重模型競爭將更加激烈",
+      "Llama系列與Nvidia生態系可能迎來新整合"
+    ],
+    "why_it_matters": "開源AI格局正在重塑，美國巨頭的加入將加速技術競爭與生態整合。技術人員選擇開源模型時需關注此趨勢，以評估長期支援與發展潛力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可關注Meta Llama與Nvidia NIM的發展，評估其是否能提供更穩定的企業級支援與硬體優化，用於本地部署或自動化工作流程程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -29613,6 +30162,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-18-anthropic-claude-max",
+    "title": "Anthropic 推出開源維護者專屬 Claude Max 免費方案",
+    "title_original": "Claude for Open Source: 面向維护者的 6 個月免費 Max 20x - Pasquale Pillitteri",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaTdGOFdicjgzYl9FeTVWWUdqWVEyaHZ3b2pqV25xdTdqRkZEeE9ueEpiSWNBMGdGQ1B5dnRLUXZxaWhrMFdpT0thUklBTUx5d2dIOE1CRVBtVEY3ekg0ODRaRGxYaDFNU1YwRWd6QWRfRVJnZGVYT1g5Ynpkd0pwWHUyY2JNbzIyZ1g4Um9oRDFUUmtw?oc=5",
+    "published_at": "2026-07-09T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Anthropic 宣布 Claude for Open Source 計畫，為開源專案維護者提供為期 6 個月的 Max 方案免費使用額度，每月至多 20 倍用量。此優惠旨在支援非商業開源生態，申請者需通過維護者身份驗證。",
+    "highlights": [
+      "免費額度適用於 Max 方案，每月上限為標準的 20 倍",
+      "申請資格限定為活躍開源專案的維護者",
+      "優惠期限為 6 個月，需定期重新驗證身份",
+      "可能與 Claude Code 等工具的開發者生態策略相關"
+    ],
+    "why_it_matters": "對開源維護者而言，Claude Max 的高用量配額可支撐自動化測試、大規模程式碼分析等場景，省下可觀的 API 費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你維護開源專案，立即至官方頁面提交申請，利用高配額額度搭建自動化 CI 程式碼審查或測試生成流程。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-07-09-reddit-llm",
     "title": "Reddit 技術討論：離線執行大型 LLM 的硬體配置與效能估算",
     "title_original": "Need help building a rig / estimating performance for big LLMs to run when fully offline",
@@ -49032,6 +49608,34 @@
     "why_it_matters": "若你正在使用騰訊雲 AI 服務，本次套餐調整可能影響每月成本或可用額度，值得確認新方案是否符合你的使用量。",
     "automation_angle": null,
     "automation_angle_zh": "比較新舊套餐的額度與價格，若用量穩定可評估年付方案以降低單位成本；同時檢查現有工作流程對 API 額度的依賴程度。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-buddy-ai",
+    "title": "騰訊雲 Buddy AI 個人版訂閱改制：三檔方案覆蓋輕量到進階用戶",
+    "title_original": "腾讯雲：Buddy AI 国内個人版訂閱升級，付费套餐擴展為三档體系 - 新浪财經",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBGcWd1S2FTNUluOGV4cGdTd29Edk84VmVTMlFNRXRMVHY5OWJPRW9SemlNb3dwZ0kwbmtGclplUGdWNWJwUEE5cGlFUFZxdmNWMUhBQkx0UmR3ak9FSDBUYWJjekVMb2xzYzc2cmZVOTItejNCZURUMWlSRkE?oc=5",
+    "published_at": "2026-06-16T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "騰訊雲將 Buddy AI 個人版訂閱從單一套餐擴展為三個付費檔位，提供差異化的用量配額與功能權限。此調整可能影響中國境內用戶的 AI 工具成本結構，也反映本土廠商在訂閱制定價上的精細化趨勢。",
+    "highlights": [
+      "訂閱從單檔變三檔，用量與功能分層更細",
+      "針對中國市場個人用戶的定價策略",
+      "具體各檔價格與配額待騰訊官網確認",
+      "可能提供免費試用額度，需主動查詢",
+      "騰訊雲生態綁定使用場景"
+    ],
+    "why_it_matters": "中國用戶現在有更彈性的選擇，可依實際使用量選擇方案，避免為不需要的高階功能付費。三檔設計也暗示騰訊看好個人 AI 助理市場的付費意願。",
+    "automation_angle": null,
+    "automation_angle_zh": "需要騰訊雲生態工具的技術用戶可重新評估方案，若第三檔配額足夠，可將日常代碼生成、文件處理等工作流程搬到 Buddy AI 上執行，測試性價比。",
     "tags": [
       "ai-deals",
       "rss",
@@ -87540,6 +88144,34 @@
     "why_it_matters": "對於需要付費 AI 工具的開發者或技術從業人員，這是降低工具成本的新選項。",
     "automation_angle": null,
     "automation_angle_zh": "評估將現有付費 AI 工具切換至 Google AI Plus 的可行性與成本節省幅度",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-google-7-99-ai-plus-35",
+    "title": "Google 推出 7.99 美元低價 AI Plus 訂閱，進軍 35 個國家",
+    "title_original": "谷歌推出7.99美元低價版AI Plus訂閱服务，登陆含美国在内的35個国家 - 新浪财經",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdmgwX3N5R2VqTVVCY1k2LTN4OWJTRE1NRHFxNXFTOUtTSGxINUhIdnZyeFlwTER3VjNBWjkxMjVQd2RUS01GNDZPUzRFWHVrTkFudG9JOWlFR3JRTDQ4ZmxNR1JHNVQ3R0RmdEM3TGtoVE9VdVA5b2JRLVVGbV9yTGhCUVQwYmQ5YnlZVmRyNDRoUEdUaU5hTDNQT1d3bTVfakNKbnUxMnFnQS1uQ25EU25LTkNzNl9CWEp6VTh1LTdHNEo2YWc?oc=5",
+    "published_at": "2026-01-28T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Google 正式推出每月 7.99 美元的 AI Plus 訂閱方案，較原本的 Google One AI Premium 方案大幅降價。該方案已登陸包含美國在內的 35 個國家，目標是對抗 Microsoft Copilot 的低價競爭策略，並擴大 Gemini 的付費用戶基數。",
+    "highlights": [
+      "月費從 19.99 降至 7.99 美元，降幅約 60%",
+      "涵蓋 Gemini 高階功能與儲存空間",
+      "在 35 個國家同步上線，包含美國",
+      "主要對手是 Microsoft Copilot 訂閱",
+      "Google One 會員可直接升級"
+    ],
+    "why_it_matters": "低價策略降低了一般用戶與小型團隊使用 Gemini 高階功能的門檻。若功能與 Copilot 相近，技術用戶可比較兩者生态整合度與 API 可用性，選擇更適合自動化工作流程的方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估 Gemini 7.99 方案的 API 存取權限，若支援 Gemini API 或允許與 Google Workspace 整合，可作為文書自動化、郵件分類、文件生成的廉價後端。",
     "tags": [
       "ai-deals",
       "rss",
