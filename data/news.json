@@ -1,5 +1,120 @@
 [
   {
+    "id": "2026-08-18-yantrikdb-mcp-ai-agent-mcp",
+    "title": "yantrikdb-mcp：為 AI Agent 打造的持久化認知記憶 MCP 服務",
+    "title_original": "yantrikos/yantrikdb-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/yantrikos/yantrikdb-mcp",
+    "published_at": "2026-08-18T06:22:39Z",
+    "category": "agent-skills",
+    "summary": "yantrikdb-mcp 是一款 MCP 服務端，為 AI Agent 提供持久化認知記憶，支援時間衰減、矛盾檢測與知識圖譜整合，支援 Claude Code、Cursor、Windsurf，基於 Rust 引擎 YantrikDB。",
+    "highlights": [
+      "支援 Claude Code、Cursor、Windsurf 三大主流 Agent",
+      "時間衰減機制：自動淡化過時記憶",
+      "矛盾檢測：發現並標記記憶衝突",
+      "知識圖譜：維護記憶間的關聯結構",
+      "基於 Rust 引擎 YantrikDB，強調效能"
+    ],
+    "why_it_matters": "為長期運行的 Agent 提供結構化記憶層，時間衰減與矛盾檢測可減少 Agent 幻覺，技術用戶可借此實現真正的多 session 持久化。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可透過 pip install yantrikdb-mcp 快速安裝，在 Cursor 或 Claude Code 中啟用，測試其記憶持久化與矛盾檢測功能。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/266386478?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-orbit-mcp-ai-agent",
+    "title": "Orbit：自託管即時任務管理工具，含 MCP 服務供 AI Agent 使用",
+    "title_original": "Noveum/orbit",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Noveum/orbit",
+    "published_at": "2026-08-18T06:06:35Z",
+    "category": "agent-skills",
+    "summary": "Orbit 是一款免費開源的即時任務管理器，支援 Issue、看板、Sprint、專案文件即時同步，鍵盤優先導向，可完全自託管，並內建 MCP 服務供 AI Agent 接入。",
+    "highlights": [
+      "100% 免費開源，無定價模式",
+      "即時同步：Issue、看板、Sprint、專案文件",
+      "鍵盤優先設計：提升開發者操作效率",
+      "可完全自託管：保證資料隱私與可控性",
+      "內建 MCP 服務：支援 AI Agent 直接操作任務"
+    ],
+    "why_it_matters": "Orbit 的 MCP 整合讓 AI Agent 能直接操作任務系統，為工作流程自動化提供新選項，自託管特性適合企業內部部署需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可部署 Orbit 並啟用 MCP 服務，測試 AI Agent 自動建立 Issue、更新 Sprint 等工作流程自動化的實際效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/192082188?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-ai-agent-38k-stars",
+    "title": "《深入理解 AI Agent》開源書庫：38K Stars 的工程實踐指南",
+    "title_original": "bojieli/ai-agent-book",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/bojieli/ai-agent-book",
+    "published_at": "2026-08-18T05:50:04Z",
+    "category": "open-source-ai",
+    "summary": "由李博杰著作的《深入理解 AI Agent》開源主倉庫，累計 38,693 Stars，提供全書正文、編譯版 PDF 與按章配套程式碼，是 AI Agent 設計原理與工程實踐的系統性學習資源。",
+    "highlights": [
+      "38,693 Stars，GitHub 高人氣 AI Agent 技術書籍",
+      "全書正文開源，含編譯版 PDF",
+      "按章配套 Python 程式碼，可直接執行",
+      "涵蓋設計原理與工程實踐雙重視角",
+      "適合建立 AI Agent 系統化知識體系"
+    ],
+    "why_it_matters": "38K Stars 證明其內容品質獲得社群認可，技術用戶可系統化建立 Agent 設計能力，直接用配套程式碼加速原型驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 PDF 與配套程式碼，用書中範例快速驗證記憶樹、工具調用等核心模式的實際效果。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1421793?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-18-qwen3-6-qwen3-8-27b-16gb-vram-32k-72k-30-50-tps",
+    "title": "Qwen3.6 / Qwen3.8-27B 在 16GB VRAM 上的優化指南：32k-72k 上下文可達 30-50 tps",
+    "title_original": "Optimizing Qwen3.6 / Qwen3.8-27B on 16GB VRAM: Complete Benchmark Results and Setup Guide (~30-50tps at 32k to 72k context)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrchn9/optimizing_qwen36_qwen3827b_on_16gb_vram_complete/",
+    "published_at": "2026-08-18T02:28:24+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 社群用戶分享 Qwen3.6/3.8-27B 在 16GB 顯示卡的優化實測，包含完整設定與效能數據，可在 32k 至 72k 上下文長度下達到 30-50 tps 的推論速度，提供詳細的量化指標與配置教學。",
+    "highlights": [
+      "Qwen3.8-27B 能在 16GB VRAM 限制下運行，採用量化或引數最佳化技術",
+      "32k 至 72k 上下文長度實測可達 30-50 tokens per second",
+      "包含完整 benchmark 數據與設定步驟教學",
+      "針對 llama.cpp、exllamav2 或 GGUF 格式的優化建議",
+      "社群驗證的低成本本地部署可行性"
+    ],
+    "why_it_matters": "本地部署大型開源模型的成本大幅降低，技術人員可用消費級顯示卡運行 27B 等級模型，節省雲端 API 費用並提升資料隱私。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可按照此指南設定本地推論環境，用於自動化文字處理、本地 RAG 或無網路環境下的 AI 任務處理。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-18-openprogram-ai",
     "title": "OpenProgram：開源自程式化 AI 助理，專注工作流程捕捉與自動化",
     "title_original": "Fzkuji/OpenProgram",
