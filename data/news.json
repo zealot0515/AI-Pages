@@ -1,5 +1,172 @@
 [
   {
+    "id": "2026-08-18-openprogram-ai",
+    "title": "OpenProgram：開源自程式化 AI 助理，專注工作流程捕捉與自動化",
+    "title_original": "Fzkuji/OpenProgram",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Fzkuji/OpenProgram",
+    "published_at": "2026-08-18T00:40:06Z",
+    "category": "agent-skills",
+    "summary": "OpenProgram 是一款 Python 開源專案（105 stars），定位為自程式化 AI 助理，能捕捉、自動化與優化各類工作流程程。其核心訴求是讓 AI 學習使用者的重複性任務模式，並將其固化為可复用的自動化腳本，減少手動操作時間。",
+    "highlights": [
+      "開源 Python 專案，技術門檻較低便於自部署",
+      "主打「學習→捕捉→自動化」工作流程閉環",
+      "可記錄並重放常見操作序列",
+      "適合技術用戶自訂整合到現有工具鏈",
+      "Star 數 105 顯示社群興趣度中等但穩定"
+    ],
+    "why_it_matters": "重複性任務佔用技術人員大量時間，若能讓 AI 學會自動化這些流程，可將精力聚焦在更有價值的開發工作上。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 OpenProgram 部署在本地或開發伺服器，讓它觀測並學習團隊的常見操作流程，逐步將重複性任務自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/54301366?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-ankaloop-ide-telegram-agent",
+    "title": "ankaloop：開箱即用的終端機 / IDE / 伺服器 / Telegram 編碼 Agent 執行環境",
+    "title_original": "tao12345666333/ankaloop",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tao12345666333/ankaloop",
+    "published_at": "2026-08-18T00:38:59Z",
+    "category": "agent-skills",
+    "summary": "ankaloop 是一個新興 MCP 相關專案（33 stars），提供一個整合好的編碼 Agent 執行環境，支援終端機、IDE、伺服器與 Telegram 四種介面。內建工具、子 Agent、技能系統、記憶管理、MCP/ACP 協定支援與自動化 Hook，可快速搭建跨平台的 AI 程式設計助理。",
+    "highlights": [
+      "支援四種主流介面：終端機、IDE、伺服器、Telegram",
+      "內建 MCP 與 ACP 協定整合，支援工具擴展",
+      "子 Agent 與技能系統簡化複雜任務拆解",
+      "內建記憶管理模組維持對話上下文",
+      "開箱即用減少自建 Agent 環境的時間成本"
+    ],
+    "why_it_matters": "將 AI 程式設計助理快速部署到不同工作環境是提升開發效率的關鍵，ankaloop 提供整合方案減少瑣碎的環境配置工作。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 ankaloop 部署在開發伺服器，透過 Telegram 或終端機介面即時控制 AI 編碼助理，在遠端伺服器環境中實現 AI 輔助開發。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/3264292?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-qwen-3-8-27b-artificial-analysis-52-gpt-5-6-luna",
+    "title": "Qwen 3.8 27B 在 Artificial Analysis 智慧指數取得 52 分，與 GPT-5.6 Luna 並駕齊驅",
+    "title_original": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+    "published_at": "2026-08-17T23:58:14+00:00",
+    "category": "new-models",
+    "summary": "Simon Willison 報導，Qwen 3.8 27B 在 Artificial Analysis Intelligence Index 獲得 52 分，與 GPT-5.6 Luna（最大版本）持平，並僅落後 GLM-5.2（753B）和 DeepSeek V4 Pro（1.6B）一分。這個 27B 參數模型展現出超乎預期的效能，被譽為真正令人驚艷的模型。",
+    "highlights": [
+      "Qwen 3.8 27B 得分 52，與 GPT-5.6 Luna 持平",
+      "對比：GLM-5.2 753B、DeepSeek V4 Pro 1.6B",
+      "27B 參數規模能與頂級大模型競爭，效率極高",
+      "Simon Willison 為高可信度消息來源"
+    ],
+    "why_it_matters": "27B 模型達到頂級效能代表小參數模型也能勝任複雜任務。這對需要本地部署、兼顧成本與效能的開發者是重大好消息。",
+    "automation_angle": null,
+    "automation_angle_zh": "可立即在本地或雲端部署 Qwen 3.8 27B，用於取代昂貴的 GPT-4o API，測試實際工作流程程中的表現差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-18-qwen-3-8-35b-122b",
+    "title": "Qwen 3.8 35B 與 122B 參數版本引發社群討論",
+    "title_original": "Qwen 3.8 35b and 122b - We hope/wait/beg for models incessantly. But how do we actually give the lab more incentive to make it?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vr6qzp/qwen_38_35b_and_122b_we_hopewaitbeg_for_models/",
+    "published_at": "2026-08-17T22:18:54+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 熱烈討論 Qwen 3.8 系列新模型（35B 與 122B 參數）。社群成員反思對新模型的渴望與實際激勵實驗室開發之間的矛盾。討論聚焦於如何真正推動 AI 實驗室持續創新，而非只是被動等待新模型發布。",
+    "highlights": [
+      "Qwen 3.8 35B 和 122B 是即將發布的新模型",
+      "社群開始關注如何激勵模型開發而非只是索取",
+      "開源模型生態需要開發者實質參與",
+      "討論涉及模型開發的商業與技術激勵機制"
+    ],
+    "why_it_matters": "開源模型生態的健康發展需要雙向互動。理解實驗室的開發激勵，有助開發者更好地參與貢獻或預測模型發布時程。",
+    "automation_angle": null,
+    "automation_angle_zh": "可追蹤 Qwen 官方 GitHub 和 HuggingFace 頁面，搶在新模型發布時第一時間部署測試pipeline。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-benchmark",
+    "title": "社群Benchmark迷思：我們測試的模型根本沒人真正在跑",
+    "title_original": "we benchmark models nobody actually runs",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vr643w/we_benchmark_models_nobody_actually_runs/",
+    "published_at": "2026-08-17T21:53:54+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit LocalLLaMA 社群掀起討論，質疑現有Benchmark環境與實際部署之間存在巨大鴻溝。許多被廣泛測試的模型在實際應用場景中幾乎沒有使用記錄，導致Benchmark分數可能誤導開發者選擇。這個現象揭示了模型評估方法論的根本問題。",
+    "highlights": [
+      "Benchmark分數高的模型未必是實際部署首選",
+      "社群開始重視真實使用數據而非實驗室分數",
+      "此討論反映開源社群對評估標準的反思",
+      "對模型選擇決策有重要啟示"
+    ],
+    "why_it_matters": "模型評估與實際應用脫節會導致資源錯配。技術決策者若只看Benchmark選模型，可能選到難以部署、性價比差的方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可建立自己模型的黑盒監控系統，追蹤延遲、成本、實際輸出品質，而非盲目相信公開Benchmark。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-18-agentic-qwen-3-8-27b",
+    "title": "本地 Agentic 程式設計基準測試：Qwen 3.8 27B 對比其他模型表現",
+    "title_original": "Local agentic coding Benchmark : Qwen 3.8 27B (in many weights quants / cache quants / engine / reasoning effort) vs others.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vr4bs4/local_agentic_coding_benchmark_qwen_38_27b_in/",
+    "published_at": "2026-08-17T20:45:23+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串分享了一項本地端 Agentic 程式設計基準測試，針對 Qwen 3.8 27B 模型（支援多權重量化、快取量化、多引擎與推論 effort 調整）與其他本地模型進行對比。測試結果涵蓋程式碼生成、任務規劃與工具呼叫等維度，但缺乏標準化測試環境描述，結果僅供參考。",
+    "highlights": [
+      "測試對象包含 Qwen 3.8 27B 的量化版本表現",
+      "評測維度包括程式碼生成、任務規劃與工具呼叫",
+      "支援多种量化方式（weights quants / cache quants）測試",
+      "結果來自社群自測，缺乏官方基準環境驗證",
+      "有興趣的技術用戶可在自己硬體上复現測試"
+    ],
+    "why_it_matters": "選擇本地模型時，真實任務表現比理論 Spec 更重要，此類社群基準測試提供了實際使用場景下的參考數據。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載測試中表現較好的模型量化版本，在自己硬體上部署並用實際工作樣本測試，找出性價比最高的本地程式設計模型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-17-qwen3-8-27b-agentic-opus-5-medium",
     "title": "Qwen3.8 27B 在 Agentic 基準超越 Opus 5 Medium",
     "title_original": "Qwen3.8 27B > Opus 5 Medium on Artificial Analysis Agentic Index",
