@@ -1,5 +1,145 @@
 [
   {
+    "id": "2026-08-19-comfy-org-comfy-mcp-comfyui-mcp",
+    "title": "Comfy-Org/comfy-mcp：本地 ComfyUI 的 MCP 伺服器",
+    "title_original": "Comfy-Org/comfy-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Comfy-Org/comfy-mcp",
+    "published_at": "2026-08-19T00:36:20Z",
+    "category": "open-source-ai",
+    "summary": "Comfy-Org/comfy-mcp 是一個讓 AI Agent 能直接呼叫本地 ComfyUI 的 MCP 伺服器專案，目前 49 stars，屬於早期 Python 專案。本地執行意味著圖像生成不依賴雲端 API，隱私更有保障。",
+    "highlights": [
+      "AI Agent 可直接呼叫本地 ComfyUI",
+      "本地執行保護隱私，無需雲端 API",
+      "Python 專案，輕量易整合",
+      "目前 stars 數低，屬早期專案"
+    ],
+    "why_it_matters": "為 Agent 與本地圖像生成工具的整合提供標準化橋樑，是多 Agent 協作場景的一個可行開源方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其整合至自己的 Agent 工作流程，實現圖像生成的本地化與自動化，降低對雲端 API 的依賴與成本。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/166579949?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-github-copilot-for-jetbrains",
+    "title": "GitHub Copilot for JetBrains 新增企業托管設定功能",
+    "title_original": "Enterprise managed settings in GitHub Copilot for JetBrains",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
+    "published_at": "2026-08-18T23:33:07+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 的 JetBrains 外掛程式新增企業托管設定功能，管理員可集中管理外掛治理、MCP 伺服器存取、OpenTelemetry 遙測以及權限模式，確保企業內所有開發者的一致性安全控制。",
+    "highlights": [
+      "支援企業級插件治理政策統一部署",
+      "MCP 伺服器（MCP Server）存取權限集中管控",
+      "整合 OpenTelemetry 遙測以監控 Copilot 使用情況",
+      "權限模式（Permission Modes）可精細控制存取範圍",
+      "適用於大型組織的合規與安全需求"
+    ],
+    "why_it_matters": "企業導入 AI 程式助理時，安全與合規是首要考量。新功能讓 IT 管理員能在 Copilot 層面落實資料外洩防護，而非僅依賴 IDE 設定。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業技術主管可利用此功能強制開啟 MCP 整合、關閉未授權擴充功能，並透過 OpenTelemetry 收集使用數據以評估 Copilot 投資報酬率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-19-mojo-apache-2",
+    "title": "Mojo🔥 程式語言正式開源：Apache 2 許可證發布",
+    "title_original": "Mojo🔥 is now open source",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
+    "published_at": "2026-08-18T21:39:20+00:00",
+    "category": "open-source-ai",
+    "summary": " Modular AI 宣布 Mojo🔥 程式語言開源，採用 Apache 2 許可證。該語言從最初定位為 Python 超集，轉變為獨立語言，專注於簡化 GPU 程式設計。Mojo 1.0 版本同步發布，採用 Python 風格語法但不保證完全向後相容。",
+    "highlights": [
+      "Mojo 編譯器與工具鏈以 Apache 2 許可證開源",
+      "語言定位調整：不再強制要求 Python 超集相容性",
+      "1.0 版本正式發布，強調 GPU 程式設計友好",
+      "AI 輔助程式碼工具已支援 Python 到 Mojo 的遷移",
+      "仍使用 Python 風格語法以降低學習曲線"
+    ],
+    "why_it_matters": "GPU 高效能運算需求持續成長，Mojo 提供類似 Python 的語法卻能編譯為高效機器碼。對於需要效能但不想完全拋棄 Python 生態的開發者，這是值得關注的選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可立即下載 Mojo SDK，在本地環境測試效能瓶頸模組（如推論批次處理），評估與 Python 的效能差異與遷移成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-19-openai",
+    "title": "OpenAI 宣布強化國家安全領域的民主監督機制",
+    "title_original": "Strengthening democratic oversight in national security",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+    "published_at": "2026-08-18T19:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布新計畫，目標是強化 AI 在國家安全應用中的民主監督。內容包括為政府機構提供工具、教育訓練與專業知識支援，具體措施尚待進一步揭露。",
+    "highlights": [
+      "屬於政策倡議，非新產品或技術發布",
+      "強調政府機構合作與透明度",
+      "涉及工具、培訓與專業知識的整合",
+      "具體實作細節尚不明確",
+      "與國家安全 AI 應用相關"
+    ],
+    "why_it_matters": "對一般技術使用者直接影響有限，但反映 AI 公司與政府監管互動的趨勢，可能影響未來 API 使用政策或資料隱私規範。",
+    "automation_angle": null,
+    "automation_angle_zh": "此政策新聞對技術使用者的日常工作無直接自動化幫助，但建議關注後續具體措施是否影響 API 穩定性或成本。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-ling-3-0-bailingmoe3-llama-cpp-intel-arc-b580",
+    "title": "Ling-3.0 (BailingMoE3) 正式合併至 llama.cpp 主線，Intel Arc B580 快速效能測試出爐",
+    "title_original": "Ling-3.0 (BailingMoE3) lands in llama.cpp mainline - Quick benchmarks on Intel Arc B580",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrxoxy/ling30_bailingmoe3_lands_in_llamacpp_mainline/",
+    "published_at": "2026-08-18T18:30:28+00:00",
+    "category": "open-source-ai",
+    "summary": "開源 MoE 模型 BailingMoE3（又稱 Ling-3.0）已正式合併至 llama.cpp 主分支，未來將可直接透過 llama.cpp 在本地端執行推論。社群同時釋出在 Intel Arc B580 顯示卡上的初步效能測試數據，為偏好本地部署的開發者提供硬體參考依據。",
+    "highlights": [
+      "BailingMoE3/Ling-3.0 為開源 Mixture-of-Experts（MoE）架構模型",
+      "模型已合併至 llama.cpp 主線，未來版本將內建支援",
+      "Intel Arc B580 上的 benchmark 顯示中等規模 MoE 模型具備不錯的每秒輸出效率",
+      "結合 llama.cpp 的量化功能，可在消費級硬體上實現更低的記憶體佔用",
+      "此次整合補足了 llama.cpp 生態系中 MoE 模型的空白"
+    ],
+    "why_it_matters": "對技術宅而言，llama.cpp 的廣泛適配性與 BailingMoE3 的 MoE 效率結合，意味著可在消費級 GPU 或甚至是整合式顯示晶片上跑更大規模模型，大幅降低本地 AI 推論的硬體門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "可立即用 llama.cpp nightly 版本 load 該模型，結合 --gpu-layers 或量化參數（如 Q4_K_M）在 Arc B580 上實測延遲與 VRAM 佔用，評估是否適合用於本地端自動化腳本或長時任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-18-openai",
     "title": "OpenAI 暫停部署導向的模型訓練以強化內部系統",
     "title_original": "OpenAI paused deployment-bound model training to harden its own research systems",
@@ -327,6 +467,32 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-08-19-openai",
+    "title": "OpenAI 揭示網路關鍵能力時代的模型開發節奏策略",
+    "title_original": "Pacing model development in an era of cyber-critical capabilities",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+    "published_at": "2026-08-18T11:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發文說明正在加強前沿模型的監控、對齊與安全機制，並探討新安全防護如何影響模型開發節奏。此文屬於政策與安全性高層次論述，非技術細節。",
+    "highlights": [
+      "安全與對齊機制成為模型發布的重要考量",
+      "監控與安全防護影響開發節奏",
+      "屬於政策層面論述，缺少技術實現細節"
+    ],
+    "why_it_matters": "安全考量開始實質影響 AI 發展節奏，這對整個 AI 供應鏈與技術路線圖都有潛在影響，技術用戶需留意此趨勢。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注此類政策訊號，評估其對日後模型可用性與發布時程的潛在影響，作為長期技術規劃的參考。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-18-openai-chatgpt-16-000",
     "title": "OpenAI 發布企業使用 ChatGPT 實證研究：涵蓋 16,000 家公司數據",
     "title_original": "How Organizations Use AI: Evidence from ChatGPT | OpenAI",
@@ -632,6 +798,32 @@
     "automation_angle_zh": "開發者可將現有RAG系統的嵌入層替換為新的多向量模型，用實際資料集測試召回率與精確度變化，驗證是否值得遷移。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-nvidia-chatgpt-work",
+    "title": "NVIDIA 團隊如何使用 ChatGPT Work 規模化專業知識",
+    "title_original": "How NVIDIA scales expertise with ChatGPT Work",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/nvidia/chatgpt-work",
+    "published_at": "2026-08-18T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "NVIDIA 團隊透過 ChatGPT Work 減少手動任務、快速連結動態資訊，並將成功工作流程程推廣至全球。這是 OpenAI 官方的企業客戶案例，主要展示 AI 在大型組織中的實際應用價值。",
+    "highlights": [
+      "企業級 AI 應用案例，展示 AI 助理在大型組織的實際價值",
+      "減少手動重複性任務",
+      "加速資訊連結與傳遞"
+    ],
+    "why_it_matters": "此案例說明 AI 助理已具備在企業環境中規模化落地的能力，對評估 AI 工具的實際 ROI 具有參考意義。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可參考其工作流程程設計思路，評估是否可將類似模式應用於自己的團隊或專案。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
