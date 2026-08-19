@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-08-19-callstack-agent-device-ai-agent-app",
+    "title": "callstack/agent-device：AI 編碼 Agent 的跨平台 App 自動化測試工具",
+    "title_original": "callstack/agent-device",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/callstack/agent-device",
+    "published_at": "2026-08-19T12:23:29Z",
+    "category": "agent-skills",
+    "summary": "callstack/agent-device 是一個開源 MCP 工具，專為 AI 編碼 Agent 提供 iOS、Android、HarmonyOS、TV、Web、macOS、Linux 的自動化與驗證能力。支援 CLI、 MCP 伺服器與 TypeScript API，已獲 4,134 顆星，是當前 Agent 工具鏈中少見的跨平台 UI 自動化方案。",
+    "highlights": [
+      "支援八大平台覆蓋，為 Agent 提供統一路口",
+      "提供 CLI 與 MCP 伺服器兩種接入方式",
+      "TypeScript 優先，易於與現代前端工具鏈整合",
+      "可讓 Agent 直接驅動 UI 操作並驗證回傳結果",
+      "4,134 星表示社群關注度高，活躍度佳"
+    ],
+    "why_it_matters": "AI Agent 若要真正取代人類操作電腦，跨平台 UI 自動化是必備能力。此工具讓 Agent 直接驅動真實應用，大幅提升任務完成率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其整合進 CI/CD，讓 AI Agent 在每次 PR 時自動跑 UI 測試，或作為 RPA 流程的核心引擎。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/42239399?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-19-promptowl-contextnest-ai-agent",
+    "title": "PromptOwl/ContextNest：為 AI Agent 打造的結構化版本化上下文框架",
+    "title_original": "PromptOwl/ContextNest",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/PromptOwl/ContextNest",
+    "published_at": "2026-08-19T11:56:26Z",
+    "category": "agent-skills",
+    "summary": "ContextNest 是一個新興 MCP 工具，以 Markdown 文件 vault 為基礎提供 Agent 上下文管理，支援版本控制、完整性驗證與查詢語言。現僅 14 顆星，功能完整度尚待社群驗證，但概念瞄準了 Agent 長期記憶管理的核心痛點。",
+    "highlights": [
+      "以 Markdown vault 儲存知識，符合技術人員偏好",
+      "提供版本控制機制，方便追蹤上下文變化",
+      "內建完整性驗證，防止上下文汙染",
+      "支援查詢語言，方便 Agent 檢索特定資訊",
+      "CLI 與 MCP 雙介面，靈活度佳但生態尚小"
+    ],
+    "why_it_matters": "Agent 在長任務中常因上下文丟失而失效，ContextNest 試圖用版本化 vault 解決此問題，是值得關注但需時間觀察實用性的方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其用於個人助理 Agent 的長期記憶管理，測試其是否能在多日專案中保持任務連續性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/177219493?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-llama-cpp-n-cpu-ffn-cpu",
+    "title": "llama.cpp 新增 --n-cpu-ffn 選項優化 CPU 推論",
+    "title_original": "[Open PR] llama : add --n-cpu-ffn option by John-194 · Pull Request #26622 · ggml-org/llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsjz2n/open_pr_llama_add_ncpuffn_option_by_john194_pull/",
+    "published_at": "2026-08-19T11:40:32+00:00",
+    "category": "open-source-ai",
+    "summary": "llama.cpp 開發者 John-194 提交 Pull Request #26622，為 llama 推論引擎新增 --n-cpu-ffn 命令列選項。該選項允許用戶指定用於 FNN（前饋神經網路）層的 CPU 執行緒數量，提供更細粒度的 CPU 推論資源控制。",
+    "highlights": [
+      "PR #26622 新增 --n-cpu-ffn 命令列參數",
+      "可精確控制 CPU 在 FNN 層的執行緒分配",
+      "有助於優化混合 CPU/GPU 部署的資源利用",
+      "為 llama.cpp 底層優化增加控制靈活性",
+      "屬於 GGML 底層效能調校功能"
+    ],
+    "why_it_matters": "此 PR 為 llama.cpp 用戶提供更細緻的執行緒調度控制。在 CPU 密集的 FNN 層與其他計算間取得平衡，可提升特定硬體配置的推論效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "用戶可在不同 --n-cpu-ffn 值下進行吞吐量基準測試，找出特定模型與 CPU 組合的最優配置，並寫入部署腳本自動化。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-qwen-3-8-27b",
+    "title": "用戶反映 Qwen 3.8 27B 在代理編碼任務上表現不佳",
+    "title_original": "Am I doing something wrong? Qwen 3.8 27B seems useless for agentic coding",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsinej/am_i_doing_something_wrong_qwen_38_27b_seems/",
+    "published_at": "2026-08-19T10:32:34+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶在 LocalLLaMA 社群反映，Qwen 3.8 27B 模型用於代理編碼時似乎無法勝任。該用戶對模型在自動化程式開發場景中的能力提出質疑，並尋求社群建議。此為單一用戶體驗報告，不應視為全面評測，但反映出該模型在特定代理工作流程的潛在限制。",
+    "highlights": [
+      "用戶反映 Qwen 3.8 27B 在 agentic coding 任務中表現不如預期",
+      "此為個人體驗報告，非正式基準測試",
+      "可能與提示詞工程或部署配置有關",
+      "引發社群對於小型模型代理能力的討論",
+      "缺乏可重複驗證的測試數據"
+    ],
+    "why_it_matters": "若 Qwen 3.8 27B 真實存在代理編碼瓶頸，將影響本地部署 AI 程式助理的性價比評估。技術用戶需自行測試驗證，而非依賴單一案例做決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可設計標準化代理編碼測試（如自動修復 GitHub Issue、生成單元測試），親自驗證 Qwen 3.8 27B 的實際工作流程表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-19-matepad-air-rm3499-ai",
     "title": "華為 MatePad Air 上市，馬來西亞優惠價 RM3499 主打 AI 日常助理",
     "title_original": "AI成日常助理！ 华為 MatePad Air上市優惠價RM3499 | 科技 | 生活 - orientaldaily.com.my",
@@ -407,6 +521,34 @@
     "automation_angle_zh": "技術用戶可測試 Qwen3.8 2.4T 的遊戲或 3D 內容生成能力，評估是否可整合進自動化遊戲測試或創意原型工作流程。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-claude-anthropic",
+    "title": "Claude 服務異常：Anthropic 正在調查多模型錯誤事件",
+    "title_original": "Claude Down: Anthropic Investigates Multi-Model Errors - sqmagazine.co.uk",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB4Y19sM3FlTndNT0pxV3YxRENxeGJEMl92UzVTVkJOZHhfTHBadmc5Y0lUSGNwZ1E4NC1vMFRMZzhDY3UyRVp5cw?oc=5",
+    "published_at": "2026-08-18T17:34:16+00:00",
+    "category": "hot-topics",
+    "summary": "Claude 系統出現大範圍服務降級，Anthropic 已確認正在調查涉及多模型的錯誤。詳細原因與影響範圍尚待官方報告，此事件再次提醒倚賴單一模型 API 的工作流程存在可用性風險。",
+    "highlights": [
+      "Anthropic 已確認事件並展開調查",
+      "受影響範圍與根因尚不明確",
+      "多模型同時出錯暗示可能是基礎設施層問題",
+      "對依賴 Claude API 的生產環境影響需密切關注",
+      "建議短期對關鍵工作流程準備備援方案"
+    ],
+    "why_it_matters": "即便不影響業務，及時掌握此事件可評估是否需要為關鍵 Agent 工作流程加入模型備援邏輯，提升系統韌性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可趁此時審視 Agent 工具鏈的模型路由設定，確保單一 API 異常時可自動切換至備援模型。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
