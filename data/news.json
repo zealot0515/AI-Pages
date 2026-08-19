@@ -1,5 +1,229 @@
 [
   {
+    "id": "2026-08-19-openai-private-safety-processing",
+    "title": "OpenAI 重申企業用戶零資料保留政策，預覽 Private Safety Processing",
+    "title_original": "Offering Zero Data Retention for frontier models",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/our-commitment-to-zero-data-retention",
+    "published_at": "2026-08-19T19:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格重申符合資格的 API 企業用戶享零資料保留，並預告 Private Safety Processing 機制——在強化 AI 安全的前提下保障資料隱私。此為官方政策更新，直接影響企業級使用決策。",
+    "highlights": [
+      "API 企業用戶符合資格者可享有零資料保留",
+      "Private Safety Processing 預告在安全與隱私間取得平衡",
+      "此政策適用於符合條件的付費企業客戶",
+      "官方部落格為第一手消息，可信度極高"
+    ],
+    "why_it_matters": "對於處理敏感商業資料的企業開發者，零資料保留政策是選擇 OpenAI API 的關鍵考量之一。Private Safety Processing 若正式推出，可能成為業界隱私標準的新標竿。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業開發者應審視現有 AI 資料處理流程是否符合 OpenAI 零保留資格，若符合則可考慮將更敏感的資料（如醫療、金融）遷移至 OpenAI API 處理。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-19-canonry-ai",
+    "title": "Canonry：開源自架 AI 引用追蹤平台，監控各大模型對網域的引用",
+    "title_original": "Canonry/canonry",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Canonry/canonry",
+    "published_at": "2026-08-19T17:53:27Z",
+    "category": "agent-skills",
+    "summary": "Canonry 是開源 TypeScript 專案（115 stars），可自架監控 ChatGPT、Claude、Gemini、Perplexity 對自家網域的引用情形。支援串接 Search Console、GA4、Bing 與付費流量資料，強調 Agent 優先設計。",
+    "highlights": [
+      "自架部署，資料不經第三方，適合重視隱私的 SEO/內容團隊",
+      "支援追蹤 ChatGPT、Claude、Gemini、Perplexity 四大平台的引用",
+      "可串接 Search Console、GA4、Bing 伺服器端流量等資料源",
+      "Agent 優先架構，方便與自動化流程整合",
+      "TypeScript 実装，提供 115 GitHub stars，社区活跃度中等"
+    ],
+    "why_it_matters": "隨著 AI 搜尋興起，了解自家內容在各大 AI 模型中的引用與呈現方式，能幫助技術行銷團隊調整 SEO 與內容策略，Canonry 提供了開源可驗證的追蹤方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可將 Canonry 部署為定時任務，每日自動抓取並比對各平台引用變化，結合現有 BI 工具建立 AI 引用儀表板，輔助內容策略決策。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/265431220?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-qwen-3-8-27b-gemini-3-7-flash",
+    "title": "Qwen 3.8 27B 實測打敗 Gemini 3.7 Flash：開源本地模型寫程式表現更佳",
+    "title_original": "Qwen 3.8 27B vs Gemini 3.7 Flash (High) for real coding: open-source 27B model did a much better job",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vssd63/qwen_38_27b_vs_gemini_37_flash_high_for_real/",
+    "published_at": "2026-08-19T17:03:20+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群有開發者分享實測結果，Qwen 3.8 27B 在實際coding任務上的表現顯著優於 Gemini 3.7 Flash（High）。測試涉及真實程式碼補全與除錯情境，27B 規模的開源模型在指令遵循與推論深度上領先對手的旗艦小模型，引發社群對模型尺寸與能力性價比的熱議。",
+    "highlights": [
+      "Qwen 3.8 27B 在真實coding實測中击败 Gemini 3.7 Flash（High）",
+      "測試涵蓋程式碼補全、除錯與推論等實際情境",
+      "27B 規模的開源模型具備接近旗艦級能力",
+      "社群認為性價比大幅領先雲端商業模型",
+      "引發對模型尺寸 vs 任務適配性的新一輪討論"
+    ],
+    "why_it_matters": "對於需要本地部署coding助理的開發者而言，Qwen 3.8 27B 可能是當前最佳性價比選擇，若能在本地跑出接近雲端頂級模型的效果，將直接影響工作流程與API開支。",
+    "automation_angle": null,
+    "automation_angle_zh": "本地部署 Qwen 3.8 27B 作為 coding 副駕駛，用於自動化程式碼審查、重構與補全，實測對比 Gemini 3.7 Flash 的輸出品質與延遲，自行評估是否符合團隊coding需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-antling-ve-ling-3-0-tiny-flash-base-model",
+    "title": "AntLing've 開源 Ling-3.0 tiny/flash 六階段 Base Model 權重",
+    "title_original": "AntLing’ve open-sourced 6 Base Model checkpoints for Ling-3.0-tiny & Ling-3.0-flash, covering pre-trained, mid-trained, and WSM-merged stages.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsqfmj/antlingve_opensourced_6_base_model_checkpoints/",
+    "published_at": "2026-08-19T15:56:11+00:00",
+    "category": "open-source-ai",
+    "summary": "AntLing've 團隊在 Reddit r/LocalLLaMA 宣佈開源 Ling-3.0 tiny 與 Ling-3.0 flash 的六個 Base Model 檢查點（checkpoint），涵蓋預訓練、中期訓練與 WSM-merged 各階段權重。此開放之舉讓研究者與開發者能追蹤模型在不同訓練階段的能力演進，並針對特定任務 fine-tune 自有版本。",
+    "highlights": [
+      "六個 checkpoint 覆蓋 pre-trained、mid-trained 與 WSM-merged 階段",
+      "同時開源 tiny 與 flash 兩種規模的 Base Model",
+      "研究者可觀察模型能力在不同訓練階段的變化曲線",
+      "支援社群自行 fine-tune 針對特定任務的版本",
+      "全流程開源有助於提升模型訓練透明度"
+    ],
+    "why_it_matters": "完整 checkpoint 開源讓技術用戶能深入分析訓練過程、選擇最佳階段權重進行下游任務，是推進開源模型透明度的實質貢獻。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 Ling-3.0 tiny/flash 各階段 checkpoint，在相同下游任務上對比評估，選擇效果最佳的 checkpoint 進行部署或進一步 fine-tune，以最小資源達成目標任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-ling-3-0-flash-tiny-base-model",
+    "title": "Ling 3.0 flash/tiny Base Model 正式開源：微型模型也能本地跑",
+    "title_original": "ling 3.0 flash/tiny base models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsq7gh/ling_30_flashtiny_base_models/",
+    "published_at": "2026-08-19T15:47:55+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 有用戶分享 Ling 3.0 flash 與 tiny 的 Base Model 開源資訊。這兩個小型模型針對本地部署場景優化，可在消費級硬體上運行，為資源受限的開發環境提供可行選項。社群正評估其在分類、摘要與輕量推論任務上的實際表現。",
+    "highlights": [
+      "Ling 3.0 flash/tiny 皆為輕量 Base Model，適配本地部署",
+      "可在消費級 GPU 或 CPU 環境下運行",
+      "開源 Base Model 允許自由 fine-tune 與商業應用",
+      "社群正積極測試其下游任務表現",
+      "與 AntLing've 的六階段 checkpoint 構成完整開源生態"
+    ],
+    "why_it_matters": "微型開源模型讓邊緣設備與個人開發者也能運行自有 AI 任務，降低部署成本並提升資料隱私，是值得關注的本地化 AI 趨勢。",
+    "automation_angle": null,
+    "automation_angle_zh": "在個人電腦上安裝 Ling 3.0 tiny，使用 Ollama 或 vLLM 本地部署，針對簡單分類或摘要任務進行實測，評估能否替代昂貴 API 滿足日常輕量自動化需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-toolsdk-ai-ai-sdk",
+    "title": "ToolSDK.ai 上線：開發者一站存取數千種 AI 工具的 SDK 聚合平台",
+    "title_original": "AI Agent Tools: ToolSDK.ai Gives Developers Access To Thousands Of AI Tools - Trend Hunter",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9fR2VkNEhheUJVa3duOG1HZ0pTa1FWTklHdkNJcEVrX1RTRDdNUUFqMEdRd3dsRkt1cVBZM1ZYRzhDRmh6UjlDdXpvN2RDT0FUTkN3c0RJbw?oc=5",
+    "published_at": "2026-08-19T15:22:05+00:00",
+    "category": "agent-skills",
+    "summary": "ToolSDK.ai 是一個新上線的 AI 工具聚合平台，號稱為開發者提供數千種 AI 工具的 SDK 統一接入介面。Trend Hunter 報導指出，該平台旨在簡化 AI Agent 工具鏈的整合成本，開發者可透過單一 SDK 調用多種工具，降低多源整合的維護負擔。",
+    "highlights": [
+      "ToolSDK.ai 提供統一的 SDK 介面接入數千種 AI 工具",
+      "目標客群為 AI Agent 開發者與工作流程建構者",
+      "聲稱可降低多工具整合的技術維護成本",
+      "具體工具清單與定價模式尚待進一步驗證",
+      "平台定位類似 AI 工具的 API Gateway"
+    ],
+    "why_it_matters": "若平台所言屬實，將大幅降低 AI Agent 的工具鏈整合成本；但需驗證工具品質、SDK 穩定性與定價模型，避免成為又一個資訊聚合的空殼網站。",
+    "automation_angle": null,
+    "automation_angle_zh": "存取 ToolSDK.ai 官網，查看支援的工具清單與 SDK 文件，選取一個測試工具（如天氣或程式執行）完成整合實測，評估 SDK 穩定性與文件品質是否值得投入生產環境。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-investingpro-55-investing-com",
+    "title": "InvestingPro 限時 55 折訂閱優惠（Investing.com）",
+    "title_original": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/category/ai/feed/",
+    "original_url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
+    "published_at": "2026-08-19T14:18:12+00:00",
+    "category": "ai-deals",
+    "summary": "Investing.com 旗下 InvestingPro 訂閱服務推出限時最高 55 折優惠，即將截止。此為金融數據訂閱服務，非 AI 工具優惠，與技術工作者日常開發場景關聯度低。",
+    "highlights": [
+      "屬於金融投資分析工具，非 AI 開發工具",
+      "優惠資訊由簡體中文來源發布",
+      "折扣幅度吸引，但用途與本brief讀者不符",
+      "InvestingPro 主要功能為財務建模與股票篩選",
+      "不建議技術工作者為此類優惠投入注意力"
+    ],
+    "why_it_matters": "此優惠與 AI 工作流程程無直接關聯，屬於非目標內容，不建議浪費時間關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "如有金融分析需求，可評估其 API 是否支援自動化交易回測；否則建議忽略此優惠。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-2025-11-agentic-ai",
+    "title": "2025 年 11 個主流 Agentic AI 平台工具全景圖",
+    "title_original": "We have Q3.8 35B at home: 3x new Ornith 1.5 released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsn2xw/we_have_q38_35b_at_home_3x_new_ornith_15_released/",
+    "published_at": "2026-08-19T13:53:01+00:00",
+    "category": "agent-skills",
+    "summary": "Built In 整理 11 個 Agentic AI 平台工具，涵蓋 AutoGPT、MCP、LangChain 等主流選項。內容偏概述性質，缺乏深度技術比較或基準數據。適合快速掌握市場輪廓，但實用性有限。",
+    "highlights": [
+      "收錄 AutoGPT、LangChain、MCP 等主流框架",
+      "平台定位多為輔助人類工作流程而非完全自動化",
+      "部分工具已進入企業採用階段",
+      "文章屬於科普向，缺乏新穎資訊",
+      "技術細節有限，實用價值偏基礎"
+    ],
+    "why_it_matters": "Agentic AI 已成企業 AI 部署主流範式，了解平台生態有助選型決策，但本篇深度不足。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議直接查閱各專案 GitHub README 或官方文檔，本篇可作為初次接觸的索引參考。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-19-callstack-agent-device-ai-agent-app",
     "title": "callstack/agent-device：AI 編碼 Agent 的跨平台 App 自動化測試工具",
     "title_original": "callstack/agent-device",
@@ -114,6 +338,61 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-19-venturebeat-ai",
+    "title": "VentureBeat 任命首位首席分析師：企業 AI 決策者渴求客觀數據",
+    "title_original": "限時優惠：InvestingPro訂閱最高享55折優惠，即將截止！ 提供者 Investing.com - 英為财情 Investing.com",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nUkRFLUV1MEx3SjlqWUp2ODJKUTJwdzhZbms3bGdTRjMyMm95cFRLV2tPRTNYcXV5Q21PLUNGMFdCM1ptWnl4bC1HQXc1YzdZVndnWHdDWkZodDNpblAydjVIUXpEaFQ4MFN6MW43Zk4?oc=5",
+    "published_at": "2026-08-19T08:11:57+00:00",
+    "category": "hot-topics",
+    "summary": "VentureBeat 任命 Rob Strechay 為首位首席分析師，聚焦企業 AI 部署研究。其研究方向包括 GPU 利用率、Agent 編排、Agent 安全與 RAG 上下文層。報告指出近三分之二企業採用多模型策略，避免單一供應商鎖定。",
+    "highlights": [
+      "分析師擁有近 30 年產業界經驗，包括 AWS、Zerto 等",
+      "VB Pulse 調查追蹤企業 AI 採用五大領域",
+      "企業多供應商策略因 Claude 六月斷供事件獲印證",
+      "GPU 閒置浪費為企業 AI 基礎設施核心痛點",
+      "VB In Conversation 將提供技術深度訪談內容"
+    ],
+    "why_it_matters": "企業 AI 正從實驗轉向生產部署，多模型策略成主流。技術決策者需要可靠數據評估架構選擇與成本控管。",
+    "automation_angle": null,
+    "automation_angle_zh": "可申請參與 VB Pulse 月度調查，為研究貢獻數據的同時獲取第一手企業 AI 部署趨勢報告。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-replit-gpt-5-6-luna",
+    "title": "Replit 攜手 GPT-5.6 Luna 擴展免費軟體建立功能",
+    "title_original": "Replit expands access to software creation with GPT-5.6 Luna",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/replit",
+    "published_at": "2026-08-19T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 部落格報導 Replit 推出 Free Mode，由 GPT-5.6 Luna 驅動，旨在讓任何人不受 Token 成本限制地將點子轉化為可用軟體。此為 OpenAI 官方確認的合作案例，可信度高。",
+    "highlights": [
+      "Replit Free Mode 由 GPT-5.6 Luna 驅動",
+      "降低軟體創作的進入門檻，減少成本焦慮",
+      "OpenAI 官方部落格背書，資訊來源可靠",
+      "瞄準無程式碼或低程式碼體驗的快速原型場景"
+    ],
+    "why_it_matters": "GPT-5.6 Luna 已進入 Replit 實際產品線，代表 OpenAI 模型能力已可支撐完整的程式碼生成工作流程。技術使用者可評估此模型在複雜專案中的實際表現。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 Replit 上用 GPT-5.6 Luna 快速生成 MVP 或自動化腳手架，評估其程式碼品質與上下文理解深度，再決定是否投入正式專案開發。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-19-matepad-air-rm3499-ai",
     "title": "華為 MatePad Air 上市，馬來西亞優惠價 RM3499 主打 AI 日常助理",
     "title_original": "AI成日常助理！ 华為 MatePad Air上市優惠價RM3499 | 科技 | 生活 - orientaldaily.com.my",
@@ -162,6 +441,34 @@
     "automation_angle_zh": "採用相同配置部署 Qwen3.8-27B，用於需要快速本地推論的工作流程程（如自動化代碼生成、文件處理），實測其延遲是否符合需求。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-qwen-3-8",
+    "title": "社群爆料：Qwen 3.8 中型新模型預計下週發布",
+    "title_original": "New midsize Qwen 3.8 model coming next week (hopefully) according to community manager!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vs9zym/new_midsize_qwen_38_model_coming_next_week/",
+    "published_at": "2026-08-19T02:44:37+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 有社群管理員透露，阿里雲 Qwen 團隊可能於下週發布中型規模的 Qwen 3.8 新模型。消息來源為社群管理員個人發文，非官方正式公告，具體規格與能力範圍尚未確認。此訊息引發開源模型愛好者的高度期待。",
+    "highlights": [
+      "訊息來源為社群管理員個人爆料，非官方公告",
+      "發布時間預測為下週，存在延後或不發布的可能性",
+      "型號定位於中型規模，介於 27B 與旗艦版之間",
+      "具體架構與能力規格尚未有任何實質資訊流出",
+      "社群對 Qwen 3.8 系列持續保持高度關注"
+    ],
+    "why_it_matters": "若中型 Qwen 3.8 確實發布，將填補 27B 與更大規模之間的空白，為資源受限但需要更強能力的場景提供新選項；但目前消息未獲證實，需持續觀望。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注阿里雲通義千問官方頻道（如 Hugging Face、GitHub、官方微博），在下週設定追蹤提醒，第一時間取得發布資訊並評估是否值得整合進現有工作流程。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -547,6 +854,34 @@
     "why_it_matters": "即便不影響業務，及時掌握此事件可評估是否需要為關鍵 Agent 工作流程加入模型備援邏輯，提升系統韌性。",
     "automation_angle": null,
     "automation_angle_zh": "技術用戶可趁此時審視 Agent 工具鏈的模型路由設定，確保單一 API 異常時可自動切換至備援模型。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-claude-anthropic",
+    "title": "Claude 服務中斷：Anthropic 官方正調查多模型錯誤事件",
+    "title_original": "Claude Down: Anthropic Investigates Multi-Model Errors - SQ Magazine",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPckR4S0wwNU9CMDR6Tnp5N1BUSllncWdMTmJ5VGw5OXR6RGUzalphZG9uYkpFd0NrTkhETWlyVEszRE5mYzhERzJDR0dqZWxSMmZId0lSaUNRUnRJYjQ4Q1ZDT0lUODVEYy1fNUlKa285SXl2OW5kQmNPMFV2NlQwY3QyLWlPZw?oc=5",
+    "published_at": "2026-08-18T17:34:16+00:00",
+    "category": "hot-topics",
+    "summary": "Anthropic 旗下 Claude 服務出現大範圍中斷，官方已確認正在調查涉及多模型的錯誤。據 SQ Magazine 報導，本次事故影響同時調用多個模型的使用者情節，引發對多模型協作架構穩定性的關注。Anthropic 表示正在積極修復中。",
+    "highlights": [
+      "Claude 服務出現明確中斷，Anthropic 官方已介入調查",
+      "問題涉及多模型同時運算的情境，非單一模型故障",
+      "影響範圍包括跨模型工作流程與代理（Agent）使用場景",
+      "官方正積極修復，尚未公布詳細根因",
+      "引發對多模型架構可用性的技術討論"
+    ],
+    "why_it_matters": "若你正在建構依賴 Claude 多模型協作的自動化流程，需關注此次事故的根因與修復時間，備用方案與錯誤處理邏輯將直接影響系統可用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "檢查現有 Claude 多模型流程的超時與重試機制，建立備用供應商（如本地模型）的快速切換邏輯，將此次事件納入災難復原設計文件。",
     "tags": [
       "hot-topics",
       "rss",
@@ -11430,6 +11765,34 @@
       "JavaScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/180506398?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-ornith-1-5-35b",
+    "title": "Ornith 1.5 系列開源模型髮布：35B 參數版本可本地部署",
+    "title_original": "11 Top Agentic AI Platforms and Tools to Know - Built In",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OZWpQYU03dFROTERmMFNIN2djQks3ZjNua0o1emxad3ZJMW1rT2ktYjB2c1AwbDlDMU9ocXZjRmx6WjZlaXhBeVNQQk1tSFVFbFBhQXNjUE1oajJra2c?oc=5",
+    "published_at": "2026-08-04T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群傳出 Ornith 1.5 模型新版本，包含 35B 參數變體。消息稱效能提升 3 倍，支援本地部署。社群反應熱烈，但來源為 Reddit 討論串，官方文件待查證，技術細節有限。",
+    "highlights": [
+      "35B 參數規模，適合中高階 GPU 本地運行",
+      "號稱效能提升 3 倍，需獨立 Benchmark 驗證",
+      "可透過 Hugging Face 或模型社群取得",
+      "Reddit 為主要消息來源，缺乏官方確認",
+      "強調本地隱私與離線推論場景"
+    ],
+    "why_it_matters": "開源本地模型持續演進，若效能屬實可成為企業級私密推論新選項。技術宅可評估其與 Llama 3.1 70B 的性價比。",
+    "automation_angle": null,
+    "automation_angle_zh": "等待官方 Repo 確認後，可用 vLLM 或 Ollama 快速架設本地推論端點，評估長文本摘要或程式碼生成的實際表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
