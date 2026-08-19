@@ -1,5 +1,88 @@
 [
   {
+    "id": "2026-08-19-matepad-air-rm3499-ai",
+    "title": "華為 MatePad Air 上市，馬來西亞優惠價 RM3499 主打 AI 日常助理",
+    "title_original": "AI成日常助理！ 华為 MatePad Air上市優惠價RM3499 | 科技 | 生活 - orientaldaily.com.my",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WNWc2YkgyNU5QWWhRUjVSQWVhOTdvT2hHcEozYmpQWVNLMl9UUldpZEdMai10X2V1RmVuYnJmMl9BRlN1Wk5raTMwUEljNVo2ZDRzM1hZN0dOeHczODV3bVFNMUhQQ0h1U0JQQQ?oc=5",
+    "published_at": "2026-08-19T04:40:00+00:00",
+    "category": "ai-deals",
+    "summary": "華為在馬來西亞推出 MatePad Air，強調 AI 日常助理功能，定價 RM3499。屬區域性消費電子產品發布，與技術人員工作流程自動化的直接關聯性較低。",
+    "highlights": [
+      "區域性消費平板上市資訊",
+      "華為強調設備端 AI 助理功能",
+      "定價屬馬來西亞市場標準",
+      "對技術人員工作流程自動化直接價值有限",
+      "可留意華為在設備端 AI 的技術實現"
+    ],
+    "why_it_matters": "設備端 AI 趨勢持續，但華為平板屬消費市場產品。技術人員若有跨平台開發或移動端 AI 整合需求，可關注其軟體生態與 API 支援。",
+    "automation_angle": null,
+    "automation_angle_zh": "若華為設備提供開放的 AI API 或開發者套件，技術人員可評估其作為移動端自動化觸發器或語音控制介面的可行性。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-qwen3-8-27b-rtx-3090-vllm-dflash2-218-tok-s",
+    "title": "Qwen3.8-27B 雙 RTX 3090 + vLLM + DFlash2 達 218 tok/s",
+    "title_original": "Qwen3.8-27B on 2x 3090 + vLLM + DFlash2: 218 tok/s single request",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsccit/qwen3827b_on_2x_3090_vllm_dflash2_218_toks_single/",
+    "published_at": "2026-08-19T04:39:19+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者展示在 2 張 RTX 3090 上使用 vLLM 推論引擎與 DFlash2 量化技術，Qwen3.8-27B 模型實現單請求 218 tokens/s 吞吐量。此配置為本地高性價比推論提供了可參考的硬體-軟體組合方案，兼顧速度與成本。",
+    "highlights": [
+      "2x RTX 3090 達成 218 tok/s，實測數據可驗證",
+      "搭配 vLLM 推論引擎與 DFlash2 量化技術",
+      "27B 參數規模適合作為本地骨幹模型",
+      "性價比高於單卡高階顯卡方案"
+    ],
+    "why_it_matters": "此配置為技術用戶提供了一套可複製的本地推論方案，在成本與速度間取得平衡，有直接落地參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "採用相同配置部署 Qwen3.8-27B，用於需要快速本地推論的工作流程程（如自動化代碼生成、文件處理），實測其延遲是否符合需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-ling-3-0-tiny-nvidia-orin-nano-super-8gb-128k",
+    "title": "Ling-3.0-tiny 在 NVIDIA Orin Nano Super 8GB 上達成 128K 上下文",
+    "title_original": "Ling-3.0-tiny is a very interesting model. Run on NVIDIA Orin Nano Super 8GB at 128K context with IQ4_NL quant.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vs9x4r/ling30tiny_is_a_very_interesting_model_run_on/",
+    "published_at": "2026-08-19T02:41:00+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群用戶展示 Ling-3.0-tiny 模型以 IQ4_NL 量化方式，在 NVIDIA Orin Nano Super 8GB 裝置上實現 128K 上下文長度，邊緣部署表現值得關注。",
+    "highlights": [
+      "使用 IQ4_NL 量化技術降低記憶體需求",
+      "在 8GB 邊緣運算硬體上運行",
+      "支援 128K 超長上下文窗口",
+      "適合嵌入式或本地部署場景",
+      "社群一手測試報告，未經官方驗證"
+    ],
+    "why_it_matters": "這顯示小型量化模型能在邊緣裝置上實現長上下文處理，為本地 AI 應用與嵌入式系統提供新的性價比選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可在 Orin Nano 或類似邊緣裝置上部署此模型，評估其在文書自動化、本地客服或嵌入式應用中的實際表現與延遲。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-19-comfy-org-comfy-mcp-comfyui-mcp",
     "title": "Comfy-Org/comfy-mcp：本地 ComfyUI 的 MCP 伺服器",
     "title_original": "Comfy-Org/comfy-mcp",
@@ -56,6 +139,61 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-08-19-glm5-3",
+    "title": "GLM5.3 人工分析基準測試結果",
+    "title_original": "GLM5.3 Artificial Analysis Benchmarks",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vs3joh/glm53_artificial_analysis_benchmarks/",
+    "published_at": "2026-08-18T22:05:13+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享 GLM5.3 模型在 Artificial Analysis 平台的 benchmark 表現，覆蓋 MMLU、HumanEval、MATH 等標準測試集。作為國產開源模型，GLM 系列在中文任務及長文本處理上有特定優勢，本次數據可與同規模模型横向比較。",
+    "highlights": [
+      "包含 MMLU、HumanEval、MATH 等多維度 benchmark",
+      "可與 Qwen、Llama 同規模模型横向對比",
+      "GLM 系列在中長文本任務上有特定表現",
+      "數據來源為 Artificial Analysis 平台（非官方發布）"
+    ],
+    "why_it_matters": "GLM5.3 若 benchmark 表現穩定，可作為國產替代選項，尤其適合需要處理中文長文本或對特定任務有優化需求的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "對比 GLM5.3 與現有模型在各 benchmark 的表現，評估是否值得納入自動化工作流程程的模型池。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-chatgpt-ads-31",
+    "title": "ChatGPT Ads 擴展至 31 個歐洲市場",
+    "title_original": "ChatGPT Ads expands across Europe",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+    "published_at": "2026-08-18T22:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方公告 ChatGPT Ads 將擴展至 31 個歐洲市場，瞄準用戶在探索、比較與決策階段的廣告觸及場景。此為 OpenAI 商業變現策略之一環。",
+    "highlights": [
+      "OpenAI 官方公告，資訊來源可靠",
+      "瞄準用戶決策旅程中的關鍵接觸點",
+      "屬於 OpenAI 商業化變現策略",
+      "對一般技術人員直接價值有限",
+      "可能影響 AI 產品訂價與商業模式走向"
+    ],
+    "why_it_matters": "ChatGPT Ads 的擴展反映 OpenAI 的商業化路徑，可能影響未來 API 訂價與產品策略，技術人員應關注其對 AI 生態的間接影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "目前對技術人員的直接自動化價值有限，但可留意 OpenAI 是否將廣告營收回饋至 API 折扣或新功能開發。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-08-19-mojo-apache-2",
     "title": "Mojo🔥 程式語言正式開源：Apache 2 許可證發布",
     "title_original": "Mojo🔥 is now open source",
@@ -105,6 +243,33 @@
     "automation_angle_zh": "此政策新聞對技術使用者的日常工作無直接自動化幫助，但建議關注後續具體措施是否影響 API 穩定性或成本。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-19-1-bit-2-bit-ternary-bitnet",
+    "title": "1-bit / 2-bit / Ternary / Bitnet 模型追蹤汇总帖",
+    "title_original": "1-bit / 2-bit / Ternary / Bitnet Models - Updates & Tracking",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vryaid/1bit_2bit_ternary_bitnet_models_updates_tracking/",
+    "published_at": "2026-08-18T18:51:24+00:00",
+    "category": "open-source-ai",
+    "summary": "社群持續追蹤 1-bit、2-bit、Ternary 及 Bitnet 架構模型最新進展，包含近期論文更新、開源實現動態及硬體兼容性問題。該帖作為資訊聚合，不含原創分析，但有助於快速掌握低位元量化模型生態現況。",
+    "highlights": [
+      "聚合多個低位元量化模型項目動態",
+      "涵蓋 BitNet、 ternary-weighted 等架構路線",
+      "追蹤硬體（如 CPU、邊緣設備）兼容性問題",
+      "更新頻率較高，適合作為資訊入口"
+    ],
+    "why_it_matters": "低位元量化是降低推論成本與本地部署門檻的關鍵技術方向，技術用戶可從中發現性價比極高的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用此追蹤帖快速掃描新興低位元模型，評估是否可用於邊緣設備或成本敏感的工作流程程。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
