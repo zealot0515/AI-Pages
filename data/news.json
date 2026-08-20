@@ -1,5 +1,252 @@
 [
   {
+    "id": "2026-08-20-haiku-rag-agentic-rag-docling",
+    "title": "haiku.rag：本地部署的 Agentic RAG 框架，結合混合檢索與 Docling 解析",
+    "title_original": "ggozad/haiku.rag",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ggozad/haiku.rag",
+    "published_at": "2026-08-20T12:24:11Z",
+    "category": "open-source-ai",
+    "summary": "Python 開發的 Agentic RAG 工具，基於 LanceDB 向量資料庫實現混合檢索與重新排序，支援多模態 RAG 可解析圖文混合文件。Docling 負責文件解析，MCP 伺服器簡化與 AI Agent 的整合，581 stars。",
+    "highlights": [
+      "基於 LanceDB 的本地向量檢索",
+      "支援混合檢索與重新排序機制",
+      "Docling 解析引擎處理複雜文件",
+      "MCP 介面與 AI Agent 無縫整合",
+      "完全本地化部署無外部依賴"
+    ],
+    "why_it_matters": "對需要對私有文件進行智慧檢索的技術用戶，提供了一個完全本地化的 Agentic RAG 替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本機部署後，立即建立一個可由 AI Agent 驅動的文件知識庫，實現文件檢索自動化。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/183103?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-duckle-duckdb-elt-mcp-agent",
+    "title": "duckle：基於 DuckDB 的自託管 ELT 工具，支援 MCP 讓 Agent 操控資料流",
+    "title_original": "slothflowlabs/duckle",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/slothflowlabs/duckle",
+    "published_at": "2026-08-20T12:21:26Z",
+    "category": "open-source-ai",
+    "summary": "Rust 開發的開源 ELT/ETL 平台，可自行架設無需雲端。支援無程式碼視覺化管線或 SQL，內建 385 個連接器、CDC、dbt、數據品質檢測與反向 ETL，並提供 MCP 介面供 AI Agent 直接操控資料流，無供應商綁定與按列計費。",
+    "highlights": [
+      "Rust 開發，1169 stars 成長中",
+      "本地部署無供應商鎖定",
+      "支援無程式碼視覺化管線與 SQL",
+      "內建 385 個連接器含 CDC 與 dbt",
+      "提供 MCP 介面供 AI Agent 操控資料"
+    ],
+    "why_it_matters": "開源 ELT 工具在本地環境運行，無供應商綁定和按列計費負擔。對需要整合多個數據來源的技術團隊有實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本機或伺服器部署後，直接讓 AI Agent 透過 MCP 介面操控資料管線，實現數據處理自動化。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/294401346?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-aurora-80k",
+    "title": "Aurora-80K：小而現代的語言模型發布",
+    "title_original": "Aurora-80K releases! A modern tiny language model.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vth6n3/aurora80k_releases_a_modern_tiny_language_model/",
+    "published_at": "2026-08-20T11:45:39+00:00",
+    "category": "open-source-ai",
+    "summary": "一款名為 Aurora 的小型語言模型正式發布，支援 80K 上下文長度。Reddit r/LocalLLaMA 社群率先報導，定位為現代化的輕量級選擇，適合本地部署與資源受限場景。目前無官方頁面或論文，社群評價尚待觀察。",
+    "highlights": [
+      "● 支援 80K 超長上下文，在小型模型中罕見",
+      "● 主打本地部署與低資源需求場景",
+      "● 目前資訊來自 Reddit 社群，尚無官方發布頁面",
+      "● 屬性列為「現代化」設計，具體架構未明"
+    ],
+    "why_it_matters": "小型模型結合超長上下文，可顯著降低本地部署成本。80K 上下文在同尺寸模型中屬稀缺能力，值得技術人員測試其實際表現與性價比。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載模型權重，在本地測試長文檔處理、程式碼補全等任務，評估是否可取代雲端 API 以節省費用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-hunyuan-hy4",
+    "title": "騰訊開始測試旗艦模型 Hunyuan Hy4",
+    "title_original": "Tencent begins testing its new flagship model Hunyuan Hy4",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vth4lo/tencent_begins_testing_its_new_flagship_model/",
+    "published_at": "2026-08-20T11:42:48+00:00",
+    "category": "new-models",
+    "summary": "騰訊已低調展開其新一代旗艦模型 Hunyuan Hy4 的內部測試。Reddit 社群捕捉到此動向，但騰訊尚未發布任何官方新聞稿或技術規格。Hy4 的具體能力與定位尚不明確。",
+    "highlights": [
+      "● 騰訊 Hunyuan 系列下一代旗艦模型",
+      "● 目前處於測試階段，無公開規格",
+      "● 尚無發布時間、效能或定價資訊",
+      "● 訊息源為 Reddit 猜測，未獲官方證實"
+    ],
+    "why_it_matters": "騰訊在大模型領域的布局可能影響未來 API 市場與開源模型選擇。若 Hy4 對標 GPT-4 或 Claude 等產品，技術人員需關注其性價比。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤騰訊官方公告，待正式發布後評估其 API 定價與功能，考慮作為現有雲端模型的替代或補充選項。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-llama-cpp-pr-avx2-iq",
+    "title": "Llama.cpp 新 PR：AVX2 加速大批次 IQ 模型推論",
+    "title_original": "[Draft - Open PR] AVX2: Speed up large batch size prompt processing of IQ models by bartowski1182 · Pull Request #27402 · ggml-org/llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtgyzf/draft_open_pr_avx2_speed_up_large_batch_size/",
+    "published_at": "2026-08-20T11:35:10+00:00",
+    "category": "open-source-ai",
+    "summary": "Llama.cpp 社群開發者提交了一份 Draft Pull Request，代號「AVX2」，旨在加速大批次 INT8/INT4 量化模型（IQ 模型）的 prompt 處理效能。針對 Intel CPU 的 SIMD 指令集優化，有望提升伺服器端吞吐量。",
+    "highlights": [
+      "● 使用 AVX2 SIMD 指令集優化推論",
+      "● 瞄準大批次處理的效能瓶頸",
+      "● 適用於 IQ（INT8/INT4）量化模型",
+      "● 目前為 Draft 狀態，待合併審查"
+    ],
+    "why_it_matters": "大批次推論吞吐量是成本與延遲的關鍵瓶頸。此優化若成功合併，可讓使用 Intel CPU 的部署者直接受益，降低每小時計算成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可clone此 PR 分支，測試大批次 inference 場景的效能提升，用於評估是否值得在生產環境中使用該優化版本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-airllm-qwen3-8-27b-kimi-k3",
+    "title": "AirLLM 更新：新增 Qwen3.8-27B 與 Kimi-K3 模型支援",
+    "title_original": "AirLLM - Recent Updates - with Qwen3.8-27B, Kimi-K3 too",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtfzjc/airllm_recent_updates_with_qwen3827b_kimik3_too/",
+    "published_at": "2026-08-20T10:45:55+00:00",
+    "category": "open-source-ai",
+    "summary": "AirLLM 是一款以最小記憶體佔用執行大語言模型的開源專案，近期更新正式支援 Qwen3.8-27B（千問）與 Kimi-K3 模型。透過量化與分層推論技術，使用者可在消費級 GPU 或甚至是 CPU 環境下運行數十億參數模型，大幅降低部署門檻。",
+    "highlights": [
+      "新增 Qwen3.8-27B 模型支援，具備較強的中文理解與生成能力",
+      "支援 Kimi-K3 模型，進一步擴展可用模型陣容",
+      "採用分層推論與量化技術，優化記憶體使用效率",
+      "可在消費級硬體上運行，降低本地部署成本"
+    ],
+    "why_it_matters": "Qwen3.8-27B 與 Kimi-K3 均為近期釋出的新模型，AirLLM 快速支援代表本地部署生態的活性提升。對於需要在離線環境執行 AI 或希望控制 API 成本的技術用戶，提供了更多元的模型選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估在既有 AirLLM 框架下替換或新增 Qwen3.8-27B，用於自動化文案生成、程式碼補全或本地文件分析等工作流程，並 Benchmark 與雲端 API 的延遲與輸出品質差異。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-tinysearch-v0-6-1-llm",
+    "title": "TinySearch v0.6.1 釋出：輕量級本地 LLM 網頁研究工具支援自帶瀏覽器",
+    "title_original": "TinySearch v0.6.1 - still a lightweight web research tool for local LLMs, now with bring-your-own-browser support",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtf7mi/tinysearch_v061_still_a_lightweight_web_research/",
+    "published_at": "2026-08-20T10:04:20+00:00",
+    "category": "open-source-ai",
+    "summary": "TinySearch 是一款針對本地執行 LLM 設計的輕量級網頁研究工具，最新 v0.6.1 版本新增「自帶瀏覽器」（bring-your-own-browser）支援，讓使用者可指定本機已安裝的瀏覽器實例進行網頁檢索與內容解析，進一步降低記憶體佔用並提升隱私隔離程度。此更新強化了本地化 AI 代理的資訊獲取能力。",
+    "highlights": [
+      "支援指定本機瀏覽器作為網頁渲染引擎，不強制綁定特定瀏覽器",
+      "降低記憶體佔用，適合資源受限的本地部署環境",
+      "強化隱私隔離，網頁請求可在本地瀏覽器環境執行",
+      "適用於需結合即時網路資訊的本地 AI 代理工作流程"
+    ],
+    "why_it_matters": "本地 LLM 常受限於無法即時取得網路資訊，TinySearch 提供輕量化解方。BYOB 支援讓技術用戶能以既有瀏覽器環境整合進自動化工作流程，兼顧隱私與效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 TinySearch 整合至本地 AI 代理腳本，實現自動化的網頁資訊抓取與事實查核，無需依賴雲端 API，降低資料外傳風險。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-llama-cpp-70-60k",
+    "title": "Llama.cpp 參數優化實測：生成速度提升 70%、上下文增至 60K",
+    "title_original": "3 days benchmarking most llama.cpp flags on my weird 40gb vram laptop + tb4 egpu setup. Got +70% generation, +40% prefill, 60k more context, and filed a bug in llama around MTP. What I learned.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtc0z7/3_days_benchmarking_most_llamacpp_flags_on_my/",
+    "published_at": "2026-08-20T06:56:49+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者以 40GB VRAM 筆記型電腦搭配 TB4 外接顯卡，歷時三天對 llama.cpp 多數參數進行基準測試。實測結果顯示生成速度提升 70%、prefill 效能提升 40%、上下文支援增至 60K，同時發現 MTP 模組的潛在 Bug。",
+    "highlights": [
+      "● 生成速度提升約 70%，prefill 提升 40%",
+      "● 上下文視窗從預設值擴展至 60K",
+      "● 發現並回報 llama.cpp 中 MTP 的 Bug",
+      "● 針對 Egpu 特殊配置的優化參數組合"
+    ],
+    "why_it_matters": "此類實戰 benchmark 直接指導如何在消費級硬體上榨取 llama.cpp 效能，60K 上下文與 70% 速度提升可大幅改善本地推論體驗與吞吐量。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可直接套用測試得出的參數組合，或依據此方法學對自己的硬體配置做類似優化，自動化批次推論流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-qwen-3-8-27b",
+    "title": "Qwen 3.8-27B 被稱為本地模型中最高「主動性」",
+    "title_original": "Qwen3.8-27b has the highest level of \"agency\" I've ever seen in a local model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt78xd/qwen3827b_has_the_highest_level_of_agency_ive/",
+    "published_at": "2026-08-20T02:45:59+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶聲稱 Qwen 3.8-27B 展現出其測試過的本地模型中最高層級的「主動性」（agency），暗示該模型在自主決策與任務執行方面表現突出。此說法尚無官方數據或量化基準支撐。",
+    "highlights": [
+      "● 據稱具備極高的自主執行能力",
+      "● 27B 參數規模屬中大型本地模型",
+      "● 「agency」為主觀評價，缺乏量化指標",
+      "● 無 Qwen 官方確認此版本"
+    ],
+    "why_it_matters": "若「agency」描述屬實，該模型可能更適合用於自動化 Agent 流程。技術人員可親自測試以驗證，避免依賴未經確認的社群口碑。",
+    "automation_angle": null,
+    "automation_angle_zh": "用於建構本地 Agent 系統時，可優先測試此模型，評估其 Tool Use、任務分解與長程規劃能力是否勝過當前方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-20-mcp-agent-security-gateway-mcp",
     "title": "MCP Agent Security Gateway：MCP工具呼叫安全監控框架",
     "title_original": "poojakira/mcp-agent-security-gateway",
@@ -38246,6 +38493,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/283304695?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-gemini-2-5-flash-token",
+    "title": "Gemini 2.5 Flash 百萬 Token/分鐘免費額度的三個隱藏限制",
+    "title_original": "Gemini 2.5 Flash 每分钟 100 万 Token 免費：真相與隐藏的三個限制 - Pasquale Pillitteri",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdWk3Z0pEcTRMWmp3ZkVUVm1xc3BETWx4VHdGNmtKNnNKUTZrZVZ4bVM5Uml0akJoSlMzNjhSSVhwOFM5Z3l6OXRtTDlham4xcjZIMjdjZDIzM1B2ZUxDa2dMajJPalJ6cjFfS3pVd1hxNWl0NXNIcmZGV05iaGhadE9TSUtYbktDaEpSTllRa0VpM2oy?oc=5",
+    "published_at": "2026-07-01T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Pasquale Pillitteri 深入分析指出，Gemini 2.5 Flash 表面提供每分鐘百萬 Token 免費額度，但存在隱藏限制：速率上限套用於整個應用層級、嚴格的防濫用機制，以及與付費版的功能差異。",
+    "highlights": [
+      "每分鐘百萬 Token 為速率上限非總量",
+      "限制套用於整個應用而非單一 API key",
+      "存在嚴格的防濫用機制",
+      "與付費層級存在功能差異",
+      "分析來源於技術部落格需自行驗證"
+    ],
+    "why_it_matters": "對在成本優化上有需求的技術團隊，此分析有助評估 Gemini Flash 是否能實際滿足工作流程需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶應自行測試這些限制是否如文章所述，評估免費額度是否足以支撐實際使用場景。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
