@@ -1,5 +1,145 @@
 [
   {
+    "id": "2026-08-20-mcp-agent-security-gateway-mcp",
+    "title": "MCP Agent Security Gateway：MCP工具呼叫安全監控框架",
+    "title_original": "poojakira/mcp-agent-security-gateway",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/poojakira/mcp-agent-security-gateway",
+    "published_at": "2026-08-20T00:32:47Z",
+    "category": "agent-skills",
+    "summary": "GitHub新興開源專案，專門監控MCP工具呼叫中的提示注入、PII資料外洩、隱蔽伺服器與資料外流等資安風險。目前17星，Python實作，屬早期安全工具。",
+    "highlights": [
+      "偵測MCP工具呼叫中的提示注入攻擊",
+      "監控PII敏感資料外洩與資料外流模式",
+      "識別shadow server等隱蔽安全威脅",
+      "Python實作，開源可審視原始碼",
+      "現階段星星數少，建議小範圍測試後再評估"
+    ],
+    "why_it_matters": "MCP工具日漸普及但資安風險尚未被充分重視。此框架提供主動式監控，能幫助技術團隊在AI代理執行工具呼叫時發現潛在漏洞。",
+    "automation_angle": null,
+    "automation_angle_zh": "安全意識較高的團隊可將此Repo加入CI流程，在MCP相關專案中執行安全閘門測試，過濾高風險的工具呼叫模式。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/90021441?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-smolvm-python-javascript",
+    "title": "smolvm 安全沙盒實測：無信任 Python/JavaScript 程式碼隔離方案",
+    "title_original": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
+    "published_at": "2026-08-19T23:16:00+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 測試 smolvm 作為無信任程式碼的安全沙盒，發現 Claude Code 網頁環境因缺少 /dev/kvm 與 vmx/svm CPU 標誌而無法執行，改用 GitHub Actions Ubuntu runner 才成功測試。目標是實現限制 RAM/CPU 時間、防範無限迴圈、無網路存取，並僅允許指定檔案存取的隔離環境。",
+    "highlights": [
+      "smolvm 依賴 KVM 虛擬化，雲端容器環境可能缺乏支援",
+      "GitHub Actions Ubuntu runner 提供 /dev/kvm，可執行真實測試",
+      "可限制記憶體、CPU 時間，防止「while true」攻擊",
+      "可用於安全執行使用者提供的資料轉換任務",
+      "與傳統 Docker 相比，Firecracker 微虛擬化延遲更低"
+    ],
+    "why_it_matters": "對於需要執行使用者提交程式碼的應用（資料處理、自動化腳本），安全的沙盒方案是核心需求。smolvm 提供輕量級虛擬化隔離，技術使用者可評估其是否適合取代現有 Docker/VM 方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可在 GitHub Actions 或具備 KVM 的自架伺服器上部署 smolvm，建立隔離的程式碼執行服務，用於處理使用者提交的 Python/JavaScript 任務，確保主系統安全。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-llm",
+    "title": "LLM 時代的可擴充軟體：讓使用者自己擴展功能",
+    "title_original": "Quoting Jeremy Morrell",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
+    "published_at": "2026-08-19T22:56:31+00:00",
+    "category": "agent-skills",
+    "summary": "Jeremy Morrell 提出 LLM 降低了擴充程式編寫的成本，結合現代沙盒技術可大幅降低部署成本並提供安全邊界。未來應用可建構堅實的核心系統，讓使用者通過 LLM 安全地擴展功能，打造「可擴充軟體」新範式。",
+    "highlights": [
+      "LLM 大幅降低擴充功能開發的時間與成本",
+      "現代沙盒技術提供安全的部署邊界",
+      "應用可作為可靠核心，讓使用者自行擴展",
+      "使用者可獲得「超能力」般的功能客製化",
+      "兼顧安全性與靈活性的新架構思路"
+    ],
+    "why_it_matters": "這預示了軟體架構的新方向：將部分開發能力民主化給使用者。對於平台型產品或 SaaS 工具開發者，這是值得關注的長期趨勢。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可評估在自建產品中整合 LLM 擴充能力，讓使用者以自然語言描述需求，自動生成安全隔離的擴充功能，降低客製化開發成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-ai",
+    "title": "概念完整性危機：AI 編碼代理的軟體架構陷阱",
+    "title_original": "Conceptual integrity and counting lines of code",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+    "published_at": "2026-08-19T22:46:07+00:00",
+    "category": "hot-topics",
+    "summary": "Simon Willison 在 Talking Postgres Podcast 中探討 AI 改變軟體開發的方式。他指出 AI 代理可大幅提升程式碼產出（從每日 200 行提升至 1000 行），但認知容量成為新瓶頸；同時以「溫徹斯特神秘屋」比喻說明快速迭代如何破壞概念完整性，使軟體逐漸變得難以維護與決策。",
+    "highlights": [
+      "資深工程師仍需維護程式碼品質與概念完整性",
+      "AI 代理將限制從「時間成本」轉為「認知容量」",
+      "軟體增長變得廉價但容易失去整體設計一致性",
+      "團隊協作仍是分擔認知負載的必要手段",
+      "提出以程式碼行數衡量生產力的合理性論點"
+    ],
+    "why_it_matters": "理解概念完整性崩潰的原因有助於技術决策者設計更好的 AI 輔助開發流程，避免團隊在追求速度時犧牲長期的系統可維護性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可评估如何在團隊中建立 AI 编码规范，使用架构决策记录（ADR）和代码审查流程來維护概念完整性，而不是单纯追求產出速度。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-llm",
+    "title": "本地 LLM 編碼：全自動模式的實際應用討論",
+    "title_original": "Anyone NOT on full auto when coding with local LLMs?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vt0y1g/anyone_not_on_full_auto_when_coding_with_local/",
+    "published_at": "2026-08-19T22:14:52+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit LocalLLaMA 社群討論使用本地 LLM 進行編碼時是否「全自動」運作的經驗。社群成員分享在使用本地大型語言模型輔助編程時的實際工作流程程與限制。",
+    "highlights": [
+      "本地 LLM 編碼需要人工介入的程度因情境而異",
+      "全自動模式可能面臨輸出品質不穩定問題",
+      "隱私與資料控制是使用本地模型的主要動機",
+      "社群提供實務經驗與最佳化建議"
+    ],
+    "why_it_matters": "本地 LLM 編碼逐漸普及，了解社群實務經驗可幫助技術使用者評估何時該採用本地模型、何時適合雲端方案，以及如何設計混合工作流程程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可參考社群討論，針對不同專案類型設計「本地 LLM 輔助 + 人工審核」的混合自動化流程，兼顧隱私與產出品質。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-19-openai-private-safety-processing",
     "title": "OpenAI 重申企業用戶零資料保留政策，預覽 Private Safety Processing",
     "title_original": "Offering Zero Data Retention for frontier models",
@@ -18,6 +158,34 @@
     "why_it_matters": "對於處理敏感商業資料的企業開發者，零資料保留政策是選擇 OpenAI API 的關鍵考量之一。Private Safety Processing 若正式推出，可能成為業界隱私標準的新標竿。",
     "automation_angle": null,
     "automation_angle_zh": "企業開發者應審視現有 AI 資料處理流程是否符合 OpenAI 零保留資格，若符合則可考慮將更敏感的資料（如醫療、金融）遷移至 OpenAI API 處理。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-20-openai-api",
+    "title": "OpenAI API 企業級零資料留存政策再獲確認",
+    "title_original": "Offering Zero Data Retention for frontier models",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+    "published_at": "2026-08-19T19:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI官方重申符合條件的API客戶享有零資料留存，並預告「私人安全處理」功能，強調在不犧牲資料隱私的前提下提供進階AI安全防護。",
+    "highlights": [
+      "API企業方案確認零資料留存政策",
+      "「私人安全處理」為新預告功能",
+      "保障企業敏感資料不被用於模型訓練",
+      "適用於有高資料隱私需求的企業用戶",
+      "官方政策確認，資訊可信度高"
+    ],
+    "why_it_matters": "企業用戶在選擇API供應商時，資料隱私已成關鍵考量。此政策確認讓需要嚴格資料管控的產業更放心使用OpenAI API。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業開發者可依此政策評估在醫療、金融等高敏感場景使用OpenAI API的合規性，並與其他供應商隱私政策做成本效益比較。",
     "tags": [
       "hot-topics",
       "rss",
@@ -1416,6 +1584,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/3264292?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-qwen3-8-27b",
+    "title": "Qwen3.8-27B：本地端運行前端編碼代理與推論",
+    "title_original": "Qwen3.8-27B runs frontier-class coding agents and reasoning locally, no cloud API required - VentureBeat",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY2NGbjBLTlVBVkRSckJQaXM3MlVaREhiM2dPWmZVdmhBQ3BOa2VST3AtWEdPVVFoeUxFcGxhenV1R0tybjZndktrVW90OVBXVUc3X3RjZFMtWHZEN2Y5N3l6YmxET3h0Z28tTmFqTGt6U2FfODA3UVNzLVQxdjJ1T3RTY0lXeFBDQ2JPMFJQbkhVSFpKdDhXc0xvNVF5aVo2NExkU1VHblF1a1psaFZFTVlDRlZVdjJnNkw5VlBkeGgzUQ?oc=5",
+    "published_at": "2026-08-18T00:07:40+00:00",
+    "category": "new-models",
+    "summary": "VentureBeat報導指出Qwen3.8-27B能在本地環境執行前端等級的編碼代理與推論任務，無需呼叫雲端API。此規格對在意延遲與費用的技術用戶具吸引力。",
+    "highlights": [
+      "27B參數模型可本地部署執行",
+      "支援前端編碼代理與推論任務",
+      "無需雲端API，降低網路依賴",
+      "可能大幅節省API呼叫成本",
+      "具體性能表現需實際測試驗證"
+    ],
+    "why_it_matters": "若能在本地運行有競爭力的編碼代理，將改變開發者工作流程，省去雲端API費用與網路延遲，對遠端或頻寬受限環境尤為實用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地機器測試Qwen3.8-27B的程式碼生成能力，比較與GPT-4或Claude在coding benchmark上的表現與硬體需求，評估替代可行性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -2864,6 +3060,33 @@
     "automation_angle_zh": "從討論中提取工具呼叫 Prompt 模板或框架推薦，結合 OpenHuman 之類的框架實測，看小模型能否勝任你的自動化任務。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-anthropic-claude",
+    "title": "Anthropic 揭露 Claude 水印機制運作細節",
+    "title_original": "Anthropic shares more details about how Claude’s new watermarks will work - TechCrunch",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdWJ1ZmhOTldsYm5ndl83cmtEeC03dGxRT28tcEZQOXV3MVZUVmFDS3JhZzVzUDBnMFg5N0hPUE9VYTdRd2ljSGU1TUk0VTE1a0hOcFZ0RTNEWFg1OWJkRVdkcVVQSzM3MmR3WDBqQ1lQbXZFaEhOQ0tDaW9za3REd1RaX3ZZdGMwdzRHb3pOMTd5X004V0RLanFRdEhPT05RbXlWVFhDZklWWlk?oc=5",
+    "published_at": "2026-08-15T18:58:39+00:00",
+    "category": "new-models",
+    "summary": "TechCrunch 報導 Anthropic 公布 Claude 新水印技術的更多細節。這是模型輸出溯源能力的重要更新，旨在幫助識別 AI 生成內容，對於需要內容來源驗證的應用場景具有意義。",
+    "highlights": [
+      "Claude 輸出將包含可偵測的水印標記",
+      "水印可用於驗證內容是否由 Claude 生成",
+      "這是模型能力層面的新增功能",
+      "對於內容審核與 AI 生成內容辨識有直接幫助"
+    ],
+    "why_it_matters": "水印技術的實現代表 AI 模型開始提供輸出溯源能力，對於需要區分 AI 與人類創作、防止 AI 生成內容濫用的場景是重要進展。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 Claude 水印功能建立內容審核流程，自動識別 AI 生成的輸出，適用於論壇內容管理、學術論文輔助檢測等場景。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
