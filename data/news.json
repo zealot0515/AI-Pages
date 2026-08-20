@@ -1,5 +1,169 @@
 [
   {
+    "id": "2026-08-20-hypotree-mcp",
+    "title": "hypotree：可自我修剪的信念狀態 MCP 記憶伺服器",
+    "title_original": "tygryso/hypotree",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tygryso/hypotree",
+    "published_at": "2026-08-20T18:22:24Z",
+    "category": "agent-skills",
+    "summary": "hypotree 是一個持久化、可自我修正信念狀態的 MCP 伺服器與 Python API，採用假設 DAG 結構自動修剪失效分支，無需額外探針即可推導結論。現有 12 Stars，仍屬早期專案。",
+    "highlights": [
+      "假設 DAG 結構讓 Agent 能持續追蹤與修正自身信念",
+      "自動剪除死路分支，降低無效推論消耗",
+      "無需額外探針即可從現有假設推導結論",
+      "提供 Python API，易於與現有 Agent 框架整合",
+      "Stars 數低（12），建議有興趣者先看文件再投入生產環境"
+    ],
+    "why_it_matters": "記憶管理是 Agent 開發的核心瓶頸，hypotree 的假設剪枝機制可能簡化長時間運行任務的上下文管理。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將 hypotree 整合進研究型 Agent，用來自動維護假設集合並剔除失效方向，減少上下文膨脹與重複推論。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/24823269?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-sol-5-6",
+    "title": "Sol 5.6 模型疑似出現能力退化",
+    "title_original": "Sol 5.6 model suddenly become very dumb",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vtqp7l/sol_56_model_suddenly_become_very_dumb/",
+    "published_at": "2026-08-20T17:54:32+00:00",
+    "category": "new-models",
+    "summary": "多位 Reddit 用戶反映 Sol 5.6 模型在特定任務上表現明顯下滑，包括推論能力減弱、回應質量下降等現象。此為用戶觀察性報告，尚未有官方確認或詳細說明。模型能力波動可能與伺服器負載、版本更新或刻意的模型調整有關。",
+    "highlights": [
+      "用戶社群觀察到模型能力波動",
+      "尚無官方聲明或技術說明",
+      "可能與版本更新或服務端調整有關",
+      "需要更多量化數據才能確認"
+    ],
+    "why_it_matters": "模型能力波動會影響依賴其構建的自動化流程的可靠性。建議對關鍵任務的模型輸出進行品質監控，並準備回退方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "對使用 Sol 5.6 的自動化腳本加入輸出品質檢測，當準確率低於閾值時自動切換到備用模型。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-ling-3-0-6-base-checkpoint-2-3",
+    "title": "Ling-3.0 開源：6 種 Base Checkpoint 涵蓋 2 規模×3 階段",
+    "title_original": "Ling-3.0 released all 6 base checkpoints: 2 sizes × 3 stages",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtpsqf/ling30_released_all_6_base_checkpoints_2_sizes_3/",
+    "published_at": "2026-08-20T17:22:09+00:00",
+    "category": "open-source-ai",
+    "summary": "Ling-3.0 模型族釋出全部 6 個 Base Checkpoint，分為 2 種模型規模與 3 種訓練階段，提供研究者靈活的基底模型選擇，方便針對不同任務微調。",
+    "highlights": [
+      "6 個預訓練Checkpoint，支援多種規模需求",
+      "2B/7B 等規模選項，適配不同硬體",
+      "3 階段訓練設計（預訓練、指令微調、對齊）",
+      "開源許可允許商業使用"
+    ],
+    "why_it_matters": "多階段Checkpoint設計讓技術人員可選擇合適的起點進行微調，避免從頭訓練的高成本，加速特定領域應用的落地速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載不同階段的Checkpoint，針對自動化客服、文件處理等任務快速微調，比較各階段checkpoint的微調效率與最終效能。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-langsmith-preview-builds-agent",
+    "title": "LangSmith Preview Builds 支援 Agent 變更預先測試",
+    "title_original": "Test Agent Changes with LangSmith Preview Builds",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langsmith-preview-builds-test-agent-changes-before-production",
+    "published_at": "2026-08-20T16:48:30+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 推出 Preview Builds 功能，允許團隊在隔離的臨時環境中測試 Pull Request 分支的 Agent 變更，確保修改不會影響正式環境，簡化部署前驗證流程。",
+    "highlights": [
+      "支援 PR 分支的隔離測試環境",
+      "提供生產級別的 LangSmith 監控資料",
+      "減少錯誤變更進入正式環境的風險",
+      "支援團隊協作與審核流程整合"
+    ],
+    "why_it_matters": "Agent 系統頻繁變更時，Preview Builds 可大幅降低因測試不足導致的生產事故，是 DevOps 流程對 Agent 系統的關鍵強化。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用此功能建立 CI/CD 流程，在合併 Agent 變更前自動觸發測試，並透過 LangSmith 儀表板驗證追蹤指標是否符合預期。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-20-item",
+    "title": "研究發現：提升程式碼能力並不會讓模型在其他領域同步進步",
+    "title_original": "Getting better at coding doesn't make a model better at everything else",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtoqr9/getting_better_at_coding_doesnt_make_a_model/",
+    "published_at": "2026-08-20T16:43:50+00:00",
+    "category": "hot-topics",
+    "summary": "新研究指出，針對程式碼任務優化的模型，並不會自動在推論、數學或其他認知領域獲得對應提升。這挑戰了「程式碼是通用智慧基石」的假設，對模型訓練策略有重要啟示。",
+    "highlights": [
+      "程式碼專項優化不會遷移到其他認知能力",
+      "挑戰了程式碼訓練提升通用智能的假設",
+      "可能需要重新思考模型訓練的任務組合",
+      "對企業定制模型有實際指導意義"
+    ],
+    "why_it_matters": "此發現影響模型訓練路線選擇，企業若只針對程式碼能力優化，可能無法獲得預期的通用能力提升，需重新評估資源分配策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估自家模型時，可設計對照實驗測試程式碼能力提升後，其他任務的效能變化，避免盲目投入專項優化。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-supra2-medium-base-25m-50m",
+    "title": "Supra2-Medium-Base：25M 參數模型挑戰 50M 等級效能",
+    "title_original": "[MASSIVE TINY RELEASE] - Supra2-Medium-Base - a tiny 25M parameters model competing heavily with our previous 50M model!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtlmtx/massive_tiny_release_supra2mediumbase_a_tiny_25m/",
+    "published_at": "2026-08-20T14:50:15+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者釋出一款僅 25M 參數的 Base 模型，宣稱效能可與 50M 參數模型匹敵。這款極輕量模型適合邊緣裝置與本地部署場景，可降低硬體需求同時維持基礎語言能力。模型已開源可供測試。",
+    "highlights": [
+      "僅 25M 參數，體積極小適合嵌入式應用",
+      "宣稱效能對標 50M 參數模型，壓縮率顯著",
+      "適合本地端 AI 推論，降低 API 依賴",
+      "可部署於樹莓派或行動裝置"
+    ],
+    "why_it_matters": "極小型模型代表本地 AI 推論門檻大幅降低，技術人員可在無網路環境或低功耗裝置上運行基礎語言任務，節省雲端 API 成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載此模型用於本地文字分類、關鍵詞提取等輕量任務，評估其與 50M 模型的實際效能差距，判斷是否符合邊緣部署需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-20-haiku-rag-agentic-rag-docling",
     "title": "haiku.rag：本地部署的 Agentic RAG 框架，結合混合檢索與 Docling 解析",
     "title_original": "ggozad/haiku.rag",
@@ -166,6 +330,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-20-item",
+    "title": "新模型評測基準發布",
+    "title_original": "New benchmark just dropped!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtfcpu/new_benchmark_just_dropped/",
+    "published_at": "2026-08-20T10:11:55+00:00",
+    "category": "hot-topics",
+    "summary": "社群釋出新評測基準，用於衡量語言模型在各類任務上的效能表現。基準測試涵蓋推論、多輪對話與事實準確性等維度，提供模型横向比較參考。",
+    "highlights": [
+      "包含推論、多輪對話等多元維度",
+      "提供模型横向排名參考",
+      "測試結果可在社群分享驗證",
+      "具體基準名稱與評測方法需進一步確認"
+    ],
+    "why_it_matters": "統一的評測基準有助於技術人員客觀比較模型，避免僅依賴行銷宣傳，但也需注意基準本身的設計偏差。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將自選模型代入此基準測試，客觀量化其在自動化工作流程中的適用性，輔助模型選型決策。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-20-tinysearch-v0-6-1-llm",
     "title": "TinySearch v0.6.1 釋出：輕量級本地 LLM 網頁研究工具支援自帶瀏覽器",
     "title_original": "TinySearch v0.6.1 - still a lightweight web research tool for local LLMs, now with bring-your-own-browser support",
@@ -273,6 +464,61 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/90021441?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-chatgpt",
+    "title": "ChatGPT 服務短暂中斷",
+    "title_original": "ChatGPT is down",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vt3zig/chatgpt_is_down/",
+    "published_at": "2026-08-20T00:20:26+00:00",
+    "category": "hot-topics",
+    "summary": "ChatGPT 服務出現大範圍中斷，用戶無法正常訪問。使用者應檢查 Status 頁面追蹤恢復狀態。此為暫時性服務問題，屬於基礎設施層面的事件。",
+    "highlights": [
+      "服務中斷影響大量用戶",
+      "屬於暫時性基礎設施問題",
+      "建議追蹤官方狀態頁面",
+      "非模型或產品層面變更"
+    ],
+    "why_it_matters": "對依賴 ChatGPT 的自動化工作流程，需建立熔斷機制與備用方案，避免單點故障影響業務流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "在依賴 OpenAI API 的自動化腳本中加入健康檢查與自動重試邏輯，並準備本地備用模型。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-stampli-chatgpt-work-codex",
+    "title": "Stampli 案例：ChatGPT Work 與 Codex 加速產品上線時程",
+    "title_original": "How ChatGPT Work helps Stampli move ideas to market",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/stampli",
+    "published_at": "2026-08-20T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方 Blog 報導 Stampli 在固定Deadline 且設計資源有限的情況下，利用 Codex 與 ChatGPT Work 將數週的發布準備壓縮至數天完成。這是 OpenAI 的行銷內容，但可從中窺見 AI 加速開發的實際效益邊界。",
+    "highlights": [
+      "案例來自 OpenAI 官方 Blog，存在一定宣傳成分",
+      "使用 Codex 處理程式碼相關任務，ChatGPT Work 處理內容生成",
+      "壓縮週期從數週到數天，具體數據缺乏獨立驗證",
+      "適用場景為有明確 Deadline 的產品發布，而非日常開發",
+      "技術宅可借鏡其工作模式但需自行驗證效益"
+    ],
+    "why_it_matters": "此案例展示了 AI 輔助開發在時間敏感專案中的潛力，但技術宅應以批判眼光看待其具體效益數據。",
+    "automation_angle": null,
+    "automation_angle_zh": "在類似Deadline 明確的專案中，嘗試用 Codex 處理重複性程式碼任務，評估是否能達到聲稱的時間節省比例。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -440,6 +686,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-20-chatgpt",
+    "title": "利用既有 ChatGPT 訂閱打造的本地筆記工具",
+    "title_original": "I made a notetaker that runs on your ChatGPT subscription",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vsv6az/i_made_a_notetaker_that_runs_on_your_chatgpt/",
+    "published_at": "2026-08-19T18:41:19+00:00",
+    "category": "agent-skills",
+    "summary": "開發者在 Reddit 分享了一款運行在 ChatGPT 訂閱基礎上的筆記工具，透過 API 或第三方整合方式實現本地化功能。此工具可作為個人知識庫的前端，利用 ChatGPT 的語言能力進行筆記檢索與整理，無需額外付費。屬於創客級專案，程式碼可能已開源。",
+    "highlights": [
+      "使用現有 ChatGPT 訂閱進行功能延伸",
+      "強調低成本的個人化 AI 工具開發",
+      "可能為開源專案，可直接部署使用",
+      "屬於創客類專案，非企業級解決方案"
+    ],
+    "why_it_matters": "展示如何將訂閱費用最大化利用的思路，對個人開發者或小型團隊有參考價值。可評估其程式碼是否能整合進現有工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接 fork 此專案，改造成符合個人需求的 AI 輔助工作流程程，例如自動會議紀錄或文件摘要。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-19-canonry-ai",
@@ -632,6 +905,33 @@
     "automation_angle_zh": "建議直接查閱各專案 GitHub README 或官方文檔，本篇可作為初次接觸的索引參考。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-ai",
+    "title": "研究人員創造能在 AI 代理人間傳播的「思想病毒」",
+    "title_original": "Researchers created \"mind viruses\" that spread between AI agents by convincing one agent to adopt an idea then transmit it onwards to other agents.",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vsm79t/researchers_created_mind_viruses_that_spread/",
+    "published_at": "2026-08-19T13:18:30+00:00",
+    "category": "hot-topics",
+    "summary": "研究人員展示了一種透過說服單一 AI 代理採納某個想法，再將其傳播給其他代理的實驗機制。此概念類似社群媒體的迷因傳播，但發生在 AI 代理間的內部推論過程中，可能對多代理系統的安全性與可控性構成挑戰。實驗目前僅限於模擬環境，尚未有明確的實際應用場景。",
+    "highlights": [
+      "思想病毒可在 AI 代理間透過對話傳遞虛假或誘導性資訊",
+      "類比社交網路的迷因傳播機制，存在系統性風險",
+      "目前為模擬環境實驗，未進入實際部署階段",
+      "對多代理協作系統的安全設計提出新課題"
+    ],
+    "why_it_matters": "多代理系統正成為 AI 應用趨勢，此研究揭示了代理間資訊污染的潛在路徑。技術人員在設計自動化代理工作流程時，需考慮加入輸入驗證與隔離機制。",
+    "automation_angle": null,
+    "automation_angle_zh": "若部署多代理系統，建議在代理間通訊層加入事實核查模組，防止錯誤資訊在代理網路中擴散。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -78126,6 +78426,34 @@
     "why_it_matters": "MCP 正成為 AI Agent 工具生態的新標準，Mistral 率先在 Studio 原生支援代表工具鏈整合門檻降低，讓技術團隊能更快速建構可執行動作的 AI Agent 而非僅限聊天。",
     "automation_angle": null,
     "automation_angle_zh": "可先試用 Studio 內建 MCP 快速原型，再將企業內部 API 包裝為自訂 MCP，實測與 Mistral 小杯模型（如 Mistral-small）的工具呼叫準確率與延遲。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-20-oracle-mcp-codex-oracle",
+    "title": "Oracle MCP 伺服器上線：Codex 可直接查詢企業 Oracle 資料庫",
+    "title_original": "Connecting Codex to Enterprise Data with Oracle Autonomous AI Database MCP Server - Oracle Blogs",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWGZLNEo2RUVTWDQ0UmpVNG0waHJWN1ZyUnlpSkN2WTVpLVNsTGstZmZLaG5sRkwtMWQzak9jWkxwcTJjeDdELXROc0NDYjlYdDVlaXNEWk9fV0F1SnZWX05JcXVDRmpIOFZrdzJhQjFTWkdEQXRrT0wtT2Q5RFY2ZFlXcGo4RzFjdzQydTBQNWVnVG5jNUVWSFVzNU81VU1XczBPYlpoWHdUaXliOVoxcGNsWWlTTk0tQ1g0QmxGbw?oc=5",
+    "published_at": "2026-05-22T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Oracle 官方 Blog 報導其 Autonomous AI Database MCP 伺服器已支援將 Codex 直接連接至 Oracle 資料庫，企業用戶可透過自然語言查詢結構化資料。此為 Oracle 對 MCP 生態的官方佈局，具一定可信度。",
+    "highlights": [
+      "MCP 伺服器讓 Codex 能以自然語言查詢 Oracle 資料",
+      "支援企業級安全與權限管控，適合內部 AI 助理場景",
+      "Oracle 官方 Blog 為一手來源，資訊可靠性高",
+      "需注意 Oracle 資料庫本身的授權與存取權限設定",
+      "與 OpenAI Enterprise 方案形成競合關係"
+    ],
+    "why_it_matters": "企業級資料庫直連 AI 是今年 MCP 生態的核心趨勢，Oracle 此舉將加速企業內部 AI 助理的落地速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業技術宅可評估在 Oracle 環境中部署此 MCP，實現用自然語言查詢內部資料庫，降低 BI 工具的依賴。",
     "tags": [
       "agent-skills",
       "rss",
