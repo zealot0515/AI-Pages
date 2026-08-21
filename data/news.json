@@ -1,5 +1,230 @@
 [
   {
+    "id": "2026-08-21-comfy-org-comfy-skills",
+    "title": "Comfy-Org/comfy-skills 雲端創作技能集",
+    "title_original": "Comfy-Org/comfy-skills",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Comfy-Org/comfy-skills",
+    "published_at": "2026-08-21T18:16:31Z",
+    "category": "agent-skills",
+    "summary": "Comfy Cloud官方技能庫，提供圖像、影片、音頻、3D生成的斜線命令，附MCP伺服器。164星，為創意內容生成提供標準化工作流程入口。",
+    "highlights": [
+      "支援圖像、影片、音頻、3D四種生成",
+      "斜線命令直觀易用的觸發方式",
+      "官方維護的MCP伺服器確保相容性",
+      "164星社群驗證較充分",
+      "屬Comfy Cloud生態一部分"
+    ],
+    "why_it_matters": "創意工作者可透過標準化命令快速生成多模態素材，今天就能將生成環節整合進自動化流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "串接Comfy Cloud API到設計素材自動化工具，用斜線命令批量生成行銷配圖。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/166579949?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-21-kodelyth-ecc-mcp",
+    "title": "kodelyth-ecc MCP多代理框架發布",
+    "title_original": "sifxprime/kodelyth-ecc",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sifxprime/kodelyth-ecc",
+    "published_at": "2026-08-21T18:12:25Z",
+    "category": "open-source-ai",
+    "summary": "70代理、194技能、97命令、22+鉤子，具語義意圖路由與自學習記憶。支援Claude Code、Windsurf、Cursor等主流IDE。MIT授權JavaScript專案，僅11星。",
+    "highlights": [
+      "整合70個代理與194項技能",
+      "語義意圖路由提升任務匹配精度",
+      "自學習記憶機制持續優化輸出",
+      "支援Claude Code、Windsurf、Cursor等IDE",
+      "MIT授權但目前星數低，社群關注度待觀察"
+    ],
+    "why_it_matters": "多代理協作與語義路由架構有吸引力，但低星數代表社群驗證不足，實用性需實際專案測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "Clone下來跑個簡單任務（如自動回郵），觀察代理協作與記憶持久化的實際表現。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/269868370?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-21-tui-ai-gui",
+    "title": "停止製作 TUI：AI 編碼代理讓原生 GUI 開發成本趨近於零",
+    "title_original": "Stop Making TUIs",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+    "published_at": "2026-08-21T16:07:32+00:00",
+    "category": "agent-skills",
+    "summary": "Thomas Ptacek 主張即使是個人工具也應構建真正的原生使用者介面，而非終端介面（TUI）。Simon Willison 呼應此觀點，提到他用 vibe-coding 方式開發的 macOS 頻寬與 GPU 監控小工具至今仍在每日使用。AI 編碼代理已大幅降低 GUI 開發成本，工程師沒有理由再滿足於 CLI。",
+    "highlights": [
+      "AI 編碼代理讓小型原生 GUI 開發成本降至極低",
+      "作者的 vibe-coded 監控工具仍在每日使用，驗證實用性",
+      "TUI 在多人協作場景下介面限制明顯",
+      "拋棄 500 個一次性 CLI 工具，改用原生 UI 將改變開發思維",
+      "這是對傳統 CLI 優先文化的挑戰與反思"
+    ],
+    "why_it_matters": "對技術使用者而言，這預示著個人工具開發範式的轉變：從命令列優先到 UI 優先，AI 讓 GUI 不再是高成本選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "將常用的 CLI 監控腳本透過 AI 工具（如 Claude Code、Cursor）生成 macOS Menu Bar 小工具，替換既有 TUI 腳本以提升日常使用便利性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-21-github-copilot-slack",
+    "title": "GitHub Copilot正式登陸Slack",
+    "title_original": "The new GitHub Copilot experience in Slack",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
+    "published_at": "2026-08-21T16:07:15+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot登陸Slack公開預覽，可在頻道內直接呼叫@GitHub完成Repo查詢、PR操作、Issue處理等開發任務，無需切換視窗。",
+    "highlights": [
+      "Slack內直接呼叫@GitHub操作",
+      "支援Repo查詢、PR操作、Issue建立",
+      "公開預覽階段，功能持續更新",
+      "GitHub官方產品，非第三方整合",
+      "有望成為團隊開發新標配"
+    ],
+    "why_it_matters": "將AI開發輔助直接帶入日常通訊工具，減少開發者上下文切換成本，是DevOps工作流程的實質提升。",
+    "automation_angle": null,
+    "automation_angle_zh": "在Slack頻道內直接用自然語言查狀態、創建Issue，省去瀏覽器操作GitHub網頁的步驟。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-21-github-copilot-microsoft-teams",
+    "title": "GitHub Copilot 在 Microsoft Teams 推出共享代理協作功能",
+    "title_original": "Shared agentic work with GitHub Copilot in Microsoft Teams",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
+    "published_at": "2026-08-21T16:03:36+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 現可在 Microsoft Teams 對話中啟動共享代理工作階段，團隊成員可共同查看、引導 Copilot 的推論過程。透過在頻道、執行緒或私訊中提及 @GitHub 即可啟動，讓多人參與 AI 輔助決策與程式碼生成，提升團隊協作效率。",
+    "highlights": [
+      "在 Teams 任意對話提及 @GitHub 即可建立共享 Copilot 代理工作階段",
+      "所有參與者可即時查看 Copilot 的思考與推論過程",
+      "支援多人引導代理方向，減少單人操作瓶頸",
+      "可直接存取 GitHub Copilot 的程式碼生成與分析能力",
+      "有利於 code review、需求討論與技術決策的團隊協作"
+    ],
+    "why_it_matters": "這是 Copilot 從個人工具走向團隊協作工具的重要一步，工程師可將 AI 輔助流程直接整合進現有的通訊工作流程，降低協作摩擦。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Teams 建立腳本或建立 webhook，自動將特定關鍵字觸發 Copilot 共享工作階段，實現需求文件的 AI 初審自動化。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-21-ox-alpha-swe-bench-96",
+    "title": "Ox Alpha 模型在 SWE-bench 驗證集迷你版達到 96% 解決率",
+    "title_original": "I benchmarked Ox Alpha on SWE-bench Verified Mini (50 tasks): 96% resolved. Now I’m skeptical of myself.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuke8o/i_benchmarked_ox_alpha_on_swebench_verified_mini/",
+    "published_at": "2026-08-21T16:00:19+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶在 SWE-bench Verified Mini（50 個任務）上對 Ox Alpha 模型進行基準測試，達到 96% 解決率。發文者對此結果表示自我懷疑，呼籲社群驗證。此為非官方自測結果，缺乏獨立驗證與詳細實驗設定說明。",
+    "highlights": [
+      "SWE-bench Verified Mini 為 50 個任務的精選測試集",
+      "96% 解決率遠超一般開源模型表現",
+      "測試者本人對結果持懷疑態度",
+      "缺乏官方benchmark背書與完整測試環境描述",
+      "需社群其他成員獨立複現才能確認"
+    ],
+    "why_it_matters": "若此結果屬實，Ox Alpha 將是程式碼任務的頂級開源模型。但自測數據可信度有限，需第三方驗證才能判斷實際能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 Ox Alpha 模型，在本地 SWE-bench 子集上實際測試，驗證其程式碼修復能力是否符合宣稱的 96% 解決率。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-21-matt-webb-chatgpt",
+    "title": "Matt Webb 分享用 ChatGPT 互動式輔導學習四元數",
+    "title_original": "Quoting Matt Webb",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/21/matt-webb/",
+    "published_at": "2026-08-21T15:06:26+00:00",
+    "category": "agent-skills",
+    "summary": "設計師 Matt Webb 在 Galactic Compass 2 AR 應用開發中，透過 ChatGPT 互動式輔導學會四元數概念，成功實現擴增實境功能。他認為 AI 並未取代學習，而是推動他更深入探索所需知識，達成個人成長與專案目標的雙贏。",
+    "highlights": [
+      "ChatGPT 作為耐心互動導師而非直接代碼工具",
+      "四元數傳統上需要扎實數學基礎才能理解",
+      "AI 輔導克服了閱讀書籍或詢問數學家的學習障礙",
+      "學習成果直接應用於 AR 應用的實作",
+      "開發者反思：外包思考工作反而激發更強學習動機"
+    ],
+    "why_it_matters": "此案例展示 AI 作為個人化學習加速器的潛力，而非純粹取代人類工作。對於需要快速掌握新技術棧的開發者具啟發性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在學習新技術時，嘗試讓 AI 以蘇格拉底式對話逐步解釋概念，而非直接要求生成代碼，評估此方法對理解深度的影響。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-21-deepseek-harness-v0-1-1",
+    "title": "DeepSeek Harness v0.1.1 正式發布",
+    "title_original": "DeepSeek Harness v0.1.1 released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vugyfe/deepseek_harness_v011_released/",
+    "published_at": "2026-08-21T13:51:00+00:00",
+    "category": "open-source-ai",
+    "summary": "DeepSeek Harness 是 DeepSeek 官方推出的模型推論與部署工具鏈，v0.1.1 版本帶來效能優化與部署穩定性提升。作為 DeepSeek 系列模型的官方配套工具，Harness 提供標準化的模型載入、API 包裝與效能基準測試功能。",
+    "highlights": [
+      "支援 DeepSeek 系列模型的標準化部署流程",
+      "包含模型載入、API 包裝與效能測試一站式功能",
+      "v0.1.1 版本修復穩定性問題並提升推論效率",
+      "可用於本地部署或雲端伺服器的模型管理",
+      "開源工具，可自行架設以降低 API 呼叫成本"
+    ],
+    "why_it_matters": "DeepSeek 模型陣容日益完整，官方工具鏈的成熟度直接影響開發者選擇該生態系的意願，降低企業與個人使用 DeepSeek 模型的技術門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 DeepSeek Harness 架設本地模型服務，作為內部 RAG 或自動化腳本的後端，節省雲端 API 費用並提升資料隱私性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-21-claude-code-plugins-melodic-software-claude-code",
     "title": "claude-code-plugins：Melodic Software 推出的 Claude Code 插件市集",
     "title_original": "melodic-software/claude-code-plugins",
