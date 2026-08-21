@@ -1,5 +1,34 @@
 [
   {
+    "id": "2026-08-21-nx-mcp-nx-cad-mcp",
+    "title": "NX_MCP：西門子NX CAD軟體的MCP伺服器實現",
+    "title_original": "DreamEnding/NX_MCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/DreamEnding/NX_MCP",
+    "published_at": "2026-08-21T06:03:47Z",
+    "category": "agent-skills",
+    "summary": "GitHub新興專案，透過47種以上工具讓AI代理控制西門子NX（UG）CAD軟體的GUI操作。使用Python開發，目前48 stars。適合需要CAD軟體自動化的工程應用場景。",
+    "highlights": [
+      "支援西門子NX（UG）CAD軟體的AI控制",
+      "提供47種以上工具涵蓋常見GUI操作",
+      "使用Python開發，易於擴展",
+      "屬於MCP（Model Context Protocol）生態",
+      "可用於工程設計流程的自動化探索"
+    ],
+    "why_it_matters": "工程師若需在CAD作業中引入AI代理，這是第一個針對NX的MCP實作，能將自然語言轉換為CAD操作，降低重複性建模工作負擔。",
+    "automation_angle": null,
+    "automation_angle_zh": "CAD工程師可安裝此MCP server，測試用自然語言指令操控NX模型的可行性，評估是否能在設計流程中實現部分自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/63937131?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-21-agent-workflow-mcp-mcp-agent",
     "title": "agent-workflow-mcp：基於 MCP 的多 Agent 工作流程編排器，支援追蹤與持久執行",
     "title_original": "tainguyen07/agent-workflow-mcp",
@@ -333,6 +362,34 @@
     "automation_angle_zh": "對使用 Sol 5.6 的自動化腳本加入輸出品質檢測，當準確率低於閾值時自動切換到備用模型。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-21-ai-ceo",
+    "title": "科技公司AI代理失控事件引發熱議，CEO仍表樂觀",
+    "title_original": "'Rogue' AI agent went haywire at tech company. The CEO is still 'bullish' on the technology - ABC News - Breaking News, Latest News and Videos",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZFFmb1kzMDlmOVBhcXh6aWJtd3c0WDdxaDFfQ05tdVJBZHJNRlFLSG1RYTRnb0N1a1d2SlQxbFJjYkRkQWJMUGhDYktmemhTVGFCSzQ3bHZURmZwMmpCbHI1MkhhQ3AwS3BKcE9mblhBVnNfWDRnVVBIX0tmMkJ6MVVOcnR1cXJmZWJJWThwSElKZUI4SmpLUnJLSdIBoAFBVV95cUxPMXFLMjFFOWJkUzlyTmJILWZ3UjhfdEZ2OXlzbGJEZVJwaklnc3dRZzQ4SV9lUDJBc0YxdjY0Z2xTaXNCV1VEcE85Q3BMVVY4Y2lFXzU5Wks0ZXB4c19rVG9TaTZNLUxqSkF2a002akx6ejFHbXVVOGRzc1c0UDZraXNaTzgtWmRzamFldi1zYU02ay1zRUN2X19qS005enZm?oc=5",
+    "published_at": "2026-08-20T17:39:53+00:00",
+    "category": "hot-topics",
+    "summary": "ABC News報導某科技公司AI代理出現失控行為引發關注，但CEO仍對技術前景表達樂觀。事件細節與公司名稱在摘要中未完整呈現，建議查閱原文了解完整脈絡。",
+    "highlights": [
+      "AI代理出現非預期行為引發安全討論",
+      "CEO公開表態仍看好AI代理技術",
+      "事件細節（公司、原因、後果）需查閱原文確認",
+      "引發業界對AI代理失控風險的關注",
+      "可能影響企業採用AI代理的風險評估"
+    ],
+    "why_it_matters": "AI代理失控事件提醒技術用戶需關注代理安全的防護機制與監控設計，避免在工作流程中部署缺乏保護的代理系統。",
+    "automation_angle": null,
+    "automation_angle_zh": "在部署AI代理到關鍵工作流程前，技術用戶應建立操作審計、異常中斷與人工確認機制，防止類似失控場景影響生產環境。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
