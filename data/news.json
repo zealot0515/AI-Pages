@@ -1,5 +1,226 @@
 [
   {
+    "id": "2026-08-21-claude-code-plugins-melodic-software-claude-code",
+    "title": "claude-code-plugins：Melodic Software 推出的 Claude Code 插件市集",
+    "title_original": "melodic-software/claude-code-plugins",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/melodic-software/claude-code-plugins",
+    "published_at": "2026-08-21T12:20:14Z",
+    "category": "agent-skills",
+    "summary": "Melodic Software 推出 claude-code-plugins，提供一個 Claude Code 的插件市集，收錄可復用、倉庫無關的技能、Hooks、Agent 與 MCP 伺服器。現階段星標 11 顆，屬於早期專案，但概念上對希望快速擴充 Claude Code 能力的技術用戶有參考價值。",
+    "highlights": [
+      "插件市集收錄技能、Hooks、Agent 與 MCP 伺服器",
+      "設計為倉庫無關，可跨專案復用",
+      "基於 Shell 實作，門檻低易上手",
+      "目前星標 11 顆，社群規模尚小",
+      "可作為 Claude Code 生態擴充的起點參考"
+    ],
+    "why_it_matters": "Claude Code 的插件生態仍在發展，claude-code-plugins 提供了可復用模組的概念驗證，對想客製化工作流程的技術用戶有參考意義。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可瀏覽市集現有插件，評估是否能直接引入加速日常開發自動化，如自動生成文件或測試用例的 Hooks。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Shell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/58273638?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-21-nuphus-mcp-rust-mcp",
+    "title": "nuphus-mcp：Rust 實作的桌面自動化 MCP 伺服器，掌控螢幕與瀏覽器",
+    "title_original": "mrpulor-gh/nuphus-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mrpulor-gh/nuphus-mcp",
+    "published_at": "2026-08-21T12:18:34Z",
+    "category": "agent-skills",
+    "summary": "nuphus-mcp 是一款以 Rust 實作的桌面自動化 MCP 伺服器，可透過 Model Context Protocol 控制螢幕、視窗、滑鼠鍵盤與 Chrome 瀏覽器。GitHub 星標 233 顆，為本地 Agent 提供了標準化的桌面操作接口，降低跨平台桌面自動化的進入門檻。",
+    "highlights": [
+      "以 Rust 實作效能佳、記憶體安全",
+      "支援螢幕、視窗、滑鼠鍵盤的標準化控制",
+      "可操作 Chrome 瀏覽器拓展爬蟲與測試場景",
+      "基於 MCP（Model Context Protocol）標準，具生態相容性",
+      "GitHub 233 顆星，社群關注度持續上升"
+    ],
+    "why_it_matters": "桌面自動化是 Agent 能力的關鍵缺口，nuphus-mcp 以標準化 MCP 介面填補這塊，讓本地 Agent 能可靠控制 GUI 操作。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其對接 Claude Code 或其他 MCP 相容 Agent，實作瀏覽器自動化測試、資料抓取或遠端桌面操控的日常任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/187365610?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-21-deepmind-ai-atari-eve-online",
+    "title": "DeepMind 回顧十五年遊戲AI研究：從 Atari 到 EVE Online 的技術演進",
+    "title_original": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+    "published_at": "2026-08-21T11:59:48+00:00",
+    "category": "hot-topics",
+    "summary": "Google DeepMind 發布部落格文章，回顧十五年遊戲領域AI研究歷程，並宣布與多家遊戲工作室合作進行新技術原型測試。內容涵蓋從早期 Atari 遊戲到複雜多人遊戲的AI能力進化，展示遊戲作為AI研究測試場域的獨特價值。",
+    "highlights": [
+      "回顧 DeepMind 在 Atari、StarCraft II 等遊戲的強化學習突破歷程",
+      "宣布與遊戲工作室合作開發新型遊戲AI原型",
+      "強調遊戲環境作為AI能力測試基準的重要性",
+      "展示從純遊戲到開放世界互動的技術演進方向"
+    ],
+    "why_it_matters": "遊戲AI的技術突破往往會外溢到機器人、自動化控制等實際應用場景。對於需要訓練決策AI或遊戲引擎自動化的技術人員，這些研究方法論具有直接參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可追蹤 DeepMind 開源工具（如遊戲環境框架）用於自動化遊戲測試或遊戲內容生成管線的可行性評估。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-21-dflash2-mtp-rtx-5090-qwen-3-8-27b-v3-gguf-llama-cpp",
+    "title": "DFlash2 對決 MTP 基準測試：RTX 5090、Qwen 3.8 27B、動態 v3 GGUF 與 llama.cpp",
+    "title_original": "[Benchmark] DFlash2 vs MTP comparison. 5090RTX, Qwen 3.8 27B, Dynamic v3 GGUF, llama.cpp. Token generation, latency and available context.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vue4qk/benchmark_dflash2_vs_mtp_comparison_5090rtx_qwen/",
+    "published_at": "2026-08-21T11:48:57+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 討論區有用戶發布 DFlash2 與 MTP 的基準測試，使用 RTX 5090、Qwen 3.8 27B、Dynamic v3 GGUF 與 llama.cpp 進行 Token 生成速度、延遲與上下文窗口的對比。缺乏完整摘要與數據呈現，需自行閱讀原帖獲取具體數據。",
+    "highlights": [
+      "測試平台包含 RTX 5090 顯示卡",
+      "測試模型包括 Qwen 3.8 27B 與 Dynamic v3 GGUF",
+      "使用 llama.cpp 作為推論後端",
+      "評估維度為 Token 生成速度、延遲與上下文窗口",
+      "Reddit 討論串缺少完整數據摘要"
+    ],
+    "why_it_matters": "本地 LLM 推論效能比較對部署在自有硬體上的技術用戶是重要參考，但本帖數據不完整，需進一步查閱原串確認實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可依測試結果評估 DFlash2 或 MTP 在自有 RTX 5090 環境的性價比，判斷是否切換推論方案以提升本地部署效率。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-21-item",
+    "title": "業界觀察：十二大模型中九個底層架構其實是同一個",
+    "title_original": "When 9 of top 12 models are just exactly one.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vud6va/when_9_of_top_12_models_are_just_exactly_one/",
+    "published_at": "2026-08-21T11:02:53+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 技術社群一篇分析文章指出，目前主流評測排行榜前十二名的 AI 模型中，有九個實際上共享相同或極度相似的底層模型架構，只是經過不同的微調、提示工程或名稱包裝。該觀察引發關於 AI 模型同質化的討論。",
+    "highlights": [
+      "多個知名品牌模型可能共享相同基礎架構",
+      "差異主要來自微調策略和提示工程而非核心能力",
+      "對模型選擇決策和成本評估有潛在影響",
+      "引發對 AI 創新多樣性的質疑"
+    ],
+    "why_it_matters": "如果模型同質化程度確實較高，技術用戶在選擇 AI 工具時可能需要更關注價格、隱私和特定微調能力，而非盲目追逐排名分數。這對 AI 工具選型策略有直接影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可設計對比測試，驗證不同品牌模型在相同任務上的實際表現差異，優化 AI 工具的 cost-per-task 指標而非僅看 benchmark 分數。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-21-continue-ai",
+    "title": "開發者自行分支 Continue 插件：打造無訂閱、無遙測的純本地 AI 自動完成工具",
+    "title_original": "I got fed up with locked-down autocomplete, so I forked Continue and stripped it down to just tab-completion. Any model, no subscription and no remote telemetry",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vubpn4/i_got_fed_up_with_lockeddown_autocomplete_so_i/",
+    "published_at": "2026-08-21T09:45:18+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶因厭倦封閉式自動完成工具的訂閱制和遙測功能，主動分支 Continue 編輯器插件並移除遠端數據傳輸。修改後版本僅保留 tab 補全核心功能，支援任意本地或遠端模型，去除所有訂閱牆和隱私顧慮。",
+    "highlights": [
+      "完全移除遠端遙測數據傳輸功能",
+      "支援任意 LLM 模型作為後端",
+      "去除訂閱制，純開源免費使用",
+      "精簡至核心 tab 補全功能，降低資源佔用"
+    ],
+    "why_it_matters": "對注重隱私和成本控制的技術用戶而言，可完全掌控的本地 AI 補全工具極具吸引力。此分支展示社群如何快速改造商業化工具以符合開源精神。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可立即部署此分支作為本地開發環境的 AI 補全替代方案，評估其在大型程式碼庫的補全準確度和延遲表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-21-ox-alpha-openrouter",
+    "title": "神秘模型 Ox Alpha 現身 OpenRouter，社群積極測試",
+    "title_original": "New stealth model on OpenRouter: Ox Alph",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu8n8i/new_stealth_model_on_openrouter_ox_alph/",
+    "published_at": "2026-08-21T06:45:34+00:00",
+    "category": "new-models",
+    "summary": "代號「Ox Alpha」的神秘模型已可在 OpenRouter 平台上呼叫，社群用戶開始積極進行能力測試。儘管模型來源不明，但 OpenRouter 的收錄提供了統一的 API 接口，降低了測試門檻。初期測試結果顯示該模型在某些推論任務上有不錯表現，但尚待系統性評估。",
+    "highlights": [
+      "Ox Alpha 已在 OpenRouter 上架，可透過統一 API 呼叫",
+      "OpenRouter 提供標準化接口降低測試難度",
+      "初期測試反映推論能力尚可",
+      "模型真正身份仍未確認"
+    ],
+    "why_it_matters": "OpenRouter 上架代表任何人都能透過統一介面測試神秘模型，降低了評估新模型的技術門檻，是技術人員快速驗證模型能力的便利途徑。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接在 OpenRouter 上使用該模型處理實際工作流程程，例如文案生成或程式碼輔助，測試其是否值得替代現有方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-21-qwen3-8-27b-strix-halo-rtx-3090-ti-262k-153-tok-s",
+    "title": "Qwen3.8-27B 在 Strix Halo + RTX 3090 Ti 上達到 262K 上下文、153 tok/s",
+    "title_original": "Qwen3.8-27B at 262K context on a Strix Halo + RTX 3090 Ti: 9.5 -> 153 tok/s, and it beats a dual-3090 vLLM box on HumanEval",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu7yce/qwen3827b_at_262k_context_on_a_strix_halo_rtx/",
+    "published_at": "2026-08-21T06:06:07+00:00",
+    "category": "new-models",
+    "summary": "社群用戶分享 Qwen3.8-27B 模型在 Strix Halo APU 配合 RTX 3090 Ti 的本地部署配置，達成 262K 超長上下文窗口與每秒 153 tokens 的推論速度。更值得注意的是，HumanEval 基準測試顯示該配置優於雙 RTX 3090 的 vLLM 推論方案，顯示硬體協同優化的潛力。",
+    "highlights": [
+      "Qwen3.8-27B 成功在 262K 上下文長度運行",
+      "Strix Halo + RTX 3090 Ti 配置達到 153 tok/s 推論速度",
+      "HumanEval 表現優於雙 3090 vLLM 設定",
+      "展示 APU+iGPU 混合加速的可能性"
+    ],
+    "why_it_matters": "此 benchmark 顯示中階消費級硬體配合新世代 APU 有潛力超越傳統雙卡方案，對想降低本地推論成本的技術人員是重要參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估是否採用 Strix Halo 作為小型推論伺服器的核心，硬體成本與能耗顯著低於雙卡方案，且可測試 262K 上下文對長文本任務的實際幫助。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-21-nx-mcp-nx-cad-mcp",
     "title": "NX_MCP：西門子NX CAD軟體的MCP伺服器實現",
     "title_original": "DreamEnding/NX_MCP",
@@ -26,6 +247,60 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/63937131?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-21-sensenova-u1-5-lite-opd",
+    "title": "SenseNova U1.5-Lite 正式發布：專家訓練與 OPD蒸餾技術的低推論成本模型",
+    "title_original": "SenseNova U1.5-Lite full release: expert training, OPD distillation, one model at inference",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu5dzi/sensenova_u15lite_full_release_expert_training/",
+    "published_at": "2026-08-21T03:52:03+00:00",
+    "category": "new-models",
+    "summary": "SenseNova 團隊發布 U1.5-Lite 模型，採用專家訓練架構和 OPD（One Per Dimension）蒸餾技術，在保持較高推論能力的同時顯著降低推論計算成本。該模型針對本地部署場景優化，支援單卡運行。",
+    "highlights": [
+      "OPD 蒸餾技術減少模型參數量的同時保留核心能力",
+      "專家訓練架構提升特定任務處理效率",
+      "針對本地部署優化，支援單 GPU 運行",
+      "推論成本相較同等能力模型顯著降低"
+    ],
+    "why_it_matters": "蒸餾技術的突破代表本地 AI 部署的成本門檻正在下降。對於需要部署 AI 能力到邊緣設備或成本敏感場景的技術團隊，這類模型提供了新的選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載並在本地硬體上測試 U1.5-Lite，評估其在自動化腳本處理、文件分類等日常任務中的性價比表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-21-meanvc2-streaming",
+    "title": "MeanVC2 Streaming 語音轉換模型發布：可即時將任何聲音變換為目標音色",
+    "title_original": "Make Jensen Huang Sound Like Anyone. New Streaming Voice Conversion Model MeanVC2 Released!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vu34b1/make_jensen_huang_sound_like_anyone_new_streaming/",
+    "published_at": "2026-08-21T02:03:29+00:00",
+    "category": "new-models",
+    "summary": "研究團隊發布 MeanVC2 模型，支援流式語音即時轉換。用戶可錄製自己的聲音並即時轉換為名人（如黃仁勳）或任何目標音色的語音，同時保留原始語音的韻律和情緒特徵。",
+    "highlights": [
+      "支援流式處理，延遲低於即時語音處理閾值",
+      "可任意指定目標音色進行轉換",
+      "保留原始語音的韻律和情感特徵",
+      "適合需要語音合成但無錄音資源的應用場景"
+    ],
+    "why_it_matters": "流式語音轉換技術的成熟為需要即時語音合成的工作流程程（如無障礙輔助、遊戲配音自動化）打開新可能。技術門檻的降低值得關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 MeanVC2 建構自動化語音合成管線，例如為自動化測試報告或客服機器人生成語音輸出，評估其延遲和品質是否滿足產品需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -78858,6 +79133,33 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-21-oracle-mcp-server-codex-autonomous-database",
+    "title": "Oracle 發布 MCP Server：將 Codex 直接連接企業級 Autonomous Database",
+    "title_original": "Connecting Codex to Enterprise Data with Oracle Autonomous AI Database MCP Server - Oracle Blogs",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd1VpY1JsVFFMNDRXSHMyNG5ja0xyVkNxZ2JNd2luelpjcndsWDBYSGdDUGkxM3JRbEwtTmotZWFPUV9MN0k3SU9xMkNlYWRHRjg3SWp1WUlxTVpCQ1EzU2dnV3JKQ2Q5T05wY1Rjc3VhQllVcHR2ckhXZjZZM3Q1cW9SazE2a296S2JuQl9QNkk0dTlfTFQtWmhoR1VZaWdsUXg0aGhoSklWNzgtN3NyLWxPU3kxbHhmYnNYNm9NUV8tU01xRkNoRlE1RQ?oc=5",
+    "published_at": "2026-05-22T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Oracle 官方部落格介紹如何透過 MCP（Model Context Protocol）協定將 GitHub Codex 與 Oracle Autonomous AI Database 整合。企業開發者可直接在 Codex 環境中查詢、分析企業資料庫內容，實現自然語言驅動的資料庫操作流程。",
+    "highlights": [
+      "基於標準化 MCP 協定進行整合，具備通用擴展性",
+      "支援自然語言驅動的 SQL 查詢生成",
+      "對接 Oracle Autonomous Database 的安全和合規特性",
+      "瞄準企業 AI 應用場景的資料庫操作自動化"
+    ],
+    "why_it_matters": "MCP 協定的企業級採用案例增加，代表 AI Agent 標準化工具調用的趨勢正在加速。對於需要建構資料庫操作 Agent 的團隊，此整合模式值得關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業開發者可評估此 MCP Server 能否取代現有的資料庫管理腳本，實現用自然語言自動執行資料庫巡檢、報表生成等重複性任務。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-05-22-reversecore-mcp-ai-agent",
