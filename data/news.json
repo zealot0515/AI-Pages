@@ -1,5 +1,260 @@
 [
   {
+    "id": "2026-08-22-nworks-line-works-mcp-server-cli",
+    "title": "nworks：LINE WORKS的完整MCP Server與CLI工具",
+    "title_original": "yjcho9317/nworks",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/yjcho9317/nworks",
+    "published_at": "2026-08-22T18:15:13Z",
+    "category": "agent-skills",
+    "summary": "nworks是LINE WORKS（NAVER WORKS）的開源MCP Server，提供26種工具涵蓋訊息、日曆、雲端硬碟、郵件、工作、討論板等模組，可與AI Agent或腳本整合自動化企業工作流程。",
+    "highlights": [
+      "26種工具覆蓋LINE WORKS核心功能",
+      "支援訊息、日曆、郵件、工作、雲碟、討論板",
+      "MCP Server規格，易與現有Agent整合",
+      "TypeScript編寫，23 Stars",
+      "適合使用LINE WORKS的企業用戶自動化需求"
+    ],
+    "why_it_matters": "LINE WORKS在亞洲企業市場有一定採用率，nworks讓AI Agent能直接操作企業協作工具，填補了MCP生態中企業通訊自動化的缺口。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用Claude Desktop或Cursor配置nworks MCP Server，建立「AI助理自動回覆LINE WORKS訊息並同步至日曆」的工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/68268252?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-scenepilot-agentic",
+    "title": "ScenePilot：首個開源Agentic影片製作系統",
+    "title_original": "scenepilotLLM/scenepilot",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/scenepilotLLM/scenepilot",
+    "published_at": "2026-08-22T18:13:40Z",
+    "category": "open-source-ai",
+    "summary": "ScenePilot是開源影片製作Agent系統，包含12條製作管線、100+工具、700+ Agent技能與製作知識文件，可將AI程式碼助理擴展為完整影片工作室。",
+    "highlights": [
+      "12條自動化影片製作管線",
+      "100+工具涵蓋拍攝、後製、剪輯需求",
+      "700+ Agent技能與製作知識文件",
+      "將AI助理轉化為影片工作室的開源方案",
+      "48 Stars，仍在早期發展階段"
+    ],
+    "why_it_matters": "若影片自動化需求明確，ScenePilot提供從構想到輸出的端到端框架，可降低影片製作門檻，適合內容創作者與行銷團隊。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將其整合至行銷自動化流程：輸入產品規格自動生成行銷短片，再配合剪輯API輸出多平台素材。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/313178891?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-code-buddy-ollama-ai-agent",
+    "title": "code-buddy：支援本地Ollama的開源AI程式碼Agent",
+    "title_original": "phuetz/code-buddy",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/phuetz/code-buddy",
+    "published_at": "2026-08-22T18:12:24Z",
+    "category": "agent-skills",
+    "summary": "code-buddy是開源AI程式碼Agent，可免費使用本地Ollama運行，或支援15種Provider（Claude、GPT、Gemini、Grok等）並自動故障轉移。支援終端、桌面與24/7伺服器環境。",
+    "highlights": [
+      "本地Ollama零成本執行，亦支援雲端Provider",
+      "支援15種Provider，具自動故障轉移機制",
+      "跨平台：終端、桌面、伺服器皆可部署",
+      "TypeScript編寫，34 Stars（仍在早期）",
+      "適合想要完全掌控API金鑰與成本的開發者"
+    ],
+    "why_it_matters": "完全本地化的Coding Agent方案可省下大量API費用，且Provider自動切換提高穩定性，是成本敏感開發者的實用選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "將code-buddy設為本機CI/CD鉤子，当雲端API超額或超時時自動切換至本地Ollama，確保自動化工作流程不中斷。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/83292498?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-microsandbox-mcp-ai-agent-mcp",
+    "title": "microsandbox-mcp：為 AI Agent 提供隔離沙盒的 MCP 伺服器",
+    "title_original": "superradcompany/microsandbox-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/superradcompany/microsandbox-mcp",
+    "published_at": "2026-08-22T18:03:06Z",
+    "category": "agent-skills",
+    "summary": "superradcompany 發布 microsandbox-mcp，專為 AI Agent 設計的 MCP（Model Context Protocol）伺服器，可在隔離沙盒環境中執行任務。現有 13 個 GitHub stars，採用 TypeScript 開發，提供安全的程式碼執行環境。",
+    "highlights": [
+      "基於 MCP 協議，可與主流 AI Agent 框架整合",
+      "提供隔離沙盒環境執行未信任程式碼",
+      "TypeScript 實現，適合現代 Node.js 生態",
+      "目標是解決 Agent 安全執行問題",
+      "屬於早期專案，社群關注度尚低"
+    ],
+    "why_it_matters": "隨著 Agent 應用普及，安全隔離需求上升。此專案提供一個可探索的方向，技術宅可評估其沙盒機制是否適用於自己的 Agent 工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 microsandbox-mcp 整合至現有 Agent 流程，測試在不影響主系統的情況下讓 AI 執行 potentially dangerous 的操作，如檔案處理或指令執行。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/145875517?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-reddit",
+    "title": "Reddit 討論：現階段最適合敘事、聊天、提示創作的本地模型",
+    "title_original": "Current best model for narrative, chat, prompt creation (so basically everything except agentic coding)? - 5090",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vviy88/current_best_model_for_narrative_chat_prompt/",
+    "published_at": "2026-08-22T17:49:39+00:00",
+    "category": "new-models",
+    "summary": "r/LocalLLaMA 社群討論目前哪個本地模型最適合非程式代理的通用任務，包括敘事生成、對話、提示詞創作等。討論中提及多個候選模型，但缺乏明確共識與量化基準。",
+    "highlights": [
+      "討論涵蓋敘事生成、對話、提示工程等多種使用情境",
+      "社群建議分散，缺乏統一的評估基準",
+      "5090 是此討論串的識別代號（非 NVIDIA 顯示卡型號）",
+      "此類討論反映本地模型選擇的實務需求",
+      "資訊來源為論壇，未提供可驗證的評測數據"
+    ],
+    "why_it_matters": "對於需要本地部署通用語言模型的技術用戶，此討論提供社群實務經驗參考，但建議自行驗證而非直接採用結論。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據討論中的建議，在本地測試幾個推薦模型，用相同 prompt 評估各模型在特定任務上的表現，找出最適合自己工作流程的選項。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-llm-0-33-httpx2-embedding",
+    "title": "llm 0.33 發布：支援 httpx2 與 embedding 金鑰管理",
+    "title_original": "llm 0.33",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/22/llm/",
+    "published_at": "2026-08-22T17:01:16+00:00",
+    "category": "open-source-ai",
+    "summary": "Simon Willison 的 llm 命令列工具發布 0.33 版本，升級至 OpenAI Python 函式庫 3.x 並將 HTTP 客戶端從 httpx 切換至 httpx2。新增多項實用功能，包括 embedding 模型的金鑰傳遞支援，以及可重複使用 -t/--template 參數來組合範本，特別是 reasoning_summary 選項現在可用於 Responses API 模型。",
+    "highlights": [
+      "HTTP 客戶端從 httpx 升級至 httpx2，修復連線問題",
+      "llm embed 系列指令現在支援 --key 參數直接傳遞 API 金鑰",
+      "-t/--template 可重複使用，實現模型配置與提示的範本組合",
+      "新增 reasoning_summary 選項（auto/concise/detailed）適用於 Responses API",
+      "ChrisJr404 貢獻的向後相容性實作讓既有插件無痛升級"
+    ],
+    "why_it_matters": "llm 是技術宅本地端模型管理的核心工具，此次更新修復長期問題並新增實用的範本組合功能，可簡化日常 prompt 調用流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用新的 template 組合功能建立預設配置，例如先套用 reasoning_effort=high 的模型設定，再套用 pelican 圖形生成提示，一次指令完成複雜任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-22-benchmarks",
+    "title": " benchmarks 真的靠譜嗎？開發者社群集體質疑評測標準",
+    "title_original": "Does anyone actually respect benchmarks?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvgyvk/does_anyone_actually_respect_benchmarks/",
+    "published_at": "2026-08-22T16:32:20+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit LocalLLaMA 社群熱烈討論 benchmark 評測結果的可信度，質疑各大模型在公開評測中的分數是否真實反映實際使用情境。開發者反映許多 benchmark 存在資料洩漏、過擬合、任務設計脫離實際需求等問題，導致評測分數與產品體驗嚴重脫節。",
+    "highlights": [
+      "社群普遍認為現有 benchmark 存在資料污染疑慮",
+      "評測任務與實際使用情境差異過大",
+      "部分模型可能在特定 benchmark 上刻意優化",
+      "開發者呼籲建立更貼近真實工作流程程的評測標準",
+      "用戶實測體驗經常與 benchmark 分數不一致"
+    ],
+    "why_it_matters": "Benchmark 是選擇模型的重要參考依據，若評測標準本身存在缺陷，工程師可能選錯工具導致專案失敗或資源浪費。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員應建立自己的內部評測集，用真實任務樣本測試感興趣的模型，而非完全依賴第三方 benchmark 分數。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-ai-agent",
+    "title": "程式碼審查之外的 AI Agent 協作策略",
+    "title_original": "More than just code review",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+    "published_at": "2026-08-22T15:56:54+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 探討如何有效與程式碼 Agent 協作，核心觀點是不要只依賴逐行審查，而是建立清晰指示並有效驗證變更結果。這適用於任何需要 AI 輔助程式設計的場景。",
+    "highlights": [
+      "AI Agent 協作關鍵在於明確指示與結果驗證",
+      "逐行審查並非最高效的驗證方式",
+      "需要建立信心：確保 AI 理解任務並正確執行",
+      "可結合測試驅動開發、自動化測試等方式驗證",
+      "適用於所有程式碼相關的 AI 工具"
+    ],
+    "why_it_matters": "提升與 AI Agent 協作效率是技術宅當前面臨的核心課題，Simon Willison 的建議可立即應用於改善日常工作流程程。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立 Prompt 範本庫，包含任務描述與驗證標準，讓 AI Agent 每次任務都有明確的成功標準，並透過自動化測試驗證結果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-22-llm",
+    "title": "工程師探討如何去除 LLM 輸出中「時髦話」症狀",
+    "title_original": "How to remove trendy speech from llms?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvfbde/how_to_remove_trendy_speech_from_llms/",
+    "published_at": "2026-08-22T15:26:22+00:00",
+    "category": "agent-skills",
+    "summary": "LocalLLaMA 用戶討論如何消除 LLM 回覆中常見的制式化、過度謹慎的「時髦話」風格。社群分享了系統提示詞調整、溫度參數設定、輸出格式約束等技巧，目標是讓模型回覆更直接、減少無意義的緩衝語句。",
+    "highlights": [
+      "常見症狀包括「Certainly!」「As an AI...」等制式開頭",
+      "系統提示詞約束可部分改善此問題",
+      "降低 temperature 有助於減少隨機生成的緩衝語",
+      "few-shot prompting 示範理想回覆風格效果顯著",
+      "部分模型對此問題的敏感度天生較低"
+    ],
+    "why_it_matters": "在自動化流程中，LLM 的冗長制式回覆會干擾下游解析，增加後處理成本與延遲，直接影響工作流程效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 pipeline 中加入輸出清理模組，或透過系統提示詞測試不同模型對簡潔回覆的遵從度。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-22-omniseek-mcp-server",
     "title": "Omniseek：自架感知 MCP Server，能看圖、聽語音、跨語言爬取登入後內容",
     "title_original": "Battam1111/omniseek",
@@ -79,6 +334,34 @@
     "automation_angle_zh": "技術用戶可自行架設 lm-evaluation-harness 或 EleutherAI 的標準 benchmark，交叉驗證模型能力，而非完全依賴第三方評測網站的單一分數。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-antling-ling-3-0-flash-dspark",
+    "title": "AntLing 發布 Ling-3.0-flash 的 dspark 草稿模型",
+    "title_original": "AntLing released a dspark draft model for Ling-3.0-flash",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv71pg/antling_released_a_dspark_draft_model_for/",
+    "published_at": "2026-08-22T08:46:11+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群消息，AntLing 團隊為 Ling-3.0-flash 模型發布了 dspark 草稿模型。此版本屬於社區非官方衍生版本，具體技術細節與效能變化尚待驗證。",
+    "highlights": [
+      "由 AntLing 團隊發布的草稿加速模型",
+      "目標是搭配 Ling-3.0-flash 使用",
+      "屬於社群非官方發布，詳細規格未披露",
+      "Reddit 討論串為主要資訊來源",
+      "未提供正式效能測試或文件"
+    ],
+    "why_it_matters": "dspark 草稿模型可能用於加速推論，但資訊透明度不足，技術宅應審慎評估其穩定性與實際效益。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注官方發布渠道，等待完整技術文件或社群評測出爐後再評估是否整合至推論流程。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -61430,6 +61713,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-22-anthropic-agent",
+    "title": "Anthropic 揭示生物學領域的 Agent 發展藍圖",
+    "title_original": "Paving the way for agents in biology - Anthropic",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDc0poWWVRZXlzMldPQXVoMWdSeWZSSFBSeG96QjdWWUNJc1g2ZXE5V253SWhOWmpfWlUwVDhubGdTY1dYYXljektTaFp1NHhuSVFGczBEM3NmWGNVWGVsSHFB?oc=5",
+    "published_at": "2026-06-08T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 官方部落格文章探討 AI Agent 在生物學研究中的應用前景，涵蓋蛋白質結構預測、藥物發現、基因編輯等領域的自動化可能性，以及 Claude 等模型在科學發現中的角色。",
+    "highlights": [
+      "Anthropic 官方發布，代表公司正式戰略方向",
+      "聚焦生物學作為 Agent 應用的關鍵領域",
+      "涉及蛋白質預測、藥物研發、基因編輯等場景",
+      "強調模型的多步推論與工具使用能力",
+      "屬於願景陳述而非具體產品發布"
+    ],
+    "why_it_matters": "Anthropic 明確表態進軍科學研究領域，此訊號顯示未來模型能力將更針對複雜科學任務優化，技術宅可關注後續 API 功能更新。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤 Anthropic 是否為科學應用場景推出專用 API 或工具，整合至生物資訊學自動化流程中。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-09-openai-agi",
     "title": "OpenAI 公布 AGI 願景藍圖：安全與普惠並重",
     "title_original": "Built to benefit everyone: our plan",
@@ -93635,6 +93946,34 @@
     "why_it_matters": "Mistral 持續擴充開源模型矩陣，若 Devstral 延續 7B/8B 參數級別的高性價比策略，可為需要本地部署的開發者提供新選擇。",
     "automation_angle": null,
     "automation_angle_zh": "等待官方完整技術文件後，可透過 Ollama 或 vLLM 快速部署測試，評估其推論速度與任務準確度是否滿足特定自動化需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-mistral-devstral-gpt-4-1-mini",
+    "title": "Mistral Devstral 宣稱超越 GPT-4.1-mini，瞄準程式碼開發市場",
+    "title_original": "Mistral's Devstral surpasses GPT-4.1-mini - VentureBeat",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdFUxUm5IYUVBUUFlRmxONnVJd0ZzMmE5Wk5SbTVEZV96RmI1d19iUHk3MUV6TGY1a01XOEpXaTBLLW9ITkJPaUlEMEZyaE5WZ1I2Vy04NHY0QklBc08tMWtfVWdlZHoweG1VY1VoNlBsOUE0YWI5Ym9lSDRVbFlWTUczTmdoTWQ2YmNyQlR5ZWJfVVFyNWdocVRhSUtQRFhpS3hGTFB5bzh6YWFyRkUzT3RxWm1DUm5a?oc=5",
+    "published_at": "2025-05-21T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 發布 Devstral 模型，據 VentureBeat 報導在多項程式碼評測中超越 GPT-4.1-mini。該模型專為軟體開發任務優化，強調在推論效率與程式碼生成能力間取得平衡，為開發者提供新的開源替代選項。",
+    "highlights": [
+      "Devstral 為 Mistral 旗下專注程式碼任務的新模型",
+      "據報導在多項 benchmark 超越 GPT-4.1-mini",
+      "強調推論效率，適合作為本地部署選項",
+      "開源授權形式待確認（需查閱官方公告）",
+      "目標場景包括程式碼補全、重構與除錯"
+    ],
+    "why_it_matters": "若 Devstral 確實能在程式碼任務上匹敵 GPT-4.1-mini 且提供更低的部署成本，將為需要本機推論或成本敏感場景的團隊提供實用替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方正式發布後，可在本地環境實際測試 Devstral 的程式碼補全品質，與現有方案比較延遲、成本與準確率。",
     "tags": [
       "new-models",
       "rss",
