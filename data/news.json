@@ -1,5 +1,120 @@
 [
   {
+    "id": "2026-08-22-xiayu1987-noobot-ai-agent-mcp",
+    "title": "xiayu1987/noobot：自託管 AI Agent 工作區，支援 MCP 與多模型路由",
+    "title_original": "xiayu1987/noobot",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/xiayu1987/noobot",
+    "published_at": "2026-08-22T05:43:07Z",
+    "category": "agent-skills",
+    "summary": "Noobot 是一款自託管 AI Agent 工作區，整合 Tool Calling、MCP、沙盒執行與多 Agent 工作流程，支援網頁與桌面介面，JavaScript 開發者可直接上手。",
+    "highlights": [
+      "自託管部署，無需依賴第三方雲端 Agent 服務",
+      "支援 Model Context Protocol（MCP）標準介面",
+      "具備沙盒執行環境，工具呼叫安全性較高",
+      "多模型路由可在同一工作流程中切換不同 AI 提供者",
+      "提供網頁與桌面雙介面，開箱即用"
+    ],
+    "why_it_matters": "對想實驗自建 Agent 工作流程又不想被特定平台綁定的工程師，Noobot 提供了一個可快速部署的起點。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本機起一個 Docker 實例，測試用 MCP 工具呼叫 GitHub API 自動建立 Issue 並回傳結果的完整流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/126240622?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-drfccv-mcp-server-12306-mcp",
+    "title": "drfccv/mcp-server-12306：中國鐵路票務 MCP 後端系統",
+    "title_original": "drfccv/mcp-server-12306",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/drfccv/mcp-server-12306",
+    "published_at": "2026-08-22T05:33:00Z",
+    "category": "agent-skills",
+    "summary": "基於 MCP 協定的高效能火車票查詢後端，提供餘票查詢、車站資訊、列車經停站、中轉方案等官方 12306 資料介面，GitHub 星標達 368。",
+    "highlights": [
+      "標準 MCP 介面，AI Agent 可直接呼叫餘票查詢",
+      "涵蓋餘票、車站、列車經停、中轉方案完整功能",
+      "直接串接 12306 官方資料，資訊即時性較高",
+      "Python 開發，易於擴展與整合到現有系統",
+      "368 stars 顯示有一定社群關注度"
+    ],
+    "why_it_matters": "需要自動化出差報票或行程規劃的技術團隊，可直接用此 MCP 工具讓 Agent 查詢火車票而不需手動操作 12306 網站。",
+    "automation_angle": null,
+    "automation_angle_zh": "串接到自建 Agent，輸入「下週二台北到高雄高鐵票」指令後自動查詢餘票並回傳結果到 Slack 或 Email。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/65041949?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-22-speedpy-speedpy-django-saas-mcp-server-ai-agent",
+    "title": "speedpy/speedpy：Django SaaS 樣板，含 MCP Server 供 AI Agent 呼叫",
+    "title_original": "speedpy/speedpy",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/speedpy/speedpy",
+    "published_at": "2026-08-22T05:31:04Z",
+    "category": "agent-skills",
+    "summary": "MIT 授權的 Django SaaS 開源樣板，內建生產級 API、團隊管理、帳務系統，並附帶 MCP Server 供 AI Agent 直接操作 SaaS 功能。",
+    "highlights": [
+      "MIT 授權，可自由商業使用無授權費負擔",
+      "提供團隊權限與帳務系統，縮短 SaaS 開發初期基建時間",
+      "內建 MCP Server，Agent 可直接操控後台功能",
+      "Django 生態豐富，Python 開發者易於客製",
+      "77 stars，社群仍在早期關注階段"
+    ],
+    "why_it_matters": "想快速建立 AI 原生 SaaS 產品的技術創業者，可直接以 speedpy 為基底，節省認證、金流、MCP 整合的前期工作。",
+    "automation_angle": null,
+    "automation_angle_zh": "用 Django 啟動專案，測試 MCP Server 是否能讓 Agent 自動建立團隊成員並觸發帳務事件，驗證 AI 原生架構可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/100555805?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-reddit-llm-agent",
+    "title": "Reddit 技術討論：如何讓本地 LLM/Agent 存取真實瀏覽器",
+    "title_original": "How to give a local LLM/agent access to a \"real\" web browser",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuykgj/how_to_give_a_local_llmagent_access_to_a_real_web/",
+    "published_at": "2026-08-22T01:17:29+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit LocalLLaMA 社群討論如何為本地部署的 LLM 或 AI Agent 賦予操控真實瀏覽器的能力，包含使用 Playwright、Selenium 等工具的整合方法，以及透過瀏覽器自動化擴展 Agent 的網頁操作邊界。",
+    "highlights": [
+      "使用 Playwright 或 Selenium 作為橋接層，讓本地 LLM 控制瀏覽器操作",
+      "透過 API 或 MCP 協定將瀏覽器事件回傳給模型處理",
+      "討論隱私考量：本地運行可避免資料外傳至第三方服務",
+      "涵蓋常見痛點如登入驗證、表單填寫、動態載入內容處理",
+      "社群成員分享實作範例程式碼與效能瓶頸分析"
+    ],
+    "why_it_matters": "本地 LLM 若能控制真實瀏覽器，即可執行自動化測試、資料抓取、網頁操作等任務，無需依賴雲端 API，大幅降低成本並提升隱私安全性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可將此方法應用於網頁自動化測試或批次資料抓取，用本地模型處理動態內容解析，省去昂貴的雲端瀏覽器自動化服務費用。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-22-meshtastic-mcp-ai-agent-meshtastic-mcp",
     "title": "meshtastic-mcp：讓 AI Agent 能驅動與觀測 Meshtastic 設備的 MCP 工具鏈",
     "title_original": "meshtastic/meshtastic-mcp",
@@ -90266,6 +90381,34 @@
       "ai-deals",
       "rss",
       "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-perplexity-ceo-ai-agent-computer",
+    "title": "Perplexity CEO 發聲：進軍 AI Agent 領域推出「Computer」產品",
+    "title_original": "Perplexity’s CEO steps Into the AI agent conversation with Computer - Fortune",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOV1R0Tjk5c05YMUN1Y0hIY1RER29wYXlzejJyOGlPcTk2TXZ0V0g0d0pNZlc1a0E5SV9oRllrZEk2UjMxbVFzQmExTV9FS1dwQU4tNXdvSTdmXzNTYmN4OEQwVlU5d0RSNEplZlRvaUZEZXdaNUs1NGFfNkNIYmoxWHNrN0lEcTVoYlY0Qi1Bc0lNdzRO?oc=5",
+    "published_at": "2026-02-26T08:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Perplexity CEO 接受 Fortune 專訪，闡述其對 AI Agent 發展的願景並透露即將推出名為「Computer」的產品線，試圖在 AI 搜尋之外拓展至更廣泛的電腦控制與任務自動化市場。",
+    "highlights": [
+      "Perplexity 計劃從搜尋引擎轉型為全功能性 AI Agent 平台",
+      "「Computer」產品瞄準電腦操作自動化場景",
+      "CEO 強調模型需要理解並操作真實世界介面",
+      "此舉顯示 AI 搜尋公司正往 Agent 方向垂直整合",
+      "具體產品時間表與定價策略尚未公布"
+    ],
+    "why_it_matters": "Perplexity 作為 AI 搜尋領先者切入 Agent 市場，可能改變既有競爭格局，並為技術開發者提供新的整合選項與潛在 API 合作機會。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可關注「Computer」的 API 文件發布，評估其是否提供電腦操作自動化介面，用以取代或補充現有的瀏覽器自動化工作流程程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
