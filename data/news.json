@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-08-22-meshtastic-mcp-ai-agent-meshtastic-mcp",
+    "title": "meshtastic-mcp：讓 AI Agent 能驅動與觀測 Meshtastic 設備的 MCP 工具鏈",
+    "title_original": "meshtastic/meshtastic-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/meshtastic/meshtastic-mcp",
+    "published_at": "2026-08-22T00:43:05Z",
+    "category": "agent-skills",
+    "summary": "meshtastic-mcp 是一個 MCP server 與對應的 agent skills 集合，讓 AI Agent 能夠發現、操作、觀測和測試 Meshtastic 設備與應用。Meshtastic 是一個開源、長距離、離網通訊協議，適合戶外或災難情境。此 MCP 工具鏈將硬體設備帶入 Agent 控制範圍，場景垂直但明確。",
+    "highlights": [
+      "MCP server 實現，讓 Agent 可直接控制 Meshtastic 硬體",
+      "支援設備發現、驅動控制、觀測狀態、測試指令全流程",
+      "Meshtastic 為離網長距離通訊協議，適合緊急應變或偏遠地區場景",
+      "12 stars，社群規模小，但方向具體非概念性專案",
+      "為垂直領域 Agent 應用提供參考架構"
+    ],
+    "why_it_matters": "這代表了 AI Agent 控制真實世界硬體的趨勢。MCP 協議正在成為 Agent 操控外部系統的標準介面，meshtastic-mcp 是實體硬體控制場景的具體案例，值得關注協議擴展的方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你有 Meshtastic 設備，可在本地架設 MCP server，讓 GPT-4o / Claude 透過 MCP 協議發送 Meshtastic 訊息，實現「AI 語音指令驅動離網通訊」的實驗性工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/61627050?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-logion-ai-agent",
+    "title": "logion：開源版本化 AI Agent 構件註冊表，附帶溯源與證據鏈",
+    "title_original": "nicolasmelo1/logion",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/nicolasmelo1/logion",
+    "published_at": "2026-08-22T00:43:02Z",
+    "category": "agent-skills",
+    "summary": "logion 旨在建立一個開放、版本化的 AI Agent 構件註冊表，收錄 skills、plugins、MCP servers、models 等構件，並附帶溯源資訊與可用性證據。核心問題是：這些構件到底能不能真的在自己的 Agent 裡跑起來？logion 嘗試用開放協議解決這個信任問題。",
+    "highlights": [
+      "提出開放協議下的版本化註冊表，試圖解決 AI 構件發現與信任問題",
+      "每個構件附帶 provenance（溯源）與 evidence（證據），非只是列表",
+      "支援 skills、plugins、MCP servers、models 等多元構件類型",
+      "Python 實現，35 stars，仍屬早期專案階段",
+      "若能落地將大幅簡化 Agent 工作流程的依賴管理"
+    ],
+    "why_it_matters": "AI Agent 生態目前充斥着「列出來但跑不通」的插件與工具鏈。logion 若能建立可信的構件驗證機制，將成為 Agent 開發者的關鍵基礎設施，節省大量試錯時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "查看 logion 官方列出的 MCP server 列表，挑選一個與自己 Agent 框架相容的插件，實際部署測試並對比 logion 提供的 evidence 文件是否與實測結果吻合，評估其可信度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/12915742?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-qwen-3-8-27b-pi-agent-opencode",
+    "title": "Qwen 3.8 27b：PI AGENT 與 OpenCode 實測比較",
+    "title_original": "Qwen 3.8 27b - PI AGENT vs OPENCODE - another smaple",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuwwww/qwen_38_27b_pi_agent_vs_opencode_another_smaple/",
+    "published_at": "2026-08-22T00:02:12+00:00",
+    "category": "new-models",
+    "summary": "Reddit 討論串進一步比較 Qwen 3.8 27B 在不同代理框架（PI AGENT 與 OpenCode）下的表現差異，分享者提供具體程式範例對比兩者處理問題的方式與結果品質。",
+    "highlights": [
+      "聚焦 PI AGENT 與 OpenCode 兩種代理框架",
+      "提供具體程式範例而非抽象描述",
+      "屬於社群自發性比較，未受控實驗環境",
+      "結果可能受框架版本、prompt 設計影響",
+      "與第一條來源同屬 Qwen 3.8 27B 討論系列"
+    ],
+    "why_it_matters": "不同代理框架對同一模型的適配度差異，可能影響實際使用體驗。此類實戰經驗有助技術用戶選擇合適的工具組合，但需自行驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議依自身需求選擇代理框架，本地測試時可記錄任務完成率與執行時間作為橫向比較依據，建立適合自己工作流程的模型-框架組合。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-qwen3-8-27b-q6",
+    "title": "Qwen3.8-27B Q6 在代理式編程任務表現突出",
+    "title_original": "Qwen3.8-27B Q6 is a beast at agentic coding",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuotqr/qwen3827b_q6_is_a_beast_at_agentic_coding/",
+    "published_at": "2026-08-21T18:41:24+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 社群反饋顯示，阿里 Qwen 3.8 27B 模型（Q6 量化版本）在代理式編程任務中展現優異表現，使用者分享的範例展示其在多步驟程式任務規劃與執行上的能力。社群正向評價其性價比與本地部署可行性。",
+    "highlights": [
+      "Qwen 3.8 27B 模型 Q6 量化版本",
+      "社群自發性回饋指向代理式編程場景表現良好",
+      "27B 參數規模適合中等硬體配置本地運行",
+      "Q6 量化在速度與品質間取得平衡",
+      "屬於 Reddit 社群主觀經驗分享，非正式 benchmark"
+    ],
+    "why_it_matters": "若 Q6 量化版本真能在代理式編程維持穩定表現，代表技術用戶可用消費級 GPU 跑出接近旗艦模型的編碼代理能力，显著降低 AI 工具成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載 GGUF 格式權重，在本地使用 Ollama 或 llama.cpp 架設測試環境，針對日常程式任務（如重構、測試生成、bug 修復）進行 72 小時實測評估。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-21-comfy-org-comfy-skills",
     "title": "Comfy-Org/comfy-skills 雲端創作技能集",
     "title_original": "Comfy-Org/comfy-skills",
@@ -55,6 +169,62 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/269868370?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-llm-0-32-1-httpx",
+    "title": "llm 0.32.1 緊急修復 httpx 依賴問題",
+    "title_original": "llm 0.32.1",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/21/llm/",
+    "published_at": "2026-08-21T17:16:13+00:00",
+    "category": "agent-skills",
+    "summary": "llm CLI 工具 0.32.1 版本緊急修復相依性問題。起因是 OpenAI Python 函式庫移除了對 httpx 的引用，而 llm 透過 openai 間接依賴 httpx。現版將 openai 固定在 <3 版本範圍，並規劃在 0.33 正式遷移到 httpx2。",
+    "highlights": [
+      "修補 OpenAI 依賴變更導致的安裝失敗問題",
+      "短期方案：pin openai<3 阻止破壞性更新",
+      "長期方案：下一版 0.33 將從 httpx 遷移到 httpx2",
+      "影響所有新安裝的 LLM 使用者",
+      "Simon Willison 維護的熱門開源 CLI 工具"
+    ],
+    "why_it_matters": "LLM 是許多技術用戶日常使用的本地 AI 介面，此修復確保新安裝使用者不會遇到環境錯誤，能正常啟動使用。",
+    "automation_angle": null,
+    "automation_angle_zh": "若剛好遇到 llm 安裝後無法執行，立即執行 pip install 'llm==0.32.1' 升級即可解決，無需手動調整相依版本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-22-llm-openrouter-0-7",
+    "title": "llm-openrouter 0.7 發布：新增伺服器端工具整合",
+    "title_original": "llm-openrouter 0.7",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+    "published_at": "2026-08-21T16:58:19+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 的 llm-openrouter 外掛迎來 0.7 版本，正式相容 LLM 0.32，對 OpenRouter 上的推論模型支援大幅改善。新版採用 OpenRouter 的 Responses API，並新增 Shell、WebFetch、WebSearch 三款伺服器端工具，可透過 -T 參數快速啟用。",
+    "highlights": [
+      "完整支援 LLM 0.32，大幅改善推論模型穩定性",
+      "採用 OpenRouter Responses API 相容架構",
+      "新增 WebSearch 工具，可直接呼叫網路搜尋",
+      "新增 WebFetch 工具，支援網頁內容抓取",
+      "新增 Shell 工具，強化本機指令執行能力"
+    ],
+    "why_it_matters": "對於已使用 LLM CLI 的技術人，新版可直接透過 OpenRouter 整合多模型，並用自然語言驅動網路搜尋與本機指令，大幅擴展自動化工作流程的可能性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可立即安裝測試：pip install llm-openrouter -U，搭配 -T WebSearch 參數讓 AI 直接查詢最新資訊並整理，取代手動 Google 搜尋與複製貼上流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-08-21-tui-ai-gui",
@@ -2970,6 +3140,35 @@
       "en"
     ],
     "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-snapllm-c-sub-ms-edge-20b",
+    "title": "snapllm：C++ 實現的多模型服務框架，號稱 sub-ms 模型切換、支援 Edge 20B 推論",
+    "title_original": "maheshvaikri-code/snapllm",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/maheshvaikri-code/snapllm",
+    "published_at": "2026-08-18T02:24:29Z",
+    "category": "open-source-ai",
+    "summary": "snapllm 是 C++ 實現的多模型 serving 工具，強調 sub-ms 等級的模型切換延遲，支援 CPU 獨立的 20B 模型邊緣推論，底層使用 llama.cpp 與 stablediffusion.cpp。現僅 39 stars，屬早期專案，但技術方向明確：降低多模型部署的資源與延遲門檻。",
+    "highlights": [
+      "C++ 實現，理論上比 Python-based serving 延遲更低",
+      "支援 sub-ms 級別的模型切換，適合需要快速更換模型的 Agent 場景",
+      "CPU-only 20B 推論能力，降低對高階 GPU 的依賴",
+      "基於 llama.cpp 生態，相容大量 GGUF 格式模型",
+      "目前 stars 偏低，需持續觀察社群活躍度與穩定性"
+    ],
+    "why_it_matters": "Edge AI 推論與快速模型切換是降低 AI 工具成本的核心技術方向。snapllm 若能在 CPU 上穩定跑 20B 並實現 sub-ms 切換，將對本地 Agent 部署與多模型路由場景有實質影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地環境編譯 snapllm，下載一個 7B 或 13B 的 GGUF 模型進行延遲基準測試，比較其冷啟動時間與 Ollama 的差異。若延遲表現如宣稱，可作為取代 Ollama 的候選方案。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "C++"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/188131748?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
