@@ -1,5 +1,91 @@
 [
   {
+    "id": "2026-08-22-omniseek-mcp-server",
+    "title": "Omniseek：自架感知 MCP Server，能看圖、聽語音、跨語言爬取登入後內容",
+    "title_original": "Battam1111/omniseek",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Battam1111/omniseek",
+    "published_at": "2026-08-22T12:07:51Z",
+    "category": "agent-skills",
+    "summary": "Omniseek 是一個自架的感知型 MCP Server，主打超越傳統搜尋的能力：語音轉文字、讀取登入牆後內容、解析圖片與影片幀、跨語言理解，並具備記憶功能。目標是讓 Agent 能獲取搜尋引擎無法觸及的深層資訊。",
+    "highlights": [
+      "自架部署：資料不經第三方，保證隱私",
+      "語音轉文字：可直接處理音頻輸入",
+      "登入後爬取：突破付費牆或需認證的網站",
+      "多模態感知：支援圖片、影片幀解析",
+      "記憶能力：可跨任務保留上下文"
+    ],
+    "why_it_matters": "傳統搜尋受限於登入牆與動態內容，Omniseek 提供了一種讓 AI Agent 獲取深層資訊的途徑，對需要研究付費內容或內網資料的技術用戶很有價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署 Omniseek 後，可讓 Agent 自動爬取需要登入的技術論壇、內部文件系統或付費資料庫，並將結果摘要整合進工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/101111615?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-serial-agent-vs-code-ai-ai-mcu",
+    "title": "Serial-Agent：VS Code 擴充的 AI 串口調試平台，賦予 AI 分析 MCU 日誌能力",
+    "title_original": "Rance-OwO/Serial-Agent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Rance-OwO/Serial-Agent",
+    "published_at": "2026-08-22T11:50:49Z",
+    "category": "agent-skills",
+    "summary": "Serial-Agent 是專為嵌入式 MCU 開發設計的 AI 串口調試平台，基於 VS Code 擴充與 MCP Server，支援自動掃描串口、HEX 收發、時間戳、日誌緩衝與自動重連，並透過本地 Bridge API 將串口能力暴露給 AI，實現燒錄→讀取→自動分析→輔助修復的閉環工作流程。",
+    "highlights": [
+      "VS Code 整合：開發者無需切換工具即可調試",
+      "AI 串口橋接：本地 Bridge API 讓 AI 直接讀取串口日誌",
+      "支援多種燒錄器：Keil + JLink/DAP-Link/ST-Link",
+      "自動化閉環：燒錄→讀日誌→AI 分析→修復建議",
+      "TypeScript Monorepo：便於擴展與自定義"
+    ],
+    "why_it_matters": "傳統串口調試耗時費力，Serial-Agent 將 AI 引入除錯流程，有潛力將 MCU 調試從手動變為半自動，技術宅可顯著提升嵌入式開發效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 VS Code 中安裝擴充，連接 MCU 開發板，讓 AI 自動分析串口輸出並給出可能的韌體錯誤建議，減少人工排查時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/101329193?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-22-reddit-artificial-analysis-intelligence",
+    "title": "Reddit 社群質疑「Artificial Analysis Intelligence」評測基準有效性",
+    "title_original": "Artificial Analysis \"Intelligence\": A meaningless benchmark",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv80xa/artificial_analysis_intelligence_a_meaningless/",
+    "published_at": "2026-08-22T09:43:38+00:00",
+    "category": "hot-topics",
+    "summary": "LocalLLaMA 論壇有用戶發文批評 Artificial Analysis 網站的「Intelligence」評測分數，認為該指標定義模糊、無法真實反映模型能力，且計算方式缺乏透明度，質疑其是否淪為行銷工具而非客觀基準。",
+    "highlights": [
+      "用戶指出「Intelligence」指標定義不明，難以與其他 benchmark 如 MMLU、HellaSwag 進行有意義比較",
+      "Artificial Analysis 的評測方法論透明度不足，社群難以驗證其分數計算邏輯",
+      "該指標可能過度強調單一數字，忽略模型在不同任務上的表現差異",
+      "批評者認為此類 benchmark 更像是給一般消費者的行銷參考，而非工程師的技術評估工具",
+      "討論中也提到其他評測網站如 Scale AI 的 Leaderboard 也有類似問題"
+    ],
+    "why_it_matters": "對於技術用戶而言，錯誤的 benchmark 可能導致模型選型失誤，浪費部署資源。了解社群對評測工具的批判觀點，有助於建立更全面的評估框架。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可自行架設 lm-evaluation-harness 或 EleutherAI 的標準 benchmark，交叉驗證模型能力，而非完全依賴第三方評測網站的單一分數。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-22-xiayu1987-noobot-ai-agent-mcp",
     "title": "xiayu1987/noobot：自託管 AI Agent 工作區，支援 MCP 與多模型路由",
     "title_original": "xiayu1987/noobot",
