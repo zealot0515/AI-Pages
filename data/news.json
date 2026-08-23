@@ -1,5 +1,34 @@
 [
   {
+    "id": "2026-08-23-golem-3dmcp-rhino-ai-agent-rhino-3d-mcp",
+    "title": "GOLEM-3DMCP-Rhino：讓 AI Agent 完全操控 Rhino 3D 的 MCP 工具集",
+    "title_original": "TheKingHippopotamus/GOLEM-3DMCP-Rhino-",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/TheKingHippopotamus/GOLEM-3DMCP-Rhino-",
+    "published_at": "2026-08-23T11:12:14Z",
+    "category": "agent-skills",
+    "summary": "一個 MCP 服務器為 AI Agent（Claude、Cursor、Windsurf 等）提供 105 個工具，可完整操控 Rhinoceros 3D v8，包括幾何、曲面、布林運算、Grasshopper、視口截圖與腳本執行。目前 GitHub 僅 12 顆星，但定位明確，有實際使用價值。",
+    "highlights": [
+      "105 個 Rhino v8 專屬工具，含幾何與曲面運算",
+      "支援 Grasshopper 腳本操控與視口截圖",
+      "可直接在 Claude Desktop、Cursor、Windsurf 中呼叫",
+      "Python 實作，需本機安裝 Rhino v8",
+      "小型專案，星數低但功能具體"
+    ],
+    "why_it_matters": "將 3D 建模能力帶入 Agent 工作流程，建築、工業設計或遊戲開發者可透過自然語言驅動 Rhino，減少手動操作時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "需要大量重複建模或批量修改 Rhino 檔案的工程師，可寫 Prompt 讓 Agent 自動完成，例如批量調整參數或匯出特定視圖。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/197785723?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-23-reaper-mcp-ai-agent-reaper-mcp",
     "title": "reaper-mcp：讓 AI Agent 操控 REAPER 音軌的 MCP 音樂製作擴展",
     "title_original": "bonfire-systems/reaper-mcp",
@@ -55,6 +84,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/265859594?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-23-qwen3-8-27b-localllama",
+    "title": "Qwen3.8-27B發布一週後：LocalLLaMA社群初步評價出爐",
+    "title_original": "# Qwen3.8-27B — One Week Later: The r/LocalLLaMA + r/LocalLLM Verdict",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvu15m/qwen3827b_one_week_later_the_rlocalllama/",
+    "published_at": "2026-08-23T01:39:46+00:00",
+    "category": "new-models",
+    "summary": "Qwen3.8-27B模型發布一週後，Reddit LocalLLaMA及LocalLLM社群用戶分享初步使用心得，包含推論速度、對話品質與記憶體需求的實測反饋，整體評價偏向正面但仍有優化空間。",
+    "highlights": [
+      "27B參數規模對消費級GPU（如RTX 3090/4090）仍有壓力",
+      "用戶反映指令-following能力較前代有明顯進步",
+      "推論延遲取決於量化程度，Q8量化約需16-18GB VRAM",
+      "部分用戶指出數學推論場景表現不如預期",
+      "社群建議搭配搜尋增強（RAG）使用以提升回答準確度"
+    ],
+    "why_it_matters": "Qwen3.8-27B作為開源中尺寸模型，其效能表現影響開發者對本地部署模型的選擇，特別是成本敏感型專案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於評估是否將此模型整合至個人知識管理或自動化工作流程程中，比較與GPT-4o-mini的成本效益。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -2378,6 +2435,34 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-23-google-google-ai-pro",
+    "title": "Google向美國大學生免費提供一年Google AI Pro教育版",
+    "title_original": "Google宣布向美国大学生免費提供一年 Google AI Pro 及多項专属教育特权 - cnBeta.COM",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9EenM1NzFGUTNTSjVLUTQ0YWFxLXlHa19wczZCSkRCMVJUZHZQTnYteWtseU1wZmZwWHZqa1g0Nl9TS3VkeENXM0QtMHI0UkI0dG9Wejh1bw?oc=5",
+    "published_at": "2026-08-19T23:32:59+00:00",
+    "category": "ai-deals",
+    "summary": "Google宣布向美國大學生免費提供一年Google AI Pro訂閱，包含Gemini Advanced、2TB雲端儲存及多項AI專屬功能，旨在擴大其在年輕用戶群中的滲透率。",
+    "highlights": [
+      "僅限美國境內大學生，需以.edu信箱驗證",
+      "包含Gemini Advanced使用權限，可使用Gemini 2.0系列模型",
+      "提供2TB Google One儲存空間（原價$9.99/月）",
+      "涵蓋Google Docs、Gmail的AI輔助功能",
+      "此優惠可能於2025年內結束，具體時間未公告"
+    ],
+    "why_it_matters": "技術人員可評估Gemini Advanced在程式碼生成、文件處理場景的能力是否滿足需求，同時節省約$120/年的訂閱費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用免費教育版測試Gemini API與現有開發工具鏈的整合可行性，評估其作為Copilot替代方案或補充的價值。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
