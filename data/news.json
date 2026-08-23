@@ -1,5 +1,229 @@
 [
   {
+    "id": "2026-08-23-ai-session-search-rust-ai-agent",
+    "title": "ai-session-search：Rust 驅動的超快 AI Agent 工作階段搜尋",
+    "title_original": "ahundt/ai-session-search",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ahundt/ai-session-search",
+    "published_at": "2026-08-23T00:34:23Z",
+    "category": "agent-skills",
+    "summary": "ai-session-search 是 Rust 實現的 AI Agent 工作階段搜尋工具，可在秒級完成數百萬條訊息的檢索。支援 Claude Code、Claude Desktop、Codex、Cursor、Gemini CLI 等主流 Agent 平台。提供 aise CLI、MCP Server、Rust Library 與 Python API 四種接入方式。",
+    "highlights": [
+      "Rust 核心實現亞秒級搜尋效能，支援海量訊息庫",
+      "支援 Claude Code、Cursor、Gemini CLI 等六大主流 Agent",
+      "提供 CLI、MCP Server、Python API 三種使用介面",
+      "24 小時內漲幅 12%，專案正處於快速增長期",
+      "開源 MIT 授權，可自由整合至現有工作流程"
+    ],
+    "why_it_matters": "技術用戶常面臨 Agent 歷史對話難以回溯的痛點，此工具將搜尋瓶頸從分鐘級降至秒級，大幅提升除錯與上下文檢索效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 aise MCP Server 接入 Cursor 或 Claude Code，在大型專案中快速搜尋特定決策或錯誤記錄，節省手動翻閱歷史 session 的時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/55744?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-23-davinci-mcp-professional-davinci-resolve-ai-agent",
+    "title": "davinci-mcp-professional：將 DaVinci Resolve 完整功能暴露給 AI Agent",
+    "title_original": "hoyt-harness/davinci-mcp-professional",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/hoyt-harness/davinci-mcp-professional",
+    "published_at": "2026-08-23T00:21:12Z",
+    "category": "agent-skills",
+    "summary": "davinci-mcp-professional 是企業級 MCP Server，將 DaVinci Resolve Studio 完整功能暴露給 Claude Desktop、Claude Code、Gemini CLI、ChatGPT 等 Agent。支援 Linux、Windows、macOS 三大平台，讓 AI 能直接操控剪輯軟體進行影片後製任務。",
+    "highlights": [
+      "DaVinci Resolve Studio 完整功能 MCP 化，支援時間線操作",
+      "企業級設計，支援三大作業系統平台",
+      "支援 Claude、ChatGPT 等主流 Agent 平台",
+      "可用於自動化剪輯流程與後製任務",
+      "屬於新興 MCP 工具鏈的專業應用範例"
+    ],
+    "why_it_matters": "影片剪輯自動化長期缺乏標準化的 Agent 接口，此專案將剪輯軟體能力標準化後開放，為建立影片後製 Agent 工作流程提供基礎設施。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將此 MCP Server 與 Claude Code 整合，實驗自動完成片段裁剪、轉場添加、色彩校正等重複性後製任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/2735828?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-23-r-localllama",
+    "title": "r/LocalLLaMA 討論：最適合對話上下文壓縮的極小模型？",
+    "title_original": "Best tiiiny model for session compression?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvnzwx/best_tiiiny_model_for_session_compression/",
+    "published_at": "2026-08-22T21:07:35+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 技術討論串探索用於 Agent 對話 Session 壓縮的最佳極小模型選擇。成員分享使用 TinyLlama、Phi-3-mini 等 1B-3B 參數模型搭配蒸餾技術，嘗試在保留關鍵意圖的前提下將長對話歷史壓縮至模型上下文限制內。此方向對多輪對話 Agent 的成本控制具參考價值。",
+    "highlights": [
+      "目標：將多輪對話歷史壓縮至小模型可處理長度",
+      "候選模型：TinyLlama、Phi-3-mini、Gemma-2B 等",
+      "技術手段：蒸餾訓練、摘要向量檢索混合",
+      "可降低 Agent 每次請求的 Token 消耗",
+      "目前以社群經驗分享為主，缺乏系統性基準"
+    ],
+    "why_it_matters": "對話壓縮能直接降低每次 API 呼叫成本與延遲，若能找到高效小模型替代完整上下文傳遞，可在不犧牲太多準確度前提下大幅節省 AI 工具開支。",
+    "automation_angle": null,
+    "automation_angle_zh": "自建測試環境，選用 1-3B 參數模型訓練一個簡單的對話摘要器，針對自定義 Agent 對話紀錄測試壓縮後意圖保留率與成本節省幅度。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-23-linus-torvalds-ai",
+    "title": "Linus Torvalds 談 AI 輔助偵錯：幫手勤奮但容易放棄",
+    "title_original": "Quoting Linus Torvalds",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
+    "published_at": "2026-08-22T21:04:26+00:00",
+    "category": "agent-skills",
+    "summary": "Linux 作者 Linus Torvalds 在 debug drm/xe 顯示卡驅動時大量使用 AI 協助，AI 處理了繁重的程式碼分析工作。但 AI 多次聲稱問題「不可能解決」建議直接寫報告放棄，最終靠 Torvalds 堅持推動才完成偵錯。",
+    "highlights": [
+      "AI 成功處理大量 grunt-work 類的重複分析任務",
+      "AI 在遇到困難時會消極，建議放棄而非繼續探索",
+      "Torvalds 批評 AI 可能被「不放棄」數據訓練不足的人訓練過",
+      "最終仍由 AI 撰寫 commit message，Torvalds 給予 credit"
+    ],
+    "why_it_matters": "這次親身經歷揭示當前 AI 程式碼助理的真實限制：能做苦工但缺乏面對挫折的韌性，對需要頑強偵錯的開發者來說是重要參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用類似方式測試自己工作流程中的 AI 工具，觀察它們在複雜問題上的放棄閾值，調整 prompt 或選擇更適合頑固偵錯的模型。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-23-dflash-2-llama-cpp-8",
+    "title": "DFlash 2 推測解碼基準出爐：llama.cpp 中程式碼任務最高 8 倍加速",
+    "title_original": "I benchmark DFlash 2 (PR build) in llama.cpp on Qwen 3.8 27B against all speculative methods for 3 days. 2.26x on 100 real coding prompts, 4.68x with one n-gram drafter on top. Up to 8x on specific cases.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvncyh/i_benchmark_dflash_2_pr_build_in_llamacpp_on_qwen/",
+    "published_at": "2026-08-22T20:41:35+00:00",
+    "category": "agent-skills",
+    "summary": "開發者針對 llama.cpp 中的 DFlash 2（PR build）進行為期三天的嚴格基準測試，以 Qwen 3.8 27B 為目標模型。在 100 道真實程式碼提示下，DFlash 2 帶來 2.26 倍加速；疊加 n-gram draft 層後達 4.68 倍；特定案例甚至突破 8 倍效能提升，為本地推論速度最佳化提供新選擇。",
+    "highlights": [
+      "DFlash 2 推測解碼相比無 speculative decoding 有 2.26x 提升",
+      "結合 n-gram draft 模型可進一步達 4.68x 加速",
+      "程式碼生成任務提升最顯著，最高達 8x",
+      "需 PR 版本 llama.cpp，含 DFlash 2 新實作",
+      "記憶體佔用些微增加但換來延遲大幅下降"
+    ],
+    "why_it_matters": "推論延遲降低直接影響 AI 輔助程式設計的使用體驗，若能在本地將生成延遲從秒級壓至百毫秒級，將大幅提升互動式工作流程的可行性與流暢度。",
+    "automation_angle": null,
+    "automation_angle_zh": "編譯含 DFlash 2 的 llama.cpp，針對自定義程式碼補全或程式碼生成任務建立延遲評測腳本，量化 speculative decoding 的實際效益以決定是否投入生產環境。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-23-chain-of-thought-toffoli-fredkin-llm",
+    "title": "Chain-of-Thought 可能不再有損耗？探索 Toffoli/Fredkin 架構用於邊緣 LLM",
+    "title_original": "What if Chain-of-Thought wasn’t lossy? Exploring reversible logic (Toffoli/Fredkin-style) for edge LLMs",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvn63i/what_if_chainofthought_wasnt_lossy_exploring/",
+    "published_at": "2026-08-22T20:33:52+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 有人提出用可逆邏輯閘（Toffoli/Fredkin）實作 Chain-of-Thought，理論上可讓推論過程完全保留而不僅只生成最終答案。這對邊緣裝置上的小型 LLM 有潛在意義，因為傳統 CoT 會丟失中間步驟導致資訊損耗。",
+    "highlights": [
+      "可逆邏輯閘可在計算過程中保留所有中間狀態，理論上實現無損耗推論",
+      "Toffoli/Fredkin 架構適合硬體實現，可能比標準神經網路更節能",
+      "邊緣 LLM 資源受限，這種方法可優化推論效率與準確度",
+      "目前僅停留在理論/概念階段，缺乏實際實現與 benchmark"
+    ],
+    "why_it_matters": "若可逆邏輯 CoT 真的實現，邊緣 LLM 的推論品質可能大幅提升，對手機/IoT 裝置上的 AI 應用有重大影響，技術宅值得追蹤後續實驗結果。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可關注相關論文，評估此方法對特定邊緣部署場景的適用性，若有開源實現可嘗試在 Raspberry Pi 或 Jetson Nano 上測試。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-23-glm-amd-gfx906-radeon-vii-gcn-llama-cpp",
+    "title": "GLM 發布 AMD GFX906 (Radeon VII/GCN 系列) 專用 llama.cpp 分支優化版",
+    "title_original": "GLM and I created a llama.cpp fork optimized for AMD GFX906 (Mi50, Mi60, Radeon VII, GCN HIP) - Machine Learning, LLMs, & AI",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvljbz/glm_and_i_created_a_llamacpp_fork_optimized_for/",
+    "published_at": "2026-08-22T19:29:19+00:00",
+    "category": "open-source-ai",
+    "summary": "GLM 與社群開發者共同釋出針對 AMD GFX906 架構（包含 Mi50、Mi60、Radeon VII 及 GCN 系列顯示卡）的 llama.cpp 優化分支，專門最佳化 ROCm/HIP 加速運算。相較原生版本在 AMD 硬體上可獲得更佳吞吐量與記憶體利用率，讓使用 AMD 顯示卡的使用者能在 Linux 環境下更流暢執行量化模型推論。",
+    "highlights": [
+      "支援 AMD GCN 架構顯示卡：Radeon VII、Mi50、Mi60 等經典 RDNA/GCN 產品",
+      "針對 ROCm/HIP 運算路徑優化編譯選項",
+      "相容 llama.cpp 既有量化格式（Q4_K_M、Q8_0 等）",
+      "可與現有本地部署腳本整合，替換 llama.cpp 路徑即可",
+      "社群驅動維護，需注意 ROCm 版本相容性"
+    ],
+    "why_it_matters": "對於持有 AMD 顯示卡的技術用戶，此分支提供原生 GPU 加速推論能力，省去轉譯層損耗，大幅提升本地 LLM 部署的性價比與實用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 ROCm 環境中編譯此分支替換系統預設 llama.cpp，針對 Qwen/GLM 等量化模型測試輸出品質與速度差異，可自動化建構 AMD 本地推論管線。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-23-rtx-5090-qwen3-8-27b-nvfp4-262k-77-tok-s",
+    "title": "RTX 5090 單卡實測 Qwen3.8-27B NVFP4：真實 262K 上下文可達 77 tok/s",
+    "title_original": "Single RTX 5090: Qwen3.8-27B NVFP4 at a real 262K context in vLLM — 77 tok/s short-context, 64.7 tok/s at 128K",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvl7pc/single_rtx_5090_qwen3827b_nvfp4_at_a_real_262k/",
+    "published_at": "2026-08-22T19:16:31+00:00",
+    "category": "new-models",
+    "summary": "使用單張 RTX 5090 執行 Qwen3.8-27B 模型，以 NVFP4 量化格式載入，實測在 262K 真實上下文長度下仍能維持高效率：短上下文達 77 tok/s，128K 上下文下仍有 64.7 tok/s 的輸出速度。此結果顯示消費級旗艦顯示卡已能在合理速度下處理超長上下文任務。",
+    "highlights": [
+      "單卡 RTX 5090 即可承載 Qwen3.8-27B NVFP4 全量化模型",
+      "262K 上下文真實可跑，非帳面標稱",
+      "短上下文吞吐量達 77 tokens/s，實用性高",
+      "128K 上下文下仍有 64.7 tok/s，長程推論可用",
+      "需搭配 vLLM 最新版本支援 NVFP4 格式"
+    ],
+    "why_it_matters": "消費級單卡突破 200K 上下文門檻，意味著技術用戶可在本地處理長文件分析、代碼庫理解等過往需雲端 API 才能勝任的任務，節省大量 API 費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 vLLM 部署 Qwen3.8-27B NVFP4 端點，針對內部文件摘要或程式碼審查流程建立本地 API 服務，評估延遲與準確度是否滿足自動化需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-22-nworks-line-works-mcp-server-cli",
     "title": "nworks：LINE WORKS的完整MCP Server與CLI工具",
     "title_original": "yjcho9317/nworks",
@@ -4369,6 +4593,34 @@
     "automation_angle_zh": "暫無直接自動化應用價值。這是 Google 的品牌合作案，不涉及新的 API、功能或可測試的開源工具。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-23-2026-11-ai-agent-hostinger",
+    "title": "2026 年 11 款最佳無程式碼 AI Agent 建構工具評測（Hostinger）",
+    "title_original": "11 best no-code AI agent builders in 2026 - Hostinger",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5QdHV4UmNTSkNRbk56V3lhWF9xX1g3a2tFaWRrZTZJVkNhNU82Vkg3eW9vWDU1azd1SkpabGJMSk91OUNIT2p2RnhteW1nVkF0d2NqLVZ0ZktnZlVKc1JxRXNUVlhpeU1BRk10dThmaDlQZw?oc=5",
+    "published_at": "2026-08-17T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Hostinger 整理 2026 年主流無程式碼 Agent 建構平台，涵蓋流程串接、多模型切換、記憶體管理等基本功能概覽。此類工具降低 AI 自動化門檻，但多數針對行銷電商情境，技術深度有限。建議技術用戶將此作為市場趨勢參考而非實際選型依據。",
+    "highlights": [
+      "列舉主流平台：Dify、Make、Bubble 等入列",
+      "強調低程式碼/無程式碼界面降低使用門檻",
+      "多聚焦行銷客服自動化情境",
+      "技術客製化空間受限，不適合深度整合",
+      "發布者為主機商，內容偏向行銷導向"
+    ],
+    "why_it_matters": "無程式碼 Agent 工具快速成熟代表 AI 自動化正在從技術圈向下普及，技術用戶可關注其底層模型調用方式與 API 設計，從中獲取整合思路或評估是否需要自行建構更彈性的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "瀏覽清單中的平台免費方案，針對簡單的重複性任務（如定時摘要、通知轉發）快速建構原型驗證，評估其功能邊界後再決定是否投入時間自建更客製化的解決方案。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
@@ -88601,6 +88853,34 @@
     "why_it_matters": "此優惠主要為省錢導向，對技術用戶的直接幫助有限。但若同時使用 Google AI 服務，可視為降低整體訂閱成本的附加價值。",
     "automation_angle": null,
     "automation_angle_zh": "對於已訂閱 Google One 或 AI Pro 的用戶，可評估是否將 YouTube Premium 納入個人工具鏈，以無廣告環境提升技術內容學習效率。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-23-chatgpt-claude-30",
+    "title": "ChatGPT 與 Claude 付費版 30 天實測對比：各自優勢與選用策略",
+    "title_original": "ChatGPT 和 Claude 我都付了钱：30 天实测後，我选择两個都要 - 深潮TechFlow",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBLM1RrZjhnOWtGVXktczd5b3RUYTh2ZjdIUE9jOWNsT3k3em5yMlRtVllueld4VHBkSmxaS1BzUzlyMXBrR3RhcGNHbDQ5MkpNWjVzRA?oc=5",
+    "published_at": "2026-04-16T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "技術部落客以一個月時間同時訂閱 ChatGPT Plus 與 Claude Pro，針對程式設計輔助、長文件閱讀、創意寫作等場景進行實測對比。結論傾向兩者並用而非單選：ChatGPT 在快速迭代與工具整合略優，Claude 在深度分析與上下文理解更勝，長期訂閱成本需納入自動化工作流程規劃考量。",
+    "highlights": [
+      "同時付費一個月，非單日體驗更具參考價值",
+      "ChatGPT Plus：工具生態完整，快速生成反饋佳",
+      "Claude Pro：長上下文理解與分析深度領先",
+      "兩者結合可覆蓋多數技術工作需求",
+      "月費合計約 40 美元，需評估投資報酬率"
+    ],
+    "why_it_matters": "對於需要高頻使用付費 AI 工具的技術從業人員，此實測可作為訂閱決策依據，避免浪費預算在不常使用的功能上，或錯過能顯著提升產能的服務。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據實測場景對應自有哪些工作流程程，評估以 API 或 Plus/Pro 訂閱方式哪種更符合成本效益，並考慮透過腳本分流不同任務至對應平台以優化使用量。",
     "tags": [
       "ai-deals",
       "rss",
