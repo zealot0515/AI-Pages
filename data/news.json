@@ -1,5 +1,90 @@
 [
   {
+    "id": "2026-08-23-provena-agent-ai-eu-ai-act",
+    "title": "provena：Agent AI 上下文治理與 EU AI Act 合規框架",
+    "title_original": "rajfirke/provena",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/rajfirke/provena",
+    "published_at": "2026-08-23T18:05:23Z",
+    "category": "agent-skills",
+    "summary": "provena 提供可篡改稽核軌跡、溯源驗證與 EU AI Act 合規支援，內建六種框架轉接器與 MCP 伺服器，基於 PostgreSQL 與策略引擎，現有 13 stars。",
+    "highlights": [
+      "支援 EU AI Act 合規所需的稽核與溯源",
+      "可篡改軌跡設計確保資料完整性",
+      "六種框架轉接器方便整合既有系統",
+      "提供 MCP 伺服器與策略引擎",
+      "適合企業級 Agent 部署需求"
+    ],
+    "why_it_matters": "隨著 AI 法規趨嚴，Agent 系統需要可信賴的上下文治理機制，provena 提供開源解決方案降低合規成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在部署企業級 Agent 前評估 provena，確保自動化決策流程具備完整的操作稽核與責任歸屬能力。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/79653531?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-23-codebadger-joern-cpg-mcp",
+    "title": "codebadger：基於 Joern CPG 的容器化 MCP 程式碼分析伺服器",
+    "title_original": "qcri/codebadger",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/qcri/codebadger",
+    "published_at": "2026-08-23T17:54:30Z",
+    "category": "agent-skills",
+    "summary": "codebadger 是封裝成容器的 MCP 伺服器，利用 Joern 程式碼屬性圖（CPG）技術，讓 AI Agent 可深度查詢程式碼結構與資料流向，目前 159 stars。",
+    "highlights": [
+      "Joern CPG 提供語義豐富的程式碼圖表示",
+      "容器化部署，環境一致性高",
+      "MCP 協議兼容，支援主流 Agent 框架",
+      "可查詢函式呼叫鏈、變數傳遞等結構資訊",
+      "有助 Agent 理解大型程式碼庫"
+    ],
+    "why_it_matters": "為 AI Agent 提供除錯、程式碼理解與重構分析能力，是提升程式碼相關自動化任務品質的基礎設施。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 codebadger 整合進 CI/CD 或程式碼審查 Agent，自動分析 Pull Request 中的潛在漏洞或複雜度問題。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1274956?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-23-macos-qwen3-8-27b",
+    "title": "macOS 運行 Qwen3.8-27B 引擎效能實測出爐",
+    "title_original": "Benchmark results: what is the best and fastest engine to run Qwen3.8-27B on macOS",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwbyzr/benchmark_results_what_is_the_best_and_fastest/",
+    "published_at": "2026-08-23T16:37:44+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶發布在 macOS（Apple Silicon）上運行 Qwen3.8-27B 各推論引擎的 benchmark 比較，涵蓋 llama.cpp、MLX、Ollama 等方案的每秒tokens數與記憶體佔用。",
+    "highlights": [
+      "MLX（蘋果專屬優化）通常在 Apple Silicon 上效能領先",
+      "llama.cpp 通用性最高但未必最快",
+      "結果顯示 27B 模型在記憶體受限下的取捨",
+      "有興趣者可根據自身硬體選擇最佳引擎配置"
+    ],
+    "why_it_matters": "對想在 Mac 本地跑開源模型開發者而言，這是最直接的性效能參考，能省下試錯時間並選擇最適合工作流程程的引擎。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據 benchmark 結果選用對應引擎與量化參數，可在本地自動化跑任務（如程式碼審查、文件摘要）並控制成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-23-golem-3dmcp-rhino-ai-agent-rhino-3d-mcp",
     "title": "GOLEM-3DMCP-Rhino：讓 AI Agent 完全操控 Rhino 3D 的 MCP 工具集",
     "title_original": "TheKingHippopotamus/GOLEM-3DMCP-Rhino-",
