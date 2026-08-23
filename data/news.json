@@ -1,5 +1,91 @@
 [
   {
+    "id": "2026-08-23-reaper-mcp-ai-agent-reaper-mcp",
+    "title": "reaper-mcp：讓 AI Agent 操控 REAPER 音軌的 MCP 音樂製作擴展",
+    "title_original": "bonfire-systems/reaper-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/bonfire-systems/reaper-mcp",
+    "published_at": "2026-08-23T05:22:29Z",
+    "category": "agent-skills",
+    "summary": "reaper-mcp 是 REAPER 數位音工作站（MIDI 與 Audio）的 MCP 伺服器，可讓 AI Agent 以程式方式創建、混音並母帶處理音軌，支援 Python 生態，星數 124。",
+    "highlights": [
+      "支援 MIDI 與 Audio 雙軌操控",
+      "可讓 AI Agent 自動完成混音與母帶處理",
+      "基於 MCP 協議，易與其他 Agent 工具整合",
+      "Python 實作，技術宅可直接安裝測試",
+      "REAPER 為專業 DAW，功能深度有保障"
+    ],
+    "why_it_matters": "AI 生成音樂一直卡在「產出」與「後製」斷層。此專案讓 Agent 直接操控 DAW，代表自動化音樂製作工作流程邁出實用一步。",
+    "automation_angle": null,
+    "automation_angle_zh": "音訊相關技術者可將 reaper-mcp 接入自己的工作流程：例如用 LLM 生成 MIDI，再由 Agent 自動完成混音，實現播客配樂或遊戲音效的半自動化產出。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/268840662?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-23-run402-ai-agent",
+    "title": "run402：AI Agent 專用全端後端基礎設施開源框架",
+    "title_original": "kychee-com/run402",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/kychee-com/run402",
+    "published_at": "2026-08-23T05:22:06Z",
+    "category": "agent-skills",
+    "summary": "run402 是開源 TypeScript 後端框架，為 AI Agent 提供 Postgres、認證、儲存、無伺服器函式與原子部署。含 CLI 與 MCP 伺服器，採 x402/MPP 付費模式。",
+    "highlights": [
+      "TypeScript/Node.js 生態，降低前端開發者門檻",
+      "整合 Postgres、Auth 與 Storage 開箱即用",
+      "MCP 伺服器內建，方便與 AI Agent 對接",
+      "x402（原生支付）支援，可能簡化 AI 服務商業化",
+      "原子部署設計提升可靠性與版本管理"
+    ],
+    "why_it_matters": "Agent 需要穩定後端支撐，但多數框架缺乏完整基礎設施。run402 提供一站式解決方案，可加速 Agent 從原型到生產的過程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術者可將 run402 作為自己 Agent 專案的後端骨架，快速建立有資料持久化、使用者認證與支付能力的自律 Agent 應用，省去從零搭建的時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/265859594?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-23-reddit-agent-64k-300k",
+    "title": "Reddit 熱議：遞迴本地 Agent 能讓 64k 上下文感覺像 300k+ 嗎？",
+    "title_original": "Has anyone actually made 64k feel like 300k+ with recursive local agents?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvt3c4/has_anyone_actually_made_64k_feel_like_300k_with/",
+    "published_at": "2026-08-23T00:54:06+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 討論以遞迴本地 Agent 架構擴充有效上下文窗口的方法。缺乏具體技術細節與可驗證結果，主要為社群猜測與個人經驗分享。",
+    "highlights": [
+      "主題為上下文擴展的工程技巧，非新模型發布",
+      "方法可能涉及任務分解與多 Agent 協作",
+      "原始貼文未提供可重現的技術規格",
+      "回覆中可能有實際可行方案，需逐一驗證",
+      "適合技術宅實驗驗證，但不建議直接用於生產"
+    ],
+    "why_it_matters": "本地模型上下文限制是部署痛點。任何能有效擴展上下文的方法都會降低對昂貴大上下文模型的依賴，節省 API 成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "有興趣的技術者可追蹤該 thread，測試自己本地模型（如 32k 或 64k）搭配任務分解策略，量化評估是否能接近大上下文模型的效果與延遲。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-23-ai-session-search-rust-ai-agent",
     "title": "ai-session-search：Rust 驅動的超快 AI Agent 工作階段搜尋",
     "title_original": "ahundt/ai-session-search",
