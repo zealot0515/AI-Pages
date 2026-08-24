@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-08-24-sqlite-self",
+    "title": "你的執行檔就是 SQLite 資料庫：SELF 格式解析",
+    "title_original": "Your executable is a SQLite database",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
+    "published_at": "2026-08-24T11:38:15+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者 Farid Zakaria 展示如何在 Linux 將 SQLite 資料庫直接作為可執行檔使用。技巧在於將 SQLite 檔頭第 68 位元組的應用程式 ID 設為「 SELF」，並將 ELF 格式元件存入多個 SQLite 資料表，再透過自訂直譯器提取執行。配合 binfmt_misc 機制，核心可自動識別並執行此格式檔案。",
+    "highlights": [
+      "SQLite 檔頭 68 位元組處的應用程式 ID 可設為自訂值「SELF」",
+      "ELF 執行檔的各元件（標頭、程式碼段、資料段）存入對應 SQLite 資料表",
+      "需要輕量的自訂直譯器（附 C 語言實作連結）來提取並執行",
+      "binfmt_misc 機制讓核心遇見 SELF 檔案時自動呼叫直譯器",
+      "NixOS 有完整設定範例，標準 Linux 可寫入 /proc/sys/fs/binfmt_misc/register"
+    ],
+    "why_it_matters": "這是一種新穎的檔案封裝模式，可將 AI 推論引擎、模型權重與相依套件全部包進單一資料庫檔案，大幅簡化部署與分發流程，對需要原子化部署 AI 工具的技術用戶極具參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 PyTorch 或 ONNX 推論脚本連同模型权重封裝為單一 SQLite 檔案，實現一行指令即可部署 AI 工具，並透過 binfmt_misc 達成原生執行體驗。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-24-codex-free-rust-mcp-chatgpt-codex-coding-agent",
     "title": "codex-free：以 Rust 實作本地 MCP 橋接器，將 ChatGPT 轉為 Codex 風格 Coding Agent",
     "title_original": "hypnguyen1209/codex-free",
