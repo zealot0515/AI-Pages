@@ -1,5 +1,315 @@
 [
   {
+    "id": "2026-08-24-congressmcp-ai-agent-api-mcp",
+    "title": "congressMCP：讓 AI Agent 直連美國國會 API 的 MCP 伺服器",
+    "title_original": "amurshak/congressMCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/amurshak/congressMCP",
+    "published_at": "2026-08-24T18:22:19Z",
+    "category": "agent-skills",
+    "summary": "congressMCP 是一個 Python 實現的 MCP 伺服器，可讓 Claude Code、Cursor 等 MCP 相容 Agent 直接查詢 Congress.gov API，獲取美國國會相關立法資訊，目前 GitHub 32 星。",
+    "highlights": [
+      "Python 開源專案，32 星，流動性適中",
+      "對接 Congress.gov 官方 API，資料來源可靠",
+      "支援 MCP 協定，可無縫接入主流 Agent 工具",
+      "可用於自動追蹤特定立法進度",
+      "本地部署即可使用，隱私風險低"
+    ],
+    "why_it_matters": "為 AI Agent 打通政府開放資料 API 的標準範式，技術用戶可參考其實作方式快速建立其他公共資料源的 MCP 整合。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將其作為範本，改寫為查詢其他政府開放資料或企業內部 API 的 MCP 伺服器，實現政策追蹤自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/23587671?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-gamedevpl-mcp-agent",
+    "title": "gamedevpl：MCP 伺服器讓 Agent 自動生成可玩瀏覽器遊戲",
+    "title_original": "gamedevpl/www.gamedev.pl",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/gamedevpl/www.gamedev.pl",
+    "published_at": "2026-08-24T18:19:05Z",
+    "category": "agent-skills",
+    "summary": "gamedevpl 是一個 TypeScript MCP 伺服器，可讓 Claude Code、Cursor 等 Agent 對接後自動生成真實可玩的瀏覽器遊戲。平台本身也是由 AI Agent 構建，開源並公開交付，14 星。",
+    "highlights": [
+      "TypeScript 實現，14 星，適合前端開發者",
+      "展示端到端由 Agent 生成可運行產品的範例",
+      "可用來測試 Agent 的程式碼生成與除錯能力",
+      "本身為 AI 生成，彰顯生成式開發的可能性",
+      "可作為 Agent coding 能力的評測基準"
+    ],
+    "why_it_matters": "此專案證明 AI Agent 已能從需求到交付完整生成可運行產品，是評估當前 Agent coding 能力的實際案例，而非行銷宣傳。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用來測試不同 LLM 的程式碼生成品質與穩定性，作為內部 Agent 工具選型的評測任務之一。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1286082?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-llm",
+    "title": "雙 LLM 協作審查仍漏抓「未來數據」漏洞：交易功能測試案例",
+    "title_original": "One LLM wrote a trading feature. Another reviewed it. Both missed a future-data bug",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxajio/one_llm_wrote_a_trading_feature_another_reviewed/",
+    "published_at": "2026-08-24T18:09:22+00:00",
+    "category": "agent-skills",
+    "summary": "一位開發者設計了一個測試情境：一個 LLM 負責撰寫交易功能代碼，另一個 LLM 負責代码審查。測試結果顯示，即使採用雙重把關機制，兩個模型仍同時漏掉了涉及「未來數據引用」的邏輯漏洞。此案例暴露了當前 LLM 在時間序推論和边界條件檢測上的盲點，對程式碼生成品質保證提出挑戰。",
+    "highlights": [
+      "測試使用了兩個不同 LLM 分工協作",
+      "漏洞類型為「未來數據 bug」（使用尚未生成的資料）",
+      "寫碼模型和審查模型均未檢出此問題",
+      "揭示了 LLM 對時間序/順序依賴的推論不足",
+      "對金融交易、量化策略等場景有警示作用"
+    ],
+    "why_it_matters": "在程式碼生成和審查場景中，LLM 的「表面合理」輸出可能隱藏邏輯漏洞。此測試提醒工程團隊不能完全依賴 AI 進行關鍵業務邏輯的品質把關，仍需人類專家介入。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可將此案例加入測試用例庫，針對自己的程式碼生成流程設計「防未來數據引用」檢測規則，或評估現有 AI 程式碼助理的此類盲點發生頻率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-toyota-deep-agents-langsmith-ai",
+    "title": "Toyota 攜手 Deep Agents 與 LangSmith 擴展企業 AI 規模",
+    "title_original": "Toyota Scales Enterprise AI with Deep Agents and LangSmith",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-toyota-north-america-put-enterprise-ai-on-the-balance-sheet-with-deep-agents-and-langsmith",
+    "published_at": "2026-08-24T17:58:51+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格詳細介紹 Toyota 北美如何利用 Deep Agents 與 LangSmith 部署 50 個以上的生產環境代理，將交付週期從 6 個月縮短至 4 天，並建立 AI ROI 追蹤機制。",
+    "highlights": [
+      "Toyota 北美成功部署 50+ 生產環境 AI 代理",
+      "交付週期從 6 個月大幅縮短至 4 天",
+      "使用 LangSmith 追蹤代理效能與成本",
+      "建立企業級 AI ROI 評估框架",
+      "展示了大規模代理架構的實際落地案例"
+    ],
+    "why_it_matters": "Toyota 的案例證明企業級 AI 代理已進入生產可用階段，其方法論可供技術團隊參考以提升開發工作流程效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "可借鑒 Toyota 的代理監控與 ROI 追蹤方式，為自傢俬人代理專案建立類似的評估指標與成本控制機制。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-item",
+    "title": "別盲目刪除舊模型，有些仍然珍貴",
+    "title_original": "Do not blindly delete your older models, some are still precious",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx9xt0/do_not_blindly_delete_your_older_models_some_are/",
+    "published_at": "2026-08-24T17:48:23+00:00",
+    "category": "open-source-ai",
+    "summary": "社群討論提醒開發者不應只保留最新模型，部分舊模型在特定任務、領域微調或資源受限場景下仍有獨特價值，強調模型評估需視任務而定。",
+    "highlights": [
+      "新模型不一定在所有任務上都優於舊模型",
+      "某些舊模型經過領域特定微調後更具優勢",
+      "在資源受限環境中，較小的舊模型可能更實用",
+      "建議建立模型評估矩陣而非盲目追求最新",
+      "存檔舊模型可作為對比基準與備用選項"
+    ],
+    "why_it_matters": "對技術用戶而言，理解何時該保留而非替換舊模型，可優化儲存空間並在特定場景保持競爭力。",
+    "automation_angle": null,
+    "automation_angle_zh": "可建立自動化腳本定期評估舊模型在核心任務上的表現，決定是否需要保留或安全刪除以釋放空間。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-qwen3-8-27b",
+    "title": "如何在程式碼代理中測試 Qwen3.8-27B？",
+    "title_original": "How would you test Qwen3.8-27B inside a coding agent?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx9ao5/how_would_you_test_qwen3827b_inside_a_coding_agent/",
+    "published_at": "2026-08-24T17:25:52+00:00",
+    "category": "new-models",
+    "summary": "Reddit 社群討論如何在程式碼代理環境中有效測試 Qwen3.8-27B 模型，涵蓋測試框架、基準指標選擇與實務建議。目前該模型尚未正式發布，此討論屬於早期社群探索階段。",
+    "highlights": [
+      "Qwen3.8-27B 尚未正式發布，社群正在提前準備測試策略",
+      "測試重點包括程式碼補全、多檔案推論、單元測試生成能力",
+      "建議使用 HumanEval、MBPP 等標準基準搭配自定義任務",
+      "需評估模型在代理架構中的工具呼叫與上下文管理能力",
+      "社群強調實際部署測試比只看基準分數更重要"
+    ],
+    "why_it_matters": "若 Qwen3.8-27B 確實存在且效能優秀，可能成為本地端程式碼代理的新選擇，但需謹慎對待未確認的模型資訊。",
+    "automation_angle": null,
+    "automation_angle_zh": "等模型正式發布後，可用自動化測試腳本對比 Qwen3.8-27B 與現有模型在程式碼生成任務上的表現，評估其是否值得替換。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-bart-vintage-llm",
+    "title": "「Bart」：一個復古風格的 vintage LLM 模型展示",
+    "title_original": "Bart: A vintage llm",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx7aci/bart_a_vintage_llm/",
+    "published_at": "2026-08-24T16:14:44+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶展示了一個名為「Bart」的早期大型語言模型，該模型可能基於較舊的 Transformer 架構或訓練數據版本。帖子呈現了該模型在對話、推論任務上的輸出範例，帶有濃厚的懷舊技術風格。此分享主要面向對 LLM 發展歷史和模型演進有興趣的技術社群成員。",
+    "highlights": [
+      "Bart 是對早期 LLM 架構的復刻或致敬項目",
+      "展示了早期模型在對話理解上的限制",
+      "可用於對比現代模型的能力躍進",
+      "有助於理解 LLM 技術的發展脈絡",
+      "對模型考古學（model archaeology）有教育意義"
+    ],
+    "why_it_matters": "了解早期模型的局限性有助於開發者欣賞現今模型的能力飛躍，同時也能從歷史失敗中學習，避免重新踩坑。對於評估新模型的進步幅度具有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 Bart 作為基準測試對照組，評估新模型在特定任務上的相對改進幅度，或用於教學演示模型演進歷程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-8gb-vram",
+    "title": "8GB VRAM 最佳本地模型推薦",
+    "title_original": "What's the best local model you've found for 8 GB of VRAM?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx4k9g/whats_the_best_local_model_youve_found_for_8_gb/",
+    "published_at": "2026-08-24T14:34:40+00:00",
+    "category": "open-source-ai",
+    "summary": "社群熱烈討論在僅 8GB VRAM 限制下可使用的最佳本地語言模型，分享各模型的實際表現、量化技巧與部署經驗，涵蓋效能與資源限制的取捨建議。",
+    "highlights": [
+      "8GB VRAM 是常見的消費級 GPU 限制",
+      "討論涵蓋 Qwen、Phi、Mistral 等小型化模型",
+      "4-bit 量化是平衡效能與記憶體的關鍵技術",
+      "實際對話測試比基準分數更能反映可用性",
+      "社群提供具體的模型大小與量化配置建議"
+    ],
+    "why_it_matters": "對資源受限的技術用戶，8GB VRAM 的最佳化配置可直接影響本地 AI 工具的可用性與成本效益。",
+    "automation_angle": null,
+    "automation_angle_zh": "可自動化測試不同量化配置在 8GB VRAM 下的實際產出品質，建立符合自身需求的模型選擇決策樹。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-tomoe-llm",
+    "title": "ToMoE：透過動態結構剪枝將密集 LLM 轉換為專家混合模型",
+    "title_original": "[Paper] ToMoE: Converting Dense Large Language Models to Mixture-of-Experts through Dynamic Structural Pruning",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx3img/paper_tomoe_converting_dense_large_language/",
+    "published_at": "2026-08-24T13:54:54+00:00",
+    "category": "new-models",
+    "summary": "學術論文提出 ToMoE 方法，透過動態結構剪枝將稠密大型語言模型轉換為專家混合架構，可在保持效能的同時顯著降低推論成本，為模型壓縮提供新思路。",
+    "highlights": [
+      "ToMoE 採用動態結構剪枝而非傳統靜態剪枝",
+      "可將稠密模型轉換為 MoE 架構而不需從頭訓練",
+      "在多個基準測試中驗證了方法的有效性",
+      "有潛力降低大規模模型的部署與推論成本",
+      "論文詳細說明了剪枝策略與專家選擇機制"
+    ],
+    "why_it_matters": "此技術可能讓開發者在有限資源下部署更強大的模型，或將現有模型轉換為更高效的架構，節省 AI 工具成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可嘗試使用此方法對現有稠密模型進行轉換實驗，評估是否能在特定任務上以較低資源達到相似效能。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-reddit-12gb-vram-agentic-coding",
+    "title": "Reddit 實驗：12GB VRAM 本地跑 Agentic Coding",
+    "title_original": "Real local agentic coding on a 12GB VRAM budget.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx2pk7/real_local_agentic_coding_on_a_12gb_vram_budget/",
+    "published_at": "2026-08-24T13:22:55+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串分享了在 12GB VRAM 限制下本地跑 Agentic Coding 的實作經驗，但原文內容較少，具體模型、工具鏈與成效數據需進一步查閱原串驗證。",
+    "highlights": [
+      "VRAM 需求 12GB，門檻相對親民",
+      "聚焦 Agentic Coding 任務，非一般對話",
+      "原串資訊量有限，細節待補充",
+      "可作為本地 AI 開發環境可行性參考",
+      "建議追蹤後續討論獲取更詳細配置"
+    ],
+    "why_it_matters": "若能在消費級顯卡上穩定跑 Agentic Coding，將大幅降低技術用戶的 AI 開發成本，但需更詳細的實作資料才能判斷實用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考該討論串的配置思路，測試自己的本地 LLM 在 Code Agent 任務上的表現，找出性價比最優的本地開發方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-reddit-llm",
+    "title": "Reddit 網友實測輻射對 LLM 的影響：模型脆弱程度超乎預期",
+    "title_original": "I irradiated LLMs and found that they die really quickly",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vx2fhz/i_irradiated_llms_and_found_that_they_die_really/",
+    "published_at": "2026-08-24T13:11:31+00:00",
+    "category": "open-source-ai",
+    "summary": "一位開發者在 Reddit r/LocalLLaMA 社群分享了對多種 LLM 進行「輻射測試」（模擬數據損壞或干擾）的實驗結果。研究發現，當輸入數據遭遇一定程度噪聲或損壞時，多數 LLM 的輸出品質會急劇下降，甚至完全失效。此實驗揭示了現今大型語言模型對輸入異常的脆弱性，對部署在關鍵系統中的 AI 可靠性提出警示。",
+    "highlights": [
+      "實驗模擬了數據傳輸中的噪聲、損壞等異常情境",
+      "測試涵蓋多款主流開源 LLM 模型",
+      "多數模型在異常輸入下輸出品質顯著下降",
+      "部分模型出現完全無法回復正常輸出的情況",
+      "實驗結果對邊緣運算和嵌入式 AI 部署有參考價值"
+    ],
+    "why_it_matters": "此研究提醒開發者不能僅依賴模型在乾淨數據上的表現。對於工業控制、醫療設備或自動駕駛等需要高可靠性的場景，模型的抗噪聲能力是關鍵指標，否則可能導致系統級故障。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可重現實驗：在自己的 LLM 部署環境中加入輸入異常檢測與數據清理 pipeline，量化不同模型的容錯能力，作為選型依據。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-24-sqlite-self",
     "title": "你的執行檔就是 SQLite 資料庫：SELF 格式解析",
     "title_original": "Your executable is a SQLite database",
