@@ -1,5 +1,204 @@
 [
   {
+    "id": "2026-08-24-codex-free-rust-mcp-chatgpt-codex-coding-agent",
+    "title": "codex-free：以 Rust 實作本地 MCP 橋接器，將 ChatGPT 轉為 Codex 風格 Coding Agent",
+    "title_original": "hypnguyen1209/codex-free",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/hypnguyen1209/codex-free",
+    "published_at": "2026-08-24T06:34:25Z",
+    "category": "open-source-ai",
+    "summary": "開源專案將 ChatGPT 介面橋接為類似 Codex 的本地 Coding Agent，採用 Rust 實作提升效能。星數 15，屬早期專案，適合想實驗將 ChatGPT 整合至本機開發流程的技術玩家。",
+    "highlights": [
+      "Rust 實作，強調高效能與低延遲",
+      "將 ChatGPT 橋接為 Codex 風格 Coding Agent",
+      "可與本機 IDE 整合使用",
+      "星數 15，社群回饋有限",
+      "適用於實驗性本地 AI 程式碼輔助場景"
+    ],
+    "why_it_matters": "Rust 實作的本地 MCP 橋接器提供輕量選項，對想在本地環境建立低延遲 AI 程式碼輔助的開發者有參考價值，但穩定性需自行測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可克隆專案後將其與本機 VS Code 或其他編輯器整合，測試讓 ChatGPT 透過本地橋接器執行程式碼補全、重構或測試生成等任務。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/33387061?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-tcpk-windows-mcp-server-ai",
+    "title": "tcpk：Windows 安全審計工具包，內建 MCP Server 與 AI 分類功能",
+    "title_original": "V33RU/tcpk",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/V33RU/tcpk",
+    "published_at": "2026-08-24T06:34:09Z",
+    "category": "agent-skills",
+    "summary": "專為 Windows 設計的厚重用戶端滲透測試與 MSIX 安全審計工具包，支援 .NET、Electron、原生二進位靜態與執行時檢測，可計算 CVSS v4.0 分數並映射 CWE/ATT&CK，內建 MCP Server 與 AI 自動化分類功能。",
+    "highlights": [
+      "支援 .NET、Electron、原生二進位安全審計",
+      "靜態與執行時檢測相結合",
+      "計算 CVSS v4.0 與 CWE/ATT&CK 映射",
+      "支援 SBOM、HTML/Excel 報告輸出",
+      "PowerShell 實作，內建 MCP Server 與 AI 分類"
+    ],
+    "why_it_matters": "tcpk 將傳統安全審計工具與 MCP、AI 分類整合，為安全研究人員提供自動化漏洞分類的新選項，可加速滲透測試報告生成流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "安全工程師可部署 tcpk 至 Windows 測試環境，透過 MCP Server 將其與 AI Agent 整合，實作「一鍵掃描 + AI 自動分類漏洞」的安全審計自動化流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "PowerShell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/29911075?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-couchbase-mcp-server-claude-cursor-copilot",
+    "title": "Couchbase 官方推出 MCP Server，支援 Claude、Cursor、Copilot 接入",
+    "title_original": "couchbase/mcp-server-couchbase",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/couchbase/mcp-server-couchbase",
+    "published_at": "2026-08-24T06:24:20Z",
+    "category": "agent-skills",
+    "summary": "Couchbase 官方發布 Model Context Protocol 伺服器，支援將 AI Agent（Claude、Cursor、Copilot 等）連接至 Couchbase 或 Capella 資料庫。適用於需要讓 AI 工具直接查詢或操作 NoSQL 資料的技術場景。",
+    "highlights": [
+      "官方維護的 Couchbase MCP 實作",
+      "支援 Claude、Cursor、Copilot 等主流 AI 工具",
+      "可讓 Agent 直接查詢與操作 NoSQL 資料",
+      "Python 實作，星數 34，社群關注度尚在初期",
+      "可用於建構具備即時資料存取的 AI 工作流程"
+    ],
+    "why_it_matters": "MCP 協定讓 AI 工具與資料庫的整合門檻大幅降低，Couchbase 官方支援代表企業可更安全地在 AI 工作流程中使用 NoSQL 資料。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將其部署於本地或雲端環境，讓 Cursor 或 Claude 直接查詢 Capella 資料庫，實作「AI 驅動的資料儀表板」或「自然語言資料分析」等場景。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/605755?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-llm-30b-tokens-60-mb",
+    "title": "開發者從零訓練量化 LLM，30B tokens 僅需 60 MB 部署",
+    "title_original": "I developed my own quantized LLM from scratch, trained on 30B tokens, deploys in 60 MB",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwt6m7/i_developed_my_own_quantized_llm_from_scratch/",
+    "published_at": "2026-08-24T04:55:45+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享從零訓練自定義量化 LLM 的完整流程，使用 30B tokens 訓練，最終模型僅 60 MB 可部署。此方案結合量化技術與自有資料集，為小型化本地模型提供新思路。",
+    "highlights": [
+      "從頭訓練自定義量化語言模型",
+      "使用 30B tokens 訓練資料",
+      "量化後模型僅 60 MB，極適合本地部署",
+      "完整流程可供開源借鑒",
+      "需驗證模型實際表現與量化損耗"
+    ],
+    "why_it_matters": "模型小型化是本地部署關鍵，60 MB 規模可在邊緣裝置或手機運行，降低 API 成本與延遲。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載該專案程式碼，在本地硬體測試量化模型效果，評估是否能滿足特定任務需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-1-57b-dreamer-4-150",
+    "title": "1.57B Dreamer 4 世界模型，150 美元以下從零訓練",
+    "title_original": "I trained a 1.57B-parameter Dreamer 4 World Model from scratch for under $150",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwrc6i/i_trained_a_157bparameter_dreamer_4_world_model/",
+    "published_at": "2026-08-24T03:19:01+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者以低於 150 美元成本從零訓練 1.57B 參數的 Dreamer 4 世界模型。展示了利用廉價 GPU 資源訓練強化學習世界模型的可行性，降低了該領域研究門檻。",
+    "highlights": [
+      "僅用 1.57B 參數規模",
+      "訓練成本低於 150 美元",
+      "從零訓練 Dreamer 4 世界模型",
+      "使用強化學習框架",
+      "開源可複製的訓練流程"
+    ],
+    "why_it_matters": "世界模型訓練成本大幅降低，為個人開發者或小團隊研究序列決策、機器人控制提供新途徑。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考其訓練腳本與資料處理流程，評估是否可應用於自定義環境或遊戲 AI 開發。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-agent-md-llm",
+    "title": "agent.md 框架提升 LLM 輔助程式碼品質",
+    "title_original": "My agent.md to improve LLM-assisted code quality",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwqd8k/my_agentmd_to_improve_llmassisted_code_quality/",
+    "published_at": "2026-08-24T02:32:01+00:00",
+    "category": "agent-skills",
+    "summary": "開發者分享 agent.md 工作流程，用結構化 prompt 提升 LLM 輔助程式碼的品質與一致性。此框架定義代理行為規範與輸出標準，減少 LLM 生成程式碼的隨機性。",
+    "highlights": [
+      "定義結構化代理行為規範",
+      "減少 LLM 程式碼輸出的隨機性",
+      "提升程式碼審查一致性",
+      "可與現有 CI/CD 整合",
+      "需測試不同模型相容性"
+    ],
+    "why_it_matters": "LLM 生成程式碼品質不穩定，結構化工作流程可提升開發團隊對 AI 輔助工具的信任度與效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 agent.md 整合進開發流程，用於自動化程式碼審查或重構任務，觀察對程式碼品質的實際影響。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-llm",
+    "title": "音樂超解析 LLM 是否存在？社群提問整理",
+    "title_original": "is there a music UPSCALER llm?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vwp91v/is_there_a_music_upscaler_llm/",
+    "published_at": "2026-08-24T01:38:57+00:00",
+    "category": "hot-topics",
+    "summary": "用戶提問是否存在音樂超解析 LLM，社群回應顯示目前主流方案仍以傳統訊號處理為主，純 LLM 方案有限。此問答反映了對 AI 音頻增強工具的實際需求缺口。",
+    "highlights": [
+      "社群提問音頻超解析工具",
+      "目前 LLM 方案不成熟",
+      "傳統訊號處理仍為主流",
+      "存在實際應用需求缺口",
+      "可探索結合方案"
+    ],
+    "why_it_matters": "音頻 AI 工具市場需求明確，若出現高效 LLM 音頻模型將有助音樂後製自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估現有開源音頻處理庫，測試是否能與 LLM 結合解決此需求。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-24-oh-my-dag-agent-mcp-50",
     "title": "oh-my-dag：程式碼 Agent 編排層，支援 MCP 與 50 工具",
     "title_original": "AbyssCN/oh-my-dag",
