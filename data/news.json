@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-08-24-oh-my-dag-agent-mcp-50",
+    "title": "oh-my-dag：程式碼 Agent 編排層，支援 MCP 與 50 工具",
+    "title_original": "AbyssCN/oh-my-dag",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/AbyssCN/oh-my-dag",
+    "published_at": "2026-08-24T00:28:44Z",
+    "category": "agent-skills",
+    "summary": "將工作流程程轉換為有向圖結構，每個節點調用一個模型，並透過退出碼、寫集檢查與跨家族驗證器來判定執行結果。支援 MCP 協定，內建 50 種工具。",
+    "highlights": [
+      "將工作流程程建模為有向圖節點",
+      "每個節點可指定不同模型",
+      "退出碼與寫集檢查外部化判定",
+      "支援 MCP 協定擴展工具集",
+      "內建 50 種工具並允許接入自有模型"
+    ],
+    "why_it_matters": "為複雜多步驟任務的 Agent 系統提供一個可控制的編排框架，降低模型在關鍵環節的幻觉風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可用其替換現有的串流 Agent 架構，評估節點化控制是否能提升工作流程程的穩定性與可控性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/43731064?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-claw-skeleton-telegram-claude-code-agent",
+    "title": "claw-skeleton：Telegram 上的隔離式 Claude Code Agent",
+    "title_original": "LuKresXD/claw-skeleton",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/LuKresXD/claw-skeleton",
+    "published_at": "2026-08-23T21:39:28Z",
+    "category": "agent-skills",
+    "summary": "透過 Telegram 介面的個人 AI 助理，每個對話主題都是獨立的 Claude Code Agent，具備分層持久記憶與主動排程心跳功能。",
+    "highlights": [
+      "Telegram 介面的個人 AI 助理",
+      "每個話題運行獨立的 Claude Code Agent",
+      "分層持久記憶架構",
+      "主動式排程心跳機制",
+      "可 fork 改造為自用任務機器人"
+    ],
+    "why_it_matters": "為需要在即時通訊環境中執行自動化任務的技術用戶提供一個可參考的系統框架與實作範例。",
+    "automation_angle": null,
+    "automation_angle_zh": "可 fork 此專案，改造為自用的 Telegram 任務機器人，整合特定工作流程程或定時觸發任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/50047411?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-anthropic",
+    "title": "Anthropic 高階模型用戶增長乏力，低價工具受青睞",
+    "title_original": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+    "published_at": "2026-08-23T20:24:52+00:00",
+    "category": "hot-topics",
+    "summary": "Simon Willison 摘要 FT 報導：Anthropic 年化營收達 650 億美元但高階模型市占率低，Fable 5 僅佔 8% 與 Opus 5 的 3.5%。Ramp 數據顯示 Claude 陣營以 Opus 4.8 為主力。",
+    "highlights": [
+      "Anthropic 年化營收 650 億美元（7 月）",
+      "高階模型 Fable 5 使用率僅 8%",
+      "Opus 5 更是只有 3.5%",
+      "Opus 4.8 仍佔 28% 為主力",
+      "Ramp AI 指數基於 70,000 企業帳單數據"
+    ],
+    "why_it_matters": "對於成本敏感的技術決策者，這顯示高價模型的市佔率正在下滑，選擇模型時價格因素變得越來越關鍵。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考 Ramp AI 指數的數據，評估不同模型在企業端的實際用量與成本表現，作為選型的參考依據。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-24-drew-breunig-fable",
+    "title": "Drew Breunig：Fable 與免費午餐的終結",
+    "title_original": "Quoting Drew Breunig",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+    "published_at": "2026-08-23T19:55:30+00:00",
+    "category": "hot-topics",
+    "summary": "Fable 前策略師 Drew Breunig 發文回顧 LLM 定價與模型選擇的演變。他指出，在 Fable 出現前，新模型問世往往能以相同或更低價格「修復」多數問題，工程師無需過度優化上下文策略。但 Fable 展示了極致能力，卻代價高昂；同時 Opus、Claude 3.6、GPT-4o 等已能滿足多數程式碼需求。這種背景下，工程團隊開始認真思考「什麼工作該用什麼模型」。",
+    "highlights": [
+      "2022-2023 年：模型迭代速度快，新模型問世幾乎可覆蓋舊問題，工程師無需精細化工作分流",
+      "Fable 展示了目前最強程式碼能力，但成本極高，並非所有任務都需要它",
+      "Opus、Claude 3.6、K3、GLM 等已能勝任多數程式碼任務，性價比更優",
+      "工程團隊開始建立「工作分流」策略：昂貴旗艦模型處理複雜任務，中低階模型處理常規任務",
+      "LLM 領域的「免費午餐」已結束，模型選擇需要更精細的成本效益分析"
+    ],
+    "why_it_matters": "這篇文章揭示了當前 LLM 應用從「追逐最新最強模型」向「精細化成本控制」轉變的關鍵節點。對技術決策者而言，這意味著需要建立模型分流機制，而非盲目升級旗艦模型，以優化整體成本效益。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可評估自身工作流程中高頻任務的複雜度分布，設計一個「模型分流閘道」：簡單任務路由至低成本模型，複雜任務才調用旗艦模型。可先用 API 分類器或規則引擎測試，評估每月成本節省幅度與延遲變化。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-23-provena-agent-ai-eu-ai-act",
     "title": "provena：Agent AI 上下文治理與 EU AI Act 合規框架",
     "title_original": "rajfirke/provena",
