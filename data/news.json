@@ -1,5 +1,90 @@
 [
   {
+    "id": "2026-08-25-frama-c-mcp-frama-c-agent-mcp",
+    "title": "frama-c-mcp：將形式驗證工具 Frama-C 接入 Agent 的 MCP 伺服器",
+    "title_original": "sysprog21/frama-c-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sysprog21/frama-c-mcp",
+    "published_at": "2026-08-25T06:26:48Z",
+    "category": "agent-skills",
+    "summary": "Rust 實現的 MCP 伺服器，為 AI Agent 提供 Frama-C 的 EVA、WP 引擎與沙盒化 ACSL 反覆運算，stars 16，屬技術細分領域的早期整合工具。",
+    "highlights": [
+      "Rust 語言實現，強調記憶體安全",
+      "支援 Frama-C EVA（值域分析）與 WP（ weakest precondition）",
+      "提供沙盒化的 ACSL 規格反覆運算，適合形式驗證工作流程",
+      "MCP 介面可與任何 MCP 相容 Agent 對接",
+      "Star 數低，文件與社群支援有限"
+    ],
+    "why_it_matters": "形式驗證長期屬於專家領域，此 MCP 橋接若能讓 Agent 直接调用 Frama-C，有望將安全關鍵程式碼審查自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "將其整合進程式碼審查 Agent，針對攸關安全的模組自動觸發 Frama-C 形式驗證，減少人工安全審計負擔。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/22310129?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-boxxkite-k8s-pod-agent-mcp",
+    "title": "boxxkite：可在 K8s Pod 中隔離執行 Agent 程式碼的 MCP 沙盒",
+    "title_original": "EvAlssment/boxxkite",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/EvAlssment/boxxkite",
+    "published_at": "2026-08-25T06:00:35Z",
+    "category": "agent-skills",
+    "summary": "自託管沙盒方案，提供 SandboxManager、Control Plane、四種 SDK 與 MCP 伺服器，Agent 程式碼執行於真實 Kubernetes Pod 隔離環境，stars 僅 15 的早期專案。",
+    "highlights": [
+      "真正的容器隔離，非模擬或程序級沙盒",
+      "提供四種 SDK，降低多語言整合門檻",
+      "MCP 伺服器介面，方便與主流 Agent 框架對接",
+      "Control Plane 提供執行管理與監控",
+      "Stars 偏低，需評估社群維護活跃度"
+    ],
+    "why_it_matters": "安全執行不受信任的 Agent 程式碼始終是企業部署痛點，若能在 K8s 環境直接隔離，可大幅簡化安全審計流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地 K8s 環境部署 boxxkite，測試讓 Code Agent 在沙盒中安全執行系統指令，用於自動化部署腳本驗證。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/192537029?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-4070-ti-32gb-ram-kimi-k3-deepseek-v4-flash-qwen3-5-122b-moe",
+    "title": "4070 Ti + 32GB RAM 極限測試：Kimi K3、DeepSeek V4 Flash、Qwen3.5-122B MoE 模型實測",
+    "title_original": "Spent a day seeing how far extreme MoE models can be pushed on a 4070 Ti + 32GB RAM. Kimi K3, DeepSeek V4 Flash, and Qwen3.5-122B results + research paper🔧",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxoif0/spent_a_day_seeing_how_far_extreme_moe_models_can/",
+    "published_at": "2026-08-25T03:28:19+00:00",
+    "category": "open-source-ai",
+    "summary": "有開發者在 Reddit 分享在 RTX 4070 Ti 顯示卡搭配 32GB RAM 的消費級硬體上，測試極致 MoE 模型的實際表現。涵蓋 Kimi K3、DeepSeek V4 Flash 及 Qwen3.5-122B 三款模型，並附上研究論文與實測數據，對想在本地端部署 MoE 模型的技術人員有參考價值。",
+    "highlights": [
+      "實測三款 MoE 模型在消費級硬體的可用性",
+      "包含 4070 Ti + 32GB RAM 的實際吞吐量與延遲數據",
+      "附研究論文可查閱背後技術細節",
+      "可評估是否值得在本地部署而非依賴雲端 API"
+    ],
+    "why_it_matters": "MoE 模型稀疏激活特性讓大模型可在消費級硬體運行，此實測提供了客觀的性價比參考，技術宅可用以評估本地部署的成本效益。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可參考其硬體配置與效能數據，自行架設類似環境，用 benchmark 工具自動化比較不同 MoE 模型的延遲與記憶體佔用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-25-hs-sql-agent-c-sql-agent-mcp-ast",
     "title": "hs-sql-agent：C# 寫的 SQL Agent MCP 伺服器，強型別 AST 驗證杜絕幻覺",
     "title_original": "tse-wei-chen/hs-sql-agent",
@@ -26,6 +111,33 @@
       "C#"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/144909016?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-scaffold-cot",
+    "title": "Scaffold CoT：聚焦小模型推論失敗的思維鏈數據集開源",
+    "title_original": "Scaffold CoT: A CoT dataset built around the failures of small model (>5B Params) free form thinking. Hope its useful to you guys!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxk6k1/scaffold_cot_a_cot_dataset_built_around_the/",
+    "published_at": "2026-08-25T00:12:55+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者於 Reddit 發布 Scaffold CoT 數據集，專門收錄超過 50 億參數小模型在自由推論時的失敗案例。透過分析這些失敗案例，可改進模型訓練或提示工程。該數據集現已開源，技術宅可直接下載用於微調或評估自家模型。",
+    "highlights": [
+      "專為 >5B 參數小模型設計，收錄推論失敗樣本",
+      "可用於改進 CoT 提示策略或微調目標設定",
+      "開源免費，可直接用於模型訓練或 evals",
+      "有助於理解小模型與大模型在推論能力上的差距"
+    ],
+    "why_it_matters": "小模型的 CoT 推論失敗模式尚未被系統性整理，此數據集填補了這個空白，能幫助開發者有针對性地最佳化提示或微調方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將此數據集加入自家模型的 evals pipeline，快速檢測小模型在特定推論任務上的瓶頸，並自動化生成失敗報告。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -4558,6 +4670,33 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-perplexity-airtel",
+    "title": "Perplexity 終止印度 Airtel 免費方案，當地營收成長",
+    "title_original": "Perplexity 免費 Airtel 计划结束，印度收入攀升 - Unite.AI",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPM1FQRTVOYTZEdlNMWlB3cExlU29PazNfa2I4WXZoN2s4TmwwVzV2LWFWeG43cmdCZlhPcW1YYV80VWpJZkxZbzFiTVI4cUtkYk1vaDI3dENkVzM1cDdCTnlXdW9yWC1xd0E0N1ZiSjJGaVdVM09nMnZoeThVd3pZaDN1RTZ0VGwxU0lnb3J5Mm1pci12?oc=5",
+    "published_at": "2026-08-18T15:23:56+00:00",
+    "category": "ai-deals",
+    "summary": "Perplexity 宣布結束與印度電信商 Airtel 的免費合作計畫，原本享有免費服務的印度用戶將不再獲得此福利。與此同時，Perplexity 在印度的營收呈現上升趨勢，可能與終止免費方案有關。用戶需注意此優惠已過期，勿再嘗試使用。",
+    "highlights": [
+      "印度 Airtel 用戶的 Perplexity 免費方案已終止",
+      "Perplexity 印度市場營收正在成長",
+      "灰色市場優惠已失效，不建議追隨",
+      "反映 AI 搜尋引擎正走向商業化變現"
+    ],
+    "why_it_matters": "又一個免費 AI 吃到飽時代落幕。技術人員應視此為訊號：大規模免費方案將逐步收緊，企業級 API 或付費方案才是長期穩定的選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "若之前有串接 Airtel 免費方案的流程，需立即更新為標準付費 API，並評估是否改用替代工具如 DuckDuckGo AI Chat 或官方 API。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -94702,6 +94841,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-25-kb-ai-kb-galaxy-ai",
+    "title": "韓國KB銀行聯手三星推出「AI訂閱KB國民卡」，整合Galaxy AI服務",
+    "title_original": "“真心投入AI”的KB携手三星 推出“Samsung AI訂閱KB国民卡” - 아시아경제",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DV3VDazRDSlV0TEFiNHRZX01PWGY3aXJ3VFFVV1JRakpQQURTUHdqUmpaakZnVDY1TWdvRGVuazZiX2FyOEI1WjVBX2QzMWNCUHQ5ZWM2NDh5MmJVZ1k3YjlUSnk?oc=5",
+    "published_at": "2025-09-08T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "韓國KB國民卡攜手三星電子，推出結合AI功能的「Samsung AI訂閱KB國民卡」，持卡用戶可享有Galaxy AI相關服務優惠。這是韓國金融業與消費電子龍頭在AI服務訂閱模式上的新嘗試，旨在透過硬體與金融場景綁定AI功能，擴大AI訂閱的滲透率。",
+    "highlights": [
+      "KB銀行與三星合作推出聯名AI訂閱卡",
+      "持卡享有Galaxy AI相關服務優惠",
+      "代表韓國金融科技與消費AI的跨界整合",
+      "台灣用戶可能無直接受益，但具觀察價值"
+    ],
+    "why_it_matters": "此案例顯示AI訂閱模式正與金融場景深度結合，硬體補助AI、AI帶動金融消費的循環正在成型，值得關注後續商業模式演化。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可關注此合作是否開源API或SDK，若三星Galaxy AI功能可程式化呼叫，可能衍生出結合銀行卡與AI自動化的新應用場景。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-13-google-gemini-ai-5",
     "title": "Google Gemini AI會員權益出爐：免費用戶每月5次深度搜索",
     "title_original": "谷歌 Gemini AI 會員权益公布：免費使用者每月 5 次深度搜索功能 - qq.com",
@@ -94912,6 +95078,33 @@
     "why_it_matters": "若消息屬實，將大幅降低一般用戶接觸高階 AI 工具的門檻。對於技術用戶，則是評估 Gemini Ultra 實際能力的低成本切入點。",
     "automation_angle": null,
     "automation_angle_zh": "可將 Google AI Pro 視為 Gemini API 的免費測試額度，用於評估其在特定任務（如推論、程式碼生成）上的表現是否適合納入生產流程。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-claude-code-200",
+    "title": "Claude Code 實施用量限制，200 美元訂閱用戶受限",
+    "title_original": "Claude Code 宣布限流：200 美元訂閱党，你的快乐到此為止。 - blog.csdn.net",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LRi1tQTdPNkdRM0tLcW8wbkVfV0ZkVG5KSVd4cU9HMDFxeFE2d19GeWw1d2llOG9WX3NrYk50d21na2ZabGI1NnZBNW56cUJ1RzE4Z1JIQTdnc3FkX09zVDV6bjBJd2NCRUJKRlR3dzg?oc=5",
+    "published_at": "2025-08-05T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Anthropic 針對 Claude Code 推出限流措施，200 美元月費的高級訂閱方案用戶將面臨用量上限。此舉可能與 Claude Code 被大量用於自動化任務導致成本攀升有關。原本「快樂到此為止」形容高用量用戶受影響最大，建議有重度自動化需求的用戶重新評估用量規劃。",
+    "highlights": [
+      "Claude Code 對高階訂閱實施明確的用量限制",
+      "200 美元月費用戶受到直接影響",
+      "推測因大量自動化任務導致成本壓力",
+      "用戶需重新規劃 API 或 Claude Code 的使用配額"
+    ],
+    "why_it_matters": "Claude Code 的限流顯示即使是付費方案，大規模自動化使用也可能超出服務商容忍範圍。技術人員需提前評估成本上限，避免工作流程突然中斷。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應在 Claude Code 腳本中加入用量追蹤與熔斷機制，並評估切換至 Claude API 3.5 Sonnet 的成本效益，減少對單一訂閱方案的依賴。",
     "tags": [
       "ai-deals",
       "rss",
