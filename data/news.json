@@ -1,5 +1,275 @@
 [
   {
+    "id": "2026-08-25-langsmith-engine-agent",
+    "title": "LangSmith Engine 升級：Agent 問題偵測效能翻倍",
+    "title_original": "LangSmith Engine Improves Agent Issue Detection by 2x",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/new-in-langsmith-engine-2x-better-issue-detection",
+    "published_at": "2026-08-25T18:02:28+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 LangSmith Engine 更新，Agent 異常偵測能力提升 2 倍，並新增 Slack、Linear 工作流程整合與自託管部署選項。",
+    "highlights": [
+      "偵測能力提升 200%，更精準定位 Agent 行為問題",
+      "新增 Slack、Linear 通知與工作流程整合",
+      "支援自託管，方便企業內部部署"
+    ],
+    "why_it_matters": "Agent 開發與維運更有效率，異常問題可快速發現並觸發內部協作工具通知，縮短除錯時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "DevOps 團隊可將 LangSmith Engine 整合進 CI/CD 流程，自動監控 Agent 行為並觸發告警。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-vaaya-mcp-api-key",
+    "title": "Vaaya MCP：無需API Key的付費呼叫代理方案",
+    "title_original": "vaaya-ai/vaaya-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/vaaya-ai/vaaya-mcp",
+    "published_at": "2026-08-25T18:01:50Z",
+    "category": "agent-skills",
+    "summary": "Vaaya MCP伺服器提供無需自備API Key的代理功能，涵蓋媒體生成、網頁搜尋、研究、G、行銷及瀏覽器自動化等工具鏈。開源專案，現有41個星星。",
+    "highlights": [
+      "免除API Key管理繁瑣流程",
+      "支援媒體生成與產品展示影片",
+      "具備深度研究、GTM與銷售豐富化功能",
+      "提供瀏覽器自動化與郵件整合",
+      "開源專案可直接部署使用"
+    ],
+    "why_it_matters": "對於不想折騰各服務API Key串接的技術用戶，Vaaya MCP提供一個即裝即用的代理工具箱，能快速啟動多種自動化場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可直接將Vaaya MCP整合進現有代理系統，快速啟用媒體生成、網頁搜尋、郵件自動化等工具鏈。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/300715656?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-langchain-skills",
+    "title": "LangChain 深度代理新功能：Skills 系統實現動態載入與執行",
+    "title_original": "Using skills with Deep Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/using-skills-with-deep-agents",
+    "published_at": "2026-08-25T18:00:18+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 推出 Deep Agents CLI，支援 Skills 動態發現、載入與執行，強調更節省 Token 的 AI Agent 構建方式。",
+    "highlights": [
+      "Deep Agents CLI 工具鏈正式推出",
+      "Skills 動態發現與載入機制",
+      "最佳化 Token 消耗"
+    ],
+    "why_it_matters": "簡化 Agent 開發流程，降低 Token 用量，直接提升 AI 助理的經濟效益與回應速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可利用 Skills 框架模組化建構 Agent，快速組合不同能力並評估 Token 節省效果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-langchain-openwiki",
+    "title": "LangChain OpenWiki 自修正記憶體技術實作解析",
+    "title_original": "Building Self-Correcting Memory in OpenWiki",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/self-correcting-memory-openwiki",
+    "published_at": "2026-08-25T16:47:52+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 OpenWiki 自修正記憶體技術，透過「證據聲索」（evidence-backed claims）機制，讓 AI 在檢索到過時資訊時自動偵測並觸發重新檢索流程，有效降低生成內容的幻覺率與錯誤傳播。",
+    "highlights": [
+      "OpenWiki 採用「證據聲索」機制，每次輸出皆附帶可溯源的支撐依據",
+      "系統監控資訊時效性，當偵測到上下文斷裂或知識過期時自動修正",
+      "適用於快速迭代的程式碼庫、持續更新的技術文件等動態場景",
+      "可與 LangChain 既有代理框架整合，無需大幅重構",
+      "核心價值在於將「記憶體修正」從被動變主動，提升代理可靠性"
+    ],
+    "why_it_matters": "AI 代理的幻覺問題長期困擾開發者，OpenWiki 提出的自修正框架提供了一條可工程化落地的解法，讓記憶體不再是靜態快照，而是具備自我校準能力的動態系統，直接影響代理產出品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將此框架用於文件自動化維護代理：讓 AI 在檢測到舊文件與最新程式碼不一致時，自動提出更新建議或觸發修正流程，實現文件即程式碼的閉環維護。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-25-v620-gpu-windows-rocm-vulkan",
+    "title": "V620 GPU 在 Windows/ROCm 與 Vulkan 上的重新基準測試",
+    "title_original": "Re-done benchmarks for V620 on Windows/ROCm & Vulkan",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy3t5h/redone_benchmarks_for_v620_on_windowsrocm_vulkan/",
+    "published_at": "2026-08-25T15:56:44+00:00",
+    "category": "open-source-ai",
+    "summary": "社群成員重新進行 V620 GPU 在 Windows、ROCm 以及 Vulkan 環境下的基準測試，提供更完整的效能數據供開發者參考選擇。",
+    "highlights": [
+      "涵蓋 Windows、ROCm、Vulkan 三種環境",
+      "重新測試確保數據準確性",
+      "有助於評估 V620 的跨平台適用性",
+      "為 Linux ROCm 用戶提供實用參考"
+    ],
+    "why_it_matters": "準確的基準測試數據可幫助技術人員選擇適合本地 AI 部署的 GPU，避免因資料不完整而做出錯誤決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "可根據這些基準數據自動化選擇性價比最高的 GPU 配置，用於建立本地推論伺服器或工作站。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-ibm-granite-4-2-llms",
+    "title": "IBM Granite 4.2 系列 LLMs 技術解析：模型架構與訓練方法曝光",
+    "title_original": "Granite 4.2 LLMs: How They're Built",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+    "published_at": "2026-08-25T15:14:14+00:00",
+    "category": "new-models",
+    "summary": "IBM 發布 Granite 4.2 大語言模型系列，揭露其建構方法與訓練策略，提供開源模型供研究社群使用，主打企業級應用場景。",
+    "highlights": [
+      "開源發布，可部署與微調",
+      "建構方法與訓練策略詳細說明",
+      "主打企業級應用場景"
+    ],
+    "why_it_matters": "為企業提供另一個可控、可部署的開源模型選擇，避免過度依賴商業 API 供應商。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可評估其效能、部署成本與合規需求，作為自有 AI 應用的替代方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-25-langchain-agent",
+    "title": "LangChain 揭秘 Agent 環境與任務建構方法",
+    "title_original": "How We Build Agent Environments & Tasks",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/building-agent-environments-and-tasks",
+    "published_at": "2026-08-25T14:56:35+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格詳細說明其建構合成 Agent 環境與任務的流程，包含規格生成、規格轉任務、以及保存共享知識的世界規格三個階段。",
+    "highlights": [
+      "Spec Generation：從需求生成環境規格",
+      "Spec-to-Task：將規格轉化為具體任務",
+      "World Spec：維護 Agent 共享知識庫",
+      "可用於批量生成訓練資料與評測任務"
+    ],
+    "why_it_matters": "理解 LangChain 的 Agent 訓練資料生成方法，可幫助開發者建構更可靠的自動化工作流程程與評測基準。",
+    "automation_angle": null,
+    "automation_angle_zh": "可運用此流程自動化生成領域特定的 Agent 訓練資料，減少人工標註成本並加速開發迭代。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-item",
+    "title": "週末微調模型的心情寫照",
+    "title_original": "me to the model I spent all weekend fine-tuning",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy0knv/me_to_the_model_i_spent_all_weekend_finetuning/",
+    "published_at": "2026-08-25T13:55:57+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社群中的一則心情發文，描述開發者週末花費大量時間微調本地語言模型後的無奈與期待。這類貼文反映 AI 愛好者對模型客製化的執著與情感連結。",
+    "highlights": [
+      "開發者願意投入週末時間進行模型微調",
+      "反映本地部署社群對模型客製化的高需求",
+      "微調後的效果與期望可能存在落差",
+      "社群互動展現 AI 技術的人性化面向"
+    ],
+    "why_it_matters": "此類社群心聲揭示本地 AI 模型微調的實際痛點，可幫助技術人員理解使用者需求與工具改進方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可關注 LoRA/QLoRA 等高效微調方法的社群討論，評估其自動化模型客製化工作流程的可行性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-apple-m5-ultra-1-2tb-s",
+    "title": "Apple M5 Ultra 發布：1.2TB/s 記憶體頻寬",
+    "title_original": "Apple releases M5 ultra at 1.2TB/s bandwith",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxzgyt/apple_releases_m5_ultra_at_12tbs_bandwith/",
+    "published_at": "2026-08-25T13:12:03+00:00",
+    "category": "new-models",
+    "summary": "Reddit 社群流傳 Apple M5 Ultra 晶片資訊，據稱具備 1.2TB/s 的驚人記憶體頻寬。若屬實，將大幅超越現有消費級 GPU，對本地 AI 推論具重大意義。",
+    "highlights": [
+      "M5 Ultra 記憶體頻寬達 1.2TB/s",
+      "頻寬表現可能超越 RTX 4090 等主流 GPU",
+      "支援更大模型的本地高效推論",
+      "尚未獲得 Apple 官方確認"
+    ],
+    "why_it_matters": "如此高的記憶體頻寬可顯著加速大語言模型的本地推論，使 Apple 硬體成為 AI 開發者更具吸引力的選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可評估 M5 Ultra 的 Core ML 優化程度，測試其是否能成為本地 AI 推論的高性價比解決方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-4",
+    "title": "量化感知癒合技術：4位元壓縮模型超越原始全精度",
+    "title_original": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxyiko/quantizationaware_healing_a_compressed_4bit_model/",
+    "published_at": "2026-08-25T12:31:26+00:00",
+    "category": "open-source-ai",
+    "summary": "名為「Quantization-Aware Healing」的新技術展示如何將模型壓縮至4位元同時保持甚至超越原始全精度表現。這種方法可能大幅降低本地部署的硬體需求。",
+    "highlights": [
+      "壓縮後4位元模型效能優於原始全精度版本",
+      "採用量化感知癒合機制修復壓縮損失",
+      "降低本地推論的 VRAM 和算力需求",
+      "可能適用於邊緣設備部署場景"
+    ],
+    "why_it_matters": "此研究若屬實，可讓技術人員在消費級硬體上運行更強大的模型，顯著提升本地 AI 的實用性與成本效益。",
+    "automation_angle": null,
+    "automation_angle_zh": "可實際測試該方法在 GGUF/llama.cpp 框架中的表現，評估是否能自動化降低推論成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-25-mnemosyne-obsidian-ai",
     "title": "mnemosyne：整合 Obsidian 的 AI 記憶平台，語義搜尋 + 圖譜記憶",
     "title_original": "M4F-S/mnemosyne",
@@ -142,6 +412,59 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-openai",
+    "title": "OpenAI揭示豐富智能背後的完整技術棧",
+    "title_original": "The full stack behind abundant intelligence",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+    "published_at": "2026-08-25T07:05:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI CFO在官方部落格說明晶片、計算、模型到產品各層進步如何相互疊加，以更低成本提供更強智能。屬於願景敘述而非具體技術公告。",
+    "highlights": [
+      "強調硬體到軟體全鏈條優化",
+      "說明成本下降的底層邏輯",
+      "屬於願景陳述而非具體產品更新",
+      "有助理解AI能力提升的宏觀趨勢"
+    ],
+    "why_it_matters": "有助技術決策者理解AI能力持續提升的驅動因素，但屬於方向性文章，不直接提供可操作的技術更新。",
+    "automation_angle": null,
+    "automation_angle_zh": "作為背景資料了解AI成本趨勢，具體自動化實作建議等待晶片與模型的實際進展公告。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-openai-jalape-o",
+    "title": "OpenAI 自研推論晶片 Jalapeño 首波結果出爐：速度與能效業界領先",
+    "title_original": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/jalapeno-first-results",
+    "published_at": "2026-08-25T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 公布自研推論加速晶片 Jalapeño 首波效能數據，強調更高吞吐量、更低延遲與更佳功耗表現，可加速現代 AI 模型部署節省成本。",
+    "highlights": [
+      "自研推論加速器，瞄準資料中心成本優化",
+      "吞吐量與能效顯著提升，超越業界平均",
+      "目前僅公布效能指標，量產時間未定"
+    ],
+    "why_it_matters": "若量產可能打破輝達 GPU 壟斷，大幅降低大型模型推論成本，影響雲端定價與企業部署策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤後續發布，評估對自有 AI 應用基礎設施成本結構的潛在影響。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-08-25-frama-c-mcp-frama-c-agent-mcp",
@@ -304,6 +627,32 @@
     "why_it_matters": "此事件對技術使用者的直接影響較低，但反映出 AI 已被大規模用於認知作戰。關注此趨勢有助於技術人員在未來建構內容審核或事實查核工具時有所參照。",
     "automation_angle": null,
     "automation_angle_zh": "若你在建構內容過濾或事實查核系統，可研究此案例中 AI 生成文本的特徵模式（如語氣一致性、缺乏真實引用），據此優化自家偵測規則。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-25-openai-chatgpt-work-codex",
+    "title": "OpenAI 推出 ChatGPT Work 與 Codex 管理員插件，強化企業管理功能",
+    "title_original": "Introducing the Admin plugin for ChatGPT Work and Codex",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/introducing-admin-plugin",
+    "published_at": "2026-08-25T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 為 ChatGPT Work 與 Codex 推出官方管理插件，支援工作區用量分析、成員權限管理、額度調整等企業剛需功能。",
+    "highlights": [
+      "工作區用量儀表板，追蹤模型呼叫量",
+      "集中管理成員與存取權限",
+      "支援管理員操作請求集中處理"
+    ],
+    "why_it_matters": "企業級 AI 平台必備的管理與合規需求正式被滿足，IT 團隊可更精細控制內部 AI 資源使用與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "IT 部門可整合此插件自動化管理內部 AI 配額、生成使用報告、執行權限審計。",
     "tags": [
       "hot-topics",
       "rss",
@@ -756,6 +1105,34 @@
       "en"
     ],
     "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-awesome-kaz-models",
+    "title": "awesome-kaz-models：哈薩克語研究級模型目錄",
+    "title_original": "alenisaw/awesome-kaz-models",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/alenisaw/awesome-kaz-models",
+    "published_at": "2026-08-24T13:03:31Z",
+    "category": "open-source-ai",
+    "summary": "這個精選模型目錄專門收錄支援哈薩克語的優質開源AI模型，為少數語言NLP研究提供重要參考資源。",
+    "highlights": [
+      "收錄支援哈薩克語的開源模型",
+      "強調研究等級品質把關",
+      "有助於少數語言NLP實務評估",
+      "開源目錄可直接貢獻與使用"
+    ],
+    "why_it_matters": "對於需要處理多語言或哈薩克語場景的開發者，此目錄提供了可馬上評估使用的開源模型清單，省去大量搜尋驗證時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可依目錄快速評估哈薩克語模型的部署可行性，用於翻譯、NER或語音辨識等實際任務的原型驗證。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/154399485?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -2679,6 +3056,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-25-2026-ai",
+    "title": "2026年代理式AI趨勢與案例分析",
+    "title_original": "10+ Agentic AI Trends and Examples for 2026 - AIMultiple",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9wVmhFMnZHZXo0RkI3S203dDdSck9KZzl3SFh4d0dSNkVzR2RtU1VHRWptbGxFMzJQc0ZvZTVPdi1FYVd2WHNKaHhlN1c4Wm5lTkE?oc=5",
+    "published_at": "2026-08-21T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "AIMultiple 整理的代理式AI趨勢報告，列舉超過十項 2026 年預測趨勢與實際應用案例，但內容屬於綜合性分析，非獨家消息或深度技術分析。",
+    "highlights": [
+      "收錄多個代理式AI應用案例",
+      "提供 2026 年趨勢預測視角",
+      "適合快速掌握產業宏觀走向",
+      "屬於一般性趨勢整理而非技術突破"
+    ],
+    "why_it_matters": "此類趨勢報告可作為技術決策參考，但需搭配其他技術來源驗證，避免僅依賴行銷性質內容。",
+    "automation_angle": null,
+    "automation_angle_zh": "可從中挑選符合自身需求的趨勢，進一步研究具體實作方式而非僅停留在趨勢閱讀。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-21-ox-alpha-openrouter",
