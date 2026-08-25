@@ -1,5 +1,88 @@
 [
   {
+    "id": "2026-08-25-hs-sql-agent-c-sql-agent-mcp-ast",
+    "title": "hs-sql-agent：C# 寫的 SQL Agent MCP 伺服器，強型別 AST 驗證杜絕幻覺",
+    "title_original": "tse-wei-chen/hs-sql-agent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tse-wei-chen/hs-sql-agent",
+    "published_at": "2026-08-25T00:22:50Z",
+    "category": "agent-skills",
+    "summary": "hs-sql-agent 是一個以 C# 實作、基於 MCP 協定的 SQL Agent 伺服器，支援 6 種主流資料庫，強調原始 SQL 輸入、強型別 AST 驗證與內嵌管理 UI，目標是消除 LLM 在 SQL 生成上的幻覺與安全風險。現階段僅 11 顆星，屬早期專案。",
+    "highlights": [
+      "基於 MCP 協定，支援 Model Context Protocol 生態",
+      "支援 6 種主流資料庫（MySQL、PostgreSQL 等）",
+      "強型別 AST 驗證可有效防止無效或惡意 SQL",
+      "內嵌 Admin UI，無需額外工具即可管理查詢",
+      "現階段 Stars 偏低（11），社群成熟度有限"
+    ],
+    "why_it_matters": "在資料庫操作場景中，SQL 幻覺與 Injection 風險是 Agent 落地的主要障礙，hs-sql-agent 的 AST 驗證思路值得借鑒，但需評估其維護狀態是否足夠活跃。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地對 MySQL 或 PostgreSQL 資料庫執行實際 SQL 生成任務，驗證 AST 驗證是否真正杜絕了幻覺，並評估整合進現有 C# 專案的可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/144909016?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-lowendlocalai-llm",
+    "title": "新社群 LowEndLocalAI 成立：專注低規格硬體運行本地 LLM",
+    "title_original": "Please join r/LowEndLocalAI, a community for running local LLMs on low spec hardware",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxd6yb/please_join_rlowendlocalai_a_community_for/",
+    "published_at": "2026-08-24T19:41:38+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群成員發起新子版塊 LowEndLocalAI，專為希望在低規格硬體上運行本地 LLM 的用戶提供交流平台。該社群將整理低配備部署指南、模型選擇建議及效能優化技巧，目標群體為硬體資源有限但需要隱私或離線能力的技術用戶。",
+    "highlights": [
+      "新成立專注低硬體需求本地 LLM 的社群",
+      "目標用戶為資源受限但需隱私或離線能力者",
+      "將分享模型選擇、部署優化與效能調校經驗",
+      "可成為低成本 AI 自動化部署的資訊來源"
+    ],
+    "why_it_matters": "本地 LLM 部署可降低 API 依賴與長期成本，對需要資料隱私或離線運作的場景具重要價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤該社群，收集低配備部署的實作心得，評估是否能用閒置老舊硬體搭建離線 AI 工作流程程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-100-qwen3-8-27b-kv-cache",
+    "title": "社群募資 $100 進行 Qwen3.8-27B 量化版本與 KV Cache 效能基準測試",
+    "title_original": "Planning to spend ~$100 benchmarking differnet Qwen3.8-27B quants and kv cache and looking for input before I start",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxc1gh/planning_to_spend_100_benchmarking_differnet/",
+    "published_at": "2026-08-24T19:00:54+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群成員計畫投入約 100 美元進行 Qwen3.8-27B 模型各量化版本與 KV Cache 效能的基準測試，並公開徵集社群意見作為測試設計參考。該測試旨在幫助本地部署用戶選擇最優化配置，降低推論硬體成本。",
+    "highlights": [
+      "測試對象為 Qwen3.8-27B 各量化版本",
+      "重點測試 KV Cache 效能與記憶體使用",
+      "社群眾籌方式進行，公開徵集測試方法建議",
+      "目標為找出本地部署最佳性價比配置"
+    ],
+    "why_it_matters": "Qwen 系列為重要開源模型，其量化測試結果可幫助技術人員優化本地部署成本與效能平衡。",
+    "automation_angle": null,
+    "automation_angle_zh": "等待測試結果出爐後，根據量化版本與 KV Cache 配置建議，調整自有本地部署腳本以降低延遲或硬體需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-24-congressmcp-ai-agent-api-mcp",
     "title": "congressMCP：讓 AI Agent 直連美國國會 API 的 MCP 伺服器",
     "title_original": "amurshak/congressMCP",
@@ -170,6 +253,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-25-llm-anthropic-0-27-anthropic-sdk-v1-0-httpx2",
+    "title": "llm-anthropic 0.27 發布：支援 anthropic SDK v1.0 遷移至 httpx2",
+    "title_original": "llm-anthropic 0.27",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+    "published_at": "2026-08-24T16:27:04+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 llm-anthropic 0.27，更新要點為相容 anthropic Python SDK v1.0，後者已從 httpx 遷移到 httpx2。這是繼 OpenAI SDK v3.0.0 兩週前完成相同遷移後，Anthropic SDK 也跟進的標誌性更新。",
+    "highlights": [
+      "支援 Anthropic SDK v1.0，底層 HTTP 庫從 httpx 升級至 httpx2",
+      "httpx2 為非同步效能優化版本，適合高併發場景",
+      "Simon Willison 提供實際遷移教學與 PR 示例",
+      "屬 LLM 工具鏈生態的底層相依更新",
+      "建議立即更新以避免與 anthropic 最新 SDK 的相容性問題"
+    ],
+    "why_it_matters": "httpx2 遷移預計將成為主流 AI SDK 的標配，技術用戶若使用 llm-anthropic 或自建 AI 工具鏈，需關注此變更是否影響現有非同步邏輯與錯誤處理。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 llm-anthropic 的工程師應儘早執行升級測試（參考 Simon 提供的 Migration Guide 與 PR 示例），確保自家 Agent 專案在遷移後能正常運作，並檢查 httpx2 是否引入了新的錯誤處理行為。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-08-24-bart-vintage-llm",
     "title": "「Bart」：一個復古風格的 vintage LLM 模型展示",
     "title_original": "Bart: A vintage llm",
@@ -191,6 +302,60 @@
     "automation_angle_zh": "開發者可用 Bart 作為基準測試對照組，評估新模型在特定任務上的相對改進幅度，或用於教學演示模型演進歷程。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-reddit-chatgpt",
+    "title": "Reddit 社群發現：ChatGPT 在不同語言下隨機選擇結果不同",
+    "title_original": "ChatGPT picks differently when asked in a different language. \"Choose a random fruit from this list\" asked a LOT of times",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vx67dq/chatgpt_picks_differently_when_asked_in_a/",
+    "published_at": "2026-08-24T15:35:31+00:00",
+    "category": "agent-skills",
+    "summary": "社群用戶實測發現，ChatGPT 回答「從列表中隨機選一個水果」時，英文與其他語言的選擇分布存在統計差異。此現象可能與 token 位置、語言模型訓練分布或溫度參數相關，而非系統性功能設計。",
+    "highlights": [
+      "測試透過大量重複 prompt 進行觀察",
+      "英文版與其他語言的隨機分布存在偏差",
+      "原因可能涉及訓練資料語言權重差異",
+      "尚未有官方說明此為已知行為或 bug"
+    ],
+    "why_it_matters": "對需要跨語言一致行為的 AI Agent 開發者而言，此發現值得注意。在設計多語言應用或自動化流程時，應避免依賴模型隨機性，並明確測試各語言版本的行為差異。",
+    "automation_angle": null,
+    "automation_angle_zh": "若系統需要確定性行為，應避免使用「隨機」prompt，改用明確的索引邏輯（如根據時間戳或 UUID 取模），以確保跨語言部署時行為一致。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-sol-api-tokens-4-20",
+    "title": "新 Sol API 定價出爐：每百萬輸入 tokens 4 美元、輸出 20 美元",
+    "title_original": "New Sol API pricing - $4 per million input tokens and $20 per million output tokens",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vx5mrz/new_sol_api_pricing_4_per_million_input_tokens/",
+    "published_at": "2026-08-24T15:14:30+00:00",
+    "category": "ai-deals",
+    "summary": "Reddit 熱議一款名為 Sol 的新 API 服務定價結構。消息顯示其輸入 token 單價為 4 美元/百萬，輸出為 20 美元/百萬。該定價與市場主流中價位 API 相近，但來源為論壇討論，尚未有官方確認文件。目前缺乏該服務的延遲、可用性或模型能力等關鍵資訊。",
+    "highlights": [
+      "輸入 token 定價 $4/M，輸出 $20/M，性價比中等",
+      "訊息來源為 Reddit 論壇，未經官方證實",
+      "缺乏模型版本、能力評測、 SLA 等關鍵資訊",
+      "需進一步確認是否為新興供應商或既有服務重新包裝"
+    ],
+    "why_it_matters": "API 成本直接影響 AI 應用邊際收益，技術人員需持續追蹤市場定價變化以評估替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此定價與 Anthropic、OpenAI、Google 等主流 API 進行成本對比計算，評估是否值得整合進現有工作流程程。",
+    "tags": [
+      "ai-deals",
       "rss",
       "en"
     ],
@@ -303,6 +468,34 @@
     "automation_angle_zh": "技術讀者可重現實驗：在自己的 LLM 部署環境中加入輸入異常檢測與數據清理 pipeline，量化不同模型的容錯能力，作為選型依據。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-openai-gpt-5-6-kiro",
+    "title": "OpenAI GPT-5.6 登陸 Kiro，主打開發者價格效能提升",
+    "title_original": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/gpt-5-6-in-kiro",
+    "published_at": "2026-08-24T12:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 官方 Blog 宣布 GPT-5.6 已在 Kiro 平台上可用，定位於幫助開發者進行軟體規劃、建構、審查與測試，主打更優的價格效能比。Kiro 作為整合層，讓開發者能以更低成本使用 OpenAI 最新模型能力。",
+    "highlights": [
+      "OpenAI 官方 Blog 發布，來源可靠",
+      "聚焦軟體開發生命週期（規劃、建構、審查、測試）",
+      "主打價格效能比，適合成本敏感的開發場景",
+      "Kiro 為第三方整合平台，非 OpenAI 直營",
+      "具體效能數據與定價細節需查閱 Kiro 官網"
+    ],
+    "why_it_matters": "開發者若在軟體開發流程中引入 AI輔助，GPT-5.6 在 Kiro 的上架提供了新的性價比選項，值得評估其在 Code Review、測試生成等環節的實際表現。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發團隊可在 Kiro 申請試用，用真實的 Code Review 或測試生成任務對比 GPT-5.6 與現有方案的成本與輸出品質，建立內部基准。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -537,6 +730,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-25-reddit-chatgpt",
+    "title": "Reddit熱議：哪些ChatGPT自訂指令讓你無法自拔？",
+    "title_original": "Which custom instruction in ChatGPT could you not live without?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vwocqy/which_custom_instruction_in_chatgpt_could_you_not/",
+    "published_at": "2026-08-24T00:56:52+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/OpenAI社群熱烈討論使用者最離不開的ChatGPT自訂指令功能。投票顯示，開發者偏好在System Prompt中加入角色定位、輸出格式規範與領域專業背景設定，以減少每次對話的重複說明時間。討論涵蓋程式碼審查、文件撰寫、數據分析等多種應用場景的自訂指令範本。",
+    "highlights": [
+      "社群投票顯示「角色扮演+輸出格式」組合最受歡迎，可將對話啟動時間縮短30秒以上",
+      "開發者常用自訂指令包括：程式碼風格偏好、API文件格式要求、技術術語統一設定",
+      "部分使用者將多個自訂指令設為鏈接，按工作場景快速切換配置",
+      "此功能可減少每次對話開頭的上下文注入，提升API呼叫效率",
+      "少數進階用法包含動態變數插入與條件觸發指令邏輯"
+    ],
+    "why_it_matters": "自訂指令是ChatGPT使用效率的關鍵槓桿，正確設定可減少30-50%重複提示詞輸入，對頻繁使用ChatGPT的技術人員具有實質時間節省價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可建立自訂指令庫，針對程式碼審查、API文件生成、測試案例撰寫等常見任務設定專用配置，實現每次對話零設定啟動。建議先用A/B測試評估不同指令組合的輸出品質差異。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-24-oh-my-dag-agent-mcp-50",
     "title": "oh-my-dag：程式碼 Agent 編排層，支援 MCP 與 50 工具",
     "title_original": "AbyssCN/oh-my-dag",
@@ -729,6 +950,33 @@
     "automation_angle_zh": "根據 benchmark 結果選用對應引擎與量化參數，可在本地自動化跑任務（如程式碼審查、文件摘要）並控制成本。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-pew-chatgpt-ai",
+    "title": "Pew 研究：ChatGPT 後時代約三分之一網頁內容為 AI 生成",
+    "title_original": "A Third of the Post-ChatGPT Web Is AI-Written, Pew Finds.",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vw7x0k/a_third_of_the_postchatgpt_web_is_aiwritten_pew/",
+    "published_at": "2026-08-23T13:58:14+00:00",
+    "category": "hot-topics",
+    "summary": "皮尤研究中心（Pew Research）調查顯示，自 ChatGPT 發布後，網路上約三分之一的新增內容為 AI 生成。此趨勢影響 SEO、內容品質判斷及 AI 訓練資料來源的可信度評估。",
+    "highlights": [
+      "約 33% 的網頁內容被認定為 AI 輔助或生成",
+      "AI 內容氾濫影響搜尋引擎排序與內容可信度",
+      "對 AI 訓練資料集品質控制提出挑戰",
+      "內容檢測工具需求上升但準確度仍有爭議"
+    ],
+    "why_it_matters": "技術開發者需注意網路內容品質變化，在建立訓練資料集或進行網頁爬蟲時需加入 AI 內容過濾機制，以避免模型沾染或分析偏差。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可整合 AI 內容檢測 API（如 GPTZero、Originality.ai）到資料預處理流程，過濾 AI 生成的訓練樣本或待分析的網頁內容。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -3195,6 +3443,33 @@
     "why_it_matters": "技術人員可評估Gemini Advanced在程式碼生成、文件處理場景的能力是否滿足需求，同時節省約$120/年的訂閱費用。",
     "automation_angle": null,
     "automation_angle_zh": "利用免費教育版測試Gemini API與現有開發工具鏈的整合可行性，評估其作為Copilot替代方案或補充的價值。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-google-google-ai-pro",
+    "title": "Google 向美國大學生免費提供一年 Google AI Pro 教育版",
+    "title_original": "Google宣布向美国大学生免費提供一年 Google AI Pro及多項专属教育特权 - cnBeta.COM",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1zOERBcUJoXzg4cDV5bWtiMlVmby1vbkJxMkVyNldWMExHZVBuaEZkbEtBdDBHbHN4YU1LM2piWjNCQnpIY1M2SWwxc0lEUkpQS3c?oc=5",
+    "published_at": "2026-08-19T23:32:59+00:00",
+    "category": "ai-deals",
+    "summary": "Google 宣布向美國大學生免費提供一年 Google AI Pro 訂閱，附帶多項教育專屬特權。此優惠可能讓符合資格的學生省下每月約 20 美元的訂閱費用，並取得更多 AI 工具使用額度。",
+    "highlights": [
+      "免費期限為一年，適用於美國境內認證大學生",
+      "包含 Google AI Pro 完整功能，可能含 Gemini Advanced",
+      "需透過學校 email 或教育驗證機制申請",
+      "優惠內容可能隨地區而異，需確認官方最新公告"
+    ],
+    "why_it_matters": "對於有學校 email 的技術從業者，這是一個合法的免費工具來源，可節省個人訂閱開支並取得更多 API 額度，特別適合研究與原型開發階段使用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可利用學校郵箱驗證申請，用免費額度測試 Gemini API 整合，或在畢業前評估此工具鏈是否值得未來付費轉換。",
     "tags": [
       "ai-deals",
       "rss",
@@ -88090,6 +88365,33 @@
       "agent-skills",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-ai-ai",
+    "title": "字節跳動豆包 AI 收費爭議：中國 AI 應用免費時代終結？",
+    "title_original": "豆包收费争议背後：AI應用的免費時代结束了 | Morketing前沿 - Morketing",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5nN2YwS1V4R3FyVllfNm9kbk5QQ3FuUmVSWlVqME5uZUZzWkwwSmZ5TXRNbGN1Z0pld05xYlp3S1JhNkhBYkJTRDV3?oc=5",
+    "published_at": "2026-05-13T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Morketing 報導字節跳動旗下豆包 AI 應用推出收費方案引發用戶反彈。隨著各大中國 AI 產品相繼轉向付費模式，業界質疑中國市場的「免費 AI 時代」是否已正式終結。豆包此前以補貼策略快速佔據市場，如今收費調整顯示 AI 商業化壓力日益增大。",
+    "highlights": [
+      "豆包 AI 由免費轉向收費引發用戶反彈",
+      "反映中國 AI 市場從燒錢補貼轉向變現壓力",
+      "可能標誌中國 AI 免費時代結束的趨勢",
+      "對依賴免費中國 AI API 的技術人員有成本影響"
+    ],
+    "why_it_matters": "中國 AI 服務集體收費將直接影響技術人員的 API 成本結構，需重新評估替代方案與預算規劃。",
+    "automation_angle": null,
+    "automation_angle_zh": "盤點現有工作流程程中使用的中國 AI 服務，評估收費後的成本影響，並考慮開源模型或非中國供應商作為替代。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
