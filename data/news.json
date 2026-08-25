@@ -1,5 +1,149 @@
 [
   {
+    "id": "2026-08-25-mnemosyne-obsidian-ai",
+    "title": "mnemosyne：整合 Obsidian 的 AI 記憶平台，語義搜尋 + 圖譜記憶",
+    "title_original": "M4F-S/mnemosyne",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/M4F-S/mnemosyne",
+    "published_at": "2026-08-25T12:25:23Z",
+    "category": "agent-skills",
+    "summary": "Python 開源專案為 AI Agent 提供持久化記憶系統，支援 Obsidian  vault 同步、語義搜尋、圖譜記憶結構、安全閘道與 MCP Server 接口，試圖解決 AI Agent 缺乏長期知識積累的問題。",
+    "highlights": [
+      "Obsidian vault 整合，可利用既有筆記生態",
+      "語義搜尋支援直覺的知識檢索",
+      "圖譜記憶結構化呈現資訊關聯",
+      "安全閘道設計保護敏感記憶內容",
+      "提供 MCP Server 介面與 AI Agent 對接"
+    ],
+    "why_it_matters": "AI Agent 的短期對話記憶有限，mnemosyne 透過結構化與語義化的長期記憶機制，讓 AI 能「記住」使用者偏好、專案背景與過往互動，顯著提升 Agent 的上下文理解深度。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將其部署為個人或團隊的 AI 記憶後端，例如讓 AI Agent 在處理新任務時自動查詢 mnemosyne 中的相關歷史資料，實現真正意義上的「有記憶的工作流程程」。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/181015797?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-swissdevjobs-cli-python-cli-mcp-server",
+    "title": "swissdevjobs-cli：零依賴 Python CLI + MCP Server，求職直送終端機",
+    "title_original": "Stupidoodle/swissdevjobs-cli",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Stupidoodle/swissdevjobs-cli",
+    "published_at": "2026-08-25T12:19:13Z",
+    "category": "agent-skills",
+    "summary": "開源 CLI 工具提供瑞士、德國、英國、美國、加拿大、荷蘭、法國等七國約4700筆透明薪資的科技職缺，可從終端機或 AI Agent 直接搜尋與投遞，支援 MCP Server 與 Claude Code 外掛。",
+    "highlights": [
+      "涵蓋7個國家、約4700筆具備薪資透明度的科技職缺",
+      "零依賴 Python CLI，可直接在終端機操作",
+      "支援 MCP Server，可整合進 AI Agent 工作流程程",
+      "提供 Claude Code 外掛，開發者可在編輯器環境直接使用",
+      "開源專案可Fork客製化搜尋邏輯"
+    ],
+    "why_it_matters": "對於技術求職者或需要批量搜尋職缺的用戶，此工具將求職流程自動化整合進開發環境，省去在多個網站間切換的時間成本，尤其適合有明確技術棧需求的工程師。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將其整合進個人求職 Agent 流程，例如讓 AI Agent 自動抓取符合條件的新職缺、生成客製化求職信，並透過 CLI 直接投遞，大幅減少重複性操作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/71273492?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-flunner-macos-flutter-mcp",
+    "title": "flunner：macOS 原生 Flutter 開發環境整合 MCP 代理協定",
+    "title_original": "stackwares/flunner",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/stackwares/flunner",
+    "published_at": "2026-08-25T12:14:45Z",
+    "category": "agent-skills",
+    "summary": "stackwares/flunner 是一款 macOS 原生 Flutter 開發工作台，內建 MCP（Model Context Protocol）伺服器。AI 代理可直接在應用內執行、觀察並控制 Flutter 運行時環境，實現從程式碼編寫到熱重載偵錯的完整代理工作流程。",
+    "highlights": [
+      "Swift 原生開發，相容 macOS 生態與 Spotlight 搜尋",
+      "內建 MCP Server，支援 AI 代理即時感知 Flutter Widget 樹狀結構",
+      "支援熱重載與即時 UI 預覽",
+      "GitHub 目前 12 星，屬於早期專案",
+      "可用於自動化 Flutter UI 測試與生成場景"
+    ],
+    "why_it_matters": "若你正在建構 AI 代理輔助的前端開發流程，flunner 提供了代理與原生 App runtime 直接溝通的橋樑，可減少代理輸出與實際執行結果之間的落差。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將其作為代理的「沙盒」，讓 AI 自動生成 Flutter widget 後直接觀察渲染結果，快速驗證代理輸出的 UI 是否符合預期，縮短開發迭代周期。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Swift"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/34589420?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-skill-buddy-ai-skills-mcp-servers",
+    "title": "skill-buddy：桌面工作區統一管理 AI Skills 與 MCP Servers",
+    "title_original": "konnga/skill-buddy",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/konnga/skill-buddy",
+    "published_at": "2026-08-25T12:12:50Z",
+    "category": "agent-skills",
+    "summary": "開源 TypeScript 專案提供桌面端工作區，用於管理、安裝與同步 AI Skills 與跨 Agent 的 MCP Servers，解決多個 AI 工具各自維護技能配置的碎片化問題。",
+    "highlights": [
+      "桌面工作區提供統一的 Skills 與 MCP Server 管理介面",
+      "支援跨 AI Agent 同步配置，提升一致性",
+      "TypeScript 實作，適合前端技術背景的技術用戶",
+      "可作為展示 Skill 管理介面的開箱即用參考",
+      "屬於早期專案，實際穩定性需自行驗證"
+    ],
+    "why_it_matters": "隨著 AI Agent 生態系擴張，Skills 與 MCP Server 的數量持續增加，統一管理工具能降低配置衝突與維護成本，是提升 AI 協作效率的潛力基礎設施。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其作為本地 Skill 管理中樞，搭配不同 AI Agent 使用，減少重複配置時間；亦可 Fork 此專案學習其架構設計，開發自訂的 Skill 管理方案。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/18214609?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-quantization-aware-healing-4",
+    "title": "Quantization-Aware Healing：4 位元壓縮模型逆勢超越原始全精度版本",
+    "title_original": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+    "published_at": "2026-08-25T11:39:24+00:00",
+    "category": "open-source-ai",
+    "summary": "Multiverse Computing 發布 Quantization-Aware Healing（CAI）技術，能在將模型壓縮至 4 位元後反而超越原始全精度表現。該方法透過動態修正量化誤差，在保持模型尺寸縮小的同時恢復準確度，為邊緣裝置部署大型模型提供新思路。",
+    "highlights": [
+      "壓縮至 4 位元後效能不降反升，顛覆傳統量化 trade-off 認知",
+      "核心原理為動態偵測並修正量化誤差",
+      "適用於 Transformer 架構的各類模型",
+      "可與現有量化方法（如 GPTQ、AWQ）結合使用",
+      "Hugging Face 已發布相關技術部落格與實作"
+    ],
+    "why_it_matters": "對需要在本地或邊緣裝置執行模型的技術人員而言，CAI 可能讓 7B/13B 模型在 MacBook 或嵌入式裝置上流暢運行，大幅降低硬體成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載相關程式碼，在本地對自家 fine-tuned 模型套用 CAI 後，透過 mmlu 或 humaneval 等 benchmark 驗證壓縮前後的準確率差異，評估是否適合實際部署。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-25-frama-c-mcp-frama-c-agent-mcp",
     "title": "frama-c-mcp：將形式驗證工具 Frama-C 接入 Agent 的 MCP 伺服器",
     "title_original": "sysprog21/frama-c-mcp",
@@ -139,6 +283,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-25-openai",
+    "title": "OpenAI 封鎖俄羅斯組織虛假影響力行動",
+    "title_original": "Disrupting a new covert influence campaign from Russia",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+    "published_at": "2026-08-25T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布安全報告，指出已封禁來自俄羅斯的帳號。該帳號利用 AI 生成內容，宣傳一個假的以色列智庫與所謂「主權指數」，內容明顯傾向俄羅斯並批評西方。",
+    "highlights": [
+      "攻擊手法為 AI 生成虛假新聞與社群內容",
+      "假借以色列智庫與主權指數作為包裝",
+      "屬於國家級資訊作戰行動的一環",
+      "OpenAI 強調此事並非模型安全漏洞",
+      "此事屬已知威脅，主動偵測與封禁展現平台治理能力"
+    ],
+    "why_it_matters": "此事件對技術使用者的直接影響較低，但反映出 AI 已被大規模用於認知作戰。關注此趨勢有助於技術人員在未來建構內容審核或事實查核工具時有所參照。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你在建構內容過濾或事實查核系統，可研究此案例中 AI 生成文本的特徵模式（如語氣一致性、缺乏真實引用），據此優化自家偵測規則。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-08-25-lowendlocalai-llm",
