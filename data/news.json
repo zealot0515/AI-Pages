@@ -1,5 +1,418 @@
 [
   {
+    "id": "2026-08-26-luffy-arm-ssh-ai-agent",
+    "title": "luffy-arm：逆轉 SSH 的本地 AI 編碼 Agent 遠端觸手",
+    "title_original": "Ares960826/luffy-arm",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Ares960826/luffy-arm",
+    "published_at": "2026-08-26T19:37:38Z",
+    "category": "agent-skills",
+    "summary": "luffy-arm 將 Claude Code 技能包裝為反向 SSH 遠端 Agent，讓本地 AI 大腦透過 SSH 伸入遠端 Linux 伺服器執行讀取、運行、診斷操作，內建分層安全機制。",
+    "highlights": [
+      "逆轉傳統 Remote-SSH：Agent 端在本地，目標端為遠端",
+      "以 Claude Code 為核心的編碼 Agent 技能封裝",
+      "分層安全機制控制遠端操作權限",
+      "Shell 腳本實作，依賴輕量"
+    ],
+    "why_it_matters": "常需同時維運本地與遠端伺服器的 DevOps 工程師，現在可以讓本地 AI 直接操控遠端環境，省去 SSH 登入、手動排查的繁瑣步驟。",
+    "automation_angle": null,
+    "automation_angle_zh": "DevOps 可在本地啟動 luffy-arm，授權 AI Agent 直接 SSH 進生產伺服器執行日誌檢視、服務重啟等標準化操作，實現遠端維運半自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Shell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/80300117?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-langchain-deep-agents-llm-gateway",
+    "title": "LangChain八月更新：Deep Agents公開測試、LLM Gateway上線",
+    "title_original": "August 2026: LangChain Newsletter — Managed Deep Agents, LLM Gateway, and More",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/august-2026-langchain-newsletter",
+    "published_at": "2026-08-26T19:25:21+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain八月Newsletter發布，Managed Deep Agents與LLM Gateway進入公開測試，同時推出Deep Agents v0.7、 Tuned Evaluators、AWS自有雲部署及LangSmith Engine升級，提供更完整的AI Agent開發與監控工具鏈。",
+    "highlights": [
+      "Managed Deep Agents開放公開測試",
+      "LLM Gateway新功能上線",
+      "Deep Agents v0.7版本發布",
+      "支援Tuned Evaluators自訂評估",
+      "AWS Bring Your Own Cloud部署選項"
+    ],
+    "why_it_matters": "LangChain持續完善Agent開發工具鏈，Deep Agents與Gateway的組合可簡化企業級AI Agent部署與成本管理。",
+    "automation_angle": null,
+    "automation_angle_zh": "申請Beta測試資格，用實際工作流程程評估Deep Agents與Gateway能否取代現有LangChain配置，評估整合複雜度與成本效益。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-llm",
+    "title": "預算硬體自架LLM：原則、硬體、基準測試與前端整合指南",
+    "title_original": "Self-hosting LLMs on budget hardware: general principles, hardware, benchmarks and frontends",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vz41ef/selfhosting_llms_on_budget_hardware_general/",
+    "published_at": "2026-08-26T17:41:21+00:00",
+    "category": "open-source-ai",
+    "summary": "完整指南涵蓋在有限預算下自架LLM的硬體選擇原則，包括GPU需求分析、記憶體優化、量化技術比較，以及主流前端工具（如Ollama、text-generation-webui）的部署實踐。",
+    "highlights": [
+      "GPU VRAM計算：模型參數量與量化位元的關係",
+      "CPU推論可行性與效能瓶頸分析",
+      "主流量化格式（AWQ、GGUF）的優缺點比較",
+      "前端整合：Ollama、LM Studio、Jan等方案",
+      "散熱與電力供應的實務考量"
+    ],
+    "why_it_matters": "幫助技術人員評估自架LLM的可行性與成本效益，在雲端API費用與本地部署之間做出informed決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "依此指南評估現有硬體是否能跑目標模型，計算每小時成本並與API方案比較，決定是否遷移到本地部署。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-qwen3-8-27b-4-1",
+    "title": "Qwen3.8 27B量化測試：4位元仍堪用，1位元崩潰",
+    "title_original": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vz3ieu/benchmarking_qwen38_27b_quantizations_4bit_holds/",
+    "published_at": "2026-08-26T17:22:37+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit用戶發布Qwen3.8 27B模型的量化效能測試，結果顯示4位元量化在多數任務維持合理表現，但1位元量化導致模型能力大幅崩潰。測試涵蓋多個常用基準，提供實用的量化選擇參考。",
+    "highlights": [
+      "Qwen3.8 27B模型量化效能實測",
+      "4位元量化在多數任務表現尚可",
+      "1位元量化導致能力嚴重衰退",
+      "提供多基準綜合評估數據",
+      "可作為本地部署量化選擇依據"
+    ],
+    "why_it_matters": "Qwen3.8 27B是重要開源中模型，量化測試結果直接影響本地部署的性價比選擇，4位元是較安全的實用方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據測試結果，若記憶體緊張可選4位元量化，若需維持品質建議使用更高位元，節省測試時間。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-gemini-3-5-transcribe",
+    "title": "Gemini 3.5 Transcribe：智慧語音轉文字",
+    "title_original": "Intelligent transcription with Gemini 3.5 Transcribe",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+    "published_at": "2026-08-26T17:01:00+00:00",
+    "category": "new-models",
+    "summary": "Google 推出 Gemini 3.5 Transcribe，提供更智慧的語音轉文字功能。這是 Gemini 模型在語音處理領域的重大能力更新。",
+    "highlights": [
+      "基於 Gemini 3.5 的語音辨識能力",
+      "號稱比前代更智慧，支援複雜語境理解",
+      "可處理多人對話、噪音環境、專業術語"
+    ],
+    "why_it_matters": "語音轉文字是構建 AI Agent 的關鍵元件。Gemini 3.5 Transcribe 若效能領先Whisper，可能改變本地部署語音轉文字的成本結構。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於會議記錄自動化、播客字幕生成、面試語音轉文字流程。比較其 API 定價與延遲，評估是否替代現有 Whisper 方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-podium-langsmith-90",
+    "title": "Podium 借助 LangSmith 將工程師干預減少 90%",
+    "title_original": "How Podium optimized agent behavior and reduced engineering intervention by 90% with LangSmith",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/customers-podium",
+    "published_at": "2026-08-26T16:53:53+00:00",
+    "category": "agent-skills",
+    "summary": "Podium 使用 LangSmith 進行 AI 員工 Agent 的生命週期測試，透過數據集策展與微調，將 Agent F1 回應品質提升至 98%，工程師干預需求減少 90%。",
+    "highlights": [
+      "使用 LangSmith 進行 Agent 開發全生命週期測試",
+      "F1 回應品質達 98%，逼近人類水準",
+      "工程師干預減少 90%，大幅降低維運成本",
+      "關鍵：數據集策展 + 微調的結合"
+    ],
+    "why_it_matters": "90% 的工程干預減少代表 Agent 開發從『不斷修補』走向『系統化迭代』。這驗證了 Evaluation-driven Development 的實際效益。",
+    "automation_angle": null,
+    "automation_angle_zh": "採用 LangSmith 或類似的 Evaluation Framework 建立閉環測試流程。對每個 Agent 版本跑自動評估，回歸測試準確率，取代人工抽檢。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-26-langgraph-v0-1-langgraph-cloud",
+    "title": "LangGraph v0.1 穩定版與 LangGraph Cloud 發布",
+    "title_original": "Announcing LangGraph v0.1 & LangGraph Cloud: Running agents at scale, reliably",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langgraph-cloud",
+    "published_at": "2026-08-26T16:53:53+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 LangGraph v0.1 穩定版與 LangGraph Cloud Beta，用於大規模可靠運行 Agent。基礎設施層終於有生產級解決方案。",
+    "highlights": [
+      "LangGraph v0.1 標誌 API 進入穩定狀態",
+      "LangGraph Cloud 提供 Agent 規模化部署基礎設施",
+      "支援容錯、監控與自動擴展",
+      "補足 LangChain 在 Agent 部署的缺口"
+    ],
+    "why_it_matters": "過去 Agent 開發者需自行解決部署監控問題。LangGraph Cloud 的出現代表 Agent 開發進入工程化階段，降低生產部署門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "若正在開發複雜多步 Agent，可評估遷移至 LangGraph 架構並使用 Cloud 部署。省去自行搭建 Checkpointer 與監控的成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-langchain-ai-agent-interrupt",
+    "title": "LangChain宣布首屆AI Agent大會Interrupt",
+    "title_original": "Introducing Interrupt: The AI Agent Conference by LangChain",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/introducing-interrupt-langchain-conference",
+    "published_at": "2026-08-26T16:53:53+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain宣布將於五月舉辦首屆AI Agent會議Interrupt，聚焦AI Agent未來發展與應用場景。這是繼CrewAI、AutoGen等Agent框架相繼獲得關注後，首個由主流框架主辦的專門會議。",
+    "highlights": [
+      "LangChain主辦首屆Interrupt會議",
+      "時間定於五月，聚焦AI Agent議題",
+      "由主流框架主辦的首個Agent專門會議",
+      "將展示最新Agent技術與應用",
+      "報名與議程資訊即將公布"
+    ],
+    "why_it_matters": "AI Agent領域進入快速發展期，專門會議有助於建立技術標準與最佳實踐，開發者應持續關注會議釋出的技術內容。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤會議資訊，特別是工作坊與技術分享，可從中獲取可直接應用的Agent設計模式與架構靈感。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-langchain-chatbot",
+    "title": "LangChain重構Chatbot學到的經驗",
+    "title_original": "Why We Rebuilt LangChain’s Chatbot and What We Learned",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/rebuilding-chat-langchain",
+    "published_at": "2026-08-26T16:53:53+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain分享使用Deep Agents與子圖架構重構Chatbot的實戰經驗，實現15秒內回應並提供精確引用。重構過程中團隊面對效能與準確度的取捨挑戰，並分享可複製的技術决策。",
+    "highlights": [
+      "使用Deep Agents與子圖架構重構",
+      "達成15秒內回應速度目標",
+      "實現精確引用功能",
+      "分享效能與準確度取捨經驗",
+      "提供可直接應用的技術建議"
+    ],
+    "why_it_matters": "實戰經驗分享有助開發者避開常見陷阱，Deep Agents的設計模式可作為企業級對話系統參考架構。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀完整技術文章，將子圖架構與引用設計應用於自家客服或文件問答系統，評估是否能提升回應品質。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-langchain",
+    "title": "LangChain 兩週年：產品、生態系與社群回顧",
+    "title_original": "LangChain's Second Birthday",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langchain-second-birthday",
+    "published_at": "2026-08-26T16:53:53+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain官方回顧過去兩年的發展歷程，包括LangGraph的推出、LangSmith監控工具的成熟、以及社群貢獻的各種工具整合。文中展望AI Agent工作流程設計的未來方向。",
+    "highlights": [
+      "LangGraph已成為建構複雜Agent的核心框架",
+      "LangSmith提供從開發到生產的完整可觀測性",
+      "開放式Agent架構逐漸取代封閉式流程設計",
+      "記憶體與狀態管理是當前熱門議題"
+    ],
+    "why_it_matters": "了解主流Agent開發框架的演進方向，幫助開發者選擇更具長遠價值的技術棧，避免技術債。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估現有LangChain工作流程是否需要遷移到LangGraph，以獲得更好的狀態管理與可控性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-langchain-ai-2024",
+    "title": "LangChain AI 2024現狀報告：生態系與開發趨勢分析",
+    "title_original": "LangChain State of AI 2024 Report",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langchain-state-of-ai-2024",
+    "published_at": "2026-08-26T16:53:53+00:00",
+    "category": "agent-skills",
+    "summary": "基於LangSmith產品使用數據的2024年AI開發趨勢報告，分析LLM應用開發的熱門模式、工具採用情況、以及生產環境的常見挑戰。數據來源為真實用戶行為，追蹤從原型到部署的完整生命週期。",
+    "highlights": [
+      "RAG仍是主流但Agent應用成長迅速",
+      "GPT-4與Claude為最常使用的模型",
+      "生產環境最大挑戰是延遲與成本控制",
+      "Eval與監控工具採用率大幅提升",
+      "開源模型使用率在特定場景超越閉源"
+    ],
+    "why_it_matters": "提供行業真實數據參考，幫助開發團隊對齊業界最佳實踐，並識別自身工作流程程的改進空間。",
+    "automation_angle": null,
+    "automation_angle_zh": "對照報告中的指標，評估自己團隊的Eval覆蓋率與監控成熟度，找出自動化測試與品質保障的改進點。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-langchain-1-0-1-25",
+    "title": "LangChain 三週年回顧：1.0 版本發布與 1.25 億美元新資金",
+    "title_original": "Reflections on Three Years of Building LangChain",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/three-years-langchain",
+    "published_at": "2026-08-26T16:53:53+00:00",
+    "category": "open-source-ai",
+    "summary": "LangChain 創辦人 Harrison Chase 發表三週年公開信，回顧開源框架從 GitHub 起家到估值 1.25 億美元的歷程，正式發布 LangChain 1.0 穩定版，並宣布 LangSmith 監控平台功能擴展，同時揭露新一輪 1.25 億美元融资。核心方向從實驗性框架轉向企業級生產支援。",
+    "highlights": [
+      "LangChain 1.0 標誌 API 趨於穩定，不再有破壞性變更承諾",
+      "LangSmith 新增eval追蹤與自訂指標功能，強化 LLM 應用可观测性",
+      "融资後估值達 1.25 億美元，投資方包括 Sequoia 等主流 VC",
+      "三年間 GitHub star 從零成長至超過 8 萬，社群規模可觀",
+      "產品策略從純 SDK 轉向涵蓋開發、監控、部署的全套工具鏈"
+    ],
+    "why_it_matters": "對技術人員而言，LangChain 1.0 代表生產級別的 API 穩定性承諾，LangSmith 的监控能力則填補了 LLM 應用除錯的缺口。若已在用 LangChain，現在是評估遷移至 1.0 並整合 LangSmith 的時機點。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可在本地環境中，使用 pip install langchain==1.0 測試新版本穩定性；同時透過 LangSmith 儀表板建立自訂評估指標，自動追蹤 Chain/Agent 每次呼叫的成本與延遲，以數據驅動的方式優化 LLM 工作流程程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-gemma4-31b-qwen3-8-27b",
+    "title": "Gemma4 31B 對決 Qwen3.8 27B：基準分數差異原因解析",
+    "title_original": "Gemma4 31B vs Qwen3.8 27B - why the huge difference in benchmarks?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyzopv/gemma4_31b_vs_qwen38_27b_why_the_huge_difference/",
+    "published_at": "2026-08-26T15:06:10+00:00",
+    "category": "new-models",
+    "summary": "社群熱烈討論Google Gemma4 31B與阿里 Qwen3.8 27B在多項基準上的巨大分數差距。討論聚焦於模型架構、訓練數據、量化方式對實際表現的影響，並探討參數量是否為效能的唯一指標。",
+    "highlights": [
+      "Gemma4 31B在某些任務領先但訓練成本較高",
+      "Qwen3.8 27B以較少參數達到接近表現",
+      "量化版本對最終效能影響顯著",
+      "不同基準測試的權重設計導致分數差異"
+    ],
+    "why_it_matters": "選擇本地部署模型時不能只看參數量，架構效率與量化方案同樣關鍵，此討論提供實用的模型選型參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "可依此討論框架建立自己的模型評估矩陣，針對特定用例比較這兩類模型的實際產出品質。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-ai-agent-cx",
+    "title": "AI Agent 時代的 CX 挑戰：從自動化到編排的戰略轉型",
+    "title_original": "Orchestration is the new challenge for CX in the age of AI agents",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/category/ai/feed/",
+    "original_url": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
+    "published_at": "2026-08-26T14:30:00+00:00",
+    "category": "hot-topics",
+    "summary": "Tata Communications 指出企業爭相部署 AI Agent 卻未建構統一上下文層，導致人機協作斷裂、客戶體驗碎片化。下一階段競爭力來自上下文感知編排，而非單點自動化。",
+    "highlights": [
+      "企業盲目將對話 AI 嫁接在舊系統上，造成資訊孤島",
+      "編排（Orchestration）正取代自動化成為 CX 核心優先級",
+      "需要共享企業本體論（Ontology）串聯客戶、流程與系統",
+      "AI Agent 將從輔助人類走向自主管理互動",
+      "網路基礎設施必須與 AI 系統一樣敏捷"
+    ],
+    "why_it_matters": "對於正在構建客服或企業流程自動化的技術架構師，本文揭示了「只部署 AI 而忽略上下文整合」的系統性陷阱，提供從點狀自動化走向全渠道編排的實務思路。",
+    "automation_angle": null,
+    "automation_angle_zh": "架構師可評估自家 CX 系統是否已建立統一上下文圖譜，若缺乏可先從客戶 ID 統一、對話歷史同步等基礎建設切入，避免盲目堆疊更多 AI 模型。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-weevil-time-benchmaxxing-svg",
+    "title": "Weevil-Time 來襲：抗Benchmaxxing的SVG與視覺基準測試",
+    "title_original": "Forget the Pelican, it's Weevil-Time! / Benchmaxxing-Proof SVG and Vision Benchmark",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyw1wo/forget_the_pelican_its_weeviltime/",
+    "published_at": "2026-08-26T12:44:22+00:00",
+    "category": "new-models",
+    "summary": "Reddit社群出現以Weevil為代號的新視覺基準測試，專門設計來對抗模型在標準基準上的過擬合（benchmaxxing）問題。此測試強調SVG向量圖形理解與真實視覺推論能力，而非傳統像素基準的刷分技巧。",
+    "highlights": [
+      "基準測試採用SVG格式以防止圖像識別刷分",
+      "強調真實世界的視覺推論而非記憶測試",
+      "旨在揭露模型真實能力與基準分數的落差",
+      "引發社群對現有基準可信度的討論"
+    ],
+    "why_it_matters": "當前模型在標準基準的表現往往高估其實際能力，此新基準提供更可信的能力評估方式，幫助開發者選擇真正適用的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用此SVG基準測試自己部署的模型，驗證其在真實視覺任務中的表現是否符合需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-26-iblai-api-mcp",
     "title": "iblai/api：MCP伺服器與代理技能封裝",
     "title_original": "iblai/api",
@@ -26,6 +439,59 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/8257303?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-chatgpt",
+    "title": "ChatGPT 教育版擴展至更多美國學區",
+    "title_original": "Bringing ChatGPT for Teachers to more U.S. school districts",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+    "published_at": "2026-08-26T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "ChatGPT for Teachers 正擴展至 55 個美國學區，為超過 10 萬名教育工作者提供安全的 AI 工具、培訓和支援。這是 OpenAI 持續深耕教育市場的訊號。",
+    "highlights": [
+      "服務 55 個學區，新增逾 10 萬教育工作者用戶",
+      "提供安全、符合 FERPA 規範的 AI 使用環境",
+      "包含教師培訓與持續技術支援資源",
+      "瞄準 K-12 教育市場的長期佈局"
+    ],
+    "why_it_matters": "對技術人員而言，教育市場的 AI 滲透代表企業級 API 需求與潛在合作機會。留意其身份驗證、資料隔離機制是否開源或可自託管。",
+    "automation_angle": null,
+    "automation_angle_zh": "若需整合教育 API，可研究其 SIE（School Infrastructure Endpoint）機制，或評估是否可移植至企業內部培訓場景。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-ai-openai",
+    "title": "AI 如何讓學習持續不斷——OpenAI 教育報告",
+    "title_original": "Learning never stops: How AI makes learning continuous",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/learning-never-stops",
+    "published_at": "2026-08-26T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布新報告探討學生與教育工作者如何使用 ChatGPT 實現持續學習，支援範圍延伸至課堂之外。",
+    "highlights": [
+      "分析學生使用 AI 進行自學與複習的模式",
+      "涵蓋教師備課、批改輔助等應用場景",
+      "強調 AI 作為『學習夥伴』而非替代者的定位"
+    ],
+    "why_it_matters": "報告揭示 AI 在教育場景的實際使用模式，對開發教育類 AI 工具或fine-tuning教育數據集有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載報告提取使用案例，用於Prompt template優化或訓練數據蒐集。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -326,6 +792,33 @@
     "automation_angle_zh": "評估企業內部是否有重複性文件、資料處理需求，考慮用Codex或類似工具建立內部自動化助理。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-sentence-transformers",
+    "title": "使用 Sentence Transformers 訓練與微調多向量嵌入模型",
+    "title_original": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/train-multi-vector-encoder",
+    "published_at": "2026-08-26T00:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 官方部落格詳細說明如何利用 Sentence Transformers 框架訓練多向量嵌入模型，可提升檢索增強生成（RAG）場景下的語義匹配精確度。",
+    "highlights": [
+      "支援多向量表示以提升檢索精度",
+      "提供完整訓練流程與範例程式碼",
+      "適用於 RAG、語意搜尋等應用場景",
+      "開源框架，可直接用於自訂資料集微調"
+    ],
+    "why_it_matters": "多向量嵌入是提升 RAG 系統準確性的關鍵技術，Hugging Face 的完整教學讓技術團隊能針對自有領域資料訓練專屬嵌入模型，而非依賴通用 API。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可參考 Hugging Face 教學，用內部文件或技術知識庫微調嵌入模型，並整合進自有 RAG 管線，實測檢索召回率提升幅度。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
