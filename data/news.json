@@ -1,5 +1,506 @@
 [
   {
+    "id": "2026-08-26-shirleyhuang11-howto-1937-mcp",
+    "title": "ShirleyHuang11/howto：1937 種日常技能配方與 MCP 技能包",
+    "title_original": "ShirleyHuang11/howto",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ShirleyHuang11/howto",
+    "published_at": "2026-08-26T00:28:11Z",
+    "category": "agent-skills",
+    "summary": "該專案收錄 1937 個涵蓋 13 領域的日常 How-To 配方，以結構化格式呈現，可用於訓練 Agent 與機器人，也可作為人類操作手冊，含 MCP Server 與可安裝技能包。",
+    "highlights": [
+      "1937 個跨領域步驟式配方，可驗證性高",
+      "提供 MCP Server 介面，方便整合進 Agent",
+      "支援長時域任務（Long-horizon Journeys）",
+      "目前 GitHub 星數僅 12，社群關注度低"
+    ],
+    "why_it_matters": "結構化配方庫有潛力成為 Agent 的標準工具集，若 MCP 整合完善，可快速為 Agent 注入特定領域的執行能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "將感興趣領域的配方匯入自建 Agent，測試其能否依序執行多步驟任務，評估配方品質與覆蓋範圍。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/66345590?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-eve-online-240-python-2",
+    "title": "EVE Online 正式啟動 240 萬行 Python 2 遷移工程",
+    "title_original": "EVE Online: The Move to Python 3 Begins!",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
+    "published_at": "2026-08-25T22:59:30+00:00",
+    "category": "hot-topics",
+    "summary": "經典線上遊戲 EVE Online 宣布啟動 Python 3 遷移計畫，旗下 240 萬行程式碼將使用 futurize 腳本進行自動化轉換。團隊採用 Stackless Python 已逾二十年，此次升級為 16 年來最大規模技術債務清理。",
+    "highlights": [
+      "240 萬行程式碼使用 futurize 自動轉換為 Python 3",
+      "需手動審核約 20,000 處 Python 2/3 行為差異（如 1/2 結果不同）",
+      "預計使用 Carbon 引擎的 scheduler 替代 Stackless Python",
+      "過去二十年累積的技術債規模罕見",
+      "遷移完成後可使用現代 Python 生態系工具"
+    ],
+    "why_it_matters": "Python 2 到 3 的遷移在 2020 年官方終止支援後已大幅減少，EVE Online 的案例提醒技術决策者：長期忽視升級的代價會隨時間指數成長。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考其使用 futurize + 人工審核的分層策略，用於評估企業內部老舊 Python 專案的遷移工作量與風險。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-26-langsmith-llm",
+    "title": "LangSmith 支援開源 LLM 微調完整指南",
+    "title_original": "Using LangSmith to Support Fine-tuning",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/using-langsmith-to-support-fine-tuning-of-open-source-llms",
+    "published_at": "2026-08-25T21:17:18+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布使用 LangSmith 進行 LLM 微調的完整流程，含資料集管理、訓練監控與模型評估。實作範例涵蓋 LLaMA2 與 GPT-3.5 的微調對比。",
+    "highlights": [
+      "整合 LangSmith 資料集管理與版本控制",
+      "提供 LLaMA2 7B 微調實作步驟",
+      "對比 GPT-3.5 微調前後效能差異",
+      "包含訓練成本估算與時間評估",
+      "可用於團隊協作與模型迭代追蹤"
+    ],
+    "why_it_matters": "微調是降低推論成本與客製化模型的有效手段，LangSmith 提供端對端工具鏈，讓中小型團隊能在有限資源下完成模型優化流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可參考教學建立自動化微調 pipeline，用公司內部資料集定期重訓練，保持模型對特定領域的專業度。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-langchain-csv",
+    "title": "LangChain 發布 CSV 資料問答系統基準測試",
+    "title_original": "Benchmarking Question/Answering Over CSV Data",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/benchmarking-question-answering-over-csv-data",
+    "published_at": "2026-08-25T21:16:24+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布針對 CSV 資料的問答系統基準測試，包含代理檢索、鏈結執行與 LLM 評估框架。提供開源程式碼與除錯洞察，協助開發者優化結構化資料查詢效能。",
+    "highlights": [
+      "支援 CSV 資料的檢索性問答流程測試",
+      "提供 LangChain 代理與檢索策略組合對照",
+      "包含 LLM 評估指標與錯誤分析",
+      "開源完整 benchmark 程式碼供實驗",
+      "可作為企業內部資料管道的品質參考"
+    ],
+    "why_it_matters": "結構化資料問答是企業 AI 落地常見場景，此 benchmark 提供量化指標，協助技術團隊選擇適合的代理架構與模型組合，降低試錯成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可直接 fork GitHub 專案，用自己業務資料跑 benchmark，快速比較 gpt-3.5-turbo 與開源模型在 CSV 問答上的準確率與延遲。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-timescale-vector-langchain-postgresql-243",
+    "title": "Timescale Vector 與 LangChain 深度整合：PostgreSQL 向量搜尋提速 243%",
+    "title_original": "Timescale Vector x LangChain: Making PostgreSQL A Better Vector Database for AI Applications",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/timescale-vector-x-langchain-making-postgresql-a-better-vector-database-for-ai-applications",
+    "published_at": "2026-08-25T21:15:28+00:00",
+    "category": "open-source-ai",
+    "summary": "Timescale Vector 發布與 LangChain 的官方整合方案，宣稱相較標準 PostgreSQL 向量搜尋提速 243%。整合重點包括時間分區索引（支援時序 RAG）、自動向量與關鍵詞混合檢索，以及 90 天免費試用。",
+    "highlights": [
+      "時間分區向量索引，適合新聞、聊天記錄等時序資料",
+      "混合搜尋（向量 + BM25）提升檢索精確度",
+      "相容現有 PostgreSQL 生態，無需學習新資料庫",
+      "內建資料保留策略，自動清理過期向量",
+      "提供 LangChain 官方文件與範例程式碼"
+    ],
+    "why_it_matters": "若已使用 PostgreSQL，Timescale Vector 提供零遷移成本的向量資料庫升級路徑，243% 的效能提升對大規模 RAG 應用有實質影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "現有 PostgreSQL 用戶可透過 ALTER EXTENSION 原地升級，立即獲得向量搜尋能力，用於建置內部文件問答機器人的自動化檢索後端。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-langchain-benchmark-1000",
+    "title": "LangChain 宣布獲得 Benchmark 領投的 1000 萬美元種子輪",
+    "title_original": "Announcing our $10M seed round led by Benchmark",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/announcing-our-10m-seed-round-led-by-benchmark",
+    "published_at": "2026-08-25T21:13:35+00:00",
+    "category": "ai-deals",
+    "summary": "LangChain 獲得 Benchmark 1000 萬美元種子輪資金，將持續投入開源框架開發，強化資料感知與 Agentic LLM 的建構能力。",
+    "highlights": [
+      "Benchmark 為知名早期創投，具有一定市場信號",
+      "資金將用於開源框架與 Agentic LLM 功能",
+      "屬於純資金新聞，無具體產品或技術變化"
+    ],
+    "why_it_matters": "資金動向反映投資人對 Agent 開發框架的信心，但對技術宅的日常工作影響有限，關注焦點應在框架本身的功能更新。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤 LangChain 後續的框架更新與新功能，評估是否值得從現有方案遷移或整合。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-langchain-airbyte",
+    "title": "LangChain Airbyte 整合：將資料攝取推向生產環境",
+    "title_original": "Making Data Ingestion Production Ready: a LangChain-Powered Airbyte Destination",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/making-data-ingestion-production-ready-a-langchain-powered-airbyte-destination",
+    "published_at": "2026-08-25T21:12:53+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 Airbyte 目的地端點整合方案，支援將外部資料（CRM、資料庫、API）自動化攝取至向量資料庫。功能包括排程同步、文字分割、50+ 嵌入模型選擇，大幅簡化 RAG 資料管線的建置。",
+    "highlights": [
+      "支援 300+ 資料來源（Salesforce、MySQL、REST API 等）",
+      "可設定 Cron 排程，實現增量資料同步",
+      "內建文字分割策略（character、recursive character 等）",
+      "支援 50+ 嵌入模型（OpenAI、sentence-transformers 等）",
+      "與 LangChain 的 Document Loader 無縫銜接"
+    ],
+    "why_it_matters": "資料準備往往是 RAG 專案最耗時的環節，此整合將多來源的異質資料統一至同一攝取管線，工程團隊可專注於應用層邏輯而非 ETL 開發。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立每日同步腳本，將公司內部文件自動同步至向量資料庫，配合 CI/CD 觸發索引重建，確保 RAG 回答始終基於最新資料。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-langserve-playground",
+    "title": "LangServe Playground 與參數可配置性功能更新",
+    "title_original": "LangServe Playground and Configurability",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langserve-playground-and-configurability",
+    "published_at": "2026-08-25T21:11:56+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 LangServe 新功能，提供內建 Playground UI 與參數配置面板。開發者可直接在瀏覽器中實驗模型、調整參數、共享給團隊成員，並支援即時串流回應。大幅降低 LangChain 應用的除錯與協作門檻。",
+    "highlights": [
+      "內建 Playground UI，無需額外工具即可測試 Chain 行為",
+      "支援模型參數動態調整（temperature、max_tokens 等）",
+      "即時串流回應，方便觀察 token 生成過程",
+      "可生成分享連結供團隊成員直接體驗",
+      "與 LangSmith 整合，支援請求記錄與監控"
+    ],
+    "why_it_matters": "過去部署 LangChain 應用後難以快速驗證效果，現在可直接在部署環境中互動測試，省去本地端模擬的繁瑣流程。對需要頻繁調整 prompt 的團隊特別有價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 Playground URL 加入 CI/CD 流程中的自動化測試環節，驗證 prompt 修改後的輸出品質是否符合預期。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-langchain",
+    "title": "LangChain 彈性檢索框架更新：支援任意檢索器",
+    "title_original": "Retrieval",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/retrieval",
+    "published_at": "2026-08-25T21:08:06+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 強化檢索模組，現在支援串接任意檢索器（retriever），包括語義搜尋、混合搜尋、自訂向量資料庫等。開發者可自由組合不同檢索策略，實現針對特定資料來源的個人化 ChatGPT 體驗。",
+    "highlights": [
+      "統一 Retriever 介面，支援語義、關鍵詞、混合等多種檢索模式",
+      "可串接 Pinecone、Weaviate、Chroma 等主流向量資料庫",
+      "支援時間加權檢索，適用於新聞或版本文件等場景",
+      "內建檢索評估工具，方便量化不同策略效果",
+      "文件預處理管線（分割、Chunk 大小優化）整合"
+    ],
+    "why_it_matters": "檢索是 RAG 系統的核心瓶頸，此更新讓開發者能快速實驗不同檢索策略而無需重寫程式碼，加速企業內部知識庫的建置與優化。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用內建評估工具建立自動化檢索品質測試，每當文件庫更新時自動驗證檢索命中率，確保 RAG 輸出準確性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-langsmith-pytest-vitest",
+    "title": "LangSmith 推出 Pytest 與 Vitest 整合簡化模型評估",
+    "title_original": "Introducing Pytest and Vitest integrations for LangSmith Evaluations",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/pytest-and-vitest-for-langsmith-evals",
+    "published_at": "2026-08-25T21:07:19+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 為 LangSmith 新增 Pytest 與 Vitest 整合，讓開發者可在現有測試流程中直接執行 LLM 評估。此整合旨在將模型評測無縫嵌入 CI/CD 管線，實現持續性的品質監控。",
+    "highlights": [
+      "支援 Pytest 與 Vitest/Jest，可整合既有測試框架",
+      "允許在單一測試檔案中同時驗證功能與 LLM 輸出品質",
+      "提供標準化 eval API，減少自訂評估邏輯開發量",
+      "適合與 GitHub Actions 等 CI 工具串接",
+      "注意：目前資訊來源偏 PR，可能需親自驗證實際功能"
+    ],
+    "why_it_matters": "對重視工程品質的技術團隊而言，將 LLM 評估納入標準測試流程可及早發現模型退化或 Prompt 失效問題。此整合降低了實作門檻，適合需要嚴謹部署流程的專案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在 Pull Request 中自動化運行 LLM 回應評估，設定 threshold 作為 Code Review 把關條件，避免低品質輸出進入主分支。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-cube-langchain-llm-ai",
+    "title": "Cube 攜手 LangChain：LLM 結合語意層打造 AI 資料體驗",
+    "title_original": "Cube x LangChain: Building AI experiences with LLMs and the semantic layer",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/cube-x-langchain-building-ai-experiences-with-llms-and-the-semantic-layer",
+    "published_at": "2026-08-25T21:05:24+00:00",
+    "category": "agent-skills",
+    "summary": "Cube 語意層與 LangChain 深度整合，開發者可透過自然語言查詢結構化資料、建立對話式資料介面，同時減少 LLM 幻覺問題。Cube 作為中介層統一資料模型，確保 AI 回應的可信度與一致性。",
+    "highlights": [
+      "Cube 語意層封裝資料模型，避免直接暴露底層資料庫 schema",
+      "LangChain 串接 Cube API，實現自然語言驅動的結構化查詢",
+      "可與現有 BI 工具共存，不需完全重構資料架構",
+      "支援多資料來源統一語意表達，簡化 LLM 取用邏輯",
+      "降低 hallucinations 風險，提升 AI 回應精確度"
+    ],
+    "why_it_matters": "對技術宅而言，此整合提供了一條將 LLM 可靠接入企業資料的捷徑，省去自行實作資料治理與幻覺防護的繁瑣工作，適合構建需要精確資料回應的 AI 應用。",
+    "automation_angle": null,
+    "automation_angle_zh": "可快速測試自然語言轉 SQL 查詢流程，評估 Cube 語意層能否減少特定領域問題上的幻hallucinations 頻率，決定是否用於生產環境。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-langsmith-rbac",
+    "title": "LangSmith 企業版推出 RBAC 角色權限管理",
+    "title_original": "Role Based Access Control (RBAC) for LangSmith",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/access-control-updates-for-langsmith",
+    "published_at": "2026-08-25T21:02:06+00:00",
+    "category": "agent-skills",
+    "summary": "LangSmith 新增 Role Based Access Control 功能，支援企業自訂角色與 API 金鑰管理。可依專案或團隊設定資料存取範圍，強化協作安全。",
+    "highlights": [
+      "支援自訂角色與權限層級設定",
+      "可針對專案、追蹤器設定存取範圍",
+      "提供 API Key 生命週期管理",
+      "符合企業安全合規需求",
+      "適用於多團隊共享 LangSmith 情境"
+    ],
+    "why_it_matters": "企業導入 AI 工具時，資料隔離與權限管理是必備需求。RBAC 功能降低跨團隊協作的資安風險，加速 LangSmith 在組織內部普及。",
+    "automation_angle": null,
+    "automation_angle_zh": "DevOps 可設定自動化腳本，依據專案狀態動態調整團隊成員的 LangSmith 權限，減少手動管理負擔。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-reddit-35b",
+    "title": "Reddit 流出：35B 模型工具呼叫基準測試比較",
+    "title_original": "35B-A3B tool calling benchmark: Original Qwen vs. KAT Coder, Ornith and Tiel-Coder",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyaxip/35ba3b_tool_calling_benchmark_original_qwen_vs/",
+    "published_at": "2026-08-25T20:07:51+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶發布 35B 參數級模型的工具呼叫能力 benchmark，比較原始 Qwen 與 KAT Coder、Ornith、Tiel-Coder 等微調變體在工具使用任務上的表現。",
+    "highlights": [
+      "測試 Qwen 35B 原版與微調變體工具呼叫能力",
+      "KAT Coder、Ornith、Tiel-Coder 納入對照",
+      "涵蓋 API 呼叫、函式執行等場景",
+      "Reddit 流出數據未經官方驗證",
+      "可作為本地部署模型選擇參考"
+    ],
+    "why_it_matters": "工具呼叫是 AI Agent 核心能力，此 benchmark 協助技術用戶在有限 GPU 資源下選擇最具成本效益的本地模型，優化代理效能。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在本地環境用相同測試集驗證自己選用的模型，確認工具呼叫準確率是否符合任務需求再做部署。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-github-copilot-app-mcp",
+    "title": "GitHub Copilot App 自訂分頁正式支援 MCP 整合",
+    "title_original": "GitHub Copilot app Customize tab is generally available",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+    "published_at": "2026-08-25T20:05:26+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot App 的 Customize 分頁正式GA，開放開發者接入 MCP Server，讓 Copilot 能調用自訂工具與外部系統，強化 Agent 能力。",
+    "highlights": [
+      "Customize 分頁已從預覽轉為正式可用",
+      "原生支援 MCP 協定，可掛載自訂工具",
+      "Copilot 能直接呼叫外部 API 或資料庫",
+      "有助於將 Copilot 整合進企業既有工作流程"
+    ],
+    "why_it_matters": "MCP 支援讓 Copilot 不再只是程式碼補全工具，而是可擴充的 Agent 平台，技術宅可藉此將 AI 能力延伸至 IDE 外的系統。",
+    "automation_angle": null,
+    "automation_angle_zh": "架設企業內部 MCP Server，讓 Copilot 直接查詢內部文件、 Jira 工單或程式碼庫，打造客製化 AI 助理。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-langchain",
+    "title": "LangChain 推出企業盡職調查代理實作範例",
+    "title_original": "LangChain 推出企業盡職調查代理實作範例",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/building-a-company-due-diligence-agent-with-deep-agents-langsmith-and-parallel",
+    "published_at": "2026-08-25T20:00:10+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布基於 Deep Agents、LangSmith 與 Parallel 的公司盡職調查代理範例，展示多代理協作處理複雜商業分析任務的流程。",
+    "highlights": [
+      "結合 Deep Agents 深度推論能力",
+      "展示 Parallel 加速平行任務處理",
+      "涵蓋財務、法務資訊自動彙整流程",
+      "提供 LangSmith 追蹤與除錯方法",
+      "可擴展至其他商業分析自動化場景"
+    ],
+    "why_it_matters": "盡職調查是併購與投資決策關鍵，此範例展示如何用 AI 代理自動化資料收集與初步分析，大幅縮短人類專家審閱時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將此架構改造成供應商評估、風險審計等類似流程，用代理自動化處理繁瑣的資訊彙整工作。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-langchain",
+    "title": "LangChain 新功能：自動化網路研究工作流程",
+    "title_original": "Automating Web Research",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/automating-web-research",
+    "published_at": "2026-08-25T19:56:33+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布自動化網路研究檢索器，支援平行搜尋、網頁爬取與 LLM 資訊整合，可在本機或雲端環境運行。此工具旨在簡化 Agent 獲取即時網路資訊的流程，提升研究效率。",
+    "highlights": [
+      "支援平行搜尋與非同步網頁爬取，提升資訊收集速度",
+      "內建多來源資訊合成機制，LLM 可直接整合結果",
+      "可在本地環境運行，降低雲端 API 依賴與成本",
+      "相容 LangChain 現有 Agent 框架，易於整合",
+      "提供可自訂的檢索策略，適用於不同研究場景"
+    ],
+    "why_it_matters": "網路研究是 AI Agent 常見需求，此功能將多步驟流程標準化，技術用戶可快速建構能主動取證網路資料的 Agent，減少自己實作爬蟲與檢索邏輯的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用來自動化競爭情報收集、價格監控或技術文檔研究，測試時可指定關鍵字與來源網域，評估爬取品質與合成結果準確度。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-plan-and-execute",
+    "title": "Plan-and-Execute 代理框架：提升複雜任務可靠性",
+    "title_original": "Plan-and-Execute Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/plan-and-execute-agents",
+    "published_at": "2026-08-25T19:55:29+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 介紹 Plan-and-Execute 代理設計模式，將任務規劃與執行分離。適用於多步驟、長時序的複雜操作，可降低錯誤率並提升可解釋性。",
+    "highlights": [
+      "規劃階段由 LLM 生成執行步驟",
+      "執行階段按序呼叫工具完成子任務",
+      "減少代理在執行過程中的幻覺與偏離",
+      "支援中途干預與計畫修正",
+      "適合自動化流程與研究分析場景"
+    ],
+    "why_it_matters": "傳統 ReAct 代理在長任務中易迷失方向，Plan-and-Execute 提供結構化框架，讓代理在可控範圍內完成複雜目標，提升實用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "工程師可將此模式應用於自動化測試、資料遷移、報告生成等需要多步驟操作的流程，獲得更可靠的執行結果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-reddit-llm",
+    "title": "Reddit 討論：資源受限環境下本地執行 LLM 實戰指南",
+    "title_original": "How to run LLMs as regular guy with low resources?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyajjd/how_to_run_llms_as_regular_guy_with_low_resources/",
+    "published_at": "2026-08-25T19:54:13+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 社群熱烈討論如何在有限硬體資源（消費級 GPU、RAM）中本地運行大語言模型。討論涵盖量化技術、模型蒸餾、VRAM 節省技巧，以及不同硬體配置的效能 Benchmark。",
+    "highlights": [
+      "GPTQ/AWQ/GGUF 等量化方法可將模型體積壓縮 4-8 倍",
+      "Mac M 系列晶片統一記憶體架構提供性價比方案",
+      "LoRA 微調可在 6GB VRAM 內完成特定任務優化",
+      "不同模型在不同任務上的 VRAM 需求差異顯著",
+      "CPU 推論作為最後手段，適合偶發性使用場景"
+    ],
+    "why_it_matters": "對於注重資料隱私或希望控制 API 成本的開發者，本地 LLM 是重要選項。此討論汇集實際踩坑經驗，可幫助技術使用者快速評估可行方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據自身硬體配置，選擇合適的量化模型與推論框架（如 llama.cpp），建立本地自動化腳本處理重複性文字任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-25-langsmith-engine-agent",
     "title": "LangSmith Engine 升級：Agent 問題偵測效能翻倍",
     "title_original": "LangSmith Engine Improves Agent Issue Detection by 2x",
