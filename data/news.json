@@ -1,5 +1,254 @@
 [
   {
+    "id": "2026-08-26-iblai-api-mcp",
+    "title": "iblai/api：MCP伺服器與代理技能封裝",
+    "title_original": "iblai/api",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/iblai/api",
+    "published_at": "2026-08-26T12:12:19Z",
+    "category": "open-source-ai",
+    "summary": "iblai/api是一個甫發布的代理技能封裝，提供MCP聊天伺服器供開發者透過REST API操作ibl.ai平台。星星數僅15，屬新興專案，需注意後續維護狀態。",
+    "highlights": [
+      "• 透過npx skills add iblai/api快速安裝",
+      "• MCP協定支援標準化工具呼叫",
+      "• REST API封裝簡化整合難度",
+      "• 專案新穎，星星數低，穩定性待觀察",
+      "• Python實作，方便Python生態系接入"
+    ],
+    "why_it_matters": "若ibl.ai平台有獨特能力或優惠定價，這個MCP封裝可讓你在本地代理框架中快速串接，節省自行包裝API的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "用npx安裝後，在你的MCP相容代理中測試其REST API包裝是否正常運作，評估ibl.ai平台的實際能力。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/8257303?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-chatgpt-5-6-sol-5-6-luna-instant",
+    "title": "ChatGPT 桌面版顯示「5.6 Sol」而非「5.6 Luna」或「Instant」",
+    "title_original": "ChatGPT Desktop chat shows 5.6 Sol instead of 5.6 Luna or \"Instant\"",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vysmps/chatgpt_desktop_chat_shows_56_sol_instead_of_56/",
+    "published_at": "2026-08-26T09:55:49+00:00",
+    "category": "hot-topics",
+    "summary": "ChatGPT 桌面客戶端出現模型命名異常，介面顯示「5.6 Sol」標籤而非標準的「Luna」或「Instant」。此事可能暗示 OpenAI 正在測試新的模型代號或內部版本命名 scheme，但官方尚未確認意義。",
+    "highlights": [
+      "桌面版 UI 出現非標準模型標籤「5.6 Sol」",
+      "目前無法確認此為功能測試或錯誤顯示",
+      "可能是即將推出的新模型內部代號",
+      "網頁版尚未出現相同顯示",
+      "用戶社群猜測可能與 GPT-4.5 或 GPT-5 有關"
+    ],
+    "why_it_matters": "模型命名異常可能預示即將發布的重大更新，技術用戶應留意後續官方公告，若屬實則可能代表能力或定價變化。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議截圖記錄並持續觀察，若標籤穩定出現，可嘗試向 OpenAI 提交 feedback，同時關注官方 changelog 更新。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-codex-plus",
+    "title": "Codex Plus 方案每週額度快速耗盡：開發者抱怨使用量暴增",
+    "title_original": "Codex Weekly limit exhausts too fast on Plus Plan",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vyrall/codex_weekly_limit_exhausts_too_fast_on_plus_plan/",
+    "published_at": "2026-08-26T08:39:26+00:00",
+    "category": "ai-deals",
+    "summary": "多名 Plus 方案用戶反映 Codex API 每週使用額度在短時間內即被耗盡，疑似因系統將較大請求優先處理導致額度快速流失。此問題影響仰賴 Codex 做自動化程式生成的開發者工作流程程。",
+    "highlights": [
+      "Plus 方案用戶反映每週額度 2-3 天內耗盡",
+      "請求大小與額度消耗關聯性不明確",
+      "部分用戶推測系統優先處理大任務",
+      "已有用戶考慮降級或轉向 Copilot 替代方案",
+      "OpenAI 尚未公開額度計算詳細機制"
+    ],
+    "why_it_matters": "額度耗盡速度超出預期將增加開發成本不確定性，若無法準確預估用量，企業難以將 Codex 納入正規 CI/CD 流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應記錄每次 API 呼叫的 token 消耗與回應大小，自行繪製用量曲線，評估是否需要切换至按量計費或其他模型以控制成本。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-qwen3-8-27b-16gb-vram",
+    "title": "Qwen3.8-27B 本地遊戲與網頁瀏覽：16GB VRAM 即可運行",
+    "title_original": "OpenCode with Qwen3.8-27B for Small Games or Browsing the Web With 16GB VRAM",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyqy4e/opencode_with_qwen3827b_for_small_games_or/",
+    "published_at": "2026-08-26T08:18:32+00:00",
+    "category": "new-models",
+    "summary": "社群用戶展示 Qwen3.8-27B 模型在 16GB VRAM 限制下，透過量化或分流技術，能夠執行小遊戲與基本網頁瀏覽任務。此案例說明中尺寸開源模型在消費者級硬體上的 agent 能力正在提升。",
+    "highlights": [
+      "Qwen3.8-27B 量化後僅需 16GB VRAM",
+      "成功運行小型游戲及網頁瀏覽 agent 任務",
+      "需配合 llama.cpp、AWQ 或 GGUF 格式優化",
+      "27B 模型大小屬性價比較佳區間",
+      "仍是單步推論能力，多步規劃有待驗證"
+    ],
+    "why_it_matters": "若能在消費級顯示卡上達成基本 agent 功能，個人開發者可部署低成本的自動化工作流程，例如桌面助理或瀏覽器自動化腳本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可複製此配置，在本機建立 Qwen3.8-27B + 瀏覽器自動化 pipeline，測試是否可自動化每日例行性網頁操作任務。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-paul-dix-ai",
+    "title": "Paul Dix：AI產出百萬行程式碼並持續優化的案例",
+    "title_original": "Quoting Paul Dix",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+    "published_at": "2026-08-26T08:07:55+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison部落格轉載Paul Dix言論，描述AI系統為Bun產出約一百萬行程式碼，並在後續數月持續優化直至穩定運行於數百萬開發者機器。此案例被視為AI程式設計能力的重要驗證。",
+    "highlights": [
+      "Bun為現有開發工具，AI為其生成大量核心程式碼",
+      "強調驗證系統與方向引導對AI產出品質的關鍵性",
+      "最終成果運行於數百萬開發者環境，具規模驗證",
+      "此案例被引用於討論「程式設計的終結」議題"
+    ],
+    "why_it_matters": "展示AI在受控環境下生成複雜軟體系統並持續改進的可能性，對理解AI代理能力邊界有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估自身專案是否可引入AI程式碼生成+自動測試+持續整合的工作流程程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-qwen3-8-flash-next",
+    "title": "Qwen3.8-Flash-Next模型發布討論串",
+    "title_original": "[Megathread] Qwen3.8-Flash-Next - Release Day",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyq2v4/megathread_qwen38flashnext_release_day/",
+    "published_at": "2026-08-26T07:26:50+00:00",
+    "category": "new-models",
+    "summary": "Reddit開闢Qwen3.8-Flash-Next模型發布日討論串。阿里雲通義千問(Qwen)系列持續更新，此版本代號暗示為Flash系列的下一代型號，具體規格待進入討論串確認。",
+    "highlights": [
+      "Qwen為阿里雲開源模型系列，持續有版本迭代",
+      "Flash型號通常代表輕量快速版本",
+      "目前為Megathread形式，具體資訊待更新",
+      "Qwen系列在開源社群有高人氣"
+    ],
+    "why_it_matters": "Qwen為重要開源模型選擇，其版本迭代速度與效能影響開源生態。需持續追蹤正式發布資訊。",
+    "automation_angle": null,
+    "automation_angle_zh": "正式發布後可透過Ollama或相關框架快速部署測試，評估其推論速度與任務表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-qwen3-6-35b-a3b-amd-mi350x-78-498-tok-s-kernel",
+    "title": "Qwen3.6-35B-A3B 在 AMD MI350X 達成 78,498 tok/s：開源 Kernel 效能實測",
+    "title_original": "Open Source Kernel in Qwen3.6-35B-A3B for AMD MI350X: 78,498 output tok/s on 8 GPUs",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vymha8/open_source_kernel_in_qwen3635ba3b_for_amd_mi350x/",
+    "published_at": "2026-08-26T04:12:07+00:00",
+    "category": "new-models",
+    "summary": "研究者在 AMD MI350X 上使用 8 張 GPU 實測 Qwen3.6-35B-A3B，透過開源優化 Kernel 達成每秒近 78,500 tokens 的輸出速度。此效能已超越部分 H100 部署場景，且 Kernel 原始碼已開源，開發者可自由取用或 fork 進行客製化優化。",
+    "highlights": [
+      "AMD MI350X 8 GPU 集群達成 78,498 tok/s 吞吐量",
+      "開源 Kernel 可在 GitHub 取得並自行編譯部署",
+      "Qwen3.6-35B 屬中尺寸專家混合模型，適合本地部署",
+      "實測場景為離線推論，延遲表現穩定",
+      "對比 H100 成本性價比可能更具優勢"
+    ],
+    "why_it_matters": "開源 Kernel 降低 AMD GPU 族群的本地推論門檻，若成本低於 NVIDIA 方案，企業可評估將部分推論任務遷移以節省雲端支出。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可下載該 Kernel，針對自家 AMD 叢集進行基準測試，驗證是否符合內部延遲與吞吐量需求，評估替代現有 H100 推論服務的可能性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-thomson-1-0-small",
+    "title": "湯森路透發布Thomson-1.0-Small法律稅務專用模型",
+    "title_original": "Thomson Reuters releases Thomson-1.0-Small. A law and tax focused model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyl6yj/thomson_reuters_releases_thomson10small_a_law_and/",
+    "published_at": "2026-08-26T03:10:55+00:00",
+    "category": "new-models",
+    "summary": "湯森路透在Reddit社群洩露一款名為Thomson-1.0-Small的模型，為法律與稅務領域專用設計。目前缺乏官方發布頁面與詳細技術文件，具體效能指標與開源狀態待確認。",
+    "highlights": [
+      "湯森路透為知名法律資訊公司，此為其首款區塊鏈專業模型",
+      "模型名稱暗示針對法律與稅務場景優化",
+      "目前僅見Reddit洩露，官方尚未正式公告",
+      "模型規模與授權方式未知"
+    ],
+    "why_it_matters": "法律AI為高價值垂直市場，湯森路透擁有豐富專業語料。若模型屬實，可評估其與現有法律LLM的差異。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方發布後，可下載測試合同分析、條款審查等法律文件處理能力。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-lg-u-ai",
+    "title": "LG U+將在訂閱平台加入AI服務與生活優惠",
+    "title_original": "LG U+將在訂閱平台\"唯独\"的代表商品\"唯独Pick\"中添加电影和外卖等生活優惠和人工智慧(AI)服务。 其构想是,為了讓使用者每月更换必要的優惠,增加选择,强化訂閱服务的竞争力。25日,LG U+.. - 매일경제",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9PSkdSN25RRkVvaUI5NGh5RXFFVDFUT3BQSHhjQU9NTEdRQnRKNi1WMHpfVmtGSF9xYW5tdmhoZkE0SUswY1F2a3VRNA?oc=5",
+    "published_at": "2026-08-26T02:18:13+00:00",
+    "category": "ai-deals",
+    "summary": "韓國每日經濟報導，LG U+將在其訂閱平台「唯獨Pick」中加入電影、外送等生活優惠及AI服務。策略為允許用戶每月更換優惠內容，提升訂閱服務競爭力。",
+    "highlights": [
+      "LG U+為韓國主要電信業者",
+      "AI服務細節尚未明確揭露",
+      "針對韓國市場的訂閱制商業模式",
+      "屬電信業結合AI服務的商業嘗試"
+    ],
+    "why_it_matters": "電信業者結合AI服務代表傳統產業AI落地的一種商業模式，可能影響台灣相關業者布局參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "對台灣電信或訂閱服務開發者而言，可觀察其AI功能型態作為競品參考。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-26-shirleyhuang11-howto-1937-mcp",
     "title": "ShirleyHuang11/howto：1937 種日常技能配方與 MCP 技能包",
     "title_original": "ShirleyHuang11/howto",
@@ -25,6 +274,62 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/66345590?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-openai-chatgpt",
+    "title": "OpenAI 封禁涉及俄羅斯關聯的 ChatGPT 帳戶",
+    "title_original": "OpenAI bans Russia-linked ChatGPT accounts promoting a think tank built on copied papers",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vyhfct/openai_bans_russialinked_chatgpt_accounts/",
+    "published_at": "2026-08-26T00:21:56+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布封禁多個與俄羅斯相關的 ChatGPT 帳戶，這些帳戶被指用於營運一個智庫網站，內容主要基於未經授權複製的學術論文。此為 OpenAI 針對國家關聯行為者的最新執法行動。",
+    "highlights": [
+      "受影響帳戶與俄羅斯實體有直接或間接關聯",
+      "被用於生成以盜版論文為基礎的智庫內容",
+      "違反 OpenAI 使用政策第 3 條款",
+      "OpenAI 採用威脅情報追蹤此類帳戶",
+      "此次為自動化系統偵測而非手動檢舉"
+    ],
+    "why_it_matters": "此案例顯示 AI 平台的內容溯源與合規審查機制日益成熟，開發者應避免將 AI 生成內容用於可能觸法的灰色地帶應用。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業用戶應檢查內部使用政策，確保 AI 生成內容的來源與用途符合平台條款，避免帳戶遭到類似處置。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-openai-codex-loveholidays",
+    "title": "OpenAI Codex 案例：loveholidays 讓全公司都能當建構者",
+    "title_original": "How loveholidays is making everyone a builder with Codex",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/loveholidays",
+    "published_at": "2026-08-26T00:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "OpenAI官方部落格介紹旅遊公司loveholidays如何運用Codex降低軟體開發門檻，讓非工程背景團隊也能將想法快速轉化為產品功能。此為OpenAI行銷內容，但可觀察企業內部AI代理的實際應用模式。",
+    "highlights": [
+      "• Codex用於企業內部無程式碼建構場景",
+      "• 非工程師可直接用自然語言生成功能",
+      "• 加速跨部門產品迭代速度",
+      "• OpenAI官方行銷內容，真實效果待驗證",
+      "• 案例反映AI代理在工作流程的滲透趨勢"
+    ],
+    "why_it_matters": "這類案例顯示AI代理正進入企業內部工作流程程，未來技術用戶可能需要維運或客製化這類內部代理系統。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估企業內部是否有重複性文件、資料處理需求，考慮用Codex或類似工具建立內部自動化助理。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -494,6 +799,34 @@
     "automation_angle_zh": "根據自身硬體配置，選擇合適的量化模型與推論框架（如 llama.cpp），建立本地自動化腳本處理重複性文字任務。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-26-chatgpt-business-premium-seats",
+    "title": "ChatGPT Business 企業方案：Premium Seats 正式開放購買",
+    "title_original": "ChatGPT Business - Premium Seats Now Available",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1vya666/chatgpt_business_premium_seats_now_available/",
+    "published_at": "2026-08-25T19:40:58+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 宣布 ChatGPT Business 方案的 Premium Seats 現已對外銷售，企業可選購額外的付費席位。Business 方案提供 SSO、admin console 及優先使用新功能等企業級管理能力。",
+    "highlights": [
+      "Premium Seats 為 Business 方案的可選附加席位",
+      "需先擁有 Business 方案才能購買額外席位",
+      "每席位定價未公開揭露，需洽業務",
+      "包含 SSO、Admin Console、對話資料不回訓等功能",
+      "目前僅支援企業帳戶申請"
+    ],
+    "why_it_matters": "對於需要批量部署 ChatGPT 給內部團隊的企業，Premium Seats 提供更靈活的席位管理選項，可更精準控製成本與授權數量。",
+    "automation_angle": null,
+    "automation_angle_zh": "IT 管理員可評估團隊規模，計算 Premium Seats 與 Standard seats 的成本效益差異，評估是否值得升級以獲得更高管理彈性。",
+    "tags": [
+      "ai-deals",
       "rss",
       "en"
     ],
