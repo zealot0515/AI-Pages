@@ -1,5 +1,256 @@
 [
   {
+    "id": "2026-08-27-mosaic-companion-mcp-wasm-ai",
+    "title": "Mosaic Companion：整合 MCP 與 WASM 工具的桌面 AI 執行環境",
+    "title_original": "hypercycle-development/mosaic-companion",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/hypercycle-development/mosaic-companion",
+    "published_at": "2026-08-27T05:45:47Z",
+    "category": "agent-skills",
+    "summary": "hypercycle-development 開源專案，實現桌面端 AI Agent 整合式開發環境。支援 MCP 伺服器、沙盒化 WASM 工具與權限管理插件，TypeScript 實作，現有 16 stars。",
+    "highlights": [
+      "整合 MCP（Model Context Protocol）伺服器至桌面端工作區",
+      "支援沙盒化 WASM 工具執行，強化安全性",
+      "提供插件化權限管理機制",
+      "TypeScript 實作，方便前端/全端開發者擴展"
+    ],
+    "why_it_matters": "若成功可將分散的 AI 工具鏈統一至單一桌面環境，減少跨平台整合成本，值得關注後續生態發展。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可今日在本機部署，測試將多個 MCP 工具整合至一個受控工作區的可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/130709962?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-ryu-agent",
+    "title": "Ryu：通用 Agent 介面與可組合平台，構建插件化擴展生態",
+    "title_original": "amajorai/ryu",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/amajorai/ryu",
+    "published_at": "2026-08-27T05:45:35Z",
+    "category": "agent-skills",
+    "summary": "Ryu 定位為通用 Agent 介面與開放可組合平台，強調插件擴展能力與預建原語共享，讓開發者以基礎設施層視角構建 Agent，而非打造另一個封閉 Agent 產品。",
+    "highlights": [
+      "平台定位而非單一 Agent，強調可組合性",
+      "插件機制允許擴展能力邊界，適配多樣化工作流程",
+      "預建原語降低 Agent 建構門檻",
+      "36 Stars，平台敘事明確但早期階段",
+      "需評估插件生態豐富度與維護節奏"
+    ],
+    "why_it_matters": "若 Agent 市場走向平台化與插件化，Ryu 這類基礎設施層嘗試值得關注，技術用戶可評估其能否成為個人工作流程的中樞框架。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用 Ryu 的插件機制，將多個工具與 API 統一接入單一平台，實現跨系統工作流程自動化，避免維護多個獨立 Agent 腳本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "HTML"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/244519541?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-cortrix-agent-mcp",
+    "title": "Cortrix：Agent 優先的語義資料基礎設施，支援混合檢索與 MCP",
+    "title_original": "cortrix/cortrix",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/cortrix/cortrix",
+    "published_at": "2026-08-27T05:30:03Z",
+    "category": "agent-skills",
+    "summary": "Cortrix 是專為 AI Agent 設計的持久化語義記憶與文件理解框架，結合 P-HNSW 向量檢索與 BM25 全文檢索，提供跨命名空間語義查詢、SPC 攝取管線與 MCP 服務端，採用 AGPL-3.0 授權。",
+    "highlights": [
+      "混合檢索架構：P-HNSW 向量 + BM25 兼顧精確與語義匹配",
+      "持久化記憶層，支援 Agent 跨 session 上下文重建",
+      "提供 MCP Server 與 Python SDK，主流 Agent 框架可直接接入",
+      "跨命名空間語義查詢能力，適用多租戶或多專案場景",
+      "57 Stars，屬早期專案，生態成熟度待觀察"
+    ],
+    "why_it_matters": "Agent 需要長期記憶與可靠檢索能力，Cortrix 的混合檢索架構與 MCP 整合提供了解決方案，技術用戶可評估其是否勝任生產級知識庫建置。",
+    "automation_angle": null,
+    "automation_angle_zh": "用於建構 Agent 長期記憶系統，將文件理解與檢索自動化，減少每次對話的上下文浪費，提升 Agent 任務完成率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C++"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/286549032?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-reddit-bittorrent-ai",
+    "title": "Reddit 提醒：可透過 BitTorrent 合法播種 AI 模型",
+    "title_original": "this is a friendly reminder you can legally seed ai models via torrenting.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzhwxl/this_is_a_friendly_reminder_you_can_legally_seed/",
+    "published_at": "2026-08-27T02:50:05+00:00",
+    "category": "open-source-ai",
+    "summary": "r/LocalLLaMA 熱門帖提醒開源 AI 模型（如 Llama 系列）可透過 BitTorrent 合法播種下載，官方已授權此分發方式。此為灰色地帶操作的灰色地帶澄清，需謹慎對待。",
+    "highlights": [
+      "僅限明確開源授權的模型（如 Llama）",
+      "BitTorrent 可加速大模型下載",
+      "需確認下載來源為官方或官方授權鏡像",
+      "注意版權與授權條款，避免侵權"
+    ],
+    "why_it_matters": "對網路頻寬受限的地區用戶有幫助，但需嚴格確認授權來源合法性，避免下載來路不明的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "在網路不佳環境可考慮用 BitTorrent 下載已驗證的開源模型鏡像，但務必確認 SHA256 校驗碼匹配。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-llm",
+    "title": "本地 LLM 逆向工程工具平台討論熱絡",
+    "title_original": "Local LLM harness for reverse engineering software?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzg84e/local_llm_harness_for_reverse_engineering_software/",
+    "published_at": "2026-08-27T01:33:48+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶討論利用本地部署的 LLM 作為逆向工程輔助工具的可行性，探討如何用 AI 加速二進制分析、函式識別與漏洞挖掘等資安工作流程程。該應用場景適合安全研究人員和逆向工程師提升工作效率。",
+    "highlights": [
+      "利用本地 LLM 理解彙編碼和記憶體結構",
+      "可用於輔助函式邊界識別和變數分析",
+      "支援離線環境保障敏感研究不外洩",
+      "可結合 Ghidra、IDA Pro 等工具使用",
+      "強調本地部署避免 API 成本與隱私疑慮"
+    ],
+    "why_it_matters": "將 AI 能力整合進逆向工程流程可大幅提升分析速度，本地部署確保敏感研究不經第三方 API，保障資安工作隱私。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合本地 CodeLlama 或 WizardCoder 模型至 Ghidra，作為自動化二進制分析助理，加速函式識別與邏輯理解。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-reddit-llm-claude-code-agent",
+    "title": "Reddit 討論：本地 LLM 作為 Claude Code Agent 運行",
+    "title_original": "Running local LLM's as agents in Claude Code",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vze6jl/running_local_llms_as_agents_in_claude_code/",
+    "published_at": "2026-08-27T00:03:15+00:00",
+    "category": "agent-skills",
+    "summary": "r/LocalLLaMA 社群討論如何將 Ollama 等本地部署的 LLM 接入 Claude Code 作為 Agent 核心，實現完全本地化的 AI 程式碼助理工作流程。",
+    "highlights": [
+      "探討 Ollama + Claude Code 的整合可能性",
+      "完全本地化執行，避免雲端 API 成本",
+      "討論限制：工具呼叫、上下文長度、模型能力匹配",
+      "社群實測回饋：部分場景可行但穩定性待驗證"
+    ],
+    "why_it_matters": "若整合成功，開發者可實現零雲端成本的本地 AI 程式碼助理，但目前整合成熟度仍不足。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術愛好者可嘗試用 Ollama 運行 Llama3.1/Phi3，搭配 Claude Code MCP 測試本地化程式碼審查流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-qwen3-8-flash-next-qwen4-moe",
+    "title": "Qwen3.8-Flash-Next：Qwen4 架構預覽的多模態 MoE 模型",
+    "title_original": "Qwen3.8-Flash-Next",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
+    "published_at": "2026-08-26T23:52:58+00:00",
+    "category": "new-models",
+    "summary": "阿里巴巴開源 Qwen3.8-Flash-Next，125B 總參數但僅 6B 活躍參數的多模態 MoE 模型，被視為 Qwen4 架構預覽。支援 DGX Spark 部署，可搭配 Unsloth 量化模型使用。",
+    "highlights": [
+      "125B 總參數、6B 活躍參數的 MoE 架構，推論成本低",
+      "多模態能力（文字+圖像）",
+      "官方定位為 Qwen4 架構預覽版本",
+      "Unsloth 提供量化版本（UD-IQ1_S、UD-Q2_K_XL）",
+      "可在 DGX Spark 等設備本地運行"
+    ],
+    "why_it_matters": "MoE 架構兼顧效能與成本，本地用戶可搶先體驗下一代 Qwen 架構特性，評估是否值得遷移。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 Unsloth 量化版本，在本地 DGX Spark 或高階 GPU 主機上測試文字/圖像任務效能與延遲。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-github-copilot",
+    "title": "GitHub Copilot 全域模型政策正式生效",
+    "title_original": "Global model policy generally available",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-26-global-model-policy-generally-available",
+    "published_at": "2026-08-26T22:08:38+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布 Copilot Business 與 Enterprise 方案的預設模型政策開始強制執行。此前七月已預告，今日正式逐步推開，影響企業級 Copilot 設定。",
+    "highlights": [
+      "影響範圍：Copilot Business 及 Enterprise 方案",
+      "預設模型政策正式進入強制執行階段",
+      "企業用戶需確認內部 AI 使用合規性",
+      "減少模型選擇混亂，統一企業級使用標準"
+    ],
+    "why_it_matters": "企業技術主管需重新審視 Copilot 配置，確保團隊工作流程符合新版政策規範。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業 IT 管理員應立即檢查 Copilot 設定頁面，確認團隊使用的模型是否符合新規範。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-27-qwen3-8-27b-int8-4-mi100",
+    "title": "Qwen3.8 27B INT8 量化版實測：4×MI100 達成高吞吐量",
+    "title_original": "Qwen3.8 27B C8 at 972 TG / 5,680 PP on 4x MI100 rig ($6.5k) using my new INT8 vLLM fork",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vz9hqa/qwen38_27b_c8_at_972_tg_5680_pp_on_4x_mi100_rig/",
+    "published_at": "2026-08-26T20:54:18+00:00",
+    "category": "new-models",
+    "summary": "開發者展示使用自製 INT8 vLLM 分支在 4×MI100 顯卡機器上運行 Qwen3.8 27B 模型，達成 972 Token/秒生成吞吐量與 5680 Token/秒預填充效能，成本約 6500 美元硬體投入。",
+    "highlights": [
+      "使用自製 INT8 vLLM fork 優化記憶體使用",
+      "4×AMD MI100 顯卡配置，總計 128GB HBM",
+      "生成吞吐量 972 TG，預填充可達 5680 PP",
+      "相較 FP16 可大幅降低 VRAM 需求",
+      "硬體成本約 6500 美元，性價比突出"
+    ],
+    "why_it_matters": "INT8 量化技術讓中大型模型在相對平價硬體上達到實用吞吐量，為預算有限團隊提供本地部署新選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "可測試該 vLLM fork 應用於其他量化模型，評估 INT8 精度損失與速度提升的平衡點是否適合工作負載。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-26-luffy-arm-ssh-ai-agent",
     "title": "luffy-arm：逆轉 SSH 的本地 AI 編碼 Agent 遠端觸手",
     "title_original": "Ares960826/luffy-arm",
@@ -819,6 +1070,34 @@
     "automation_angle_zh": "開發者可參考 Hugging Face 教學，用內部文件或技術知識庫微調嵌入模型，並整合進自有 RAG 管線，實測檢索召回率提升幅度。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-openai-hugging-face",
+    "title": "OpenAI 發布 Hugging Face 安全事件調查報告與後續改進措施",
+    "title_original": "The Hugging Face incident and the road ahead",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+    "published_at": "2026-08-26T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方博客披露 Hugging Face 安全事件的調查結果，並說明其在模型安全、監控與對齊方面的強化措施，為 AI 安全領域提供公開的案例參考。",
+    "highlights": [
+      "OpenAI 官方發布安全事件調查報告，具公信力",
+      "強調模型安全、監控與 AI 對齊的實務改進",
+      "事件源頭與 Hugging Face 生態相關，值得安全從業者關注",
+      "揭露的攻擊路徑可供同業預防參考",
+      "具體技術細節需閱讀原文評估實際影響範圍"
+    ],
+    "why_it_matters": "AI 安全事件的真實案例為技術社群提供防禦參考，技術用戶應了解模型供應鏈的安全風險，並檢視自身系統的監控覆蓋程度。",
+    "automation_angle": null,
+    "automation_angle_zh": "安全團隊可依據報告中的攻擊手法審計現有 AI 系統，在自動化流程中加入模型輸入驗證與異常監控，降低類似風險。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -5301,6 +5580,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-27-openai",
+    "title": "OpenAI 推出「智慧時代」部落格專題",
+    "title_original": "Introducing Intelligence Age",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/introducing-intelligence-age",
+    "published_at": "2026-08-20T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布推出「Intelligence Age」部落格系列，探索變革性 AI 如何重塑權力結構、治理方式、經濟模式與個人自由。這是官方行銷/願景內容，非產品發布。",
+    "highlights": [
+      "官方願景論述，非新功能或模型發布",
+      "涵蓋 AI 對社會各層面的影響分析",
+      "具公關與政策倡議性質",
+      "可作為理解 OpenAI 長期方向的參考"
+    ],
+    "why_it_matters": "純公關內容，無直接技術價值，但有助理解 OpenAI 政策倡議方向，可能影響未來產品走向。",
+    "automation_angle": null,
+    "automation_angle_zh": "快速瀏覽了解 OpenAI 政策倡議方向，但無需投入時間深入分析，留意後續是否有實質產品綁定。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-20-llama-cpp-70-60k",
     "title": "Llama.cpp 參數優化實測：生成速度提升 70%、上下文增至 60K",
     "title_original": "3 days benchmarking most llama.cpp flags on my weird 40gb vram laptop + tb4 egpu setup. Got +70% generation, +40% prefill, 60k more context, and filed a bug in llama around MTP. What I learned.",
@@ -5713,6 +6019,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/265431220?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-makeuseof-claude-code",
+    "title": "MakeUseOf 介紹如何免費使用 Claude Code",
+    "title_original": "I use Claude Code without paying a dime to Anthropic - MakeUseOf",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSEF6Y3R5WEVCQ3h2RVZHNGRXOHJDX0g2Yzg0ZXd1cTYtVkY5Z3FzUFFnYjZWM0JzZ0dhWnd3eEwySm1lTUFGeF9tOTRaRklhTjhiQTM3Y3hJb1I1VnVjaUZSU2Z1Qkh3QUVWQmNvTEZOcmhtWW1VMDh6Z0dPZG1PZGQtZktGZw?oc=5",
+    "published_at": "2026-08-19T17:30:13+00:00",
+    "category": "agent-skills",
+    "summary": "MakeUseOf 發文介紹利用 Anthropic API 免費額度或替代方案使用 Claude Code 的方法，文章偏向一般消費者指南而非技術深度教學，建議技術用戶直接查閱官方文件以獲得更完整資訊。",
+    "highlights": [
+      "文章屬於一般性工具教學非深度技術分析",
+      "主要介紹官方免費額度或第三方繞過方法",
+      "Claude Code 為 Anthropic 官方 CLI 代理工具",
+      "灰色地帶方法可能存在使用條款風險",
+      "技術用戶建議以官方文件為主要參考"
+    ],
+    "why_it_matters": "Claude Code 作為 AI 編碼代理可提升開發效率，但繞過付費機制存在合規風險，技術用戶應評估官方方案的實際成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "直接使用 Anthropic API 官方方案，結合用量監控和快取機制控制成本，而非依賴第三方灰色方法。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
