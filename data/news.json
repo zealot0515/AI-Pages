@@ -1,5 +1,255 @@
 [
   {
+    "id": "2026-08-27-hulak-go-cli-api-age-graphql",
+    "title": "hulak：Go 語言輕量 CLI API 用戶端，age 加密與 GraphQL 一應俱全",
+    "title_original": "xaaha/hulak",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/xaaha/hulak",
+    "published_at": "2026-08-27T16:52:10Z",
+    "category": "agent-skills",
+    "summary": "hulak 是 Go 寫的 CLI 工具，提供檔案式 API 用戶端，支援 age 加密保護機密、first-class GraphQL，以及 MCP server 整合。Stars 92，適合需要輕巧、無依賴 API 呼叫工具的開發者。",
+    "highlights": [
+      "純 Go 編寫，單一二進位檔，無額外依賴",
+      "age 加密支援保護 API Key 與敏感資料",
+      "原生支援 GraphQL，適配現代 API 生態",
+      "內建 MCP server，可供 AI Agent 直接呼叫",
+      "CLI 設計適合腳本化與 CI/CD 整合"
+    ],
+    "why_it_matters": "對於需要安全呼叫外部 API 並讓 Agent 直接使用的技術用戶，hulak 提供了一個零配置、加密安全的 CLI 方案，降低自動化工作流程的安全風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 hulak 整合到自動化腳本中，使用 age 加密儲存 API Key，讓 Claude/GPT 等 Agent 透過 MCP 介面安全地呼叫外部 REST/GraphQL API。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/109303107?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-27-google-gemini-omni-1-1-flash",
+    "title": "Google 發布 Gemini Omni 1.1 Flash 新功能，強化開發者控制能力",
+    "title_original": "Gemini Omni 1.1 Flash lets you build with more control",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+    "published_at": "2026-08-27T16:11:32+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 部落格發布 Gemini Omni 1.1 Flash 更新，新增更精細的模型控制功能，讓開發者在構建應用時能夠更好地掌控模型行為與輸出。具體功能包括改良的系統提示詞處理、更靈活的輸出格式控制，以及除錯機制的強化。",
+    "highlights": [
+      "Gemini Omni 1.1 Flash 新增開發者導向控制項",
+      "支援更精細的系統提示詞配置",
+      "強化輸出格式彈性與除錯功能",
+      "官方 DeepMind 部落格來源，可信度高",
+      "屬於模型能力層級變化，非行銷新聞"
+    ],
+    "why_it_matters": "對需要精確控制模型輸出的技術開發者而言，這次更新提供更實用的控制介面，可減少後處理程式碼，加速產品開發迭代速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 Google AI Studio 或 Vertex AI 中測試新控制功能，評估是否能在自家工作流程程中減少 Prompt Engineering 的複雜度。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-google-search-ai",
+    "title": "Google Search 推出三種 AI 旅遊規劃新方式",
+    "title_original": "3 new ways to plan and book travel in Search",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+    "published_at": "2026-08-27T16:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google 在 Search 中新增 AI 驅動的旅遊功能，包括飯店預訂、機票追蹤、以及里程獎勵檢視，使用者可在 AI Mode 內一站式完成旅行規劃。",
+    "highlights": [
+      "AI Mode 內可直接預訂飯店與追蹤機票價格",
+      "整合航空公司里程與信用卡獎勵查詢",
+      "搜尋引擎直接具備交易能力",
+      "代表 Google 將生成式 AI 商業化落地"
+    ],
+    "why_it_matters": "Google 將 AI 搜尋從資訊檢索擴展至交易完成，意味著 AI 原生應用的商業模式正在成形，開發者需關注此趨勢。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可研究 Google Search API 的新能力，評估是否能整合至現有旅遊相關應用或自動化工作流程程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-qwen-27b-openai-codex",
+    "title": "本地 Qwen 27B 取代 OpenAI Codex 實作",
+    "title_original": "I used local Qwen 27b to build a harness and replace OpenCode",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzxv7u/i_used_local_qwen_27b_to_build_a_harness_and/",
+    "published_at": "2026-08-27T15:53:40+00:00",
+    "category": "agent-skills",
+    "summary": "開發者分享使用本地 Qwen 27B 模型構建程式碼測試框架，成功取代雲端 OpenAI Codex 的使用案例。展示本地模型在特定任務上的實用性。",
+    "highlights": [
+      "Qwen 27B 本地部署完成測試框架建構",
+      "成功替代雲端 Codex 完成自動化測試任務",
+      "節省雲端 API 呼叫成本",
+      "為本地模型實用工況提供參考"
+    ],
+    "why_it_matters": "本地大模型在特定任務已能滿足生產需求，工程團隊可評估將部分 Codex 用例遷移至本地部署以降低成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "依此範例評估自有哪些測試/程式碼任務可用本地模型替代，計算 ROI 後決定是否部署 Qwen 27B 至 CI/CD 流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-llama-cpp-tensor-read-lazy",
+    "title": "llama.cpp 新增 TENSOR_READ_LAZY 優化，降低記憶體佔用",
+    "title_original": "llama: model_loader: add TENSOR_READ_LAZY by ngxson · Pull Request #27794 · ggml-org/llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzw3jr/llama_model_loader_add_tensor_read_lazy_by_ngxson/",
+    "published_at": "2026-08-27T14:49:18+00:00",
+    "category": "open-source-ai",
+    "summary": "llama.cpp 專案合併 PR #27794，引入 TENSOR_READ_LAZY 功能，實現延遲載入張量，減少模型初始化時的記憶體佔用與 I/O 負擔。此 PR 由開發者 ngxson 提交，針對模型載入效率進行優化。",
+    "highlights": [
+      "PR #27794 新增 TENSOR_READ_LAZY 程式碼",
+      "延遲載入設計減少啟動時記憶體峰值",
+      "直接修改 ggml-org/llama.cpp 核心模組",
+      "可實際編譯測試的開源改進",
+      "對本地部署大模型的技術使用者有直接效益"
+    ],
+    "why_it_matters": "在資源受限環境或需要快速啟動模型的場景中，此優化能顯著改善使用者體驗，尤其適合邊緣運算或即時推論應用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可 clone 最新 llama.cpp 編譯測試，觀察模型載入時間與記憶體使用量的變化，評估是否值得遷移到新版本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-lora",
+    "title": "社群討論：推動創作者上傳 LoRa 而非完整模型以節省頻寬",
+    "title_original": "Is there no way we can push for creators to upload LoRas instead of the full files, so we only ever have to download the base model?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzvkl5/is_there_no_way_we_can_push_for_creators_to/",
+    "published_at": "2026-08-27T14:29:26+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串提出，是否可呼籲模型創作者僅上傳 LoRa 微調權重而非完整模型基底，讓使用者只需下載一次基礎模型。此建議旨在減少重複下載浪費的頻寬與儲存空間。",
+    "highlights": [
+      "社群倡議上傳 LoRa 而非完整模型",
+      "可減少網路頻寬與儲存成本",
+      "需建立基礎模型共享共識",
+      "屬於建議性質，無強制約束力",
+      "技術可行性高但採用率取決於社群"
+    ],
+    "why_it_matters": "若形成規模，長期可大幅減少 AI 模型生態系統的資源消耗，對頻繁測試多個微調版本的技術使用者有實際幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在自家模型庫中實踐此模式，針對已存在的基礎模型僅下載 LoRa，測試頻寬節省效果並建立最佳化流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-reddit-torrent-ai",
+    "title": "Reddit 社群提醒：可合法使用 Torrent 下載開源 AI 模型",
+    "title_original": "friendly reminder you can legally torrent ai models.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vztoyi/friendly_reminder_you_can_legally_torrent_ai/",
+    "published_at": "2026-08-27T13:15:57+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 版友發文提醒，許多開源 AI 模型（如 Llama、Mistral 系列）採用 Apache 2.0、MIT 等許可證，允許透過 Torrent 網路進行合法下載，此方式可加速大型模型檔案的取得。",
+    "highlights": [
+      "開源模型許可證允許 Torrent 分發",
+      "Llama、Mistral 等主流模型適用",
+      "可加速大檔案下載速度",
+      "屬於社群經驗分享，非官方公告",
+      "需自行確認模型許可證與下載來源"
+    ],
+    "why_it_matters": "對於需要頻繁下載或部署多個模型檔案的開發者，Torrent 可作為下載速度與穩定性的替代方案，降低對單一伺服器的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可整合 Torrent 用戶端至部署腳本，自動化模型檔案取得流程，評估與傳統 HTTP 下載的效率差異。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-qwen3-8-flash-next",
+    "title": "Qwen3.8-Flash-Next：更新基準測試的時刻來臨",
+    "title_original": "Qwen3.8-Flash-Next: Time to Update Those Benchmarks",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzspz6/qwen38flashnext_time_to_update_those_benchmarks/",
+    "published_at": "2026-08-27T12:34:49+00:00",
+    "category": "new-models",
+    "summary": "Qwen3.8-Flash-Next 在 Reddit r/LocalLLaMA 引發熱議，網友認為效能已超越預期，建議更新各項基準測試數據。此版本可能為 Qwen 系列帶來顯著推論效率提升。",
+    "highlights": [
+      "網友實測 Qwen3.8-Flash-Next 效能超乎預期",
+      "建議社群更新 MMLU、HumanEval 等標準基準測試",
+      "可能代表 Qwen 系列推論效率有實質進展",
+      "Flash 命名暗示針對快速推論優化"
+    ],
+    "why_it_matters": "Qwen 系列為本地部署熱門選擇，新版本若真有效能突破，可直接降低企業與個人用戶的部署成本與延遲。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可立即下載此版本，在自定義任務上跑 GPT-4 對比實驗，若通過即可評估是否遷移現有工作流程程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-openai-chatgpt",
+    "title": "OpenAI 研究：ChatGPT 與批判思考訓練對大學生作業表現的影響",
+    "title_original": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+    "published_at": "2026-08-27T09:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 部落格發表一項隨機對照研究，逾千名大學生參與，探討 ChatGPT 輔助與批判思考訓練如何影響作業原創性與學習成效。研究聲稱正向影響，但由 OpenAI 自家發布，存在潛在利益衝突，數據解讀需謹慎。",
+    "highlights": [
+      "研究樣本逾千名大學生，採隨機對照設計",
+      "聚焦大學真實作業任務，具一定外部效度",
+      "研究由 OpenAI 資助並發布，可能存在正向偏差",
+      "批判思考訓練單獨效果與 ChatGPT 輔助效果未完全剝離",
+      "尚需獨立學術圈同儕審查驗證"
+    ],
+    "why_it_matters": "此研究對教育場景有參考價值，但技術用戶應關注其方法學限制：樣本偏差、利益衝突、未獨立驗證等，決策前建議等待第三方複製研究結果。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶若在教育科技領域開發，可參考其研究框架設計自己的 A/B 測試，而非直接引用作為產品效果證明。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-27-mosaic-companion-mcp-wasm-ai",
     "title": "Mosaic Companion：整合 MCP 與 WASM 工具的桌面 AI 執行環境",
     "title_original": "hypercycle-development/mosaic-companion",
@@ -83,6 +333,61 @@
       "C++"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/286549032?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-glm-5-3",
+    "title": "GLM-5.3 權重即將開源發布",
+    "title_original": "GLM-5.3 weights will be released tomorrow",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vzjlxd/glm53_weights_will_be_released_tomorrow/",
+    "published_at": "2026-08-27T04:12:35+00:00",
+    "category": "open-source-ai",
+    "summary": "GLM-5.3 模型權重預計明日開源釋出，此為智譜 AI 重要開源更新。具體規格與效能數據尚未公布，社群正高度關注其對話與推論能力。",
+    "highlights": [
+      "GLM-5.3 權重將由官方渠道開源發布",
+      "智譜 GLM 系列為中國開源模型重要代表",
+      "具體參數規模與效能尚未揭露",
+      "社群期待與 Llama、Qwen 系列比較"
+    ],
+    "why_it_matters": "開源 GLM-5.3 若達主流水平，將為開發者提供又多一個可本地部署的高效能選項，增加供應鏈多樣性。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤官方 GitHub 倉庫，權重發布後立即下載測試文書處理或程式碼生成任務，評估其替代現有模型潛力。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-27-openai",
+    "title": "OpenAI 宣布擴大巴西市場布局，深化開發者與企業合作",
+    "title_original": "Expanding OpenAI’s presence in Brazil",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/expanding-our-presence-in-brazil",
+    "published_at": "2026-08-27T03:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 官方宣布拓展巴西業務，強調與當地開發者、企業與社群的深度合作，推動 AI 採用。屬市場拓展公告，具體 API 定價、資料中心、合作夥伴名單等技術細節尚待揭露。",
+    "highlights": [
+      "屬市場戰略公告，無具體技術規格",
+      "可能涉及巴西在地化資料儲存或合規調整",
+      "對南美 API 延遲、定價影響尚不明確",
+      "與微軟 Azure OpenAI Service 巴西節點可能存在競合",
+      "對台灣或亞太用戶的直接影響有限"
+    ],
+    "why_it_matters": "對南美市場有布局的技術用戶可關注後續巴西資料合規政策，可能影響需要資料主權的應用場景。其餘地區用戶可暫時略過此公告。",
+    "automation_angle": null,
+    "automation_angle_zh": "若需在南美部署 AI 應用，後續可追蹤 OpenAI 巴西節點上線情況，評估是否比 Azure Brazil 節點更具成本或功能優勢。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
