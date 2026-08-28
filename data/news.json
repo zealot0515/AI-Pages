@@ -1,5 +1,230 @@
 [
   {
+    "id": "2026-08-28-micro-mu-agent-go",
+    "title": "micro/mu：面向人類、Agent 與服務的 Go 語言輕量伺服器",
+    "title_original": "micro/mu",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/micro/mu",
+    "published_at": "2026-08-28T17:44:41Z",
+    "category": "agent-skills",
+    "summary": "micro/mu 是一款以 Go 語言撰寫的輕量級伺服器框架，目標是為人類、Agent 與服務提供統一的溝通介面。GitHub 已有 397 個星標，採用 Go 語言使其具備高效能與跨平台部署優勢，適合建構高效 Agent 骨幹服務。",
+    "highlights": [
+      "Go 語言實現，具備高併發與低記憶體佔用特性",
+      "目標為人類、Agent、服務三方互動提供統一介面",
+      "輕量級設計，部署門檻低",
+      "GitHub 397 星，社群關注度中等但持續成長",
+      "適合作為 Agent 後端通訊層或微服務骨幹"
+    ],
+    "why_it_matters": "Agent 應用需要穩定高效的通訊骨幹，micro/mu 的 Go 語言血統與輕量設計提供了一個可快速原型化、部署的選項，值得關注其在 Agent 生態中的實際整合案例。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可用 micro/mu 快速架設一個本地訊息轉發服務，串接多個 Agent 工具（如 OpenHuman + 自定義 Script），測試多 Agent 協作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/5161210?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-28-qwen3-8-flash-next-nvfp4-27b",
+    "title": "Qwen3.8-Flash-Next NVFP4 對決 27B 本地代理編碼基準測試出爐",
+    "title_original": "Local agentic coding Benchmark : Qwen3.8-Flash-Next NVFP4 vs 27B (and the others...)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0x1r2/local_agentic_coding_benchmark_qwen38flashnext/",
+    "published_at": "2026-08-28T17:30:34+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群釋出 Qwen3.8-Flash-Next NVFP4 與多款 27B 模型的本地代理編碼基準測試結果。NVFP4 量化版本在代理任務（如自動重構、多步驟除錯）上的表現成為討論焦點，散戶開發者可據此評估本機部署性價比。",
+    "highlights": [
+      "Qwen3.8-Flash-Next NVFP4 量化版本參與對比測試",
+      "測試聚焦代理編碼任務而非通用問答",
+      "27B 規模模型作為主要比較基準",
+      "結果影響本機推論部署的模型選擇",
+      "社群提供可重現的測試環境"
+    ],
+    "why_it_matters": "代理編碼能力決定本地模型能否勝任自動化開發流程，NVFP4 若表現接近 27B 全精度，代表可在更低硬體需求下實現同樣的工作流程自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據基準結果選型，用 Qwen3.8-Flash-Next NVFP4 替換昂貴雲端 API，實測其能否完成 PR 審查、測試生成等代理任務。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-28-qwen3-8-27b-q8-kv-cache",
+    "title": "Qwen3.8-27b Q8 KV Cache 反傷模型效能，社群實測發現量化陷阱",
+    "title_original": "Qwen3.8-27b q8 KV cache does seem to actually hurt model performance",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0pscn/qwen3827b_q8_kv_cache_does_seem_to_actually_hurt/",
+    "published_at": "2026-08-28T12:54:01+00:00",
+    "category": "new-models",
+    "summary": "社群用戶實測發現 Qwen3.8-27b 使用 Q8 量化格式時，KV Cache 反而導致模型輸出品質下降，任務正確率明顯下滑。該發現挑戰了「量化越精確越好」的直覺，散戶需重新評估本地部署的量化策略。",
+    "highlights": [
+      "Q8 量化格式搭配 KV Cache 造成效能衰減",
+      "實測結果與預期相反，需警惕量化陷阱",
+      "影響本地部署的量化參數選擇",
+      "可能需要調整 KV Cache 設定而非默認採用",
+      "對長上下文任務影響尤為明顯"
+    ],
+    "why_it_matters": "量化錯誤可能導致本地模型輸出不穩定，若在自動化流程中部署此模型，可能產生難以察覺的錯誤結果，影響關鍵任務可靠性。",
+    "automation_angle": null,
+    "automation_angle_zh": "在自動化流程中部署 Qwen3.8-27b 前，先用 Q8 格式實測 KV Cache 對實際任務準確率的影響，而非直接採用默認設定。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-28-github-copilot",
+    "title": "GitHub Copilot 政策與計費即將變動，開發者需注意三項調整",
+    "title_original": "Upcoming changes to GitHub Copilot policies and billing",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
+    "published_at": "2026-08-28T11:37:19+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方公告 Copilot 即將調整政策與計費方式，涉及訂閱層級、使用限制或企業授權模式。公告已重新開放，修訂細節預計近期釋出，直接影響開發團隊的 AI 輔助編碼成本估算。",
+    "highlights": [
+      "GitHub 官方 Changelog 發布公告而非第三方傳聞",
+      "調整涉及政策與計費兩個層面",
+      "公告狀態為「重新開放」表示仍在審議中",
+      "對企業和個人訂閱戶都可能產生影响",
+      "具體變動內容尚未完全揭露"
+    ],
+    "why_it_matters": "Copilot 是多數技術團隊的核心 AI 編碼工具，計費模式改變直接影響每月工具成本，需提前評估替代方案或重新談判預算。",
+    "automation_angle": null,
+    "automation_angle_zh": "密切關注正式公告，評估新計費結構下 Copilot 的成本效益，必要時準備切換到本機模型或其他 AI 編碼輔助工具。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-28-qwen3-8-flash-next-rtx-3060-400-tps",
+    "title": "Qwen3.8-Flash-Next本地推論實測：雙RTX 3060達400 tps",
+    "title_original": "Qwen3.8-Flash-Next (UD-IQ4_XS) on 2x RTX 3060 + 7800X3D, from initial 36 tps prefill to 400 tps and other benchmarks (-sm tensor trap) + VRAM/RAM usage",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0na2z/qwen38flashnext_udiq4_xs_on_2x_rtx_3060_7800x3d/",
+    "published_at": "2026-08-28T10:55:24+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit用戶在2x RTX 3060 + 7800X3D平台上測試Qwen3.8-Flash-Next（UD-IQ4_XS量化版），prefill速度從初始36 tps提升至400 tps，並公布VRAM/RAM使用量等詳細 benchmark數據。實測顯示消費級硬體已能流暢跑動最新開源模型。",
+    "highlights": [
+      "Qwen3.8-Flash-Next採用UD-IQ4_XS量化方案",
+      "雙RTX 3060（12GB VRAM）達成400 tps推論速度",
+      "7800X3D處理器確保CPU端不成為瓶頸",
+      "提供了詳盡的VRAM/RAM使用量數據供參考",
+      "預填充（prefill）階段優化顯著影響整體響應速度"
+    ],
+    "why_it_matters": "消費級GPU陣列運行開源大模型的可行性再次得到驗證。技術用戶可評估現有硬體是否足以支撐Qwen3.8系列部署，降低雲端API依賴與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載Qwen3.8-Flash-Next至本地硬碟，結合vLLM或llama.cpp框架建立私有推論服務，用於處理內部文件總結、程式碼生成等自動化任務，完全脫離雲端計費。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-28-item",
+    "title": "開源之所以追趕，是因為開源",
+    "title_original": "open source caught up because it's open",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0kstl/open_source_caught_up_because_its_open/",
+    "published_at": "2026-08-28T08:33:44+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit討論熱帖探討開源AI模型快速追趕閉源陣營的核心原因。文章指出開源社群的協作模式、全球開發者共享最佳實踐、以及快速迭代能力，是LLM領域落後差距持續縮小的關鍵驅動因素。",
+    "highlights": [
+      "開源模型的社群協作加速了技術突破",
+      "全球開發者可同時貢獻優化與安全修補",
+      "開源透明度使問題快速被發現與解決",
+      "閉源模型的先發優勢正在被開源生態稀釋",
+      "Llama、Qwen等開源模型代表此趨勢"
+    ],
+    "why_it_matters": "理解開源AI的增長邏輯，有助技術用戶判斷何時該押注本地部署、何時該使用商業API。開源模型能力提升意味著更多場景可轉移到自有基礎設施。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續關注開源模型排行榜（如Open LLM Leaderboard），評估新開源模型是否能在特定任務上取代付費API，評估成本效益比後決定遷移策略。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-28-npu-gguf-1-5",
+    "title": "工程師逆向 NPU 引擎格式，GGUF 免轉換且效能提升 1.5 倍",
+    "title_original": "I reverse-engineered an NPU vendor's engine format (int8 weights stored as two nibble planes) to run GGUFs with no model conversion — now 1.5× faster than the vendor's own runtime",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0hrrn/i_reverseengineered_an_npu_vendors_engine_format/",
+    "published_at": "2026-08-28T05:33:52+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者逆向某 NPU 供應商的引擎格式（int8 權重存為兩個 nibble 平面），實現 GGUF 模型直接運行而無需格式轉換，並較原廠運行時提升 1.5 倍效能。這代表非官方途徑可突破供應商封閉生態。",
+    "highlights": [
+      "成功逆向 NPU 供應商的引擎格式",
+      "int8 權重以兩個 nibble 平面存儲",
+      "GGUF 模型可直接運行無需轉換",
+      "效能較原廠 runtime 提升 1.5 倍",
+      "繞過封閉格式限制的可能性"
+    ],
+    "why_it_matters": "突破供應商封閉格式意味著在特定 NPU 硬體上可更靈活地部署模型，有機會降低邊緣設備的 AI 推論成本並提升自主可控性。",
+    "automation_angle": null,
+    "automation_angle_zh": "若使用該 NPU 供應商的硬體，可嘗試逆向工程方案，加速 GGUF 模型在邊緣設備上的部署，省去格式轉換流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-28-openai-ai",
+    "title": "OpenAI 與泰國啟動 AI 新創加速器，聚焦健康、教育、福祉領域",
+    "title_original": "Supporting Thailand’s next generation of AI startups",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+    "published_at": "2026-08-28T02:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 與泰國高等教育、科研與創新部（MHESI）共同推出為期八週的加速器計畫，協助 10 家健康、福祉與教育領域的新創將 AI 原型轉化為可信賴的產品。屬 OpenAI 官方公告，具較高可信度。",
+    "highlights": [
+      "八週加速器課程，聚焦 AI 信任與產品化",
+      "入選 10 家新創，領域限定健康、福祉、教育",
+      "OpenAI 提供技術資源與指導",
+      "MHESI 為泰國官方合作單位",
+      "象徵 OpenAI 持續佈局東南亞 AI 生態"
+    ],
+    "why_it_matters": "此類加速器通常伴隨 API 信用額度與技術支援，對台灣或鄰近市場的新創而言，可觀察入選項目的技術方向與合作模式，作為自身 AI 產品化的參照。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可追蹤該加速器的結業項目發布，觀察健康與教育領域的 AI 落地案例，從中找靈感或評估是否能整合進自己的工作流程程。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-08-28-air-tguserbot-telegram-grpc-websocket-api",
     "title": "air_tguserbot：Telegram 語音機器人整合 gRPC 與 WebSocket API",
     "title_original": "ikermy/air_tguserbot",
@@ -133,6 +358,34 @@
     "automation_angle_zh": "可在本地部署 Qwen2.5-Coder 或 GLM-4 系列模型，透過 Ollama 或 vLLM 建構私有程式碼代理服務，用於自動化重構、測試生成等任務，長期可降低 API 呼叫費用。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-28-engrams-1t",
+    "title": "Engrams 聲稱無法本地跑 1T 模型，但做了更實用的事",
+    "title_original": "No, Engrams won't let you run 1T models locally. It does something even better.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0198r/no_engrams_wont_let_you_run_1t_models_locally_it/",
+    "published_at": "2026-08-27T17:56:34+00:00",
+    "category": "open-source-ai",
+    "summary": "Engrams 專案澄清其目標不是讓用戶在本地運行萬億參數模型，而是透過某種技術手段實現更高效的本地推論。社群討論聚焦於其實用價值，而非盲目追求模型規模。",
+    "highlights": [
+      "Engrams 不是為了跑 1T 模型本地化",
+      "項目有更具體的技術目標",
+      "社群討論糾正了用戶的預期偏差",
+      "可能涉及推論效率優化或資源調度",
+      "對本機資源受限的用戶有實際意義"
+    ],
+    "why_it_matters": "對硬體受限的技術用戶，實用的高效推論方案比追逐大模型更有價值，Engrams 的實際技術方向值得關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 Engrams 的實際技術方向，評估其是否能為自動化腳本或 CI/CD 流程提供更輕量的本地 AI 推論支援。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
@@ -413,6 +666,34 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-28-ai",
+    "title": "信用卡公司爭奪AI訂閱費市場　新優惠戰開打",
+    "title_original": "信用卡公司將人工智慧(AI)訂閱费作為新的胜负点,展開了\"優惠竞争\" 继Netflix、YouTube Premium等在線影片服务(OTT)之後,Chat GPT、Cloud使用费也成為每月流失的固.. - 매일경제",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Cd0JDZGNIbXlOYXlEamN2RzcwRThtTThaakJ6TGpvQlhWaHlMSVJfVGlDaFJqMlNsZHhZOXNJeW94SDZrMTctNHNCMGZqdXpBc3c?oc=5",
+    "published_at": "2026-08-27T07:05:52+00:00",
+    "category": "ai-deals",
+    "summary": "南韓信用卡巨頭將AI服務訂閱費納入行銷戰場，瞄準ChatGPT、Cloud等每月固定支出的AI工具。持卡人可透過特定信用卡享有回饋或免費額度，儼然成為新型態的「省錢利器」，類似先前Netflix、YouTube Premium的優惠模式正在複製到AI領域。",
+    "highlights": [
+      "信用卡公司將ChatGPT、Cloud等AI訂閱費列為新的行銷焦點",
+      "仿效OTT服務（Netflix、YouTube）優惠模式推出AI版回饋",
+      "南韓每日經濟率先報導此趨勢，反映亞洲市場动向",
+      "用戶每月AI訂閱支出已成固定成本，信用卡優惠直接影響錢包",
+      "可能延伸至更多AI服務如Claude、Gemini等訂閱方案"
+    ],
+    "why_it_matters": "技術用戶每月在AI工具上的支出可觀，若能透過信用卡優惠節省訂閱費用，等同降低開發成本。比較各家信用卡AI回饋，可作為選擇主力卡的新依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可主動查詢手上信用卡的AI訂閱回饋方案，將個人AI工具費用中心化到回饋最高的卡片，一年輕省下數千元訂閱費。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -50198,6 +50479,34 @@
     "why_it_matters": "對於需要大量使用 AI 助理的技術團隊，豆包專業版的定價若屬實，可作為控制 AI 工具預算的替代選項，尤其適合中國市場相關業務場景。",
     "automation_angle": null,
     "automation_angle_zh": "技術讀者可比較豆包專業版在程式碼輔助、文件處理等任務上與現有工具的表現差異，若品質可接受則可評估切換以節省約 50% 訂閱成本。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-28-ai-codex",
+    "title": "閒魚平台充斥 AI 額度灰色交易：Codex 重置、學生優惠遭濫用",
+    "title_original": "闲鱼正成AI時代最大黑市：Codex額度重置、学生優惠等灰色交易泛滥 - 虎嗅",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UajdtOUZOY05nYURNNUVpRTdkQmRxSm80VHJ5NkRJOFFKVGlRcEwtRXZ5YW5xamJ4OGxsN200SzhEa2VKRXRKNHFDQVlCQ3EzRjFRQg?oc=5",
+    "published_at": "2026-06-24T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "虎嗅報導閒魚成為 AI 時代最大灰市，Codex 額度重置、盜用學生優惠等灰色交易氾濫。此類途徑可能省錢但存在法律與安全風險，技術用戶應避免以維護帳號安全。",
+    "highlights": [
+      "閒魚充斥 Codex 額度重置等灰色服務",
+      "學生優惠遭大規模濫用轉售",
+      "灰市可能提供低價但存法律風險",
+      "平台正成為 AI 資源非法流通管道",
+      "使用此類服務可能導致帳號被封禁"
+    ],
+    "why_it_matters": "灰色交易看似省錢，但存在帳號被封、資料外洩、法律追責等風險，技術從業人員應堅守職業道德底線，避免使用來源不明的優惠資源。",
+    "automation_angle": null,
+    "automation_angle_zh": "不建議使用灰市額度，應透過官方渠道申請研究優惠或使用開源模型替代，保持自動化流程的合規性與穩定性。",
     "tags": [
       "ai-deals",
       "rss",
