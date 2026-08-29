@@ -1,5 +1,121 @@
 [
   {
+    "id": "2026-08-29-agent-spreadsheet-rust-mcp",
+    "title": "agent-spreadsheet：Rust實作的輕量級試算表MCP伺服器",
+    "title_original": "PSU3D0/agent-spreadsheet",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/PSU3D0/agent-spreadsheet",
+    "published_at": "2026-08-29T16:18:24Z",
+    "category": "agent-skills",
+    "summary": "專為LLM Agent設計的試算表分析與編輯MCP伺服器，採用Rust語言實作，標榜輕量、Token消耗效率高。适合需要讓AI Agent操作Excel/CSV資料的工作流程。",
+    "highlights": [
+      "Rust語言實作，效能與記憶體效率佳",
+      "專為LLM Agent設計的工具表面",
+      "支援試算表分析與編輯操作",
+      "Token效率最佳化，降低Agent呼叫成本",
+      "可直接讓AI Agent操作CSV或Excel資料"
+    ],
+    "why_it_matters": "讓AI Agent直接操作試算表是常見自動化需求，Rust實作的輕量MCP伺服器可減少語言模型處理表格時的幻覺與Token浪費。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此MCP接入自己的Agent Pipeline，自動化處理財務報表、數據清洗、或定期生成分析報告的任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/10227908?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-ocm-mcp-server-ai-agent-kubernetes-mcp",
+    "title": "ocm-mcp-server：讓 AI Agent 操作多叢集 Kubernetes 的 MCP 伺服器",
+    "title_original": "ocm-mcp-server/ocm-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ocm-mcp-server/ocm-mcp-server",
+    "published_at": "2026-08-29T16:15:00Z",
+    "category": "agent-skills",
+    "summary": "一款 Python 實現的 MCP 伺服器，透過 Open Cluster Management Hub 讓 AI Agent 能安全地操作多叢集 Kubernetes 環境，支援政策審批與操作稽核。44 顆星，今日可部署測試。",
+    "highlights": [
+      "基於 Open Cluster Management 標準，支援多叢集管理",
+      "內建政策檢查與審批流程，降低誤操作風險",
+      "提供操作稽核機制，適合安全合規場景",
+      "Python 語言實現，可直接 Fork 改寫",
+      "可直接對接企業級 Kubernetes 基礎設施"
+    ],
+    "why_it_matters": "將 AI Agent 落地到真實基礎設施管理的關鍵元件，讓 AI 能安全地執行叢集維運任務而非只是聊天。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署此 MCP Server，讓 AI Agent 能自動巡檢、部署、更新多叢集工作負載，實現基礎設施維運自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/322349691?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-29-vybe-intelligence-vault-ai-agent-rag",
+    "title": "vybe-intelligence-vault：AI Agent與RAG系統的開源資源庫",
+    "title_original": "SAIRAMANALADI/vybe-intelligence-vault",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/SAIRAMANALADI/vybe-intelligence-vault",
+    "published_at": "2026-08-29T16:07:28Z",
+    "category": "open-source-ai",
+    "summary": "自動更新的開源知識庫，收錄AI Agent、RAG系統、MCP伺服器、提示詞模板與工具資源，聚焦下一代網頁開發相關整合。Star數偏低，資源豐富度待實測。",
+    "highlights": [
+      "收錄AI Agent、RAG、MCP等主流技術資源",
+      "包含可直接使用的提示詞模板",
+      "自動更新機制保持資源新度",
+      "強調下一代網頁開發整合",
+      "Star數量低，社群驗證程度有限"
+    ],
+    "why_it_matters": "尋找AI工具靈感的技術用戶可將此作為資源雷達，但需自行驗證收錄項目的實用性與最新狀態。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此Vault作為快速調研起點，找出適合自己工作流程的MCP伺服器或提示模板樣式，節省從零搜尋的時間。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/233378322?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-research-workflow-assistant-vs-code-ai-agent",
+    "title": "research-workflow-assistant：VS Code 環境中的學術研究AI Agent",
+    "title_original": "Intersect-Collaborations-LLC/research-workflow-assistant",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Intersect-Collaborations-LLC/research-workflow-assistant",
+    "published_at": "2026-08-29T14:32:08Z",
+    "category": "agent-skills",
+    "summary": "開源研究助理，深度整合VS Code與GitHub Copilot，透過MCP伺服器連接PubMed、OpenAlex、Semantic Scholar等學術資料庫，提供系統性文獻回顧、學術寫作引導，符合ICMJE規範並保留完整審計軌跡。",
+    "highlights": [
+      "整合多個學術資料庫：PubMed、OpenAlex、Semantic Scholar等",
+      "VS Code內嵌使用，開發者無需切換工具",
+      "支援系統性文獻回顧與學術寫作流程",
+      "符合ICMJE規範，適合醫學與臨床研究",
+      "完整審計軌跡有利於研究再現性"
+    ],
+    "why_it_matters": "研究人員和需要文獻整理的技術用戶，可直接在熟悉的IDE環境中啟動AI輔助文獻搜尋與管理，大幅節省文獻回顧時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "學術或技術寫作者可將此工具設為文獻自動化起點，用於定期追蹤特定領域的最新論文、生成文獻摘要報告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "HTML"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/306022834?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-29-cooldeck-coolify-mcp-agent",
     "title": "cooldeck：鍵盤優先的 Coolify 終端儀表板，內建 MCP 讓 Agent 管理部署",
     "title_original": "Resetnak/cooldeck",
@@ -83,6 +199,33 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/37040376?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-agent",
+    "title": "社群討論：設計微型自主研究 Agent 的可能性",
+    "title_original": "Were designing a tiny autonomous research agent",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1kg1v/were_designing_a_tiny_autonomous_research_agent/",
+    "published_at": "2026-08-29T11:47:42+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串中，有開發者提出設計一個輕量級自主研究 Agent 的構想，目前處於概念階段，尚無實際程式碼或可測試版本。",
+    "highlights": [
+      "強調小型化、離線可運作的設計目標",
+      "目前為社群頭腦風暴階段",
+      "具體實現細節尚未明朗",
+      "討論聚焦於資源限制下的 Agent 架構"
+    ],
+    "why_it_matters": "微型自主 Agent 是 Edge AI 重要方向，但此討論目前停留在概念，技術可行性待驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續關注此討論線，若有具體實作出現，可評估其是否能替代現有 RAG 工作流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
