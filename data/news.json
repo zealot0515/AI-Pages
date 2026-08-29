@@ -1,5 +1,146 @@
 [
   {
+    "id": "2026-08-29-cooldeck-coolify-mcp-agent",
+    "title": "cooldeck：鍵盤優先的 Coolify 終端儀表板，內建 MCP 讓 Agent 管理部署",
+    "title_original": "Resetnak/cooldeck",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Resetnak/cooldeck",
+    "published_at": "2026-08-29T11:57:32Z",
+    "category": "agent-skills",
+    "summary": "專為 Coolify 設計的鍵盤導航終端介面，可集中檢視全機群部署狀態與即時日誌，並提供 MCP 伺服器供 Agent 操控部署操作。",
+    "highlights": [
+      "Go 語言實作，星星數 14，仍屬早期階段",
+      "支援跨機群統一檢視部署與即時日誌",
+      "鍵盤優先操作設計，適合高效技術人員",
+      "內建 MCP 伺服器暴露部署控制能力",
+      "可讓 Agent 根據監控數據自動觸發部署"
+    ],
+    "why_it_matters": "將部署管理與 Agent 工作流程串接的實際方案，技術團隊可讓 AI 直接根據監控條件執行部署決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "串接 CI/CD 告警與此 MCP 端點，讓 Agent 自動評估錯誤率閾值後直接執行滾動更新或回滾操作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/15822378?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-octocode-rust-ai-agent",
+    "title": "Octocode：Rust 單二進制打造 AI Agent 程式碼理解層",
+    "title_original": "Muvon/octocode",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Muvon/octocode",
+    "published_at": "2026-08-29T11:53:43Z",
+    "category": "agent-skills",
+    "summary": "Octocode 以 Rust 實作結構化程式碼智慧，內建語意搜尋、知識圖譜與 MCP 伺服器，可同時賦予 Claude、Cursor 等 MCP Client 深層程式碼理解能力，GitHub 459 星。",
+    "highlights": [
+      "Rust 單二進制，跨平台部署簡單",
+      "語意搜尋與知識圖譜提升程式碼理解深度",
+      "原生 MCP 伺服器支援，與主流 AI 工具無縫整合",
+      "現有 459 stars，社群關注度在成長中"
+    ],
+    "why_it_matters": "讓 AI Agent 不只是做語法補全，而是真正理解程式碼架構與依賴關係，提升重構、遷移、漏洞掃描等高階任務的準確度。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 Octocode 整合進 Cursor 或 Claude Desktop，先在自己程式碼庫上跑語意搜尋，評估對大型重構自動化的幫助程度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/25336907?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-quireink-mcp-bun-sqlite",
+    "title": "quireink：一人自架部落格 MCP 伺服器，Bun + SQLite 純本地運行",
+    "title_original": "joiha-steven/quireink",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/joiha-steven/quireink",
+    "published_at": "2026-08-29T11:52:58Z",
+    "category": "agent-skills",
+    "summary": "一款極簡自架部落格方案，內建 MCP 伺服器讓 AI Agent 直接寫作並發布。技術棧僅用 Bun 運行、兩個 SQLite 檔案儲存資料，完全不需雲端帳號。",
+    "highlights": [
+      "使用 Bun 作為單一執行程序，部署門檻極低",
+      "雙 SQLite 檔案管理內容，無外部資料庫依賴",
+      "MCP 伺服器支援 AI Agent 直接寫入發布流程",
+      "TypeScript 實作，星星數 11，屬早期專案",
+      "完全自架，無需任何雲端服務訂閱"
+    ],
+    "why_it_matters": "個人部落格與 Agent 工作流程整合的具體範例，技術宅可用此模式打造屬於自己的 AI 輔助寫作基礎設施。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此 MCP 服務接入個人 Agent，實現「指定主題 → Agent 自動生成文章 → 直接發布至自架站」的完全自動化內容流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/37040376?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-dgx-sparks-r-localllama",
+    "title": "DGX Sparks 與新模型測試結果分享（r/LocalLLaMA）",
+    "title_original": "dgx sparks and new models my tests and results",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1jhh4/dgx_sparks_and_new_models_my_tests_and_results/",
+    "published_at": "2026-08-29T10:57:04+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享在 DGX 硬體上測試新模型的心得與結果貼文，但該貼文目前無完整摘要內容可供評估。",
+    "highlights": [
+      "來自 LocalLLaMA 社群的硬體實測分享",
+      "涉及 DGX Sparks 平台與新模型評測",
+      "原文缺少完整摘要，資訊完整度不足",
+      "需進一步查閱原文才能確認結論"
+    ],
+    "why_it_matters": "涉及新模型在高效能硬體上的實際表現，對評估模型效能與硬體需求有參考價值，但資訊待補。",
+    "automation_angle": null,
+    "automation_angle_zh": "待取得完整測試數據後，可用於評估特定模型是否適合本地部署及硬體配置需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-easymint-electron-ai",
+    "title": "EasyMint：Electron 圖形化 AI 程式設計助理，降低非技術用戶門檻",
+    "title_original": "tianemon/EasyMint",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tianemon/EasyMint",
+    "published_at": "2026-08-29T10:28:27Z",
+    "category": "agent-skills",
+    "summary": "EasyMint 基於 Pi Agent 構建，是 Electron 圖形化 AI 程式設計工具，讓非技術用戶也能驅動完整軟體開發流程，目前 GitHub 21 星，仍屬早期專案。",
+    "highlights": [
+      "Electron 跨平台桌面應用，圖形化操作介面",
+      "目標是非技術用戶也能驅動 AI 寫程式",
+      "基於 Pi Agent（pi-coding-agent）生態",
+      "目前 stars 極低，社群驗證不足"
+    ],
+    "why_it_matters": "如果圖形化 Agent 能真正落地，可能改變技術團隊內非工程師參與除錯或功能描述的方式，但需更多社群驗證其穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可先測試底層 pi-coding-agent 是否能穩定完成一個小型專案的從零到部署，再評估是否需要 EasyMint 的 GUI 包裝層。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/31303364?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-29-desktop-touch-mcp-windows-mcp",
     "title": "desktop-touch-mcp：Windows 桌面控制 MCP 服務，語義定位取代像素座標",
     "title_original": "Harusame64/desktop-touch-mcp",
@@ -418,6 +559,33 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-openai-cursor-spacex",
+    "title": "OpenAI 宣布終止向 Cursor 提供模型服務，因 SpaceX 收購案",
+    "title_original": "Our decision on Cursor following its acquisition by SpaceX",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+    "published_at": "2026-08-28T06:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格宣布，將在 SpaceX 完成對 Cursor 的收購後，終止向 Cursor 提供模型合約。此舉對 Cursor 用戶與 AI 編碼工具市場競爭格局有直接影響。",
+    "highlights": [
+      "OpenAI 官方公告，非傳聞",
+      "SpaceX 收購 Cursor 為觸發條件",
+      "OpenAI 將終止向 Cursor 供應 GPT 模型",
+      "對 Cursor 的 AI 編碼功能長期走向有重大影響"
+    ],
+    "why_it_matters": "Cursor 若失去 OpenAI 模型支援，其 AI 補全品質可能受限。這對正在評估 AI 編碼工具的技術決策者是一個重要的供應鏈風險信號。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶應評估自己工作流程中 Cursor 對 OpenAI 模型依賴程度，考慮備用方案（如繼續使用 Claude 作為主力、或關注 Windsurf、Copilot 的替代可行性）。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-08-28-npu-gguf-1-5",
