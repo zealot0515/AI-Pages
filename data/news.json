@@ -1,5 +1,147 @@
 [
   {
+    "id": "2026-08-29-cloud-finops-skills-mcp-ai-agent-ai",
+    "title": "Cloud FinOps Skills MCP：AI Agent 的雲端成本與AI推論經濟知識庫",
+    "title_original": "OptimNow/cloud-finops-skills",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/OptimNow/cloud-finops-skills",
+    "published_at": "2026-08-29T20:08:38Z",
+    "category": "agent-skills",
+    "summary": "OptimNow 的 Cloud FinOps Skills MCP 為 AI Agent 提供雲端成本與AI推論經濟學知識。涵蓋 AWS/Azure/GCP/OCI、Kubernetes、浪費偵測、異常管理，支援 12 種 AI 工具或透過 URL 接入代管 MCP 伺服器。",
+    "highlights": [
+      "FinOps Foundation 對齊：雲端成本知識具備產業標準",
+      "AI 推論經濟學：涵蓋模型部署成本優化議題",
+      "支援工具廣泛：可接入 12 種 AI 工具或獨立 MCP 伺服器",
+      "雙週更新：知識庫保持最新，減少維護負擔",
+      "當前星數：49（相對較高的社群關注度）"
+    ],
+    "why_it_matters": "技術團隊若要讓 Agent 具備成本意識，此 MCP 可直接提供雲端費用分析、異常偵測與綠色運算建議，減少自行建構 FinOps 知識庫的時間成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 Cloud FinOps Skills MCP 接入你的 AI 助理，詢問「過去 7 天哪個服務的 GPU 費用最高」或「最近是否有異常的 API 呼叫峰值」，驗證其是否能輔助你進行日常雲端開支審查。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/220851518?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-octoforge-agent-runtime",
+    "title": "OctoForge：自架多租戶 Agent 平台，技能與知識.runtime 擴展",
+    "title_original": "dmirain/OctoForge",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/dmirain/OctoForge",
+    "published_at": "2026-08-29T19:55:43Z",
+    "category": "open-source-ai",
+    "summary": "OctoForge 是自架式多租戶 Agent 平台，技能、知識庫、API 合約與 MCP 伺服器皆存於資料庫並支援.runtime 擴展。大型 API 回應以 SQL 查詢而非塞入上下文，Typed Python 核心可嵌入既有系統。",
+    "highlights": [
+      "多租戶設計：適合團隊共享而非個人使用",
+      ".runtime 擴展：技能與知識庫可在運行時動態增加",
+      "SQL 查詢 API 回應：避免上下文膨脹問題",
+      "Typed Python 核心： Protocol ports 設計，可嵌入其他專案",
+      "當前星數：22（早期專案，需評估社群活躍度）"
+    ],
+    "why_it_matters": "若你正在搭建需要多人共享、動態擴展技能的 Agent 系統，OctoForge 的資料庫原生設計比純記憶體方案更利於長期維護，但需確認其穩定性是否達到生產標準。",
+    "automation_angle": null,
+    "automation_angle_zh": "在隔離環境安裝 OctoForge，定義一個簡單技能（如天氣查詢）並驗證.runtime 擴展流程，評估其是否比自架 LangChain Agent 鏈更適合團隊協作場景。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/2658428?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-voice2voice-reddit",
+    "title": "本地端Voice2Voice模型哪個強？Reddit鄉民求推薦",
+    "title_original": "Any current Voice2Voice AI model that runs locally that’s good?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1vw3c/any_current_voice2voice_ai_model_that_runs/",
+    "published_at": "2026-08-29T19:39:50+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA用戶詢問目前有哪些可在本地運行且效果不錯的Voice-to-Voice AI模型，討論者推薦了Coqui TTS、XTTS等開源方案，並分享各方案在延遲和品質上的取捨。",
+    "highlights": [
+      "Coqui XTTS支援多語言但需要較高VRAM",
+      "RVC專注變聲，延遲較低",
+      "xtuner等工具有整合教程",
+      "本地部署可避免語音資料外傳",
+      "即時對話場景對延遲要求嚴格"
+    ],
+    "why_it_matters": "語音對話Agent需求增加，本地V2V模型可確保隱私並節省雲端API費用，是建構離線語音助理的關鍵元件。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合本地V2V模型到客服機器人或遊戲NPC對話系統，實現完全離線的語音互動體驗。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-llama-cpp-pr-cpu",
+    "title": "llama.cpp開源PR列表優化CPU與混合推論",
+    "title_original": "llama.cpp Open PRs list - CPU/RAM/Disk/Hybrid Related - Better for CPU-only & Hybrid inference",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1uu6d/llamacpp_open_prs_list_cpuramdiskhybrid_related/",
+    "published_at": "2026-08-29T18:58:58+00:00",
+    "category": "open-source-ai",
+    "summary": "llama.cpp專案持續有CPU/RAM/磁碟及混合推論相關的PR在審核中，主要優化方向包括降低記憶體佔用、提升CPU推論效率、以及改善MacMetal的效能表現。",
+    "highlights": [
+      "新PR包含KV Cache量化相關優化",
+      "MacMetal後端持續有效能改進",
+      "混合推論（部分GPU部分CPU）有新規劃",
+      "離譜長上下文支援有實驗性進展",
+      "這些優化將直接惠及本地部署用戶"
+    ],
+    "why_it_matters": "llama.cpp是本地LLM部署的核心基礎設施，任何效能優化都能讓老舊硬碟或有限VRAM的機器跑更大的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "可追蹤這些PR的merge進度，升級後測試在自有機器的效能提升幅度，評估是否值得更新。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-item",
+    "title": "財務模型基準卡片的價值在於揭露而非排名本身",
+    "title_original": "This finance-model benchmark card is more useful for what it discloses than for who \"wins\"",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1tfkc/this_financemodel_benchmark_card_is_more_useful/",
+    "published_at": "2026-08-29T18:04:08+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 討論指出財務任務模型基準卡片的實際價值在於揭露測試設計與資料透明度，而非僅看誰分數最高。該討論暗示技術用戶應學會解讀基準背後的方法論，而非盲目迷信排名數字。",
+    "highlights": [
+      "基準設計透明度是關鍵：測試資料、評估維度、prompt 設計皆需公開",
+      "排名僅是參考：高分不等於適合你的具體任務場景",
+      "LocalLLaMA 社群觀點：對開源模型與基準可信度有務實討論",
+      "實務建議：先定義你的任務維度，再找對應基準驗證",
+      "本項目為社群討論，非官方模型發布或工具發布"
+    ],
+    "why_it_matters": "技術選型時若只看 benchmark 數字，容易踩坑。此討論提醒用戶在評估財務相關 AI 模型時，應要求來源揭露測試方法，而非僅依賴廠商公佈的分數。",
+    "automation_angle": null,
+    "automation_angle_zh": "下次評估財務 AI 模型時，先要求查看原始基準卡片的測試維度與資料集，並用自己的財務任務樣本做本地測試，不要只看廠商宣稱的準確率數字。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-29-agent-spreadsheet-rust-mcp",
     "title": "agent-spreadsheet：Rust實作的輕量級試算表MCP伺服器",
     "title_original": "PSU3D0/agent-spreadsheet",
@@ -113,6 +255,62 @@
       "HTML"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/306022834?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-reddit",
+    "title": "Reddit鄉民拿各種模型做政治立場測驗",
+    "title_original": "Someone tested various Models on the Political Compass test...",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1o1ji/someone_tested_various_models_on_the_political/",
+    "published_at": "2026-08-29T14:30:05+00:00",
+    "category": "new-models",
+    "summary": "Reddit用戶在LocalLLaMA社群分享用政治 compass測試檢驗各AI模型意識形態傾向的實驗結果，發現不同模型在政治光譜上有顯著差異，可能與訓練資料和對齊方式有關。",
+    "highlights": [
+      "測試涵蓋多個主流模型如GPT、Claude、Llama系列",
+      "模型回答呈現不同政治傾向，可能反映預訓練語料bias",
+      "RLHF對齊程度影響模型政治立場表達",
+      "實驗方法論較為簡化，結果解讀需謹慎",
+      "對模型開發者而言是新的評估維度"
+    ],
+    "why_it_matters": "模型不只影響任務正確性，其內隱價值觀也可能影響輸出內容。理解模型的意識形態傾向有助於選擇適合特定場景的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可借鏡此實驗方法，建立自家模型的額外評估維度，檢測輸出內容是否符合特定價值觀需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-opus-4-8",
+    "title": "中國大模型追上Opus 4.8水準有多重要？",
+    "title_original": "How important is it for Chinese LLMs to reach the Opus 4.8 level?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1l3a2/how_important_is_it_for_chinese_llms_to_reach_the/",
+    "published_at": "2026-08-29T12:19:44+00:00",
+    "category": "new-models",
+    "summary": "Reddit討論中國大模型是否能達到GPT-4.8（應指GPT-4o或更新版本）等級的能力，論點聚焦在中文理解、本地化部署需求、以及中美AI實力差距等議題。",
+    "highlights": [
+      "國產模型如文心、通義在中文場景有優勢",
+      "本地部署需求是選擇國產模型的重要原因",
+      "純能力對比可能忽略成本和隱私考量",
+      "Benchmark分數與實際使用體驗有落差",
+      "開源社群追趕速度是關鍵變數"
+    ],
+    "why_it_matters": "中國模型能力提升影響AI工具鏈選擇，尤其在需要本地部署或特定語言優化的場景，技術人員有更多替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可實際測試國產模型在特定任務的性價比，若達標則可降低對OpenAI等服務的依賴。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -43421,6 +43619,34 @@
       "new-models",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-sk-t-ai",
+    "title": "韓國SK電訊推T宇宙谷歌AI合作計劃",
+    "title_original": "韩国SK电讯推出T宇宙谷歌AI计划 - 維度网",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE85MHUwN0JKRXBpRFE5N0ZiSlI3bWsxcGI5MTdJd1ZIS05RR1VHLUpJS1JiRWRnbHlaNlRyZkRXZEdnTjJ2VFF2RWh2SF9iUXFhLTNpQi1XNF8?oc=5",
+    "published_at": "2026-07-03T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "韓國SK電訊宣布與Google合作推出T Universe AI計劃，旨在為韓國用戶提供整合Google AI技術的電信服務，具體優惠內容和API額度分配尚未詳細公布。",
+    "highlights": [
+      "SK電訊用戶可能獲得Google AI服務優先使用權",
+      "合作模式類似電信商綁定AI服務",
+      "具體額度和收費標準待官方公告",
+      "可能影響韓國本地AI服務市場競爭",
+      "台灣用戶通常無法直接受惠"
+    ],
+    "why_it_matters": "電信商綁定AI服務成新趨勢，若成功可能複製到其他地區，為技術人員提供新的整合或API轉售商機。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注後續公告，若有免費額度可作為個人或小型專案的低成本AI資源補充。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
