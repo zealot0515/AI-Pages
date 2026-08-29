@@ -1,5 +1,228 @@
 [
   {
+    "id": "2026-08-29-desktop-touch-mcp-windows-mcp",
+    "title": "desktop-touch-mcp：Windows 桌面控制 MCP 服務，語義定位取代像素座標",
+    "title_original": "Harusame64/desktop-touch-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Harusame64/desktop-touch-mcp",
+    "published_at": "2026-08-29T01:16:13Z",
+    "category": "agent-skills",
+    "summary": "Rust 實作的 Windows 桌面操作 MCP Server，透過 UIA 引擎與 Chrome CDP 實現語義化操作目標定位（非像素座標），支援 ssh/sudo 密碼自動填入。目前 16 顆星，屬早期專案。",
+    "highlights": [
+      "原生 Rust UIA 引擎，跨應用相容性較佳",
+      "語義定位而非座標，適配 UI 變化場景",
+      "Chrome CDP 支援瀏覽器自動化",
+      "Key Locker 機制處理特權操作密碼",
+      "支援 Claude、Cursor 及通用 MCP Client"
+    ],
+    "why_it_matters": "桌面操作自動化是 Agent 落地關卡，語義定位提供更魯棒的 UI 操控方式，可加速桌面 workflow 自動化實作。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝後串接 Claude/Cursor，對 Windows 桌面應用進行指令級操作，用於自動化測試、資料輸入、報表生成等場景。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/46811405?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-torrent-search-mcp-ai-agent",
+    "title": "開源 torrent-search-mcp 讓 AI Agent 也能自動化資源搜尋",
+    "title_original": "philogicae/torrent-search-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/philogicae/torrent-search-mcp",
+    "published_at": "2026-08-29T00:31:53Z",
+    "category": "agent-skills",
+    "summary": "philogicae 推出的 torrent-search MCP 專案，以 Python 實作，透過 MCP 協定提供程式化 torrent 搜尋 API，目前 GitHub 星數僅 29 顆。屬於輕量級工具，可與支援 MCP 的 AI Agent 整合，實現自動化資源發現流程。",
+    "highlights": [
+      "Python 實作，支援 MCP 協定標準介面",
+      "可程式化查詢 torrents，理論上可串接進 Agent 工作流程",
+      "目前星數偏低（29），專案成熟度與穩定性有待實測驗證",
+      "若 MCP 介面穩定，可作為資料蒐集 pipeline 的一環"
+    ],
+    "why_it_matters": "為 AI Agent 拓展了一個實用的工具能力維度，若 MCP 介面可靠，可在現有 Agent 工作流程中無縫加入 torrent 資源搜尋，對需大量資料來源的開發者有直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 torrent-search-mcp 串接到自建的 AI Agent，可實現「自動監控特定關鍵字 → 觸發下載意圖 → 下一步處理」的完整 Pipeline，省去手動搜尋時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/38438271?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-ai-agent-exploit",
+    "title": "AI Agent 數分鐘內從漏洞傳聞挖出 exploit，開源維護者壓力劇增",
+    "title_original": "Just a rumour of a bug is enough to find a security exploit these days",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+    "published_at": "2026-08-28T22:12:02+00:00",
+    "category": "hot-topics",
+    "summary": "劍橋大學教授 Anil Madhavapeddy 指出 AI coding agent 現已能在漏洞修補討論發布後數分鐘內探測並嘗試 exploit，rclone 維護者 Nick Craig-Wood 確認上月收到 40 餘條安全報告，75% 含實質問題，GitHub CVE 分配時間從 2-3 天延至 3-4 週。",
+    "highlights": [
+      "AI agent 可在漏洞消息曝光後數分鐘內展開攻擊探測",
+      "rclone 專案上月安全報告量激增，相當於前十年的兩倍",
+      "75% 安全報告含有實質漏洞需處理",
+      "GitHub CVE 分配週期從數天延長至 3-4 週",
+      "現有開源 embargo 流程已不符威脅節奏"
+    ],
+    "why_it_matters": "AI 加速漏洞發現也加速了漏洞利用，對開源維護者與安全響應流程形成結構性挑戰，技術團隊需重新審視安全披露節奏。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可建立內部流程，在安全補丁發布前先完成熱修；利用 AI 工具主動掃描自身專案，依 75% 命中率估算維修負擔。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-29-qwen3-8-27b-sota-gguf-gsq-rco-2-5-3-0-bpw",
+    "title": "Qwen3.8-27B 最新 SOTA GGUF 量化版出爐：GSQ-RCO 演算法實現 2.5-3.0 bpw",
+    "title_original": "[Release] SOTA GGUFs for Qwen3.8-27B: GSQ-RCO at 2.5 to 3.0 bpw",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w13vse/release_sota_ggufs_for_qwen3827b_gsqrco_at_25_to/",
+    "published_at": "2026-08-28T21:46:58+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群成員發布了採用 GSQ-RCO 量化演算法的 Qwen3.8-27B 最新 GGUF 檔案，量化精度達 2.5-3.0  bpw（每參數位元數），號稱同精度下檔案體積最小、推論速度最快。",
+    "highlights": [
+      "Qwen3.8-27B 模型對應 Qwen2.5 系列衍生版本",
+      "GSQ-RCO 量化演算法可在 2.5-3.0 bpw 精度下維持接近 FP16 效能",
+      "GGUF 格式可直接被 llama.cpp、ollama、Jan 等本地推論工具使用",
+      "適合在消費級 GPU（如 RTX 3090/4090）或 Mac M 系列晶片上運行",
+      "屬於社群發布，未經官方驗證，效能聲稱需實際 Benchmark 確認"
+    ],
+    "why_it_matters": "將 27B 參數模型量化至 2.5 bpw 約需 8-10 GB 記憶體，大幅降低本地部署門檻。GSQ-RCO 若真能在低精度下保持效能，技術人員即可在普通工作站上跑接近滿血的 Qwen3.8-27B。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載對應 GGUF 檔案，透過 ollama import 或 llama.cpp 量化工具部署為本地 API，串接自動化腳本實現文件處理、程式碼生成等任務，完全脫離雲端依賴。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-github-copilot-visual-studio-agent",
+    "title": "GitHub Copilot Visual Studio 八月更新：推論控制、團隊 Agent 共享",
+    "title_original": "GitHub Copilot in Visual Studio — August update",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
+    "published_at": "2026-08-28T20:24:20+00:00",
+    "category": "agent-skills",
+    "summary": "八月更新強化 Copilot 推論過程控制、模型選擇彈性、團隊共享專業 Agent、以及程式碼審查請求功能。屬 Visual Studio 專屬功能的增量更新。",
+    "highlights": [
+      "可更細粒度控制 Copilot 推論方式",
+      "支援指定不同底層模型",
+      "團隊可共享客製化專業 Agent",
+      "新增程式碼審查請求入口"
+    ],
+    "why_it_matters": "模型選擇與推論控制對企業級部署至關重要；團隊 Agent 共享可加速跨成員的開發一致性與效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估團隊共享 Agent 場景，針對內部 Codebase 建立專家 Agent，統一團隊開發規範並減少重複勞動。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-29-github-copilot-slack-teams",
+    "title": "GitHub Copilot 每週更新：Slack/Teams 團隊工作階段、跨應用自訂功能上線",
+    "title_original": "GitHub Copilot weekly releases — August 24",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
+    "published_at": "2026-08-28T20:13:22+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 本週更新帶來多項控制能力強化，包括在 Slack 與 Teams 中啟動 Copilot 團隊工作階段，以及跨 IDE、CLI、應用程式的統一自訂選項。功能更新涵蓋帳號、模型與 MCP 體驗的穩定性改進。",
+    "highlights": [
+      "Slack、Teams 直接啟動 Copilot 團隊工作階段",
+      "跨 IDE、CLI、應用程式提供統一自訂控制選項",
+      "帳號、模型、MCP 體驗穩定性優化",
+      "官方 GitHub Blog 公告，資訊來源明確可信"
+    ],
+    "why_it_matters": "Copilot 正從個人開發工具向團隊協作平台延伸，在即時通訊工具中直接呼叫 AI 輔助，可簡化開發流程並提升團隊協作效率，技術用戶應評估如何將其整合進現有工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用 Slack/Teams 中的 Copilot 工作階段，在不離開訊息介面的情況下快速獲取程式碼建議或技術解答，用於 Code Review 或即時技術討論時節省上下文切換成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-29-deepseek-v4-qwen-3-8-nemotron-3-ultra-9",
+    "title": "開源模型真假來源偵測評測出爐：DeepSeek V4、Qwen 3.8、Nemotron 3 Ultra 等 9 款橫向比較",
+    "title_original": "I benchmarked 9 open models on spotting fake sources during agentic search (DeepSeek V4, Qwen 3.8, Nemotron 3 Ultra)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0zl5q/i_benchmarked_9_open_models_on_spotting_fake/",
+    "published_at": "2026-08-28T19:03:11+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串中，有用戶針對 9 款開源模型進行「真假來源偵測」測試，模擬 Agentic Search 情境下模型能否有效識別假造資訊。參測模型包括 DeepSeek V4、Qwen 3.8、Nemotron 3 Ultra 等主流開源模型，結果可供參考但非正式基準。",
+    "highlights": [
+      "測試 9 款開源模型識別虛假來源的能力",
+      "場景模擬 Agentic Search 真實使用情境",
+      "涵蓋 DeepSeek V4、Qwen 3.8、Nemotron 3 Ultra 等熱門模型",
+      "Reddit 非官方評測，測試方法與資料集未經嚴格同行評審",
+      "結果具參考價值但需謹慎解讀"
+    ],
+    "why_it_matters": "揭露了開源模型在事實查核能力上的差異，對開發依賴網路資訊的 AI Agent 或 RAG 系統極為關鍵，可作為模型選擇的參考依據之一。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據評測結果，為特定工作流程挑選更適合事實查核的開源模型；或在自有的真假來源資料集上重現測試，針對實際需求做模型微調或選擇。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-amd-rocm-10-0-agentic-ai",
+    "title": "AMD ROCm 10.0 發布：十年開源計算生態，瞄準 Agentic AI 時代",
+    "title_original": "ROCm 10.0: A Decade of Open Compute, Built for the Age of Agentic AI",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w0yfmn/rocm_100_a_decade_of_open_compute_built_for_the/",
+    "published_at": "2026-08-28T18:20:40+00:00",
+    "category": "open-source-ai",
+    "summary": "AMD 正式發布 ROCm 10.0，這是其開放運算平台十週年里程碑版本。ROCm 10.0 加強了對 MI300X 與 MI350 GPU 的優化，針對 Agentic AI 推論工作負載提供更完整的軟體棧支援，包含 HIP、RCcl 與數學庫更新。",
+    "highlights": [
+      "ROCm 10.0 為 AMD 開源 GPU 運算平台的第十個主要版本",
+      "強化對 Instinct MI300X 與新一代 MI350 GPU 的原生支援",
+      "新增針對 Agentic AI（多代理協作）場景的推論優化",
+      "RCcl（集合通訊庫）更新支援更大規模多節點訓練",
+      "數學庫（MIOpen、MIGraphX）版本同步更新"
+    ],
+    "why_it_matters": "ROCm 10.0 的穩定成熟意味著在 AMD GPU 上本地部署大模型的成本門檻持續降低，對想在本地跑開源模型的技術人員是直接利好，尤其可用來搭建無雲端依賴的 Agent 系統。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在配備 MI300X 或 MI350 的本機/伺服器上用 ROCm 10.0 編譯部署 Llama 3、Qwen 等模型，配合 vLLM 或 ollama 建立自動化本地推論管線，降低雲端 API 成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-28-micro-mu-agent-go",
     "title": "micro/mu：面向人類、Agent 與服務的 Go 語言輕量伺服器",
     "title_original": "micro/mu",
@@ -52,6 +275,34 @@
       "new-models",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-openai-chatgpt-gpt-2026",
+    "title": "OpenAI 與 ChatGPT 完整指南：GPT 模型、價格與使用方法（2026）",
+    "title_original": "OpenAI 和 ChatGPT 完整指南 - GPT 模型、價格與使用方法（2026） - Pasquale Pillitteri",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZ2NMM3pjaWZqTmlkRnV1SjliTUZFdXFuNzNUQ0VVbWxTTEYxX2lYeTdUcEF6cjhIenZvQThwZVh5SnIyeFpKYWJ6S3B1NmRBVTdvdkdpRUUxMHRxcHdWMHZlelh1dUw0NEg1Mjk1R0pibTc0elVxNXREbFk0RlFLRVotQ01leUxMa1dnaHZHMm0?oc=5",
+    "published_at": "2026-08-28T15:12:09+00:00",
+    "category": "ai-deals",
+    "summary": "一篇綜合整理 OpenAI 全系列模型（GPT-4o、o1、o3-mini 等）定價與使用方式的指南，涵蓋 API 計費模式、免費額度取得方式與常見使用場景說明。",
+    "highlights": [
+      "整理 GPT-4o、o1、o3-mini 等主流模型最新定價與 token 計算方式",
+      "說明 API 與 ChatGPT Plus 訂閱方案差異與省費技巧",
+      "收錄 2026 年最新功能更新與模型能力變化",
+      "內容屬於彙整性質，非一手消息來源",
+      "有助技術人員快速比對不同方案成本效益"
+    ],
+    "why_it_matters": "對 API 密集使用的開發者而言，掌握準確的模型定價與新功能上線時間可直接影響專案預算編列與架構選擇，屬於日常必要資訊。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可依此指南建立成本監控腳本，在 API 費用超出閾值時觸發通知或自動切換模型，避免意外帳單。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -251,6 +502,33 @@
       "Go"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/148149347?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-hugging-face-asr",
+    "title": "Hugging Face 開源 ASR 排行榜首度加入南方半球語言支援",
+    "title_original": "The Open ASR Leaderboard Adds Its First Global South Language",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+    "published_at": "2026-08-28T00:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 官方部落格宣布，Open ASR 排行榜新增首款南方半球語言支援。這代表開源語音辨識評測範圍持續擴展，填補了過去多元語言覆蓋的缺口，為開發者提供更多語言語音辨識模型的參考基準。",
+    "highlights": [
+      "Hugging Face 官方正式公告",
+      "Open ASR 排行榜首次收錄南方半球語系",
+      "推動開源語音辨識的多語言覆蓋與公平性",
+      "為需要處理該語言語音轉文字的開發者提供官方基準參考"
+    ],
+    "why_it_matters": "ASR 排行榜語言覆蓋更趨多元，開發多語言語音應用時有更完整的參考依據。技術用戶可依此選擇更適合特定語言的開源 ASR 模型，降低評估與測試成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "若需處理新支援語言的語音轉文字需求，可直接查閱排行榜選取排名領先的開源 ASR 模型進行部署，省去自行測試的時間與資源。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -2912,6 +3190,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-08-29-copilot-harness-jetbrains-ide",
+    "title": "Copilot Harness 正式登陸 JetBrains 全系列 IDE，提供更穩定體驗",
+    "title_original": "Copilot harness generally available in Copilot for JetBrains",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-24-copilot-harness-generally-available-in-copilot-for-jetbrains",
+    "published_at": "2026-08-25T01:00:40+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布 Copilot Harness 在 Copilot for JetBrains 全系列產品中正式達到普遍可用（GA）狀態，同時帶來帳號、模型與 MCP 體驗的穩定性改善。這代表 JetBrains 用戶可直接在慣用的 IDE 中使用 Copilot 自訂能力。",
+    "highlights": [
+      "Copilot Harness 在 JetBrains 產品線達 GA 狀態",
+      "帳號、模型、MCP 體驗穩定性提升",
+      "GA 代表功能已通過正式測試，可投入生產使用",
+      "為在 JetBrains 環境中深度使用 Copilot 的開發者提供更流暢體驗"
+    ],
+    "why_it_matters": "GA 發布象徵功能成熟度提升，JetBrains 用戶現在可以在熟悉的 IDE 中更穩定地使用 Copilot 自訂功能，若已在使用 JetBrains 家族工具，直接受益。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 JetBrains IDE 中評估 Copilot Harness 的自訂能力，測試是否能針對特定程式語言或框架優化 Copilot 行為，提升日常程式開發效率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-08-25-hs-sql-agent-c-sql-agent-mcp-ast",
     "title": "hs-sql-agent：C# 寫的 SQL Agent MCP 伺服器，強型別 AST 驗證杜絕幻覺",
     "title_original": "tse-wei-chen/hs-sql-agent",
@@ -4682,6 +4987,33 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/101329193?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-29-openai-gpt-5-6-sol-api-20-claude-opus-5",
+    "title": "OpenAI GPT-5.6 Sol API 價格下調逾 20%，低於 Claude Opus 5 水準",
+    "title_original": "OpenAI 將 GPT-5.6 Sol API 價格下调超過 20%，低于 Claude Opus 5 - Pasquale Pillitteri",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5qYWNBV2F6bTdIQ3JoUU94R1lKUDFjX0h6UTNmdUY0NUVPeVhJd2hkN3haLXZoNXQ3Q3kzb1JWc0cwOGJ6ZGR6NkxRNHFfNHZrVkd3cWV6TzU1UlJvQkc1aUZjZkJJQ2dERTdRbkFOcl9EYmU4YVNCUnFiVQ?oc=5",
+    "published_at": "2026-08-22T10:20:20+00:00",
+    "category": "ai-deals",
+    "summary": "Pasquale Pillitteri 報導指出 OpenAI 已將 GPT-5.6 Sol API 價格調降超過 20%，使其定價低於 Anthropic Claude Opus 5。此消息來自 Google News 搜尋結果轉載，原始消息來源與具體數字尚待官方正式確認。",
+    "highlights": [
+      "GPT-5.6 Sol API 價格下調幅度宣稱超過 20%",
+      "調整後定價低於 Claude Opus 5，可能影響模型選擇決策",
+      "消息經 Google News 轉載，原文來源需驗證",
+      "具體降價幅度與生效日期尚未由 OpenAI 官方公告證實"
+    ],
+    "why_it_matters": "若屬實，代表大語言模型供應商之間的價格競爭加劇，企業用戶可獲得更實惠的 AI 能力選項，成本控管空間擴大，技術決策者需重新評估性價比。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方公告確認後，評估將部分工作負載從 Claude Opus 5 轉移至 GPT-5.6 Sol 的可行性，針對不同任務類型做成本與效能的平衡測試。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
