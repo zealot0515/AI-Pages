@@ -1,5 +1,117 @@
 [
   {
+    "id": "2026-08-30-hy4-preview-7700-100",
+    "title": "騰訊 Hy4 Preview：7700億參數開源模型，100萬上下文",
+    "title_original": "Introducing Hy4 Preview",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/29/hy4/",
+    "published_at": "2026-08-29T23:53:13+00:00",
+    "category": "open-source-ai",
+    "summary": "騰訊發布Hy4預覽版開源語言模型，總參數7700億、活躍參數490億、支援100萬Token上下文。相較七月發布的Hy3（2950億總參數、256K上下文）有大幅提升。模型提供「high」與「no_think」兩種推論模式，預設開啟推論思考。",
+    "highlights": [
+      "總參數7700億，活躍490億，規模顯著增大",
+      "上下文窗口從256K躍升至100萬Token",
+      "提供「high」與「no_think」兩種推論模式",
+      "Hugging Face已上傳1.56TB模型權重",
+      "推論思考過程較精簡，符合效率導向"
+    ],
+    "why_it_matters": "Hy4是目前最大的開源中文背景模型之一，100萬上下文對處理長文件、程式碼庫分析極具價值，技術用戶應評估其推論品質與硬體需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "在配備充足GPU記憶體的機器上部署Hy4，用於自動化長文件摘要、程式碼審查或跨文件分析任務，測試「no_think」模式是否能以更低成本完成簡單任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-30-nemotron-3-5-lightning-16gb-nvidia",
+    "title": "Nemotron-3.5-Lightning：16GB即可運行的NVIDIA精簡模型",
+    "title_original": "Nemotron-3.5-Lightning at 11.77 GiB, a 16 GB option for a model that didn't have one",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w21d86/nemotron35lightning_at_1177_gib_a_16_gb_option/",
+    "published_at": "2026-08-29T23:27:11+00:00",
+    "category": "new-models",
+    "summary": "Reddit社群分享NVIDIA Nemotron-3.5-Lightning模型資訊，宣稱可在16GB記憶體環境下運行（模型大小11.77 GiB）。此模型填補了該系列無輕量級選項的空缺，為資源受限的本地部署提供了新選擇。",
+    "highlights": [
+      "模型大小11.77 GiB，適合16GB顯示卡運行",
+      "填補Nemotron系列輕量級選項空缺",
+      "來源為Reddit社群討論，詳細規格待官方確認",
+      "適合本地部署的入門級硬體需求",
+      "可作為NVIDIA生態系的替代選擇"
+    ],
+    "why_it_matters": "16GB需求大幅降低本地部署門檻，若推論品質與同規模模型相當，可成為自動化任務的經濟選項，節省雲端API費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "在配備16GB顯示卡的機器上量化部署此模型，比較其在文案生成、程式碼補全等任務上的品質與延遲，評估是否可替代雲端API處理簡單工作。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-30-deepseek-v4-flash-0731-glm5-3-flash-2x-dgx-spark-humaneval",
+    "title": "Deepseek V4 Flash 0731 與 GLM5.3 Flash 在 2x DGX Spark 上的 HumanEval 基準測試",
+    "title_original": "Humaneval benchmark for Deepseek V4 Flash 0731 vs GLM5.3 Flash on 2x DGX Spark setup",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w215qm/humaneval_benchmark_for_deepseek_v4_flash_0731_vs/",
+    "published_at": "2026-08-29T23:18:13+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社區用戶在 2x DGX Spark 分散式硬體配置下，對 Deepseek V4 Flash 0731 與 GLM5.3 Flash 兩款模型進行 HumanEval 程式碼能力基準測試比較，目前尚未公布詳細數據結果。",
+    "highlights": [
+      "測試平台為 2x DGX Spark 分散式計算環境",
+      "比較對象為 Deepseek V4 Flash 0731 對陣 GLM5.3 Flash",
+      "測試項目為 HumanEval 程式碼生成基準",
+      "結果數據尚未完整披露於 Reddit 帖文中",
+      "屬於社群自發性 benchmark，無官方背書"
+    ],
+    "why_it_matters": "對於本地部署 LLM 的技術人員，硬體性價比是關鍵取捨點。此 benchmark 可作為 Qwen 以外的國產模型效能參考，但須注意 Reddit 樣本偏差與測試環境變數。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可關注 Deepseek V4 Flash 的程式碼能力，若效能接近 GLM5.3 且推論成本更低，可評估其作為程式碼助理或自動化腳本生成的替代方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-30-ai",
+    "title": "南韓信用卡公司搶攻AI訂閱回饋市場",
+    "title_original": "信用卡公司將人工智慧(AI)訂閱费作為新的胜负点,展開了\"優惠竞争\" 继Netflix、YouTube Premium等在線影片服务(OTT)之後,Chat GPT、Cloud使用费也成為每月流失的固.. - 매일경제",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5jNHVHS21pOWwxVFBpdDN2WWFfUGg2NjhjbEdNQXdDNEpseWFfREltdS1UMHdsT2VjdnpSRzc0Mzh4Wlh0UXJJS0cwMzQzeEh5NXc?oc=5",
+    "published_at": "2026-08-29T21:52:07+00:00",
+    "category": "ai-deals",
+    "summary": "南韓每日經濟新聞報導，信用卡公司正將AI工具訂閱費（如ChatGPT、雲端服務）納入回饋範圍，掀起新一輪「優惠競爭」。繼Netflix、YouTube Premium等OTT服務之後，AI使用費已成為信用卡回饋的新戰場。",
+    "highlights": [
+      "南韓信用卡公司開始將AI訂閱費納入回饋項目",
+      "針對ChatGPT、雲端使用費等提供刷卡回饋",
+      "反映AI消費已成為日常支出的重要類別",
+      "具體回饋比例與適用卡片有待各銀行公告",
+      "非台灣市場資訊，但趨勢值得關注"
+    ],
+    "why_it_matters": "若此趨勢擴散至其他市場，技術用戶可能透過特定信用卡降低AI工具月費成本，了解此趨勢有助評估個人或企業的AI工具支出優化策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注自身銀行是否推出類似AI訂閱回饋，若有可考慮調整付款方式以獲得1%-5%不等的刷卡回饋，長期可降低API或訂閱費用支出。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-29-cloud-finops-skills-mcp-ai-agent-ai",
     "title": "Cloud FinOps Skills MCP：AI Agent 的雲端成本與AI推論經濟知識庫",
     "title_original": "OptimNow/cloud-finops-skills",
@@ -77,6 +189,34 @@
     "why_it_matters": "語音對話Agent需求增加，本地V2V模型可確保隱私並節省雲端API費用，是建構離線語音助理的關鍵元件。",
     "automation_angle": null,
     "automation_angle_zh": "可整合本地V2V模型到客服機器人或遊戲NPC對話系統，實現完全離線的語音互動體驗。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-30-tenstorrent-qwen3-7-27b",
+    "title": "Tenstorrent Qwen3.7-27b 基準測試結果出爐",
+    "title_original": "Tenstorrent Qwen3.7-27b Benchmarks",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1vtfo/tenstorrent_qwen3727b_benchmarks/",
+    "published_at": "2026-08-29T19:36:48+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社區用戶分享 Tenstorrent 硬體平台上 Qwen3.7-27b 模型的效能基準測試數據，主要評估其在 Tenstorrent 自家硬體上的推論表現與資源消耗。",
+    "highlights": [
+      "測試對象為 Qwen3.7-27b 開源模型",
+      "硬體平台為 Tenstorrent 自家 AI 加速器",
+      "重點評估 Tenstorrent 硬體對開源模型的支援程度",
+      "結果顯示 Qwen 在 Tenstorrent 硬體上的相對效能",
+      "為 RISC-V 架構 AI 硬體生態提供實證參考"
+    ],
+    "why_it_matters": "Tenstorrent 為非 NVIDIA 的開源 AI 硬體選項，其對 Qwen 等開源模型的支援程度直接影響開發者硬體採購與自託管決策。此 benchmark 提供實際效能參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "若有意採用 Tenstorrent 作為替代 NVIDIA 的自託管方案，可依此 benchmark 評估 Qwen3.7-27b 在其上的延遲、吞吐量與性價比，決定是否投入評測。",
     "tags": [
       "open-source-ai",
       "rss",
