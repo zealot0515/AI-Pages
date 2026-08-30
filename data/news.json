@@ -1,5 +1,148 @@
 [
   {
+    "id": "2026-08-30-markdy-com-dsl-mcp-server",
+    "title": "markdy-com：動畫架構圖即程式碼的開源 DSL 工具，附 MCP Server",
+    "title_original": "HoangYell/markdy-com",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/HoangYell/markdy-com",
+    "published_at": "2026-08-30T10:54:29Z",
+    "category": "agent-skills",
+    "summary": "markdy-com 是一款開源動畫架構圖工具，透過 Diagram-native DSL 定義圖形邏輯，支援 17 種版面引擎與 Web Animations API 產生流暢動畫，並提供 MCP Server 供 AI Agent 直接呼叫生成圖表。87 stars，TypeScript 實作。",
+    "highlights": [
+      "專用語法 DSL，適合程式化管理架構圖",
+      "17 種版面引擎支援複雜佈局",
+      "Web Animations API 驅動動畫效果",
+      "內建 MCP Server，AI Agent 可直接驅動",
+      "開源可改，可客製化圖形風格"
+    ],
+    "why_it_matters": "文件、試算說明或展示場景中常需動畫架構圖，手動做費時且難維護。markdy-com 讓 AI Agent 能自動產出視覺化成果，提升技術文件的專業度與迭代速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 markdy-com MCP Server 接入工作流程，輸入架構描述後自動產出動畫圖；CI/CD 流程中亦可自動生成部署架構圖並嵌入文件。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/7069077?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-30-octofs-rust-ai-agent",
+    "title": "octofs：Rust 實作的 AI Agent 檔案系統超能力工具",
+    "title_original": "Muvon/octofs",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Muvon/octofs",
+    "published_at": "2026-08-30T10:53:16Z",
+    "category": "agent-skills",
+    "summary": "octofs 是用 Rust 開發的 MCP Server，賦予 AI Agent 強大檔案操作能力：檢視、編輯、批量編輯、Shell 命令、工作目錄管理，並具備哈希驗證行 ID、gitignore 感知搜尋、SSH/SFTP 透明支援。11 stars。",
+    "highlights": [
+      "Rust 高效能實作，適合生產環境部署",
+      "支援批量編輯，避免多次 API 呼叫",
+      "行 ID 哈希驗證防止編輯衝突",
+      "gitignore 感知搜尋避免誤觸敏感檔案",
+      "SSH/SFTP 透明支援，可操作遠端檔案"
+    ],
+    "why_it_matters": "檔案操作是 Agent 常見需求，但標準 MCP 實作常缺少批量、衝突檢測、遠端支援等能力。octofs 以 Rust 確保效能與記憶體安全，填補企業級 Agent 檔案操作的空白。",
+    "automation_angle": null,
+    "automation_angle_zh": "在需要處理大量檔案的自動化腳本（如程式碼重構、文件批量替換）中啟用 octofs，評估其批量編輯與哈希驗證如何降低人工出錯率，並透過 SSH 測試遠端部署情境。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/25336907?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-30-gomaa-ai-agent-obsidian",
+    "title": "gomaa：AI Agent 專用的持久化記憶作業系統，支援 Obsidian 整合",
+    "title_original": "M4F-S/gomaa",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/M4F-S/gomaa",
+    "published_at": "2026-08-30T10:51:21Z",
+    "category": "agent-skills",
+    "summary": "gomaa 是自主 Agent 的持久化記憶系統，核心功能包含 Obsidian 筆記庫整合、混合 RRF 檢索、知識圖譜建構與安全閘門。MCP Server 介面讓外部 Agent 可查詢、更新長期記憶。30 stars，Python 實作。",
+    "highlights": [
+      "Obsidian vault 原生整合，可直接存取本地筆記",
+      "混合 RRF（Reciprocal Rank Fusion）檢索提升召回",
+      "知識圖譜結構化記憶，提升關聯查詢能力",
+      "安全閘門機制防止記憶汙染",
+      "MCP Server 提供標準化 Agent 記憶介面"
+    ],
+    "why_it_matters": "長任務 Agent 常見上下文膨脹與記憶失效問題。gomaa 提供結構化、持久化且可檢索的記憶層，讓 Agent 在跨天、跨 session 間保持狀態連貫性。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 gomaa 部署後，接入自建或開源 Agent 框架（如 LangChain、AutoGPT），讓 Agent 能在工作流程中主動寫入與召回事實，實測長期記憶對任務完成率的影響。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/181015797?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-30-qwen3-8-27b-q4-vibecode-minecraft-4",
+    "title": "Qwen3.8-27B Q4 量化模型成功「vibecode」出 Minecraft 克隆版，額外新增4項原創功能",
+    "title_original": "Some people said the Minecraft clone I fully vibecoded with Qwen3.8-27B Q4 is not that impressive because Minecraft is in the training data, so I had the model add 4 things that are probably not.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2cxcw/some_people_said_the_minecraft_clone_i_fully/",
+    "published_at": "2026-08-30T09:28:27+00:00",
+    "category": "new-models",
+    "summary": "開發者在 Reddit 分享使用 Qwen3.8-27B Q4 量化模型透過「vibecoding」方式完整克隆 Minecraft 的過程。由於外界質疑 Minecraft 可能已存在於訓練資料中，開發者要求模型額外新增 4 項不太可能出現在訓練資料的功能來證明能力。",
+    "highlights": [
+      "使用 Qwen3.8-27B Q4 量化版本即可完成複雜遊戲克隆",
+      "模型支援從零開始生成完整的遊戲架構程式碼",
+      "針對質疑追加了4項非訓練資料內容的原創功能",
+      "Q4 量化版本兼顧效能與記憶體資源消耗",
+      "實驗性質展示，但體現單一模型完成完整專案潛力"
+    ],
+    "why_it_matters": "Qwen 量化版模型已具備從需求到完整專案的一站式生成能力，對個人開發者或快速原型驗證具有實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可測試使用 Qwen3.8-27B Q4 讓模型從需求描述直接生成可運作的遊戲或工具雛形，評估其是否能勝任小型專案的自動化開發流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-30-koboldcpp-v1-120",
+    "title": "Koboldcpp v1.120 推論引擎正式發布",
+    "title_original": "Koboldcpp v1.120 released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2c4el/koboldcpp_v1120_released/",
+    "published_at": "2026-08-30T08:42:07+00:00",
+    "category": "open-source-ai",
+    "summary": "Koboldcpp 是一款專為本地 LLM 推論設計的效能優化工具，v1.120 版本已釋出。該版本持續最佳化量化模型載入與推論速度，並改善與各大模型的相容性。",
+    "highlights": [
+      "專注於本地 LLM 推論加速與量化支援",
+      "持續更新以支援最新模型架構",
+      "改善記憶體管理與推論效率",
+      "保持開源免費，適合本地部署場景",
+      "版本迭代快速，社群活躍度高"
+    ],
+    "why_it_matters": "Koboldcpp 是本地跑 AI 模型的核心工具之一，新版發布通常代表效能提升或新功能支援，對節省運算資源有直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應更新至 v1.120 版本，重新跑基準測試比較推論速度與記憶體佔用，確認新版對現有工作流程程的實際效益。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-30-hy4-preview-7700-100",
     "title": "騰訊 Hy4 Preview：7700億參數開源模型，100萬上下文",
     "title_original": "Introducing Hy4 Preview",
