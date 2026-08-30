@@ -1,5 +1,116 @@
 [
   {
+    "id": "2026-08-30-uisight-mcp-ui-ai",
+    "title": "uisight：MCP 協定 UI 測量引擎，AI 可量化視覺元素",
+    "title_original": "sololabstr/uisight",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sololabstr/uisight",
+    "published_at": "2026-08-30T19:43:32Z",
+    "category": "agent-skills",
+    "summary": "uisight 是 MCP Server 工具，讓 AI 能測量 UI 而非僅僅看見畫面。支援桌面與行動裝置，提供對比度、觸控目標尺寸、主題漂移等測量引擎，結果以文字報告呈現，供人類與 Agent 共同使用。",
+    "highlights": [
+      "AI 不再只能截圖，能量化測量 UI 元素",
+      "支援對比度、觸控目標尺寸、主題一致性檢測",
+      "提供人類與 Agent 共享的測量面板",
+      "基於 MCP 協定，可與其他 Agent 工具串接",
+      "100 stars，JavaScript 實作，輕量接入"
+    ],
+    "why_it_matters": "這填補了 AI Agent 視覺理解到量化測量的 Gap，過去 AI 只能描述 UI 現在能測量並產出結構化數據，可用於自動化 UI 測試或Accessibility 合規檢測。",
+    "automation_angle": null,
+    "automation_angle_zh": "串接 CI/CD 流程，自動化執行 UI 測量並產出合規報告，節省手動審視時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/284962090?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-30-hflow-vlms",
+    "title": "HFlow 框架用於評測開源 VLMs 处理第一人稱視角數據",
+    "title_original": "We used HFlow to evaluate the latest open weights VLMs for processing egocentric data",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2r6v8/we_used_hflow_to_evaluate_the_latest_open_weights/",
+    "published_at": "2026-08-30T19:40:15+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享使用 HFlow 評測多款開源 VLM（視覺語言模型）處理第一人稱視角（egocentric）數據的實驗結果。HFlow 是專為評估視覺語言模型設計的基準框架，可針對不同模型在特定任務上的表現進行量化比較。",
+    "highlights": [
+      "HFlow 提供標準化評測流程，支援多種開源 VLM",
+      "測試重點在第一人稱視角數據處理能力",
+      "涵蓋最新 open weights VLMs 的效能比較",
+      "可幫助開發者選擇適合特定場景的模型"
+    ],
+    "why_it_matters": "對於開發視覺應用或 AR/VR 相關產品的技術人員，了解各開源 VLM 在第一人稱視角任務上的實際表現，可避免盲目選型並節省實測時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可直接 fork HFlow repo，替換自己的資料集或目標 VLM，快速建立針對特定業務場景的模型評測流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-30-openclaw",
+    "title": "OpenClaw 及其衍生專案現況查詢",
+    "title_original": "Whatever happened to OpenClaw and its derivatives?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2q1hx/whatever_happened_to_openclaw_and_its_derivatives/",
+    "published_at": "2026-08-30T18:56:59+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶詢問 OpenClaw 及其衍生專案的最新發展狀態。OpenClaw 是一個與 AI 模型部署或加速相關的開源工具鏈，但其後續維護和社群活躍度成為討論焦點。",
+    "highlights": [
+      "OpenClaw 為開源 AI 工具鏈項目",
+      "衍生版本可能持續維護但缺乏曝光",
+      "社群回應顯示專案可能已進入低維護狀態",
+      "建議直接查閱 GitHub repo 最新 commit"
+    ],
+    "why_it_matters": "若 OpenClaw 已停止維護，使用該工具鏈的開發者需評估遷移方案，避免未來技術債問題。及時掌握此類資訊可避免踩坑。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可檢查相關 GitHub repo 的最後更新時间、issue 回應率與 fork 數，評估該專案是否仍值得投入生產環境。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-30-qwen3-8-flash-next-4xr9700-120-t-s",
+    "title": "Qwen3.8-Flash-Next 在 4xR9700 本地跑出 120 t/s 生成速度",
+    "title_original": "Qwen3.8-Flash-Next turns 4xR9700 into a local AI powerhouse! 120 t/s TG and 12k t/s PP single request with optimized vLLM",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2my8q/qwen38flashnext_turns_4xr9700_into_a_local_ai/",
+    "published_at": "2026-08-30T17:00:57+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享 Qwen3.8-Flash-Next 配合優化 vLLM，在 4張 AMD R9700 顯示卡上達成單次請求 120 t/s 吞吐量（TG）和 12k t/s PP 速度，將消費級硬體變成高效本地 AI 推論工作站。",
+    "highlights": [
+      "4張 AMD R9700 達成 120 t/s TG 吞吐量",
+      "12k t/s PP 速度表現亮眼",
+      "使用優化版 vLLM 推論引擎",
+      "Qwen3.8-Flash-Next 模型效能被驗證",
+      "消費級硬體即可達成高效本地推論"
+    ],
+    "why_it_matters": "AMD R9700 性價比路線的本地推論效能被實證，為偏好本地部署且使用 AMD 顯示卡的用戶提供新選擇，可評估其性價比是否優於 NVIDIA 方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用優化 vLLM 部署 Qwen3.8-Flash-Next 作為本地文件處理流水線，評估單位Token成本與雲端 API 的差距。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-30-agentsmesh-ai",
     "title": "agentsmesh：AI 程式碼助理規則與技能同步框架",
     "title_original": "sampleXbro/agentsmesh",
