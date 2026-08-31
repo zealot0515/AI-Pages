@@ -1,5 +1,145 @@
 [
   {
+    "id": "2026-08-31-simon-willison-chatgpt-work-chrome",
+    "title": "Simon Willison實測ChatGPT Work：代碼執行聯網、Chrome瀏覽器、持久檔案系統",
+    "title_original": "Understanding ChatGPT Work",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+    "published_at": "2026-08-30T23:59:47+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison實測揭示ChatGPT Work（僅$20+訂閱）具備三大殺手級功能：代碼執行環境可聯網、Headless Chrome可操控頁面DOM、跨session持久檔案系統。Work Cloud與Work Local兩種模式，Sub-agent與排程自動化亦已支援。",
+    "highlights": [
+      "代碼執行容器可訪問全網，支援clone GitHub、安裝依賴、呼叫API",
+      "Headless Chrome可填表、截圖、執行頁面JS，支援2FA手動接管",
+      "每個session有持久scratch資料夾，跨session共享/workspace卷",
+      "可建置並部署ChatGPT Sites至Cloudflare Workers（含D1/R2後端）",
+      "Sub-agent支援Sol/Luna/Terra並行，可設定排程自動化任務"
+    ],
+    "why_it_matters": "這是目前最接近「可聯網的強大代理」的消費級產品。對於需要自動化網頁操作、持續監控資訊的技術用戶，Work可能是今天就能用上的工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "設定每日8am自動搜尋競爭動態並更新ChatGPT Site；或讓Work自動clone GitHub repo、安装依赖、运行測試並汇报结果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-08-31-reddit-qwen-gpu-llama-cpp-override-tensor",
+    "title": "Reddit討論：Qwen模型在樹莓派雙GPU環境下計算llama.cpp --override-tensor參數",
+    "title_original": "Calculate --override-tensor for llama.cpp using QWEN models and Pi for 2 GPU",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2wre0/calculate_overridetensor_for_llamacpp_using_qwen/",
+    "published_at": "2026-08-30T23:25:24+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA討論串分享在樹莓派配置雙GPU運行Qwen模型時，如何計算llama.cpp的--override-tensor參數以優化記憶體分配與推論效能。屬於社群驅動的本地部署優化經驗分享。",
+    "highlights": [
+      "針對Qwen模型在Pi/雙GPU硬體上的優化",
+      "核心是計算llama.cpp的--override-tensor參數",
+      "目標是記憶體分配優化與推論效能提升",
+      "社群經驗，細節需自行驗證硬體適用性",
+      "有助於資源受限環境的本地LLM部署"
+    ],
+    "why_it_matters": "對於想在邊緣裝置或低功耗硬體上跑本地LLM的用戶，此類參數調校經驗可大幅減少試錯時間與記憶體溢出問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你有Pi Cluster或類似硬體，可依此計算並測試自己的--override-tensor值，自動化你的邊緣AI推論流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-31-llm",
+    "title": "哪家 LLM 滲透測試最強？基準測試結果出爐",
+    "title_original": "Which LLM is actually best at pentesting? benchmark to find out",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2wdeq/which_llm_is_actually_best_at_pentesting/",
+    "published_at": "2026-08-30T23:08:23+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶針對主流開源與商業 LLM 進行滲透測試能力Benchmark，測試範圍涵蓋漏洞掃描、弱點識別與攻擊模擬等場景，結果顯示各模型間存在顯著差異，部分模型在特定攻擊向量上表現優異。",
+    "highlights": [
+      "測試涵蓋 GPT-4、Claude、Llama 3、本地部署模型等主流選項",
+      "滲透測試場景包含 Web 漏洞、API 弱點、社會工程學提示注入",
+      "部分開源模型（如特定微調版本）意外超越商業模型",
+      "模型在工具调用與任務分解能力上影響測試結果",
+      "安全邊界設定差異導致結果需謹慎解讀"
+    ],
+    "why_it_matters": "對於安全工程師與紅隊而言，選對模型直接影響滲透測試效率與自動化程度，錯誤選擇可能導致漏洞漏檢或浪費計算資源。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將表現最佳的模型整合至 CI/CD 安全掃描流程，自動對新部署代碼執行初步滲透測試，提升 DevSecOps 效率。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-31-reddit-llm",
+    "title": "Reddit分析：收集所有LLM編碼基準測試並計算「智慧密度」",
+    "title_original": "I collected every single LLM coding benchmark, and computed their Intelligence Density",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2v97w/i_collected_every_single_llm_coding_benchmark_and/",
+    "published_at": "2026-08-30T22:20:36+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit用戶整理所有LLM編碼基準測試，並提出「智慧密度」概念——以效能/參數量的比值來評估模型效率。這提供了一個跨模型、跨規模的相對比較視角，而非僅看絕對分數。",
+    "highlights": [
+      "收集盡可能多的編碼基準測試數據",
+      "提出「智慧密度」公式：效能/參數量",
+      "可用於比較不同規模模型的成本效益",
+      "鼓勵重新思考「更大等於更好」的假設",
+      "社群自發整理，數據來源需逐一驗證"
+    ],
+    "why_it_matters": "智慧密度提供了一個實用框架來選擇「性價比最高的模型」——在預算或算力受限時，這比只看MMLU分數更有決策價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "下次選型時，可用此框架評估：同等任務下，7B模型是否比70B更划算？進而自動化你的模型選擇決策流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-31-pi-qwen3-8",
+    "title": "從 Pi 會話歷史挖掘 Qwen3.8 發布時間線",
+    "title_original": "Can you spot when qwen3.8 was released from my pi sessions history?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2ttpr/can_you_spot_when_qwen38_was_released_from_my_pi/",
+    "published_at": "2026-08-30T21:21:27+00:00",
+    "category": "new-models",
+    "summary": "用戶嘗試透過 Raspberry Pi 裝置上的本地 LLM 會話記錄，推斷 Qwen3.8 模型發布的確切時間點，反映出開源模型版本追蹤的困難性與社群協作驗證的需求。",
+    "highlights": [
+      "Qwen3.8 為阿里雲通義千問系列新成員，具體參數規模待確認",
+      "Raspberry Pi 本地部署展現邊緣設備運行開源 LLM 的可行性",
+      "會話歷史法依賴模型回答中透露的版本資訊，準確度有限",
+      "此類討論反映開源模型發布透明度有待改善",
+      "社群正嘗試多元方式交叉驗證模型版本與發布日期"
+    ],
+    "why_it_matters": "開源模型版本管理混亂會影響開發者選型決策與研究可複現性，建立可靠的發布追蹤機制對生態系統健康至關重要。",
+    "automation_angle": null,
+    "automation_angle_zh": "可建立自動化腳本，定期抓取 Hugging Face 模型頁面與 GitHub release，建立版本時間戳資料庫，避免依賴猜測。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-30-uisight-mcp-ui-ai",
     "title": "uisight：MCP 協定 UI 測量引擎，AI 可量化視覺元素",
     "title_original": "sololabstr/uisight",
