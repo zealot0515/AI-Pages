@@ -1,5 +1,91 @@
 [
   {
+    "id": "2026-08-31-palaia-ai-agent-sqlite-postgresql",
+    "title": "Palaia：本地、崩潰安全的 AI Agent 記憶層，支援 SQLite/PostgreSQL 向量檢索",
+    "title_original": "byte5ai/palaia",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/byte5ai/palaia",
+    "published_at": "2026-08-31T12:05:07Z",
+    "category": "agent-skills",
+    "summary": "Palaia 是一個開源 MCP 伺服器，為 AI Agent 提供本地記憶儲存，支援 SQLite+sqlite-vec 或 PostgreSQL+pgvector 向量檢索，號稱崩潰安全並支援多 Agent 自動擷取。目前僅 19 星，屬新興專案。",
+    "highlights": [
+      "支援兩種主流向量資料庫後端，彈性高",
+      "崩潰安全設計減少 Agent 長期運行的資料遺失風險",
+      "MCP 協議可直接用於 Claude Desktop 與 Cursor",
+      "多 Agent 自動記憶擷取是亮點，需測試實際表現",
+      "新專案，文檔與社群支援有限，建議先看範例コード"
+    ],
+    "why_it_matters": "Agent 長期任務的記憶管理是痛點，Palaia 若能穩定實現向量檢索+崩潰安全，可簡化建構可靠 Agent 的底層工作。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Cursor 中接入 Palaia MCP，用它維護專案上下文記憶，觀察跨工作階段的任務連續性是否提升。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/269473537?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-31-tomtom-maps-mcp-tomtom-ai-agent-model-context-protocol",
+    "title": "TomTom Maps MCP：將 TomTom 地圖服務接入 AI Agent 的 Model Context Protocol 伺服器",
+    "title_original": "tomtom-international/tomtom-maps-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tomtom-international/tomtom-maps-mcp",
+    "published_at": "2026-08-31T11:45:17Z",
+    "category": "agent-skills",
+    "summary": "TomTom 官方團隊發布的 MCP 伺服器（53 星），將 TomTom 的地點搜尋、路徑規劃、交通資料以標準化方式提供給 AI Agent，TypeScript 實作，可直接用於需要地理資訊的 Agent 應用。",
+    "highlights": [
+      "TomTom 官方維護，信譽與更新有保障",
+      "涵蓋地點搜尋、路徑規劃、交通三大核心能力",
+      "TypeScript 實作，與現有 MCP 生態相容",
+      "53 星顯示有一定社群關注度",
+      "可用於物流、送貨、旅遊規劃類 Agent"
+    ],
+    "why_it_matters": "將地理服務標準化接入 Agent 生態，降低需要位置資訊的應用開發門檻，是 MCP 協議實用性的具體展現。",
+    "automation_angle": null,
+    "automation_angle_zh": "用這個 MCP 建構一個物流路線優化 Agent，測試 TomTom 路徑 API 與 Agent 推論的整合效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/11631435?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-08-31-m5-ultra-512gb",
+    "title": "M5 Ultra 512GB 本地模型下載討論",
+    "title_original": "Models to download for M5 Ultra 512GB",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3b0ox/models_to_download_for_m5_ultra_512gb/",
+    "published_at": "2026-08-31T11:29:11+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群成員詢問 M5 Ultra（512GB 記憶體）适合跑哪些可下載的開源模型。討論涉及模型大小、量化選擇與效能平衡。",
+    "highlights": [
+      "M5 Ultra 為 Apple Silicon 高記憶體配置，適合跑大參數模型",
+      "社群建議 Q4/Q5 量化版本以兼顧速度與VRAM",
+      "熱門選擇包括 Llama 3.1 70B、Mistral 系列",
+      "需注意記憶體頻寬瓶頸與推論速度取捨",
+      "此硬體規格可同時加載多個小模型做 Agent 流程"
+    ],
+    "why_it_matters": "對於想本地部署開源模型避開 API 成本的技術宅，高記憶體 Mac 是省電安靜的選項。本帖實用性高可直接參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可根據本討論的模型推薦，用 Ollama 或 LM Studio 快速架設本地推論環境，用於文書自動化、程式碼生成等日常工作。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-31-simon-willison-chatgpt-work-chrome",
     "title": "Simon Willison實測ChatGPT Work：代碼執行聯網、Chrome瀏覽器、持久檔案系統",
     "title_original": "Understanding ChatGPT Work",
