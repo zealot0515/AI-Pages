@@ -1,5 +1,312 @@
 [
   {
+    "id": "2026-09-01-neuronto-agentic-resource-discovery-mcp",
+    "title": "neuronto/agentic-resource-discovery: MCP 工具聯合發現引擎",
+    "title_original": "neuronto/agentic-resource-discovery",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/neuronto/agentic-resource-discovery",
+    "published_at": "2026-09-01T20:00:00Z",
+    "category": "agent-skills",
+    "summary": "Neuronto 發布 ARD Index，可跨多個公共 ARD 註冊表進行聯合搜索，並從各 MCP 伺服器的 tools/list 自動讀取驗證工具索引，結合語義與語彙混合檢索，附帶 ARD-Bench 基準測試。",
+    "highlights": [
+      "支援跨註冊表的聯合聯邦搜索",
+      "從 MCP 伺服器自動發現並驗證工具清單",
+      "混合語義與語彙檢索提升準確度",
+      "提供標準化基準 ARD-Bench 評估框架",
+      "開源可本地部署測試"
+    ],
+    "why_it_matters": "隨著 MCP 生態爆炸增長，工具發現與選擇成為痛點。此專案提供統一介面，幫助開發者快速定位合適的 MCP 工具，節省探索成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將 ARD Index 整合進代理系統，實現工具選擇自動化；或使用 ARD-Bench 評估自訂工具在不同檢索策略下的召回率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "HTML"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/20460266?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-01-kaitchup-qwen3-8-27b-benchmark",
+    "title": "Kaitchup：Qwen3.8 27B 量化版本Benchmark追蹤",
+    "title_original": "Kaitchup posted Qwen3.8 27B Benchmarks for quants from Q4 to Q1",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4mevo/kaitchup_posted_qwen38_27b_benchmarks_for_quants/",
+    "published_at": "2026-09-01T19:28:43+00:00",
+    "category": "open-source-ai",
+    "summary": "知名 AI 量化部落格 Kaitchup 發布 Qwen3.8 27B 各量化版本從 Q4 到 Q1 的效能變化追蹤，為少數有系統性數據的來源。",
+    "highlights": [
+      "Kaitchup 為量化領域可信部落格",
+      "追蹤 Qwen3.8 27B 多版本表現",
+      "涵蓋時間維度（Q4至Q1）",
+      "可作為量化版本選擇依據"
+    ],
+    "why_it_matters": "Qwen 3.8 27B 是熱門本地部署模型，量化效能變化直接影響記憶體需求與速度取捨。",
+    "automation_angle": null,
+    "automation_angle_zh": "可根據 Kaitchup 數據選擇符合硬體條件的量化版本，降低部署試錯成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-github-copilot-pull-request",
+    "title": "GitHub Copilot 程式碼審查現可自動核准 Pull Request",
+    "title_original": "Copilot code review can now approve pull requests",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
+    "published_at": "2026-09-01T19:25:57+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布 Copilot 程式碼審查功能升級，可在判定 PR 符合規範時自動標記為可核准，並支援管理員授權 Copilot 直接代為簽署核准。該功能目前為選用設定。",
+    "highlights": [
+      "Copilot 可主動判斷 PR 是否達核准標準",
+      "管理員可啟用自動核准簽署權限",
+      "需明確啟用該功能預設為關閉",
+      "支援企業版 GitHub Enterprise",
+      "可與現有審查流程無縫整合"
+    ],
+    "why_it_matters": "此功能將 AI 從建議者升級為決策者，可加速小型 PR 合併流程，但同時帶來審計與合規風險，需技術團隊評估適用範圍。",
+    "automation_angle": null,
+    "automation_angle_zh": "團隊可先在非保護分支上試點，設定規則如「僅無衝突且通過 CI 的測試 PR 可自動核准」，觀察兩週後評估引入是否合適。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-01-codex-libreoffice",
+    "title": "Codex 桌面版內建 LibreOffice 全套工具鏈",
+    "title_original": "Codex bundles LibreOffice",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+    "published_at": "2026-09-01T19:03:01+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發現 OpenAI Codex 桌面應用（含現 rebranding 為 ChatGPT）於本機快取資料夾中封裝了完整 Python、Node.js、Poppler、git 及 LibreOffice 套件，透過 skills 指令集呼叫文書處理能力。",
+    "highlights": [
+      "Codex 本機快取包含約 1.7GB 運行環境",
+      "整合 LibreOffice 完整文書處理能力",
+      "支援 docx/odt 等多種文件格式轉換",
+      "skills 層定義工具呼叫邏輯",
+      "本機執行無需網路依賴"
+    ],
+    "why_it_matters": "這揭示了 Codex 在文件自動化處理上的潛力，技術用戶可利用本機文書工具鏈實現離線文件解析、批量轉檔等場景，無需仰賴第三方 API。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可探索 Codex 本機工具鏈，用於批量 Word 轉 PDF、文件格式統一或簡單文件比對等日常文書自動化任務。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-reddit-r-localllama",
+    "title": "Reddit r/LocalLLaMA 整理近期本地模型發布動態",
+    "title_original": "Keeping up with model launches",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4kwyr/keeping_up_with_model_launches/",
+    "published_at": "2026-09-01T18:42:36+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 社群持續追蹤近期本地部署模型的發布動態，涵蓋新架構、量化版本及效能評測，是觀察開源模型生態演進的便捷資訊聚合點。",
+    "highlights": [
+      "追蹤各類新開源模型的發布資訊",
+      "包含模型量化與效能比較數據",
+      "社群人資整理方便快速瀏覽",
+      "涵蓋 llama.cpp 等部署工具更新",
+      "討論區可獲取真實使用經驗"
+    ],
+    "why_it_matters": "對於希望在本地部署最佳性價比模型的技術用戶，社群整理節省了逐一追蹤各模型發布頁面的時間，可作為每週例行瀏覽的資訊入口。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將此討論串設為 RSS 監控來源，快速捕捉值得測試的新模型發布，評估其是否符合團隊硬體條件與任務需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-gemini",
+    "title": "Gemini 推出代理式影片理解能力",
+    "title_original": "Introducing agentic video understanding with Gemini",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+    "published_at": "2026-09-01T17:08:51+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 發布 Gemini 代理式影片理解功能，能讓模型主動分析、解讀長影片內容並執行複雜任務。此功能標誌著多模態模型從被動識別走向主動推論的重要一步。",
+    "highlights": [
+      "支援長影片的持續理解與記憶追蹤",
+      "可根據影片內容執行多步驟推論任務",
+      "整合至 Gemini API 供開發者呼叫",
+      "影片分析延遲較傳統方法顯著降低",
+      "支援中文等多語言輸入"
+    ],
+    "why_it_matters": "影片理解是 AI 落地企業場景的關鍵能力，代理式設計讓模型能主動決策而非僅輸出描述，可大幅降低影片內容審核、知識庫建構的自動化成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可透過 Vertex AI 測試 Gemini 影片理解 API，將長影片自動轉為結構化摘要或知識節點，用於客服機器人或培訓資料生成。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-01-reddit-vllm-prefill",
+    "title": "Reddit討論：為何vLLM的Prefill階段比其他推論引擎快這麼多？",
+    "title_original": "Question: Why is prefill unbelievably faster in vLLM than other inference engines?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4i2id/question_why_is_prefill_unbelievably_faster_in/",
+    "published_at": "2026-09-01T17:05:27+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA上有開發者熱烈討論vLLM在Prefill階段的效能優勢。討論指出vLLM採用了優化的KV Cache管理與CUDA kernels，使其在文字處理前期階段大幅領先TGI、Ollama等競品。",
+    "highlights": [
+      "vLLM採用PagedAttention技術優化記憶體管理",
+      "Prefill階段的CUDA kernels經過特化優化",
+      "KV Cache分配策略比傳統方式更有效率",
+      "與TGI、Ollama等推論引擎相比有明顯效能差距",
+      "社區建議可通過調整batch size進一步優化"
+    ],
+    "why_it_matters": "對於部署LLM的技術人員而言，Prefill效能直接影響首批token延遲。了解vLLM的底層優化可幫助選擇更適合低延遲場景的推論方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在相同硬體下比較vLLM與其他引擎的Prefill時間，針對聊天機器人或文件摘要等延遲敏感應用做出數據驅動的引擎選擇。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-simon-willison-tarn-adams-ai",
+    "title": "Simon Willison引用：Tarn Adams談遊戲中AI術語的限制",
+    "title_original": "Quoting Tarn Adams",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
+    "published_at": "2026-09-01T17:01:11+00:00",
+    "category": "hot-topics",
+    "summary": "Simon Willison引用了Dwarf Fortress共同創辦人Tarn Adams的言論，提及在遊戲開發領域中使用「Dwarf Behavior」而非「Dwarf AI」的語言現象，反映出AI術語在特定領域應用的命名爭議。",
+    "highlights": [
+      "Tarn Adams指出需用「行為」而非「AI」來描述遊戲角色邏輯",
+      "Simon Willison收錄此觀察至AI Notes專欄",
+      "反映AI術語在遊戲設計領域的敏感性",
+      "可能與行銷或技術準確性考量有關"
+    ],
+    "why_it_matters": "此為產業語言趨勢觀察，對一般技術工作者直接幫助有限，但可留意AI術語在不同領域的應用邊界正在改變。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員在文件或產品命名時可注意目標受眾的術語偏好，避免使用可能引起混淆或爭議的AI相關命名。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-ai",
+    "title": "AI 原生公司如何將工作流程轉化為營運能力",
+    "title_original": "How AI-native companies turn workflows into operating capability",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/ai-native-company-workflows",
+    "published_at": "2026-09-01T17:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "OpenAI 部落格介紹 Basis、Clay、Exa Labs 等公司透過 AI Agent 改善入職流程、帳號管理與開發者整合。屬於企業級應用案例參考，而非具體工具發布。",
+    "highlights": [
+      "Basis 用 Agent 自動化客戶入職流程",
+      "Clay 透過 AI 改善帳號管理效率",
+      "Exa Labs 專注開發者整合場景",
+      "案例展示工作流程自動化的實際價值",
+      "主要為概念啟發，缺少可直接取用的開源工具"
+    ],
+    "why_it_matters": "企業案例有助於理解 AI Agent 在真實營運中的落地模式，但技術宅更需要可直接測試的工具或開源專案。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考這些案例的流程設計思路，評估是否能將類似模式應用於自身團隊的客服或資料處理流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-keenable-select-sql",
+    "title": "Keenable SELECT: 用 SQL 語法搜尋網頁的代理系統",
+    "title_original": "Keenable SELECT: an agent that searches the web in SQL",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4g8gk/keenable_select_an_agent_that_searches_the_web_in/",
+    "published_at": "2026-09-01T16:02:41+00:00",
+    "category": "new-models",
+    "summary": "Keenable SELECT 是一款實驗性代理系統，允許用戶以 SQL 語法查詢網頁內容，系統自動解析語句、執行網頁抓取並返回結構化結果，將網路搜尋轉為資料庫查詢體驗。",
+    "highlights": [
+      "支援類 SQL 語法查詢網頁內容",
+      "自動處理網頁抓取與結構化解析",
+      "可進行多條件過濾與聚合查詢",
+      "實驗性質但已開源可供測試",
+      "適合需要批量提取結構化資料的場景"
+    ],
+    "why_it_matters": "將自然語言搜尋轉為精確 SQL 查詢，可降低複雜網頁資料提取的技術門檻，對需要批量網路資料的開發者與分析師具有實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可克隆專案本地測試，用 SQL 語法批量提取電商價格、新聞標題或論壇資料，評估其在特定任務上的召回率與準確度。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-google-pics-google-workspace",
+    "title": "Google Pics：Google Workspace 圖片創作與編輯工具",
+    "title_original": "Try Google Pics: Easy image creation and editing in Google Workspace",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+    "published_at": "2026-09-01T16:00:00+00:00",
+    "category": "new-models",
+    "summary": "Google 發布 Workspace 整合的圖片創作編輯工具，支援直接在文件、簡報中生成與修改圖片。介面整合度高，但目前仍受限於 Google 生態系。",
+    "highlights": [
+      "直接內嵌於 Google Docs、Slides 等文書工具中",
+      "支援圖片生成與基礎編輯功能",
+      "目前僅限 Google Workspace 企業版使用",
+      "與競品 Microsoft Copilot 圖片功能定位類似",
+      "具體模型架構未揭露"
+    ],
+    "why_it_matters": "對已重度使用 Google Workspace 的團隊，可省去切換工具的時間，但需評估是否值得企業版訂閱成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可評估是否用於自動化文件生成流程；目前尚無 API 開放個人使用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-01-distill-kura-agent",
     "title": "蒸留蔵（Distill-Kura）：為 Agent 打造的蒸餾長期記憶模組，意義檢索 + 證據閘控",
     "title_original": "lna-lab/distill-kura",
@@ -114,6 +421,89 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-01-astra",
+    "title": "Astra 之路：關鍵能力與前沿安全保障",
+    "title_original": "Path to Astra: critical capabilities and frontier safeguards",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/path-to-astra",
+    "published_at": "2026-09-01T13:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 揭露 Astra 是首個達到「關鍵網路安全能力」門檻的模型，採用更嚴格的安全防護措施才予以發布。這代表前沿模型安全評估框架的實際應用。",
+    "highlights": [
+      "Astra 達到 Prepared Framework 的關鍵網安門檻",
+      "為此模型配置了更強的安全防護措施",
+      "象徵 AI 安全評估的制度化進展",
+      "對開發者而言資訊屬於框架層面",
+      "未揭露具體技術細節"
+    ],
+    "why_it_matters": "此新聞反映 AI 安全合規趨勢，技術決策者需關注這類安全框架對未來模型選用與部署的潛在影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤 OpenAI Prepared Framework 的後續發展，評估安全評估是否將成為企業選用模型時的必要考量。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-01-opus-4-8",
+    "title": "主流本地模型效能對比表（含 Opus 4.8）",
+    "title_original": "All currently popular local models in one table + Opus 4.8 results",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4a043/all_currently_popular_local_models_in_one_table/",
+    "published_at": "2026-09-01T12:04:38+00:00",
+    "category": "open-source-ai",
+    "summary": "整理目前熱門本地運行模型的一覽表，並包含 Opus 4.8 的測試結果，但 Reddit 貼文未附上圖表內容。",
+    "highlights": [
+      "涵蓋多種主流開源模型",
+      "包含 Opus 4.8 評測數據",
+      "表格式整理便於快速比較",
+      "需點擊原文查看實際內容"
+    ],
+    "why_it_matters": "對評估本地模型選型有參考價值，但缺原始資料難以直接使用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將此表作為初篩工具，縮小候選模型範圍後再做深入測試。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-chatgpt-ehr",
+    "title": "ChatGPT 支援連結 EHR 與醫療產業資料",
+    "title_original": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+    "published_at": "2026-09-01T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布 ChatGPT 現在可安全地連結可信賴的醫療資料來源，幫助臨床人員存取病患上下文與醫學研究。此功能目前主要面向醫療機構，尚未開放一般開發者 API。",
+    "highlights": [
+      "支援與電子健康記錄（EHR）系統整合",
+      "臨床人員可安全存取病患上下文",
+      "可用於快速查閱醫學研究文獻",
+      "目前主要針對醫療機構使用",
+      "尚無公開的開發者 API 文件"
+    ],
+    "why_it_matters": "醫療資料整合象徵 AI 在專業領域的深度滲透，但一般技術用戶短期內較難直接使用此功能。",
+    "automation_angle": null,
+    "automation_angle_zh": "若任職於醫療相關產業，可關注企業級 ChatGPT 方案的接入條件；一般技術用戶可觀察其安全存取機制的設計參考。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-01-tooljet-ai-agent",
     "title": "ToolJet：開源企業應用快速建構平台，支援 AI Agent 整合",
     "title_original": "ToolJet/ToolJet",
@@ -168,6 +558,33 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/6319882?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-gemma-arena-ai",
+    "title": "Gemma 模型於 Arena AI 排行榜更新",
+    "title_original": "New Gemma models on arena ai",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w47nif/new_gemma_models_on_arena_ai/",
+    "published_at": "2026-09-01T10:11:06+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群分享 Gemma 系列模型在 Arena AI 測試平台的最新評測結果，具體分數與型號未揭露。",
+    "highlights": [
+      "Gemma 為 Google 開源輕量模型系列",
+      "Arena AI 提供模型對比評測平台",
+      "Reddit 為社群驅動的參考數據來源",
+      "具體數據需自行查閱原文"
+    ],
+    "why_it_matters": "Gemma 系列是少數可直接商用且可本地部署的開源模型，其效能變化值得追蹤。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議直接訪問 Arena AI 網站查閱原始評測數據，評估 Gemma 是否符合本地部署需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
