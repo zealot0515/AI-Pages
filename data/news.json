@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-09-01-wrapture-python",
+    "title": "wrapture：Python 單元測試與追蹤包裝庫",
+    "title_original": "Introducing wrapture",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+    "published_at": "2026-08-31T23:59:36+00:00",
+    "category": "agent-skills",
+    "summary": "Graham Dumpleton（mod_wsgi、New Relic Python Agent 作者）發布 wrapture，宣稱將 monkeypatching 概念延伸至測試與追蹤一體化。支援對任意函式或方法包裝以進行行為追蹤或回傳值覆寫，可作為 unittest.mock 替代方案，並內建 OpenTelemetry 支援與純設定檔驅動的追蹤機制。",
+    "highlights": [
+      "Graham Dumpleton 新作，技術背景深厚",
+      "可同時處理單元測試 stub 與程式追蹤",
+      "支援 OpenTelemetry 整合",
+      "提供設定檔驅動的無侵入式追蹤",
+      "作者透露全程由 AI 輔助完成開發"
+    ],
+    "why_it_matters": "對需要對既有系統進行單元測試隔離或行為觀測的 Python 開發者，wrapture 提供了一個無需修改原始碼的替代方案，且支援可觀測性標準。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在既有 Python 專案中加入 wrapture 追蹤，針對第三方函式庫或無法修改的模組進行行為錄製，協助偵錯或建立回歸測試案例。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-31-openai",
     "title": "OpenAI 內部報告：安全審查系統在事故時未啟用",
     "title_original": "From OpenAI's own Aug 26 report: their auto-review system \"would have flagged a multitude of the models' dangerous actions.\" It was not running in the incident environment.",
@@ -494,6 +522,34 @@
     "automation_angle_zh": "部署 Agent 流程時應加入獨立日誌比對腳本，確保操作真實性而非僅依賴系統回傳。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-polimill-openai-ai",
+    "title": "Polimill 攜手 OpenAI 建構日本下一代公共 AI 基礎設施",
+    "title_original": "Polimill builds Japan's next-generation public AI infrastructure",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/polimill",
+    "published_at": "2026-08-31T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Polimill 運用 OpenAI GPT 模型與 Codex 協助日本地方政府快速搜尋行政知識並加速開發流程。此為 OpenAI 官方部落格報導的合作案例，主要展示 AI 在公共治理領域的應用場景。",
+    "highlights": [
+      "目標為提升日本市政行政效率",
+      "使用 GPT 模型處理行政文件搜尋",
+      "結合 Codex 加速內部系統開發",
+      "屬 OpenAI 企業/政府合作案例",
+      "非直接面向開發者的工具發布"
+    ],
+    "why_it_matters": "反映大型 AI 廠商正積極滲透公共部門，對關注 AI 採購趨勢或希望參與政府 AI 專案的技術人員具參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注此類政府 AI 基礎設施的 API 標準是否開放，若有相關 SDK 或文件公開，或許能借鑒其檢索增強架構應用於企業內部知識管理。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -2069,6 +2125,34 @@
     "automation_angle_zh": "可在配備 MI300X 或 MI350 的本機/伺服器上用 ROCm 10.0 編譯部署 Llama 3、Qwen 等模型，配合 vLLM 或 ollama 建立自動化本地推論管線，降低雲端 API 成本。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-claude-2026",
+    "title": "Claude 完整指南：模型、定價與使用方法（2026）",
+    "title_original": "Claude by Anthropic, the Complete Guide - Models, Pricing and How to Use It (2026) - Pasquale Pillitteri",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOelhxVl9mRERRS19nWVJWa240eXNlSzZ0bnJzcFJkWFJNY0NQUDh4MG12TDBPelh3RWtBSWJCTDR6RHZ3UHRqNlZudGF5Y2hvdUlXZWpJcnptb3ZMc1ZaMXZhbmhrTlZncmh2TlhSTlpNTTFKdHlsNERCLTN3SWlTVWlKRE1aaEdac3FfVDZYR3RTOGxT?oc=5",
+    "published_at": "2026-08-28T18:16:15+00:00",
+    "category": "new-models",
+    "summary": "一篇由第三方作者整理的 Claude 模型、定價與使用指南，涵蓋 Anthropic 各版本模型的差異與最新定價資訊。屬於彙整型內容，非官方文件或新功能發布，資訊層級較低。",
+    "highlights": [
+      "第三方整理的 Claude 模型比較",
+      "涵蓋 2026 年定價資訊",
+      "非 Anthropic 官方來源",
+      "屬於資訊彙整而非原創報導",
+      "信號強度較弱，實用性有限"
+    ],
+    "why_it_matters": "對剛接觸 Claude 生態系的技術人員有一站式參考價值，但已有官方文件的用戶無需特別關注此類二手整理。",
+    "automation_angle": null,
+    "automation_angle_zh": "若需快速比較 Claude 與其他模型的成本效益，建議直接查閱 Anthropic 官方定價頁而非依賴第三方整理，以確保資訊最新。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
