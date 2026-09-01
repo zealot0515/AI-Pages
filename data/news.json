@@ -1,5 +1,89 @@
 [
   {
+    "id": "2026-09-01-tooljet-ai-agent",
+    "title": "ToolJet：開源企業應用快速建構平台，支援 AI Agent 整合",
+    "title_original": "ToolJet/ToolJet",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ToolJet/ToolJet",
+    "published_at": "2026-09-01T10:35:58Z",
+    "category": "agent-skills",
+    "summary": "ToolJet 為 40k+ stars 的開源低代碼平台，可用視覺化、Prompt 或對接 Claude Code、Codex、Cursor 快速生成內部工具、儀表板與工作流程，支援 MCP 擴展。",
+    "highlights": [
+      "• 40k+ GitHub stars，社群成熟且持續維護",
+      "• 支援視覺化建構與 Prompt 生成兩種模式",
+      "• 可直接對接 Claude Code、Codex、Cursor 進行 AI 驅動建構",
+      "• 內建 MCP 整合，擴展 AI Agent 能力邊界",
+      "• 適合快速建構內部工具與資料儀表板"
+    ],
+    "why_it_matters": "技術團隊可用 ToolJet 大幅縮短內部工具開發週期，結合 AI Agent 能力後可實現從需求到原型的端到端自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署 ToolJet 後，將重複性資料查詢與報表任務封裝為視覺化 App，由 AI Agent 驅動定期更新，省去手動操作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/82193554?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-01-global-agent-memory-mcp",
+    "title": "global-agent-memory：專案感知的本地記憶 MCP 伺服器",
+    "title_original": "ozankasikci/global-agent-memory",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ozankasikci/global-agent-memory",
+    "published_at": "2026-09-01T10:21:03Z",
+    "category": "agent-skills",
+    "summary": "global-agent-memory 為 Python 開發的本地優先 MCP 伺服器，為 Claude Code、Codex 等 Agent 提供專案感知記憶能力，支援 Obsidian 同步與管理儀表板，目前 stars 極低，仍屬早期專案。",
+    "highlights": [
+      "• 本地優先設計，記憶資料完全自主掌控",
+      "• 支援 Obsidian 雙向同步，跨工具查閱",
+      "• 為 AI Agent 提供跨對話專案上下文記憶",
+      "• Python 實作，便於技術使用者自訂擴展"
+    ],
+    "why_it_matters": "Agent 長期任務中常見上下文斷裂，記憶 MCP 伺服器有望成為自動化工作流程穩定性的關鍵元件。",
+    "automation_angle": null,
+    "automation_angle_zh": "克隆專案後，讓 Agent 讀取本地記憶檔案快速恢復任務上下文，避免每次從頭說明專案背景，節省來回溝通成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6319882?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-3",
+    "title": "字節跳動豆包推出開學季大學生優惠，贈送3個月免費訂閱",
+    "title_original": "MTP released for Qwen3.8-Flash-Next-GGUF",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w42biu/mtp_released_for_qwen38flashnextgguf/",
+    "published_at": "2026-09-01T05:10:48+00:00",
+    "category": "ai-deals",
+    "summary": "字節跳動旗下AI助理「豆包」針對大學生推出開學季專屬優惠，符合資格的學生用戶可獲得3個月免費訂閱權益，無需額外操作即可自動啟用。優惠細節與適用品類以官網公告為準。",
+    "highlights": [
+      "僅限大學生身份認證用戶，需通過學郵或學生證驗證",
+      "免費訂閱期為連續3個月，逾期不累計",
+      "優惠可能適用於豆包付費功能或API調用額度",
+      "活動截止時間與具體規則需查閱雷峰網轉載原文"
+    ],
+    "why_it_matters": "對在校學生而言，這是降低AI工具使用成本的直接機會。若優惠涵蓋API額度，可用於個人專案或學術研究，省下可觀的模型調用費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "學生開發者可利用此優惠，在3個月免費期內測試豆包API與現有工作流程整合，評估其作為節省OpenAI/Anthropic費用的備援方案之可行性。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-01-wrapture-python",
     "title": "wrapture：Python 單元測試與追蹤包裝庫",
     "title_original": "Introducing wrapture",
@@ -21,6 +105,60 @@
     "automation_angle_zh": "可在既有 Python 專案中加入 wrapture 追蹤，針對第三方函式庫或無法修改的模組進行行為錄製，協助偵錯或建立回歸測試案例。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-openai-api",
+    "title": "OpenAI API 速率限制收緊，多名用戶反映遭遇限流",
+    "title_original": "API rate limits constricted?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1w3u5q1/api_rate_limits_constricted/",
+    "published_at": "2026-08-31T23:01:52+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/OpenAI 社群多名開發者回報近期遭遇API速率限制（rate limit）收緊情形，請求被拒絕頻率增加，企業級帳戶似乎同受影響。部分用戶猜測與成本控制或模型更新有關，但尚未獲官方證實。",
+    "highlights": [
+      "用戶反映請求超時與429錯誤頻發，非單一模型問題",
+      "企業帳戶同樣回報遭遇限制，暗示並非僅針對低用量用戶",
+      "OpenAI尚未發布官方公告說明原因或變更政策",
+      "社群推測可能與防止濫用或優化資源分配有關"
+    ],
+    "why_it_matters": "速率限制直接影響自動化腳本、代理系統與批量處理流程的穩定性。若限制範圍擴大，依賴OpenAI API的工作流程程需重新評估並準備降級方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶應立即檢查自身API使用量儀表板，模擬高峰時段請求失敗情境，並評估是否需要引入本地模型（如Qwen、LLaMA GGUF）作為關鍵路徑的備援，避免自動化流程中斷。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-qwen3-8-flash-next-gguf-mtp",
+    "title": "Qwen3.8-Flash-Next-GGUF 釋出MTP推論框架支援",
+    "title_original": "Quoting Andrew Digby",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
+    "published_at": "2026-08-31T22:25:02+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者社群為Qwen3.8-Flash-Next模型發布支援GGUF格式的MTP（Multi-Token Prediction）推論框架整合。此更新使量化後的Qwen模型能在 Ollama、llama.cpp 等本地推論引擎中啟用多token預測加速。",
+    "highlights": [
+      "MTP為自迴歸推論優化技術，可一次預測多個token降低延遲",
+      "GGUF格式確保模型可在消費級GPU/CPU上高效運行",
+      "需確認所用推論前端版本是否已支援該模型架構",
+      "原始碼與預編譯權重可於Hugging Face Model Hub取得"
+    ],
+    "why_it_matters": "Qwen3.8-Flash定位為高效能輕量模型，MTP加持後可進一步壓縮推論時間。對需要在本地部署、快速回應的應用場景（如客服、摘要、程式碼生成）極具價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "本地部署替代雲端API可節省長期調用成本。技術用戶可下載GGUF權重，在Ollama中架設本地服務，用於構建不回傳數據的離線自動化流程或敏感文件處理工作流程。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
@@ -555,6 +693,32 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-openai-ai-sb-1119",
+    "title": "OpenAI 表態支援加州青少年 AI 安全法案 SB 1119",
+    "title_original": "OpenAI supports California’s bill to advance youth AI safety",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+    "published_at": "2026-08-31T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 公開支援加州 SB 1119 法案，主張在青少年 AI 安全與學習創意機會間取得平衡，為模型供應商層級的合規預告信號。",
+    "highlights": [
+      "• OpenAI 明確表態支援 SB 1119 立法方向",
+      "• 強調年齡適切性與創意探索機會並重",
+      "• 代表主要 AI 供應商對青少年監管的官方姿態"
+    ],
+    "why_it_matters": "主要模型商公開支援監管暗示未來 API 與產品可能內建年齡驗證機制，技術使用者在建構教育相關應用時需留意合規走向。",
+    "automation_angle": null,
+    "automation_angle_zh": "若在開發教育或面向未成年人的 AI 應用，可提前研究 SB 1119 具體要求，避免日後合規調整成本。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-08-31-chatgpt-ads-10-ai",
