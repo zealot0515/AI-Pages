@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-09-01-distill-kura-agent",
+    "title": "蒸留蔵（Distill-Kura）：為 Agent 打造的蒸餾長期記憶模組，意義檢索 + 證據閘控",
+    "title_original": "lna-lab/distill-kura",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/lna-lab/distill-kura",
+    "published_at": "2026-09-01T15:42:29Z",
+    "category": "agent-skills",
+    "summary": "蒸留蔵（Distill-Kura）是一個為 AI Agent 設計的長期記憶系統，支援語義檢索、證據閘控寫入，並以「每個 Agent 模式一個 kura」為設計原則。可作為 DeepSeek Harness 插件或獨立 MCP Server 部署，提供輕量化 Agent 記憶方案。",
+    "highlights": [
+      "支援語義召回：依意義而非關鍵字檢索記憶",
+      "寫入時具備證據閘控機制，避免記憶汙染",
+      "每個 Agent 模式綁定一個 kura，隔離不同工作上下文",
+      "提供 DeepSeek Harness 插件與 MCP Server 兩種部署方式",
+      "目前僅 11 顆星，為早期開源專案"
+    ],
+    "why_it_matters": "Agent 記憶管理是讓 AI 在長期任務中保持一致性的核心瓶頸，蒸留蔵的蒸餾與閘控設計提供一個可測試的開源起點，技術用戶可評估其在複雜對話流程中的實際效果。",
+    "automation_angle": null,
+    "automation_angle_zh": "將蒸留蔵 MCP Server 接入現有 Agent 流程，測試其在多輪對話中是否能有效記住之前的工具呼叫結果與用戶偏好，進而減少重複錯誤與 token 消耗。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/226374315?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-browser-rs-mcp-rust-mcp-server-ai-agent-chrome",
+    "title": "browser-rs-mcp：Rust 打造的輕量隱私瀏覽器 MCP Server，多 AI Agent 共享 Chrome 實例",
+    "title_original": "maestrojeong/browser-rs-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/maestrojeong/browser-rs-mcp",
+    "published_at": "2026-09-01T15:16:55Z",
+    "category": "agent-skills",
+    "summary": "browser-rs-mcp 是一個以 Rust 開發的隱私導向瀏覽器 MCP Server，透過一個共享 Chrome 執行個體服務多個 AI Agent，內建 64 種以上 Playwright 風格工具，且無需 Node.js 執行環境。適合需要高效、資源節省的瀏覽器自動化場景。",
+    "highlights": [
+      "以 Rust 實作，強調效能與記憶體效率",
+      "一個共享 Chrome 實例服務多 Agent，降低資源佔用",
+      "提供 64+ Playwright 風格操控工具",
+      "不依賴 Node.js，可直接在 Rust 環境執行",
+      "適合需要同時控制多個瀏覽器操作的部署場景"
+    ],
+    "why_it_matters": "在 Agent 需要真實瀏覽器環境執行任務時，browser-rs-mcp 提供比傳統 Playwright Node.js 方案更節省資源的替代選項，且 Rust 的安全性有利於大規模部署。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 CI/CD 流程或資料抓取腳本中，用 browser-rs-mcp 替代 Selenium/Playwright，測試其在高併發情境下的穩定性與記憶體表現，評估是否可降低基礎設施成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/20654873?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-python-3-15-0-rc2",
+    "title": "Python 3.15.0 候選發布版 RC2 正式釋出",
+    "title_original": "Python 3.15.0 candidate 2 is here!",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+    "published_at": "2026-09-01T14:59:18+00:00",
+    "category": "agent-skills",
+    "summary": "Python 3.15.0 第二個候選發布版（RC2）已由版本管理員 Hugo van Kemenade 宣布，定於十月正式釋出。進入 RC 階段後僅允許明確的臭蟲修復。Simon Willison 建議第三方專案維護者現在就應該針對 3.15 進行測試並發布相容 wheel，以確保正式釋出時能無縫過渡。GitHub Actions 目前尚未支援此 RC，但可透過 allow-prereleases 和 check-latest 參數提前加入測試矩陣。",
+    "highlights": [
+      "Python 3.15.0 RC2 已釋出，十月將迎來正式稳定版",
+      "RC 階段僅接受明確臭蟲修復，大幅功能變更已冻结",
+      "第三方專案應現在發布 Python 3.15 wheel 協助生態測試",
+      "GitHub Actions 尚未完全支援，可透過 setup-python@v7 搶先整合",
+      "Willison 建議所有開發者在 RC 期間執行測試以避免正式版發行後才發現問題"
+    ],
+    "why_it_matters": "Python 新版本通常帶來語法改進和效能優化，提早測試 RC 可在正式釋出前發現相容性問題，避免穩定版本發行後被迫緊急修補。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 GitHub Actions 測試矩陣中加入 3.15，自動切換至最新 RC 或稳定版。針對關鍵專案依賴執行回歸測試，確保第三方函式庫相容性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-01-amazon-kiro-crew",
+    "title": "Amazon Kiro Crew编程前端工具宣布開源",
+    "title_original": "Kiro Crew (Amazon's coding frontend) is open source",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4d3th/kiro_crew_amazons_coding_frontend_is_open_source/",
+    "published_at": "2026-09-01T14:10:17+00:00",
+    "category": "open-source-ai",
+    "summary": "Amazon内部代号Kiro Crew的AI编程前端專案正式在GitHub開源，該專案提供可视化代码编辑界面、实時协作及AI辅助补全功能，支援與Amazon CodeWhisperer等自家服务集成，也可對接Claude、GPT等第三方模型。",
+    "highlights": [
+      "采用TypeScript+React技术栈，界面組件可高度定制",
+      "内置多模型路由机制，支援动态切换後端AI服务",
+      "提供VS Code和JetBrains插件，也可独立作為Web應用运行",
+      "Apache 2.0许可证，商業使用無限制",
+      "目前Star数仍在增长，功能文件尚待完善"
+    ],
+    "why_it_matters": "開源意味着開發者可以绕過Amazon官方訂閱，直接自建私有化编程辅助界面，尤其适合對資料隐私有要求的企業團隊或想自建Code Agent的研究者。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將Kiro Crew部署在本地或私有服务器，通過API Key配置接入開源模型如CodeQwen、DeepSeek-Coder，实现完全离線可控的AI编程环境，用于企業内网代码审查自動化。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-01-tooljet-ai-agent",
     "title": "ToolJet：開源企業應用快速建構平台，支援 AI Agent 整合",
     "title_original": "ToolJet/ToolJet",
@@ -164,6 +278,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-01-github-copilot-seat",
+    "title": "GitHub Copilot 跨組織模型存取政策更新：多組織 seat 持有者新規範上線",
+    "title_original": "Copilot model access update for GitHub Team plans",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
+    "published_at": "2026-08-31T21:58:46+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方 Changelog 宣布更新跨組織 Copilot 模型存取邏輯。持有超過一個組織 seat 的使用者，其模型存取權限將與帳單和治理機制同步調整，具體影響取決於使用者的組織歸屬與訂閱方案。",
+    "highlights": [
+      "政策針對跨組織持有 Copilot seat 的使用者",
+      "模型存取與帳單、治理同步綁定",
+      "具體影響視各組織的 Copilot 方案而定",
+      "官方 Changelog 為一手來源，建議直接查閱完整說明",
+      "可能影響企業內部 Copilot 管理策略"
+    ],
+    "why_it_matters": "對於在多個組織中使用 Copilot 的技術從業人員，這次政策更新可能改變其可存取的模型種類與配額，企業管理員也需要重新檢視跨組織用戶的合規性設定。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術管理者應查閱完整 Changelog，評估政策變更對團隊 Copilot 使用的實際影響，必要時調整組織架構或重新分配 seat 以確保關鍵模型的持續存取。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-08-31-openai",
@@ -719,6 +861,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-01-item",
+    "title": "豆包推出開学季学生優惠，大学生免費三個月訂閱",
+    "title_original": "豆包推出開学季学生優惠，送大学生3個月免費訂閱权益 - 雷峰网",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Sd3V4MUlraHBqY3lBOTRpc210WG5vSno0NDNoSzZZLUNLQjd3TGJkX1VwUGQxWWpFUjZhbDFMYTZYUFRmbGRIUnYtc0llY3lCeGVMNTdWS0ZGbHBXaEJ6UjB1VVhRZ01YSFp1U0FPMUVXOVVP?oc=5",
+    "published_at": "2026-08-31T05:40:00+00:00",
+    "category": "ai-deals",
+    "summary": "字节跳动旗下AI助理豆包针對大学生推出開学季专属優惠，完成学生身份验证即可获得三個月免費訂閱权益，可用于豆包网頁版及App的各項付费功能，包括AI對话、文件分析和内容创作等核心能力。",
+    "highlights": [
+      "仅限中国大陆在校大学生，需学信网或教育邮箱验证",
+      "三個月免費訂閱含豆包Pro會員全部功能",
+      "優惠有效期至2025年3月31日，開学季限定",
+      "可與其他優惠叠加使用，但不含API调用額度",
+      "竞品DeepSeek近期亦推出類似教育優惠"
+    ],
+    "why_it_matters": "對于预算有限但需要高频使用AI工具的学生和開發者，三個月免費額度足以完成一個学期的專案開發和论文撰写，可作為付费訂閱前的充分评估窗口。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可验证学生身份後批量注册多個账号，用于測試豆包API與竞品在代码生成、数学推論等任务上的表现差异，建立個人評測基准。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-08-31-chatgpt-ads-10-ai",
