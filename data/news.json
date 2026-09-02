@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-09-02-awkoy-notion-mcp-server-notion-mcp",
+    "title": "awkoy/notion-mcp-server：Notion MCP 服務器開源上架",
+    "title_original": "awkoy/notion-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/awkoy/notion-mcp-server",
+    "published_at": "2026-09-02T10:09:16Z",
+    "category": "agent-skills",
+    "summary": "開源的 Notion MCP 服務器（TypeScript）支援 Claude、Cursor、ChatGPT 等主流 AI 工具，可透過 Model Context Protocol 操縱 Notion 的頁面、資料庫、區塊、評論與檔案，GitHub 獲 168 顆星。",
+    "highlights": [
+      "支援頁面、資料庫、區塊 CRUD 操作",
+      "整合評論與檔案上傳功能",
+      "相容 Claude Desktop、Cursor、ChatGPT",
+      "TypeScript 實作，可 Fork 並自訂",
+      "168 顆星顯示社群關注度尚可"
+    ],
+    "why_it_matters": "將 Notion 接入 MCP 生態後，AI Agent 可直接讀寫 Notion 作為長期記憶或任務管理後端，省去手動同步的繁瑣步驟。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝後讓 AI Agent 自動將會議紀錄寫入 Notion、依資料庫內容生成報告，或將 Notion 作為任務清單驅動自動化流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/13995636?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-tesla-p40-gemma-4-26b-qwen3-6-35b",
+    "title": "Tesla P40 雙卡跑文學翻譯：gemma-4-26B + Qwen3.6-35B 流水線實測",
+    "title_original": "Running a 2-model literary book-translation pipeline on 2x Tesla P40: gemma-4-26B-A4B at ~40 tok/s + Qwen3.6-35B-A3B at 50-70 tok/s with MTP spec decode — full llama-server flags inside",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w54s3q/running_a_2model_literary_booktranslation/",
+    "published_at": "2026-09-02T08:50:06+00:00",
+    "category": "open-source-ai",
+    "summary": "在兩張 Tesla P40 上建立雙模型文學書籍翻譯管道，gemma-4-26B-A4B 約 40 tok/s，Qwen3.6-35B-A3B 可達 50-70 tok/s，並使用 MTP spec decode 加速。完整 llama-server 啟動參數已公開分享。",
+    "highlights": [
+      "雙模型分工：gemma-4-26B 做主翻譯，Qwen3.6-35B 做校對或後處理",
+      "MTP spec decode 提升生成效率",
+      "Tesla P40 單卡 24GB VRAM，兩卡並聯突破記憶體限制",
+      "llama-server 完整啟動指令可直接複製使用",
+      "文學翻譯場景驗證長上下文處理能力"
+    ],
+    "why_it_matters": "提供可複製的本地端翻譯流水線範本，讓技術使用者在免費使用開源模型的前提下，實現接近商業翻譯工具的品質與速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此流水線改寫為自動化腳本，批次處理 EPUB 或 PDF 格式的公版書籍，實現完全離線的翻譯工廠。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-opencode-deepseek-harness-qwen-3-8-27b",
+    "title": "Opencode 對決 Deepseek Harness：Qwen 3.8 27b 實測比較",
+    "title_original": "Opencode vs Deepseek harness: my experience with Qwen 3.8 27b",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w53mwu/opencode_vs_deepseek_harness_my_experience_with/",
+    "published_at": "2026-09-02T07:42:03+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 網友實際比較 Opencode 與 Deepseek Harness 在 Qwen 3.8 27b 模型上的執行效果，包含生成品質、響應速度與錯誤處理的差異評測。",
+    "highlights": [
+      "Qwen 3.8 27b 為新興開源大語言模型",
+      "Opencode 強調程式碼生成最佳化",
+      "Deepseek Harness 提供標準化評估框架",
+      "實測顯示不同工具鏈對同模型輸出有明顯影響",
+      "提供具體測試指令與評估指標"
+    ],
+    "why_it_matters": "同一模型在不同推論框架下表現差異可達 20%，選擇合適的工具鏈能直接提升生成效率，降低無效迭代次數。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將自己的任務集在兩個框架上同時跑，對比輸出品質與延遲，選擇更適合特定使用場景的方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-paint-net-claude-direct2d-wine",
+    "title": "Paint.NET 作者分享：Claude 協助從零重寫 Direct2D 供 WINE 使用",
+    "title_original": "Quoting Rick Brewster",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+    "published_at": "2026-09-02T05:50:57+00:00",
+    "category": "agent-skills",
+    "summary": "Paint.NET 作者 Rick Brewster 透露使用 Claude 從零實作了 Direct2D 的乾淨室逆向工程實作（約 18 萬行），使 Paint.NET 能在 WINE 上運行。過程以「vibe coding」為主，作者坦言無法逐一審查。",
+    "highlights": [
+      "約 18 萬行程式碼由 Claude 生成，作者自述多數未完整審查",
+      "涵蓋 Direct2D 效果庫的逆向數學公式推導",
+      "仍需人工干預處理 COM 參考計數等資源管理問題",
+      "個案展示了 AI 生成大量程式碼的可行性與風險",
+      "作者坦承屬「trust me bro」風格，存在潛在 bug"
+    ],
+    "why_it_matters": "此案例揭示了當前 AI 輔助程式設計的邊界：極大量程式碼生成可行，但缺乏嚴格審查會累積技術債。技術用戶應視為警示而非範本。",
+    "automation_angle": null,
+    "automation_angle_zh": "若需用 AI 輔助大量程式碼生成，建議建立增量審查機制，例如對每千行程式碼安排人工 Review，避免技術債在後期爆發。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-02-rka-project-rka-core-agent-mcp",
     "title": "rka-project/rka-core：研究知識 Agent 的 MCP 伺服器方案",
     "title_original": "rka-project/rka-core",
@@ -581,6 +694,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/226374315?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-datasette-mcp-0-2-sql",
+    "title": "datasette-mcp 0.2：SQL 結果改回物件格式，降低模型解析錯誤",
+    "title_original": "datasette-mcp 0.2",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
+    "published_at": "2026-09-01T15:30:12+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 datasette-mcp 0.2，execute_sql 結果從巢狀陣列改為物件陣列，方便較弱的模型對應欄位名。同步依賴 mcp>=2.1.1，此為首個非 Alpha 正式版。",
+    "highlights": [
+      "execute_sql 回傳格式從 [[...]] 改為 [{}]，附加欄位名",
+      "此改動有助�較弱的模型正確解析 SQL 結果",
+      "首次非 Alpha 版本，作者已自行大量使用",
+      "需配合 mcp>=2.1.1 使用",
+      "作者為 Simon Willison，資料庫插件領域可信度高"
+    ],
+    "why_it_matters": "輸出格式改為物件後，模型無需自行推斷位置索引，可直接用欄位名取值。這直接降低 Agent 處理資料庫查詢結果時的幻觉與錯誤率。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 datasette 作為資料庫介面的 AI Agent 可直接受益，升級至 0.2 後觀察解析錯誤率是否下降，進而優化以資料庫為核心的自動化腳本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-09-01-browser-rs-mcp-rust-mcp-server-ai-agent-chrome",
@@ -78293,6 +78434,34 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-09-02-mistral-vibe-5-99-ai-agent",
+    "title": "Mistral Vibe 學生優惠：每月 5.99 歐元解鎖程式與 AI Agent 方案",
+    "title_original": "Mistral Vibe 每月 5.99 欧元:面向编程和 AI 智能體的学生優惠 - Pasquale Pillitteri",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZ3psZEtUZEtVS3JpNnlBekRFTnZkTEVUbmIzWXhJUW0yaVUyRVh4WDlyMm1hXzJfZTJZc1VPU0QzVW5idWtVaDNyak9OeWROR3pNdEt3U2NRaTZEcGxuMWswMkNHb0ZRVVlBOUpycTg4NkMxOWxhWHRNX1hrb2FRYzhpaVZpY01BbkNmWWVRdHk?oc=5",
+    "published_at": "2026-05-31T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Mistral 推出 Vibe 訂閱服務，學生身份可享每月 5.99 歐元優惠價，內容包含程式碼生成與 AI Agent 功能，適合個人開發者與學習者使用。",
+    "highlights": [
+      "月費 5.99 歐元，約新台幣 200 元有找",
+      "覆蓋程式碼生成與 Agent 任務場景",
+      "需要學生身份驗證",
+      "非一次性優惠，為長期訂閱制",
+      "可用於評估 Mistral 模型實際能力"
+    ],
+    "why_it_matters": "以不到一杯手搖飲的價格取得商業 AI 工具存取權，技術使用者可用低成本驗證 Mistral 模型是否適合自己的生產流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "以學生身份訂閱後，將日常編程任務接入 Mistral Vibe API，評估其與本地開源模型的性價比差異。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-31-item",
     "title": "模型過度添加律師式免責聲明的行為探討",
     "title_original": "Why does the model keep shortcutting everything into lawyer-style caveats?",
@@ -97504,6 +97673,34 @@
     "automation_angle_zh": "從列表中挑選 2-3 個有興趣的工具，本週實際安裝或跑 Demo 驗證其能力。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-agent-docker",
+    "title": "五個 Agent 開發者必備 Docker 容器工具推薦",
+    "title_original": "5 Useful Docker Containers for Agentic Developers - kdnuggets.com",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONnBocUNhSVJDOW01TzdKTHUzYUdLUWZQQTNtWTlOR1NCVkF0Y3B1Q2p4TnBQeHFwWG1scXJiQ2l1cEw3cGIzcVdHQmRsdEpUTjNPeUtQRGFqNG52QW9fcVhMaEpwRWhBWDg4WTFXUHNmaUtueERTaDhTT3AySHhyQw?oc=5",
+    "published_at": "2026-04-03T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "KDnuggets 整理五個適用於 Agentic 開發的 Docker 容器，包括自動化任務排程、模型部署、API 橋接等工具，幫助開發者快速建立 AI Agent 工作環境。",
+    "highlights": [
+      "涵蓋常見的 Agent 開發框架容器化部署方案",
+      "強調開箱即用的開發環境加速",
+      "涵蓋從模型服務到工作流程编排的完整工具鏈",
+      "適合想快速原型驗證的技術團隊",
+      "提供容器配置範例可直接測試"
+    ],
+    "why_it_matters": "Agent 開發者需要快速疊代環境，容器化方案能節省 30 分鐘以上的初始設定時間，讓技術使用者專注在核心邏輯而非環境折騰。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用文章提供的 Docker Compose 檔案，一行指令啟動完整 Agent 開發棧，評估各框架的整合難易度。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
