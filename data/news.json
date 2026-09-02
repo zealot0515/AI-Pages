@@ -1,5 +1,175 @@
 [
   {
+    "id": "2026-09-02-proactive-mcp-ai-agent",
+    "title": "Proactive MCP：讓 AI Agent 主動出擊的開源方案",
+    "title_original": "madrobotnet/proactive-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/madrobotnet/proactive-mcp",
+    "published_at": "2026-09-02T15:36:14Z",
+    "category": "agent-skills",
+    "summary": "madrobotnet/proactive-mcp 是一個 Python 實現的 MCP 伺服器，能監控 Gmail 與日曆，主動記憶對話脈絡，在需要時讓 Agent 先發制人主動聯繫用戶，而非被動等待指令。現僅 12 stars，尚屬早期專案但概念領先。",
+    "highlights": [
+      "基於 Python，可即時安裝 pip install",
+      "監控 Gmail 收件匣與日曆事件",
+      "維護對話記憶狀態，主動觸發行動",
+      "開源可審查，無供應商鎖定",
+      "目前 stars 少，社群回饋有限"
+    ],
+    "why_it_matters": "現有 Agent 多被動等 prompt，主動式監控打破瓶頸。若能穩定運作，可大幅減少人工干預頻率，實現真正的自動化助理體驗。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可 clone repo，直接在本機跑起來：git clone 後 pip install -e .，再對接自己的 Gmail API，即刻擁有主動提醒功能的個人 Agent。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/256992008?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-opencurro-ai-agent-agent",
+    "title": "OpenCurro AI Agent：輕量級開源通用自主 Agent",
+    "title_original": "opencurro-ai/opencurro-ai",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/opencurro-ai/opencurro-ai",
+    "published_at": "2026-09-02T15:22:54Z",
+    "category": "agent-skills",
+    "summary": "OpenCurro AI Agent 是一款標榜快速、輕量、通用自主的 AI Agent 專案，TypeScript 實作，目前 GitHub 星標 21 顆，屬早期專案階段。",
+    "highlights": [
+      "TypeScript 實作，易於與現代前端/後端整合",
+      "主打輕量與執行速度，適合資源受限環境",
+      "通用用途設計，非特定場景限定",
+      "星標數量低（21），專案成熟度待觀察",
+      "可參考其程式碼架構，評估是否適用於自建 Agent"
+    ],
+    "why_it_matters": "新興輕量 Agent 框架有機會成為資源敏感場景的替代方案，但 21 星的規模代表社群驗證不足，技術用戶應以觀察和學習為主，不宜直接用於生產環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可 clone repo 閱讀原始碼，研究其任務規劃與工具呼叫機制，作為自建輕量 Agent 的架構參考或找出可借鑒的設計模式。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/210235683?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-claude-fable-5-1",
+    "title": "Claude Fable 5.1 系統提示詞變化：歌詞版權、角色生成、毒性對話處理",
+    "title_original": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+    "published_at": "2026-09-02T14:16:42+00:00",
+    "category": "hot-topics",
+    "summary": "Simon Willison 披露 Anthropic 公開的 Claude Fable 5.1 系統提示詞變化：新增禁止重現受版權保護的歌詞、詩歌、書籍段落；禁止生成可識別的版權角色圖像（含 SVG、Canvas 等程式生成）；毒性對話處理從「警告後結束對話」改為「保持自我尊重」。與 Sony/Warner 訴訟時間高度吻合。",
+    "highlights": [
+      "明顯因應 Sony/Warner 版權訴訟新增歌詞禁令",
+      "禁止生成可識別角色，即使修改姿勢、顏色、風格也不行",
+      "毒性對話處理政策轉變，Agent 不再需要道歉或屈服",
+      "首度在系統提示詞中引用外部 harm-reduction 網站（dancesafe.org 等）",
+      "Simon Willison 已將所有版本收入 Git 歷史，可用 diff 比對變化"
+    ],
+    "why_it_matters": "此變化直接反映 AI 業者正積極應對內容版權法律風險，技術用戶在建立 Agent 或自動化流程時，需留意輸出合規性，避免觸發新版限制。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可 fork simonw/claude-system-prompts repo，用 GitHub Actions 自動化追蹤系統提示詞變化，在 Anthropic 更新時第一時間收到 diff 通知，評估對現有 Claude 整合專案的影響。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-02-ibm-confluent",
+    "title": "IBM 時間序列模型在 Confluent 上的即時智慧應用",
+    "title_original": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+    "published_at": "2026-09-02T13:49:14+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格介紹 IBM 研究團隊的時間序列模型與 Confluent 平台整合方案，強調即時資料流處理與時間序列預測的結合，具體技術細節尚待進一步查閱原文。",
+    "highlights": [
+      "IBM 研究團隊時間序列模型開源或可取得",
+      "結合 Confluent Kafka 生態進行即時資料處理",
+      "瞄準需要低延遲預測的場景（如 IoT、金融異常偵測）",
+      "部落格摘要資訊有限，建議閱讀全文獲取技術細節",
+      "可與 Hugging Face 模型庫交叉查詢取得實際模型"
+    ],
+    "why_it_matters": "即時時間序列預測是邊緣運算與物聯網場景的關鍵能力，若 IBM 模型開源且能與 Confluent 整合，可成為自動化監控與即時決策系統的元件。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可搜尋 Hugging Face 上的 IBM 時間序列模型，評估其與 Confluent 的整合方式，測試能否用於自有的事件驅動自動化流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-llm-openteams",
+    "title": "LLM智力與成本：OpenTeams效能比較分析報告",
+    "title_original": "LLMs: Intelligence vs. cost | OpenTeams",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w583o7/llms_intelligence_vs_cost_openteams/",
+    "published_at": "2026-09-02T11:50:28+00:00",
+    "category": "hot-topics",
+    "summary": "OpenTeams發布LLM智力與成本比較分析報告，系統性比較各大語言模型在推論能力、準確率與API呼叫成本、部署費用之間的效能/成本比率，協助技術人員在預算限制下做出明智的模型選擇。",
+    "highlights": [
+      "比較GPT-4、Claude、Llama等主流模型的智力表現差異",
+      "分析不同任務場景（如程式碼生成、文件總結、推論問答）下的成本效益",
+      "提供模型選擇決策框架與推薦場景",
+      "涵蓋API費用、本地部署、托管成本等多維度比較",
+      "針對企業預算優化提供具體建議"
+    ],
+    "why_it_matters": "對於需要控制AI工具成本的技術團隊而言，了解各模型智力與成本的平衡點，可避免過度投資高價模型或選用效能不足的低價方案，進而優化整體專案預算配置與工具選擇策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考報告中的成本效益矩陣，評估自家產品的任務需求，選擇效能足夠且成本可接受的模型組合，用於自動化流程中的LLM替換評估，降低API費用支出。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-reddit-qwen3-6-27b-35b-agent",
+    "title": "Reddit 討論：Qwen3.6 27B 與 35B 雙機並行 Agent 編碼分工策略",
+    "title_original": "I have Qwen3.6 27B on PC-1 and Qwen3.6 35B on PC-2, So they can run parallel. Which roles should I assign to them for agent codng?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w56y4r/i_have_qwen36_27b_on_pc1_and_qwen36_35b_on_pc2_so/",
+    "published_at": "2026-09-02T10:51:35+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶詢問如何將 Qwen3.6 27B（PC-1）與 Qwen3.6 35B（PC-2）分配角色以最佳化 Agent 編碼流程。討論涵蓋小模型處理瑣事、大模型專注複雜推論的分工邏輯。",
+    "highlights": [
+      "雙機並行分散推論負載",
+      "27B 適合作為快速回應的前端代理",
+      "35B 負責深度推論與程式生成",
+      "涉及 Ollama 或 vLLM 多實例部署",
+      "非官方討論，無官方文件佐證"
+    ],
+    "why_it_matters": "本地部署雙模型協作是節省雲端費用的熱門方向。若分工策略驗證可行，可將開發工作流程完全私有化，避免 API 依賴與資料外流風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "用 Ollama 啟動兩個實例：ollama serve --port 11434 給 27B，再開一個 --port 11435 給 35B，在程式碼中用負載分配器區分簡單查詢與複雜任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-02-awkoy-notion-mcp-server-notion-mcp",
     "title": "awkoy/notion-mcp-server：Notion MCP 服務器開源上架",
     "title_original": "awkoy/notion-mcp-server",
@@ -303,6 +473,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-02-anthropic-claude-75-fable-mythos-5-1",
+    "title": "Anthropic 調降 Claude 快取讀取價格 75%，Fable/Mythos 5.1 上線",
+    "title_original": "Anthropic releases Claude Fable 5.1 and Mythos 5.1, cutting cache read prices by 75% - The Next Web",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZVVUWWhIdjlLQUlMLW5jMHVWZ3A1UWlhRmpRMmdwZVFGVmRFektnZVZ3WEtSZ0RNRDIzWnhsa3JkYTBENmhmSFNYaUVQNHl5OExKZ0h1d01sZlpweDZBOS0xODlTdk1DYTBfSXczc2VGZWZzYkF3M0c1Y21UWk9kUk8zZWpkQjluenBub3lSUFhkSVNfN0xLUEdybDRNZ0ZNNlBz?oc=5",
+    "published_at": "2026-09-01T20:16:21+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 發布 Claude Fable 5.1 與 Mythos 5.1 模型，並同步調降快取讀取價格 75%。此舉直接影響長上下文任務成本，對需要大量文件檢索或 RAG 場景的開發者有顯著節費效果。",
+    "highlights": [
+      "Fable 5.1 與 Mythos 5.1 為新版本子系",
+      "快取讀取（cache read）費用大幅降低 75%",
+      "有利於長文本分析、多輪對話場景",
+      "對 RAG 應用成本結構影響明顯",
+      "The Next Web 報導，資訊來源可查證"
+    ],
+    "why_it_matters": "快取讀取成本下降對開發者成本模型衝擊最大。相同的 API 預算現在能支撐更多 Tokens，在長文件處理與 Agent 多步驟任務中尤為關鍵。",
+    "automation_angle": null,
+    "automation_angle_zh": "立刻重新計算你的 Claude API 成本模型：用新的快取讀取價格估算現有 RAG 流程，評估是否值得將更多檢索任務轉移到 Claude。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-09-01-neuronto-agentic-resource-discovery-mcp",
@@ -4488,6 +4686,34 @@
     "automation_angle_zh": "可測試該 vLLM fork 應用於其他量化模型，評估 INT8 精度損失與速度提升的平衡點是否適合工作負載。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-meta-muse-glimmer",
+    "title": "Meta發布Muse Glimmer：瞄準消費級硬體的開源權重模型",
+    "title_original": "Meta Releases Muse Glimmer, an Open-Weight AI Model Designed to Run on Consumer Hardware - Campus Technology",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNU0lHYkRaVThLZFVTRk1IMlZTVVQ4NTI3aEJvdHVRckROOTlOYVpTXzB2Zy1EcVZOU1BXMUhrUVFkQ01XWEJtbHM2VVBNR2FNMVBtc3JOSDZEUGdQc3h2aXhqTzRydFhvQnBvdkV5SEdRdGczMEpRUE5iTkZIeW1kWUFzMTVHTDZub1dTQ1RUZXVNSlF1aDlyVVdmM2pZQXBsRUh4eXdwcHlocjdqc1c2dDRvRUhYMjA3bFZDNTF5TUQ4c25KVDhSLXJMOXdUTUpDZktVVm16S00?oc=5",
+    "published_at": "2026-08-26T20:10:18+00:00",
+    "category": "open-source-ai",
+    "summary": "Meta正式發布Muse Glimmer，這是一款開源權重AI模型，專為消費級硬體設計，可在一般消費級顯示卡上運行。此模型旨在大幅降低AI部署門檻，讓個人開發者與小型團隊也能在本地硬體上部署先進AI功能。",
+    "highlights": [
+      "開源權重模型，允許商業使用與二次開發",
+      "針對消費級顯示卡（如RTX系列）優化，推薦配備較低",
+      "可在本地運行，無需依賴雲端API或昂貴的雲端算力",
+      "大幅降低AI應用開發與部署的硬體成本門檻",
+      "可能對邊緣AI應用、個人化AI助理開發有實質幫助"
+    ],
+    "why_it_matters": "對技術宅而言，這是探索本地AI部署的新選擇。開源權重特性加上消費級硬體需求，讓個人開發者能以較低門檻嘗試本地部署AI功能，有機會實現完全離線的AI工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本地硬體上安裝測試該模型，評估其在特定任務（如程式碼補全、文件處理）上的表現與VRAM消耗，判斷是否適合整合至個人專案或工作流程自動化環境。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
@@ -88290,6 +88516,34 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-09-02-mistral-studio-mcp-agent",
+    "title": "Mistral Studio 支援內建與自訂 MCP，強化 Agent 建構流程",
+    "title_original": "Connect the dots: Build with built-in and custom MCPs in Studio - mistral.ai",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hbUJPZTl6MkxaSk45NDI5RnhranJVcGlyeGt2cGZ4OXcwZVVENGI4dGxoRm45VVBiVERZMV9ZODNBeUdsSUxZcEFObHNMMWs?oc=5",
+    "published_at": "2026-05-22T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Mistral 宣布 Studio 平台正式支援 built-in 與 custom MCP（Model Context Protocol），開發者可在 Studio 內直接組合、測試、部署各類 MCP 擴充，加速 Agent 工作流程建置。",
+    "highlights": [
+      "Studio 原生支援 MCP 協議",
+      "提供內建 MCP 快速上手",
+      "支援自訂 MCP 擴充開發",
+      "有利於快速原型與迭代 Agent",
+      "Mistral 官方公告，可信度高"
+    ],
+    "why_it_matters": "MCP 正在成為 Agent 工具擴充的標準協議。Mistral Studio 整合此能力，讓開發者能在單一平台完成從設計到部署的完整流程，降低工具鏈複雜度。",
+    "automation_angle": null,
+    "automation_angle_zh": "登入 Mistral Studio，探索內建 MCP 市場，挑選適合自己工作流程的擴充（如檔案操作、API 呼叫），用 Studio 內建除錯工具測試後直接部署。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-22-reversecore-mcp-ai-agent",
     "title": "Reversecore_MCP：資安反向工程的 AI Agent 工具鏈",
     "title_original": "sjkim1127/Reversecore_MCP",
@@ -98637,6 +98891,34 @@
     "automation_angle_zh": "開發者可參考其模式設計文件，直接複製適合自己場景的代理架構模板，減少自建框架的試錯成本。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-leanstral-vibe-coding",
+    "title": "Leanstral：可信賴的開源 vibe-coding 基礎框架",
+    "title_original": "Leanstral: Open-Source foundation for trustworthy vibe-coding - mistral.ai",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9seWlDVTRIbmR3R014M3A3MWRVUUVPQ1A1UndManhrVGRCTk1OZE9HUzZpU3VKSE82T3N4c3dyaWlEWEZoZjktN3dSX2VWQQ?oc=5",
+    "published_at": "2026-03-16T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Leanstral 是 Mistral 推出的開源專案，旨在提供可信賴的 vibe-coding 開發框架，強調可審計性與可控性，減少對黑箱 AI 程式碼生成的依賴。",
+    "highlights": [
+      "開源框架，程式碼可審查",
+      "強調可信賴與可控性",
+      "針對 vibe-coding 場景優化",
+      "Mistral 生態系一部分",
+      "與 Mistral Studio 有潛在整合可能"
+    ],
+    "why_it_matters": "Vibe-coding 強調自然語言驅動開發，但品質可控性是痛點。Leanstral 若能提供可驗證的程式碼生成流程，可吸引對AI輔助開發有安全需求的企業用戶。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 GitHub repo，等待正式 release。之後可用它替換或包裝現有的 AI coding assistant，在 vibe-coding 流程中加入可控性檢查層。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
