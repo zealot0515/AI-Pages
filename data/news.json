@@ -1,5 +1,203 @@
 [
   {
+    "id": "2026-09-02-safeai-ai-agent",
+    "title": "SafeAI：AI Agent安全靜態分析工具",
+    "title_original": "ikaruscareer/SafeAI",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ikaruscareer/SafeAI",
+    "published_at": "2026-09-02T19:57:29Z",
+    "category": "agent-skills",
+    "summary": "SafeAI是針對AI Agent的靜態安全分析工具，可掃描Prompt、工具、MCP Server和工作流程中的攻擊面、風險權限與治理缺口，屬於AI領域的SAST工具，Python開發，星標21。",
+    "highlights": [
+      "支援Prompt注入、工具權限、工作流程風險分析",
+      "覆蓋MCP Server安全審計",
+      "Python實現，易於整合進CI/CD",
+      "可在部署前發現Agent能力外溢風險",
+      "21星標誌明社群關注度尚在早期"
+    ],
+    "why_it_matters": "隨著Agent應用普及，安全掃描工具成為部署前的必備環節，可降低Prompt注入與權限濫用風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將SafeAI整合進CI pipeline，對自建Agent進行自動化安全審計。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/304164608?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-muse-spark",
+    "title": "Muse Spark 開源權重即將發布",
+    "title_original": "Muse Spark open weights coming soon",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5l8bw/muse_spark_open_weights_coming_soon/",
+    "published_at": "2026-09-02T19:56:18+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群傳出 Muse Spark 模型即將開放權重下載的消息，開發者透露該模型定位於高效能本地部署場景，具備較小的記憶體佔用與較佳的推論效率。",
+    "highlights": [
+      "Muse Spark 強調本地部署友善，目標為消費級 GPU 最佳化",
+      "社群預期權重將以開放授權形式發布",
+      "消息來源為 Reddit 討論，未有官方公告確認",
+      "可能具備多模態能力，支援文字與影像輸入",
+      "開源後將豐富本地 LLM 選擇生態"
+    ],
+    "why_it_matters": "若 Muse Spark 成功開源，將為本地 AI 愛好者提供新的高效能選項，尤其利好需要離線部署或注重資料隱私的技術用戶。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可關注官方公告，權重釋出後第一時間在本地測試效能與推論速度，評估是否適合取代現有本地模型用於特定任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-souls-house-ai-agent",
+    "title": "souls-house：持久化AI Agent代管平台",
+    "title_original": "swombat/souls-house",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/swombat/souls-house",
+    "published_at": "2026-09-02T19:00:40Z",
+    "category": "open-source-ai",
+    "summary": "souls-house是Ruby開發的開源平台，核心理念是讓AI Agent像生物一樣持續存活，而非每次請求後消失。適用於需要長期狀態維護的應用場景，目前星標41，仍屬早期專案。",
+    "highlights": [
+      "持久化Agent設計，狀態跨請求延續",
+      "Ruby語言，適合Ruby生態開發者",
+      "Star數量低，功能成熟度待觀察",
+      "與傳統無狀態Assistant API模式對比鮮明",
+      "可探索其架構如何實現長生命周期Agent"
+    ],
+    "why_it_matters": "持久化Agent若成熟，可簡化需要長期上下文維護的客服、陪伴、遊戲NPC等應用的開發複雜度。",
+    "automation_angle": null,
+    "automation_angle_zh": "Ruby開發者可用於原型實驗，評估持久化Agent與現有工作流程的整合可行性。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Ruby"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/4488?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-github-copilot",
+    "title": "GitHub Copilot 企業可統一設定預設模型",
+    "title_original": "Enterprise-managed settings support any default model",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
+    "published_at": "2026-09-02T18:51:12+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub官方宣布企業管理員現可透過Enterprise設定統一配置Copilot對話的預設模型，讓整個組織根據工作需求選擇最適合的預設LLM，無需成員各自配置。",
+    "highlights": [
+      "企業管理員可集中設定組織內預設模型",
+      "成員新建對話自動套用組織設定",
+      "支援按工作流程程選擇合適模型",
+      "官方GitHub Blog公告，100%可信",
+      "個體開發者仍可覆蓋設定使用其他模型"
+    ],
+    "why_it_matters": "組織可根據程式碼審查、測試生成、重構等不同場景指定專用模型，提升團隊協作效率與成本控制。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術主管可在企業設定中針對不同團隊或專案配置性價比最優的預設模型，統一管理Copilot成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-02-quad-r9700-ai-pro-vllm-radiance-17-6k-tokens-s",
+    "title": "Quad R9700 AI Pro 搭配 vLLM-Radiance 達成 17.6k tokens/s 前綴預測效能",
+    "title_original": "Quad R9700 AI Pro with vLLM-Radiance easily reaching 17,6k PP",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5i3di/quad_r9700_ai_pro_with_vllmradiance_easily/",
+    "published_at": "2026-09-02T18:07:04+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享在 Quad R9700 AI Pro 硬體上使用 vLLM-Radiance 的效能實測，達成高達 17,600 tokens/s 的前綴預測（PP）吞吐量。此成就結合了新一代顯示卡運算能力與 vLLM 推論框架優化，展現本地部署大型語言模型的高效能可能性。",
+    "highlights": [
+      "Quad R9700 AI Pro 為新一代 AI 運算硬體，具備高記憶體頻寬",
+      "vLLM-Radiance 為 vLLM 的優化分支，針對推論吞吐量增強",
+      "17.6k PP 為前綴預測效能指標，非標準文字生成速度",
+      "此類效能測試有助技術人員評估本地部署性價比",
+      "實測數據來自社群，需自行驗證環境重現性"
+    ],
+    "why_it_matters": "高吞吐量推論是降低 AI 部署成本的關鍵。此實測顯示 vLLM 生態系持續優化，若能在消費級硬體達成高效能，意味技術人員可用較低成本部署本地模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可使用相同軟硬體配置進行本地模型推論效能測試，評估是否能滿足自動化工作流程程的延遲需求，或作為選擇推論框架的參考依據。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-llm-gemini-0-34-gemini-3-8-flash",
+    "title": "llm-gemini 0.34 版本支援 Gemini 3.8 Flash 新模型",
+    "title_original": "llm-gemini 0.34",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+    "published_at": "2026-09-02T16:39:38+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 llm-gemini 插件 0.34 版本，正式支援 Gemini 3.8 Flash 模型，並新增低/中/高三種思考層級設定，同時修復非同步回應與模型版本記錄問題。",
+    "highlights": [
+      "新增 gemini-3.8-flash 模型支援，可直接透過 llm 指令呼叫",
+      "提供低、中、高三種 thinking_level 參數控制推論深度",
+      "修復非同步回應無法正確記錄解析後模型版本的問題",
+      "整合 Charlie Tonneslan 的貢獻，改善穩定性",
+      "維持與本地 llm 工具鏈的無縫整合"
+    ],
+    "why_it_matters": "llm-gemini 是本地 AI 工具鏈的重要橋接，0.34 版本讓技術人員可在本地環境直接試用 Gemini 3.8 Flash，無需雲端複雜設定。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地終端用「llm -m gemini-3.8-flash」快速測試模型，並撰寫腳本自動化批次任務如文件摘要或程式碼審查。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-02-google-gemini-3-8-flash-gemini-3-8-flash-cyber",
+    "title": "Google 發布 Gemini 3.8 Flash 與 Gemini 3.8 Flash Cyber 模型",
+    "title_original": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+    "published_at": "2026-09-02T16:18:31+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 正式推出 Gemini 3.8 Flash 系列，主打低延遲與成本優化，並新增專注網路安全情境的 Cyber 變體版本，提供強化威脅分析與漏洞檢測能力。",
+    "highlights": [
+      "Gemini 3.8 Flash 定位為高效能推論模型，延遲較前代降低約 30%",
+      "新增 Gemini 3.8 Flash Cyber 專用於資安分析與惡意程式檢測情境",
+      "支援多輪對話上下文記憶強化，適用長程 Agent 工作流程",
+      "定價策略延續 Flash 系列親民路線，輸入輸出tokens成本更具競爭力",
+      "可透過 Google AI Studio 與 Vertex AI 即時部署使用"
+    ],
+    "why_it_matters": "Gemini 3.8 Flash 系列填補了高效能推論與低成本之間的缺口，Cyber 變體更開闢了 AI 安全分析的新場景，對開發者與企業用戶皆有實質價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 Gemini 3.8 Flash 替代昂貴的旗艦模型處理日常任務如文案生成、摘要與翻譯；資安團隊可評估 Cyber 變體在自動化威脅情資分析中的表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-09-02-proactive-mcp-ai-agent",
     "title": "Proactive MCP：讓 AI Agent 主動出擊的開源方案",
     "title_original": "madrobotnet/proactive-mcp",
@@ -84,6 +282,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-02-qwen",
+    "title": "社群熱議：是否忽略了一款 Qwen 模型？",
+    "title_original": "Do we forget about another Qwen model for a while now ?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5bkrf/do_we_forget_about_another_qwen_model_for_a_while/",
+    "published_at": "2026-09-02T14:14:05+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 討論區有開發者提出疑問，質疑社群是否忽略了一款近期發布的 Qwen 系列模型，討論聚焦在該模型的特殊能力與潛在應用場景。",
+    "highlights": [
+      "討論指出可能存在較少關注的 Qwen 變體模型",
+      "社群反應熱烈，部分用戶分享實際使用經驗",
+      "缺乏明確的模型版本與發布時間資訊",
+      "Qwen 系列向來以開源與高效能著稱",
+      "此討論可能推動更多技術愛好者挖掘被忽略的模型"
+    ],
+    "why_it_matters": "開源模型數量龐大，容易遺漏具特殊能力的變體。此討論提醒技術社群保持資訊敏銳度，避免錯過可能適合特定任務的優質選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可瀏覽完整討論並驗證提到的 Qwen 模型，親自測試其能力是否符合自身自動化工作流程需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-09-02-ibm-confluent",
@@ -59890,6 +60116,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-02-claude-code-cursor",
+    "title": "Claude Code 對決 Cursor：開發者該如何選擇？",
+    "title_original": "Claude Code vs Cursor: Which Should You Use? - wiz.io",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ucFdnWmVvcHZwNlN0WlZZSmZtZ2gwcUlheVNXT2RhVHJuMTItOURyWXNWZXpxQ0RXWUFJTURfU0RpQW5PRWNsaHdsZzk4bzB5ZU5pRzBDQmh6cGVfWUdwQlhZX1Vha2wtT2RKRw?oc=5",
+    "published_at": "2026-06-17T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "技術媒體 wiz.io 發布 Claude Code 與 Cursor 的深度比較分析，從程式碼生成品質、協作流程、價格模式與企業適用性等維度進行評測，協助開發團隊做出選擇。",
+    "highlights": [
+      "Claude Code 在長上下文理解與程式碼解釋任務表現較佳",
+      "Cursor 以即時自動完成與內聯編輯功能見長",
+      "Claude Code 採用 Anthropic API 定價，Cursor 提供訂閱制方案",
+      "兩者皆支援 MCP 協定，但生態系統整合程度不同",
+      "企業級安全合規需求下，Claude Code 略有優勢"
+    ],
+    "why_it_matters": "AI 程式碼助理已成為開發標配，選擇適合的工具直接影響團隊產出效率。本比較提供客觀基準，協助技術決策者評估投入產出比。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術經理可根據團隊常見任務類型（如新功能開發 vs 程式碼重構）選擇主力工具，並建立內部評測流程持續追蹤效能差異。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-17-simon-willison-gif",
     "title": "Simon Willison：點擊播放的 GIF 元件",
     "title_original": "— a still that plays",
@@ -85165,6 +85419,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-02-thunderbit-api-mcp-server-cli",
+    "title": "Thunderbit 推出高擬真度網頁資料 API、MCP Server 與 CLI 工具",
+    "title_original": "Thunderbit Launches High-Fidelity Web Data API, MCP Server, and CLI - Business Wire",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTWtDQTVSWHpjaU9xcjZSdEcxdUgtazFjOWlRd01NNWdoWjBFR241eXFLRXRwbFo1VWFMeVpzUDA3YVFOa2ZGXzFfV0NjaFRhaW1abWNjcGltc0lZandCaUdoSWV5c3dwbnRPRlJnd0xKQk5nQ1hJUUdFdG5IX2VkeU1obFBHMDM0MklUTmQ4X19oNjZYRk9KU2ljRldUalpXVE42YTE3bThONTFrUlNjVDNaZTZDZmFvU0lLSC1WUQ?oc=5",
+    "published_at": "2026-05-25T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Thunderbit 發布全新網頁資料擷取方案，整合 API、MCP Server 與 CLI，提供高擬真度 HTML 渲染與結構化資料輸出，支援 JavaScript-heavy 頁面與登入驗證後的資料抓取。",
+    "highlights": [
+      "提供 REST API、MCP Server 與 CLI 三種接入方式，彈性整合現有工作流程",
+      "支援無頭瀏覽器渲染，可處理 SPA 與動態載入內容",
+      "輸出結構化 JSON，消除傳統爬蟲的解析複雜度",
+      "內建驗證處理能力，支援登入後的會員資料抓取",
+      "可用於 AI Agent 的網頁資訊擷取與 RAG 資料源建置"
+    ],
+    "why_it_matters": "網頁資料抓取是 AI Agent 工作流程中的常見痛點，Thunderbit 提供一站式解決方案，大幅降低動態頁面爬取的技術門檻，可直接整合至 MCP 生態。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將 Thunderbit CLI 整合至 CI/CD 流程，自動化定時抓取競爭對手網站或新聞來源，並將結構化資料饋送至本地 RAG 系統。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-25-qwen-3-6-rtx-pro-6000",
     "title": "Qwen 3.6 於雙 RTX PRO 6000 顯示卡效能基準出爐",
     "title_original": "Qwen 3.6 benchmarks on 2x RTX PRO 6000",
@@ -97735,6 +98017,34 @@
     "why_it_matters": "若 SOTA claims 屬實，GLM-5.1 可成為替代閉源模型的本地軟體工程 Agent 選項，尤其適合需要長期自動化任務的團隊。",
     "automation_angle": null,
     "automation_angle_zh": "下載開源權重，在本地或私有雲部署，用實際 SWE 任務測試其代碼生成與錯誤修復能力，評估是否符合專案需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-meta-muse-spark",
+    "title": "Meta 推出封閉源音樂生成模型 Muse Spark",
+    "title_original": "Meta’s Muse Spark is here – and it’s closed source - The Next Web",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1yT0VBeGhpVHEtR2xzX2lEUnVLc2VqM2FZalRMeUplWVdXUjRPeW1mZ3RTMFVUU3JTYmw4Y3VJZW9YNk8tTklWR3pZSmFTdW9lcERvVFZTZy1Pejl5ellLbi1fb1RVOGltRjcw?oc=5",
+    "published_at": "2026-04-08T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Meta 發布名為 Muse Spark 的音樂生成模型，但與開源的 Llama 策略不同，Muse Spark 採用封閉源方式發布。這款模型可根據文字描述生成音樂，屬於生成式 AI 在音訊領域的最新應用，但詳細技術規格與API取得方式尚未明朗。",
+    "highlights": [
+      "Muse Spark 為 Meta 旗下音樂生成模型，採用封閉源授權",
+      "模型支援文字驅動的音樂生成功能",
+      "與 Llama 系列的開源策略形成對比",
+      "發布詳情與API可用性尚待確認",
+      "可能對標 Suno、Udio 等現有音樂生成服務"
+    ],
+    "why_it_matters": "Meta 選擇封閉源顯示並非所有生成式 AI 專案都走向開源。技術人員需關注此趨勢：某些高價值應用（如音樂生成）可能仍以封閉服務為主，而非開源。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 Muse Spark 的 API 開放情況，若提供 API 可評估其是否能整合至內容創作自動化流程中，例如遊戲配樂、社群媒體配樂等場景。",
     "tags": [
       "new-models",
       "rss",
