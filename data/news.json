@@ -1,5 +1,197 @@
 [
   {
+    "id": "2026-09-02-rka-project-rka-core-agent-mcp",
+    "title": "rka-project/rka-core：研究知識 Agent 的 MCP 伺服器方案",
+    "title_original": "rka-project/rka-core",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/rka-project/rka-core",
+    "published_at": "2026-09-02T01:59:55Z",
+    "category": "agent-skills",
+    "summary": "rka-core（Research Knowledge Agent）是結合 MCP 伺服器、REST API 與 React 儀表板的開源專案，目標是提供 AI 輔助研究流程的自動化編排。雖然目前僅 17 個 GitHub 星標，屬早期專案，但對於想建立研究工作流程的技術團隊具參考價值。",
+    "highlights": [
+      "MCP 伺服器架構相容 Model Context Protocol 生態",
+      "附帶 REST API 方便非瀏覽器端整合",
+      "React 儀表板提供研究任務可視化",
+      "Python 實作便於嵌入現有資料處理管線",
+      "星標數低，功能成熟度需自行驗證"
+    ],
+    "why_it_matters": "研究自動化是 AI 工具鏈中尚未被大幅解決的痛點，rka-core 的 MCP + REST 混合架構提供了一個可改寫、可自託管的切入點，適合想脫離純 API 封閉服務的團隊。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可 fork 後將其對接內部文獻庫或實驗數據，用 REST API 觸發研究任務自動化，並根據儀表板監控 Agent 任務執行狀態。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/322260423?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-codex",
+    "title": "Codex應用新增動態對話軌跡視覺化功能",
+    "title_original": "Codex app has animated conversation rails now (Toys → Audio visualizer)",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1w4uuxl/codex_app_has_animated_conversation_rails_now/",
+    "published_at": "2026-09-02T00:25:51+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit社群討論指出OpenAI的Codex應用已加入「動態對話軌跡」（animated conversation rails）功能。討論中提到從「Toys」到「Audio visualizer」的應用場景，但缺乏詳細說明。",
+    "highlights": [
+      "Codex為OpenAI的程式碼相關應用",
+      "新增對話軌跡視覺化介面",
+      "具體使用場景尚不明確",
+      "可能改善與AI的互動體驗"
+    ],
+    "why_it_matters": "對話軌跡視覺化可能提升開發者理解AI推論過程的透明度，但需更多細節才能評估其實際幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "Codex用戶可實際操作該功能，觀察是否能加速程式碼理解或偵錯流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-claude-fable-5-1-pelican",
+    "title": "Claude Fable 5.1 評測出爐：五段推論力度實測與「pelican 基準」新發現",
+    "title_original": "Claude Fable 5.1 made me a really nice animated pelican",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+    "published_at": "2026-09-01T23:57:28+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 發布 Fable 5.1，號稱在編碼、知識工作與長時推論任務設立新標準，尤其在 Terminal-Bench-Science 0.1 取得 52.6% 而非前代 24.7%。實測顯示低/中推論力度對簡單提示幾乎跳過推論，xhigh 與 max 模式則產生數萬輸出 tokens，耗時與成本顯著增加，技術讀者需根據任務難度選擇合適推論層級。",
+    "highlights": [
+      "Terminal-Bench-Science 0.1 分數從 24.7% 躍升至 52.6%",
+      "推論層級分五檔：low、medium、high、xhigh、max，無法完全關閉推論",
+      "低難度提示在 low/medium 下可能跳過推論，節省成本",
+      "xhigh 輸出 36,767 tokens（約 $1.83），max 達 65,927 tokens（約 $3.30）",
+      "Max 模式 pelican SVG 品質佳但代價昂貴，適合高精度需求場景"
+    ],
+    "why_it_matters": "Fable 5.1 的科學推論能力提升明顯，但不同推論層級的成本差異達數十倍，技術團隊需建立任務複雜度分類機制，以避免對簡單任務過度付費，同時為複雜任務保留足夠推論預算。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 LLM 呼叫前依任務類型（代碼生成、文件摘要、複雜推論）設定對應推論層級，利用 token 計數與成本估算優化每日 API 預算分配，並記錄不同層級的實際輸出品質作為後續參考。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-02-rtx-3090-llm-int8-w8a8",
+    "title": "RTX 3090 跑 LLM 為何罕見 INT8/W8A8 量化模型？",
+    "title_original": "Given how common RTX 3090 use is for LLMs, why don't we see more INT8 W8A8 models ?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w4rzbd/given_how_common_rtx_3090_use_is_for_llms_why/",
+    "published_at": "2026-09-01T22:27:47+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社群熱議 RTX 3090（24GB VRAM）作為本地 LLM 部署主流硬體，為何市面上 INT8/W8A8 量化模型並未廣泛普及。討論涉及硬體支援限制、量化工具成熟度與效能損耗等核心議題。",
+    "highlights": [
+      "RTX 3090 CUDA Core 對 INT8 支援有硬體限制",
+      "Tensor Core 在 W8A8 情境下需要特殊硬體支援",
+      "量化工具鏈（llama.cpp 等）對消費級 GPU 優化不足",
+      "社群正探索替代方案以提升 3090 的性價比"
+    ],
+    "why_it_matters": "對想在本地部署 LLM 的技術人員而言，理解 3090 的量化邊界可避免踩坑，並發現更高效的部署策略，節省 GPU 升級成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可針對 3090 環境編寫量化評測腳本，比較 FP16、INT8、W8A8 的推論速度與品質損耗，找出性價比最優的部署配置。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-benchmirt-llm",
+    "title": "BenchMIRT：LLM 基準測試究竟在測什麼？",
+    "title_original": "BenchMIRT: What are LLM benchmarks actually measuring?",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/allenai/benchmirt",
+    "published_at": "2026-09-01T21:39:07+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 與 Allen AI 聯合發布 BenchMIRT 研究，系統性分析主流 LLM 基準測試的實際測量維度，揭露多數榜單存在分數膨脹與任務重疊問題，為技術人員提供客觀的模型評估框架參考。",
+    "highlights": [
+      "研究揭示多數基準測試並未真正衡量通用智慧",
+      "發現任務重疊導致分數虛高的現象",
+      "提出以 IRT（項目反應理論）為基礎的新評測方法",
+      "可用於指導技術人員選擇更準確的模型評估指標"
+    ],
+    "why_it_matters": "若基準測試失準，技術人員可能選錯模型或高估系統能力，BenchMIRT 提供的分析框架有助於建立更可信的內部評測流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可參考 BenchMIRT 的方法論，建立內部 Benchmark，避免被官方榜单誤導，並針對實際業務場景設計專屬評測集。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-google-2026-8-ai",
+    "title": "Google公布2026年8月AI更新摘要",
+    "title_original": "The latest AI news we announced in August 2026",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+    "published_at": "2026-09-01T20:45:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google AI Blog發布2026年8月的AI更新彙整。作為官方來源，此文章應包含該月Gemini、Veo、Imagen等產品的具體功能更新與技術進展。",
+    "highlights": [
+      "來源為Google官方AI部落格，可信度高",
+      "涵蓋Gemini模型更新",
+      "可能包含Veo影片生成與Imagen圖像生成進展",
+      "涉及Google AI整體生態系動態"
+    ],
+    "why_it_matters": "Google為主要AI供應商，其模型更新直接影響開發者工作流程程與工具選擇，官方消息值得優先關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可存取blog.google連結，評估是否有新的API功能可用於自動化流程或降低現有工作成本。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-github-copilot",
+    "title": "GitHub Copilot 支援個人預算到期日設定",
+    "title_original": "Set an expiration date for individual user budgets",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
+    "published_at": "2026-09-01T20:23:13+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 企業版與團隊版現已支援為個人用戶預算設定到期日，到期後系統自動移除該預算，用戶將回退至預設配額。此功能可幫助管理者更精細地控制 AI 工具支出。",
+    "highlights": [
+      "預算到期日為可選設定，管理員可批量配置",
+      "到期後用戶自動降回預設配額",
+      "功能已達全面可用（GA）狀態",
+      "有助於專案結束後的資源回收管理"
+    ],
+    "why_it_matters": "對於有多專案並行或外包團隊的技術管理者，精細化預算控制可有效避免 AI 工具費用超支，屬於降低工具成本的實用功能。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用此功能建立自動化預算生命週期：專案啟動時開通預算、結束時設定到期日，結合 CI/CD Pipeline 自動化管理 Copilot 資源分配。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-09-01-neuronto-agentic-resource-discovery-mcp",
     "title": "neuronto/agentic-resource-discovery: MCP 工具聯合發現引擎",
     "title_original": "neuronto/agentic-resource-discovery",
@@ -84,6 +276,33 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-09-02-codex",
+    "title": "開發者討論Codex長時任務的雲端託管方案",
+    "title_original": "Where do you host Codex so overnight jobs dont die with the laptop",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1w4m8sm/where_do_you_host_codex_so_overnight_jobs_dont/",
+    "published_at": "2026-09-01T19:23:45+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit上有一則討論詢問如何託管Codex以避免長時間任務因筆電關機而中斷。這反映開發者在實際使用中遇到的痛點：本地端AI任務需要穩定長時運行環境。",
+    "highlights": [
+      "Codex在本地運行時有任務持久性問題",
+      "開發者需要雲端或遠端託管方案",
+      "討論涉及VPS、Docker等部署選項",
+      "可能需要考慮API成本與延遲權衡"
+    ],
+    "why_it_matters": "此討論反映AI應用落地時的真實基礎設施需求，對需要在CI/CD流程中整合AI任務的開發者有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估將Codex任務移至雲端VPS或使用Railway/Render等平台，實現夜間批次任務的自動化執行。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-01-codex-libreoffice",
     "title": "Codex 桌面版內建 LibreOffice 全套工具鏈",
     "title_original": "Codex bundles LibreOffice",
@@ -133,6 +352,34 @@
     "automation_angle_zh": "技術人員可將此討論串設為 RSS 監控來源，快速捕捉值得測試的新模型發布，評估其是否符合團隊硬體條件與任務需求。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-02-simon-willison-geojson",
+    "title": "Simon Willison發布GeoJSON地圖檢視器工具",
+    "title_original": "GeoJSON Map Viewer",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/1/geojson/",
+    "published_at": "2026-09-01T18:05:45+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison在他的AI Notes部落格中介紹了一個GeoJSON地圖檢視器。該工具由GPT-5.6-Sol建議發想，經Claude Code與Fable 5.1迭代開發完成，可將GeoJSON檔案疊加顯示在地圖上並匯出PNG。",
+    "highlights": [
+      "整合多個政府資料源的邊界資料",
+      "支援同時顯示多個GeoJSON多邊形",
+      "可匯出地圖為PNG圖片",
+      "展示AI輔助程式開發的工作流程程",
+      "可用ChatGPT Work自動抓取政府開放資料"
+    ],
+    "why_it_matters": "這是一個可直接使用、已完成的工具，展示AI輔助開發的實際應用，對需要處理地理空間資料的開發者有直接價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可直接存取simonwillison.net連結，在自己的專案中使用類似流程自動化地理資料處理，或測試整合政府開放資料API。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
@@ -393,6 +640,33 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-09-02-claude-fable-5-1-github-copilot",
+    "title": "Claude Fable 5.1 正式登陸 GitHub Copilot",
+    "title_original": "Claude Fable 5.1 is generally available in GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
+    "published_at": "2026-09-01T14:29:23+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 推出的 Claude Fable 5.1 模型（隸屬 Mythos 系列）現已全面進駐 GitHub Copilot。該模型專為長時程、自主性程式開發與知識工作任務設計，可望提升 Copilot 在複雜多步驟任務中的表現。",
+    "highlights": [
+      "Claude Fable 5.1 隸屬 Anthropic Mythos 系列旗艦模型",
+      "定位於長時程自主程式開發與知識工作",
+      "現已可在 Copilot 全體驗中使用（含 Chat、Agent、內聯補全）",
+      "與停用的舊模型形成明顯升級對比"
+    ],
+    "why_it_matters": "新模型上線代表 Copilot 核心能力升級，若其長程推論能力顯著提升，技術宅可將其用於更複雜的自動化腳本生成與重構任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 Copilot 中切換至 Claude Fable 5.1，針對跨檔案重構、測試生成等長任務進行實測，評估其能否取代部分手動coding工作。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-09-01-amazon-kiro-crew",
     "title": "Amazon Kiro Crew编程前端工具宣布開源",
     "title_original": "Kiro Crew (Amazon's coding frontend) is open source",
@@ -615,6 +889,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-02-gilbert-tobin-ai-openai",
+    "title": "Gilbert + Tobin 律師事務所的企業級 AI 治理實踐：OpenAI 案例分享",
+    "title_original": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/gilbert-tobin",
+    "published_at": "2026-09-01T01:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方博客介紹澳洲律所 Gilbert + Tobin 如何在 CEO 帶頭承諾下建立嚴謹 AI 治理框架，規模化部署 ChatGPT Enterprise 與 Codex，同時保持人類問責機制。案例反映企業在合規、資料安全與效率之間的取捨策略。",
+    "highlights": [
+      "CEO 領導的頂層 AI 承諾是規模化推動關鍵",
+      "建立明確的 AI 使用治理政策與審核流程",
+      "ChatGPT Enterprise 與 Codex 共同支撐法律文件自動化",
+      "強調人類最終把關以符合專業責任要求",
+      "可供其他專業服務機構參考的治理範本"
+    ],
+    "why_it_matters": "對技術決策者而言，該案例展示了在高度監管行業中，如何在安全合規的前提下引入生成式 AI；類似的治理框架思路可移植至金融、醫療等需高合規標準的技術團隊。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術架構師可借鏡其「AI 使用分級授權」與「人類覆核關卡」設計，用於評估哪些工作流程適合完全自動化，哪些仍需專家覆核，以在效率與風險控制間取得平衡。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-09-01-wrapture-python",
     "title": "wrapture：Python 單元測試與追蹤包裝庫",
     "title_original": "Introducing wrapture",
@@ -718,6 +1020,33 @@
     "automation_angle_zh": "技術管理者應查閱完整 Changelog，評估政策變更對團隊 Copilot 使用的實際影響，必要時調整組織架構或重新分配 seat 以確保關鍵模型的持續存取。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-02-github-copilot",
+    "title": "GitHub Copilot 多款模型正式停用",
+    "title_original": "Selected GitHub Copilot models deprecated",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated",
+    "published_at": "2026-08-31T21:21:40+00:00",
+    "category": "hot-topics",
+    "summary": "GitHub Copilot 官方宣佈自 2026 年 9 月 1 日起，於 Copilot Chat、內聯編輯、提問與 Agent 模式、以及程式碼自動完成等多數體驗中，正式停用多款指定的 AI 模型。開發者需注意其慣用的模型已遭移除，並確認現有工作流程程是否受影響。",
+    "highlights": [
+      "停用範圍涵蓋 Copilot Chat、內聯編輯、Agent 模式及程式碼補全",
+      "官方 Changelog 已確認此變更為正式公告",
+      "受影響用戶需主動切換至仍支援的模型",
+      "此次停用可能影響特定語言或框架的編碼輔助品質"
+    ],
+    "why_it_matters": "模型停用直接影響開發者的日常coding體驗，若慣用模型遭移除，可能需重新適配提示詞或切換工具鏈，屬於高優先級維運資訊。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可寫 Script 掃描現有專案中 Copilot 的模型呼叫日誌，快速確認哪些專案依賴即將停用的模型，確保無縫遷移。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
