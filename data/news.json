@@ -1,5 +1,167 @@
 [
   {
+    "id": "2026-09-03-langchain-agent-vodafone-monday-com",
+    "title": "LangChain 分析歐亞企業 Agent 部署：施耐德、Vodafone、monday.com 的规模化實踐",
+    "title_original": "Scaling Agents in Europe & The Middle East: Lessons from Schneider Electric, Vodafone, and monday.com",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/scaling-agents-in-europe-the-middle-east-lessons-from-schneider-electric-vodafone-and-monday-com",
+    "published_at": "2026-09-03T02:04:21+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布企業級 Agent 部署案例研究，涵蓋歐洲與中東地區如何建立共享 Agent 平台與 LLMOps 流程，並探討多智能體架構的觀測性、評估與控制機制。內容來自 Schneider Electric、Vodafone、monday.com 實際生產環境經驗。",
+    "highlights": [
+      "企業從單一 Agent 走向多 Agent 協作架構，需強化 observability 與 evaluation 能力",
+      "共享 Agent 平台成為降低重複開發成本的關鍵做法",
+      "施耐德、Vodafone、monday.com 提供不同產業場景的 Agent 應用參考",
+      "LLMOps 實踐包含 Prompt 版本管理、日誌追蹤、效能監控等要素"
+    ],
+    "why_it_matters": "相較於理論介紹，本文來自真實企業生產環境的 Agent 部署經驗，對計劃在組織內規模化推動 Agent 的技術決策者具有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可借鑒文中提到的平台化思路，將內部重複性工作流程程封裝為可復用的 Agent 模組，配合 LLMOps 工具鏈建立內部評估標準。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-vibevoice-asr-streaming",
+    "title": "微軟發布 VibeVoice-ASR-Streaming 即時語音識別模型",
+    "title_original": "Microsoft VibeVoice-ASR-Streaming Released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5trnb/microsoft_vibevoiceasrstreaming_released/",
+    "published_at": "2026-09-03T01:40:39+00:00",
+    "category": "new-models",
+    "summary": "微軟正式發布 VibeVoice-ASR-Streaming，這是一款專為流式語音識別設計的模型。該模型針對即時轉錄場景優化，可應用於會議記錄、直播字幕生成、語音助理等需要低延遲的場景，代表微軟在語音 AI 領域持續投入的最新成果。",
+    "highlights": [
+      "VibeVoice-ASR-Streaming 支援即時流式語音轉文字",
+      "模型針對低延遲場景進行專門優化",
+      "可用於會議記錄、直播字幕、語音助理等應用",
+      "可部署在本地或雲端環境"
+    ],
+    "why_it_matters": "對於需要即時語音處理的開發者而言，這提供了一個新的本地部署選擇，可在不依賴雲端服務的情況下實現低延遲語音識別，保護資料隱私同時控制成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在本地環境部署 VibeVoice-ASR-Streaming，用於自動化會議記錄生成、直播即時字幕或語音命令解析等工作流程程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-chrome-llm",
+    "title": "Chrome 擴展程式使用本地 LLM 自動分類書籤",
+    "title_original": "Chrome browser add-on that uses local LLMs to move thousands of unsorted bookmarks into a smart list of automatically calculated categories",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5svj4/chrome_browser_addon_that_uses_local_llms_to_move/",
+    "published_at": "2026-09-03T01:00:09+00:00",
+    "category": "agent-skills",
+    "summary": "一款 Chrome 瀏覽器擴展程式利用本地 LLM 技術，可自動將數千個未分類的書籤整理為智慧分類列表。該工具展示了大模型在個人資訊管理自動化的應用潛力，讓使用者無需手動整理即可獲得結構化的書籤管理。",
+    "highlights": [
+      "Chrome 擴展程式支援本地 LLM 運行",
+      "可處理數千個未分類書籤",
+      "自動生成智慧分類列表",
+      "無需上傳資料到雲端，保護隱私"
+    ],
+    "why_it_matters": "這展示了 LLM 在個人資訊管理自動化的實際應用，技術人員可借鑒此模式開發其他文件自動分類工具，同時本地運行確保資料不會外洩。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可安裝此擴展或參考其開源實現，開發針對個人文件、郵件、任務等的自動分類自動化流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-langchain-nevermined",
+    "title": "LangChain 與 Nevermined 合作：代理可自主買賣服務",
+    "title_original": "LangChain 與 Nevermined 合作：代理可自主買賣服務",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/agents-that-pay-how-nevermined-empowers-langchain-agents-to-buy-and-sell-services",
+    "published_at": "2026-09-03T00:37:59+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格介紹 Nevermined 框架，讓 LangChain 代理具備區塊鏈支付的自動化服務交易能力。代理可依據任務需求自動購買第三方 API 或資料服務，執行完後再結算費用。",
+    "highlights": [
+      "代理可據任務需求自動購買付費服務",
+      "區塊鏈智慧合約保障交易雙方",
+      "降低人類干預的代理工作流程程門檻",
+      "與 LangChain 現有工具有良好整合"
+    ],
+    "why_it_matters": "這代表 AI 代理從被動工具轉變為能自主完成多步驟商務流程的主體；對於需要整合多付費 API 的自動化系統設計有直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估是否可將現有 LangChain 工作流程中的付費 API 替換為 Nevermined 代理自主呼叫模式，減少人工審批環節。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-perplexity-mac-qwen-3-6",
+    "title": "Perplexity 開源 Mac 推論伺服器支援 Qwen 3.6",
+    "title_original": "Perplexity open-sourced their Mac inference server for Qwen 3.6",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5ozl4/perplexity_opensourced_their_mac_inference_server/",
+    "published_at": "2026-09-02T22:13:47+00:00",
+    "category": "open-source-ai",
+    "summary": "Perplexity 在 Reddit r/LocalLLaMA 社群開源了他們的 Mac 推論伺服器，現在支援阿里 Qwen 3.6 模型。此專案讓蘋果晶片使用者能在本地端執行大語言模型推論，降低雲端 API 依賴與成本。",
+    "highlights": [
+      "支援 Apple Silicon（M1/M2/M3）原生 Metal 加速",
+      "可離線執行 Qwen 3.6 系列模型",
+      "降低延遲，適合本地快速迭代開發",
+      "開源授權允許商業使用修改"
+    ],
+    "why_it_matters": "對想在 Mac 本機跑開源模型省 API 費用的開發者來說，這是可直接測試的工具鏈；蘋果開發者可在不依賴雲端的情況下做 AI 功能實驗。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即 clone 專案，設定 Qwen 3.6 量化版本，在本地跑 prompt 測試 latency與輸出品質，評估是否可替代現有雲端 API 工作流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-linux-llm",
+    "title": "社群討論：尋找適用於 Linux 命令生成的小型 LLM",
+    "title_original": "Looking for a small LLM for Linux command generation",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5odwo/looking_for_a_small_llm_for_linux_command/",
+    "published_at": "2026-09-02T21:50:37+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群成員正在尋找可用於生成 Linux 命令的小型 LLM 模型。這反映了開發者對於在本地運行、能輔助命令生成的輕量級 AI 工具的需求，討論中可能會提及適用於此場景的候選模型及其表現。",
+    "highlights": [
+      "社群成員尋找專門用於命令生成的小型 LLM",
+      "重點在於模型體積小且能在本地運行",
+      "目標場景為輔助 Linux 命令編寫",
+      "討論中可能包含實測結果分享"
+    ],
+    "why_it_matters": "小型本地 LLM 可在保護命令隱私的前提下提供命令輔助，對於需要在安全環境中工作的技術人員具有實用價值，同時可降低 API 調用成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可根據社群討論結果評估合適的小型 LLM，用於本地開發環境中的命令自動生成、腳本輔助編寫等場景。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-02-safeai-ai-agent",
     "title": "SafeAI：AI Agent安全靜態分析工具",
     "title_original": "ikaruscareer/SafeAI",
@@ -105,6 +267,34 @@
     "why_it_matters": "組織可根據程式碼審查、測試生成、重構等不同場景指定專用模型，提升團隊協作效率與成本控制。",
     "automation_angle": null,
     "automation_angle_zh": "技術主管可在企業設定中針對不同團隊或專案配置性價比最優的預設模型，統一管理Copilot成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-03-github-copilot-app-cli",
+    "title": "GitHub Copilot 內容排除功能正式登陸 App 與 CLI",
+    "title_original": "Content exclusions generally available in Copilot app and CLI",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
+    "published_at": "2026-09-02T18:14:23+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布企業、組織與倉庫管理員設定的內容排除原則（Content Exclusion），現已完整適用於 Copilot App 與 Copilot CLI。被排除的檔案不會成為 Copilot 上下文，有助保護敏感程式碼不被納入 AI 推論。",
+    "highlights": [
+      "Content Exclusion 從 Beta 升級為正式 GA",
+      "同時支援 Copilot App 與 Copilot CLI 兩端",
+      "管理員可在企業、組織、倉庫三層級設定排除規則",
+      "被排除檔案明確不會被讀取作為上下文",
+      "對處理內部專屬演算法或機密商業邏輯的團隊有直接幫助"
+    ],
+    "why_it_matters": "對企業開發者而言，Content Exclusion GA 代表 Copilot 已可在正式環境中遵守安全邊界，避免敏感程式碼外流，是安全合規應用 AI 輔助的重要里程碑。",
+    "automation_angle": null,
+    "automation_angle_zh": "在企業或組織層級檢查 Copilot 內容排除設定，確保內部敏感模組（如專利演算法、內部 SDK）已正確加入排除清單，再啟用 Copilot 輔助開發。",
     "tags": [
       "agent-skills",
       "rss",
@@ -560,6 +750,32 @@
       "agent-skills",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-ai",
+    "title": "韓亞卡攜手愛國卡推出官兵專屬 AI 優惠方案",
+    "title_original": "韩亚卡為爱国卡新增人工智慧優惠……支援官兵数字生活- 阿视亚經济 - 아시아경제",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hYThuTG1ZbmktRWg0SjMydWg3U1hZUFJaNFpicm5tWVBVaXpGMDlqYm16bDFKNU1fZFpSSnozQXFhZWpGRDFMTnhlaU1oSTlSNm94a2wxNFY4VXY1UHY5a3U0Nlc?oc=5",
+    "published_at": "2026-09-02T00:03:17+00:00",
+    "category": "ai-deals",
+    "summary": "南韓韓亞卡與愛國卡合作推出 AI 相關優惠，主要服務對象為韓國官兵群體，提供特定 AI 工具與服務的折扣或免費額度。此優惠屬特定地區、特定族群，不具普遍參考價值。",
+    "highlights": [
+      "針對韓國軍人族群的地方性優惠",
+      "優惠內容與額度資訊不明確",
+      "非技術讀者普遍適用的 AI 工具情報"
+    ],
+    "why_it_matters": "此優惠為韓國特定族群專屬，對國際技術讀者實用性極低；建議技術讀者專注其他可實際部署的工具情報。",
+    "automation_angle": null,
+    "automation_angle_zh": "此資訊實用性不足，建議跳過；建議將精力投入本列表中其他具有實際技術價值的工具評測。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -49962,6 +50178,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-03-anthropic-sonnet-5-ai",
+    "title": "Anthropic 發布 Sonnet 5 模型，性能可比旗艦 AI",
+    "title_original": "Anthropic's Sonnet 5 rivals flagship AI - VentureBeat",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNX1A2aGp1cnl6YnNVbjd3OVFjaXd4V1cxdUQtNVpYeE9BYVdVRktqSHBuTmN1TEFGeEtucThUMWZ0cjFLZlJXWWx4T1NyS3JUYktOWVkxQ2g4emFhTjBsVTltTkFOcXY0ZVM2RFhNbHg0YW5hSnF6TU9uMDZ6eGZKS1Z6YU5Lc3NLc05zTmFyaWxVUTljQVJEVEpqM0JYZXNodmZEbmZKUXhFOEEtZC12MDQtUno3ZGVnQmxQeFgwcHNQZk00Sk9sc1NhOVg5VDlYMmtnZFM3c3lMNDVHaTVsekV6SlB2VzQ?oc=5",
+    "published_at": "2026-06-30T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 發布 Sonnet 5 模型，根據 VentureBeat 報道，該模型在多項基準測試中表現可與目前頂級 AI 模型競爭。Sonnet 系列定位為高效能且成本效益較佳的選項，此次更新代表 Anthropic 在模型能力上的進一步突破。",
+    "highlights": [
+      "Sonnet 5 是 Anthropic 最新發布的模型版本",
+      "在基準測試中與旗艦 AI 模型表現相當",
+      "Sonnet 系列強調性價比平衡",
+      "可能具備更強的推論或多模態能力"
+    ],
+    "why_it_matters": "Sonnet 5 的發布為開發者提供了新的模型選擇，其與旗艦模型比肩的能力可能意味著更低的成本與相當的效能，值得評估其是否適合替代現有工作流程程中的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可評估 Sonnet 5 的 API 定價與能力表現，測試其在程式碼生成、文件處理、對話系統等場景的表現，判斷是否可作為現有流程的替代或補充方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-30-tesla-v100-16gb-llm-nvlink",
     "title": "Tesla V100 16GB 本地執行 LLM 效能實測：單卡與雙 NVLink 對比",
     "title_original": "Tesla V100 16GB local LLMs, single and dual NVLink benchmarks",
@@ -92040,6 +92283,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-03-alteryx-ai",
+    "title": "Alteryx 新功能瞄準 AI 驅動自動化企業市場",
+    "title_original": "Latest Alteryx features aim to boost AI-powered automation - TechTarget",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU2t5Vkl2dy1jT0pZYXc1bG5lUnZsZ0VVeThLbEk3T09xZ2VBaDV5Tlc4WWlTTEZnTW8zMkxLS3FrVzlZQUsyYm5ObXBqREZoMnBuOHZmeXNaNE9adHItUjA0MWRYSDdId1RFRmtoNmFkTnVtNk9rb2hsODAwcmhlRWdfYk9kaE5iaDMxUE5sdmMtUTVHX3BnaksyRURMdHZzczlfbURBd290MTdmUDFxRTV5cnRTWnA5M0E?oc=5",
+    "published_at": "2026-05-20T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Alteryx 發布最新版平台更新，新增多項以 AI 為核心的自動化功能，包括自然語言查詢增強、智能資料準備建議，以及工作流程程自動生成，瞄準企業級資料分析自動化市場。",
+    "highlights": [
+      "自然語言轉 SQL /資料查詢功能",
+      "AI 輔助資料清洗與格式標準化",
+      "拖放式工作流程 AI 自動生成",
+      "支援與主流 BI 工具深度整合"
+    ],
+    "why_it_matters": "對於需要處理大量結構化資料的非技術業務團隊，可降低資料準備門檻；對技術團隊而言，了解競品能力有助於評估內部工具需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "若企業內有重複性資料處理流程，可申請試用評估 AI 功能是否能自動化部分 ETL 工作，估算人時節省效益。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-20-qveris-agent-toolkit-agent",
     "title": "QVeris Agent Toolkit：Agent 能力路由網路的開源工具包",
     "title_original": "QVerisAI/qveris-agent-toolkit",
@@ -94095,6 +94365,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-03-chatgpt-plus-openai",
+    "title": "全球首個全民免費使用 ChatGPT Plus 的國家出爐，OpenAI 正式宣布",
+    "title_original": "全球首個全民免費用ChatGPT Plus的国家，OpenAI官宣了 - 智源社区",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QR29vN0U0RmNrbjU4Z3hCZ3l1MUNqRFZXU1pOcnhkNHRpbkhsZHpGVldyWEpFVkVsT01DU0NwYWJfLWpJa1laeg?oc=5",
+    "published_at": "2026-05-18T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 正式宣布與某一國家合作，推出全球首個全民免費使用 ChatGPT Plus 的計畫。此舉代表 OpenAI 在公共服務與 AI 普及化方面的重大戰略布局，可能為其他國家的合作模式樹立先例，對於想要了解 AI 公共化發展的技術人員具有參考價值。",
+    "highlights": [
+      "OpenAI 宣布與特定國家合作推出全民免費 ChatGPT Plus",
+      "這是全球首個由官方主導的全國性 AI 服務免費化計畫",
+      "可能涉及政府補貼或特殊協議條款",
+      "為其他國家的地AI普及化提供參考模式"
+    ],
+    "why_it_matters": "此類國家級合作可能開創 AI 公共服務新模式，讓技術人員評估是否會有更穩定的 API 額度或特殊取用途徑，同時觀察 OpenAI 的商業策略調整。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可關注該合作是否提供 API 特殊費率或測試環境申請，以便評估在工作流程程中整合 ChatGPT 的成本優化可能性。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-18-gpt-5-3-codex-copilot-business-enterprise",
     "title": "GPT-5.3-Codex 正式成為 Copilot Business 與 Enterprise 底層模型",
     "title_original": "GPT-5.3-Codex is now the base model for Copilot Business and Enterprise",
@@ -95691,6 +95988,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-03-ai-openrouter",
+    "title": "AI 閘道服務比較：OpenRouter 替代方案評測",
+    "title_original": "AI Gateways for OpenAI: OpenRouter Alternatives - AIMultiple",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE12bjNfUnloNWJjTkE3bVJvTlVtaXB6MTlsX2N3LWp2Q0trSUtnbFVzLW1pekdKSGhJZ0pOQ2lZYXpUMHM3MTE0bA?oc=5",
+    "published_at": "2026-05-13T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "AIMultiple 發布報告，評測多個可作為 OpenRouter 替代品的 AI API 閘道服務，涵蓋支援模型數量、定價模式、延遲表現及可用性等維度，協助開發者選擇成本最優方案。",
+    "highlights": [
+      "列出 5 個以上 OpenRouter 替代方案",
+      "價格比較含隱藏費用分析",
+      "延遲 benchmark 數據可供參考",
+      "針對不同使用場景推薦合適方案"
+    ],
+    "why_it_matters": "對於日均 API 呼叫量大的開發團隊，選擇合適的 AI 閘道可節省 20-40% 成本；本報告提供可量化的比較基礎。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據報告中的 benchmark 數據，選擇 2-3 個替代方案做小規模流量測試，計算單位 token 成本差異，評估是否值得遷移。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-13-jeecgboot-ai-46k",
     "title": "JeecgBoot：AI 驅動的低代碼平台，46k 星",
     "title_original": "jeecgboot/JeecgBoot",
@@ -96926,6 +97250,33 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/4158466?v=4",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-03-anthropic-cursor",
+    "title": "Anthropic 模型驅動 Cursor 誤刪公司資料庫後自動承認",
+    "title_original": "Anthropic-Powered Cursor Wiped a Company's Database, Then Told on Itself - Yahoo Finance",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLVJNcV9hdm4zbV9hTjdLdnE5WjYyMW9JcTlwTHV3UktWOHctQ0M3Sk9Ib2FDQUlYanpXSjktSUMxT01peEFlWVFvNHZOWHN3S2d3NlVHT0Q4ZHhVMmV4LVg2Tkl2SWNMQ2RmZWZnUF85aTh6U0FyMEpSVnNYUGNOdU9hZDBBSzZSdFk1VVZtQQ?oc=5",
+    "published_at": "2026-04-29T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "媒體報導一款整合 Anthropic Claude 模型的 Cursor IDE 在執行任務時意外刪除企業資料庫，隨後系統自動向管理員回報事故。此事件再次暴露 AI 代理在生產環境中的風險控制不足問題。",
+    "highlights": [
+      "AI IDE 在真實生產環境造成資料損失",
+      "系統具備自我通報機制但未能阻止事故",
+      "暴露 agent 工具調用安全邊界問題",
+      "引發對 AI 編碼輔助工具部署策略的檢討"
+    ],
+    "why_it_matters": "此案例提醒技術主管在讓 AI 代理直接操作生產系統前必須建立完善的熔斷機制；對正在部署 AI 編碼工具的團隊有警示意義。",
+    "automation_angle": null,
+    "automation_angle_zh": "檢查內部 AI 編碼工具的權限設定，確保資料庫操作需要二次確認，並建立審計日誌追蹤所有 AI 觸發的寫入行為。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-15-nvidia-nemotron-3-nano-omni",
@@ -99256,6 +99607,32 @@
     "automation_angle_zh": "閱讀此類分析有助評估 Meta 生態系長期穩定性，作為技術選型風險考量參考。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-ai-reset-to-zero-meta-ai",
+    "title": "AI: Reset to Zero 分析：Meta 接近發布下一代 AI 模型反擊",
+    "title_original": "Meta delays release of new AI, weighs licensing Google's Gemini after disappointing trial runs: report - nypost.com",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTnhJOVFtd2NVSXJJTlVsb09BYkYxQnVZX2pEb2xsM1dBeEJNeDBqeFBPZmFTSHU5a3Fjd0xhREJjdDFqcENZbzdXUVlWUXNVQUcyVi02dGtaOVVKRmpTbDFBbXFaeVUxVTNMRU1wdWdXelRrVE8zNlBoY2FfZDVGbUNPd2JMNDA4M1pQOU9UTThZcXRFUkE1VS1lREVxNFhyZEsyRndNVTZ3NTdDSGI1UHl0djRBMW9JMU0yVnZyMFFkY3dlS3ZYVXh6VVF3WjlSVHA1ZVpB?oc=5",
+    "published_at": "2026-03-13T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "AI: Reset to Zero 部落格分析 Meta 近期 AI 發展動態，指出 Meta 正接近發布下一代模型，可能對市場競爭格局產生顯著影響。內容屬第三方分析，非 Meta 官方聲明。",
+    "highlights": [
+      "Meta AI 發展进入關键阶段，下一代模型可能近期亮相",
+      "分析指出 Meta 在開源與闭源模型间寻求平衡策略",
+      "文章為技術圈分析觀點，非直接消息來源"
+    ],
+    "why_it_matters": "作為 AI 行業重要廠商，Meta 的模型進展值得關注，但第三方分析需與官方資訊交叉驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議追蹤 Meta 官方 Llama 相關公告，待正式發布後評估新模型在特定任務上的性價比與能力表現。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
