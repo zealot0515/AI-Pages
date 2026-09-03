@@ -1,5 +1,254 @@
 [
   {
+    "id": "2026-09-03-github-copilot",
+    "title": "GitHub Copilot 十月二日停用特定模型，開發者需提前因應",
+    "title_original": "Upcoming deprecation of selected GitHub Copilot models",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+    "published_at": "2026-09-03T19:40:14+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方公告指出，將於 2026 年 10 月 2 日停用多款 Copilot 模型，涵蓋 Copilot Chat、內聯編輯、提問模式、代理模式及程式碼自動完成等功能。依賴這些模型的開發者需在停用日前完成遷移或替代方案評估。",
+    "highlights": [
+      "2026 年 10 月 2 日為停用生效日期",
+      "停用範圍包含 Chat、內聯、提問、代理、程式碼補全全場景",
+      "依賴舊模型的現有工作流程可能受影響",
+      "建議儘早檢視專案所用模型版本",
+      "Gemini 3.8 Flash 已列為 Copilot 新支援模型之一"
+    ],
+    "why_it_matters": "若開發者的現有 Copilot 工作流程依賴即將停用的模型，十月後可能面臨功能降級或失效。提前盤點並測試替代模型是維持生產力的必要步驟。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可登入 GitHub Copilot 設定，檢查目前專案所使用的模型 ID，若涉及停用清單則立即規劃遷移至 Gemini 3.8 Flash 或其他支援模型。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-03-quartermaster-ai",
+    "title": "Quartermaster：開源本地 AI 平台兼顾易用性與彈性",
+    "title_original": "Introducing Quartermaster, an open source local AI platform designed for ease of use that does not sacrifice customizability",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6hnpd/introducing_quartermaster_an_open_source_local_ai/",
+    "published_at": "2026-09-03T19:36:06+00:00",
+    "category": "open-source-ai",
+    "summary": "Quartermaster 是一款新興開源本地 AI 平台，主打易用性同時不犧牲客製化能力。旨在讓非專業使用者也能輕鬆部署本地 AI 解決方案。",
+    "highlights": [
+      "開源本地 AI 部署平台",
+      "強調易用性與客製化並存",
+      "目標降低本地 AI 部署門檻",
+      "Reddit 社群發布，詳細功能待驗證"
+    ],
+    "why_it_matters": "若 Quartermaster 能簡化本地 AI 部署流程，對重視資料隱私或希望降低 API 成本的開發者有吸引力。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝測試 Quartermaster，評估其是否能替代現有的本地推論設定，特別是針對非技術團隊成員。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-google-timesfm-3-3-3",
+    "title": "Google 發布 TimesFM-3：3.3 億參數時序基礎模型",
+    "title_original": "Google released TimesFM-3, a 330M-parameter time series foundation model with native multivariate forecasting (non-commercial license)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6hlpt/google_released_timesfm3_a_330mparameter_time/",
+    "published_at": "2026-09-03T19:34:06+00:00",
+    "category": "new-models",
+    "summary": "Google 發布 TimesFM-3，這是一款擁有 3.3 億參數的時序預測基礎模型，具備原生多變量預測能力。採用非商業許可，適合研究與個人實驗。相較於前代版本，模型規模與功能有所提升，為時序分析領域提供新的開源選擇。",
+    "highlights": [
+      "330M 參數規模的時序預測模型",
+      "支援原生多變量時間序列預測",
+      "非商業許可（Non-commercial license）",
+      "Google Research 官方發布",
+      "可用於需求預測、異常檢測等場景"
+    ],
+    "why_it_matters": "時序預測在零售供應鏈、金融風控、IoT 監控等場景需求廣泛。開源且本地可部署的 TimesFM-3 讓技術團隊能以較低門檻實驗先進預測能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可將 TimesFM-3 整合進現有數據管道，測試在銷售預測、設備維護預測或流量預測等場景的準確率，評估是否值得從傳統統計方法遷移。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-gemini-3-8-flash-github-copilot",
+    "title": "Gemini 3.8 Flash 進駐 GitHub Copilot，終端複雜任務表現亮眼",
+    "title_original": "Gemini 3.8 Flash is now available in GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
+    "published_at": "2026-09-03T18:50:38+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方宣布 Google 最新 Flash 模型 Gemini 3.8 Flash 已登陸 Copilot。初期測試顯示其在複雜終端指令相關程式任務上表現突出，並具備嚴謹的推論能力。此為 Copilot 模型選擇的最新官方更新。",
+    "highlights": [
+      "Gemini 3.8 Flash 為 Google 最新 Flash 等級模型",
+      "已可在 GitHub Copilot 所有體驗模式中使用",
+      "初期測試顯示複雜終端任務表現佳",
+      "GitHub 官方強調其在指令式程式任務的嚴謹性",
+      "可作為 Copilot 模型停用後的替代選項之一"
+    ],
+    "why_it_matters": "Gemini 3.8 Flash 的加入為 Copilot 用戶提供一個高效能替代選項，尤其適合需要處理複雜終端指令或對成本敏感的開發場景，可立即試用評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 Copilot 設定中將模型切換至 Gemini 3.8 Flash，針對終端腳本、CLI 工具開發等場景進行實測，對比原有模型在速度和準確度的差異。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-03-micron-gpu-nand-flash-llm",
+    "title": "Micron 探索近 GPU NAND Flash 技術以運行更大規模 LLM",
+    "title_original": "Micron Explores Near-GPU NAND Flash to Run Bigger LLMs",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6e6u2/micron_explores_neargpu_nand_flash_to_run_bigger/",
+    "published_at": "2026-09-03T17:35:14+00:00",
+    "category": "hot-topics",
+    "summary": "記憶體大廠 Micron 正在探索新型近 GPU NAND Flash 架構，目標是在有限 GPU 記憶體下運行更大規模的 LLM 模型。此技術可能改變推論部署的成本結構。",
+    "highlights": [
+      "硬體層面的記憶體擴展技術研究",
+      "目標突破 GPU VRAM 限制以部署更大模型",
+      "目前仍屬研究階段，量產時程未知",
+      "可能對本地部署與邊緣推論成本產生影響"
+    ],
+    "why_it_matters": "若成熟可大幅降低大模型部署的硬體門檻，讓技術人員在消費級硬體上運行更大模型，影響深遠但距離實用尚有距離。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可關注此技術進展，作為未來自建推論叢集的硬體選型參考，目前階段暫不影響現有工作流程程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-langchain-mcp",
+    "title": "LangChain 正式支援 MCP：無狀態協議與中斷机制",
+    "title_original": "MCP in LangChain: Stateless Protocol, Elicitation, and More!",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more",
+    "published_at": "2026-09-03T17:09:46+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 宣佈其 langchain.mcp 模組正式支援 MCP（Model Context Protocol），基於 FastMCP 實現 2026-07-28 版本規格。Elicitation 機制現在作為 LangGraph interrupt 處理，工具列表支援快取。這代表 LangChain 生態系與外部工具的整合進入標準化時代。",
+    "highlights": [
+      "langchain.mcp 已正式發布，基於 FastMCP 實作",
+      "支援 2026-07-28 版 MCP 規格",
+      "Elicitation 改為 LangGraph interrupt 機制",
+      "工具列表現在支援快取以提升效能",
+      "LangChain 與外部工具有統一的通訊標準"
+    ],
+    "why_it_matters": "MCP 作為 AI 工具互聯的標準協議，LangChain 全面支援代表開發者可以更一致地整合各類工具，降低客製化適配成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者現在可用 langchain-mcp 統一管理外部工具呼叫，測試不同 MCP Server 的互通性，建構更穩定的 agent 流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-modelscope-hugging-face-nvidia",
+    "title": "ModelScope 成為 Hugging Face 替代方案：NVIDIA 合作案塵埃落定",
+    "title_original": "\"ModelScope\" Is a Hugging Face Alternative now that Nvidias deal is a Go",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6bkkh/modelscope_is_a_hugging_face_alternative_now_that/",
+    "published_at": "2026-09-03T16:02:32+00:00",
+    "category": "open-source-ai",
+    "summary": "隨著 NVIDIA 與 Hugging Face 合作案確認，社群開始關注 ModelScope 作為替代模型平台的可能性。ModelScope 提供另一套模型發現、托管與分享的生態系，對需要多元化模型來源的技術使用者具有一定吸引力，但實際模型數量與生態成熟度仍有待觀察。",
+    "highlights": [
+      "ModelScope 提供模型托管與發現服務",
+      "與 Hugging Face 形成潛在替代或互補關係",
+      "NVIDIA 與 Hugging Face 合作引發社群關注",
+      "模型數量與生態成熟度待驗證",
+      "對中國市場用戶可能更易訪問"
+    ],
+    "why_it_matters": "模型分發平台的多元化對技術社群有利，可避免單一平台依賴。技術宅應關注 ModelScope 的模型品質與穩定性，避免被行銷宣傳誤導。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可註冊 ModelScope 帳號，對比同類模型在不同平台的可取得性與效能，評估是否需要建立多平台模型獲取策略。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-antling-ling-3-0-flash-fin",
+    "title": "AntLing 開源 Ling-3.0-flash-Fin：金融增強模型瞄準實際工作流程",
+    "title_original": "AntLing open sourced Ling-3.0-flash-Fin, a finance-enhanced model for real-world workflows",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6bb0b/antling_open_sourced_ling30flashfin_a/",
+    "published_at": "2026-09-03T15:53:17+00:00",
+    "category": "open-source-ai",
+    "summary": "AntLing 在 Reddit r/LocalLLaMA 宣布開源 Ling-3.0-flash-Fin，專為金融場景優化的輕量級模型。該模型瞄準實際工作流程應用，強調金融領域的專業能力。目前詳細技術規格與 Benchmark 數據尚未完整揭露，需進一步追蹤社群回饋與實際表現。",
+    "highlights": [
+      "開源金融增強模型，支援本地部署",
+      "瞄準實際金融工作流程場景",
+      "輕量級版本（flash）降低推論成本",
+      "技術規格與 Benchmark 數據待確認",
+      "可部署於本地環境避免敏感數據外流"
+    ],
+    "why_it_matters": "金融領域對 AI 有嚴格資料保密需求，本地可部署的開源金融模型填補了市場空白。技術宅可評估其對現有内部金融分析流程的替代價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可將其部署於本地伺服器，測試在財務報表分析、風險評估或客服自動化等場景的表現，並評估與現有閉源 API 的成本效益比。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-ling-3-0-flash-fin",
+    "title": "Ling-3.0-flash-Fin 模型權重開源發布",
+    "title_original": "Ling-3.0-flash-Fin weights released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6b26t/ling30flashfin_weights_released/",
+    "published_at": "2026-09-03T15:44:24+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群用戶宣布 Ling-3.0-flash-Fin 的模型權重已開源發布。這是一款針對本地部署最佳化的語言模型，社群正積極進行測試與優化。",
+    "highlights": [
+      "模型權重已釋出，可下載使用",
+      "由社群驅動的開源項目",
+      "針對本地部署場景設計",
+      "Reddit 為主要資訊來源，細節待驗證"
+    ],
+    "why_it_matters": "開源本地模型持續增加，開發者有更多離線、低成本的 AI 選項。需驗證其實際表現與資源需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載權重後在本地硬體測試推論速度與任務準確度，評估是否適用於離線工作流程程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-03-devprojex-llm-token",
     "title": "DevProjex：為 LLM 打造安全、Token 高效的程式碼上下文",
     "title_original": "Avazbek22/DevProjex",
@@ -50,6 +299,34 @@
     "automation_angle_zh": "對氣象資料科學家而言，可評估此模型的預測 API 或開源版本，用於替代或增強現有天氣資料源。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-03-github-copilot-business-enterprise",
+    "title": "GitHub Copilot Business 與 Enterprise 重新開放註冊",
+    "title_original": "Reopening Copilot Business and Enterprise signups",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
+    "published_at": "2026-09-03T14:40:43+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布將逐步重新開放 Copilot Business 與 Enterprise 的信用卡/PayPal 付款方式註冊。在過去數週暫停新用戶註冊後，現在等待名單中的用戶終於可以開始使用。對於需要企業級 AI 輔助編程工具的團隊，這是及時的好消息。",
+    "highlights": [
+      "逐步重新開放 Business 與 Enterprise 方案",
+      "支援信用卡與 PayPal 付款方式",
+      "主要針對等待名單中的企業用戶",
+      "個人版 Copilot 之前已正常運作",
+      "企業級功能包含管理控制台與政策設定"
+    ],
+    "why_it_matters": "企業級 Copilot 重新開放註冊，讓技術團隊終於能正式引入 AI 編程輔助工具。對於正在評估或等待審批的企業 IT 決策者，這是啟動採購流程的信號。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術主管可借此機會推動內部 Copilot 部署，利用企業管理後台設定團隊使用政策，評估對整體開發效率的實際影響。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
@@ -133,6 +410,34 @@
     "automation_angle_zh": "找到專案 GitHub 後，在相同任務上與現有方案進行 A/B 測試，驗證成本與準確率宣稱是否屬實。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-anthropic-claude-fable-5-1-75",
+    "title": "Anthropic 發布 Claude Fable 5.1，快取代幣定價降幅達 75%",
+    "title_original": "Anthropic Releases Claude Fable 5.1 and Cuts Cached Token Pricing by 75% - gHacks",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOV1ZsMVhNazlxc0h6LUJDTFlacUxMNXV6Z1lVdFI1eU10ak5XcFBRM1JzaHdlV1daRU5xN2JBbk9oWkpFcHFYWW1YWkV1NU40dDA1ZWtiX0k5dGJUU3QwdFQ4TnB2Y0Rma0g3elFGdGpPUm0xOEVjalJkZ2paQ3NMSFVUNk1DUi1pcmRyU0x5UGZ1YTFUUmgyVDhmaVNsRm1PSXpPUjBNMmw0Zw?oc=5",
+    "published_at": "2026-09-03T07:37:09+00:00",
+    "category": "new-models",
+    "summary": "根據 gHacks 報導，Anthropic 發布 Claude Fable 5.1 模型，並同步將快取代幣（Cached Token）定價大幅下調 75%。此降價措施將直接影響長上下文任務的單次使用成本，有利於需要頻繁重複參考同一上下文的開發者。",
+    "highlights": [
+      "Claude Fable 5.1 為 Anthropic 新版模型發布",
+      "快取代幣定價降幅達 75%，長上下文成本顯著降低",
+      "消息來源為 gHacks 次級新聞，仍需 Anthropic 官網確認",
+      "適用於需重複引用長篇幅上下文的 Agent 應用場景",
+      "降價可能促使更多長上下文商業應用落地"
+    ],
+    "why_it_matters": "快取代幣降價 75% 對於需要長時間對話或大量文件分析的 Agent 應用開發者而言，大幅降低單次任務成本，可重新評估商業可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 Claude API 控制台測量使用快取代幣前後的成本差異，重新計算長文件分析或複雜多輪對話場景的單位成本。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -2743,6 +3048,33 @@
     "why_it_matters": "對于预算有限但需要高频使用AI工具的学生和開發者，三個月免費額度足以完成一個学期的專案開發和论文撰写，可作為付费訂閱前的充分评估窗口。",
     "automation_angle": null,
     "automation_angle_zh": "開發者可验证学生身份後批量注册多個账号，用于測試豆包API與竞品在代码生成、数学推論等任务上的表现差异，建立個人評測基准。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-3",
+    "title": "豆包推出開學季學生優惠，送大學生 3 個月免費訂閱權益",
+    "title_original": "豆包推出開学季学生優惠，送大学生3個月免費訂閱权益 - 雷峰网",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBNMTFaUE5IWHRBckVjREs5enRaNGdtbm9xeU43R01RNS1fMmNCWEV6bkhKVHB1aXVCcDFDVWxKd2ZqSk0tdmdwZThncVVlMzV4UDhWcUNXdjROZ2tlTzR2V2doLTFmbmZmMGgxLWtCazIxR2JfZnlF?oc=5",
+    "published_at": "2026-08-31T05:40:00+00:00",
+    "category": "ai-deals",
+    "summary": "位元組跳動旗下 AI 助理「豆包」針對大學生推出開學季限時優惠，符合條件的在校大學生可獲得 3 個月免費高階訂閱。活動詳情顯示需透過指定頁面完成學生身份驗證，優惠內容包含豆包網頁版、Wap 端的付費功能暢用。",
+    "highlights": [
+      "提供 3 個月免費豆包高階訂閱",
+      "需透過開學季活動頁完成學生驗證",
+      "涵蓋豆包網頁版與 Wap 端付費功能",
+      "優惠截止時間與適用範圍需查閱原文確認"
+    ],
+    "why_it_matters": "豆包作為中國市場主要 AI 助理之一，學生優惠可降低技術開發者評估國產 AI 工具的成本。若功能達標，可作為 Copilot、Claude 的替代方案用於日常任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術開發者可利用此優惠測試豆包的 API 整合能力與長文本處理表現，評估是否適合整合至現有工作流程程。",
     "tags": [
       "ai-deals",
       "rss",
@@ -10902,6 +11234,33 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-genspark-ai-2026",
+    "title": "Genspark AI 教學指南（2026）",
+    "title_original": "Google宣布向美国大学生免費提供一年Google AI Pro及多項专属教育特权- Google 谷歌 - cnBeta.COM",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5yM01BZHNmaml5MHd5MVRka1R2djN3aWJkOTRyTTUtMHI1ekl0WktaVUUwNk9scW1VWkxDSzNfRW54QzFvdUc1dV9RLUJjTVkyRlZSZDlCWnoxbjRKSFg5MQ?oc=5",
+    "published_at": "2026-08-20T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "一篇來自 Pasquale Pillitteri 的 Genspark AI 使用指南，內容主要介紹 Genspark 的基本功能與全球使用方法。Genspark 是一款主打多模態搜尋與 AI 助理結合的工具，強調能快速整理網頁資訊並生成摘要，目前在中國市場有一定用戶基礎。",
+    "highlights": [
+      "Genspark 定位為 AI 搜尋與摘要工具",
+      "強調多模態內容理解與整理能力",
+      "文章偏向入門使用教學，非產品更新或技術深度分析",
+      "未提供具體定價或功能變更資訊"
+    ],
+    "why_it_matters": "該文章屬於基礎使用指南而非新聞報導，對技術使用者價值有限。若 Genspark 有新功能或定價變更才具體編報價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可作為 Genspark 初步評估參考，但建議直接查閱官方文件或等待具體功能更新的新聞報導。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -26767,6 +27126,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-03-agentic-ai-10",
+    "title": "Agentic AI 在資安領域：10 個應用案例",
+    "title_original": "Agentic AI for Cybersecurity: 10 Use Cases & Examples - AIMultiple",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRWFM1NTF5ZHBwcE9KdlpVb09xbzhJeTZ0UjIxdlRELXg2SEZhdXIwNzhSeDFxSzROZGgwSm1Nb1IyUE9ldnNxdXM2X1FwTnl0VWVSbDZZV2J4X2c?oc=5",
+    "published_at": "2026-07-30T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "AIMultiple 整理 agentic AI 在網路安全的 10 個應用案例，涵蓋威脅偵測、事件回應自動化、漏洞掃描等場景。Agentic AI 的自主規劃能力使其適合處理複雜的安全任務鏈。",
+    "highlights": [
+      "Agentic AI 可自動化威脅偵測流程",
+      "事件回應鏈可由 AI agent 自主執行",
+      "漏洞掃描與優先排序可AI自主判斷",
+      "減少資安人員處理重複性任務的負擔"
+    ],
+    "why_it_matters": "資安領域存在大量需要快速判斷與行動的任務，agentic AI 可顯著提升事件回應速度與覆蓋範圍。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估將 agentic AI 整合進現有 SIEM 或 SOAR 系統的可行性，測試自動化威脅獵殺流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-07-30-jetson-nano-embedding",
@@ -50532,6 +50918,33 @@
     "automation_angle_zh": "開發者可評估 Sonnet 5 的 API 定價與能力表現，測試其在程式碼生成、文件處理、對話系統等場景的表現，判斷是否可作為現有流程的替代或補充方案。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-2026-8-ai",
+    "title": "2026 年開發者必備 8 款最佳 AI 工具評測",
+    "title_original": "8 Best AI Tools for Developers in 2026 (Ranked & Reviewed) - G2 Learning Hub",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5DX05paEVUUnJDSzJsZ1lGU3J2blhtSFhzbVRFRks3MDN4aWRXcWZUbGZZNTFtMDVQSmUyMVlqR2YxNjFFWTJWamVsUkR3R3ctZEtnenltRdIBZ0FVX3lxTE1tMTFlN3JiN1kzM3IyNGF5MFNSU1NUcFZaNEVlNzlzM0RJYS1BNGlMQnhFWGJKaTkxckkycHNyRTd6QlVmVzl3LUZMYTVjU3F5S1JYdWtvbFBocHRPbnlNNGc3eFR4cVU?oc=5",
+    "published_at": "2026-06-30T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "G2 Learning Hub 發布 2026 年開發者 AI 工具排名，列舉 8 款被評為最佳的 AI 開發輔助工具。內容涵蓋常見選項如 GitHub Copilot、Cursor 等，並提供評分與適用場景描述。作為商業評測平台內容，排名基於用戶評價與功能覆蓋度，但未披露評選標準細節。",
+    "highlights": [
+      "收錄 8 款主流 AI 開發工具的評測",
+      "評估維度包含功能完整度與用戶滿意度",
+      "來源為商業評測平台，非技術深度橫評",
+      "排名可能受平台商業因素影響"
+    ],
+    "why_it_matters": "可作為市場概覽參考，但缺乏技術評測深度。技術使用者更需關注具體功能對比、API 成本與實際效能測試，而非綜合排名。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議將此排名作為初步市場調研參考，但需自行驗證各工具在特定場景（如長程式碼生成、多檔案編輯）下的實際表現。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -96868,6 +97281,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-03-google-google-ai-pro",
+    "title": "Google 宣布向美國大學生免費提供一年 Google AI Pro 及多項專屬教育特權",
+    "title_original": "Genspark AI：是什么以及如何在全球使用（2026） - Pasquale Pillitteri",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc1JTRmtEZTdEUlM1a1kzYnd5XzRTaVZGc1hlYkVweVBSZ1NoUDVFY0NIYTdtelJSMFZmTi1nR0t0SHBnT1FDUXMtbTdjRUpUSHlaUTlOakhGMkkzSFg0M3QzOE5TTWs4X0pCX2RhOHhVVGhwZnplTUV5bjVVd01aOHE3OEhkSzlhZW1VSWtsR3FOWFZwQTNPQnRxcw?oc=5",
+    "published_at": "2026-05-09T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Google 宣布為美國大學生提供為期一年的 Google AI Pro 免費訂閱，包含 Gemini Advanced、Gemini for Google Workspace 等工具，並附帶教育版專屬功能。此優惠預計覆蓋美國主要高校學生，需以 .edu 郵箱驗證身份。這是 Google 首次大規模將付費 AI 工具直接免費提供給高等教育機構學生。",
+    "highlights": [
+      "提供一年免費 Google AI Pro 訂閱，價值約 249 美元",
+      "包含 Gemini Advanced 與 Google Workspace AI 功能",
+      "需以 .edu 信箱註冊驗證學生身份",
+      "具體上線時間與涵蓋學校名單尚未完整公布"
+    ],
+    "why_it_matters": "對技術相關科系學生而言，可直接接觸 Google 最強大的商業 AI 工具鏈，節省個人訂閱費用。此優惠若擴展至全球，將影響 Copilot 與 Claude 的教育市場布局。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術學生可驗證此優惠真實性，評估 Gemini Advanced 在程式碼生成與文件處理上的能力是否滿足日常開發需求，並與 Copilot 進行功能對比。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-13-mindsdb-ai-39k",
     "title": "MindsDB：AI 資料保險庫，39k 星",
     "title_original": "mindsdb/mindsdb",
@@ -99481,6 +99921,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-03-mistral-vibe-devstral-2-forge",
+    "title": "Mistral Vibe、Devstral 2 與 Forge：歐洲程式碼代理的戰略與技術盤點",
+    "title_original": "Mistral Vibe, Devstral 2 und Forge: Europas Coding-Agent im strategischen und technischen Check - Xpert.Digital - Konrad Wolfenstein",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5kUjJkY255WlZha0VEWkFSanRES1ZTOHZHNmVBZmlXcTZDY0RPTEw4aEtyVnB0NWhHaHFlX2V0YmFpaGhJNUlNR2VfRVhzbDDSAVdBVV95cUxNcmVtdWpQanowU0ZsV20tUXl3REwwSl9zcGtuWkU0YmlTWEt5Zlc4RWZ0dlVQZ3JrOVF0dVZXdDhGQV9GcXByVlVyNmFzSzZUWGdHUEFPaVk?oc=5",
+    "published_at": "2026-03-23T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "德語媒體深度分析 Mistral 近期發布的三款工具：Mistral Vibe（聊天介面）、Devstral 2（程式碼生成模型）與 Forge（開發工具平台）。文章評估這些工具在歐洲 AI 市場的戰略定位，以及對抗美國巨頭的潛力。但這是一篇行銷導向的分析報導而非技術評測。",
+    "highlights": [
+      "Mistral Vibe 提供對話式 AI 介面",
+      "Devstral 2 瞄準程式碼生成任務",
+      "Forge 定位為開發工具平台",
+      "歐洲 AI 主權戰略的一部分",
+      "分析文章而非獨立技術 Benchmark"
+    ],
+    "why_it_matters": "歐洲本土 AI 能力的發展值得關注，但技術決策應基於實際效能測試而非媒體敘事。技術宅應等待 Devstral 2 在實際編程任務中的獨立 Benchmark 結果。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在官方釋出後實際測試 Devstral 2 的程式碼生成品質，對比現有的 Copilot 或 Claude 等工具在自家技術棧上的表現，再決定是否整合進工作流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-mistral-ai",
     "title": "Mistral AI 模型能力與最新發展總覽",
     "title_original": "Mistral AI: Models, Capabilities and Latest Developments - Built In",
@@ -99606,6 +100074,33 @@
     "why_it_matters": "程式碼生成模型若無法產生可信賴輸出，會大幅限制 AI 在開發管道的實際採用率；Leanstral 直接回應此痛點。",
     "automation_angle": null,
     "automation_angle_zh": "開發者可關注 Leanstral 的基準測試結果，若對 Mistral 模型有使用需求，可在自架或 API 上評估其程式碼生成成功率。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-mistral-leanstral-small-4",
+    "title": "Mistral 發布 Leanstral 與 Small 4 模型",
+    "title_original": "What Are Mistral's New Leanstral and Small 4 Models? - analyticsindiamag.com",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMlk5MEQ4QVQ4eUVKX3czSUxiLW9vUXBsTVhDNVVZYmY4cks0SnJUTUxBLTZOTUhYWnJEdk5HSHhkMTJXT0czeVlyTzExOHlPWGFSczBYbkM5M2tSVmU4TS1oLThtZGZ4Y0EtMVNGdU9veFpJZWJ1MVgwZlROZk9OaFYyYmlnZjJYSXZz?oc=5",
+    "published_at": "2026-03-17T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 推出 Leanstral 和 Small 4 兩款新模型。這是 Mistral 持續擴展模型家族的最新動作，預計瞄準資源受限的部署場景與高效能需求。",
+    "highlights": [
+      "Mistral 新增 Leanstral 模型系列",
+      "同步發布 Small 4 小型模型",
+      "可能最佳化邊緣裝置或低資源部署",
+      "Mistral 持續多元化模型產品線"
+    ],
+    "why_it_matters": "Mistral 持續推出差異化模型，若 Leanstral 或 Small 4 在成本效益上有優勢，可能成為開發者新的本地部署選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注模型發布後的 HuggingFace 頁面，評估其在特定任務上的表現與硬體需求。",
     "tags": [
       "new-models",
       "rss",
@@ -102069,6 +102564,33 @@
     "why_it_matters": "Mistral 系列模型以高效率與開放授權聞名，新版本可能帶來能力與效率的平衡改善，對需要開源替代方案的技術團隊有參考價值。",
     "automation_angle": null,
     "automation_angle_zh": "待官方詳細規格出爐後，可將 Mistral 3 列入本地部署模型的候選名單，評估其與當前使用模型的效能與成本效益比較。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-mistral-large-3-microsoft-foundry",
+    "title": "Mistral Large 3 登陸 Microsoft Foundry：開源能力與生產就緒",
+    "title_original": "Introducing Mistral Large 3 in Microsoft Foundry: Open, capable, and ready for production workloads - Microsoft Azure",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQc2V1c3JCRExxZnlIMDhQaFpIVU1GVHRIbF9vMHF2SlA0V0l3UFdZQ2x6R1FiRXR0RzJYc1BWVGhCU1FVbjF6UmRHSjlMbWVyaTRXVXZUeE1UalBJSTE0cHNfVWhKc1B6VWtVYUZvUmwwNUFZM05FNkVPTzI4WTBaYTQ4ck9oUnlUc1NRVlJnUlN5QXJFUzFEU2VPSXBPcUFpSldUd09fTzljSWVFaGI2TzNzMEcycmRiMlRyaDFUa2RybWNMSXY5QklIRmxwckxlS3c?oc=5",
+    "published_at": "2025-12-02T08:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral Large 3 模型正式在 Microsoft Azure Foundry 上線，強調開源、具備生產級能力且已準備好承載實際工作負載。這是 Mistral 與微軟深度合作的最新進展。",
+    "highlights": [
+      "Mistral Large 3 已在 Azure Foundry 正式可用",
+      "強調生產環境就緒與企業級可靠性",
+      "可透過微軟雲端基礎設施快速部署",
+      "延續 Mistral 開源策略與商業支援並行路線"
+    ],
+    "why_it_matters": "對需要企業級支援與雲端整合的技術團隊是實用選項，可直接在 Azure 環境中測試 Mistral Large 3 的效能與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可直接在 Azure Foundry 上創建端點，測試 Mistral Large 3 與現有工作流程程的整合效果，評估是否符合生產需求。",
     "tags": [
       "new-models",
       "rss",
