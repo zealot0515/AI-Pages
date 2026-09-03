@@ -1,5 +1,227 @@
 [
   {
+    "id": "2026-09-03-devprojex-llm-token",
+    "title": "DevProjex：為 LLM 打造安全、Token 高效的程式碼上下文",
+    "title_original": "Avazbek22/DevProjex",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Avazbek22/DevProjex",
+    "published_at": "2026-09-03T15:19:09Z",
+    "category": "agent-skills",
+    "summary": "DevProjex 是 C# 開發的 MCP 工具，可在本地構建安全的程式碼上下文，具備智慧忽略、敏感資料遮蔽、Git 範圍過濾與程式碼壓縮功能，降低 Token 消耗同時保護隱私。",
+    "highlights": [
+      "提供 GUI、TUI、CLI 與唯讀 MCP Server",
+      "Smart Ignore 智慧過濾不相關檔案",
+      "自動偵測並遮蔽機敏資料與 PII",
+      "Git 範圍過濾減少無關提交歷史",
+      "程式碼壓縮有效降低 Token 使用量"
+    ],
+    "why_it_matters": "Coding Agent 常因上下文過大導致 Token 浪費，DevProjex 提供本地化解決方案，兼顧成本控制與資料安全。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 DevProjex MCP Server 整合至現有 Agent 工具鏈，評估其在大型專案中的上下文壓縮效果與 Token 省耗。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/84025676?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-google-deepmind-weathernext-3",
+    "title": "Google DeepMind 發布 WeatherNext 3 天氣預測模型",
+    "title_original": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+    "published_at": "2026-09-03T15:02:08+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 發表 WeatherNext 3，宣稱是迄今最精確的全球天氣 AI 模型，在多項氣象預測指標上超越前代版本，但屬於垂直領域專業模型，非通用 AI 應用。",
+    "highlights": [
+      "WeatherNext 3 在溫度、降雨、颶風路徑預測上顯著提升",
+      "DeepMind 官方發布，來源可信度高",
+      "專注天氣預測領域，非通用語言模型",
+      "可能整合至 Google 產品線（如 Search、天氣 App）",
+      "具體技術架構細節尚待揭露"
+    ],
+    "why_it_matters": "天氣預測的進步對物流、農業、能源等產業有實質影響，技術架構可能啟發其他時序預測任務的模型設計。",
+    "automation_angle": null,
+    "automation_angle_zh": "對氣象資料科學家而言，可評估此模型的預測 API 或開源版本，用於替代或增強現有天氣資料源。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-03-supragdn-5m-gateddeltanet",
+    "title": "SupraGDN-5M：極小 GatedDeltaNet 模型挑戰社群",
+    "title_original": "[RELEASE] - SupraGDN-5M - a tiny GatedDeltaNet model competing with other community while models trained on MUCH less data!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w698jx/release_supragdn5m_a_tiny_gateddeltanet_model/",
+    "published_at": "2026-09-03T14:37:22+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 社群用戶發布 SupraGDN-5M，號稱僅 500 萬參數的 GatedDeltaNet 模型，用極少訓練資料達到與其他小型模型相當的效能，屬於社群自發性實驗發布。",
+    "highlights": [
+      "模型僅 5M 參數，體積極小",
+      "GatedDeltaNet 架構，訓練效率高",
+      "號稱用更少資料達到相似效能",
+      "社群發布，未經獨立驗證",
+      "缺乏詳細基準測試對比"
+    ],
+    "why_it_matters": "小型化、高效率的模型架構是趨勢，若驗證屬實，可在邊緣設備或本地部署場景大幅降低成本，但目前證據有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可下載測試，驗證其在本地硬體上的推論速度與輸出品質，特別是手機或嵌入式設備場景。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-llm",
+    "title": "使用 LLM 幫你查航班和酒店",
+    "title_original": "Using LLM to check flights and hotels for you",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w68sqr/using_llm_to_check_flights_and_hotels_for_you/",
+    "published_at": "2026-09-03T14:20:59+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/LocalLLaMA 用戶展示如何利用大語言模型查詢航班與酒店資訊的實際應用案例。分享可能包含如何設計 prompt、串接航班 API 或酒店平台的技術細節，屬於 AI Agent 工作流程的實際應用演示。",
+    "highlights": [
+      "展示 LLM 在旅行資訊查詢的實際應用",
+      "可能涉及 function calling 或 tool use 實作",
+      "屬於 AI Agent 能力範疇",
+      "可作為個人自動化工作流程的參考範本"
+    ],
+    "why_it_matters": "航班與酒店查詢是常見的瑣碎資訊收集任務。LLM 若能可靠完成此類任務，可節省技術用戶日常 Research 時間，提升個人生產力。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考其 prompt 設計思路，用本地或 API 模型結合航班 API（如 Amadeus、Skyscanner）建立個人旅行助理 Agent，自動化行程規劃流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-model-neutral-agent-harness-75",
+    "title": "開源 Model-Neutral Agent Harness 宣稱同模型達相同精度，成本降 75%",
+    "title_original": "We built an open-source, model-neutral agent harness and compared it with claude managed agents - for the same model, got same accuracy, upto 75% lower cost",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w65ise/we_built_an_opensource_modelneutral_agent_harness/",
+    "published_at": "2026-09-03T12:07:16+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶自述開發了模型中立的開源 Agent Harness，宣稱在相同模型下準確率相當，但成本降低 75%。此為自述未經獨立驗證，應持保留態度。",
+    "highlights": [
+      "自述與 Claude Managed Agents 進行對比",
+      "宣稱成本降低 75%",
+      "模型中立，不綁定特定 LLM",
+      "來源為 Reddit 社群，非經同儕審查",
+      "需實際驗證其聲稱的準確率與成本節省"
+    ],
+    "why_it_matters": "若成本節省屬實，對需要大規模使用 Agent 的技術人員具吸引力，但需自行驗證避免被行銷誇大誤導。",
+    "automation_angle": null,
+    "automation_angle_zh": "找到專案 GitHub 後，在相同任務上與現有方案進行 A/B 測試，驗證成本與準確率宣稱是否屬實。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-llama-cpp-nvidia-nemotron-3-puzzle-75b-a9b",
+    "title": "llama.cpp 新增 NVIDIA Nemotron-3-Puzzle-75B-A9B 模型支援",
+    "title_original": "model: add NVIDIA Nemotron-3-Puzzle-75B-A9B (NemotronHPuzzle) support by YanissAmz · Pull Request #25444 · ggml-org/llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w60jr5/model_add_nvidia_nemotron3puzzle75ba9b/",
+    "published_at": "2026-09-03T07:35:18+00:00",
+    "category": "open-source-ai",
+    "summary": "llama.cpp 專案收到 Pull Request，請求合併 NVIDIA Nemotron-3-Puzzle-75B-A9B 模型的支援代碼。該 PR 由 YanissAmz 提交至 ggml-org/llama.cpp 倉庫（PR #25444），表示此大語言模型即將可在 llama.cpp 生態中使用。",
+    "highlights": [
+      "PR #25444 已提交至 ggml-org/llama.cpp 官方倉庫",
+      "Nemotron-3-Puzzle-75B 為 NVIDIA 發布的較大參數模型",
+      "llama.cpp 支援意味可在各平台本地高效推論",
+      "提交者為社區貢獻者，PR 狀態待 merge"
+    ],
+    "why_it_matters": "llama.cpp 是本地部署大模型的關鍵基礎設施。新模型支援擴展了可在邊緣裝置高效運行的模型選擇範圍。",
+    "automation_angle": null,
+    "automation_angle_zh": "PR 合併後即可用 llama.cpp 測試該模型的 GGUF 量化版本，評估在自有用硬體上的推論速度與記憶體需求，評估是否適合自動化工作流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-4b-ai",
+    "title": "4B 參數本地模型能真正像 AI 助理嗎？",
+    "title_original": "Can a 4B local model actually feel like an AI assistant?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w609r6/can_a_4b_local_model_actually_feel_like_an_ai/",
+    "published_at": "2026-09-03T07:18:27+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 用戶實測 40 億參數規模的本地模型，探索小模型是否能提供接近商業 AI 助理的使用體驗。測試面向日常對話、程式輔助或任務執行等場景，原始測試數據和結論未完整呈現。",
+    "highlights": [
+      "聚焦小參數量模型的實用性評估",
+      "可能涉及 Qwen、Phi、Gemma 等 4B 級別模型",
+      "評估維度可能包含回應速度與輸出品質權衡",
+      "社區驅動的經驗分享，非標準化 benchmark"
+    ],
+    "why_it_matters": "4B 模型可在消費級 GPU 或甚至 CPU 上運行，成本優勢明顯。了解其能力邊界有助技術宅選擇性價比最高的本地 AI 方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載同規格模型，在本機用 lm-evaluation-harness 跑 standard benchmarks，將結果與商業 API 做延遲/成本/準確度多維度比較。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-item",
+    "title": "選擇模型的心得法則",
+    "title_original": "My RULE of Thumb of choosing a models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5zdx4/my_rule_of_thumb_of_choosing_a_models/",
+    "published_at": "2026-09-03T06:27:49+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享個人選擇模型的經驗法則，提供快速判斷模型適用場景的實用參考，屬於社群主觀經驗分享，非經科學驗證的系統性指南。",
+    "highlights": [
+      "基於個人使用經驗的總結",
+      "涵蓋常見模型選擇考量維度",
+      "適合新手快速建立模型選擇直覺",
+      "缺乏量化數據支撐",
+      "主觀性強，因使用場景而異"
+    ],
+    "why_it_matters": "對模型選擇的實務經驗有參考價值，特別是剛接觸本地模型的開發者，但需批判性看待，建議以自己測試結果為準。",
+    "automation_angle": null,
+    "automation_angle_zh": "可作為初篩模型的參考起點，但最終選擇仍需根據實際任務進行 benchmark 測試。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-03-langchain-agent-vodafone-monday-com",
     "title": "LangChain 分析歐亞企業 Agent 部署：施耐德、Vodafone、monday.com 的规模化實踐",
     "title_original": "Scaling Agents in Europe & The Middle East: Lessons from Schneider Electric, Vodafone, and monday.com",
@@ -106,6 +328,90 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-funes-coding-agent",
+    "title": "Funes：為 Coding Agent 打造自擁有的長期記憶系統",
+    "title_original": "Give Your Coding Agents a Memory You Own",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/funes",
+    "published_at": "2026-09-03T00:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格介紹 Funes 專案，旨在為程式碼 Agent 提供可自控的長期記憶能力，讓 AI 在不同工作階段間保留學習成果，提升任務連續性。",
+    "highlights": [
+      "目標為 AI Agent 建立長期記憶機制",
+      "強調使用者對記憶的擁有權與控制",
+      "適用於跨工作階段的任務延續",
+      "與 OpenHuman 的 Memory Tree 概念相關",
+      "開源專案，可部署測試"
+    ],
+    "why_it_matters": "Agent 常缺乏跨會話記憶，導致重複溝通成本。Funes 若成熟，可顯著提升 AI 工作流程的連續性與效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估 Funes 與現有 Agent 框架的相容性，測試其長期記憶功能是否適用於個人工作流程程改進。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-grpo-350m-100",
+    "title": "用 GRPO 微調 350M 模型：100 步驟優化結構化輸出",
+    "title_original": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+    "published_at": "2026-09-03T00:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 官方部落格展示如何使用 TRL 函式庫的 GRPO（群組相對策略優化）技術，在僅 100 步驟內微調 3.5 億參數的小型模型，顯著提升結構化輸出（如 JSON 格式）的穩定性與正確率。",
+    "highlights": [
+      "GRPO 是 Group Relative Policy Optimization，可在小型模型上快速收斂",
+      "使用 TRL 函式庫實作，支援 Hugging Face 生態系無縫整合",
+      "實驗顯示結構化輸出正確率從基礎線大幅提升",
+      "僅需 100 步驟 GRPO 訓練，適合資源有限的開發團隊",
+      "官方提供完整程式碼與訓練腳本，可直接覆製"
+    ],
+    "why_it_matters": "結構化輸出是 AI 落地的關鍵需求，此方法讓小型模型也能穩定輸出 JSON，降低部署成本並提升可靠性，對需要快速迭代的開發者極具價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此方法應用於自定義工具呼叫系統，讓小型本地模型勝任 API 整合、RAG 後處理等任務，減少對大型模型的依賴。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-03-trl-openenv",
+    "title": "用 TRL 與 OpenEnv 訓練模型以程式碼作畫",
+    "title_original": "Training a coding model to paint watercolours with TRL and OpenEnv",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/train-to-paint-with-code",
+    "published_at": "2026-09-03T00:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 部落格介紹如何用 TRL 與 OpenEnv 環境訓練程式碼模型生成水彩畫風格的視覺輸出，展示強化學習在創意生成任務上的應用潛力，屬於實驗性研究方向。",
+    "highlights": [
+      "結合 TRL 強化學習框架與 OpenEnv 環境進行訓練",
+      "模型學會將程式碼能力遷移到視覺創意生成",
+      "屬於概念驗證性質，非生產就緒工具",
+      "可用於探索模型的多模態遷移能力",
+      "程式碼已開源可供實驗"
+    ],
+    "why_it_matters": "雖然非直接實用，但展示了强化學習驅動的創意生成方向，對研究多模態能力遷移與模型創意極限有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可研究其遷移學習機制，嘗試將程式碼模型的推論能力遷移到其他結構化生成任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-09-03-perplexity-mac-qwen-3-6",
@@ -528,6 +834,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-03-atv-chatgpt-work-3-3",
+    "title": "ATV 巡演用 ChatGPT Work 將 3 天工作縮短至 3 小時",
+    "title_original": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/atv-big-air-tour",
+    "published_at": "2026-09-02T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格報導 ATV Big Air Tour 運用 ChatGPT Work 加速行銷、周邊商品規劃等流程，並在 15 分鐘內將商品照片轉化為庫存網站，展現 AI 助理在商業場景的實際效率提升。",
+    "highlights": [
+      "ChatGPT Work 應用於行銷素材生成與商品管理",
+      "商品照片到網站的轉換僅需 15 分鐘",
+      "工作流程程從 3 天縮短至 3 小時",
+      "屬於 OpenAI 官方案例，內容真實性高",
+      "側重協作而非技術細節"
+    ],
+    "why_it_matters": "此案例具體量化了 AI 工具的商業價值，讓技術決策者有據可查地推動 AI 工具採用，特別適合向非技術管理者展示 ROI。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估 ChatGPT Work 的商務流程自動化能力，特別是文件轉網站、多格式內容生成等重複性任務的加速效果。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-09-02-llm-openteams",
