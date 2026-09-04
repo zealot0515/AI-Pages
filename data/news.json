@@ -1,5 +1,198 @@
 [
   {
+    "id": "2026-09-04-naja-scope-ai-systemverilog-mcp",
+    "title": "Naja Scope：AI 代理專用的 SystemVerilog 層級探索 MCP 伺服器",
+    "title_original": "najaeda/naja-scope",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/najaeda/naja-scope",
+    "published_at": "2026-09-04T15:20:54Z",
+    "category": "agent-skills",
+    "summary": "Naja Scope 是 MCP 伺服器實現，讓 AI 代理在不把 RTL 塞進上下文的條件下探索 SystemVerilog/Verilog 網表，可追蹤連接性、遍歷層級、跳轉原始碼，降低大專案探索時的上下文壓力。",
+    "highlights": [
+      "專為 SystemVerilog/Verilog 設計的 MCP 伺服器",
+      "支援連接性追蹤與層級遍歷",
+      "可跳轉到 RTL 原始碼而不佔用上下文",
+      "底層基於 Najaeda 項目構建"
+    ],
+    "why_it_matters": "硬體工程師在用 AI 代理分析大型 RTL 專案時常面臨上下文長度瓶頸，Naja Scope 提供了一種讓代理高效探索硬體設計而不超長上下文的方式，直接提升 AI 輔助硬體開發的可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "硬體工程師可將 Naja Scope 接入支援 MCP 協定的 AI 代理，用自然語言查詢 RTL 層級結構，讓 AI 代理幫你快速定位訊號路徑或模組接口，省去手動閱讀大量 RTL 的時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/162299668?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-lattice-ai",
+    "title": "Lattice：在 AI 編碼助理注入工程紀律的可組合技能框架",
+    "title_original": "techygarg/lattice",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/techygarg/lattice",
+    "published_at": "2026-09-04T15:06:23Z",
+    "category": "agent-skills",
+    "summary": "Lattice 是一套將工程紀律整合進 AI 編碼流程的開源框架，提供設計、實作、審查、團隊標準四類可組合技能，用流程改進而非僅靠提示詞優化來提升 AI 輔助開發品質，GitHub 已有 185 顆星。",
+    "highlights": [
+      "提供設計、實作、審查、標準四類技能模組",
+      "每個技能可獨立或組合接入現有 AI 助理",
+      "強調流程改進而非依賴更強大的提示詞",
+      "已獲 185 顆星證明有一定社群關注度"
+    ],
+    "why_it_matters": "技術團隊用 AI 編碼助理常見痛點是輸出品質飄忽，Lattice 的工程紀律框架提供了一種將人類團隊標準系統化灌輸給 AI 的方式，可直接改善 AI 生成代碼的一致性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 Lattice 的技能模組接入自己的 AI 編碼助理，在代碼審查環節自動套用團隊標準，減少人工 Review 負擔並提升 AI 生成結果的可預測性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Shell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/4545943?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-reddit-768gb-vram",
+    "title": "Reddit 熱議：768GB VRAM 已不足以運行開源前沿模型",
+    "title_original": "I built a server with 768GB VRAM for frontier, but all new frontier open source models are likely to be two trillion or above now, including next GLM 6, am I cooked?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w75rp4/i_built_a_server_with_768gb_vram_for_frontier_but/",
+    "published_at": "2026-09-04T14:20:44+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群討論指出，下一代開源前沿模型（如 GLM-6）的參數量可能突破 2 兆，768GB VRAM 的自建推論伺服器已無法負載。社群對本地部署的成本效益與未來趨勢產生熱烈辯論。",
+    "highlights": [
+      "下一代開源模型參數量預估突破 2 兆",
+      "768GB VRAM 約等於 4 張 H100 已被超越",
+      "社群對本地部署性價比存疑",
+      "雲端 API 與自建推論的成本曲線正在交匯"
+    ],
+    "why_it_matters": "若此趨勢成立，本地部署前沿模型的門檻將大幅提高，開發者需重新評估是否繼續投入硬體資源或轉向雲端 API 整合策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "盤點目前自建推論伺服器的實際使用率，若閒置率超過 50% 可考慮遷移至雲端 API，同時評估量化模型（如 Qwen2.5-72B-Instruct）作為省成本的替代方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-llama-cpp-4-hy-v4",
+    "title": "llama.cpp 新增騰訊混元 4（hy_v4）預覽架構支援",
+    "title_original": "Model: add Tencent Hy 4 (hy_v4) preview architecture support by Little0o0 · Pull Request #28127 · ggml-org/llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w748cf/model_add_tencent_hy_4_hy_v4_preview_architecture/",
+    "published_at": "2026-09-04T13:20:14+00:00",
+    "category": "open-source-ai",
+    "summary": "llama.cpp 官方 repo 有一個 PR（#28127）由 Little0o0 提交，正在新增騰訊混元 4（hy_v4）預覽架構的支援。PR 狀態未說明是否已合併，意味著騰訊混元 4 可能仍在預覽階段，尚未正式釋出 GGUF 量化模型。",
+    "highlights": [
+      "PR 提交者為社群貢獻者，非騰訊官方",
+      "hy_v4 預覽架構尚未正式發布",
+      "支援成功後可用 llama.cpp 跑騰訊混元 4",
+      "需等待 PR merge 後才能確認可用性",
+      "對 llama.cpp 持續支援多種架構是正面訊號"
+    ],
+    "why_it_matters": "若此 PR 合併，本地用戶將能在 llama.cpp 環境原生跑騰訊混元 4，無需等待騰訊官方釋出推論工具，降低使用門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤 PR #28127 狀態；合併後可下載混元 4 模型並用 llama.cpp 做推論效能測試，評估是否能替代商業 API。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-zvec-grep-ai",
+    "title": "Zvec Grep：為人類和 AI 代理設計的本地優先工作區搜尋工具",
+    "title_original": "GitHub - zvec-ai/zvec-grep: Local-first search across your workspace, built for humans and AI agents.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w73wnb/github_zvecaizvecgrep_localfirst_search_across/",
+    "published_at": "2026-09-04T13:06:47+00:00",
+    "category": "open-source-ai",
+    "summary": "Zvec Grep 是本地優先的代碼庫搜尋工具，強調比傳統 grep 更適合人類直覺使用，同時為 AI 代理提供結構化搜尋結果，Reddit 社群有討論但目前缺乏完整官方文件。",
+    "highlights": [
+      "本地優先設計，搜尋不走雲端",
+      "針對人類直覺優化的搜尋語法",
+      "為 AI 代理提供結構化輸出格式",
+      "目前資訊主要來自 Reddit 社群討論"
+    ],
+    "why_it_matters": "本地優先搜尋對在意資料隱私的技術用戶有意義，若 AI 代理能直接利用結構化搜尋結果而非依賴關鍵詞匹配，可提升代碼理解任務的準確度，但目前來源有限需自行驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在自己的代碼庫安裝 Zvec Grep，用它在本地建立比傳統搜尋更快的索引，並測試 AI 代理是否能正確利用其結構化輸出來完成代碼理解任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-paddock-rust-c-cuda-mit-apache-2-0",
+    "title": "Paddock：Rust/C++ 推論引擎開源，附自研 CUDA 核心（MIT/Apache-2.0）",
+    "title_original": "We open-sourced Paddock, our Rust/C++ inference engine with its own CUDA kernels (MIT/Apache-2.0)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6z9oh/we_opensourced_paddock_our_rustc_inference_engine/",
+    "published_at": "2026-09-04T09:15:33+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群有開發者宣布開源名為 Paddock 的 Rust/C++ 推論引擎，強調其使用自研 CUDA 核心，採用 MIT/Apache-2.0 雙授權。帖文未提供效能 benchmark 或與 llama.cpp 的詳細對比，具體能力有待實際測試。",
+    "highlights": [
+      "Rust/C++ 混合實作，理論上可結合記憶體安全與高效能",
+      "含自研 CUDA kernels，非純借鑒現有框架",
+      "MIT/Apache-2.0 雙授權，商用友好",
+      "目前僅從 Reddit 帖文得知，無官方文件或效能報告",
+      "可關注其與 llama.cpp、ollama 的定位差異"
+    ],
+    "why_it_matters": "自研 CUDA 推論引擎若能提供比 llama.cpp 更佳的效能或記憶體管理，對本地部署愛好者是新選擇，但需實際安裝測試才能判斷價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可 clone 其 GitHub 仓库（本體未提供 URL，需自行搜尋），在相同硬體上與 llama.cpp 做 throughput/memory 對比測試。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-simon-willison-8-fable-5-claude-auto-mode",
+    "title": "Simon Willison 8 月通訊精選：Fable 5 單次通關遊戲、Claude Auto Mode 實測",
+    "title_original": "August newsletter is out",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+    "published_at": "2026-09-04T05:54:40+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 的 8 月付費通訊披露多項實驗細節，包括使用 Fable 5 單次通關 Raccoon Heist 遊戲的策略、Claude Auto Mode 實測心得，以及 ChatGPT Work Model 更新解析。內容偏向個人實驗觀察，技術深度中等。",
+    "highlights": [
+      "Fable 5 具備遊戲策略推論能力實測案例",
+      "Claude Auto Mode 有新的使用模式揭露",
+      "ChatGPT Work Model 有功能變化說明",
+      "屬於付費訂閱內容，免費讀者僅能獲得部分預覽"
+    ],
+    "why_it_matters": "Simon Willison 的實驗具有較高參考價值，但完整內容需付費訂閱。建議有興趣的讀者評估訂閱是否符合其需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注其部落格免費公開內容，若 Claude Auto Mode 的實驗結果顯示有價值的工作流程，可考慮自己搭建 POC 驗證。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-04-contextstream-mcp-server-rust-mcp",
     "title": "contextstream/mcp-server：Rust 實作的上下文信任管理 MCP 伺服器",
     "title_original": "contextstream/mcp-server",
@@ -330,6 +523,33 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-chatgpt-gemini-grok-claude",
+    "title": "ChatGPT、Gemini、Grok、Claude 同時大當機",
+    "title_original": "ChatGPT, Gemini, Grok and Claude down as AI services experience outage - LADbible",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS19KX3B4T3NZdzhQZURjWDR0N0ZWaGJZNEFUcGt2Sld2bHhWLUFlVjhhLTRjSnVhWGxmUHFNcWpndnI0Q09qakFzX3NDRGZ4blMwLXc2eGlvdUlXR3VOaGtrLXp5MGJuMThPWXpoX0VjZ0hsSFpVWWg1ZkJmRzhzamF1YUNFT2Y2QWRSN3ZPUQ?oc=5",
+    "published_at": "2026-09-03T16:19:42+00:00",
+    "category": "hot-topics",
+    "summary": "多個主流 AI 服務同時發生大規模故障，影響 OpenAI、Google、xAI 及 Anthropic 的產品。此事件暴露了 AI 基礎設施的脆弱性，也讓開發者重新思考如何設計具有降級機制的 Agent 工作流程。",
+    "highlights": [
+      "ChatGPT、Claude、Gemini、Grok 同時無法服務",
+      "故障持續數小時，受影響用戶數以百萬計",
+      "各平台尚未公布詳細故障原因",
+      "凸顯對少數雲端供應商的過度依賴風險"
+    ],
+    "why_it_matters": "多平台同時故障極為罕見，技術決策者應評估備援策略與監控機制，避免單點失敗影響生產環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 AI 服務時加入健康檢查端點與多供應商 fallback 邏輯，可提升系統韌性。測試時可模擬 API 回傳 503 驗證降級流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-09-03-modelscope-hugging-face-nvidia",
@@ -2017,6 +2237,33 @@
     "why_it_matters": "對於希望在本地部署最佳性價比模型的技術用戶，社群整理節省了逐一追蹤各模型發布頁面的時間，可作為每週例行瀏覽的資訊入口。",
     "automation_angle": null,
     "automation_angle_zh": "技術人員可將此討論串設為 RSS 監控來源，快速捕捉值得測試的新模型發布，評估其是否符合團隊硬體條件與任務需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-anthropic-claude-fable-5-1-mythos-5-1-75",
+    "title": "Anthropic 發布 Claude Fable 5.1 與 Mythos 5.1，快取讀取成本大降 75%",
+    "title_original": "Anthropic's Claude Fable 5.1 and Mythos 5.1 arrive with a 75% cost reduction for Fable cache reads - VentureBeat",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaWthd1kzYVd1aVdMV05kS1JTUFFCRGdhalRUOXlyUE5nVVJPMURrSGZ1SzdBMkw2eG5CLTJQZnRPSEp5QzR3T0x1SG9TRlFGa0h3NUVDNVZ6b0U2VGJhcHJPZ2g1MnptckE5dUd1dnZ3REpyMXg3RnQ1eHJCME1JTEhiVVVteFMyTVlWaW56RDZMc2ozV3NtZzc4ODk1NW10MGM4dUNBX0VBLUhPcjR1YW1BUTBjdC1vTHB1cUpyVTFsdmpZRFlnV0RQQQ?oc=5",
+    "published_at": "2026-09-01T18:41:21+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 推出 Fable 5.1 與 Mythos 5.1 模型更新，焦點在於 Context Cache 讀取費用大幅下調 75%。此舉直接降低需要長時間上下文之應用的 API 成本，讓腳本分析、程式碼庫理解等場景更具經濟效益。",
+    "highlights": [
+      "Fable 5.1 快取讀取成本降低 75%",
+      "適用於長上下文（100K+ tokens）場景",
+      "Mythos 5.1 同步釋出，定位略有差異",
+      "對大量使用 Context Caching 的應用影響顯著"
+    ],
+    "why_it_matters": "成本下降 75% 將重塑長上下文應用的商業可行性，開發者可重新評估原本因成本過高而放棄的 Agent 工作流程設計。",
+    "automation_angle": null,
+    "automation_angle_zh": "計算目前專案使用 Context Caching 的費用，估算節省幅度。若節省超過 30%，可考慮重啟原本因成本放棄的長文件分析或多檔案處理功能。",
     "tags": [
       "new-models",
       "rss",
@@ -18762,6 +19009,33 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-nutanix-mcp-server-ai",
+    "title": "Nutanix 推出 MCP Server 進軍 AI 雲端運維領域",
+    "title_original": "Nutanix launches MCP server for AI cloud operations - SecurityBrief Australia",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX0ZONkktdFdvOEJSUmduVGJ2VWktWExKbEo3OURVOWNZeDJ5dUthb0V2VHdzVTBlRzFpanpHNnFzLVdyalZkQkdIUGlSOWhPci1nZHdXR0gzMmZ4OVdpVmtIdWpRakMtWEQ3TkVzc3RZT3V6UlhzakxUbkdXY3k5b1pVdGFDU2pnZUI3M2t3UQ?oc=5",
+    "published_at": "2026-08-11T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Nutanix 發布官方 MCP（Model Context Protocol）伺服器，讓 AI Agent 能以標準化方式與 Nutanix 雲端基礎設施互動。開發者現在可透過自然語言指令操控叢集管理、資源監控與自動化部署等作業。",
+    "highlights": [
+      "支援 MCP 協定，與主流 AI 工具鏈相容",
+      "可執行雲端資源查詢、監控與部署任務",
+      "降低雲端運維的程式碼門檻",
+      "瞄準企業級 AI 與基礎設施整合市場"
+    ],
+    "why_it_matters": "MCP 正成為 AI 工具與外部系統通訊的事實標準，更多基礎設施供應商加入生態系，預示未來 Agent 可無縫操作雲端資源。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝 Nutanix MCP Server 後，可在 Cursor、Claude Desktop 等工具中以自然語言查詢叢集狀態並執行維運指令。建議先用測試環境驗證語義理解準確度。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-08-11-paranoia-local-mcp-agent",
@@ -97714,6 +97988,34 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-ai",
+    "title": "豆包按收費鍵，AI 大模型「免費盛宴」是否將終結？",
+    "title_original": "当豆包按下收费按钮，AI大模型的“免費盛宴”真的要到头了吗？ - 深圳新闻网",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DQlNqS1pkWWVEYlVpZUFxeFY3a0VPQjZuakxiTWFVdGF2Y3hWcVB6c3dEX0xKQmJBLTBJR0RBUFZYZE5UVEtxajVMWV80UmZxcFhlUk5JVktKdWp3RS1DUmVpSUNvcnExZkk3aHlGQkxzbnVBRkE?oc=5",
+    "published_at": "2026-05-08T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "深圳新聞網報導，位元組跳動旗下豆包（Doubao）AI 平台疑似開始推行收費機制，引發外界對中國 AI 大模型免費時代是否結束的討論。報導未說明具體收費時間表或定價區間。",
+    "highlights": [
+      "消息來源為中國地方新聞網站，非位元組跳動官方公告",
+      "目前豆包仍有一定免費額度，收費範圍尚未明確",
+      "對比其他中國大模型平台（文心、通義）均有免費額度策略",
+      "此趨勢若屬實，可能促使開發者重新評估成本模型",
+      "建議直接查閱豆包官網確認最新定價"
+    ],
+    "why_it_matters": "若豆包走向全面收費，依賴其免費 API 的開發者專案需要重新計算成本，或遷移到其他仍有免費額度的平台，影響現有工作流程程。",
+    "automation_angle": null,
+    "automation_angle_zh": "查閱豆包官方定價頁面，記錄當前 API 費用；评估若收費後，其pricing是否仍低於 GPT-4o 或 Claude，作為是否續用的依據。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
