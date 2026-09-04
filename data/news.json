@@ -1,5 +1,171 @@
 [
   {
+    "id": "2026-09-04-contextstream-mcp-server-rust-mcp",
+    "title": "contextstream/mcp-server：Rust 實作的上下文信任管理 MCP 伺服器",
+    "title_original": "contextstream/mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/contextstream/mcp-server",
+    "published_at": "2026-09-04T02:00:53Z",
+    "category": "agent-skills",
+    "summary": "contextstream 發布 mcp-server 專案，強調缺乏上下文的智慧不可靠、缺乏上下文的自主是混亂、缺乏信任的上下文形同監控，透過 Rust 實作提供 Agent 所需的上下文管理框架，目前獲得 41 顆星。",
+    "highlights": [
+      "Rust 語言實作，效能與安全性兼顧",
+      "解決 Agent 系統中上下文可靠性問題",
+      "強調信任機制在上下文管理中的必要性",
+      "可整合至 MCP（Model Context Protocol）生態"
+    ],
+    "why_it_matters": "上下文管理是 Agent 系統穩定性的關鍵，此開源專案提供可測試的實作方式，技術人員可直接評估其能否改善現有工作流程中的錯誤率。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者今日即可 clone 此 repo，將其整合至本地 MCP 工作流程，測試 Agent 在長期任務中的上下文維持與穩定性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/243372423?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-item",
+    "title": "笑話模型：有趣但實際可用的本地模型",
+    "title_original": "funny joke model but it actually works hehe",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6p3s7/funny_joke_model_but_it_actually_works_hehe/",
+    "published_at": "2026-09-04T00:27:34+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶發布一個以笑話為特色的本地運行模型，宣稱雖然名字搞笑但實際可用，目前尚未提供詳細技術規格或 benchmark 數據，屬於社群實驗性專案。",
+    "highlights": [
+      "以笑話為主要特色的小型本地模型",
+      "作者聲稱實際可用但未提供詳細數據",
+      "缺少量化 benchmark 與技術規格文件",
+      "屬於社群實驗性質，嚴謹度待驗證"
+    ],
+    "why_it_matters": "小型趣味模型可能隱含特定領域的最佳化方向，但缺乏文件與數據支撐，技術人員應保持觀望，等待更多社群回饋與驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注後續社群討論，若有實際應用案例或 benchmark 數據再考慮評估其實用性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-awesome-reasoning-foundation-models",
+    "title": "Awesome-Reasoning-Foundation-Models：推論模型論文與基準測試資源庫",
+    "title_original": "reasoning-survey/Awesome-Reasoning-Foundation-Models",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/reasoning-survey/Awesome-Reasoning-Foundation-Models",
+    "published_at": "2026-09-03T23:13:35Z",
+    "category": "new-models",
+    "summary": "該 GitHub 資源庫彙整推論基礎模型的最新論文與基準測試結果，目前累積 656 顆星。內容涵蓋 Chain-of-Thought、Agentic Reasoning 等主流推論範式，但需注意資源庫維護品質可能參差不齊。",
+    "highlights": [
+      "收錄推論基礎模型相關最新學術論文",
+      "彙整各類推論基準測試結果與評比",
+      "目前 656 顆星，社群關注度中等",
+      "涵蓋 Chain-of-Thought、Agentic Reasoning 等主流範式",
+      "需自行過濾低品質或過時內容"
+    ],
+    "why_it_matters": "對於關注模型推論能力演進的技術用戶，此資源庫提供快速追蹤最新研究與基準數據的捷徑，但需具備論文品質判斷能力以過濾噪音。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可定期檢視此資源庫的更新，針對感興趣的推論範式下載論文或模型，以 POC 方式評估其在特定垂直任務（如程式生成、數學推論）上的實際表現。",
+    "tags": [
+      "new-models",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/149755694?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-item",
+    "title": "大廠不想讓你看到的基準測試數據",
+    "title_original": "The benchmarks the big labs don't want you to see",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6myn6/the_benchmarks_the_big_labs_dont_want_you_to_see/",
+    "published_at": "2026-09-03T22:54:58+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 社群整理了一批主流評測基準中被忽略或弱化的測試維度，指出大型實驗室選擇性公開對自己有利的結果。討論聚焦於推論能力、工具調用真實效能與長上下文理解等實際應用指標。",
+    "highlights": [
+      "批評 MMLU、HellaSwag 等標準基準過於「刷題化」",
+      "強調真實世界任務（代碼執行、工具調用）與基準脫節",
+      "呼籲開源社區建立更嚴謹的評測框架",
+      "涉及 GPT-4、Claude、Llama 等主流模型横評",
+      "部分論點缺乏嚴謹統計支撐"
+    ],
+    "why_it_matters": "對技術決策者而言，理解基準測試局限性可避免被廠商行銷數據誤導，更準確評估模型在自家使用場景的真實表現。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議技術團隊建立自家專屬評測集，針對實際工作流程程（如代碼審查、自動化測試生成）設計測試題，而非完全依賴公開基準。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-sanotts-294k-tts-3",
+    "title": "sanoTTS：294k 參數的極精簡 TTS 模型可在 3 美元微控制器運行",
+    "title_original": "I released sanoTTS: smallest complete TTS stack in 294k params (337 KB) that runs on $3 microcontroller and a 1.46m one that beats models 3x and 10x it's size",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6lmmg/i_released_sanotts_smallest_complete_tts_stack_in/",
+    "published_at": "2026-09-03T22:01:27+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者在 Reddit 發布 sanoTTS，宣稱這是全球最小的完整 TTS 堆疊，僅用 294k 參數（337KB），可在 3 美元微控制器上運行，另有一個 1.46m 版本號稱打敗大它 3 倍和 10 倍的模型。",
+    "highlights": [
+      "完整 TTS 堆疊僅 294k 參數、337KB 大小",
+      "可在極低成本微控制器上本地運行",
+      "1.46m 版本聲稱超越規模更大的模型",
+      "完全本地運行，無需雲端 API"
+    ],
+    "why_it_matters": "邊緣 TTS 的突破意味著可將語音合成部署至物聯網設備，大幅降低 AI 語音功能的門檻與成本，技術人員應驗證其實際效能。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載模型權重，在 Raspberry Pi Pico 或同級 MCU 上測試本地語音合成，評估延遲與品質是否符合專案需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-openai-gpt-6-astra-api-claude-fable-5",
+    "title": "OpenAI GPT-6 Astra 正式發布：API 定價與 Claude Fable 5 持平",
+    "title_original": "GPT‑6 Astra",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+    "published_at": "2026-09-03T20:18:41+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 於 2026 年 9 月向特定組織限量推出 GPT-6 Astra，並將在數日內開放 ChatGPT Plus、Pro、Business、Enterprise 用戶及 API 全面使用。API 定價為輸入 10 美元／百萬 Token、輸出 50 美元／百萬 Token，與 Claude Fable 5 相同。",
+    "highlights": [
+      "API 定價與 Claude Fable 5 持平，輸入 10美元/M，輸出 50美元/M",
+      "ARC-AGI 3 基準測試達 99.9%（使用自定義 Provider Adapter）",
+      "預設測試環境得分 62.7%，顯示測試環境對成績影響顯著",
+      "安全任務表現突出：ExploitBench 100%、SRE-Bench 99.2%",
+      "長上下文能力大幅提升：256K-512K 達 100%、512K-1M 達 96.3%"
+    ],
+    "why_it_matters": "GPT-6 Astra 在長上下文處理與安全任務上的突破最具實用價值。若其 99.9% ARC-AGI 成績可轉化為實際應用，將大幅降低 Agent 工作流程的推論成本與上下文遺忘問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可待 API 正式上線後，以同一 benchmark 自行測試 Astra 處理長文件比對、程式漏洞掃描等任務的實際效果，與現有方案直接比較性價比。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-09-03-github-copilot",
     "title": "GitHub Copilot 十月二日停用特定模型，開發者需提前因應",
     "title_original": "Upcoming deprecation of selected GitHub Copilot models",
@@ -389,6 +555,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-04-openai-daybreak-10-ai",
+    "title": "OpenAI Daybreak：10 億美元保護關鍵基礎設施的網路 AI 計畫",
+    "title_original": "Daybreak for Frontline Defenders: $1B to protect essential services",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/daybreak-for-frontline-defenders",
+    "published_at": "2026-09-03T13:15:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 宣布 Daybreak for Frontline Defenders 計畫，將投入 10 億美元擴展前沿網路 AI 的可及性，為關鍵基礎設施提供訓練與支援服務，目標保護民生必需服務免受網路威脅。",
+    "highlights": [
+      "10 億美元規模的網路安全 AI 承諾",
+      "聚焦關鍵基礎設施與民生必需服務",
+      "涵蓋培訓、支援與技術輸出",
+      "由 OpenAI 官方公告，資金來源明確"
+    ],
+    "why_it_matters": "大手筆投資顯示 AI 在關鍵基礎設施防護的戰略地位，技術人員可關注此計畫是否釋出可用的安全工具或 API 供社群評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注後續是否開源安全工具或提供 API，評估是否能協助自動化基礎設施監控或威脅偵測流程。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-09-03-model-neutral-agent-harness-75",
     "title": "開源 Model-Neutral Agent Harness 宣稱同模型達相同精度，成本降 75%",
     "title_original": "We built an open-source, model-neutral agent harness and compared it with claude managed agents - for the same model, got same accuracy, upto 75% lower cost",
@@ -415,6 +608,61 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-legora-gpt-6-astra-41-40",
+    "title": "Legora 實測 GPT-6 Astra：41 份文件審閱效率提升近 40%",
+    "title_original": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+    "published_at": "2026-09-03T12:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "OpenAI 官方案例顯示，Legora 使用 GPT-6 Astra 在數分鐘內完成 41 份文件的審閱，並成功找出所有 4 個預設錯誤，與傳統流程相比效能提升近 40%，驗證了 Astra 在文件密集型工作流程的實際應用潛力。",
+    "highlights": [
+      "41 份文件審閱在數分鐘內完成",
+      "成功找出所有 4 個預設植入錯誤",
+      "效能較傳統流程提升近 40%",
+      "屬 OpenAI 官方發布的案例研究",
+      "展示 Astra 在金融文件審查場景的實際應用"
+    ],
+    "why_it_matters": "此案例直接證明 GPT-6 Astra 在文件審查與錯誤偵測任務上的實用性。若效能數據可複製，將對法遵、審計、盡職調查等文件密集流程產生顯著的自動化價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可參考此案例設計文件審查自動化流程的 POC，例如將內部合約、政策文件代入相同測試框架，客製化評估 Astra 在自身文件類型上的錯誤偵測率與處理速度。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-playco-gpt-6-astra-50",
+    "title": "Playco 利用 GPT-6 Astra 將遊戲原型製作手動修復減少 50%",
+    "title_original": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/playco-game-prototyping-with-astra",
+    "published_at": "2026-09-03T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Playco 遊戲工作室運用 GPT-6 Astra 模型，僅需一個灰盒基礎即可快速產出三款主題遊戲原型，相較前代模型手動修復次數大幅減少 50%，展示 AI 在遊戲開發流程中的實質效率提升。",
+    "highlights": [
+      "GPT-6 Astra 支援快速灰盒到主題原型的轉換",
+      "同一基礎素材可衍生多款差異化遊戲概念",
+      "手動修復頻率較前代模型降低 50%",
+      "節省遊戲原型驗證階段的迭代時間"
+    ],
+    "why_it_matters": "對遊戲開發者而言，加速原型迭代意味著更快驗證玩法可行性，節省工作室時間與資源，值得關注 AI 如何實際嵌入開發管線。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可評估將 GPT-6 Astra 整合至遊戲原型工作流程，測試其減少美術或程式迭代人工介入的實際效果。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-09-03-anthropic-claude-fable-5-1-75",
@@ -712,6 +960,33 @@
     "automation_angle_zh": "技術宅可研究其遷移學習機制，嘗試將程式碼模型的推論能力遷移到其他結構化生成任務。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-04-openai-gpt-6-astra",
+    "title": "OpenAI 安全概覽：GPT-6 Astra 達到關鍵網路安全能力等級",
+    "title_original": "Safety overview: GPT-6 Astra",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/safety-overview-gpt-6-astra",
+    "published_at": "2026-09-03T00:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 發布 GPT-6 Astra 安全概覽，宣布該模型為迄今部署最廣泛且能力最強的模型，同時也是首個依據 Preparedness Framework 達到網路安全「關鍵」能力等級的產品。",
+    "highlights": [
+      "GPT-6 Astra 為 OpenAI 目前部署最廣泛的最強模型",
+      "首個達到網路安全關鍵（Critical）等級的模型",
+      "依據 Preparedness Framework 進行安全評估",
+      "安全文件由官方發布，可驗證性高"
+    ],
+    "why_it_matters": "網路安全能力達到關鍵等級意味著模型可能具備高階漏洞分析或滲透測試輔助能力，技術人員應關注其實際應用邊界與限制。",
+    "automation_angle": null,
+    "automation_angle_zh": "安全研究人員可評估 GPT-6 Astra 在自動化漏洞掃描、弱點分析或威脅情報整理場景中的表現與限制。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -6455,6 +6730,34 @@
     "automation_angle_zh": "正式發布後可透過Ollama或相關框架快速部署測試，評估其推論速度與任務表現。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-aimultiple-40-agentic-ai",
+    "title": "AIMultiple：40+ Agentic AI 落地案例與實例",
+    "title_original": "40+ Agentic AI Use Cases with Real-life Examples - AIMultiple",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5tZ3ZlYWRiTjItMFZpaDFsbVA5MTBYY2ZwSWVIbWFXc2NielI3YXRSQ1hrQVFHUkRXaEVtaWh5bmFyMFRGdGtOQQ?oc=5",
+    "published_at": "2026-08-26T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "AIMultiple 整理超過 40 個 Agentic AI 實際應用案例，涵蓋客服自動化、程式碼生成、文件處理等場景。每個案例附有真實企業名稱與初步成效，為技術決策者提供參考起點。",
+    "highlights": [
+      "涵蓋多行業（金融、醫療、電商）的代理 AI 應用",
+      "區分概念驗證與實際部署的成熟度",
+      "提供初步 ROI 或效率提升數據",
+      "主要面向企業決策者，非技術実装細節",
+      "内容為綜合整理，非獨家一手資訊"
+    ],
+    "why_it_matters": "快速掃描此清單可了解業界主流代理 AI 應用方向，幫助技術團隊評估自家產品定位或尋找靈感，但需自行驗證數據來源。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將此清單作為需求文件模板，評估哪些現有開源代理框架（LangChain、AutoGPT、CrewAI）最匹配清單中的場景。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
@@ -62519,6 +62822,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-04-618-8000-ai",
+    "title": "國家超算互聯網618大促：8000萬詞元+全套AI研發工具",
+    "title_original": "8000万词元+全套AI研發工具 国家超算互联网開启618大促 - 驱动之家",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1QbElyaHBkZ24yWktmc09ZdDBJNEFXeWQ2MmtNbll0bHhSQXZETGpTb1V1THlfRGJuRDFLdU1sYkgyVWtUTHhxcktqZmxqenVhb2dXYkVfazk?oc=5",
+    "published_at": "2026-06-16T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "中國國家超算互聯網在618購物節期間推出大型促銷，提供8000萬詞元配額及全套AI研發工具，疑似對標阿里雲、騰訊雲等商業AI平台，瞄準開發者與企業用戶市場。",
+    "highlights": [
+      "提供8000萬詞元配額，適合大規模模型測試",
+      "配套AI研發工具包含模型訓練與部署環境",
+      "時限性促銷，需關注截止時間",
+      "需評估與現有雲服務的性價比差異"
+    ],
+    "why_it_matters": "若驗證可用，可大幅降低模型訓練與部署成本。技術宅可趁促銷期申請測試，評估其GPU資源與生態完整性是否足以支撐實際專案。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用8000萬詞元配額自動化批量文本處理任務，並測試其API穩定性與商業合規性，評估是否可取代現有付費API。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-06-16-lumina-rag-ai",
     "title": "Lumina：混合 RAG 架構的個人 AI 助理，結合向量搜尋與圖形資料庫",
     "title_original": "hoangsonww/AI-RAG-Assistant-Chatbot",
@@ -98378,6 +98708,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-04-salesforce-headless-360-crm",
+    "title": "Salesforce Headless 360：CRM自動化新思路",
+    "title_original": "Salesforce Headless 360: What if Your Team Never Had to Open the CRM again? - UC Today",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPalpYdGdJeHk1OVBqTDVZTTZHUVJYQVRhTFZJUVJKSWFkcDR3V043ajYwYVFqdjQ4QXlWbW5FZEcwOTdpMFduSEI1WnJ2SWRzLWViVUZZUkp5S1llQ3FjV3ltdGtMSWF2YktxaXBfWkN2OWo2aDdzQVhoVmVtVVUwZ2l3TUpaLUtoVnBsWUhjcExjSEFjOHJUNg?oc=5",
+    "published_at": "2026-04-20T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Salesforce推出Headless 360方案，強調團隊無需直接打開CRM即可完成資料查詢、客戶更新等操作，透過API與AI Agent介面整合銷售流程。",
+    "highlights": [
+      "支援API優先的CRM操作模式",
+      "可與AI Agent深度整合",
+      "減少人工登入操作環節",
+      "適用於需要自動化銷售流程的場景"
+    ],
+    "why_it_matters": "對技術開發者而言，Headless CRM是建構智慧銷售系統的基礎元件。若API足夠穩定，可大幅減少重複性CRM操作的人工負擔。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用Salesforce API建立自動化工作流程，例如當收到客戶郵件時自動創建或更新CRM記錄，減少人工干預。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-22-chatgpt-gemini-ai",
     "title": "ChatGPT 還是 Gemini？轉職者訂閱 AI 工具該怎麼選",
     "title_original": "ChatGPT還是Gemini？ 她转职想訂閱AI 過來人推這款 - e南洋",
@@ -99415,6 +99772,33 @@
     "why_it_matters": "Gemma 4 的出現讓開源陣營多了一個強力選項。對於需要本地部署或對資料隱私有嚴格要求的場景，Gemma 4 可能是比閉源模型更合適的選擇。",
     "automation_angle": null,
     "automation_angle_zh": "技術人員可在本地用 Ollama 或 Hugging Face Transformers 部署 Gemma 4，測試其在程式碼生成、摘要、分類等任務上的表現，評估替代雲端 API 的可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-04-meta-avocado",
+    "title": "Meta未發布模型「Avocado」曝光：架構與訓練策略分析",
+    "title_original": "What we can learn from Avocado: The unreleased AI Meta’s model - The Next Web",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBc3E0dFR5bVJ1Rk8zN1NyVWNnMHZhRVBaSG5nS2FocXRFdE1FVHBXZWpBXzRvM0NjbUN4bkFyWjEteVJmOU9ad1dvblhmYnA1UklvbDlmZFFQM0pXanp4QjhEcktxV2hu?oc=5",
+    "published_at": "2026-04-02T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "The Next Web分析Meta內部未發布的「Avocado」模型，披露其可能的架構設計與訓練策略細節，據稱為Llama系列的實驗性變體。",
+    "highlights": [
+      "非官方曝光，來源為分析報導",
+      "透露Meta仍在開發新型態模型架構",
+      "可能影響未來Llama系列走向",
+      "具體技術規格未獲Meta確認"
+    ],
+    "why_it_matters": "即使未正式發布，Avocado揭示的訓練策略可能預示Meta未來開源模型方向。關注其與現有Llama系列的差異有助評估開源生態演進。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤Meta開源模型動態，評估Avocado洩露技術是否可能移植到自託管Llama部署以提升效能。",
     "tags": [
       "open-source-ai",
       "rss",
