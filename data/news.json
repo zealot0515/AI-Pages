@@ -1,5 +1,229 @@
 [
   {
+    "id": "2026-09-05-zeroslop-agent-ai-ai",
+    "title": "ZeroSlop：開源 Agent 技能，快速評估 AI 寫作的「AI 味」程度",
+    "title_original": "manavmishra/ZeroSlop",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/manavmishra/ZeroSlop",
+    "published_at": "2026-09-05T19:07:17Z",
+    "category": "agent-skills",
+    "summary": "ZeroSlop 是一款開源 Agent 技能，能對文字進行 0-100 分的「AI 感」評分，並提供本地端修改建議與來源事實核查。110 顆星，採用 Python 開發，適合用於偵測 AI 生成內容或最佳化輸出品質。",
+    "highlights": [
+      "開源工具，可本地部署執行",
+      "評分系統量化「AI 感」程度（0-100）",
+      "內建助理功能可直接修改文字",
+      "支援來源事實核查",
+      "110 顆星，技術人員可即時測試"
+    ],
+    "why_it_matters": "可用於偵測自己 AI 工作流程中的過度機械化輸出，提升內容的自然度與可信度，對需要發布 AI 輔助內容的技術人員有直接價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 ZeroSlop 整合至現有 Agent 工作流程，在 AI 生成回覆後自動評估「AI 味」分數，低於閾值時觸發重新生成或人工潤飾步驟。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/12263346?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-qwen3-8-27b-nvfp4-rtx-5090-ninfer-vs-llama-cpp-vs-vllm",
+    "title": "Qwen3.8-27B NVFP4 在 RTX 5090 上的推論效能實測：NInfer vs llama.cpp vs vLLM",
+    "title_original": "Any resource on using Blender with local models, and which models work best?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w86wqp/any_resource_on_using_blender_with_local_models/",
+    "published_at": "2026-09-05T17:29:50+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶發布 Qwen3.8-27B（NVFP4 量化）在 RTX 5090 顯示卡上的推論速度與品質比較測試，橫向評測 NInfer、llama.cpp、vLLM 三種主流推論框架的實際表現差異。",
+    "highlights": [
+      "測試模型為 Qwen3.8-27B，採用 NVFP4 量化格式",
+      "硬體環境為 NVIDIA RTX 5090（消費級旗艦卡）",
+      "比較項目包含推論速度（tokens/sec）與輸出品質",
+      "llama.cpp 為純 CPU/GPU 混合推論方案",
+      "vLLM 為高吞吐量服務端框架，NInfer 為新興推論引擎"
+    ],
+    "why_it_matters": "本地部署大模型需要選擇合適的推論框架，此Benchmark提供實測數據，幫助技術用戶根據效能需求選擇最佳工具組合，尤其對邊緣部署或成本敏感場景有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可參考此Benchmark結果，為特定模型選擇最優推論框架，並評估是否值得升級至 RTX 5090 以提升本地部署效率。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-video-llava",
+    "title": "Video-LLaVA：像素級定位的大型多模態視訊模型開源",
+    "title_original": "mbzuai-oryx/Video-LLaVA",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mbzuai-oryx/Video-LLaVA",
+    "published_at": "2026-09-05T16:56:03Z",
+    "category": "open-source-ai",
+    "summary": "PG-Video-LLaVA 為 MBZUAI 開源的多模態視訊理解模型，專注於 Pixel Grounding 像素級定位能力，可對視訊中特定物件進行精確框選與理解。GitHub 獲 263 顆星，採用 Python 開發。",
+    "highlights": [
+      "開源視訊多模態模型，支援像素級物件定位",
+      "基於 LLaVA 架構，針對視訊幀進行處理",
+      "可回答「畫面中第三個物件是什麼」等定位問題",
+      "263 顆星，社群關注度中等",
+      "需要 GPU 資源運行，評估部署成本"
+    ],
+    "why_it_matters": "像素級定位能力填補了開源視訊模型的一項空白，可用於影片內容審核、自動标注、監控分析等需要精確物件追蹤的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可克隆專案至本地，測試其視訊幀中物件定位的準確率，評估作為自動化影片標註工具或監控系統後端的可行性。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/133966423?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-05-otaku-llm",
+    "title": "Otaku — 本地 LLM 前端介面工具",
+    "title_original": "Otaku — an LLM frontend",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w85blf/otaku_an_llm_frontend/",
+    "published_at": "2026-09-05T16:29:27+00:00",
+    "category": "open-source-ai",
+    "summary": "Otaku 是一款開源 LLM 前端介面工具，發布於 LocalLLaMA 社群。從名稱推斷可能專注於日語或多模態交互體驗。詳細功能與技術規格尚待社群的進一步驗證與討論。",
+    "highlights": [
+      "發布於 Reddit r/LocalLLaMA 社群",
+      "屬於本地部署的 LLM 前端工具",
+      "開源專案，可自行架設測試",
+      "強調隱私與無 API 成本",
+      "細節待社群驗證"
+    ],
+    "why_it_matters": "本地 LLM 前端工具可脫離雲端 API 限制，省錢又能確保資料不外流。對於重視隱私或有成本控制需求的技術用戶，值得評估替代商業介面方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝此開源專案，自行架設本地 LLM 聊天介面，取代付費 API 串接或商業工具，評估其對自動化工作流程的適用性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-reddit-blender",
+    "title": "Reddit 社群討論：本地模型如何與 Blender 整合使用？",
+    "title_original": "Is there a local LLM or toolchain to edit 3d models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w854iq/is_there_a_local_llm_or_toolchain_to_edit_3d/",
+    "published_at": "2026-09-05T16:21:38+00:00",
+    "category": "hot-topics",
+    "summary": "r/LocalLLaMA 社群討論本地 LLM 與 Blender 3D 軟體的整合可能性。用戶詢問哪些本地模型適用於 Blender，以及如何透過 API 或腳本實現自動化 3D 建模輔助流程。",
+    "highlights": [
+      "熱門討論集中在如何用 LLM 輔助 Blender 腳本生成",
+      "部分用戶嘗試將本地模型作為 Blender Python 脚本的智慧助理",
+      "討論涵蓋模型大小、VRAM 需求與推論延遲的取捨",
+      "涉及開源模型如 Llama、Qwen 在 3D 工作流程的應用潜力"
+    ],
+    "why_it_matters": "AI 輔助 3D 建模是創意工作自動化的重要方向，技術用戶可從中了解現階段本地模型的實際應用瓶頸與可行的整合思路。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可探索利用本地 LLM 自動生成 Blender Python 脚本或回應式建模建議，實現部分 3D 工作流程程的智慧化。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-simon-willison-macos-coding-agent-blender",
+    "title": "Simon Willison 實驗：在 macOS 上用 Coding Agent 操作 Blender",
+    "title_original": "Using Blender with coding agents on macOS",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+    "published_at": "2026-09-05T15:51:09+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 分享利用 ChatGPT Codex 結合 macOS 版 Blender 的實作經驗。透過自然語言提示即可驅動 Blender Python API 生成 3D 場景，展示 Coding Agent 操控專業工具的潛力。",
+    "highlights": [
+      "安裝 Blender 桌面應用後即可開始",
+      "自然語言 prompt 驅動 Blender Python API",
+      "無需寫程式碼，LLM 自動生成 API 呼叫",
+      "展示 pelican riding bicycle 等創意生成範例",
+      "適用於創意生成、快速原型等場景"
+    ],
+    "why_it_matters": "證明 Coding Agent 可突破對話框限制，直接操控專業軟體，為自動化創意工作流程程與 3D 內容生成提供新思路。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將此模式推廣至其他支援 Python API 的專業軟體（如 After Effects、Unity），評估以自然語言驅動自動化工作流程程的可行性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-llm-3d",
+    "title": "本地 LLM 是否能編輯 3D 模型？技術可行性分析",
+    "title_original": "The gap has closed, open source will win",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w825pc/the_gap_has_closed_open_source_will_win/",
+    "published_at": "2026-09-05T14:25:19+00:00",
+    "category": "hot-topics",
+    "summary": "r/LocalLLaMA 用戶提問是否存在可用於編輯 3D 模型的本地 LLM 或工具鏈。討論涉及多模態模型的 3D 理解能力、網格處理工具鏈的現狀，以及現有開源方案的局限性。",
+    "highlights": [
+      "多模態 LLM（如 GPT-4V、LLaVA）對 3D 幾何的理解仍在早期階段",
+      "3D 模型編輯需要幾何處理專用工具，非純語言模型所長",
+      "網格處理工具如 Trimesh、PyMeshLab 可作為輔助",
+      "社群期待更強大的 3D 原生模型出現"
+    ],
+    "why_it_matters": "3D 模型編輯的 AI 化是遊戲、開發者工具的重要趨勢，此討論揭示現有本地方案的不足與未來發展方向，幫助技術用戶設定正確的期望值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可結合現有幾何處理庫與 LLM，嘗試構建半自動化的 3D 模型修飾工作流程，但需接受目前的能力邊界。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-ai",
+    "title": "開源 AI 追趕閉源差距：社群樂觀看待本地模型發展前景",
+    "title_original": "NInfer vs llama.cpp vs vLLM: quality + speed comparison for Qwen3.8-27B NVFP4 on RTX 5090",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w821fg/ninfer_vs_llamacpp_vs_vllm_quality_speed/",
+    "published_at": "2026-09-05T14:20:25+00:00",
+    "category": "open-source-ai",
+    "summary": "r/LocalLLaMA 社群一篇標題為「差距已閉合，開源將獲勝」的文章引發討論。發文者認為以 Llama、Qwen、Mistral 為代表的開源模型在效能上已接近 GPT-4、Claude 等閉源模型，本地部署優勢日益明顯。",
+    "highlights": [
+      "開源模型陣營快速迭代，Mistral Large、Qwen2.5 效能顯著提升",
+      "本地部署提供資料隱私保障，無需擔心敏感資訊外洩",
+      "成本可控，無論使用量多少均為一次性硬體投資",
+      "部分任務（如程式碼生成、摘要）開源模型已達商用水準",
+      "爭論點在於複雜推論、多輪對話等高階能力仍有差距"
+    ],
+    "why_it_matters": "開源與閉源模型之爭直接影響技術用戶的部署策略選擇。此討論反映社群信心提升，但也提醒用戶需根據實際任務評估，而非僅看基准測試數據。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可更積極地將開源模型納入生產工作流程，透過微調或 RAG 增強特定領域表現，同時評估本地部署的維護成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-05-metis-flight-levels-mcp-server-rust",
     "title": "metis：Flight Levels 工作管理 MCP Server，Rust 實作",
     "title_original": "colliery-io/metis",
@@ -2160,6 +2384,34 @@
     "why_it_matters": "高吞吐量推論是降低 AI 部署成本的關鍵。此實測顯示 vLLM 生態系持續優化，若能在消費級硬體達成高效能，意味技術人員可用較低成本部署本地模型。",
     "automation_angle": null,
     "automation_angle_zh": "技術人員可使用相同軟硬體配置進行本地模型推論效能測試，評估是否能滿足自動化工作流程程的延遲需求，或作為選擇推論框架的參考依據。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-switchyard-rust-llm-openai-anthropic-api",
+    "title": "Switchyard：Rust 開發的 LLM 流量代理工具，支援 OpenAI 與 Anthropic API 互轉",
+    "title_original": "Meet Switchyard: A Rust Proxy and Library That Routes and Translates LLM Traffic Across OpenAI and Anthropic APIs - marktechpost.com",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM0REWExha25fQkRRX2llV2JHU2wyOVpvRDVhOGhNNE5nZmstdFVuM0RQQ05TY0lNQldaNFp4ckV3cFFnVXRrRm9zS0JZS2hUenJMdkEzUWNIMGVxUzdjcU14bmdfdmtkcGtpbE53TlBRV2w5WC1Vcy01T3NDNUxIc3dRMzN6OEVkUW0teXQwcU9DY3RNNkdfRF9XU3p3NWJjX2RqZW1FS2Zna1dtZk4wZnd5azRKYndxVmlZNV9ybVfSAcYBQVVfeXFMUE5oMEUtaEdBRk0wbnBIaFRqMnc5TFlKN2JMcEt3Y0RuYTg0QjFUcjV2U3ZIQWE0RnFXdTM2Z1gxMnRlZFUtcVB0TjJQQkVRWE1WYU5pU2xCdUoyUEYwT1dCZHJHOG5mRlRWTk9Wc2t1VFIwNkZtT0N4RE5BbzZDRVhQU0RhZFZuTHNUU2h6SktjRmRNeXVxUTJDWWpBQUNUVkN4dHFFZVZOU050dnpHX1NkSjN1YXJYa0J1cW85UmlDR0lpc0Nn?oc=5",
+    "published_at": "2026-09-02T18:05:52+00:00",
+    "category": "open-source-ai",
+    "summary": "Switchyard 是一款以 Rust 編寫的開源代理與函式庫，能自動路由並翻譯不同 LLM API 之間的流量。開發者可透過此工具在 OpenAI 與 Anthropic API 之間無縫切換，降低供應商鎖定風險並最佳化成本。",
+    "highlights": [
+      "使用 Rust 編寫，保證高效能與記憶體安全",
+      "支援 OpenAI 與 Anthropic API 格式自動轉換",
+      "可作為本地代理部署，保護 API 金鑰安全",
+      "開源專案，社群驅動持續迭代",
+      "適合需要混合使用多個 LLM 供應商的技術團隊"
+    ],
+    "why_it_matters": "多供應商 LLM 策略已成主流，Switchyard 提供統一的流量管理介面，技術用戶可借此降低單一供應商依賴，並靈活比較不同模型的成本與效能表現。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 Switchyard 整合至現有 CI/CD 流程，實現模型供應商的動態切換與 A/B 測試，提升 AI 工作流程的彈性與容錯能力。",
     "tags": [
       "open-source-ai",
       "rss",
