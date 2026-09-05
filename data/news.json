@@ -1,5 +1,201 @@
 [
   {
+    "id": "2026-09-05-mcp-reverie-neo4j-mcp",
+    "title": "MCP-Reverie：Neo4j 知識圖譜記憶管理 MCP 伺服器",
+    "title_original": "knowall-ai/mcp-reverie",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/knowall-ai/mcp-reverie",
+    "published_at": "2026-09-05T02:04:56Z",
+    "category": "open-source-ai",
+    "summary": "專為 AI Agent 設計的 Neo4j 知識圖譜記憶管理 MCP 伺服器，支援長期記憶與關係推論，可整合進現有 Agent 工作流程。",
+    "highlights": [
+      "基於 Neo4j 圖資料庫的知識圖譜儲存架構",
+      "支援 Agent 長期狀態記憶與跨對話上下文",
+      "符合 MCP 協定標準，可與主流 Agent 框架互通",
+      "JavaScript 實現，便於 Node.js 環境快速部署"
+    ],
+    "why_it_matters": "Agent 缺乏長期記憶是常見痛點，Neo4j 圖譜可結構化儲存實體關係，突破純向量檢索的局限性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此 MCP Server 接入 Cursor/Cline，實現專案上下文自動積累，省去手動敘述背景的時間。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/50064085?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-openagentemail-ai-agent",
+    "title": "OpenAgentEmail：AI Agent 自託管郵件解決方案",
+    "title_original": "openagentemail/openagentemail",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/openagentemail/openagentemail",
+    "published_at": "2026-09-05T01:44:06Z",
+    "category": "agent-skills",
+    "summary": "OpenAgentEmail 是開源自託管郵件方案，號稱 AgentMail 開源替代。支援一個 Compose 檔案建立無限收件箱、OTP 擷取與 MCP 伺服器。現僅 15 星，成熟度待觀察。",
+    "highlights": [
+      "支援一個 Compose 設定檔建立無限郵箱",
+      "具備 OTP 驗證碼自動擷取功能",
+      "提供 MCP 伺服器介面，易於與現有 Agent 整合",
+      "星數極低，社群驗證不足",
+      "自託管架構適合對郵件資料主權有要求的場景"
+    ],
+    "why_it_matters": "對需要為每個 AI Agent 分配獨立郵箱的開發者，自託管郵件方案可避免依賴第三方服務並降低運營成本，但需自行維護郵件收發基礎設施。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署 OpenAgentEmail 為每個自動化腳本建立專屬郵箱，用於接收系統通知、驗證碼，實現完全隔離的測試與生產郵件環境。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/309239157?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-simmer-sdk-ai-agent",
+    "title": "Simmer-SDK：AI Agent 預測市場工具包",
+    "title_original": "SpartanLabsXyz/simmer-sdk",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/SpartanLabsXyz/simmer-sdk",
+    "published_at": "2026-09-05T01:28:03Z",
+    "category": "agent-skills",
+    "summary": "Python SDK + MCP 伺服器 + 技能套件，讓 AI Agent 參與預測市場決策，可用於量化 Agent 的置信度評估。",
+    "highlights": [
+      "提供 Python SDK 與 MCP 協定雙重介面",
+      "內建預測市場 harness，可用於 Agent 決策校準",
+      "可用來量化 Agent 對任務結果的置信度",
+      "開源專案，48 stars，Python 實現便於整合"
+    ],
+    "why_it_matters": "為 Agent 提供自我置信度量化機制，未來可能成為自動駕駛式決策的基礎元件。",
+    "automation_angle": null,
+    "automation_angle_zh": "整合進 Agent 流程，用預測市場輸出替代主觀信心分數，自動過濾低置信度操作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/108123335?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-aihawk-3-agent",
+    "title": "AIHawk：3 萬星開源瀏覽器 Agent 工具",
+    "title_original": "feder-cr/AIHawk",
+    "source": "GitHub Computer Use Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/feder-cr/AIHawk",
+    "published_at": "2026-09-05T01:19:48Z",
+    "category": "agent-skills",
+    "summary": "AIHawk 是開源 AI 瀏覽器 Agent，支援網頁自動化與電腦使用模式，可與 Claude Code、Gemini CLI 的 Browser MCP 整合。GitHub 星數逾 30,000，Python 實作，是當前熱度最高的網頁 Agent 開源專案之一。",
+    "highlights": [
+      "星數破 3 萬，代表社群高度關注",
+      "支援純英文指令驅動瀏覽器操作",
+      "提供 Browser MCP 介面，方便與 Claude Code、Gemini CLI 串接",
+      "Python 實作，易於理解與客製化",
+      "可直接用於網頁資料抓取、表單填寫等自動化場景"
+    ],
+    "why_it_matters": "開源瀏覽�器 Agent 是提升日常上網任務自動化的核心工具。AIHawk 的 MCP 整合能力使其可無縫嵌入現有 AI 工作流程，降低重複性操作成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "串接 Claude Code 與 AIHawk，自動完成每週例行資料收集：搜尋競爭產品、截圖比價頁面、生成摘要報告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/85809106?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-05-simon-willison-gpt-6-astra",
+    "title": "Simon Willison 實測：GPT-6 Astra 視覺推論對比評析",
+    "title_original": "The Pelican comparison grid for Astra is pretty interesting",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+    "published_at": "2026-09-04T23:59:05+00:00",
+    "category": "hot-topics",
+    "summary": "Simon Willison 以「騎單車的鵜鶘」SVG 生成測試 GPT-6 Astra，發現低推論層級表現已超越 GPT-5.6 Sol 最高層級。",
+    "highlights": [
+      "Astra low 成本僅 $0.0955，效果已優於 Sol 全層級",
+      "Astra 輸入 token 僅 16 個，顯著低於 Sol 的 26 個",
+      "Astra max 層級視覺效果出眾，但低層級腿部渲染仍有缺陷",
+      "推測 Astra 與 Luna 架構共享程度可能高於官方揭露"
+    ],
+    "why_it_matters": "token 效率與基礎智力的大幅提升，代表單位成本效益跨越臨界點，低成本即可獲得高質量輸出。",
+    "automation_angle": null,
+    "automation_angle_zh": "以 $0.1 以內的預算測試 Astra low，用於簡單視覺資產生成或草圖渲染評估性價比。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-github-copilot-vs-code-agent",
+    "title": "GitHub Copilot 每週更新：模型選擇擴展、VS Code Agent 工作階段管理",
+    "title_original": "GitHub Copilot weekly releases — August 31",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31",
+    "published_at": "2026-09-04T21:05:01+00:00",
+    "category": "agent-skills",
+    "summary": "本週 GitHub Copilot 更新擴展模型選項並強化內容保護；VS Code 新增多種 Agent 工作階段管理方式，以及讓 Pull Request 更快達到可合併狀態的功能。",
+    "highlights": [
+      "Copilot 模型選擇更多，開發者可自由切換底層模型",
+      "內容保護功能強化，企業場景適用性提升",
+      "VS Code 新增工作階段管理，適合長時間 Agent 任務",
+      "PR 合併準備功能加速 Code Review 流程",
+      "具體模型代號與更新內容需查閱官方更新日誌"
+    ],
+    "why_it_matters": "模型選擇放寬讓開發者可在同一 IDE 內根據任務切換性價比最高的模型，工作階段管理則直接改善長時間 Agent 推論的可用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "啟用新工作階段管理功能，將大型重構任務交給 Copilot Agent，過程中可隨時暫停、恢復，避免中斷後丟失上下文。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-hugging-face",
+    "title": "Hugging Face 模型下載問題彙報",
+    "title_original": "Am I the only one having these problems with downloading models from HF?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7eyu3/am_i_the_only_one_having_these_problems_with/",
+    "published_at": "2026-09-04T19:54:43+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶反映 Hugging Face 模型下載失敗或速度極慢的問題，可能與 HF 近期基礎設施調整有關。",
+    "highlights": [
+      "社區回報下載超時、連接阻斷等問題",
+      "可能影響本地模型部署工作流程",
+      "缺乏官方說明或狀態頁更新",
+      "目前為社群觀察階段，尚無明確解釋"
+    ],
+    "why_it_matters": "HF 是開源模型主要分發渠道，若問題持續將影響本地部署與 CI/CD 自動化流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "檢查本地下載腳本是否受影響，可考慮加裝重試機制或切換至鏡像源作為備援。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-04-21-qwen3-8-27b-16gb-vram",
     "title": "21款 Qwen3.8 27B 模型變體在 16GB VRAM 上的基準測試出爐",
     "title_original": "I benchmarked 21 Qwen3.8 27B variants on 16GB VRAM",
@@ -26,6 +222,33 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-gpt-6-astra-github-copilot",
+    "title": "GPT-6 Astra 正式登陸 GitHub Copilot",
+    "title_original": "GPT-6 Astra is generally available in GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
+    "published_at": "2026-09-04T18:59:51+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 最新旗艦模型 GPT-6 Astra 已在 GitHub Copilot 開放使用，主打長時序自主編碼與 Agent 任務執行能力。",
+    "highlights": [
+      "定位為通用 Agent 模型，支援長鏈推論與工具調用",
+      "內建 Thinking/Reasoning 機制，適合複雜多步任務",
+      "定價約為 GPT-5.6 Sol 的兩倍，但推論 token 用量更少",
+      "已可直接在 Copilot 介面啟用"
+    ],
+    "why_it_matters": "Copilot 用戶可直接試用最新旗艦模型，若 Token 用量優化得當，實際成本增幅可能低於定價差異。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Copilot 設定中切換至 Astra 模型，測試自動化重構、測試生成或 PR 摘要等高複雜度任務的表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-09-04-vllm-qwen-3-8-flash-next-91-98-100",
