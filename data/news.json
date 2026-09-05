@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-09-05-ghost-windows-linux-ai-agent",
+    "title": "Ghost：Windows/Linux AI Agent電腦操作層，不搶焦點驗證每步操作",
+    "title_original": "NORTHTEKDevs/ghost",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/NORTHTEKDevs/ghost",
+    "published_at": "2026-09-05T09:04:59Z",
+    "category": "agent-skills",
+    "summary": "NORTHTEKDevs/ghost是AI Agent的電腦操作層，支援Windows與Linux。特點是背景操作不搶奪使用者焦點，且每個操作都經過驗證。提供MCP伺服器、CLI工具及REST API，用Rust實作。",
+    "highlights": [
+      "背景操作設計，Agent執行任務時不影響使用者當前工作",
+      "每個操作都有驗證機制，降低自動化失誤風險",
+      "支援Windows與Linux跨平台",
+      "提供MCP伺服器、CLI、REST API三種接入方式",
+      "Rust實作，原生效能佳且記憶體安全"
+    ],
+    "why_it_matters": "通用電腦操作Agent的痛點之一是操作時佔用螢幕導致使用者無法工作。Ghost的設計讓AI Agent可在背景安全執行任務，適合需要長期自動化桌面操作的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "將Ghost部署為遠端伺服器上的桌面自動化後端。透過API讓AI Agent在不干擾伺服器操作的情況下，完成需要圖形介面的自動化任務（如網頁操作、文件處理）。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/256463295?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-wave-mcp-rtl-mcp",
+    "title": "騰訊開源 Wave-MCP：RTL波形除錯專用MCP伺服器",
+    "title_original": "Tencent/wave-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Tencent/wave-mcp",
+    "published_at": "2026-09-05T08:51:14Z",
+    "category": "agent-skills",
+    "summary": "Tencent/wave-mcp是開源、免費授權的MCP伺服器，專為RTL波形除錯設計。支援讀取FST波形（VCD/FSDB自動轉換）及SystemVerilog netlist，提供34種工具涵蓋驅動分析、值/X追蹤、波形的pass-fail比對、瀏覽器波形檢視器及模擬前靜態分析。",
+    "highlights": [
+      "34種除錯工具覆蓋常見RTL驗證需求",
+      "支援多種波形格式（VCD/FSDB/FST）自動轉換",
+      "內建瀏覽器波形檢視器，Agent可直接操作",
+      "波形差異比對功能加速迴歸測試",
+      "Python實作，170 stars，騰訊官方維護"
+    ],
+    "why_it_matters": "晶片/IC設計工程師可讓AI Agent直接操控波形除錯流程。此工具將傳統需要手動操作波形工具的工作自動化，特別適合需要AI輔助硬體驗證的團隊。",
+    "automation_angle": null,
+    "automation_angle_zh": "將Wave-MCP整合至硬體驗證工作流程。AI Agent可透過自然語言查詢特定訊號的時序行為，自動執行波形比對並產出除錯報告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/18461506?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-05-vrchat-agent",
+    "title": "VRChat 助理：開源即時追蹤朋友上線狀態的Agent工具",
+    "title_original": "ggg123124/vrchat-assistant",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ggg123124/vrchat-assistant",
+    "published_at": "2026-09-05T08:25:50Z",
+    "category": "agent-skills",
+    "summary": "ggg123124/vrchat-assistant是自架VRChat好友活動監視器，透過WebSocket即時追蹤朋友上線狀態、世界變更、Avatar更換。提供完整MCP工具集（Hermes相容）、自動OTP登入、VRCX資料遷移及每週遊戲報告。",
+    "highlights": [
+      "WebSocket即時追蹤，延遲低於傳統輪詢方案",
+      "MCP工具集（H Ermes相容）可直接讓AI Agent操作VRChat",
+      "支援自動OTP登入，減少手動操作",
+      "可遷移VRCX既有資料，縮短上手時間",
+      "每週遊戲報告功能自動彙整遊玩數據"
+    ],
+    "why_it_matters": "此專案展示如何將即時狀態監控與AI Agent能力結合。對於遊戲開發者或需要自動化遊戲相關操作的用戶，這是可直接測試的參考範例。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此專案作為MCP server範本，改寫為其他遊戲或應用的狀態監控Agent。例如監控Discord伺服器狀態或遊戲伺服器可用性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/16120345?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-reddit-llm-3d",
+    "title": "Reddit 討論：本地 LLM 使用體驗如同 3D 印表機",
+    "title_original": "I've found myself using Local LLM's like 3D printers.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7thwv/ive_found_myself_using_local_llms_like_3d_printers/",
+    "published_at": "2026-09-05T07:03:10+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群使用者分享表示，隨著本地 LLM 工具鏈成熟，現在使用本地大型語言模型的體驗，已經逐漸接近當年 3D 印表機從極客玩具走向實用工具的轉折點。討論聚焦在 Ollama、llama.cpp、LocalAI 等工具的易用性進步。",
+    "highlights": [
+      "本地部署工具鏈（Ollama、llama.cpp）安裝門檻大幅降低",
+      "量化模型效能與硬體需求達到實用平衡點",
+      "隱私敏感場景下本地 LLM 成為合理選擇",
+      "與 3D 印表機類似，正處於早期採用者向實用者過渡階段"
+    ],
+    "why_it_matters": "本地 LLM 生態系統持續成熟，對重視資料隱私、需要離線部署、或希望控制推論成本的技術人員而言，現在是評估本地化方案的絕佳時機。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可使用 Ollama 一鍵部署最新量化模型，在本機測試文書處理、程式碼補全、資料清洗等日常工作自動化的可行性，計算 ROI。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-05-mcp-reverie-neo4j-mcp",
     "title": "MCP-Reverie：Neo4j 知識圖譜記憶管理 MCP 伺服器",
     "title_original": "knowall-ai/mcp-reverie",
@@ -1274,6 +1388,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-05-gpt-6-astra",
+    "title": "GPT-6 Astra 發布：號稱最強對齊模型，支援電腦操作、編碼、資安、科學",
+    "title_original": "GPT-6 Astra: A new generation of intelligence",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/gpt-6-astra",
+    "published_at": "2026-09-03T11:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 發布 GPT-6 Astra，宣稱是其迄今最智能且對齊程度最高的模型，具備電腦操作、編碼、網路安全、科學研究等前沿能力。然而此公告來源為 OpenAI 官方部落格，實際發布時間與產品規格需進一步驗證。",
+    "highlights": [
+      "號稱支援電腦操作（computer use）能力，可能對自動化工作流程程有直接影響",
+      "強調資安與科學能力，暗示在專業領域的應用深化",
+      "模型對齊技術宣稱升級，或影響輸出穩定性與安全性設定",
+      "URL 結構與典型 OpenAI 部落格格式略有出入，需交叉確認發布真實性",
+      "目前無定價與 API 可用性資訊"
+    ],
+    "why_it_matters": "若此模型確實支援電腦操作與進階編碼能力，將直接衝擊現有 AI 自動化工具市場。技術用戶應評估其對現有工作流程程的潛在顛覆性。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方確認後，可申請 API 測試電腦操作能力，評估是否能取代現有瀏覽器自動化腳本（如 Playwright）",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-09-03-anthropic-claude-fable-5-1-75",
@@ -2685,6 +2827,33 @@
     "automation_angle_zh": "技術用戶可直接存取simonwillison.net連結，在自己的專案中使用類似流程自動化地理資料處理，或測試整合政府開放資料API。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-anthropic-claude-fable-5-1-claude-mythos-5-1",
+    "title": "Anthropic 推出 Claude Fable 5.1 與 Claude Mythos 5.1 模型",
+    "title_original": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - Anthropic",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
+    "published_at": "2026-09-01T18:01:25+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 發表新版 Claude 系列模型 Fable 5.1 與 Mythos 5.1，據稱在創意寫作與複雜推論能力上有顯著提升。官方新聞稿指出新模型支援更長的上下文窗口，並優化了多輪對話的一致性。",
+    "highlights": [
+      "Fable 5.1 主打創意寫作與敘事建構能力",
+      "Mythos 5.1 強調多步驟推論與邏輯分析",
+      "兩款模型皆支援更長的上下文長度",
+      "強化了多輪對話中的記憶保持能力"
+    ],
+    "why_it_matters": "若新模型確實提升創意寫作與推論能力，對需要長文本處理、開發對話式 AI 應用的技術人員是直接利好，值得關注實際測評數據。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可申請 API 存取，針對長文檔摘要、多輪客服腳本生成、複雜程式碼 Debug 推論等場景進行成本效益評估。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -105288,6 +105457,33 @@
     "why_it_matters": "技術人員應避免使用此類灰色管道，除了帳號風險外，也可能違反Google服務條款，長期代價高於節省費用。",
     "automation_angle": null,
     "automation_angle_zh": "不建議技術人員評估或使用此管道，建議關注官方合法優惠或等待正當途徑取得AI服務折扣。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-google-gemini-2-0-pro",
+    "title": "Google Gemini 2.0 免費體驗與 Pro 版升級完整攻略",
+    "title_original": "免費體验 Google Gemini 2.0 及 Pro 版绑卡升級全攻略 - paragraph.com",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1HRHNBY0NHaHRGN1AwMGdINU96ejA1RVlPQWcxMU5FTlF0VzFSYTgxNXVkMmhxM2ZlXzVzSmV5QlZMXzBzOFBsdHk4NF9xUDFobFlycHV5aEtYWThIQUpxeUltTQ?oc=5",
+    "published_at": "2025-02-12T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "一篇中文攻略詳細說明如何免費體驗 Google Gemini 2.0 及綁卡升級至 Pro 版的步驟，包含操作流程與注意事項。來源為 Google News 收錄的 paragraph.com 文章。",
+    "highlights": [
+      "提供 Gemini 2.0 免費額度的具體獲取方式",
+      "詳細說明綁卡升級流程，幫助用戶開通付費功能",
+      "涵蓋 Pro 版功能差異與性價比分析",
+      "中文操作指南降低使用門檻"
+    ],
+    "why_it_matters": "Gemini 2.0 Pro 提供比免費版更強的模型能力，技術用戶可透過此攻略以較低成本獲得付費額度，用於開發或測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "按攻略申請免費額度後，可將 Gemini API 整合至自動化腳本，評估其與 GPT-4 的性價比",
     "tags": [
       "ai-deals",
       "rss",
