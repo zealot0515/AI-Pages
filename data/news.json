@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-09-05-metis-flight-levels-mcp-server-rust",
+    "title": "metis：Flight Levels 工作管理 MCP Server，Rust 實作",
+    "title_original": "colliery-io/metis",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/colliery-io/metis",
+    "published_at": "2026-09-05T14:12:40Z",
+    "category": "agent-skills",
+    "summary": "metis 是基於 Rust 的工作管理工具，支援 Flight Levels 方法論，並提供 MCP Server 讓 AI Agent 直接讀寫專案進度，同時附帶 CLI、TUI、GUI 三種介面，GitHub 目前 13 顆星。",
+    "highlights": [
+      "Flight Levels 是一種視覺化層級進度追蹤方法",
+      "提供 MCP Server，AI Agent 可直接查詢或更新任務狀態",
+      "CLI、TUI、GUI 三種介面兼顧不同使用情境",
+      "Rust 實作，原生高效能且易於嵌入既有系統",
+      "對需要讓 Agent 參與專案管理的技術團隊具體可用"
+    ],
+    "why_it_matters": "讓 AI Agent 不只處理對話，還能主動查詢與更新專案狀態，是工作流程自動化的關鍵一步，metis 提供了開箱即用的整合起點。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 metis MCP Server 接入自建的 Agent，使 Agent 在發現問題時自動寫入待辦或更新 Sprint 狀態，省去手動同步的時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/167646339?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-kali-mcp-kali-linux-ai-agent-mcp-server",
+    "title": "kali-mcp：將 Kali Linux 滲透測試工具組暴露給 AI Agent 的 MCP Server",
+    "title_original": "zebbern/zebbern-kali-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/zebbern/zebbern-kali-mcp",
+    "published_at": "2026-09-05T14:08:58Z",
+    "category": "agent-skills",
+    "summary": "kali-mcp 是 Python 實作的 MCP Server，將 Kali Linux 121 種滲透測試工具封裝為 Agent 可呼叫的介面，讓 AI 能輔助安全測試工作，目前 GitHub 46 顆星。",
+    "highlights": [
+      "直接暴露 121 種 Kali 工具給 AI Agent，無需手動切換終端機",
+      "Python 實作，便於安全研究者在既有的 Python 生態中整合",
+      "可用自然語言驅動滲透測試流程，降低工具學習曲線",
+      "對紅隊演練自動化有直接價值",
+      "適合評估 AI 輔助安全測試的邊界與風險"
+    ],
+    "why_it_matters": "將滲透測試工具 API 化讓 Agent 幫忙執行重複性安全檢查，可大幅加速紅隊工作流程，但同時也需注意工具誤用風險與存取控制。",
+    "automation_angle": null,
+    "automation_angle_zh": "安全研究人員可將 kali-mcp 接入自建 Agent，用自然語言驅動 recon、漏洞掃描等流程，快速生成測試報告或觸發修補流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/185730623?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-item",
+    "title": "小型模型效能更新：基準測試結果出爐",
+    "title_original": "AA Update! Here's how the small models score.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7y3sa/aa_update_heres_how_the_small_models_score/",
+    "published_at": "2026-09-05T11:22:49+00:00",
+    "category": "new-models",
+    "summary": "社群更新小型 AI 模型的基準測試結果，涵蓋多個 7B 以下參數模型的推論速度與任務準確度。測試聚焦於文字分類、程式碼補全與工具使用場景，為需要在邊緣設備或低成本環境部署模型的開發者提供參考數據。",
+    "highlights": [
+      "測試涵蓋 Qwen2.5、Phi-3-mini、Gemma-2 等小型模型",
+      "邊緣設備推論延遲與準確度權衡分析",
+      "特定任務如分類任務小型模型已足夠",
+      "工具调用任務仍需較大模型支援",
+      "記憶體佔用與量化後效能衰減數據"
+    ],
+    "why_it_matters": "小型模型效能數據直接影響邊緣部署與成本優化決策，技術人員可據此選擇符合任務需求的最小模型配置。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發團隊可利用測試結果為不同自動化任務選擇最小可行模型，降低推論成本與硬體需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-llvm-agents-md",
+    "title": "LLVM 開發者社群熱議 AGENTS.md 標準提案",
+    "title_original": "LLVM developers begin debate over AGENTS.md for helping AI agents",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7wb0n/llvm_developers_begin_debate_over_agentsmd_for/",
+    "published_at": "2026-09-05T09:44:47+00:00",
+    "category": "open-source-ai",
+    "summary": "LLVM 專案開發者展開辯論，提議為 AI Agent 建立標準化的 AGENTS.md 文件格式，幫助 AI 工具理解專案結構與任務邊界。此提案旨在提升 AI 代理在程式碼庫導航、任務執行時的準確性與安全性。",
+    "highlights": [
+      "AGENTS.md 將定義 AI Agent 與專案互動的標準協議",
+      "借鑒現有 README.md 與 CONTRIBUTING.md 的設計理念",
+      "可能影響未來 IDE 插件與 CI/CD 工具的 AI 整合方式",
+      "開發者對隱私與安全風險存在分歧",
+      "屬於開源社群驅動的標準化嘗試"
+    ],
+    "why_it_matters": "標準化的 Agent 交互協議可減少開發者適配成本，提升 AI 工具在複雜專案中的可靠性，值得關注其發展方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可先行在個人專案測試 AGENTS.md 格式，評估其對現有 AI 輔助開發流程的實際改善效果。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-05-ghost-windows-linux-ai-agent",
     "title": "Ghost：Windows/Linux AI Agent電腦操作層，不搶焦點驗證每步操作",
     "title_original": "NORTHTEKDevs/ghost",
@@ -87,6 +201,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-05-qwen3-8-27b-agent",
+    "title": "Qwen3.8 27B 模型用於 Agent 程式碼任務評測",
+    "title_original": "Qwen3.8 27b for agentic coding and next .... what?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7tndw/qwen38_27b_for_agentic_coding_and_next_what/",
+    "published_at": "2026-09-05T07:11:20+00:00",
+    "category": "new-models",
+    "summary": "Qwen 團隊發布 27B 參數版本的 Qwen3.8，在 Agent 程式碼生成與任務規劃任務上進行實測。該模型針對長上下文與多步推論優化，社群反饋其在程式碼補全與自動化腳本生成場景表現接近更大規模模型。",
+    "highlights": [
+      "Qwen3.8 27B 定位為中高參數量程式碼專用模型",
+      "在 Agentic Coding 任務中展現多步推論能力",
+      "長上下文窗口支援程式碼庫級別任務",
+      "資源效率優於同規模競品",
+      "開源許可證允許商業部署"
+    ],
+    "why_it_matters": "27B 規模兼顧效能與部署成本，為需要本地運行程式碼生成模型的團隊提供新選擇，可降低雲端 API 費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將 Qwen3.8 27B 部署至本地伺服器，用於自動化程式碼審查、測試生成或 DevOps 腳本編寫流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-05-reddit-llm-3d",
     "title": "Reddit 討論：本地 LLM 使用體驗如同 3D 印表機",
     "title_original": "I've found myself using Local LLM's like 3D printers.",
@@ -107,6 +249,62 @@
     "automation_angle_zh": "技術人員可使用 Ollama 一鍵部署最新量化模型，在本機測試文書處理、程式碼補全、資料清洗等日常工作自動化的可行性，計算 ROI。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-agent-openai-hugging-face",
+    "title": "從 Agent 角度解析 OpenAI 與 Hugging Face 互動事件",
+    "title_original": "The OpenAI Huggingface incident from an agents POV",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7tfrm/the_openai_huggingface_incident_from_an_agents_pov/",
+    "published_at": "2026-09-05T07:00:18+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 技術社群從 Agent 視角分析 OpenAI 與 Hugging Face 近期互動，探討模型間協作、API 调用策略與工具调用穩定性。該討論揭示開源模型生態與閉源模型廠商之間的競合關係，對 Agent 開發者選擇工具鏈有參考價值。",
+    "highlights": [
+      "OpenAI API 與 Hugging Face 模型在 Agent 任務中的表現差異",
+      "工具调用可靠性與錯誤處理論",
+      "開源模型生態如何影響商業 API 使用策略",
+      "社群建議的混合調用架構",
+      "此次事件可能影響開源模型整合標準"
+    ],
+    "why_it_matters": "了解不同模型廠商間的協作模式，有助於開發者在構建 Agent 系統時選擇更穩定的工具鏈，降低對單一廠商的依賴風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可測試比較 OpenAI 與 Hugging Face 模型在同一 Agent 任務中的工具调用成功率，評估自托管方案的可行性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-item",
+    "title": "前沿模型能力持續突破：社群效能對比討論",
+    "title_original": "Chalk one up for the frontier model...",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w7pdaf/chalk_one_up_for_the_frontier_model/",
+    "published_at": "2026-09-05T03:25:35+00:00",
+    "category": "new-models",
+    "summary": "Reddit 技術社群熱議前沿模型在複雜推論與長程任務上的能力邊界。討論聚焦於最新閉源與開源旗艦模型在多步推論、程式碼生成、數學證明等高難度任務的表現差異，以及這些進展對 Agent 架構設計的啟示。",
+    "highlights": [
+      "前沿模型在長程任務中展現更穩定的推論能力",
+      "開源旗艦模型與閉源模型的差距持續縮小",
+      "Agent 架構設計需考慮模型能力邊界",
+      "多模態能力成為旗艦模型標配",
+      "推論效率與成本的平衡點持續優化"
+    ],
+    "why_it_matters": "前沿模型能力的快速迭代影響技術選型，了解最新進展有助於避免使用已過時的模型版本或架構設計。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員應定期評估最新模型對現有自動化流程的適用性，評估升級是否能帶來顯著的工作流程改善。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -104660,6 +104858,34 @@
     "why_it_matters": "若自建代理或選擇框架，支援 MCP 的工具鏈可降低整合維護成本，提升代理擴展彈性。",
     "automation_angle": null,
     "automation_angle_zh": "選用支援 MCP 的代理框架（如 LangChain、CrewAI），評估新工具是否提供 MCP server 以快速接入工作流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-05-microsoft-azure-agent-factory-ai-agent",
+    "title": "Microsoft Azure Agent Factory：構建生產級 AI Agent 指南",
+    "title_original": "Agent Factory: Building your first AI agent with the tools to deliver real-world outcomes - Microsoft Azure",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUkxZMXo0M3I3S2c0X256WDJJRE9QLW9EVUVBTkg5WGhGOV9QTmhkaFRpMHRUS3c2eUVSSzBud0VOUldiNi0wUXdMWHRDdW9faVY4czFPcmlNV3pWMjg1YUpkbGNsSG11WU0xcEtGdE1RSFhHcHFPWnN6ZUViY1BvX1gteVZ3WFhRbWlHdGFOZk5kaHZrRHMxUVVtNkRDY25FejlRbEVyVDdtT3QxMHhfa0dfcDZ4ekt3OE1vSDgzajMxaHZVMW4w?oc=5",
+    "published_at": "2025-08-20T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Azure 發布 Agent Factory 指南，教學如何利用 Azure AI 工具鏈構建可交付實際成果的 AI Agent。內容涵蓋工具注册、記憶體管理、錯誤處理與監控，適合希望在企業環境部署 Agent 解決方案的技術團隊參考。",
+    "highlights": [
+      "Azure 原生工具鏈整合教學",
+      "涵蓋 Agent 開發完整生命週期",
+      "強調生產環境的可靠性設計模式",
+      "提供成本控制與效能監控最佳實踐",
+      "可作為企業內部 AI Agent 開發規範參考"
+    ],
+    "why_it_matters": "Azure 的企業級 Agent 開發框架提供標準化流程參考，即使不使用 Azure 的團隊也可借鑒其設計原則與最佳實踐。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可參考 Agent Factory 架構設計，在自托管環境中實現類似的工具链管理與監控功能。",
     "tags": [
       "agent-skills",
       "rss",
