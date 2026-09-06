@@ -1,5 +1,198 @@
 [
   {
+    "id": "2026-09-06-sts2-agent-2-http-api-mcp-server",
+    "title": "STS2-Agent：將《殺戮尖塔2》遊戲狀態封裝為本地 HTTP API 與 MCP Server",
+    "title_original": "CharTyr/STS2-Agent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/CharTyr/STS2-Agent",
+    "published_at": "2026-09-06T09:43:11Z",
+    "category": "agent-skills",
+    "summary": "STS2-Agent 是一款《殺戮尖塔2》的 MOD 作品，透過 HTTP API 包裝遊戲狀態與操作為 MCP Server，讓支援 MCP 協定的 AI 客戶端能直接控制遊戲。目前 GitHub 獲得 306 顆星，C# 開發，技術實作新穎。",
+    "highlights": [
+      "將遊戲狀態與操作封裝為標準 HTTP API",
+      "同時提供 MCP Server 介面相容主流 AI 客戶端",
+      "允許 AI Agent 直接讀取遊戲狀態並執行操作",
+      "可作為 MCP 工具開發與除錯的練習專案",
+      "展示如何將任意遊戲/軟體改造成 AI 控制對象"
+    ],
+    "why_it_matters": "STS2-Agent 展示了一種將任意軟體遊戲化為 AI 可控工具的範式，對於想學習 MCP 協定實作或研究 AI 遊戲控制的技術人員具有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此專案作為 MCP Server 開發範本，將自己的工作流程程工具改造為 AI Agent 可呼叫的標準化工具端點。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/49502016?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-06-mcpc-tech-mcpc-mcp-agentic",
+    "title": "mcpc-tech/mcpc：透過組合現有 MCP 工具快速建構 Agentic 伺服器",
+    "title_original": "mcpc-tech/mcpc",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/mcpc-tech/mcpc",
+    "published_at": "2026-09-06T09:43:00Z",
+    "category": "agent-skills",
+    "summary": "mcpc 是一個 TypeScript 開源專案，旨在透過組合現有 MCP 工具快速建構 Agentic 伺服器。該專案提供工具組合腳本與配置機制，降低 MCP 工具鏈的建立門檻。GitHub 獲得 104 顆星。",
+    "highlights": [
+      "支援以宣告式配置組合多個 MCP 工具",
+      "降低 Agentic 應用開發的初始設定成本",
+      "TypeScript 實現，方便與現代前端/後端專案整合",
+      "可擴展性允許自定義工具串接邏輯",
+      "有助於快速原型驗證 MCP 工具鏈可行性"
+    ],
+    "why_it_matters": "對於需要快速串接多個 MCP 工具建構工作流程的技術人員，mcpc 提供了一個低門檻的組合框架，能加速 Agentic 應用的原型開發與迭代。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 mcpc 快速組裝一個多工具串聯的測試環境，例如串接檔案系統、程式碼執行、API 呼叫等工具，驗證複雜工作流程的可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/209499265?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-06-llm-kv-cache",
+    "title": "本地 LLM KV Cache 驗證工具：實測快取是否真的有效釋放上下文",
+    "title_original": "Validate your local LLM advertised KV cache against real pressure; see exactly how old contexts get evicted from cache",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8rnyi/validate_your_local_llm_advertised_kv_cache/",
+    "published_at": "2026-09-06T09:38:49+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶分享一個開源腳本，可實際測試本地 LLM 廣告的 KV Cache 容量是否與聲稱相符，觀察舊上下文如何被驅逐。對於需要精確控制上下文長度的開發者或部署者，這是驗證模型聲稱效能的實用工具。",
+    "highlights": [
+      "可驗證模型聲稱的 KV Cache 容量是否屬實",
+      "實際觀察長上下文下舊 Token 的驅逐行為",
+      "有助評估特定模型對長對話的實際支援程度",
+      "開源可自定義，適配不同推論框架"
+    ],
+    "why_it_matters": "本地部署常需在速度與上下文長度間取捨，此工具讓開發者有數據依據選擇模型與配置，而非盲目信任官方規格。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合進 CI/CD 流程，在部署新模型版本前自動驗證 Cache 行為是否符合預期，確保效能預算可控。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-06-vllm-qwen",
+    "title": "vLLM 該用哪個 Qwen 版本？社群實測與版本相容性討論",
+    "title_original": "Which qwen for vllm?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8rhv0/which_qwen_for_vllm/",
+    "published_at": "2026-09-06T09:29:05+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 討論串整理了各 Qwen 版本在 vLLM 上的相容性問題與效能表現。涵蓋 Qwen2.5、Qwen3 系列不同尺寸的部署建議，適合正在評估 vLLM 作為推論後端的技術團隊參考。",
+    "highlights": [
+      "Qwen2.5 系列在 vLLM 支援最成熟",
+      "Qwen3 部分版本仍有兼容性問題需注意",
+      "不同模型尺寸對 vLLM 吞吐量影響顯著",
+      "社群提供實測的穩定性評價"
+    ],
+    "why_it_matters": "vLLM 是目前最高效的開源推論引擎之一，正確選擇版本可大幅減少部署踩雷時間，直接影響服務穩定性與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可根據討論結果建立 vLLM + Qwen 的標準部署模板，快速在新專案啟動一致性的推論服務，減少配置摸索時間。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-06-openwebui",
+    "title": "OpenWebUI 新增內建終端功能：直接在網頁操作本地模型環境",
+    "title_original": "Openwebui + open terminal",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8re76/openwebui_open_terminal/",
+    "published_at": "2026-09-06T09:23:10+00:00",
+    "category": "open-source-ai",
+    "summary": "OpenWebUI 社群整合了直接開啟系統終端的功能，讓用戶在 Web 介面內就能執行命令、操作檔案、調整環境，無需切換視窗。這對在同一機器上同時管理模型與進行除錯的開發者相當便利。",
+    "highlights": [
+      "在 OpenWebUI 介面內直接開啟系統終端",
+      "減少視窗切換，提升操作效率",
+      "適合本地部署需要同時管理模型與環境的場景",
+      "開源專案，持續有新功能整合"
+    ],
+    "why_it_matters": "對於需要在本地模型、Web UI、系統命令間頻繁切換的技術用戶，這個整合減少了操作斷點，讓工作流程更順暢。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此功能用於建立一站式本地模型管理儀表板，在同一介面內完成模型切換、Prompt 測試、環境配置等操作。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-06-item",
+    "title": "技術債名言：軟體沒有物理限制，程式碼可以永遠變爛",
+    "title_original": "Quoting Zach Kehs",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
+    "published_at": "2026-09-06T08:42:49+00:00",
+    "category": "hot-topics",
+    "summary": "Zach Kehs 的名言被 Simon Willison 收錄：「建築物不斷加高終會倒塌，但軟體不受此限制。程式碼可以永遠變爛，永遠可以新增更多抽象層或降低效能。」此語點出技術債累積的危險性。",
+    "highlights": [
+      "軟體缺乏物理世界的自然約束",
+      "技術債會在不斷迭代中隱性累積",
+      "抽象層過多會導致效能下降與維護困難",
+      "對 AI 工具開發者同樣適用的警示"
+    ],
+    "why_it_matters": "開發者常在快速迭代中忽略長期的程式碼健康，此觀點提醒在引入 AI 工具時也需關注底層實作的可維護性。",
+    "automation_angle": null,
+    "automation_angle_zh": "在評估或引入新 AI 工具/模型時，將程式碼品質與技術債列為決策因素之一，避免被快速新功能迷惑而忽視長期維護成本。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-06-qwen3-8-flash-next-oq4e-m4-max-45-tok-s-m2-ultra-25-tok-s",
+    "title": "Qwen3.8-Flash-Next-oQ4e 本地推論實測：M4 Max 達 45 tok/s、M2 Ultra 達 25 tok/s",
+    "title_original": "Qwen3.8-Flash-Next-oQ4e-mtp: 45 tok/s on M4 Max, 25 tok/s on M2 Ultra for local inference — llm-bench.io",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8qo79/qwen38flashnextoq4emtp_45_toks_on_m4_max_25_toks/",
+    "published_at": "2026-09-06T08:42:30+00:00",
+    "category": "new-models",
+    "summary": "Qwen3.8-Flash 的量化版本（oQ4e）在蘋果晶片上展現優秀推論速度。M4 Max 可達 45 tokens/s，M2 Ultra 達 25 tokens/s，適合想在 Mac 本地跑較新模型的技術用戶參考硬體性價比。",
+    "highlights": [
+      "M4 Max 推論速度 45 tok/s，M2 Ultra 為 25 tok/s",
+      "使用 oQ4e 量化方案，平衡速度與品質",
+      "Qwen3.8-Flash 為最新一代輕量級模型",
+      "蘋果 Silicon 對本地推論的友好度持續提升"
+    ],
+    "why_it_matters": "本地跑大模型不再是高門檻，蘋果用戶有了明確的效能參照，可據此評估是否值得升級硬體或選擇此模型作為主力本地模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此效能數據作為 Benchmark 基準，評估該模型是否適合你的自動化腳本延遲要求，或比較與 GPT-4o mini 等雲端 API 的成本效益。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-06-m5-max-tk-s",
     "title": "M5 Max用戶交流：模型選擇與TK/s效能實測",
     "title_original": "M5 Max users: what models are you using & what tk/s are you getting?",
@@ -84,6 +277,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/97131605?v=4",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-06-gpt-6-astra-3d",
+    "title": "GPT-6 Astra 開發者版本初探：3D 模型生成能力突出",
+    "title_original": "Introducing GPT-6 Astra for developers",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+    "published_at": "2026-09-05T23:27:48+00:00",
+    "category": "new-models",
+    "summary": "Simon Willison 在部落格中介紹 GPT-6 Astra 開發者版本，指出其在細節注意力、使用者提示理解、複雜輸出建構方面有提升，特別在 3D 模型生成上表現突出，能生成花園、船塢、動物、城市景觀、甚至 Dyson 球體的渲染。",
+    "highlights": [
+      "對使用者提示的理解更加精準，減少意圖誤解",
+      "3D 模型生成能力顯著增強，涵蓋多樣場景",
+      "在需要高細節的創意輸出場景有優勢",
+      "資訊來源為技術部落格，非 OpenAI 官方公告",
+      "影片中段出現 pelican riding a bicycle 彩蛋"
+    ],
+    "why_it_matters": "GPT-6 Astra 的 3D 生成能力對需要快速原型視覺化或遊戲場景製作的技術人員有直接價值，但目前資訊來自第三方觀察，需等官方技術文件確認。",
+    "automation_angle": null,
+    "automation_angle_zh": "可利用 GPT-6 Astra 的 3D 生成能力快速建立場景原型，或評估其與現有 3D 工作流程的整合可能性，優先測試非商業用途的創意專案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-09-06-ninfer-rtx-5090-555k-fp4",
