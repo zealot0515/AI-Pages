@@ -1,5 +1,147 @@
 [
   {
+    "id": "2026-09-06-m5-max-tk-s",
+    "title": "M5 Max用戶交流：模型選擇與TK/s效能實測",
+    "title_original": "M5 Max users: what models are you using & what tk/s are you getting?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8ijos/m5_max_users_what_models_are_you_using_what_tks/",
+    "published_at": "2026-09-06T01:32:02+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA討論M5 Max晶片用戶使用的本地模型及實際輸出速度。開發者分享不同模型在M5 Max上的tokens per second表現，協助其他人優化硬體效能配置。",
+    "highlights": [
+      "聚焦M5 Max蘋果晶片的本地推論效能",
+      "用戶分享各模型TK/s實測數據",
+      "涉及Llama、Mistral等主流開源模型",
+      "硬體-軟體匹配優化成討論重點",
+      "有助評估不同模型的性價比"
+    ],
+    "why_it_matters": "M5 Max的高效能為本地LLM部署提供新選項，了解實際模型速度有助開發者優化本地AI工作流程程與硬體投資決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考用戶分享的TK/s數據，選擇在M5 Max上性價比最高的模型進行本地部署實測。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-06-guaca-grok-bot-agent",
+    "title": "Guaca：受 Grok Bot 啟發的多 Agent 協作桌面工作空間",
+    "title_original": "madebywelch/guaca",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/madebywelch/guaca",
+    "published_at": "2026-09-06T00:55:51Z",
+    "category": "agent-skills",
+    "summary": "Guaca 是一款 Rust 實作的桌面工作空間，讓多個 AI Agent 在同一環境中協作、寫程式、使用工具。支援本地或自有伺服器部署、共享對話、持久記憶與 MCP 插件擴展。現階段星數較低（32），屬早期專案。",
+    "highlights": [
+      "Rust 實作，原生高效能與記憶安全",
+      "支援多 Agent 並行協作寫程式",
+      "本地部署或自有伺服器可選",
+      "共享對話與持久記憶減少上下文丟失",
+      "MCP 插件生態可擴展工具集"
+    ],
+    "why_it_matters": "多 Agent 協作是今年 Agent 發展熱點之一，Guaca 提供了輕量級的本地原型驗證起點，技術宅可用於實驗 Agent 間任務分工與溝通協議。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署後嘗試建立一個雙 Agent 協作流程（如一個負責規劃、一個負責執行），觀察共享記憶如何提升複雜任務完成率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/83249002?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-06-gentle-ai-ai-claude-code-cursor",
+    "title": "Gentle-AI：統一設定你現有的 AI 程式碼助理（支援 Claude Code、Cursor 等）",
+    "title_original": "Gentleman-Programming/gentle-ai",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Gentleman-Programming/gentle-ai",
+    "published_at": "2026-09-06T00:33:38Z",
+    "category": "agent-skills",
+    "summary": "Gentle-AI 是一款用 Go 撰寫的開源工具，讓開發者統一配置已有的 AI 程式碼助理（Claude Code、Cursor、OpenCode、Codex 等），支援持久記憶、Spec-Driven Development、技能庫、MCP 擴展與人格設定。星數達 6292，社群關注度高。",
+    "highlights": [
+      "支援主流 AI 程式碼助理統一配置",
+      "持久記憶讓對話具備跨任務上下文",
+      "內建 Spec-Driven Development 開發模式",
+      "MCP 擴展可接入自訂工具",
+      "Go 語言實現，效能與跨平台支援佳"
+    ],
+    "why_it_matters": "Gentle-AI 解決了開發者頻繁切換不同 AI 助理時的設定碎片化問題，一套配置適用於多個 Agent，技術宅可快速統一自己的 AI 工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝後將 Gentle-AI 作為統一路由層，針對不同專案（前端、後端、資料處理）切換預設人格與技能集，測試是否能減少跨專案設定時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/97131605?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-06-ninfer-rtx-5090-555k-fp4",
+    "title": "NInfer 分支：RTX 5090 上實現 555k 上下文 @ FP4 精度",
+    "title_original": "NInfer fork: 555k context@fp4 for 5090 with YARN, reliable kv host cacheing, monitoring, jinja, opened model support",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8f8fa/ninfer_fork_555k_contextfp4_for_5090_with_yarn/",
+    "published_at": "2026-09-05T22:58:42+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串顯示有人 Fork 了 NInfer，在 RTX 5090 平台上實現 55.5 萬上下文長度搭配 FP4 量化，並整合 YARN、可靠 KV 主機快取與 Jinja 模板支援。原始摘要為空，屬社群技術實驗報告。",
+    "highlights": [
+      "FP4 量化大幅降低長上下文 VRAM 需求",
+      "RTX 5090 作為實驗平台（實際可用性待驗證）",
+      "整合 YARN 注意力擴展與 KV 快取優化",
+      "Jinja 模板支援提升輸出可控性",
+      "屬社群 Fork，非官方維護版本"
+    ],
+    "why_it_matters": "長上下文推論的硬體需求若能透過 FP4 量化大幅下降，本地跑 500k+ 上下文模型門檻將降低，技術宅可關注此分支的穩定性與效能實測。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤該 Fork 的後續效能測試（通過量、VRAM 峰值、回應品質），若穩定可考慮用於本地文件分析或大型程式碼庫上下文注入場景。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-06-reddit-llm",
+    "title": "Reddit熱議：本地部署LLM代理框架哪個最香？",
+    "title_original": "Which agent harness do you use and why?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w8f7bp/which_agent_harness_do_you_use_and_why/",
+    "published_at": "2026-09-05T22:57:24+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/LocalLLaMA社區討論各種本地LLM代理開發框架的選擇，包含AgentScope、LangChain、Camel等工具的優缺點比較。開發者分享不同框架在任務分解、記憶體管理、工具調用穩定性方面的實際體驗。",
+    "highlights": [
+      "社區聚焦本地部署場景，對延遲與隱私有嚴格要求",
+      "多個框架被提及：AgentScope、LangChain、Camel等",
+      "討論重點包括任務規劃、工具鏈整合能力",
+      "用戶分享實際跑分與穩定性回饋",
+      "對比雲端API方案的性價比與可控性"
+    ],
+    "why_it_matters": "本地LLM代理開發框架的成熟度直接影響開發者能否在無網路環境下構建自動化工作流程。選擇合適框架可大幅降低建構成本與除錯時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估各框架的任務拆解能力與工具調用穩定性，選擇最適合自己業務場景的方案進行本地部署測試。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-05-zeroslop-agent-ai-ai",
     "title": "ZeroSlop：開源 Agent 技能，快速評估 AI 寫作的「AI 味」程度",
     "title_original": "manavmishra/ZeroSlop",
@@ -18909,6 +19051,34 @@
     "automation_angle_zh": "技術人員可追蹤本地部署AI代理時的CPU/GPU使用率，評估是否需要調整工作負載分配比例以提升效率。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-06-vs-code-1-133-claude-sessions",
+    "title": "VS Code 1.133整合Claude Sessions功能",
+    "title_original": "VS Code 1.133 Flexes Claude Sessions - Visual Studio Magazine",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ3drVkxGQkRRQzQ4T0dkemlTQ2d1UVVhdVZzRDd4V2FXZ0NsNVM2cmxnVHR5anRFNUdiYXhoYjA3MGJtRkxIdE5YX2ZXMnBQelUtemRxU0puVmpZWlkxQTJrTTRGWWRSVHNkX3QwS2ZQZldXWTVIMktSMGM1RFNOZzkxVFVaaTdQNmlJQnRMRTlDZ0FPM0NjaDhB?oc=5",
+    "published_at": "2026-08-12T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Visual Studio Magazine報導VS Code 1.133版本強化ClaudeSessions功能，增強開發環境與Claude AI助理的整合深度。新的Claude Sessions支援讓開發者可在IDE內直接進行上下文豐富的AI輔助編碼工作。",
+    "highlights": [
+      "VS Code 1.133正式強化ClaudeSessions",
+      "IDE內AI輔助編碼體驗提升",
+      "上下文管理能力增強",
+      "支援更長的對話記憶與專案理解",
+      "對使用Anthropic Claude的開發者直接受益"
+    ],
+    "why_it_matters": "VS Code與Claude的深度整合代表AI輔助開發工具鏈的成熟，讓開發者能在熟悉的IDE環境中獲得更強的AI代碼幫助能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "升級VS Code至1.133版本，啟用ClaudeSessions功能，評估其在大型專案中的上下文理解與代碼生成輔助效果。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
