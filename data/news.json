@@ -1,5 +1,91 @@
 [
   {
+    "id": "2026-09-06-filesystem-mcp-llm-ai-mcp",
+    "title": "filesystem-mcp：LLM/AI代理本地檔案系統MCP伺服器",
+    "title_original": "j0hanz/filesystem-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/j0hanz/filesystem-mcp",
+    "published_at": "2026-09-06T14:34:09Z",
+    "category": "agent-skills",
+    "summary": "TypeScript實現的本地檔案系統MCP伺服器，提供安全、结构化、受控的檔案讀寫、搜尋、差異、修補功能。",
+    "highlights": [
+      "TypeScript實現，MCP相容",
+      "支援檔案讀寫、搜尋、差異、修補",
+      "強調安全與結構化的檔案操作",
+      "星標14，社群關注度偏低",
+      "可作為AI代理與本地檔案交互的中間層"
+    ],
+    "why_it_matters": "為AI代理提供可信賴的本地檔案操作接口，解決LLM直接操作檔案時的安全性與可靠性問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可本地部署測試，用其作為AI代理修改程式碼的受控管道，例如讓代理安全地修改專案檔案。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/159924955?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-06-dazbo-agent-skills-ai",
+    "title": "dazbo-agent-skills：開源AI代理技能集合",
+    "title_original": "derailed-dash/dazbo-agent-skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/derailed-dash/dazbo-agent-skills",
+    "published_at": "2026-09-06T13:44:24Z",
+    "category": "agent-skills",
+    "summary": "開源AI代理技能集，包含24種Shell腳本，涵蓋文件維護、內容生成、圖表繪製等任務。屬早期項目，實用性待驗證。",
+    "highlights": [
+      "24種AI代理專用技能",
+      "以Shell腳本實現",
+      "支援文件維護、內容生成、圖表繪製",
+      "GitHub星標數量偏低，社群關注度有限",
+      "可直接Fork並整合進現有腳本"
+    ],
+    "why_it_matters": "Shell腳本形態降低使用門檻，技術用戶可快速將這些技能整合進CI/CD或日常腳本中實現自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "直接Fork該專案，將需要的Shell腳本整合进工作流程，例如用於自動生成文件或維護更新日誌。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Shell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/57593143?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-06-chatgpt-windows",
+    "title": "ChatGPT 正式推出 Windows 桌面應用程式",
+    "title_original": "ChatGPT windows app",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1w8v8x7/chatgpt_windows_app/",
+    "published_at": "2026-09-06T12:45:19+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布 ChatGPT Windows 版原生應用程式正式上線，用戶可直接在桌面環境使用對話功能，無需透過瀏覽器。該應用支援快捷鍵呼叫、背景執行，並與作業系統深度整合。對於需要頻繁使用 AI 輔助的開發者而言，桌面端穩定性與回應速度較網頁版更佳，但目前功能可能落後 macOS 版本。",
+    "highlights": [
+      "Windows 原生應用程式正式發布",
+      "支援快捷鍵快速呼叫對話視窗",
+      "可背景執行，不干擾其他工作",
+      "整合 Windows 通知系統",
+      "功能完整度可能落後 macOS 版本"
+    ],
+    "why_it_matters": "桌面應用程式提供更流暢的使用體驗，適合需要長時間與 AI 互動的技術工作者，可提升日常開發效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可將 ChatGPT 桌面版與工作流程程工具串接，測試其在輔助程式碼撰寫、文件生成等場景的實用性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-06-sts2-agent-2-http-api-mcp-server",
     "title": "STS2-Agent：將《殺戮尖塔2》遊戲狀態封裝為本地 HTTP API 與 MCP Server",
     "title_original": "CharTyr/STS2-Agent",
@@ -186,6 +272,34 @@
     "automation_angle_zh": "可將此效能數據作為 Benchmark 基準，評估該模型是否適合你的自動化腳本延遲要求，或比較與 GPT-4o mini 等雲端 API 的成本效益。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-06-chatgpt-ai",
+    "title": "ChatGPT 禁止用AI製作廣告　行銷活動仍陽奉陰違",
+    "title_original": "ChatGPT bans campaigns from using AI to make ads. They’re doing it anyway.",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1w8pgvq/chatgpt_bans_campaigns_from_using_ai_to_make_ads/",
+    "published_at": "2026-09-06T07:33:14+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 近期更新服務條款，明文禁止使用 ChatGPT 生成廣告內容，但據觀察，多數行銷活動仍在暗度陳倉，透過微調提示詞或 API 绕過偵測。此現象反映 AI 平台政策與實際執行之間的落差，也暴露內容過濾機制的局限性。對於需要合規使用 AI 工具的開發者而言，理解此界線將影響產品設計方向。",
+    "highlights": [
+      "OpenAI 更新使用政策，明確禁止 AI 生成廣告內容",
+      "行銷從業者透過提示詞工程規避偵測",
+      "平台內容審核機制存在漏洞",
+      "政策執行與實際使用行為出現明顯落差",
+      "此趨勢可能影響未來 API 定價與使用規範"
+    ],
+    "why_it_matters": "此事件揭示 AI 平台政策執行力的真實極限，技術開發者需預判合規風險，避免依赖可能隨時收緊的灰色地帶。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可測試自有內容過濾系統能否識別常見的廣告文案模式，評估是否需要自建合規審核層。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -642,6 +756,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/185730623?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-06-reddit-sub-agents",
+    "title": "Reddit熱議：Sub agents 放進程式碼庫的實作方式",
+    "title_original": "sub agents being released into my codebase",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1w80ggu/sub_agents_being_released_into_my_codebase/",
+    "published_at": "2026-09-05T13:13:53+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit討論提及將Sub agents部署進程式碼庫的實作，但缺乏具體技術細節或程式碼範例，實用性不明。",
+    "highlights": [
+      "來源為Reddit討論串，非技術文件",
+      "標題暗示Sub agents可整合進程式碼庫",
+      "缺乏具體實作細節或程式碼展示",
+      "討論熱度一般，社群回饋有限",
+      "需更多來源補充技術脈絡"
+    ],
+    "why_it_matters": "Sub agents概念值得關注，但此Reddit串未提供足夠技術深度，無法評估其實作價值或與現有方案的差異。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可追蹤後續討論或尋找其他有程式碼範例的來源，評估Sub agents是否值得整合進開發流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
