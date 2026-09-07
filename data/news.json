@@ -1,5 +1,146 @@
 [
   {
+    "id": "2026-09-07-vs-code-dew-flow-creds-for-devs-github",
+    "title": "VS Code 零信任憑證管理器 dew_flow_creds_for_devs 登陸 GitHub",
+    "title_original": "oleksandrdubyna88/dew_flow_creds_for_devs",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/oleksandrdubyna88/dew_flow_creds_for_devs",
+    "published_at": "2026-09-07T11:03:56Z",
+    "category": "agent-skills",
+    "summary": "一個 TypeScript 開發的零信任憑證管理工具，直接整合 VS Code，支援 SSH、VPN、資料庫與 API 金鑰的 OS keychain 儲存。亮點在於端到端加密的團隊同步功能，伺服器無法解密儲存的內容，AI Agent 可透過代理模式使用憑證而不直接接觸明文。",
+    "highlights": [
+      "整合 VS Code 開發環境，無需切換工具鏈",
+      "支援 SSH、VPN、資料庫與 API 金鑰的 secure storage",
+      "端到端加密同步，伺服器只存密文，無法解讀內容",
+      "AI Agent 可透過 API 取用憑證，無需暴露明文",
+      "TypeScript 實作，12 stars，適合安全敏感開發場景"
+    ],
+    "why_it_matters": "在 AI Agent 自動化工作流程的場景中，安全存取外部服務是常見痛點。零信任架構加上 never-reveal 設計，能讓 Agent 在執行任務時取得必要授權，同時降低憑證外洩風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將此專案 fork 後，改造成個人或團隊的 MCP server credential provider，讓 AI coding assistant 在不取得 API key 明文的情況下自動化呼叫外部工具。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/71817001?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-opengptloop-ai-agent",
+    "title": "OpenGPTLoop：輕量級通用 AI Agent 框架",
+    "title_original": "maxrionloop/opengptloop",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/maxrionloop/opengptloop",
+    "published_at": "2026-09-07T11:01:10Z",
+    "category": "agent-skills",
+    "summary": "OpenGPTLoop（又稱 OpenCurro）是一款以 TypeScript 開發的輕量通用 AI Agent，主打快速啟動與自主執行能力，GitHub 目前 24 顆星，屬於早期開源專案，適合想要研究 Agent 核心邏輯的技術用戶參考。",
+    "highlights": [
+      "TypeScript 實作，適合前端/全端開發者閱讀",
+      "標榜輕量與快速啟動特性",
+      "通用型 Agent，非針對特定垂直場景設計",
+      "目前星數低，社群支援與文件有限",
+      "可用來學習 Agent 的自主迴圈（loop）設計模式"
+    ],
+    "why_it_matters": "對於想研究 Agent 架構或快速原型驗證的開發者，這是一個輕量入手點，可直接閱讀原始碼理解自主 Agent 的核心循環邏輯。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可 fork 此專案，將其改造為特定工作流程的控制中心，例如自動監控資料庫狀態並觸發告警。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/325960672?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-lmlocal-vs-code-ai-api",
+    "title": "LMLocal：VS Code 的本地 AI 程式助理，支援本地引擎與雲端 API",
+    "title_original": "truehot/LMLocal",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/truehot/LMLocal",
+    "published_at": "2026-09-07T10:52:54Z",
+    "category": "agent-skills",
+    "summary": "LMLocal 是一款專為 Visual Studio 2022/2026 設計的本地 AI 聊天助理，基於 C# 開發，可對接 LM Studio、Ollama、Jan、Llama.cpp 等本地引擎，也可使用 OpenAI 相容雲端 API，能直接在 IDE 內請 Agent 幫你寫程式、執行建置測試並套用修改。",
+    "highlights": [
+      "支援 LM Studio、Ollama、Jan、Llama.cpp 等本地引擎",
+      "相容 OpenAI API 格式，可直上雲端模型",
+      "可在 IDE 內直接執行建置（build）與測試（test）",
+      "基於 C#，對 .NET 技術棧用戶友善",
+      "目前 GitHub 僅 23 顆星，屬早期專案"
+    ],
+    "why_it_matters": "對想在本地環境保持程式碼隱私的開發者，LMLocal 提供一個直接內嵌 IDE 的 AI 程式助理選項，可省去上下文切換。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其設為 VS Code 工作區的預設助理，讓 AI 直接在專案目錄下執行建置、跑測試並自動套用改動。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1077958?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-google-gemini-3-8-flash-ai-studio",
+    "title": "Google Gemini 3.8 Flash 限時半價登陸 AI Studio",
+    "title_original": "Google Gemini 3.8 Flash登場！AI Studio可免費玩 限時半價超抵 - 香港01",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOcDVqMW50QnMwMTU1U3YyY3JyR25fMWRFWk9vQ1I4dWJRRU9iRVBwSmFFeDduVDY2U3oxSU9mWGhnX2FlQ1dleGp4TEVHYmhBS2Y2MVdGWF9FZHRZeVVqbEpLXzd0ajdqcUpzMUZRRGVSb3FzQnlzQVM5cGdDMXNwdGZpTGhJaG5wX3VvWkpSQUM2YjRjT1BZUW56emI1anoyTFN0c1h2SUxXcWk2SGNWa211M2RmdHdzb2pLVzNNVG94REZDeWY4bVVyYzNIMXoySnhPSHNpZmxDWV8xM1EwNXVDSGdnSGZrekNqemhQMmp1ZVYxWUJLWmZVekVYSXp6dzVEUWFqRnFZTWxuMkxEckxVb3FWbThYMV9zZk1CTVloMG91d19ob1Z4WGxqbWdvc3FrN204aw?oc=5",
+    "published_at": "2026-09-07T07:30:00+00:00",
+    "category": "ai-deals",
+    "summary": "Google AI Studio 推出 Gemini 3.8 Flash 模型，祭出限時半價優惠，使用者可在無需信用卡的情況下免費試用。作為 Gemini 家族的輕量高速成員，3.8 Flash 主打低延遲與成本效益，適合大量 API 調用場景。",
+    "highlights": [
+      "Gemini 3.8 Flash 為 Gemini 系列輕量版本，主打低延遲",
+      "AI Studio 限時半價促銷，可無門檻試用",
+      "無需信用卡即可開始免費體驗",
+      "適合需要高頻 API 呼叫但預算敏感的開發者"
+    ],
+    "why_it_matters": "LLM API 成本是落地應用的關鍵變數。Gemini 3.8 Flash 限時半價若屬實，可顯著降低每日呼叫成本，為需要大量推論的自動化工作流程提供經濟選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將現有 GPT-4o 或 Claude 的批次任務遷移測試，比較 Gemini 3.8 Flash 在相同任務量下的輸出品質與費用，評估是否值得切換以節省 API 開支。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-mobileworld-llm",
+    "title": "MobileWorld：手機端 LLM 自主代理評測基準出爐",
+    "title_original": "Lit Review on Benchmarking LLMs Running in your phone!: MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9kfs3/lit_review_on_benchmarking_llms_running_in_your/",
+    "published_at": "2026-09-07T06:39:50+00:00",
+    "category": "open-source-ai",
+    "summary": "MobileWorld 是一個針對手機端執行 LLM 的自主代理進行的評測基準，聚焦 Agent-User 互動與 MCP 增強環境。旨在量化本地模型在移動設備上的自主任務執行能力，為開發者提供離線 AI 代理的效能參照。",
+    "highlights": [
+      "專門評測手機端 LLM 的自主代理能力",
+      "覆蓋 Agent-User 互動場景與 MCP 增強環境",
+      "提供本地模型移動部署的效能量化指標",
+      "可用於比較不同模型在有限算力下的表現"
+    ],
+    "why_it_matters": "手機端本地模型部署逐漸普及，這個基準能幫助技術人員客觀比較各模型在邊緣設備上的代理能力，而非僅依賴官方跑分。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可用此基準評估候選模型（如 Qwen2.5、Llama3.2）在手機上的任務成功率，作為是否部署邊緣 AI 代理的決策依據。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-07-fauxnix-windows-linux-mcp",
     "title": "Fauxnix：讓Windows跑Linux命令的MCP伺服器",
     "title_original": "20000419/fauxnix",
@@ -112,6 +253,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/29157111?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-openai",
+    "title": "OpenAI 與新聞機構合作，扶植烏克蘭獨立媒體創新",
+    "title_original": "Supporting independent journalism in Ukraine",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+    "published_at": "2026-09-07T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 聯合 AIRPPU 與 WAN-IFRA 發起 AI 計畫，協助烏克蘭新聞組織強化創新能力與韌性，此為 OpenAI 企業公益倡議的一部分，非模型或產品功能更新，屬 CSR（企業社會責任）新聞。",
+    "highlights": [
+      "OpenAI 官方部落格發布，非產品技術公告",
+      "合作方包括 AIRPPU 與 WAN-IFRA",
+      "旨在提升烏克蘭媒體的創新與韌性",
+      "不涉及 API 定價或模型能力變動",
+      "對技術開發者的工作流程無直接影響"
+    ],
+    "why_it_matters": "此新聞對技術用戶的日常工作流程或成本無直接影響，但反映了 AI 企業在全球輿論場域的布局策略，可作為觀察 AI 公共政策的參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "此資訊對技術用戶的直接自動化價值有限，若有興趣參與類似公益計畫，可留意 OpenAI 的 Grants 與合作申請管道。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-09-07-openai-rsi",
