@@ -1,5 +1,202 @@
 [
   {
+    "id": "2026-09-07-barbatos-frida-api-android-mcp-server",
+    "title": "Barbatos：Frida API 與 Android 除錯的 MCP Server",
+    "title_original": "victorlpgazolli/barbatos",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/victorlpgazolli/barbatos",
+    "published_at": "2026-09-07T16:44:40Z",
+    "category": "agent-skills",
+    "summary": "Barbatos 是 Kotlin 實作的 MCP Server，將 Frida API 包裝成 AI Agent 可呼叫的工具，同時提供 Android 除錯功能，Stars 11，屬技術向開源專案，適合對行動安全或逆向有需求的開發者。",
+    "highlights": [
+      "Frida API 封裝為 MCP 工具",
+      "支援 Android 動態分析與除錯",
+      "Kotlin 實作，與 Android 生態緊密",
+      "可用自然語言驅動 Frida 腳本執行",
+      "Stars 偏低，文件與社群支援有限"
+    ],
+    "why_it_matters": "將 Frida 逆向能力與 AI Agent 結合，可實現「用自然語言驅動 Android App 行為分析」，對安全研究與自動化測試場景有潛在價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "對一款有混淆的 Android App 下「攔截並列出所有網路請求」指令，測試 Agent 是否能自動生成並執行對應的 Frida Script。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Kotlin"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/50163396?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-pireel-agent-ai-coding-agent-mcp",
+    "title": "pireel-agent：讓 AI Coding Agent 直接驅動影片剪輯的 MCP 工具",
+    "title_original": "pireel/pireel-agent",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/pireel/pireel-agent",
+    "published_at": "2026-09-07T16:43:49Z",
+    "category": "agent-skills",
+    "summary": "pireel-agent 是 MCP 協定擴充，可讓 Codex 或 Claude Code 等 AI Coding Agent 直接控制 Pireel Studio，透過對話完成剪輯、故事板生成、字幕與設計影片等操作，Stars 目前僅 11，屬早期實驗性專案。",
+    "highlights": [
+      "MCP 協定整合，支援 Codex / Claude Code",
+      "可透過自然語言驅動影片剪輯流程",
+      "支援剪輯、故事板、字幕、設計一站式完成",
+      "JavaScript 實作，门槛較低易於修改",
+      "Stars 偏低，需自行評估穩定性與維護狀況"
+    ],
+    "why_it_matters": "將自然語言程式能力延伸到影片創作，是 AI Agent 跨領域自動化的有趣嘗試，技術宅可搶先實驗 AI 驅動的多模態創意工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "Clone repo 安裝後，用 Claude Code 對一段採訪影片下「剪出前30秒並加上字幕」的指令，觀察 Agent 是否能完成從理解到執行的完整鏈路。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/304991498?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-memorys-mcp-server",
+    "title": "Memorys：具備神經可塑性記憶的持久化 MCP Server",
+    "title_original": "LeandroPG19/Memorys",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/LeandroPG19/Memorys",
+    "published_at": "2026-09-07T16:30:25Z",
+    "category": "agent-skills",
+    "summary": "Memorys 是 Rust 實作的持久化記憶 MCP Server，提供 19 種工具，含知識圖譜、赫布學習、情境記憶、矛盾檢測、前瞻觸發、貝氏校正等功能，支援零配置 Docker 部署，Stars 27，在同類專案中關注度較高。",
+    "highlights": [
+      "Rust 實作強調效能與記憶體安全",
+      "知識圖譜 + 赫布學習支援長期記憶演化",
+      "矛盾檢測與貝氏校正提升記憶可靠性",
+      "19 種工具覆蓋常見 Agent 記憶需求",
+      "零配置 Docker 部署降低使用門檻"
+    ],
+    "why_it_matters": "持久化記憶是提升 Agent 長期任務表現的關鍵，Memorys 的多重機制（矛盾檢測、貝氏校正）比純 KV 儲存更有深度，技術宅可評估其是否能取代現行 LangChain Memory。",
+    "automation_angle": null,
+    "automation_angle_zh": "用 Docker 一鍵啟動後，讓 Agent 執行「連續三天每天新增一項任務」的對話，觀察第四天查詢時 Agent 是否能正確回溯前幾天的記憶並檢測矛盾。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/151863062?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-sota-aa-omniscience",
+    "title": "為何 SOTA 開源模型在 AA-Omniscience 基準測試得分偏低？",
+    "title_original": "Why are the SOTA open-weight models scoring (relatively) low scores on AA-Omniscience Index",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9t83y/why_are_the_sota_openweight_models_scoring/",
+    "published_at": "2026-09-07T14:09:45+00:00",
+    "category": "new-models",
+    "summary": "開發者社群熱議：為何 Llama 3.1、Qwen2、Mistral 等頂級開源模型在 AA-Omniscience 綜合評測中排名低於預期。討論聚焦於基準測試設計是否偏重特定能力（如長文本、多輪對話），與主流 LMSYS / MMLU 排名邏輯存在差異，引發對「真正 SOTA」的定義爭議。",
+    "highlights": [
+      "AA-Omniscience 採用多維度評估，與傳統單一 benchmark 設計不同",
+      "開源模型在某些子任務上領先，但整體排名受其他維度拖累",
+      "可能反映開源模型在長文本推論、多輪一致性上仍有改進空間",
+      "社群呼籲建立更透明的 benchmark 評測方法"
+    ],
+    "why_it_matters": "基準測試影響模型選擇決策。若 AA-Omniscience 揭示的弱點是真實的，開發者在選型時需更關注長文本與多輪任務的實際表現，而非只看 MMLU 分數。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在本地跑 AA-Omniscience 評測子集，針對自己業務場景（長文件分析、多輪客服）驗證模型實際能力，而非盲目相信排行榜。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-minicpm5-2b",
+    "title": "MiniCPM5-2B 正式發布：小參數高效能新選擇",
+    "title_original": "MiniCPM5-2B Release Day",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9skjz/minicpm52b_release_day/",
+    "published_at": "2026-09-07T13:43:45+00:00",
+    "category": "new-models",
+    "summary": "MiniCPM5-2B 模型正式發布，這是 MiniCPM 系列的最新迭代。該系列以「小參數、高效率」著稱，2B 規模適合在邊緣設備和消費級 GPU 上部署。社群初步評測顯示中英雙語能力維持良好，重點關注其 RLHF 對齊效果與長上下文支援幅度。",
+    "highlights": [
+      "2B 參數級別，適合 8GB 以下 VRAM 的本地部署",
+      "MiniCPM 系列一貫強調 RLHF 對齊品質，本代持續優化",
+      "初步測試顯示中文理解任務表現穩定，符合預期定位",
+      "相比同尺寸模型，推測使用了新的訓練資料與架構改進",
+      "已開源 weights，可直接用 Ollama / llama.cpp 本地部署"
+    ],
+    "why_it_matters": "MiniCPM5-2B 填補了小模型在中高複雜度任務的能力空白，對需要本地快速推論且不想支付 API 費用的場景是低成本選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 Ollama 一鍵部署 MiniCPM5-2B，替換現有 Claude/GPT 呼叫，用於內部工具、文件摘要、客服草稿等低延遲需求場景。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-llama-cpp-freecad-pi-3d",
+    "title": "llama.cpp + FreeCAD + Pi 代理：本地模型生成可 3D 列印的機械零件",
+    "title_original": "9 easy steps for llama.cpp, a local model, Freecad (and pi coding agent) to generate solid objects that sound mechanically good and can be also be 3D printed/milled",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9r73k/9_easy_steps_for_llamacpp_a_local_model_freecad/",
+    "published_at": "2026-09-07T12:45:58+00:00",
+    "category": "agent-skills",
+    "summary": "社群分享如何用 llama.cpp 驅動本地 LLM，串接 FreeCAD 進行參數化建模，最後輸出可直接 3D 列印或 CNC 加工的 STL 檔案。流程涵蓋模型選擇提示詞技巧與 FreeCAD Python Script 整合，提供從概念到實物的本地端自動化路徑。",
+    "highlights": [
+      "使用 llama.cpp 在本地跑 LLM，避免雲端 API 依賴與費用",
+      "FreeCAD 支援參數化建模，可透過腳本接收 LLM 生成的幾何參數",
+      "完整流程從自然語言需求轉換為可列印 STL，大幅降低設計門檻",
+      "硬體需求適中，適合有 GPU 但不想上傳資料的開發者",
+      "作者提供 9 步驟範例程式碼，可直接 Clone 修改"
+    ],
+    "why_it_matters": "這是本地 AI 輔助製造的實用案例，工程師可直接在本地環境從需求描述生成零件圖檔，資料不出網絡同時省下雲端 API 成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將此流程整合進現有 CI/CD：收到 Issue 或需求文件後，自動觸發 LLM 生成 FreeCAD 腳本，輸出零件模型用於原型驗證。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-item",
+    "title": "為何西洋棋基準測試未能更普及？",
+    "title_original": "Why isnt the chess benchmark more mainstream?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9q8xf/why_isnt_the_chess_benchmark_more_mainstream/",
+    "published_at": "2026-09-07T12:01:54+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 技術社群熱烈討論 LLM 在西洋棋任務上的評估方式，質疑現有主流基準測試（如 MMLU、HellaSwag）是否足以真實反映模型的邏輯推論能力，認為西洋棋可作為更純粹的推論能力檢測工具。",
+    "highlights": [
+      "西洋棋任務可量化 LLM 的多步推論與規劃能力",
+      "目前缺乏統一的西洋棋基準測試標準",
+      "部分模型在西洋棋表現與文字基準分數不成正比",
+      "社群呼籲建立更全面的能力評估矩陣"
+    ],
+    "why_it_matters": "對技術用戶而言，西洋棋基準提供獨立於訓練數據的推論能力檢測，可作為挑選模型時的補充參考，而非只看 MMLU 等傳統指標。",
+    "automation_angle": null,
+    "automation_angle_zh": "可開源或自建西洋棋評測框架，用標準化開局殘局餵入不同模型，自動化比較推論深度與犯錯模式。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-07-vs-code-dew-flow-creds-for-devs-github",
     "title": "VS Code 零信任憑證管理器 dew_flow_creds_for_devs 登陸 GitHub",
     "title_original": "oleksandrdubyna88/dew_flow_creds_for_devs",
@@ -84,6 +281,89 @@
       "C#"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/1077958?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-item",
+    "title": "硬體程式設計最強本地模型是哪個？",
+    "title_original": "Best local models for hardware programming?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9oso4/best_local_models_for_hardware_programming/",
+    "published_at": "2026-09-07T10:47:48+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者提問尋找最適合嵌入式、韌體、Verilog、RTL 設計等硬體程式任務的本地 LLM。社群回饋指向 CodeLlama 變種、DeepSeek-Coder-V2 以及部分量化後的 Qwen2.5-Coder 在此領域表現突出，並提供各模型的實際程式碼生成範例對比。",
+    "highlights": [
+      "CodeLlama 系列仍是硬體程式設計的穩定基線",
+      "DeepSeek-Coder-V2 在 Verilog 與電路設計任務進步明顯",
+      "Qwen2.5-Coder 中文文件處理能力佳，適合国產晶片開發",
+      "FPGA 與 ASIC 設計需要特定的 fine-tune 版本效果才好",
+      "純 CPU 量化模型在 Firmware 任務仍堪用，速度優先場景合適"
+    ],
+    "why_it_matters": "硬體工程師若要在本地跑程式助理，選錯模型等於無效工具。此討論提供針對性模型選型參考，可直接縮短 eval 時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將最適模型整合進 VSCode / Neovim 插件，配合 Ritchie 或 Agent 自動生成 Firmware 模板，減少重複性硬體程式碼編寫。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-32gb-vram-16-16-128gb-ram",
+    "title": "32GB VRAM（16+16）與 128GB RAM 組合：目前大家在跑哪些模型？",
+    "title_original": "Which models are you running on 32Gb VRAM (16+16) and 128Gb RAM?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9omj0/which_models_are_you_running_on_32gb_vram_1616/",
+    "published_at": "2026-09-07T10:38:22+00:00",
+    "category": "open-source-ai",
+    "summary": "社群硬體配置討論串，分享在 32GB 總顯存（雙卡 16GB）或 128GB 系統記憶體的資源限制下，目前最穩定運行的本地 LLM 型號。涵蓋 Llama 3 8B、Qwen2 7B、Mistral 7B 等在量化後的效能表現與速度實測數據。",
+    "highlights": [
+      "Llama 3 8B Q4 量化版可在 32GB VRAM 流暢運行",
+      "Qwen2 7B 在中文任務性價比高，VRAM 佔用接近 Llama 3",
+      "Mistral 7B 仍是長上下文任務的省資源首選",
+      "CPU 推論（使用系統 RAM）在 128GB 環境可跑 30B Q4 模型但速度慢",
+      "討論提供真實用戶回饋而非官方帳面數據"
+    ],
+    "why_it_matters": "對於不想投入高端硬體的開發者，了解現有資源上限能跑什麼模型，可省下冤枉購買 GPU 的費用。社群實測比論文數據更接近實際使用情境。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據自己機器的 VRAM/RAM 比例，對照此討論串選擇量化和切片策略，優化本地推論性價比。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-item",
+    "title": "【行情】新模型發布速度太快，工程師已經跟不上節奏",
+    "title_original": "Me trying to keep up with all the new AI models being released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9of3u/me_trying_to_keep_up_with_all_the_new_ai_models/",
+    "published_at": "2026-09-07T10:26:51+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 熱門 meme 圖文，嘲諷 2024 年起 AI 模型發布數量爆炸，從 GPT-4、Claude 到 Llama 3、Mixtral、 Gemma 接力登場，工程師持續處於 FOMO 狀態。社群迴響顯示多數人已放棄追蹤每一個新模型，改採「需要時再測」的實用策略。",
+    "highlights": [
+      "meme 反映真實社群情緒：新模型疲勞（model fatigue）已成為普遍現象",
+      "多數技術用戶採用「需求驅動」策略而非持續追新",
+      "開源模型（Llama、Mixtral）發布頻率明顯高於閉源",
+      "此 post 本身可作為模型生態觀測的溫度計"
+    ],
+    "why_it_matters": "模型數量過剩讓技術選型更困難，但也代表開源生態持續加速競爭。掌握哪些模型真正值得測試，比追逐每個新發布更有價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可建立自動化模型追蹤腳本：RSS + 關鍵字監控，針對特定任務（如程式生成、數學推論）自動評測新模型效能。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
