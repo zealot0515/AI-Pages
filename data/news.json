@@ -1,5 +1,90 @@
 [
   {
+    "id": "2026-09-07-wsl2-distro-manager-linux",
+    "title": "WSL2 Distro Manager：圖形化 Linux 子系統管理工具",
+    "title_original": "bostrot/wsl2-distro-manager",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/bostrot/wsl2-distro-manager",
+    "published_at": "2026-09-07T20:40:57Z",
+    "category": "agent-skills",
+    "summary": "bostrot/wsl2-distro-manager 是星標近 4000 的開源專案，提供 WSL2、Linux/macOS VM 的圖形化安裝、備份、遷移與設定介面，並支援 AI 助理工具、MCP Server 與遠端 SSH 連線。",
+    "highlights": [
+      "Dart 語言開發，跨平台支援 WSL2 與原生 VM",
+      "圖形介面：無需記憶 CLI 指令即可管理發行版",
+      "內建 MCP Server：可供 AI Agent 呼叫操作子系統",
+      "AI 助理整合：可用自然語言管理環境",
+      "近 4000 星：社群活躍度高，維護持續"
+    ],
+    "why_it_matters": "對需要同時跑 Linux 環境與 Windows 的開發者而言，此工具可大幅降低環境管理門檻，且 MCP Server 整合為 Agent 化運維提供想像空間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其整合進 CI/CD 流程，用 AI Agent 透過 MCP 指令動態創建/切換隔離測試環境，減少手動操作失誤。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Dart"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/7342321?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-reddit",
+    "title": "Reddit熱議：模型本身沒問題，工具鏈和方法論才是瓶頸",
+    "title_original": "The models are fine, our toolings and methods are shit.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa0l2t/the_models_are_fine_our_toolings_and_methods_are/",
+    "published_at": "2026-09-07T18:42:05+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社群討論指出，當前大型語言模型的發展瓶頸不在模型本身素質，而是整個工具鏈與工作流程程方法論落後。開發者呼籲社群正視 Inference 部署、Prompt Engineering、以及系統整合等「看不見」的基礎建設問題，而非只聚焦模型參數量或架構創新。",
+    "highlights": [
+      "當前 LLMs 的瓶頸已從模型本身轉移到工具鏈成熟度",
+      "社群開始關注 Inference 效率而非僅僅模型能力",
+      "Prompt Engineering 與系統整合方法論缺乏系統性整理",
+      "本地部署的穩定性與易用性仍是痛點",
+      "此討論反映技術社群對實用性工具的強烈需求"
+    ],
+    "why_it_matters": "對技術開發者而言，理解瓶頸所在能避免盲目追逐模型更新，回歸工程本質提升落地效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估現有工作流程中哪些環節（部署、監控、測試）最需自動化投資，而非僅優化模型本身。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-amd-radeon-rx-7900-gre-16gb-rx-480-8gb-vulkan-llama-cpp",
+    "title": "AMD Radeon RX 7900 GRE 16GB 與 RX 480 8GB Vulkan 模式下 llama.cpp 效能實測",
+    "title_original": "Radeon RX 7900 GRE 16GB and RX 480 8GB Vulkan benchmarks llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9z7lk/radeon_rx_7900_gre_16gb_and_rx_480_8gb_vulkan/",
+    "published_at": "2026-09-07T17:52:56+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享了 AMD Radeon RX 7900 GRE 16GB 與老舊 RX 480 8GB 兩張顯示卡在 Vulkan 後端運行 llama.cpp 的 benchmark 結果。RX 7900 GRE 在大模型推論速度上明顯優於 RX 480，但功耗與性價比權衡仍是本地部署決策關鍵。",
+    "highlights": [
+      "RX 7900 GRE 16GB Vulkan 模式大幅超越 RX 480 8GB",
+      "llama.cpp Vulkan 後端在 AMD 卡的優化持續進展",
+      "本地 LLM 推論的性價比評估需納入功耗與散熱",
+      "測試涵蓋多種模型大小的 tokens/second 表現",
+      "結果對想在 AMD 平台本地部署的開發者有參考價值"
+    ],
+    "why_it_matters": "對於希望在消費級 GPU 上運行本地 LLM 的技術人員，選擇合適硬體需實測數據而非只看記憶體大小。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在自己硬體環境上重現類似 benchmark，針對目標模型與記憶體需求選擇最具 cost-performance 的 GPU。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-07-barbatos-frida-api-android-mcp-server",
     "title": "Barbatos：Frida API 與 Android 除錯的 MCP Server",
     "title_original": "victorlpgazolli/barbatos",
@@ -414,6 +499,62 @@
     "automation_angle_zh": "技術宅可用此基準評估候選模型（如 Qwen2.5、Llama3.2）在手機上的任務成功率，作為是否部署邊緣 AI 代理的決策依據。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-llm",
+    "title": "使用 LLM 進行卡路里估算評估的基準測試研究",
+    "title_original": "Benchmarking calories evaluation with LLMs",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9jmo8/benchmarking_calories_evaluation_with_llms/",
+    "published_at": "2026-09-07T05:56:24+00:00",
+    "category": "hot-topics",
+    "summary": "研究人員在 Reddit 分享使用多種 LLM 進行食物卡路里估算與評估的 benchmark 結果。測試涵蓋 GPT-4o、Claude、Gemini 及多款開源模型，發現頂級模型準確率可達 85%，但免費模型表現明顯落後，且對隱式數值推算能力普遍不足。",
+    "highlights": [
+      "頂級商業模型卡路里估算準確率約 85%",
+      "開源模型在此任務表現顯著落後",
+      "LLM 對隱式數值推算（如下午茶熱量）普遍不足",
+      "此 benchmark 提供 domain-specific 能力橫向比較",
+      "結果對營養相關 AI 應用開發有參考價值"
+    ],
+    "why_it_matters": "此 benchmark 揭示 LLM 在特定 domain 任務上的能力邊界，可幫助開發者判斷直接應用或需 fine-tuning。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考此方法論建立自己的 domain-specific benchmark，測試 LLM 在特定任務（如醫療、法律代碼）上的適用性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-llm-google-astra",
+    "title": "開源 LLM 何時能追上 Google Astra？社群熱議",
+    "title_original": "when will open source LLM catch up to Astra I wonder?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9fwsw/when_will_open_source_llm_catch_up_to_astra_i/",
+    "published_at": "2026-09-07T02:47:28+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 討論區有使用者提出開源 LLM 何時能追上 Google 展示的 Astra 多模態能力的疑問。評論區呈現分歧：一方認為開源模型追趕速度加快，另一方指出 Astra 的即時視訊理解與長上下文能力仍領先開源生態至少一年。",
+    "highlights": [
+      "Google Astra 展示即時視訊理解與長上下文能力",
+      "開源陣營認為追赶速度在加速但仍有差距",
+      "多模態整合是開源模型的主要挑戰方向",
+      "評論區缺乏具體技術規格對比，偏向主觀判斷",
+      "此問題反映業界對開源與閉源差距的持續關注"
+    ],
+    "why_it_matters": "技術決策者需了解開源與閉源模型的真實差距，以評估何時可在生產環境採用開源替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可定期追蹤開源模型在多模態 benchmark 的進展，規劃何時從 API 轉向本地部署以降低成本。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
