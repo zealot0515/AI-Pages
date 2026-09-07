@@ -1,5 +1,231 @@
 [
   {
+    "id": "2026-09-07-fauxnix-windows-linux-mcp",
+    "title": "Fauxnix：讓Windows跑Linux命令的MCP伺服器",
+    "title_original": "20000419/fauxnix",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/20000419/fauxnix",
+    "published_at": "2026-09-07T01:20:28Z",
+    "category": "agent-skills",
+    "summary": "開源TypeScript專案透過確定性bash→PowerShell轉譯，在Windows上執行Linux命令，無需VM或WSL。作為MCP伺服器支援Claude Code、Codex等AI代理，提供GNU風格輸出。",
+    "highlights": [
+      "確定性bash→PowerShell轉譯，無需虛擬機或WSL",
+      "作為MCP伺服器，可被Claude Code、Codex等AI代理呼叫",
+      "輸出GNU風格相容性，錯誤訊息遵循bash慣例",
+      "支援UTF-8/GBK編碼處理",
+      "79 stars顯示一定社區關注度，實用導向明確"
+    ],
+    "why_it_matters": "在Windows環境建構AI代理pipeline時，Fauxnix解決跨平台命令相容性問題。技術用戶可在不啟用WSL的情況下整合Linux工具鏈。",
+    "automation_angle": null,
+    "automation_angle_zh": "在Windows CI/CD環境中使用Fauxnix讓AI代理執行Linux腳本，省去WSL設定與資源開销。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/56302537?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-07-layerstorm-streaming-rtx-5090-2-rtx-5080-2-100-glm-5-3-flash",
+    "title": "LayerStorm 開源專家streaming：RTX 5090×2 + RTX 5080×2 達成 100 萬上下文 GLM-5.3-Flash 推論",
+    "title_original": "LayerStoRm open-source expert streaming: 1M context GLM-5.3-Flash [UD-Q4_K_XL] at 24.5 tok/s @8k on just 2× RTX 5090 + 2× RTX 5080 (186 GiB MoE on 96 GB VRAM)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9dzn8/layerstorm_opensource_expert_streaming_1m_context/",
+    "published_at": "2026-09-07T01:14:07+00:00",
+    "category": "open-source-ai",
+    "summary": "LayerStorm 發布開源專家streaming 方案，成功在僅 2 張 RTX 5090 與 2 張 RTX 5080（合計 96GB VRAM）上部署 186 GiB 的 MoE 模型 GLM-5.3-Flash，實現 24.5 tok/s 的吞吐量，並支援 100 萬上下文長度。此方案突破傳統 VRAM 瓶頸，讓大型 MoE 模型可在消費級多卡環境運行。",
+    "highlights": [
+      "專家streaming 技術將 MoE 模型負載分散至多卡，突破單卡 VRAM 限制",
+      "4 張消費級 RTX 50 系列顯卡達成 186 GiB MoE 部署",
+      "支援百萬級上下文，適合長文本處理與 RAG 應用",
+      "24.5 tok/s 吞吐量對互動式使用仍可接受",
+      "開源實現，可自行部署測試"
+    ],
+    "why_it_matters": "大型 MoE 模型部署門檻大幅降低，個人開發者與小型團隊可在消費級硬體上運行千億參數模型，節省雲端算力成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可下載 LayerStorm 開源碼，在本機多卡環境部署 GLM-5.3-Flash，評估其長上下文理解能力與長程任務自動化潛力。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-benchmark-struggle-bench-llm",
+    "title": "新型 benchmark「Struggle Bench」：評測 LLM 掙扎表現",
+    "title_original": "New Benchmark: The Struggle Bench",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9dlf1/new_benchmark_the_struggle_bench/",
+    "published_at": "2026-09-07T00:55:28+00:00",
+    "category": "new-models",
+    "summary": "社群推出名為「Struggle Bench」的新 benchmark，專門測試 LLM 在困難題目上的掙扎程度與錯誤模式。相較傳統 accuracy-focused 測試，此 benchmark 關注模型失敗的方式，試圖量化「模型多努力仍做不到」的情境。",
+    "highlights": [
+      "聚焦模型失敗案例，而非成功率",
+      "試圖量化模型「極限邊界」",
+      "有助識別模型能力天花板",
+      "可作為能力上限的壓力測試",
+      "社區驅動，題庫持續擴展"
+    ],
+    "why_it_matters": "了解模型的極限與失敗模式比只看高分更重要，特別是對關鍵任務自動化的技術人員，清楚模型邊界才能設計可靠的 fallback 機制。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 Struggle Bench 測試目前使用的模型，識別其能力邊界，据此設計自動化流程中的異常處理邏輯與人工接管時機。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-atrium-ai",
+    "title": "Atrium：本地優先桌面AI代理助理",
+    "title_original": "lhz960904/atrium",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/lhz960904/atrium",
+    "published_at": "2026-09-07T00:44:28Z",
+    "category": "agent-skills",
+    "summary": "TypeScript開源桌面代理，可自帶API Key連接任意模型供應商，具備當代AI代理核心能力。現僅26 stars，功能成熟度待社區驗證。",
+    "highlights": [
+      "TypeScript撰寫，適合前端/全端開發者接納",
+      "自備API Key，支援串接任意模型供應商",
+      "主打本地優先，強調隱私與資料控制",
+      "屬早期專案，stars數低，穩定性待觀察",
+      "可與OpenHuman等類似專案比較取捨"
+    ],
+    "why_it_matters": "本地AI代理工具選擇增加。Atrium的模型無鎖定特性值得技術用戶測試，但需自行評估安全性與穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "在隔離環境測試Atrium，用於處理敏感文件或自動化任務，評估其與商業代理工具的功能差距。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/29157111?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-openai-rsi",
+    "title": "OpenAI內部研究加速：RSI日與編碼代理使用現況",
+    "title_original": "Research acceleration: The view inside OpenAI",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+    "published_at": "2026-09-06T23:57:40+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI首席科學家Jakub Pachocki發表「異星心智」文章，當天被定為RSI日（遞歸自我改進）。內部研究每人AI支出7月起急增，推測與GPT-6 Astra內部釋出有關。編碼代理已深度融入OpenAI研發流程。",
+    "highlights": [
+      "RSI日象徵OpenAI內部對遞歸自我改進的重視",
+      "研究團隊AI支出7月急增，疑似與GPT-6 Astra相關",
+      "編碼代理已深度整合進OpenAI研發工作流程",
+      "Pachocki的「異星心智」essay揭示對超人類AI的思考",
+      "Simon Willison分析指出2026年為代理工程爆發年"
+    ],
+    "why_it_matters": "OpenAI內部使用模式是業界指標。編碼代理普及加速模型迭代，技術用戶應評估自身工作流程是否已充分利用代理能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "對照OpenAI內部編碼代理使用圖表，審視團隊現有開發流程中可導入代理自動化的環節（code review、測試生成、部署腳本）。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-amd-radeon-ai-pro-r9700",
+    "title": "AMD Radeon AI Pro R9700 四卡跑分實測討論",
+    "title_original": "4xRadeon AI Pro R9700 people, how are your benchmarks?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9c8u7/4xradeon_ai_pro_r9700_people_how_are_your/",
+    "published_at": "2026-09-06T23:54:46+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶開始交流 4 張 AMD Radeon AI Pro R9700 顯卡的實際跑分數據。作為 AMD 新一代 AI 加速卡，R9700 在特定推論場景下的性價比受到關注，但目前社區數據仍有限，實際效能需進一步驗證。",
+    "highlights": [
+      "AMD R9700 為專業級 AI 加速卡",
+      "4 卡配置適合大規模推論部署",
+      "社區驅動的實測數據，來源可信度中等",
+      "與 NVIDIA H100/4090 對比有待更多數據",
+      "散熱與功耗是重要考量因素"
+    ],
+    "why_it_matters": "AMD 在 AI GPU 市場的份額逐漸增加，若 R9700 性價比優秀，可能成為降低 AI 推論成本的替代方案，值得技術人員關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 AMD ROCm 生態與 vLLM/llama.cpp 的相容性進展，若 R9700 成本優勢明確，可評估作為自建推論叢集的替代方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-vllm-p2p-hack-qwen-3-8-27b-llama-cpp",
+    "title": "vLLM P2P 驅動hack 加速 Qwen 3.8 27B 對決 llama.cpp",
+    "title_original": "vllm + p2p driver hack + qwen 3.8 27B vs llamacpp + qwen flash next ?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9b1eg/vllm_p2p_driver_hack_qwen_38_27b_vs_llamacpp_qwen/",
+    "published_at": "2026-09-06T23:00:49+00:00",
+    "category": "new-models",
+    "summary": "開發者嘗試利用 vLLM 結合 P2P 驅動 hack 加速 Qwen 3.8 27B 模型推論，並與 llama.cpp + Qwen Flash Next 進行對比。此 hack 透過 PCIe P2P 傳輸繞過 CPU，理論上可提升多卡推論效率。初步結果顯示 vLLM 在特定配置下有機會追平甚至超越 llama.cpp 的速度。",
+    "highlights": [
+      "P2P 驅動 hack 繞過 CPU 直接在 GPU 間傳輸資料",
+      "測試對象為 Qwen 3.8 27B 與 Qwen Flash Next",
+      "vLLM 陣營試圖挑戰 llama.cpp 的速度優勢",
+      "結果顯示 vLLM + hack 有潛力加速推論",
+      "仍屬實驗性 hack，生產環境使用需謹慎"
+    ],
+    "why_it_matters": "推論速度直接影響成本與使用者體驗，若 vLLM 能透過 hack 追平台屠屠的 llama.cpp，將為自建推論服務提供更多選擇與最佳化空間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可在支援 P2P 的多卡環境測試此 hack，評估對 Qwen 系列模型的實際加速效果，用於優化本地推論工作流程或降低部署成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-07-llm-benchmark",
+    "title": "開源 LLM Benchmark 工具：逐題瀏覽比對模型回答",
+    "title_original": "I built an LLM benchmark harness that lets you browse and compare how models answered each question",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1w9ad9q/i_built_an_llm_benchmark_harness_that_lets_you/",
+    "published_at": "2026-09-06T22:32:07+00:00",
+    "category": "agent-skills",
+    "summary": "開發者發布一套 LLM 基準測試工具，使用者可逐題瀏覽不同模型對各問題的具體回答與差異，擺脫單一分數盲區，更直觀理解模型能力分佈。該工具支援自訂資料集上傳與批量對比，適合開發者進行模型選型。",
+    "highlights": [
+      "支援逐題查看模型回答，非僅看 aggregate 分數",
+      "可上傳自訂 benchmark 資料集",
+      "支援多模型批量對比視覺化",
+      "開源工具，可本地部署",
+      "助於識別模型在特定任務上的強弱項"
+    ],
+    "why_it_matters": "傳統 benchmark 分數掩蓋了模型間的細節差異，逐題對比讓開發者能針對自身任務精確選型，避免選錯模型導致工作流程效率低落。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用此工具建立自家任務的 custom benchmark，自動化評估不同模型在實際工作流程中的表現，選擇最具 cost-efficiency 的模型。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-06-linkedgrow-mcp-server-linkedin",
     "title": "LinkedGrow：自架 MCP Server 驅動的 LinkedIn 自動化客戶開發工具",
     "title_original": "DigiHold/LinkedGrow",
