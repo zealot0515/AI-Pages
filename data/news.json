@@ -1,5 +1,148 @@
 [
   {
+    "id": "2026-09-08-jscpd-rust-mcp-server",
+    "title": "jscpd：Rust 引擎驅動的程式碼複製檢測工具，支援 MCP Server",
+    "title_original": "kucherenko/jscpd",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/kucherenko/jscpd",
+    "published_at": "2026-09-08T10:17:25Z",
+    "category": "agent-skills",
+    "summary": "jscpd 是開源複製貼上檢測器，支援 220+ 程式語言，採用 Rust 引擎提升效能，提供 SARIF、HTML、badge 等多格式輸出，可整合 GitHub Action 與 MCP Server 直接給 AI Agent 使用，6156 stars 生產可用。",
+    "highlights": [
+      "支援 220+ 程式語言覆蓋面廣",
+      "Rust 引擎聲稱高效能、低資源佔用",
+      "輸出格式：SARIF（CI/CD整合）、HTML、badge",
+      "原生支援 GitHub Action 一鍵嵌入 CI",
+      "提供 MCP Server 讓 AI Agent 直接呼叫檢測"
+    ],
+    "why_it_matters": "jscpd 成熟度高且可直接整合進 Agent 工作流程，讓 AI 在寫 code 前先檢查抄襲風險，適合重視程式碼品質與智財合規的團隊。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 jscpd MCP Server 整合進 Cursor/Claude 的 coding session，讓 Agent 每次生成程式碼前自動跑一遍抄襲檢測並匯出 SARIF 報告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/159307?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-08-kilo-kit-mcp-coding-agent-c4-workflow",
+    "title": "kilo-kit-mcp：為 coding agent 設計的安全路由閘道，含 C4 workflow 與驗證關卡",
+    "title_original": "VoDaiLocz/kilo-kit-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/VoDaiLocz/kilo-kit-mcp",
+    "published_at": "2026-09-08T10:00:49Z",
+    "category": "agent-skills",
+    "summary": "kilo-kit-mcp 是 Python 寫的 MCP Server，目標是讓 coding agent 更安全：透過技能路由（skill routing）、C4 workflow gates、記憶體檢查與完成前驗證來過濾高風險操作，26 stars 仍屬早期專案但概念新穎。",
+    "highlights": [
+      "技能路由：依任務類型分派給對應處理模組",
+      "C4 workflow gates：在關鍵節點設閘門審核",
+      "記憶體檢查：避免 context overflow 導致行為偏差",
+      "完成前驗證：攔截不符合預期輸出",
+      "目前 stars 僅 26，屬早期探索階段"
+    ],
+    "why_it_matters": "Coding agent 安全化是 2025 年的重要課題，kilo-kit-mcp 的路由與驗證機制概念領先，值得關注後續成熟度與採用情況。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地架設 kilo-kit-mcp，實驗性地將 Claude/Cursor 的 coding 請求經過 skill routing 與驗證關卡，觀察是否能攔截高風險變更。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/88762074?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-aspnetcore-debugger-mcp-claude-cursor-asp-net-core-mcp-server",
+    "title": "aspnetcore-debugger-mcp：讓 Claude 與 Cursor 直接除錯 ASP.NET Core 的 MCP Server",
+    "title_original": "magna-nz/aspnetcore-debugger-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/magna-nz/aspnetcore-debugger-mcp",
+    "published_at": "2026-09-08T09:57:43Z",
+    "category": "agent-skills",
+    "summary": "aspnetcore-debugger-mcp 將 .NET 與 ASP.NET Core 的除錯能力封裝成 MCP Server，讓 Claude、Cursor 等 AI 工具直接附加到執行中的 .NET 程序進行互動式除錯，14 stars，C# 實作，適合 .NET 開發者實驗。",
+    "highlights": [
+      "直接附加到執行中 .NET / ASP.NET Core 程序",
+      "支援 Claude 與 Cursor 兩大主流 AI 工具",
+      "C# 實作，與 .NET 生態無縫整合",
+      "目前 stars 僅 14，穩定性與錯誤處理待社群驗證",
+      "可補 AI coding tool 在 .NET 場景除錯能力不足的缺口"
+    ],
+    "why_it_matters": ".NET 開發者長期缺乏 AI 除錯整合，aspnetcore-debugger-mcp 若成熟可大幅縮短 bug 定位時間，但目前社群回饋極少，需自行測試。",
+    "automation_angle": null,
+    "automation_angle_zh": ".NET 開發者 pull repo 後在本機跑一個 ASP.NET Core demo，將 aspnetcore-debugger-mcp 接入 Cursor，測試讓 AI 幫你下斷點、讀變數、追 call stack 的實際效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/26274007?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-reddit-r-localllama-vs",
+    "title": "Reddit r/LocalLLaMA 熱議：小模型超智慧 vs 大模型超高效",
+    "title_original": "Super-intelligent small models vs. super-efficient large models.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wajzc1/superintelligent_small_models_vs_superefficient/",
+    "published_at": "2026-09-08T09:55:02+00:00",
+    "category": "new-models",
+    "summary": "社群熱烈辯論小型超智慧模型與大型高效率模型的取捨，分析近期蒸餾與量化技術進展是否能以較少參數達成接近大模型的表現。",
+    "highlights": [
+      "討論蒸餾技術能否讓小模型（如 3B 以下）達到大模型的推論能力",
+      "部分用戶分享 QAT（量化感知訓練）與 GPTQ 的實際 Benchmark 表現",
+      "對話中提及模型大小與任務複雜度的非線性關係",
+      "焦點在於如何在邊緣裝置上部署具備複雜推論能力的模型",
+      "社群對此議題意見分歧，缺乏明確共識"
+    ],
+    "why_it_matters": "模型小型化趨勢影響邊緣部署策略，若小模型能力持續提升，將大幅擴展本地 AI 的應用邊界。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可追蹤最新量化模型（如 AWQ、GGUF 格式）的釋出，評估其是否能在個人硬體上勝任特定自動化任務。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-reddit-r-localllama-ai",
+    "title": "Reddit r/LocalLLaMA 討論：本地 AI 模型能勝任哪些實際任務？",
+    "title_original": "What are some practical tasks I can assign to my local AI models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1waj4k4/what_are_some_practical_tasks_i_can_assign_to_my/",
+    "published_at": "2026-09-08T09:05:02+00:00",
+    "category": "open-source-ai",
+    "summary": "社群熱烈討論本地部署的語言模型可承擔哪些實用任務，包括文件摘要、本地資料庫查詢、程式碼輔助等應用場景，分享各類模型的性價比與延遲表現。",
+    "highlights": [
+      "討論聚焦於本地模型的實用場景，如長文件摘要與程式碼補全",
+      "用戶分享不同模型（如 Llama、Mistral）在 CPU 推論下的延遲表現",
+      "離線隱私敏感場景（如醫療或法務文件處理）為本地部署的主要動機",
+      "部分用戶指出 7B 參數模型在特定任務已可滿足基本需求",
+      "性價比與隱私權衡為本地部署决策的兩大核心考量"
+    ],
+    "why_it_matters": "對於需要處理敏感資料或希望降低 API 成本的技術團隊，本地模型已具備若干實用場景的可用性，此討論提供實務參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可評估本機部署 7B 模型處理文件摘要或程式碼補全，測試延遲與品質是否滿足內部工作流程需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-08-publora-skills-mcp-9",
     "title": "publora/skills：透過 MCP 一站式排程發布社群內容至 9 大平台",
     "title_original": "publora/skills",
@@ -54,6 +197,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/26786495?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-item",
+    "title": "華爾街日報社論：開源權重模型缺乏監管是災難的邀請函",
+    "title_original": "WSJ: Unregulated Open-Weight AI Is an Invitation to Disaster",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa9309/wsj_unregulated_openweight_ai_is_an_invitation_to/",
+    "published_at": "2026-09-08T00:19:38+00:00",
+    "category": "hot-topics",
+    "summary": "WSJ 發表評論文章，警告開源 AI 模型的廣泛可及性缺乏監管機制，可能被濫用於生成有害內容或進行大規模假訊息攻擊，呼籲建立類似藥品審核的監管框架。",
+    "highlights": [
+      "WSJ 編輯部觀點認為開源模型的可取得性構成潛在社會風險",
+      "文章建議借鑒藥品監管模式，對高風險 AI 模型應用實施審批制度",
+      "批评開源社区缺乏负责任部署的有效机制",
+      "觀點與開源社群主張的「開放促進創新與安全」立場相左",
+      "此為主流媒體對開源 AI 風險論述的代表性聲音"
+    ],
+    "why_it_matters": "監管議題影響開源 AI 工具的可用性與開發者社群的長期生態，技術人員需關注政策走向以評估工具合規風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應關注歐美監管動態，評估在建構開源模型應用時是否需要預先考虑合規邊界與責任歸屬。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -3830,6 +4001,34 @@
     "automation_angle_zh": "PR 合併後即可用 llama.cpp 測試該模型的 GGUF 量化版本，評估在自有用硬體上的推論速度與記憶體需求，評估是否適合自動化工作流程。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-anthropic-claude-commerce-agents",
+    "title": "Anthropic 開源 Claude Commerce Agents 藍圖，迎戰黑色星期五",
+    "title_original": "Anthropic Open-Sources Claude Commerce Agents Blueprint Ahead of Black Friday - Startup Fortune",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTTJVUXNXQTFNS25iQm93d1M5Y1Iyc0Y5UUx6MWlKY3RMQ094YV9LaHRkLWRXRXJKa1NNVFF0TmN5V3VrdGZZMUNYQ3psYW1rTTZoYUt0RFBadXcxbXJfak5wSHloaG81VjJaYTRsMnl4QklwN0htQk9YNUlXd1N1QTdVaEdvbUZvX0duYVZrcWM0MWJjeGkwa0FxenJRWjhIY29ZMXZMWEY?oc=5",
+    "published_at": "2026-09-03T07:24:56+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic 在黑色星期五購物季前夕，釋出 Claude Commerce Agents 開源藍圖，提供電商自動化代理的建構範本與最佳實踐，開發者可直接取用或客製化部署。此藍圖涵蓋訂單處理庫存查詢、顧客回覆等常見電商場景的代理工作流程。",
+    "highlights": [
+      "Anthropic 釋出 Claude Commerce Agents 開源專案，提供電商場景代理的可複用架構",
+      "藍圖涵蓋訂單管理、庫存查詢、顧客服務等常見電商自動化工作流程",
+      "開發者可 fork 此專案並整合至現有電商系統，縮短代理開發週期",
+      "此為 Anthropic 少見的開源動作，反映其擴展開發者生態的策略意圖",
+      "黑色星期五時間點發布，顯示針對高流量電商場景的最佳化方向"
+    ],
+    "why_it_matters": "電商開發者可快速取得已驗證的 Claude 代理工作流程範本，降低從零建構電商自動化的技術門檻，Black Friday 前釋出具備實際商用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可直接 fork 此專案，將 Claude 代理整合至訂單處理或顧客回覆系統，在高流量期間自動化處理常見查詢與交易流程。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
