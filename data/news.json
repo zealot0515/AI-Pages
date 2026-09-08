@@ -1,5 +1,174 @@
 [
   {
+    "id": "2026-09-08-publora-skills-mcp-9",
+    "title": "publora/skills：透過 MCP 一站式排程發布社群內容至 9 大平台",
+    "title_original": "publora/skills",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/publora/skills",
+    "published_at": "2026-09-08T01:42:17Z",
+    "category": "agent-skills",
+    "summary": "publora/skills 是 MIT 授權的 MCP 工具集，讓 AI Agent 能直接對 LinkedIn、X（原 Twitter）、Instagram、Threads、TikTok、YouTube、Facebook、Bluesky、Mastodon、Telegram 進行排程發文，支援 Claude Code、Codex、Cursor、OpenClaw 等主流開發者工具。",
+    "highlights": [
+      "支援 9 大社群平台統一發文與排程",
+      "透過 MCP 協定與主流 AI 開發工具整合",
+      "MIT 授權，商業使用無法律風險",
+      "安裝方式：npx skills add publora/skills",
+      "目前 GitHub 星星數 46，仍屬早期專案"
+    ],
+    "why_it_matters": "對需要維運多帳號內容的技術用戶而言，publora/skills 將重複性社群操作自動化，減少手動登入不同平台的時間成本，且 MCP 介面相容主流 Agent 開發環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "今天即可執行 npx 安裝，設定 API Key 後讓 Claude Code 或 Cursor 直接生成並排程符合各平台格式的貼文，實現「一指令、多平台發布」的自動化工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/261998251?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-iflytek-dolphin-mcp-pilot-ai-agent-dolphinscheduler",
+    "title": "iflytek/dolphin-mcp-pilot：讓 AI Agent 操控 DolphinScheduler 資料管線",
+    "title_original": "iflytek/dolphin-mcp-pilot",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/iflytek/dolphin-mcp-pilot",
+    "published_at": "2026-09-08T01:23:17Z",
+    "category": "agent-skills",
+    "summary": "科大訊飛開源的 dolphin-mcp-pilot 是一套生產級 MCP Server，提供 53+ 工具，讓 AI Agent 能夠建立、排程、執行與恢復 Apache DolphinScheduler 資料管線，突破傳統 MCP 工具僅讀取的局限。",
+    "highlights": [
+      "53+ 工具覆蓋管線的全生命週期操作",
+      "支援建立、排程、執行、恢復等寫入操作",
+      "Python 實作，相容現有 Python 生態",
+      "GitHub 星星數 15，生產使用前建議先行測試",
+      "對接 Apache DolphinScheduler 企業級排程系統"
+    ],
+    "why_it_matters": "對於依賴 DolphinScheduler 做 ETL 或資料處理的團隊，dolphin-mcp-pilot 使 AI Agent 能直接干預資料管線狀態，實現「自然語言驅動資料工作流程」的自動化場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其部署至測試環境，讓 AI Agent 透過自然語言描述資料處理需求，自動生成對應的 DolphinScheduler 任務並執行，降低 ETL 開發的技術門檻。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/26786495?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-llm-cli-0-35-gpt-6-astra",
+    "title": "llm CLI工具更新至0.35版，整合GPT-6 Astra模型",
+    "title_original": "llm 0.35",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/7/llm/",
+    "published_at": "2026-09-07T23:54:54+00:00",
+    "category": "new-models",
+    "summary": "Simon Willison的llm CLI工具發布0.35版本，同步支援OpenAI新模型GPT-6 Astra。這款命令列工具讓開發者可在終端機直接呼叫各類LLM API，適合快速原型開發與自動化腳本整合。",
+    "highlights": [
+      "llm CLI升至0.35版",
+      "新增支援GPT-6 Astra模型",
+      "支援多種LLM API統一呼叫",
+      "適合終端機快速原型開發",
+      "可整合進自動化腳本"
+    ],
+    "why_it_matters": "統一CLI工具降低多模型切換成本，技術用戶可在本地快速測試新模型能力並評估性價比。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在CI/CD流程中用llm呼叫GPT-6 Astra處理文字任務，配合新模型優惠期評估成本效益。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-llm-rpg-warrior-quest",
+    "title": "本地LLM驅動暗黑奇幻RPG：Warrior Quest",
+    "title_original": "I made Warrior Quest, a local LLM-powered dark-fantasy RPG where the model only plays NPCs and the actual game state stays deterministic",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa84sa/i_made_warrior_quest_a_local_llmpowered/",
+    "published_at": "2026-09-07T23:37:20+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者在Reddit分享自製的本地LLM RPG遊戲Warrior Quest，模型僅負責NPC對話，遊戲狀態保持確定性。本地運行保障隱私，適合技術玩家實驗本地部署。",
+    "highlights": [
+      "完全本地運行，無需雲端API",
+      "模型僅控制NPC保持遊戲確定性",
+      "暗黑奇幻風格RPG體驗",
+      "可部署於個人顯卡環境",
+      "開源分享供社群實驗"
+    ],
+    "why_it_matters": "展示本地LLM在遊戲場景的創意應用，技術玩家可借鑒此架構實驗自有專案。",
+    "automation_angle": null,
+    "automation_angle_zh": "遊戲開發者可 fork 此專案，改用其他本地模型測試NPC對話質量與延遲表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-git-kernel-org",
+    "title": "git.kernel.org：爬蟲耗費資源已超合法流量",
+    "title_original": "Creepy crawlies",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+    "published_at": "2026-09-07T23:08:58+00:00",
+    "category": "hot-topics",
+    "summary": "Linux核心官方倉庫維護者Konstantin Ryabitsev披露，git.kernel.org目前消耗最多CPU資源的不是正常訪問，而是爬蟲渲染。14個CPU核心專門用於為爬蟲生成HTML，側面反映AI訓練數據採集對開源基礎設施的衝擊。",
+    "highlights": [
+      "爬蟲消耗CPU資源超過所有合法流量",
+      "14核心專門服務爬蟲請求",
+      "開源基礎設施正面臨被動過載",
+      "對Datasette等服務有警示作用",
+      "AI數據採集對開源生態的隱性成本"
+    ],
+    "why_it_matters": "技術用戶需關注自家服務的爬蟲流量成本，重新評估robots.txt與訪問限制策略的必要性。",
+    "automation_angle": null,
+    "automation_angle_zh": "運維人員應審計網站爬蟲流量，考慮啟用Cloudflare等服務的Bot管理功能降低無效損耗。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-openai-ai",
+    "title": "OpenAI首席科學家：需訓練更強大模型以構建AI防御系統",
+    "title_original": "Quoting Jakub Pachocki",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+    "published_at": "2026-09-07T22:26:25+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI首席科學家Jakub Pachocki論述持續訓練更智慧AI模型的理由，核心論點是需建立防御性系統來對抗其他AI帶來的風險。他強調需要對齊的強大AI來保護關鍵基礎設施、即時對抗惡意代理，並發明全新防御手段，但同時警告不可因此魯莽前進。",
+    "highlights": [
+      "需更智慧模型建立防御系統對抗AI風險",
+      "強調AI對齊與安全防護的必要性",
+      "即時保護基礎設施、對抗惡意代理",
+      "承認AI發展的不確定性與風險",
+      "反對不計代價的競速式發展"
+    ],
+    "why_it_matters": "揭示AI安全與能力競賽的戰略張力，提醒技術社群需關注AI對齊研究與防御機制的平衡發展。",
+    "automation_angle": null,
+    "automation_angle_zh": "工程師應評估如何在工作流程程中融入AI安全對齊檢查，關注相關開源工具的實用性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-07-wsl2-distro-manager-linux",
     "title": "WSL2 Distro Manager：圖形化 Linux 子系統管理工具",
     "title_original": "bostrot/wsl2-distro-manager",
@@ -50,6 +219,34 @@
     "automation_angle_zh": "可評估現有工作流程中哪些環節（部署、監控、測試）最需自動化投資，而非僅優化模型本身。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-ffmpeg-claude-code",
+    "title": "瀏覽器端FFMPEG影片壓縮工具，Claude Code打造",
+    "title_original": "Video compressor",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+    "published_at": "2026-09-07T18:29:07+00:00",
+    "category": "agent-skills",
+    "summary": "利用Claude Code中的Claude Fable 5.1模型，結合FFMPEG的WebAssembly版本，在瀏覽器內完成影片壓縮。適合博客主快速優化上傳影片，無需安裝本地軟體。",
+    "highlights": [
+      "使用WebAssembly版FFMPEG實現瀏覽器內處理",
+      "Claude Code輔助開發，降低工具構建門檻",
+      "支援常見影片格式優化",
+      "適合個人博客快速發布影片",
+      "無需本地安裝，依賴瀏覽器即可"
+    ],
+    "why_it_matters": "展示Claude Code在實際工具開發中的可用性，技術用戶可用類似方式快速構建Web端自動化工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "前端工程師可參考此模式，在瀏覽器端實現影片、圖片等媒體的自動化處理流程。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
@@ -169,6 +366,34 @@
       "Rust"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/151863062?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-gpt-6-astra-d3",
+    "title": "GPT-6 Astra結合D3：麥卡托與等面積地圖動畫工具",
+    "title_original": "Mercator ↔ Equal Earth",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+    "published_at": "2026-09-07T16:24:16+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison使用ChatGPT Work中的GPT-6 Astra模型，自動生成Mercator到Equal Earth地圖投影的D3.js動畫轉換。展示了AI輔助數據可視化開發的效率提升潛力。",
+    "highlights": [
+      "GPT-6 Astra直接生成D3.js動畫代碼",
+      "Mercator到Equal Earth投影平滑過渡",
+      "AI輔助完成地理數據視覺化",
+      "響應UN投票討論Equal Earth投影",
+      "展示vibe-coding實務可行性"
+    ],
+    "why_it_matters": "AI輔助數據可視化已成現實，技術用戶可用自然語言快速原型複雜視覺化效果。",
+    "automation_angle": null,
+    "automation_angle_zh": "數據工程師可測試用GPT-6 Astra加速D3圖表、儀表板的原型開發，評估生成代碼的可用性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -107544,6 +107769,34 @@
     "automation_angle_zh": "在 Mistral Platform 申請 API key，先用一個 prompt 測試「查資料→Python處理→生成報告」的三合一流程，評估能否取代現有 LangChain chain。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-mistral-agents-api-ai-agent",
+    "title": "Mistral 推出 Agents API：瞄準開發者的 AI Agent 建構平台",
+    "title_original": "Mistral Launches Agents API: A New Platform for Developer-Friendly AI Agent Creation - MarkTechPost",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUzdCU3dtT0s4dGVxZ3cyMGtwZzNvRmFjX3hfeVRsajVnUlItQW5RTlJYTXZPb184WUpfMXNpYzc0eHVZX0htNmtnYUFjMFg2SUtEeXRHdkJZVElzZDZ3Uy1MNng4RDZxQ2liUzluQzM5UjRUZDhKdmlVY0YySGJXdDNuajZaQXJrOVlhYTlSZUNXWkpqaWxSbmctN2pnQnJ1OElJM1U3cmlFdk1kMGJHOGR1T0hXSzB1RjRfTHhNLUlqd9IBxwFBVV95cUxNSWY4cWJDY0puekFqWXp0ZWpFWF8yZUV0VGJMMGFfakhrTVk5STJadDJJdlI2NDlKZUdtRUtuanJzaWNISFVXSjNNLVYwTlJ3U0xUX3dSNmdmYjZaWjFJYjdOUGdsa2VqelN3TjNwd2dFOGItU1luRTFRZUJONUhqaWVXUEYxUmdMbWZPUjBmSFBudElsM3FhNlNrc3BZSVVfMER6QktqenQwdTNNbTBTRDVXNWdzVWFGY1pnQWl5UFRQb2lWeGtB?oc=5",
+    "published_at": "2025-05-27T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 發布全新 Agents API 平台，主打開發者友好的 AI Agent 創建流程，整合工具呼叫、對話記憶與多步推論能力，試圖在 OpenAI 與 LangChain 之間提供一個輕量替代方案，詳細規格待官方文件確認。",
+    "highlights": [
+      "提供整合式 Agents API，簡化 Agent 開發流程",
+      "強調開發者友好，降低 Agent 建構門檻",
+      "整合工具呼叫與對話記憶機制",
+      "目前僅有 MarkTechPost 報導，原始技術文件待查",
+      "定位可能介於 OpenAI Assistant API 與 LangChain 之間"
+    ],
+    "why_it_matters": "若 Mistral Agents API 在定價與易用性上具競爭力，可能吸引不想深度整合 LangChain 的中小型團隊，技術用戶可將其列入多 Agent 架構的候選評估清單。",
+    "automation_angle": null,
+    "automation_angle_zh": "待 Mistral 官方文件釋出後，技術用戶可比較其 API 定價與功能覆蓋度，測試其與現有 LangChain 專案整合的可行性，評估遷移或混用的成本效益。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
