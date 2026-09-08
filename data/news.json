@@ -1,5 +1,91 @@
 [
   {
+    "id": "2026-09-08-meilisearch-mcp-llm-model-context-protocol",
+    "title": "Meilisearch MCP：讓LLM直接查詢搜尋引擎的Model Context Protocol伺服器",
+    "title_original": "meilisearch/meilisearch-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/meilisearch/meilisearch-mcp",
+    "published_at": "2026-09-08T15:29:11Z",
+    "category": "agent-skills",
+    "summary": "Meilisearch官方推出的MCP伺服器，讓大型語言模型能透過標準化介面直接與Meilisearch搜尋引擎互動。星標195，Python開發，已進入可實際使用階段。",
+    "highlights": [
+      "• 官方維護的MCP伺服器（品質有保障）",
+      "• 195星標，社群關注度中等偏高",
+      "• Python實現，易於整合至現有Python Agent",
+      "• 標準化MCP介面，支援多種LLM呼叫",
+      "• 可實現Agent對私有知識庫的檢索增強"
+    ],
+    "why_it_matters": "MCP生態逐漸成形，Meilisearch MCP讓AI Agent能以結構化方式查詢自建搜尋索引，對RAG應用開發者有直接價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此MCP伺服器接入個人Agent，實現對內部文件庫的自然語言檢索自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/43250847?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-hippobuddy-agent",
+    "title": "HippoBuddy：面向程式與辦公的開源桌面Agent助理",
+    "title_original": "Puteitous/HippoBuddy",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Puteitous/HippoBuddy",
+    "published_at": "2026-09-08T15:17:59Z",
+    "category": "agent-skills",
+    "summary": "HippoBuddy是Java開發的桌面AI助理，瞄準聊天、程式碼輔助、辦公流程三大場景，目前GitHub星標38顆，屬小型新興專案，可評估但不宜作為主力工具。",
+    "highlights": [
+      "• Java語言開發的桌面應用",
+      "• 支援聊天對話與程式碼輔助",
+      "• 可處理基礎辦公自動化任務",
+      "• 星標數量低（38），社群驗證不足",
+      "• 適合技術用戶評估早期專案方向"
+    ],
+    "why_it_matters": "雖然專案規模尚小，但其瞄準的聊天+程式+辦公三位一體方向值得關注，可作為個人助理工具的實驗參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可fork此專案，自行擴展適合自己工作流程的指令集或整合API。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Java"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/275238487?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-ai",
+    "title": "開源企業數據 AI 建構用上下文層框架",
+    "title_original": "An open-source context layer for building AI on top of company data",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1waobyi/an_opensource_context_layer_for_building_ai_on/",
+    "published_at": "2026-09-08T13:24:21+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論一個開源專案，旨在為企業內部資料建立 AI 上下文層，讓本地或自有模型能安全地查詢公司資料庫與文件。具體技術實現細節尚待驗證。",
+    "highlights": [
+      "開源專案，適合本地部署",
+      "瞄準企業私有資料 AI 應用場景",
+      "需自行架設與整合公司資料源",
+      "Reddit 討論缺乏官方文件或 GitHub 連結",
+      "技術可行性待實際測試"
+    ],
+    "why_it_matters": "若能運作，可省下向雲端 API 傳送敏感資料的成本與風險，符合資料主權需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "等待專案釋出正式 Repo 後，在隔離環境測試企業內部文件 QA 流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-08-jscpd-rust-mcp-server",
     "title": "jscpd：Rust 引擎驅動的程式碼複製檢測工具，支援 MCP Server",
     "title_original": "kucherenko/jscpd",
@@ -27,6 +113,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/159307?v=4",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-08-item",
+    "title": "哪些本地模型擅長适時提问而非持续输出",
+    "title_original": "Which local model is actually good at knowing when to stop and ask you a question?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wake1h/which_local_model_is_actually_good_at_knowing/",
+    "published_at": "2026-09-08T10:17:21+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 技術社群討論哪些本地模型能良好判断何時該停止输出並向使用者提问，影響 Agent 互動流暢度。討論多為用戶經驗分享，缺乏量化Benchmark。",
+    "highlights": [
+      "聚焦模型「适時提问」能力",
+      "多為用戶主觀評價，非標準測試",
+      "與 system prompt 設計高度相關",
+      "可用於改善客服或輔助 Agent 體驗",
+      "適合自行用 eval 框架驗證"
+    ],
+    "why_it_matters": "提升 Agent 自然對話品質可減少無效輸出，降低 API 调用次数與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "設計自動化 eval 流程，測試候選模型在真實對話中的提问频率與準確性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-09-08-kilo-kit-mcp-coding-agent-c4-workflow",
@@ -219,6 +333,34 @@
     "why_it_matters": "監管議題影響開源 AI 工具的可用性與開發者社群的長期生態，技術人員需關注政策走向以評估工具合規風險。",
     "automation_angle": null,
     "automation_angle_zh": "開發者應關注歐美監管動態，評估在建構開源模型應用時是否需要預先考虑合規邊界與責任歸屬。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-openai",
+    "title": "OpenAI 擴展新聞教育與新聞編輯室支援計畫",
+    "title_original": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+    "published_at": "2026-09-08T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布擴大對新聞業的支援，涵蓋課堂新聞教育、記者培訓及新聞機構合作，提供工具與資源。官方部落格強調新聞素養與 AI 輔助新聞工作的結合，但未涉及模型能力或 API 價格變動。",
+    "highlights": [
+      "涵蓋 K-12到大學的新聞教育課程支援",
+      "提供新聞機構免費或優惠的 API 額度",
+      "與多家新聞組織建立合作夥伴關係",
+      "強調協助事實查核與內容驗證工作流程程",
+      "屬於 PR/社群建設，無新模型或功能發布"
+    ],
+    "why_it_matters": "對新聞技術開發者而言，優惠 API 額度可能降低內容分析自動化成本，但實質功能變化有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估是否可申請新聞機構 API credits，用於事實查核或文章摘要自動化的 POC 專案。",
     "tags": [
       "hot-topics",
       "rss",
