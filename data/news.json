@@ -1,5 +1,204 @@
 [
   {
+    "id": "2026-09-08-dew-flow-mcp-ai-coding-plan-diff",
+    "title": "dew_flow：MCP 多模型審查閘道，讓其他 AI 審核 coding plan 與 diff",
+    "title_original": "oleksandrdubyna88/dew_flow_connect_other_ais",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/oleksandrdubyna88/dew_flow_connect_other_ais",
+    "published_at": "2026-09-08T20:29:52Z",
+    "category": "agent-skills",
+    "summary": "開源 MCP 伺服器與 VS Code 延伸模組，實現多模型審查閘道：先讓其他廠商模型審核 coding plan，生成 diff 後再由另一模型覆核。Native-AOT 實作，採用 C# 開發，目前 GitHub 12 星。",
+    "highlights": [
+      "可用 VS Code 整合進日常工作流程，立即測試",
+      "透過 MCP 協定串接不同模型，實作多模型品質把關",
+      "支援讓非主力模型擔任 reviewer，降低主力模型 token 消耗",
+      "AOT 編譯提升效能，適合生產環境部署",
+      "開源可審視程式碼，確認審查邏輯是否合理"
+    ],
+    "why_it_matters": "多模型協作是降低成本的新方向：用小模型做粗審、大模型處理複雜案例，可有效減少 API 費用同時維持品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將此專案 fork 後自訂審查 prompt，改接本地模型如 Llama 3.3 作為第一關閘，節省雲端 API 成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/71817001?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-08-qwen-3-8-27b-pi-agent-3d",
+    "title": "Qwen 3.8 27B 搭配 PI Agent 挑戰 3D 圖形遊戲能力邊界",
+    "title_original": "Qwen 3.8 27b with PI agent - pushed to its 3D graphic game limits",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1waz5a0/qwen_38_27b_with_pi_agent_pushed_to_its_3d/",
+    "published_at": "2026-09-08T19:53:58+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群分享 Qwen 3.8 27B 模型結合 PI Agent 在 3D 圖形遊戲場景中的極限測試結果，展示開源模型在複雜視覺理解與即時推論方面的能力進展。",
+    "highlights": [
+      "Qwen 3.8 27B 為阿里巴巴開源的大型語言模型家族新成員",
+      "PI Agent 框架提供更強的長期規劃與視覺對齊能力",
+      "測試聚焦 3D 遊戲環境中的視覺理解與決策生成",
+      "27B 參數規模在本地部署與效能之間取得平衡",
+      "測試結果顯示模型在複雜遊戲場景的推論能力有限"
+    ],
+    "why_it_matters": "開源模型在 3D 視覺任務的能力進展值得追蹤。此測試提供 27B 規模模型的能力上限參考，有助技術人員評估是否適合本地部署於特定遊戲或模擬應用場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "本地部署 Qwen 3.8 27B + PI Agent，使用開放式 3D 遊戲環境作為測試基準，評估模型在視覺導航與即時決策的實際表現是否滿足專案需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-watch-skill-ai-agent",
+    "title": "Watch Skill：給 AI Agent 眼睛與耳朵，可驗證的確定性合約",
+    "title_original": "oxbshw/watch-skill",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/oxbshw/watch-skill",
+    "published_at": "2026-09-08T18:59:06Z",
+    "category": "agent-skills",
+    "summary": "Watch Skill 讓 AI Agent 能「看」視訊、「聽」音訊並將活動轉為可搜尋的時間戳證據，透過 DeepWatch 工作區以 Python + npm、MCP、CLI、REST 方式輸出結果。",
+    "highlights": [
+      "支援視訊、音訊、螢幕活動的時間戳索引",
+      "以「確定性合約」取代模型主觀判斷",
+      "基於 DeepSeek Harness 建構的 Agent 工作區",
+      "提供 Python、npm、MCP、CLI、REST 多元介面",
+      "342 顆星，但訊號強度待觀察"
+    ],
+    "why_it_matters": "若能將多媒體輸入轉為結構化、可驗證的資料，Agent 就能自主處理視訊會議紀錄、螢幕操作回放等任務，大幅擴展自動化邊界。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於自動化視訊會議摘要生成、螢幕操作錄製回放比對，或建立多媒體 QA 測試流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/212214682?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-overdeck-typescript-agent-ai",
+    "title": "Overdeck：TypeScript 多 Agent 編排框架，瞄準 AI 編碼助理協作",
+    "title_original": "eltmon/overdeck",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/eltmon/overdeck",
+    "published_at": "2026-09-08T18:14:18Z",
+    "category": "agent-skills",
+    "summary": "Overdeck 是 TypeScript 寫成的多 Agent 編排工具，專為 AI 程式碼助理協作設計，目前 21 顆星，屬於早期專案，適合有 TypeScript 工作流程的團隊實驗。",
+    "highlights": [
+      "TypeScript 原生实现，贴合前端生态",
+      "Multi-agent 架构支援任务分解與並行执行",
+      "专為 AI 编码助理设计，聚焦開發場景",
+      "早期專案，功能與稳定性待验证",
+      "可作為探索多 Agent 协作的实验起点"
+    ],
+    "why_it_matters": "多 Agent 編排是 2025 年 Agent 發展核心方向，Overdeck 以 TypeScript 切入前端生態，若成熟可簡化複雜編碼任務的分工自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用於拆解大型重構任務，讓多個 AI Agent 分別處理不同模組，觀察協作效果與錯誤率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/678719?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-langchain",
+    "title": "LangChain 深入解析多智能體架構中的上下文管理模式",
+    "title_original": "Organizing Context in a Multi-Agent Harness",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness",
+    "published_at": "2026-09-08T18:07:23+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 部落格詳細說明 deepagents 中子智慧體如何透過上下文模式機制，在 supervisor 上下文分叉與完全隔離之間切換，實現更快速、更低成本且更具針對性的多智慧體協作流程。",
+    "highlights": [
+      "context fork 模式允許子智慧體讀取 supervisor 上下文加速任務交接",
+      "isolated 模式從零開始避免上下文污染與 token 浪費",
+      "context modes 可動態切換依任務需求平衡速度與準確度",
+      "適用於需要嚴格資訊隔離的任務如程式碼審查、機密文件處理",
+      "可降低多智慧體系統的 API 呼叫次數與延遲"
+    ],
+    "why_it_matters": "多智慧體系統的上下文管理直接影響延遲與成本。此文提供可實際操作的模式切換策略，技術團隊可直接套用於自架 LangChain 專案以優化資源使用。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 LangChain 專案中引入 context modes 設定，針對快速查詢使用 fork 模式節省 token，針對敏感任務使用 isolated 模式確保隔離，並透過量化指標比較兩種模式的延遲與準確度差異。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-openai-gpt-5-6-sol-codex",
+    "title": "OpenAI 展示 GPT-5.6 Sol 搭配 Codex 自主執行量子運算實驗",
+    "title_original": "How GPT-5.6 Sol helps run quantum computing experiments",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/codex-quantum-computing-experiments",
+    "published_at": "2026-09-08T17:00:00+00:00",
+    "category": "new-models",
+    "summary": "MIT 研究員案例分享：使用 GPT-5.6 Sol 結合 Codex 系統，自主執行量子運算實驗、分析結果並校準量子位元。模型展現從實驗設計到數據解讀的端到端自動化能力。",
+    "highlights": [
+      "模型具備科學實驗流程的端到端規劃能力",
+      "能解讀實驗數據並自主調整參數",
+      "展示 AI 在科研自動化的實體案例",
+      "暗示多步推論與工具使用能力增強",
+      "來源為 OpenAI 官方部落格，可信度較高"
+    ],
+    "why_it_matters": "科研級 AI 代理能力曝光，代表模型從聊天邏輯走向真實世界自動化，對需要批次實驗、參數調校的工程師有直接參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可評估將類似流程應用於自動化測試、資料分析 pipeline，或評估自建實驗代理的可行性與限制。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-10b",
+    "title": "社群討論：有哪些優質的 ~10B 協作型小型模型？",
+    "title_original": "Are there any (small, ~10B) models that you would say are a good collaborator?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wau1zt/are_there_any_small_10b_models_that_you_would_say/",
+    "published_at": "2026-09-08T16:56:55+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串徵集社群推薦適合作為「協作者」角色的 10B 參數量級模型，分享各模型在程式碼輔助、推論討論與創意發想場景的實際使用體驗。",
+    "highlights": [
+      "10B 規模模型兼顧本地部署可行性與對話品質",
+      "協作者角色強調模型的理解力與回應連貫性",
+      "討論涉及多款開源模型如 Mistral、Qwen、Phi 的比較",
+      "社群回饋多聚焦推論速度與長上下文處理能力",
+      "具體使用場景包括程式碼審查、技術問答、頭腦風暴"
+    ],
+    "why_it_matters": "10B 模型是本地部署的甜蜜點，選擇合適的協作者模型可提升個人開發效率。此討論提供真實使用者回饋，有助技術人員避開行銷話術，找到真正好用的工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據討論中的模型推薦列表，依序在本地部署測試，設定統一的評測任務（如解決 LeetCode 題目、撰寫技術文件），找出符合個人需求的最佳協作者模型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-08-meilisearch-mcp-llm-model-context-protocol",
     "title": "Meilisearch MCP：讓LLM直接查詢搜尋引擎的Model Context Protocol伺服器",
     "title_original": "meilisearch/meilisearch-mcp",
@@ -58,6 +257,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-08-openai",
+    "title": "OpenAI 遭指控盜用數學家研究成果訓練模型",
+    "title_original": "OpenAI alleged of stealing mathematicians work",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wapjaw/openai_alleged_of_stealing_mathematicians_work/",
+    "published_at": "2026-09-08T14:12:10+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 討論區有用戶指控 OpenAI 未經授權使用數學家原創研究成果於模型訓練，涉及版權爭議與 AI 訓練資料合規性問題，惟目前僅止於社群指控階段。",
+    "highlights": [
+      "指控涉及知名數學家發表的證明與推導過程",
+      "爭議核心在於訓練資料使用授權與合理使用範圍",
+      "目前無法院裁決或 OpenAI 官方正式回應",
+      "此議題反映 AI 產業訓練資料來源的普遍性問題",
+      "法律結果可能對業界訓練實踐產生深遠影響"
+    ],
+    "why_it_matters": "訓練資料版權問題可能重塑 AI 開發的成本結構與合規要求。技術人員應關注此議題發展，因未來可能需要更嚴謹的資料溯源與授權機制。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注後續法律進展，評估是否需要建立訓練資料的授權審核流程。若法律要求透明化，可提前規劃使用已授權資料集或 CC 授權內容的替代方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-08-ai",
     "title": "開源企業數據 AI 建構用上下文層框架",
     "title_original": "An open-source context layer for building AI on top of company data",
@@ -79,6 +306,62 @@
     "automation_angle_zh": "等待專案釋出正式 Repo 後，在隔離環境測試企業內部文件 QA 流程。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-reddit-fallout-2",
+    "title": "Reddit 實驗：將 Fallout 2 世界觀作為互動式反應式世界模型",
+    "title_original": "Fallout 2 x Fallout: Bakersfield x H3 as Interactive \\ Reactive World Model, Let's go!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1walsw6/fallout_2_x_fallout_bakersfield_x_h3_as/",
+    "published_at": "2026-09-08T11:31:04+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 用戶創意實驗，嘗試利用 Fallout 2 的廢土世界觀建構互動式反應式世界模型，探索經典遊戲 IP 在 AI 應用中的新可能。",
+    "highlights": [
+      "創意構想將 RPG 遊戲世界作為 AI 的環境模擬器",
+      "Fallout 2 提供豐富的後末日世界設定與角色互動",
+      "實驗旨在測試 AI 在受限世界觀中的推論一致性",
+      "屬於創意探索性質尚無實際效能數據",
+      "可能為遊戲 AI 或敘事生成提供新思路"
+    ],
+    "why_it_matters": "世界模型是 AI 發展的重要方向，利用現有遊戲 IP 作為測試環境可降低成本。此創意實驗值得關注其後續進展，可能催生新的測試方法論或開源工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "如對世界模型研究有興趣，可參考此實驗思路，選擇一款熟悉的遊戲建立類似的環境測試框架，評估模型在結構化世界觀中的推論與決策能力。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-chatgpt-images-2-5",
+    "title": "ChatGPT Images 2.5 亮相：從草圖到精緻影像的個人化生成",
+    "title_original": "Introducing ChatGPT Images 2.5",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+    "published_at": "2026-09-08T11:30:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 發布 ChatGPT Images 2.5，強調可將使用者的想法、草圖與參考照片轉化為更個人化、精緻的影像。顯示多模態理解與風格遷移能力提升。",
+    "highlights": [
+      "支援草圖、想法與參考照片作為輸入",
+      "強調個人化與精緻化輸出",
+      "屬於 ChatGPT 產品線更新，非獨立 API",
+      "具體能力邊界與限制尚待實測",
+      "官方 blog 發布，屬實性高"
+    ],
+    "why_it_matters": "影像生成能力持續迭代，若整合進工作流程可用於快速原型視覺化、文件插圖自動生成等場景，節省設計資源。",
+    "automation_angle": null,
+    "automation_angle_zh": "可透過 API 或 ChatGPT 介面測試影像生成效果，評估是否可替代現有圖庫或簡報素材生成流程。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -172,6 +455,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-08-openai-navier-stokes-ai",
+    "title": "OpenAI 聲稱提出 Navier-Stokes 千禧年獎難題 AI 解答",
+    "title_original": "On the Navier–Stokes Millennium Prize Problem",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/navier-stokes-solution",
+    "published_at": "2026-09-08T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 公布 AI 生成的 Navier-Stokes 千禧年獎難題解答，包含完整論文與 Lean 形式化證明。此聲明數學界尚未驗證，爭議性高，需審慎看待。",
+    "highlights": [
+      "發布形式化證明（Lean）可供形式化驗證工具檢查",
+      "聲稱解決百年未解的數學難題，可信度存疑",
+      "數學社群驗證需時，短期内無法斷定真偽",
+      "展示 AI 在數學推論與形式化證明的探索方向",
+      "建議以觀察心態關注，等待同行評審"
+    ],
+    "why_it_matters": "若屬實將是 AI 數學能力的重大突破，但目前缺乏獨立驗證，技術宅應保持懷疑，關注後續學界反應而非急於採用。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載 Lean 證明檔案，用形式化工具驗證證明邏輯是否自洽，作為評估 AI 數學推論可靠性的練習。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-08-aspnetcore-debugger-mcp-claude-cursor-asp-net-core-mcp-server",
     "title": "aspnetcore-debugger-mcp：讓 Claude 與 Cursor 直接除錯 ASP.NET Core 的 MCP Server",
     "title_original": "magna-nz/aspnetcore-debugger-mcp",
@@ -250,6 +561,34 @@
     "automation_angle_zh": "技術人員可評估本機部署 7B 模型處理文件摘要或程式碼補全，測試延遲與品質是否滿足內部工作流程需求。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-openai-500-ai",
+    "title": "OpenAI 推出 500 萬美元青少年 AI 發展研究補助計畫",
+    "title_original": "Funding grants for new research into AI and teen development",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/teen-development-research-grants",
+    "published_at": "2026-09-08T09:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布 500 萬美元補助計畫，資助獨立研究團隊探究生成式 AI 對青少年發展、健康與安全的影響。徵件進行中。",
+    "highlights": [
+      "總金額 500 萬美元，單案規模未公布",
+      "聚焦青少年族群，學術導向",
+      "屬 PR 性質高於技術資訊",
+      "對技術從業人員的直接價值有限",
+      "來源為官方公告，細節與審查標準待確認"
+    ],
+    "why_it_matters": "對技術宅而言訊號價值偏低，屬企業社會責任公告。但有興趣參與 AI 社會影響研究的研究者可考慮申請。",
+    "automation_angle": null,
+    "automation_angle_zh": "若從事教育科技或青少年相關產品開發，可追蹤此計畫研究成果，作為產品設計與安全考量的參考依據。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -361,6 +700,34 @@
     "why_it_matters": "對新聞技術開發者而言，優惠 API 額度可能降低內容分析自動化成本，但實質功能變化有限。",
     "automation_angle": null,
     "automation_angle_zh": "評估是否可申請新聞機構 API credits，用於事實查核或文章摘要自動化的 POC 專案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-08-1password-codex-21",
+    "title": "1Password 工程團隊用 Codex 提升 21% 生產力",
+    "title_original": "1Password increases engineering productivity 21% with Codex",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/1password",
+    "published_at": "2026-09-08T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格報導，1Password 工程師使用 Codex 快速開發新功能與內部工具，在嚴格資安政策下仍能維持生產級程式碼品質。",
+    "highlights": [
+      "1Password 工程師生產力提升 21%（官方說法）",
+      "在嚴格資安政策環境下仍可產出合規程式碼",
+      "Codex 適用於快速功能開發與內部工具建置",
+      "OpenAI 官方案例，訊息來源可靠",
+      "暗示 AI 編碼助理在企業場景已實際落地"
+    ],
+    "why_it_matters": "此案例顯示 AI 編碼工具在具備嚴格資安要求的企業環境中已可實際應用，而非實驗室展示。技術主管可參考其落地方式評估內部採用。",
+    "automation_angle": null,
+    "automation_angle_zh": "若公司有類似資安要求，可借鏡 1Password 的 prompt 管理與存取控制方式，在隔離環境中部署 Codex 或替代方案。",
     "tags": [
       "hot-topics",
       "rss",
