@@ -1,5 +1,260 @@
 [
   {
+    "id": "2026-09-09-montycat-mcp-agent-mcp",
+    "title": "montycat-mcp：供 Agent 共享的持久化記憶與語意搜尋 MCP 服務",
+    "title_original": "MontyGovernance/montycat-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/MontyGovernance/montycat-mcp",
+    "published_at": "2026-09-09T02:10:34Z",
+    "category": "agent-skills",
+    "summary": "montycat-mcp 是一個自架 MCP 伺服器，提供 AI Agent 共享的持久化記憶，內建語意搜尋與向量 RAG，支援即時更新。可對接 Claude、Cursor、Codex 等主流 Agent 工具。",
+    "highlights": [
+      "自架 MCP 伺服器，支援向量檢索與 RAG",
+      "跨 Agent 共享持久化記憶，適用多 Agent 協作場景",
+      "即時更新機制，記憶不會中斷",
+      "相容 Claude、Cursor、Codex 等主流 Agent",
+      "42 star，Python 實作，易於客製"
+    ],
+    "why_it_matters": "多 Agent 工作流程需要共享狀態時，montycat-mcp 提供開源、自架、低成本的記憶方案，解決 Agent 間資訊孤島問題，值得技術團隊評估整合。",
+    "automation_angle": null,
+    "automation_angle_zh": "今晚可部署 montycat-mcp，串接 Cursor 或 Claude Desktop，測試跨對話的上下文記憶持久化是否滿足長期專案追蹤需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/185088049?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-girder-rust-ai-agent",
+    "title": "Girder：Rust 實作的語義程式碼圖，讓 AI Agent 只取所需",
+    "title_original": "dhishwasher/Girder",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/dhishwasher/Girder",
+    "published_at": "2026-09-09T01:55:39Z",
+    "category": "agent-skills",
+    "summary": "Girder 是一款新開源 MCP 服務，以靜態 Rust 二進位形式提供語義程式碼圖（Semantic Code Graph）功能。AI 編碼 Agent 可透過它精確獲取「完成任務所需的最小程式碼集」，而非整個大型 repo，解決大 context window 的性價比與解析成本問題。",
+    "highlights": [
+      "核心功能：建立程式碼的語義索引圖，支援影響範圍分析（impact analysis）",
+      "單一靜態 Rust 二進位部署，無需 Python 環境，降低維運負載",
+      "MCP 協定整合：可直接對接 Claude/GPT 等 Agent 工具鏈",
+      "目標痛點：大型程式碼庫餵給 LLM 時成本高、噪訊大，Girder 只返回相關片段",
+      "目前僅 11 顆星，屬於早期專案，但思路直擊 Agent 開發效率瓶頸"
+    ],
+    "why_it_matters": "AI 編碼 Agent 的關鍵瓶頸之一是「如何高效理解陌生程式碼庫」。Girder 提供的語義圖方法比傳統 RAG 更精準，直接提升 Agent 產出品質與 token 使用效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在本地 Repo 安裝 Girder，配置 MCP server，讓 Claude/GPT Code 等 Agent 在處理大型專案時只請求語義相關程式碼片段，實測可降低多少上下文 token 消耗。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/208949619?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-qwen3-8-flash-next-mlx-serve",
+    "title": "Qwen3.8-Flash-Next 登陸 MLX-serve：蘋果晶片本地跑百萬上下文",
+    "title_original": "Qwen3.8-Flash-Next on MLX-serve, 1m context is released!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wb7p70/qwen38flashnext_on_mlxserve_1m_context_is_released/",
+    "published_at": "2026-09-09T01:34:52+00:00",
+    "category": "new-models",
+    "summary": "Qwen3.8-Flash-Next 模型現已可在 MLX（蘋果晶片優化的 ML 框架）上以 MLX-serve 部署，支援高達 100 萬 tokens 的上下文窗口。Reddit 社群已驗證初步可運行，為蘋果晶片用戶提供本地長上下文 LLM 新選項。",
+    "highlights": [
+      "MLX-serve 提供蘋果晶片（ M 系列）上的高效本地推論",
+      "1M token 上下文支援長文件分析、多文件對比、全庫程式碼理解",
+      "Qwen3.8-Flash-Next 定位為高效能與低延遲的平衡點",
+      "蘋果晶片用戶可避開雲端 API 費用與延遲，實現完全離線使用",
+      "社群正在探索 2×4090 與蘋果晶片混合部署的可行性"
+    ],
+    "why_it_matters": "百萬上下文本地化意味著可對整個程式碼庫、整本書籍、完整對話歷史進行無縫分析，蘋果晶片用戶從此無需仰賴昂貴的雲端 API 即可享有超長上下文能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "蘋果晶片用戶可啟動 MLX-serve 架設本地 Qwen3.8，測試長文件摘要、程式碼庫全覽、多文件比對等任務，評估延遲與記憶體佔用是否符合工作流程需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-nab-token-mcp-asr-ocr",
+    "title": "nab：Token 節省的網頁微抓取工具，支援 MCP 與本地 ASR/OCR",
+    "title_original": "MikkoParkkola/nab",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/MikkoParkkola/nab",
+    "published_at": "2026-09-09T01:31:53Z",
+    "category": "agent-skills",
+    "summary": "nab 是一個 Rust 實作的低 Token 網頁微抓取工具，任意 URL 可轉為乾淨 Markdown。支援 CLI、MCP 伺服器、Claude Code 外掛，含真實瀏覽器 Cookie 認證、Passkey、防機器人繞過，以及本地端多模態 ASR/OCR。",
+    "highlights": [
+      "單一 Rust 二進位檔，非完整瀏覽器，輕量高效",
+      "任意 URL → 乾淨 Markdown，大幅節省 Token",
+      "支援 Cookie 認證與 Passkey，可抓取受限頁面",
+      "內建本地 ASR/OCR，無需雲端 API",
+      "提供 MCP 伺服器與 Claude Code 外掛"
+    ],
+    "why_it_matters": "需要大量網頁資訊餵給 Agent 的讀者，nab 可降低 50% 以上 Token 消耗，且本地 ASR/OCR 減少對外部 API 的依賴與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "用 nab CLI 或 MCP 介面抓取目標網站，評估 Markdown 乾淨度與 Token 節省比例，決定是否用於每日自動化資訊收集流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/78788115?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-ai",
+    "title": "陶哲軒警示：AI 對開放科學的不可逆破壞已開始",
+    "title_original": "Quoting Terence Tao",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/9/terence-tao/",
+    "published_at": "2026-09-09T00:20:17+00:00",
+    "category": "hot-topics",
+    "summary": "陶哲軒公開引用 Simon Willison 的 Navier-Stokes 爭議報導，發出嚴厲警告：僅是某團隊正在解決難題的謠言，就足以觸發競爭對手投入百萬美元級 AI 算力搶先解決。此激勵結構將使研究者不再分享 promising 方向，逆轉數百年開放科學傳統，對數學及科研造成長期傷害。",
+    "highlights": [
+      "核心問題：激勵結構扭曲 → 科研方向資訊成為稀有資源需保密",
+      "後果：researchers will no longer share promising research directions",
+      "類比：電腦安全領域早已出現「漏洞謠言」觸發 exploit 挖掘的現象",
+      "長遠影響：開放科學傳統逆轉，科研合作生態惡化",
+      "陶哲軒強調這不只是數學問題，而是整個基礎研究的結構性危機"
+    ],
+    "why_it_matters": "對技術人而言，這預示著 AI 輔助科研的「公有領域知識」將加速耗竭。若趨勢持續，未來高價值科研思路將被少數有算力的 AI 實驗室壟斷，開放合作與創新速度將受損。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術決策者應審視內部 AI 工具政策：建立嚴格的專案資料隔離、避免在商業 AI 平台處理高價值研究方向，並評估轉向本地開源模型的可行性以確保數據主權。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-openai-navier-stokes",
+    "title": "OpenAI 疑似搶先解決 Navier-Stokes 千禧年難題：爭議與數據隱患",
+    "title_original": "On the Navier–Stokes Millennium Prize Problem",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+    "published_at": "2026-09-08T23:55:12+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 聲稱用未發布模型在 88 小時內解決 Navier-Stokes 千禧年數學難題，但 NYU 教授 Tristan Buckmaster 指控 OpenAI 可能在團隊使用 Codex 協作期間竊取研究思路。爭議核心包括： Anthropic 數學家 Levent Alpöge 是否間接洩漏思路？模型訓練數據透明度問題？陶哲軒憂慮此風氣將摧毀數百年開放科學傳統。",
+    "highlights": [
+      "OpenAI 團隊 9/1 啟動項目，9/5 達成突破，使用 1300 億輸出 tokens（公開 API 估計價值 1500 萬美元）",
+      "Tristan 指控：OpenAI 拒絕回答模型是否使用其 Codex 會話訓練，僅聲稱「不太可能」",
+      "Levent Alpöge 任職 Anthropic，OpenAI 明確拒絕讓其成為共同作者（因商業競爭關係）",
+      "陶哲軒警告：科研方向的謠言足以觸發百萬美元級 AI 投入搶先解決，科研將不再分享 promising 方向",
+      "Simon Willison 呼籲：所有 AI 實驗室應明確說明用戶資料是否進入訓練集"
+    ],
+    "why_it_matters": "此事暴露 AI 輔助科研的核心風險：用你的工具和數據做出的突破可能不屬於你。技術人需重新評估在商業 AI 產品中處理機密研究的邊界。",
+    "automation_angle": null,
+    "automation_angle_zh": "若從事數學/科研輔助開發，可用此案例評估：建立嚴格的隔離機制（如專案隔離 API key、避免上傳未發布思路至對話介面），或遷移至可驗證數據隔離的本地部署方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-6b",
+    "title": "6B 以下最佳視覺模型是誰？社群實測對比討論",
+    "title_original": "Best vision models under 6B?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wb527l/best_vision_models_under_6b/",
+    "published_at": "2026-09-08T23:40:25+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 社群熱烈討論 60 億參數以下的視覺語言模型（VLM）選項。用戶分享 Qwen2-VL、LLaVA、InternVL2 等模型的圖像理解、OCR、指圖說程式碼等場景的實測結果，為資源受限場景提供性價比參考。",
+    "highlights": [
+      "主流候選：Qwen2-VL-2B/7B、LLaVA-1.5/1.6、InternVL2、Phi-3.5-vision",
+      "社群共識：不同任務有不同最優解，沒有全場景冠軍",
+      "重點評估維度：OCR 準確率、複雜圖表理解、多輪對話保持能力",
+      "6B 以下模型適合邊緣裝置、無網路環境、成本敏感的生產部署",
+      "討論延伸至量化版本在蘋果晶片上的表現"
+    ],
+    "why_it_matters": "6B 以下 VLM 是本地部署與邊緣應用的黃金區間，選錯模型會導致功能不足或資源浪費。社群實測提供第一手性價比參考，避免技術人盲目試錯。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 HuggingFace 下載候選模型，用相同測試集（截圖、圖表、文件）評估各模型在目標硬體上的準確率與延遲，選擇符合功能需求與成本約束的最優解。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-chatgpt-images-2-5-id",
+    "title": "ChatGPT Images 2.5 發布：多輪指令遵循強化，雙模型 ID 上線",
+    "title_original": "Introducing ChatGPT Images 2.5",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+    "published_at": "2026-09-08T22:46:33+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 發布 ChatGPT Images 2.5，新增多輪指令遵循能力，回應速度更快，且更能保留參考照片主體。API 新增 gpt-image-2.5-sunburst 與 gpt-image-2.5-flare 兩個模型 ID，Simon Willison 建議 Sunburst 適合精細編輯，Flare 適合快速日常生成。",
+    "highlights": [
+      "gpt-image-2.5-sunburst 主打精細編輯指令遵循",
+      "gpt-image-2.5-flare 適合快速高畫質日常生成",
+      "多輪對話中圖像一致性提升",
+      "API 已支援傳入參考圖片做主體保留",
+      "OpenAI 宣稱全平台已生成超過 30 億張圖片"
+    ],
+    "why_it_matters": "多輪圖像生成能力的實用性大增，Agent workflow 可更自然地做迭代修圖。技術人員應測試 Sunburst 與 Flare 在各自場景的性價比。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Simon Willison 的 openai_image.py CLI 工具傳入參考圖與指令，快速評估 gpt-image-2.5-sunburst 在你的產品圖生成流程中的指令遵循與主體保留效果。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-09-2-4090-agent-llama-cpp",
+    "title": "2×4090 能同時跑幾個 Agent？Llama.cpp 三週併發實測數據",
+    "title_original": "How many agents can 2×4090 actually run at once? Three weeks of llama.cpp concurrency data — soft cap 5 @ 64k, hard cap 9, and why.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wb35xo/how_many_agents_can_24090_actually_run_at_once/",
+    "published_at": "2026-09-08T22:21:43+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶發布長達三週的 llama.cpp 併發效能實測：在雙 RTX 4090 設定下，軟上限 5 個 Agent（64k 上下文）、硬上限 9 個 Agent，並詳細說明瓶頸原因與配置策略。提供硬體極限的實證參考。",
+    "highlights": [
+      "軟上限 5 個 Agent 適合 64k 上下文，記憶體與頻寬平衡點",
+      "硬上限 9 個 Agent 需要犧牲上下文長度或接受延遲增加",
+      "主要瓶頸：VRAM 容量與 PCIe 頻寬，而非算力本身",
+      "結果與具體模型大小、量化精度、batch size 配置高度相關",
+      "提供了讓開發者評估本地 Agent 部署規模的量化參考"
+    ],
+    "why_it_matters": "對本地部署 Agent 系統的開發者而言，精確知道硬體能支撐多少併發 Agent，直接影響系統設計（是否需要佇列、排程、動態上下文調整），節省試錯成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可參考此數據模型估算自己的 4090 設定，結合 llama.cpp 的 concurrency 設定，測試理想配置下的實際吞吐量與回應延遲，據此設計 Agent 系統的任務分配策略。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-08-dew-flow-mcp-ai-coding-plan-diff",
     "title": "dew_flow：MCP 多模型審查閘道，讓其他 AI 審核 coding plan 與 diff",
     "title_original": "oleksandrdubyna88/dew_flow_connect_other_ais",
