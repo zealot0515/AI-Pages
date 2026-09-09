@@ -1,5 +1,91 @@
 [
   {
+    "id": "2026-09-09-maven-decoder-mcp-java-ai-coding-agent-maven-jar",
+    "title": "maven-decoder-mcp：Java AI coding agent 的 Maven JAR 解析工具",
+    "title_original": "salitaba/maven-decoder-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/salitaba/maven-decoder-mcp",
+    "published_at": "2026-09-09T15:13:16Z",
+    "category": "agent-skills",
+    "summary": "maven-decoder-mcp 是一個 MCP 伺服器，為 Java AI coding agent 提供檢視、搜尋與反編譯本地 Maven .m2 JAR 的能力。旨在幫助 AI 代理理解專案依賴的實際實作內容。",
+    "highlights": [
+      "專為 Java 生態設計，填補 AI coding agent 對依賴理解的能力缺口",
+      "支援檢視、搜尋、反編譯 .m2 本地 JAR 檔案",
+      "可幫助 AI agent 在除錯或重構時查看第三方庫原始碼",
+      "Python 實作，20 stars，屬於新興工具",
+      "需注意反編譯可能涉及授權議題"
+    ],
+    "why_it_matters": "Java AI coding agent 常見盲點是無法深入理解外部 JAR 行為，此 MCP 工具直接賦予 agent 讀取依賴實作的能力，可提升除錯與重構的精準度。",
+    "automation_angle": null,
+    "automation_angle_zh": "將其整合進 Java coding agent pipeline，讓 AI 在遇到未知依賴問題時自動查詢 .m2 本地庫，提升自給自足的除錯能力。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/40876876?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-agentctxsync-agent",
+    "title": "agentctxsync：跨設備、跨 Agent 的對話同步工具",
+    "title_original": "westsource/agentctxsync",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/westsource/agentctxsync",
+    "published_at": "2026-09-09T14:19:19Z",
+    "category": "agent-skills",
+    "summary": "agentctxsync 是一個新興開源專案，旨在實現 AI 助理之間的跨設備、跨 Agent 對話同步。支援 Hermes、DeepSeek Harness、opencode 等多種框架。現階段 stars 偏低（21），屬於早期探索性專案。",
+    "highlights": [
+      "支援多主流 Agent 框架的對話上下文同步",
+      "跨設備同步能力適合多端工作的技術用戶",
+      "開源專案，stars 僅 21，需自行評估成熟度",
+      "Python 實作，便於技術用戶閱讀與改寫",
+      "若成熟可減少跨設備對話斷裂的痛點"
+    ],
+    "why_it_matters": "跨設備、跨 Agent 的上下文斷裂是實際痛點，若此專案能穩定運作，可成為多工具協作工作流程的黏合層，提升長程任務的一致性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在測試環境架設 agentctxsync，驗證其與現有 Agent 框架的同步穩定性，評估是否能替代手動複製對話內容的流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/2410550?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-mimo-x-pro-flash-mimo-desktop",
+    "title": "MiMo-X-Pro/Flash 模型現身 Mimo Desktop 預告版",
+    "title_original": "MiMo-X-Pro-Preview and MiMo-X-Flash-Preview - New Mimo Model found in Mimo Desktop preview announcement",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbejtp/mimoxpropreview_and_mimoxflashpreview_new_mimo/",
+    "published_at": "2026-09-09T07:20:54+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群用戶在 Mimo Desktop 預告公告中發現 MiMo-X-Pro-Preview 與 MiMo-X-Flash-Preview 兩個新模型蹤跡。缺乏官方技術規格與效能數據，型號與定位細節尚待確認。",
+    "highlights": [
+      "在 Mimo Desktop 預告中發現，可能與桌面端 AI 助理相關",
+      "MiMo-X-Pro 暗示 Pro 等級規格，MiMo-X-Flash 暗示輕量版",
+      "目前僅社群發現，無官方頁面或技術文件佐證",
+      "資訊碎片化，需持續追蹤 Mimo 官方公告",
+      "距離可用評估尚有距離，不建議現階段作為決策依據"
+    ],
+    "why_it_matters": "若 Mimo 確實在開發新模型變體，可能為本地部署 AI 桌面助理提供更多模型選擇，但目前資訊不足以做出判斷，需等待後續確認。",
+    "automation_angle": null,
+    "automation_angle_zh": "加入關注清單追蹤 Mimo 官方動態，待正式發布後評估 MiMo-X 系列與現有本地模型的效能/性價比差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-09-reddit-openbmb-1b",
     "title": "Reddit熱議：如何識別OpenBMB 1B模型版本",
     "title_original": "What OpenBMB 1B version is this?",
