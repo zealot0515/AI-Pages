@@ -1,5 +1,61 @@
 [
   {
+    "id": "2026-09-09-reddit-openbmb-1b",
+    "title": "Reddit熱議：如何識別OpenBMB 1B模型版本",
+    "title_original": "What OpenBMB 1B version is this?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbagpr/what_openbmb_1b_version_is_this/",
+    "published_at": "2026-09-09T03:42:47+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA社群熱烈討論如何正確識別OpenBMB 1B模型版本。由於開源模型版本命名複雜且資訊不完整，社群成員難以確認所下載模型的確切版本與能力範圍。",
+    "highlights": [
+      "社群討論如何識別OpenBMB 1B模型版本",
+      "開源模型版本命名混亂難以確認",
+      "模型元數據可能不完整",
+      "需要透過模型架構或效能測試驗證版本",
+      "對本地部署用戶造成困擾"
+    ],
+    "why_it_matters": "正確識別模型版本對於本地部署、效能優化與安全審計至關重要。版本混淆可能導致部署錯誤或安全漏洞，對技術用戶造成潛在風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可建立模型指紋識別腳本，自動比對模型架構與已知版本特徵，減少手動驗證時間並確保部署正確性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-github-copilot-for-jetbrains",
+    "title": "GitHub Copilot for JetBrains 支援企業托管沙箱與跨檔案游標跳轉",
+    "title_original": "Enterprise-managed sandbox in Copilot for JetBrains",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
+    "published_at": "2026-09-09T02:43:38+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方公告 JetBrains 版 Copilot 新增多項企業功能：企業托管沙箱政策、跨檔案游標跳轉（Next Edit Suggestions）、全局專案上下文聊天，以及企業政策診斷工具，進一步強化大型程式碼庫的 AI 輔助體驗。",
+    "highlights": [
+      "企業托管沙箱讓團隊可定義資料隔離與安全邊界",
+      "跨檔案游標跳轉改善多檔案重構時的 AI 建議連貫性",
+      "全局專案上下文讓 Chat 模式能理解整個專案架構",
+      "企業政策診斷幫助 IT 管理員稽核 Copilot 使用合規性",
+      "此更新為 GitHub 官方公告，功能已可用"
+    ],
+    "why_it_matters": "對企業技術團隊而言，這些功能直接提升 AI 程式碼輔助的安全性與準確性，尤其在處理大型、多模組專案時，全局上下文能減少 AI 幻覺與脫離語境的建議。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業技術人員可向 IT 申請啟用企業托管沙箱，評估跨檔案重構場景下 Copilot 的表現是否優於個人版，進而決定是否推動團隊遷移到企業方案。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-09-09-montycat-mcp-agent-mcp",
     "title": "montycat-mcp：供 Agent 共享的持久化記憶與語意搜尋 MCP 服務",
     "title_original": "MontyGovernance/montycat-mcp",
@@ -103415,6 +103471,34 @@
     "why_it_matters": "節省費用但存在帳號風險，技術人員應自行評估是否值得嘗試，並注意潛在的服務中斷。",
     "automation_angle": null,
     "automation_angle_zh": "不建議自動化此流程——帳號穩定性優先於節省少量費用，生產環境應使用正規訂閱。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-ai-glm-5-1-claude",
+    "title": "全球AI服務價格持續上漲，智譜GLM-5.1模型定價逼近Claude",
+    "title_original": "全球AI服务價格持续上涨，智谱GLM-5.1模型價格直逼Claude - 虎嗅网",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93c01CTDRoVmFGaU9KaFJzN0RJM3dwYkJKeHIxQlluOF9pWVFLU0N1NnhKTVFtM2swZ2gzcDRHeklmQjhNN0NlY21hckpIVDhuemhSUg?oc=5",
+    "published_at": "2026-04-13T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "全球AI服務價格持續攀升，智譜GLM-5.1模型定價已接近Anthropic的Claude系列，反映出基礎設施成本壓力與市場需求的雙重影響。這波漲價潮意味著開發者需重新審視模型選型策略與成本優化方案。",
+    "highlights": [
+      "智譜GLM-5.1模型定價持續上漲",
+      "定價水準已逼近Claude系列",
+      "全球AI服務普遍面臨漲價壓力",
+      "基礎設施成本持續攀升影響定價",
+      "開發者需重新評估模型性價比"
+    ],
+    "why_it_matters": "AI模型定價直接影響專案成本與商業可行性。GLM-5.1價格上漲顯示中國AI廠商也面臨算力成本壓力，開發者需要重新評估性價比與替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可追蹤各模型最新定價，設計成本監控系統或自動化模型切換邏輯，在價格變動時自動評估替代模型以維持成本效益。",
     "tags": [
       "ai-deals",
       "rss",
