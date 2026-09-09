@@ -1,5 +1,286 @@
 [
   {
+    "id": "2026-09-09-unifi-mcp-server-ai-agent",
+    "title": "UniFi MCP Server 讓 AI Agent 能查詢網路基礎設施",
+    "title_original": "KallistoX/mcp-unifi-applications",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/KallistoX/mcp-unifi-applications",
+    "published_at": "2026-09-09T20:12:28Z",
+    "category": "agent-skills",
+    "summary": "KallistoX/mcp-unifi-applications 是一個 MCP 伺服器，將 Ubiquiti UniFi API（涵蓋 Network、Protect、Site Manager、InnerSpace）轉化為 AI 可查詢的形式，提供端點搜尋、Schema 鑽研與五種語言的程式碼範例。僅支援唯讀操作，不需控制器憑證。",
+    "highlights": [
+      "支援 Network、Protect、Site Manager、InnerSpace 四大 API 模組",
+      "AI Agent 可直接查詢端點與 Schema，無需熟讀原廠文件",
+      "提供五種語言的程式碼範例，降低整合門檻",
+      "唯讀設計，安全性較高，不會意外修改網路設定",
+      "目前 34 Stars，仍屬早期專案"
+    ],
+    "why_it_matters": "對於管理 UniFi 網路的技術人員，可透過自然語言讓 AI Agent 查詢設備狀態、摄像头畫面或網路拓撲，大幅降低手動查閱 API 文件與寫腳本的時間成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可今日安裝此 MCP Server，配合支援 MCP 的 Agent 工具，用自然語言查詢 UniFi 網路狀態或Protect 攝影機列表，實作「用對話管理網路」的自動化場景。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/49527204?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-reddit-llm-fomo",
+    "title": "Reddit 討論：本地運行 LLM 不必跟風 FOMO",
+    "title_original": "Don't let FOMO win if you're interested in local llm from a hobby/learning aspect",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbufx5/dont_let_fomo_win_if_youre_interested_in_local/",
+    "published_at": "2026-09-09T18:48:27+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 社群一篇貼文呼籲對本地運行 LLM 感興趣的愛好者與學習者，應根據自身需求與硬體條件選擇模型，而非盲目跟風最新發布的熱門模型。討論建議專注學習本質，而非追逐規格軍備競賽。",
+    "highlights": [
+      "主旨為心態建議，非技術教程或模型比較",
+      "屬論壇討論帖，缺乏可驗證的技術數據",
+      "未推薦特定模型或工具鏈",
+      "對技術決策的實質幫助有限",
+      "可能對新手有心理安撫作用"
+    ],
+    "why_it_matters": "文章屬社群交流性質，無具體技術內容可供技術人員參考或測試。對想自動化工作流程程的開發者缺乏實質資訊價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "不適用；建議技術人員若有明確需求，應直接查詢模型效能基準與硬體需求，而非依賴此類general討論做決策。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-langchain",
+    "title": "LangChain托管代理新功能：連線管理與呼叫者身份驗證",
+    "title_original": "Connections: managed credentials and per-caller identity for Managed Deep Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents",
+    "published_at": "2026-09-09T18:33:03+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain為托管深度代理推出Connections功能，支援安全的憑證管理與每用戶OAuth身份橋接。代理現在可以代表不同用戶的身份執行操作，解決多租戶場景下的身份隔離問題。",
+    "highlights": [
+      "支援安全的代理級憑證儲存與輪換",
+      "每個呼叫者可橋接獨立OAuth身份",
+      "簡化多租戶代理架構的開發",
+      "減少開發者自行實現認證的負擔",
+      "與LangChain既有工具鏈無縫整合"
+    ],
+    "why_it_matters": "企業級代理應用常需以用戶身份訪問外部服務，過去需自行實現繁瑣的身份橋接。新功能將此標準化，大幅降低構建多用戶代理產品的複雜度與安全風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "若開發需訪問用戶個人資料的代理應用（如郵件、日曆、電商），可直接使用Connections封裝認證流程，省去自建OAuth整合的工程成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-09-item",
+    "title": "開源音訊模型：文字直接生成可演奏合成器與音樂樣本",
+    "title_original": "I trained an audio model that can generate infinite one-shots for music production and turn text prompts into fully playable synths. I'm not only releasing the model but I've also released a video on exactly how I did it (and the inferencing pipeline to let others make text based synths.)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbtqt7/i_trained_an_audio_model_that_can_generate/",
+    "published_at": "2026-09-09T18:24:19+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者釋出可生成無限音樂一Shot並將文字提示轉為可演奏合成器的音訊模型，同時公開完整訓練流程與推論管線。這是少見的從訓練到部署全流程開源音訊生成方案，對獨立音樂製作與遊戲音效自動化有直接價值。",
+    "highlights": [
+      "模型支援文字轉合成器，可直接產出可演奏音色",
+      "可生成無限數量的音樂一Shot樣本",
+      "完整釋出訓練程式碼與推論管線",
+      "提供詳細教學影片說明訓練方法",
+      "屬於本地可部署的開源方案"
+    ],
+    "why_it_matters": "過去音訊生成模型多為封閉API或僅釋出權重，此案例外完整開源訓練流程，讓技術團隊可客製化訓練自己的音訊生成模型，繞過商業TTS/音樂API的成本與延遲限制。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合進遊戲或應用的動態音效系統，根據玩家行為即時生成背景音樂或反饋音效，降低音效素材庫管理成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-reddit-windows-llm-2-3",
+    "title": "Reddit 修復：Windows 上 LLM 推論因視窗未聚焦變慢 2-3 倍",
+    "title_original": "Solved: LLM inference on Windows was 2–3x slower when the server window wasn't focused",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbtmjg/solved_llm_inference_on_windows_was_23x_slower/",
+    "published_at": "2026-09-09T18:20:09+00:00",
+    "category": "agent-skills",
+    "summary": "用戶在 r/LocalLLaMA 分享在 Windows 環境本地執行 LLM 推論時，伺服器視窗未聚焦會導致推論速度下降 2-3 倍的問題及其解決方案。聚焦視窗後效能恢復正常，可能是 Windows 電源管理或排程優先級的影響。",
+    "highlights": [
+      "發現 Windows 焦點視窗對 LLM 本地推論效能有顯著影響",
+      "聚焦與非聚焦狀態可造成 2-3 倍效能差",
+      "推測與 Windows 電源計畫或執行緒排程優先級相關",
+      "屬使用者經驗分享，非系統性效能測試",
+      "對 Windows 本地 LLM 部署者有實用參考價值"
+    ],
+    "why_it_matters": "直接影響本地 LLM 部署的實際效能。對在 Windows 上運行自動化腳本或 API 服務的開發者，若未注意此問題，可能浪費 2-3 倍推論時間與運算資源。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署 Windows LLM 服務時，可將服務視窗設為系統焦點或使用無頭模式（headless）確保穩定效能；亦可作為自動化腳本中背景任務的效能瓶頸排查參考。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-paul-christiano-openai",
+    "title": "Paul Christiano 加入 OpenAI 基金會理事會",
+    "title_original": "Paul Christiano joins OpenAI Foundation Board",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+    "published_at": "2026-09-09T17:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Paul Christiano 以 AI 對齊、安全性與標準制定方面的專業經驗，正式加入 OpenAI 基金會理事會及其安全與安全委員會。此為 OpenAI 官方 Blog 宣布的一手消息。",
+    "highlights": [
+      "Paul Christiano 在 AI 對齊領域具高度影響力",
+      "加入理事會及安全與安全委員會，角色實質",
+      "OpenAI 官方一手消息，可信度極高",
+      "可能影響 OpenAI 未來安全政策與技術路線",
+      "對關注 AI 安全性的技術社群具有指標意義"
+    ],
+    "why_it_matters": "Christiano 的加入可能強化 OpenAI 對對齊研究的支援，也暗示未來模型發布可能更強調安全評估流程。對關注 AI 安全性的技術決策者與研究者具有長期參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可追蹤 OpenAI 後續安全報告與 Christiano 的公開發言，評估安全政策變化是否影響 API 使用條款、模型發布節奏或新的安全相關功能（如 Critic 模型、紅隊工具）。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-09-tts",
+    "title": "開源TTS比較討論：哪個最適合有聲書旁白",
+    "title_original": "Best Open source TTS right now for narration?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbpyp7/best_open_source_tts_right_now_for_narration/",
+    "published_at": "2026-09-09T16:10:58+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit技術社區彙整當前最佳開源文字轉語音模型，用於有聲書旁白場景的優缺點比較。主要候選包括XTTS、Fish Speech、Coqui TTS等，涵蓋自然度、延遲、語言支援與本地部署可行性。",
+    "highlights": [
+      "XTTS支援多語言且自然度較高",
+      "Fish Speech在中文表現穩定",
+      "Coqui TTS提供完整訓練框架",
+      "本地部署可省去API費用",
+      "推論速度仍是實用瓶頸"
+    ],
+    "why_it_matters": "有聲書或長文本語音合成是成本敏感場景，開源方案若能達到商業品質，可大幅降低每分鐘音訊的生成成本，尤其適合內容大量生產的開發者。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估各模型在中文長文本朗讀的韻律自然度與錯誤率，選擇可本地部署的方案整合進自動化內容流水線。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-google-deepmind-ai",
+    "title": "Google DeepMind 與導演合作 AI 重現半世紀愛情故事",
+    "title_original": "Recreating a 70-year love story frame by frame",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+    "published_at": "2026-09-09T16:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "短片《Love, Rendered》由導演 James Dao 與 Google DeepMind 團隊合作，利用 AI 技術重建一對結婚 70 年的夫婦早期生活中從未被錄影記錄的片段。團隊結合影像生成模型與導演的創意願景，讓觀眾「看到」那些本不存在的歷史畫面。",
+    "highlights": [
+      "使用 Google DeepMind 影像生成技術填補真實歷史影像的空白",
+      "強調 AI 作為創意工具而非取代人類敘事的角色",
+      "短片在 Google AI Blog 發布，屬官方技術展示性質",
+      "重點在影視創作示範，非開源工具或 API 釋出",
+      "技術細節有限，未透露使用的具體模型架構"
+    ],
+    "why_it_matters": "展示生成式 AI 在影視創作的應用潛力，但技術細節不足，對技術人員的直接價值有限。主要作為 AI 創意可能性的展示，缺乏可直接取用的工具或方法論。",
+    "automation_angle": null,
+    "automation_angle_zh": "目前無直接自動化價值；若想仿效此類專案，需自行研究影像生成模型的訓練與後處理流程，且需要大量創意引導工程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-item",
+    "title": "社區呼籲：模型發布應明確標註是否為微調版本",
+    "title_original": "Mention if a \"new model\" is a finetune",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbpf6i/mention_if_a_new_model_is_a_finetune/",
+    "published_at": "2026-09-09T15:51:51+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit熱議提議要求模型發布頁面強制標註基礎模型與微調方法，方便社群評估模型真實能力與適用場景。批評者指出目前大量微調模型魚目混珠，稀釋了開源模型生態的透明度。",
+    "highlights": [
+      "許多新模型僅是現有模型的微調版本",
+      "缺少元數據導致評估困難",
+      "影響模型選擇與基準測試公正性",
+      "呼籲HuggingFace等平台強制元資料欄位",
+      "涉及模型出處與訓練成本的誠信問題"
+    ],
+    "why_it_matters": "微調模型與原創模型在能力、許可證與成本結構上差異顯著。明確標註可幫助技術用戶避免重複訓練、選對基礎模型，並正確評估模型真實價值與法律風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "在自動化模型評估流程中加入元數據解析，自動過濾或分類微調模型，確保測試集與基准測試反映真實能力。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-09-ibm-granite-time-series",
+    "title": "IBM 開源 Granite Time Series 模型，商業友好授權",
+    "title_original": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+    "published_at": "2026-09-09T15:36:24+00:00",
+    "category": "open-source-ai",
+    "summary": "IBM Research 發布 Granite Time Series PatchTST-FM-r2 模型，宣稱為時間序列領域的 SOTA 模型，並採用商業友好授權。Hugging Face 官方 Blog 已收錄詳細技術說明與評測結果。",
+    "highlights": [
+      "宣稱時間序列任務 SOTA 表現",
+      "採用商業友好授權，企業可直接商用",
+      "已在 Hugging Face 發布，可直接下載測試",
+      "官方 Blog 提供評測數據與技術細節",
+      "可作為替代昂貴專有時間序列服務的候選方案"
+    ],
+    "why_it_matters": "時間序列預測在監控、預測維護、金融分析等場景需求廣泛。若 Granite 此模型確實達 SOTA 且授權友善，企業可用低成本開源方案替換現有的付費時間序列 API。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 Hugging Face 立即下載模型，本機或部署至雲端，用自己的時間序列資料集（如 IoT 感測器、日誌、銷售數據）測試預測準確度，評估是否值得從現有方案遷移。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-09-maven-decoder-mcp-java-ai-coding-agent-maven-jar",
     "title": "maven-decoder-mcp：Java AI coding agent 的 Maven JAR 解析工具",
     "title_original": "salitaba/maven-decoder-mcp",
