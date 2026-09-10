@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-09-10-ai",
+    "title": "閉源AI對生物研究不友善，用戶轉向開源權重模型",
+    "title_original": "Closed AI doesn't like biological research, user turns to open weight models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcbt99/closed_ai_doesnt_like_biological_research_user/",
+    "published_at": "2026-09-10T07:10:47+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA社區討論指出，部分研究者因閉源AI模型對生物學領域任務表現不佳或有限制，而轉向使用開源權重模型（如LLaMA、Mistral等本地部署方案）。",
+    "highlights": [
+      "來自Reddit社區討論，非官方公告",
+      "涉及生物研究領域的特殊需求",
+      "用戶反映閉源模型在此領域有局限性",
+      "開源本地模型提供替代方案"
+    ],
+    "why_it_matters": "對於有特殊領域需求的技術用戶，此趨勢顯示開源模型在特定垂直場景的靈活性與可控性可能優於閉源方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "若從事生科領域AI應用，可評估在本地部署開源模型作為閉源API的備援或補充方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-10-calif-research-ai-weworm",
     "title": "Calif Research 展示 AI 輔助漏洞研究：WeWorm 零點擊漏洞利用案例",
     "title_original": "Quoting Calif Research",
