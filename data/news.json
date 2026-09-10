@@ -1,5 +1,89 @@
 [
   {
+    "id": "2026-09-10-calif-research-ai-weworm",
+    "title": "Calif Research 展示 AI 輔助漏洞研究：WeWorm 零點擊漏洞利用案例",
+    "title_original": "Quoting Calif Research",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/10/calif-research/",
+    "published_at": "2026-09-10T00:56:41+00:00",
+    "category": "hot-topics",
+    "summary": "安全研究機構 Calif Research 發布 WeWorm 演示，號稱首個可透過 WeChat 通話跨 iOS/Android 零點擊傳播的蠕蟲。研究團隊表示，借助 AI 輔助，僅用約兩天就發現漏洞並寫出遠端程式碼執行（RCE）漏洞利用，整體蠕蟲開發耗時一週。報告強調 AI 正在降低高階網路攻防的技術門檻。",
+    "highlights": [
+      "WeWorm：針對 WeChat 通話的零點擊跨平台漏洞利用",
+      "受害者的手機無需接聽或任何互動即可被感染",
+      "傳統同等規模漏洞利用需要更大團隊耗費數月",
+      "AI 承擔大部分技術工作，人類提供判斷與安全測試指導",
+      "屬於安全研究演示，旨在提升業界對 AI 輔助攻擊的警覺"
+    ],
+    "why_it_matters": "此案例揭示 AI 正在大幅加速漏洞研究與利用開發。對技術決策者而言，這意味著未來資安威脅演進速度將超乎預期，需重新評估防御策略與威脅模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "資安團隊可將此案例纳入威胁建模考量，评估现有防护措施對 AI 加速的零点击漏洞的防御能力，同時關注類似 AI 安全研究工具的開源情况。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-10-reddit-embedding",
+    "title": "Reddit：用戶開發跨 Embedding 模型遷移工具，無需重新向量化整個語料庫",
+    "title_original": "I made a way to migrate between embedding models without re-embedding your entire corpus",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wc30q1/i_made_a_way_to_migrate_between_embedding_models/",
+    "published_at": "2026-09-10T00:10:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享一種可在不同 Embedding 模型間遷移資料的方法，声称無需對整個语料库重新进行向量化处理。此技术可降低切换 Embedding 模型的成本和時間，對維護大型向量資料庫的團隊有實際價值，但詳細技術實現需查閱原帖。",
+    "highlights": [
+      "解決痛點：更換 Embedding 模型時無需重新向量化整個語料庫",
+      "可能節省大量計算資源與時間成本",
+      "適用於維護大規模向量檢索系統",
+      "技術細節需查閱原 Reddit 帖子確認",
+      "可能涉及向量映射或對齊技術"
+    ],
+    "why_it_matters": "Embedding 模型更新頻繁，若每次切換都要重新處理數百萬筆資料，會造成巨大運算負擔。此工具若有效，可大幅降低向量檢索系統的維護成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術玩家可追蹤此 Reddit 帖子，等待技術實現細節公開後，測試是否能在自己的向量資料庫上實作類似遷移流程，評估節省的成本與效果。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-10-simon-willison-gpt-6-astra-blender-3d",
+    "title": "Simon Willison 展示 GPT-6 Astra 驅動 Blender 3D 模型生成與瀏覽工具",
+    "title_original": ".blend URL Viewer",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
+    "published_at": "2026-09-09T23:58:32+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 .blend URL Viewer，可直接在瀏覽器檢視由 AI 生成的 Blender 3D 模型。他先用 ChatGPT Images 2.5 生成 Fabergé 彩蛋圖片，再透過 Codex 執行 GPT-6 Astra 的本地 Blender 技能，成功在 17 分 51 秒內生成多個 .blend 檔案。此工具整合 vibe-coded 實驗，讓技術玩家可在瀏覽器中預覽結果。",
+    "highlights": [
+      "結合多模型協作：Images 2.5 生成參考圖 → Codex + GPT-6 Astra 生成 3D 模型",
+      "使用本地 Blender 技能檔案控制生成流程",
+      "提供瀏覽器端即時 3D 檢視，無需本地安裝 Blender",
+      "展示了 AI Agent 操控專業工具（Blender）的可行路徑",
+      "生成時間約 18 分鐘，適合創意原型驗證"
+    ],
+    "why_it_matters": "此案例示範了多 Agent 協作控制專業軟體的可能性。技術宅可評估此模式能否移植到其他 3D 工作流程，如建築視覺化、遊戲素材生成等場景，降低專業工具使用門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術玩家可下載 Simon 的 Blender 技能檔案，嘗試用類似流程讓 GPT-6 Astra 控制本地 Blender，測試 AI 生成 3D 資產的實用性與穩定性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-09-unifi-mcp-server-ai-agent",
     "title": "UniFi MCP Server 讓 AI Agent 能查詢網路基礎設施",
     "title_original": "KallistoX/mcp-unifi-applications",
@@ -26,6 +110,62 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/49527204?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-10-github-copilot-agent",
+    "title": "GitHub Copilot 企業托管權限：管理 Agent 操作審批流程",
+    "title_original": "Enterprise managed permissions for GitHub Copilot agent operations",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
+    "published_at": "2026-09-09T20:08:14+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方公告，Copilot Business 與 Enterprise 管理員現在可集中控管 Agent 操作行為，設定為阻擋、需人工核准或直接放行。此功能讓企業能依政策細粒度授權，適用於安全合規要求較高的開發團隊。",
+    "highlights": [
+      "官方 GitHub Changelog 發布，資訊可直接用於系統配置",
+      "支援三種操作模式：阻擋、需核准、直接執行",
+      "覆蓋 Copilot Agent 操作，企業管理員可依需求自訂政策",
+      "提升企業內部 AI 使用安全可控性，減少未授權操作風險",
+      "技術管理員應評估團隊工作流程，設定合理的審批門檻"
+    ],
+    "why_it_matters": "對企業技術管理員而言，托管權限讓 AI Agent 行為治理從被動監控轉為主動策略配置，直接影響團隊使用 Copilot 的安全邊界與審批效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術管理員可立即在 GitHub Enterprise 設定中配置不同操作的審批策略，例如對檔案寫入與刪除強制人工核准，對唯讀查詢則放行，平衡安全與效率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-10-reddit-5-token-5t-s",
+    "title": "Reddit 討論：本地模型每秒 5 個 Token（5t/s）是否堪用？",
+    "title_original": "Would you consider 5t/s usable for a local model?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbvd2i/would_you_consider_5ts_usable_for_a_local_model/",
+    "published_at": "2026-09-09T19:20:00+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 用戶討論本地運行 LLM 時達到 5 tokens/秒 的生成速度是否足夠實際使用。討論涉及不同硬體配置、模型大小、量化方法對速度的影響，以及各類場景（聊天、程式碼生成、文件處理）對速度的容忍度。此討論反映本地 AI 部署的性能基準議題。",
+    "highlights": [
+      "5t/s 速度取決於硬體（GPU/CPU）、模型大小、量化等級",
+      "一般認為 5t/s 適合互動式聊天，但對程式碼生成可能偏慢",
+      "M1/M2 Mac 或入門 GPU 可能達到此速度",
+      "部分用戶認為 5t/s 足以應付日常開發輔助",
+      "涉及模型量化、KV Cache 等優化技術討論"
+    ],
+    "why_it_matters": "本地部署 AI 模型已成為節省 API 成本的選項。5t/s 是常見的性價比平衡點，了解此基準可幫助技術團隊評估本地部署是否滿足工作需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術玩家可在自己硬體上測試不同量化模型的實際速度，針對常見任務（程式碼補全、文件摘要）評估 5t/s 是否影響使用體驗，決定是否值得投入本地部署。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -336,6 +476,62 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/2410550?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-10-ai",
+    "title": "AI政策窗口已開：業界呼籲加強安全標準與政策行動",
+    "title_original": "The AI policy window is open. We need to act.",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/ai-policy-window",
+    "published_at": "2026-09-09T13:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 政策總監 Chris Lehane 投書指出，AI 能力快速提升之際，安全證據、共享標準與持久政策的需求比以往更迫切，呼籲產官學趁政策窗口開放時共同行動。此文為政策分析，非技術細節，對技術用戶的實際工作流程影響有限。",
+    "highlights": [
+      "文章性質為政策倡議，非產品或技術發布",
+      "強調安全標準與監管協調，適合政策關注者閱讀",
+      "對技術用戶日常工作影響較低，建議低優先處理",
+      "可作為理解 AI 監管趨勢的背景參考",
+      "不涉及 API、定價或功能變動，自動化角度切入點少"
+    ],
+    "why_it_matters": "政策走向可能影響未來模型可用性與跨境資料規範，長期技術決策者需關注，但對短期工作流程優化價值有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可略讀掌握監管趨勢，若涉及受監管產業（金融、醫療），建議追蹤相關合規要求以提前調整系統設計。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-10-gpt-6-astra-openai",
+    "title": "GPT-6 Astra：OpenAI 下一代商務智慧模型",
+    "title_original": "GPT-6 Astra: The next generation in intelligence for work",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+    "published_at": "2026-09-09T11:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 官方宣布 GPT-6 Astra 為其最具商業能力的模型，具備進階推論、電腦操作能力，以及更強的寫作與設計判斷力。這是官方公告，但細節如實際 API 定價與上線時間尚待確認。",
+    "highlights": [
+      "官方部落格發布，具公信力，但具體技術規格待後續揭露",
+      "主打商業場景，包含進階推論與電腦使用能力",
+      "強調寫作與設計判斷力提升，可能對創意工作流程有直接幫助",
+      "尚未公布 API 定價與可用區域，技術用戶需追蹤後續更新",
+      "可作為長遠模型路線圖參考，但近期仍以 GPT-4o 為主力"
+    ],
+    "why_it_matters": "GPT-6 Astra 的電腦使用能力與進階推論若兌現，將大幅影響企業自動化、RPA 與文件處理市場，技術架構規劃需預留整合空間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可先在 Playwright 或類似環境測試電腦操作型 Agent 架構，待 Astra 正式釋出後快速遷移評估其準確率與成本效益。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
