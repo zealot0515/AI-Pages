@@ -1,5 +1,200 @@
 [
   {
+    "id": "2026-09-10-a2a-wrapper-json-ai-a2a-agent",
+    "title": "a2a-wrapper：用 JSON 設定檔將 AI 後端快速轉為 A2A 規格 Agent",
+    "title_original": "shashikanth-gs/a2a-wrapper",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/shashikanth-gs/a2a-wrapper",
+    "published_at": "2026-09-10T15:29:56Z",
+    "category": "agent-skills",
+    "summary": "A2A Wrapper 是一套 TypeScript 工具，透過 JSON 設定檔即可將任意 AI 後端封裝成符合 Agent-to-Agent 協定規格的伺服器。支援 GitHub Copilot SDK、OpenCode、Claude、Codex 等主流後端，降低 Agent 互通整合的技術負擔。",
+    "highlights": [
+      "📦 只需 JSON 設定檔，無需繁瑣程式碼",
+      "🔗 符合 A2A 協定，理論上可與其他 A2A Agent 互通",
+      "🛠️ 支援 Copilot SDK、OpenCode、Claude、Codex 等",
+      "⭐ 37 stars，社群關注度逐步提升"
+    ],
+    "why_it_matters": "A2A 協定是實現跨 Agent 協作的關鍵。若 a2a-wrapper 能降低封裝門檻，技術團隊可更快速實驗多 Agent 協作場景，減少重複造輪子。",
+    "automation_angle": null,
+    "automation_angle_zh": "用 a2a-wrapper 將內部 LLM API 封裝為 A2A Agent，測試與其他 A2A 相容工具的任務委派流程，評估協定是否真的能在實際專案落地。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/124822098?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-10-chrome-bridge-cli-ai-agent-chrome",
+    "title": "chrome-bridge：零依賴 CLI 讓 AI Agent 直接駕駛真實 Chrome",
+    "title_original": "siropkin/chrome-bridge",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/siropkin/chrome-bridge",
+    "published_at": "2026-09-10T15:23:35Z",
+    "category": "agent-skills",
+    "summary": "Chrome Bridge 是一款 CLI 工具，可讓任何 AI Agent（Claude、Kimi、Qwen、DeepSeek、GLM 等）直接控制已登入的真實 Chrome 分頁，無需重啟瀏覽器或架設 MCP 伺服器，支援無障礙快照、元素定位、截圖、網路封包擷取。",
+    "highlights": [
+      "🔧 零額外依賴，直接驅動已開啟的 Chrome",
+      "🔐 保留已登入 session，無需重新登入網站",
+      "📸 提供 CDP 截圖、網路封包監聽、A11y 快照",
+      "🤖 模型agnostic，支援主流 Agent 框架"
+    ],
+    "why_it_matters": "瀏覽器自動化是 AI Agent 常見需求，傳統方案需架設 Selenium 或 MCP 伺服器。chrome-bridge 以極簡 CLI 降低門檻，值得技術宅評估是否能取代現有流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 CLI 後，撰寫一個腳本讓 Claude Desktop 或其他 Agent 自動登入特定網站抓取資料，比較與 Selenium 的穩定性與設定成本差異。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/39134915?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-10-opc-ua-mcp-ai",
+    "title": "OPC UA MCP 伺服器：讓 AI 代理直連工業控制系統",
+    "title_original": "midhunxavier/OPCUA-MCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/midhunxavier/OPCUA-MCP",
+    "published_at": "2026-09-10T15:22:43Z",
+    "category": "open-source-ai",
+    "summary": "midhunxavier 開源專案，透過 OPC UA 協定將 AI 代理連接至 SCADA、PLC 等工業控制系統。星數 18，Python 實作，今日可部署測試。",
+    "highlights": [
+      "支援 OPC UA 標準，相容主流工業自動化設備",
+      "MCP 協定讓 Claude、Cursor 等 AI 工具可直接操控工控端點",
+      "Python 生態，便於整合至現有 Python AI 應用",
+      "可用於工廠自動化、IoT 監控、AI 數據採集等場景",
+      "星數偏低但具體工業應用價值明確"
+    ],
+    "why_it_matters": "傳統 AI 代理難以觸及工業現場，此專案打通最後一哩路，技術宅可快速實作 AI 控制真實物理設備的原型。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 OPC UA-MCP 部署至本地端後，可讓 Claude 透過自然語言查詢 PLC 狀態或下達控制指令，實現對工業設備的即時管理。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/26596421?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-10-openai-chatgpt-work-data-agent",
+    "title": "OpenAI 推出 ChatGPT Work Data Agent：用自然語言操作公司資料",
+    "title_original": "Now everyone can put data to work",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/put-data-to-work",
+    "published_at": "2026-09-10T15:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 在 ChatGPT Work 中上線「Data Agent」功能，用戶可透過自然語言連接公司資料庫、生成分析洞察、製作互動式儀表板。這是 OpenAI 正式進軍企業資料分析助理領域的訊號。",
+    "highlights": [
+      "🏢 聚焦企業場景，需有 ChatGPT Work 訂閱",
+      "💬 自然語言驅動，降低 BI 工具使用門檻",
+      "📊 可生成互動式儀表板，預期支援常見資料來源",
+      "⚠️ 具體支援的資料庫類型與隱私政策需進一步確認"
+    ],
+    "why_it_matters": "若 Data Agent 能直接對接企業內部資料，將衝擊現有 BI 工具（如 Tableau、PowerBI）的市場。技術決策者需評估是否將 AI 原生分析納入工具鏈。",
+    "automation_angle": null,
+    "automation_angle_zh": "若有 ChatGPT Work 帳號，立即測試連接一個測試資料庫，用自然語言查詢並要求生成儀表板，實測資料安全與輸出品質，評估能否取代或輔助現有 BI 流程。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-10-credit-genie-openwiki",
+    "title": "Credit Genie 用 OpenWiki 自動化程式碼文件維護",
+    "title_original": "How Credit Genie keeps codebase docs fresh with OpenWiki",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-credit-genie-uses-openwiki-to-keep-codebase-knowledge-fresh-searchable-and-automated",
+    "published_at": "2026-09-10T13:00:01+00:00",
+    "category": "agent-skills",
+    "summary": "Credit Genie 案例展示如何用 OpenWiki 自動維護 repo 文件，讓工程師與 AI 代理都能快速檢索最新程式碼脈絡，減少知識傳遞損耗。",
+    "highlights": [
+      "OpenWiki 可自動生成並更新程式碼文件",
+      "文件可供 AI 代理查詢，提升代理工作質量",
+      "減少手動維護文件的負擔",
+      "有助降低新進工程師上手門檻",
+      "LangChain 官方部落格背書"
+    ],
+    "why_it_matters": "程式碼文件過時是常見痛點，OpenWiki 的自動化方式可大幅減少文件維護成本，讓 AI 代理能更有效率地輔助開發。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可將 OpenWiki 整合至 CI/CD 流程，每次 commit 自動更新相關文件，確保文件永遠與程式碼同步。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-10-deepseek-v4-1-flash",
+    "title": "DeepSeek V4.1 Flash 版本釋出影片流出，引發開源社群討論",
+    "title_original": "Deepseek V4.1 Flash Release Video [Made with Deepseek V4.1 Flash]",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcgdz8/deepseek_v41_flash_release_video_made_with/",
+    "published_at": "2026-09-10T11:23:39+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 出現 DeepSeek V4.1 Flash 版本的實際執行影片，展示快速推論能力與輸出品質，但尚未有官方新聞稿或技術文件佐證。此訊息源於社群分享，細節與官方能力可能存在落差。",
+    "highlights": [
+      "影片展示 DeepSeek V4.1 Flash 的生成速度",
+      "社群反應多為正面，但缺乏官方技術規格",
+      "Flash 版本通常代表輕量化、高速推論定位",
+      "尚未確認開源許可與模型權重公開時間",
+      "Reddit 來源屬非官方，準確度待驗證"
+    ],
+    "why_it_matters": "若 DeepSeek V4.1 Flash 確實釋出且具備高效能，將為需要本地快速推論的技術用戶提供新的開源選項，尤其對邊緣裝置與延遲敏感場景有價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方正式釋出後，可透過 Hugging Face 或官方途徑取得權重，在本地硬體上測試推論速度，評估是否可取代商業 API 處理低延遲自動化腳本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-10-reddit-tts",
+    "title": "Reddit 社群討論：本地部署 TTS 模型推薦",
+    "title_original": "What TTS models do you recommend as today?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wceiz6/what_tts_models_do_you_recommend_as_today/",
+    "published_at": "2026-09-10T09:46:36+00:00",
+    "category": "hot-topics",
+    "summary": "LocalLLaMA 討論區有用戶詢問當前推薦的本地 TTS 模型，內容為社群經驗分享，涉及 Coqui XTTS 等開源專案比較。",
+    "highlights": [
+      "社群自發討論，非官方發布",
+      "提及 Coqui XTTS、XTTSv2 等模型",
+      "內容反映用戶對本地 TTS 的需求",
+      "資訊未經驗證，需自行測試"
+    ],
+    "why_it_matters": "反映技術社群對本地部署 TTS 方案的關注，但缺乏可驗證的技術突破或產品變化，參考價值有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可將其作為選型起點，但需自行在實際硬體上 benchmark 各模型的速度與品質。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-10-ai",
     "title": "閉源AI對生物研究不友善，用戶轉向開源權重模型",
     "title_original": "Closed AI doesn't like biological research, user turns to open weight models",
@@ -25,6 +220,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-10-openai-ai",
+    "title": "OpenAI 擴大政府AI補助方案，含免費授權與網路防禦服務",
+    "title_original": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/expanding-ai-access-us-government",
+    "published_at": "2026-09-10T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 與 GSA 合作，向美國聯邦、州、地方及部落政府提供零授權費、50% 用量折扣，並擴展網路防禦支援，目標擴大政府 AI 採用。",
+    "highlights": [
+      "符合資格政府單位可獲 $0 授權費",
+      "API 用量享 50% 折扣",
+      "新增網路防禦功能強化政府資安",
+      "由 GSA 協調簡化採購流程",
+      "需透過 GSA 確認資格與申請途徑"
+    ],
+    "why_it_matters": "此為 OpenAI 官方政策公告，影響政府相關 AI 預算與採購策略。開發者若瞄準政府市場，可評估成本結構變化。",
+    "automation_angle": null,
+    "automation_angle_zh": "若企業正參與政府 AI 專案，可利用此補助方案降低 API 成本並提升提案競爭力，建議聯繫 GSA 確認資格。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-09-10-calif-research-ai-weworm",
@@ -22495,6 +22718,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-10-deepseek-anthropic-claude-code",
+    "title": "DeepSeek 公開挑戰 Anthropic Claude Code 的策略佈局",
+    "title_original": "DeepSeek Publicizes Efforts to Challenge Anthropic’s Claude Code - Bloomberg.com",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbVR5Qm1Mb1dzd1BRNzUxYjlnQlhPbmZVV1l3STR0UDV5d19VaDloOTdXUGp2LWNJNk5RVTdrS04zTUw5aEZQUnRXSkRLUXpPUUc2OTdGMHZ2cmVKejNLek56SlhDVG1IbnBoZzRpMFNOa1FvbDVXMDVmemFXVnZDTUxkc2NfQ0thRm9pcVpDZ1FMTWNMWnlud0plN1p5NmhVY0JHdnYzRzU1OVJyNms1T1FlZFlYZw?oc=5",
+    "published_at": "2026-08-12T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "據 Bloomberg 報導，DeepSeek 正積極公開其對抗 Anthropic Claude Code 的技術與產品策略，試圖在 AI 程式碼生成市場中爭取開發者社群的支援。此舉顯示中國 AI 實驗室正以更主動的行銷與開源策略，與美國主流產品正面競爭。",
+    "highlights": [
+      "DeepSeek 官方開始公開談論其程式碼生成能力的對標策略",
+      "目標開發者社群為主要攻堅對象",
+      "策略包含開源模型與技術文件的強化",
+      "與 Claude Code 的差異化在定價與本地部署彈性",
+      "此趨勢可能加速程式碼生成賽道的價格競爭"
+    ],
+    "why_it_matters": "對技術用戶而言，主要雲端程式碼助理的競爭加劇意味著更多替代方案與議價空間，特別是對需要本地部署或成本敏感型專案的人。",
+    "automation_angle": null,
+    "automation_angle_zh": "若 DeepSeek 的程式碼模型能對標 Claude Code，可評估其 API 價格與本地部署版本，用於取代或備援現有付費程式碼助理，降低團隊工具成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-08-12-openai-ai",
     "title": "OpenAI 研究：企業如何將 AI 從輔助升級至執行",
     "title_original": "From assistance to execution: How enterprises put AI to work",
@@ -35180,6 +35431,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/12796568?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-10-ai",
+    "title": "美國 AI 巨頭遭免費試用漏洞被大規模濫用，損失嚴重",
+    "title_original": "没付钱先開會員？這家美国AI巨头被羊毛党“薅秃了” - 腾讯新闻",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9OMFE0MDc0X2NsbjlCZFpzMnFPbno5dEpQM0lIdGd5VGpwQkprQm8zY1JCQ2l3MkNIbnBQLVpGN2ZZa2k0YkJSYndxYlVNeE5NcGJScF9KSmIxcEZXSVJ2aVBmSmhZNHVLTnExRWRaLTJuSmFlQmdv?oc=5",
+    "published_at": "2026-07-27T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "騰訊新聞報導，某美國 AI 服務因免費試用機制設計缺陷，遭用戶以未付款、先開會員的方式大規模「薅羊毛」，導致企業收益受損。此事件反映出 AI 訂閱服務在風控機制上的普遍漏洞。",
+    "highlights": [
+      "漏洞允許用戶繞過付款即可啟用付費功能",
+      "涉及會員制度與試用期的邏輯缺陷",
+      "此類事件並非單一廠商問題，業界常見",
+      "反映 AI 服務在風控與身份驗證上的不足",
+      "對用戶而言，了解此類漏洞可能涉及法律風險"
+    ],
+    "why_it_matters": "對技術用戶與開發者而言，此類事件揭示了 AI 服務付款流程與 API 呼叫驗證的實作細節，可用於理解如何正確整合付費牆與防止資源濫用的系統設計。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發自己的 AI 服務時，可借鑒此案例強化付款閘道與 API 金鑰管理的風控設計，避免類似漏洞導致收益損失。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
