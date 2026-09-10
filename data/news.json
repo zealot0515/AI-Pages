@@ -1,5 +1,175 @@
 [
   {
+    "id": "2026-09-10-repotracer-codex-2-7-rust-mcp",
+    "title": "repotracer：讓 Codex 配額延長 2.7 倍的 Rust 原生 MCP 工具",
+    "title_original": "repotracer/repotracer",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/repotracer/repotracer",
+    "published_at": "2026-09-10T20:13:49Z",
+    "category": "agent-skills",
+    "summary": "repotracer 是 Rust 撰寫的開源 MCP 伺服器，透過 Luna 搜尋與 Sol 編碼的分工設計，聲稱可延長 OpenAI Codex 訂閱使用時長達 2.7 倍。35 stars，適合追求成本優化的技術團隊評估。",
+    "highlights": [
+      "Rust 語言實作，性能與記憶體效率佳",
+      "Luna 專責搜尋、Sol 專責編碼，分工明確",
+      "原生支援 OpenAI Codex MCP 協定",
+      "開源專案，stars 數 35，社群活跃度有限",
+      "若 claim 屬實，可顯著降低 Codex API 消耗成本"
+    ],
+    "why_it_matters": "Codex 為付費服務，成本優化工具有實際價值。repotracer 的分工設計理念值得關注，但需實測驗證 2.7x 節省 claim 的真實效果。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在測試環境部署 repotracer，比較相同任務下 Codex 配額消耗差異，計算實際成本節省幅度與部署維護成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/320183215?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-10-helio-mcp",
+    "title": "Helio：MCP 代理的治理代理層，管控跨工具花費與政策執行",
+    "title_original": "gethelio/helio",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/gethelio/helio",
+    "published_at": "2026-09-10T20:04:38Z",
+    "category": "agent-skills",
+    "summary": "Helio 是專為 MCP（Model Context Protocol）設計的治理代理，無需修改現有代理程式碼或 MCP 伺服器，即可強制執行政策、設置跨工具累計花費上限、路由審批請求、驗證證據及完整審計每次工具呼叫。適用於企業環境中對 AI 代理行為的安全合規管控。",
+    "highlights": [
+      "政策執行：定義並強制代理可呼叫哪些工具及頻率限制",
+      "花費上限：跨多個 MCP 伺服器設置累計 API 消耗上限",
+      "審批路由：特定操作可觸發人工審批流程",
+      "證據檢查：驗證工具呼叫的輸入輸出是否符合預期",
+      "完整審計日誌：記錄所有代理工具呼叫以供合規審查"
+    ],
+    "why_it_matters": "隨著 AI 代理在工作流程程中越來越普及，企業需要治理層面控制代理的工具存取與 API 花費。Helio 提供無侵入式的解決方案，降低部署門檻同時滿足安全合規需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可在本地測試環境架設 Helio，連接現有的 Claude/GPT 代理，測試政策執行與花費追蹤功能，評估是否可整合至企業 CI/CD 流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/286050813?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-10-oui-1-ui",
+    "title": "OUI-1：專門生成客製化 UI 元素的本地模型",
+    "title_original": "OUI-1: a model that generates bespoke UI elements",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcqa03/oui1_a_model_that_generates_bespoke_ui_elements/",
+    "published_at": "2026-09-10T17:46:43+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 社群分享了一款名為 OUI-1 的模型，專門用於生成客製化的 UI 界面元素。該模型可在本地部署運行，目標是幫助開發者快速產生符合特定需求的 UI 組件。詳細的模型規格與訓練數據尚未完全揭露。",
+    "highlights": [
+      "模型專注於 UI 元素生成任務，非通用型模型",
+      "可在本地運行，保護設計素材隱私",
+      "目前資訊主要來自 Reddit 社群討論，未有官方文件",
+      "具體效能數據與 Benchmark 尚未公布",
+      "可能整合至現有前端開發工作流程中"
+    ],
+    "why_it_matters": "對於需要大量客製化 UI 的前端開發者而言，若此模型能在本地高效生成 UI，可減少對商業 AI 設計工具的依賴並節省成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可嘗試在本地環境部署該模型，測試其生成按鈕、表單、卡片等常見 UI 組件的質量與速度，評估是否能整合至現有前端自動化流程中。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-10-github-copilot-mai-code-1-flash",
+    "title": "GitHub Copilot 正式廢除 MAI-Code-1-Flash 模型",
+    "title_original": "MAI-Code-1-Flash deprecated",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
+    "published_at": "2026-09-10T16:54:01+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 宣布於 2026 年 9 月 10 日正式廢除 MAI-Code-1-Flash 模型，涵蓋 Copilot Chat、內聯編輯、Ask 模式、Agent 模式及程式碼補全等所有體驗。此模型原為內部實驗性模型，廢除後使用者將自動切換至建議的替代模型。",
+    "highlights": [
+      "廢除範圍覆蓋所有 Copilot 體驗：Chat、內聯、Ask、Agent、補全",
+      "廢除日期為 2026 年 9 月 10 日，影響所有 Copilot 訂閱用戶",
+      "官方建議替代模型（具體需查閱原文）",
+      "此為模型整合而非單純停產，反映 Copilot 底層模型策略調整",
+      "建議開發者檢查 Copilot 設定確認當前使用的模型版本"
+    ],
+    "why_it_matters": "MAI-Code-1-Flash 是 Copilot 生態中的實驗性選項，其廢除意味 GitHub 正在精簡模型組合，提升穩定性。依賴此模型的開發者需重新測試程式碼補全與對話品質，確認替代方案是否滿足需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶應立即檢查 Copilot 設定，若曾明確指定 MAI-Code-1-Flash，需重新比對替代模型的補全速度與準確率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-10-codex-chatgpt",
+    "title": "研究團隊用 Codex 與 ChatGPT 在基因組中搜尋抗菌分子候選物",
+    "title_original": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+    "published_at": "2026-09-10T16:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "César de la Fuente 實驗室利用 Codex 與 ChatGPT，在活體與滅絕生物的基因組資料庫中系統性搜尋抗菌肽候選物。這套流程結合基因組檢索、ML 篩選與 AI 輔助序列分析，旨在對抗抗藥性細菌感染。研究團隊已識別出數百種候選分子。",
+    "highlights": [
+      "AI 輔助基因組挖掘：從大量基因組資料中快速定位抗菌肽基因",
+      "結合 ML 篩選：使用機器學習模型預測候選分子的抗菌活性",
+      "涵蓋活體與滅絕物種：擴展分子多樣性與可能的結構新颖性",
+      "對抗抗藥性病原：研究目標為發現新型抗生素以解決臨床缺口",
+      "程式碼生成加速生物資訊分析：Codex 自動產生基因組分析腳本"
+    ],
+    "why_it_matters": "此案例展示 AI 在科學發現中的實際應用價值。透過 Codex 自動化生物資訊流程，研究者能以更低成本探索更大的化學空間，縮短新型抗生素發現週期。",
+    "automation_angle": null,
+    "automation_angle_zh": "生物資訊工程師可參考其程式碼生成與資料庫查詢流程，評估將 Codex 整合至現有基因分析管線的可行性。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-10-google-search",
+    "title": "Google Search 推出跑步訓練輔助功能",
+    "title_original": "3 ways to prep for your next big race with Search",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+    "published_at": "2026-09-10T16:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google AI Blog 發布文章介紹如何利用 Google Search 協助跑者備賽，包括賽事報名提醒、個人化訓練計劃推薦及時跑步建議等功能。這屬於 Google 搜尋平台的產品應用更新。",
+    "highlights": [
+      "並非底層模型或 API 更新，屬於產品功能展示",
+      "內容偏向一般消費者使用情境，非技術開發者導向",
+      "文章本質為 Google 官方產品行銷",
+      "未涉及新技術突破或開源工具發布",
+      "編輯評分偏低，實用性有限"
+    ],
+    "why_it_matters": "對技術開發者而言，此資訊缺乏直接實用性，屬於 Google 搜尋功能的市場推廣內容，不涉及 API 或開發工具變動。",
+    "automation_angle": null,
+    "automation_angle_zh": "此項目無自動化價值，技術人員如需相關功能可透過 Google Search API 自行構建客製化方案，而非依賴官方展示的功能。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-10-a2a-wrapper-json-ai-a2a-agent",
     "title": "a2a-wrapper：用 JSON 設定檔將 AI 後端快速轉為 A2A 規格 Agent",
     "title_original": "shashikanth-gs/a2a-wrapper",
@@ -250,6 +420,34 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-09-10-openai-chatgpt-for-financial-services-gpt-6-astra",
+    "title": "OpenAI 推出 ChatGPT for Financial Services：內建金融數據的 GPT-6 Astra 方案",
+    "title_original": "Introducing ChatGPT for Financial Services",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/introducing-chatgpt-financial-services",
+    "published_at": "2026-09-10T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布面向金融服務業的 ChatGPT 版本，整合內建金融數據與 GPT-6 Astra 模型，瞄準研究、建模與客戶文件生成場景。此為 OpenAI 垂直領域解決方案，反映 AI 落地行業化的趨勢。",
+    "highlights": [
+      "整合金融領域內建數據，非通用模型",
+      "使用 GPT-6 Astra 作為底層引擎",
+      "瞄準研究分析、建模、客戶文件生成三大場景",
+      "屬垂直領域產品，非通用對話工具",
+      "反映 AI 供應商佈局金融等高價值行業的策略"
+    ],
+    "why_it_matters": "垂直領域 AI 方案興起代表通用模型紅海競爭加劇，若金融版方案被企業採用，可能衝擊現有金融科技工作流程程與工具鏈。",
+    "automation_angle": null,
+    "automation_angle_zh": "金融科技從業人員可關注其 API 可用性與定價，評估是否能整合進現有研究與客戶報告自動化流程，替代或輔助現有方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-10-calif-research-ai-weworm",
     "title": "Calif Research 展示 AI 輔助漏洞研究：WeWorm 零點擊漏洞利用案例",
     "title_original": "Quoting Calif Research",
@@ -304,6 +502,62 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-10-openai-agents-api-codex-agent",
+    "title": "OpenAI 發布 Agents API：雲端託管的 Codex 驅動 Agent 服務",
+    "title_original": "Introducing the Agents API",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/introducing-the-agents-api",
+    "published_at": "2026-09-10T00:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "OpenAI 正式推出 Agents API，提供雲端託管的 Agent 執行環境，底層以 Codex 為核心引擎，支援編排、長時對話與工具呼叫。開發者無需自建基礎設施即可快速部署雲端 Agent。",
+    "highlights": [
+      "雲端託管，無需自行維護 Agent 基礎設施",
+      "基於 Codex 引擎，支援長時間運行會話",
+      "內建工具呼叫與編排機制",
+      "可對接 OpenAI 生態系的既有模型與工具",
+      "瞄準快速建構與部署 AI Agent 的開發者"
+    ],
+    "why_it_matters": "降低 Agent 部署門檻讓更多應用能快速落地，但需關注定價與資料隱私政策，評估是否適合企業內部工作流程的合規需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可先用最小範例測試 Agents API 的工具呼叫與長時對話能力，評估其是否能取代現有的自架或第三方 Agent 方案。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-10-openai-api-gpt-live-1",
+    "title": "OpenAI API 正式支援 GPT-Live-1 全雙工語音對話",
+    "title_original": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+    "published_at": "2026-09-10T00:00:00+00:00",
+    "category": "new-models",
+    "summary": "GPT-Live-1 模型正式登陸 OpenAI API，提供自然的全雙工語音對話能力，支援自訂音色、增強的指令遵循，以及電話語音整合。此更新讓開發者可將類似的互動式語音體驗直接嵌入應用，無需自行建構複雜的語音管線。",
+    "highlights": [
+      "全雙工對話：模型可即時聽說同步，無需等待使用者發言完成",
+      "自訂音色（Custom Voices）：可直接在 API 中指定聲音風格",
+      "電話語音支援：可對接電話系統，適用客服或電話代理場景",
+      "更強的指令遵循：減少語音指令被誤解或忽略的問題",
+      "提供 8000 tokens 上下文窗口，支援長對話情境"
+    ],
+    "why_it_matters": "這是繼 Realtime API 之後，OpenAI 在語音互動領域的重要一步。對於需要自然對話介面的客服、輔導或遊戲應用，直接呼叫 API 比自建語音模型更具成本與品質優勢。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可立即在 API Playground 測試 GPT-Live-1 的語音對話延遲與指令遵循表現，評估是否可取代現有的 Whisper + LLM 串接方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-09-10-simon-willison-gpt-6-astra-blender-3d",
@@ -34596,6 +34850,34 @@
       "ai-deals",
       "rss",
       "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-10-2026-ai",
+    "title": "2026 年開源 AI 模型評測出爐：程式碼、代理與推論能力全面比較",
+    "title_original": "Best Open-Source AI Models for Coding, Agents & Reasoning (2026) - Bleap",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YY3BKd0pfSU92dzF4UWMwTzVoT01WZHFabWdNT1pBd3hiRTEyYW80TDNTUmtYaFZORlh3bWlnZFpNNGlfVnVnbndsOXNzNjJicG1LR3hpS0FneXc5Q1RldzhIZ3h0bDdhNzVGRGNsYWM?oc=5",
+    "published_at": "2026-07-28T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Bleap 發布 2026 年開源 AI 模型綜合評測報告，橫跨程式碼生成、AI 代理建構與推論能力三大維度。評測涵蓋主流開源模型如 Mistral、Qwen、DeepSeek 等系列的最新版本，並提供量化Benchmark數據供開發者參考模型選型。",
+    "highlights": [
+      "三大評測維度：程式碼生成（HumanEval/MBPP）、代理任務（GAIA/AgentBoard）、推論（ MATH/ARC-AGI）",
+      "涵蓋 Mistral、Qwen、DeepSeek、Llama 等主流開源模型家族",
+      "提供延遲與記憶體需求等部署指標",
+      "分析不同模型在長上下文任務中的表現衰減",
+      "針對本地部署 vs API 调用場景提供差異化建議"
+    ],
+    "why_it_matters": "開源模型的快速迭代使開發者有更多本地部署選擇。此報告提供統一的評測基準，幫助技術人員根據實際任務需求選擇性價比最高的模型，而非盲目追逐最新發布。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載報告中的Benchmark數據，根據自身工作負載（如長程式碼補全 vs 快速推論）選擇合適的開源模型在本地或自有伺服器部署。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
