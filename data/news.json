@@ -1,5 +1,146 @@
 [
   {
+    "id": "2026-09-11-fast-file-search-ai-mcp",
+    "title": "fast_file_search：AI代理極速檔案搜尋MCP工具",
+    "title_original": "quangdang46/fast_file_search",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/quangdang46/fast_file_search",
+    "published_at": "2026-09-11T09:49:43Z",
+    "category": "agent-skills",
+    "summary": "fast_file_search是一款Rust核心的極速檔案搜尋工具，提供MCP伺服器整合，可接入Claude Code、Cursor、Codex等編輯器。支援frecency排序與tree-sitter符號索引，在長時運行進程中效能優於ripgrep與fzf。",
+    "highlights": [
+      "Rust核心確保高效能與低記憶體佔用",
+      "支援MCP協定，可無縫接入主流AI程式碼助理",
+      "frecency排序結合頻率與最近使用權重",
+      "tree-sitter符號索引加速程式碼結構搜尋",
+      "在長進程中超越ripgrep與fzf的搜尋速度"
+    ],
+    "why_it_matters": "檔案搜尋是開發者日常工作的高頻需求，fast_file_search將AI代理友善的MCP介面與Rust高效能結合，可顯著提升程式碼庫探索效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "將fast_file_search整合至Cursor或Claude Code工作流程，自動化大型程式碼庫的符號定位與語義搜尋，減少手動查找時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/91641923?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-nex-n2-5-pro-407gb",
+    "title": "Nex N2.5 Pro 407GB 版本正式發布",
+    "title_original": "Nex N2.5 Pro (407GB) released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdbd0b/nex_n25_pro_407gb_released/",
+    "published_at": "2026-09-11T09:31:48+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群宣布 Nex N2.5 Pro 模型正式發布，模型體積為 407GB。這是近期又一個突破 400GB 大關的本地大型語言模型，代表開源社群在大型模型本地化部署方面持續有新的進展。",
+    "highlights": [
+      "Nex N2.5 Pro 模型大小達 407GB",
+      "屬於本地部署的大型語言模型",
+      "開源社群持續推進大模型本地化",
+      "對 VRAM 需求極高，需多卡或多記憶體配置",
+      "具體效能表現待社群進一步測試分享"
+    ],
+    "why_it_matters": "407GB 模型規模顯示本地 AI 能力持續增強，但也帶來硬體資源挑戰。對於有高階硬體的技術人員，這代表更強大的本地推論能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "若擁有足夠 VRAM，可下載 Nex N2.5 Pro 進行本地推論測試，評估其對自動化工作流程程（如大量文字處理、程式碼生成）的幫助。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-ai",
+    "title": "社區呼籲：AI基準測試應包含代理運行時效能評估",
+    "title_original": "Are we missing a benchmark for agent runtimes, not just models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wd99iw/are_we_missing_a_benchmark_for_agent_runtimes_not/",
+    "published_at": "2026-09-11T07:28:28+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit LocalLLaMA社群提出當前AI基準測試僅衡量模型本身能力，缺乏代理運行時（agent runtime）的評估維度。討論指出不同代理框架的延遲穩定性、工具調用效率與錯誤恢復機制各有差異，現有基準無法反映這些差異。",
+    "highlights": [
+      "現有基準（如MMLU、HellaSwag）僅測試模型能力",
+      "代理運行時效能、工具調用延遲未被納入評估",
+      "不同代理框架（LangChain、AutoGPT等）表現差異大",
+      "錯誤恢復機制與長期任務穩定性缺乏標準測試",
+      "社群認為運行時評估對實際應用選型更關鍵"
+    ],
+    "why_it_matters": "隨著AI代理應用普及，運行時效能將成為影響用戶體驗的關鍵因素。此討論反映技術社區對更全面評估框架的需求，選型時應同時考量模型能力與框架穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立自有的代理運行時基準測試，評估目標框架在長時間任務、工具串接失敗恢復與並發處理下的表現，作為技術選型依據。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-iphone-18-pro-ai",
+    "title": "南韓三大電信業者搶攻 iPhone 18 Pro AI 服務商機",
+    "title_original": "苹果的iPhone18 Pro和iPhone18 Pro Max將于12日開始预售。 對此，三家移动通信公司展開了吸引使用者的竞争。 不仅是终端折扣和二手手机补偿,還推出了人工智慧(AI)服务和内容訂閱权、终端更换程序等,開始吸引iPhone顾客。 - 매일경제",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0xRmlrUUxCai1mdWdyaUJ6Tjd6OHZDbmVmcjE3bWxZeFBrYTJHVFZMNDF5TXBpRVJJa3BFR2NyOFpRRDZEYnR6cDZvOA?oc=5",
+    "published_at": "2026-09-11T05:34:58+00:00",
+    "category": "ai-deals",
+    "summary": "iPhone 18 Pro 與 iPhone 18 Pro Max 即將開始預購，南韓三家移動通信公司展開用戶爭奪戰。除傳統的終端折扣與二手手機補償外，各家紛紛推出 AI 服務、內容訂閱權及終端更換程式等附加價值，試圖吸引消費者青睞。",
+    "highlights": [
+      "iPhone 18 Pro 系列在南韓展開預購",
+      "電信商祭出 AI 服務與內容訂閱等差異化策略",
+      "終端折扣與二手手機補償仍是主要誘因",
+      "電信 AI 服務整合成為新戰場",
+      "消費者有多元方案可選擇"
+    ],
+    "why_it_matters": "此為消費市場動態，反映 AI 服務正逐步整合進電信生態系。對於一般用戶有一定參考價值，但對技術開發者的直接幫助有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注電信商提供的 AI 服務具體內容，評估是否有 API 或第三方整合可能性，可作為手機端 AI 應用的參考案例。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-datasette-1-0a39-0-65-4",
+    "title": "Datasette 安全更新：1.0a39 與 0.65.4 修補多個漏洞",
+    "title_original": "Datasette 1.0a39 and 0.65.4 security releases",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/11/datasette-security/",
+    "published_at": "2026-09-11T03:27:16+00:00",
+    "category": "agent-skills",
+    "summary": "Datasette發布1.0a39與0.65.4兩個安全修補版本，修復公開實例中混合公有與私有表格的漏洞。開發團隊透露此次審計由Claude Fable 5.1、GPT-5.6、GPT-6 Astra共同輔助發現多個細微漏洞，並已將AI安全審計納入開發流程。",
+    "highlights": [
+      "修復公有與私有表格混合存取的權限漏洞",
+      "AI輔助審計發現傳統方法可能忽略的細微漏洞",
+      "開發團隊採用一人測試、一人實作的人機協作模式",
+      "已將AI安全審計列為標準開發流程環節",
+      "同時支援stable 0.65.x與alpha 1.0a兩版本"
+    ],
+    "why_it_matters": "此案例展示AI模型在安全審計中的實用價值，技術用戶可借鑒其人機協作模式提升代碼安全審查效率，而非完全依賴AI。",
+    "automation_angle": null,
+    "automation_angle_zh": "將AI輔助安全審計整合至CI/CD流程，讓Claude或GPT對新Pull Request進行自動化安全掃描，參考Datasette的人機分工模式。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-09-11-yue2-3b",
     "title": "YuE2-3B：新開源音樂生成模型",
     "title_original": "New Music Model YuE2-3B Released!",
@@ -74,6 +215,34 @@
     "automation_angle_zh": "架構師應重新評估新專案的技術棧選擇：若AI Agent能承擔80%跨平台翻譯工作，則原生開發的長期維護優勢可能重新勝出。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-512gb-flash",
+    "title": "本地模型進入 512GB 時代：Flash 模型容量破新高",
+    "title_original": "I find it funny that a flash model is now 512GB",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcvmuo/i_find_it_funny_that_a_flash_model_is_now_512gb/",
+    "published_at": "2026-09-10T20:57:40+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 討論區有網友指出，如今所謂的「Flash」模型已達到 512GB 容量。相較傳統意義上的「Flash」輕量模型，這個容量大小引發社群熱議，顯示本地部署模型的體積正快速膨脹，對硬體需求也隨之飆升。",
+    "highlights": [
+      "Flash 模型定義正在被重新詮釋，512GB 已成新標準",
+      "本地部署模型體積持續增大，硬體門檻提高",
+      "引發技術社群對於模型尺寸膨脹的反思",
+      "對 GPU VRAM 需求將進一步提升",
+      "可能影響邊緣裝置部署策略"
+    ],
+    "why_it_matters": "模型體積的急速膨脹代表本地 AI 能力的突破，但也意味著更高的硬體成本與進入門檻。技術人員需要重新評估模型選擇策略，權衡效能與資源消耗。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估本機硬體能否承載 512GB 模型，若 VRAM 不足可考慮量化壓縮或選擇較小變體以維持自動化工作流程程運作。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -5111,6 +5280,34 @@
     "automation_angle_zh": "盤點目前自建推論伺服器的實際使用率，若閒置率超過 50% 可考慮遷移至雲端 API，同時評估量化模型（如 Qwen2.5-72B-Instruct）作為省成本的替代方案。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-2026-llm-api",
+    "title": "2026 年五大免費 LLM API 提供者整理",
+    "title_original": "5 Free LLM API Providers You Can Use in 2026 - KDnuggets",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9tTnZpb2RLWEZ1VjBkc1RycEVwUC1neW5GeWkwa1VYWVJNU0ZzLXZPcTh3d3k4Vm1ONkpQTHE1R0VYOWhwdHhuU3ZDdmpERXVPWDU0VUdPM1B5T1kxVXhETE52eGVMbHRHYkRxVW1rS1lOczN2dm5nam9R?oc=5",
+    "published_at": "2026-09-04T14:08:34+00:00",
+    "category": "ai-deals",
+    "summary": "KDnuggets 整理了 2026 年可使用的五個免費 LLM API 提供者，包含主要 AI 雲端服務商的免費層級方案。這份清單可幫助開發者降低成本，選擇適合的 API 供應商進行專案開發或個人實驗。",
+    "highlights": [
+      "收錄五家具備免費額度的 LLM API 服務商",
+      "涵蓋主流雲端 AI 平台與新興提供者",
+      "可用於原型開發、學習或小型專案",
+      "需注意免費額度的用量限制與速率限制",
+      "部分服務可能有地區或用途限制"
+    ],
+    "why_it_matters": "對於技術開發者而言，免費 LLM API 可大幅降低初期開發成本與試錯門檻。選擇合適的提供者能優化工作流程程並節省預算。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用免費額度建立自動化腳本或建置 AI 輔助開發流程，例如自動化測試報告生成或文件摘要工具。",
+    "tags": [
+      "ai-deals",
       "rss",
       "en"
     ],
