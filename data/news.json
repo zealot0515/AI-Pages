@@ -1,5 +1,229 @@
 [
   {
+    "id": "2026-09-11-thread-keeper-mcp-ai-agent",
+    "title": "thread-keeper：一套 MCP 伺服器串聯多 AI Agent 共享記憶",
+    "title_original": "po4erk91/thread-keeper",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/po4erk91/thread-keeper",
+    "published_at": "2026-09-11T20:02:40Z",
+    "category": "agent-skills",
+    "summary": "thread-keeper 是一款多 Agent 共享腦專案，以單一 MCP 伺服器形式橫跨 Claude Code/Desktop、Codex、Gemini、Copilot、VS Code，實現跨工具記憶同步與自我改進的技能迴路。",
+    "highlights": [
+      "跨多主流 AI 工具共享對話上下文",
+      "單一 MCP 伺服器部署簡便",
+      "支援跨 session 記憶保持",
+      "可讓多個 Agent 互相傳遞任務狀態"
+    ],
+    "why_it_matters": "對同時使用多款 AI 工具的開發者，thread-keeper 可消除工具切換時的上下文斷裂，提升工作流程連貫性。",
+    "automation_angle": null,
+    "automation_angle_zh": "設定後可讓 Claude Code 生成的程式碼自動同步給 Copilot 補全測試，省去手動複製貼上的繁瑣步驟。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/37811437?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-codefinetuner",
+    "title": "CodeFinetuner：在自有程式碼庫上微調程式碼補全模型",
+    "title_original": "CodeFinetuner: Fine-tune a local code autocomplete model on your own codebase",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdp9qc/codefinetuner_finetune_a_local_code_autocomplete/",
+    "published_at": "2026-09-11T18:56:39+00:00",
+    "category": "agent-skills",
+    "summary": "CodeFinetuner 提供在本地程式碼庫上微調程式碼自動完成模型的完整工具鏈，讓 IDE 內的程式碼補全更加個人化，針對組織內部程式碼風格與領域術語優化。",
+    "highlights": [
+      "支援在私有程式碼庫上微調現有的程式碼補全模型",
+      "可針對組織內部的程式碼風格與命名慣例優化",
+      "理論上能提升特定領域術語的補全準確度",
+      "需準備乾淨且具有版權合規的訓練資料",
+      "微調後的模型可直接部署至本地 IDE 環境"
+    ],
+    "why_it_matters": "通用程式碼補全模型難以掌握組織內部專有領域知識，CodeFinetuner 提供了解決路徑，可顯著提升特定程式碼庫的補全相關性與開發效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接在自有的封閉專案上進行微調實驗，評估其是否能比通用模型（如 Copilot）提供更精準的程式碼補全建議。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-dsv4-flash-15k-gpu",
+    "title": "本地部署 DSV4 Flash：$15k 預算 GPU 選配實戰指南",
+    "title_original": "What GPUs will give me GOOD speeds and on DSV4 Flash and similar models, and not have to run a mega quantized version? Budget around $15k-ish.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdooag/what_gpus_will_give_me_good_speeds_and_on_dsv4/",
+    "published_at": "2026-09-11T18:36:26+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社區討論在約 $15,000 預算下，選擇哪些 GPU 才能在 DSV4 Flash 等大型語言模型上獲得良好推論速度，且無需使用高量化版本。",
+    "highlights": [
+      "大語言模型本地推論需同時考量 VRAM 容量與計算頻寬",
+      "社群建議聚焦於 HBM 記憶體或 GDDR7 規格的 GPU 以提升效能",
+      "$15k 預算可覆蓋多卡配置或多台高階工作站",
+      "DSV4 Flash 等新興 MoE 模型對記憶體頻寬需求高於傳統 Transformer",
+      "需在量化精度與推論速度之間取得平衡"
+    ],
+    "why_it_matters": "對於需要在本地執行最新大模型的技術用戶，選擇正確的 GPU 組合直接影響推論效率與專案可行性，本討論提供實務參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考社群建議的 GPU 組合，建立本地模型推論的效能基準測試腳本，自動比較不同硬體配置的性價比。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-cursor-agent-python-cursor",
+    "title": "cursor-agent：以 Python 重現 Cursor 編碼助理功能",
+    "title_original": "civai-technologies/cursor-agent",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/civai-technologies/cursor-agent",
+    "published_at": "2026-09-11T18:35:32Z",
+    "category": "agent-skills",
+    "summary": "civai-technologies 在 GitHub 開源的 cursor-agent 專案，以 Python 實作類似 Cursor 的程式碼生成、函式呼叫與智能輔助功能，支援 Claude、OpenAI 以及本地部署的 Ollama 模型。",
+    "highlights": [
+      "支援 Claude、OpenAI、Ollama 三種後端",
+      "開源實作，可自行部署與修改",
+      "截至目前 GitHub 約 134 星",
+      "可作為自架 AI 編碼助理的參考實作"
+    ],
+    "why_it_matters": "開源愛好者可借此專案學習如何實作 Function Calling 與多模型路由，快速打造自有的本地程式碼助理。",
+    "automation_angle": null,
+    "automation_angle_zh": "可 fork 此專案改造成內部 Code Review Bot 或自動化測試生成工具，部署在本地伺服器避免 API 費用。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/106107019?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-anthropic-claude",
+    "title": "Anthropic 內部標準：Claude 生成代碼的品質把關機制",
+    "title_original": "Quoting Boris Cherny",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/11/boris-cherny/",
+    "published_at": "2026-09-11T17:47:11+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic 首席工程師 Boris Cherny 表示，Claude 生成的生產代碼需比人工代碼更高標準。Anthropic 透過多層 lint 規則、測試覆蓋、Claude 驅動的端到端測試與安全審查來確保品質。",
+    "highlights": [
+      "Anthropic 要求 Claude 生成代碼達到比人工代碼更嚴格的品質標準",
+      "使用大量 lint 規則與測試套件確保代碼基礎品質",
+      "Claude 驅動的端到端測試與模糊測試（Fuzzer）每日自動執行",
+      "自動化的程式碼審查與安全審查流程",
+      "若缺少這些機制，長期會累積難以維護的技術債務"
+    ],
+    "why_it_matters": "這代表頭部 AI 企業已建立完整的 AI 生成代碼品質管控框架，對開發者而言有具體的實踐參照，也反映 AI 程式碼需要更嚴格的測試策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接參考 Anthropic 的測試策略，在自有的 AI 程式碼生成流程中加入自動化 lint、單元測試生成與安全掃描步驟。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-qwen3-8-27b-humanlike-chat",
+    "title": "Qwen3.8-27B-Humanlike-Chat：擬人化對話微調模型",
+    "title_original": "Qwen3.8-27B-Humanlike-Chat: A model I tuned to imitate realistic human-to-human conversation",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdl2qa/qwen3827bhumanlikechat_a_model_i_tuned_to_imitate/",
+    "published_at": "2026-09-11T16:27:16+00:00",
+    "category": "new-models",
+    "summary": "研究者發布 Qwen3.8-27B-Humanlike-Chat，這是一款專為自然、擬人化對話互動優化的 Qwen 微調模型，能更貼近人與人之間的真實交流節奏，適合需要自然對話體驗的場景。",
+    "highlights": [
+      "基於 Qwen 架構的 27B 參數微調版本",
+      "微調目標為提升對話自然度與人類化表達",
+      "適合本地部署的對話代理或客服機器人場景",
+      "與標準 Qwen 模型相比，對話風格更接近真人互動",
+      "缺乏官方效能基準與安全評估資料"
+    ],
+    "why_it_matters": "提升對話系統的自然度是改善使用者體驗的關鍵，尤其是本地部署場景下，27B 規模兼顧效能與品質，可作為特定垂直領域對話系統的基底模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接下載至本地，替換現有對話系統的基底模型，評估其在客服或陪伴機器人場景下的自然度改善程度。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-hugging-face-cybergym-ai-agent",
+    "title": "Hugging Face 安全公告：CyberGym 基準測試開放 AI Agent 挑戰",
+    "title_original": "Quoting huggingface.co/security.txt",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/11/hugging-face-security/",
+    "published_at": "2026-09-11T16:04:53+00:00",
+    "category": "hot-topics",
+    "summary": "Hugging Face 在 security.txt 中向 AI Agent 直接喊話，表示 CyberGym 漏洞測試基準已開源在 GitHub，建議研究者直接挑戰基準測試取得高分，而非對 Hugging Face 本身進行滲透測試。",
+    "highlights": [
+      "Hugging Face 明確表態歡迎有組織的安全研究，而非隨機滲透",
+      "CyberGym 基準測試已開源至 GitHub，可供 AI Agent 進行系統性漏洞評估",
+      "此公告暗示平台已建立對應的紅隊演練機制",
+      "Simon Willison 指出此訊息可能為防止未授權測試的法律前置措施",
+      "對 AI 安全研究者而言，現在有明確的合規漏洞研究管道"
+    ],
+    "why_it_matters": "平台公開歡迎 AI Agent 漏洞研究，為安全研究者提供明確界線，也暗示 Hugging Face 已建立對應的紅隊防禦機制，值得關注其模型安全實踐。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接 fork CyberGym 基準測試框架，用於評估自建 AI Agent 的安全魯棒性，或將其整合至 CI/CD 作為安全性迴歸測試的一環。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-orukeet-parakeet",
+    "title": "Orukeet：基於 Parakeet 的新型語音辨識模型",
+    "title_original": "Orukeet, new ASR model based on Parakeet",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdk2he/orukeet_new_asr_model_based_on_parakeet/",
+    "published_at": "2026-09-11T15:50:53+00:00",
+    "category": "new-models",
+    "summary": "Orukeet 是一款基於 Parakeet 架構開發的新型自動語音辨識（ASR）模型，可作為本地部署的語音轉文字替代方案，提供開源且可自托管的語音辨識能力。",
+    "highlights": [
+      "基於 Parakeet 架構，屬於開源 ASR 模型分支",
+      "支援本地部署，無需依賴雲端語音 API",
+      "可用於建構本地語音命令系統或會議紀錄工具",
+      "相較商業語音 API，可降低長期使用成本",
+      "需驗證其 WER（詞錯誤率）與延遲表現"
+    ],
+    "why_it_matters": "開源 ASR 模型持續演進，Orukeet 提供本地部署選項，可降低對商業語音 API 的依賴，適合對資料隱私有要求或需要控制成本的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合至本地的語音控制系統或會議記錄工具，實現完全自托管的語音轉文字工作流程程，降低 API 費用支出。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-11-reddit-openai",
     "title": "Reddit 爆料：OpenAI 即使付費用戶退出訓練仍使用其互動資料",
     "title_original": "OpenAI can use all interactions of paid users, even if they opted out of training",
@@ -152,6 +376,33 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/185529573?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-openai-chatgpt",
+    "title": "OpenAI 揭露如何擴充儲存以支撐十億用戶的 ChatGPT",
+    "title_original": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+    "published_at": "2026-09-11T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格揭露其如何將原本 Python 函式庫的 Habitat 演進為全球分散式儲存平台，目前每日處理 22M 每秒請求，服務超過 10 億 ChatGPT 用戶。",
+    "highlights": [
+      "官方技術文件，含架構演進脈絡",
+      "分散式儲存支撐十億用戶規模",
+      "每秒處理 22M 請求的效能指標",
+      "Python 函式庫到全球分散式系統的演變"
+    ],
+    "why_it_matters": "此案例展示大規模 AI 應用後端的基礎設施設計思路，對後端工程師或基礎設施架構師具有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可學習其儲存層擴展策略，評估是否適用於自有 AI 應用的資料持久化與快取設計。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-09-11-fast-file-search-ai-mcp",
