@@ -1,5 +1,159 @@
 [
   {
+    "id": "2026-09-11-reddit-openai",
+    "title": "Reddit 爆料：OpenAI 即使付費用戶退出訓練仍使用其互動資料",
+    "title_original": "OpenAI can use all interactions of paid users, even if they opted out of training",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdj3x9/openai_can_use_all_interactions_of_paid_users/",
+    "published_at": "2026-09-11T15:15:17+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 熱議：OpenAI 被指控即使付費使用者已退出訓練，仍將其互動資料用於模型訓練。此為論壇爆料，尚未有官方完整回應，爭議涉及隱私與信任議題。",
+    "highlights": [
+      "• 消息來源為 Reddit 論壇，非官方聲明\n• 指控內容：付費訂閱者退出訓練後資料仍被使用\n• 可能影響用戶對 API 服務的信任\n• 需等待 OpenAI 官方說明或監管機構確認"
+    ],
+    "why_it_matters": "AI 公司的資料治理是今年監管焦點。此類爭議若屬實，可能影響企業用戶選擇供應商的決策，也提醒技術人在合約中留意資料使用條款。",
+    "automation_angle": null,
+    "automation_angle_zh": "檢視現有 OpenAI API 使用條款，評估是否有替代方案（如 Azure OpenAI、自架模型），將資料隱私風險納入供應商評估矩陣。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-aetox-windows-ai-agent",
+    "title": "Aetox：Windows 桌面 AI Agent 執行層開源專案",
+    "title_original": "Mikedev115/Aetox",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Mikedev115/Aetox",
+    "published_at": "2026-09-11T15:13:24Z",
+    "category": "agent-skills",
+    "summary": "Go 語言開發的 Windows 桌面 AI Agent，定位為 AI 的「執行層」，可操控檔案、Shell、瀏覽器、文件，支援 OCR、離線語音，直接輸出 .xlsx/.pptx/.docx，內建 MCP 協定與委派式多 Agent 協作。",
+    "highlights": [
+      "• 支援本機端執行，模型供應商無鎖定\n• 內建 Code door 含 LSP、Git、PR 審查功能\n• 支援 MCP 可擴充工具生態\n• 可脫機運行語音與 OCR\n• 委派式 Agent 架構分擔任務"
+    ],
+    "why_it_matters": "桌面 Agent 是今年熱門方向，Aetox 提供一站式本機執行環境，技術宅可繞過雲端 API 直接讓 AI 操作電腦，值得評估其與現有 MCP 工具鏈的整合潛力。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載後設定 API Key 即可測試：讓 Agent 自動整理資料夾、生成報告、爬取網頁並輸出 Office 檔案，評估其對日常重複工作的替代程度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/218032854?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-okf-memory-git-agent-bm25-300",
+    "title": "okf-memory：Git 原生持久化 Agent 記憶，BM25 搜尋 300 微秒內",
+    "title_original": "okf-memory/okf-agent-memory",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/okf-memory/okf-agent-memory",
+    "published_at": "2026-09-11T15:01:35Z",
+    "category": "agent-skills",
+    "summary": "okf-memory 為 AI 程式碼 Agent 提供 Git 原生持久化記憶層，實現 Google OKF v0.2 規格。子 300 微秒記憶體 BM25 搜尋、嵌入式 MCP 伺服器、漸進式揭露設計，號稱減少 80% Token 用量，零外部資料庫依賴，純 Go 實作。",
+    "highlights": [
+      "基於 Google OKF v0.2 規格的記憶框架",
+      "記憶體內 BM25 搜尋延遲低於 300 微秒",
+      "漸進式揭露（Progressive Disclosure）減少上下文膨脹",
+      "聲稱節省 80% Token，零外部資料庫",
+      "純 Go 實作，效能與部署簡便"
+    ],
+    "why_it_matters": "Coding Agent 常因長期對話導致 Token 爆炸而變慢或超限。此專案提供輕量本地記憶方案，可直接降低 API 費用與延遲。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 okf-memory 整合進 Cursor 或 Copilot Agent 工作流程，讓 Agent 在多檔案、長週期任務中保有結構化上下文。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/322091575?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-python-3-15-re-match-re-prefixmatch",
+    "title": "Python 3.15 軟性棄用 re.match() 推薦改用 re.prefixmatch()",
+    "title_original": "Soft-deprecating re.match()",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match/",
+    "published_at": "2026-09-11T14:47:57+00:00",
+    "category": "hot-topics",
+    "summary": "Python 3.15 將 re.match() 軟性棄用，改以 re.prefixmatch() 取而代之。re.match() 只匹配字串開頭但不移除結尾不符部分，常造成誤解，多數情境建議改用 re.search() 或 re.fullmatch()。",
+    "highlights": [
+      "• re.match() → re.prefixmatch() 名稱更語意清晰\n• 軟性棄用：只警告不刪除，未來仍可能存在\n• 多數情況推薦 re.search()（任意位置匹配）\n• re.fullmatch() 適用於完整字串匹配\n• Hugo van Kemenade 說明設計動機"
+    ],
+    "why_it_matters": "正則表達式是工程師高頻工具，名稱混淆影響程式碼可讀性。3.15 預計明年發布，新專案應逐步遷移至新 API，避免日後維護困擾。",
+    "automation_angle": null,
+    "automation_angle_zh": "用 IDE 搜尋全專案 re.match() 使用點，評估是否可改為 re.search() 或 re.fullmatch()，配合自動化重構降低技術債。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-11-wrapture-python",
+    "title": "wrapture：Python 猴子補丁工具新星",
+    "title_original": "Don't sleep on wrapture",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/11/wrapture/",
+    "published_at": "2026-09-11T13:51:32+00:00",
+    "category": "agent-skills",
+    "summary": "Graham Dumpleton 開發的 Python 猴子補丁套件，結合單元測試（mock 功能）與可觀測性（New Relic 式追蹤）。支援 TOML 檔案零程式碼配置，已提供 Flask、Django、FastAPI 等主流框架的檢測套件。",
+    "highlights": [
+      "• 支援方法呼叫時間軸與樹狀視覺化\n• 可分期設定補丁行為（多次呼叫不同邏輯）\n• 零程式碼追蹤：TOML 配置即生效\n• 支援 OpenTelemetry 匯出\n• 提供 JupyterLab 互動工作坊"
+    ],
+    "why_it_matters": "除錯與測試是技術人日常痛點，wrapture 用 TOML 設定補丁的設計極具巧思，Alpha 版已堪用，是那種學會後會持續在各種專案派上用場的瑞士刀。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即用 pip 安裝，在既有 Python 專案旁建立 wrapture.toml，觀察函式呼叫參數與耗時，識別效能瓶頸或除錯複雜的相依呼叫鏈。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-ai-efficiency-awesome-model-quantization",
+    "title": "AI-Efficiency/Awesome-Model-Quantization 整理模型量化最新資源",
+    "title_original": "AI-Efficiency/Awesome-Model-Quantization",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/AI-Efficiency/Awesome-Model-Quantization",
+    "published_at": "2026-09-11T13:45:54Z",
+    "category": "open-source-ai",
+    "summary": "GitHub 熱門開源 repo，收集量化相關論文、基準測試、工具指南。涵蓋低位元網路、LLM 多模態生成模型、向量與格子量化等方向。星標 2438，可作為模型壓縮技術調研的入口。",
+    "highlights": [
+      "收錄論文、基準測試與實作工具三大類資源",
+      "涵蓋 LLM、多模態、向量量化等前沿方向",
+      "低位元量化是降低推論成本的關鍵技術",
+      "星標 2438 表示社群關注度高",
+      "可用於調研模型部署優化方案"
+    ],
+    "why_it_matters": "量化是將大模型落地部署到自建 GPU 或消費級硬體的核心手段。此合集節省工程師自行檢索最新文獻的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "工程師在此合集中找符合自己硬體與延遲需求的量化方法，快速評估 Q4/Q8 精度損失與推論速度提升。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/185529573?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-11-fast-file-search-ai-mcp",
     "title": "fast_file_search：AI代理極速檔案搜尋MCP工具",
     "title_original": "quangdang46/fast_file_search",
@@ -80,6 +234,30 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-iphone-18-pro-ai",
+    "title": "南韓三大電信開放 iPhone 18 Pro 預購搭配 AI 訂閱服務",
+    "title_original": "“從设备折扣到人工智慧訂閱服务”......三大移动运营商開始接受“iPhone 18 Pro”的预订 - mk.co.kr",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5pMkptYWFSWDJ1UExrVmRTYU9zM01HTUp5emhFZFJ3dVE4WkM5eXFMSFFkVURrSGUzRzM2OXhwMERhVWk3S0JzMjZCV2tDMUR3Q0dr?oc=5",
+    "published_at": "2026-09-11T05:45:44+00:00",
+    "category": "ai-deals",
+    "summary": "南韓三大行動電信商 SKT、KT、LGU+ 開始接受 iPhone 18 Pro 預購，搭配設備折扣與 AI 訂閱服務方案。屬於南韓市場動態，非核心 AI 技術新聞。",
+    "highlights": [
+      "• 南韓電信商預購資訊，市場銷售策略\n• 搭配 AI 訂閱服務的行銷方案\n• 非技術突破或模型更新\n• 對台灣、香港用戶參考價值有限"
+    ],
+    "why_it_matters": "反映電信商將 AI 訂閱服務與旗艦硬體綑綁的行銷趨勢，但缺乏具體技術或定價細節，對技術決策直接幫助有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注此趨勢是否蔓延至其他市場，若有免費 AI 訂閱附帶，可評估其功能是否足以自動化個人或團隊的基礎任務。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -186,6 +364,34 @@
     "why_it_matters": "此工具讓開發者能即時測試任意舊版套件相依性，PR 審查者可一鍵重現構建環境，大幅降低「在我機器上能跑」的爭議。",
     "automation_angle": null,
     "automation_angle_zh": "整合 trynix-preview 至 CI/CD 流程，讓 review者 點擊連結即可在瀏覽器重現 PR 的構建環境。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-11-github-copilot-jira-hydrafusion-vs-code-agent",
+    "title": "GitHub Copilot 九月第一週：Jira 整合、HydraFusion 編排、VS Code Agent 自動化",
+    "title_original": "GitHub Copilot weekly releases — September 7",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+    "published_at": "2026-09-10T22:55:07+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方 Changelog 本週更新：Copilot App 新增 Jira 整合、Copilot CLI 引入 Project HydraFusion 自適應模型編排、VS Code 新增 Agent 自動化功能。此為官方公告，功能已實際釋出。",
+    "highlights": [
+      "Copilot App 正式整合 Jira，任務追蹤直接在 AI 介面完成",
+      "Project HydraFusion 提供 CLI 層級自適應模型路由",
+      "VS Code 新增 Agent 自動化，支援多步驟任務執行",
+      "本週更新日誌屬官方 GitHub Blog 公告",
+      "HydraFusion 可能影響 Copilot CLI 的模型選擇策略"
+    ],
+    "why_it_matters": "Copilot 從純補全工具向完整開發 Agent 演進。Jira 整合讓 AI 直接操作工作項目，HydraFusion 影響模型調度成本，技術用戶應評估新工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 VS Code 中啟用 Agent 模式，用 Jira 整合建立「任務 → Copilot → 自動 commit」端到端自動化，觀察 HydraFusion 是否降低 API 耗費。",
     "tags": [
       "agent-skills",
       "rss",
@@ -10298,6 +10504,30 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/31303364?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-2026-9-ai-unite-ai",
+    "title": "2026 年 9 月 AI 網頁爬蟲工具十選（Unite.AI）",
+    "title_original": "10 Best AI Web Scraping Tools (September 2026) - Unite.AI",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE85ZXhxV0RvQ3lDZFBlOEdRM0hNdUpJcXBHR0RNdHlaM0NwVUhhZjhQbzBjb0N6dzFRQU43eXRIT2Rld2xTXzE5NC1XakNMeElqUzNBdUpRTVU?oc=5",
+    "published_at": "2026-08-29T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Unite.AI 整理的 10 款 AI 網頁爬蟲工具列表，包含產品功能概述與定價摘要。屬於彙整型文章，適合快速了解市場上有哪些選項，但缺乏深度技術評測。",
+    "highlights": [
+      "• 列表涵蓋 10 款工具的快速概覽\n• 包含基本功能與定價資訊\n• 屬於行銷導向彙整，非獨立評測\n• 建議搭配實際測試驗證效能"
+    ],
+    "why_it_matters": "爬蟲是 AI Pipeline 常見需求，列表可作為選項參考起點，但技術人應以實際試用結果為準，而非完全依賴文章推薦。",
+    "automation_angle": null,
+    "automation_angle_zh": "從列表中挑選 2-3 款免費額度充足的工具，針對實際爬蟲需求做 POC，比較產出品質與 API 成本後再做決定。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
