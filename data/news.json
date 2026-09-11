@@ -1,5 +1,113 @@
 [
   {
+    "id": "2026-09-11-yue2-3b",
+    "title": "YuE2-3B：新開源音樂生成模型",
+    "title_original": "New Music Model YuE2-3B Released!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wd19c7/new_music_model_yue23b_released/",
+    "published_at": "2026-09-11T00:47:36+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit社群討論YuE2-3B新音樂生成模型，為開源選項。模型規模30億參數，具體架構、訓練數據與生成品質評測尚未有獨立基準報告。",
+    "highlights": [
+      "開源音樂生成模型，30億參數規模",
+      "社群首發，詳細技術文件待補充",
+      "與現有音樂模型（如MusicGen、Riffusion）的比較未知"
+    ],
+    "why_it_matters": "開源音樂生成模型持續增多，對需要本地生成能力的開發者是好消息，但需等待獨立評測確認品質是否達到生產級別。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方Repo完整後，可本地部署測試音樂生成品質，評估是否能替代付費API用於遊戲或短影片配樂場景。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-trynix-dev-nix",
+    "title": "TryNix.dev：瀏覽器內執行任意 Nix 套件",
+    "title_original": "Any Nix package, live in your browser",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/10/trynix/",
+    "published_at": "2026-09-10T23:44:15+00:00",
+    "category": "agent-skills",
+    "summary": "TryNix.dev 是一個基於 WebAssembly 和 QEMU-WASM 技術的線上工具，能在瀏覽器中運行完整的 x86_64 Linux 虛擬機，並執行 Nix 套件管理庫中過去 13 年的任何套件。使用者可透過 URL 直接指定套件版本，獲得互動式 Shell。開發者 Farid Zakaria 進一步推出 trynix-preview，能為 GitHub PR 生成可即時啟動測試環境的連結。",
+    "highlights": [
+      "基於 QEMU-WASM 在瀏覽器運行完整 Linux VM",
+      "支援 Nix 套件庫中過去 13 年任意版本",
+      "URL 可定址，可直接分享特定套件環境連結",
+      "trynix-preview GitHub Action 可為 PR 生成瀏覽器測試環境",
+      "無需伺服器，完全依賴瀏覽器運算"
+    ],
+    "why_it_matters": "此工具讓開發者能即時測試任意舊版套件相依性，PR 審查者可一鍵重現構建環境，大幅降低「在我機器上能跑」的爭議。",
+    "automation_angle": null,
+    "automation_angle_zh": "整合 trynix-preview 至 CI/CD 流程，讓 review者 點擊連結即可在瀏覽器重現 PR 的構建環境。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-11-shopify-react-native-ai-agent",
+    "title": "Shopify放棄React Native回歸原生：AI Agent降低跨平台成本",
+    "title_original": "Native is now the future of mobile at Shopify",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
+    "published_at": "2026-09-10T21:11:15+00:00",
+    "category": "hot-topics",
+    "summary": "Shopify宣布從React Native回歸Swift/Kotlin原生開發，核心原因並非React Native本身有問題，而是AI Agent已能處理大量跨平台實作、翻譯、測試工作，讓六年前「避免重複建構」的理由不再成立。Shopify仍將開源三個React Native函式庫。",
+    "highlights": [
+      "Shopify回歸原生Swift/Kotlin，而非React Native失敗",
+      "AI Agent能處理大部分跨平台程式碼翻譯與測試",
+      "React Native當年解決的「重複建構」成本已被AI Agent消化",
+      "react-native-skia與flash-list正尋找新維護者"
+    ],
+    "why_it_matters": "這是AI Coding Agent影響軟體架構決策的首批大型案例之一。對技術決策者而言，AI輔助開發正在改變「跨平台框架」的價值方程式。",
+    "automation_angle": null,
+    "automation_angle_zh": "架構師應重新評估新專案的技術棧選擇：若AI Agent能承擔80%跨平台翻譯工作，則原生開發的長期維護優勢可能重新勝出。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-11-nvidia-sol-pi-pi-extension-pi-agent",
+    "title": "Nvidia Sol-Pi：Pi-Extension加速Pi Agent效率",
+    "title_original": "Pi Agent Users - Nvidia Released Sol-Pi - A Pi-Extension based on AutoResearch loops to make the Harness more efficient",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcujgg/pi_agent_users_nvidia_released_solpi_a/",
+    "published_at": "2026-09-10T20:17:05+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit社群報導Nvidia發布Sol-Pi，為Pi Extension的改良版，基於AutoResearch loops機制旨在提升Pi Agent Harness的執行效率。具體技術細節與開源狀態尚待進一步確認。",
+    "highlights": [
+      "基於AutoResearch loops最佳化Pi Agent",
+      "目標為提升Harness執行效率",
+      "發布者為Nvidia，來源為Reddit社群討論",
+      "細節不足，需進一步驗證"
+    ],
+    "why_it_matters": "若Nvidia持續投入Agent工具鏈，代表AI Agent的軟體最佳化正受到硬體廠商關注，可能預示著企業級Agent部署的效能需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注Pi Agent生態的開發者可追蹤Nvidia官方Repo，等待完整文件出爐後評估對現有工作流程的潛在加速效果。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-10-repotracer-codex-2-7-rust-mcp",
     "title": "repotracer：讓 Codex 配額延長 2.7 倍的 Rust 原生 MCP 工具",
     "title_original": "repotracer/repotracer",
