@@ -28,6 +28,120 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-09-12-asteria-agent-ai",
+    "title": "asteria-agent：本地優先AI研究助理，自動生成引用報告",
+    "title_original": "blurryface13/asteria-agent",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/blurryface13/asteria-agent",
+    "published_at": "2026-09-12T09:39:24Z",
+    "category": "agent-skills",
+    "summary": "開源AI研究助理，使用LangChain與LangGraph多Agent架構。功能包括規劃子查詢、網頁搜尋、全文引用報告寫作。技術棧含FastAPI與Next.js，使用者資料存Postgres。目前星標43，屬早期專案。",
+    "highlights": [
+      "LangChain + LangGraph多Agent協作架構",
+      "自動拆解研究問題並規劃子查詢流程",
+      "輸出帶完整引用的研究報告",
+      "使用Email OTP認證，Per-user Postgres資料隔離",
+      "技術棧：Python + FastAPI + Next.js"
+    ],
+    "why_it_matters": "若能穩定運作，可自動化學術文獻回顧與研究摘要工作，省去手動整理資料與引用格式的時間，但星標偏低需評估穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "研究人員或內容工作者可部署此系統，用於自動化競爭情報分析、學術文獻綜述等需要大量引用來源的任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/111074684?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-12-vybe-intelligence-vault-mcp-server-ai",
+    "title": "vybe-intelligence-vault：MCP Server與AI工具開源知識庫",
+    "title_original": "rxmna8502/vybe-intelligence-vault",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/rxmna8502/vybe-intelligence-vault",
+    "published_at": "2026-09-12T09:29:26Z",
+    "category": "agent-skills",
+    "summary": "開源的AI資源自動更新庫，收錄AI Agent、RAG系統、MCP Server、提示範本等工具資源。旨在成為開發者的工具雷達，協助快速找到合適的技術元件與參考實現。",
+    "highlights": [
+      "持續更新的AI工具與框架開源庫",
+      "收錄MCP Server、提示範本、RAG元件",
+      "涵蓋Agent技能、工具整合等實用資源",
+      "JavaScript技術棧，相容現代Web開發流程",
+      "可用於快速評估新工具與技術棧"
+    ],
+    "why_it_matters": "技術人員可藉此快速掌握MCP Server生態與新興AI工具，省去單獨搜尋與評估的時間成本，適合建立內部技術雷達。",
+    "automation_angle": null,
+    "automation_angle_zh": "團隊技術負責人可訂閱此類資源庫，用於評估新工具是否值得整合進現有工作流程，快速複製已驗證的MCP Server設定。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/233378322?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-12-agnes-ai-agnes-3-0-flash-33b-aa-36",
+    "title": "Agnes-AI 推出 Agnes-3.0-Flash 33B 多模態模型，AA 分數 36",
+    "title_original": "Agnes-AI/Agnes-3.0-Flash 33B Multimodal, AA score: 36",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1we6lrn/agnesaiagnes30flash_33b_multimodal_aa_score_36/",
+    "published_at": "2026-09-12T08:05:53+00:00",
+    "category": "open-source-ai",
+    "summary": "Agnes-AI 社群在 Reddit 發布了 33B 參數的多模態模型 Agnes-3.0-Flash，AA 分數為 36 分。模型規模與分數顯示其定位偏向輕量高效能在地端運行。目前尚無詳細技術文件公開，模型本身尚未進入主流 benchmark 比較體系。",
+    "highlights": [
+      "33B 參數多模態架構，支援文字與圖像輸入",
+      "AA Score 36 分，社群自行評測，非標準 benchmark",
+      "定位輕量級，適配消費級 GPU 本地部署",
+      "缺乏技術報告與 benchmark 交叉驗證",
+      "資訊來源為 Reddit 討論串，非官方發布"
+    ],
+    "why_it_matters": "33B 多模態模型若能在單卡運行，將大幅降低本地 AI 應用門檻。但目前資訊不足以判斷其真實能力與可用性，技術讀者應等待正式發布與第三方評測。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方 repo 發布後，可用 GGUF 格式量化後在本地部署測試，評估其在單張 24GB VRAM GPU 上的多模態推論速度與準確度。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-12-item",
+    "title": "社群熱議「類人模型」與聊天機器人角色扮演的極限",
+    "title_original": "Concerning \"humanlike models\" and chatbot RP in general...",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1we2rp2/concerning_humanlike_models_and_chatbot_rp_in/",
+    "published_at": "2026-09-12T04:36:59+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 討論區有使用者提出對「類人模型」概念的疑慮，認為當前模型在角色扮演與情感模擬上已觸及某種瓶頸，並探討此現象對模型開發方向的影響。討論內容以用戶經驗為主，缺乏實證數據支撐。",
+    "highlights": [
+      "討論聚焦在模型「更像人類」的定義與可行範圍",
+      "用戶回報長上下文角色扮演中的一致性問題",
+      "涉及模型對話風格與情感表達的技術限制",
+      "屬於社群主觀經驗分享，非學術或官方觀點",
+      "引發對下一階段模型設計目標的反思"
+    ],
+    "why_it_matters": "此討論反映了本地部署模型用戶對「高擬真對話」需求的集體焦慮，對開發者而言是理解用戶期望與模型實際能力落差的參考窗口。",
+    "automation_angle": null,
+    "automation_angle_zh": "可利用現有開源模型設計自動化角色扮演測試流程，量化模型在不同對話輪次中的角色一致性分數。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-12-aliangboard-ai-kubernetes-mcp-server-llm",
     "title": "aliangboard：AI 原生 Kubernetes 控制面板，內建 MCP Server 讓 LLM 直接操作叢集",
     "title_original": "aliang-one/aliangboard",
@@ -83,6 +197,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/11929277?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-12-whatsapp-2b-llm",
+    "title": "開發者分享用 WhatsApp 群組聊天記錄微調 2B LLM 的完整攻略",
+    "title_original": "I fine-tuned a 2B LLM on our WhatsApp group chat, and shared how to do it on GitHub as a cookbook.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdxz12/i_finetuned_a_2b_llm_on_our_whatsapp_group_chat/",
+    "published_at": "2026-09-12T00:44:36+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享了使用個人 WhatsApp 群組聊天記錄微調 2B 小型語言模型的完整流程，並將技術方法以 GitHub Cookbook 形式開源。整個流程涵蓋資料清洗、LoRA 微調設定與部署步驟，強調低硬體需求即可完成。",
+    "highlights": [
+      "使用 2B 參數量級模型，硬體需求極低",
+      "資料來源為 WhatsApp 群組聊天，贴近個人使用場景",
+      "完整開源 GitHub Cookbook，含訓練腳本與配置",
+      "LoRA 微調方法，降低計算資源需求",
+      "可直接複製流程到其他個人對話數據集"
+    ],
+    "why_it_matters": "2B 模型微調代表每個人都能用自己私有的對話數據訓練一個高度個人化的 AI 助理，且無需昂貴 GPU 資源。這是個人化 AI 普及的明確訊號。",
+    "automation_angle": null,
+    "automation_angle_zh": "Clone GitHub repo，按照 Cookbook 步驟準備自己的聊天記錄，用 LoRA 在 8GB VRAM GPU 上微調一個屬於自己的個人化助理，用於自動回覆或資訊整理。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -414,6 +556,34 @@
     "automation_angle_zh": "可直接下載至本地，替換現有對話系統的基底模型，評估其在客服或陪伴機器人場景下的自然度改善程度。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-12-anthropic-claude",
+    "title": "Anthropic披露：七家中資實驗室大規模蒸餾Claude模型",
+    "title_original": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks - thehackernews.com",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMMVJKbnJua1o4S0pnako5MlpKNFNyVnFlTFFTYVhsM3VQS0EwSXVBczd4YjNVeDJUZE96RlQzc0dMdGZ6c3RDSHFRVm1yTGt6NzgxaHR4aWZnUzBNSDN3cFc3ZXVlMy1JT1BVdzVHTDlZc2NQN0FIY015X0V0NXM?oc=5",
+    "published_at": "2026-09-11T16:15:00+00:00",
+    "category": "hot-topics",
+    "summary": "The Hacker News報導Anthropic指控七家中國AI實驗室對Claude模型發起工業規模蒸餾攻擊。蒸餾攻擊旨在提取模型能力訓練競爭模型。此事件凸顯模型安全與智慧財產權保護的新挑戰。",
+    "highlights": [
+      "Anthropic公開指控七家中資AI實驗室",
+      "攻擊手段為工業規模的模型蒸餾",
+      "蒸餾目的是提取Claude能力訓練自家模型",
+      "屬模型安全與IP保護的新形態威脅",
+      "細節有待進一步司法或技術確認"
+    ],
+    "why_it_matters": "對使用商業模型API的技術人員，此事件提醒需關注模型安全與供應商穩定性，同時也可能影響日後模型使用條款與定價策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術架構師應評估是否有過度依賴單一商業模型API的風險，並考慮在合適場景引入本地模型或開源替代方案以分散風險。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -1094,6 +1264,34 @@
     "automation_angle_zh": "技術人員可嘗試在本地環境部署該模型，測試其生成按鈕、表單、卡片等常見 UI 組件的質量與速度，評估是否能整合至現有前端自動化流程中。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-12-anthropic-ai-2026-9",
+    "title": "Anthropic 發布 AI 濫用偵測與對抗策略報告（2026 年 9 月）",
+    "title_original": "Detecting and countering misuse of AI: September 2026 - Anthropic",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBeTNVQy1tcnZPVW9SM3drbmxGN1UxRktiY3JfLW9rMDdIMm9SOUd3b3RJNHpSRXVzS1JKckctcFUyZHpNTVE3aEtWVFhka3o3UmlLUzk1ZEs3dUhyVmRJYVctb0IyN1JuNDB6N0hZdTR2TWJTVXc?oc=5",
+    "published_at": "2026-09-10T17:10:27+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic 官方發布一份關於偵測並對抗 AI 系統被濫用的策略文件，涵蓋濫用情境分類、偵測技術架構與政策建議。該報告代表了主流 AI 安全公司對濫用對策的最新官方立場，對開發者在產品設計上有直接參考價值。",
+    "highlights": [
+      "Anthropic 官方發布，非第三方解讀",
+      "詳述 AI 濫用的常見情境分類與特徵",
+      "提出偵測技術架構與對抗策略",
+      "包含政策層面的監管建議",
+      "發布時間異常（2026 年 9 月），建議驗證原文日期"
+    ],
+    "why_it_matters": "了解主流實驗室如何對抗模型濫用，有助開發者在自有系統中加入類似偵測機制，減少被惡意 Prompt 攻擊的風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考報告中的濫用模式分類，在自有 API 或 Agent 系統中實作 Prompt 注入偵測模組，過濾已知攻擊向量。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
@@ -3768,6 +3966,34 @@
     "why_it_matters": "LLM API 成本是落地應用的關鍵變數。Gemini 3.8 Flash 限時半價若屬實，可顯著降低每日呼叫成本，為需要大量推論的自動化工作流程提供經濟選項。",
     "automation_angle": null,
     "automation_angle_zh": "技術宅可將現有 GPT-4o 或 Claude 的批次任務遷移測試，比較 Gemini 3.8 Flash 在相同任務量下的輸出品質與費用，評估是否值得切換以節省 API 開支。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-12-google-gemini-3-8-flash-ai-studio",
+    "title": "Google Gemini 3.8 Flash 登場：AI Studio 免費使用，付費版限時半價",
+    "title_original": "Google Gemini 3.8 Flash登場！AI Studio免費玩 付费版限時半價 - 香港01",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPajFpZGNhZ1VydVhUMThMdHA2a05vNGtaVUF0Vm43dGczYlRYTVBndWxlTmRKaUxKOFgtRllmSS1FVG5RU2xBNGNOMnc2aHlocHZOc2FyWHNueFM5V3lKbk4wUmlIdV9vVG5ydF9Xa0dhNnk5ajg1d29iVnJQZElrUDdPZTZ2ZURQc0ZpeGJod2RzR0tjdTZxbE9JLTRsSDRIZHlEeFVhMVlkMlJyU3Byc0hlRkE1MjZoRDAtOTNRYlJKMDNMdm5UeU9UQkxubC03a3B4MnJYa1haRmotUVJzY2VETVNkWmdNY0kzdVVjU05nc0hGeTZLbWZOeDN1ZU5WQmJ6ZkduS3hoQWtsbE94eXZNNEN3NExvT3pkTDJabmVWb25uMG5SbzJQR0R2Q3RRajloX2RHaw?oc=5",
+    "published_at": "2026-09-07T07:30:00+00:00",
+    "category": "ai-deals",
+    "summary": "Google 推出 Gemini 3.8 Flash 模型，並在 AI Studio 提供免費額度，付費版本則有限時五折優惠。這是 Gemini 系列在定價策略上的重大調整，直接降低開發者使用成本。AI Studio 的免費層讓技術用戶能零成本評估新模型能力。",
+    "highlights": [
+      "Gemini 3.8 Flash 為 Gemini 系列的最新輕量版",
+      "AI Studio 提供免費使用額度，無需信用卡",
+      "付費版限時五折，優惠截止日期需關注",
+      "Google AI Studio 為官方一站式開髮平台",
+      "此為實質性省錢機會，符合editorial篩選標準"
+    ],
+    "why_it_matters": "限時半價優惠直接降低 API 成本，AI Studio 免費層讓開發者能在正式付費前完整測試模型能力與限制，是評估 Gemini 3.8 Flash 的最佳時機窗口。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即在 AI Studio 申請免費帳戶，用 Gemini 3.8 Flash 替換現有工作流程程中的 GPT-4 或 Claude API，實測成本節省幅度與輸出品質差異。",
     "tags": [
       "ai-deals",
       "rss",
