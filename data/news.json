@@ -28,6 +28,119 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-09-12-saki-panel-sre-ai",
+    "title": "Saki-Panel：內建SRE代理的新一代AI原生伺服器運維面板",
+    "title_original": "EthanChan050430/Saki-Panel",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/EthanChan050430/Saki-Panel",
+    "published_at": "2026-09-12T19:50:45Z",
+    "category": "agent-skills",
+    "summary": "AI原生伺服器運維面板，內建工作區內SRE代理，具備崩潰自我修復、安全 rollback、Docker/遊戲伺服器管理，並支援本地Ollama整合。TypeScript實作。",
+    "highlights": [
+      "崩潰自我修復機制減少人工干預需求",
+      "安全rollback功能降低部署風險",
+      "支援Docker容器及遊戲伺服器管理",
+      "整合本地Ollama，邊緣AI推論場景可用",
+      "工作區內SRE代理提供智慧運維輔助"
+    ],
+    "why_it_matters": "將AI代理能力帶入DevOps工作流程，SRE代理可自動處理常見故障，技術人員能將更多精力放在系統優化而非救火。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署Saki-Panel管理測試環境，讓SRE代理自動處理服務崩潰，觀察其rollback與自我修復效果是否滿足需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/165824891?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-12-matplotlibnet-c-mcp",
+    "title": "MatPlotLibNet：C#原生繪圖函式庫，內建MCP伺服器",
+    "title_original": "xkqg/MatPlotLibNet",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/xkqg/MatPlotLibNet",
+    "published_at": "2026-09-12T19:35:34Z",
+    "category": "open-source-ai",
+    "summary": "專為.NET設計的原生繪圖函式庫，支援83種圖表類型，輸出SVG、PNG、PDF、動畫GIF。提供流暢API、DI支援，並內建MCP伺服器供AI代理直接呼叫，無需JavaScript框架。",
+    "highlights": [
+      "純C#原生實作，無需JavaScript/WebView依賴",
+      "支援83種圖表類型，含SVG/PNG/PDF/動畫GIF輸出",
+      "內建MCP伺服器，AI代理可直接呼叫生成圖表",
+      "支援Blazor、WPF、MAUI、Avalonia、ASP.NET Core",
+      ".Dependency Injection整合，企業級.NET專案可用"
+    ],
+    "why_it_matters": "提供AI代理直接生成專業圖表的能力，C#後端工程師可無痛整合資料視覺化進代理工作流程，無需跨語言呼叫。",
+    "automation_angle": null,
+    "automation_angle_zh": "在C#後端服務啟動MCP伺服器，讓AI代理分析資料後直接呼叫MatPlotLibNet輸出PNG圖表到報表系統。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/49878453?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-12-paul-ford-ai",
+    "title": "Paul Ford 反思：AI 降低了編碼門檻，但同時暴露為何「很多人不該寫程式」",
+    "title_original": "Quoting Paul Ford",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/12/paul-ford/",
+    "published_at": "2026-09-12T18:00:21+00:00",
+    "category": "hot-topics",
+    "summary": "軟體專家 Paul Ford 接受訪問時表示，AI 讓更多人能寫程式碼，但也讓「把別人的工作做得很糟」變得更容易，這正是許多專案失敗的原因。他認為真正的尖端軟體仍需人類深度協作與專業技藝。",
+    "highlights": [
+      "Ford 指出 AI 生成的程式碼品質參差不齊，容易造成技術債務",
+      "「每個人都能寫程式」的時代，反而凸顯系統設計與領域知識的價值",
+      "AI 是強大的輔助工具，但非取代資深開發者的充分條件",
+      "此觀點呼應業界對 AI 程式碼品質監管的討論"
+    ],
+    "why_it_matters": "對技術決策者而言，此觀點提醒在引進 AI 程式碼生成時需建立審核流程，避免技術債累積影響長期專案健康。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 CI/CD 流程中引入 AI 程式碼審查工具（如 CodeRabbit、Cursor），平衡生成效率與品質把關。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-12-smolbenchmark",
+    "title": "smolbenchmark工具幫你根據硬體選擇最佳本地模型",
+    "title_original": "Releasing smolbenchmark: Helps you choose the best model for your hardware!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1weekio/releasing_smolbenchmark_helps_you_choose_the_best/",
+    "published_at": "2026-09-12T14:49:04+00:00",
+    "category": "open-source-ai",
+    "summary": "開源效能評測工具，幫助使用者在自己的硬體配置下選擇最適合的本地語言模型。Reddit社群發布，協助解決本地部署時模型與硬體匹配問題。",
+    "highlights": [
+      "針對使用者硬體環境做模型效能基準測試",
+      "協助選擇兼顧效能與資源消耗的模型",
+      "解決本地LLM部署時選型困難問題",
+      "Reddit社群驅動的實用工具",
+      "有助於節省本地推論的試錯時間"
+    ],
+    "why_it_matters": "本地LLM部署常面臨模型與硬體不匹配的困擾，smolbenchmark提供量化基準，技術人員可科學選擇而非靠直覺試錯。",
+    "automation_angle": null,
+    "automation_angle_zh": "在部署新本地模型前，先用smolbenchmark跑一輪基準測試，比較幾個候選模型在相同任務下的延遲與吞吐表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-12-frontier-qwen-3-8",
     "title": "社群討論：Frontier 模型負責規劃判斷，Qwen 3.8 擔任主力工作馬",
     "title_original": "Anybody use frontier models like Astra/Fable for planning/judging, and qwen3.8 as the main workhorse? Curious to hear about your setups!",
