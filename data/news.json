@@ -28,6 +28,148 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-09-13-smart-terminal-mcp-windows-pty-mcp",
+    "title": "Smart Terminal MCP：支援Windows的PTY橋接MCP伺服器",
+    "title_original": "pungggi/smart-terminal-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/pungggi/smart-terminal-mcp",
+    "published_at": "2026-09-13T15:19:20Z",
+    "category": "agent-skills",
+    "summary": "pungggi/smart-terminal-mcp是一個基於node-pty的MCP伺服器，透過pseudo-terminal機制為MCP相容AI客戶端提供持久互動式shell存取。核心賣點是強化的Windows支援，解決了多數MCP伺服器在Windows環境下的相容性問題。",
+    "highlights": [
+      "• 使用node-pty原生庫實現pseudo-terminal支援",
+      "• 重點優化Windows環境下的shell存取",
+      "• 為MCP代理提供持久互動式終端能力",
+      "• JavaScript/TypeScript實現，生態整合容易",
+      "• 12顆星標顯示屬早期關注階段"
+    ],
+    "why_it_matters": "在Windows環境下執行MCP代理常遇到shell整合問題。此專案填補了跨平台MCP伺服器的一個缺口，對需要在Windows工作站上運行AI代理的技術用戶有直接實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "在Windows本機安裝測試，使用支援MCP的代理客戶端連接，驗證powershell/cmd的持久化互動是否正常運作，評估其作為自動化建置腳本工具層的可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/5635709?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-paperclip-mcp-paperclip-ai-mcp",
+    "title": "Paperclip MCP：Paperclip AI代理編排平台的MCP伺服器",
+    "title_original": "Wizarck/paperclip-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Wizarck/paperclip-mcp",
+    "published_at": "2026-09-13T15:06:31Z",
+    "category": "agent-skills",
+    "summary": "Wizarck/paperclip-mcp是一個MCP（Model Context Protocol）伺服器實現，專為Paperclip AI代理編排平台設計，目前GitHub星標44顆。屬於早期開源項目，為構建MCP相容代理提供了參考範例。",
+    "highlights": [
+      "• MCP協定伺服器實現，屬代理工具層基礎設施",
+      "• 專為Paperclip平台設計，但通用性取決於實作",
+      "• 44顆星標在MCP新專案中屬中等關注度",
+      "• Python語言開發，利於擴展與自定義",
+      "• 適合研究MCP協定實作細節"
+    ],
+    "why_it_matters": "MCP作為AI代理標準化介面越來越受關注。Paperclip MCP提供了一個可參考的實作案例，技術用戶可從中學習MCP協定的通訊模式與工具掛載機制。",
+    "automation_angle": null,
+    "automation_angle_zh": "克隆倉庫，運行範例伺服器，觀察MCP協定握手流程。將其作為自己MCP工具開發的模板，評估是否能在既有代理框架中替換使用。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/23051550?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-64gb-ai-swe",
+    "title": "實測64GB顯存本地AI编程工作站：從硬件选型到SWE自動化工作流程",
+    "title_original": "My experience building 64GB VRAM AI SWE assistant/agent PC",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf8ur9/my_experience_building_64gb_vram_ai_swe/",
+    "published_at": "2026-09-13T14:16:21+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit使用者详细分享自建64GB显存的本地AI软件工程助理PC經验，涵盖硬件配置（RTX 4090雙卡或RTX 6000 Ada）、開源模型部署（Code Llama、DeepSeek-Coder），以及在代码补全、重构、自動化測試等任务中的实测表现與局限。",
+    "highlights": [
+      "硬件方案：RTX 4090 24GB×2或单卡RTX 6000 Ada，平衡算力與成本",
+      "模型选型：Code Llama、DeepSeek-Coder等開源代码模型，支援本地部署",
+      "实测任务：代码补全、Bug修复、单元測試生成、代码审查等SWE任务",
+      "優势：零API费用、資料不离本地、适合企業代码隐私場景",
+      "局限：响应速度、上下文窗口、复杂推論能力仍不如雲端大厂模型"
+    ],
+    "why_it_matters": "為技术團隊提供了一条可复现的本地AI编程路線图，在保证代码隐私的同時降低长期API成本，可直接评估本地模型是否满足工程需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "可参考其硬件配置和模型选型，在本地部署自動化代码生成、測試生成、代码审查等AI辅助開發流程，评估本地模型替代或补充雲端API的可行性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-llm",
+    "title": "社区驱动的LLM性能基准：建立更客观的模型评估體系",
+    "title_original": "llm performance community metric",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf6w41/llm_performance_community_metric/",
+    "published_at": "2026-09-13T12:52:31+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit讨论社区正在构建更開放的LLM性能评估指标體系，旨在打破傳統基准的局限性，通過社区贡献真实評測資料，為開發者提供更透明、可信的模型横向對比参考。",
+    "highlights": [
+      "问題：傳統基准（MT-Bench等）存在資料污染、任务单一问題",
+      "方案：社区贡献多样化真实任务評測資料",
+      "指标：涵盖推論速度、内存占用、输出质量、成本效率等維度",
+      "目标：建立透明、無商業偏见的模型评估标准",
+      "挑战：需要大量社区参與和持续維护"
+    ],
+    "why_it_matters": "為技术选型提供更可信的性能参考，减少被营销資料误导的風险，帮助做出更理性的模型采购或部署决策。",
+    "automation_angle": null,
+    "automation_angle_zh": "可参與社区基准建设，用真实自動化任务測試模型，並將结果贡献给社区，建立個人工作流程的模型评估档案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-2024-2025-ai",
+    "title": "2024-2025年主流AI模型竞争力盘点：開源與闭源的实战對比",
+    "title_original": "What are the top AI Models that are still relevant today from 2024 and 2025?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf69ug/what_are_the_top_ai_models_that_are_still/",
+    "published_at": "2026-09-13T12:23:42+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit社区讨论汇总2024-2025年仍具竞争力的主流AI模型，涵盖GPT-4系列、Claude 3系列、Llama 3系列及新興開源模型在不同任务（代码生成、推論、多模态）上的实测對比與选择建议。",
+    "highlights": [
+      "闭源模型：GPT-4 Turbo、Claude 3 Opus在综合能力仍领先",
+      "開源模型：Llama 3.1 70B、DeepSeek-V2在特定任务性價比突出",
+      "代码专用：Code Llama、Starcoder2在编程任务表现接近大厂水平",
+      "多模态：Gemini Pro、GPT-4V在视觉理解任务占優",
+      "选择建议：根据任务類型、延迟要求、成本预算综合选型"
+    ],
+    "why_it_matters": "帮助開發者和企業快速定位当前模型市場格局，避免盲目追新，為自動化流程选型提供参考依据。",
+    "automation_angle": null,
+    "automation_angle_zh": "可依据社区評測结果，针對不同自動化任务（代码生成、文件处理、客服對话）选择性價比最優的模型供应商或開源方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-13-muvon-octoweb-ai",
     "title": "Muvon/octoweb：鍵盤優先的AI瀏覽器",
     "title_original": "Muvon/octoweb",
@@ -108043,6 +108185,34 @@
     "automation_angle_zh": "關注模型發布後的 HuggingFace 頁面，評估其在特定任務上的表現與硬體需求。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-mistral-leanstral-ai",
+    "title": "Mistral Leanstral：開源形式化證明平台瞄準AI程式碼可靠性",
+    "title_original": "Mistral AI has released 'Leanstral,' an open-source proof verification platform for reliable AI coding, aiming to overcome the critical bottleneck of 'human review.' - GIGAZINE",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xYkVqaV9HcExSbHptWVVzckVPTFBqTExvNFpUbEdjMEdKWTZFaHdpMFh0djFHSkRBRnVRVEFIZDB1WnVWdmFFcG96UDBIYXgwbWF5VjFfazVwNUZScTN4di1EcEtZOEZ0enZJZw?oc=5",
+    "published_at": "2026-03-17T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Mistral AI發布Leanstral，一個開源形式化證明驗證平台，旨在透過數學證明方式確保AI生成程式碼的正確性，緩解人工 code review 的瓶頸。屬於提升AI程式碼信任度的基礎設施層工具。",
+    "highlights": [
+      "• 開源平台，程式碼可供審計與自托管",
+      "• 聚焦形式化證明驗證而非傳統測試",
+      "• 目標是降低對人工code review的依賴",
+      "• 適用於高可靠性要求的程式碼場景（如金融、醫療）",
+      "• 需與Lean4/Coq等形式化證明工具鏈整合"
+    ],
+    "why_it_matters": "AI程式碼生成的可信度是企業採用AI輔助開發的核心障礙。Leanstral提供了一條形式化驗證路徑，若成熟可將AI程式碼從「需要大量人工檢查」提升至「可證正確」的水準。",
+    "automation_angle": null,
+    "automation_angle_zh": "在CI/CD pipeline中嘗試整合Leanstral，對特定關鍵函式（如金融計算、安全相關）生成形式化證明，評估能否將此作為AI程式碼審查的自動化關卡。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
