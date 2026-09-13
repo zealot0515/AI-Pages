@@ -28,6 +28,202 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-09-13-muvon-octoweb-ai",
+    "title": "Muvon/octoweb：鍵盤優先的AI瀏覽器",
+    "title_original": "Muvon/octoweb",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Muvon/octoweb",
+    "published_at": "2026-09-13T10:17:35Z",
+    "category": "agent-skills",
+    "summary": "Rust開發的macOS鍵盤優先AI瀏覽器，基於WebKit，內建AI側邊欄、隔離工作區與MCP伺服器，讓Agent能直接驅動網頁操作。",
+    "highlights": [
+      "Rust + WebKit核心，強調效能與安全",
+      "鍵盤優先操作介面，適合技術使用者",
+      "隔離工作區避免瀏覽狀態汙染",
+      "內建MCP伺服器，Agent可直接控制瀏覽器"
+    ],
+    "why_it_matters": "這是將AI助理與瀏覽器深度整合的工具，可實現Agent驅動的網頁自動化流程，適合需要高效率網頁操作的技術使用者。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝並測試MCP指令，評估其對動態網頁的支援程度與穩定性，確認後可用於自動化測試或資料抓取場景。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/25336907?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-gtm-api-linkedin-mcp-linkedin-mcp",
+    "title": "gtm-api/linkedin-mcp：LinkedIn操作MCP伺服器",
+    "title_original": "gtm-api/linkedin-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/gtm-api/linkedin-mcp",
+    "published_at": "2026-09-13T10:13:57Z",
+    "category": "open-source-ai",
+    "summary": "開源TypeScript專案，為Claude、ChatGPT、Cursor等AI助理提供LinkedIn搜尋、連線、訊息、資料豐富化的MCP工具，號稱兩萬帳號、<1%風控率。",
+    "highlights": [
+      "支援LinkedIn搜尋、連線、訊息、資料豐富化",
+      "MCP協定支援，主流AI助理皆可呼叫",
+      "自稱20,000+帳號、<1% ban率",
+      "98 stars，社群關注度中等"
+    ],
+    "why_it_matters": "這是可將AI助理延伸至LinkedIn Outreach的工具，但<1% ban率數據未經獨立驗證，使用前需謹慎評估風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "在隔離環境測試其LinkedIn操作功能，評估風控風險與訊息傳遞效果，確認可用性後再考慮實際部署。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/309716344?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-llm",
+    "title": "本地 LLM 社群共識：現在是互聯網黃金時代的重現",
+    "title_original": "The Local LLM community feels like the golden era of the internet all over again",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf3i1m/the_local_llm_community_feels_like_the_golden_era/",
+    "published_at": "2026-09-13T09:56:52+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 上一篇感性貼文描述本地 LLM 開發者社群氛圍，認為開源模型爆炸、工具成熟、知識共享密集的現況，堪比早期互聯網的創新黃金期。此為社群情緒觀測，非技術資訊。",
+    "highlights": [
+      "屬於社群情感貼文，非技術資訊或可行動項目",
+      "反映了本地 LLM 生態的活力與開發者參與度",
+      "可作為生態熱度的側寫參考",
+      "對技術決策直接價值有限",
+      "建議低優先處理"
+    ],
+    "why_it_matters": "此類情緒性文章對技術決策無直接幫助，但可幫助判斷社群規模與動能，間接評估開源工具的長期維護風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你在評估開源專案的維護活躍度，可將此類社群情緒貼文作為輔助指標，結合 GitHub stars、PR merge 頻率等量化數據做綜合判斷。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-qwen-3-8-27b-3-6",
+    "title": "Qwen 3.8 27B 低思維模式與舊版 3.6 模型表現比較",
+    "title_original": "How does Qwen 3.8 27B compare on low thinking mode to the older 3.6 models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wf39vc/how_does_qwen_38_27b_compare_on_low_thinking_mode/",
+    "published_at": "2026-09-13T09:43:20+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶提問 Qwen 3.8 27B 在低思維預算（low thinking mode）下的效能與 Qwen 3.6 系列舊模型的差異。這涉及推論效率與輸出品質之間的取捨，是模型選擇的實務參考。",
+    "highlights": [
+      "Qwen 3.8 27B 為較新版本，架構可能已優化",
+      "低思維模式代表減少 CoT（思維鏈）token 以換取速度",
+      "比較重點在於同等延遲下的答案品質",
+      "社群尚未有系統性 benchmark 數據",
+      "實際表現高度依賴任務類型與提示設計"
+    ],
+    "why_it_matters": "Qwen 系列是本地部署熱門選擇，新舊版本差異決定了升級價值。技術用戶需要實測數據而非猜测來做遷移決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "可設計自動化腳本，以相同 prompt 在 Qwen 3.6 與 3.8 上做並排推論，記錄輸出品質與耗時差異，量化升級效益。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-dense-9b",
+    "title": "社群熱議：dense 9B 模型是否仍有市場需求？",
+    "title_original": "Is there still strong interest in a dense 9b model?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wezm58/is_there_still_strong_interest_in_a_dense_9b_model/",
+    "published_at": "2026-09-13T06:08:46+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串中，有開發者提問 dense 9B 規模模型是否仍具市場吸引力。相較於 MoE（混合專家）架構，dense 模型在單一硬體上的表現更可預測，但參數效率較低，社群意見分歧。",
+    "highlights": [
+      "Dense 9B 模型在推論時需全量參數激活，硬體要求較高",
+      "MoE 架構可透過稀疏激活降低實際計算成本",
+      "部分開發者認為 dense 模型在特定任務上仍是 gold standard",
+      "低延遲場景下 dense 模型的穩定性受青睐",
+      "最終走向取決於實際 benchmark 數據與部署成本"
+    ],
+    "why_it_matters": "Dense vs MoE 的取捨直接影響模型選擇與部署預算。若你正評估自託管方案，這個社群討論代表了一線開發者的實際痛點。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你在尋找兼顧延遲與硬體預算的自託管方案，可將此討論列為需求文件參考，並測試同規模 dense 與 MoE 模型在目標硬體上的實際 throughput。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-huggingface-hub-ai",
+    "title": "HuggingFace Hub 被踢爆暗中指紋識別用戶使用的 AI 程式設計代理並上傳遙測數據",
+    "title_original": "huggingface_hub silently fingerprints which AI coding agent you're using and sends it as telemetry",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wey19g/huggingface_hub_silently_fingerprints_which_ai/",
+    "published_at": "2026-09-13T04:42:12+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社群揭露 huggingface_hub Python 函式庫在未明確告知用戶的情況下，會識別用戶使用的 AI 程式設計代理（如 Cursor、Cline 等），並將其作為遙測資料傳送至 HuggingFace 伺服器。此行為涉及隱私與知情同意問題。",
+    "highlights": [
+      "huggingface_hub 會檢測 import 環境中的代理識別字串並記錄",
+      "用戶未主動同意此類資料收集行為",
+      "資料傳送至 HF 伺服器，涉及隱私爭議",
+      "可能影響企業或重視隱私的開發者選擇",
+      "社群已有人提出移除或屏蔽此功能的 workaround"
+    ],
+    "why_it_matters": "對於使用本地模型的技術開發者而言，隱私底線再次被挑戰。若你家部署的模型被默默關聯到特定工具鏈，競爭情報外洩風險不可忽視。",
+    "automation_angle": null,
+    "automation_angle_zh": "檢查自己專案中的 huggingface_hub 版本，若在意隱私可隔離網路或審查其原始碼中的 telemetry 邏輯，並評估是否改用純離線模型下載方式。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-gpt-live-1",
+    "title": "GPT-Live-1 語音代理首批用戶回饋：指令遵循問題多",
+    "title_original": "First impressions of GPT-Live-1 for voice agents - lot of instruction-following issues",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1wewmyk/first_impressions_of_gptlive1_for_voice_agents/",
+    "published_at": "2026-09-13T03:29:57+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享 GPT-Live-1（疑似 OpenAI 語音代理產品）的初步使用體驗，指出指令遵循能力存在顯著問題。該產品定位於即時語音互動場景，但首批測試顯示可靠性尚未達到 production-ready 水準。",
+    "highlights": [
+      "GPT-Live-1 為針對語音互動場景的專用模型",
+      "首批用戶反映指令遵循失敗率偏高",
+      "可能涉及即時語音辨識 + LLM 推論的串接延遲問題",
+      "產品代號尚未官方確認，存在命名不確定性",
+      "此類回饋對有語音代理需求的技術用戶有直接參考價值"
+    ],
+    "why_it_matters": "語音代理是下一個落地熱點，但 GPT-Live-1 的初期表現提醒技術用戶：語音模式的可靠度仍落後文字模式，production 部署需謹慎。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你正在評估語音代理方案，可參考此類首批用戶回饋來設定 POC 預期，並設計降級策略（如 fallback 到文字模式）。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-13-minimax-h3-hugging-face",
     "title": "MiniMax-H3 登 Hugging Face 趨勢，支援多元生成任務",
     "title_original": "MiniMaxAI/MiniMax-H3",
@@ -339,6 +535,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-13-chatgpt-blender-mcp-3d",
+    "title": "ChatGPT 結合 Blender MCP 從零打造 3D 模型",
+    "title_original": "ChatGPT + Blender MCP Built This From Scratch",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1wem6s7/chatgpt_blender_mcp_built_this_from_scratch/",
+    "published_at": "2026-09-12T19:44:06+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶展示透過 ChatGPT 搭配 Blender MCP（Mcp for Blender）成功從零創建 3D 模型的流程，驗證了 AI 代理操作外部工具鏈的實務可能性。MCP 協議讓模型可直接控制 Blender 進行建模。",
+    "highlights": [
+      "ChatGPT 透過 MCP 協議與 Blender 整合，無需手動轉譯指令",
+      "流程從 prompt 到 3D 幾何體，全程由 AI 驅動",
+      "代表「AI + 專業工具」工作流程的可行性驗證",
+      "對遊戲、動畫、建築視覺化場景有潛在意義",
+      "實作細節與錯誤處理仍有優化空間"
+    ],
+    "why_it_matters": "AI 代理操控外部工具的能力正在成熟。若你能將此模式複製到自己的工具鏈，工作流程自動化邊界將大幅擴展。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估你的工作流程程中是否有類似 Blender 的可腳本化工具，評估 MCP 整合可行性，測試「一句話指令 → 工具操作」的端到端自動化。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-12-matplotlibnet-c-mcp",
     "title": "MatPlotLibNet：C#原生繪圖函式庫，內建MCP伺服器",
     "title_original": "xkqg/MatPlotLibNet",
@@ -416,6 +640,32 @@
     "automation_angle_zh": "在部署新本地模型前，先用smolbenchmark跑一輪基準測試，比較幾個候選模型在相同任務下的延遲與吞吐表現。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-gpt-6-astra-openai",
+    "title": "GPT-6 Astra 回歸問題 OpenAI 承認並部分修復",
+    "title_original": "The GPT 6 Astra Downgrade Was Real. OpenAI Acknowledged And Fixed It (Partially)",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1wedbfi/the_gpt_6_astra_downgrade_was_real_openai/",
+    "published_at": "2026-09-12T13:56:37+00:00",
+    "category": "new-models",
+    "summary": "社群反應 GPT-6 Astra 版本出現能力下降，OpenAI 已官方確認此問題並進行部分修復。此事件顯示即使是旗艦模型也可能出現版本退化，影響依賴其進行生產工作流程程的開發者。",
+    "highlights": [
+      "用戶反映模型輸出品質與回應穩定性下滑",
+      "OpenAI 官方承認問題存在",
+      "已進行部分修復但據報導未完全恢復"
+    ],
+    "why_it_matters": "模型版本不穩定直接衝擊自動化流程的可靠性，技術人員應建立版本測試機制，避免生產環境盲目升級。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議在 CI/CD 流程中加入模型輸出品質檢測，一旦發現異常可自動回滾或切換備援模型。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -1666,6 +1916,32 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-09-13-openai-chatgpt",
+    "title": "OpenAI 推出金融服務專用 ChatGPT",
+    "title_original": "Introducing ChatGPT for Financial Services | OpenAI",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1wcsciq/introducing_chatgpt_for_financial_services_openai/",
+    "published_at": "2026-09-10T18:58:47+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 宣布針對金融服務業推出專用版 ChatGPT，可能包含客製化法規遵循、風險分析與合約審查功能。此為針對特定產業的垂直整合方案，反映 AI 落地企業場景的趨勢。",
+    "highlights": [
+      "針對金融機構的合規與風控需求優化",
+      "可能內建監管文書處理能力",
+      "為企業版用戶提供更安全的資料處理機制"
+    ],
+    "why_it_matters": "產業專用 AI 成為大廠布局重點，若功能屬實將衝擊現有金融科技文件處理市場，技術宅可評估其 API 可整合性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可評估其 API 是否開放、能否透過企業帳號自訂工作流程程，或用於自動化法遵文件初審。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-10-oui-1-ui",
     "title": "OUI-1：專門生成客製化 UI 元素的本地模型",
     "title_original": "OUI-1: a model that generates bespoke UI elements",
@@ -2081,6 +2357,34 @@
       "en"
     ],
     "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-nvidia-sports-intelligence-playbooks",
+    "title": "NVIDIA sports-intelligence-playbooks：運動智慧開源起手包",
+    "title_original": "NVIDIA/sports-intelligence-playbooks",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/NVIDIA/sports-intelligence-playbooks",
+    "published_at": "2026-09-10T06:02:11Z",
+    "category": "open-source-ai",
+    "summary": "NVIDIA釋出以自家AI堆疊為基礎的運動智慧起手包，包含playbooks、訓練配方與多模態語言模型推論腳本，提供Python實作範例。",
+    "highlights": [
+      "基於NVIDIA AI堆疊的運動分析方案",
+      "包含playbooks、訓練配方與推論程式碼",
+      "多模態語言模型應用範例",
+      "21 stars，仍屬早期階段"
+    ],
+    "why_it_matters": "此專案展示多模態語言模型在運動分析領域的應用潛力，技術團隊可借鑒其pipeline設計思路。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載並部署playbooks，評估運動分析pipeline的可行性與NVIDIA GPU優化效果，作為多模態應用開發的參考。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1728152?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
