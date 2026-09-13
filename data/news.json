@@ -28,6 +28,260 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-09-13-minimax-h3-hugging-face",
+    "title": "MiniMax-H3 登 Hugging Face 趨勢，支援多元生成任務",
+    "title_original": "MiniMaxAI/MiniMax-H3",
+    "source": "Hugging Face Trending Models",
+    "source_url": "https://huggingface.co",
+    "original_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+    "published_at": "2026-09-13T02:10:14.273229+00:00",
+    "category": "open-source-ai",
+    "summary": "MiniMaxAI/MiniMax-H3 在 Hugging Face 熱門模型中獲得 5201 個讚與 486 萬次下載，支援文字生成影片、圖文生成影片、圖片生成影片、影片生成影片，以及文字、圖片、影片與音訊的跨格式轉換。",
+    "highlights": [
+      "支援九種以上生成與轉換任務類型",
+      "影片、影像、語音跨模態轉換能力完整",
+      "下載量達 486 萬，社群接受度高",
+      "提供 safetensors 格式，安全部署友好",
+      "可直接用 diffusers 函式庫加载使用"
+    ],
+    "why_it_matters": "開源且高整合度的多模態生成模型，技術宅可用來快速原型多模態應用。與封閉 API 相比無呼叫次數限制，適合需要大量生成素材的自動化場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "用 diffusers 部署到本地 GPU，批次處理圖文素材生成行銷影片，測試本機硬體需求與生成速度是否符合生產環境延遲標準。",
+    "tags": [
+      "open-source-ai",
+      "hf_models",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-prefab-sentinel-vrchat-mcp",
+    "title": "Prefab Sentinel：VRChat 資產修復 MCP 伺服器",
+    "title_original": "tyunta/prefab-sentinel",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tyunta/prefab-sentinel",
+    "published_at": "2026-09-13T01:50:21Z",
+    "category": "agent-skills",
+    "summary": "MCP 伺服器專門處理 VRChat 專案資產，可解析 YAML 設定並修復損壞引用、Prefab Variant 覆蓋偏移、空接線問題，同時提供 dry-run 與確認閘道，內建審計日誌，Star 數 11。",
+    "highlights": [
+      "解析 UdonSharp 分離的程式與行為結構",
+      "偵測並修復 prefab 資產的斷裂引用",
+      "處理 prefab 間的參數覆蓋偏移問題",
+      "提供 dry-run 模式避免意外修改",
+      "內建審計日誌方便問題溯源"
+    ],
+    "why_it_matters": "資產完整性維護是遊戲與元宇宙專案的核心痛點。Prefab Sentinel 將繁瑣的人工排查自動化，讓開發者專注創意而非資產除錯。對 VRChat 開發者有實質幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "對有 VRChat 專案的讀者，可將此 MCP 整合進現有 CI/CD 流程，每次 build 前自動執行資產完整性檢查，防止發布後才發現斷裂引用。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/11189964?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-vllm-lora",
+    "title": "開發者打造基於 vLLM 的 LoRA 轉接器無伺服器託管平台",
+    "title_original": "I built a serverless hosting platform for LoRA adapters with vLLM",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1weum85/i_built_a_serverless_hosting_platform_for_lora/",
+    "published_at": "2026-09-13T01:50:07+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享自建 vLLM 無伺服器架構來託管 LoRA 轉接器的專案，可依需求動態載入不同 LoRA adapter，降低閒置資源成本。原始文章缺乏技術細節與 GitHub 連結，社群互動程度中等。",
+    "highlights": [
+      "使用 vLLM 作為推論引擎，支援高效能 LLM 推論",
+      "無伺服器架構可按需動態載入/卸載 LoRA adapter",
+      "理論上可節省閒置 adapter 的 GPU 記憶體佔用",
+      "目前僅有 Reddit 貼文，未提供完整開源 repo 或技術文件",
+      "部署方式與效能基準數據尚未公開"
+    ],
+    "why_it_matters": "若此架構可實際落地，能大幅簡化多 LoRA adapter 的管理與部署流程，讓開發者更彈性地測試不同微調模型，但目前資訊不足以評估實際價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可追蹤此專案後續是否開源，評估其架構是否能整合至現有 MLOps pipeline，實現 LoRA adapter 的自動熱載入與成本優化。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-pi",
+    "title": "社群分享：個人化 Pi 工具自訂基準測試方法",
+    "title_original": "Benchmark your custom Pi tools",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1weufjc/benchmark_your_custom_pi_tools/",
+    "published_at": "2026-09-13T01:40:33+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享如何為自訂的 pi.dev 工具建立基準測試，涵蓋測試資料集建構、效能指標追蹤與結果分析方法。屬技術社群實務經驗交流。",
+    "highlights": [
+      "自訂工具需建立內部品質標準",
+      "測試資料選擇影響結果可信度",
+      "延遲、準確率為常見評估維度",
+      "Pi 生態工具仍處快速迭代階段",
+      "社群驅動的 Best Practice 累積"
+    ],
+    "why_it_matters": "對於投入 pi.dev 工具開發的技術用戶，此類實務經驗可減少探索成本。但缺乏官方文件支援，品質參差不齐。",
+    "automation_angle": null,
+    "automation_angle_zh": "可借鑒其測試方法學，用於評估或改進個人工作流程程中使用的 AI 輔助工具，建立量化改善指標。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-claude-code-zsh-completion-cli",
+    "title": "Claude Code Zsh Completion 強化 CLI 代理互動",
+    "title_original": "1160054/claude-code-zsh-completion",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/1160054/claude-code-zsh-completion",
+    "published_at": "2026-09-13T01:32:54Z",
+    "category": "agent-skills",
+    "summary": "Zsh completion 外掛為 Claude Code CLI 提供指令補全，可補全 sessions、MCP servers、agents、models 等設定參數，支援 120 種以上語言，Star 數 12 的小型但實用的開發工具。",
+    "highlights": [
+      "自動補全 Claude Code CLI 的設定參數",
+      "涵蓋 sessions、MCP servers、agents、models 四大類",
+      "支援 120+ 程式語言環境",
+      "Shell 腳本寫成，依賴極低",
+      "可直接整合進現有 Zsh 配置即時生效"
+    ],
+    "why_it_matters": "CLI 工具補全是提升日常效率的細節優化。對於頻繁使用 Claude Code 的技術宅，正確補全可減少拼寫錯誤與指令查詢時間，讓代理工作流程更順暢。",
+    "automation_angle": null,
+    "automation_angle_zh": "直接 clone 到 dotfiles 安裝到 $fpath，下次 terminal 開啟後測試 claude-code 指令補全是否正常，驗證工作效率提升幅度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Shell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/9334235?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-anthropic-openai-ai",
+    "title": "Anthropic 與 OpenAI 正式聘請獨立安全審計機構強化 AI 風險管控",
+    "title_original": "It’s official - Anthropic & OpenAI have just hired independent safety auditors!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wesoz4/its_official_anthropic_openai_have_just_hired/",
+    "published_at": "2026-09-13T00:18:21+00:00",
+    "category": "hot-topics",
+    "summary": "兩大 AI 公司 Anthropic 與 OpenAI 先後宣布聘請獨立第三方進行安全審計，反映 AI 產業對監管壓力的回應。此舉被視為提升模型部署信任度的行業趨勢。",
+    "highlights": [
+      "獨立審計不同於內部安全評估",
+      "審計範圍可能涵蓋對齊技術與輸出過濾機制",
+      "此舉或影響企業客戶的採購決策",
+      "對開源社群透明度影響尚待觀察",
+      "屬預防性監管合規策略"
+    ],
+    "why_it_matters": "安全審計將成為 AI 產品商業化的重要門檻。對技術決策者而言，了解審計標準可助於評估供應商風險，但對日常開發直接影響有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注審計報告公開內容，評估其對模型能力限制的具體描述，以作為內部使用政策參考。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-simon-willison-gpt-6-astra-agent",
+    "title": "Simon Willison 實測 GPT-6 Astra 自動生成跑步路線：展示地理空間 Agent 能力與壓縮透明度問題",
+    "title_original": "Generating running routes with GPT-6 Astra and ChatGPT Work",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+    "published_at": "2026-09-12T23:56:42+00:00",
+    "category": "agent-skills",
+    "summary": "AI 部落格作者 Simon Willison 展示 ChatGPT Work 配合 GPT-6 Astra 自動生成 5K/10K 跑步路線，使用 OpenStreetMap 資料並輸出 GPX 與 GeoJSON。過程中暴露出對話壓縮導致程式碼消失的透明度問題。",
+    "highlights": [
+      "Agent 成功整合地理編碼與路網資料查詢",
+      "自動生成可下載的 GPX 格式跑步路線檔案",
+      "壓縮機制造成中間程式碼不可追溯",
+      "Simon 批評此為 anti-feature",
+      "建議 LLM 系統應保留壓縮前的完整對話記錄"
+    ],
+    "why_it_matters": "此案例展示多工具 Agent 的實用價值，但同時揭示主流系統的透明度缺陷。對依賴長程 Agent 任務的開發者而言，如何確保可審計性是關鍵議題。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用類似流程自動化地理資料處理腳本，測試 Agent 在複雜多步驟任務中的可靠性，並注意記錄中間產物以防資料遺失。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-13-pi-dev",
+    "title": "本地模型開發者尋求 pi.dev 外掛方案：上下文壓縮與記憶體管理工具討論",
+    "title_original": "What pi.dev plugin do you suggest for context, compaction and memory management of local models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1weolwq/what_pidev_plugin_do_you_suggest_for_context/",
+    "published_at": "2026-09-12T21:19:58+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群討論本地部署 LLM 所需的 pi.dev 開發外掛，焦點在上下文視窗管理、對話壓縮技術與 GPU 記憶體優化。討論者分享各自使用的工具鏈與踩坑經驗。",
+    "highlights": [
+      "討論核心為提升本地模型可用性的工程實踐",
+      "pi.dev 為 VS Code 系的 AI 程式設計外掛生態",
+      "上下文壓縮影響長程任務的穩定性",
+      "記憶體管理直接關係本地部署成本",
+      "社群建議涵蓋 lm-format-enforcer、vllm 等工具"
+    ],
+    "why_it_matters": "本地模型部署涉及繁瑣的工程優化，正確的工具鏈可大幅降低除錯成本。對於需要在邊緣裝置或無網路環境執行模型的技術人員，此討論提供實務參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可評估這些外掛是否整合進現有 CI/CD 流程，測試對長程推論任務的穩定性提升。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-llm",
+    "title": "本地 LLM 新手求助：推薦適合入門的模型選擇方向",
+    "title_original": "Can someone point me in the right direction of what model(s) to look at for a newer user?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1weng3o/can_someone_point_me_in_the_right_direction_of/",
+    "published_at": "2026-09-12T20:33:09+00:00",
+    "category": "new-models",
+    "summary": "Reddit 社群新手使用者發文詢問本地部署模型的選擇建議，涉及硬體需求、模型大小與任務適用性的基本問題。討論回覆提供實用指引但資訊較為通用。",
+    "highlights": [
+      "新手問題反映本地 AI 應用持續普及",
+      "7B 參數模型為常見入門選擇",
+      "Q4/KVCache 量化技術影響硬體需求",
+      "Llama 3/Qwen 系列為熱門選項",
+      "缺乏具體產品/定價變化資訊"
+    ],
+    "why_it_matters": "此類問答顯示本地 AI 工具的技術門檻正在下降，但對於追求高信號情報的技術用戶，此類通用討論資訊價值有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "可做為團隊內部新進人員 onboarding 參考，但對提升工作效率的直接幫助不大。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-12-saki-panel-sre-ai",
     "title": "Saki-Panel：內建SRE代理的新一代AI原生伺服器運維面板",
     "title_original": "EthanChan050430/Saki-Panel",
@@ -54,6 +308,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/165824891?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-13-real-swe-ai",
+    "title": "Real-SWE 基準測試問世：專注軟體工程任務的 AI 模型評估框架",
+    "title_original": "Real-SWE Benchmark (new)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wemcdc/realswe_benchmark_new/",
+    "published_at": "2026-09-12T19:50:03+00:00",
+    "category": "open-source-ai",
+    "summary": "Real-SWE 為新興的軟體工程基準測試，專門設計用於評估 AI 模型在真實程式碼任務上的表現。相較傳統 LeetCode 風格測試，更強調實際開發情境。",
+    "highlights": [
+      "針對軟體工程任務設計的基準",
+      "測試案例更接近實際開發場景",
+      "可用於橫向比較模型程式碼能力",
+      "對自動化程式碼生成研究有參考價值",
+      "開源可重現測試結果"
+    ],
+    "why_it_matters": "軟體工程基準幫助技術團隊客觀選擇 Coding Agent 工具。優質基準能縮短模型評估週期，對提升開發自動化效率有直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可將此基準納入內部模型評估流程，用於選擇或比較程式碼生成工具的效能。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
