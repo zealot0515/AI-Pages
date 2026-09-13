@@ -28,6 +28,34 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-09-13-rtx-3090-24gb-vllm-aot-qwen3-8-27b-int4-144k-fp8-kv",
+    "title": "RTX 3090 24GB 用戶可透過 VLLM AOT 執行 Qwen3.8 27B INT4 144K FP8 KV",
+    "title_original": "Dear 24G owners, try VLLM you might be able to run Qwen3.8 27B INT4, 144K FP8 KV on RTX 3090 with better speed. (TLDR VLLM AOT)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfdtm7/dear_24g_owners_try_vllm_you_might_be_able_to_run/",
+    "published_at": "2026-09-13T17:25:05+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 網友分享使用 VLLM 的 AOT（前瞻執行）模式，在 RTX 3090（24GB VRAM）上成功執行 Qwen3.8 27B INT4 量化版本，支援 144K 上下文 FP8 KV Cache，並聲稱獲得不錯的速度表現。此為社群實測經驗分享，非官方性能保證。",
+    "highlights": [
+      "RTX 3090 24GB 可負載 Qwen3.8-27B INT4 量化模型",
+      "VLLM AOT 模式是實現長上下文推論的關鍵優化",
+      "144K 上下文 FP8 KV Cache 對長文件處理有實用價值",
+      "實際速度與穩定性依賴散熱、驅動、系統配置",
+      "需注意 Qwen3.8 版本號與發布狀態需進一步確認"
+    ],
+    "why_it_matters": "消費級顯示卡跑 27B 模型且支援超長上下文，是本地部署的重大突破。技術宅可評估是否能取代部分雲端 API 需求，節省長期推論成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "有 RTX 3090/4090 的開發者可安裝 VLLM 最新版，嘗試部署 Qwen3.8-27B-INT4 至本地，測試長文件摘要、程式碼生成等任務的延遲與輸出品質。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-13-smart-terminal-mcp-windows-pty-mcp",
     "title": "Smart Terminal MCP：支援Windows的PTY橋接MCP伺服器",
     "title_original": "pungggi/smart-terminal-mcp",
