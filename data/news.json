@@ -1,5 +1,145 @@
 [
   {
+    "id": "2026-09-14-sloppy-laravel-ai",
+    "title": "Sloppy：Laravel專用的AI程式碼債務靜態分析工具",
+    "title_original": "Heyosseus/sloppy",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Heyosseus/sloppy",
+    "published_at": "2026-09-14T11:13:20Z",
+    "category": "agent-skills",
+    "summary": "Laravel框架專用的開源靜態分析工具，專門清理AI編碼助理留下的程式碼債務。包含24條規則、git-diff審查、CI注釋、MCP伺服器，無需LLM即可運行。",
+    "highlights": [
+      "24條Laravel專屬規則，精準檢測程式碼問題",
+      "無需LLLM，本地運行，節省成本",
+      "支援git-diff增量審查與CI整合",
+      "提供Rector與Pint自動修復建議",
+      "含MCP伺服器，方便Agent工具調用"
+    ],
+    "why_it_matters": "填補AI輔助編碼品質保障的空缺，為使用Laravel的技術團隊提供零LLM成本的程式碼品質監控方案，可直接整合至CI流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "將Sloppy整合至CI/CD pipeline，自動檢測並修復AI輔助開發中產生的Laravel程式碼債務，實現程式碼品質自動化把關。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "PHP"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/102967865?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-14-pilink-gpt-agent-mcp",
+    "title": "PiLink：將GPT網頁聊天整合至本地編碼Agent的MCP伺服器",
+    "title_original": "roccoangelella/PiLink",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/roccoangelella/PiLink",
+    "published_at": "2026-09-14T10:59:46Z",
+    "category": "agent-skills",
+    "summary": "TypeScript撰寫的MCP伺服器，可將GPT網頁對話整合至Pi Agent本地編碼框架。Stars僅19，屬新興專案，功能完整性與穩定性需進一步驗證。",
+    "highlights": [
+      "TypeScript MCP伺服器，技術棧現代化",
+      "橋接GPT網頁對話與本地編碼Agent工作流程",
+      "基於Pi Agent harness整合",
+      "Stars僅19，社群支援度有限"
+    ],
+    "why_it_matters": "提供將雲端GPT對話能力接入本地Agent的思路，但專案成熟度不足。技術用戶可評估其架構是否值得關注或參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝並測試該MCP伺服器，評估是否能將GPT網頁對話無縫整合至現有本地編碼流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/195187200?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-14-rtx-pro-5500-blackwell-84gb",
+    "title": "RTX PRO 5500 Blackwell（84GB）顯示卡發布",
+    "title_original": "RTX PRO 5500 Blackwell (84GB) released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfxi36/rtx_pro_5500_blackwell_84gb_released/",
+    "published_at": "2026-09-14T08:19:57+00:00",
+    "category": "new-models",
+    "summary": "Reddit 消息指出 RTX PRO 5500 Blackwell 版本配備 84GB 顯示記憶體已正式發布。Blackwell 架構為 NVIDIA 最新 GPU 系列，84GB 記憶體配置適合大規模本地 AI 模型推論或微調作業。消息來源為社群討論，詳細規格待官方確認。",
+    "highlights": [
+      "RTX PRO 5500 Blackwell 版本，配有 84GB VRAM",
+      "屬於 NVIDIA 最新 Blackwell 架構顯示卡",
+      "84GB 記憶體適合本地大模型部署",
+      "Reddit 來源，詳細官方規格尚未確認"
+    ],
+    "why_it_matters": "大記憶體顯示卡對本地執行 70B+ 參數模型至關重要。此規格若屬實，將顯著提升技術用戶的本地 AI 推論能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方規格確認後，可評估此顯示卡是否值得用於自建 GPU cluster 以降低 API 調用成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-14-langchain-agent",
+    "title": "LangChain 付費媒體 Agent 建構實戰",
+    "title_original": "How We Built LangChain’s Paid Media Agent",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/paid-media-agent",
+    "published_at": "2026-09-14T02:43:39+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格詳細說明如何建構付費媒體 Agent，核心功能包括分析廣告活動表現、自動化優化提案、以及將行銷數據轉化為可執行行動。該 Agent 展示如何用 LangGraph 编排多步驟的行銷自動化流程。",
+    "highlights": [
+      "Agent 具備分析廣告成效數據並提出優化建議的能力",
+      "使用 LangGraph 實現多步驟推論和工作流程编排",
+      "可自動化將行銷數據轉換為具體操作指令",
+      "屬於 LangChain 實際生產案例分享",
+      "涵蓋從數據攝取到行動執行的完整 pipeline"
+    ],
+    "why_it_matters": "這是 LangChain 生產級 Agent 架構的具體範例，可作為建構企業級 AI Agent 的參考藍圖。對於需要自動化行銷或商務流程的技術團隊有直接參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可研究其 LangGraph 架构設計，用於自建類似的商務自動化 Agent，例如庫存管理、客戶服務或財務對帳流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-14-commit-rewriter-0-1-git",
+    "title": "commit-rewriter 0.1：互動式 Git 提交訊息編輯工具",
+    "title_original": "commit-rewriter 0.1",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+    "published_at": "2026-09-14T00:28:10+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 commit-rewriter 0.1，可用於批次編輯 Git 提交歷史中的 commit 訊息。工具提供網頁介面，支援編輯任意提交之後的所有訊息，並自動建立時間戳分支以供還原。適合清理 AI coding agent 產生的多餘資訊或隱藏內部 issue ID。",
+    "highlights": [
+      "網頁介面互動編輯，支援批量修改多個 commit 訊息",
+      "編輯後自動建立 timestamped branch 保護原始 repo 狀態",
+      "支援 path/to/repo 或在 repo 目錄中直接執行",
+      "使用 uvx 快速啟動，無需 pip 安裝",
+      "主要用途：清理 AI agent 產生的 coding cruft 和隱藏 internal issue ID"
+    ],
+    "why_it_matters": "CI/CD 流程中常有 commit 訊息不夠乾淨的問題，此工具可快速批量修正而不會破壞程式碼歷史。對於維護開源專案或企業內部流程的技術管理者特別實用。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合進 Git 工作流程程，用於自動化清理大型專案的 commit 歷史；或在 PR review 流程中作為訊息規範化工具測試。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-09-12-perplexity-gpt-6-astra",
     "title": "Perplexity 將 GPT-6 Astra 應用於端到端系統",
     "title_original": "Perplexity trusts GPT-6 Astra with end-to-end systems",
@@ -21,6 +161,34 @@
     "automation_angle_zh": "技術人員可申請 Perplexity API 測試許可，借鑒其 prompt engineering 模式實現類似的工作流程程自動化。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-14-shot-scraper-1-12-webp",
+    "title": "shot-scraper 1.12：截圖工具新增 WebP 輸出支援",
+    "title_original": "shot-scraper 1.12",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
+    "published_at": "2026-09-13T23:58:14+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 的 shot-scraper 截圖自動化工具發布 1.12 版本，新增 WebP 格式輸出能力。透過 --quality 參數可調整壓縮品質（80 即為 80% 品質），預設為無損壓縮。實測顯示 WebP 檔案大小通常遠小於 JPEG 或 PNG，且基於 Playwright 引擎。",
+    "highlights": [
+      "新支援 WebP 格式輸出，命令：shot-scraper url -o output.webp --quality 80",
+      "--quality 參數控制壓縮品質，不指定則為無損",
+      "WebP 通常比 JPEG/PNG 檔案更小，適合網頁嵌入",
+      "基於 Playwright 截圖引擎，支援 JavaScript 渲染頁面",
+      "此次更新直接用於 commit-rewriter 工具的截圖展示"
+    ],
+    "why_it_matters": "AI 工具說明文件、Demo 截圖等場景需要高畫質但小體積的圖片格式。WebP 支援可顯著減少 CI 產物的儲存空間和傳輸成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可設定為自動化文件建置流程的一環，批量截取網頁或 WebApp 介面並輸出最佳化圖片，用於 AI 工具的文件或 changelog。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
