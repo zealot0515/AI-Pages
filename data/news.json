@@ -1,5 +1,313 @@
 [
   {
+    "id": "2026-09-14-people-context-ai-agent",
+    "title": "people-context：為 AI Agent 建立的人物關係本地記憶庫",
+    "title_original": "JinyangWang27/people-context",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/JinyangWang27/people-context",
+    "published_at": "2026-09-14T17:15:36Z",
+    "category": "agent-skills",
+    "summary": "一款本地優先的 MCP 伺服器，專為 AI Agent 設計人物關係記憶功能。使用 SQLite 儲存資料，CLI 介面，強調永不對外連線。適合需要長期追蹤人物互動歷史的 Agent 應用場景。",
+    "highlights": [
+      "Python 實作， SQLite 後端，本地儲存",
+      "MCP 協定支援，可與主流 Agent 框架對接",
+      "永不對外傳輸資料，符合隱私需求",
+      "新興專案，僅 16 顆星，需觀察社群發展"
+    ],
+    "why_it_matters": "在客戶服務或人力資源等需維護人物關係上下文的場景，可直接整合此工具，省去自行建構關係資料庫的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 people-context 部署為 CRM 或招募 Agent 的長期記憶後端，追蹤候選人或客戶的互動歷程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/42408214?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-14-kitewright-rust-mcp",
+    "title": "kitewright：輕量級 Rust 瀏覽器自動化 MCP 伺服器",
+    "title_original": "kitewright/kitewright",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/kitewright/kitewright",
+    "published_at": "2026-09-14T17:09:01Z",
+    "category": "agent-skills",
+    "summary": "kitewright 是一款以 Rust 實作的輕量瀏覽器自動化 MCP 伺服器（主體約 7MB），支援串流 HTTP、21 種工具、HTML 轉 PDF，並提供與 Puppeteer 相容的 npm 介面卡，方便前端開發者無痛遷移。",
+    "highlights": [
+      "Rust 實作，核心僅約 7MB，資源佔用低",
+      "21 種工具涵蓋常見瀏覽器操作場景",
+      "支援 HTML→PDF 轉換",
+      "提供 npm（Puppeteer 相容） façade，降低前端團隊遷移成本"
+    ],
+    "why_it_matters": "對需要建構網頁截圖、PDF 匯出或爬蟲流程的 Agent 應用，kitewright 提供比傳統 Puppeteer 更輕量的替代方案，且 MCP 協定原生支援 AI Agent 呼叫。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 kitewright 整合至 Agent 工作流程，實現自動化網頁截圖、報表轉 PDF 或動態內容抓取。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/302683212?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-14-termux-mcp-ai-android-shell",
+    "title": "Termux-MCP：讓 AI 代理在 Android 裝置上執行 Shell 指令",
+    "title_original": "termuxgpt/termux-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/termuxgpt/termux-mcp",
+    "published_at": "2026-09-14T17:00:50Z",
+    "category": "agent-skills",
+    "summary": "termuxgpt/termux-mcp 是一個專為 Termux 設計的 MCP 伺服器，能讓 AI 代理即時在你的 Android 裝置上執行 Shell 指令。該專案以 Python 開發，目前已獲得 28 個 GitHub 星標，為行動端 AI 自動化提供了新的可能性。",
+    "highlights": [
+      "• MCP 協定相容，可對接多種 AI 代理框架",
+      "• 支援 Android 裝置上的即時 Shell 命令執行",
+      "• Python 實作，易於擴展與修改",
+      "• 可與 Termux 環境無縫整合",
+      "• 為行動端自動化開闢新途徑"
+    ],
+    "why_it_matters": "對於需要在手機或平板上執行自動化腳本的技術人員而言，這是第一個可直接讓 AI 代理控制 Termux 環境的 MCP 方案，大幅降低行動自動化的進入門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將此 MCP 伺服器連接至自建的 AI 代理，在 Android 裝置上實現如自動備份、任務排程或遠端監控等自動化工作流程程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/276235098?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-14-github-copilot",
+    "title": "GitHub Copilot 自動模型選擇新增成本與品質設定選項",
+    "title_original": "Configure cost and quality in Copilot auto model selection",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
+    "published_at": "2026-09-14T16:05:27+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 的自動模型選擇功能現已支援三種層級設定：效率模式（Efficiency）、平衡模式（Balance）與智慧模式（Intelligence）。開發者可根據需求選擇自動模型在成本、品質與回應速度之間的權衡策略。",
+    "highlights": [
+      "• 新增三種層級：Efficiency、Balance、Intelligence",
+      "• 可控制成本與回應品質之間的取捨",
+      "• 降低 AI 工具使用成本的潛力",
+      "• 為不同開發場景提供彈性配置",
+      "• 官方 GitHub Changelog 公告，可信度高"
+    ],
+    "why_it_matters": "開發團隊現在能更精準地控制 Copilot 的資源消耗，在需要快速原型開發時選用效率模式，在需要高品質建議時切換至智慧模式，實質降低 AI 輔助開發的成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可透過企業管理後台設定團隊預設層級，並根據專案階段動態調整，例如在趕工期使用效率模式以節省 API 配額。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-14-google-devfest-2026",
+    "title": "Google DevFest 2026 全球開發者活動開放報名",
+    "title_original": "DevFest is back",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+    "published_at": "2026-09-14T16:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google 宣布 DevFest 2026 將在全球舉辦超過 800 場活動，主題聚焦於代理式 AI 時代的建構、安全與擴展。本次活動旨在幫助開發者掌握 Google AI 生態系的最新工具與技術。",
+    "highlights": [
+      "• 全球超過 800 場活動規模",
+      "• 主題包含建構、安全、擴展三大領域",
+      "• 聚焦代理式 AI 應用開發",
+      "• Google 官方主辦，可信度最高",
+      "• 提供面對面交流與技術實作機會"
+    ],
+    "why_it_matters": "DevFest 是了解 Google AI 工具鏈最新動態的重要窗口，尤其對於已使用 Gemini API 或 Google Cloud AI 服務的開發者，可第一手掌握新功能與最佳實踐。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可選擇參加鄰近城市的 DevFest，獲取代理式 AI 實務工作坊的第一手經驗，並將所學應用於現有工作流程程的自動化改造。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-14-reddit-ai",
+    "title": "Reddit 討論：哪些組織在推動開源 AI 遊說？",
+    "title_original": "Are there any organizations that are lobbying in favor of open source AI?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wg6z3e/are_there_any_organizations_that_are_lobbying_in/",
+    "published_at": "2026-09-14T15:42:44+00:00",
+    "category": "open-source-ai",
+    "summary": "LocalLLaMA 社群成員提問想了解有哪些組織正在進行開源 AI 倡議的遊說活動。討論串中列出 OSI（開放原始碼促進會）、Mozilla 等組織，但尚未有系統性的產業遊說地圖。顯示開源 AI 社群對政策環境的關注度上升。",
+    "highlights": [
+      "純社群提問，缺乏完整答案",
+      "OSI、Mozilla 等傳統開源組織可能參與",
+      "AI 領域的開源倡議遊說仍在形成階段",
+      "各國對 AI 監管立場影響開源運動走向",
+      "討論串本身反映技術社群的政策焦慮"
+    ],
+    "why_it_matters": "政策環境將影響開源 AI 的可持續性。了解遊說組織能幫助技術人員預判監管風險與機會，提前布局合規策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "可追蹤 OSI、AI 聯盟等組織的政策立場，若有利政策推出，可能降低企業內部部署開源模型的合規成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-14-simon-willison-laurie-voss",
+    "title": "Simon Willison 轉載 Laurie Voss：軟體製作成本結構正在崩解",
+    "title_original": "Quoting Laurie Voss",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
+    "published_at": "2026-09-14T14:34:29+00:00",
+    "category": "hot-topics",
+    "summary": "資料庫專家 Laurie Voss 在 X 平台發文，指出 AI 導致程式碼撰寫成本驟降，審查、維護與營運成本也將逐步跟進。未來軟體製作的核心將轉向需求發掘、精確定義與使用者體驗設計，這些成本與軟體數量無關，將成為整個產業的主要工作。Simon Willison 將此文收錄於 AI Notes 專欄。",
+    "highlights": [
+      "程式碼撰寫成本因 AI 已大幅下降",
+      "除錯、維運成本正在追隨下降趨勢",
+      "核心價值將轉向理解使用者需求與產品設計",
+      "軟體需求無上限，設計成本成為主要瓶頸",
+      "Voss 預言：我們都將成為產品工程師"
+    ],
+    "why_it_matters": "此預言直接影響工程師的職涯方向與技能投資優先順序。若 AI 持續降低開發門檻，差異化將來自產品洞察而非純技術能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "工程師可重新評估自動化優先級：將重複性 coding 任務交給 AI，集中時間在需求分析與使用者體驗優化上。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-14-ai",
+    "title": "習近平推動金磚國家開源 AI 合作區",
+    "title_original": "Xi promotes open source AI zone among BRICS countries",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wg4kpu/xi_promotes_open_source_ai_zone_among_brics/",
+    "published_at": "2026-09-14T14:12:27+00:00",
+    "category": "ai-deals",
+    "summary": "Reddit 轉載新聞，習近平在金磚國家峰會上倡議建立開源 AI 合作區。此為政治聲明性質，具體合作機制、技術共享範圍與參與國響應程度均未揭露。此訊息與當前美中科技競爭背景下中國推動自主 AI 生態的策略一致。",
+    "highlights": [
+      "屬外交層面倡議，具體實施細節不明",
+      "金磚國家包含中國、俄羅斯、印度、巴西、南非等",
+      "開源 AI 可能成為南半球國家技術自主路徑",
+      "具體合作模式、貢獻標準尚未定義",
+      "美國對中國 AI 發展限制持續升級的大背景下此倡議更具地緣政治意涵"
+    ],
+    "why_it_matters": "若金磚國家形成開源 AI 聯盟，可能改變全球 AI 開源生態格局，對倚賴西方模型庫的開發者具有長期戰略意涵。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注後續合作區具體項目，若有可用模型或工具發布，可評估其與現有工作流程的整合可能性。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-14-item",
+    "title": "技術社群熱議：如何信任本地端程式碼代理放手執行任務",
+    "title_original": "What actually makes you trust a local coding agent enough to leave it running unattended?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wg1jea/what_actually_makes_you_trust_a_local_coding/",
+    "published_at": "2026-09-14T12:05:03+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社區展開關於「本地程式碼代理可信度」的深度討論。參與者分享了在何種條件下才願意讓本地 AI 代理在無監護狀態下執行任務的觀點，涵蓋安全機制、錯誤復原與審計能力等議題。",
+    "highlights": [
+      "• 討論核心為本地 AI 代理的可信度條件",
+      "• 安全機制設計成為關注焦點",
+      "• 錯誤復原與人類接管流程受矚目",
+      "• 涉及企業級部署的安全考量",
+      "• 反映技術社群對 AI 自動化風險的警覺"
+    ],
+    "why_it_matters": "隨著本地程式碼代理能力提升，技術團隊需建立明確的使用邊界與安全策略，這場討論汇集了實務經驗，可作為企業部署 AI 代理的參考框架。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發團隊可參與此類討論，評估自建 AI 代理的安全設計是否符合業界共識，並建立自動化任務的分級授權機制。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-14-fyxer-ai",
+    "title": "Fyxer：結合微調、記憶與回饋的 AI 執行助理",
+    "title_original": "How Fyxer built an AI executive assistant people trust",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/fyxer",
+    "published_at": "2026-09-14T12:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Fyxer 是一款建立於 OpenAI 模型之上的 AI 執行助理，透過微調、記憶機制與真實使用者回饋，讓 AI 能以使用者的個人風格整理收件匣與草擬郵件。官方 Blog 披露詳細建構歷程。",
+    "highlights": [
+      "使用 OpenAI 模型作為基底",
+      "結合微調以學習個人寫作風格",
+      "持續接收使用者回饋以改善輸出品質",
+      "核心場景：郵件分類與草擬"
+    ],
+    "why_it_matters": "展示了一套可行的「個人化 AI 助理」建構範式：模型微調＋記憶＋主動學習，值得技術團隊參考以打造自家內部助理。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可參考 Fyxer 的建構方法論，為企業內部開發客製化的郵件或訊息處理助理。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-14-k2-horizon",
+    "title": "K2 Horizon 新模型效能引發關注，被譽為「怪獸級」表現",
+    "title_original": "The new k2 horizon models seem like an absolute beast",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wg0vqz/the_new_k2_horizon_models_seem_like_an_absolute/",
+    "published_at": "2026-09-14T11:33:32+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 用戶披露 K2 Horizon 系列新模型，稱其效能表現如同「怪獸」般強勁。討論中提及該模型在多項基準測試的初步結果，但詳細技術規格與發布時間尚未確認。",
+    "highlights": [
+      "• 模型名稱為 K2 Horizon 系列",
+      "• 被社群用戶形容為「怪獸級」效能",
+      "• 基準測試初步結果引發討論",
+      "• 詳細規格尚未公開揭露",
+      "• 資訊來源為用戶非官方披露"
+    ],
+    "why_it_matters": "若 K2 Horizon 確實達到頂尖水準，將為本地部署市場帶來新的強競爭者，對在意模型效能與部署成本平衡的技術團隊具有潛在價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可追蹤後續官方公告，待正式發布後第一時間進行本地 benchmark 測試，與現有模型比較其在特定工作負載下的性價比。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-14-sloppy-laravel-ai",
     "title": "Sloppy：Laravel專用的AI程式碼債務靜態分析工具",
     "title_original": "Heyosseus/sloppy",
@@ -57,6 +365,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-14-intern-s2-397b",
+    "title": "Intern-S2-397B 多模態推論模型亮相，號稱具備科學代理能力",
+    "title_original": "Intern-S2-397B (multimodal, reasoning, coding, and scientific agent capabilities)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfzqwh/interns2397b_multimodal_reasoning_coding_and/",
+    "published_at": "2026-09-14T10:34:13+00:00",
+    "category": "new-models",
+    "summary": "上海 AI 實驗室發布的 Intern-S2-397B 是一款具備多模態、推論、編碼及科學代理能力的大型語言模型。該模型在 Reddit r/LocalLLaMA 社區引發熱議，被拿來與現有頂尖模型比較，但詳細效能數據尚未完整揭露。",
+    "highlights": [
+      "• 參數規模達 3970 億",
+      "• 支援多模態輸入與輸出",
+      "• 強調科學推論與代理任務能力",
+      "• 社群熱度高，但資訊來源為用戶討論",
+      "• 具備本地部署潛力"
+    ],
+    "why_it_matters": "若該模型能本地部署，將為需要處理科學計算與複雜推論任務的技術團隊提供新的選擇，尤其在資料隱私敏感的場景下具有吸引力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可待官方完整發布後，下載模型權重進行本地測試，評估其在程式碼生成、文件分析等自動化任務上的表現是否符合需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-14-rtx-pro-5500-blackwell-84gb",
     "title": "RTX PRO 5500 Blackwell（84GB）顯示卡發布",
     "title_original": "RTX PRO 5500 Blackwell (84GB) released",
@@ -105,6 +441,34 @@
     "automation_angle_zh": "可研究其 LangGraph 架构設計，用於自建類似的商務自動化 Agent，例如庫存管理、客戶服務或財務對帳流程。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-14-deepseek-v4-1-flash-aa-astra",
+    "title": "DeepSeek V4.1 Flash 在 AA 新基準測試擊敗 Astra",
+    "title_original": "DeepSeek V4.1 Flash beats Astra on AA's new benchmark",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfpwhj/deepseek_v41_flash_beats_astra_on_aas_new/",
+    "published_at": "2026-09-14T01:37:44+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享截圖顯示，DeepSeek V4.1 Flash 在 AA（Arena）新推出的基準測試中超越 Astra 模型。然而截圖細節有限，DeepSeek 版本號「V4.1」尚未在官方渠道獲得證實，且 Benchmark 具體指標未公開。此為非官方社群消息，可信度有待驗證。",
+    "highlights": [
+      "DeepSeek V4.1 Flash 具體版本未獲官方確認",
+      "Benchmark 為 AA 新推出的評測標準",
+      "Astra 被選為對比基準，暗示其為中等規模模型",
+      "社群消息來源缺乏詳細數據",
+      "DeepSeek 近期在開源社群熱度持續高漲"
+    ],
+    "why_it_matters": "若 DeepSeek V4.1 Flash 確實在特定任務上超越 Astra，可能代表中國開源模型在成本效益上又有突破，值得持續關注官方動態。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方發布後，可將 DeepSeek V4.1 Flash 與現有本地模型進行實測對比，評估其速度與準確度是否值得替換。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
