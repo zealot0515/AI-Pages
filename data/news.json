@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-09-14-qcad-mcp-qcad-cad-mcp",
+    "title": "qcad-mcp：QCAD 專業建築 CAD 的 MCP 伺服器方案",
+    "title_original": "sandraschi/qcad-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sandraschi/qcad-mcp",
+    "published_at": "2026-09-14T20:43:02Z",
+    "category": "agent-skills",
+    "summary": "qcad-mcp 是以 fastmcp 3.4 建構的 Web 應用，專為 QCAD Pro 建築 CAD 軟體提供 MCP 協定支援，目前僅 12 顆星，屬於新興小型專案，尚未廣泛驗證。",
+    "highlights": [
+      "使用 fastmcp 3.4 框架建構",
+      "瞄準 QCAD Pro 建築 CAD 場景",
+      "Python 實作，可直接閱讀原始碼",
+      "星數極低（12），社群關注度不足",
+      "適合對 CAD 自動化有需求的技術用戶評估"
+    ],
+    "why_it_matters": "CAD 軟體的 MCP 支援可讓 AI Agent 直接操作建築圖紙，若此專案成熟可簡化建築業自動化流程，但目前社群支援不足，需自行評估穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "若你工作在建築 CAD 領域，可 clone 此專案，測試能否讓 AI Agent 透過 MCP 自動執行 QCAD 的圖層管理或圖塊插入等重複性操作。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/34750307?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-14-ai",
+    "title": "AI 模型訓練民主化討論：小團體能否追上大公司？",
+    "title_original": "Will we always have to rely on companies with the funds and resources to give us open models or can/will it be possible to democratize training for models capable of performing at or near the same level as the big closed ones in the future at some point?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgak6e/will_we_always_have_to_rely_on_companies_with_the/",
+    "published_at": "2026-09-14T17:49:02+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 討論核心問題：小公司或個人是否能在未來自行訓練接近大公司封閉模型效能的模型，並分析分散式訓練、資料取得與算力成本等維度。",
+    "highlights": [
+      "聚焦分散式訓練是否可降低算力需求",
+      "討論高品質訓練資料的取得門檻",
+      "分析開源模型生態對民主化的影響",
+      "小團隊 vs 大公司在資源與效率上的差距",
+      "屬於觀點討論，非新產品或技術突破"
+    ],
+    "why_it_matters": "若 AI 訓練真正民主化，技術用戶可能自建垂直領域模型，降低對商業 API 的依賴；此討論有助理解當前技術極限與未來可能性。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 LoRA、QLoRA 與分散式訓練工具鏈的進展，評估現有開源方案是否足以在有限資源下微調出符合自身需求的模型。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-14-people-context-ai-agent",
     "title": "people-context：為 AI Agent 建立的人物關係本地記憶庫",
     "title_original": "JinyangWang27/people-context",
@@ -218,6 +275,34 @@
     "automation_angle_zh": "關注後續合作區具體項目，若有可用模型或工具發布，可評估其與現有工作流程的整合可能性。",
     "tags": [
       "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-14-reddit-qwen3-5-4b",
+    "title": "Reddit 社群討論：Qwen3.5 4B 之後，有哪些更強的小型本地模型可選？",
+    "title_original": "Is there a better small model than Qwen3.5 4B for a fast local AI assistant?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wg28mu/is_there_a_better_small_model_than_qwen35_4b_for/",
+    "published_at": "2026-09-14T12:37:49+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群有開發者提問，想找比 Qwen3.5 4B 更強的小型本地 AI 助理模型，用於快速本地部署場景。討論串匯集了多個小型模型的效能比較，包含參數量、推論速度與任務表現的取捨。Qwen3.5 4B 因其低資源需求與不錯的中文能力，目前在本地部署愛好者中頗受歡迎，但社群正在探索是否有更新的替代方案。",
+    "highlights": [
+      "Qwen3.5 4B 仍是小型本地模型的主流選擇之一，中文能力與資源消耗平衡佳",
+      "社群成員分享了多個候選模型，包含同尺寸但架構不同的版本",
+      "討論重點在速度與智慧的取捨，並非所有場景都需要更大模型",
+      "本地部署關注的是延遲、記憶體佔用與輸出品質三位一體",
+      "此討論可作為技術宅評估小型模型的參考起點"
+    ],
+    "why_it_matters": "小型本地模型是未來邊緣 AI 的核心，社群實測經驗能幫技術宅快速篩選適合自己硬體與任務需求的模型，降低試錯成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可根據討論中提到的模型，在自己的硬體環境（如 M 系列 Mac、RTX GPU 或一般 CPU）上實際跑 benchmark，針對自己的自動化腳本或本地助理需求做定向測試，而非只看官方排行榜。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
