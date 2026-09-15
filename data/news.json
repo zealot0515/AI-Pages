@@ -1,5 +1,205 @@
 [
   {
+    "id": "2026-09-15-symkit-mcp-ai-agent-mcp",
+    "title": "symkit-mcp：讓 AI Agent 執行逐步符號推導的 MCP 伺服器",
+    "title_original": "LBurny/symkit-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/LBurny/symkit-mcp",
+    "published_at": "2026-09-15T15:52:39Z",
+    "category": "agent-skills",
+    "summary": "LBurny 開發的 symkit-mcp 是一款 Python 实现的 MCP 伺服器，能讓 AI Agent 在對話中執行逐步的符號運算、公式變換、驗證與儲存，同時保留完整推導歷程（provenance）。這類工具填補了多步推論與數學/工程符號處理之間的缺口，對需要嚴謹推導的工作流程程特別有價值。",
+    "highlights": [
+      "基於 Python，可直接 pip install 或以 Docker 部署",
+      "支援計算、轉換、驗證、儲存四種核心操作",
+      "保留完整推導脈絡，適合稽核或除錯",
+      "目前 GitHub 星數 12，屬於早期專案但方向明確",
+      "透過 MCP 協定與主流 Agent 框架整合"
+    ],
+    "why_it_matters": "符號推導是工程、科學、財經建模的基礎能力。將此能力注入 Agent 意味著 AI 不只能生成答案，還能展示推導邏輯，提升可信度與可追溯性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將此 MCP 整合至自己的 Agent 流程，例如讓 AI 自動驗證財務模型推導、檢查工程公式、或作為文件自動化產出的一環。今晚就能 clone 下來試接 LangChain 或 CrewAI。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/169443118?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-wormxgpt-ai-cli-agent",
+    "title": "wormxgpt：黑客風格統一 AI 工具套件，含儀表板與 CLI Agent",
+    "title_original": "gaur-avvv/wormxgpt",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/gaur-avvv/wormxgpt",
+    "published_at": "2026-09-15T15:52:36Z",
+    "category": "agent-skills",
+    "summary": "主打「無限制、無過濾」的黑客主題工具，含 React Web 儀表板與 CLI Agent，內建 150+ 工具、跨 30+ Provider 自動備援、本地工作區整合。目前僅 35 星，屬小型專案。",
+    "highlights": [
+      "React 儀表板 + CLI 雙介面",
+      "150+ 工具與多伺服器 MCP 整合",
+      "30+ 模型 Provider 自動故障轉移",
+      "標榜無內容過濾，語境激進",
+      "星數偏低（35），成熟度待觀察"
+    ],
+    "why_it_matters": "對於需要快速切換多 AI Provider 且要求最小干擾的技術人具吸引力，但無過濾設計可能導致輸出品質不稳，星數少代表實戰驗證不足。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人可將其作為快速原型工具，測試不同模型在無審查情境下的表現；正式專案建議評估其穩定性與維護頻率後再採用。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/87198156?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-loci-mcp-server",
+    "title": "loci：混合檢索「第二大脑」，文件級引用且自帶 MCP Server",
+    "title_original": "IvenKooLab/loci",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/IvenKooLab/loci",
+    "published_at": "2026-09-15T15:49:06Z",
+    "category": "open-source-ai",
+    "summary": "開源個人知識庫工具，結合向量檢索與 BM25 排序，支援分段引用，另有 MCP Server 供 AI Agent 直接查詢。程式碼約 300 行，無 LangChain 依賴，目前 47 星。",
+    "highlights": [
+      "混合檢索：向量 + BM25 互補優勢",
+      "分段引用精確追溯原文",
+      "MCP Server 讓 AI Agent 直接查詢知識庫",
+      "無 LangChain，部署輕量簡單",
+      "約 300 行代碼，學習曲線低"
+    ],
+    "why_it_matters": "個人或小團隊可用此快速建立可被 Agent 查詢的知識庫，無需引入大型框架；混合檢索比純向量更能捕捉精確關鍵字。",
+    "automation_angle": null,
+    "automation_angle_zh": "將日常筆記、文件匯入 loci 後，讓 AI Agent 在自動化工流程中主動查閱個人知識庫，例如會議摘要生成、任務上下文填充。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/73214171?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-cpu-llm-10b-100-tok-s",
+    "title": "自創 CPU 原生 LLM 架構：10B 參數模型可達 100+ tok/s，但品質是瓶頸",
+    "title_original": "I designed a CPU-native LLM architecture that hits 100+ tok/s on a 10B parameter model (the quality is the problem)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wh3yvy/i_designed_a_cpunative_llm_architecture_that_hits/",
+    "published_at": "2026-09-15T15:43:57+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享了一種 CPU 原生 LLM 架構設計，聲稱能在消費級 CPU 上讓 10B 參數模型達到每秒 100 個 token 以上的產出速度。核心瓶頸在於模型品質——速度犧牲了生成品質，目前屬於概念驗證階段。",
+    "highlights": [
+      "強調 CPU 原生執行，無需 GPU 加速",
+      "吞吐量可達 100+ tok/s（對 10B 模型而言極高）",
+      "作者自承品質不足，仍在最佳化",
+      "屬於個人實驗專案，非開源主流方案",
+      "方向暗示：稀疏化與量化技術的極限探索"
+    ],
+    "why_it_matters": "若 CPU 推論速度能接近即時，將大幅降低本地部署硬體門檻。對邊緣運算、無 GPU 環境、隱私敏感場景有戰略意義。品質問題如獲解決，將衝擊雲端 API 商業模式。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可追蹤此專案或類似 CPU 推論優化工作（如 llama.cpp 底層技術演進），評估其對自建本地推論管道的可行性。短期內可先用 llama.cpp 評估本機 CPU 吞吐量上限。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-open-reverselab-agent",
+    "title": "open-reverselab：開源逆向工程 Agent 平台，整合主流分析工具",
+    "title_original": "LING71671/open-reverselab",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/LING71671/open-reverselab",
+    "published_at": "2026-09-15T15:39:18Z",
+    "category": "open-source-ai",
+    "summary": "開源 AI 逆向工程平台，內建 MCP Server 串接 Ghidra、Frida、x64dbg、Rizin，同時提供 PE/APK/二進位自動化分析，含 100+ MCP 工具與 194 篇可執行知識庫，現有 1135 星。",
+    "highlights": [
+      "支援 Ghidra、Frida、x64dbg、Rizin 四大逆向工具",
+      "100+ MCP 工具，覆蓋常見逆向任務",
+      "194 篇可執行知識庫，協助 CTF 與惡意程式研究",
+      "PE、APK、二進位檔案自動化分析流程",
+      "GitHub 1.1k 星，社群關注度高"
+    ],
+    "why_it_matters": "安全研究與逆向工程師可借此平台用自然語言驅動傳統工具鏈，大幅降低手動操作負擔；1.1k 星說明已有一定社群驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "安全從業人員可部署後對新樣本執行自動脫殼、函式識別、行為分析流程，並將結果餽入報告系統，減少複製貼上的人工環節。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/231181387?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-agent-madrigal-abridge-vizient",
+    "title": "醫療與生命科學領域 Agent 部署實戰經驗：Madrigal、Abridge、Vizient 個案分析",
+    "title_original": "Scaling Agents in Healthcare & Life Sciences: Lessons from Madrigal Pharmaceuticals, Abridge, and Vizient",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/scaling-agents-in-healthcare-life-sciences-lessons-from-madrigal-pharmaceuticals-abridge-and-vizient",
+    "published_at": "2026-09-15T14:00:02+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 部落格探討醫療與生命科學產業在部署 Agent 時的特殊限制與回報：成功案例可將數小時的人工審查壓縮至數分鐘，整合跨系統資料並以單一介面查詢，讓臨床醫師從文件作業中奪回時間。但錯誤答案的代價極高，這改變了團隊的建構方式與驗證要求。",
+    "highlights": [
+      "錯誤成本極高 → 需要更嚴格的輸出驗證機制",
+      "資料分散在十餘個系統 → 整合能力是核心價值",
+      "時間節省直接轉化為臨床產出 → ROI 可量化",
+      "強調 Human-in-the-loop 而非全自動",
+      "約束條件與多數產業不同，無法直接套用通用框架"
+    ],
+    "why_it_matters": "醫療 AI 是目前監管最嚴、風險最高的應用場景。其 Agent 架構設計模式（驗證、容錯、人機協作）可為金融、法律、製造業等高風險領域提供參考範本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅若在相關產業，可借鏡其「分段驗證」與「錯誤代價評估」機制來設計自家 Agent。工作流程程可考慮：文件處理 → 事實查核 → 人類確認 → 自動化執行。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-google-ai-atlas-ai",
+    "title": "Google AI 發布 ATLAS 全球 AI 經濟互動數據視覺化平台",
+    "title_original": "New insights from Google’s AI & Economy ATLAS",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+    "published_at": "2026-09-15T13:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google AI 將 ATLAS 計畫中數百萬筆全球 AI 經濟數據轉化為互動式開源視覺化體驗。該平台整合多維度 AI 應用與經濟影響指標，使用者可自由探索不同地區、產業的 AI 採用趨勢與經濟關聯性。",
+    "highlights": [
+      "• 收錄數百萬筆全球 AI 經濟數據點，涵蓋多個維度指標",
+      "• 提供互動式地圖與圖表，可依地區、產業、年份篩選",
+      "• 開放免費存取，無需申請即可使用完整功能",
+      "• 可匯出數據進行二次分析，支援 CSV 格式下載",
+      "• 數據來源標註清晰，具備一定學術參考價值"
+    ],
+    "why_it_matters": "該平台為研究 AI 經濟影響提供了系統化視覺化工具，可協助技術決策者快速掌握市場趨勢與區域差異，對需要宏觀視角的技術管理者具有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可利用其 CSV 匯出功能建立自動化報告流程，定期擷取特定區域或產業數據，結合 BI 工具生成 AI 採用率追蹤儀表板。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-15-crofai-openrouter-20",
     "title": "CrofAI 被踢爆為 OpenRouter 包裝層，以高達 20 倍價差牟利後人間蒸發",
     "title_original": "CrofAI \"cheapest inference provider in the world\" gets exposed as an OpenRouter wrapper, routing requests to smaller, cheaper models at up to 20x markup. CrofAI responds to Wire Fraud allegations by denying everything, then backtracking, then 3 hours later wiping their entire online presence",
@@ -191,6 +391,34 @@
     "automation_angle_zh": "可測試該方案是否相容於 llama.cpp 或 Ollama，評估在本地自動化腳本中取代付費 API 的可行性。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-ai-localllama",
+    "title": "開源社群如何看待「放緩 AI 發展」議題：LocalLLaMA 討論摘要",
+    "title_original": "What are Open-Source Views on 'Slowing Down AI'?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgm5dg/what_are_opensource_views_on_slowing_down_ai/",
+    "published_at": "2026-09-15T01:17:12+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 討論串匯集了開源社群對 AI 減速論的回應。意見分歧：部分用戶支援暫緩以降低風險，部分認為開源協作本身就是安全網，反對人為限制。討論反映社群對 AI 治理、成本、與控制權的深層焦慮。",
+    "highlights": [
+      "支援減速方：擔憂安全性與失控風險",
+      "反對減速方：開源已提供足夠的對齊機制",
+      "核心分歧在於「誰有權決定節奏」",
+      "隱含議題：AI 成本門檻與資源分配不公平",
+      "並無共識，屬於社群情緒反映而非政策建議"
+    ],
+    "why_it_matters": "此類討論影響開源模型開發者的社群治理方向與資源分配優先序。對關注 AI 政策或長期趨勢的技術宅具有輿論參考價值，但行動導向偏低。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可將此作為社群情緒指標，追蹤是否影響主流開源模型（如 Mistral、Qwen）的發布節奏或許可證變化。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
