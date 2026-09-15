@@ -1,5 +1,147 @@
 [
   {
+    "id": "2026-09-15-agent-call-mcp-server-ai",
+    "title": "agent-call：開源 MCP Server 實現安全有狀態 AI 電話系統",
+    "title_original": "XiyaoWang0519/agent-call",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/XiyaoWang0519/agent-call",
+    "published_at": "2026-09-15T02:23:03Z",
+    "category": "agent-skills",
+    "summary": "開源 MCP Server，透過 OpenAI Realtime API 與 Twilio 整合，實現安全、有狀態的 AI 代理電話功能。使用者可讓 AI Agent 主動撥出電話並維護對話狀態。",
+    "highlights": [
+      "結合 OpenAI Realtime API 與 Twilio 電話能力",
+      "支援有狀態對話，保持跨輪次語境",
+      "開源 MIT 授權，可自架部署",
+      "使用 Twilio 處理實際通話線路",
+      "目前 97 顆星，有一定社群關注度"
+    ],
+    "why_it_matters": "電話仍是企業溝通的重要管道。AI Agent 若能主動撥出並維護狀態，可用於客服外呼、預約提醒、調研等場景，差異化明顯。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此 Server 整合進現有 Agent 系統，測試客戶外呼或通知機器人的實際通話品質與狀態管理效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/122625728?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-everything-agent-llm-agent",
+    "title": "everything-agent：LLM 驅動的多功能個人助理 Agent",
+    "title_original": "z114880/everything-agent",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/z114880/everything-agent",
+    "published_at": "2026-09-15T02:13:31Z",
+    "category": "agent-skills",
+    "summary": "TypeScript 開發的智慧 AI Agent 系統，基於 LLM 打造，具備主動助理能力，支援音樂推薦、郵件管理、任務分析與個人化建議等功能。目前星數較少，功能深度待驗證。",
+    "highlights": [
+      "TypeScript 實現，方便前端/全端開發者參與",
+      "支援音樂推薦、郵件管理、任務分析",
+      "主打主動式個人助理概念",
+      "目前僅 27 顆星，成熟度待觀察",
+      "可擴展整合其他 API 豐富技能"
+    ],
+    "why_it_matters": "多功能助理方向有市場需求，但需實際驗證各功能模組的穩定性與回應品質。星數偏低顯示社群關注度有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "可 fork 後針對郵件管理或任務分析模組做 POC，評估是否能直接用於個人或團隊的日常事務自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/37353173?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-monarch-mcp-ai-agent-monarch-money",
+    "title": "monarch-mcp：AI Agent 直讀 Monarch Money 財務資料",
+    "title_original": "jamiew/monarch-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jamiew/monarch-mcp",
+    "published_at": "2026-09-15T02:12:48Z",
+    "category": "agent-skills",
+    "summary": "Modern MCP Server，讓 AI Agent（如 Claude）能以 Token 高效、智慧的方式存取 Monarch Money 財務資料。採用最新 MCP 協定特性，設計簡潔。",
+    "highlights": [
+      "對接 Monarch Money 金融資料 API",
+      "專為 AI Agent 設計，工具定義智慧化",
+      "Token 使用效率最佳化",
+      "使用最新 MCP 協定版本",
+      "目前 22 顆星，針對性強的小眾工具"
+    ],
+    "why_it_matters": "財務資料對 AI 助理而言是高價值輸入源。能讓 Agent 即時讀取銀行帳戶、理財資料，可大幅擴展個人化 AI 助理的實用場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "若有 Monarch Money 帳戶，可整合進 Claude 或其他支援 MCP 的 Agent，直接用自然語言查詢財務狀況與分析建議。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/1903?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-3090-30xx-llm",
+    "title": "3090 / 30xx 系列顯卡本地執行 LLM 的實用工具",
+    "title_original": "If you have a 3090, or other 30xx for local LLMs, I have something for you",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgmhon/if_you_have_a_3090_or_other_30xx_for_local_llms_i/",
+    "published_at": "2026-09-15T01:32:57+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享針對 RTX 3090 等 30 系列顯卡的本地 LLM 執行優化方案，可能包含推論優化、記憶體管理或量化技巧，助技術愛好者更有效利用現有硬體。",
+    "highlights": [
+      "針對 30 系列顯卡的專屬優化方案",
+      "可能涉及推論速度或 VRAM 節省技巧",
+      "適用於預算有限但想本地運行 LLM 的用戶",
+      "需驗證與主流框架的相容性"
+    ],
+    "why_it_matters": "30 系列顯卡仍是許多開發者的主力設備，此類優化可延長硬體壽命，降低雲端 API 依賴，直接節省 AI 工具使用成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可測試該方案是否相容於 llama.cpp 或 Ollama，評估在本地自動化腳本中取代付費 API 的可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-ai",
+    "title": "恐懼傳染：專家應審慎發表 AI 滅絕言論",
+    "title_original": "The contagion of fear",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
+    "published_at": "2026-09-14T21:18:13+00:00",
+    "category": "hot-topics",
+    "summary": "Bryan Cantrill 回應前 Anthropic 員工聲稱 AI 可能十年內滅絕人類的言論，批評此類推測缺乏具體機制說明，呼籲專家發表警告時應秉持最大謹慎，避免濫用公眾信任。",
+    "highlights": [
+      "前 Anthropic 研究員聲稱 AI 可能導致人類滅絕",
+      "Bryan Cantrill 批評此類言論缺乏技術細節",
+      "以生物武器為例指出需領域專家驗證",
+      "專家因專業知識獲得公眾信任，應謹慎發言",
+      "對 AI 恐懼言論可能被過度放大報導"
+    ],
+    "why_it_matters": "此類「AI 滅絕論」影響公眾認知與政策制定，技術從業者需能區分有根據的風險評估與無根據的推測，以維護專業可信度。",
+    "automation_angle": null,
+    "automation_angle_zh": "此類資訊幫助技術人員過濾資訊噪音，專注於可驗證的模型能力變化與實際風險，而非公關話語。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-14-qcad-mcp-qcad-cad-mcp",
     "title": "qcad-mcp：QCAD 專業建築 CAD 的 MCP 伺服器方案",
     "title_original": "sandraschi/qcad-mcp",
