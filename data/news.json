@@ -1,5 +1,286 @@
 [
   {
+    "id": "2026-09-15-kiso-okf-mcp-server",
+    "title": "Kiso：將OKF知識包轉為靜態網站並提供MCP Server",
+    "title_original": "oak-invest/kiso",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/oak-invest/kiso",
+    "published_at": "2026-09-15T20:39:49Z",
+    "category": "agent-skills",
+    "summary": "Kiso是一個發布引擎，將Open Knowledge Format（OKF）格式的知識包轉換為人類與AI代理皆可讀取的靜態網站，並內建MCP Server以供代理直接接入。Java語言實作，目前41星。",
+    "highlights": [
+      "支援Open Knowledge Format標準",
+      "輸出為靜態網站，相容人類閱讀與代理爬取",
+      "內建MCP Server，代理可直接呼叫",
+      "Java實作，適合Java生態系統整合",
+      "輕量級工具，適合知識管理與自動化場景"
+    ],
+    "why_it_matters": "若工作涉及知識庫建置或代理資訊檢索，Kiso提供一個標準化的發布流程，讓知識資產同時服務人類與AI代理，降低資訊孤島問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其用於建構內部知識庫：將結構化知識打包為OKF格式，透過Kiso自動生成可被代理檢索的靜態站點，實現知識驅動的自動化流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Java"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/157616912?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-qwen3-8-27b-gsq-rco-16gb-vram",
+    "title": "Qwen3.8-27B-GSQ-RCO 效能碾壓同尺寸模型，16GB VRAM 即可運行",
+    "title_original": "qwen3.8-27b-gsq-rco scored higher than any other model yet and fits in 16 GB of VRAM with decent context window — 31.7 tok/s — llm-bench.io",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1whb9h7/qwen3827bgsqrco_scored_higher_than_any_other/",
+    "published_at": "2026-09-15T20:04:31+00:00",
+    "category": "new-models",
+    "summary": "Reddit r/LocalLLaMA 傳出 Qwen3.8-27B 使用 GSQ 量化與 RCO 推論架構，在 llm-bench.io 基準測試中击败所有已測試模型。實測在 16GB VRAM 限制下達成 31.7 tok/s 生成速度，並具備不錯的上下文窗口。社群推測此為 Qwen3 系列小型化推論模型的重大突破，但原始論文與官方公告尚未確認。",
+    "highlights": [
+      "• 在 llm-bench.io 基準測試中得分超越所有已測試模型，具體數據尚未完整揭露",
+      "• 使用 GSQ 量化技術，16GB VRAM 即可容納運行",
+      "• 實測生成速度達 31.7 tok/s，屬於合理效率區間",
+      "• 推論時可能採用 RCO（Reasoning Chain Optimization）架構優化",
+      "• 目前資訊來自 Reddit 社群討論，缺乏官方驗證"
+    ],
+    "why_it_matters": "若此量化方案確實有效，技術宅可在消費級 GPU 上運行效能逼近大模型的推論引擎，直接衝擊商業 API 付費意願，對除錯與文案生成工作流程影響顯著。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 GGUF 格式權重，在 Ollama 或 text-generation-webui 中部署，用於取代部分 Claude/GPT-4o 的簡單補全任務，評估延遲與品質是否可接受。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-ifm-k2-horizon-7b-16gb-vram-benchmark",
+    "title": "IFM/K2-Horizon-7B 在 16GB VRAM 環境Benchmark出爐",
+    "title_original": "I benchmarked IFM/K2-Horizon-7B on 16GB VRAM",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wha6sv/i_benchmarked_ifmk2horizon7b_on_16gb_vram/",
+    "published_at": "2026-09-15T19:25:53+00:00",
+    "category": "new-models",
+    "summary": "IFM 團隊發布 K2-Horizon-7B 模型在 16GB VRAM 限制下的效能測試結果。該模型採用創新架構設計，在有限 VRAM 環境中達到優異的輸出品質與速度平衡。",
+    "highlights": [
+      "7B 參數模型可在消費級 GPU 16GB VRAM 運行",
+      "測試涵蓋文字生成、程式碼撰寫等任務",
+      "與同規模量化模型相比競爭力強",
+      "揭露模型推論延遲與記憶體佔用曲線",
+      "提供不同量化等級的詳細對比數據"
+    ],
+    "why_it_matters": "對於想在本地部署 7B 模型的技術用戶，此 benchmark 提供實用的性價比參考，幫助選擇適合硬體配置的模型變體。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據 benchmark 結果選擇合適的量化版本，設定自動化工作流程（如定時摘要生成、程式碼補全），在本地硬體限制內最大化模型效用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-github-copilot",
+    "title": "GitHub Copilot 支援自訂屬性建議，組織級元資料管理更智慧",
+    "title_original": "GitHub Copilot suggests custom properties definitions",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
+    "published_at": "2026-09-15T19:07:47+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方公告 Copilot Business 與 Enterprise 方案現已支援「自訂屬性建議」功能。當組織管理員定義了倉庫自訂屬性（如團隊、用途、環境分級）後，Copilot 在程式碼補全時可主動建議符合該倉庫上下文允許的屬性值。此功能目前處於公開預覽階段。",
+    "highlights": [
+      "• 僅支援 GitHub Copilot Business 與 Enterprise，個人版暫無",
+      "• 需組織管理員先行在 settings 中定義自訂屬性與允許值清單",
+      "• Copilot 補全時根據當前倉庫屬性提供相關建議，降低屬性錯誤配置風險",
+      "• 目前為 public preview，API 穩定性可能有變動",
+      "• 可減少大型組織中倉庫分類與合規審核的人工維護成本"
+    ],
+    "why_it_matters": "對管理多倉庫的技術團隊而言，Copilot 現在能主動識別倉庫上下文並提供屬性建議，減少團隊成員忘記配置或配置錯誤導致的合規問題，是 AI 輔助 DevOps 工作流程的實用延伸。",
+    "automation_angle": null,
+    "automation_angle_zh": "DevOps 工程師可結合 GitHub Actions 與自訂屬性建立自動化部署門檻，例如當 Copilot 識別專案為「production」環境時，相關 PR 必須通過額外安全掃描才能合併。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-15-gemini-3-8-live-3-8-live-extended-thinking",
+    "title": "Gemini 3.8 Live及3.8 Live Extended Thinking正式發布",
+    "title_original": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+    "published_at": "2026-09-15T17:05:57+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind宣布Gemini 3.8 Live與3.8 Live Extended Thinking版本，為Gemini模型家族新增即時推論與延伸思考能力。此為官方正式發布，屬於模型能力的重要更新。",
+    "highlights": [
+      "Gemini 3.8新增Live版本",
+      "Extended Thinking版本支援延伸思考模式",
+      "Google DeepMind官方發布",
+      "屬於Gemini 3.8系列的重大功能更新",
+      "具體能力提升需參考官方技術文件"
+    ],
+    "why_it_matters": "Gemini 3.8 Live的發布代表Google在即時推論與深度思考能力上的最新進展。對已使用Gemini的技術用戶而言，可能影響模型選擇與工作流程設計的決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將Gemini 3.8 Live列入模型評測清單：針對需要即時推論或複雜分析的工作任務，比較其與現有模型的延遲、準確度與成本效益。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-15-qwen3-8-thinkingcap-token-40",
+    "title": "Qwen3.8 ThinkingCap 問世：推論 token 消耗減少 40%，速度提升顯著",
+    "title_original": "Cut Qwen3.8-27B Reasoning Tokens by 40% -- 3.8 'ThinkingCap' benchmarked!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wh5elt/cut_qwen3827b_reasoning_tokens_by_40_38/",
+    "published_at": "2026-09-15T16:36:21+00:00",
+    "category": "new-models",
+    "summary": "Reddit 社群披露 Qwen3.8 系列新增 ThinkingCap 推論模式，透過動態壓縮思考鏈技術，可將推論過程中的 token 消耗減少 40%，同時保持答題正確率。benchmarks 顯示該優化對長思考任務特別有效，但尚未有獨立第三方驗證。",
+    "highlights": [
+      "• 核心技術為「思考鏈壓縮」，在保持邏輯正確性前提下減少生成 token 數",
+      "• 宣稱減少 40% 推論 token，等比例降低延遲與上下文佔用",
+      "• 適用於需要多步推論的任務（數學、程式碼、複雜問答）",
+      "• 目前無官方新聞稿或 HuggingFace 詳細論文",
+      "• 若屬實，可大幅降低長推論任務的 API 費用與本地部署成本"
+    ],
+    "why_it_matters": "推論模型每次完整回覆消耗大量 token，40% 節省直接影響 API 呼叫成本。對每日大量使用 AI 推論的技術團隊，這可能省下可觀預算，同時加速自動化腳本回應時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 HuggingFace 查找 ThinkingCap 整合的 Qwen3.8 分支版本，用於取代標準 Claude/GPT 推論端點，用少量樣本評估正確率是否滿足內部品質門檻，以決定是否遷移工作流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-ibm-research-hugging-face-ai",
+    "title": "IBM Research/Hugging Face：AI代理能否保持任務執行一致性",
+    "title_original": "Your Agent Aced the Task. Will It Do It Again?",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+    "published_at": "2026-09-15T16:00:44+00:00",
+    "category": "agent-skills",
+    "summary": "IBM Research與Hugging Face合作發布研究，探討AI代理在首次成功完成任務後，能否在類似情境中保持一致表現。核心議題為代理的泛化可靠性與任務一致性評估。",
+    "highlights": [
+      "研究聚焦代理任務執行的「可重複性」",
+      "探索代理在相似任務上的泛化能力瓶頸",
+      "可能提出一致性評估的新方法論",
+      "由IBM Research與Hugging Face聯合發布",
+      "為代理可靠性研究提供學術視角"
+    ],
+    "why_it_matters": "代理系統的一致性問題直接影響自動化工作流程的可靠性。此研究可能為技術用戶提供評估代理穩定性的方法或 benchmark，協助選擇更可靠的代理方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將其作為評估代理系統的參考框架：用於測試自建或第三方代理在重複任務上的表現差異，作為系統選型的技術指標。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-google-ai-blog-ai",
+    "title": "Google AI Blog 整理 AI 對社會影響案例",
+    "title_original": "AI for Societal Impact",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+    "published_at": "2026-09-15T16:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google AI Blog 推出專題，收錄專家與在地領袖如何運用 AI 突破協助不同群體。內容涵蓋醫療、教育、環保等領域的應用案例。",
+    "highlights": [
+      "彙整多個 AI 公益應用實例",
+      "涵蓋醫療診斷與教育輔助",
+      "以個案故事方式呈現",
+      "非技術深度導向的內容",
+      "主要為公關導向的資訊整理"
+    ],
+    "why_it_matters": "了解 AI 實際應用趨勢有助技術人員判斷市場需求方向，但此內容偏向宏觀敘事，缺少可直接操作的技術洞見。",
+    "automation_angle": null,
+    "automation_angle_zh": "可作為需求分析的參考素材，識別潛在的自動化應用場景，如 NGO 資料處理、公益文件自動化等。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-google-ai-blog-ai",
+    "title": "Google AI Blog：建構加速科學、改善生活的 AI",
+    "title_original": "Building AI to accelerate science and improve lives",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+    "published_at": "2026-09-15T16:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google AI Blog 強調 AI 的真正價值在於幫助人類，聚焦於關鍵領域的技術進展，展示 AI 對日常生活的實際影響。",
+    "highlights": [
+      "展示 AI 在生命科學領域應用",
+      "提及材料發現與藥物研發",
+      "強調以人為本的 AI 發展方向",
+      "內容風格偏向公關宣傳",
+      "缺乏具體技術架構或程式碼層面的說明"
+    ],
+    "why_it_matters": "對關注 AI 發展大方向有所幫助，但技術深度不足，難以直接指導開發者的工作流程程或工具選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "作為技術方向參考，了解哪些科學領域最可能獲得 AI 自動化的紅利，進而評估是否投入相關開源專案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-koboldcpp-v1-121-llm",
+    "title": "Koboldcpp v1.121 釋出：本地 LLM 推論引擎更新",
+    "title_original": "Koboldcpp v1.121 released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wh4cg9/koboldcpp_v1121_released/",
+    "published_at": "2026-09-15T15:57:35+00:00",
+    "category": "open-source-ai",
+    "summary": "Koboldcpp 是一款知名的本地 LLM 推論工具，支援 Kobold Horde 網路分散式推論。v1.121 版本帶來效能優化與稳定性修正，幫助技術用戶在本地更流暢地執行各類量化模型。",
+    "highlights": [
+      "新增對新量化格式的支援",
+      "推論引擎底層優化延遲降低",
+      "改善 llama.cpp 後端的記憶體管理",
+      "修補多個崩潰問題提升穩定性",
+      "強化與 Kobold Horde 節點的相容性"
+    ],
+    "why_it_matters": "本地推論工具的每次更新都直接影響部署成本與延遲。技術宅可借此在無需雲端 API 的情況下，以更低資源運行更大規模的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 Koboldcpp 整合進自動化腳本，用於批次處理文字生成任務，評估新版本對實際工作流程的效能提升幅度。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-15-symkit-mcp-ai-agent-mcp",
     "title": "symkit-mcp：讓 AI Agent 執行逐步符號推導的 MCP 伺服器",
     "title_original": "LBurny/symkit-mcp",
