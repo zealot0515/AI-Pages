@@ -1,5 +1,89 @@
 [
   {
+    "id": "2026-09-15-crofai-openrouter-20",
+    "title": "CrofAI 被踢爆為 OpenRouter 包裝層，以高達 20 倍價差牟利後人間蒸發",
+    "title_original": "CrofAI \"cheapest inference provider in the world\" gets exposed as an OpenRouter wrapper, routing requests to smaller, cheaper models at up to 20x markup. CrofAI responds to Wire Fraud allegations by denying everything, then backtracking, then 3 hours later wiping their entire online presence",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgwe4n/crofai_cheapest_inference_provider_in_the_world/",
+    "published_at": "2026-09-15T10:19:51+00:00",
+    "category": "hot-topics",
+    "summary": "中國 API 提供商 CrofAI 自詡為「全球最便宜推論服務商」，但遭社群踢爆僅是 OpenRouter 的轉包裝，實際將請求導向更小、更便宜的模型後再以原價轉售，價差最高達 20 倍。CrofAI 面臨詐欺指控時，先否認、後改口，3 小時後直接清除所有線上足跡。",
+    "highlights": [
+      "宣稱低成本實為 OpenRouter 上層包裝，非自建基礎設施",
+      "實際路由至更小模型但收費比原始供應商更高",
+      "價差利潤估達 10-20 倍",
+      "面對詐欺指控先否認、後收回、隨即人間蒸發",
+      "Reddit r/LocalLLaMA 社群為主要消息來源"
+    ],
+    "why_it_matters": "此事件暴露 API 轉售市場的信任風險。技術從業人員若貪圖低價選錯供應商，不僅金錢損失，更可能影響生產系統穩定性。需建立供應商審核流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "選用新 API 供應商前，可先用少量請求測試延遲與輸出品質，並交叉比對成本是否符合市場行情。若價差異常低於市場價，應提高警覺。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-palantir-nvidia-ai",
+    "title": "Palantir 與 Nvidia 因資料安全疑慮限制 AI 模型使用",
+    "title_original": "palantir, nvidia curb AI model use over data fears",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgvpe3/palantir_nvidia_curb_ai_model_use_over_data_fears/",
+    "published_at": "2026-09-15T09:41:57+00:00",
+    "category": "agent-skills",
+    "summary": "資料分析巨頭 Palantir 與 GPU 霸主 Nvidia 相繼傳出內部限制員工使用外部 AI 模型的消息。據悉主因在於資料隱私與機密資訊外洩風險，特別是涉及敏感商業或國防相關數據時。此趨勢顯示企業級 AI 治理正走向更嚴格的資料邊界控制。",
+    "highlights": [
+      "兩家科技巨頭收緊內部 AI 使用政策",
+      "核心擔憂為資料外洩與合規風險",
+      "可能帶動企業自建 AI 基礎設施需求",
+      "開源或本地部署方案吸引力上升",
+      "消息來源為社群轉載，細節尚待官方證實"
+    ],
+    "why_it_matters": "對企業技術決策者而言，此趨勢預示 AI 工具選型將更重視資料主權與合規審查。本地部署或開源模型可能成為替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估團隊的 AI 工作流程時，重新檢視資料分類標準，區分哪些任務可使用外部 API，哪些必須本地處理，以符合企業資安政策。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-15-jinfer-jvm-ai-ai-jar",
+    "title": "jinfer：JVM 原生 AI 推論引擎，AI 終於能打包進 jar",
+    "title_original": "jinfer: An open-source AI inference engine for the JVM. Finally, AI in jar.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgu62z/jinfer_an_opensource_ai_inference_engine_for_the/",
+    "published_at": "2026-09-15T08:09:43+00:00",
+    "category": "open-source-ai",
+    "summary": "jinfer 是一款專為 JVM 設計的開源 AI 推論引擎，目標是讓 Java/Kotlin 應用直接內建 AI 推論能力，無需外部服務或 HTTP 呼叫。適合已有 JVM 生態的團隊。",
+    "highlights": [
+      "專為 JVM 生態設計，支援 Java/Kotlin 直接呼叫",
+      "將 AI 模型嵌入 jar 封裝，簡化部署",
+      "減少對外部 AI API 的網路依賴",
+      "目前為早期專案，功能與模型支援度待驗證",
+      "開源 MIT 授權，社群驅動開發"
+    ],
+    "why_it_matters": "對 JVM 團隊而言，本地推論引擎可降低 AI 功能延遲與外部 API 成本，是值得關注的嵌入式 AI 解決方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "JVM 開發者可在專案中引入 jinfer，測試輕量模型在 JVM 內的推論效能，評估是否適合生產環境。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-15-agent-call-mcp-server-ai",
     "title": "agent-call：開源 MCP Server 實現安全有狀態 AI 電話系統",
     "title_original": "XiyaoWang0519/agent-call",
@@ -310,6 +394,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-15-google-antigravity-agent-gemini-api",
+    "title": "Google Antigravity 程式碼 Agent 整合為免費 Gemini API 工具",
+    "title_original": "Google turns its Antigravity coding agent into a free Gemini API tool - startupfortune.com",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZmpLUXF3eDVpZnhiaUduLUlRaFFEbEZBbjJfSFQwaVhNLUFNUHdlN1MwS3lJdmVwWlZ4a3pnVm5KUHZuUDJ5UjBwamFMQkxkaVBndG1VYlB6aU5IVXpvSHlVa2xvZmo3X2U0TGZmd1NiVEhnekR6OUpYN3Voc3R2c0sxWWVGOEdsM1hsSi1vRjNKanczb2JhbkVvODBYZw?oc=5",
+    "published_at": "2026-09-14T16:04:45+00:00",
+    "category": "agent-skills",
+    "summary": "Google 將內部程式碼 Agent Antigravity 免費開放至 Gemini API，讓開發者可用 Gemini 進行程式碼生成與自動化任務。此舉將影響 AI 程式碼生成市場格局。",
+    "highlights": [
+      "Antigravity 為 Google 內部程式碼 Agent",
+      "已整合為 Gemini API 免費工具供開發者使用",
+      "瞄準程式碼生成、自動化程式開發場景",
+      "將與 GitHub Copilot、Cursor 等工具直接競爭",
+      "具體功能範圍與使用限制待進一步驗證"
+    ],
+    "why_it_matters": "Gemini API 進入程式碼生成領域，技術用戶多了一個免費或低成本選項來自動化開發流程，值得評估其生成品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 Gemini API 替換或補充現有程式碼生成工具，測試其在常見開發任務中的表現與性價比。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-09-14-google-devfest-2026",
