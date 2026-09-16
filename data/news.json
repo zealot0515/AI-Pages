@@ -1,5 +1,223 @@
 [
   {
+    "id": "2026-09-16-qwen-qwen3-8-flash-next-hugging-face",
+    "title": "Qwen/Qwen3.8-Flash-Next 登上 Hugging Face 熱門模型榜",
+    "title_original": "Qwen/Qwen3.8-Flash-Next",
+    "source": "Hugging Face Trending Models",
+    "source_url": "https://huggingface.co",
+    "original_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+    "published_at": "2026-09-16T20:39:08.069010+00:00",
+    "category": "open-source-ai",
+    "summary": "Qwen3.8-Flash-Next 是阿里巴巴開源的多模態模型系列新成員，支援圖文對話任務。Hugging Face 顯示超過68萬次下載、5300+ 愛心，屬於近期上升速度最快的開源模型之一。模型以 Safetensors 格式托管，支援 transformers 直接載入。",
+    "highlights": [
+      "開源可商用：LICENSE 為 Other，需確認具體條款",
+      "圖文多模態：適合文件理解、視覺問答等場景",
+      "Hugging Face 原生支援：可直接用 transformers 載入推論",
+      "社區熱度高：68萬下載量反映開發者採用意願",
+      "Endpoints Compatible：支援部署到各類推論端點"
+    ],
+    "why_it_matters": "Qwen3.8-Flash-Next 的高下載量顯示開源多模態模型正快速逼近閉源方案效能，技術用戶可用它來降低文書處理或視覺自動化場景的 API 依賴成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此模型部署到本地伺服器或雲端 endpoints，用於自動化文件摘要、圖表解析等任務，並直接比較與 GPT-4V 或 Claude 的輸出品質差異。",
+    "tags": [
+      "open-source-ai",
+      "hf_models",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-16-github-copilot",
+    "title": "GitHub Copilot 額度增加請求功能正式開放",
+    "title_original": "Copilot budget increase requests are generally available",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+    "published_at": "2026-09-16T20:17:18+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 正式開放成員申請增加 AI 額度的流程，當成員耗盡可用額度後，無需等待管理員手動處理，可自行提出預算增加請求並獲批准後立即恢復使用。",
+    "highlights": [
+      "成員可在額度耗盡時主動申請增加，無需等待管理員介入",
+      "申請流程整合至 GitHub 內，審批後即時生效",
+      "有助於避免開發中途中斷，提升 Copilot 使用連續性",
+      "管理員仍可設定審批政策控制額度發放"
+    ],
+    "why_it_matters": "對於高頻使用 Copilot 的開發者而言，額度耗盡導致功能鎖定是常見痛點。此功能讓工程師能在工作流程中快速自救，減少因等待審批而造成的中斷。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估此功能與現有 CI/CD 或預算管理系統的整合潛力，若企業有嚴格的 API 開支控制需求，可測試管理員端的審批自動化腳本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-16-reddit-minicpm5-2b-gpt-4o",
+    "title": "Reddit 熱議：MiniCPM5-2B 等小型頂尖模型能否挑戰 GPT-4o 時代的前沿模型",
+    "title_original": "Can current MiniCPM5-2B/any best SOTA under 10B + modern harness beat pre-March 2025 frontier models like Grok 3/GPT-4o?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wi60d8/can_current_minicpm52bany_best_sota_under_10b/",
+    "published_at": "2026-09-16T18:46:31+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 討論區有開發者提問，目前最優秀的 10B 以下小型模型配合現代測試工具，是否能在特定任務上超越 2025 年 3 月前的 GPT-4o 等前沿模型。",
+    "highlights": [
+      "討論聚焦於 10B 以下模型與早期 GPT-4o 級別的對比",
+      "涉及模型量化、部署成本與效能平衡",
+      "社群分享具體 Benchmark 數據與實測經驗",
+      "來源為 Reddit 論壇，未經官方驗證"
+    ],
+    "why_it_matters": "小型本地模型若能接近早期前沿模型水準，將大幅降低企業 AI 部署成本，對需要高隱私或低延遲場景的開發者具實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在本地環境使用 LM Studio 或 Ollama 架設 MiniCPM5-2B，對比現有任務的輸出品質與速度，驗證是否符合替代門檻。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-16-reddit-strix-halo-128gb",
+    "title": "Reddit 討論：Strix Halo 128GB 可跑哪些最佳模型",
+    "title_original": "What's the best model you have running on strix halo 128GB?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wi5e8v/whats_the_best_model_you_have_running_on_strix/",
+    "published_at": "2026-09-16T18:24:56+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 討論串中，用戶分享在 AMD Strix Halo 128GB 記憶體配置下成功運行的模型陣容，涵蓋參數量、量化等級與實際效能表現。",
+    "highlights": [
+      "硬體配置為 AMD Strix Halo 具備 128GB 統一記憶體",
+      "用戶實測可運行大參數量模型如 Mistral、Qwen 系列",
+      "涉及 GGUF 量化格式與 VRAM 分配優化",
+      "純使用者社群經驗分享，缺乏系統性 Benchmark"
+    ],
+    "why_it_matters": "對於自建 AI 推論伺服器的技術愛好者，Strix Halo 的記憶體頻寬與容量提供性價比選項，可評估是否值得升級或取代傳統 GPU 方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "有自建需求的技術用戶可參考討論中的模型配置，用 LM Studio 或 Ollama 在同級硬體上實測，找出符合延遲與吞吐量需求的最佳模型大小。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-16-claude-cowork-chat-claude",
+    "title": "Claude Cowork 與一般 Chat 介面正式合併為統一 Claude",
+    "title_original": "Claude Cowork and chat are now one Claude",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/16/one-claude/",
+    "published_at": "2026-09-16T18:09:49+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic 宣布 Claude Cowork 與一般 Chat 介面合併為单一 Claude 入口，整合短問答與長時間任務處理能力。Pro 與 Max 方案用戶將首先獲得更新，陸續在 Web、桌面與手機 App 推出。此舉呼應 OpenAI 近期將 Codex 桌面端改名為 ChatGPT 的策略。",
+    "highlights": [
+      "統一入口：短問答與長期任務無縫切換",
+      "支援離線繼續：關閉筆電後 Claude 仍可繼續執行任務",
+      "Pro/Max 優先：免費方案用戶尚未獲得此更新",
+      "跨平台部署：Web、桌面、手機同步支援",
+      "策略訊號：Anthropic 與 OpenAI 均在簡化 AI 產品線"
+    ],
+    "why_it_matters": "統一的 Agent 介面降低使用者的心智負擔，但也意味著傳統 Chat 與 Agent 助理的界線正在消失，技術用戶需要重新評估如何在单一工具中設計工作流程程。",
+    "automation_angle": null,
+    "automation_angle_zh": "Pro 用戶可測試將原本需要 Claude Code 處理的長時間自動化任務轉移到新版 Claude 統一介面，觀察任務銜接與上下文保持的實際表現。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-16-mozilla-ai",
+    "title": "Mozilla 報告：中國開源 AI 模型與美國前沿差距縮短至四個月",
+    "title_original": "China's open-weight AI models are now just 4 months behind frontier US offerings, Mozilla report claims — models still lag in some benchmarks but are drastically cheaper to use",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wi32jg/chinas_openweight_ai_models_are_now_just_4_months/",
+    "published_at": "2026-09-16T17:02:19+00:00",
+    "category": "new-models",
+    "summary": "Mozilla 發布報告指出中國開源權重模型目前在部分基準測試仍落後，但已快速追趕至僅落後美國前沿模型約四個月，且使用成本大幅降低。",
+    "highlights": [
+      "中國開源模型在部分任務基準測試仍有差距",
+      "整體追趕速度加快，差距收窄至約四個月",
+      "中國模型部署成本明顯低於美國同級選項",
+      "報告基於 Mozilla 內部分析，具體模型名稱待查證"
+    ],
+    "why_it_matters": "若中國模型性價比持續提升，本地部署或選擇非美國供應商的選項將更具吸引力，對在意成本與延遲的技術團隊有直接影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將報告中提及的中國模型納入評估清單，針對特定任務 Benchmark 比較推論延遲與成本，測試是否可替代現有高價模型。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-16-xeboostlm-intel-npu-igpu-c-llm",
+    "title": "XeBoostLM：Intel NPU 與 iGPU 原生 C++ 本地 LLM 方案",
+    "title_original": "XeBoostLM: Native C++ Local LLMs for Intel NPUs & iGPUs",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wi2zuc/xeboostlm_native_c_local_llms_for_intel_npus_igpus/",
+    "published_at": "2026-09-16T16:59:50+00:00",
+    "category": "open-source-ai",
+    "summary": "XeBoostLM 專案旨在讓 LLM 原生支援 Intel NPU 與整合式顯卡，透過純 C++ 實作降低依賴。Reddit 討論區引發關注，但截圖資訊不足以確認實際進展程度。",
+    "highlights": [
+      "瞄準 Intel NPU 與 iGPU 硬體加速",
+      "標榜純 C++ 無額外執行期依賴",
+      "Reddit 討論火熱但缺乏技術細節截圖",
+      "需進一步確認 GitHub 原始碼與效能數據"
+    ],
+    "why_it_matters": "若能有效利用 Intel 內顯與 NPU，可大幅降低本地 LLM 推論的硬體門檻，值得技術宅關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議追蹤 GitHub 進度，待正式 release 後評估在 Intel 筆電上的推論效率與記憶體優化幅度。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-16-mustafa-suleyman",
+    "title": "Mustafa Suleyman 談「模型福利」爭議",
+    "title_original": "Quoting Mustafa Suleyman",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
+    "published_at": "2026-09-16T16:00:54+00:00",
+    "category": "hot-topics",
+    "summary": "微軟 AI 執行長 Mustafa Suleyman 警告不應將模型視為有感受或權利的實體，認為賦予 AI 道德或法律權利會使對齊與控制更加困難。此言論呼應當前 AI 安全討論熱潮。",
+    "highlights": [
+      "Suleyman 反對給予 LLM 任何形式的道德或法律權利",
+      "強調意識是人類倫理與法律體系的基礎",
+      "認為模型福利論點缺乏證據支援",
+      "此言論對 AI 對齊研究方向有指標意義"
+    ],
+    "why_it_matters": "此論點反映頂層 AI 從業者的安全立場，理解其邏輯有助評估當前 AI 治理趨勢與政策風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "此觀點目前偏向政策方向，若涉及產品合規或模型部署審查，可留意後續監管動態。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-16-openai-aarp-10-ai",
     "title": "OpenAI 與 AARP 合作在美國 10 城市為銀髮族提供免費 AI 工作坊",
     "title_original": "Helping older adults use AI in everyday life",
@@ -26,6 +244,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-16-llama-cpp-b11003",
+    "title": "llama.cpp 釋出 b11003 更新",
+    "title_original": "Release b11003 · ggml-org/llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wi12vl/release_b11003_ggmlorgllamacpp/",
+    "published_at": "2026-09-16T15:51:51+00:00",
+    "category": "open-source-ai",
+    "summary": "llama.cpp 專案釋出 b11003 版本，屬於常規迭代更新。GitHub 顯示 5 小時前更新。建議直接查閱官方 Release Notes 確認具體變更內容與效能改進。",
+    "highlights": [
+      "純文字 GitHub 引用，缺乏完整 Release Notes 截圖",
+      "5 小時前新鮮出爐但截圖資訊有限",
+      "建議直接前往 GitHub 頁面確認更新細節",
+      "llama.cpp 為本地推論重要工具，需追蹤效能優化"
+    ],
+    "why_it_matters": "llama.cpp 是本地 LLM 推論的核心底層，任何效能優化都直接影響本地部署成本與速度，需第一時間驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "可立即 pull 最新版編譯，在常用模型上跑 benchmark 確認推論延遲與記憶體佔用是否改善。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-09-16-mailpouch-mcp-proton-mail-agent",
@@ -76,6 +321,34 @@
     "why_it_matters": "AI 搜尋與 Agent 時代的商業變現模式仍在探索中，「贊助 Agent」若成規模可能影響 AI 應用的資訊生態。技術用戶需關注背後的 API 與變現機制演進。",
     "automation_angle": null,
     "automation_angle_zh": "技術用戶目前可直接評估的是 HubSpot 與 Shopify 的 OpenAI 整合外掛，測試其行銷自動化場景的實際效果，而非跟進願景層面的敘述。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-16-openai-ai",
+    "title": "OpenAI 指南：如何將 AI 使用量連結到商業價值",
+    "title_original": "How to connect AI usage to business value",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+    "published_at": "2026-09-16T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格介紹 ChatGPT Work 與 Codex Analytics 功能，協助企業團隊理解 AI 使用情形與支出、識別培訓需求、並將 AI 採用率與業務成果掛鉤。屬於企業管理層面的分析工具，非技術開發者直接使用的 API。",
+    "highlights": [
+      "ChatGPT Work Analytics：視覺化團隊 AI 使用熱度圖",
+      "Codex Analytics：追蹤 AI 輔助程式碼產出與品質",
+      "成本歸因：可按部門或專案分類 AI 支出",
+      "培訓缺口識別：發現 AI 採用率低的團隊或流程",
+      "商業成果連結：嘗試量化 AI 投資的回報率"
+    ],
+    "why_it_matters": "對於需要向高層彙報 AI 投資報酬率的技術主管，此文章提供了量化框架的參考方向，但實作細節仍需結合自家數據分析流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可參考此框架設計內部的 AI 使用儀表板，自動追蹤 API 呼叫量與對應的專案產出，評估哪些工作流程已從 AI 輔助中獲益。",
     "tags": [
       "hot-topics",
       "rss",
@@ -167,6 +440,33 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-16-openai-ai",
+    "title": "OpenAI 經濟研究：員工使用 AI 的新工作模式浮現",
+    "title_original": "How workers are unlocking new ways of working",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/unlocking-new-ways-of-working",
+    "published_at": "2026-09-16T09:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布經濟研究報告，分析員工如何將 AI 應用於傳統角色之外，並揭示哪些新工作活動已成為重複性任務，研究涵蓋 AI 使用頻率、任務類型與生產力影響。",
+    "highlights": [
+      "研究顯示員工使用 AI 的範疇已超越傳統輔助角色",
+      "識別出多項因 AI 出現而成為常態的工作活動",
+      "提供 AI 對勞動市場影響的數據化視角",
+      "可作為企業規劃 AI 部署策略的參考依據"
+    ],
+    "why_it_matters": "此研究幫助技術決策者理解 AI 在實際工作場景中的落地模式，若企業正在評估內部 AI 工具引進，研究數據可作為提案的量化依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可根據報告中提及的高頻使用情境，評估哪些內部流程適合優先 AI 自動化，如文件生成、程式碼審查或客戶回覆等重複性任務。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-09-16-investing-com-ai-55",
