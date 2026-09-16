@@ -1,5 +1,90 @@
 [
   {
+    "id": "2026-09-16-reddit-qwen3-6-35b-mcp-gimp",
+    "title": "Reddit 用戶展示 Qwen3.6-35B 透過 MCP 工具控制 GIMP 繪圖",
+    "title_original": "Connected a local model (Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q4_K_M) to GIMP via MCP tools using llama.cpp - and here's the image result from my first prompt \"can you draw a picture of a flower in gimp?\". Needs work. Setup follows.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1whjqv6/connected_a_local_model/",
+    "published_at": "2026-09-16T01:52:43+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享將 Qwen3.6-35B-Uncensored 模型透過 llama.cpp 運行，並以 MCP 工具連接 GIMP，嘗試用自然語言指令「在 GIMP 裡畫一朵花」。目前結果顯示效果仍有改進空間，但展示了本地大型模型控制視覺工具的可行路徑。",
+    "highlights": [
+      "• 使用 llama.cpp 加速本地推論 Qwen3.6-35B",
+      "• MCP 工具作為模型與 GIMP 的橋樑",
+      "• 自然語言指令驅動影像編輯尚屬早期階段",
+      "• 模型輸出的影像結果有優化空間",
+      "• 展示了開源工具串接的可能性"
+    ],
+    "why_it_matters": "這是本地模型控制視覺工具的概念驗證案例。雖然目前準確度有限，但方向明確：技術用戶可關注 MCP 協定在創意工具自動化的潛力，預期未來這類整合會更成熟。",
+    "automation_angle": null,
+    "automation_angle_zh": "可clone相關程式碼，本地架設 llama.cpp + MCP + GIMP 環境，測試不同提示詞與模型參數，評估影像自動化編輯的可行性與瓶頸。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-16-cloudquant-backtrader-python-mcp-agent",
+    "title": "cloudQuant/backtrader：高效能 Python 回測與實盤交易框架，內建 MCP 與 Agent 技能",
+    "title_original": "cloudQuant/backtrader",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/cloudQuant/backtrader",
+    "published_at": "2026-09-16T01:14:22Z",
+    "category": "agent-skills",
+    "summary": "基於 Python 的高效回測與實盤交易框架，宣稱較上游快 45% 以上，內建 50+ 技術指標與 tick-to-daily 策略轉換。亮點是整合 AI 原生工作流程，包含 MCP 伺服器與 Agent 技能，可直接串接 AI 決策模組，Python 語言、177 stars。",
+    "highlights": [
+      "• 效能較上游 backtrader 提升 45%+",
+      "• 支援 50+ 技術指標與 tick-to-daily 策略",
+      "• 原生支援 MCP 伺服器，方便 AI Agent 接入",
+      "• 提供 Agent 技能可直接串接 AI 交易決策",
+      "• 開源 Python 專案，可本地部署測試"
+    ],
+    "why_it_matters": "將 AI Agent 能力引入量化交易的趨勢明確，backtrader 的 MCP 整合讓技術用戶可直接用自然語言驅動回測與交易策略，降低量化開發門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "可安裝框架，用 MCP 協定串接至本地 AI Agent，實現「描述策略口語化指令 → 自動回測 → 訊號輸出」的自動化交易工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/164971269?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-16-gemini-live-3-8-websocket",
+    "title": "Gemini Live 3.8 語音模型釋出，支援瀏覽器端 WebSocket 即時對話",
+    "title_original": "Gemini Live audio",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+    "published_at": "2026-09-15T22:47:07+00:00",
+    "category": "new-models",
+    "summary": "Google 發布 Gemini 3.8 Live 與 3.8 Live Extended Thinking 兩款語音模型，支援 speech-to-speech 能力。開源社群已有人用純 Web Audio API 與 WebSocket 實作瀏覽器端即時對話 UI，可中斷回應、選擇音色與系統提示詞。",
+    "highlights": [
+      "• 支援即時語音對話，形式類似 GPT-Live",
+      "• 3.8 Extended Thinking 版提供延伸推論能力",
+      "• WebSocket 端點：generativelanguage.googleapis.com",
+      "• 純 Web Audio API 實作，無額外函式庫依賴",
+      "• 可在瀏覽器內中斷模型回應"
+    ],
+    "why_it_matters": "Gemini Live 系列的 WebSocket API 開放讓開發者可在自訂前端直接串接即時語音能力，繞過官方 App 限制。技術用戶可評估其延遲與通話品質，尋找語音客服或口語化 Agent 的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可參考開源實作，建立自訂語音對話前端，直接串接 Gemini Live API 測試延遲與準確度，評估是否取代現有基於文字的客服系統。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-09-15-kiso-okf-mcp-server",
     "title": "Kiso：將OKF知識包轉為靜態網站並提供MCP Server",
     "title_original": "oak-invest/kiso",
