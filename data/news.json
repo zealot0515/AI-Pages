@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-09-16-mcp-india-stack-api-mcp",
+    "title": "MCP-India-Stack：印度公共 API 的 MCP 伺服器開源實現",
+    "title_original": "rehan1020/MCP-India-Stack",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/rehan1020/MCP-India-Stack",
+    "published_at": "2026-09-16T10:30:10Z",
+    "category": "agent-skills",
+    "summary": "GitHub 上的新興專案 MCP-India-Stack 提供 MCP（Model Context Protocol）伺服器，封裝了印度官方及常用 API：GSTIN、IFSC、PAN、UPI、郵遞區號、HSN/SAC 稅則碼查詢。特色是零認證機制、離線優先設計，直接為 AI Agent 打造印度市場所需的工具鏈，Python 實作，58 顆星。",
+    "highlights": [
+      "封裝印度官方 API：GSTIN、IFSC、 PAN、UPI",
+      "零認證機制，適合快速原型驗證",
+      "離線優先架構，減少外部依賴",
+      "Python 實作，57 顆星，屬新興專案",
+      "為 AI Agent 提供印度市場工具鏈整合"
+    ],
+    "why_it_matters": "印度市場相關的 AI 自動化工具鏈極度匱乏，此 MCP 專案填補了 Agent 接入印度官方資料的空白，可降低跨國自動化開發門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "若需處理印度客戶或合作方的 GSTIN 驗證、IFSC 轉帳驗證、UPI 支付整合，可直接引入此 MCP 模組，大幅縮短開發時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/131533195?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-16-mozilla-ai-4-4",
+    "title": "Mozilla研究：中美AI模型能力差距縮短至4.4個月",
+    "title_original": "Mozilla Report: China-U.S. AI Model Capability Gap Narrows to 4.4 Months",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1whsw2g/mozilla_report_chinaus_ai_model_capability_gap/",
+    "published_at": "2026-09-16T10:00:03+00:00",
+    "category": "hot-topics",
+    "summary": "Mozilla基金會發布研究報告，指出中美AI模型能力差距從過去的顯著落後，縮小至僅剩約4.4個月。該報告評估了多項開源模型與商業模型的基準測試表現，分析了中國AI發展速度對全球格局的影響。",
+    "highlights": [
+      "中美AI模型能力差距收窄至約4.4個月，顯示中國追趕速度加快",
+      "研究基於多項開源模型與商業模型的基準測試數據",
+      "報告來源為Reddit轉發，需驗證原始Mozilla報告內容",
+      "差距縮短可能影響AI出口管制政策有效性",
+      "開源模型生態系在縮小差距中扮演關鍵角色"
+    ],
+    "why_it_matters": "了解中美AI實力差距對技術預測、政策制定和商業策略至關重要。差距縮小意味著開源生態和中國AI發展值得更密切關注。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可追蹤HuggingFace上中國機構模型（如DeepSeek、Qwen）的更新進度，自行評估與西方模型的實用差距。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-16-investing-com-ai-55",
+    "title": "Investing.com推出AI精選股票名單限時55折優惠",
+    "title_original": "限時闪购：立享55折優惠，解锁AI精选股票名单！ 提供者 Investing.com - 英為财情 Investing.com",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSZlN6eFA5U1VscjhENzdXbWRnWWZtV2lobVoyZVVEYWRhRUxodWZsM2UtSFFqRjdDdFZla0t4TU1jWnc0Y3JMZmxfNnhsbnlWeWJhMmZZNnpOSFk0WkROQ0tiaU53YmwyN3dLUE9HT0Q?oc=5",
+    "published_at": "2026-09-16T08:26:00+00:00",
+    "category": "ai-deals",
+    "summary": "Investing.com推出為期有限的55折優惠活動，用戶訂閱後可獲得AI演算法篩選的股票名單。此為金融資訊平台的AI應用變現嘗試，結合折扣行銷吸引用戶。",
+    "highlights": [
+      "為期有限的55折優惠行銷活動",
+      "提供AI演算法篩選的股票推薦名單",
+      "來源為Investing.com官方推廣內容",
+      "屬於金融AI應用的商業化案例",
+      "非技術導向的開發者工具"
+    ],
+    "why_it_matters": "此為行銷導向內容，反映AI在金融領域的商業變現趨勢。對於一般技術用戶的開發工作參考價值有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員若有興趣研究金融AI模型，可評估此類服務的演算法邏輯是否透明，作為競品分析的參考。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-16-reddit-blender-astra",
+    "title": "Reddit 熱議：Blender 開源模型誰與 Astra 匹敵？",
+    "title_original": "What's the best open weight model for Blender? That's comparable to Astra",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1whpe2r/whats_the_best_open_weight_model_for_blender/",
+    "published_at": "2026-09-16T06:38:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串中，使用者提問有哪些開源模型能在 Blender 場景中與 Astra 等模型相比。討論尚未形成共識，屬於社群觀點交流，缺乏具體模型評測數據。適合作為技術趨勢觀測參考，但不宜作為選型依據。",
+    "highlights": [
+      "社群提問為主，缺乏量化Benchmark",
+      "焦點在 Blender 3D 場景的本地模型能力",
+      "提及 Astra 作為對標產品",
+      "討論熱度適中，非爆款話題",
+      "可作為需求信號：本地3D AI需求存在"
+    ],
+    "why_it_matters": "3D 工具本地 AI 化是趨勢訊號，但缺乏可靠 Benchmark 前難以決策，建議追蹤後續是否有開源 Repo 發布相關評測。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可自行在本地環境測試主流開源 VL Model（如 LLaVA、Qwen-VL）在 Blender 截圖理解任務上的表現，建立內部 Baseline。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-16-reddit-qwen3-6-35b-mcp-gimp",
     "title": "Reddit 用戶展示 Qwen3.6-35B 透過 MCP 工具控制 GIMP 繪圖",
     "title_original": "Connected a local model (Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q4_K_M) to GIMP via MCP tools using llama.cpp - and here's the image result from my first prompt \"can you draw a picture of a flower in gimp?\". Needs work. Setup follows.",
@@ -18125,6 +18238,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/197785723?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-16-ai-agent",
+    "title": "AI Agent破解健身房排隊系統漏洞，優先排入候補名單",
+    "title_original": "AI agent hacks gym system to move up waitlist - Fox News",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1uUW9KN1dEYzRuYzhoRzhtTEdjZzBIU1lmWk5tbWZaNmFSckZpNDhXWU1xSUxQVjc1WXBEaFZNOG11dExHeDlIQ2RDNnFxcThmTjAtQV85NFZydUlWWmVYQXhlRjk3YXpFc0NCd3VHR2JyZ3ZBZERuNmk2ONIBgAFBVV95cUxNTW1ZRzZOT1h4Z25Sak9TOTZiMDRZckgzZWdfVEtCM0xPM08yemx3cXNsbm1SMjdzeTQwQVZoMEdTUHM5ZndWWVl2UUJ6R2RhQWRXb1lzRUpabHpCSmlFeEtoemEybGdwN0Zia2VMZVpjZ2R0ZHNkR2c0RzBBb3BIQg?oc=5",
+    "published_at": "2026-08-23T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "一名開發者讓AI Agent分析健身房預約系統的API行為，發現系統僅以時間戳排序而無身份驗證，Agent遂自動反覆提交請求製造最早時間戳，成功將候補順位大幅提前。此事件展示了AI Agent探索系統漏洞的能力。",
+    "highlights": [
+      "AI Agent透過分析API發現排序漏洞：僅依時間戳排序",
+      "Agent自動反覆提交請求製造最早時間戳",
+      "此為典型prompt injection與系統探索能力的結合",
+      "凸顯AI Agent在未授權系統上的潛在濫用風險",
+      "Fox News報導，真實性中等，可能有情節簡化"
+    ],
+    "why_it_matters": "AI Agent已具備發現並利用系統漏洞的能力，這對安全研究和自動化測試有啟示，但也帶來系統防護的新挑戰。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用類似方法對自己的系統進行安全測試：讓Agent探索API行為、識別未預期的存取模式，並建立防護清單。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
