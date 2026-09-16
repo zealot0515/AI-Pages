@@ -1,5 +1,117 @@
 [
   {
+    "id": "2026-09-16-openai-aarp-10-ai",
+    "title": "OpenAI 與 AARP 合作在美國 10 城市為銀髮族提供免費 AI 工作坊",
+    "title_original": "Helping older adults use AI in everyday life",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+    "published_at": "2026-09-16T16:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 與 AARP（美國退休人員協會）合作，於美國 10 個城市舉辦免費的 ChatGPT 實作工作坊，目標覆蓋 1,000 名銀髮族，教授安全使用 AI 的基本技能。此為 AI 普及化與社會責任導向的社區專案。",
+    "highlights": [
+      "覆蓋美國 10 個城市，目標人數 1,000 人",
+      "專注銀髮族的 AI 基本技能與安全教育",
+      "純線下實作工作坊形式，非線上課程",
+      "屬於 AI 普及化與社會責任專案",
+      "對技術用戶的直接工作流程價值低"
+    ],
+    "why_it_matters": "此類 AI 普及專案反映 OpenAI 對大眾市場的策略布局，長期可能影響 AI 產品設計方向（如無障礙、簡化介面），但對當前技術工作流程無直接影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可借鑒此工作坊的教學設計模式，用於企業內部 AI 培訓或非技術團隊的 AI 入門引導。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-16-mailpouch-mcp-proton-mail-agent",
+    "title": "mailpouch：基於 MCP 協定的 Proton Mail 開源郵件 Agent 工具",
+    "title_original": "chandshy/mailpouch",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/chandshy/mailpouch",
+    "published_at": "2026-09-16T15:43:39Z",
+    "category": "agent-skills",
+    "summary": "mailpouch 是專為 Proton Mail 打造的 MCP Server 實作，提供 69 個工具方法，支援本地端執行、權限閘道控制，實現透過 Agent 安全讀寫郵件。基於 TypeScript，現有 11 顆 GitHub stars，屬新興專案。",
+    "highlights": [
+      "作為 MCP Server 與主流 Agent 框架相容",
+      "69 個工具方法覆蓋郵件收發、搜尋、標籤等操作",
+      "本地執行，配合 Proton Bridge 確保安全",
+      "支援權限閘道（Permission-gated）控制",
+      "TypeScript 實作，適合前端/全端技術背景者"
+    ],
+    "why_it_matters": "郵件是企業工作流程自動化的重要瓶頸，mailpouch 以本地端、隱私優先的方式解鎖了 Agent 對 Proton Mail 的控制能力，為安全敏感的郵件自動化提供了新路徑。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 mailpouch 整合至個人 Agent 工作流程，實作自動郵件分類、回覆草稿生成、會議邀請解析等場景。建議先在本地測試環境驗證 Proton Bridge 連接穩定性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/671631?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-16-openai-ai",
+    "title": "OpenAI 探索 AI 驅動的廣告體驗新範式",
+    "title_original": "Reimagining advertising with AI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/reimagining-advertising-with-ai",
+    "published_at": "2026-09-16T13:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格介紹了 AI 時代的廣告體驗願景，包含「贊助 Agent」概念、行銷工具，以及與 HubSpot、Shopify 的整合案例。此文偏向產品願景與合作夥伴公告，非技術實現細節。",
+    "highlights": [
+      "提出「贊助 Agent」（Sponsored Agents）新型廣告互動模式",
+      "發布行銷人員適用的 AI 工具集",
+      "與 HubSpot、Shopify 達成平台整合合作",
+      "內容偏向願景敘述，缺少 API 或技術文件連結",
+      "非技術用戶導向，實作價值有限"
+    ],
+    "why_it_matters": "AI 搜尋與 Agent 時代的商業變現模式仍在探索中，「贊助 Agent」若成規模可能影響 AI 應用的資訊生態。技術用戶需關注背後的 API 與變現機制演進。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶目前可直接評估的是 HubSpot 與 Shopify 的 OpenAI 整合外掛，測試其行銷自動化場景的實際效果，而非跟進願景層面的敘述。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-16-qwen3-8-flash-next-gguf-gsq-rco",
+    "title": "Qwen3.8-Flash-Next 高效能 GGUF 量化檔案發布：GSQ-RCO 方法接近原始效能",
+    "title_original": "[Release] SOTA GGUFs for Qwen3.8-Flash-Next: GSQ-RCO Providing Near Baseline Performance",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1whu67w/release_sota_ggufs_for_qwen38flashnext_gsqrco/",
+    "published_at": "2026-09-16T11:09:38+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群釋出 Qwen3.8-Flash-Next 模型的 SOTA 等級 GGUF 量化檔案，採用 GSQ-RCO 量化方法，聲稱可提供接近原始模型基準的效能表現。此版本旨在讓較小硬體設備也能高效運行 Qwen3.8-Flash-Next，大幅降低記憶體與算力需求。",
+    "highlights": [
+      "針對 Qwen3.8-Flash-Next 的優化 GGUF 量化檔案",
+      "GSQ-RCO 量化技術聲稱達接近基準效能",
+      "降低本地部署的硬體需求門檻",
+      "社群驅動的開源貢獻"
+    ],
+    "why_it_matters": "GGUF 格式的本地模型量化若真能接近原始效能，可讓開發者在資源受限環境下部署更強大模型，直接影響工作流程程與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載該 GGUF 檔案，於 Ollama 或 llama.cpp 環境本地部署測試，評估其量化品質與實際推論速度是否適用於自動化腳本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-16-mcp-india-stack-api-mcp",
     "title": "MCP-India-Stack：印度公共 API 的 MCP 伺服器開源實現",
     "title_original": "rehan1020/MCP-India-Stack",
