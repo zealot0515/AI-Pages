@@ -1,5 +1,199 @@
 [
   {
+    "id": "2026-09-17-langchain-included-health-langgraph-agent",
+    "title": "LangChain 詳解 Included Health 如何用 LangGraph 構建聯邦式醫療導航 Agent",
+    "title_original": "How Included Health Built Federated Healthcare Agents with LangGraph and Deep Agents",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/how-included-health-built-federated-agents-for-healthcare-navigation-with-deep-agents-and-langgraph",
+    "published_at": "2026-09-17T15:21:56+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格詳細介紹 Included Health 如何使用 Deep Agents、LangGraph 與 LangSmith 建構名為 Dot 的聯邦式醫療導航 Agent。該系統整合多個專業子 Agent，支援人工接管與臨床監督流程，並透過 LangSmith 進行追蹤與調試，展現了企業級 Agent 架構的實際應用範本。",
+    "highlights": [
+      "採用 Deep Agents 架構處理複雜醫療導航任務",
+      "使用 LangGraph 定義多 Agent 協作工作流程與狀態管理",
+      "支援人類接管（Handoff）機制確保醫療安全",
+      "透過 LangSmith 實現全鏈路追蹤、可解釋性與效能監控",
+      "展示了聯邦式 Agent 架構的生產環境部署範例"
+    ],
+    "why_it_matters": "此案例揭示了企業在合規要求嚴格的醫療領域如何安全部署 Agent 系統，其聯邦式架構與人工接管設計為技術讀者提供了可借鑒的生產級 Agent 設計模式。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接 clone LangChain 提供的範例代碼，改編其 LangGraph 工作流程設計用於自己的 Agent 系統，特別是借鑒其錯誤恢復與人工接管機制。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-whitecircle-halo",
+    "title": "whitecircle/halo：開源大模型與多模態模型訓練框架",
+    "title_original": "whitecircle/halo",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/whitecircle/halo",
+    "published_at": "2026-09-17T14:54:06Z",
+    "category": "open-source-ai",
+    "summary": "Halo 是由 White Circle 開發的開源框架，專為訓練大型語言模型與多模態模型設計，目前在 GitHub 上僅有 22 顆星，專案成熟度較低。技術方向為模型訓練流程的標準化，具體效能與功能尚待社群驗證。",
+    "highlights": [
+      "開源框架，Python 實作，訓練流程標準化",
+      "支援 LLM 與多模態模型訓練流程",
+      "目前星標數極低（22 stars），社群關注度不足",
+      "需實際部署測試才能驗證效能與易用性",
+      "建議關注後續 Star 成長趨勢與 PR 活躍度"
+    ],
+    "why_it_matters": "開源訓練框架若成熟，可降低自訓練模型的門檻；但目前 Halo 專案狀態偏早期，技術用戶觀望為主，不建議立即投入生產使用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可克隆 Repo，運行官方範例腳本測試訓練流程是否與現有資料集格式相容，評估是否可作為內部模型微調的工具鏈之一。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/197516060?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-item",
+    "title": "開發者論壇熱議：無審核模型在程式開發的實際用途",
+    "title_original": "Does anyone use uncensored models purely for coding?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wivlo8/does_anyone_use_uncensored_models_purely_for/",
+    "published_at": "2026-09-17T14:29:53+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 討論串引發開發者熱議，許多人表示使用無審核模型純粹是為了避免程式碼相關的內容被過度過濾。開發者反映，在處理 API 文件、錯誤訊息或技術回顧時，標準模型常因安全過濾而中斷輸出，影響工作流程暢度。",
+    "highlights": [
+      "開發者偏好無審核模型主要為避免程式碼內容被過度過濾",
+      "API 文件、錯誤訊息處理常被模型阻斷輸出",
+      "討論反映標準安全過濾與實用性之間的取捨問題",
+      "社區正在探索如何在安全與實用性間取得平衡"
+    ],
+    "why_it_matters": "對於需要處理各類程式碼的技術人員而言，了解社群對無審核模型的真實需求，可幫助評估本地部署時是否需要調整安全過濾設定。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可針對自身用例評估是否需要降低模型安全過濾等級，確保在處理多樣化程式碼時不會遭遇非預期的輸出中斷。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-agent-vllm-prefix-cache",
+    "title": "技術解析：如何在 Agent 多輪對話中保持 vLLM Prefix Cache 熱度",
+    "title_original": "Keeping vLLM's Prefix Cache Warm Between Agent Turns",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wiu7xj/keeping_vllms_prefix_cache_warm_between_agent/",
+    "published_at": "2026-09-17T13:36:35+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶分享了在多輪 Agent 對話場景中維持 vLLM Prefix Cache 熱度的技術方案。核心問題在於每輪對話產生的中間輸出會使 KV Cache 失效，導致每次都要重新計算前綴。該帖提供了具體的代碼級解決思路，可顯著降低 Agent 場景下的推論延遲與計算成本。",
+    "highlights": [
+      "Agent 場景下每輪新增的中間輸出導致 Prefix Cache 失效",
+      "提出了在多輪對話中保留與復用 KV Cache 的技術方案",
+      "可有效降低重複計算開銷與推論延遲",
+      "適用於基於 vLLM 的本地部署 Agent 應用"
+    ],
+    "why_it_matters": "對於需要長時間運行的本地 Agent 應用，Prefix Cache 的有效利用可直接降低 GPU 算力消耗與回應延遲，是提升本地部署效率的實用優化技巧。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此技術整合進基於 vLLM 的 Agent 框架，監控並對比優化前後的首次 token 延遲與 GPU 記憶體使用率，量化其實際效益。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-m5-ultra",
+    "title": "M5 Ultra 晶片首批基準測試數據出爐",
+    "title_original": "First M5 Ultra benchmarks",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wisr6h/first_m5_ultra_benchmarks/",
+    "published_at": "2026-09-17T12:34:05+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 社區曝光 M5 Ultra 晶片的首批基準測試結果。測試重點聚焦神經引擎效能，展示該晶片在本地 AI 推論任務上的表現。雖然完整數據尚未官方公布，但社區已開始評估其對本地大型語言模型運行的適用性。",
+    "highlights": [
+      "M5 Ultra 基準測試聚焦神經引擎 AI 推論效能",
+      "社區搶先曝光晶片在 LLM 任務的初步表現",
+      "評估重點為本地模型部署的可行性",
+      "晶片效能影響開發者的硬體選擇策略",
+      "蘋果自研晶片在 AI 推論領域持續推進"
+    ],
+    "why_it_matters": "M5 Ultra 的 AI 推論效能直接影響開發者是否能在蘋果設備上高效運行本地模型。了解早期基準數據有助於評估新硬體對工作流程程的實際價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在官方數據出爐後，據此評估是否升級至 M5 Ultra 以提升本地模型推論速度，優化需要即時回應的 AI 應用場景。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-gpu-profiler-ai-agent",
+    "title": "開源 GPU  profiler：讓 AI Agent 直接解讀，而非工程師閱讀追蹤記錄",
+    "title_original": "We built an open-source GPU profiler you point an AI agent at, instead of reading traces yourself",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wisllu/we_built_an_opensource_gpu_profiler_you_point_an/",
+    "published_at": "2026-09-17T12:27:14+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶分享了一款開源 GPU 效能分析工具，宣稱可讓 AI Agent 直接解析 GPU 追蹤資料，自動找出效能瓶頸，省去工程師手動閱讀複雜 Trace 的人力。目前無獨立 Repo 連結，技術細節需進一步驗證。",
+    "highlights": [
+      "概念為 AI Agent 自動解析 GPU 追蹤資料",
+      "目標受眾是本地 LLM 部署者與最佳化需求者",
+      "目前僅見 Reddit 貼文，無官方 Repo 或文件",
+      "自動化診斷流程對技術用戶有吸引力",
+      "需找到實際 Repo 才能評估可用性"
+    ],
+    "why_it_matters": "若此工具確實能讓 Agent 自動診斷本地部署的 GPU 瓶頸，可大幅降低推論最佳化的人力成本；但目前資訊不足以判斷實際功能。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可追蹤該 Reddit 串後續回覆，若有人分享 Repo 連結，可測試該工具是否能整合進現有本地 LLM 監控腳本，自動觸發效能報告。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-androidlife-qwen3-8-27b-ai-agent-56-7",
+    "title": "AndroidLife 測試：Qwen3.8-27b 扮演真實用戶的 AI Agent 達 56.7% 成功率",
+    "title_original": "AndroidLife: Can an AI agent survive a day in the life of a real user? Qwen3.8-27b run: 56.7% SR",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wis5p0/androidlife_can_an_ai_agent_survive_a_day_in_the/",
+    "published_at": "2026-09-17T12:06:57+00:00",
+    "category": "new-models",
+    "summary": "AndroidLife 評測計畫測試了 Qwen3.8-27b 模型作為 AI Agent 執行一天真實生活任務的能力，最終達到 56.7% 的任務成功率。測試場景模擬了真實用戶的日常操作，包括應用切換、資訊查詢與任務規劃等，是對本地模型 Agent 能力的一次實際壓測。",
+    "highlights": [
+      "使用 Qwen 3.8 27B 模型執行為期一天的現實任務測試",
+      "56.7% 的任務成功率反映了本地模型的 Agent 能力現狀",
+      "測試涵蓋應用操作、資訊檢索、任務協調等真實場景",
+      "為本地部署的 Agent 效能提供了可參考的基準數據"
+    ],
+    "why_it_matters": "該測試結果顯示 27B 規模的本地模型已具備執行真實世界任務的能力邊界，56.7% 的成功率既是限制也是潛力，為技術用戶評估本地模型時提供了具體的效能參照。",
+    "automation_angle": null,
+    "automation_angle_zh": "可使用 AndroidLife 或類似框架對自選的本地模型進行相同的 Agent 能力評估，建立自己模型庫的效能基準以便横向比較。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-17-windbg-mcp-mcp-windbg-ai-agent",
     "title": "windbg-mcp：用 MCP 協定將 WinDbg 偵錯能力暴露給 AI Agent",
     "title_original": "glslang/windbg-mcp",
@@ -29,6 +223,61 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-17-intel-openvino-2026-4",
+    "title": "Intel 發布 OpenVINO 2026.4 推論優化工具包",
+    "title_original": "Intel releases OpenVINO 2026.4",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wipkd2/intel_releases_openvino_20264/",
+    "published_at": "2026-09-17T09:51:35+00:00",
+    "category": "agent-skills",
+    "summary": "Intel 正式發布 OpenVINO 2026.4 版本，這是針對本地模型部署的推論優化工具包最新更新。新版本強化了對大型語言模型的支援，並優化了 GPU 加速推論流程，為需要在 Intel 硬體上部署 AI 模型的開發者提供更高效的解決方案。",
+    "highlights": [
+      "OpenVINO 2026.4 強化 LLM 推論支援",
+      "優化 GPU 加速推論流程提升效率",
+      "專為 Intel 硬體環境設計的模型部署工具",
+      "支援多種模型格式的量化與加速",
+      "可降低本地模型部署的硬體門檻"
+    ],
+    "why_it_matters": "OpenVINO 是 Intel 生態系中最重要的 AI 推論優化工具，新版本將使開發者能在 Intel 平台上更高效地部署和運行本地模型，降低企業級 AI 應用的硬體成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Intel 顯示卡或集成顯卡的開發者，可利用 OpenVINO 2026.4 優化模型推論效率，將本地 AI 助理整合至自動化流程中，減少對昂貴雲端資源的依賴。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-qwen-next-3-8-claude-opus",
+    "title": "社區熱議 Qwen Next 3.8 能否達到 Claude Opus 等級本地部署效能",
+    "title_original": "Qwen Next 3.8 / Claude Opus level local model - What to buy in order to deploy?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wipju7/qwen_next_38_claude_opus_level_local_model_what/",
+    "published_at": "2026-09-17T09:50:46+00:00",
+    "category": "new-models",
+    "summary": "Reddit 討論區有用戶詢問如何部署號稱達到 Claude Opus 等級的 Qwen Next 3.8 模型，並諮詢適合的硬體配置與部署方案。此消息在本地 LLM 社群引發熱議，但缺乏官方確認的效能基準數據，目前僅停留在社區傳聞階段。",
+    "highlights": [
+      "Qwen Next 3.8 被社群比擬為可對標 Claude Opus 的本地模型",
+      "討論聚焦於硬體需求與部署成本",
+      "目前無官方效能評測或基準測試結果",
+      "消息來源為 Reddit 社區討論，非正式發布"
+    ],
+    "why_it_matters": "若 Qwen Next 真能達到此效能水準，將大幅提升本地 LLM 的能力邊界。但未經驗證的效能傳言需謹慎看待，應等待官方或可信第三方評測出爐。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續追蹤 Qwen 官方發布動態，待正式版本推出後用本地效能測試框架（如 HELM、MT-Bench）進行獨立評估。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-17-reddit-r-localllama-agentic-workflow",
     "title": "Reddit r/LocalLLaMA 討論：如何建構與使用 Agentic Workflow",
     "title_original": "How do you create and use your agentic workflow?",
@@ -50,6 +299,89 @@
     "automation_angle_zh": "技術用戶可閱讀討論串，收集他人實作的 Prompt 模板與錯誤處理模式，直接借鑒至自己的本地模型工作流程中。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-jev",
+    "title": "Jev 架構：自稱一年前已開源模型、資料集與論文",
+    "title_original": "I literally built the Jev architecture one year back and completely open-sourced it with model, dataset and paper",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wijo3e/i_literally_built_the_jev_architecture_one_year/",
+    "published_at": "2026-09-17T04:18:15+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶聲稱早在一年前已構建並完全開源了 Jev 架構，包含模型權重、訓練資料集與學術論文，但目前未提供具體 Repo 連結或可驗證的學術發表。此聲稱缺乏第三方驗證，技術用戶應保持懷疑。",
+    "highlights": [
+      "僅 Reddit 單一來源，聲稱有一年曆史",
+      "宣稱包含模型、資料集、論文三位一體開源",
+      "未提供可驗證的 Repo、論文 DOI 或 HuggingFace 連結",
+      "無法排除為行銷或錯覺性聲稱",
+      "若屬實，對開源模型研究者有較高價值"
+    ],
+    "why_it_matters": "Jev 架構若真實且有實作，可為開源多模態模型研究提供新思路；但目前缺乏任何可驗證的開源成品，技術用戶不建議據此做任何規劃。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可持續關注該 Reddit 串，若作者補上 GitHub Repo 或學術論文連結，則可評估模型權重是否可用於本地部署或微調。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-qwen-3-8-27b",
+    "title": "Qwen 3.8 27B 展示本地模型自動瀏覽器操作能力",
+    "title_original": "Qwen 3.8 27b is a amazing model, for the first time I see a local model found its own away to open a browser and test",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wii0qe/qwen_38_27b_is_a_amazing_model_for_the_first_time/",
+    "published_at": "2026-09-17T02:57:15+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享 Qwen 3.8 27B 模型展示出突破性能力，能自行開啟瀏覽器並執行網頁操作測試。這是首次有本地模型展現出結合視覺理解與工具使用的自動化瀏覽能力，為開發者提供了在本地環境實現網頁自動化的可能性。",
+    "highlights": [
+      "Qwen 3.8 27B 模型具備視覺+工具使用能力",
+      "首次有本地模型能自主開啟瀏覽器並測試操作",
+      "可在本地環境實現網頁自動化流程",
+      "模型大小相對合理，適合中高階消費級硬體運行",
+      "展示從被動回應到主動操作的範式轉變"
+    ],
+    "why_it_matters": "本地模型能執行瀏覽器操作的意義重大，代表 AI 助理不再只能輸出文字，而是能真正執行多步驟的網頁任務。這將大幅擴展本地 AI 在自動化工作流程的應用場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將此模型整合至現有自動化腳本，實現諸如自動填表、網頁截圖比對、UI 測試等需瀏覽器互動的工作流程程，降低對雲端 API 的依賴。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-reddit-jev",
+    "title": "Reddit 用戶聲稱一年前已開源 Jev 架構完整模型、數據集與論文",
+    "title_original": "I literally built the Jev architecture one year back and completely open-sourced it with model, dataset and paper",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wihgum/i_literally_built_the_jev_architecture_one_year/",
+    "published_at": "2026-09-17T02:31:04+00:00",
+    "category": "open-source-ai",
+    "summary": "一位 Reddit 用戶聲稱早在一年前已獨立構建並完全開源了 Jev 架構，包含預訓練模型、訓練數據集與詳細論文。目前該項目已上傳至 GitHub，但未獲主流社區廣泛關注，原始論文引用量極低，難以驗證其主張與實際 Jev 論文的關聯性。",
+    "highlights": [
+      "聲稱開源完整的預訓練模型權重與訓練數據集",
+      "包含對應的技術論文但引用與影響力極低",
+      "GitHub 項目細節與原始 Jev 論文的對應關係存疑",
+      "屬於 Reddit 個人發布，缺乏第三方驗證"
+    ],
+    "why_it_matters": "若該開源項目確實完整重現了 Jev 架構，將是本地部署的重要資源。但目前社區討論有限，技術讀者應親自查閱代碼與論文再評估其實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可 clone 其 GitHub 倉庫，對照原始 Jev 論文測試模型是否能重現論文聲稱的能力與效能指標。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
