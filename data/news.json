@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-09-17-windbg-mcp-mcp-windbg-ai-agent",
+    "title": "windbg-mcp：用 MCP 協定將 WinDbg 偵錯能力暴露給 AI Agent",
+    "title_original": "glslang/windbg-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/glslang/windbg-mcp",
+    "published_at": "2026-09-17T10:37:55Z",
+    "category": "agent-skills",
+    "summary": "windbg-mcp 是將 WinDbg/DbgEng（支援即時使用者模式、核心模式、Crash Dump、Time Travel Debugging）透過標準 stdio 介面暴露給 AI Agent 的 MCP 伺服器，目前僅 11 顆星，技術門檻較高。",
+    "highlights": [
+      "支援 WinDbg 全套除錯模式含 TTD",
+      "透過 stdio 與 AI Agent 標準化溝通",
+      "以 Rust 實作，利於效能與安全性",
+      "目前星數低，社群關注度有限",
+      "適合 Windows 核心或驅動程式開發者"
+    ],
+    "why_it_matters": "將系統層級偵錯能力與 AI Agent 整合，可實現自動化根因分析與除錯流程，對處理崩潰報告或效能瓶頸的技術團隊有實質幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將 windbg-mcp 整合至 CI/CD 流程，讓 AI Agent 自動分析 Crash Dump 並生成初步除錯報告，節省人工排查時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/14957728?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-reddit-r-localllama-agentic-workflow",
+    "title": "Reddit r/LocalLLaMA 討論：如何建構與使用 Agentic Workflow",
+    "title_original": "How do you create and use your agentic workflow?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wilmnz/how_do_you_create_and_use_your_agentic_workflow/",
+    "published_at": "2026-09-17T06:02:09+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit LocalLLaMA 社群的使用者分享建構 Agentic Workflow 的經驗與方法，但原始摘要為空，內容品質依賴討論串本身的貢獻。需點進原文閱讀才能確認實質內容。",
+    "highlights": [
+      "討論主題為 Agentic Workflow 建構方法",
+      "原文摘要資訊不足，需自行閱讀",
+      "來自 LocalLLaMA 社群，實用性參差",
+      "可作為社群趨勢參考，但非行動指南",
+      "建議配合其他有具體工具的文件使用"
+    ],
+    "why_it_matters": "Agentic Workflow 是提升 AI 自動化深度的關鍵模式，社群討論可反映實際使用者的痛點與解法，但需過濾雜訊取其精華。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可閱讀討論串，收集他人實作的 Prompt 模板與錯誤處理模式，直接借鑒至自己的本地模型工作流程中。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-17-agentao-python-ai-mcp",
     "title": "agentao：本地優先的 Python AI 代理執行期，內建權限、MCP 與審計回放",
     "title_original": "jin-bo/agentao",
@@ -6152,6 +6209,34 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-arch-web-com-tw-55-30-chatgpt-claude-gemini",
+    "title": "arch-web.com.tw 終身訂閱方案：55.30 美元起比較 ChatGPT、Claude、Gemini",
+    "title_original": "通過一個仪表板比较 ChatGPT、Claude、Gemini 等，终身起價 55.30 美元 - arch-web.com.tw",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNc2MyZHBKOGhKcGI2RkZhOUZGaW5QOHRUeVN1YzBfWUg3LXpMZzlMYnU5dU5DU282cG5OR2wyLTJfdzVIVlFnSi1YeVVINHlSbWFPX0szZzZweEN6NHlrNXZBdGlobjljX1hsdkFNUEhyaF9CTTdINHUwNzRYRE5KalRDN1FRX2lyUjRXLUdhRjVUczJIUVU1RE1KempLTVczV3lpSGFOd0twcHhaVXdFY0I3YTRZT1pwVjh2eVRnQ2xBVURMWUkxMFFDeVFJVFJwcDRPNjBIS3NySzNmTHZ0V0E3TW84NVlsRGYxclhqamxKamVkaVcwWmlhT2ZfTjFDaktPY2ZVRUdHbjl2QXF5MGtNbl9qZ1E5RkhQcDVZd0ZaODVPY2R3RnZ2aGJBU0dWWWN6S3htUEp1UGhia01lb0ZESDNZWUY2ZmREWC1hSjdiWUl3WXhId3JjRXpsWGJFWmVWVG5GcjJWQ3RsMTllV05aRGN1ZklVVTRoZVRvZnRiN1NxaUo0?oc=5",
+    "published_at": "2026-09-08T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "arch-web.com.tw 推出一個儀表板可比較 ChatGPT、Claude、Gemini 等主流 AI 模型的方案，終身起價 55.30 美元。需注意此為第三方行銷頁面，非官方直營或評測機構。",
+    "highlights": [
+      "儀表板可比較多家 AI 模型方案差異",
+      "終身訂閱起價 55.30 美元，具體內涵需詳查",
+      "第三方行銷頁面，非獨立評測機構",
+      "優惠可能為灰色市場或轉售，存風險",
+      "性價比宣稱需自行驗證"
+    ],
+    "why_it_matters": "若為可信方案，低價終身訂閱可大幅降低個人或小團隊的 AI 工具成本；但第三方頁面存在服務中斷或帳號風險，需謹慎評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可先確認該服務的來源與信譽，若通過可將其整合至個人自動化工具鏈，以低成本維運日常任務的 AI 輔助。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
