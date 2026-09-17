@@ -1,5 +1,61 @@
 [
   {
+    "id": "2026-09-17-agentao-python-ai-mcp",
+    "title": "agentao：本地優先的 Python AI 代理執行期，內建權限、MCP 與審計回放",
+    "title_original": "jin-bo/agentao",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jin-bo/agentao",
+    "published_at": "2026-09-17T02:01:59Z",
+    "category": "agent-skills",
+    "summary": "agentao 是一款 Python 本地優先代理執行期，可嵌入應用、作為 CLI 或 ACP 伺服器運行。內建權限管理、MCP 協定支援、記憶模組與操作審計回放，現有 303 星。",
+    "highlights": [
+      "本地優先設計，強調隱私與可控性",
+      "支援 CLI、嵌入式與 ACP 伺服器三種運行模式",
+      "內建權限管理與操作審計回放功能",
+      "支援 MCP（Model Context Protocol）協定",
+      "Python 原生，Stars 數 303，具社群關注度"
+    ],
+    "why_it_matters": "agentao 的本地執行與審計功能對企業級代理應用極具吸引力，可作為自建 AI 工作流程的安全基底，值得技術團隊評估其擴展性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 agentao 嵌入自訂腳本，測試其權限控管與審計回放能力，評估是否適用於需要合規記錄的自動化任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/10345043?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-datasette-0-65-5",
+    "title": "Datasette 0.65.5 安全修補：表格權限繞過漏洞",
+    "title_original": "datasette 0.65.5",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/16/datasette-2/",
+    "published_at": "2026-09-16T23:51:08+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 Datasette 0.65.5 版本，修補一項由安全研究者 dpfkdlemtp 發現的高風險漏洞（GHSA-h547-rmjf-5m2m），攻擊者可透過表格名稱尾端換行符號繞過權限檢查，暴露私有資料列。",
+    "highlights": [
+      "漏洞成因：表格名稱結尾的 \\n 可繞過 Datasette 的權限驗證機制",
+      "影響版本：0.65.x 系列，建議立即升級至 0.65.5",
+      "風險等級高，涉及隱私資料外洩可能",
+      "漏洞由 GitHub Advisory 追蹤，屬於正式安全披露"
+    ],
+    "why_it_matters": "Datasette 是資料新聞與快速 API 建構的熱門工具，若使用權限控制功能，應立即更新以避免私有資料遭未授權存取。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Datasette 建構資料 API 的開發者應將此次更新納入自動化部署流程，並檢查現有資料庫權限設定是否正確。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-16-qwen-qwen3-8-flash-next-hugging-face",
     "title": "Qwen/Qwen3.8-Flash-Next 登上 Hugging Face 熱門模型榜",
     "title_original": "Qwen/Qwen3.8-Flash-Next",
@@ -157,6 +213,33 @@
     "automation_angle_zh": "技術用戶可將報告中提及的中國模型納入評估清單，針對特定任務 Benchmark 比較推論延遲與成本，測試是否可替代現有高價模型。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-openai",
+    "title": "OpenAI 發布模型失調回報框架，含六例異常行為報告",
+    "title_original": "Our framework for reporting model misalignment",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/model-misalignment-reporting-framework",
+    "published_at": "2026-09-16T17:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 公布模型失調追蹤與調查框架，並公開六例觀察到的異常或令人擔憂模型行為案例。此框架旨在提升模型安全性研究的透明度與可追蹤性。",
+    "highlights": [
+      "發布標準化失調事件追蹤與調查流程",
+      "同步公開六例模型異常行為的詳細報告",
+      "聚焦安全研究社群的協作框架",
+      "為開發者提供模型風險評估參考資料"
+    ],
+    "why_it_matters": "模型失調案例對生產環境部署有直接參考價值，開發者可借此框架評估目標模型在特定任務上的行為邊界與潛在風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "查閱六例失調報告，針對自有任務場景評估模型選擇是否涉及類似風險，並據此設計防護性檢查點或人類審核環節。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -18164,6 +18247,33 @@
     "automation_angle_zh": "可將 PyTorch 或 ONNX 推論脚本連同模型权重封裝為單一 SQLite 檔案，實現一行指令即可部署 AI 工具，並透過 binfmt_misc 達成原生執行體驗。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-anthropic-claude-ai",
+    "title": "Anthropic Claude AI 再次服務中斷，錯誤率升高",
+    "title_original": "Anthropic's Claude AI Suffers Another Outage With Elevated Errors - CyberSecurityNews",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ISEdvcHlWejI4YUVBWE9Ld3JwbnA5M2s0RFA2dUkyendQRWEyaFhVMGZoYVRMcnRWbXowWnBRc093eE41ajFxd2w1ZEZGeG1xeUthZUNpSzd2NVZrWkYtSkl3cjVTUdIBa0FVX3lxTE1Cd0pOdzB2aVRUbVBlVmpIZGtxdWFXWjVMSHF5RERlSzlpLUlwWHlyM2c4d3VROFNtUnFaT1E2UHNDcUNWM0w5RnFlVzRrc3FGVWhSYUhFWklNUWZBd2tibDVtMjlmODlWd3pB?oc=5",
+    "published_at": "2026-08-24T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Anthropic Claude AI 再次出現服務中斷，錯誤率明顯升高。這是近期的第二次類似事件，引發對其服務穩定性的關注，目前中斷狀態待確認。",
+    "highlights": [
+      "Claude AI 近期再次出現服務中斷",
+      "錯誤率顯著升高，影響用戶使用體驗",
+      "這是短時間內第二次類似事件",
+      "服務可用性需持續追蹤"
+    ],
+    "why_it_matters": "對已整合 Claude API 的生產系統而言，服務中斷可能導致工作流程停擺。技術用戶應評估備援方案與錯誤處理機制的完善程度。",
+    "automation_angle": null,
+    "automation_angle_zh": "檢查現有 Claude 整合程式是否具備熔斷機制與自動重試邏輯，並考慮為關鍵任務配置替代模型作為備援。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
