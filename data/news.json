@@ -1,5 +1,169 @@
 [
   {
+    "id": "2026-09-17-gitwarren-app-ssh-wsl",
+    "title": "gitwarren-app：本地 SSH/WSL 遠端程式碼審查工具",
+    "title_original": "klarluft/gitwarren-app",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/klarluft/gitwarren-app",
+    "published_at": "2026-09-17T20:42:21Z",
+    "category": "agent-skills",
+    "summary": "gitwarren-app 是 MCP 專案，讓 AI 在你擁有的機器上進行程式碼審查，透過 SSH、WSL 或 Tailnet 觸及代碼。無需自架伺服器或帳號，適合注重隱私的開發團隊。",
+    "highlights": [
+      "程式碼留在本地，AI 模型以工具身份介入審查流程",
+      "支援 SSH、WSL、Tailnet 多種遠端觸及方式",
+      "桌面應用或瀏覽器分頁兩種使用介面",
+      "16 stars，TypeScript 實作，輕量且易擴展"
+    ],
+    "why_it_matters": "將 AI 程式碼審查內嵌進既有 Git 工作流程，無需將代碼傳到第三方服務，兼顧安全與效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 gitwarren-app 整合進 CI/CD 前置審查流程，讓 AI 自動檢視 PR 變更，減少人工 review 負擔。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/94686922?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-cactus-needle-3-deepseek-v4-flash",
+    "title": "Cactus Needle 3：小體積可切片自動化基礎模型，號稱對標 DeepSeek v4 Flash",
+    "title_original": "Cactus Needle 3: A Sliceable 8-29MB Automation Foundation Model That Matches DeepSeek v4 Flash",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj4qj4/cactus_needle_3_a_sliceable_829mb_automation/",
+    "published_at": "2026-09-17T20:05:16+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 熱議 Cactus Needle 3 為 8-29MB 可切片自動化模型，聲稱匹配 DeepSeek v4 Flash 表現。資訊源自社群討論，未有獨立驗證，模型具體訓練數據與Benchmark 數據待確認。",
+    "highlights": [
+      "模型大小 8-29MB，強調輕量化部署",
+      "號稱對標 DeepSeek v4 Flash 的自動化任務能力",
+      "目前僅 Reddit 社群消息，無官方 Repo 或論文",
+      "自動化任務涵蓋範圍與具體 Benchmark 尚未透明"
+    ],
+    "why_it_matters": "若 8-29MB 規模真能接近大型模型水準，將大幅降低本地自動化 AI 的硬體門檻，但消息未經驗證需審慎看待。",
+    "automation_angle": null,
+    "automation_angle_zh": "等官方 Repo 發布後第一時間用 Ollama 或 LocalAI 部署測試，驗證其文件處理或資料分類等自動化任務的實際表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-google-un-system-data-commons",
+    "title": "Google 攜手聯合國發布 UN System Data Commons 開放資料平台",
+    "title_original": "Making global data easier to explore",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+    "published_at": "2026-09-17T20:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google 與聯合國系統合作推出 UN System Data Commons，整合全球發展指標、氣候、衛生、經濟等統計資料，透過 AI 友善格式提供搜尋與分析功能，降低開發者取用官方數據的門檻。",
+    "highlights": [
+      "整合聯合國多機構的官方開放統計資料",
+      "提供 AI 可直接解析的結構化資料格式",
+      "支援跨主題全球發展指標查詢與視覺化",
+      "由 Google 雲端基礎設施支援，可用性高"
+    ],
+    "why_it_matters": "該平台為 AI 應用開發者提供了可信賴的全球數據來源，可用於訓練、評估或作為事實核查的依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將此平台作為 RAG 系統的外部知識來源，讓 AI 助理能即時查詢最新全球發展趨勢與統計數據。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-17-swift-qwen-3-8-27b-huggingface",
+    "title": "Swift Qwen 3.8 27B 超越百萬下載量，登上 HuggingFace 趨勢榜首",
+    "title_original": "Thank you :) Swift Qwen 3.8 27B now has 100k+ downloads, is #1 finetune and #9 model on HuggingFace Trending",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj3s31/thank_you_swift_qwen_38_27b_now_has_100k/",
+    "published_at": "2026-09-17T19:30:08+00:00",
+    "category": "open-source-ai",
+    "summary": "社群微調的 Qwen 3.8 27B 模型在 HuggingFace 達成 10 萬次下載，成為 Finetune 分類第一名、總模型第九名。開發者聲稱該版本在程式碼任務與中文理解上有顯著提升，尚未獲得官方驗證。",
+    "highlights": [
+      "HuggingFace 趨勢排行榜上位列總榜第九、Finetune 首位",
+      "主要強化程式碼生成與中文理解能力",
+      "基於 Qwen 3.8 27B 進行社群微調",
+      "下載量快速增長反映本地部署需求旺盛"
+    ],
+    "why_it_matters": "Qwen 系列在本地部署社群中人氣極高，優質微調版本的出現代表中小型模型在特定任務上已能與大型模型競爭。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載該模型進行本地部署，用於取代付費 API 處理一般程式碼補全或文件摘要任務以節省成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-reddit-llm",
+    "title": "Reddit 社群票選：哪個 LLM 最會說笑話？",
+    "title_original": "Humor Arena: Which LLM is the funniest?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wj3rrv/humor_arena_which_llm_is_the_funniest/",
+    "published_at": "2026-09-17T19:29:50+00:00",
+    "category": "new-models",
+    "summary": "LocalLLaMA 社群推出「Humor Arena」投票，邀請用戶比較不同大語言模型的幽默表現。測試涵盖笑話原創性、雙關語運用、諷刺技巧等維度，結果顯示 GPT-4、Claude 與開源模型各有擅場。此類社群驅動的相對評估可補充官方基準的不足，但主觀性高且缺乏控制變數，參考價值有限。",
+    "highlights": [
+      "「Humor Arena」為 Reddit 社群自發性投票，非官方基準測試",
+      "涵蓋笑話原創性、雙關語、諷刺等多維幽默指標",
+      "GPT-4、Claude 與 Llama 系列均有被提名",
+      "結果反映社群主觀偏好，非嚴格控制實驗",
+      "可作為探索模型創意能力的初步參考"
+    ],
+    "why_it_matters": "幽默生成是模型創意能力的體現，此投票虽非嚴謹測試，但可快速勾勒主流模型在創意維度的相對表現。技術用戶可據此選擇適合創意應用的模型方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載投票中提到的測試 prompt，自己跑類似比較實驗，針對特定幽默場景（如技術梗、雙關語）建立本地化評估腳本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-langchain-deep-life-sci-agent",
+    "title": "LangChain 開源 Deep Life Sci：生命科學專用 Agent 框架",
+    "title_original": "Building an Agent Harness for Life Sciences: Introducing Deep Life Sci",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/agent-harness-life-sciences",
+    "published_at": "2026-09-17T17:40:45+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布開源生命科學 Agent 工具 Deep Life Sci，整合 60 萬筆 ClinicalTrials、2900 萬筆 PubMed 摘要及 1200 萬筆全文文獻，支援沙盒化子代理進行真實數據分析，可自動執行文獻檢索與實驗數據解讀流程。",
+    "highlights": [
+      "串接 ClinicalTrials.gov、PubMed、PubMed Central 三大資料庫",
+      "沙盒化子代理設計，隔離危險操作保障研究資料安全",
+      "支援結構化臨床試驗資料查詢與比對",
+      "可自動化文獻綜述與假說生成流程"
+    ],
+    "why_it_matters": "生科研究人員以往需手動檢索多資料庫並整合分析，Deep Life Sci 可將文獻挖掘與假說推導自動化，大幅縮短研究前期時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "研究團隊可部署此框架，讓 AI 自動監測特定疾病領域的新臨床試驗，並生成每週文獻摘要報告供團隊參考。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-17-langchain-included-health-langgraph-agent",
     "title": "LangChain 詳解 Included Health 如何用 LangGraph 構建聯邦式醫療導航 Agent",
     "title_original": "How Included Health Built Federated Healthcare Agents with LangGraph and Deep Agents",
@@ -416,6 +580,33 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/10345043?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-17-openai-astra-for-law-ai",
+    "title": "OpenAI 推出 Astra for Law 法律專業 AI 解決方案",
+    "title_original": "Introducing Astra for Law",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/astra-for-law",
+    "published_at": "2026-09-17T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布 Astra for Law，為律所提供前緣智慧、自訂工作流程程、串接法律資料源與機密案件控制機制。瞄準需要精確性與合規兼顧的高端法律市場。",
+    "highlights": [
+      "支援律所自訂審閱、合約分析等工作流程程",
+      "可串接法律資料庫與客戶機密文件",
+      "強調法律等級的資料控制與隱私保護",
+      "屬 OpenAI 垂直領域解決方案的擴展"
+    ],
+    "why_it_matters": "法律市場對 AI 精確度與保密要求極高，Astra for Law 若表現穩定將成為企業 AI 採用的重要參考案例，影響其他高價值領域的垂直方案設計。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估 Astra for Law 的工作流程程自訂 API，若符合需求可作為法律文件自動化審閱的商業方案替代自建。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-09-17-datasette-0-65-5",
