@@ -1,5 +1,173 @@
 [
   {
+    "id": "2026-09-18-wamcp-whatsapp-mcp-server-ai-agent-whatsapp",
+    "title": "wamcp：WhatsApp MCP Server 讓 AI Agent 直接操作 WhatsApp",
+    "title_original": "delltrak/wamcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/delltrak/wamcp",
+    "published_at": "2026-09-18T15:18:44Z",
+    "category": "agent-skills",
+    "summary": "透過 MCP 協議將 AI Agent 與 WhatsApp 深度整合，提供 61 個工具、10 種資源、12 種即時事件處理能力，同時支援 Baileys 與 Cloud API 兩種連線方式。使用 TypeScript 開發並支援 Docker 部署。",
+    "highlights": [
+      "61 個工具涵蓋訊息收發、狀態查詢、媒體分享等完整功能",
+      "支援 Baileys 與 Cloud API 兩種模式",
+      "Docker 容器化部署簡化環境配置",
+      "12 種即時事件監控，可主動響應新訊息",
+      "TypeScript 生態便於整合與擴展"
+    ],
+    "why_it_matters": "AI Agent 可主動收發 WhatsApp 訊息，實現即時自動回覆功能。這打開了行動端工作流程自動化的可能性，讓個人助理能真正觸及用戶的日常溝通場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Docker 快速架設 WhatsApp Bot，實現訊息自動分類、關鍵字回覆與任務提醒等個人化自動化功能。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/78751023?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-18-memory-cloud-ai-agent",
+    "title": "memory-cloud：為 AI Agent 打造的自我學習適應性記憶系統",
+    "title_original": "kagura-ai/memory-cloud",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/kagura-ai/memory-cloud",
+    "published_at": "2026-09-18T15:16:58Z",
+    "category": "agent-skills",
+    "summary": "基於 MCP 協議的自架記憶服務，融合混合搜尋與神經記憶圖譜。系統能在每次檢索中自我學習，提供比單純 RAG 更聰明的長期資訊整合能力。支援 Claude、ChatGPT 等主流 Agent。",
+    "highlights": [
+      "混合搜尋搭配神經記憶圖譜雙重機制",
+      "超越傳統 RAG 的適應性學習能力",
+      "支援 MCP 協議，與主流 Agent 平台相容",
+      "完全自架部署，資料不外流",
+      "新興專案，11 stars，需持續觀察社群發展"
+    ],
+    "why_it_matters": "為 Agent 提供持續學習框架，使其能不斷優化記憶整合，而非依賴靜態檢索。這對建構真正理解使用者需求的智慧助理極為關鍵。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此服務整合至個人 Agent 工作流程，建構具備自我改進能力的長期記憶系統，提升上下文理解精準度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/190163397?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-18-code-context-ai-agent",
+    "title": "code-context：本地程式碼搜尋工具，賦予 AI Agent 語義理解能力",
+    "title_original": "infino-ai/code-context",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/infino-ai/code-context",
+    "published_at": "2026-09-18T15:09:51Z",
+    "category": "agent-skills",
+    "summary": "本地 CLI 與 MCP 伺服器整合，實現關鍵詞與語義混合搜尋，SQL 相關性排序，無需帳號或 API key。專為 AI 程式設計 Agent 打造，提升對程式碼庫的深度理解能力。",
+    "highlights": [
+      "關鍵詞與語義雙重搜尋機制",
+      "SQL 相關性排序確保結果精確度",
+      "完全本地執行，無需帳號或 API key",
+      "TypeScript 實作，與 Agent 無縫整合",
+      "31 stars 顯示開發者社群有一定關注度"
+    ],
+    "why_it_matters": "讓 Agent 真正掌握整個程式碼庫的結構與語義，而非僅依賴簡單的關鍵詞匹配。這是提升 AI 程式設計輔助品質的關鍵基礎，尤其適合大型專案。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此工具整合至 Cursor 或其他 AI 程式設計工具的背後，增強程式碼檢索與理解能力，加速程式碼審查與重構任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/284537177?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-18-minimax-code-ai",
+    "title": "MiniMax Code 開源：中國 AI 公司開放程式碼生成模型",
+    "title_original": "MiniMax Code goes open source",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjs62f/minimax_code_goes_open_source/",
+    "published_at": "2026-09-18T14:44:33+00:00",
+    "category": "open-source-ai",
+    "summary": "MiniMax Code 宣布開源其程式碼生成模型，這是中國 AI 公司 MiniMax 首次向社群開放程式碼相關模型。具體技術規格與效能數據尚待社群驗證。",
+    "highlights": [
+      "MiniMax 為中國 AI 新創，專注程式碼生成領域",
+      "Code 模型正式開源，開放給開發者使用",
+      "模型效能與支援語言尚待社群人測試",
+      "可能提供替代現有程式碼助理的新選項"
+    ],
+    "why_it_matters": "開源程式碼模型可降低企業 AI 輔助開發成本，為開發者提供更多本地部署選擇，減少對商業 API 的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 MiniMax Code 整合至 CI/CD 流程，自動生成或審查 Pull Request 中的程式碼片段。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-18-google-ai",
+    "title": "Google 擴展 AI 與經濟研究團隊，引入頂尖學術顧問",
+    "title_original": "New experts join Google’s AI & Economy team",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+    "published_at": "2026-09-18T14:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google 宣布擴展其 AI & Economy 團隊，招募多位頂尖學術顧問、研究員與Fellow。此團隊專注 AI 對經濟影響的學術研究，旨在建立相關 Benchmark。",
+    "highlights": [
+      "Google 官方 AI Blog 正式公告",
+      "團隊新增學術顧問與核心研究人員",
+      "聚焦 AI 對經濟影響的學術研究",
+      "將建立 AI & Economy 評測基準"
+    ],
+    "why_it_matters": "Google 此舉顯示大型科技公司重視 AI 經濟影響研究，未來可能推出相關評測標準或商業化工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注團隊後續發布的 Benchmark，研究 AI 對特定產業自動化的經濟效益評估方法。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-18-google-flow-nyfw-ai",
+    "title": "Google Flow 工具助力 NYFW 設計師，打造 AI 時尚協作新模式",
+    "title_original": "Co-creating the future of fashion with Google",
+    "source": "Google AI Blog",
+    "source_url": "https://blog.google/technology/ai/rss/",
+    "original_url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+    "published_at": "2026-09-18T13:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Google 與 NYFW 設計師 Jane Wade、Sergio Hudson 合作，客製化 Google Flow 工具用於時裝週準備。這是 Google 首次將 AI 工具深度整合至時尚設計流程。",
+    "highlights": [
+      "Google Flow 為 Google 官方 AI 創作工具",
+      "與知名設計師合作展示客製化應用",
+      "首次深度整合 AI 與時尚產業",
+      "展示企業級 AI 工具的客製化潛力"
+    ],
+    "why_it_matters": "此案例顯示 Google 正積極拓展企業 AI 應用場景，技術人員可關注 Flow 工具的 API 開放與客製化選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "若 Google Flow 開放 API，可探索將其整合至電商或設計工作室的創意自動化流程中。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-18-blitzstrike-mcp-57-130",
     "title": "blitzstrike：MCP 滲透測試工具箱，含 57 條提權鏈與 130 工具",
     "title_original": "shinthink/blitzstrike",
@@ -55,6 +223,33 @@
       "Go"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/256610469?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-18-openjev",
+    "title": "開源版 OpenJev 上線：擺脫等待名單，立即體驗本地部署",
+    "title_original": "Still on the Jev waitlist? I hosted OpenJev. It's free, go play with it",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjlyzr/still_on_the_jev_waitlist_i_hosted_openjev_its/",
+    "published_at": "2026-09-18T09:59:37+00:00",
+    "category": "open-source-ai",
+    "summary": "社群開發者自行架設 OpenJev 開源版本，讓原本需要等待 Jev 官方名單的用戶可立即使用本地部署版本。此為社群驅動的開源替代方案。",
+    "highlights": [
+      "OpenJev 為 Jev 的開源替代版本",
+      "任何人都可免費部署使用",
+      "由 Reddit 社群開發者自發架設",
+      "繞過官方等待名單的限制"
+    ],
+    "why_it_matters": "社群快速響應創造開源替代方案，顯示 AI 工具生態的協作活力，技術人員可立即部署測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即在本機環境部署 OpenJev，用於個人知識管理或文件自動化處理，無需支付商業訂閱費用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
