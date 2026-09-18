@@ -1,5 +1,202 @@
 [
   {
+    "id": "2026-09-18-pyrecrawl-mcp-server-api-key",
+    "title": "PyreCrawl：開源 MCP Server，主打無 API Key 自架網頁爬蟲",
+    "title_original": "SanggonBoy/PyreCrawl",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/SanggonBoy/PyreCrawl",
+    "published_at": "2026-09-18T20:08:43Z",
+    "category": "open-source-ai",
+    "summary": "PyreCrawl 是一款自架 MCP 伺服器，提供網頁爬取、擷取、地圖、搜尋、批量處理、調研與監控等功能。號稱無需 API Key，是 Firecrawl 的免費替代方案，目前 GitHub 僅 15 顆星，成熟度待驗證。",
+    "highlights": [
+      "完全自架，無需第三方 API Key",
+      "支援爬取、擷取、搜尋、批量處理一站式",
+      "定位為 Firecrawl 免費替代",
+      "目前星數極低，專案成熟度存疑",
+      "Python 語言，技術門檻較低"
+    ],
+    "why_it_matters": "若 PyreCrawl 功能如所述，可大幅降低 AI 網頁調研工具的成本，但 15 星的專案需先實測穩定性再投入正式工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可先在本機 Docker 環境中部署 PyreCrawl，用來自動化競爭情報抓取或定期監控特定網頁變化，驗證其實用性再決定是否取代付費方案。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/118122698?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-18-simon-willison-llm-jurassic-park",
+    "title": "Simon Willison：拒絕關注LLM進展如同遺忘 Jurassic Park的遺傳學家",
+    "title_original": "Note on 18th September 2026",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
+    "published_at": "2026-09-18T19:21:32+00:00",
+    "category": "hot-topics",
+    "summary": "AI研究者Simon Willison發表觀點，批評部分電腦科學家對當前LLM發展視而不見的態度。他以遺傳學家無視 Jurassic Park 基因技術突破為比喻，強調忽視LLM相當於錯過科技史上關鍵轉折點。",
+    "highlights": [
+      "Simon Willison為知名AI部落客與研究者",
+      "文章為meta視角的行業評論",
+      "強調持續關注LLM演進的重要性",
+      "比喻生動但缺乏技術實質內容",
+      "對技術讀者的實際操作價值有限"
+    ],
+    "why_it_matters": "文章提醒技術社群保持對LLM領域的敏銳度，但本身屬於觀點性質，不涉及具體技術或產品變化。",
+    "automation_angle": null,
+    "automation_angle_zh": "此類觀點文章適合作為產業趨勢的補充閱讀，但建議優先追蹤具體技術進展與產品發布。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-18-github-copilot-sentry",
+    "title": "GitHub Copilot 每週更新：九月第二週新增模型選擇、程式碼審查與 Sentry 整合",
+    "title_original": "GitHub Copilot weekly releases — September 14",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
+    "published_at": "2026-09-18T19:21:22+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 本週更新新增模型選擇功能、程式碼審查改進、Sentry 整合，以及管理員層面的更新與 Agent 模式新功能。具體新增哪些 Agent 功能需閱讀原文確認。",
+    "highlights": [
+      "新增自訂模型選擇選項",
+      "程式碼審查流程優化",
+      "整合 Sentry 錯誤追蹤",
+      "管理員控制台有新設定",
+      "Agent 模式有新功能更新"
+    ],
+    "why_it_matters": "Copilot 新增模型選擇與 Sentry 整合表示其正往更靈活的開發工作流程靠攏，技術人員可依任務選擇更適合的模型，提升程式碼生成效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 Copilot 設定中切換不同模型測試同一任務的輸出品質，並使用 Sentry 整合直接從 Copilot 跳轉至錯誤監控，提升除錯效率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-18-claude-code-2-1-277-agents-md",
+    "title": "Claude Code 2.1.277版本正式支援AGENTS.md檔案格式",
+    "title_original": "Quoting Thariq Shihipar",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
+    "published_at": "2026-09-18T19:09:27+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic為Claude Code開發環境引入AGENTS.md支援。當目錄中無CLAUDE.md時，Claude將自動偵測並使用AGENTS.md作為代理指令集。此功能基於即將推出的Code Mods機制，允許開發者自訂專案級別的代理行為。",
+    "highlights": [
+      "版本2.1.277已開始推送此功能",
+      "AGENTS.md為CLAUDE.md的替代方案，適用於代理場景",
+      "底層技術為Code Mods，支援自訂擴展",
+      "Mod源碼已開源，開發者可研究與改造",
+      "有助於建立更靈活的專案級AI代理配置"
+    ],
+    "why_it_matters": "AGENTS.md支援讓開發團隊能更精細控制Claude在專案中的行為，為多代理協作與自動化工作流程奠定基礎。",
+    "automation_angle": null,
+    "automation_angle_zh": "在現有專案中建立AGENTS.md，定義Claude處理特定任務時的行為模式，並利用Code Mods自訂工作流程程指令。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-18-github-copilot",
+    "title": "GitHub Copilot 十月十九日將停用特定模型",
+    "title_original": "Upcoming deprecation of selected GitHub Copilot models in mid-October",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october",
+    "published_at": "2026-09-18T19:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "GitHub 宣布將於 2026 年 10 月 19 日全面停用部分 Copilot 模型，涵蓋 Copilot Chat、行內編輯、問答與 Agent 模式及程式碼補全。使用的技術人員需在停用日前遷移至新版模型。",
+    "highlights": [
+      "停用日期：2026 年 10 月 19 日",
+      "影響範圍包括 Chat、inline、Agent 與補全",
+      "需提前確認目前使用的模型是否在停用名單",
+      "建議儘早測試新模型替代方案",
+      "官方 Changelog 有完整停用模型清單"
+    ],
+    "why_it_matters": "若工作流程依賴即將停用的 Copilot 模型，應立即行動測試替代選項，避免停用日當天開發效率驟降。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可查閱官方 Changelog 確認停用模型清單，在自動化腳本或 CI/CD 流程中搶先切換至新模型，提前發現相容性問題。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-18-24-llm-475",
+    "title": "研究：24款LLM與475道創作提示的人類寫手對決基準測試",
+    "title_original": "We benchmarked 24 LLMs against human writers on 475 creative writing prompts",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjwhxc/we_benchmarked_24_llms_against_human_writers_on/",
+    "published_at": "2026-09-18T17:24:23+00:00",
+    "category": "hot-topics",
+    "summary": "研究團隊對24款主流大語言模型進行系統性評估，以475道創意寫作提示測試其與人類寫手的表現差異。研究發現各模型在創意性、風格一致性與情感表達上存在明顯差距，但特定模型已接近人類水準。",
+    "highlights": [
+      "測試覆蓋24款主流LLM陣容",
+      "使用475道創意寫作提示進行評估",
+      "評估維度包含創意性、風格與情感",
+      "部分模型已展現接近人類的表現",
+      "研究為模型選擇提供實證參考"
+    ],
+    "why_it_matters": "此基準測試提供了模型創意寫作能力的客觀參考，幫助開發者根據實際需求選擇最適合的工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考研究結論，挑選創意寫作表現優異的模型用於內容自動化場景，並在類似提示集上驗證效果。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-18-minimax-code-m3-1",
+    "title": "MiniMax Code宣布開源，M3.1模型後續值得關注",
+    "title_original": "MiniMax Code is now open source. Maybe M3.1 is the next thing to watch.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjujri/minimax_code_is_now_open_source_maybe_m31_is_the/",
+    "published_at": "2026-09-18T16:12:44+00:00",
+    "category": "open-source-ai",
+    "summary": "MiniMax正式開源其Code模型，社群猜測代號M3.1的下一代模型可能即將問世。MiniMax在中國AI市場有一定知名度，其程式碼模型的開源舉動受到本地部署愛好者關注。",
+    "highlights": [
+      "MiniMax Code模型已公開開源",
+      "傳聞M3.1為下一代即將發布的版本",
+      "MiniMax為中國知名AI公司之一",
+      "開源此模型有助於程式碼生成領域研究",
+      "具體效能數據與模型規模尚待社群驗證"
+    ],
+    "why_it_matters": "MiniMax加入開源程式碼模型陣營，可能為需要程式碼生成能力的開發者提供新的本地部署選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "第一時間下載MiniMax Code模型，在標準基準測試上評估其程式碼生成品質，比較推論速度與記憶體佔用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-18-wamcp-whatsapp-mcp-server-ai-agent-whatsapp",
     "title": "wamcp：WhatsApp MCP Server 讓 AI Agent 直接操作 WhatsApp",
     "title_original": "delltrak/wamcp",
@@ -105,6 +302,34 @@
     "why_it_matters": "開源程式碼模型可降低企業 AI 輔助開發成本，為開發者提供更多本地部署選擇，減少對商業 API 的依賴。",
     "automation_angle": null,
     "automation_angle_zh": "可將 MiniMax Code 整合至 CI/CD 流程，自動生成或審查 Pull Request 中的程式碼片段。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-18-ai-naive-ai-14-llm",
+    "title": "神秘中國AI公司Naive AI估值逾14億美元，傳月內開源首個LLM",
+    "title_original": "China’s mysterious AI company Naive AI is valued at over $1.4 billion and could release its first open-source llm model as early as this month.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjr9ip/chinas_mysterious_ai_company_naive_ai_is_valued/",
+    "published_at": "2026-09-18T14:09:25+00:00",
+    "category": "open-source-ai",
+    "summary": "傳聞中國新興AI公司Naive AI已完成巨額估值融資，正準備發布其首個開源大語言模型。該公司身份神秘，目前尚無明確產品或技術路線圖曝光。社群對其能否真正提供有競爭力的開源模型持觀望態度。",
+    "highlights": [
+      "公司估值達14億美元，顯示投資人對其前景的期待",
+      "計畫本月發布首個開源LLM模型",
+      "公司背景與技術實力缺乏公開資訊",
+      "開源模型具體規格與性能表現尚不明確",
+      "社群反應兩極，有人期待也有人質疑"
+    ],
+    "why_it_matters": "若真能在短期內推出開源模型，可能為本地部署陣營提供新選擇；但公司神秘度過高，需持續觀察其實際技術能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "密切關注其GitHub或HuggingFace頁面，一旦模型發布即可下載測試，評估其在特定任務上的表現與資源需求。",
     "tags": [
       "open-source-ai",
       "rss",
