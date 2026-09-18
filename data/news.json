@@ -1,5 +1,148 @@
 [
   {
+    "id": "2026-09-18-blitzstrike-mcp-57-130",
+    "title": "blitzstrike：MCP 滲透測試工具箱，含 57 條提權鏈與 130 工具",
+    "title_original": "shinthink/blitzstrike",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/shinthink/blitzstrike",
+    "published_at": "2026-09-18T10:10:50Z",
+    "category": "agent-skills",
+    "summary": "blitzstrike 是一款以 TypeScript 開發的 MCP 相容通用滲透測試工具集，提供偵察、攻擊面測繪、源到匯分析與實戰驗證流程，內建 57 條提權攻擊鏈與 130 工具目錄，目標是單一伺服器滿足所有 Agent 滲透需求。",
+    "highlights": [
+      "57 條提權鏈：覆蓋常見 Windows、Linux 提權向量",
+      "130 工具目錄：含掃描、枚舉、漏洞利用等工具整合",
+      "結構化方法論：偵察→測繪→源到匯分析→實戰驗證",
+      "MCP 相容：可與其他 MCP Agent 整合形成安全測試工作流程",
+      "Stars 634，社群關注度中高，TypeScript 生態易擴展"
+    ],
+    "why_it_matters": "blitzstrike 將大量滲透測試工具標準化並 MCP 化，適合需要對自建系統或 AI 工具安全性進行定期評估的技術團隊，降低安全測試的上手門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 blitzstrike 整合進 CI/CD 安全檢測環節，用 MCP 介面觸發自動滲透測試，及早發現部署的 AI 工具或相關 API 的安全漏洞；或用於定期稽核內部 Agent 系統的存取控制與提權風險。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/292174078?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-18-nixopus-go",
+    "title": "nixopus：Go 語言全代理化部署平台，號稱無需操心基礎設施",
+    "title_original": "nixopus/nixopus",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/nixopus/nixopus",
+    "published_at": "2026-09-18T10:06:37Z",
+    "category": "agent-skills",
+    "summary": "nixopus 是一個用 Go 開發的部署平台，訴求讓生產環境應用無需考慮基礎設施細節，支援全代理化（fully agentic）部署流程，可選擇自架或使用官方托管服務，目前在 GitHub 已有 1,463 顆星。",
+    "highlights": [
+      "語言：Go，預期高效能與較低記憶體佔用",
+      "定位：基礎設施抽象層，減少 DevOps 負擔",
+      "全代理化：部署流程由 Agent 驅動，理論上可減少人為操作失誤",
+      "部署彈性：支援自架或托管，適合不同安全合規需求",
+      "開源專案，Stars 數較高，表示社群關注度可觀"
+    ],
+    "why_it_matters": "若 nixopus 的全代理化部署確實能降低基礎設施門檻，技術團隊可將其作為 AI 工作流程部署的一環，快速將實驗階段的 Agent 推上生產環境。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 nixopus 整合進 CI/CD 流水線，用 Agent 驅動部署流程，減少人工部署步驟；或在測試新 AI 工具時快速開環境，隔離影響範圍。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/256610469?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-18-flyweight-c-cuda-moe-vram",
+    "title": "Flyweight：C++/CUDA引擎讓MoE模型突破VRAM限制",
+    "title_original": "Flyweight: open-source C++/CUDA engine for running MoE models bigger than your VRAM on one GPU + system RAM. First PyPI release, looking for contributors.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjjmj9/flyweight_opensource_ccuda_engine_for_running_moe/",
+    "published_at": "2026-09-18T07:39:21+00:00",
+    "category": "open-source-ai",
+    "summary": "Flyweight是一款開源推論引擎，透過C++/CUDA將MoE模型的專家權重卸載至系統RAM，突破單卡VRAM限制。首個PyPI版本已發布，目前積極招募貢獻者。",
+    "highlights": [
+      "MoE架構模型可在消費級GPU執行",
+      "支援VRAM與系統RAM混合存取策略",
+      "PyPI可直接pip install部署",
+      "C++/CUDA底層優化減少推論想能損耗",
+      "開源協作模式，歡迎代碼貢獻"
+    ],
+    "why_it_matters": "個人開發者無需昂貴多卡伺服器即可部署數百億參數的MoE模型，大幅降低實驗門檻與雲端API費用支出。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此引擎整合至個人推論管線，在本地硬體測試大型MoE模型，評估延遲與吞吐量是否滿足工作需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-18-rlcd-jev",
+    "title": "RLCD訓練的水平開源模型超越Jev基準測試",
+    "title_original": "Made the horizontal open-source model for Jev with RLCD, and it surpasses all the Jev benchmarks. HF space, benchmark, model, repo",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wjieap/made_the_horizontal_opensource_model_for_jev_with/",
+    "published_at": "2026-09-18T06:25:03+00:00",
+    "category": "open-source-ai",
+    "summary": "社群開發者發布一款針對Jev基準優化的水平開源模型，採用RLCD對比學習訓練，在多項基準測試中超越原始Jev模型。模型、基準代碼及訓練腳本均已開源於Hugging Face。",
+    "highlights": [
+      "使用RLCD對比學習方法進行訓練",
+      "水平架構針對特定任務優化",
+      "提供HF Space即時試玩介面",
+      "基準測試代碼開源可驗證",
+      "在Jev基準全面超越原始封閉模型"
+    ],
+    "why_it_matters": "開源社群持續在特定領域挑戰封閉模型，RLCD方法展現對比學習在模型優化的潛力，工程師可借鑒訓練流程優化自有模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載HF Space中的模型及基準代碼，在本地環境複現訓練流程，評估是否能遷移至自己的工作任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-18-visbridge-mcp",
+    "title": "visbridge-mcp：適用推論模型的代幣高效、供應商無關視覺層",
+    "title_original": "kasumaputu6633/visbridge-mcp",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/kasumaputu6633/visbridge-mcp",
+    "published_at": "2026-09-18T02:52:26Z",
+    "category": "open-source-ai",
+    "summary": "visbridge-mcp 是一個 TypeScript 開源專案，作為 MCP（Model Context Protocol）相容的視覺處理層，號稱能以較少 Token 完成視覺理解，支援跨模型供應商統一接入，降低視覺推論成本。",
+    "highlights": [
+      "代幣高效：透過前處理或壓縮減少視覺輸入的 Token 消耗",
+      "供應商無關：統一面對不同模型的視覺接口，簡化多模型切換",
+      "MCP 相容：符合 Anthropic 推動的 Model Context Protocol 標準",
+      "語言：TypeScript，適合前端或 Node.js 生態的技術用戶",
+      "Stars 目前 55，屬早期專案，成熟度需實測"
+    ],
+    "why_it_matters": "視覺 Token 成本是生產環境部署多模態 Agent 的重要瓶頸；visbridge-mcp 若能穩定降低視覺 Token 消耗，可直接改善使用視覺推論模型的成本結構。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在需要大量圖像理解的自動化流程（如文件掃描、UI 自動化、資料視覺化分析）中引入 visbridge-mcp，比較與直接調用原廠 API 的 Token 節省幅度與延遲變化。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/254582548?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-18-markuprplus-markdown-ai",
     "title": "MarkuprPlus：螢幕錄製一鍵轉結構化 Markdown，讓 AI 編碼代理看懂截圖",
     "title_original": "hashfunction/MarkuprPlus",
