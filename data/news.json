@@ -1,5 +1,34 @@
 [
   {
+    "id": "2026-09-19-agentic-task-system-cli-mcp",
+    "title": "agentic-task-system：CLI + MCP 建構任務層與知識圖譜",
+    "title_original": "renezander030/agentic-task-system",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/renezander030/agentic-task-system",
+    "published_at": "2026-09-19T14:41:40Z",
+    "category": "agent-skills",
+    "summary": "renezander030/agentic-task-system 是 JavaScript 新專案（13 stars），提供 CLI + MCP 架構的任務管理層，支援 TickTick、Notion、GitHub、Obsidian 等工具，並附知識圖譜層（使用 Graphiti + LadybugDB）。可實現跨工具的事實檢索、來源溯源與受監管的寫入操作。",
+    "highlights": [
+      "CLI + MCP 設計：方便整合进現有開發者工作流程",
+      "支援 Notion、GitHub、Obsidian、TickTick 等主流工具",
+      "RRF 檢索排序與操作溯源機制",
+      "知識圖譜層：可對任意來源的知識做事實化管理",
+      "推薦 Graphiti 為圖譜後端，LadybugDB 存 embedding"
+    ],
+    "why_it_matters": "此專案嘗試解決「Agent 多工具寫入一致性」問題。若你正在構建需要跨工具操作（例如同時寫 Notion 和 GitHub）的自動化腳本，此架構值得評估其穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Node.js 環境安裝此專案，將自己常用的 Notion Workspace 與 GitHub repo 對接，測試「在 Obsidian 筆記中標註任務 → 自動同步至 TickTick → 完成後寫入 GitHub Issue」的完整鏈路。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/96420681?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-19-opcua-mcp-ai-agent-mcp",
     "title": "OPCUA-MCP：將 AI Agent 接入工業控制系統的 MCP 伺服器",
     "title_original": "IndustriAgents/OPCUA-MCP",
