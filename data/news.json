@@ -1,5 +1,146 @@
 [
   {
+    "id": "2026-09-19-opcua-mcp-ai-agent-mcp",
+    "title": "OPCUA-MCP：將 AI Agent 接入工業控制系統的 MCP 伺服器",
+    "title_original": "IndustriAgents/OPCUA-MCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/IndustriAgents/OPCUA-MCP",
+    "published_at": "2026-09-19T09:38:55Z",
+    "category": "agent-skills",
+    "summary": "OPCUA-MCP 是一款 Python 開源 MCP 伺服器，實現 AI Agent 與 OPC UA 工業系統的連接。專為工廠自動化與物聯網場景設計，技術用戶可快速部署測試。",
+    "highlights": [
+      "Python 編寫，基於 MCP 協議與 AI Agent 整合",
+      "支援 OPC UA 工業協定，覆蓋工廠與物聯網場景",
+      "開源專案，GitHub 星數 25，仍屬早期階段",
+      "技術實作導向，可 fork 並客製化特定設備驅動",
+      "適合對工業自動化有需求的技術團隊評估"
+    ],
+    "why_it_matters": "這是少數將 AI Agent 直接接入工業現場層的開源方案，若你有工廠或 IoT 自動化需求，這是值得關注的整合起點。",
+    "automation_angle": null,
+    "automation_angle_zh": "在測試環境部署 OPCUA-MCP，模擬工廠 OPC UA 節點，驗證 Agent 能否正確讀寫感測器資料並觸發控制指令。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/288270227?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-19-item",
+    "title": "用戶分享使用影像分類模型自動化整理照片圖庫的實作經驗",
+    "title_original": "Using image classification models for cleaning out photo libraries",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkgm77/using_image_classification_models_for_cleaning/",
+    "published_at": "2026-09-19T08:27:47+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶分享利用影像分類模型（可能為 CLIP 或專用分類器）自動整理個人照片圖庫的實作流程。帖文描述了解決方案架構與初步成果，但未提供完整程式碼或詳細教學。該應用場景指向可實際部署的本地端 AI 自動化方案。",
+    "highlights": [
+      "屬於可立即嘗試的本地 AI 應用場景",
+      "未公開完整技術實現細節",
+      "自動化照片整理是常見剛需應用",
+      "可結合開源模型或商業 API 實作",
+      "社群回饋顯示此類需求廣泛存在"
+    ],
+    "why_it_matters": "影像分類模型用於照片整理是可落地的工作流程自動化案例。對於希望減少手動分類時間的技術用戶，此類應用具直接實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可使用開源 CLIP 模型搭配簡單腳本，建立本地照片自動分類與標籤系統。技術門檻低，可於本地硬體運行。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-19-sam-altman-ai",
+    "title": "Sam Altman 將於下週向聯合國安理會進行 AI 風險簡報",
+    "title_original": "OpenAI's Sam Altman to brief UN Security Council next week",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkfrye/openais_sam_altman_to_brief_un_security_council/",
+    "published_at": "2026-09-19T07:38:48+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI CEO Sam Altman 確認將於下週向聯合國安全理事會就 AI 風險與治理進行簡報。這是 AI 產業領袖參與高層國際政策討論的明確信號，反映 AI 安全問題已進入聯合國層級議程。簡報具體內容與政策建議尚未公開。",
+    "highlights": [
+      "已獲官方確認的非獨家事件公告",
+      "反映 AI 治理議題的全球化與高層化趨勢",
+      "具體政策建議或監管方向尚待揭曉",
+      "可能影響後續 AI 法規走向與國際合作框架",
+      "對技術開發者的直接影響需待簡報內容出爐"
+    ],
+    "why_it_matters": "AI 領袖參與聯合國層級的政策討論，象徵 AI 治理已成為國際政治議程核心。技術人員應關注後續政策動向對開源模型與國際合作的潛在影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "可關注簡報後的官方新聞稿與政策文件，評估對開源 AI 專案或國際 API 使用的潛在影響。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-19-reddit-claude-opus-gemini-astra",
+    "title": "Reddit 用戶比較本地模型與 Claude Opus/Gemini Astra 的前饋延遲表現",
+    "title_original": "Prefil of local models vs opus and astra",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkdu98/prefil_of_local_models_vs_opus_and_astra/",
+    "published_at": "2026-09-19T05:50:56+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 用戶在 LocalLLaMA 討論區分享自費測試本地部署模型與雲端商業模型（Claude Opus、Gemini Ultra）在預填充（prefill）階段的延遲數據。帖文包含部分測試截圖與個人使用情境描述，但缺乏標準化測試環境、可重現的設定或統計顯著性分析。",
+    "highlights": [
+      "測試結果基於個人使用環境，不具統計代表性",
+      "未披露具體硬體配置、模型版本或測試方法",
+      "預填充延遲是 Agent 應用場景的關鍵效能指標",
+      "社群回饋顯示本地模型延遲表現個體差異大",
+      "可作為初步參考但需自行驗證"
+    ],
+    "why_it_matters": "預填充延遲直接影響 Agent 任務的響應速度與使用者體驗。此類社群實測可幫助技術人員快速評估本地部署在特定場景的可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可參考此類測試方向，自行建立標準化 benchmark 流程，針對目標任務評估本地模型與雲端模型的延遲差異。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-19-token-llms-agents-token",
+    "title": "Token 層級引導 LLMs 與 Agents：互動式 token 視覺化與控制工具",
+    "title_original": "Steer LLMs and Agents at the Token Level: An interactive tool for token visualization & control, model inspection and data annotation.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkc4c9/steer_llms_and_agents_at_the_token_level_an/",
+    "published_at": "2026-09-19T04:21:02+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享了一款互動式工具，瞄準 token 層級的 LLM 與 Agent 操控，提供 token 視覺化、模型檢測、資料註釋等功能，有助理解與微調模型輸出行為。",
+    "highlights": [
+      "互動式介面，可視化 token 級別模型輸出",
+      "支援模型檢測與內部狀態觀察",
+      "可用於資料註釋與行為分析",
+      "適合研究模型interpretability的技術用戶",
+      "Reddit 來源，工具完整度待驗證"
+    ],
+    "why_it_matters": "若你想深入理解或微調模型輸出行為，token 層級的可視化與控制工具能提供直接的操作視角，是模型可解釋性研究的有力輔助。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載或部署該工具，用於分析當前使用的 LLM 在特定任務中的 token 分配模式，據此優化 prompt 或評估模型選擇。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-19-ai-150",
     "title": "阿里巴巴開源醫療AI模型，可檢測癌症及近150種病症",
     "title_original": "Alibaba open-sources medical AI model that can detect cancer and nearly 150 conditions",
@@ -552,6 +693,34 @@
     "why_it_matters": "此案例顯示 Google 正積極拓展企業 AI 應用場景，技術人員可關注 Flow 工具的 API 開放與客製化選項。",
     "automation_angle": null,
     "automation_angle_zh": "若 Google Flow 開放 API，可探索將其整合至電商或設計工作室的創意自動化流程中。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-19-openai-ai",
+    "title": "OpenAI 發布澳洲青年安全藍圖：六支柱守護青少年 AI 體驗",
+    "title_original": "Introducing the Australian Youth Safety Blueprint",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/australian-youth-safety-blueprint",
+    "published_at": "2026-09-18T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方博客介紹澳洲青年安全藍圖，以六大支柱建構更安全的青少年 AI 使用環境。這是政策導向內容，非模型或工具更新，技術直接相關性較低。",
+    "highlights": [
+      "OpenAI 官方博客文章，非產品或 API 更新",
+      "六大支柱聚焦青少年安全使用 AI",
+      "澳洲地區專屬倡議，可能延伸至其他市場",
+      "對開發者直接工具層面影響有限",
+      "可作為了解 OpenAI 政策方向的參考"
+    ],
+    "why_it_matters": "此類政策公告對技術用戶的直接幫助有限，但了解監管趨勢有助預判未來 API 限制或內容政策的潛在調整方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "作為背景資訊追蹤，評估此類政策是否會影響你的應用場景或觸發年齡驗證需求的開發工作。",
     "tags": [
       "hot-topics",
       "rss",
