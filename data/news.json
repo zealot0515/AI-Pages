@@ -1,5 +1,149 @@
 [
   {
+    "id": "2026-09-19-aoci-code-git-mcp-ai",
+    "title": "aoci-code：Git版本化的程式碼地圖MCP伺服器，為AI程式碼工具注入長期上下文",
+    "title_original": "aoci-spec/aoci-code",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aoci-spec/aoci-code",
+    "published_at": "2026-09-19T19:42:13Z",
+    "category": "agent-skills",
+    "summary": "開源Go語言工具，作為本地優先MCP伺服器，提供整個程式碼庫與資料庫Schema的Git版本化索引地圖，讓Claude Code、Codex、Cursor等工具在修改前先理解專案全貌。",
+    "highlights": [
+      "Go語言實現，效能與可移植性佳",
+      "Git版本化索引確保知識一致性與可追溯性",
+      "覆蓋程式碼庫與資料庫Schema",
+      "支援Claude Code、Codex、Cursor、Opencode主流工具",
+      "GitHub 443 stars，反映高度社群興趣"
+    ],
+    "why_it_matters": "解決AI程式碼工具在大型專案中上下文流失的痛點，提供持久化、版本可控的程式碼知識庫，顯著提升生成準確度。",
+    "automation_angle": null,
+    "automation_angle_zh": "本地部署此MCP伺服器後，讓所有AI程式碼工具共享一致的程式碼庫理解，減少上下文遺漏導致的錯誤重構或生成。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/282869362?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-19-godot-mcp-ai-agent-godot",
+    "title": "Godot-MCP：讓 AI Agent 直接操控 Godot 遊戲引擎",
+    "title_original": "hybridindie/godot-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/hybridindie/godot-mcp",
+    "published_at": "2026-09-19T19:33:40Z",
+    "category": "agent-skills",
+    "summary": "hybridindie/godot-mcp 將 MCP 伺服器與 Godot 插件結合，讓 AI Agent 能以程式化方式驅動 Godot 編輯器、即時修改場景、掛載腳本、調整節點屬性，實現「AI 下指令、編輯器自動執行」的工作流程程。",
+    "highlights": [
+      "Python 實作，MCP 協定標準化接口，方便對接各種 AI Agent",
+      "可即時操控 Godot 場景圖、腳本屬性與節點狀態",
+      "理論上可串接 Claude/GPT 等 Agent，實現遊戲開發的對話式自動化",
+      "開源且 stars 尚低（20），社群貢獻空間大",
+      "適合想用自然語言或 AI Agent 控制遊戲引擎的開發者"
+    ],
+    "why_it_matters": "將 AI Agent 能力延伸至遊戲引擎層，是實現「對話式遊戲開發」的關鍵一步；技術門檻降低後，小團隊或獨立開發者可用自然語言快速迭代關卡與腳本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可架設 Claude/GPT Agent 串接此 MCP，測試「描述遊戲功能 → Agent 自動在 Godot 中建立場景與腳本」的完整自動化開發流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/20465?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-19-agent-brain-graphrag-ai-agent-oauth-2-1",
+    "title": "agent-brain：混合GraphRAG本地優先AI Agent記憶框架，支援OAuth 2.1",
+    "title_original": "SpillwaveSolutions/agent-brain",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/SpillwaveSolutions/agent-brain",
+    "published_at": "2026-09-19T19:09:36Z",
+    "category": "agent-skills",
+    "summary": "Python開源工具，為AI Agent提供混合檢索與GraphRAG搜索的本地RAG記憶方案。內建OAuth 2.1認證MCP伺服器，支援Claude Code、OpenCode、Codex插件，捕捉程式碼間複雜關係。",
+    "highlights": [
+      "混合檢索結合GraphRAG結構化關係捕捉",
+      "本地優先架構保護資料隱私",
+      "OAuth 2.1提供企業級安全認證",
+      "支援主流AI程式碼工具插件",
+      "Python生態便於整合現有ML/AI工具鏈"
+    ],
+    "why_it_matters": "為AI Agent提供長期記憶與結構化知識圖譜能力，GraphRAG可理解程式碼間依賴關係，讓多步驟任務的上下文連貫性大幅提升。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署此框架使AI Agent在長時間、多步驟任務中保持上下文記憶，實現更複雜的端到端開發自動化流程，減少重複與遺漏。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/195786054?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-19-interceptor-ai-agent-cli-mcp",
+    "title": "Interceptor：統一的AI Agent瀏覽器自動化CLI與MCP伺服器",
+    "title_original": "Hacker-Valley-Media/Interceptor",
+    "source": "GitHub Computer Use Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Hacker-Valley-Media/Interceptor",
+    "published_at": "2026-09-19T16:02:57Z",
+    "category": "agent-skills",
+    "summary": "開源TypeScript工具，提供統一的CLI與MCP伺服器，可操控已登入的瀏覽器、macOS原生應用及真實iPhone，為AI Agent打開瀏覽器自動化的新維度。",
+    "highlights": [
+      "支援已登入瀏覽器環境操控",
+      "覆蓋macOS原生應用與iPhone",
+      "統一的CLI工具降低學習門檻",
+      "基於TypeScript，方便自定義擴展",
+      "GitHub 419 stars社群關注度高"
+    ],
+    "why_it_matters": "突破傳統瀏覽器自動化限制，讓AI Agent能在真實登入環境中執行任務，大幅提升端到端自動化的真實性與覆蓋範圍。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此工具整合進AI Agent工作流程，讓Agent直接操作已登入的Web應用或iOS程式，實現更複雜的真實場景自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/99617597?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-19-von-3-95-system-one",
+    "title": "Von：3.95 億參數的輕量級「System One」開源模型",
+    "title_original": "Von: Open-source 395M \"System One\" model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkpxn6/von_opensource_395m_system_one_model/",
+    "published_at": "2026-09-19T16:00:57+00:00",
+    "category": "open-source-ai",
+    "summary": "Von 是一款僅 395M 參數的開源小型語言模型，標榜為「System One」架構，定位於極低成本推論與邊緣設備部署，適合需要快速、本地化文字處理的場景。",
+    "highlights": [
+      "參數量僅 3.95 億，遠小於主流模型，推論成本極低",
+      "開源可自行部署，無 API 費用負擔",
+      "「System One」架構名稱暗示專為極簡推論設計",
+      "Reddit r/LocalLLaMA 社群首發，尚未有完整 benchmark",
+      "可部署至樹莓派、手機或瀏覽器端側環境"
+    ],
+    "why_it_matters": "極小型模型崛起代表 edge AI 與離線本地推論的可行性提升；若效能足夠，可用極低成本替代雲端 API 完成簡單任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地環境部署 Von，測試其能否勝任文案生成、分類、格式化等簡單自動化任務，評估替代付費 API 的可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-19-agentic-task-system-cli-mcp",
     "title": "agentic-task-system：CLI + MCP 建構任務層與知識圖譜",
     "title_original": "renezander030/agentic-task-system",
@@ -26,6 +170,34 @@
       "JavaScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/96420681?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-19-glm-5-3-flash",
+    "title": "GLM 5.3 Flash 秀肌肉：不靠影片生成模型也能做動態圖形",
+    "title_original": "Made this motion graphic video via glm 5.3 flash (no vid_gen model used)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wki7hr/made_this_motion_graphic_video_via_glm_53_flash/",
+    "published_at": "2026-09-19T10:02:37+00:00",
+    "category": "new-models",
+    "summary": "有開發者展示僅用 GLM 5.3 Flash（無專用影片生成模型）直接生成動態圖形短片的範例，暗示新版 Flash 模型在指令遵循與多步驟生成上的能力提升。",
+    "highlights": [
+      "使用 GLM 5.3 Flash 完成 motion graphic 短片，全程未調用 vid_gen 模型",
+      "說明新版 Flash 在指令理解與內容生成上的顯著進步",
+      "此用例節省了影片生成模型的成本與延遲",
+      "具體生成機制未揭露，可能透過序列描述或腳本方式達成",
+      "可作為評估 GLM 5.3 實際能力邊界的參考案例"
+    ],
+    "why_it_matters": "若 Flash 模型能用文字模型完成簡易動態內容，代表多模態能力已整合至輕量模型，開發者可用更低的成本與延遲獲得近似影片生成效果。",
+    "automation_angle": null,
+    "automation_angle_zh": "申請 GLM 5.3 Flash API 或本地部署，測試其能否將文字腳本自動轉為簡報素材、動態圖卡等半自動化創意產出。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
