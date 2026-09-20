@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-09-20-agentic-seo-llm-seo-16-89",
+    "title": "agentic-seo：LLM 優先的 SEO 技能庫，含 16 項子技能與 89 腳本",
+    "title_original": "dalroot/agentic-seo",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/dalroot/agentic-seo",
+    "published_at": "2026-09-20T19:57:54Z",
+    "category": "agent-skills",
+    "summary": "agentic-seo 是一個 Python 專案，提供 16 項子技能、10 個專家 Agent、89 個 Python 腳本及 160+ 行銷技能文件，專為 AI 程式碼助理設計 SEO 任務。",
+    "highlights": [
+      "16 項 SEO 子技能涵蓋關鍵字、連結、內容優化",
+      "10 個專家 Agent 分散不同 SEO 任務",
+      "89 個 Python 腳本可直接呼叫使用",
+      "160+ 行銷技能文件偏行銷素材",
+      "Python 實作，23 顆星，內容龐大需篩選"
+    ],
+    "why_it_matters": "若需將 SEO 任務自動化，agentic-seo 提供完整腳本與 Agent 框架，但大量行銷素材可能稀釋技術訊號，需實際測試核心腳本價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "挑选核心 89 個腳本中的關鍵字分析、meta 產生腳本，整合進內容生成流程，評估是否比現有工具更適合 AI-driven SEO 自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/249780833?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-20-niblet-skill-mcp-mcp-ui",
+    "title": "niblet-skill-mcp：設計技能 MCP 伺服器，瞄準 UI 自動化",
+    "title_original": "PyModel/niblet-skill-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/PyModel/niblet-skill-mcp",
+    "published_at": "2026-09-20T19:51:07Z",
+    "category": "agent-skills",
+    "summary": "niblet-skill-mcp 是一個 MCP 伺服器與設計技能工具，可將實際產品介面截圖落地為 Coding Agent 的 UI 判斷依據，支援 npx 直接安裝，現有 23 顆星。",
+    "highlights": [
+      "提供 MCP 伺服器介面，快速整合進 Agent 工作流程",
+      "設計技能可減少 AI 對 UI 介面的幻覺問題",
+      "npx 安裝方式，技術門檻低",
+      "JavaScript 實作，23 顆星屬早期專案",
+      "適合需要自動化 UI 測試或設計驗證的場景"
+    ],
+    "why_it_matters": "Coding Agent 常見 UI 理解失準問題，此工具提供真實截圖 grounding，值得技術用戶測試是否能提升 UI 自動化任務準確率。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 niblet-skill-mcp 整合進現有 Coding Agent，測試在 UI 截圖比對、布局驗證等場景的實際效果，評估是否能減少回調次數。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/316629828?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-20-qwen3-5-4b-jev-reddit",
+    "title": "基於Qwen3.5 4B微調的Jev風格小型模型現身Reddit",
+    "title_original": "A Jev-style model fine-tuned on Qwen3.5 4B",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wllv4i/a_jevstyle_model_finetuned_on_qwen35_4b/",
+    "published_at": "2026-09-20T16:39:07+00:00",
+    "category": "open-source-ai",
+    "summary": "社群開發者將Qwen3.5 4B基座模型以Jev風格進行微調，製作出適合本地部署的小型推論模型。Qwen3.5 4B為阿里開源的小參數模型，微調後可在消費級GPU上流暢運行，為本地AI應用提供新選擇。",
+    "highlights": [
+      "Qwen3.5 4B為阿里開源的小型基座模型，支援本地部署",
+      "Jev風格微調可能提升特定任務的推論一致性",
+      "測試環境門檻低，RTX 3060等消費級GPU即可運行",
+      "Reddit討論區有初步測試截圖，但缺乏詳細Benchmark數據",
+      "屬於開源本地模型範疇，可進一步客製化"
+    ],
+    "why_it_matters": "小型開源模型的微調進展意味著更低的部署成本與更強的特定任務能力，技術用戶可透過本地模型減少對雲端API的依賴與費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載此模型至本地，在確保隱私的條件下自動化文書處理、程式碼生成等重複性工作。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-20-rtx-3060-12gb-llm",
+    "title": "RTX 3060 12GB實測九款LLM網頁開發提示詞效能出爐",
+    "title_original": "I tested 9 LLMs on the exact same web-dev prompt for ~8 hours — RTX 3060 12GB results (Rate the best!)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wljzix/i_tested_9_llms_on_the_exact_same_webdev_prompt/",
+    "published_at": "2026-09-20T15:26:49+00:00",
+    "category": "hot-topics",
+    "summary": "開發者使用RTX 3060 12GB單一硬體環境，對九款主流LLM執行相同的網頁開發提示詞，進行八小時橫向評測。結果涵蓋程式碼正確性、生成速度與回應品質，為資源受限的開發者提供模型選擇參考依據。",
+    "highlights": [
+      "固定RTX 3060 12GB環境，消除GPU變數影響",
+      "九款主流LLM同題測試，包括開源與商業模型",
+      "測試題目聚焦網頁開發真實場景",
+      "涵蓋程式碼正確性、生成速度與可讀性多維度",
+      "社群用戶可投票表達偏好，協助篩選最佳模型"
+    ],
+    "why_it_matters": "對於沒有高階GPU的技術用戶而言，了解中低階硬體上各模型的實際表現，可幫助選擇性價比最高的工具鏈，避免無效投入。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據測試結果選擇最適合網頁開發自動化的模型，並整合進開發工作流程以加速前端生成與後端API程式碼產出。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-20-code-cortex-mcp-ai-agent",
     "title": "code-cortex-mcp：為 AI 編碼 Agent 建立程式碼呼叫圖譜",
     "title_original": "tigercosmos/code-cortex-mcp",
@@ -108188,6 +108302,34 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-20-google-ai-pro",
+    "title": "Google AI Pro訂閱配額大幅縮減引發用戶強烈抗議",
+    "title_original": "谷歌反重力更新後AI Pro訂閱配額大幅度缩水引起抗议 5小時額度刷新变7天 - 蓝点网",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ob0RHQnRyRVlMd2QwWWhWSEpTLWwwUU4wVnZRT05uRnVrNURkY2g3dkRVMFdrbUFRUEVQcldfdy02Qlh1MUNFOXczdlhRR1ZCNU5JdmZYcTY?oc=5",
+    "published_at": "2026-05-15T06:46:56+00:00",
+    "category": "ai-deals",
+    "summary": "Google反重力更新後，AI Pro訂閱配額從原本五小時刷新改為七天週期配額制，大幅限制單次使用量。用戶反映配額消耗速度加快，引發社群抗議潮，藍點網等中文媒體已跟進報導此事件。",
+    "highlights": [
+      "AI Pro配額制度從五小時刷新改為七天週期制",
+      "用戶反映實際使用配額消耗比預期更快",
+      "藍點網等可信中文媒體已報導此變動",
+      "引發Reddit與各大論壇用戶不滿與抵制討論",
+      "此為Google官方訂閱政策的正式變更"
+    ],
+    "why_it_matters": "配額縮減直接影響重度用戶的工作成本與效率，技術用戶需重新評估AI Pro的投資回報率，並考慮替代方案如本地部署或其他雲端服務。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶應評估現有工作流程中對Google AI Pro的依賴程度，並測試開源模型或API替代方案的實際成本節省效果。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
