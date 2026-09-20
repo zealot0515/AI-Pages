@@ -1,5 +1,196 @@
 [
   {
+    "id": "2026-09-20-langchain-jev-as-a-judge-agent",
+    "title": "LangChain 測試 Jev-as-a-Judge 作為 Agent 評估器",
+    "title_original": "Can Jev Be a Better Agent Evaluator?",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/jev-agent-evals-langsmith",
+    "published_at": "2026-09-20T00:43:49+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布測試報告，比較 Jev-as-a-Judge 與傳統 LLM 法官在 Agent 評估任務上的準確度、重複性、延遲與成本表現，旨在探索 System One 模型的評估應用潛力。",
+    "highlights": [
+      "比較 Jev 與現有 LLM 法官的評估效能",
+      "測試維度包含準確度、重複性、延遲、成本",
+      "針對 System One 模型設計的評估方法",
+      "來源為 LangChain 官方部落格，可能含 PR 成分"
+    ],
+    "why_it_matters": "Agent 評估是自動化工作流程關鍵環節，若 Jev 提供更低成本或更高穩定性的評估方式，可直接降低開發與測試成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 LangSmith 中實測 Jev 評估流程，評估其是否能在自動化測試管道中取代昂貴的 GPT-4 法官。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-20-rtx-5090-qwen-3-8-27b",
+    "title": "RTX 5090 實測 Qwen 3.8 27B 解決開放數學問題",
+    "title_original": "Qwen 3.8 27B Running LIVE on a RTX 5090 to solve an Open Math Problem - Covering Design C(25,15,5)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl18ax/qwen_38_27b_running_live_on_a_rtx_5090_to_solve/",
+    "published_at": "2026-09-19T23:41:56+00:00",
+    "category": "new-models",
+    "summary": "RTX 5090 顯示卡上即時運行 Qwen 3.8 27B 模型，解題過程展示覆蓋設計問題 C(25,15,5)，呈現新一代消費級 GPU 對大模型的承載能力與數學推論表現。",
+    "highlights": [
+      "RTX 5090 實測 Qwen 3.8 27B 推論速度",
+      "展示開放數學問題解題能力",
+      "消費級顯示卡的本地大模型部署突破",
+      "純 Reddit 來源，硬體數據待驗證"
+    ],
+    "why_it_matters": "RTX 5090 與 Qwen 3.8 27B 的組合可能成為個人開發者最強本地推論配置，若實測屬實將大幅提升本地 AI 應用可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "待更多獨立測試確認後，可考慮 RTX 5090 + Qwen 3.8 27B 作為本地自動化客服或文件處理的主力機器。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-20-gemma-4-31b-vllm-fork",
+    "title": "Gemma 4 31B 吞吐量優化：vLLM fork 自定義修補之旅",
+    "title_original": "Improved TPS of Gemma 4 31B : the journey and also creating custom patches with VLLM fork",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkwy6g/improved_tps_of_gemma_4_31b_the_journey_and_also/",
+    "published_at": "2026-09-19T20:38:45+00:00",
+    "category": "agent-skills",
+    "summary": "開發者分享如何透過 vLLM fork 與自定義修補將 Gemma 4 31B 的 Tokens Per Second 提升的完整歷程，包含效能瓶頸分析與優化技巧。",
+    "highlights": [
+      "Gemma 4 31B 推論吞吐量優化實戰經驗",
+      "使用 vLLM fork 進行客製化調整",
+      "提供效能瓶頸分析與具體優化步驟",
+      "對推論優化有興趣的開發者具有參考價值"
+    ],
+    "why_it_matters": "Gemma 4 31B 若能透過優化達到更高 TPS，可成為本地 AI 程式開發的絕佳替代方案，直接降低 API 呼叫頻率與費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "clone 其 vLLM fork 測試分支，應用相同優化技巧至自己的 Gemma 部署，評估是否能將推論速度提升至可用於即時對話的水平。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-20-deadgrid-qwen-3-8-27b-q4km",
+    "title": "DeadGrid 開源：僅用 Qwen 3.8 27B Q4KM 建構的專案",
+    "title_original": "“DeadGrid” now open source exclusively made with qwen 3.8 27b Q4KM",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkwual/deadgrid_now_open_source_exclusively_made_with/",
+    "published_at": "2026-09-19T20:34:23+00:00",
+    "category": "open-source-ai",
+    "summary": "DeadGrid 專案正式開源，核心模型僅採用阿里巴巴 Qwen 3.8 27B Q4KM 量化版本。開發者選擇此配置旨在兼顧推論速度與記憶體佔用，為本地部署提供新的可能。",
+    "highlights": [
+      "專案完全開源，可自由檢視與修改",
+      "使用 Qwen 3.8 27B Q4KM 量化模型，記憶體需求較低",
+      "DeadGrid 可能是特定應用場景的自動化工具",
+      "Reddit 來源，實作細節有待驗證"
+    ],
+    "why_it_matters": "若專案提供完整程式碼，可作為 Qwen 本地部署的參考範本，技術宅可用於評估量化模型在不同硬體上的實際表現。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 DeadGrid 原始碼，在本機測試 Qwen 3.8 Q4KM 的實際推論速度與任務完成度，評估是否適用於個人工作流程程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-20-tesla-v100s-llm",
+    "title": "利用非對稱 Tesla V100s 組合搭建本地 LLM 推論環境",
+    "title_original": "I turned an asymetric pair of Tesla V100s PCIe both (16 GB + 32 GB) into a surprisingly capable local LLM lab — 1.38k prompt tok/s, 40 decode tok/s with qwen3.8 27B Q6 and Q8...",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkwec5/i_turned_an_asymetric_pair_of_tesla_v100s_pcie/",
+    "published_at": "2026-09-19T20:16:27+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者將 16GB 與 32GB 兩張非對稱 Tesla V100 PCIe 卡組合成本地 LLM 實驗室，成功在 Qwen 3.8 27B Q6 與 Q8 量化下達到 1.38k prompt tok/s 與 40 decode tok/s 的吞吐量。",
+    "highlights": [
+      "使用非對稱 VRAM 組合（16+32 GB）的實驗記錄",
+      "Qwen 3.8 27B Q6 與 Q8 量化實測效能數據",
+      "1.38k prompt tok/s 與 40 decode tok/s 的吞吐量",
+      "提供廢物利用老 GPU 的低成本方案"
+    ],
+    "why_it_matters": "展示如何利用閒置資料中心 GPU 搭建高效本地推論環境，為技術人員提供降低雲端 API 成本的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "若手邊有閒置 V100，可參考其配置方式部署 Qwen 3.8 27B，在本地處理批次文件分類或資料清洗任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-20-datasette-auth-github-1-0-cookie",
+    "title": "datasette-auth-github 1.0 穩定版發布，修復行動瀏覽器 Cookie 失效問題",
+    "title_original": "datasette-auth-github 1.0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+    "published_at": "2026-09-19T19:52:02+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 datasette-auth-github 插件 1.0 正式版，修復了 Mobile Safari 等行動瀏覽器因未設定 Max-Age 導致的 Cookie 提前過期問題。插件已通過 Datasette 0.65.x 與 1.0a 測試，支援以 GitHub 帳號登入 Datasette。",
+    "highlights": [
+      "修復 Mobile Safari 等瀏覽器 Cookie 失效問題",
+      "通過 Datasette 0.65.x 與 1.0a 相容測試",
+      "以 GitHub OAuth 為認證機制",
+      "Simon Willison 親自維護，可靠性較高",
+      "適用於建立需要登入的資料展示後台"
+    ],
+    "why_it_matters": "對於需要快速建立可多人存取資料庫介面的技術玩家，此插件解決了行動端登入失效的痛點，是部署 Datasette 資料門戶時的可靠認證方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 datasette-auth-github 整合至 Datasette 部署流程，為內部資料查詢工具快速建立 GitHub SSO 認證，省去自建會員系統的開發與維護成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-20-qwen-3-8-q4-k-m-27b-rx-7900-xtx-40-tok-s-agentic-coding",
+    "title": "Qwen 3.8 Q4_K_M 27B 在 RX 7900 XTX 上達成 40 tok/s，推動本地 Agentic Coding",
+    "title_original": "Finally got qwen 3.8 q4 k_M 27b runnin slick 40tkps load at 240k inf 4qnl for stable agentic coding on a 7900xtx. I have been finally able to give hermes a task and come back to results. Built a panel to manage my inference servers from hermes.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkvl7h/finally_got_qwen_38_q4_k_m_27b_runnin_slick/",
+    "published_at": "2026-09-19T19:44:27+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶在 AMD RX 7900 XTX 顯示卡上成功以 Q4_K_M 量化運行 Qwen 3.8 27B 模型，推論速度達 40 tok/s、240k context、4-bit 量化，實現穩定的本地 Agentic Coding 體驗，並搭配自建面板管理推論伺服器。",
+    "highlights": [
+      "Q4_K_M 量化節省 VRAM，适配單卡限制",
+      "40 tok/s 推論速度可满足互動式 coding 需求",
+      "240k context 支援長檔案分析與多輪任務",
+      "7900 XTX（RDNA3）成功運行，代表 AMD 卡實用性",
+      "自建管理面板提升本地推論伺服器的可用性"
+    ],
+    "why_it_matters": "本地大型模型推論的門檻持續降低，RX 7900 XTX 用戶現在可以摆脱雲端 API 依賴，以合理成本執行複雜的程式碼生成任務，降低 AI coding 的長期工具成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "參考此配置在本地部署 Qwen 3.8 27B，結合 VSCode/Cursor 等編輯器建立本地 AI coding 助理，實測其對長檔案重構、多檔案批量修改的實際表現與延遲。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-19-aoci-code-git-mcp-ai",
     "title": "aoci-code：Git版本化的程式碼地圖MCP伺服器，為AI程式碼工具注入長期上下文",
     "title_original": "aoci-spec/aoci-code",
@@ -1871,6 +2062,60 @@
     "automation_angle_zh": "持續追蹤 Qwen 官方發布動態，待正式版本推出後用本地效能測試框架（如 HELM、MT-Bench）進行獨立評估。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-20-investingpro-2-ai",
+    "title": "InvestingPro 每週不到 $2 訂閱優惠（非 AI 相關資訊）",
+    "title_original": "最後机會：以每周不到$2的價格訂閱InvestingPro，優惠今日截止 提供者 Investing.com - 英為财情 Investing.com",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ldXBFWno0dXJFUkxPU1kwQktFdWxveTZqNnRaMWNPdWt5WTZuX1ExZU10Ri1DbUVTTEw2d0kxZWZiRXNIazl2cWhoS2N2SHlNSkhaUmd5U2ZHMWtHMkpaLVZkSGRBWi1zSGpqZllXaDc?oc=5",
+    "published_at": "2026-09-17T09:39:00+00:00",
+    "category": "ai-deals",
+    "summary": "InvestingPro 推出每週不到 $2 的訂閱優惠活動。此資訊與 AI 工具無直接關聯，屬於理財訂閱促銷，不符合本 brief 聚焦 AI 技術情報的核心定位。",
+    "highlights": [
+      "非 AI 工具或技術相關資訊",
+      "屬理財訂閱促銷類內容",
+      "不符合技術向 Morning Brief 選題標準",
+      "編輯評分偏低，應大幅降權"
+    ],
+    "why_it_matters": "本 brief 定位為技術向 AI 情資，理財訂閱優惠不屬於模型、工具、工作流程或成本優化範疇，技術玩家從中獲得的自動化或開發價值極低。",
+    "automation_angle": null,
+    "automation_angle_zh": "本項目不提供技術玩家可直接使用的自動化方向或工具評估建議，建議略過此資訊。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-20-meta-edb-ai",
+    "title": "Meta 與新加坡 EDB 合作推出亞太 AI 加速器計畫",
+    "title_original": "Meta unveils AI Accelerator program to support open source AI solutions in Asia Pacific - Singapore Economic Development Board (EDB)",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWE5lNk1kY1k0Tk9JSjY1ZzlrZEJfTVk3X243ZVN4NzV5QnBZNTN0bjJfUXQ0UE5NYjlPUTlNUThhaHRZUDRqSFpnOHJuRXotcjVEQUJiVU92OGZXaUFVbVk5SGFzMms5UWtpc2lyYWI4UEwyVWp4ajF0c3JiUVFKcWFid3hneHFjS1ZaNDJKOGZCWC1yQnJmUGJlMkh6T2J6b1FmcXAzaUZ0YzFVLXU0TjZ1NV80c2lPVmdrcDBESEoxZlA5V04w?oc=5",
+    "published_at": "2026-09-17T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Meta 宣布與新加坡經濟發展局（EDB）合作推出 AI 加速器計畫，目標支援亞太區開放源 AI 解決方案，具體補助內容與入選標準尚未完全揭露。",
+    "highlights": [
+      "Meta 與新加坡 EDB 的官方合作公告",
+      "瞄準亞太區開放源 AI 解決方案開發者",
+      "具體補助金額與申請門檻未詳細說明",
+      "屬 PR 公告類型，技術實質內容有限"
+    ],
+    "why_it_matters": "對有興趣進軍東南亞市場或申請 Meta 生態系資源的開發者可能具參考價值，但需持續追蹤實際開放的資源與申請條件。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注官方後續公布的申請條件，評估是否符合自身專案方向，若有補助可降低模型訓練與部署成本。",
+    "tags": [
+      "ai-deals",
       "rss",
       "en"
     ],
