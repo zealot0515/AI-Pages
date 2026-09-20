@@ -1,5 +1,62 @@
 [
   {
+    "id": "2026-09-20-awwards-mcp-mcp-server-ai-agent",
+    "title": "Awwards-mcp：開源 MCP Server，給 AI 編碼 Agent 注入設計靈感",
+    "title_original": "INSANE0777/Awwards-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/INSANE0777/Awwards-mcp",
+    "published_at": "2026-09-20T09:56:08Z",
+    "category": "agent-skills",
+    "summary": "Awwards-mcp 是一個免費開源的 MCP Server，讓 AI 編碼 Agent（Claude Code、Cursor、OpenCode 等）能搜尋獲獎網站設計、查看真實截圖、提取設計 DNA、並記錄目標網站。號稱 Mobbin 替代方案，無需 API Key。",
+    "highlights": [
+      "完全免費開源，無需 API Key",
+      "支援主流 AI 編碼 Agent（Claude Code、Cursor 等）",
+      "提供獲獎網站真實截圖搜尋",
+      "可提取設計 DNA 與捕獲網站",
+      "35 stars，TypeScript 實現"
+    ],
+    "why_it_matters": "對前端開發者而言，能讓 AI 編碼助理直接存取高質量設計參考，減少來回修改次數，加速從設計到代碼的轉化流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "前端或 UI 開發者可在本地 MCP 環境中接入此 Server，讓 AI 在生成代碼時即時參考獲獎設計，提升生成品質並減少人工干預。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/132570476?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-20-reddit-3x-3090-llm",
+    "title": "Reddit 討論：3x 3090 本地 LLM 最佳配置探索",
+    "title_original": "To the dozens of 3x 3090 Local LLM people - I found our current best fit",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wl5hfk/to_the_dozens_of_3x_3090_local_llm_people_i_found/",
+    "published_at": "2026-09-20T03:06:51+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論帖中，用戶分享使用三張 3090 顯卡運行本地 LLM 的經驗與最佳模型配置。該帖缺乏完整摘要，但反映出高階玩家在本地部署大模型時的硬體選擇與最佳化方向。",
+    "highlights": [
+      "討論硬體配置為 3x RTX 3090",
+      "聚焦本地 LLM 部署實踐",
+      "討論最佳化與模型選擇",
+      "來源為 Reddit 論壇，具體內容需點擊查閱",
+      "屬於社群經驗分享，非官方資料"
+    ],
+    "why_it_matters": "對於有閒置高階顯卡的技術用戶，此類硬體優化討論有助於榨取最大推論性能，但需自行驗證配置穩定性與適用場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "有類似硬體的技術用戶可參考該帖評估模型量化和並行策略，評估是否能以較低成本達成足夠的推論吞吐量。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-20-langchain-jev-as-a-judge-agent",
     "title": "LangChain 測試 Jev-as-a-Judge 作為 Agent 評估器",
     "title_original": "Can Jev Be a Better Agent Evaluator?",
