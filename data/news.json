@@ -1,5 +1,88 @@
 [
   {
+    "id": "2026-09-20-code-cortex-mcp-ai-agent",
+    "title": "code-cortex-mcp：為 AI 編碼 Agent 建立程式碼呼叫圖譜",
+    "title_original": "tigercosmos/code-cortex-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/tigercosmos/code-cortex-mcp",
+    "published_at": "2026-09-20T15:05:30Z",
+    "category": "agent-skills",
+    "summary": "code-cortex-mcp 是本地 MCP 伺服器，可將程式碼庫索引為可查詢的知識圖譜，提供呼叫圖而非 grep 結果給 AI coding agent。專案宣稱比 codebase-memory-mcp 更快、更有效率。目前 Stars 仍低，屬早期階段。",
+    "highlights": [
+      "將程式碼庫索引為知識圖譜而非全文檢索",
+      "提供呼叫圖（call graph）結構化上下文",
+      "比類似方案更快更節省資源",
+      "以 MCP 協定與 AI coding agent 整合"
+    ],
+    "why_it_matters": "提升 AI 對大型程式碼庫的理解深度，減少無效的語意解析與重複搜尋。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地專案部署後，讓 AI coding agent 透過 MCP 查詢圖譜結構，快速定位函式呼叫鏈與依賴關係。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C++"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/18013815?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-20-dynoxide-rust-dynamodb-mcp",
+    "title": "dynoxide：用 Rust 打造的 DynamoDB 模擬器，支援 MCP 協定",
+    "title_original": "nubo-db/dynoxide",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/nubo-db/dynoxide",
+    "published_at": "2026-09-20T14:55:52Z",
+    "category": "agent-skills",
+    "summary": "dynoxide 是 Rust 撰寫的 DynamoDB 本地模擬器，以 SQLite 作底層儲存。毫秒級啟動，單一靜態執行檔，內建公開合規測試驗證與 AWS 行為一致性。支援 HTTP 模式、MCP 模式、WebAssembly 嵌入式四種運行方式。",
+    "highlights": [
+      "毫秒級啟動，單一靜態二進位檔",
+      "通過公開合規測試套件與真實 AWS 比對",
+      "原生支援 MCP 協定，供 AI 編碼 Agent 使用",
+      "可嵌入 Rust library 或在瀏覽器以 WASM 執行"
+    ],
+    "why_it_matters": "本地開發與測試 AWS DynamoDB 功能無需申請雲端資源，降低實驗成本與網路依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發階段以 dynoxide 替代真實 DynamoDB，節省雲端費用；同時用 MCP 模式讓 AI coding agent 直接操作本地資料庫。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/261902040?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-20-qwen-image-2-1",
+    "title": "Qwen-Image-2.1 開源圖像生成模型發布",
+    "title_original": "Qwen-Image-2.1 released!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlgrft/qwenimage21_released/",
+    "published_at": "2026-09-20T13:12:41+00:00",
+    "category": "new-models",
+    "summary": "Qwen-Image-2.1 已在 Reddit r/LocalLLaMA 社群宣布發布。Reddit 討論帖本身缺少詳細技術規格與模型連結，屬社群分享而非官方公告，資訊完整性有限。",
+    "highlights": [
+      "Qwen 圖像生成模型新版本",
+      "發布資訊來自 Reddit 社群討論",
+      "原始 Reddit 帖缺少模型連結與詳細規格",
+      "需查找 Hugging Face 或官方 repo 確認"
+    ],
+    "why_it_matters": "Qwen 系列模型開源生態持續演進，圖像生成能力值得關注，但需驗證實際效能與取得方式。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤 Qwen 官方 Hugging Face repo，確認 2.1 版本的模型卡與 benchmark，評估本地部署生成圖像的可行性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-20-awwards-mcp-mcp-server-ai-agent",
     "title": "Awwards-mcp：開源 MCP Server，給 AI 編碼 Agent 注入設計靈感",
     "title_original": "INSANE0777/Awwards-mcp",
@@ -84458,6 +84541,34 @@
       "open-source-ai",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-20-yupp-ai-3300-a16z-crypto",
+    "title": "Yupp AI 完成 3300 萬美元融资，A16z Crypto 領投",
+    "title_original": "Yupp AI完成3300万美元融资，由A16z Crypto领投 - games.gg",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY3VFMm1sSWd0SjZFNUo4T3VNR3FuWUFSMzNsaUR1ZkNfa3lYZXh4VlA4d28xZDJXeFUydzkyTDNKNENjaFVqSEZnWTBrZGJQaVBFRkdKTHp6SFlVcTFJQUZDNFdwNHNBUUdyNmtaVlExWktMc1ptOHNhUEdrVkdKeHI0UUNJd2I2Y1lFblpRYzJHR1pvMzBicF9BTURLT2NfM2p5OUJoTmtlWjNRVGJOMnpKc1h6SVRUUjRJY09ZSlllOVVSQ3ZJ?oc=5",
+    "published_at": "2026-06-07T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "遊戲 AI 新創 Yupp AI 宣布完成 3300 萬美元種子輪融资，由 A16z Crypto 領投。該公司專注於遊戲內 AI 驅動的 NPC 對話與互動系統，目前產品具體功能尚未公開披露。",
+    "highlights": [
+      "A16z Crypto 領投，顯示頂級 VC 對遊戲 AI 應用的興趣",
+      "Yupp AI 主打遊戲 NPC 對話與互動生成",
+      "融資金額屬種子輪規模，產品仍處早期階段",
+      "詳細技術架構與產品功能尚未公開",
+      "games.gg 為遊戲垂直媒體，非官方新聞源"
+    ],
+    "why_it_matters": "遊戲 AI 是近期熱門應用方向，A16z 的佈局值得關注。但目前資訊缺乏技術細節，難以評估其產品競爭力與實際應用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "目前尚無可直接使用的產品或 API，可列入追蹤名單，待產品發布後再評估其 NPC 生成能力是否優於現有方案。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
