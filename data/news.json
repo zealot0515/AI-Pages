@@ -1,5 +1,91 @@
 [
   {
+    "id": "2026-09-21-cleancode-agent-codex-cli-agent",
+    "title": "cleancode：多 Agent 並行視覺化工作區，整合 Codex 與 CLI Agent",
+    "title_original": "chen-985211/cleancode",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/chen-985211/cleancode",
+    "published_at": "2026-09-21T11:26:56Z",
+    "category": "agent-skills",
+    "summary": "cleancode 將 Claude Code、Codex 等主流 CLI Agent 整合至單一視覺化工作區，支援 Agent 並行執行、隔離 Git worktree 工作流程與可重用畫布流程。",
+    "highlights": [
+      "TypeScript 實作，58 Stars",
+      "支援多 Agent 並行執行於隔離環境",
+      "可將建構、測試、開發伺服器封裝為可重用流程",
+      "整合多款主流 CLI Agent",
+      "可當作個人 AI 程式團隊的視覺化儀表板"
+    ],
+    "why_it_matters": "將多個 AI 程式工具統一管理，降低工具切換成本，並透過隔離環境避免工作流程相互干擾。",
+    "automation_angle": null,
+    "automation_angle_zh": "將重複性的建置-測試-部署流程封裝為 cleancode 工作流程，一鍵觸發多 Agent 並行處理後續任務。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/102537086?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-my-codex-openai-codex-cli-agent-17",
+    "title": "my-codex：OpenAI Codex CLI 全功能 Agent 馬甲，含 17+  специалистов",
+    "title_original": "sehoon787/my-codex",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sehoon787/my-codex",
+    "published_at": "2026-09-21T11:10:47Z",
+    "category": "agent-skills",
+    "summary": "my-codex 是基於 Shell 的 OpenAI Codex CLI 全套件，包含 Boss  meta-orchestrator、17 個精選 Agent、17 個 AI 專家與 123 個精選技能，一鍵安裝即可啟用。",
+    "highlights": [
+      "Shell 腳本，28 Stars",
+      "內建 Boss  meta-orchestrator 統一調度",
+      "17 個精選 Agent 加 17 個專家角色",
+      "123 個預設技能覆蓋常見開發場景",
+      "3 個 MCP 伺服器整合"
+    ],
+    "why_it_matters": "省去繁瑣的 Codex CLI 設定流程，直接取用預設的 Agent 協作與技能庫，加速 AI 程式工作流程的落地速度。",
+    "automation_angle": null,
+    "automation_angle_zh": "將常見程式任務（如重構、測試生成、文件撰寫）封裝為一鍵指令，利用預設技能庫快速完成需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Shell"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/59464137?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-mini-agi-8gb-vram",
+    "title": "mini-AGI：8GB VRAM 筆電上從零訓練的動態成長模型",
+    "title_original": "mini-AGI - dynamically grown (530M params currently and growing) continual learning model trained from scratch on 8GB VRAM laptop from batch-1 stream of data.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wm1gab/miniagi_dynamically_grown_530m_params_currently/",
+    "published_at": "2026-09-21T03:26:40+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 用戶分享 mini-AGI 專案，目前參數量 530M，在 8GB VRAM 筆電上從頭訓練，強調持續學習與動態參數成長，屬實驗性專案。",
+    "highlights": [
+      "目前 530M 參數，訓練仍在進行",
+      "可在 8GB VRAM 筆電本地訓練",
+      "從批次一資料流持續學習",
+      "屬實驗性專案，Reddit 單一來源",
+      "展示低資源持續訓練可行性"
+    ],
+    "why_it_matters": "若低資源持續訓練技術成熟，可能讓個人開發者在無 GPU 叢集的情況下訓練客製化小型模型，降低 AI 入門門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "跟蹤其訓練腳本與資料流處理方式，評估能否移植至特定領域的小型模型微調流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-21-zcode",
     "title": "ZCode 開源了",
     "title_original": "ZCode is now open source",
