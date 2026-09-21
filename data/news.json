@@ -1,5 +1,90 @@
 [
   {
+    "id": "2026-09-21-guardana-ai-mcp-agent",
+    "title": "guardana：開源 AI 安全驗證工具，涵蓋模型成品、MCP 伺服器與 Agent 追蹤",
+    "title_original": "guardana/guardana",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/guardana/guardana",
+    "published_at": "2026-09-21T21:24:40Z",
+    "category": "open-source-ai",
+    "summary": "guardana 是專注於 AI 安全驗證的開源工具，可對模型成品、Live 端點、MCP 伺服器及已記錄的 Agent 執行軌跡進行可重現的安全審計，為發布決策提供客觀依據。現有 81 個 GitHub Stars，採用 Python 開發。",
+    "highlights": [
+      "支援多目標審計：模型成品、API 端點、MCP 伺服器、Agent 軌跡",
+      "可重現驗證：提供標準化安全報告，利於合規審查",
+      "Python 生態：易於整合進現有 Python 開發流程",
+      "81 Stars：社群關注度尚在成長初期",
+      "可用於企業 AI 部署前的安全把關流程"
+    ],
+    "why_it_matters": "隨著 AI Agent 落地加速，安全驗證需求提升，guardana 提供開源方案填補此缺口，技術團隊可將其納入 CI/CD 安全審查環節。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 guardana 整合進 AI 專案發布流程，對每次模型更新或 MCP 工具變更進行自動化安全掃描，避免有疑慮的元件進入生產環境。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/304104089?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-ha-jev-home-assistant-typesafe-jev-typed",
+    "title": "HA-Jev：Home Assistant 智慧家庭整合方案，TypeSafe Jev 提供typed感測器回應",
+    "title_original": "AboveColin/HA-Jev",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/AboveColin/HA-Jev",
+    "published_at": "2026-09-21T19:41:27Z",
+    "category": "agent-skills",
+    "summary": "HA-Jev 將 TypeSafe Jev 框架與 Home Assistant 深度整合，實現「提問房屋問題、獲得結構化數值回應」的智慧家庭助理體驗。支援四種自動化 Actions 與 Assist 對話 Agent，提供 typed 感測器資料輸出。",
+    "highlights": [
+      "TypeSafe Jev：型別安全的 AI 問答框架",
+      "四種自動化 Actions：可用於場景觸發與條件執行",
+      "typed 感測器：結構化輸出，易於後續程式處理",
+      "Assist 整合：與 Home Assistant 語音助理無縫對接",
+      "42 Stars，Python 實作"
+    ],
+    "why_it_matters": "智慧家庭自動化常受限於缺乏自然語言介面，HA-Jev 以型別安全方式橋接 AI 問答與家庭自動化邏輯，技術宅可藉此打造更智慧的家庭助理。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將 HA-Jev 部署於 Raspberry Pi 或本地伺服器，實驗自然語言控制燈光、溫控或安防系統的自動化場景，並將typed結果饋送至其他系統。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/6614011?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-qwen-3-8-27b",
+    "title": "Qwen 3.8 27B 小型模型展現視覺風格理解能力",
+    "title_original": "Can a relatively small language model (Qwen 3.8 27B) understand visual style and not just describe it?I asked it to recreate 618 visual language of designers, artists, movements etc and then transfer those ideas into entirely new SVG artworks and pages. Here what we have:",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmjpag/can_a_relatively_small_language_model_qwen_38_27b/",
+    "published_at": "2026-09-21T17:39:06+00:00",
+    "category": "new-models",
+    "summary": "開發者測試 Qwen 3.8 27B 模型是否能理解視覺風格而非僅描述影像，測試項目包括重現設計師風格並轉換為 SVG 作品。",
+    "highlights": [
+      "測試 27B 參數規模模型的視覺理解能力",
+      "驗證模型能否掌握設計師與藝術家風格",
+      "輸出格式為 SVG 可向量圖形",
+      "展示小型模型的創意應用潛力"
+    ],
+    "why_it_matters": "若小型模型能有效理解與轉換視覺風格，將大幅降低創意自動化的算力需求，技術人員應關注其實際應用效果。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Qwen 3.8 27B 建立自動化設計素材生成流程，測試其視覺風格轉換的準確度。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-21-langsmith-evals-jev",
     "title": "LangSmith Evals 整合 Jev 評估框架",
     "title_original": "Jev is now available in LangSmith Evals",
@@ -157,6 +242,60 @@
     "automation_angle_zh": "開發者應將此順序技巧加入 prompt 優化檢查清單，在現有工作流程中實驗，評估對目標任務的實際效果，無需額外成本。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-openai",
+    "title": "OpenAI 成立數學與人工智慧獨立顧問小組",
+    "title_original": "Advisory Group on Mathematics and Artificial Intelligence",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+    "published_at": "2026-09-21T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布成立獨立「數學與人工智慧顧問小組」，旨在為 AI 研究成果的審查與溝通提供指導。此小組將協助評估 AI 在數學推論領域的進展，並促進研究成果的透明溝通。",
+    "highlights": [
+      "獨立第三方顧問小組，強化 AI 發展監督機制",
+      "專注數學推論能力與 AI 安全性審查",
+      "旨在提升 AI 研究結果的可信度與透明度",
+      "為 OpenAI 未來數學相關模型提供外部把關"
+    ],
+    "why_it_matters": "此顧問小組的成立顯示 OpenAI 對 AI 安全性的重視程度提升，技術人員可關注其建議是否影響未來模型能力上限與安全標準的制定。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤顧問小組發布的建議文件，評估其對數學推論模型的標準是否會影響自動化工作流程程中的模型選擇。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-higgsfield-ai-gpt-6-astra",
+    "title": "Higgsfield AI 結合 GPT-6 Astra 一天內發布新影片功能",
+    "title_original": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+    "published_at": "2026-09-21T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Higgsfield AI 宣布透過 GPT-6 Astra API，在一天內完成新影片廣告功能的開發與部署，大幅縮短小型企業的創意工具上市時間。",
+    "highlights": [
+      "GPT-6 Astra 提供影片生成 API 整合能力",
+      "從提示詞到產品上線僅需一天",
+      "降低小型企業的 AI 影片製作門檻",
+      "展示 GPT-6 在多模態應用場景的實用性"
+    ],
+    "why_it_matters": "此案例證明 GPT-6 Astra 可顯著加速 AI 應用開發週期，技術人員應評估其對現有工作流程程自動化的潛力。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 GPT-6 Astra API 自動化影片素材生成流程，減少設計師重複性工作。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -409,6 +548,34 @@
     "automation_angle_zh": "本地部署量化模型（如 LLaMA、Qwen 量化版）的技術用戶可實測加入 Context Compaction 步驟，觀察長文件摘要、多輪對話等場景的品質變化，作為個人 benchmark。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-simon-willison-mcp",
+    "title": "Simon Willison 反駁「MCP 已過時」論點，強調受控環境下的核心價值",
+    "title_original": "MCP was always a bad idea?",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
+    "published_at": "2026-09-20T20:24:41+00:00",
+    "category": "hot-topics",
+    "summary": "AI 部落格作者 Simon Willison 回應 Hacker News 上「MCP 是糟糕設計」的論點，指出在非全權 Agent 場景下，MCP 仍具備無法取代的價值：精確的外部服務存取控制、API 金鑰隔離管理、使用者認證 UI 以及完整稽核日誌。",
+    "highlights": [
+      "全權 Agent 場景：的確可直接呼叫 API，MCP 必要性低",
+      "受控環境價值：精確授權、隔離認證、稽核追蹤",
+      "API 金鑰隔離：Agent 無法直接接觸敏感憑證",
+      "使用者體驗：提供人類可理解的服务連接介面",
+      "MCP 未過時：只是不適合所有使用模式"
+    ],
+    "why_it_matters": "理解 MCP 的真正適用邊界，有助技術人員在專案設計時選擇正確的工具與架構，而非盲目跟風或排斥特定協議。",
+    "automation_angle": null,
+    "automation_angle_zh": "在設計需要外部工具整合的 Agent 系統時，可先評估是否需要 MCP 的受控存取特性；若只是全權程式碼 Agent，則直接 API 呼叫更簡潔。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
