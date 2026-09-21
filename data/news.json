@@ -1,5 +1,169 @@
 [
   {
+    "id": "2026-09-21-langsmith-evals-jev",
+    "title": "LangSmith Evals 整合 Jev 評估框架",
+    "title_original": "Jev is now available in LangSmith Evals",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals",
+    "published_at": "2026-09-21T17:14:45+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 宣布 Jev 評估框架已可直接在 LangSmith Evals 中使用。開發者可在 LangSmith 平台內以 Jev 作為裁判模型，對 Agent 追蹤軌跡進行結構化評估，支援生產環境流量、測試資料集與迴歸測試場景。相較傳統人工評估，Jev 提供更快、更便宜的結構化回饋機制。",
+    "highlights": [
+      "LangSmith Evals 內建 Jev 裁判引擎，無需額外部署",
+      "支援生產環境 trace 即時評估與回歸測試",
+      "提供結構化輸出格式，便於自動化後處理",
+      "可與 LangSmith 現有監控儀表板整合",
+      "目標為降低 LLM 評估成本與加速迭代週期"
+    ],
+    "why_it_matters": "對於需要持續監控 Agent 行為品質的團隊，整合 Jev 到現有 LangSmith 工作流程可省去自建裁判模型的成本，並在正式部署前自動捕捉能力退化問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在 CI/CD pipeline 中加入 Jev 評估步驟，對每次程式碼變更後的 Agent 行為進行自動評分，低於閾值則阻擋部署。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-supra2-img-100m",
+    "title": "Supra2-IMG：100M 參數開源文字生成圖像模型發布",
+    "title_original": "[MASSIVE RELEASE] Supra2-IMG - a tiny 100M text-to-image model - SOTA quality and open release!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmftr3/massive_release_supra2img_a_tiny_100m_texttoimage/",
+    "published_at": "2026-09-21T15:21:45+00:00",
+    "category": "open-source-ai",
+    "summary": "社群釋出僅 1 億參數的文字生成圖像模型，宣稱在同等規模下達到 SOTA 品質並完全開源。體積小適合在消費級 GPU 上運行，降低了本地 AI 圖像生成的硬體門檻。",
+    "highlights": [
+      "僅 100M 參數，遠小於主流 Diffusion 模型",
+      "號稱同規模下品質領先，具體 Benchmark 未完整揭露",
+      "完全開源，可本地部署",
+      "可在單張消費級顯卡上運行"
+    ],
+    "why_it_matters": "小模型開源降低 AI 圖像生成門檻，對需要快速原型或本地處理的開發者有吸引力。需實測驗證其真實能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載並整合至個人工作流程，測試批量圖像生成腳本，評估是否能替代雲端 API 滿足基礎需求以節省成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-grok-4-7-github-copilot-agentic",
+    "title": "Grok 4.7 正式進駐 GitHub Copilot，瞄準 Agentic 程式開發場景",
+    "title_original": "Grok 4.7 is now available in GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
+    "published_at": "2026-09-21T14:54:12+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方 Changelog 宣布 xAI 的 Grok 4.7 已登陸 GitHub Copilot，基於 Grok 4.6 強化 Agentic 程式設計與複雜多步驟工作流程支援。此為 GitHub Copilot 模型選擇的重大更新，為開發者提供除 OpenAI 與 Anthropic 模型外的第三選項，實際效能需透過實測驗證。",
+    "highlights": [
+      "Grok 4.7 為 GitHub 官方 Copilot 更新，非謠言",
+      "主打 Agentic 程式設計與多步驟工作流程場景",
+      "與 Copilot 既有模型（GPT、Claude）形成直接競爭",
+      "具體技術規格與定價尚未揭露，需待正式文件",
+      "適合技術人員在 Copilot 設定中切換模型比對效果"
+    ],
+    "why_it_matters": "Grok 4.7 加入 Copilot 模型庫為開發者帶來新的推論模型選擇，若其在特定程式碼任務上優於現有選項，可能改變技術團隊的工具配置與成本結構。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Copilot 設定中啟用 Grok 4.7，針對常見的程式碼重構、多檔案修改、測試生成等任務進行 A/B 測試，評估其是否能在特定場景提升開發效率或降低 API 消耗。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-m5-ultra-mac-studio-ai-agent",
+    "title": "M5 Ultra Mac Studio 評測：本地 AI Agent 夢幻機",
+    "title_original": "M5 Ultra Mac Studio Review: The Dream Mac for Local AI Agents - MacStories",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmec1y/m5_ultra_mac_studio_review_the_dream_mac_for/",
+    "published_at": "2026-09-21T14:26:50+00:00",
+    "category": "agent-skills",
+    "summary": "MacStories 評測 M5 Ultra Mac Studio，測試其在本地運行 AI Agent 的表現。晶片統一記憶體架構為大型模型提供充足頻寬，支援流式輸出與多步推論工作負載，被譽為本地 AI 開發的理想硬體。",
+    "highlights": [
+      "M5 Ultra 統一記憶體提供更大頻寬",
+      "適合本地運行 70B+ 規模模型",
+      "流式輸出延遲表現優異",
+      "MacOS 生態整合便於日常開發"
+    ],
+    "why_it_matters": "為需要本地 LLM 部署的開發者提供硬體參考。M 系列晶片的統一記憶體架構在長上下文場景有獨特優勢。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估團隊是否值得投資此硬體用於 CI/CD 測試本地模型，或作為開發機運行長期 Agent 任務以節省雲端成本。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-llm",
+    "title": "像物理學家一樣修剪 LLM：區塊移除作為伊辛優化問題",
+    "title_original": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+    "published_at": "2026-09-21T13:44:34+00:00",
+    "category": "open-source-ai",
+    "summary": "Multiverse Computing 提出將 LLM 剪枝建模為伊辛優化問題，利用統計物理學方法移除網路區塊而非個別權重。實驗在 Phi-3-mini 等模型上驗證，可保持模型能力的同時大幅減少參數量。技術強調計算物理與神經網路最佳化的跨界融合。",
+    "highlights": [
+      "將 LLM 剪枝問題形式化為伊辛模型能量最小化",
+      "區塊級移除比權重級剪枝更適合硬體實現",
+      "Phi-3-mini 上實驗顯示剪枝後性能損失可控",
+      "方法可與量化技術結合進一步壓縮模型"
+    ],
+    "why_it_matters": "為模型壓縮提供新理論框架，對需要在邊緣設備部署 LLM 的開發者有意義。物理學視角可能啟發更高效的剪枝策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在自己的模型上實驗此剪枝框架，評估對推論速度與記憶體佔用的實際改善，特別適合資源受限的本地部署場景。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-qwen-89-100",
+    "title": "Qwen 提示詞順序技巧：將問題置於上下文前準確率從 89% 躍升至 100%",
+    "title_original": "Putting the question before the context took my local Qwen from 89% to 100% on a decision benchmark, and from ~400 ms to ~80 ms",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmd3xx/putting_the_question_before_the_context_took_my/",
+    "published_at": "2026-09-21T13:39:58+00:00",
+    "category": "new-models",
+    "summary": "用戶發現僅改變 Qwen 模型提示結構——將問題本身放在上下文之前——就能將某決策基準的準確率從 89% 提升至 100%，同時將延遲從 400ms 降至 80ms。懷疑與注意力機制的位置偏置有關。",
+    "highlights": [
+      "僅調整 prompt 順序，無需模型微調",
+      "準確率提升 11%，延遲降低 80%",
+      "懷疑是注意力頭對序列前端有偏置",
+      "效果可能因任務和模型版本而異"
+    ],
+    "why_it_matters": "揭示 prompt 工程對模型輸出的巨大影響力，提供零成本提升效能的方法。對處理決策或分類任務的開發者直接有幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應將此順序技巧加入 prompt 優化檢查清單，在現有工作流程中實驗，評估對目標任務的實際效果，無需額外成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-21-cleancode-agent-codex-cli-agent",
     "title": "cleancode：多 Agent 並行視覺化工作區，整合 Codex 與 CLI Agent",
     "title_original": "chen-985211/cleancode",
@@ -58,6 +222,61 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-21-openai-ai",
+    "title": "OpenAI 發布 AI 下一階段標準建構藍圖",
+    "title_original": "Building standards for the next phase of AI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/building-standards-next-phase-ai",
+    "published_at": "2026-09-21T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發表文章呼籲建立全球性 AI 標準框架，涵蓋評測方法、責任報告機制與治理協作。內容偏願景性質，缺乏具體技術規格或承諾。屬於政策倡議而非產品公告。",
+    "highlights": [
+      "倡議跨機構協調建立統一的 AI 安全評測基準",
+      "呼籲建立國際報告機制追蹤 AI 能力進展",
+      "強調合作而非競爭以確保 AI 安全",
+      "文章以敘事為主，缺少可操作的技術細節"
+    ],
+    "why_it_matters": "反映大廠對監管壓力的策略回應，但對技術人員的直接價值有限。了解產業政策走向有其參考意義。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可關注此趨勢，但目前不建議投入資源應對此標準，應等待更具體的法規或官方技術規範出台。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-openai-academy",
+    "title": "OpenAI Academy 新增多元學習路徑，涵蓋開發者與企業需求",
+    "title_original": "Expanding OpenAI Academy with new learning paths",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+    "published_at": "2026-09-21T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布擴展 Academy 學習平台，新增針對員工、開發者、領導者、教育工作者、學生等不同身分的學習路徑。內容聚焦實務 AI 技能建構與認證，但屬教育性質資源，對技術人員的直接工作流程自動化幫助有限。",
+    "highlights": [
+      "針對多元身分設計學習路徑（開發者、管理者、教師、學生等）",
+      "強調實務技能建構與認證機制",
+      "非新模型或工具發布，屬教育平台擴展",
+      "對技術人員的直接價值有限，除非有系統化學習需求",
+      "可作為團隊內部 AI 教育資源參考"
+    ],
+    "why_it_matters": "Academy 擴展反映 OpenAI 推動 AI 普及化與人才培育的策略，若平台內容具深度，可能成為技術團隊內部培訓的參考資源，但對日常開發工作影響較間接。",
+    "automation_angle": null,
+    "automation_angle_zh": "若團隊有新人 AI 培訓需求，可評估 Academy 路徑是否涵蓋基礎至進階內容，評估是否能作為內部教材替代方案，降低外部培訓成本。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-21-mini-agi-8gb-vram",
     "title": "mini-AGI：8GB VRAM 筆電上從零訓練的動態成長模型",
     "title_original": "mini-AGI - dynamically grown (530M params currently and growing) continual learning model trained from scratch on 8GB VRAM laptop from batch-1 stream of data.",
@@ -107,6 +326,34 @@
     "automation_angle_zh": "技術讀者可立即 clone 原始碼，在本機環境部署測試，評估是否能整合進現有工作流程或取代現有付費工具。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-openai-v7-ai-agent",
+    "title": "OpenAI V7 為 AI Agent 打造制度化記憶能力",
+    "title_original": "How V7 gives AI agents institutional memory",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/v7",
+    "published_at": "2026-09-21T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 部落格說明 V7 如何借助 GPT-5.6 將散落的企業文件轉化為可被 Agent 使用的結構化上下文。Agent 可在複雜任務中引用真實來源並保持跨對話的上下文連貫性，理論上能提升企業內部文件處理與自動化流程的準確度與可靠性。",
+    "highlights": [
+      "基於 GPT-5.6 的記憶與上下文整合能力",
+      "將企業散落文件轉為可查詢的結構化上下文",
+      "支援來源連結，輸出結果可溯源",
+      "目標場景為複雜、多步驟的企業工作流程",
+      "官方部落格發布，可信度較高但具體技術規格有限"
+    ],
+    "why_it_matters": "制度化記憶能解決 Agent 在長任務中遺忘早期資訊的痛點，對需要處理大量文件的技術工作者而言，是提升自動化流程穩定性的關鍵能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 V7 正式上線時間，評估其是否能取代現有基於 RAG 的文件查詢流程，並測試在内部文件庫場景下的準確率是否優於傳統方法。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -115599,6 +115846,34 @@
     "why_it_matters": "若 Devstral 2 在編碼基準測試表現突出，可為技術團隊提供除 GPT-5/GPT-4o 外的另一個高效、低成本本地部署選項，尤其適合需要資料主權的企業場景。",
     "automation_angle": null,
     "automation_angle_zh": "下載並本地部署 Devstral 2，搭配 Mistral Vibe CLI 自動化日常編碼任務（如自動產生測試、程式碼重構、Bug 修復），評估其與現有 GitHub Copilot 工作流程的成本效益比。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-mistral-devstral-2",
+    "title": "Mistral 推出 Devstral 2 開發者專用模型",
+    "title_original": "Mistral debuts Devstral 2 for developers - VentureBeat",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTEJCWE5WNWdRTkI0NFN0eHN3MEQ3WmZXRllUeVdkODgxWndoeExUMlQ3TFBReVpxbEltdjRCbl9rNlMwWmE5S2RVVGhKbUtlbFJzbHp2ZndVQWF6V1VQNjRuU29mcHBLRTBtc1dvelBDT3FOLUNRVS0xbVN2aXhnZTc2RGp4YmwyU3pPZml3a2lCWVg1OUlwWTRudDRiMG1NN1VWZWNrOXlPdw?oc=5",
+    "published_at": "2025-12-09T08:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI 發布 Devstral 2，這是專為開發者工作流程設計的新版本模型。根據 VentureBeat 報導，該版本強化了程式碼生成、偵錯與重構能力，目標是提升軟體開發效率。具體技術規格與定價尚未完整揭露。",
+    "highlights": [
+      "Devstral 2 為 Mistral 針對開發場景的特化版本",
+      "強調程式碼相關任務的效能優化",
+      "由 VentureBeat 報導，來源為 Google News 索引",
+      "詳細 API 定價與模型權重尚未公布",
+      "可能對標 GitHub Copilot 與 Cursor 等開發工具市場"
+    ],
+    "why_it_matters": "若 Devstral 2 能在程式碼理解與生成上達到有競爭力的表現，且定價合理，可能成為開發者替代昂貴閉源模型的選項，特別適合需要本地部署的企業場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "待正式發布後，可透過 API 或本地部署方式，在現有 IDE 插件中整合 Devstral 2，針對特定程式碼補全任務進行成本效益比較測試。",
     "tags": [
       "new-models",
       "rss",
