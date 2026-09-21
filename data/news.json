@@ -1,5 +1,88 @@
 [
   {
+    "id": "2026-09-21-zcode",
+    "title": "ZCode 開源了",
+    "title_original": "ZCode is now open source",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlzvcx/zcode_is_now_open_source/",
+    "published_at": "2026-09-21T02:09:41+00:00",
+    "category": "open-source-ai",
+    "summary": "ZCode 專案已在 Reddit r/LocalLLaMA 宣布開源，目前具體功能與定位尚待社群進一步說明。開源此舉可能為本地部署的 AI 輔助工具帶來新選擇，但缺乏詳細技術文件，讀者需自行下載測試以評估實用性。",
+    "highlights": [
+      "ZCode 專案正式開源，原始碼可在相關倉庫取得",
+      "目前社群回應有限，實際功能待驗證",
+      "LocalLLaMA 為本地 LLM 愛好者聚集地",
+      "開源模型有助於隱私敏感場景的本地部署",
+      "缺乏官方文件或詳細介紹，資訊來源有限"
+    ],
+    "why_it_matters": "開源模型/工具持續增加技術宅的可選生態系，ZCode 若具備獨特能力（如程式碼生成或推論加速），可能值得關注其發展方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可立即 clone 原始碼，在本機環境部署測試，評估是否能整合進現有工作流程或取代現有付費工具。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-claude-code-enter",
+    "title": "大公司全員 Claude Code 惹議：工程師淪為「Enter 鍵操作員」",
+    "title_original": "Quoting voxium",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/20/voxium/",
+    "published_at": "2026-09-20T21:06:43+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 轉載匿名工程師心聲，描述新公司內所有流程——規格、程式碼、測試、PRD、票務——全由 Claude Code 產出。團隊被迫高速交付，無人真正閱讀 AI 輸出，工程師自嘲變成「按 Enter」的機器。",
+    "highlights": [
+      "公司要求全體工程師使用 Claude Code 處理幾乎所有文件與程式碼工作",
+      "從 L1 到 L7 級別都在做相同的事情：與 Claude 對話後直接提交",
+      "員工被迫高工時運轉（12-13 小時），但瓶頸不在程式碼產出",
+      "無人被要求閱讀或審查 AI 生成的內容品質",
+      "此現象反映企業對 AI 工具的不當濫用與管理層的目標錯位"
+    ],
+    "why_it_matters": "此案例揭示盲目追求 AI 工具產出量的風險，可能導致技術債累積與工程師技能退化。對技術管理者和 AI 導入決策者有警示作用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可反思自己團隊的 AI 使用邊界，設計人類審核流程，避免成為「無腦按 Enter」的組織。可評估哪些環節真正需要人類把關。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-reddit-context-compaction",
+    "title": "Reddit 社群討論：Context Compaction 對量化模型的效益",
+    "title_original": "Postulate: Context compaction is good for Quantized models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wlss89/postulate_context_compaction_is_good_for/",
+    "published_at": "2026-09-20T21:00:17+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論串指出 Context Compaction（語境壓縮）技術對量化後的大型語言模型有明顯幫助，可提升壓縮後模型處理長上下文的效率與輸出品質。但該觀點來自社群討論，缺乏學術論文或官方驗證，屬社群經驗分享。",
+    "highlights": [
+      "社群討論，未獲學術或官方背書",
+      "論點：Context Compaction 可改善量化模型長上下文表現",
+      "討論區網友分享實際使用經驗",
+      "可能對本地部署量化模型的技術用戶有參考價值"
+    ],
+    "why_it_matters": "若 Context Compaction 確實對量化模型有效，本地部署用戶可在有限的 GPU 資源下更好處理長文件任務。但需自行測試驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "本地部署量化模型（如 LLaMA、Qwen 量化版）的技術用戶可實測加入 Context Compaction 步驟，觀察長文件摘要、多輪對話等場景的品質變化，作為個人 benchmark。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-20-agentic-seo-llm-seo-16-89",
     "title": "agentic-seo：LLM 優先的 SEO 技能庫，含 16 項子技能與 89 腳本",
     "title_original": "dalroot/agentic-seo",
@@ -56,6 +139,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/316629828?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-llm-keys-ui-0-1-api-coding-agent",
+    "title": "llm-keys-ui 0.1：安全管理 API 金鑰的Coding Agent 輔助外掛",
+    "title_original": "llm-keys-ui 0.1",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+    "published_at": "2026-09-20T19:22:19+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布的 llm-keys-ui 0.1 解決了 Coding Agent 場景下的 API 金鑰安全問題。透過本機或 Tailscale IP 提供 Web 介面，讓 Agent 可在不直接接觸金鑰的情況下完成設定，並透過指令取用，適合遠端操控多台機器的開發者。",
+    "highlights": [
+      "解決 Coding Agent 直接接觸 API Key 的安全疑慮",
+      "支援本地網路 IP 或 Tailscale 設備的遠端介面",
+      "可與 Codex Remote 等遠端 Agent 工具配合使用",
+      "安裝方式：uvx --with llm-keys-ui llm keys-ui --all",
+      "呼叫方式：llm keys get <provider> 取得金鑰"
+    ],
+    "why_it_matters": "對使用遠端 Coding Agent 的技術宅而言，這是防止 API Key 意外外洩的實用防線。支援 Tailscale 讓跨設備安全取用金鑰成為可能。",
+    "automation_angle": null,
+    "automation_angle_zh": "在多設備開發環境中部署 llm-keys-ui，透過 Tailscale 暴露介面，讓遠端 Agent 在需要時安全取用 API Key，無需手動複製貼上，降低人為失誤與安全風險。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-09-20-qwen3-5-4b-jev-reddit",
@@ -272,6 +383,34 @@
     "why_it_matters": "Agent 評估是自動化工作流程關鍵環節，若 Jev 提供更低成本或更高穩定性的評估方式，可直接降低開發與測試成本。",
     "automation_angle": null,
     "automation_angle_zh": "在 LangSmith 中實測 Jev 評估流程，評估其是否能在自動化測試管道中取代昂貴的 GPT-4 法官。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-21-datasette-explain-0-2-2-explain",
+    "title": "datasette-explain 0.2.2 發布：唯讀預存查詢頁面支援 Explain 計畫",
+    "title_original": "datasette-explain 0.2.2",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
+    "published_at": "2026-09-20T00:22:04+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 datasette-explain 外掛 0.2.2 版，最大更新為唯讀預存查詢頁面現已支援 Explain 計畫功能。此版本伴隨 Datasette 1.0a40 升級，進一步簡化 SQL 查詢效能分析流程。",
+    "highlights": [
+      "datasette-explain 升級至 0.2.2，強化 Explain 計畫功能",
+      "唯讀預存查詢頁面（read-only stored-query pages）現在可檢視執行計畫",
+      "需搭配 Datasette 1.0a40 以上版本使用",
+      "Explain 功能可幫助開發者理解 SQLite 查詢效能瓶頸",
+      "屬於小型功能更新，適合有 SQL 分析需求的技術使用者"
+    ],
+    "why_it_matters": "此工具簡化資料庫查詢效能除錯流程，對需要分析 SQL 執行效率的開發者有實用價值，是較低調但靠譜的開發工具更新。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可立即升級 Datasette 並啟用此外掛，利用 Explain 計畫自動診斷慢查詢，或將其整合進資料庫效能監控流程。",
     "tags": [
       "agent-skills",
       "rss",
