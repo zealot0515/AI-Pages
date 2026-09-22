@@ -1,5 +1,229 @@
 [
   {
+    "id": "2026-09-22-conferllm-mcp-cli",
+    "title": "conferllm：支援圖片與持久對話的MCP/CLI工具",
+    "title_original": "feiskyer/conferllm",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/feiskyer/conferllm",
+    "published_at": "2026-09-22T15:46:34Z",
+    "category": "agent-skills",
+    "summary": "Python實作的輕量級CLI工具，同時具備Agent Skill與MCP server功能。核心特性是支援圖片輸入與持久對話上下文，方便對接多種AI模型API。",
+    "highlights": [
+      "CLI介面，無需複雜設定即可使用",
+      "支援MCP server模式，可整合進AI工具生態",
+      "原生支援圖片consultation（視覺推論場景）",
+      "持久對話功能，減少每次請求的token開銷",
+      "Python實作，易於修改與擴展"
+    ],
+    "why_it_matters": "多模型切換或需要圖文混合諮詢時，conferllm提供統一的本地介面。持久對話可降低API呼叫次數與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將conferllm整合進自動化腳本，用於需要圖片理解+持續context的工作流程程，如自動化UI測試報告分析。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/676637?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-node9-proxy-ai-agent-iam",
+    "title": "node9-proxy：AI Agent IAM 權限控管閘道",
+    "title_original": "node9-ai/node9-proxy",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/node9-ai/node9-proxy",
+    "published_at": "2026-09-22T15:46:30Z",
+    "category": "agent-skills",
+    "summary": "node9-proxy 為 MCP Server 之 IAM 層，支援對 Claude Code、Codex、Cursor 與任意 MCP 工具設定執行權限，並提供事前風險審核與完整操作日誌。",
+    "highlights": [
+      "支援主流 AI Coding Tool 權限管控",
+      "可設定白名單 / 黑名單 MCP 工具",
+      "執行前風險審核提示",
+      "完整操作審計日誌",
+      "TypeScript 實作，易與現有 Node 專案整合"
+    ],
+    "why_it_matters": "企業部署 Agent 需嚴格權限控管，node9-proxy 提供開源方案填補空白，技術宅可用於評估團隊 AI 工具安全邊界與合規需求。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本機或 CI 環境架設 node9-proxy，攔截 Cursor/Claude Code 對危險 MCP 工具（如刪除檔案）的呼叫，測試風險審核流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/264506876?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-crystalline-ai",
+    "title": "crystalline：本地優先的AI代理知識持久化框架",
+    "title_original": "jordiboehme/crystalline",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jordiboehme/crystalline",
+    "published_at": "2026-09-22T15:42:14Z",
+    "category": "agent-skills",
+    "summary": "Rust實作的本地優先AI代理知識管理工具，將長期記憶組織為Markdown Domains與Engrams格式，單一二進位檔案包含MCP server、CLI及混合搜尋引擎。技術宅可建立跨session的持久化AI工作記憶。",
+    "highlights": [
+      "純Rust實作，單一binary即可運行",
+      "支援MCP server協定，方便與現有AI工具鏈整合",
+      "將知識建模為Markdown Domains（領域）與Engrams（記憶片段）",
+      "內建混合搜尋（向量+關鍵字）",
+      "強調本地優先，資料不外流"
+    ],
+    "why_it_matters": "AI代理常見痛點是缺乏長期記憶，crystalline提供開箱即用的持久化方案。對於需要跨對話累積context的自動化流程極有價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可今日用cargo install crystalline，啟動MCP server後讓Claude/OpenAI等模型存取長期知識庫，實現真正的狀態化代理工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/61378?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-aihawk-mcp-server",
+    "title": "aihawk_mcp_server：反偵測隱形瀏覽器自動化工具",
+    "title_original": "feder-cr/aihawk_mcp_server",
+    "source": "GitHub Computer Use Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/feder-cr/aihawk_mcp_server",
+    "published_at": "2026-09-22T14:12:17Z",
+    "category": "agent-skills",
+    "summary": "aihawk_mcp_server 是 31K stars 之 Python 專案，提供無 captcha 反偵測瀏覽自動化，可用於 AI 網頁爬蟲與導客，屬灰色地帶用途，須自行評估法律風險。",
+    "highlights": [
+      "反偵測技術繞過網站指紋識別",
+      "支援 Python AI 網頁爬蟲串接",
+      "強調無 captcha 體驗",
+      "Stars 高達 31623，社群關注度極高",
+      "涉及網站爬取法律灰色地帶"
+    ],
+    "why_it_matters": "高 stars 代表大量技術者在尋找可靠之瀏覽自動化方案，可參考其底層反偵測技術理解瀏覽器指紋機制，但部署前請確認當地法規。",
+    "automation_angle": null,
+    "automation_angle_zh": "研究其無頭瀏覽器配置與指紋混淆策略，用於評估現有爬蟲腳本之被封機率，優化資料收集流程之穩定度。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/85809106?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-whittle",
+    "title": "Whittle模型經驗詢問",
+    "title_original": "Does anyone have any experience with the Whittle models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn6m4p/does_anyone_have_any_experience_with_the_whittle/",
+    "published_at": "2026-09-22T11:15:08+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit用戶詢問是否有Whittle模型的實際使用經驗。Whittle模型知名度較低，目前社區討論有限，技術細節與表現資訊不足。",
+    "highlights": [
+      "Whittle模型為較新/小眾的開源模型",
+      "社區缺乏實際使用經驗分享",
+      "模型定位與能力尚不明確"
+    ],
+    "why_it_matters": "對於探索新興模型有一定價值，但資訊匱乏難以評估其實際應用潛力。建議等待更多社區回饋。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶若對Whittle模型有興趣，可直接造訪其GitHub repo測試，但目前尚無明確的自動化應用場景建議。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-qwen3-8-27b-rtx-3090-160-tok-s",
+    "title": "Qwen3.8-27B效能實測：雙RTX 3090達160 tok/s並發",
+    "title_original": "Qwen3.8-27B: >70 tok/s (>160 tok/s concurrent), 10k tok/s prefill, full context on 2x3090 (or and 48GB or larger on ampere or higher), vanilla vllm",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn53le/qwen3827b_70_toks_160_toks_concurrent_10k_toks/",
+    "published_at": "2026-09-22T09:52:43+00:00",
+    "category": "new-models",
+    "summary": "Qwen3.8-27B在雙RTX 3090上實現>70 tok/s單流、>160 tok/s並發吞吐量，prefill達10k tok/s，使用原生vLLM即可達成。",
+    "highlights": [
+      "27B參數模型，適合consumer GPU部署",
+      "雙RTX 3090可完整裝載full context",
+      "並發吞吐量160+ tok/s，性價比極高",
+      "原生vLLM支援，無需特殊優化",
+      "10k tok/s prefill速度，前處理效率佳"
+    ],
+    "why_it_matters": "27B級別模型一直是本地部署的甜蜜點。此benchmark顯示Qwen3.8-27B在consumer硬體上已達生產級 throughput，大幅降低部署門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可用vLLM快速部署Qwen3.8-27B，評估其在本工作流程中的實際表現，特別是與GPT-4等閉源模型的cost/performance取捨。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-reddit-ai-coding",
+    "title": "Reddit熱議：為何AI模型專注coding而忽略世界知識",
+    "title_original": "Ngram and world knowledge - why are we just building a coding model?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wn2ybk/ngram_and_world_knowledge_why_are_we_just/",
+    "published_at": "2026-09-22T07:42:34+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA區討論當前AI模型過度偏向程式碼訓練卻忽視一般世界知識的現象。引發對模型訓練數據偏向性的技術反思。",
+    "highlights": [
+      "討論模型在coding任務上的偏重",
+      "質疑為何世界知識類任務被忽略",
+      "涉及Ngram與世界知識的技術比較",
+      "社區對模型能力偏向的反思"
+    ],
+    "why_it_matters": "模型訓練數據偏向直接影響實際應用場景。若需通用推論或世界知識任務，選擇模型時需注意其訓練數據配比。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶評估新模型時可參考此討論，針對非coding任務選擇更平衡的模型，而非只看coding benchmark。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-5-10-ai",
+    "title": "阿里巴巴規劃5至10兆參數AI模型並發表新晶片",
+    "title_original": "Alibaba plans AI model with 5 trillion to 10 trillion parameters, unveils new chip",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmyh9z/alibaba_plans_ai_model_with_5_trillion_to_10/",
+    "published_at": "2026-09-22T03:35:45+00:00",
+    "category": "new-models",
+    "summary": "阿里巴巴宣布開發5兆至10兆參數的超大型AI模型計畫，同步發表新款AI晶片。屬於大廠下一代模型競賽的一部分，具體技術規格與時間表尚待公布。",
+    "highlights": [
+      "模型參數規模達5-10兆，屬超大杯級別",
+      "同步發表自研AI晶片",
+      "具體技術規格尚未公開",
+      "時間表與實際表現存不確定性"
+    ],
+    "why_it_matters": "若成功實現，5-10兆參數模型將進入頂尖大模型行列。但超大參數模型實際能力與訓練成本效益仍待驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可追蹤後續發表，保持對開源陣營（如Qwen家族）技術演進的了解，評估其對本地部署生態的影響。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-22-mcp-server-api-key",
     "title": "開源MCP Server：無API Key的網頁搜尋與爬蟲工具",
     "title_original": "n24q02m/wet",
@@ -75,6 +299,34 @@
     "why_it_matters": "熟悉 Python 的開發者現在可直接在 Cloudflare 邊緣部署函式，結合 AI 推論可構建低延遲的智慧邊緣服務。",
     "automation_angle": null,
     "automation_angle_zh": "可使用 pip install workers-py 安裝 pywrangler，本機模擬後部署 Python 邊緣函式，用於處理 API 路由或輕量 AI 前處理。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-22-cloudflare-python-workers-python",
+    "title": "Cloudflare Python Workers 正式發布：Python 成為邊緣運算第一級語言",
+    "title_original": "Cloudflare Python Workers are now generally available",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
+    "published_at": "2026-09-21T22:25:44+00:00",
+    "category": "agent-skills",
+    "summary": "經過兩年預覽，Cloudflare 宣布 Python Workers 正式GA，Python 成為 Cloudflare 開發者平台的第一級支援語言。底層技術採用 Pyodide 將 Python 編譯為 WebAssembly，運行於 V8 的 workerd  runtime。本地開發環境 pywrangler 可完整模擬生產環境，執行 V8 中的 WebAssembly Python。需注意 WebAssembly VM 內不支援 multiprocessing 與 threading。",
+    "highlights": [
+      "Python Workers 正式GA，無需再透過 JS/WASM 膠水層",
+      "技術棧：Python → Pyodide → WebAssembly → V8 workerd runtime",
+      "本地開發工具 pywrangler 完整模擬邊緣執行環境",
+      "限制：WebAssembly 中無法使用 multiprocessing 和 threading",
+      "由 Pyodide 核心維護者主導開發，Python 生態戰略投資"
+    ],
+    "why_it_matters": "邊緣函式平台長期以 Node.js/JavaScript 為主，Python 開發者終於能直接部署到全球 300+ 據點，適合部署 AI 推論膠水代碼、API proxy、輕量資料處理等工作負載。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可立即將 Python 腳本部署為全球分發的邊緣函式，測試方式：pip install workers-py，wrangler dev 本地模擬，再 wrangler deploy 發布。",
     "tags": [
       "agent-skills",
       "rss",
@@ -166,6 +418,35 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/6614011?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-dohnuts",
+    "title": "Dohnuts：小型多模態模型直接決策框架",
+    "title_original": "PsiACE/dohnuts",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/PsiACE/dohnuts",
+    "published_at": "2026-09-21T18:59:10Z",
+    "category": "open-source-ai",
+    "summary": "Dohnuts 由 PsiACE 開發，旨在構建可直接在本地端執行決策之小型多模態模型，降低雲端 API 依賴，Stars 僅 23，屬早期實驗性專案。",
+    "highlights": [
+      "聚焦小型多模態模型本地部署",
+      "目標為直接決策而非純生成",
+      "目前 stars 數低，社群關注有限",
+      "Python 實作，可自訂模型骨幹",
+      "與 System One 模型有技術關聯"
+    ],
+    "why_it_matters": "小型多模態本地模型趨勢明確，Dohnuts 提供研究起點，但成熟度不足，技術宅可關注其架構設計作為個人 edge AI 方向參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "Clone 專案研究其模型決策流程，評估是否能替代雲端 API 處理簡單圖文分類或狀態判斷，降低延遲與成本。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/36896360?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
