@@ -1,5 +1,116 @@
 [
   {
+    "id": "2026-09-22-mcp-server-api-key",
+    "title": "開源MCP Server：無API Key的網頁搜尋與爬蟲工具",
+    "title_original": "n24q02m/wet",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/n24q02m/wet",
+    "published_at": "2026-09-22T01:52:35Z",
+    "category": "agent-skills",
+    "summary": "開源MCP Server實現AI Agent的網頁搜尋、內容提取、函式庫文件獲取，採用5策略爬蟲，無需API Key即可運行。",
+    "highlights": [
+      "完全開源且免費使用",
+      "無需API Key，降低使用門檻",
+      "5策略爬蟲提升靈活性",
+      "支援網頁搜尋、內容提取、文件獲取",
+      "以MCP標準實作，易於整合"
+    ],
+    "why_it_matters": "為AI Agent提供免費的網頁資訊獲取能力，省去第三方API費用與依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "將其整合進工作流程中，用於自動抓取技術文件或競爭對手資訊，替換昂貴的網頁搜尋API。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/135627235?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-jev",
+    "title": "Jev：新型「決策模型」—結構化分類輸出與極低定價",
+    "title_original": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/21/jev/",
+    "published_at": "2026-09-21T23:09:20+00:00",
+    "category": "new-models",
+    "summary": "TypeSafe AI推出新型「決策模型」Jev，接受任意文字輸入但輸出浮點數（0-1信心度），適用於分類、排名、評分等任務。輸入僅$0.042/百萬Token，輸出免費。",
+    "highlights": [
+      "三種查詢類型：是/否（Noul）、選擇題、評分題",
+      "查詢並行處理，多問題與單問題延遲相近",
+      "輸入定價極低，遠低於GPT-5 Nano",
+      "輸出為純數字，完全黑盒無解釋性",
+      "已催生開源復現項目（Kev）與Benchmark"
+    ],
+    "why_it_matters": "低成本高速的分類/評分API，犧牲解釋性換取性價比，適合明確的分類任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "用於搜尋結果重排序或內容分類，先用BM25抓候選，再用Jev評估相關性，大幅降低排序成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-cloudflare-python-workers-ga-python",
+    "title": "Cloudflare Python Workers 正式GA，Python 成為邊緣運算一等公民",
+    "title_original": "Uncensor an LLM without touching weights: inject a tiny trained KV-cache bank (~18MB) and unload it anytime",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wms904/uncensor_an_llm_without_touching_weights_inject_a/",
+    "published_at": "2026-09-21T22:55:57+00:00",
+    "category": "agent-skills",
+    "summary": "Cloudflare 宣佈 Python Workers 正式GA，Python 透過 Pyodide 編譯為 WebAssembly 在 V8 workerd 執行期中運行，成為其開發平台的一等語言。支援本機完整模擬，包含約123MB 的 workerd 執行檔。本地開發工具 pywrangler 已上架 PyPI。",
+    "highlights": [
+      "Python 透過 Pyodide + WebAssembly 在 Cloudflare Workers 運行",
+      "正式支援，地中海式預覽期結束",
+      "本機開發環境可完整模擬邊緣執行",
+      "Threading 與 multiprocessing 在 WASM 環境下不可用"
+    ],
+    "why_it_matters": "熟悉 Python 的開發者現在可直接在 Cloudflare 邊緣部署函式，結合 AI 推論可構建低延遲的智慧邊緣服務。",
+    "automation_angle": null,
+    "automation_angle_zh": "可使用 pip install workers-py 安裝 pywrangler，本機模擬後部署 Python 邊緣函式，用於處理 API 路由或輕量 AI 前處理。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-22-agent-50-100m-tokens",
+    "title": "開源自主 Agent 耗時50+小時、100M+ Tokens 逼近開放數學題",
+    "title_original": "50+ Hours and 100M+ Tokens Later, Open Source Autonomous Agent is GETTING CLOSER at Solving an Open Math problem",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmqkx4/50_hours_and_100m_tokens_later_open_source/",
+    "published_at": "2026-09-21T21:49:04+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群分享了開源自主 Agent 挑戰開放數學問題的進展，歷經50多小時推論與逾1億tokens計算後逐步逼近目標。實驗展示開源專案在長鏈推論上的可行性，但也凸顯資源消耗巨大的瓶頸。",
+    "highlights": [
+      "自主 Agent 長時間推論開放數學問題，展示開源方案潜力",
+      "單次任務消耗逾100M tokens，成本與時間門檻極高",
+      "成功案例來自社群自發實驗，非官方產品發布",
+      "反映出當前長鏈推論在資源效率上仍有優化空間"
+    ],
+    "why_it_matters": "對技術人員而言，此案例揭示開源 Agent 在複雜數學推論上的現階段能力邊界，可用於評估同類專案在數學任務上的實用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載相關開源程式碼，在本地環境測試同類推論流程，評估其與商業方案的性價比。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-21-guardana-ai-mcp-agent",
     "title": "guardana：開源 AI 安全驗證工具，涵蓋模型成品、MCP 伺服器與 Agent 追蹤",
     "title_original": "guardana/guardana",
@@ -70513,6 +70624,33 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-kv-cache-llm",
+    "title": "KV-Cache 注入法：無需改權重即可對 LLM 解除審查",
+    "title_original": "200块薅出1.4万算力，OpenAI被薅秃了？ - 36kr.com",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9rWE9fOGZKVV9mZDdLX3NFbXZPTDNxS3VZUkRFRkpackR1TENmNEZsRzhVTnA3cUJ2VXhob2k2dE9tWmxYNFRobHNoNTBadw?oc=5",
+    "published_at": "2026-06-22T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 有開發者提出一種新方法，透過注入一個約18MB 的訓練過 KV-cache 銀行來移除 LLM 的輸出限制，無需直接修改模型權重，且可隨時卸載。方法基於在推論時干預注意力機制實現。",
+    "highlights": [
+      "僅需注入約18MB 的 KV-cache 即可生效",
+      "不改變模型原始權重，保持模型完整性",
+      "可隨時卸載恢復原始狀態",
+      "實驗於多個開源模型驗證概念"
+    ],
+    "why_it_matters": "對需要在本地部署靈活調整模型行為的技術人員，此方法提供一個低侵入性的替代方案，適合研究與內部測試場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合進本地推論管線，測試不同 KV-cache 配置對模型輸出的影響，用於安全審計或內容過濾研究。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
