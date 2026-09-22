@@ -1,5 +1,419 @@
 [
   {
+    "id": "2026-09-22-gpt-6-prompt",
+    "title": "GPT-6 強化 Prompt 快取機制",
+    "title_original": "Better prompt caching for GPT-6",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+    "published_at": "2026-09-22T21:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 針對 GPT-6 發布 Prompt Caching 改進方案，包含更高的快取命中率、新增診斷工具、明確的斷點設定與更細緻的控制選項。此更新預期可顯著降低長對话任務的 API 成本與延遲。",
+    "highlights": [
+      "快取命中率提升代表相同token使用量下成本下降",
+      "新增診斷API可監控快取命中狀態與效率",
+      "支援明確設定快取斷點，控制何時清除上下文",
+      "與 GPT-6 家族全模型相容",
+      "對長程對話、文件分析、Agents 多輪任務影響最大"
+    ],
+    "why_it_matters": "Prompt Caching 直接影響 API 帳單金額。對於需要處理長文件的 AI 應用或 Agents 流程，高快取命中率可節省大量成本，是值得優化的技術參數。",
+    "automation_angle": null,
+    "automation_angle_zh": "在文件分析或客服 Agents 流程中啟用快取診斷，收集命中數據後計算實際成本節省比例，評估是否值得迁移到 GPT-6。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-22-mcp-dap-server-ai-mcp",
+    "title": "mcp-dap-server：讓AI代理能調試運行中程式的MCP伺服器",
+    "title_original": "go-delve/mcp-dap-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/go-delve/mcp-dap-server",
+    "published_at": "2026-09-22T20:19:02Z",
+    "category": "agent-skills",
+    "summary": "一個Go語言實作的MCP伺服器，專門與DAP（Debug Adapter Protocol）伺服器溝通，使AI代理能夠直接調試運行中的程式。這是提升AI代理工程能力的重要基礎設施。",
+    "highlights": [
+      "Go語言實作，104 GitHub星標",
+      "透過DAP協定與除錯器溝通",
+      "讓AI代理具備真正除錯能力",
+      "可除錯運行中的程序，非靜態分析",
+      "適合需要深度程式分析的AI工具開發"
+    ],
+    "why_it_matters": "目前多數AI代理只能生成程式碼，無法真正除錯。此專案提供讓AI進入除錯迴圈的能力，是代理工程能力的重要補充。",
+    "automation_angle": null,
+    "automation_angle_zh": "將其整合進你的AI開發助理，測試讓AI自動設定斷點、檢查變數、單步執行，評估能否減少你的除錯時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/19232073?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-mimo-v2-6-flash-vllm-thinking-tools-2-048-token",
+    "title": "MiMo-V2.6-Flash 登陸 vLLM：修復 thinking + tools 空回應問題，新增 2,048 token 輸出上限",
+    "title_original": "MiMo-V2.6-Flash on vLLM: fixes for \"empty responses\" with thinking + tools, and a hidden 2,048-token output cap",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnjbwn/mimov26flash_on_vllm_fixes_for_empty_responses/",
+    "published_at": "2026-09-22T19:28:26+00:00",
+    "category": "new-models",
+    "summary": "MiMo-V2.6-Flash 模型現已支援 vLLM 部署，但存在一個隱藏限制：輸出上限為 2,048 tokens，同時修復了啟用 thinking 模式與 tools 工具時出現空回應的問題。這對於想在本地部署此模型的開發者意味著需要留意輸出長度設定。",
+    "highlights": [
+      "MiMo-V2.6-Flash 正式支援 vLLM",
+      "修復 thinking + tools 組合的空回應 bug",
+      "隱藏 2,048 token 輸出上限需注意",
+      "適合本地部署的低門檻模型選擇",
+      "結合 reasoning 與 function calling 能力"
+    ],
+    "why_it_matters": "MiMo 結合了推論模型與工具呼叫能力，修復空回應問題後實用性大增，但 2,048 token 上限可能限制某些複雜任務，需在部署時據需求評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 vLLM 部署 MiMo-V2.6-Flash 時，先測試 thinking + tools 流程是否穩定，並確認輸出上限是否滿足你的任務需求，必要時可用 truncation 參數調整。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-antling-ming-image-0-1-design",
+    "title": "AntLing 開源 Ming-Image-0.1-Design 輕量圖像模型",
+    "title_original": "New 6B image model coming, AntLing just open sourced the Ming-Image-0.1-Design family",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnipcz/new_6b_image_model_coming_antling_just_open/",
+    "published_at": "2026-09-22T19:06:22+00:00",
+    "category": "open-source-ai",
+    "summary": "AntLing 在 Reddit 發布 Ming-Image-0.1-Design 圖像生成模型，號稱僅 6B 參數即可達到接近大型模型的生成品質。該模型主打設計場景，支援本地部署，強調離線使用與資料隱私。",
+    "highlights": [
+      "模型參數總量 6B，屬於輕量級開源方案",
+      "專注於設計相關圖像生成，如 UI、海報、示意圖",
+      "支援本地部署，無需雲端 API",
+      "目前 source 為 Reddit 討論串，詳細技術文件待確認",
+      "開放程度與詳細權重發布方式尚不明確"
+    ],
+    "why_it_matters": "輕量級開源圖像模型若實際可用，可大幅降低設計自動化的硬體門檻與 API 成本。但目前資訊來源為社區討論，需等待官方 repo 或技術驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方 repo 發布後，第一時間在本地測試其與現有開源模型（如 Stable Diffusion 系列）的品質對比，評估替換可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-invisible-playwright-mcp-31k",
+    "title": "invisible_playwright_mcp：反偵測代理瀏覽器自動化工具，31k星標",
+    "title_original": "feder-cr/invisible_playwright_mcp",
+    "source": "GitHub Computer Use Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/feder-cr/invisible_playwright_mcp",
+    "published_at": "2026-09-22T18:28:11Z",
+    "category": "agent-skills",
+    "summary": "基於Playwright的反偵測瀏覽器自動化方案，號稱能繞過captcha與瀏覽器指紋偵測。支援Python AI網頁代理、爬蟲、潛在客戶生成等場景。星標數31k，社群關注度極高。",
+    "highlights": [
+      "31,627 GitHub星標，社群熱度頂級",
+      "基於Playwright但加入反偵測層",
+      "號稱繞過captcha與瀏覽器指紋辨識",
+      "可用於AI代理的網頁操作自動化",
+      "Python實作，易於整合進現有Python專案"
+    ],
+    "why_it_matters": "31k星標說明大量開發者在找可靠的瀏覽器自動化方案。對比傳統Selenium/Playwright，這工具將反偵測內建，可能大幅簡化AI代理的網頁操作任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "用於建構需要登入操作的自動化工作流程，例如定期抓取競爭對手網頁、自動化表單填寫，或測試需要登入的網頁功能。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/85809106?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-22-anthropic-opus-5-5-artificial-analysis-58",
+    "title": "Anthropic Opus 5.5 登上 Artificial Analysis 排名第 58 位",
+    "title_original": "Now Opus 5.5 is 58 on Artificial Analysis , how long do you have wait until an open model hits 58?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnhlbl/now_opus_55_is_58_on_artificial_analysis_how_long/",
+    "published_at": "2026-09-22T18:26:34+00:00",
+    "category": "new-models",
+    "summary": "Reddit 討論指出 Anthropic 的旗艦模型 Opus 5.5 目前在 Artificial Analysis 基準測試中排名 58，社群開始討論開源模型何時能達到此分數水準。這反映了閉源旗艦模型與開源前沿模型之間仍存在的效能差距，也為開源社群設立了明確的追趕目標。",
+    "highlights": [
+      "Opus 5.5 在 Artificial Analysis 排名 58",
+      "閉源與開源旗艦模型仍有明顯差距",
+      "開源社群以此作為對標基準",
+      "引發對開源模型追上時間表的討論",
+      "暗示可能需要更大規模或新架構突破"
+    ],
+    "why_it_matters": "了解閉源模型的天花板有助技術决策：若你的應用場景需要接近 Opus 5.5 的能力，目前開源方案可能還需等待；若門檻較低，則有多種高效替代方案可選。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將 Opus 5.5 的 benchmark 分數作為自己應用的能力基準，選擇性使用 API 調用或部署開源模型來平衡成本與效能。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-antling-ming-image-0-1-design",
+    "title": "AntLing 開源 Ming-Image-0.1-Design 影像生成模型系列",
+    "title_original": "AntLing open sourced the Ming-Image-0.1-Design family",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnh7tk/antling_open_sourced_the_mingimage01design_family/",
+    "published_at": "2026-09-22T18:12:56+00:00",
+    "category": "open-source-ai",
+    "summary": "AntLing 社群在 Reddit r/LocalLLaMA 宣布開源 Ming-Image-0.1-Design 系列影像生成模型家族，具體架構與效能數據尚未完全揭露。該模型主要針對設計應用場景，屬於輕量級開源選項。",
+    "highlights": [
+      "• Ming-Image-0.1-Design 為設計導向的影像生成模型\n• 以開源形式發布，允許本地部署與微調\n• 定位為輕量設計工具，降低運算資源需求\n• 可透過 GitHub 或 Hugging Face 取得模型權重"
+    ],
+    "why_it_matters": "開源影像生成模型持續增加，技術人員可評估其對現有工作流程程的替代性，尤其在設計自動化場景中具有實驗價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載模型權重，評估其產生設計素材、行銷圖像的品質與效率，測試是否能替代商業工具或減少外購成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-ai-tiktok-youtube",
+    "title": "社群觀察：AI 撰寫 TikTok/YouTube 腳本的特徵識別",
+    "title_original": "Quoting @therealcornpop",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
+    "published_at": "2026-09-22T18:03:21+00:00",
+    "category": "agent-skills",
+    "summary": "社群觀察者 @therealcornpop 分享如何識別 AI 生成的短影音腳本，指出缺乏個人觀點、機械式句式結構、過度使用破折號與驚嘆號等明顯特徵。",
+    "highlights": [
+      "• AI 腳本常見「非 X 是 Y」機械對比句式\n• 過度依賴「三點法則」與誇張停頓感\n• 缺乏創作者個人立場與獨特觀點\n• 句末常見不正常標點組合"
+    ],
+    "why_it_matters": "了解 AI 生成內容的識別特徵有助於內容審核與品質把關，對從事內容創作或審查的技術人員具有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可作為開發內容檢測工具的參考特徵集，評估現有 AI 檢測 API 的準確性，或用於過濾低品質 AI 生成內容。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-openai-gpt-6-sol-luna",
+    "title": "OpenAI 發布 GPT-6 Sol 與 Luna 模型",
+    "title_original": "Introducing GPT-6 Sol and Luna",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+    "published_at": "2026-09-22T18:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 推出 GPT-6 Sol 與 Luna 兩款模型，主打不同能力與成本平衡，定位為將前沿智慧帶入日常工作場景的實用選擇。Sol 傾向高效運算，Luna 強調深度推論，開發者可依任務需求靈活切換。",
+    "highlights": [
+      "GPT-6 Sol 主打高效能與低延遲，適合即時回應場景",
+      "GPT-6 Luna 強調複雜推論能力，適用深度分析任務",
+      "兩款模型皆支援 GPT-6 家族統一 API 接口",
+      "成本與效能提供不同組合，預期比 GPT-6 Astra 有更明顯的價位差異",
+      "目前已可在 OpenAI API 平台上調用"
+    ],
+    "why_it_matters": "模型家族細分代表 OpenAI 正式進入多層次商業化佈局。技術團隊可針對不同任務選擇合適模型，預期可有效控制 API 呼叫成本，同時獲得更好的延遲或推論表現。",
+    "automation_angle": null,
+    "automation_angle_zh": "將現有工作流程程中的簡單問答遷移到 Sol 模型，複雜推論任務使用 Luna，透過成本監控對比實際節省幅度。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-22-claude-opus-5-5-github-copilot",
+    "title": "Claude Opus 5.5 正式進駐 GitHub Copilot",
+    "title_original": "Claude Opus 5.5 is now available in GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot",
+    "published_at": "2026-09-22T17:10:23+00:00",
+    "category": "new-models",
+    "summary": "Anthropic最新旗艦模型Claude Opus 5.5已在GitHub Copilot上線，號稱更適合代理式編碼、長期代理任務與知識工作。早期測試顯示其在長上下文任務上有提升，Copilot用戶可直接切換模型。",
+    "highlights": [
+      "Claude Opus 5.5已登陸GitHub Copilot",
+      "主打代理式編碼與長期任務場景",
+      "可直接在Copilot介面切換使用",
+      "官方Changelog已確認，非傳聞",
+      "可用於需要複雜推論的開發任務"
+    ],
+    "why_it_matters": "Copilot用戶現在可以直接用Claude Opus 5.5而不需切換工具，對需要高推論能力程式碼任務的開發者是直接利好。",
+    "automation_angle": null,
+    "automation_angle_zh": "在Copilot設定中切換至Claude Opus 5.5，針對大型重構或需要多步推論的任務評估其與預設模型的差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-22-langsmith-ai",
+    "title": "LangSmith 在醫療 AI 領域的可靠性應用案例",
+    "title_original": "The Reliability Layer for Healthcare AI: Common LangSmith Use Cases",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/reliability-healthcare-ai-langsmith-use-cases",
+    "published_at": "2026-09-22T17:08:51+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方部落格介紹 LangSmith 如何幫助醫療 AI 團隊將臨床審查轉化為可重複使用的評估器、資料集與發布閘門，以提升 AI 在生產環境中的安全性與可靠性。這是將 LLM 觀測工具應用於高風險場景的實務參考。",
+    "highlights": [
+      "臨床審查流程轉化為自動化評估器",
+      "支援建立測試資料集與版本管理",
+      "作為生產發布的品質閘門",
+      "適用於高風險 AI 應用的合規需求",
+      "展示企業級 AI 監控實務"
+    ],
+    "why_it_matters": "如果你正在構建需要可靠性保障的 AI 代理系統，LangSmith 的這些功能提供可借鑒的監控與品質控制框架，即使是醫療以外的場景也適用。",
+    "automation_angle": null,
+    "automation_angle_zh": "即使不從事医疗 AI，也可將 LangSmith 的 evaluator 和 release gate 概念應用於你的代理專案，建立自動化的回歸測試與部署審批流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-22-github-copilot-gpt-6-sol-luna",
+    "title": "GitHub Copilot 同步支援 GPT-6 Sol 與 Luna",
+    "title_original": "OpenAI’s GPT-6 Sol and GPT-6 Luna now available",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available",
+    "published_at": "2026-09-22T17:00:14+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 宣佈接入 GPT-6 Sol 與 GPT-6 Luna 模型，成員可透過 Copilot 選單自由切換不同 GPT-6 子模型。此更新讓 Copilot 用戶能直接體驗新版模型在程式碼生成與對話上的差異。",
+    "highlights": [
+      "Copilot 用戶無需額外設定即可使用新模型",
+      "Sol 模型預期提供更快的程式碼補全速度",
+      "Luna 模型可能更適合複雜的程式架構建議",
+      "模型切換選單位於 Copilot 設定頁面",
+      "與 GitHub Enterprise 訂閱整合，企業用戶優先使用"
+    ],
+    "why_it_matters": "開發者現在可在日常 IDE 環境中直接比較 GPT-6 家族成員的表現，選擇最適合當前任務的模型。這也是評估模型實際coding能力的最便捷途徑。",
+    "automation_angle": null,
+    "automation_angle_zh": "在大型重構任務中嘗試 Luna，平時簡單任務使用 Sol，透過實際使用感受建立模型選擇的量化標準。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-22-laya-openvino-int8-cpu-flappy-bird",
+    "title": "Laya 模型透過 OpenVINO INT8 在 CPU 上玩 Flappy Bird",
+    "title_original": "Laya model playing Flappy Bird on a CPU using OpenVINO INT8 inference",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnf4q2/laya_model_playing_flappy_bird_on_a_cpu_using/",
+    "published_at": "2026-09-22T16:59:39+00:00",
+    "category": "open-source-ai",
+    "summary": "有開發者在 Reddit 分享 Laya 模型在 CPU 上使用 OpenVINO INT8 量化推論執行 Flappy Bird 遊戲的範例，展示了輕量級模型在邊緣設備上的即時推論可能性。INT8 量化可大幅降低計算資源需求，讓消費級 CPU 也能運行簡單的視覺語言模型任務。",
+    "highlights": [
+      "Laya 模型採用 INT8 量化透過 OpenVINO 優化",
+      "可在純 CPU 環境運行，無需 GPU",
+      "即時視覺推論展示邊緣部署潛力",
+      "Flappy Bird 作為概念驗證展示延遲表現",
+      "為資源受限場景提供模型優化參考"
+    ],
+    "why_it_matters": "INT8 量化讓中小型模型在無 GPU 環境下達到可接受的推論速度，工程師可用此技術降低部署成本，特別適合物聯網或嵌入式系統場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術宅可參考此範例，用 OpenVINO 對自訂模型做 INT8 量化，在 Intel CPU 或邊緣設備上測試延遲與精確度取捨，找出成本最優的部署方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-opencode",
+    "title": "為 OpenCode 打造的快取友好上下文壓縮插件",
+    "title_original": "I built a cache-friendly context compacting plugin for OpenCode",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnedrc/i_built_a_cachefriendly_context_compacting_plugin/",
+    "published_at": "2026-09-22T16:32:16+00:00",
+    "category": "agent-skills",
+    "summary": "開發者發布了一款針對 OpenCode 的快取友好上下文壓縮插件，旨在優化長上下文處理時的記憶體使用與速度表現。該插件透過更智慧的上下文管理策略減少冗餘計算，讓代理在處理大型程式碼庫時更加高效。",
+    "highlights": [
+      "專為 OpenCode 設計的上下文壓縮方案",
+      "減少長程式碼庫處理的記憶體消耗",
+      "提升代理工具的反應速度",
+      "屬於可即時安裝測試的工具",
+      "開源可取用，有助開發者工作流程優化"
+    ],
+    "why_it_matters": "上下文長度限制與成本是當前 AI 編碼工具的主要痛點。此插件提供實際的緩解方案，讓技術用戶在處理大型專案時能維持流暢體驗，降低 token 消耗。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即安裝此插件到你的 OpenCode 環境，在處理超過 32K token 的專案時觀察記憶體佔用與回應速度變化，評估其對日常工作流程的實際幫助。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-llm-typesafe-0-1a0-typesafe-ai-jev",
+    "title": "llm-typesafe 0.1a0 插件支援 TypeSafe AI Jev 模型",
+    "title_original": "llm-typesafe 0.1a0",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+    "published_at": "2026-09-22T15:54:16+00:00",
+    "category": "open-source-ai",
+    "summary": "Simon Willison 發布 llm-typesafe 插件，為 LLM 命令列工具新增 TypeSafe AI Jev 模型支援。Jev 模型專注於結構化輸出，支援 yes/no、choice、score 三種回答類型，適合需要嚴格格式控制的自動化場景。",
+    "highlights": [
+      "Jev 模型支援 noul 類型，輸出簡單的 0-1 數值",
+      "支援 choice 類型，可指定多選項輸出格式",
+      "支援 score 類型，根據criteria提供評分",
+      "透過 LLM 插件機制快速整合",
+      "API key 需至 TypeSafe AI 官網申請，目前排隊速度加快"
+    ],
+    "why_it_matters": "結構化輸出是 AI 自動化的關鍵能力。Jev 模型的明確類型設計可減少後端解析邏輯，降低工程師處理非結構化回應的成本，適合需要高可靠性的自動化流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "將需要結構化判斷的工作（如分類、風險評分）遷移到 Jev 模型，測試其輸出穩定性與延遲，評估替換通用模型的可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-22-conferllm-mcp-cli",
     "title": "conferllm：支援圖片與持久對話的MCP/CLI工具",
     "title_original": "feiskyer/conferllm",
@@ -251,6 +665,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/135627235?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-openai",
+    "title": "OpenAI 公布第三方評估優先原則",
+    "title_original": "Priorities and principles for effective third party assessments",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/priorities-principles-third-party-assessments",
+    "published_at": "2026-09-22T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布第三方 AI 安全評估的優先事項與原則文件，旨在建立嚴謹、獨立且安全的模型評估框架。內容強調評估機構需具備充分技術能力，並對評估結果保密。",
+    "highlights": [
+      "明確要求第三方評估機構須具備獨立技術資質",
+      "評估範圍涵蓋前沿模型能力與安全防護機制",
+      "強調評估結果保密協議，防止模型弱點外流",
+      "建立優先評估領域清單，包括 reasoning 能力與 Agents 行為",
+      "為監管機構與企業採購提供參考標準"
+    ],
+    "why_it_matters": "AI 安全評估標準化是產業走向合規的關鍵一步。技術決策者需關注此框架，因它將影響未來模型選型與企業內部 AI 治理政策的制定方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "在評估自家 AI 應用的安全合規性時，可參考此框架建立內部評估清單，並要求模型供應商提供對應的安全報告。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-09-22-jev",
@@ -7450,6 +7892,34 @@
     "automation_angle_zh": "建立自有的代理運行時基準測試，評估目標框架在長時間任務、工具串接失敗恢復與並發處理下的表現，作為技術選型依據。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-22-2026-11-ai",
+    "title": "2026 年 11 款最佳無代碼 AI 代理建構工具精選",
+    "title_original": "11 best no-code AI agent builders in 2026 - Hostinger",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE83MnhxbmpGclQ5ZnVQWGFkUkd4WUJtUWdjcWtrWXI3S2dlV1JFWGphc3ZURno4UE9Bd256UmJ0UmJkbWdmQnB1aFpFY29YdVdvQWJ5czBjZVBaZ1hScnpJZGo2eUZxQmlXS2poV2JRZnBodw?oc=5",
+    "published_at": "2026-09-11T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Hostinger 發布了一份 2026 年無代碼 AI 代理建構工具列表，但屬於行銷導向清單文章，缺乏深度技術評析或實際效能數據。對於技術用戶而言參考價值有限，不建議作為採購決策依據。",
+    "highlights": [
+      "行銷導向的清單式內容",
+      "缺乏技術深度與效能數據",
+      "不適合作為工具選型依據",
+      "僅供初步了解市場概況",
+      "建議優先查看開源社群實際反饋"
+    ],
+    "why_it_matters": "清單型文章通常過度包裝，技術決策應基於實際 benchmark、價格透明度與社群口碑，而非排名推薦。建議繞過此類內容直接測試有興趣的工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "不要浪費時間閱讀此類清單，直接訪問感興趣工具的 GitHub、官方文件或 r/LocalLLaMA、r/ChatGPT 等社群查看真實用戶評價與實際使用案例。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
