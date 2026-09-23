@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-09-23-everything-mcp-voidtools-everything-mcp-ai-agent",
+    "title": "everything-mcp：voidtools Everything 的 MCP 伺服器，AI Agent 閃電級檔案搜尋",
+    "title_original": "elis132/everything-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/elis132/everything-mcp",
+    "published_at": "2026-09-23T10:20:47Z",
+    "category": "agent-skills",
+    "summary": "everything-mcp 為 voidtools Everything 索引引擎的 MCP 伺服器實作，提供 AI Agent 所需的高速檔案系統搜尋能力。Python 実装、目前僅 20 顆星，為新興工具。",
+    "highlights": [
+      "基於 voidtools Everything 的 NTFS 快速索引",
+      "作為 MCP 協定伺服器與主流 Agent 框架整合",
+      "Python 語言實作，易於二次開發",
+      "星星數低，社群驗證程度有限",
+      "適合需要本機大量檔案檢索的 Agent 應用場景"
+    ],
+    "why_it_matters": "Agent 需要在龐大本機檔案中快速定位資料時，傳統 RAG 方案延遲高；Everything MCP 提供作業系統層級的毫秒級搜尋，大幅提升本地知識庫效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Windows 環境安裝 Everything + 此 MCP 伺服器，讓 Agent 能以自然語言搜尋本機檔案，省去手動翻找時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/54573456?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-lg-u-ai",
+    "title": "LG U+ 中秋連假推出 AI 內容訂閱優惠",
+    "title_original": "LG U+在中秋连休之际,將推出海外旅行、返乡、宅家等符合顾客情况的服务和打折優惠。 在海外提供漫游服务,對长期空置的家庭提供保安服务,對在家休息的顾客提供人工智慧(AI)和内容訂閱優惠。LG U+2.. - 매일경제",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5hV2RCTXR4VzRmdjJ3ZEVLRUIxR2wzd3NVelNiV1dkOFJZMFVHWWVnaGNqX1ZxYmhVdTZpcXg5NDdhTzkwNEpIdjRIYw?oc=5",
+    "published_at": "2026-09-23T06:39:17+00:00",
+    "category": "ai-deals",
+    "summary": "LG U+ 宣布中秋連假期間針對宅家顧客提供 AI 與內容訂閱服務優惠，涵蓋影視、串流等娛樂內容，結合 AI 推薦功能吸引用戶。",
+    "highlights": [
+      "LG U+ 推出中秋連假限定優惠",
+      "針對宅家場景提供內容訂閱折扣",
+      "結合 AI 推薦服務提升用戶體驗",
+      "涵蓋影視、串流等多元內容",
+      "韓國電信業的 AI 應用促銷案例"
+    ],
+    "why_it_matters": "此案例反映電信業者如何透過 AI 服務綁定內容訂閱，為 AI 變現模式提供參考，但對技術開發者直接價值有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可研究其 AI 推薦系統的實現方式，評估是否可借鑒用於自己的內容平台或個人化工具。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-reddit-open-webui-open-terminal",
+    "title": "Reddit 討論：open-webui 與 open-terminal 整合思路",
+    "title_original": "open-webui and open-terminal thoughts",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnwkyk/openwebui_and_openterminal_thoughts/",
+    "published_at": "2026-09-23T05:01:20+00:00",
+    "category": "agent-skills",
+    "summary": "LocalLLaMA 社群熱烈討論 open-webui 與 open-terminal 的整合可能性，用戶分享如何將開源 Web UI 與終端工具結合，打造更流暢的本地 AI 工作流程程。",
+    "highlights": [
+      "open-webui 提供本地 LLM 的圖形化介面",
+      "open-terminal 強調終端環境整合",
+      "社群探索兩者協作的實用場景",
+      "涉及 API 串接與工作流程自動化",
+      "可提升開發者與 AI 互動效率"
+    ],
+    "why_it_matters": "對於需要頻繁與本地模型互動的開發者，整合 Web UI 與終端可大幅簡化操作流程，減少在不同工具間切換的時間成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可嘗試串接 open-webui 與 open-terminal，建立一站式本地 AI 開發環境，自動化例行測試與模型評估流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-agentic-engineering",
+    "title": "舊金山十月十四日：Agentic Engineering 鳥會交流聚會",
+    "title_original": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
+    "published_at": "2026-09-23T02:53:19+00:00",
+    "category": "hot-topics",
+    "summary": "Simon Willison 與 Jesse Vincent 將於十月十四日在舊金山主持一場非正式 Agentic Engineering 鳥會，聚焦於 Coding Agent 的早期實驗、未完成專案與另類嘗試，屬技術社群交流活動。",
+    "highlights": [
+      "Simon Willison 主辦，為 AI 技術圈知名 KOL",
+      "形式為鳥會（Birds of a Feather）+ 展示交流",
+      "不歡迎產品推廣，聚焦早期探索與失敗經驗",
+      "適合對 Agentic AI 有興趣的開發者建立社群連結",
+      "地點為舊金山，需親自參與"
+    ],
+    "why_it_matters": "Agentic Engineering 仍屬早期領域，社群間的口耳相傳與經驗交流往往比公開文章更有價值，是掌握業界實際痛點與趨勢的絕佳場合。",
+    "automation_angle": null,
+    "automation_angle_zh": "無法親臨者可追蹤 Simon Willison 部落格（原文連結），此類活動事後常發表摘要或觀察報告，遠端獲取資訊。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-23-jev-ultrafast-mcp-cdp-agent-tool-call",
     "title": "jev-ultrafast-mcp：CDP 驅動的極速瀏覽器 Agent 工具，一個 Tool Call 完成整個流程",
     "title_original": "jiawei686/jev-ultrafast-mcp",
@@ -34092,6 +34205,34 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/263196991?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-meta-ai-muse-glimmer",
+    "title": "Meta AI 推出 Muse Glimmer：可在裝置上運行的開源代理模型",
+    "title_original": "Introducing Muse Glimmer: An Open Agentic Model That Runs on Your Device - Meta AI",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1uSnpDYTQ3SXZwemhINXpka1laM2Fzb1llTGtUQWNQdld4NTRidnNNX19BS0VsYVdPMWJjTjFJa3M4U1Z0a0d0Sm5VbVA2b3RSMkZXeFF1T21NRGhkUzhKWDhoTkx2cTNmeDVwOC1oWGRNWXZ4d0JCbkxiV3N2UQ?oc=5",
+    "published_at": "2026-08-10T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Meta AI 發布 Muse Glimmer，這是一款可在個人裝置上運行的開源代理模型，標誌著端側 AI 能力的重大進展。此模型支援本地部署，無需雲端連接即可執行代理任務，為隱私敏感場景提供新選擇。",
+    "highlights": [
+      "Meta AI 正式發布 Muse Glimmer 開源代理模型",
+      "支援在個人裝置上離線運行",
+      "定位為端側 AI 代理解決方案",
+      "開源許可，方便研究與商業應用",
+      "強調隱私保護與本地化處理能力"
+    ],
+    "why_it_matters": "端側代理模型降低對雲端的依賴，對在意資料隱私的企業或開發者極具吸引力。這也是 Meta 在開源 AI 領域持續投入的信號。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可下載 Muse Glimmer 在本地環境測試，評估其代理任務能力與硬體需求，決定是否用於私有化部署場景。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -79204,6 +79345,34 @@
     "automation_angle_zh": "盤點現有基於 Llama 的自建專案，評估遷移到其他開源模型（如 Mistral、Qwen）的技術成本，並關注 Llama 4 的實際開源範圍公告。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-tech-insider-org-claude-agent-sdk-2026",
+    "title": "tech-insider.org：Claude Agent SDK 十一步驟九十分鐘實作指南（2026）",
+    "title_original": "How to Use the Claude Agent SDK: 11 Steps, 90 Min [2026] - tech-insider.org",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YZXFjRFJfVGRBbF9vVkd4OTdRODNIbEVIMERYMjE5UHVCNGpuTXNxREw0bFA4TnN3ZmxZVU9NQWRISFFLYVVncVR2MndhcWRnN2JNeTdhNXhDMHROV3pZNV9WRllmbjV6RHBQbVhR?oc=5",
+    "published_at": "2026-06-14T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "tech-insider.org 發布一篇號稱九十分鐘完成 Claude Agent SDK 實作的教程，教學目標為 Anthropic Claude 的 Agent 開發能力，但來源為第三方技術部落格而非官方文件。",
+    "highlights": [
+      "號稱十一個步驟涵蓋 Claude Agent SDK 核心概念",
+      "標示 2026 年但內容真實性需讀者驗證",
+      "來源為 tech-insider.org，技術圈口碑與官方文件相對有限",
+      "可能比官方文件更易讀，但不保證最新版本同步",
+      "可作為入門參考但不應作為唯一學習來源"
+    ],
+    "why_it_matters": "Claude Agent SDK 是當前主流 Agent 開發框架之一，系統化學習有助於建立標準化 Agent 開發流程；但教程品質與版本時效性需自行把關。",
+    "automation_angle": null,
+    "automation_angle_zh": "先以此教程快速建立概念框架，再以 Anthropic 官方文件交叉驗證，確保 API 用法與最新 SDK 版本同步。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
