@@ -1,5 +1,203 @@
 [
   {
+    "id": "2026-09-23-jev-ultrafast-mcp-cdp-agent-tool-call",
+    "title": "jev-ultrafast-mcp：CDP 驅動的極速瀏覽器 Agent 工具，一個 Tool Call 完成整個流程",
+    "title_original": "jiawei686/jev-ultrafast-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jiawei686/jev-ultrafast-mcp",
+    "published_at": "2026-09-23T02:26:05Z",
+    "category": "agent-skills",
+    "summary": "jev-ultrafast-mcp 是一個由決策模型驅動的 MCP 伺服器，直接透過 CDP（Chrome DevTools Protocol）操控瀏覽器頁面。傳統瀏覽器 Agent 每個點擊都消耗一個 Tool Call，jev-ultrafast-mcp 將整個操作流程壓縮至單次呼叫，並支援零模型宏回放。",
+    "highlights": [
+      "• CDP 直連瀏覽器，繞過傳統 UI 自動化框架",
+      "• 決策模型一次規劃完整操作序列",
+      "• 支援 Ref 元素表與程式碼檢查斷言",
+      "• 零模型 Macro 回放，大幅節省 Token 消耗",
+      "• Python 実装，僅 13 stars，仍屬早期項目"
+    ],
+    "why_it_matters": "瀏覽器操作是 GUI 自動化的核心場景，每次點擊一個 Tool Call 的開銷在大量操作時不可忽視。jev-ultrafast-mcp 的設計若穩定，將是批量網頁任務的利器。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Python 環境安裝 jev-ultrafast-mcp，用一個 Tool Call 完成表單填寫、登入、資料抓取等完整瀏覽器流程，實測 CDP 驅動的穩定性與錯誤率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/12953093?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-dm-lite-ai-agent-rust",
+    "title": "dm-lite：為主流 AI Agent 打造的統一記憶後端（Rust 実装）",
+    "title_original": "wakbijok/dm-lite",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/wakbijok/dm-lite",
+    "published_at": "2026-09-23T02:21:01Z",
+    "category": "agent-skills",
+    "summary": "dm-lite 是用 Rust 撰寫的輕量級 Agent 記憶系統，支援 Hermes、Codex、Claude Code、OpenCode、Devin 等主流 Agent，採用本地或遠端二進制部署，提供混合關鍵詞與向量檢索的雙時態記憶機制。",
+    "highlights": [
+      "• Rust 実装，效能與記憶體效率佳",
+      "• 支援主流 Agent 框架的記憶持久化",
+      "• 雙時態索引提升檢索精確度",
+      "• 混合關鍵詞+向量檢索平衡速度與品質",
+      "• 開源且星數尚低（17 stars），有早期參與價值"
+    ],
+    "why_it_matters": "Agent 的長期記憶一直是落地難題，dm-lite 以單一二進制提供統一解決方案，若能在你的 Agent 中穩定運作，可省去自建記憶層的開發成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "今天即可用 Docker 部署 dm-lite，為你的 Claude Code 或 Devin 工作流程添加持久記憶，觀察跨對話的上下文復原效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/101164030?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-github-copilot-opentelemetry",
+    "title": "GitHub Copilot 應用支援 OpenTelemetry 可觀測性框架",
+    "title_original": "OpenTelemetry in the GitHub Copilot app",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app",
+    "published_at": "2026-09-23T02:14:54+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 桌面應用現已支援 OpenTelemetry（OTel）企業托管配置，讓開發者能追蹤 Copilot 代理的效能與模型互動。這是提升 AI 輔助開發可調試性的重要一步。",
+    "highlights": [
+      "支援 OTel 配置，可輸出追蹤、指標與日誌",
+      "企業可通過托管設置統一管理可觀測性",
+      "有助於分析代理決策路徑與延遲瓶頸",
+      "強化 DevOps 與 AI 工具鏈整合",
+      "符合開源可觀測性標準"
+    ],
+    "why_it_matters": "當 Copilot 代理在複雜任務中失敗或產出異常時，OTel 支援讓開發者能精確定位問題環節，而非只能猜測模型行為。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可將 Copilot OTel 資料接入 Grafana 或 Datadog，自動監控代理成功率並建立效能基線，進而優化提示詞。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-23-github-copilot-for-jetbrains-1-18-0",
+    "title": "GitHub Copilot for JetBrains 1.18.0 新增組織共享技能與工具審批",
+    "title_original": "New features and improvements in Copilot for JetBrains",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains",
+    "published_at": "2026-09-23T00:34:18+00:00",
+    "category": "agent-skills",
+    "summary": "JetBrains IDE 的 Copilot 插件迎來 1.18.0 更新，新增 AI 輔助工具審批流程與組織級別共享技能，讓團隊可統一管理代理行為規範。",
+    "highlights": [
+      "AI 輔助工具審批可控制代理的危險操作",
+      "支援組織共享技能與自訂指示",
+      "可通過 Codex 審查代理執行計畫",
+      "強化企業級安全合規需求",
+      "提供更細粒度的代理對話控制"
+    ],
+    "why_it_matters": "隨著 Copilot 代理能力增強，企業需要防止代理執行未授權操作（如刪除檔案或呼叫外部 API）。新功能讓安全團隊能主動審批而非事後補救。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可定義組織級技能庫，讓新成員自動獲得統一的前置處理流程，並對敏感操作設定需人工確認的門檻。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-23-lg-uplus",
+    "title": "LG Uplus 中秋加碼優惠涵蓋漫遊、智慧家居與訂閱服務",
+    "title_original": "LG Uplus中秋加码使用者福利，涵盖漫游、智能家居和訂閱優惠 - 디지털투데이",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSGNvcWlqTGJCQk5XMWV6VE0wOTJwT2NQZW9ldVdqMmI1MWc1SUVuRVYyMlN0czEwUlF6Z0cyckN0U2FPN0Fvd2dOXzJWN1d4UmFZcTBlWmk2N1JGQkRwY2Q2S25xbHNaX2U5am1LZTZUXy0tVFRZSHJsYWNnZjVuSjdpUko3TUhKdDBjeGJ4Tl9XREtLNVBSeW9Bd21WNjNQODFqcHRLVmlHWGRlM0hkTTF0SQ?oc=5",
+    "published_at": "2026-09-23T00:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "韓國電信商 LG Uplus 公布中秋節用戶優惠，包含國際漫遊折扣、智慧家居設備補助與影音訂閱服務加碼，為消費者提供節慶福利。",
+    "highlights": [
+      "國際漫遊資費優惠",
+      "智慧家居設備搭配折扣",
+      "影音串流訂閱加碼內容",
+      "屬於電信業者季節性行銷活動",
+      "與 AI 技術本身關聯有限"
+    ],
+    "why_it_matters": "此優惠屬於電信行銷活動，非 AI 技術或產品層面的新聞。對於關注 AI 工具、模型能力或開發自動化的技術讀者，實用價值較低。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可略過此條新聞，除非其工作涉及智慧家庭物聯網平台整合，此時可評估 Uplus API 的合作機會。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-gpt-6-luna-0-10-m-claude-opus-5-5-20",
+    "title": "GPT-6 Luna 掀價格戰：輸入費暴跌至 $0.10/M、Claude Opus 5.5 降價 20%",
+    "title_original": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+    "published_at": "2026-09-22T23:46:41+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 發布 GPT-6 Sol 與 GPT-6 Luna，後者以 $0.10/$0.50（百萬 tokens）的極低定價震撼市場。Anthropic 同步將 Claude Opus 5.5 降價 20%，快取讀取費暴跌 60%。AI 模型定價進入新一輪激烈競爭。",
+    "highlights": [
+      "GPT-6 Luna 輸入費 $0.10/M，輸出 $0.50/M，為 OpenAI 史上最低價之一",
+      "GPT-6 Sol 輸入 $2/M、輸出 $10/M，較 GPT-5.6 Sol 腰斬",
+      "Claude Opus 5.5 降至 $4/$20，約便宜 20%",
+      "快取讀取費大降 60%，對長對話代理場景影響顯著",
+      "Haiku 5.5 即將推出，需重新評估低價位競爭力"
+    ],
+    "why_it_matters": "GPT-6 Luna 的定價讓建構高流量 AI 應用的成本大幅下降，長時代理對話的快取成本優勢尤其明顯。技術決策者需重新審視模型選擇與成本模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 GPT-6 Luna 替換現有昂貴模型處理簡單任務（如分類、路由），將省下的費用用於更多 API 調用或更高階模型處理複雜任務。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-23-copilot-cli-c",
+    "title": "Copilot CLI C++ 全代碼庫索引加速程式碼智慧功能",
+    "title_original": "Faster C++ code intelligence with whole codebase indexing",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-22-faster-c-code-intelligence-with-whole-codebase-indexing",
+    "published_at": "2026-09-22T22:24:48+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot CLI 針對 C++ 大型代碼庫推出全代碼庫索引功能，大幅加速跨百萬行程式碼的語義理解與建議生成。",
+    "highlights": [
+      "支援數百萬行 C++ 跨檔案的上下文理解",
+      "解決深層 include 依賴的索引效率問題",
+      "加速代碼補全與重構建議生成",
+      "改善大型企業 C++ 專案的開發體驗",
+      "降低代理在陌生 C++ 專案中的誤判率"
+    ],
+    "why_it_matters": "C++ 開發者長期受制於工具對複雜專案的效能限制。新功能讓 Copilot 能真正理解大型 C++ 專案結構，而非只能依賴當前檔案上下文。",
+    "automation_angle": null,
+    "automation_angle_zh": "處理大型 C++ 專案的開發者可啟用全代碼庫索引，在重構或添加新功能時更快獲得準確的依賴關係建議，減少人工查閱頭檔案的時間。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-22-gpt-6-prompt",
     "title": "GPT-6 強化 Prompt 快取機制",
     "title_original": "Better prompt caching for GPT-6",
@@ -111,6 +309,34 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-llm-0-36-gpt-6-sol-luna",
+    "title": "llm 0.36 發布：新增 GPT-6 Sol/Luna 模型支援與對話限制機制",
+    "title_original": "llm 0.36",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/22/llm/",
+    "published_at": "2026-09-22T18:48:37+00:00",
+    "category": "open-source-ai",
+    "summary": "llm 0.36 版本發布，正式支援 OpenAI 新模型 gpt-6-sol 與 gpt-6-luna。模型插件系統新增 supports_conversation 屬性，僅支援單次 prompt 的模型可明確聲明相容性，嘗試傳送對話歷史時會觸發 ConversationNotSupported 例外錯誤。輸出格式方面，reasoning traces 現在以 <details> 標籤折疊呈現，提升日誌可讀性。",
+    "highlights": [
+      "gpt-6-sol 與 gpt-6-luna 模型現已內建支援，可直接指定使用",
+      "模型可聲明 supports_conversation = False，強化類型安全與早期錯誤偵測",
+      "ConversationNotSupported 例外可在 session 啟動前阻擋，節省 API 呼叫成本",
+      "推論追蹤以折疊方式呈現，減少日誌視覺雜訊",
+      "5 位新貢獻者參與，包含多項錯誤修正"
+    ],
+    "why_it_matters": "單次 prompt 模型與對話模型的分流機制已落地，開發者可在插件層級聲明模型限制，避免無效 API 呼叫與成本浪費，對 CLI 自動化工作流程有直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在插件中為僅支援 single-turn 的模型（如特定 GPT-6 variant）設定 supports_conversation = False，讓 llm chat 在送出請求前自動拒絕，結合腳本實現模型分流與錯誤處理自動化。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-09-22-invisible-playwright-mcp-31k",
@@ -239,6 +465,34 @@
     "automation_angle_zh": "將現有工作流程程中的簡單問答遷移到 Sol 模型，複雜推論任務使用 Luna，透過成本監控對比實際節省幅度。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-23-llm-anthropic-0-29-claude-opus-5-5",
+    "title": "llm-anthropic 0.29 新增 Claude Opus 5.5 支援",
+    "title_original": "llm-anthropic 0.29",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+    "published_at": "2026-09-22T17:14:55+00:00",
+    "category": "open-source-ai",
+    "summary": "Simon Willison 的開源工具 llm-anthropic 發布 0.29 版本，正式支援 Claude Opus 5.5 模型，方便命令行調用 Anthropic 模型。",
+    "highlights": [
+      "可通過 llm -m claude-opus-5.5 直接調用",
+      "屬於開源 CLI 工具生態",
+      "統一介面管理多模型調用",
+      "可快速切換不同模型進行比較測試",
+      "支援本地或雲端部署的靈活調用"
+    ],
+    "why_it_matters": "llm 工具鏈讓開發者能在本地快速比較不同模型輸出，結合 Opus 5.5 的降價，對需要經濟實惠 Claude API 調用的場景有吸引力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可整合 llm 到 CI/CD 流程中，自動執行模型輸出回歸測試，確保新模型版本不破壞現有功能。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
@@ -527,6 +781,34 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/85809106?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-openai-gpt-6-astra-parallel",
+    "title": "OpenAI 官方：GPT-6 Astra 讓 Parallel 研究時間與成本減半",
+    "title_original": "Parallel cut research time and cost in half with GPT‑6 Astra",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+    "published_at": "2026-09-22T12:00:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 官方部落格報導，GPT-6 Astra 使 Parallel 的 Agent 在研究與整合勞動市場資料時，速度與成本均較先前模型降低約一半，展示出明顯的效率提升。",
+    "highlights": [
+      "• 官方來源，可信度高",
+      "• 研究與合成任務時間減半",
+      "• 成本同步下降約 50%",
+      "• 具體案例為勞動市場資料分析",
+      "• 顯示 Astra 版本在成本效益上的突破"
+    ],
+    "why_it_matters": "若 GPT-6 Astra 確實能將研究任務成本減半，對需要大量 API 呼叫的工作流程（如競品分析、資料彙整）影響深遠，直接關係到 AI 工具的 ROI。",
+    "automation_angle": null,
+    "automation_angle_zh": "監控 OpenAI 是否開放 Astra 版本 API，用實際任務測試成本與速度，評估是否值得遷移現有自動化研究流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
