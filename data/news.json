@@ -1,5 +1,144 @@
 [
   {
+    "id": "2026-09-23-lemonade-amd-apu-vulkan-rocm-40",
+    "title": "Lemonade 修復 AMD APU 模型串流：Vulkan 比 ROCm 快 40 倍",
+    "title_original": "Lemonade fixes AMD APU model streaming, drops OpenMOSS ROCm as ~40x slower than Vulkan",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wogzdm/lemonade_fixes_amd_apu_model_streaming_drops/",
+    "published_at": "2026-09-23T20:16:51+00:00",
+    "category": "agent-skills",
+    "summary": "開發者 Lemonade 修復了 AMD APU 上的模型串流問題，決定棄用 OpenMOSS ROCm 支援。實測顯示 Vulkan 推論速度約為 ROCm 的 40 倍。此優化對使用 AMD 整合顯卡的本地 AI 用戶意義重大，可大幅提升性價比。",
+    "highlights": [
+      "AMD APU 用戶現在可穩定串流本地模型",
+      "Vulkan 後端效能顯著優於 ROCm OpenMOSS 分支",
+      "修復涉及記憶體管理與算子優化",
+      "對於 Ryzen 8000G 系列 APU 用戶是直接利好",
+      "社群已驗證穩定性與效能提升"
+    ],
+    "why_it_matters": "AMD APU 用戶長期受 ROCm 生態折騰，如今找到高效替代方案。若你在用帶 Vega/RDNA 整合顯卡的 AMD 處理器，這次修復能讓你的本地 AI 推論快上數十倍。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 AMD APU 的技術用戶應更新 Lemonade 至最新版本，切換至 Vulkan 後端。可將此優化整合至自動化本地 AI 推論流程，針對批量文件處理或持續監控任務測試吞吐量提升幅度。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-bfl-flux-3-action-7b",
+    "title": "BFL 發布 FLUX 3 Action：7B 機器人模型",
+    "title_original": "BFL releases FLUX 3 Action: a 7B robot model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wod7l0/bfl_releases_flux_3_action_a_7b_robot_model/",
+    "published_at": "2026-09-23T17:56:52+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社區討論 BFL（Black Forest Labs）發布的 FLUX 3 Action 模型，據稱為 70 億參數的機器人控制模型。模型具體架構、訓練數據與效能表現等關鍵資訊尚不明確，需進一步驗證。",
+    "highlights": [
+      "資訊來源為 Reddit 社區討論，獨立驗證有限",
+      "模型參數規模宣稱為 70 億",
+      "專注於機器人動作控制任務",
+      "BFL 此前以 FLUX 圖像生成模型聞名",
+      "模型發布細節、許可協議尚待確認"
+    ],
+    "why_it_matters": "70 億參數的機器人控制模型若屬實，可能為本地部署的機器人 AI 應用提供新選擇。但目前資訊不足，需觀望後續發展。",
+    "automation_angle": null,
+    "automation_angle_zh": "對機器人控制有興趣的開發者可追蹤後續消息，待模型發布後评估其在本地部署的可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-gemini-3-8-tts-playground-2000-30",
+    "title": "Gemini 3.8 TTS Playground上線，2000+語音庫與30秒音色克隆",
+    "title_original": "Gemini 3.8 TTS Playground",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+    "published_at": "2026-09-23T17:12:27+00:00",
+    "category": "agent-skills",
+    "summary": "Google發布Gemini 3.8 TTS模型（gemini-3.8-flash-tts與gemini-3.8-flash-lite-tts），內建超過2000種音色，並支援僅用30秒音訊樣本即可克隆自訂音色。Simon Willison以vibe coding方式快速建置Bring Your Own Key的Playground介面。",
+    "highlights": [
+      "提供2000+預設音色，涵蓋多語言與風格",
+      "30秒音訊即可克隆自訂音色，降低品牌語音門檻",
+      "支援多角色對話設定，各角色可指定不同音色與風格指令",
+      "Flash版本生成1分18秒音訊約2.74美分，成本可控",
+      "提供CORS開放政策，便於快速整合至自架應用"
+    ],
+    "why_it_matters": "Gemini 3.8 TTS的低成本、高音色彈性與易整合特性，可大幅降低有聲內容、客服語音、品牌語音等場景的自動化門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可直接使用Playground測試音色，或透過API整合至客服機器人、有聲文件生成、課程配音等自動化流程。建議先用Flash-Lite版本測試成本效益。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-23-pi-agent-qwen-3-8-flash-2",
+    "title": "Pi Agent 結合 Qwen 3.8 Flash 遊玩柏德之門 2",
+    "title_original": "Pi agent qwen 3.8 flash next plays Baldur's Gate 2",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wob8ej/pi_agent_qwen_38_flash_next_plays_baldurs_gate_2/",
+    "published_at": "2026-09-23T16:44:15+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit 社區有開發者展示 Pi Agent 搭配 Qwen 3.8 Flash 模型遊玩經典 RPG 遊戲《柏德之門 2》的演示。展示 AI Agent 在複雜遊戲環境中的決策與執行能力，但模型版本與實際表現尚未經獨立驗證。",
+    "highlights": [
+      "展示 Qwen 3.8 Flash 模型與 Pi Agent 的組合",
+      "測試場景為《柏德之門 2》經典 RPG 遊戲",
+      "考驗 AI Agent 在開放式遊戲環境的決策能力",
+      "Reddit 展示影片未經獨立第三方驗證",
+      "Qwen 3.8 Flash 可能為阿里通義千問的新版本"
+    ],
+    "why_it_matters": "此展示暗示開源模型在 Agent 應用場景的潛力。若 Qwen 3.8 Flash 確實具備此能力，可能為本地部署遊戲 AI 或自動化任務提供新的模型選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "有興趣的開發者可在模型正式發布後，嘗試用其自動化遊戲測試或其他複雜決策流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-shadow-roots-simon-willison-fable-5-1-artifact",
+    "title": "Shadow Roots 技術解析：Simon Willison 展示 Fable 5.1 互動Artifact能力",
+    "title_original": "Shadow roots, explained with live examples",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
+    "published_at": "2026-09-23T16:37:18+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 在其 AI Notes 中發布文章，透過 Fable 5.1 建立互動式Artifact解釋 Shadow DOM 概念，展示 AI 工具可即時生成含互動範例的技術說明頁面。",
+    "highlights": [
+      "Shadow DOM 為 Web Components 核心技術，實現 DOM 封裝與樣式隔離",
+      "Fable 5.1 能將自然語言 Prompt 直接轉換為可運作的互動範例",
+      "Simon Willison 持續記錄 AI 工具在技術寫作場景的實際應用",
+      "此類 Artifact 生成能力對技術文件自動化有意義"
+    ],
+    "why_it_matters": "展示 AI 工具可即時生成互動式技術說明，若此流程成熟，技術寫作與文件生成門檻將大幅降低，工程師可直接用 Prompt 產出可內嵌示範。",
+    "automation_angle": null,
+    "automation_angle_zh": "工程師可用類似 Prompt 模式讓 Fable 5.1 自動生成含互動範例的技術文件，直接嵌入內部 Wiki 或產品文件，省去手動建立 Demo 的時間。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-23-openai-academy-ai",
     "title": "OpenAI Academy 兩週年：AI 技能培訓持續擴展",
     "title_original": "Two years of OpenAI Academy",
@@ -222,6 +361,90 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-23-ringg-gpt-5-6-65",
+    "title": "Ringg利用GPT-5.6自動化客服通話，成功處理率達65%",
+    "title_original": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/ringg",
+    "published_at": "2026-09-23T12:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Ringg採用GPT-5.6驅動多語言AI代理，支援語音、聊天、WhatsApp、網頁等渠道。官方數據顯示其可自動處理65%客服來電，成本較GPT-4.1降低90%。",
+    "highlights": [
+      "GPT-5.6模型驅動，支援全渠道客服互動",
+      "自動處理65%客服來電，減少人工介入需求",
+      "多語言支援，適用全球化客服場景",
+      "成本較前代降低90%，具明顯經濟效益",
+      "官方OpenAI Blog背書，可信度較高"
+    ],
+    "why_it_matters": "65%自動處理率與90%成本削減的組合，顯示AI客服已具備規模化落地條件。對於客服密集型企業，此數據可作為評估ROI的參考基準。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業技術團隊可參考Ringg的自動化率與成本數據，評估自建客服AI代理時的模型選擇與預期效益。建議以65%自動處理率作為POC目標對標。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-harvey-ai-gpt-6-astra",
+    "title": "Harvey法律AI借助GPT-6 Astra提升文件結構化與上下文感知能力",
+    "title_original": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+    "published_at": "2026-09-23T12:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Harvey Legal AI整合GPT-6 Astra，針對法律文件產出進行優化。官方案例顯示，新模型能產生更結構化、上下文更準確的法律文件，讓律師專注策略性工作而非文書校對。",
+    "highlights": [
+      "GPT-6 Astra賦能，提升法律文件產出品質",
+      "強調上下文感知，減少文件遺漏與錯誤",
+      "結構化輸出有利後續審閱與修訂流程",
+      "釋放律師時間專注高價值策略工作",
+      "官方OpenAI Blog案例，可信度较高"
+    ],
+    "why_it_matters": "法律文件AI從通用生成走向領域深度優化。GPT-6 Astra在長上下文與結構化輸出上的進步，可能預示企業級AI Agent的專業化方向。",
+    "automation_angle": null,
+    "automation_angle_zh": "法律科技從業人員可評估GPT-6 Astra在合約審閱、法規追蹤、訴訟文書等場景的自動化潛力。建議以結構化輸出能力作為評估重點。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-invideo-gpt-6-astra",
+    "title": "invideo 藉 GPT-6 Astra 實現色彩調校效率三倍提升",
+    "title_original": "How invideo improves color grading 3x with GPT‑6 Astra",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+    "published_at": "2026-09-23T12:00:00+00:00",
+    "category": "new-models",
+    "summary": "invideo 分享其使用 GPT-6 Astra 改進影片後製流程的案例，宣稱色彩校正與調校效率提升三倍，並可在一天內產生 50 種自訂效果。此為 OpenAI 官方部落格報導的應用實例，但缺乏獨立驗證。",
+    "highlights": [
+      "GPT-6 Astra 應用於影片編輯的色彩校正環節",
+      "宣稱效率提升 3 倍，但數據來源為廠商自述",
+      "一天內可產生 50 種自訂視覺效果",
+      "為 OpenAI 官方部落格發布的個案研究",
+      "GPT-6 Astra 的多模態能力似乎包含影片分析"
+    ],
+    "why_it_matters": "此案例暗示 GPT-6 Astra 可能具備影片理解與處理的多模態能力。對影像/影片相關工作感興趣的技術人員可留意後續獨立測試結果。",
+    "automation_angle": null,
+    "automation_angle_zh": "影片後製團隊可關注 GPT-6 Astra 在色彩處理任務上的實際表現，考虑將其整合进自動化影片处理管線。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-23-everything-mcp-voidtools-everything-mcp-ai-agent",
     "title": "everything-mcp：voidtools Everything 的 MCP 伺服器，AI Agent 閃電級檔案搜尋",
     "title_original": "elis132/everything-mcp",
@@ -248,6 +471,62 @@
       "Python"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/54573456?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-openai-mentalhealthbench",
+    "title": "OpenAI 推出 MentalHealthBench 心理健康對話評測基準",
+    "title_original": "Introducing MentalHealthBench",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/introducing-mentalhealthbench",
+    "published_at": "2026-09-23T10:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布 MentalHealthBench，這是一個由專家建構的評測基準，用於衡量 AI 在現實心理健康對話中的回應安全性與幫助性。此基准填補了現有一般對話評測無法捕捉心理支援場景特殊需求的缺口。",
+    "highlights": [
+      "由心理健康領域專家參與建構，確保評測內容的臨床相關性",
+      "評測重點在「安全性」與「幫助性」的平衡",
+      "可用於比較不同模型在敏感場景的表現差異",
+      "OpenAI 官方發布，代表其對模型安全性的重視",
+      "對開發心理健康相關 AI 應用的團隊有直接參考價值"
+    ],
+    "why_it_matters": "此評測基准的出现表明 AI 業界開始正視模型在敏感場景的表現。開發心理健康相關應用的技術團隊可據此評估與比較不同模型的適用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "若正在開發心理支援相關應用，可使用 MentalHealthBench 比較 GPT 系列模型與其他選擇的表現差異，作為技術決策的參考依據。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-engram-2b",
+    "title": "Engram 2B 模型更新來襲：輕量級本地模型新選擇",
+    "title_original": "Engram gone wild! 2b model update...",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wnzu2f/engram_gone_wild_2b_model_update/",
+    "published_at": "2026-09-23T08:08:35+00:00",
+    "category": "open-source-ai",
+    "summary": "Engram 2B 模型迎來重大更新，社群反應熱烈。這個僅 20 億參數的本地語言模型專為資源受限環境設計，更新後在多項基準測試中有所提升。對於想在筆電或嵌入式設備上跑本地 AI 的技術愛好者，這是值得關注的輕量級選擇。",
+    "highlights": [
+      "模型參數量僅 2B，適合在消費級硬體上運行",
+      "更新後在程式碼生成與數學推論基準有所改善",
+      "可直接下載至本地，無需雲端 API 費用",
+      "支援 llama.cpp 量化格式，降低記憶體需求",
+      "適合邊緣運算和隱私敏感場景"
+    ],
+    "why_it_matters": "本地執行 AI 模型可完全掌控資料隱私，且無 API 調用成本。2B 規模兼顧效能與資源消耗，是技術宅實驗本地 AI 的實惠切入點。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 Engram 2B 整合至自動化腳本，處理文案生成、資料整理等輕量任務，完全脫離雲端依賴。建議用 llama.cpp 量化至 Q4_K_M 格式後測試延遲與品質平衡。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -419,6 +698,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-23-airbnb-gpt-6-astra-openai",
+    "title": "Airbnb 擴大 GPT-6 Astra 與 OpenAI 前沿模型的使用範圍",
+    "title_original": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/airbnb-gpt-6-astra",
+    "published_at": "2026-09-23T01:00:00+00:00",
+    "category": "new-models",
+    "summary": "Airbnb 宣布將 GPT-6 Astra 及 OpenAI 前沿模型開放給更廣大的工程團隊使用，據稱可加速錯誤修復、系統設計與產品交付。此為 OpenAI 官方部落格發布的企業合作案例，行銷性質較強，但透露了模型存取政策的最新動態。",
+    "highlights": [
+      "Airbnb 工程團隊使用 GPT-6 Astra 輔助錯誤排查與系統設計",
+      "OpenAI 前沿模型的使用門檻似乎正在降低或擴大",
+      "此為 OpenAI 官方部落格報導的企業成功案例",
+      "具體效能數據與成本節省數字未揭露",
+      "模型版本命名為「GPT-6 Astra」尚未見於其他官方文件"
+    ],
+    "why_it_matters": "OpenAI 持續透過企業案例推廣其旗艦模型，了解大廠如何整合 GPT-6 Astra 可評估該模型在真實軟體開發工作流程的應用潛力。",
+    "automation_angle": null,
+    "automation_angle_zh": "工程團隊可參考 Airbnb 的應用場景，評估將 GPT-6 Astra 整合進現有 bug 追蹤或程式碼審查流程的可行性。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-09-23-github-copilot-for-jetbrains-1-18-0",
