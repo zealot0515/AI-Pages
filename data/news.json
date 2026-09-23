@@ -1,5 +1,227 @@
 [
   {
+    "id": "2026-09-23-openai-academy-ai",
+    "title": "OpenAI Academy 兩週年：AI 技能培訓持續擴展",
+    "title_original": "Two years of OpenAI Academy",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/two-years-of-openai-academy",
+    "published_at": "2026-09-23T16:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "OpenAI 慶祝 Academy 計劃運行兩年，強調其將 AI 技能帶入更廣泛社群的承諾。該計劃持續提供開發者與組織 AI 應用培訓資源。",
+    "highlights": [
+      "標誌 OpenAI 教育計劃兩年里程碑",
+      "持續擴展 AI 技能培訓覆蓋範圍",
+      "提供開發者與組織實用學習資源",
+      "與 GO Forward 等計劃形成培訓網絡"
+    ],
+    "why_it_matters": "對技術管理者而言，了解 OpenAI 的教育投資方向有助於評估其生態系成熟度與潛在合作機會。",
+    "automation_angle": null,
+    "automation_angle_zh": "瀏覽 OpenAI Academy 官方教材，評估其課程深度，判斷是否可作為團隊內部 AI 培訓的參考框架。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-hkex-filing-scraper-mcp",
+    "title": "hkex-filing-scraper：港交所監管文件 MCP 爬蟲工具",
+    "title_original": "simonplmak-cloud/hkex-filing-scraper",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/simonplmak-cloud/hkex-filing-scraper",
+    "published_at": "2026-09-23T15:44:39Z",
+    "category": "agent-skills",
+    "summary": "開源工具可爬取港交所 25 年以上的監管文件，輸出至 PostgreSQL、MySQL、MariaDB、SQLite、MongoDB、Neo4j、ClickHouse、DuckDB 或 SurrealDB，並提供全文提取、圖譜連結與托管 MCP 伺服器。",
+    "highlights": [
+      "支援 8 種主流資料庫直接匯入",
+      "涵蓋 25 年以上港交所監管文件",
+      "提供全文提取與語義圖譜連結",
+      "內建 MCP 伺服器供 AI 代理查詢",
+      "Python 實作，GitHub 星標 16 顆"
+    ],
+    "why_it_matters": "金融資料分析與量化研究高度依賴監管文件。此工具簡化資料取得流程，結合 MCP 協定可讓 AI 代理直接查詢港交所歷史監管資訊。",
+    "automation_angle": null,
+    "automation_angle_zh": "研究人員可架設 hkex-filing-scraper，定時同步港交所資料至本地資料庫，並透過 MCP 介面讓 AI 代理快速檢索法規變化與公司重大公告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/246365505?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-jev-seo-rust-seo-geo-cli-mcp",
+    "title": "jev-seo：Rust 實作 SEO/GEO CLI 與 MCP 伺服器",
+    "title_original": "AkashPriyadarshii/jev-seo",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/AkashPriyadarshii/jev-seo",
+    "published_at": "2026-09-23T15:44:25Z",
+    "category": "agent-skills",
+    "summary": "jev-seo 是一款 Rust 開發的 SEO 與 GEO 稽核 CLI 工具，同時作為 MCP 伺服器提供給編碼代理使用，內建 50 條稽核規則、直播爬取、地理排名評分與 CI 閘道功能。",
+    "highlights": [
+      "MIT 授權，零訂閱費用",
+      "50 條 SEO 稽核規則涵蓋常見優化點",
+      "支援 GEO（地理優化）分數計算",
+      "可作為 MCP 伺服器供 AI 代理呼叫",
+      "Rust 實作預期高效能低資源消耗"
+    ],
+    "why_it_matters": "SEO 稽核工具結合 MCP 協定，可直接整合進 AI 代理工作流程。Rust 實作確保高效能，適合需要自動化網站健康檢查的開發團隊。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 jev-seo MCP 工具接入 AI 代理，在 CI/CD 流程中自動執行 SEO 稽核並生成優化建議報告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/272530059?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-gemini-3-8",
+    "title": "Gemini 3.8 文字轉語音功能上線",
+    "title_original": "Gemini 3.8 text-to-speech says hello",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+    "published_at": "2026-09-23T15:25:14+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 推出 Gemini 3.8 版本的文字轉語音能力，強化多模態模型的音頻輸出功能。此更新顯示 Google 持續完善 Gemini 系列的語音互動體驗。",
+    "highlights": [
+      "Gemini 3.8 新增文字轉語音能力",
+      "強化 Gemini 系列多模態語音互動",
+      "來自 Google DeepMind 官方公告",
+      "代表模型能力實質更新而非行銷公關"
+    ],
+    "why_it_matters": "對於需要語音合成能力的開發者，Gemini 3.8 的 TTS 功能可能提供比純 API 呼叫更整合的解決方案，值得評估其質量與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "申請 Gemini 3.8 測試資格或查閱官方文件，比較其 TTS 輸出質量與現有方案（如 ElevenLabs、Azure TTS）的差異。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-blind-navigation-ai",
+    "title": "blind_navigation：視障者 AI 導航開源專案",
+    "title_original": "wink-wink-wink555/blind_navigation",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/wink-wink-wink555/blind_navigation",
+    "published_at": "2026-09-23T15:05:15Z",
+    "category": "agent-skills",
+    "summary": "一款結合即時影片分析與語音導航的開源方案，旨在提升視障者行動能力。內建多代理 AI 助理，支援自然語音操控地圖導航、系統設定與家庭訊息傳送。",
+    "highlights": [
+      "即時影片分析搭配語音指導導航",
+      "多代理 AI 助理處理自然語音指令",
+      "支援地圖導航與系統設定調整",
+      "可向家人發送即時訊息通知",
+      "開源 MIT 授權，Python 實作"
+    ],
+    "why_it_matters": "此專案展示 AI 代理在無障礙領域的實際應用潛力，其多代理協作架構可作為建構語音控制自動化流程的技術參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可研究其多代理架構設計，將語音指令解析與任務路由機制移植至其他自動化助理專案。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/187242264?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-github-copilot-app",
+    "title": "GitHub Copilot App 新增本地沙箱隔離功能",
+    "title_original": "Local sandboxing in the GitHub Copilot app",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
+    "published_at": "2026-09-23T15:00:57+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 桌面應用推出本地沙箱模式，可限制代理操作對本機檔案、網絡資源與憑證的存取權限，降低意外執行危險指令的風險。",
+    "highlights": [
+      "本地沙箱限制 Copilot 代理的系統存取",
+      "可配置檔案、網絡、憑證的隔離範圍",
+      "提升代理工作流程程的安全性",
+      "適用於 Copilot 桌面應用環境"
+    ],
+    "why_it_matters": "對使用 AI 代理處理程式碼的開發者，沙箱功能是安全自動化的關鍵基礎，可更放心地讓 Copilot 執行複雜任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Copilot App 設定中啟用本地沙箱模式，測試代理程式碼生成對系統資源的實際存取行為，驗證安全邊界。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-23-space-bunny-opencode",
+    "title": "Space Bunny：OpenCode 新隱形多模態模型曝光",
+    "title_original": "Space Bunny is the new stealth model in OpenCode. Free to try, multimodal",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wo81si/space_bunny_is_the_new_stealth_model_in_opencode/",
+    "published_at": "2026-09-23T14:47:21+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社區發現名為 Space Bunny 的新型隱形模型已登陸 OpenCode 平台，支援多模態功能且提供免費試用。具體技術規格尚未完全揭露。",
+    "highlights": [
+      "Space Bunny 模型現身 OpenCode 平台",
+      "支援多模態輸入輸出",
+      "提供免費試用選項",
+      "模型詳細規格尚待社群驗證"
+    ],
+    "why_it_matters": "社群驅動的模型發現往往早於官方公告，技術愛好者可第一時間參與測試，但需謹慎對待未經驗證的效能聲明。",
+    "automation_angle": null,
+    "automation_angle_zh": "前往 OpenCode 平台嘗試 Space Bunny 的 API 或本地部署版本，實測其多模態能力與回應速度。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-openai",
+    "title": "OpenAI 向烏克蘭政府提供網絡防禦支援",
+    "title_original": "OpenAI extends cyber access to Ukraine for civilian defense",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+    "published_at": "2026-09-23T13:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 擴大 Daybreak 計劃，向烏克蘭政府提供網絡防禦工具，協助保護民用關鍵基礎設施。此舉代表 AI 公司直接參與實體衝突區的資安支援。",
+    "highlights": [
+      "Daybreak 計劃首次擴展至主權國家政府",
+      "目標為保護民用關鍵基礎設施",
+      "涉及網絡防禦相關 AI 工具",
+      "反映 AI 安全性應用的政策轉向"
+    ],
+    "why_it_matters": "此案例揭示 AI 在關鍵基礎設施防禙的實際應用場景，對關注 AI 安全與地緣政治影響的技術決策者具參考意義。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注 Daybreak 計劃的技術細節（如有公佈），評估其防禦工具的能力範圍與限制。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-23-everything-mcp-voidtools-everything-mcp-ai-agent",
     "title": "everything-mcp：voidtools Everything 的 MCP 伺服器，AI Agent 閃電級檔案搜尋",
     "title_original": "elis132/everything-mcp",
@@ -250,6 +472,33 @@
       "ai-deals",
       "rss",
       "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-23-grab-openai-ai",
+    "title": "Grab 與 OpenAI 合作推動東南亞 AI 技能普及",
+    "title_original": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+    "published_at": "2026-09-23T00:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Grab 與 OpenAI 宣佈 GO Forward with AI 計劃，目標在東南亞培訓 30,000 個合作夥伴的實用 AI 技能。此區域性倡議聚焦於將 AI 整合至 Grab 生態系的日常業務流程。",
+    "highlights": [
+      "預計惠及 30,000 個東南亞商業合作夥伴",
+      "專注於 Grab 生態系內的實用 AI 應用",
+      "結合 OpenAI 技術與 Grab 區域網絡",
+      "屬於 OpenAI Academy 延伸項目之一"
+    ],
+    "why_it_matters": "此合作顯示 AI 技能培訓正從歐美擴展至新興市場，對想在東南亞拓展業務或尋找合作機會的技術團隊具參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可研究 Grab 的 API 文件與 AI 整合範例，評估將類似技能培訓模式應用於自己的合作夥伴生態系。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
