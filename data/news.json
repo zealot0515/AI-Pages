@@ -1,5 +1,142 @@
 [
   {
+    "id": "2026-09-24-polymarket-paper-trader-ai-agent-polymarket-mcp",
+    "title": "polymarket-paper-trader：專為 AI Agent 設計的 Polymarket 模擬交易 MCP 工具",
+    "title_original": "agent-next/polymarket-paper-trader",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/agent-next/polymarket-paper-trader",
+    "published_at": "2026-09-24T01:49:23Z",
+    "category": "agent-skills",
+    "summary": "polymarket-paper-trader 是一款模擬交易工具，內建 MCP 伺服器與 live order books，支援策略回測。397 Stars，Python 開發，可透過 npx clawhub install 一鍵安裝。適合想用 Agent 自動分析或執行預測市場的技術玩家。",
+    "highlights": [
+      "MCP 伺服器：標準 Model Context Protocol 介面，方便與主流 Agent 框架整合",
+      "Live order books：即時市場數據，區別於純歷史數據回測",
+      "策略回測：內建回測引擎，可驗證交易策略有效性",
+      "一鍵安裝：npx clawhub install，技術門檻低",
+      "社區活躍度：397 Stars 顯示有一定關注度但非主流工具"
+    ],
+    "why_it_matters": "預測市場數據饋入 Agent 決策鏈是相對新穎的應用方向；若能穩定整合，可用於構建基於群眾情緒的自動化交易或研究流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝後將 MCP 端點接入自有的 Agent 框架，測試「讀取 Polymarket 市場數據 → 執行策略回測 → 產生交易訊號」的完整閉環。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/259980060?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-24-snake-eval",
+    "title": "社群回顧：蛇形模型評估測試（Snake Eval）",
+    "title_original": "Do y'all remember the snake model evaluation test?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1woo52a/do_yall_remember_the_snake_model_evaluation_test/",
+    "published_at": "2026-09-24T01:18:52+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 社區回顧早期用於評估大型語言模型的「蛇形測試」（Snake Eval），該測試透過簡單的遊戲任務檢驗模型的推論與執行能力。",
+    "highlights": [
+      "Snake Eval 是早期 LLM 評估方法之一",
+      "透過遊戲任務檢驗模型推論與執行能力",
+      "屬於社群懷舊討論，非最新模型動態",
+      "可供了解模型評估演進歷史"
+    ],
+    "why_it_matters": "了解歷史評估方法有助理解當代理性基準測試的演進，但此話題本身對當前開發工作流程直接幫助有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "可作為自定義模型評估的靈感，設計針對特定工作流程的專屬測試用例。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-item",
+    "title": "社群討論：無審查模型可降低工作流程程摩擦",
+    "title_original": "Using uncensored models makes working less of a headache",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wol7zc/using_uncensored_models_makes_working_less_of_a/",
+    "published_at": "2026-09-23T23:08:47+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit LocalLLaMA 社群討論指出，使用無審查（uncensored）模型能減少工作流程程中的摩擦，尤其在需要模型提供直接技術回應的場景下，避免過度保守的內容過濾。",
+    "highlights": [
+      "無審查模型在技術輔助場景下減少回應限制",
+      "開發者可獲取更直接的程式碼建議與技術分析",
+      "需自行承擔使用無審查模型的風險與責任",
+      "適合本地部署且對輸出靈活性有需求的開發者"
+    ],
+    "why_it_matters": "對於需要模型提供無保留技術建議的開發者，無審查模型可提升工具實用性，但需評估合規與安全風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "本地部署無審查模型可作為企業內部輔助工具，自主控制輸出範圍與審核機制。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-anthropic-claude-opus-5-5",
+    "title": "Anthropic 針對 Claude Opus 5.5 推出實驗性用量限制重置功能",
+    "title_original": "Claude 也推出实验性用量限制重置，配合 Opus 5.5 發布 - Pasquale Pillitteri",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaEZLNmZRSkp4NXdkbjgwamxfWnFoRy1JV2Z0Qmd0WFpTUkxSYTBZM3RuQ2RXWnJXQUxCYTl4M21mZnRKbzVHbDBPZjJfcDlfUjdaRVJnRDFKUEFteFA2ampyVEtYSndOTzhoYU9EaG9YdmFBa0tBN0stemRWV2ZYRlNnZlo4MlJtdXdTYmQ2a19tdUdmY1ZxWlNR?oc=5",
+    "published_at": "2026-09-23T22:10:19+00:00",
+    "category": "ai-deals",
+    "summary": "Claude Opus 5.5 發布時同步推出實驗性用量限制重置功能，用戶可更彈性管理 API 使用量。此功能尚在實驗階段，具體機制與限制需以官方公告為準。",
+    "highlights": [
+      "Claude Opus 5.5 伴隨推出實驗性用量限制重置功能",
+      "旨在提供用戶更彈性的 API 用量管理選項",
+      "功能仍屬實驗性質，正式上線時間未定",
+      "具體重置機制與限制需以 Anthropic 官方說明為主"
+    ],
+    "why_it_matters": "用量限制重置功能可能為重度使用者提供更靈活的額度管理方式，降低因達到限制而中斷工作流程的風險，值得關注後續正式公告。",
+    "automation_angle": null,
+    "automation_angle_zh": "若正式上線，自動化腳本可更從容地處理長時任務，無需過度擔憂中途觸發用量限制。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-github-copilot",
+    "title": "GitHub Copilot 程式碼審查新增個人化配置選項",
+    "title_original": "More ways to request and configure Copilot code reviews",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews",
+    "published_at": "2026-09-23T21:25:58+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 程式碼審查功能現已支援更多個人化配置選項，並擴展至更多 Copilot 方案等級，同時提供企業層級的預設設定。此功能現已全面開放給使用者。",
+    "highlights": [
+      "Copilot 程式碼審查支援個人化配置，可依需求調整審查深度與風格",
+      "功能已擴展至更多 Copilot 方案等級，覆蓋範圍更廣",
+      "新增企業層級預設設定，方便管理員統一規範",
+      "功能已全面開放（GA）"
+    ],
+    "why_it_matters": "程式碼審查是開發工作流程的核心環節，個人化配置可讓開發者依團隊需求自訂審查深度與風格，提高審查效率與一致性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在 PR 流程中自動觸發 Copilot 程式碼審查，根據團隊 Coding Standard 自動生成審查意見，減少人工審查負擔。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-09-23-lemonade-amd-apu-vulkan-rocm-40",
     "title": "Lemonade 修復 AMD APU 模型串流：Vulkan 比 ROCm 快 40 倍",
     "title_original": "Lemonade fixes AMD APU model streaming, drops OpenMOSS ROCm as ~40x slower than Vulkan",
@@ -438,6 +575,34 @@
     "automation_angle_zh": "影片後製團隊可關注 GPT-6 Astra 在色彩處理任務上的實際表現，考虑將其整合进自動化影片处理管線。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-sam-altman-ai",
+    "title": "Sam Altman 聯合國安理會發言：AI 安全與國際監管框架信號",
+    "title_original": "Sam Altman’s remarks at the United Nations Security Council",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+    "published_at": "2026-09-23T12:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Sam Altman 以 OpenAI CEO 身份在聯合國安理會發表演說，強調 AI 安全性、人類控制與國際合作必要性。屬政策層面信號而非產品技術公告，對技術用戶的直接實用價值有限，但可作為判斷未來監管走向的參考依據。",
+    "highlights": [
+      "政策訊號：國際監管框架討論，可能影響未來 AI 產品與 API 的合規要求",
+      "安全論述：Altman 再次強調人類控制與安全開發優先",
+      "非技術公告：對日常開發或工具鏈選型無直接影響",
+      "長期參考價值：有助判斷大廠政策傾向與潛在監管壓力",
+      "低操作價值：不建議技術用戶投入過多閱讀時間"
+    ],
+    "why_it_matters": "監管訊號影響長期技術決策，但本次發言屬政策方向而非具體產品變化，技術用戶可保持關注但無需即時行動。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可存檔此類政策訊號作為季度技術策略審視的背景參考，若監管方向明確再評估合規需求。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -973,6 +1138,34 @@
     "automation_angle_zh": "待官方 repo 發布後，第一時間在本地測試其與現有開源模型（如 Stable Diffusion 系列）的品質對比，評估替換可行性。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-anthropic-claude-opus-5-5-agent-fable-5-1-api",
+    "title": "Anthropic Claude Opus 5.5 發布：關鍵 Agent 基準測試超越 Fable 5.1，API 價格低六成",
+    "title_original": "Anthropic releases Claude Opus 5.5, beating Fable 5.1 on key agentic benchmarks at 60% cheaper API price - VentureBeat",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcml5V2NScmlDMmg0VXdZR3AyXzJlTHlzRnJ5S05mMHNxQ2ZjSmwwV2tVcWx5RXE4V3JJWWh3MXlKdXdlNno4MVAwaGdXcVVJYm9TNGx5bWgxZjM1dm1VR0ppRGNsRTVZc1UwVkJuRmIwLTFoYnJkUE9sU0taS3Z2dVd6X1VwMEc3SVlJNDhyWWtSMGdlRC01VGQ0bngtWDhLY2ZzSUU3SWFJcnNSRldWdnVHejRKdV9GOEhOUzNiUFFHQmd4Mko0ZjctT0k0STJzVm93?oc=5",
+    "published_at": "2026-09-22T19:05:41+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 發布 Claude Opus 5.5，據 VentureBeat 報導其在多項 Agent 能力基準測試中超越 Fable 5.1，且 API 標價較對手低約 60%。此價格調整若屬實將直接影響 Agent 應用的 API 成本結構，值得技術決策者重新評估模型選型。",
+    "highlights": [
+      "效能提升：多項 Agent 基準測試超越 Fable 5.1，具體數據需查閱官方報告",
+      "價格優勢：標稱比對手低 60%，若屬實將大幅壓低批量 Agent 任務成本",
+      "來源注意：目前來源為 VentureBeat 轉述，建議對照 Anthropic 官方定價頁",
+      "Agent 應用影響：性價比提升對長上下文、多步驟任務的商業化落地是利好",
+      "驗證必要性：需官方文件或第三方基準確認，避免被行銷數據誤導"
+    ],
+    "why_it_matters": "API 成本下降 60% 若獲官方確認，對需要大規模執行 Agent 任務的團隊是重大訊號，可能改變現有模型選型與成本模型的基礎假設。",
+    "automation_angle": null,
+    "automation_angle_zh": "待官方確認後，用同一測試集比較 Opus 5.5 與現用模型的成本 / 效能比，計算相同工作負載下的實際費用差異。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
