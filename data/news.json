@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-09-24-couplet-macos-markdown-ai-agent",
+    "title": "couplet：macOS 專用 Markdown 編輯器，支援 AI Agent 直接驅動",
+    "title_original": "malinborn/couplet",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/malinborn/couplet",
+    "published_at": "2026-09-24T20:49:40Z",
+    "category": "agent-skills",
+    "summary": "couplet 是一款 macOS 原生 Markdown 編輯器，內建 MCP Server 介面，讓 AI Agent 能直接操作檔案內容、回答注釋問題並即時預覽。目前僅 20 stars，屬新興專案。",
+    "highlights": [
+      "原生 macOS 應用，提供即時 Markdown 預覽",
+      "內建 MCP Server，Agent 可直接讀寫檔案與注釋",
+      "Agent 可回答檔案內嵌的注釋問題",
+      "TypeScript 實作，開發者易於擴展",
+      "新專案，生態成熟度與穩定性待觀察"
+    ],
+    "why_it_matters": "對技術寫作與文檔管理場景，couplet 提供一個讓 AI Agent 直接參與 Markdown 編輯的起點，但需注意專案年輕、風險較高。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其作為文件自動化助理的前端介面，讓 Agent 幫忙填充模板或校對 Markdown 內容。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/105677076?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-commit-rewriter-0-2",
+    "title": "commit-rewriter 0.2 發布：支援非預設分支",
+    "title_original": "commit-rewriter 0.2",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+    "published_at": "2026-09-24T20:06:53+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 發布 commit-rewriter 工具 0.2 版，最大更新為支援指定非預設分支進行 commit 自動重寫。使用者可透過 uvx commit-rewriter --branch other 指令對其他分支執行操作。",
+    "highlights": [
+      "使用 uvx 即可直接執行，無需本地安裝 Python 環境",
+      "新參數 --branch 允許指定任意分支進行 commit 處理",
+      "適用於清理長生命週期分支的 commit 歷史",
+      "工具定位於開發工作流程中的自動化小工具",
+      "作者 Simon Willison 持續維護且有詳細技術說明"
+    ],
+    "why_it_matters": "commit-rewriter 是可直接用於改善程式碼提交品質的实用工具，支援非預設分支大幅提升其靈活性，對有嚴格 commit 規範的團隊有直接幫助。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可立即執行 uvx commit-rewriter --branch feature/test 對特定分支的 commit 進行批量重寫測試，評估是否符合團隊的 commit message 規範。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-gemini-3-8-live",
+    "title": "Gemini 3.8 Live 發布：即時虛擬形象互動能力正式上線",
+    "title_original": "Introducing Gemini 3.8 Live with Live Avatar",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+    "published_at": "2026-09-24T16:20:39+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 官方部落格正式宣布 Gemini 3.8 支援 Live Avatar 模式，可實現即時虛擬形象驅動的語音對話互動。此為模型能力擴展的重要更新，屬官方發布內容。",
+    "highlights": [
+      "Gemini 3.8 新增 Live Avatar 即時虛擬形象模式",
+      "支援即時語音驅動虛擬角色進行對話",
+      "為 Google DeepMind 官方發布，可信度高",
+      "屬多模態能力延伸至即時視覺互動",
+      "具體 API 定價與可用地區待進一步查閱"
+    ],
+    "why_it_matters": "Live Avatar 功能將 Gemini 3.8 推向具身互動應用場景，對需要即時虛擬客服、培訓或展示的技術用戶具有直接價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估將 Gemini 3.8 Live Avatar 用於自動化客戶服務、教育演示或遠端協作流程中的虛擬代理場景。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-thinkingcap-3-8-27b-swift-3-8-27b-qwen-3-8-27b",
+    "title": "ThinkingCap 3.8-27B 對比 Swift 3.8-27B 與 Qwen 3.8-27B 基準測試",
+    "title_original": "ThinkingCap 3.8-27B vs. Swift 3.8-27B vs. Qwen 3.8-27B Benchmarks",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp5vqr/thinkingcap_3827b_vs_swift_3827b_vs_qwen_3827b/",
+    "published_at": "2026-09-24T16:11:15+00:00",
+    "category": "new-models",
+    "summary": "社群用戶發布三款同參數規模（3.8B-27B）的開源模型横評，涵蓋數學推論、程式碼生成與多語言理解等維度。初步數據顯示各模型在不同任務上各有優勢，選型需依實際使用場景決定。",
+    "highlights": [
+      "三款模型均為 3.8B-27B 參數規模，適合消費級 GPU 部署",
+      "ThinkingCap 在特定推論任務表現突出，Swift 回應速度較快",
+      "Qwen 3 系列在中英文混合任務保持一貫競爭力",
+      "基準測試涵蓋 MMLU、HumanEval、GSM8K 等主流標準",
+      "需注意社群基準測試可能缺乏嚴謹的評估控制"
+    ],
+    "why_it_matters": "同參數量級模型的實測比較可節省技術團隊的選型試錯時間，但社群基準測試的可重複性與評估嚴謹度需要自行驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可下載這三款模型，在自己的任務資料集上進行對等評估，而非完全依賴社群公布的 benchmark 數據做決策。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-24-langsmith-fine-tuning-smithtune-cli",
     "title": "LangSmith 推出 Fine-Tuning 與 SmithTune CLI 簡化模型微調流程",
     "title_original": "Introducing LangSmith Fine-Tuning",
