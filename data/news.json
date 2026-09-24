@@ -1,5 +1,282 @@
 [
   {
+    "id": "2026-09-24-langsmith-fine-tuning-smithtune-cli",
+    "title": "LangSmith 推出 Fine-Tuning 與 SmithTune CLI 簡化模型微調流程",
+    "title_original": "Introducing LangSmith Fine-Tuning",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langsmith-fine-tuning",
+    "published_at": "2026-09-24T15:50:30+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 官方 Blog 宣布 LangSmith Fine-Tuning 功能和 SmithTune CLI 工具，讓開發者無需自行建構資料管線，即可對模型進行後訓練微調，降低打造垂直領域專屬模型的門檻。",
+    "highlights": [
+      "SmithTune 是專為微調設計的 CLI，降低操作複雜度",
+      "內建資料處理邏輯，不必從頭寫 Pipeline",
+      "可對接 LangSmith 的監控與評估生態系",
+      "目標是讓非 ML 工程師也能微調模型",
+      "官方 LangChain Blog 發布，訊息直接可信"
+    ],
+    "why_it_matters": "以前微調需要會寫複雜的資料預處理，SmithTune 把這步自動化，讓更多團隊能快速做出符合業務需求的專業模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "試用 SmithTune CLI，用你的領域資料跑一次端到端微調流程，觀察微調後模型在你特定任務上的準確率是否明顯提升。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-langsmith-trajectories",
+    "title": "LangSmith Trajectories：代理會話的可讀性軌跡檢視功能",
+    "title_original": "Trajectories now in LangSmith: A readable view of every agent session",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langsmith-trajectories-tracing",
+    "published_at": "2026-09-24T15:48:00+00:00",
+    "category": "agent-skills",
+    "summary": "LangSmith 新增 Trajectories 視圖，將代理的複雜多步驟執行軌跡轉換為可對話的時序視圖。開發者可直接點擊每個步驟查看工具調用、模型輸出與狀態變化，大幅加速長時運行代理的除錯效率。",
+    "highlights": [
+      "將樹狀追蹤資料重新組織為可滾動的對話式時間軸",
+      "支援點擊跳轉至任意子步驟的完整輸入輸出",
+      "過濾雜訊節點，自動標記異常與錯誤步驟",
+      "與現有 LangSmith 追蹤、測試模組無縫整合",
+      "適合複雜多代理協作場景的端到端追蹤"
+    ],
+    "why_it_matters": "Agent 除錯最大挑戰是追蹤決策鏈。Trajectories 提供開發者急需的可讀性視圖，減少在 JSON 軌跡中手動爬梳的時間，將除錯週期從數小時縮短至分鐘級。",
+    "automation_angle": null,
+    "automation_angle_zh": "在開發除錯階段開啟 Trajectories 視圖監控代理行為；可在本地部署 LangSmith 開源版，用於無需雲端上傳的敏感企業代理專案追蹤。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-llama-cpp-agentic-workflow-cram-8192",
+    "title": "llama.cpp agentic workflow 請記得提高 -cram 參數（預設 8192 不夠用）",
+    "title_original": "PSA: llama.cpp -cram should be increased for agentic workflows (default is 8192)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp5668/psa_llamacpp_cram_should_be_increased_for_agentic/",
+    "published_at": "2026-09-24T15:44:52+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/LocalLLaMA 社區提醒，llama.cpp 的 -cram 參數預設值 8192 對於 Agent 流程容易造成上下文碎片化，建議提高以避免多步推論時的效能問題。這是本地跑 LLM 常見的坑。",
+    "highlights": [
+      "-cram 預設 8192 對 agentic 工作流程不足",
+      "太低的 -cram 會導致長上下文時效能下降",
+      "調高可改善多步推論、工具呼叫的穩定性",
+      "適用於任何用 llama.cpp 本地跑 LLM 的場景",
+      "Reddit 社群實測經驗，可信但仍建議自己驗證"
+    ],
+    "why_it_matters": "如果你的本地 AI Agent 常常在中間步驟變笨或發瘋，可能就是 -cram 太小了。這個小參數調對了能省下不少除錯時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "下次用 llama.cpp 起服務時，把 -cram 設成 16384 或更高，跑同一段 agentic 任務（例如多輪工具呼叫）對比是否有改善。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-langchain-managed-deep-agents-v0-8-http",
+    "title": "LangChain Managed Deep Agents v0.8：正式支援使用者自有憑證與 HTTP 通道",
+    "title_original": "Managed Deep Agents delivers a better user experience for agents in production",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langsmith-managed-deep-agents-whats-new",
+    "published_at": "2026-09-24T15:43:05+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 Managed Deep Agents 0.8 版，最大更新為支援使用者自有憑證與使用者層級記憶體，讓代理能在生產環境中安全存取個人化資源。新增 HTTP 通道、Slack 檔案傳輸及預建網頁搜尋工具，降低企業部署 AI Agent 的技術門檻。",
+    "highlights": [
+      "支援使用者自有 OAuth/API 憑證，代理可代使用者操作外部服務",
+      "使用者層級記憶體讓對話上下文跨 sessions 保留",
+      "HTTP Channels 提供標準化的事件驅動整合方式",
+      "Slack 檔案傳輸功能可直接在頻道中處理文件",
+      "預建網頁搜尋工具簡化即時資訊查詢流程"
+    ],
+    "why_it_matters": "將原本需要自行架構的代理安全機制、下游整合與記憶體管理整合為一站式方案，技術團隊可快速在生產環境中部署多租戶 Agent 服務，大幅節省維運成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在 LangChain Cloud 上部署一個代使用者操作 Gmail、Slack 的代理，並利用 HTTP 通道與內部系統 webhook 整合，實現例行任務自動化。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-langsmith-custom-apps",
+    "title": "LangSmith 推出 Custom Apps 功能：為代理數據打造自訂介面",
+    "title_original": "LangSmith Custom Apps: Build custom interfaces around your agent data",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langsmith-custom-apps",
+    "published_at": "2026-09-24T15:01:41+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 部落格宣布 LangSmith Custom Apps 功能正式上線，允許開發者圍繞 LangSmith 的代理追蹤資料建立自訂介面，並直接發布至工作區。該功能省去託管、身份驗證與權限管理的繁瑣設定，讓技術團隊能快速建構符合需求的監控或分析儀表板。",
+    "highlights": [
+      "支援以 LangSmith 追蹤資料為核心建構自訂 UI",
+      "內建託管、認證與權限機制，無需自行處理 DevOps",
+      "可直接發布至團隊工作區，簡化部署流程",
+      "預期降低代理監控工具的開發門檻"
+    ],
+    "why_it_matters": "對技術用戶而言，LangSmith Custom Apps 節省了自建監控儀表板的時間成本，能更專注於代理邏輯本身的優化，而非基礎設施維護。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可利用此功能快速建構代理效能監控面板，追蹤工具呼叫成功率與延遲，作為 CI/CD 流程中的一環。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-openjudgement-4b-jev-typesafe",
+    "title": "開發者釋出 OpenJudgement-4B：Jev/TypeSafe 的開源替代方案",
+    "title_original": "I built an open-weight alternative to Jev / TypeSafe - introducing OpenJudgement-4B (early preview)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp2xpn/i_built_an_openweight_alternative_to_jev_typesafe/",
+    "published_at": "2026-09-24T14:19:34+00:00",
+    "category": "open-source-ai",
+    "summary": "一位開發者在 Reddit 宣布推出 OpenJudgement-4B，這是一款開源權重的模型，作為 Jev 與 TypeSafe 商業產品的替代方案。該模型定位於程式碼判斷與類型安全相關任務，目前處於早期預覽階段。詳細的技術規格、訓練資料與評測數據尚未完整公開。",
+    "highlights": [
+      "瞄準程式碼品質判斷與類型推論任務",
+      "開源權重可供本地部署與微調",
+      "目前為 early preview，穩定性與效能尚未驗證",
+      "對標商業競品 Jev/TypeSafe，企圖提供免費替代"
+    ],
+    "why_it_matters": "開源程式碼判斷模型若達到可用水準，可幫助團隊在 CI/CD 流程中自動化程式碼審查，降低對商業 API 的依賴與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地環境安裝測試，將其整合至預提交鉤子或 CI 流程，評估是否能替代現有的程式碼品質檢查工具。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-langsmith-engine-v2",
+    "title": "LangSmith Engine v2 整合紅隊演練與代理自動化測試框架",
+    "title_original": "New in LangSmith Engine: red teaming and automated testing",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langsmith-engine-v2-redteam",
+    "published_at": "2026-09-24T14:18:05+00:00",
+    "category": "agent-skills",
+    "summary": "LangSmith Engine 第二版正式加入 Red Teaming 模組，支援對 AI Agent 進行主動式漏洞掃描與對抗性測試。同時推出自動化代理測試功能，可根據軌跡資料自動生成測試案例與斷言，加速品質驗證循環。",
+    "highlights": [
+      "Red Teaming 模組內建多種 Prompt Injection 與角色混淆攻擊向量",
+      "支援根據代理行為軌跡自動生成邊界條件測試案例",
+      "測試報告直接整合至 LangSmith 追蹤介面",
+      "可與 CI/CD 管線整合，設定閾值自動失敗构建",
+      "覆蓋工具調用迴圈、記憶體溢出與錯誤恢復等常見 Agent 失效模式"
+    ],
+    "why_it_matters": "Agent 生產化最大痛點是缺乏系統性測試方法。v2 將紅隊演練與自動化測試直接內建至觀測平台，讓團隊在部署前發現代理的決策缺陷與安全風險，避免上線後災難。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 CI pipeline 中加入 LangSmith Engine 測試步驟，每次 PR 自動跑紅隊掃描與 100 條自動化案例回歸，確保代理更新不會引入新失效模式。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-liquid-ai-lfm2-5-vl-dspark",
+    "title": "Liquid AI 發布 LFM2.5-VL-DSpark 加速視覺語言模型效能",
+    "title_original": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+    "published_at": "2026-09-24T14:08:57+00:00",
+    "category": "open-source-ai",
+    "summary": "Liquid AI 在 Hugging Face 發布 LFM2.5-VL-DSpark 技術文章，介紹其液態形式 Transformer 架構如何加速視覺語言模型的推論效率，並附上基準測試結果。具體數據需閱讀全文。",
+    "highlights": [
+      "液態形式 Transformer（LFM）架構是核心創新點",
+      "目標是提升視覺語言模型的推論速度",
+      "文章發布於 Hugging Face 官方 Blog，可信度高",
+      "有公開基準測試可供比較",
+      "可能支援本地部署或量化後運行"
+    ],
+    "why_it_matters": "視覺語言模型的推論速度往往是部署瓶頸，若 LFM2.5-VL-DSpark 能顯著加速，將影響邊緣裝置上的 AI 應用可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "閱讀 Hugging Face Blog 全文，下載模型權重，在本地或邊緣裝置上跑一波標準視覺問答基準，實測延遲是否有宣稱的提升。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-r9v-kva-qwen3-8-1-45-1-85",
+    "title": "R9V 更新：KVA 投影技術為 Qwen3.8 帶來 1.45-1.85 倍預填充加速",
+    "title_original": "R9V Update: Created and adopted KVA projections based on Deepseek V4.1 Flash + HySparse2/MiMo-V3 for Qwen3.8 Flash Next. This is a game changer for models that don't natively implement it. 1.45-1.85x speedup in prefill to 3k+ at a small deficit to perplexity. [2x R9700, 128GB DDR5]",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp2hqk/r9v_update_created_and_adopted_kva_projections/",
+    "published_at": "2026-09-24T14:02:24+00:00",
+    "category": "new-models",
+    "summary": "Reddit 技術社區分享 R9V 更新，將 DeepSeek V4.1 Flash 的 KVA（鍵值注意力）投影技術移植至 Qwen3.8 Flash Next，在 3k tokens 預填充階段實現 1.45 至 1.85 倍速度提升，困惑度損失極小。實驗環境使用 AMD R9 9700X 搭配 128GB DDR5。",
+    "highlights": [
+      "KVA 投影可套用於任何未原生實作該技術的模型",
+      "預填充階段 1.45-1.85x 加速，代價是極小困惑度損失",
+      "與 HySparse2/MiMo-V3 稀疏化技術結合效果更佳",
+      "目前僅有社區非官方實驗數據，缺乏獨立 Benchmark 驗證",
+      "硬體依賴 AMD 平台（128GB DDR5），記憶體需求較高"
+    ],
+    "why_it_matters": "預填充延遲是長上下文推論的主要瓶頸。若 KVA 投影可遷移至其他模型並經獨立驗證，將成為加速本地部署 LLM 的低成本方案，尤其適合需要即時回應的客服或編碼輔助場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地 GPU/CPU 推論伺服器上測試 KVA 投影對實際工作負載（如長文件摘要、批次嵌入生成）的延遲改善，以實測數據評估是否值得採用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-mac-studio-m5-ultra-96gb-m5-max-128gb-llm",
+    "title": "Mac Studio M5 Ultra 96GB 對決 M5 Max 128GB：本地 LLM 效能比較",
+    "title_original": "Mac Studio M5 Ultra 96GB vs M5 Max 128GB for local LLMs?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp2dmd/mac_studio_m5_ultra_96gb_vs_m5_max_128gb_for/",
+    "published_at": "2026-09-24T13:58:14+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 用戶針對蘋果新推出 Mac Studio 的 M5 Ultra（96GB 統一記憶體）與 M5 Max（128GB 統一記憶體）兩種配置，討論在本地部署大語言模型時的取捨。M5 Max 提供更大記憶體可載入更大的模型或批次，M5 Ultra 的優勢則在於多晶片互連帶來的更高頻寬。",
+    "highlights": [
+      "M5 Max 128GB 可一次載入更大模型（如 70B Q4）",
+      "M5 Ultra 96GB 頻寬更高，適合對延遲敏感的推論場景",
+      "用戶實際比較聚焦在性價比與功耗表現",
+      "尚未有官方或第三方完整 benchmark"
+    ],
+    "why_it_matters": "對於需要在 MAC 上跑本地模型的技術用戶，記憶體容量與頻寬的取捨直接影響可部署模型規模與推論速度，攸關工作流程程效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據自身模型大小需求選擇機型；若主要跑 34B 以下模型，M5 Max 128GB 更划算；若需要高吞吐量可選 Ultra。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-24-librechat-44k-chatgpt-agent-mcp",
     "title": "LibreChat 升級：44K 星開源 ChatGPT 替代品，強化 Agent 與 MCP 支援",
     "title_original": "LibreChat-AI/LibreChat",
@@ -107,6 +384,33 @@
     "automation_angle_zh": "等待 PR 合併後，在本地編譯測試版，建一個圖片描述自動化腳本，實測 Ling 3.0 VL 在無網路環境下的推論速度與品質。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-reddit-mac-m5-ultra-256gb",
+    "title": "Reddit 用戶呼籲：誰有 Mac M5 Ultra 256GB 實機跑分數據？",
+    "title_original": "Folks, have you purchased the Mac M5 Ultra with 256GB yet? We need serious benchmarks, because we only get YouTube clowns influencers results",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wovkw5/folks_have_you_purchased_the_mac_m5_ultra_with/",
+    "published_at": "2026-09-24T07:55:48+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 板塊有用戶發文抱怨，目前網路上僅有 YouTuber 或網紅的 Mac M5 Ultra 評測，缺乏工程師社群真正關注的大模型推論 benchmark 數據。該文呼籲已入手 M5 Ultra 256GB 的技術用戶分享實際跑分結果，以便評估本地部署大模型的性價比。",
+    "highlights": [
+      "用戶指出現有 M5 Ultra 評測缺乏技術社群需要的 deep dive",
+      "焦點在於本地 LLM 推論的 throughput 與延遲表現",
+      "期望有量化 benchmark 協助採購決策",
+      "反映了蘋果晶片在本地 AI 推論市場的關注度"
+    ],
+    "why_it_matters": "M5 Ultra 是目前蘋果陣營記憶體最大的晶片，技術用戶需要真實跑分判斷其是否能取代傳統 GPU 叢集進行本地模型推論。",
+    "automation_angle": null,
+    "automation_angle_zh": "已入手 M5 Ultra 的讀者可參與貢獻 benchmark，例如使用 lm-evaluation-harness 測試 70B 參數模型的 token/s 吞吐量。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
