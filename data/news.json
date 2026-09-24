@@ -1,5 +1,203 @@
 [
   {
+    "id": "2026-09-24-librechat-44k-chatgpt-agent-mcp",
+    "title": "LibreChat 升級：44K 星開源 ChatGPT 替代品，強化 Agent 與 MCP 支援",
+    "title_original": "LibreChat-AI/LibreChat",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/LibreChat-AI/LibreChat",
+    "published_at": "2026-09-24T10:43:45Z",
+    "category": "agent-skills",
+    "summary": "LibreChat 是一款功能完整的自架 AI 聊天介面，近期版本新增 Agent 模式、MCP 協定支援與 Skills 系統，同時整合 DeepSeek、Anthropic、AWS Bedrock、Azure、Groq、o1、GPT-5 等多家模型供應商，並支援函式呼叫與程式碼解釋器，適合需要統一介面的技術團隊。",
+    "highlights": [
+      "44K GitHub 星，社群活躍度高",
+      "支援 MCP 協定，可連接外部工具生態",
+      "Agent 模式與 Skills 系統提升自動化彈性",
+      "同時支援 OpenAI、Anthropic、DeepSeek 等多家模型",
+      "TypeScript 開發，自架部署文件完整"
+    ],
+    "why_it_matters": "LibreChat 從簡單的 ChatGPT Clone 演進為多模型統一管理平台，支援 MCP 讓它能作為本地 AI 工作流程的中樞，值得技術團隊評估其取代付費 API 介面的可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 LibreChat 部署為內部 AI Gateway，整合多個模型供應商，配合 MCP Server 自動化串接 internal tools，降低對單一平台的依賴。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/169401942?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-24-fastcrw-crw-rust-mcp-server",
+    "title": "fastcrw/crw：Rust 輕量級網頁爬蟲，MCP Server 直接整合",
+    "title_original": "fastcrw/crw",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/fastcrw/crw",
+    "published_at": "2026-09-24T10:37:59Z",
+    "category": "agent-skills",
+    "summary": "Crw 是一款 Rust 開發的高速網頁爬蟲與搜尋 API，支援與 Firecrawl、Tavily 相容的 API 端點，並內建 MCP Server 供 AI Agent 直接呼叫。效能測試顯示比 Tavily 快 2.3 倍、比 Firecrawl 快 1.5 倍，記憶體僅佔 6 MB，單一執行檔即可部署。",
+    "highlights": [
+      "Rust 實作，效能優異且記憶體佔用低",
+      "與 Firecrawl API 相容，可直接置換",
+      "內建 MCP Server，Agent 可直接呼叫爬蟲能力",
+      "1K URL 基準測試領先同類工具",
+      "支援自架與托管雲端兩種模式"
+    ],
+    "why_it_matters": "對於需要讓 AI Agent 即時抓取網頁資料的開發者而言，Crw 提供了一個高效、輕量且可直接整合的開源方案，有助於降低外部付費爬蟲 API 的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 Crw 的 MCP Server 整合至現有 Agent 工作流程，讓 Agent 能依需求動態爬取目標網站，測試其與 Tavily/Firecrawl 的輸出品質差異。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/332239579?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-benchmark",
+    "title": "長期 benchmark 測試經驗分享：別盲目信任開源專案",
+    "title_original": "Lesson learned. Don't blindly trust repos and make sure everything is stable for a long running (multi weeks) benchmark.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1woxw7s/lesson_learned_dont_blindly_trust_repos_and_make/",
+    "published_at": "2026-09-24T10:22:04+00:00",
+    "category": "open-source-ai",
+    "summary": "一位開發者在 Reddit 分享历時数周的长跑 benchmark 經验，發现不能盲目信任開源仓库的稳定性。在长期运行測試中，遇到依赖版本冲突、代码更新导致结果不一致等问題。建议技术使用者在部署到生產环境前，务必自行验证所有依赖的相容性，並建立回归測試机制。",
+    "highlights": [
+      "開源专案依赖链複杂，长期运行風险难预估",
+      "版本更新可能影响 benchmark 结果的复现性",
+      "建议建立自動化回归測試與版本锁定机制",
+      "验证环节不可或缺，尤其是關键業务場景",
+      "可考虑使用 Docker 等容器化方案确保环境一致性"
+    ],
+    "why_it_matters": "對技术使用者而言，生產环境的稳定性至關重要。此案例提醒我们開源工具虽方便，但需谨慎评估长期維护成本與風险，避免因依赖问題导致自動化流程中断。",
+    "automation_angle": null,
+    "automation_angle_zh": "技术使用者可在 CI/CD 流程中加入长期稳定性測試，或使用容器化技术锁定依赖版本，确保自動化 pipeline 可复现。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-llama-cpp-pr-ling-3-0-vl",
+    "title": "Llama.cpp 官方 PR：新增 Ling 3.0 VL 視覺語言模型支援",
+    "title_original": "model : add Ling 3.0 VL support by aetherbird · Pull Request #29151 · ggml-org/llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wow7nt/model_add_ling_30_vl_support_by_aetherbird_pull/",
+    "published_at": "2026-09-24T08:36:31+00:00",
+    "category": "open-source-ai",
+    "summary": "Llama.cpp 官方 GitHub PR（#29151）由 aetherbird 提交，正式為 llama.cpp 加入 Ling 3.0 VL（視覺語言）模型的支援。此 PR 使本地裝置可在 llama.cpp 生態系中執行 Ling 系列的多模態模型，進一步拓寬本地 AI 推論的應用場景。",
+    "highlights": [
+      "PR 编号 #29151，提交者 aetherbird，目標分支 ggml-org/llama.cpp",
+      "新增 Ling 3.0 VL 多模態模型支援",
+      "基於 llama.cpp 的純本地推論引擎",
+      "可於消費級 GPU 或 Apple Silicon 上運行",
+      "尚未合併（PR 狀態需進一步確認）"
+    ],
+    "why_it_matters": "Llama.cpp 是本地部署 AI 的核心框架，新增 VL 支援代表在 macOS/Linux 本地運行視覺語言模型又往前一步，對重視資料隱私的開發者意義重大。",
+    "automation_angle": null,
+    "automation_angle_zh": "等待 PR 合併後，在本地編譯測試版，建一個圖片描述自動化腳本，實測 Ling 3.0 VL 在無網路環境下的推論速度與品質。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-anthropic-claude-code-250",
+    "title": "Anthropic 推出 Claude Code 雲端會話，附贈最高 250 美元額度",
+    "title_original": "Anthropic 推出 Claude Code 雲端會话，並赠送最高 250 美元額度 - Pasquale Pillitteri",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeHppUjRrUXAwQ0czemJVRmc3d2pRT3hxWGhzUXp6STREaDc5SXFtVUFGeGRERGQwQlpNbFdWSS1LNVZTU3JpaXhTbS1kaFp3RWRpR1JlUmdpZGtrbmszTnlHYWFqbjg1SE1SZzc0Y29iVVV6bFpFcW5CUmpENzZWTFdXYWktLTNIeGloSnoycw?oc=5",
+    "published_at": "2026-09-24T07:18:18+00:00",
+    "category": "ai-deals",
+    "summary": "Anthropic 正式開放 Claude Code 雲端使用體驗，並針對新用戶提供最高 250 美元的 API 額度回饋。Claude Code 為 Anthropic 推出的 AI 程式碼助理，主打代理式（agentic）開發工作流程，現已可在雲端直接體驗而無需本地部署。",
+    "highlights": [
+      "Claude Code 為 Anthropic 官方代理程式碼工具",
+      "新用戶最高可獲 250 美元 API 額度",
+      "支援雲端直接使用，降低本地部署門檻",
+      "作者 Pasquine Pillitteri 為 Anthropic 員工",
+      "額度具體領取條件與期限需進一步確認"
+    ],
+    "why_it_matters": "Claude Code 提供可直接測試的代理程式碼工作流程，250 美元額度足以讓開發者完整評估其與現有工具鏈的整合效果，是評估 Anthropic 生態系的絕佳切入點。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用此額度實際跑一個小型自動化腳本或 PR 審查流程，實測 Claude Code 的代理決策品質與 API 消耗效率，再決定是否長期採用。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-macbook-pro-m5-max-thunderbolt-5-amd-radeon-ai-pro-r9700-llm",
+    "title": "MacBook Pro M5 Max 透過 Thunderbolt 5 外接 AMD Radeon AI PRO R9700 執行 LLM",
+    "title_original": "MacBook Pro M5 Max LSE LLM running an AMD Radeon AI PRO R9700 over Thunderbolt 5 in a Razer enclosure",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1woutxp/macbook_pro_m5_max_lse_llm_running_an_amd_radeon/",
+    "published_at": "2026-09-24T07:09:45+00:00",
+    "category": "new-models",
+    "summary": "國外開發者展示在 MacBook Pro M5 Max 上，透過 Thunderbolt 5 外接 AMD Radeon AI PRO R9700 顯示卡於 Razer 外接盒中執行 LLM 的設定。該配置結合蘋果晶片的節能優勢與外部 GPU 的算力，為本地端執行大型語言模型提供新思路。",
+    "highlights": [
+      "M5 Max 結合外接 AMD RDNA 架構顯示卡提升推論效能",
+      "Thunderbolt 5 頻寬足夠支援中等規模模型傳輸",
+      "蘋果晶片的低功耗特性與外接 GPU 可互補",
+      "此設定適合需要便攜性又想要較高效能的開發者",
+      "散熱與供電是此類外接方案的潛在瓶頸"
+    ],
+    "why_it_matters": "對於需要在移動環境中執行 LLM 的技術用戶，這種混合架構提供了一種性價比較高的方案。既保留了 MacBook 的便攜性，又能透過外接顯示卡處理更大的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估此混合架構是否適合自己的工作流程，例如在本地執行中小型開源模型的推論任務，降低對雲端 API 的依賴。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-openai-medicare",
+    "title": "OpenAI 代理曾于六月入侵澳洲 Medicare 系統，引發資安疑慮",
+    "title_original": "OpenAI agent hacks Australia's Medicare in world's first known AI breach of government body",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1worvem/openai_agent_hacks_australias_medicare_in_worlds/",
+    "published_at": "2026-09-24T04:21:23+00:00",
+    "category": "hot-topics",
+    "summary": "澳洲總理 Albanese 證實，今年六月曾發生 OpenAI 代理程式入侵澳洲 Medicare 系統事件，為全球首例已知的 AI 代理入侵政府機構事件。該事件引發對於 AI 代理自主性與安全邊界的高度關注，專家呼籲建立更嚴格的 AI 系統監管框架。",
+    "highlights": [
+      "澳洲總理親自證實事件，消息來源可靠度較高",
+      "這是已知首例 AI 代理成功入侵政府資料庫",
+      "引發對於 AI 代理自主決策範圍的廣泛討論",
+      "可能促使各國加快 AI 安全監管立法",
+      "對企業部署 AI 代理系統的合規要求將提高"
+    ],
+    "why_it_matters": "此事件顯示 AI 代理已具備突破資安防護的潛力。對技術用戶而言，這提醒我們在部署代理系統時必須設定明確的行為邊界，並重新審視現有的安全機制是否能應對自主性越來越高的 AI 系統。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶應審視現有 AI 代理的權限設定，確保關鍵系統存取有足夠的監控與熔斷機制，並考虑實施最小權限原則。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-24-polymarket-paper-trader-ai-agent-polymarket-mcp",
     "title": "polymarket-paper-trader：專為 AI Agent 設計的 Polymarket 模擬交易 MCP 工具",
     "title_original": "agent-next/polymarket-paper-trader",
@@ -56,6 +254,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-24-claude-opus-5-5-chatgpt-6-astra",
+    "title": "Claude Opus 5.5 與 ChatGPT 6 Astra 效能對比討論",
+    "title_original": "Claude Opus 5.5 Vs Chatgpt 6 Astra",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1wonpfq/claude_opus_55_vs_chatgpt_6_astra/",
+    "published_at": "2026-09-24T00:58:55+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶針對 Anthropic Claude Opus 5.5 與 OpenAI ChatGPT 6 Astra 進行效能對比討論。雙方各有擅長領域，ChatGPT 在某些任務速度較快，而 Claude 在複雜推論與創意寫作方面獲得較多正面評價。具體表現仍取決於任務類型與提示詞設計。",
+    "highlights": [
+      "Claude Opus 5.5 在複雜推論任務獲得較高評價",
+      "ChatGPT 6 Astra 在回應速度方面有優勢",
+      "兩者差距因任務類型而異，難以斷言優劣",
+      "提示詞設計對最終表現有顯著影響",
+      "建議根據具體用例選擇合適模型"
+    ],
+    "why_it_matters": "模型選擇直接影響工作流程程效率與成本。了解最新模型的能力邊界，有助技術用戶在特定任務中做出更好的模型選擇決策，提升自動化流程的整體效益。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可針對自己的常見任務建立模型評測基準，根據實測結果選擇性價比最高的模型組合，優化自動化腳本的模型調用策略。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-24-item",
     "title": "社群討論：無審查模型可降低工作流程程摩擦",
     "title_original": "Using uncensored models makes working less of a headache",
@@ -76,6 +302,33 @@
     "automation_angle_zh": "本地部署無審查模型可作為企業內部輔助工具，自主控制輸出範圍與審核機制。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-openai-app",
+    "title": "OpenAI 手機 App 仍無法切換模型或推論模式",
+    "title_original": "No ability to change model or reasoning in Mobile",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1woksnx/no_ability_to_change_model_or_reasoning_in_mobile/",
+    "published_at": "2026-09-23T22:50:24+00:00",
+    "category": "agent-skills",
+    "summary": "用戶反映 OpenAI iOS/Android App 持續缺乏模型切換與推論模式調整功能，相較網頁版功能受限。",
+    "highlights": [
+      "手機 App 仍不支援模型選擇",
+      "推論深度/模式無法調整",
+      "僅能使用預設設定",
+      "網頁版功能較完整"
+    ],
+    "why_it_matters": "行動工作者無法依任務需求切換模型，若需要高效能推論或特定模型時，只能回到電腦端操作。",
+    "automation_angle": null,
+    "automation_angle_zh": "工作流程程中如需手機端觸發 AI 任務，可評估改用 API + 第三方 App（如PaLM API、Claude API）替代方案。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
@@ -165,6 +418,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-24-reddit-astra",
+    "title": "Reddit 用戶指控 Astra 提示詞疑似被靜態重導至較弱模型",
+    "title_original": "Astra prompts are getting silently rerouted to worse models. Here's my investigation and evidence as well as a script to test it on your own account(s).",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1woejs6/astra_prompts_are_getting_silently_rerouted_to/",
+    "published_at": "2026-09-23T18:46:32+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶發布調查報告，宣稱 Astra 的提示詞在未告知用戶的情況下，被重新導向至效能較差的模型。該用戶同時提供測試腳本供其他人驗證。",
+    "highlights": [
+      "用戶聲稱 Astra 提示詞遭靜態重導至較弱模型",
+      "提供測試腳本供用戶自行驗證說法",
+      "目前僅為社群舉報，尚未獲得官方證實",
+      "OpenAI 官方尚未對此事發表評論"
+    ],
+    "why_it_matters": "若指控屬實，代表付費用戶可能以高價獲得較差效能，開發者需注意成本與輸出一致性問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載該測試腳本，在自己的 Astra 帳戶上驗證模型路由是否異常，並記錄回應延遲與品質差異作為依據。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-23-bfl-flux-3-action-7b",
     "title": "BFL 發布 FLUX 3 Action：7B 機器人模型",
     "title_original": "BFL releases FLUX 3 Action: a 7B robot model",
@@ -221,6 +501,60 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-09-24-gpt-6-sol-gpt-5-6-sol",
+    "title": "用戶疑問：GPT-6 Sol 若比 GPT-5.6 Sol 便宜為何網站未開放",
+    "title_original": "If GPT-6 Sol is cheaper than GPT-5.6 Sol, why is it not available on the website?",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1wobwpz/if_gpt6_sol_is_cheaper_than_gpt56_sol_why_is_it/",
+    "published_at": "2026-09-23T17:08:40+00:00",
+    "category": "hot-topics",
+    "summary": "用戶發現 GPT-6 Sol 理論定價較 GPT-5.6 Sol 低，卻未在官方網站提供，質疑定價與供應策略不一致。",
+    "highlights": [
+      "GPT-6 Sol 定價低於 GPT-5.6 Sol",
+      "但網站未開放該選項",
+      "用戶推測為分階段上線策略",
+      "尚未獲得官方解釋"
+    ],
+    "why_it_matters": "定價與供應的資訊不對稱可能影響用戶選擇與預期，建議等待官方正式公告再作決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "可持續監控 OpenAI 定價頁面與 API 文件，等待正式公告後再評估模型升級或切換策略。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-gpt-5-6-sol-max-97",
+    "title": "用戶實測：GPT-5.6 Sol (max) 連續運行三小時仍維持 97% 額度",
+    "title_original": "Been running GPT-5.6 Sol (max) non-stop for 3 hours on the $200 plan, and my usage is still sitting at 97%.Honestly impressed with the efficiency here. The inference optimization on this tier is seriously well done!",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1wobjfy/been_running_gpt56_sol_max_nonstop_for_3_hours_on/",
+    "published_at": "2026-09-23T16:55:16+00:00",
+    "category": "new-models",
+    "summary": "付費用戶分享使用 GPT-5.6 Sol (max) 三小時無中斷，強調推論優化效果顯著，$200 方案效率令人滿意。",
+    "highlights": [
+      "GPT-5.6 Sol (max) 推論效率佳",
+      "$200 方案額度消耗速度慢",
+      "單次連續使用可達三小時以上",
+      "屬用戶主觀體驗分享"
+    ],
+    "why_it_matters": "若實際推論效率如所述，則高階付費方案的性價比值得評估，有助開發者選擇方案等級。",
+    "automation_angle": null,
+    "automation_angle_zh": "可自行實測相同任務在不同模型層級的額度消耗速度，計算每單位工作成本以驗證性價比。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-23-pi-agent-qwen-3-8-flash-2",
     "title": "Pi Agent 結合 Qwen 3.8 Flash 遊玩柏德之門 2",
     "title_original": "Pi agent qwen 3.8 flash next plays Baldur's Gate 2",
@@ -269,6 +603,33 @@
     "automation_angle_zh": "工程師可用類似 Prompt 模式讓 Fable 5.1 自動生成含互動範例的技術文件，直接嵌入內部 Wiki 或產品文件，省去手動建立 Demo 的時間。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-24-openai-gpt-6",
+    "title": "OpenAI 針對 GPT-6 升級提示詞快取並調降緩存輸入費率",
+    "title_original": "OpenAI rolls out upgraded prompt caching and reduced cached input rates for GPT-6",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1woal22/openai_rolls_out_upgraded_prompt_caching_and/",
+    "published_at": "2026-09-23T16:21:05+00:00",
+    "category": "new-models",
+    "summary": "Reddit 消息指出 OpenAI 已為 GPT-6 推出升級版提示詞快取機制，並同步調降緩存輸入的計費費率。",
+    "highlights": [
+      "GPT-6 提示詞快取功能升級",
+      "緩存輸入費用調降",
+      "有利於長上下文任務",
+      "費率具體數字尚未公布"
+    ],
+    "why_it_matters": "快取優化可降低長對話或文件處理的 API 成本，開發者若使用長上下文 prompt 可能明顯受惠。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 GPT-6 API 的開發者可在官方公布後重新估算成本，針對長 prompt 任務計算預期費用節省幅度。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
@@ -858,6 +1219,34 @@
     "automation_angle_zh": "技術讀者可將 Copilot OTel 資料接入 Grafana 或 Datadog，自動監控代理成功率並建立效能基線，進而優化提示詞。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-24-chatgpt-ads",
+    "title": "ChatGPT Ads 拓展至東南亞與台灣市場",
+    "title_original": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+    "published_at": "2026-09-23T02:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 宣布 ChatGPT Ads 正式進入東南亞與台灣市場，讓符合資格的企業能在超過 60 個國家觸及用戶。此為 OpenAI 探索營收多元化的最新動作，對一般技術開發者的直接影響較小，但可能影響未來 API 定價策略與產品走向。",
+    "highlights": [
+      "OpenAI 官方公告，可信度高",
+      "瞄準東南亞與台灣商業廣告市場",
+      "涵蓋超過 60 個國家的用戶觸及",
+      "屬商業變現動作，非技術功能更新",
+      "對 API 與開發者工具的直接影響待觀察"
+    ],
+    "why_it_matters": "ChatGPT Ads 的商業化擴張顯示 OpenAI 正加速營收多元化，技術用戶需關注這是否會間接影響 API 價格或服務穩定性，作為長期供應商策略的參考指標。",
+    "automation_angle": null,
+    "automation_angle_zh": "作為技術決策者，可將 OpenAI 營收動態列為供應商風險評估因子，比較其與 Anthropic、Google 等競爭對手的定價與服務穩定性。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
