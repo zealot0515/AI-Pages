@@ -1,5 +1,227 @@
 [
   {
+    "id": "2026-09-25-anymd-rust-markdown-mcp",
+    "title": "anymd：Rust 開發的萬用檔案轉 Markdown MCP 伺服器",
+    "title_original": "SylphxAI/anymd",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/SylphxAI/anymd",
+    "published_at": "2026-09-25T10:46:30Z",
+    "category": "agent-skills",
+    "summary": "anymd 將 PDF、Word、PowerPoint、Excel、EPUB、HTML、圖片等常見格式轉為乾淨 Markdown。採用 Rust 開發，強調高效能與本地執行，無需 API key，可作為 MCP 工具直接整合进 Agent 工作流程。",
+    "highlights": [
+      "Rust 開發，本地執行，無 API key 需求",
+      "支援 PDF、Word、Excel、PPT、EPUB、HTML、圖片",
+      "MCP 協定整合，開箱即用於 Agent",
+      "935 Stars，新興專案但方向明確",
+      "CLI + MCP 伺服器雙模式靈活使用"
+    ],
+    "why_it_matters": "企業文件格式多元是自動化的常見障礙。anymd 用 Rust 實現高效轉換且 MCP 原生支援，技術宅可快速整合进文件處理 Agent，節省格式轉換時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "架設 anymd MCP 伺服器，讓 Agent 直接讀取客戶投標 PDF 或年報 Excel，自動摘要關鍵數據，輸出結構化 Markdown 報告。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/206448049?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-assistant-ui-skills-ai-agent",
+    "title": "assistant-ui/skills：構建 AI 聊天介面的 Agent 技能庫",
+    "title_original": "assistant-ui/skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/assistant-ui/skills",
+    "published_at": "2026-09-25T10:27:32Z",
+    "category": "agent-skills",
+    "summary": "assistant-ui/skills 提供一組用於快速建構 AI 聊天介面的 Agent 技能，與 assistant-ui 框架整合。現階段 Stars 僅 28，文件與成熟度待觀察，適合關注前端整合的技術宅評估。",
+    "highlights": [
+      "JavaScript/TypeScript 技術棧",
+      "與 assistant-ui 框架深度整合",
+      "提供聊天 UI 所需的核心 Agent 技能",
+      "目前 Stars 僅 28，社群採用度低",
+      "仍為早期階段，功能完整性待驗證"
+    ],
+    "why_it_matters": "如果你在用 assistant-ui 或想建構客製化 AI 聊天介面，這些技能可加速開發。但現階段建議先看實際範例再投入。",
+    "automation_angle": null,
+    "automation_angle_zh": "用 assistant-ui/skills 快速原型化內部 AI 客服介面，配合 anymd 處理文件輸入，建構完整的文件問答系統。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/189563271?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-reddit-ai-agent-solidworks-cswa",
+    "title": "Reddit 討論：AI Agent 對戰 SOLIDWORKS CSWA 認證考試基準測試",
+    "title_original": "Has anyone benchmarked AI agents against the SOLIDWORKS CSWA exam?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpr6jp/has_anyone_benchmarked_ai_agents_against_the/",
+    "published_at": "2026-09-25T08:50:17+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社群討論是否有研究者對 AI Agent 進行 SOLIDWORKS CSWA（Certified SOLIDWORKS Associate）考試基準測試。目前尚無明確答案，但此方向值得關注，特別是工程領域 AI 應用評估。",
+    "highlights": [
+      "討論聚焦於本地部署 LLM 的工程應用能力",
+      "SOLIDWORKS CSWA 為機械工程領域基礎認證",
+      "此測試可評估 AI 在 CAD/工程軟體場景的實際能力",
+      "目前屬於社群討論階段，尚無正式Benchmark"
+    ],
+    "why_it_matters": "對於需要在專業工程軟體環境部署 AI 的技術人員，了解 AI 在此類封閉式專業考試的表現，可評估本地模型的工程應用潛力。",
+    "automation_angle": null,
+    "automation_angle_zh": "可自行設計類似測試，用本地模型對工程領域認證題目進行測試，建立內部能力評估基準。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-gemma-4-agent",
+    "title": "Gemma 4 開發者 Agent 競賽開跑",
+    "title_original": "Gemma 4 Developer Agent Competition",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpqyaz/gemma_4_developer_agent_competition/",
+    "published_at": "2026-09-25T08:34:34+00:00",
+    "category": "open-source-ai",
+    "summary": "社群發起 Gemma 4 開發者 Agent 競賽，邀請開發者利用 Google Gemma 4 模型構建創新應用。Gemma 4 為 Google 開源輕量級模型系列，競賽聚焦 Agent 能力與實際應用場景。",
+    "highlights": [
+      "競賽基於 Gemma 4 模型進行開發",
+      "聚焦開發者 Agent 能力展示",
+      "可了解 Gemma 4 在實際 Agent 場景的表現",
+      "社群驅動的開源模型應用競賽"
+    ],
+    "why_it_matters": "Gemma 4 作為開源模型，其 Agent 能力發展值得關注。此競賽可作為評估 Gemma 4 實際應用價值的參考，技術宅可從中學習最佳實踐。",
+    "automation_angle": null,
+    "automation_angle_zh": "參與或觀摩競賽作品，評估 Gemma 4 在自動化任務場景的能力邊界，測試其 Agent 框架整合可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-llm-p102-100-cmp-50hx",
+    "title": "預算有限跑 LLM（二）：從 P102-100 到 CMP 50HX 顯示卡實測",
+    "title_original": "LLM on a budget part 2, from P102-100 to CMP 50HX.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpqgh9/llm_on_a_budget_part_2_from_p102100_to_cmp_50hx/",
+    "published_at": "2026-09-25T08:01:24+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit 網友分享低預算 GPU 執行 LLM 的系列文章第二篇，實測從 P102-100 到 CMP 50HX 等多款低價顯示卡在本地執行大語言模型的效果與效能表現。",
+    "highlights": [
+      "測試多款低價專業礦卡/閹割卡",
+      "涵蓋 P102-100 與 CMP 50HX 等型號",
+      "實測不同量化等級下的模型表現",
+      "提供成本效益評估與實用建議"
+    ],
+    "why_it_matters": "想要在有限預算下本地部署 LLM 的技術宅，可從此系列獲得實用性很強的硬體性價比參考，避免昂貴投資。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據文章實測數據選擇符合預算的 GPU，測試本地模型在不同硬體上的延遲與吞吐量，優化個人 AI 工作站的成本配置。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-langsmith-engine-v2-managed-deep-agents",
+    "title": "LangSmith Engine v2 發布：紅隊演練、自動化測試與 Managed Deep Agents",
+    "title_original": "New in LangSmith: Engine v2, Managed Deep Agents, Fine-Tuning, and more",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/langsmith-engine-agents-fine-tuning-trajectories",
+    "published_at": "2026-09-25T08:00:01+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain 發布 LangSmith Engine v2 版本，新增紅隊演練（red teaming）與自動化測試功能，同時推出新版 Managed Deep Agents，並支援軌跡（trajectories）分析。",
+    "highlights": [
+      "Engine v2 內建 red teaming 安全測試能力",
+      "新增自動化 Agent 測試框架",
+      "Managed Deep Agents 版本更新",
+      "支援軌跡追蹤與分析"
+    ],
+    "why_it_matters": "對於構建 LLM 應用的技術人員，LangSmith Engine v2 提供更完善的安全測試與監控能力，可降低 Agent 部署風險並提升除錯效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "利用 Engine v2 的紅隊演練功能自動化發現 Agent 行為異常，搭配軌跡分析快速定位問題，優化生產環境部署流程。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-25-crawl4ai-84k-stars-llm-markdown",
+    "title": "crawl4ai：84K Stars 開源 LLM 網頁爬蟲，任何網站轉乾淨 Markdown",
+    "title_original": "unclecode/crawl4ai",
+    "source": "GitHub AI Agent Repositories",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/unclecode/crawl4ai",
+    "published_at": "2026-09-25T06:37:14Z",
+    "category": "agent-skills",
+    "summary": "crawl4ai 是一款專為 LLMs 和 AI Agent 設計的開源網頁爬蟲，可將任意網站轉為乾淨的 LLM 可讀 Markdown。支援自架本地版或雲端版（單一 API key），Python 開發，GitHub Star 數已達 84,238。",
+    "highlights": [
+      "84,238 Stars，社群認可度極高",
+      "輸出乾淨 Markdown，消除廣告與噪音",
+      "支援自架本地版，完全控制資料",
+      "提供雲端版，一個 key 即用",
+      "可用於 RAG 工作流程、資訊擷取、自動化研究"
+    ],
+    "why_it_matters": "建構 RAG 或資訊收集 Agent 時，乾淨的網頁擷取是關鍵瓶頸。crawl4ai 解決此痛點且開源可審計，是當前最高品質的選擇之一。",
+    "automation_angle": null,
+    "automation_angle_zh": "串接 crawl4ai 與本地 LLM：輸入任務描述→爬蟲抓取目標網站→直接餵給 LLM 分析，每日可自動化完成數十筆競爭情報收集。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/12494079?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-25-github-copilot",
+    "title": "GitHub Copilot 商務版與企業版功能預設啟用政策更新",
+    "title_original": "Default Enablement of Copilot Features for Copilot Business and Enterprise",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise",
+    "published_at": "2026-09-25T03:13:23+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 宣布針對 Copilot 商務版與企業版推出新的全域預設政策，28 天內組織管理員可選擇退出，之後所有已 GA 的 Copilot 功能將自動啟用。此政策將改變預設功能可用性，管理員需重新檢視組織設定。",
+    "highlights": [
+      "新政策適用於 Copilot Business 與 Enterprise 組織設定",
+      "28 天退出期限內管理員可取消預設啟用",
+      "已正式發布（GA）功能將自動對使用者開放",
+      "此變更影響大規模部署與企業合規需求"
+    ],
+    "why_it_matters": "技術宅應立即檢查組織的 Copilot 設定，確認是否需要在期限前退出。預設啟用可減少管理負擔，但也可能影響企業的安全合規要求。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 GitHub API 或 CLI 自動化檢查組織 Copilot 政策狀態，確保符合企業部署需求，可參考 GitHub GraphQL API 查詢 Copilot 設定。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-09-25-agentdock-mcp-harness-chatgpt-claude-web-coding",
     "title": "AgentDock-MCP-Harness：用ChatGPT/Claude Web配額做遠端Coding的工具",
     "title_original": "gabyic/agentdock-mcp-harness",
@@ -45468,6 +45690,33 @@
       "open-source-ai",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-ai-untuk-rakyat-ai-ai",
+    "title": "馬來西亞政府推出「AI Untuk Rakyat」全民 AI 計劃，三個月免費 AI 軟體訂閱",
+    "title_original": "政府將推出全民人工智慧计划（AI Untuk Rakyat），可获得免費3個月AI软件訂閱 - Newswav",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMijgNBVV95cUxOZHlod1dFa3RCdFNQY005XzRqd3hubDVKbnJYWGlyS2diZ0I0MjRWdzRWUzNjLVh4Tjg1MWNEdDlQUTdKc0hucEFMRk9PVk1MR3NNVFk3ZnF0b1AtS3djQmdndzJsX2NUeV9rWnc0NzhHVXJQbFREb29uMkw1ckhkZ2g3c2RJWGxwYkVhQjVWM3ZZdkFvRjR3ck01M0doejNsNlFZYUp2RzdKQ2lLa3A4QmhueFY5VmpINmxrblBmUlZxOVBWZklPLVZXeS01THItakZGWGhyUlR0QklsQUJ4TEhlYWJ0eHZ5VzJkMlVkX29keXRBTEtrQmRSRkxuMXYwVEI1N0JrOU5ZSkNIRzZPZUxfd1RQNVNtN211Z1RSWGVfM1ROTUxfenFuTl9fcDAtRUhkcERQc1U2dGZzUjlKWkpmWFR6MGEwUllRVzVJc09GU2VqQ244eTdGbEFHNlpHQVVSaWM0ZVlmM2FNQkVXSFRULW81dkNCd1VFUnF5RDRhckxZTnVyVDRETW9QUQ?oc=5",
+    "published_at": "2026-07-28T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "馬來西亞政府宣布推出「AI Untuk Rakyat」全民 AI 計劃，符合資格的民眾可獲得為期三個月的免費 AI 軟體訂閱服務。該計劃旨在推動 AI 普及化，降低民眾接觸 AI 工具的門檻。",
+    "highlights": [
+      "政府主導的 AI 普及化計劃",
+      "提供三個月免費 AI 軟體訂閱",
+      "覆蓋馬來西亞國民",
+      "屬於正式政府合作項目"
+    ],
+    "why_it_matters": "此類政府支援的 AI 計劃可能提供穩定的免費額度，技術宅可關注是否有跨國適用的 AI 工具，或作為評估不同 AI 服務的參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "追蹤此計劃適用的 AI 工具列表，若涵蓋實用工具可註冊獲取免費額度測試；即使不在馬來西亞，也可留意類似政府合作模式的工具優惠。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
