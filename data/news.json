@@ -1,5 +1,173 @@
 [
   {
+    "id": "2026-09-25-agentdock-mcp-harness-chatgpt-claude-web-coding",
+    "title": "AgentDock-MCP-Harness：用ChatGPT/Claude Web配額做遠端Coding的工具",
+    "title_original": "gabyic/agentdock-mcp-harness",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/gabyic/agentdock-mcp-harness",
+    "published_at": "2026-09-25T02:33:03Z",
+    "category": "agent-skills",
+    "summary": "一個實驗性MCP工具，可將ChatGPT或Claude的Web配額用於遠端Coding任務，理論上無需第二個伺服器端API Token計費。JavaScript實作，星標15，屬早期專案。",
+    "highlights": [
+      "利用現有Web配額進行Coding，避免額外API費用",
+      "基於MCP（Model Context Protocol）架構",
+      "無需伺服器端Token計量的潛力",
+      "JavaScript實作，輕量但功能待驗證",
+      "星標僅15，社群關注度低，需自行測試穩定性"
+    ],
+    "why_it_matters": "若能穩定運作，可成為降低AI Coding工具費用的替代方案。但早期專案可靠性存疑。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可Fork此專案，在隔離環境中測試其與ChatGPT/Claude Web配額的實際串接效果，評估是否能替代部分付費Coding Agent功能。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/32919130?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-baize-9-vibe-coding-assistant-cli",
+    "title": "Baize：支援9種後端的開源Vibe Coding Assistant CLI工具",
+    "title_original": "Xu123-Bob/Baize",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Xu123-Bob/Baize",
+    "published_at": "2026-09-25T02:28:02Z",
+    "category": "agent-skills",
+    "summary": "Baize命名取自中國神話中知曉萬物的瑞獸，是一個開源Vibe Coding助理CLI。目前支援DeepSeek、OpenAI相容API、智譜、千問、Kimi及本地Ollama等9種後端，屬JavaScript實作，星標72。",
+    "highlights": [
+      "支援9種後端：DeepSeek、OpenAI相容、智譜、千問、Kimi、本地Ollama等",
+      "CLI工具形式，直接整合進開發者終端",
+      "開源可審視prompt工程與工具調用邏輯",
+      "命名取自中國神話，頗具特色",
+      "星標數量相對較低，社群規模待觀察"
+    ],
+    "why_it_matters": "多元後端支援讓技術宅可靈活切換模型供應商，控制成本同時保持一致的Vibe Coding體驗。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在本機安裝Baize，替換現有Coding Assistant後端，比較不同模型在實際程式碼生成任務上的表現與費用差異。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/286625510?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-cachyos-rtx-5090-qwen-3-8-27b-vllm",
+    "title": "CachyOS 實現雙 RTX 5090 跑 Qwen 3.8 27B vLLM 推論",
+    "title_original": "CachyOS Qwen 3.8 27b on 2x 5090 vLLM",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpinky/cachyos_qwen_38_27b_on_2x_5090_vllm/",
+    "published_at": "2026-09-25T00:50:15+00:00",
+    "category": "open-source-ai",
+    "summary": "社群玩家在 CachyOS 環境中使用雙 RTX 5090 跑 vLLM 執行 Qwen 3.8 27B 模型，展示新一代顯示卡在本地 LLM 推論上的效能潛力。",
+    "highlights": [
+      "使用 2 張 RTX 5090 進行 vLLM 推論",
+      "測試對象為 Qwen 3.8 27B 模型",
+      "在 CachyOS 滾動發行版環境執行",
+      "屬玩家社群實驗性質分享"
+    ],
+    "why_it_matters": "RTX 5090 的雙卡設定驗證了消費級顯示卡在高參數量模型上的推論可行性，為高效能本地 AI 開發提供硬體參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "有高階硬體的技術用戶可參考此配置，建立高吞吐量本地推論伺服器，支撐批量自動化任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-laya-openvino-cpu-40",
+    "title": "Laya 新增 OpenVINO 支援：CPU 推論僅需 40 毫秒",
+    "title_original": "I added OpenVINO support to Laya: 40 ms per question on CPU, 3.4x faster than PyTorch",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpieby/i_added_openvino_support_to_laya_40_ms_per/",
+    "published_at": "2026-09-25T00:37:40+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者為 Laya 專案加入 OpenVINO 後端支援，在 CPU 上實現每問答 40 毫秒延遲，相比 PyTorch 提速 3.4 倍。此優化對無 GPU 環境的部署具體實用價值。",
+    "highlights": [
+      "OpenVINO 後端已整合進 Laya 專案",
+      "CPU 單次推論延遲降至 40 毫秒",
+      "相較 PyTorch 提速達 3.4 倍",
+      "適合沒有獨立顯示卡的部署環境"
+    ],
+    "why_it_matters": "邊緣裝置或企業內網環境可大幅降低 AI 推論硬體需求，節省 GPU 採購與雲端 API 費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "在企業內網或老舊伺服器上部署 Laya，利用 OpenVINO 後端實現快速、本地化的 AI 問答自動化流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-registry-broker-skills-72-000-ai-agent",
+    "title": "Registry-Broker-Skills：收錄72,000+ AI Agent的跨協議註冊表",
+    "title_original": "hashgraph-online/registry-broker-skills",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/hashgraph-online/registry-broker-skills",
+    "published_at": "2026-09-24T23:40:34Z",
+    "category": "agent-skills",
+    "summary": "Hashgraph-Online團隊開源的AI Agent技能註冊表，收錄超過72,000個跨14種協議的Agent，支援Claude、Codex、Cursor、OpenClaw及通用AI助理。屬TypeScript實作，GitHub星標429。",
+    "highlights": [
+      "收錄72,000+跨協議Agent，規模可觀",
+      "支援14種以上協議整合",
+      "已確認支援Claude、Codex、Cursor、OpenClaw",
+      "TypeScript實作，方便整合進現代前端/Node工作流程",
+      "開源可審視實際實作細節"
+    ],
+    "why_it_matters": "大量Agent集中註冊可能簡化跨平台Agent發現與串接流程，但需注意協議標準化與資料即時性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可將此專案作為Agent搜尋引擎的基礎，評估其API覆蓋度是否滿足工作流程需求，或貢獻自己開發的Agent到該生態。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/160371962?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-qwen3-8-27b-3d",
+    "title": "Qwen3.8 27B 模型在 3D 列印建模的實用測試",
+    "title_original": "Qwen3.8 27b practical modeling for 3d printing",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpet4j/qwen38_27b_practical_modeling_for_3d_printing/",
+    "published_at": "2026-09-24T21:54:01+00:00",
+    "category": "new-models",
+    "summary": "社群用戶分享 Qwen3.8 27B 在 3D 列印建模場景的實際應用心得。模型展現出針對性建模任務的可用性，為需要本地端執行的 3D 生成需求提供新選項。",
+    "highlights": [
+      "Qwen3.8 27B 參數量在本地部署中屬中等規模",
+      "測試場景聚焦 3D 列印建模需求",
+      "實用性驗證來自 Reddit 社群用戶分享",
+      "屬於非官方測試，缺乏系統性基準對照"
+    ],
+    "why_it_matters": "3D 列印愛好者與小型工作室現在有新的本地模型選擇，可在無網路依賴下處理建模輔助任務，降低外發成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地部署 Qwen3.8 27B，針對 3D 模型參數調整、優化建議等任務進行自動化測試。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-24-couplet-macos-markdown-ai-agent",
     "title": "couplet：macOS 專用 Markdown 編輯器，支援 AI Agent 直接驅動",
     "title_original": "malinborn/couplet",
