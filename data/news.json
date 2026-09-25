@@ -1,5 +1,400 @@
 [
   {
+    "id": "2026-09-25-aisoc-ai-mcp",
+    "title": "AiSOC：開源AI安全營運中心，MCP伺服器加持",
+    "title_original": "beenuar/AiSOC",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/beenuar/AiSOC",
+    "published_at": "2026-09-25T20:51:15Z",
+    "category": "agent-skills",
+    "summary": "AiSOC是開源AI安全營運平台，具備告警融合、LLM-Agent triage、MITRE ATT&CK威脅調查，以及可回放決策分類帳。支援自架、無需API Key，MIT授權。已對接Claude、Cursor、Continue的MCP介面。",
+    "highlights": [
+      "星標2366，Python實作，社群熱度高",
+      "告警融合 + LLM-Agent triage可加速安全事件分類，減少人工負擔",
+      "MITRE ATT&CK框架整合讓威脅調查有標準化語義",
+      "可回放決策分類帳提供Agent行為審計追蹤能力",
+      "已支援Claude、Cursor、Continue三大IDE的MCP協議"
+    ],
+    "why_it_matters": "資安營運引入AI Agent是熱門方向。AiSOC將威脅調查流程自動化，並保留完整審計軌跡，技術團隊可評估其是否能取代或輔助現有的SIEM工作流程程。",
+    "automation_angle": null,
+    "automation_angle_zh": "安全團隊可將AiSOC的MCP伺服器接入Cursor或Continue，在威脅調查對話中直接呼叫AI triage能力，快速生成MITRE ATT&CK映射報告，節省人工分析時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/19245630?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-terravision-terraform-json",
+    "title": "Terravision：從Terraform程式碼或JSON生成雲端架構圖",
+    "title_original": "patrickchugh/terravision",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/patrickchugh/terravision",
+    "published_at": "2026-09-25T20:44:56Z",
+    "category": "agent-skills",
+    "summary": "Terravision可將Terraform程式碼或純JSON圖描述自動轉換為專業雲端架構圖，內建AWS、Azure、GCP官方圖示。提供MCP伺服器與Agent skill，可無縫整合進AI編碼工具。",
+    "highlights": [
+      "星標1639，Python實作，支援AWS/Azure/GCP三大雲官方圖示",
+      "支援Terraform HCL與純JSON兩種輸入格式，靈活度高",
+      "MCP伺服器可讓Claude、Cursor等AI助理直接呼叫架構圖生成",
+      "可用於快速文件化基礎設施，或在架構評審時自動視覺化",
+      "開源專案，可自架或Fork客製化圖示庫"
+    ],
+    "why_it_matters": "基礎設施文件化長期是痛點，手動畫架構圖耗時且易過時。Terravision讓AI Agent能在開發對話中即時生成視覺化架構圖，提升技術溝通效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "在Cursor或VS Code的AI對話中，呼叫Terravision MCP工具，以Terraform程式碼或JSON自動生成架構圖，用於設計評審、團隊溝通或既有系統文件更新，省去手工繪圖。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/99465091?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-browsertic-ai",
+    "title": "BrowserTic：讓 AI 助理直接操作你的已登入瀏覽器",
+    "title_original": "imshaikot/browsentic",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/imshaikot/browsentic",
+    "published_at": "2026-09-25T20:39:32Z",
+    "category": "agent-skills",
+    "summary": "開源的瀏覽器擴充程式，可在 Chrome/Edge/Arc/Brave/Firefox 側邊欄啟動 Claude Code、Codex、Antigravity 等 Agent，無需 API Key。支援 MCP 協定，讓 AI 直接控制已登入狀態的瀏覽器環境。",
+    "highlights": [
+      "支援主流瀏覽器：Chrome、Edge、Arc、Brave、Firefox",
+      "無需 API Key，完全開源免費",
+      "內建 MCP Server，可對接現有 AI 工具鏈",
+      "在已登入狀態下操作，突破需登入驗證的網站限制",
+      "TypeScript 實作，26 stars，社群初期活躍"
+    ],
+    "why_it_matters": "傳統 Browser Agent 需繞過登入驗證，此工具直接利用已登入 Session，大幅降低自動化爬蟲、表單填寫、社交操作門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "工程師可將重複性 Web 操作（資料抓取、A/B 測試、多平台發文）交給 AI Agent 執行，結合 MCP 協定整合進現有工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/2652061?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-ollama-mcp-bridge-llm-mcp",
+    "title": "Ollama MCP Bridge：為本地LLM動態注入MCP工具能力",
+    "title_original": "jonigl/ollama-mcp-bridge",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/jonigl/ollama-mcp-bridge",
+    "published_at": "2026-09-25T20:31:05Z",
+    "category": "open-source-ai",
+    "summary": "Ollama MCP Bridge允許開發者在本地Ollama API上串接多個MCP伺服器，動態擴展AI工具能力。完全相容Ollama原生API，透明傳遞請求，適合用於本地LLM應用、AI Agent與自訂聊天機器人開發。",
+    "highlights": [
+      "星標102，Python實作，輕量級橋接工具",
+      "支援同時串接多個MCP伺服器，工具擴展靈活",
+      "API相容性保持，現有Ollama呼叫方式無需改動",
+      "適用於本地LLM應用開發，降低對雲端API依賴",
+      "可用於打造完全離線的AI Agent工作環境"
+    ],
+    "why_it_matters": "本地LLM（如Ollama）通常缺乏MCP工具生態。Bridge填補了這個缺口，讓技術用戶能在完全離線環境下享有MCP工具能力，大幅提升本地AI Agent的實用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地架設Ollama實例後，透過MCP Bridge接入Terravision、AiSOC等MCP工具，構建一個完全本地化的AI開發助理，用於架構圖生成、威脅分析等工作流程程，零雲端依賴。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/4612832?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-langgraph-x-jev-ai-agent",
+    "title": "LangGraph x Jev：打造生產級AI Agent的決策骨架",
+    "title_original": "Building Production Agents with Jev and LangGraph",
+    "source": "LangChain Blog",
+    "source_url": "https://blog.langchain.com/rss.xml",
+    "original_url": "https://www.langchain.com/blog/building-prod-with-jev-and-langgraph",
+    "published_at": "2026-09-25T20:19:50+00:00",
+    "category": "agent-skills",
+    "summary": "LangChain部落格介紹如何用LangGraph編排Jev（TypeSafe AI的決策模型）來構建生產Agent。Jev提供結構化決策邏輯，LangGraph負責狀態管理和流程控制。整合後可降低Agent開發複雜度，提升推論可解釋性，適合需要嚴謹業務流程自動化的場景。",
+    "highlights": [
+      "Jev是TypeSafe AI的決策模型，強調TypeSafe和可審計性",
+      "LangGraph提供DAG式工作流程編排，支援條件分支和循環",
+      "整合後可分離「決策邏輯」與「執行流程」關注點",
+      "官方稱可提升開發速度並降低生產環境錯誤率",
+      "支援與LangChain生態系其他元件（如工具調用）無縫整合"
+    ],
+    "why_it_matters": "企業級Agent開發需要穩定的決策框架。此組合提供了一條從實驗到生產的明確路徑，尤其適合金融、審批、客服等需要嚴格邏輯校驗的場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "將Jev的決策邏輯嵌入LangGraph流程，可自動化複雜的多步審批或診斷流程。技術讀者可克隆官方範例，替換業務規則後快速部署測試。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-proaction-codex-60-75",
+    "title": "Proaction 案例：Codex 提升銷售 60%、節省 75 小時",
+    "title_original": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/proaction",
+    "published_at": "2026-09-25T19:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 官方部落格發布 Proaction 使用案例，該公司透過 Codex（GPT-Live-1/GPT-6 Astra）加速現代化車隊管理系統的建置、營運與銷售，聲稱銷售成長 60%、節省 75+ 工時。",
+    "highlights": [
+      "OpenAI 官方 Blog 發布，有行銷成分但可信度高",
+      "使用 Codex 作為核心推論 Agent",
+      "聚焦企業級車隊管理垂直場景",
+      "量化指標：銷售 +60%、省 75+ 小時",
+      "涉及 GPT-Live-1、GPT-6 Astra 等模型"
+    ],
+    "why_it_matters": "企業級 AI 落地案例，驗證 Codex 在多步驟商業流程自動化中的實戰價值，而非僅實驗室基準測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估自身企業流程（客服、資料處理、報表生成）中哪些環節可複製此模式，用 Codex 做 POC 驗證。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-reddit",
+    "title": "Reddit 討論：如何透過單一路由器或端點同時調用多個模型",
+    "title_original": "How would you go about using multiple models together from a singe router (?) or a end point ?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq4j6g/how_would_you_go_about_using_multiple_models/",
+    "published_at": "2026-09-25T18:51:08+00:00",
+    "category": "hot-topics",
+    "summary": "LocalLLaMA 社群討論在同一個路由或端點上同時調用多個 LLM 模型的可能性與實作方式。雖然缺乏具體技術細節或官方公告，但反映了技術社群對於模型協作、負載分流與成本優化的高度興趣，可能預示著 Router 或 Gateway 類工具的發展趨勢。",
+    "highlights": [
+      "討論焦點在於多模型协同運作的架構設計與路由策略",
+      "技術社群對模型負載分流與成本控制有實質需求",
+      "目前缺乏官方 Router 工具的詳細技術文件",
+      "此類需求可能催生新的開源路由解決方案"
+    ],
+    "why_it_matters": "多模型路由技術可提升系統彈性與資源利用率，若有穩定開源方案可大幅簡化架構設計，值得關注後續發展。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估基於 Ollama 或 LocalAI 的自架路由方案，測試不同模型的回應延遲與成本效益組合。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-item",
+    "title": "從零訓練小型語言模型：技術開發者個人實作經驗分享",
+    "title_original": "Trained my first small language model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq3wn6/trained_my_first_small_language_model/",
+    "published_at": "2026-09-25T18:26:27+00:00",
+    "category": "new-models",
+    "summary": "一位開發者分享從零開始訓練小型語言模型（<1B參數）的完整流程，包括資料集準備、訓練框架選擇、超參數調校和常見踩坑經驗。訓練時間在消費級GPU上可控，對想在本地部署客製化模型的開發者有實際參考價值。",
+    "highlights": [
+      "使用LoRA/QLoRA等高效微調技術降低訓練資源需求",
+      "資料集品質是模型效果的關鍵因素，數量非越多越好",
+      "消費級RTX 3090/4090可在合理時間內完成訓練",
+      "分享了訓練loss監控、梯度爆炸等常見問題的解決思路",
+      "提供了訓練脚本和配置模板供社群參考"
+    ],
+    "why_it_matters": "訓練小型模型的能力代表AI平民化的關鍵一步。掌握此技能可針對特定領域任務訓練高效、低成本的客製化模型，避免依賴大廠API。",
+    "automation_angle": null,
+    "automation_angle_zh": "按此流程可在本地訓練針對內部文件、工作流程程的專屬小型模型，用於知識庫問答或流程自動化判斷，大幅降低推論成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-jev-kev",
+    "title": "開源Jev替代方案Kev實測對比：社群測試報告",
+    "title_original": "Jev vs. Kev: open-source Jev alternative tested side by side",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq2hfc/jev_vs_kev_opensource_jev_alternative_tested_side/",
+    "published_at": "2026-09-25T17:30:26+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit社群成員將開源Jev替代方案Kev與原版Jev進行並排測試。Kev定位為輕量級開源選項，在決策延遲和記憶體佔用上有明顯優勢，但部分複雜場景的決策品質略遜。測試涵蓋多個常見Agent決策情境，提供實用參考。",
+    "highlights": [
+      "Kev為開源社群發起的Jev替代實現，主打輕量",
+      "延遲和記憶體佔用：Kev明顯低於原版Jev",
+      "複雜多步推論場景：原版Jev決策品質仍較穩定",
+      "部署便利性：Kev無需申請API或商業授權",
+      "社群建議：简单决策場景可用Kev，复杂逻辑保留Jev"
+    ],
+    "why_it_matters": "對成本敏感或需要完全本地部署的開發者，Kev提供了一個免費且輕量的替代路徑。了解兩者差異可幫助技術團隊做出明智的技術選型。",
+    "automation_angle": null,
+    "automation_angle_zh": "在非關鍵業務流程或原型驗證階段使用Kev，可節省API成本並實現完全本地化。正式生產環境需評估決策品質是否滿足業務要求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-github-copilot-agentic-autofix-memory",
+    "title": "GitHub Copilot Agentic Autofix 整合 Memory 記憶功能",
+    "title_original": "Agentic autofix now uses Copilot Memory",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
+    "published_at": "2026-09-25T17:25:50+00:00",
+    "category": "agent-skills",
+    "summary": "Copilot 的 Agentic Autofix 功能現已整合 Copilot Memory。當系統處理資安漏洞時，會自動查詢用戶既有記憶上下文，輔助判斷修復方向。需用戶主動啟用 Memory 功能。",
+    "highlights": [
+      "Agentic Autofix 可存取用戶預存的專案上下文",
+      "根據 Memory 調整資安漏洞修復建議",
+      "需用戶在 Copilot 設定中啟用 Memory",
+      "目前僅影響資安警報處理流程",
+      "官方 Changelog 公告，確信度高"
+    ],
+    "why_it_matters": "Memory 功能讓 Autofix 不再從零理解專案，能產出更符合實際架構的修復方案，減少無效建議往返次數。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Copilot 設定啟用 Memory，預先存入架構決策與Coding規範，讓 Autofix 的資安修復更精準可靠。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-25-john-gruber-meta-muse",
+    "title": "John Gruber 示警：Meta Muse 看似可愛但暗藏風險",
+    "title_original": "Quoting John Gruber",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/25/john-gruber/",
+    "published_at": "2026-09-25T17:22:01+00:00",
+    "category": "hot-topics",
+    "summary": "John Gruber 引用 Simon Willison 的分析指出，Meta 推出的 Muse 系統雖以可愛介面呈現，卻是首個面向消費者的代理式 AI 系統，每位用戶擁有獨立持久化的 Linux VM。其技術突破明確，但 Gruber 憂心一般用戶可能低估系統的強大能力與潛在危險，尤其在 Mac 本地運行時更需警惕。",
+    "highlights": [
+      "Muse 為消費者可用的代理式 AI，具備完整持久化 Linux VM 環境",
+      "Meta 在包裝與易用性上表現出色，降低使用門檻",
+      "Gruber 憂慮一般用戶對系統能力與風險認知不足",
+      "系統具備「能切斷手指的電鋸」般的高風險屬性",
+      "本地運行時風險管理責任落在用戶身上"
+    ],
+    "why_it_matters": "Muse 代表代理式 AI 走向大眾的重要一步，技術社群需關注其安全模型與權限控管機制，作為此類系統的標竿參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可申請測試帳號，在隔離環境中評估 Muse 的工具呼叫能力與安全邊界，記錄可能的安全漏洞或不當操作。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-benchmark-nemotron-3-pyannote-sortformer-vibevoice",
+    "title": "臨床對話說者分割模型Benchmark：Nemotron 3、Pyannote、Sortformer、VibeVoice實測",
+    "title_original": "I compared diarization models on 15 clinical conversations: Nemotron 3, Pyannote, Sortformer and VibeVoice",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq1as8/i_compared_diarization_models_on_15_clinical/",
+    "published_at": "2026-09-25T16:44:28+00:00",
+    "category": "new-models",
+    "summary": "開發者在15段臨床對話上實測四款熱門說者分割（diarization）模型，評估轉錄準確率與說者歸屬能力。Nemotron 3（NVIDIA）在此任務表現突出，VibeVoice則在特定場景具競爭力。此類模型對醫療語音記錄自動化和會議記錄工具開發者有直接價值。",
+    "highlights": [
+      "15段真實臨床對話作為測試集，含多說者、重疊發言場景",
+      "Nemotron 3在整體準確率領先，顯示NVIDIA在語音任務的布局",
+      "Pyannote為開源方案，社群支援成熟但準確率次於商業模型",
+      "Sortformer結合排序機制，長對话處理表現穩定",
+      "VibeVoice為相對新進者，特定醫療術語場景有優勢"
+    ],
+    "why_it_matters": "說者分割是語音轉文字後的關鍵步驟，直接影響醫療記錄、法律取證、客服質檢的可用性。臨床場景測試結果對需要高準確率的垂直應用開發者最有參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "選擇合適的diarization模型可大幅提升自動化醫療記錄或會議紀錄系統的準確率。建議根據實際音頻質量選擇，Nemotron 3適合高質量音源，Pyannote適合開源優先的專案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-github-copilot-jetbrains",
+    "title": "GitHub Copilot 週更：新增模型、本地沙盒、JetBrains 更新",
+    "title_original": "GitHub Copilot weekly releases — September 21",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
+    "published_at": "2026-09-25T16:42:48+00:00",
+    "category": "hot-topics",
+    "summary": "Copilot 本週更新新增模型選項、Copilot App 支援本地沙盒環境，並更新 Slack/Teams/JetBrains/VS Code 各端功能。亮點為 Copilot Claude Opus 模型上架。",
+    "highlights": [
+      "Copilot App 新增本地沙盒，提升安全性",
+      "Claude Opus 模型加入 Copilot 模型列表",
+      "VS Code、JetBrains、Slack、Teams 同步更新",
+      "本週例行更新，官方 Changelog 來源可靠",
+      "具體模型版本與功能細節需查閱原文"
+    ],
+    "why_it_matters": "Copilot 模型矩陣持續擴充，工程師可更靈活切換適合任務的模型；本地沙盒降低敏感程式碼外洩風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Copilot App 啟用本地沙盒，測試對敏感程式碼的 AI 輔助生成，評估與雲端模式的效果差異。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-25-github-copilot-slack-teams",
+    "title": "GitHub Copilot Slack/Teams 更新：更豐富上下文與清晰工作流程",
+    "title_original": "Updates to GitHub Copilot for Slack and Microsoft Teams",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
+    "published_at": "2026-09-25T16:33:42+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 在 Slack 與 Microsoft Teams 的整合迎來更新，提供更多上下文資訊、更精細的控制選項，以及從對話直接跳轉至 GitHub 工作的清晰路徑。",
+    "highlights": [
+      "Slack/Teams 內 Copilot 上下文資訊量增加",
+      "支援從訊息直接建立 GitHub Issue/PR",
+      "控制選項更細緻，減少噪音",
+      "提升非工程師也能操作 GitHub 流程的可行性",
+      "屬於增量更新，非破壞性變更"
+    ],
+    "why_it_matters": "團隊中非技術成員可在 Slack/Teams 直接觸發 GitHub 工作，降低協作摩擦，提升跨部門流水線效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立團隊 SOP，讓 PM 或產品可在 Slack 直接建立 Issue 並指派，省去切換至 GitHub 介面的時間損耗。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-09-25-reddit-agent-agent",
     "title": "Reddit 討論：本地模型如何實現子 Agent 與多 Agent 協作",
     "title_original": "How do you use subagents & multiple agent with local models, and how many?",
@@ -7065,6 +7460,33 @@
     "automation_angle_zh": "建議僅在現有工作流程已整合該平台時評估；若需測試新工具，可利用教育認證獲取免費額度試用後再決定。",
     "tags": [
       "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-gemini-notebook",
+    "title": "Gemini Notebook 新增近百語言語音互動功能",
+    "title_original": "Gemini Notebook 推出近 100 种語言的实時語音 - Pasquale Pillitteri",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1oRXBMMTRsQS0zN1RDaWlnTU5kOE00a05HbUNkMEl3OGpQNmpLNklXQmh4RVQ5ZU1XV2dqVlU5amFGXzlzSFp0MGRXcVd3NnJDQ2E2ZHBJMDU3Q3EwUjVDYkljTG1aSjJuaGZiTm0yYnNsRjlIend5ZXIyYw?oc=5",
+    "published_at": "2026-09-16T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Gemini Notebook 宣布支援近 100 種語言的即時語音輸入與回應能力，用戶可直接以口說方式與 AI 互動。此更新大幅降低多語言使用門檻，尤其有利於非英語母語者在研究與資料分析場景中的效率提升。",
+    "highlights": [
+      "支援近 100 種語言的即時語音辨識與生成",
+      "可直接用於 Notebook 環境中的研究與分析工作流程",
+      "降低非英語使用者的互動門檻",
+      ".voz 功能整合可能減少第三方語音 API 需求"
+    ],
+    "why_it_matters": "多語言語音能力整合進 Notebook 環境，可簡化跨語言研究流程，若定價合理有望成為取代部分付費語音 API 的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可測試 Gemini Notebook 的語音功能在技術文檔翻譯或多語言程式碼註解場景的準確度，評估是否可省去第三方語音服務費用。",
+    "tags": [
+      "new-models",
       "rss",
       "zh-CN"
     ],
@@ -74589,6 +75011,34 @@
       "Rust"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/8189043?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-25-claude-code-codex-2026",
+    "title": "Claude Code 與 Codex 2026 深度評測對比",
+    "title_original": "Claude Code vs. Codex 2026: Best AI Coding Agent Compared - Kingy AI",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8ycVJiNTZEOVNodUFVb1JyQ3VVanZvTm5QVTUwWGt1ZmhBa01lTm9VbXcwekpmcWtvUTlQd0pmTnB1SWt3TDlEVVZZd1owQ0RYWWlOaXlpVUwtbmZ3?oc=5",
+    "published_at": "2026-06-21T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Kingy AI 發布 Claude Code 與 OpenAI Codex 2026 年終評測，從程式碼生成品質、多步驟任務完成率、工具鏈整合等維度進行實測對比，為開發者選型提供參考。",
+    "highlights": [
+      "第三方評測網站，非官方來源",
+      "涵蓋程式碼生成、任務完成率、工具整合維度",
+      "針對 2026 版本，含新模型能力變化",
+      "屬於工具選型參考，非技術實作文件",
+      "評測結論需自行驗證，謹慎採信具體數據"
+    ],
+    "why_it_matters": "年底評測有助了解兩大主流 Coding Agent 實戰差距，但第三方測試環境與實際工作場景可能存在偏差。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據評測維度設計自己的測試用例，在真實專案中各跑 10 個任務，對比兩者效果再做選型決定。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
