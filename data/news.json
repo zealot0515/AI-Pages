@@ -1,5 +1,119 @@
 [
   {
+    "id": "2026-09-26-litestar-org-litestar-skills-agent-mcp-skills-ide",
+    "title": "litestar-org/litestar-skills：跨 Agent 平台的 MCP Skills 框架，可一鍵發布至多 IDE",
+    "title_original": "litestar-org/litestar-skills",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/litestar-org/litestar-skills",
+    "published_at": "2026-09-26T19:48:50Z",
+    "category": "agent-skills",
+    "summary": "Litestar-skills 是 Litestar 生態系的第一方 MCP 工具集，涵蓋 Agent Skills、Plugins、Subagents 與 Slash Commands。支援發布至 Claude Code、Gemini CLI、Codex CLI、Cursor、OpenCode、VS Code/Copilot 等主流平台，試圖以單一 Repo 覆蓋多元 Agent 客戶端。目前 Stars 偏低（15），訊號強度待觀察。",
+    "highlights": [
+      "• 統一 MCP 工具集，試圖解決 Agent 工具碎片化問題",
+      "• 支援發布至 6+ 主流 Agent 平台與 IDE",
+      "• 屬於 Litestar 框架生態，可與其 Web 服務整合",
+      "• 15 Stars 顯示社群關注度尚低",
+      "• 可能是框架推廣 PR，實用性需自行驗證"
+    ],
+    "why_it_matters": "若該框架能真正實現跨平台統一發布，可大幅降低 Agent 工具的維護成本。但低 Stars 與缺乏大規模採用案例使其目前訊號偏弱。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Litestar 的技術用戶可將現有工具包封裝為 MCP Server，實測是否能同步發布至 Cursor 與 Copilot，評估是否值得作為內部工具分發的標準化方案。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/97250344?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-croit-aiplane-rust-ai-mcp",
+    "title": "croit/aiplane：Rust 實作的自架 AI 基礎設施平台，整合 MCP 與多後端路由",
+    "title_original": "croit/aiplane",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/croit/aiplane",
+    "published_at": "2026-09-26T19:47:25Z",
+    "category": "agent-skills",
+    "summary": "aiplane 是一款新興的自架 AI 基礎設施框架，以 Rust 語言實作，提供 OpenAI 相容的 LLM 閘道、伺服器端 Agent 執行、MCP 協定支援、RAG、記憶層、沙盒隔離、身分驗證、RBAC 與配額管理。可路由至 vLLM、SGLang、Ollama 或托管 API，目前僅 23 stars，需持續觀察社群發展。",
+    "highlights": [
+      "• Rust 語言實作，追求高效能與記憶體安全",
+      "• OpenAI 相容閘道簡化既有應用的遷移成本",
+      "• 支援 MCP 協定，可與主流 Agent 工具鏈互通",
+      "• 整合 RAG、記憶、沙盒等企業級功能",
+      "• 支援多後端路由（vLLM、SGLang、Ollama、托管 API）"
+    ],
+    "why_it_matters": "自架 AI 基礎設施可有效控制 API 成本並確保資料主權。aiplane 若能持續維護，可能成為企業內部部署 Agent 的輕量化替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地環境部署 aiplane，串接 Ollama 或 vLLM，自建 Agent 執行環境，測試 MCP 工具呼叫流程以驗證與現有工作流程的整合可行性。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/27902280?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-splash-1-1-0-gguf-mlx",
+    "title": "Splash 1.1.0 發布：支援 GGUF 量化與 MLX 匯入",
+    "title_original": "Splash 1.1.0 released, GGUF quants support, MLX import and more",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqw9rn/splash_110_released_gguf_quants_support_mlx/",
+    "published_at": "2026-09-26T17:27:22+00:00",
+    "category": "open-source-ai",
+    "summary": "Splash 工具發布 1.1.0 版本，新增 GGUF 量化模型支援與 MLX 框架匯入功能。MLX 是蘋果為自家晶片設計的機器學習框架，此次整合擴大了 Splash 在蘋果硬體上的適用範圍，讓用戶能更靈活地使用量化模型。",
+    "highlights": [
+      "新增 GGUF 量化格式原生支援",
+      "整合 MLX 框架適用於 Apple Silicon",
+      "支援跨平台模型部署更靈活",
+      "版本號 1.1.0 表示功能趨於成熟",
+      "社區驅動的開源專案"
+    ],
+    "why_it_matters": "MLX 整合讓蘋果用戶能更高效地在本地運行量化模型，Splash 作為介面工具降低了使用門檻，對使用 Mac 進行 AI 開發的人員有實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Apple Silicon 上測試 GGUF 量化模型的載入速度與效能，評估是否能替代雲端 API 完成日常任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-ai",
+    "title": "本地端AI的可近性分析：廉價取用前線模型能維持多久？",
+    "title_original": "How accessible is local AI actually, and what happens if affordable access to frontier models doesn’t last?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqtrfi/how_accessible_is_local_ai_actually_and_what/",
+    "published_at": "2026-09-26T15:45:31+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 社群熱烈討論本地端AI的實際可近性，以及若未來無法負擔取用前線模型時會發生什麼。討論聚焦於本地部署硬體成本、模型效能與雲端API成本的取捨，以及開源模型是否能持續追趕封閉模型的問題。",
+    "highlights": [
+      "本地端推論需克服GPU記憶體與算力限制",
+      "雲端前線模型API成本持續上升引發擔憂",
+      "開源模型追赶封閉模型的能力存疑",
+      "硬體投資門檻仍是主要障礙",
+      "社區探索各種量化技術與最佳化方案"
+    ],
+    "why_it_matters": "對技術人員而言，了解本地端AI的長期可行性關乎基礎設施規劃與成本控制。若雲端API價格持續上漲，本地部署的經濟效益可能改變。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估自身工作負載是否適合本地部署，計算GPU硬體投資回收期，比較不同量化等級的效能損失。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-26-iezhu-agents-mcp-agent",
     "title": "IEZhu/Agents：通用 MCP 伺服器實現 Agent 角色與技能注入",
     "title_original": "IEZhu/Agents",
@@ -48476,6 +48590,34 @@
       "new-models",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-internshala-google-ai",
+    "title": "Internshala 與 Google 合作：學生可免費獲得一年 AI 訂閱",
+    "title_original": "Internshala联合谷歌推出专属福利：学生使用者可免費领取一年AI訂閱 - 80aj.com",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5TVWZSdUNuQS1KTUh3Q2ZDMk8zN2lBWDVRNW9MaEtvWFZ3RFZOaUZYUDE4OXhZWG82NHN6bENNcjdfQmJxeEQxUFFJSEpLcnJEdGxOSU51SE9YaHE5eUttdU0wZDlua1NkZXlN?oc=5",
+    "published_at": "2026-07-26T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "根據 80aj.com 報導，印度教育平台 Internshala 與 Google 合作推出專屬福利，學生用戶可免費領取一年 AI 服務訂閱。此優惠主要面向印度學生族群，需透過 Internshala 平台驗證學生身份後兌換。",
+    "highlights": [
+      "僅限 Internshala 平台註冊學生用戶",
+      "需通過學生身份驗證程序",
+      "優惠期限為一年，具體終止日期未明",
+      "訊息來源為二級聚合網站，原始條款待確認",
+      "主要適用於印度市場"
+    ],
+    "why_it_matters": "此類學生優惠可降低開發者初期嘗試成本，但優惠來源非官方一手資訊，且地理限制使其對大多數技術用戶實用性有限。",
+    "automation_angle": null,
+    "automation_angle_zh": "驗證原始優惠頁面與條款，若符合資格可考慮用於測試與原型開發，但不宜作為正式工作流程程依賴。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
