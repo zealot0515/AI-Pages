@@ -1,5 +1,174 @@
 [
   {
+    "id": "2026-09-26-iezhu-agents-mcp-agent",
+    "title": "IEZhu/Agents：通用 MCP 伺服器實現 Agent 角色與技能注入",
+    "title_original": "IEZhu/Agents",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/IEZhu/Agents",
+    "published_at": "2026-09-26T10:26:56Z",
+    "category": "agent-skills",
+    "summary": "IEZhu/Agents 旨在成為通用 MCP 伺服器，讓 AI Agent 可動態載入角色、技能與認知植入模組。作為 Python 專案，目標是簡化多 Agent 系統的模組化擴展，目前星數偏低（13）屬早期概念驗證階段。",
+    "highlights": [
+      "通用 MCP 伺服器框架支援動態角色載入",
+      "Python 實作，降低與主流 AI 框架整合的門檻",
+      "早期專案，星數少，穩定性與功能完整度待驗證",
+      "概念接近 LangChain Agents，但瞄準 MCP 生態整合"
+    ],
+    "why_it_matters": "隨著 MCP 協議生態擴張，通用伺服器框架可簡化多 Agent 協作設定；技術用戶值得關注此類專案的成熟度進展。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其作為實驗起點，用 Python 定義自訂 Agent 角色與技能，逐步建構模組化的多 Agent 工作流程原型。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/188903793?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-openchatx-mcp-chatgpt-agent",
+    "title": "openchatx-mcp：將 ChatGPT 轉為本地 Agent 運行時",
+    "title_original": "XiaoPuOuO/openchatx-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/XiaoPuOuO/openchatx-mcp",
+    "published_at": "2026-09-26T10:23:50Z",
+    "category": "agent-skills",
+    "summary": "openchatx-mcp 透過單一 MCP 連接，將 ChatGPT 介面擴展為本地 Agent 運行時，支援電腦操作、本地工具呼叫、MCP 伺服器發現與自有模型委派。120 顆星反映社群對本地 Agent 整合的強烈需求。",
+    "highlights": [
+      "將 ChatGPT 介面延伸為可操作電腦的 Agent",
+      "支援發現並呼叫本地 MCP 伺服器生態",
+      "可委派任務給自有的本地模型，保留隱私控制",
+      "TypeScript 實作，輕量易整合"
+    ],
+    "why_it_matters": "技術用戶常受限於 ChatGPT 無法直接驅動本地工具；此專案提供一條捷徑，讓 ChatGPT 介面成為可操作的本地 Agent 前端。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可安裝後將 ChatGPT 接入本地檔案系統或開發環境，用自然語言驅動指令列操作或自動化指令排程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/196305018?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-zenbrain-mcp",
+    "title": "zenbrain：神經科學啟發的七層記憶系統 MCP 伺服器",
+    "title_original": "zensation-ai/zenbrain",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/zensation-ai/zenbrain",
+    "published_at": "2026-09-26T09:58:44Z",
+    "category": "agent-skills",
+    "summary": "zenbrain 是一款零依賴 TypeScript 函式庫，提供工作、情節、語義、程序四層記憶加 FSRS 間隔重複，並附帶 MCP 伺服器與 Vercel AI SDK 中介軟體。LongMemEval-500 測試中以 3 裁判 Bonferroni 校正贏下全部 9 項比較。",
+    "highlights": [
+      "七層記憶架構模擬人類長期與短期記憶機制",
+      "FSRS 間隔重複提升 Agent 長期資訊保留率",
+      "零外部依賴，可直接引入現有 Node.js/TS 專案",
+      "提供 MCP 伺服器，相容 Model Context Protocol 生態",
+      "LongMemEval-500 表現領先，實證記憶品質具競爭力"
+    ],
+    "why_it_matters": "記憶能力是 Agent 實用性的核心瓶頸；zenbrain 提供可嵌入的記憶方案，能讓技術用戶快速為自建 Agent 增添長期上下文能力。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在自訂 Agent 專案中引入 zenbrain 處理多步驟任務的上下文累積，用 MCP 伺服器模式整合到現有 LangChain 或其他框架。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/270459043?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-332mb-cpu",
+    "title": "332MB 輕量文件分類模型：CPU 友善且能主動拒絕無關內容",
+    "title_original": "I built a tiny (332MB) CPU-friendly model for document sorting that actually knows when to say \"none fits\" (BeeNara)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqm53a/i_built_a_tiny_332mb_cpufriendly_model_for/",
+    "published_at": "2026-09-26T09:24:53+00:00",
+    "category": "new-models",
+    "summary": "開發者 BeeNara 發布一款僅 332MB 的文件分類模型，專為 CPU 環境設計，能正確識別「無合適分類」的情況並主動回覆「none fits」，避免強制分類導致的誤差。",
+    "highlights": [
+      "模型大小僅 332MB，適合低資源設備",
+      "支援 CPU 推論，無需 GPU",
+      "內建「無匹配分類」識別能力",
+      "可用於文件自動歸檔、郵件分類等場景",
+      "開源可部署，無 API 依賴"
+    ],
+    "why_it_matters": "輕量本地模型結合「拒絕能力」是重要趨勢，避免了強制輸出的 hallucination 問題。這款模型為文件自動化分類提供低門檻、低成本的本地解決方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "將模型部署在文書伺服器上，自動化分類收到的電子郵件或文件，設定工作流程程觸發條件，無需雲端費用即可實現基本文件智慧歸檔。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-koboldcpp-agent",
+    "title": "KoboldCpp Agent 模式亮相：開源文本生成框架新能力",
+    "title_original": "Introducing KoboldCpp Agent (and a plea for help)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqlyp8/introducing_koboldcpp_agent_and_a_plea_for_help/",
+    "published_at": "2026-09-26T09:13:29+00:00",
+    "category": "open-source-ai",
+    "summary": "KoboldCpp 團隊宣布推出 Agent 模式，賦予本地文本生成框架更多自主執行任務的能力。此更新旨在降低本地部署 AI Agent 的門檻，讓用戶可在本地環境實現複雜的多步推論流程。",
+    "highlights": [
+      "KoboldCpp 新增 Agent 模式支援工具調用",
+      "本地部署無需雲端 API，適合隱私敏感場景",
+      "支援 llama.cpp 後端，保持低資源消耗",
+      "社群呼籲更多開發者參與完善工具生態",
+      "可與現有 Kobold 介面無縫整合"
+    ],
+    "why_it_matters": "KoboldCpp 作為熱門本地推論框架，此次加入 Agent 能力代表開源社群正追趕閉源模型的工具調用功能。對於希望在本地運行自主代理的技術用戶是實用進展。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 KoboldCpp，啟用 Agent 模式並定義自定義工具，實現本地化的自動文案生成、資料整理等任務，零雲端成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-3d",
+    "title": "本地視覺模型實現 3D 列印即時監控",
+    "title_original": "Local vision model for 3D print monitoring",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqheo9/local_vision_model_for_3d_print_monitoring/",
+    "published_at": "2026-09-26T04:40:54+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者展示基於本地視覺模型的 3D 列印監控系統，能在邊緣設備上即時分析列印進度並偵測異常。系統不依賴雲端，保護智慧財產同時降低延遲風險。",
+    "highlights": [
+      "本地視覺模型處理列印影像，無網路依賴",
+      "即時偵測列印缺陷與失敗跡象",
+      "適用於保護機密或專利設計文件",
+      "可部署於常見單板電腦",
+      "減少昂貴雲端視覺 API 的調用成本"
+    ],
+    "why_it_matters": "3D 列印愛好者與小型工廠可透過本地視覺監控降低毀損率與雲端費用。此類邊緣視覺應用展示本地 AI 在工業場景的實際落地潛力。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Raspberry Pi 或 NVIDIA Jetson 上部署該模型，接 webcam 監控 3D 列印機，發現異常時觸發中斷指令或通知，大幅降低材料浪費與監工時間。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-26-mcp-server-gateway-mcp-oauth-langgraph-agent",
     "title": "mcp-server-gateway：MCP 閘道器，支援 OAuth 認證與企業級 LangGraph Agent",
     "title_original": "harish-gaggar/mcp-server-gateway",
@@ -112,6 +281,62 @@
       "Kotlin"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/310443301?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-oh-my-pi-vllm-llama-cpp-sglang",
+    "title": "Oh My Pi 支援自訂模型：vLLM、llama.cpp、SGLang 多後端整合",
+    "title_original": "Custom Models in Oh My Pi: vLLM, llama.cpp, SGLang and More",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqcki2/custom_models_in_oh_my_pi_vllm_llamacpp_sglang/",
+    "published_at": "2026-09-26T00:31:03+00:00",
+    "category": "open-source-ai",
+    "summary": "Oh My Pi 專案宣布支援自訂模型掛載，開發者可靈活選擇 vLLM、llama.cpp、SGLang 等不同推論後端。此功能提升邊緣裝置上的模型部署彈性，方便用戶根據硬體配置優化吞吐量。",
+    "highlights": [
+      "支援 vLLM、llama.cpp、SGLang 等主流後端",
+      "用戶可自訂模型並指定推論引擎",
+      "針對樹莓派等邊緣裝置優化",
+      "提升特定硬體的推論效率",
+      "降低小型部署的技術門檻"
+    ],
+    "why_it_matters": "邊緣 AI 部署需求日益增加，Oh My Pi 的多後端支援讓開發者能在資源受限環境中選擇最合適的推論引擎，是本地化 AI 應用的實用工具鏈更新。",
+    "automation_angle": null,
+    "automation_angle_zh": "在樹莓派或迷你主機上安裝 Oh My Pi，選擇對應後端部署輕量模型，實現本地化的 IoT 資料處理或邊緣推論自動化流程。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-reddit-ai",
+    "title": "Reddit 熱議：本地 AI 編碼代理為何備受關注",
+    "title_original": "Blabbermouth AI coding agents hate this one weird trick!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqcil9/blabbermouth_ai_coding_agents_hate_this_one_weird/",
+    "published_at": "2026-09-26T00:28:30+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit LocalLLaMA 社群熱烈討論 AI 編碼代理工具的實用性與局限性。用戶分享使用本地模型的體驗，指出本地部署在隱私與成本上的優勢，但也坦承指令遵循與長上下文處理仍有挑戰。",
+    "highlights": [
+      "本地 AI 編碼代理受隐私意識用戶關注",
+      "相較雲端方案，無 API 費用負擔",
+      "指令遵循穩定性為主要痛點",
+      "長程式碼庫處理能力受限",
+      "社群分享多種替代方案與 Prompt 技巧"
+    ],
+    "why_it_matters": "本地 AI 編碼工具正逐漸成熟，對在意資料安全或希望降低 API 開支的開發者而言是值得關注的替代方案，但需評估其與雲端旗艦模型的實際差距。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可部署開源編碼代理模型，配合既有 CI/CD 流程自動化 code review 或簡單重構任務，驗證本地方案能否勝任特定工作。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -4739,6 +4964,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-26-ai",
+    "title": "社區熱議美國AI訂閱方案：區域價差與「降智」爭議引發用戶大量討論",
+    "title_original": "從“夯”到“拉完了”：社区锐评美国AI訂閱方案，区域差價與降智乱象引热议 - 80aj.com",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5hak9uMDZ1bTl1V3BUX2tqVDlJbV9acFgwRXVyb1pCd0EtOGo3UkY4dUVqdFZycDg0UUlLYjNBTndibi1rMC1saS1rcFRhUGJyOFBzOVY5LUF3TzRqQXZsQ0llcTFGSllvQlIyQ2lFNA?oc=5",
+    "published_at": "2026-09-20T13:06:17+00:00",
+    "category": "ai-deals",
+    "summary": "用戶社區針對美國AI訂閱方案展開熱烈討論，主要聚焦於區域價格差異過大以及AI模型輸出品質下滑（「降智」）的問題。從「夯」（好用）到「拉完了」（完蛋了）的用詞轉變，反映用戶對服務品質下滑的不滿情緒持續升溫。",
+    "highlights": [
+      "不同地區訂閱價格存在顯著差異，引發公平性爭議",
+      "用戶反映 AI 模型輸出品質出現明顯下降",
+      "社區情緒從正面評價轉為負面吐槽",
+      "80aj.com 收錄社區用戶的多元觀點與使用經驗"
+    ],
+    "why_it_matters": "AI 訂閱服務的品質波動與定價策略直接影響開發者的工具選擇。了解社區真實反饋可幫助技術用戶在選型時做出更全面的判斷，避免踩雷並優化工具組合。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可參考社區討論中的替代方案推薦，建立自己的 AI 工具矩陣以分散單一服務風險，並透過社群回饋避開已出現降智問題的模型版本。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-20-awwards-mcp-mcp-server-ai-agent",
     "title": "Awwards-mcp：開源 MCP Server，給 AI 編碼 Agent 注入設計靈感",
     "title_original": "INSANE0777/Awwards-mcp",
@@ -9122,6 +9374,33 @@
       "new-models",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-claude-code-25-17-pasquale-pillitteri",
+    "title": "Claude Code 額度調整：表面漲25%實際削17%，Pasquale Pillitteri 分析用戶實際受影響程度",
+    "title_original": "Claude Code 將每周額度提高 25%，但對现在的使用者來說是削减 17% - Pasquale Pillitteri",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQVpBZE9Za3Q3U0FrY05MM05Eb1hlX2k4Undtb3BqX3E0U2tvU3hzbThzbGNOeHFuekxhb0ZDejZhZmluTGZxN24tam9BajM2M0FLekxiTVVhTDc1T0ZSV3NPaWtZMVhoaWdxQ0RJbDcwQUZwMGd2dTMteEg4a09zOHFPaUFTd1JEMHBKXw?oc=5",
+    "published_at": "2026-09-14T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Claude Code 宣布每週額度調升25%，但分析指出對現有用戶而言實際可用額度反而減少17%。此變動涉及付費訂閱機制的複雜計算，可能影響重度使用者的成本效益。開發者需重新評估使用頻率與預算配置，並考慮是否切換至其他替代方案。",
+    "highlights": [
+      "每週額度帳面增加25%，但實際計算方式導致現有用戶可用量減少17%",
+      "付費訂閱機制的複雜度增加用戶理解成本負擔",
+      "Pasquale Pillitteri 提供詳細計算分析可供參考",
+      "重度 Claude Code 用戶受影響最大，需重新計算 ROI"
+    ],
+    "why_it_matters": "此額度調整直接影響技術用戶的開發成本與工作流程暢度。若實際可用資源減少，可能需要重新评估 Claude Code 的使用策略或考虑替代工具以維持開發效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可利用 Pasquale Pillitteri 的分析自行計算實際額度變化，並建立用量追蹤腳本以優化 API 調用頻率，避免超出限額導致工作中斷。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
@@ -15936,6 +16215,34 @@
       "hot-topics",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-gpt-6-astra-pro-enterprise-api-anthropic-claude",
+    "title": "GPT-6 Astra 上線 Pro、Enterprise 與 API，Anthropic 同步重置 Claude 用量上限",
+    "title_original": "GPT-6 Astra 登陆 Pro、Enterprise 和 API，Anthropic 同時重置 Claude 使用上限 - Pasquale Pillitteri",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdTJ5NHBjTEplZXdpZHVHc1NjSi1TeEY4bmQ2ZmdGMTAtZkRqT0VjZ0VwUVFfQlptMmJkNldrQll3VEdPQ3hCOTVpdGhsTEdJaldhYkVHZWFNMkExVW1pX3BnZk1jNGdybFc0czMzSGxVanhpRlV5ZFNxNUtIMjJER2FuckJaVUZkLWY4WlBSMmtjTTNjbGdnOQ?oc=5",
+    "published_at": "2026-09-05T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 宣布 GPT-6 Astra 模型正式登陸 Pro、Enterprise 方案及 API 接口，提供更強推論能力。同時 Anthropic 傳出重置 Claude 使用上限的消息，疑似因用量監控政策調整。用戶可關注兩大平台同步更新，評估性價比變化。",
+    "highlights": [
+      "GPT-6 Astra 模型已開放 Pro/Enterprise 用戶使用，含 API 接入",
+      "Anthropic 重置 Claude 用量上限，可能影響高頻用戶工作流程",
+      "兩大平台更新節奏相近，市場競爭態勢明顯",
+      "Pro 方案用戶可直接在 ChatGPT 介面體驗新模型",
+      "API 定價尚未完全公開，需查閱官方文檔確認"
+    ],
+    "why_it_matters": "模型定價與使用限制直接影響開發成本與工作流程程規劃。兩家主流廠商同步更新，代表業界對企業級 AI 工具的重視程度提升，技術用戶需重新評估當前工具鏈的成本效益。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可比較 GPT-6 Astra 與 Claude 在相同任務上的表現與成本差異，透過 API 測試腳本建立自動化基準測試，決定未來專案首選模型。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
