@@ -1,5 +1,257 @@
 [
   {
+    "id": "2026-09-26-mcp-server-gateway-mcp-oauth-langgraph-agent",
+    "title": "mcp-server-gateway：MCP 閘道器，支援 OAuth 認證與企業級 LangGraph Agent",
+    "title_original": "harish-gaggar/mcp-server-gateway",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/harish-gaggar/mcp-server-gateway",
+    "published_at": "2026-09-26T02:35:21Z",
+    "category": "agent-skills",
+    "summary": "harish-gaggar/mcp-server-gateway 是 MCP 協定的閘道實現，內建 OAuth MCP Servers、LangGraph Agent 框架，配有記憶、評估追蹤、PII 守衛、上下文裁剪等企業級功能，提供 Docker 快速啟動。",
+    "highlights": [
+      "MCP 閘道架構：統一管理多個 MCP Server",
+      "OAuth 認證支援：適合企業安全需求",
+      "LangGraph Agent：狀態機式的工作流程設計",
+      "PII 守衛：敏感資料脫敏處理",
+      "Docker 快速啟動，降低部署門檻"
+    ],
+    "why_it_matters": "MCP 為 AI Tool Calling 的重要標準，企業級閘道 + OAuth + PII 守衛的組合直接瞄準商業部署需求，是建構內部 Agent 平台的技術參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 Docker Compose 啟動完整測試環境，串接自有 MCP Server，驗證 OAuth 認證流程與 PII 守衛對敏感資料的脫敏效果。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/64188979?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-dombot-mcp",
+    "title": "Dombot：整合所有域名註冊商的 MCP 桌面工具",
+    "title_original": "aoxborrow/dombot",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/aoxborrow/dombot",
+    "published_at": "2026-09-26T02:21:30Z",
+    "category": "agent-skills",
+    "summary": "Dombot 是一款開源 TypeScript 桌面應用，可統一管理來自多個註冊商的域名，並內建 MCP 伺服器供 AI Agent 调用。目前僅 11 顆星，但提供了可直接整合進 AI 工作流程的域名管理能力。",
+    "highlights": [
+      "支援從多個域名註冊商集中管理所有域名",
+      "內建 MCP 伺服器，AI Agent 可直接呼叫操作域名",
+      "開源桌面應用，可自行部署審查原始碼",
+      "TypeScript 實作，符合現代開發者生態"
+    ],
+    "why_it_matters": "域名管理長期缺乏好用的自動化工具，Dombot 的 MCP 介面讓 AI Agent 能直接操作域名，是建立自動化基礎設施的潛力起點。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可將 Dombot MCP 整合進自己的 AI Agent 工作流程，實作域名狀態監控、批量更新 DNS 或自動化到期提醒。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/136583?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-mnemos-mcp-markdown",
+    "title": "mnemos：本地優先的 MCP 記憶服務器，支援引用溯源與 Markdown 知識庫",
+    "title_original": "arhuman/mnemos",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/arhuman/mnemos",
+    "published_at": "2026-09-26T02:13:48Z",
+    "category": "agent-skills",
+    "summary": "arhuman/mnemos 是 Go 語言實現的本地優先 MCP 記憶伺服器，內建來源引用機制與 OKF/Markdown 知識庫支援，為 AI Agent 提供持久化、可溯源的记忆能力，現有 15 顆星。",
+    "highlights": [
+      "本地優先：資料保存在本地，無需雲端依賴",
+      "來源引用（Source Citation）：回覆可溯源至原始知識",
+      "OKF/Markdown 知識庫支援：相容主流知識管理格式",
+      "Go 語言實現：高效能、跨平台編譯",
+      "MCP 原生整合：直接作為 Agent 的長期記憶層"
+    ],
+    "why_it_matters": "Agent 的上下文丟失是實際應用痛點，mnemos 提供本地持久化記憶方案，來源引用功能更可提升 AI 回覆的可信度與可審計性。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 mnemos 部署為本機 MCP 記憶 Server，觀察 Agent 在長對話中的記憶持久性與引用準確度，評估是否能減少每次 Context 的 Token 消耗。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/283991?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-betteraichat-android-ai-agent-api-key-shizuku-shell",
+    "title": "BetterAIChat：Android 原生 AI Agent，支援自帶 API Key 與 Shizuku Shell",
+    "title_original": "Verlintas/BetterAIChat",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Verlintas/BetterAIChat",
+    "published_at": "2026-09-26T01:04:09Z",
+    "category": "agent-skills",
+    "summary": "BetterAIChat 是 Kotlin 開發的 Android 原生 AI Agent，允許用戶自帶 OpenAI/Anthropic/Gemini API Key，具備 Shizuku 殼層、螢幕分析、網頁搜尋、自訂 Skills 與語音助理功能，現有 138 顆星。",
+    "highlights": [
+      "支援 OpenAI/Anthropic/Gemini 自帶 API Key",
+      "Shizuku Shell 提供深層系統操作能力",
+      "螢幕分析：即時讀取 UI 畫面進行互動",
+      "自訂 Skills 系統，可擴充工作流程指令",
+      "語音助理整合，適合移動場景的 AI 操控"
+    ],
+    "why_it_matters": "自帶 API Key 的設計讓用戶掌握金鑰與成本，結合 Shizuku 可實現超越一般 AI App 的系統層控制，對技術愛好者極具實驗價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 Android 設備安裝後，以 Gemini API Key 測試螢幕分析與 Shizuku 自動化操作，評估是否能取代部分桌面端 Agent 工作流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Kotlin"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/310443301?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-github-copilot",
+    "title": "GitHub Copilot 企業托管設定支援產品內驗證器",
+    "title_original": "Enterprise managed settings in-product validator",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+    "published_at": "2026-09-25T23:24:57+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 企業托管設定現在提供產品內驗證器，可即時偵測格式錯誤的 JSON、不支援的設定、無效的團隊映射等問題，避免錯誤設定導致功能失效。",
+    "highlights": [
+      "即時偵測 JSON 格式錯誤",
+      "驗證團隊映射與不支援的設定值",
+      "部署前攔截錯誤，防止設定失效",
+      "降低企業管理員的除錯成本"
+    ],
+    "why_it_matters": "企業 Copilot 設定繁瑣易錯，產品內驗證器可減少因設定錯誤導致的支援單或功能異常，今天就能提升 IT 管理效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "企業技術管理員可在部署新 Copilot 政策前先用驗證器預檢，確保設定正確無誤再發布到全組織。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-26-vllm-qwen3-8b-flash-attention-nvfp4-rtx-pro-5000-72gb-tensor-paralleli",
+    "title": "vLLM 優化食譜：Qwen3.8B Flash Attention + NVFP4 量化在 RTX Pro 5000 72GB 上的 Tensor Parallelism=2 實測",
+    "title_original": "vLLM Recipe for Qwen38 Flash Next NVFP4 TP=2 for RTX Pro 5000 72g",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqag5e/vllm_recipe_for_qwen38_flash_next_nvfp4_tp2_for/",
+    "published_at": "2026-09-25T22:53:49+00:00",
+    "category": "open-source-ai",
+    "summary": "社群分享在 RTX Pro 5000 72GB 顯示卡上部署 Qwen3.8B 的完整 vLLM 配置方案。採用 NVFP4 量化格式與 Tensor Parallelism=2 設定，實現單卡高效推論。食譜包含具體參數調校步驟，對想在消費級硬體運行較大模型的使用者有實用參考價值。",
+    "highlights": [
+      "Qwen3.8B 屬阿里開源中英雙語模型，社群關注度高",
+      "NVFP4 量化可在保持精度的前提下大幅降低記憶體需求",
+      "Tensor Parallelism=2 適合多卡但記憶體受限的部署場景",
+      "RTX Pro 5000 72GB 屬專業工作站級顯示卡",
+      "vLLM 是目前最主流的開源推論框架之一"
+    ],
+    "why_it_matters": "此 vLLM 食譜展示了在有限預算硬體上運行中等規模開源模型的可能性。對於需要本地部署、同時控制成本的技術團隊，這類實測經驗可直接套用於實際專案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可根據此食譜複製實驗，測試相同配置在不同批次顯示卡上的穩定性，並進一步探索 NVFP4 與其他量化格式（如 GPTQ、AWQ）的效能差異，優化本地部署性價比。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-mica-v0-1-4b-8gb-gpu",
+    "title": "Mica v0.1 4B：小參數決策模型可在 8GB GPU 運行",
+    "title_original": "Mica v0.1 4B: open Jev-style decision model (yes/no, choice, score) that runs on an 8 GB GPU — trained for under $30 of GPU time",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqag1i/mica_v01_4b_open_jevstyle_decision_model_yesno/",
+    "published_at": "2026-09-25T22:53:41+00:00",
+    "category": "open-source-ai",
+    "summary": "Mica v0.1 是一款 40 億參數的開放決策模型，支援 yes/no、選擇題、評分等 Jev 風格決策輸出。官方宣稱可在 8GB GPU 運行，訓練成本低於 30 美元 GPU 運算費用。",
+    "highlights": [
+      "4B 參數決策模型，專精結構化輸出",
+      "支援 yes/no、選擇、評分等決策類型",
+      "可在 8GB GPU 本地運行",
+      "訓練成本宣稱低於 30 美元"
+    ],
+    "why_it_matters": "低成本、小參數的決策模型適合需要可靠二選一或評分判斷的 Agent 流程，可降低雲端 API 呼叫成本並提升隱私。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可下載此模型整合進自己的 Agent 工作流程，取代昂貴的通用模型處理簡單決策判斷，降低延遲與成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-ide-reddit",
+    "title": "本地模型開發該用什麼 IDE？Reddit 開發者實戰經驗整理",
+    "title_original": "What IDE to use for local models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq9ivr/what_ide_to_use_for_local_models/",
+    "published_at": "2026-09-25T22:13:19+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit LocalLLaMA 社群熱烈討論本地運行大語言模型時該選擇哪種 IDE。開發者分享了 VS Code、Cursor、 Zed、Cline 等工具的優缺點，焦點在於遠端連線能力、語法支援、擴充生態與 GPU 資源整合便利性。討論反映技術宅對本地部署、開源模型除錯的強烈需求。",
+    "highlights": [
+      "VS Code 仍是主流，Remote SSH 擴充可連線至 GPU 伺服器",
+      "Cursor 結合 AI 輔助程式設計，獲得部分開發者青睞",
+      "Zed 標榜高速與現代化 UI，但對本地模型整合仍在早期階段",
+      "Cline 等 AI 原生編輯器開始支援本地模型 API 调用",
+      "Remote development 能力是選擇關鍵，本地 GPU 主機需要網路存取"
+    ],
+    "why_it_matters": "本地模型部署日漸普及，IDE 選擇直接影響除錯效率與開發體驗。合適的工具鏈能縮短模型評測迭代時間，降低從雲端遷移至本地的工作負擔。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可根據本機 GPU 配置，測試不同 IDE 的遠端連線穩定性，選擇最能支援 vLLM/Ollama API 整合的編輯環境，實現本地模型開發流程標準化。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-26-github-copilot-api-pr",
+    "title": "GitHub Copilot 用量 API 新增 PR 審查階段分析",
+    "title_original": "Usage metrics API adds pull request review stages",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+    "published_at": "2026-09-25T21:09:40+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 企業與組織層級的 Copilot 用量報告現已細分 Pull Request 在各審查階段的停留時間。repos-1-day 資料列新增 pull_request_review_times 陣列，含蓋 PR 從開啟到合併的各環節耗時。",
+    "highlights": [
+      "新增 pull_request_review_times 陣列揭露 PR 審查各階段耗時",
+      "可識別程式碼審查流程中的瓶頸環節",
+      "僅限企業與組織層級的 repository 粒度資料",
+      "可用於優化 CI/CD 與團隊審查流程"
+    ],
+    "why_it_matters": "PR 審查延遲是開發團隊常見痛點，現在有資料可量化各階段等待時間，團隊可據此優化流程或評估 Copilot 對效率的實際影響。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可串接此 API 建立儀表板，自動追蹤審查時間趨勢，並在 PR 超過閾值時觸發通知或提醒。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-09-25-aisoc-ai-mcp",
     "title": "AiSOC：開源AI安全營運中心，MCP伺服器加持",
     "title_original": "beenuar/AiSOC",
