@@ -1,5 +1,146 @@
 [
   {
+    "id": "2026-09-27-openhub-ai",
+    "title": "openhub：終端機上的 AI 工具探索與套件管理介面",
+    "title_original": "24KaratAu/openhub",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/24KaratAu/openhub",
+    "published_at": "2026-09-27T10:55:47Z",
+    "category": "agent-skills",
+    "summary": "openhub 是一個用 Python 與 Textual 打造的終端機應用，提供 AI 編碼工具、MCP 伺服器與 Agent 技能的發現與套件管理功能。相當於 AI 工具的 App Store 終端版，21 顆星。",
+    "highlights": [
+      "Python + Textual，終端機原生 UI，操作流暢",
+      "聚焦 AI 工具、MCP 伺服器、Agent 技能的發現與管理",
+      "一站式搜尋與安裝，降低工具探索門檻",
+      "開源且星數適中（21），有基礎社群關注",
+      "終端機愛好者與 CLI 重度用戶的效率利器"
+    ],
+    "why_it_matters": "AI 工具鏈快速膨脹，openhub 試圖解決「找不到、裝不上、管理亂」的痛點。對於需要在多個 MCP 伺服器與 Agent 技能間頻繁切換的技術用戶，統一入口能節省不少時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可用 openhub 快速搜尋並安裝新的 MCP 伺服器，結合 proxy-scraper 等工具快速搭建一個本地 AI 工具測試環境，減少手動在各 repo 之間跳轉的成本。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/181131366?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-27-nonobench-v1-2-43-llm-b",
+    "title": "Nonobench v1.2：43 款 LLM 挑戰數獨謎題，B 級開源模型表現亮眼",
+    "title_original": "Nonobench v1.2: 43 LLMs on nonogram puzzles. Open-weight DeepSeek V4 Pro ties for 4th, and no open model solves the new 20×20 Hard mode",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrh7b2/nonobench_v12_43_llms_on_nonogram_puzzles/",
+    "published_at": "2026-09-27T10:51:28+00:00",
+    "category": "open-source-ai",
+    "summary": "Nonobench v1.2 基準測試評估 43 款 LLM 在數獨謎題上的表現。開源模型 DeepSeek V4 Pro 與封閉旗艦模型並列第四，但所有模型在 20×20 困難模式下的新題型均無解開。DeepSeek V4 Pro 的開源權重可本地部署，是此次測試中性價比較高的選擇。",
+    "highlights": [
+      "共測試 43 款模型，含 GPT-4、Claude、DeepSeek 等主要陣營",
+      "DeepSeek V4 Pro 開源權重在 Hard 模式下並列第四",
+      "20×20 Hard 模式新題型對所有模型均構成挑戰，0% 解答率",
+      "測試結果顯示空間推論與約束推導仍是 LLMs 的弱點"
+    ],
+    "why_it_matters": "此 benchmark 提供客觀數據，DeepSeek V4 Pro 以開源模型身份逼近封閉旗艦，對需要本地部署且預算有限的技術人員具參考價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可下載 Nonobench 測試集與 DeepSeek V4 Pro 模型，自行驗證特定業務場景（如排程自動化）的約束推論能力是否符合需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-27-garmin-connect-plugin-for-dsh-mcp",
+    "title": "Garmin Connect Plugin for DSH：MCP 協定接入健身資料",
+    "title_original": "Likenttt/garmin-connect-plugin-for-dsh",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Likenttt/garmin-connect-plugin-for-dsh",
+    "published_at": "2026-09-27T10:37:02Z",
+    "category": "agent-skills",
+    "summary": "一個 TypeScript 實作的 Garmin Connect 外掛，透過安全瀏覽器 MFA 認證，以 MCP 伺服器形式提供 Garmin 健身資料接口，專為 DeepSeek Harness 設計但亦支援其他 AI Agent。GitHub 目前 22 顆星。",
+    "highlights": [
+      "TypeScript 實作，品質可控且易於改寫",
+      "安全瀏覽器 MFA 認證流程，兼顧安全性",
+      "MCP 協定標準，方便與其他 Agent 整合",
+      "可用於將健身資料注入 AI 上下文，實現健康導向的個人助理",
+      "星數較低（22），社群驗證規模有限"
+    ],
+    "why_it_matters": "此專案將健身資料以標準 MCP 介面暴露給 AI Agent，技術用戶可將步數、睡眠、心率等維度納入 Agent 決策邏輯，例如根據活動量自動調整工作提醒或排程。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 Garmin 資料接入自己的個人 Agent，在每日簡報中加入健身摘要，或讓 Agent 根據活動量建議是否需要安排運動時間。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/26034018?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-27-proxy-scraper-mcp",
+    "title": "proxy-scraper：每小時更新、已驗證的免費代理池與 MCP 介面",
+    "title_original": "maximilianfeix/proxy-scraper",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/maximilianfeix/proxy-scraper",
+    "published_at": "2026-09-27T10:31:18Z",
+    "category": "agent-skills",
+    "summary": "proxy-scraper 從 700+ 來源蒐集免費代理，並對每一條進行驗證（排除蜂蜜罐、注入腳本、TLS 問題），每小時更新一次，同時提供輪換代理伺服器與 MCP 伺服器介面。14 顆星，Python 實作。",
+    "highlights": [
+      "700+ 來源蒐集，覆蓋廣泛",
+      "三重驗證：蜂蜜罐、腳本注入、TLS 相容性",
+      "每小時自動更新，代理池時效性佳",
+      "同時提供 HTTP 代理介面與 MCP 介面",
+      "免費代理品質參差，此工具幫你過濾但仍需自行評估風險"
+    ],
+    "why_it_matters": "AI 工作流程常需要多 IP 分散請求或繞過地理限制，proxy-scraper 提供了經過安全篩選的代理池與標準 MCP 介面，可直接整合进 Agent 請求流程，降低多 IP 管理的工程成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 proxy-scraper 的 MCP 介面接入 Agent，讓爬蟲或 API 請求自動輪換 IP，提升穩定性並降低被封禁的機率；亦可用於測試地理位置相關的 AI 應用。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/223365242?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-27-codex-cli-harness",
+    "title": "Codex CLI 工具對比：Harness 設計如何影響代碼生成效率",
+    "title_original": "Another \"Harness matters\" post (codex cli > pi and opencode)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrfp50/another_harness_matters_post_codex_cli_pi_and/",
+    "published_at": "2026-09-27T09:20:52+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit r/LocalLLaMA 社群討論 Codex CLI、pi 與 Opencode 三款 CLI 工具的 harness（控制框架）設計差異。Codex CLI 由 OpenAI 官方推出，強調直接執行代碼的能力；pi 和 Opencode 為開源替代方案。討論焦點在於不同 harness 設計對模型輸出的可控性與執行效率的影響。",
+    "highlights": [
+      "Codex CLI 為 OpenAI 官方 CLI 工具，支援直接執行生成的代碼",
+      "社群認為 harness 設計（提示詞封裝、錯誤處理、上下文管理）是關鍵差異點",
+      "pi 和 Opencode 提供開源可自定義的替代方案",
+      "Harness 設計影響工具在自動化腳本中的可用性"
+    ],
+    "why_it_matters": "對於希望將 CLI 工具整合進開發流程的技術人員而言，Harness 設計決定了工具的可控性與維護成本，選擇合適框架可避免在生產環境踩坑。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可 clone pi 或 Opencode 專案，修改 harness 邏輯以適配特定任務（如自動化測試生成），並通過對比實驗評估不同設計對輸出穩定性的影響。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-27-langgraph-starter-kit-agent-7-mcp",
     "title": "langgraph-starter-kit：量產就緒的多 Agent 起步工具，支援 7 種模式與 MCP 整合",
     "title_original": "ac12644/langgraph-starter-kit",
@@ -3354,6 +3495,33 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-09-27-lg-u",
+    "title": "LG U+ 中秋節客製化服務上線，含漫遊與內容訂閱",
+    "title_original": "LG U+推出中秋节定制服务，涵盖漫游與内容訂閱 - 亚洲日报",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nc3lxMktkRXh3NXVyVEtJa2ViUy1rMG03STd6NTRMNFdOdWZ4QTU4WVN3X3RLWWZLczczMEhPUXNvN09lSVdaaVNQWGE4ZGZJUThTaTNCS1NMbms?oc=5",
+    "published_at": "2026-09-23T00:04:00+00:00",
+    "category": "ai-deals",
+    "summary": "LG U+ 針對中秋節推出客製化服務方案，涵蓋國際漫遊優惠與內容訂閱。亞洲日报報導此訊息，屬於電信業行銷活動，非 AI 技術層面新聞。相關優惠可能提供額外資料用量或 API 測試額度，需進一步確認細節。",
+    "highlights": [
+      "LG U+ 為南韓電信商，提供行動網路與數據服務",
+      "中秋節客製化服務含漫遊與內容訂閱優惠",
+      "可能與 AI 服務的網路用量或測試環境相關",
+      "屬電信行銷資訊，非核心 AI 技術動態"
+    ],
+    "why_it_matters": "此為電信行銷資訊，對純 AI 技術從業人員價值有限；若與特定 AI 服務的網路接入或測試資源相關則另當別論。",
+    "automation_angle": null,
+    "automation_angle_zh": "如從事需要穩定網路接入的 AI 應用開發，可評估此漫遊方案是否適用於跨境測試場景。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-23-lg-uplus",
     "title": "LG Uplus 中秋加碼優惠涵蓋漫遊、智慧家居與訂閱服務",
     "title_original": "LG Uplus中秋加码使用者福利，涵盖漫游、智能家居和訂閱優惠 - 디지털투데이",
@@ -4325,6 +4493,33 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-27-coursera-llama-alpaca-llm",
+    "title": "Coursera 科普文：Llama 與 Alpaca LLM 的核心差異",
+    "title_original": "Llama vs. Alpaca LLM: What’s the Difference? - Coursera",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1HdUd4clFUb01JdHhEWl9rT3k4ZXRBUm9hTFBfRjF2UTdrQlRTQUM0TF9rWWp0Qm81eHFtanJobHRldDE5UnRzbS1uQkU4V0FUYXhJZExzd0VaYmExT1hFbmZuVQ?oc=5",
+    "published_at": "2026-09-21T22:35:00+00:00",
+    "category": "open-source-ai",
+    "summary": "Coursera 發布 Llama 與 Alpaca 模型的對比科普文章，屬於通用 AI 教育內容。Llama 為 Meta 開源基礎模型，Alpaca 為 Stanford 基於 Llama 微調的指令模型。Coursera 作為教育平台，此類文章屬於基礎知識介紹，非技術人員所需的深度分析。",
+    "highlights": [
+      "Llama 為 Meta 開源基礎語言模型，提供多種參數規模",
+      "Alpaca 基於 Llama 微調，專精指令跟隨任務",
+      "兩者均為開源可用於本地部署",
+      "Coursera 此文屬基礎教育性質，技術深度有限"
+    ],
+    "why_it_matters": "對已熟悉 LLM 基礎的技術從業人員，此類文章資訊密度不足；建議直接閱讀 Meta 官方文檔或 Hugging Face 頁面獲取更準確技術規格。",
+    "automation_angle": null,
+    "automation_angle_zh": "建議跳過此文，直接訪問 Llama 官方 GitHub 或 Hugging Face 頁面獲取模型卡片、量化版本與部署範例。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-09-22-cloudflare-python-workers-python",
