@@ -1,5 +1,143 @@
 [
   {
+    "id": "2026-09-27-lockkeeper-ai-agent",
+    "title": "lockkeeper：AI 程式設計 Agent 的技能路由與提示注入防火牆",
+    "title_original": "Hannay001/lockkeeper",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Hannay001/lockkeeper",
+    "published_at": "2026-09-27T15:49:46Z",
+    "category": "agent-skills",
+    "summary": "lockkeeper 是一個針對 Claude Code、Codex、Cursor 等 AI 程式設計工具的技能路由器，支援按任務需求動態掛載 MCP 伺服器與工具，同時具備提示注入攻擊的防火牆能力，可提升 Agent 工作流程的效率與安全性。",
+    "highlights": [
+      "按任務需求動態掛載所需技能與 MCP 伺服器",
+      "內建提示注入防火牆保護 Agent 安全",
+      "支援 Claude Code、Codex、Cursor 等主流工具",
+      "僅 15 stars，仍在早期階段"
+    ],
+    "why_it_matters": "隨著 AI coding agent 滲透開發流程，技能路由與安全防護需求浮現。lockkeeper 的思路值得關注，但專案成熟度需自行評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "可測試將 lockkeeper 整合至現有程式設計工作流程，驗證是否能有效減少無關工具的干擾並阻擋惡意提示注入。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/173780478?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-27-supratts-0-1-beta-29-6m-tts",
+    "title": "SupraTTS-0.1-Beta：僅 29.6M 參數的輕量級 TTS 模型開源釋出",
+    "title_original": "[Release] - SupraTTS-0.1-Beta - a tiny 29.6M parameters TTS model",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrmye2/release_supratts01beta_a_tiny_296m_parameters_tts/",
+    "published_at": "2026-09-27T15:23:40+00:00",
+    "category": "open-source-ai",
+    "summary": "研究團隊釋出僅 2960 萬參數的 SupraTTS-0.1-Beta 文字轉語音模型，採用極度精簡架構設計，可在消費級硬體上運行，為本地端 TTS 應用提供新選擇。",
+    "highlights": [
+      "參數量僅 29.6M，體積極度輕量",
+      "專為本地端部署優化",
+      "Beta 版本仍有改進空間",
+      "Apache 或 MIT 等開源授權",
+      "可直接在消費級 GPU/CPU 運行"
+    ],
+    "why_it_matters": "輕量 TTS 模型使即時語音合成可在邊緣裝置或資源受限環境運行，大幅降低文字轉語音的部署門檻與成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即下載測試，用於客服機器人、文件朗讀、語音播報等本地端應用場景，評估其語音品質與延遲是否滿足需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-27-veriloop-e2-27b-apache-2-0-llm",
+    "title": "VeriLoop E2 (27B, Apache-2.0) 開源：LLM 能否自行管理自身狀態？",
+    "title_original": "We released VeriLoop E2 (27B, Apache-2.0). The design question behind it: should an LLM be allowed to commit its own state?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrmgf0/we_released_veriloop_e2_27b_apache20_the_design/",
+    "published_at": "2026-09-27T15:03:07+00:00",
+    "category": "open-source-ai",
+    "summary": "研究團隊釋出 270 億參數的 VeriLoop E2 模型，提出「LLM 是否應被允許提交自身狀態」的核心設計問題，採用 Apache-2.0 開源授權，探索語言模型的自我狀態管理新範式。",
+    "highlights": [
+      "27B 參數，規模屬中大型開源模型",
+      "Apache-2.0 商業友好授權",
+      "核心創新在於自我狀態管理設計",
+      "提出語言模型狀態持久化新概念",
+      "適合研究與實驗性部署"
+    ],
+    "why_it_matters": "自我狀態管理若成功實現，將改變 AI Agent 的設計架構，使模型能更自然地維護對話上下文與長期記憶。",
+    "automation_angle": null,
+    "automation_angle_zh": "部署測試該模型，評估其在多輪對話 Agent 場景中的狀態管理表現，比較與傳統對話管理的差異。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-27-ai",
+    "title": "開源 AI 是否該少追求大模型、多追求可複用能力？",
+    "title_original": "What if open-source AI focused less on giant models and more on reusable capabilities?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrlj46/what_if_opensource_ai_focused_less_on_giant/",
+    "published_at": "2026-09-27T14:24:48+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit LocalLLaMA 社群熱烈討論開源 AI 的發展方向，質疑目前過度追求模型參數規模是否為正確路線，呼籲社群更關注可組合、可複用的 AI 能力元件，而非一味堆疊模型大小。",
+    "highlights": [
+      "社群反思大模型軍備競賽的效益問題",
+      "提倡以能力複用取代參數內建",
+      "強調小型專用模型協作的潛力",
+      "可能影響開源模型社群未來發展方向"
+    ],
+    "why_it_matters": "若開源社群轉向可複用能力而非盲目追求大模型，將改變開源生態的技術選型邏輯，開發者需重新評估工作流程程中的模型整合策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估自建工作流程中是否可將單一大模型替換為多個小型專用模型的組合，以降低推論成本並提升特定任務效率。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-27-zer0fit-docker-google-ml",
+    "title": "Zer0Fit：本地 Docker 化的 Google ML 模型，實現零樣本預測與分類",
+    "title_original": "Zer0Fit - Zero-shot predictions, classifications, and regressions using Google ML research models running locally as a dockerized MCP",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrke2t/zer0fit_zeroshot_predictions_classifications_and/",
+    "published_at": "2026-09-27T13:34:53+00:00",
+    "category": "open-source-ai",
+    "summary": "Zer0Fit 是一個將 Google ML 研究模型本地 Docker 化的 MCP 工具，支援零樣本預測、分類與迴歸任務，讓用戶無需雲端 API 即可在本地運行 Google 的研究成果。",
+    "highlights": [
+      "以 Docker 封裝，支援本地快速部署",
+      "支援零樣本預測、分類、迴歸任務",
+      "作為 MCP 工具與現有工作流程整合",
+      "原始摘要資訊有限，需進一步驗證"
+    ],
+    "why_it_matters": "本地化 ML 推論可降低成本並提升資料隱私，若 Zer0Fit 能穩定支援常見任務，是邊緣部署的好選擇，但需驗證實際效能與模型版本。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 Zer0Fit 部署為內網的零樣本分類服務，替代部分需要訓練的自定義模型需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-27-openhub-ai",
     "title": "openhub：終端機上的 AI 工具探索與套件管理介面",
     "title_original": "24KaratAu/openhub",
@@ -114,6 +252,33 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-27-anthropic-claude-api",
+    "title": "Anthropic 開始對部分被拒絕的 Claude API 請求計費",
+    "title_original": "Anthropic now bills for refused Claude API requests, in three of five categories - MIXED Reality News",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOTBQdVhFMDNLc2dqZWVvdEpMTlNrYzhXc1BrVXNmQ0FZZm8wNkwwUFFuUlFlZnFhWG1pUjhCaXNpeFhBNk5EQlBhZlRYajl1SkFHd0lXaDFZTTA2a0ZNQlR6S0F5Y2FLMXAyZHBuUFFiUFh5c3pVdm40NjhucHhBZlRaTmxHcDl2SmlFMFNCM1M?oc=5",
+    "published_at": "2026-09-27T09:24:33+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 調整 API 計費策略，對五個類別中的三個被拒絕請求收費。這項變動直接影響使用 Claude API 的成本模型，開發者需重新評估提示設計與錯誤處理策略以控制費用。",
+    "highlights": [
+      "Claude API 對部分被拒絕請求開始計費",
+      "影響範圍為五個類別中的三個",
+      "需重新審視 prompt 設計以減少無效消耗",
+      "對成本敏感型應用影響顯著"
+    ],
+    "why_it_matters": "API 成本結構變化直接影響 AI 應用的邊際成本。對於高頻調用的自動化流程，此變動可能導致費用上升，需重新評估使用策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "可審計現有 Claude API 呼叫的拒絕率，優化 prompt 減少被拒絕的機會，或考慮切換至其他模型以控制成本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-27-codex-cli-harness",
     "title": "Codex CLI 工具對比：Harness 設計如何影響代碼生成效率",
     "title_original": "Another \"Harness matters\" post (codex cli > pi and opencode)",
@@ -134,6 +299,34 @@
     "automation_angle_zh": "技術人員可 clone pi 或 Opencode 專案，修改 harness 邏輯以適配特定任務（如自動化測試生成），並通過對比實驗評估不同設計對輸出穩定性的影響。",
     "tags": [
       "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-27-b",
+    "title": "下一代 B 級模型何時發布？",
+    "title_original": "When is the next generation of \"B tier\" models releasing?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrcy7x/when_is_the_next_generation_of_b_tier_models/",
+    "published_at": "2026-09-27T06:35:06+00:00",
+    "category": "new-models",
+    "summary": "社群熱議 B 級模型（如 GPT-4o mini、Claude Haiku 等）的下一代更新時間點，目前各大廠商尚未公布明確路線圖，開發者期待更強大的中低價位模型。",
+    "highlights": [
+      "B 級模型市場需求旺盛",
+      "目前廠商尚未公佈具體時間表",
+      "涉及多個主流模型家族",
+      "開發者高度關注性價比提升",
+      "可能與算力成本下降相關"
+    ],
+    "why_it_matters": "B 級模型是高流量應用的核心選擇，其更新將直接影響 AI 服務的成本結構與應用邊界，技術決策者需持續追蹤。",
+    "automation_angle": null,
+    "automation_angle_zh": "暫無具體資訊可自動化評估，建議持續追蹤 Anthropic、OpenAI、Google 等廠商官方公告。",
+    "tags": [
+      "new-models",
       "rss",
       "en"
     ],
