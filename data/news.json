@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-09-27-langgraph-starter-kit-agent-7-mcp",
+    "title": "langgraph-starter-kit：量產就緒的多 Agent 起步工具，支援 7 種模式與 MCP 整合",
+    "title_original": "ac12644/langgraph-starter-kit",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/ac12644/langgraph-starter-kit",
+    "published_at": "2026-09-27T02:13:30Z",
+    "category": "agent-skills",
+    "summary": "基於 TypeScript 的 LangGraph 多 Agent 起步套件，提供 7 種常見 Agent 協作模式、6 個 LLM 供應商、CLI 快速 scaffold、MCP 整合與 HTTP/SSE 串流。stars 尚低（24），但程式碼新穎且無廢棄依賴，適合想快速原型化複雜 Agent 流程的技術團隊。",
+    "highlights": [
+      "7 種 Agent 協作模式覆蓋常見複雜任務拆解需求",
+      "支援 6 家主流 LLM 供應商，便於性價比比較",
+      "CLI scaffolder 可秒級產生標准項目結構",
+      "原生 MCP 整合簡化工具擴展流程",
+      "HTTP + SSE 串流支援即時回應與前端整合"
+    ],
+    "why_it_matters": "多 Agent 系統的架構選型往往耗時，此套件提供已被組織好的實踐模式，可直接作爲生產級起點，大幅縮短從概念到可運行原型的時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將其作爲企業內部自動化流程骨架：例如用 Supervisor + Worker 模式實現文件審批流水線，或用 Router 模式做智能任務分發。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/43683452?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-27-claude-code-playwright-html5-agent",
+    "title": "Claude Code + Playwright 實戰：HTML5 動畫自動轉影片的 Agent 工作流程演示",
+    "title_original": "Kākāpō Party",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+    "published_at": "2026-09-26T23:39:06+00:00",
+    "category": "agent-skills",
+    "summary": "Simon Willison 以 Kākāpō 像素派對動畫為例，展示如何用 Claude Code 操控 Playwright 自動抓取 HTML5 互動內容並輸出 15 秒影片。核心技巧在於依時間戳排程滑鼠點擊以觸發動畫事件，再以 Playwright 錄影 API 直接產出 MP4，全程無需手動操作瀏覽器。",
+    "highlights": [
+      "Playwright 的 record_video_dir API 可直接從瀏覽器錄製輸出",
+      "時間軸驅動的 page.mouse.click() 可精確重現互動流程",
+      "Claude Code 充當「代理調度者」，將自然語言指令轉為 Playwright 腳本",
+      "此模式可擴展至任何需要「瀏覽器自動化」的工作場景",
+      "腳本僅需 ~30 行即完成從 HTML 到影片的轉換"
+    ],
+    "why_it_matters": "此案例示範了 LLM 作為「流程自動化協調者」而非單純文字生成器的價值——將人類意圖轉為可執行腳本並驅動瀏覽器，未來可批量應用於網頁測試、資料抓取、視覺化報告生成等場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將此模式改造為「網頁轉影片」自動化工具：用於自動生成產品演示、Dashborad 錄製、或將互動式 HTML 報告轉為靜態影片格式。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-27-koboldcpp-v1-122",
+    "title": "Koboldcpp v1.122 重大更新發布",
+    "title_original": "Koboldcpp v1.122 released",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr3esw/koboldcpp_v1122_released/",
+    "published_at": "2026-09-26T22:24:22+00:00",
+    "category": "open-source-ai",
+    "summary": "Koboldcpp 是一款專為本地執行大型語言模型設計的推論引擎，v1.122 版本帶來效能改進與新功能支援。此版本強化了 GGUF 模型相容性，並針對多執行緒推論進行優化，提升每秒輸出 tokens 數量。",
+    "highlights": [
+      "v1.122 版本強化 GGUF 模型格式支援",
+      "多執行緒推論效能優化",
+      "改善 VRAM 記憶體管理",
+      "新增指令解析增強功能",
+      "支援更多量化精度選項"
+    ],
+    "why_it_matters": "Koboldcpp 是本地 AI 推論的重要工具，新版本提供更好的效能與相容性，讓技術使用者能在消費級 GPU 或 CPU 上更有效率地運行開源模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可用 Koboldcpp 架設本地 API 服務，將開源模型整合至自動化工作流程程，如定時報告生成、客服回覆草稿等任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-27-qwen3-8-flash-next-apple-silicon-3",
+    "title": "Qwen3.8+Flash-Next 在 Apple Silicon 加速達 3 倍效能",
+    "title_original": "Run Qwen3.8+Flash-Next and tiny models on Apple Silicon up to 3x faster",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wr1qlz/run_qwen38flashnext_and_tiny_models_on_apple/",
+    "published_at": "2026-09-26T21:10:37+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群分享透過特定優化手法，可讓 Qwen3.8 模型及小型模型在 Apple Silicon 裝置上獲得最高 3 倍的推論加速。此優化主要針對 M 系列晶片的 Neural Engine 與統一記憶體架構進行指令優化，降低延遲並提升產出速度。",
+    "highlights": [
+      "Qwen3.8 模型在 Apple Silicon 實現 3 倍加速",
+      "針對 M 系列晶片 Neural Engine 優化",
+      "利用統一記憶體架構減少資料搬移",
+      "適用於 tiny 模型與量化版本",
+      "純軟體優化，無需額外硬體改動"
+    ],
+    "why_it_matters": "本地端執行大語言模型的成本與隱私優勢明顯，Apple Silicon 用戶可透過此優化在 MacBook/iMac 上更流暢地運行 Qwen 系列模型，降低對雲端 API 的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術使用者可在支援 Apple Silicon 的設備上部署優化後的 Qwen3.8，用於本地文件摘要、程式碼生成或自動化腳本撰寫，節省 API 呼叫費用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-26-litestar-org-litestar-skills-agent-mcp-skills-ide",
     "title": "litestar-org/litestar-skills：跨 Agent 平台的 MCP Skills 框架，可一鍵發布至多 IDE",
     "title_original": "litestar-org/litestar-skills",
@@ -2066,6 +2179,34 @@
     "automation_angle_zh": "技術用戶可評估此混合架構是否適合自己的工作流程，例如在本地執行中小型開源模型的推論任務，降低對雲端 API 的依賴。",
     "tags": [
       "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-27-8-ai-agent-hostinger",
+    "title": "8 大 AI Agent 郵件工具列表（Hostinger）",
+    "title_original": "8 best agentic email tools for AI agents - hostinger.com",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5jbDRwVkRReklFSVc3ME95ZEpKUG5QeE93OGV4OFE4TjVyTWd6NXQtQm9xRFNSWFlWTzk5ZU45SnEzbUJfMnlCS05UUnpTSWpGNkV1aVRrQ0c2ZlN0WXo3dEF6YVJvX3FHbE56bVhDZ2w0NE5TUWR4WQ?oc=5",
+    "published_at": "2026-09-24T07:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "Hostinger 發布的 8 款代理式郵件 AI 工具列表，内容為行銷導向的概覽性質，缺乏深度技術評測、基準測試或開源/定價細節。此類清單文章信號價值低，屬於 Generic Marketing Listicle，不建議技術決策參考。",
+    "highlights": [
+      "屬於行銷清單文章，非技術評測或基準報告",
+      "缺乏實際 benchmark、定價模型或整合難度說明",
+      "無法判斷工具真實效能與維護狀態",
+      "資訊顆粒度不足以支援技術選型決策",
+      "建議參考 GitHub stars、實際安裝或社群回饋替代"
+    ],
+    "why_it_matters": "技術用戶需要可驗證的事實而非軟文，清單式文章提供的價值有限，容易誤導技術選型。此類內容 Downrank 以保持情報高信號密度。",
+    "automation_angle": null,
+    "automation_angle_zh": "若需評估代理式郵件工具，建議直接查看各專案 GitHub 實際 Star 數、最後 commit 時間、以及 Issue 區的用戶回饋，而非依賴行銷清單。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
