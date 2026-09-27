@@ -1,5 +1,203 @@
 [
   {
+    "id": "2026-09-27-myna-macro-recorder-windows-ai",
+    "title": "Myna Macro Recorder：Windows 自動化巨集工具，內建 AI 幫你寫腳本",
+    "title_original": "myna-recorder/myna-macro-recorder",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/myna-recorder/myna-macro-recorder",
+    "published_at": "2026-09-27T20:27:36Z",
+    "category": "agent-skills",
+    "summary": "Myna Macro Recorder 是一款 Windows 平台的巨集錄製工具，支援圖像錨點定位與自動點擊，特色在於內建 AI 助理可根據錄製內容自動生成巨集指令，並提供 Agent 模式實現短時電腦操作自動化，GitHub 已有 88 stars。",
+    "highlights": [
+      "巨集錄製與編輯：可讀寫 Windows 操作腳本",
+      "圖像辨識錨點：透過視覺特徵定位操作目標，減少依賴座標",
+      "AI 助理生成：錄製完成後 AI 自動產出巨集指令",
+      "Agent 模式：支援電腦使用（computer use）進行短任務",
+      "實用導向：88 stars 顯示已有一定技術社群採用"
+    ],
+    "why_it_matters": "對於需要自動化重複性桌面操作的技術用戶，Myna 將錄製、AI 生成、執行整合在同一工具鏈，可直接降低 RPA 場景的學習門檻。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝後可錄製一套日常桌面操作流程，測試 AI 生成的巨集是否能正確識別畫面元素並重現動作，評估是否符合工作需求。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/325753775?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-27-grimoire-rust-ai-agent-ide",
+    "title": "Grimoire：Rust 開發的 AI Agent 設定檔套件管理工具，支援主流 IDE",
+    "title_original": "grimoire-rs/grimoire",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/grimoire-rs/grimoire",
+    "published_at": "2026-09-27T20:06:35Z",
+    "category": "agent-skills",
+    "summary": "Grimoire 是一個 Rust 語言開發的 AI Agent 設定檔套件管理器，可安裝、更新、發布 skills、rules、agents、MCP servers 等元件，並支援同步到 Claude Code、Copilot、Cursor、Codex、Gemini、Zed 等主流 AI 開發工具，儲存後端為任意 OCI registry，無需自建服務。",
+    "highlights": [
+      "多 IDE 支援：涵蓋 Claude Code、Copilot、Cursor、Codex、Gemini、Zed 等",
+      "套件類型：skills、rules、agents、MCP servers 皆可管理",
+      "安裝與發布：grim CLI 工具處理所有生命週期操作",
+      "鎖定機制：透過摘要（digest）固定版本，避免不一致",
+      "無自架需求：儲存使用標準 OCI registry，降低部署複雜度"
+    ],
+    "why_it_matters": "技術用戶往往需要在多個 AI 工具間維護各自設定，Grimoire 提供統一的生命週期管理，可大幅簡化配置遷移與版本同步的負擔。",
+    "automation_angle": null,
+    "automation_angle_zh": "在專案中初始化 grim 後，可將團隊共用的 agent skills 發布到私有 OCI registry，讓所有成員在不同 IDE 中同步取用同一套配置。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/298895348?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-27-item",
+    "title": "警示：前沿模型在低預算硬體知識上不可信",
+    "title_original": "Don't trust frontier models when asking about budget hardware!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrrgex/dont_trust_frontier_models_when_asking_about/",
+    "published_at": "2026-09-27T18:21:08+00:00",
+    "category": "hot-topics",
+    "summary": "社群測試發現 Claude、GPT-4o、Gemini 等前沿模型在回答關於低價硬體（如平價顯示卡、小型開發板）的詳細規格與性價比問題時，頻繁給出錯誤資訊。這顯示模型訓練資料存在偏見，對高單價消費電子產品更為熟悉，而對預算導向的硬體知識覆蓋不足。",
+    "highlights": [
+      "前沿模型在 budget hardware 領域幻觉率明顯較高",
+      "建議開發者交叉驗證硬體相關資訊，不宜直接採用模型輸出",
+      "此問題影響 AI 輔助選型、自動化報價等場景",
+      "開源社群（LocalLLaMA）成員反映 Llama 系列同樣存在類似問題",
+      "可能與訓練資料中高單價產品討論度較高有關"
+    ],
+    "why_it_matters": "依賴模型做技術選型或自動化採購時需特別謹慎，錯誤資訊可能導致成本浪費或專案延誤。",
+    "automation_angle": null,
+    "automation_angle_zh": "建立硬體知識驗證機制，用結構化資料庫（而非模型輸出）作為自動化流程的依據。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-27-benchboard-github-ai",
+    "title": "Benchboard：GitHub 上的 AI 模型評測分數彙整看板",
+    "title_original": "SYuan03/benchboard",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/SYuan03/benchboard",
+    "published_at": "2026-09-27T17:34:47Z",
+    "category": "new-models",
+    "summary": "SYuan03/benchboard 是一個收錄已發表 AI 模型 benchmark 分數的 GitHub 專案，以 JavaScript 建構，現有 55 個 star。技術用戶可用它快速查閱跨模型的效能數據，省去逐一查閱原論文或新聞的時間。",
+    "highlights": [
+      "Benchmark 集合：收錄各模型已發表的評測數據",
+      "技術棧：JavaScript，屬前端展示類工具",
+      "Star 數：55，社群關注度尚屬初期",
+      "用途：快速橫向比較不同模型的效能表現",
+      "限制：收錄範圍取決於貢獻者，數據可能不完整或過時"
+    ],
+    "why_it_matters": "模型評測資訊散落各處，Benchboard 提供統一入口，節省技術用戶評估模型時的資料查找成本，是選型時的輔助參考工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "在選型階段可用 Benchboard 快速比對候選模型在特定任務（如推論、程式生成）的 benchmark 分數，縮小實測範圍。",
+    "tags": [
+      "new-models",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/91423966?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-27-reddit-llama-cpp-vllm",
+    "title": "Reddit 討論：從 llama.cpp 遷移到 vLLM 是否值得",
+    "title_original": "is switching from llama cpp to vllm worth it",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrpajn/is_switching_from_llama_cpp_to_vllm_worth_it/",
+    "published_at": "2026-09-27T16:55:37+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者社群熱烈討論本地推論引擎 llama.cpp 與 vLLM 的取捨。多數回覆指出 vLLM 在批次推論吞吐量與 GPU 利用率上具優勢，適合高並發場景；llama.cpp 則在 CPU 環境與低記憶體限制下更靈活，且無需複雜依賴。選擇取決於部署硬體與使用模式。",
+    "highlights": [
+      "vLLM 批次推論吞吐量顯著高於 llama.cpp（相同 GPU 硬體下）",
+      "llama.cpp 在 CPU 推論與低記憶體場景仍有優勢",
+      "vLLM 部署需要 CUDA 環境與較高相依性",
+      "llama.cpp 支援更多模型格式與平台移植性",
+      "社群建議依據吞吐量需求與硬體限制做選擇"
+    ],
+    "why_it_matters": "推論引擎選擇直接影響自動化任務的執行速度與成本效益，錯誤的技術棧可能導致硬體資源浪費或延遲過高。",
+    "automation_angle": null,
+    "automation_angle_zh": "用相同模型與測試集分別跑兩種引擎的 throughput，根據實際任務並發量選擇更適合的方案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-27-qwen-wait-maybe-perhaps-logit",
+    "title": "Qwen 模型加入「wait/maybe/perhaps」logit 懲罰可提升答題準確率",
+    "title_original": "Adding logit penalty for \"wait\", \"maybe\" and \"perhaps\" to Qwen models improves their accuracy",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wromzr/adding_logit_penalty_for_wait_maybe_and_perhaps/",
+    "published_at": "2026-09-27T16:29:34+00:00",
+    "category": "new-models",
+    "summary": "研究發現針對 Qwen 系列模型，對「wait」、「maybe」、「perhaps」等詞彙施以 logit 懲罰，能顯著減少模型在問答任務中的錯誤率。這種簡單的 decoding 策略調整，無需重新訓練即可改善模型表現，對部署在本地環境的技術人員具有直接參考價值。",
+    "highlights": [
+      "對「wait」、「maybe」、「perhaps」設定負 logit bias 可減少過度猶豫輸出",
+      "該技巧適用於 Qwen2/Qwen2.5 等開源模型系列",
+      "無需 fine-tune 或重新訓練，僅調整推論參數",
+      "在事實問答類任務上提升效果最明顯",
+      "可整合進 llama.cpp 或 vLLM 的 generation config 中"
+    ],
+    "why_it_matters": "本地部署模型的準確率直接影響自動化流程可靠性，這個零成本的 decoding 技巧能立即提升問答系統品質。",
+    "automation_angle": null,
+    "automation_angle_zh": "將此 logit penalty 寫入部署配置，立即測試自有問答資料集的準確率變化，替換 production prompt engineering 的一部分。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-27-reddit",
+    "title": "Reddit 討論：如何為本地模型添加網頁瀏覽能力",
+    "title_original": "How do you guys give your models web browsing capabilities?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wro7hg/how_do_you_guys_give_your_models_web_browsing/",
+    "published_at": "2026-09-27T16:12:58+00:00",
+    "category": "agent-skills",
+    "summary": "LocalLLaMA 社群熱烈討論為本地運行的大語言模型配備網頁瀏覽功能的主流方案，包括使用 Playwright/Selenium 操控瀏覽器、接入 Jina/Firecrawl 等網頁抓取 API，以及透過 LangChain 工具綁定等架構，技術人員可從中評估各方案的整合難度與延遲表現。",
+    "highlights": [
+      "常見方案包括讓模型呼叫瀏覽器自動化工具（如 Playwright）",
+      "外部爬蟲 API（如 Jina Reader）可簡化網頁內容提取",
+      "LangChain、LlamaIndex 等框架提供內建工具綁定機制",
+      "需注意 token 消耗與每次搜尋的延遲成本",
+      "開源專案如 Open Interpreter 也整合了類似功能"
+    ],
+    "why_it_matters": "賦予模型即時資訊獲取能力是提升 AI 代理實用性的關鍵，讓自動化工作流程不再受限於靜態知識庫。",
+    "automation_angle": null,
+    "automation_angle_zh": "選取一個方案（如 Playwright + 模型 function calling）在本機測試自動化資料搜集流程，驗證端到端延遲是否可接受。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-27-lockkeeper-ai-agent",
     "title": "lockkeeper：AI 程式設計 Agent 的技能路由與提示注入防火牆",
     "title_original": "Hannay001/lockkeeper",
@@ -3796,6 +3994,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-27-anthropic-claude-opus-5-5",
+    "title": "Anthropic 發布 Claude Opus 5.5 版本更新",
+    "title_original": "Introducing Claude Opus 5.5 - Anthropic",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbTN1a0tOdm9kT0JxbVBHMU9XYUhpUjd0MHNFYm8yd2pRMnhjdEYzdjF3ckZEY1V0a2ZQTXlyRUhteVozMlhDbVQ3Mm1KWlRYbUVF?oc=5",
+    "published_at": "2026-09-22T23:25:46+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 正式推出 Claude Opus 5.5 更新，官方標榜其在複雜推論、長文本分析與多步驟代理任務上的能力提升，並對 tool use 介面進行優化。定價與上下文窗口變化尚未確認，開發者應持續關注官方公告與 API 變更說明。",
+    "highlights": [
+      "Opus 5.5 在複雜推論基準上有明顯進步",
+      "強化了多步驟代理任務的穩定性",
+      "Tool use 介面有所更新，與舊版 API 可能存在差異",
+      "定價策略尚未公開，需等待官方說明",
+      "上下文窗口規格建議查閱最新 API 文件"
+    ],
+    "why_it_matters": "Claude 作為企業級應用的主力模型之一，其能力變化直接影響自動化代理、文件分析等場景的技術選型。",
+    "automation_angle": null,
+    "automation_angle_zh": "在官方正式公告後，利用 API playground 測試新舊版本的任務成功率差異，評估是否值得遷移或更新 prompt。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-09-23-copilot-cli-c",
