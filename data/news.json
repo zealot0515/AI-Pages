@@ -1,5 +1,204 @@
 [
   {
+    "id": "2026-09-28-buywhere-mcp-post-3",
+    "title": "BuyWhere MCP：一個 POST 註冊即用的 3 億商品搜尋工具",
+    "title_original": "BuyWhere/buywhere-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/BuyWhere/buywhere-mcp",
+    "published_at": "2026-09-28T22:41:09Z",
+    "category": "agent-skills",
+    "summary": "BuyWhere MCP 伺服器讓 Agent 可搜尋美國、新加坡與東南亞超過 3 億筆商品，支援無 Email 快速註冊（POST api.buywhere.ai/v1/auth/register?verify=false）取得免費金鑰。Stars 14。",
+    "highlights": [
+      "涵蓋 3 億+  商品，覆蓋三大市場",
+      "一個 POST 即可取得 API 金鑰，門檻極低",
+      "支援 Model Context Protocol，Agent 可直接呼叫",
+      "可用於比價、商品調研、自動化採購流程",
+      "Stars 14，社群關注度適中"
+    ],
+    "why_it_matters": "商品搜尋 API 對做電商自動化或競爭情報的技術宅極具價值，且註冊極簡，可立即試用。",
+    "automation_angle": null,
+    "automation_angle_zh": "用一個 POST 取得金鑰，測試讓 Agent 在商品研究中自動呼叫 BuyWhere 搜尋競品價格與規格。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/276059411?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-28-world-model-mcp-sqlite-3d-2d",
+    "title": "world-model-mcp：本地 SQLite 驅動的 3D/2D 空間世界模型",
+    "title_original": "putervision/world-model-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/putervision/world-model-mcp",
+    "published_at": "2026-09-28T22:35:21Z",
+    "category": "open-source-ai",
+    "summary": "world-model-mcp 為 AI Agent 提供持久化 3D/2D 空間建模能力，支援實體追蹤、物體恆存、AABB 碰撞模擬與視錐體投影，後端使用本地 SQLite，Stars 42。",
+    "highlights": [
+      "支援實體追蹤與物體恆存，適合遊戲或機器人模擬",
+      "AABB 碰撞模擬與視錐體投影可用於空間推論",
+      "本地 SQLite 儲存，無外部依賴",
+      "Stars 42，社群關注度相對較高",
+      "屬於空間智慧（MCP 延伸）的前沿實驗"
+    ],
+    "why_it_matters": "空間世界模型是 Agent 具備「環境記憶」的關鍵元件，技術宅若做遊戲 AI 或機器人模擬，可評估此專案的可行性。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 world-model-mcp 整合進自己的 Agent，測試讓 AI 在虛擬空間中保持物體位置記憶並進行簡單碰撞判斷。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/189763671?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-28-growth-engineer-mcp-gtm",
+    "title": "growth-engineer：內建 MCP 伺服器的 GTM 工具與工作流程目錄",
+    "title_original": "GetBrew/growth-engineer",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/GetBrew/growth-engineer",
+    "published_at": "2026-09-28T22:24:42Z",
+    "category": "agent-skills",
+    "summary": "growth-engineer 為開源 TypeScript 專案，彙整各類成長駭客工具與工作流程，以 Markdown 格式編寫，任何 Agent 可直接讀取執行，另附唯讀 MCP 伺服器方便整合。Stars 13。",
+    "highlights": [
+      "Markdown 工作流程格式，Agent 直接可讀",
+      "內建唯讀 MCP 伺服器，支援上下文注入",
+      "聚焦 GTM（Go-to-Market）實務工具",
+      "TypeScript 編寫，可擴充或自建 MCP 端點",
+      "Stars 尚低，但定位明確"
+    ],
+    "why_it_matters": "讓 Agent 直接執行 GTM 工作流程是自動化變現的好方向，技術宅可借鑒其工作流程設計或直接整合進自己的 Agent。",
+    "automation_angle": null,
+    "automation_angle_zh": "克隆專案，修改 Markdown 工作流程以適配自己的產品推廣需求，透過 MCP 端點讓 Agent 讀取並執行。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/206627544?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-28-anthropic-claude-sonnet-5-5-30-30",
+    "title": "Anthropic 發布 Claude Sonnet 5.5：速度提升 30%、成本降低 30%",
+    "title_original": "Claude Sonnet 5.5",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+    "published_at": "2026-09-28T22:07:38+00:00",
+    "category": "new-models",
+    "summary": "Anthropic 推出 Sonnet 5.5，宣稱比前代快 30% 且多數任務成本降低 30%，定價維持不變。效能在多項基準測試領先，並已成為 claude.ai 免費版模型，在編碼任務上接近 Opus 5.5 水準。",
+    "highlights": [
+      "速度提升 30%，成本同步降低 30%，性價比顯著提升",
+      "定價與 Sonnet 5 相同，但 benchmark 表現更佳",
+      "已成為 claude.ai 免費 tier 使用的模型",
+      "編碼能力接近旗艦 Opus 5.5，Pelican SVG 任務仍存 token 限制 bug",
+      "Haiku 5.5 預計數週內推出，將瞄準更親民定價"
+    ],
+    "why_it_matters": "Sonnet 5.5 以相同價格提供更高效能，且進入免費版代表 Anthropic 擁有比 GPT-6 Luna 更強的免費方案，直接影響開發者的模型選擇與成本架構。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可將日常編碼、補全、重構任務從 GPT-4o 或前代 Sonnet 遷移至此，透過成本追蹤驗證帳單是否如官方宣稱降低 30%。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-28-openai",
+    "title": "OpenAI 安全主管示警：模型能力跳躍對組織韌性的衝擊",
+    "title_original": "Quoting @joedaroo",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/28/joedaroo/",
+    "published_at": "2026-09-28T19:11:42+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI Agent Security 主管 @joedaroo 表示，模型在「網路攻防」與「訊息論壇」等領域的能力跳躍來得又快又猛，讓公司安全文化、流程、人員都措手不及，呼籲全球組織反思自身韌性。",
+    "highlights": [
+      "AI 能力跳躍速度已超越多數組織的安全反應速度",
+      "安全不僅是技術硬化，更是文化與人員的持續演進",
+      "突發能力提升對事件應變、通訊、團隊準備都是挑戰",
+      "OpenAI 內部已觀察到模型在非預期領域的「湧現」",
+      "呼籲建立應對 Surprise 的標準化流程"
+    ],
+    "why_it_matters": "此發言暗示新模型可能具備未公告的網路或資安能力。技術決策者需評估是否已有應變計畫，以應對模型能力突然提升帶來的風險與機會。",
+    "automation_angle": null,
+    "automation_angle_zh": "資安團隊可參考此發言審視內部 AI 使用政策，建立模型能力突變時的應變 SOP，並監控模型輸出是否出現異常能力跡象。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-28-reddit",
+    "title": "Reddit 熱議：開源模型硬分叉現象對上游開發的影響",
+    "title_original": "I am concerned about all these disparate hard forks that target specific architectures instead of opening a PR against upstream",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsn59w/i_am_concerned_about_all_these_disparate_hard/",
+    "published_at": "2026-09-28T18:47:59+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 板上有用戶提出對開源模型領域硬分叉問題的擔憂。批評者指出社群傾向於針對特定架構建立分支而非向上游提交 PR，長期可能導致生態碎片化。此為開源治理層面的Meta討論。",
+    "highlights": [
+      "焦點在於開源模型的維護策略",
+      "批評特定架構的硬分叉而非協力上游",
+      "可能造成社群資源分散",
+      "屬於開發者社群內部辯論",
+      "未涉及具體模型或工具變更"
+    ],
+    "why_it_matters": "對於關注開源模型長期健康度的技術用戶，此討論反映了模型維護與生態協作的挑戰，可能影響未來工具選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者在貢獻或 fork 模型前可考慮先評估上游維護活躍度，選擇更易獲得社群支援的專案。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-28-claude-sonnet-5-5-github-copilot",
+    "title": "Claude Sonnet 5.5 正式登陸 GitHub Copilot 免費版",
+    "title_original": "Claude Sonnet 5.5 in GitHub Copilot",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
+    "published_at": "2026-09-28T18:03:57+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot 宣布整合 Claude Sonnet 5.5，定位於「日常良好範圍的工作」，如功能開發與錯誤修復。此為 Copilot 首次引入 Anthropic 模型，開發者可在 VS Code / GitHub IDE 內直接使用。",
+    "highlights": [
+      "Copilot 首次引入非 OpenAI 陣營模型",
+      "Sonnet 5.5 定位於日常 CRUD、bug fix 與功能實作",
+      "在 GitHub 生態內無需切換工具即可使用",
+      "比舊版 Copilot 模型更強調速度與成本效率",
+      "支援 thinking effort 參數，可調整推論深度"
+    ],
+    "why_it_matters": "Copilot 用戶現在有 Anthropic 選項，可在同一 IDE 內比較 GPT 與 Claude 的代碼補全品質，影響十億級開發者的日常工作流程程選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 VS Code 中啟用 Copilot，並將常用語言設為 Claude Sonnet 5.5，比較其在 TypeScript/Python 重構任務上的速度與準確度。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
     "id": "2026-09-28-hippo-memory-ai-agent",
     "title": "hippo-memory：讓 AI Agent 停止重複犯錯的開源記憶系統",
     "title_original": "kitfunso/hippo-memory",
@@ -107,6 +306,34 @@
     "automation_angle_zh": "技術人員可在本地部署 OpenShell 測試代理的執行邊界，評估其是否能有效防止惡意操作或資源滥用，並考慮將其整合到自有代理框架中。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-28-openai-lenfest-ai-5m-ai",
+    "title": "OpenAI 擴張 Lenfest AI 合作計畫，5M 美元資助新聞業 AI 轉型",
+    "title_original": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+    "published_at": "2026-09-28T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 宣布將 Lenfest AI Collaborative 與 Fellowship Program 擴張，追加 500 萬美元資助與最多 500 萬美元軟體 credits 及工程支援，瞄準新聞與媒體機構的 AI 整合。",
+    "highlights": [
+      "OpenAI 提供總計最高 1000 萬美元的支援",
+      "目標為新聞、媒體機構的 AI 應用整合",
+      "包含軟體 credits 與實際工程支援",
+      "屬於企業社會責任與政策遊說性質投資",
+      "對一般技術開發者直接價值有限"
+    ],
+    "why_it_matters": "OpenAI 透過資助新聞業建立正面形象與政策關係，但對獨立開發者或技術從業者的工具、成本、效能沒有直接影響，屬於戰略佈局大於技術價值的項目。",
+    "automation_angle": null,
+    "automation_angle_zh": "此資訊對個人技術用戶的日常工作無直接應用價值，但可留意入選機構是否發布相關 AI 應用開源工具或報告。",
+    "tags": [
+      "ai-deals",
       "rss",
       "en"
     ],
@@ -273,6 +500,62 @@
     "automation_angle_zh": "可據此評估組織內部部署開源模型的可行性與成本節省潛力。",
     "tags": [
       "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-28-openai-codex-codex-originals",
+    "title": "OpenAI 徵集 Codex 實際應用案例，開放申請 Codex Originals",
+    "title_original": "Are you a Codex Original?",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/form/codex-originals",
+    "published_at": "2026-09-28T00:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 正在徵集使用 Codex 做出出色專案的開發者、研究者與創作者故事，邀請入選者參與 Codex Originals 下一章節計畫，實際為宣傳性質的合作徵集活動。",
+    "highlights": [
+      "OpenAI 徵集使用 Codex 的真實專案故事",
+      "入選者將成為 Codex Originals 計畫成員",
+      "屬於 OpenAI 開發者社群經營活動",
+      "非產品發布或功能更新，訊號較弱",
+      "可能提供 API credits 或曝光機會"
+    ],
+    "why_it_matters": "對已深度使用 Codex 的開發者有機會獲得 OpenAI 資源支援，但此項目本身對大多數技術讀者的日常工作無直接影響，屬於社群公關活動。",
+    "automation_angle": null,
+    "automation_angle_zh": "若已在生產環境使用 Codex，可提交案例申請，可能獲得 API credits 或與 OpenAI 建立合作關係的機會。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-28-gpt-6-astra-2",
+    "title": "GPT-6 Astra 在稅務工作簿任務中速度提升 2 倍",
+    "title_original": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/basis-tax-workbook-with-astra",
+    "published_at": "2026-09-28T00:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 發布案例研究，企業 Basis 使用 GPT-6 Astra 完成 50 分頁稅務工作簿的速度是 GPT-5.6 Sol 的 2 倍，且意圖理解更強，讓團隊對結果更有信心。",
+    "highlights": [
+      "GPT-6 Astra 相比 GPT-5.6 Sol 速度提升 2 倍",
+      "處理 50 個分頁的複雜稅務工作簿",
+      "意圖理解增強，減少誤解導致的修正成本",
+      "Basis 為財務自動化企業，案例具實際應用參考價值",
+      "為 GPT-6 系列首次公開的效能量化數據"
+    ],
+    "why_it_matters": "2 倍速度加上更強意圖理解代表長文件、多步驟任務的自動化門檻降低，財務、審計、法律文件的 AI 處理成本將顯著下滑。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可設計類似 Benchmark：使用 GPT-6 Astra API 處理 Excel/CSV 格式的複雜報表，測量 token 消耗與執行時間，驗證是否達到官方效能宣稱。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -4497,6 +4780,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-28-testingcatalog-anthropic-claude-opus-5-5-api",
+    "title": "傳 TestingCatalog 報導 Anthropic 推出 Claude Opus 5.5 並降低 API 費用",
+    "title_original": "Anthropic launches Claude Opus 5.5 with lower API costs - TestingCatalog AI News",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNY21wamJpdDdjLXhBU1cxUlNwVUJXNHlRYkRRdC1fUjZWZ1ZtUkpzd3IzaEdDcklwS29BVVdUeEF6VGdINW9WRm1oSnowei1rYzU5VTZFS3NYYVlhcklRbzhsUEFyRGl4NFlYbm5vOFJPWTBERkdpOFZHWDAwajE2UktxdUVxMEFUSWdRWExZNnI?oc=5",
+    "published_at": "2026-09-22T20:42:11+00:00",
+    "category": "new-models",
+    "summary": "TestingCatalog 轉載報導指出 Anthropic 推出 Claude Opus 5.5 版本並同步調降 API 成本。Anthropic 尚未在官方頻道正式公告此資訊，TestingCatalog 為第三方 AI 新聞聚合平台，該訊息未獲官方確認，實際模型能力變化與定價調整仍待驗證。",
+    "highlights": [
+      "非 Anthropic 官方公告，來源為 TestingCatalog 新聞聚合",
+      "聲稱 Claude Opus 5.5 新版本具備更低的 API 調用成本",
+      "模型能力具體變化細節未披露",
+      "定價調整幅度未知",
+      "可能為搶先報導或推測性內容"
+    ],
+    "why_it_matters": "若 Anthropic 確實推出新版旗艦模型並降價，對需要高能力模型的開發者而言是重要成本優化機會；但未經官方確認的消息需謹慎對待，建議追蹤 Anthropic 官方網站或 API 文件更新。",
+    "automation_angle": null,
+    "automation_angle_zh": "持續關注 Anthropic 官方 API 定價頁面，若確認降價則可重新評估 Claude Opus 在現有工作流程程中的成本效益，考慮將部分需要高推論能力的任務遷移至此版本。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-09-22-mcp-dap-server-ai-mcp",
