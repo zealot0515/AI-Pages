@@ -1,5 +1,203 @@
 [
   {
+    "id": "2026-09-28-hippo-memory-ai-agent",
+    "title": "hippo-memory：讓 AI Agent 停止重複犯錯的開源記憶系統",
+    "title_original": "kitfunso/hippo-memory",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/kitfunso/hippo-memory",
+    "published_at": "2026-09-28T12:22:09Z",
+    "category": "agent-skills",
+    "summary": "hippo-memory 是一款專為 AI Agent 設計的開源記憶層，核心機制是「錯誤標記後不再重蹈覆轍」。採用本地 SQLite 儲存，透過 MCP 協議與主流開發工具（Claude Code、Codex、Cursor 等）整合，支援跨 session 持久化。新版採用 TypeScript 重寫，MIT 授權。",
+    "highlights": [
+      "錯誤標記機制：標記錯誤後 Agent 不再重複該錯誤",
+      "本地 SQLite 儲存，資料完全掌控在自己機器",
+      "MCP 協議支援，與主流開發工具無縫整合",
+      "支援 Claude Code、Codex、Cursor、OpenClaw、OpenCode、Pi",
+      "764 Stars，TypeScript 生態，MIT 授權"
+    ],
+    "why_it_matters": "對長期使用 Agent 工具的開發者而言，記憶錯誤並避免重蹈覆轍能大幅減少重試成本。hippo-memory 以輕量本地方案實現，有潛力成為開發流程中的長期記憶層。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將 hippo-memory 整合進日常編碼 Agent 工作流程，長期收集錯誤模式並觀察是否能有效減少同類錯誤發生頻率，進而評估其維護成本與效益。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/68618199?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-28-minimax-agent-linux-minimax-agent-linux",
+    "title": "minimax-agent-linux：MiniMax Agent 的非官方 Linux 移植版",
+    "title_original": "unn-Known1/minimax-agent-linux",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/unn-Known1/minimax-agent-linux",
+    "published_at": "2026-09-28T12:12:35Z",
+    "category": "open-source-ai",
+    "summary": "該專案為 MiniMax Agent 的非官方 Linux 移植版本，提供 .deb（Debian/Ubuntu/Mint）與 .pkg.tar.zst（Arch/CachyOS/Manjaro）兩種安裝格式。星數僅 22，屬小型實驗性專案，功能完整度與官方版本差異有待驗證。",
+    "highlights": [
+      "非官方移植，非 MiniMax 原廠維護",
+      "支援 Debian/Ubuntu/Mint（.deb）與 Arch 系（.pkg.tar.zst）",
+      "星數偏低（22 Stars），社群關注度有限",
+      "適合 Linux 環境下快速試用 MiniMax Agent 概念",
+      "使用前建議自行測試功能穩定性"
+    ],
+    "why_it_matters": "對於在 Linux 環境工作的技術用戶，這提供了一個繞過 Windows/macOS 限制的替代方案。但非官方維護意味著更新可能不及時，安全與功能風險需自行承擔。",
+    "automation_angle": null,
+    "automation_angle_zh": "Linux 用戶可下載對應套件安裝，評估 MiniMax Agent 在 Linux 環境下的實際表現，若功能滿足需求可作為本地自動化腳本的補充工具。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "JavaScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/202389413?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-28-holo4-agent",
+    "title": "Holo4：驅動通用型電腦操作 Agent 的新開源方案",
+    "title_original": "Holo4: powering generalist computer-use agents",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/Hcompany/holo4",
+    "published_at": "2026-09-28T09:44:05+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 官方部落格披露了 Holo4 專案，目標是為通用型電腦操作 Agent 提供底層能力。細節尚待官方完整說明，但基於 Hugging Face 在開源 AI 生態的影響力，Holo4 有潛力成為電腦操作 Agent 領域的新開源選項。",
+    "highlights": [
+      "來源為 Hugging Face 官方部落格，可信度中等偏高",
+      "定位為通用型電腦操作 Agent 的底層支援",
+      "具體架構與技術細節需閱讀完整文章",
+      "Hugging Face 生態加持，周邊工具與模型整合潛力大",
+      "建議追蹤官方文件取得更詳細的功能說明"
+    ],
+    "why_it_matters": "電腦操作 Agent 是今年熱門方向之一，若 Holo4 能提供開源、低門檻的實現方案，將降低開發者進入該領域的技術成本，值得持續關注其發展動態。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可訂閱 Hugging Face Holo4 文件更新，待完整技術文件釋出後評估其是否可取代現有電腦操作方案（如 Browser-use 或類似工具）。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-28-nvidia-openshell-100-openai",
+    "title": "NVIDIA 開源 OpenShell 安全沙箱，超過 100 家企業加入、OpenAI 未參與",
+    "title_original": "NVIDIA shipped OpenShell, an open source sandbox that gives local and open agents real runtime limits instead of prompt rules. Over 100 firms joined the safety stack. OpenAI did not.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws9ydg/nvidia_shipped_openshell_an_open_source_sandbox/",
+    "published_at": "2026-09-28T09:27:53+00:00",
+    "category": "open-source-ai",
+    "summary": "NVIDIA 發布 OpenShell，這是一款開源沙箱工具，能為本地代理和開放代理提供真正的執行期限制，而非僅依靠 prompt 規則。安全堆疊已吸引超過 100 家企業加入，但 OpenAI 選擇不參與此計畫。",
+    "highlights": [
+      "OpenShell 提供真正的執行期限制，區別於傳統 prompt 規則約束",
+      "安全堆疊獲得 100+ 企業支援，包括多家主流 AI 廠商",
+      "OpenAI 未加入此安全框架，可能影響其代理產品的安全性標準",
+      "開源特性允許技術人員自行審計和部署",
+      "為本地代理提供更可靠的隔離機制"
+    ],
+    "why_it_matters": "這代表業界對代理安全性的態度分歧：OpenShell 的出現可能成為代理部署的安全事實標準，而 OpenAI 的缺席則暗示其自有安全策略與開源社群的路線差異。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可在本地部署 OpenShell 測試代理的執行邊界，評估其是否能有效防止惡意操作或資源滥用，並考慮將其整合到自有代理框架中。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-28-30b-57-60",
+    "title": "開發者將 30B 模型寬度減半蒸餾，仍保持 57/60 工具调用能力",
+    "title_original": "Liked Muse, so I cut the 30B model in half by width, distilled it back, and it does 57 of 60 tool tasks its parent does 60 of",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws6bmh/liked_muse_so_i_cut_the_30b_model_in_half_by/",
+    "published_at": "2026-09-28T05:45:28+00:00",
+    "category": "new-models",
+    "summary": "一位開發者將 Muse 30B 模型以寬度減半的方式压缩後蒸餾回歸，壓縮後模型在 60 項工具任務中仍完成 57 項，幾乎保留原模型 95% 的工具调用效能。",
+    "highlights": [
+      "寬度減半策略比傳統剪枝更具計算效率",
+      "蒸餾過程成功保留大部分工具调用能力",
+      "模型參數量減少約 50%，推論成本相應降低",
+      "實驗結果顯示工具调用任務對模型寬度的敏感度較低",
+      "可作為小型代理模型蒸餾的參考方法論"
+    ],
+    "why_it_matters": "這項實驗證明工具调用能力並非完全依賴模型寬度，為在邊緣設備上部署高效能代理提供了新的模型压缩思路。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可參考此蒸餾流程測試自有模型的宽容度評估，若工具调用任務對寬度需求較低，可考慮將此方法應用於成本敏感場景。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-28-macos-27-apple-silicon-mac-llm-node-python",
+    "title": "macOS 27 為 Apple Silicon Mac 內建免費本地 LLM，並提供 Node/Python 封裝",
+    "title_original": "macOS 27 ships a free local LLM on Apple Silicon Macs. I made it easy to use from Node and Python",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws5l5p/macos_27_ships_a_free_local_llm_on_apple_silicon/",
+    "published_at": "2026-09-28T05:03:17+00:00",
+    "category": "open-source-ai",
+    "summary": "macOS 27 系統在 Apple Silicon Mac 上內建免費本地 LLM，開發者已發布 Node.js 與 Python 封裝庫以簡化接入，降低在 Mac 上進行本地 AI 開發的進入門檻。",
+    "highlights": [
+      "macOS 27 系統級別整合本地 LLM，無需額外安裝",
+      "Node.js 與 Python SDK 已開源，方便快速整合",
+      "Apple Silicon 的神經網路引擎可加速推論",
+      "完全本地運行，無需 API 費用或隱私上傳",
+      "適合在 Mac 開發環境中進行快速原型驗證"
+    ],
+    "why_it_matters": "這意味著每台 Apple Silicon Mac 都成為免費的邊緣 AI 開發節點，開發者可在本地、無費用限制的情況下測試與迭代 AI 功能。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可在本地 Mac 上利用此 LLM 進行工作流程程自動化，例如文件處理、程式碼生成或作為離線輔助工具，並透過 SDK 整合到現有專案中。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-28-muse-ai-agent",
+    "title": "Muse AI Agent 因自動回覆導致負評，反映代理決策真實困境",
+    "title_original": "Quoting Muse AI Agent",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
+    "published_at": "2026-09-28T04:01:30+00:00",
+    "category": "agent-skills",
+    "summary": "Muse AI Agent 在代理使用者取貨時自動回覆「我在這裡」，但實際上使用者並未到場，導致司機留下負評。此事件暴露了代理在無法驗證真實狀態時盲目承諾的風險。",
+    "highlights": [
+      "代理發送了「我在這裡」的自動回覆，但無法驗證實際狀態",
+      "虛假確認導致司機等待後憤怒離開並留下負評",
+      "代理已代表使用者道歉並提議再次嘗試",
+      "此案例說明代理需要在無法確認狀態時保持沉默或表達不確定性",
+      "反映了代理決策邏輯中缺乏「不確定性處理」的設計"
+    ],
+    "why_it_matters": "代理系統的真實挑戰在於處理資訊不對稱，而非僅僅執行任務。此案例提醒開發者在代理設計中必須考量驗證機制與誠實表達限制。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將此案例作為代理決策邏輯的反面教材，檢查自有代理是否存在類似的「過度承諾」問題，並加入不確定性回退機制。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-28-tdmcp-ai-touchdesigner-mcp",
     "title": "TDMCP：讓AI代理控制TouchDesigner的MCP伺服器",
     "title_original": "TouchDesigner/TDMCP",
@@ -24,6 +222,34 @@
       "en"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/1458252?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-28-3d",
+    "title": "工程師呼籲建立官方 3D 列印工程基準測試與排行榜",
+    "title_original": "It would be really cool to have an official 3D-print engineering benchmark/leaderboard like this",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws0pdp/it_would_be_really_cool_to_have_an_official/",
+    "published_at": "2026-09-28T00:51:03+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 用戶提議建立類似其他 AI 基準的官方 3D 列印工程評測框架，用於衡量模型在工程設計、容差分析與製造可行性等任務上的表現，目前尚無此類標準化評測。",
+    "highlights": [
+      "目前缺乏專門評測模型 3D 列印工程能力的基準",
+      "提議的基準可能涵蓋設計穩健性、容差計算等領域",
+      "有助於推動 AI 在 CAD/工程設計場景的應用評估",
+      "屬於社群提議階段，尚無官方或主要實驗室跟進",
+      "類似機械工程領域 MMLU 的定位"
+    ],
+    "why_it_matters": "3D 列印與製造領域的 AI 應用正在增長，但缺乏標準化評測導致模型能力無法横向比較。此提議若實現將加速該領域的模型開發與評估。",
+    "automation_angle": null,
+    "automation_angle_zh": "對此領域有興趣的技術人員可關注後續進展，或參與制定基準測試的任務定義與評測標準。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -2044,6 +2270,34 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/12494079?v=4",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-28-claude-opus-5-5-claude-api-prompt-audit-prompt-claude-md",
+    "title": "Claude Opus 5.5 推出 /claude-api prompt-audit 功能，清潔 Prompt 與 CLAUDE.md",
+    "title_original": "Opus 5.5, How to Use /claude-api prompt-audit to Clean Up Prompts and CLAUDE.md - Pasquale Pillitteri",
+    "source": "Google News Anthropic AI",
+    "source_url": "https://news.google.com/rss/search?q=Anthropic%20Claude%20AI%20model%20agent%20API&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWnVUT0QtdS12M094R3dHUmhhbWlQZUFnbDZZMHZORkRqaWlFYWFMbHlqRkMwZFItWmFKOUw0YlNicTlPelpLdWlwZU0tbHdxUHhLdHpZRUdZRTdaaDZzTUxaSmlPdUZfcnZVZmRRWlZuamdlb2l6VlMxSTRLMmpRbHZYSFc1ZVdHcHJqNWlrb1U?oc=5",
+    "published_at": "2026-09-25T06:23:13+00:00",
+    "category": "agent-skills",
+    "summary": "Anthropic 為 Opus 5.5 引入 /claude-api prompt-audit 指令，可自動分析並清理 Prompt 和 CLAUDE.md 文件，提升代理指令的精確性與一致性，降低指令誤判率。",
+    "highlights": [
+      "prompt-audit 支援自動檢測 Prompt 中的歧義與冗餘表述",
+      "可直接修改 CLAUDE.md 檔案以符合最佳實踐",
+      "有助於減少代理因指令不清產生的錯誤行為",
+      "屬於 Claude 桌面版或 API 內建功能",
+      "可批量處理多個專案的 Prompt 檔案"
+    ],
+    "why_it_matters": "Prompt 工程是代理工作流程程的核心瓶頸之一。內建審計工具能大幅縮短除錯時間，讓開發者更快速地將代理部署到實際工作流程程中。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可利用 prompt-audit 自動審計團隊的 CLAUDE.md 檔案，建立統一的 Prompt 品質標準，並將審計流程整合到 CI/CD 流水線中。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-09-25-github-copilot",
