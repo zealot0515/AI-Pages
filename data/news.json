@@ -1,5 +1,260 @@
 [
   {
+    "id": "2026-09-29-aseprite-ai-artist-mcp",
+    "title": "aseprite-ai-artist：遊戲美術資產的MCP智慧控制層",
+    "title_original": "with-pebbly/aseprite-ai-artist",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/with-pebbly/aseprite-ai-artist",
+    "published_at": "2026-09-29T17:15:50Z",
+    "category": "agent-skills",
+    "summary": "基於2025-11-25 MCP規格設計的Aseprite控制層，支援Claude Code、Codex、Gemini CLI與Cursor的跨Agent技能整合。TypeScript實現，GitHub星標33，瞄準遊戲美術資產生成的自動化流程。",
+    "highlights": [
+      "相容最新MCP規格（2025-11-25）並預向2026-07-28發展",
+      "支援Claude Code、Codex、Gemini CLI、Cursor四大Agent",
+      "專為像素美術工具Aseprite設計的控制協議",
+      "TypeScript實現，適合前端/工具鏈整合",
+      "可用於美術資產生成工作流程的自動化"
+    ],
+    "why_it_matters": "將AI Agent的能力延伸至遊戲美術資產生成領域，若與實際美術工具鏈整合成功，可顯著縮短遊戲或UI專案的原型迭代時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術美術或遊戲開發者可在Aseprite中建立簡單的像素精靈任務，測試MCP Server能否正確接收指令並生成符合預期的美術資源。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/199681305?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-29-vllm-ram-offloading",
+    "title": "vLLM RAM Offloading 技術解析：讓大型模型在有限記憶體運行",
+    "title_original": "RAM Offloading with vLLM - tcclaviger appreciation post",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtg12r/ram_offloading_with_vllm_tcclaviger_appreciation/",
+    "published_at": "2026-09-29T17:14:45+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論 vLLM 的 RAM offloading 功能，允許模型在 GPU VRAM 不足時將部分權重卸載至系統記憶體。這種技術讓開發者能在消費級硬體上運行原本需要專業 GPU 的大模型，降低本地部署成本。",
+    "highlights": [
+      "vLLM 原生支援 RAM offloading 功能",
+      "可將模型權重動態分配至系統 RAM 與 GPU VRAM",
+      "適合在 VRAM 有限的顯示卡（如 24GB）上運行大模型",
+      "需在延遲與容量間取得平衡",
+      "社群分享具體設定與效能調校經驗"
+    ],
+    "why_it_matters": "對想在本地部署大模型的開發者或研究者，RAM offloading 是突破硬體限制的實用技術，能以較低成本實驗大模型能力，不需仰賴雲端 API。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可評估在自有硬體上使用 vLLM + RAM offloading 部署特定任務模型，评估延遲是否滿足自動化流程需求，並計算省下的 API 成本。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-29-personaljarvis-ai",
+    "title": "PersonalJarvis：開源跨平台個人AI助理框架",
+    "title_original": "PersonalJarvis/PersonalJarvis",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/PersonalJarvis/PersonalJarvis",
+    "published_at": "2026-09-29T16:55:02Z",
+    "category": "agent-skills",
+    "summary": "開源本地AI助理框架，支援文字對話驅動Agent、程式碼CLI、瀏覽器與應用控制，覆蓋Windows、macOS、Linux三大平台。Python實現，GitHub星標75，主打Agentic時代的個人自動化。",
+    "highlights": [
+      "透過對話直接驅動Agent執行任務",
+      "支援控制瀏覽器、桌面應用與CLI工具",
+      "跨平台支援（Win/Mac/Linux）",
+      "Python生態，適合快速客製化",
+      "強調本地部署與隱私保護"
+    ],
+    "why_it_matters": "PersonalJarvis將多種作業系統控制能力整合到一個對話介面，技術用戶可實驗如何用自然語言驅動完整的工作流程程自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "安裝後以常見開發任務測試（如開啟終端機、搜尋資料、建立檔案），觀察其對複雜多步驟操作的執行效果與錯誤率。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/285448159?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-29-item",
+    "title": "開源螢幕監控觸發應用：結合視覺理解與自動化動作",
+    "title_original": "Thanks to you r/LocalLLaMA, my mom was able to use my app! The open-source app that can watch your screen and trigger actions. It is now easy to use, thanks to your feedback.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtelk8/thanks_to_you_rlocalllama_my_mom_was_able_to_use/",
+    "published_at": "2026-09-29T16:21:45+00:00",
+    "category": "open-source-ai",
+    "summary": "開發者在 r/LocalLLaMA 分享一款開源應用，能監控螢幕畫面並根據視覺內容觸發相應動作。經社群回饋優化後，使用者體驗大幅提升，讓一般使用者也能輕鬆操作，為本地 AI 視覺理解與自動化結合的實際應用案例。",
+    "highlights": [
+      "開源專案，可在本地運行，無需上傳螢幕資料",
+      "結合視覺理解模型與自動化觸發邏輯",
+      "經社群回饋改善介面實用性",
+      "展示本地 AI 視覺應用的實際價值",
+      "可用於自動化重複性螢幕操作"
+    ],
+    "why_it_matters": "這類工具展示了本地部署視覺模型的實際應用場景，開發者可從中學習如何將視覺理解整合進自己的工作流程程，實現更智慧的全域自動化。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可安裝此開源工具，針對重複性螢幕操作（如表單填寫、資料比對）設計自動化腳本，評估其準確率與實用性作為自建工具的參考。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-29-ai-rulez-14-ai",
+    "title": "ai-rulez：14種AI助理預設集與插件標準框架",
+    "title_original": "Goldziher/ai-rulez",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Goldziher/ai-rulez",
+    "published_at": "2026-09-29T16:16:57Z",
+    "category": "agent-skills",
+    "summary": "Go語言實現的AI助理配置管理庫，提供14種內建預設（Claude、Cursor、Copilot、Codex、Gemini等），支援完整自訂預設與可分發的插件套件捆綁，含Agent Plugins標準，GitHub星標144。",
+    "highlights": [
+      "支援Claude、Cursor、Copilot等主流AI助理預設",
+      "完整API相容的自訂預設擴展機制",
+      "Agent Plugins標準化插件分發格式",
+      "Go語言實現，適合效能敏感場景",
+      "可直接fork整合到現有工具鏈"
+    ],
+    "why_it_matters": "ai-rulez將多AI助理的配置管理標準化，技術團隊可用它統一管理不同模型的提示模板與插件，減少維護成本並提升一致性。",
+    "automation_angle": null,
+    "automation_angle_zh": "將ai-rulez fork到自己的專案中，利用其預設集快速為不同AI助理生成統一格式的配置，測試各模型的回應差異。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Go"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/30733348?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-29-swift-1-5-qwen3-8-27b-o8e-mtp-apple-m5-max-34-8-tok-s",
+    "title": "Swift-1.5-Qwen3.8-27b-O8e-mtp 在 Apple M5 Max 達成 34.8 tok/s",
+    "title_original": "Swift-1.5-Qwen3.8-27b-oQ8e-mtp on Apple M5 Max — 34.8 tok/s — llm-bench.io",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wte7n0/swift15qwen3827boq8emtp_on_apple_m5_max_348_toks/",
+    "published_at": "2026-09-29T16:07:22+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享在 Apple M5 Max 上運行量化版 Qwen3.8-27B 模型，採用 O8e 量化格式與 MTP（Multi-Token Prediction）技術，達成每秒 34.8 tokens 的生成速度。這顯示蘋果自研晶片在本地 LLM 推論上的效能潜力。",
+    "highlights": [
+      "Qwen3.8-27B 採用 O8e 量化格式，平衡精度與效能",
+      "MTP（Multi-Token Prediction）技術提升生成速度",
+      "Apple M5 Max 顯示出足夠的本地推論能力",
+      "34.8 tok/s 對於 27B 模型在蘋果晶片上屬於不錯的表現",
+      "可作為蘋果開發者本地 AI 應用的參考基準"
+    ],
+    "why_it_matters": "蘋果晶片的 Neural Engine 逐漸成為可行的本地 LLM 推論選項。開發者若瞄準 macOS 生態，可評估此硬體配置是否滿足應用延遲需求，進一步探索離線 AI 功能。",
+    "automation_angle": null,
+    "automation_angle_zh": "macOS 開發者可參考此基準配置，在 M5 Max 上測試類似規模模型，評估是否適合用於本地化的自動化腳本或本地 AI 助理功能，減少對雲端 API 的依賴。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-29-openai-devday-2026-simon-willison",
+    "title": "OpenAI DevDay 2026 現場實況（Simon Willison 直播）",
+    "title_original": "OpenAI DevDay 2026 live blog",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+    "published_at": "2026-09-29T15:55:13+00:00",
+    "category": "hot-topics",
+    "summary": "Simon Willison 以非官方觀察者身份在舊金山 Fort Mason 進行 OpenAI DevDay 2026 現場報導。他獲得創作者區座位，將直播主題演講及相關技術發布，為開發者提供第一手非官方資訊。Simon 過往的 DevDay 報導以快速、準確、未過度行銷化著稱。",
+    "highlights": [
+      "Simon Willison 以技術觀察者而非官方立場報導",
+      "地點在舊金山 Fort Mason，與去年相同場地",
+      "預計涵蓋新 API 功能、模型更新、定價變動等開發者關注內容",
+      "現場直播可獲得比官方新聞稿更快的技術細節",
+      "標籤包含 coding-agents，反映對 AI 編碼工具的關注"
+    ],
+    "why_it_matters": "DevDay 通常是 OpenAI 年度最重要的開發者發布會，可能包含 API 定價調整、新模型能力或工具鏈更新。Simon 的獨立報導能過濾官方公關用語，直接提供技術實質內容。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者應追蹤後續完整報導，評估是否有新的 API 功能可整合進現有自動化流程，或關注 pricing 變動以優化 AI 工具成本。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-29-mcp",
+    "title": "MCP 代理的來源感知驗證：不只求事實正確，更求來源可靠",
+    "title_original": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+    "published_at": "2026-09-29T13:07:00+00:00",
+    "category": "agent-skills",
+    "summary": "Hugging Face 部落格探討 MCP 代理系統中的來源驗證問題。傳統事實核查只驗證答案對錯，但新研究強調驗證資訊來源的可信度與準確性，讓代理在檢索增強生成（RAG）場景中能區分可靠與不可靠的資料來源，避免幻覺問題。",
+    "highlights": [
+      "提出「來源感知驗證」框架，不只看答案對錯，更看資訊來源的可靠性",
+      "針對 MCP（Model Context Protocol）代理設計，強化工具呼叫時的資料驗證能力",
+      "有助於減少 RAG 系統中的幻覺輸出問題",
+      "為企業級 AI 應用提供更穩健的事實核查機制",
+      "可與現有 MCP 工具生態整合"
+    ],
+    "why_it_matters": "對技術開發者而言，來源驗證是提升 AI 系統可靠性的關鍵。當代理需要串接外部工具或檢索資料時，能過濾不可靠來源將大幅減少錯誤輸出，尤其適合需要高準確度的企業應用場景。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可在自建的 MCP 代理中加入來源評分模組，針對檢索結果附加可信度權重，並設定閾值過濾低品質來源，提升自動化工作流程程的穩定性。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-29-ai",
+    "title": "分散式本地代理基準測試：評估跨設備 AI 代理協作效能",
+    "title_original": "Distributed Local Agents Benchmark.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt7yp4/distributed_local_agents_benchmark/",
+    "published_at": "2026-09-29T11:48:44+00:00",
+    "category": "new-models",
+    "summary": "Reddit 討論分散式本地代理的基準測試方法，評估多個本地 LLM 代理在不同設備間協作的效能與溝通效率。這類研究有助於了解如何在本地環境中构建多代理系統，而非完全依賴雲端服務。",
+    "highlights": [
+      "聚焦多個本地代理之間的協作效能",
+      "測試跨設備溝通與任務分配效率",
+      "對比純雲端與混合架構的差異",
+      "有助於建立本地 AI 系統的效能基準",
+      "適合有隱私需求或成本考量的部署場景"
+    ],
+    "why_it_matters": "對於重視資料隱私或希望降低 API 成本的技術團隊，分散式本地代理提供了一種可行架構。了解其效能邊界有助於規劃企業內部的 AI 部署策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可參考此基準測試方法，自行建立類似環境評估現有工作流程程是否適合分散式代理架構，測試任務完成率與延遲是否可接受。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-29-codemap-c-roslyn-mcp-ai-agent",
     "title": "CodeMap：C# 程式碼庫的 Roslyn 驅動 MCP 工具，讓 AI Agent 精準導航符號與呼叫圖",
     "title_original": "bbajt/csharp-code-map",
