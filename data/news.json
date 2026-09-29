@@ -1,5 +1,175 @@
 [
   {
+    "id": "2026-09-29-codemap-c-roslyn-mcp-ai-agent",
+    "title": "CodeMap：C# 程式碼庫的 Roslyn 驅動 MCP 工具，讓 AI Agent 精準導航符號與呼叫圖",
+    "title_original": "bbajt/csharp-code-map",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/bbajt/csharp-code-map",
+    "published_at": "2026-09-29T11:34:44Z",
+    "category": "agent-skills",
+    "summary": "CodeMap 是一款基於 Roslyn 編譯器 API 的 MCP（Model Context Protocol）伺服器，專為 AI Agent 設計。相較於暴力掃描整個程式碼庫，它能透過符號查詢、呼叫圖分析與架構事實搜尋，直接定位目標程式碼並返回精確答案，避免上下文洪水問題。",
+    "highlights": [
+      "基於 Roslyn，提供語法樹、符號解析等編譯器級能力",
+      "AI Agent 呼叫 CodeMap 工具而非讀取全程式碼庫",
+      "支援呼叫圖追蹤，快速定位函式上下游依賴",
+      "避免傳統 RAG 掃描帶來的大上下文負擔",
+      "C# 專屬，適用於 .NET 生態系的專案導航"
+    ],
+    "why_it_matters": "對處理大型 C# 程式碼庫的開發者而言，CodeMap 把原本需要大量上下文才能完成的程式碼理解任務，收斂成一次精準的工具呼叫，大幅提升 AI 輔助程式碼審查與重構的效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可在自己的 MCP 環境中接入 CodeMap，讓 AI Agent 在處理 PR 審查或除錯時自動呼叫該工具查詢特定類別的實作細節與呼叫鏈，替代手動搜尋與跳轉。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "C#"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/19565472?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-29-reflection-70b",
+    "title": "Reflection 70B 模型回顧：兩年前發布的爭議性開源模型",
+    "title_original": "Reflection 70B was released two years ago (September 2024)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt7e94/reflection_70b_was_released_two_years_ago/",
+    "published_at": "2026-09-29T11:18:20+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit 熱議 Reflection 70B 模型，該模型於 2024 年 9 月首度發布，當時因自稱採用「Reflection」技術而備受關注。由於此為歷史回顧貼文，資訊來源有限，技術細節待驗證，建議保持觀望態度。",
+    "highlights": [
+      "Reflection 70B 於 2024 年 9 月發布，並非新消息",
+      "模型名稱暗示採用自我反思機制，但實際效果存疑",
+      "此 Reddit 貼文為社群回顧，無新技術揭露",
+      "建議查閱原始發布資訊以驗證模型真實能力",
+      "低資訊增量，不建議作為決策依據"
+    ],
+    "why_it_matters": "此貼文僅為社群歷史回顧，未提供新技術進展或實證數據。技術使用者應優先關注有具體 benchmark 或實測的模型發布，而非社群討論。",
+    "automation_angle": null,
+    "automation_angle_zh": "如需評估 Reflection 70B，建議直接查閱原始 GitHub 或 HuggingFace 頁面的實測結果，而非依賴此回顧文。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-29-omnijev-onejev-pass",
+    "title": "OmniJev/OneJev：一個前向 Pass 搞定螢幕、照片、影片、文字的多模態決策模型",
+    "title_original": "OmniJev/OneJev",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/OmniJev/OneJev",
+    "published_at": "2026-09-29T11:15:14Z",
+    "category": "new-models",
+    "summary": "OneJev 是一款代號「System One」的多模態決策模型，號稱能在單次前向傳播中同時處理螢幕截圖、照片、影片與文字輸入，並給出經過校準的標準化答案。目前 GitHub 星標僅 21 顆，屬新興專案，功能聲明尚待社群驗證與基準測試支援。",
+    "highlights": [
+      "單一模型一次前向 Pass 處理四種輸入模態",
+      "口號為「System One」，強調決策一體化",
+      "針對螢幕理解、視覺問答、影片分析提供統一介面",
+      "21 顆星標，專案成熟度與社群接受度尚低",
+      "尚無公開 Benchmark 或第三方評測資料"
+    ],
+    "why_it_matters": "多模態統一決策模型若能兌現「一次 Pass」承諾，可大幅簡化目前需要串接多個專用模型的複雜 Pipeline；對技術宅而言，這是值得關注但需實測的早期訊號。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可先 clone 該 Repo 執行基本推論測試（如提供一張 UI 截圖並提問），觀察其回應品質與延遲，決定是否值得在專案實驗中使用或等待社群產出更完整的測評報告。",
+    "tags": [
+      "new-models",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/330584757?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-29-50b-moe",
+    "title": "50B+ MoE 模型活躍參數與智慧/速度/微調成本的最佳平衡點討論",
+    "title_original": "50B+ MoEs with few active parameters, what's the sweet spot for intelligence, agent speed, and affordable fine-tuning?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt5zw2/50b_moes_with_few_active_parameters_whats_the/",
+    "published_at": "2026-09-29T09:57:25+00:00",
+    "category": "new-models",
+    "summary": "Reddit LocalLLaMA 社群熱烈討論混合專家模型（MoE）中活躍參數數量與模型智慧、推論速度、微調成本之間的取捨。成員分享不同激活參數規模下的效能測試，並探討如何在有限計算資源下達到最佳性價比。",
+    "highlights": [
+      "50B 規模 MoE 模型活躍參數量直接影響推論延遲與記憶體佔用",
+      "few-shot 學習與推論能力並非與活躍參數線性成長",
+      "微調成本與活躍參數數量高度相關，小規模激活更易客製化",
+      "社群成員提供多組實測數據對比智慧與速度表現",
+      "專家認為 1-2B 活躍參數是當前性價比甜蜜點"
+    ],
+    "why_it_matters": "對於需要在本地部署大模型的技術開發者，選擇正確的活躍參數規模可大幅節省 GPU 資源與推論成本，並避免過度規格造成浪費。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可根據此討論建立自動化基準測試流程，在自有硬體上驗證不同 MoE 配置的延遲與輸出品質，選擇符合任務需求的最小激活規模。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-29-qwen3-8-flash-next-gguf-coder-1-89-bpw",
+    "title": "Qwen3.8-Flash-Next GGUF 量化版本釋出，Coder 剪枝版僅 1.89 bpw",
+    "title_original": "[Release] GSQ-RCO GGUFs for Qwen3.8-Flash-Next, plus a 50% expert-pruned Coder build at ~1.89 bpw",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt4s88/release_gsqrco_ggufs_for_qwen38flashnext_plus_a/",
+    "published_at": "2026-09-29T08:40:34+00:00",
+    "category": "open-source-ai",
+    "summary": "GSQ-RCO 團隊發布 Qwen3.8-Flash-Next 的 GGUF 格式量化版本，同時釋出經 50% 專家剪枝的 Coder 特化版本，壓縮至約 1.89 bpw（每權重位元數）。此版本專為本地部署優化，可在較少 VRAM 下運行，有助於技術愛好者評估最新 Qwen 模型的本地效能。",
+    "highlights": [
+      "支援 GGUF 格式，可搭配 llama.cpp、LM Studio 或 Ollama 本地運行",
+      "Coder 版本針對程式碼任務剪枝，理論上可降低 50% 記憶體需求",
+      "1.89 bpw 量化階度較高，需評估生成品質與原版差異",
+      "Qwen3.8-Flash-Next 為 Qwen 系列最新迭代版",
+      "剪枝版本可能犧牲部分非 coding 能力，需依用途選擇"
+    ],
+    "why_it_matters": "本地運行 LLM 的門檻進一步降低，技術使用者可用消費級 GPU 測試最新 Qwen 模型。剪枝版尤其適合資源受限場景或需要快速迭代Coding助理的工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載 GGUF 檔案後用 llama.cpp 量化測試，比較 Coder 版在不同 VRAM 配置下的生成速度與準確度，評估是否能替代雲端 API 完成日常 coding 任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-29-item",
+    "title": "開源社群推出模型人格測試框架，呼籲更多人參與測試",
+    "title_original": "I created a personality test for models, need more TESTS!!",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt33xk/i_created_a_personality_test_for_models_need_more/",
+    "published_at": "2026-09-29T06:54:43+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶開發了一套模型人格測試框架，用於評估不同 AI 模型在面對相同情境時表現出的行為特徵與決策傾向差異。開發者希望社群協助貢獻更多測試案例，以建立更完整的模型人格評估資料庫。",
+    "highlights": [
+      "測試框架包含多維度人格評估維度如謹慎度、創意傾向",
+      "不同模型在同一測試情境下展現明顯行為差異",
+      "開發者希望建立開源的人格測試資料集",
+      "可用於評估模型在特定應用場景的適用性",
+      "目前測試數量不足，需要社群協力擴充"
+    ],
+    "why_it_matters": "人格測試可幫助開發者選擇更符合應用場景需求的模型，例如需要高穩定性的客服系統與需要創意輸出的創作工具適合不同人格特質的模型。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可 fork 此測試框架，針對自有部署的模型進行人格評估，並將結果與現有資料庫比對，作為模型選型的量化參考依據。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-29-agent",
     "title": "程式碼 Agent 的「推測性獎勵破解」問題引發討論",
     "title_original": "Speculative reward hacking in coding agents",
@@ -246,6 +416,34 @@
     "why_it_matters": "此事反映出 AI 安全監管趨嚴的方向。技術團隊若使用 OpenAI API 處理敏感資料，應關注未來是否有新的合規要求或使用限制。",
     "automation_angle": null,
     "automation_angle_zh": "將此事件列入風險評估清單：檢查現有 OpenAI API 用法是否涉及政府或關鍵基礎設施相關資料，評估是否有備用模型方案。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-29-openai-ai",
+    "title": "OpenAI 發布前線 AI 訓練安全案例早期指南，涵蓋技術防護與失調事件調查框架",
+    "title_original": "Towards safety cases for frontier AI training",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+    "published_at": "2026-09-28T19:00:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格發表文章，闡述其前線 AI 訓練的安全案例（Safety Cases）早期指南，內容包括技術安全防護措施、作業實踐標準、以及模型失調（Misalignment）事件的調查方法論。文章為原則性陳述，未揭露具體內部技術細節。",
+    "highlights": [
+      "安全案例框架涵蓋技術、作業與組織三層面",
+      "強調失調事件的系統化調查流程",
+      "屬早期指南，非正式監管合規文件",
+      "未公開具體模型架構或訓練細節",
+      "可供業界參考但非可直接稽核的標準"
+    ],
+    "why_it_matters": "此文章代表 OpenAI 在模型安全與透明度上的自述立場。對技術人員而言，文中提及的失調事件分類與調查框架，可能成為日後評估模型輸出可靠性與對齊程度的參考依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可將此文定義的失調事件類型（如輸出偏離預期目標）納入自家模型的監控清單，設計自動化觸發條件以偵測潛在對齊問題，並依建議的調查流程建立對應的響應 SOP。",
     "tags": [
       "hot-topics",
       "rss",
@@ -2686,6 +2884,34 @@
     "why_it_matters": "Prompt 工程是代理工作流程程的核心瓶頸之一。內建審計工具能大幅縮短除錯時間，讓開發者更快速地將代理部署到實際工作流程程中。",
     "automation_angle": null,
     "automation_angle_zh": "開發者可利用 prompt-audit 自動審計團隊的 CLAUDE.md 檔案，建立統一的 Prompt 品質標準，並將審計流程整合到 CI/CD 流水線中。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-29-8-agentic-email-ai-agent",
+    "title": "8 款主流 Agentic Email 工具評測：將 AI Agent 連接電子郵件",
+    "title_original": "8 best agentic email tools to connect AI agents to email - hostinger.com",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfQXlndzE5VUtXVDBReF81UjRMcno2REpqaDJiQ1M5SV9IOVFfeW9rekJXdWVtT3V3VUplR1ZqUkNhWFhSOXBCRUNGMlFnUHpzcWsxUTQ2UERwZjJyU3Z2WVNlckxobjBJMmxJdVU4VzlGUQ?oc=5",
+    "published_at": "2026-09-25T03:36:48+00:00",
+    "category": "agent-skills",
+    "summary": "Hostinger 整理了 8 款可將 AI Agent 連接電子郵件的自動化工具，涵蓋 Gmail、Outlook 等主流平台。這些工具讓 Agent 能自動收發郵件、分類優先順序並根據郵件內容執行後續操作。",
+    "highlights": [
+      "涵蓋 Gmail、Outlook、IMAP 等主流郵件平台整合",
+      "支援自動郵件分類與優先順序排序",
+      "可根據郵件內容觸發自訂回覆或後續任務",
+      "部分工具支援多 Agent 協作處理郵件流",
+      "整合難度各異，從無代碼到 API 方案均有"
+    ],
+    "why_it_matters": "將 AI Agent 連接郵件系統可自動化客戶回覆、會議安排、資訊收集等高頻任務，大幅提升知識工作者的日常工作效率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可選擇合適工具將 Gmail/Outlook 與自建 Agent 串接，實現自動回覆常見問題、排程會議、將重要郵件同步至 Notion 等任務管理系統。",
     "tags": [
       "agent-skills",
       "rss",
@@ -99494,6 +99720,34 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-09-29-mistral-vibe-5-99-ai",
+    "title": "Mistral Vibe 推出學生優惠方案，月費 €5.99 可用於程式開發與 AI 任務",
+    "title_original": "Mistral Vibe at 5.99 Euro/Month: Student Discount for Coding and AI - Pasquale Pillitteri",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcTBLQWdRbVd5djJRLUlCZXVtUEZNSVcyaVdtMEdrVkJUeU4zck1vMXZUWmxrMnVBV3B5NExYR2dIZXFYTmRWWlQ5NnhFaE1JR1pTdk9zbUlEMGN5UkdSWVVWMHBPSWd3QmhqMjZEZ0FOcXJFcVNQdEx5N0Y4X0xyOEgxZU15Q3VWMVpVWE9YNTVPZw?oc=5",
+    "published_at": "2026-05-31T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "Mistral AI 旗下 Vibe 產品線針對學生推出月費 €5.99 的優惠方案，涵蓋程式碼輔助與一般 AI 任務使用。此價格相較一般方案大幅降低，預計吸引大量學生族群與教育工作者。",
+    "highlights": [
+      "學生優惠月費定價 €5.99，遠低於標準價格",
+      "可用於程式開發輔助與一般 AI 應用",
+      "需透過 PASQUALE PILLITTERI 等推廣連結驗證學生身份",
+      "Mistral Vibe 提供與 ChatGPT 類似對話功能",
+      "歐元定價對非歐元區用戶可能有匯率優勢"
+    ],
+    "why_it_matters": "對於預算有限的學生與個人開發者，Mistral Vibe 學生方案提供了一個經濟實惠的商業模型使用選項，可作為學習與小型專案的主力工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "具備學生身份者可利用此優惠方案自動化日常程式碼檢視文件撰寫等重複性任務，每月 €5.99 成本可在小型專案中快速回收。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-31-item",
     "title": "模型過度添加律師式免責聲明的行為探討",
     "title_original": "Why does the model keep shortcutting everything into lawyer-style caveats?",
@@ -114841,6 +115095,34 @@
     "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
+    "id": "2026-09-29-openai-chatgpt-team-biz",
+    "title": "OpenAI 推出 ChatGPT Team / Biz 促銷，多國用戶享前兩個月免費",
+    "title_original": "OpenAI 推出 ChatGPT Team/Biz 促销，多国使用者可享前2個月免費 - 80aj.com",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04QXJVZUs2UHJMNmxPOGdnXzlCTFRZLTRaUVAtVmtOVFVocy1sVG5acktYVXV5dGlyR3B6ZFlrWTFMeVIweWNScTh3VGJnMk9uRV8xTkhHNTNqdTRQdHFDZmxMa3FjaXNrV1E?oc=5",
+    "published_at": "2026-05-17T07:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "OpenAI 針對 ChatGPT Team 與 Business 方案在多個國家推出促銷活動，新用戶可享有前兩個月免費的優惠。此優惠可能有機會降低企業與團隊的初期試用成本。",
+    "highlights": [
+      "新用戶限時享有前兩個月免費試用",
+      "適用於 Team 與 Business 兩種訂閱方案",
+      "優惠覆蓋多個國家地區",
+      "需注意促銷截止時間與資格限制",
+      "可與團隊共享 GPT-4 與 DALL-E 等進階功能"
+    ],
+    "why_it_matters": "對於正在評估企業級 AI 工具的技術團隊，兩個月的免費試用可充分評估功能是否符合內部工作流程程需求，降低決策風險與前期成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可把握此促銷期部署 ChatGPT Team，測試 API 整合、工作流程程自動化與團隊協作場景，評估是否值得長期訂閱。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-05-24-deepmind-co-scientist",
     "title": "DeepMind Co-Scientist 協助老化研究 發現新治療靶點",
     "title_original": "Opening new paths in aging research",
@@ -121221,6 +121503,34 @@
     ],
     "image_url": "",
     "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-29-google-gemini-workspace-23",
+    "title": "Google Gemini 高級版低價攻略：土耳其區 Workspace 月費僅需 23 元",
+    "title_original": "Google Gemini高級版低價攻略：利用土区Workspace月费仅23元 - 80aj.com",
+    "source": "Google News 中文 AI 優惠搜尋",
+    "source_url": "https://news.google.com/rss/search?q=ChatGPT%20Claude%20Gemini%20%E4%BC%98%E6%83%A0%20%E5%85%8D%E8%B4%B9%20%E8%AE%A2%E9%98%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Td3E4eTRuMnp0YUxTSURocHE5TGJscktrWDBMdndXV0xnVjRVMXYzWHdPNlFGSHdONnNpWXFLZEFJLXFaZUdEbDZDampOdTE4MjFPa1J1ZUhJZGNqWFdYVEZxS2FZc25uYWt1TTJ3?oc=5",
+    "published_at": "2026-01-31T08:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "有開發者分享透過土耳其 Google Workspace 訂閱 Gemini 高級版的低價方案，月費僅需約 23 元人民幣等值貨幣。相較標準價格大幅降低，吸引注重成本的技術用戶注意。",
+    "highlights": [
+      "透過土區 Workspace 訂閱 Gemini 可享當地物價折扣",
+      "月費約 23 元，遠低於原價",
+      "需註冊土區 Google 帳號並綁定當地支付方式",
+      "可享有 Gemini Advanced 完整功能",
+      "存在地區服務條款與帳號風險需自行評估"
+    ],
+    "why_it_matters": "以極低成本獲得 Gemini Advanced 存取權限對個人開發者與小型團隊具有吸引力，但需注意 Google 服務條款限制與帳號潛在風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可評估此方案風險與收益比，若接受潛在帳號風險，可將省下的費用用於其他 AI API 或本地模型部署的 GPU 成本。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
     "id": "2026-05-23-nvidia-agentic-workflow",
