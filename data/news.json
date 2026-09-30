@@ -1,5 +1,114 @@
 [
   {
+    "id": "2026-09-30-lightricks-ltx-2-5-hugging-face",
+    "title": "Lightricks LTX-2.5 席捲 Hugging Face 熱榜",
+    "title_original": "Lightricks/LTX-2.5",
+    "source": "Hugging Face Trending Models",
+    "source_url": "https://huggingface.co",
+    "original_url": "https://huggingface.co/Lightricks/LTX-2.5",
+    "published_at": "2026-09-30T11:36:06.317734+00:00",
+    "category": "open-source-ai",
+    "summary": "LTX-2.5 是 Lightricks 開源的影片生成模型，支援文字生影片、圖像生影片、影片生影片等多種模式，在 Hugging Face 已有超過 5600 個讚與 160 萬下載量，屬當前熱度最高的開源影片模型之一。",
+    "highlights": [
+      "支援 13 種生成模式（文字→影片、圖像→影片、音頻→影片等）",
+      "開源可本地部署",
+      "Hugging Face 熱度極高（5611 likes, 1.6M downloads）",
+      "單一檔案（diffusion-single-file）簡化部署"
+    ],
+    "why_it_matters": "LTX-2.5 的多元生成模式與開源屬性，為需要影片素材自動化的開發者提供一個可自架、低成本的替代方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地端部署 LTX-2.5，結合腳本批量生成產品展示或行銷素材，評估其畫質與生成速度是否滿足工作流程需求。",
+    "tags": [
+      "open-source-ai",
+      "hf_models",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-30-venice-ai-mcp-server-ai-agent",
+    "title": "Venice AI MCP Server 為 AI Agent 打通本地工具鏈",
+    "title_original": "veniceai/venice-mcp-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/veniceai/venice-mcp-server",
+    "published_at": "2026-09-30T11:18:53Z",
+    "category": "agent-skills",
+    "summary": "Venice AI MCP Server 是一個開源 TypeScript 專案，讓 Claude Code、Cline 等主流 AI Agent 能直接調用 Venice AI 的工具介面，快速擴展 Agent 的工具能力邊界。",
+    "highlights": [
+      "TypeScript 編寫，易於前端/全端開發者改寫",
+      "支援 Claude Code、Cline 等主流 Agent",
+      "GitHub 69 顆星，屬新興專案",
+      "MCP 協定提升工具可插拔性"
+    ],
+    "why_it_matters": "MCP 協定正成為 Agent 工具擴展的標準，Venice MCP Server 為開發者提供一個可參考的實作範本，縮短自建工具節點的開發週期。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可 fork 此專案，將自有的內部工具封裝為 MCP 節點，讓 AI Agent 能直接調用私有 API 或資料庫，實現更深的流程自動化。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/161416315?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-aa-agentperf-local-ai-agent",
+    "title": "AA-AgentPerf-Local：在筆電與工作站上對本地AI Agent進行基準測試",
+    "title_original": "AA-AgentPerf-Local: Benchmarking local AI agents on laptops and workstations",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtzpcr/aaagentperflocal_benchmarking_local_ai_agents_on/",
+    "published_at": "2026-09-30T08:41:50+00:00",
+    "category": "agent-skills",
+    "summary": "研究團隊發布AA-AgentPerf-Local基準測試，針對在一般消費級硬體（筆電與工作站）上運行的本地AI Agent進行效能評估。測試覆蓋多種模型與Agent框架，評估其在常見任務（如資訊檢索、代碼生成、自動化操作）上的延遲、準確率與資源消耗，為技術人員選擇本地Agent方案提供實測數據參考。",
+    "highlights": [
+      "測試環境為消費級筆電與工作站（非伺服器等級）",
+      "涵蓋多種Agent框架與模型的交叉對比",
+      "評估指標包括推論延遲、任務完成率、GPU/CPU資源佔用",
+      "結果可協助技術人員根據硬體條件選擇合適的本地Agent方案"
+    ],
+    "why_it_matters": "本地部署Agent是降低成本與保障隱私的重要方向。此基準測試填補了消費級硬體上Agent效能數據的空白，讓技術人員能在有限資源下做出明智選型。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可根據自身硬體配置參考該基準，選擇性價比最優的本地Agent組合，並以此數據評估引入自動化工作流程時的可行性與瓶頸。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-baai-arex-2-27b-qwen3-8-agent",
+    "title": "BAAI AREX-2 27B：基於 Qwen3.8 的開源 Agent 模型",
+    "title_original": "BAAI/AREX-2 - 27B - Agent model based on Qwen3.8 27B",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtzedu/baaiarex2_27b_agent_model_based_on_qwen38_27b/",
+    "published_at": "2026-09-30T08:21:18+00:00",
+    "category": "new-models",
+    "summary": "BAAI 發布 AREX-2，參數量 27B，基於 Qwen3.8 架構，主打 Agent 能力。Reddit 用戶回饋顯示其在工具調用與多步推論上有一定表現，但目前公開資訊有限。",
+    "highlights": [
+      "基於 Qwen3.8 27B 架構",
+      "主打 Agent 工具調用與推論",
+      "Reddit 討論為主要資訊來源",
+      "具體效能數據與官方文件不足"
+    ],
+    "why_it_matters": "Qwen3.8 系列在本地部署社群有高人氣，AREX-2 若能在 Agent 任務上勝出，將為需要本地化 Agent 能力的用戶提供新的硬體友好選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可關注其 GitHub 或 Hugging Face 頁面，待模型權重釋出後在本地測試工具調用與自動化腳本執行的表現。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-30-scrapbox-cosense-mcp-ai-agent",
     "title": "scrapbox-cosense-mcp：讓 AI Agent 直讀寫個人知識庫",
     "title_original": "worldnine/scrapbox-cosense-mcp",
@@ -132,6 +241,33 @@
     "automation_angle_zh": "評估音訊處理需求時，優先測試 Qwen 系列模型作為 Encoder，可減少自行訓練的成本並加速原型驗證。",
     "tags": [
       "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-reddit",
+    "title": "Reddit熱議：中國開源權重模型是否可能遭美國禁令？",
+    "title_original": "Are you worried about a potential ban of Chinese open weight models?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtp9x4/are_you_worried_about_a_potential_ban_of_chinese/",
+    "published_at": "2026-09-29T23:17:54+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit LocalLLaMA社群近日熱烈討論中國開源權重模型（如Qwen、DeepSeek系列）是否可能受到美國政府出口管制或禁令。討論焦點包括現有BIS實體清單對模型權重的實際約束力、社群對開源模型下載可能受限制的擔憂，以及備份與自我托管的可行策略。部分用戶指出目前禁令多針對訓練數據與GPU算力，而非模型權重本身。",
+    "highlights": [
+      "討論起因疑為美國對中國AI出口管制政策趨嚴",
+      "目前實體清單主要限制GPU與高階算力，開源模型權重未明確被禁",
+      "社群建議囤積重要開源權重、本地備份以防萬一",
+      "部分用戶認為禁令執行技術成本高、可行性存疑"
+    ],
+    "why_it_matters": "對仰賴Qwen、DeepSeek等中國開源模型的技術人而言，若真的實施禁令可能影響後續模型獲取與更新。此議題關乎技術棧穩定性，值得密切關注政策走向。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可考慮將關鍵開源權重定期備份至本地存儲或冷儲存，並評估替代模型（如Llama、Mistral）的任務覆蓋度，以降低單一依賴風險。",
+    "tags": [
+      "hot-topics",
       "rss",
       "en"
     ],
@@ -122113,6 +122249,33 @@
     "why_it_matters": "語音轉文字模型市場 Whillbite/AssemblyAI 等已有先例，Mistral 此舉顯示其從純文字模型向多元模態擴張的意圖。對發票錄音、客服質檢、會議紀錄等場景的技術决策者，多一個歐洲本地供應商的選擇有戰略價值。",
     "automation_angle": null,
     "automation_angle_zh": "在 Whisper 或 AssemblyAI 之外申請 Voxtral API，針對同一測試音訊集跑WER/CER 指標對比，评估成本與延遲是否符合現有流水線需求。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-mistral-ai-voxtral-transcribe-2",
+    "title": "Mistral AI發布Voxtral Transcribe 2轉錄模型",
+    "title_original": "Mistral AI unveils Voxtral Transcribe 2 models - VentureBeat",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcWw2bGs4MWNzTGhqLUgyUTgzckJwZW0xZEFubVUxR1pDQVFTQ3M4clhiOVpjazBGaXVrMUppbzRvQmNqWkdxOFQ4SDdiaWIxQTFWRnpNUGlkamNKNUZZaGtjZWs3eVNDc2hpcy11NzNackRhNDk3OFRJT1loR3BCQW5mMWFrd0V1amRZNEhUampaWkNwZTBkaGJjX2hXeVo0VEhfalZ1UWxJTE1UTk1V?oc=5",
+    "published_at": "2026-02-04T08:00:00+00:00",
+    "category": "new-models",
+    "summary": "Mistral AI在VentureBeat上宣布推出Voxtral Transcribe 2系列語音轉文字模型。該模型專為高準確率、長音頻處理場景設計，支援多種語言與方言，並針對低延遲即時轉錄進行優化。這是Mistral在語音模型領域的重要產品化動作，直接對標OpenAI Whisper與Google Speech-to-Text服務。",
+    "highlights": [
+      "Voxtral Transcribe 2為Mistral語音轉文字模型的新版本",
+      "主打多語言支援與長音頻處理能力",
+      "針對即時轉錄場景進行延遲優化",
+      "為Mistral首個明確商業化的語音轉寫產品"
+    ],
+    "why_it_matters": "語音轉文字是大量工作流程自動化的關鍵上游能力。新模型提供開源或API選項，若效能超越Whisper，可為技術人員提供更靈活的語音自動化替代方案，同時可能壓低市場整體定價。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可測試Voxtral Transcribe 2 API處理會議錄音、播客字幕、客服錄音等任務，比較其延遲與準確率與現有方案的成本效益，評估是否值得遷移。",
     "tags": [
       "new-models",
       "rss",
