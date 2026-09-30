@@ -1,5 +1,143 @@
 [
   {
+    "id": "2026-09-30-ferrummcp-ruby-mcp",
+    "title": "FerrumMCP：用 Ruby 打造的網頁自動化 MCP 伺服器，支援反偵測瀏覽",
+    "title_original": "Eth3rnit3/FerrumMCP",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Eth3rnit3/FerrumMCP",
+    "published_at": "2026-09-30T21:20:37Z",
+    "category": "agent-skills",
+    "summary": "FerrumMCP 是一款基於 Model Context Protocol 的伺服器，利用 Ferrum（Ruby 版 Puppeteer）提供網頁自動化能力，並可選配 BotBrowser 整合以突破常見的反機器人偵測機制，讓 AI Agent 能直接操控真實瀏覽器環境。",
+    "highlights": [
+      "標準 MCP 協定介面，與主流 Agent 框架（如 Claude Desktop、Cursor）相容",
+      "Ruby 生態系開發，30 Stars，適合 Rails 背景技術團隊",
+      "BotBrowser 反偵測整合可處理一般 Cloudflare、CAPTCHA 頁面",
+      "相較無頭瀏覽器方案，降低爬蟲開發與維護成本"
+    ],
+    "why_it_matters": "網頁操作仍是許多企業工作流程自動化的瓶頸，FerrumMCP 以 MCP 協定簡化了 Agent 端的網頁操控門檻，且反偵測功能提升了可用場景的覆蓋率。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術讀者可將 FerrumMCP 接入自建 Agent，快速自動化登入後才能操作的內部系統或第三方 Web 工具。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Ruby"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/27304829?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-qwen3-8-27b-pi",
+    "title": "Qwen3.8-27B-pi：努力有序推論強化代理編碼能力",
+    "title_original": "Qwen3.8-27B-pi: Effort-Ordered Reasoning for Agentic Coding",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wufzrh/qwen3827bpi_effortordered_reasoning_for_agentic/",
+    "published_at": "2026-09-30T20:32:41+00:00",
+    "category": "agent-skills",
+    "summary": "社群開發者推出 Qwen3.8-27B-pi，採用「努力有序推論」（Effort-Ordered Reasoning）技術，專為代理編碼任務優化。Qwen 系列持續擴展應用場景。",
+    "highlights": [
+      "Qwen3.8-27B-pi 為 Qwen 系列變體模型",
+      "採用 Effort-Ordered Reasoning 推論框架",
+      "瞄準代理編碼（Agentic Coding）應用場景",
+      "27B 參數規模，兼顧效能與部署成本"
+    ],
+    "why_it_matters": "代理編碼為當前熱門方向，此模型若能提升自動化程式碼生成與修改的準確率，可直接改善開發者工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "在本地部署 Qwen3.8-27B-pi，使用代理框架（如 LangChain、CrewAI）測試其在多步驟程式碼任務中的表現。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-google-deepmind-gemini-4-argon",
+    "title": "Google DeepMind 發布 Gemini 4 Argon：下一代前沿智慧模型",
+    "title_original": "Gemini 4 Argon: our next era of frontier intelligence",
+    "source": "Google DeepMind Blog",
+    "source_url": "https://deepmind.google/blog/rss.xml",
+    "original_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+    "published_at": "2026-09-30T20:01:45+00:00",
+    "category": "new-models",
+    "summary": "Google DeepMind 正式發表 Gemini 4 Argon，宣稱代表新的前沿智慧時代。官方部落格詳細說明模型能力升級，涵蓋推論、多模態與效能優化等面向。",
+    "highlights": [
+      "Gemini 4 Argon 為 Google 最新旗艦模型代號",
+      "強調「前沿智慧」能力，暗示重大技術突破",
+      "官方 DeepMind Blog 為一手消息來源",
+      "詳細技術規格與應用場景待進一步解讀"
+    ],
+    "why_it_matters": "Gemini 系列為業界標竿，新版本發布往往重新定義模型能力標準，直接影響 AI 工具選型與工作流程程設計。",
+    "automation_angle": null,
+    "automation_angle_zh": "查閱官方技術文件，測試 Gemini 4 Argon 在長文本、多步推論任務上的表現，評估是否能替代或強化現有流程。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-09-30-srt-llm-adapter",
+    "title": "SRT：跨模型、精度、硬體讀取凍結 LLM 隱狀態的 Adapter 工具",
+    "title_original": "space-bacon/SRT",
+    "source": "GitHub Recent Model Tools",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/space-bacon/SRT",
+    "published_at": "2026-09-30T19:43:40Z",
+    "category": "open-source-ai",
+    "summary": "SRT 是一組 Adapter 與探針工具，能在不改變主模型權重的情況下讀取凍結 LLM 的隱狀態，並測量該讀出訊號在不同模型、精度格式與硬體間的跨遷移能力，支援跨模態泛化實驗。",
+    "highlights": [
+      "Adapter 設計無需微調主模型權重，維護成本低",
+      "支援跨模型（如不同系列 LLM）的隱狀態對齊測量",
+      "可測試不同精度（FP16/BF16/INT8）下的讀出訊號穩定性",
+      "包含跨模態遷移測量，適用於 VLM 類研究",
+      "Python 実装，37 Stars，屬小型實驗工具"
+    ],
+    "why_it_matters": "對研究模型蒸餾、遷移學習與 Hidden State 可解釋性的技術人員，該工具提供了一套低門檻的量化測量框架，值得加入實驗工具鏈。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用來自動化測量新模型架構在固定任務上的隱狀態訊號質量，輔助決策是否採用該模型作為蒸餾 teacher。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/2726758?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-ling",
+    "title": "中國實驗室再推 Ling 模型：兩週免費試用後開源",
+    "title_original": "Another Ling model comes out, same receipt, 2 weeks free to use, then open source. Chinese labs do contribute a lot to open source community",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuboum/another_ling_model_comes_out_same_receipt_2_weeks/",
+    "published_at": "2026-09-30T17:49:39+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論區出現另一款中國實驗室發布的 Ling 系列模型，採取先試用後開源的策略。中國 AI 社群對開源生態的貢獻持續受到關注。",
+    "highlights": [
+      "又一中國實驗室推出 Ling 系列新模型",
+      "採用兩週免費試用期，之後開源的商業模式",
+      "中國 AI 社群持續為開源生態貢獻模型",
+      "消息來源為 Reddit 討論，獨立驗證難度較高"
+    ],
+    "why_it_matters": "中國開源模型數量增加，為本地部署提供更多選擇，但需驗證模型品質與實際可用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注模型開源後的 Hugging Face 頁面，下載後在本地硬體測試效能與任務準確率。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-30-item",
     "title": "本地模型微調學習指南：燒錢前的必修課",
     "title_original": "i would like to learn deeply about fine-tuning local models before burning money",
@@ -79,6 +217,33 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-hydrafusion-vs-code-github-copilot-app",
+    "title": "HydraFusion 研究預覽版登陸 VS Code 與 GitHub Copilot App",
+    "title_original": "HydraFusion in VS Code and the GitHub Copilot app",
+    "source": "GitHub Changelog Copilot",
+    "source_url": "https://github.blog/changelog/label/copilot/feed/",
+    "original_url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
+    "published_at": "2026-09-30T14:31:19+00:00",
+    "category": "agent-skills",
+    "summary": "GitHub 官方宣布 HydraFusion 研究預覽版正式進駐 Visual Studio Code 與 GitHub Copilot 應用程式，不再僅限於 Copilot CLI。HydraFusion 出現在模型選擇器中，為開發者提供更靈活的 AI 輔助體驗。",
+    "highlights": [
+      "HydraFusion 研究預覽版從 CLI 擴展至 VS Code 與 Copilot App",
+      "出現在 VS Code 模型選擇器中，可與其他模型切換",
+      "研究預覽階段，功能與限制待社群驗證",
+      "官方 GitHub Changelog 發布，資訊可靠性高"
+    ],
+    "why_it_matters": "開發者可在熟悉的 IDE 環境直接試用 HydraFusion，評估其對日常編碼工作流程的實際幫助，無需離開編輯器切換工具。",
+    "automation_angle": null,
+    "automation_angle_zh": "在 VS Code 中開啟 HydraFusion 模型，針對當前任務（如重構、測試生成）進行實測，比較其輸出品質與回應速度。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
   },
   {
     "id": "2026-09-30-anthropic-claude-code-cowork",
@@ -217,6 +382,33 @@
       "TypeScript"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/161416315?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-openai",
+    "title": "OpenAI 披露破獲大規模模型蒸餾攻擊行動",
+    "title_original": "Disrupting a coordinated model-distillation campaign",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+    "published_at": "2026-09-30T10:30:00+00:00",
+    "category": "hot-topics",
+    "summary": "OpenAI 官方部落格說明其如何發現並中斷一場有組織的模型蒸餾攻擊行動，攻擊者試圖提取受保護模型的推論過程與內部知識。OpenAI 同步加強了對抗性蒸餾的防禦機制，但未透露具體技術細節。",
+    "highlights": [
+      "屬官方公告，信息來源可信度高",
+      "攻擊目標為模型推論過程，而非單純輸出盜用",
+      "防禦加強方向包含模型輸出監控與異常行為偵測",
+      "未揭露攻擊者身份與規模等細節"
+    ],
+    "why_it_matters": "模型蒸餾是 AI 智財保護的核心議題，OpenAI 此舉顯示大廠正積極建立模型输出的安全邊界，對使用付費 API 的開發者而言意味著平台穩定性提升。",
+    "automation_angle": null,
+    "automation_angle_zh": "對使用 OpenAI API 的工作流程影響有限，但建議關注後續 API 政策更新，避免因觸發蒸餾偵測機制而導致金鑰或用量異常。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -1814,6 +2006,34 @@
       "en"
     ],
     "image_url": "https://avatars.githubusercontent.com/u/1458252?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-ai-1",
+    "title": "三星電子全面轉向「三星AI訂閱」：訂閱營收逼近1兆韓元，企業訂閱與定制維護搶佔市場",
+    "title_original": "三星电子全面转向“三星AI訂閱”：“訂閱营收逼近1万亿韩元，靠企業訂閱與定制維护抢占市場” - asiae.co.kr",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6eDZuTU9tUW5CYVBCMEE0MXZBX1M4Z1dFaXo5TDhrRWtzaU5mSVdZOURiczRBeW5yd1BnUHFpMWtnOEw5ZFY5T0YyZXpvVFBZb0FzZGZISF9rajg3MDhsTjhCTEE?oc=5",
+    "published_at": "2026-09-28T02:00:00+00:00",
+    "category": "ai-deals",
+    "summary": "三星電子積極推動AI訂閱服務模式，企業訂閱與定制維護方案成為主要營收來源，訂閱收入規模已接近1兆韓元。此策略反映硬體廠商從一次性銷售轉向持續性服務收入模式的趨勢，對企業用戶的AI工具取得方式可能產生影響。",
+    "highlights": [
+      "三星AI訂閱服務聚焦企業市場，提供定制化維護方案",
+      "訂閱營收規模已達接近1兆韓元的水平",
+      "反映硬體廠商從設備銷售轉向服務訂閱的商業模式轉型",
+      "企業用戶可透過訂閱取得持續的AI功能更新與支援",
+      "此模式可能影響企業採購AI工具的決策與成本結構"
+    ],
+    "why_it_matters": "對於需要穩定AI工具支援的企業用戶，三星此訂閱模式可能提供硬體綁定的一站式方案，但需評估訂閱成本與彈性是否優於自建或純軟體方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可評估三星AI訂閱是否包含API接取或自動化腳本支援，比較其與純軟體AI服務的C/P值，決定是否將其整合進工作流程程。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
+    ],
+    "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
@@ -7557,6 +7777,34 @@
     "automation_angle_zh": "若團隊有新人 AI 培訓需求，可評估 Academy 路徑是否涵蓋基礎至進階內容，評估是否能作為內部教材替代方案，降低外部培訓成本。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-interconnects-ai",
+    "title": "開源模型權力版圖現況分析 - interconnects.ai",
+    "title_original": "The current balance of power in open models - interconnects.ai",
+    "source": "Google News Meta AI Llama",
+    "source_url": "https://news.google.com/rss/search?q=Meta%20AI%20Llama%20model%20open%20source%20release&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5YaDVFaDVWY3NsNlBmRTY5QnhHZnExdTJkZVNLN2lta2k1U3ZsOWo4MG02OHJTd3B2LWU5SE9LSmlGZUJCRmR2SzF0cUhEdE9XRk05Wmpudi1ZU2VpbzdwcG9ESUd6TUJoeEFVVUJlZjhmZzFZc2c?oc=5",
+    "published_at": "2026-09-21T07:00:00+00:00",
+    "category": "open-source-ai",
+    "summary": "interconnects.ai發布分析文章，探討當前開源AI模型的競爭態勢與能力版圖。文章比較主要開源模型（如Llama系列）與封閉模型的差距，並分析開源生態的發展趨勢與商業應用可能性。",
+    "highlights": [
+      "分析主要開源模型（Llama等）的當前能力定位",
+      "比較開源與封閉模型在各維度的實力差距",
+      "探討開源模型生態的商業應用潛力",
+      "涵蓋模型推論成本與部署彈性的考量",
+      "提供技術決策者選型時的參考框架"
+    ],
+    "why_it_matters": "對於需要在成本控制與模型能力間取得平衡的技術團隊，了解開源模型的當前實力與限制，有助於做出更精準的技術棧選擇與自託管策略。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可根據文章分析的開源模型能力圖譜，評估特定任務是否可用開源模型替代付費API，測試自託管可行性與維護成本。",
+    "tags": [
+      "open-source-ai",
       "rss",
       "en"
     ],
