@@ -1,5 +1,226 @@
 [
   {
+    "id": "2026-09-30-scrapbox-cosense-mcp-ai-agent",
+    "title": "scrapbox-cosense-mcp：讓 AI Agent 直讀寫個人知識庫",
+    "title_original": "worldnine/scrapbox-cosense-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/worldnine/scrapbox-cosense-mcp",
+    "published_at": "2026-09-30T02:46:26Z",
+    "category": "agent-skills",
+    "summary": "一款 MCP 伺服器，專為 Cosense（原 Scrapbox）設計，可讓 Claude 等 AI Agent 讀取、搜尋、建立與編輯 wiki 頁面。另有 CLI 模式與 Claude Code 外掛，54 stars，TypeScript 實作。",
+    "highlights": [
+      "支援讀取、搜尋、建立、編輯 Cosense 頁面",
+      "標準 MCP 協定，支援 Claude 及相容 Agent",
+      "提供 CLI 工具獨立使用",
+      "可作為 Claude Code 外掛整合進開發流程",
+      "TypeScript 實作，54 stars、社群活跃度中等"
+    ],
+    "why_it_matters": "將個人知識庫接入 AI Agent 是提升上下文品質的關鍵。此專案讓技術用戶能把 Cosense 的碎片筆記轉化為 Agent 可用的結構化知識。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可將個人專案筆記存在 Cosense，用 MCP 讓 Agent 在寫程式時自動參考相關技術文件與過往決策記錄。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/310589?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-munim-computer-use-rust-mcp",
+    "title": "munim-computer-use：用 Rust 實作跨平台電腦操作 MCP",
+    "title_original": "munimtechnologies/munim-computer-use",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/munimtechnologies/munim-computer-use",
+    "published_at": "2026-09-30T02:37:47Z",
+    "category": "agent-skills",
+    "summary": "開源的 Computer Use MCP 伺服器，支援 macOS、Windows、Linux。強調無障礙優先、後台輸入、Agent 指標、Zoom 控制與已登入 Chrome。Rust 實作，11 stars，仍屬早期專案。",
+    "highlights": [
+      "跨平台支援：macOS、Windows、Linux",
+      "無障礙優先的電腦操作介面",
+      "支援 Agent 指標、後台輸入、Zoom 控制",
+      "可操控已登入的 Chrome 瀏覽器",
+      "Rust 實作，性能導向但 stars 僅 11，早期階段"
+    ],
+    "why_it_matters": "電腦操作 Agent 是自動化複雜 GUI 任務的核心能力。Rust 實作暗示較高效能，但早期專案需自行評估穩定性與維護狀態。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可測試其操作瀏覽器、填寫表單、截圖比對等場景，評估是否能取代現有 Selenium/Playwright 流程並加入 Agent 控制層。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/220980036?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-modelscope-cli-modelscope-hub",
+    "title": "ModelScope CLI 遷移至 modelscope-hub 新套件",
+    "title_original": "PSA: ModelScope CLI is now moved to \"modelscope-hub\"",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtrykk/psa_modelscope_cli_is_now_moved_to_modelscopehub/",
+    "published_at": "2026-09-30T01:22:25+00:00",
+    "category": "open-source-ai",
+    "summary": "ModelScope 官方將 CLI 工具從舊位置移至新套件名稱 modelscope-hub，影響所有依賴舊路徑的腳本或自動化流程。開發者需更新 pip 安裝指令與 import 語句，否則既有工作流程會在下次升級後中斷。此變更屬於維護性重構，非功能新增。",
+    "highlights": [
+      "CLI 入口從 modelscope 改為 modelscope-hub",
+      "pip install 指令需同步更新",
+      "舊 import 語句將失效",
+      "影響依賴 ModelScope CLI 的自動化腳本"
+    ],
+    "why_it_matters": "若你在 CI/CD 或資料處理流程中使用 ModelScope CLI，必須立即更新依賴宣告，否則部署環境將回報找不到模組。趁此機會將套件版本鎖定可避免未來遷移成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "立即檢查專案中的 requirements.txt 與 shell script，若有 modelscope 相關依賴，更新為 modelscope-hub 並驗證下載功能正常。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-sftmill-off-policy-openai",
+    "title": "SFTMill：透過 Off-Policy 蒸餾任何 OpenAI 相容端點模型",
+    "title_original": "SFTMill: Easily [off-policy] distill any existing LLM with an OpenAI Compatible Endpoint. Turn any behavioral goal into a comprehensive dataset.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtqpjt/sftmill_easily_offpolicy_distill_any_existing_llm/",
+    "published_at": "2026-09-30T00:22:53+00:00",
+    "category": "agent-skills",
+    "summary": "SFTMill 是一個新開源工具，支援對任何 OpenAI API 相容的模型進行 Off-Policy 蒸餾。開發者可定義行為目標，工具自動將其轉化為訓練資料集，適合用少量標籤資料微調既有模型以達成特定任務。",
+    "highlights": [
+      "支援任意 OpenAI 相容端點的蒸餾",
+      "將行為目標自動轉為 SFT 資料集",
+      "Off-Policy 方式減少標註需求",
+      "適合快速客製化微調流程"
+    ],
+    "why_it_matters": "當你需要讓模型執行特定領域任務但缺乏大量標註資料時，SFTMill 可大幅降低訓練成本。結合現有模型與少量範例即可完成蒸餾，適合產品團隊快速迭代。",
+    "automation_angle": null,
+    "automation_angle_zh": "若有特定領域行為需注入模型（如客服話術、程式風格），可先定義行為目標，使用 SFTMill 生成資料集後微調，大幅縮短傳統資料準備週期。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-qwen-llms",
+    "title": "Qwen 系列 LLMs 成為音訊模型架構主流基底",
+    "title_original": "Qwen-family LLMs are quietly becoming the backbone of modern audio models; One chart for the architectures of 100+ audio models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtpntt/qwenfamily_llms_are_quietly_becoming_the_backbone/",
+    "published_at": "2026-09-29T23:35:16+00:00",
+    "category": "open-source-ai",
+    "summary": "社群分析顯示超過 100 個音訊模型採用 Qwen 系列作為骨幹架構，涵蓋語音識別、語音合成與多模態任務。Qwen 在開源生態的廣泛採用顯示其架構穩定性與擴展性獲得認可，成為事實標準。",
+    "highlights": [
+      "100+ 音訊模型以 Qwen 為基底",
+      "覆蓋語音辨識、合成、多模態場景",
+      "Qwen 家族已成音訊模型事實標準",
+      "開源社群採用率高代表生態成熟"
+    ],
+    "why_it_matters": "選 Qwen 作為音訊相關專案的骨幹，可降低整合成本並受益於社群資源。若你需要客製化音訊模型，直接基於 Qwen 改編比從頭訓練更具優勢。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估音訊處理需求時，優先測試 Qwen 系列模型作為 Encoder，可減少自行訓練的成本並加速原型驗證。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-sherry-s-3-4-webgpu-1-6mb-int8",
+    "title": "Sherry's 3:4 三元權重格式：WebGPU 上 1.6MB 模型達 int8 等效水平",
+    "title_original": "Sherry's 3:4 ternary format (1.375 bits per weight) running on WebGPU: a 1.6 MB model that plays Connect Four as well as its 7.8 MB int8 version",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtp8h5/sherrys_34_ternary_format_1375_bits_per_weight/",
+    "published_at": "2026-09-29T23:16:05+00:00",
+    "category": "new-models",
+    "summary": "Sherry's 團隊發表 3:4 三元量化格式，每權重僅需 1.375 bits，在 WebGPU 環境運行 1.6MB Connect Four 模型，效果與 7.8MB int8 版本相當。此壓縮率突破對邊緣裝置與瀏覽器端 AI 有重大意義。",
+    "highlights": [
+      "三元量化僅需 1.375 bits/權重，遠優於 int8",
+      "1.6MB 模型在 WebGPU 達 7.8MB int8 相同表現",
+      "壓縮率約 83%，對邊緣部署極具價值",
+      "需驗證 WebGPU 支援與推論延遲"
+    ],
+    "why_it_matters": "極致壓縮讓大模型跑在瀏覽器或物聯網裝置成為可能。若你需在客戶端部署 AI 功能，此格式可大幅減少下載大小與記憶體佔用，提升使用者體驗。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估 WebGPU 推論需求時，可測試 Sherry's 格式模型作為替代方案，評估延遲與準確度取捨，適合對包大小敏感的 Web AI 應用。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-amd-linux-7-4-radeon-ai-llm-18-23",
+    "title": "AMD 透過 Linux 7.4 驅動將 Radeon 整合顯示卡的 AI/LLM 效能提升 18~23%",
+    "title_original": "AMD boosting AI/LLM performance for Radeon iGPUs as much as 18~23% with Linux 7.4",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtp87p/amd_boosting_aillm_performance_for_radeon_igpus/",
+    "published_at": "2026-09-29T23:15:45+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群傳出 AMD 正針對 Radeon 整合顯示卡（iGPU）進行 Linux 7.4 驅動程式優化，預期可為本地端 LLM 推論帶來 18% 至 23% 的效能提升。此改進主要影響搭載 Ryzen APU 的筆電與迷你主機用戶，讓無獨立顯卡的設備也能更流暢執行中小型語言模型。",
+    "highlights": [
+      "Linux 7.4 驅動程式更新是效能提升的關鍵因素",
+      "主要受益者為使用 Ryzen APU（整合 Vega/RDNA 顯示核心）的筆電與迷你 PC",
+      "適合執行 7B 以下參數量的本地語言模型",
+      "18~23% 的增幅對邊緣裝置而言屬顯著進步",
+      "社群消息，需等 AMD 官方確認與穩定版驅動推出"
+    ],
+    "why_it_matters": "對於想在筆電或迷你主機上跑本地 LLM 的技術宅，散熱、功耗、與成本都是考量。整合顯示卡的能效提升等於直接擴展了可攜式 AI 工作站的邊界，無需額外花費購買獨立顯卡。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可等待正式驅動發布後，在 AMD APU 筆電上重新測試 llama.cpp 或 ollama 的吞吐量，評估是否能用低功耗設備取代桌面工作站處理日常自動化腳本與聊天機器人任務。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-anthropic-glm-5-3-claude-mythos",
+    "title": "Anthropic 前線紅隊報告：GLM-5.3 與 Claude Mythos 現可執行二進位攻擊",
+    "title_original": "Quoting Anthropic Frontier Red Team",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+    "published_at": "2026-09-29T22:20:28+00:00",
+    "category": "hot-topics",
+    "summary": "Anthropic Frontier Red Team 發布安全研究，在 Binary Exploitation 基準測試中，GLM-5.3 有 4% 成功率執行控制流劫持，Claude Mythos Preview 達 6%，而前代模型 Opus 4.6 與 GLM-5.2 均為零。此門檻的突破代表模型在真實漏洞利用場景的能力已不可忽視。",
+    "highlights": [
+      "GLM-5.3 成功執行控制流劫持（4%），GLM-5.2 為 0%",
+      "Claude Mythos Preview 達 6%，高於 GLM-5.3",
+      "攻擊門檻已明確跨越，前代旗艦模型無此能力",
+      "研究來自 Anthropic Frontier Red Team 內部 benchmark"
+    ],
+    "why_it_matters": "模型能執行漏洞利用意味著對抗性 prompting 風險升級，安全團隊需重新評估模型在滲透測試與惡意程式分析場景的隔離邊界。此能力變化將影響 AI 安全產品的評估基準。",
+    "automation_angle": null,
+    "automation_angle_zh": "安全研究人員可將此 benchmark 納入模型紅隊評估流程，測試自家部署模型是否具備類似能力，用於制定使用政策與輸出過濾機制。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-29-termide-rust-lsp-git",
     "title": "termide：Rust 實作的一站式終端工作區，支援 LSP、檔案管理、Git 與資料庫檢視",
     "title_original": "termide/termide",
@@ -48,6 +269,33 @@
     "why_it_matters": "理解後訓練對模型性格與創意輸出的影響，有助開發者選擇適合特定場景的模型微調方案，避免過度安全過濾導致輸出過於平淡。",
     "automation_angle": null,
     "automation_angle_zh": "可用於評估不同後訓練版本模型在創意寫作、對話機器人等需要 personality 場景的表現差異，作為模型選擇的參考維度。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-gpt-6-1-sol-astra",
+    "title": "GPT-6.1 Sol：接近 Astra 智慧水準，價格僅五分之一",
+    "title_original": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+    "published_at": "2026-09-29T18:27:48+00:00",
+    "category": "new-models",
+    "summary": "GPT-6.1 Sol 為 OpenAI 針對開發者推出的新模型層級，主打接近旗艦 Astra 的推論能力但定價大幅降低。Simon Willison 實測顯示其表現與 GPT-6 家族相近，屬於性價比優化版本。適合需要高效能但對成本敏感的生產環境。",
+    "highlights": [
+      "價格約為 Astra 系列的 20%，性價比顯著提升",
+      "智慧水準接近旗艦級，部分任務表現與 GPT-6 相當",
+      "目標客群為開發者與需要大規模部署的團隊",
+      "目前可在 OpenAI API 端點呼叫"
+    ],
+    "why_it_matters": "當同等智慧能力的模型價格腰斬，會直接改變 AI 應用的成本結構。開發者可重新評估現有 API 開銷，用 GPT-6.1 Sol 替換高成本端點以降低整體費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "比較現有管道的 token 單價，若 GPT-6.1 Sol 通過質量測試，可將非關鍵任務遷移至此層級，預計節省 60-80% API 費用。",
     "tags": [
       "new-models",
       "rss",
