@@ -1,5 +1,232 @@
 [
   {
+    "id": "2026-10-01-angular-devtools-mcp-ai",
+    "title": "Angular DevTools：以 MCP 協議賦能 AI 編碼代理的開發工具鏈",
+    "title_original": "santoshyadavdev/angular-devtools",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/santoshyadavdev/angular-devtools",
+    "published_at": "2026-10-01T12:03:09Z",
+    "category": "agent-skills",
+    "summary": "Angular DevTools 現已支援 MCP Server 模式，可被 AI 編碼代理呼叫以檢查元件、Signals、依賴注入與路由配置。除 Chrome 擴展外，亦提供嵌入式面板、獨立 CLI 與靜態報告模式。",
+    "highlights": [
+      "支援 Chrome 擴展、嵌入式面板、CLI 與 MCP Server 四種模式",
+      "可檢查 Angular 元件、Signals、DI 與路由狀態",
+      "以 MCP 協議暴露 API，讓 AI 代理程式化查詢框架內部狀態",
+      "使用 TypeScript 開發，GitHub 43 星",
+      "基於 Devframe 框架構建，具一定工程品質"
+    ],
+    "why_it_matters": "將傳統瀏覽器開發工具轉化為 AI Agent 可呼叫的標準接口，為 AI 輔助 Angular 開發奠定基礎，是框架整合的重要訊號。",
+    "automation_angle": null,
+    "automation_angle_zh": "使用 MCP Client 連接 Angular DevTools MCP Server，讓 AI Agent 在程式碼修改前自動檢查元件狀態與依賴關係，減少語境錯誤。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/11923975?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-01-memorycrystal-openclaw-agent-mcp",
+    "title": "MemoryCrystal：OpenClaw 生態的 Agent 持久化記憶插件與 MCP 服務器",
+    "title_original": "memorycrystal/memorycrystal",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/memorycrystal/memorycrystal",
+    "published_at": "2026-10-01T11:46:22Z",
+    "category": "agent-skills",
+    "summary": "MemoryCrystal 是 OpenClaw 的插件，透過 MCP 服務器為 AI Agent 提供跨會話的持久化記憶能力。TypeScript 實作，目前 GitHub 12 星，仍屬早期專案。",
+    "highlights": [
+      "作為 OpenClaw 插件存在，與 OpenClaw 生態綁定",
+      "透過 MCP 協議提供記憶接口，標準化程度較高",
+      "支援 Agent 跨會話保持狀態，不丟失上下文",
+      "TypeScript 實作，適合前端/全端開發者參與",
+      "12 星，社群關注度尚低，功能穩定性待驗證"
+    ],
+    "why_it_matters": "解決 Agent 每次重啟後上下文歸零的痛點，若與 OpenClaw 生態配合良好，可成為長期任務代理的基礎設施選擇之一。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 MemoryCrystal MCP Server 接入工作流程代理，測試在長時任務中是否能在重啟後正確恢復記憶，評估其穩定性與延遲。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "TypeScript"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/269918745?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-01-codegraph-rust-tree-sitter-mcp",
+    "title": "codegraph-rust：基於 Tree-sitter 的確定性程式碼知識圖譜 MCP 工具",
+    "title_original": "sunerpy/codegraph-rust",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/sunerpy/codegraph-rust",
+    "published_at": "2026-10-01T11:44:13Z",
+    "category": "agent-skills",
+    "summary": "一款純 Rust 實作的程式碼知識圖譜工具，透過 tree-sitter 解析建立 symbol/call/dependency 圖譜，後端使用 SQLite + FTS5 全文檢索。提供 CLI 與 MCP Server，無任何 LLM 依賴，輸出位元組穩定，適合做為 AI 程式碼代理的靜態分析基底。",
+    "highlights": [
+      "tree-sitter 解析器保證語法定義一致性，跨語言支援",
+      "SQLite/FTS5 提供高效查詢與全文檢索能力",
+      "純 CLI + MCP Server，無外部 AI 服務依賴",
+      "輸出結果位元組穩定，方便做回歸測試比對",
+      "可與現有 Agent 流程整合做程式碼理解增強"
+    ],
+    "why_it_matters": "AI 程式碼代理常因缺乏對程式碼結構的精確理解而產生幻覺。此工具提供確定性的語法圖譜，可作為代理的外部知識索引，大幅提升重構、遷移、漏洞分析等任務的準確性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 codegraph-rust 整合進 CI pipeline，自動為每個 PR 生成 dependency graph 差異報告，輔助 code review 或自動化遷移腳本生成。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Rust"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/30691040?v=4",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-10-01-second-yourself-agent",
+    "title": "second-yourself：為 Agent 打造的自維護引用記憶維基系統",
+    "title_original": "HurricaHjz/second-yourself",
+    "source": "GitHub Recent Agent Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/HurricaHjz/second-yourself",
+    "published_at": "2026-10-01T11:12:09Z",
+    "category": "open-source-ai",
+    "summary": "second-yourself 基於 Karpathy 的 LLM-wiki 模式，利用 Claude Code 為研究助理，在 Obsidian Wiki 上建立自維護、具引用來源的長期記憶。號稱可作為多 Agent 協作的共享大腦，仍屬 Pre-1.0 早期階段。",
+    "highlights": [
+      "基於 Karpathy LLM-wiki 模式，記憶具備引用來源可溯源",
+      "以 Obsidian Wiki 作為長期記憶存儲介面",
+      "Claude Code 充當研究助理，自動維護知識庫",
+      "支援多 Agent 共享記憶，為協作式工作流程設計",
+      "GitHub 105 星，Python 實作，仍在積極開發中"
+    ],
+    "why_it_matters": "突破 Agent 上下文限制的可行方案，若自維護機制成熟，可讓 AI 在長期專案中真正累積知識，而非每次從零開始。",
+    "automation_angle": null,
+    "automation_angle_zh": "克隆專案後，將其應用於長期研究代理場景：例如讓 Claude Code 自動維護某領域的技術文檔庫，定期檢索與更新。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/105645379?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-01-gpu-vllm-50-40-nvidia-gpu",
+    "title": "雙 GPU vLLM 資源配置：50+40 NVIDIA GPU 推論實測",
+    "title_original": "Dual GPUs vLLM resources for 50 + 40 nvidia GPUs",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuvu86/dual_gpus_vllm_resources_for_50_40_nvidia_gpus/",
+    "published_at": "2026-10-01T10:25:39+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit LocalLLaMA 社群分享 vLLM 在雙 GPU 架構（50張+40張 NVIDIA GPU）上的推論資源配置與優化經驗。討論內容涵蓋記憶體分配、模型並行策略及效能瓶頸分析，為需要部署大型語言模型的技術人員提供實務參考。",
+    "highlights": [
+      "vLLM 在異質 GPU 叢集（50+40 配置）下的資源調度實測",
+      "模型並行策略與通訊頻寬瓶頸的具體數據",
+      "雙 GPU 組合對推論延遲與吞吐量的影響",
+      "社群提供的失敗經驗與排除方法"
+    ],
+    "why_it_matters": "對需要自建大型語言模型推論服務的技術人員，多 GPU 配置是常見需求。此討論提供實戰級的資源規劃參考，可縮短部署踩坑時間。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術人員可參考此配置驗證自己的 vLLM 部署腳本，評估是否適合現有 GPU 資源；亦可將此資源規劃經驗整合至基礎設施即程式碼（IaC）腳本中。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-01-claude-cowork",
+    "title": "開源 Claude Cowork 替代方案討論串",
+    "title_original": "Best OpenSource Claude Cowork alternative?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuu9ip/best_opensource_claude_cowork_alternative/",
+    "published_at": "2026-10-01T08:45:33+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 討論區整理目前可替代 Claude Cowork（Anthropic 的人機協作程式碼功能）的開源選項，社群推薦包括 Continue.dev、Code GPT 等工具，強調需本地部署與隱私合規需求。",
+    "highlights": [
+      "Continue.dev 是較受推薦的本地替代方案",
+      "主要訴求是程式碼隱私與本地部署",
+      "功能對標 Claude Cowork 的對話式程式碼修改",
+      "開源與否差異大，需評估維護活躍度",
+      "多數方案仍需掛載 LLM API，無本地模型整合"
+    ],
+    "why_it_matters": "Claude Cowork 封閉且需要雲端 API，對重視程式碼隱私的企業或個人開發者而言，開源替代方案能提供同等的對話式程式碼編輯體驗，同時避免資料外流。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可比較 Continue.dev 與現有工具的 MCP 整合程度，選擇最適合自己 IDE 的方案，並評估是否能接入本地 Ollama/llama.cpp 模型實現完全離線。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-01-deepseek-harness-0-2-api-key",
+    "title": "DeepSeek harness 0.2：支援無 API Key 網頁搜尋的非官方評測工具",
+    "title_original": "DeepSeek harness 0.2 - Optional Bundle Architecture, Windows Sandbox improvements, Async Question Mode, Desktop release, Web Search without key",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wutkgt/deepseek_harness_02_optional_bundle_architecture/",
+    "published_at": "2026-10-01T07:59:36+00:00",
+    "category": "agent-skills",
+    "summary": "DeepSeek harness 0.2 版帶來 Optional Bundle Architecture、Windows Sandbox 改進、非同步 Question Mode、Desktop 版本釋出，以及不需 API Key 即可使用網頁搜尋功能，進一步降低本地化評測 DeepSeek 模型的門檻。",
+    "highlights": [
+      "Optional Bundle Architecture：可按需加載模組減少體積",
+      "Windows Sandbox 改進提升隔離評測安全性",
+      "Async Question Mode 加速批量測試",
+      "Desktop release 提供 GUI 方便非技術用戶",
+      "網頁搜尋功能無需 API Key，降低使用成本"
+    ],
+    "why_it_matters": "DeepSeek 模型在中文任務性價比高，但缺乏順手的本地評測工具。此版本補足了無 Key 網搜能力，方便開發者做 RAG 或即時資訊增強的本地測試。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 harness 0.2 設為每日 model regression 工具，用 Async Question Mode 批量跑 evals，並透過無 Key 網搜功能自動驗證模型對即時資訊的正確率。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-01-matthew-green-ai",
+    "title": "Matthew Green 警告：AI 代理可能形成跨沙盒蠕蟲傳播鏈",
+    "title_original": "Quoting Matthew Green",
+    "source": "Simon Willison AI Notes",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "original_url": "https://simonwillison.net/2026/Oct/1/matthew-green/",
+    "published_at": "2026-10-01T06:29:01+00:00",
+    "category": "hot-topics",
+    "summary": "密碼學專家 Matthew Green 指出，當前 AI 代理在隔離沙盒中訓練或部署時，會透過共享的 package cache、email、Slack 等通道交換指令，形成類似蠕蟲的傳播鏈。若個人代理（如 Muse）普及，這將是實際的安全威脅，而非理論風險。",
+    "highlights": [
+      "代理間共享快取可成為指令注入通道",
+      "沙盒隔離不足以防止代理間横向傳播",
+      "更換溝通媒介（email/Slack）仍存在相同漏洞",
+      "個人化代理普及將放大蠕蟲效應",
+      "安全性需從代理間協議層面重新設計"
+    ],
+    "why_it_matters": "隨著多代理系統在工作流程程中應用增加，若缺乏安全的代理間通信機制，可能導致惡意指令在組織內部的 AI 系統中擴散，造成非預期的自動化風險。",
+    "automation_angle": null,
+    "automation_angle_zh": "建構多代理系統的技術人員應審計代理間的資訊傳遞點，考慮使用簽名驗證或加密通道防止指令篡改，並關注相關安全框架的進展。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-10-01-mcpp-language-server-c-20-23",
     "title": "mcpp-language-server：C++20/23 模組統一語言伺服器",
     "title_original": "Sunrisepeak/mcpp-language-server",
@@ -104,6 +331,34 @@
     "why_it_matters": "專家剪枝技術可大幅減少推論計算量，GGUF 支援讓本地部署更靈活。對於需要高效本地推論的技術用戶，Victoria 可能是兼顧效能與資源消耗的新選擇。",
     "automation_angle": null,
     "automation_angle_zh": "技術用戶可下載 GGUF 版本，在 Ollama 或 LM Studio 本地部署，快速測試 Terminal-Bench 工作負載（如 CLI 操作自動化）的實際表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-01-llama-cpp-2",
+    "title": "開源推論引擎自適硬體優化：號稱比 llama.cpp 快 2 倍",
+    "title_original": "Open source inference engine (like LM Studio or Unsloth Desktop) that optimizes itself for your exact hardware. Compiles and tunes its kernels on your device, so open models run up to 2x faster than llama.cpp. Works on Apple Silicon, NVIDIA, AMD or nothing but a CPU.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuj70v/open_source_inference_engine_like_lm_studio_or/",
+    "published_at": "2026-09-30T22:46:30+00:00",
+    "category": "open-source-ai",
+    "summary": "一款開源推論引擎，強調能在設備上根據實際硬體（NVIDIA GPU、Apple Silicon、AMD GPU 或純 CPU）自動編譯與調優 kernel 參數，使開源模型執行速度比 llama.cpp 最高快 2 倍，目標是成為 LM Studio 或 Ollama 的開源替代方案。",
+    "highlights": [
+      "設備端自優化：根據硬體自動生成優化 kernel",
+      "支援 Apple Silicon、 NVIDIA、AMD 與純 CPU 環境",
+      "目標是比 llama.cpp 提速 2 倍",
+      "定位為 LM Studio 的開源替代選項",
+      "尚無詳細 Benchmark 數據，需自行驗證"
+    ],
+    "why_it_matters": "本地推論效能瓶頸直接影響開發成本與迭代速度。若此引擎真能自適硬體並超越 llama.cpp，可大幅降低自託管 AI 應用的硬體門檻與費用。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可先用該引擎替換現有 llama.cpp 推論腳本，實際跑 Whisper/Phi 類模型對比延遲與 VRAM 佔用，驗證是否達到宣稱的 2x 加速效果。",
     "tags": [
       "open-source-ai",
       "rss",
@@ -246,6 +501,34 @@
       "open-source-ai",
       "rss",
       "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-01-google-play-ai",
+    "title": "Google Play 測試將 AI 使用量納入訂閱按量計費",
+    "title_original": "Google Play 按使用量计费將 AI 成本纳入訂閱 - remio",
+    "source": "Google News 中文 AI 薅羊毛搜尋",
+    "source_url": "https://news.google.com/rss/search?q=AI%20%E8%AE%A2%E9%98%85%20%E4%BC%98%E6%83%A0%20OR%20%E8%96%85%E7%BE%8A%E6%AF%9B&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWi12bFhKRkJEeUZPVXMtMmtzWDZvT2I3b1V2TkpaRGFxemVKVXpRb3VSZDBiY1A2TnYyY3RaTkcwVTI4NmFnXzdBNVMwOEl6bU5vRURDMkZZV002UjQxVHc3QUhUTFNOSWlRZ2M1ZnVtaGpqLVNRa3dWVXc5aU5ZQjVMdnBXdlBjQ0hjZlpBb1ZNNWlQZTk0aHlKZ0hYQTZ5V1Vz?oc=5",
+    "published_at": "2026-09-30T17:03:01+00:00",
+    "category": "ai-deals",
+    "summary": "Google Play 正在測試基於使用量的計費模式，將 AI 功能成本納入訂閱方案，意味著 App 開發者可能需要重新設計訂閱層級或 AI 功能解鎖策略，以應對平台層級的 AI 成本攤提機制。",
+    "highlights": [
+      "Google Play 推動 AI 使用量納入訂閱計費",
+      "開發者需重新規劃訂閱定價與功能分層",
+      "可能影響依賴 AI 功能的 App 商業模式",
+      "目前為測試階段，正式上線時間未定",
+      "對消費者端的 AI 功能訂閱費可能增加"
+    ],
+    "why_it_matters": "若 Google Play 正式將 AI 成本納入平台級訂閱，開發者的 AI 功能定價策略需全面重新檢視，尤其對那些將 AI 作為核心功能的 SaaS 或內容生成類應用影響顯著。",
+    "automation_angle": null,
+    "automation_angle_zh": "獨立開發者應關注此政策的具體實作細節，提前評估自家 App 的 AI 功能邊際成本，並準備彈性定價方案應對平台費用結構變化。",
+    "tags": [
+      "ai-deals",
+      "rss",
+      "zh-CN"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
