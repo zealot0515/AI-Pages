@@ -1,5 +1,118 @@
 [
   {
+    "id": "2026-10-01-mcpp-language-server-c-20-23",
+    "title": "mcpp-language-server：C++20/23 模組統一語言伺服器",
+    "title_original": "Sunrisepeak/mcpp-language-server",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Sunrisepeak/mcpp-language-server",
+    "published_at": "2026-10-01T03:05:17Z",
+    "category": "open-source-ai",
+    "summary": "開源 C++ 語言伺服器實現 GCC、Clang、MSVC、MinGW 的統一模組語義，支援 VS Code、Zed、CLion、Neovim 等主流編輯器，並相容 AI Agents 的 MCP 協定與 CI 流程。目前星標 15，屬於早期專案。",
+    "highlights": [
+      "跨編譯器統一 C++20/23 模組語義，減少環境差異問題",
+      "支援 VS Code、Zed、CLion、Neovim 等主流編輯器",
+      "相容 MCP 協定，可被 AI Agent 工具呼叫",
+      "可用於 CI 環境，保障團隊成員一致的編譯體驗",
+      "目前 stars 僅 15，功能穩定性有待社群驗證"
+    ],
+    "why_it_matters": "解決 C++ 模組長期以來跨編譯器行為不一致的痛點。對有 AI Coding Agent 需求的技術宅而言，支援 MCP 的語言伺服器可直接融入自動化工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "將其整合進 CI Pipeline 或 AI Coding Agent，確保團隊成員無論使用何種編譯器都能得到一致的程式碼分析結果。",
+    "tags": [
+      "open-source-ai",
+      "github_search",
+      "en",
+      "C++"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/38786181?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-01-astrabox-ai",
+    "title": "Astrabox：開源街機遊戲生成器，讓 AI 輔助遊戲開發",
+    "title_original": "Astrabox - Open source Arcade Game Generator",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wumex2/astrabox_open_source_arcade_game_generator/",
+    "published_at": "2026-10-01T01:17:44+00:00",
+    "category": "new-models",
+    "summary": "Astrabox 是一款開源的街機遊戲生成器，目標是讓開發者能快速透過 AI 輔助建立復古風格街機遊戲。該專案發布於 Reddit r/LocalLLaMA，目前已有初步可用版本。",
+    "highlights": [
+      "開源街機遊戲生成器，聚焦復古遊戲風格",
+      "強調 AI 輔助遊戲開發流程",
+      "GitHub 可取得原始碼",
+      "社群驅動專案，非商業產品",
+      "具備娛樂與技術展示雙重價值"
+    ],
+    "why_it_matters": "對於想探索 AI 生成遊戲內容的技術開發者，Astrabox 提供了一個可修改、可實驗的開源起點。開源特性允許深度客製化與效能優化。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可 clone 專案，修改 prompt 或遊戲邏輯，用於自動化生成小型遊戲原型，或作為 AI 遊戲生成管線的參考實作。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-01-reddit-blender",
+    "title": "Reddit 討論：Blender 與遊戲開發最佳本地模型選型",
+    "title_original": "Best local model for Blender and game dev?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuk9f1/best_local_model_for_blender_and_game_dev/",
+    "published_at": "2026-09-30T23:35:41+00:00",
+    "category": "hot-topics",
+    "summary": "Reddit r/LocalLLaMA 討論串詢問本地模型在 Blender 輔助與遊戲開發場景下的最佳選擇。屬於一般性社群討論，缺乏具體 Benchmark 與明確結論，實用資訊密度低。",
+    "highlights": [
+      "聚焦本地模型在 3D 建模與遊戲開發的應用",
+      "討論涵蓋模型尺寸、推論速度、相容性等話題",
+      "缺乏具體測試數據與量化比較",
+      "屬於一般性社群交流，非專業評測",
+      "可做為初步選型參考但不應作為唯一依據"
+    ],
+    "why_it_matters": "對於想在 Blender 流程中整合 AI 輔助或使用本地 LLM 處理遊戲腳本的技術宅，此類討論可提供初步方向，但仍需自行驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "根據討論中提到的模型名稱，在本機實際測試其在 Blender Python 腳本生成或遊戲對話系統中的表現，選擇符合延遲與品質需求的型號。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-01-qwen3-8-flash-next-victoria-44-terminal-bench-2-1-70-gguf",
+    "title": "Qwen3.8-Flash-Next 衍生模型 Victoria 發布：44% 專家剪枝、Terminal-Bench 2.1 達 70%、支援 GGUF",
+    "title_original": "Two open-weights releases: Victoria (Qwen3.8-Flash-Next with 44% of experts cut, 70% Terminal-Bench 2.1, GGUF included) and Maple (a Canada-first fine-tune)",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wujph3/two_openweights_releases_victoria_qwen38flashnext/",
+    "published_at": "2026-09-30T23:10:03+00:00",
+    "category": "open-source-ai",
+    "summary": "Victoria 是一款基於 Qwen3.8-Flash-Next 開發的開放權重模型，採用 44% 專家剪枝技術，在 Terminal-Bench 2.1 測試中取得 70% 分數，並完整支援 GGUF 格式。另有 Maple 模型，為加拿大優先的微調版本。",
+    "highlights": [
+      "基於 Qwen3.8-Flash-Next，採用專家剪枝（44% experts cut）",
+      "Terminal-Bench 2.1 達到 70% 分數，效能亮眼",
+      "完整支援 GGUF 格式，方便本地部署與量化",
+      "另有 Maple 加拿大優先微調版本可供選擇",
+      "Reddit r/LocalLLaMA 社群首發，非官方發布"
+    ],
+    "why_it_matters": "專家剪枝技術可大幅減少推論計算量，GGUF 支援讓本地部署更靈活。對於需要高效本地推論的技術用戶，Victoria 可能是兼顧效能與資源消耗的新選擇。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可下載 GGUF 版本，在 Ollama 或 LM Studio 本地部署，快速測試 Terminal-Bench 工作負載（如 CLI 操作自動化）的實際表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-09-30-ferrummcp-ruby-mcp",
     "title": "FerrumMCP：用 Ruby 打造的網頁自動化 MCP 伺服器，支援反偵測瀏覽",
     "title_original": "Eth3rnit3/FerrumMCP",
@@ -5027,6 +5140,34 @@
     "automation_angle_zh": "若需評估代理式郵件工具，建議直接查看各專案 GitHub 實際 Star 數、最後 commit 時間、以及 Issue 區的用戶回饋，而非依賴行銷清單。",
     "tags": [
       "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-01-8-ai-agent-hostinger",
+    "title": "8 款最佳 AI Agent 電子郵件工具評測（Hostinger）",
+    "title_original": "8 best agentic email tools for AI agents - Hostinger",
+    "source": "Google News AI Developer Tools",
+    "source_url": "https://news.google.com/rss/search?q=AI%20developer%20tool%20agent%20workflow%20MCP%20automation&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBaR0RGdzRZZnZDUUJ3UV9Td2NQUzBhdmFlMUVFUkN4YWpLTDFDQnRQUHFuREFncmVDMXBqOEZYeXhzTWdRR1BaLVhaWVBqcHVRUUFCaHJIWGUtMGZNU2k5TkJ2dkI0ZURRakJKMDdIbHcydw?oc=5",
+    "published_at": "2026-09-24T07:00:00+00:00",
+    "category": "agent-skills",
+    "summary": "Hostinger 整理了 8 款具備代理能力的 AI 電子郵件工具，涵蓋自動回覆、郵件分類、行程安排等功能。文章以行銷導向為主，工具名單與功能細節需自行驗證。",
+    "highlights": [
+      "收錄 8 款 AI Agent 郵件工具",
+      "功能包括自動回覆、分類、行程整合",
+      "Hostinger 行銷內容，非獨立評測",
+      "建議自行試用驗證功能實際表現",
+      "實用性中等，適合初步調研"
+    ],
+    "why_it_matters": "電子郵件自動化是常見工作流程需求。該列表可作為初步調研參考，但技術用戶應直接測試感興趣的工具，而非完全依賴文章描述。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可挑選 1-2 款工具，透過 API 或外掛整合至現有郵件系統，驗證自動回覆或分類的實際準確率是否符合工作需求。",
+    "tags": [
+      "agent-skills",
       "rss",
       "en"
     ],
