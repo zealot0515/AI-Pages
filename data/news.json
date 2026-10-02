@@ -1,5 +1,144 @@
 [
   {
+    "id": "2026-10-02-budtmo-docker-android-mcp-server-docker-android",
+    "title": "budtmo/docker-android：支援 MCP Server 的 Docker Android 模擬器",
+    "title_original": "budtmo/docker-android",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/budtmo/docker-android",
+    "published_at": "2026-10-02T11:20:25Z",
+    "category": "agent-skills",
+    "summary": "budtmo/docker-android 是一個以 Docker 容器形式運行 Android 模擬環境的開源專案，具備 noVNC 遠端操控、影片錄製功能，並內建 MCP Server 供 AI Agent 直接操控 Android 介面，Python 實作，已累積近 1.6 萬星。",
+    "highlights": [
+      "以 Docker 封裝 Android 模擬器，部署快速且環境一致",
+      "支援 noVNC 可在瀏覽器遠端操作 Android 介面",
+      "具備螢幕錄製功能，方便紀錄操作過程",
+      "內建 MCP Server 可供 AI Agent 程式化操控 UI",
+      "Python 實作，與主流 AI Agent 框架整合容易"
+    ],
+    "why_it_matters": "對於需要自動化 Android UI 測試或 RPA 場景的技術團隊，docker-android 提供了一個可程式化控制的 Android 環境，大幅降低建置與維護成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可在本地或 CI/CD 環境啟動 docker-android，結合 MCP Server 讓 AI Agent 自動執行 APK 安裝、UI 點擊、截圖比對等操作，實現 Android 端到端自動化測試。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/22218312?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-llama-cpp-v1-systemone-api",
+    "title": "llama.cpp 新增 /v1/systemone API 模型群組支援",
+    "title_original": "llama, server: add /v1/systemone API (models: laya, julia-1, lev, openjev, kev) by ngxson · Pull Request #29818 · ggml-org/llama.cpp",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvqbrz/llama_server_add_v1systemone_api_models_laya/",
+    "published_at": "2026-10-02T10:29:47+00:00",
+    "category": "open-source-ai",
+    "summary": "llama.cpp 社群 PR 為 server 端新增 /v1/systemone API 端點，新增支援 laya、julia-1、lev、openjev、kev 等模型。這是本地 LLM 推論框架的功能擴展，降低企業自架模型的進入門檻。",
+    "highlights": [
+      "llama.cpp server 新增 /v1/systemone API 端點",
+      "一口氣支援 laya、julia-1、lev、openjev、kev 等新模型",
+      "屬於本地 LLM 推論框架的功能更新",
+      "有助降低企業自架模型的技術門檻",
+      "社群驅動，需關注後續合併進度與穩定性"
+    ],
+    "why_it_matters": "llama.cpp 持續擴充模型支援與 API 完整性，對需要在本地或邊緣裝置執行 LLM 的技術用戶而言，這些更新能直接提升部署彈性與生態相容性。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術用戶可追蹤此 PR 合併狀態，在新版發布後第一時間測試 systemone API 相容性，評估是否能用於內部文件處理或程式碼生成等場景的本地化部署。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-muse-1-3-opencode",
+    "title": "Muse 1.3免費影片生成工具：Opencode平台初體驗",
+    "title_original": "Have you tried generating video with muse 1.3 free on opencode ?",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvpjoi/have_you_tried_generating_video_with_muse_13_free/",
+    "published_at": "2026-10-02T09:42:18+00:00",
+    "category": "open-source-ai",
+    "summary": "用戶分享在Opencode平台上使用Muse 1.3進行AI影片生成的體驗，該工具提供免費使用選項。討論內容提及生成速度、畫質表現與操作便捷度等面向，但缺乏詳細的技術規格對比與可重現的評測流程，工具本身的有效性與穩定性待驗證。",
+    "highlights": [
+      "Muse 1.3為支援影片生成的AI模型，可在Opencode平台試用",
+      "強調免費使用的吸引力，但未提供使用限制細節",
+      "用戶回饋提及生成速度與畫質表現尚可接受",
+      "缺乏獨立Benchmark數據與競品對比"
+    ],
+    "why_it_matters": "AI影片生成工具持續受到關注，若Muse 1.3具備可用水準且免費開源，可作為個人或小型專案的低成本影片創作選項。但需進一步驗證其實際效能與穩定性。",
+    "automation_angle": null,
+    "automation_angle_zh": "可下載或申請試用，針對特定影片生成任務進行小規模測試，評估其是否符合自動化腳本的輸入需求或行銷素材製作場景。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-1-5b-120b",
+    "title": "本地模型幻覺檢測：1.5B至120B模型測試心得",
+    "title_original": "Detecting hallucinations in local models without eating VRAM: What we learned testing 1.5B to 120B models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvm15e/detecting_hallucinations_in_local_models_without/",
+    "published_at": "2026-10-02T05:55:30+00:00",
+    "category": "agent-skills",
+    "summary": "Reddit用戶分享在本地部署的LLM上檢測幻覺（hallucination）的實測方法，針對1.5B到120B參數量的模型進行對比。研究發現無需消耗大量VRAM即可有效識別幻覺輸出，透過輕量級的置信度評分與自我一致性檢驗機制，可在本地環境實現穩定的幻覺偵測，降低對雲端API的依賴。",
+    "highlights": [
+      "提出低VRAM消耗的幻覺檢測方案，適合資源受限的本地部署環境",
+      "測試範圍涵蓋1.5B至120B不同規模模型，發現幻覺率與模型大小非線性關係",
+      "結合置信度閾值與多輪自我質詢策略提升偵測準確率",
+      "可用於篩選RAG檢索結果或Agent輸出品質控制"
+    ],
+    "why_it_matters": "對於需要本地部署LLM的技術用戶，幻覺檢測是建構可靠Agent系統的關鍵環節。此方法提供低成本、易部署的解決方案，避免過度依賴雲端API的延遲與費用問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "可整合進本地Agent pipeline，在模型輸出後自動觸發幻覺檢測模組，過濾低置信度回應並觸發重生成或請求用戶確認。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-autosynthdata-agent",
+    "title": "AutoSynthData：為企業 Agent 生成訓練資料的開源工具",
+    "title_original": "AutoSynthData: Generating Training Data for Enterprise Agents",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+    "published_at": "2026-10-02T04:01:31+00:00",
+    "category": "open-source-ai",
+    "summary": "Hugging Face 與 ServiceNow 聯合發布 AutoSynthData，專為企業場景設計的合成資料生成框架，可用於自動產生 Agent 訓練所需的高品質互動資料，降低人工標註成本並提升 Agent 任務表現。",
+    "highlights": [
+      "專為企業 Agent 設計的合成資料生成框架",
+      "可自動模擬多樣化任務場景與對話資料",
+      "減少對人工標註資料的依賴",
+      "由 Hugging Face 與 ServiceNow 聯合維護",
+      "開源可自行部署與客製化調整"
+    ],
+    "why_it_matters": "企業在訓練自有 Agent 時往往缺乏足夠的高品質訓練資料，AutoSynthData 提供了一條低成本、可規模化的資料擴展路徑，有助加速內部 AI 落地。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可 fork 此 Repo，將其應用於自家客服或流程機器人的資料增強，針對特定領域語料進行微調，提升 Agent 解決問題的準確率與覆蓋率。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-10-02-z-engine-agent",
     "title": "Z-Engine：開源编程 Agent 框架，剑指代码自動化",
     "title_original": "building an open source coding agent called Z-Engine",
