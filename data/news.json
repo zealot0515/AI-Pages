@@ -1,5 +1,315 @@
 [
   {
+    "id": "2026-10-02-agy-mcp-mcp-google-antigravity-agent",
+    "title": "agy-mcp：用 MCP 協定整合 Google Antigravity 作 Agent 後端",
+    "title_original": "Boulea7/agy-mcp",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/Boulea7/agy-mcp",
+    "published_at": "2026-10-02T16:56:40Z",
+    "category": "agent-skills",
+    "summary": "agy-mcp 是一個 Python 實現的 MCP 服務器，可將 Google Antigravity（agy）作為 Agent 推論後端，支援 10 個類型化工具、Skill 捆綁、長任務監督及隔離執行。現有 22 個 GitHub 星標，屬早期專案。",
+    "highlights": [
+      "基於 MCP 協定，支援 Claude Code、Cursor 等主流工具",
+      "提供 10 個預定義工具與 Skill 捆綁擴展機制",
+      "長任務監督與隔離執行環境提升穩定性",
+      "語言隔離工作樹（worktree-isolated）設計",
+      "目前星標數量低，建議先 Fork 測試再考慮生產使用"
+    ],
+    "why_it_matters": "MCP 生態正在快速擴展，能將任意後端接入 MCP 客戶端是提升工作流程整合彈性的關鍵，agy-mcp 提供了一條免費替換封閉 API 的可能路徑。",
+    "automation_angle": null,
+    "automation_angle_zh": "開發者可將 agy-mcp 作為實驗性後端，在 Claude Code 或 Cursor 中測試其工具呼叫與長任務處理能力，評估是否能取代付費 API 完成日常編碼輔助。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/145515129?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-nvidia-dgx-spark-64gb",
+    "title": "NVIDIA DGX Spark 64GB 新款定價出爐",
+    "title_original": "New 64GB DGX Spark. Significantly higher price for the original 128GB model $6,950 USD",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvyxzg/new_64gb_dgx_spark_significantly_higher_price_for/",
+    "published_at": "2026-10-02T16:55:32+00:00",
+    "category": "new-models",
+    "summary": "Reddit 社群披露 DGX Spark 新增 64GB 版本，售價較原 128GB 型號顯著提高，性價比引發討論。",
+    "highlights": [
+      "64GB 版本定價高於原 128GB 機型",
+      "屬 NVIDIA DGX Spark 產品線更新",
+      "硬體升級而非軟體功能變化",
+      "消息來源為 Reddit 論壇，未獲官方證實",
+      "對邊緣 AI 運算設備市場有參考價值"
+    ],
+    "why_it_matters": "DGX Spark 價格走勢反映邊緣 AI 硬體市場走向，影響本地部署成本評估與採購決策。",
+    "automation_angle": null,
+    "automation_angle_zh": "評估本地 AI 推論基礎設施成本時，將新定價帶入 TCO 計算模型，比較雲端 API 與自建硬體方案。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-hkex-mcp",
+    "title": "HKEx 監管文件爬蟲 MCP 伺服器",
+    "title_original": "simonmak-ascent/hkex-filing-scraper",
+    "source": "GitHub New MCP Projects",
+    "source_url": "https://github.com",
+    "original_url": "https://github.com/simonmak-ascent/hkex-filing-scraper",
+    "published_at": "2026-10-02T16:51:43Z",
+    "category": "agent-skills",
+    "summary": "開源 Python 專案可爬取港交所 25 年監管文件，含九個資料庫、全文檢索與圖譜連結，並提供 MCP 伺服器供 AI Agent 直接呼叫整合。",
+    "highlights": [
+      "25+ 年歷史監管文件完整覆蓋",
+      "提供 MCP 協定介面，AI Agent 可直接呼叫",
+      "全文萃取與圖譜連結有利語義分析",
+      "Python 實作，16 stars 規模尚小",
+      "可用來訓練金融領域 AI Agent 工具鏈"
+    ],
+    "why_it_matters": "香港上市公司監管文件蘊含豐富財經語料與事件邏輯，是訓練金融 AI 的高價值資料源，此 MCP 工具可直接嵌入 Agent 工作流程。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 MCP 端點加入 AI Agent 工具組，自動追蹤特定上市公司監管動態，觸發後續分析或警報流程。",
+    "tags": [
+      "agent-skills",
+      "github_search",
+      "en",
+      "Python"
+    ],
+    "image_url": "https://avatars.githubusercontent.com/u/246365505?v=4",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-openai-gpt-6",
+    "title": "OpenAI 官方 GPT-6 家族實用建構指南",
+    "title_original": "A model guide for the GPT-6 family",
+    "source": "OpenAI Blog",
+    "source_url": "https://openai.com/news/rss.xml",
+    "original_url": "https://openai.com/index/practical-guide-building-gpt-6",
+    "published_at": "2026-10-02T16:15:00+00:00",
+    "category": "new-models",
+    "summary": "OpenAI 官方部落格發布 GPT-6 模型選型指南，內容涵蓋推論努力度調整、Prompt 優化、Skill 增強、工具協調及生產環境工作流程準備等實務建議，為開發者提供有據可查的最佳實踐參考。",
+    "highlights": [
+      "OpenAI 官方來源，資訊權威性高",
+      "詳細說明 GPT-6 各子模型的選型原則",
+      "涵蓋推論成本控制與效能平衡策略",
+      "提供工具協調與工作流程設計實務",
+      "適合已使用或計畫使用 GPT-6 的技術團隊參考"
+    ],
+    "why_it_matters": "GPT-6 家族已進入實用階段，官方指南提供模型選型與成本控制的權威參照，是技術決策者規劃年度 AI 預算與工作流程遷移的重要依據。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術團隊可依此指南重新審視現有 GPT-4o 遷移至 GPT-6 的可行性，透過調整推論努力度在特定任務上實現效能提升或成本下降的雙重目標。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-10-02-allenai-astabrief",
+    "title": "AllenAI 開源 AstaBrief 高速報告生成模型",
+    "title_original": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+    "source": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "original_url": "https://huggingface.co/blog/allenai/astabrief",
+    "published_at": "2026-10-02T15:19:50+00:00",
+    "category": "open-source-ai",
+    "summary": "AllenAI 在 Hugging Face 部落格宣布開源 AstaBrief，這是一款專注於快速生成研究報告的模型，可作為本地部署替代方案的開源選項，具體技術規格與 Benchmark 數據建議查閱原文件。",
+    "highlights": [
+      "AllenAI 官方發布，可信度高",
+      "專為報告生成場景優化",
+      "開源許可有利於本地部署與客製化",
+      "建議直接查閱 Hugging Face 文件確認模型規模與效能",
+      "可用於研究文獻摘要自動化場景"
+    ],
+    "why_it_matters": "研究報告生成是常見的文書自動化需求，開源且可本地部署的報告生成模型能降低 API 依賴與費用，對需要處理大量文獻的技術用戶具實用價值。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 AstaBrief 部署至本地伺服器，用於自動化學術文獻摘要或內部報告生成流程，評估其生成品質與延遲是否滿足日常工作需求。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Reviewed daily crawler item. Original link preserved."
+  },
+  {
+    "id": "2026-10-02-tiny-theory-of-mind",
+    "title": "Tiny Theory of Mind：小模型心智理論評測基準",
+    "title_original": "AxiomicLabs' new benchmark, Tiny Theory of Mind, meant to gauge small models' theory of mind capabilities, has made it to the front page of Hugging Face's Datasets",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvw2up/axiomiclabs_new_benchmark_tiny_theory_of_mind/",
+    "published_at": "2026-10-02T15:01:54+00:00",
+    "category": "new-models",
+    "summary": "AxiomicLabs 推出 Tiny Theory of Mind 基準，專門評測小模型的 Theory of Mind 能力，已登上 Hugging Face Datasets 首頁。",
+    "highlights": [
+      "針對小模型設計的 Theory of Mind 測試集",
+      "已收錄於 Hugging Face Datasets 平台",
+      "可用於評估本地部署模型的社交推論能力",
+      "評測結果有助選擇輕量級模型部署策略",
+      "原始討論來自 Reddit社群，可信度中等"
+    ],
+    "why_it_matters": "小模型的 Theory of Mind 能力直接影響對話機器人與助理產品的使用者體驗，此基準提供客觀量化標準。",
+    "automation_angle": null,
+    "automation_angle_zh": "本地部署 Qwen、Llama 等小模型時，用此基準評測選擇最優模型，或作為微調目標指標。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-llama-cpp-decision-models",
+    "title": "llama.cpp 新支援 Decision Models 推論模式",
+    "title_original": "New in llama.cpp: Decision Models",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvv6im/new_in_llamacpp_decision_models/",
+    "published_at": "2026-10-02T14:25:06+00:00",
+    "category": "new-models",
+    "summary": "llama.cpp 最新版本引入 Decision Models 模式，專為決策樹類任務優化推論效率，降低延遲與記憶體佔用。",
+    "highlights": [
+      "llama.cpp 新增 Decision Models 推論類型",
+      "優化決策樹類任務執行效率",
+      "可降低推論延遲與記憶體使用",
+      "適用於 Agent 決策邏輯與狀態機場景",
+      "Reddit 社群源頭，具體 API 尚未完全確認"
+    ],
+    "why_it_matters": "Decision Models 模式使 llama.cpp 更適合 Agent 架構中的狀態管理與決策節點，提升本地部署的實用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 Agent 決策邏輯遷移至此模式，測試本地部署的延遲改善與記憶體節省效果。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-qwen3-8-27b-lexipanel-24gb-coding",
+    "title": "Qwen3.8-27b 經 LexiPanel 微調至 24GB 顯卡，強調 Coding 表現",
+    "title_original": "Tuned/abliterated Qwen3.8-27b into a 24gb card 262k guff using the newest unreleased version of LexiPanel. It's fast with reliable draft acceptance. Made for 7900xtx but should work on whatever 24gb card with this setup and headless. Doesn't get dumber while coding like most of the other fine-tunes.",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvtxkx/tunedabliterated_qwen3827b_into_a_24gb_card_262k/",
+    "published_at": "2026-10-02T13:32:37+00:00",
+    "category": "open-source-ai",
+    "summary": "社群用戶使用未發布版 LexiPanel 將 Qwen3.8-27b 蒸餾至 24GB 顯卡可承載的規模，標榜快速且可靠的 draft acceptance，並聲稱在 Coding 任務上不會像其他微調版本一樣變笨。針對 AMD 7900xtx 優化但理論上適用於任何 24GB 顯卡。",
+    "highlights": [
+      "Qwen3.8-27b 微調版本可在 24GB 顯卡運行",
+      "使用未發布版 LexiPanel 工具",
+      "強調 Coding 場景下不會降智",
+      "快速且可靠的 draft acceptance",
+      "針對 AMD 7900xtx 優化，支援 headless 模式"
+    ],
+    "why_it_matters": "24GB 顯卡是許多個人開發者的常見配置，此微調版本提供本地 coding 助理的新選擇，蒸餾技術值得關注以控制部署成本。",
+    "automation_angle": null,
+    "automation_angle_zh": "24GB 顯卡用戶可關注 LexiPanel 正式發布後，用此配置架設本地 coding 助理，評估其在自動化腳本生成或程式碼補全上的表現。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-ascend-96gb-qwen3-8-flash-next",
+    "title": "雙 Ascend 96GB 顯卡運行 Qwen3.8-flash-next 硬體實測",
+    "title_original": "Two 96 GB Ascend cards crun Qwen3.8-flash-next hardware notes, vLLM work, benchmarks, and what is next",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvt1m4/two_96_gb_ascend_cards_crun_qwen38flashnext/",
+    "published_at": "2026-10-02T12:54:04+00:00",
+    "category": "new-models",
+    "summary": "Reddit 用戶分享使用兩張 96GB Ascend 加速卡運行 Qwen3.8-flash-next 的硬體實測結果，包含 vLLM 部署筆記與效能基準測試，並預告後續優化方向。此為非官方社群實測，非華為或阿里正式發布文件。",
+    "highlights": [
+      "成功在 Ascend 硬體上運行 Qwen3.8-flash-next",
+      "使用 vLLM 作為推論引擎",
+      "包含實際效能基準測試數據",
+      "作者預告後續優化計畫",
+      "屬於早期社群經驗分享，非官方文件"
+    ],
+    "why_it_matters": "對於需要國產硬體替代方案的企業或研究機構，Ascend 卡與通義千問的組合提供新選項。社群實測可作為可行性評估參考。",
+    "automation_angle": null,
+    "automation_angle_zh": "在有 Ascend 資源的環境中，可參考此實測配置進行 vLLM 部署測試，評估 Qwen3.8-flash-next 是否適合特定自動化任務。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-qwen3-8-27b",
+    "title": "自建網路安全基準實測 Qwen3.8 27B 駭客能力",
+    "title_original": "I made my own cybersecurity benchmark and ran Qwen3.8 27B, here's how a local model actually does at hacking",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvs8va/i_made_my_own_cybersecurity_benchmark_and_ran/",
+    "published_at": "2026-10-02T12:15:13+00:00",
+    "category": "new-models",
+    "summary": "開發者自建網路安全評測環境，實測 Qwen3.8 27B 模型在滲透測試場景的表現，提供真實能力參照。",
+    "highlights": [
+      "自建網路安全 benchmark，非官方標準",
+      "Qwen3.8 27B 模型實測結果",
+      "提供模型安全能力的具體量化參考",
+      "作者為獨立開發者，方法論未經同行驗證",
+      "可用於評估模型安全應用潛力"
+    ],
+    "why_it_matters": "網路安全是大語言模型重要應用場景，實測數據比理論推估更有價值，幫助技術選型。",
+    "automation_angle": null,
+    "automation_angle_zh": "在隔離測試環境中使用類似基準，評估本地模型輔助滲透測試的實用性與風險邊界。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-apex-compute-mesa-vulkan",
+    "title": "Apex Compute 開發開源 Mesa Vulkan 驅動",
+    "title_original": "Apex Compute developing open-source Mesa Vulkan driver for their hardware",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvrip7/apex_compute_developing_opensource_mesa_vulkan/",
+    "published_at": "2026-10-02T11:37:47+00:00",
+    "category": "open-source-ai",
+    "summary": "Apex Compute 正在為其硬體開發開源 Mesa Vulkan 驅動程式，著眼於提升 GPU 運算生態系統的開放性。",
+    "highlights": [
+      "開源 Mesa Vulkan 驅動程式開發中",
+      "目標硬體平台為 Apex Compute 產品",
+      "提升硬體對 Vulkan 運算工作負載支援",
+      "屬於硬體生態系統建設長期項目",
+      "消息來源為 Reddit 社群，細節有限"
+    ],
+    "why_it_matters": "開放式 GPU 驅動生態有助於降低 AI 硬體門檻，Mesa 驅動成熟度是關鍵里程碑。",
+    "automation_angle": null,
+    "automation_angle_zh": "關注專案進展，若硬體與驅動成熟，可評估作為低成本 GPU 運算替代方案的可行性。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-10-02-budtmo-docker-android-mcp-server-docker-android",
     "title": "budtmo/docker-android：支援 MCP Server 的 Docker Android 模擬器",
     "title_original": "budtmo/docker-android",
