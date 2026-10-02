@@ -1,5 +1,173 @@
 [
   {
+    "id": "2026-10-02-z-engine-agent",
+    "title": "Z-Engine：開源编程 Agent 框架，剑指代码自動化",
+    "title_original": "building an open source coding agent called Z-Engine",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1wvibcd/building_an_open_source_coding_agent_called/",
+    "published_at": "2026-10-02T02:28:49+00:00",
+    "category": "agent-skills",
+    "summary": "開發者社群正熱議一款名為 Z-Engine 的開源編程 Agent 框架，其設計目標是讓 AI 能自主完成從需求理解到代碼實現的完整閉環。框架採用模組化架構，將任務規劃、代碼生成、測試驗證等階段解耦，方便開發者根據場景替換底層模型或新增工具外掛。",
+    "highlights": [
+      "採用任務管線設計，各環節可單獨優化或替換",
+      "內建測試驅動開發（TDD）流程支援",
+      "支援接入多種 LLM API，包含本地模型",
+      "提供視覺化工作流程追蹤，幫助調試 Agent 行為",
+      "開源社群活躍，已收錄多個實際使用案例"
+    ],
+    "why_it_matters": "編程 Agent 是當前 AI 應用熱點，Z-Engine 的開源屬性讓技術團隊能夠審計框架邏輯並進行客製化，避免過度依賴封閉商業方案。",
+    "automation_angle": null,
+    "automation_angle_zh": "可用 Z-Engine 建構自動化代碼重構工具、或將其部署為 Code Review Bot，在 PR 階段自動檢測基礎錯誤並提出修改建議。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-modelharbor-llm",
+    "title": "ModelHarbor：開源自托管模型庫簡化本地 LLM 管理",
+    "title_original": "Introducing ModelHarbor, a self-hosted model library",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvi6r0/introducing_modelharbor_a_selfhosted_model_library/",
+    "published_at": "2026-10-02T02:22:18+00:00",
+    "category": "open-source-ai",
+    "summary": "ModelHarbor 是一個新興開源專案，目標成為本地 LLM 的「模型方舟」，提供統一的模型下載、版本管理與快速切換介面。使用者可透過簡單指令部署各式量化模型，降低本地運行多模型的技術門檻。專案支援主流模型格式，並計畫整合 API proxy 功能，方便既有應用無痛遷移。",
+    "highlights": [
+      "統一管理多個本地 LLM 模型，支援一鍵切換",
+      "相容 GGUF、GPTQ 等主流量化格式",
+      "提供 CLI 工具與 API proxy，降低整合成本",
+      "開源許可證允許商業部署與二次開發",
+      "強調隱私優先，所有模型運行在本地設備"
+    ],
+    "why_it_matters": "對於需要同時測試多個模型的開發者而言，ModelHarbor 可大幅減少環境配置的重複勞動。統一的模型管理介面也便於建立自動化測試流程與 A/B 對比實驗。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 ModelHarbor 整合進 CI/CD pipeline，實現模型版本的自動化回歸測試；或在資料處理流程中依任務類型動態調用不同模型。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-llm-radio",
+    "title": "本地 LLM Radio：用開源模型打造個人化音訊流",
+    "title_original": "I \"built\" a local LLM radio like the Pharaohs built the pyramids",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvg5hn/i_built_a_local_llm_radio_like_the_pharaohs_built/",
+    "published_at": "2026-10-02T00:43:55+00:00",
+    "category": "hot-topics",
+    "summary": "有開發者展示如何利用本地 LLM 與文字轉語音（TTS）工具，打造一個「LLM Radio」——根據使用者提示詞即時生成並朗讀新聞、部落格或技術文章。整個流程運行在本地設備，無需雲端 API，可高度自訂語音風格與內容來源。",
+    "highlights": [
+      "核心組合：本地 LLM + 本地 TTS 引擎",
+      "支援自訂 RSS 源或網頁爬蟲作為輸入",
+      "可調整語速、語調與發音人角色",
+      "離線即可運行，無隱私上傳疑慮",
+      "開源元件便於替換升級"
+    ],
+    "why_it_matters": "對於需要大量閱讀資訊但視覺疲勞的技術從業者，LLM Radio 提供了一種「耳朵替代眼睛」的資訊攝取方式，同時保持資料完全本地處理。",
+    "automation_angle": null,
+    "automation_angle_zh": "可將 LLM Radio 設為每日晨間自動化流程，定時抓取 Hacker News、arXiv 等資訊源並生成語音摘要，在通勤時聆聽最新技術動態。",
+    "tags": [
+      "hot-topics",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-perplexity-decider-27b-qwen3-8-27b",
+    "title": "Perplexity Decider 27B：基於 Qwen3.8 27B 微調的開源決策模型",
+    "title_original": "Perplexity Decider 27B: Open weights decision model fine tune of Qwen3.8 27B",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvfz9n/perplexity_decider_27b_open_weights_decision/",
+    "published_at": "2026-10-02T00:35:39+00:00",
+    "category": "open-source-ai",
+    "summary": "Reddit r/LocalLLaMA 社群流出 Perplexity Decider 27B，為基於 Qwen3.8 27B 進行動作決策微調的開源模型。社群回饋顯示其在決策任務上有不錯表現，但尚未有大規模獨立基準驗證。",
+    "highlights": [
+      "基於 Qwen3.8 27B 架構微調",
+      "瞄準「決策」任務而非通用對話",
+      "開源權重，可在本地部署",
+      "社群驅動項目，缺乏官方完整文件",
+      "適合作為 Agent 流程中的路由決策模組"
+    ],
+    "why_it_matters": "若能在本地跑起來，Decider 27B 可作為 Agent 流程中的小型決策引擎，決定下一步該調用哪個工具或模型，降低對昂貴大模型的依賴。",
+    "automation_angle": null,
+    "automation_angle_zh": "下載權重後，用 Ollama 或 vLLM 本地部署，在自己的自動化腳本中串接 Decider 27B 作為「路由器」——讓它決定是要搜尋、計算還是生成，借此省下每次都呼叫大模型的費用。",
+    "tags": [
+      "open-source-ai",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-pi-1-0-mcp-agent",
+    "title": "Pi 1.0 正式發布：MCP 支援預設開啟，Agent 工具生態更緊密",
+    "title_original": "Pi 1.0 released - MCP support now included by default",
+    "source": "Reddit r/LocalLLaMA",
+    "source_url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+    "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvffcr/pi_10_released_mcp_support_now_included_by_default/",
+    "published_at": "2026-10-02T00:09:04+00:00",
+    "category": "agent-skills",
+    "summary": "Pi 1.0 版本正式發布，最大亮點是將 MCP（Model Context Protocol）支援列為預設功能。MCP 的普及讓 Pi 能更無縫地對接各種外部工具與資料源，Agent 與工具間的溝通協議趨於標準化。",
+    "highlights": [
+      "Pi 1.0 將 MCP 設為預設支援，無需額外設定",
+      "MCP 是模型與外部工具溝通的標準化協議",
+      "此版本更新簡化了 Agent 串接外部服務的流程",
+      "社群回饋顯示穩定性較前版有明顯改善",
+      "可與現有 MCP 工具生態直接對接使用"
+    ],
+    "why_it_matters": "MCP 逐漸成為 Agent 工具串接的事實標準。Pi 1.0 預設支援意味新用戶無需繁瑣設定即可使用 MCP，生態相容性提升，對追求工具鏈整合效率的技術團隊是正面訊號。",
+    "automation_angle": null,
+    "automation_angle_zh": "將 Pi 1.0 設為自動化工作流程的中央協調者，透過 MCP 協議直接驅動 Git 操作、資料庫查詢、Slack 通知等工具，實現一個 Agent 掌控多工具的串聯自動化。",
+    "tags": [
+      "agent-skills",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-gpt-6-astra-3d-gaussian-splat",
+    "title": "GPT-6 Astra 實測：3D Gaussian Splat 建模能力初探",
+    "title_original": "Used GPT-6 Astra to recreate an agent dot as a 3D Gaussian Splat",
+    "source": "Reddit r/OpenAI",
+    "source_url": "https://www.reddit.com/r/OpenAI/.rss",
+    "original_url": "https://www.reddit.com/r/OpenAI/comments/1wvfapq/used_gpt6_astra_to_recreate_an_agent_dot_as_a_3d/",
+    "published_at": "2026-10-02T00:02:57+00:00",
+    "category": "new-models",
+    "summary": "有用戶使用 GPT-6 Astra 模型嘗試將二維圖像重建為 3D Gaussian Splat 表示，展示了多模態模型在 3D 場景理解與生成方面的潛力。初步結果顯示模型能捕捉物體深度資訊，但幾何精度與傳統 SfM/MVS 流程相比仍有差距。此實驗為評估最新多模態模型的三維感知能力提供了一個參考基準。",
+    "highlights": [
+      "測試模型：GPT-6 Astra（最新多模態版本）",
+      "輸入：單張或多視角二維圖像",
+      "輸出：3D Gaussian Splat 格式的場景表示",
+      "觀察到物體輪廓與深度關係大致正確",
+      "精度落後於傳統三維重建演算法"
+    ],
+    "why_it_matters": "多模態模型的三維理解能力直接影响其在遊戲、VR、機器人等場景的應用價值。此類實驗幫助開發者判斷現有模型是否足以支援三維內容生成的任務。",
+    "automation_angle": null,
+    "automation_angle_zh": "技術評估人員可參考此方法，針對特定三維生成需求設計 Benchmark，快速判斷 GPT-6 Astra 是否滿足專案精度要求，或需結合傳統演算法補足。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
     "id": "2026-10-01-wsl-manager-4k-stars-wsl-linux-vm-gui-ai-mcp",
     "title": "WSL Manager 4K stars：WSL/Linux VM 的 GUI 管理工具（含AI助理與MCP）",
     "title_original": "bostrot/wslmanager",
@@ -79073,6 +79241,34 @@
       "open-source-ai",
       "rss",
       "zh-CN"
+    ],
+    "image_url": "",
+    "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-sakana-fugu",
+    "title": "Sakana Fugu 基準出爐：與開源模型實測對照出爐",
+    "title_original": "Sakana Fugu Benchmarks: Specs, Evals, and How It Compares to Open-Source AI Models - Kingy AI",
+    "source": "Google News Mistral AI",
+    "source_url": "https://news.google.com/rss/search?q=Mistral%20AI%20model%20API%20agent%20open%20source&hl=en-US&gl=US&ceid=US:en",
+    "original_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9MQ05OZnZEeGVkMjB6NUN1eVpvWG1ld09hQ3ZMbHVaSWpGZ2h3c0swMDRENGVxSE9xM3Zkay1NaS1sb0hvRFR0QU5ZdlAxV2xEVnRXRDBsclVvWXp6N3ZSNUxwbElUaEhSQWdWNXNNWm54Zw?oc=5",
+    "published_at": "2026-06-22T07:00:00+00:00",
+    "category": "new-models",
+    "summary": "Sakana AI 發布 Fugu 系列的基準測試結果，涵蓋規格說明與橫向開源模型對照。Kingy AI 整理的報告顯示 Fugu 在特定任務上的表現，但原始評測維度與對照模型範圍需進一步查證以確認其全面性。",
+    "highlights": [
+      "Sakana Fugu 發布官方基準數據",
+      "橫向對照開源競品模型供參考",
+      "報告涵蓋 SPECS、Evals 與比較圖表",
+      "第三方整理可能省略部分邊緣測試場景",
+      "建議直接查閱 Sakana 原始 repo 確認數據完整性"
+    ],
+    "why_it_matters": "Fugu 若在特定基準上領先同尺寸開源模型，可能成為性價比候選。技術選型時需核實原始數據，排除第三方整理的選擇性呈現。",
+    "automation_angle": null,
+    "automation_angle_zh": "可直接在 Hugging Face 或 Sakana GitHub 找到 Fugu 权重，用自己的測試集跑一遍真實任務（如長文本摘要、多輪對話）驗證是否符合宣稱效能。",
+    "tags": [
+      "new-models",
+      "rss",
+      "en"
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
