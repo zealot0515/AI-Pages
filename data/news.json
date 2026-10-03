@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-10-02-claude-code-2-1-288-17def7a9",
+    "title": "Claude Code 2.1.288：修正 MCP 重複呼叫、代理續跑與權限檢查",
+    "title_original": "v2.1.288",
+    "source": "anthropics/claude-code 官方發布說明",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
+    "original_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
+    "published_at": "2026-10-02T20:19:57Z",
+    "category": "agent-skills",
+    "summary": "Anthropic 釋出 Claude Code 2.1.288，集中改善長任務、MCP、代理與權限檢查可靠性，並新增閘道相容性設定。",
+    "highlights": [
+      "大型或無法解析的 MCP 回應不再造成工具重複呼叫。",
+      "修正非互動工作階段與子代理遇到回應逾時後的續跑，以及長對話自動壓縮問題。",
+      "新增 CLAUDE_CODE_DISABLE_STRUCTURED_OUTPUTS，改善拒絕結構化輸出的閘道相容性。",
+      "修正部分 shell 刪除指令與 hooks 檢查失敗時的權限處理。"
+    ],
+    "why_it_matters": "對長時間執行的編碼代理，重複工具呼叫與遺失續跑內容可能造成實際副作用；這次更新值得優先在測試環境驗證。",
+    "automation_angle": null,
+    "automation_angle_zh": "以既有 MCP 與閘道測試案例驗證重試、續跑、權限提示及自動壓縮，再逐步更新工作環境。",
+    "tags": [
+      "Claude Code",
+      "MCP",
+      "代理可靠性",
+      "權限"
+    ],
+    "image_url": "",
+    "public_notes": "依專案官方發布說明查證；功能與修復未在本文另行實測。"
+  },
+  {
     "id": "2026-10-02-agy-mcp-mcp-google-antigravity-agent",
     "title": "agy-mcp：用 MCP 協定整合 Google Antigravity 作 Agent 後端",
     "title_original": "Boulea7/agy-mcp",
@@ -617,6 +645,32 @@
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
   },
   {
+    "id": "2026-10-01-skills-manager-1-40-3-863a586d",
+    "title": "Skills Manager 1.40.3：修復技能庫同步與啟動問題",
+    "title_original": "Skills Manager v1.40.3",
+    "source": "xingkongliang/skills-manager 官方發布說明",
+    "source_url": "https://github.com/xingkongliang/skills-manager/releases/tag/v1.40.3",
+    "original_url": "https://github.com/xingkongliang/skills-manager/releases/tag/v1.40.3",
+    "published_at": "2026-10-01T23:49:29Z",
+    "category": "agent-skills",
+    "summary": "Skills Manager 1.40.3 修正 Git reftable 技能庫同步失敗、空同步中繼資料造成啟動退出，以及 Windows CLI 橋接安裝問題。",
+    "highlights": [
+      "新建技能庫改用傳統 Git 格式；既有 reftable 技能庫會顯示轉換指引。",
+      "符合安全條件時可依資料庫重建遺失的技能同步中繼資料。",
+      "新增從 CLI 註冊自訂 Agent，並可編輯 preset 描述。"
+    ],
+    "why_it_matters": "集中管理多個 Agent 的 Skills 時，備份與同步可靠性比新增功能更重要；官方已列出具體修復範圍。",
+    "automation_angle": null,
+    "automation_angle_zh": "先備份技能庫，再在測試副本檢查同步與自訂 Agent 註冊流程；不要直接對唯一技能庫執行格式轉換。",
+    "tags": [
+      "Skills",
+      "Git",
+      "開源工具"
+    ],
+    "image_url": "",
+    "public_notes": "依專案官方發布說明查證；功能與修復未在本文另行實測。"
+  },
+  {
     "id": "2026-10-01-wsl-manager-4k-stars-wsl-linux-vm-gui-ai-mcp",
     "title": "WSL Manager 4K stars：WSL/Linux VM 的 GUI 管理工具（含AI助理與MCP）",
     "title_original": "bostrot/wslmanager",
@@ -892,6 +946,36 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/102524453?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-01-claude-artifact-usage-promotion-75158ade",
+    "title": "Claude 文件與簡報限時減半扣除五小時額度，至 10 月 15 日美西時間",
+    "title_original": "50% off usage when you create documents, presentations, and designs in Claude",
+    "source": "Claude 官方公告與支援中心",
+    "source_url": "https://support.claude.com/en/articles/17274727-artifact-usage-promotion",
+    "original_url": "https://x.com/claudeai/status/2105721630051692804",
+    "published_at": "2026-10-01T18:08:53.677Z",
+    "category": "ai-deals",
+    "summary": "Claude Pro、Max、Team 在指定文件、簡報與設計工作中，五小時工作階段額度的消耗降低 50%。這是用量優惠，不是訂閱費打五折；每週上限與 usage credits 收費不變。",
+    "highlights": [
+      "自動套用，無須優惠碼；活動至 2026 年 10 月 15 日 23:59 美西時間，即台北時間 10 月 16 日 14:59。",
+      "聊天中建立或編輯 artifact 後，接下來 10 則訊息的每次回覆前 15 個步驟適用；從指定 Output 選項開始可自第一則套用。",
+      "雲端 Cowork 的適用時間或步驟另有上限；不適用 Code、API、Slack、本機 Cowork、排程或無人值守任務。",
+      "Free、Enterprise、舊版 artifacts、Google 連接器文件及獨立 Design app 不在活動範圍。"
+    ],
+    "why_it_matters": "已訂閱且需要製作文件、簡報或設計的使用者，可在相同五小時額度內完成更多符合資格的工作；不代表每週額度加倍。",
+    "automation_angle": null,
+    "automation_angle_zh": "適合互動式製作與修改文件；不要預期排程、自動執行代理或 API 工作流享有此優惠。",
+    "tags": [
+      "Claude",
+      "用量優惠",
+      "限時",
+      "Pro",
+      "Max",
+      "Team"
+    ],
+    "image_url": "",
+    "public_notes": "官方條款已查證；未公告額外地區限制。不是現金折扣、沒有現金價值且不可轉讓；需既有合資格付費方案，官方保留提前調整或終止活動權利。"
   },
   {
     "id": "2026-10-01-cloudflare-clef",
@@ -2302,6 +2386,33 @@
     ],
     "image_url": "https://avatars.githubusercontent.com/u/245200687?v=4",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-29-ollama-0-35-1-clef-12dde06e",
+    "title": "Ollama 0.35.1 支援 Clef 多模態決策模型",
+    "title_original": "v0.35.1",
+    "source": "ollama/ollama 官方發布說明",
+    "source_url": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
+    "original_url": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
+    "published_at": "2026-09-29T20:14:22Z",
+    "category": "open-source-ai",
+    "summary": "Ollama 0.35.1 新增 Clef 與 Clef Flash 決策模型支援，可透過 /v1/systemone 將圖片與文字狀態一起提供給模型評分。",
+    "highlights": [
+      "官方發布說明列出 Clef 27B 與 Clef Flash 9B。",
+      "Modelfile 新增 CAPABILITY 宣告，支援模型能力的明確標示與繼承。",
+      "決策模型的能力清單只回報 decision，避免客戶端將其誤當一般聊天或工具模型。"
+    ],
+    "why_it_matters": "把決策評分與自由文字生成分開，能讓 Agent 工作流程採用更明確的輸出契約；是否適合實際任務仍需自行評測。",
+    "automation_angle": null,
+    "automation_angle_zh": "可先用小型圖片分類或路由資料集測試 /v1/systemone 的分數，再評估是否接入自動化判斷節點。",
+    "tags": [
+      "Ollama",
+      "Clef",
+      "本地推論",
+      "決策模型"
+    ],
+    "image_url": "",
+    "public_notes": "依專案官方發布說明查證；功能與修復未在本文另行實測。"
   },
   {
     "id": "2026-09-29-reddit-llm",
