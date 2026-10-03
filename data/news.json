@@ -1,5 +1,60 @@
 [
   {
+    "id": "2026-10-03-openclaw-2026-9-8-recovery-d8130e1e",
+    "title": "OpenClaw 2026.9.8 改善更新復原與大型 Codex 設定的記憶體使用",
+    "title_original": "OpenClaw v2026.9.8",
+    "source": "OpenClaw 官方 GitHub Releases",
+    "source_url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.8",
+    "original_url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.8",
+    "published_at": "2026-10-03T03:21:47Z",
+    "category": "agent-skills",
+    "summary": "OpenClaw 2026.9.8 聚焦長時間運作的可靠性：更新修復會保留外掛允許清單與啟用設定，改善大型 Codex 配置的記憶體使用，並讓背景工作的結果留在原本發起的對話。",
+    "highlights": [
+      "改善更新失敗、Windows 啟動與設定重載中斷工作的處理。",
+      "防止同一份狀態被重複 Gateway 使用，並保留委派結果的對話歸屬。",
+      "有權限的帳戶可透過 OpenAI provider 選用 GPT-6.1 Sol。"
+    ],
+    "why_it_matters": "自架助理的穩定性不只取決於模型；升級後能否保留設定、回覆正確對話與避免資源耗盡，同樣影響日常可用性。",
+    "automation_angle": null,
+    "automation_angle_zh": "升級前備份設定與對話資料，再測試背景工作、外掛及實際使用的訊息管道；Windows 2026.9.4 使用者須依官方獨立終端復原程序處理。",
+    "tags": [
+      "OpenClaw",
+      "自架助理",
+      "更新復原",
+      "Codex"
+    ],
+    "image_url": "",
+    "public_notes": "依官方版本與變更紀錄整理，未自行實測。官方註明此版 Telegram 整合檢查獲豁免、未執行，Android APK 亦略過；不可視為全部管道均已通過驗證。"
+  },
+  {
+    "id": "2026-10-02-localai-4-11-audio-failover-54b1497f",
+    "title": "LocalAI 4.11 加入說話者辨識、模型容錯切換與文字轉骨架動畫",
+    "title_original": "LocalAI 4.11.0 Release",
+    "source": "LocalAI 官方 GitHub Releases",
+    "source_url": "https://github.com/mudler/LocalAI/releases/tag/v4.11.0",
+    "original_url": "https://github.com/mudler/LocalAI/releases/tag/v4.11.0",
+    "published_at": "2026-10-02T21:56:09Z",
+    "category": "open-source-ai",
+    "summary": "LocalAI 4.11 將語音轉文字、說話者分離與聲音事件偵測整合成音訊場景，並加入本機與遠端模型的有序容錯切換。新版也支援簽章 OCI 模型庫及 Kimodo 文字轉骨架動畫。",
+    "highlights": [
+      "音訊工作流程可搭配相容模型，將已明確登錄的聲音對應到說話者名稱。",
+      "模型可在回覆尚未開始送出前，依設定順序切換到備援目標；提供健康狀態與人工固定目標控制。",
+      "Kimodo 可產生 30 FPS、60 至 150 幀的骨架動畫並匯出 GLB；輸出不包含人形網格。"
+    ],
+    "why_it_matters": "自架 AI 服務可用同一套介面處理錄音與模型可用性，動畫製作流程也多了一個可驗證的動作素材來源。",
+    "automation_angle": null,
+    "automation_angle_zh": "先在測試環境驗證語音分段和故障切換，再評估 GLB 動畫是否適合既有角色骨架；不要把聲音辨識結果當成身分證明。",
+    "tags": [
+      "LocalAI",
+      "自架",
+      "語音辨識",
+      "模型容錯",
+      "骨架動畫"
+    ],
+    "image_url": "",
+    "public_notes": "依官方版本說明整理，未實測效能。聲音特徵屬敏感生物特徵資料，登錄及匯出應取得同意；各功能需相容模型與硬體。"
+  },
+  {
     "id": "2026-10-02-claude-code-2-1-288-17def7a9",
     "title": "Claude Code 2.1.288：修正 MCP 重複呼叫、代理續跑與權限檢查",
     "title_original": "v2.1.288",
