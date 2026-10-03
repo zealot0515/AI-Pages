@@ -28,6 +28,61 @@
     "public_notes": "依專案官方發布說明查證；功能與修復未在本文另行實測。"
   },
   {
+    "id": "2026-10-02-copilot-review-api-balanced-c7de151a",
+    "title": "GitHub Copilot 程式碼審查開放 API，可逐次指定審查強度",
+    "title_original": "Copilot code review: API support and new default effort level",
+    "source": "GitHub 官方 Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+    "original_url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+    "published_at": "2026-10-02T19:13:50Z",
+    "category": "agent-skills",
+    "summary": "GitHub Copilot code review 正式支援透過 REST 與 GraphQL API 發起審查，並可在每次請求指定 effort level，方便串接既有自動化流程。",
+    "highlights": [
+      "適用 Copilot Pro、Pro+、Max、Business 與 Enterprise。",
+      "Default 審查強度已於 9 月 28 日改用 Balanced；原先明確指定 Lite 的設定保留。",
+      "個人、儲存庫、組織與企業皆可管理審查強度，較細層級可覆寫上層設定。"
+    ],
+    "why_it_matters": "開發團隊可把 AI 審查整合到 PR 腳本與內部工具，並明確控制每次審查強度。",
+    "automation_angle": null,
+    "automation_angle_zh": "在現有 PR 流程加入 API 審查請求，先以測試儲存庫驗證權限、觸發條件與 effort level，再逐步擴大使用。",
+    "tags": [
+      "GitHub Copilot",
+      "API",
+      "程式碼審查",
+      "自動化"
+    ],
+    "image_url": "",
+    "public_notes": "發布時間依 GitHub 官方 RSS；功能與限制已核對官方公告。"
+  },
+  {
+    "id": "2026-10-02-copilot-october-model-retirements-21184788",
+    "title": "GitHub Copilot 淘汰四款舊模型，工作流程需檢查替代模型",
+    "title_original": "Selected models in GitHub Copilot deprecated",
+    "source": "GitHub 官方 Changelog",
+    "source_url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
+    "original_url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
+    "published_at": "2026-10-02T18:24:19Z",
+    "category": "new-models",
+    "summary": "GitHub 於 10 月 2 日宣布，在 Copilot 各種使用介面停用 Gemini 3.5 Flash、Gemini 3.6 Flash、Kimi K2.7 Code 與 Claude Opus 4.7。",
+    "highlights": [
+      "Gemini 3.5／3.6 Flash 建議改用 Gemini 3.8 Flash。",
+      "Kimi K2.7 Code 建議改用 Kimi K3；Claude Opus 4.7 建議改用 Claude Opus 5.5。",
+      "Enterprise 管理員可能需先在模型政策中開放替代模型；不需手動移除已淘汰模型。"
+    ],
+    "why_it_matters": "固定使用舊模型的 Copilot 整合與團隊設定需要確認可用性，避免切換後產生工作流程落差。",
+    "automation_angle": null,
+    "automation_angle_zh": "盤點 Copilot 工作流程與模型政策中的指定模型，確認替代模型權限，再用代表性任務驗證行為。",
+    "tags": [
+      "GitHub Copilot",
+      "模型退役",
+      "Gemini",
+      "Claude",
+      "Kimi"
+    ],
+    "image_url": "",
+    "public_notes": "發布時間依 GitHub 官方 RSS；功能與限制已核對官方公告。"
+  },
+  {
     "id": "2026-10-02-agy-mcp-mcp-google-antigravity-agent",
     "title": "agy-mcp：用 MCP 協定整合 Google Antigravity 作 Agent 後端",
     "title_original": "Boulea7/agy-mcp",
