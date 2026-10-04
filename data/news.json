@@ -27,6 +27,33 @@
     "public_notes": "依官方 GitHub release 查證；發表時間使用 GitHub published_at。"
   },
   {
+    "id": "20261003-thinkingbox-state-evaluation-5d9c3530",
+    "title": "Microsoft ThinkingBox 接上 OpenEnv，以資料庫結果驗證 Agent 可靠性",
+    "title_original": "The Agent Said It Was Done. The Database Disagreed.",
+    "source": "Microsoft / Hugging Face",
+    "source_url": "https://huggingface.co/blog/microsoft/thinkingbox",
+    "original_url": "https://huggingface.co/blog/microsoft/thinkingbox",
+    "published_at": "2026-10-03T22:56:48Z",
+    "category": "agent-skills",
+    "summary": "Microsoft 與 Hugging Face 介紹 ThinkingBox：透過最終後端狀態及副作用檢查，判斷 Agent 是否真正完成工作，並以重複執行衡量穩定性。",
+    "highlights": [
+      "包含 507 個具狀態商業流程，每項執行 20 次。",
+      "已提供 OpenEnv 評估介面、框架及資料集；公開情境使用合成資料。",
+      "程式碼採 MIT 授權，基準資料採 CDLA-Permissive-2.0。"
+    ],
+    "why_it_matters": "單次成功或正常工具回應不代表資料修改正確；此基準提供可重現的結果驗收方式。",
+    "automation_angle": null,
+    "automation_angle_zh": "可先選一個沙盒流程，檢查必要狀態變更與多餘副作用，再比較重複成功率。",
+    "tags": [
+      "Agent 評估",
+      "MCP",
+      "OpenEnv",
+      "開源"
+    ],
+    "image_url": "",
+    "public_notes": "數據為作者基準測試結果；不代表真實服務的保證成功率。"
+  },
+  {
     "id": "2026-10-03-openclaw-2026-9-8-recovery-d8130e1e",
     "title": "OpenClaw 2026.9.8 改善更新復原與大型 Codex 設定的記憶體使用",
     "title_original": "OpenClaw v2026.9.8",
