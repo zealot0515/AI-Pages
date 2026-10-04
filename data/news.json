@@ -1,5 +1,140 @@
 [
   {
+    "id": "2026-10-04-surfsense-2-1-local-document-workspace-b1661215",
+    "title": "SurfSense 2.1 擴充桌面模型連線與文件閱讀，雲端資料將於 10 月 18 日刪除",
+    "title_original": "v2.1.0",
+    "source": "SurfSense / GitHub",
+    "source_url": "https://github.com/MODSetter/SurfSense/releases/tag/v2.1.0",
+    "original_url": "https://github.com/MODSetter/SurfSense/releases/tag/v2.1.0",
+    "published_at": "2026-10-04T13:15:18Z",
+    "category": "agent-skills",
+    "summary": "SurfSense 2.1 桌面版新增直接連接 Anthropic、使用 ChatGPT Plus／Pro 作為聊天模型等選項，並擴充圖片聊天、PDF 預覽及離線圖片解析。既有雲端服務已轉為僅匯出模式。",
+    "highlights": [
+      "可把圖片送給視覺聊天模型，在程式內預覽 PDF 來源，並以離線方式解析圖片。",
+      "測驗與字卡可用 JSON Schema 約束回覆；文件索引、模型安裝和取消工作流程也有修正。",
+      "官方公告雲端資料於 2026 年 10 月 18 日刪除，使用者須提前匯出；ZIP 不含原始上傳檔、生成產物、工具呼叫、代理步驟與即時引用連結。"
+    ],
+    "why_it_matters": "本地文件工作流程更完整，但舊雲端使用者需要先處理資料保留，不能假設匯出包就是完整備份。",
+    "automation_angle": null,
+    "automation_angle_zh": "雲端使用者可先依官方搬遷指引匯出並核對重要檔案，再在桌面版用少量文件測試索引、引用和結構化輸出。",
+    "tags": [
+      "本地工作區",
+      "文件檢索",
+      "PDF",
+      "資料搬遷"
+    ],
+    "image_url": "",
+    "public_notes": "搬遷細節：https://www.surfsense.com/sunset。OpenCode 代理仍預設不納入發行版本。大部分程式碼採 Apache 2.0，指定 proprietary 後端目錄採 BSL 1.1；外掛與優先支援另需授權。"
+  },
+  {
+    "id": "2026-10-04-matt-pocock-skills-1-3-1-66b617f2",
+    "title": "Matt Pocock Skills 1.3.1 納入平行規格實作流程，修復六項技能安裝",
+    "title_original": "v1.3.1",
+    "source": "Matt Pocock / GitHub",
+    "source_url": "https://github.com/mattpocock/skills/releases/tag/v1.3.1",
+    "original_url": "https://github.com/mattpocock/skills/releases/tag/v1.3.1",
+    "published_at": "2026-10-04T12:48:18Z",
+    "category": "agent-skills",
+    "summary": "Matt Pocock 的技能集將 implement-spec、pr 與 retro 納入 Engineering 和 Claude Code 外掛，並修復六項技能因 YAML 格式錯誤而無法被發現或安裝的問題。",
+    "highlights": [
+      "implement-spec 依任務相依圖安排子代理，在各自 worktree 實作後匯入同一整合分支，再進行程式碼審查。",
+      "pr 整理變更證據與合併風險；retro 回顧工作環境，優先把可機械檢查的規則變成自動檢查。",
+      "領域文件慣例由 CONTEXT.md／CONTEXT-MAP.md 改為 GLOSSARY.md／GLOSSARY-MAP.md。"
+    ],
+    "why_it_matters": "從規格到交付的技能串接更完整，也補上安裝探索與文件命名的相容性問題。",
+    "automation_angle": null,
+    "automation_angle_zh": "可在測試專案用一份小規格驗證平行實作與整合流程；既有使用者先檢查領域文件名稱和技能能否正常載入。",
+    "tags": [
+      "Agent Skills",
+      "Claude Code",
+      "平行開發",
+      "worktree"
+    ],
+    "image_url": "",
+    "public_notes": "implement-spec 與 retro 需由使用者啟動；舊 CONTEXT 文件須依官方指引改名。1.3.0 與 1.3.1 同日相近時間發布，此處合併報導最新版本。"
+  },
+  {
+    "id": "2026-10-04-strata-0-1-39-codex-responses-4e7144d7",
+    "title": "Strata 0.1.39 加入 Responses API，讓 Codex CLI 接上本地推論",
+    "title_original": "Strata v0.1.39",
+    "source": "Strata / GitHub",
+    "source_url": "https://github.com/Niko1221/Strata/releases/tag/v0.1.39",
+    "original_url": "https://github.com/Niko1221/Strata/releases/tag/v0.1.39",
+    "published_at": "2026-10-04T12:32:47Z",
+    "category": "open-source-ai",
+    "summary": "Strata 0.1.39 新增無狀態的 OpenAI Responses API 相容介面，官方已用 Codex 0.160.0 測試工具呼叫迴圈，另提供選用式平行會話與解碼、長提示詞最佳化。",
+    "highlights": [
+      "Responses API 支援函式工具、工具結果、推理強度、JSON Schema 與串流事件。",
+      "可選擇同時解碼多個會話；官方 12GB 顯示卡測試中等待時間縮短，但總吞吐量與單一請求速度可能下降。",
+      "加入舊款 GPU、Intel Arc 與較舊 CPU 的實驗性路徑，支援與驗證範圍依硬體而異。"
+    ],
+    "why_it_matters": "本地模型更容易接入既有 Codex 開發流程，但相容介面和並行能力仍有明確邊界，不能直接等同雲端服務。",
+    "automation_angle": null,
+    "automation_angle_zh": "可先以簡單的讀檔與工具回傳流程檢查本地 Codex 相容性，再依 VRAM 餘裕決定是否啟用平行會話。",
+    "tags": [
+      "本地推論",
+      "Codex",
+      "Responses API",
+      "開源"
+    ],
+    "image_url": "",
+    "public_notes": "不支援 previous_response_id、託管工具或推理摘要。效能數字屬作者指定硬體測試；舊 GPU 與 Intel Arc 路徑仍屬實驗性，不代表所有裝置都已驗證。"
+  },
+  {
+    "id": "2026-10-04-cc-switch-4-0-aggregation-d8556178",
+    "title": "CC Switch 4.0 預覽版加入多供應商模型聚合，改用局部設定寫入",
+    "title_original": "CC Switch v4.0.0",
+    "source": "CC Switch / GitHub",
+    "source_url": "https://github.com/farion1231/cc-switch/releases/tag/v4.0.0",
+    "original_url": "https://github.com/farion1231/cc-switch/releases/tag/v4.0.0",
+    "published_at": "2026-10-04T11:01:01Z",
+    "category": "agent-skills",
+    "summary": "CC Switch 4.0 重做模型供應商管理與會話閱讀介面，新增 Claude Code、Codex 的選用式聚合模式，並以關鍵欄位替換降低切換供應商時覆寫其他設定的風險。",
+    "highlights": [
+      "多家供應商模型可同時出現在 Claude Code 或 Codex 模型選擇器，由所選模型決定請求目的地。",
+      "九種客戶端會話可整理成結構化內容，查看工具參數、執行失敗、檔案變更與用量。",
+      "寫入前檢查外部改動、首次寫入前備份；無關設定盡量保留，格式有誤時停止寫入。"
+    ],
+    "why_it_matters": "多模型開發工作可減少往返切換，也更容易追查代理在哪個步驟出錯。",
+    "automation_angle": null,
+    "automation_angle_zh": "先備份設定並在測試環境試用聚合與會話檢視，確認所需模型、請求目的地及用量記錄，再評估導入日常開發。",
+    "tags": [
+      "Codex",
+      "Claude Code",
+      "模型路由",
+      "設定管理"
+    ],
+    "image_url": "",
+    "public_notes": "GitHub 標示為預發布版本。聚合須手動開啟，目前支援 Claude Code 與 Codex，且不提供故障轉移；切換模型後須重建提示詞快取，首輪費用可能增加。"
+  },
+  {
+    "id": "2026-10-04-future-agi-1-46-run-analytics-69e9032f",
+    "title": "Future AGI 1.46 強化代理測試分析，分開評估結果、執行健康與實際成本",
+    "title_original": "v1.46.0",
+    "source": "Future AGI / GitHub",
+    "source_url": "https://github.com/future-agi/future-agi/releases/tag/v1.46.0",
+    "original_url": "https://github.com/future-agi/future-agi/releases/tag/v1.46.0",
+    "published_at": "2026-10-04T09:26:09Z",
+    "category": "open-source-ai",
+    "summary": "Future AGI 1.46 更新 Run Analytics，將代理品質與執行健康分開呈現，加入重複測試的可靠性資訊，並避免把模擬器支出誤當成受測代理的成本。",
+    "highlights": [
+      "保留情境與試驗身分，提供重複試驗可靠性、情境群組信賴區間與共同情境比較。",
+      "執行錯誤、未量測結果與評估失敗分開；不同列表、篩選與分析共用評分設定。",
+      "目標代理成本、Token 與延遲使用供應商回報資料；缺少成本時不以模擬器費用補值。"
+    ],
+    "why_it_matters": "單一成功率容易掩蓋基礎設施故障或不穩定情境；分開統計更有助於找出該修流程、評分規則還是代理本身。",
+    "automation_angle": null,
+    "automation_angle_zh": "可先在非正式環境對相同情境重複測試，追蹤結果是否穩定，並把執行錯誤與代理品質分開設置驗收條件。",
+    "tags": [
+      "Agent 評估",
+      "可觀測性",
+      "可靠性",
+      "Apache 2.0"
+    ],
+    "image_url": "",
+    "public_notes": "官方 README 仍標示為早期測試版本。功能細節見合併的 PR #3121；作者明示未重跑完整資料庫、前端與端到端測試，亦未宣稱效能保證。"
+  },
+  {
     "id": "2026-10-03-claude-code-2-1-289-16def616",
     "title": "Claude Code 2.1.289 修正權限規則與外掛穩定性，加入隊友生成介面",
     "title_original": "Claude Code v2.1.289",
