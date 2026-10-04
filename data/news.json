@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-10-03-claude-code-2-1-289-16def616",
+    "title": "Claude Code 2.1.289 修正權限規則與外掛穩定性，加入隊友生成介面",
+    "title_original": "Claude Code v2.1.289",
+    "source": "Anthropic / GitHub",
+    "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
+    "original_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
+    "published_at": "2026-10-03T23:07:17Z",
+    "category": "agent-skills",
+    "summary": "Anthropic 發布 Claude Code 2.1.289，修正複合 shell 指令、環境變數前綴與符號連結情境下的拒絕／詢問規則問題，並改善外掛載入與背景工作穩定性。",
+    "highlights": [
+      "修正沙盒自動允許模式下部分 Bash 拒絕／詢問規則未生效，以及 IDE 經符號連結引用檔案時 Read 拒絕規則未套用的問題。",
+      "新增供隊友使用的 agent.spawn、跨外掛 hook 事件一致的 agent ID，以及代理清單的閒置與等待狀態。",
+      "修正使用者外掛能改寫組織管理 MCP 登入工具描述的問題，以及多種終端機與外掛渲染當機。"
+    ],
+    "why_it_matters": "受管理環境及長時間代理任務的使用者，可據此檢視權限與外掛相容性。",
+    "automation_angle": null,
+    "automation_angle_zh": "在測試環境重跑 Bash、Read 與 MCP 權限案例，並驗證外掛及背景代理的恢復行為。",
+    "tags": [
+      "Claude Code",
+      "MCP",
+      "權限控管",
+      "多代理"
+    ],
+    "image_url": "",
+    "public_notes": "依官方 GitHub release 查證；發表時間使用 GitHub published_at。"
+  },
+  {
     "id": "2026-10-03-openclaw-2026-9-8-recovery-d8130e1e",
     "title": "OpenClaw 2026.9.8 改善更新復原與大型 Codex 設定的記憶體使用",
     "title_original": "OpenClaw v2026.9.8",
@@ -530,6 +557,32 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-10-02-n8n-2-41-6-41424746",
+    "title": "n8n 2.41.6 修正未處理 Promise 拒絕造成的任務執行器中斷",
+    "title_original": "n8n 2.41.6",
+    "source": "n8n / GitHub",
+    "source_url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.6",
+    "original_url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.6",
+    "published_at": "2026-10-02T07:27:37Z",
+    "category": "agent-skills",
+    "summary": "n8n 發布 2.41.6 修補版本，讓 task runner 在發生未處理的 Promise rejection 時仍保持運作，改善工作流程執行器的穩定性。",
+    "highlights": [
+      "官方版本說明列出核心 task runner 的錯誤處理修正。",
+      "此項修正對應 issue #40092；公告未宣稱所有工作流程錯誤均可自動恢復。"
+    ],
+    "why_it_matters": "以 n8n 串接 AI、排程與外部 API 的自架使用者，可評估此修補是否解決執行器意外停止的情況。",
+    "automation_angle": null,
+    "automation_angle_zh": "升級前備份設定並在測試環境重跑含非同步錯誤的代表性流程，確認執行器存活與失敗任務記錄。",
+    "tags": [
+      "n8n",
+      "自動化",
+      "工作流程",
+      "錯誤處理"
+    ],
+    "image_url": "",
+    "public_notes": "依官方 GitHub release 查證；發表時間使用 GitHub published_at。"
   },
   {
     "id": "2026-10-02-1-5b-120b",
@@ -1836,6 +1889,33 @@
     ],
     "image_url": "",
     "public_notes": "Crawler watch item. Original link preserved; confidence below auto-publish threshold."
+  },
+  {
+    "id": "2026-09-30-transformers-5-18-0d8cf50d",
+    "title": "Transformers 5.18 加入 Nemotron 說話者分離、多模態與 GTE 模型支援",
+    "title_original": "Transformers v5.18.0",
+    "source": "Hugging Face / GitHub",
+    "source_url": "https://github.com/huggingface/transformers/releases/tag/v5.18.0",
+    "original_url": "https://github.com/huggingface/transformers/releases/tag/v5.18.0",
+    "published_at": "2026-09-30T16:46:27Z",
+    "category": "open-source-ai",
+    "summary": "Hugging Face Transformers 5.18.0 新增 Nemotron 3 Diarization、NemotronH Omni、HyperCLOVAX Vision V2 與 GTE 架構支援，並包含多項推論、模型載入與硬體相容性修正。",
+    "highlights": [
+      "Nemotron 3 Diarization 支援串流與離線說話者分離，最多處理八位說話者。",
+      "NemotronH Omni 整合文字、影像、影片與聲音；HyperCLOVAX Vision V2 支援文字、影像與影片輸入。",
+      "版本列出 ROCm、影像處理與 vLLM 影片 token 計數等破壞性變更，升級前應核對依賴。"
+    ],
+    "why_it_matters": "統一函式庫新增語音與多模態模型介面，讓既有 Python 推論管線有更多整合選項。",
+    "automation_angle": null,
+    "automation_angle_zh": "可先用既有錄音及檢索資料評估說話者分離與 GTE，固定模型和套件版本後再更新正式工作流程。",
+    "tags": [
+      "Transformers",
+      "Hugging Face",
+      "語音辨識",
+      "多模態"
+    ],
+    "image_url": "",
+    "public_notes": "依官方 GitHub release 查證；發表時間使用 GitHub published_at。"
   },
   {
     "id": "2026-09-30-item",
